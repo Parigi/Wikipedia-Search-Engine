@@ -1,0 +1,327 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.10/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.10/ http://www.mediawiki.org/xml/export-0.10.xsd" version="0.10" xml:lang="en">
+  <siteinfo>
+    <sitename>Wikipedia</sitename>
+    <dbname>enwiki</dbname>
+    <base>https://en.wikipedia.org/wiki/Main_Page</base>
+    <generator>MediaWiki 1.35.0-wmf.36</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Media</namespace>
+      <namespace key="-1" case="first-letter">Special</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Talk</namespace>
+      <namespace key="2" case="first-letter">User</namespace>
+      <namespace key="3" case="first-letter">User talk</namespace>
+      <namespace key="4" case="first-letter">Wikipedia</namespace>
+      <namespace key="5" case="first-letter">Wikipedia talk</namespace>
+      <namespace key="6" case="first-letter">File</namespace>
+      <namespace key="7" case="first-letter">File talk</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki talk</namespace>
+      <namespace key="10" case="first-letter">Template</namespace>
+      <namespace key="11" case="first-letter">Template talk</namespace>
+      <namespace key="12" case="first-letter">Help</namespace>
+      <namespace key="13" case="first-letter">Help talk</namespace>
+      <namespace key="14" case="first-letter">Category</namespace>
+      <namespace key="15" case="first-letter">Category talk</namespace>
+      <namespace key="100" case="first-letter">Portal</namespace>
+      <namespace key="101" case="first-letter">Portal talk</namespace>
+      <namespace key="108" case="first-letter">Book</namespace>
+      <namespace key="109" case="first-letter">Book talk</namespace>
+      <namespace key="118" case="first-letter">Draft</namespace>
+      <namespace key="119" case="first-letter">Draft talk</namespace>
+      <namespace key="446" case="first-letter">Education Program</namespace>
+      <namespace key="447" case="first-letter">Education Program talk</namespace>
+      <namespace key="710" case="first-letter">TimedText</namespace>
+      <namespace key="711" case="first-letter">TimedText talk</namespace>
+      <namespace key="828" case="first-letter">Module</namespace>
+      <namespace key="829" case="first-letter">Module talk</namespace>
+      <namespace key="2300" case="first-letter">Gadget</namespace>
+      <namespace key="2301" case="first-letter">Gadget talk</namespace>
+      <namespace key="2302" case="case-sensitive">Gadget definition</namespace>
+      <namespace key="2303" case="case-sensitive">Gadget definition talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Least squares</title>
+    <ns>0</ns>
+    <id>82359</id>
+    <revision>
+      <id>960099322</id>
+      <parentid>960099144</parentid>
+      <timestamp>2020-06-01T03:42:28Z</timestamp>
+      <contributor>
+        <username>Tarikhejtemai</username>
+        <id>34008418</id>
+      </contributor>
+      <comment>/* Linear least squares */</comment>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="36704" xml:space="preserve">{{short description|Method in statistics}}
+{{distinguish-redirect|Least squares approximation|Least-squares function approximation}}
+{{Regression bar}}
+[[File:Linear least squares2.png|right|thumb|The result of fitting a set of data points with a quadratic function]]
+[[File:X33-ellips-1.svg|thumb|Conic fitting a set of points using least-squares approximation]]
+The method of '''least squares''' is a standard approach in [[regression analysis]] to approximate the solution of [[overdetermined system]]s (sets of equations in which there are more equations than unknowns) by minimizing the sum of the squares of the residuals made in the results of every single equation.
+
+The most important application is in [[curve fitting|data fitting]]. The best fit in the least-squares sense minimizes ''the sum of squared [[errors and residuals in statistics|residuals]]'' (a residual being: the difference between an observed value, and the fitted value provided by a model). When the problem has substantial uncertainties in the [[independent variable]] (the ''x'' variable), then simple regression and least-squares methods have problems; in such cases, the methodology required for fitting [[errors-in-variables models]] may be considered instead of that for least squares.
+
+Least-squares problems fall into two categories: linear or [[ordinary least squares]] and [[nonlinear least squares]], depending on whether or not the residuals are linear in all unknowns. The linear least-squares problem occurs in statistical [[regression analysis]]; it has a [[closed-form solution]]. The nonlinear problem is usually solved by iterative refinement; at each iteration the system is approximated by a linear one, and thus the core calculation is similar in both cases.
+
+[[Polynomial least squares]] describes the variance in a prediction of the dependent variable as a function of the independent variable and the deviations from the fitted curve.
+
+When the observations come from an [[exponential family]] and mild conditions are satisfied, least-squares estimates and [[Maximum likelihood|maximum-likelihood]] estimates are identical.&lt;ref&gt;{{Cite journal | last1 = Charnes | first1 = A. | last2 = Frome | first2 = E. L. | last3 = Yu | first3 = P. L. | doi = 10.1080/01621459.1976.10481508 | title = The Equivalence of Generalized Least Squares and Maximum Likelihood Estimates in the Exponential Family | journal = Journal of the American Statistical Association | volume = 71 | issue = 353 | pages = 169–171 | year = 1976 | pmid =  | pmc = }}&lt;/ref&gt; The method of least squares can also be derived as a [[method of moments (statistics)|method of moments]] estimator.
+
+The following discussion is mostly presented in terms of [[linear]] functions but the use of least squares is valid and practical for more general families of functions. Also, by iteratively applying local quadratic approximation to the likelihood (through the [[Fisher information]]), the least-squares method may be used to fit a [[generalized linear model]].
+
+The least-squares method is usually credited to [[Carl Friedrich Gauss]] (1795),&lt;ref name=brertscher&gt;{{cite book |last=Bretscher |first=Otto |title=Linear Algebra With Applications |edition=3rd |publisher=Prentice Hall |year=1995 |location=Upper Saddle River, NJ}}&lt;/ref&gt; but it was first published by [[Adrien-Marie Legendre]] (1805).&lt;ref&gt;{{cite journal |first=Stephen M. |last=Stigler |year=1981 |title=Gauss and the Invention of Least Squares |journal=Ann. Stat. |volume=9 |issue=3 |pages=465–474 |doi=10.1214/aos/1176345451 |pmc= |pmid= |doi-access=free }}&lt;/ref&gt;
+
+==History==
+
+===Founding===
+The method of least squares grew out of the fields of [[astronomy]] and [[geodesy]], as scientists and mathematicians sought to provide solutions to the challenges of navigating the Earth's oceans during the [[Age of Exploration]]. The accurate description of the behavior of celestial bodies was the key to enabling ships to sail in open seas, where sailors could no longer rely on land sightings for navigation.
+
+The method was the culmination of several advances that took place during the course of the eighteenth century:&lt;ref name=stigler&gt;{{cite book
+  | last = Stigler
+  | first = Stephen M.
+  | title = The History of Statistics: The Measurement of Uncertainty Before 1900
+  | publisher = Belknap Press of Harvard University Press
+  | year = 1986
+  | location = Cambridge, MA
+  | isbn = 978-0-674-40340-6
+  | url-access = registration
+  | url = https://archive.org/details/historyofstatist00stig
+  }}&lt;/ref&gt;
+
+*The combination of different observations as being the best estimate of the true value; errors decrease with aggregation rather than increase, perhaps first expressed by [[Roger Cotes]] in 1722.
+*The combination of different observations taken under the ''same'' conditions contrary to simply trying one's best to observe and record a single observation accurately. The approach was known as the method of averages. This approach was notably used by [[Tobias Mayer]] while studying the [[libration]]s of the moon in 1750, and by [[Pierre-Simon Laplace]] in his work in explaining the differences in motion of [[Jupiter]] and [[Saturn]] in 1788.
+*The combination of different observations taken under ''different'' conditions. The method came to be known as the method of least absolute deviation. It was notably performed by [[Roger Joseph Boscovich]] in his work on the shape of the earth in 1757 and by [[Pierre-Simon Laplace]] for the same problem in 1799.
+*The development of a criterion that can be evaluated to determine when the solution with the minimum error has been achieved. Laplace tried to specify a mathematical form of the [[probability]] density for the errors and define a method of estimation that minimizes the error of estimation. For this purpose, Laplace used a symmetric two-sided exponential distribution we now call [[Laplace distribution]] to model the error distribution, and used the sum of absolute deviation as error of estimation. He felt these to be the simplest assumptions he could make, and he had hoped to obtain the arithmetic mean as the best estimate. Instead, his estimator was the posterior median.
+
+===The method===
+[[File:Bendixen - Carl Friedrich Gauß, 1828.jpg|thumb|upright=0.8|[[Carl Friedrich Gauss]]]]
+
+The first clear and concise exposition of the method of least squares was published by [[Adrien-Marie Legendre|Legendre]] in 1805.&lt;ref&gt;{{Citation |first=Adrien-Marie |last=Legendre |title=Nouvelles méthodes pour la détermination des orbites des comètes |trans-title=New Methods for the Determination of the Orbits of Comets |language=French |publisher=F. Didot |location=Paris |year=1805 |url=https://books.google.com/books/about/Nouvelles_m%C3%A9thodes_pour_la_d%C3%A9terminati.html?id=FRcOAAAAQAAJ }}&lt;/ref&gt; The technique is described as an algebraic procedure for fitting linear equations to data and Legendre demonstrates the new method by analyzing the same data as Laplace for the shape of the earth. The value of Legendre's method of least squares was immediately recognized by leading astronomers and geodesists of the time.
+
+In 1809 [[Carl Friedrich Gauss]] published his method of calculating the orbits of celestial bodies. In that work he claimed to have been in possession of the method of least squares since 1795. This naturally led to a priority dispute with Legendre. However, to Gauss's credit, he went beyond Legendre and succeeded in connecting the method of least squares with the principles of probability and to the [[normal distribution]]. He had managed to complete Laplace's program of specifying a mathematical form of the probability density for the observations, depending on a finite number of unknown parameters, and define a method of estimation that minimizes the error of estimation. Gauss showed that the [[arithmetic mean]] is indeed the best estimate of the location parameter by changing both the [[probability density]] and the method of estimation. He then turned the problem around by asking what form the density should have and what method of estimation should be used to get the arithmetic mean as estimate of the location parameter. In this attempt, he invented the normal distribution.
+
+An early demonstration of the strength of [[Gauss's method]] came when it was used to predict the future location of the newly discovered asteroid [[Ceres (dwarf planet)|Ceres]]. On 1 January 1801, the Italian astronomer [[Giuseppe Piazzi]] discovered Ceres and was able to track its path for 40 days before it was lost in the glare of the sun. Based on these data, astronomers desired to determine the location of Ceres after it emerged from behind the sun without solving [[Kepler's laws of planetary motion|Kepler's complicated nonlinear equations]] of planetary motion. The only predictions that successfully allowed Hungarian astronomer [[Franz Xaver von Zach]] to relocate Ceres were those performed by the 24-year-old Gauss using least-squares analysis.
+
+In 1810, after reading Gauss's work, Laplace, after proving the [[central limit theorem]], used it to give a large sample justification for the method of least squares and the normal distribution. In 1822, Gauss was able to state that the least-squares approach to regression analysis is optimal in the sense that in a linear model where the errors have a mean of zero, are uncorrelated, and have equal variances, the best linear unbiased estimator of the coefficients is the least-squares estimator. This result is known as the [[Gauss–Markov theorem]].
+
+The idea of least-squares analysis was also independently formulated by the American [[Robert Adrain]] in 1808. In the next two centuries workers in the theory of errors and in statistics found many different ways of implementing least squares.&lt;ref&gt;{{cite journal |doi=10.1111/j.1751-5823.1998.tb00406.x |first=J. |last=Aldrich |year=1998|title=Doing Least Squares: Perspectives from Gauss and Yule |journal=International Statistical Review |volume=66 |issue=1 |pages= 61–81}}&lt;/ref&gt;
+
+==Problem statement==
+The objective consists of adjusting the parameters of a model function to best fit a data set. A simple data set consists of ''n'' points (data pairs) &lt;math&gt;(x_i,y_i)\!&lt;/math&gt;, ''i'' = 1, ..., ''n'', where &lt;math&gt;x_i\!&lt;/math&gt; is an [[independent variable]] and &lt;math&gt;y_i\!&lt;/math&gt; is a [[dependent variable]] whose value is found by observation. The model function has the form &lt;math&gt;f(x,\beta)&lt;/math&gt;, where ''m'' adjustable parameters are held in the vector &lt;math&gt;\boldsymbol \beta&lt;/math&gt;. The goal is to find the parameter values for the model that "best" fits the data. The fit of a model to a data point is measured by its [[errors and residuals in statistics|residual]], defined as the difference between the actual value of the dependent variable and the value predicted by the model: 
+:&lt;math&gt;r_i=y_i-f(x_i,\boldsymbol \beta).&lt;/math&gt;[[File:Linear Residual Plot Graph.png|thumb|The residuals are plotted against corresponding &lt;math&gt;x&lt;/math&gt; values. The random fluctuations about &lt;math&gt;r_i=0&lt;/math&gt; indicate a linear model is appropriate.|251x251px]]
+
+The least-squares method finds the optimal parameter values by  minimizing the sum, &lt;math&gt;S&lt;/math&gt;, of squared residuals:
+
+&lt;math&gt;S=\sum_{i=1}^{n}r_i^2.&lt;/math&gt;&lt;ref name=":0" /&gt;
+
+An example of a model in two dimensions is that of the straight line. Denoting the y-intercept as &lt;math&gt;\beta_0&lt;/math&gt; and the slope as &lt;math&gt;\beta_1&lt;/math&gt;, the model function is given by &lt;math&gt;f(x,\boldsymbol \beta)=\beta_0+\beta_1 x&lt;/math&gt;. See [[Linear least squares #Example|linear least squares]] for a fully worked out example of this model.
+
+A data point may consist of more than one independent variable. For example, when fitting a plane to a set of height measurements, the plane is a function of two independent variables, ''x'' and ''z'', say. In the most general case there may be one or more independent variables and one or more dependent variables at each data point.  
+
+To the right is a residual plot illustrating random fluctuations about &lt;math&gt;r_i=0&lt;/math&gt;, indicating that a linear model&lt;math&gt;(Y_i=\alpha+\beta x_i+U_i)&lt;/math&gt; is appropriate. &lt;math&gt;U_i&lt;/math&gt; is an independent, random variable.&lt;ref name=":0"&gt;{{Cite book|title=A modern introduction to probability and statistics : understanding why and how|date=2005|publisher=Springer|others=Dekking, Michel, 1946-|isbn=978-1-85233-896-1|location=London|oclc=262680588}}&lt;/ref&gt;   
+[[File:Parabolic Residual Plot Graph.png|thumb|247x247px|The residuals are plotted against the corresponding &lt;math&gt;x&lt;/math&gt; values. The parabolic shape of the fluctuations about &lt;math&gt;r_i=0&lt;/math&gt; indicate a parabolic model is appropriate. ]] 
+
+If the residual points had some sort of a shape and were not randomly fluctuating, a linear model would not be appropriate. For example, if the residual plot had a parabolic shape as seen to the right, a parabolic model&lt;math&gt;(Y_i=\alpha+\beta x_i+\gamma x_i^2+U_i)&lt;/math&gt; would be appropriate for the data. The residuals for a parabolic model can be calculated via &lt;math&gt;r_i=y_i-\hat{\alpha}-\hat{\beta} x_i-\widehat{\gamma} x_i^2&lt;/math&gt;.&lt;ref name=":0" /&gt; &lt;!-- Also, the residuals may be weighted to take into account differences in the reliability of the measurements.
+math&gt; S = \sum_{i=1}^n w_ir_i^2 &lt;/math&gt;.
+This is called '''weighted least squares,''' in contrast to '''ordinary least squares''' in which unit weights are used. --&gt;
+
+==Limitations==
+This regression formulation considers only observational errors in the dependent variable (but the alternative [[total least squares]] regression can account for errors in both variables). There are two rather different contexts with  different implications:
+
+*Regression for prediction. Here a model is fitted to provide a prediction rule for application in a similar situation to which the data used for fitting apply. Here the dependent variables corresponding to such future application would be subject to the same types of observation error as those in the data used for fitting. It is therefore logically consistent to use the least-squares prediction rule for such data.
+*Regression for fitting a "true relationship". In standard [[regression analysis]] that leads to fitting by least squares there is an implicit assumption that errors in the [[independent variable]] are zero or strictly controlled so as to be negligible. When errors in the [[independent variable]] are non-negligible, [[Errors-in-variables models|models of measurement error]] can be used; such methods can lead to [[parameter estimation|parameter estimates]], [[hypothesis testing]] and [[confidence interval]]s that take into account the presence of observation errors in the independent variables.&lt;ref&gt;For a good introduction to error-in-variables, please see {{cite book |last=Fuller |first=W. A. |authorlink=Wayne Fuller |title=Measurement Error Models |location= |publisher=John Wiley &amp; Sons |year=1987 |isbn=978-0-471-86187-4 }}&lt;/ref&gt; An alternative approach is to fit a model by [[total least squares]]; this can be viewed as taking a pragmatic approach to balancing the effects of the different sources of error in formulating an objective function for use in model-fitting.
+
+==Solving the least squares problem==
+The [[Maxima and minima|minimum]] of the sum of squares is found by setting the [[gradient]] to zero. Since the model contains ''m'' parameters, there are ''m'' gradient equations:
+
+:&lt;math&gt;\frac{\partial S}{\partial \beta_j}=2\sum_i r_i\frac{\partial r_i}{\partial \beta_j} = 0,\ j=1,\ldots,m,&lt;/math&gt;
+
+and since &lt;math&gt;r_i=y_i-f(x_i,\boldsymbol \beta)&lt;/math&gt;, the gradient equations become
+
+:&lt;math&gt;-2\sum_i r_i\frac{\partial f(x_i,\boldsymbol \beta)}{\partial \beta_j}=0,\ j=1,\ldots,m.&lt;/math&gt;
+
+The gradient equations apply to all least squares problems. Each particular problem requires particular expressions for the model and its partial derivatives.&lt;ref name=":1"&gt;{{Cite book|title=Quantifying measurement : the tyranny of numbers|last=Williams, Jeffrey H. (Jeffrey Huw), 1956-|others=Morgan &amp; Claypool Publishers,, Institute of Physics (Great Britain)|isbn=978-1-68174-433-9|location=San Rafael [California] (40 Oak Drive, San Rafael, CA, 94903, USA)|oclc=962422324|date = November 2016}}&lt;/ref&gt;
+
+===Linear least squares===
+{{main|Linear_least_squares_(mathematics)|l1=Linear least squares}}
+
+A regression model is a linear one when the model comprises a [[linear combination]] of the parameters, i.e.,
+
+:&lt;math&gt; f(x, \beta) = \sum_{j = 1}^m \beta_j \phi_j(x),&lt;/math&gt;
+
+where the function &lt;math&gt;\phi_j&lt;/math&gt; is a function of &lt;math&gt; x &lt;/math&gt;.&lt;ref name=":1" /&gt;
+
+Letting  &lt;math&gt; X_{ij}= \phi_j(x_{i})&lt;/math&gt; and converting putting the independent and dependent variables in matrices &lt;math&gt; X&lt;/math&gt; and &lt;math&gt; Y&lt;/math&gt; we can can compute the least squares in the following way, note that &lt;math&gt; D&lt;/math&gt; is the set of all data. &lt;ref name=":1" /&gt;&lt;ref name=":2"&gt;{{Cite book|last=Rencher|first=Alvin C.|url=https://books.google.com/books?id=0g-PAuKub3QC&amp;pg=PA19#v=onepage&amp;q=least%20squares&amp;f=false|title=Methods of Multivariate Analysis|last2=Christensen|first2=William F.|date=2012-08-15|publisher=John Wiley &amp; Sons|year=|isbn=978-1-118-39167-9|location=|pages=155|language=en}}&lt;/ref&gt;
+
+:&lt;math&gt; L(D, \vec{\beta})= ||X\vec{\beta} - Y||^2 = (X\vec{\beta} - Y)^T (X\vec{\beta} - Y) = Y^{T}Y- Y^{T}X\vec{\beta}- \vec{\beta}^{T}X^TY+\vec{\beta}^{T}X^TX\vec{\beta}&lt;/math&gt;
+
+Finding the minimum can be achieved through setting the gradient of the loss to zero and solving for &lt;math&gt;\vec{\beta}&lt;/math&gt; 
+:&lt;math&gt;\frac{\partial L(D, \vec{\beta})}{\partial \vec{\beta}}= \frac{\partial \left(Y^{T}Y- Y^{T}X\vec{\beta}- \vec{\beta}^{T}X^TY+\vec{\beta}^{T}X^TX\vec{\beta}\right)}{\partial \vec{\beta}} = -2X^TY + 2X^TX\vec{\beta}&lt;/math&gt;
+
+Finally setting the gradient of the loss to zero and solving for  &lt;math&gt;\vec{\beta}&lt;/math&gt; we get: &lt;ref name=":2" /&gt;&lt;ref name=":1" /&gt; 
+
+:&lt;math&gt;-2X^TY + 2X^TX\vec{\beta} = 0 \Rightarrow X^TY  = X^TX\vec{\beta} \Rightarrow \vec{\hat{\beta}} = (X^TX)^{-1}X^TY&lt;/math&gt;
+&lt;br /&gt;
+
+===Non-linear least squares===
+{{main|Non-linear least squares}}
+
+There is, in some cases, a [[closed-form solution]] to a non-linear least squares problem – but in general there is not. In  the case of no closed-form solution, numerical algorithms are used to find the value of the parameters &lt;math&gt;\beta&lt;/math&gt; that minimizes the objective.  Most algorithms involve choosing initial values for the parameters.  Then, the parameters are refined iteratively, that is, the values are obtained by successive approximation:
+
+:&lt;math&gt;{\beta_j}^{k+1}={\beta_j}^k+\Delta \beta_j,&lt;/math&gt;
+
+where a superscript ''k'' is an iteration number, and the vector of increments &lt;math&gt;\Delta \beta_j&lt;/math&gt; is called the shift vector.  In some commonly used algorithms, at each iteration the model may be linearized by approximation to a first-order [[Taylor series]] expansion about &lt;math&gt; \boldsymbol \beta^k&lt;/math&gt;:
+
+:&lt;math&gt;
+\begin{align}
+f(x_i,\boldsymbol \beta) &amp;= f^k(x_i,\boldsymbol \beta) +\sum_j \frac{\partial f(x_i,\boldsymbol \beta)}{\partial \beta_j} \left(\beta_j-{\beta_j}^k \right) \\
+&amp;= f^k(x_i,\boldsymbol \beta) +\sum_j J_{ij} \,\Delta\beta_j.
+\end{align}
+&lt;/math&gt;
+
+The [[Jacobian matrix and determinant|Jacobian]] '''J''' is a function of constants, the independent variable ''and'' the parameters, so it changes from one iteration to the next. The residuals are given by
+
+:&lt;math&gt;r_i=y_i- f^k(x_i,\boldsymbol \beta)- \sum_{k=1}^{m} J_{ik}\,\Delta\beta_k=\Delta y_i- \sum_{j=1}^{m} J_{ij}\,\Delta\beta_j.&lt;/math&gt;
+
+To minimize the sum of squares of &lt;math&gt;r_i&lt;/math&gt;, the gradient equation is set to zero and solved for &lt;math&gt; \Delta \beta_j&lt;/math&gt;:
+
+:&lt;math&gt;-2\sum_{i=1}^n J_{ij} \left( \Delta y_i-\sum_{k=1}^m J_{ik} \, \Delta \beta_k \right) = 0,&lt;/math&gt;
+
+which, on rearrangement, become ''m'' simultaneous linear equations, the '''normal equations''':
+
+: &lt;math&gt;\sum_{i=1}^{n}\sum_{k=1}^m J_{ij} J_{ik} \, \Delta \beta_k=\sum_{i=1}^n J_{ij} \, \Delta y_i \qquad (j=1,\ldots,m).&lt;/math&gt;
+
+The normal equations are written in matrix notation as
+
+:&lt;math&gt;\mathbf{(J^T J) \,\Delta \boldsymbol \beta=J^T\,\Delta y}.\,&lt;/math&gt;
+&lt;!-- or
+:&lt;math&gt;\mathbf{\left(J^TWJ\right) \, \Delta \boldsymbol \beta=J^TW \, \Delta y}&lt;/math&gt;
+if weights are used. --&gt;
+
+These are the defining equations of the [[Gauss–Newton algorithm]].
+
+===Differences between linear and nonlinear least squares===
+* The model function, ''f'', in LLSQ (linear least squares) is a linear combination of parameters of the form &lt;math&gt;f = X_{i1}\beta_1 + X_{i2}\beta_2 +\cdots&lt;/math&gt; The model may represent a straight line, a parabola or any other linear combination of functions. In NLLSQ  (nonlinear least squares) the parameters appear as functions, such as &lt;math&gt;\beta^2, e^{\beta x}&lt;/math&gt; and so forth. If the derivatives &lt;math&gt;\partial f /\partial \beta_j&lt;/math&gt; are either constant or depend only on the values of the independent variable, the model is linear in the parameters. Otherwise the model is nonlinear.
+*Need initial values for the parameters to find the solution to a NLLSQ problem; LLSQ does not require them. 
+*Solution algorithms for NLLSQ often require that the Jacobian can be calculated similar to LLSQ. Analytical expressions for the partial derivatives can be complicated. If analytical expressions are impossible to obtain either the partial derivatives must be calculated by numerical approximation or an estimate must be made of the Jacobian, often via [[finite differences]].
+*Non-convergence (failure of the algorithm to find a minimum) is a common phenomenon in NLLSQ.
+*LLSQ is globally concave so non-convergence is not an issue.
+*Solving NLLSQ is usually an iterative process which has to be terminated when a convergence criterion is satisfied. LLSQ solutions can be computed using direct methods, although problems with large numbers of parameters are typically solved with iterative methods, such as the [[Gauss–Seidel]] method.
+*In LLSQ the solution is unique, but in NLLSQ there may be multiple minima in the sum of squares.
+*Under the condition that the errors are uncorrelated with the predictor variables, LLSQ yields unbiased estimates, but even under that condition NLLSQ estimates are generally biased.
+These differences must be considered whenever the solution to a nonlinear least squares problem is being sought.&lt;ref name=":1" /&gt;
+
+==Regression analysis and statistics==
+The method of least squares is often used to generate estimators and other statistics in regression analysis.
+
+Consider a simple example drawn from physics. A spring should obey [[Hooke's law]] which states that the extension of a spring {{mvar|y}} is proportional to the force, ''F'', applied to it.
+
+:&lt;math&gt;y = f(F,k)=kF\!&lt;/math&gt;
+
+constitutes the model, where ''F'' is the independent variable. In order to estimate the [[force constant]], ''k'', we conduct a series of ''n'' measurements with different forces to produce a set of data, &lt;math&gt;(F_i, y_i),\ i=1,\dots,n\!&lt;/math&gt;, where ''y&lt;sub&gt;i&lt;/sub&gt;'' is a measured spring extension.&lt;ref&gt;{{Cite book|title=Mechanics of materials|last=Gere, James M.|date=2013|publisher=Cengage Learning|others=Goodno, Barry J.|isbn=978-1-111-57773-5|edition=8th|location=Stamford, Conn.|oclc=741541348}}&lt;/ref&gt; Each experimental observation will contain some error, &lt;math&gt;\varepsilon&lt;/math&gt;, and so we may specify an empirical model for our observations,
+
+: &lt;math&gt; y_i = kF_i + \varepsilon_i. \, &lt;/math&gt;
+
+There are many methods we might use to estimate the unknown parameter ''k''. Since the ''n'' equations in the ''m'' variables in our data comprise an [[overdetermined system]] with one unknown and ''n'' equations, we estimate ''k'' using least squares.  The sum of squares to be minimized is
+
+:&lt;math&gt; S = \sum_{i=1}^n (y_i - kF_i)^2. &lt;/math&gt;&lt;ref name=":1" /&gt;
+
+The least squares estimate of the force constant, ''k'', is given by
+
+:&lt;math&gt;\hat k=\frac{\sum_i F_i y_i}{\sum_i F_i^2}.&lt;/math&gt;
+
+We assume that applying force '''''causes''''' the spring to expand. After having derived the force constant by least squares fitting, we predict the extension from Hooke's law. 
+
+The researcher specifies an empirical model in regression analysis. A very common model is the straight line model, which is used to test if there is a linear relationship between independent and dependent variables. The variables are said to be [[correlated]] if a linear relationship exists. However, [[Correlation does not imply causation|correlation does not prove causation]], as both variables may be correlated with other, hidden, variables, or the dependent variable may "reverse" cause the independent variables, or the variables may be otherwise spuriously correlated.  For example, suppose there is a correlation between deaths by drowning and the volume of ice cream sales at a particular beach. Yet, both the number of people going swimming and the volume of ice cream sales increase as the weather gets hotter, and presumably the number of deaths by drowning is correlated with the number of people going swimming. It is possible that an increase in swimmers causes both the other variables to increase.
+
+It is necessary to make assumptions about the nature of the experimental errors to statistically test the results. A common assumption is that the errors belong to a normal distribution. The [[central limit theorem]] supports the idea that this is a good approximation in many cases.
+
+* The [[Gauss–Markov theorem]]. In a linear model in which the errors have [[expected value|expectation]] zero conditional on the independent variables, are [[uncorrelated]] and have equal [[variance]]s, the best linear [[unbiased]] estimator of any linear combination of the observations, is its least-squares estimator. "Best" means that the least squares estimators of the parameters have minimum variance. The assumption of equal variance is valid when the errors all belong to the same distribution.
+*In a linear model, if the errors belong to a normal distribution the least squares estimators are also the [[maximum likelihood estimator]]s.
+
+However, if the errors are not normally distributed, a [[central limit theorem]] often nonetheless implies that the parameter estimates will be approximately normally distributed so long as the sample is reasonably large.  For this reason, given the important property that the error mean is independent of the independent variables, the distribution of the error term is not an important issue in regression analysis.  Specifically, it is not typically important whether the error term follows a normal distribution.
+
+In a least squares calculation with unit weights, or in linear regression, the variance on the ''j''th parameter,
+denoted &lt;math&gt;\operatorname{var}(\hat{\beta}_j)&lt;/math&gt;, is usually estimated with
+
+: &lt;math&gt;\operatorname{var}(\hat{\beta}_j)= \sigma^2( [X^TX]^{-1})_{jj} \approx \frac S {n-m} ([X^TX]^{-1})_{jj},&lt;/math&gt;
+
+where the true error variance ''σ''&lt;sup&gt;2&lt;/sup&gt; is replaced by an estimate based on the minimized value of the sum of squares objective function ''S''. The denominator, ''n''&amp;nbsp;−&amp;nbsp;''m'', is the [[Degrees of freedom (statistics)|statistical degrees of freedom]]; see [[Degrees of freedom (statistics)#Effective degrees of freedom|effective degrees of freedom]] for generalizations.&lt;ref name=":1" /&gt;
+
+If the [[probability distribution]] of the parameters is known or an asymptotic approximation is made, [[confidence limits]] can be found. Similarly, statistical tests on the residuals can be conducted if the probability distribution of the residuals is known or assumed. We can derive the probability distribution of any linear combination of the dependent variables if the probability distribution of experimental errors is known or assumed. Inferring is easy when assuming that the errors follow a normal distribution, consequently implying that the parameter estimates and residuals will also be normally distributed conditional on the values of the independent variables.&lt;ref name=":1" /&gt;
+
+==Weighted least squares==
+[[File:Heteroscedasticity Fanning Out .png|thumb|244x244px|"Fanning Out" Effect of Heteroscedasticity]]
+{{main|Weighted least squares}}
+
+A special case of [[generalized least squares]] called '''weighted least squares''' occurs when all the off-diagonal entries of ''Ω'' (the correlation matrix of the residuals) are null; the [[variance]]s of the observations (along the covariance matrix diagonal) may still be unequal ([[heteroscedasticity]]). In simpler terms, [[heteroscedasticity]] is when the variance of &lt;math&gt;Y_i&lt;/math&gt; depends on the value of &lt;math&gt;x_i&lt;/math&gt; which causes the residual plot to create a "fanning out" effect towards larger &lt;math&gt;Y_i&lt;/math&gt; values as seen in the residual plot to the right. On the other hand, [[homoscedasticity]] is assuming that the variance of &lt;math&gt;Y_i&lt;/math&gt; and &lt;math&gt;U_i&lt;/math&gt; is equal. &lt;ref name=":0" /&gt;  
+
+==Relationship to principal components==
+The first [[Principal component analysis|principal component]] about the mean of a set of points can be represented by that line which most closely approaches the data points (as measured by squared distance of closest approach, i.e. perpendicular to the line).  In contrast, linear least squares tries to minimize the distance in the &lt;math&gt;y&lt;/math&gt; direction only.  Thus, although the two use a similar error metric, linear least squares is a method that treats one dimension of the data preferentially, while PCA treats all dimensions equally.
+
+==Regularization==
+{{technical|section|date=February 2016}}
+{{Main|Regularized least squares}}
+
+===Tikhonov regularization===
+{{Main|Tikhonov regularization}}
+In some contexts a [[Regularization (machine learning)|regularized]] version of the least squares solution may be preferable. [[Tikhonov regularization]] (or [[ridge regression]]) adds a constraint that &lt;math&gt;\|\beta\|^2&lt;/math&gt;, the [[L2-norm|L&lt;sub&gt;2&lt;/sub&gt;-norm]] of the parameter vector, is not greater than a given value.{{fact|date=August 2019}} Equivalently,{{dubious|date=August 2019}} it may solve an unconstrained minimization of the least-squares penalty with &lt;math&gt;\alpha\|\beta\|^2&lt;/math&gt; added, where &lt;math&gt;\alpha&lt;/math&gt; is a constant (this is the [[Lagrange multipliers|Lagrangian]] form of the constrained problem).  In a [[Bayesian statistics|Bayesian]] context, this is equivalent to placing a zero-mean normally distributed [[prior distribution|prior]] on the parameter vector.
+
+===Lasso method===
+An alternative [[Regularization (machine learning)|regularized]] version of least squares is ''Lasso'' (least absolute shrinkage and selection operator), which uses the constraint that &lt;math&gt;\|\beta\|&lt;/math&gt;, the [[L1-norm|L&lt;sub&gt;1&lt;/sub&gt;-norm]] of the parameter vector, is no greater than a given value.&lt;ref name=tibsh&gt;{{cite journal |last=Tibshirani |first=R. |authorlink = Rob Tibshirani | year=1996 |title=Regression shrinkage and selection via the lasso |journal=Journal of the Royal Statistical Society, Series B |volume=58|issue=1 |pages=267–288 |jstor=2346178}}&lt;/ref&gt;&lt;ref name="ElementsStatLearn"&gt;{{cite book |url=http://www-stat.stanford.edu/~tibs/ElemStatLearn/ |title=The Elements of Statistical Learning |last1=Hastie |first1=Trevor |last2=Tibshirani |first2=Robert |last3=Friedman |first3=Jerome H. |authorlink1=Trevor Hastie |authorlink3=Jerome H. Friedman |edition=second |date=2009 |publisher=Springer-Verlag |isbn=978-0-387-84858-7 |url-status=dead |archiveurl=https://web.archive.org/web/20091110212529/http://www-stat.stanford.edu/~tibs/ElemStatLearn/ |archivedate=2009-11-10 }}&lt;/ref&gt;&lt;ref&gt;{{cite book|last1=Bühlmann|first1=Peter|last2=van de Geer|first2=Sara|author2-link= Sara van de Geer |title=Statistics for High-Dimensional Data: Methods, Theory and Applications|date=2011|publisher=Springer|isbn=9783642201929}}&lt;/ref&gt; (As above, this is equivalent{{dubious|date=August 2019}} to an unconstrained minimization of the least-squares penalty with &lt;math&gt;\alpha\|\beta\|&lt;/math&gt; added.) In a [[Bayesian statistics|Bayesian]] context, this is equivalent to placing a zero-mean [[Laplace distribution|Laplace]] [[prior distribution]] on the parameter vector.&lt;ref&gt;{{cite journal|last1=Park|first1=Trevor|last2=Casella|first2=George|author2-link=George Casella| title=The Bayesian Lasso|journal=Journal of the American Statistical Association|date=2008|volume=103|issue=482|pages=681–686|doi=10.1198/016214508000000337}}&lt;/ref&gt; The optimization problem may be solved using [[quadratic programming]] or more general [[convex optimization]] methods, as well as by specific algorithms such as the [[least angle regression]] algorithm.
+
+One of the prime differences between Lasso and ridge regression is that in ridge regression, as the penalty is increased, all parameters are reduced while still remaining non-zero, while in Lasso, increasing the penalty will cause more and more of the parameters to be driven to zero. This is an advantage of Lasso over ridge regression, as driving parameters to zero deselects the features from the regression. Thus, Lasso automatically selects more relevant features and discards the others, whereas Ridge regression never fully discards any features. Some [[feature selection]] techniques are developed based on the LASSO including Bolasso which bootstraps samples,&lt;ref name=Bolasso&gt;{{cite journal|last1=Bach|first1=Francis R|title=Bolasso: model consistent lasso estimation through the bootstrap|journal=Proceedings of the 25th International Conference on Machine Learning|date=2008|pages=33–40|doi=10.1145/1390156.1390161|url=http://dl.acm.org/citation.cfm?id=1390161|isbn=9781605582054|bibcode=2008arXiv0804.1302B|arxiv=0804.1302}}&lt;/ref&gt;  and FeaLect which analyzes the regression coefficients corresponding to different values of &lt;math&gt;\alpha&lt;/math&gt; to score all the features.&lt;ref name=FeaLect&gt;{{cite journal|last1=Zare|first1=Habil|title=Scoring relevancy of features based on combinatorial analysis of Lasso with application to lymphoma diagnosis|journal=BMC Genomics|date=2013|volume=14|pages=S14|doi=10.1186/1471-2164-14-S1-S14|pmid=23369194|pmc=3549810}}&lt;/ref&gt;
+
+The L&lt;sup&gt;1&lt;/sup&gt;-regularized formulation is useful in some contexts due to its tendency to prefer solutions where more parameters are zero, which gives solutions that depend on fewer variables.&lt;ref name=tibsh/&gt; For this reason, the Lasso and its variants are fundamental to the field of [[compressed sensing]]. An extension of this approach is [[elastic net regularization]].
+
+==See also==
+{{Div col|colwidth=25em}}
+* [[Adjustment of observations]]
+* [[Minimum mean square error|Bayesian MMSE estimator]]
+* [[Gauss–Markov theorem|Best linear unbiased estimator]] (BLUE)
+* [[Best linear unbiased prediction]] (BLUP)
+* [[Gauss–Markov theorem]]
+* [[L2 norm|''L''&lt;sub&gt;2&lt;/sub&gt; norm]]
+* [[Least absolute deviation]]
+* [[Measurement uncertainty]]
+* [[Orthogonal projection]]
+* [[Proximal gradient methods for learning]]
+* [[Quadratic loss function]]
+* [[Root mean square]]
+* [[Squared deviations]]
+{{div col end}}
+
+==References==
+{{Reflist|30em}}
+
+==Further reading==
+
+* {{cite book |first=Å. |last=Björck |isbn=978-0-89871-360-2 |title=Numerical Methods for Least Squares Problems |publisher=SIAM |year=1996 |url= }}
+* {{cite book |first1=T. |last1=Kariya |first2=H. |last2=Kurata |title=Generalized Least Squares |location=Hoboken |publisher=Wiley |year=2004 |isbn=978-0-470-86697-9 }}
+* {{cite book |first=D. G. |last=Luenberger |authorlink=David Luenberger |chapter=Least-Squares Estimation |title=Optimization by Vector Space Methods |location=New York |publisher=John Wiley &amp; Sons |year=1997 |origyear=1969 |isbn=978-0-471-18117-0 |pages=78–102 |chapterurl=https://books.google.com/books?id=lZU0CAH4RccC&amp;pg=PA78 }}
+* {{cite book |first1=C. R. |last1=Rao |authorlink=C. R. Rao |first2=H. |last2=Toutenburg |authorlink2=Helge Toutenburg |title=Linear Models: Least Squares and Alternatives |series=Springer Series in Statistics |location=Berlin |publisher=Springer |edition=3rd |year=2008 |isbn=978-3-540-74226-5 |url=https://books.google.com/books?id=3LK9JoGEyN4C |display-authors=etal}}
+* {{cite book |first=J. |last=Wolberg |title=Data Analysis Using the Method of Least Squares: Extracting the Most Information from Experiments |location=Berlin |publisher=Springer |year=2005|isbn=978-3-540-25674-8}}
+
+==External links==
+*{{Commonscat-inline}}
+
+{{Least Squares and Regression Analysis|state=expanded}}
+{{Statistics|correlation|state=collapsed}}
+{{Authority control}}
+
+{{DEFAULTSORT:Least Squares}}
+[[Category:Least squares| ]]
+[[Category:Single-equation methods (econometrics)]]
+[[Category:Optimization algorithms and methods]]
+
+[[gl:Mínimos cadrados lineais]]
+[[vi:Bình phương tối thiểu tuyến tính]]</text>
+      <sha1>dmd4ssc8e306u6cbrgus086wafjpm73</sha1>
+    </revision>
+  </page>
+</mediawiki>

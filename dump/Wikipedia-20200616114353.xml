@@ -1,0 +1,516 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.10/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.10/ http://www.mediawiki.org/xml/export-0.10.xsd" version="0.10" xml:lang="en">
+  <siteinfo>
+    <sitename>Wikipedia</sitename>
+    <dbname>enwiki</dbname>
+    <base>https://en.wikipedia.org/wiki/Main_Page</base>
+    <generator>MediaWiki 1.35.0-wmf.36</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Media</namespace>
+      <namespace key="-1" case="first-letter">Special</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Talk</namespace>
+      <namespace key="2" case="first-letter">User</namespace>
+      <namespace key="3" case="first-letter">User talk</namespace>
+      <namespace key="4" case="first-letter">Wikipedia</namespace>
+      <namespace key="5" case="first-letter">Wikipedia talk</namespace>
+      <namespace key="6" case="first-letter">File</namespace>
+      <namespace key="7" case="first-letter">File talk</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki talk</namespace>
+      <namespace key="10" case="first-letter">Template</namespace>
+      <namespace key="11" case="first-letter">Template talk</namespace>
+      <namespace key="12" case="first-letter">Help</namespace>
+      <namespace key="13" case="first-letter">Help talk</namespace>
+      <namespace key="14" case="first-letter">Category</namespace>
+      <namespace key="15" case="first-letter">Category talk</namespace>
+      <namespace key="100" case="first-letter">Portal</namespace>
+      <namespace key="101" case="first-letter">Portal talk</namespace>
+      <namespace key="108" case="first-letter">Book</namespace>
+      <namespace key="109" case="first-letter">Book talk</namespace>
+      <namespace key="118" case="first-letter">Draft</namespace>
+      <namespace key="119" case="first-letter">Draft talk</namespace>
+      <namespace key="446" case="first-letter">Education Program</namespace>
+      <namespace key="447" case="first-letter">Education Program talk</namespace>
+      <namespace key="710" case="first-letter">TimedText</namespace>
+      <namespace key="711" case="first-letter">TimedText talk</namespace>
+      <namespace key="828" case="first-letter">Module</namespace>
+      <namespace key="829" case="first-letter">Module talk</namespace>
+      <namespace key="2300" case="first-letter">Gadget</namespace>
+      <namespace key="2301" case="first-letter">Gadget talk</namespace>
+      <namespace key="2302" case="case-sensitive">Gadget definition</namespace>
+      <namespace key="2303" case="case-sensitive">Gadget definition talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>SharePoint</title>
+    <ns>0</ns>
+    <id>13473328</id>
+    <revision>
+      <id>962171110</id>
+      <parentid>945009878</parentid>
+      <timestamp>2020-06-12T14:10:03Z</timestamp>
+      <contributor>
+        <username>BHGbot</username>
+        <id>5737366</id>
+      </contributor>
+      <minor/>
+      <comment>[[WP:BHGbot 6]] ([[User:BHGbot/6/List 3|List 3]]): eponymous category first, per [[MOS:CATORDER]]; [[WP:GENFIXES]]</comment>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="38017" xml:space="preserve">{{Infobox software
+| name = 
+| logo = Microsoft Office SharePoint (2018–present).svg
+| screenshot = Microsoft SharePoint.png
+| caption = SharePoint Online user interface
+| author = 
+| developer = [[Microsoft Corporation]]
+| released = {{Start date and age|2001|03|28}}
+| latest release version = {{SharePoint version}}
+| latest release date = {{SharePoint version|releasedate}}
+| latest preview version = 
+| latest preview date = 
+| operating system = [[Windows Server 2016]] and [[Windows Server 2019]]&lt;ref&gt;{{cite web
+   |url = https://docs.microsoft.com/en-us/sharepoint/install/hardware-and-software-requirements-2019
+   |title = Hardware and Software Requirements for SharePoint 2019
+   |work = [[Microsoft TechNet]]
+   |publisher = Microsoft Corporation
+   |date = July 24, 2018
+   |accessdate = October 23, 2018
+   }}&lt;/ref&gt;
+| platform = [[x64]]
+| language = Arabic, Azerbaijani, Basque, Bosnian, Bulgarian, Catalan, Chinese, Croatian, Czech, Danish, Dari, Dutch, English, Estonian, Finnish, French, Galician, German, Greek, Hebrew, Hindi, Hungarian, Indonesian, Irish, Italian, Japanese, Kazakh, Korean, Latvian, Lithuanian, Macedonian, Malay, Norwegian, Polish, Portuguese, Romanian, Russian, Serbian, Slovak, Slovenian, Spanish, Swedish, Thai, Turkish, Ukrainian, Vietnamese and Welsh&lt;ref&gt;{{cite web
+   |title=Install or uninstall language packs for SharePoint Servers 2016 and 2019
+   |url=https://docs.microsoft.com/en-us/SharePoint/install/install-or-uninstall-language-packs-0#list-of-languages
+   |accessdate=December 17, 2018
+   |work=Microsoft Docs
+   |publisher=Microsoft Corporation
+   }}&lt;/ref&gt;
+| genre = [[Content Management Systems]]
+| license = [[Proprietary software]]&lt;br /&gt;'''SharePoint Foundation''': [[Freeware]]&lt;br /&gt;'''Other editions:''' [[Trialware]]
+}}
+{{Infobox software
+| name = Microsoft SharePoint for Android
+| screenshot = 
+| caption = 
+| developer = [[Microsoft Corporation]]
+| latest_release_version = 3.14.0
+| latest_release_date = {{Start date and age|2019|10|10}}&lt;ref&gt;{{Cite web|url=https://www.apkmirror.com/apk/microsoft-corporation/microsoft-sharepoint/|title=Microsoft SharePoint APKs|website=APKMirror|access-date=2019-10-10}}&lt;/ref&gt;
+| operating_system = [[Android Lollipop]] and later
+| size = 25.37 MB
+| genre = 
+| license = [[Proprietary software|Proprietary]] [[commercial software]]
+| website = {{url|https://products.office.com/en-us/sharepoint/collaboration}}
+}}
+{{Infobox software
+| name = Microsoft SharePoint for iOS
+| screenshot = 
+| caption = 
+| developer = [[Microsoft Corporation]]
+| latest_release_version = 4.13.2
+| latest_release_date = {{Start date and age|2019|10|24}}&lt;ref&gt;{{Cite web|url=https://apps.apple.com/app/id1091505266|title=Microsoft SharePoint|website=App Store|language=en-us|access-date=2019-10-24}}&lt;/ref&gt;
+| operating_system = [[iOS]] [[IOS 10|10]] and later
+| size = 140.6 MB
+| genre = 
+| license = [[Proprietary software|Proprietary]] [[commercial software]]
+| website = {{url|https://products.office.com/en-us/sharepoint/collaboration}}
+}}
+'''SharePoint''' is a web-based collaborative platform that integrates with [[Microsoft Office]]. Launched in 2001,&lt;ref name="history"&gt;{{Cite news
+ |url         = http://blogs.msdn.com/b/joelo/archive/2007/12/28/7-years-of-sharepoint-a-history-lesson.aspx
+ |title       = 7 Years of SharePoint - A History Lesson
+ |work        = Joel Oleson's Blog - SharePoint Land
+ |agency      = [[MSDN Blogs]]
+ |publisher   = Microsoft Corporation
+ |first       = Joel
+ |last        = Oleson
+ |date        = December 28, 2007
+ |accessdate  = August 13, 2011
+ |url-status     = dead
+ |archiveurl  = http://archive.wikiwix.com/cache/20110813183416/http://blogs.msdn.com/b/joelo/archive/2007/12/28/7-years-of-sharepoint-a-history-lesson.aspx
+ |archivedate = August 13, 2011
+ |df          = dmy-all
+}}&lt;/ref&gt; SharePoint is primarily sold as a [[Document management system|document management]] and storage system, but the product is highly configurable and usage varies substantially among organizations.
+
+[[Microsoft]] states that SharePoint has 190 million users across 200,000 customer organizations.&lt;ref&gt;{{Cite web|url=https://products.office.com/en-us/sharepoint/collaboration|title=SharePoint 2016, Team Collaboration Software Tools|website=products.office.com|access-date=July 19, 2017}}&lt;/ref&gt;
+
+==Editions==
+There are various editions of SharePoint which have different functions.
+
+===SharePoint Server===
+
+SharePoint Server is provided to organizations that seek greater control over SharePoint's behavior or design. This product is installed on customers' [[IT infrastructure]]. It receives fewer frequent updates but has access to a wider set of features and customization capabilities. There are three editions of SharePoint Server: Standard, Enterprise, and Foundation (free) which was discontinued in 2016.&lt;ref&gt;{{Cite web|url=https://technet.microsoft.com/en-us/library/mt346112(v=office.16).aspx|title=What's deprecated or removed from SharePoint Server 2016|website=technet.microsoft.com|access-date=November 8, 2016}}&lt;/ref&gt; These servers may be provisioned as normal virtual/cloud servers or as hosted services.
+
+====SharePoint Standard====
+Microsoft SharePoint Standard builds on the Microsoft SharePoint Foundation in a few key product areas.
+* '''Sites:''' Audience targeting, governance tools, Secure store service, [[web analytics]] functionality.&lt;ref&gt;{{cite web|title=SharePoint 2010 Editions Comparison -Sites|url=http://sharepoint.microsoft.com/en-us/buy/Pages/Editions-Comparison.aspx?Capability=Sites|work=Microsoft SharePoint 2010 Marketing Website|publisher=Microsoft|accessdate=August 13, 2011}}&lt;/ref&gt;
+* '''Communities:''' 'MySites' (personal profiles including skills management, and search tools), enterprise wikis, organization hierarchy browser, tags and notes.&lt;ref&gt;{{cite web|title=SharePoint 2010 Editions Comparison - Communities|url=http://sharepoint.microsoft.com/en-us/buy/Pages/Editions-Comparison.aspx?Capability=Communities|work=Microsoft SharePoint 2010 Marketing Website|publisher=Microsoft|accessdate=August 13, 2011}}&lt;/ref&gt;
+* '''Content:''' Improved tooling and compliance for document &amp; record management, managed metadata, word automation services, content type management.&lt;ref&gt;{{cite web|title=SharePoint 2010 Editions Comparison - Content|url=http://sharepoint.microsoft.com/en-us/buy/Pages/Editions-Comparison.aspx?Capability=Content|work=Microsoft SharePoint 2010 Marketing Website|publisher=Microsoft|accessdate=August 13, 2011}}&lt;/ref&gt;
+* '''Search:''' Better search results, search customization abilities, mobile search, 'Did you mean?', OS search integration, Faceted Search, and metadata/relevancy/date/location-based refinement options.&lt;ref&gt;{{cite web|title=SharePoint 2010 Editions Comparison-earch|url=http://sharepoint.microsoft.com/en-us/buy/Pages/Editions-Comparison.aspx?Capability=Search|work=Microsoft SharePoint 2010 Marketing Website|publisher=Microsoft|accessdate=August 13, 2011}}&lt;/ref&gt;
+* '''Composites: ''' Pre-built workflow templates, Business Connectivity Services (BCS) profile pages.&lt;ref&gt;{{cite web|title=SharePoint 2010 Editions Comparison -Composites|url=http://sharepoint.microsoft.com/en-us/buy/Pages/Editions-Comparison.aspx?Capability=Composites|work=Microsoft SharePoint 2010 Marketing Website|publisher=Microsoft|accessdate=August 13, 2011}}&lt;/ref&gt;
+
+SharePoint Standard licensing includes a CAL (client access license) component and a server fee. SharePoint Standard may also be licensed through a cloud model.
+
+====SharePoint Enterprise====
+Built upon SharePoint Standard, Microsoft SharePoint Enterprise features can be unlocked by providing an additional license key.
+
+Extra features in SharePoint Enterprise include:
+* Search thumbnails and previews, rich web indexing, better search results.
+* [[Business intelligence]] integration, dashboards, and business data surfacing.
+* [[PowerPivot]] and [[PerformancePoint]].
+* Microsoft Office Access, Visio, Excel, and InfoPath Forms services.
+* SharePoint Enterprise Search extensions.&lt;ref&gt;{{cite web|title=SharePoint 2010 Editions Comparisondfdf534|url=http://sharepoint.microsoft.com/en-us/buy/Pages/Editions-Comparison.aspx|work=Microsoft SharePoint 2010 Marketing Website|publisher=Microsoft|accessdate=August 13, 2011}}&lt;/ref&gt;
+
+SharePoint Enterprise licensing includes a CAL component and a server fee that must be purchased ''in addition to'' SharePoint Server licensing. SharePoint Enterprise may also be licensed through a cloud model.
+
+===SharePoint Online===
+Microsoft's hosted SharePoint is typically bundled in [[Office 365|Microsoft Office 365]] subscriptions, but can be purchased outright.&lt;ref&gt;{{Cite web|url=https://products.office.com/en-us/sharepoint/sharepoint-online-collaboration-software|title=SharePoint Online – Collaboration Software|website=products.office.com|access-date=July 24, 2016}}&lt;/ref&gt; SharePoint Online has the advantage of not needing to maintain one's own server, but as a result lacks the customization options of a self-hosted installation of SharePoint.&lt;ref&gt;{{Cite web|url=https://www.fpweb.net/sharepoint-blog/is-sharepoint-the-same-as-office-365/|title=Is SharePoint the same as Office 365?|website=fpweb.net|language=en-US|access-date=February 8, 2018}}&lt;/ref&gt;
+
+It is limited to a core set of collaboration, file hosting, and document and content management scenarios, and is updated on a frequent basis, but is typically comparable with SharePoint Enterprise.&lt;ref&gt;{{cite web|url=http://office.microsoft.com/en-us/sharepoint/collaboration-tools-compare-sharepoint-plans-FX103789400.aspx|title=Compare SharePoint Plans and Options|publisher=Microsoft|work=Microsoft Office|accessdate=January 29, 2015}}&lt;/ref&gt;&lt;ref&gt;{{Cite web|url=http://fasttrack.microsoft.com/roadmap|title=Microsoft FastTrack|website=fasttrack.microsoft.com|access-date=July 24, 2016}}&lt;/ref&gt;  
+Currently, additional capabilities include:
+* Support for SharePoint Framework extensions 
+* New "Modern" (Responsive) SharePoint UX (partially included in 2016 - Feature Pack 1)
+* Yammer Integration &amp; Office 365 Groups
+* Integration with Outlook Web App
+* Newer versions of Online Office Document Editor Tools 
+* Removal of various file size/number limitations
+* Apps Concept
+
+Missing capabilities include:
+* Some search &amp; UI customizations
+* Many web publishing capabilities
+* Service Application administration options
+* Many customization/solution types will not run
+* No ability to read error (ULS) logs
+
+Microsoft lists changes in SharePoint Online on its Office Roadmap.
+
+==Applications==
+SharePoint usage varies from organization to organization. The product encompasses a wide variety of capabilities, most of which require configuration and governance.&lt;ref&gt;{{Cite web|url=http://en.share-gate.com/blog/real-world-sharepoint-governance-plan|title=Start Building a SharePoint Governance Plan in the Real World {{!}} Sharegate|access-date=July 24, 2016}}&lt;/ref&gt;
+
+The most common uses of the SharePoint include:
+
+=== Enterprise content and document management ===
+{{main|Enterprise content management|document management}}
+SharePoint allows for storage, retrieval, searching, archiving, tracking, management, and reporting on electronic documents and records. Many of the functions in this product are designed around various legal, information management, and process requirements in organizations. SharePoint also provides search and 'graph' functionality.&lt;ref&gt;{{cite web |title=Microsoft Graph with SharePoint Framework |url=https://www.tatvasoft.co.uk/blog/microsoft-graph-with-sharepoint-framework/ |website=Tatvasoft |accessdate=4 February 2020 |language=English |date=28 January 2019}}&lt;/ref&gt;&lt;ref&gt;{{Cite web|title = SharePoint – Team Collaboration Software Tools|url = https://products.office.com/en-US/sharepoint?legRedir=true&amp;CorrelationId=128316d1-cf5b-4f25-8964-5fa3031fe12c|website = Microsoft Office|accessdate = May 19, 2015}}&lt;/ref&gt; SharePoint's integration with [[Microsoft Windows]] and [[Microsoft Office]] allow for  [[Collaborative real-time editor|collaborative real-time editing]], and encrypted/[[Information rights management|information rights managed]] synchronization.
+
+This capability is often used to replace an existing corporate [[file server]], and is typically coupled with an [[enterprise content management]] policy.&lt;ref&gt;{{Cite web|url=https://www.dynamics101.com/sharepoint-vs-network-file-share/|title=SharePoint versus Network File Share (NFS)|last=VibeThemes|date=March 6, 2013|language=en-US|access-date=July 24, 2016}}&lt;/ref&gt;
+
+=== Intranet and social network ===
+{{main|Intranet portal|Social Network}}  
+A SharePoint [[intranet]] or [[intranet portal]] is a way to centralize access to enterprise information and applications. It is a tool that helps an organization manage its internal communications, applications and [[information]] more easily. Microsoft claims that this has organizational benefits such as increased [[employee engagement]], centralizing [[process management]], reducing new staff on-boarding costs, and providing the means to capture and share [[tacit knowledge]] (e.g. via tools such as wikis).
+
+=== Collaborative software ===
+SharePoint contains team collaboration [[groupware]] capabilities, including: [[Schedule (project management)|project scheduling]] (integrated with [[Microsoft Outlook|Outlook]] and [[Microsoft Project|Project]]), social collaboration, shared mailboxes, and project related document storage and collaboration. Groupware in SharePoint is based around the concept of a "Team Site".
+
+=== File hosting service (personal cloud) ===
+{{main|Personal Cloud|File hosting service}}SharePoint Server hosts [[OneDrive for Business]], which allows storage and synchronization of an individual's personal documents, as well as public/private file sharing of those documents. This is typically combined with other Microsoft Office Servers/Services such as [[Microsoft Exchange Server|Microsoft Exchange]], to produce a "personal cloud",
+
+[[WebDAV]] can be used to access files without using the web interface. However, Microsoft's implementation of WebDAV doesn't conform to the official WebDAV protocol and therefore isn't compliant to the WebDAV standard. For example, WebDAV applications have to support the language tagging functionality of the XML specification&lt;ref&gt;{{cite web|url=https://tools.ietf.org/html/rfc4918|title=HTTP Extensions for Web Distributed Authoring and Versioning (WebDAV)|first=Lisa Dusseault|last=&lt;ldusseault@commerce.net&gt;|website=tools.ietf.org}}&lt;/ref&gt; which Microsoft's implementation doesn't. Only Windows XP to Windows 8 are supported.
+
+=== Custom web applications ===
+{{Main|Software framework}}
+SharePoint's custom development capabilities provide an additional layer of services that allow rapid prototyping of integrated (typically line-of-business) web applications.&lt;ref&gt;[http://msdn.microsoft.com/en-us/library/office/jj164084.aspx SharePoint 2013 development overview]. Msdn.microsoft.com (July 16, 2012). Retrieved on 2014-02-22.&lt;/ref&gt;  SharePoint provides developers with integration into corporate directories and data sources through standards such as REST/OData/OAuth. Enterprise application developers use SharePoint's security and information management capabilities across a variety of development platforms and scenarios. SharePoint also contains an enterprise "app store" that has different types of external applications which are encapsulated and managed to access to resources such as corporate user data and document data.
+
+== Content structure ==
+
+=== Pages ===
+SharePoint provides free-form pages which may be edited in-browser. These may be used to provide content to users, or to provide structure to the SharePoint environment.
+
+===Web parts and app parts===
+Web parts and app parts are components (also known as [[portlets]]) that can be inserted into Pages. They are used to display information from both SharePoint and third party applications.
+
+===Content item, Content Type, Libraries, Lists, and "Apps"===
+* Content item is a resource in electronic form. Followings are some examples:
+** Document: always has a "Name"
+** Contact: may have Email address and/or Phone number.
+** Sales Invoice: may have Customer ID.
+* Content Types are definitions (or types) of Content items. These definitions describe things like what metadata fields a Document, Contact, or Sales invoice may have. SharePoint allows you to create your own definitions based on the built-in ones. Some built in content types include: Contacts, Appointments, Documents, and Folders.
+* SharePoint Library stores and displays Content items of type Documents and Folders.
+* SharePoint List stores and displays data items such as Contacts. Some built-in content types such as 'Contact' or 'Appointment' allow the list to expose advanced features such as [[Microsoft Outlook]] or [[Microsoft Project|Project]] synchronization.&lt;ref&gt;{{Cite web|url=https://msdn.microsoft.com/en-us/library/office/ms472236%28v=office.14%29.aspx|title=Introduction to Content Types|website=msdn.microsoft.com|accessdate=May 19, 2015}}&lt;/ref&gt;
+
+In SharePoint 2013, in some locations, Lists and Libraries were renamed 'Apps' (despite being unrelated to the "SharePoint App Store"). In SharePoint 2016, some of these were renamed back to Lists and Libraries.
+
+=== Sites ===
+A SharePoint Site is a collection of pages, lists, libraries, apps, configurations, features, content types, and sub-sites. Examples of Site templates in SharePoint include: collaboration (team) sites, wiki sites, blank sites, and publishing sites.
+
+==Configuration and customization==
+
+===Web-based configuration===
+SharePoint is primarily configured through a web browser. The web-based user interface provides most of the configuration capability of the product.
+
+Depending on your permission level, the web interface can be used to:
+* Manipulate content structure, site structure, create/delete sites, modify navigation and security, or add/remove apps.
+* Enable or disable product features, upload custom designs/themes, or turn on integrations with other Office products. 
+* Configure basic workflows, view usage analytics, manage metadata, configure search options, upload customizations, and set up integration.&lt;ref&gt;{{cite video| url = http://office.microsoft.com/en-us/sharepoint-foundation-help/video-ribbon-highlights-in-sharepoint-2010-VA101805216.aspx 
+| title = Video: Ribbon highlights In SharePoint 2010
+| work = [[Microsoft Office website]]|publisher=Microsoft|date = November 30, 2010}}
+&lt;/ref&gt;
+
+===SharePoint Designer===
+{{main|SharePoint Designer}}SharePoint Designer is a semi-deprecated product that provided 'advanced editing' capabilities for HTML/ASPX pages, but remains the primary method of editing SharePoint workflows.
+
+A significant subset of HTML editing features were removed in Designer 2013, and the product is expected to be deprecated in 2016–7.&lt;ref&gt;{{Cite web|title = Ignite 2015 Announcement – There will be no SharePoint Designer 2016 - Eric Overfield|url = http://ericoverfield.com/ignite-2015-announcement-there-will-be-no-sharepoint-designer-2016/|accessdate = May 19, 2015}}&lt;/ref&gt;
+
+Microsoft SharePoint's Server Features are configured either using [[PowerShell]], or a Web UI called "Central Administration". Configuration of server farm settings (e.g. search crawl, web application services) can be handled through these central tools.
+
+While Central Administration is limited to farm-wide settings (config DB), it provides access to tools such as the 'SharePoint Health Analyzer', a diagnostic health-checking tool.
+
+In addition to PowerShell's farm configuration features, some limited tools are made available for administering or adjusting settings for sites or site collections in content databases.
+
+A limited subset of these features are available by SharePoint's [[Software as a service|SaaS]] providers, including Microsoft.
+
+=== Custom development ===
+* The SharePoint Framework (SPFX) provides a development model based on typescript language. The technical stack is yeoman, node.js, webstack, gulp, npm. It embraces modern web technologies development method. It is the only supported way to customize the new modern experience user interface (UI). It is globally available since mid 2017. It allows web developer to step in Sharepoint development more easily.
+* The SharePoint "App Model" provides various types of external applications that offer the capability to show authenticated web-based applications through a variety of UI mechanisms. Apps may be either "SharePoint-hosted" , or "Provider-hosted". Provider hosted apps may be developed using most back-end web technologies (e.g. ASP.net, [[NodeJS]], [[PHP]]). Apps are served through a proxy in SharePoint, which requires some DNS/certificate manipulation in on-premises versions of SharePoint.
+* The SharePoint "Client Object Model" (available for [[JavaScript]] and [[.NET Framework|.NET]]), and [[REST]]/[[SOAP]] [[application programming interface|API]]s can be referenced from many environments, providing authenticated users access to a wide variety of SharePoint capabilities.&lt;ref name="devvid"&gt;{{cite AV media|url = http://sharepoint.microsoft.com/en-us/Pages/Videos.aspx?VideoID=13  |title = SharePoint 2010 for Developers  |work = SharePoint website  |publisher = Microsoft Corporation  |access-date = August 13, 2011}}&lt;/ref&gt;
+* "Sand-boxed" plugins can be uploaded by any end-user who has been granted permission. These are security-restricted, and can be governed at multiple levels (including resource consumption management). In multi-tenant cloud environments, these are the only customizations that are typically allowed.
+* Farm features are typically fully trusted code that need to be installed at a [[#Farms|farm]]-level. These are considered deprecated for new development.
+* Service applications: It is possible to integrate directly into the SharePoint [[Service-oriented architecture|SOA]] bus, at a farm level.
+
+Customization may appear through:
+* Application-to-application integration with SharePoint.
+* Extensions to SharePoint functionality (e.g. custom workflow actions).
+* 'Web Parts' (also known as "portlets", "widgets", or "gadgets") that provide new functionality when added to a page.
+* Pages/sites or page/site templates.&lt;ref name="devvid" /&gt;
+
+==Server architecture==
+SharePoint Server can be scaled down to operate entirely from one developer machine, or scaled up to be managed across hundreds of machines.&lt;ref name="architecture"&gt;{{cite web|title=Logical architecture components (SharePoint Server 2010)|url=https://technet.microsoft.com/en-us/library/cc263121.aspx|work=Technet|publisher=Microsoft|accessdate=August 13, 2011}}&lt;/ref&gt;
+
+===Farms===
+A SharePoint farm is a logical grouping of SharePoint servers that share common resources.&lt;ref&gt;{{cite web|title=MSDN Conceptual Overview|url=http://msdn.microsoft.com/en-us/library/ee537319.aspx}}&lt;/ref&gt;  A farm typically operates stand-alone, but can also subscribe to functions from another farm, or provide functions to another farm. Each farm has its own central configuration database, which is managed through either a [[PowerShell]] interface, or a Central Administration website (which relies partly on PowerShell's infrastructure). Each server in the farm is able to directly interface with the central configuration database. Servers use this to configure services (e.g. [[Internet Information Services|IIS]], windows features, database connections) to match the requirements of the farm, and to report server health issues, resource allocation issues, etc...
+
+===Web applications===
+Web applications (WAs) are top-level containers for content in a SharePoint farm. A web application is associated primarily with [[Internet Information Services|IIS]] configuration. A web application consists of a set of access mappings or URLs defined in the SharePoint central management console, which are replicated by SharePoint across every IIS Instance (e.g. Web Application Servers) configured in the farm.
+
+===Site collections===
+A site collection is a hierarchical group of 'SharePoint Sites'. Each web application must have at least one site collection. Site collections share common properties ([https://msdn.microsoft.com/en-us/library/microsoft.sharepoint.spsite_properties.aspx detailed here]), common subscriptions to service applications, and can be configured with unique host names.&lt;ref&gt;{{cite web|url=https://technet.microsoft.com/en-us/library/cc424952.aspx |title=Host-named site collection architecture and deployment (SharePoint 2013) | access-date= April 25, 2017}}&lt;/ref&gt; A site collection may have a distinct content databases, or may share a content database with other site collections in the same web application.&lt;ref name="architecture" /&gt;
+
+===Service applications===
+Service applications provide granular pieces of SharePoint functionality to other web and service applications in the farm. Examples of service applications include the User Profile Sync service, and the Search Indexing service. A service application can be turned off, exist on one server, or be load-balanced across many servers in a farm. Service Applications are designed to have independent functionality and independent security scopes.&lt;ref name="architecture" /&gt;
+
+==Administration, security, compliance==
+SharePoint's architecture enables 'least-privileges' execution permission model.&lt;ref&gt;{{cite web|last=Holme|first=Dan|title=Least Privilege Service Accounts for SharePoint 2010|url=http://www.sharepointpromag.com/article/sharepoint/least-privilege-service-accounts-for-sharepoint-2010|work=SharePoint Pro Magazine|publisher=Penton Media|accessdate=August 13, 2011}}&lt;/ref&gt;
+
+SharePoint Central Administration (the CA) is a web application that typically exists on a single server in the farm, however it is also able to be deployed for redundancy to multiple servers.&lt;ref name="architecture" /&gt; This application provides a complete centralized management interface for web &amp; service applications in the SharePoint farm, including AD account management for web &amp; service applications. In the event of the failure of the CA, [[Windows PowerShell]] is typically used on the CA server to reconfigure the farm.
+
+The structure of the SharePoint platform enables multiple WAs to exist on a single farm. In a shared ([[cloud computing|cloud]]) hosting environment, owners of these WAs may require their own management console. The SharePoint 'Tenant Administration' (TA) is an optional web application used by web application owners to manage how their web application interacts with the shared resources in the farm.&lt;ref name="architecture" /&gt;
+
+===Compliance, standards and integration===
+* SharePoint integrates with [[Microsoft Office]]. 
+* SharePoint uses Microsoft's [[OpenXML]] document standard for integration with Microsoft Office. Document metadata is also stored using this format.
+* SharePoint provides various [[application programming interface]]s (APIs: client-side, server-side, JavaScript) and [[REST]], [[SOAP]] and [[OData]]-based interfaces.
+* SharePoint can be used to achieve compliance with many document retention, record management, document ID and discovery laws.&lt;ref&gt;{{cite web|last=McNelis|first=Zack|title=SharePoint 2010 – Compliance Everywhere|url=http://blogs.technet.com/b/zmcnelis/archive/2009/10/21/sharepoint-2010-compliance-everywhere.aspx|work=Technet Blogs - Zach McNelis|publisher=Microsoft|accessdate=August 13, 2011}}&lt;/ref&gt;
+* SharePoint is compatible with [[Content Management Interoperability Services|CMIS]] - the Content Management Interoperability Standard, using Microsoft's [https://technet.microsoft.com/en-us/library/ff934619.aspx CMIS Connector].
+* SharePoint by default produces valid [[XHTML]] 1.0 that is compliant with [[WCAG 2.0]] accessibility standards.
+* SharePoint can use claims-based authentication, relying on [[Security Assertion Markup Language|SAML]] tokens for security assertions. SharePoint provides an open authentication plugin model.
+* SharePoint has support for [[XLIFF]] to support the localization of content in SharePoint.&lt;ref&gt;Kate Kelly, Jesus Barrera Ramos, and Marcus Reid. October 16, 2012. XLIFF in SharePoint 2013. Presentation at FEISGILTT 2012. &lt;http://www.localizationworld.com/lwseattle2012/feisgiltt/FEISGILTT_2012_Program.pdf&gt;&lt;/ref&gt; Also added support for AppFabric.&lt;ref&gt;&lt;https://technet.microsoft.com/en-us/library/jj219613.aspx&gt;&lt;/ref&gt;
+
+===Other SharePoint-related Microsoft products===
+{| class="wikitable sortable"
+|-
+! Product name !! Description !! Status !! 
+|-
+|[[Microsoft Teams]]
+|A platform that combines workplace chat, meetings, notes, and attachments. It was designed by Microsoft as a competitor to [[Slack (software)|Slack]], and was officially announced in November 2016.
+|Active
+|
+|-
+|[[Search Server]]
+|An [[enterprise search]] platform based on the search capabilities of SharePoint. A Freeware Express edition was once available.
+|Discontinued
+|
+|-
+|[[FAST Search Server 2010 for SharePoint]]
+|Search product that can be implemented on SharePoint Foundation.
+|Discontinued
+|&lt;ref&gt;{{cite web|title=FAST Solution Center|url=http://support.microsoft.com/ph/15080|work=Support|publisher=[[Microsoft]]|accessdate=February 2, 2014}}&lt;/ref&gt;&lt;ref&gt;{{cite web|title=FAST Search Server 2010 for SharePoint|url=https://technet.microsoft.com/en-us/library/ee781286%28v=office.14%29|work=[[Microsoft TechNet]]|publisher=[[Microsoft]]|accessdate=February 2, 2014|date=May 12, 2010}}&lt;/ref&gt;&lt;ref&gt;{{cite web|title=Manupatra Information Solutions|url=http://www.microsoft.com/casestudies/Microsoft-FAST-Search-Server-2010-For-Sharepoint/Manupatra-Information-Solutions/Legal-and-Business-Publisher-Speeds-Access-to-Relevant-Information-using-Enterprise-Search/710000002011|work=Microsoft Case Study|publisher=[[Microsoft]]|accessdate=February 2, 2014|date=February 17, 2013}}&lt;/ref&gt;
+|-
+|[[SharePoint Designer]]
+| A free, [[client-side]] customization and configuration tool for SharePoint.
+|Deprecated
+|
+|-
+|[[Microsoft Visio]]
+|A [[diagramming]] tool which can be used to design SharePoint Workflows. Can be added to an Office 365 subscription.
+|Active
+|
+|-
+|[[Microsoft Office]]
+|Desktop, Mobile, and Tablet-based Office Productivity Suite. Also available for Mac. Included in some Office 365 plans.
+|Active
+|
+|-
+|[[Office Web Apps]]
+|Web-based, online, cross-browser compatible versions of Excel, Word, PowerPoint and OneNote. Directly Integrate with SharePoint.
+|Active
+|
+|-
+|[[Project Server|Microsoft Project Server]]
+|An extension to SharePoint providing integration with [[Microsoft Project]].
+|Active
+|
+|-
+|[[Microsoft Project]]
+|A client-based project planning tool which can be connected to a SharePoint task list for task and gantt-chart sharing. Comes with Project Online.
+|Active
+|
+|-
+|[[Power BI]]
+|An extension for Office 365 or SharePoint providing advanced Business Intelligence capabilities.
+|Active
+|
+|-
+|[[Microsoft Exchange Server]]
+|A mail server that integrates with Microsoft SharePoint. Included in 365.
+|Active
+|
+|-
+|[[Skype for Business]]
+|A client and server that provide VOIP telephony integration, IM, conferencing, and video/screen-sharing. Integrates with SharePoint for presence. Included in 365.
+|Active
+|
+|-
+|[[Yammer]]
+|A cloud-only enterprise social network that connects and closely integrates with SharePoint and is included in Office 365.
+|Active
+|
+|-
+|[[Microsoft Dynamics CRM]]
+|A CRM system with SharePoint &amp; Office 365 Groups integration. On-premises or 365 tenant deployment options.
+|Active
+|
+|-
+|[[InfoPath Forms Services]]
+|Allows [[InfoPath]] forms to be hosted in a SharePoint web site and served via web browser.
+|Deprecated
+|
+|-
+|[[Excel Services]]
+|A server technology included in SharePoint 2010 and SharePoint 2007 that enables users to load, calculate, and display [[Microsoft Excel|Excel]] 2010 workbooks on SharePoint Server 2010.
+|Active
+|
+|-
+|[[Microsoft SharePoint Workspace|SharePoint Workspace]]
+|A client-side SharePoint site synchronization component included in [[Microsoft Office 2010]] (Professional Plus edition and higher).
+|Discontinued
+|
+|-
+|[[OneDrive|OneDrive for Business]]
+|A client-side file synchronization component included in [[Microsoft Office 2010|Microsoft Office 2013-16]] and available for free download.
+|Active
+|
+|-
+|[[OneDrive]] for Mac
+|A client-side file synchronization component available for free download.
+|Active
+|
+|}
+
+==History==
+
+=== Origins ===
+SharePoint evolved from projects codenamed "Office Server" and "Tahoe" during the Office XP development cycle.
+
+"Office Server" evolved out of the [[Microsoft FrontPage|FrontPage]] and Office Server Extensions and "Team Pages". It targeted simple, bottom-up collaboration.
+
+"Tahoe", built on shared technology with Exchange and the “Digital Dashboard”, targeted top-down portals, search and document management. The searching and indexing capabilities of SharePoint came from the "Tahoe" feature set. The search and indexing features were a combination of the index and crawling features from the Microsoft Site Server family of products and from the query language of Microsoft Index Server.&lt;ref&gt;{{cite web
+ |url = http://blogs.msdn.com/b/sharepoint/archive/2009/10/05/sharepoint-history.aspx
+ |title = Sharepoint History
+ |work = MSDN
+ |publisher = Microsoft corporation
+
+ |date = October 5, 2009
+ |accessdate = December 2, 2010
+}}&lt;/ref&gt;
+
+GAC-(Global Assembly Cache) is used to accommodate the shared assemblies that are specifically designated to be shared by applications executed on a system.
+
+=== Versions ===
+Successive versions (in chronological order):
+
+* Office Server Extensions
+* SharePoint Portal Server 2001
+* SharePoint Team Services
+* Windows SharePoint Services 2.0 (free license) and SharePoint Portal Server 2003 (commercial release)
+* Windows SharePoint Services 3.0 (free license) and Office SharePoint Server 2007 (commercial extension)&lt;ref name="history" /&gt;
+* SharePoint Foundation 2010 (free), SharePoint Server 2010 (commercial extension for Foundation), and SharePoint Enterprise 2010 (commercial extension for Server)
+* SharePoint Foundation 2013 (free), SharePoint Server 2013 (extension on top of Foundation), and SharePoint Enterprise 2013.
+* SharePoint Online (Plan 1), and SharePoint Online (Plan 2)
+* SharePoint Server 2016 and SharePoint Enterprise 2016.
+* SharePoint Server 2019 and SharePoint Enterprise 2019.
+
+===Notable changes in SharePoint 2010===
+Changes in end-user functionality added in the 2010 version of SharePoint include:
+
+* New UI with [[Ribbon (computing)|Fluent Ribbon]], using wiki-pages rather than 'web-part pages' and offering multi-browser support.
+* New social profiles, and early [[social networking]] features
+* Central Administration rebuilt.
+* Restructure of "Shared Service Providers" - Introduction of "Service Applications" SOA model.
+* Sandboxed Solutions and a client-side object-model [[API]]s for JavaScript, Silverlight, and [[.NET Framework|.NET]] applications
+* [[Business Connectivity Services]], [[claims-based authentication|Claims-based Authentication]], and [[Windows PowerShell]] support
+
+===Notable changes in SharePoint 2013===
+* Cross-browser drag &amp; drop support for file uploads/changes, and Follow/Share buttons
+* OneDrive for Business (initially SkyDrive Pro) replaces MySites and Workspaces.
+* Updates to social network feature &amp; new task aggregation tool.
+* [[Database caching]], called ''Distributed Cache Service''&lt;ref&gt;[http://www.microsoft.com/resources/technet/en-us/office/media/video/video.html?cid=stc&amp;from=mscomstc&amp;VideoID=8ec14243-bbb1-49c5-899f-f9e91612fdfa How-To Videos - Microsoft Office]. Microsoft.com. Retrieved on February 22, 2014.&lt;/ref&gt;
+* [[Load balancing (computing)#Load balancer features|Content-aware switching]], called ''Management''
+* Audit center (service called eDiscovery)
+* Rebuilt and improved search capabilities
+* Removal of some analytics capabilities
+* UI: JSLink, MDS, theme packs. No WYSIWYG in SP Designer.
+
+=== Notable changes in SharePoint 2016 ===
+Sources:&lt;ref&gt;{{Cite web|url=https://technet.microsoft.com/en-us/library/mt346121(v=office.16).aspx|title=New and improved features in SharePoint Server 2016|website=technet.microsoft.com|access-date=September 19, 2016}}&lt;/ref&gt;&lt;ref&gt;{{Cite web|url=http://centillion-ts.com/new-features-sharepoint-2016-overview/|title=New Features in SharePoint 2016 - Overview - Centillion Technology Systems|date=April 6, 2016|language=en-US|access-date=September 19, 2016}}&lt;/ref&gt;
+
+* Hybrid Improvements
+** Single Sites View
+** Unified Search
+** Search Sensitive Information in Hybrid Search
+** Unified UI (O365)
+* Performance, Scaling &amp; Deployment Improvements 
+** Search Scaling Capabilities
+** Site Collection Enhancement
+** Deterministic View Threshold – Removing 5000 Limit
+** Durable Links and Large Files Support
+* Deployment Improvements
+** MinRole
+** Zero Downtime Patching
+
+=== Notable changes in SharePoint 2019 ===
+Sources:&lt;ref&gt;{{Cite web|url=https://techcommunity.microsoft.com/t5/Microsoft-SharePoint-Blog/Announcing-General-Availability-of-SharePoint-Server-2019/ba-p/272546|title=Announcing General Availability of SharePoint Server 2019|website=techcommunity.microsoft.com|access-date=October 23, 2018}}&lt;/ref&gt;
+
+* Modern sites and page layouts
+* Communication sites
+* Large File Support, Character Restrictions, and File/Folder Names
+
+==See also==
+* [[Enterprise portal]]
+* [[List of collaborative software]]
+* [[List of content management systems]]
+
+==References==
+{{Reflist}}
+
+==External links==
+* {{Official website}}
+*[http://roadmap.office.com SharePoint Roadmap]
+
+{{Microsoft development tools}}
+{{Microsoft Office}}
+{{Use mdy dates|date=October 2018}}
+
+{{DEFAULTSORT:Sharepoint}}
+[[Category:SharePoint| ]]
+[[Category:2001 software]]
+[[Category:Content management systems]]
+[[Category:Document management systems]]
+[[Category:Information management]]
+[[Category:Portal software]]
+[[Category:Proprietary database management systems]]
+[[Category:Records management technology]]
+[[Category:Microsoft Office servers]]</text>
+      <sha1>njz9equ07j9jpqzdktklkp1gzsva9zy</sha1>
+    </revision>
+  </page>
+</mediawiki>

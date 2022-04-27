@@ -1,0 +1,215 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.10/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.10/ http://www.mediawiki.org/xml/export-0.10.xsd" version="0.10" xml:lang="en">
+  <siteinfo>
+    <sitename>Wikipedia</sitename>
+    <dbname>enwiki</dbname>
+    <base>https://en.wikipedia.org/wiki/Main_Page</base>
+    <generator>MediaWiki 1.35.0-wmf.36</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Media</namespace>
+      <namespace key="-1" case="first-letter">Special</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Talk</namespace>
+      <namespace key="2" case="first-letter">User</namespace>
+      <namespace key="3" case="first-letter">User talk</namespace>
+      <namespace key="4" case="first-letter">Wikipedia</namespace>
+      <namespace key="5" case="first-letter">Wikipedia talk</namespace>
+      <namespace key="6" case="first-letter">File</namespace>
+      <namespace key="7" case="first-letter">File talk</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki talk</namespace>
+      <namespace key="10" case="first-letter">Template</namespace>
+      <namespace key="11" case="first-letter">Template talk</namespace>
+      <namespace key="12" case="first-letter">Help</namespace>
+      <namespace key="13" case="first-letter">Help talk</namespace>
+      <namespace key="14" case="first-letter">Category</namespace>
+      <namespace key="15" case="first-letter">Category talk</namespace>
+      <namespace key="100" case="first-letter">Portal</namespace>
+      <namespace key="101" case="first-letter">Portal talk</namespace>
+      <namespace key="108" case="first-letter">Book</namespace>
+      <namespace key="109" case="first-letter">Book talk</namespace>
+      <namespace key="118" case="first-letter">Draft</namespace>
+      <namespace key="119" case="first-letter">Draft talk</namespace>
+      <namespace key="446" case="first-letter">Education Program</namespace>
+      <namespace key="447" case="first-letter">Education Program talk</namespace>
+      <namespace key="710" case="first-letter">TimedText</namespace>
+      <namespace key="711" case="first-letter">TimedText talk</namespace>
+      <namespace key="828" case="first-letter">Module</namespace>
+      <namespace key="829" case="first-letter">Module talk</namespace>
+      <namespace key="2300" case="first-letter">Gadget</namespace>
+      <namespace key="2301" case="first-letter">Gadget talk</namespace>
+      <namespace key="2302" case="case-sensitive">Gadget definition</namespace>
+      <namespace key="2303" case="case-sensitive">Gadget definition talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Local regression</title>
+    <ns>0</ns>
+    <id>4146592</id>
+    <revision>
+      <id>957795688</id>
+      <parentid>957791841</parentid>
+      <timestamp>2020-05-20T16:11:58Z</timestamp>
+      <contributor>
+        <username>AnomieBOT</username>
+        <id>7611264</id>
+      </contributor>
+      <minor/>
+      <comment>Dating maintenance tags: {{Says who}}</comment>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="18320" xml:space="preserve">{{More footnotes|date=June 2011}}
+{{Regression bar}}
+[[Image:Loess curve.svg|thumb|LOESS curve fitted to a population sampled from a [[sine wave]] with uniform noise added. The LOESS curve approximates the original sine wave]]
+
+'''Local regression''' or '''local polynomial regression'''{{sfn|Fox|Weisberg|2018|loc=Appendix}}, also known as '''moving regression''',{{sfn|Harrell|2015|p=29}} is a generalization of [[moving average]] and [[polynomial regression]].{{sfn|Garimella|2017|p=}}
+Its most common methods, initially developed for [[scatterplot smoothing]], are '''LOESS''' ('''locally estimated scatterplot smoothing''') and '''LOWESS''' ('''locally weighted scatterplot smoothing'''), both pronounced {{IPAc-en|ˈ|l|oʊ|ɛ|s}}. They are two strongly related [[non-parametric regression]] methods that combine multiple regression models in a [[k-nearest neighbor algorithm|''k''-nearest-neighbor]]-based meta-model.
+Outside econometrics, LOESS is known and commonly referred to as [[Savitzky–Golay filter]].&lt;ref&gt;{{Cite web|url=https://www.mathworks.com/help/signal/ref/sgolayfilt.html|title=Savitzky-Golay filtering - MATLAB sgolayfilt|website=Mathworks.com}}&lt;/ref&gt;&lt;ref&gt;{{Cite web|url=https://docs.scipy.org/doc/scipy-0.16.1/reference/generated/scipy.signal.savgol_filter.html|title=scipy.signal.savgol_filter — SciPy v0.16.1 Reference Guide|website=Docs.scipy.org}}&lt;/ref&gt; [[Savitzky–Golay filter]] was proposed 15 years before LOESS.
+
+LOESS and LOWESS thus build on [[classical statistics|"classical" methods]], such as linear and nonlinear [[least squares regression]]. They address situations in which the classical procedures do not perform well or cannot be effectively applied without undue labor. LOESS combines much of the simplicity of linear least squares regression with the flexibility of [[Non-linear regression|nonlinear regression]]. It does this by fitting simple models to localized subsets of the data to build up a function that describes the deterministic part of the variation in the data, point by point. In fact, one of the chief attractions of this method is that the data analyst is not required to specify a global function of any form to fit a model to the data, only to fit segments of the data.
+
+The trade-off for these features is increased computation. Because it is so computationally intensive, LOESS would have been practically impossible to use in the era when least squares regression was being developed. Most other modern methods for process modeling are similar to LOESS in this respect. These methods have been consciously designed to use our current computational ability to the fullest possible advantage to achieve goals not easily achieved by traditional approaches.
+
+A smooth curve through a set of data points obtained with this statistical technique is called a '''loess curve''', particularly when each smoothed value is given by a weighted quadratic least squares regression over the span of values of the ''y''-axis [[scattergram]] criterion variable. When each smoothed value is given by a weighted linear least squares regression over the span, this is known as a '''lowess curve'''; however, some authorities treat '''lowess''' and loess as synonyms.
+
+==Model definition==
+In 1964, Savitsky and Golay proposed a method equivalent to LOESS, which is commonly referred to as [[Savitzky–Golay filter]].
+[[William S. Cleveland|Cleveland]] rediscovered the method in 1979 and gave it a distinct name.&lt;!-- Please list this in a "References" section below. --&gt; The method was further developed by Cleveland and Devlin (1988).&lt;!-- Please list this in a "References" section below. --&gt; LOWESS is also known as locally weighted polynomial regression. 
+
+At each point in the range of the [[data set]] a low-degree [[polynomial]] is fitted to a subset of the data, with [[explanatory variable]] values near the point whose [[response variable|response]] is being estimated. The polynomial is fitted using [[weighted least squares]], giving more weight to points near the point whose response is being estimated and less weight to points further away. The value of the regression function for the point is then obtained by evaluating the local polynomial using the explanatory variable values for that data point. The LOESS fit is complete after regression function values have been computed for each of the &lt;math&gt;n&lt;/math&gt; data points. Many of the details of this method, such as the degree of the polynomial model and the weights, are flexible. The range of choices for each part of the method and typical defaults are briefly discussed next.
+
+===Localized subsets of data===
+The '''subsets''' of data used for each weighted least squares fit in LOESS are determined by a nearest neighbors algorithm. A user-specified input to the procedure called the "bandwidth" or "smoothing parameter" determines how much of the data is used to fit each local polynomial. The smoothing parameter, &lt;math&gt;\alpha&lt;/math&gt;, is the fraction of the total number ''n'' of data points that are used in each local fit. The subset of data used in each weighted least squares fit thus comprises the &lt;math&gt;n\alpha&lt;/math&gt; points (rounded to the next largest integer) whose explanatory variables' values are closest to the point at which the response is being estimated.&lt;ref name="NIST"&gt;NIST, [http://www.itl.nist.gov/div898/handbook/pmd/section1/pmd144.htm  "LOESS (aka LOWESS)"], section 4.1.4.4, ''NIST/SEMATECH e-Handbook of Statistical Methods,'' (accessed 14 April 2017)&lt;/ref&gt;
+
+Since a polynomial of degree ''k'' requires at least (''k''+1) points for a fit, the smoothing parameter &lt;math&gt;\alpha&lt;/math&gt; must be between &lt;math&gt;\left(\lambda+1\right)/n&lt;/math&gt; and 1, with &lt;math&gt;\lambda&lt;/math&gt; denoting the degree of the local polynomial. 
+
+&lt;math&gt;\alpha&lt;/math&gt; is called the smoothing parameter because it controls the flexibility of the LOESS regression function. Large values of &lt;math&gt;\alpha&lt;/math&gt; produce the smoothest functions that wiggle the least in response to fluctuations in the data. The smaller &lt;math&gt;\alpha&lt;/math&gt; is, the closer the regression function will conform to the data. Using too small a value of the smoothing parameter is not desirable, however, since the regression function will eventually start to capture the random error in the data.
+
+===Degree of local polynomials===
+The local polynomials fit to each subset of the data are almost always of first or second degree; that is, either locally linear (in the straight line sense) or locally quadratic. Using a zero degree polynomial turns LOESS into a weighted [[moving average]]. Higher-degree polynomials would work in theory, but yield models that are not really in the spirit of LOESS. LOESS is based on the ideas that any function can be well approximated in a small neighborhood by a low-order polynomial and that simple models can be fit to data easily. High-degree polynomials would tend to overfit the data in each subset and are numerically unstable, making accurate computations difficult.
+
+===Weight function===
+As mentioned above, the weight function gives the most weight to the data points nearest the point of estimation and the least weight to the data points that are furthest away. The use of the weights is based on the idea that points near each other in the explanatory variable space are more likely to be related to each other in a simple way than points that are further apart. Following this logic, points that are likely to follow the local model best influence the local model parameter estimates the most. Points that are less likely to actually conform to the local model have less influence on the local model [[Parameter#Statistics|parameter]] [[Statistical estimation|estimates]].
+
+The traditional weight function used for LOESS is the [[Kernel (statistics)#Kernel functions in common use|tri-cube weight function]],
+:&lt;math&gt;w(x) = (1 - |d|^3)^3 &lt;/math&gt;
+where ''d'' is the distance of a given data point from the point on the curve being fitted, scaled to lie in the range from 0 to 1.&lt;ref name="NIST" /&gt;
+
+However, any other weight function that satisfies the properties listed in Cleveland (1979) could also be used. The weight for a specific point in any localized subset of data is obtained by evaluating the weight function at the distance between that point and the point of estimation, after scaling the distance so that the maximum absolute distance over all of the points in the subset of data is exactly one.
+
+Consider the following generalisation of the linear regression model with a metric &lt;math&gt;w(x,z)&lt;/math&gt; on the target space &lt;math&gt;\mathbb R^m&lt;/math&gt; that depends on two parameters, &lt;math&gt;x,z\in\mathbb R^n&lt;/math&gt;. Assume that the linear hypothesis is based on &lt;math&gt;n&lt;/math&gt; input parameters and that, as customary in these cases, we embed the input space &lt;math&gt;\mathbb R^n&lt;/math&gt; into &lt;math&gt;\mathbb R^{n+1}&lt;/math&gt; as &lt;math&gt;x\mapsto \hat x := (1,x)&lt;/math&gt;, and consider the following ''loss function''
+
+:&lt;math&gt;\operatorname{RSS}_x(A) = \sum_{i=1}^N(y_i-A\hat x_i)^Tw_i(x)(y_i-A\hat x_i).&lt;/math&gt;
+
+Here, &lt;math&gt;A&lt;/math&gt; is an &lt;math&gt;(n+1)\times(n+1)&lt;/math&gt; real matrix of coefficients, &lt;math&gt;w_i(x):=w(x_i,x)&lt;/math&gt; and the subscript ''i'' enumerates input and output vectors from a training set. Since &lt;math&gt;w&lt;/math&gt; is a metric, it is a symmetric, positive-definite matrix and, as such, there is another symmetric matrix &lt;math&gt;h&lt;/math&gt; such that &lt;math&gt;w=h^2&lt;/math&gt;. The above loss function can be rearranged into a trace by observing that &lt;math&gt;y^Twy = (hy)^T(hy) = \operatorname{Tr}(hyy^Th) = \operatorname{Tr}(wyy^T)&lt;/math&gt;. By arranging the vectors &lt;math&gt;y_i&lt;/math&gt; and &lt;math&gt;\hat x_i&lt;/math&gt; into the columns of a &lt;math&gt;m\times N&lt;/math&gt; matrix &lt;math&gt;Y&lt;/math&gt; and an &lt;math&gt;(n+1)\times N&lt;/math&gt; matrix &lt;math&gt;\hat X&lt;/math&gt; respectively, the above loss function can then be written as
+
+:&lt;math&gt;\operatorname{Tr}(W(x)(Y-A\hat X)^T(Y-A\hat X))&lt;/math&gt;
+
+where &lt;math&gt;W&lt;/math&gt; is the square diagonal &lt;math&gt;N\times N&lt;/math&gt; matrix whose entries are the &lt;math&gt;w_i(x)&lt;/math&gt;s. Differentiating with respect to &lt;math&gt;A&lt;/math&gt; and setting the result equal to 0 one finds the extremal matrix equation
+
+:&lt;math&gt;A\hat XW(x)\hat X^T = YW(x)\hat X^T.&lt;/math&gt;
+
+Assuming further that the square matrix &lt;math&gt;\hat XW(x)\hat X^T&lt;/math&gt; is non-singular, the loss function &lt;math&gt;\operatorname{RSS}_x(A)&lt;/math&gt; attains its minimum at
+
+:&lt;math&gt;A(x) = YW(x)\hat X^T(\hat XW(x)\hat X^T)^{-1}.&lt;/math&gt;
+
+A typical choice for &lt;math&gt;w(x,z)&lt;/math&gt; is the ''Gaussian weight''
+
+:&lt;math&gt;w(x,z) = \exp\left(-\frac{(x-z)^2}{2\sigma^2}\right)&lt;/math&gt;
+
+==Advantages==
+As discussed above, the biggest advantage LOESS has over many other methods is the fact{{says who|date=May 2020}} that it does not require the specification of a function to fit a model to all of the data in the sample. Instead the analyst only has to provide a smoothing parameter value and the degree of the local polynomial. In addition, LOESS is very flexible, making it ideal for modeling complex processes for which no theoretical models exist. These two advantages, combined with the simplicity of the method, make LOESS one of the most attractive of the modern regression methods for applications that fit the general framework of least squares regression but which have a complex deterministic structure.
+
+Although it is less obvious than for some of the other methods related to linear least squares regression, LOESS also accrues most of the benefits typically shared by those procedures. The most important of those is the theory for computing uncertainties for prediction and calibration. Many other tests and procedures used for validation of least squares models can also be extended to LOESS models {{Citation needed|date=July 2011}}.
+
+==Disadvantages==
+LOESS makes less efficient use of data than other least squares methods. It requires fairly large, densely sampled data sets in order to produce good models. This is because LOESS relies on the local data structure when performing the local fitting. Thus, LOESS provides less complex data analysis in exchange for greater experimental costs{{says who|date=May 2020}}.
+
+Another disadvantage of LOESS is the fact that it does not produce a regression function that is easily represented by a mathematical formula. This can make it difficult to transfer the results of an analysis to other people. In order to transfer the regression function to another person, they would need the data set and software for LOESS calculations. In [[nonlinear regression]], on the other hand, it is only necessary to write down a functional form in order to provide estimates of the unknown parameters and the estimated uncertainty. Depending on the application, this could be either a major or a minor drawback to using LOESS.  In particular, the simple form of LOESS can not be used for mechanistic modelling where fitted parameters specify particular physical properties of a system.
+
+Finally, as discussed above, LOESS is a computationally intensive method (with the exception of evenly spaced data, where the regression can then be phrased as a non-causal [[finite impulse response]] filter). LOESS is also prone to the effects of outliers in the data set, like other least squares methods. There is an iterative, [[robust statistics|robust]] version of LOESS [Cleveland (1979)] that can be used to reduce LOESS' sensitivity to [[outliers]], but too many extreme outliers can still overcome even the robust method.
+
+==See also==
+*[[Savitzky–Golay filter]]
+*[[Moving least squares]]
+*[[Moving average]]
+*[[Multivariate adaptive regression splines]]
+*[[Non-parametric statistics]]
+*[[Segmented regression]]
+*[[Kernel regression]]
+
+==References==
+===Citations===
+{{reflist}}
+===Sources===
+{{refbegin|30em|indent=yes}}
+*{{cite journal
+ |doi=10.2307/2286407
+ |last1=Cleveland |first1=William S. |author-link=William S. Cleveland
+ |year=1979 
+ |title=Robust Locally Weighted Regression and Smoothing Scatterplots 
+ |journal=[[Journal of the American Statistical Association]] 
+ |volume=74 |issue=368 |pages=829&amp;ndash;836 
+ |mr=0556476 |jstor=2286407 
+}}
+* {{cite journal
+ |last1=Cleveland 
+ |first1=William S. |author-link=William S. Cleveland
+ |year=1981 
+ |title=LOWESS: A program for smoothing scatterplots by robust locally weighted regression 
+ |journal=The American Statistician 
+ |volume=35 
+ |issue=1 |pages=54 |jstor=2683591 |doi=10.2307/2683591}}
+* {{cite journal
+ |doi=10.2307/2289282
+ |last1=Cleveland |first1=William S. 
+ |last2=Devlin |first2=Susan J. 
+ |year=1988 
+ |title=Locally-Weighted Regression: An Approach to Regression Analysis by Local Fitting 
+ |journal=[[Journal of the American Statistical Association]] 
+ |volume=83 |issue=403 |pages=596&amp;ndash;610 
+ |jstor=2289282 
+}}
+*{{cite book|ref=harv|last1=Fox|first1=John |last2=Weisberg|first2=Sanford |title=An R Companion to Applied Regression|url=https://books.google.com/books?id=SfNrDwAAQBAJ|edition=3rd|date= 2018|publisher=SAGE |isbn=978-1-5443-3645-9|chapter=Appendix: Nonparametric Regression in R|chapter-url=https://socialsciences.mcmaster.ca/jfox/Books/Companion/appendices/Appendix-Nonparametric-Regression.pdf}}
+* {{cite journal
+ |last1=Friedman |first1=Jerome H.
+ |year=1984 
+ |title=A Variable Span Smoother
+ |department=Laboratory for Computational Statistics
+ |institution=Stanford University 
+ |volume=LCS Technical Report 5, SLAC PUB-3466
+ |url=http://www.slac.stanford.edu/cgi-wrap/getdoc/slac-pub-3477.pdf
+}}
+*{{Cite document|title=A Simple Introduction to Moving Least Squares and Local Regression Estimation|first=Rao Veerabhadra|last=Garimella|date=22 June 2017|osti = 1367799|ref=harv|doi=10.2172/1367799}}
+*{{cite book|ref=harv|last=Harrell |first=Frank E. , Jr.|title=Regression Modeling Strategies: With Applications to Linear Models, Logistic and Ordinal Regression, and Survival Analysis|url=https://books.google.com/books?id=94RgCgAAQBAJ&amp;pg=PA29|year=2015|publisher=Springer|isbn=978-3-319-19425-7}}
+{{refend}}
+
+==External links==
+*[http://voteforamerica.net/editorials/Comments.aspx?ArticleId=28&amp;ArticleName=Electoral+Projections+Using+LOESS Local Regression and Election Modeling]
+*[https://web.archive.org/web/20060831004244/http://www.stat.purdue.edu/~wsc/papers/localregression.principles.ps Smoothing by Local Regression: Principles and Methods (PostScript Document)]
+*[http://www.itl.nist.gov/div898/handbook/pmd/section1/pmd144.htm NIST Engineering Statistics Handbook Section on LOESS]
+*[https://web.archive.org/web/20050912090738/http://www.stat.purdue.edu/~wsc/localfitsoft.html Local Fitting Software]
+*[http://stat.ethz.ch/R-manual/R-patched/library/stats/html/lowess.html Scatter Plot Smoothing]
+*[https://stat.ethz.ch/R-manual/R-devel/library/stats/html/loess.html R: Local Polynomial Regression Fitting] The Loess function in [[R (programming language)|R]]
+*[https://stat.ethz.ch/R-manual/R-devel/library/stats/html/lowess.html R: Scatter Plot Smoothing] The Lowess function in [[R (programming language)|R]]
+*[https://stat.ethz.ch/R-manual/R-devel/library/stats/html/supsmu.html The supsmu function (Friedman's SuperSmoother) in R]
+*[http://www.r-statistics.com/2010/04/quantile-loess-combining-a-moving-quantile-window-with-loess-r-function/ Quantile LOESS] – A method to perform Local regression on a '''Quantile''' moving window (with R code)
+*[http://fivethirtyeight.blogs.nytimes.com/2013/03/26/how-opinion-on-same-sex-marriage-is-changing-and-what-it-means/?hp Nate Silver, How Opinion on Same-Sex Marriage Is Changing, and What It Means] - sample of LOESS versus linear regression
+
+=== Implementations ===
+* [http://www.netlib.org/go/lowess.f Fortran implementation]
+* [http://svn.r-project.org/R/trunk/src/library/stats/src/lowess.c C implementation (from the R project)]
+* [https://github.com/livingsocial/cylowess Lowess implementation in Cython] by [http://slendermeans.org/lowess-speed.html Carl Vogel]
+* [https://github.com/statsmodels/statsmodels/blob/master/statsmodels/nonparametric/smoothers_lowess.py Python implementation (in Statsmodels)]
+* [http://peltiertech.com/WordPress/loess-smoothing-in-excel/ LOESS Smoothing in Excel]
+* [https://github.com/dcjones/Loess.jl LOESS implementation in pure Julia]
+* [https://www.npmjs.com/package/loess JavaScript implementation]
+
+{{NIST-PD}}
+
+{{DEFAULTSORT:Local Regression}}
+[[Category:Nonparametric regression]]</text>
+      <sha1>4axuc436v4chh9f55q3f0tlegdh0fgy</sha1>
+    </revision>
+  </page>
+</mediawiki>

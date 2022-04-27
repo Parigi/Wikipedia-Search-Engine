@@ -1,0 +1,174 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.10/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.10/ http://www.mediawiki.org/xml/export-0.10.xsd" version="0.10" xml:lang="en">
+  <siteinfo>
+    <sitename>Wikipedia</sitename>
+    <dbname>enwiki</dbname>
+    <base>https://en.wikipedia.org/wiki/Main_Page</base>
+    <generator>MediaWiki 1.35.0-wmf.36</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Media</namespace>
+      <namespace key="-1" case="first-letter">Special</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Talk</namespace>
+      <namespace key="2" case="first-letter">User</namespace>
+      <namespace key="3" case="first-letter">User talk</namespace>
+      <namespace key="4" case="first-letter">Wikipedia</namespace>
+      <namespace key="5" case="first-letter">Wikipedia talk</namespace>
+      <namespace key="6" case="first-letter">File</namespace>
+      <namespace key="7" case="first-letter">File talk</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki talk</namespace>
+      <namespace key="10" case="first-letter">Template</namespace>
+      <namespace key="11" case="first-letter">Template talk</namespace>
+      <namespace key="12" case="first-letter">Help</namespace>
+      <namespace key="13" case="first-letter">Help talk</namespace>
+      <namespace key="14" case="first-letter">Category</namespace>
+      <namespace key="15" case="first-letter">Category talk</namespace>
+      <namespace key="100" case="first-letter">Portal</namespace>
+      <namespace key="101" case="first-letter">Portal talk</namespace>
+      <namespace key="108" case="first-letter">Book</namespace>
+      <namespace key="109" case="first-letter">Book talk</namespace>
+      <namespace key="118" case="first-letter">Draft</namespace>
+      <namespace key="119" case="first-letter">Draft talk</namespace>
+      <namespace key="446" case="first-letter">Education Program</namespace>
+      <namespace key="447" case="first-letter">Education Program talk</namespace>
+      <namespace key="710" case="first-letter">TimedText</namespace>
+      <namespace key="711" case="first-letter">TimedText talk</namespace>
+      <namespace key="828" case="first-letter">Module</namespace>
+      <namespace key="829" case="first-letter">Module talk</namespace>
+      <namespace key="2300" case="first-letter">Gadget</namespace>
+      <namespace key="2301" case="first-letter">Gadget talk</namespace>
+      <namespace key="2302" case="case-sensitive">Gadget definition</namespace>
+      <namespace key="2303" case="case-sensitive">Gadget definition talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Likelihood-ratio test</title>
+    <ns>0</ns>
+    <id>45035</id>
+    <revision>
+      <id>962154746</id>
+      <parentid>962055666</parentid>
+      <timestamp>2020-06-12T11:53:51Z</timestamp>
+      <contributor>
+        <username>InternetArchiveBot</username>
+        <id>27015025</id>
+      </contributor>
+      <comment>Bluelink 1 book for [[Wikipedia:Verifiability|verifiability]] (refca)) #IABot (v2.0.1) ([[User:GreenC bot|GreenC bot]]</comment>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="16662" xml:space="preserve">{{distinguish|text=the use of [[likelihood ratios in diagnostic testing]]}}
+{{Short description|Statistical test used for comparing the goodness of fit of two statistical models}}
+
+In [[statistics]], the '''likelihood-ratio test''' assesses the [[goodness of fit]] of two competing [[statistical model]]s based on the ratio of their [[likelihood function|likelihoods]], specifically one found by [[Mathematical optimization|maximization]] over the entire [[parameter space]] and another found after imposing some [[Constraint (mathematics)|constraint]]. If the constraint (i.e., the [[null hypothesis]]) is supported by the [[Realization (probability)|observed data]], the two likelihoods should not differ by more than [[sampling error]].&lt;ref&gt;{{cite book |first=Gary |last=King |authorlink=Gary King (political scientist) |title=Unifying Political Methodology : The Likelihood Theory of Statistical Inference |location=New York |publisher=Cambridge University Press |year=1989 |isbn=0-521-36697-6 |page=84 |url=https://books.google.com/books?id=cligOwrd7XoC&amp;pg=PA84 }}&lt;/ref&gt; Thus the likelihood-ratio test tests whether this ratio is [[Statistical significance|significantly different]] from one, or equivalently whether its [[natural logarithm]] is significantly different from zero.
+
+The likelihood-ratio test is the oldest of the three classical approaches to hypothesis testing, together with the [[Lagrange multiplier test]] and the [[Wald test]].&lt;ref&gt;{{cite book |first=G. S. |last=Maddala |authorlink=G. S. Maddala |first2=Kajal |last2=Lahiri |title=Introduction to Econometrics |location=New York |publisher=Wiley |edition=Fourth |year=2010 |page=200 }}&lt;/ref&gt; In fact, the latter two can be conceptualized as approximations to the likelihood-ratio test, and are asymptotically equivalent.&lt;ref&gt;{{cite journal |first=A. |last=Buse |title=The Likelihood Ratio, Wald, and Lagrange Multiplier Tests: An Expository Note |journal=[[The American Statistician]] |volume=36 |issue=3a |year=1982 |pages=153–157 |doi=10.1080/00031305.1982.10482817 }}&lt;/ref&gt;&lt;ref&gt;{{cite book |first=Andrew |last=Pickles |title=An Introduction to Likelihood Analysis |location=Norwich |publisher=W. H. Hutchins &amp; Sons |year=1985 |isbn=0-86094-190-6 |pages=[https://archive.org/details/introductiontoli0000pick/page/24 24–27] |url=https://archive.org/details/introductiontoli0000pick/page/24 }}&lt;/ref&gt;&lt;ref&gt;{{cite book |first=Thomas A. |last=Severini |title=Likelihood Methods in Statistics |location=New York |publisher=Oxford University Press |year=2000 |isbn=0-19-850650-3 |pages=120–121 }}&lt;/ref&gt; In the case of comparing two models each of which has no unknown [[statistical parameters|parameters]], use of the likelihood-ratio test can be justified by the [[Neyman–Pearson lemma]]. The lemma demonstrates that the test has the highest [[statistical power|power]] among all competitors.&lt;ref name="NeymanPearson1933"&gt;{{citation | last1 = Neyman | first1 = J. | authorlink1 = Jerzy Neyman| last2 = Pearson | first2 = E. S. | authorlink2 = Egon Pearson| doi = 10.1098/rsta.1933.0009 | title = On the problem of the most efficient tests of statistical hypotheses | journal = [[Philosophical Transactions of the Royal Society of London A]] | volume = 231 | issue = 694–706 | pages = 289–337 | year = 1933 | jstor = 91247 |bibcode = 1933RSPTA.231..289N | url = http://www.stats.org.uk/statistical-inference/NeymanPearson1933.pdf }}&lt;/ref&gt;
+
+==Definition==
+===General===
+Suppose that we have a [[statistical model]] with [[Statistical parameter|parameter space]] &lt;math&gt;\Theta&lt;/math&gt;. A [[null hypothesis]] is often stated by saying that the parameter &lt;math&gt;\theta&lt;/math&gt; is in a specified subset &lt;math&gt;\Theta_0&lt;/math&gt; of &lt;math&gt;\Theta&lt;/math&gt;. The [[alternative hypothesis]] is thus that &lt;math&gt;\theta&lt;/math&gt; is in the [[Complement (set theory)|complement]] of &lt;math&gt;\Theta_0&lt;/math&gt;, i.e. in &lt;math&gt;\Theta ~ \backslash ~ \Theta_0&lt;/math&gt;, which is denoted by &lt;math&gt;\Theta_0^\text{c}&lt;/math&gt;. The likelihood ratio test statistic for the null hypothesis &lt;math&gt;H_0 \, : \, \theta \in \Theta_0&lt;/math&gt; is given by:&lt;ref&gt;{{cite book |first=Karl-Rudolf |last=Koch |authorlink=Karl-Rudolf Koch |title=Parameter Estimation and Hypothesis Testing in Linear Models |url=https://archive.org/details/parameterestimat0000koch |url-access=registration |location=New York |publisher=Springer |year=1988 |isbn=0-387-18840-1 |page=[https://archive.org/details/parameterestimat0000koch/page/306 306]}}&lt;/ref&gt;
+
+:&lt;math&gt;\lambda_\text{LR} = -2 \ln \left[ \frac{~ \sup_{\theta \in \Theta_0} \mathcal{L}(\theta) ~}{~ \sup_{\theta \in \Theta} \mathcal{L}(\theta) ~} \right]&lt;/math&gt;
+
+where the quantity inside the brackets is called the likelihood ratio. Here, the &lt;math&gt;\sup&lt;/math&gt; notation refers to the [[supremum]] function. As all likelihoods are positive, and as the constrained maximum cannot exceed the unconstrained maximum, the likelihood ratio is [[Bounded set|bounded]] between zero and one.
+
+Often the likelihood-ratio test statistic is expressed as a difference between the [[log-likelihood]]s
+:&lt;math&gt;\lambda_\text{LR} = -2 \left[~ \ell( \theta_0 ) - \ell( \hat{\theta} ) ~\right]&lt;/math&gt;
+where 
+: &lt;math&gt;\ell( \hat{\theta} ) \equiv \ln \left[~ \sup_{\theta \in \Theta} \mathcal{L}(\theta) ~\right]~&lt;/math&gt;
+is the logarithm of the maximized likelihood function &lt;math&gt;\mathcal{L}&lt;/math&gt;, and &lt;math&gt;\ell(\theta_0)&lt;/math&gt; is the maximal value in the special case that the null hypothesis is true (but not necessarily a value that maximizes &lt;math&gt;\mathcal{L}&lt;/math&gt; for the sampled data) and
+:&lt;math&gt; \theta_0 \in \Theta_0 \qquad \text{ and } \qquad \hat{\theta} \in \Theta~&lt;/math&gt;
+denote the respective [[arg max|arguments of the maxima]] and the allowed ranges they're embedded in. Multiplying by &amp;minus;2 ensures mathematically that (by [[Wilks' theorem]]) &lt;math&gt;\lambda_\text{LR}&lt;/math&gt; converges asymptotically to being [[chi-squared distribution|{{mvar|χ}}²-distributed]] if the null hypothesis happens to be true.&lt;ref&gt;{{cite book |first=S.D. |last=Silvey |title=Statistical Inference |location=London |publisher=Chapman &amp; Hall |year=1970 |pages=112–114 |isbn=0-412-13820-4}}&lt;/ref&gt; The [[Sampling distribution|finite sample distribution]]s of likelihood-ratio tests are generally unknown.&lt;ref&gt;{{cite book |first=Ron C. |last=Mittelhammer |authorlink=Ron C. Mittelhammer |first2=George G. |last2=Judge |authorlink2=George Judge |first3=Douglas J. |last3=Miller |title=Econometric Foundations |url=https://archive.org/details/econometricfound00mitt |url-access=limited |location=New York |publisher=Cambridge University Press |year=2000 |isbn=0-521-62394-4 |page=[https://archive.org/details/econometricfound00mitt/page/n64 66]}}&lt;/ref&gt;
+
+The likelihood-ratio test requires that the models be [[Statistical model#Nested models|nested]] &amp;ndash; i.e. the more complex model can be transformed into the simpler model by imposing constraints on the former's parameters. Many common test statistics are tests for nested models and can be phrased as log-likelihood ratios or approximations thereof: e.g. the [[Z-test|''Z''-test]], the [[F-test|''F''-test]], the [[G-test|''G''-test]], and [[Pearson's chi-squared test]]; for an illustration with the [[Student's t-test#One-sample t-test|one-sample ''t''-test]], see below.
+
+If the models are not nested, then instead of the likelihood-ratio test, there is a generalization of the test that can usually be used: for details, see ''[[relative likelihood]]''.
+
+===Case of simple hypotheses===
+{{Main|Neyman–Pearson lemma}}
+A simple-vs.-simple hypothesis test has completely specified models under both the null hypothesis and the alternative hypothesis, which for convenience are written in terms of fixed values of a notional parameter &lt;math&gt;\theta&lt;/math&gt;:
+
+:&lt;math&gt;
+\begin{align}
+H_0 &amp;:&amp; \theta=\theta_0 ,\\
+H_1 &amp;:&amp; \theta=\theta_1 .
+\end{align}
+&lt;/math&gt;
+In this case, under either hypothesis, the distribution of the data is fully specified: there are no unknown parameters to estimate. For this case, a variant of the likelihood-ratio test is available:&lt;ref&gt;{{cite book |last1=Mood |first1=A.M. |last2=Graybill |first2=F.A. |first3=D.C. |last3=Boes |year=1974 |title=Introduction to the Theory of Statistics |edition=3rd |publisher=[[McGraw-Hill]] |at=§9.2}}&lt;/ref&gt;&lt;ref name="Stuart et al. 20.10–20.13"&gt;{{citation |last1=Stuart|first1=A. |last2=Ord |first2=K. |last3=Arnold |first3=S. |year=1999 |title=Kendall's Advanced Theory of Statistics |volume=2A |publisher=[[Edward Arnold (publisher)|Arnold]] |at=§§20.10–20.13}}&lt;/ref&gt;
+
+:&lt;math&gt;
+\Lambda(x) = \frac{~\mathcal{L}(\theta_0\mid x) ~}{~\mathcal{L}(\theta_1\mid x) ~}
+&lt;/math&gt;
+
+Some older references may use the reciprocal of the function above as the definition.&lt;ref&gt;{{citation |author1-last=Cox |author1-first=D. R.  |author1-link= David Cox (statistician)|author2-last=Hinkley |author2-first=D. V. | author2-link= David Hinkley |title=Theoretical Statistics |location= |publisher= [[Chapman &amp; Hall]] |year=1974 |isbn=0-412-12420-3 |page=92 }}&lt;/ref&gt; Thus, the likelihood ratio is small if the alternative model is better than the null model.
+
+The likelihood-ratio test provides the decision rule as follows:
+
+:If &lt;math&gt;~\Lambda &gt; c ~&lt;/math&gt;, do not reject &lt;math&gt;H_0&lt;/math&gt;;
+
+:If &lt;math&gt;~\Lambda &lt; c ~&lt;/math&gt;, reject &lt;math&gt;H_0&lt;/math&gt;;
+
+:Reject with probability &lt;math&gt;~q~&lt;/math&gt; if &lt;math&gt;~\Lambda = c~.&lt;/math&gt;
+The values &lt;math&gt;c&lt;/math&gt; and &lt;math&gt;q&lt;/math&gt; are usually chosen to obtain a specified [[significance level]] &lt;math&gt;\alpha&lt;/math&gt;, via the relation
+:&lt;math&gt;~q\cdot \operatorname{P}(\Lambda=c \mid H_0)~+~\operatorname{P}(\Lambda &lt; c \mid H_0)~=~\alpha~. &lt;/math&gt;
+The [[Neyman–Pearson lemma]] states that this likelihood-ratio test is the [[Statistical power|most powerful]] among all level &lt;math&gt;\alpha&lt;/math&gt; tests for this case.&lt;ref name="NeymanPearson1933"/&gt;&lt;ref name="Stuart et al. 20.10–20.13"/&gt;
+
+==Interpretation==
+The likelihood ratio is a function of the data &lt;math&gt;x&lt;/math&gt;; therefore, it is a [[statistic]], although unusual in that the statistic's value depends on a parameter, &lt;math&gt;\theta&lt;/math&gt;. The likelihood-ratio test rejects the null hypothesis if the value of this statistic is too small. How small is too small depends on the significance level of the test, i.e. on what probability of [[Type&amp;nbsp;I error]] is considered tolerable (Type&amp;nbsp;I errors consist of the rejection of a null hypothesis that is true).
+
+The [[numerator]] corresponds to the likelihood of an observed outcome under the [[null hypothesis]]. The [[denominator]] corresponds to the maximum likelihood of an observed outcome, varying parameters over the whole parameter space. The numerator of this ratio is less than the denominator; so, the likelihood ratio is between 0 and 1. Low values of the likelihood ratio mean that the observed result was much less likely to occur under the null hypothesis as compared to the alternative. High values of the statistic mean that the observed outcome was nearly as likely to occur under the null hypothesis as the alternative, and so the null hypothesis cannot be rejected.
+
+===An example===
+The following example is adapted and abridged from {{Harvtxt|Stuart|Ord|Arnold|1999|loc=§22.2}}.
+
+Suppose that we have a random sample, of size {{mvar|n}}, from a population that is normally-distributed. Both the mean, {{mvar|&amp;mu;}}, and the standard deviation, {{mvar|&amp;sigma;}}, of the population are unknown. We want to test whether the mean is equal to a given value, {{math|''&amp;mu;''{{sub|0}} }}.
+
+Thus, our null hypothesis is {{math|''H''{{sub|0}}:&amp;nbsp; ''&amp;mu;'' {{=}} ''&amp;mu;''{{sub|0}}&amp;nbsp;}} and our alternative hypothesis is {{math|''H''{{sub|1}}:&amp;nbsp; ''&amp;mu;'' ≠ ''&amp;mu;''{{sub|0}}&amp;nbsp;}}. The likelihood function is 
+:&lt;math&gt;\mathcal{L}(\mu,\sigma \mid x) = \left(2\pi\sigma^2\right)^{-n/2} \exp\left( -\sum_{i=1}^n \frac{(x_i -\mu)^2}{2\sigma^2}\right)\,.&lt;/math&gt;
+
+With some calculation (omitted here), it can then be shown that 
+:&lt;math&gt;\lambda = \left(1 + \frac{t^2}{n-1}\right)^{-n/2} &lt;/math&gt; 
+where {{mvar|t}} is the [[t-statistic|{{mvar|t}}-statistic]] with {{math|''n''&amp;thinsp;&amp;minus;&amp;thinsp;1}} degrees of freedom. Hence we may use the known exact distribution of {{math|''t''{{sub|''n''&amp;minus;1}}}} to draw inferences.
+
+==Asymptotic distribution: Wilks’ theorem==
+{{Main|Wilks' theorem}}
+
+If the distribution of the likelihood ratio corresponding to a particular null and alternative hypothesis can be explicitly determined then it can directly be used to form decision regions (to sustain or reject the null hypothesis). In most cases, however, the exact distribution of the likelihood ratio corresponding to specific hypotheses is very difficult to determine.{{Citation needed|date=September 2018}}
+
+Assuming {{math|''H''&lt;sub&gt;0&lt;/sub&gt;}} is true, there is a fundamental result by [[Samuel S. Wilks]]: As the sample size &lt;math&gt;n&lt;/math&gt; approaches [[Infinity|&lt;math&gt;\infty&lt;/math&gt;]], the test statistic &lt;math&gt;-2 \log(\lambda)&lt;/math&gt; [[Asymptotic theory (statistics)|asymptotically]] will be [[chi-squared distribution|chi-squared distributed]] (&lt;math&gt;\chi^2&lt;/math&gt;) with [[degrees of freedom (statistics)|degrees of freedom]] equal to the difference in dimensionality of &lt;math&gt;\Theta&lt;/math&gt; and &lt;math&gt;\Theta_0&lt;/math&gt;.&lt;ref&gt;{{citation | last1 = Wilks | first1 = S. S. |authorlink=Samuel S. Wilks| doi = 10.1214/aoms/1177732360 | title = The large-sample distribution of the likelihood ratio for testing composite hypotheses | journal = [[Annals of Mathematical Statistics]] | volume = 9 | pages = 60–62| year = 1938 | doi-access = free }}&lt;/ref&gt; This implies that for a great variety of hypotheses, we can calculate the likelihood ratio &lt;math&gt;\lambda&lt;/math&gt; for the data and then compare &lt;math&gt;-2\log(\lambda)&lt;/math&gt; to the &lt;math&gt;\chi^2&lt;/math&gt; value corresponding to a desired [[statistical significance]] as an approximate statistical test. Other extensions exist.{{which|date=March 2019}}
+
+==See also==
+*[[Akaike information criterion]]
+*[[Bayes factor]]
+*[[Johansen test]]
+*[[Model selection]]
+*[[Vuong's closeness test]]
+*[[Sup-LR test]]
+*[[Error exponents in hypothesis testing]]
+
+==References==
+{{Reflist}}
+
+==Further reading==
+* {{Citation | title= Likelihood ratios: A simple and flexible statistic for empirical psychologists | journal= [[Psychonomic Bulletin &amp; Review]] | year= 2004 | author1-first= Scott | author1-last= Glover | author2-first= Peter | author2-last= Dixon | volume= 11 | issue= 5 | pages= 791–806 | doi= 10.3758/BF03196706| doi-access= free }}
+* {{Citation|first1= Leonhard | last1= Held | first2= Daniel | last2= Sabanés Bové | title= Applied Statistical Inference—Likelihood and Bayes | year= 2014 | publisher= [[Springer Science+Business Media|Springer]]}}
+* {{Citation | author-last= Kalbfleisch | author-first= J. G. | author-link= James G. Kalbfleisch | year= 1985 | title= Probability and Statistical Inference | volume= 2 | publisher= [[Springer-Verlag]]}}
+* {{Citation | author1-first= Michael D. |author1-last= Perlman | author2-first= Lang | author2-last= Wu | title= The emperor's new tests | journal= [[Statistical Science]] | year= 1999 | volume= 14 |issue= 4 | pages= 355–381 |doi= 10.1214/ss/1009212517 | doi-access= free }}
+* {{Citation | author-last= Perneger | author-first= Thomas V. | title= Sifting the evidence: Likelihood ratios are alternatives to P values | journal= [[The BMJ]] | year= 2001 | volume= 322 | issue= 7295 | pages= 1184–5 | pmc= 1120301 | pmid= 11379590 | doi=10.1136/bmj.322.7295.1184}}
+* {{Citation | last = Pinheiro | first = José C. | last2 = Bates | first2 = Douglas M. | year = 2000 | title = Mixed-Effects Models in S and S-PLUS | publisher = [[Springer-Verlag]] | pages = 82–93 }}
+* {{Citation | first= Daniel L. | last= Solomon | title= A note on the non-equivalence of the Neyman-Pearson and generalized likelihood ratio tests for testing a simple null versus a simple alternative hypothesis | journal= [[The American Statistician]] | year = 1975 | volume= 29 | issue= 2 | pages= 101–102 | doi= 10.1080/00031305.1975.10477383| url= https://ecommons.cornell.edu/bitstream/1813/32605/1/BU-510-M.pdf }}
+
+==External links==
+* [http://www.itl.nist.gov/div898/handbook/apr/section2/apr233.htm Practical application of likelihood ratio test described]
+* [https://cran.r-project.org/web/packages/SPRT/SPRT.pdf R Package: Wald's Sequential Probability Ratio Test]
+* [https://web.archive.org/web/20150504130014/http://faculty.vassar.edu/lowry/clin2.html Richard Lowry's Predictive Values and Likelihood Ratios] Online Clinical Calculator
+
+{{Statistics|inference}}
+
+{{DEFAULTSORT:Likelihood-Ratio Test}}
+[[Category:Statistical ratios]]
+[[Category:Statistical tests]]</text>
+      <sha1>2j0egmcrw5wwuajfqji524n3it2v6vl</sha1>
+    </revision>
+  </page>
+</mediawiki>

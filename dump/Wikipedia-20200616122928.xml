@@ -1,0 +1,301 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.10/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.10/ http://www.mediawiki.org/xml/export-0.10.xsd" version="0.10" xml:lang="en">
+  <siteinfo>
+    <sitename>Wikipedia</sitename>
+    <dbname>enwiki</dbname>
+    <base>https://en.wikipedia.org/wiki/Main_Page</base>
+    <generator>MediaWiki 1.35.0-wmf.36</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Media</namespace>
+      <namespace key="-1" case="first-letter">Special</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Talk</namespace>
+      <namespace key="2" case="first-letter">User</namespace>
+      <namespace key="3" case="first-letter">User talk</namespace>
+      <namespace key="4" case="first-letter">Wikipedia</namespace>
+      <namespace key="5" case="first-letter">Wikipedia talk</namespace>
+      <namespace key="6" case="first-letter">File</namespace>
+      <namespace key="7" case="first-letter">File talk</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki talk</namespace>
+      <namespace key="10" case="first-letter">Template</namespace>
+      <namespace key="11" case="first-letter">Template talk</namespace>
+      <namespace key="12" case="first-letter">Help</namespace>
+      <namespace key="13" case="first-letter">Help talk</namespace>
+      <namespace key="14" case="first-letter">Category</namespace>
+      <namespace key="15" case="first-letter">Category talk</namespace>
+      <namespace key="100" case="first-letter">Portal</namespace>
+      <namespace key="101" case="first-letter">Portal talk</namespace>
+      <namespace key="108" case="first-letter">Book</namespace>
+      <namespace key="109" case="first-letter">Book talk</namespace>
+      <namespace key="118" case="first-letter">Draft</namespace>
+      <namespace key="119" case="first-letter">Draft talk</namespace>
+      <namespace key="446" case="first-letter">Education Program</namespace>
+      <namespace key="447" case="first-letter">Education Program talk</namespace>
+      <namespace key="710" case="first-letter">TimedText</namespace>
+      <namespace key="711" case="first-letter">TimedText talk</namespace>
+      <namespace key="828" case="first-letter">Module</namespace>
+      <namespace key="829" case="first-letter">Module talk</namespace>
+      <namespace key="2300" case="first-letter">Gadget</namespace>
+      <namespace key="2301" case="first-letter">Gadget talk</namespace>
+      <namespace key="2302" case="case-sensitive">Gadget definition</namespace>
+      <namespace key="2303" case="case-sensitive">Gadget definition talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Resampling (statistics)</title>
+    <ns>0</ns>
+    <id>3763850</id>
+    <revision>
+      <id>960726996</id>
+      <parentid>958086144</parentid>
+      <timestamp>2020-06-04T15:41:08Z</timestamp>
+      <contributor>
+        <username>Kiudee</username>
+        <id>11577221</id>
+      </contributor>
+      <minor/>
+      <comment>/* Current research on permutation tests */ Fix link to chapter 18</comment>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="45143" xml:space="preserve">{{short description|Family of statistical methods based on sampling of available data}}
+{{Other uses|Resampling (disambiguation){{!}}Resampling}}
+In [[statistics]], '''resampling''' is any of a variety of methods for doing one of the following:
+# Estimating the precision of sample [[statistic]]s ([[median]]s, [[variance]]s, [[percentile]]s) by using subsets of available data ('''[[Jackknife (statistics)|jackknifing]]''') or drawing [[random]]ly with replacement from a set of data points ('''[[bootstrapping (statistics)|bootstrapping]]''')
+# Exchanging labels on data points when performing [[significance test]]s ('''permutation tests''', also called [[exact test]]s, randomization tests, or re-randomization tests)
+# Validating models by using random subsets (bootstrapping, [[Cross-validation (statistics)|cross validation]])
+
+==Bootstrap==
+{{main article|Bootstrap (statistics)}}
+[[File:Bootstrapping.jpg|thumb|The best example of the plug-in principle, the bootstrapping method.]]
+Bootstrapping is a statistical method for estimating the [[sampling distribution]] of an [[estimator]] by [[sampling (statistics)|sampling]] with replacement from the original sample, most often with the purpose of deriving robust estimates of [[standard error]]s and [[confidence intervals]] of a population parameter like a [[mean]], [[median]], [[Proportionality (mathematics)|proportion]], [[odds ratio]], [[Pearson product-moment correlation coefficient|correlation coefficient]] or [[Regression analysis|regression]] coefficient. It has been called the '''plug-in principle''' &lt;ref name="Logan"&gt;Logan, J. David and Wolesensky, Willian R. Mathematical methods in biology. Pure and Applied Mathematics: a Wiley-interscience Series of Texts, Monographs, and Tracts. John Wiley&amp; Sons, Inc. 2009. Chapter 6: Statistical inference. Section 6.6: Bootstrap methods &lt;/ref&gt;, as it is the method of [[Estimation statistics|estimation]] of functionals of a population distribution by evaluating the same functionals at the [[Empirical distribution function|empirical distribution]] based on a sample. It is called a [[principle]] because it is too simple to be otherwise, it is just a guideline, not a [[theorem]].
+
+For example,&lt;ref name="Logan"&gt;Logan, J. David and Wolesensky, Willian R. Mathematical methods in biology. Pure and Applied Mathematics: a Wiley-interscience Series of Texts, Monographs, and Tracts. John Wiley&amp; Sons, Inc. 2009. Chapter 6: Statistical inference. Section 6.6: Bootstrap methods &lt;/ref&gt; when estimating the [[Population statistics|population]] [[mean]], this method uses the [[Sample (statistics)|sample]] mean; to estimate the population [[Median (statistics)|median]], it uses the sample median; to estimate the population [[regression line]], it uses the sample regression line.
+
+It may also be used for constructing hypothesis tests. It is often used as a robust alternative to inference based on parametric assumptions when those assumptions are in doubt, or where parametric inference is impossible or requires very complicated formulas for the calculation of standard errors. Bootstrapping techniques are also used in the updating-selection transitions of [[particle filter]]s, [[Genetic algorithm|genetic type algorithms]] and related resample/reconfiguration Monte Carlo methods used in [[computational physics]].&lt;ref name="dp042"&gt;{{cite book|last = Del Moral|first = Pierre|title = Feynman-Kac formulae. Genealogical and interacting particle approximations|year = 2004|publisher = Springer|quote = Series: Probability and Applications|url = https://www.springer.com/mathematics/probability/book/978-0-387-20268-6|pages = 575}}&lt;/ref&gt;&lt;ref name="dp13"&gt;{{cite book|last = Del Moral|first = Pierre|title = Mean field simulation for Monte Carlo integration|year = 2013|publisher = Chapman &amp; Hall/CRC Press|quote = Monographs on Statistics &amp; Applied Probability|url = http://www.crcpress.com/product/isbn/9781466504059|pages = 626}}&lt;/ref&gt; In this context, the bootstrap is used to replace sequentially empirical weighted probability measures by [[empirical measure]]s. The bootstrap allows to replace the samples with low weights by copies of the samples with high weights.
+
+==Jackknife==
+{{main article|Jackknife resampling}}
+Jackknifing, which is similar to bootstrapping, is used in [[statistical inference]] to estimate the bias and standard error (variance) of a statistic, when a random sample of observations is used to calculate it. Historically, this method preceded the invention of the bootstrap with [[Maurice Quenouille|Quenouille]] inventing this method in 1949 and [[John Tukey|Tukey]] extending it in 1958.&lt;ref name=Quenouille1949&gt;{{cite journal |last=Quenouille |first=M. H. |year=1949 |title=Approximate Tests of Correlation in Time-Series |journal=[[Journal of the Royal Statistical Society, Series B]] |volume=11 |issue=1 |pages=68–84 |jstor=2983696 |doi=10.1111/j.2517-6161.1949.tb00023.x }}&lt;/ref&gt;&lt;ref name=Tukey1958&gt;{{cite journal |last=Tukey |first=J. W. |year=1958 |title=Bias and Confidence in Not-quite Large Samples (Preliminary Report) |journal=[[Annals of Mathematical Statistics]] |volume=29 |issue=2 |pages=614 |jstor=2237363 }}&lt;/ref&gt; This method was foreshadowed by [[Prasanta Chandra Mahalanobis|Mahalanobis]] who in 1946 suggested repeated estimates of the statistic of interest with half the sample chosen at random.&lt;ref name=Mahalanobis1946&gt;{{cite journal |last=Mahalanobis |first=P. C. |year=1946 |title=Proceedings of a Meeting of the Royal Statistical Society held on July 16th, 1946 |journal=[[Journal of the Royal Statistical Society]] |volume=109 |issue=4 |pages=325–370 |jstor=2981330 }}&lt;/ref&gt; He coined the name 'interpenetrating samples' for this method.
+
+Quenouille invented this method with the intention of reducing the bias of the sample estimate. Tukey extended this method by assuming that if the replicates could be considered identically and independently distributed, then an estimate of the variance of the sample parameter could be made and that it would be approximately distributed as a t variate with ''n''−1 degrees of freedom (''n'' being the sample size).
+
+The basic idea behind the jackknife variance estimator lies in systematically recomputing the statistic estimate, leaving out one or more observations at a time from the sample set. From this new set of replicates of the statistic, an estimate for the bias and an estimate for the variance of the statistic can be calculated.
+
+Instead of using the jackknife to estimate the variance, it may instead be applied to the log of the variance. This transformation may result in better estimates particularly when the distribution of the variance itself may be non normal.
+
+For many statistical parameters the jackknife estimate of variance tends asymptotically to the true value almost surely. In technical terms one says that the jackknife estimate is [[Consistency (statistics)|consistent]]. The jackknife is consistent for the sample [[mean]]s, sample [[variance]]s, central and non-central t-statistics (with possibly non-normal populations), sample [[coefficient of variation]], [[maximum likelihood estimator]]s, least squares estimators, [[Pearson product-moment correlation coefficient|correlation coefficients]] and [[regression coefficient]]s.
+
+It is not consistent for the sample [[median]]. In the case of a unimodal variate the ratio of the jackknife variance to the sample variance tends to be distributed as one half the square of a chi square distribution with two [[degrees of freedom]].
+
+The jackknife, like the original bootstrap, is dependent on the independence of the data. Extensions of the jackknife to allow for dependence in the data have been proposed.
+
+Another extension is the delete-a-group method used in association with [[Poisson sampling]].
+
+==Comparison of bootstrap and jackknife==
+Both methods, the bootstrap and the jackknife, estimate the variability of a statistic from the variability of that statistic between subsamples, rather than from parametric assumptions. For the more general jackknife, the delete-m observations jackknife, the bootstrap can be seen as a random approximation of it. Both yield similar numerical results, which is why each can be seen as approximation to the other. Although there are huge theoretical differences in their mathematical insights, the main practical difference for statistics users is that the [[Bootstrapping (statistics)|bootstrap]] gives different results when repeated on the same data, whereas the jackknife gives exactly the same result each time. Because of this, the jackknife is popular when the estimates need to be verified several times before publishing (e.g., official statistics agencies). On the other hand, when this verification feature is not crucial and it is of interest not to have a number but just an idea of its distribution, the bootstrap is preferred (e.g., studies in physics, economics, biological sciences).
+
+Whether to use the bootstrap or the jackknife may depend more on operational aspects than on statistical concerns of a survey. The jackknife, originally used for bias reduction, is more of a specialized method and only estimates the variance of the point estimator. This can be enough for basic statistical inference (e.g., hypothesis testing, confidence intervals). The bootstrap, on the other hand, first estimates the whole distribution (of the point estimator) and then computes the variance from that. While powerful and easy, this can become highly computer intensive.
+
+"The bootstrap can be applied to both variance and distribution estimation problems. However, the bootstrap variance estimator is not as good as the jackknife or the [[balanced repeated replication]] (BRR) variance estimator in terms of the empirical results. Furthermore, the bootstrap variance estimator usually requires more computations than the jackknife or the BRR. Thus, the bootstrap is mainly recommended for distribution estimation." &lt;ref&gt;Shao, J. and Tu, D. (1995). The Jackknife and Bootstrap. Springer-Verlag, Inc. pp. 281.&lt;/ref&gt;
+
+There is a special consideration with the jackknife, particularly with the delete-1 observation jackknife. It should only be used with smooth, differentiable statistics (e.g., totals, means, proportions, ratios, odd ratios, regression coefficients, etc.; not with medians or quantiles). This could become a practical disadvantage. This disadvantage is usually the argument favoring bootstrapping over jackknifing. More general jackknifes than the delete-1, such as the delete-m jackknife or the delete-all-but-2 [[Hodges–Lehmann estimator]], overcome this problem for the medians and quantiles by relaxing the smoothness requirements for consistent variance estimation.
+
+Usually the jackknife is easier to apply to complex sampling schemes than the bootstrap. Complex sampling schemes may involve stratification, multiple stages (clustering), varying sampling weights (non-response adjustments, calibration, post-stratification) and under unequal-probability sampling designs. Theoretical aspects of both the bootstrap and the jackknife can be found in Shao and Tu (1995),&lt;ref&gt;{{cite book |last=Shao |first=J. |last2=Tu |first2=D. |year=1995 |title=The Jackknife and Bootstrap |location= |publisher=Springer }}&lt;/ref&gt; whereas a basic introduction is accounted in Wolter (2007).&lt;ref&gt;{{cite book |last=Wolter |first=K. M. |year=2007 |title=Introduction to Variance Estimation |edition=Second |location= |publisher=Springer }}&lt;/ref&gt; The bootstrap estimate of model prediction bias is more precise than jackknife estimates with linear models such as linear discriminant function or multiple regression.&lt;ref&gt;{{cite journal |last=Verbyla |first=D. |last2=Litvaitis |first2=J. |year=1989 |title=Resampling methods for evaluating classification accuracy of wildlife habitat models |journal=[[Environmental Management]] |volume=13 |issue=6 |pages=783–787 |doi=10.1007/bf01868317|bibcode=1989EnMan..13..783V }}&lt;/ref&gt;
+
+==Subsampling==
+{{main article|Subsampling (statistics)}}
+
+Subsampling is an alternative method for approximating the sampling distribution of an estimator. The two key differences to the bootstrap are: (i) the resample size is smaller than the sample size and (ii) resampling is done without replacement. The advantage of subsampling is that it is valid under much weaker conditions compared to the bootstrap. In particular, a set of sufficient conditions is that the rate of convergence of the estimator is known and that the limiting distribution is continuous; in addition, the resample (or subsample) size must tend to infinity together with the sample size but at a smaller rate, so that their ratio converges to zero. While subsampling was originally proposed for the case of independent and identically distributed (iid) data only, the methodology has been extended to cover time series data as well; in this case, one resamples blocks of subsequent data rather than individual data points. There are many cases of applied interest where subsampling leads to valid inference whereas bootstrapping does not; for example, such cases include examples where the rate of convergence of the estimator is not the square root of the sample size or when the limiting distribution is non-normal.
+
+==Cross-validation==
+{{main article|Cross-validation (statistics)}}
+Cross-validation is a statistical method for validating a [[predictive modelling|predictive model]]. Subsets of the data are held out for use as validating sets; a model is fit to the remaining data (a training set) and used to predict for the validation set.  Averaging the quality of the predictions across the validation sets yields an overall measure of prediction accuracy. Cross-validation is employed repeatedly in building decision trees.
+
+One form of cross-validation leaves out a single observation at a time; this is similar to the [[Jackknife resampling|jackknife]]. Another, ''K''-fold cross-validation, splits the data into ''K'' subsets; each is held out in turn as the validation set.
+
+This avoids "self-influence".  For comparison, in [[regression analysis]] methods such as [[linear regression]], each ''y'' value draws the regression line toward itself, making the prediction of that value appear more accurate than it really is.  Cross-validation applied to linear regression predicts the ''y'' value for each observation without using that observation.
+
+This is often used for deciding how many predictor variables to use in regression.  Without cross-validation, adding predictors always reduces the residual sum of squares (or possibly leaves it unchanged).  In contrast, the cross-validated mean-square error will tend to decrease if valuable predictors are added, but increase if worthless predictors are added.&lt;ref&gt;{{cite journal |last=Verbyla |first=D. |year=1986 |title=Potential prediction bias in regression and discriminant analysis |journal=[[Canadian Journal of Forest Research]] |volume=16 |issue=6 |pages=1255–1257 |doi=10.1139/x86-222 }}&lt;/ref&gt;
+
+==Permutation tests==
+
+&lt;!-- [[Permutation test]] redirects to this section name  --&gt;
+{{main article|Exact test}}
+
+A '''permutation test''' (also called a randomization test, re-randomization test, or an [[exact test]]) is a type of [[statistical hypothesis testing|statistical significance test]] in which the distribution of the test statistic under the [[null hypothesis]] is obtained by calculating all possible values of the [[test statistic]] under all possible rearrangements of the observed data points.  In other words, the method by which treatments are allocated to subjects in an experimental design is mirrored in the analysis of that design. If the labels are exchangeable under the null hypothesis, then the resulting tests yield exact significance levels; see also [[exchangeability]]. Confidence intervals can then be derived from the tests. The theory has evolved from the works of [[Ronald Fisher]] and [[E. J. G. Pitman]] in the 1930s.
+
+To illustrate the basic idea of a permutation test, suppose we collect random variables &lt;math&gt;X_A&lt;/math&gt; and &lt;math&gt;X_B&lt;/math&gt; for each individual from two groups &lt;math&gt;A&lt;/math&gt; and &lt;math&gt;B&lt;/math&gt; whose sample means are &lt;math&gt;\bar{x}_{A}&lt;/math&gt; and &lt;math&gt;\bar{x}_{B}&lt;/math&gt;, and that we want to know whether &lt;math&gt;X_A&lt;/math&gt; and &lt;math&gt;X_B&lt;/math&gt; come from the same distribution. Let &lt;math&gt;n_{A}&lt;/math&gt; and &lt;math&gt;n_{B}&lt;/math&gt; be the sample size collected from each group. The permutation test is designed to determine whether the observed difference between the sample means is large enough to reject, at some significance level, the null hypothesis H&lt;math&gt;_{0}&lt;/math&gt; that the data drawn from &lt;math&gt;A&lt;/math&gt; is from the same distribution as the data drawn from &lt;math&gt;B&lt;/math&gt;.
+
+The test proceeds as follows. First, the difference in means between the two samples is calculated: this is the observed value of the test statistic, &lt;math&gt;T_\text{obs}&lt;/math&gt;. 
+
+Next, the observations of groups &lt;math&gt;A&lt;/math&gt; and &lt;math&gt;B&lt;/math&gt; are pooled, and the difference in sample means is calculated and recorded for every possible way of dividing the pooled values into two groups of size &lt;math&gt;n_{A}&lt;/math&gt; and &lt;math&gt;n_{B}&lt;/math&gt; (i.e., for every permutation of the group labels A and B).  The set of these calculated differences is the exact distribution of possible differences (for this sample) under the null hypothesis that group labels are exchangeable (i.e., are randomly assigned).
+
+The one-sided p-value of the test is calculated as the proportion of sampled permutations where the difference in means was greater than or equal to &lt;math&gt;T_\text{obs}&lt;/math&gt;. The two-sided p-value of the test is calculated as the proportion of sampled permutations where the [[absolute difference]] was greater than or equal to &lt;math&gt;|T_\text{obs}|&lt;/math&gt;.
+
+Alternatively, if the only purpose of the test is to reject or not reject the null hypothesis, one could sort the recorded differences, and then observe if &lt;math&gt;T_\text{obs}&lt;/math&gt; is contained within the middle &lt;math&gt;(1 - \alpha) \times 100&lt;/math&gt;% of them, for some significance level &lt;math&gt;\alpha&lt;/math&gt;. If it is not, we reject the hypothesis of identical probability curves at the &lt;math&gt;\alpha\times100\%&lt;/math&gt; significance level.
+
+===Relation to parametric tests===
+
+Permutation tests are a subset of [[non-parametric statistics]]. Assuming that our experimental data come from data measured from two treatment groups, the method simply generates the distribution of mean differences under the assumption that the two groups are not distinct in terms of the measured variable. From this, one then uses the observed statistic (&lt;math&gt;T_\text{obs}&lt;/math&gt; above) to see to what extent this statistic is special, i.e., the likelihood of observing the magnitude of such a value (or larger) if the treatment labels had simply been randomized after treatment.
+
+In contrast to permutation tests, the distributions underlying many popular [[classical statistics|"classical" statistical]] tests, such as the [[t-test|''t''-test]], [[F-test|''F''-test]], [[z-test|''z''-test]], and [[chi-squared test|''χ''&lt;sup&gt;2&lt;/sup&gt; test]], are obtained from theoretical probability distributions. [[Fisher's exact test]] is an example of a commonly used permutation test for evaluating the association between two dichotomous variables. When sample sizes are very large, the Pearson's chi-square test will give accurate results. For small samples, the chi-square reference distribution cannot be assumed to give a correct description of the probability distribution of the test statistic, and in this situation the use of Fisher's exact test becomes more appropriate.
+
+Permutation tests exist in many situations where parametric tests do not (e.g., when deriving an optimal test when losses are proportional to the size of an error rather than its square).  All simple and many relatively complex parametric tests have a corresponding permutation test version that is defined by using the same test statistic as the parametric test, but obtains the p-value from the sample-specific permutation distribution of that statistic, rather than from the theoretical distribution derived from the parametric assumption.  For example, it is possible in this manner to construct a permutation [[t-test|''t''-test]], a permutation [[chi-squared test|''χ''&lt;sup&gt;2&lt;/sup&gt; test]] of association, a permutation version of Aly's test for comparing variances and so on.
+
+The major drawbacks to permutation tests are that they
+* Can be computationally intensive and may require "custom" code for difficult-to-calculate statistics. This must be rewritten for every case.
+* Are primarily used to provide a p-value. The inversion of the test to get confidence regions/intervals requires even more computation.
+
+===Advantages===
+Permutation tests exist for any test statistic, regardless of whether or not its distribution is known. Thus one is always free to choose the statistic which best discriminates between hypothesis and alternative and which minimizes losses.
+
+Permutation tests can be used for analyzing unbalanced designs&lt;ref&gt;{{cite journal |date=Fall 2011 |title=Invited Articles |url=http://tbf.coe.wayne.edu/jmasm/vol1_no2.pdf |journal=[[Journal of Modern Applied Statistical Methods]] |volume=1 |issue=2 |pages=202–522  |archiveurl=https://web.archive.org/web/20030505044125/http://tbf.coe.wayne.edu/jmasm/vol1_no2.pdf |archivedate=May 5, 2003}}&lt;/ref&gt; and for combining dependent tests on mixtures of categorical, ordinal, and metric data (Pesarin, 2001) {{Citation needed|date=January 2020}}. They can also be used to analyze qualitative data that has been quantitized (i.e., turned into numbers). Permutation tests may be ideal for analyzing quantitized data that do not satisfy statistical assumptions underlying traditional parametric tests (e.g., t-tests, ANOVA).&lt;ref&gt;{{cite journal |last1=Collingridge |first1=Dave S. |title=A Primer on Quantitized Data Analysis and Permutation Testing |journal=Journal of Mixed Methods Research |date=11 September 2012 |volume=7 |issue=1 |pages=81–97 |doi=10.1177/1558689812454457}}&lt;/ref&gt;
+
+Before the 1980s, the burden of creating the reference distribution was overwhelming except for data sets with small sample sizes.
+
+Since the 1980s, the confluence of relatively inexpensive fast computers and the development of new sophisticated path algorithms applicable in special situations made the application of permutation test methods practical for a wide range of problems. It also initiated the addition of exact-test options in the main statistical software packages and the appearance of specialized software for performing a wide range of uni- and multi-variable exact tests and computing test-based "exact" confidence intervals.
+
+===Limitations===
+An important assumption behind a permutation test is that the observations are exchangeable under the null hypothesis.  An important consequence of this assumption is that tests of difference in location (like a permutation t-test) require equal variance. In this respect, the permutation t-test shares the same weakness as the classical Student's t-test (the [[Behrens–Fisher problem]]). A third alternative in this situation is to use a bootstrap-based test. Good (2005) {{Citation needed|date=January 2020}} explains the difference between permutation tests and bootstrap tests the following way: "Permutations test hypotheses concerning distributions; bootstraps test hypotheses concerning parameters. As a result, the bootstrap entails less-stringent assumptions."  Bootstrap tests are not exact.
+
+===Monte Carlo testing===
+An asymptotically equivalent permutation test can be created when there are too many possible orderings of the data to allow complete enumeration in a convenient manner. This is done by generating the reference distribution by [[Monte Carlo sampling]], which takes a small (relative to the total number of permutations) random sample of the possible replicates.
+The realization that this could be applied to any permutation test on any dataset was an important breakthrough in the area of applied statistics.  The earliest known reference to this approach is [[Meyer Dwass|Dwass]] (1957).&lt;ref&gt;{{cite journal |first=Meyer |last=Dwass |title=Modified Randomization Tests for Nonparametric Hypotheses |journal=[[Annals of Mathematical Statistics]] |volume=28 |issue=1 |pages=181–187 |year=1957 |jstor=2237031 |doi=10.1214/aoms/1177707045|doi-access=free }}&lt;/ref&gt;
+This type of permutation test is known under various names: ''approximate permutation test'', ''Monte Carlo permutation tests'' or ''random permutation tests''.&lt;ref&gt;{{Cite journal  | author = [[Thomas E. Nichols]], [[Andrew P. Holmes]]  | url = http://www.fil.ion.ucl.ac.uk/spm/doc/papers/NicholsHolmes.pdf  | title = Nonparametric Permutation Tests For Functional Neuroimaging: A Primer with Examples  |journal = [[Human Brain Mapping (journal)|Human Brain Mapping]]  | volume = 15  | pages = 1–25  | year = 2001  | doi = 10.1002/hbm.1058  | pmid = 11747097  | issue = 1 | hdl = 2027.42/35194 }}&lt;/ref&gt;
+
+After &lt;math&gt;N &lt;/math&gt; random permutations, it is possible to obtain a confidence interval for the p-value based on the Binomial distribution. For example, if after &lt;math&gt; N = 10000&lt;/math&gt; random permutations the p-value is estimated to be &lt;math&gt;\widehat{p}=0.05 &lt;/math&gt;, then a 99% confidence interval for the true &lt;math style="position:relative;top:.1em"&gt;\scriptstyle\ p &lt;/math&gt; (the one that would result from trying all possible permutations) is &lt;math&gt;[0.045, 0.055] &lt;/math&gt;.
+
+On the other hand, the purpose of estimating the p-value is most often to decide whether &lt;math&gt; p \leq \alpha &lt;/math&gt;, where &lt;math style="position:relative; top:-.1em"&gt;\scriptstyle\ \alpha &lt;/math&gt; is the threshold at which the null hypothesis will be rejected (typically &lt;math&gt; \alpha=0.05&lt;/math&gt;). In the example above, the confidence interval only tells us that there is roughly a 50% chance that the p-value is smaller than 0.05, i.e. it is completely unclear whether the null hypothesis should be rejected at a level &lt;math&gt;\alpha=0.05 &lt;/math&gt;.
+
+If it is only important to know whether &lt;math&gt;p \leq \alpha &lt;/math&gt; for a given &lt;math&gt;\alpha&lt;/math&gt;, it is logical to continue simulating until the statement &lt;math&gt;p \leq \alpha &lt;/math&gt; can be established to be true or false with a very low probability of error. Given a bound &lt;math&gt;\epsilon &lt;/math&gt; on the admissible probability of error (the probability of finding that &lt;math&gt;\widehat{p} &gt; \alpha &lt;/math&gt; when in fact &lt;math&gt;p \leq \alpha &lt;/math&gt; or vice versa), the question of how many permutations to generate can be seen as the question of when to stop generating permutations, based on the outcomes of the simulations so far, in order to guarantee that the conclusion (which is either &lt;math&gt;p \leq \alpha &lt;/math&gt; or &lt;math&gt;p &gt; \alpha &lt;/math&gt;) is correct with probability at least as large as &lt;math&gt;1-\epsilon &lt;/math&gt;. (&lt;math&gt;\epsilon &lt;/math&gt; will typically be chosen to be extremely small, e.g. 1/1000.) Stopping rules to achieve this have been developed&lt;ref&gt;{{cite journal|last=Gandy|first=Axel|title=Sequential implementation of Monte Carlo tests with uniformly bounded resampling risk|journal=[[Journal of the American Statistical Association]]|year=2009|volume=104|issue=488|pages=1504–1511|doi=10.1198/jasa.2009.tm08368|arxiv=math/0612488}}&lt;/ref&gt;  which can be incorporated with minimal additional computational cost. In fact, depending on the true underlying p-value it will often be found that the number of simulations required is remarkably small (e.g. as low as 5 and often not larger than 100) before a decision can be reached with virtual certainty.
+
+==See also==
+* [[Bootstrap aggregating]] (bagging)
+* [[Genetic algorithm]]s
+* [[Monte Carlo methods]]
+* [[Nonparametric statistics]]
+* [[Particle filter]]
+* [[Random permutation]]
+* [[Surrogate data testing]]
+
+== References ==
+{{reflist}}
+* {{citation|last=Good|first=Phillip|authorlink=Phillip Good|year=2005|title=Permutation, Parametric and Bootstrap Tests of Hypotheses|edition=3rd|publisher=Springer}}
+
+== Bibliography ==
+{{further cleanup|date=June 2016}}
+
+===Introductory statistics===
+* Good, P. (2005) ''Introduction to Statistics Through Resampling Methods and R/S-PLUS''.  Wiley. {{ISBN|0-471-71575-1}}
+* Good, P. (2005) ''Introduction to Statistics Through Resampling Methods and Microsoft Office Excel''. Wiley. {{ISBN|0-471-73191-9}}
+* Hesterberg, T. C., D. S. Moore, S. Monaghan, A. Clipson, and R. Epstein (2005). ''Bootstrap Methods and Permutation Tests''.{{full citation needed|date=November 2012}}
+* Wolter, K.M. (2007). ''Introduction to Variance Estimation''. Second Edition. Springer, Inc.
+
+===Bootstrap===
+* {{cite journal | last1 = Efron | first1 = Bradley | authorlink = Bradley Efron | year = 1979 | title = Bootstrap methods: Another look at the jackknife | url = http://projecteuclid.org/DPubS/Repository/1.0/Disseminate?view=body&amp;id=pdf_1&amp;handle=euclid.aos/1176344552 | journal = [[The Annals of Statistics]] | volume = 7 | issue = | pages = 1–26 | doi=10.1214/aos/1176344552| doi-access = free }}
+* {{cite journal | last1 = Efron | first1 = Bradley | authorlink = Bradley Efron | year = 1981 | title = Nonparametric estimates of standard error: The jackknife, the bootstrap and other methods | url = | journal = [[Biometrika]] | volume = 68 | issue = 3| pages = 589–599 | doi=10.2307/2335441| jstor = 2335441 }}
+* [[Bradley Efron|Efron, Bradley]] (1982). ''The jackknife, the bootstrap, and other resampling plans'', In ''Society of Industrial and Applied Mathematics CBMS-NSF Monographs'', 38.
+* [[Persi Diaconis|Diaconis, P.]]; [[Bradley Efron|Efron, Bradley]] (1983), "Computer-intensive methods in statistics," ''[[Scientific American]]'', May, 116-130.
+* [[Bradley Efron|Efron, Bradley]]; Tibshirani, Robert J. (1993). ''An introduction to the bootstrap'', New York: [[Chapman &amp; Hall]], [https://archive.is/20120712124533/http://lib.stat.cmu.edu/S/bootstrap.funs software].
+* Davison, A. C. and Hinkley, D. V. (1997): Bootstrap Methods and their Application, [http://statwww.epfl.ch/davison/BMA/library.html software].
+* Mooney, C Z &amp; Duval, R D (1993). Bootstrapping. A Nonparametric Approach to Statistical Inference.  Sage University Paper series on Quantitative Applications in the Social Sciences, 07-095. Newbury Park, CA: [[SAGE Publications|Sage]].
+* Simon, J. L. (1997): [https://web.archive.org/web/20051223034539/http://www.resample.com/content/text/index.shtml Resampling: The New Statistics].
+* Wright, D.B., London, K., Field, A.P. Using Bootstrap Estimation and the Plug-in Principle for Clinical Psychology Data. 2011 Textrum Ltd. Online: https://www.researchgate.net/publication/236647074_Using_Bootstrap_Estimation_and_the_Plug-in_Principle_for_Clinical_Psychology_Data. Retrieved on 25/04/2016.
+* An Introduction to the Bootstrap. Monographs on Statistics and applied probability 57. Chapman&amp;Hall/CHC. 1998. Online https://books.google.it/books?id=gLlpIUxRntoC&amp;pg=PA35&amp;lpg=PA35&amp;dq=plug+in+principle&amp;source=bl&amp;ots=A8AsW5K6E2&amp;sig=7WQVzL3ujAnWC8HDNyOzKlKVX0k&amp;hl=en&amp;sa=X&amp;sqi=2&amp;ved=0ahUKEwiU5c-Ho6XMAhUaOsAKHS_PDJMQ6AEIPDAG#v=onepage&amp;q=plug%20in%20principle&amp;f=false. Retrieved on 25 04 2016.
+
+===Jackknife===
+* {{cite journal | last1 = Berger | first1 = Y.G. | year = 2007 | title = A jackknife variance estimator for unistage stratified samples with unequal probabilities | url = | journal = [[Biometrika]] | volume = 94 | issue = 4| pages = 953–964 | doi=10.1093/biomet/asm072}}
+* {{cite journal | last1 = Berger | first1 = Y.G. | last2 = Rao | first2 = J.N.K. | year = 2006 | title = Adjusted jackknife for imputation under unequal probability sampling without replacement | url = | journal = [[Journal of the Royal Statistical Society, Series B]] | volume = 68 | issue = 3| pages = 531–547 | doi=10.1111/j.1467-9868.2006.00555.x}}
+* {{cite journal | last1 = Berger | first1 = Y.G. | last2 = Skinner | first2 = C.J. | year = 2005 | title = A jackknife variance estimator for unequal probability sampling | url = | journal = [[Journal of the Royal Statistical Society, Series B]] | volume = 67 | issue = 1| pages = 79–89 | doi=10.1111/j.1467-9868.2005.00489.x}}
+* {{cite journal | last1 = Jiang | first1 = J. | last2 = Lahiri | first2 = P. | last3 = Wan | first3 = S-M. | year = 2002 | title = A unified jackknife theory for empirical best prediction with M-estimation | url = | journal = [[The Annals of Statistics]] | volume = 30 | issue = 6| pages = 1782–810 | doi=10.1214/aos/1043351257| doi-access = free }}
+* {{cite journal | last1 = Jones | first1 = H.L. | year = 1974 | title = Jackknife estimation of functions of stratum means | url = | journal = [[Biometrika]] | volume = 61 | issue = 2| pages = 343–348 | doi=10.2307/2334363| jstor = 2334363 }}
+* {{cite journal | last1 = Kish | first1 = L. | last2 = Frankel | first2 = M.R. | year = 1974 | title = Inference from complex samples | url = | journal = [[Journal of the Royal Statistical Society, Series B]] | volume = 36 | issue = 1| pages = 1–37 }}
+* {{cite journal | last1 = Krewski | first1 = D. | last2 = Rao | first2 = J.N.K. | year = 1981 | title = Inference from stratified samples: properties of the linearization, jackknife and balanced repeated replication methods | url = | journal = [[The Annals of Statistics]] | volume = 9 | issue = 5| pages = 1010–1019 | doi=10.1214/aos/1176345580| doi-access = free }}
+* {{cite journal | last1 = Quenouille | first1 = M.H. | year = 1956 | title = Notes on bias in estimation | url = | journal = [[Biometrika]] | volume = 43 | issue = 3–4| pages = 353–360 | doi=10.1093/biomet/43.3-4.353}}
+* {{cite journal | last1 = Rao | first1 = J.N.K. | last2 = Shao | first2 = J. | year = 1992 | title = Jackknife variance estimation with survey data under hot deck imputation | url = | journal = [[Biometrika]] | volume = 79 | issue = 4| pages = 811–822 | doi=10.1093/biomet/79.4.811}}
+* {{cite journal | last1 = Rao | first1 = J.N.K. | last2 = Wu | first2 = C.F.J. | last3 = Yue | first3 = K. | year = 1992 | title = Some recent work on resampling methods for complex surveys | url = | journal = [[Survey Methodology]] | volume = 18 | issue = 2| pages = 209–217 }}
+* Shao, J. and Tu, D. (1995). The Jackknife and Bootstrap. Springer-Verlag, Inc.
+* {{cite journal | last1 = Tukey | first1 = J.W. | authorlink = John Wilder Tukey | year = 1958 | title = Bias and confidence in not-quite large samples (abstract) | url = | journal = [[The Annals of Mathematical Statistics]] | volume = 29 | issue = 2| page = 614 }}
+* {{cite journal | last1 = Wu | first1 = C.F.J. | authorlink = C.F. Jeff Wu | year = 1986 | title = Jackknife, Bootstrap and other resampling methods in regression analysis | url =http://dml.cz/bitstream/handle/10338.dmlcz/135473/Kybernetika_38-2002-4_1.pdf | journal = [[The Annals of Statistics]] | volume = 14 | issue = 4| pages = 1261–1295 | doi=10.1214/aos/1176350142}}
+
+===Subsampling===
+* {{cite journal | last1 = Delgado | first1 = M. | last2 = Rodriguez-Poo | first2 = J. | last3 = Wolf | first3 = M. | year = 2001 | title = Subsampling inference in cube root asymptotics with an application to Manski's maximum score estimator | url = | journal = [[Economics Letters]] | volume = 73 | issue = 2| pages = 241–250 | doi=10.1016/s0165-1765(01)00494-3| hdl = 10016/2449 | hdl-access = free }}
+* {{cite journal | last1 = Gonzalo | first1 = J. | last2 = Wolf | first2 = M. | year = 2005 | title = Subsampling inference in threshold autoregressive models | url = | journal = [[Journal of Econometrics]] | volume = 127 | issue = 2| pages = 201–224 | doi=10.1016/j.jeconom.2004.08.004| hdl = 10016/3218 | hdl-access = free }}
+* {{cite journal | last1 = Politis | first1 = D.N. | last2 = Romano | first2 = J.P. | year = 1994 | title = Large-sample confidence regions based on subsamples under minimal assumptions | url = | journal = [[The Annals of Statistics]] | volume = 22 | issue = 4| pages = 2031–2050 | doi=10.1214/aos/1176325770| doi-access = free }}
+* {{cite journal | last1 = Politis | first1 = D.N. | last2 = Romano | first2 = J.P. | last3 = Wolf | first3 = M. | year = 1997 | title = Subsampling for heteroskedastic time series | url = | journal = [[Journal of Econometrics]] | volume = 81 | issue = 2| pages = 281–317 | doi=10.1016/s0304-4076(97)86569-4}}
+* Politis, D.N., Romano, J.P., and Wolf, M. (1999). ''Subsampling''. Springer, New York.
+* {{cite journal | last1 = Romano | first1 = J.P. | last2 = Wolf | first2 = M. | year = 2001 | title = Subsampling intervals in autoregressive models with linear time trend | url = | journal = [[Econometrica]] | volume = 69 | issue = 5| pages = 1283–1314 | doi=10.1111/1468-0262.00242| hdl = 10016/6400 | hdl-access = free }}
+
+===Monte Carlo methods===
+* George S. Fishman (1995). ''Monte Carlo: Concepts, Algorithms, and Applications'', Springer, New York. {{ISBN|0-387-94527-X}}.
+* James E. Gentle (2009). ''Computational Statistics'', Springer, New York. Part III: Methods of Computational Statistics. {{ISBN|978-0-387-98143-7}}.
+* Pierre Del Moral (2004). Feynman-Kac formulae. Genealogical and Interacting particle systems with applications, Springer, Series Probability and Applications. {{ISBN|978-0-387-20268-6}}
+* Pierre Del Moral (2013). Del Moral, Pierre (2013). ''Mean field simulation for Monte Carlo integration''. Chapman &amp; Hall/CRC Press, Monographs on Statistics and Applied Probability. {{ISBN|9781466504059}}
+* Dirk P. Kroese, Thomas Taimre and Zdravko I. Botev. ''Handbook of Monte Carlo Methods'', John Wiley &amp; Sons, New York. {{ISBN|978-0-470-17793-8}}.
+* Christian P. Robert and George Casella (2004). ''Monte Carlo Statistical Methods'', Second ed., Springer, New York. {{ISBN|0-387-21239-6}}.
+* [[Shlomo Sawilowsky]] and Gail Fahoome (2003). ''Statistics via Monte Carlo Simulation with Fortran.'' Rochester Hills, MI: JMASM. {{ISBN|0-9740236-0-4}}.
+
+===Permutation tests===
+Original references:
+* [[R. A. Fisher|Fisher, R.A.]] (1935) ''[[The Design of Experiments]]'', New York: [[Hafner Publishing|Hafner]]
+* [[E. J. G. Pitman|Pitman, E. J. G.]] (1937) "Significance tests which may be applied to samples from any population", ''Royal Statistical Society Supplement'', 4: 119-130 and 225-32 (parts I and II). {{jstor|2984124}} {{jstor|2983647}}
+* {{cite journal | last1 = Pitman | first1 = E. J. G. | authorlink = E. J. G. Pitman | year = 1938 | title = Significance tests which may be applied to samples from any population. Part III. The analysis of variance test | url = | journal = [[Biometrika]] | volume = 29 | issue = 3–4| pages = 322–335 | doi = 10.1093/biomet/29.3-4.322 }}
+Modern references:
+* {{cite journal | last1 = Collingridge | first1 = D.S. | year = 2013 | title = A Primer on Quantitized Data Analysis and Permutation Testing | url = | journal = [[Journal of Mixed Methods Research]] | volume = 7 | issue = 1| pages = 79–95 | doi=10.1177/1558689812454457}}
+* Edgington. E.S. (1995) ''Randomization tests'', 3rd ed. New York: [[Marcel-Dekker]]
+* Good, Phillip I. (2005) ''Permutation, Parametric and Bootstrap Tests of Hypotheses'', 3rd ed., [[Springer Science+Business Media|Springer]] {{ISBN|0-387-98898-X}}
+* {{cite journal | last1 = Good | first1 = P | year = 2002 | title = Extensions of the concept of exchangeability and their applications | url = | journal = [[Journal of Modern Applied Statistical Methods]] | volume = 1 | issue = 2| pages = 243–247 | doi=10.22237/jmasm/1036110240| doi-access = free }}
+* Lunneborg, Cliff. (1999) ''Data Analysis by Resampling'', Duxbury Press. {{ISBN|0-534-22110-6}}.
+* Pesarin, F. (2001). ''Multivariate Permutation Tests : With Applications in Biostatistics'', [[John Wiley &amp; Sons]]. {{ISBN|978-0471496700}}
+* {{cite journal | last1 = Welch | first1 = W. J. | year = 1990 | title = Construction of permutation tests | url = | journal = [[Journal of the American Statistical Association]] | volume = 85 | issue = 411| pages = 693–698 | doi=10.1080/01621459.1990.10474929}}
+Computational methods:
+* {{cite journal | last1 = Mehta | first1 = C. R. | last2 = Patel | first2 = N. R. | year = 1983 | title = A network algorithm for performing Fisher's exact test in r x c contingency tables | url = | journal = [[Journal of the American Statistical Association]] | volume = 78 | issue = 382| pages = 427–434 | doi=10.1080/01621459.1983.10477989}}
+* {{cite journal | last1 = Mehta | first1 = C. R. | last2 = Patel | first2 = N. R. | last3 = Senchaudhuri | first3 = P. | year = 1988 | title = Importance sampling for estimating exact probabilities in permutational inference | url = | journal = [[Journal of the American Statistical Association]] | volume = 83 | issue = 404| pages = 999–1005 | doi=10.1080/01621459.1988.10478691}}
+* {{cite journal | last1 = Gill | first1 = P. M. W. | year = 2007 | title = Efficient calculation of p-values in linear-statistic permutation significance tests | url =http://rsc.anu.edu.au/%7Epgill/papers/103Fisher.pdf | journal = [[Journal of Statistical Computation and Simulation]] | volume = 77 | issue = 1| pages = 55–61 | doi = 10.1080/10629360500108053 | citeseerx = 10.1.1.708.1957 }}
+
+===Resampling methods===
+* Good, P. (2006) ''Resampling Methods''.  3rd Ed. Birkhauser.
+* Wolter, K.M. (2007). ''Introduction to Variance Estimation''. 2nd Edition. Springer, Inc.
+* Pierre Del Moral (2004). Feynman-Kac formulae. Genealogical and Interacting particle systems with applications, Springer, Series Probability and Applications. {{ISBN|978-0-387-20268-6}}
+* Pierre Del Moral (2013). Del Moral, Pierre (2013). ''Mean field simulation for Monte Carlo integration''. Chapman &amp; Hall/CRC Press, Monographs on Statistics and Applied Probability. {{ISBN|9781466504059}}
+
+==External links==
+
+===Current research on permutation tests===
+* Good, P.I. (2012) Practitioner's Guide to Resampling Methods. [http://zanybooks.com/statist.htm]
+* Good, P.I. (2005) Permutation, Parametric, and Bootstrap Tests of Hypotheses
+* [http://people.revoledu.com/kardi/tutorial/Bootstrap/index.html Bootstrap Sampling tutorial]
+* Hesterberg, T. C., D. S. Moore, S. Monaghan, A. Clipson, and R. Epstein (2005):  [https://web.archive.org/web/20060215221403/http://bcs.whfreeman.com/ips5e/content/cat_080/pdf/moore14.pdf Bootstrap Methods and Permutation Tests], [https://web.archive.org/web/20060110182635/http://www.insightful.com/Hesterberg/bootstrap/ software].
+* Moore, D. S., G. McCabe, W. Duckworth, and S. Sclove (2003): [https://statweb.stanford.edu/~tibs/stat315a/Supplements/bootstrap.pdf Bootstrap Methods and Permutation Tests]
+* Simon, J. L. (1997): [https://web.archive.org/web/20051223034539/http://www.resample.com/content/text/index.shtml Resampling: The New Statistics].
+* Yu, Chong Ho (2003): [http://PAREonline.net/getvn.asp?v=8&amp;n=19 Resampling methods: concepts, applications, and justification. Practical Assessment, Research &amp; Evaluation, 8(19)]. ''(statistical bootstrapping)''
+* [http://www.ericdigests.org/1993/marriage.htm Resampling: A Marriage of Computers and Statistics (ERIC Digests)]
+
+===Software===
+*  [http://cran.at.r-project.org/web/packages/boot/index.html Angelo Canty and Brian Ripley (2010). '''boot''': Bootstrap R (S-Plus) Functions. R package version 1.2-43.] Functions and datasets for bootstrapping from the book ''Bootstrap Methods and Their Applications'' by A. C. Davison and D. V. Hinkley (1997, CUP).
+* [http://www.statistics101.net Statistics101: Resampling, Bootstrap, Monte Carlo Simulation program]
+* [https://cran.r-project.org/web/packages/samplingVarEst R package `samplingVarEst': Sampling Variance Estimation. Implements functions for estimating the sampling variance of some point estimators.]
+* [http://www.mansci.uwaterloo.ca/~msmucker/software.html Paired randomization/permutation test for evaluation of TREC results]
+* [https://github.com/searchivarius/PermTest Randomization/permutation tests to evaluate outcomes in information retrieval experiments (with and without adjustments for multiple comparisons).]
+* [http://www.bioconductor.org/packages/release/bioc/html/multtest.html  Bioconductor resampling-based multiple hypothesis testing with Applications to Genomics.]
+* [https://cran.r-project.org/web/packages/permtest/index.html permtest: an R package to compare the variability within and distance between two groups within a set of microarray data.]
+* [http://rosetta.ahmedmoustafa.io/bootstrap/ Bootstrap Resampling: interactive demonstration of hypothesis testing with bootstrap resampling in R.]
+* [http://rosetta.ahmedmoustafa.io/permutation/ Permutation Test: interactive demonstration of hypothesis testing with permutation test in R.]
+
+===Lecture notes===
+* [http://www.stat.ucla.edu/~cocteau/stat105/lectures/lecture11.pdf Lecture notes]. Retrieved on 25 April 2016.
+* [http://statweb.stanford.edu/~nzhang/Stat366/lecture13b.pdf Lecture notes 2]. Retrieved on 25 April 2016.
+
+
+{{statistics|inference|collapsed}}
+
+{{DEFAULTSORT:Resampling (Statistics)}}
+[[Category:Monte Carlo methods]]
+[[Category:Statistical inference]]
+[[Category:Resampling (statistics)| ]]
+[[Category:Nonparametric statistics]]</text>
+      <sha1>haab37gilzzfrqd9vhmaxocqkx6rj8r</sha1>
+    </revision>
+  </page>
+</mediawiki>

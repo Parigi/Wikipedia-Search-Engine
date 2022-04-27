@@ -1,0 +1,198 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.10/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.10/ http://www.mediawiki.org/xml/export-0.10.xsd" version="0.10" xml:lang="en">
+  <siteinfo>
+    <sitename>Wikipedia</sitename>
+    <dbname>enwiki</dbname>
+    <base>https://en.wikipedia.org/wiki/Main_Page</base>
+    <generator>MediaWiki 1.35.0-wmf.36</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Media</namespace>
+      <namespace key="-1" case="first-letter">Special</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Talk</namespace>
+      <namespace key="2" case="first-letter">User</namespace>
+      <namespace key="3" case="first-letter">User talk</namespace>
+      <namespace key="4" case="first-letter">Wikipedia</namespace>
+      <namespace key="5" case="first-letter">Wikipedia talk</namespace>
+      <namespace key="6" case="first-letter">File</namespace>
+      <namespace key="7" case="first-letter">File talk</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki talk</namespace>
+      <namespace key="10" case="first-letter">Template</namespace>
+      <namespace key="11" case="first-letter">Template talk</namespace>
+      <namespace key="12" case="first-letter">Help</namespace>
+      <namespace key="13" case="first-letter">Help talk</namespace>
+      <namespace key="14" case="first-letter">Category</namespace>
+      <namespace key="15" case="first-letter">Category talk</namespace>
+      <namespace key="100" case="first-letter">Portal</namespace>
+      <namespace key="101" case="first-letter">Portal talk</namespace>
+      <namespace key="108" case="first-letter">Book</namespace>
+      <namespace key="109" case="first-letter">Book talk</namespace>
+      <namespace key="118" case="first-letter">Draft</namespace>
+      <namespace key="119" case="first-letter">Draft talk</namespace>
+      <namespace key="446" case="first-letter">Education Program</namespace>
+      <namespace key="447" case="first-letter">Education Program talk</namespace>
+      <namespace key="710" case="first-letter">TimedText</namespace>
+      <namespace key="711" case="first-letter">TimedText talk</namespace>
+      <namespace key="828" case="first-letter">Module</namespace>
+      <namespace key="829" case="first-letter">Module talk</namespace>
+      <namespace key="2300" case="first-letter">Gadget</namespace>
+      <namespace key="2301" case="first-letter">Gadget talk</namespace>
+      <namespace key="2302" case="case-sensitive">Gadget definition</namespace>
+      <namespace key="2303" case="case-sensitive">Gadget definition talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Data dredging</title>
+    <ns>0</ns>
+    <id>1311951</id>
+    <revision>
+      <id>954465206</id>
+      <parentid>954462779</parentid>
+      <timestamp>2020-05-02T15:12:20Z</timestamp>
+      <contributor>
+        <username>Megaman en m</username>
+        <id>7269056</id>
+      </contributor>
+      <comment>Reverted [[WP:AGF|good faith]] edits by [[Special:Contributions/Bender235|Bender235]] ([[User talk:Bender235|talk]]): This is meant for wikipedia articles, not dictionary entries ([[WP:TW|TW]])</comment>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="17778" xml:space="preserve">{{Refimprove|date=October 2016}}
+[[File:Spurious correlations - spelling bee spiders.svg|thumb|500px|An example of a result produced by data dredging, showing a correlation between the number of letters in [[Scripps National Spelling Bee]]'s winning word and the number of people in the United States killed by [[venomous spiders]].]]
+'''Data dredging''' (also '''data fishing''', '''data snooping''', '''data butchery''', and '''''p''-hacking''') is the misuse of [[data analysis]] to find patterns in data that can be presented as [[statistical significance|statistically significant]], thus dramatically increasing and understating the risk of false positives. This is done by performing many [[statistical test|statistical tests]] on the data and only reporting those that come back with significant results.&lt;ref name="bmj02" /&gt;
+
+The process of data dredging involves testing multiple hypotheses using a single [[data set]] by [[exhaustive search|exhaustively searching]]—perhaps for combinations of variables that might show a [[correlation]], and perhaps for groups of cases or observations that show differences in their mean or in their breakdown by some other variable.
+
+Conventional tests of [[statistical significance]] are based on the probability that a particular result would arise if chance alone were at work, and necessarily accept some risk of mistaken conclusions of a certain type (mistaken rejections of the null hypothesis).  This level of risk is called the [[statistical significance|''significance'']]. When large numbers of tests are performed, some produce false results of this type; hence 5% of randomly chosen hypotheses might be (erroneously) reported to be statistically significant at the 5% significance level, 1% might be (erroneously) reported to be statistically significant at the 1% significance level, and so on, by chance alone. When enough hypotheses are tested, it is virtually certain that some will be reported to be statistically significant (even though this is misleading), since almost every data set with any degree of randomness is likely to contain (for example) some spurious correlations. If they are not cautious, researchers using data mining techniques can be easily misled by these results.
+
+Data dredging is an example of disregarding the [[multiple comparisons]] problem. One form is when subgroups are compared without alerting the reader to the total number of subgroup comparisons examined.&lt;ref name="Deming"&gt;{{Cite journal
+|author1=Young, S. S. |author2=Karr, A. |title = Deming, data and observational studies
+|journal = Significance
+|volume = 8
+|issue = 3
+|year = 2011
+|url = http://www.niss.org/sites/default/files/Young%20Karr%20Obs%20Study%20Problem.pdf
+|doi = 10.1111/j.1740-9713.2011.00506.x
+ |pages=116–120}}
+&lt;/ref&gt;
+
+==Drawing conclusions from data==
+
+The conventional [[frequency probability|frequentist]] [[statistical hypothesis testing]] procedure is to formulate a research hypothesis, such as "people in higher social classes live longer", then collect relevant data, followed by carrying out a statistical [[significance test]] to see how likely such results would be found if chance alone were at work. (The last step is called testing against the [[null hypothesis]].)
+
+A key point in proper statistical analysis is to test a hypothesis with evidence (data) that was not used in constructing the hypothesis. This is critical because every [[data set]] contains some patterns due entirely to chance. If the hypothesis is not tested on a different data set from the same [[statistical population]], it is impossible to assess the likelihood that chance alone would produce such patterns. See [[testing hypotheses suggested by the data]].
+
+Here is a simple example. [[coin throw|Throwing a coin]] five times, with a result of 2 heads and 3 tails, might lead one to hypothesize that the coin favors tails by 3/5 to 2/5. If this hypothesis is then tested on the existing data set, it is confirmed, but the confirmation is meaningless. The proper procedure would have been to form in advance a hypothesis of what the tails probability is, and then throw the coin various times to see if the hypothesis is rejected or not. If three tails and two heads are observed, another hypothesis, that the tails probability is 3/5, could be formed, but it could only be tested by a new set of coin tosses. It is important to realize that the statistical significance under the incorrect procedure is completely spurious – significance tests do not protect against data dredging.
+
+== Hypothesis suggested by non-representative data ==
+
+{{main article|Testing hypotheses suggested by the data}}
+
+Suppose that a study of a random sample of people includes exactly two people with a birthday of August 7: Mary and John. Someone engaged in data snooping might try to find additional similarities between Mary and John. By going through hundreds or thousands of potential similarities between the two, each having a low probability of being true, an unusual similarity can almost certainly be found. Perhaps John and Mary are the only two people in the study who switched minors three times in college. A hypothesis, biased by data snooping, could then be "People born on August 7 have a much higher chance of switching minors more than twice in college."
+
+The data itself taken out of context might be seen as strongly supporting that correlation, since no one with a different birthday had switched minors three times in college. However, if (as is likely) this is a spurious hypothesis, this result will most likely not be [[reproducibility|reproducible]]; any attempt to check if others with an August 7 birthday have a similar rate of changing minors will most likely get contradictory results almost immediately.
+
+==Bias==
+
+{{main article|Bias}}
+Bias is a systematic error in the analysis. For example, doctors directed HIV patients at high cardiovascular risk to a particular HIV treatment, [[abacavir]], and lower-risk patients to other drugs, preventing a simple assessment of abacavir compared to other treatments. An analysis that did not correct for this bias unfairly penalised abacavir, since its patients were more high-risk so more of them had heart attacks.&lt;ref name="Deming" /&gt; This problem can be very severe, for example, in the [[observational study]].&lt;ref name="Deming" /&gt;&lt;ref name="bmj02"&gt;
+{{Cite journal
+|author1=Davey Smith, G.|author1-link=George Davey Smith|author2=Ebrahim, S. |title = Data dredging, bias, or confounding
+|journal = BMJ
+|volume = 325
+|year = 2002
+|pmc = 1124898
+|doi = 10.1136/bmj.325.7378.1437
+|pmid=12493654
+|issue=7378
+|pages=1437–1438}}
+&lt;/ref&gt;
+
+Missing factors, unmeasured confounders, and loss to follow-up can also lead to bias.&lt;ref name="Deming" /&gt;
+By selecting papers with a significant [[p-value|''p''-value]], negative studies are selected against—which is the [[publication bias]]. This is also known as "file cabinet bias", because less significant ''p''-value results are left in the file cabinet and never published.
+
+==Multiple modelling==
+
+Another aspect of the conditioning of [[statistical test]]s by knowledge of the data can be seen while using the {{clarify span|frequency of data flow in a system or machine in the data analysis [[linear regression]]|date=October 2019}}. A crucial step in the process is to decide which [[covariate]]s to include in a relationship explaining one or more other variables. There are both statistical (see [[Stepwise regression]]) and substantive considerations that lead the authors to favor some of their models over others, and there is a liberal use of statistical tests. However, to discard one or more variables from an explanatory relation on the basis of the data means one cannot validly apply standard statistical procedures to the retained variables in the relation as though nothing had happened. In the nature of the case, the retained variables have had to pass some kind of preliminary test (possibly an imprecise intuitive one) that the discarded variables failed. In 1966, Selvin and Stuart compared variables retained in the model to the fish that don't fall through the net—in the sense that their effects are bound to be bigger than those that do fall through the net. Not only does this alter the performance of all subsequent tests on the retained explanatory model, it may introduce bias and alter [[mean square error]] in estimation.&lt;ref name="Selvin"&gt;
+{{Cite journal
+|author1=Selvin, H.C. |author2=Stuart, A. |title = Data-Dredging Procedures in Survey Analysis
+|journal =  The American Statistician
+|volume = 20
+|issue = 3
+|pages = 20–23
+|year = 1966
+|doi=10.1080/00031305.1966.10480401
+|jstor=2681493}}
+&lt;/ref&gt;&lt;ref name="BerkBrownZhao"&gt;
+{{Cite journal
+|author1=Berk, R. |author2=Brown, L. |author3=Zhao, L. |title = Statistical Inference After Model Selection
+|journal =  J Quant Criminol
+|doi = 10.1007/s10940-009-9077-7
+|year = 2009 |volume=26 |issue=2 |pages=217–236|url=https://repository.upenn.edu/statistics_papers/540 }}
+&lt;/ref&gt;
+
+==Examples in meteorology and epidemiology==
+
+In [[meteorology]], hypotheses are often formulated using weather data up to the present and tested against future weather data, which ensures that, even subconsciously, future data could not influence the formulation of the hypothesis. Of course, such a discipline necessitates waiting for new data to come in, to show the formulated theory's [[predictive power]] versus the [[null hypothesis]]. This process ensures that no one can accuse the researcher of hand-tailoring the [[predictive modelling|predictive model]] to the data on hand, since the upcoming weather is not yet available.
+
+As another example, suppose that observers note that a particular town appears to have a [[cancer cluster]], but lack a firm hypothesis of why this is so. However, they have access to a large amount of [[demographic data]] about the town and surrounding area, containing measurements for the area of hundreds or thousands of different variables, mostly uncorrelated. Even if all these variables are independent of the cancer incidence rate, it is highly likely that at least one variable correlates significantly with the cancer rate across the area. While this may suggest a hypothesis, further testing using the same variables but with data from a different location is needed to confirm. Note that a [[p-value|''p''-value]] of 0.01 suggests that 1% of the time a result at least that extreme would be obtained by chance; if hundreds or thousands of hypotheses (with mutually relatively uncorrelated independent variables) are tested, then one is likely to obtain a ''p''-value less than 0.01 for many null hypotheses.
+
+==Remedies==
+Looking for patterns in data is legitimate. Applying a [[Statistical hypothesis testing|statistical test of significance]], or hypothesis test, to the same data that a pattern emerges from is wrong. One way to construct hypotheses while avoiding data dredging is to conduct [[randomized]] [[out-of-sample test]]s. The researcher collects a data set, then randomly partitions it into two subsets, A and B. Only one subset—say, subset A—is examined for creating hypotheses. Once a hypothesis is formulated, it must be tested on subset B, which was not used to construct the hypothesis. Only where B also supports such a hypothesis is it reasonable to believe the hypothesis might be valid.  (This is a simple type of [[cross-validation (statistics)|cross-validation]] and is often termed training-test or split-half validation.)
+
+Another remedy for data dredging is to record the number of all significance tests conducted during the study and simply divide one's criterion for significance ("alpha") by this number; this is the [[Bonferroni correction]].  However, this is a very conservative metric. A family-wise alpha of 0.05, divided in this way by 1,000 to account for 1,000 significance tests, yields a very stringent per-hypothesis alpha of 0.00005. Methods particularly useful in analysis of variance, and in constructing simultaneous confidence bands for regressions involving basis functions are the [[Scheffé test|Scheffé method]] and, if the researcher has in mind only pairwise comparisons, the [[Tukey range test|Tukey method]]. The use of Benjamini and Hochberg's [[false discovery rate]] is a more sophisticated approach that has become a popular method for control of multiple hypothesis tests.
+
+When neither approach is practical, one can make a clear distinction between data analyses that are [[Statistical hypothesis testing|confirmatory]] and analyses that are [[exploratory data analysis|exploratory]]. Statistical inference is appropriate only for the former.&lt;ref name="BerkBrownZhao" /&gt;
+
+Ultimately, the statistical significance of a test and the statistical confidence of a finding are joint properties of data and the method used to examine the data. Thus, if someone says that a certain event has probability of 20% ± 2% 19 times out of 20, this means that if the probability of the event is estimated ''by the same method'' used to obtain the 20% estimate, the result is between 18% and 22% with probability 0.95. No claim of statistical significance can be made by only looking, without due regard to the method used to assess the data.
+
+Academic journals increasingly shift to the [[registered report]] format, which aims to counteract very serious issues such as data dredging and [[HARKing|{{abbr|HARKing|Hypothesizing After Results are Known}}]], which have made theory-testing research very unreliable: For example, [[Nature Human Behaviour]] has adopted the registered report format, as it “shift[s] the emphasis from the results of research to the questions that guide the research and the methods used to answer them”.&lt;ref&gt;{{cite journal|title=Promoting reproducibility with registered reports|author=|date=10 January 2017|journal=Nature Human Behaviour|volume=1|issue=1|pages=0034|doi=10.1038/s41562-016-0034}}&lt;/ref&gt; The [[European Journal of Personality]] defines this format as follows: “In a registered report, authors create a study proposal that includes theoretical and empirical background, research questions/hypotheses, and pilot data (if available). Upon submission, this proposal will then be reviewed prior to data collection, and if accepted, the paper resulting from this peer-reviewed procedure will be published, regardless of the study outcomes.”&lt;ref&gt;{{cite web|url=https://www.ejp-blog.com/blog/2017/2/3/streamlined-review-and-registered-reports-coming-soon|title=Streamlined review and registered reports soon to be official at EJP|author=|date=|website=ejp-blog.com}}&lt;/ref&gt;
+
+Methods and results can also be made publicly available, as in the [[open science]] approach, making it yet more difficult for data dredging to take place.&lt;ref&gt;{{cite journal |last1=Vyse |first1=Stuart |title=P-Hacker Confessions: Daryl Bem and Me |journal=[[Skeptical Inquirer]] |date=2017 |volume=41 |issue=5 |pages=25–27 |url=https://www.csicop.org/specialarticles/show/p-hacker_confessions_daryl_bem_and_me |accessdate=5 August 2018|archive-url=https://web.archive.org/web/20180805142806/https://www.csicop.org/specialarticles/show/p-hacker_confessions_daryl_bem_and_me |archive-date=2018-08-05 }}&lt;/ref&gt;
+
+==See also==
+{{Div col|colwidth=20em}}
+* [[Aliasing]]
+* [[Base rate fallacy]]
+* [[Bible code]]
+* [[Bonferroni inequalities]]
+* [[Cherry picking]]
+* [[Lincoln–Kennedy coincidences urban legend]]
+* [[Look-elsewhere effect]]
+* [[Metascience]]
+* [[Misuse of statistics]]
+* [[Overfitting]]
+* [[Pareidolia]]
+* [[Post hoc analysis]]
+* [[Predictive analytics]]
+* [[Texas sharpshooter fallacy]]
+{{Div col end}}
+
+==References==
+{{reflist}}
+
+==Further reading==
+* {{Cite journal |last=Ioannidis |first=John P.A. |authorlink=John P. A. Ioannidis |title=Why Most Published Research Findings Are False |journal=[[PLoS Medicine]] |volume=2 |issue=8 |pages=e124 |publisher=Public Library of Science |location=San Francisco |date=August 30, 2005 |issn=1549-1277 |doi=10.1371/journal.pmed.0020124 |pmid=16060722 |pmc=1182327}}
+* {{cite journal|last1=Head|first1=Megan L.|last2=Holman|first2=Luke|last3=Lanfear|first3=Rob|last4=Kahn|first4=Andrew T.|last5=Jennions|first5=Michael D.|title=The Extent and Consequences of P-Hacking in Science|journal=PLOS Biology|date=13 March 2015|volume=13|issue=3|pages=e1002106|doi=10.1371/journal.pbio.1002106|pmid=25768323|pmc=4359000}}&lt;!--|accessdate=8 April 2015--&gt;
+*{{cite news|last1=Insel|first1=Thomas|title=P-Hacking|url=https://www.nimh.nih.gov/about/directors/thomas-insel/blog/2014/p-hacking.shtml|work=NIMH Director's Blog|date=November 14, 2014|language=en}}
+*{{cite book |last=Smith |first=Gary |date=2016 |title=Standard Deviations: Flawed Assumptions, Tortured Data, and Other Ways to Lie with Statistics |url=https://books.google.co.nz/books?id=B-EoDwAAQBAJ |location= |publisher=Gerald Duckworth &amp; Co |isbn=9780715649749 }}
+
+==External links==
+* [http://data-snooping.martinsewell.com/ A bibliography on data-snooping bias]
+* [http://www.tylervigen.com/spurious-correlations Spurious Correlations], a gallery of examples of implausible correlations
+* {{YouTube|UFhJefdVCjE|StatQuest: ''P''-value pitfalls and power calculations}}
+* [https://www.youtube.com/watch?v=A0vEGuOMTyA Video explaining p-hacking] by "[[Neuroskeptic]]", a blogger at Discover Magazine
+* [https://journalofbigdata.springeropen.com/articles/10.1186/s40537-018-0143-6 Step Away From Stepwise], an article in the Journal of Big Data criticising stepwise regression.
+
+{{DEFAULTSORT:Data Dredging}}
+[[Category:Bias]]
+[[Category:Cognitive biases]]
+[[Category:Misconduct]]
+[[Category:Data mining]]
+[[Category:Design of experiments]]
+[[Category:Statistical hypothesis testing]]
+[[Category:Misuse of statistics]]</text>
+      <sha1>gt2jkt0w5094c0fi83wvg2h6a5cae6r</sha1>
+    </revision>
+  </page>
+</mediawiki>

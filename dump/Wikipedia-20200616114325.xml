@@ -1,0 +1,303 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.10/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.10/ http://www.mediawiki.org/xml/export-0.10.xsd" version="0.10" xml:lang="en">
+  <siteinfo>
+    <sitename>Wikipedia</sitename>
+    <dbname>enwiki</dbname>
+    <base>https://en.wikipedia.org/wiki/Main_Page</base>
+    <generator>MediaWiki 1.35.0-wmf.36</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Media</namespace>
+      <namespace key="-1" case="first-letter">Special</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Talk</namespace>
+      <namespace key="2" case="first-letter">User</namespace>
+      <namespace key="3" case="first-letter">User talk</namespace>
+      <namespace key="4" case="first-letter">Wikipedia</namespace>
+      <namespace key="5" case="first-letter">Wikipedia talk</namespace>
+      <namespace key="6" case="first-letter">File</namespace>
+      <namespace key="7" case="first-letter">File talk</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki talk</namespace>
+      <namespace key="10" case="first-letter">Template</namespace>
+      <namespace key="11" case="first-letter">Template talk</namespace>
+      <namespace key="12" case="first-letter">Help</namespace>
+      <namespace key="13" case="first-letter">Help talk</namespace>
+      <namespace key="14" case="first-letter">Category</namespace>
+      <namespace key="15" case="first-letter">Category talk</namespace>
+      <namespace key="100" case="first-letter">Portal</namespace>
+      <namespace key="101" case="first-letter">Portal talk</namespace>
+      <namespace key="108" case="first-letter">Book</namespace>
+      <namespace key="109" case="first-letter">Book talk</namespace>
+      <namespace key="118" case="first-letter">Draft</namespace>
+      <namespace key="119" case="first-letter">Draft talk</namespace>
+      <namespace key="446" case="first-letter">Education Program</namespace>
+      <namespace key="447" case="first-letter">Education Program talk</namespace>
+      <namespace key="710" case="first-letter">TimedText</namespace>
+      <namespace key="711" case="first-letter">TimedText talk</namespace>
+      <namespace key="828" case="first-letter">Module</namespace>
+      <namespace key="829" case="first-letter">Module talk</namespace>
+      <namespace key="2300" case="first-letter">Gadget</namespace>
+      <namespace key="2301" case="first-letter">Gadget talk</namespace>
+      <namespace key="2302" case="case-sensitive">Gadget definition</namespace>
+      <namespace key="2303" case="case-sensitive">Gadget definition talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Microsoft Reader</title>
+    <ns>0</ns>
+    <id>2203966</id>
+    <revision>
+      <id>953658899</id>
+      <parentid>938232739</parentid>
+      <timestamp>2020-04-28T11:19:13Z</timestamp>
+      <contributor>
+        <ip>79.121.32.94</ip>
+      </contributor>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="11092" xml:space="preserve">{{More citations needed|date=January 2015}}
+'''Microsoft Reader''' is a [[Microsoft]] application for reading [[e-book]]s, first released in August 2000, or a Microsoft application for reading [[PDF]] and [[Open XML Paper Specification|XPS]] files, first released for Windows 8.1.
+
+From 2000 to 2012, Microsoft Reader was the name of an e-book reader.
+
+In 2013, Microsoft released a Microsoft Reader application for reading documents in PDF, XPS and TIFF formats. Reader was included in Windows 8.1 and was a free download from the Windows Store for Windows 10. Microsoft discontinued the application in February 2018, as PDF reading functionality was moved to the [[Microsoft Edge]] browser.&lt;ref&gt;[https://www.windowslatest.com/2017/11/21/microsoft-to-discontinue-its-pdf-reader-app-in-february-2018/ ''Microsoft to discontinue its PDF Reader App in February 2018''], Windows Latest, 2017-11-21&lt;/ref&gt;
+
+==E-book Reader==
+{{Infobox software
+| name = Microsoft Reader
+| logo = Microsoft Reader.png
+| logo size = 300px
+| released = {{Start date and age|2000|08}}
+| discontinued = yes
+| latest release version = 2.1.1 &lt;small&gt;([[Windows 98]], [[Windows NT 4.0|NT 4.0]], [[Windows 2000|2000]], [[Windows Me|Me]], [[Windows XP|XP]])&lt;/small&gt; 2.6.1 &lt;small&gt;([[Windows XP Tablet PC Edition]], [[Windows Vista]] (with [[Ultra-mobile PC|Origami]] Experience Pack or Touch Pack))&lt;/small&gt;&lt;br&gt;2.4.2 &lt;small&gt;([[Windows Mobile|Windows Mobile 6]])&lt;/small&gt;
+| latest release date =
+| developer = [[Microsoft]]
+| operating system = [[Microsoft Windows|Windows]]
+| genre = [[E-book]] reader
+| license = [[Proprietary software|Proprietary]] [[freeware]]
+| website = 
+}}
+{{Infobox file format
+| name                   = Microsoft Reader
+| icon                   = 
+| logo                   = 
+| screenshot             = 
+| caption                = 
+| extension              = .lit
+| mime                   = 
+| type code              = 
+| uniform type           = 
+| magic                  = 
+| owner                  = [[Microsoft]]
+| released               = {{Start date and age|2000|08}}
+| latest release version = 2.4.1
+| latest release date    = {{Start date and age|2012|08}}
+| genre                  = 
+| container for          = 
+| contained by           = 
+| extended from          = [[Microsoft Compiled HTML Help|.chm]]
+| extended to            = 
+| standard               = No
+| url                    = 
+}}
+The e-book reader was available for download from Microsoft as a free application for computers running [[Microsoft Windows|Windows]]. It can also be used on a [[Pocket PC]], where it has been built into the ROM since [[Windows CE]] 3.0. Microsoft Reader was not supported on newer [[Windows Phone 7]] devices, but it was compatible with [[Windows Mobile]].
+
+Microsoft Reader displays books in the .LIT (shortened from "literature") format, an extension of the [[Microsoft Compressed HTML Help]] format to include [[Digital rights management|DRM]].&lt;ref&gt;{{cite book |last1=Salomon |first1=David |last2=Motta |first2=Giovanni |last3=Bryant |first3=David (CON) |title=Handbook of Data Compression |date=2009 |publisher=Springer |isbn=1-84882-902-7 |edition=5th}}&lt;/ref&gt; These e-books can be purchased and downloaded from online stores.
+
+The notable features of Microsoft Reader are [[ClearType]] for increased readability on small screens, highlighting and doodling designed for quick note-taking, text notes, and searching. The PC version also has an optional [[Plug-in (computing)|plug-in]] for [[text-to-speech]], enabling books to be read out loud.
+
+In August 2011, Microsoft announced they were discontinuing both Microsoft Reader and the use of the .lit format for ebooks at the end of August 2012, and ending sales of the format on November 8, 2011.&lt;ref&gt;"Microsoft is discontinuing Microsoft Reader effective August 30, 2012, which includes download access of the Microsoft Reader application from the Microsoft Reader website."[http://www.microsoft.com/reader/ Microsoft Reader] {{webarchive|url=https://web.archive.org/web/20050822035209/http://www.microsoft.com/reader/ |date=2005-08-22 }}&lt;/ref&gt;
+
+===Compatibility===
+{| class ="wikitable"
+! [[Operating system]]s
+! Latest version
+! Release date
+|-
+| [[Windows 95]]
+| [http://www.pctipp.ch/downloads/office/18575/microsoft_reader.html 1.5]
+| 2000-08-08
+|-
+| [[Windows NT 4.0]], [[Windows 98|98]], [[Windows 2000|2000]], [[Windows Me|Me]]
+| [https://web.archive.org/web/20090315052022/http://www.microsoft.com/reader/downloads/pc.aspx 2.1.1]
+| 2003-06-26
+|-
+| [[Windows XP]], [[Windows Server 2003|2003]], [[Windows Vista|Vista]] (with [[Ultra-mobile PC|Origami]] Experience Pack or Touch Pack), [[Windows Home Server|Home Server]], [[Windows Server 2008|2008]]
+| [https://web.archive.org/web/20160816093148/http://www.microsoft.com/en-us/download/details.aspx?id=18364 2.6.1]
+| 2007-07-10
+|-
+| [[Windows Mobile#Pocket PC 2000|Pocket PC 2000]]
+| 1.0 (in ROM)
+| 2000-04-19
+|-
+| [[Windows Mobile#Pocket PC 2002|Pocket PC 2002]]
+| [http://www.microsoft.com/downloads/details.aspx?familyid=2507a77a-5485-47d8-a560-3f182fbcdf8f 2.4]
+| 2005-03-24
+|-
+| [[Windows Mobile#Windows Mobile 2003|Windows Mobile 2003]], [[Windows Mobile#Windows Mobile 2003 SE|2003 SE]], [[Windows Mobile#Windows Mobile 5|5.0]]
+| [http://www.microsoft.com/downloads/en/details.aspx?familyid=B63689E0-CD2D-431D-8617-B0D30EC589DC 2.4.1]
+| 2005-11-23
+|-
+| [[Windows Mobile#Windows Mobile 6|Windows Mobile 6.0]], [[Windows Mobile#Windows Mobile 6.1|6.1]]
+| [http://www.microsoft.com/downloads/en/details.aspx?displaylang=en&amp;FamilyID=5f77654d-c8b8-4eca-9a2d-1e6b8ded8fc2 2.4.2]
+| 2009-09-10
+|}
+
+=== Copy protection ===
+Books accessible by Reader can be protected, or unprotected, only allowing access to protected books if the user has activated the software. This can be accomplished by registering using their [[Microsoft account|Passport]] account. Only six Reader installations can be activated per account, after which, Microsoft requires the user to request further activations.
+
+===Creating .LIT files===
+''Read in Microsoft Reader'' is an add-on, available from Microsoft, that can be used with Microsoft Word (versions 2000, 2002 and 2003) to create .LIT extension e-books.&lt;ref&gt;[http://www.microsoft.com/downloads/details.aspx?FamilyID=199BE874-1F5E-4FB7-8FE0-6BCA50C7D356&amp;displaylang=EN Read in Microsoft Reader]&lt;/ref&gt; This software is not fully compatible with Office 2007.
+
+===Version history===
+====Desktop====
+{| class="wikitable"
+|-
+! Version
+! [[Operating system]]s
+! {{nowrap|Release date}}
+! Major changes
+|-
+| 1.5
+|rowspan="1"| [[Windows 95]], [[Windows NT 4.0|NT 4]], [[Windows 98|98]], [[Windows 2000|2000]], [[Windows Me|Me]]
+| 2000-08-08
+| Initial version for desktops
+|-
+| 2.0
+|rowspan="1"| [[Windows NT 4.0|Windows NT 4]], [[Windows 98|98]], [[Windows 2000|2000]], [[Windows Me|Me]], [[Windows XP|XP]]
+| 2001-10-03
+| Major overhaul&lt;br /&gt;Supports premium eBooks
+|-
+| 2.5
+| rowspan="1"| [[Windows XP]]
+| 2002-06-25
+| Support for [[Microsoft Tablet PC|Tablet PC]]&lt;br /&gt;Pen and Ink features
+|-
+| 2.1.1
+| rowspan="1"| [[Windows NT 4.0|Windows NT 4]], [[Windows 98|98]], [[Windows 2000|2000]], [[Windows Me|Me]], [[Windows XP|XP]]
+| 2003-06-26
+| Security update
+|-
+| 2.6
+| rowspan="1"| [[Windows XP Tablet PC Edition]], [[Windows Vista|Vista Ultimate Edition]]  (with [[Ultra-mobile PC|Origami]] Experience Pack or Touch Pack)
+| 2007-07-09
+| Audible support for newer audio formats&lt;br /&gt;Security and performance updates
+|}
+
+====Pocket PC====
+{| class="wikitable"
+|-
+! Version
+! [[Operating system]]s
+! Release date
+! Major changes
+|-
+| 1.0
+|rowspan="1"| [[Windows Mobile]] [[Windows Mobile#Windows Mobile 2000|2000]]
+| 2000-04-19
+| Initial version for Pocket PCs.
+|-
+| 2.0
+|rowspan="1"| [[Windows Mobile]] [[Windows Mobile#Windows Mobile 2002|2002]]
+| 2001-10-03
+| Compatible with Windows Mobile 2002&lt;br /&gt;Major overhaul&lt;br /&gt;Supports premium eBooks{{clarify|date=April 2014}}
+|-
+| 2.2.1
+|rowspan="3"| [[Windows Mobile]] [[Windows Mobile#Windows Mobile 2002|2002]], [[Windows Mobile#Windows Mobile 2003|2003]]
+| N/A
+| 
+|-
+| 2.2.2
+| 2003
+| Compatible with Windows Mobile 2003
+|-
+| 2.2.3
+| 2004-02-04
+| Fixes activation problems
+|-
+| 2.3
+|rowspan="2"| [[Windows Mobile]] [[Windows Mobile#Windows Mobile 2002|2002]], [[Windows Mobile#Windows Mobile 2003|2003]], [[Windows Mobile#Windows Mobile 2003 SE|2003 SE]]
+| 2004-07-13
+| Compatible with Windows Mobile 2003 SE
+|-
+| 2.4
+| 2005-03-24
+| 
+|-
+| 2.4.1
+|rowspan="1"| [[Windows Mobile]] [[Windows Mobile#Windows Mobile 2003|2003]], [[Windows Mobile#Windows Mobile 2003 SE|2003 SE]], [[Windows Mobile#Windows Mobile 5|5]], [[Windows Mobile#Windows Mobile 6|6.0]]
+| 2005-11-23
+| Compatible with Windows Mobile 5 and 6
+|-
+| 2.4.2
+|rowspan="1"| [[Windows Mobile]] [[Windows Mobile#Windows Mobile 2003|2003]], [[Windows Mobile#Windows Mobile 2003 SE|2003 SE]], [[Windows Mobile#Windows Mobile 5|5]], [[Windows Mobile#Windows Mobile 6|6.0]], [[Windows Mobile#Windows Mobile 6.1|6.1]]
+| 2009-09-10
+| Compatible with Windows Mobile 6.1
+|}
+
+====Read in Microsoft Reader====
+{| class="wikitable"
+|-
+! Version
+! [[Operating system]]s
+! {{nowrap|Release date}}
+! Major changes
+|-
+| 1.1
+|rowspan="1"|[[Windows NT 4.0|Windows NT 4]], [[Windows 98|98]], [[Windows 2000|2000]], [[Windows Me|Me]], [[Windows XP|XP]]
+| 2001-09-04
+| Initial version with support for Word 2000, 2002
+|-
+| 1.1.3
+| rowspan="1"| [[Windows NT 4.0|Windows NT 4]], [[Windows 98|98]], [[Windows 2000|2000]], [[Windows Me|Me]], [[Windows XP|XP]], [[Windows Server 2003|2003]], [[Windows Vista|Vista]], [[Windows Home Server|Home Server]], [[Windows Server 2008|2008]]
+| 2006-02-21
+| Conversion support for Word 2003. Supports Word 2000, 2002, 2003. Incompatible with Office 2007
+|}
+
+====Software Development Kit====
+{| class="wikitable"
+|-
+! Version
+! [[Operating system]]s
+! Release date
+! Major changes
+|-
+| 1.5
+| rowspan="1"| [[Windows NT 4.0|Windows NT 4]], [[Windows 98|98]], [[Windows 2000|2000]], [[Windows Me|Me]], [[Windows XP|XP]], [[Windows Server 2003|2003]], [[Windows Vista|Vista]], [[Windows Home Server|Home Server]], [[Windows Server 2008|2008]]
+| 2001-10-04
+| Initial version
+|}
+
+====Text to Speech====
+{| class="wikitable"
+|-
+! Version
+! [[Operating system]]s
+! Release date
+! Major changes
+|-
+| 1.0
+| rowspan="1"| [[Windows NT 4.0|Windows NT 4]], [[Windows 98|98]], [[Windows 2000|2000]], [[Windows Me|Me]], [[Windows XP|XP]], [[Windows Server 2003|2003]], [[Windows Home Server|Home Server]]
+| 2005-05-19
+| Initial version
+|}
+
+===Third party===
+Notable third party apps and tools to convert and read MS .LIT format on various devices include:
+*[[Calibre (software)|Calibre]]; an [[Open-source software|open source]] e-book library manager that runs on many environments; it can convert .LIT format files
+*[[Lexcycle Stanza]] (discontinued); a freeware program for reading eBooks; can read .LIT format, supports [[iOS]].
+
+==References==
+{{Reflist}}
+
+{{Ebooks}}&lt;!--navbox--&gt;
+
+[[Category:Discontinued Microsoft software|Reader]]
+[[Category:Pocket PC software]]
+[[Category:Electronic publishing]]
+[[Category:Media readers]]
+[[Category:E-books]]</text>
+      <sha1>7ogdea41yyp3qnhxos28ycp0mm218dq</sha1>
+    </revision>
+  </page>
+</mediawiki>

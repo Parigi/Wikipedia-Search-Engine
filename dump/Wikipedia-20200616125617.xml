@@ -1,0 +1,212 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.10/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.10/ http://www.mediawiki.org/xml/export-0.10.xsd" version="0.10" xml:lang="en">
+  <siteinfo>
+    <sitename>Wikipedia</sitename>
+    <dbname>enwiki</dbname>
+    <base>https://en.wikipedia.org/wiki/Main_Page</base>
+    <generator>MediaWiki 1.35.0-wmf.36</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Media</namespace>
+      <namespace key="-1" case="first-letter">Special</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Talk</namespace>
+      <namespace key="2" case="first-letter">User</namespace>
+      <namespace key="3" case="first-letter">User talk</namespace>
+      <namespace key="4" case="first-letter">Wikipedia</namespace>
+      <namespace key="5" case="first-letter">Wikipedia talk</namespace>
+      <namespace key="6" case="first-letter">File</namespace>
+      <namespace key="7" case="first-letter">File talk</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki talk</namespace>
+      <namespace key="10" case="first-letter">Template</namespace>
+      <namespace key="11" case="first-letter">Template talk</namespace>
+      <namespace key="12" case="first-letter">Help</namespace>
+      <namespace key="13" case="first-letter">Help talk</namespace>
+      <namespace key="14" case="first-letter">Category</namespace>
+      <namespace key="15" case="first-letter">Category talk</namespace>
+      <namespace key="100" case="first-letter">Portal</namespace>
+      <namespace key="101" case="first-letter">Portal talk</namespace>
+      <namespace key="108" case="first-letter">Book</namespace>
+      <namespace key="109" case="first-letter">Book talk</namespace>
+      <namespace key="118" case="first-letter">Draft</namespace>
+      <namespace key="119" case="first-letter">Draft talk</namespace>
+      <namespace key="446" case="first-letter">Education Program</namespace>
+      <namespace key="447" case="first-letter">Education Program talk</namespace>
+      <namespace key="710" case="first-letter">TimedText</namespace>
+      <namespace key="711" case="first-letter">TimedText talk</namespace>
+      <namespace key="828" case="first-letter">Module</namespace>
+      <namespace key="829" case="first-letter">Module talk</namespace>
+      <namespace key="2300" case="first-letter">Gadget</namespace>
+      <namespace key="2301" case="first-letter">Gadget talk</namespace>
+      <namespace key="2302" case="case-sensitive">Gadget definition</namespace>
+      <namespace key="2303" case="case-sensitive">Gadget definition talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Circular error probable</title>
+    <ns>0</ns>
+    <id>316648</id>
+    <revision>
+      <id>959555083</id>
+      <parentid>950938241</parentid>
+      <timestamp>2020-05-29T10:24:53Z</timestamp>
+      <contributor>
+        <username>Arkadiy Sokolov</username>
+        <id>39392883</id>
+      </contributor>
+      <comment>/* Conversion between CEP, DRMS, 2DRMS, R95 and R99.7(just added) */</comment>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="11655" xml:space="preserve">{{Redirect|Circular error|the circular error of a pendulum|pendulum|and|pendulum (mathematics)}}
+
+[[File:Circular error probable - percentage.png|thumb|CEP concept and hit probability. 0.2% outside the outmost circle.]]
+
+In the [[military science]] of [[ballistics]], '''circular error probable''' ('''CEP''')&lt;ref&gt;Circular Error Probable (CEP), Air Force Operational Test and Evaluation Center Technical Paper 6, Ver 2, July 1987, p. 1&lt;/ref&gt; (also '''circular error probability'''&lt;ref&gt;{{Cite document | last = Nelson | first = William | year = 1988 | title = Use of Circular Error Probability in Target Detection | url = http://www.dtic.mil/dtic/tr/fulltext/u2/a199190.pdf | location = Bedford, MA | publisher = The MITRE Corporation; United States Air Force }}&lt;/ref&gt; or '''circle of equal probability'''&lt;ref&gt;{{Cite book | last = Ehrlich | first = Robert | year = 1985 | title = Waging Nuclear Peace: The Technology and Politics of Nuclear Weapons | location = Albany, NY | publisher = [[State University of New York Press]] | page = [https://books.google.com/books?id=-tEpgCSNV7sC&amp;pg=PA63 63] }}&lt;/ref&gt;) is a measure of a weapon system's [[Accuracy and precision|precision]]. It is defined as the radius of a circle; centered on the mean, whose boundary is expected to include the landing points of 50% of the rounds; said otherwise, it is the [[median]] error radius.&lt;ref&gt;Circular Error Probable (CEP), Air Force Operational Test and Evaluation Center Technical Paper 6, ver. 2, July 1987, p. 1&lt;/ref&gt;&lt;ref&gt;{{Cite book | editor-last = Payne | editor-first = Craig | year = 2006 | title = Principles of Naval Weapon Systems | location = Annapolis, MD | publisher = [[Naval Institute Press]] | page = [https://books.google.com/books?id=F3q59-hcGDoC&amp;pg=PA342&amp;dq=%22precisely+50%22 342] }}&lt;/ref&gt; That is, if a given munitions design has a CEP of 100&amp;nbsp;m, when 100 are targeted at the same point, 50 will fall within a 100&amp;nbsp;m circle around their average impact point. (The distance between the target point and the average impact point is referred to as [[Unbiased estimator|bias]].)
+
+There are associated concepts, such as the DRMS (distance root mean square), which is the square root of the average squared distance error, and R95, which is the radius of the circle where 95% of the values would fall in.
+
+The concept of CEP also plays a role when measuring the accuracy of a position obtained by a navigation system, such as [[GPS]] or older systems such as [[LORAN]] and [[Loran-C]].
+
+==Concept==
+[[File:Circular error probable - example.png|thumb|20 hits distribution example]]
+
+The original concept of CEP was based on a [[multivariate normal distribution#Bivariate case|circular bivariate normal]] distribution (CBN) with CEP as a parameter of the CBN just as μ and σ are parameters of the [[normal distribution]]. [[Munition]]s with this distribution behavior tend to cluster around the [[mean]] impact point, with most reasonably close, progressively fewer and fewer further away, and very few at long distance. That is, if CEP is ''n'' metres, 50% of rounds land within ''n'' metres of the mean impact, 43.7% between ''n'' and ''2n'', and 6.1% between ''2n'' and ''3n'' metres, and the proportion of rounds that land farther than three times the CEP from the mean is only 0.2%.
+
+CEP is not a good measure of accuracy when this distribution behavior is not met. [[Precision-guided munition]]s generally have more "close misses" and so are not normally distributed. Munitions may also have larger [[standard deviation]] of range errors than the standard deviation of azimuth (deflection) errors, resulting in an elliptical [[confidence region]]. Munition samples may not be exactly on target, that is, the mean vector will not be (0,0). This is referred to as [[Unbiased estimator|bias]].
+
+To incorporate accuracy into the CEP concept in these conditions, CEP can be defined as the square root of the [[mean square error]] (MSE). The MSE will be the sum of the [[variance]] of the range error plus the variance of the azimuth error plus the [[covariance]] of the range error with the azimuth error plus the square of the bias. Thus the MSE results from pooling all these sources of error, geometrically corresponding to [[radius]] of a [[circle]] within which 50% of rounds will land.
+
+Several methods have been introduced to estimate CEP from shot data. Included in these methods are the plug-in approach of Blischke and Halpin (1966), the Bayesian approach of Spall and Maryak (1992), and the maximum likelihood approach of Winkler and Bickert (2012). The Spall and Maryak approach applies when the shot data represent a mixture of different projectile characteristics (e.g., shots from multiple munitions types or from multiple locations directed at one target).
+
+==Conversion between CEP, DRMS, 2DRMS, R95 and R99.7==
+While 50% is a very common definition for CEP, the circle dimension can be defined for percentages. [[Percentile|Percentiles]] can be determined by recognizing that the horizontal position error is defined by a 2D vector which components are two [[uncorrelated]] orthogonal [[Normal distribution|Gaussian]] [[Random variable|random variables]] (one for each axis) each having a standard deviation &lt;math&gt;\sigma&lt;/math&gt;. The distance error is the magnitude of that vector; it is a property of [[Multivariate_normal_distribution|2D Gaussian vectors]] that the magnitude follows the [[Rayleigh distribution]], with a standard deviation &lt;math&gt;\Sigma=\sigma\sqrt{2}&lt;/math&gt;, which by definition is the DRMS (distance root mean square) value. In turn, the properties of the [[Rayleigh distribution]] are, that its [[percentile]] at level &lt;math&gt;F\in[0\%,100\%]&lt;/math&gt; is given by the following formula:
+
+&lt;math&gt;Q(F,\sigma)=\sigma \sqrt{-2\ln(1-F/100)}&lt;/math&gt; 
+
+or, expressed in terms of the DRMS:
+
+&lt;math&gt;Q(F,\Sigma)=\Sigma \frac{\sqrt{-2\ln(1-F/100)}}{\sqrt{2}}&lt;/math&gt; 
+
+The relation between &lt;math&gt;Q&lt;/math&gt; and &lt;math&gt;F&lt;/math&gt; are given by the following table, where the &lt;math&gt;F&lt;/math&gt; values for DRMS and 2DRMS are specific to the Rayleigh distribution and are found numerically, while the CEP, R95 and R99.7 values are definitions:   
+
+{|class="wikitable"
+|-
+! Measure of &lt;math&gt;Q&lt;/math&gt;
+! Probability &lt;math&gt;F&lt;/math&gt;(%)
+|-
+| Distance [[root mean square]] ("DRMS")
+| 63.213...
+|-
+| Circular error probability ("CEP", "CEP50")
+| 50
+|-
+| Twice the distance root mean square ("2DRMS")
+| 98.169...
+|-
+| 95% radius ("R95")
+| 95
+|-
+| 99.7% radius ("R99.7")
+| 99.7
+|}
+
+We can then derive a conversion table to convert values expressed for one percentile level, to another&lt;ref name=gps&gt;Frank van Diggelen, "[http://gpsworld.com/gps-accuracy-lies-damn-lies-and-statistics/ GPS Accuracy: Lies, Damn Lies, and Statistics]", ''GPS World'', Vol 9 No. 1, January 1998&lt;/ref&gt;&lt;ref name=gnss&gt;Frank van Diggelen, "GNSS Accuracy – Lies, Damn Lies and Statistics", ''GPS World'', Vol 18 No. 1, January 2007. Sequel to previous article with similar title [http://www.gpsworld.com/gpsgnss-accuracy-lies-damn-lies-and-statistics-1134] [http://www.frankvandiggelen.com/wp-content/uploads/2009/03/2007-gps-world-accuracy-article-0107-van-diggelen-1.pdf]&lt;/ref&gt;. Said conversion table, giving the coefficients &lt;math&gt;\alpha&lt;/math&gt; to convert &lt;math&gt;X&lt;/math&gt; into &lt;math&gt;Y=\alpha.X&lt;/math&gt;, is given by:
+
+{|class="wikitable"
+|-
+! From &lt;math&gt;X \downarrow&lt;/math&gt; to &lt;math&gt;Y \rightarrow&lt;/math&gt;
+! RMS (&lt;math&gt;\sigma&lt;/math&gt;)
+! CEP
+! DRMS (&lt;math&gt;\Sigma&lt;/math&gt;)
+! R95
+! 2DRMS (&lt;math&gt;2\Sigma&lt;/math&gt;)
+! R99.7
+|-
+! RMS (&lt;math&gt;\sigma&lt;/math&gt;)
+| -
+| 1.1774
+| 1.4142
+| 2.4477
+| 2.8284 
+| 3.4086 
+|-
+! CEP
+| 0.8493
+| –
+| 1.2011
+| 2.0789
+| 2.4022
+| 2.8950 
+|-
+! DRMS (&lt;math&gt;\Sigma&lt;/math&gt;)
+| 0.7071
+| 0.8326
+| –
+| 1.7308
+| 2
+| 2.4103 
+|-
+! R95
+| 0.4085
+| 0.4810
+| 0.5778
+| –
+| 1.1555
+| 1.3926
+|-
+! 2DRMS (&lt;math&gt;2\Sigma&lt;/math&gt;)
+| 0.3536
+| 0.4163
+| 0.5
+| 0.8654
+| –
+| 1.2051
+|-
+! R99.7
+| 0.2934
+| 0.3454
+| 0.4149
+| 0.7181
+| 0.8298
+| –
+|}
+
+Example: a GPS receiver having a 1.25 m DRMS error, will have a 1.25&lt;math&gt;\times&lt;/math&gt;1.73 = 2.16 m R95 radius.
+
+'''Warning:''' often, sensor datasheets or other publications state "RMS" values which in general, ''but not always''&lt;ref&gt;For instance, the International Hydrographic Organization, in the IHO standard for hydrographic survey S-44 (fifth edition) defines "the 95% confidence level for 2D quantities (e.g. position) is defined as 2.45 x standard deviation", which is true only if we are speaking about the standard deviation of the underlying 1D variable, defined as &lt;math&gt;\sigma&lt;/math&gt; above.&lt;/ref&gt;, stand for "DRMS" values. Also, be wary of habits coming from properties of a 1D [[normal distribution]], such as the [[68–95–99.7_rule|68-95-99.7 rule]], in essence trying to say that "R95 = 2DRMS". As shown above, these properties simply ''do not'' translate to the distance errors. Finally, mind that these values are obtained for a theoretical distribution; while generally being true for real data, these may be affected by other effects, which the model does not represent.
+
+==Use in popular culture==
+The term is used in the movie [[Clear and Present Danger (film)|''Clear and Present Danger'']] when the ground team reports "Circular error probability Zero. Impact with high order detonation. Have a nice day." Here CEP is meant to convey that the bomb landed exactly on target.{{citation needed|date=August 2017}}
+
+==See also==
+* [[Hoyt distribution]]
+* [[Probable error]]
+
+==References==
+{{reflist}}
+
+==Further reading==
+{{Refbegin}}
+* {{cite journal|jstor=2282775|title=Asymptotic Properties of Some Estimators of Quantiles of Circular Error|last1=Blischke|first1=W. R.|last2=Halpin|first2=A. H.|journal=Journal of the American Statistical Association|volume=61|issue=315|pages=618–632|year=1966|doi=10.1080/01621459.1966.10480893}}
+* {{Cite book | last = MacKenzie | first = Donald A. | authorlink = Donald Angus MacKenzie | year = 1990 | title = Inventing Accuracy: A Historical Sociology of Nuclear Missile Guidance | location = Cambridge, Massachusetts | publisher = [[MIT Press]] | isbn = 978-0-262-13258-9 | url-access = registration | url = https://archive.org/details/inventingaccurac00dona }}
+* Grubbs, F. E. (1964). "Statistical measures of accuracy for riflemen and missile engineers". Ann Arbor, ML: Edwards Brothers. [http://ballistipedia.com/images/3/33/Statistical_Measures_for_Riflemen_and_Missile_Engineers_-_Grubbs_1964.pdf Ballistipedia pdf]
+* {{cite journal|jstor=2290205|title=A Feasible Bayesian Estimator of Quantiles for Projectile Accuracy from Non-iid Data|last1=Spall|first1=James C.|last2=Maryak|first2=John L.|journal=Journal of the American Statistical Association|volume=87|issue=419|pages=676–681|year=1992|doi=10.1080/01621459.1992.10475269}}
+* Daniel Wollschläger (2014), "Analyzing shape, accuracy, and precision of shooting results with shotGroups". [http://cran.fhcrc.org/web/packages/shotGroups/vignettes/shotGroups.pdf  Reference manual for shotGroups]
+* Winkler, V. and Bickert, B. (2012). "Estimation of the circular error probability for a Doppler-Beam-Sharpening-Radar-Mode," in EUSAR. 9th European Conference on Synthetic Aperture Radar, pp.&amp;nbsp;368–71, 23/26 April 2012. [https://ieeexplore.ieee.org/document/6217081 ieeexplore.ieee.org]
+{{Refend}}
+
+==External links==
+* [http://ballistipedia.com/index.php?title=Circular_Error_Probable Circular Error Probable] in [http://ballistipedia.com Ballistipedia]
+
+[[Category:Applied probability]]
+[[Category:Military terminology]]
+[[Category:Aerial bombs]]
+[[Category:Artillery operation]]
+[[Category:Ballistics]]
+[[Category:Weapon guidance]]
+[[Category:Accuracy and precision]]
+[[Category:Statistical distance]]</text>
+      <sha1>lof6jglbda8f7geoh0gb8zsk8ic8esf</sha1>
+    </revision>
+  </page>
+</mediawiki>

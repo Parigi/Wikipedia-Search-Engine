@@ -1,0 +1,84 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.10/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.10/ http://www.mediawiki.org/xml/export-0.10.xsd" version="0.10" xml:lang="en">
+  <siteinfo>
+    <sitename>Wikipedia</sitename>
+    <dbname>enwiki</dbname>
+    <base>https://en.wikipedia.org/wiki/Main_Page</base>
+    <generator>MediaWiki 1.35.0-wmf.36</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Media</namespace>
+      <namespace key="-1" case="first-letter">Special</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Talk</namespace>
+      <namespace key="2" case="first-letter">User</namespace>
+      <namespace key="3" case="first-letter">User talk</namespace>
+      <namespace key="4" case="first-letter">Wikipedia</namespace>
+      <namespace key="5" case="first-letter">Wikipedia talk</namespace>
+      <namespace key="6" case="first-letter">File</namespace>
+      <namespace key="7" case="first-letter">File talk</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki talk</namespace>
+      <namespace key="10" case="first-letter">Template</namespace>
+      <namespace key="11" case="first-letter">Template talk</namespace>
+      <namespace key="12" case="first-letter">Help</namespace>
+      <namespace key="13" case="first-letter">Help talk</namespace>
+      <namespace key="14" case="first-letter">Category</namespace>
+      <namespace key="15" case="first-letter">Category talk</namespace>
+      <namespace key="100" case="first-letter">Portal</namespace>
+      <namespace key="101" case="first-letter">Portal talk</namespace>
+      <namespace key="108" case="first-letter">Book</namespace>
+      <namespace key="109" case="first-letter">Book talk</namespace>
+      <namespace key="118" case="first-letter">Draft</namespace>
+      <namespace key="119" case="first-letter">Draft talk</namespace>
+      <namespace key="446" case="first-letter">Education Program</namespace>
+      <namespace key="447" case="first-letter">Education Program talk</namespace>
+      <namespace key="710" case="first-letter">TimedText</namespace>
+      <namespace key="711" case="first-letter">TimedText talk</namespace>
+      <namespace key="828" case="first-letter">Module</namespace>
+      <namespace key="829" case="first-letter">Module talk</namespace>
+      <namespace key="2300" case="first-letter">Gadget</namespace>
+      <namespace key="2301" case="first-letter">Gadget talk</namespace>
+      <namespace key="2302" case="case-sensitive">Gadget definition</namespace>
+      <namespace key="2303" case="case-sensitive">Gadget definition talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Precision bias</title>
+    <ns>0</ns>
+    <id>10614570</id>
+    <revision>
+      <id>824122795</id>
+      <parentid>735851246</parentid>
+      <timestamp>2018-02-05T13:18:34Z</timestamp>
+      <contributor>
+        <username>Klbrain</username>
+        <id>11677590</id>
+      </contributor>
+      <comment>Removing stale merge proposal from 2016; no case made, no support over almost 2 years; it seems reasonable to separate the cause from the logical error</comment>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="1720" xml:space="preserve">{{Refimprove|date=July 2010}}
+'''Precision bias''' is a form of [[cognitive bias]] in which an evaluator of information commits a logical [[fallacy]] as the result of confusing [[accuracy and precision]]. More particularly, in assessing the merits of an argument, a measurement, or a report, an observer or assessor falls prey to precision bias when he or she believes that greater precision implies greater accuracy (i.e., that simply because a statement is precise, it is also true); the observer or assessor are said to provide [[false precision]].
+
+Precision bias, whether called by that phrase or another, is addressed in fields such as economics, in which there is a significant danger that a seemingly impressive quantity of statistics may be collected even though these statistics may be of little value for demonstrating any particular truth.
+
+It is also called the numeracy bias, or the range estimate aversion.
+
+The [[clustering illusion]] and the [[Texas sharpshooter fallacy]] may both be treated as relatives of precision bias. In these former fallacies, precision is mistakenly considered evidence of causation, when in fact the clustered information may actually be the result of [[randomness]].
+
+==See also==
+*[[Accuracy and precision]]
+
+==External links==
+* [http://www.e-elgar.co.uk/bookentry_main.lasso?id=307 ''Truth Versus Precision In Economics'', Thomas Mayer, Emeritus Professor of Economics, University of California]
+* [https://www.onepetro.org/conference-paper/PSIG-0009 "Less Is More: Accuracy vs. Precision In Modeling", Susan Bachman et al.] ("Many modelers assume that building with more precision yields a more accurate model.")
+
+{{Biases}}
+
+[[Category:Cognitive biases]]
+
+{{psych-stub}}</text>
+      <sha1>d6p8d3764jkav249pvg5guam0qqtcwb</sha1>
+    </revision>
+  </page>
+</mediawiki>

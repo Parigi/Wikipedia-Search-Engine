@@ -1,0 +1,347 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.10/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.10/ http://www.mediawiki.org/xml/export-0.10.xsd" version="0.10" xml:lang="en">
+  <siteinfo>
+    <sitename>Wikipedia</sitename>
+    <dbname>enwiki</dbname>
+    <base>https://en.wikipedia.org/wiki/Main_Page</base>
+    <generator>MediaWiki 1.35.0-wmf.36</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Media</namespace>
+      <namespace key="-1" case="first-letter">Special</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Talk</namespace>
+      <namespace key="2" case="first-letter">User</namespace>
+      <namespace key="3" case="first-letter">User talk</namespace>
+      <namespace key="4" case="first-letter">Wikipedia</namespace>
+      <namespace key="5" case="first-letter">Wikipedia talk</namespace>
+      <namespace key="6" case="first-letter">File</namespace>
+      <namespace key="7" case="first-letter">File talk</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki talk</namespace>
+      <namespace key="10" case="first-letter">Template</namespace>
+      <namespace key="11" case="first-letter">Template talk</namespace>
+      <namespace key="12" case="first-letter">Help</namespace>
+      <namespace key="13" case="first-letter">Help talk</namespace>
+      <namespace key="14" case="first-letter">Category</namespace>
+      <namespace key="15" case="first-letter">Category talk</namespace>
+      <namespace key="100" case="first-letter">Portal</namespace>
+      <namespace key="101" case="first-letter">Portal talk</namespace>
+      <namespace key="108" case="first-letter">Book</namespace>
+      <namespace key="109" case="first-letter">Book talk</namespace>
+      <namespace key="118" case="first-letter">Draft</namespace>
+      <namespace key="119" case="first-letter">Draft talk</namespace>
+      <namespace key="446" case="first-letter">Education Program</namespace>
+      <namespace key="447" case="first-letter">Education Program talk</namespace>
+      <namespace key="710" case="first-letter">TimedText</namespace>
+      <namespace key="711" case="first-letter">TimedText talk</namespace>
+      <namespace key="828" case="first-letter">Module</namespace>
+      <namespace key="829" case="first-letter">Module talk</namespace>
+      <namespace key="2300" case="first-letter">Gadget</namespace>
+      <namespace key="2301" case="first-letter">Gadget talk</namespace>
+      <namespace key="2302" case="case-sensitive">Gadget definition</namespace>
+      <namespace key="2303" case="case-sensitive">Gadget definition talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Japanese cruiser Maya</title>
+    <ns>0</ns>
+    <id>4089305</id>
+    <revision>
+      <id>959161705</id>
+      <parentid>943861799</parentid>
+      <timestamp>2020-05-27T12:28:14Z</timestamp>
+      <contributor>
+        <username>Brucelucier</username>
+        <id>13057466</id>
+      </contributor>
+      <comment>/* Design */ Corrected 12.7 cm gun "layout" from 4x2 to 6x2</comment>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="24438" xml:space="preserve">{{other ships|Japanese ship Maya}}
+{{Use dmy dates|date=February 2014}}
+{|{{Infobox ship begin}}
+{{Infobox ship image
+|Ship image=Heavy Cruiser Maya.jpg
+|Ship caption=''Maya''
+}}
+{{Infobox ship career
+|Hide header=
+|Ship country=[[Empire of Japan]]
+|Ship flag={{Shipboxflag|Empire of Japan|naval}}
+|Ship name=''Maya''
+|Ship namesake=[[Mount Maya]]
+|Ship ordered=FY 1927
+|Ship builder=[[Kawasaki Shipbuilding Corporation|Kawasaki Shipyards]], [[Kobe]]
+|Ship laid down=4 December 1928
+|Ship launched=8 November 1930
+|Ship acquired=
+|Ship commissioned=20 June 1932
+|Ship decommissioned=
+|Ship struck=20 December 1944
+|Ship reinstated=
+|Ship honours=
+|Ship fate=Torpedoed and sunk by {{USS|Dace|SS-247|6}}, 23 October 1944
+|Ship notes=
+}}
+{{Infobox ship characteristics
+|Hide header=
+|Header caption=
+|Ship class={{sclass-|Takao|cruiser}}
+|Ship displacement={{convert|9850|t|LT|abbr=on}} (standard), {{convert|15490|t|LT|abbr=on}} (full load)
+|Ship length=*[[Length between perpendiculars]]: {{convert|192.5|m|abbr=on}}
+*overall: {{convert|203.76|m|abbr=on}}
+|Ship beam={{convert|19|m|abbr=on}} – {{convert|20.4|m|abbr=on}}
+|Ship draft={{convert|6.11|m|abbr=on}} – {{convert|6.32|m|abbr=on}}
+|Ship power=
+|Ship propulsion=4-shaft geared turbine, 12 [[Imperial Japanese Navy Technical Department|Kampon]] boilers, {{convert|132,000|shp|kW|abbr=on}}
+|Ship speed={{convert|35.5|kn|lk=on|abbr=on|1}}
+|Ship range={{convert|8500|nmi|km|-1}} at {{convert|14|kn|km/h|0}}
+|Ship complement=921–996
+|Ship sensors=
+|Ship EW=
+|Ship armament=*'''Original Layout:''' 10× [[20 cm/50 3rd Year Type naval gun]]s (5x2)
+*4× [[12 cm/45 10th Year Type naval gun]]s (4x1)
+*2× [[QF 2-pounder naval gun|{{convert|40|mm|in|1|abbr=on}}]] [[Anti-aircraft warfare|anti-aircraft gun]]s (2x1)
+*[[61 cm Type 90 torpedo|Type 90 torpedo]]es (4x2 + 8 reloads)
+*'''Final Layout:''' 8 × [[20 cm/50 3rd Year Type naval gun]]s (4x2)
+*12 × [[12.7 cm/40 Type 89 naval gun|Type 89 {{convert|12.7|cm|abbr=on|0}}]] [[dual purpose gun]]s, (6x2)
+*66 × [[Type 96 25 mm AT/AA Gun|Type 96 {{convert|25|mm|in|1|abbr=on}}]] [[Anti-aircraft warfare|AA gun]]s (13x3, 27x1)
+*36 × [[Hotchkiss M1929 machine gun|Type 93 {{convert|13.2|mm|in|1|abbr=on}}]] AA [[machine gun]]s
+*[[Type 93 torpedo]]es (4x4 + 8 reloads)
+*[[depth charge]]s
+|Ship armour=*main belt: 38 to 127 mm
+*main deck: 37 mm (max)
+*upper deck: 12.7 to 25 mm
+*bulkheads: 76 to 100 mm
+*turrets: 25 mm
+|Ship aircraft=3x [[floatplane]]s (1x [[Aichi E13A|Aichi E13A1]] "Jake" &amp; 2x [[Mitsubishi F1M|F1M2]] "Pete")
+|Ship aircraft facilities=2 aircraft [[Aircraft catapult#Interwar and World War II|catapult]]s
+|Ship notes=
+}}
+|}
+
+{{nihongo|'''''Maya'''''|摩耶}} was one of four {{sclass-|Takao|cruiser|0}} [[heavy cruiser]]s, active in [[World War II]] with the [[Imperial Japanese Navy]] (IJN). These were the largest and most modern cruisers in the Japanese fleet, and were intended to form the backbone of a multipurpose long-range strike force. These ships were fast, powerful and heavily armed, with enough firepower to hold their own against any cruiser in any other navy in the world. Her [[sister ship]]s were {{ship|Japanese cruiser|Takao|1930|2}}, {{ship|Japanese cruiser|Atago||2}} and {{ship|Japanese cruiser|Chōkai||2}}.&lt;ref&gt;{{cite book | last = Jentsura  | first = Hansgeorg  | year = 1976 | title = Warships of the Imperial Japanese Navy, 1869–1945  | publisher = Naval Institute Press  | isbn = 0-87021-893-X }} page 84&lt;/ref&gt;
+
+==Background==
+The ''Takao''-class ships were approved under the 1927 to 1931 supplementary fiscal year budget, and were each named after a mountain. [[Mount Maya]] is located outside Kobe.
+
+==Design==
+The ''Takao''-class cruisers were an improved version of the previous {{sclass-|Myōkō|cruiser|0}} design, incorporating technical elements learned with the development of the experimental light cruiser {{ship|Japanese cruiser|Yūbari||2}}. They had a distinctive profile with a large, raked main smokestack, and a smaller, straight, second smokestack. Intended to address issues with the '' Myōkō '' class, the ''Takao'' class had thicker armor, dual-purpose main guns which could be used against aircraft, and torpedo launchers moved to the upper deck for greater safety. However, as with its predecessors, the ''Takao'' class was also top-heavy.&lt;ref name="Patton"&gt;Patton, ''Japanese Heavy Cruisers of World War Two'', pp. 36–48&lt;/ref&gt;
+
+The ''Takao'' class displaced {{convert|16875|t|LT|abbr=on}}. ''Maya'' was {{convert|203.8|m|ft}} long, with a beam of {{convert|20.4|m|ft}}, draft of {{convert|6.32|m|ft}} and was capable of 35.25&amp;nbsp;knots.&lt;ref name= Patton/&gt;
+
+Propulsion was by 12 [[Kampon]] boilers driving four sets of single-impulse geared turbine engines, with four shafts turning three-bladed propellers. The ship was armored with a {{convert|127|mm|in|abbr=on}} side [[Armor belt|belt]], and {{convert|35|mm|in|abbr=on}} armored [[Deck (ship)|deck]];, the [[Bridge (nautical)|bridge]] was armored with {{convert|10|to|16|mm|in|abbr=on}} armored plates.&lt;ref name= Patton/&gt;
+
+''Maya''’s main battery was ten [[20 cm/50 3rd Year Type naval gun]]s, the heaviest armament of any heavy cruiser in the world at the time, mounted in five twin turrets.&lt;ref name= Patton/&gt; Her secondary armament included eight [[12 cm/45 10th Year Type naval gun|Type 10 12 cm dual purpose gun]]s with four twin mounts, two on each side, and 16 [[61 cm Type 90 torpedo|Type 90 torpedo]]es in four quadruple launchers. She was very deficient in anti-aircraft capability, with only two {{convert|40|mm|in|2|abbr=on}} [[Anti-aircraft warfare|anti-aircraft gun]]s. ''Maya'' was repeatedly modernized and upgraded throughout her career in order to counter the growing threat of air strikes, and in her final configuration was eight [[20 cm/50 3rd Year Type naval gun]]s (4x2), twelve [[12.7 cm/40 Type 89 naval gun|Type 89 {{convert|12.7|cm|abbr=on|0}}]] [[dual purpose gun]]s (6x2), and 16 [[Type 93 torpedo|Type 93 "Long Lance" torpedo]]es in four quadruple launchers (plus 8 reloads). Anti-aircraft (AA) protection included 13 triple-mount and 27 single-mount [[Type 96 25 mm AT/AA Gun]]s (13x3, 27x1) and 36 [[Hotchkiss M1929 machine gun|{{convert|13.2|mm|in|abbr=on}}]] anti-aircraft [[machine gun]]s.
+
+==Service history==
+
+===Early operations===
+[[File:Launching Maya.jpg|thumb|left|Launch of ''Maya'', 8 November 1930]]
+''Maya'' was [[Keel laying|laid down]] at the [[Kawasaki Shipbuilding Corporation|Kawasaki Shipyards]] in Kobe on 4 December 1928, [[Ship naming and launching|launched and named]] on 8 November 1930, and was [[Ship commissioning|commissioned]] into the Imperial Japanese Navy on 30 June 1932.&lt;ref name= Nishida&gt;Nishida, ''Takao class heavy cruisers''&lt;/ref&gt;
+
+All of the ''Takao'' class were assigned to the [[Yokosuka Naval District]], forming ''Sentai''-4 of the [[IJN 2nd Fleet]], and trained as a unit during the 1930s. ''Maya'' was commanded by Captain [[Masaichi Niimi]] from 15 November 1932, followed by Captain [[Jisaburō Ozawa]] from 15 November 1934 to 28 October 1935. During this time, issues with their stability and seaworthiness due to the top-heavy design became evident. With the start of the [[Second Sino-Japanese War]], she led a fleet with the [[Imperial Japanese Army]]’s [[6th Division (Imperial Japanese Army)|IJA 6th Division]] from [[Nagoya]] to China in August 1937.&lt;ref name="TROM"&gt;{{cite web | url= http://www.combinedfleet.com/maya_t.htm | title= ''IJN MAYA: Tabular Record of Movement'' | last= Hackett | first= Bob|author2=Sander Kingsepp  | year= 2017 | work= Junyokan! | publisher= www.combinedfleet.com | accessdate= 2019-08-07 }}&lt;/ref&gt; ''Takao'' and ''Atago'' were rebuilt at the [[Yokosuka Naval Arsenal]] between 1938 and 1939, resulting in an improved design: the size of the bridge was reduced, the main mast was relocated aft, and hull budges were added to improve stability.  ''Maya'' and ''Chōkai'' were not modified as extensively, and can almost be considered a separate class.&lt;ref name= Patton/&gt;
+
+===Pacific War===
+At the start of the [[Pacific War]], ''Maya'' was based at [[Mako Guard District]] in the [[Pescadores Islands]] together with ''Atago'' and ''Takao''. ''Atago'' and ''Takao'' sailed first to provide support for Japanese landings in the [[Philippines Campaign (1941–42)|invasion of the northern Philippines]]. ''Maya'' remained at Mako in reserve until 8 December, when she sailed as part of Vice Admiral [[Ibō Takahashi]]’s [[3rd Fleet (Imperial Japanese Navy)|IJN 3rd Fleet]], together with the cruisers {{ship|Japanese cruiser|Ashigara||2}} and {{ship|Japanese cruiser|Kuma||2}} to support Japanese landing at [[Vigan]] and at [[Lingayen Gulf]]. On 31 December, she provided cover for the Third Malaya Convoy, and assisted in the seizure of the [[Natuna islands]].&lt;ref name="TROM"/&gt;
+In January 1942, ''Maya'' was assigned to patrols from [[Palau]], covering operations in the southern Philippines. In February, she provided distant cover for the [[Bombing of Darwin]], Australia.  From the end of February, she based at [[Staring-baai]] in the [[Sulawesi|Celebes]], and was involved in operations to hunt down and destroy shipping attempting to escape from the [[Dutch East Indies]]. On 2 March, ''Maya''’s floatplanes spotted  {{HMS|Stronghold}}, and ''Maya'' with the destroyers {{ship|Japanese destroyer|Arashi||2}} and {{ship|Japanese destroyer|Nowaki|1940|2}} closed on the old destroyer/[[minelayer]] and expended 1270 rounds of ammunition on her before she finally sank. Survivors were picked up by captured small steamer ''Bintoehan'', and later transferred to ''Maya''. Later the same night, ''Maya'' and ''Atago'' also sank the [[destroyer]] {{USS|Pillsbury|DD-227|6}}.&lt;ref name="TROM"/&gt; On 3 March, ''Maya'' was present at the sinking of the gunboat {{USS|Asheville|PG-21|2}} south of [[Java (island)|Java]].
+
+On 4 March, ''Atago'', ''Takao'' and ''Maya'', together attacked a convoy which had departed [[Cilacap Regency|Tjilatjap]] for [[Fremantle]], [[Australia]], and sank the [[Royal Australian Navy]] [[sloop-of-war|sloop]] {{HMAS|Yarra|U77|6}} after a 90 minute battle, along with the British tanker ''Francol'', depot ship ''Anking'', and British minesweeper 51. ''Maya'' returned to [[Staring-baai]] on 7 March, and back to Yokosuka on 18 March. While dry-docked at [[Yokosuka Naval Arsenal]] an additional two Type 96 twin-mount AA guns were installed abreast the forward funnel.&lt;ref name= Patton/&gt;
+
+In April 1942, ''Maya'' was part of the fleet assigned to the unsuccessful pursuit of Admiral [[William F. Halsey]]'s Task Force 16.2 after the [[Doolittle Raid]]. In June 1942, ''Takao'' and ''Maya'' supported the [[Battle of the Aleutian Islands|invasion of the Aleutian Islands]], protecting the convoy for [[Kiska]] and providing fire support for landings on [[Attu Island|Attu]]. Two reconnaissance aircraft from each cruiser were attacked by [[United States Army Air Forces]] [[P-40 Warhawk]]s from [[Umnak]] on 3 June, with two destroyed and two heavily damaged on 3 June. ''Maya'' returned to [[Ōminato Guard District]] on 24 June.&lt;ref name="TROM"/&gt;
+
+In August 1942, ''Maya'' was assigned to “Operation Ka”, the Japanese reinforcement during the [[Battle of Guadalcanal]], departing [[Hashirajima]] with ''Atago'' and ''Maya'' on 11 August for [[Chuuk Lagoon|Truk]]. The cruisers were in the [[Battle of the Eastern Solomons]] on 24 August from a distance, and did not see combat. On 15 October, ''Maya'', together with {{ship|Japanese cruiser|Myōkō||2}} and Isuzu participated a bombardment of [[Henderson Field (Guadalcanal)|Henderson Field]] on [[Guadalcanal]]. ''Maya'' fired 450 Type-3 incendiary and Type-91 armor-piercing shells during the operation.&lt;ref name="TROM"/&gt; 
+''Maya'' was also at the [[Battle of the Santa Cruz Islands]] participating in night combat operations resulting in the sinking of the American aircraft carrier {{USS|Hornet|CV-8|6}}.&lt;ref name= Patton/&gt; On 3 November, ''Maya'' and {{ship|Japanese cruiser|Chikuma|1938|2}} were sent to reinforce the [[IJN 8th Fleet]] at [[Shortland Island]] and participated in the second bombardment of Henderson Field on 14 November. On the return from the mission, ''Maya''{{'}}s task force was attacked by the [[submarine]] {{USS|Flying Fish|SS-229|6}}, which missed the cruiser with six torpedoes. Later, a [[United States Navy]] [[Douglas SBD Dauntless]] [[dive bomber]] from VB-10 of the aircraft carrier {{USS|Enterprise|CV-6|6}} dropped a 500-pound (227&amp;nbsp;kg) bomb astern of ''Maya''. The near miss caused no damage, but the wing of the Dauntless clipped ''Maya''’s mainmast, and the plane crashed into the port side of the cruiser, igniting 4.7-inch shells and killing 37 crewmen. ''Maya'' was forced to jettison her torpedoes as a precaution while putting out the fires, and was forced to return to Yokosuka for repairs at the end of the year.&lt;ref name="TROM"/&gt;
+
+[[File:Maya after damage 1943.jpg|thumb|''Maya'' in January 1943, showing damage sustained at Guadalcanal.]]
+''Maya'' returned to Yokosuka for repairs and refit in January 1943, and was then reassigned to operations in northern waters, supporting supply missions to the [[Kurile Islands]] and the [[Aleutian islands]]. On 26 March, ''Maya'' participated in the [[Battle of the Komandorski Islands]], off [[Kamchatka Peninsula]]. The cruisers {{USS|Richmond|CL-9|6}}, {{USS|Salt Lake City|CA-25|2}}, and four destroyers of Rear Admiral [[Charles H. McMorris]]' Task Group 16.6 engaged the cruisers {{ship|Japanese cruiser|Nachi||2}}, ''Maya'', {{ship|Japanese cruiser|Tama||2}}, {{ship|Japanese cruiser|Abukuma||2}} and two destroyers of Vice Admiral Hosogaya's IJN Fifth Fleet, escorting a convoy with troops and supplies for the isolated garrison on [[Attu Island|Attu]].　''Maya'' [[Aircraft catapult#Interwar and World War II|catapult]]ed her spotter aircraft and launched [[Type 93 torpedo|Type 93]] "Long Lance" [[torpedo]]es, but scored no hits. In a four-hour running gun battle, ''Salt Lake City'' and destroyer {{USS|Bailey|DD-492|2}} were damaged by gunfire. ''Maya'' and ''Nachi'' were also damaged in the exchange of fire and the Japanese were forced to abort their resupply mission.&lt;ref name="TROM"/&gt;
+
+After repairs again at Yokosuka, ''Maya'' returned to the Kuriles in late April, and became flagship of the IJN Fifth Fleet, assisting in the evacuation of Kiska after the loss of Attu to the Americans in August 1943.
+
+After refit in Yokosuka during which two additional twin-mount Type-96 AA guns (bringing its total to 16 barrels), ''Maya'' accompanied ''Chōkai'' back to Truk, arriving in late September, and started shuttling troops and supplies between Truk and [[Rabaul]]. ON 5 November, ''Maya'' was attacked by SBD Dauntless dive bombers from the carrier {{USS|Saratoga|CV-3|6}} during the [[Bombing of Rabaul (November 1943)|Carrier Raid on Rabaul]]. A bomb hit the aircraft deck portside above the No.&amp;nbsp;3 engine room and started a major fire. Seventy crewmen were killed. Emergency repairs were made at Rabaul, and ''Maya'' returned to Yokosuka at the end of 1943. During this repair, a major change was made in ''Maya''’s armaments, transforming her into an anti-aircraft cruiser, with her No.3 turret and aircraft hangar removed, and replaced by thirteen triple mount and nine single mount Type 96 AA guns, and six twin-mount 127-mm guns,  as well as 36 Type 93 machine guns. Her twin torpedo launchers were upgraded to quadruple launchers, and a Type 22 surface-search radar was installed.&lt;ref name= Patton/&gt; The overhaul was completed on 9 April.
+
+At [[Kure, Hiroshima|Kure]], ''Maya'' embarked two [[Aichi E13A]]1 "Jake" long-range scout planes, troops and materials. A monkey, donated to ''Maya'' by the Kure Zoo, was also embarked. During the voyage, the aircrew taught the monkey to salute the officers, much to their annoyance.&lt;ref name="TROM"/&gt;
+
+From April to June 1944, ''Maya'' supported other units in the defense of the Philippines, culminating in the [[Battle of the Philippine Sea]], in which she was damaged slightly by near-misses. During this battle, on 20 June, the scout plane from ''Maya'' spotted [[Task Force 58]] at a distance of {{convert|300|mi|km}}. ''Maya'' went into a ring formation with the [[battleship]]s {{ship|Japanese battleship|Kongō||2}}, {{ship|Japanese battleship|Haruna||2}}, destroyer {{ship|Japanese destroyer|Asashimo||2}} and other escorts to protect the aircraft carrier {{ship|Japanese aircraft carrier|Chiyoda||2}}. This formation was attacked by over 50 TBF Avenger torpedo bombers from the aircraft carriers {{USS|Bunker Hill|CV-17|6}}, {{USS|Monterey|CVL-26|2}}, and {{USS|Cabot|CVL-28|2}}.&lt;ref name="TROM"/&gt;
+
+On 20 June, ''Maya'' retired with the remnants of the fleet via [[Okinawa]] to Yokosuka, arriving 25 June where the aircrew and their pet monkey disembarked and an additional 18 Type 96 single-mount AA guns were installed. On 14 July, ''Maya'' transported units of the IJA 28th Division to [[Miyako-jima]] from Kure, and then continued on to Singapore. She rendezvoused with the fleet at Brunei on 20 October.
+
+On 22 October, in the [[Battle of Leyte Gulf]], ''Maya'' was assigned to ''[[Sentai]]''-5 with sister ships ''Atago'', ''Takao'' and ''Chōkai'' together with the battleships {{ship|Japanese battleship|Yamato||2}}, {{ship|Japanese battleship|Musashi||2}} and {{ship|Japanese battleship|Nagato||2}}. At 05:33 on 23 October, during [[Battle of the Palawan Passage]], ''Maya''{{'}}s sister-ships ''Atago'' and ''Takao'' were torpedoed by the submarine {{USS|Darter|SS-227|6}}. ''Atago'' sank in approximately 18&amp;nbsp;minutes. Twenty minutes later, submarine {{USS|Dace|SS-247|6}} fired six torpedoes at ''Maya'', mistaking it for a {{sclass-|Kongō|battlecruiser|0}} battleship; ''Maya'' was struck by four torpedoes portside: one in the forward chain locker, another opposite No.&amp;nbsp;1 gun turret, a third in No.&amp;nbsp;7 boiler room and the last in the aft engine room. Powerful secondary explosions followed immediately, and by 06:00 ''Maya'' was dead in the water and listing heavily to port. She sank five minutes later, taking 336 officers and men to the bottom, including her captain ({{coord|09|27|N|117|23|E |type:event_region:PH-04_dim:500000 |display=inline,title}}).&lt;ref name="TROM"/&gt;
+
+{{ship|Japanese destroyer|Akishimo||2}} rescued 769 men, and transferred them to the battleship ''Musashi'', which was sunk the following day; 143 of ''Maya''{{'}}s crewmen were lost with ''Musashi''. Thus, from the final crew of 1,105&amp;nbsp;crewmen, 479 were lost. She was removed from the [[navy list]] on 20 December 1944.&lt;ref name="TROM"/&gt;
+
+==Wreck==
+On 19 April 2019, researchers aboard {{ship|RV|Petrel}} announced they had located the wreck of ''Maya'' in around {{convert|1,850|m|ft|abbr=on}} of water. She sits upright with the tip of the bow broken off and lying upside down off the port quarter of the remainder of the wreck. She is in astonishingly good condition, with all main gun turrets still in place, and the massive bridge structure intact. Although her sister ship ''Atago'' was also sunk nearby, the bridge structure and main gun layout confirm that the wreck is indeed ''Maya''.
+
+==Commanding Officer==
+===Chief Equipping Officer===
+{| class="wikitable" style="text-align:center"
+|-
+! rowspan=2| {{Abbr|No.|Number}}
+! rowspan=2| Name
+! rowspan=2| Portrait
+! rowspan=2| Rank
+! colspan=2| Term of Office
+|-
+! Start
+! End
+|-
+! 1
+| [[Morimoto Jō]] &lt;ref name="TROM"/&gt;
+| 
+| Captain
+| 8 November 1930
+| 30 June 1932
+|-
+|}
+
+===Captain===
+{| class="wikitable" style="text-align:center"
+|-
+! rowspan=2| {{Abbr|No.|Number}}
+! rowspan=2| Name
+! rowspan=2| Portrait
+! rowspan=2| Rank
+! colspan=2| Term of Office
+|-
+! Start
+! End
+|-
+!1
+| [[Morimoto Jō]] &lt;ref name="TROM"/&gt;
+| 
+| Captain
+| 30 June 1932
+| 1 December 1932
+|-
+! 2
+| [[Yamamoto Kōki]] &lt;ref name="TROM"/&gt;
+| 
+| Captain
+| 1 December 1932
+| 15 November 1933
+|-
+|-
+! 3
+| [[Niimi Masaichi]] &lt;ref name="TROM"/&gt;
+| 
+| Captain
+| 15 November 1933
+| 15 November 1934
+|-
+! 4
+| [[Jisaburō Ozawa]] &lt;ref name="TROM"/&gt;
+| 
+| Captain
+| 15 November 1934
+| 28 October 1935
+|-
+! 5
+| [[Moizumi Shin’ichi]] &lt;ref name="TROM"/&gt;
+| 
+| Captain
+| 28 October 1935
+| 1 December 1936
+|-
+! 6
+| [[Oshima Kenshirō]] &lt;ref name="TROM"/&gt;
+| 
+| Captain
+| 1 December 1936
+| 15 November 1937
+|-
+! 7
+| [[Suzuki Yoshio]] &lt;ref name="TROM"/&gt;
+| 
+| Captain
+| 15 November 1937
+| 15 November 1938
+|-
+! 8
+| [[Nakahara Yoshimasa]] &lt;ref name="TROM"/&gt;
+| 
+| Captain
+| 15 November 1938
+| 15 November 1939
+|-
+! 9
+| [[Osugi Morikazu]] &lt;ref name="TROM"/&gt;
+| 
+| Captain
+| 15 November 1939
+| 15 April 1941
+|-
+! 10
+| [[Izaki Shunji]] &lt;ref name="TROM"/&gt;
+| 
+| Captain
+| 15 April 1940
+| 11 August 1941
+|-
+! 11
+| [[Nabeshima Shunsaki]] &lt;ref name="TROM"/&gt;
+| 
+| Captain
+| 11 August 1941
+| 30 September 1942
+|-
+! 12
+| [[Matsumoto Takeshi]] &lt;ref name="TROM"/&gt;
+| 
+| Captain
+| 30 September 1942
+| 16 October 1943
+|-
+! 13
+| [[Katō Yoshiro]] &lt;ref name="TROM"/&gt;
+| 
+| Captain
+| 16 October 1943
+| 26 December 1943
+|-
+! 14
+| [[Oe Ranji]] &lt;ref name="TROM"/&gt;
+| 
+| Captain (posthumous Rear Admiral)
+| 26 December 1943
+| 23 October 1944 (KIA)
+|-
+|}
+
+==References==
+===Notes===
+{{reflist}}
+
+===Books===
+*{{cite book | last = D'Albas | first = Andrieu | authorlink = | year = 1965 | title = Death of a Navy: Japanese Naval Action in World War II | publisher = Devin-Adair Pub | location = | isbn = 0-8159-5302-X}}
+*{{cite book | last = Dull | first = Paul S. | authorlink =  | year = 1978 | chapter =  | title = A Battle History of the Imperial Japanese Navy, 1941–1945 | publisher = Naval Institute Press | location =  | isbn = 0-87021-097-1 | url-access = registration | url = https://archive.org/details/battlehistoryofi0000dull }}
+*{{cite book | last = Howarth  | first = Stephen  | authorlink =  | year = 1983 | title = The Fighting Ships of the Rising Sun: The drama of the Imperial Japanese Navy, 1895–1945 | publisher = Atheneum  | location =  | isbn = 0-689-11402-8}}
+*{{cite book | last = Jentsura | first = Hansgeorg  | authorlink = | year = 1976 | chapter =  | title = Warships of the Imperial Japanese Navy, 1869–1945 | publisher = Naval Institute Press | location = | isbn = 0-87021-893-X}}
+*{{cite book | last = Lacroix | first = Eric | authorlink = |author2=Linton Wells  | year = 1997 | chapter = | title = Japanese Cruisers of the Pacific War | publisher = Naval Institute Press | location = | isbn = 0-87021-311-3}}
+*{{cite book | last = Patton | first = Wayne | authorlink = |author2= | year = 2006 | chapter =  | title = Japanese Heavy Cruisers in World War II | publisher = Squadron Signal Publications | location = | isbn = 0-89747-498-8}}
+*{{cite book | last = Skulski | first = Janusz | authorlink = | year = 2004 | chapter = | title = The Heavy Cruiser Takao | publisher = Conway Maritime Press | location = | isbn = 0-85177-974-3}}
+*{{cite book | last = Watts | first = Anthony J. | authorlink = | year = 1967 | chapter =  | title = Japanese Warships of World War II | publisher = Doubleday &amp; Company | location = | isbn =  978-0-3850-9189-3}}
+*{{cite book | last = Whitley  | first = M.J.  | authorlink = | year = 1995 | chapter =  | title = Cruisers of World War Two: An International Encyclopedia  | publisher = Naval Institute Press | location = | isbn = 1-55750-141-6}}
+
+==External links==
+{{commons category|Maya (ship, 1932)}}
+
+* {{cite web | last = Nishida | first = Hiroshi | url=http://admiral31.world.coocan.jp/e/stc0332.htm | title = Takao class heavy cruisers | work = Imperial Japanese Navy | date = 2002 | accessdate = 2019-08-07 | archive-url = https://web.archive.org/web/20161123201838/http://admiral31.world.coocan.jp/e/stc0332.htm | archive-date = 23 November 2016 | url-status = live}}
+*{{cite web | last1 = Hackett | first1 = Bob | last2 = Kingsepp | first2 = Sander | url=http://www.combinedfleet.com/maya_t.htm | title = IJN MAYA: Tabular Record of Movement (Revision 13)| work = combinedfleet.com | accessdate = 2019-08-07 | url-status = live}}
+
+{{Takao class cruiser}}
+{{October 1944 shipwrecks}}
+
+{{DEFAULTSORT:Maya}}
+[[Category:Takao-class cruisers]]
+[[Category:World War II cruisers of Japan]]
+[[Category:Shipwrecks in the Philippine Sea]]
+[[Category:1930 ships]]
+[[Category:Ships of the Aleutian Islands Campaign]]
+[[Category:Ships sunk by American submarines]]
+[[Category:Maritime incidents in October 1944]]
+[[Category:Shipwreck discoveries by Paul Allen]]</text>
+      <sha1>lmvb1amb9yszkmbvje77tep8boc924x</sha1>
+    </revision>
+  </page>
+</mediawiki>

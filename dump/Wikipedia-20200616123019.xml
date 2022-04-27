@@ -1,0 +1,118 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.10/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.10/ http://www.mediawiki.org/xml/export-0.10.xsd" version="0.10" xml:lang="en">
+  <siteinfo>
+    <sitename>Wikipedia</sitename>
+    <dbname>enwiki</dbname>
+    <base>https://en.wikipedia.org/wiki/Main_Page</base>
+    <generator>MediaWiki 1.35.0-wmf.36</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Media</namespace>
+      <namespace key="-1" case="first-letter">Special</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Talk</namespace>
+      <namespace key="2" case="first-letter">User</namespace>
+      <namespace key="3" case="first-letter">User talk</namespace>
+      <namespace key="4" case="first-letter">Wikipedia</namespace>
+      <namespace key="5" case="first-letter">Wikipedia talk</namespace>
+      <namespace key="6" case="first-letter">File</namespace>
+      <namespace key="7" case="first-letter">File talk</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki talk</namespace>
+      <namespace key="10" case="first-letter">Template</namespace>
+      <namespace key="11" case="first-letter">Template talk</namespace>
+      <namespace key="12" case="first-letter">Help</namespace>
+      <namespace key="13" case="first-letter">Help talk</namespace>
+      <namespace key="14" case="first-letter">Category</namespace>
+      <namespace key="15" case="first-letter">Category talk</namespace>
+      <namespace key="100" case="first-letter">Portal</namespace>
+      <namespace key="101" case="first-letter">Portal talk</namespace>
+      <namespace key="108" case="first-letter">Book</namespace>
+      <namespace key="109" case="first-letter">Book talk</namespace>
+      <namespace key="118" case="first-letter">Draft</namespace>
+      <namespace key="119" case="first-letter">Draft talk</namespace>
+      <namespace key="446" case="first-letter">Education Program</namespace>
+      <namespace key="447" case="first-letter">Education Program talk</namespace>
+      <namespace key="710" case="first-letter">TimedText</namespace>
+      <namespace key="711" case="first-letter">TimedText talk</namespace>
+      <namespace key="828" case="first-letter">Module</namespace>
+      <namespace key="829" case="first-letter">Module talk</namespace>
+      <namespace key="2300" case="first-letter">Gadget</namespace>
+      <namespace key="2301" case="first-letter">Gadget talk</namespace>
+      <namespace key="2302" case="case-sensitive">Gadget definition</namespace>
+      <namespace key="2303" case="case-sensitive">Gadget definition talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Bonferroni correction</title>
+    <ns>0</ns>
+    <id>7838811</id>
+    <revision>
+      <id>960848784</id>
+      <parentid>950721441</parentid>
+      <timestamp>2020-06-05T07:06:28Z</timestamp>
+      <contributor>
+        <username>Citation bot</username>
+        <id>7903804</id>
+      </contributor>
+      <comment>Alter: url. Add: s2cid, author pars. 1-1. Removed URL that duplicated unique identifier. Removed parameters. Some additions/deletions were actually parameter name changes. | You can [[WP:UCB|use this bot]] yourself. [[WP:DBUG|Report bugs here]]. | Activated by AManWithNoPlan | All pages linked from [[User:AManWithNoPlan/sandbox2]] | via #UCB_webform_linked</comment>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="9755" xml:space="preserve">{{short description|Statistical technique used to correct for multiple comparisons}}
+In [[statistics]], the '''Bonferroni correction''' is one of several methods used to counteract the problem of [[Multiple comparisons problem|multiple comparisons]].
+
+==Background==
+The Bonferroni correction is named after Italian [[mathematician]] [[Carlo Emilio Bonferroni]] for its use of [[Bonferroni inequalities]].&lt;ref&gt;Bonferroni, C. E., Teoria statistica delle classi e calcolo delle probabilità, Pubblicazioni del R Istituto Superiore di Scienze Economiche e Commerciali di Firenze 1936&lt;/ref&gt; Its development is often credited to [[Olive Jean Dunn]], who described the procedure's application to [[confidence intervals]].&lt;ref name=Dunn1958&gt;{{cite journal |first=Olive Jean |last=Dunn |title=Estimation of the Means for Dependent Variables |journal=[[Annals of Mathematical Statistics]] |volume=29 |issue=4 |pages=1095–1111 |year=1958 |jstor=2237135 |doi=10.1214/aoms/1177706374|doi-access=free }}&lt;/ref&gt;&lt;ref name=Dunn1961&gt;{{cite journal |first=Olive Jean |last=Dunn |title=Multiple Comparisons Among Means |journal=[[Journal of the American Statistical Association]] |volume=56 |issue=293 |pages=52–64 |year=1961 |url=http://sci2s.ugr.es/keel/pdf/algorithm/articulo/1961-Bonferroni_Dunn-JASA.pdf |doi=10.1080/01621459.1961.10482090 |citeseerx=10.1.1.309.1277 }}&lt;/ref&gt; 
+
+[[Statistical hypothesis testing]] is based on rejecting the [[null hypothesis]] if the likelihood of the observed data under the null hypotheses is low. If multiple hypotheses are tested, the chance of observing a rare event increases, and therefore, the likelihood of incorrectly rejecting a null hypothesis (i.e., making a [[Type I error]]) increases.&lt;ref&gt;{{cite book |first1=Ron C. |last1=Mittelhammer |first2=George G. |last2=Judge |first3=Douglas J. |last3=Miller |title=Econometric Foundations |location= |publisher=Cambridge University Press |year=2000 |isbn=978-0-521-62394-0 |pages=73–74 |url=https://books.google.com/books?id=fycmsfkK6RQC&amp;pg=PA73 }}&lt;/ref&gt;
+
+The Bonferroni correction compensates for that increase by testing each individual hypothesis at a significance level of &lt;math&gt;\alpha/m&lt;/math&gt;, where &lt;math&gt;\alpha&lt;/math&gt; is the desired overall alpha level and &lt;math&gt;m&lt;/math&gt; is the number of hypotheses.&lt;ref&gt;{{cite book |first=Rupert G. |last=Miller |title=Simultaneous Statistical Inference |publisher=Springer |year=1966|url=https://books.google.com/books?id=4C7VBwAAQBAJ|isbn=9781461381228 }}&lt;/ref&gt; For example, if a trial is testing &lt;math&gt;m = 20&lt;/math&gt; hypotheses with a desired &lt;math&gt;\alpha = 0.05&lt;/math&gt;, then the Bonferroni correction would test each individual hypothesis at &lt;math&gt;\alpha = 0.05/20 = 0.0025&lt;/math&gt;.
+
+==Definition==
+Let &lt;math&gt;H_1,\ldots,H_m&lt;/math&gt; be a family of hypotheses and &lt;math&gt;p_1,\ldots,p_m&lt;/math&gt; their corresponding [[p-value]]s. Let &lt;math&gt;m&lt;/math&gt; be the total number of null hypotheses and &lt;math&gt;m_0&lt;/math&gt; the number of true null hypotheses. The [[familywise error rate]] (FWER) is the probability of rejecting at least one true &lt;math&gt;H_{i}&lt;/math&gt;, that is, of making at least one [[type I error]]. The Bonferroni correction rejects the null hypothesis for each &lt;math&gt;p_i\leq\frac \alpha m&lt;/math&gt;, thereby controlling the [[familywise error rate|FWER]] at &lt;math&gt;\leq \alpha&lt;/math&gt;. Proof of this control follows from [[Boole's inequality]], as follows:
+
+: &lt;math&gt; \text{FWER} = P\left\{ \bigcup_{i=1}^{m_0}\left(p_i\leq\frac \alpha m \right) \right\} \leq\sum_{i=1}^{m_0}\left\{P\left(p_i\leq\frac \alpha m\right)\right\} = m_0 \frac \alpha m\leq m \frac \alpha m = \alpha.&lt;/math&gt;
+
+This control does not require any assumptions about dependence among the p-values or about how many of the null hypotheses are true.&lt;ref&gt;{{cite journal |last1=Goeman |first1=Jelle J. |last2=Solari |first2=Aldo |title=Multiple Hypothesis Testing in Genomics |journal=[[Statistics in Medicine (journal)|Statistics in Medicine]] |date=2014 |volume=33 |issue=11 |pages= 1946–1978|doi=10.1002/sim.6082 |pmid=24399688 }}&lt;/ref&gt;
+
+==Extensions==
+
+===Generalization===
+Rather than testing each hypothesis at the &lt;math&gt;\alpha/m&lt;/math&gt; level, the hypotheses may be tested at any other combination of levels that add up to &lt;math&gt;\alpha&lt;/math&gt;, provided that the level of each test is determined before looking at the data.&lt;ref name="pmid8014990"&gt;{{cite journal |last1=Neuwald |first1=AF |last2=Green |first2=P |title=Detecting patterns in protein sequences |journal=J. Mol. Biol. |volume=239 |issue=5 |pages=698–712 |year=1994 |pmid=8014990 |doi=10.1006/jmbi.1994.1407 |url=}}&lt;/ref&gt; For example, for two hypothesis tests, an overall &lt;math&gt;\alpha&lt;/math&gt; of 0.05 could be maintained by conducting one test at 0.04 and the other at 0.01.
+
+===Confidence intervals===
+The Bonferroni correction can be used to adjust [[confidence intervals]]. If one establishes &lt;math&gt;m&lt;/math&gt; confidence intervals, and wishes to have an overall confidence level of &lt;math&gt;1-\alpha&lt;/math&gt;, each individual confidence interval can be adjusted to the level of &lt;math&gt;1-\frac{\alpha}{m}&lt;/math&gt;.&lt;ref name=Dunn1958 /&gt;&lt;ref name=Dunn1961 /&gt;
+
+==Alternatives==
+{{main|Familywise error rate#Controlling procedures}}
+There are alternative ways to control the [[familywise error rate]].
+For example, the [[Holm–Bonferroni method]] and the [[Šidák correction]] are universally more powerful procedures than the Bonferroni correction, meaning that they are always at least as powerful. Unlike the Bonferroni procedure, these methods do not control the [[expected number]] of Type I errors per family (the per-family Type I error rate).&lt;ref&gt;{{cite journal|last1=Frane|first1=Andrew|title=Are per-family Type I error rates relevant in social and behavioral science?| journal=Journal of Modern Applied Statistical Methods| date=2015| volume=14| issue=1| pages=12–23|doi=10.22237/jmasm/1430453040| doi-access=free}}&lt;/ref&gt;
+
+==Criticism==
+With respect to [[familywise error rate|FWER]] control, the Bonferroni correction can be conservative if there are a large number of tests and/or the test statistics are positively correlated. &lt;ref name=Moran2003&gt;{{cite journal |first=Matthew|last=Moran|title = Arguments for rejecting the sequential Bonferroni in ecological studies |journal=[[Oikos]] |volume=100 |issue=2 |pages=403–405 |year=2003 |doi=10.1034/j.1600-0706.2003.12010.x}}&lt;/ref&gt;
+
+The correction comes at the cost of increasing the probability of producing [[Type I and type II errors#Type II error|false negatives]], i.e., reducing [[statistical power]].&lt;ref name=Nakagawa2004&gt;{{cite journal |first=Shinichi |last=Nakagawa |title=A farewell to Bonferroni: the problems of low statistical power and publication bias |journal=[[Behavioral Ecology]] |volume=15 |issue=6 |pages=1044–1045 |year=2004 |url=https://academic.oup.com/beheco/article/15/6/1044/206216 |doi=10.1093/beheco/arh107|doi-access=free }}&lt;/ref&gt;&lt;ref name=Moran2003&gt;{{cite journal |first=Matthew|last=Moran|title = Arguments for rejecting the sequential Bonferroni in ecological studies |journal=[[Oikos]] |volume=100 |issue=2 |pages=403–405 |year=2003 |doi=10.1034/j.1600-0706.2003.12010.x}}&lt;/ref&gt; There is not a definitive consensus on how to define a family in all cases, and adjusted test results may vary depending on the number of tests included in the [[Familywise error rate#The concept of a family|family]] of hypotheses.{{citation needed|date=June 2016}} Such criticisms apply to [[familywise error rate|FWER]] control in general, and are not specific to the Bonferroni correction.
+
+==References==
+{{Reflist}}
+
+==Further reading==
+{{Refbegin|60em}}
+*{{cite journal |last=Dunnett |first=C. W. |year=1955 |title=A multiple comparisons procedure for comparing several treatments with a control |journal=Journal of the American Statistical Association |volume=50 |issue=272 |pages=1096–1121 |doi=10.1080/01621459.1955.10501294 }}
+*{{cite journal |last=Dunnett |first=C. W. |s2cid=64020124 |year=1964 |title=New tables for multiple comparisons with a control |journal=[[Biometrics (journal)|Biometrics]] |volume=20 |issue=3 |pages=482–491 |jstor=2528490 |doi=10.2307/2528490}}
+*{{cite journal |last=Shaffer |first=J. P. |year=1995 |title=Multiple Hypothesis Testing |journal=[[Annual Review of Psychology]] |volume=46 |issue= |pages=561–584 |doi=10.1146/annurev.ps.46.020195.003021 |hdl=10338.dmlcz/142950 |hdl-access=free }}
+*{{cite journal |last1=Strassburger |first1=K. |last2=Bretz |first2=Frank |year=2008 |title=Compatible simultaneous lower confidence bounds for the Holm procedure and other Bonferroni-based closed tests |journal=[[Statistics in Medicine (journal)|Statistics in Medicine]] |volume=27 |issue=24 |pages=4914–4927 |doi=10.1002/sim.3338 |pmid=18618415 }}
+*{{cite journal |last=Šidák |first=Z. |year=1967 |title=Rectangular confidence regions for the means of multivariate normal distributions |journal=Journal of the American Statistical Association |volume=62 |issue=318 |pages=626–633 |doi=10.1080/01621459.1967.10482935 }}
+*{{cite journal | last1 = Hochberg | first1= Yosef | year = 1988 | title = A Sharper Bonferroni Procedure for Multiple Tests of Significance | journal = [[Biometrika]] | volume = 75 | issue = 4 | pages = 800–802 | url = http://www-stat.wharton.upenn.edu/~steele/Courses/956/Resource/MultipleComparision/Hochberg88.pdf | doi=10.1093/biomet/75.4.800}}
+{{Refend}}
+
+==External links==
+*[http://www.quantitativeskills.com/sisa/calculations/bonfer.htm Bonferroni, Sidak online calculator]
+*[http://nebc.nerc.ac.uk/courses/GeneSpring/GS_Mar2006/Multiple%20testing%20corrections.pdf Multiple Testing Corrections in GeneSpring and Gene Expression data]
+
+{{DEFAULTSORT:Bonferroni Correction}}
+[[Category:Multiple comparisons]]
+[[Category:Statistical hypothesis testing]]</text>
+      <sha1>5kxx1krfsimmje049wwxpk699je0l56</sha1>
+    </revision>
+  </page>
+</mediawiki>

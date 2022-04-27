@@ -1,0 +1,110 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.10/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.10/ http://www.mediawiki.org/xml/export-0.10.xsd" version="0.10" xml:lang="en">
+  <siteinfo>
+    <sitename>Wikipedia</sitename>
+    <dbname>enwiki</dbname>
+    <base>https://en.wikipedia.org/wiki/Main_Page</base>
+    <generator>MediaWiki 1.35.0-wmf.36</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Media</namespace>
+      <namespace key="-1" case="first-letter">Special</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Talk</namespace>
+      <namespace key="2" case="first-letter">User</namespace>
+      <namespace key="3" case="first-letter">User talk</namespace>
+      <namespace key="4" case="first-letter">Wikipedia</namespace>
+      <namespace key="5" case="first-letter">Wikipedia talk</namespace>
+      <namespace key="6" case="first-letter">File</namespace>
+      <namespace key="7" case="first-letter">File talk</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki talk</namespace>
+      <namespace key="10" case="first-letter">Template</namespace>
+      <namespace key="11" case="first-letter">Template talk</namespace>
+      <namespace key="12" case="first-letter">Help</namespace>
+      <namespace key="13" case="first-letter">Help talk</namespace>
+      <namespace key="14" case="first-letter">Category</namespace>
+      <namespace key="15" case="first-letter">Category talk</namespace>
+      <namespace key="100" case="first-letter">Portal</namespace>
+      <namespace key="101" case="first-letter">Portal talk</namespace>
+      <namespace key="108" case="first-letter">Book</namespace>
+      <namespace key="109" case="first-letter">Book talk</namespace>
+      <namespace key="118" case="first-letter">Draft</namespace>
+      <namespace key="119" case="first-letter">Draft talk</namespace>
+      <namespace key="446" case="first-letter">Education Program</namespace>
+      <namespace key="447" case="first-letter">Education Program talk</namespace>
+      <namespace key="710" case="first-letter">TimedText</namespace>
+      <namespace key="711" case="first-letter">TimedText talk</namespace>
+      <namespace key="828" case="first-letter">Module</namespace>
+      <namespace key="829" case="first-letter">Module talk</namespace>
+      <namespace key="2300" case="first-letter">Gadget</namespace>
+      <namespace key="2301" case="first-letter">Gadget talk</namespace>
+      <namespace key="2302" case="case-sensitive">Gadget definition</namespace>
+      <namespace key="2303" case="case-sensitive">Gadget definition talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Bland–Altman plot</title>
+    <ns>0</ns>
+    <id>3146632</id>
+    <revision>
+      <id>959158379</id>
+      <parentid>951555472</parentid>
+      <timestamp>2020-05-27T12:03:53Z</timestamp>
+      <contributor>
+        <username>Doremo</username>
+        <id>9337959</id>
+      </contributor>
+      <minor/>
+      <comment>hyphen → dash</comment>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="7931" xml:space="preserve">[[File:Bland-Alman Plot with CI's on LOA.png|thumb|600px|Bland–Altman plot example]]
+{{distinguish|Estimation statistics#Gardner–Altman plot}}
+
+A '''Bland–Altman plot''' ('''difference plot''') in [[analytical chemistry]] or [[biomedicine]] is a method of [[data plot]]ting used in analyzing the agreement between two different [[assay]]s. It is identical to a '''[[John Tukey|Tukey]] mean-difference plot'''&lt;ref&gt;{{Cite book|title=Visualizing data|last=Cleveland|first=William S.|date=1993|publisher=At &amp; T Bell Laboratories|isbn=978-0963488404|location=Murray Hill, N.J.|pages=[https://archive.org/details/visualizingdata00will/page/22 22–23]|oclc=29456028|url-access=registration|url=https://archive.org/details/visualizingdata00will/page/22}}&lt;/ref&gt;, the name by which it is known in other fields, but was popularised in [[medical statistics]] by [[J. Martin Bland]] and [[Doug Altman|Douglas G. Altman]].&lt;ref name="Altman1983"&gt;{{cite journal |author=Altman DG, Bland JM |title=Measurement in medicine: the analysis of method comparison studies |journal=The Statistician |volume=32 |issue=3 |year=1983 |pages=307–317 |doi=10.2307/2987937|jstor=2987937 }}&lt;/ref&gt;&lt;ref name="Bland1986"&gt;{{cite journal |author=Bland JM, Altman DG |title=Statistical methods for assessing agreement between two methods of clinical measurement |journal=Lancet |volume=327 | year=1986 |issue=8476 |pages=307–10 |doi=10.1016/S0140-6736(86)90837-8 |pmid=2868172| url=https://www-users.york.ac.uk/~mb55/meas/ba.pdf|citeseerx=10.1.1.587.8931 }}&lt;/ref&gt;
+
+== Agreement versus correlation ==
+Bland and Altman make the point that any two methods that are designed to measure the same parameter (or property) should have good [[correlation]] when a set of samples are chosen such that the property to be determined varies considerably. A high correlation for any two methods designed to measure the same property could thus in itself just be a sign that one has chosen a widespread sample. A high correlation does not necessarily imply that there is good agreement between the two methods.
+
+== Construction ==
+Consider a sample consisting of &lt;math&gt;n&lt;/math&gt; observations (for example, objects of unknown volume).  Both assays (for example, different methods of volume measurement) are performed on each sample, resulting in &lt;math&gt;2n&lt;/math&gt; data points.  Each of the &lt;math&gt;n&lt;/math&gt; samples is then represented on the graph by assigning the [[mean]] of the two measurements as the &lt;math&gt;x&lt;/math&gt;-value, and the difference between the two values as the &lt;math&gt;y&lt;/math&gt;-value.
+
+The [[Cartesian coordinate system|Cartesian coordinates]] of a given sample &lt;math&gt;S&lt;/math&gt; with values of &lt;math&gt;S_1&lt;/math&gt; and &lt;math&gt;S_2&lt;/math&gt; determined by the two assays is
+
+:&lt;math&gt; S(x,y)=\left( \frac{S_1+S_2}{2}, S_1-S_2 \right). &lt;/math&gt;
+
+For comparing the dissimilarities between the two sets of samples independently from their mean values, it is more appropriate to look at the ratio of the pairs of measurements.&lt;ref name="Bland1999"&gt;{{cite journal |author=Bland JM, Altman DG |title=Measuring agreement in method comparison studies |journal=[[Statistical Methods in Medical Research]] |volume=8 | year=1999|issue=2 |pages=135–60 |doi=10.1177/096228029900800204|pmid=10501650| url =}}&lt;/ref&gt; Log transformation (base 2) of the measurements before the analysis will enable the standard approach to be used; so the plot will be given by the following equation:
+
+:&lt;math&gt; S(x,y)=\left( \frac{\log_2 S_1 +\log_2 S_2}{2}, \log_2 S_1 -\log_2 S_2 \right). &lt;/math&gt;
+
+This version of the plot is used in [[MA plot]].
+
+== Application ==
+One primary application of the Bland–Altman plot is to compare two clinical measurements each of which produced some error in their measures.&lt;ref name="Hanneman2008"&gt;{{cite journal |author=Hanneman SK |title=Design, analysis, and interpretation of method-comparison studies |journal=AACN Advanced Critical Care |volume=19 |year=2008 |pages=223–234 |pmid=18560291 |doi=10.1097/01.AACN.0000318125.41512.a3 |issue=2 |pmc=2944826}}&lt;/ref&gt; It can also be used to compare a new measurement technique or method with a [[gold standard (test)|gold standard]], as even a gold standard does not&amp;mdash;and should not&amp;mdash;imply it to be without error.&lt;ref name="Bland1999" /&gt; See [[Analyse-it]], [[MedCalc]], [[NCSS (statistical software)|NCSS]], GraphPad Prism, [[R (programming language)|R]], or [[StatsDirect]] for software providing Bland–Altman plots.
+
+Bland–Altman plots are extensively used to evaluate the agreement among two different instruments or two measurements techniques. Bland–Altman plots allow identification of any systematic difference between the measurements (i.e., fixed bias) or possible [[outlier|outliers]]. The mean difference is the estimated bias, and the [[Standard deviation|SD]] of the differences measures the random fluctuations around this mean. If the mean value of the difference differs significantly from 0 on the basis of a 1-sample [[Student's t-test|t-test]], this indicates the presence of fixed bias. If there is a consistent bias, it can be adjusted for by subtracting the mean difference from the new method. It is common to compute 95% [[limits of agreement]] for each comparison (average difference ± 1.96 standard deviation of the difference), which tells us how far apart measurements by two methods were more likely to be for most individuals. If the differences within mean ± 1.96 SD are not clinically important, the two methods may be used interchangeably.  The 95% limits of agreement can be unreliable estimates of the population parameters especially for small sample sizes so, when comparing methods or assessing repeatability, it is important to calculate confidence intervals for 95% limits of agreement. This can be done by Bland and Altman's approximate method &lt;ref name="Bland1986" /&gt; or by more precise methods.&lt;ref name="Carkeet2015"&gt;{{cite journal |author=Carkeet A|title=Exact parametric confidence intervals for Bland–Altman Limits of Agreement. |journal=Optometry and Vision Science |volume=92 | year=2015 |issue=3 |pages=e71–e80 |doi=10.1097/OPX.0000000000000513|pmid=25650900 }}&lt;/ref&gt;
+[[File:Bland-altman plot of three clinicians' ratings of burn size, using two different methods.png|thumb|440x440px|Bland–Altman plot showing likely proportional bias]]
+Bland–Altman plots were also used to investigate any possible relationship of the discrepancies between the measurements and the true value (i.e., proportional bias). The existence of proportional bias indicates that the methods do not agree equally through the range of measurements (i.e., the limits of agreement will depend on the actual measurement). To evaluate this relationship formally, the difference between the methods should be regressed on the average of the 2 methods. When a relationship between the differences and the true value was identified (i.e., a significant slope of the regression line), regression-based 95% limits of agreement should be provided.
+&lt;ref name="Bland1999" /&gt;
+
+== Notes ==
+
+A similar method was proposed in 1981 by Eksborg.&lt;ref name=Eksborg1981&gt;Eksborg S (1981) Evaluation of method-comparison data. Clin Chem 27:1311–1312&lt;/ref&gt; This method was based on [[Deming regression]]—a method introduced by Adcock in 1878.
+
+Bland and Altman's Lancet paper &lt;ref name="Bland1986" /&gt; was number 29 in a list of the top 100 most-cited papers of all time with over 23,000 citations.&lt;ref name="Van NoordenMaher2014"&gt;{{cite journal|last1=Van Noorden|first1=Richard|last2=Maher|first2=Brendan|last3=Nuzzo|first3=Regina|title=The top 100 papers|journal=Nature|volume=514|issue=7524|year=2014|pages=550–553|issn=0028-0836|doi=10.1038/514550a|pmid=25355343|doi-access=free}}&lt;/ref&gt;
+
+== See also ==
+*[[MA plot]]
+
+== References ==
+
+{{reflist}}
+
+{{DEFAULTSORT:Bland-Altman plot}}
+[[Category:Analytical chemistry]]
+[[Category:Statistical charts and diagrams]]
+[[Category:Medical statistics]]</text>
+      <sha1>ovd0cw9roe4tj3fm92i6if0oaq83dx8</sha1>
+    </revision>
+  </page>
+</mediawiki>

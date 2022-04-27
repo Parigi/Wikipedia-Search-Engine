@@ -1,0 +1,119 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.10/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.10/ http://www.mediawiki.org/xml/export-0.10.xsd" version="0.10" xml:lang="en">
+  <siteinfo>
+    <sitename>Wikipedia</sitename>
+    <dbname>enwiki</dbname>
+    <base>https://en.wikipedia.org/wiki/Main_Page</base>
+    <generator>MediaWiki 1.35.0-wmf.36</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Media</namespace>
+      <namespace key="-1" case="first-letter">Special</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Talk</namespace>
+      <namespace key="2" case="first-letter">User</namespace>
+      <namespace key="3" case="first-letter">User talk</namespace>
+      <namespace key="4" case="first-letter">Wikipedia</namespace>
+      <namespace key="5" case="first-letter">Wikipedia talk</namespace>
+      <namespace key="6" case="first-letter">File</namespace>
+      <namespace key="7" case="first-letter">File talk</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki talk</namespace>
+      <namespace key="10" case="first-letter">Template</namespace>
+      <namespace key="11" case="first-letter">Template talk</namespace>
+      <namespace key="12" case="first-letter">Help</namespace>
+      <namespace key="13" case="first-letter">Help talk</namespace>
+      <namespace key="14" case="first-letter">Category</namespace>
+      <namespace key="15" case="first-letter">Category talk</namespace>
+      <namespace key="100" case="first-letter">Portal</namespace>
+      <namespace key="101" case="first-letter">Portal talk</namespace>
+      <namespace key="108" case="first-letter">Book</namespace>
+      <namespace key="109" case="first-letter">Book talk</namespace>
+      <namespace key="118" case="first-letter">Draft</namespace>
+      <namespace key="119" case="first-letter">Draft talk</namespace>
+      <namespace key="446" case="first-letter">Education Program</namespace>
+      <namespace key="447" case="first-letter">Education Program talk</namespace>
+      <namespace key="710" case="first-letter">TimedText</namespace>
+      <namespace key="711" case="first-letter">TimedText talk</namespace>
+      <namespace key="828" case="first-letter">Module</namespace>
+      <namespace key="829" case="first-letter">Module talk</namespace>
+      <namespace key="2300" case="first-letter">Gadget</namespace>
+      <namespace key="2301" case="first-letter">Gadget talk</namespace>
+      <namespace key="2302" case="case-sensitive">Gadget definition</namespace>
+      <namespace key="2303" case="case-sensitive">Gadget definition talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Query expansion</title>
+    <ns>0</ns>
+    <id>7872152</id>
+    <revision>
+      <id>946839262</id>
+      <parentid>891072351</parentid>
+      <timestamp>2020-03-22T18:47:23Z</timestamp>
+      <contributor>
+        <username>Citation bot</username>
+        <id>7903804</id>
+      </contributor>
+      <minor/>
+      <comment>Removed URL that duplicated unique identifier. Removed accessdate with no specified URL. Removed parameters. | You can [[WP:UCB|use this bot]] yourself. [[WP:DBUG|Report bugs here]]. | Activated by [[User:AManWithNoPlan]] | All pages linked from [[User:AManWithNoPlan/sandbox2]] | via #UCB_webform_linked</comment>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="9151" xml:space="preserve">'''Query expansion''' ('''QE''') is the process of reformulating a given query to improve retrieval performance in [[information retrieval]] operations, particularly in the context of [[query understanding]].&lt;ref&gt;{{cite journal
+ | last = Vectomova | first = Olga |author2=Wang, Ying  | year = 2006
+ | title = A study of the effect of term proximity on query expansion | journal = [[Journal of Information Science]]
+ | volume = 32 | issue = 4 | pages = 324&amp;ndash;333
+ | doi = 10.1177/0165551506065787 | id =  | citeseerx = 10.1.1.552.5987 }}&lt;/ref&gt;
+In the context of [[search engine]]s, query expansion involves evaluating a user's input (what words were typed into the search query area, and sometimes other types of [[data]]) and expanding the search query to match additional documents.  Query expansion involves techniques such as:
+
+* Finding [[synonym]]s of words, and searching for the synonyms as well
+* Finding semantically related words (e.g. [[antonym]]s, [[meronym]]s, [[hyponym]]s, [[hypernym]]s)
+* Finding all the various [[Morphology (linguistics)|morphological]] forms of words by [[stemming]] each word in the [[Web search query|search query]]
+* Fixing [[Typographical error|spelling errors]] and automatically searching for the corrected form or suggesting it in the results
+* Re-weighting the terms in the original query
+
+Query expansion is a methodology studied in the field of [[computer science]], particularly within the realm of [[natural language processing]] and [[information retrieval]].
+
+== Precision and recall trade-offs ==
+
+Search engines invoke query expansion to increase the quality of user search results.  It is assumed that users do not always formulate search queries using the best terms. Best in this case may be because the database does not contain the user entered terms.  
+
+By [[stemming]] a user-entered term, more documents are matched, as the alternate word forms for a user entered term are matched as well, increasing the total [[recall (information retrieval)|recall]]. This comes at the expense of reducing the [[precision (information retrieval)|precision]].  By expanding a search query to search for the synonyms of a user entered term, the recall is also increased at the expense of precision.  This is due to the nature of the equation of how precision is calculated, in that a larger recall implicitly causes a decrease in precision, given that factors of recall are part of the denominator. It is also inferred that a larger recall negatively impacts overall search result quality, given that many users do not want more results to comb through, regardless of the precision.
+
+The goal of query expansion in this regard is by increasing recall, precision can potentially increase (rather than decrease as mathematically equated), by including in the result set pages which are more relevant (of higher quality), or at least equally relevant. Pages which would not be included in the result set, which have the potential to be more relevant to the user's desired query, are included, and without query expansion would not have, regardless of relevance.  At the same time, many of the current commercial search engines use word frequency ([[tf-idf]]) to assist in ranking.{{Citation needed|date=October 2016}}  By ranking the occurrences of both the user entered words and synonyms and alternate morphological forms, documents with a higher density (high frequency and close proximity) tend to migrate higher up in the search results, leading to a higher quality of the search results near the top of the results, despite the larger recall.
+
+==Query expansion methods==
+Automatic methods for query expansion were proposed in 1960 by Maron and Kuhns &lt;ref&gt;Maron, M. E. and Kuhns, J. L. 1960. On Relevance, Probabilistic Indexing and Information Retrieval. Journal of the ACM 7, 3, 216–244.&lt;/ref&gt;. Modern query expansion methods either imply document collection analysis (global or local) &lt;ref&gt;C. Carpineto and G. Romano. A survey of automatic query expansion in information retrieval. ACM Computing Surveys, 44(1):1-50, Jan. 2012.&lt;/ref&gt; or are dictionary- or ontology-based &lt;ref&gt;J. Bhogal, A. Macfarlane, and P. Smith. A review of ontology based query expansion. Inf. Process. Manage., 43(4):866-886, July 2007.&lt;/ref&gt;. The global analysis of the document collection is applied for searching for relations between terms. The local analysis refers to the [[relevance feedback]] introduced by Rocchio &lt;ref&gt;J. Rocchio. Relevance feedback in information retrieval. In The SMART Retrieval System, p. 313-323. 1971.&lt;/ref&gt;. Rocchio proposed to judge manually some of the retrieved documents and use this feedback information to expand the query. Since collecting users' judgment can be challenging, only the first top retrieved documents are considered as relevant. This is so called pseudo-[[relevance feedback]] (PRF) &lt;ref&gt;C. Buckley. Automatic query expansion using SMART: TREC 3. In Proceedings of The third Text REtrieval Conference (TREC-3). NIST Special Publication, p. 69-80. National Institute of Standards and Technology, 1995.&lt;/ref&gt;. Pseudo-relevance feedback is efficient in average but can damage results for some queries &lt;ref&gt;G. Amati, C. Carpineto, and G. Romano. Query difficulty, robustness, and selective application of query expansion. Advances in Information Retrieval, p. 127-137, 2004.&lt;/ref&gt;, especially difficult ones since the top retrieved documents are probably non-relevant. Pseudo-relevant documents are used to find expansion candidate terms that co-occur with many query terms &lt;ref&gt;J. Xu and W. B. Croft. Query expansion using local and global document analysis. In Proceedings of the 19th annual international ACM SIGIR conference on Research and development in information retrieval, pages 4-11. ACM, 1996.&lt;/ref&gt;. This idea was further developed within the relevance [[language model]] formalism in positional relevance &lt;ref&gt;Y. Lv and C. Zhai. Positional relevance model for pseudo-relevance feedback. In Proceedings of the 33rd international ACM SIGIR conference on Research and development in information retrieval, page 579-586.
+ACM, 2010.&lt;/ref&gt; and proximity relevance models &lt;ref&gt;L. Ermakova, J. Mothe, and E. Nikitina. 2016. Proximity relevance model for query expansion. In Proceedings of the 31st Annual ACM Symposium on Applied Computing (SAC '16). ACM, New York, NY, USA, 1054-1059. DOI: https://doi.org/10.1145/2851613.2851696&lt;/ref&gt; which consider the distance to query terms in the pseudo-relevant documents. Another direction in query expansion is the application of [[word embedding]]s &lt;ref&gt;S. Kuzi, A. Shtok, and O. Kurland. 2016. Query Expansion Using Word Embeddings. In Proceedings of the 25th ACM International on Conference on Information and Knowledge Management (CIKM '16). ACM, New York, NY, USA, 1929-1932. DOI: https://doi.org/10.1145/2983323.2983876&lt;/ref&gt;.
+
+==See also==
+
+* [[Document retrieval]]
+* [[Information retrieval]]
+* [[Linguistics]]
+* [[Morphology (linguistics)]]
+* [[Natural language processing]]
+* [[Search engine]]
+* [[Search engine indexing]]
+* [[Stemming]]
+
+== Software libraries ==
+*[http://qtanalyzer.codeplex.com/ QueryTermAnalyzer] open-source, C#. Machine learning based query term weight and synonym analyzer for query expansion.
+*[http://lucene-qe.sourceforge.net/ LucQE] - open-source, Java.  Provides a framework along with several implementations that allow to perform query expansion with the use of Apache [[Lucene]].
+*[[Xapian]] is an open-source search library which includes support for query expansion
+
+== References ==
+=== Citations ===
+{{Reflist}}
+
+=== Sources ===
+* D. Abberley, D. Kirby, S. Renals, and T. Robinson, The THISL broadcast news  retrieval system. In ''Proc. ESCA ETRW Workshop Accessing Information in Spoken Audio'', (Cambridge), pp.&amp;nbsp;14–19, 1999. Section on [https://web.archive.org/web/20070328204357/http://homepages.inf.ed.ac.uk/srenals/pubs/1999/esca99-thisl/node6.html Query Expansion] - Concise, mathematical overview.
+* R. Navigli, P. Velardi. [http://www.dcs.shef.ac.uk/~fabio/ATEM03/navigli-ecml03-atem.pdf An Analysis of Ontology-based Query Expansion Strategies]. ''Proc. of Workshop on Adaptive Text Extraction and Mining (ATEM 2003)'', in the ''14th European Conference on Machine Learning (ECML 2003)'', Cavtat-Dubrovnik, Croatia, September 22-26th, 2003, pp.&amp;nbsp;42–49 - An analysis of query expansion methods relying on WordNet as the reference ontology.
+* Y. Qiu and H.P. Frei. [http://citeseer.ist.psu.edu/qiu93concept.html Concept Based Query Expansion]. In ''Proceedings of SIGIR-93, 16th ACM International Conference on Research and Development in Information Retrieval'', Pittsburgh, SIGIR Forum, ACM Press, June 1993 - Academic document on a specific method of query expansion
+* Efthimis N. Efthimiadis. [https://web.archive.org/web/20061019102218/http://faculty.washington.edu/efthimis/pubs/Pubs/qe-arist/QE-arist.html Query Expansion]. In: Martha E. Williams (ed.), ''Annual Review of Information Systems and Technology (ARIST)'', v31, pp 121–187, 1996 - An introduction for less-technical viewers.
+
+{{DEFAULTSORT:Query Expansion}}
+[[Category:Search algorithms]]</text>
+      <sha1>k565ab2xteh1j33yzdemdfi44iegitb</sha1>
+    </revision>
+  </page>
+</mediawiki>

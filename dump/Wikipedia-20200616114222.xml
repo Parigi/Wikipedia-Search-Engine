@@ -1,0 +1,188 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.10/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.10/ http://www.mediawiki.org/xml/export-0.10.xsd" version="0.10" xml:lang="en">
+  <siteinfo>
+    <sitename>Wikipedia</sitename>
+    <dbname>enwiki</dbname>
+    <base>https://en.wikipedia.org/wiki/Main_Page</base>
+    <generator>MediaWiki 1.35.0-wmf.36</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Media</namespace>
+      <namespace key="-1" case="first-letter">Special</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Talk</namespace>
+      <namespace key="2" case="first-letter">User</namespace>
+      <namespace key="3" case="first-letter">User talk</namespace>
+      <namespace key="4" case="first-letter">Wikipedia</namespace>
+      <namespace key="5" case="first-letter">Wikipedia talk</namespace>
+      <namespace key="6" case="first-letter">File</namespace>
+      <namespace key="7" case="first-letter">File talk</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki talk</namespace>
+      <namespace key="10" case="first-letter">Template</namespace>
+      <namespace key="11" case="first-letter">Template talk</namespace>
+      <namespace key="12" case="first-letter">Help</namespace>
+      <namespace key="13" case="first-letter">Help talk</namespace>
+      <namespace key="14" case="first-letter">Category</namespace>
+      <namespace key="15" case="first-letter">Category talk</namespace>
+      <namespace key="100" case="first-letter">Portal</namespace>
+      <namespace key="101" case="first-letter">Portal talk</namespace>
+      <namespace key="108" case="first-letter">Book</namespace>
+      <namespace key="109" case="first-letter">Book talk</namespace>
+      <namespace key="118" case="first-letter">Draft</namespace>
+      <namespace key="119" case="first-letter">Draft talk</namespace>
+      <namespace key="446" case="first-letter">Education Program</namespace>
+      <namespace key="447" case="first-letter">Education Program talk</namespace>
+      <namespace key="710" case="first-letter">TimedText</namespace>
+      <namespace key="711" case="first-letter">TimedText talk</namespace>
+      <namespace key="828" case="first-letter">Module</namespace>
+      <namespace key="829" case="first-letter">Module talk</namespace>
+      <namespace key="2300" case="first-letter">Gadget</namespace>
+      <namespace key="2301" case="first-letter">Gadget talk</namespace>
+      <namespace key="2302" case="case-sensitive">Gadget definition</namespace>
+      <namespace key="2303" case="case-sensitive">Gadget definition talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Microsoft Publisher</title>
+    <ns>0</ns>
+    <id>674073</id>
+    <revision>
+      <id>944787170</id>
+      <parentid>943682283</parentid>
+      <timestamp>2020-03-09T22:35:12Z</timestamp>
+      <contributor>
+        <ip>5.171.248.132</ip>
+      </contributor>
+      <comment>/* Compatibility */</comment>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="7302" xml:space="preserve">{{short description|Desktop publishing software}}
+{{Use mdy dates|date=August 2018}}
+{{redirect|.pub|the top-level domain introduced in 2014|list of Internet top-level domains#Brand top-level domains}}
+{{Infobox software
+| name = 
+| logo = Microsoft Office Publisher (2019-present).svg
+| screenshot = Microsoft Publisher screenshot.png
+| caption = Microsoft Publisher 2013 running on [[Windows 8]]
+| author = 
+| developer = [[Microsoft]]
+| released = {{Start date and age|1991}}
+| ver layout = stacked
+| latest release version = {{Latest stable software release/Microsoft Office}}
+| programming language = 
+| operating system = [[Microsoft Windows]]
+| platform = 
+| size = 
+| language = 
+| genre = [[Desktop publishing software]]
+| license = [[Trialware]]
+}}
+
+'''Microsoft Publisher''' is a [[desktop publishing]] application from [[Microsoft]], differing from [[Microsoft Word]] in that the emphasis is placed on page layout and design rather than text composition and proofing.
+
+==Overview==
+Publisher is included in higher-end editions of [[Microsoft Office]], reflecting Microsoft's emphasis on the application as an easy-to-use and less expensive alternative to the "heavyweights" with a focus on the small-business market, where firms do not have dedicated design professionals available to make marketing materials and other documents.&lt;ref name= "DTP" /&gt;&lt;ref&gt;{{Cite web |url=http://www.pcworld.idg.com.au/review/software_and_services/microsoft/office_publisher_07/221175?pf=1 |title=Office Publisher 07 |work=[[PC World]] Australia |publisher=[[International Data Group|IDG]] |accessdate=2012-02-13 |url-status=live |archiveurl=https://web.archive.org/web/20120728230637/http://www.pcworld.idg.com.au/review/software_and_services/microsoft/office_publisher_07/221175?pf=1 |archivedate=2012-07-28 }}.&lt;/ref&gt; However, it has a relatively small share of the desktop publishing market, which is dominated by [[Adobe InDesign]] and formerly by [[QuarkXPress]].&lt;ref name="DTP"&gt;{{cite web|url=http://webserver.computoredge.com/editorial/2530/coverprint.htm |title=Desktop Publishing Software 2007 Style |publisher=Computor edge |date=2007-07-27 |accessdate=2012-02-13 |url-status=dead |archiveurl=https://web.archive.org/web/20110902044812/http://webserver.computoredge.com/editorial/2530/coverprint.htm |archivedate=2011-09-02 }}&lt;/ref&gt;
+
+While most Microsoft Office apps adopted [[ribbon (computing)|ribbons]] for their user interface starting with [[Microsoft Office 2007]], Publisher retained its [[toolbar]]s and did not adopt ribbons until [[Microsoft Office 2010]].&lt;ref name="Office2010UI"&gt;{{cite web |url=https://technet.microsoft.com/en-us/library/ee523661%28v=office.14%29.aspx |title=User interface differences in Office 2010 vs earlier versions |publisher=[[Microsoft]] |work=[[Microsoft TechNet|TechNet]] |accessdate=April 22, 2016 |url-status=live |archiveurl=https://web.archive.org/web/20160412134507/https://technet.microsoft.com/en-us/library/ee523661(v=office.14).aspx |archivedate=April 12, 2016 }}&lt;/ref&gt;
+
+==Compatibility==
+[[LibreOffice]] has supported Publisher's [[Proprietary format|proprietary file format]] (.pub) since February 2013.&lt;ref&gt;{{cite web |url=https://wiki.documentfoundation.org/ReleaseNotes/4.0 |title=Archived copy |accessdate=2017-04-09 |url-status=live |archiveurl=https://web.archive.org/web/20170518033343/https://wiki.documentfoundation.org/ReleaseNotes/4.0 |archivedate=2017-05-18 }}&lt;/ref&gt; [[Corel Draw]] X4 features read-only support. 
+
+Publisher supports numerous other file formats, including the [[Enhanced Metafile]] (EMF) format, which is supported on Windows platforms. The Microsoft Publisher [[trial version]] can be used to view .pub files beyond the trial period.&lt;ref&gt;{{cite web | url=http://office.microsoft.com/en-us/publisher/HA102339061033.aspx | title=Where is the Publisher viewer? | publisher=Microsoft | accessdate=November 7, 2010 | url-status=dead | archiveurl=https://web.archive.org/web/20100316160043/http://office.microsoft.com/en-us/publisher/HA102339061033.aspx | archivedate=March 16, 2010 }}&lt;/ref&gt;&lt;ref&gt;{{cite web | url=https://support.office.com/en-us/article/where-is-the-publisher-viewer-a5a05230-654f-420e-8aa3-3b50f645c359 | title=Where is the Publisher viewer? | publisher=Microsoft | accessdate=March 9, 2020 }}&lt;/ref&gt;
+
+[[Adobe PageMaker]] also saved files with a .pub extension, but the two file formats were unrelated and incompatible.
+
+==Release history==
+{| class="wikitable"
+|-
+! Name
+! Version number
+! Release date&lt;ref&gt;{{cite web|url=http://support.microsoft.com/lifecycle/search/default.aspx?sort=PN&amp;alpha=Publisher&amp;Filter=FilterNO|publisher=Microsoft|title=Publisher Life-cycle|accessdate=2011-10-23|url-status=live|archiveurl=https://web.archive.org/web/20110926101353/http://support.microsoft.com/lifecycle/search/default.aspx?sort=PN&amp;alpha=publisher&amp;Filter=FilterNO|archivedate=2011-09-26}}&lt;/ref&gt;
+! Editions of Microsoft Office included in
+|-
+|Microsoft Publisher
+| 1.0
+| Late 1991 (approx.)
+|{{N/A}}
+|-
+|Microsoft Publisher
+| 2.0
+| Jul 12, 1993
+|{{N/A}}
+|-
+| Publisher for [[Windows 95]]
+| 3.0
+| Aug 24, 1995
+|{{N/A}}
+|-
+| Microsoft Publisher 97
+| 4.0
+| Oct 21, 1996
+| Small Business Edition
+|-
+| Microsoft Publisher 98
+| 5.0
+| Mar 23, 1998
+| Small Business Edition 2.0
+|-
+| Microsoft Publisher 2000
+| 6.0
+| Jun 7, 1999
+| Small Business Edition, Professional, Premium, Developer
+|-
+| Microsoft Publisher 2002
+| 10.0{{Efn|Starting with Publisher 2002, the version number jumps to 10.0 to tally [[Microsoft Office]] versions.}}
+| May 31, 2001
+| Professional OEM, Professional Special Edition
+|-
+| Microsoft Office Publisher 2003
+| 11.0
+| Oct 21, 2003
+| Small Business, Professional, Professional Plus, Enterprise
+|-
+| Microsoft Office Publisher 2007
+| 12.0
+| Jan 30, 2007
+| Small Business, Professional, Ultimate, Professional Plus, Enterprise
+|-
+| Microsoft Publisher 2010
+| 14.0{{Efn|Version 13 was skipped due to [[Triskaidekaphobia|the superstition attached to the number 13]].&lt;ref name="Super Site for Windows"&gt;{{cite web|url=http://www.winsupersite.com/office/office2010_faq.asp |title=Office 2010 FAQ |author=Paul Thurrott |date=2009-05-14 |accessdate=2009-12-30 |url-status=dead |archiveurl=https://web.archive.org/web/20090419113856/http://www.winsupersite.com/office/office2010_faq.asp |archivedate=2009-04-19 }}&lt;/ref&gt;}}
+| Jun 15, 2010
+| Standard, Professional, Professional Plus
+|-
+| Microsoft Publisher 2013
+| 15.0
+| Jan 29, 2013
+| Professional, Professional Plus, Standard (volume licensing), all Office 365 editions
+|-
+| Microsoft Publisher 2016
+| 16.0
+| Sep 22, 2015
+| Professional, Professional Plus, Standard (volume licensing), all Office 365 editions
+|-
+| Microsoft Publisher 2019
+| 16.0
+| Sep 24, 2018
+| Professional, Professional Plus, Standard (volume licensing), all Office 365 editions
+|}{{Notelist}}
+
+== See also==
+* [[Timeworks Publisher]] (a major competitor in the marketplace in the early 1990s)
+
+== References ==
+{{reflist}}
+
+== External links ==
+* {{Official website}}
+* [https://blogs.msdn.microsoft.com/microsoft_office_publisher/ Microsoft Publisher blog] (last updated December 2009) on [[MSDN Blogs]] 
+
+{{Desktop publishing software}}
+{{Microsoft Office}}
+
+[[Category:Desktop publishing software]]
+[[Category:Microsoft Office|Publisher]]
+[[Category:Products introduced in 1991]]</text>
+      <sha1>q10gs605xkygbxunkqjcv5cwnt0gjen</sha1>
+    </revision>
+  </page>
+</mediawiki>

@@ -1,0 +1,173 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.10/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.10/ http://www.mediawiki.org/xml/export-0.10.xsd" version="0.10" xml:lang="en">
+  <siteinfo>
+    <sitename>Wikipedia</sitename>
+    <dbname>enwiki</dbname>
+    <base>https://en.wikipedia.org/wiki/Main_Page</base>
+    <generator>MediaWiki 1.35.0-wmf.36</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Media</namespace>
+      <namespace key="-1" case="first-letter">Special</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Talk</namespace>
+      <namespace key="2" case="first-letter">User</namespace>
+      <namespace key="3" case="first-letter">User talk</namespace>
+      <namespace key="4" case="first-letter">Wikipedia</namespace>
+      <namespace key="5" case="first-letter">Wikipedia talk</namespace>
+      <namespace key="6" case="first-letter">File</namespace>
+      <namespace key="7" case="first-letter">File talk</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki talk</namespace>
+      <namespace key="10" case="first-letter">Template</namespace>
+      <namespace key="11" case="first-letter">Template talk</namespace>
+      <namespace key="12" case="first-letter">Help</namespace>
+      <namespace key="13" case="first-letter">Help talk</namespace>
+      <namespace key="14" case="first-letter">Category</namespace>
+      <namespace key="15" case="first-letter">Category talk</namespace>
+      <namespace key="100" case="first-letter">Portal</namespace>
+      <namespace key="101" case="first-letter">Portal talk</namespace>
+      <namespace key="108" case="first-letter">Book</namespace>
+      <namespace key="109" case="first-letter">Book talk</namespace>
+      <namespace key="118" case="first-letter">Draft</namespace>
+      <namespace key="119" case="first-letter">Draft talk</namespace>
+      <namespace key="446" case="first-letter">Education Program</namespace>
+      <namespace key="447" case="first-letter">Education Program talk</namespace>
+      <namespace key="710" case="first-letter">TimedText</namespace>
+      <namespace key="711" case="first-letter">TimedText talk</namespace>
+      <namespace key="828" case="first-letter">Module</namespace>
+      <namespace key="829" case="first-letter">Module talk</namespace>
+      <namespace key="2300" case="first-letter">Gadget</namespace>
+      <namespace key="2301" case="first-letter">Gadget talk</namespace>
+      <namespace key="2302" case="case-sensitive">Gadget definition</namespace>
+      <namespace key="2303" case="case-sensitive">Gadget definition talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Microsoft engineering groups</title>
+    <ns>0</ns>
+    <id>8097112</id>
+    <revision>
+      <id>954385804</id>
+      <parentid>954385149</parentid>
+      <timestamp>2020-05-02T03:43:00Z</timestamp>
+      <contributor>
+        <username>Officer781</username>
+        <id>5336741</id>
+      </contributor>
+      <comment>/* Office */ display just To Do</comment>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="21368" xml:space="preserve">'''Microsoft engineering groups''' are the operating divisions of [[Microsoft]]. Starting in April 2002, Microsoft organised itself into seven groups, each an independent financial entity. In September 2005, Microsoft announced a reorganization of its then seven groups into three. In July 2013, Microsoft announced another reorganization into five engineering groups and six corporate affairs groups.&lt;ref&gt;{{cite web|last=Ballmer|first=Steve|title=One Microsoft: Company realigns to enable innovation at greater speed, efficiency|url=https://www.microsoft.com/en-us/news/press/2013/jul13/07-11onemicrosoft.aspx|work=Microsoft|publisher=Microsoft|accessdate=28 October 2013}}&lt;/ref&gt; A year later, in June 2015, Microsoft reformed into three engineering groups.&lt;ref&gt;{{cite web|url=http://news.microsoft.com/2015/06/17/microsoft-aligns-engineering-teams-to-strategy/|title=Microsoft aligns engineering teams to strategy|publisher=Microsoft News Center}}&lt;/ref&gt; In September 2016, a new group was created to focus on [[artificial intelligence]] and research.&lt;ref name=":0"&gt;{{Cite news|url=http://www.geekwire.com/2016/internal-email-microsoft-forms-new-5000-person-ai-division-top-exec-qi-lu-leaving-bike-injury/|title=Internal email: Microsoft forms new 5,000-person AI division; key exec Qi Lu leaving after bike injury|date=2016-09-29|newspaper=GeekWire|language=en-US|access-date=2016-10-27}}&lt;/ref&gt; On March 29, 2018 a new structure merged all of these into three.&lt;ref&gt;{{Cite news|url=https://news.microsoft.com/2018/03/29/satya-nadella-email-to-employees-embracing-our-future-intelligent-cloud-and-intelligent-edge/|title=Satya Nadella email to employees: Embracing our future: Intelligent Cloud and Intelligent Edge {{!}} Stories|date=2018-03-29|work=Stories|access-date=2018-04-01|language=en-US}}&lt;/ref&gt;&lt;ref&gt;{{Cite news|url=https://www.theverge.com/2018/3/30/17179328/microsoft-windows-reorganization-future-2018|title=Microsoft is ready for a world beyond Windows|work=The Verge|access-date=2018-07-07}}&lt;/ref&gt;
+
+As of 2019, these four groups are:
+
+* Cloud + AI Group
+* Experiences + Devices
+* Artificial Intelligence and Research
+* Core Services Engineering &amp; Operations
+{{TOC limit}} 
+
+== Experiences + Devices ==
+This group produces experiences, from Windows products to devices, to enterprise. Microsoft 365 is the subscription solution that brings it all together.
+
+=== Windows experience ===
+{{main|Microsoft Windows}}
+
+[[Windows]] is an [[operating system]] by Microsoft. Windows is available in different families, catering to different kinds of devices.&lt;ref&gt;{{cite web|url=http://www.digitaltrends.com/computing/windows-10-will-have-seven-editions-heres-how-to-tell-which-is-for-you/|title=Windows 10 has seven editions – here’s how to tell which is for you|date=29 May 2015|publisher=}}&lt;/ref&gt;
+
+* [[Windows NT]]: [[Windows 10]] is the latest OS in this family. It is designed for use in [[personal computer]]s, [[2-in-1 PC]]s and [[tablet computers|tablet]]s. As of 2019, Microsoft Windows retained [[Usage share of operating systems|around 85% market share]] in [[personal computer]]s and [[2-in-1 PC]]s combined.&lt;ref&gt;{{cite web|url=https://www.netmarketshare.com/operating-system-market-share.aspx?qprid=10&amp;qpcustomd=0|title=Operating system market share|publisher=}}&lt;/ref&gt; However, in tablets the market share of Windows is just around 15%.&lt;ref&gt;{{Cite news|url=https://www.businesswire.com/news/home/20180503005998/en/Strategy-Analytics%C2%A0Tablet-Market-Falls-7-Percent-Q1|title=Strategy Analytics: Tablet Market Falls 7 Percent in Q1 2018 while Top Vendors Play to Strengths|last=|first=|newspaper=Strategy-Analytics|access-date=October 7, 2018}}&lt;/ref&gt;
+* [[Windows IoT]]: It is designed specifically for use in [[Internet of Things|IoT]] scenarios such as on devices where the OS may not directly be visible to the end user, in particular, home appliances, home automation, auto-motives, industry devices etc.&lt;ref&gt;{{cite web|url=http://developer.telerik.com/featured/a-guided-tour-of-windows-10-iot-core/|title=A Guided Tour of Windows 10 IoT Core -|date=15 July 2015|publisher=}}&lt;/ref&gt;
+* [[Windows 10 Mobile]], [[Windows Phone]] and [[Windows Mobile]]: These are designed for smartphones and small tablets. The last OS in this group viz. Windows 10 Mobile includes all basic consumer features, including [[Windows 10 Mobile#Features|Continuum]] capability. These all have been discontinued.&lt;ref&gt;{{cite web|url=https://redmondmag.com/articles/2011/06/10/microsoft-phasing-out-windows-mobile-6.aspx|title=Microsoft Phasing Out Windows Mobile 6.x |publisher= Redmondmag.com}}&lt;/ref&gt;&lt;ref name=Digitaltrends&gt;{{cite news|last=Sherman|first=Joshua|title=Goodbye Windows Phone! Windows 10 will take it from here|url=http://www.digitaltrends.com/mobile/windows-phone-dead-windows-10-instead/|newspaper=Digital Trends|date=30 September 2015}}&lt;/ref&gt;&lt;ref name="auto"&gt;{{Cite news|url=https://www.cnet.com/news/windows-10-mobile-features-hardware-death-sentence-microsoft/|title=Windows 10 Mobile gets its final death sentence|last=Reilly|first=Claire|date=2017-10-08|work=CNET|access-date=2017-10-09|language=en}}&lt;/ref&gt;
+* [[Windows 9x]] comprises [[Windows 95]], [[Windows 98]] and [[Windows ME]]. This family has also been discontinued.&lt;ref&gt;{{cite web|url=https://www.washingtonpost.com/wp-dyn/content/article/2006/06/30/AR2006063001587.html|title=Microsoft to End Support Of Old Windows Versions|first=Brian|last=Krebs|date=1 July 2006|publisher=|via=washingtonpost.com}}&lt;/ref&gt;
+* [[Windows 1.0]], [[Windows 2.0]] and [[Windows 3.0]] are versions of Windows that were launched from [[MS-DOS]] and were not stand-alone [[operating system]]s. This family has also been discontinued.
+* [[Xbox One system software]] includes all versions of Windows running on [[Xbox]] game consoles.&lt;ref&gt;{{cite web|url=https://www.wired.co.uk/news/archive/2015-10/27/xbox-one-update-november-12|title=The biggest Xbox One update in history finally has a launch date|first=Michael|last=Rundle|publisher=}}&lt;/ref&gt;
+
+=== Office ===
+{{Main|Microsoft Office|Office on the web}}
+
+[[Microsoft Office]] is a line of office software, provided by Microsoft.
+
+* Office&lt;ref&gt;{{cite web|url=https://9to5mac.com/2016/01/22/mac-users-can-now-try-out-new-microsoft-office-features-early-with-office-insider-program/|title=Mac users can now try out new Microsoft Office features early with ‘Office Insider’ program|last=Mayo|first=Benjamin|date=22 January 2016|publisher=}}&lt;/ref&gt;&lt;ref&gt;{{cite web|url=http://www.winbeta.org/news/office-mobile-apps-word-powerpoint-excel-pick-new-updates|title=Office Mobile apps Word, PowerPoint and Excel see new updates arrive in store|date=20 January 2016|publisher=On MSFT}}&lt;/ref&gt; includes [[Microsoft Word|Word]] (a word processor), [[Microsoft Excel|Excel]] (a [[spreadsheet]] program), [[Microsoft PowerPoint|PowerPoint]] (a presentation software), [[Microsoft Access|Access]] (a personal relational database application), [[Microsoft Outlook|Outlook]] (an email program, frequently used with [[Microsoft Exchange Server|Exchange Server]]),  [[Microsoft OneNote|OneNote]] (a [[Notetaking software|notetaking program]])  and [[Microsoft Publisher|Publisher]] ([[desktop publishing software]]).  It also encompasses other products (not bundled in Office suite) like [[Microsoft Project]], [[Microsoft Visio]], [[Microsoft SharePoint]] and [[Skype for Business]].
+* Office on the web&lt;ref&gt;{{cite web|url=http://www.informationweek.com/software/enterprise-applications/microsoft-office-online-gets-new-cloud-storage-options/d/d-id/1324088|title=Microsoft Office Online Gets New Cloud Storage Options|publisher=InformationWeek}}&lt;/ref&gt; is combination of Microsoft Office Web Apps (an online version of Microsoft Office's core apps) and various formerly [[Windows Live]] branded web services, in general all these services are connected via [[Microsoft account]]s. This includes free versions of Word, Excel, PowerPoint, [[Outlook.com]] (a free [[web-based]] service previously branded as ''Hotmail''. It includes Mail, People and Calendar), OneNote, OneDrive (a free [[cloud storage]] and [[file hosting]] service, it was previously branded as ''SkyDrive''), [[Sway (Office app)|Sway]] (a [[presentation program]] that can pull content from various websites), [[Docs.com]] (a site where users can discover, upload and share Office documents on their profile page, the website originally started as a collaboration between Microsoft and the [[Facebook]] but was redesigned for Office on the web) and [[Microsoft To Do|To Do]].
+
+==== Skype ====
+{{Main|Skype|Skype Technologies}}
+Skype&lt;ref&gt;{{cite web|url=https://www.pcmag.com/article2/0,2817,2498484,00.asp|title=Microsoft Brings Skype Closer to Unified Business Communication|publisher=}}&lt;/ref&gt; is an [[application software|application]] that specializes in providing [[Videotelephony|video chat]] and voice call services. Users can exchange [[instant messaging|text]] and [[video messaging|video messages]], files and images, and create [[videoconferencing|conference calls]]. Other applications developed alongside Skype are [[Skype Translator]], [[Skype Qik]] and [[GroupMe]]. Originally launched in 2003, it was bought by [[Microsoft]] in 2011 for $8.5 billion.&lt;ref&gt;{{cite web|url=https://www.wired.com/2011/05/microsoft-buys-skype-2/|title=Microsoft Buys Skype for $8.5 Billion. Why, Exactly?|last=Bright|first=Peter|publisher=}}&lt;/ref&gt;
+
+=== Devices ===
+{{Main|Microsoft hardware}}
+The Microsoft hardware division is responsible for producing self-branded [[Computer hardware|hardware]] and various lines of [[consumer electronics]] products. They consist of:
+* [[Microsoft Surface]] - a family of Windows-based [[personal computing]] devices, first launched in 2012. It includes the [[Surface (first generation)|Surface]] and [[Surface Pro]] series of [[2-in-1 PC|2-in-1]] [[tablet computer]]s, the [[Surface Book]] [[laptop]], the [[Surface Studio]] [[all-in-one PC]], and the [[Surface Hub]] [[interactive whiteboard]].
+* [[Microsoft HoloLens]] - a set of [[augmented reality]] [[smartglasses]], launched in 2016.&lt;ref&gt;{{cite web|url=http://time.com/4190843/microsoft-hololens-demo-2016/|title=What Impressed Me the Most About Microsoft’s HoloLens|publisher=}}&lt;/ref&gt;
+*[[Xbox]] - a home [[gaming console]]. Many [[video games]] for the platform have been developed by the company's [[Microsoft Studios]] subsidiary, in addition to [[third-party developer|third-party]] [[video game publisher]]s such as [[Electronic Arts]] and [[Activision]]. The [[Xbox (console)|first generation]] launched in 2001&lt;ref&gt;{{cite web|url=http://www.digitaltrends.com/gaming/the-history-of-the-xbox/|title=The History of the Xbox|date=12 May 2013|publisher=}}&lt;/ref&gt; and was succeeded by the [[Xbox 360]] in 2005,&lt;ref&gt;{{cite web | url=http://informationweek.com/story/showArticle.jhtml?articleID=174401045 | title=Midnight Madness Hypes Xbox 360 Launch | accessdate=2006-07-03}}&lt;/ref&gt;&lt;ref&gt;{{cite news | url=http://news.bbc.co.uk/2/hi/technology/4491804.stm | title=Xbox 360 sells out within hours | accessdate=2006-07-03 | work=BBC News | date=2005-12-02}}&lt;/ref&gt; and in turn by the [[Xbox One]] in 2013.&lt;ref&gt;{{cite web | url=http://www.gamespot.com/news/6139702.html | title=360 to play 200-plus Xbox games | author=Tor Thorsen | publisher=GameSpot | date=2005-11-11 | accessdate=2006-07-14}}&lt;/ref&gt;&lt;ref&gt;{{cite web | url=http://www.gamespot.com/news/6140998.html | title=360 backward-compatibility update re-released | author=Tor Thorsen | publisher=GameSpot | date=2005-12-09 | accessdate=2006-07-14}}&lt;/ref&gt;
+* Microsoft also produces and sells [[computer mouse|mice]], [[Computer keyboard|keyboard]]s, [[webcam]]s, [[headset (audio)|headsets]], [[game controller]]s and wireless display adapters. The production of these accessories is [[Outsourcing|outsourced]] in most cases.
+
+=== MSN ===
+{{Main|MSN|MSN Dial-up}}
+
+MSN is a [[web portal]] and related collection of [[Internet]] services and [[Mobile app|apps]] for [[Windows]] and [[mobile devices]], provided by [[Microsoft]]. It was launched on August 1995. The current website and suite of apps offered by MSN was first introduced by Microsoft in 2014 as part of a complete redesign and relaunch.&lt;ref name="msn2014relaunch"&gt;{{cite news |last=Bishop|first=Todd |date=September 30, 2014 |title=MSN's rebirth brings Microsoft's new approach into focus |url=http://www.geekwire.com/2014/msns-rebirth-brings-microsofts-new-approach-focus|newspaper=GeekWire|accessdate=2014-10-01 }}&lt;/ref&gt; The redesign of MSN proved positive and helped increase traffic with an additional 10 million daily visitors after two months.&lt;ref name=WindowsOnBeta&gt;{{cite news|last=Finney|first=Joseph|title=How has Microsoft's redesign of MSN.com affected daily site traffic?|url=http://www.winbeta.org/news/how-has-microsofts-redesign-msncom-affected-daily-site-traffic|newspaper=WinBeta|date=19 November 2014}}&lt;/ref&gt; MSN is based in the [[United States]] and offers international versions of its portal for dozens of countries around the world.&lt;ref name="msnworldwide"&gt;{{cite web |title=MSN Worldwide |url=https://www.msn.com/en-us/msn-worldwide|accessdate=2015-04-10 }}&lt;/ref&gt;
+
+=== Servers ===
+{{main|Microsoft Servers}}
+Microsoft Servers&lt;ref&gt;{{cite web|url=https://www.zdnet.com/article/microsoft-rolls-out-its-r-server-big-data-analytics-line-up/|title=Microsoft rolls out its R Server big-data analytics line-up - ZDNet|first=Mary Jo|last=Foley|publisher=}}&lt;/ref&gt; (previously called Windows Server System) is a brand that encompasses [[Microsoft]]'s [[Server (computing)|server]] products. This includes the [[Windows Server]] editions of the [[Microsoft Windows]] [[operating system]] itself, as well as products targeted at the wider business market.&lt;ref&gt;{{cite web|url=https://www.nytimes.com/2016/02/01/technology/microsoft-plumbs-oceans-depths-to-test-underwater-data-center.html|title=Microsoft Plumbs Ocean’s Depths to Test Underwater Data Center|first=John|last=Markoff|date=31 January 2016|publisher=|via=NYTimes.com}}&lt;/ref&gt; Microsoft's server products are further categorized into four groups namely, Operating systems, Productivity, Security and Microsoft System Center. A complete listing of product offerings can be found [[Microsoft Servers|here]].
+
+In July 2016, Microsoft moved the Windows Server team and its related products to the Windows and Devices Group, further justifying one Windows core across all platforms.&lt;ref&gt;{{Cite web|url=https://www.zdnet.com/article/microsoft-to-move-windows-server-engineering-team-into-windows-and-devices-group/|title=Microsoft to move Windows Server engineering team into Windows and Devices Group {{!}} ZDNet|last=Foley|first=Mary Jo|website=ZDNet|access-date=2016-11-29}}&lt;/ref&gt;
+
+== Cloud + AI Platform == 
+This group focuses on building the core foundations. It was originally the Cloud and Enterprise group until March 2018, when it was expanded with the Windows core platform team merged into it. Led by [[Scott Guthrie]].
+
+=== Azure ===
+{{main|Microsoft Azure}}
+[[Microsoft Azure]]&lt;ref&gt;{{cite web|url=https://www.nextplatform.com/2016/01/29/inside-microsofts-azure-stack-private-cloud/|title=Inside Microsoft's Azure Stack Private Cloud|date=29 January 2016|publisher=}}&lt;/ref&gt; is the company's cloud computing platform that hosts [[virtual machines]], [[websites]] and more. It provides both platform as a service (PaaS) and infrastructure as a service (IaaS) services and supports many different programming languages, tools and frameworks, including both Microsoft-specific and third-party software and systems. It was launched in 2010. Within the Azure team
+
+* Business AI
+* Universal Store and Commerce
+* AI Perception and Mixed Reality
+* AI Cognitive Services and Platform
+
+=== Visual Studio ===
+{{main|Microsoft Visual Studio}}
+[[Microsoft Visual Studio]]&lt;ref&gt;{{cite web|url=https://venturebeat.com/2015/11/18/microsoft-open-sources-visual-studio-code-launches-free-visual-studio-dev-essentials-program/|title=Microsoft open-sources Visual Studio Code, launches free Visual Studio Dev Essentials program|publisher=}}&lt;/ref&gt; the set of [[Computer programming|programming]] tools and [[compiler]]s. The software product is GUI-oriented and links easily with the [[Windows API]]s, but must be specially configured if used with non-Microsoft libraries. Visual Studio supports development for both native [[Microsoft Windows|Windows]] platform and [[.NET Framework]]. It was launched in 1995.
+
+=== Dynamics ===
+{{main|Microsoft Dynamics}}
+
+[[Microsoft Dynamics]] is a line of enterprise resource planning (ERP) and customer relationship management (CRM) software applications. Microsoft Dynamics was previously a separate engineering unit until it got reorganised into the Cloud &amp; Enterprise Group in June 2015.&lt;ref name=Microsoft-Dynamics-Cloud-And-Enterprise&gt;{{cite news|last=Foley|first=Mary Jo|title=How Microsoft's latest reorg will affect Dynamics CRM and ERP. Microsoft is bringing its Dynamics CRM and ERP businesses out of their silo and into the company's Cloud and Enterprise unit.|url=https://www.zdnet.com/article/how-microsofts-latest-reorg-will-affect-dynamics-crm-and-erp/|newspaper=ZDNet|date=18 June 2015}}&lt;/ref&gt;
+
+== Artificial Intelligence and Research ==
+This group was created in September 2016 to emphasize the company's presence on artificial intelligence. It was formed when parts of the former Apps and Services group came together with the research team to form a fourth engineering group.&lt;ref name=":0" /&gt;&lt;ref&gt;{{Cite news|url=http://www.computerworld.com/article/3126345/emerging-technology/the-reasoning-behind-microsofts-new-ai-and-research-group.html|title=The reasoning behind Microsoft's new A.I. and Research Group|last=Linke|first=Rebecca|newspaper=Computerworld|access-date=2016-10-27}}&lt;/ref&gt; Led by [[Harry Shum]].
+
+=== Bing ===
+{{Main|Bing (search engine)|Bing Mobile}}
+Bing (known previously as Live Search, Windows Live Search, and MSN Search) is a [[web search engine]] (advertised as a "[[decision engine]]"&lt;ref&gt;{{cite web |url=http://discoverbing.com/ |title=Welcome to Discover Bing |publisher=Discover Bing |accessdate=16 January 2010}}&lt;/ref&gt;) from [[Microsoft]]. {{As of|2018|10|alt=}}, Bing is the third largest search engine globally, with a query volume of 4.58%, behind [[Google Search|Google]] (77%) and [[Baidu]] (14.45%).&lt;ref&gt;{{Cite web|url=https://www.netmarketshare.com/search-engine-market-share.aspx?options=%7B%22filter%22%3A%7B%22%24and%22%3A%5B%7B%22deviceType%22%3A%7B%22%24in%22%3A%5B%22Desktop%2Flaptop%22%2C%22Mobile%22%5D%7D%7D%5D%7D%2C%22dateLabel%22%3A%22Trend%22%2C%22attributes%22%3A%22share%22%2C%22group%22%3A%22searchEngine%22%2C%22sort%22%3A%7B%22share%22%3A-1%7D%2C%22id%22%3A%22searchEnginesDesktop%22%2C%22dateInterval%22%3A%22Monthly%22%2C%22dateStart%22%3A%222017-10%22%2C%22dateEnd%22%3A%222018-09%22%2C%22segments%22%3A%22-1000%22%7D|title=Net Marketshare, Market Share Statistics for Internet Technologies|last=|first=|date=|website=netmarketshare.com|accessdate=}}&lt;/ref&gt; A complete list of search offerings from Bing can be found [[Bing (search engine)#Search products|here]]. Under Bing, below non-search offerings are also listed:
+*[[Bing Ads]]:&lt;ref&gt;{{cite web|url=http://www.webpronews.com/heres-whats-changing-with-bing-ads-now-that-it-includes-aol-2016-01/|title=Here's What's Changing With Bing Ads Now That It Includes AOL|publisher=}}&lt;/ref&gt; an advertising service that provides [[pay per click]] advertising on various search engines.
+*[[Bing Translator]]:&lt;ref&gt;{{cite web|url=http://wmpoweruser.com/bing-translator-beta-app-for-windows-10-updated/|title=Bing Translator beta app for Windows 10 updated |date=24 September 2015|publisher=MSPoweruser}}&lt;/ref&gt; a [[statistical machine translation]] platform and web service.
+*[[Bing Webmaster Tools]]:&lt;ref&gt;{{cite web|url=http://www.thesempost.com/bing-webmaster-tools-warns-of-microsoft-edge-compatibility-issues/|title=Bing Webmaster Tools Warns of Microsoft Edge Compatibility Issues|date=8 January 2016|publisher=}}&lt;/ref&gt; an online toolbox that allows webmasters to add their websites to the Bing index crawler.
+*[[Cortana (software)|Cortana]]:&lt;ref&gt;{{cite web|url=http://www.laptopmag.com/articles/turn-use-cortana-microsoft-edge|title=How to Turn On and Use Cortana in Microsoft Edge|publisher=}}&lt;/ref&gt; an [[intelligent personal assistant]].
+*[[Microsoft Pulse]]:&lt;ref&gt;[http://www.windowscentral.com/bing-pulse-real-time-polling-tools-rebranded-microsoft-pulse Bing Pulse real-time polling tools are now Microsoft Pulse real-time polling tools]&lt;/ref&gt; an [[audience response system]], it has been used by several major news organisations like [[CNN]], [[Fox News|Fox]] and [[MSNBC]].
+
+=== Research ===
+{{Main article|Microsoft Research}}
+Microsoft Research was created with the intent to advance state of the art computing and solve difficult world problems through technological innovation in collaboration with academic, government, and industry researchers.
+
+==See also==
+
+* [[Microsoft Digital Crimes Unit]]
+* [[Microsoft Garage]]
+* [[Microsoft Press]]
+* [[Microsoft Research]]
+* [[Microsoft Studios]]
+
+==References==
+{{Reflist|30em}}
+
+==External links==
+* [http://news.microsoft.com/2015/06/17/microsoft-aligns-engineering-teams-to-strategy/ Microsoft aligns engineering teams to strategy News Center - Microsoft aligns engineering teams to strategy]
+
+{{Microsoft}}
+
+[[Category:Microsoft divisions]]</text>
+      <sha1>fzt0n8joy0na74ydzm7hnv8fbzqnock</sha1>
+    </revision>
+  </page>
+</mediawiki>

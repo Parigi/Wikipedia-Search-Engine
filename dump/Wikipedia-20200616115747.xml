@@ -1,0 +1,195 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.10/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.10/ http://www.mediawiki.org/xml/export-0.10.xsd" version="0.10" xml:lang="en">
+  <siteinfo>
+    <sitename>Wikipedia</sitename>
+    <dbname>enwiki</dbname>
+    <base>https://en.wikipedia.org/wiki/Main_Page</base>
+    <generator>MediaWiki 1.35.0-wmf.36</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Media</namespace>
+      <namespace key="-1" case="first-letter">Special</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Talk</namespace>
+      <namespace key="2" case="first-letter">User</namespace>
+      <namespace key="3" case="first-letter">User talk</namespace>
+      <namespace key="4" case="first-letter">Wikipedia</namespace>
+      <namespace key="5" case="first-letter">Wikipedia talk</namespace>
+      <namespace key="6" case="first-letter">File</namespace>
+      <namespace key="7" case="first-letter">File talk</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki talk</namespace>
+      <namespace key="10" case="first-letter">Template</namespace>
+      <namespace key="11" case="first-letter">Template talk</namespace>
+      <namespace key="12" case="first-letter">Help</namespace>
+      <namespace key="13" case="first-letter">Help talk</namespace>
+      <namespace key="14" case="first-letter">Category</namespace>
+      <namespace key="15" case="first-letter">Category talk</namespace>
+      <namespace key="100" case="first-letter">Portal</namespace>
+      <namespace key="101" case="first-letter">Portal talk</namespace>
+      <namespace key="108" case="first-letter">Book</namespace>
+      <namespace key="109" case="first-letter">Book talk</namespace>
+      <namespace key="118" case="first-letter">Draft</namespace>
+      <namespace key="119" case="first-letter">Draft talk</namespace>
+      <namespace key="446" case="first-letter">Education Program</namespace>
+      <namespace key="447" case="first-letter">Education Program talk</namespace>
+      <namespace key="710" case="first-letter">TimedText</namespace>
+      <namespace key="711" case="first-letter">TimedText talk</namespace>
+      <namespace key="828" case="first-letter">Module</namespace>
+      <namespace key="829" case="first-letter">Module talk</namespace>
+      <namespace key="2300" case="first-letter">Gadget</namespace>
+      <namespace key="2301" case="first-letter">Gadget talk</namespace>
+      <namespace key="2302" case="case-sensitive">Gadget definition</namespace>
+      <namespace key="2303" case="case-sensitive">Gadget definition talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Source code</title>
+    <ns>0</ns>
+    <id>27661</id>
+    <revision>
+      <id>954220946</id>
+      <parentid>954157410</parentid>
+      <timestamp>2020-05-01T08:24:15Z</timestamp>
+      <contributor>
+        <username>Murray Langton</username>
+        <id>25895</id>
+      </contributor>
+      <comment>Unexplained deletion. Undid revision 954157410 by [[Special:Contributions/2604:3D09:8680:7300:4CCE:4ECC:90AC:BD1D|2604:3D09:8680:7300:4CCE:4ECC:90AC:BD1D]] ([[User talk:2604:3D09:8680:7300:4CCE:4ECC:90AC:BD1D|talk]])</comment>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="17489" xml:space="preserve">{{About|the software concept|the film|Source Code}}
+{{Refimprove|date=August 2010}}
+
+{{Use dmy dates|date=January 2016}}
+[[File:Hello world c.svg|thumb|Simple [[C (programming language)|C-language]] source code example, a [[procedural programming language]]. The resulting program prints "hello, world" on the computer screen. This first known "[[Hello world]]" [[Snippet (programming)|snippet]] from the seminal book ''[[The C Programming Language (book)|The C Programming Language]]'' originates from [[Brian Kernighan]] in the [[Bell Labs|Bell Laboratories]] in 1974.&lt;ref name="ctutorial"&gt;{{cite web| url = http://cm.bell-labs.com/cm/cs/who/dmr/ctut.pdf| title = Programming in C: A Tutorial| archiveurl = https://web.archive.org/web/20150223025837/http://cm.bell-labs.com/cm/cs/who/dmr/ctut.pdf| archivedate = 23 February 2015| url-status = dead}}&lt;/ref&gt;&lt;!-- See http://cm.bell-labs.com/cm/cs/who/dmr/ctut.pdf for original.--&gt;]]
+{{Program execution}}
+
+In computing, '''source code''' is any collection of code, possibly with [[comment (computer programming)|comments]], written using&lt;ref name="ctutorial" /&gt; a ''human-readable'' [[programming language]], usually as [[plain text]]. The source code of a program is specially designed to facilitate the work of computer [[programmer]]s, who specify the actions to be performed by a computer mostly by writing source code. The source code is often transformed by an [[assembler (computing)|assembler]] or [[compiler]] into [[Binary number|binary]] [[machine code]] that can be executed by the computer. The machine code might then be stored for [[execution (computing)|execution]] at a later time. Alternatively, source code may be [[interpreter (computing)|interpreted]] and thus immediately executed.
+
+Most [[application software]] is distributed in a form that includes only [[executable]] files. If the source code were included it would be useful to a [[user (computing)|user]], programmer or a [[system administrator]], any of whom might wish to study or modify the program.
+
+== Definitions ==
+The [[Linux]] Information Project defines source code as:&lt;ref&gt;The Linux Information Project. [http://www.linfo.org/source_code.html "Source Code Definition"].&lt;/ref&gt;
+
+&lt;blockquote&gt;
+Source code (also referred to as source or code) is the version of software as it is originally written (i.e., typed into a computer) by a human in [[plain text]] (i.e., human readable alphanumeric characters).
+&lt;/blockquote&gt;
+
+The notion of source code may also be taken more broadly, to include machine code and notations in graphical languages, neither of which are textual in nature. An example from an article presented on the annual IEEE conference and on Source Code Analysis and Manipulation:&lt;ref&gt;[http://www.ieee-scam.org/ SCAM Working Conference], 2001–2010.&lt;/ref&gt;
+
+&lt;blockquote&gt;For the purpose of clarity "source code" is taken to mean any fully executable description of a software system. It is therefore so construed as to include machine code, very high level languages and executable graphical representations of systems.&lt;ref&gt;[http://www.cs.ucl.ac.uk/staff/M.Harman/scam10.pdf Why Source Code Analysis and Manipulation Will Always Be Important] by [[Mark Harman (computer scientist)|Mark Harman]], 10th IEEE International Working Conference on Source Code Analysis and Manipulation (SCAM 2010). [[Timișoara]], [[Romania]], 12–13 September 2010.&lt;/ref&gt;&lt;/blockquote&gt;
+
+Often there are several steps of [[program translation]] or [[minification (programming)|minification]] between the original source code typed by a human and an executable program. While some, like the [[Free software foundation|FSF]], argue that an intermediate file "is not real source code and does not count as source code",&lt;ref&gt;{{cite web|url=https://www.gnu.org/philosophy/free-sw.en.html|title=gnu.org|website=www.gnu.org}}&lt;/ref&gt; others find it convenient to refer to each intermediate file as the source code for the next steps.
+
+== History ==
+The earliest programs for [[stored-program computer]]s were entered in binary through the [[front panel]] switches of the computer. This [[first-generation programming language]] had no distinction between source code and [[machine code]].
+
+When IBM first offered software to work with its machine, the source code was provided at no additional charge. At that time, the cost of developing and supporting software was included in the price of the hardware. For decades, IBM distributed source code with its software product licenses, until 1983.&lt;ref&gt;{{cite magazine|magazine=[[Computerworld]]|volume=22|issue=6|date=February 8, 1988|author=Martin Goetz|page=59|title=Object-code only: Is IBM playing fair?|quote=It was in 1983 that IBM reversed its 20-year-old policy of distributing source code with its software product licenses.|url=https://books.google.com/books?id=hSBrPSYgjI4C&amp;printsec=frontcover#v=onepage&amp;q&amp;f=false}}&lt;/ref&gt;
+
+Most early computer magazines published source code as [[type-in program]]s.
+
+Occasionally the entire source code to a large program is published as a hardback book, such as ''Computers and Typesetting'', vol. B: ''TeX, The Program'' by [[Donald Knuth]], ''PGP Source Code and Internals'' by [[Philip Zimmermann]], ''PC SpeedScript'' by [[Randy Thompson]], and ''µC/OS, The Real-Time Kernel'' by Jean Labrosse.
+
+== Organization ==
+The source code which constitutes a [[computer program|program]] is usually held in one or more [[text file]]s stored on a computer's [[hard disk]]; usually these files are carefully arranged into a [[Directory (file systems)|directory tree]], known as a '''source tree'''. Source code can also be stored in a database (as is common for [[stored procedure]]s) or elsewhere.
+[[Image:CodeCmmt002.svg|thumb|right|A more complex [[Java (programming language)|Java]] source code example. Written in [[object-oriented programming]] style, it demonstrates [[boilerplate code]]. With prologue comments indicated in red, inline comments indicated in green, and program statements indicated in blue.]]
+
+The source code for a particular piece of software may be contained in a single file or many files. Though the practice is uncommon, a program's source code can be written in different programming languages.&lt;ref&gt;{{cite web |title=Extending and Embedding the Python Interpreter&lt;!--mdash is in title that now has "Python 2.7.11 documentation" not: " — Python v2.6 Documentation"--&gt; |url=https://docs.python.org/extending/ |work=docs.python.org}}&lt;/ref&gt; For example, a program written primarily in the [[C (programming language)|C programming language]], might have portions written in [[assembly language]] for optimization purposes. It is also possible for some components of a piece of software to be written and compiled separately, in an arbitrary programming language, and later integrated into the software using a technique called [[Library (computing)#Linking|library linking]]. In some languages, such as [[Java (programming language)|Java]], this can be done at [[run time (program lifecycle phase)|run time]] (each class is compiled into a separate file that is linked by the interpreter at runtime).
+
+Yet another method is to make the main program an interpreter for a programming language,{{Citation needed|date=May 2008}} either designed specifically for the application in question or general-purpose, and then write the bulk of the actual user functionality as [[Macro (computer science)|macros]] or other forms of add-ins in this language, an approach taken for example by the [[GNU Emacs]] text editor.
+
+The '''code base''' of a [[computer programming]] project is the larger collection of all the source code of all the [[computer program]]s which make up the project. It has become common practice to maintain code bases in [[version control system]]s. Moderately complex software customarily requires the compilation or assembly of several, sometimes dozens or maybe even hundreds, of different source code files. In these cases, instructions for compilations, such as a [[Makefile]], are included with the source code. These describe the programming relationships among the source code files and contain information about how they are to be compiled.
+
+== Purposes ==
+Source code is primarily used as input to the process that produces an executable program (i.e., it is [[compiler|compiled]] or [[Interpreter (computing)|interpreted]]). It is also used as a method of communicating [[algorithm]]s between people (e.g., [[code snippets]] in books).&lt;ref name=Spinellis&gt;Spinellis, D: ''Code Reading: The Open Source Perspective''. Addison-Wesley Professional, 2003. {{ISBN|0-201-79940-5}}&lt;/ref&gt;
+
+[[Programmer|Computer programmers]] often find it helpful to review existing source code to learn about programming techniques.&lt;ref name=Spinellis/&gt; The sharing of source code between developers is frequently cited as a contributing factor to the maturation of their programming skills.&lt;ref name=Spinellis/&gt; Some people consider source code an expressive [[Media (arts)|artistic medium]].&lt;ref&gt;"''Art and Computer Programming''" [http://www.onlamp.com/pub/a/onlamp/2005/06/30/artofprog.html ONLamp.com], (2005)&lt;/ref&gt;
+
+[[Porting]] software to other [[computer platform]]s is usually prohibitively difficult without source code. Without the source code for a particular piece of software, portability is generally computationally expensive.{{Citation needed|date=October 2008}} Possible porting options include [[binary translation]] and emulation of the original platform.
+
+[[Decompilation]] of an executable program can be used to generate source code, either in [[assembly code]] or in a [[High-level programming language|high-level language]].
+
+Programmers frequently adapt source code from one piece of software to use in other projects, a concept known as [[software reusability]].
+
+== Legal aspects ==
+{{see also|History of free and open-source software}}
+The situation varies worldwide, but in the United States before 1974, software and its source code was not [[copyright]]able and therefore always [[public domain software]].&lt;ref&gt;{{Cite journal|last=P.|first=Liu, Joseph|last2=L.|first2=Dogan, Stacey|date=2005|title=Copyright Law and Subject Matter Specificity: The Case of Computer Software|url=https://lawdigitalcommons.bc.edu/lsfp/536/|journal=New York University Annual Survey of American Law|language=en|volume=61|issue=2}}&lt;/ref&gt;
+
+In 1974, the US Commission on New Technological Uses of Copyrighted Works (CONTU) decided that "computer programs, to the extent that they embody an author's original creation, are proper subject matter of copyright".&lt;ref&gt;[http://digitalcommons.law.ggu.edu/cgi/viewcontent.cgi?article=1344&amp;context=ggulrev Apple Computer, Inc. v. Franklin Computer Corporation Puts the Byte Back into Copyright Protection for Computer Programs] in Golden Gate University Law Review Volume 14, Issue 2, Article 3 by Jan L. Nussbaum (January 1984)&lt;/ref&gt;&lt;ref name="sail_book"&gt;Lemley, Menell, Merges and Samuelson. ''Software and Internet Law'', p. 34.&lt;/ref&gt;
+
+In 1983 in the United States court case ''[[Apple v. Franklin]]'' it was ruled that the same applied to [[object code]]; and that the Copyright Act gave computer programs the copyright status of literary works.
+
+In 1999, in the United States court case ''[[Bernstein v. United States]]'' it was further ruled that source code could be considered a constitutionally protected form of [[free speech]]. Proponents of free speech argued that because source code conveys information to programmers, is written in a language, and can be used to share humor and other artistic pursuits, it is a protected form of communication.&lt;ref&gt;{{cite web|url=http://cr.yp.to/export/2002/08.02-bernstein-subst.pdf |title=Info |publisher=cr.yp.to |date= |accessdate=2019-12-27}}&lt;/ref&gt;&lt;ref&gt;[https://www.eff.org/cases/bernstein-v-us-dept-justice Bernstein v. US Department of Justice] on eff.org&lt;/ref&gt;&lt;ref&gt;[https://www.eff.org/deeplinks/2015/04/remembering-case-established-code-speech EFF at 25: Remembering the Case that established Code as Speech] on EFF.org by Alison Dame-Boyle (16 April 2015)&lt;/ref&gt;
+
+=== Licensing ===
+{{main article|Software license}}
+{{quotebox|title=Copyright notice example:&lt;ref&gt;{{cite web|url=https://www.apache.org/licenses/LICENSE-2.0 |title=License |publisher=www.apache.org |date= |accessdate=2019-12-27}}&lt;/ref&gt;|
+Copyright [yyyy] [name of copyright owner]
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+: &lt;nowiki&gt;http://www.apache.org/licenses/LICENSE-2.0&lt;/nowiki&gt;
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+|width=300px}}
+&lt;!-- FIXME: Since not a quote, different template should be used... --&gt;
+
+An author of a [[Threshold of originality|non-trivial work]] like software,&lt;ref name="sail_book"/&gt; has several [[exclusive right]]s, among them the copyright for the source code and [[object code]].&lt;ref name="fsm"&gt;{{cite web|url=http://www.freesoftwaremagazine.com/articles/what_if_copyright_didnt_apply_binary_executables |title=What if copyright didn't apply to binary executables? |date=2008-08-29| first=Terry |last=Hancock |publisher=[[Free Software Magazine]] |accessdate=2016-01-25}}&lt;/ref&gt; The author has the right and possibility to grant customers and users of his software some of his exclusive rights in form of [[software licensing]]. Software, and its accompanying source code, can be associated with several licensing paradigms; the most important distinction is [[open-source software|open source]] vs [[proprietary software]]. This is done by including a [[copyright notice]] that declares licensing terms. If no notice is found, then the default of ''[[All rights reserved]]'' is implied.
+
+Generally speaking, software is ''open source'' if the source code is free to use, distribute, modify and study, and ''proprietary'' if the source code is kept secret, or is privately owned and restricted. One of the first software licenses to be published and to explicitly grant these freedoms was the [[GNU General Public License]] in 1989; the [[BSD license]] is another early example from 1990.
+
+For proprietary software, the provisions of the various copyright laws, [[trade secret|trade secrecy]] and [[patent]]s are used to keep the source code closed. Additionally, many pieces of [[retail software]] come with an [[end-user license agreement]] (EULA) which typically prohibits [[decompilation]], [[reverse engineering]], analysis, modification, or circumventing of [[copy protection]]. Types of source code protection—beyond traditional [[compiler|compilation]] to [[object code]]—include code encryption, [[code obfuscation]] or [[code morphing]].
+
+== Quality ==
+{{main article|Software quality}}
+The way a program is written can have important consequences for its maintainers. [[Coding conventions]], which stress [[readability]] and some language-specific conventions, are aimed at the maintenance of the software source code, which involves [[debugging]] and [[Patch (computing)|updating]]. Other priorities, such as the speed of the program's execution, or the ability to compile the program for multiple architectures, often make code readability a less important consideration, since code ''quality'' generally depends on its ''purpose''.
+
+== See also ==
+* [[Bytecode]]
+* [[Code as data (disambiguation)|Code as data]]
+* [[Coding conventions]]
+* [[Computer code]]
+* [[Legacy code]]
+* [[Machine code]]
+* [[Markup language]]
+* [[Obfuscated code]]
+* [[Object code]]
+* [[Open-source software]]
+* [[Package (package management system)]]
+* [[Programming language]]
+* [[Source code repository]]
+* [[Syntax highlighting]]
+* [[Visual programming language]]
+
+== References ==
+{{reflist}}
+
+===Sources===
+* (VEW04) "Using a Decompiler for Real-World Source Recovery", M. Van Emmerik and T. Waddington, the ''Working Conference on Reverse Engineering'', [[Delft]], [[Netherlands]], 9–12 November 2004. [https://web.archive.org/web/20060108153532/http://www.itee.uq.edu.au/~emmerik/experience_long.pdf Extended version of the paper].
+
+== External links ==
+{{Wiktionary|code|source code}}
+{{Commons category}}
+* [http://www.linfo.org/source_code.html Source Code Definition] by The Linux Information Project (LINFO)
+* {{cite web| title=Obligatory accreditation system for IT security products
+|date=22 September 2008
+|quote=will introduce rules requiring foreign firms to disclose secret information about digital household appliances and other products from May next year, the [[Yomiuri Shimbun]] said, citing unnamed sources. If a company refuses to disclose information, China would ban it from exporting the product to the Chinese market or producing or selling it in China, the paper said. &lt;!--|accessdate=24 April 2009
+Text was "may start from May 2009, reported by Yomiuri on 2009-04-24."--&gt;|url=http://www.metafilter.com/75061/Obligatory-accreditation-system-for-IT-security-products |publisher=MetaFilter.com}}
+* [http://rosettacode.org/wiki/Main_Page Same program written in multiple languages]
+* [https://javascript-obfuscator.org/ Javascript Obfuscator]
+
+{{Authority control}}
+
+{{DEFAULTSORT:Source Code}}
+[[Category:Source code| ]]
+[[Category:Text]]</text>
+      <sha1>oitb09fucvf8nn7e9brd61it1c30dfl</sha1>
+    </revision>
+  </page>
+</mediawiki>

@@ -1,0 +1,235 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.10/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.10/ http://www.mediawiki.org/xml/export-0.10.xsd" version="0.10" xml:lang="en">
+  <siteinfo>
+    <sitename>Wikipedia</sitename>
+    <dbname>enwiki</dbname>
+    <base>https://en.wikipedia.org/wiki/Main_Page</base>
+    <generator>MediaWiki 1.35.0-wmf.36</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Media</namespace>
+      <namespace key="-1" case="first-letter">Special</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Talk</namespace>
+      <namespace key="2" case="first-letter">User</namespace>
+      <namespace key="3" case="first-letter">User talk</namespace>
+      <namespace key="4" case="first-letter">Wikipedia</namespace>
+      <namespace key="5" case="first-letter">Wikipedia talk</namespace>
+      <namespace key="6" case="first-letter">File</namespace>
+      <namespace key="7" case="first-letter">File talk</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki talk</namespace>
+      <namespace key="10" case="first-letter">Template</namespace>
+      <namespace key="11" case="first-letter">Template talk</namespace>
+      <namespace key="12" case="first-letter">Help</namespace>
+      <namespace key="13" case="first-letter">Help talk</namespace>
+      <namespace key="14" case="first-letter">Category</namespace>
+      <namespace key="15" case="first-letter">Category talk</namespace>
+      <namespace key="100" case="first-letter">Portal</namespace>
+      <namespace key="101" case="first-letter">Portal talk</namespace>
+      <namespace key="108" case="first-letter">Book</namespace>
+      <namespace key="109" case="first-letter">Book talk</namespace>
+      <namespace key="118" case="first-letter">Draft</namespace>
+      <namespace key="119" case="first-letter">Draft talk</namespace>
+      <namespace key="446" case="first-letter">Education Program</namespace>
+      <namespace key="447" case="first-letter">Education Program talk</namespace>
+      <namespace key="710" case="first-letter">TimedText</namespace>
+      <namespace key="711" case="first-letter">TimedText talk</namespace>
+      <namespace key="828" case="first-letter">Module</namespace>
+      <namespace key="829" case="first-letter">Module talk</namespace>
+      <namespace key="2300" case="first-letter">Gadget</namespace>
+      <namespace key="2301" case="first-letter">Gadget talk</namespace>
+      <namespace key="2302" case="case-sensitive">Gadget definition</namespace>
+      <namespace key="2303" case="case-sensitive">Gadget definition talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Portal:Computer programming</title>
+    <ns>100</ns>
+    <id>34241146</id>
+    <revision>
+      <id>922728651</id>
+      <parentid>922726388</parentid>
+      <timestamp>2019-10-23T22:38:55Z</timestamp>
+      <contributor>
+        <username>Oshwah</username>
+        <id>3174456</id>
+      </contributor>
+      <minor/>
+      <comment>Reverted edits by [[Special:Contribs/Randima.marasinghe|Randima.marasinghe]] ([[User talk:Randima.marasinghe|talk]]) to last version by Guilherme Burn</comment>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="5514" xml:space="preserve">{{Portal maintenance status|date=September 2019|subpages=no}}
+{{Portal description}}
+{{Portals browsebar}}
+__NOTOC__
+{{Box-header colour|Introduction}}
+{{Transclude lead excerpt | {{PAGENAME}} | paragraphs= | files=1}}
+{{Box-footer|[[{{PAGENAME}}|Read more...]]}}
+
+{{Box-header colour|Subtopics}}
+:&lt;small&gt;Select [show] to view subtopics&lt;/small&gt;
+{{Plain navboxes|content= {{Template:Computer science}} }}
+{{Plain navboxes|content= {{Template:Software engineering}} }}
+{{Plain navboxes|content= {{Template:Programming languages}} }}
+{{Box-footer}}
+
+{{Flex columns
+|1=&lt;!-- LEFT COLUMN --&gt;
+{{Box-header colour|Selected articles}}
+* [[Ada (programming language)]] {{icon|Vital}}
+* [[Ada Lovelace]] {{icon|Vital}}
+* [[Algorithm]] {{icon|Vital}}
+* [[Allocator (C++)]] {{icon|GA}}
+* [[Analytical Engine]]
+* [[Andrew S. Tanenbaum]]
+* [[Antikythera mechanism]]
+* [[Artificial intelligence]] {{icon|Vital}}
+* [[Assembly language]] {{icon|Vital}}
+* [[BASIC]] {{icon|Vital}}
+* [[Bill Gates]] {{icon|GA}} {{icon|Vital}}
+* [[C (programming language)]] {{icon|Vital}}
+* [[C sharp (programming language)]] {{icon|Vital}}
+* [[C++]] {{icon|Vital}}
+* [[Charles Babbage]] {{icon|Vital}}
+* [[COBOL]] {{icon|GA}} {{icon|Vital}}
+* [[Compiler]] {{icon|Vital}}
+* [[Computer architecture]] {{icon|Vital}}
+* [[Computer graphics]] {{icon|Vital}}
+* [[Computer hardware]] {{icon|Vital}}
+* [[Computer programming]] {{icon|Vital}}
+* [[D (programming language)]]
+* [[Data privacy]]
+* [[decltype]] {{icon|GA}}
+* [[Eiffel (programming language)]]
+* [[Erlang (programming language)]]
+* [[F Sharp (programming language)]]
+* [[Forth (programming language)]] {{icon|GA}}
+* [[Fortran]] {{icon|Vital}}
+* [[Go (programming language)]]
+* [[Haskell (programming language)]] {{icon|Vital}}
+* [[Information technology]] {{icon|Vital}}
+* [[Interpreter (computing)]] {{icon|Vital}}
+* [[Java (programming language)]] {{icon|Vital}}
+* [[JavaScript]] {{icon|Vital}}
+* [[Julia (programming language)]]
+* [[Kotlin (programming language)]]
+* [[LabVIEW]]
+* [[Linker (computing)]]
+* [[Linus Torvalds]] {{icon|Vital}}
+* [[Lisp (programming language)]]
+* [[Loader (computing)]]
+* [[MATLAB]]
+* [[Node.js]]
+* [[Null (SQL)]] {{icon|GA}}
+* [[Object Pascal]] 
+* [[Parallel computing]] {{icon|FA}} {{icon|Vital}}
+* [[Paul Allen]] {{icon|Vital}}
+* [[Perl]] {{icon|GA}} {{icon|Vital}}
+* [[PHP]] {{icon|GA}} {{icon|Vital}}
+* [[Programming language]] {{icon|Vital}}
+* [[Prolog]] {{icon|Vital}}
+* [[Punched card]]
+* [[Python (programming language)]] {{icon|GA}} {{icon|Vital}}
+* [[R (programming language)]]
+* [[Ronald Fedkiw]] {{icon|GA}}
+* [[Ruby (programming language)]] {{icon|Vital}}
+* [[Rust (programming language)]]
+* [[Scala (programming language)]] {{icon|Vital}}
+* [[SNOBOL]]
+* [[Swift (programming language)]] {{icon|Vital}}
+* [[Tcl]]
+* [[Unix shell]]
+{{Box-footer}}
+
+|2=&lt;!-- SECOND COLUMN --&gt;
+{{Box-header colour|Did you know?}}
+{{Transclude selected recent additions
+| [Cc]omputer [Ss]cience
+| [Cc]omputer [Pp]rogramming
+| [Cc]omputing
+| [Cc]omputer [Cc]ode
+| [Pp]rogramming [Ll]anguage
+| [Aa]lgorithm
+| [Hh]acker
+| months=36 | max=6}}
+{{Box-footer}}
+
+{{Box-header colour| Computer programming news}}
+{{Transclude selected current events
+|%f[%a][Cc]omputer [Ss]cience%f[%A]
+|%f[%a][Cc]omputer [Pp]rogramming%f[%A]
+|%f[%a][Cc]omputing%f[%A]
+|%f[%a][Cc]omputer [Cc]ode%f[%A]
+|%f[%a][Pp]rogramming [Ll]anguage%f[%A]
+|%f[%a][Aa]lgorithm%f[%A]
+|%f[%a][Hh]acker%f[%A]
+|days=365|dates=dmy}}
+{{Box-footer}}
+
+{{Box-header colour|Subcategories}}
+[[Image:C Puzzle.png|36px|right|Category puzzle]]
+:&lt;small&gt;Select [►] to view subcategories&lt;/small&gt;
+{{div col|colwidth=15em}}
+{{#tag:categorytree|Computer programming}}
+{{div col end}}
+{{Box-footer}}
+
+{{Box-header colour|WikiProjects}}
+[[Image:People icon.svg|36px|right|People icon]]
+:&lt;small&gt;There are many users interested in computer programming, join them.&lt;/small&gt;
+{{div col begin}}
+* [[Wikipedia:WikiProject Computing|WikiProject Computing]]
+* [[Wikipedia:WikiProject Computer science|WikiProject Computer science]]
+* [[Wikipedia:WikiProject C/C++|WikiProject C/C++]]
+* [[Wikipedia:WikiProject Java|WikiProject Java]]
+* [[Wikipedia:WikiProject Cryptography|WikiProject Cryptography]]
+* [[Wikipedia:WikiProject Software|WikiProject Software]]
+{{div col end}}
+{{Box-footer}}
+
+}} &lt;!-- END OF FLEX COLUMNS --&gt;
+
+{{Box-header colour|Selected images}}
+:&lt;small&gt;Click to enlarge and view description&lt;/small&gt; 
+&lt;gallery&gt;
+File:Emacs-screenshot.png
+File:Nano 2.1.2-svn.png
+File:Deep Blue.jpg
+File:IBM Port-A-Punch.jpg
+File:Grace Hopper and UNIVAC.jpg
+File:Ada Lovelace portrait.jpg
+File:Sorting quicksort anim.gif
+File:MAZE 30x20 Prim.ogv
+File:Internet map 1024.jpg
+File:GNOME Shell, GNOME Clocks, Evince, gThumb, GNOME Files at version 3.30 (2018-09) in Dark theme.png
+File:Margaret Hamilton - restoration.jpg
+File:NURBS 3-D surface.gif
+File:1Mcolors.png
+File:Gospers glider gun.gif
+File:Stephen Wolfram PR.jpg
+File:Lone House.jpg
+File:Shallow water waves.gif
+File:Biham-Middleton-Levine traffic model self-organized to a free flowing phase.ogv
+File:Mandel zoom 01 head and shoulder.jpg
+File:Hard disk head crash.jpg
+&lt;/gallery&gt;
+{{Box-footer}}
+
+{{Box-header colour|Related portals}}
+{{Related portals2|Free and open-source software|Technology|Engineering|Science|Linux|Amiga|Internet|Electronics|Mathematics}}
+{{Box-footer}}
+
+{{Box-header colour|Associated Wikimedia}}
+{{Wikimedia for portals | species=no | voy=no}}
+{{Box-footer}}
+
+{{portals}}
+
+__NOTOC__ __NOEDITSECTION__
+
+[[Category:Computing portals]]
+[[Category:Computer programming|ρ]]</text>
+      <sha1>0t2k8czqekmzovanip88slagu4qegvh</sha1>
+    </revision>
+  </page>
+</mediawiki>

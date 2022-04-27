@@ -1,0 +1,236 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.10/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.10/ http://www.mediawiki.org/xml/export-0.10.xsd" version="0.10" xml:lang="en">
+  <siteinfo>
+    <sitename>Wikipedia</sitename>
+    <dbname>enwiki</dbname>
+    <base>https://en.wikipedia.org/wiki/Main_Page</base>
+    <generator>MediaWiki 1.35.0-wmf.36</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Media</namespace>
+      <namespace key="-1" case="first-letter">Special</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Talk</namespace>
+      <namespace key="2" case="first-letter">User</namespace>
+      <namespace key="3" case="first-letter">User talk</namespace>
+      <namespace key="4" case="first-letter">Wikipedia</namespace>
+      <namespace key="5" case="first-letter">Wikipedia talk</namespace>
+      <namespace key="6" case="first-letter">File</namespace>
+      <namespace key="7" case="first-letter">File talk</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki talk</namespace>
+      <namespace key="10" case="first-letter">Template</namespace>
+      <namespace key="11" case="first-letter">Template talk</namespace>
+      <namespace key="12" case="first-letter">Help</namespace>
+      <namespace key="13" case="first-letter">Help talk</namespace>
+      <namespace key="14" case="first-letter">Category</namespace>
+      <namespace key="15" case="first-letter">Category talk</namespace>
+      <namespace key="100" case="first-letter">Portal</namespace>
+      <namespace key="101" case="first-letter">Portal talk</namespace>
+      <namespace key="108" case="first-letter">Book</namespace>
+      <namespace key="109" case="first-letter">Book talk</namespace>
+      <namespace key="118" case="first-letter">Draft</namespace>
+      <namespace key="119" case="first-letter">Draft talk</namespace>
+      <namespace key="446" case="first-letter">Education Program</namespace>
+      <namespace key="447" case="first-letter">Education Program talk</namespace>
+      <namespace key="710" case="first-letter">TimedText</namespace>
+      <namespace key="711" case="first-letter">TimedText talk</namespace>
+      <namespace key="828" case="first-letter">Module</namespace>
+      <namespace key="829" case="first-letter">Module talk</namespace>
+      <namespace key="2300" case="first-letter">Gadget</namespace>
+      <namespace key="2301" case="first-letter">Gadget talk</namespace>
+      <namespace key="2302" case="case-sensitive">Gadget definition</namespace>
+      <namespace key="2303" case="case-sensitive">Gadget definition talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Microsoft Exchange Server</title>
+    <ns>0</ns>
+    <id>508384</id>
+    <revision>
+      <id>945117069</id>
+      <parentid>943669787</parentid>
+      <timestamp>2020-03-11T22:28:21Z</timestamp>
+      <contributor>
+        <username>DannyS712</username>
+        <id>34581532</id>
+      </contributor>
+      <minor/>
+      <comment>Fixing period locations</comment>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="21499" xml:space="preserve">{{short description|Calendaring and mail server}}
+{{Use American English|date=January 2016}}
+{{Use mdy dates|date=October 2018}}
+{{Infobox software
+| name = Microsoft Exchange Server
+| logo = [[File:Microsoft Exchange (2019-present).svg|100px]]
+| logo caption = Exchange Server 2019 logo
+| developer = [[Microsoft]]
+| released = {{Start date and age|1996|04|11}}
+| operating system = [[Windows Server]]
+| platform = [[x64]]
+| language = &lt;!-- Please, do not forget your source --&gt;
+| genre = [[Collaborative software]]
+| license = [[Proprietary software|Proprietary]] [[commercial software]]
+}}
+'''Microsoft Exchange Server''' is a [[mail server]] and [[calendaring software|calendaring]] server developed by [[Microsoft]]. It runs exclusively on [[Windows Server]] operating systems.
+
+The first version was called Exchange Server 4.0, to position it as the successor to the related [[Microsoft Mail]] 3.5. Exchange initially used the [[X.400]] directory service but switched to [[Active Directory]] later. Until version 5.0 it came bundled with an email client called '''Microsoft Exchange Client'''. This was discontinued in favor of [[Microsoft Outlook]].
+
+Exchange Server primarily uses a proprietary protocol called [[MAPI]] to talk to [[email client]]s, but subsequently added support for [[Post Office Protocol|POP3]], [[Internet Message Access Protocol|IMAP]], and [[Exchange ActiveSync|EAS]]. The standard [[Simple Mail Transfer Protocol|SMTP]] protocol is used to communicate to other Internet mail servers.
+
+Exchange Server is licensed both as [[on-premises software]] and [[software as a service]] (SaaS). In the on-premises form, customers purchase [[client access license]]s (CALs); as SaaS, Microsoft charges a monthly service fee instead.
+
+==History==
+{{Main article| History of Microsoft Exchange Server}}
+Microsoft had sold a number of simpler email products before, but the first release of Exchange (Exchange Server 4.0 in March 1996) was an entirely new [[X.400]]-based [[client–server]] groupware system with a single database store, which also supported [[X.500]] directory services. The directory used by Exchange Server eventually became Microsoft's [[Active Directory]] service, an [[Lightweight Directory Access Protocol|LDAP]]-compliant directory service which was integrated into [[Windows 2000]] as the foundation of [[Windows Server domain]]s.
+
+As of 2018, there have been nine releases.
+ 
+===Current version===
+The current version, Exchange Server 2019,&lt;ref&gt;https://www.frankysweb.de/microsoft-kuendigt-exchange-2019-an/&lt;/ref&gt; was released in October 2018. Unlike other Office Server 2019 products such as SharePoint and Skype for Business, Exchange Server 2019 can only be deployed on Windows Server 2019. One of the key features of the new release is that Exchange Server can be deployed onto Windows Server Core for the first time, additionally Microsoft has retired the Unified Messaging feature of Exchange, meaning that Skype for Business on-premises customers will have to use alternative solutions for voicemail, such as Azure cloud voicemail. Unified Messaging continues to exist in Exchange Online requiring an Exchange Plan 2 license. 
+
+=== New features ===
+*'''Security:''' support for installing Exchange Server 2019 onto Windows Server Core
+*'''Performance:'''  supports running Exchange Server with up to 48 processor cores and 256 GB of RAM
+
+=== Removed features ===
+*'''Unified Messaging'''
+
+==Clustering and high availability==
+Exchange Server Enterprise Edition supports clustering of up to 4 nodes when using Windows 2000 Server, and up to 8 nodes with Windows Server 2003. Exchange Server 2003 also introduced active-active clustering, but for two-node clusters only. In this setup, both servers in the cluster are allowed to be active simultaneously. This is opposed to Exchange's more common active-passive mode in which the failover servers in any cluster node cannot be used at all while their corresponding home servers are active. They must wait, inactive, for the home servers in the node to fail. Subsequent performance issues with active-active mode have led Microsoft to recommend that it should no longer be used.&lt;ref name=exchangecluster/&gt; In fact, support for active-active mode clustering has been discontinued with Exchange Server 2007.
+
+Exchange's clustering (active-active or active-passive mode) has been criticized because of its requirement for servers in the cluster nodes to share the same data. The clustering in Exchange Server provides redundancy for Exchange Server as an ''application'', but not for Exchange ''data''.&lt;ref name=2k3benefits/&gt; In this scenario, the data can be regarded as a [[single point of failure]], despite Microsoft's description of this set-up as a "Shared Nothing" model.&lt;ref name=clustering/&gt; This void has however been filled by ISVs and storage manufacturers, through "site resilience" solutions, such as geo-clustering and asynchronous data replication.&lt;ref name=storageglossary/&gt; Exchange Server 2007 introduces new cluster terminology and configurations that address the shortcomings of the previous "shared data model".&lt;ref name=highavailability/&gt;
+
+Exchange Server 2007 provides built-in support for asynchronous replication modeled on SQL Server's "[[Log shipping]]"&lt;ref name=sql2kfaq/&gt; in CCR (Cluster Continuous Replication) clusters, which are built on MSCS MNS (Microsoft Cluster Service—Majority Node Set) clusters, which do not require shared storage. This type of cluster can be inexpensive and deployed in one, or "stretched" across two data centers for protection against site-wide failures such as natural disasters. The limitation of CCR clusters is the ability to have only two nodes and the third node known as "voter node" or file share witness that prevents "split brain"&lt;ref name=MSKB/&gt; scenarios, generally hosted as a file share on a Hub Transport Server. The second type of cluster is the traditional clustering that was available in previous versions, and is now being referred to as SCC (Single Copy Cluster). In Exchange Server 2007 deployment of both CCR and SCC clusters has been simplified and improved; the entire cluster install process takes place during Exchange Server installation. LCR or Local Continuous Replication has been referred to as the "poor man's cluster". It is designed to allow for data replication to an alternative drive attached to the same system and is intended to provide protection against local storage failures. It does not protect against the case where the server itself fails.
+
+In November 2007, Microsoft released SP1 for Exchange Server 2007. This service pack includes an additional high-availability feature called SCR (Standby Continuous Replication). Unlike CCR, which requires that both servers belong to a Windows cluster typically residing in the same datacenter, SCR can replicate data to a non-clustered server, located in a separate datacenter.
+
+With Exchange Server 2010, Microsoft introduced the concept of the Database Availability Group (DAG). A DAG contains Mailbox servers that become members of the DAG. Once a Mailbox server is a member of a DAG, the Mailbox Databases on that server can be copied to other members of the DAG. When a Mailbox server is added to a DAG, the Failover Clustering Windows role is installed on the server and all required clustering resources are created.
+
+==Licensing==
+Like Windows Server products, Exchange Server requires [[client access license]]s, which are different from Windows CALs. Corporate license agreements, such as the [[EA/SA|Enterprise Agreement]], or EA, include Exchange Server CALs. It also comes as part of the Core CAL. Just like Windows Server and other server products from Microsoft, there is the choice to use User CALs or Device CALs. Device CALs are assigned to devices (workstation, laptop or PDA), which may be used by one or more users.&lt;ref&gt;{{cite web |title=Top 75 Microsoft Licensing Terms – A Glossary From A(ntigen) To Z(une)|url=http://omtco.eu/references/microsoft/top-75-microsoft-licensing-terms-a-glossary-from-antigen-to-zune/|publisher=OMTCO, omt-co Operations Management Technology Consulting GmbH|accessdate=April 24, 2013}}&lt;/ref&gt; User CALs, are assigned to users, allowing them to access Exchange from any device. User and Device CALs have the same price, however, they cannot be used interchangeably.
+
+For service providers looking to host Microsoft Exchange, there is a Service Provider License Agreement (SPLA) available whereby Microsoft receives a monthly service fee instead of traditional CALs. Two types of Exchange CAL are available: Exchange CAL Standard and Exchange CAL Enterprise. The Enterprise CAL is an add-on license to the Standard CAL.
+
+==Clients==&lt;!--Microsoft Exchange Client redirects here--&gt;
+Microsoft Exchange Server uses a [[proprietary protocol|proprietary]] [[remote procedure call]] (RPC) protocol called [[MAPI|MAPI/RPC]],&lt;ref name=exchangeprotocols/&gt; which was designed to be used by [[Microsoft Outlook]]. Clients capable of using the proprietary features of Exchange Server include [[Evolution (software)|Evolution]]&lt;ref name=gnome/&gt;, [[Hiri (email client)|Hiri]] and Microsoft Outlook. [[Mozilla Thunderbird|Thunderbird]] can access Exchange server via the Owl Plugin.&lt;ref&gt;{{Cite web|url=https://www.beonex.com/owl/|title=Owl for Exchange|last=Beonex|website=Owl for Exchange|language=en|access-date=2020-02-21}}&lt;/ref&gt; 
+
+Exchange Web Services (EWS), an alternative to the MAPI protocol, is a documented [[SOAP]]-based protocol introduced with Exchange Server 2007. Exchange Web Services is used by the latest version of [[Microsoft Entourage]] for Mac and Microsoft Outlook for Mac - since the release of [[Mac OS X Snow Leopard]] Mac computers running OS X include some support for this technology via Apple's Mail application. 
+
+E-mail hosted on an Exchange Server can also be accessed using [[Post Office Protocol|POP3]], and [[Internet Message Access Protocol|IMAP4]] protocols, using clients such as [[Windows Live Mail]], [[Mozilla Thunderbird]], and [[Lotus Notes]]. These protocols must be enabled on the server. Exchange Server mailboxes can also be accessed through a web browser, using [[Outlook Web App]] (OWA). Exchange Server 2003 also featured a version of OWA for [[mobile device]]s, called Outlook Mobile Access (OMA).
+
+Microsoft Exchange Server up to version 5.0 came bundled with Microsoft Exchange Client as the email client. After version 5.0, this was replaced by Microsoft Outlook, bundled as part of [[Microsoft Office 97]] and later.&lt;ref name=what_is&gt;{{cite web |url=http://www.indiana.edu/~uits/telecom/messaging/whatexchange.html |title=What is the Microsoft Exchange client?}}&lt;/ref&gt; When Outlook 97 was released, Exchange Client 5.0 was still in development and to be later released as part of Exchange Server 5.0, primarily because Outlook was only available for Windows. Later, in Exchange Server 5.5, Exchange Client was removed and Outlook was made the only Exchange client. As part of Exchange Server 5.5, Outlook was released for other platforms.
+
+The original [[Windows 95]] "Inbox" client also used MAPI and was called "Microsoft Exchange". A stripped down version of the Exchange Client that does not have support for Exchange Server was released as [[Windows Messaging]] to avoid confusion; it was included with [[Windows 95 OSR2]], [[Windows 98]], and [[Windows NT 4]]. It was discontinued because of the move to email standards such as SMTP, IMAP, and POP3, all of which [[Outlook Express]] supports better than Windows Messaging.
+
+===Exchange ActiveSync===
+Support for [[Exchange ActiveSync]] (EAS) was added to Microsoft Exchange Server 2003. It allows a compliant device such as a [[Windows Mobile]] device or [[smartphone]] to securely synchronize mail, contacts and other data directly with an Exchange server and has become a popular mobile access standard for businesses due to support from companies like [[Nokia]] and [[Apple Inc.]]&lt;ref name=aslicensee/&gt; as well as its device security and compliance features. 
+
+Support for [[push email]] was added to it with Exchange Server 2003 Service Pack 2 and is supported by Windows Phone 7,&lt;ref name=asfaq/&gt; the [[iPhone]] and [[Android (operating system)|Android]] phones,&lt;ref name=iphone/&gt; but notably not for [[Apple Inc.|Apple]]'s native [[Mail (Apple)|Mail]] app on [[macOS]].
+
+Exchange ActiveSync Policies allow administrators to control which devices can connect to the organization, remotely deactivate features, and remotely wipe a lost or stolen devices.&lt;ref name=activesync/&gt;
+
+==Hosted Exchange as a service==
+The complexities of managing Exchange Server -- namely running both one or more  Exchange Servers, plus Active Directory synchronization servers --  make it attractive for organisations to purchase it as a hosted service.
+
+===Third-party providers===
+This has been possible from a number of providers&lt;ref name=hepd/&gt; for more than 10 years, but as of June 2018 is that many providers have been marketing the service as "cloud computing" or "Software-as-a-Service." Exchange hosting allows for Microsoft Exchange Server to be running in the Internet, also referred to as the Cloud, and managed by a "Hosted Exchange Server provider" instead of building and deploying the system in-house.
+
+===Exchange Online===
+Exchange Online is Exchange Server delivered as a cloud service hosted by Microsoft itself. It is built on the same technologies as [[on-premises software|on-premises]] Exchange Server, and offers essentially the same services as third-party providers which host Exchange Server instances.&lt;ref name=office365/&gt;
+
+Customers can also choose to combine both on-premises and online options in a hybrid deployment.&lt;ref&gt;{{cite book|title= Microsoft Office 365 Administration Inside Out|last= Puca|first= Anthony|publisher= Microsoft Press|year= 2013|isbn= 978-0735678231|location=|pages= 459–462}}&lt;/ref&gt;. Hybrid implementations are popular for organizations that are unsure of the need or urgency to do a full transition to Exchange Online, and also allows for staggered [[email migration]].
+
+Hybrid tools can cover the main stack of Microsoft Exchange, [[Skype for Business|Lync]], SharePoint, Windows, and Active Directory servers, in addition to using replica data to report cloud user experience. {{Citation needed|date=January 2016}}
+
+===History===
+Exchange Online was first provided as a hosted service in dedicated customer environments in 2005 to select pilot customers.&lt;ref name=hop/&gt; Microsoft launched a multi-tenant version of Exchange Online as part of the Business Productivity Online Standard Suite in November 2008.&lt;ref name=outofbeta/&gt; In June 2011, as part of the commercial release of [[Microsoft Office 365]], Exchange Online was updated with the capabilities of Exchange Server 2010.
+
+Exchange Server 2010 was developed concurrently as a server product and for the Exchange Online service.
+
+==See also==
+*[[History of Microsoft Exchange Server]]
+*[[Comparison of mail servers]]
+*[[Extensible Storage Engine]]
+*[[List of applications with iCalendar support]]
+*[[List of collaborative software]]
+*[[Innovative Communications Alliance]] (Microsoft - Nortel)
+
+==References==
+{{Reflist|30em|refs=
+
+&lt;!--
+&lt;ref name=fax&gt;{{cite web |title=How to Set Up a Fax Server or Fax Client with Microsoft Fax|url=http://support.microsoft.com/kb/141292/en-us|publisher=Microsoft|accessdate=October 28, 2012}}&lt;/ref&gt;
+
+&lt;ref name=pst&gt;{{cite web |title=The Microsoft Exchange Server 4.0 team invented .pst format for personal archives|url=http://support.microsoft.com/kb/297019/|publisher=Microsoft|accessdate=October 28, 2012}}&lt;/ref&gt;--&gt;
+
+&lt;ref name=exchangecluster&gt;{{cite web |title=Considerations when deploying Exchange on an Active/Active cluster |url=http://support.microsoft.com/default.aspx?scid=kb;en-us;815180&amp;product=exch2003|publisher=Microsoft|accessdate=October 28, 2012}}&lt;/ref&gt;
+
+&lt;ref name=2k3benefits&gt;{{cite web |title=The benefits of Windows 2003 clustering with Exchange 2003 |url=http://blogs.technet.com/exchange/archive/2004/06/09/152186.aspx|publisher=The Exchange Team Blog|accessdate=October 28, 2012|date=June 9, 2004}}&lt;/ref&gt;
+
+&lt;ref name=clustering&gt;{{cite web |title=Exchange Clustering Concepts |url=https://technet.microsoft.com/en-us/library/aa996210(v=exchg.65).aspx|publisher=TechNet|accessdate=October 28, 2012|date=February 9, 2006}}&lt;/ref&gt;
+
+&lt;ref name=storageglossary&gt;{{cite web |title=Storage Glossary: Basic Storage Terms |url=http://www.microsoft.com/windowsserversystem/storage/storgloss.mspx |work=[[Microsoft TechNet|TechNet]] |publisher=[[Microsoft]] |accessdate=October 28, 2012 |date=March 8, 2005 |archiveurl=https://web.archive.org/web/20070715104847/http://www.microsoft.com/windowsserversystem/storage/storgloss.mspx |archivedate=July 15, 2007}}&lt;/ref&gt;
+
+&lt;ref name=highavailability&gt;{{cite web |title=High availability |url=http://www.microsoft.com/technet/prodtechnol/exchange/E2k7Help/d2efb6f9-f70a-4f96-9f8d-f7aad6ae83d7.mspx|publisher=TechNet|accessdate=July 2, 2007|date=March 8, 2005}}&lt;/ref&gt;
+
+&lt;ref name=sql2kfaq&gt;{{cite web |title=Frequently asked questions—SQL Server 2000—Log shipping |url=http://support.microsoft.com/kb/314515/en-us|publisher=Microsoft|accessdate=October 28, 2012|date=March 8, 2005}}&lt;/ref&gt;
+
+&lt;ref name=MSKB&gt;{{cite web |title=An update is available that adds a file share witness feature and a configurable cluster heartbeats feature to Windows Server 2003 Service Pack 1-based server clusters |url=http://support.microsoft.com/kb/921181/en-us|publisher=Microsoft|accessdate=October 28, 2012}}&lt;/ref&gt;
+
+&lt;ref name=hepd&gt;{{cite web |title=Hosted Exchange Partner Directory |url=http://www.microsoft.com/serviceproviders/solutions/catalog.aspx|publisher=Microsoft|accessdate=October 28, 2012}}&lt;/ref&gt;
+
+&lt;ref name=office365&gt;{{cite web |title=Microsoft Exchange Online for Enterprises Service Description|url=http://www.microsoft.com/download/en/details.aspx?id=13602|publisher=Microsoft|accessdate=October 28, 2012}}&lt;/ref&gt;
+
+&lt;ref name=hop&gt;{{cite web |title=Microsoft hops into managed PC business|url=http://news.cnet.com/Microsoft-hops-into-managed-PC-business/2100-1011_3-5609320.html|publisher=CNET News|author=Ina Fried|accessdate=October 28, 2012|date=March 10, 2005}}&lt;/ref&gt;
+
+&lt;ref name=outofbeta&gt;{{cite web |title=Microsoft hops into managed PC business|url=http://www.microsoft.com/presspass/press/2008/nov08/11-17ExchangeSharePointOnlinePR.mspx|publisher=Microsoft|accessdate=October 28, 2012|date=November 7, 2008}}&lt;/ref&gt;
+
+&lt;ref name=exchangeprotocols&gt;{{cite web |title=Exchange Server Protocols|url=http://msdn.microsoft.com/en-us/library/cc307725(EXCHG.80).aspx|publisher=Microsoft|accessdate=October 28, 2012|date=November 7, 2008}}&lt;/ref&gt;
+
+&lt;ref name=gnome&gt;{{cite web |title=Evolution/FAQ - GNOME Live!|url=https://live.gnome.org/Evolution/FAQ#Evolution_Exchange_.28formerly_known_as_Connector.29|publisher=Microsoft|accessdate=October 28, 2012}}&lt;/ref&gt;
+
+&lt;!-- Unused citations
+&lt;ref name=evolution&gt;{{cite web |title=Windows - Evolution|url=http://www.go-evolution.org/Windows#Evolution_Installers_for_Windows|publisher=Microsoft|accessdate=October 28, 2012}}&lt;/ref&gt;
+--&gt;
+ 
+&lt;!--&lt;ref name=2k10release&gt;{{cite web |title=Microsoft releases Exchange 2010, acquires Teamprise|url=http://news.cnet.com/8301-13860_3-10393208-56.html?tag=mncol|publisher=Beyond Binary - CNET News|author=Elizabeth Montalbano|accessdate=October 28, 2012|date=November 9, 2009}}&lt;/ref&gt;--&gt; 
+
+&lt;ref name=aslicensee&gt;{{cite web |title=Microsoft Exchange ActiveSync Licensees|url=http://www.microsoft.com/exchange/2007/evaluation/features/owa_mobile.mspx |publisher=Microsoft|accessdate=October 28, 2012}}&lt;/ref&gt;
+
+&lt;ref name=asfaq&gt;{{cite web |title=Exchange ActiveSync: Frequently Asked Questions|url=https://technet.microsoft.com/en-us/exchange/bb288524.aspx|publisher=TechNet|accessdate=October 28, 2012}}&lt;/ref&gt;
+
+&lt;ref name=iphone&gt;{{cite web |title=Exchange ActiveSync|url=https://technet.microsoft.com/en-us/library/aa998357(v=exchg.150).aspx|publisher=Apple|accessdate=October 28, 2012}}&lt;/ref&gt;
+
+&lt;ref name=activesync&gt;{{cite web |title=Apple - iPhone in Business|url=https://www.apple.com/iphone/business/|publisher=TechNet|accessdate=October 28, 2012}}&lt;/ref&gt;
+
+}}
+
+==External links==
+&lt;!-- ======================== {{No more links}} ============================
+    | PLEASE BE CAUTIOUS IN ADDING MORE LINKS TO THIS ARTICLE. Wikipedia  |
+    | is not a collection of links nor should it be used for advertising. |
+    |                                                                     |
+    |           Excessive or inappropriate links WILL BE DELETED.         |
+    | See [[Wikipedia:External links]] &amp; [[Wikipedia:Spam]] for details.  |
+    |                                                                     |
+    | If there are already plentiful links, please propose additions or   |
+    | replacements on this article's discussion page, or submit your link |
+    | to the relevant category at the Open Directory Project (dmoz.org)   |
+    | and link back to that category using the {{dmoz}} template.         |
+=========================== {{No more links}} ============================= --&gt;
+*{{Official website|https://products.office.com/exchange|Microsoft Exchange Server}} – official site
+
+{{Email servers}}
+
+[[Category:Groupware]]
+[[Category:Message transfer agents|Exchange]]
+[[Category:Microsoft email software|Exchange Server]]
+[[Category:Windows Server System|Exchange Server]]
+[[Category:1996 software]]
+[[Category:Microsoft Office servers]]</text>
+      <sha1>j7e7nv2r2dd6ji2jjs1xzgu5tfo1elg</sha1>
+    </revision>
+  </page>
+</mediawiki>

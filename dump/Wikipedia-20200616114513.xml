@@ -1,0 +1,165 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.10/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.10/ http://www.mediawiki.org/xml/export-0.10.xsd" version="0.10" xml:lang="en">
+  <siteinfo>
+    <sitename>Wikipedia</sitename>
+    <dbname>enwiki</dbname>
+    <base>https://en.wikipedia.org/wiki/Main_Page</base>
+    <generator>MediaWiki 1.35.0-wmf.36</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Media</namespace>
+      <namespace key="-1" case="first-letter">Special</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Talk</namespace>
+      <namespace key="2" case="first-letter">User</namespace>
+      <namespace key="3" case="first-letter">User talk</namespace>
+      <namespace key="4" case="first-letter">Wikipedia</namespace>
+      <namespace key="5" case="first-letter">Wikipedia talk</namespace>
+      <namespace key="6" case="first-letter">File</namespace>
+      <namespace key="7" case="first-letter">File talk</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki talk</namespace>
+      <namespace key="10" case="first-letter">Template</namespace>
+      <namespace key="11" case="first-letter">Template talk</namespace>
+      <namespace key="12" case="first-letter">Help</namespace>
+      <namespace key="13" case="first-letter">Help talk</namespace>
+      <namespace key="14" case="first-letter">Category</namespace>
+      <namespace key="15" case="first-letter">Category talk</namespace>
+      <namespace key="100" case="first-letter">Portal</namespace>
+      <namespace key="101" case="first-letter">Portal talk</namespace>
+      <namespace key="108" case="first-letter">Book</namespace>
+      <namespace key="109" case="first-letter">Book talk</namespace>
+      <namespace key="118" case="first-letter">Draft</namespace>
+      <namespace key="119" case="first-letter">Draft talk</namespace>
+      <namespace key="446" case="first-letter">Education Program</namespace>
+      <namespace key="447" case="first-letter">Education Program talk</namespace>
+      <namespace key="710" case="first-letter">TimedText</namespace>
+      <namespace key="711" case="first-letter">TimedText talk</namespace>
+      <namespace key="828" case="first-letter">Module</namespace>
+      <namespace key="829" case="first-letter">Module talk</namespace>
+      <namespace key="2300" case="first-letter">Gadget</namespace>
+      <namespace key="2301" case="first-letter">Gadget talk</namespace>
+      <namespace key="2302" case="case-sensitive">Gadget definition</namespace>
+      <namespace key="2303" case="case-sensitive">Gadget definition talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>F1 score</title>
+    <ns>0</ns>
+    <id>4011785</id>
+    <revision>
+      <id>961198411</id>
+      <parentid>959476473</parentid>
+      <timestamp>2020-06-07T04:20:05Z</timestamp>
+      <contributor>
+        <username>Citation bot</username>
+        <id>7903804</id>
+      </contributor>
+      <comment>Add: doi, s2cid. Removed URL that duplicated unique identifier. | You can [[WP:UCB|use this bot]] yourself. [[WP:DBUG|Report bugs here]]. | Activated by AManWithNoPlan | All pages linked from [[User:AManWithNoPlan/sandbox2]] | via #UCB_webform_linked</comment>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="8976" xml:space="preserve">{{Redirect|F score|the significance test|F-test}}
+[[File:Precisionrecall.svg|thumb|350px|Precision and recall]]
+In [[statistics|statistical]] analysis of [[binary classification]], the '''F&lt;sub&gt;1&lt;/sub&gt; score''' (also '''F-score''' or '''F-measure''') is a measure of a test's accuracy. It considers both the [[Precision (information retrieval)|precision]] ''p'' and the [[Recall (information retrieval)|recall]] ''r'' of the test to compute the score: ''p'' is the number of correct positive results divided by the number of all positive results returned by the classifier, and ''r'' is the number of correct positive results divided by the number of all relevant samples (all samples that should have been identified as positive).
+
+The F&lt;sub&gt;1&lt;/sub&gt; score is the [[harmonic mean]] of the [[precision and recall]], where an F&lt;sub&gt;1&lt;/sub&gt; score reaches its best value at 1 (perfect precision and recall).
+The F&lt;sub&gt;1&lt;/sub&gt; score is also known as the [[Sørensen–Dice coefficient]] or Dice similarity coefficient (DSC).
+
+
+== Etymology ==
+The name F-measure is believed to be named after a different F function in Van Rijsbergen's book, when introduced to MUC-4. &lt;ref&gt;{{cite article | last = Sasaki| first = Y. | url=https://www.toyota-ti.ac.jp/Lab/Denshi/COIN/people/yutaka.sasaki/F-measure-YS-26Oct07.pdf|year = 2007 | title = The truth of the F-measure  }}&lt;/ref&gt; 
+
+== Definition ==
+{{Refimprove section|date=December 2018}}
+The traditional F-measure or balanced F-score ('''F&lt;sub&gt;1&lt;/sub&gt; score''') is the [[Harmonic mean#Harmonic mean of two numbers|harmonic mean]] of precision and recall:
+
+:&lt;math&gt;F_1 = \frac{2}{\mathrm{recall}^{-1} + \mathrm{precision}^{-1}} = 2 \cdot \frac{\mathrm{precision} \cdot \mathrm{recall}}{\mathrm{precision} + \mathrm{recall}}&lt;/math&gt;.
+
+The general formula for positive real β, where β is chosen such that recall is considered β times as important as precision, is:
+:&lt;math&gt;F_\beta = (1 + \beta^2) \cdot \frac{\mathrm{precision} \cdot \mathrm{recall}}{(\beta^2 \cdot \mathrm{precision}) + \mathrm{recall}}&lt;/math&gt;.
+
+The formula in terms of [[Type I and type II errors]]:
+
+:&lt;math&gt;F_\beta = \frac {(1 + \beta^2) \cdot \mathrm{true\ positive} }{(1 + \beta^2) \cdot \mathrm{true\ positive} + \beta^2 \cdot \mathrm{false\ negative} + \mathrm{false\ positive}}\,&lt;/math&gt;.
+
+Two commonly used values for β are those corresponding to the &lt;math&gt;F_{2}&lt;/math&gt; measure, which weighs recall higher than precision (by placing more emphasis on false negatives), and the &lt;math&gt;F_{0.5}&lt;/math&gt; measure, which weighs recall lower than precision (by attenuating the influence of false negatives).
+
+The F-measure was derived so that &lt;math&gt;F_\beta&lt;/math&gt; "measures the effectiveness of retrieval with respect to a user who attaches β times as much importance to recall as precision".&lt;ref&gt;{{cite book | last = Van Rijsbergen | first = C. J. | url=http://www.dcs.gla.ac.uk/Keith/Preface.html|year = 1979 | title = Information Retrieval | edition= 2nd | publisher=Butterworth-Heinemann }}&lt;/ref&gt; It is based on [[C. J. van Rijsbergen|Van Rijsbergen]]'s effectiveness measure
+
+:&lt;math&gt;E = 1 - \left(\frac{\alpha}{p} + \frac{1-\alpha}{r}\right)^{-1}&lt;/math&gt;.
+
+Their relationship is &lt;math&gt;F_\beta = 1 - E&lt;/math&gt; where &lt;math&gt;\alpha=\frac{1}{1 + \beta^2}&lt;/math&gt;.
+
+== Diagnostic testing ==
+
+This is related to the field of [[binary classification]] where recall is often termed "sensitivity". 
+{{DiagnosticTesting_Diagram}}
+
+== Applications ==
+
+The F-score is often used in the field of [[information retrieval]] for measuring [[web search|search]], [[document classification]], and [[query classification]] performance.&lt;ref&gt;{{cite thesis | first=Steven M. |last=Beitzel. |citeseerx = 10.1.1.127.634 | title=On Understanding and Classifying Web Queries | degree=Ph.D.  | publisher=IIT | year= 2006}}&lt;/ref&gt; Earlier works focused primarily on the F&lt;sub&gt;1&lt;/sub&gt; score, but with the proliferation of large scale search engines, performance goals changed to place more emphasis on either precision or recall&lt;ref&gt;{{cite conference |author1=X. Li |author2=Y.-Y. Wang |author3=A. Acero |s2cid=8482989 | title=Learning query intent from regularized click graphs | work= Proceedings of the 31st SIGIR Conference |date=July 2008|doi=10.1145/1390334.1390393 }}&lt;/ref&gt; and so &lt;math&gt;F_\beta&lt;/math&gt; is seen in wide application.
+
+The F-score is also used in [[machine learning]].&lt;ref&gt;See, e.g., the evaluation of the [https://dl.acm.org/citation.cfm?id=1119195].&lt;/ref&gt; Note, however, that the F-measures do not take the true negatives into account, and that measures such as the [[Matthews correlation coefficient]], [[Informedness]] or  [[Cohen's kappa]] may be preferable to assess the performance of a binary classifier.{{Cn|date=November 2019}}
+
+The F-score has been widely used in the natural language processing literature,&lt;ref name="Derczynski2016"&gt;{{cite conference |first=L. |last=Derczynski | url= https://www.aclweb.org/anthology/L16-1040  | title= Complementarity, F-score, and NLP Evaluation | work= Proceedings of the International Conference on Language Resources and Evaluation| date= 2016}}&lt;/ref&gt; such as the evaluation of [[named entity recognition]] and [[word segmentation]].
+
+== Criticism ==
+[[David Hand (statistician)|David Hand]] and others criticize the widespread use of the F&lt;sub&gt;1&lt;/sub&gt; score since it gives equal importance to precision and recall. In practice, different types of mis-classifications incur different costs. In other words, the relative importance of precision and recall is an aspect of the problem.&lt;ref&gt;{{Cite journal|url=https://app.dimensions.ai/details/publication/pub.1084928040|title=A note on using the F-measure for evaluating record linkage algorithms - Dimensions|last=Hand|first=David|website=app.dimensions.ai|language=en|access-date=2018-12-08|doi=10.1007/s11222-017-9746-6|hdl=10044/1/46235|hdl-access=free}}&lt;/ref&gt;
+
+According to Davide Chicco and Giuseppe Jurman, the F&lt;sub&gt;1&lt;/sub&gt; score is less truthful and informative than the [[Matthews correlation coefficient|Matthews correlation coefficient (MCC)]] in binary evaluation classification.&lt;ref&gt;{{cite journal 
+| vauthors = Chicco D, Jurman G
+| title = The advantages of the Matthews correlation coefficient (MCC) over F1 score and accuracy in binary classification evaluation 
+| journal = BMC Genomics
+| volume = 21
+| issue =  6
+| pages =  6
+| date = January 2020 
+| pmid = 31898477
+| doi = 10.1186/s12864-019-6413-7
+| pmc= 6941312}}&lt;/ref&gt;
+
+David Powers has pointed out that F1 ignores the True Negatives and thus is misleading for unbalanced classes, while kappa and correlation measures are symmetric and assess both directions of predicability - the classifier predicting the true class and the true class predicting the classifier prediction, proposing separate multiclass measures [[Informedness]] and [[Markedness]] for the two directions, noting that their geometric mean is correlation.&lt;ref name="Powers2007"&gt;{{cite journal |first=David M W |last=Powers |date=2011 |title=Evaluation: From Precision, Recall and F-Score to ROC, Informedness, Markedness &amp; Correlation |journal=Journal of Machine Learning Technologies |volume=2 |issue=1 |pages=37–63 |hdl=2328/27165 }}&lt;/ref&gt;
+
+==Difference from G-measure==
+
+While the F-measure is the [[harmonic mean]] of recall and precision, the [[Fowlkes–Mallows index|G-measure]] is the [[geometric mean]].&lt;ref&gt;
+{{cite journal 
+| vauthors = Tharwat A
+| title = Classification assessment methods
+| journal = Applied Computing and Informatics
+| date = August 2018
+| doi = 10.1016/j.aci.2018.08.003| doi-access = free
+}}&lt;/ref&gt;
+
+==Extension to multi-class classification==
+
+The F-score is also used for evaluating classification problems with more than two classes ([[Multiclass classification]]). In this setup, the final score is obtained by micro-averaging (biased by class frequency) or macro-averaging (taking all classes as equally important). For macro-averaging, two different formulas have been used by applicants: the F-score of (arithmetic) class-wise precision and recall means or the arithmetic mean of class-wise F-scores, where the latter exhibits more desirable properties.&lt;ref&gt;{{cite arXiv | author1 = J. Opitz | author2 = S. Burst | year = 2019 | title = Macro F1 and Macro F1 | eprint=1911.03347 |class=stat.ML }} &lt;/ref&gt;
+
+==See also==
+* [[confusion matrix]]
+* [[Matthews correlation coefficient]]
+* [[Fowlkes–Mallows index]]
+* [[METEOR]]
+* [[BLEU]]
+* [[NIST (metric)]]
+* [[Precision and recall]]
+* [[Receiver operating characteristic]]
+* [[ROUGE (metric)]]
+* [[Sørensen–Dice coefficient]]
+* [[Uncertainty coefficient]], aka Proficiency
+* [[Word error rate|Word error rate (WER)]]
+
+== References ==
+{{reflist}}
+
+{{DEFAULTSORT:F1 Score}}
+[[Category:Statistical natural language processing]]
+[[Category:Evaluation of machine translation]]
+[[Category:Statistical ratios]]
+[[Category:Summary statistics for contingency tables]]
+[[Category:Clustering criteria]]
+
+[[de:Beurteilung eines Klassifikators#Kombinierte Maße]]</text>
+      <sha1>5cclx2ki6p0oub3rrmz71vklwp8kbzm</sha1>
+    </revision>
+  </page>
+</mediawiki>

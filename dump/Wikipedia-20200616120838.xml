@@ -1,0 +1,286 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.10/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.10/ http://www.mediawiki.org/xml/export-0.10.xsd" version="0.10" xml:lang="en">
+  <siteinfo>
+    <sitename>Wikipedia</sitename>
+    <dbname>enwiki</dbname>
+    <base>https://en.wikipedia.org/wiki/Main_Page</base>
+    <generator>MediaWiki 1.35.0-wmf.36</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Media</namespace>
+      <namespace key="-1" case="first-letter">Special</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Talk</namespace>
+      <namespace key="2" case="first-letter">User</namespace>
+      <namespace key="3" case="first-letter">User talk</namespace>
+      <namespace key="4" case="first-letter">Wikipedia</namespace>
+      <namespace key="5" case="first-letter">Wikipedia talk</namespace>
+      <namespace key="6" case="first-letter">File</namespace>
+      <namespace key="7" case="first-letter">File talk</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki talk</namespace>
+      <namespace key="10" case="first-letter">Template</namespace>
+      <namespace key="11" case="first-letter">Template talk</namespace>
+      <namespace key="12" case="first-letter">Help</namespace>
+      <namespace key="13" case="first-letter">Help talk</namespace>
+      <namespace key="14" case="first-letter">Category</namespace>
+      <namespace key="15" case="first-letter">Category talk</namespace>
+      <namespace key="100" case="first-letter">Portal</namespace>
+      <namespace key="101" case="first-letter">Portal talk</namespace>
+      <namespace key="108" case="first-letter">Book</namespace>
+      <namespace key="109" case="first-letter">Book talk</namespace>
+      <namespace key="118" case="first-letter">Draft</namespace>
+      <namespace key="119" case="first-letter">Draft talk</namespace>
+      <namespace key="446" case="first-letter">Education Program</namespace>
+      <namespace key="447" case="first-letter">Education Program talk</namespace>
+      <namespace key="710" case="first-letter">TimedText</namespace>
+      <namespace key="711" case="first-letter">TimedText talk</namespace>
+      <namespace key="828" case="first-letter">Module</namespace>
+      <namespace key="829" case="first-letter">Module talk</namespace>
+      <namespace key="2300" case="first-letter">Gadget</namespace>
+      <namespace key="2301" case="first-letter">Gadget talk</namespace>
+      <namespace key="2302" case="case-sensitive">Gadget definition</namespace>
+      <namespace key="2303" case="case-sensitive">Gadget definition talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Non-linear least squares</title>
+    <ns>0</ns>
+    <id>15652764</id>
+    <revision>
+      <id>960273397</id>
+      <parentid>939370526</parentid>
+      <timestamp>2020-06-02T01:56:20Z</timestamp>
+      <contributor>
+        <username>Bender235</username>
+        <id>88026</id>
+      </contributor>
+      <minor/>
+      <comment>/* Further reading */</comment>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="25666" xml:space="preserve">{{Regression bar}}
+'''Non-linear least squares''' is the form of [[least squares]] analysis used to fit a set of ''m'' observations with a model that is non-linear in ''n'' unknown parameters (''m''&amp;nbsp;≥&amp;nbsp;''n'').  It is used in some forms of [[nonlinear regression]].  The basis of the method is to approximate the model by a linear one and to refine the parameters by successive iterations. There are many similarities to [[linear least squares (mathematics)|linear least squares]], but also some [[least squares#Differences between linear and nonlinear least squares|significant differences]]. In economic theory, the non-linear least squares method is applied in (i) the probit regression, (ii) threshold regression, (iii) smooth regression, (iv) logistic link regression, (v) Box-Cox transformed regressors (&lt;math&gt;m(x,\theta_{i})=\theta_{1} +\theta_{2}x^{(\theta_{3})}&lt;/math&gt;).
+
+== Theory ==
+Consider a set of &lt;math&gt;m&lt;/math&gt; data points, &lt;math&gt;(x_1, y_1), (x_2, y_2),\dots,(x_m, y_m),&lt;/math&gt; and a curve (model function) &lt;math&gt;y=f(x, \boldsymbol \beta),&lt;/math&gt; that in addition to the variable &lt;math&gt;x&lt;/math&gt; also depends on &lt;math&gt;n&lt;/math&gt; parameters, &lt;math&gt;\boldsymbol \beta = (\beta_1, \beta_2, \dots, \beta_n),&lt;/math&gt; with &lt;math&gt;m\ge n.&lt;/math&gt; It is desired to find the vector  &lt;math&gt;\boldsymbol \beta&lt;/math&gt; of parameters such that the curve fits best the given data in the least squares sense, that is, the sum of squares 
+:&lt;math&gt;S=\sum_{i=1}^{m}r_i^2&lt;/math&gt;
+is minimized, where the [[errors and residuals in statistics|residuals]] (in-sample prediction errors) ''r&lt;sub&gt;i&lt;/sub&gt;'' are given by 
+:&lt;math&gt;r_i= y_i - f(x_i, \boldsymbol \beta) &lt;/math&gt;
+
+for &lt;math&gt;i=1, 2,\dots, m.&lt;/math&gt;
+
+The [[Maxima and minima|minimum]] value of ''S'' occurs when the [[gradient]] is zero. Since the model contains ''n'' parameters there are ''n'' gradient equations:
+
+:&lt;math&gt;\frac{\partial S}{\partial \beta_j}=2\sum_i r_i\frac{\partial r_i}{\partial \beta_j}=0 \quad (j=1,\ldots,n).&lt;/math&gt;
+
+In a nonlinear system, the derivatives &lt;math&gt;\frac{\partial r_i}{\partial \beta_j}&lt;/math&gt; are functions of both the independent variable and the parameters, so in general these gradient equations do not have a closed solution. Instead, initial values must be chosen for the parameters. Then, the parameters are refined iteratively, that is, the values are obtained by successive approximation,
+
+:&lt;math&gt;\beta_j \approx \beta_j^{k+1} =\beta^k_j+\Delta \beta_j. \, &lt;/math&gt;
+
+Here, ''k'' is an iteration number and the vector of increments, &lt;math&gt;\Delta \boldsymbol \beta\,&lt;/math&gt; is known as the shift vector. At each iteration the model is linearized by approximation to a first-order [[Taylor series|Taylor polynomial]] expansion about &lt;math&gt; \boldsymbol \beta^k\!&lt;/math&gt;
+:&lt;math&gt;f(x_i,\boldsymbol \beta)\approx f(x_i,\boldsymbol \beta^k) +\sum_j \frac{\partial f(x_i,\boldsymbol \beta^k)}{\partial \beta_j} \left(\beta_j -\beta^{k}_j \right) = f(x_i,\boldsymbol \beta^k) +\sum_j J_{ij} \,\Delta\beta_j. &lt;/math&gt;
+The [[Jacobian matrix and determinant|Jacobian]], '''J''', is a function of constants, the independent variable ''and'' the parameters, so it changes from one iteration to the next. Thus, in terms of the linearized model, &lt;math&gt;\frac{\partial r_i}{\partial \beta_j}=-J_{ij}&lt;/math&gt; and the residuals are given by
+
+:&lt;math&gt;\Delta y_i=y_i- f(x_i,\boldsymbol \beta^k).&lt;/math&gt;
+:&lt;math&gt;r_i=y_i - f(x_i, \boldsymbol \beta)=\left(y_i- f(x_i,\boldsymbol \beta^k)\right)+ \left(f(x_i,\boldsymbol \beta^k)- f(x_i, \boldsymbol \beta)\right)\approx\Delta y_i- \sum_{s=1}^{n} J_{is} \Delta \beta_s .&lt;/math&gt;
+
+Substituting these expressions into the gradient equations, they become
+
+:&lt;math&gt;-2\sum_{i=1}^{m}J_{ij} \left( \Delta y_i-\sum_{s=1}^{n} J_{is}\ \Delta \beta_s \right)=0,&lt;/math&gt;
+
+which, on rearrangement, become ''n'' simultaneous linear equations, the '''normal equations'''
+
+:&lt;math&gt;\sum_{i=1}^{m}\sum_{s=1}^{n} J_{ij}J_{is}\ \Delta \beta_s=\sum_{i=1}^{m} J_{ij}\ \Delta y_i \qquad (j=1,\dots,n).\,&lt;/math&gt;
+
+The normal equations are written in matrix notation as
+
+:&lt;math&gt;\mathbf{\left(J^TJ\right)\Delta \boldsymbol \beta=J^T\ \Delta y}.&lt;/math&gt;
+
+When the observations are not equally reliable, a weighted sum of squares may be minimized,
+
+:&lt;math&gt;S=\sum_{i=1}^m W_{ii}r_i^2.&lt;/math&gt;
+
+Each element of the [[diagonal matrix|diagonal]] weight matrix '''W''' should, ideally, be equal to the reciprocal of the error [[variance]] of the measurement.&lt;ref&gt;This implies that the observations are uncorrelated. If the observations are [[correlated]], the expression
+
+:&lt;math&gt;S=\sum_k \sum_j r_k W_{kj} r_j\,&lt;/math&gt;
+
+applies. In this case the weight matrix should ideally be equal to the inverse of the error [[variance-covariance matrix]] of the observations.&lt;/ref&gt;  
+The normal equations are then
+
+:&lt;math&gt;\mathbf{\left(J^TWJ\right)\Delta \boldsymbol \beta=J^TW\ \Delta y}.&lt;/math&gt;
+
+These equations form the basis for the [[Gauss–Newton algorithm]] for a non-linear least squares problem.
+&lt;!--
+=== Differences between linear and non-linear least squares ===
+*NLLSQ (Non-linear least squares) requires initial estimates of the parameters, LLSQ (linear least squares) does not.
+*NLLSQ requires that the Jacobian be calculated. Analytical expressions for the partial derivatives can be complicated. If analytical expressions are impossible to obtain the partial derivatives must be calculated by numerical approximation.
+*In NLLSQ divergence is a common phenomenon whereas in LLSQ it is quite rare. Divergence occurs when the sum of squares increases from one iteration to the next. It is caused by the inadequacy of the approximation that the Taylor series can be truncated at the first term.
+*NLLSQ is an iterative process, LLSQ is not. The iterative process has to be terminated when a convergence criterion is satisfied.
+*In LLSQ the solution is unique, but in NLLSQ there may be multiple minima in the sum of squares.
+*In NLLSQ estimates of the parameter errors are [[biased]], but in LLSQ they are not.
+These differences must be considered whenever the solution to a non-linear least squares problem is being sought. --&gt;
+
+== Geometrical interpretation ==
+In linear least squares the [[Optimization (mathematics)|objective function]], ''S'', is a [[quadratic function#Bivariate quadratic function|quadratic function]] of the parameters.
+:&lt;math&gt;S=\sum_i W_{ii} \left(y_i-\sum_jX_{ij}\beta_j \right)^2&lt;/math&gt;
+When there is only one parameter the graph of ''S'' with respect to that parameter will be a [[parabola]]. With two or more parameters the contours of ''S'' with respect to any pair of parameters will be concentric [[ellipse]]s (assuming that the normal equations matrix &lt;math&gt;\mathbf{X^TWX}&lt;/math&gt; is [[positive-definite matrix|positive definite]]). The minimum parameter values are to be found at the centre of the ellipses. The geometry of the general objective function can be described as paraboloid elliptical. 
+In NLLSQ the objective function is quadratic with respect to the parameters only in a region close to its minimum value, where the truncated Taylor series is a good approximation to the model. 
+:&lt;math&gt;S \approx\sum_i W_{ii} \left(y_i-\sum_j J_{ij}\beta_j \right)^2&lt;/math&gt;
+The more the parameter values differ from their optimal values, the more the contours deviate from elliptical shape. A consequence of this is that initial parameter estimates should be as close as practicable to their (unknown!) optimal values. It also explains how divergence can come about as the Gauss–Newton algorithm is convergent only when the objective function is approximately quadratic in the parameters.
+
+== Computation ==
+
+=== Initial parameter estimates ===
+Some problems of ill-conditioning and divergence can be corrected by finding initial parameter estimates that are near to the optimal values. A good way to do this is by [[computer simulation]]. Both the observed and calculated data are displayed on a screen. The parameters of the model are adjusted by hand until the agreement between observed and calculated data is reasonably good. Although this will be a subjective judgment, it is sufficient to find a good starting point for the non-linear refinement.  Initial parameter estimates can be created using transformations or linearizations.  Better still evolutionary algorithms such as the Stochastic Funnel Algorithm can lead to the convex basin of attraction that surrounds the optimal parameter estimates.  Hybrid algorithms that use randomization and elitism, followed by Newton methods have been shown to be useful and computationally efficient.
+
+=== Solution ===
+Any method among the ones described [[#Algorithms|below]] can be applied to find a solution.
+
+=== Convergence criteria ===
+The common sense criterion for convergence is that the sum of squares does not decrease from one iteration to the next. However this criterion is often difficult to implement in practice, for various reasons. A useful convergence criterion is
+:&lt;math&gt;\left|\frac{S^k-S^{k+1}}{S^k}\right|&lt;0.0001.&lt;/math&gt;
+The value 0.0001 is somewhat arbitrary and may need to be changed. In particular it may need to be increased when experimental errors are large. An alternative criterion is
+
+:&lt;math&gt;\left|\frac{\Delta \beta_j}{\beta_j}\right|&lt;0.001, \qquad j=1,\dots,n.&lt;/math&gt;
+
+Again, the numerical value is somewhat arbitrary; 0.001 is equivalent to specifying that each parameter should be refined to 0.1% precision. This is reasonable when it is less than the largest relative standard deviation on the parameters.
+
+===Calculation of the Jacobian by numerical approximation===
+{{main|Numerical differentiation}}
+There are models for which it is either very difficult or even impossible to derive analytical expressions for the elements of the Jacobian. Then, the numerical approximation
+:&lt;math&gt;\frac{\partial f(x_i, \boldsymbol \beta)}{\partial \beta_j} \approx \frac{\delta f(x_i, \boldsymbol \beta)}{\delta \beta_j}&lt;/math&gt;
+is obtained by calculation of &lt;math&gt;f(x_i, \boldsymbol \beta)\,&lt;/math&gt; for &lt;math&gt;\beta_j\,&lt;/math&gt; and &lt;math&gt;\beta_j+\delta \beta_j\,&lt;/math&gt;. The increment,&lt;math&gt;\delta \beta_j\,&lt;/math&gt;, size should be chosen so the numerical derivative is not subject to approximation error by being too large, or [[round-off]] error by being too small.
+
+=== Parameter errors, confidence limits, residuals etc. ===
+Some information is given in [[linear least squares (mathematics)#Weighted linear least squares|the corresponding section]] on the [[linear least squares (mathematics)|linear least squares]] page.
+
+=== Multiple minima ===
+Multiple minima can occur in a variety of circumstances some of which are: 
+*A parameter is raised to a power of two or more. For example, when fitting data to a [[Cauchy distribution|Lorentzian]] curve
+:: &lt;math&gt;f(x_i, \boldsymbol \beta)=\frac{\alpha}{1+\left(\frac{\gamma-x_i}{\beta} \right)^2}&lt;/math&gt;
+where &lt;math&gt;\alpha&lt;/math&gt; is the height, &lt;math&gt;\gamma&lt;/math&gt; is the position and &lt;math&gt;\beta&lt;/math&gt; is the half-width at half height, there are two solutions for the half-width, &lt;math&gt;\hat \beta&lt;/math&gt; and &lt;math&gt;-\hat \beta&lt;/math&gt; which give the same optimal value for the objective function.
+*Two parameters can be interchanged without changing the value of the model. A simple example is when the model contains the product of two parameters, since &lt;math&gt;\alpha \beta&lt;/math&gt; will give the same value as &lt;math&gt;\beta \alpha&lt;/math&gt;.
+*A parameter is in a trigonometric function, such as &lt;math&gt;\sin \beta\,&lt;/math&gt;, which has identical values at &lt;math&gt;\hat \beta +2n \pi&lt;/math&gt;. See [[Levenberg–Marquardt algorithm#Example|Levenberg&amp;ndash;Marquardt algorithm]] for an example.
+Not all multiple minima have equal values of the objective function. False minima, also known as local minima, occur when the objective function value is greater than its value at the so-called global minimum. To be certain that the minimum found is the global minimum, the refinement should be started with widely differing initial values of the parameters. When the same minimum is found regardless of starting point, it is likely to be the global minimum.
+
+When multiple minima exist there is an important consequence: the objective function will have a maximum value somewhere between two minima. The normal equations matrix is not positive definite at a maximum in the objective function, as the gradient is zero and no unique direction of descent exists. Refinement from a point (a set of parameter values) close to a maximum will be ill-conditioned and should be avoided as a starting point. For example, when fitting a Lorentzian the normal equations matrix is not positive definite when the half-width of the band is zero.&lt;ref&gt;In the absence of [[round-off error]] and of experimental error in the independent variable the normal equations matrix would be singular&lt;/ref&gt;
+
+=== Transformation to a linear model ===
+{{main|Nonlinear regression#Transformation}}
+A non-linear model can sometimes be transformed into a linear one. For example, when the model is a simple exponential function,
+:&lt;math&gt;f(x_i,\boldsymbol \beta)= \alpha e^{\beta x_i}&lt;/math&gt;
+it can be transformed into a linear model by taking logarithms.
+:&lt;math&gt;\log f(x_i,\boldsymbol \beta)=\log \alpha + \beta x_i&lt;/math&gt;
+Graphically this corresponds to working on a [[semi-log plot]]. The sum of squares becomes
+:&lt;math&gt;S=\sum_i (\log y_i-\log \alpha - \beta x_i)^2.\!&lt;/math&gt;
+This procedure should be avoided unless the errors are multiplicative and [[log normal distribution|log-normally distributed]] because it can give misleading results. This comes from the fact that whatever the experimental errors on '''y''' might be, the errors on '''log y''' are different. Therefore, when the transformed sum of squares is minimized different results will be obtained both for the parameter values and their calculated standard deviations. However, with multiplicative errors that are log-normally distributed, this procedure gives unbiased and consistent parameter estimates.
+
+Another example is furnished by [[Michaelis&amp;ndash;Menten kinetics#Equation optimization|Michaelis&amp;ndash;Menten kinetics]], used to determine two parameters &lt;math&gt;V_{\max}&lt;/math&gt; and &lt;math&gt;K_m&lt;/math&gt;:  
+:&lt;math&gt; v = \frac{V_{\max}[S]}{K_{m} + [S]}&lt;/math&gt;.
+The [[Lineweaver–Burk plot]] 
+:&lt;math&gt; \frac{1}{v} = \frac{1}{V_\max} + \frac{K_m}{V_{\max}[S]}&lt;/math&gt;
+of &lt;math&gt;\frac{1}{v}&lt;/math&gt; against &lt;math&gt;\frac{1}{[S]}&lt;/math&gt; is linear in the parameters &lt;math&gt;\frac{1}{V_\max}&lt;/math&gt; and &lt;math&gt;\frac{K_m}{V_\max}&lt;/math&gt;, but very sensitive to data error and strongly biased toward fitting the data in a particular range of the independent variable &lt;math&gt;[S]&lt;/math&gt;.
+
+== Algorithms ==
+=== Gauss–Newton method ===
+{{main|Gauss–Newton algorithm}}
+The normal equations
+:&lt;math&gt;\mathbf{\left( J^TWJ \right)\Delta \boldsymbol\beta=\left( J^TW \right) \Delta y}&lt;/math&gt;
+may be solved for &lt;math&gt;\Delta \boldsymbol\beta&lt;/math&gt; by [[Cholesky decomposition]], as described in [[linear least squares (mathematics)#Computation|linear least squares]]. The parameters are updated iteratively
+:&lt;math&gt;\boldsymbol\beta^{k+1}=\boldsymbol\beta^k+\Delta \boldsymbol\beta&lt;/math&gt;
+where ''k'' is an iteration number. While this method may be adequate for simple models, it will fail if divergence occurs. Therefore, protection against divergence is essential.
+
+==== Shift-cutting ====
+If divergence occurs, a simple expedient is to reduce the length of the shift vector, &lt;math&gt;\mathbf{\Delta \beta}&lt;/math&gt;, by a fraction, ''f''
+:&lt;math&gt;\boldsymbol\beta^{k+1}=\boldsymbol\beta^k+f\ \Delta \boldsymbol\beta.&lt;/math&gt;
+For example, the length of the shift vector may be successively halved until the new value of the objective function is less than its value at the last iteration. The fraction, ''f'' could be optimized by a [[line search]].&lt;ref name=BDS&gt;M.J. Box, D. Davies and W.H. Swann, Non-Linear optimisation Techniques, Oliver &amp; Boyd, 1969&lt;/ref&gt;  As each trial value of ''f'' requires the objective function to be re-calculated it is not worth optimizing its value too stringently.
+
+When using shift-cutting, the direction of the shift vector remains unchanged. This limits the applicability of the method to situations where the direction of the shift vector is not very different from what it would be if the objective function were approximately quadratic in the parameters, &lt;math&gt;\boldsymbol\beta^k.&lt;/math&gt;
+
+==== Marquardt parameter ====
+{{main|Levenberg–Marquardt algorithm}}
+If divergence occurs and the direction of the shift vector is so far from its "ideal" direction that shift-cutting is not very effective, that is, the fraction, ''f'' required to avoid divergence is very small, the direction must be changed. This can be achieved by using the [[Levenberg–Marquardt algorithm|Marquardt]] parameter.&lt;ref&gt;This technique was proposed independently by Levenberg (1944), Girard (1958), Wynne (1959), Morrison (1960) and Marquardt (1963). Marquardt's name alone is used for it in much of the scientific literature.&lt;/ref&gt; In this method the normal equations are modified
+:&lt;math&gt;\mathbf{\left( J^TWJ +\lambda I \right)\Delta \boldsymbol \beta=\left( J^TW \right) \Delta y}&lt;/math&gt;
+where &lt;math&gt;\lambda&lt;/math&gt; is the Marquardt parameter and '''I''' is an identity matrix. Increasing the value of &lt;math&gt;\lambda&lt;/math&gt; has the effect of changing both the direction and the length of the shift vector. The shift vector is rotated towards the direction of [[steepest descent]]
+:when &lt;math&gt;\lambda \mathbf{I\gg{}J^TWJ}, \  \mathbf{\Delta \boldsymbol \beta} \approx (1/\lambda) \mathbf{J^TW\  \Delta y}.&lt;/math&gt;
+&lt;math&gt;\mathbf{J^TW\  \Delta y}&lt;/math&gt; is the steepest descent vector. So, when &lt;math&gt;\lambda&lt;/math&gt; becomes very large, the shift vector becomes a small fraction of the steepest descent vector.
+
+Various strategies have been proposed for the determination of the Marquardt parameter. As with shift-cutting, it is wasteful to optimize this parameter too stringently. Rather, once a value has been found that brings about a reduction in the value of the objective function, that value of the parameter is carried to the next iteration, reduced if possible, or increased if need be. When reducing the value of the Marquardt parameter, there is a cut-off value below which it is safe to set it to zero, that is, to continue with the unmodified Gauss–Newton method. The cut-off value may be set equal to the smallest singular value of the Jacobian.&lt;ref name=LH/&gt; A bound for this value is given by &lt;math&gt;1/\mbox{trace} \mathbf{\left(J^TWJ \right)^{-1}}&lt;/math&gt;.&lt;ref&gt;R. Fletcher, UKAEA Report AERE-R 6799, H.M. Stationery Office, 1971&lt;/ref&gt;
+
+=== QR decomposition ===
+The minimum in the sum of squares can be found by a method that does not involve forming the normal equations. The residuals with the linearized model can be written as
+:&lt;math&gt;\mathbf{r=\Delta y-J\ \Delta\boldsymbol\beta}.&lt;/math&gt;
+The Jacobian is subjected to an orthogonal decomposition; the [[QR decomposition]] will serve to illustrate the process.
+
+:&lt;math&gt;\mathbf{J=QR}&lt;/math&gt;
+
+where '''Q''' is an [[Orthogonal matrix|orthogonal]] &lt;math&gt;m \times m&lt;/math&gt; matrix and '''R''' is an &lt;math&gt;m \times n&lt;/math&gt; matrix which is [[block matrix|partitioned]] into an &lt;math&gt;n \times n&lt;/math&gt; block, &lt;math&gt;\mathbf{R}_n&lt;/math&gt;, and a &lt;math&gt;(m-n) \times n&lt;/math&gt; zero block. &lt;math&gt;\mathbf{R}_n&lt;/math&gt; is upper triangular.
+
+:&lt;math&gt;\mathbf{R}= \begin{bmatrix}
+\mathbf{R}_n \\
+\mathbf{0}\end{bmatrix}&lt;/math&gt;
+
+The residual vector is left-multiplied by &lt;math&gt;\mathbf Q^T&lt;/math&gt;.
+
+:&lt;math&gt;\mathbf{Q^Tr=Q^T\ \Delta y -R\ \Delta\boldsymbol\beta}= \begin{bmatrix}
+\mathbf{\left(Q^T\ \Delta y -R\ \Delta\boldsymbol\beta \right)}_n \\
+\mathbf{\left(Q^T\ \Delta y  \right)}_{m-n}\end{bmatrix}&lt;/math&gt;
+
+This has no effect on the sum of squares since &lt;math&gt;S=\mathbf{r^T Q Q^Tr = r^Tr}&lt;/math&gt; because '''Q''' is [[orthogonal]]
+The minimum value of ''S'' is attained when the upper block is zero. Therefore, the shift vector is found by solving
+
+:&lt;math&gt;\mathbf{R_n\ \Delta\boldsymbol\beta =\left(Q^T\ \Delta y \right)_n}. \, &lt;/math&gt;
+
+These equations are easily solved as '''R''' is upper triangular.
+
+=== Singular value decomposition ===
+A variant of the method of orthogonal decomposition involves [[singular value decomposition]], in which '''R''' is diagonalized by further orthogonal transformations.
+
+:&lt;math&gt;\mathbf{J=U \boldsymbol\Sigma V^T} \, &lt;/math&gt;
+
+where &lt;math&gt;\mathbf U&lt;/math&gt; is orthogonal, &lt;math&gt;\boldsymbol\Sigma &lt;/math&gt; is a diagonal matrix of singular values and &lt;math&gt;\mathbf V&lt;/math&gt; is the orthogonal matrix of the eigenvectors of &lt;math&gt;\mathbf {J^TJ}&lt;/math&gt; or equivalently the right singular vectors of &lt;math&gt;\mathbf{J}&lt;/math&gt;. In this case the shift vector is given by
+
+:&lt;math&gt;\mathbf{\boldsymbol\Delta\beta=V \boldsymbol\Sigma^{-1}\left( U^T\   \boldsymbol\Delta y \right)}_n. \, &lt;/math&gt;
+
+The relative simplicity of this expression is very useful in theoretical analysis of non-linear least squares. The application of singular value decomposition is discussed in detail in Lawson and Hanson.&lt;ref name=LH&gt;C.L. Lawson and R.J. Hanson, Solving Least Squares Problems, Prentice–Hall, 1974&lt;/ref&gt;
+
+=== Gradient methods ===
+There are many examples in the scientific literature where different methods have been used for non-linear data-fitting problems.
+
+*Inclusion of second derivatives in The Taylor series expansion of the model function. This is [[Newton's method in optimization]].
+:: &lt;math&gt;f(x_i, \boldsymbol \beta)=f^k(x_i, \boldsymbol \beta) +\sum_j J_{ij} \, \Delta \beta_j + \frac{1}{2}\sum_j\sum_k \Delta\beta_j \, \Delta\beta_k \,H_{jk_{(i)}},\ H_{jk_{(i)}}=\frac{\partial^2 f(x_i, \boldsymbol \beta)}{\partial \beta_j \, \partial \beta_k }. &lt;/math&gt;
+: The matrix '''H''' is known as the [[Hessian matrix]]. Although this model has better convergence properties near to the minimum, it is much worse when the parameters are far from their optimal values. Calculation of the Hessian adds to the complexity of the algorithm. This method is not in general use.
+*[[Davidon–Fletcher–Powell formula|Davidon–Fletcher–Powell method]]. This method, a form of pseudo-Newton method, is similar to the one above but calculates the Hessian by successive approximation, to avoid having to use analytical expressions for the second derivatives.
+*[[Steepest descent]]. Although a reduction in the sum of squares is guaranteed when the shift vector points in the direction of steepest descent,  this method often performs poorly. When the parameter values are far from optimal the direction of the steepest descent vector, which is normal (perpendicular) to the contours of the objective function, is very different from the direction of the Gauss–Newton vector. This makes divergence much more likely, especially as the minimum along the direction of steepest descent may correspond to a small fraction of the length of the steepest descent vector. When the contours of the objective function are very eccentric, due to there being high correlation between parameters, the steepest descent iterations, with shift-cutting, follow a slow, zig-zag trajectory towards the minimum.
+*[[Conjugate gradient method|Conjugate gradient search]]. This is an improved steepest descent based method with good theoretical convergence properties, although it can fail on finite-precision digital computers even when used on quadratic problems.&lt;ref&gt;M. J. D. Powell, Computer Journal, (1964), '''7''', 155.&lt;/ref&gt;
+
+=== Direct search methods ===
+Direct search methods depend on evaluations of the objective function at a variety of parameter values and do not use derivatives at all. They offer alternatives to the use of numerical derivatives in the Gauss–Newton method and gradient methods.
+* Alternating variable search.&lt;ref name=BDS/&gt; Each parameter is varied in turn by adding a fixed or variable increment to it and retaining the value that brings about a reduction in the sum of squares. The method is simple and effective when the parameters are not highly correlated. It has very poor convergence properties, but may be useful for finding initial parameter estimates.
+*[[Nelder–Mead method|Nelder–Mead (simplex) search]]. A [[simplex]] in this context is a [[polytope]] of ''n''&amp;nbsp;+&amp;nbsp;1 vertices in ''n'' dimensions; a triangle on a plane, a tetrahedron in three-dimensional space and so forth. Each vertex corresponds to a value of the objective function for a particular set of parameters. The shape and size of the simplex is adjusted by varying the parameters in such a way that the value of the objective function at the highest vertex always decreases. Although the sum of squares may initially decrease rapidly, it can converge to a nonstationary point on quasiconvex problems, by an example of M. J. D. Powell.
+
+More detailed descriptions of these, and other, methods are available, in ''[[Numerical Recipes]]'', together with computer code in various languages.
+
+== See also ==
+* [[Least squares support vector machine]]
+* [[Curve fitting]]
+* [[Grey box model]]
+* [[Nonlinear programming]]
+* [[Nonlinear regression]]
+* [[Optimization (mathematics)]]
+* [[Levenberg&amp;ndash;Marquardt algorithm]]
+
+== References ==
+{{reflist|30em}}
+
+== Further reading ==
+*{{cite book |first=C. T. |last=Kelley |title=Iterative Methods for Optimization |series=SIAM Frontiers in Applied Mathematics |volume=no 18 |year=1999 |isbn=0-89871-433-8 |url=https://archive.siam.org/books/textbooks/fr18_book.pdf }}
+*{{cite book |first=T. |last=Strutz |title=Data Fitting and Uncertainty : A Practical Introduction to Weighted Least Squares and Beyond |edition=2nd |publisher=Springer Vieweg |year=2016 |isbn=978-3-658-11455-8 }}
+
+{{Least Squares and Regression Analysis}}
+
+[[Category:Least squares]]</text>
+      <sha1>mwgzmn5rj5xcrrtyoqsuc9o5447o30q</sha1>
+    </revision>
+  </page>
+</mediawiki>

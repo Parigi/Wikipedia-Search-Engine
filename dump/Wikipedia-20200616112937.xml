@@ -1,0 +1,275 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.10/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.10/ http://www.mediawiki.org/xml/export-0.10.xsd" version="0.10" xml:lang="en">
+  <siteinfo>
+    <sitename>Wikipedia</sitename>
+    <dbname>enwiki</dbname>
+    <base>https://en.wikipedia.org/wiki/Main_Page</base>
+    <generator>MediaWiki 1.35.0-wmf.36</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Media</namespace>
+      <namespace key="-1" case="first-letter">Special</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Talk</namespace>
+      <namespace key="2" case="first-letter">User</namespace>
+      <namespace key="3" case="first-letter">User talk</namespace>
+      <namespace key="4" case="first-letter">Wikipedia</namespace>
+      <namespace key="5" case="first-letter">Wikipedia talk</namespace>
+      <namespace key="6" case="first-letter">File</namespace>
+      <namespace key="7" case="first-letter">File talk</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki talk</namespace>
+      <namespace key="10" case="first-letter">Template</namespace>
+      <namespace key="11" case="first-letter">Template talk</namespace>
+      <namespace key="12" case="first-letter">Help</namespace>
+      <namespace key="13" case="first-letter">Help talk</namespace>
+      <namespace key="14" case="first-letter">Category</namespace>
+      <namespace key="15" case="first-letter">Category talk</namespace>
+      <namespace key="100" case="first-letter">Portal</namespace>
+      <namespace key="101" case="first-letter">Portal talk</namespace>
+      <namespace key="108" case="first-letter">Book</namespace>
+      <namespace key="109" case="first-letter">Book talk</namespace>
+      <namespace key="118" case="first-letter">Draft</namespace>
+      <namespace key="119" case="first-letter">Draft talk</namespace>
+      <namespace key="446" case="first-letter">Education Program</namespace>
+      <namespace key="447" case="first-letter">Education Program talk</namespace>
+      <namespace key="710" case="first-letter">TimedText</namespace>
+      <namespace key="711" case="first-letter">TimedText talk</namespace>
+      <namespace key="828" case="first-letter">Module</namespace>
+      <namespace key="829" case="first-letter">Module talk</namespace>
+      <namespace key="2300" case="first-letter">Gadget</namespace>
+      <namespace key="2301" case="first-letter">Gadget talk</namespace>
+      <namespace key="2302" case="case-sensitive">Gadget definition</namespace>
+      <namespace key="2303" case="case-sensitive">Gadget definition talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Apple Newton</title>
+    <ns>0</ns>
+    <id>20647724</id>
+    <revision>
+      <id>956805394</id>
+      <parentid>952832036</parentid>
+      <timestamp>2020-05-15T12:23:50Z</timestamp>
+      <contributor>
+        <ip>2600:1700:AC00:1C20:B551:97A3:E01D:9229</ip>
+      </contributor>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="30318" xml:space="preserve">{{About|the Apple Newton platform|the series of hardware devices|MessagePad}}
+{{Use mdy dates|date=October 2013}}
+{{Infobox information appliance
+| name = Newton
+| title = 
+| aka = MessagePad
+| logo = 
+| image = Apple Newton and iPhone.jpg
+| caption = The Apple Newton MessagePad 2100, running Newton OS, alongside the original [[iPhone]] running [[iOS]]
+| developer = [[Apple Inc.|Apple Computer, Inc.]]
+| manufacturer = 
+| family = 
+| type = [[Bar (form)|Bar]] [[PDA]]
+| generation = 
+| releasedate = {{Start date and age|1993|05|08}}
+| lifespan = 
+| price = 
+| discontinued = {{End date|1998|02|27}}
+| unitssold = 
+| unitsshipped = 
+| media = 
+| os = [[Newton OS]]
+| power = 
+| soc = 
+| cpu = 
+| memory = 
+| storage = 
+| memory card = 
+| display = 
+| graphics = 
+| sound = 
+| input = [[Touch screen]]
+| controllers = 
+| camera = 
+| touchpad = 
+| connectivity = 
+| platform = 
+| service = 
+| dimensions = 
+| weight = 
+| topgame = 
+| compatibility = 
+| predecessor = 
+| successor = {{Cslist
+ | [[iPhone 2G]]&lt;br&gt;[[iPad (1st generation)]]
+ }}
+| related = 
+| website = &lt;!--{{URL|example.org}}--&gt;
+}}
+The '''Newton''' is a series of [[personal digital assistant]]s (PDAs) developed and marketed by [[Apple Inc.|Apple Computer, Inc.]] An early device in the PDA category (the Newton originated the term)&lt;ref name=hormby /&gt;, it was the first to feature [[handwriting recognition]]. Apple started developing the platform in 1987&lt;!-- See Apple confidential 2.0 by O. Linzmayer --&gt; and shipped the first devices in 1993. Production officially ended on February 27, 1998. Newton devices ran on a proprietary [[operating system]], [[Newton OS]]; examples include Apple's [[MessagePad]] series and the [[eMate 300]], and other companies also released devices running on Newton OS. Most Newton devices were based on the [[ARM architecture|ARM]] 610 RISC processor and all featured handwriting-based input.
+
+The Newton was considered technologically innovative at its debut, but a combination of factors, some of which included its high price and early problems with its handwriting recognition feature, limited its sales. This led to Apple ultimately discontinuing the platform at the direction of [[Steve Jobs]] in 1998, a year after his return to the company.
+
+[[File:Newton Lewt (2200371795).jpg|thumb|right|Three Newton MessagePad devices with keyboard and LinearFlash [[PCMCIA]] memory card accessories]]
+
+==Development==
+[[File:Apple Newton ASIC.jpg|thumb|right|The custom ASIC chip inside the original Apple Newton H1000]]
+[[File:Apple Newton PCB.jpg|thumb|right|Inside the Apple Newton Messagepad H1000, with back cover removed]]
+[[File:Colour Apple Newton Logo.JPG|thumb|The original color Apple logo on the Newton]]
+
+The Newton project was a [[personal digital assistant]] platform. The PDA category did not exist for most of Newton's genesis, and the phrase "personal digital assistant" was coined relatively late in the development cycle by Apple's CEO [[John Sculley]],&lt;ref name=hormby&gt;{{cite web |url=http://lowendmac.com/2013/the-story-behind-apples-newton/ |title=The Story Behind Apple's Newton |first=Tom |last=Hormby |date=February 7, 2006 |publisher=Low End Mac}}&lt;/ref&gt; the driving force behind the project. [[Larry Tesler]] determined that an advanced, low-power processor was needed for sophisticated graphics manipulation. He found [[Hermann Hauser]], with the [[ARM architecture|Acorn RISC Machine]] (ARM) processor, and put together [[Advanced RISC Machines]] (now ARM Holdings).&lt;ref name="macobserver john sculley 2"&gt;{{cite web | url=http://www.macobserver.com/tmo/article/john_sculley_the_full_transcript_part2/ | title=John Sculley: The Truth About Me, Apple, and Steve Jobs Part 2 | work=The Mac Observer | date=January 13, 2012 | accessdate=January 20, 2012 | author=Kuehl Julie | author2=Martellaro, John | author3=Greelish, David | quote=[...] Larry [Tesler] realized that if you're going to do very sophisticated graphics manipulation on a handheld product, that no processor existed at that time that was both powerful and low powered enough to be able to even attempt that. Larry Tesler found a man in the UK named Hermann Hauser who had founded the Acorn computer company. [...] a new company that we had to put together that was 47 percent owned by Apple, it was 47 percent owned by Olivetti, a name from the past, and the rest of it was owned by Hermann Hauser. And this company we called ARM.}}&lt;/ref&gt;
+
+When the move was made to a smaller design (designed by [[Jonathan Ive]]),&lt;ref&gt;{{cite journal|title=Who Is Jonathan Ive? An in-depth look at the man behind Apple's design magic|journal=BusinessWeek|date=September 25, 2006|url=http://www.businessweek.com/magazine/content/06_39/b4002414.htm}}&lt;/ref&gt;&lt;ref&gt;{{cite journal|title=Cyber Elite: Jonathan Ive|journal=Time Digital|year=2000|url=http://www.time.com/time/digital/cyberelite/44.html|archiveurl=https://web.archive.org/web/20000819145006/http://www.time.com/time/digital/cyberelite/44.html|archivedate=August 19, 2000}}&lt;/ref&gt; Dylan was relegated to experimental status in the "Bauhaus Project" and eventually canceled outright. Its replacement, [[NewtonScript]], had garbage collection and tight integration with the "soup" storage and user-interface toolkit, and was specifically designed to run in environments with small [[RAM]] and large [[ROM]]. It was mostly developed by Walter Smith from 1992 to 1993.
+
+Although [[PDA]]s had been developing since the original [[Psion Organiser]] in 1984,&lt;ref&gt;{{cite web|url=http://www.authorstream.com/Presentation/aSGuest22971-219207-pda-enter-tags-rohith-girish-shyamprasad-entertainment-ppt-powerpoint/|title=PDA|work=authorSTREAM|accessdate=November 10, 2015}}&lt;/ref&gt;&lt;ref name="PDA history blog"&gt;[http://www.bloggersbase.com/gadgets-and-Mobile/history-of-pdas-part-1/ History of PDAs blog] {{webarchive |url=https://web.archive.org/web/20110708015619/http://www.bloggersbase.com/gadgets-and-Mobile/history-of-pdas-part-1/ |date=July 8, 2011}}&lt;/ref&gt; the Newton has left one particular lasting impression: the term ''personal digital assistant'' was first coined to refer to the Newton.&lt;ref name="PDA history blog"/&gt;
+
+According to former Apple CEO [[John Sculley]], the company invested approximately $100 million to develop Newton.&lt;ref&gt;{{cite web|last=Kawamoto |first=Dawn |title=Riding the next technology wave |url=http://news.cnet.com/2008-7351-5085423.html |work=Newsmaker |publisher=CNET |accessdate=June 15, 2012 |date=October 2, 2003 |url-status=dead |archiveurl=https://web.archive.org/web/20120205201219/http://news.cnet.com/2008-7351-5085423.html |archivedate=February 5, 2012 }}&lt;/ref&gt;
+
+===Later history and cancellation===
+The Newton was considered innovative at its debut, but it suffered from its high price and problems with the handwriting recognition element, its most anticipated feature. The handwriting software was barely ready by 1993 and its tendency to misread characters was widely derided in the media. This was parodied in ''[[The Simpsons]]'' episode [[Lisa on Ice]]; where a scene makes fun of the Newton's handwriting recognition turning "Beat up Martin" into "Eat up Martha".&lt;ref&gt;{{cite news|url=https://www.cnet.com/news/the-simpsons-eat-up-martha-was-the-first-autocorrect-fail/|title=The Simpsons' 'Eat Up Martha' was the first autocorrect fail|last=Hide|first=Nick|publisher=CNET|date=September 23, 2013|accessdate=August 6, 2019}}&lt;/ref&gt; [[Garry Trudeau]] also mocked the Newton in a weeklong arc of his comic strip ''[[Doonesbury]]'', portraying it as a costly toy that served the same function as a cheap notepad, and using its accuracy problems to humorous effect. In one panel, [[Michael Doonesbury]]'s Newton misreads the words "Catching on?" as "Egg Freckles", a phrase that became widely repeated as symbolic of the Newton's problems. This phrase was subsequently included as a trigger for an [[Easter egg (media)|easter egg]] in later editions of the MessagePad, producing a panel from the strip when it was entered on the device. In acknowledgement of the strip, Apple subsequently gifted a MessagePad to Trudeau.&lt;ref&gt;{{cite news|last=Markoff|first=John|title=Doonesbury' and Apple Hatch a Comic Surprise|url=https://www.nytimes.com/1995/12/18/business/doonesbury-and-apple-hatch-a-comic-surprise.html|accessdate=June 15, 2012|newspaper=New York Times|date=December 18, 1995}}&lt;/ref&gt; Although the software improved substantially in Newton OS 2.0, it was not enough to inspire strong sales.&lt;ref name=Evans&gt;{{cite book |last1= Evans |first1= David S. |last2= Hagiu |first2= Andrei |last3= Schmalensee |first3= Richard |year= 2008 |title= Invisible Engines: How Software Platforms Drive Innovation and Transform Industries |url= https://books.google.com/books?id=5Wx6-uv-DSkC&amp;pg=PA397&amp;dq=Evans,+Hagiu,+and+Schmalensee&amp;hl=en&amp;sa=X&amp;ved=0CBwQ6AEwAGoVChMIu_zm_v6XyQIVS5IeCh1q2gh7#v=onepage&amp;q=Newton&amp;f=false |location= |publisher= [[MIT Press]] |pages= 159–161|isbn= 0262262649}}&lt;/ref&gt;
+
+The Newton became popular in some industries, notably the medical field. However, the debut of the competing [[Palm Pilot]] substantially reduced its market share. Apple struggled to find a new direction for the Newton, and when [[Steve Jobs]] returned to the company in 1997, he killed the product line. He was critical of the device's weak performance, the management of the development team, and the stylus, which he disliked as it prevented the use of the fingers. He was likely also motivated by the fact that the Newton was the pet project of his old adversary John Sculley. However, Jobs saw potential in the technology and concept, if not the execution, and eventually led Apple to create its [[multi-touch]] devices inspired by [[FingerWorks]], the [[iPhone]] and [[iPad]].&lt;ref name=Evans/&gt;&lt;ref&gt;{{cite web|last=Honan|first= Matt|url=https://www.wired.com/2013/08/remembering-the-apple-newtons-prophetic-failure-and-lasting-ideals/|title=Remembering the Apple Newton's Prophetic Failure and Lasting Impact|date=August 5, 2013|work=WIRED|accessdate=November 17, 2015}}&lt;/ref&gt;
+
+==Product details==
+{{More citations needed section|date=March 2020}}
+===Hardware models===
+'''From Apple''':
+* [[MessagePad]] (also known as the H1000, OMP or Original MessagePad)
+* [[MessagePad|MessagePad 100]] (same hardware as OMP, but newer system version)&lt;ref&gt;{{cite web|last1=Luckie|first1=Douglas|title=Newton MessagePad|url=https://www.msu.edu/~luckie/gallery/mp100.htm|website=Luckie's Homepage|accessdate=18 July 2015}}&lt;/ref&gt;
+* [[MessagePad|MessagePad 110]]
+* [[MessagePad|MessagePad 120]]
+* [[MessagePad|MessagePad 130]]
+* [[eMate 300]]
+* [[MessagePad|MessagePad 2000]]
+* [[MessagePad|MessagePad 2100]]
+
+'''From Motorola''':
+* [[Motorola Marco]]
+
+'''From Sharp''':&lt;ref&gt;{{cite web|last1=Luckie|first1=Douglas|title=Sharp's Newton ExpertPad|url=https://www.msu.edu/~luckie/gallery/epad.htm|website=Luckie's Homepage|accessdate=18 July 2015}}&lt;/ref&gt;
+* Sharp ExpertPad PI-7000 (equivalent to OMP)
+* Sharp ExpertPad PI-7100 (equivalent to MP 100)
+
+'''From Digital Ocean''':
+* Tarpon&lt;ref&gt;{{cite news|last1=Quinlan|first1=Tom|title=Newton-based PDA announced|url=https://books.google.com/books?id=nToEAAAAMBAJ&amp;pg=PA39|accessdate=18 July 2015|work=InfoWorld|issue=Vol. 17, No. 2|publisher=InfoWorld Media Group, Inc.|date=9 January 1995}}&lt;/ref&gt;
+* Seahorse&lt;ref&gt;{{cite web|last1=Ortiz|first1=Kedesh|title=Back before iPhones and Androids, we had these...|url=http://www.hypeorlando.com/tech-under-the-sun/2014/03/11/the-history-of-the-first-smarphones/|website=Tech Under The Sun|accessdate=18 July 2015}}&lt;/ref&gt;
+
+'''From Siemens''':
+* Siemens Note Phone&lt;ref&gt;{{cite web|title=Siemens NotePhone|url=https://randoc.wordpress.com/2013/08/16/siemens-notephone/|website=Siemens NotePhone|accessdate=2020-04-11}}&lt;/ref&gt;{{Better source|date=September 2015|reason=The provided link is a self-published blog post.}}
+
+'''From Harris''':
+* Harris SuperTech 2000&lt;ref&gt;{{cite news|last1=Schmidt|first1=Tim|title=Discord in hardwareland|url=https://books.google.com/books?id=cw4EAAAAMBAJ&amp;pg=PA47|accessdate=18 July 2015|work=Network World|issue=Vol. 13, No. 8|publisher=IDG Network World Inc|date=19 February 1996}}&lt;/ref&gt;
+
+&lt;gallery mode="packed"&gt;
+File:Apple Newton-IMG 0454-cropped.jpg|MP100
+File:Newton MessagePad 120 opened.JPG|MP120
+File:Applenewton emate300.jpg|eMate 300
+File:Apple Newton.jpg|MP2000
+&lt;/gallery&gt;
+
+===Application software===
+&lt;!-- Deleted image removed: [[Image:Controlpanelnewton.png|thumb|right|''The [[Newton OS]] GUI'']] --&gt;
+Most Newton devices were pre-loaded with a variety of software to help in personal data organization and management.  This included such applications as Notes, Names, and Dates, as well as a variety of productivity tools such as a calculator, conversion calculators (metric conversions, currency conversions, etc.), time-zone maps, etc.  In later/2.x versions of the [[Newton OS]] these applications were refined, and new ones were added, such as the Works word processor and the Newton Internet Enabler, as well as the inclusion of bundled [[Third-party developer|3rd party]] applications, such as Notion: The Newton List Manager, the QuickFigure Works spreadsheet (a "lite" version of Pelicanware's QuickFigure Pro), Pocket [[Quicken]], the NetHopper web browser, and the EnRoute email client.  Various Newton applications had full import/export capabilities with popular desktop office suite and [[Personal information manager|PIM (Personal Information Manager)]] application file formats, primarily by making use of Apple's bundled [[Apple Newton Software|Newton Connection Utilities]] (or the older Newton Connection Kit, which had been sold separately for Newton devices that used the 1.x versions of the OS).
+
+====Notes====
+The Notes application allowed users to create small documents that could contain text that had been typed, or that had been recognized from handwriting, as well as free-hand sketches, [[Apple Newton#User interface|"Shapes", and "ink text"]].
+
+[[Image:Apple newton messagepad checklist jk.jpg|left|thumbnail|Photograph of screen displaying Checklist, some bullet points [[Tick (checkmark)|checked]] and/or "collapsed"]] In version 2.0 of the [[Newton OS]], the Notes application (as well as Names) could accept what Apple termed "stationery", 3rd-party created plug-in modules that could extend the functionality of the basic applications.
+
+One of the new types of Notes stationery added to Newton OS 2.0 was a [[Hierarchy|hierarchical]], [[Bullet point|bullet-ed]], collapsible, multi-line "[[Checklist]]", an implementation of [[outliner]] software.  This could be used for organizing thoughts, priorities, [[Time management|"to do" lists]], planning steps and sub-tasks, etc.  Each bullet point could contain as many lines of text as desired.  A bullet point could be dragged and placed underneath another bullet point, thus forming a hierarchical [[outline (summary)|outline]]/[[Tree structure|tree]].  When a bullet point was dragged, the entire sub-[[Tree structure|tree]] of child bullet points underneath it (if any) would be dragged along as well.  If a bullet point had child bullet points, tapping the hollow parent bullet point once would "roll up" or collapse all the children ([[WindowShade|"windowshade" effect]]).  The parent bullet point would become a solid black circle and all the children would disappear.  Tapping the parent bullet point again would make the children re-appear. This functionality arrived in Newton OS 2.0, but several third parties made similar software previously for OS 1.x Newton machines, the most notable of which was Dyno Notepad, released in 1993.
+
+====Names====
+The Names application was used for storing contacts. Contacts created either on the Newton device or on a Windows or Macintosh desktop [[Personal information manager|PIM]] could be synchronized to each other.&lt;ref&gt;Apple Computer. [http://docs.info.apple.com/article.html?artnum=38006 "Newton Connection Utilities ReadMe"], Apple, July 24, 1997&lt;/ref&gt;&lt;ref&gt;Apple Computer. [http://www.oldschool.net/newton/papers/ncu.html#NCU "Newton Connection Utilities Features"], Newton Source&lt;/ref&gt;  Entering a date in Names for fields such as birthday or anniversary automatically created corresponding repeating events in the Dates application.  Each contact had an attached free-form notes field available to it, that could contain any mix of interleaved text, ink text, Shapes, or Sketches.  Like Notes, Names could be extended by developers, to create special new categories of contacts with specialized pre-defined fields.  Names shipped with 3 types of contacts, "people", "companies", and "groups", but a developer could define new types, for instance "client", "patient", etc. Stand Alone Software, Inc. also created a Newton software package called the Stationery Construction Kit, which allowed users to make stationery themselves without aid of any other tools.
+
+====Dates====
+Dates supplied calendar, events, meeting, and alarms functions, including an integrated [[Time management|"to do" list]] manager.  It offered many different display and navigation styles, including a list view, graphical day "time blocking" view, or a week, month, or year grid.  As with Names and Notes, Dates items created either on the Newton or on a Windows or Macintosh desktop [[Personal information manager|PIM]] could be synchronized to each other.
+
+===Operating system and programming environment===
+The [[Newton OS]] consists of three layers. At the lowest level, a [[microkernel]] handles resources like [[Task (computers)|tasks]] and memory. On top of the microkernel, the bulk of the operating system is implemented in [[C++]], including the communications layer, handwriting recognition, and the [[NewtonScript]] environment. The top layer consists of built-in and user installed applications written in NewtonScript.
+
+NewtonScript is an advanced [[object-oriented programming]] language, developed by Apple employee [[Walter Smith (programmer)|Walter Smith]].&lt;ref&gt;{{cite web|url=http://waltersmith.us/|title=Walter Smith, software guy|work=waltersmith.us|accessdate=November 10, 2015}}&lt;/ref&gt;  Some programmers complained at the $1000 cost of the Toolbox programming environment. Additionally, it required learning a new way of programming.
+
+The Newton Toolkit (NTK), an integrated environment tailored to the graphical nature of the Newton platform, was developed specifically for developing applications for the Newton platform and included a graphical view editor, a template browser, and an interactive inspector window for debugging. Initially, it was only available for [[Macintosh]] computers, and later a [[Microsoft Windows]] version was developed. The Technical Lead for the Newton Toolkit was Norberto Menendez; other engineers on the team were Ben Sharpe and Peter Potrebic.
+
+===Data storage===
+Data in Newton is stored in object-oriented databases known as [[Soup (Apple Newton)|soups]]. One of the innovative aspects of Newton is that soups are available to all programs; and programs can operate cross-soup; meaning that the calendar can refer to names in the address book; a note in the notepad can be converted to an appointment, and so forth; and the soups can be programmer-extended—a new address book enhancement can be built on the data from the existing address book. The soup system also made it easy to synchronize data, and the Newton Connection tools could be used for importing and exporting data. Among many file formats are the [[Rich Text Format]], [[Microsoft Word]], [[Microsoft Excel]], [[Microsoft Works]], and many more.
+
+Another consequence of the data-object soup is that objects can extend built-in applications such as the address book so seamlessly that Newton users can sometimes not distinguish which program or add-on object is responsible for the various features on their own system, because the advanced nature of Newton devices makes it easy to accept such add-ons. A user rebuilding their system after extended usage might find themselves unable to manually restore their system to the same functionality because some long-forgotten downloaded extension was missing. Data owned and used by applications and extensions themselves is tossed in the "Storage" area of the "Extras" drawer in 2.x Newton devices; on 1.x systems, they can only be found or removed in the Memory section of the built-in Prefs application, in the Card slip (also built-in), or with third-party tools such as NewtCase. There is no built-in distinction between types of data in that area. For example, an installed application's icon could be sitting right next to a database of addresses used by another installed extension further down the list.
+
+Finally, the data soup concept works well for data like addresses, which benefit from being shared cross-functionally, but it works poorly for discrete data sets like files and documents. Later, the 2.0 release of the [[Newton OS]] introduced Virtual Binary Objects to alleviate the problem of handling large data objects.
+
+===Package installation, capacity planning, and disaster recovery===
+Several software utilities which accommodate data transfer to and from a host system exist for the following platforms:
+
+* [[Classic Mac OS|Mac OS]]
+* [[OS X]]
+* [[UNIX]]
+* [[Linux]]
+* [[Microsoft Windows]]
+
+==Newton technology after cancellation==
+Before the Newton project was canceled, it was "spun off" into an Apple wholly owned subsidiary company, ''Newton Inc.'', but was reabsorbed several months later when Apple CEO [[Gil Amelio]] was fired by the board and [[Steve Jobs]] took over as then interim CEO. Two ex-Apple Newton developers founded [[Pixo]], the company that created the operating system for the original [[iPod]]. {{Citation needed|date=March 2020}}
+
+Speculation continued for several years that Apple might release a new PDA with some Newton technology or collaborate with [[Palm (PDA)|Palm]]. Feeding a bit of speculation, Apple put the "Print Recognizer" part of the Newton 2.1 handwriting recognition system into [[Mac OS X v10.2]] (known as "Jaguar"). It can be used with graphics tablets to seamlessly input handwritten printed text anywhere there was an insertion point on the screen. This technology, known as "[[Inkwell (Macintosh)|Inkwell]]", appears in the System Preferences whenever a tablet input device is plugged in. An [[Easter egg (virtual)|Easter egg]] in Print Recognizer on the Newton (write "ROSETTA! ROSETTA! ROSETTA!", and the Newton will insert "ROSETTA! ROSETTA! Hey, that's me!" instead) was present in Inkwell in Mac OS 10.2 and 10.3, but seems to have been removed in 10.4. [[Larry Yaeger]] was the author of the original Rosetta recognizer on the Newton, and was also responsible for porting it to Mac OS X.&lt;ref&gt;[http://wwnc.newtontalk.net/2004/program/larryyaeger/slides-larryyaeger.pdf Handwriting Recognition Technology in the Newton's Second Generation "Print Recognizer" (The One That Worked)], By [[Larry Yaeger]]{{Snd}} Apple Computer, World Wide Newton Conference, September 4–5, 2004, Slides&lt;/ref&gt; The [[Rosetta (software)|Rosetta]] name was later used for Apple's [[PowerPC]] software translation layer for [[Intel]]-based Macs.{{Citation needed|date=March 2020}}
+
+Some of the handwriting recognition technology from the Newton later found its way into [[Windows CE]].  The letter preferences menus showing the different ways that people write cursive characters were pixel identical on Windows CE to those previously used on the MessagePad.{{Citation needed|date=March 2018}}.
+
+At an ''[[All Things Digital]]'' conference in 2004, Steve Jobs made reference to a new "Apple PDA" (perhaps a successor to the Newton) which the company had developed but had decided not to bring to market.&lt;ref&gt;[http://www.appleinsider.com/articles/04/06/07/jobs_apple_developed_but_did_not_ship_apple_pda.html Jobs: Apple developed, but did not ship Apple PDA], By Kasper Jade, June 7, 2004, AppleInsider&lt;/ref&gt;  The tablet likely eventually evolved into the iPhone or iPad.{{Citation needed|date=November 2010}}.
+
+===Newton emulation===
+Since 2004, the Einstein Project&lt;ref&gt;{{cite web|url=https://code.google.com/p/einstein/|title=pguyot/Einstein|work=GitHub|accessdate=November 10, 2015}}&lt;/ref&gt; has been working on emulating the Newton for use as an alternative OS on other platforms. It is currently available for the Sharp [[Zaurus]], Apple's [[Mac OS X]], [[Nokia]] [[Maemo]], [[Microsoft Windows]], and the [[Pepper Pad]] 3. The emulator is an open source project, but requires an original Newton ROM to be installed in order to function. [[iPhone]]s and [[iPads]] run Einstein since September 2010. The [[Android operating system]] runs Einstein since March 2011.&lt;ref&gt;[http://myapplenewton.blogspot.com/2011/03/apple-newton-on-android.html Apple Newton on Android], March 13, 2011, My Apple Newton&lt;/ref&gt;
+
+===Future===
+A possible Newton revival was at one time a common source of speculation among the Macintosh user base; when patents for a tablet based Macintosh were applied for,&lt;ref&gt;[http://www.appleinsider.com/article.php?id=600 Appleinsider, ''Euro filing reveals Apple handheld design images'', August 13, 2004]&lt;/ref&gt; rumor sites jumped at the possibility of a new [[Tablet computer|tablet PC]]-style Macintosh. This later turned out to be the [[iPad]], which currently runs Apple's proprietary iPadOS System Software.{{Citation needed|date=March 2020}}
+
+In September 2009, [[Michael Tchao]], who pitched the original Newton concept to John Sculley,&lt;ref&gt;Remembering the Apple Newton's Prophetic Failure and Lasting Impact, Wired, August 2013, https://www.wired.com/2013/08/remembering-the-apple-newtons-prophetic-failure-and-lasting-ideals/&lt;/ref&gt; returned to Apple.&lt;ref&gt;{{cite web|last=Stone|first=Brad|title=Apple Rehires a Developer of Its Newton Tablet|url=http://bits.blogs.nytimes.com/2009/09/28/apple-rehires-newton-and-nike-marketing-whiz/|work=Bits|publisher=New York Times|accessdate=June 15, 2012|date=September 28, 2009}}&lt;/ref&gt;  Michael Tchao is now the VP of iPad Product Marketing.&lt;ref&gt;{{cite web |title=Secret Apple Execs You've Never Heard Of |url=https://www.businessinsider.com/apple-execs-2011-6?op=1#dan-riccio-is-vp-of-the-ipad-division-4 |website=Business Insider |accessdate=21 April 2020}}&lt;/ref&gt;
+
+===Development===
+Programs have been written for the Newton since its cancellation,&lt;ref&gt;{{Cite web|title = United Network of Newton Archives|url = http://www.unna.org/recent/|website = www.unna.org|accessdate = 2015-11-25|archive-url = https://web.archive.org/web/20051023130015/http://www.unna.org/recent/|archive-date = October 23, 2005|url-status = dead}}&lt;/ref&gt; including an RSS reader.&lt;ref&gt;{{Cite web|title = 40Hz|url = http://40hz.org/Pages/40Hz|website = 40hz.org|accessdate = 2015-11-25}}&lt;/ref&gt; Hardware mods made by Newton users included a board for USB connectivity, headphone jacks, and replacing the backlight with different colors. {{Citation needed|date=March 2020}}
+
+==In popular culture==
+In ''[[Serial Experiments Lain]]'', a common portable computing device, known as a HandiNavi (named after the Apple product concept, [[Knowledge Navigator|The Knowledge Navigator]]), is heavily influenced by the Newton.&lt;ref name="Cornell Japanese Animation Society 2009"&gt;{{cite web |title=Infomania: What is the relationship between Apple and lain? |website=Cornell Japanese Animation Society |date=2009-11-21 |url=https://www.cjas.org/~leng/apple-lain.htm#portable |access-date=2019-08-13}}&lt;/ref&gt;
+
+During Apple's March 21, 2016, keynote conference, a celebration video called "40 Years in 40 Seconds" was unveiled. The video featured flashing text of names from Apple's most notable products and taglines in their forty-year history, including Newton. However, in Newton's case, it was the only name depicted in the video being explicitly scratched out, referencing the full cancellation of the product line.&lt;ref&gt;Hackett, Stephen (March 22, 2016) [https://512pixels.net/2016/03/0-years-in-40-s/ Apple’s ’40 Years in 40 Seconds’ Video Annotated ] ''512 Pixels'' (blog). Retrieved 2019-10-11&lt;/ref&gt;
+
+==See also==
+* [[iPhone]]
+* [[Pocket-sized computer]]
+* [[iPad]]
+
+==References==
+{{Reflist|30em}}
+
+==External links==
+{{Commons|Apple Newton}}
+
+===Newton technical documents for programmers===
+NewtonScript Programming: [[NewtonScript]] is the native programming language for all MessagePads
+* [https://web.archive.org/web/20080724074742/http://newton.vyx.net/documentation/COMPCON-Arch.pdf The Newton Application Architecture]
+* [https://web.archive.org/web/20080528081216/http://newton.tek-ed.com/NewtonToolKit_win/NTK/Winntk16.pdf Newton Tool Kit (NTK) Integrated Development Environment Manual]
+* [http://beepdf.com/doc/122155/newton_archi.html The Newton Application Architecture]
+* [https://web.archive.org/web/20081014160506/http://home.satx.rr.com/dumbstart/tutorial/tutorial1.htm A quick introduction to programming in NewtonScript using NTK]
+* [http://www.newted.org/download/manuals/NewtonScriptProgramLanguage.pdf The NewtonScript Programming Language (Apple Manual).]
+* [http://www.newted.org/download/manuals/NewtonProgrammerGuide20.pdf Newton Programmer's Guide, OS 2.0]
+* [http://www.newted.org/download/manuals/NewtonProgrammerGuide21Add.pdf Newton Programmer's Guide, OS 2.1 Addendum]
+* [http://www.newted.org/download/manuals/NewtonProgrammerRef20.pdf Newton Programmer's Reference, OS 2.0]
+* [http://www.newted.org/download/manuals/NewtonOS21EngDoc.pdf Newton OS 2.1 Engineering Documents]
+* [http://waltersmith.us/wp-content/uploads/2005/12/OOPSLA95.pdf Explanation of NewtonScript Prototyping]
+* [http://www.newted.org/download/manuals/Newton20UIGuide.pdf Newton User Interface Specification Guide]
+
+===General historical information on pen computing===
+* [http://ruetersward.com/pens/penhist.html Notes on the (relatively unknown) History of Pen-based Computing]
+* {{YouTube|4xnqKdWMa_8|Notes on the History of Pen-based Computing}}
+* [http://ruetersward.com/biblio.html Annotated Bibliography in Pen Computing]
+
+{{Apple hardware before 1998}}
+
+[[Category:Apple Newton| ]]
+[[Category:Apple Inc. personal digital assistants]]
+[[Category:Handwriting recognition]]
+[[Category:Personal digital assistant software]]
+[[Category:Computer-related introductions in 1993]]
+[[Category:Products introduced in 1993]]
+[[Category:Products and services discontinued in 1998]]</text>
+      <sha1>bnjuny014m2g48blq82b2holl2ww74f</sha1>
+    </revision>
+  </page>
+</mediawiki>

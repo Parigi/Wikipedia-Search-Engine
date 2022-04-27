@@ -1,0 +1,120 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.10/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.10/ http://www.mediawiki.org/xml/export-0.10.xsd" version="0.10" xml:lang="en">
+  <siteinfo>
+    <sitename>Wikipedia</sitename>
+    <dbname>enwiki</dbname>
+    <base>https://en.wikipedia.org/wiki/Main_Page</base>
+    <generator>MediaWiki 1.35.0-wmf.36</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Media</namespace>
+      <namespace key="-1" case="first-letter">Special</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Talk</namespace>
+      <namespace key="2" case="first-letter">User</namespace>
+      <namespace key="3" case="first-letter">User talk</namespace>
+      <namespace key="4" case="first-letter">Wikipedia</namespace>
+      <namespace key="5" case="first-letter">Wikipedia talk</namespace>
+      <namespace key="6" case="first-letter">File</namespace>
+      <namespace key="7" case="first-letter">File talk</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki talk</namespace>
+      <namespace key="10" case="first-letter">Template</namespace>
+      <namespace key="11" case="first-letter">Template talk</namespace>
+      <namespace key="12" case="first-letter">Help</namespace>
+      <namespace key="13" case="first-letter">Help talk</namespace>
+      <namespace key="14" case="first-letter">Category</namespace>
+      <namespace key="15" case="first-letter">Category talk</namespace>
+      <namespace key="100" case="first-letter">Portal</namespace>
+      <namespace key="101" case="first-letter">Portal talk</namespace>
+      <namespace key="108" case="first-letter">Book</namespace>
+      <namespace key="109" case="first-letter">Book talk</namespace>
+      <namespace key="118" case="first-letter">Draft</namespace>
+      <namespace key="119" case="first-letter">Draft talk</namespace>
+      <namespace key="446" case="first-letter">Education Program</namespace>
+      <namespace key="447" case="first-letter">Education Program talk</namespace>
+      <namespace key="710" case="first-letter">TimedText</namespace>
+      <namespace key="711" case="first-letter">TimedText talk</namespace>
+      <namespace key="828" case="first-letter">Module</namespace>
+      <namespace key="829" case="first-letter">Module talk</namespace>
+      <namespace key="2300" case="first-letter">Gadget</namespace>
+      <namespace key="2301" case="first-letter">Gadget talk</namespace>
+      <namespace key="2302" case="case-sensitive">Gadget definition</namespace>
+      <namespace key="2303" case="case-sensitive">Gadget definition talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Help &amp; Manual</title>
+    <ns>0</ns>
+    <id>1950691</id>
+    <revision>
+      <id>909733694</id>
+      <parentid>804261353</parentid>
+      <timestamp>2019-08-07T07:56:38Z</timestamp>
+      <contributor>
+        <username>Daezzer</username>
+        <id>37087238</id>
+      </contributor>
+      <minor/>
+      <comment>Added link to external website - Slovak product website</comment>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="2961" xml:space="preserve">{{Multiple issues|
+{{refimprove|date=May 2017}}
+{{notability|date=May 2017}}
+}}
+
+{{Infobox Software
+| name                   = Help &amp; Manual
+| screenshot             = Help Manual 5.png
+| developer              = [[EC Software]]
+| latest release version = 7
+| operating system       = [[Microsoft Windows]]
+| genre                  = [[Integrated development environment|IDE]]
+| license                = [[Trialware]]
+| website                = {{URL|helpandmanual.com}}
+}}
+
+'''Help &amp; Manual''' is a [[Windows]]-based [[help authoring tool]] published by EC Software, a company based in [[Austria]].
+
+Like many help authoring tools, Help &amp; Manual allows the writer to create a [[Single source publishing|single source]] text which it then converts to a number of target formats. In this case, the author creates the source text using an editor built into the Help &amp; Manual program. The text, along with the user's settings for the project, are stored in [[XML]] files.
+
+== Version history ==
+Version 7.0 of Help &amp; Manual was released June 2015. It supports the following output formats:
+
+* [[PDF]]
+* [[Microsoft Compiled HTML Help|Compiled HTML]]
+* [[HTML]] Web Page
+* [[Visual Studio Help]]
+* [[Microsoft Word]]
+* [[eBook]] ([[EXE|Windows executable]] containing an embedded viewer)
+* [[ePUB]] e-books
+* [[Amazon Kindle]] e-books
+* Printed manuals
+
+Version 4.x of Help &amp; Manual also supports [[Unicode]] for creating help in all international languages, including Asian languages like Chinese, Japanese and Thai but excluding right-to-left languages.
+
+Version 5.x of Help &amp; Manual contains a completely redesigned [[Ribbon (computing)|Ribbon]] interface, and permits multiple users to collaborate and work on a single help project at the same time.
+
+Version 6.x of Help &amp; Manual has a slightly modified user interface and adds support for the [[ePUB]] publishing format.
+
+Version 7.x of Help &amp; Manual adds support for [[Team Foundation Server]] version control and the [[Amazon Kindle]] publishing format.
+
+The program comes bundled with several tools, including a screenshot capture tool, a graphics program with functions for editing and enhancing screenshots, a help context tool for managing, importing and exporting help context numbers, a "print manual designer" for creating and editing layout templates for PDF files and printed manuals and a reporting tool for generating and exporting project reports.
+
+* 3.x - used [[Rich Text Format|RTF]]-based source files with a .HM3 extension.
+* 4.x - uses [[XML]]-based source files with a .HMX extension
+* 5.x - uses XML-based source files with a .HMXZ extension
+* 6.x - project source files compatible with version 5
+* 7.x - project source files compatible with version 5 and 6
+
+== External links ==
+* {{Official website|helpandmanual.com/}}
+*[https://helpandmanual.sk Slovak distribution &amp; support website]
+
+{{DEFAULTSORT:Help and Manual}}
+[[Category:Online help]]
+[[Category:Technical communication tools]]</text>
+      <sha1>67xxjrx9x78ggljjoc94u7pqqwih89s</sha1>
+    </revision>
+  </page>
+</mediawiki>

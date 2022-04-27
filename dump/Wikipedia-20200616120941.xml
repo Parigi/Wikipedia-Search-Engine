@@ -1,0 +1,191 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.10/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.10/ http://www.mediawiki.org/xml/export-0.10.xsd" version="0.10" xml:lang="en">
+  <siteinfo>
+    <sitename>Wikipedia</sitename>
+    <dbname>enwiki</dbname>
+    <base>https://en.wikipedia.org/wiki/Main_Page</base>
+    <generator>MediaWiki 1.35.0-wmf.36</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Media</namespace>
+      <namespace key="-1" case="first-letter">Special</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Talk</namespace>
+      <namespace key="2" case="first-letter">User</namespace>
+      <namespace key="3" case="first-letter">User talk</namespace>
+      <namespace key="4" case="first-letter">Wikipedia</namespace>
+      <namespace key="5" case="first-letter">Wikipedia talk</namespace>
+      <namespace key="6" case="first-letter">File</namespace>
+      <namespace key="7" case="first-letter">File talk</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki talk</namespace>
+      <namespace key="10" case="first-letter">Template</namespace>
+      <namespace key="11" case="first-letter">Template talk</namespace>
+      <namespace key="12" case="first-letter">Help</namespace>
+      <namespace key="13" case="first-letter">Help talk</namespace>
+      <namespace key="14" case="first-letter">Category</namespace>
+      <namespace key="15" case="first-letter">Category talk</namespace>
+      <namespace key="100" case="first-letter">Portal</namespace>
+      <namespace key="101" case="first-letter">Portal talk</namespace>
+      <namespace key="108" case="first-letter">Book</namespace>
+      <namespace key="109" case="first-letter">Book talk</namespace>
+      <namespace key="118" case="first-letter">Draft</namespace>
+      <namespace key="119" case="first-letter">Draft talk</namespace>
+      <namespace key="446" case="first-letter">Education Program</namespace>
+      <namespace key="447" case="first-letter">Education Program talk</namespace>
+      <namespace key="710" case="first-letter">TimedText</namespace>
+      <namespace key="711" case="first-letter">TimedText talk</namespace>
+      <namespace key="828" case="first-letter">Module</namespace>
+      <namespace key="829" case="first-letter">Module talk</namespace>
+      <namespace key="2300" case="first-letter">Gadget</namespace>
+      <namespace key="2301" case="first-letter">Gadget talk</namespace>
+      <namespace key="2302" case="case-sensitive">Gadget definition</namespace>
+      <namespace key="2303" case="case-sensitive">Gadget definition talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Partial least squares regression</title>
+    <ns>0</ns>
+    <id>1046736</id>
+    <revision>
+      <id>934329791</id>
+      <parentid>931199891</parentid>
+      <timestamp>2020-01-05T23:39:56Z</timestamp>
+      <contributor>
+        <username>Fgnievinski</username>
+        <id>6727347</id>
+      </contributor>
+      <comment>/* top */</comment>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="18795" xml:space="preserve">{{Regression bar}}
+'''Partial least squares regression''' ('''PLS regression''') is a [[statistics|statistical]] method that bears some relation to [[principal component regression|principal components regression]]; instead of finding [[hyperplane]]s of maximum [[variance]] between the response and independent variables, it finds a [[linear regression]] model by projecting the [[predicted variable]]s and the [[observable variable]]s to a new space. Because both the ''X'' and ''Y'' data are projected to new spaces, the PLS family of methods are known as bilinear factor models. Partial least squares discriminant analysis (PLS-DA) is a variant used when the Y is categorical.
+
+PLS is used to find the fundamental relations between two [[matrix (mathematics)|matrices]] (''X'' and ''Y''), i.e. a [[latent variable]] approach to modeling the [[covariance]] structures in these two spaces. A PLS model will try to find the multidimensional direction in the ''X'' space that explains the maximum multidimensional variance direction in the ''Y'' space. PLS regression is particularly suited when the matrix of predictors has more variables than observations, and when there is [[multicollinearity]] among ''X'' values. By contrast, standard regression will fail in these cases (unless it is [[Tikhonov regularization|regularized]]).
+
+Partial least squares was introduced by the Swedish statistician [[Herman Wold|Herman O. A. Wold]], who then developed it with his son, Svante Wold. An alternative term for PLS (and more correct according to Svante Wold&lt;ref name="wold_2001"&gt;{{cite journal |last1=Wold |first1=S |last2=Sjöström |first2=M. |last3=Eriksson |first3=L. |title=PLS-regression: a basic tool of chemometrics |journal=Chemometrics and Intelligent Laboratory Systems |volume=58 |issue=2 |pages=109–130 |year=2001 |doi=10.1016/S0169-7439(01)00155-1 }}&lt;/ref&gt;) is '''''projection to latent structures''''', but the term ''partial least squares'' is still dominant in many areas. Although the original applications were in the social sciences, PLS regression is today most widely used in [[chemometrics]] and related areas.  It is also used in [[bioinformatics]], [[sensometrics]], [[neuroscience]], and [[anthropology]].
+
+==Underlying model==
+
+The general underlying model of multivariate PLS is
+
+:&lt;math&gt;X = T P^\mathrm{T} + E&lt;/math&gt;
+:&lt;math&gt;Y = U Q^\mathrm{T} + F&lt;/math&gt;
+
+where {{mvar|X}} is an &lt;math&gt;n \times m&lt;/math&gt; matrix of predictors, {{mvar|Y}} is an &lt;math&gt;n \times p&lt;/math&gt; matrix of responses; {{mvar|T}} and {{mvar|U}} are &lt;math&gt;n \times l&lt;/math&gt; matrices that are, respectively, projections of {{mvar|X}} (the ''X score'', ''component'' or ''factor'' matrix) and projections of {{mvar|Y}} (the ''Y scores''); {{mvar|P}} and {{mvar|Q}} are, respectively, &lt;math&gt;m \times l&lt;/math&gt; and &lt;math&gt;p \times l&lt;/math&gt; orthogonal ''loading'' matrices; and matrices {{mvar|E}} and {{mvar|F}} are the error terms, assumed to be independent and identically distributed random normal variables. The decompositions of {{mvar|X}} and {{mvar|Y}} are made so as to maximise the [[covariance]] between {{mvar|T}} and {{mvar|U}}.
+
+==Algorithms==
+
+A number of variants of PLS exist for estimating the factor and loading matrices {{mvar|T, U, P}} and {{mvar|Q}}.  Most of them construct estimates of the linear regression between {{mvar|X}} and {{mvar|Y}} as &lt;math&gt;Y = X \tilde{B} + \tilde{B}_0&lt;/math&gt;. Some PLS algorithms are only appropriate for the case where {{mvar|Y}} is a column vector, while others deal with the general case of a matrix {{mvar|Y}}. Algorithms also differ on whether they estimate the factor matrix {{mvar|T}} as an orthogonal, an [[orthonormal matrix]] or not.&lt;ref&gt;
+{{cite journal |last1=Lindgren |first1=F |last2=Geladi |first2=P |last3=Wold |first3=S |title=The kernel algorithm for PLS |journal=J. Chemometrics |volume=7 |pages=45–59 |year=1993 |doi=10.1002/cem.1180070104 }}&lt;/ref&gt;&lt;ref&gt;{{cite journal |last1=de Jong |first1=S. |last2=ter Braak |first2=C.J.F. |title=Comments on the PLS kernel algorithm |journal=J. Chemometrics |volume=8 |issue=2 |pages=169–174 |year=1994 |doi=10.1002/cem.1180080208 }}&lt;/ref&gt;&lt;ref&gt;{{cite journal |last1=Dayal |first1=B.S. |last2=MacGregor |first2=J.F. |title=Improved PLS algorithms |journal=J. Chemometrics |volume=11 |issue=1 |pages=73–85 |year=1997 |doi=10.1002/(SICI)1099-128X(199701)11:1&lt;73::AID-CEM435&gt;3.0.CO;2-# }}&lt;/ref&gt;&lt;ref&gt;{{cite journal |last=de Jong |first=S. |title=SIMPLS: an alternative approach to partial least squares regression |journal=Chemometrics and Intelligent Laboratory Systems |volume=18 |pages=251–263 |year=1993 |doi=10.1016/0169-7439(93)85002-X |issue=3 }}&lt;/ref&gt;&lt;ref&gt;{{cite journal |last1=Rannar |first1=S. |last2=Lindgren |first2=F. |last3=Geladi |first3=P. |last4=Wold |first4=S. |title=A PLS Kernel Algorithm for Data Sets with Many Variables and Fewer Objects. Part 1: Theory and Algorithm |journal=J. Chemometrics |volume=8 |issue=2 |pages=111–125 |year=1994 |doi=10.1002/cem.1180080204 }}&lt;/ref&gt;&lt;ref&gt;{{cite journal |last=Abdi |first=H. |title=Partial least squares regression and projection on latent structure regression (PLS-Regression) |journal=Wiley Interdisciplinary Reviews: Computational Statistics |volume=2 |pages=97–106 |year=2010 |doi=10.1002/wics.51 }}&lt;/ref&gt; 
+The final prediction will be the same for all these varieties of PLS, but the components will differ.
+
+===PLS1===
+
+PLS1 is a widely used algorithm appropriate for the vector {{mvar|Y}} case. It estimates {{math|T}} as an orthonormal matrix. In pseudocode it is expressed below (capital letters are matrices, lower case letters are vectors if they are superscripted and scalars if they are subscripted):
+
+  1 {{nowrap|'''function''' PLS1({{mvar|X, y, l}})}}
+  2     {{nowrap|&lt;math&gt;X^{(0)} \gets X&lt;/math&gt;}}
+  3     {{nowrap|&lt;math&gt;w^{(0)} \gets X^\mathrm{T} y/||X^\mathrm{T}y||&lt;/math&gt;}}, an initial estimate of {{mvar|w}}.
+  4     {{nowrap|'''for''' &lt;math&gt;k = 0&lt;/math&gt; '''to''' &lt;math&gt;l-1&lt;/math&gt;}}
+  5         {{nowrap|&lt;math&gt;t^{(k)} \gets X^{(k)}w^{(k)}&lt;/math&gt;}}
+  6         {{nowrap|&lt;math&gt;t_k \gets {t^{(k)}}^\mathrm{T} t^{(k)}&lt;/math&gt; (note this is a scalar)}}
+  7         {{nowrap|&lt;math&gt;t^{(k)} \gets t^{(k)} / t_k&lt;/math&gt;}}
+  8         {{nowrap|&lt;math&gt;p^{(k)} \gets {X^{(k)}}^\mathrm{T} t^{(k)}&lt;/math&gt;}}
+  9         {{nowrap|&lt;math&gt;q_k \gets {y}^\mathrm{T} t^{(k)}&lt;/math&gt; (note this is a scalar)}}
+ 10         {{nowrap|'''if''' &lt;math&gt;q_k = 0&lt;/math&gt;}}
+ 11             {{nowrap|&lt;math&gt;l \gets k&lt;/math&gt;, '''break''' the '''for loop'''}}
+ 12         {{nowrap|'''if''' &lt;math&gt;k &lt; (l-1)&lt;/math&gt;}}
+ 13             {{nowrap|&lt;math&gt;X^{(k+1)} \gets X^{(k)} - t_k t^{(k)} {p^{(k)}}^\mathrm{T}&lt;/math&gt;}}
+ 14             {{nowrap|&lt;math&gt;w^{(k+1)} \gets {X^{(k+1)}}^\mathrm{T} y &lt;/math&gt;}}
+ 15     {{nowrap|'''end''' '''for'''}}
+ 16     '''define''' {{mvar|W}} to be the matrix {{nowrap|with columns &lt;math&gt;w^{(0)},w^{(1)},...,w^{(l-1)}&lt;/math&gt;.}}
+        Do the same to form the {{mvar|P}} matrix and {{mvar|q}} vector.
+ 17     {{nowrap|&lt;math&gt;B \gets W {(P^\mathrm{T} W)}^{-1} q&lt;/math&gt;}}
+ 18     {{nowrap|&lt;math&gt;B_0 \gets q_0 - {P^{(0)}}^\mathrm{T} B&lt;/math&gt;}}
+ 19     {{nowrap|'''return''' &lt;math&gt;B, B_0&lt;/math&gt;}}
+
+This form of the algorithm does not require centering of the input {{mvar|X}} and {{mvar|Y}}, as this is performed implicitly by the algorithm.
+This algorithm features 'deflation' of the matrix {{mvar|X}} (subtraction of &lt;math&gt;t_k t^{(k)} {p^{(k)}}^\mathrm{T}&lt;/math&gt;), but deflation of the vector {{mvar|y}} is not performed, as it is not necessary (it can be proved that deflating {{mvar|y}} yields the same results as not deflating&lt;ref&gt;{{cite journal |last1=Höskuldsson |first1=Agnar |title=PLS Regression Methods |journal=Journal of Chemometrics |date=1988 |volume=2 |issue=3 |page=219 |doi=10.1002/cem.1180020306 }}&lt;/ref&gt;). The user-supplied variable {{mvar|l}} is the limit on the number of latent factors in the regression; if it equals the rank of the matrix {{mvar|X}}, the algorithm will yield the least squares regression estimates for {{mvar|B}} and &lt;math&gt;B_0&lt;/math&gt;
+
+==Extensions==
+In 2002 a new method was published called orthogonal projections to latent structures (OPLS). In OPLS, continuous variable data is separated into predictive and uncorrelated information.  This leads to improved diagnostics, as well as more easily interpreted visualization. However, these changes only improve the interpretability, not the predictivity, of the PLS models.&lt;ref&gt;{{Cite journal
+  | last = Trygg
+  | first = J
+  | last2 = Wold 
+  | first2 = S
+  | title = Orthogonal Projections to Latent Structures
+  | journal = Journal of Chemometrics
+  | volume = 16
+  | issue = 3
+  | pages = 119–128
+  | year = 2002
+  | url = 
+  | doi = 10.1002/cem.695}}
+&lt;/ref&gt; L-PLS extends PLS regression to 3 connected data blocks.&lt;ref&gt;{{cite journal |last1=Sæbøa |first1=S. |last2=Almøya |first2=T. |last3=Flatbergb |first3=A. |last4=Aastveita |first4=A.H. |last5=Martens |first5=H. |title=LPLS-regression: a method for prediction and classification under the influence of background information on predictor variables |journal=Chemometrics and Intelligent Laboratory Systems |volume=91  |issue=2 |pages=121–132 |year=2008 |doi=10.1016/j.chemolab.2007.10.006 }}&lt;/ref&gt;  Similarly, OPLS-DA (Discriminant Analysis) may be applied when working with discrete variables, as in classification and biomarker studies.
+
+In 2015 partial least squares was related to a procedure called the three-pass regression filter (3PRF).&lt;ref&gt;{{Cite journal|last=Kelly|first=Bryan|last2=Pruitt|first2=Seth|date=2015-06-01|title=The three-pass regression filter: A new approach to forecasting using many predictors|journal=Journal of Econometrics|series=High Dimensional Problems in Econometrics|volume=186|issue=2|pages=294–316|doi=10.1016/j.jeconom.2015.02.011}}&lt;/ref&gt; Supposing the number of observations and variables are large, the 3PRF (and hence PLS) is asymptotically normal for the "best" forecast implied by a linear latent factor model. In stock market data, PLS has been shown to provide accurate out-of-sample forecasts of returns and cash-flow growth.&lt;ref&gt;{{Cite journal|last=Kelly|first=Bryan|last2=Pruitt|first2=Seth|date=2013-10-01|title=Market Expectations in the Cross-Section of Present Values|journal=The Journal of Finance|volume=68|issue=5|pages=1721–1756|doi=10.1111/jofi.12060|issn=1540-6261|citeseerx=10.1.1.498.5973}}&lt;/ref&gt;
+
+A PLS version based on [[Singular value decomposition|singular value decomposition (SVD)]] provides a memory efficient implementation that can be used to address high-dimensional problems, such as relating millions of genetic markers to thousands of imaging features in imaging genetics, on consumer-grade hardware.&lt;ref&gt;{{Cite journal|last=Lorenzi|first=Marco|last2=Altmann|first2=Andre|last3=Gutman|first3=Boris|last4=Wray|first4=Selina|last5=Arber|first5=Charles|last6=Hibar|first6=Derrek P.|last7=Jahanshad|first7=Neda|last8=Schott|first8=Jonathan M.|last9=Alexander|first9=Daniel C.|date=2018-03-20|title=Susceptibility of brain atrophy to TRIB3 in Alzheimer's disease, evidence from functional prioritization in imaging genetics|journal=Proceedings of the National Academy of Sciences|volume=115|issue=12|pages=3162–3167|doi=10.1073/pnas.1706100115|issn=0027-8424|pmc=5866534|pmid=29511103}}&lt;/ref&gt;
+
+PLS correlation (PLSC) is another methodology related to PLS regression,&lt;ref name=":0"&gt;{{Cite journal|last=Krishnan|first=Anjali|last2=Williams|first2=Lynne J.|last3=McIntosh|first3=Anthony Randal|last4=Abdi|first4=Hervé|date=May 2011|title=Partial Least Squares (PLS) methods for neuroimaging: A tutorial and review|journal=NeuroImage|volume=56|issue=2|pages=455–475|doi=10.1016/j.neuroimage.2010.07.034}}&lt;/ref&gt; which has been used in neuroimaging &lt;ref name=":0" /&gt;&lt;ref&gt;{{Cite journal|last=McIntosh|first=Anthony R.|last2=Mišić|first2=Bratislav|date=2013-01-03|title=Multivariate Statistical Analyses for Neuroimaging Data|journal=Annual Review of Psychology|volume=64|issue=1|pages=499–525|doi=10.1146/annurev-psych-113011-143804|issn=0066-4308}}&lt;/ref&gt;&lt;ref&gt;{{Cite journal|last=Beggs|first=Clive B.|last2=Magnano|first2=Christopher|last3=Belov|first3=Pavel|last4=Krawiecki|first4=Jacqueline|last5=Ramasamy|first5=Deepa P.|last6=Hagemeier|first6=Jesper|last7=Zivadinov|first7=Robert|date=2016-05-02|editor-last=de Castro|editor-first=Fernando|title=Internal Jugular Vein Cross-Sectional Area and Cerebrospinal Fluid Pulsatility in the Aqueduct of Sylvius: A Comparative Study between Healthy Subjects and Multiple Sclerosis Patients|journal=PLOS ONE|volume=11|issue=5|pages=e0153960|doi=10.1371/journal.pone.0153960|issn=1932-6203|pmc=4852898|pmid=27135831}}&lt;/ref&gt;  and more recently in sport science,&lt;ref&gt;{{Cite journal|last=Weaving|first=Dan|last2=Jones|first2=Ben|last3=Ireton|first3=Matt|last4=Whitehead|first4=Sarah|last5=Till|first5=Kevin|last6=Beggs|first6=Clive B.|date=2019-02-14|editor-last=Connaboy|editor-first=Chris|title=Overcoming the problem of multicollinearity in sports performance data: A novel application of partial least squares correlation analysis|journal=PLOS ONE|volume=14|issue=2|pages=e0211776|doi=10.1371/journal.pone.0211776|issn=1932-6203|pmc=6375576}}&lt;/ref&gt; to quantify the strength of the relationship between data sets. Typically, PLSC divides the data into two blocks (sub-groups) each containing one or more variables, and then uses [[Singular value decomposition|singular value decomposition (SVD)]] to establish the strength of any relationship (i.e. the amount of shared information) that might exist between the two component sub-groups.&lt;ref name=":1"&gt;{{Citation|last=Abdi|first=Hervé|title=Partial Least Squares Methods: Partial Least Squares Correlation and Partial Least Square Regression|date=2013|work=Computational Toxicology|volume=930|pages=549–579|editor-last=Reisfeld|editor-first=Brad|publisher=Humana Press|doi=10.1007/978-1-62703-059-5_23|isbn=9781627030588|last2=Williams|first2=Lynne J.|editor2-last=Mayeno|editor2-first=Arthur N.}}&lt;/ref&gt; It does this by using SVD to determine the inertia (i.e. the sum of the singular values) of the covariance matrix of the sub-groups under consideration.&lt;ref name=":1" /&gt;&lt;ref name=":0" /&gt;
+
+==See also==
+*[[Canonical correlation]]
+*[[Data mining]]
+*[[Deming regression]]
+*[[Feature extraction]]
+*[[Machine learning]]
+*[[Multilinear subspace learning]]
+*[[Partial least squares path modeling]]
+*[[Principal component analysis]]
+*[[Regression analysis]]
+*[[Total sum of squares]]
+
+==Further reading==
+*{{cite book |first=R. |last=Kramer |title=Chemometric Techniques for Quantitative Analysis |publisher=Marcel-Dekker |year=1998 |isbn=978-0-8247-0198-7 }}
+*{{cite journal |last1=Frank |first1=Ildiko E. |first2=Jerome H. |last2=Friedman |title=A Statistical View of Some Chemometrics Regression Tools |journal=Technometrics |volume=35 |issue=2 |pages=109–148 |year=1993 |doi=10.1080/00401706.1993.10485033 }}
+*{{cite journal |last1=Haenlein |first1=Michael |first2=Andreas M. |last2=Kaplan | title=A Beginner's Guide to Partial Least Squares Analysis |journal=Understanding Statistics |volume=3 |issue=4 |pages=283–297| year=2004 |doi=10.1207/s15328031us0304_4 }}
+*{{cite journal |last1=Henseler |first1=Joerg |first2=Georg |last2=Fassott | title=Testing Moderating Effects in PLS Path Models. An Illustration of Available Procedures| year=2005 }}
+*{{cite journal |last1=Lingjærde |first1=Ole-Christian |first2=Nils |last2=Christophersen | title=Shrinkage Structure of Partial Least Squares |journal=Scandinavian Journal of Statistics |volume=27 |issue=3 |pages=459–473 | year=2000 |doi=10.1111/1467-9469.00201 }}
+*{{cite book | last=Tenenhaus |first=Michel | title= La Régression PLS: Théorie et Pratique. Paris: Technip.| year=1998}}
+*{{cite journal | last1=Rosipal |first1=Roman |first2=Nicole |last2=Kramer | title=Overview and Recent Advances in Partial Least Squares, in Subspace, Latent Structure and Feature Selection Techniques |pages=34–51 | year=2006}}
+*{{cite journal |last=Helland |first=Inge S. |title=PLS regression and statistical models |journal=Scandinavian Journal of Statistics |volume=17 |issue=2 |pages=97–114 |year=1990 |jstor=4616159}}
+*{{cite book |authorlink=Herman Wold |last=Wold |first=Herman |chapter=Estimation of principal components and related models by iterative least squares |editor-first=P.R. |editor-last=Krishnaiaah |title=Multivariate Analysis |publisher=Academic Press |location=New York |year=1966 |pages=391–420 }}
+*{{cite book |last=Wold |first=Herman |title=The fix-point approach to interdependent systems |publisher=North Holland |location=Amsterdam |year=1981 }}
+*{{cite book |last=Wold |first=Herman |chapter=Partial least squares |editor1-first=Samuel |editor1-last=Kotz |editor2-first=Norman L. |editor2-last=Johnson |title=Encyclopedia of statistical sciences |publisher=Wiley |location=New York |year=1985 |pages=581–591 |volume=6}}
+*{{cite journal |first1=Svante |last1=Wold |first2=Axel |last2=Ruhe |first3=Herman |last3=Wold |first4=W.J. |last4=Dunn |title=The collinearity problem in linear regression. the partial least squares (PLS) approach to generalized inverses |journal=SIAM Journal on Scientific and Statistical Computing |volume=5 |pages=735–743 |year=1984 |doi=10.1137/0905052 |issue=3 }}
+*{{cite journal |last=Garthwaite |first=Paul H. |title=An Interpretation of Partial Least Squares |journal=[[Journal of the American Statistical Association]] |volume=89 |pages=122–7 |year=1994 |jstor=2291207 |doi=10.1080/01621459.1994.10476452 |issue=425}}
+*{{cite book |editor1-last=Wang |editor1-first=H. |title=Handbook of Partial Least Squares |year=2010 |isbn=978-3-540-32825-4 }}
+*{{cite journal |last1=Stone |first1=M. |last2=Brooks |first2=R.J. |title=Continuum Regression: Cross-Validated Sequentially Constructed Prediction embracing Ordinary Least Squares, Partial Least Squares and Principal Components Regression |journal=Journal of the Royal Statistical Society, Series B |volume=52 |issue=2 |pages=237–269 |year=1990 |jstor=2345437}}
+
+==References==
+{{Reflist}}
+
+==External links==
+{{Prone to spam|date=November 2017}}
+{{Z148}}&lt;!--     {{No more links}}
+
+       Please be cautious adding more external links.
+
+Wikipedia is not a collection of links and should not be used for advertising.
+
+     Excessive or inappropriate links will be removed.
+
+ See [[Wikipedia:External links]] and [[Wikipedia:Spam]] for details.
+
+If there are already suitable links, propose additions or replacements on
+the article's talk page.
+
+--&gt;
+*[http://www.utd.edu/~herve/Abdi-PLSR2007-pretty.pdf A short introduction to PLS regression and its history]
+
+{{Authority control}}
+
+{{DEFAULTSORT:Partial Least Squares Regression}}
+[[Category:Latent variable models]]
+[[Category:Least squares]]
+[[Category:Articles with example pseudocode]]</text>
+      <sha1>62eonrt3nwwm0h6n60sl5hsc57cge6o</sha1>
+    </revision>
+  </page>
+</mediawiki>

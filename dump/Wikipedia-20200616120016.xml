@@ -1,0 +1,373 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.10/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.10/ http://www.mediawiki.org/xml/export-0.10.xsd" version="0.10" xml:lang="en">
+  <siteinfo>
+    <sitename>Wikipedia</sitename>
+    <dbname>enwiki</dbname>
+    <base>https://en.wikipedia.org/wiki/Main_Page</base>
+    <generator>MediaWiki 1.35.0-wmf.36</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Media</namespace>
+      <namespace key="-1" case="first-letter">Special</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Talk</namespace>
+      <namespace key="2" case="first-letter">User</namespace>
+      <namespace key="3" case="first-letter">User talk</namespace>
+      <namespace key="4" case="first-letter">Wikipedia</namespace>
+      <namespace key="5" case="first-letter">Wikipedia talk</namespace>
+      <namespace key="6" case="first-letter">File</namespace>
+      <namespace key="7" case="first-letter">File talk</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki talk</namespace>
+      <namespace key="10" case="first-letter">Template</namespace>
+      <namespace key="11" case="first-letter">Template talk</namespace>
+      <namespace key="12" case="first-letter">Help</namespace>
+      <namespace key="13" case="first-letter">Help talk</namespace>
+      <namespace key="14" case="first-letter">Category</namespace>
+      <namespace key="15" case="first-letter">Category talk</namespace>
+      <namespace key="100" case="first-letter">Portal</namespace>
+      <namespace key="101" case="first-letter">Portal talk</namespace>
+      <namespace key="108" case="first-letter">Book</namespace>
+      <namespace key="109" case="first-letter">Book talk</namespace>
+      <namespace key="118" case="first-letter">Draft</namespace>
+      <namespace key="119" case="first-letter">Draft talk</namespace>
+      <namespace key="446" case="first-letter">Education Program</namespace>
+      <namespace key="447" case="first-letter">Education Program talk</namespace>
+      <namespace key="710" case="first-letter">TimedText</namespace>
+      <namespace key="711" case="first-letter">TimedText talk</namespace>
+      <namespace key="828" case="first-letter">Module</namespace>
+      <namespace key="829" case="first-letter">Module talk</namespace>
+      <namespace key="2300" case="first-letter">Gadget</namespace>
+      <namespace key="2301" case="first-letter">Gadget talk</namespace>
+      <namespace key="2302" case="case-sensitive">Gadget definition</namespace>
+      <namespace key="2303" case="case-sensitive">Gadget definition talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Talk:Computer programming</title>
+    <ns>1</ns>
+    <id>44094</id>
+    <revision>
+      <id>959652398</id>
+      <parentid>959652281</parentid>
+      <timestamp>2020-05-29T22:06:29Z</timestamp>
+      <contributor>
+        <ip>92.238.227.68</ip>
+      </contributor>
+      <comment>/* HTML/Javascript image not programming */</comment>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="51487" xml:space="preserve">{{Talk header}}
+{{Vital article|level=4|topic=Technology|class=C}}
+{{WikiProjectBannerShell|1=
+{{WikiProject Computing|class=c|importance=top}}
+{{WikiProject Computer science|class=c|importance=top}}
+{{WikiProject Technology|class=c
+| b1 &lt;!--Referencing &amp; citations--&gt; = no
+| b2 &lt;!--Coverage &amp; accuracy    --&gt; = &lt;yes/no&gt;
+| b3 &lt;!--Structure              --&gt; = yes
+| b4 &lt;!--Grammar &amp; style        --&gt; = &lt;yes/no&gt;
+| b5 &lt;!--Supporting materials   --&gt; = yes
+| b6 &lt;!--Accessibility          --&gt; = yes
+|importance=top}}
+{{WikiProject Systems|class=c|importance=top |field=Systems}}
+{{WP1.0 |WPCD=y |class=C |importance=Low}}
+}}
+{{Outline of knowledge coverage|computer programming}}
+
+== Compiling and interpreting ==
+Step four is dumb.  Compiling is done by a compiler, not by a computer programmer, and is in no way relevant to the process of software development.  Many programs are interpreted anyway, so compilation is hardly a necessary step.  I don't know who came up with this list but it's pretty bad. &lt;small&gt;—The preceding [[Wikipedia:Sign your posts on talk pages|unsigned]] comment was added by [[User:165.123.150.244|165.123.150.244]] ([[User talk:165.123.150.244|talk]] • [[Special:Contributions/165.123.150.244|contribs]]) 20:45, 12 March 2002.&lt;/small&gt;
+
+:One way or another, code must be translated into assembly language before it can be run by a computer. Sometimes this process is transparent, such as execution of a program written in an interpreted language (e.g. Javascript). The distinction itself is certainly important. [[User:Brent Gulanowski|Brent]] 21:33, 18 October 2005 (UTC)
+
+:Well, that's a little unfair. Tell me: who wrote the compiler program? &lt;small&gt;—The preceding [[Wikipedia:Sign your posts on talk pages|unsigned]] comment was added by [[User:24.165.123.157|24.165.123.157]] ([[User talk:24.165.123.157|talk]] • [[Special:Contributions/24.165.123.157|contribs]]) 22:23, 4 October 2005.&lt;/small&gt;
+
+:As for those interpretted languages, it's basically just taking the information in the program and reading it to the computer in machine language, AKA: binary, or machine binary, depending on how technical you are. And if compiling isn't part of the programming process, then how does, say, this code:
+
+::&lt;code&gt;from Tkinter import *&lt;/code&gt;
+::&lt;code&gt;root = Tk()&lt;/code&gt;
+::&lt;code&gt;w = Label(root, text="Hello, world!")&lt;/code&gt;
+::&lt;code&gt;w.pack()&lt;/code&gt;
+::&lt;code&gt;root.mainloop()&lt;/code&gt;
+
+:turn into the 0's and 1's so imprinted into the ignorant person's mind? It definitely doesn't do it by itself! No, I have a nice, dandy, little program called py_compile.py that does it for me. It's very convenient, very real, and very definitely a part of the programming process. And it definitely doesn't run by itself.
+
+:Do you yourself program? If not, I suggest taking it up. It is a very good hobby.
+
+:print "See ya' later!" --[[User:AHFN|AHFN]] October 4, 2005
+
+::That code above is represented internally as "0's and 1's", and so is this sentence.  Compilation has nothing to do with that.  I am not sure what you are attempting to stuff into this fuzzy notion of "machine binary", but [[Python_programming_language|Python]] is an [[Interpreted_language|interpreted language]], which means py_compile is not creating an executable ("machine binary"), but transforming the source text into an [[Intermediate_representation|intermediate representation]] for the sake of efficacy - in this case [[Bytecode|bytecode]].  For what it's worth, it definitely does "run by itself" - each time the module is imported or run via "python filename".  that is what all those .pyc files are doing lying around.  As for compilation (always) being a very definite part of the programming process, i don't really think that is valid.  consider a language like [[Scheme_programming_language|Scheme]], where the intermediate representation of the source code is negligibly different from the source itself.  The term, "compilation" is largely synonymous with arduous build processes (linking, [[Makefiles|makefiles]]), and applying it to the implicit generation of bytecode or [[Abstract_syntax_tree|abstract syntax trees]] is a stretch. --[[User:Moe_Aboulkheir|Moe Aboulkheir]] &lt;small&gt;—The preceding comment was added on 19:02, 16 October 2005.&lt;/small&gt;
+
+::Hmm, you yourself just demonstrated that "compile" and "build" are different, not the same. If I type "gcc -o helloworld helloworld.c", I have compiled (or caused a compiler to compile) a program from source code. No makefiles or other ephemera of automation required. [[User:Brent Gulanowski|Brent]] 21:36, 18 October 2005 (UTC)
+
+:::Actually, by doing that, you will have done quite more than just compile. Compilation is done by the [[compiler]]; it is the step of taking the original source code and transforming it into object code. It is what would happen if you did "gcc -c -o helloworld.o helloworld.c". To transform this into an executable, one uses the [[Linker (computing)|linker]]; this will take the object code, link it with the appropriate libraries (for example, libc), and build the executable. [[User:Capi|Capi]] 19:41, 5 June 2006 (UTC)
+
+:::Yes, they are, that nuance is not in contention.  I said "compilation is largely ''synonymous'' with arduous build processes...applying it to the implicit generation of bytecode...is a stretch".  What I am trying to convey is that neither compilation, building nor any process which significantly alters the representation of a program in order to have it be executed need be a mandatory step in the lifecycle of a computer program as experienced by a programmer. I apologize if that wasn't made clear.  --[[User:Moe_Aboulkheir|Moe Aboulkheir]] &lt;small&gt;—The preceding comment was added on 02:18, 6 December 2005.&lt;/small&gt;
+
+== First computer programmer ==
+
+Defining the "first computer programmer" is impossible, as defining the first computer is a matter of entertaining (but essentially irresolvable) debate anyway. --[[user:Robert Merkel|Robert Merkel]] &lt;small&gt;—The preceding comment was added on 19:19, 30 June 2002.&lt;/small&gt;
+
+== How can different parts of a program be in different languages ==
+
+Different parts of a program may be written in different langauges.
+How come ???
+Can you give Proper Explaination?
+     --[[user:Phoe6|Phoe6]] &lt;small&gt;—The preceding comment was added on 22:58, 3 January 2003.&lt;/small&gt;
+
+A simple example is in microsoft's .NET framework, you can write modules of code in different languages.  because it is run on a virtual machine the code can be interpreted from many different syntaxes (whats the plural of syntax lol..), you just need code to interpret that specific syntax.[[User:DanLatimer|DanLatimer]] ([[User talk:DanLatimer|talk]]) 16:48, 12 September 2008 (UTC)
+
+:To give a simple example, it is generally believed to be easier to write some programs in, say, [[Perl]] than [[C++]].  However, a well-written C++ program can be much faster than a Perl program for some tasks.  Therefore, what you can do is write the bits where performance doesn't matter in Perl, the performance-critical bits in C++, and combine the two.  However, this is a little technical for the purposes of the main article.   --[[User:Robert Merkel|Robert Merkel]] &lt;small&gt;—The preceding comment was added on 06:40, 24 January 2003.&lt;/small&gt;
+
+Very simply, subroutines to a high level language program can be written in assembler, assembled, and then linked into a main program's compilation link step to produce an executable.  Suites of different languages from the same vendor are more likely to follow a compatible scheme in terms of stack protocol, global data, and runtime system library access to allow linking routines written in different languages for the same platform (Operating System, processor chip) in a single program's implementation.
+
+== Algorithms still exist ==
+
+Algorithms have *not* gone away.  Believe me, not everything is available in standard libraries (not even Java's).  Maybe *your* programs are all print statements, but mine sure aren't. --[[User:Robert Merkel|Robert Merkel]] 06:40 Jan 24, 2003 (UTC)
+
+
+lol algorithms have gone away.. all the algorithms in the world have not been worked out yet hahaha.  There are infinite problems that need new algorithms and thier is always the possibility that you will find a more efficient algorithm for a problem already solved.
+[[User:DanLatimer|DanLatimer]] ([[User talk:DanLatimer|talk]]) 16:44, 12 September 2008 (UTC)
+
+== Some sources for generalizations ==
+
+Some sources for those first two sweeping generalizations at the bottom of the article would be great.  "Most software developers come from [[NATO]]"?  What the fuck does that even mean?  "Most software developers come from the North Atlantic"? or "NATO delegates are far more numerous than previously suspected, and it is thought they may actually comprise the majority of the world's software developers".  The Demographics "gamasutra" link at the bottom of the article doesn't mention either of those statistics. [[User:Moe Aboulkheir|Moe Aboulkheir]] 12:18, 7 February 2006 (UTC)
+
+:Don't forget "[...] ''while most crackers and software disassemblers come from Asia.''".  I'm not sure whether this is deliberate vandalism or not, but it definitely doesn't sound either neutral or factual to me.  I'm removing it for now:  if anyone feels that it (or a modified version) does belong in the article, please argue for it here (with sources, if possible).  --[[User:Piet Delport|Piet Delport]] 14:02, 7 February 2006 (UTC)
+
+== HTML/Javascript image not programming ==
+
+Is it a good idea to have an image of HTML/Javascript in an article about programming? HTML is scripting and I think there should be a more accurate picture for this article. Maybe some history would be good to... anyone? [[User:MichaelBillington|MichaelBillington]] 06:27, 1 April 2006 (UTC)
+
+:In the page, there is a html screenshot. But Html is not a computer programming! It's a markup language! &lt;small&gt;—The preceding [[Wikipedia:Sign your posts on talk pages|unsigned]] comment was added by [[User:200.242.12.134|200.242.12.134]] ([[User talk:200.242.12.134|talk]] • [[Special:Contributions/200.242.12.134|contribs]]) 20:01, 22 April 2006.&lt;/small&gt;
+
+::Maybe my above comment needed some more context. There was a picture in the article which I believed was irrelevant, so I posted my thoughts here and someone removed it. Whoever that was, thanks! [[User:MichaelBillington|MichaelBillington]] 07:30, 16 June 2006 (UTC)
+
+::Markup is a form of programming. HTML is unquestionably a programming language because it is a language used to give instructions to perform tasks, e.g. make something a heading or a paragraph. I say this because I have a first class honors in computer science and I understand the English language. "Programming" is a very simple word. People say HTML is not a programming language because either they cannot understand plain English, or computer science, or both. HTML is directly interpreted by browsers - the markup is instructions. HTML is often universally described as not being a programming language because of ignorance. There are no arguments that suggest that HTML is not a programming language, there are simply people showing how they do not understand semantics, English or language in general.--[[Special:Contributions/92.238.227.68|92.238.227.68]] ([[User talk:92.238.227.68|talk]]) 22:06, 29 May 2020 (UTC)
+
+:I agree and disagree, scripting I would consider programming.  Just because it isn't compiled before run doesn't mean it isn't programming.  When you think about it.  Script languages are put through another program to produce machine code. So are "Programming Languages". I suppose if you want to be picky so is HTML, but the difference is HTML more like a configuration file that defines how images and text are displayed in a window.  [[User:DanLatimer|DanLatimer]] ([[User talk:DanLatimer|talk]]) 16:54, 12 September 2008 (UTC)
+
+::Scripting is certainly programming but HTML is more of a file format, a specification of how the various components should be displayed. As such, it's similar to other file formats. Creating HTML for dynamic websites is usually done with some other language ( = programming ): the HTML is simply the output of the program that runs on a web server. - [[User:Simeon|Simeon]] ([[User talk:Simeon|talk]]) 22:14, 12 September 2008 (UTC)
+
+:::I think that the question has to be considered within the context of the whole project. I work on a system that uses Java Server Pages (JSP), Javascript and Servlets. Occasionally, I do create pages that contain almost nothing but pure HTML - but for the most part I write lots and lots of Java. Does that mean that when I'm working on a pure HTML page that I'm not programming? I would hardly think so. [[User:Dfmclean|Dfmclean]] ([[User talk:Dfmclean|talk]]) 12:27, 16 September 2008 (UTC)
+
+::::I'd say that's not programming: you're not writing a program but a specification of what a web page looks like. The HTML can also be the output of a [[:Category:HTML editors|web design program]] and the process of making a web page using such a program is not called programming either. Not every activity (including writing it by hand) that produces output according to a computer language specification - e.g., HTML, XML - is called programming. JavaScript and Java are programming however, for obvious reasons. - [[User:Simeon|Simeon]] ([[User talk:Simeon|talk]]) 18:53, 16 September 2008 (UTC)
+
+== C++ is very fast? ==
+
+:''"C++ is a very fast programming language, meaning programs written in C++ tend to run at high framerates (which is important for games)."''
+This is an overgeneralization at best (and really, it's more like flat out misinformation). C++ is well-suited for making fast programs, but the language itself doesn't give the programs their speed. Surely C and assembly language could be called just as fast as (if not faster than) C++. So, I'm removing that tidbit from the article. &amp;ndash;[[User:Tifego|&lt;small&gt;Tifego&lt;/small&gt;]]&lt;sup&gt;[[User Talk:Tifego|(t)]]&lt;/sup&gt;&lt;sub&gt; 09:40, 15 April 2006 (UTC)&lt;/sub&gt;
+::Not to mention that the concept of 'framerate' cannot be applied to programs in general in any meaningful way. [[User:Dkasak|Denis Kasak]] 12:01, 16 June 2006 (UTC)
+
+::Framerate is really only relevant when talking about film/video or similar applications.  It could be applied to games but screen refresh rate would be more meaningful.  Screen refresh rate has much more to do with the graphics hard/firmware in the user's machine than with the programming language the application was written in (a fast program on a machine with slow graphics hardware will have a slow screen refresh rate.  Indeed it doesn't seem meaningful to refer to any language as fast or slow.  Programs written in interpreted languages will generally run slower than compiled because of the need to interpret the human readable code (be it plain text such as a scripting language or tokenised such as Java or many BASICs) at run time.  There is no inherant reason for a C++ program to be faster or slower than one written in C or Assembly language, or even a compiled BASIC, all other things being equal.  The choice of laguage to develop a product is usually driven by the availability of the laguage for the target platform, the availability of developers for that language of sufficient skill level and the ease in which the required product can be developed in that langauge (some languages lend themselves to certain types of project better than others).
+::Also, my understanding is that games are mostly developed in [[ fourth generation language|4GL ]] environments where the programmer essentially describes the appearence and behaviour of an object.  That description is then interpreted by the environment and fed into a game engine, the same game engine may be common to many games, it's just the objects that differ.  [[User:Stephenbooth uk|Stephenbooth uk]] 14:52, 2 October 2006 (UTC)
+
+:::And what are the game engines written in? C/C++! sure the game logic which doesn't need to be as fast may be written in a bytecode based or even fully interpreted language 
+:::With a good programmer relatively low level languages like C and C++ that let the programmer decide how best to handle issues like memory management are liable to be faster than languages like java that force your hand on memory allocation. Conventional languages are also more predictable (e.g. because of the way java optimises two bits of code can both be fast when tested in isolation but slow down considerablly when loaded in the same jvm) [[User:Plugwash|Plugwash]] 17:36, 16 November 2006 (UTC)
+
+
+::::: I Use C++ on a daily basis, and I have written games using it. The main reason games programmers prefer C++ is speed, and particularly languages like C# or Java do not run with a speed which is anything like comparable in a gaming environment. C++ is usually chosen over C on the basis of the simplicity of Object orientation. [[User:Philcluff|Philcluff]] ([[User talk:Philcluff|talk]]) 18:15, 15 February 2008 (UTC)
+
+::::::Java is slower because it is an interpreted byte code language that the JVM has to parse and convert to the object code that is run, this is to give it the cross-platform portable capability as object code for one processor will not run run on another processor and different operating systems have different system calls.  The compiler also cannot optimise the code as different platforms would require different optimisations and code optimised for one may run very slowly on another.  Whilst languages like C++ (which produce the object code at compile time and usually optimise for the target platform) are available on a number of different platforms programs compiled to run on one cannot run on another.  So you could not, for example, compile a C++ program for Windows and run it natively under Linux, Solaris or AIX (even the x86 versions), you could use a product like Wine or CrossoverOffice but that would give you a performance hit.  You could, if you so wished, probably write a C++ Virtual Machine that would interpret raw C++ source code and run it, in which case it would probably run at a comparable speed to most BASICs.  You could also, if you so wished, probably write a Java to Object Code compiler that would take Java source code and produce platform specific object code, in which case it would probably run at a comparable speed to any of the other languages that are compiled to object code.
+
+::::::Speed of execution depends on factors such as whether to code is compiled to platform specific optimised object code or to interpreted cross platform portable code and the efficiency of the underlying library code (when you type 'x++' how efficient in the object code the compiler substitutes to actually do that task, this can vary from compiler to compiler for compiled languages and from virtual machine to virtual machine for interpreted languages).  There is no objective reason why object code produced from C++ source should be faster than the same object code produced fro source in another language.  --[[User:Stephenbooth uk|Stephenbooth uk]] ([[User talk:Stephenbooth uk|talk]]) 16:36, 2 April 2008 (UTC)
+
+:::::::Your characterization of Java was true for earlier versions but is no longer true. [[Just-in-time compilation]] is used to convert Java byte codes to machine specific code on an as called for basis. Because optimization is done at runtime based upon the actual conditions that the JIT compiler sees (rather that at compile time) the resulting code is usually at least comparable (and sometimes better) than what a C++ compiler would produce. Memory management is probably the one area where Java is at a disadvantage to C++. [[User:Dfmclean|Dfmclean]] ([[User talk:Dfmclean|talk]]) 19:50, 2 April 2008 (UTC)
+
+::::::::So whenever a Java application is run the first time a class is instantiated (or maybe the first time a particular method is called) the byte code is compiled and the object code cached.  There's still a performance hit the first time a piece of code is called as the JIT compiler does it's work.  
+::::::::This is rather getting off the point that compiled to object code applications will be faster than interpreted applications, regardless of the specific language used to produce them, all other things being equal.  Specific compilers may produce more or less efficient code than other compilers so the same C++ source compiled in one C++ compiler may be slower if compiled in another C++ compiler.  The same Java byte code may run faster in one JVM than in another, I remember some years ago Oracle changed the JVM they shipped with the Windows version of their software because they found one that was significantly faster and due to issues with the JIT compiler failing on some hardware (problems with certain sorts of memory) with the one they had been using. --[[User:Stephenbooth uk|Stephenbooth uk]] ([[User talk:Stephenbooth uk|talk]]) 13:12, 3 April 2008 (UTC)
+
+:::::::::The problem is that "all other things" are never equal. The hit that a JIT compiler takes producing object code can be made up on subsequent uses of that code. What can be optimized, how it is optimized and how the optimization affects overall performance is now so complicated that for any mature language the quality of the code and choice of and implementation of algorithms have a much larger affect on performance than the choice of language. Add in the performance of modern CPUs and language performance becomes even less important for 99.9% of all applications. [[User:Dfmclean|Dfmclean]] ([[User talk:Dfmclean|talk]]) 14:39, 3 April 2008 (UTC)
+
+== Too many "examples" ==
+
+It looks like people are simply adding their pet language to the "Examples of Programming Languages" list. Even though I thought the poorly-worded entry for VB was rather appropriate, some sort of limit has to be put on what should be in the list. Prune it down and add a comment into the source. [[User:Imroy|Imroy]] 16:31, 26 April 2006 (UTC)
+:Done - [[User:Centrx|Centrx]] 20:47, 24 May 2006 (UTC)
+
+::I think a guiding principle would be if the langauge has a Wikipedia page.  If someone has gone to the trouble of writing a page then it's probably relvant enough to be an example.  Comments? --[[User:Stephenbooth uk|Stephenbooth uk]] 16:16, 8 October 2006 (UTC)
+
+:::Well, there's articles about a lot of non-major languages (until recently we had a whole lot of esoteric languages even), but if somebody adds a languge with no article, instant removal is the way to go, otherwise, think, then remove and/or discuss accordingly. How does that sound? [[User:MichaelBillington|Michael Billington]] ([[User talk:MichaelBillington|talk]] • [[Special:Contributions/MichaelBillington|contribs]]) 12:33, 13 October 2006 (UTC)
+
+== The history section ==
+I know I did write most of it, but it really does suck. Does anybody with better writing skills than me want to have a go at structuring some sentences? [[User:MichaelBillington|Michael Billington]] ([[User talk:MichaelBillington|talk]] • [[Special:Contributions/MichaelBillington|contribs]]) 12:09, 8 August 2006 (UTC)
+:I'll do a bit of what I can here and there. --[[User:Daydreamer302000|Daydreamer302000]] ([[User talk:Daydreamer302000|talk]]) 09:10, 21 November 2008 (UTC)
+
+== Introduction ==
+
+I'm new here and wanted to make sure no one would mind a little clean up.  I noticed in the introduction that the first sentence reads:
+
+:''Computer programming (often simply programming or coding) is the craft of writing a set of commands or instructions that can later be compiled and/or interpreted and then inherently transformed to an executable that an electronic machine can execute or "run".'' 
+
+I just thought it might sound better this way:
+
+:''Computer programming (often simply programming or coding) is the craft of writing a set of commands or instructions that can later be compiled and/or interpreted and then inherently transformed into a package that can be executed or run. '' 
+
+Executable that can be executed just sounds repetitive.  I'm also wondering about the word "craft."  --[[User:PTR|PTR]] 02:20, 30 September 2006 (UTC)
+
+==Ruby==
+This article says Ruby is like Python, but the Ruby article says otherwise. I don't know enough about Ruby to correct this.--[[User:ArnoldReinhold|agr]] 04:16, 13 October 2006 (UTC)
+
+Ruby is very like Python. [[User:80.5.240.253|80.5.240.253]] 20:47, 11 April 2007 (UTC)
+
+Rubyist's want to think they're different, but they're both multi-paradigm, interpreted languages based from Perl.--[[Special:Contributions/67.49.103.120|67.49.103.120]] ([[User talk:67.49.103.120|talk]]) 20:32, 1 September 2009 (UTC)
+:Python is emphatically not based on Perl. Python and Ruby are broadly similar however. --[[User:Cybercobra|&lt;b&gt;&lt;font color="3773A5"&gt;Cyber&lt;/font&gt;&lt;/b&gt;&lt;font color="FFB521"&gt;cobra&lt;/font&gt;]] [[User talk:Cybercobra|(talk)]] 20:44, 1 September 2009 (UTC)
+
+That person cannot seriously be suggesting that Ruby is based on Perl. I cannot think of a language that Ruby is more dissimilar to! Perl is C based; Ruby is completely different to that type of language (apart from the obvious generic similarities inherent in many of the well known multi-paradigm languages). Ruby is verbose and Perl is more or less the same kind of syntax as C. Ruby and Python are definitely very similar to each other. I doubt that many people would seriously say any different unless they had not programmed in both languages.--[[Special:Contributions/82.15.195.194|82.15.195.194]] ([[User talk:82.15.195.194|talk]]) 22:15, 8 January 2014 (UTC)
+
+== A bit more clarity ==
+
+From "modern programming" down things get a little hard to understand for the average dunce like myself. Maybe some more nouns, verbs, and adjectives might help: a spoonful of sugar helps the medicine go down [[User:Josephbsullivan|Josephbsullivan]] 08:03, 28 February 2007 (UTC)
+
+== Boolean Programming Method ==
+
+I recently came across two orphan articles under the same name ([[Boolean programming method]] and [[Boolean Programming Method]]) that have different content, which seems contradictory. Does anyone know which of these is correct or if both are correct? '''''&lt;font color="007575"&gt;[[User:Squids and Chips|Squids]]&lt;/font&gt;'&lt;font color="black"&gt;[[Special:Contributions/Squids and Chips|and]]&lt;/font&gt;'&lt;font color="FF7700"&gt;[[User talk:Squids and Chips|Chips]]&lt;/font&gt;''''' 00:09, 8 March 2007 (UTC)
+:Google comes up with very few hits for the phrase. I am going to &lt;s&gt;propose deletion for both of them&lt;/s&gt; nominate both of them for deletion. [[User:Tualha|Tualha]] ([[User_talk:Tualha|Talk]]) 13:48, 15 July 2007 (UTC)
+
+== Missing Content? ==
+
+Is there any particular reason why the section of modern programming/methodologies contains no reference to the agile/traditional and iterative/turnkey development approaches and debate? [[User:Dfmclean|Dfmclean]] 17:18, 26 March 2007 (UTC)
+
+Expected to find reference to the art of computer programming ([[Donald Knuth]]) - [[User:Kctucker|K]] ([[User talk:Kctucker|talk]]) 08:24, 16 August 2011 (UTC)
+
+== POLICY DEBATE: Use of source code and other examples in articles ==
+I have opened [[Wikipedia_talk:Attribution#Explicit_mention_of_examples_.28source_code.2C_math.2C_etc..29|a debate on the use of examples]] in Wikipedia articles (mainly focusing on computer source code and mathematical formulas, proofs, etc.). It seems to me that many examples currently in Wikipedia violate Wikipedia policy, so I believe we need to either clarify or change the situation. Depending on the result of the discussion, this may result in a number of examples being summarily ''removed'' from articles!
+
+Please reply there, not here, if you wish to contribute.—[[User:Greenrd|greenrd]] 11:24, 18 May 2007 (UTC)
+
+== Programmers ==
+
+It bothers me that [[Bill Gates]] and other software corporate heads are described as "programmers" and sometimes even "hackers". While these guys may have started out their careers as programmers, they are now businessmen, earning their income by running a corporation, and not by programming. It's not fair to call them "programmers", since that's no longer what they do for a living. (When was the last time Gates ever wrote a substantial program, do you think?) Perhaps "former programmer" is a better description. — [[User:Loadmaster|Loadmaster]] 15:03, 21 May 2007 (UTC)
+
+Bill Gates hasn't written any code since 1988. [[User:Unknown Interval|Complex-Algorithm]]
+
+Yes indeed, this is QUITE precise.  &lt;small&gt;—Preceding [[Wikipedia:Signatures|unsigned]] comment added by [[Special:Contributions/24.141.150.148|24.141.150.148]] ([[User talk:24.141.150.148|talk]]) 23:46, 25 November 2007 (UTC)&lt;/small&gt;&lt;!-- Template:UnsignedIP --&gt; &lt;!--Autosigned by SineBot--&gt;
+
+surely a programmer is someone who is able to write computer programs. I haven't written a program in around 2 years but I'm still a programer. in this respec Bill Gates is a programer. the only reason why Bill Gates hasn't written any code since 1988 is because he's rich enough to get other people to write the code for him.
+
+Bill Gates is a programmer and a business man. They are just tags describing what someone does. Yes, Bill Gates is a programmer... get over it!--[[Special:Contributions/82.15.195.194|82.15.195.194]] ([[User talk:82.15.195.194|talk]]) 22:17, 8 January 2014 (UTC)
+
+== Directly storing ... machine code ... into memory? ==
+
+This sentence bothers me: "In some specialist applications or extreme situations a program may be written or modified (known as patching) by directly storing the numeric values of the machine code instructions to be executed into memory." What is this referring to? Should it be in the lead? [[User:Timhowardriley|Timhowardriley]] ([[User talk:Timhowardriley|talk]]) 22:50, 25 January 2008 (UTC)
+:It ought to be mentioned somewhere.  It is too obscure to be in the lead.[[User:Derek farn|Derek farn]] ([[User talk:Derek farn|talk]]) 01:04, 26 January 2008 (UTC)
+
+== What is programming? ==
+
+I partly disagree with such definition of programming. 
+&lt;blockquote&gt;Computer programming (often shortened to programming or coding) is the process of writing, testing, debugging/troubleshooting, and maintaining the source code of computer programs.&lt;/blockquote&gt; 
+This is very narrow definition. Is may be acceptable for "coding". (BTW is coding and programming the same?) Programming is much wider
+
+Here is definition from [http://ed-thelen.org/comp-hist/lgp-30-man.html Electronic Computer PROGRAMMING MANUAL]
+&lt;blockquote&gt;Programming is planning how to solve a problem. No matter what method is used - pencil and paper, slide rule, adding machine, or computer - problem solving requires programming. Of course, how one programs depends on the device one uses in problem solving.&lt;/blockquote&gt;
+Source: [http://bytes.com/forum/thread641516.html What Is Programming?]
+
+Another well defined Tutorial about What Is Programming in 8 Pages you find on: 
+Source: [http://www.softwareschule.ch/download/maxbox_starter.pdf]
+
+&lt;span style="font-size:50%"&gt;Sorry 4 my English&lt;/span&gt;
+[[User:Vanuan|Vanuan]] ([[User talk:Vanuan|talk]]) 21:50, 3 June 2008 (UTC)
+
+:Take note that this article is called 'Computer programming' which refers to programming a computer, which is indeed the mentioned process of creating/testing source code. I think your given definition mainly refers to inventing an algorithm for solving a task. This is very related to computer programming but it's a seperate (though often interwoven) activity. For example, the [[Euclidean algorithm]] was invented way before computers existed. [[Euclid]] invented an algorithm for solving a task but he wasn't ''programming'' a device to solve the task for him. He could solve a problem by executing the algorithm by hand but I wouldn't call that programming. - [[User:Simeon|Simeon]] ([[User talk:Simeon|talk]]) 11:02, 4 June 2008 (UTC)
+
+Computer programming is a way we create instruction to computer even to manipulate single dot on the screen. We can instruct computer to make an even slide point change color, or flipping colors, or a group of color, and what ever in the monitor, and the interaction between monitor and input device such as keyboard or mouse. Like when we type a key on keyboard, the monitor will show a letter on it, this is in fact the computer get signal of input then let a set of instruction called program or application to handle this, whether to show it on screen or do something else. The active application (window) will run go to look what it should do, if we are active on a textbox it will display a text, if we are active on the form it will seek for a shortcut that we press, and so on, this result these applications are very complex, and even the most complex program is the operating system itself, which handles all other programs. Computer programming is currently moving into more and more advance system, like going into 3D and is built to fulfill the current modernized needs. &lt;small&gt;&lt;span class="autosigned"&gt;—Preceding [[Wikipedia:Signatures|unsigned]] comment added by [[User:Innosia|Innosia]] ([[User talk:Innosia|talk]] • [[Special:Contributions/Innosia|contribs]]) 20:34, 27 September 2008 (UTC)&lt;/span&gt;&lt;/small&gt;&lt;!-- Template:Unsigned --&gt; &lt;!--Autosigned by SineBot--&gt; &lt;small&gt;Advertising removed. [[User:Uncle G|Uncle G]] ([[User talk:Uncle G|talk]]) 20:03, 7 October 2008 (UTC)&lt;/small&gt;
+
+== generations of programing languages ==
+In the Alevel Computing sylabus it talks about generations of programing languages (1st generation, 2nd generation and 3rd generation) with 3rd generation being the high level languages like C++. I skimmed through the article and couldn't find anything on this in the history section of the article. is this worth noting?  &lt;span style="font-size: smaller;" class="autosigned"&gt;—Preceding [[Wikipedia:Signatures|unsigned]] comment added by [[Special:Contributions/81.168.93.3|81.168.93.3]] ([[User talk:81.168.93.3|talk]]) 14:53, 15 October 2008 (UTC)&lt;/span&gt;&lt;!-- Template:UnsignedIP --&gt; &lt;!--Autosigned by SineBot--&gt;
+
+==Foreign language programming?==
+
+Someone told me he writes programmes in some Siberian dialect. Can it be true? [[User:Siúnrá|Siúnrá]] ([[User talk:Siúnrá|talk]]) 16:16, 3 January 2009 (UTC)
+
+== Misuse of sources ==
+
+{{User|Jagged 85}} is one of the main contributors to Wikipedia (over 67,000 edits; he's ranked [[Wikipedia:List_of_Wikipedians_by_number_of_edits|198 in the number of edits]]), and most of his edits have to do with Islamic science, technology and philosophy. This editor has persistently [[Wikipedia:Requests for comment/Jagged 85/Evidence|misused sources here over several years]]. This editor's contributions are always well provided with citations, but examination of these sources often reveals either a blatant misrepresentation of those sources or a selective interpretation, going beyond any reasonable interpretation of the authors' intent. Please see: [[Wikipedia:Requests for comment/Jagged 85]]. I searched the page history, and found 2 edits by Jagged 85 in [http://en.wikipedia.org/w/index.php?title=Computer_programming&amp;dir=prev&amp;offset=20070509181644&amp;limit=3&amp;action=history May 2007] and 2 more edits in [http://en.wikipedia.org/w/index.php?title=Computer_programming&amp;offset=20080914103446&amp;limit=3&amp;action=history September 2008]. [[User:Tobby72|Tobby72]] ([[User talk:Tobby72|talk]]) 20:20, 13 June 2010 (UTC)
+
+== Sapir-whorf hypothesis ==
+
+The paragraph in the overview section about comparisons to the Sapir-Whorf hypothesis in linguistics seems to me unnecessary, and almost completely irrelevant. 
+
+"Another ongoing debate is the extent to which the programming language used in writing computer programs affects the form that the final program takes." I would argue that this is not a topic which should be in the first few paragraphs about "Computer Programming". But even allowing that it is,  the rest of the paragraph seems even more distracting.
+
+I'm happy to hear reasons for keeping it. But otherwise, may I suggest that we remove that paragraph?
+
+[[User:Story Weaver|Story Weaver]] ([[User talk:Story Weaver|talk]]) 14:37, 7 October 2010 (UTC)
+:Why do you think it's unnecessary? Computer programming ''is'' strongly related to language, and the reference seems sound. If anything, I would like the topic expanded to further assess this connection. [[User:Diego Moya|Diego Moya]] ([[User talk:Diego Moya|talk]]) 16:21, 9 October 2010 (UTC)
+::For one thing because the Worf hypothesis is completely worthless. The book "The stuff of thought" by Steven Pinker explains  why the hypothesis is, depending on how broad it is interpreted, either trivial, or wrong. The question behind the hypothesis is: How important is it which language you use? And there is a computer-specific answer, called [[Church's thesis]], namely: it doesn't. Which comes remarkably close to the repudiation of the Worf hypothesis in linguistics that Pinker undertakes.  In short, in the Church's thesis article, perhaps, by somebody with more love for stray theories, one may mention a quick historic note to Wolf.[[Special:Contributions/130.92.9.57|130.92.9.57]] ([[User talk:130.92.9.57|talk]]) 11:00, 25 November 2010 (UTC)
+:::Pry away Java from the common professional computer programmer and give him Haskell instead, then come back here to say the language you use doesn't matter. Church's thesis is all well and good viewed from the computer side, of course all Turing-complete languages can compute the same functions; this doesn't say the least as to how easy it is for the human to program in each of them.
+:::There's ample anecdotal evidence in the functional-programming community that learning a declarative language changes your programming style, which seems to support at least the Sapir–Whorf hypothesis' weak form. I haven't read Pinker's book so I can't say in which way he 'disproves' the hypothesis. Would you add a paragraph or two to this extent, instead of deleting all reference to the S-W hypothesis in the article? [[User:Diego Moya|Diego Moya]] ([[User talk:Diego Moya|talk]]) 12:22, 25 November 2010 (UTC)
+::::Actually, reading some extracts of the book[http://books.google.com/books?id=vCDX54DlYBYC&amp;pg=PT160&amp;dq=%22The+stuff+of+thought%22+sapir&amp;hl=en&amp;ei=YFbuTNHOIdX14Abi0dHiCw&amp;sa=X&amp;oi=book_result&amp;ct=result&amp;resnum=1&amp;ved=0CCMQ6AEwAA#v=onepage&amp;q&amp;f=false] the thee criteria that he uses for linguistic determinism do pretty much apply to programmers versed in one paradigm (say, imperative) when trying to create programs suitable for a different paradigm (pure functional): 
+::::#" the speakers of one language find it impossible, or at least extremely difficult, to think in a particular way that comes naturally to the speakers of another language", 
+::::#" the difference in thinking involves genuine reasoning, leaving speakers incapable of solving a problem or befuddled in paradox, rather than merely tilting their subjective impressions" 
+::::#and "the difference in thinking must be caused by the language, rather than arising from other reasons and simply being reflected in the language, and rather than both the language and the thought pattern being an effect of the surrounding culture or environment". 
+::::The third one is debatable; but PLs create an abstract micro-universe which is mainly coherent only within itself, as opposed to what happens with natural languages when talking about the real world, so it makes sense to attribute the difference to the language and not the culture. 
+::::We can take "imperative" and "functional" as two languages by abstracting their syntax away; IMHO there are enough programming constructs that are easy to express and reason about in each language (such as variable state and race conditions being easy in imperative style; recursion, closures, continuations in functional) that are hard or almost impossible to grasp and express in the other. I think linking to some essays on this topic would be a good addition to the article. [[User:Diego Moya|Diego Moya]] ([[User talk:Diego Moya|talk]]) 13:14, 25 November 2010 (UTC)
+
+== Overview - "Professional Software Engineer" link ==
+
+Within the Overview section, the link for "Professional Software Engineer" goes to "wiki:Professional_Engineer" - an article which makes no use of the words "computer", "software" nor "programmer".  What is the relevance of this particular link?  I note that the sentence containing the link has been tagged with citation needed since May 2009 (i.e. for 2+ years).
+[[User:Mandolamus|Mandolamus]] ([[User talk:Mandolamus|talk]]) 00:06, 28 January 2011 (UTC)
+
+== Typing error in "Measuring language usage"? ==
+
+''"...and estimates of the number of existing lines of code written in the language (this '''underestimates''' the number of users of business languages such as COBOL).''
+
+But is this correct? Shouldn't it rather be '''"overestimates''' the number of..."? [[User:Zero Thrust|Zero Thrust]] ([[User talk:Zero Thrust|talk]]) 02:09, 8 January 2012 (UTC)
+
+== Probably will get flak for this ==
+I added an Oxford Comma in the first paragraph of overview "... an art form, a craft''',''' or an engineering discipline."
+If it was not my place to do that, please remove it. --17:23, 11 November 2012 (UTC)~Ray
+
+== Proposed merger of [[Programmer]] into [[Computer programming]]==
+'''Support !votes:'''
+#I propose that [[Programmer]] be merged into [[Computer programming]]. Until a few days ago, the "'''Computer programming'''" article was actually named [[Programming]]; however, "'''Programming'''" is now a disambiguation page, disambiguating all the different types of programming that exist. Due to these changes, "'''Programmer'''" now sounds like an ambiguous title. However, what is reason I am proposing a merger instead of moving "'''Programmer'''" to a new title such as [[Computer programmer]]? The articles "Programmer" and "Computer programming" both contain similar topic information that does not belong separate, including redundant information that should blend all together into the same paragraphs. Also, both articles separate could be expanded, and the best expansion would be to add the information ... from the opposing article. Lastly, "Computer programming" should be the primary article name since most other articles on Wikipedia seem to retain the title of the action, rather than the title of the person performing the action. So, support, oppose, or something else? [[User:Steel1943|&lt;font color="DarkSlateGray"&gt;'''''Steel1943'''''&lt;/font&gt;]] ([[User talk:Steel1943|talk]]) 08:49, 7 April 2013 (UTC)
+#'''Support'''. They do look like they cover similar territory. &amp;mdash; [[User:Frecklefoot|Fr&amp;epsilon;ckl&amp;epsilon;fσσt]] | [[User talk:Frecklefoot|Talk]] 01:44, 8 April 2013 (UTC)
+#'''Support''' - One is the actor and the other is the action. Identify the unique features of being a programmer and add one or more sections on that to this article. &lt;font color="#500000"&gt;[[User:Jojalozzo|Joja]]&lt;/font&gt;&lt;font color="#005000"&gt;[[User talk:Jojalozzo|lozzo]]&lt;/font&gt; 12:10, 16 April 2013 (UTC)
+#'''Support''' Both topics cover the same things. Having two seperate articles can come across as confusing. [[User:Stuntguy3000|Stuntguy3000]] ([[User talk:Stuntguy3000|talk]]) 05:30, 20 June 2013 (UTC)
+
+'''Oppose !votes:'''
+#'''Oppose''' - One is the actor and the other is the action. Programming is the technical topic, programmer the career. One has rather more relevance to the other but programming would suffer if it was bloated with the programmer coverage. [[User:Andy Dingley|Andy Dingley]] ([[User talk:Andy Dingley|talk]]) 22:00, 12 May 2013 (UTC)
+#'''Oppose'''- Programmers those who program(compare geek(not archaic)), programming is an action and a field.  &lt;span style="font-size: smaller;" class="autosigned"&gt;— Preceding [[Wikipedia:Signatures|unsigned]] comment added by [[Special:Contributions/66.183.151.75|66.183.151.75]] ([[User talk:66.183.151.75|talk]]) 02:45, 22 May 2013 (UTC)&lt;/span&gt;&lt;!-- Template:Unsigned IP --&gt; &lt;!--Autosigned by SineBot--&gt;
+#'''Oppose''' It shouldn't be merged since they both do something differently they may be similar but as Andy has said "one is actor and the other is the action" ~[[User:Sharplr]]  &lt;span style="font-size: smaller;" class="autosigned"&gt;—Preceding [[Wikipedia:Signatures|undated]] comment added 17:22, 25 May 2013 (UTC)&lt;/span&gt;&lt;!--Template:Undated--&gt; &lt;!--Autosigned by SineBot--&gt;
+#'''Oppose''' Wikipedia has separate articles on [[Engineer]] and [[Engineering]], [[Mathematician]] and [[Mathematics]], so, considering consistency among articles, they should not be merged. Both articles are vital. If they look similar now and cover the same territory this is an indication that they need improvement. [[Computer Programming]] should cover the process of programming, [[Programmer]] should be about the profession and education. --[[User:Melody Lavender|Melody Lavender]] ([[User talk:Melody Lavender|talk]]) 13:39, 4 June 2013 (UTC)
+
+== programming languages ==
+
+Currently the intro says this: "Another on-going debate is the extent to which the programming language used in writing computer programs affects the form that the final program takes" There is no reference and I don't think this is something i will accept without a reference. The statement is either vacuous or wrong. If the claim is that the selected programming language will impose constraints on the implementation (e.g., it's harder to do OO in a language like COBOL) then obviously it's true, there is no debate there. If on the other hand there is some sort of conceptual argument here, e.g., "you can't build a system like X using a language like Y" then it's clearly just wrong and the people saying it don't understand basic computer science. It's all [[Turing equivalent]] there is no logic or algorithm that you can implement in one language but not another. --[[User:MadScientistX11|MadScientistX11]] ([[User talk:MadScientistX11|talk]]) 17:16, 31 December 2013 (UTC)
+:It certainly needs a reference, but it does say "debate", so it's not an absolute statement.  You would obviously argue strongly on one side of the debate.  Perhaps we should add the other side of the debate (as you explain above).  [[User:Dbfirs|''&lt;font face="verdana"&gt;&lt;font color="blue"&gt;D&lt;/font&gt;&lt;font color="#00ccff"&gt;b&lt;/font&gt;&lt;font color="#44ffcc"&gt;f&lt;/font&gt;&lt;font color="66ff66"&gt;i&lt;/font&gt;&lt;font color="44ee44"&gt;r&lt;/font&gt;&lt;font color="44aa44"&gt;s&lt;/font&gt;&lt;/font&gt;'']] 19:59, 31 December 2013 (UTC)
+::Good point. I should back off a bit and say what I would honestly like to see if a reference that's all. It wouldn't shock me if someone reputable has actually said this, it's just I can't recall hearing anyone say it and if someone has would genuinely like to see the reference. I'm not going to edit this though, I think I have too strong a POV on this one so I'll just point out I think a ref or at a minimum rewording would be good. --[[User:MadScientistX11|MadScientistX11]] ([[User talk:MadScientistX11|talk]]) 20:53, 31 December 2013 (UTC)
+:::[[Kenneth E. Iverson]] doesn't quite make that claim in his 1979 ACM Turing lecture.  He quotes [[Alfred North Whitehead]] ''"By relieving the brain of all unnecessary work, a good notation sets it free to concentrate on more advanced problems ..."'' [http://en.wikiquote.org/wiki/Alfred_North_Whitehead] (but that was from 1911 and not about programming).  I know little about APL, so I don't know whether it influences the way problems are approached and solved.  I expect we have some experts who will wish to comment when they read this discussion.  I haven't found a reference that directly supports the claim in the article.  [[User:Dbfirs|''&lt;font face="verdana"&gt;&lt;font color="blue"&gt;D&lt;/font&gt;&lt;font color="#00ccff"&gt;b&lt;/font&gt;&lt;font color="#44ffcc"&gt;f&lt;/font&gt;&lt;font color="66ff66"&gt;i&lt;/font&gt;&lt;font color="44ee44"&gt;r&lt;/font&gt;&lt;font color="44aa44"&gt;s&lt;/font&gt;&lt;/font&gt;'']] 21:48, 31 December 2013 (UTC)
+
+== Light finally shines through the cracks ==
+
+First, I want to thank everyone who helped transform this previously unimaginably bad article into something that merely raises eyebrows. Hopefully we can start (with an eye towards the statue of limitations) counting the days till a star 'Computer Programming' article. 
+
+One thing that could still use some work is the 'Overview' section. In addition to simply being poorly written, it dedicates too much time to the topic of Engineering-as-legally-defined-term, a topic that is better addressed in [[Software Engineering]] and not enough to an overview of either the technical or social components of computer programming.
+
+
+[[User:ZephyrP|ZephyrP]] ([[User talk:ZephyrP|talk]]) 05:14, 9 July 2017 (UTC)
+
+== Unreliable source ==
+
+The section on women and computer programming does not quote the necessary sources or the one present are not reliable.
+I found baffling that the only footnote underpinning more than 6 line in the text is from a feminist article which show no competence whatsoever in the history of programming.
+Please revise, carefully  &lt;!-- Template:Unsigned --&gt;&lt;small class="autosigned"&gt;—&amp;nbsp;Preceding [[Wikipedia:Signatures|unsigned]] comment added by [[User:Aristotele1982|Aristotele1982]] ([[User talk:Aristotele1982#top|talk]] • [[Special:Contributions/Aristotele1982|contribs]]) 12:46, 17 December 2017 (UTC)&lt;/small&gt; &lt;!--Autosigned by SineBot--&gt;
+
+== Chess image ==
+
+I was asked to comment on my removal of this image from the article's lead section
+
+[[File:prog_one.png|thumb|center|(Black has just moved). If the white bishop at b3 captures the black knight at a2, then the black pawn at b1 is programmed (indicated by purple color) to recapture the attacking white bishop (at a2 where the knight is). (Example from a [[chess]] game. The yellow indicates a piece that has just moved.]]
+
+As I wrote in my edit comment when I removed that image, I complete fail to see the relevance of this image to computer programming. And I would like to see it removed again as I think it will confuse the reader. [[User:Tea2min|Tea2min]] ([[User talk:Tea2min|talk]]) 10:53, 6 November 2018 (UTC)
+:{{agree}} It definitely doesn't belong at the top of the page, and probably doesn't belong at all without actually showing code (or some other process) that does what it is explaining.  [[User:LynxTufts|LynxTufts]] ([[User talk:LynxTufts|talk]]) 15:17, 8 November 2018 (UTC)
+:I'm experiencing physical suffering looking at this thing, can someone please erase it from existence? The coordinates and description are very grating to my chess brain. [[Special:Contributions/104.235.56.36|104.235.56.36]] ([[User talk:104.235.56.36|talk]]) 11:27, 16 March 2020 (UTC)
+
+:I've removed the image. It was added by {{u|Inowen}}, who was later blocked for disruptive editing. [[User:Mindmatrix|&lt;span style="color: #8b4513;"&gt;Mind&lt;/span&gt;]][[User_talk:Mindmatrix|&lt;span style="color: #ee8811;"&gt;matrix&lt;/span&gt;]] 12:50, 16 March 2020 (UTC)
+
+== A Commons file used on this page has been nominated for deletion ==
+The following Wikimedia Commons file used on this page has been nominated for deletion:
+* [[commons:File:Octicons-terminal.svg|Octicons-terminal.svg]]&lt;!-- COMMONSBOT: discussion | 2019-07-26T23:38:45.951962 | Octicons-terminal.svg --&gt;
+Participate in the deletion discussion at the [[commons:Commons:Deletion requests/File:Octicons-terminal.svg|nomination page]]. —[[User:Community Tech bot|Community Tech bot]] ([[User talk:Community Tech bot|talk]]) 23:38, 26 July 2019 (UTC)</text>
+      <sha1>fxlvzoy4j66fjjaidlieix09s57zp4k</sha1>
+    </revision>
+  </page>
+</mediawiki>

@@ -1,0 +1,203 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.10/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.10/ http://www.mediawiki.org/xml/export-0.10.xsd" version="0.10" xml:lang="en">
+  <siteinfo>
+    <sitename>Wikipedia</sitename>
+    <dbname>enwiki</dbname>
+    <base>https://en.wikipedia.org/wiki/Main_Page</base>
+    <generator>MediaWiki 1.35.0-wmf.36</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Media</namespace>
+      <namespace key="-1" case="first-letter">Special</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Talk</namespace>
+      <namespace key="2" case="first-letter">User</namespace>
+      <namespace key="3" case="first-letter">User talk</namespace>
+      <namespace key="4" case="first-letter">Wikipedia</namespace>
+      <namespace key="5" case="first-letter">Wikipedia talk</namespace>
+      <namespace key="6" case="first-letter">File</namespace>
+      <namespace key="7" case="first-letter">File talk</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki talk</namespace>
+      <namespace key="10" case="first-letter">Template</namespace>
+      <namespace key="11" case="first-letter">Template talk</namespace>
+      <namespace key="12" case="first-letter">Help</namespace>
+      <namespace key="13" case="first-letter">Help talk</namespace>
+      <namespace key="14" case="first-letter">Category</namespace>
+      <namespace key="15" case="first-letter">Category talk</namespace>
+      <namespace key="100" case="first-letter">Portal</namespace>
+      <namespace key="101" case="first-letter">Portal talk</namespace>
+      <namespace key="108" case="first-letter">Book</namespace>
+      <namespace key="109" case="first-letter">Book talk</namespace>
+      <namespace key="118" case="first-letter">Draft</namespace>
+      <namespace key="119" case="first-letter">Draft talk</namespace>
+      <namespace key="446" case="first-letter">Education Program</namespace>
+      <namespace key="447" case="first-letter">Education Program talk</namespace>
+      <namespace key="710" case="first-letter">TimedText</namespace>
+      <namespace key="711" case="first-letter">TimedText talk</namespace>
+      <namespace key="828" case="first-letter">Module</namespace>
+      <namespace key="829" case="first-letter">Module talk</namespace>
+      <namespace key="2300" case="first-letter">Gadget</namespace>
+      <namespace key="2301" case="first-letter">Gadget talk</namespace>
+      <namespace key="2302" case="case-sensitive">Gadget definition</namespace>
+      <namespace key="2303" case="case-sensitive">Gadget definition talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Multiple comparisons problem</title>
+    <ns>0</ns>
+    <id>9444220</id>
+    <revision>
+      <id>959547177</id>
+      <parentid>956165775</parentid>
+      <timestamp>2020-05-29T09:16:08Z</timestamp>
+      <contributor>
+        <username>InternetArchiveBot</username>
+        <id>27015025</id>
+      </contributor>
+      <comment>Bluelink 1 book for [[Wikipedia:Verifiability|verifiability]] (prndis)) #IABot (v2.0.1) ([[User:GreenC bot|GreenC bot]]</comment>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="23158" xml:space="preserve">[[File:Spurious correlations - spelling bee spiders.svg|thumb|An example of data produced by [[data dredging]], showing a correlation between the number of letters in a spelling bee's winning word and the number of people in the United States killed by venomous spiders. The clear similarity in trends is a coincidence. If many data series are compared, similarly convincing but coincidental data may be obtained.]]
+In [[statistics]], the '''multiple comparisons''', '''multiplicity''' or '''multiple testing problem''' occurs when one considers a set of [[statistical inference]]s simultaneously&lt;ref&gt;{{cite book | last=Miller | first=R.G. | year=1981 | title=Simultaneous Statistical Inference 2nd Ed | publisher=Springer Verlag New York | isbn=978-0-387-90548-8}}&lt;/ref&gt; or infers a subset of parameters selected based on the observed values.&lt;ref&gt;{{cite journal | journal=Biometrical Journal | title=Simultaneous and selective inference: Current successes and future challenges | year=2010 | volume=52  | last=Benjamini | first=Y. | pages=708–721 | doi=10.1002/bimj.200900299 | issue=6 | pmid=21154895}}&lt;/ref&gt; In certain fields it is known as the [[look-elsewhere effect]].
+
+The more inferences are made, the more likely erroneous inferences are to occur.  Several statistical techniques have been developed to prevent this from happening, allowing significance levels for single and multiple comparisons to be directly compared.  These techniques generally require a stricter significance threshold for individual comparisons, so as to compensate for the number of inferences being made.
+
+==History==
+
+The interest in the problem of multiple comparisons began in the 1950s with the work of [[Tukey]] and [[Scheffé]]. Other methods, such as the [[closed testing procedure]] (Marcus et al., 1976) and the [[Holm–Bonferroni method]] (1979), later emerged. In 1995, work on the [[false discovery rate]] began. In 1996, the first conference on multiple comparisons took place in [[Israel]]. This was followed by conferences around the world, usually taking place about every two years.&lt;ref&gt;[http://www.mcp-conference.org]&lt;/ref&gt;
+
+==Definition==
+Multiple comparisons arise when a statistical analysis involves multiple simultaneous statistical tests, each of which has a potential to produce a "discovery", of the same dataset or dependent datasets. A stated confidence level generally applies only to each test considered individually, but often it is desirable to have a confidence level for the whole family of simultaneous tests.&lt;ref&gt;{{cite book |last1=Kutner |first1=Michael |last2=Nachtsheim |first2=Christopher |last3=Neter |first3=John |authorlink3=John Neter |last4=Li |first4=William |date=2005 |title=Applied Linear Statistical Models |url=https://archive.org/details/appliedlinearsta00kutn_164 |url-access=limited |pages=[https://archive.org/details/appliedlinearsta00kutn_164/page/n782 744]–745}}&lt;/ref&gt;  Failure to compensate for multiple comparisons can have important real-world consequences, as illustrated by the following examples:
+
+* Suppose the treatment is a new way of teaching writing to students, and the control is the standard way of teaching writing.  Students in the two groups can be compared in terms of grammar, spelling, organization, content, and so on.  As more attributes are compared, it becomes increasingly likely that the treatment and control groups will appear to differ on at least one attribute due to random [[sampling error]] alone.
+* Suppose we consider the efficacy of a [[Pharmacology|drug]] in terms of the reduction of any one of a number of disease symptoms.  As more symptoms are considered, it becomes increasingly likely that the drug will appear to be an improvement over existing drugs in terms of at least one symptom.
+
+In both examples, as the number of comparisons increases, it becomes more likely that the groups being compared will appear to differ in terms of at least one attribute. Our confidence that a result will generalize to independent data should generally be weaker if it is observed as part of an analysis that involves multiple comparisons, rather than an analysis that involves only a single comparison.
+
+For example, if one test is performed at the 5% level and the corresponding null hypothesis is true, there is only a 5% chance of incorrectly rejecting the null hypothesis.  However, if 100 tests are conducted and all corresponding null hypotheses are true, the [[expected number]] of incorrect rejections (also known as [[false positive]]s or [[Type I error]]s) is 5.  If the tests are statistically independent from each other, the probability of at least one incorrect rejection is 99.4%.
+
+Note that of course the multiple comparisons problem arises not in every situation where several hypotheses are empirically tested, be that sequentially or in parallel (concurrent).&lt;ref&gt;{{Cite web|url=http://blog.analytics-toolkit.com/2017/multivariate-testing-practices-tools-mvt-abn-tests/|title=Multivariate Testing – Best Practices &amp; Tools for MVT (A/B/n) Tests|last=Georgiev|first=Georgi|date=2017-08-22|website=Blog for Web Analytics, Statistics and Data-Driven Internet Marketing {{!}} Analytics-Toolkit.com|language=en-US|access-date=2020-02-13}}&lt;/ref&gt; Roughly speaking, the multiple comparisons problem arises whenever multiple hypotheses are tested on the same dataset (or datasets that are not independent) or whenever one and the same hypothesis is tested in several datasets.
+
+The multiple comparisons problem also applies to [[confidence intervals]]. A single confidence interval with a 95% [[coverage probability]] level will contain the population parameter in 95% of experiments.  However, if one considers 100 confidence intervals simultaneously, each with 95% coverage probability, the expected number of non-covering intervals is 5. If the intervals are statistically independent from each other, the probability that at least one interval does not contain the population parameter is 99.4%.
+
+Techniques have been developed to prevent the inflation of false positive rates and non-coverage rates that occur with multiple statistical tests.
+
+===Classification of multiple hypothesis tests{{anchor|Classification of ''m'' hypothesis tests}}===
+&lt;!-- [[Template:Classification of multiple hypothesis tests]]: --&gt;
+{{Classification of multiple hypothesis tests}}
+
+==Controlling procedures==
+{{further information|Family-wise error rate#Controlling procedures}}
+{{see also|False coverage rate#Controlling procedures|False discovery rate#Controlling procedures}}
+
+If ''m'' independent comparisons are performed, the ''[[family-wise error rate]]'' (FWER), is given by
+
+:&lt;math&gt; \bar{\alpha} = 1-\left( 1-\alpha_{\{\text{per comparison}\}} \right)^m.&lt;/math&gt;
+
+Hence, unless the tests are perfectly positively dependent (i.e., identical), &lt;math&gt;\bar{\alpha}&lt;/math&gt; increases as the number of comparisons increases.
+If we do not assume that the comparisons are independent, then we can still say:
+
+:&lt;math&gt; \bar{\alpha} \le m \cdot \alpha_{\{\text{per comparison}\}},&lt;/math&gt;
+
+which follows from [[Boole's inequality]]. Example: &lt;math&gt; 0.2649=1-(1-.05)^6  \le .05 \times 6 = 0.3&lt;/math&gt;
+
+There are different ways to assure that the family-wise error rate is at most &lt;math&gt;\bar{\alpha}&lt;/math&gt;. The most conservative method, which is free of dependence and distributional assumptions, is the [[Bonferroni correction]] &lt;math&gt; \alpha_\mathrm{\{per\ comparison\}}={\alpha}/m&lt;/math&gt;.  A marginally less conservative correction can be obtained by solving the equation for the family-wise error rate of &lt;math&gt;m&lt;/math&gt; independent comparisons for &lt;math&gt;\alpha_\mathrm{\{per\ comparison\}}&lt;/math&gt;. This yields &lt;math&gt;\alpha_{\{\text{per comparison}\}} = 1-{(1-{\alpha})}^{1/m}&lt;/math&gt;, which is known as the [[Šidák correction]]. Another procedure is the [[Holm–Bonferroni method]], which uniformly delivers more power than the simple Bonferroni correction, by testing only the lowest p-value (&lt;math&gt;i=1&lt;/math&gt;) against the strictest criterion, and the higher p-values (&lt;math&gt;i&gt;1&lt;/math&gt;) against progressively less strict criteria.&lt;ref&gt;{{cite journal | last1 = Aickin | first1 = M | last2 = Gensler | first2 = H  | title = Adjusting for multiple testing when reporting research results: the Bonferroni vs Holm methods | url = | journal = Am J Public Health | volume = 86| pages = 726–728 | doi=10.2105/ajph.86.5.726 | pmid=8629727 | date=May 1996 | pmc=1380484 | issue=5}}&lt;/ref&gt;
+&lt;math&gt; \alpha_\mathrm{\{per\ comparison\}}={\alpha}/(m-i+1)&lt;/math&gt;.
+
+{{anchor|Correction}}
+{{cleanup merge|section=y|Multiple testing correction|date=April 2016}}
+'''Multiple testing correction''' refers to re-calculating probabilities obtained from a statistical test which was repeated multiple times. In order to retain a prescribed family-wise error rate α in an analysis involving more than one comparison, the error rate for each comparison must be more stringent than&amp;nbsp;''α''.  Boole's inequality implies that if each of ''m'' tests is performed to have type I error rate&amp;nbsp;''α''/''m'', the total error rate will not exceed&amp;nbsp;''α''.  This is called the [[Bonferroni correction]], and is one of the most commonly used approaches for multiple comparisons.
+
+In some situations, the Bonferroni correction is substantially conservative, i.e., the actual family-wise error rate is much less than the prescribed level&amp;nbsp;''α''.  This occurs when the test statistics are highly dependent (in the extreme case where the tests are perfectly dependent, the family-wise error rate with no multiple comparisons adjustment and the per-test error rates are identical).  For example, in fMRI analysis,&lt;ref&gt;{{Cite journal | last1 = Logan | first1 = B. R. | last2 = Rowe | first2 = D. B. | title = An evaluation of thresholding techniques in fMRI analysis | journal = NeuroImage | volume = 22 | issue = 1 | pages = 95–108 | year = 2004 | pmid = 15110000 | doi = 10.1016/j.neuroimage.2003.12.047| citeseerx = 10.1.1.10.421 }}&lt;/ref&gt;&lt;ref&gt;{{Cite journal | last1 = Logan | first1 = B. R. | last2 = Geliazkova | first2 = M. P. | last3 = Rowe | first3 = D. B. | doi = 10.1002/hbm.20471 | title = An evaluation of spatial thresholding techniques in fMRI analysis | journal = Human Brain Mapping | volume = 29 | issue = 12 | pages = 1379–1389 | year = 2008 | pmid =  18064589| pmc = }}&lt;/ref&gt; tests are done on over 100,000 [[voxel]]s in the brain.  The Bonferroni method would require p-values to be smaller than .05/100000 to declare significance.  Since adjacent voxels tend to be highly correlated, this threshold is generally too stringent.
+
+Because simple techniques such as the Bonferroni method can be conservative, there has been a great deal of attention paid to developing better techniques, such that the overall rate of false positives can be maintained without excessively inflating the rate of false negatives. Such methods can be divided into general categories:
+*Methods where total alpha can be proved to never exceed 0.05 (or some other chosen value) under any conditions. These methods provide "strong" control against Type I error, in all conditions including a partially correct null hypothesis.
+*Methods where total alpha can be proved not to exceed 0.05 except under certain defined conditions.
+*Methods which rely on an [[omnibus test]] before proceeding to multiple comparisons. Typically these methods require a significant [[ANOVA]], [[MANOVA]], or [[Tukey's range test]]. These methods generally provide only "weak" control of Type I error, except for certain numbers of hypotheses.
+*Empirical methods, which control the proportion of Type I errors adaptively, utilizing correlation and distribution characteristics of the observed data.
+
+The advent of computerized [[resampling (statistics)|resampling]] methods, such as [[bootstrapping (statistics)|bootstrapping]] and [[Monte Carlo simulation]]s, has given rise to many techniques in the latter category. In some cases where exhaustive permutation resampling is performed, these tests provide exact, strong control of Type I error rates; in other cases, such as bootstrap sampling, they provide only approximate control.
+
+==Large-scale multiple testing==
+Traditional methods for multiple comparisons adjustments focus on correcting for modest numbers of comparisons, often in an [[analysis of variance]].  A different set of techniques have been developed for "large-scale multiple testing", in which thousands or even greater numbers of tests are performed. For example, in [[genomics]], when using technologies such as [[DNA microarray|microarray]]s, expression levels of tens of thousands of genes can be measured, and genotypes for millions of genetic markers can be measured.  Particularly in the field of [[genetic association]] studies, there has been a serious problem with non-replication — a result being strongly statistically significant in one study but failing to be replicated in a follow-up study.  Such non-replication can have many causes, but it is widely considered that failure to fully account for the consequences of making multiple comparisons is one of the causes.&lt;ref&gt;{{Cite journal|last=Qu|first=Hui-Qi|last2=Tien|first2=Matthew|last3=Polychronakos|first3=Constantin|date=2010-10-01|title=Statistical significance in genetic association studies|journal=Clinical and Investigative Medicine. Medecine Clinique et Experimentale|volume=33|issue=5|pages=E266–E270|issn=0147-958X|pmc=3270946|pmid=20926032}}&lt;/ref&gt;
+
+In different branches of science, multiple testing is handled in different ways.  It has been argued that if statistical tests are only performed when there is a strong basis for expecting the result to be true, multiple comparisons adjustments are not necessary.&lt;ref&gt;{{cite journal | doi=10.1097/00001648-199001000-00010 | last=Rothman | first=Kenneth J. | journal=Epidemiology | volume=1 | pages=43–46 | year=1990 | title=No Adjustments Are Needed for Multiple Comparisons | issue=1 | pmid=2081237 | jstor=20065622}}&lt;/ref&gt;  It has also been argued that use of multiple testing corrections is an inefficient way to perform [[empirical research]], since multiple testing adjustments control false positives at the potential expense of many more [[Type I and type II errors|false negatives]].  On the other hand, it has been argued that advances in [[measurement]] and [[information technology]] have made it far easier to generate large datasets for [[exploratory data analysis|exploratory analysis]], often leading to the testing of large numbers of hypotheses with no prior basis for expecting many of the hypotheses to be true.  In this situation, very high [[false positive rate]]s are expected unless multiple comparisons adjustments are made.
+
+For large-scale testing problems where the goal is to provide definitive results, the [[familywise error rate]] remains the most accepted parameter for ascribing significance levels to statistical tests.  Alternatively, if a study is viewed as exploratory, or if significant results can be easily re-tested in an independent study, control of the [[false discovery rate]] (FDR)&lt;ref&gt;{{cite journal | last=Benjamini | first=Yoav |author2=Hochberg, Yosef | year=1995 | title=Controlling the false discovery rate: a practical and powerful approach to multiple testing | journal=[[Journal of the Royal Statistical Society, Series B]] | volume=57 | pages=125–133 | issue=1 | jstor=2346101}}&lt;/ref&gt;&lt;ref&gt;{{cite journal | last=Storey | first=JD |author2=Tibshirani, Robert | year=2003 | title=Statistical significance for genome-wide studies | journal=PNAS | volume=100 | pages=9440–9445 | doi=10.1073/pnas.1530509100 | pmid=12883005 | issue=16 | pmc=170937 | jstor=3144228| bibcode=2003PNAS..100.9440S }}&lt;/ref&gt;&lt;ref&gt;{{cite journal | last=Efron | first=Bradley |author2=Tibshirani, Robert |author3=Storey, John D. |author4= Tusher, Virginia  | journal=[[Journal of the American Statistical Association]] | volume=96 | issue=456 | year=2001 | pages=1151–1160 | title=Empirical Bayes analysis of a microarray experiment | doi=10.1198/016214501753382129 | jstor=3085878}}&lt;/ref&gt; is often preferred.  The FDR, loosely defined as the expected proportion of false positives among all significant tests, allows researchers to identify a set of "candidate positives" that can be more rigorously evaluated in a follow-up study.&lt;ref&gt;{{Cite journal|last=Noble|first=William S.|date=2009-12-01|title=How does multiple testing correction work?|journal=Nature Biotechnology|language=en|volume=27|issue=12|pages=1135–1137|doi=10.1038/nbt1209-1135|issn=1087-0156|pmc=2907892|pmid=20010596}}&lt;/ref&gt;
+
+The practice of trying many unadjusted comparisons in the hope of finding a significant one is a known problem, whether applied unintentionally or deliberately, is sometimes called "p-hacking."&lt;ref name="Deming"&gt;{{Cite journal
+|author = Young, S. S., Karr, A.
+|title = Deming, data and observational studies
+|journal = Significance
+|volume = 8
+|issue = 3
+|pages = 116–120
+|year = 2011
+|url = http://www.niss.org/sites/default/files/Young%20Karr%20Obs%20Study%20Problem.pdf|doi = 10.1111/j.1740-9713.2011.00506.x
+}}
+&lt;/ref&gt;&lt;ref name="bmj02"&gt;
+{{Cite journal
+|author = Smith, G. D., Shah, E.
+|title = Data dredging, bias, or confounding
+|journal = BMJ
+|volume = 325
+|year = 2002
+|pmc = 1124898
+|doi = 10.1136/bmj.325.7378.1437
+|pmid=12493654
+|issue=7378
+|pages=1437–1438}}
+&lt;/ref&gt;
+
+===Assessing whether any alternative hypotheses are true===
+[[Image:quantile meta test.svg|thumb|325px|A [[Q-Q plot|normal quantile plot]] for a simulated set of test statistics that have been standardized to be [[standard score|Z-scores]] under the null hypothesis. The departure of the upper tail of the distribution from the expected trend along the diagonal is due to the presence of substantially more large test statistic values than would be expected if all null hypotheses were true.  The red point corresponds to the fourth largest observed test statistic, which is 3.13, versus an expected value of 2.06.  The blue point corresponds to the fifth smallest test statistic, which is -1.75, versus an expected value of -1.96.  The graph suggests that it is unlikely that all the null hypotheses are true, and that most or all instances of a true alternative hypothesis result from deviations in the positive direction.]]
+
+A basic question faced at the outset of analyzing a large set of testing results is whether there is evidence that any of the alternative hypotheses are true.  One simple meta-test that can be applied when it is assumed that the tests are independent of each other is to use the [[Poisson distribution]] as a model for the number of significant results at a given level α that would be found when all null hypotheses are true.{{citation needed|date=June 2016}}  If the observed number of positives is substantially greater than what should be expected, this suggests that there are likely to be some true positives among the significant results.  For example, if 1000 independent tests are performed, each at level α&amp;nbsp;=&amp;nbsp;0.05, we expect 0.05 × 1000 = 50 significant tests to occur when all null hypotheses are true.  Based on the Poisson distribution with mean 50, the probability of observing more than 61 significant tests is less than 0.05, so if more than 61 significant results are observed, it is very likely that some of them correspond to situations where the alternative hypothesis holds.  A drawback of this approach is that it over-states the evidence that some of the alternative hypotheses are true when the [[test statistic]]s are positively correlated, which commonly occurs in practice.  {{citation needed|date=August 2012}}. On the other hand, the approach remains valid even in the presence of correlation among the test statistics, as long as the Poisson distribution can be shown to provide a good approximation for the number of significant results. This scenario arises, for instance, when mining significant frequent itemsets from transactional datasets. Furthermore, a careful two stage analysis can bound the FDR at a pre-specified level.&lt;ref&gt;{{cite journal | last1 = Kirsch | first1 = A | last2 = Mitzenmacher | first2 = M | author2-link = Michael Mitzenmacher | last3 = Pietracaprina | first3 = A | last4 = Pucci | first4 = G |  last5 = Upfal | first5 = E | author5-link = Eli Upfal | last6 = Vandin | first6 = F | title = An Efficient Rigorous Approach for Identifying Statistically Significant Frequent Itemsets | url = | journal = Journal of the ACM | volume = 59 | issue = 3 | pages = 12:1–12:22 | doi=10.1145/2220357.2220359  | date=June 2012| arxiv = 1002.1104 }}&lt;/ref&gt;
+
+Another common approach that can be used in situations where the [[test statistic]]s can be standardized to [[standard score|Z-scores]] is to make a [[Q-Q plot|normal quantile plot]] of the test statistics.  If the observed quantiles are markedly more [[statistical dispersion|dispersed]] than the normal quantiles, this suggests that some of the significant results may be true positives.{{citation needed|date=January 2012}}
+
+==See also==
+;Key concepts
+*[[Familywise error rate]]
+*[[False positive rate]]
+*[[False discovery rate]] (FDR)
+*[[False coverage rate]] (FCR)
+*[[Interval estimation]]
+*[[Post-hoc analysis]]
+*[[Experimentwise error rate]]
+
+;General methods of alpha adjustment for multiple comparisons
+*[[Closed testing procedure]]
+*[[Bonferroni correction]]
+*Boole–[[Bonferroni bound]]
+*[[Duncan's new multiple range test]]
+*[[Holm–Bonferroni method]]
+*[[Harmonic mean p-value]] procedure
+
+;Related concepts
+*[[Testing hypotheses suggested by the data]]
+*[[Texas sharpshooter fallacy]]
+*[[Model selection]]
+*[[Look-elsewhere effect]]
+*[[Data dredging]]
+
+==References==
+{{Reflist|30em}}
+
+==Further reading==
+* F. Betz, T. Hothorn, P. Westfall (2010), ''Multiple Comparisons Using R'', CRC Press
+* [[Sandrine Dudoit|S. Dudoit]] and M. J. van der Laan (2008), ''Multiple Testing Procedures with Application to Genomics'', Springer
+* {{cite journal | last1 = Farcomeni | first1 = A. | year = 2008 | title = A Review of Modern Multiple Hypothesis Testing, with particular attention to the false discovery proportion | url = | journal = Statistical Methods in Medical Research | volume = 17 | issue = | pages = 347–388 | doi = 10.1177/0962280206079046 }}
+* {{cite journal | last1 = Phipson | first1 = B. | last2 = Smyth | first2 = G. K. | year = 2010 | title = Permutation P-values Should Never Be Zero: Calculating Exact P-values when Permutations are Randomly Drawn | url = | journal = Statistical Applications in Genetics and Molecular Biology | volume =  | issue = | page =  | doi = 10.2202/1544-6155.1585 }}
+* P. H. Westfall and S. S. Young (1993), ''Resampling-based Multiple Testing: Examples and Methods for p-Value Adjustment'', Wiley
+* P. Westfall, R. Tobias, R. Wolfinger (2011) ''Multiple comparisons and multiple testing using SAS'', 2nd edn, SAS Institute
+* [http://www.tylervigen.com/spurious-correlations A gallery of examples of implausible correlations sourced by data dredging]
+{{Experimental design}}
+{{Statistics}}
+
+[[Category:Statistical hypothesis testing]]
+[[Category:Multiple comparisons| ]]</text>
+      <sha1>57sfatvn8794k0yxo8hnnyebj3e89xp</sha1>
+    </revision>
+  </page>
+</mediawiki>

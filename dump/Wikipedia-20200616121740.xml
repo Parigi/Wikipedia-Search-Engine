@@ -1,0 +1,119 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.10/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.10/ http://www.mediawiki.org/xml/export-0.10.xsd" version="0.10" xml:lang="en">
+  <siteinfo>
+    <sitename>Wikipedia</sitename>
+    <dbname>enwiki</dbname>
+    <base>https://en.wikipedia.org/wiki/Main_Page</base>
+    <generator>MediaWiki 1.35.0-wmf.36</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Media</namespace>
+      <namespace key="-1" case="first-letter">Special</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Talk</namespace>
+      <namespace key="2" case="first-letter">User</namespace>
+      <namespace key="3" case="first-letter">User talk</namespace>
+      <namespace key="4" case="first-letter">Wikipedia</namespace>
+      <namespace key="5" case="first-letter">Wikipedia talk</namespace>
+      <namespace key="6" case="first-letter">File</namespace>
+      <namespace key="7" case="first-letter">File talk</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki talk</namespace>
+      <namespace key="10" case="first-letter">Template</namespace>
+      <namespace key="11" case="first-letter">Template talk</namespace>
+      <namespace key="12" case="first-letter">Help</namespace>
+      <namespace key="13" case="first-letter">Help talk</namespace>
+      <namespace key="14" case="first-letter">Category</namespace>
+      <namespace key="15" case="first-letter">Category talk</namespace>
+      <namespace key="100" case="first-letter">Portal</namespace>
+      <namespace key="101" case="first-letter">Portal talk</namespace>
+      <namespace key="108" case="first-letter">Book</namespace>
+      <namespace key="109" case="first-letter">Book talk</namespace>
+      <namespace key="118" case="first-letter">Draft</namespace>
+      <namespace key="119" case="first-letter">Draft talk</namespace>
+      <namespace key="446" case="first-letter">Education Program</namespace>
+      <namespace key="447" case="first-letter">Education Program talk</namespace>
+      <namespace key="710" case="first-letter">TimedText</namespace>
+      <namespace key="711" case="first-letter">TimedText talk</namespace>
+      <namespace key="828" case="first-letter">Module</namespace>
+      <namespace key="829" case="first-letter">Module talk</namespace>
+      <namespace key="2300" case="first-letter">Gadget</namespace>
+      <namespace key="2301" case="first-letter">Gadget talk</namespace>
+      <namespace key="2302" case="case-sensitive">Gadget definition</namespace>
+      <namespace key="2303" case="case-sensitive">Gadget definition talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Wikipedia:Wiki Game</title>
+    <ns>4</ns>
+    <id>1195305</id>
+    <revision>
+      <id>956048083</id>
+      <parentid>906662034</parentid>
+      <timestamp>2020-05-11T06:55:47Z</timestamp>
+      <contributor>
+        <username>Shrinkydinks</username>
+        <id>36895503</id>
+      </contributor>
+      <comment>Adding merge proposal notification</comment>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="7970" xml:space="preserve">{{merge|Wikipedia:Wikirace|discuss=Wikipedia Talk:Wiki Game#Merger proposal}}
+{{pp-semi|small=yes}}
+{{See also|Wikipedia:Wikipedia games}}
+The '''Wiki Game''', also known as the '''Wikipedia race''', is a [[hypertext]]ual game designed to work specifically with [[Wikipedia]]. It requires only a computer, Internet access, a web browser and (optionally) a time-keeping device to play.
+
+== Objective ==
+Players (one or more) start on the same randomly selected article, and must navigate to another pre-selected target article, solely by clicking links within each article. The goal is to arrive at the target article in the fewest clicks (articles), or the least time. The single-player Wiki Game, known as '''Wikirace''', '''Wikispeedia''', '''WikiLadders''', '''WikiClick''', or '''WikiWhack''', involves reducing one's previous time or number of clicks.
+
+== Setup ==
+# Use the [[Special:Random|random article]] link in the navigation box to or have someone else (see procedure 1 for more information) select two random articles. One is the start article and the other is the target article.
+# Navigate all players' browsers to the start article.
+# Purge the history folder of the web browsers.
+
+== Procedures ==
+# The random selection of pages must be performed by someone other than the player, that is, either an impartial overseer (i.e. referee) or an opponent. Of note, the latter option tends to breed a fun competitiveness between players, where one player tries to pick the most "random" (read: tangential) wiki-links for his/her opponent.
+# A close tally must be kept of the number of clicks used by a player; all selections must be accounted for. '''Whoever has the fewest clicks wins.''' The browser history can be used to determine number of articles / clicks.
+# A round in the Wiki Game can be played at one computer terminal, where players take turns, or at multiple computers simultaneously. In the latter option, a "session" begins immediately after everyone loads their randomized Starting Page and ends when the last person returns to his/her Homing Page. ''NOTE'': It is our experience that rounds with a session consisting of several people require both referees and cooperation between opponents to make sure all are treated fairly.
+# After each round, the history folder of the web browser needs to be purged.
+
+:*The game can also be played by seeing who can get to the designated page first, regardless of the number of clicks.
+
+== Variations ==
+If one ever grows tired of the "traditional" version of Wikiracing, several variations of the game have sprung up, created to spice things up or otherwise raise the stakes.
+
+#''''2-player Challenge':''' The form of the Wikipedia game where two people take it in turns to ask the other to navigate between two pages of their choosing, e.g. from [[Teletubbies]] to [[noodles]]. The number of clicks taken is counted, and once a player has completed the challenge, he sets the other a challenge of his own. The winner is the person who completes the game in the fewest clicks.
+#''''5-Clicks-to-Jesus':''' A form of Wikiracing that mimics golf, the challenge in this version is to get from a [[Special:Random|Random Article]] to the [[Jesus]] entry in as few clicks as possible. Reaching the article in five clicks is considered 'par', with clicks over or under five being referred to as 'bogeys' and 'birdies' respectively. Players can either play the course (aiming for 'par' or better) or as a competition. In the latter case, players start from the same [[Special:Random|Random Articles]] and add their score between rounds. Lowest score wins.
+#'''Time Trials:''' Rather than using the click rules, the winner can be determined by whoever reaches the "Homing Page" in the shortest amount of time. This is easier with two parallel machines, although it should be noted that they ought to have equivalent [[Internet]] connections.
+#''''One-Can't-Go' rule:''' Essentially, if you find yourself in a doomed-scenario (i.e. stumbled into a [[Wikipedia:Perfect stub article|stub]] with no wiki-links) you are allowed to use one of the Category links at the bottom of an entry (e.g. 1904 deaths or Philosophy). Each player can only use this option once though, so use it wisely.
+#''''Clicks to Hitler'''' Believed to be the original form of 'The Wikipedia Game,' the objective is to begin by selecting the 'Random Article' link. From there you look at the selected article and click the links in the main body of the article that are believed to lead to the [[Adolf Hitler]] article. Two players or more can play and they count the number of articles it takes to get to Adolf Hitler. The person who gets there with the fewest articles wins.
+
+== Websites for Wikiracing ==
+[http://www.wikispeedia.net Wikispeedia] is an implementation of the Wiki Game with the additional research purpose of using the gathered data in an [[artificial intelligence]] program that automatically learns commonsense knowledge.
+
+[http://www.wikipediagame.org The Wikipedia Game] is a version of the game where the player has 2 minutes and 30 seconds to get from one website to another. It then averages the number of clicks and time it takes to get to finishing page. The player with the best averages wins. The online player with the most wins is shown as the leader. Although it has a log-in feature, it is not necessary to log-in. It will gives a player without a username a random name when coming to the website. It is an implementation by Alex Clemesha which offers variations called Speedrace, Least Clicks, 6 degrees, Find Jesus in 5, and No using 'United States'.
+
+Wikipedia Maze [http://web.archive.org/web/20140421070731/http://wikipediamaze.com/ was] a version of the game that awarded points and badges for both creating and solving puzzles. Every time a user solved a puzzle, they were awarded points based on the average number of clicks it took to solve the puzzle. The harder the puzzle was, the greater the points that were awarded. Each puzzle could be voted up or down by other players, based on whether or not they liked it, which awarded points to the creator. Players were also awarded badges for reaching certain milestones. The site is now defunct and its domain url was taken over and turned into a redirect to a malware site.
+
+== The Don'ts ==
+Except where otherwise noted, any player breaking these rules automatically '''forfeits''' the game.
+# '''DO NOT''' use the Wiki search box.
+# '''DO NOT''' use any of the links outside of the page's contents. The contents of a page are demarcated by gray lines which intersect to make the page box. '''DO NOT''' click (for example) "Help", "Donations", "Related changes", "Category:..." etc.
+#'''DO NOT''' visit external websites. You must stay within the bounds of Wikipedia.
+# '''DO NOT''' use the backspace or back arrow to return to a previous page. History is bunk in the Wiki Game (unless a referee or an opponent demands a recount).
+# '''DO NOT''' click on dates e.g. [[2001]], as these pages are too broad to pose a challenge.
+# '''DO NOT''' employ automated search tools to find a path for you.
+# '''DO NOT''' edit the start page to insert a link to the home page.
+# '''DO NOT''' use your browser's address bar to manually navigate to the target article.
+
+== External links ==
+* [http://www.wikispeedia.net Wikispeedia] - An implementation for research purposes.
+* [http://www.wikipediagame.org The Wikipedia Game] - A free multi-player version.
+* [http://web.archive.org/web/20140421070731/http://wikipediamaze.com/ Wikipedia Maze Archive]. Wikipedia Maze was once another version of the game, but the abandoned domain url now redirects to a malware site.
+* [http://thewikigame.com The Wiki Game]. A version outfitted with ranking and leaderboards.
+* [https://github.com/goto-bus-stop/wikibattle Wikibattle]. An open source implementation hosted on Github Pages. Supports playing against a friend or a random opponent.
+
+[[Category:Wikipedia games]]</text>
+      <sha1>6n0dw3w5wzp5mj1hzwtft4e6gkk5tfm</sha1>
+    </revision>
+  </page>
+</mediawiki>

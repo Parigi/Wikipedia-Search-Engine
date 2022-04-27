@@ -1,0 +1,145 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.10/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.10/ http://www.mediawiki.org/xml/export-0.10.xsd" version="0.10" xml:lang="en">
+  <siteinfo>
+    <sitename>Wikipedia</sitename>
+    <dbname>enwiki</dbname>
+    <base>https://en.wikipedia.org/wiki/Main_Page</base>
+    <generator>MediaWiki 1.35.0-wmf.36</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Media</namespace>
+      <namespace key="-1" case="first-letter">Special</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Talk</namespace>
+      <namespace key="2" case="first-letter">User</namespace>
+      <namespace key="3" case="first-letter">User talk</namespace>
+      <namespace key="4" case="first-letter">Wikipedia</namespace>
+      <namespace key="5" case="first-letter">Wikipedia talk</namespace>
+      <namespace key="6" case="first-letter">File</namespace>
+      <namespace key="7" case="first-letter">File talk</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki talk</namespace>
+      <namespace key="10" case="first-letter">Template</namespace>
+      <namespace key="11" case="first-letter">Template talk</namespace>
+      <namespace key="12" case="first-letter">Help</namespace>
+      <namespace key="13" case="first-letter">Help talk</namespace>
+      <namespace key="14" case="first-letter">Category</namespace>
+      <namespace key="15" case="first-letter">Category talk</namespace>
+      <namespace key="100" case="first-letter">Portal</namespace>
+      <namespace key="101" case="first-letter">Portal talk</namespace>
+      <namespace key="108" case="first-letter">Book</namespace>
+      <namespace key="109" case="first-letter">Book talk</namespace>
+      <namespace key="118" case="first-letter">Draft</namespace>
+      <namespace key="119" case="first-letter">Draft talk</namespace>
+      <namespace key="446" case="first-letter">Education Program</namespace>
+      <namespace key="447" case="first-letter">Education Program talk</namespace>
+      <namespace key="710" case="first-letter">TimedText</namespace>
+      <namespace key="711" case="first-letter">TimedText talk</namespace>
+      <namespace key="828" case="first-letter">Module</namespace>
+      <namespace key="829" case="first-letter">Module talk</namespace>
+      <namespace key="2300" case="first-letter">Gadget</namespace>
+      <namespace key="2301" case="first-letter">Gadget talk</namespace>
+      <namespace key="2302" case="case-sensitive">Gadget definition</namespace>
+      <namespace key="2303" case="case-sensitive">Gadget definition talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Apple A12</title>
+    <ns>0</ns>
+    <id>58470034</id>
+    <revision>
+      <id>951178353</id>
+      <parentid>951178296</parentid>
+      <timestamp>2020-04-15T21:56:14Z</timestamp>
+      <contributor>
+        <username>ArionEstar</username>
+        <id>19951496</id>
+      </contributor>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="8334" xml:space="preserve">{{use mdy dates|date=September 2018}}
+{{Infobox CPU
+| name           = Apple A12 Bionic
+| image          = Apple A12.jpg
+| produced-start = {{Start date and age|2018|09|12}}
+| fastest        = 2.49&lt;ref&gt;{{Cite web|url=https://browser.geekbench.com/ios_devices/56|title=iPhone XS Benchmarks - Geekbench Browser|website=Geekbench|access-date=September 22, 2018}}&lt;/ref&gt;
+| size-from      = [[7 nanometer|7 nm]]&lt;ref name="AnandTech iPhone XS" /&gt;&lt;ref name="Apple iPhone XS PR" /&gt;
+| designfirm     = [[Apple Inc.]]
+| manuf1         = [[TSMC]]&lt;ref name="Engadget 7nm" /&gt;
+| arch           = [[ARM architecture#64/32-bit architecture|A64]]
+| microarch      = [[ARMv8-A]]-Compatible
+| code           = APL1W81&lt;ref name="iFixit iPhone XS teardown" /&gt;
+| numcores       = Hexa-core (2× high performance Vortex + 4× high efficiency Tempest)&lt;ref name="AnandTech iPhone XS" /&gt;&lt;ref name="Apple A12 Bionic" /&gt;
+| l1cache        = 128 KB instruction, 128 KB data
+| l2cache        = 8 MB
+| application    = Mobile
+| gpu            = Apple-designed 4 core, internal name Apple G11P&lt;ref name="AnandTech iPhone XS" /&gt;&lt;ref name="Apple A12 Bionic" /&gt;
+| predecessor    = [[Apple A11]]
+| successor      = [[Apple A13]]
+| variant        = [[Apple A12X]], [[Apple A12Z]]
+}}
+
+The '''Apple A12 Bionic''' is a [[64-bit computing|64-bit]] [[ARM architecture|ARM-based]] [[system on a chip]] (SoC) designed by [[Apple Inc.]]&lt;ref name="Apple iPhone XR PR"&gt;{{cite press release |url=https://www.apple.com/newsroom/2018/09/apple-introduces-iphone-xr/ |title=Apple introduces iPhone XR |publisher=Apple |date=September 12, 2018 |accessdate= September 12, 2018}}&lt;/ref&gt; It first appeared in the [[iPhone XS|iPhone XS, XS Max]], [[iPhone XR|XR]] and 2019 versions of the [[iPad Air (2019)|iPad Air]] and [[iPad Mini (5th generation)|iPad Mini]].&lt;ref name="Apple iPhone XR PR" /&gt;&lt;ref name="Apple iPhone XS PR"&gt;{{cite press release |url=https://www.apple.com/newsroom/2018/09/iphone-xs-and-iphone-xs-max-bring-the-best-and-biggest-displays-to-iphone/ |title=iPhone Xs and iPhone Xs Max bring the best and biggest displays to iPhone |publisher=Apple |date=September 12, 2018 |accessdate= September 12, 2018}}&lt;/ref&gt; It has two high-performance cores which are claimed to be 15% faster and 50% more energy-efficient than the [[Apple A11]] and four high-efficiency cores which are claimed to use 50% less power than the energy-efficient cores in the A11.&lt;ref name="Apple iPhone XR PR" /&gt;&lt;ref name="Apple A12 Bionic"&gt;{{cite web|url=https://www.apple.com/iphone-xs/a12-bionic/ |title=A12 Bionic |website=Apple |date=September 12, 2018 |access-date= September 12, 2018}}&lt;/ref&gt;
+
+==Design==
+The Apple A12 SoC features an Apple-designed 64-bit [[ARMv8.3-A]] six-core CPU, with two high-performance cores running at 2.49 GHz called '''Vortex''' and four energy-efficient cores called '''Tempest'''.&lt;ref name="AnandTech iPhone XS"&gt;{{cite web|url=https://www.anandtech.com/show/13360/apple-announces-2018-iphones-iphone-xs-xr|title=Apple Announces the 2018 iPhones: iPhone XS, iPhone XS Max, &amp; iPhone XR|last=Smith|first=Ryan|date=September 12, 2018|website=[[AnandTech]]|url-status=live|accessdate=September 12, 2018}}&lt;/ref&gt;&lt;ref name="Apple iPhone XS PR" /&gt; The Vortex cores are a 7-wide decode [[Out-of-order execution|out-of-order]] [[Superscalar processor|superscalar]] design, while the Tempest cores are a 3-wide decode out-of-order superscalar design. Like the Mistral cores, the Tempest cores are based on Apple's Swift cores from the [[Apple A6]].&lt;ref&gt;{{Cite web|url=https://www.anandtech.com/show/13392/the-iphone-xs-xs-max-review-unveiling-the-silicon-secrets|title=The iPhone XS &amp; XS Max Review: Unveiling the Silicon Secrets |last=Frumusanu|first=Andrei|website=[[AnandTech]]|access-date=2019-01-27}}&lt;/ref&gt;
+
+The A12 also integrates an Apple-designed four-core [[graphics processing unit]] (GPU) with 50% faster graphics performance than the A11.&lt;ref name="AnandTech iPhone XS" /&gt;&lt;ref name="Apple iPhone XR PR" /&gt; The A12 includes [[AI accelerator|dedicated neural network hardware]] that Apple calls a "Next-generation Neural Engine."&lt;ref name="iPhone XS Tech Specs"&gt;{{cite web |url=https://www.apple.com/iphone-xs/specs/ |title=iPhone XS - Technical Specification |publisher=[[Apple Inc.]] |date=September 12, 2018 |accessdate=September 12, 2018}}&lt;/ref&gt; This neural network hardware has eight cores&lt;ref name="Apple A12 Bionic" /&gt; and can perform up to 5 trillion 8-bit operations per second.&lt;ref name="AnandTech iPhone XS" /&gt;&lt;ref name="Apple iPhone XS PR" /&gt; Unlike the A11's Neural Engine, third party apps can access the A12's Neural Engine.&lt;ref&gt;{{Cite web|url=https://www.anandtech.com/show/13392/the-iphone-xs-xs-max-review-unveiling-the-silicon-secrets|title=The iPhone XS &amp; XS Max Review: Unveiling the Silicon Secrets|last=Frumusanu|first=Andrei|date=2018-10-05|website=[[AnandTech]]|url-status=live|access-date=2019-02-02}}&lt;/ref&gt; 
+
+The A12 is manufactured by [[TSMC]]&lt;ref name="Engadget 7nm" /&gt; using a [[7 nanometer|7 nm]]&lt;ref name="Apple iPhone XS PR" /&gt; [[FinFET]] process, the first to ship in a consumer product,&lt;ref name="AnandTech iPhone XS" /&gt;&lt;ref name="Engadget 7nm"&gt;{{cite web|url=https://www.engadget.com/2018/09/12/apple-a12-bionic-7-nanometer-chip/|title=Apple's A12 Bionic is the first 7-nanometer smartphone chip|last=Summers|first=Nick|date=September 12, 2018|website=[[Engadget]]|url-status=live|accessdate=September 12, 2018}}&lt;/ref&gt; and it contains 6.9 billion transistors.&lt;ref name="Engadget 7nm" /&gt; The die size of the A12 is 83.27 mm&lt;sup&gt;2&lt;/sup&gt;, 5% smaller than the A11.&lt;ref name="TechInsights-iPhoneXSmax"&gt;{{cite web|url=https://www.techinsights.com/blog/apple-iphone-xs-max-teardown|title=Apple iPhone Xs Max Teardown|last=Yang|first=Daniel|last2=Wegner|first2=Stacy|date=September 21, 2018|website=TechInsights|url-status=live|access-date=September 21, 2018}}&lt;/ref&gt; It is manufactured in a [[package on package]] (PoP) together with 4 [[Gibibyte|GiB]] of [[Mobile DDR#LP-DDR4X|LPDDR4X]] memory in the iPhone XS&lt;ref name="iFixit iPhone XS teardown"&gt;{{cite web |url= https://www.ifixit.com/Teardown/iPhone+XS+and+XS+Max+Teardown/113021 |title=iPhone XS and XS Max Teardown |publisher=[[iFixit]] |date=September 21, 2018 |accessdate=September 21, 2018}}&lt;/ref&gt; and XS Max&lt;ref name="TechInsights-iPhoneXSmax" /&gt; and 3 GB of LPDDR4X memory in the iPhone XR, the iPad Air (2019), and the 5th generation iPad mini.&lt;ref name="iFixit iPhone XR teardown"&gt;{{cite web |url= https://www.ifixit.com/Teardown/iPhone+XR+Teardown/114123 |title=iPhone XR Teardown |publisher=[[iFixit]] |date=October 26, 2018 |accessdate=October 30, 2018}}&lt;/ref&gt; The ARMv8.3 instruction set it supports brings a significant security improvement in the form of pointer authentication, which mitigates exploitation techniques such as those involving memory corruption, Jump-Oriented-Programming, and [[Return-oriented_programming|Return-Oriented-Programming]].&lt;ref name="NewOSXBook.forum"&gt;{{cite web |last=Levin |first= Jonathan |url= http://newosxbook.com/forum/viewtopic.php?f=11&amp;t=19557 |title=iPhone Xs, Xr... And, one more thing... |publisher=NewOSXBook.com |date=September 15, 2018 |accessdate=September 15, 2018}}&lt;/ref&gt;
+{| class="wikitable"
+|+Die Block Comparison (mm²)&lt;ref&gt;{{Cite web|url=https://www.anandtech.com/show/13392/the-iphone-xs-xs-max-review-unveiling-the-silicon-secrets|title=The iPhone XS &amp; XS Max Review: Unveiling the Silicon Secrets|last=Frumusanu|first=Andrei|website=[[AnandTech]]|access-date=2019-02-02}}&lt;/ref&gt;
+!SoC
+!A12 (7 nm)
+!A11 (10 nm)
+|-
+|'''Total Die'''
+|83.27
+|87.66
+|-
+|'''Big Core'''
+|2.07
+|2.68
+|-
+|'''Small Core'''
+|0.43
+|0.53
+|-
+|'''CPU Complex (incl. cores)'''
+|11.90
+|14.48
+|-
+|'''GPU Core'''
+|3.23
+|4.43
+|-
+|'''GPU Total'''
+|14.88
+|15.28
+|-
+|'''NPU'''
+|5.79
+|1.83
+|}
+
+==Products that include the Apple A12 Bionic==
+* [[iPhone XS|iPhone XS and XS Max]]
+* [[iPhone XR]]
+* [[iPad Mini (5th generation)]]
+* [[iPad Air (2019)|iPad Air (2019, 3rd generation)]]
+
+==See also==
+* [[Apple-designed processors]], the range of ARM-based mobile processors designed by Apple for their consumer electronic devices
+* [[Apple A12X Bionic]]
+
+==References==
+{{reflist}}
+
+{{Apple Inc. hardware}}
+{{Application ARM-based chips}}
+[[Category:Apple Inc. mobile processors|A12]]
+[[Category:ARM architecture]]
+[[Category:Computer-related introductions in 2018]]</text>
+      <sha1>7pxd58zrvssfps2u4ed4b3kix7p2gis</sha1>
+    </revision>
+  </page>
+</mediawiki>

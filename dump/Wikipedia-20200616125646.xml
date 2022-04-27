@@ -1,0 +1,223 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.10/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.10/ http://www.mediawiki.org/xml/export-0.10.xsd" version="0.10" xml:lang="en">
+  <siteinfo>
+    <sitename>Wikipedia</sitename>
+    <dbname>enwiki</dbname>
+    <base>https://en.wikipedia.org/wiki/Main_Page</base>
+    <generator>MediaWiki 1.35.0-wmf.36</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Media</namespace>
+      <namespace key="-1" case="first-letter">Special</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Talk</namespace>
+      <namespace key="2" case="first-letter">User</namespace>
+      <namespace key="3" case="first-letter">User talk</namespace>
+      <namespace key="4" case="first-letter">Wikipedia</namespace>
+      <namespace key="5" case="first-letter">Wikipedia talk</namespace>
+      <namespace key="6" case="first-letter">File</namespace>
+      <namespace key="7" case="first-letter">File talk</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki talk</namespace>
+      <namespace key="10" case="first-letter">Template</namespace>
+      <namespace key="11" case="first-letter">Template talk</namespace>
+      <namespace key="12" case="first-letter">Help</namespace>
+      <namespace key="13" case="first-letter">Help talk</namespace>
+      <namespace key="14" case="first-letter">Category</namespace>
+      <namespace key="15" case="first-letter">Category talk</namespace>
+      <namespace key="100" case="first-letter">Portal</namespace>
+      <namespace key="101" case="first-letter">Portal talk</namespace>
+      <namespace key="108" case="first-letter">Book</namespace>
+      <namespace key="109" case="first-letter">Book talk</namespace>
+      <namespace key="118" case="first-letter">Draft</namespace>
+      <namespace key="119" case="first-letter">Draft talk</namespace>
+      <namespace key="446" case="first-letter">Education Program</namespace>
+      <namespace key="447" case="first-letter">Education Program talk</namespace>
+      <namespace key="710" case="first-letter">TimedText</namespace>
+      <namespace key="711" case="first-letter">TimedText talk</namespace>
+      <namespace key="828" case="first-letter">Module</namespace>
+      <namespace key="829" case="first-letter">Module talk</namespace>
+      <namespace key="2300" case="first-letter">Gadget</namespace>
+      <namespace key="2301" case="first-letter">Gadget talk</namespace>
+      <namespace key="2302" case="case-sensitive">Gadget definition</namespace>
+      <namespace key="2303" case="case-sensitive">Gadget definition talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Sensitivity and specificity</title>
+    <ns>0</ns>
+    <id>5599330</id>
+    <revision>
+      <id>962680171</id>
+      <parentid>961072658</parentid>
+      <timestamp>2020-06-15T12:27:57Z</timestamp>
+      <contributor>
+        <ip>86.29.189.217</ip>
+      </contributor>
+      <comment>Added context to sensitivity for better understanding</comment>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="21158" xml:space="preserve">{{short description|Statistical measures of the performance of a binary classification test}}
+{{technical|date=June 2017}}
+[[File:Sensitivity and specificity.svg|thumb|350px|Sensitivity and specificity]]
+'''Sensitivity''' and '''specificity''' are statistical measures of the performance of a [[binary classification]] [[classification rule|test]], also known in statistics as a [[Statistical classification|classification function]], that are widely used in medicine:
+*'''Sensitivity''' (also called the '''true positive rate''', the '''epidemiological/clinical sensitivity''', the '''[[Precision and recall#Definition (classification context)|recall]]''', or '''probability of detection'''&lt;ref&gt;{{cite web|title=Detector Performance Analysis Using ROC Curves – MATLAB &amp; Simulink Example|url=http://www.mathworks.com/help/phased/examples/detector-performance-analysis-using-roc-curves.html|website=www.mathworks.com|access-date=11 August 2016}}&lt;/ref&gt; in some fields) measures the proportion of actual positives that are correctly identified as such (e.g., the percentage of sick people who are correctly identified as having the condition). It is often mistakenly confused with the detection limit&lt;ref&gt;{{cite journal |last1=Lozano |first1=Diego |title=Difference Between Analytical Sensitivity and Detection Limit |journal=American Journal of Clinical Pathology }}&lt;/ref&gt;&lt;ref&gt;{{cite journal |last1=Armbruster |first1=David |title=Limit of Blank, Limit of Detection and Limit of Quantitation |journal=Clinical Biochemical Reviews |date=2008 |volume=29 |issue=1 |pages=49–52 |pmid=18852857 |pmc=2556583 }}&lt;/ref&gt;, while the detection limit is calculated from the analytical sensitivity, not from the epidemiological sensitivity.
+*'''Specificity''' (also called the '''true negative rate''') measures the proportion of actual negatives that are correctly identified as such (e.g., the percentage of healthy people who are correctly identified as not having the condition).
+
+Note that the terms "positive" and "negative" do not refer to the value of the condition of interest, but to its presence or absence; the condition itself could be a disease, so that "positive" might mean "diseased", while "negative" might mean "healthy".
+
+In many tests, including diagnostic [[medical test]]s, sensitivity is the extent to which actual positives are not overlooked (so false negatives are few), and specificity is the extent to which actual negatives are classified as such (so false positives are few). Thus, a highly sensitive test rarely overlooks an actual positive (for example, showing "nothing bad" despite something bad existing); a highly specific test rarely registers a positive classification for anything that is not the target of testing (for example, finding one bacterial species and mistaking it for another closely related one that is the true target); and a test that is highly sensitive ''and'' highly specific does both, so it "rarely overlooks a thing that it is looking for" ''and'' it "rarely mistakes anything else for that thing." 
+
+Sensitivity, therefore, quantifies the avoidance of [[false positives and false negatives|false negatives]] and specificity does the same for [[false positives and false negatives|false positives]]. For any test, there is usually a trade-off between the measures – for instance, in [[airport security]], since testing of passengers is for potential threats to safety, scanners may be set to trigger alarms on low-risk items like belt buckles and keys (low specificity) in order to increase the probability of identifying dangerous objects and minimize the risk of missing objects that do pose a threat (high sensitivity). This trade-off can be represented graphically using a [[receiver operating characteristic]] curve. A perfect predictor would be described as 100% sensitive, meaning all sick individuals are correctly identified as sick, and 100% specific, meaning no healthy individuals are incorrectly identified as sick. In reality, however, any [[non-deterministic algorithm|non-deterministic]] predictor will possess a minimum error bound known as the [[Bayes error rate]]. The values of sensitivity and specificity are agnostic to the percent of positive cases in the population of interest (as opposed to, for example, [[Precision and recall|precision]]).
+
+The terms "sensitivity" and "specificity" were introduced by the American biostatistician Jacob Yerushalmy in 1947.&lt;ref&gt;{{cite journal | vauthors = Yerushalmy J | title = Statistical problems in assessing methods of medical diagnosis with special reference to x-ray techniques | journal = Public Health Reports | volume = 62 | issue = 2 | pages = 1432–39 | date = 1947 | pmid = 20340527 | doi = 10.2307/4586294 | jstor = 4586294 }}&lt;/ref&gt;
+
+== Definitions ==
+In the terminology ''true/false positive/negative'', ''true'' or ''false'' refers to the assigned classification being correct or incorrect, while ''positive'' or ''negative'' refers to assignment to the positive or the negative category.
+
+{{Confusion matrix terms}}
+
+=== Application to screening study ===
+Imagine a study evaluating a new test that screens people for a disease. Each person taking the test either has or does not have the disease. The test outcome can be positive (classifying the person as having the disease) or negative (classifying the person as not having the disease). The test results for each subject may or may not match the subject's actual status. In that setting:
+* True positive: Sick people correctly identified as sick
+* False positive: Healthy people incorrectly identified as sick
+* True negative: Healthy people correctly identified as healthy
+* False negative: Sick people incorrectly identified as healthy
+
+In general, Positive = identified and negative = rejected.
+Therefore:
+* True positive = correctly identified
+* False positive = incorrectly identified
+* True negative = correctly rejected
+* False negative = incorrectly rejected
+
+=== Confusion matrix ===
+Consider a group with '''P''' positive instances and '''N''' negative instances of some condition. The four outcomes can be formulated in a 2×2 ''[[contingency table]]'' or ''[[confusion matrix]]'', as follows:
+
+{{DiagnosticTesting Diagram}}
+
+== Sensitivity ==
+Consider the example of a medical test for diagnosing a disease. Sensitivity refers to the test's ability to correctly detect ill patients who do have the condition.&lt;ref name=BMJ&gt;{{cite journal | vauthors = Altman DG, Bland JM | title = Diagnostic tests. 1: Sensitivity and specificity | journal = BMJ | volume = 308 | issue = 6943 | pages = 1552 | date = June 1994 | pmid = 8019315 | pmc = 2540489 | doi = 10.1136/bmj.308.6943.1552 }}&lt;/ref&gt; In the example of a medical test used to identify a disease, the sensitivity (sometimes also named as detection rate in a clinical setting) of the test is the proportion of people who test positive for the disease among those who have the disease. Mathematically, this can be expressed as:
+
+:&lt;math&gt;\begin{align}
+\text{sensitivity} &amp; = \frac{\text{number of true positives}}{\text{number of true positives} + \text{number of false negatives}} \\[8pt]
+&amp; = \frac{\text{number of true positives}}{\text{total number of sick individuals in population}} \\[8pt]
+&amp; = \text{probability of a positive test given that the patient has the disease}
+\end{align}&lt;/math&gt;
+
+A negative result in a test with high sensitivity is useful for ruling out disease.&lt;ref name=BMJ /&gt; A high sensitivity test is reliable when its result is negative, since it rarely misdiagnoses those who have the disease. A test with 100% sensitivity will recognize all patients with the disease by testing positive. A negative test result would definitively ''rule out'' presence of the disease in a patient.
+
+A positive result in a test with high sensitivity is not necessarily useful for ruling in disease. Suppose a 'bogus' test kit is designed to always give a positive reading. When used on diseased patients, all patients test positive, giving the test 100% sensitivity. However, sensitivity by definition does not take into account false positives. The bogus test also returns positive on all healthy patients, giving it a false positive rate of 100%, rendering it useless for detecting or "ruling in" the disease.
+
+Sensitivity is not the same as the [[Precision and recall|precision]] or [[positive predictive value]] (ratio of true positives to combined true and false positives), which is as much a statement about the proportion of actual positives in the population being tested as it is about the test.
+
+The calculation of sensitivity does not take into account indeterminate test results.
+If a test cannot be repeated, indeterminate samples either should be excluded from the analysis (the number of exclusions should be stated when quoting sensitivity) or can be treated as false negatives (which gives the worst-case value for sensitivity and may therefore underestimate it).
+
+== Specificity ==
+Consider the example of a medical test for diagnosing a disease. Specificity relates to the test's ability to correctly reject healthy patients without a condition. 
+Specificity of a test is the proportion of healthy patients known not to have the disease, who will test negative for it. Mathematically, this can also be written as:
+
+:&lt;math&gt; \begin{align}
+\text{specificity} &amp; = \frac{\text{number of true negatives}}{\text{number of true negatives} + \text{number of false positives}} \\[8pt]
+&amp; = \frac{\text{number of true negatives}}{\text{total number of well individuals in population}} \\[8pt]
+&amp; = \text{probability of a negative test given that the patient is well}
+\end{align}
+&lt;/math&gt;
+
+A positive result in a test with high specificity is useful for ruling in disease. The test rarely gives positive results in healthy patients. A positive result signifies a high probability of the presence of disease.&lt;ref name="cebm"&gt;{{cite web|title=SpPins and SnNouts|url=http://www.cebm.net/sppin-and-snnout/|publisher=Centre for Evidence Based Medicine (CEBM)|access-date=26 December 2013}}&lt;/ref&gt;
+
+A test with a higher specificity has a lower type I error rate.
+
+== Graphical illustration ==
+&lt;gallery widths="430px" heights="315px"&gt;
+File:HighSensitivity LowSpecificity 1401x1050.png|High sensitivity and low specificity
+File:LowSensitivity HighSpecificity 1400x1050.png|Low sensitivity and high specificity
+&lt;/gallery&gt;
+
+== Medical examples ==
+In [[medical diagnosis]], test sensitivity is the ability of a test to correctly identify those with the disease (true positive rate), whereas test specificity is the ability of the test to correctly identify those without the disease (true negative rate).
+If 100 patients known to have a disease were tested, and 43 test positive, then the test has 43% sensitivity. If 100 with no disease are tested and 96 return a completely negative result, then the test has 96% specificity. Sensitivity and specificity are prevalence-independent test characteristics, as their values are intrinsic to the test and do not depend on the disease prevalence in the population of interest.&lt;ref&gt;{{cite web|last=Mangrulkar|first=Rajesh | name-list-format = vanc |title=Diagnostic Reasoning I and II|url=http://open.umich.edu/education/med/m1/patientspop-decisionmaking/2010/materials|access-date=24 January 2012}}&lt;/ref&gt; Positive and negative predictive values, but not sensitivity or specificity, are values influenced by the prevalence of disease in the population that is being tested. These concepts are illustrated graphically in this applet [https://kennis-research.shinyapps.io/Bayes-App/ Bayesian clinical diagnostic model] which show the positive and negative predictive values as a function of the prevalence, the sensitivity and specificity.
+
+=== Prevalence Threshold ===
+The relationship between a screening tests' positive predictive value, and its target prevalence, is proportional - though not linear in all but a special case. In consequence, there is a point of local extrema and maximum curvature defined only as a function of the sensitivity and specificity beyond which the rate of change of a test's positive predictive value drops at a differential pace relative to the disease prevalence. Using differential equations, this point was first defined by Balayla et al. &lt;ref&gt;Balayla, Jacques. "Prevalence Threshold and the Geometry of Screening Curves." arXiv preprint arXiv:2006.00398 (2020).&lt;/ref&gt; and is termed the ''prevalence threshold (&lt;math&gt;\phi_e&lt;/math&gt;).''  The equation for the prevalence threshold is given by the following formula, where a = sensitivity and b = specificity:
+
+:&lt;math&gt;\phi_e=\frac{\sqrt{a(-b+1)}+b-1}{(a+b-1)}&lt;/math&gt;
+
+Where this point lies in the screening curve has critical implications for clinicians and the interpretation of positive screening tests in real time.
+
+=== Misconceptions ===
+It is often claimed that a highly specific test is effective at ruling in a disease when positive, while a highly sensitive test is deemed effective at ruling out a disease when negative.&lt;ref&gt;{{cite web|url=http://omerad.msu.edu/ebm/Diagnosis/Diagnosis4.html|title=Evidence-Based Diagnosis|publisher=Michigan State University|access-date=2013-08-23|archive-url=https://web.archive.org/web/20130706035232/http://omerad.msu.edu/ebm/Diagnosis/Diagnosis4.html|archive-date=2013-07-06|url-status=dead|df=}}&lt;/ref&gt;&lt;ref&gt;{{cite web|url=http://www.med.emory.edu/EMAC/curriculum/diagnosis/sensand.htm|title=Sensitivity and Specificity|publisher=Emory University Medical School Evidence Based Medicine course}}&lt;/ref&gt; This has led to the widely used mnemonics SPPIN and SNNOUT, according to which a highly '''sp'''ecific test, when '''p'''ositive, rules '''in''' disease (SP-P-IN), and a highly ''''s'''e'''n'''sitive' test, when '''n'''egative rules '''out''' disease (SN-N-OUT). Both rules of thumb are, however, inferentially misleading, as the diagnostic power of any test is determined by both its sensitivity ''and'' its specificity.&lt;ref name="pmid8028462"&gt;{{cite journal | vauthors = Baron JA | title = Too bad it isn't true | journal = Medical Decision Making | volume = 14 | issue = 2 | pages = 107 | date = Apr–Jun 1994 | pmid = 8028462 | doi = 10.1177/0272989X9401400202 }}&lt;/ref&gt;&lt;ref name="pmid8028470"&gt;{{cite journal | vauthors = Boyko EJ | title = Ruling out or ruling in disease with the most sensitive or specific diagnostic test: short cut or wrong turn? | journal = Medical Decision Making | volume = 14 | issue = 2 | pages = 175–9 | date = Apr–Jun 1994 | pmid = 8028470 | doi = 10.1177/0272989X9401400210 }}&lt;/ref&gt;&lt;ref name="pmid15271832"&gt;{{cite journal | vauthors = Pewsner D, Battaglia M, Minder C, Marx A, Bucher HC, Egger M | title = Ruling a diagnosis in or out with "SpPIn" and "SnNOut": a note of caution | journal = BMJ | volume = 329 | issue = 7459 | pages = 209–13 | date = July 2004 | pmid = 15271832 | pmc = 487735 | doi = 10.1136/bmj.329.7459.209 }}&lt;/ref&gt;
+
+The tradeoff between specificity and sensitivity is explored in [[Receiver operating characteristic|ROC analysis]] as a trade off between TPR and FPR (that is, recall and fallout).&lt;ref name=Fawcett2006 /&gt; Giving them equal weight optimizes [[informedness]] = specificity+sensitivity-1 = TPR-FPR, the magnitude of which gives the probability of an informed decision between the two classes (&gt;0 represents appropriate use of information, 0 represents chance-level performance, &lt;0 represents perverse use of information).&lt;ref name="Powers2011" /&gt;
+
+=== Sensitivity index ===
+The [[sensitivity index]] or ''d' '' (pronounced 'dee-prime') is a [[statistic]] used in signal [[detection theory]]. It provides the separation between the means of the signal and the noise distributions, compared against the standard deviation of the noise distribution. For [[Normal distribution|normally distributed]] signal and noise with mean and standard deviations &lt;math&gt;\mu_S&lt;/math&gt; and &lt;math&gt;\sigma_S&lt;/math&gt;, and &lt;math&gt;\mu_N&lt;/math&gt; and &lt;math&gt;\sigma_N&lt;/math&gt;, respectively, d' is defined as:
+
+: &lt;math&gt;d' = \frac{\mu_S - \mu_N}{\sqrt{\frac{1}{2}(\sigma_S^2 + \sigma_N^2)}}&lt;/math&gt; &lt;ref name="pmid20089911"&gt;{{cite journal | vauthors = Gale SD, Perkel DJ | title = A basal ganglia pathway drives selective auditory responses in songbird dopaminergic neurons via disinhibition | journal = The Journal of Neuroscience | volume = 30 | issue = 3 | pages = 1027–37 | date = January 2010 | pmid = 20089911 | pmc = 2824341 | doi = 10.1523/JNEUROSCI.3585-09.2010 }}&lt;/ref&gt;
+
+An estimate of d' can be also found from measurements of the hit rate and [[False alarm|false-alarm]] rate. It is calculated as:
+
+::''d''' = ''Z''(hit rate) – ''Z''(false alarm rate),&lt;ref name="MacmillanCreelman2004"&gt;{{cite book|last1=Macmillan|first1=Neil A.|last2=Creelman|first2=C. Douglas | name-list-format = vanc |title=Detection Theory: A User's Guide|url=https://books.google.com/books?id=hDX65v9bReYC|page=7|date=15 September 2004|publisher=Psychology Press|isbn=978-1-4106-1114-7}}&lt;/ref&gt;
+
+where function ''Z''(''p''), ''p'' &amp;isin; [0,1], is the inverse of the [[Normal distribution#Cumulative distribution function|cumulative Gaussian distribution]].
+
+''d' '' is a [[dimensionless]] statistic. A higher ''d''' indicates that the signal can be more readily detected.
+
+== Worked example ==
+{{SensSpecPPVNPV}}
+
+== Estimation of errors in quoted sensitivity or specificity ==
+
+Sensitivity and specificity values alone may be highly misleading.  The 'worst-case' sensitivity or specificity must be calculated in order to avoid reliance on experiments with few results. For example, a particular test may easily show 100% sensitivity if tested against the gold standard four times, but a single additional test against the gold standard that gave a poor result would imply a sensitivity of only 80%.  A common way to do this is to state the [[binomial proportion confidence interval]], often calculated using a Wilson score interval.
+
+[[Confidence intervals]] for sensitivity and specificity can be calculated, giving the range of values within which the correct value lies at a given confidence  level (e.g., 95%).&lt;ref&gt;{{cite web|url=http://www.medcalc.org/calc/diagnostic_test.php|title=Diagnostic test online calculator calculates sensitivity, specificity, likelihood ratios and predictive values from a 2x2 table – calculator of confidence intervals for predictive parameters|work=medcalc.org}}&lt;/ref&gt;
+
+== Terminology in information retrieval ==
+In [[information retrieval]], the positive predictive value is called '''[[Precision and recall#Definition (classification context)|precision]]''', and sensitivity is called '''[[Precision and recall#Definition (classification context)|recall]]'''. Unlike the Specificity vs Sensitivity tradeoff, these measures are both independent of the number of true negatives, which is generally unknown and much larger than the actual numbers of relevant and retrieved documents. This assumption of very large numbers of true negatives versus positives is rare in other applications.&lt;ref name="Powers2011" /&gt;
+
+The [[F-score]] can be used as a single measure of performance of the test for the positive class. The F-score is the [[harmonic mean]] of precision and recall:
+
+:&lt;math&gt;F = 2 \times \frac{\text{precision} \times \text{recall}}{\text{precision} + \text{recall}} &lt;/math&gt;
+
+In the traditional language of [[statistical hypothesis testing]], the sensitivity of a test is called the [[statistical power]] of the test, although the word ''power'' in that context has a more general usage that is not applicable in the present context.  A sensitive test will have fewer [[Type I and type II errors|Type II errors]].
+
+== See also ==
+{{Portal|Science|Biology|Medicine}}
+{{Columns-list|colwidth=30em|
+* [[Brier score]]
+* [[Cumulative accuracy profile]]
+* [[False positive paradox]]
+* [[Discrimination]]
+* [[Precision and recall]]
+* [[Statistical significance]]
+* [[Uncertainty coefficient]], also called proficiency
+* [[Youden's J statistic]]
+}}
+
+== References ==
+{{Reflist|32em}}
+
+== Further reading ==
+{{Refbegin}}
+* {{cite journal | vauthors = Altman DG, Bland JM | title = Diagnostic tests. 1: Sensitivity and specificity | journal = BMJ | volume = 308 | issue = 6943 | pages = 1552 | date = June 1994 | pmid = 8019315 | pmc = 2540489 | doi = 10.1136/bmj.308.6943.1552 }}
+* {{cite journal | vauthors = Loong TW | title = Understanding sensitivity and specificity with the right side of the brain | journal = BMJ | volume = 327 | issue = 7417 | pages = 716–9 | date = September 2003 | pmid = 14512479 | pmc = 200804 | doi = 10.1136/bmj.327.7417.716 }}
+{{Refend}}
+
+== External links ==
+* [http://araw.mede.uic.edu/cgi-bin/testcalc.pl UIC Calculator]
+* [http://vassarstats.net/clin1.html Vassar College's Sensitivity/Specificity Calculator]
+* [https://www.medcalc.org/calc/diagnostic_test.php MedCalc Free Online Calculator]
+* [https://kennis-research.shinyapps.io/Bayes-App/ Bayesian clinical diagnostic model applet]
+{{Medical research studies}}
+
+[[Category:Accuracy and precision]]
+[[Category:Bioinformatics]]
+[[Category:Biostatistics]]
+[[Category:Cheminformatics]]
+[[Category:Medical statistics]]
+[[Category:Statistical ratios]]
+[[Category:Statistical classification]]</text>
+      <sha1>7ni0nosydk3t6kko6vilqt9lz05a3gy</sha1>
+    </revision>
+  </page>
+</mediawiki>

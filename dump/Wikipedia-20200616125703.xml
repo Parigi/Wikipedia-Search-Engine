@@ -1,0 +1,220 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.10/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.10/ http://www.mediawiki.org/xml/export-0.10.xsd" version="0.10" xml:lang="en">
+  <siteinfo>
+    <sitename>Wikipedia</sitename>
+    <dbname>enwiki</dbname>
+    <base>https://en.wikipedia.org/wiki/Main_Page</base>
+    <generator>MediaWiki 1.35.0-wmf.36</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Media</namespace>
+      <namespace key="-1" case="first-letter">Special</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Talk</namespace>
+      <namespace key="2" case="first-letter">User</namespace>
+      <namespace key="3" case="first-letter">User talk</namespace>
+      <namespace key="4" case="first-letter">Wikipedia</namespace>
+      <namespace key="5" case="first-letter">Wikipedia talk</namespace>
+      <namespace key="6" case="first-letter">File</namespace>
+      <namespace key="7" case="first-letter">File talk</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki talk</namespace>
+      <namespace key="10" case="first-letter">Template</namespace>
+      <namespace key="11" case="first-letter">Template talk</namespace>
+      <namespace key="12" case="first-letter">Help</namespace>
+      <namespace key="13" case="first-letter">Help talk</namespace>
+      <namespace key="14" case="first-letter">Category</namespace>
+      <namespace key="15" case="first-letter">Category talk</namespace>
+      <namespace key="100" case="first-letter">Portal</namespace>
+      <namespace key="101" case="first-letter">Portal talk</namespace>
+      <namespace key="108" case="first-letter">Book</namespace>
+      <namespace key="109" case="first-letter">Book talk</namespace>
+      <namespace key="118" case="first-letter">Draft</namespace>
+      <namespace key="119" case="first-letter">Draft talk</namespace>
+      <namespace key="446" case="first-letter">Education Program</namespace>
+      <namespace key="447" case="first-letter">Education Program talk</namespace>
+      <namespace key="710" case="first-letter">TimedText</namespace>
+      <namespace key="711" case="first-letter">TimedText talk</namespace>
+      <namespace key="828" case="first-letter">Module</namespace>
+      <namespace key="829" case="first-letter">Module talk</namespace>
+      <namespace key="2300" case="first-letter">Gadget</namespace>
+      <namespace key="2301" case="first-letter">Gadget talk</namespace>
+      <namespace key="2302" case="case-sensitive">Gadget definition</namespace>
+      <namespace key="2303" case="case-sensitive">Gadget definition talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Margin of error</title>
+    <ns>0</ns>
+    <id>277379</id>
+    <revision>
+      <id>961650398</id>
+      <parentid>960380454</parentid>
+      <timestamp>2020-06-09T17:33:06Z</timestamp>
+      <contributor>
+        <ip>207.38.155.140</ip>
+      </contributor>
+      <comment>Linked to standard error article</comment>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="12175" xml:space="preserve">{{about|the statistical precision of estimates from sample surveys|observational errors|Observational error|safety margins in engineering|Factor of safety|tolerance in engineering|Tolerance (engineering)|the eponymous movie|Margin for error (film)}}
+
+[[File:Marginoferror95.PNG|right|thumb|400px|Above, [[probability density function|probability densities]], of polls of different sizes, each color-coded to its 95% [[confidence interval]]  (below), margin of error (left), and sample size (right). Each interval reflects the range within which one may have 95% confidence that the ''true'' percentage may be found, given a reported percentage of 50%. The ''margin of error'' is half the confidence interval (also, the ''radius'' of the interval). The larger the sample, the smaller the margin of error. Also, the further from 50% the reported percentage, the smaller the margin of error.]]
+
+The '''margin of error''' is a statistic expressing the amount of random [[sampling error]] in the results of a [[statistical survey|survey]]. The larger the margin of error, the less confidence one should have that a poll result would reflect the result of a survey of the entire [[Statistical population|population]]. The margin of error will be positive whenever a population is incompletely sampled and the outcome measure has positive [[variance]], which is to say, the measure ''varies''.
+
+The term ''margin of error'' is often used in non-survey contexts to indicate [[observational error]] in reporting measured quantities.
+
+== Concept ==
+Consider a simple ''yes/no'' poll &lt;math&gt;P&lt;/math&gt; as a sample of &lt;math&gt;n&lt;/math&gt; respondents drawn from a population &lt;math&gt;N \text{, }(n &lt;&lt; N)&lt;/math&gt; reporting the percentage &lt;math&gt;p&lt;/math&gt; of ''yes'' responses. We would like to know how close &lt;math&gt;p&lt;/math&gt;  is to the true result of a survey of the entire population &lt;math&gt;N&lt;/math&gt;, without having to conduct one.  If, hypothetically, we were to conduct poll &lt;math&gt;P&lt;/math&gt; over subsequent samples of &lt;math&gt;n&lt;/math&gt; respondents (newly drawn from &lt;math&gt;N&lt;/math&gt;), we would expect those subsequent results &lt;math&gt;p_1,p_2,\ldots&lt;/math&gt; to be normally distributed about &lt;math&gt;\overline{p}&lt;/math&gt;. The ''margin of error'' describes the distance within which a specified percentage of these results is expected to vary from &lt;math&gt;\overline{p}&lt;/math&gt;.
+
+According to the [[68–95–99.7 rule|68-95-99.7 rule]], we would expect that 95% of the results &lt;math&gt;p_1,p_2,\ldots&lt;/math&gt; to fall within ''about'' two [[Standard deviation|standard deviations]] (&lt;math&gt;\plusmn2\sigma_{P}&lt;/math&gt;) either side of the true mean &lt;math&gt;\overline{p}&lt;/math&gt;. &amp;nbsp;This interval is called the [[confidence interval]], and the ''radius'' (half the interval) is called the ''margin of error'', corresponding to a 95% ''confidence level''.
+
+Generally, at a confidence level &lt;math&gt;\gamma&lt;/math&gt;, a sample sized &lt;math&gt;n&lt;/math&gt; of a population having expected standard deviation &lt;math&gt;\sigma&lt;/math&gt;,
+
+:&lt;math&gt;\text{Margin of error} = MOE_\gamma = z_\gamma \times\sqrt{\frac{\sigma^2}{n}}&lt;/math&gt;
+
+Where &lt;math&gt;z_\gamma &lt;/math&gt; denotes the ''quantile'' (also, commonly, a ''z-score)'', and &lt;math&gt;\sqrt{\frac{\sigma^2}{n}}&lt;/math&gt; is the [[standard error]].
+
+== Standard deviation and standard error ==
+We would expect the normally distributed values &amp;nbsp;&lt;math&gt;p_1,p_2,\ldots&lt;/math&gt; to have a standard deviation which somehow varies with &lt;math&gt;n&lt;/math&gt;. The smaller &lt;math&gt;n&lt;/math&gt;, the wider the margin. This is called the [[standard error]] &lt;math&gt;\sigma_\overline{p}&lt;/math&gt;. 
+
+For the single result from our survey, we ''assume'' that &lt;math&gt;p = \overline{p}&lt;/math&gt;, and that ''all'' subsequent results &lt;math&gt;p_1,p_2,\ldots&lt;/math&gt; together would have a variance &lt;math&gt;\sigma_{P}^2=P(1-P)&lt;/math&gt;.
+
+: &lt;math&gt; \text{Standard error} = \sigma_\overline{p} \approx \sqrt{\frac{\sigma_{P}^2}{n}} \approx \sqrt{\frac{p(1-p)}{n}}&lt;/math&gt;
+
+Note that &lt;math&gt;p(1-p)&lt;/math&gt; corresponds to the variance of a [[Bernoulli distribution]].
+
+== Maximum margin of error at different confidence levels ==
+[[File:Empirical Rule.PNG|thumb|350px|]]For a confidence ''level'' &lt;math&gt;\gamma&lt;/math&gt;, there is a corresponding confidence ''interval'' about the mean &lt;math&gt;\mu\plusmn z_\gamma\sigma&lt;/math&gt;, that is, the interval &lt;math&gt;[\mu-z_\gamma\sigma,\mu+z_\gamma\sigma]&lt;/math&gt; within which values of &lt;math&gt;P&lt;/math&gt; should fall with probability &lt;math&gt;\gamma&lt;/math&gt;. Precise values of &lt;math&gt;z_\gamma&lt;/math&gt; are given by the [[Normal distribution#Quantile function|quantile function of the normal distribution]] (which the 68-95-99.7 rule approximates).
+
+Note that &lt;math&gt;z_\gamma&lt;/math&gt; is undefined for &lt;math&gt;|\gamma| \ge 1&lt;/math&gt;, that is, &lt;math&gt;z_{1.00}&lt;/math&gt; is undefined, as is &lt;math&gt;z_{1.10}&lt;/math&gt;.
+{| class="wikitable" style="text-align:left;margin-left:24pt;border:none;background:none;"
+!&lt;math&gt;\gamma&lt;/math&gt;
+!&lt;math&gt;z_{\gamma}&lt;/math&gt;
+| rowspan="8" style="border:none;background:none;" |&amp;nbsp;
+!&lt;math&gt;\gamma&lt;/math&gt;
+!&lt;math&gt;z_{\gamma}&lt;/math&gt;
+|-
+|0.68
+|{{val|0.994457883210}}
+|0.999
+|{{val|3.290526731492}}
+|-
+|0.90
+|{{val|1.644853626951}}
+|0.9999
+|{{val|3.890591886413}}
+|-
+|0.95
+|{{val|1.959963984540}}
+|0.99999
+|{{val|4.417173413469}}
+|-
+|0.98
+|{{val|2.326347874041}}
+|0.999999
+|{{val|4.891638475699}}
+|-
+|0.99
+|{{val|2.575829303549}}
+|0.9999999
+|{{val|5.326723886384}}
+|-
+|0.995
+|{{val|2.807033768344}}
+|0.99999999
+|{{val|5.730728868236}}
+|-
+|0.997
+|{{val|2.967737925342}}
+|0.999999999
+|{{val|6.109410204869}}
+|}
+Since &lt;math&gt;\max \sigma_P^2 = \max P(1-P) = 0.25&lt;/math&gt; at &lt;math&gt;p = 0.5&lt;/math&gt;, we can arbitrarily set &lt;math&gt;p=\overline{p} = 0.5&lt;/math&gt;, calculate &lt;math&gt;\sigma_{P}&lt;/math&gt;, &lt;math&gt;\sigma_\overline{p}&lt;/math&gt;, and &lt;math&gt;z_\gamma\sigma_\overline{p}&lt;/math&gt; to obtain the ''maximum'' margin of error for &lt;math&gt;P&lt;/math&gt; at a given confidence level &lt;math&gt;\gamma&lt;/math&gt; and sample size &lt;math&gt;n&lt;/math&gt;, even before having actual results. &amp;nbsp;With &lt;math&gt;p=0.5,n=1013&lt;/math&gt;
+
+:&lt;math&gt;MOE_{95}(0.5) = z_{0.95}\sigma_\overline{p} \approx z_{0.95}\sqrt{\frac{\sigma_{P}^2}{n}} = 1.96\sqrt{\frac{.25}{n}} = 0.98/\sqrt{n}=\plusmn3.1%&lt;/math&gt;
+:&lt;math&gt;MOE_{99}(0.5) = z_{0.99}\sigma_\overline{p} \approx z_{0.99}\sqrt{\frac{\sigma_{P}^2}{n}} = 2.58\sqrt{\frac{.25}{n}} = 1.29/\sqrt{n}=\plusmn4.1%&lt;/math&gt;
+
+Also, usefully, for any reported &lt;math&gt;MOE_{95}&lt;/math&gt;
+
+:&lt;math&gt;MOE_{99} = \frac{z_{0.99}}{z_{0.95}}MOE_{95} \approx 1.3 \times MOE_{95}&lt;/math&gt;
+
+== Specific margins of error ==
+
+If a poll has multiple percentage results (for example, a poll measuring a single multiple-choice preference), the result closest to 50% will have the highest margin of error. Typically, it is this number that is reported as the margin of error for the entire poll. Imagine poll &lt;math&gt;P&lt;/math&gt; reports &lt;math&gt;p_{a},p_{b},p_{c}&lt;/math&gt; as &lt;math&gt;71%, 27%, 2%, n=1013&lt;/math&gt;
+
+:&lt;math&gt;MOE_{95}(P_{a}) = z_{0.95}\sigma_\overline{p_{a}} \approx 1.96\sqrt{\frac{p_{a}(1-p_{a})}{n}} = 0.89/\sqrt{n}=\plusmn2.8%&lt;/math&gt;
+
+:&lt;math&gt;MOE_{95}(P_{b}) = z_{0.95}\sigma_\overline{p_{b}} \approx 1.96\sqrt{\frac{p_{b}(1-p_{b})}{n}} = 0.87/\sqrt{n}=\plusmn2.7%&lt;/math&gt;
+
+:&lt;math&gt;MOE_{95}(P_{c}) = z_{0.95}\sigma_\overline{p_{c}} \approx 1.96\sqrt{\frac{p_{c}(1-p_{c})}{n}} = 0.27/\sqrt{n}=\plusmn0.8%&lt;/math&gt;
+
+As a given percentage approaches the extremes of 0% or 100%, its margin of error approaches ±0%.
+
+== Comparing percentages ==
+Imagine multiple-choice poll &lt;math&gt;P&lt;/math&gt; reports &lt;math&gt;p_{a},p_{b},p_{c}&lt;/math&gt; as &lt;math&gt;46%, 42%, 12%, n=1013&lt;/math&gt;. As described above, the margin of error reported for the poll would typically be &lt;math&gt;MOE_{95}(P_{a})&lt;/math&gt;, as &lt;math&gt;p_{a}&lt;/math&gt;is closest to 50%. The popular notion of ''statistical tie'' or ''statistical dead heat,'' however, concerns itself not with the accuracy of the individual results, but with that of the ''ranking'' of the results. Which is in first?
+
+If, hypothetically, we were to conduct poll &lt;math&gt;P&lt;/math&gt; over subsequent samples of &lt;math&gt;n&lt;/math&gt; respondents (newly drawn from &lt;math&gt;N&lt;/math&gt;), and report result &lt;math&gt;p_{w} = p_{a} - p_{b}&lt;/math&gt;, we could use the ''standard error of difference'' to understand how &lt;math&gt; p_{w_{1}},p_{w_{2}},p_{w_{3}},\ldots&lt;/math&gt; is expected to fall about &lt;math&gt; \overline{p_w}&lt;/math&gt;.  For this, we need to apply the ''sum of variances'' to obtain a new variance, &lt;math&gt; \sigma_{P_{w}}^2
+&lt;/math&gt;, 
+
+:&lt;math&gt; \sigma_{P_{w}}^2=\sigma_{P_{a}- P_{b}}^2 = \sigma_{P_{a}}^2 + \sigma_{P_{b}}^2-2\sigma_{P_{a},P_{b}} = p_{a}(1-p_{a}) + p_{b}(1-p_{b}) + 2p_{a}p_{b}
+&lt;/math&gt;
+
+where &lt;math&gt;\sigma_{P_{a},P_{b}} = -P_{a}P_{b}&lt;/math&gt; is the [[covariance]] of &lt;math&gt;P_{a}&lt;/math&gt;and &lt;math&gt;P_{b}&lt;/math&gt;. 
+
+Thus (after simplifying),
+
+:&lt;math&gt; \text{Standard error of difference} = \sigma_{\overline{w}} \approx \sqrt{\frac{\sigma_{P_{w}}^2}{n}} = \sqrt{\frac{p_{a}+p_{b}-(p_{a}-p_{b})^2}{n}} = 0.02, P_{w}=P_{a}-P_{b}&lt;/math&gt;
+
+:&lt;math&gt; MOE_{95}(P_{a}) = z_{0.95}\sigma_{\overline{p_{a}}} \approx \plusmn{3.1%}&lt;/math&gt;
+
+:&lt;math&gt; MOE_{95}(P_{w}) = z_{0.95}\sigma_{\overline{w}} \approx \plusmn{5.8%}&lt;/math&gt;
+
+Note that this assumes that &lt;math&gt;P_{c}&lt;/math&gt; is close to constant, that is, respondents choosing either A or B would almost never chose C (making &lt;math&gt;P_{a}&lt;/math&gt;and &lt;math&gt;P_{b}&lt;/math&gt; close to ''perfectly negatively correlated''). With three or more choices in closer contention, choosing a correct formula for &lt;math&gt; \sigma_{P_{w}}^2&lt;/math&gt; becomes more complicated.
+
+== Effect of finite population size ==
+The formulae above for the margin of error assume that there is an infinitely large [[Statistical population|population]] and thus do not depend on the size of population &lt;math&gt;N&lt;/math&gt;, but only on the sample size &lt;math&gt;n&lt;/math&gt;. According to [[Sampling (statistics)|sampling theory]], this assumption is reasonable when the [[sampling fraction]] is small. The margin of error for a particular sampling method is essentially the same regardless of whether the population of interest is the size of a school, city, state, or country, as long as the sampling ''fraction'' is small.
+
+In cases where the sampling fraction is larger (in practice, greater than 5%), analysts might adjust the margin of error using a [[finite population correction]] to account for the added precision gained by sampling a much larger percentage of the population. FPC can be calculated using the formula&lt;ref&gt;{{cite journal|last=Isserlis|first=L.|year=1918|title=On the value of a mean as calculated from a sample|url=https://zenodo.org/record/1449486|journal=Journal of the Royal Statistical Society|publisher=Blackwell Publishing|volume=81|issue=1|pages=75–81|doi=10.2307/2340569|jstor=2340569}} (Equation 1)&lt;/ref&gt;
+
+:&lt;math&gt;\operatorname{FPC} = \sqrt{\frac{N-n}{N-1}}&lt;/math&gt;
+
+...and so if poll &lt;math&gt;P&lt;/math&gt; were conducted over 24% of, say, an electorate of 300,000 voters
+:&lt;math&gt;MOE_{95}(0.5) = z_{0.95}\sigma_\overline{p} \approx \frac{0.98}{\sqrt{72,000}}=\plusmn0.4%&lt;/math&gt;
+:&lt;math&gt;MOE_{95_{FPC}}(0.5) = z_{0.95}\sigma_\overline{p}\sqrt{\frac{N-n}{N-1}}\approx \frac{0.98}{\sqrt{72,000}}\sqrt{\frac{300,000-72,000}{300,000-1}}=\plusmn0.3%&lt;/math&gt;
+
+Intuitively, for appropriately large &lt;math&gt;N&lt;/math&gt;,
+
+:&lt;math&gt;\lim_{n \to 0} \sqrt{\frac{N-n}{N-1}}\approx 1&lt;/math&gt;
+:&lt;math&gt;\lim_{n \to N} \sqrt{\frac{N-n}{N-1}} = 0&lt;/math&gt;
+
+In the former case, &lt;math&gt;n&lt;/math&gt; is so small as to require no correction. In the latter case, the poll effectively becomes a census and sampling error becomes moot.
+
+== See also ==
+* [[Engineering tolerance]]
+* [[Key relevance]]
+* [[Measurement uncertainty]]
+* [[Observational error]]
+* [[Random error]]
+
+== Notes ==
+{{Reflist|2}}
+
+== References ==
+* Sudman, Seymour and Bradburn, Norman (1982). ''Asking Questions: A Practical Guide to Questionnaire Design''. San Francisco: Jossey Bass. {{ISBN|0-87589-546-8}}
+* {{cite book|title=Introductory Statistics| edition=5th| author=Wonnacott, T.H. and R.J. Wonnacott| publisher=Wiley| year=1990| isbn=0-471-61518-8}}
+
+== External links ==
+{{wikibooks}}
+* {{springer|title=Errors, theory of|id=p/e036240}}
+* {{mathworld | urlname = MarginofError | title = Margin of Error}}
+
+{{DEFAULTSORT:Margin Of Error}}
+[[Category:Statistical deviation and dispersion]]
+[[Category:Error]]
+[[Category:Measurement]]
+[[Category:Sampling (statistics)]]</text>
+      <sha1>kc4rfbhj0llrgyxdthaak4puww46hxu</sha1>
+    </revision>
+  </page>
+</mediawiki>

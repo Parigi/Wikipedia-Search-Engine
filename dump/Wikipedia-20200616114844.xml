@@ -1,0 +1,223 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.10/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.10/ http://www.mediawiki.org/xml/export-0.10.xsd" version="0.10" xml:lang="en">
+  <siteinfo>
+    <sitename>Wikipedia</sitename>
+    <dbname>enwiki</dbname>
+    <base>https://en.wikipedia.org/wiki/Main_Page</base>
+    <generator>MediaWiki 1.35.0-wmf.36</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Media</namespace>
+      <namespace key="-1" case="first-letter">Special</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Talk</namespace>
+      <namespace key="2" case="first-letter">User</namespace>
+      <namespace key="3" case="first-letter">User talk</namespace>
+      <namespace key="4" case="first-letter">Wikipedia</namespace>
+      <namespace key="5" case="first-letter">Wikipedia talk</namespace>
+      <namespace key="6" case="first-letter">File</namespace>
+      <namespace key="7" case="first-letter">File talk</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki talk</namespace>
+      <namespace key="10" case="first-letter">Template</namespace>
+      <namespace key="11" case="first-letter">Template talk</namespace>
+      <namespace key="12" case="first-letter">Help</namespace>
+      <namespace key="13" case="first-letter">Help talk</namespace>
+      <namespace key="14" case="first-letter">Category</namespace>
+      <namespace key="15" case="first-letter">Category talk</namespace>
+      <namespace key="100" case="first-letter">Portal</namespace>
+      <namespace key="101" case="first-letter">Portal talk</namespace>
+      <namespace key="108" case="first-letter">Book</namespace>
+      <namespace key="109" case="first-letter">Book talk</namespace>
+      <namespace key="118" case="first-letter">Draft</namespace>
+      <namespace key="119" case="first-letter">Draft talk</namespace>
+      <namespace key="446" case="first-letter">Education Program</namespace>
+      <namespace key="447" case="first-letter">Education Program talk</namespace>
+      <namespace key="710" case="first-letter">TimedText</namespace>
+      <namespace key="711" case="first-letter">TimedText talk</namespace>
+      <namespace key="828" case="first-letter">Module</namespace>
+      <namespace key="829" case="first-letter">Module talk</namespace>
+      <namespace key="2300" case="first-letter">Gadget</namespace>
+      <namespace key="2301" case="first-letter">Gadget talk</namespace>
+      <namespace key="2302" case="case-sensitive">Gadget definition</namespace>
+      <namespace key="2303" case="case-sensitive">Gadget definition talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Precision tests of QED</title>
+    <ns>0</ns>
+    <id>9269065</id>
+    <revision>
+      <id>961677467</id>
+      <parentid>961674792</parentid>
+      <timestamp>2020-06-09T20:25:26Z</timestamp>
+      <contributor>
+        <username>ArnoldReinhold</username>
+        <id>84951</id>
+      </contributor>
+      <comment>Adding [[Wikipedia:Short description|short description]]: "Verifying quantum electrodynamics via multiple measurements of the fine-structure constant" ([[Wikipedia:Shortdesc helper|Shortdesc helper]])</comment>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="16003" xml:space="preserve">{{short description|Verifying quantum electrodynamics via multiple measurements of the fine-structure constant}}
+'''[[Quantum electrodynamics]]''' ('''QED'''), a relativistic quantum field theory of electrodynamics, is among the most stringently tested theories in [[physics]]. Famously taught by [[Richard Feynman]], it has been described as a theory with a level of elegance that is characteristic of one that represents a fundamental truth.
+
+The most precise and specific tests of QED consist of measurements of the electromagnetic [[fine-structure constant]], ''α'', in various physical systems.  Checking the consistency of such measurements tests the theory.
+
+Tests of a theory are normally carried out by comparing experimental results to theoretical predictions.  In QED, there is some subtlety in this comparison, because theoretical predictions require as input an extremely precise value of ''α'', which can only be obtained from another precision QED experiment.  Because of this, the comparisons between theory and experiment are usually quoted as independent determinations of ''α''.  QED is then confirmed to the extent that these measurements of ''α'' from different physical sources agree with each other.
+
+The agreement found this way is to within ten parts in a billion (10&lt;sup&gt;−8&lt;/sup&gt;), based on the comparison of the [[electron]] [[anomalous magnetic dipole moment]] and the [[Rydberg constant]] from atom recoil measurements as described below. This makes QED one of the most accurate physical theories constructed thus far.
+
+Besides these independent measurements of the fine-structure constant, many other predictions of QED have been tested as well.
+
+==Measurements of the fine-structure constant using different systems==
+
+Precision tests of QED have been performed in low-energy [[atomic physics]] experiments, high-energy [[collider]] experiments, and [[condensed matter]] systems.  The value of ''α'' is obtained in each of these experiments by fitting an experimental measurement to a theoretical expression (including higher-order [[renormalization|radiative corrections]]) that includes ''α'' as a parameter.  The uncertainty in the extracted value of ''α'' includes both experimental and theoretical uncertainties.  This program thus requires both high-precision measurements and high-precision theoretical calculations.  Unless noted otherwise, all results below are taken from.&lt;ref&gt;M.E. Peskin and D.V. Schroeder, ''An Introduction to Quantum Field Theory'' (Westview, 1995), p. 198.&lt;/ref&gt;
+
+===Low-energy measurements===
+
+====Anomalous magnetic dipole moments====
+
+The most precise measurement of ''α'' comes from the [[anomalous magnetic dipole moment]], or [[g-factor (physics)|''g'']]−2 ("g minus 2"){{clarify|this terminology is out of the blue; why should a ''g''-factor minus 2 be of interest? why isn't the significance of this established?|date=April 2017}}, of the [[electron]].&lt;ref&gt;''In Search of Alpha'', New Scientist, 9 September 2006, p.&amp;nbsp;40–43.&lt;/ref&gt;  To make this measurement, two ingredients are needed:
+# A precise measurement of the anomalous magnetic dipole moment, and
+# A precise theoretical calculation of the anomalous magnetic dipole moment in terms of ''α''.
+
+As of February 2007, the best measurement of the anomalous magnetic dipole moment of the electron was made by the group of [[Gerald Gabrielse]] at [[Harvard University]], using a single electron caught in a [[Penning trap]].&lt;ref&gt;B. Odom, D. Hanneke, B. D'Urso, and G. Gabrielse, ''New Measurement of the Electron Magnetic Moment Using a One-Electron Quantum Cyclotron,'' Phys. Rev. Lett. 97, 030801 (2006).&lt;/ref&gt; The difference between the electron's cyclotron frequency and its spin precession frequency in a magnetic field is proportional to ''g''−2.  An extremely high precision measurement of the quantized energies of the cyclotron orbits, or ''[[Landau level]]s'', of the electron, compared to the quantized energies of the electron's two possible [[Spin (physics)|spin]] orientations, gives a value for the electron's spin [[g-factor (physics)|''g''-factor]]:
+
+: ''g''/2 = {{val|1.00115965218085|(76)}},
+
+a precision of better than one part in a trillion.  (The digits in parentheses indicate the [[standard uncertainty]] in the last listed digits of the measurement.)
+
+The current state-of-the-art theoretical calculation of the anomalous magnetic dipole moment of the electron includes QED diagrams with up to four loops.  Combining this with the experimental measurement of ''g'' yields the most precise value of ''α'':&lt;ref&gt;G. Gabrielse, D. Hanneke, T. Kinoshita, M. Nio, and B. Odom, ''New Determination of the Fine Structure Constant from the Electron g Value and QED,'' Phys. Rev. Lett. 97, 030802 (2006), Erratum, Phys. Rev. Lett. 99, 039902 (2007).&lt;/ref&gt;
+
+: ''α''&lt;sup&gt;−1&lt;/sup&gt; = {{val|137.035999070|(98)}},
+
+a precision of better than a part in a billion.  This uncertainty is ten times smaller than the nearest rival method involving atom-recoil measurements.
+
+A value of ''α'' can also be extracted from the anomalous magnetic dipole moment of the [[muon]].  The ''g''-factor of the muon is extracted using the same physical principle as for the electron above – namely, that the difference between the cyclotron frequency and the spin precession frequency in a magnetic field is proportional to ''g''−2.  The most precise measurement comes from [[Brookhaven National Laboratory]]'s muon g−2 experiment,&lt;ref&gt;Pictorial overview of the Brookhaven muon ''g''−2 experiment, [http://www.g-2.bnl.gov/physics/index.html].&lt;/ref&gt; in which polarized muons are stored in a cyclotron and their spin orientation is measured by the direction of their decay electrons.  As of February 2007, the current world average muon ''g''-factor measurement is,&lt;ref&gt;Muon g−2 experiment homepage, [http://www.g-2.bnl.gov/].&lt;/ref&gt;
+
+: ''g''/2 = {{val|1.0011659208|(6)}},
+
+a precision of better than one part in a billion.  The difference between the ''g''-factors of the muon and the electron is due to their difference in mass.  Because of the muon's larger mass, contributions to the theoretical calculation of its anomalous magnetic dipole moment from [[Standard Model]] [[weak interactions]] and from contributions involving [[hadrons]] are important at the current level of precision, whereas these effects are not important for the electron.  The muon's anomalous magnetic dipole moment is also sensitive to contributions from new physics [[beyond the Standard Model]], such as [[supersymmetry]].  For this reason, the muon's anomalous magnetic moment is normally used as a probe for new physics beyond the Standard Model rather than as a test of QED.&lt;ref&gt;K. Hagiwara, [[Alan Martin (physicist)|A.D. Martin]], Daisuke Nomura, and T. Teubner, ''Improved predictions for g−2 of the muon and α&lt;sub&gt;QED&lt;/sub&gt;(M&lt;sub&gt;Z&lt;/sub&gt;&lt;sup&gt;2&lt;/sup&gt;)'', Phys.Lett. B649, 173 (2007), [https://arxiv.org/abs/hep-ph/0611102 hep-ph/0611102].&lt;/ref&gt; 
+''See'' [[muon g-2|muon ''g''–2]] for current efforts to refine the measurement.
+
+====Atom-recoil measurements====
+This is an indirect method of measuring ''α'', based on measurements of the masses of the electron, certain atoms, and the [[Rydberg constant]].  The Rydberg constant is known to seven parts in a trillion.  The mass of the electron relative to that of [[caesium]] and [[rubidium]] atoms is also known with extremely high precision.  If the mass of the electron can be measured with sufficiently high precision, then ''α'' can be found from the Rydberg constant according to
+
+:&lt;math&gt;R_\infty = \frac{\alpha^2 m_\text{e} c}{4 \pi \hbar}.&lt;/math&gt;
+
+To get the mass of the electron, this method actually measures the mass of an &lt;sup&gt;87&lt;/sup&gt;[[Rubidium|Rb]] atom by measuring the recoil speed of the atom after it emits a photon of known wavelength in an atomic transition.  Combining this with the ratio of electron to &lt;sup&gt;87&lt;/sup&gt;Rb atom, the result for ''α'' is,&lt;ref&gt;Pierre Cladé, Estefania de Mirandes, Malo Cadoret, Saïda Guellati-Khélifa, Catherine Schwob, François Nez, Lucile Julien, and François Biraben, ''Determination of the Fine Structure Constant Based on Bloch Oscillations of Ultracold Atoms in a Vertical Optical Lattice,'' Phys. Rev. Lett. 96, 033001 (2006).&lt;/ref&gt;
+
+: ''α''&lt;sup&gt;−1&lt;/sup&gt; = 137.035 998 78 (91).
+
+Because this measurement is the next-most-precise after the measurement of ''α'' from the electron's anomalous magnetic dipole moment described above, their comparison provides the most stringent test of QED, which is passed with flying colors: the value of ''α'' obtained here is within one standard deviation of that found from the electron's anomalous magnetic dipole moment, an agreement to within ten parts in a billion.
+
+====Neutron Compton wavelength====
+
+This method of measuring ''α'' is very similar in principle to the atom-recoil method.  In this case, the accurately known mass ratio of the electron to the [[neutron]] is used.  The neutron mass is measured with high precision through a very precise measurement of its [[Compton wavelength]].  This is then combined with the value of the Rydberg constant to extract ''α''.  The result is,
+
+: ''α''&lt;sup&gt;−1&lt;/sup&gt; = 137.036 010 1 (5 4).
+
+====Hyperfine splitting====
+
+[[Hyperfine splitting]] is a splitting in the energy levels of an [[atom]] caused by the interaction between the [[magnetic moment]] of the [[atomic nucleus|nucleus]] and the combined [[spin (physics)|spin]] and orbital magnetic moment of the electron.  The hyperfine splitting in [[hydrogen]], measured using [[Norman Ramsey|Ramsey]]'s hydrogen [[maser]], is known with great precision.  Unfortunately, the influence of the [[proton]]'s internal structure limits how precisely the splitting can be predicted theoretically.  This leads to the extracted value of ''α'' being dominated by theoretical uncertainty:
+
+: ''α''&lt;sup&gt;−1&lt;/sup&gt; = 137.036 0 (3).
+
+The hyperfine splitting in [[muonium]], an "atom" consisting of an electron and an antimuon, provides a more precise measurement of ''α'' because the muon has no internal structure:
+
+: ''α''&lt;sup&gt;−1&lt;/sup&gt; = 137.035 994 (18).
+
+====Lamb shift====
+
+The [[Lamb shift]] is a small difference in the energies of the 2 S&lt;sub&gt;1/2&lt;/sub&gt; and 2 P&lt;sub&gt;1/2&lt;/sub&gt; [[Hydrogen atom|energy levels of hydrogen]], which arises from a one-loop effect in quantum electrodynamics.  The Lamb shift is proportional to ''α''&lt;sup&gt;5&lt;/sup&gt; and its measurement yields the extracted value:
+
+: ''α''&lt;sup&gt;−1&lt;/sup&gt; = 137.036 8 (7).
+
+====Positronium====
+
+[[Positronium]] is an "atom" consisting of an electron and a [[positron]].  Whereas the calculation of the energy levels of ordinary hydrogen is contaminated by theoretical uncertainties from the proton's internal structure, the particles that make up positronium have no internal structure so precise theoretical calculations can be performed.  The measurement of the splitting between the 2&amp;nbsp;&lt;sup&gt;3&lt;/sup&gt;S&lt;sub&gt;1&lt;/sub&gt; and the 1&amp;nbsp;&lt;sup&gt;3&lt;/sup&gt;S&lt;sub&gt;1&lt;/sub&gt; energy levels of positronium yields
+
+: ''α''&lt;sup&gt;−1&lt;/sup&gt; = 137.034 (16).
+
+Measurements of ''α'' can also be extracted from the positronium decay rate.  Positronium decays through the annihilation of the electron and the positron into two or more [[gamma-ray]] photons.  The decay rate of the singlet ("para-positronium") &lt;sup&gt;1&lt;/sup&gt;S&lt;sub&gt;0&lt;/sub&gt; state yields
+
+: ''α''&lt;sup&gt;−1&lt;/sup&gt; = 137.00 (6),
+
+and the decay rate of the triplet ("ortho-positronium") &lt;sup&gt;3&lt;/sup&gt;S&lt;sub&gt;1&lt;/sub&gt; state yields
+
+: ''α''&lt;sup&gt;−1&lt;/sup&gt; = 136.971 (6).
+
+This last result is the only serious discrepancy among the numbers given here, but there is some evidence that uncalculated higher-order quantum corrections give a large correction to the value quoted here.
+
+===High-energy QED processes===
+
+The [[Cross section (physics)|cross sections]] of higher-order QED reactions at high-energy electron-positron colliders provide a determination of ''α''.  In order to compare the extracted value of ''α'' with the low-energy results, higher-order QED effects including the running of ''α'' due to [[vacuum polarization]] must be taken into account.  These experiments typically achieve only percent-level accuracy, but their results are consistent with the precise measurements available at lower energies.
+
+The cross section for &lt;math&gt;e^+e^- \to e^+e^-e^+e^-&lt;/math&gt; yields
+
+: ''α''&lt;sup&gt;−1&lt;/sup&gt; = 136.5 (2.7),
+
+and the cross section for
+&lt;math&gt;e^+e^- \to e^+e^- \mu ^+\mu ^-&lt;/math&gt; yields
+
+: ''α''&lt;sup&gt;−1&lt;/sup&gt; = 139.9 (1.2).
+
+===Condensed matter systems===
+
+{{Expert needed|physics|date=November 2008}}
+
+The [[quantum Hall effect]] and the [[Alternating current|AC]] [[Josephson effect]] are exotic quantum interference phenomena in condensed matter systems.  These two effects provide a standard [[electrical resistance]] and a standard [[frequency]], respectively, which are believed{{Citation needed|date=February 2007}} to measure the charge of the electron with corrections that are strictly zero for macroscopic systems.
+
+The quantum Hall effect yields
+
+: ''α''&lt;sup&gt;−1&lt;/sup&gt; = 137.035 997 9 (3 2),
+
+and the AC Josephson effect yields
+
+: ''α''&lt;sup&gt;−1&lt;/sup&gt; = 137.035 977 0 (7 7).
+
+==Other tests==
+*QED predicts that the [[photon]] is a [[massless particle]]. A variety of highly sensitive tests have proven that the photon mass is either zero, or else extraordinarily small. One type of these tests, for example, works by checking [[Coulomb's law]] at high accuracy, as the photon's mass would be nonzero if Coulomb's law were modified. See the article [[Photon#Experimental checks on photon mass]].
+*QED predicts that when electrons get very close to each other, they behave as if they had a higher electric charge, due to [[vacuum polarization]]. This prediction was experimentally verified in 1997 using the [[TRISTAN]] particle accelerator in Japan.&lt;ref&gt;{{cite journal
+ | last=Levine | first=I. |author2=TOPAZ Collaboration
+ | title=Measurement of the Electromagnetic Coupling at Large Momentum Transfer
+ | journal=Physical Review Letters | year=1997
+ | volume=78 | pages=424–427
+ | doi=10.1103/PhysRevLett.78.424 | bibcode=1997PhRvL..78..424L
+ | issue=3}}&lt;/ref&gt;
+*QED effects like [[vacuum polarization]] and [[self-energy]] influence the electrons bound to a nucleus in a heavy atom due to extreme electromagnetic fields. A recent experiment on the ground state hyperfine splitting in &lt;sup&gt;209&lt;/sup&gt;Bi&lt;sup&gt;80+&lt;/sup&gt; and &lt;sup&gt;209&lt;/sup&gt;Bi&lt;sup&gt;82+&lt;/sup&gt; ions revealed a deviation from the theory by more than 7 standard uncertainties.&lt;ref&gt;{{cite journal
+ | last=Ullmann | first=J. |author2=LIBELLE Collaboration
+ | title=High precision hyperfine measurements in Bismuth challenge bound-state strong-field QED
+ | journal=Nature Communications | year=2017
+ | volume=8 | pages=15484
+ | doi=10.1038/ncomms15484 
+ | pmid=28508892 | pmc=5440849 | bibcode=2017NatCo...815484U }}&lt;/ref&gt; Indications show that this deviation may originate from a wrong value of the [[Nuclear magnetic moment]] of &lt;sup&gt;209&lt;/sup&gt;Bi.&lt;ref&gt;{{cite journal
+ | last=Skripnikov | first=L. 
+ |display-authors=etal
+ | title=New Nuclear Magnetic Moment of Bi-209: Resolving the Bismuth Hyperfine Puzzle
+ | journal=Physical Review Letters | year=2018
+ | volume=120 | issue=9 | pages=093001
+ | doi=10.1103/PhysRevLett.120.093001
+ | pmid=29547322 | bibcode=2018PhRvL.120i3001S | arxiv=1803.02584 }}&lt;/ref&gt;
+
+==See also==
+*[[QED vacuum]]
+*[[Eötvös experiment]], another very high accuracy test, of gravitation
+
+==References==
+{{reflist}}
+
+==External links==
+*[http://pdg.lbl.gov/ Particle Data Group (PDG)]
+*[http://pdg.lbl.gov/2007/reviews/g-2_s004219.pdf PDG Review of the Muon Anomalous Magnetic Moment as of July 2007]
+*[http://pdg.lbl.gov/2007/listings/s003.pdf PDG 2007 Listing of particle properties for electron]
+*[http://pdg.lbl.gov/2007/listings/s004.pdf PDG 2007 Listing of particle properties for muon]
+
+{{QED}}
+
+[[Category:Quantum electrodynamics]]
+[[Category:Electrodynamics]]
+[[Category:Quantum field theory]]</text>
+      <sha1>dtgjacftgugtoptbhfd1yzkj3z2ptgg</sha1>
+    </revision>
+  </page>
+</mediawiki>

@@ -1,0 +1,204 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.10/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.10/ http://www.mediawiki.org/xml/export-0.10.xsd" version="0.10" xml:lang="en">
+  <siteinfo>
+    <sitename>Wikipedia</sitename>
+    <dbname>enwiki</dbname>
+    <base>https://en.wikipedia.org/wiki/Main_Page</base>
+    <generator>MediaWiki 1.35.0-wmf.36</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Media</namespace>
+      <namespace key="-1" case="first-letter">Special</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Talk</namespace>
+      <namespace key="2" case="first-letter">User</namespace>
+      <namespace key="3" case="first-letter">User talk</namespace>
+      <namespace key="4" case="first-letter">Wikipedia</namespace>
+      <namespace key="5" case="first-letter">Wikipedia talk</namespace>
+      <namespace key="6" case="first-letter">File</namespace>
+      <namespace key="7" case="first-letter">File talk</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki talk</namespace>
+      <namespace key="10" case="first-letter">Template</namespace>
+      <namespace key="11" case="first-letter">Template talk</namespace>
+      <namespace key="12" case="first-letter">Help</namespace>
+      <namespace key="13" case="first-letter">Help talk</namespace>
+      <namespace key="14" case="first-letter">Category</namespace>
+      <namespace key="15" case="first-letter">Category talk</namespace>
+      <namespace key="100" case="first-letter">Portal</namespace>
+      <namespace key="101" case="first-letter">Portal talk</namespace>
+      <namespace key="108" case="first-letter">Book</namespace>
+      <namespace key="109" case="first-letter">Book talk</namespace>
+      <namespace key="118" case="first-letter">Draft</namespace>
+      <namespace key="119" case="first-letter">Draft talk</namespace>
+      <namespace key="446" case="first-letter">Education Program</namespace>
+      <namespace key="447" case="first-letter">Education Program talk</namespace>
+      <namespace key="710" case="first-letter">TimedText</namespace>
+      <namespace key="711" case="first-letter">TimedText talk</namespace>
+      <namespace key="828" case="first-letter">Module</namespace>
+      <namespace key="829" case="first-letter">Module talk</namespace>
+      <namespace key="2300" case="first-letter">Gadget</namespace>
+      <namespace key="2301" case="first-letter">Gadget talk</namespace>
+      <namespace key="2302" case="case-sensitive">Gadget definition</namespace>
+      <namespace key="2303" case="case-sensitive">Gadget definition talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Power of a test</title>
+    <ns>0</ns>
+    <id>238695</id>
+    <revision>
+      <id>958429168</id>
+      <parentid>953862080</parentid>
+      <timestamp>2020-05-23T19:21:21Z</timestamp>
+      <contributor>
+        <username>Michaelboerman420</username>
+        <id>36413016</id>
+      </contributor>
+      <minor/>
+      <comment>/* Description */ commas</comment>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="23481" xml:space="preserve">{{More footnotes|date=January 2010}}
+The '''power''' of a binary [[hypothesis test]] is the probability that the test rejects the [[null hypothesis]] (&lt;math&gt;H_0&lt;/math&gt;) when a specific [[alternative hypothesis]] (&lt;math&gt;H_1&lt;/math&gt;) is true. The statistical power ranges from 0 to 1, and as statistical power increases, the probability of making a [[Type I and type II errors#Type II error|type&amp;nbsp;II error]] (wrongly failing to reject the null hypothesis) decreases.
+
+==Description==
+For a type&amp;nbsp;II error probability of {{mvar|β}}, the corresponding statistical power is 1&amp;nbsp;&amp;minus;&amp;nbsp;{{mvar|β}}. For example, if experiment E has a statistical power of 0.7, and experiment F has a statistical power of 0.95, then there is a stronger probability that experiment E had a type&amp;nbsp;II error than experiment F. This reduces experiment E's sensitivity to detect significant effects. However, experiment E is consequently more reliable than experiment F due to its lower probability of a type&amp;nbsp;I error. It can be equivalently thought of as the probability of accepting the alternative hypothesis (&lt;math&gt;H_1&lt;/math&gt;) when it is true — that is, the ability of a test to detect a specific effect, if that specific effect actually exists. Thus,
+
+:&lt;math&gt; \text{power} = \Pr \big( \text{reject } H_0 \mid H_1 \text{ is true} \big). &lt;/math&gt;
+
+If &lt;math&gt;H_1&lt;/math&gt; is not an equality but rather simply the negation of &lt;math&gt;H_0&lt;/math&gt; (so for example with &lt;math&gt;H_0:\mu=0&lt;/math&gt; for some unobserved population parameter &lt;math&gt;\mu,&lt;/math&gt; we have simply &lt;math&gt;H_1:\mu \ne 0&lt;/math&gt;) then power cannot be calculated unless probabilities are known for all possible values of the parameter that violate the null hypothesis. Thus one generally refers to a test's power ''against a specific alternative hypothesis''.
+
+As the power increases, there is a decreasing probability of a type&amp;nbsp;II error, also called the [[Type I and type II errors#False negative rate|''false negative rate'']] ({{mvar|β}}) since the power is equal to 1&amp;nbsp;&amp;minus;&amp;nbsp;{{mvar|β}}. A similar concept is the [[type I error]] probability, also referred to as the ''false positive rate'' or the level of a test under the null hypothesis.
+
+Power analysis can be used to calculate the minimum [[sample size]] required so that one can be reasonably likely to detect an effect of a given [[effect size|size]]. For example: "How many times do I need to toss a coin to conclude it is rigged by a certain amount?"&lt;ref&gt;{{cite web |url=https://www.statisticsdonewrong.com/power.html |title=Statistical power and underpowered statistics — Statistics Done Wrong |website=www.statisticsdonewrong.com |accessdate=30 September 2019}}&lt;/ref&gt; Power analysis can also be used to calculate the minimum effect size that is likely to be detected in a study using a given sample size. In addition, the concept of power is used to make comparisons between different statistical testing procedures: for example, between a [[Parametric statistics|parametric test]] and a [[nonparametric test]] of the same hypothesis.
+
+In the context of [[binary classification]], the power of a test is called its [[Sensitivity and specificity|''statistical sensitivity'']], its ''true positive rate'', or its ''probability of detection''.
+
+==Background==
+[[Statistical test]]s use data from [[Sampling (statistics)|sample]]s to assess, or make [[statistical inference|inferences]] about, a [[statistical population]]. In the concrete setting of a two-sample comparison, the goal is to assess whether the mean values of some attribute obtained for individuals in two sub-populations differ. For example, to test the null hypothesis that the [[mean]] [[Score (statistics)|score]]s of men and women on a test do not differ, samples of men and women are drawn, the test is administered to them, and the mean score of one group is compared to that of the other group using a statistical test such as the two-sample [[Z-test|''z''-test]]. The power of the test is the probability that the test will find a statistically significant difference between men and women, as a function of the size of the true difference between those two populations.
+
+==Factors influencing power==
+Statistical power may depend on a number of factors. Some factors may be particular to a specific testing situation, but at a minimum, power nearly always depends on the following three factors:
+
+* the [[statistical significance]] criterion used in the test
+* the magnitude of the effect of interest in the population
+* the [[sample size]] used to detect the effect
+
+A '''significance criterion''' is a statement of how unlikely a positive result must be, if the null hypothesis of no effect is true, for the null hypothesis to be rejected. The most commonly used criteria are probabilities of 0.05 (5%, 1 in 20), 0.01 (1%, 1 in 100), and 0.001 (0.1%, 1 in 1000). If the criterion is 0.05, the probability of the data implying an effect at least as large as the observed effect when the null hypothesis is true must be less than 0.05, for the null hypothesis of no effect to be rejected. One easy way to increase the power of a test is to carry out a less conservative test by using a larger significance criterion, for example 0.10 instead of 0.05&amp;nbsp;. This increases the chance of rejecting the null hypothesis (i.e. obtaining a statistically significant result) when the null hypothesis is false; that is, it reduces the risk of a [[Type I and type II errors|type&amp;nbsp;II error]] (false negative regarding whether an effect exists). But it also increases the risk of obtaining a statistically significant result (i.e. rejecting the null hypothesis) when the null hypothesis is not false; that is, it increases the risk of a [[Type I and type II errors|type&amp;nbsp;I error]] (false positive).
+
+The '''magnitude of the effect''' of interest in the population can be quantified in terms of an [[effect size]], where there is greater power to detect larger effects. An effect size can be a direct value of the quantity of interest, or it can be a standardized measure that also accounts for the variability in the population. For example, in an analysis comparing outcomes in a treated and control population, the difference of outcome means &lt;math&gt;\bar{Y} - \bar{X}&lt;/math&gt; would be a direct estimate of the effect size, whereas  &lt;math&gt;(\bar{Y} - \bar{X})/\sigma&lt;/math&gt;  would be an estimated standardized effect size, where  &lt;math&gt;\sigma&lt;/math&gt; is the common standard deviation of the outcomes in the treated and control groups. If constructed appropriately, a standardized effect size, along with the sample size, will completely determine the power. An unstandardized (direct) effect size is rarely sufficient to determine the power, as it does not contain information about the variability in the measurements.
+
+The '''sample size''' determines the amount of [[sampling error]] inherent in a test result. Other things being equal, effects are harder to detect in smaller samples. Increasing sample size is often the easiest way to boost the statistical power of a test. How increased sample size translates to higher power is a measure of the [[efficiency (statistics)|efficiency]] of the test — for example, the sample size required for a given power.&lt;ref name=Everitt2002&gt;{{cite book |title=The Cambridge Dictionary of Statistics |last=Everitt |first=Brian S. |year=2002 |publisher=Cambridge University Press |isbn=0-521-81099-X |page=321}}&lt;/ref&gt;
+
+The precision with which the data are measured also influences statistical power. Consequently, power can often be improved by reducing the measurement error in the data. A related concept is to improve the "reliability" of the measure being assessed (as in [[Reliability (psychometric)|psychometric reliability]]).
+
+The [[design of experiments|design]] of an experiment or observational study often influences the power. For example, in a two-sample testing situation with a given total sample size {{mvar|n}}, it is optimal to have equal numbers of observations from the two populations being compared (as long as the variances in the two populations are the same). In regression analysis and [[analysis of variance]], there are extensive theories and practical strategies for improving the power based on optimally setting the values of the independent variables in the model.
+
+==Interpretation==
+Although there are no formal standards for power (sometimes referred to as {{pi}} {{Citation needed|date=December 2019}}), most researchers assess the power of their tests using {{pi}}&amp;nbsp;=&amp;nbsp;0.80 as a standard for adequacy. This convention implies a four-to-one trade off between {{mvar|β}}-risk and {{mvar|α}}-risk. ({{mvar|β}} is the probability of a type&amp;nbsp;II error, and α is the probability of a type&amp;nbsp;I error; 0.2 and 0.05 are conventional values for {{mvar|β}} and {{mvar|α}}). However, there will be times when this 4-to-1 weighting is inappropriate. In medicine, for example, tests are often designed in such a way that no false negatives (type&amp;nbsp;II errors) will be produced. But this inevitably raises the risk of obtaining a false positive (a type&amp;nbsp;I error). The rationale is that it is better to tell a healthy patient "we may have found something—let's test further," than to tell a diseased patient "all is well."&lt;ref&gt;{{cite book |author=Ellis, Paul D. |title=The Essential Guide to Effect Sizes: An Introduction to Statistical Power, Meta-Analysis and the Interpretation of Research Results |publisher=Cambridge University Press |location=United Kingdom |year=2010}}&lt;/ref&gt;
+
+Power analysis is appropriate when the concern is with the correct rejection of a false null hypothesis. In many contexts, the issue is less about determining if there is or is not a difference but rather with getting a more refined [[estimation theory|estimate]] of the population effect size. For example, if we were expecting a population [[Pearson product-moment correlation coefficient|correlation]] between intelligence and job performance of around 0.50, a sample size of 20 will give us approximately 80% power ({{mvar|α}}&amp;nbsp;=&amp;nbsp;0.05, two-tail) to reject the null hypothesis of zero correlation. However, in doing this study we are probably more interested in knowing whether the correlation is 0.30 or 0.60 or 0.50&amp;nbsp;. In this context we would need a much larger sample size in order to reduce the confidence interval of our estimate to a range that is acceptable for our purposes. Techniques similar to those employed in a traditional power analysis can be used to determine the sample size required for the width of a confidence interval to be less than a given value.
+
+Many statistical analyses involve the estimation of several unknown quantities. In simple cases, all but one of these quantities are [[nuisance parameter]]s. In this setting, the only relevant power pertains to the single quantity that will undergo formal statistical inference. In some settings, particularly if the goals are more "exploratory", there may be a number of quantities of interest in the analysis. For example, in a multiple [[regression analysis]] we may include several covariates of potential interest. In situations such as this where several hypotheses are under consideration, it is common that the powers associated with the different hypotheses differ. For instance, in multiple regression analysis, the power for detecting an effect of a given size is related to the variance of the covariate. Since different covariates will have different variances, their powers will differ as well.
+
+Any statistical analysis involving [[multiple comparisons|multiple hypotheses]] is subject to inflation of the type&amp;nbsp;I error rate if appropriate measures are not taken. Such measures typically involve applying a higher threshold of stringency to reject a hypothesis in order to compensate for the multiple comparisons being made (''e.g.'' as in the [[Bonferroni method]]). In this situation, the power analysis should reflect the multiple testing approach to be used. Thus, for example, a given study may be well powered to detect a certain effect size when only one test is to be made, but the same effect size may have much lower power if several tests are to be performed.
+
+It is also important to consider the statistical power of a hypothesis test when interpreting its results. A test's power is the probability of correctly rejecting the null hypothesis when it is false; a test's power is influenced by the choice of significance level for the test, the size of the effect being measured, and the amount of data available. A hypothesis test may fail to reject the null, for example, if a true difference exists between two populations being compared by a [[Student's t-test|t-test]] but the effect is small and the sample size is too small to distinguish the effect from random chance.&lt;ref&gt;{{cite book |title=The Essential Guide to Effect Sizes: Statistical Power, Meta-Analysis, and the Interpretation of Research Results |last=Ellis |first=Paul |year=2010 |isbn=978-0521142465 |publisher=Cambridge University Press |page=52}}&lt;/ref&gt; Many [[clinical trial]]s, for instance, have low statistical power to detect differences in [[adverse effect]]s of treatments, since such effects may be rare and the number of affected patients small.&lt;ref&gt;{{cite journal |last1=Tsang |first1=R. |last2=Colley |first2=L. |last3=Lynd |first3=L.D. |doi=10.1016/j.jclinepi.2008.08.005 |title=Inadequate statistical power to detect clinically significant differences in adverse event rates in randomized controlled trials |journal=Journal of Clinical Epidemiology |volume=62 |issue=6 |pages=609–616 |year=2009 |pmid=19013761}}&lt;/ref&gt;
+
+==''A priori'' vs. ''post hoc'' analysis==
+{{further|Post hoc analysis}}
+Power analysis can either be done before (''a priori'' or prospective power analysis) or after (''post hoc'' or retrospective power analysis) data are collected. ''A priori'' power analysis is conducted prior to the research study, and is typically used in [[estimating sample sizes|estimating sufficient sample sizes]] to achieve adequate power. ''Post-hoc'' analysis of "observed power" is conducted after a study has been completed, and uses the obtained sample size and effect size to determine what the power was in the study, assuming the effect size in the sample is equal to the effect size in the population. Whereas the utility of prospective power analysis in experimental design is universally accepted, post hoc power analysis is fundamentally flawed.&lt;ref name=HH1/&gt;&lt;ref&gt;{{cite journal |author=Thomas, L. |year=1997 |url=http://eprints.st-andrews.ac.uk/archive/00000417/01/ThomasCB1997.pdf |title=Retrospective power analysis |journal=[[Conservation Biology (journal)|Conservation Biology]] |volume=11 |issue=1 |pages=276–280}}&lt;/ref&gt; Falling for the temptation to use the statistical analysis of the collected data to estimate the power will result in uninformative and misleading values. In particular, it has been shown that ''post-hoc'' "observed power" is a one-to-one function of the [[P-value|''p''-value]] attained.&lt;ref name=HH1&gt;{{cite journal |last=Hoenig |last2=Heisey |year=2001 |title=The Abuse of Power |journal=[[The American Statistician (journal)|The American Statistician]] |volume=55 |issue=1 |pages=19–24 |doi=10.1198/000313001300339897 }}&lt;/ref&gt; This has been extended to show that all ''post-hoc'' power analyses suffer from what is called the "power approach paradox" (PAP), in which a study with a null result is thought to show ''more'' evidence that the null hypothesis is actually true when the ''p''-value is smaller, since the apparent power to detect an actual effect would be higher.&lt;ref name=HH1/&gt; In fact, a smaller ''p''-value is properly understood to make the null hypothesis ''relatively'' less likely to be true.{{Citation needed|date=May 2016}}
+
+==Application==
+Funding agencies, ethics boards and research review panels frequently request that a researcher perform a power analysis, for example to determine the minimum number of animal test subjects needed for an experiment to be informative. In [[frequentist statistics]], an underpowered study is unlikely to allow one to choose between hypotheses at the desired significance level. In [[Bayesian statistics]], hypothesis testing of the type used in classical power analysis is not done. In the Bayesian framework, one updates his or her prior beliefs using the data obtained in a given study. In principle, a study that would be deemed underpowered from the perspective of hypothesis testing could still be used in such an updating process. However, power remains a useful measure of how much a given experiment size can be expected to refine one's beliefs. A study with low power is unlikely to lead to a large change in beliefs.
+
+==Example==
+The following is an example that shows how to compute power for a randomized experiment: Suppose the goal of an experiment is to study the effect of a treatment on some quantity, and compare research subjects by measuring the quantity before and after the treatment, analyzing the data using a paired [[t-test]]. Let &lt;math&gt;A_i&lt;/math&gt; and &lt;math&gt;B_i&lt;/math&gt; denote the pre-treatment and post-treatment measures on subject &lt;math&gt;i&lt;/math&gt;, respectively. The possible effect of the treatment should be visible in the differences &lt;math&gt;D_i = B_i-A_i,&lt;/math&gt; which are assumed to be independently distributed, all with the same expected mean value and variance.
+
+The effect of the treatment can be analyzed using a one-sided t-test. The null hypothesis of no effect will be that the mean difference will be zero, i.e. &lt;math&gt;H_0: \mu_D = 0.&lt;/math&gt; In this case, the alternative hypothesis states a positive effect, corresponding to &lt;math&gt;H_1: \mu_D &gt; 0.&lt;/math&gt; The [[test statistic]] is:
+
+:&lt;math&gt;T_n=\frac{\bar{D}_n-0}{\hat{\sigma}_D/\sqrt{n}},&lt;/math&gt;
+
+where
+
+:&lt;math&gt;\bar{D}_n=\frac{1}{n}\sum_{i=1}^n D_i,&lt;/math&gt;
+
+{{mvar|n}} is the sample size and &lt;math&gt;\hat{\sigma}_D/\sqrt{n}&lt;/math&gt; is the standard error. The test statistic under the null hypothesis follows a [[Student t-distribution]] with the additional assumption that the data is identically distributed &lt;math&gt; N(\mu_D, \sigma_D^2) &lt;/math&gt;. Furthermore, assume that the null hypothesis will be rejected at the [[significance level]] of &lt;math&gt;\alpha = 0.05\,.&lt;/math&gt; Since {{mvar|n}} is large, one can approximate the t-distribution by a normal distribution and calculate the [[critical value]] using the [[quantile function]] &lt;math&gt;\Phi^{-1}&lt;/math&gt;, the inverse of the [[cumulative distribution function]] of the normal distribution. It turns out that the null hypothesis will be rejected if
+
+:&lt;math&gt;T_n &gt; 1.64\,.&lt;/math&gt;
+
+Now suppose that the alternative hypothesis is true and &lt;math&gt;\mu_D = \theta&lt;/math&gt;. Then, the power is
+
+:&lt;math&gt;\begin{align}
+B(\theta) &amp;= \Pr \left( T_n &gt; 1.64 ~\big|~ \mu_D = \theta \right) \\
+&amp;= \Pr \left( \frac{\bar{D}_n-0}{\hat{\sigma}_D/\sqrt{n} } &gt; 1.64 ~\Big|~ \mu_D = \theta \right) \\
+&amp;= \Pr\left( \frac{\bar{D}_n-\theta + \theta}{\hat{\sigma}_D/\sqrt{n}} &gt; 1.64  ~\Big|~ \mu_D = \theta \right)\\
+&amp;= \Pr \left( \frac{\bar{D}_n - \theta}{\hat{\sigma}_D/\sqrt{n}} &gt; 1.64 - \frac{\theta}{\hat{\sigma}_D/\sqrt{n}} ~\Big|~ \mu_D=\theta \right)\\
+&amp;= 1 - \Pr\left( \frac{\bar{D}_n-\theta}{\hat{\sigma}_D/\sqrt{n}} &lt; 1.64 - \frac \theta {\hat{\sigma}_D/\sqrt{n}} ~\Big|~ \mu_D=\theta \right)\\
+\end{align}&lt;/math&gt;
+
+For large {{mvar|n}}, &lt;math&gt;\frac{\bar{D}_n - \theta}{\hat{\sigma}_D/\sqrt{n}}&lt;/math&gt; approximately follows a standard [[normal distribution]] when the alternative hypothesis is true, the approximate power can be calculated as
+
+: &lt;math&gt;B(\theta) \approx 1 - \Phi \left( 1.64 - \frac{\theta}{\hat{\sigma}_D/\sqrt{n}} \right). &lt;/math&gt;
+
+According to this formula, the power increases with the values of the parameter &lt;math&gt;\theta.&lt;/math&gt; For a specific value of &lt;math&gt;\theta&lt;/math&gt; a higher power may be obtained by increasing the sample size {{mvar|n}}.
+
+It is not possible to guarantee a sufficient large power for all values of &lt;math&gt;\theta,&lt;/math&gt; as &lt;math&gt;\theta&lt;/math&gt; may be very close to 0. The minimum ([[infimum]]) value of the power is equal to the confidence level of the test, &lt;math&gt;\alpha,&lt;/math&gt; in this example 0.05&amp;nbsp;. However, it is of no importance to distinguish between &lt;math&gt;\theta = 0&lt;/math&gt; and small positive values. If it is desirable to have enough power, say at least 0.90, to detect values of &lt;math&gt;\theta &gt; 1,&lt;/math&gt; the required sample size can be calculated approximately:
+
+:&lt;math&gt; B(1) \approx 1 - \Phi \left (1.64-\frac{\sqrt{n}}{\hat{\sigma}_D}\right) &gt;0.90, &lt;/math&gt;
+
+from which it follows that
+
+:&lt;math&gt;\Phi \left( 1.64 - \frac{\sqrt{n}}{\hat{\sigma}_D} \right) &lt; 0.10\,.&lt;/math&gt;
+
+Hence, using the quantile function
+
+:&lt;math&gt;\frac{\sqrt{n}}{\hat{\sigma}_D} &gt; 1.64 - z_{0.10} = 1.64 + 1.28 \approx 2.92 \qquad \text{or} \qquad n &gt; 8.56 \hat{\sigma}_D^2,&lt;/math&gt;
+
+where &lt;math&gt;z_{0.10}&lt;/math&gt; is a standard normal quantile; refer to the [[Probit]] article for an explanation of the relationship between &lt;math&gt;\Phi&lt;/math&gt; and z-values.
+
+== Extension ==
+=== Bayesian power ===
+In the [[frequentist]] setting, parameters are assumed to have a specific value which is unlikely to be true. This issue can be addressed by assuming the parameter has a distribution. The resulting power is sometimes referred to as Bayesian power which is commonly used in [[clinical trial]] design.
+
+=== Predictive probability of success ===
+Both [[frequentist]] power and Bayesian power use statistical significance as the success criterion. However, statistical significance is often not enough to define success. To address this issue, the power concept can be extended to the concept of [[predictive probability of success]] (PPOS). The success criterion for PPOS is not restricted to statistical significance and is commonly used in [[clinical trial]] designs.
+
+==Software for power and sample size calculations==
+Numerous free and/or open source programs are available for performing power and sample size calculations. These include	 
+* G*Power (http://www.gpower.hhu.de/)
+* WebPower Free online statistical power analysis (http://webpower.psychstat.org)
+* Free and open source online calculators (http://powerandsamplesize.com)
+* PowerUp! provides convenient excel-based functions to determine minimum detectable effect size and minimum required sample size for various experimental and quasi-experimental designs.
+* PowerUpR is R package version of PowerUp! and additionally includes functions to determine sample size for various multilevel randomized experiments with or without budgetary constraints.
+* R package pwr
+* R package WebPower
+* Python package statsmodels (http://www.statsmodels.org/)
+
+==See also==
+{{Portal|Mathematics}}
+*[[Cohen's h]]
+*[[Effect size]]
+*[[Efficiency (statistics)|Efficiency]]
+*[[Neyman–Pearson lemma]]
+*[[Sample size]]
+*[[Uniformly most powerful test]]
+
+==References==
+{{reflist|25em}}
+
+==Sources==
+*{{cite book |authorlink=Jacob Cohen (statistician) |last=Cohen |first=J. |title=Statistical Power Analysis for the Behavioral Sciences |edition=2nd |year=1988 |isbn=0-8058-0283-5 }}
+*{{cite book |last=Aberson |first=C.L. |title=Applied Power Analysis for the Behavioral Science |year=2010 |isbn=1-84872-835-2 }}
+
+==External links==
+* {{YouTube|UFhJefdVCjE|StatQuest: P-value pitfalls and power calculations}}
+
+{{Statistics|inference}}
+
+{{DEFAULTSORT:Statistical Power}}
+[[Category:Statistical hypothesis testing]]</text>
+      <sha1>px7diuj3rkm4nim1ycsfka74zwyszox</sha1>
+    </revision>
+  </page>
+</mediawiki>

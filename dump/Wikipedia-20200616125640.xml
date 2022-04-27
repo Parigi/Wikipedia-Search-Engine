@@ -1,0 +1,313 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.10/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.10/ http://www.mediawiki.org/xml/export-0.10.xsd" version="0.10" xml:lang="en">
+  <siteinfo>
+    <sitename>Wikipedia</sitename>
+    <dbname>enwiki</dbname>
+    <base>https://en.wikipedia.org/wiki/Main_Page</base>
+    <generator>MediaWiki 1.35.0-wmf.36</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Media</namespace>
+      <namespace key="-1" case="first-letter">Special</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Talk</namespace>
+      <namespace key="2" case="first-letter">User</namespace>
+      <namespace key="3" case="first-letter">User talk</namespace>
+      <namespace key="4" case="first-letter">Wikipedia</namespace>
+      <namespace key="5" case="first-letter">Wikipedia talk</namespace>
+      <namespace key="6" case="first-letter">File</namespace>
+      <namespace key="7" case="first-letter">File talk</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki talk</namespace>
+      <namespace key="10" case="first-letter">Template</namespace>
+      <namespace key="11" case="first-letter">Template talk</namespace>
+      <namespace key="12" case="first-letter">Help</namespace>
+      <namespace key="13" case="first-letter">Help talk</namespace>
+      <namespace key="14" case="first-letter">Category</namespace>
+      <namespace key="15" case="first-letter">Category talk</namespace>
+      <namespace key="100" case="first-letter">Portal</namespace>
+      <namespace key="101" case="first-letter">Portal talk</namespace>
+      <namespace key="108" case="first-letter">Book</namespace>
+      <namespace key="109" case="first-letter">Book talk</namespace>
+      <namespace key="118" case="first-letter">Draft</namespace>
+      <namespace key="119" case="first-letter">Draft talk</namespace>
+      <namespace key="446" case="first-letter">Education Program</namespace>
+      <namespace key="447" case="first-letter">Education Program talk</namespace>
+      <namespace key="710" case="first-letter">TimedText</namespace>
+      <namespace key="711" case="first-letter">TimedText talk</namespace>
+      <namespace key="828" case="first-letter">Module</namespace>
+      <namespace key="829" case="first-letter">Module talk</namespace>
+      <namespace key="2300" case="first-letter">Gadget</namespace>
+      <namespace key="2301" case="first-letter">Gadget talk</namespace>
+      <namespace key="2302" case="case-sensitive">Gadget definition</namespace>
+      <namespace key="2303" case="case-sensitive">Gadget definition talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Pooled variance</title>
+    <ns>0</ns>
+    <id>10910481</id>
+    <revision>
+      <id>953883248</id>
+      <parentid>928548228</parentid>
+      <timestamp>2020-04-29T15:17:31Z</timestamp>
+      <contributor>
+        <username>Nnescio</username>
+        <id>12634958</id>
+      </contributor>
+      <comment>/* Effect on precision */Removed wrong empty section</comment>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="13391" xml:space="preserve">{{More citations needed|date=July 2019}}
+In [[statistics]], '''pooled variance''' (also known as '''combined variance''', '''composite variance''', or '''overall variance''', and written &lt;math&gt;\sigma^2&lt;/math&gt;) is a method for [[estimation theory|estimating]] [[variance]] of several different populations when the mean of each population  may be different, but one may assume that the variance of each population is the same. The numerical estimate resulting from the use of this method is also called the pooled variance.
+
+Under the assumption of equal population variances, the pooled sample variance provides a higher [[precision (statistics)|precision]] estimate of variance than the individual sample variances. This higher precision can lead to increased [[statistical power]] when used in [[statistical test]]s  that compare the populations, such as the [[t-test]].
+
+The square root of a pooled variance estimator is known as a '''pooled standard deviation''' (also known as '''combined standard deviation''', '''composite standard deviation''', or '''overall standard deviation''').
+
+== Motivation ==
+In [[statistics]], many times, data are collected for a [[statistical independence|dependent variable]], ''y'', over a range of values for the [[statistical independence|independent variable]], ''x''. For example, the observation of fuel consumption might be studied as a function of engine speed while the engine load is held constant. If, in order to achieve a small [[variance]] in ''y'', numerous repeated tests are required at each value of ''x'', the expense of testing may become prohibitive. Reasonable estimates of variance can be determined by using the principle of '''pooled variance''' after repeating each [[Statistical hypothesis testing|test]] at a particular ''x'' only a few times.
+
+==Definition and computation==
+===Definition===
+
+The pooled variance is an estimate of the fixed common variance &lt;math&gt;\sigma ^2&lt;/math&gt; underlying various populations that have different means.
+
+===Computation===
+
+If the populations are indexed &lt;math&gt;i = 1, \ldots, k&lt;/math&gt;, then the pooled variance &lt;math&gt;s^2_p&lt;/math&gt; can be computed by the [[weighted average]]
+
+:&lt;math&gt;s_p^2=\frac{\sum_{i=1}^k (n_i - 1)s_i^2}{\sum_{i=1}^k(n_i - 1)} = \frac{(n_1 - 1)s_1^2+(n_2 - 1)s_2^2+\cdots+(n_k - 1)s_k^2}{n_1+n_2+\cdots+n_k - k},&lt;/math&gt;
+
+where &lt;math&gt;n_i&lt;/math&gt; is the [[sample size]] of population &lt;math&gt;i&lt;/math&gt; and the [[sample variance]]s are
+
+:&lt;math&gt;s^2_i&lt;/math&gt; = &lt;math&gt;\frac{1}{n_i-1} \sum_{j=1}^{n_i} \left(y_j - \overline{y_i} \right)^2 &lt;/math&gt;.
+
+Use of &lt;math&gt;(n_i-1)&lt;/math&gt; weighting factors instead of &lt;math&gt;n_i&lt;/math&gt; comes from [[Bessel's correction]]. 
+
+=== Variants ===
+
+The unbiased least squares estimate of &lt;math&gt;\sigma^2,&lt;/math&gt;
+
+:&lt;math&gt;s_p^2=\frac{\sum_{i=1}^k (n_i - 1)s_i^2}{\sum_{i=1}^k (n_i - 1)},&lt;/math&gt;
+
+and the biased maximum likelihood estimate
+
+:&lt;math&gt;s_p^2=\frac{\sum_{i=1}^k (n_i - 1)s_i^2}{\sum_{i=1}^k n_i },&lt;/math&gt;
+
+are used in different contexts.{{Citation needed|date=November 2010}} The former can give an unbiased &lt;math&gt;s_p^2&lt;/math&gt; to estimate &lt;math&gt;\sigma^2&lt;/math&gt; when the two groups share an equal population variance. The latter one can give a more [[Efficiency (statistics)|efficient]] &lt;math&gt;s_p^2&lt;/math&gt; to estimate &lt;math&gt;\sigma^2&lt;/math&gt; biasedly. Note that the quantities &lt;math&gt;s_i^2&lt;/math&gt; in the right hand sides of both equations are the unbiased estimates.
+
+==Example==
+
+Consider the following set of data for ''y'' obtained at various levels of the independent variable&amp;nbsp;''x''.
+
+{| border="1" cellspacing="0" cellpadding="5" align="center"
+! ''x''
+! ''y''
+|-
+| 1
+| 31, 30, 29
+|-
+| 2
+| 42, 41, 40, 39
+|-
+| 3
+| 31, 28
+|-
+| 4
+| 23, 22, 21, 19, 18
+|-
+| 5
+| 21, 20, 19, 18,17
+|}
+
+The number of trials, mean, variance and standard deviation are presented in the next table.
+{| border="1" cellspacing="0" cellpadding="5" align="center"
+! ''x''
+! ''n''
+! ''y''&lt;sub&gt;mean&lt;/sub&gt;
+! ''s''&lt;sub&gt;''i''&lt;/sub&gt;&lt;sup&gt;2&lt;/sup&gt;
+! ''s''&lt;sub&gt;''i''&lt;/sub&gt;
+|-
+| 1
+| 3
+| 30.0
+| 1.0
+| 1.0
+|-
+| 2
+| 4
+| 40.5
+| 1.67
+| 1.29
+|-
+| 3
+| 2
+| 29.5
+| 4.5
+| 2.12
+|-
+| 4
+| 5
+| 20.6
+| 4.3
+| 2.07
+|-
+| 5
+| 5
+| 19.0
+| 2.5
+| 1.58
+|}
+
+These statistics represent the variance and [[standard deviation]] for each subset of data at the various levels of ''x''. If we can assume that the same phenomena are generating [[random error]] at every level of ''x'', the above data can be “pooled” to express a single estimate of variance and standard deviation. In a sense, this suggests finding a [[mean]] variance or standard deviation among the five results above. This mean variance is calculated by weighting the individual values with the size of the subset for each level of ''x''. Thus, the pooled variance is defined by
+
+: &lt;math&gt;s_P^2 = \frac{(n_1-1)s_1^2+(n_2-1)s_2^2 + \cdots + (n_k - 1)s_k^2}{(n_1 - 1) + (n_2 - 1) + \cdots +(n_k - 1)}&lt;/math&gt;
+
+where ''n''&lt;sub&gt;1&lt;/sub&gt;, ''n''&lt;sub&gt;2&lt;/sub&gt;, . . ., ''n''&lt;sub&gt;''k''&lt;/sub&gt; are the sizes of the data subsets at each level of the variable ''x'', and ''s''&lt;sub&gt;1&lt;/sub&gt;&lt;sup&gt;2&lt;/sup&gt;, ''s''&lt;sub&gt;2&lt;/sub&gt;&lt;sup&gt;2&lt;/sup&gt;, . . ., ''s''&lt;sub&gt;''k''&lt;/sub&gt;&lt;sup&gt;2&lt;/sup&gt; are their respective variances.
+
+The pooled variance of the data shown above is therefore:
+
+: &lt;math&gt;s_p^2 = 2.764 \, &lt;/math&gt;
+
+==Effect on precision==
+
+Pooled variance is an estimate when there is a correlation between pooled data sets or the average of the data sets is not identical. Pooled variation is less precise the more non-zero the correlation or distant the averages between data sets.
+
+The variation of data for non-overlapping data sets is:
+
+:&lt;math&gt;\begin{align}
+ \sigma_X^2 &amp;=\frac{ \left( \sum_i { \left[(N_{X_i} - 1) \sigma_{X_i}^2 + N_{X_i} \mu_{X_i}^2\right] } - \left[\sum_i {N_{X_i}}\right]\mu_X^2 \right)}{\sum_i {N_{X_i} - 1}}
+\end{align}&lt;/math&gt;
+Where the mean is defined as:
+:&lt;math&gt;\begin{align}
+    \mu_X &amp;= \frac{\left(\sum_i { N_{X_i} \mu_{X_i}}\right)}{\sum_i { N_{X_i}}}
+\end{align}&lt;/math&gt;
+
+Given a biased maximum likelihood defined as:
+
+:&lt;math&gt;s_p^2=\frac{\sum_{i=1}^k (n_i - 1)s_i^2}{\sum_{i=1}^k n_i },&lt;/math&gt;
+
+Then the error in the biased maximum likelihood estimate is:
+
+:&lt;math&gt;\begin{align}
+Error = s_p^2 - \sigma_X^2 \\[3pt]
+
+=\frac{\sum_i (N_{X_i} - 1)s_i^2}{\sum_i N_{X_i} } - \frac{1}{\sum_i {N_{X_i} - 1}} \left( \sum_i { \left[(N_{X_i} - 1) \sigma_{X_i}^2 + N_{X_i} \mu_{X_i}^2\right] } - \left[\sum_i {N_{X_i}}\right]\mu_X^2 \right)
+\end{align}&lt;/math&gt;
+
+Assuming N is large such that:
+
+:&lt;math&gt;\begin{align}
+\sum_i N_{X_i} \approx \sum_i {N_{X_i} - 1}
+\end{align}&lt;/math&gt;
+
+Then the error in the estimate reduces to:
+
+:&lt;math&gt;\begin{align}
+E =- \frac{\left( \sum_i { \left[N_{X_i} \mu_{X_i}^2\right] } - \left[\sum_i {N_{X_i}}\right]\mu_X^2 \right)}{\sum_i N_{X_i}}\\[3pt]
+=\mu_X^2 - \frac{\sum_i { \left[N_{X_i} \mu_{X_i}^2\right]  }}{\sum_i N_{X_i}}\\[3pt]
+\end{align}&lt;/math&gt;
+Or alternatively:
+:&lt;math&gt;\begin{align}
+E=\left[ \frac{\sum_i { N_{X_i} \mu_{X_i}}}{\sum_i { N_{X_i}}} \right]^2 - \frac{\sum_i { \left[N_{X_i} \mu_{X_i}^2\right]  }}{\sum_i N_{X_i}}\\[3pt]
+=\frac{\left[\sum_i { N_{X_i} \mu_{X_i}}\right]^2 
+ -  \sum_i N_{X_i} \sum_i { \left[N_{X_i} \mu_{X_i}^2\right]  }
+}{\left[\sum_i N_{X_i}\right]^2}
+\end{align}&lt;/math&gt;
+
+==Aggregation of standard deviation data==
+{{Unreferenced section|date=June 2011}}
+{{cleanup merge|Standard deviation|date=August 2016}}
+Rather than estimating pooled standard deviation the following is the way to exactly aggregate standard deviation when more statistical information is available.
+
+===Population-based statistics===
+The populations of sets, which may overlap, can be calculated simply as follows:
+:&lt;math&gt;\begin{align}
+                                       &amp;&amp;N_{X \cup Y} &amp;= N_X + N_Y - N_{X \cap Y}\\
+\end{align}&lt;/math&gt;
+The populations of sets, which do not overlap, can be calculated simply as follows:
+:&lt;math&gt;\begin{align}
+ X \cap Y = \varnothing &amp;\Rightarrow &amp;N_{X \cap Y} &amp;= 0\\
+                           &amp;\Rightarrow &amp;N_{X \cup Y} &amp;= N_X + N_Y
+\end{align}&lt;/math&gt;
+
+Standard deviations of non-overlapping ({{nowrap|''X'' ∩ ''Y'' {{=}} ∅}}) sub-populations can be aggregated as follows if the size (actual or relative to one another) and means of each are known:
+: &lt;math&gt;\begin{align}
+   \mu_{X \cup Y}   &amp;= \frac{ N_X \mu_X + N_Y \mu_Y }{N_X + N_Y} \\[3pt]
+   \sigma_{X\cup Y} &amp;= \sqrt{ \frac{N_X \sigma_X^2 + N_Y \sigma_Y^2}{N_X + N_Y} + \frac{N_X N_Y}{(N_X+N_Y)^2}(\mu_X - \mu_Y)^2 }
+  \end{align}&lt;/math&gt;
+
+For example, suppose it is known that the average American man has a mean height of 70&amp;nbsp;inches with a standard deviation of three inches and that the average American woman has a mean height of 65&amp;nbsp;inches with a standard deviation of two inches. Also assume that the number of men, ''N'', is equal to the number of women. Then the mean and standard deviation of heights of American adults could be calculated as
+: &lt;math&gt;\begin{align}
+    \mu    &amp;= \frac{N\cdot70 + N\cdot65}{N + N} = \frac{70+65}{2} = 67.5 \\[3pt]
+    \sigma &amp;= \sqrt{ \frac{3^2 + 2^2}{2} + \frac{(70-65)^2}{2^2} } = \sqrt{12.75} \approx 3.57
+  \end{align}&lt;/math&gt;
+
+For the more general case of ''M'' non-overlapping populations, ''X''&lt;sub&gt;1&lt;/sub&gt; through ''X''&lt;sub&gt;''M''&lt;/sub&gt;, and the aggregate population &lt;math&gt;\scriptstyle X \,=\, \bigcup_i X_i&lt;/math&gt;,
+: &lt;math&gt;\begin{align}
+    \mu_X    &amp;= \frac{ \sum_i N_{X_i}\mu_{X_i} }{ \sum_i N_{X_i} } \\[3pt]
+    \sigma_X &amp;= \sqrt{ \frac{ \sum_i N_{X_i}\sigma_{X_i}^2 }{ \sum_i N_{X_i} } + \frac{ \sum_{i&lt;j} N_{X_i}N_{X_j} (\mu_{X_i}-\mu_{X_j})^2 }{\big(\sum_i N_{X_i}\big)^2} }
+  \end{align}&lt;/math&gt;,
+where
+: &lt;math&gt;
+    X_i \cap X_j = \varnothing, \quad \forall\ i&lt;j.
+  &lt;/math&gt;
+
+If the size (actual or relative to one another), mean, and standard deviation of two overlapping populations are known for the populations as well as their intersection, then the standard deviation of the overall population can still be calculated as follows:
+:&lt;math&gt;\begin{align}
+    \mu_{X \cup Y} &amp;= \frac{1}{N_{X \cup Y}}\left(N_X\mu_X + N_Y\mu_Y - N_{X \cap Y}\mu_{X \cap Y}\right)\\[3pt]
+ \sigma_{X \cup Y} &amp;= \sqrt{\frac{1}{N_{X \cup Y}}\left(N_X[\sigma_X^2 + \mu _X^2] + N_Y[\sigma_Y^2 + \mu _Y^2] - N_{X \cap Y}[\sigma_{X \cap Y}^2 + \mu _{X \cap Y}^2]\right) - \mu_{X\cup Y}^2}
+\end{align}&lt;/math&gt;
+
+If two or more sets of data are being added together datapoint by datapoint, the standard deviation of the result can be calculated if the standard deviation of each data set and the [[covariance]] between each pair of data sets is known:
+:&lt;math&gt;\sigma_X = \sqrt{\sum_i{\sigma_{X_i}^2} + 2\sum_{i,j}\operatorname{cov}(X_i,X_j)}&lt;/math&gt;
+
+For the special case where no correlation exists between any pair of data sets, then the relation reduces to the root sum of squares:
+:&lt;math&gt;\begin{align}
+             &amp;\operatorname{cov}(X_i, X_j) = 0,\quad \forall i&lt;j\\
+ \Rightarrow &amp;\;\sigma_X = \sqrt{\sum_i {\sigma_{X_i}^2}}.
+\end{align}&lt;/math&gt;
+
+===Sample-based statistics===
+Standard deviations of non-overlapping ({{nowrap|''X'' ∩ ''Y'' {{=}} ∅}}) sub-samples can be aggregated as follows if the actual size and means of each are known:
+:&lt;math&gt;\begin{align}
+    \mu_{X \cup Y} &amp;= \frac{1}{N_{X \cup Y}}\left(N_X\mu_X + N_Y\mu_Y\right)\\[3pt]
+ \sigma_{X \cup Y} &amp;= \sqrt{\frac{1}{N_{X \cup Y} - 1}\left([N_X - 1]\sigma_X^2 + N_X\mu_X^2 + [N_Y - 1]\sigma_Y^2 + N_Y\mu _Y^2 - [N_X + N_Y]\mu_{X \cup Y}^2\right) }
+\end{align}&lt;/math&gt;
+
+For the more general case of ''M'' non-overlapping data sets, ''X''&lt;sub&gt;1&lt;/sub&gt; through ''X''&lt;sub&gt;''M''&lt;/sub&gt;, and the aggregate data set &lt;math&gt;\scriptstyle X \,=\, \bigcup_i X_i&lt;/math&gt;,
+:&lt;math&gt;\begin{align}
+    \mu_X &amp;= \frac{1}{\sum_i { N_{X_i}}} \left(\sum_i { N_{X_i} \mu_{X_i}}\right)\\[3pt]
+ \sigma_X &amp;= \sqrt{\frac{1}{\sum_i {N_{X_i} - 1}} \left( \sum_i { \left[(N_{X_i} - 1) \sigma_{X_i}^2 + N_{X_i} \mu_{X_i}^2\right] } - \left[\sum_i {N_{X_i}}\right]\mu_X^2 \right) }
+\end{align}&lt;/math&gt;
+
+where
+:&lt;math&gt;X_i \cap X_j = \varnothing,\quad \forall i&lt;j.&lt;/math&gt;
+
+If the size, mean, and standard deviation of two overlapping samples are known for the samples as well as their intersection, then the standard deviation of the aggregated sample can still be calculated. In general,
+:&lt;math&gt;\begin{align}
+    \mu_{X \cup Y} &amp;= \frac{1}{N_{X \cup Y}}\left(N_X\mu_X + N_Y\mu_Y - N_{X\cap Y}\mu_{X\cap Y}\right)\\[3pt]
+ \sigma_{X \cup Y} &amp;= \sqrt{  \frac{[N_X - 1]\sigma_X^2 + N_X\mu_X^2 + [N_Y - 1]\sigma_Y^2 + N_Y\mu _Y^2 - [N_{X \cap Y}-1]\sigma_{X \cap Y}^2 - N_{X \cap Y}\mu_{X \cap Y}^2 - [N_X + N_Y - N_{X \cap Y}]\mu_{X \cup Y}^2}{N_{X \cup Y} - 1} }
+\end{align}&lt;/math&gt;
+
+==See also==
+* Used for calculating [[Effect size#Cohen.27s_d|Cohen's ''d'' (effect size)]]
+* [[Pooled covariance matrix]]
+* [[Pooled degree of freedom]]
+* [[Pooled mean]]
+
+==References==
+*{{cite journal |author=Killeen PR |title=An alternative to null-hypothesis significance tests |journal=Psychol Sci |volume=16 |issue=5 |pages=345–53 |date=May 2005 |pmid=15869691 |pmc=1473027 |doi=10.1111/j.0956-7976.2005.01538.x }}
+==External links==
+* [http://goldbook.iupac.org/P04758.html IUPAC Gold Book - pooled standard deviation]
+* [https://web.archive.org/web/20020624174749/http://www.isixsigma.com/dictionary/Pooled_Standard_Deviation-295.htm]
+* [http://web.psych.utoronto.ca/~psy379/Stats%20PPT.pdf &amp;ndash; also referring to Cohen's ''d'' (on page 6)]
+
+
+{{DEFAULTSORT:Pooled Variance}}
+[[Category:Analysis of variance]]
+[[Category:Statistical deviation and dispersion]]</text>
+      <sha1>l5ot4x8dsa2ro4roopu7ron826rqzwk</sha1>
+    </revision>
+  </page>
+</mediawiki>

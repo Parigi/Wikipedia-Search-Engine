@@ -1,0 +1,304 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.10/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.10/ http://www.mediawiki.org/xml/export-0.10.xsd" version="0.10" xml:lang="en">
+  <siteinfo>
+    <sitename>Wikipedia</sitename>
+    <dbname>enwiki</dbname>
+    <base>https://en.wikipedia.org/wiki/Main_Page</base>
+    <generator>MediaWiki 1.35.0-wmf.36</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Media</namespace>
+      <namespace key="-1" case="first-letter">Special</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Talk</namespace>
+      <namespace key="2" case="first-letter">User</namespace>
+      <namespace key="3" case="first-letter">User talk</namespace>
+      <namespace key="4" case="first-letter">Wikipedia</namespace>
+      <namespace key="5" case="first-letter">Wikipedia talk</namespace>
+      <namespace key="6" case="first-letter">File</namespace>
+      <namespace key="7" case="first-letter">File talk</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki talk</namespace>
+      <namespace key="10" case="first-letter">Template</namespace>
+      <namespace key="11" case="first-letter">Template talk</namespace>
+      <namespace key="12" case="first-letter">Help</namespace>
+      <namespace key="13" case="first-letter">Help talk</namespace>
+      <namespace key="14" case="first-letter">Category</namespace>
+      <namespace key="15" case="first-letter">Category talk</namespace>
+      <namespace key="100" case="first-letter">Portal</namespace>
+      <namespace key="101" case="first-letter">Portal talk</namespace>
+      <namespace key="108" case="first-letter">Book</namespace>
+      <namespace key="109" case="first-letter">Book talk</namespace>
+      <namespace key="118" case="first-letter">Draft</namespace>
+      <namespace key="119" case="first-letter">Draft talk</namespace>
+      <namespace key="446" case="first-letter">Education Program</namespace>
+      <namespace key="447" case="first-letter">Education Program talk</namespace>
+      <namespace key="710" case="first-letter">TimedText</namespace>
+      <namespace key="711" case="first-letter">TimedText talk</namespace>
+      <namespace key="828" case="first-letter">Module</namespace>
+      <namespace key="829" case="first-letter">Module talk</namespace>
+      <namespace key="2300" case="first-letter">Gadget</namespace>
+      <namespace key="2301" case="first-letter">Gadget talk</namespace>
+      <namespace key="2302" case="case-sensitive">Gadget definition</namespace>
+      <namespace key="2303" case="case-sensitive">Gadget definition talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Encapsulation (computer programming)</title>
+    <ns>0</ns>
+    <id>220919</id>
+    <revision>
+      <id>960201868</id>
+      <parentid>956133973</parentid>
+      <timestamp>2020-06-01T17:25:22Z</timestamp>
+      <contributor>
+        <username>Koustav biswas</username>
+        <id>39403375</id>
+      </contributor>
+      <comment>/* Information hiding */</comment>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="14533" xml:space="preserve">In [[object-oriented programming]] (OOP), '''encapsulation''' refers to the bundling of data with the methods that operate on that data, or the restricting of direct access to some of an object's components.&lt;ref name="Rogers01" /&gt; Encapsulation is used to hide the values or state of a structured data object inside a [[Class (computer programming)|class]], preventing unauthorized parties' direct access to them. Publicly accessible methods are generally provided in the class (so-called [[Mutator method|"getters" and "setters"]]) to access the values, and other client classes call these methods to retrieve and modify the values within the object.
+
+This mechanism is not unique to OOP. Implementations of [[abstract data types]], e.g., [[module (programming)|modules]], offer a similar form of encapsulation. The similarity has been explained by programming language theorists in terms of [[existential types]].&lt;ref&gt;{{harvnb|Pierce|2002|loc=§ 24.2 Data Abstraction with Existentials}}&lt;/ref&gt;
+
+== Meaning ==
+In [[programming languages|object-oriented programming languages]], and other related fields, &lt;!-- [[object-oriented programming language]]--&gt; &lt;!-- and related fields, like [[OODMBS]],--&gt; encapsulation refers to one of two related but distinct notions, and sometimes to the combination thereof:&lt;ref&gt;{{cite book |first=Michael Lee |last=Scott |title=Programming language pragmatics |edition= 2 |publisher=Morgan Kaufmann |year=2006 |isbn=978-0-12-633951-2 |page=481 |quote=Encapsulation mechanisms enable the programmer to group data and the subroutines that operate on them together in one place, and to hide irrelevant details from the users of an abstraction.}}&lt;/ref&gt;&lt;ref name="Dale"&gt;{{cite book |first=Nell B. |last=Dale |first2=Chip |last2=Weems |title=Programming and problem solving with Java |edition= 2nd |publisher=Jones &amp; Bartlett |year=2007 |isbn=978-0-7637-3402-2 |page=396}}&lt;/ref&gt;
+
+* A language mechanism for restricting direct access to some of the [[object (computer science)|object]]'s components.&lt;ref&gt;{{cite book |authorlink=John C. Mitchell |first=John C. |last=Mitchell |title=Concepts in programming languages |publisher=Cambridge University Press |year=2003 |isbn=978-0-521-78098-8 |page=522}}&lt;/ref&gt;&lt;ref name=Pierce&gt;{{cite book |last=Pierce |first=Benjamin |authorlink=Benjamin C. Pierce |title=Types and Programming Languages |publisher=MIT Press |year=2002 |isbn=978-0-262-16209-8 |page=266 |ref=harv|title-link=Types and Programming Languages }}&lt;/ref&gt;
+* A language construct that facilitates the bundling of data with the [[Method (computer programming)|method]]s &lt;!-- I object to the word method being used here because in lisp languages programmers cannot distinguish methods from normal functions at the [[call site]].  Behavior equivalent to methods may be implemented as normal functions. encapsulation is not dependent on implementation but on behavior--&gt; (or other functions) operating on that data.&lt;ref name=Rogers01&gt;{{cite web |first=Wm. Paul |last=Rogers |url=http://www.javaworld.com/javaworld/jw-05-2001/jw-0518-encapsulation.html?page=9 |title=Encapsulation is not information hiding |publisher=JavaWorld |date=18 May 2001}}&lt;/ref&gt;&lt;ref&gt;{{cite book |first=Thomas M. |last=Connolly |first2=Carolyn E. |last2=Begg |title=Database systems: a practical approach to design, implementation, and management |edition=  4th |publisher=Pearson Education |year=2005 |isbn=978-0-321-21025-8 |chapter=Ch. 25: Introduction to Object DMBS § Object-oriented concepts |page=814}}&lt;/ref&gt;
+
+Some programming language researchers and academics use the first meaning alone or in combination with the second as a distinguishing feature of [[object-oriented programming]], while some programming languages that provide [[Closure (computer programming)|lexical closures]] view encapsulation as a feature of the language [[orthogonal#Computer science|orthogonal]] to object orientation.
+
+The second definition is motivated by the fact that in many object-oriented languages, and other related fields,  the components are not hidden automatically and this can be overridden; thus, [[information hiding]] is defined as a separate notion by those who prefer the second definition.&lt;!-- this is based on all the refs given above, so no inline cite here--&gt;
+
+The features of encapsulation are supported using [[Class (computer programming)|classes]] in most object-oriented languages, although other alternatives also exist.
+
+=== Encapsulation and inheritance ===
+The authors of ''[[Design Patterns]]'' discuss the tension between [[Inheritance (object-oriented programming)|inheritance]] and encapsulation at length and state that in their experience, designers overuse inheritance. They claim that inheritance often breaks encapsulation, given that inheritance exposes a subclass to the details of its parent's implementation.&lt;ref name="GoF"&gt;{{cite book
+| last1            = Gamma
+| first1            = Erich
+| last2            = Helm
+| first2            = Richard
+| last3            = Johnson
+| first3            = Ralph
+| last4            = Vlissides
+| first4            = John
+| title            = Design Patterns
+| date            = 1994
+| publisher            = Addison-Wesley
+| isbn            = 978-0-201-63361-0| url-access            = registration
+| url            = https://archive.org/details/designpatternsel00gamm
+}}&lt;/ref&gt; As described by the [[Yo-yo problem]], overuse of inheritance and therefore encapsulation, can become too complicated and hard to debug. 
+
+== Information hiding == 
+{{Main|Information hiding}}
+Under the definition that encapsulation "can be used to hide data members and member functions", the internal representation of an [[object (computer science)|object]] is generally hidden from view outside of the object's definition. Typically, only the object's own methods can directly inspect or manipulate its fields. Hiding the internals of the object protects its integrity by preventing users from setting the internal data of the component into an invalid or inconsistent state. A supposed benefit of encapsulation is that it can reduce system complexity, and thus increase [[robustness (computer science)|robustness]], by allowing the developer to limit the interdependencies between software components.{{Citation needed|date=April 2014}}
+
+Some languages like [[Smalltalk]] and [[Ruby (programming language)|Ruby]] only allow access via object methods, but most others (e.g., [[C++]], [[C Sharp (programming lang delhi (programming language)|Delphi]] or [[Java (programming language)|Java]]) offer the programmer a degree of control over what is hidden, typically via keywords like &lt;code&gt;public&lt;/code&gt; and &lt;code&gt;private&lt;/code&gt;.&lt;ref name=Pierce/&gt; ISO C++ standard refers to &lt;code&gt;protected&lt;/code&gt;, &lt;code&gt;private&lt;/code&gt; and &lt;code&gt;public&lt;/code&gt; as "[[access specifiers]]" and that they do not "hide any information". Information hiding is accomplished by furnishing a compiled version of the source code that is interfaced via a header file.
+
+Almost always, there is a way to override such protection &amp;ndash; usually via [[Reflection (computer programming)|reflection]] API (Ruby, Java, C#, etc.), sometimes by mechanism like [[name mangling]] ([[Python (programming language)|Python]]), or special keyword usage like &lt;code&gt;friend&lt;/code&gt; in C++.
+
+=== Examples ===
+==== Restricting data fields ====
+Languages like [[C++]], [[C Sharp (programming language)|C#]], [[Java (programming language)|Java]], [[PHP]], [[Swift (programming language)|Swift]], and [[Delphi (programming language)|Delphi]] offer ways to restrict access to data fields.
+
+Below is an example in [[C Sharp (programming language)|C#]] that shows how access to a data field can be restricted through the use of a &lt;code&gt;private&lt;/code&gt; keyword:
+&lt;syntaxhighlight lang="csharp"&gt;
+class Program {
+	public class Account {
+		private decimal accountBalance = 500.00m;
+
+		public decimal CheckBalance() {
+			return accountBalance;
+		}
+	}
+
+	static void Main() {
+		Account myAccount = new Account();
+		decimal myBalance = myAccount.CheckBalance();
+
+		/* This Main method can check the balance via the public
+		* "CheckBalance" method provided by the "Account" class 
+		* but it cannot manipulate the value of "accountBalance" */
+	}
+}
+&lt;/syntaxhighlight&gt;
+
+Below is an example in [[Java (programming language)|Java]]:
+&lt;syntaxhighlight lang="java"&gt;
+
+public class Employee {
+    private BigDecimal salary = new BigDecimal(50000.00);
+    
+    public BigDecimal getSalary() {
+        return salary;
+    }
+
+    public static void main() {
+        Employee e = new Employee();
+        BigDecimal sal = e.getSalary();
+    }
+}
+&lt;/syntaxhighlight&gt;
+
+&lt;!--Below is an example in [[PHP]]:
+
+&lt;syntaxhighlight lang="php"&gt;
+class Account
+{
+    /**
+     * How much money is currently in the account
+     * @var float
+     */
+    private $accountBalance;
+
+    /**
+     * @param float $currentAccountBalance Initialize account to this dollar amount
+     */
+    public function __construct($currentAccountBalance)
+    {
+        $this-&gt;accountBalance = $currentAccountBalance;
+    }
+
+    /**
+     * Add money to account
+     * @param float $money Dollars to add to balance
+     * @return void
+     */
+    public function deposit($money)
+    {
+        $this-&gt;accountBalance += $money;
+    }
+
+    /**
+     * Remove money from account
+     * @param float $money Dollars to subtract from balance
+     * @throws Exception
+     * @return void
+     */
+    public function withdraw($money)
+    {
+        if ($this-&gt;accountBalance &lt; $money) {
+            throw new Exception('Cannot withdraw $' . $money . ' from account as it contains $' . $this-&gt;accountBalance);
+        }
+        $this-&gt;accountBalance -= $money;
+    }
+
+    /**
+     * Get current account balance, that takes all additions and subtractions into consideration.
+     * @return float
+     */
+    public function getAccountBalance() {
+        return $this-&gt;accountBalance;
+    }
+}
+
+// Create a new object from the Account class with a starting balance of $500.00
+$myAccount = new Account(500.00);
+
+// We have clearly defined methods for adding and subtracting money from the Account
+// If we didn't have a method for withdraw(), nothing would prevent us from withdrawing more money than was available in the account
+$myAccount-&gt;deposit(10.24);
+$myAccount-&gt;withdraw(4.45);
+
+// Get the current balance
+$accountBalance = $myAccount-&gt;getAccountBalance();
+echo 'My Account Balance: $' . $accountBalance; // 505.79
+
+// Our code forbids us from withdrawing more than we have
+$myAccount-&gt;withdraw(600.00); // Exception Message: Cannot withdraw $600 from account as it contains $505.79
+&lt;/syntaxhighlight&gt;
+
+Below is an example in [[Swift (programming language)|Swift]]. The &lt;code&gt;balance&lt;/code&gt; property cannot be accessed directly; a merchant can only check whether the requested amount is available for spending using the &lt;code&gt;isAvailable(_:)&lt;/code&gt; method.
+
+&lt;syntaxhighlight lang="swift"&gt;
+struct CreditCard {
+    
+    private var balance: Double
+    
+    init(withBalance balance: Double) {
+        self.balance = balance
+    }
+    
+    func isAvailable(_ amount: Double) -&gt; Bool {
+        return balance &gt;= amount
+    }
+    
+}
+
+var myCard = CreditCard(withBalance: 100)
+myCard.balance // Error: 'balance' is inaccessible due to 'private' protection level
+myCard.isAvailable(100) // true
+myCard.isAvailable(101) // false
+&lt;/syntaxhighlight&gt;--&gt;
+Encapsulation is also possible in non-object-oriented languages. In [[C (programming language)|C]], for example, a structure can be declared in the public API via the header file for a set of functions that operate on an item of data containing data members that are not accessible to clients of the API with the &lt;code&gt;extern&lt;/code&gt; keyword.&lt;ref&gt;{{cite book |last1=King |first1=K. N. |title=C Programming: A Modern Approach |date=2008 |publisher=W. W. Norton &amp; Company |isbn=978-0393979503 |page=464 |edition= 2nd |url=https://www.stormingrobots.com/prod/tutorial/pdf/kingBook-ch1to10.pdf |accessdate=1 November 2019}}&lt;/ref&gt;&lt;ref&gt;King, Kim N. ''C programming: a modern approach''. WW Norton &amp; Company, 2008. Ch. 18, p. 464, {{ISBN|0393979504}}&lt;/ref&gt;
+&lt;syntaxhighlight lang="c"&gt;
+// Header file "api.h"
+
+struct Entity;          // Opaque structure with hidden members
+
+// API functions that operate on 'Entity' objects
+extern struct Entity *  open_entity(int id);
+extern int              process_entity(struct Entity *info);
+extern void             close_entity(struct Entity *info);
+// extern keywords here are redundant, but don't hurt.
+// extern defines functions that can be called outside the current file, the default behavior even without the keyword
+&lt;/syntaxhighlight&gt;
+
+Clients call the API functions to allocate, operate on, and deallocate objects of an [[opaque data type]]. The contents of this type are known and accessible only to the implementation of the API functions; clients cannot directly access its contents. The source code for these functions defines the actual contents of the structure:
+&lt;syntaxhighlight lang="c"&gt;
+// Implementation file "api.c"
+
+#include "api.h"
+
+struct Entity {
+    int     ent_id;         // ID number
+    char    ent_name[20];   // Name
+    ... and other members ...
+};
+
+// API function implementations
+struct Entity * open_entity(int id)
+{ ... }
+
+int process_entity(struct Entity *info)
+{ ... }
+
+void close_entity(struct Entity *info)
+{ ... }
+&lt;/syntaxhighlight&gt;
+
+==== Name mangling ====
+{{main|Name mangling}}
+Below is an example of [[Python (programming language)|Python]], which does not support variable access restrictions. However, the convention is that a variable whose name is prefixed by an underscore should be considered private.&lt;ref&gt;{{cite web |last1=Bader |first1=Dan |title=The Meaning of Underscores in Python |url=https://dbader.org/blog/meaning-of-underscores-in-python |website=Improve Your Python Skills |accessdate=1 November 2019}}&lt;/ref&gt;
+
+&lt;syntaxhighlight lang="python"&gt;
+class Car(object): 
+    def __init__(self) -&gt; None:
+        self._maxspeed = 200
+ 
+    def drive(self) -&gt; None:
+        print(f'Maximum speed is {self._maxspeed}.')
+ 
+redcar = Car()
+redcar.drive()  # This will print 'Maximum speed is 200.'
+
+redcar._maxspeed = 10
+redcar.drive()  # This will print 'Maximum speed is 10.'
+&lt;/syntaxhighlight&gt;
+
+== See also ==
+* [[Inheritance (object-oriented programming)]]
+* [[Object-oriented programming]]
+* [[Software design pattern]]
+*[[Facade pattern]]
+
+== References ==
+{{Reflist}}
+
+[[Category:Object-oriented programming]]
+[[Category:Articles with example Java code]]</text>
+      <sha1>ip3nx3alc5ycnpcovphhhvpj5ztrj6j</sha1>
+    </revision>
+  </page>
+</mediawiki>

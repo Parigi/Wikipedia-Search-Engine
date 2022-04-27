@@ -1,0 +1,104 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.10/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.10/ http://www.mediawiki.org/xml/export-0.10.xsd" version="0.10" xml:lang="en">
+  <siteinfo>
+    <sitename>Wikipedia</sitename>
+    <dbname>enwiki</dbname>
+    <base>https://en.wikipedia.org/wiki/Main_Page</base>
+    <generator>MediaWiki 1.35.0-wmf.36</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Media</namespace>
+      <namespace key="-1" case="first-letter">Special</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Talk</namespace>
+      <namespace key="2" case="first-letter">User</namespace>
+      <namespace key="3" case="first-letter">User talk</namespace>
+      <namespace key="4" case="first-letter">Wikipedia</namespace>
+      <namespace key="5" case="first-letter">Wikipedia talk</namespace>
+      <namespace key="6" case="first-letter">File</namespace>
+      <namespace key="7" case="first-letter">File talk</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki talk</namespace>
+      <namespace key="10" case="first-letter">Template</namespace>
+      <namespace key="11" case="first-letter">Template talk</namespace>
+      <namespace key="12" case="first-letter">Help</namespace>
+      <namespace key="13" case="first-letter">Help talk</namespace>
+      <namespace key="14" case="first-letter">Category</namespace>
+      <namespace key="15" case="first-letter">Category talk</namespace>
+      <namespace key="100" case="first-letter">Portal</namespace>
+      <namespace key="101" case="first-letter">Portal talk</namespace>
+      <namespace key="108" case="first-letter">Book</namespace>
+      <namespace key="109" case="first-letter">Book talk</namespace>
+      <namespace key="118" case="first-letter">Draft</namespace>
+      <namespace key="119" case="first-letter">Draft talk</namespace>
+      <namespace key="446" case="first-letter">Education Program</namespace>
+      <namespace key="447" case="first-letter">Education Program talk</namespace>
+      <namespace key="710" case="first-letter">TimedText</namespace>
+      <namespace key="711" case="first-letter">TimedText talk</namespace>
+      <namespace key="828" case="first-letter">Module</namespace>
+      <namespace key="829" case="first-letter">Module talk</namespace>
+      <namespace key="2300" case="first-letter">Gadget</namespace>
+      <namespace key="2301" case="first-letter">Gadget talk</namespace>
+      <namespace key="2302" case="case-sensitive">Gadget definition</namespace>
+      <namespace key="2303" case="case-sensitive">Gadget definition talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Epigenetics in forensic science</title>
+    <ns>0</ns>
+    <id>57404410</id>
+    <revision>
+      <id>951507349</id>
+      <parentid>930744858</parentid>
+      <timestamp>2020-04-17T14:35:02Z</timestamp>
+      <contributor>
+        <username>OAbot</username>
+        <id>28481209</id>
+      </contributor>
+      <minor/>
+      <comment>[[Wikipedia:OABOT|Open access bot]]: doi added to citation with #oabot.</comment>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="13400" xml:space="preserve">'''Epigenetics in forensic science''' is the application of [[epigenetics]] to solving crimes.&lt;ref&gt;{{cite journal |last1=Rana |first1=Ajay Kumar |title=Crime investigation through DNA methylation analysis: methods and applications in forensics |journal=Egyptian Journal of Forensic Sciences |volume=8 |doi=10.1186/s41935-018-0042-1 |year=2018 |doi-access=free }}&lt;/ref&gt;&lt;ref name="Kader_2015" /&gt;
+
+[[Forensic science]] has been using DNA as evidence since 1984, however this does not give information about any changes in the individual since birth and will not be useful in distinguishing identical siblings.  The focus of epigenetics in the forensic field is on non-heritable changes such as aging and diseases.&lt;ref name="Kader_2015"&gt;{{cite journal | vauthors = Kader F, Ghai M | title = DNA methylation and application in forensic sciences | journal = Forensic Science International | volume = 249 | pages = 255–65 | date = April 2015 | pmid = 25732744 | doi = 10.1016/j.forsciint.2015.01.037  | department = review }}&lt;/ref&gt;
+
+Epigenetics involves any changes to the DNA that does not affect the sequence, but instead affects the activity of the DNA, such as the level of transcription of a particular gene. These changes can be passed down transgenerationally through the germline or arise after birth from environmental factors.&lt;ref name="Anway_2005"&gt;{{cite journal | vauthors = Anway MD, Cupp AS, Uzumcu M, Skinner MK | title = Epigenetic transgenerational actions of endocrine disruptors and male fertility | journal = Science | volume = 308 | issue = 5727 | pages = 1466–9 | date = June 2005 | pmid = 15933200 | doi = 10.1126/science.1108190 | department = primary | url = https://digitalcommons.unl.edu/animalscifacpub/169 | bibcode = 2005Sci...308.1466A }}&lt;/ref&gt;&lt;ref name="Weaver_2004"&gt;{{cite journal | vauthors = Weaver IC, Cervoni N, Champagne FA, D'Alessio AC, Sharma S, Seckl JR, Dymov S, Szyf M, Meaney MJ | title = Epigenetic programming by maternal behavior | journal = Nature Neuroscience | volume = 7 | issue = 8 | pages = 847–54 | date = August 2004 | pmid = 15220929 | doi = 10.1038/nn1276 | department = primary }}&lt;/ref&gt; In humans and other mammals, [[CpG dinucleotide]]s are the main sequence that develops methylation, and because of this most studies on try and find unique methylation sites. There are a few methylation sites that have been determined as a cause of environmental influences from age, lifestyle, or certain diseases.
+
+== DNA methylation ==
+
+[[DNA methylation]] is a common epigenetic mark being studied as potential evidence in forensic science.&lt;ref name="Vidaki_2013"&gt;{{cite journal | vauthors = Vidaki A, Daniel B, Court DS | title = Forensic DNA methylation profiling--potential opportunities and challenges | journal = Forensic Science International. Genetics | volume = 7 | issue = 5 | pages = 499–507 | date = September 2013 | pmid = 23948320 | doi = 10.1016/j.fsigen.2013.05.004 | department = review  }}&lt;/ref&gt;&lt;ref name="Gršković_2013"&gt;{{cite journal | vauthors = Gršković B, Zrnec D, Vicković S, Popović M, Mršić G | title = DNA methylation: the future of crime scene investigation? | journal = Molecular Biology Reports | volume = 40 | issue = 7 | pages = 4349–60 | date = July 2013 | pmid = 23649761 | doi = 10.1007/s11033-013-2525-3 | department = review }}&lt;/ref&gt; Unlike DNA, realistic DNA methylation is less likely be planted at crime scenes.&gt;&lt;ref name="Gršković_2013" /&gt; Current methods to fabricate DNA usually exclude important methylation marks found in biological tissues making this a way to confirm the identity of an individual when evidence is being assessed.&lt;ref name="Kader_2015" /&gt;
+
+Many different tissues can be used to analyze methylation.
+
+== Sample preservation ==
+
+The effect of [[cryopreservation]] on epigenetic marks in tissues is a new area of study. The primary focus of this research is on oocytes and sperm for the purpose of [[assisted reproductive technology]], however it can be useful in forensics for the preservation of evidence.&lt;ref&gt;{{cite journal | vauthors = Chatterjee A, Saha D, Niemann H, Gryshkov O, Glasmacher B, Hofmann N | title = Effects of cryopreservation on the epigenetic profile of cells | journal = Cryobiology | volume = 74 | pages = 1–7 | date = February 2017 | pmid = 27940283 | doi = 10.1016/j.cryobiol.2016.12.002 | department = review }}&lt;/ref&gt; Methylation can be analyzed in fresh tissue that is cryo-preserved within 24 hours of death and it can then be analyzed in this tissue for up to 1 year.&lt;ref name="Nakatome_2011"&gt;{{cite journal | vauthors = Nakatome M, Orii M, Hamajima M, Hirata Y, Uemura M, Hirayama S, Isobe I | title = Methylation analysis of circadian clock gene promoters in forensic autopsy specimens | journal = Legal Medicine | volume = 13 | issue = 4 | pages = 205–9 | date = July 2011 | pmid = 21596611 | doi = 10.1016/j.legalmed.2011.03.001 | department = primary }}&lt;/ref&gt; If the tissue is formalin-fixed or putrefied, methylation analysis is much more difficult.
+
+== Aging ==
+
+Although blood is the primary sample used in studies, most tissues consistently show that methylation increases early in life and slowly decreases, globally, throughout late adulthood.&lt;ref name="Jung_2017"&gt;{{cite journal | vauthors = Jung SE, Shin KJ, Lee HY | title = DNA methylation-based age prediction from various tissues and body fluids | journal = BMB Reports | volume = 50 | issue = 11 | pages = 546–553 | date = November 2017 | pmid = 28946940 | pmc = 5720467 | doi = 10.5483/bmbrep.2017.50.11.175 | department = news }}&lt;/ref&gt; This process is referred to as epigenetic drift.
+
+The [[epigenetic clock]] refers to methylation sites that are highly associated with aging.&lt;ref&gt;{{cite journal | vauthors = Jones MJ, Goodman SJ, Kobor MS | title = DNA methylation and healthy human aging | journal = Aging Cell | volume = 14 | issue = 6 | pages = 924–32 | date = December 2015 | pmid = 25913071 | pmc = 4693469 | doi = 10.1111/acel.12349 | department = review }}&lt;/ref&gt; These sites consistently change across individuals and can therefore be used as age markers for an individual. There are some models that have been developed to predict ages for specific samples, such as saliva and buccal epithelial cells, blood, or semen, but others have been made to age any tissue. In 2011, three significant, hypermethylated CpG sites related to aging across all samples were found in the [[KCNQ1DN]], [[NPTX2]], and [[GRIA2]] genes.&lt;ref name="Jung_2017" /&gt; The age guess for over 700 samples had a mean absolute deviation from chronological age (MAD) of 11.4 years. Two years later, almost 8,000 samples were used in an [[Elastic net regularization|elastic net regularized regression]] to create a new age predictive model.&lt;ref name="Jung_2017" /&gt; This resulted in 353 CpG sites being chosen for the age prediction, and the model had a MAD of 3.6 years.
+
+There is evidence for specific methylation sites to be associated with the circadian clock, meaning a sample could have a time of day associated with their death through methylation marks. In whole blood from humans, plasma homocysteine and global DNA methylation change in levels throughout the day.&lt;ref name="Qureshi_2014"&gt;{{cite journal | vauthors = Qureshi IA, Mehler MF | title = Epigenetics of sleep and chronobiology | journal = Current Neurology and Neuroscience Reports | volume = 14 | issue = 3 | pages = 432 | date = March 2014 | pmid = 24477387 | pmc = 3957188 | doi = 10.1007/s11910-013-0432-6 | department = review }}&lt;/ref&gt; Homocysteine levels peak in the evening and are at their lowest overnight while DNA methylation follows an inverse pattern. Other studies with rats found that expression of [[DNMT3B]] and other methylation enzymes oscillate with the circadian clock and may be regulated by the circadian clock.&lt;ref name="Qureshi_2014" /&gt; Another methylation associated factor, MECP2, is phosphorylated by the [[Suprachiasmatic nucleus|superchiasmatic nucleus]] in response to light signaling. In a group of subjects that died from a variety of causes, there was partial methylation at the PER2, PER3, CRY1, and TIM promoters which are important genes in controlling the circadian clock.&lt;ref name="Nakatome_2011" /&gt; The methylation of CRY1 varied within an individual's tissues and between two individuals, however the difference between individuals may have been due to methamphetamine exposure.
+
+=== Teeth ===
+
+An age model using dentin from teeth is currently being studied.&lt;ref&gt;{{cite journal | vauthors = Bekaert B, Kamalandua A, Zapico SC, Van de Voorde W, Decorte R | title = Improved age determination of blood and teeth samples using a selected set of DNA methylation markers | journal = Epigenetics | volume = 10 | issue = 10 | pages = 922–30 | year = 2015 | pmid = 26280308 | doi = 10.1080/15592294.2015.1080413 | department = primary | pmc = 4844214 }}&lt;/ref&gt; Over 300 genes have been found that are a part of odontogenesis and quite a few affect the epigenome.For example, JMJD3 is a histone demethylase that modifies the methylation of homeobox and bone morphogenetic proteins.&lt;ref name="Brook_2009"&gt;{{cite journal | vauthors = Brook AH | title = Multilevel complex interactions between genetic, epigenetic and environmental factors in the aetiology of anomalies of dental development | journal = Archives of Oral Biology | volume = 54 Suppl 1 | issue = | pages = S3–17 | date = December 2009 | pmid = 19913215 | pmc = 2981858 | doi = 10.1016/j.archoralbio.2009.09.005 | department = review }}&lt;/ref&gt; More studies are being done to differentiate genetic, epigenetic, and environmental factors on methylation in teeth so that aging algorithms are more accurate.
+
+Previously, measuring differences in between sets of teeth was done with calipers, but 2D and 3D imaging has become more available and allows for better accuracy of measurements. New programs are being developed to analyze these images of teeth.&lt;ref name="Klingenberg_2011"&gt;{{cite journal | vauthors = Klingenberg CP | title = MorphoJ: an integrated software package for geometric morphometrics | journal = Molecular Ecology Resources | volume = 11 | issue = 2 | pages = 353–7 | date = March 2011 | pmid = 21429143 | doi = 10.1111/j.1755-0998.2010.02924.x | url = http://www.flywings.org.uk/morphoj_page.htm | department = primary }}&lt;/ref&gt; Mono-zygotic twin studies reveal 8-29% of changes between the twins' teeth is from the environment. Several studies of mono-zygotic twins have shown that when they have a tooth defect, such as congenitally missing or supernumerary teeth, the twins can share the same number or position of the defective tooth, but sometimes not both of these factors.&lt;ref name="Townsend_2012"&gt;{{cite journal | vauthors = Townsend G, Bockmann M, Hughes T, Brook A | title = Genetic, environmental and epigenetic influences on variation in human tooth number, size and shape | journal = Odontology | volume = 100 | issue = 1 | pages = 1–9 | date = January 2012 | pmid = 22139304 | doi = 10.1007/s10266-011-0052-z | department = review }}&lt;/ref&gt;
+
+=== Twin identification ===
+Monozygotic twins provide information on epigenetic differences that are not from genetic factors. Epigenetic markers differ the most in monozygotic twins who spend time apart or have a very different medical history. As twins age, their methylation and acetylation of histone H3 and H4 increasingly vary.&lt;ref&gt;{{cite journal | vauthors = Fraga MF, Ballestar E, Paz MF, Ropero S, Setien F, Ballestar ML, Heine-Suñer D, Cigudosa JC, Urioste M, Benitez J, Boix-Chornet M, Sanchez-Aguilera A, Ling C, Carlsson E, Poulsen P, Vaag A, Stephan Z, Spector TD, Wu YZ, Plass C, Esteller M | title = Epigenetic differences arise during the lifetime of monozygotic twins | journal = Proceedings of the National Academy of Sciences of the United States of America | volume = 102 | issue = 30 | pages = 10604–9 | date = July 2005 | pmid = 16009939 | pmc = 1174919 | doi = 10.1073/pnas.0500398102 | department = primary | bibcode = 2005PNAS..10210604F }}&lt;/ref&gt; These marks are specific to the environmental changes between the twins and not changes in methylation from general aging. The rate of disease discordance between monozygotic twins is usually over 50%, including heritable diseases.&lt;ref name="Bell_2011"&gt;{{cite journal | vauthors = Bell JT, Spector TD | title = A twin approach to unraveling epigenetics | journal = Trends in Genetics | volume = 27 | issue = 3 | pages = 116–25 | date = March 2011 | pmid = 21257220 | pmc = 3063335 | doi = 10.1016/j.tig.2010.12.005 | department = review }}&lt;/ref&gt; This does not correlate to the disease prevalence rate.
+
+There are more phenotypic methylation differences in twins discordant for bipolar, schizophrenia, or systemic lupus erythematosus than in unrelated cases.&lt;ref name="Bell_2011" /&gt; There is no difference between twins discordant for rheumatoid arthritis or dermatomyositis. A limitation to the current studies on twin disease discordance is the lack of a baseline epigenetic profile of the twins before they develop the disease.&lt;ref name="Bell_2011" /&gt; This baseline will be used to distinguish the environmental changes between the twins to narrow down the methylation sites related to the disease. Several studies are obtaining newborn epigenetic profiles for long-term research.
+
+== References ==
+{{Reflist|32em}}
+
+[[Category:Epigenetics]]
+[[Category:Forensic genetics]]</text>
+      <sha1>5q03l55h47amtmomy54hf0lhrlpwa6f</sha1>
+    </revision>
+  </page>
+</mediawiki>

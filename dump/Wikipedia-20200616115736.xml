@@ -1,0 +1,82 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.10/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.10/ http://www.mediawiki.org/xml/export-0.10.xsd" version="0.10" xml:lang="en">
+  <siteinfo>
+    <sitename>Wikipedia</sitename>
+    <dbname>enwiki</dbname>
+    <base>https://en.wikipedia.org/wiki/Main_Page</base>
+    <generator>MediaWiki 1.35.0-wmf.36</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Media</namespace>
+      <namespace key="-1" case="first-letter">Special</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Talk</namespace>
+      <namespace key="2" case="first-letter">User</namespace>
+      <namespace key="3" case="first-letter">User talk</namespace>
+      <namespace key="4" case="first-letter">Wikipedia</namespace>
+      <namespace key="5" case="first-letter">Wikipedia talk</namespace>
+      <namespace key="6" case="first-letter">File</namespace>
+      <namespace key="7" case="first-letter">File talk</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki talk</namespace>
+      <namespace key="10" case="first-letter">Template</namespace>
+      <namespace key="11" case="first-letter">Template talk</namespace>
+      <namespace key="12" case="first-letter">Help</namespace>
+      <namespace key="13" case="first-letter">Help talk</namespace>
+      <namespace key="14" case="first-letter">Category</namespace>
+      <namespace key="15" case="first-letter">Category talk</namespace>
+      <namespace key="100" case="first-letter">Portal</namespace>
+      <namespace key="101" case="first-letter">Portal talk</namespace>
+      <namespace key="108" case="first-letter">Book</namespace>
+      <namespace key="109" case="first-letter">Book talk</namespace>
+      <namespace key="118" case="first-letter">Draft</namespace>
+      <namespace key="119" case="first-letter">Draft talk</namespace>
+      <namespace key="446" case="first-letter">Education Program</namespace>
+      <namespace key="447" case="first-letter">Education Program talk</namespace>
+      <namespace key="710" case="first-letter">TimedText</namespace>
+      <namespace key="711" case="first-letter">TimedText talk</namespace>
+      <namespace key="828" case="first-letter">Module</namespace>
+      <namespace key="829" case="first-letter">Module talk</namespace>
+      <namespace key="2300" case="first-letter">Gadget</namespace>
+      <namespace key="2301" case="first-letter">Gadget talk</namespace>
+      <namespace key="2302" case="case-sensitive">Gadget definition</namespace>
+      <namespace key="2303" case="case-sensitive">Gadget definition talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Portal:Computer programming/Intro</title>
+    <ns>100</ns>
+    <id>34241179</id>
+    <revision>
+      <id>892870768</id>
+      <parentid>861624272</parentid>
+      <timestamp>2019-04-17T12:10:45Z</timestamp>
+      <contributor>
+        <username>Dreamy Jazz</username>
+        <id>27131311</id>
+      </contributor>
+      <minor/>
+      <comment>/* top */Removing deletion notice from undeleted page</comment>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="3414" xml:space="preserve">[[File:8bit-dynamiclist (reversed).gif|left]]'''[[Computer programming]]''' (often shortened to '''programming''' or '''coding''') is the process of [[Software design|designing]], writing, [[Software testing|testing]], [[debugging]], and maintaining the [[source code]] of [[computer program]]s. This source code is written in one or more [[programming language]]. The purpose of programming is to create a set of instructions that computers use to perform specific operations or to exhibit desired behaviors. The process of writing source code often requires expertise in many different subjects, including knowledge of the application domain, specialized [[algorithm]]s, and [[logic|formal logic]].&lt;noinclude&gt;
+== HISTORY OF PROGRAMMING ==
+===== The Difference engine(Charles Babbage): =====
+
+Ever since the invention of Charles Babbage’s difference engine in 1822, computers have required a means of instructing them to perform a specific task. This means is known as a programming language. Computer languages were first composed of a series of steps to wire a particular program; these morphed into a series of steps keyed into the computer and then executed; later these languages acquired advanced features such as logical branching and object orientation. The computer languages of the last fifty years have come in two stages, the first major languages and the second major languages, which are in use today.
+In the beginning, Charles Babbage’s difference engine could only be made to execute tasks by changing the gears which executed the calculations. Thus, the earliest form of a computer language was physical motion. Eventually, physical motion was replaced by electrical signals when the US Government built the ENIAC in 1942. It followed many of the same principles of Babbage’s engine and hence, could only be “programmed” by presetting switches and rewiring the entire system for each new “program” or calculation. This process proved to be very tedious.
+
+===== John von Neumann &amp; Grace Hopper:- =====
+
+John von Neumann was working for the Institute of Advanced Study in 1945.He formed two major principles which were milestones in the world of programming they were:-
+
+1) shared program technique, where he stated the hardware to be programmed should be simple whereas the program written should be in complex instructions.
+
+2) conditional control transfer, this was the most important step towards the development of modern programming language which gave rise to a notion of subroutines meaning small blocks of code should be written which could be jumped to form any point of the code.Therefore there was no need to write program as a single set of chronologically arranged instructions.
+
+Soon after this a programming language named "Short Code" emerged in which after the programmer wrote a program/programs he had to manually convert it into binary(the basic 0's and 1's which a computer understands ), this was very inconvenient to do so.Then after 3 years that is in 1951 Grace Hopper gave birth to completely new generation utility programs 'compiler' this is a program which converts the instructions into binary making it easy for programmers to write programs.This compiler was named "A-0" and helped in further advancement of computer programming.   
+
+{{CC-notice|cc=bysa3|url=http://en.wikipedia.org/w/index.php?title=Computer_programming&amp;oldid=468286232}}&lt;/noinclude&gt;</text>
+      <sha1>43derb7vgsufx984v207z8qhlkb372r</sha1>
+    </revision>
+  </page>
+</mediawiki>

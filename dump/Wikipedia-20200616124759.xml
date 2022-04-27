@@ -1,0 +1,490 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.10/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.10/ http://www.mediawiki.org/xml/export-0.10.xsd" version="0.10" xml:lang="en">
+  <siteinfo>
+    <sitename>Wikipedia</sitename>
+    <dbname>enwiki</dbname>
+    <base>https://en.wikipedia.org/wiki/Main_Page</base>
+    <generator>MediaWiki 1.35.0-wmf.36</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Media</namespace>
+      <namespace key="-1" case="first-letter">Special</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Talk</namespace>
+      <namespace key="2" case="first-letter">User</namespace>
+      <namespace key="3" case="first-letter">User talk</namespace>
+      <namespace key="4" case="first-letter">Wikipedia</namespace>
+      <namespace key="5" case="first-letter">Wikipedia talk</namespace>
+      <namespace key="6" case="first-letter">File</namespace>
+      <namespace key="7" case="first-letter">File talk</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki talk</namespace>
+      <namespace key="10" case="first-letter">Template</namespace>
+      <namespace key="11" case="first-letter">Template talk</namespace>
+      <namespace key="12" case="first-letter">Help</namespace>
+      <namespace key="13" case="first-letter">Help talk</namespace>
+      <namespace key="14" case="first-letter">Category</namespace>
+      <namespace key="15" case="first-letter">Category talk</namespace>
+      <namespace key="100" case="first-letter">Portal</namespace>
+      <namespace key="101" case="first-letter">Portal talk</namespace>
+      <namespace key="108" case="first-letter">Book</namespace>
+      <namespace key="109" case="first-letter">Book talk</namespace>
+      <namespace key="118" case="first-letter">Draft</namespace>
+      <namespace key="119" case="first-letter">Draft talk</namespace>
+      <namespace key="446" case="first-letter">Education Program</namespace>
+      <namespace key="447" case="first-letter">Education Program talk</namespace>
+      <namespace key="710" case="first-letter">TimedText</namespace>
+      <namespace key="711" case="first-letter">TimedText talk</namespace>
+      <namespace key="828" case="first-letter">Module</namespace>
+      <namespace key="829" case="first-letter">Module talk</namespace>
+      <namespace key="2300" case="first-letter">Gadget</namespace>
+      <namespace key="2301" case="first-letter">Gadget talk</namespace>
+      <namespace key="2302" case="case-sensitive">Gadget definition</namespace>
+      <namespace key="2303" case="case-sensitive">Gadget definition talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Egyptian fraction</title>
+    <ns>0</ns>
+    <id>336349</id>
+    <revision>
+      <id>962840626</id>
+      <parentid>945716455</parentid>
+      <timestamp>2020-06-16T09:04:56Z</timestamp>
+      <contributor>
+        <username>ArnoldReinhold</username>
+        <id>84951</id>
+      </contributor>
+      <comment>/* Modern number theory */ clarify Erdos Graham statement</comment>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="34379" xml:space="preserve">{{short description|Finite sum of distinct unit fractions}}
+[[File:Rhind_Mathematical_Papyrus.jpg|thumb|300px|Rhind Mathematical Papyrus]]
+An '''Egyptian fraction''' is a finite sum of distinct [[unit fraction]]s, such as
+:&lt;math&gt;\frac{1}{2}+\frac{1}{3}+\frac{1}{16}.&lt;/math&gt;
+That is, each [[Fraction (mathematics)|fraction]] in the expression has a [[numerator]] equal to 1 and a [[denominator]] that is a positive [[integer]], and all the denominators differ from each other. The value of an expression of this type is a [[positive number|positive]] [[rational number]] {{math|''a''/''b''}}; for instance the Egyptian fraction above sums to 43/48. Every positive rational number can be represented by an Egyptian fraction. Sums of this type, and similar sums also including 2/3 and 3/4 as [[summand]]s, were used as a serious notation for rational numbers by the ancient Egyptians, and continued to be used by other civilizations into medieval times. In modern mathematical notation, Egyptian fractions have been superseded by [[vulgar fraction]]s and [[decimal]] notation. However, Egyptian fractions continue to be an object of study in modern [[number theory]] and [[recreational mathematics]], as well as in modern historical studies of [[History of mathematics|ancient mathematics]].
+
+==Motivating applications==
+Beyond their historical use, Egyptian fractions have some practical advantages over other representations of fractional numbers.
+For instance, Egyptian fractions can help in dividing a number of objects into equal shares (Knott). For example, if one wants to divide 5 pizzas equally among 8 diners, the Egyptian fraction
+
+:&lt;math&gt;\frac{5}{8}=\frac{1}{2}+\frac{1}{8}&lt;/math&gt;
+
+means that each diner gets half a pizza plus another eighth of a pizza, e.g. by splitting 4 pizzas into 8 halves, and the remaining pizza into 8 eighths.
+
+Similarly, although one could divide 13 pizzas among 12 diners by giving each diner one pizza and splitting the remaining pizza into 12 parts (perhaps destroying it), one could note that
+
+:&lt;math&gt;\frac{13}{12}=\frac{1}{2}+\frac{1}{3}+\frac{1}{4}&lt;/math&gt;
+
+and split 6 pizzas into halves, 4 into thirds and the remaining 3 into quarters, and then give each diner one half, one third and one quarter.
+
+==Early history==
+:''For more information on this subject, see [[Egyptian numerals]], [[Eye of Horus]], and [[Egyptian mathematics]].''
+[[File:Oudjat.SVG|thumb|Eye of Horus]]
+
+Egyptian fraction notation was developed in the [[Middle Kingdom of Egypt]], altering the Old Kingdom's [[Eye of Horus]] numeration system. Five early texts in which Egyptian fractions appear were the [[Egyptian Mathematical Leather Roll]], the [[Moscow Mathematical Papyrus]], the [[Reisner Papyrus]], the [[Kahun Papyrus]] and the [[Akhmim Wooden Tablet]]. A later text, the [[Rhind Mathematical Papyrus]], introduced improved ways of writing Egyptian fractions. The Rhind papyrus was written by [[Ahmes]] and dates from the [[Second Intermediate Period]]; it includes a [[RMP 2/n table|table of Egyptian fraction expansions for rational numbers 2/''n'']], as well as 84 [[Word problem (mathematics education)|word problems]]. Solutions to each problem were written out in scribal shorthand, with the final answers of all 84 problems being expressed in Egyptian fraction notation. 2/''n'' tables similar to the one on the Rhind papyrus also appear on some of the other texts. However, as the [[Kahun Papyrus]] shows, [[vulgar fraction]]s were also used by scribes within their calculations.
+
+===Notation===
+To write the unit fractions used in their Egyptian fraction notation,  in hieroglyph script, the Egyptians placed the [[Egyptian hieroglyphs|hieroglyph]]
+&lt;center&gt;&lt;hiero&gt;D21&lt;/hiero&gt;&lt;/center&gt;
+(''er'', "&lt;nowiki&gt;[one]&lt;/nowiki&gt; among" or possibly ''re'', mouth) above a number to represent the [[Multiplicative inverse|reciprocal]] of that number. Similarly in hieratic script they drew a line over the letter representing the number. For example:
+
+{| align="center" border=0 cellpadding=0.5em
+|&lt;hiero&gt;D21:Z1*Z1*Z1&lt;/hiero&gt;
+| style="padding-right:1em;" |&lt;math&gt;= \frac{1}{3}&lt;/math&gt;
+| style="border-left:1px solid black; padding-left:1em;" |&lt;hiero&gt;D21:V20&lt;/hiero&gt;
+|&lt;math&gt;= \frac{1}{10}&lt;/math&gt;
+|}
+
+The Egyptians had special symbols for 1/2, 2/3, and 3/4 that were used to reduce the size of numbers greater than 1/2 when such numbers were converted to an Egyptian fraction series. The remaining number after subtracting one of these special fractions was written as a sum of distinct unit fractions according to the usual Egyptian fraction notation.
+
+{| align="center" cellpadding="1em"
+|&lt;hiero&gt;Aa13&lt;/hiero&gt;
+| style="padding-right:1em;" |&lt;math&gt;= \frac{1}{2}&lt;/math&gt;
+| style="border-left:1px solid black; padding-left:1em;" |&lt;hiero&gt;D22&lt;/hiero&gt;
+| style="padding-right:1em;" |&lt;math&gt;= \frac{2}{3}&lt;/math&gt;
+| style="border-left:1px solid black; padding-left:1em;" |&lt;hiero&gt;D23&lt;/hiero&gt;
+|&lt;math&gt;= \frac{3}{4}&lt;/math&gt;
+|}
+The Egyptians also used an alternative notation modified from the Old Kingdom to denote a special set of fractions of the form 1/2&lt;sup&gt;''k''&lt;/sup&gt; (for ''k'' = 1, 2, ..., 6) and sums of these numbers, which are necessarily [[dyadic rational|dyadic rational numbers]]. These have been called "Horus-Eye fractions" after a theory (now discredited)&lt;ref&gt;{{harvtxt|Ritter|2002}}. See also {{harvtxt|Katz|2007}} and {{harvtxt|Robson|Stedall|2009}}.&lt;/ref&gt; that they were based on the parts of the [[Eye of Horus]] symbol.
+They were used in the Middle Kingdom in conjunction with the later notation for Egyptian fractions to subdivide a [[hekat (volume unit)|hekat]], the primary ancient Egyptian volume measure for grain, bread, and other small quantities of volume, as described in the [[Akhmim Wooden Tablet]]. If any remainder was left after expressing a quantity in Eye of Horus fractions of a hekat, the remainder was written using the usual Egyptian fraction notation as multiples of a ''ro'', a unit equal to 1/320 of a hekat.
+
+===Calculation methods===
+Modern historians of mathematics have studied the Rhind papyrus and other ancient sources in an attempt to discover the methods the Egyptians used in calculating with Egyptian fractions. In particular, study in this area has concentrated on understanding the tables of expansions for numbers of the form 2/''n'' in the Rhind papyrus. Although these expansions can generally be described as algebraic identities, the methods used by the Egyptians may not correspond directly to these identities. Additionally, the expansions in the table do not match any single identity; rather, different identities match the expansions for [[prime number|prime]] and for [[composite number|composite]] denominators, and more than one identity fits the numbers of each type:
+
+* For small odd prime denominators ''p'', the expansion {{nowrap|1=2/''p'' = 2/(''p'' + 1) + 2/''p''(''p'' + 1)}} was used.
+* For larger prime denominators, an expansion of the form {{nowrap|1=2/''p'' = 1/''A'' + (2''A'' &amp;minus; ''p'')/''Ap''}} was used, where ''A'' is a number with many divisors (such as a [[practical number]]) between ''p''/2 and ''p''. The remaining term {{nowrap|(2''A'' &amp;minus; ''p'')/''Ap''}} was expanded by representing the number {{nowrap|(2''A'' &amp;minus; ''p'')/''Ap''}} as a sum of divisors of ''A'' and forming a fraction ''d''/''Ap'' for each such divisor ''d'' in this sum.&lt;ref&gt;{{harvtxt|Hultsch|1895}}; {{harvtxt|Bruins|1957}}&lt;/ref&gt; As an example, Ahmes' expansion {{nowrap|1/24 + 1/111 + 1/296}} for 2/37 fits this pattern with {{nowrap|1=''A'' = 24}} and {{nowrap|1=(2''A'' &amp;minus; ''p'')/''Ap'' = 11 = 3 + 8}}, as {{nowrap|1=1/24 + 1/111 + 1/296 = 1/24 + 3/(24 &amp;times; 37) + 8/(24 &amp;times; 37)}}. There may be many different expansions of this type for a given ''p''; however, as K. S. Brown observed, the expansion chosen by the Egyptians was often the one that caused the largest denominator to be as small as possible, among all expansions fitting this pattern.
+* For composite denominators, factored as ''p''&amp;times;''q'', one can expand 2/''pq'' using the identity 2/''pq'' = 1/''aq'' + 1/''apq'', where ''a'' = (''p''+1)/2. For instance, applying this method for ''pq'' = 21 gives ''p'' = 3, ''q'' = 7, and ''a'' = (3+1)/2 = 2, producing the expansion 2/21 = 1/14 + 1/42 from the Rhind papyrus. Some authors have preferred to write this expansion as 2/''A'' &amp;times; ''A''/''pq'', where ''A'' = ''p''+1;{{sfnp|Gardner|2002}} replacing the second term of this product by ''p''/''pq'' + 1/''pq'', applying the distributive law to the product, and simplifying leads to an expression equivalent to the first expansion described here. This method appears to have been used for many of the composite numbers in the Rhind papyrus,&lt;ref&gt;{{harvtxt|Gillings|1982}}; {{harvtxt|Gardner|2002}}&lt;/ref&gt; but there are exceptions, notably 2/35, 2/91, and 2/95.{{sfnp|Knorr|1982}}
+* One can also expand 2/''pq'' as 1/''pr'' + 1/''qr'', where ''r'' = (''p''+''q'')/2. For instance, Ahmes expands 2/35 = 1/30 + 1/42, where ''p'' = 5, ''q'' = 7, and ''r'' = (5+7)/2 = 6. Later scribes used a more general form of this expansion, ''n''/''pq'' = 1/''pr'' + 1/''qr'', where ''r'' =(''p'' + ''q'')/''n'', which works when ''p'' + ''q'' is a multiple of ''n''.{{sfnp|Eves|1953}}
+* For some other composite denominators, the expansion for 2/''pq'' has the form of an expansion for 2/''q'' with each denominator multiplied by ''p''. For instance, 95=5&amp;times;19, and 2/19 = 1/12 + 1/76 + 1/114 (as can be found using the method for primes with ''A'' = 12), so 2/95 = 1/(5&amp;times;12) + 1/(5&amp;times;76) + 1/(5&amp;times;114) = 1/60 + 1/380 + 1/570.{{sfnp|Eves|1953}} This expression can be simplified as 1/380 + 1/570 = 1/228 but the Rhind papyrus uses the unsimplified form.
+* The final (prime) expansion in the Rhind papyrus, 2/101, does not fit any of these forms, but instead uses an expansion 2/''p'' = 1/''p'' + 1/2''p'' + 1/3''p'' + 1/6''p'' that may be applied regardless of the value of ''p''. That is, 2/101 = 1/101 + 1/202 + 1/303 + 1/606. A related expansion was also used in the Egyptian Mathematical Leather Roll for several cases.
+
+==Later usage==
+:''For more information on this subject, see ''[[Liber Abaci]]'' and [[Greedy algorithm for Egyptian fractions]].''
+
+Egyptian fraction notation continued to be used in Greek times and into the Middle Ages,{{sfnp|Struik|1967}} despite complaints as early as [[Ptolemy]]'s [[Almagest]] about the clumsiness of the notation compared to alternatives such as the [[Babylonian mathematics|Babylonian]] [[sexagesimal|base-60 notation]]. An important text of medieval mathematics, the ''[[Liber Abaci]]'' (1202) of [[Leonardo of Pisa]] (more commonly known as Fibonacci), provides some insight into the uses of Egyptian fractions in the Middle Ages, and introduces topics that continue to be important in modern mathematical study of these series.
+
+The primary subject of the ''Liber Abaci'' is calculations involving decimal and vulgar fraction notation, which eventually replaced Egyptian fractions. Fibonacci himself used a complex notation for fractions involving a combination of a [[mixed radix]] notation with sums of fractions. Many of the calculations throughout Fibonacci's book involve numbers represented as Egyptian fractions, and one section of this book&lt;ref&gt;{{harvtxt|Sigler|2002}}, chapter II.7&lt;/ref&gt; provides a list of methods for conversion of vulgar fractions to Egyptian fractions. If the number is not already a unit fraction, the first method in this list is to attempt to split the numerator into a sum of divisors of the denominator; this is possible whenever the denominator is a [[practical number]], and ''Liber Abaci'' includes tables of expansions of this type for the practical numbers 6, 8, 12, 20, 24, 60, and 100.
+
+The next several methods involve algebraic identities such as &lt;math&gt;\tfrac{a}{ab-1}=\tfrac{1}{b}+\tfrac{1}{b(ab-1)}.&lt;/math&gt; For instance, Fibonacci represents the fraction &lt;math&gt;\tfrac{8}{11}&lt;/math&gt; by splitting the numerator into a sum of two numbers, each of which divides one plus the denominator: &lt;math&gt;\tfrac{8}{11}=\tfrac{6}{11}+\tfrac{2}{11}.&lt;/math&gt; Fibonacci applies the algebraic identity above to each these two parts, producing the expansion
+&lt;math&gt;\tfrac{8}{11}=\tfrac{1}{2}+\tfrac{1}{22}+\tfrac{1}{6}+\tfrac{1}{66}.&lt;/math&gt; Fibonacci describes similar methods for denominators that are two or three less than a number with many factors.
+
+In the rare case that these other methods all fail, Fibonacci suggests a [[Greedy algorithm for Egyptian fractions|greedy algorithm]] for computing Egyptian fractions, in which one repeatedly chooses the unit fraction with the smallest denominator that is no larger than the remaining fraction to be expanded: that is, in more modern notation, we replace a fraction ''x''/''y'' by the expansion
+
+:&lt;math&gt;\frac{x}{y}=\frac{1}{\lceil y/x\rceil}+\frac{(-y)\,\bmod\, x}{y\lceil y/x\rceil},&lt;/math&gt;
+
+where &lt;math&gt;\lceil \ldots \rceil&lt;/math&gt; represents the [[Floor and ceiling functions|ceiling function]]; since ''(-y) mod x'' &lt; ''x'', this method yields a finite expansion.
+
+Fibonacci suggests switching to another method after the first such expansion, but he also gives examples in which this greedy expansion was iterated until a complete Egyptian fraction expansion was constructed: &lt;math&gt;\tfrac{4}{13}=\tfrac{1}{4}+\tfrac{1}{18}+\tfrac{1}{468}&lt;/math&gt; and &lt;math&gt;\tfrac{17}{29}=\tfrac{1}{2}+\tfrac{1}{12}+\tfrac{1}{348}.&lt;/math&gt;
+
+Compared to ancient Egyptian expansions or to more modern methods, this method may produce expansions that are quite long, with large denominators, and Fibonacci himself noted the awkwardness of the expansions produced by this method. For instance, the greedy method expands
+:&lt;math&gt;\frac{5}{121}=\frac{1}{25}+\frac{1}{757}+\frac{1}{763309}+\frac{1}{873960180913}+\frac{1}{1527612795642093418846225},&lt;/math&gt;
+while other methods lead to the shorter expansion
+:&lt;math&gt;\frac{5}{121}=\frac{1}{33}+\frac{1}{121}+\frac{1}{363}.&lt;/math&gt;
+
+[[Sylvester's sequence]] 2, 3, 7, 43, 1807, ... can be viewed as generated by an infinite greedy expansion of this type for the number one, where at each step we choose the denominator &lt;math&gt;\lfloor y/x\rfloor+1&lt;/math&gt; instead of &lt;math&gt;\lceil y/x\rceil&lt;/math&gt;, and sometimes Fibonacci's greedy algorithm is attributed to [[James Joseph Sylvester|Sylvester]].
+
+After his description of the greedy algorithm, Fibonacci suggests yet another method, expanding a fraction &lt;math&gt;a/b&lt;/math&gt; by searching for a number ''c'' having many divisors, with &lt;math&gt;b/2 &lt; c &lt; b&lt;/math&gt;, replacing &lt;math&gt;a/b&lt;/math&gt; by &lt;math&gt;ac/bc&lt;/math&gt;, and expanding &lt;math&gt;ac&lt;/math&gt; as a sum of divisors of &lt;math&gt;bc&lt;/math&gt;, similar to the method proposed by Hultsch and Bruins to explain some of the expansions in the Rhind papyrus.
+
+==Modern number theory==
+:''For more information on this subject, see [[Erdős–Graham problem]], [[Znám's problem]], and [[Engel expansion]].''
+Although Egyptian fractions are no longer used in most practical applications of mathematics,
+modern number theorists have continued to study many different problems related to them. These include problems of bounding the length or maximum denominator in Egyptian fraction representations, finding expansions of certain special forms or in which the denominators are all of some special type, the termination of various methods for Egyptian fraction expansion, and showing that expansions exist for any sufficiently dense set of sufficiently [[smooth number]]s.
+*One of the earliest publications of [[Paul Erdős]] proved that it is not possible for a [[Harmonic progression (mathematics)|harmonic progression]] to form an Egyptian fraction representation of an [[integer]]. The reason is that, necessarily, at least one denominator of the progression will be divisible by a [[prime number]] that does not divide any other denominator.&lt;ref&gt;{{harvtxt|Erdős|1932}}; {{harvtxt|Graham|2013}}&lt;/ref&gt; The latest publication of Erdős, nearly 20 years after his death, proves that every integer has a representation in which all denominators are products of three primes.{{sfnp|Butler|Erdős|Graham|2015}}
+*The [[Erdős–Graham conjecture]] in [[Number theory|combinatorial number theory]] states that, if the integers greater than 1 are partitioned into finitely many subsets, then one of the subsets has a finite subset of itself whose reciprocals sum to one. That is, for every ''r'' &gt; 0, and every ''r''-coloring of the integers greater than one, there is a finite monochromatic subset ''S'' of these integers such that
+::&lt;math&gt;\sum_{n\in S}1/n = 1.&lt;/math&gt;
+:The conjecture was proven in 2003 by [[Ernest S. Croot, III]].
+*[[Znám's problem]] and [[primary pseudoperfect number]]s are closely related to the existence of Egyptian fractions of the form
+::&lt;math&gt;\sum\frac1{x_i} + \prod\frac1{x_i}=1.&lt;/math&gt;
+:For instance, the primary pseudoperfect number 1806 is the product of the prime numbers 2, 3, 7, and 43, and gives rise to the Egyptian fraction 1 = 1/2 + 1/3 + 1/7 + 1/43 + 1/1806.
+*Egyptian fractions are normally defined as requiring all denominators to be distinct, but this requirement can be relaxed to allow repeated denominators. However, this relaxed form of Egyptian fractions does not allow for any number to be represented using fewer fractions, as any expansion with repeated fractions can be converted to an Egyptian fraction of equal or smaller length by repeated application of the replacement
+::&lt;math&gt;\frac1k+\frac1k=\frac2{k+1}+\frac2{k(k+1)}&lt;/math&gt;
+:if ''k'' is odd, or simply by replacing 1/''k''+1/''k'' by 2/''k'' if ''k'' is even. This result was first proven by {{harvtxt|Takenouchi|1921}}.
+*Graham and Jewett&lt;ref&gt;See {{harvtxt|Wagon|1999}} and {{harvtxt|Beeckmans|1993}}&lt;/ref&gt; proved that it is similarly possible to convert expansions with repeated denominators to (longer) Egyptian fractions, via the replacement
+::&lt;math&gt;\frac1k+\frac1k=\frac1k+\frac1{k+1}+\frac1{k(k+1)}.&lt;/math&gt;
+:This method can lead to long expansions with large denominators, such as
+::&lt;math&gt;\frac45=\frac15+\frac16+\frac17+\frac18+\frac1{30}+\frac1{31}+\frac1{32}+\frac1{42}+\frac1{43}+\frac1{56}+
+\frac1{930}+\frac1{931}+\frac1{992}+\frac1{1806}+\frac1{865830}.&lt;/math&gt;
+:{{harvtxt|Botts|1967}} had originally used this replacement technique to show that any rational number has Egyptian fraction representations with arbitrarily large minimum denominators.
+*Any fraction ''x''/''y'' has an Egyptian fraction representation in which the maximum denominator is bounded by{{sfnp|Yokota|1988}}
+::&lt;math&gt;O\left(y \log y (\log\log y)^4 (\log\log\log y)^2\right)&lt;/math&gt;
+:and a representation with at most
+::&lt;math&gt;O\left(\sqrt{\log y}\right)&lt;/math&gt;
+:terms.{{sfnp|Vose|1985}} The number of terms must sometimes be at least proportional to &lt;math&gt;\log\log y&lt;/math&gt;; for instance this is true for the fractions in the sequence 1/2, 2/3, 6/7, 42/43, 1806/1807, ... whose denominators form [[Sylvester's sequence]]. It has been conjectured that &lt;math&gt;O(\log\log y)&lt;/math&gt; terms are always enough.{{sfnp|Erdős|1950}} It is also possible to find representations in which both the maximum denominator and the number of terms are small.{{sfnp|Tenenbaum|Yokota|1990}}
+*{{harvtxt|Graham|1964}} characterized the numbers that can be represented by Egyptian fractions in which all denominators are ''n''th powers. In particular, a rational number ''q'' can be represented as an Egyptian fraction with square denominators if and only if ''q'' lies in one of the two half-open intervals
+::&lt;math&gt;\left[0,\frac{\pi^2}{6}-1\right)\cup\left[1,\frac{\pi^2}{6}\right).&lt;/math&gt;
+*{{harvtxt|Martin|1999}} showed that any rational number has very dense expansions, using a constant fraction of the denominators up to ''N'' for any sufficiently large ''N''.
+*[[Engel expansion]], sometimes called an ''Egyptian product'', is a form of Egyptian fraction expansion in which each denominator is a multiple of the previous one:
+::&lt;math&gt;x=\frac{1}{a_1}+\frac{1}{a_1a_2}+\frac{1}{a_1a_2a_3}+\cdots.&lt;/math&gt;
+:In addition, the sequence of multipliers ''a&lt;sub&gt;i&lt;/sub&gt;'' is required to be nondecreasing. Every rational number has a finite Engel expansion, while [[irrational number]]s have an infinite Engel expansion.
+*{{harvtxt|Anshel|Goldfeld|1991}} study numbers that have multiple distinct Egyptian fraction representations with the same number of terms and the same product of denominators; for instance, one of the examples they supply is
+::&lt;math&gt;\frac{5}{12}=\frac{1}{4}+\frac{1}{10}+\frac{1}{15}=\frac{1}{5}+\frac{1}{6}+\frac{1}{20}.&lt;/math&gt;
+:Unlike the ancient Egyptians, they allow denominators to be repeated in these expansions. They apply their results for this problem to the characterization of [[free product]]s of [[Abelian group]]s by a small number of numerical parameters: the rank of the [[commutator subgroup]], the number of terms in the free product, and the product of the orders of the factors.
+*The number of different ''n''-term Egyptian fraction representations of the number one is bounded above and below by [[double exponential function]]s of ''n''.{{sfnp|Konyagin|2014}}
+
+==Open problems==
+:''For more information on this subject, see [[odd greedy expansion]] and [[Erdős–Straus conjecture]].''
+
+Some notable problems remain unsolved with regard to Egyptian fractions, despite considerable effort by mathematicians.
+
+* The [[Erdős–Straus conjecture]]{{sfnp|Erdős|1950}} concerns the length of the shortest expansion for a fraction of the form 4/''n''. Does an expansion
+::&lt;math&gt;\frac4n=\frac1x+\frac1y+\frac1z&lt;/math&gt;
+:exist for every ''n''? It is known to be true for all ''n'' &lt; 10&lt;sup&gt;14&lt;/sup&gt;, and for all but a vanishingly small fraction of possible values of ''n'', but the general truth of the conjecture remains unknown.
+* It is unknown whether an [[odd greedy expansion]] exists for every fraction with an odd denominator. If Fibonacci's greedy method is modified so that it always chooses the smallest possible ''odd'' denominator, under what conditions does this modified algorithm produce a finite expansion? An obvious necessary condition is that the starting fraction ''x''/''y'' have an odd denominator ''y'', and it is conjectured but not known that this is also a sufficient condition. It is known&lt;ref&gt;{{harvtxt|Breusch|1954}}; {{harvtxt|Stewart|1954}}&lt;/ref&gt; that every ''x''/''y'' with odd ''y'' has an expansion into distinct odd unit fractions, constructed using a different method than the greedy algorithm.
+* It is possible to use [[brute-force search]] algorithms to find the Egyptian fraction representation of a given number with the fewest possible terms{{sfnp|Stewart|1992}} or minimizing the largest denominator; however, such algorithms can be quite inefficient. The existence of [[polynomial time]] algorithms for these problems, or more generally the [[Analysis of algorithms|computational complexity]] of such problems, remains unknown.
+
+{{harvtxt|Guy|2004}} describes these problems in more detail and lists numerous additional open problems.
+
+==Other application==
+Egyptian fractions provide a solution to the [[rope-burning timer puzzle]], in which a given duration is to be measured by igniting non-uniform ropes which burn out after a set time, say, one hour. The time taken to fully burn a rope is linearly proportional to the number of flame fronts maintained on the rope. Any rational fraction of one hour can be timed by finding the equivalent Egyptian fraction expansion and sequentially burning ropes with the appropriate number of flame fronts for the fractions. The usual restriction that every fraction is different may be relaxed.&lt;ref&gt;Alan Graham, [https://books.google.com/books?isbn=1444133977 ''The Sum of You: Teach Yourself''] p.130, Hodder Education, 2011&lt;/ref&gt;
+
+For example, to time 40 minutes (2/3 hour), we can decompose 2/3 into 1/2 + 1/6. First, a one-hour rope is lit at both ends. When it burns out in 1/2 hour, another rope is lit at both ends and any two points in between, giving three segments, each with both ends burning. When any segment burns out, any point in a remaining segment is lit, splitting it into two segments, thus maintaining a total of six flame fronts. In theory, all segments burn out in 1/6 hour, giving a total of 2/3 hour as required.
+
+==See also==
+*[[List of sums of reciprocals]]
+
+==Notes==
+{{reflist|30em}}
+
+==References==
+{{refbegin|30em}}
+*{{citation
+ | last1 = Anshel | first1 = Michael M.
+ | last2 = Goldfeld | first2 = Dorian | author2-link = Dorian M. Goldfeld
+ | doi = 10.1090/S0002-9939-1991-1065083-1
+ | mr = 1065083
+ | issue = 4
+ | journal = Proceedings of the American Mathematical Society
+ | pages = 889–899
+ | title = Partitions, Egyptian fractions, and free products of finite abelian groups
+ | volume = 111
+ | year = 1991}}.
+*{{citation
+ | last = Beeckmans | first = L.
+ | doi = 10.1006/jnth.1993.1015
+ | mr = 1207497
+ | journal = [[Journal of Number Theory]]
+ | pages = 173–185
+ | title = The splitting algorithm for Egyptian fractions
+ | volume = 43
+ | year = 1993
+ | issue = 2}}.
+*{{citation
+ | doi = 10.2307/2688508
+ | last = Botts | first = Truman
+ | mr = 0209217
+ | issue = 2
+ | journal = [[Mathematics Magazine]]
+ | pages = 55–65
+ | title = A chain reaction process in number theory
+ | jstor = 2688508
+ | volume = 40
+ | year = 1967}}.
+*{{citation
+ | last = Breusch | first = R. | author-link = Robert Breusch
+ | journal = [[American Mathematical Monthly]]
+ | pages = 200–201
+ | title = A special case of Egyptian fractions, solution to advanced problem 4512
+ | volume = 61
+ | doi = 10.2307/2307234
+ | year = 1954}}.
+*{{citation
+ | last = Bruins | first = Evert M.
+ | journal = [[Janus (journal)|Janus]]
+ | language = French
+ | pages = 253–263
+ | title = Platon et la table égyptienne 2/''n''
+ | trans-title = Plato and the Egyptian 2/''n'' table
+ | volume = 46
+ | year = 1957}}.
+*{{citation
+ | last1 = Butler | first1 = Steve | author1-link = Steve Butler (mathematician)
+ | last2 = Erdős | first2 = Paul | author2-link = Paul Erdős
+ | last3 = Graham | first3 = Ron | author3-link = Ronald Graham
+ | journal = Integers
+ | mr = 3437526
+ | page = Paper No. A51, 9
+ | title = Egyptian fractions with each denominator having three distinct prime divisors
+ | url = https://www.math.ucsd.edu/~ronspubs/pre_tres_egyptian.pdf
+ | volume = 15
+ | year = 2015}}.
+*{{citation|first=P.|last= Erdős |authorlink=Paul Erdős |title=Egy Kürschák-féle elemi számelméleti tétel általánosítása|trans-title=Generalization of an elementary number-theoretic theorem of Kürschák|language=Hungarian|journal=Mat. Fiz. Lapok|volume=39|year=1932|pages=17–24|url=https://www.renyi.hu/~p_erdos/1932-02.pdf}}.
+*{{citation
+ | last = Erdős | first = Pál | authorlink = Paul Erdős
+ | journal = Matematikai Lapok
+ | mr = 0043117
+ | pages = 192–210
+ | title = Az &lt;math&gt;\frac{1}{x_1}+\frac{1}{x_2}+\cdots+\frac{1}{x_n}=\frac{a}{b}&lt;/math&gt; egyenlet egész számú megoldásairól
+ | trans-title = On a Diophantine equation
+ | language = Hungarian
+ | url = https://www.renyi.hu/~p_erdos/1950-02.pdf
+ | volume = 1
+ | year = 1950}}.
+*{{citation
+ | last = Eves | first = Howard | author-link = Howard Eves
+ | isbn = 0-03-029558-0
+ | publisher = Holt, Reinhard, and Winston
+ | title = An Introduction to the History of Mathematics
+ | year = 1953}}.
+*{{citation
+ | last = Gardner | first = Milo
+ | contribution = The Egyptian Mathematical Leather Roll, attested short term and long term
+ | editor-last = Gratton-Guinness| editor-first = Ivor
+ | isbn = 81-85931-45-3
+ | pages = 119–134
+ | publisher = Hindustan Book Co
+ | title = History of the Mathematical Sciences
+ | year = 2002}}
+*{{citation
+ | last = Gillings | first = Richard J.
+ | isbn = 978-0-486-24315-3
+ | publisher = Dover
+ | title = Mathematics in the Time of the Pharaohs
+ | page = 50
+ | url = {{Google books|DoDMIVUIYFwC|page=50|plainurl=yes}}
+ | year = 1982}}.
+*{{citation
+ | last = Graham | first = R. L. | author-link = Ronald Graham
+ | mr = 0159788
+ | issue = 1
+ | journal = [[Pacific Journal of Mathematics]]
+ | pages = 85–92
+ | title = On finite sums of reciprocals of distinct ''n''th powers
+ | url = http://www.math.ucsd.edu/~ronspubs/64_07_reciprocals.pdf
+ | volume = 14
+ | year = 1964
+ | doi=10.2140/pjm.1964.14.85}}.
+*{{citation
+ | last = Graham | first = Ronald L. | authorlink = Ronald Graham
+ | contribution = Paul Erdős and Egyptian fractions
+ | doi = 10.1007/978-3-642-39286-3_9
+ | mr = 3203600
+ | pages = 289–309
+ | publisher = János Bolyai Math. Soc., Budapest
+ | series = Bolyai Soc. Math. Stud.
+ | title = Erdös centennial
+ | contribution-url = http://www.math.ucsd.edu/~ronspubs/13_03_Egyptian.pdf
+ | volume = 25
+ | year = 2013}}.
+*{{citation
+ | last = Guy | first = Richard K. | author-link = Richard K. Guy
+ | contribution = D11. Egyptian Fractions
+ | edition = 3rd
+ | isbn = 978-0-387-20860-2
+ | pages = 252–262
+ | publisher = Springer-Verlag
+ | title = Unsolved problems in number theory
+ | year = 2004}}.
+*{{citation
+ | last = Hultsch | first = Friedrich | author-link = Friedrich Hultsch
+ | issue = 1
+ | journal = Abhandlungen der philologisch-historischen Classe der Königlich-Sächsischen Gesellschaft der Wissenschaften, Sächsische Akademie der Wissenschaften zu Leipzig Philologisch-Historische Klasse
+ | language = German
+ | location = Leipzig
+ | publisher = S. Hirzel
+ | title = Die Elemente der ägyptischen Theilungsrechnung: Erste Anhandlung
+ | volume = 17
+ | year = 1895}}.
+*{{citation|editor-first=V.|editor-last=Katz|title=The Mathematics of Egypt, Mesopotamia, China, India, and Islam: A Sourcebook|location=Princeton|publisher=Princeton University Press|year=2007}}.
+*{{citation
+ | last = Knorr | first = Wilbur R. | author-link = Wilbur Knorr
+ | doi = 10.1016/0315-0860(82)90001-5
+ | mr = 0662138
+ | journal = [[Historia Mathematica]]
+ | pages = 133–171
+ | title = Techniques of fractions in ancient Egypt and Greece
+ | volume = 9
+ | year = 1982
+ | issue = 2}}.
+*{{citation
+ | last = Konyagin | first = S. V. | authorlink = Sergei Konyagin
+ | doi = 10.1134/S0001434614010295
+ | issue = 1-2
+ | journal = [[Mathematical Notes]]
+ | mr = 3267215
+ | pages = 277–281
+ | title = Double exponential lower bound for the number of representations of unity by Egyptian fractions
+ | volume = 95
+ | year = 2014}}.
+*{{citation
+ | last = Martin | first = G.
+ | doi = 10.1090/S0002-9947-99-02327-2
+ | mr = 1608486
+ | journal = [[Transactions of the American Mathematical Society]]
+ | pages = 3641–3657
+ | title = Dense Egyptian fractions
+ | volume = 351
+ | year = 1999
+ | issue = 9| arxiv = math/9804045
+ }}.
+*{{citation|last=Ritter|first=Jim|contribution=Closing the Eye of Horus: the Rise and Fall of 'Horus-Eye Fractions'|title=Under One Sky: Astronomy and Mathematics in the ancient Near East|editor1-first=J.|editor1-last=Steele|editor2-first=A.|editor2-last=Imhausen|editor2-link=Annette Imhausen|location=Münster|publisher=Ugarit-Verlag|year=2002|pages=297–323}}.
+*{{citation|editor1-first=E.|editor1-last=Robson|editor1-link=Eleanor Robson|editor2-first=J.|editor2-last=Stedall|title=The Oxford Handbook of the History of Mathematics|location=Oxford|publisher=Oxford University Press|year=2009}}.
+*{{citation
+ | last = Sigler | first = Laurence E. (trans.)
+ | isbn = 0-387-95419-8
+ | publisher = Springer-Verlag
+ | title = Fibonacci's Liber Abaci
+ | year = 2002}}
+*{{citation
+ | last = Stewart | first = B. M. | authorlink = Bonnie Stewart
+ | doi = 10.2307/2372651
+ | mr = 0064800
+ | issue = 4
+ | journal = [[American Journal of Mathematics]]
+ | jstor = 2372651
+ | pages = 779–785
+ | title = Sums of distinct divisors
+ | volume = 76
+ | year = 1954}}.
+*{{citation
+ | last = Stewart | first = I. | author-link = Ian Stewart (mathematician)
+ | issue = June
+ | journal = [[Scientific American]]
+ | pages = 122–124
+ | title = The riddle of the vanishing camel
+ | year = 1992}}.
+*{{citation
+ | last = Struik | first = Dirk J. | author-link = Dirk Jan Struik
+ | isbn = 0-486-60255-9
+ | pages = 20–25
+ | publisher = Dover
+ | title = A Concise History of Mathematics
+ | year = 1967}}.
+*{{citation
+ | last = Takenouchi | first = T.
+ | doi = 10.11429/ppmsj1919.3.6_78
+ | journal = Proceedings of the Physico-Mathematical Society of Japan
+ | series = 3rd ser.
+ | pages = 78–92
+ | title = On an indeterminate equation
+ | volume = 3
+ | issue = 6
+ | year = 1921}}.
+*{{citation
+ | last1 = Tenenbaum | first1 = G. | author1-link = Gérald Tenenbaum
+ | last2 = Yokota | first2 = H.
+ | doi = 10.1016/0022-314X(90)90109-5
+ | mr = 1057319
+ | journal = [[Journal of Number Theory]]
+ | pages = 150–156
+ | title = Length and denominators of Egyptian fractions
+ | volume = 35
+ | year = 1990
+ | issue = 2}}.
+*{{citation
+ | last = Vose | first = M.
+ | doi = 10.1112/blms/17.1.21
+ | mr = 0766441
+ | journal = [[London Mathematical Society|Bulletin of the London Mathematical Society]]
+ | page = 21
+ | title = Egyptian fractions
+ | volume = 17
+ | year = 1985}}.
+*{{citation
+ | last = Wagon | first = Stan | authorlink = Stan Wagon
+ | isbn = 0-387-98684-7
+ | pages = 321–329
+ | publisher = Springer
+ | title = Mathematica in Action
+ | year = 1999}}.
+*{{citation
+ | last = Yokota | first = Hisashi
+ | doi = 10.1016/0022-314X(88)90017-0
+ | issue = 2
+ | journal = Journal of Number Theory
+ | mr = 961916
+ | pages = 198–207
+ | title = On a problem of Bleicher and Erdős
+ | volume = 30
+ | year = 1988}}.
+{{refend}}
+
+==External links==
+*{{citation
+ | last = Brown | first = Kevin
+ | title = Egyptian Unit Fractions
+ | url = http://www.mathpages.com/home/kmath340/kmath340.htm}}.
+*{{citation
+ | last = Eppstein | first = David | author-link = David Eppstein
+ | title = Egyptian Fractions
+ | url = http://www.ics.uci.edu/~eppstein/numth/egypt/}}.
+*{{citation
+ | last = Knott | first = Ron
+ | title = Egyptian fractions
+ | url = http://www.maths.surrey.ac.uk/hosted-sites/R.Knott/Fractions/egyptian.html}}.
+*{{mathworld|urlname=EgyptianFraction|title=Egyptian Fraction}}
+*{{citation
+ | last = Giroux | first = André
+ | title = Egyptian Fractions
+ | url = http://demonstrations.wolfram.com/EgyptianFractions/}} and  {{citation
+ | last = Zeleny | first = Enrique
+ | title = Algorithms for Egyptian Fractions
+ | url = http://demonstrations.wolfram.com/AlgorithmsForEgyptianFractions/}}, [[The Wolfram Demonstrations Project]], based on programs by [[David Eppstein]].
+
+[[Category:Egyptian fractions| ]]
+[[Category:Egyptian mathematics| ]]
+[[Category:Recreational mathematics]]
+[[Category:Number theory]]</text>
+      <sha1>67b4dzbms06444kpdrr5ah1vcmmlhks</sha1>
+    </revision>
+  </page>
+</mediawiki>

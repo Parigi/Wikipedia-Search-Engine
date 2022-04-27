@@ -1,0 +1,325 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.10/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.10/ http://www.mediawiki.org/xml/export-0.10.xsd" version="0.10" xml:lang="en">
+  <siteinfo>
+    <sitename>Wikipedia</sitename>
+    <dbname>enwiki</dbname>
+    <base>https://en.wikipedia.org/wiki/Main_Page</base>
+    <generator>MediaWiki 1.35.0-wmf.36</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Media</namespace>
+      <namespace key="-1" case="first-letter">Special</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Talk</namespace>
+      <namespace key="2" case="first-letter">User</namespace>
+      <namespace key="3" case="first-letter">User talk</namespace>
+      <namespace key="4" case="first-letter">Wikipedia</namespace>
+      <namespace key="5" case="first-letter">Wikipedia talk</namespace>
+      <namespace key="6" case="first-letter">File</namespace>
+      <namespace key="7" case="first-letter">File talk</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki talk</namespace>
+      <namespace key="10" case="first-letter">Template</namespace>
+      <namespace key="11" case="first-letter">Template talk</namespace>
+      <namespace key="12" case="first-letter">Help</namespace>
+      <namespace key="13" case="first-letter">Help talk</namespace>
+      <namespace key="14" case="first-letter">Category</namespace>
+      <namespace key="15" case="first-letter">Category talk</namespace>
+      <namespace key="100" case="first-letter">Portal</namespace>
+      <namespace key="101" case="first-letter">Portal talk</namespace>
+      <namespace key="108" case="first-letter">Book</namespace>
+      <namespace key="109" case="first-letter">Book talk</namespace>
+      <namespace key="118" case="first-letter">Draft</namespace>
+      <namespace key="119" case="first-letter">Draft talk</namespace>
+      <namespace key="446" case="first-letter">Education Program</namespace>
+      <namespace key="447" case="first-letter">Education Program talk</namespace>
+      <namespace key="710" case="first-letter">TimedText</namespace>
+      <namespace key="711" case="first-letter">TimedText talk</namespace>
+      <namespace key="828" case="first-letter">Module</namespace>
+      <namespace key="829" case="first-letter">Module talk</namespace>
+      <namespace key="2300" case="first-letter">Gadget</namespace>
+      <namespace key="2301" case="first-letter">Gadget talk</namespace>
+      <namespace key="2302" case="case-sensitive">Gadget definition</namespace>
+      <namespace key="2303" case="case-sensitive">Gadget definition talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Round-off error</title>
+    <ns>0</ns>
+    <id>432450</id>
+    <revision>
+      <id>952829121</id>
+      <parentid>952171137</parentid>
+      <timestamp>2020-04-24T08:09:27Z</timestamp>
+      <contributor>
+        <username>Commuter3</username>
+        <id>38783874</id>
+      </contributor>
+      <minor/>
+      <comment>Simplify wikitext</comment>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="26496" xml:space="preserve">{{for|the acrobatic movement, roundoff|Roundoff}}
+{{Use dmy dates|date=August 2019|cs1-dates=y}}
+A '''roundoff error''',&lt;ref&gt;{{citation |title=Introduction to Numerical Analysis Using MATLAB |author-first=Rizwan |author-last=Butt |publisher=Jones &amp; Bartlett Learning |date=2009 |isbn=978-0-76377376-2 |pages=11–18 |url=https://books.google.com/books?id=QWub-UVGxqkC&amp;pg=PA11}}&lt;/ref&gt; also called '''rounding error''',&lt;ref&gt;{{citation |title=Numerical Computation 1: Methods, Software, and Analysis |author-first=Christoph W. |author-last=Ueberhuber |publisher=Springer |date=1997 |isbn=978-3-54062058-7 |url=https://books.google.com/books?id=JH9I7EJh3JUC&amp;pg=PA139 |pages=139–146}}&lt;/ref&gt; is the difference between the result produced by a given [[algorithm]] using exact arithmetic and the result produced by the same algorithm using finite-precision, rounded arithmetic.&lt;ref name="Forrester_2018"&gt;{{cite book |title= Math/Comp241 Numerical Methods (lecture notes) |author-first=Dick |author-last=Forrester |publisher=[[Dickinson College]] |date=2018}}&lt;/ref&gt; Rounding errors are due to inexactness in the representation of real numbers and the arithmetic operations done with them. This is a form of [[quantization error]].&lt;ref&gt;{{citation |title=Information Technology in Theory |author-first1=Pelin |author-last1=Aksoy |author-first2=Laura |author-last2=DeNardis |publisher=Cengage Learning |date=2007 |isbn=978-1-42390140-2 |page=134 |url=https://books.google.com/books?id=KGS5IcixljwC&amp;pg=PA134}}&lt;/ref&gt; When using approximation [[equation]]s or algorithms, especially when using finitely many digits to represent real numbers (which in theory have infinitely many digits), one of the goals of [[numerical analysis]] is to [[error analysis (mathematics)|estimate]] computation errors.&lt;ref&gt;{{citation |title=A First Course in Numerical Analysis |edition=2nd |series=Dover Books on Mathematics |author-first1=Anthony |author-last1=Ralston |author-first2=Philip |author-last2=Rabinowitz |publisher=Courier Dover Publications |date=2012 |isbn=978-0-48614029-2 |url=https://books.google.com/books?id=TVq8AQAAQBAJ&amp;pg=PA2 |pages=2–4}}&lt;/ref&gt; Computation errors, also called [[numerical error]]s, include both [[truncation error]]s and roundoff errors. 
+
+When a sequence of calculations with an input involving roundoff error are made, errors may accumulate, sometimes dominating the calculation. In [[ill-conditioned]] problems, significant error may accumulate.&lt;ref&gt;{{citation |title=MATLAB Programming with Applications for Engineers |author-first=Stephen |author-last=Chapman |publisher=Cengage Learning |date=2012 |isbn=978-1-28540279-6 |url=https://books.google.com/books?id=of8KAAAAQBAJ&amp;pg=PA454 |page=454}}&lt;/ref&gt;
+
+In short, there are two major facets of roundoff errors involved in numerical calculations:&lt;ref name="Chapra_2012"&gt;{{cite book |author-last=Chapra |author-first=Steven |title=Applied Numerical Methods with MATLAB for Engineers and Scientists |publisher=The McGraw-Hill Companies, Inc. |date=2012 |isbn=9780073401102 |edition=3rd}}&lt;/ref&gt;
+# Digital computers have magnitude and precision limits on their ability to represent numbers.
+# Certain numerical manipulations are highly sensitive to roundoff errors. This can result from both mathematical considerations as well as from the way in which computers perform arithmetic operations.
+
+== Representation error ==
+
+The error introduced by attempting to represent a number using a finite string of digits is a form of roundoff error called '''representation error'''.&lt;ref name="Laplante_2000"&gt;{{cite book |title=Dictionary of Computer Science, Engineering and Technology |first=Philip A. |last=Laplante |publisher=[[CRC Press]] |date=2000 |isbn=978-0-84932691-2 |page=420 |url=https://books.google.com/books?id=U1M3clUwCfEC&amp;pg=PA420}}&lt;/ref&gt; Here are some examples of representation error in decimal representations:
+
+{| class="wikitable" style="margin:1em auto"
+! Notation
+! Representation
+! Approximation
+! Error
+|-
+|1/7 || 0.{{overline|142 857}} || 0.142 857 || 0.000 000 {{overline|142 857}}
+|-
+|[[Natural logarithm|ln 2]] || 0.693 147 180 559 945 309 41...   || 0.693 147 || 0.000 000 180 559 945 309 41...
+|-
+|[[Logarithm|log&lt;sub&gt;10&lt;/sub&gt; 2]] || 0.301 029 995 663 981 195 21...   || 0.3010 || 0.000 029 995 663 981 195 21...
+|-
+|[[cube root|{{radic|2|3}}]] || 1.259 921 049 894 873 164 76...   || 1.25992 || 0.000 001 049 894 873 164 76...
+|-
+|[[square root|{{radic|2}}]] || 1.414 213 562 373 095 048 80...   || 1.41421 || 0.000 003 562 373 095 048 80...
+|-
+|[[E (mathematical constant)|''e'']] || 2.718 281 828 459 045 235 36...   || 2.718 281 828 459 045   || 0.000 000 000 000 000 235 36...
+|-
+|[[Pi|''π'']] || 3.141 592 653 589 793 238 46...   || 3.141 592 653 589 793 || 0.000 000 000 000 000 238 46...
+|}
+
+Increasing the number of digits allowed in a representation reduces the magnitude of possible roundoff errors, but any representation limited to finitely many digits will still cause some degree of roundoff error for [[Countable|uncountably many]] real numbers. Additional digits used for intermediary steps of a calculation are known as [[guard digit]]s.&lt;ref name="Higham_2002"&gt;{{cite book |title=Accuracy and Stability of Numerical Algorithms |edition=2 |author-first=Nicholas John |author-link=Nicholas Higham |author-last=Higham |publisher=[[Society for Industrial and Applied Mathematics]] (SIAM) |date=2002 |isbn=978-0-89871521-7 |pages=43–44 |url=https://books.google.com/books?id=epilvM5MMxwC&amp;pg=PA43}}&lt;/ref&gt;
+
+Rounding multiple times can cause error to accumulate.&lt;ref name="Volkov_1990"&gt;{{cite book |title=Numerical Methods |author-first=E. A. |author-last=Volkov |publisher=[[Taylor &amp; Francis]] |date=1990 |isbn=978-1-56032011-1 |page=24 |url=https://books.google.com/books?id=ubfrNN8GGOIC&amp;pg=PA24}}&lt;/ref&gt; For example, if 9.945309 is rounded to two decimal places (9.95), then rounded again to one decimal place (10.0), the total error is 0.054691. Rounding 9.945309 to one decimal place (9.9) in a single step introduces less error (0.045309). This commonly occurs when performing arithmetic operations (See [[Loss of significance|Loss of Significance]]).
+
+== Floating-point number system ==
+
+Compared with the [[fixed-point arithmetic|fixed-point number system]], the [[floating-point arithmetic | floating-point number system]] is more efficient in representing real numbers so it is widely used in modern computers. While the real numbers &lt;math&gt;\mathbb{R}&lt;/math&gt; are infinite and continuous, a floating-point number system &lt;math&gt;F&lt;/math&gt; is finite and discrete. Thus, representation error, which leads to roundoff error, occurs under the floating-point number system. 
+
+=== Notation of floating-point number system ===
+A floating-point number system &lt;math&gt;F&lt;/math&gt; is characterized by &lt;math&gt;4&lt;/math&gt; integers:
+:&lt;math&gt; \beta &lt;/math&gt;: base or radix
+:&lt;math&gt;p&lt;/math&gt;: precision
+:&lt;math&gt; [L, U] &lt;/math&gt;: exponent range, where &lt;math&gt;L&lt;/math&gt; is the lower bound and &lt;math&gt;U&lt;/math&gt; is the upper bound
+
+* Any &lt;math&gt;x \in F&lt;/math&gt; has the following form: 
+:&lt;math&gt; x = \pm (\underbrace{d_{0}.d_{1}d_{2}\ldots d_{p-1}}_\text{mantissa})_{\beta}  \times \beta ^{\overbrace{E}^\text{exponent}} = \pm d_{0}\times \beta ^{E}+d_{1}\times \beta ^{E-1}+\ldots+ d_{p-1}\times \beta ^{E-(p-1)}&lt;/math&gt;
+:where &lt;math&gt;d_{i}&lt;/math&gt; is an integer such that &lt;math&gt;0 \leq d_{i} \leq \beta-1&lt;/math&gt; for &lt;math&gt;i=0, 1, \ldots, p-1&lt;/math&gt;, and &lt;math&gt;E&lt;/math&gt; is an integer such that &lt;math&gt;L \leq E \leq U&lt;/math&gt;.
+
+=== Normalized floating-number system ===
+
+* A floating-point number system is normalized if the leading digit &lt;math&gt;d_{0}&lt;/math&gt; is always nonzero unless the number is zero.&lt;ref name="Forrester_2018"/&gt; Since the mantissa is &lt;math&gt;d_{0}.d_{1}d_{2}\ldots d_{p-1}&lt;/math&gt;, the mantissa of a nonzero number in a normalized system satisfies &lt;math&gt;1 \leq \text{ mantissa } &lt; \beta&lt;/math&gt;. Thus, the normalized form of a nonzero [[Institute of Electrical and Electronics Engineers|IEEE]] floating-point number is &lt;math&gt;\pm 1.bb \ldots b \times 2^{E}&lt;/math&gt; where &lt;math&gt;b \in {0, 1}&lt;/math&gt;. In binary, the leading digit is always &lt;math&gt;1&lt;/math&gt; so it is not written out and is called the implicit bit. This gives an extra bit of precision so that the roundoff error caused by representation error is reduced. 
+
+* Since floating-point number system &lt;math&gt;F&lt;/math&gt; is finite and discrete, it cannot represent all real numbers which means infinite real numbers can only be approximated by some finite numbers through [[rounding|rounding rule]]s. The floating-point approximation of a given real number &lt;math&gt;x&lt;/math&gt; by &lt;math&gt;fl(x)&lt;/math&gt; can be denoted.
+** The total number of normalized floating-point numbers is 
+::&lt;math&gt;2(\beta -1)\beta^{p-1} (U-L+1)+1&lt;/math&gt;, where
+::: &lt;math&gt;2&lt;/math&gt; counts choice of sign, being positive or negative
+::: &lt;math&gt;(\beta -1)&lt;/math&gt; counts choice of the leading digit
+::: &lt;math&gt;\beta^{p-1}&lt;/math&gt; counts remaining mantissa
+::: &lt;math&gt;U-L+1&lt;/math&gt; counts choice of exponents
+::: &lt;math&gt;1&lt;/math&gt; counts the case when the number is &lt;math&gt;0&lt;/math&gt;.
+
+=== IEEE standard ===
+
+In the [[Institute of Electrical and Electronics Engineers|IEEE]] standard the base is binary, i.e. &lt;math&gt;\beta = 2&lt;/math&gt;, and normalization is used. The IEEE standard stores the sign, exponent, and mantissa in separate fields of a floating point word, each of which has a fixed width (number of bits). The two most commonly used levels of precision for floating-point numbers are single precision and double precision. 
+{| class="wikitable" style="margin:1em auto"
+! Precision
+! Sign (bits)
+! Exponent (bits)
+! Mantissa (bits)
+|-
+|Single || 1 || 8 || 23 
+|-
+|Double || 1 || 11 || 52
+|}
+
+== Machine epsilon ==
+
+[[Machine epsilon]] can be used to measure the level of roundoff error in the floating-point number system. Here are two different definitions.&lt;ref name="Forrester_2018"/&gt;
+
+* The machine epsilon, denoted &lt;math&gt;\epsilon_{mach}&lt;/math&gt;, is the maximum possible [[approximation error|absolute relative error]] in representing a nonzero real number &lt;math&gt;x&lt;/math&gt; in a floating-point number system. 
+:&lt;math&gt;\epsilon_{mach} = \max_{x} \frac{|x-fl(x)|}{|x|}&lt;/math&gt;
+
+* The machine epsilon, denoted &lt;math&gt;\epsilon_{mach}&lt;/math&gt;, is the smallest number &lt;math&gt;\epsilon&lt;/math&gt; such that &lt;math&gt;fl(1+\epsilon) &gt; 1&lt;/math&gt;. Thus, &lt;math&gt;fl(1+\delta)=fl(1)=1&lt;/math&gt; whenever &lt;math&gt;|\delta| &lt; \epsilon_{mach}&lt;/math&gt;. 
+
+== Roundoff error under different rounding rules ==
+
+There are two common rounding rules, round-by-chop and round-to-nearest. The IEEE standard uses round-to-nearest. 
+
+* '''Round-by-chop''': The base-&lt;math&gt;\beta&lt;/math&gt; expansion of &lt;math&gt;x&lt;/math&gt; is truncated after the &lt;math&gt;(p-1)^{th}&lt;/math&gt; digit. 
+** This rounding rule is biased because it always moves the result toward zero.
+
+* '''Round-to-nearest''': &lt;math&gt;fl(x)&lt;/math&gt; is set to the nearest floating-point number to &lt;math&gt;x&lt;/math&gt;. When there is a tie, the floating-point number whose last stored digit is even is used. 
+** For IEEE standard where the base &lt;math&gt;\beta&lt;/math&gt; is &lt;math&gt;2&lt;/math&gt;, this means when there is a tie it is rounded so that the last digit is equal to &lt;math&gt;0&lt;/math&gt;. 
+** This rounding rule is more accurate but more computationally expensive. 
+** Rounding so that the last stored digit is even when there is a tie ensures that it is not rounded up or down systematically. This is to try to avoid the possibility of an unwanted slow drift in long calculations due simply to a biased rounding. 
+
+* The following example illustrates the level of roundoff error under the two rounding rules.&lt;ref name="Forrester_2018"/&gt; The rounding rule, round-to-nearest, leads to less roundoff error in general. 
+{| class="wikitable" style="margin:1em auto"
+! x
+! Round-by-chop
+! Roundoff Error
+! Round-to-nearest
+! Roundoff Error
+|-
+|1.649 || 1.6 || 0.049 || 1.6 || 0.049
+|-
+|1.650 || 1.6 || 0.050 || 1.6 || 0.050
+|-
+|1.651 || 1.6 || 0.051 || 1.7 || -0.049 
+|-
+|1.699 || 1.6 || 0.099 || 1.7 || -0.001
+|-
+|1.749 || 1.7 || 0.049 || 1.7 || 0.049
+|-
+|1.750 || 1.7 || 0.050 || 1.8 || -0.050
+|}
+
+=== Calculating roundoff error in IEEE standard ===
+
+Suppose the usage of round-to-nearest and IEEE double precision.
+ 
+* Example: the decimal number &lt;math&gt;(9.4)_{10}=(1001.{\overline{0110}})_{2}&lt;/math&gt; can be rearranged into 
+:&lt;math&gt;+1.\underbrace{0010110011001100110011001100110011001100110011001100}_\text{52 bits}110 \ldots \times 2^{3}&lt;/math&gt; 
+Since the &lt;math&gt;53^{rd}&lt;/math&gt; bit to the right of the binary point is a &lt;math&gt;1&lt;/math&gt; and is followed by other nonzero bits, the round-to-nearest rule requires rounding up, that is, add &lt;math&gt;1&lt;/math&gt; bit to the &lt;math&gt;52^{nd}&lt;/math&gt; bit. Thus, the normalized floating-point representation in IEEE standard of &lt;math&gt;9.4&lt;/math&gt; is 
+:&lt;math&gt;fl(9.4)=1.0010110011001100110011001100110011001100110011001101 \times 2^{3}&lt;/math&gt;. 
+
+* Now the roundoff error can be calculated when representing &lt;math&gt;9.4&lt;/math&gt; with &lt;math&gt;fl(9.4)&lt;/math&gt;. 
+This representation is derived by discarding the infinite tail 
+:&lt;math&gt;0.{\overline{1100}} \times 2^{-52}\times 2^{3} = 0.{\overline{0110}} \times 2^{-51} \times 2^{3}=0.4 \times 2^{-48}&lt;/math&gt; 
+from the right tail and then added &lt;math&gt;1 \times 2^{-52} \times 2^{3}=2^{-49}&lt;/math&gt; in the rounding step. 
+:Then &lt;math&gt;fl(9.4) = 9.4-0.4 \times 2^{-48} + 2^{-49} = 9.4+(0.2)_{10} \times 2^{-49}&lt;/math&gt;. 
+:Thus, the roundoff error is &lt;math&gt;(0.2 \times 2^{-49})_{10}&lt;/math&gt;.
+
+=== Measuring roundoff error by using machine epsilon ===
+
+The machine epsilon &lt;math&gt;\epsilon_{mach}&lt;/math&gt; can be used to measure the level of roundoff error when using the two rounding rules above. Below are the formulas and corresponding proof.&lt;ref name="Forrester_2018"/&gt; The first definition of machine epsilon is used here. 
+
+==== Theorem ====
+# Round-by-chop: &lt;math&gt;\epsilon_{mach}=\beta^{1-p}&lt;/math&gt;
+# Round-to-nearest: &lt;math&gt;\epsilon_{mach}=\frac{1}{2}\beta^{1-p}&lt;/math&gt;
+
+==== Proof ====
+Let &lt;math&gt;x=d_{0}.d_{1}d_{2} \ldots d_{p-1}d_{p} \ldots \times \beta^{n} \in \mathbb{R}&lt;/math&gt; where &lt;math&gt;n \in [L, U]&lt;/math&gt;, and let &lt;math&gt;fl(x)&lt;/math&gt; be the floating-point representation of &lt;math&gt;x&lt;/math&gt;.  
+Since round-by-chop is being used, it is
+&lt;math&gt; \begin{align}
+\frac{|x-fl(x)|}{|x|} &amp;= \frac{|d_{0}.d_{1}d_{2}\ldots d_{p-1}d_{p}d_{p+1}\ldots \times \beta^{n} - d_{0}.d_{1}d_{2}\ldots d_{p-1} \times \beta^{n}|}{|d_{0}.d_{1}d_{2}\ldots \times \beta^{n}|}\\
+&amp;= \frac{|d_{p}.d_{p+1} \ldots \times \beta^{n-p}|}{|d_{0}.d_{1}d_{2}\ldots \times \beta^{n}|}\\
+&amp;= \frac{|d_{p}.d_{p+1}d_{p+2}\ldots|}{|d_{0}.d_{1}d_{2}\ldots|} \times \beta^{-p}
+\end{align}&lt;/math&gt;* In order to determine the maximum of this quantity, the is a need to find the maximum of the numerator and the minimum of the denominator. Since &lt;math&gt;d_{0}\neq 0&lt;/math&gt; (normalized system), the minimum value of the denominator is &lt;math&gt;1&lt;/math&gt;. The numerator is bounded above by &lt;math&gt;(\beta-1).(\beta-1){\overline{(\beta-1)}}=\beta &lt;/math&gt;. Thus, &lt;math&gt;\frac{|x-fl(x)|}{|x|} \leq \frac{\beta}{1} \times \beta^{-p} = \beta^{1-p}&lt;/math&gt;. Therefore, &lt;math&gt;\epsilon=\beta^{1-p}&lt;/math&gt; for round-by-chop.
+The proof for round-to-nearest is similar.
+* Note that the first definition of machine epsilon is not quite equivalent to the second definition when using the round-to-nearest rule but it is equivalent for round-by-chop.
+
+== Roundoff error caused by floating-point arithmetic ==
+
+Even if some numbers can be represented exactly by floating-point numbers and such numbers are called '''machine numbers''', performing floating-point arithmetic may lead to roundoff error in the final result. 
+
+=== Addition ===
+
+Machine addition consists of lining up the decimal points of the two numbers to be added, adding them, and then storing the result again as a floating-point number. The addition itself can be done in higher precision but the result must be rounded back to the specified precision, which may lead to roundoff error.&lt;ref name="Forrester_2018"/&gt;
+
+For example, adding &lt;math&gt;1&lt;/math&gt; to &lt;math&gt;2^{-53}&lt;/math&gt; in IEEE double precision as follows, 
+
+&lt;math&gt;\begin{align}
+1.00\ldots 0 \times 2^{0} + 1.00\ldots 0 \times 2^{-53} &amp;= 1.\underbrace{00\ldots 0}_\text{52 bits} \times 2^{0} + 0.\underbrace{00\ldots 0}_\text{52 bits}1 \times 2^{0}\\
+&amp;= 1.\underbrace{00\ldots 0}_\text{52 bits}1\times 2^{0}
+\end{align}&lt;/math&gt;
+* This is saved as &lt;math&gt;1.\underbrace{00\ldots 0}_\text{52 bits}\times 2^{0}&lt;/math&gt; since round-to-nearest is used in IEEE standard. Therefore, &lt;math&gt;1+2^{-53}&lt;/math&gt; is equal to &lt;math&gt;1&lt;/math&gt; in IEEE double precision and the roundoff error is &lt;math&gt;2^{-53}&lt;/math&gt;. 
+
+From this example, it can be seen that roundoff error can be introduced when doing the addition of a large number and a small number because the shifting of decimal points in the mantissas to make the exponents match may cause the loss of some digits.
+
+=== Multiplication ===
+
+In general, the product of &lt;math&gt;2&lt;/math&gt; &lt;math&gt;p&lt;/math&gt;-digit mantissas contains up to &lt;math&gt;2p&lt;/math&gt; digits, so the result might not fit in the mantissa.&lt;ref name="Forrester_2018"/&gt; Thus roundoff error will be involved in the result.
+* For example, consider a normalized floating-point number system with the base &lt;math&gt;\beta=10&lt;/math&gt; and the mantissa digits are at most &lt;math&gt;2&lt;/math&gt;. Then &lt;math&gt;fl(77) = 7.7 \times 10&lt;/math&gt; and &lt;math&gt;fl(88) = 8.8 \times 10&lt;/math&gt;. Note that &lt;math&gt;77 \times 88=6776&lt;/math&gt; but &lt;math&gt;fl(6776) = 6.7 \times 10^{3}&lt;/math&gt; since there at most &lt;math&gt;2&lt;/math&gt; mantissa digits. The roundoff error would be &lt;math&gt;6776 - fl(6776)  = 6776 - 6.7 \times 10^{3}=76&lt;/math&gt;.  
+
+=== Division ===
+
+In general, the quotient of &lt;math&gt;2&lt;/math&gt; &lt;math&gt;p&lt;/math&gt;-digit mantissas may contain more than &lt;math&gt;p&lt;/math&gt;-digits.&lt;ref name="Forrester_2018"/&gt; Thus roundoff error will be involved in the result.
+* For example, if the normalized floating-point number system above is still being used, then &lt;math&gt;1/3=0.333 \ldots&lt;/math&gt; but &lt;math&gt;fl(1/3)=fl(0.333 \ldots)=3.3 \times 10^{-1}&lt;/math&gt;. So, the tail &lt;math&gt;0.333 \ldots - 3.3 \times 10^{-1}=0.00333 \ldots &lt;/math&gt; is cut off.
+
+=== Subtractive cancellation ===
+
+The subtracting of two nearly equal numbers is called '''subtractive cancellation'''.&lt;ref name="Forrester_2018"/&gt; 
+* When the leading digits are cancelled, the result may be too small to be represented exactly and it will just be represented as &lt;math&gt;0&lt;/math&gt;. 
+** For example, let &lt;math&gt;|\epsilon| &lt; \epsilon_{mach}&lt;/math&gt; and the second definition of machine epsilon is used here. What is the solution to &lt;math&gt;(1+\epsilon) - (1-\epsilon)&lt;/math&gt;?&lt;br/&gt; It is known that &lt;math&gt;1+\epsilon&lt;/math&gt; and &lt;math&gt;1-\epsilon&lt;/math&gt; are nearly equal numbers, and &lt;math&gt;(1+\epsilon) - (1-\epsilon)=1+\epsilon-1+\epsilon=2\epsilon&lt;/math&gt;. However, in the floating-point number system, &lt;math&gt;fl((1+\epsilon) - (1-\epsilon))=fl(1+\epsilon)-fl(1-\epsilon)=1-1=0&lt;/math&gt;. It can be seen that &lt;math&gt;2\epsilon&lt;/math&gt; is too small so it is represented as &lt;math&gt;0&lt;/math&gt;.
+* Even if the result is representable, the result is still regarded as "garbage". There is not much faith in this value because the most uncertainty in any floating-point number is the digits on the far right. 
+** For example, &lt;math&gt;1.99999 \times 10 ^{2}- 1.99998 \times 10^{2} = 0.00001\times10^{2} =1 \times 10^{-5}\times 10^{2}=1\times10^{-3}&lt;/math&gt;. The result &lt;math&gt;1\times10^{-3}&lt;/math&gt; is clearly representable, but there is not much faith in it.
+
+== Accumulation of roundoff error == 
+
+Errors can be magnified or accumulated when a sequence of calculations is applied on an initial input with roundoff error due to inexact representation. 
+
+=== Unstable algorithms ===
+
+An algorithm or numerical process is called '''stable''' if small changes in the input only produce small changes in the output and it is called '''unstable''' if large changes in the output
+are produced.&lt;ref name="Collins_2005"&gt;{{cite web |author-last=Collins |author-first=Charles |title=Condition and Stability |url=https://www.math.utk.edu/~ccollins/M577/Handouts/cond_stab.pdf |website=Department of Mathematics in University of Tennessee |date=2005 |access-date=2018-10-28}}&lt;/ref&gt;
+
+A sequence of calculations normally occur when running some algorithm. The amount of error in the result depends on the [[Numerical stability|stability of the algorithm]]. Roundoff error will be magnified by unstable algorithms. 
+
+For example, &lt;math&gt;y_{n}=\int_0^1 \, \frac{x^{n}}{x+5} dx&lt;/math&gt; for &lt;math&gt;n = 1, 2, \ldots, 8&lt;/math&gt; with &lt;math&gt;y_{0}&lt;/math&gt; given. It is easy to show that &lt;math&gt;y_{n}=\frac{1}{n}-5y_{n-1}&lt;/math&gt;. Suppose &lt;math&gt;y_{0}&lt;/math&gt; is our initial value and has a small representation error &lt;math&gt;\epsilon&lt;/math&gt;, which means the initial input to this algorithm is &lt;math&gt;y_{0}+\epsilon&lt;/math&gt; instead of &lt;math&gt;y_{0}&lt;/math&gt;. Then the algorithm does the following sequence of calculations. 
+:&lt;math&gt;\begin{align}
+ y_{1} &amp;= 1-5(y_{0}+\epsilon) = 1-5y_{0}-5\epsilon\\
+ y_{2} &amp;= \frac{1}{2}-5(1-5y_{0}-5\epsilon) = \frac{1}{2}-5+25y_{0}+5^{2}\epsilon\\
+ \vdots\\
+ y_{n} &amp;= \ldots + 5^{n}\epsilon
+\end{align}&lt;/math&gt;
+
+The roundoff error is amplified in succeeding calculations so this algorithm is unstable.
+
+=== Ill-conditioned problems ===
+
+[[File:Comparison1.jpg|thumb|Comparison1]]
+[[File:Comparison 2.jpg|thumb|Comparison 2]]
+
+Even if a stable algorithm is used, the solution to a problem is still inaccurate due to the accumulation of roundoff error when the problem itself is '''ill-conditioned'''. 
+
+The [[condition number]] of a problem is the ratio of the relative change in the solution to the relative change in the input.&lt;ref name="Forrester_2018"/&gt; A problem is '''well-conditioned''' if small relative changes in input result in small relative changes in the solution. Otherwise. the problem is called '''ill-conditioned'''.&lt;ref name="Forrester_2018"/&gt; In other words, a problem is called '''ill-conditioned''' if its condition number is "much larger" than &lt;math&gt;1&lt;/math&gt;. 
+
+The condition number is introduced as a measure of the roundoff errors that can result when solving ill-conditioned problems.&lt;ref name="Chapra_2012"/&gt;
+
+For example, higher-order polynomials tend to be very '''ill-conditioned''', that is, they tend to be highly sensitive to roundoff error.&lt;ref name="Chapra_2012"/&gt;
+
+In 1901, [[Carl Runge]] published a study on the dangers of higher-order polynomial interpolation. He looked at the following simple-looking function:
+:&lt;math&gt;f(x) = \frac{1}{1+25x^{2}}&lt;/math&gt;
+which is now called [[Runge's phenomenon|Runge's function]]. He took equidistantly spaced data points from this function over the interval &lt;math&gt;[-1, 1]&lt;/math&gt;. He then used interpolating polynomials of increasing order and found that as he took more points, the polynomials and the original curve differed considerably as illustrated in Figure “Comparison1” and Figure “Comparison 2”. Further, the situation deteriorated greatly as the order was increased. As shown in Figure “Comparison 2”, the fit has gotten even worse, particularly at the ends of the interval. 
+
+Click on the figures in order to see the full descriptions.
+
+=== Real world example: Patriot missile failure due to magnification of roundoff error ===
+
+[[File:Patriot Missile.png|thumb|American Patriot missile]]
+
+On 25 February 1991, during the Gulf War, an American Patriot missile battery in Dharan, Saudi Arabia, failed to intercept an incoming Iraqi Scud missile. The Scud struck an American Army barracks and killed 28 soldiers. A report of the [[Government Accountability Office]] entitled "Patriot Missile Defense: Software Problem Led to System Failure at Dhahran, Saudi Arabia" reported on the cause of the failure: an inaccurate calculation of the time since boot due to computer arithmetic errors. Specifically, the time in tenths of a second, as measured by the system's internal clock, was multiplied by 10 to produce the time in seconds. This calculation was performed using a 24-bit fixed point register. In particular, the value 1/10, which has a non-terminating binary expansion, was chopped at 24 bits after the radix point. The small chopping error, when multiplied by the large number giving the time in tenths of a second, led to a significant error. Indeed, the Patriot battery had been up around 100 hours, and an easy calculation shows that the resulting time error due to the magnified chopping error was about 0.34 seconds. (The number 1/10 equals &lt;math&gt;1/2^{4}+1/2^{5}+1/2^{8}+1/2^{9}+1/2^{12}+1/2^{13}+\ldots&lt;/math&gt;. In other words, the binary expansion of 1/10 is &lt;math&gt;0.0001100110011001100110011001100 \ldots&lt;/math&gt;. Now the 24 bit register in the Patriot stored instead &lt;math&gt;0.00011001100110011001100&lt;/math&gt; introducing an error of &lt;math&gt;0.0000000000000000000000011001100 \ldots&lt;/math&gt; binary, or about &lt;math&gt;0.000000095&lt;/math&gt; decimal. Multiplying by the number of tenths of a second in &lt;math&gt;100&lt;/math&gt; hours gives &lt;math&gt;0.000000095 \times 100 \times 60 \times 60 \times 10=0.34&lt;/math&gt;). A Scud travels at about {{val|1676}} meters per second, and so travels more than half a kilometer in this time. This was far enough that the incoming Scud was outside the "range gate" that the Patriot tracked. Ironically, the fact that the bad time calculation had been improved in some parts of the code, but not all, contributed to the problem, since it meant that the inaccuracies did not cancel.&lt;ref name="Arnold_2000"&gt;{{cite web |author-last=Arnold |author-first=Douglas |title=The Patriot Missile Failure |url=http://ta.twi.tudelft.nl/users/vuik/wi211/disasters.html |access-date=2018-10-29}}&lt;/ref&gt;
+
+== See also ==
+* [[Precision (arithmetic)]]
+* [[Truncation]]
+* [[Rounding]]
+* [[Loss of significance]]
+* [[Floating point]]
+* [[Kahan summation algorithm]]
+* [[Machine epsilon]]
+* [[Wilkinson's polynomial]]
+
+==References==
+{{reflist}}
+
+== External links ==
+* [http://mathworld.wolfram.com/RoundoffError.html Roundoff Error] at MathWorld.
+* {{cite journal |author-first=David |author-last=Goldberg |author-link=David Goldberg (PARC) |title=What Every Computer Scientist Should Know About Floating-Point Arithmetic |journal=[[ACM Computing Surveys]] |date=March 1991 |volume=23 |issue=1 |pages=5–48 |doi=10.1145/103162.103163 |url=http://perso.ens-lyon.fr/jean-michel.muller/goldberg.pdf |access-date=2016-01-20}} ([http://www.validlab.com/goldberg/paper.pdf], [http://docs.oracle.com/cd/E19957-01/806-3568/ncg_goldberg.html])
+* [http://www.devtopics.com/20-famous-software-disasters/ 20 Famous Software Disasters]
+
+{{DEFAULTSORT:RoundOff Error}}
+[[Category:Numerical analysis]]
+
+[[sv:Avrundningsfel]]</text>
+      <sha1>dbgctaw4dzs993irst4wc5ru0kl5fpf</sha1>
+    </revision>
+  </page>
+</mediawiki>

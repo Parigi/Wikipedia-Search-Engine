@@ -1,0 +1,185 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.10/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.10/ http://www.mediawiki.org/xml/export-0.10.xsd" version="0.10" xml:lang="en">
+  <siteinfo>
+    <sitename>Wikipedia</sitename>
+    <dbname>enwiki</dbname>
+    <base>https://en.wikipedia.org/wiki/Main_Page</base>
+    <generator>MediaWiki 1.35.0-wmf.36</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Media</namespace>
+      <namespace key="-1" case="first-letter">Special</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Talk</namespace>
+      <namespace key="2" case="first-letter">User</namespace>
+      <namespace key="3" case="first-letter">User talk</namespace>
+      <namespace key="4" case="first-letter">Wikipedia</namespace>
+      <namespace key="5" case="first-letter">Wikipedia talk</namespace>
+      <namespace key="6" case="first-letter">File</namespace>
+      <namespace key="7" case="first-letter">File talk</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki talk</namespace>
+      <namespace key="10" case="first-letter">Template</namespace>
+      <namespace key="11" case="first-letter">Template talk</namespace>
+      <namespace key="12" case="first-letter">Help</namespace>
+      <namespace key="13" case="first-letter">Help talk</namespace>
+      <namespace key="14" case="first-letter">Category</namespace>
+      <namespace key="15" case="first-letter">Category talk</namespace>
+      <namespace key="100" case="first-letter">Portal</namespace>
+      <namespace key="101" case="first-letter">Portal talk</namespace>
+      <namespace key="108" case="first-letter">Book</namespace>
+      <namespace key="109" case="first-letter">Book talk</namespace>
+      <namespace key="118" case="first-letter">Draft</namespace>
+      <namespace key="119" case="first-letter">Draft talk</namespace>
+      <namespace key="446" case="first-letter">Education Program</namespace>
+      <namespace key="447" case="first-letter">Education Program talk</namespace>
+      <namespace key="710" case="first-letter">TimedText</namespace>
+      <namespace key="711" case="first-letter">TimedText talk</namespace>
+      <namespace key="828" case="first-letter">Module</namespace>
+      <namespace key="829" case="first-letter">Module talk</namespace>
+      <namespace key="2300" case="first-letter">Gadget</namespace>
+      <namespace key="2301" case="first-letter">Gadget talk</namespace>
+      <namespace key="2302" case="case-sensitive">Gadget definition</namespace>
+      <namespace key="2303" case="case-sensitive">Gadget definition talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Machine epsilon</title>
+    <ns>0</ns>
+    <id>3076863</id>
+    <revision>
+      <id>956138177</id>
+      <parentid>946645793</parentid>
+      <timestamp>2020-05-11T18:06:47Z</timestamp>
+      <contributor>
+        <username>DannyS712 bot</username>
+        <id>35159807</id>
+      </contributor>
+      <minor/>
+      <comment>Task 70: Update syntaxhighlight tags - remove use of deprecated &lt;source&gt; tags</comment>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="16772" xml:space="preserve">'''Machine epsilon''' gives an upper bound on the [[Approximation error|relative error]] due to [[rounding]] in [[floating point arithmetic]]. This value characterizes [[computer arithmetic]] in the field of [[numerical analysis]], and by extension in the subject of [[computational science]].  The quantity is also called '''macheps''' or '''unit roundoff''', and it has the symbols Greek [[epsilon]] &lt;math&gt;\epsilon&lt;/math&gt; or bold Roman '''u''', respectively.
+
+==Values for standard hardware floating point arithmetics==
+
+The following values of machine epsilon apply to standard floating point formats:
+
+{|class="wikitable"
+! IEEE 754 - 2008 !! Common name !! C++ data type !! Base &lt;math&gt;b&lt;/math&gt;!! Precision &lt;math&gt;p&lt;/math&gt;!! Machine epsilon{{efn | group=table | According to Prof. Demmel, [[LAPACK]], [[Scilab]]}} &lt;math&gt;b^{-(p-1)}/2&lt;/math&gt;!! Machine epsilon{{efn | group=table | According to Prof. Higham; ISO C standard; [[C (programming language)|C]], [[C++]] and [[Python (programming language)|Python]] language constants; [[Mathematica]], [[MATLAB]] and [[GNU Octave|Octave]]; various textbooks - see below for the latter definition}} &lt;math&gt;b^{-(p-1)}&lt;/math&gt;
+|-
+|align="center"|[[Half-precision floating-point format|binary16]]|| align="right" |half precision||align="center"|&lt;em&gt;N/A&lt;/em&gt;||align="center"|2||align="center"|11 (one bit is implicit)||align="center"|2&lt;sup&gt;−11&lt;/sup&gt; ≈ 4.88e-04||align="center"|2&lt;sup&gt;−10&lt;/sup&gt; ≈ 9.77e-04
+|-
+|align="center"|[[Single-precision floating-point format|binary32]]|| align="right" |single precision||align="center"|float||align="center"|2||align="center"|24 (one bit is implicit)||align="center"|2&lt;sup&gt;−24&lt;/sup&gt; ≈ 5.96e-08||align="center"|2&lt;sup&gt;−23&lt;/sup&gt; ≈ 1.19e-07
+|-
+|align="center"|[[Double-precision floating-point format|binary64]]|| align="right" |double precision||align="center"|double||align="center"|2||align="center"|53 (one bit is implicit)||align="center"|2&lt;sup&gt;−53&lt;/sup&gt; ≈ 1.11e-16||align="center"|2&lt;sup&gt;−52&lt;/sup&gt; ≈ 2.22e-16
+|-
+|align="center"| ||align="right"|[[extended precision]], [[long double]]||align="center"|_float80&lt;ref name=xfloat&gt;[https://gcc.gnu.org/onlinedocs/gcc/Floating-Types.html#Floating-Types Floating Types - Using the GNU Compiler Collection (GCC)]&lt;/ref&gt;||align="center"|2||align="center"|64||align="center"|2&lt;sup&gt;−64&lt;/sup&gt; ≈ 5.42e-20||align="center"|2&lt;sup&gt;−63&lt;/sup&gt; ≈ 1.08e-19
+|-
+|align="center"|[[Quadruple-precision floating-point format|binary128]]|| align="right" |quad(ruple) precision||align="center"|_float128&lt;ref name=xfloat/&gt;||align="center"|2||align="center"|113 (one bit is implicit)||align="center"|2&lt;sup&gt;−113&lt;/sup&gt; ≈ 9.63e-35||align="center"|2&lt;sup&gt;−112&lt;/sup&gt; ≈ 1.93e-34
+|-
+|align="center"|[[Decimal32 floating-point format|decimal32]]||align="right"|single precision decimal||align="center"|_Decimal32&lt;ref name=decfloat&gt;[https://gcc.gnu.org/onlinedocs/gcc/Decimal-Float.html#Decimal-Float Decimal Float - Using the GNU Compiler Collection (GCC)]&lt;/ref&gt;||align="center"|10||align="center"|7||align="center"|5 × 10&lt;sup&gt;−7&lt;/sup&gt;||align="center"|10&lt;sup&gt;−6&lt;/sup&gt;
+|-
+|align="center"|[[Decimal64 floating-point format|decimal64]]||align="right"|double precision decimal||align="center"|_Decimal64&lt;ref name=decfloat/&gt;||align="center"|10||align="center"|16||align="center"|5 × 10&lt;sup&gt;−16&lt;/sup&gt;||align="center"|10&lt;sup&gt;−15&lt;/sup&gt;
+|-
+|align="center"|[[Decimal128 floating-point format|decimal128]]||align="right"|quad(ruple) precision decimal||align="center"|_Decimal128&lt;ref name=decfloat/&gt;||align="center"|10||align="center"|34||align="center"|5 × 10&lt;sup&gt;−34&lt;/sup&gt;||align="center"|10&lt;sup&gt;−33&lt;/sup&gt;
+|}
+{{notelist|group=table}}
+
+==Formal definition==
+
+''Rounding'' is a procedure for choosing the representation of a [[real number]] in a [[floating point]] number system.  For a [[number system]] and a rounding procedure, machine epsilon is the maximum [[relative error]] of the chosen rounding procedure.
+
+Some background is needed to determine a value from this definition. A floating point number system is characterized by a [[radix]] which is also called the base, &lt;math&gt;b&lt;/math&gt;, and by the [[precision (computer science)|precision]] &lt;math&gt;p&lt;/math&gt;, i.e. the number of radix &lt;math&gt;b&lt;/math&gt; digits of the [[significand]] (including any leading implicit bit). All the numbers with the same [[exponent]], &lt;math&gt;e&lt;/math&gt;, have the spacing, &lt;math&gt;b^{e-(p-1)}&lt;/math&gt;. The spacing changes at the numbers that are perfect powers of &lt;math&gt;b&lt;/math&gt;; the spacing on the side of larger [[Magnitude (mathematics)|magnitude]] is &lt;math&gt;b&lt;/math&gt; times larger than the spacing on the side of smaller magnitude.
+
+Since machine epsilon is a bound for relative error, it suffices to consider numbers with exponent &lt;math&gt;e=0&lt;/math&gt;. It also suffices to consider positive numbers. For the usual round-to-nearest kind of rounding, the absolute rounding error is at most half the spacing, or &lt;math&gt;b^{-(p-1)}/2&lt;/math&gt;. This value is the biggest possible numerator for the relative error. The [[denominator]] in the relative error is the number being rounded, which should be as small as possible to make the relative error large. The worst relative error therefore happens when rounding is applied to numbers of the form &lt;math&gt;1+a&lt;/math&gt; where &lt;math&gt;a&lt;/math&gt; is between &lt;math&gt;0&lt;/math&gt; and &lt;math&gt;b^{-(p-1)}/2&lt;/math&gt;. All these numbers round to &lt;math&gt;1&lt;/math&gt; with relative error &lt;math&gt;a/(1+a)&lt;/math&gt;. The maximum occurs when &lt;math&gt;a&lt;/math&gt; is at the upper end of its range. The &lt;math&gt;1+a&lt;/math&gt; in the denominator is negligible compared to the numerator, so it is left off for expediency, and just &lt;math&gt;b^{-(p-1)}/2&lt;/math&gt; is taken as machine epsilon. As has been shown here, the relative error is worst for numbers that round to &lt;math&gt;1&lt;/math&gt;, so machine epsilon also is called ''unit roundoff'' meaning roughly "the maximum error that can occur when rounding to the unit value".
+
+Thus, the maximum spacing between a normalised floating point number, &lt;math&gt;x&lt;/math&gt;, and an adjacent normalised number is &lt;math&gt;2\epsilon&lt;/math&gt; x &lt;math&gt;|x|&lt;/math&gt;.&lt;ref&gt;{{cite book|first=Nicholas | last=Higham |title=Accuracy and Stability of Numerical Algorithms (2 ed)| publisher=SIAM|year=2002 | pages=37 }}&lt;/ref&gt;
+
+==Arithmetic model==
+
+Numerical analysis uses machine epsilon to study the effects of rounding error. The actual errors of machine arithmetic are far too complicated to be studied directly, so instead, the following simple model is used. The IEEE arithmetic standard says all floating point operations are done as if it were possible to perform the infinite-precision operation, and then, the result is rounded to a floating point number. Suppose (1) &lt;math&gt;x&lt;/math&gt;, &lt;math&gt;y&lt;/math&gt; are floating point numbers, (2) &lt;math&gt;\bullet&lt;/math&gt; is an arithmetic operation on floating point numbers such as addition or multiplication, and (3) &lt;math&gt;\circ&lt;/math&gt; is the infinite precision operation. According to the standard, the computer calculates:
+
+:&lt;math&gt;x \bullet y = \mbox {round} (x \circ y)&lt;/math&gt;
+
+By the meaning of machine epsilon, the relative error of the rounding is at most machine epsilon in magnitude, so:
+
+:&lt;math&gt;x \bullet y = (x \circ y)(1 + z)&lt;/math&gt;
+
+where &lt;math&gt;z&lt;/math&gt; in absolute magnitude is at most &lt;math&gt;\epsilon&lt;/math&gt; or '''u'''. The books by Demmel and Higham in the references can be consulted to see how this model is used to analyze the errors of, say, Gaussian elimination.
+
+==Variant definitions==
+The IEEE standard does not define the terms ''machine epsilon'' and ''unit roundoff'', so differing definitions of these terms are in use, which can cause some confusion.
+
+The definition given here for ''machine epsilon'' is the one used by Prof. [[James Demmel]] in lecture scripts&lt;ref&gt;{{cite web|url=http://www.cs.berkeley.edu/~demmel/cs267/lecture21/lecture21.html|title=Basic Issues in Floating Point Arithmetic and Error Analysis|date=21 Oct 1999|accessdate=11 Apr 2013}}&lt;/ref&gt;, the ''LAPACK'' linear algebra package,&lt;ref&gt;{{cite web| url=http://www.netlib.org/lapack/lug/node74.html|title=LAPACK Users' Guide Third Edition|date=22 August 1999 |accessdate=9 March 2012 }}&lt;/ref&gt; numerics research papers&lt;ref&gt;{{cite web|title=David Goldberg: What Every Computer Scientist Should Know About Floating-Point Arithmetic, ACM Computing Surveys, Vol 23, No 1, March 1991|url=https://www.ualberta.ca/~kbeach/phys420_580_2010/docs/ACM-Goldberg.pdf|accessdate=11 Apr 2013}}&lt;/ref&gt; and some scientific computing software.&lt;ref&gt;{{cite web|url=http://help.scilab.org/docs/5.3.3/en_US/number_properties.html|title=Scilab documentation - number_properties - determine floating-point parameters|accessdate=11 Apr 2013}}&lt;/ref&gt;  Most numerical analysts use the words ''machine epsilon'' and ''unit roundoff'' interchangeably with this meaning.
+
+The following different definition is much more widespread outside academia: ''Machine epsilon is defined as the difference between 1 and the next larger floating point number.''  By this definition, &lt;math&gt;\epsilon&lt;/math&gt; equals the value of the [[unit in the last place]] relative to 1, i.e. &lt;math&gt;b^{-(p-1)}&lt;/math&gt;,&lt;ref&gt;note that here p is defined as the precision, i.e. the total number of bits in the significand including implicit leading bit, as used in the table above&lt;/ref&gt; and the unit roundoff is '''u'''&lt;math&gt;= \epsilon/2&lt;/math&gt;, assuming round-to-nearest mode.  The prevalence of this definition is rooted in its use in the ISO C Standard for constants relating to floating-point types&lt;ref&gt;{{cite book|last=Jones|first=Derek M.|year=2009|url=http://www.coding-guidelines.com/cbook/cbook1_2.pdf|title=The New C Standard - An Economic and Cultural Commentary|page=377}}&lt;/ref&gt;&lt;ref&gt;{{cite web|url=http://www.cplusplus.com/reference/cfloat/|title=float.h reference at cplusplus.com|accessdate=11 Apr 2013}}&lt;/ref&gt; and corresponding constants in other programming languages.&lt;ref&gt;{{cite web|url=http://www.cplusplus.com/reference/limits/numeric_limits/|title=std::numeric_limits reference at cplusplus.com|accessdate=11 Apr 2013}}&lt;/ref&gt;&lt;ref&gt;{{cite web|url=https://docs.python.org/3/library/sys.html|title=Python documentation - System-specific parameters and functions|accessdate=11 Apr 2013}}&lt;/ref&gt;  It is also widely used in scientific computing software,&lt;ref&gt;{{cite web|url=http://reference.wolfram.com/mathematica/ref/$MachineEpsilon.html|title=Mathematica documentation: $MachineEpsilon|accessdate=11 Apr 2013}}&lt;/ref&gt;&lt;ref&gt;{{cite web|url=http://www.mathworks.de/de/help/matlab/ref/eps.html|title=Matlab documentation - eps - Floating-point relative accuracy|accessdate=11 Apr 2013|url-status=dead|archiveurl=https://web.archive.org/web/20130807071540/http://www.mathworks.de/de/help/matlab/ref/eps.html|archivedate=2013-08-07}}&lt;/ref&gt;&lt;ref&gt;{{cite web|url=http://octave.sourceforge.net/octave/function/eps.html|title=Octave documentation - eps function|accessdate=11 Apr 2013}}&lt;/ref&gt; and in the numerics and computing literature&lt;ref&gt;{{cite book|first=Nicholas | last=Higham |title=Accuracy and Stability of Numerical Algorithms (2 ed)| publisher=SIAM|year=2002 | pages=27–28  }}&lt;/ref&gt;&lt;ref&gt;{{cite book|title=Numerical Mathematics|last1=Quarteroni|first1=Alfio|last2=Sacco|first2=Riccardo|last3=Saleri|first3=Fausto|publisher=Springer|year=2000|isbn=0-387-98959-5|page=49|url=http://www.techmat.vgtu.lt/~inga/Files/Quarteroni-SkaitMetod.pdf|access-date=2013-04-11|archive-url=https://web.archive.org/web/20171114040621/http://www.techmat.vgtu.lt/~inga/Files/Quarteroni-SkaitMetod.pdf|archive-date=2017-11-14|url-status=dead}}&lt;/ref&gt;&lt;ref&gt;{{cite book|title=Numerical Recipes|page=890|last1=Press|first1=William H.|last2=Teukolsky|first2=Saul A.|last3=Vetterling|first3=William T.|last4=Flannery|first4=Brian P.}}&lt;/ref&gt;&lt;ref&gt;{{cite book|title=Numerik-Algorithmen|first1=Gisela|last1=Engeln-Müllges|first2=Fritz|last2=Reutter|year=1996|isbn=3-18-401539-4|page=6}}&lt;/ref&gt;.
+
+==How to determine machine epsilon==
+
+Where standard libraries do not provide precomputed values (as &lt;[[float.h]]&gt; does with &lt;code&gt;FLT_EPSILON&lt;/code&gt;, &lt;code&gt;DBL_EPSILON&lt;/code&gt; and &lt;code&gt;LDBL_EPSILON&lt;/code&gt; for C and &lt;[[C++ Standard Library#Language support|limits]]&gt; does with &lt;code&gt;std::numeric_limits&lt;&lt;var&gt;T&lt;/var&gt;&gt;::epsilon()&lt;/code&gt; in C++), the best way to determine machine epsilon is to refer to the table, above, and use the appropriate power formula.  Computing machine epsilon is often given as a textbook exercise. The following examples compute machine epsilon in the sense of the spacing of the floating point numbers at 1 rather than in the sense of the unit roundoff.
+
+Note that results depend on the particular floating-point format used, such as '''float''', '''double''', '''long double''', or similar as supported by the programming language, the compiler, and the runtime library for the actual platform.
+
+Some formats supported by the processor might not be supported by the chosen compiler and operating system. Other formats might be emulated by the runtime library, including [[arbitrary-precision arithmetic]] available in some languages and libraries.
+
+In a strict sense the term ''machine epsilon'' means the '''1+eps''' accuracy directly supported by the processor (or coprocessor), not some '''1+eps''' accuracy supported by a specific compiler for a specific operating system, unless it's known to use the best format.
+
+[[IEEE 754]] floating-point formats have the property that, when reinterpreted as a two's complement integer of the same width, they monotonically increase over positive values and monotonically decrease over negative values (see [[Single-precision floating-point format#IEEE 754 single-precision binary floating-point format: binary32|the binary representation of 32 bit floats]]). They also have the property that 0 &lt; |''f''(''x'')| &lt; ∞, and |''f''(''x''+1) − ''f''(''x'')| ≥ |''f''(''x'') − ''f''(''x''−1)| (where ''f''(''x'') is the aforementioned integer reinterpretation of ''x''). In languages that allow [[type punning]] and always use IEEE 754-1985, we can exploit this to compute a machine epsilon in constant time. For example, in C:
+
+&lt;syntaxhighlight lang="C"&gt;
+typedef union {
+  long long i64;
+  double d64;
+} dbl_64;
+double machine_eps (double value)
+{
+    dbl_64 s;
+    s.d64 = value;
+    s.i64++;
+    return s.d64 - value;
+}
+&lt;/syntaxhighlight&gt;
+
+This will give a result of the same sign as value. If a positive result is always desired, the return statement of machine_eps can be replaced with:
+&lt;syntaxhighlight lang="C"&gt;
+    return (s.i64 &lt; 0 ? value - s.d64 : s.d64 - value);
+&lt;/syntaxhighlight&gt;
+
+64-bit doubles give 2.220446e-16, which is 2&lt;sup&gt;−52&lt;/sup&gt; as expected.
+
+===Approximation===
+The following simple algorithm can be used to approximate the machine epsilon, to within a factor of two (one [[order of magnitude]]) of its true value, using a [[linear search]].
+
+ epsilon = 1.0;
+ 
+ while (1.0 + 0.5 * epsilon) &amp;ne; 1.0:
+     epsilon = 0.5 * epsilon
+
+==See also==
+* [[Floating point]], general discussion of accuracy issues in floating point arithmetic
+* [[Unit in the last place]] (ULP)
+
+==Notes and references==
+{{reflist|30em}}
+{{refbegin}}
+* Anderson, E.; ''LAPACK Users' Guide,'' Society for Industrial and Applied Mathematics (SIAM), Philadelphia, PA, third edition, 1999.
+* Cody, William J.; ''MACHAR: A Soubroutine to Dynamically Determine Machine Parameters,'' ACM Transactions on Mathematical Software, Vol. 14(4), 1988, 303-311.
+* Besset, Didier H.; ''Object-Oriented Implementation of Numerical Methods,'' Morgan &amp; Kaufmann, San Francisco, CA, 2000.
+* [[James Demmel|Demmel, James W.]], ''Applied Numerical Linear Algebra,'' Society for Industrial and Applied Mathematics (SIAM), Philadelphia, PA, 1997.
+* Higham, Nicholas J.; ''Accuracy and Stability of Numerical Algorithms,'' Society for Industrial and Applied Mathematics (SIAM), Philadelphia, PA, second edition, 2002.
+* Press, William H.; Teukolsky, Saul A.; Vetterling, William T.; and Flannery, Brian P.; ''Numerical Recipes in Fortran 77'', 2nd ed., Chap. 20.2, pp.&amp;nbsp;881–886
+* Forsythe, George E.; Malcolm, Michael A.; Moler, Cleve B.; "Computer Methods for Mathematical Computations", Prentice-Hall, {{ISBN|0-13-165332-6}}, 1977
+{{refend}}
+
+==External links==
+* [https://web.archive.org/web/20060904045658/http://orion.math.iastate.edu/burkardt/c_src/machar/machar.html MACHAR], a routine (in C and Fortran) to "dynamically compute machine constants" (ACM algorithm 722)
+* [http://www.zinnamturm.eu/downloadsAC.htm#CpcFloat Diagnosing floating point calculations precision], Implementation of MACHAR in [[Component Pascal]] and [[Oberon (programming language)|Oberon]] based on the Fortran 77 version of MACHAR published in Numerical Recipes (Press et al., 1992).
+
+[[Category:Computer arithmetic]]
+[[Category:Articles with example C code]]
+
+[[it:Epsilon di macchina]]</text>
+      <sha1>0pfgcclm4lyuk33h77g4ni4zujl77w9</sha1>
+    </revision>
+  </page>
+</mediawiki>

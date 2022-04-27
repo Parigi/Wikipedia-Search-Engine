@@ -1,0 +1,247 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.10/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.10/ http://www.mediawiki.org/xml/export-0.10.xsd" version="0.10" xml:lang="en">
+  <siteinfo>
+    <sitename>Wikipedia</sitename>
+    <dbname>enwiki</dbname>
+    <base>https://en.wikipedia.org/wiki/Main_Page</base>
+    <generator>MediaWiki 1.35.0-wmf.36</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Media</namespace>
+      <namespace key="-1" case="first-letter">Special</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Talk</namespace>
+      <namespace key="2" case="first-letter">User</namespace>
+      <namespace key="3" case="first-letter">User talk</namespace>
+      <namespace key="4" case="first-letter">Wikipedia</namespace>
+      <namespace key="5" case="first-letter">Wikipedia talk</namespace>
+      <namespace key="6" case="first-letter">File</namespace>
+      <namespace key="7" case="first-letter">File talk</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki talk</namespace>
+      <namespace key="10" case="first-letter">Template</namespace>
+      <namespace key="11" case="first-letter">Template talk</namespace>
+      <namespace key="12" case="first-letter">Help</namespace>
+      <namespace key="13" case="first-letter">Help talk</namespace>
+      <namespace key="14" case="first-letter">Category</namespace>
+      <namespace key="15" case="first-letter">Category talk</namespace>
+      <namespace key="100" case="first-letter">Portal</namespace>
+      <namespace key="101" case="first-letter">Portal talk</namespace>
+      <namespace key="108" case="first-letter">Book</namespace>
+      <namespace key="109" case="first-letter">Book talk</namespace>
+      <namespace key="118" case="first-letter">Draft</namespace>
+      <namespace key="119" case="first-letter">Draft talk</namespace>
+      <namespace key="446" case="first-letter">Education Program</namespace>
+      <namespace key="447" case="first-letter">Education Program talk</namespace>
+      <namespace key="710" case="first-letter">TimedText</namespace>
+      <namespace key="711" case="first-letter">TimedText talk</namespace>
+      <namespace key="828" case="first-letter">Module</namespace>
+      <namespace key="829" case="first-letter">Module talk</namespace>
+      <namespace key="2300" case="first-letter">Gadget</namespace>
+      <namespace key="2301" case="first-letter">Gadget talk</namespace>
+      <namespace key="2302" case="case-sensitive">Gadget definition</namespace>
+      <namespace key="2303" case="case-sensitive">Gadget definition talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Gauss–Markov theorem</title>
+    <ns>0</ns>
+    <id>170353</id>
+    <revision>
+      <id>962375436</id>
+      <parentid>962031680</parentid>
+      <timestamp>2020-06-13T17:47:49Z</timestamp>
+      <contributor>
+        <username>InternetArchiveBot</username>
+        <id>27015025</id>
+      </contributor>
+      <comment>Bluelink 2 books for [[Wikipedia:Verifiability|verifiability]] (refca)) #IABot (v2.0.1) ([[User:GreenC bot|GreenC bot]]</comment>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="22486" xml:space="preserve">{{distinguish|Gauss–Markov process}} 
+{{Redirect|BLUE|queue management algorithm|Blue (queue management algorithm)}}
+{{Regression bar}}
+
+In [[statistics]], the '''Gauss–Markov theorem''' states that the [[ordinary least squares]] (OLS) estimator has the lowest [[sampling variance]] within the [[Class (set theory)|class]] of [[linear regression model|linear]] [[bias of an estimator|unbiased]] [[estimator]]s, if the [[Errors and residuals|errors]] in the [[linear regression model]] are [[uncorrelated]], have [[Homoscedasticity|equal variances]] and expectation value of zero.&lt;ref&gt;{{cite book |first=Henri |last=Theil |authorlink=Henri Theil |chapter=Best Linear Unbiased Estimation and Prediction |title=Principles of Econometrics |url=https://archive.org/details/principlesofecon0000thei |url-access=registration |location=New York |publisher=John Wiley &amp; Sons |year=1971 |pages=[https://archive.org/details/principlesofecon0000thei/page/119 119]–124 |isbn=0-471-85845-5 }}&lt;/ref&gt; The errors do not need to be [[normal distribution|normal]], nor do they need to be [[independent and identically distributed]] (only [[uncorrelated]] with mean zero and homoscedastic with finite variance). The requirement that the estimator be unbiased cannot be dropped, since biased estimators exist with lower variance. See, for example, the [[James–Stein estimator]] (which also drops linearity) or [[ridge regression]].
+
+The theorem was named after [[Carl Friedrich Gauss]] and [[Andrey Markov]], although Gauss' work significantly predates Markov's.&lt;ref&gt;{{cite journal |first=R. L. |last=Plackett |authorlink=Robin Plackett |title=A Historical Note on the Method of Least Squares |journal=[[Biometrika]] |volume=36 |issue=3/4 |year=1949 |pages=458–460 |doi=10.2307/2332682 }}&lt;/ref&gt; But while Gauss derived the result under the assumption of independence and normality, Markov reduced the assumptions to the form stated above.&lt;ref&gt;{{cite journal |first=F. N. |last=David |first2=J. |last2=Neyman |title=Extension of the Markoff theorem on least squares |journal=Statistical Research Memoirs |year=1938 |volume=2 |issue= |pages=105–116 |oclc=4025782 }}&lt;/ref&gt; A further generalization to non-spherical errors was given by [[Alexander Aitken]].&lt;ref name="Aitken1935" /&gt;
+
+==Statement==
+Suppose we have in matrix notation,
+:&lt;math&gt; \underline{y} = X \underline{\beta} + \underline{\varepsilon},\quad (\underline{y},\underline{\varepsilon} \in \mathbb{R}^n, \underline{\beta} \in \mathbb{R}^K \text{ and } X\in\mathbb{R}^{n\times K}) &lt;/math&gt;
+expanding to,
+:&lt;math&gt; y_i=\sum_{j=1}^{K}\beta_j X_{ij}+\varepsilon_i \quad \forall i=1,2,\ldots,n&lt;/math&gt;
+
+where &lt;math&gt;\beta_j&lt;/math&gt; are non-random but '''un'''observable parameters, &lt;math&gt;X_{ij}&lt;/math&gt; are non-random and observable (called the "explanatory variables"), &lt;math&gt;\varepsilon_i&lt;/math&gt; are random, and so &lt;math&gt;y_i&lt;/math&gt; are random. The random variables &lt;math&gt;\varepsilon_i&lt;/math&gt; are called the "disturbance", "noise" or simply "error" (will be contrasted with "residual" later in the article; see [[errors and residuals in statistics]]). Note that to include a constant in the model above, one can choose to introduce the constant as a variable &lt;math&gt;\beta_{K+1}&lt;/math&gt;  with a newly introduced last column of X being unity i.e., &lt;math&gt;X_{i(K+1)} = 1&lt;/math&gt; for all &lt;math&gt; i &lt;/math&gt;. Note that though &lt;math&gt;y_i,&lt;/math&gt; as sample responses, are observable, the following statements and arguments including assumptions, proofs and the others assume under the '''only''' condition of knowing &lt;math&gt;X_{ij},&lt;/math&gt;'''but not'''  &lt;math&gt;y_i.&lt;/math&gt;
+
+The '''Gauss–Markov''' assumptions concern the set of error random variables, &lt;math&gt;\varepsilon_i&lt;/math&gt;:
+
+*They have mean zero: &lt;math&gt;\operatorname{E}[\varepsilon_i]=0.&lt;/math&gt;
+*They are [[homoscedasticity|homoscedastic]], that is all have the same finite variance: &lt;math&gt;\operatorname{Var}(\varepsilon_i)= \sigma^2 &lt; \infty&lt;/math&gt; for all &lt;math&gt;i&lt;/math&gt; and
+*Distinct error terms are uncorrelated: &lt;math&gt;\text{Cov}(\varepsilon_i,\varepsilon_j) = 0, \forall i \neq j.&lt;/math&gt;
+
+A '''linear estimator''' of &lt;math&gt; \beta_j  &lt;/math&gt; is a linear combination
+
+:&lt;math&gt;\widehat\beta_j = c_{1j}y_1+\cdots+c_{nj}y_n&lt;/math&gt;
+
+in which the coefficients &lt;math&gt; c_{ij} &lt;/math&gt;  are not allowed to depend on the underlying coefficients &lt;math&gt;\beta_j&lt;/math&gt;, since those are not observable, but are allowed to depend on the values &lt;math&gt; X_{ij} &lt;/math&gt;, since these data are observable.  (The dependence of the coefficients on each &lt;math&gt;X_{ij}&lt;/math&gt; is typically nonlinear; the estimator is linear in each &lt;math&gt; y_i &lt;/math&gt; and hence in each random &lt;math&gt; \varepsilon,&lt;/math&gt; which is why this is [[linear regression|"linear" regression]].)  The estimator is said to be '''unbiased''' [[if and only if]]
+
+:&lt;math&gt;\operatorname{E}\left [\widehat\beta_j \right ]=\beta_j&lt;/math&gt;
+
+regardless of the values of &lt;math&gt; X_{ij} &lt;/math&gt;. Now, let &lt;math&gt;\sum\nolimits_{j=1}^K\lambda_j\beta_j&lt;/math&gt; be some linear combination of the coefficients. Then the '''[[mean squared error]]''' of the corresponding estimation is
+
+:&lt;math&gt;\operatorname{E} \left [\left(\sum_{j=1}^K\lambda_j \left (\widehat\beta_j-\beta_j \right )\right)^2\right ],&lt;/math&gt;
+
+in other words it is the expectation of the square of the weighted sum (across parameters) of the differences between the estimators and the corresponding parameters to be estimated.  (Since we are considering the case in which all the parameter estimates are unbiased, this mean squared error is the same as the variance of the linear combination.) The '''best linear unbiased estimator''' (BLUE) of the vector &lt;math&gt; \beta &lt;/math&gt;  of parameters &lt;math&gt; \beta_j &lt;/math&gt;  is one with the smallest mean squared error for every vector &lt;math&gt; \lambda &lt;/math&gt; of linear combination parameters.  This is equivalent to the condition that
+
+:&lt;math&gt;\operatorname{Var}\left(\widetilde\beta\right)- \operatorname{Var} \left( \widehat \beta \right)&lt;/math&gt;
+
+is a positive semi-definite matrix for every other linear unbiased estimator &lt;math&gt;\widetilde\beta&lt;/math&gt;.
+
+The '''ordinary least squares estimator (OLS)''' is the function
+
+:&lt;math&gt;\widehat\beta=(X'X)^{-1}X'y&lt;/math&gt;
+
+of &lt;math&gt; y &lt;/math&gt; and &lt;math&gt;X&lt;/math&gt; (where &lt;math&gt;X'&lt;/math&gt; denotes the [[transpose]] of &lt;math&gt; X &lt;/math&gt;) that minimizes the '''sum of squares of [[errors and residuals in statistics|residuals]]''' (misprediction amounts):
+
+:&lt;math&gt;\sum_{i=1}^n \left(y_i-\widehat{y}_i\right)^2=\sum_{i=1}^n \left(y_i-\sum_{j=1}^K \widehat\beta_j X_{ij}\right)^2.&lt;/math&gt;
+
+The theorem now states that the OLS estimator is a BLUE. The main idea of the proof is that the least-squares estimator is uncorrelated with every linear unbiased estimator of zero, i.e., with every linear combination &lt;math&gt;a_1y_1+\cdots+a_ny_n&lt;/math&gt; whose coefficients do not depend upon the unobservable &lt;math&gt; \beta &lt;/math&gt; but whose expected value is always zero.
+
+==Proof==
+Let &lt;math&gt;\tilde\beta = Cy&lt;/math&gt; be another linear estimator of &lt;math&gt; \beta &lt;/math&gt; with &lt;math&gt;C = (X'X)^{-1}X' + D &lt;/math&gt; where &lt;math&gt;D&lt;/math&gt; is a &lt;math&gt;K \times n&lt;/math&gt; non-zero matrix. As we're restricting to ''unbiased'' estimators, minimum mean squared error implies minimum variance. The goal is therefore to show that such an estimator has a variance no smaller than that of &lt;math&gt; \widehat\beta,&lt;/math&gt; the OLS estimator. We calculate:
+
+:&lt;math&gt;
+\begin{align}
+\operatorname{E} \left[ \tilde\beta \right] &amp;= \operatorname{E}[Cy] \\
+&amp;= \operatorname{E} \left [\left ((X'X)^{-1}X' + D \right )(X\beta + \varepsilon) \right ]\\
+&amp;= \left ((X'X)^{-1}X' + D \right )X\beta + \left ((X'X)^{-1}X' + D \right ) \operatorname{E}[\varepsilon] \\
+&amp;= \left ((X'X)^{-1}X' + D \right )X\beta  &amp;&amp; \operatorname{E}[\varepsilon] =0 \\
+&amp;= (X'X)^{-1}X'X\beta + DX\beta  \\
+&amp;= (I_K + DX)\beta. \\
+\end{align}
+&lt;/math&gt;
+
+Therefore, since &lt;math&gt;\beta&lt;/math&gt; is '''un'''observable, &lt;math&gt; \tilde\beta &lt;/math&gt; is unbiased if and only if &lt;math&gt; DX = 0 &lt;/math&gt;. Then:
+
+:&lt;math&gt;
+\begin{align}
+ \operatorname{Var}\left(\tilde\beta\right) &amp;=  \operatorname{Var}(Cy) \\
+&amp;= C \text{ Var}(y)C' \\
+&amp;= \sigma^2 CC' \\
+&amp;= \sigma^2 \left ((X'X)^{-1}X' + D \right ) \left (X(X'X)^{-1} + D' \right ) \\
+&amp;= \sigma^2 \left ((X'X)^{-1}X'X(X'X)^{-1} + (X'X)^{-1}X'D' + DX(X'X)^{-1} + DD' \right) \\
+&amp;= \sigma^2(X'X)^{-1} + \sigma^2(X'X)^{-1} (DX)' + \sigma^2 DX  (X'X)^{-1} + \sigma^2DD' \\
+&amp;= \sigma^2(X'X)^{-1}+ \sigma^2DD' &amp;&amp; DX =0 \\
+&amp;=  \operatorname{Var}\left(\widehat\beta\right)  + \sigma^2DD'  &amp;&amp; \sigma^2(X'X)^{-1} =   \operatorname{Var}\left(\widehat\beta\right)
+\end{align}
+&lt;/math&gt;
+
+Since ''DD''' is a positive semidefinite matrix, &lt;math&gt;\operatorname{Var}\left( \tilde \beta \right) &lt;/math&gt; exceeds &lt;math&gt;\operatorname{Var}\left(\widehat\beta\right) &lt;/math&gt; by a positive semidefinite matrix.
+
+==Remarks on the proof==
+As it has been stated before,  the condition of &lt;math&gt; \operatorname{Var} \left( \tilde \beta \right)- \operatorname{Var} \left(\widehat\beta\right)&lt;/math&gt; is equivalent to the property that the best linear unbiased estimator of &lt;math&gt; \ell^t\beta &lt;/math&gt; is &lt;math&gt; \ell^t\widehat\beta &lt;/math&gt; (best in the sense that it has minimum variance). To see this, let &lt;math&gt; \ell^t\tilde\beta &lt;/math&gt; another linear unbiased estimator of &lt;math&gt; \ell^t\beta &lt;/math&gt;.
+
+:&lt;math&gt;
+\begin{align}
+\operatorname{Var}\left(\ell^t\tilde\beta\right) &amp;= \ell^t \operatorname{Var} \left(\tilde\beta\right) \ell \\
+&amp;=\sigma^2 \ell^t (X'X)^{-1}\ell+\ell^tDD^t\ell \\
+&amp;= \operatorname{Var}\left(\ell^t\widehat\beta\right)+(D^t\ell)^t(D^t\ell) &amp;&amp; \sigma^2 \ell^t (X'X)^{-1}\ell = \operatorname{Var}\left(\ell^t\widehat\beta\right) \\
+&amp;= \operatorname{Var}\left(\ell^t\widehat\beta\right) +\|D^t\ell\|\\
+&amp; \geqslant \operatorname{Var}\left(\ell^t\widehat\beta\right)
+\end{align}
+&lt;/math&gt;
+
+Moreover, equality holds if and only if &lt;math&gt; D^t\ell=0 &lt;/math&gt;. We calculate
+
+:&lt;math&gt;
+\begin{align}
+\ell^t\tilde\beta &amp;= \ell^t \left (((X'X)^{-1}X' + D) Y \right ) &amp;&amp; \text{ from above}\\
+&amp;= \ell^t(X'X)^{-1}X'Y + \ell^tDY \\
+&amp;= \ell^t\widehat\beta +(D^t\ell)^t Y \\
+&amp;=\ell^t\widehat\beta &amp;&amp; D^t\ell = 0
+\end{align}
+&lt;/math&gt;
+
+This proves that the equality holds if and only if &lt;math&gt; \ell^t\tilde\beta=\ell^t\widehat\beta &lt;/math&gt; which gives the uniqueness of the OLS estimator as a BLUE.
+
+==Generalized least squares estimator==
+The [[generalized least squares]] (GLS), developed by [[Alexander Aitken|Aitken]],&lt;ref name="Aitken1935"&gt;{{cite journal |first=A. C. |last=Aitken |title=On Least Squares and Linear Combinations of Observations |journal=Proceedings of the Royal Society of Edinburgh |year=1935 |volume=55 |issue= |pages=42–48 |doi=10.1017/S0370164600014346 }}&lt;/ref&gt; extends the Gauss–Markov theorem to the case where the error vector has a non-scalar covariance matrix.&lt;ref name="Huang1970"&gt;{{cite book |first=David S. |last=Huang |title=Regression and Econometric Methods |location=New York |publisher=John Wiley &amp; Sons |year=1970 |isbn=0-471-41754-8 |pages=[https://archive.org/details/regressioneconom0000huan/page/127 127]–147 |url=https://archive.org/details/regressioneconom0000huan |url-access=registration }}&lt;/ref&gt; The Aitken estimator is also a BLUE.
+
+==Gauss–Markov theorem as stated in econometrics==
+
+In most treatments of OLS, the regressors (parameters of interest) in the [[design matrix]] &lt;math&gt;\mathbf{X}&lt;/math&gt; are assumed to be fixed in repeated samples. This assumption is considered inappropriate for a predominantly nonexperimental science like [[econometrics]].&lt;ref&gt;{{cite book |first=Fumio |last=Hayashi |authorlink=Fumio Hayashi |title=Econometrics |location= |publisher=Princeton University Press |year=2000 |isbn=0-691-01018-8 |page=13 |url=https://books.google.com/books?id=QyIW8WUIyzcC&amp;pg=PA13 }}&lt;/ref&gt; Instead, the assumptions of the Gauss–Markov theorem are stated conditional on &lt;math&gt;\mathbf{X}&lt;/math&gt;.
+
+===Linearity===
+
+The dependent variable is assumed to be a linear function of the variables specified in the model. The specification must be linear in its parameters. This does not mean that there must be a linear relationship between the independent and dependent variables. The independent variables can take non-linear forms as long as the parameters are linear.  The equation &lt;math&gt; y = \beta_{0} + \beta_{1} x^2, &lt;/math&gt; qualifies as linear while &lt;math&gt; y = \beta_{0} + \beta_{1}^2 x&lt;/math&gt; can be transformed to be linear by replacing &lt;math&gt;\beta_{1}^2&lt;/math&gt; by another parameter, say &lt;math&gt;\gamma&lt;/math&gt;. An equation with a parameter dependent on an independent variable does not qualify as linear, for example &lt;math&gt;y = \beta_{0} + \beta_{1}(x) \cdot x&lt;/math&gt;, where &lt;math&gt;\beta_{1}(x)&lt;/math&gt; is a function of &lt;math&gt;x&lt;/math&gt;.
+
+[[Data transformation (statistics)|Data transformations]] are often used to convert an equation into a linear form. For example, the [[Cobb–Douglas production function|Cobb–Douglas function]]—often used in economics—is nonlinear:
+:&lt;math&gt;Y = A L^\alpha K^{1 - \alpha} e^\varepsilon &lt;/math&gt;
+
+But it can be expressed in linear form by taking the [[natural logarithm]] of both sides:&lt;ref&gt;{{cite book |first=A. A. |last=Walters |title=An Introduction to Econometrics |location=New York |publisher=W. W. Norton |year=1970 |isbn=0-393-09931-8 |page=275 }}&lt;/ref&gt;
+
+: &lt;math&gt;\ln Y=\ln A + \alpha \ln L + (1 - \alpha) \ln K + \varepsilon = \beta_0 + \beta_1 \ln L + \beta_2 \ln K + \varepsilon&lt;/math&gt;
+
+This assumption also covers specification issues: assuming that the proper functional form has been selected and there are no [[Omitted-variable bias|omitted variables]].
+
+One should be aware, however, that the parameters that minimize the residuals of the transformed equation not necessarily minimize the residuals of the original equation.
+
+===Strict exogeneity===
+For all &lt;math&gt;n&lt;/math&gt; observations, the expectation—conditional on the regressors—of the error term is zero:&lt;ref&gt;{{cite book |first=Fumio |last=Hayashi |authorlink=Fumio Hayashi |title=Econometrics |location= |publisher=Princeton University Press |year=2000 |isbn=0-691-01018-8 |page=7 |url=https://books.google.com/books?id=QyIW8WUIyzcC&amp;pg=PA7 }}&lt;/ref&gt;
+:&lt;math&gt;\operatorname{E}[\,\varepsilon_{i}\mid \mathbf{X} ] = \operatorname{E}[\,\varepsilon_{i}\mid \mathbf{x_{1}}, \dots, \mathbf{x_{n}} ] = 0.&lt;/math&gt;
+where &lt;math&gt;\mathbf{x}_i = \begin{bmatrix} x_{i1} &amp; x_{i2} &amp; \dots &amp; x_{ik} \end{bmatrix}^{\mathsf{T}}&lt;/math&gt; is the data vector of regressors for the ''i''th observation, and consequently &lt;math&gt;\mathbf{X} = \begin{bmatrix} \mathbf{x_{1}^{\mathsf{T}}} &amp; \mathbf{x_{2}^{\mathsf{T}}} &amp; \dots &amp; \mathbf{x_{n}^{\mathsf{T}}} \end{bmatrix}^{\mathsf{T}}&lt;/math&gt; is the data matrix or design matrix.
+
+Geometrically, this assumption implies that &lt;math&gt;\mathbf{x}_{i}&lt;/math&gt; and &lt;math&gt;\varepsilon_{i}&lt;/math&gt; are [[Orthogonality|orthogonal]] to each other, so that their [[Dot product|inner product]] (i.e., their cross moment) is zero.
+:&lt;math&gt;\operatorname{E}[\,\mathbf{x}_{j} \cdot \varepsilon_{i}\,] = \begin{bmatrix} \operatorname{E}[\,{x}_{j1} \cdot \varepsilon_{i}\,] \\ \operatorname{E}[\,{x}_{j2} \cdot \varepsilon_{i}\,] \\ \vdots \\ \operatorname{E}[\,{x}_{jk} \cdot \varepsilon_{i}\,] \end{bmatrix} = \mathbf{0} \quad \text{for all } i, j \in n&lt;/math&gt;
+This assumption is violated if the explanatory variables are stochastic, for instance when they are [[Errors-in-variables models|measured with error]], or are [[Endogeneity (economics)|endogenous]].&lt;ref&gt;{{cite book |first=John |last=Johnston |authorlink=John Johnston (econometrician) |title=Econometric Methods |location=New York |publisher=McGraw-Hill |edition=Second |year=1972 |isbn=0-07-032679-7 |pages=[https://archive.org/details/econometricmetho0000john_t7q9/page/267 267–291] |url=https://archive.org/details/econometricmetho0000john_t7q9/page/267 }}&lt;/ref&gt; Endogeneity can be the result of [[simultaneity]], where causality flows back and forth between both the dependent and independent variable. [[Instrumental variable]] techniques are commonly used to address this problem.
+
+===Full rank===
+The sample data matrix &lt;math&gt;\mathbf{X}&lt;/math&gt; must have full column [[Rank (linear algebra)|rank]].
+:&lt;math&gt;\operatorname{rank}(\mathbf{X}) = k&lt;/math&gt;
+Otherwise &lt;math&gt;\mathbf{X'X}&lt;/math&gt; is not invertible and the OLS estimator cannot be computed.
+
+A violation of this assumption is [[Multicollinearity|perfect multicollinearity]], i.e. some explanatory variables are linearly dependent. One scenario in which this will occur is called "dummy variable trap," when a base dummy variable is not omitted resulting in perfect correlation between the dummy variables and the constant term.&lt;ref&gt;{{cite book |first=Jeffrey |last=Wooldridge |authorlink=Jeffrey Wooldridge |title=Introductory Econometrics |location= |publisher=South-Western |edition=Fifth international |year=2012 |isbn=978-1-111-53439-4 |page=[https://archive.org/details/introductoryecon00wool_406/page/n247 220] |url=https://archive.org/details/introductoryecon00wool_406|url-access=limited }}&lt;/ref&gt;
+
+Multicollinearity (as long as it is not "perfect") can be present resulting in a less efficient, but still unbiased estimate. The estimates will be less precise and highly sensitive to particular sets of data.&lt;ref&gt;{{cite book |first=John |last=Johnston |authorlink=John Johnston (econometrician) |title=Econometric Methods |location=New York |publisher=McGraw-Hill |edition=Second |year=1972 |isbn=0-07-032679-7 |pages=[https://archive.org/details/econometricmetho0000john_t7q9/page/159 159–168] |url=https://archive.org/details/econometricmetho0000john_t7q9/page/159 }}&lt;/ref&gt; Multicollinearity can be detected from [[condition number]] or the [[variance inflation factor]], among other tests.
+
+===Spherical errors===
+The [[outer product]] of the error vector must be spherical.
+:&lt;math&gt;\operatorname{E}[\,\boldsymbol{\varepsilon} \boldsymbol{\varepsilon^{\mathsf{T}}} \mid \mathbf{X} ] = \operatorname{Var}[\,\boldsymbol{\varepsilon} \mid \mathbf{X} ] = \begin{bmatrix} \sigma^{2} &amp; 0 &amp; \dots &amp; 0 \\ 0 &amp; \sigma^{2} &amp; \dots &amp; 0 \\ \vdots &amp; \vdots &amp; \ddots &amp; \vdots \\ 0 &amp; 0 &amp; \dots &amp; \sigma^{2} \end{bmatrix} = \sigma^{2} \mathbf{I} \quad \text{with } \sigma^{2} &gt; 0&lt;/math&gt;
+This implies the error term has uniform variance ([[homoscedasticity]]) and no serial dependence.&lt;ref&gt;{{cite book |first=Fumio |last=Hayashi |authorlink=Fumio Hayashi |title=Econometrics |location= |publisher=Princeton University Press |year=2000 |isbn=0-691-01018-8 |page=10 |url=https://books.google.com/books?id=QyIW8WUIyzcC&amp;pg=PA10 }}&lt;/ref&gt; If this assumption is violated, OLS is still unbiased, but inefficient. The term "spherical errors" will describe the multivariate normal distribution: if &lt;math&gt;\operatorname{Var}[\,\boldsymbol{\varepsilon}\mid \mathbf{X} ] = \sigma^{2} \mathbf{I}&lt;/math&gt; in the multivariate normal density, then the equation &lt;math&gt;f(\varepsilon)=c&lt;/math&gt; is the formula for a [[Ball (mathematics)|ball]] centered at μ with radius σ in n-dimensional space.&lt;ref&gt;{{cite book |first=Ramu |last=Ramanathan |chapter=Nonspherical Disturbances |title=Statistical Methods in Econometrics |url=https://archive.org/details/statisticalmetho00rama |url-access=limited |location= |publisher=Academic Press |year=1993 |isbn=0-12-576830-3 |pages=[https://archive.org/details/statisticalmetho00rama/page/n339 330]–351 }}&lt;/ref&gt;
+
+[[Heteroskedasticity]] occurs when the amount of error is correlated with an independent variable. For example, in a regression on food expenditure and income, the error is correlated with income.  Low income people generally spend a similar amount on food, while high income people may spend a very large amount or as little as low income people spend. Heteroskedastic can also be caused by changes in measurement practices. For example, as statistical offices improve their data, measurement error decreases, so the error term declines over time.
+
+This assumption is violated when there is [[autocorrelation]].  Autocorrelation can be visualized on a data plot when a given observation is more likely to lie above a fitted line if adjacent observations also lie above the fitted regression line. Autocorrelation is common in time series data where a data series may experience "inertia." If a dependent variable takes a while to fully absorb a shock. Spatial autocorrelation can also occur geographic areas are likely to have similar errors. Autocorrelation may be the result of misspecification such as choosing the wrong functional form. In these cases, correcting the specification is one possible way to deal with autocorrelation.
+
+In the presence of spherical errors, the generalized least squares estimator can be shown to be BLUE.&lt;ref name="Huang1970" /&gt;
+
+==See also==
+* [[Independent and identically distributed random variables]]
+* [[Linear regression]]
+* [[Measurement uncertainty]]
+
+===Other unbiased statistics===
+*[[Best linear unbiased prediction]] (BLUP)
+*[[Minimum-variance unbiased estimator]] (MVUE)
+
+==References==
+{{Reflist|30em}}
+
+==Further reading==
+*{{cite book |first=James |last=Davidson |chapter=Statistical Analysis of the Regression Model |title=Econometric Theory |location=Oxford |publisher=Blackwell |year=2000 |pages=17–36 |isbn=0-631-17837-6 }}
+*{{cite book |first=Arthur |last=Goldberger |chapter=Classical Regression |title=A Course in Econometrics |url=https://archive.org/details/courseeconometri00gold_524 |url-access=limited |location=Cambridge |publisher=Harvard University Press |year=1991 |pages=[https://archive.org/details/courseeconometri00gold_524/page/n92 160]–169 |isbn=0-674-17544-1 }}
+*{{cite book |first=Henri |last=Theil |authorlink=Henri Theil |chapter=Least Squares and the Standard Linear Model |title=Principles of Econometrics |url=https://archive.org/details/principlesofecon0000thei |url-access=registration |location=New York |publisher=John Wiley &amp; Sons |year=1971 |pages=[https://archive.org/details/principlesofecon0000thei/page/101 101]–162 |isbn=0-471-85845-5 }}
+
+==External links==
+*[http://jeff560.tripod.com/g.html Earliest Known Uses of Some of the Words of Mathematics: G] (brief history and explanation of the name)
+*[http://www.xycoon.com/ols1.htm Proof of the Gauss Markov theorem for multiple linear regression] (makes use of matrix algebra)
+*[https://web.archive.org/web/20040213071852/http://emlab.berkeley.edu/GMTheorem/index.html A Proof of the Gauss Markov theorem using geometry]
+
+{{Least squares and regression analysis|state=expanded}}
+
+{{DEFAULTSORT:Gauss-Markov theorem}}
+[[Category:Theorems in statistics]]</text>
+      <sha1>k8hnn1xqdzu8z3f1zeor3ujnm3gwizg</sha1>
+    </revision>
+  </page>
+</mediawiki>

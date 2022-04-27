@@ -1,0 +1,115 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.10/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.10/ http://www.mediawiki.org/xml/export-0.10.xsd" version="0.10" xml:lang="en">
+  <siteinfo>
+    <sitename>Wikipedia</sitename>
+    <dbname>enwiki</dbname>
+    <base>https://en.wikipedia.org/wiki/Main_Page</base>
+    <generator>MediaWiki 1.35.0-wmf.36</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Media</namespace>
+      <namespace key="-1" case="first-letter">Special</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Talk</namespace>
+      <namespace key="2" case="first-letter">User</namespace>
+      <namespace key="3" case="first-letter">User talk</namespace>
+      <namespace key="4" case="first-letter">Wikipedia</namespace>
+      <namespace key="5" case="first-letter">Wikipedia talk</namespace>
+      <namespace key="6" case="first-letter">File</namespace>
+      <namespace key="7" case="first-letter">File talk</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki talk</namespace>
+      <namespace key="10" case="first-letter">Template</namespace>
+      <namespace key="11" case="first-letter">Template talk</namespace>
+      <namespace key="12" case="first-letter">Help</namespace>
+      <namespace key="13" case="first-letter">Help talk</namespace>
+      <namespace key="14" case="first-letter">Category</namespace>
+      <namespace key="15" case="first-letter">Category talk</namespace>
+      <namespace key="100" case="first-letter">Portal</namespace>
+      <namespace key="101" case="first-letter">Portal talk</namespace>
+      <namespace key="108" case="first-letter">Book</namespace>
+      <namespace key="109" case="first-letter">Book talk</namespace>
+      <namespace key="118" case="first-letter">Draft</namespace>
+      <namespace key="119" case="first-letter">Draft talk</namespace>
+      <namespace key="446" case="first-letter">Education Program</namespace>
+      <namespace key="447" case="first-letter">Education Program talk</namespace>
+      <namespace key="710" case="first-letter">TimedText</namespace>
+      <namespace key="711" case="first-letter">TimedText talk</namespace>
+      <namespace key="828" case="first-letter">Module</namespace>
+      <namespace key="829" case="first-letter">Module talk</namespace>
+      <namespace key="2300" case="first-letter">Gadget</namespace>
+      <namespace key="2301" case="first-letter">Gadget talk</namespace>
+      <namespace key="2302" case="case-sensitive">Gadget definition</namespace>
+      <namespace key="2303" case="case-sensitive">Gadget definition talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Precision engineering</title>
+    <ns>0</ns>
+    <id>18421531</id>
+    <revision>
+      <id>930447318</id>
+      <parentid>887775129</parentid>
+      <timestamp>2019-12-12T15:23:09Z</timestamp>
+      <contributor>
+        <ip>81.47.233.4</ip>
+      </contributor>
+      <comment>Changed high tolerance to low tolerance, as high tolerance means that there's some wiggle room to get things not quite right.</comment>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="4078" xml:space="preserve">[[File:NIST Precision engineering research.jpg|thumb|280px|NIST Precision engineering research. Measurement of API Rotary Master Gauge on [[Coordinate-measuring machine|CMM]].&lt;ref&gt;NIST Manufacturing Engineering (2008).[http://www.mel.nist.gov/programs/pbookweb.pdf NIST Programs of the Manufacturing Engineering Laboratory]. March 2008.&lt;/ref&gt;]] 
+'''Precision engineering''' is a subdiscipline of [[electrical engineering]], [[software engineering]], [[electronics engineering]], [[mechanical engineering]], and [[optical engineering]] concerned with designing machines, fixtures, and other structures that have exceptionally low [[tolerances]], are repeatable, and are stable over time. These approaches have applications in [[machine tool]]s, [[Microelectromechanical systems|MEMS]], [[Nanoelectromechanical systems|NEMS]], [[optoelectronics]] design, and many other fields. 
+
+== Overview ==
+One of the fundamental principles in precision engineering is that of determinism.  System behavior is fully predictable even to nanometer-scale motions. To do the job efficiently and correctly to fit your need via modern machinery.&lt;ref&gt;{{Cite web|url=http://www.mnbprecision.com/|title=Precision Engineers {{!}} MNB Precision|last=Precision|first=MNB|website=MNB Precision|language=en-GB|access-date=2017-01-30}}&lt;/ref&gt;
+
+"The basic idea is that machine tools obey cause and effect relationships that are within our ability to understand and control and that there is nothing random or probabilistic about their behavior.  Everything happens for a reason and the list of reasons is small enough to manage." - Jim Bryan
+
+"By this we mean that machine tool errors obey cause-and-effect relationships, and do not vary randomly for no reason.  Further, the causes are not esoteric and uncontrollable, but can be explained in terms of familiar engineering principles."   - Bob Donaldson
+
+Professors Hiromu Nakazawa and Pat McKeown provide the following list of goals for precision engineering:
+
+# Create a highly precise movement.
+# Reduce the dispersion of the product's or part's function.
+# Eliminate fitting and promote assembly, especially automatic assembly.
+# Reduce the initial cost.
+# Reduce the running cost.
+# Extend the life span.
+# Enable the design safety factor to be lowered.
+# Improve interchangeability of components so that corresponding parts made by other factories or firms can be used in their place.
+# Improve quality control through higher machine accuracy capabilities and hence reduce scrap, rework, and conventional inspection.
+# Achieve a greater wear/fatigue life of components.
+# Make functions independent of one another.
+# Achieve greater miniaturization and packing densities.
+# Achieve further advances in technology and the underlying sciences. &lt;ref name="venkatesh-izman"&gt;Venkatesh, V. C. and Izman, Sudin, ''Precision Engineering'', Tata McGraw-Hill Publishing Company Limited, 2007, page 6.&lt;/ref&gt;
+
+== Technical Societies ==
+* [[American Society for Precision Engineering]]
+* [http://www.euspen.eu euspen - European Society for Precision Engineering and Nanotechnology]
+* [https://web.archive.org/web/20101221080849/http://www.jspe.or.jp/english/ JSPE- The Japan Society for Precision Engineering]
+* [http://www.dspe.nl/ DSPE - Dutch Society for Precision Engineering]
+* [http://www.speta.org SPETA - Singapore Precision Engineering and Technology Association]
+
+== See also ==
+* [[Abbe error]]
+* [[Accuracy and precision]]
+* [[Flexure|Flexures]]
+* [[Kinematic coupling]]
+* [[Measurement uncertainty]]
+* [[Kinematic determinacy]]
+
+== References ==
+{{NIST-PD}}
+{{reflist}}
+
+== External links ==
+* [http://www.elsevier.com/wps/find/journaldescription.cws_home/525017/description#description ''Precision Engineering'', the Journal of the International Societies for Precision Engineering and Nanotechnology]
+
+{{Authority control}}
+[[Category:Mechanical engineering]]
+
+*[http://www.cranfield.ac.uk/sas/precisionengineering Precision Engineering Centre at Cranfield University]
+*[http://www.cranfieldprecision.com/history.php History of Precision Engineering]</text>
+      <sha1>qmnc7188g0hbswa5samivkv33r71dxj</sha1>
+    </revision>
+  </page>
+</mediawiki>

@@ -1,0 +1,245 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.10/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.10/ http://www.mediawiki.org/xml/export-0.10.xsd" version="0.10" xml:lang="en">
+  <siteinfo>
+    <sitename>Wikipedia</sitename>
+    <dbname>enwiki</dbname>
+    <base>https://en.wikipedia.org/wiki/Main_Page</base>
+    <generator>MediaWiki 1.35.0-wmf.36</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Media</namespace>
+      <namespace key="-1" case="first-letter">Special</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Talk</namespace>
+      <namespace key="2" case="first-letter">User</namespace>
+      <namespace key="3" case="first-letter">User talk</namespace>
+      <namespace key="4" case="first-letter">Wikipedia</namespace>
+      <namespace key="5" case="first-letter">Wikipedia talk</namespace>
+      <namespace key="6" case="first-letter">File</namespace>
+      <namespace key="7" case="first-letter">File talk</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki talk</namespace>
+      <namespace key="10" case="first-letter">Template</namespace>
+      <namespace key="11" case="first-letter">Template talk</namespace>
+      <namespace key="12" case="first-letter">Help</namespace>
+      <namespace key="13" case="first-letter">Help talk</namespace>
+      <namespace key="14" case="first-letter">Category</namespace>
+      <namespace key="15" case="first-letter">Category talk</namespace>
+      <namespace key="100" case="first-letter">Portal</namespace>
+      <namespace key="101" case="first-letter">Portal talk</namespace>
+      <namespace key="108" case="first-letter">Book</namespace>
+      <namespace key="109" case="first-letter">Book talk</namespace>
+      <namespace key="118" case="first-letter">Draft</namespace>
+      <namespace key="119" case="first-letter">Draft talk</namespace>
+      <namespace key="446" case="first-letter">Education Program</namespace>
+      <namespace key="447" case="first-letter">Education Program talk</namespace>
+      <namespace key="710" case="first-letter">TimedText</namespace>
+      <namespace key="711" case="first-letter">TimedText talk</namespace>
+      <namespace key="828" case="first-letter">Module</namespace>
+      <namespace key="829" case="first-letter">Module talk</namespace>
+      <namespace key="2300" case="first-letter">Gadget</namespace>
+      <namespace key="2301" case="first-letter">Gadget talk</namespace>
+      <namespace key="2302" case="case-sensitive">Gadget definition</namespace>
+      <namespace key="2303" case="case-sensitive">Gadget definition talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Gauss–Newton algorithm</title>
+    <ns>0</ns>
+    <id>1164753</id>
+    <revision>
+      <id>960279705</id>
+      <parentid>944711199</parentid>
+      <timestamp>2020-06-02T02:49:13Z</timestamp>
+      <contributor>
+        <username>Vycl1994</username>
+        <id>19014806</id>
+      </contributor>
+      <comment>/* top */</comment>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="19976" xml:space="preserve">[[File:Regression pic assymetrique.gif|thumb|300px|Fitting of a noisy curve by an asymmetrical peak model, using the Gauss–Newton algorithm with variable damping factor α. &lt;br /&gt; Top: raw data and model.&lt;br /&gt; Bottom: evolution of the normalised sum of the squares of the errors.]]
+
+The '''Gauss–Newton algorithm''' is used to solve [[non-linear least squares]] problems. It is a modification of [[newton's method in optimization|Newton's method]] for finding a [[maxima and minima|minimum]] of a [[function (mathematics)|function]]. Unlike Newton's method, the Gauss–Newton algorithm can only be used to minimize a sum of squared function values, but it has the advantage that second derivatives, which can be challenging to compute, are not required.&lt;ref&gt;{{cite book |first=Ron C. |last=Mittelhammer |first2=Douglas J. |last2=Miller |first3=George G. |last3=Judge |title=Econometric Foundations |location=Cambridge |publisher=Cambridge University Press |year=2000 |isbn=0-521-62394-4 |pages=197–198 |url=https://books.google.com/books?id=fycmsfkK6RQC&amp;pg=PA197 }}&lt;/ref&gt;
+
+Non-linear least squares problems arise, for instance, in [[non-linear regression]], where parameters in a model are sought such that the model is in good agreement with available observations.
+
+The method is named after the mathematicians [[Carl Friedrich Gauss]] and [[Isaac Newton]], and first appeared in Gauss' 1809 work ''Theoria motus corporum coelestium in sectionibus conicis solem ambientum''.&lt;ref name=optimizationEncyc&gt;{{Cite book|authorlink1=Christodoulos Floudas| last = Floudas | first = Christodoulos A. | last2=Pardalos |first2=Panos M.|title = Encyclopedia of Optimization  | publisher = Springer | year = 2008 | page = 1130 | isbn = 9780387747583}}&lt;/ref&gt;
+
+== Description ==
+Given ''m'' functions '''r''' = (''r''&lt;sub&gt;1&lt;/sub&gt;, …, ''r''&lt;sub&gt;''m''&lt;/sub&gt;) (often called residuals) of ''n'' variables '''''β'''''&amp;nbsp;=&amp;nbsp;(''β''&lt;sub&gt;1&lt;/sub&gt;, …, ''β''&lt;sub&gt;''n''&lt;/sub&gt;), with ''m''&amp;nbsp;≥&amp;nbsp;''n'', the Gauss–Newton algorithm [[iterative method|iteratively]] finds the value of the variables that minimizes the sum of squares&lt;ref name=ab&gt;Björck (1996)&lt;/ref&gt;
+:&lt;math&gt; S(\boldsymbol \beta) = \sum_{i=1}^m r_i^2(\boldsymbol \beta).&lt;/math&gt;
+
+Starting with an initial guess &lt;math&gt;\boldsymbol \beta^{(0)}&lt;/math&gt; for the minimum, the method proceeds by the iterations
+:&lt;math&gt; \boldsymbol \beta^{(s+1)} = \boldsymbol \beta^{(s)} - \left(\mathbf{J_r}^\mathsf{T} \mathbf{J_r} \right)^{-1} \mathbf{J_r}^\mathsf{T} \mathbf{r}\left(\boldsymbol \beta^{(s)}\right), &lt;/math&gt;
+
+where, if '''r''' and '''''β''''' are [[column vectors]], the entries of the [[Jacobian matrix]] are
+:&lt;math&gt; \left(\mathbf{J_r}\right)_{ij} = \frac{\partial r_i \left(\boldsymbol \beta^{(s)}\right)}{\partial \beta_j},&lt;/math&gt;
+
+and the symbol &lt;math&gt;^\mathsf{T}&lt;/math&gt; denotes the [[matrix transpose]].
+
+If ''m''&amp;nbsp;=&amp;nbsp;''n'', the iteration simplifies to
+
+:&lt;math&gt; \boldsymbol \beta^{(s+1)} = \boldsymbol \beta^{(s)} - \left(\mathbf{J_r}\right)^{-1} \mathbf{r}\left(\boldsymbol \beta^{(s)}\right),&lt;/math&gt;
+
+which is a direct generalization of [[Newton's method]] in one dimension.
+
+In data fitting, where the goal is to find the parameters '''''β''''' such that a given model function ''y''&amp;nbsp;=&amp;nbsp;''f''(''x'', '''''β''''') best fits some data points (''x''&lt;sub&gt;''i''&lt;/sub&gt;, ''y''&lt;sub&gt;''i''&lt;/sub&gt;), the functions ''r''&lt;sub&gt;''i''&lt;/sub&gt; are the [[residual (statistics)|residuals]]:
+: &lt;math&gt;r_i(\boldsymbol \beta) = y_i - f\left(x_i, \boldsymbol \beta\right).&lt;/math&gt;
+
+Then, the Gauss–Newton method can be expressed in terms of the Jacobian '''J'''&lt;sub&gt;'''f'''&lt;/sub&gt; of the function ''f'' as
+:&lt;math&gt; \boldsymbol \beta^{(s+1)} = \boldsymbol \beta^{(s)} + \left(\mathbf{J_f}^\mathsf{T} \mathbf{J_f} \right)^{-1} \mathbf{J_f}^\mathsf{T} \mathbf{r}\left(\boldsymbol \beta^{(s)}\right). &lt;/math&gt;
+
+Note that &lt;math&gt;\left(\mathbf{J_f}^\mathsf{T} \mathbf{J_f}\right)^{-1} \mathbf{J_f}^\mathsf{T}&lt;/math&gt; is the left [[Moore–Penrose pseudoinverse|pseudoinverse]] of &lt;math&gt;\mathbf{J_f}&lt;/math&gt;.
+
+==Notes==
+
+The assumption ''m''&amp;nbsp;≥&amp;nbsp;''n'' in the algorithm statement is necessary, as otherwise the matrix '''J&lt;sub&gt;r&lt;/sub&gt;'''&lt;sup&gt;T&lt;/sup&gt;'''J&lt;sub&gt;r&lt;/sub&gt;''' is not invertible and the normal equations cannot be solved (at least uniquely).
+
+The Gauss–Newton algorithm can be derived by [[linear approximation|linearly approximating]] the vector of functions ''r''&lt;sub&gt;''i''&lt;/sub&gt;. Using [[Taylor's theorem]], we can write at every iteration:
+
+: &lt;math&gt;\mathbf{r}(\boldsymbol \beta) \approx \mathbf{r}\left(\boldsymbol \beta^{(s)}\right) + \mathbf{J_r}\left(\boldsymbol \beta^{(s)}\right)\Delta&lt;/math&gt;
+
+with &lt;math&gt;\Delta = \boldsymbol \beta - \boldsymbol \beta^{(s)}&lt;/math&gt;. The task of finding Δ minimizing the sum of squares of the right-hand side; i.e.,
+: &lt;math&gt;\min \left\|\mathbf{r}\left(\boldsymbol \beta^{(s)}\right) + \mathbf{J_r}\left(\boldsymbol \beta^{(s)}\right)\Delta\right\|_2^2,&lt;/math&gt;
+
+is a [[linear least squares (mathematics)|linear least-squares]] problem, which can be solved explicitly, yielding the normal equations in the algorithm.
+
+The normal equations are ''n'' simultaneous linear equations in the unknown increments Δ. They may be solved in one step, using [[Cholesky decomposition]], or, better, the [[QR factorization]] of '''J'''&lt;sub&gt;'''r'''&lt;/sub&gt;. For large systems, an [[iterative method]], such as the [[conjugate gradient]] method, may be more efficient. If there is a linear dependence between columns of '''J'''&lt;sub&gt;'''r'''&lt;/sub&gt;, the iterations will fail, as '''J&lt;sub&gt;r&lt;/sub&gt;'''&lt;sup&gt;T&lt;/sup&gt;'''J&lt;sub&gt;r&lt;/sub&gt;''' becomes singular.
+
+==Example==
+[[File:Gauss Newton illustration.png|thumb|right|280px|Calculated curve obtained with &lt;math&gt;\hat\beta_1 = 0.362&lt;/math&gt; and &lt;math&gt;\hat\beta_2 = 0.556&lt;/math&gt; (in blue) versus the observed data (in red).]]
+In this example, the Gauss–Newton algorithm will be used to fit a model to some data by minimizing the sum of squares of errors between the data and model's predictions.
+
+In a biology experiment studying the relation between substrate concentration {{math|[''S'']}} and reaction rate in an enzyme-mediated reaction, the data in the following table were obtained. 
+:{|class="wikitable" style="text-align: center;" 
+! {{mvar|i}} 
+| 1 || 2 || 3 || 4 || 5 || 6 || 7 
+|-
+! {{math|[''S'']}}
+| 0.038 || 0.194 || 0.425 || 0.626  || 1.253  || 2.500  || 3.740
+|-
+! Rate 
+| 0.050 || 0.127 || 0.094 || 0.2122 || 0.2729 || 0.2665 || 0.3317
+|}
+
+It is desired to find a curve (model function) of the form
+:&lt;math&gt;\text{rate} = \frac{V_\text{max}[S]}{K_M + [S]}&lt;/math&gt;
+
+that fits best the data in the least-squares sense, with the parameters &lt;math&gt;V_\text{max}&lt;/math&gt; and &lt;math&gt;K_M&lt;/math&gt; to be determined.
+
+Denote by &lt;math&gt;x_i&lt;/math&gt; and &lt;math&gt;y_i&lt;/math&gt; the value of {{math|[''S'']}} and the rate from the table, &lt;math&gt;i = 1, \dots, 7&lt;/math&gt;. Let &lt;math&gt;\beta_1 = V_\text{max}&lt;/math&gt; and &lt;math&gt;\beta_2 = K_M&lt;/math&gt;. We will find &lt;math&gt;\beta_1&lt;/math&gt; and &lt;math&gt;\beta_2&lt;/math&gt; such that the sum of squares of the residuals
+:&lt;math&gt;r_i = y_i - \frac{\beta_1 x_i}{\beta_2 + x_i} \quad (i = 1, \dots, 7)&lt;/math&gt;
+
+is minimized.
+
+The Jacobian &lt;math&gt;\mathbf{J_r}&lt;/math&gt; of the vector of residuals &lt;math&gt;r_i&lt;/math&gt; with respect to the unknowns &lt;math&gt;\beta_j&lt;/math&gt; is a &lt;math&gt;7 \times 2&lt;/math&gt; matrix with the &lt;math&gt;i&lt;/math&gt;-th row having the entries
+:&lt;math&gt;\frac{\partial r_i}{\partial \beta_1} = -\frac{x_i}{\beta_2 + x_i}; \frac{\partial r_i}{\partial \beta_2} = \frac{\beta_1 x_i}{\left(\beta_2 + x_i\right)^2}.&lt;/math&gt;
+
+Starting with the initial estimates of &lt;math&gt;\beta_1 = 0.9&lt;/math&gt; and &lt;math&gt;\beta_2 = 0.2&lt;/math&gt;, after five iterations of the Gauss–Newton algorithm the optimal values &lt;math&gt;\hat\beta_1 = 0.362&lt;/math&gt; and &lt;math&gt;\hat\beta_2 = 0.556&lt;/math&gt; are obtained. The sum of squares of residuals decreased from the initial value of 1.445 to 0.00784 after the fifth iteration. The plot in the figure on the right shows the curve determined by the model for the optimal parameters with the observed data.
+
+==Convergence properties==
+
+It can be shown&lt;ref&gt;Björck (1996), p. 260.&lt;/ref&gt; that the increment &amp;Delta; is a [[descent direction]] for ''S'', and, if the algorithm converges, then the limit is a [[stationary point]] of ''S''. However, convergence is not guaranteed, not even [[local convergence]] as in [[Newton's method in optimization|Newton's method]], or convergence under the usual Wolfe conditions.&lt;ref&gt;{{citation |title=The divergence of the BFGS and Gauss Newton Methods |last1=Mascarenhas |journal=Mathematical Programming |date=2013 |volume=147 |issue=1 |pages=253–276 |doi=10.1007/s10107-013-0720-6 |arxiv=1309.7922}}&lt;/ref&gt;
+
+The rate of convergence of the Gauss–Newton algorithm can approach [[rate of convergence|quadratic]].&lt;ref&gt;Björck (1996), p. 341, 342.&lt;/ref&gt; The algorithm may converge slowly or not at all if the initial guess is far from the minimum or the matrix &lt;math&gt;\mathbf{J_r^\mathsf{T} J_r}&lt;/math&gt; is [[ill-conditioned]].  For example, consider the problem with &lt;math&gt;m = 2&lt;/math&gt; equations and &lt;math&gt;n = 1&lt;/math&gt; variable, given by
+:&lt;math&gt;\begin{align}
+  r_1(\beta) &amp;= \beta + 1, \\
+  r_2(\beta) &amp;= \lambda \beta^2 + \beta - 1.
+\end{align} &lt;/math&gt;
+
+The optimum is at &lt;math&gt;\beta = 0&lt;/math&gt;. (Actually the optimum is at &lt;math&gt;\beta = -1&lt;/math&gt; for &lt;math&gt;\lambda = 2&lt;/math&gt;, because &lt;math&gt;S(0) = 1^2 + (-1)^2 = 2&lt;/math&gt;, but &lt;math&gt;S(-1) = 0&lt;/math&gt;.) If &lt;math&gt;\lambda = 0&lt;/math&gt;, then the problem is in fact linear and the method finds the optimum in one iteration. If |λ| &lt; 1, then the method converges linearly and the error decreases asymptotically with a factor |λ| at every iteration. However, if |λ| &gt; 1, then the method does not even converge locally.&lt;ref&gt;Fletcher (1987), p. 113.&lt;/ref&gt;
+
+== Derivation from Newton's method ==
+
+In what follows, the Gauss–Newton algorithm will be derived from [[Newton's method in optimization|Newton's method]] for function optimization via an approximation. As a consequence, the rate of convergence of the Gauss–Newton algorithm can be quadratic under certain regularity conditions. In general (under weaker conditions), the convergence rate is linear.&lt;ref&gt;{{Cite web |url=http://www.henley.ac.uk/web/FILES/maths/09-04.pdf |title=Archived copy |access-date=2014-04-25 |archive-url=https://web.archive.org/web/20160804022151/http://www.henley.ac.uk/web/FILES/maths/09-04.pdf |archive-date=2016-08-04 |url-status=dead }}&lt;/ref&gt;
+
+The recurrence relation for Newton's method for minimizing a function ''S'' of parameters &lt;math&gt;\boldsymbol\beta&lt;/math&gt; is
+:&lt;math&gt; \boldsymbol\beta^{(s+1)} = \boldsymbol\beta^{(s)} - \mathbf H^{-1} \mathbf g,&lt;/math&gt;
+
+where '''g''' denotes the [[gradient|gradient vector]] of ''S'', and '''H''' denotes the [[Hessian matrix]] of ''S''.
+
+Since &lt;math&gt;S = \sum_{i=1}^m r_i^2&lt;/math&gt;, the gradient is given by
+:&lt;math&gt;g_j = 2 \sum_{i=1}^m r_i \frac{\partial r_i}{\partial \beta_j}.&lt;/math&gt;
+
+Elements of the Hessian are calculated by differentiating the gradient elements, &lt;math&gt;g_j&lt;/math&gt;, with respect to &lt;math&gt;\beta_k&lt;/math&gt;:
+:&lt;math&gt;H_{jk} = 2 \sum_{i=1}^m \left(\frac{\partial r_i}{\partial \beta_j} \frac{\partial r_i}{\partial \beta_k} + r_i \frac{\partial^2 r_i}{\partial \beta_j \partial \beta_k}\right).&lt;/math&gt;
+
+The Gauss–Newton method is obtained by ignoring the second-order derivative terms (the second term in this expression). That is, the Hessian is approximated by
+:&lt;math&gt;H_{jk} \approx 2 \sum_{i=1}^m J_{ij} J_{ik},&lt;/math&gt;
+
+where &lt;math&gt;J_{ij} = \frac{\partial r_i}{\partial \beta_j}&lt;/math&gt; are entries of the Jacobian '''J&lt;sub&gt;r&lt;/sub&gt;'''. The gradient and the approximate Hessian can be written in matrix notation as
+:&lt;math&gt;\mathbf{g} = 2 {\mathbf{J}_\mathbf{r}}^\mathsf{T} \mathbf{r}, \quad \mathbf{H} \approx 2 {\mathbf{J}_\mathbf{r}}^\mathsf{T} \mathbf{J_r}.&lt;/math&gt;
+
+These expressions are substituted into the recurrence relation above to obtain the operational equations
+:&lt;math&gt; \boldsymbol{\beta}^{(s+1)} = \boldsymbol\beta^{(s)} + \Delta; \quad \Delta = -\left(\mathbf{J_r}^\mathsf{T} \mathbf{J_r}\right)^{-1} \mathbf{J_r}^\mathsf{T} \mathbf{r}.&lt;/math&gt;
+
+Convergence of the Gauss–Newton method is not guaranteed in all instances. The approximation
+:&lt;math&gt;\left|r_i \frac{\partial^2 r_i}{\partial \beta_j \partial \beta_k}\right| \ll \left|\frac{\partial r_i}{\partial \beta_j} \frac{\partial r_i}{\partial \beta_k}\right|&lt;/math&gt;
+
+that needs to hold to be able to ignore the second-order derivative terms may be valid in two cases, for which convergence is to be expected:&lt;ref&gt;Nocedal (1999), p. 259.&lt;/ref&gt;
+# The function values &lt;math&gt;r_i&lt;/math&gt; are small in magnitude, at least around the minimum. 
+# The functions are only "mildly" nonlinear, so that &lt;math&gt;\frac{\partial^2 r_i}{\partial \beta_j \partial \beta_k}&lt;/math&gt; is relatively small in magnitude.
+
+== Improved versions ==
+
+With the Gauss–Newton method the sum of squares of the residuals ''S'' may not decrease at every iteration. However, since &amp;Delta; is a descent direction, unless &lt;math&gt;S\left(\boldsymbol \beta^s\right)&lt;/math&gt; is a stationary point, it holds that &lt;math&gt;S\left(\boldsymbol \beta^s + \alpha\Delta\right) &lt; S\left(\boldsymbol \beta^s\right)&lt;/math&gt; for all sufficiently small &lt;math&gt;\alpha&gt;0&lt;/math&gt;. Thus, if divergence occurs, one solution is to employ a fraction &lt;math&gt;\alpha&lt;/math&gt; of the increment vector Δ in the updating formula:
+:&lt;math&gt; \boldsymbol \beta^{s+1} = \boldsymbol \beta^s + \alpha \Delta.&lt;/math&gt;.
+
+In other words, the increment vector is too long, but it still points "downhill", so going just a part of the way will decrease the objective function ''S''. An optimal value for &lt;math&gt;\alpha&lt;/math&gt; can be found by using a [[line search]] algorithm, that is, the magnitude of &lt;math&gt;\alpha&lt;/math&gt; is determined by finding the value that minimizes ''S'', usually using a [[line search|direct search method]] in the interval &lt;math&gt;0 &lt; \alpha &lt; 1&lt;/math&gt; or a [[backtracking line search]] such as [[Backtracking line search|Armijo-line search]]. Typically, &lt;math&gt;\alpha&lt;/math&gt; should be chosen such that it satisfies the [[Wolfe conditions]] or the [[Goldstein conditions]].&lt;ref&gt;{{Cite book|title=Numerical optimization|last=Nocedal, Jorge.|date=1999|publisher=Springer|others=Wright, Stephen J., 1960-|isbn=0387227423|location=New York|oclc=54849297}}&lt;/ref&gt;
+
+In cases where the direction of the shift vector is such that the optimal fraction α is close to zero, an alternative method for handling divergence is the use of the [[Levenberg–Marquardt algorithm]], a [[trust region]] method.&lt;ref name="ab"/&gt; The normal equations are modified in such a way that the increment vector is rotated towards the direction of [[steepest descent]],
+:&lt;math&gt;\left(\mathbf{J^\mathsf{T} J + \lambda D}\right) \Delta = -\mathbf{J}^\mathsf{T} \mathbf{r},&lt;/math&gt;
+
+where '''D''' is a positive diagonal matrix. Note that when '''D''' is the identity matrix '''I''' and &lt;math&gt;\lambda \to +\infty&lt;/math&gt;, then &lt;math&gt;\lambda \Delta = \lambda \left(\mathbf{J^\mathsf{T} J} + \lambda \mathbf{I}\right)^{-1} \left(-\mathbf{J}^\mathsf{T} \mathbf{r}\right) = \left(\mathbf{I} - \mathbf{J^\mathsf{T} J} / \lambda + \cdots \right) \left(-\mathbf{J}^\mathsf{T} \mathbf{r}\right) \to -\mathbf{J}^\mathsf{T} \mathbf{r}&lt;/math&gt;, therefore the [[Direction (geometry, geography)|direction]] of Δ approaches the direction of the negative gradient &lt;math&gt;-\mathbf{J}^\mathsf{T} \mathbf{r}&lt;/math&gt;.
+
+The so-called Marquardt parameter &lt;math&gt;\lambda&lt;/math&gt; may also be optimized by a line search, but this is inefficient, as the shift vector must be recalculated every time &lt;math&gt;\lambda&lt;/math&gt; is changed. A more efficient strategy is this: When divergence occurs, increase the Marquardt parameter until there is a decrease in ''S''. Then retain the value from one iteration to the next, but decrease it if possible until a cut-off value is reached, when the Marquardt parameter can be set to zero; the minimization of ''S'' then becomes a standard Gauss–Newton minimization.
+
+==Large-scale optimization==
+
+For large-scale optimization, the Gauss–Newton method is of special interest because it is often (though certainly not always) true that the matrix &lt;math&gt;\mathbf{J}_\mathbf{r}&lt;/math&gt; is more [[Sparse matrix|sparse]] than the approximate Hessian &lt;math&gt;\mathbf{J}_\mathbf{r}^\mathsf{T} \mathbf{J_r}&lt;/math&gt;. In such cases, the step calculation itself will typically need to be done with an approximate iterative method appropriate for large and sparse problems, such as the [[conjugate gradient method]].
+
+In order to make this kind of approach work, one needs at least an efficient method for computing the product
+:&lt;math&gt;{\mathbf{J}_\mathbf{r}}^\mathsf{T} \mathbf{J_r} \mathbf{p}&lt;/math&gt;
+
+for some vector '''p'''. With [[sparse matrix]] storage, it is in general practical to store the rows of &lt;math&gt;\mathbf{J}_\mathbf{r}&lt;/math&gt; in a compressed form (e.g., without zero entries), making a direct computation of the above product tricky due to the transposition. However, if one defines '''c'''&lt;sub&gt;''i''&lt;/sub&gt; as row ''i'' of the matrix &lt;math&gt;\mathbf{J}_\mathbf{r}&lt;/math&gt;, the following simple relation holds:
+:&lt;math&gt;{\mathbf{J}_\mathbf{r}}^\mathsf{T}\mathbf{J_r} \mathbf{p} = \sum_i \mathbf c_i \left(\mathbf c_i \cdot \mathbf{p}\right),&lt;/math&gt;
+
+so that every row contributes additively and independently to the product. In addition to respecting a practical sparse storage structure, this expression is well suited for [[Parallel computing|parallel computations]]. Note that every row '''c'''&lt;sub&gt;''i''&lt;/sub&gt; is the gradient of the corresponding residual ''r''&lt;sub&gt;''i''&lt;/sub&gt;; with this in mind, the formula above emphasizes the fact that residuals contribute to the problem independently of each other.
+
+== Related algorithms ==
+
+In a [[quasi-Newton method]], such as that due to [[Davidon–Fletcher–Powell formula|Davidon, Fletcher and Powell]] or Broyden–Fletcher–Goldfarb–Shanno ([[BFGS method]]) an estimate of the full Hessian &lt;math&gt;\frac{\partial^2 S}{\partial \beta_j \partial\beta_k}&lt;/math&gt; is built up numerically using first derivatives &lt;math&gt;\frac{\partial r_i}{\partial\beta_j}&lt;/math&gt; only so that after ''n'' refinement cycles the method closely approximates to Newton's method in performance. Note that quasi-Newton methods can minimize general real-valued functions, whereas Gauss–Newton, Levenberg–Marquardt, etc. fits only to nonlinear least-squares problems.
+
+Another method for solving minimization problems using only first derivatives is [[gradient descent]]. However, this method does not take into account the second derivatives even approximately. Consequently, it is highly inefficient for many functions, especially if the parameters have strong interactions.
+
+==Notes==
+&lt;references /&gt;
+
+==References==
+*{{cite book
+ | last       = Björck | first      = A.
+ | title      = Numerical methods for least squares problems
+ | publisher  = SIAM, Philadelphia  | year       = 1996  | isbn       = 0-89871-360-9 }}
+* {{Cite book | last1=Fletcher | first1=Roger | title=Practical methods of optimization | publisher=[[John Wiley &amp; Sons]] | location=New York | edition=2nd | isbn=978-0-471-91547-8 | year=1987 | url-access=registration | url=https://archive.org/details/practicalmethods0000flet }}. 
+*{{cite book
+ | last       = Nocedal  | first      = Jorge  |author2=Wright, Stephen 
+ | title      = Numerical optimization
+ | publisher  = New York: Springer  | year       = 1999  | isbn       = 0-387-98793-2 }}
+
+== External links ==
+
+=== Implementations ===
+*[https://www.artelys.com/en/optimization-tools/knitro Artelys Knitro] is a non-linear solver with an implementation of the Gauss–Newton method. It is written in C and has interfaces to C++/C#/Java/Python/MATLAB/R.
+
+{{Isaac Newton}}
+{{Least Squares and Regression Analysis}}
+{{Optimization algorithms}}
+
+{{DEFAULTSORT:Gauss-Newton algorithm}}
+[[Category:Optimization algorithms and methods]]
+[[Category:Least squares]]
+[[Category:Statistical algorithms]]</text>
+      <sha1>i3cem9gqsc0j3i5t16zhpqck085rqvt</sha1>
+    </revision>
+  </page>
+</mediawiki>

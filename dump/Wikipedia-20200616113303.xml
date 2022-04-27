@@ -1,0 +1,119 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.10/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.10/ http://www.mediawiki.org/xml/export-0.10.xsd" version="0.10" xml:lang="en">
+  <siteinfo>
+    <sitename>Wikipedia</sitename>
+    <dbname>enwiki</dbname>
+    <base>https://en.wikipedia.org/wiki/Main_Page</base>
+    <generator>MediaWiki 1.35.0-wmf.36</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Media</namespace>
+      <namespace key="-1" case="first-letter">Special</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Talk</namespace>
+      <namespace key="2" case="first-letter">User</namespace>
+      <namespace key="3" case="first-letter">User talk</namespace>
+      <namespace key="4" case="first-letter">Wikipedia</namespace>
+      <namespace key="5" case="first-letter">Wikipedia talk</namespace>
+      <namespace key="6" case="first-letter">File</namespace>
+      <namespace key="7" case="first-letter">File talk</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki talk</namespace>
+      <namespace key="10" case="first-letter">Template</namespace>
+      <namespace key="11" case="first-letter">Template talk</namespace>
+      <namespace key="12" case="first-letter">Help</namespace>
+      <namespace key="13" case="first-letter">Help talk</namespace>
+      <namespace key="14" case="first-letter">Category</namespace>
+      <namespace key="15" case="first-letter">Category talk</namespace>
+      <namespace key="100" case="first-letter">Portal</namespace>
+      <namespace key="101" case="first-letter">Portal talk</namespace>
+      <namespace key="108" case="first-letter">Book</namespace>
+      <namespace key="109" case="first-letter">Book talk</namespace>
+      <namespace key="118" case="first-letter">Draft</namespace>
+      <namespace key="119" case="first-letter">Draft talk</namespace>
+      <namespace key="446" case="first-letter">Education Program</namespace>
+      <namespace key="447" case="first-letter">Education Program talk</namespace>
+      <namespace key="710" case="first-letter">TimedText</namespace>
+      <namespace key="711" case="first-letter">TimedText talk</namespace>
+      <namespace key="828" case="first-letter">Module</namespace>
+      <namespace key="829" case="first-letter">Module talk</namespace>
+      <namespace key="2300" case="first-letter">Gadget</namespace>
+      <namespace key="2301" case="first-letter">Gadget talk</namespace>
+      <namespace key="2302" case="case-sensitive">Gadget definition</namespace>
+      <namespace key="2303" case="case-sensitive">Gadget definition talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>HSV epigenetics</title>
+    <ns>0</ns>
+    <id>57393812</id>
+    <revision>
+      <id>950349025</id>
+      <parentid>916387937</parentid>
+      <timestamp>2020-04-11T16:32:53Z</timestamp>
+      <contributor>
+        <username>OAbot</username>
+        <id>28481209</id>
+      </contributor>
+      <minor/>
+      <comment>[[Wikipedia:OABOT|Open access bot]]: doi added to citation with #oabot.</comment>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="18114" xml:space="preserve">{{orphan|date=May 2018}}
+
+'''HSV epigenetics''' is the [[epigenetic]] modification of [[herpes simplex virus]] (HSV) genetic code.
+
+As of 2012, an estimated 3.7 billion people globally were infected with oral herpes simplex virus (HSV-1), and 417 million were living with genital herpes (HSV-2) worldwide (World Health Organization, 2018). In severe cases, HSV infection can cause corneal scarring and blindness from herpes keratitis, central nervous system infections, and even death in immunocompromised individuals such as neonates and HIV patients.&lt;ref&gt;{{cite journal | vauthors = Knipe DM, Cliffe A | title = Chromatin control of herpes simplex virus lytic and latent infection | language = En | journal = Nature Reviews. Microbiology | volume = 6 | issue = 3 | pages = 211–21 | date = March 2008 | pmid = 18264117 | doi = 10.1038/nrmicro1794 }}&lt;/ref&gt;
+
+== Infectious cycle ==
+The [[Viral life cycle|life cycle]] of a virus typically consists of its [[Viral entry|entry]], [[Viral replication|replication]], and eventual [[Viral shedding|shedding]]. Upon initial infection, herpes simplex virus (HSV) causes acute lytic infection of epithelial cells, usually at either genital or orolabial mucus membranes.&lt;ref&gt;{{Cite book|title=Fundamentals of molecular virology|last=H.|first=Acheson, N.|date=2011|publisher=John Wiley &amp; Sons|isbn=9780470900598|edition= 2nd |location=Hoboken, NJ|oclc=697768676}}&lt;/ref&gt; During this initial infection, the virus also infects local nerve cells, such as in the trigeminal ganglion in the case of HSV-1. HSV enters the cell when its membrane fuses with the cellular membrane, releasing tegument proteins and the naked capsid into the cytoplasm. The capsid travels to a nuclear pore, likely along cytoskeletal microtubules. The HSV genome is then injected into the nucleus where it is assembled with histones and undergoes chromatin remodeling, thus inducing latency. [[Lysogenic cycle|Lysogenic]] DNA viruses in particular make use of cellular epigenetic mechanisms in their life cycle, particularly prior to replication, during a virus' [[Virus latency|latent infection]].&lt;ref name=":0" /&gt; During latency, most viral genes are silenced, and infected individuals are asymptomatic. More importantly, during latency, proviral DNA is hidden from the immune system, making treatment extremely difficult, if not impossible.
+
+Latent infection is described as the dormancy of a virus, by which proliferation of viral particles cease, yet the viral genome still remains incorporated as reservoirs within the cell. Although diversity among viruses' latent phase exist, ranging from selective viral gene expression (e.g., HSV expression of latency associated transcripts) to complete lack of expression, incorporation into the cell's genome (such as in [[retrovirus]]es), and [[Episome|episomal]] persistence, common generalities too can be ascribed. Generally, the long-term latency of a mammalian virus is a dynamic interaction between it and the host cell's antiviral immunity.&lt;ref name=":1" /&gt; The establishment, maintenance, and reactivation of the infection cycle (reversibility) largely relies on cellular epigenetic processes in this dynamic&lt;ref name=":2"&gt;{{cite journal | vauthors = Speck SH, Ganem D | title = Viral latency and its regulation: lessons from the gamma-herpesviruses | journal = Cell Host &amp; Microbe | volume = 8 | issue = 1 | pages = 100–15 | date = July 2010 | pmid = 20638646 | pmc = 2914632 | doi = 10.1016/j.chom.2010.06.014 }}&lt;/ref&gt; and thus opens a discussion for viral treatment via an epigenetic perspective.
+
+== History of treatment ==
+Antiviral drug development has been a complex process utilizing several different fields to synthesize single methods of treatment.&lt;ref name=":3"&gt;{{Cite journal | vauthors = Bryan-Marrugo OL, Ramos-Jiménez J, Barrera-Saldaña H, Rojas-Martínez A, Vidaltamayo R, Rivas-Estilla AM |title=History and progress of antiviral drugs: From acyclovir to direct-acting antiviral agents (DAAs) for Hepatitis C|journal=Medicina Universitaria|volume=17|issue=68|pages=165–174|doi=10.1016/j.rmu.2015.05.003|year=2015|url=http://eprints.uanl.mx/11636/|doi-access=free}}&lt;/ref&gt; As of May 2018 there are about 50 drugs approved for human use against viruses such as [[Herpes simplex|HSV]], [[HIV]], [[cytomegalovirus]], [[Orthomyxoviridae|influenza virus]], [[Hepatitis B|HBV]] and [[Hepatitis C|HCV]].&lt;ref name=":3"/&gt; A large amount of viral research in the field of epigenetics has been done on specifically on HSV.
+
+HSV infections have been medically recorded in literature for centuries, but its antiviral treatment has been developed only over the past 50 years.&lt;ref name=":4"&gt;{{cite journal | vauthors = Brady RC, Bernstein DI | title = Treatment of herpes simplex virus infections | journal = Antiviral Research | volume = 61 | issue = 2 | pages = 73–81 | date = February 2004 | pmid = 14670580 | doi = 10.1016/j.antiviral.2003.09.006 }}&lt;/ref&gt; The framework for antiviral HSV treatment began with the experimental use of [[DNA inhibitor]]s, which interrupt the viral replication cycle. These drugs since have been developed commercially and are subsequently prescribed depending on factors such as the immune status of the host, the site of infection, and whether the infection is primary (initial infection) or recurrent (recurring symptoms).&lt;ref name=":4"/&gt;
+
+Popular, current antiviral agents include [[aciclovir]], [[penciclovir]], [[foscarnet]], and [[docosanol]].&lt;ref name=":4"/&gt; [[Aciclovir]] acts as a nucleoside analog which specifically target herpes virus-infected cells using viral [[thymidine kinase]] (TK). Viral TK [[phosphorylation|phosphorylates]] aciclovir into its monophosphate form, which is subsequently phosphorylated to active aciclovir triphoshate by [[cellular kinase]]s, thus selectively inhibiting viral [[DNA polymerase]]. The related [[valaciclovir]] Aciclovir triphosphate is the L-valine ester [[prodrug]] of aciclovir, which is thus converted to aciclovir in the liver.{{citation needed|date=May 2018}}
+
+Penciclovir is similar to aciclovir in mechanism, except that penciclovir is a guanosine analog. Penciclovir triphosphate is 100-fold less potent in inhibiting viral DNA polymerase, yet also remains in infected cells at higher concentrations and for longer periods of time. [[Famciclovir]] is the diacetyl ester prodrug of penciclovir.{{citation needed|date=May 2018}}
+
+Foscarnet does not rely on TK phosphorylation, and is thus potent against TK-deficient HSV isolates which otherwise form a resistant to TK-dependent drug mechanisms. Docosanol (Abreva) blocks initial viral entry via inhibition of fusion between the host plasma membrane and HSV envelope.{{citation needed|date=May 2018}}
+
+As seen by most mainstream antiviral agents, the mechanism of treatment for HSV historically is via the inhibition of viral replication using nucleotides that inhibit DNA polymerase. The specificity in targeting for viral polymerases is dependent on the drug used, which in turn is dependent on the severity of the infection.
+
+== Viral epigenetic mechanisms ==
+Epigenetic down-regulation of viral gene expression is likely a result, at least in part, of the evolutionary arms race in which a cellular host attempts to silence viral DNA, such as through chromatin remodeling. However, some viruses have evolved to twist this process to their own advantage by establishing latency. Latent proviral DNA exists as heterochromatin in the host nucleus, evading cellular defenses.&lt;ref name=":0"&gt;{{cite journal | vauthors = Lieberman PM | title = Epigenetics and Genetics of Viral Latency | journal = Cell Host &amp; Microbe | volume = 19 | issue = 5 | pages = 619–28 | date = May 2016 | pmid = 27173930 | pmc = 5166714 | doi = 10.1016/j.chom.2016.04.008 }}&lt;/ref&gt; Four epigenetic processes have been well described: chromatin assembly, histone modifications, DNA methylation, and regulatory RNA.&lt;ref name=":1"&gt;{{cite journal | vauthors = Balakrishnan L, Milavetz B | title = Epigenetic Regulation of Viral Biological Processes | journal = Viruses | volume = 9 | issue = 11 | pages = 346 | date = November 2017 | pmid = 29149060 | pmc = 5707553 | doi = 10.3390/v9110346 }}&lt;/ref&gt;
+
+Upon initial infection, viral genomes are not associated with histones. Typical double-stranded DNA viruses that infect eukaryotic cells insert their genome into the cell nucleus, where cellular machinery necessary for DNA replication and transcription is present (the notable exceptions are [[Poxviruses|pox viruses]], which remain in the cytoplasm). Once viral DNA enters the nucleus, it colocalizes with promyelocytic leukaemia nuclear bodies (PML-NBs), regions rich in proteins associated with antiviral pathways such as [[Promyelocytic leukemia protein|PML]], [[SP100]], [[DAXX|Daxx]], and ATRX. In particular, Daxx and ATRX assemble viral DNA around histone 3, forming heterochromatin and silencing viral gene expression.&lt;ref name=":0" /&gt;&lt;ref&gt;{{cite journal | vauthors = Tsai K, Messick TE, Lieberman PM | title = Disruption of host antiviral resistances by gammaherpesvirus tegument proteins with homology to the FGARAT purine biosynthesis enzyme | journal = Current Opinion in Virology | volume = 14 | pages = 30–40 | date = October 2015 | pmid = 26256000 | doi = 10.1016/j.coviro.2015.07.008 | pmc = 4628856 }}&lt;/ref&gt; Viral responses have evolved to either degrade or modify this heterochromatin, such as repurposing to induce latency.&lt;ref name=":0" /&gt;
+
+There are several known examples of viral recruitment of cellular proteins to chromatin for histone modification, particularly in herpesviridae.&lt;ref name=":0" /&gt; (Polycomb complex recruitment by LAT, VP16 recruits OCT1 and HCF1, which in turn recruit histone demethylases JMJD2s and LSD1, etc).
+
+DNA methylation can occur on viral genomes through recruitment of cellular machinery such as [[DNA methyltransferase#DNMT 3|DNA methyltransferase 3A (DNMT3A)]]. DNMT3A is a ''de novo'' methyltransferase which can methylate previously unmethylated DNA, such as that of viral genomes. DNMT3A is recruited to viral genomes by viral proteins such as the Kaposi's Sarcoma herpesvirus (KSHV) protein LANA, and VP26 and VP5 in herpes simplex virus 1 (HSV-1). Methylation of gene promoters represses gene expression, which has several functions in maintaining latency and even reactivation in [[Epstein–Barr virus|Epstein-Barr virus (EBV)]].&lt;ref name=":0" /&gt;
+
+In HSV and [[Kaposi's sarcoma-associated herpesvirus|Kaposi's Sarcoma-associated herpesvirus (KSHV)]], the Latency-Associated Transcripts (LATs), which are non-coding RNAs, are thought to play an important role in recruiting host [[Polycomb repressive complex 2|Polycomb]] proteins to lytic cycle-associated genes on the viral genome.&lt;ref name=":0" /&gt; This results in the methylation of cytosines within the promoter region of genes associated with lytic cycle processes. In the [[Gammaherpesvirinae|gammaherpesvirus]] [[Epstein–Barr virus|Epstein-Barr virus (EBV)]], the non-coding RNA EBER2 has been implicated in gene regulation. EBER2 recruits PAX5, a transcription factor, to immediate-early genes to promote latency.&lt;ref&gt;{{cite journal | vauthors = Jung YJ, Choi H, Kim H, Lee SK | title = MicroRNA miR-BART20-5p stabilizes Epstein-Barr virus latency by directly targeting BZLF1 and BRLF1 | journal = Journal of Virology | volume = 88 | issue = 16 | pages = 9027–37 | date = August 2014 | pmid = 24899173 | doi = 10.1128/jvi.00721-14 | pmc = 4136301 }}&lt;/ref&gt;
+
+Reactivation in HSV requires the stress response enzyme [[C-Jun N-terminal kinases|c-Jun N-terminal kinase (JNK)]], which is responsive to stressors such as heat shock, ultraviolet radiation, and cytokine production. Activation of JNK leads to the expression of viral genes of all temporal classes (immediate early, early, and late) by phosphorylating H3, effectively bypassing the latent repression markers (methylation).&lt;ref name=":0" /&gt;&lt;ref name=":6"&gt;{{cite journal | vauthors = Cliffe AR, Arbuckle JH, Vogel JL, Geden MJ, Rothbart SB, Cusack CL, Strahl BD, Kristie TM, Deshmukh M | title = Neuronal Stress Pathway Mediating a Histone Methyl/Phospho Switch Is Required for Herpes Simplex Virus Reactivation | journal = Cell Host &amp; Microbe | volume = 18 | issue = 6 | pages = 649–58 | date = December 2015 | pmid = 26651941 | pmc = 4681005 | doi = 10.1016/j.chom.2015.11.007 }}&lt;/ref&gt; Next, the ''de novo'' translation of VP16 results in the temporal regulation of these genes; VP16 associates with Oct-1 and with viral promoters to regulate transcription.&lt;ref name=":0" /&gt;&lt;ref&gt;{{cite journal | vauthors = Sawtell NM, Triezenberg SJ, Thompson RL | title = VP16 serine 375 is a critical determinant of herpes simplex virus exit from latency in vivo | journal = Journal of Neurovirology | volume = 17 | issue = 6 | pages = 546–51 | date = December 2011 | pmid = 22144074 | pmc = 3269237 | doi = 10.1007/s13365-011-0065-y }}&lt;/ref&gt; Reactivation results in lytic infection of proximal epithelial cells.
+
+== Potential therapeutic applications ==
+Mammalian viral treatment within the scope of epigenetics is a relatively novel approach that has only seen theoretical or laboratory significance, and as such, advancements in chromatin-based viral therapy relies on advancement in knowledge of viral-host chromatin dynamics and interplay.&lt;ref name=":5"&gt;{{cite journal | vauthors = Kristie TM | title = The rise of epigenetic targets for the development of novel antivirals | journal = Expert Review of Anti-Infective Therapy | volume = 10 | issue = 12 | pages = 1359–61 | date = December 2012 | pmid = 23253311 | pmc = 4780314 | doi = 10.1586/eri.12.143 }}&lt;/ref&gt; Two major therapies that target epigenetic machinery have been proposed for treatment of viral infections: inhibition of Ezh1/2 and m&lt;sup&gt;6&lt;/sup&gt;A addition to viral mRNA.
+
+=== Ezh1/2 inhibition ===
+[[EZH1|Ezh1]] and [[EZH2|Ezh2]] (Ezh1/2) are two homologous enzymes of Ezh [[histone methyltransferase]], and are part of the [[Polycomb-group proteins|Polycomb]] repression complex 2 ([[PRC2]]), which functions to repress gene transcription by propagating a H3K27 trimethylation. Ezh1/2 has been implicated in suppression of viral replication during lytic infection.&lt;ref name=":7"&gt;{{cite journal | vauthors = Arbuckle JH, Gardina PJ, Gordon DN, Hickman HD, Yewdell JW, Pierson TC, Myers TG, Kristie TM | title = Inhibitors of the Histone Methyltransferases EZH2/1 Induce a Potent Antiviral State and Suppress Infection by Diverse Viral Pathogens | journal = mBio | volume = 8 | issue = 4 | pages = e01141–17 | date = August 2017 | pmid = 28811345 | pmc = 5559635 | doi = 10.1128/mbio.01141-17 }}&lt;/ref&gt;
+
+The Ezh1/2 inhibitors GSK126, GSK343, and UNC1999 as well as astemizole, which interferes with Ezh1/2 association in PRC, were shown by Arbuckle et al.&lt;ref name=":7" /&gt; to limit HSV immediate early gene expression and the number of transcriptionally active viral genomes during lytic infection. This resulted in suppression of lytic infection.
+
+Ezh1/2 inhibitors also activate cellular antiviral pathways. Specifically, in cells treated with Ezh1/2 inhibitors, greater numbers of promyelocytic leukemia (PML) foci, which are involved with repression of  gene expression, were seen, along with upregulation of [[Interferon-alpha|interferon-alpha (IFN-α)]] and [[Interleukin|interleukin-8 (IL-8)]]. These pathways are not specific to HSV; treatment with Ezh1/2 inhibitors reduced infection of multiple viral pathogens, including human cytomegalovirus, adenovirus, and [[Zika virus]].&lt;ref name=":7" /&gt;
+
+=== Adenosine methylation ===
+Methylation on the N&lt;sup&gt;6&lt;/sup&gt; position of adenosine (m&lt;sup&gt;6&lt;/sup&gt;A) on [[Messenger RNA|messenger RNA (mRNA)]] affects gene expression by changing mRNA splicing, stability, and translation.&lt;ref name=":8"&gt;{{cite journal | vauthors = Kennedy EM, Courtney DG, Tsai K, Cullen BR | title = Viral Epitranscriptomics | journal = Journal of Virology | volume = 91 | issue = 9 | pages = e02263–16 | date = May 2017 | pmid = 28250115 | pmc = 5391447 | doi = 10.1128/JVI.02263-16 }}&lt;/ref&gt; These changes favor viral gene expression, though the mechanism for this effect is not known. Importantly, m&lt;sup&gt;6&lt;/sup&gt;A has been proposed to inhibit host immune recognition of viral RNAs.&lt;ref name=":8" /&gt;&lt;ref&gt;{{cite journal | vauthors = Karikó K, Buckstein M, Ni H, Weissman D | title = Suppression of RNA recognition by Toll-like receptors: the impact of nucleoside modification and the evolutionary origin of RNA | journal = Immunity | volume = 23 | issue = 2 | pages = 165–75 | date = August 2005 | pmid = 16111635 | doi = 10.1016/j.immuni.2005.06.008 }}&lt;/ref&gt;&lt;ref&gt;{{cite journal | vauthors = Durbin AF, Wang C, Marcotrigiano J, Gehrke L | title = RNAs Containing Modified Nucleotides Fail To Trigger RIG-I Conformational Changes for Innate Immune Signaling | journal = mBio | volume = 7 | issue = 5 | pages = e00833–16 | date = September 2016 | pmid = 27651356 | pmc = 5030355 | doi = 10.1128/mBio.00833-16 }}&lt;/ref&gt; Inhibition of m&lt;sup&gt;6&lt;/sup&gt;A addition by 3-deazaadenosine (DAA) (an [[S-adenosylhomocysteine]] hydrolase inhibitor) has been shown to have broad antiviral applications.&lt;ref name=":8" /&gt;&lt;ref&gt;{{cite journal | vauthors = Bader JP, Brown NR, Chiang PK, Cantoni GL | title = 3-Deazaadenosine, an inhibitor of adenosylhomocysteine hydrolase, inhibits reproduction of Rous sarcoma virus and transformation of chick embryo cells | journal = Virology | volume = 89 | issue = 2 | pages = 494–505 | date = September 1978 | pmid = 213879 | doi = 10.1016/0042-6822(78)90191-5 }}&lt;/ref&gt;&lt;ref&gt;{{cite journal | vauthors = de Clercq E, Montgomery JA | title = Broad-spectrum antiviral activity of the carbocyclic analog of 3-deazaadenosine | journal = Antiviral Research | volume = 3 | issue = 1 | pages = 17–24 | date = March 1983 | pmid = 6307139 | doi = 10.1016/0166-3542(83)90011-6 }}&lt;/ref&gt; Therapies utilizing specific m&lt;sup&gt;6&lt;/sup&gt;A may be very effective against nuclear viruses without toxicity to the host, though this research is new.&lt;ref name=":8" /&gt;
+
+== References ==
+{{Reflist|32em}}
+
+[[Category:Epigenetics]]
+[[Category:Simplexviruses]]</text>
+      <sha1>7wmesz9tq6vh2mx2d8s65qtp200bjod</sha1>
+    </revision>
+  </page>
+</mediawiki>

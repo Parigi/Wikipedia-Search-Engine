@@ -1,0 +1,278 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.10/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.10/ http://www.mediawiki.org/xml/export-0.10.xsd" version="0.10" xml:lang="en">
+  <siteinfo>
+    <sitename>Wikipedia</sitename>
+    <dbname>enwiki</dbname>
+    <base>https://en.wikipedia.org/wiki/Main_Page</base>
+    <generator>MediaWiki 1.35.0-wmf.36</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Media</namespace>
+      <namespace key="-1" case="first-letter">Special</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Talk</namespace>
+      <namespace key="2" case="first-letter">User</namespace>
+      <namespace key="3" case="first-letter">User talk</namespace>
+      <namespace key="4" case="first-letter">Wikipedia</namespace>
+      <namespace key="5" case="first-letter">Wikipedia talk</namespace>
+      <namespace key="6" case="first-letter">File</namespace>
+      <namespace key="7" case="first-letter">File talk</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki talk</namespace>
+      <namespace key="10" case="first-letter">Template</namespace>
+      <namespace key="11" case="first-letter">Template talk</namespace>
+      <namespace key="12" case="first-letter">Help</namespace>
+      <namespace key="13" case="first-letter">Help talk</namespace>
+      <namespace key="14" case="first-letter">Category</namespace>
+      <namespace key="15" case="first-letter">Category talk</namespace>
+      <namespace key="100" case="first-letter">Portal</namespace>
+      <namespace key="101" case="first-letter">Portal talk</namespace>
+      <namespace key="108" case="first-letter">Book</namespace>
+      <namespace key="109" case="first-letter">Book talk</namespace>
+      <namespace key="118" case="first-letter">Draft</namespace>
+      <namespace key="119" case="first-letter">Draft talk</namespace>
+      <namespace key="446" case="first-letter">Education Program</namespace>
+      <namespace key="447" case="first-letter">Education Program talk</namespace>
+      <namespace key="710" case="first-letter">TimedText</namespace>
+      <namespace key="711" case="first-letter">TimedText talk</namespace>
+      <namespace key="828" case="first-letter">Module</namespace>
+      <namespace key="829" case="first-letter">Module talk</namespace>
+      <namespace key="2300" case="first-letter">Gadget</namespace>
+      <namespace key="2301" case="first-letter">Gadget talk</namespace>
+      <namespace key="2302" case="case-sensitive">Gadget definition</namespace>
+      <namespace key="2303" case="case-sensitive">Gadget definition talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Template:US Constitution</title>
+    <ns>10</ns>
+    <id>881138</id>
+    <revision>
+      <id>962445115</id>
+      <parentid>930241450</parentid>
+      <timestamp>2020-06-14T03:21:20Z</timestamp>
+      <contributor>
+        <username>Rhain</username>
+        <id>13513686</id>
+      </contributor>
+      <minor/>
+      <comment>C/e</comment>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="9869" xml:space="preserve">&lt;!--
+If you add an article to this template, please add this template to the article.
+If you add this template to an article, please add the article to this template.
+
+Formation: Chronological order
+Clauses: Alphabetical order
+Interpretation: Alphabetical order
+--&gt;{{Navbox
+|name       = US Constitution
+|state      = {{{state|autocollapse}}}
+|title      = [[Constitution of the United States]]
+|listclass = hlist
+
+ | group2  = Articles
+ | list2   =
+* [[Preamble to the United States Constitution|Preamble]]
+* [[Article One of the United States Constitution|I]]
+* [[Article Two of the United States Constitution|II]]
+* [[Article Three of the United States Constitution|III]]
+* [[Article Four of the United States Constitution|IV]]
+* [[Article Five of the United States Constitution|V]]
+* [[Article Six of the United States Constitution|VI]]
+* [[Article Seven of the United States Constitution|VII]]
+
+ | group3 = [[List of amendments to the United States Constitution|Amendments]]
+ | list3  = {{Navbox|subgroup
+|group1=Ratified
+|list1={{Navbox|subgroup
+|group1=[[United States Bill of Rights|Bill of Rights]]
+|list1=
+* [[First Amendment to the United States Constitution|1]]
+* [[Second Amendment to the United States Constitution|2]]
+* [[Third Amendment to the United States Constitution|3]]
+* [[Fourth Amendment to the United States Constitution|4]]
+* [[Fifth Amendment to the United States Constitution|5]]
+* [[Sixth Amendment to the United States Constitution|6]]
+* [[Seventh Amendment to the United States Constitution|7]]
+* [[Eighth Amendment to the United States Constitution|8]]
+* [[Ninth Amendment to the United States Constitution|9]]
+* [[Tenth Amendment to the United States Constitution|10]]
+|group2= 1795–1804
+|list2=
+* [[Eleventh Amendment to the United States Constitution|11]]
+* [[Twelfth Amendment to the United States Constitution|12]]
+|group3= [[Reconstruction Amendments|Reconstruction]]
+|list3=
+* [[Thirteenth Amendment to the United States Constitution|13]]
+* [[Fourteenth Amendment to the United States Constitution|14]]
+* [[Fifteenth Amendment to the United States Constitution|15]]
+|group4 = 20th century
+|list4 =
+* [[Sixteenth Amendment to the United States Constitution|16]]
+* [[Seventeenth Amendment to the United States Constitution|17]]
+* [[Eighteenth Amendment to the United States Constitution|18]]
+* [[Nineteenth Amendment to the United States Constitution|19]]
+* [[Twentieth Amendment to the United States Constitution|20]]
+* [[Twenty-first Amendment to the United States Constitution|21]]
+* [[Twenty-second Amendment to the United States Constitution|22]]
+* [[Twenty-third Amendment to the United States Constitution|23]]
+* [[Twenty-fourth Amendment to the United States Constitution|24]]
+* [[Twenty-fifth Amendment to the United States Constitution|25]]
+* [[Twenty-sixth Amendment to the United States Constitution|26]]
+* [[Twenty-seventh  Amendment to the United States Constitution|27]]
+}}
+|group2=Pending
+|list2=
+* [[Congressional Apportionment Amendment|Congressional Apportionment]]
+* [[Titles of Nobility Amendment|Titles of Nobility]]
+* [[Corwin Amendment]]
+* [[Child Labor Amendment|Child Labor]]
+|group4=Past deadline
+|list4=
+* [[Equal Rights Amendment|Equal Rights]]
+* [[District of Columbia Voting Rights Amendment|District of Columbia Voting Rights]]
+|list6=
+* [[List of proposed amendments to the United States Constitution|Amendment proposals in Congress]]
+* [[Convention to propose amendments to the United States Constitution|Convention to propose amendments]]
+* [[State ratifying conventions]]
+}}
+
+ | group4 = Formation
+ | list4 =
+* [[History of the United States Constitution|History]]
+* [[Articles of Confederation]]
+* [[Mount Vernon Conference]]
+* [[Annapolis Convention (1786)|Annapolis Convention]]
+* [[Constitutional Convention (United States)|Philadelphia Convention]]
+** [[Virginia Plan]]
+** [[New Jersey Plan]]
+** [[Connecticut Compromise]]
+** [[Three-Fifths Compromise]]
+** [[Committee of Detail]]
+** [[Signing of the United States Constitution|Signing]]
+** [[Independence Hall]]
+** [[Syng inkstand]]
+* ''[[The Federalist Papers]]''
+* [[Anti-Federalist Papers]]
+* [[Massachusetts Compromise]]
+* [[Virginia Ratifying Convention]]
+* [[New York Circular Letter]]
+* [[Hillsborough Convention]]
+* [[Fayetteville Convention]]
+* [[Ratification of the United States Constitution by Rhode Island|Rhode Island ratification]]
+* [[Timeline of drafting and ratification of the United States Constitution|Drafting and ratification timeline]]
+
+ | group5  = [[List of clauses of the United States Constitution|Clauses]]
+ | list5   =
+* [[Appointments Clause|Appointments]]
+* [[Appropriations bill (United States)|Appropriations]]
+* [[Assistance of Counsel Clause|Assistance of Counsel]]
+* [[Case or Controversy Clause|Case or Controversy]]
+* [[Citizenship Clause|Citizenship]]
+* [[Commerce Clause|Commerce]]
+* [[Article One of the United States Constitution#Clause 3: Compact Clause|Compact]]
+* [[Compulsory Process Clause|Compulsory Process]]
+* [[Confrontation Clause|Confrontation]]
+* [[Congressional power of enforcement|Congressional enforcement]]
+* [[Contract Clause|Contract]]
+* [[Copyright Clause|Copyright and Patent]]
+* [[Double Jeopardy Clause|Double Jeopardy]]
+* [[Due Process Clause|Due Process]]
+* [[Elections clause|Elections]]
+* [[Equal Protection Clause|Equal Protection]]
+* [[Establishment Clause|Establishment]]
+* [[Article Three of the United States Constitution#Original and appellate jurisdiction|Exceptions]]
+* [[Excessive Bail Clause|Excessive Bail]]
+* ''[[Ex post facto law#United States|Ex post facto]]''
+* [[Extradition Clause|Extradition]]
+* [[Free Exercise Clause|Free Exercise]]
+* [[First Amendment to the United States Constitution#Freedom of speech|Free Speech]]
+* [[Fugitive Slave Clause|Fugitive Slave]]
+* [[Full Faith and Credit Clause|Full Faith and Credit]]
+* [[Taxing and Spending Clause#General Welfare Clause|General Welfare]]
+* [[Guarantee Clause|Guarantee]]
+* [[Impeachment in the United States|Impeachment]]
+* [[Import-Export Clause|Import-Export]]
+* [[Ineligibility Clause|Ineligibility]]
+* [[Article One of the United States Constitution#Section 8|Militia]]
+* [[Natural-born-citizen clause|Natural-born citizen]]
+* [[Necessary and Proper Clause|Necessary and Proper]]
+* [[Admission to the Union|New States]]
+* [[No Religious Test Clause|No Religious Test]]
+* [[Oath of office of the President of the United States|Oath or Affirmation]]
+* [[Origination Clause|Origination]]
+* [[Federal pardons in the United States|Pardon]]
+* [[First Amendment to the United States Constitution#Petition and assembly|Petition]]
+* [[Postal Clause|Postal]]
+* [[Presentment Clause|Presentment]]
+* [[United States presidential line of succession|Presidential succession]]
+* [[Privileges and Immunities Clause|Privileges and Immunities]]
+* [[Privileges or Immunities Clause|Privileges or Immunities]]
+* [[Recess appointment]]
+* [[Article Two of the United States Constitution#Clause 2: Making recommendations to Congress|Recommendation]]
+* [[Fifth Amendment to the United States Constitution#Self-incrimination|Self-Incrimination]]
+* [[Speech or Debate Clause|Speech or Debate]]
+* [[Speedy Trial Clause|Speedy Trial]]
+* [[Article Two of the United States Constitution#Clause 1: State of the Union|State of the Union]]
+* [[Supremacy Clause|Supremacy]]
+* [[Article One of the United States Constitution#Section 9|Suspension]]
+* [[Article Two of the United States Constitution#Clause 5: Caring for the faithful execution of the law|Take Care]]
+* [[Fifth Amendment to the United States Constitution#Eminent domain|Takings]]
+* [[Taxing and Spending Clause|Taxing and Spending]]
+* [[Article Four of the United States Constitution#Federal property and the Territorial Clause|Territorial]]
+* [[Title of Nobility Clause|Title of Nobility]]
+* [[Treaty Clause|Treaty]]
+* [[Jury trial#United States|Trial by Jury]]
+* [[Vesting Clauses|Vesting]]
+* [[Vicinage Clause|Vicinage]]
+* [[War Powers Clause|War Powers]]
+
+ | group6  = Interpretation
+ | list6   =
+* [[Balance of power (federalism)|Balance of powers]]
+* [[Concurrent powers]]
+* [[United States constitutional law|Constitutional law]]
+* [[United States constitutional criminal procedure|Criminal procedure]]
+* [[United States constitutional sentencing law|Criminal sentencing]]
+* [[Dormant Commerce Clause]]
+* [[Enumerated powers (United States)|Enumerated powers]]
+* [[Equal footing]]
+* [[Executive privilege]]
+* [[Implied powers]]
+* [[Incorporation of the Bill of Rights]]
+* [[Judicial review in the United States|Judicial review]]
+* [[Nondelegation doctrine]]
+* [[Plenary power]]
+* [[Federal preemption|Preemption]]
+* [[Reserved powers]]
+* [[Saxbe fix]]
+* [[Separation of church and state in the United States|Separation of church and state]]
+* [[Separation of powers under the United States Constitution|Separation of powers]]
+* [[Tax protester constitutional arguments|Taxation power]]
+* [[Unitary executive theory]]
+
+ | group7 = Display&lt;br/&gt;and legacy
+ | list7 =
+* [[National Archives Building|National Archives]]
+** [[Charters of Freedom|Charters of Freedom Rotunda]]
+* [[Independence Mall (Philadelphia)|Independence Mall]]
+* [[Constitution Day (United States)|Constitution Day]]
+* [[Constitution Gardens]]
+* [[National Constitution Center]]
+* ''[[Scene at the Signing of the Constitution of the United States|Scene at the Signing of the Constitution]]'' (painting)
+* ''[[A More Perfect Union (film)|A More Perfect Union]]'' (film)
+* [[USS Constitution|USS ''Constitution'']]
+* [[United States Constitution and worldwide influence|Worldwide influence]]
+
+|below = 
+'''[[Portal:United States|United States Portal]]'''  •  '''[[Portal:Law|Law Portal]]'''  •  '''[[Book:United States Constitution|Wikipedia book]]'''
+
+}}&lt;noinclude&gt;
+{{Documentation}}
+&lt;!-- PLEASE ADD THIS TEMPLATE'S CATEGORIES AND INTERWIKIS TO THE /doc SUBPAGE, THANKS --&gt;
+&lt;/noinclude&gt;</text>
+      <sha1>lmbz6lfip1fx7xpskewawxaj26swznc</sha1>
+    </revision>
+  </page>
+</mediawiki>

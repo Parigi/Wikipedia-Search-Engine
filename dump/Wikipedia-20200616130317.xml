@@ -1,0 +1,95 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.10/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.10/ http://www.mediawiki.org/xml/export-0.10.xsd" version="0.10" xml:lang="en">
+  <siteinfo>
+    <sitename>Wikipedia</sitename>
+    <dbname>enwiki</dbname>
+    <base>https://en.wikipedia.org/wiki/Main_Page</base>
+    <generator>MediaWiki 1.35.0-wmf.36</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Media</namespace>
+      <namespace key="-1" case="first-letter">Special</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Talk</namespace>
+      <namespace key="2" case="first-letter">User</namespace>
+      <namespace key="3" case="first-letter">User talk</namespace>
+      <namespace key="4" case="first-letter">Wikipedia</namespace>
+      <namespace key="5" case="first-letter">Wikipedia talk</namespace>
+      <namespace key="6" case="first-letter">File</namespace>
+      <namespace key="7" case="first-letter">File talk</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki talk</namespace>
+      <namespace key="10" case="first-letter">Template</namespace>
+      <namespace key="11" case="first-letter">Template talk</namespace>
+      <namespace key="12" case="first-letter">Help</namespace>
+      <namespace key="13" case="first-letter">Help talk</namespace>
+      <namespace key="14" case="first-letter">Category</namespace>
+      <namespace key="15" case="first-letter">Category talk</namespace>
+      <namespace key="100" case="first-letter">Portal</namespace>
+      <namespace key="101" case="first-letter">Portal talk</namespace>
+      <namespace key="108" case="first-letter">Book</namespace>
+      <namespace key="109" case="first-letter">Book talk</namespace>
+      <namespace key="118" case="first-letter">Draft</namespace>
+      <namespace key="119" case="first-letter">Draft talk</namespace>
+      <namespace key="446" case="first-letter">Education Program</namespace>
+      <namespace key="447" case="first-letter">Education Program talk</namespace>
+      <namespace key="710" case="first-letter">TimedText</namespace>
+      <namespace key="711" case="first-letter">TimedText talk</namespace>
+      <namespace key="828" case="first-letter">Module</namespace>
+      <namespace key="829" case="first-letter">Module talk</namespace>
+      <namespace key="2300" case="first-letter">Gadget</namespace>
+      <namespace key="2301" case="first-letter">Gadget talk</namespace>
+      <namespace key="2302" case="case-sensitive">Gadget definition</namespace>
+      <namespace key="2303" case="case-sensitive">Gadget definition talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Manual command to line of sight</title>
+    <ns>0</ns>
+    <id>313012</id>
+    <revision>
+      <id>948174857</id>
+      <parentid>869157423</parentid>
+      <timestamp>2020-03-30T15:26:16Z</timestamp>
+      <contributor>
+        <ip>178.41.183.55</ip>
+      </contributor>
+      <comment>/* MCLOS Missiles */</comment>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="2897" xml:space="preserve">'''Manual command to line of sight''' ('''MCLOS''') is a method for guiding [[guided missile]]s.
+
+With an MCLOS missile, the operator must track the missile and the target simultaneously and guide the missile to the target. Typically the missile is steered with a [[joystick]], and its path is observed through a periscope-type telescopic sight. The missiles are usually equipped with a [[magnesium]] [[flare]] in the base that automatically ignites upon launch and allows the gunner to visually track the fast-moving missile in a manner similar in concept to a [[tracer ammunition|tracer bullet]]. 
+
+MCLOS requires considerable training and practice to master, since even a minor disruption in the gunner's concentration would likely cause a miss. These guidance systems have marginal accuracy on tank-sized targets, even with perfect line-of-sight by the gunner, due to erratic flight paths requiring timely manual corrections. As demonstrated by the Israeli Army under fire from Soviet-armed Arab states, responding to the distinctive smoke puff of a missile launch with rapid manoeuvres and immediate counter-fire minimizes their accuracy, as very few [[ATGM]] gunners maintain their concentration on a fast-moving tank for the entire flight time of the missile while under suppressing fire.
+
+MCLOS guidance today has mostly been replaced by the easier-to-use [[SACLOS]], which allows the gunner to merely track the target with an optical sight (which guides the missile), rather than being forced to both visually track the target and fly the missile manually. The [[Vickers Vigilant]] attempted to solve this by using a 'velocity control' method with an on-board gyroscope, rather than simpler 'acceleration control'.
+
+==Accuracy==
+The accuracy achieved by '''MCLOS''' missiles is hard to put a firm figure on, since it is highly dependent on the skill of the operator and any distractions the operator has to contend with (such as being fired upon). Actual figures from combat operations suggest that it is much lower than SACLOS guided missiles.
+* [[Six-Day War]] 1967 – [[AT-1 Snapper]] – Limited usage, only one tank kill is attributed with a hit probability of less than 25%.
+* [[Vietnam War]] 1972 – fired by American troops, the French [[SS.11]] – about 10% compared with over 50% for the [[SACLOS]] [[BGM-71 TOW]].
+* [[Yom Kippur War]] 1973 – [[AT-3 Sagger]] – between 25% at the start in well trained Egyptian hands and 2% at the end in less well trained Syrian hands once the threat was understood by tank crews.
+
+==MCLOS Missiles==
+*[[AGM-12 Bullpup]]
+*[[Azon]]
+*[[Fritz X]]
+*[[Henschel Hs 117]]
+*[[Henschel Hs 293]]
+*[[Ruhrstahl X-4]]
+*[[Wasserfall missile]]
+*[[SS.11]]
+*[[ENTAC]]
+*[[Blowpipe missile]]
+*[[AT-3 Sagger]]
+*[[Vickers Vigilant]]
+*[[Rb 05|Saab Rb 05]]
+*[[SSM-A-23 Dart]]
+
+{{Unreferenced|date=October 2007}}
+{{Missile types}} 
+[[Category:Missile guidance]]</text>
+      <sha1>1bf1nmybotawdwyhtd4cbiwojyetb2e</sha1>
+    </revision>
+  </page>
+</mediawiki>

@@ -1,0 +1,244 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.10/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.10/ http://www.mediawiki.org/xml/export-0.10.xsd" version="0.10" xml:lang="en">
+  <siteinfo>
+    <sitename>Wikipedia</sitename>
+    <dbname>enwiki</dbname>
+    <base>https://en.wikipedia.org/wiki/Main_Page</base>
+    <generator>MediaWiki 1.35.0-wmf.36</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Media</namespace>
+      <namespace key="-1" case="first-letter">Special</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Talk</namespace>
+      <namespace key="2" case="first-letter">User</namespace>
+      <namespace key="3" case="first-letter">User talk</namespace>
+      <namespace key="4" case="first-letter">Wikipedia</namespace>
+      <namespace key="5" case="first-letter">Wikipedia talk</namespace>
+      <namespace key="6" case="first-letter">File</namespace>
+      <namespace key="7" case="first-letter">File talk</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki talk</namespace>
+      <namespace key="10" case="first-letter">Template</namespace>
+      <namespace key="11" case="first-letter">Template talk</namespace>
+      <namespace key="12" case="first-letter">Help</namespace>
+      <namespace key="13" case="first-letter">Help talk</namespace>
+      <namespace key="14" case="first-letter">Category</namespace>
+      <namespace key="15" case="first-letter">Category talk</namespace>
+      <namespace key="100" case="first-letter">Portal</namespace>
+      <namespace key="101" case="first-letter">Portal talk</namespace>
+      <namespace key="108" case="first-letter">Book</namespace>
+      <namespace key="109" case="first-letter">Book talk</namespace>
+      <namespace key="118" case="first-letter">Draft</namespace>
+      <namespace key="119" case="first-letter">Draft talk</namespace>
+      <namespace key="446" case="first-letter">Education Program</namespace>
+      <namespace key="447" case="first-letter">Education Program talk</namespace>
+      <namespace key="710" case="first-letter">TimedText</namespace>
+      <namespace key="711" case="first-letter">TimedText talk</namespace>
+      <namespace key="828" case="first-letter">Module</namespace>
+      <namespace key="829" case="first-letter">Module talk</namespace>
+      <namespace key="2300" case="first-letter">Gadget</namespace>
+      <namespace key="2301" case="first-letter">Gadget talk</namespace>
+      <namespace key="2302" case="case-sensitive">Gadget definition</namespace>
+      <namespace key="2303" case="case-sensitive">Gadget definition talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>False discovery rate</title>
+    <ns>0</ns>
+    <id>4574271</id>
+    <revision>
+      <id>962750789</id>
+      <parentid>962749480</parentid>
+      <timestamp>2020-06-15T20:59:11Z</timestamp>
+      <contributor>
+        <username>Daemyth</username>
+        <id>19436129</id>
+      </contributor>
+      <comment>/* Definitions */ Adding more definitions in-line and linking to relevant pages</comment>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="30251" xml:space="preserve">The '''false discovery rate''' ('''FDR''') is a method of conceptualizing the rate of [[Type I and type II errors|type I errors]] in [[null hypothesis]] testing when conducting [[multiple comparisons]]. FDR-controlling procedures are designed to control the [[Expected value|expected]] proportion of "discoveries" (rejected [[null hypothesis|null hypotheses]]) that are false (incorrect rejections of the null).&lt;ref name=BenjaminiHochberg1995&gt;{{cite journal | last1 = Benjamini | first1= Yoav | last2= Hochberg | first2= Yosef | year = 1995 | title = Controlling the false discovery rate: a practical and powerful approach to multiple testing | journal = [[Journal of the Royal Statistical Society, Series B]] | volume = 57 | issue = 1 | pages = 289–300 | mr = 1325392  | url = http://www.math.tau.ac.il/~ybenja/MyPapers/benjamini_hochberg1995.pdf}}&lt;/ref&gt; FDR-controlling procedures provide less stringent control of Type I errors compared to [[familywise error rate]] (FWER) controlling procedures (such as the [[Bonferroni correction]]), which control the probability of ''at least one'' Type I error. Thus, FDR-controlling procedures have greater [[Statistical power|power]], at the cost of increased numbers of Type I errors.&lt;ref&gt;Shaffer J.P. (1995) Multiple hypothesis testing, Annual Review of Psychology 46:561-584, [https://archive.is/20120712123608/http://dx.doi.org/10.1146/annurev.ps.46.020195.003021 Annual Reviews]&lt;/ref&gt;
+
+==History==
+
+===Technological motivations===
+
+The modern widespread use of the FDR is believed to stem from, and be motivated by, the development in technologies that allowed the collection and analysis of a large number of distinct variables in several individuals (e.g., the expression level of each of 10,000 different genes in 100 different persons).&lt;ref name=Benjamini2010 /&gt; By the late 1980s and 1990s, the development of "high-throughput" sciences, such as [[genomics]], allowed for rapid data acquisition.  This, coupled with the growth in computing power, made it possible to seamlessly perform hundreds and thousands of [[Statistical hypothesis testing|statistical tests]] on a given data set. The technology of [[microarray]]s was a prototypical example, as it enabled thousands of genes to be tested simultaneously for differential expression between two biological conditions.&lt;ref name=StoreyTibs2003&gt;{{cite journal | last1 = Storey | first1 = John D. | last2 = Tibshirani | first2 = Robert | year = 2003 | title = Statistical significance for genome-wide studies | journal = [[Proceedings of the National Academy of Sciences]] | volume = 100 | issue = 16 | pages = 9440–9445 | doi = 10.1073/pnas.1530509100 | pmid=12883005 | pmc=170937|bibcode = 2003PNAS..100.9440S }}&lt;/ref&gt;
+
+As high-throughput technologies became common, technological and/or financial constraints led researchers to collect datasets with relatively small sample sizes (e.g. few individuals being tested) and large numbers of variables being measured per sample (e.g. thousands of gene expression levels). In these datasets, too few of the measured variables showed statistical significance after classic correction for multiple tests with standard [[Multiple comparisons|multiple comparison procedures]].  This created a need within many scientific communities to abandon [[Familywise error rate|FWER]] and unadjusted multiple hypothesis testing for other ways to highlight and rank in publications those variables showing marked effects across individuals or treatments that would otherwise be dismissed as non-significant after standard correction for multiple tests.  In response to this, a variety of error rates have been proposed—and become commonly used in publications—that are less conservative than [[Familywise error rate|FWER]] in flagging possibly noteworthy observations.
+
+===Literature===
+
+The FDR concept was formally described by [[Yoav Benjamini]] and [[Yosef Hochberg]] in 1995&lt;ref name=BenjaminiHochberg1995 /&gt; ([[#BH procedure|BH procedure]]) as a less conservative and arguably more appropriate approach for identifying the important few from the trivial many effects tested. The FDR has been particularly influential, as it was the first alternative to the FWER to gain broad acceptance in many scientific fields (especially in the life sciences, from genetics to biochemistry, oncology and plant sciences).&lt;ref name=Benjamini2010 /&gt; In 2005, the Benjamini and Hochberg paper from 1995 was identified as one of the 25 most-cited statistical papers.&lt;ref name=RYANA2005&gt;{{Cite journal | last1 = Ryan | first1 = T. P. | last2 = Woodall | first2 = W. H. | doi = 10.1080/02664760500079373 | title = The most-cited statistical papers | journal = Journal of Applied Statistics | volume = 32 | issue = 5 | pages = 461 | year = 2005 | pmid =  | pmc = }}&lt;/ref&gt;
+
+Prior to the 1995 introduction of the FDR concept, various precursor ideas had been considered in the statistics literature. In 1979, Holm proposed the [[Holm–Bonferroni method|Holm procedure]],&lt;ref&gt;{{cite journal
+ |last=Holm |first=S.
+ |year=1979
+ |title=A simple sequentially rejective multiple test procedure
+ |journal=Scandinavian Journal of Statistics
+ |volume=6 |issue=2 |pages=65–70
+ |mr=538597 | jstor = 4615733
+}}&lt;/ref&gt; a stepwise algorithm for controlling the FWER that is at least as powerful as the well-known [[Bonferroni adjustment]]. This stepwise algorithm sorts the [[p-value|''p''-values]] and sequentially rejects the hypotheses starting from the smallest ''p''-values.
+
+Benjamini (2010)&lt;ref name=Benjamini2010&gt;{{Cite journal | last1 = Benjamini | first1 = Y. | title = Discovering the false discovery rate | doi = 10.1111/j.1467-9868.2010.00746.x | journal = Journal of the Royal Statistical Society, Series B | volume = 72 | issue = 4 | pages = 405–416 | year = 2010 | pmid =  | pmc = }}&lt;/ref&gt; said that the false discovery rate, and the paper Benjamini and Hochberg (1995), had its origins in two papers concerned with multiple testing:
+
+* The first paper is by Schweder and Spjotvoll (1982)&lt;ref name=SCHWEDER1982&gt;{{Cite journal | last1 = Schweder | first1 = T. | last2 = Spjøtvoll | first2 = E. | doi = 10.1093/biomet/69.3.493 | title = Plots of P-values to evaluate many tests simultaneously | journal = Biometrika | volume = 69 | issue = 3 | pages = 493 | year = 1982 | pmid =  | pmc = }}&lt;/ref&gt; who suggested plotting the ranked ''p''-values and assessing the number of true null hypotheses (&lt;math&gt;m_0&lt;/math&gt;) via an eye-fitted line starting from the largest ''p''-values. The ''p''-values that deviate from this straight line then should correspond to the false null hypotheses. This idea was later developed into an algorithm and incorporated the estimation of &lt;math&gt;m_0&lt;/math&gt; into procedures such as Bonferroni, Holm or Hochberg.&lt;ref name=Hochberg1990&gt;{{Cite journal | last1 = Hochberg | first1 = Y. | last2 = Benjamini | first2 = Y. | doi = 10.1002/sim.4780090710 | title = More powerful procedures for multiple significance testing | journal = Statistics in Medicine | volume = 9 | issue = 7 | pages = 811–818 | year = 1990 | pmid =  2218183| pmc = }}&lt;/ref&gt; This idea is closely related to the graphical interpretation of the BH procedure.
+* The second paper is by Branko Soric (1989)&lt;ref name=Soric1989&gt;{{Cite journal
+ |last=Soric |first=Branko
+ |title=Statistical "Discoveries" and Effect-Size Estimation
+ |journal=Journal of the American Statistical Association
+ |volume=84 |date=June 1989 |pages=608–610
+ |jstor=2289950 |issue=406 |doi=10.1080/01621459.1989.10478811
+}}&lt;/ref&gt; which introduced the terminology of "discovery" in the multiple hypothesis testing context. Soric used the expected number of false discoveries divided by the number of discoveries &lt;math&gt;\left (E[V]/R \right )&lt;/math&gt; as a warning that "a large part of statistical discoveries may be wrong". This led Benjamini and Hochberg to the idea that a similar error rate, rather than being merely a warning, can serve as a worthy goal to control.
+
+The BH procedure was proven to control the FDR for independent tests in 1995 by Benjamini and Hochberg.&lt;ref name=BenjaminiHochberg1995 /&gt;  In 1986, R. J. Simes offered the same procedure as the "[[Simes procedure]]", in order to control the FWER in the weak sense (under the intersection null hypothesis) when the statistics are independent.&lt;ref name=Simes1986&gt;{{Cite journal | last1 = Simes | first1 = R. J. | title = An improved Bonferroni procedure for multiple tests of significance | doi = 10.1093/biomet/73.3.751 | journal = Biometrika | volume = 73 | issue = 3 | pages = 751–754 | year = 1986 | pmid =  | pmc = }}&lt;/ref&gt;
+
+==Definitions==
+
+Based on definitions below we can define {{mvar|Q}} as the proportion of false discoveries among the discoveries (rejections of the null hypothesis):
+
+:&lt;math&gt;Q = V/R = V/(V+S)&lt;/math&gt;.
+
+where &lt;math&gt;V&lt;/math&gt; is the number of false discoveries and &lt;math&gt;S&lt;/math&gt; is the number of true discoveries.
+
+The '''false discovery rate''' ('''FDR''') is then simply:&lt;ref name=BenjaminiHochberg1995 /&gt;
+
+: &lt;math&gt;\mathrm{FDR} = Q_e =  \mathrm{E}\!\left [Q \right ], &lt;/math&gt;
+
+where &lt;math&gt;\mathrm{E}\!\left [Q \right ]&lt;/math&gt; is the [[expected value]] of &lt;math&gt;Q&lt;/math&gt;. The goal is to keep FDR below a given threshold ''q''. To avoid [[division by zero]], &lt;math&gt;Q&lt;/math&gt; is defined to be 0 when &lt;math&gt; R = 0 &lt;/math&gt;. Formally, &lt;math&gt;\mathrm{FDR} =  \mathrm{E}\!\left [V/R | R&gt;0 \right ] \cdot \mathrm{P}\!\left (R&gt;0 \right) &lt;/math&gt;.&lt;ref name="BenjaminiHochberg1995" /&gt;
+
+===Classification of multiple hypothesis tests===
+{{Main article|Classification of multiple hypothesis tests}}
+&lt;!-- [[Template:Classification of multiple hypothesis tests]]: --&gt;
+{{Classification of multiple hypothesis tests}}
+
+==Controlling procedures==
+{{broader|Multiple testing correction}}
+{{see also|False coverage rate#Controlling procedures|Familywise error rate#Controlling procedures}}
+
+The settings for many procedures is such that we have &lt;math&gt;H_1 \ldots H_m&lt;/math&gt; null hypotheses tested and &lt;math&gt;P_1 \ldots P_m&lt;/math&gt; their corresponding [[p-value|''p''-values]]. We list these ''p''-values in ascending order and denote them by &lt;math&gt;P_{(1)} \ldots P_{(m)}&lt;/math&gt;.  A procedure that goes from a small ''p''-value to a large one will be called a step-up procedure.  In a similar way, in a "step-down" procedure we move from a large corresponding test statistic to a smaller one.
+
+===Benjamini–Hochberg procedure{{anchor|BH procedure}}===
+
+The ''Benjamini–Hochberg procedure'' (BH step-up procedure) controls the FDR at level &lt;math&gt;\alpha&lt;/math&gt;.&lt;ref name=BenjaminiHochberg1995 /&gt; It works as follows:
+
+# For a given &lt;math&gt;\alpha&lt;/math&gt;, find the largest {{mvar|k}} such that &lt;math&gt;P_{(k)} \leq \frac{k}{m} \alpha.&lt;/math&gt;
+# Reject the null hypothesis (i.e., declare discoveries) for all &lt;math&gt;H_{(i)}&lt;/math&gt; for &lt;math&gt;i = 1, \ldots, k&lt;/math&gt;.
+
+Geometrically, this corresponds to plotting &lt;math&gt;P_{(k)} &lt;/math&gt; vs.  {{mvar|k}} (on the {{mvar|y}} and {{mvar|x}} axes respectively), drawing the line through the origin with slope &lt;math&gt;\frac
+\alpha{m}&lt;/math&gt; , and declaring discoveries for all points on the left up to and including the last point that is below the line.
+
+The BH procedure is valid when the {{mvar|m}} tests are [[Statistical independence|independent]], and also in various scenarios of dependence, but is not universally valid.&lt;ref name=BenjaminiYekutieli2001 /&gt;  It also satisfies the inequality:
+
+: &lt;math&gt;E(Q) \leq \frac{m_0}{m}\alpha \leq \alpha&lt;/math&gt;
+
+If an estimator of &lt;math&gt;m_0&lt;/math&gt; is inserted into the BH procedure, it is no longer guaranteed to achieve FDR control at the desired level.&lt;ref name=Benjamini2010 /&gt; Adjustments may be needed in the estimator and several modifications have been proposed.&lt;ref name=Storey2004&gt;{{Cite journal | last1 = Storey | first1 = J. D. | last2 = Taylor | first2 = J. E. | last3 = Siegmund | first3 = D. | title = Strong control, conservative point estimation and simultaneous conservative consistency of false discovery rates: A unified approach | doi = 10.1111/j.1467-9868.2004.00439.x | journal = Journal of the Royal Statistical Society, Series B | volume = 66 | pages = 187–205 | year = 2004 | pmid =  | pmc = }}&lt;/ref&gt;&lt;ref name=Benjamini2006&gt;{{Cite journal | last1 = Benjamini | first1 = Y. | last2 = Krieger | first2 = A. M. | last3 = Yekutieli | first3 = D. | doi = 10.1093/biomet/93.3.491 | title = Adaptive linear step-up procedures that control the false discovery rate | journal = Biometrika | volume = 93 | issue = 3 | pages = 491 | year = 2006 | pmid =  | pmc = }}&lt;/ref&gt;&lt;ref name=Gavrilov2009&gt;{{Cite journal | last1 = Gavrilov | first1 = Y. | last2 = Benjamini | first2 = Y. | last3 = Sarkar | first3 = S. K. | doi = 10.1214/07-AOS586 | title = An adaptive step-down procedure with proven FDR control under independence | journal = The Annals of Statistics | volume = 37 | issue = 2 | pages = 619 | year = 2009 | pmid =  | pmc = | arxiv = 0903.5373 }}&lt;/ref&gt;&lt;ref name=Blanchard2009&gt;{{Cite journal | last1 = Blanchard | first1 = G. | last2 = Roquain | first2 = E. | doi = 10.1214/08-EJS180 | title = Two simple sufficient conditions for FDR control | journal = Electronic Journal of Statistics | volume = 2 | pages = 963–992 | year = 2008 | pmid =  | pmc = | arxiv = 0802.1406 }}&lt;/ref&gt;
+
+Note that the mean &lt;math&gt;\alpha&lt;/math&gt; for these {{mvar|m}} tests is &lt;math&gt;\frac{\alpha(m+1)}{2m}&lt;/math&gt;, the Mean(FDR &lt;math&gt;\alpha&lt;/math&gt;) or MFDR, &lt;math&gt;\alpha&lt;/math&gt; adjusted for {{mvar|m}} independent or positively correlated tests (see AFDR below). The MFDR expression here is for a single recomputed value of &lt;math&gt;\alpha&lt;/math&gt; and is not part of the Benjamini and Hochberg method.
+
+===Benjamini–Yekutieli procedure===
+&lt;!-- Can someone confirm this? One would think positively correlated tests would need greater reduction in alpha than negatively correlated tests. --&gt;
+
+The ''Benjamini–Yekutieli'' procedure controls the false discovery rate under arbitrary dependence assumptions.&lt;ref name=BenjaminiYekutieli2001&gt;
+{{cite journal
+ |author1=Benjamini, Yoav |author2=Yekutieli, Daniel | year = 2001
+ | title = The control of the false discovery rate in multiple testing under dependency
+ | journal = Annals of Statistics
+ | volume = 29
+ | issue = 4
+ | pages = 1165–1188
+ | url = http://www.math.tau.ac.il/~ybenja/MyPapers/benjamini_yekutieli_ANNSTAT2001.pdf
+ | mr = 1869245
+ | doi = 10.1214/aos/1013699998}}
+&lt;/ref&gt; This refinement modifies the threshold and finds the largest {{mvar|k}} such that:
+
+:&lt;math&gt;P_{(k)} \leq \frac{k}{m \cdot c(m)} \alpha &lt;/math&gt;
+
+* If the tests are independent or positively correlated (as in Benjamini–Hochberg procedure): &lt;math&gt;c(m)=1&lt;/math&gt;
+* Under arbitrary dependence: &lt;math&gt;c(m) = \sum _{i=1} ^m \frac{1}{i}&lt;/math&gt;
+
+In the case of negative correlation, &lt;math&gt;c(m)&lt;/math&gt; can be approximated by using the [[Euler–Mascheroni constant]].
+
+:&lt;math&gt;\sum _{i=1} ^m \frac{1}{i} \approx \ln(m) + \gamma + \frac{1}{2m}.&lt;/math&gt;
+
+Using MFDR and formulas above, an adjusted MFDR, or AFDR, is the min(mean&amp;nbsp;&lt;math&gt;\alpha&lt;/math&gt;) for {{mvar|m}}&amp;nbsp;dependent tests &lt;math&gt;= \frac\mathrm{MFDR}{c(m)}&lt;/math&gt;.
+
+The other way to address dependence is by bootstrapping and rerandomization.&lt;ref name=StoreyTibs2003 /&gt;&lt;ref name=YekutieliBenjamini1999&gt;{{Cite journal |vauthors=Yekutieli D, Benjamini Y |year=1999 |title=Resampling based False Discovery Rate controlling procedure for dependent test statistics |journal=J. Statist. Planng Inf. |volume=82 |issue=1–2 |pages=171–196 |doi=10.1016/S0378-3758(99)00041-5}}&lt;/ref&gt;&lt;ref name=VanDudoit2007&gt;{{Cite book |author=van der Laan, M. J. |author2=Dudoit, S. |author2-link=Sandrine Dudoit|year=2007 |title=Multiple Testing Procedures with Applications to Genomics |location=New York |publisher=Springer}}&lt;/ref&gt;
+
+==Properties==
+
+===Adaptive and scalable===
+
+Using a multiplicity procedure that controls the FDR criterion is [[adaptive]] and [[scalable]]. Meaning that controlling the FDR can be very permissive (if the data justify it), or conservative (acting close to control of FWER for sparse problem) - all depending on the number of hypotheses tested and the level of significance.&lt;ref name=Benjamini2010 /&gt;
+
+The FDR criterion ''adapts'' so that the same number of false discoveries (V) will have different implications, depending on the total number of discoveries (R).  This contrasts with the [[family wise error rate]] criterion. For example, if inspecting 100 hypotheses (say, 100 genetic mutations or [[Single-nucleotide polymorphism|SNPs]] for association with some phenotype in some population):
+* If we make 4 discoveries (R), having 2 of them be false discoveries (V) is often very costly.  Whereas,
+* If we make 50 discoveries (R), having 2 of them be false discoveries (V) is often not very costly.
+
+The FDR criterion is ''scalable'' in that the same proportion of false discoveries out of the total number of discoveries (Q), remains sensible for different number of total discoveries (R). For example:
+* If we make 100 discoveries (R), having 5 of them be false discoveries (&lt;math&gt;q=5\%&lt;/math&gt;) may not be very costly.
+* Similarly, if we make 1000 discoveries (R), having 50 of them be false discoveries (as before, &lt;math&gt;q=5\%&lt;/math&gt;) may still not be very costly.
+
+===Dependency among the test statistics===
+Controlling the FDR using the linear step-up BH procedure, at level q, has several properties related to the dependency structure between the test statistics of the {{mvar|m}} null hypotheses that are being corrected for.  If the test statistics are:
+*Independent:&lt;ref name=BenjaminiYekutieli2001 /&gt; &lt;math&gt;\mathrm{FDR} \le \frac{m_0}{m}q&lt;/math&gt;
+*Independent and continuous:&lt;ref name=BenjaminiHochberg1995 /&gt; &lt;math&gt;\mathrm{FDR} = \frac{m_0}{m}q&lt;/math&gt;
+*Positive dependent:&lt;ref name=BenjaminiYekutieli2001 /&gt; &lt;math&gt;\mathrm{FDR} \le \frac{m_0}{m}q&lt;/math&gt;
+*In the general case:&lt;ref name=BenjaminiYekutieli2001 /&gt; &lt;math&gt;\mathrm{FDR} \le \frac{m_0}{m} q / \left( 1 + \frac{1}{2} + \frac{1}{3} + \cdots + \frac{1}{m} \right) \approx \frac{m_0}{m}q / (\ln (m) + \gamma + \frac{1}{2m})&lt;/math&gt; , where &lt;math&gt;\gamma&lt;/math&gt; is the [[Euler–Mascheroni constant]].
+
+===Proportion of true hypotheses===
+If all of the null hypotheses are true (&lt;math&gt;m_0=m&lt;/math&gt;), then controlling the FDR at level {{mvar|q}} guarantees control over the [[FWER]] (this is also called [[Familywise error rate#FWER definition|"weak control of the FWER"]]):  &lt;math&gt;\mathrm{FWER}=P\left( V \ge 1 \right) = E\left( \frac{V}{R} \right) = \mathrm{FDR} \le q&lt;/math&gt;, simply because the event of rejecting at least one true null hypothesis &lt;math&gt; \{V \ge 1\} &lt;/math&gt; is exactly the event &lt;math&gt; \{V/R = 1\} &lt;/math&gt;, and the event &lt;math&gt; \{V = 0\} &lt;/math&gt; is exactly the event &lt;math&gt; \{V/R = 0\} &lt;/math&gt; (when &lt;math&gt; V = R = 0 &lt;/math&gt;, &lt;math&gt; V/R = 0 &lt;/math&gt; by definition).&lt;ref name=BenjaminiHochberg1995 /&gt;  But if there are some true discoveries to be made (&lt;math&gt;m_0&lt;m&lt;/math&gt;) then {{math|FWER &amp;ge; FDR}}.  In that case there will be room for improving detection power.  It also means that any procedure that controls the FWER will also control the FDR.
+
+==Related concepts==
+
+The discovery of the FDR was preceded and followed by many other types of error rates.  These include:
+
+* {{math|PCER}} ([[per-comparison error rate]]) is defined as: &lt;math&gt;\mathrm{PCER} = E \left[ \frac{V}{m} \right] &lt;/math&gt;.  Testing individually each hypothesis at level {{mvar|&amp;alpha;}} guarantees that &lt;math&gt;\mathrm{PCER} \le \alpha &lt;/math&gt; (this is testing without any correction for multiplicity)
+* {{math|FWER}} (the [[family wise error rate]]) is defined as: &lt;math&gt;\mathrm{FWER} = P(V \ge 1) &lt;/math&gt;.  There are [[Familywise error rate#Controlling procedures|numerous procedures that control the FWER]].
+* &lt;math&gt;k\text{-FWER}&lt;/math&gt; (The tail probability of the False Discovery Proportion), suggested by Lehmann and Romano, van der Laan at al, {{citation needed|date=August 2012}} is defined as: &lt;math&gt;k\text{-FWER} = P(V \ge k) \le q&lt;/math&gt;.
+* &lt;math&gt;k\text{-FDR}&lt;/math&gt; (also called the ''generalized FDR'' by Sarkar in 2007&lt;ref&gt;Sarkar, Sanat K. "Stepup procedures controlling generalized FWER and generalized FDR." The Annals of Statistics (2007): 2405-2420.&lt;/ref&gt;&lt;ref&gt;Sarkar, Sanat K., and Wenge Guo. "On a generalized false discovery rate." The Annals of Statistics (2009): 1545-1565.&lt;/ref&gt;) is defined as: &lt;math&gt;k\text{-FDR} = E \left( \frac{V}{R}I_{(V&gt;k)}  \right) \le q&lt;/math&gt;.
+* &lt;math&gt;Q'&lt;/math&gt; is the proportion of false discoveries among the discoveries", suggested by Soric in 1989,&lt;ref name=Soric1989 /&gt; and is defined as: &lt;math&gt;Q' = \frac{E[V]}{R} &lt;/math&gt;. This is a mixture of expectations and realizations, and has the problem of control for &lt;math&gt;m_0=m&lt;/math&gt;.&lt;ref name=BenjaminiHochberg1995 /&gt;
+* &lt;math&gt;\mathrm{FDR}_{-1}&lt;/math&gt;(or Fdr) was used by Benjamini and Hochberg,&lt;ref name=Benjamini2010 /&gt; and later called "Fdr" by Efron (2008) and earlier.&lt;ref name=Efron2008/&gt;  It is defined as: &lt;math&gt;\mathrm{FDR}_{-1} = Fdr = \frac{E[V]}{E[R]} &lt;/math&gt;. This error rate cannot be strictly controlled because it is 1 when &lt;math&gt;m = m_0&lt;/math&gt;.
+* &lt;math&gt;\mathrm{FDR}_{+1}&lt;/math&gt; was used by Benjamini and Hochberg,&lt;ref name=Benjamini2010 /&gt; and later called "pFDR" by Storey (2002).&lt;ref name=Storey2002&gt;{{cite journal | last1 = Storey | first1= John D. | year = 2002 | title = A direct approach to false discovery rates | journal = [[Journal of the Royal Statistical Society, Series B]] | volume = 64 | issue = 3 | pages = 479–498 | url = http://genomics.princeton.edu/storeylab/papers/directfdr.pdf | doi = 10.1111/1467-9868.00346| citeseerx= 10.1.1.320.7131 }}&lt;/ref&gt;  It is defined as: &lt;math&gt;\mathrm{FDR}_{+1} = pFDR = E \left[ \left. {\frac{V}{R}} \right| R&gt;0 \right] &lt;/math&gt;.  This error rate cannot be strictly controlled because it is 1 when &lt;math&gt;m = m_0&lt;/math&gt;.
+* False exceedance rate (the tail probability of FDP), defined as:&lt;ref name=Benj2010second&gt;{{Cite journal | last1 = Benjamini | first1 = Y. | title = Simultaneous and selective inference: Current successes and future challenges | doi = 10.1002/bimj.200900299 | journal = Biometrical Journal | volume = 52 | issue = 6 | pages = 708–721 | year = 2010 | pmid =  21154895| pmc = }}&lt;/ref&gt; &lt;math&gt;\mathrm{P} \left( \frac{V}{R} &gt; q \right) &lt;/math&gt;
+* &lt;math&gt;W\text{-FDR}&lt;/math&gt; (Weighted FDR).  Associated with each hypothesis i is a weight &lt;math&gt;w_i \ge 0&lt;/math&gt;, the weights capture importance/price.  The W-FDR is defined as: &lt;math&gt;W\text{-FDR} = E\left( \frac{\sum w_i V_i }{\sum w_i R_i } \right)&lt;/math&gt;.
+* {{math|FDCR}} (False Discovery Cost Rate).  Stemming from [[statistical process control]]: associated with each hypothesis i is a cost &lt;math&gt;\mathrm{c}_i&lt;/math&gt; and with the intersection hypothesis &lt;math&gt;H_{00}&lt;/math&gt; a cost &lt;math&gt;c_0&lt;/math&gt;.  The motivation is that stopping a production process may incur a fixed cost.  It is defined as: &lt;math&gt;\mathrm{FDCR} = E\left( c_0 V_0 + \frac{\sum c_i V_i }{c_0 R_0 + \sum c_i R_i } \right)&lt;/math&gt;
+* {{math|PFER}} (per-family error rate) is defined as: &lt;math&gt;\mathrm{PFER} = E(V)&lt;/math&gt;.
+* {{math|FNR}} (False non-discovery rates) by Sarkar; Genovese and Wasserman {{citation needed|date=August 2012}} is defined as: &lt;math&gt;\mathrm{FNR} = E\left( \frac{T}{m - R} \right) = E\left( \frac{m - m_0 - (R - V)}{m - R} \right) &lt;/math&gt;
+* &lt;math&gt;\mathrm{FDR}(z)&lt;/math&gt; is defined as: &lt;math&gt;\mathrm{FDR}(z) = \frac{p_0 F_0 (z)}{F(z)} &lt;/math&gt;
+* &lt;math&gt;\mathrm{FDR}&lt;/math&gt; The local fdr is defined as: &lt;math&gt;\mathrm{FDR} = \frac{p_0 f_0 (z)}{f(z)} &lt;/math&gt;
+
+===False coverage rate===
+{{main article|False coverage rate}}
+
+The [[false coverage rate]] (FCR) is, in a sense, the FDR analog to the [[confidence interval]]. FCR indicates the average rate of false coverage, namely, not covering the true parameters, among the selected intervals. The FCR gives a simultaneous coverage at a &lt;math&gt;1-\alpha&lt;/math&gt; level for all of the parameters considered in the problem. Intervals with simultaneous coverage probability 1−q can control the FCR to be bounded by ''q''. There are many FCR procedures such as: Bonferroni-Selected–Bonferroni-Adjusted,{{citation needed|date=August 2012}} Adjusted BH-Selected CIs (Benjamini and Yekutieli (2005)),&lt;ref name=BenjYekut2005 /&gt; Bayes FCR (Yekutieli (2008)),{{citation needed|date=August 2012}} and other Bayes methods.&lt;ref name=Zhao2012&gt;{{Cite journal | last1 = Zhao | first1 = Z. | last2 = Gene Hwang | first2 = J. T. | doi = 10.1111/j.1467-9868.2012.01033.x | title = Empirical Bayes false coverage rate controlling confidence intervals | journal = Journal of the Royal Statistical Society, Series B | volume = 74 | issue = 5 | pages = 871–891 | year = 2012 | pmid =  | pmc = }}&lt;/ref&gt;
+
+===Bayesian approaches===
+Connections have been made between the FDR and Bayesian approaches (including empirical Bayes methods),&lt;ref name=Efron2008&gt;{{Cite journal |author=Efron B |year=2008 |title=Microarrays, empirical Bayes and the two groups model |journal=Statistical Science |volume=23 |pages=1–22 |doi=10.1214/07-STS236|arxiv=0808.0603 }}&lt;/ref&gt;&lt;ref name=Storey2003&gt;{{cite journal | last1 = Storey | first1= John D. | year = 2003 | title = The positive false discovery rate: A Bayesian interpretation and the q-value | journal = [[Annals of Statistics]] | volume = 31 | issue = 6 | pages = 2013–2035 | url = http://genomics.princeton.edu/storeylab/papers/Storey_Annals_2003.pdf | doi = 10.1214/aos/1074290335}}&lt;/ref&gt;&lt;ref name=Efron2010&gt;{{cite book | last = Efron | first = Bradley | title = Large-Scale Inference  | publisher = [[Cambridge University Press]] | year = 2010 | isbn = 978-0-521-19249-1}}&lt;/ref&gt; thresholding wavelets coefficients and [[model selection]],&lt;ref name=Abramovichetel2006&gt;{{Cite journal |vauthors=Abramovich F, Benjamini Y, Donoho D, Johnstone IM|year=2006 |title=Adapting to unknown sparsity by controlling the false discovery rate |journal=Annals of Statistics |volume=34 |pages=584–653 |bibcode=2005math......5374A|arxiv=math/0505374 |doi=10.1214/009053606000000074 |issue=2}}&lt;/ref&gt;&lt;ref name=DonohoJin2006&gt;{{Cite journal |vauthors=Donoho D, Jin J|year=2006 |title=Asymptotic minimaxity of false discovery rate thresholding for sparse exponential data |journal=Annals of Statistics |volume=34 |pages=2980–3018 |bibcode=2006math......2311D |arxiv=math/0602311 |doi=10.1214/009053606000000920 |issue=6}}&lt;/ref&gt;&lt;ref name=BenjaminiGavrilov2009&gt;{{Cite journal |vauthors=Benjamini Y, Gavrilov Y|year=2009 |title=A simple forward selection procedure based on false discovery rate control |journal=Annals of Applied Statistics |volume=3 |pages=179–198 |bibcode=2009arXiv0905.2819B |arxiv=0905.2819 |doi=10.1214/08-AOAS194 |issue=1}}&lt;/ref&gt;&lt;ref name=DonohoJin2004&gt;{{Cite journal |vauthors=Donoho D, Jin JS|year=2004 |title=Higher criticism for detecting sparse heterogeneous mixtures |journal=Annals of Statistics |volume=32 |pages=962–994 |bibcode=2004math.....10072D |arxiv=math/0410072 |doi=10.1214/009053604000000265 |issue=3}}&lt;/ref&gt; and generalizing the [[confidence interval]] into the false coverage statement rate (FCR).&lt;ref name=BenjYekut2005&gt;{{Cite journal |vauthors=Benjamini Y, Yekutieli Y |year=2005 |title=False discovery rate controlling confidence intervals for selected parameters |journal=Journal of the American Statistical Association |volume=100 |pages=71–80 |doi=10.1198/016214504000001907 |issue=469}}&lt;/ref&gt;
+
+===False positive rates in single tests of significance===
+Colquhoun (2014)&lt;ref name=DC2015&gt;{{cite journal|last1=Colquhoun|first1=David|title=An investigation of the false discovery rate and the misinterpretation of ''p''-values|journal=Royal Society Open Science|date=2015|volume=1|issue=3|page=140216|doi=10.1098/rsos.140216|pmid=26064558|pmc=4448847|arxiv=1407.5296|bibcode=2014RSOS....140216C}}&lt;/ref&gt; used the term "false discovery rate" to mean the probability that a statistically significant result was a false positive.  This was part of an investigation of the question "how should one interpret the P value found in a single unbiased test of significance".  In subsequent work,&lt;ref name="DC2016"&gt;{{cite web|last1=Colquhoun|first1=David|title=The problem with p-values|url=https://aeon.co/essays/it-s-time-for-science-to-abandon-the-term-statistically-significant|website=Aeon|publisher=Aeon Magazine|accessdate=11 December 2016}}&lt;/ref&gt;&lt;ref name="DC2017"&gt;{{cite journal|last1=Colquhoun|first1=David|title=The reproducibility of research and the misinterpretation of p-values|journal=Royal Society Open Science|volume=4|issue=12|pages=171085|date=2017|doi=10.1098/rsos.171085|pmid=29308247|pmc=5750014|url=http://rsos.royalsocietypublishing.org/content/4/12/171085#abstract-1}}&lt;/ref&gt; Colquhoun called the same thing the false positive risk, rather than the false discovery rate in order to avoid confusion with the use of the latter term in connection with the problem of multiple comparisons.  The methods for dealing with multiple comparisons described above aim to control the type 1 error rate. The result of applying them is to produce a (corrected) P value. The result is, therefore, subject to the same misinterpretations as any other P value.
+
+==See also==
+* [[Positive predictive value]]
+
+==References==
+{{reflist|30em}}
+
+==External links==
+*[http://strimmerlab.org/notes/fdr.html False Discovery Rate Analysis in R] – Lists links with popular [[R (programming language)|R]] packages
+*[https://github.com/puolival/multipy False Discovery Rate Analysis in Python] – Python implementations of false discovery rate procedures
+*[https://brainder.org/2011/09/05/fdr-corrected-fdr-adjusted-p-values/ False Discovery Rate: Corrected &amp; Adjusted P-values] - [[MATLAB]]/[[GNU Octave]] implementation and discussion on the difference between corrected and adjusted FDR p-values.
+*[https://eranraviv.com/understanding-false-discovery-rate/ Understanding False Discovery Rate] - blog post
+* {{YouTube|K8LQSvtjcEo|StatQuest: FDR and the Benjamini-Hochberg Method clearly explained}}
+*[https://riffyn.com/riffyn-blog/2017/10/29/false-discovery-rate Understanding False Discovery Rate] - Includes Excel VBA code to implement it, and an example in cell line development
+
+{{Statistics|state=expanded}}
+
+[[Category:Statistical hypothesis testing]]
+[[Category:Summary statistics for contingency tables]]
+[[Category:Multiple comparisons]]</text>
+      <sha1>6riwn7sbmn3wpvhd9cben8svvdknm5r</sha1>
+    </revision>
+  </page>
+</mediawiki>

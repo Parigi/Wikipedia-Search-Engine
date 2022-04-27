@@ -1,0 +1,93 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.10/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.10/ http://www.mediawiki.org/xml/export-0.10.xsd" version="0.10" xml:lang="en">
+  <siteinfo>
+    <sitename>Wikipedia</sitename>
+    <dbname>enwiki</dbname>
+    <base>https://en.wikipedia.org/wiki/Main_Page</base>
+    <generator>MediaWiki 1.35.0-wmf.36</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Media</namespace>
+      <namespace key="-1" case="first-letter">Special</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Talk</namespace>
+      <namespace key="2" case="first-letter">User</namespace>
+      <namespace key="3" case="first-letter">User talk</namespace>
+      <namespace key="4" case="first-letter">Wikipedia</namespace>
+      <namespace key="5" case="first-letter">Wikipedia talk</namespace>
+      <namespace key="6" case="first-letter">File</namespace>
+      <namespace key="7" case="first-letter">File talk</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki talk</namespace>
+      <namespace key="10" case="first-letter">Template</namespace>
+      <namespace key="11" case="first-letter">Template talk</namespace>
+      <namespace key="12" case="first-letter">Help</namespace>
+      <namespace key="13" case="first-letter">Help talk</namespace>
+      <namespace key="14" case="first-letter">Category</namespace>
+      <namespace key="15" case="first-letter">Category talk</namespace>
+      <namespace key="100" case="first-letter">Portal</namespace>
+      <namespace key="101" case="first-letter">Portal talk</namespace>
+      <namespace key="108" case="first-letter">Book</namespace>
+      <namespace key="109" case="first-letter">Book talk</namespace>
+      <namespace key="118" case="first-letter">Draft</namespace>
+      <namespace key="119" case="first-letter">Draft talk</namespace>
+      <namespace key="446" case="first-letter">Education Program</namespace>
+      <namespace key="447" case="first-letter">Education Program talk</namespace>
+      <namespace key="710" case="first-letter">TimedText</namespace>
+      <namespace key="711" case="first-letter">TimedText talk</namespace>
+      <namespace key="828" case="first-letter">Module</namespace>
+      <namespace key="829" case="first-letter">Module talk</namespace>
+      <namespace key="2300" case="first-letter">Gadget</namespace>
+      <namespace key="2301" case="first-letter">Gadget talk</namespace>
+      <namespace key="2302" case="case-sensitive">Gadget definition</namespace>
+      <namespace key="2303" case="case-sensitive">Gadget definition talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Constrained least squares</title>
+    <ns>0</ns>
+    <id>48526234</id>
+    <revision>
+      <id>934173106</id>
+      <parentid>934172989</parentid>
+      <timestamp>2020-01-05T03:18:58Z</timestamp>
+      <contributor>
+        <username>Michael Hardy</username>
+        <id>4626</id>
+      </contributor>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="3676" xml:space="preserve">{{more citations needed|date=July 2018}}
+
+In '''constrained least squares''' one solves a [[linear least squares (mathematics)|linear least squares]] problem with an additional constraint on the solution.&lt;ref name="BoydVandenberghe2018"&gt;{{cite book|author1=Stephen Boyd|author2=Lieven Vandenberghe|title=Introduction to Applied Linear Algebra: Vectors, Matrices, and Least Squares|url=https://books.google.com/books?id=IApaDwAAQBAJ&amp;printsec=frontcover#v=onepage&amp;q=%22Constrained%20least%20squares%22&amp;f=false|date=7 June 2018|publisher=Cambridge University Press|isbn=978-1-316-51896-0}}&lt;/ref&gt; 
+I.e., the unconstrained equation &lt;math&gt;\mathbf {X} \boldsymbol {\beta} = \mathbf {y}&lt;/math&gt; must be fit as closely as possible (in the least squares sense) while ensuring that some other property of &lt;math&gt;\boldsymbol {\beta}&lt;/math&gt; is maintained.
+
+There are often special-purpose algorithms for solving such problems efficiently. Some examples of constraints are given below:
+* [[Constrained generalized inverse|Equality constrained]] least squares: the elements of &lt;math&gt;\boldsymbol {\beta}&lt;/math&gt; must exactly satisfy &lt;math&gt;\mathbf {L} \boldsymbol {\beta} = \mathbf {d}&lt;/math&gt; (see [[Ordinary least squares#Constrained estimation|Ordinary least squares]]).
+* [[Tikhonov regularization|Regularized]] least squares: the elements of &lt;math&gt;\boldsymbol {\beta}&lt;/math&gt; must satisfy &lt;math&gt;\| \mathbf {L} \boldsymbol {\beta} - \mathbf {y} \| \le \alpha &lt;/math&gt; (choosing &lt;math&gt;\alpha&lt;/math&gt; in proportion to the noise standard deviation of '''y''' prevents over-fitting).
+* [[Non-negative least squares]] (NNLS): The vector &lt;math&gt;\boldsymbol {\beta}&lt;/math&gt; must satisfy the [[ordered vector space|vector inequality]] &lt;math&gt;\boldsymbol {\beta} \geq \boldsymbol{0}&lt;/math&gt; defined componentwise—that is, each component must be either positive or zero.
+* Box-constrained least squares: The vector &lt;math&gt;\boldsymbol {\beta}&lt;/math&gt; must satisfy the [[ordered vector space|vector inequalities]] &lt;math&gt; \boldsymbol{lb} \leq \boldsymbol{\beta} \leq \boldsymbol{ub}&lt;/math&gt;, each of which is defined componentwise.
+* Integer-constrained least squares: all elements of &lt;math&gt;\boldsymbol {\beta}&lt;/math&gt; must be [[integer]]s (instead of [[real number]]s).
+* Phase-constrained least squares: all elements of &lt;math&gt;\boldsymbol {\beta}&lt;/math&gt; must be real numbers, all multiplied by a same complex number of unit modulus.
+
+When the constraint only applies to some of the variables, the mixed problem may be solved using '''separable least squares''' by letting &lt;math&gt;\mathbf {X} = [\mathbf {X_1} \mathbf {X_2} ]&lt;/math&gt; and &lt;math&gt;\mathbf {\beta}^{\rm T} = [\mathbf {\beta_1}^{\rm T} \mathbf {\beta_2}^{\rm T}]&lt;/math&gt; represent the unconstrained (1) and constrained (2) components. Then substituting the least-squares solution for &lt;math&gt;\mathbf {\beta_1}&lt;/math&gt;, i.e.
+
+:&lt;math&gt;\hat{\boldsymbol {\beta}}_1 = \mathbf {X}_1^+ (\mathbf {y} - \mathbf {X}_2 \boldsymbol {\beta}_2)&lt;/math&gt;
+
+(where &lt;sup&gt;+&lt;/sup&gt; indicates the [[Moore–Penrose pseudoinverse]]) back into the original expression gives (following some rearrangement) an equation that can be solved as a purely constrained problem in &lt;math&gt;\mathbf {\beta}_2&lt;/math&gt;.
+
+:&lt;math&gt; \mathbf{P} \mathbf {X}_2 \boldsymbol {\beta}_2 = \mathbf{P}\mathbf {y},&lt;/math&gt;
+
+where &lt;math&gt;\mathbf{P}:=\mathbf{I}-\mathbf {X}_1 \mathbf {X}_1^+&lt;/math&gt; is a [[projection matrix]]. Following the constrained estimation of &lt;math&gt;\hat{\boldsymbol \beta}_2&lt;/math&gt; the vector &lt;math&gt;\hat{\boldsymbol {\beta}}_1&lt;/math&gt; is obtained from the expression above.
+
+==See also==
+* [[Constrained optimization]]
+* [[Integer programming]]
+
+==References==
+{{Reflist}}
+
+[[Category:Least squares]]</text>
+      <sha1>6mo6mjoysue46612kuwfilnhxxhhh2j</sha1>
+    </revision>
+  </page>
+</mediawiki>

@@ -1,0 +1,383 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.10/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.10/ http://www.mediawiki.org/xml/export-0.10.xsd" version="0.10" xml:lang="en">
+  <siteinfo>
+    <sitename>Wikipedia</sitename>
+    <dbname>enwiki</dbname>
+    <base>https://en.wikipedia.org/wiki/Main_Page</base>
+    <generator>MediaWiki 1.35.0-wmf.36</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Media</namespace>
+      <namespace key="-1" case="first-letter">Special</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Talk</namespace>
+      <namespace key="2" case="first-letter">User</namespace>
+      <namespace key="3" case="first-letter">User talk</namespace>
+      <namespace key="4" case="first-letter">Wikipedia</namespace>
+      <namespace key="5" case="first-letter">Wikipedia talk</namespace>
+      <namespace key="6" case="first-letter">File</namespace>
+      <namespace key="7" case="first-letter">File talk</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki talk</namespace>
+      <namespace key="10" case="first-letter">Template</namespace>
+      <namespace key="11" case="first-letter">Template talk</namespace>
+      <namespace key="12" case="first-letter">Help</namespace>
+      <namespace key="13" case="first-letter">Help talk</namespace>
+      <namespace key="14" case="first-letter">Category</namespace>
+      <namespace key="15" case="first-letter">Category talk</namespace>
+      <namespace key="100" case="first-letter">Portal</namespace>
+      <namespace key="101" case="first-letter">Portal talk</namespace>
+      <namespace key="108" case="first-letter">Book</namespace>
+      <namespace key="109" case="first-letter">Book talk</namespace>
+      <namespace key="118" case="first-letter">Draft</namespace>
+      <namespace key="119" case="first-letter">Draft talk</namespace>
+      <namespace key="446" case="first-letter">Education Program</namespace>
+      <namespace key="447" case="first-letter">Education Program talk</namespace>
+      <namespace key="710" case="first-letter">TimedText</namespace>
+      <namespace key="711" case="first-letter">TimedText talk</namespace>
+      <namespace key="828" case="first-letter">Module</namespace>
+      <namespace key="829" case="first-letter">Module talk</namespace>
+      <namespace key="2300" case="first-letter">Gadget</namespace>
+      <namespace key="2301" case="first-letter">Gadget talk</namespace>
+      <namespace key="2302" case="case-sensitive">Gadget definition</namespace>
+      <namespace key="2303" case="case-sensitive">Gadget definition talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Reflection (computer programming)</title>
+    <ns>0</ns>
+    <id>314905</id>
+    <revision>
+      <id>962118000</id>
+      <parentid>956141385</parentid>
+      <timestamp>2020-06-12T05:58:13Z</timestamp>
+      <contributor>
+        <ip>174.88.46.109</ip>
+      </contributor>
+      <comment>/* Implementation */</comment>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="14183" xml:space="preserve">{{distinguish|Reflection (computer graphics)}}
+{{Programming paradigms}}
+
+In [[computer science]], '''reflection''' is the ability of a [[Process (computing)|process]] to examine, [[Introspection (computer science)|introspect]], and modify its own structure and behavior.&lt;ref&gt;{{Citation | title = A Tutorial on Behavioral Reflection and its Implementation by Jacques Malenfant et al. | publisher = unknown | url = http://www2.parc.com/csl/groups/sda/projects/reflection96/docs/malenfant/malenfant.pdf | accessdate = 23 June 2019 | url-status = dead | archiveurl = https://web.archive.org/web/20170821214626/http://www2.parc.com/csl/groups/sda/projects/reflection96/docs/malenfant/malenfant.pdf | archivedate = 21 August 2017 }}&lt;/ref&gt;
+
+==Historical background==
+The earliest computers were programmed in their native [[assembly language]], which were inherently reflective, as these original architectures could be programmed by defining instructions as data and using [[self-modifying code]]. As programming moved to compiled higher-level languages such as [[ALGOL|Algol]], [[Cobol]], and [[Fortran]] (but also [[Pascal (programming language)|Pascal]] and [[C (programming language)|C]] and many other languages), this reflective ability largely disappeared until programming languages with reflection built into their type systems appeared.{{Citation needed|date=July 2015}}
+
+[[Brian Cantwell Smith]]'s 1982 doctoral dissertation&lt;ref&gt;Brian Cantwell Smith, [http://hdl.handle.net/1721.1/15961 Procedural Reflection in Programming Languages], Department of Electrical Engineering and Computer Science, Massachusetts Institute of Technology, PhD dissertation, 1982.&lt;/ref&gt;&lt;ref&gt;Brian C. Smith. [http://publications.csail.mit.edu/lcs/specpub.php?id=840 Reflection and semantics in a procedural language] {{Webarchive|url=https://web.archive.org/web/20151213034343/http://publications.csail.mit.edu/lcs/specpub.php?id=840 |date=2015-12-13 }}. Technical Report MIT-LCS-TR-272, Massachusetts Institute of Technology, Cambridge, Massachusetts, January 1982.&lt;/ref&gt; introduced the notion of computational reflection in procedural [[programming languages]] and the notion of the [[meta-circular interpreter]] as a component of [[3-Lisp]].
+
+==Uses==
+Reflection helps programmers make generic software libraries to display data, process different formats of data, perform [[serialization]] or deserialization of data for communication, or do bundling and unbundling of data for containers or bursts of communication.
+
+Effective use of reflection almost always requires a plan: A design framework, encoding description, object library, a map of a database or entity relations.
+
+Reflection makes a language more suited to network-oriented code. For example, it assists languages such as Java to operate well in networks by enabling libraries for serialization, bundling and varying data formats. Languages without reflection (e.g. [[C (programming language)|C]]) have to use auxiliary compilers, e.g. for [[Abstract Syntax Notation]], to produce code for serialization and bundling.
+
+Reflection can be used for observing and modifying program execution at runtime. A reflection-oriented program component can monitor the execution of an enclosure of code and can modify itself according to a desired goal related to that enclosure. This is typically accomplished by dynamically assigning program code at runtime.
+
+In object-oriented programming languages such as [[Java (programming language)|Java]], reflection allows ''inspection'' of classes, interfaces, fields and methods at runtime without knowing the names of the interfaces, fields, methods at compile time. It also allows ''instantiation'' of new objects and ''invocation'' of methods.
+
+Reflection is often used as part of [[software testing]], such as for the runtime creation/instantiation of [[mock object]]s.
+
+Reflection is also a key strategy for [[metaprogramming]].
+
+In some object-oriented programming languages, such as [[C Sharp (programming language)|C#]] and [[Java (programming language)|Java]], reflection can be used to bypass [[member accessibility]] rules. For C#-properties this can be achieved by writing directly onto the (usually invisible) backing field of a non-public property. It is also possible to find non-public methods of classes and types and manually invoke them. This works for project-internal files as well as external libraries (.Net-assemblies and Java-archives).
+
+==Implementation==
+{{Unreferenced section|date=January 2008}}
+A language supporting reflection provides a number of features available at runtime that would otherwise be difficult to accomplish in a lower-level language. Some of these features are the abilities to:
+* Discover and modify source-code constructions (such as code blocks, [[Class (computer science)|classes]], methods, protocols, etc.) as [[first-class object]]s at runtime.
+* Convert a [[string (computer science)|string]] matching the symbolic name of a class or function into a reference to or invocation of that class or function.
+* Evaluate a string as if it were a source-code statement at runtime.
+* Create a new interpreter for the language's bytecode to give a new meaning or purpose for a programming construct.
+
+These features can be implemented in different ways. In [[MOO (programming language)|MOO]], reflection forms a natural part of everyday programming idiom. When verbs (methods) are called, various variables such as ''verb'' (the name of the verb being called) and ''this'' (the object on which the verb is called) are populated to give the context of the call. Security is typically managed by accessing the caller stack programmatically: Since ''callers''() is a list of the methods by which the current verb was eventually called, performing tests on ''callers''()[0] (the command invoked by the original user) allows the verb to protect itself against unauthorised use.
+
+Compiled languages rely on their runtime system to provide information about the source code. A compiled [[Objective-C]] executable, for example, records the names of all methods in a block of the executable, providing a table to correspond these with the underlying methods (or selectors for these methods) compiled into the program. In a compiled language that supports runtime creation of functions, such as [[Common Lisp]], the runtime environment must include a compiler or an interpreter.
+
+Reflection can be implemented for languages not having built-in reflection facilities by using a [[program transformation]] system to define automated source-code changes.
+
+==Examples==
+The following code snippets create an [[instance (computer science)|instance]] &lt;tt&gt;foo&lt;/tt&gt; of [[class (computer science)|class]] &lt;tt&gt;Foo&lt;/tt&gt; and invoke its [[method (computer science)|method]] &lt;tt&gt;PrintHello&lt;/tt&gt;. For each [[programming language]], normal and reflection-based call sequences are shown.
+
+=== C# ===
+The following is an example in [[C Sharp (programming language)|C#]]:
+&lt;syntaxhighlight lang="c#"&gt;
+// Without reflection
+Foo foo = new Foo();
+foo.PrintHello();
+
+// With reflection
+Object foo = Activator.CreateInstance("complete.classpath.and.Foo");
+MethodInfo method = foo.GetType().GetMethod("PrintHello");
+method.Invoke(foo, null);
+&lt;/syntaxhighlight&gt;
+
+===Delphi===
+This [[Embarcadero Delphi|Delphi]] example assumes that a &lt;tt&gt;TFoo&lt;/tt&gt; class has been declared in a unit called &lt;tt&gt;Unit1&lt;/tt&gt;:
+&lt;syntaxhighlight lang="Delphi"&gt;
+uses RTTI, Unit1;
+
+procedure WithoutReflection;
+var
+  Foo: TFoo;
+begin
+  Foo := TFoo.Create;
+  try
+    Foo.Hello;
+  finally
+    Foo.Free;
+  end;
+end;
+
+procedure WithReflection;
+var
+  RttiContext: TRttiContext;
+  RttiType: TRttiInstanceType;
+  Foo: TObject;
+begin
+  RttiType := RttiContext.FindType('Unit1.TFoo') as TRttiInstanceType;
+  Foo := RttiType.GetMethod('Create').Invoke(RttiType.MetaclassType, []).AsObject;
+  try
+    RttiType.GetMethod('Hello').Invoke(Foo, []);
+  finally
+    Foo.Free;
+  end;
+end;
+&lt;/syntaxhighlight&gt;
+
+===eC===
+The following is an example in [[eC (programming language)|eC]]:
+&lt;syntaxhighlight lang=eC&gt;
+// Without reflection
+Foo foo { };
+foo.hello();
+
+// With reflection
+Class fooClass = eSystem_FindClass(__thisModule, "Foo");
+Instance foo = eInstance_New(fooClass);
+Method m = eClass_FindMethod(fooClass, "hello", fooClass.module);
+((void (*)())(void *)m.function)(foo);
+&lt;/syntaxhighlight&gt;
+
+===ECMAScript===
+The following is an example in [[ECMAScript]], and therefore also applies to [[JavaScript]] and [[ActionScript]]:
+&lt;syntaxhighlight lang=ECMAScript&gt;
+// Without reflection
+new Foo().hello()
+
+// With reflection
+
+// assuming that Foo resides in this
+new this['Foo']()['hello']()
+
+// or without assumption
+new (eval('Foo'))()['hello']()
+
+// or simply
+eval('new Foo().hello()')
+
+// Using ECMAScript 2015's new Reflect class:
+Reflect.construct(Foo, [])['hello']()
+&lt;/syntaxhighlight&gt;
+
+===Go===
+The following is an example in [[Go (programming language)|Go]]:
+
+&lt;syntaxhighlight lang="go"&gt;
+import "reflect"
+
+// Without reflection
+f := Foo{}
+f.Hello()
+
+// With reflection
+fT := reflect.TypeOf(Foo{})
+fV := reflect.New(fT)
+
+m := fV.MethodByName("Hello")
+if m.IsValid() {
+    m.Call(nil)
+}
+&lt;/syntaxhighlight&gt;
+
+===Java===
+The following is an example in [[Java (programming language)|Java]]:
+&lt;syntaxhighlight lang="java"&gt;
+import java.lang.reflect.Method;
+
+// Without reflection
+Foo foo = new Foo();
+foo.hello();
+
+// With reflection
+try {
+    // Alternatively: Object foo = Foo.class.newInstance();
+    Object foo = Class.forName("complete.classpath.and.Foo").newInstance();
+
+    Method m = foo.getClass().getDeclaredMethod("hello", new Class&lt;?&gt;[0]);
+    m.invoke(foo);
+} catch (Exception e) {
+    // Catching ClassNotFoundException, NoSuchMethodException
+    // InstantiationException, IllegalAccessException
+}
+&lt;/syntaxhighlight&gt;
+
+===Objective-C===
+The following is an example in [[Objective-C]], implying either the [[OpenStep]] or [[Foundation Kit]] framework is used:
+&lt;syntaxhighlight lang="ObjC"&gt;
+// Foo class.
+@interface Foo : NSObject
+- (void)hello;
+@end
+
+// Sending "hello" to a Foo instance without reflection.
+Foo *obj = [[Foo alloc] init];
+[obj hello];
+
+// Sending "hello" to a Foo instance with reflection.
+id obj = [[NSClassFromString(@"Foo") alloc] init];
+[obj performSelector: @selector(hello)];
+&lt;/syntaxhighlight&gt;
+
+===Perl===
+The following is an example in [[Perl (programming language)|Perl]]:
+
+&lt;syntaxhighlight lang="perl"&gt;
+# Without reflection
+my $foo = Foo-&gt;new;
+$foo-&gt;hello;
+
+# or
+Foo-&gt;new-&gt;hello;
+
+# With reflection
+my $class = "Foo"
+my $constructor = "new";
+my $method = "hello";
+
+my $f = $class-&gt;$constructor;
+$f-&gt;$method;
+
+# or
+$class-&gt;$constructor-&gt;$method;
+
+# with eval
+eval "new Foo-&gt;hello;";
+&lt;/syntaxhighlight&gt;
+
+===PHP===
+The following is an example in [[PHP]]:
+&lt;syntaxhighlight lang="php"&gt;
+// Without reflection
+$foo = new Foo();
+$foo-&gt;hello();
+
+// With reflection, using Reflections API
+$reflector = new ReflectionClass('Foo');
+$foo = $reflector-&gt;newInstance();
+$hello = $reflector-&gt;getMethod('hello');
+$hello-&gt;invoke($foo);
+&lt;/syntaxhighlight&gt;
+
+===Python===
+The following is an example in [[Python (programming language)|Python]]:
+&lt;syntaxhighlight lang="python"&gt;
+# Without reflection
+obj = Foo()
+obj.hello()
+
+# With reflection
+obj = globals()['Foo']()
+getattr(obj, 'hello')()
+
+# With eval
+eval('Foo().hello()')
+&lt;/syntaxhighlight&gt;
+
+===R===
+The following is an example in [[R (programming language)|R]]:
+&lt;syntaxhighlight lang="RSPlus"&gt;
+# Without reflection, assuming foo() returns an S3-type object that has method "hello"
+obj &lt;- foo()
+hello(obj)
+
+# With reflection
+the.class &lt;- "foo"
+the.method &lt;- "hello"
+obj &lt;- do.call(the.class, list())
+do.call(the.method, alist(obj))
+&lt;/syntaxhighlight&gt;
+
+===Ruby===
+The following is an example in [[Ruby (Programming Language)|Ruby]]:
+&lt;syntaxhighlight lang="ruby"&gt;
+# Without reflection
+obj = Foo.new
+obj.hello
+
+# With reflection
+class_name = "Foo"
+method_name = :hello
+obj = Object.const_get(class_name).new
+obj.send method_name
+
+# With eval
+eval "Foo.new.hello"
+&lt;/syntaxhighlight&gt;
+
+===Xojo===
+The following is an example using [[Xojo]]:
+&lt;syntaxhighlight lang="vb"&gt;
+' Without reflection
+Dim fooInstance As New Foo
+fooInstance.PrintHello
+
+' With reflection
+Dim classInfo As Introspection.Typeinfo = GetTypeInfo(Foo)
+Dim constructors() As Introspection.ConstructorInfo = classInfo.GetConstructors
+Dim fooInstance As Foo = constructors(0).Invoke
+Dim methods() As Introspection.MethodInfo = classInfo.GetMethods
+For Each m As Introspection.MethodInfo In methods
+  If m.Name = "PrintHello" Then
+    m.Invoke(fooInstance)
+  End If
+Next
+&lt;/syntaxhighlight&gt;
+
+==See also==
+* [[List of reflective programming languages and platforms]]
+* [[Mirror (programming)]]
+* [[Programming paradigm]]s
+* [[Self-hosting (compilers)|Self-hosting]]
+* [[Self-modifying code]]
+* [[Type introspection]]
+
+== References ==
+=== Citations ===
+{{Reflist}}
+
+=== Sources ===
+{{refbegin}}
+* Jonathan M. Sobel and Daniel P. Friedman. [https://web.archive.org/web/20100204091328/http://www.cs.indiana.edu/~jsobel/rop.html ''An Introduction to Reflection-Oriented Programming''] (1996), [[Indiana University]].
+* [https://www.codeproject.com/Articles/674455/Anti-Reflector-NET-Code-Protection Anti-Reflection technique using C# and C++/CLI wrapper to prevent code thief]
+{{refend}}
+
+==Further reading==
+* Ira R. Forman and Nate Forman, ''Java Reflection in Action'' (2005), {{ISBN|1-932394-18-4}}
+* Ira R. Forman and Scott Danforth, ''Putting Metaclasses to Work'' (1999), {{ISBN|0-201-43305-2}}
+
+==External links==
+* [https://www-master.ufr-info-p6.jussieu.fr/2007/Ajouts/Master_esj20_2007_2008/IMG/pdf/malenfant-ijcai95.pdf Reflection in logic, functional and object-oriented programming: a short comparative study]
+* [https://web.archive.org/web/20100204091328/http://www.cs.indiana.edu/~jsobel/rop.html An Introduction to Reflection-Oriented Programming]
+* [http://www.laputan.org/#Reflection Brian Foote's pages on Reflection in Smalltalk]
+* [http://docs.oracle.com/javase/tutorial/reflect/index.html Java Reflection API Tutorial] from Oracle
+{{Programming language}}
+
+{{DEFAULTSORT:Reflection (Computer Programming)}}
+[[Category:Programming constructs]]
+[[Category:Articles with example Python code]]</text>
+      <sha1>f1t0rsonj0h9iqpwmx4htwsiautv73z</sha1>
+    </revision>
+  </page>
+</mediawiki>

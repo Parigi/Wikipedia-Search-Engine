@@ -1,0 +1,127 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.10/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.10/ http://www.mediawiki.org/xml/export-0.10.xsd" version="0.10" xml:lang="en">
+  <siteinfo>
+    <sitename>Wikipedia</sitename>
+    <dbname>enwiki</dbname>
+    <base>https://en.wikipedia.org/wiki/Main_Page</base>
+    <generator>MediaWiki 1.35.0-wmf.36</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Media</namespace>
+      <namespace key="-1" case="first-letter">Special</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Talk</namespace>
+      <namespace key="2" case="first-letter">User</namespace>
+      <namespace key="3" case="first-letter">User talk</namespace>
+      <namespace key="4" case="first-letter">Wikipedia</namespace>
+      <namespace key="5" case="first-letter">Wikipedia talk</namespace>
+      <namespace key="6" case="first-letter">File</namespace>
+      <namespace key="7" case="first-letter">File talk</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki talk</namespace>
+      <namespace key="10" case="first-letter">Template</namespace>
+      <namespace key="11" case="first-letter">Template talk</namespace>
+      <namespace key="12" case="first-letter">Help</namespace>
+      <namespace key="13" case="first-letter">Help talk</namespace>
+      <namespace key="14" case="first-letter">Category</namespace>
+      <namespace key="15" case="first-letter">Category talk</namespace>
+      <namespace key="100" case="first-letter">Portal</namespace>
+      <namespace key="101" case="first-letter">Portal talk</namespace>
+      <namespace key="108" case="first-letter">Book</namespace>
+      <namespace key="109" case="first-letter">Book talk</namespace>
+      <namespace key="118" case="first-letter">Draft</namespace>
+      <namespace key="119" case="first-letter">Draft talk</namespace>
+      <namespace key="446" case="first-letter">Education Program</namespace>
+      <namespace key="447" case="first-letter">Education Program talk</namespace>
+      <namespace key="710" case="first-letter">TimedText</namespace>
+      <namespace key="711" case="first-letter">TimedText talk</namespace>
+      <namespace key="828" case="first-letter">Module</namespace>
+      <namespace key="829" case="first-letter">Module talk</namespace>
+      <namespace key="2300" case="first-letter">Gadget</namespace>
+      <namespace key="2301" case="first-letter">Gadget talk</namespace>
+      <namespace key="2302" case="case-sensitive">Gadget definition</namespace>
+      <namespace key="2303" case="case-sensitive">Gadget definition talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Statistical dispersion</title>
+    <ns>0</ns>
+    <id>23773247</id>
+    <revision>
+      <id>958998740</id>
+      <parentid>958983497</parentid>
+      <timestamp>2020-05-26T17:43:12Z</timestamp>
+      <contributor>
+        <username>Retimuko</username>
+        <id>31516478</id>
+      </contributor>
+      <comment>rvv</comment>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="7020" xml:space="preserve">{{refimprove|date=December 2010}}
+[[File:Comparison standard deviations.svg|thumb|400px|right|Example of samples from two populations with the same mean but different dispersion. The blue population is much more dispersed than the red population.]]
+In [[statistics]], '''dispersion''' (also called '''variability''', '''scatter''', or '''spread''') is the extent to which a [[Probability distribution|distribution]] is stretched or squeezed.&lt;ref&gt;{{cite web|last1=NIST/SEMATECH e-Handbook of Statistical Methods|title=1.3.6.4. Location and Scale Parameters|url=http://www.itl.nist.gov/div898/handbook/eda/section3/eda364.htm|website=www.itl.nist.gov|publisher=U.S. Department of Commerce}}&lt;/ref&gt; Common examples of measures of statistical dispersion are the [[variance]], [[standard deviation]], and [[interquartile range]].
+
+Dispersion is contrasted with location or [[central tendency]], and together they are the most used properties of distributions.
+
+==Measures==
+A measure of statistical dispersion is a nonnegative [[real number]] that is zero if all the data are the same and increases as the data become more diverse.
+
+Most measures of dispersion have the same [[units of measurement|unit]]s as the [[quantity]] being measured. In other words, if the measurements are in metres or seconds, so is the measure of dispersion. Examples of dispersion measures include:
+* [[Standard deviation]]
+* [[Interquartile range]] (IQR) 
+* [[Range (statistics)|Range]]
+* [[Mean absolute difference]] (also known as Gini mean absolute difference)
+* [[Median absolute deviation]] (MAD)
+* [[Average absolute deviation]] (or simply called average deviation)
+* [[Distance standard deviation]]
+These are frequently used (together with [[scale factor]]s) as [[estimator]]s of [[scale parameter]]s, in which capacity they are called '''estimates of scale.''' [[Robust measures of scale]] are those unaffected by a small number of [[outliers]], and include the IQR and MAD.
+
+All the above measures of statistical dispersion have the useful property that they are ''location-invariant'' and ''linear in scale''. This means that if a [[random variable]] ''X'' has a dispersion of ''S&lt;sub&gt;X&lt;/sub&gt;'' then a [[linear transformation]] ''Y''&amp;nbsp;=&amp;nbsp;''aX''&amp;nbsp;+&amp;nbsp;''b'' for [[real number|real]] ''a'' and ''b'' should have dispersion ''S&lt;sub&gt;Y&lt;/sub&gt;''&amp;nbsp;=&amp;nbsp;|''a''|''S''&lt;sub&gt;''X''&lt;/sub&gt;, where |''a''| is the [[absolute value]] of ''a'', that is, ignores a preceding negative sign ''–''.
+
+Other measures of dispersion are '''[[dimensionless]]'''. In other words, they have no units even if the variable itself has units. These include:
+* [[Coefficient of variation]]
+* [[Quartile coefficient of dispersion]]
+* [[Relative mean difference]], equal to twice the [[Gini coefficient]]
+* [[Entropy (information theory)|Entropy]]: While the entropy of a discrete variable is  location-invariant and scale-independent, and therefore not a measure of dispersion in the above sense, the entropy of a continuous variable is location invariant and additive in scale: If ''Hz'' is the entropy of continuous variable ''z'' and ''y=ax+b'', then ''Hy=Hx+log(a)''.
+
+There are other measures of dispersion:
+* [[Variance]] (the square of the standard deviation) – location-invariant but not linear in scale.
+* [[Variance-to-mean ratio]] – mostly used for [[count data]] when the term [[coefficient of dispersion]] is used and when this ratio is [[dimensionless]], as count data are themselves dimensionless, not otherwise.
+
+Some measures of dispersion have specialized purposes, among them the [[Allan variance]] and the [[Hadamard variance]].
+
+For [[categorical variable]]s, it is less common to measure dispersion by a single number; see [[qualitative variation]]. One measure that does so is the discrete [[information entropy|entropy]].
+
+==Sources==
+In the [[physical sciences]], such variability may result from random measurement errors: instrument measurements are often not perfectly [[accuracy and precision|precise, i.e., reproducible]], and there is additional [[inter-rater variability]] in interpreting and reporting the measured results. One may assume that the quantity being measured is stable, and that the variation between measurements is due to [[observational error]].  A system of a large number of particles is characterized by the mean values of a relatively few number of macroscopic quantities such as temperature, energy, and density. The standard deviation is an important measure in fluctuation theory, which explains many physical phenomena, including why the sky is blue.&lt;ref&gt;{{cite book|last=McQuarrie|first=Donald A.|title=Statistical Mechanics|year=1976|publisher=Harper &amp; Row|location=NY|isbn=0-06-044366-9}}&lt;/ref&gt;
+
+In the [[biological sciences]], the quantity being measured is seldom unchanging and stable, and the variation observed might additionally be ''intrinsic'' to the phenomenon: It may be due to ''inter-individual variability'', that is, distinct members of a population differing from each other. Also, it may be due to '''''intra-individual variability''''', that is, one and the same subject differing in tests taken at different times or in other differing conditions. Such types of variability are also seen in the arena of manufactured products; even there, the meticulous scientist finds variation.
+
+In [[economics]], [[finance]], and other disciplines, [[regression analysis]] attempts to explain the dispersion of a [[Dependent and independent variables#Statistics|dependent variable]], generally measured by its variance, using one or more [[Dependent and independent variables#Statistics|independent variable]]s each of which itself has positive dispersion. The fraction of variance explained is called the [[coefficient of determination]].
+
+==A partial ordering of dispersion==
+
+A [[mean-preserving spread]] (MPS) is a change from one probability distribution A to another probability distribution B, where B is formed by spreading out one or more portions of A's probability density function while leaving the mean (the expected value) unchanged.&lt;ref&gt;{{cite journal |last=Rothschild |first=Michael |last2=Stiglitz |first2=Joseph |title=Increasing risk I: A definition |journal=[[Journal of Economic Theory]] |year=1970 |volume=2 |issue=3 |pages=225–243 |doi=10.1016/0022-0531(70)90038-4 }}&lt;/ref&gt; The concept of a mean-preserving spread provides a [[partial ordering]] of probability distributions according to their dispersions: of two probability distributions, one may be ranked as having more dispersion than the other, or alternatively neither may be ranked as having more dispersion.
+
+==See also==
+{{commonscat|Dispersion (statistics)}}
+
+*[[Average]]
+*[[Summary statistics]]
+*[[Qualitative variation]]
+*[[Robust measures of scale]]
+*[[Measurement uncertainty]]
+
+==References==
+{{reflist}}
+
+{{Statistics|descriptive}}
+
+{{DEFAULTSORT:Statistical Dispersion}}
+[[Category:Statistical deviation and dispersion]]
+[[Category:Summary statistics]]
+[[Category:Accuracy and precision]]</text>
+      <sha1>r0s00jtbp3rcavved75e56qi565zs2t</sha1>
+    </revision>
+  </page>
+</mediawiki>

@@ -1,0 +1,147 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.10/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.10/ http://www.mediawiki.org/xml/export-0.10.xsd" version="0.10" xml:lang="en">
+  <siteinfo>
+    <sitename>Wikipedia</sitename>
+    <dbname>enwiki</dbname>
+    <base>https://en.wikipedia.org/wiki/Main_Page</base>
+    <generator>MediaWiki 1.35.0-wmf.36</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Media</namespace>
+      <namespace key="-1" case="first-letter">Special</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Talk</namespace>
+      <namespace key="2" case="first-letter">User</namespace>
+      <namespace key="3" case="first-letter">User talk</namespace>
+      <namespace key="4" case="first-letter">Wikipedia</namespace>
+      <namespace key="5" case="first-letter">Wikipedia talk</namespace>
+      <namespace key="6" case="first-letter">File</namespace>
+      <namespace key="7" case="first-letter">File talk</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki talk</namespace>
+      <namespace key="10" case="first-letter">Template</namespace>
+      <namespace key="11" case="first-letter">Template talk</namespace>
+      <namespace key="12" case="first-letter">Help</namespace>
+      <namespace key="13" case="first-letter">Help talk</namespace>
+      <namespace key="14" case="first-letter">Category</namespace>
+      <namespace key="15" case="first-letter">Category talk</namespace>
+      <namespace key="100" case="first-letter">Portal</namespace>
+      <namespace key="101" case="first-letter">Portal talk</namespace>
+      <namespace key="108" case="first-letter">Book</namespace>
+      <namespace key="109" case="first-letter">Book talk</namespace>
+      <namespace key="118" case="first-letter">Draft</namespace>
+      <namespace key="119" case="first-letter">Draft talk</namespace>
+      <namespace key="446" case="first-letter">Education Program</namespace>
+      <namespace key="447" case="first-letter">Education Program talk</namespace>
+      <namespace key="710" case="first-letter">TimedText</namespace>
+      <namespace key="711" case="first-letter">TimedText talk</namespace>
+      <namespace key="828" case="first-letter">Module</namespace>
+      <namespace key="829" case="first-letter">Module talk</namespace>
+      <namespace key="2300" case="first-letter">Gadget</namespace>
+      <namespace key="2301" case="first-letter">Gadget talk</namespace>
+      <namespace key="2302" case="case-sensitive">Gadget definition</namespace>
+      <namespace key="2303" case="case-sensitive">Gadget definition talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Fuzzy retrieval</title>
+    <ns>0</ns>
+    <id>25935906</id>
+    <revision>
+      <id>941901465</id>
+      <parentid>909974781</parentid>
+      <timestamp>2020-02-21T10:08:58Z</timestamp>
+      <contributor>
+        <username>Iridescent</username>
+        <id>937705</id>
+      </contributor>
+      <minor/>
+      <comment>/* Recent work */Cleanup and [[WP:AWB/T|typo fixing]], [[WP:AWB/T|typo(s) fixed]]: ’s → 's</comment>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="8599" xml:space="preserve">'''Fuzzy retrieval''' techniques are based on the [[Extended Boolean model]] and the [[Fuzzy set]] theory. There are two classical fuzzy retrieval models: Mixed Min and Max (MMM) and the Paice model. Both models do not provide a way of evaluating query weights, however this is considered by the [[Extended Boolean model|P-norms]] algorithm.
+
+==Mixed Min and Max model (MMM)==
+
+In fuzzy-set theory, an element has a varying degree of membership, say ''d&lt;sub&gt;A&lt;/sub&gt;'', to a given set ''A'' instead of the traditional membership choice (is an element/is not an element).&lt;br /&gt;
+In MMM&lt;ref&gt;{{citation | last1=Fox | first1=E. A. | author2=S. Sharat | year=1986 | title=A Comparison of Two Methods for Soft Boolean Interpretation in Information Retrieval | publisher=Technical Report TR-86-1, Virginia Tech, Department of Computer Science}}&lt;/ref&gt; each index term has a fuzzy set associated with it. A document's weight with respect to an index term ''A'' is considered to be the degree of membership of the document in the fuzzy set associated with ''A''. The degree of membership for union and intersection are defined as follows in Fuzzy set theory:&lt;br/&gt;
+:&lt;math&gt;d_{A\cap B}= min(d_A, d_B)&lt;/math&gt;
+:&lt;math&gt;d_{A\cup B}= max(d_A,d_B)&lt;/math&gt;
+
+According to this, documents that should be retrieved for a query of the form ''A or B'', should be in the fuzzy set associated with the union of the two sets ''A'' and ''B''. Similarly, the documents that should be retrieved for a query of the form ''A and B'', should be in the fuzzy set associated with the intersection of the two sets. Hence, it is possible to define the similarity of a document to the ''or'' query to be ''max(d&lt;sub&gt;A&lt;/sub&gt;, d&lt;sub&gt;B&lt;/sub&gt;)'' and the similarity of the document to the ''and'' query to be ''min(d&lt;sub&gt;A&lt;/sub&gt;, d&lt;sub&gt;B&lt;/sub&gt;)''. The MMM model tries to soften the Boolean operators by considering the query-document similarity to be a linear combination of the ''min'' and ''max'' document weights.
+
+Given a document ''D'' with index-term weights ''d&lt;sub&gt;A1&lt;/sub&gt;, d&lt;sub&gt;A2&lt;/sub&gt;, ..., d&lt;sub&gt;An&lt;/sub&gt;'' for terms ''A&lt;sub&gt;1&lt;/sub&gt;, A&lt;sub&gt;2&lt;/sub&gt;, ..., A&lt;sub&gt;n&lt;/sub&gt;'', and the queries:
+
+''Q&lt;sub&gt;or&lt;/sub&gt; = (A&lt;sub&gt;1&lt;/sub&gt; or A&lt;sub&gt;2&lt;/sub&gt; or ... or A&lt;sub&gt;n&lt;/sub&gt;)''&lt;br /&gt;
+''Q&lt;sub&gt;and&lt;/sub&gt; = (A&lt;sub&gt;1&lt;/sub&gt; and A&lt;sub&gt;2&lt;/sub&gt; and ... and A&lt;sub&gt;n&lt;/sub&gt;)''
+
+the query-document similarity in the MMM model is computed as follows:
+
+''SlM(Q&lt;sub&gt;or&lt;/sub&gt;, D) = C&lt;sub&gt;or1&lt;/sub&gt; * max(d&lt;sub&gt;A1&lt;/sub&gt;, d&lt;sub&gt;A2&lt;/sub&gt;, ..., d&lt;sub&gt;An&lt;/sub&gt;) + C&lt;sub&gt;or2&lt;/sub&gt; * min(d&lt;sub&gt;A1&lt;/sub&gt;, d&lt;sub&gt;A2&lt;/sub&gt;, ..., d&lt;sub&gt;An&lt;/sub&gt;)''&lt;br /&gt;
+''SlM(Q&lt;sub&gt;and&lt;/sub&gt;, D) = C&lt;sub&gt;and1&lt;/sub&gt; * min(d&lt;sub&gt;A1&lt;/sub&gt;, d&lt;sub&gt;A2&lt;/sub&gt;, ..., d&lt;sub&gt;An&lt;/sub&gt;) + C&lt;sub&gt;and2&lt;/sub&gt; * max(d&lt;sub&gt;A1&lt;/sub&gt;, d&lt;sub&gt;A2&lt;/sub&gt; ..., d&lt;sub&gt;An&lt;/sub&gt;)''
+
+where ''C&lt;sub&gt;or1&lt;/sub&gt;, C&lt;sub&gt;or2&lt;/sub&gt;'' are "softness" coefficients for the ''or'' operator, and ''C&lt;sub&gt;and1&lt;/sub&gt;, C&lt;sub&gt;and2&lt;/sub&gt;'' are softness coefficients for the ''and'' operator. Since we would like to give the maximum of the document weights more importance while considering an ''or'' query and the minimum more importance while considering an ''and'' query, generally we have ''C&lt;sub&gt;or1&lt;/sub&gt; &gt; C&lt;sub&gt;or2&lt;/sub&gt; and C&lt;sub&gt;and1&lt;/sub&gt; &gt; C&lt;sub&gt;and2&lt;/sub&gt;''. For simplicity it is generally assumed that ''C&lt;sub&gt;or1&lt;/sub&gt; = 1 - C&lt;sub&gt;or2&lt;/sub&gt;'' and ''C&lt;sub&gt;and1&lt;/sub&gt; = 1 - C&lt;sub&gt;and2&lt;/sub&gt;''.
+
+Lee and Fox&lt;ref name="leefox"&gt;{{citation | last1=Lee | first1=W. C. | author2=E. A. Fox | year=1988 | title=Experimental Comparison of Schemes for Interpreting Boolean Queries}}&lt;/ref&gt; experiments indicate that the best performance usually occurs with ''C&lt;sub&gt;and1&lt;/sub&gt;'' in the range [0.5, 0.8] and with ''C&lt;sub&gt;or1&lt;/sub&gt;'' &gt; 0.2. In general, the computational cost of MMM is low, and retrieval effectiveness is much better than with the [[Standard Boolean model]].
+
+==Paice model==
+
+The [[Christopher D. Paice|Paice]] model&lt;ref&gt;{{citation | last=Paice | first=C. D. | year=1984 | title=Soft Evaluation of Boolean Search Queries in Information Retrieval Systems | publisher=Information Technology, Res. Dev. Applications, 3(1), 33-42 }}&lt;/ref&gt; is a general extension to the MMM model. In comparison to the MMM model that considers only the minimum and maximum weights for the index terms, the Paice model incorporates all of the term weights when calculating the similarity:
+
+:&lt;math&gt;S(D,Q) = \sum_{i=1}^n\frac{r^{i-1}*w_{di}}{\sum_{j=1}^n r^{j-1}}&lt;/math&gt;
+
+where ''r'' is a constant coefficient and ''w&lt;sub&gt;di&lt;/sub&gt;'' is arranged in ascending order for ''and'' queries and descending order for ''or'' queries. When n = 2 the Paice model shows the same behavior as the MMM model.
+
+The experiments of Lee and Fox&lt;ref name="leefox"/&gt; have shown that setting the ''r'' to 1.0 for ''and'' queries and 0.7 for ''or'' queries gives good retrieval effectiveness. The computational cost for this model is higher than that for the MMM model. This is because the MMM model only requires the determination of ''min'' or ''max'' of a set of term weights each time an ''and'' or ''or'' clause is considered, which can be done in ''O(n)''. The Paice model requires the term weights to be sorted in ascending or descending order, depending on whether an ''and'' clause or an ''or'' clause is being considered. This requires at least an ''0(n log n)'' sorting algorithm. A good deal of floating point calculation is needed too.
+
+==Improvements over the Standard Boolean model==
+Lee and Fox&lt;ref name="leefox"/&gt; compared the Standard Boolean model with MMM and Paice models with three test collections, CISI, CACM and INSPEC. These are the reported results for average mean precision improvement:
+{| class="wikitable"
+|-
+!
+! CISI
+! CACM
+! INSPEC
+|-
+! MMM
+| 68%
+| 109%
+| 195%
+|-
+! Paice
+| 77%
+| 104%
+| 206%
+|}
+
+These are very good improvements over the Standard model. MMM is very close to Paice and P-norm results which indicates that it can be a very good technique, and is the most efficient of the three.
+
+==Recent work==
+
+Recently '''Kang ''et al.'''.&lt;ref&gt;{{citation | chapter=Fuzzy Information Retrieval Indexed by Concept Identification | last1=Kang | first1=Bo-Yeong | title=Text, Speech and Dialogue | volume=3658 | pages=179–186 | author2=Dae-Won Kim |author3=Hae-Jung Kim | publisher=Springer Berlin / Heidelberg | year=2005| doi=10.1007/11551874_23 | series=Lecture Notes in Computer Science | isbn=978-3-540-28789-6 }}&lt;/ref&gt; have devised a fuzzy retrieval system indexed by concept identification.
+
+If we look at documents on a pure [[Tf-idf]] approach, even eliminating stop words, there will be words more relevant to the topic of the document than others and they will have the same weight because they have the same term frequency. If we take into account the user intent on a query we can better weight the terms of a document. Each term can be identified as a concept in a certain lexical chain that translates the importance of that concept for that document.&lt;br /&gt;
+They report improvements over Paice and P-norm on the average precision and recall for the Top-5 retrieved documents.
+
+Zadrozny&lt;ref&gt;{{citation | title=Fuzzy information retrieval model revisited | journal=Fuzzy Sets and Systems | volume=160 | issue=15 | pages=2173–2191 | doi=10.1016/j.fss.2009.02.012 | first1=Sławomir | last1=Zadrozny | last2=Nowacka | first2=Katarzyna | year=2009 | publisher=Elsevier North-Holland, Inc.}}&lt;/ref&gt; revisited the fuzzy information retrieval model. He further extends the fuzzy extended Boolean model by:
+* assuming linguistic terms as importance weights of keywords also in documents
+* taking into account the uncertainty concerning the representation of documents and queries
+* interpreting the linguistic terms in the representation of documents and queries as well as their matching in terms of the Zadeh's fuzzy logic (calculus of linguistic statements)
+* addressing some pragmatic aspects of the proposed model, notably the techniques of indexing documents and queries
+
+The proposed model makes it possible to grasp both imprecision and uncertainty concerning the textual information representation and retrieval.
+
+==See also==
+*[[Information retrieval]]
+
+==Further reading==
+* {{citation | title=Information Retrieval: Algorithms and Data structures; Extended Boolean model | last1=Fox | first1=E. | author2=S. Betrabet | author3=M. Koushik | author4=W. Lee | year=1992 | publisher=Prentice-Hall, Inc. | url=https://www.scribd.com/doc/13742235/Information-Retrieval-Data-Structures-Algorithms-William-B-Frakes}}
+
+==References==
+{{reflist}}
+
+{{DEFAULTSORT:Fuzzy Retrieval}}
+[[Category:Information retrieval techniques]]</text>
+      <sha1>t6tjcqwfn19alesf9agl80dm6aoc8ob</sha1>
+    </revision>
+  </page>
+</mediawiki>

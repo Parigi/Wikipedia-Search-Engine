@@ -1,0 +1,130 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.10/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.10/ http://www.mediawiki.org/xml/export-0.10.xsd" version="0.10" xml:lang="en">
+  <siteinfo>
+    <sitename>Wikipedia</sitename>
+    <dbname>enwiki</dbname>
+    <base>https://en.wikipedia.org/wiki/Main_Page</base>
+    <generator>MediaWiki 1.35.0-wmf.36</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Media</namespace>
+      <namespace key="-1" case="first-letter">Special</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Talk</namespace>
+      <namespace key="2" case="first-letter">User</namespace>
+      <namespace key="3" case="first-letter">User talk</namespace>
+      <namespace key="4" case="first-letter">Wikipedia</namespace>
+      <namespace key="5" case="first-letter">Wikipedia talk</namespace>
+      <namespace key="6" case="first-letter">File</namespace>
+      <namespace key="7" case="first-letter">File talk</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki talk</namespace>
+      <namespace key="10" case="first-letter">Template</namespace>
+      <namespace key="11" case="first-letter">Template talk</namespace>
+      <namespace key="12" case="first-letter">Help</namespace>
+      <namespace key="13" case="first-letter">Help talk</namespace>
+      <namespace key="14" case="first-letter">Category</namespace>
+      <namespace key="15" case="first-letter">Category talk</namespace>
+      <namespace key="100" case="first-letter">Portal</namespace>
+      <namespace key="101" case="first-letter">Portal talk</namespace>
+      <namespace key="108" case="first-letter">Book</namespace>
+      <namespace key="109" case="first-letter">Book talk</namespace>
+      <namespace key="118" case="first-letter">Draft</namespace>
+      <namespace key="119" case="first-letter">Draft talk</namespace>
+      <namespace key="446" case="first-letter">Education Program</namespace>
+      <namespace key="447" case="first-letter">Education Program talk</namespace>
+      <namespace key="710" case="first-letter">TimedText</namespace>
+      <namespace key="711" case="first-letter">TimedText talk</namespace>
+      <namespace key="828" case="first-letter">Module</namespace>
+      <namespace key="829" case="first-letter">Module talk</namespace>
+      <namespace key="2300" case="first-letter">Gadget</namespace>
+      <namespace key="2301" case="first-letter">Gadget talk</namespace>
+      <namespace key="2302" case="case-sensitive">Gadget definition</namespace>
+      <namespace key="2303" case="case-sensitive">Gadget definition talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>High Precision Event Timer</title>
+    <ns>0</ns>
+    <id>2508210</id>
+    <revision>
+      <id>926119075</id>
+      <parentid>905166803</parentid>
+      <timestamp>2019-11-14T10:16:26Z</timestamp>
+      <contributor>
+        <username>Yuriz</username>
+        <id>73482</id>
+      </contributor>
+      <comment>/* Use and compatibility */</comment>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="14422" xml:space="preserve">{{refimprove|date=February 2014}}
+The '''High Precision Event Timer''' ('''HPET''') is a [[computer hardware|hardware]] timer used in [[personal computers]]. It was developed jointly by [[Intel]] and [[Microsoft]] and has been incorporated in [[PC chipsets]] since circa 2005. Formerly referred to by Intel as a '''Multimedia Timer''',&lt;ref name="HPETspec"/&gt; the term HPET was selected to avoid confusion with the software multimedia timers introduced in the [[MultiMedia Extensions]] to [[Windows 3.0]].&lt;ref&gt;{{cite web |url=http://msdn.microsoft.com/en-us/library/ms712704(VS.85).aspx |title=Multimedia Timers |publisher=Microsoft |accessdate=2010-10-20}}&lt;/ref&gt;
+
+Older [[operating systems]] that do not support a hardware HPET device can only use older timing facilities, such as the [[programmable interval timer]] (PIT) or the [[real-time clock]] (RTC). [[Windows XP]], when fitted with the latest [[hardware abstraction layer]] (HAL), can also use the processor's [[Time Stamp Counter]] (TSC) or [[Power Management Timer]] (PMTIMER), together with the RTC to provide operating system features that would, in later Windows versions, be provided by the HPET hardware. Confusingly, such Windows XP systems quote "HPET" connectivity in the device driver manager even though the Intel HPET device is not being used.
+
+==Features==
+An HPET chip consists of a 64-bit [[counter (digital)|up-counter]] (main counter) counting at a frequency of at least 10&amp;nbsp;MHz, and a set of (at least three, up to 256) comparators. These comparators are 32- or 64-bit-wide. The HPET is programmed via a [[memory mapped I/O]] window that is discoverable via [[Advanced Configuration and Power Interface]] (ACPI). The HPET circuit in modern PCs is integrated into the [[southbridge (computing)|southbridge chip]].{{Efn|On these highly integrated dies the [[BIOS]] often sets up the HPET incorrectly in the ACPI, initializing it correctly only in [[Intel 8253]] mode. If the ACPI is not set up correctly the [[Operating system|OS]] cannot list the HPET. And the BIOS and OS developers don't see the need to get Real Time support. So the HPET is only there to satisfy the system's high speed needs. If the HPET is set up correctly in the ACPI from BIOS then the ACPI MMIO page of the first HPET chip should be at 0xFED00000 and the second HPET at page 0xFED80000 (see the discussion for further information).}}
+
+Each comparator can generate an [[interrupt]] when the least significant bits are equal to the corresponding bits of the 64-bit main counter value. The comparators can be put into one-shot mode or periodic mode, with at least one comparator supporting periodic mode and all of them supporting one-shot mode. In one-shot mode the comparator fires an interrupt once when the main counter reaches the value stored in the comparator's register, while in the periodic mode the interrupts are generated at specified intervals.
+
+Comparators can be driven by the operating system, e.g. to provide one timer per CPU for scheduling, or by applications.
+
+==Applications==
+The HPET can produce periodic interrupts at a much higher resolution than the RTC and is often used to synchronize multimedia streams, providing smooth playback and reducing the need to use other timestamp calculations such as an [[X86-based CPU]]'s &lt;code&gt;[[RDTSC]]&lt;/code&gt; instruction.
+
+==Comparison to predecessors==
+{{expand section|compare with LAPIC timer, ACPI PM etc.|date=February 2014}}
+HPET is meant to supplement and replace the [[Intel 8254|8254]] programmable interval timer and the RTC's periodic interrupt function. Compared to these older timer circuits, the HPET has higher frequency and wider 64-bit counters (although they can be driven in 32-bit mode).&lt;ref name="HPETspec"&gt;{{Citation | author = Intel Corporation | title = IA-PC HPET (High Precision Event Timers) Specification (revision 1.0a) |date=October 2004 | url=http://www.intel.com/content/dam/www/public/us/en/documents/technical-specifications/software-developers-hpet-spec-1-0a.pdf | accessdate = 2012-06-15}}&lt;/ref&gt;
+
+The HPET specification does not define the timer frequency, only requiring a ''minimum'' of 10&amp;nbsp;MHz; the actual frequency is provided to the operating system by a hardware register giving the number of [[femtosecond]]s per period (with an upper bound of {{val|100000000|u=fs}}).  A popular value is 14.3{{overline|18}}&amp;nbsp;MHz, 12 times the standard 8254 frequency of 1.193{{overline|18}}&amp;nbsp;MHz.
+
+While 8254 and RTC ''can'' be put into an HPET-like one-shot mode, the set-up process is so slow that their one-shot mode is not used in practice for tasks requiring precise scheduling.&lt;ref&gt;{{Citation | title = Guidelines For Providing Multimedia Timer Support | date = 2002-09-20 | url = http://www.microsoft.com/whdc/system/sysinternals/mm-timer.mspx | accessdate = 2009-11-10 }}&lt;/ref&gt; Instead, 8254 and RTC are typically used in periodic mode with a very small time interval. For example, if an application needs to perform several short (some milliseconds, perhaps) waits, it is better to have a periodic timer running constantly with a 1&amp;nbsp;ms period because of the high setup cost of an 8254 or RTC one-shot timer. This causes an interrupt at every millisecond even if the application needs to do actual work less frequently. With HPET, the extra interrupts can be avoided, because the set-up cost of a HPET one-shot timer is considerably smaller.
+
+==Use and compatibility==
+Operating systems designed before HPET existed cannot use HPET, so they use other timer facilities. Newer operating systems tend to be able to use either. Some hardware has both. Indeed, most current southbridge chips have legacy-supporting instances of PIT, PIC, [[Advanced Programmable Interrupt Controller]] (APIC) and RTC devices incorporated into their silicon whether or not they are used by the operating system, which helps very modern PCs run older operating systems.
+
+The following operating systems are known ''not'' to be able to use HPET: 
+Windows XP SP2,{{Efn|[[Windows XP]], SP2 ''knows'' the HPET timer (as a device with PNP0103 identifier). When detected (for example, on [[Intel]] DQ45CB motherboard), Device Manager (START / SETTINGS / CONTROL_PANEL / SYSTEM / DEVICE_MANAGER) shows "High Precision Event Timer" device in "System devices" branch. But this device has no driver and is not used at all.}} [[Windows Server 2003]], and earlier [[Microsoft Windows|Windows]] versions, [[Linux]] kernels prior to 2.6.{{Efn|With a [[Linux kernel]], you need the newer RTC-CMOS hardware clock device driver rather than the original RTC driver.}}
+
+The following operating systems are known to be able to use HPET:
+Windows XP SP3,{{Efn|XP SP3 "emulates" most of the HPET specification as drafted in 2002 in anticipation of a device that made its eventual appearance in PCs designed for Windows Vista by 2005.
+
+The term "High Precision Event Timer" is then used within the driver manager to describe TSC (Time-Stamp-Counter) or ACPI Power Management Timer (PMTimer) timing subsystems even when the 15&amp;nbsp;MHz Intel HPET device is not being used.
+
+While it is true to say that only Windows Vista and later Windows use the physical Intel 15&amp;nbsp;MHz HPET, the operating system features intended to be fulfilled by the HPET already largely existed in Windows XP, albeit to a different specification (that of 2002 rather than 2005) and hence with a reduced capability.
+
+In terms of physical embodiment in Windows XP SP3, the IRQ0 and IRQ8 are typically mapped to a "High Precision Event Timer" when using the ACPI HAL (version 5.1.2600.5512), albeit that the QueryPerformanceFrequency API call returns a value related to the rated processor clock speed (for example, 2.6&amp;nbsp;GHz) or PMTIMER (3.579545&amp;nbsp;MHz) rather than the Intel HPET spec'd value of 15&amp;nbsp;MHz that you would get using Windows Vista. This anomaly muddies the water about what is meant by "HPET" on such systems, but it is clearly not the 15&amp;nbsp;MHz Intel device in those cases. Note that this "HPET"-quoting IRQ mapping and non-HPET clock relationship can be found both on Intel systems and AMD systems whether or not they are using the /USEPMTIMER boot override.
+
+Since the original specification for HPET (in 2002) calls for a high resolution counter, which is then exposed by the QueryPerformanceFrequency and QueryPerformanceCounter API calls (already available since Windows 2000), it is the QueryPerformanceFrequency that can shed light on how this "high precision" counter is actually being provided.
+
+A high value (in the 1&amp;nbsp;GHz to 4&amp;nbsp;GHz range) implicates the Time Stamp Counter (TSC) of the CPU as being the source. The early multi-core CPUs from AMD exposed a problem with TSC-derived QueryPerformanceCounter readings, as they would be affected by spread-spectrum and power management speed variations. While this was eventually solved in later processor designs by making the TSC clock independent of the CPU clock, the PM Timer on ACPI systems became the counter source of choice, requiring a /USEPMTIMER override in the Windows BOOT.INI file to enforce its use.
+
+On both Intel and AMD machines using the ACPI HAL together with the /USEPMTIMER boot switch, the IRQs 0 &amp; 8 will still report a HPET, but now the QueryPerformanceFrequency will report 3.579545&amp;nbsp;MHz, which is the frequency of the PMTIMER. This has the express advantage of being independent of the CPU frequency and still provides a very reasonable sub-microsecond resolution and accuracy.
+
+Ironically the very high count rates obtained in TSC mechanisms (as compared with PMTIMER or the Intel HPET device) can cause a problem that the measurable time intervals are too short: there is an upper limit to the usefulness of a counter that overflows early. It can also be a nuisance that the ever-increasing processor speeds of newer processor designs make this usable time span shorter still. It is thus not surprising that PMTIMER and Intel HPET systems use a clearly specified fixed rate that is deliberately targeted at producing resolutions in the sub-microsecond range, allowing them to measure for longer periods than is possible with TSC.
+
+With or without the /PMTIMER switch, the "event" part of the HPET specification can only be emulated by using yet another timing source, since neither an underlying TSC nor PMTIMER solution includes implicit hardware for aperiodic event triggering as described by the specification, and yet this is available via the timer API in Windows XP (to a best possible resolution of 0.9766&amp;nbsp;ms when the timeBeginPeriod - timeEndPeriod API calls are used). This part of the specification is still fulfilled by the RTC device with the help of software, despite the fact that the device manager is quoting HPET in the IRQ0 and IRQ8 positions.}} [[Windows Server 2008]], [[Windows Server 2008 R2]], [[Windows Vista]], [[Windows 7]], x86 based versions of {{nowrap|[[OS X]]}}, [[Linux]] operating systems using the 2.6 kernel (or later), [[FreeBSD]]&lt;ref&gt;{{cite web|title=FreeBSD Man Pages: hpet(4)|url=https://www.freebsd.org/cgi/man.cgi?query=hpet&amp;sektion=4|website=www.freebsd.org}}&lt;/ref&gt; and [[OpenSolaris]].{{citation needed|date=December 2012}}
+
+The [[Linux kernel]] can also use HPET as its [[clock source]]. The documentation of [[Red Hat MRG]] version 2 states that TSC is the preferred clock source due to its much lower overhead, but it uses HPET as a fallback. A benchmark in that environment for 10 million event counts found that TSC took about 0.6 seconds, HPET took slightly over 12 seconds, and ACPI Power Management Timer took around 24 seconds.&lt;ref&gt;{{cite web |url=https://access.redhat.com/documentation/en-US/Red_Hat_Enterprise_MRG/2/html/Realtime_Reference_Guide/chap-Timestamping.html |title=Chapter 15. Timestamping |publisher=Access.redhat.com |accessdate=2014-02-14}}&lt;/ref&gt;
+
+In 2019 it was decided to blacklist HPET in newer Linux kernels when running on some Intel CPUs ([[Coffee Lake]]) because of its instability.&lt;ref&gt;{{cite web
+|url = https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-Disabling-HPET-CoffeeLake
+|title = The Linux Kernel Disabling HPET For Intel Coffee Lake
+|website = [[Phoronix]]}}&lt;/ref&gt;
+
+==Problems==
+HPET is a continuously running timer that counts upward, not a one-shot device that counts down to zero, causes one interrupt and then stops. Since HPET compares the actual timer value and the programmed target value on equality rather than "greater or equal", interrupts can be missed if the target time has already passed when the comparator value is written into the chip's register.&lt;ref name="Gleixner"/&gt; In such a case, not only is the intended interrupt missed, but actually set far into the future (about 2&lt;sup&gt;32&lt;/sup&gt; or 2&lt;sup&gt;64&lt;/sup&gt; counts).&lt;ref name="vmware"/&gt; In the presence of [[non-maskable interrupt]]s (such as a [[System Management Interrupt]] (SMI)) that do not have a hard upper bound on their execution time, this [[race condition]] requires time-consuming re-checks of the timer after setup and is hard to avoid completely. The difficulties are exacerbated if the comparator value is not synchronized with the timer immediately, but delayed by one or two ticks, as some chipsets do.&lt;ref name="Gleixner"&gt;Thomas Gleixner, [https://git.kernel.org/?p=linux/kernel/git/torvalds/linux.git;a=commit;h=54ff7e595d763d894104d421b103a89f7becf47c ''x86: hpet: Work around hardware stupidity''] {{webarchive|url=https://archive.is/20120709020136/http://git.kernel.org/?p=linux/kernel/git/torvalds/linux.git;a=commit;h=54ff7e595d763d894104d421b103a89f7becf47c |date=2012-07-09 }}, commit merged for Linux kernel 2.6.36-rc5&lt;/ref&gt;
+
+Besides mentioning the race condition discussed above, a [[VMware]] document also lists some other drawbacks: "The specification does not require the timer to be particularly fine grained, to have low drift, or to be fast to read. Some typical implementations run the counter at about 18&amp;nbsp;MHz and require about the same amount of time (1–2&amp;nbsp;μs) to read the HPET as with the ACPI timer. Implementations have been observed in which the period register is off by 800 parts per million or more."&lt;ref name="vmware"&gt;[http://www.vmware.com/files/pdf/Timekeeping-In-VirtualMachines.pdf Timekeeping in VMware Virtual Machines (for VMware vSphere 5.0, Workstation 8.0, Fusion 4.0)], page 9&lt;/ref&gt;
+
+==Notes==
+{{Notelist}}
+
+==References==
+{{Reflist|30em}}
+
+[[Category:Integrated circuits]]</text>
+      <sha1>j5f28mb6lu0s7ja96auq9xq4rykocbg</sha1>
+    </revision>
+  </page>
+</mediawiki>

@@ -1,0 +1,274 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.10/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.10/ http://www.mediawiki.org/xml/export-0.10.xsd" version="0.10" xml:lang="en">
+  <siteinfo>
+    <sitename>Wikipedia</sitename>
+    <dbname>enwiki</dbname>
+    <base>https://en.wikipedia.org/wiki/Main_Page</base>
+    <generator>MediaWiki 1.35.0-wmf.36</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Media</namespace>
+      <namespace key="-1" case="first-letter">Special</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Talk</namespace>
+      <namespace key="2" case="first-letter">User</namespace>
+      <namespace key="3" case="first-letter">User talk</namespace>
+      <namespace key="4" case="first-letter">Wikipedia</namespace>
+      <namespace key="5" case="first-letter">Wikipedia talk</namespace>
+      <namespace key="6" case="first-letter">File</namespace>
+      <namespace key="7" case="first-letter">File talk</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki talk</namespace>
+      <namespace key="10" case="first-letter">Template</namespace>
+      <namespace key="11" case="first-letter">Template talk</namespace>
+      <namespace key="12" case="first-letter">Help</namespace>
+      <namespace key="13" case="first-letter">Help talk</namespace>
+      <namespace key="14" case="first-letter">Category</namespace>
+      <namespace key="15" case="first-letter">Category talk</namespace>
+      <namespace key="100" case="first-letter">Portal</namespace>
+      <namespace key="101" case="first-letter">Portal talk</namespace>
+      <namespace key="108" case="first-letter">Book</namespace>
+      <namespace key="109" case="first-letter">Book talk</namespace>
+      <namespace key="118" case="first-letter">Draft</namespace>
+      <namespace key="119" case="first-letter">Draft talk</namespace>
+      <namespace key="446" case="first-letter">Education Program</namespace>
+      <namespace key="447" case="first-letter">Education Program talk</namespace>
+      <namespace key="710" case="first-letter">TimedText</namespace>
+      <namespace key="711" case="first-letter">TimedText talk</namespace>
+      <namespace key="828" case="first-letter">Module</namespace>
+      <namespace key="829" case="first-letter">Module talk</namespace>
+      <namespace key="2300" case="first-letter">Gadget</namespace>
+      <namespace key="2301" case="first-letter">Gadget talk</namespace>
+      <namespace key="2302" case="case-sensitive">Gadget definition</namespace>
+      <namespace key="2303" case="case-sensitive">Gadget definition talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Solar power in Denmark</title>
+    <ns>0</ns>
+    <id>36453385</id>
+    <revision>
+      <id>949747056</id>
+      <parentid>925742777</parentid>
+      <timestamp>2020-04-08T08:48:42Z</timestamp>
+      <contributor>
+        <username>Lujkin8</username>
+        <id>18266973</id>
+      </contributor>
+      <comment>/* Timeline */</comment>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="13105" xml:space="preserve">{{Use dmy dates|date=September 2013}}
+[[File:SolarGIS-Solar-map-Denmark-en.png|thumb|Solar radiation map of Denmark]]
+'''Solar power in Denmark''' contributes to a goal to use [[100% renewable energy]] by 2050.&lt;ref&gt;{{Cite web|url=https://www.bbc.com/news/science-environment-17628146|title=Are Denmark's renewable energy goals wishful thinking?|first=Paul|last=Moss|date=8 April 2012|via=www.bbc.co.uk}}&lt;/ref&gt; The goal of 200 MW of [[photovoltaics]] by 2020 was reached eight years early, in 2012, and 36 MW was being installed each month. Denmark had 790 MW in late 2015.&lt;ref name="ing790"&gt;{{Cite web|url=https://ing.dk/artikel/kaempe-solcelleparker-slaar-bunden-ud-energiforlig-181991|title=Kæmpe solcelleparker slår bunden ud af energiforlig|date=5 February 2016|website=Ingeniøren}}&lt;/ref&gt; A total of 3,400 MW is expected to be installed by 2030.&lt;ref&gt;{{Cite web|url=https://um.dk/en/news/newsdisplaypage/?newsid=25147b44-3dce-4647-8788-ad9243c22df2|title=Denmark reaches 2020-goal for solar energy before time|first=Ministry of Foreign Affairs of|last=Denmark|website=Ministry of Foreign Affairs of Denmark}}&lt;/ref&gt; Many solar-thermal district heating plants exist and are planned in [[Denmark]].&lt;ref&gt;Slides 10-11 in: Holm L. (2011). [http://www.solar-district-heating.eu/LinkClick.aspx?fileticket=0TUGQodrJt0%3d&amp;tabid=69 Long Therm Experience with Solar District Heating (Marstal)]. International SDH Workshop, Ferrara, IT, 29–30 September 2011.&lt;/ref&gt;
+
+== Installed capacity ==
+
+{{main|Solar power in the European Union|Growth of photovoltaics}}
+  
+{{Image frame
+|width =400
+|align=right
+|pos=top
+|content=&lt;div style="margin: 15px 5px -40px -45px;"&gt;
+{{ #invoke:Chart | bar-chart
+ |group 1 = 1.5 : 1.5 : 1.6 : 1.9 : 2.3 : 2.7 : 2.9 : 3.1 : 3.3 : 4.6 : 7 : 16 : 332 : 548 : 603 : 790 : 900
+ |colors = Crimson
+ |group names =
+ |height=516
+ |width=425 
+ |units suffix = _MW
+ |x legends = 2000 :  : :  : 2004 :  : :  : 2008 :  : : : 2012 : : : :
+}}
+&lt;/div&gt;
+|caption =&lt;span style="font-size: 120%"&gt;'''Cumulated PV capacity in megawatt (MW) in Denmark since 1992'''&lt;/span&gt;&lt;ref name=epia-2014-p34&gt;{{cite web|title=Global Market Outlook for Photovoltaics 2014-2018|url=http://www.epia.org/fileadmin/user_upload/Publications/EPIA_Global_Market_Outlook_for_Photovoltaics_2014-2018_-_Medium_Res.pdf|website=www.epia.org|publisher=EPIA - European Photovoltaic Industry Association|accessdate=12 June 2014|archiveurl=https://www.webcitation.org/6QGSvAF7w|archivedate=12 June 2014|page=34}}&lt;/ref&gt;
+}}
+
+{| class="wikitable" style="margin-top: -15px;"
+|+ '''&amp;nbsp;'''
+! style="width:80px;" |Year
+! Total in MW&lt;sub&gt;p&lt;/sub&gt;
+! Installed in MW&lt;sub&gt;p&lt;/sub&gt;
+! style="width:80px;" |Δ%
+! References
+|- align="right"
+| align="center" | 1996
+| &amp;lt;1
+| 0.1
+| 100%
+| 
+|- align="right"
+| align="center" | 1997
+| &amp;lt;1
+| 0.2
+| 100%
+| 
+|- align="right"
+| align="center" | 1998
+| &amp;lt;1
+| 0.1
+| 25%
+| 
+|- align="right"
+| align="center" | 1999
+| 1
+| 0.6
+| 120%
+| 
+|- align="right"
+| align="center" | 2000
+| &amp;gt;1
+| 0.4
+| 36%
+| 
+|- align="right"
+| align="center" | 2001
+| &amp;gt;1
+| 0
+| 0%
+| 
+|- align="right"
+| align="center" | 2002
+| &amp;gt;1
+| 0.1
+| 7%
+| 
+|- align="right"
+| align="center" | 2003
+| &amp;gt;1
+| 0.3
+| 19%
+| 
+|- align="right"
+| align="center" | 2004
+| 2
+| 0.4
+| 21%
+| 
+|- align="right"
+| align="center" | 2005
+| &amp;gt;2
+| 0.4
+| 17%
+| 
+|- align="right"
+| align="center" | 2006
+| &amp;gt;2
+| 0.2
+| 7%
+| 
+|- align="right"
+| align="center" | 2007
+| 3
+| 0.2
+| 7%
+| 
+|- align="right"
+| align="center" | 2008
+| &amp;gt;3
+| 0.19
+| 6%
+| &lt;ref name="pv-barometer-2009"&gt;{{cite web|author1=EUROBSER'VER|title=Photovoltaic Barometer - installations 2008 and 2009|url=http://www.eurobserv-er.org/pdf/baro196.pdf|website=www.energies-renouvelables.org|accessdate=1 May 2013|archiveurl=https://www.webcitation.org/6QN2z5NRx|archivedate=16 June 2014|pages=4|format=PDF}}&lt;/ref&gt; 
+|- align="right"
+| align="center" | 2009
+| &amp;lt;5
+| 1.3
+| 39%
+| &lt;ref name="pv-barometer-2010"&gt;{{cite web|author1=EUROBSER'VER|title=Photovoltaic Barometer - installations 2009 and 2010|url=http://www.eurobserv-er.org/pdf/baro202.pdf|website=www.energies-renouvelables.org|accessdate=1 May 2013|archiveurl=https://www.webcitation.org/6QN2Lx72F|archivedate=16 June 2014|pages=4|format=PDF}}&lt;/ref&gt;
+|- align="right"
+| align="center" | 2010
+| 7
+| 2.5
+| 54%
+| &lt;ref name="pv-barometer-2011"&gt;{{cite web|author1=EUROBSER'VER|title=Photovoltaic Barometer - installations 2010 and 2011|url=http://www.eurobserv-er.org/pdf/photovoltaic_2012.pdf|website=www.energies-renouvelables.org|accessdate=1 May 2013|archiveurl=https://www.webcitation.org/6QN1OZ1Bt|archivedate=16 June 2014|pages=6|format=PDF}}&lt;/ref&gt;
+|- align="right"
+| align="center" | 2011
+| 16
+| 9
+| 130%
+| &lt;ref name="pv-barometer-2012"&gt;{{cite web|author1=EUROBSER'VER|title=Photovoltaic Barometer - installations 2011 and 2012|url=http://www.energies-renouvelables.org/observ-er/stat_baro/observ/baro-jdp9.pdf|website=www.energies-renouvelables.org|accessdate=1 May 2013|archiveurl=https://www.webcitation.org/6QMzMloMY|archivedate=16 June 2014|pages=7|format=PDF}}&lt;/ref&gt;&lt;ref name="epia-2014"&gt;{{cite web|title=Global Market Outlook for Photovoltaics 2014-2018|url=http://www.epia.org/fileadmin/user_upload/Publications/EPIA_Global_Market_Outlook_for_Photovoltaics_2014-2018_-_Medium_Res.pdf|website=www.epia.org|publisher=EPIA - European Photovoltaic Industry Association|accessdate=12 June 2014|archiveurl=https://www.webcitation.org/6QGSvAF7w|archivedate=12 June 2014|pages=24|format=PDF}}&lt;/ref&gt;
+|- align="right"
+| align="center" | 2012
+| 332
+| 316
+| 2075%
+| &lt;ref name="epia-2014" /&gt;
+|- align="right"
+| align="center" | 2013
+| 564
+| 248
+| 70%
+| &lt;!--&lt;ref name=epia-2014 /&gt;--&gt;{{small|IEA-PVPS}}
+|- align="right"
+| align="center" | 2014
+| 603
+| 39.4
+| 7%
+| {{small|IEA-PVPS}}
+|- align="right"
+| align="center" | 2015
+| 789
+| 183
+| 
+| {{small|IEA-PVPS}} 
+|- align="right"
+| align="center" | 2016
+| ~900
+| 70
+| 
+| {{small|IEA-PVPS}}
+|}
+
+== Timeline ==
+[[File:Solar panels on Hjelm Island.jpg|thumb|Solar panels on [[Hjelm (island)|Hjelm island]]]]
+Solar power provided the equivalent of 2.8 percent&lt;!--0,95 TWh--&gt; of Danish electricity consumption in 2018.&lt;ref name="energinet.dk"&gt;{{cite web | url=https://energinet.dk/Om-nyheder/Nyheder/2019/01/07/Solenergi-slog-rekord-i-varmt-2018 | title=Solenergi slog rekord i varmt 2018 |publisher=[[Energinet.dk]] |date=2019-01-07 |access-date=2019-03-16 |author= |quote= }}&lt;/ref&gt;
+
+'''2020'''
+
+In 2020 The Danish Energy Agency to host 400 MW PV projects in the Nissum Fjord location.&lt;ref&gt;{{Cite web|url=https://list.solar/news/danish-fjord/|title=Danish fjord to host 400 MW of solar|date=18 March 2020|website=List.Solar}}&lt;/ref&gt;
+
+'''2015'''
+
+In 2015 only 6.3 MW was applied for out of a funding pool of 41 MW. The funding is valued at 1.02 DKK/kWh for 2015, and 0.88 for 2016.&lt;ref&gt;{{Cite web|url=https://finans.dk/live/erhverv/ECE8190075/Husejere-er-g%C3%A5et-kolde-i-solceller/|title=Husejere er gået kolde i solceller|first=KURT|last=HEDEVANG|date=6 November 2015|website=FINANS}}&lt;/ref&gt; In 2016, a German solar power auction was won by a set of projects with a combined capacity of 50 MW at a price of 5.38 eurocent/kWh, which is unusually low for Northern Europe. The projects are located in Denmark due to EU rules.&lt;ref&gt;{{cite web|url= https://www.bundesnetzagentur.de/cln_1411/SharedDocs/Pressemitteilungen/DE/2016/161128_PVDK.html |title=Bundesnetzagentur erteilt Zuschläge in PV-Ausschreibung mit Dänemark|publisher=Bundesnetzagentur|accessdate=30 November 2016}}&lt;/ref&gt;
+
+'''2013'''
+
+In 2013 PV deployment remained strong with 216 MW of new installation, despite the fact that it was 32 percent down from previous record year.
+
+'''2012'''
+
+In 2012, new photovoltaic installations had surged to unprecedented levels in Denmark. This twentyfold increase in photovoltaic capacity in only one year urged the Danish government to cut back its [[net-metering]] scheme. In December 2012, Danish parliament reduced the compensation period of net-metering from a yearly to an hourly bases and increased in turn the granted feed-in tariffs. This change in policy intended to reduce the overall attractiveness of further PV deployment while keeping up some incentives for small developments. It also reduced the loss of tax revenues for the government by shifting the costs directly to the electricity consumers.&lt;ref&gt;{{cite web|url= http://blogs.exeter.ac.uk/energy/2013/06/20/chill-winds-at-borgen-can-the-danish-government-agree-on-how-to-handle-solar-power/ |title=Can the Danish government agree on how to handle solar power?|last1=Kitzing|first1=Lena |date=20 June 2013|website=blogs.exeter.ac.uk |archiveurl= https://www.webcitation.org/6QOZD3O2h |archivedate=17 June 2014|accessdate=17 June 2014}}&lt;/ref&gt;
+
+==Solar heating==
+{{see also|Central solar heating#Largest CSHPs|label 1 =List of some Danish solar heat plants}}
+Solar heat plants are widespread in Denmark.&lt;ref&gt;Holm (2012), slides 10 &amp; 11. [http://www.solar-district-heating.eu/LinkClick.aspx?fileticket=0TUGQodrJt0%3d&amp;tabid=69 Long Therm Experience With Solar District Heating] (presentation).&lt;/ref&gt;
+
+A large solar-thermal district heating plant 55% of the year-round heating needs of the town of [[Marstal]].&lt;ref name="STW"&gt;Solar Thermal World, 28 July 2014.[http://www.solarthermalworld.org/content/denmark-23-mwth-cover-55-heat-demand-1500-households 23 MWth Cover 55 % of Heat Demand of 1,500 Households].&lt;/ref&gt; This is after an expansion of the original plant which supplied one-third of the heating needs,&lt;ref&gt;{{Cite web|url=http://www.aeroeisland.com/aeroe-map/|title=Aeroe Map}}&lt;/ref&gt;&lt;ref&gt;SunStor-4 Project, Marstal, Denmark. [http://wk.bakuri.dk/filarkiv/solarmarstal.bakuri.dk/file/del_af_annex_1(1).pdf The solar district heating system], which has an interseasonal pit storage, is being expanded.&lt;/ref&gt; The plant uses [[seasonal thermal energy storage]] (STES) in the form of a large lined pits that is filled with gravel and water as the heat storage medium. The storage, which is covered with a layer of insulation, enables solar heat collected primarily in summer to be used year-round. The system includes 75,000 m³ of heat storage pits, 33,000 m² of solar-thermal collector area, and a 1.5 MW heat pump.&lt;ref name="STW"/&gt; It also includes a biomass CHP plant for generating electricity and additional heat; however a spokesman said "If I were to calculate the economics for a project today, I would opt for a heat pump," because the cost of wood pellets has greatly increased. "At least, we can always count on solar energy to be free of charge."&lt;ref name="STW"/&gt; The expansion of the Marstal facility, completed in 2013, was part of the European Union's SunStore4 project, and can serve as a basic model for such heating plants elsewhere in Europe if local conditions are also taken into account.&lt;ref&gt;Euroheat &amp; Power. [SUNSTORE4: 100% Renewable District Heating SUNSTORE4: 100% Renewable District Heating]. Our projects: July 2010 to June 2014.&lt;/ref&gt;&lt;ref&gt;{{Cite web|url=https://www.euroheat.org/wp-content/uploads/2016/04/SUNSTORE4_Report.pdf|title=SunStore4 Final Report}}&lt;/ref&gt;
+
+In Braedstrup, the community's solar district heating system stores heat in a borehole STES (BTES) facility that uses 19,000 cubic metres of underground strata as a heat battery.  It can hold 500 MWh of heat at a temperature of 65&amp;nbsp;°C.  Two water tanks provide additional heat storage.  When extracting heat, a 1.5 MW heat pump boosts the temperature to 80&amp;nbsp;°C, for circulation in the district heating loop.  The present system is the first expansion of an original smaller system, and now provides 20% of the community's heat on an annual basis, from a solar collector area of 10,600 square metres. A second expansion is planned, to provide 50% of the heat demand from a total solar collector area of 50,000 square metres and using an enlarged BTES store. The remainder of the demand is provided by electric and gas-fired boilers.&lt;ref name="sdh"&gt;Solar District Heating (SDH). 2012. [http://www.solar-district-heating.eu/NewsEvents/News/tabid/68/ArticleId/216/Braedstrup-Solar-Park-in-Denmark-is-now-a-reality.aspx Braedstrup Solar Park in Denmark Is Now a Reality!] Newsletter. 25 Oct. 2012. SDH is a European Union-wide program.&lt;/ref&gt;
+
+The Braedstrup system is designed to integrate with the national electric grid.  The heat pump and electric boiler are used when there is surplus wind power available on the grid, contributing to the stability of the system and maximal use of the wind power. The natural gas boiler is used when this renewable electricity is not available.&lt;ref name="sdh"/&gt;
+
+==See also==
+*[[Solar power by country]]
+*[[Renewable energy in Denmark]]
+*[[Wind power in Denmark]]
+*[[Biofuel in Denmark]]
+*[[Energy in Denmark]]
+*[[List of renewable energy topics by country]]
+
+==References==
+{{reflist}}
+
+==External links==
+{{commons category|Solar energy in Denmark|Solar power in Denmark}}
+*[http://www.solenergi.dk/english/ Solar Energy Centre Denmark]
+
+{{Solar power in Europe}}
+{{Renewable energy by country}}
+{{Portal bar|Denmark|Renewable energy|Energy}}
+
+[[Category:Solar power in Denmark| ]]</text>
+      <sha1>870nr2tj2v7dtzcpnyjz9275224o4pd</sha1>
+    </revision>
+  </page>
+</mediawiki>

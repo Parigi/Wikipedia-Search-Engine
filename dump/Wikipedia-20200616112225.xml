@@ -1,0 +1,428 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.10/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.10/ http://www.mediawiki.org/xml/export-0.10.xsd" version="0.10" xml:lang="en">
+  <siteinfo>
+    <sitename>Wikipedia</sitename>
+    <dbname>enwiki</dbname>
+    <base>https://en.wikipedia.org/wiki/Main_Page</base>
+    <generator>MediaWiki 1.35.0-wmf.36</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Media</namespace>
+      <namespace key="-1" case="first-letter">Special</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Talk</namespace>
+      <namespace key="2" case="first-letter">User</namespace>
+      <namespace key="3" case="first-letter">User talk</namespace>
+      <namespace key="4" case="first-letter">Wikipedia</namespace>
+      <namespace key="5" case="first-letter">Wikipedia talk</namespace>
+      <namespace key="6" case="first-letter">File</namespace>
+      <namespace key="7" case="first-letter">File talk</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki talk</namespace>
+      <namespace key="10" case="first-letter">Template</namespace>
+      <namespace key="11" case="first-letter">Template talk</namespace>
+      <namespace key="12" case="first-letter">Help</namespace>
+      <namespace key="13" case="first-letter">Help talk</namespace>
+      <namespace key="14" case="first-letter">Category</namespace>
+      <namespace key="15" case="first-letter">Category talk</namespace>
+      <namespace key="100" case="first-letter">Portal</namespace>
+      <namespace key="101" case="first-letter">Portal talk</namespace>
+      <namespace key="108" case="first-letter">Book</namespace>
+      <namespace key="109" case="first-letter">Book talk</namespace>
+      <namespace key="118" case="first-letter">Draft</namespace>
+      <namespace key="119" case="first-letter">Draft talk</namespace>
+      <namespace key="446" case="first-letter">Education Program</namespace>
+      <namespace key="447" case="first-letter">Education Program talk</namespace>
+      <namespace key="710" case="first-letter">TimedText</namespace>
+      <namespace key="711" case="first-letter">TimedText talk</namespace>
+      <namespace key="828" case="first-letter">Module</namespace>
+      <namespace key="829" case="first-letter">Module talk</namespace>
+      <namespace key="2300" case="first-letter">Gadget</namespace>
+      <namespace key="2301" case="first-letter">Gadget talk</namespace>
+      <namespace key="2302" case="case-sensitive">Gadget definition</namespace>
+      <namespace key="2303" case="case-sensitive">Gadget definition talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Nucleic acid double helix</title>
+    <ns>0</ns>
+    <id>2091495</id>
+    <revision>
+      <id>952067849</id>
+      <parentid>952062620</parentid>
+      <timestamp>2020-04-20T11:59:16Z</timestamp>
+      <contributor>
+        <ip>86.11.230.77</ip>
+      </contributor>
+      <comment>/* Helix geometries */</comment>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="39314" xml:space="preserve">{{Redirect|Double helix}}
+[[File:Double stranded DNA with coloured bases.png|alt=DNA double helix|thumb|Simplified representation of a double stranded DNA helix with coloured bases]]
+[[File:DNA  orbit animated static thumb.png|thumb|200px|Two [[Complementarity (molecular biology)|complementary]] regions of nucleic acid molecules will bind and form a double helical structure held together by [[base pair]]s.]]
+
+In [[molecular biology]], the term '''double helix'''&lt;ref&gt;{{cite web |title=Double Helix |first=Sándor |last=Kabai |publisher=[[The Wolfram Demonstrations Project]] |year=2007 |url=http://demonstrations.wolfram.com/DoubleHelix/}}&lt;/ref&gt; refers to the structure formed by [[base pair|double-stranded]] molecules of [[nucleic acid]]s such as [[DNA]]. The double [[Helix|helical]] structure of a nucleic acid complex arises as a consequence of its [[Nucleic acid secondary structure|secondary structure]], and is a fundamental component in determining its [[Nucleic acid tertiary structure|tertiary structure]]. The term entered popular culture with the publication in 1968 of ''[[The Double Helix]]: A Personal Account of the Discovery of the Structure of DNA'' by [[James Watson]].
+
+The DNA double helix [[biopolymer]] of [[nucleic acid]] is held together by [[nucleotide]]s which [[base pair]] together.&lt;ref name="Alberts"&gt;{{cite book 
+| author=Alberts| title=The Molecular Biology of the Cell
+| year=1994 |isbn=978-0-8153-4105-5 |publisher=Garland Science |location=New York|display-authors=etal}}&lt;/ref&gt; In [[B-DNA]], the most common double helical structure found in nature, the double helix is right-handed with about 10&amp;ndash;10.5 base pairs per turn.&lt;ref&gt;{{cite journal 
+| author=Wang JC 
+| title=Helical repeat of DNA in solution 
+| journal=PNAS |year=1979 |volume=76 |issue=1 |pages=200–203 |pmid=284332 |pmc=382905 |doi=10.1073/pnas.76.1.200 |bibcode = 1979PNAS...76..200W}}&lt;/ref&gt; The double helix structure of DNA contains a ''major groove'' and ''minor groove''. In B-DNA the major groove is wider than the minor groove.&lt;ref name="Alberts" /&gt; Given the difference in widths of the major groove and minor groove, many proteins which bind to B-DNA do so through the wider major groove.&lt;ref name="Pabo1984"&gt;{{cite journal 
+|vauthors=Pabo C, Sauer R | title=Protein-DNA recognition 
+| journal=Annu Rev Biochem |volume=53 |pages=293–321 |year=1984 |pmid=6236744 |doi=10.1146/annurev.bi.53.070184.001453
+}}&lt;/ref&gt;
+
+== History ==
+{{further|History of molecular biology}}
+
+The double-helix model of [[DNA]] structure was first published in the journal ''[[Nature (journal)|Nature]]'' by [[James Watson]] and [[Francis Crick]] in 1953,&lt;ref name="crickandwatson"&gt;{{cite journal 
+|author=[[James Watson]] and [[Francis Crick]] |year=1953
+|title=A structure for deoxyribose nucleic acid 
+|journal=[[Nature (journal)|Nature]] |volume=171 |issue=4356 |pages=737–738 
+|url=http://www.nature.com/nature/dna50/watsoncrick.pdf |doi=10.1038/171737a0 |pmid=13054692 |bibcode=1953Natur.171..737W}}
+&lt;/ref&gt; (X,Y,Z coordinates in 1954&lt;ref&gt;{{cite journal |vauthors=Crick F, Watson JD |title=The Complementary Structure of Deoxyribonucleic Acid |journal=Proceedings of the Royal Society of London |volume=223, Series A |year=1954 |pages=80–96 |url=http://profiles.nlm.nih.gov/ps/access/SCBBZC.pdf}}&lt;/ref&gt;) based upon the crucial X-ray diffraction image of DNA labeled as "[[Photo 51]]", from [[Rosalind Franklin]] in 1952,&lt;ref&gt;{{cite web |title=Secret of Photo 51 |work=Nova |publisher=PBS |url=https://www.pbs.org/wgbh/nova/photo51/}}&lt;/ref&gt; followed by her more clarified DNA image with [[Raymond Gosling]],&lt;ref&gt;http://www.nature.com/nature/dna50/franklingosling.pdf&lt;/ref&gt;&lt;ref&gt;{{Cite web |url=http://www.accessexcellence.org/AE/AEC/CC/DNA_structure.php |title=The Structure of the DNA Molecule |access-date=2010-04-30 |archive-url=https://web.archive.org/web/20120621054514/http://www.accessexcellence.org/AE/AEC/CC/DNA_structure.php |archive-date=2012-06-21 |url-status=live }}&lt;/ref&gt; [[Maurice Wilkins]], [[Alex Stokes|Alexander Stokes]], and [[Herbert Wilson]],&lt;ref name=NatWilk&gt;{{cite journal |title=Molecular Structure of Deoxypentose Nucleic Acids 
+|vauthors=Wilkins MH, Stokes AR, Wilson HR |year=1953 
+|journal=Nature |volume=171 |pages=738–740
+|url=http://www.nature.com/nature/dna50/wilkins.pdf |pmid=13054693 |doi=10.1038/171738a0 |issue=4356 |bibcode=1953Natur.171..738W
+}}&lt;/ref&gt; and base-pairing chemical and biochemical information by [[Erwin Chargaff]].&lt;ref name="Elson1952"&gt;{{cite journal 
+|vauthors=Elson D, Chargaff E |year=1952 
+|title=On the deoxyribonucleic acid content of sea urchin gametes 
+|journal=Experientia |volume=8 |issue=4 |pages=143–145 |doi=10.1007/BF02170221 |pmid=14945441
+}}&lt;/ref&gt;&lt;ref name="Chargaff1952"&gt;{{cite journal 
+|vauthors=Chargaff E, Lipshitz R, Green C |year=1952 
+|title=Composition of the deoxypentose nucleic acids of four genera of sea-urchin
+|journal=J Biol Chem |volume=195 |issue=1 |pages=155–160 | pmid=14938364
+}}&lt;/ref&gt;&lt;ref name="Chargaff1951a"&gt;{{cite journal 
+|vauthors=Chargaff E, Lipshitz R, Green C, Hodes ME |year=1951 
+|title=The composition of the deoxyribonucleic acid of salmon sperm 
+|journal=J Biol Chem |volume=192 |issue=1 |pages=223–230 |pmid=14917668
+}}&lt;/ref&gt;&lt;ref name="Chargaff1951b"&gt;{{cite journal 
+|author=Chargaff E |year=1951 
+|title=Some recent studies on the composition and structure of nucleic acids 
+| journal=J Cell Physiol Suppl |volume=38 |issue=Suppl
+}}&lt;/ref&gt;&lt;ref name="Magasanik1950"&gt;{{cite journal 
+|vauthors=Magasanik B, Vischer E, Doniger R, Elson D, Chargaff E |year=1950 
+|title=The separation and estimation of ribonucleotides in minute quantities 
+|journal=J Biol Chem |volume=186 |issue=1 |pages=37–50 |pmid=14778802
+}}&lt;/ref&gt;&lt;ref name="Chargaff1950"&gt;{{cite journal 
+|author=Chargaff E |year=1950 
+|title=Chemical specificity of nucleic acids and mechanism of their enzymatic degradation 
+|journal=Experientia |volume=6 |issue=6 |pages=201–209 |doi=10.1007/BF02173653 |pmid=15421335
+}}&lt;/ref&gt; The prior model was [[triple-stranded DNA]].&lt;ref&gt;{{cite journal 
+|vauthors=Pauling L, Corey RB |date=Feb 1953
+| title=A proposed structure for the nucleic acids 
+| journal=Proc Natl Acad Sci U S A |volume=39 |issue=2 |pages=84–97 |pmid=16578429 |doi=10.1073/pnas.39.2.84 |pmc=1063734 |bibcode = 1953PNAS...39...84P}}&lt;/ref&gt;
+
+The realization that the structure of DNA is that of a double-helix elucidated the mechanism of [[base pair]]ing by which genetic information is stored and copied in living organisms and is widely considered one of the most important scientific discoveries of the 20th century. Crick, Wilkins, and Watson each received one third of the 1962 [[Nobel Prize in Physiology or Medicine]] for their contributions to the discovery.&lt;ref name="nobel"&gt;{{cite web |title=Nobel Prize - List of All Nobel Laureates |url=http://nobelprize.org/nobel_prizes/lists/all/}}&lt;/ref&gt; (Franklin, whose breakthrough X-ray diffraction data was used to formulate the DNA structure, died in 1958, and thus was ineligible to be nominated for a Nobel Prize.)
+
+==Nucleic acid hybridization==
+
+{{Main|Nucleic acid thermodynamics}}
+Hybridization is the process of [[Complementarity (molecular biology)|complementary]] [[base pair]]s binding to form a double helix. Melting is the process by which the interactions between the strands of the double helix are broken, separating the two nucleic acid strands. These bonds are weak, easily separated by gentle heating, [[enzyme]]s, or mechanical force. Melting occurs preferentially at certain points in the nucleic acid.&lt;ref name="Breslauer1986"&gt;{{cite journal 
+|vauthors=Breslauer KJ, Frank R, Blöcker H, Marky LA |year=1986
+| title=Predicting DNA duplex stability from the base sequence 
+| journal=PNAS |volume=83 |issue=11 |pages=3746–3750 |pmid=3459152 |doi=10.1073/pnas.83.11.3746 |pmc=323600
+| bibcode=1986PNAS...83.3746B}}&lt;/ref&gt; ''T'' and ''A'' rich regions are more easily melted than ''C'' and ''G'' rich regions. Some base steps (pairs) are also susceptible to DNA melting, such as ''T A'' and ''T G''.&lt;ref name="Owczarzy2008"&gt;{{cite web 
+| title=DNA melting temperature - How to calculate it? 
+| url=http://www.owczarzy.net/tm.htm 
+| first=Richard |last=Owczarzy |date=2008-08-28 |work=High-throughput DNA biophysics |publisher=owczarzy.net |accessdate=2008-10-02
+}}&lt;/ref&gt; These mechanical features are reflected by the use of sequences such as ''[[TATA box|TATA]]'' at the start of many genes to assist RNA polymerase in melting the DNA for transcription.
+
+Strand separation by gentle heating, as used in [[polymerase chain reaction]] (PCR), is simple, providing the molecules have fewer than about 10,000 base pairs (10 kilobase pairs, or 10 kbp). The intertwining of the DNA strands makes long segments difficult to separate. The cell avoids this problem by allowing its DNA-melting enzymes ([[helicase]]s) to work concurrently with [[topoisomerase]]s, which can chemically cleave the phosphate backbone of one of the strands so that it can swivel around the other. [[Helicase]]s unwind the strands to facilitate the advance of sequence-reading enzymes such as [[DNA polymerase]].
+
+==Base pair geometry==
+
+[[File:CCF10292011 00000.jpg|thumb|450px|right|Base pair geometries]]
+
+The geometry of a base, or base pair step can be characterized by 6 coordinates: shift, slide, rise, tilt, roll, and twist. These values precisely define the location and orientation in space of every base or base pair in a nucleic acid molecule relative to its predecessor along the axis of the helix. Together, they characterize the helical structure of the molecule. In regions of DNA or RNA where the ''normal'' structure is disrupted, the change in these values can be used to describe such disruption.
+
+For each base pair, considered relative to its predecessor, there are the following base pair geometries to consider:&lt;ref name="Dickerson1989"&gt;{{cite journal 
+| author=Dickerson RE 
+| title=Definitions and nomenclature of nucleic acid structure components 
+| journal=Nucleic Acids Res |volume=17 |issue=5 |pages=1797–1803 |year=1989 |pmid=2928107 |doi=10.1093/nar/17.5.1797 |pmc=317523
+}}&lt;/ref&gt;&lt;ref name="Lu1999"&gt;{{cite journal 
+|vauthors=Lu XJ, Olson WK | title=Resolving the discrepancies among nucleic acid conformational analyses 
+| journal=J Mol Biol |volume=285 |issue=4 |pages=1563–1575 |year=1999 |pmid=9917397 |doi=10.1006/jmbi.1998.2390
+}}&lt;/ref&gt;&lt;ref name="Olson2001"&gt;{{cite journal 
+|vauthors=Olson WK, Bansal M, Burley SK, Dickerson RE, Gerstein M, Harvey SC, Heinemann U, Lu XJ, Neidle S, Shakked Z, Sklenar H, Suzuki M, Tung CS, Westhof E, Wolberger C, Berman HM | title=A standard reference frame for the description of nucleic acid base-pair geometry 
+| journal=J Mol Biol |volume=313 |issue=1 |pages=229–237 |year=2001 |pmid=11601858 |doi=10.1006/jmbi.2001.4987
+}}&lt;/ref&gt;
+
+*'''Shear'''
+*'''Stretch'''
+*'''Stagger'''
+*'''Buckle'''
+*'''Propeller''': rotation of one base with respect to the other in the same base pair.
+*'''Opening'''
+*'''Shift''': displacement along an axis in the base-pair plane perpendicular to the first, directed from the minor to the major groove.
+*'''Slide''': displacement along an axis in the plane of the base pair directed from one strand to the other.
+*'''Rise''': displacement along the helix axis.
+*'''Tilt''': rotation around the shift axis.
+*'''Roll''': rotation around the slide axis.
+*'''Twist''': rotation around the rise axis.
+*'''x-displacement'''
+*'''y-displacement'''
+*'''inclination'''
+*'''tip'''
+*'''pitch''': the height per complete turn of the helix.
+
+Rise and twist determine the handedness and pitch of the helix. The other coordinates, by contrast, can be zero. Slide and shift are typically small in B-DNA, but are substantial in A- and Z-DNA. Roll and tilt make successive base pairs less parallel, and are typically small.
+
+Note that "tilt" has often been used differently in the scientific literature, referring to the deviation of the first, inter-strand base-pair axis from perpendicularity to the helix axis. This corresponds to slide between a succession of base pairs, and in helix-based coordinates is properly termed "inclination".
+
+==Helix geometries==
+At least three DNA conformations are believed to be found in nature, [[A-DNA]], B-DNA, and [[Z-DNA]]. The ''B'' form described by [[James Watson]] and [[Francis Crick]] is believed to predominate in cells.&lt;ref name=Richmond2003&gt;{{cite journal 
+|author=Richmond 
+|title=The structure of DNA in the nucleosome core 
+|journal=Nature |volume=423 |pages=145–150 |year=2003 |pmid= 12736678 |doi=10.1038/nature01595 |last2=Davey |first2=CA |issue=6936
+|bibcode = 2003Natur.423..145R |display-authors=etal}}&lt;/ref&gt; It is 23.7 [[Ångström|Å]] wide and extends 34 Å per 10 [[Base pair|bp]] of sequence. The double helix makes one complete turn about its axis every 10.4–10.5 base pairs in solution. This frequency of twist (termed the helical ''pitch'') depends largely on stacking forces that each base exerts on its neighbours in the chain. The [[absolute configuration]] of the bases determines the direction of the helical curve for a given conformation.
+
+A-DNA and Z-DNA differ significantly in their geometry and dimensions to B-DNA, although still form helical structures. It was long thought that the A form only occurs in dehydrated samples of DNA in the laboratory, such as those used in [[crystallography|crystallographic]] experiments, and in hybrid pairings of DNA and [[RNA]] strands, but DNA dehydration does occur [[in vivo]], and [[A-DNA#Biological function|A-DNA is now known to have biological functions]]. Segments of DNA that cells have [[methylation|methylated]] for regulatory purposes may adopt the Z geometry, in which the strands turn about the helical axis the opposite way to A-DNA and B-DNA. There is also evidence of protein-DNA complexes forming Z-DNA structures.
+
+{{see also|Nucleic acid tertiary structure}}
+Other conformations are possible; A-DNA, B-DNA, [[C-DNA]], E-DNA,&lt;ref name=Vargason2000&gt;{{cite journal 
+|vauthors=Vargason JM, Eichman BF, Ho PS |title=The extended and eccentric E-DNA structure induced by cytosine methylation or bromination 
+|journal=Nature Structural Biology |volume=7 |pages=758–761 |year=2000 |doi=10.1038/78985 |pmid=10966645 |issue=9}}
+&lt;/ref&gt; &lt;small&gt;L&lt;/small&gt;-DNA (the [[enantiomer]]ic form of &lt;small&gt;D&lt;/small&gt;-DNA),&lt;ref name="Hayashi2005"&gt;{{cite journal 
+|vauthors=Hayashi G, Hagihara M, Nakatani K | title=Application of L-DNA as a molecular tag 
+| journal=Nucleic Acids Symp Ser (Oxf) |volume=49 |pages=261–262 |year=2005 |pmid=17150733 |doi=10.1093/nass/49.1.261 |issue=1|doi-access=free }}
+&lt;/ref&gt; P-DNA,&lt;ref name="Allemand1998"&gt;{{cite journal 
+|vauthors=Allemand JF, Bensimon D, Lavery R, Croquette V | title=Stretched and overwound DNA forms a Pauling-like structure with exposed bases 
+|journal=PNAS |volume=95 |pages=14152–14157 |year=1998 |pmid=9826669 |doi=10.1073/pnas.95.24.14152 |issue=24 |pmc=24342
+|bibcode = 1998PNAS...9514152A}}&lt;/ref&gt; S-DNA, Z-DNA, etc. have been described so far.&lt;ref&gt;[http://rutchem.rutgers.edu/~xiangjun/3DNA/misc/fiber_model.txt List of 55 fiber structures] {{webarchive|url=https://web.archive.org/web/20070526105110/http://rutchem.rutgers.edu/~xiangjun/3DNA/misc/fiber_model.txt |date=2007-05-26 }}&lt;/ref&gt; In fact, only the letters F, Q, U, V, and Y are {{As of|2011|02|17|alt=now}} available to describe any new DNA structure that may appear in the future.&lt;ref name="Bansal2003"&gt;{{cite journal 
+|author=Bansal M 
+|title=DNA structure: Revisiting the Watson-Crick double helix 
+|journal=Current Science |volume=85 |issue=11 |pages=1556–1563 |year=2003}}
+&lt;/ref&gt;&lt;ref name="Ghosh2003"&gt;{{cite journal 
+|vauthors=Ghosh A, Bansal M | title=A glossary of DNA structures from A to Z 
+| journal=Acta Crystallogr D |volume=59 |issue=4 |pages=620–626 |year=2003 |doi=10.1107/S0907444903003251 |pmid=12657780}}
+&lt;/ref&gt; However, most of these forms have been created synthetically and have not been observed in naturally occurring biological systems.{{Citation needed|date=October 2008}} There are also [[triple-stranded DNA]] forms and quadruplex forms such as the [[G-quadruplex]] and the [[i-motif]].
+
+[[File:Dnaconformations.png|thumb|right|250px|The structures of A-, B-, and Z-DNA.]]
+[[File:B&amp;Z&amp;A DNA formula.jpg|thumb|right|250px|The helix axis of A-, B-, and Z-DNA.]]
+{| class="wikitable"
+|+ Structural features of the three major forms of DNA&lt;ref name="Rich1984"&gt;{{cite journal 
+|vauthors=Rich A, Norheim A, Wang AH |title=The chemistry and biology of left-handed Z-DNA 
+|journal=Annual Review of Biochemistry 
+|volume=53 |pages=791–846 |year=1984 
+|pmid=6383204 |doi=10.1146/annurev.bi.53.070184.004043 
+}}&lt;/ref&gt;&lt;ref name="Sinden1994"&gt;{{cite book 
+| title=DNA structure and function 
+| last=Sinden 
+| first=Richard R 
+| date=1994-01-15 
+| publisher=Academic Press 
+| edition=1st 
+| isbn=0-12-645750-6 
+| pages=398
+}}&lt;/ref&gt;&lt;ref name="pmid7937803"&gt;{{cite journal 
+| author=Ho PS 
+| title=The non-B-DNA structure of d(CA/TG)n does not differ from that of Z-DNA 
+| journal=Proc Natl Acad Sci USA |date=1994-09-27 |volume=91 |issue=20 |pages=9549–9553 
+| pmid=7937803 |pmc=44850 |doi=10.1073/pnas.91.20.9549
+|bibcode = 1994PNAS...91.9549H}}&lt;/ref&gt;
+!Geometry attribute
+!A-DNA
+!B-DNA
+!Z-DNA
+|-
+|Helix sense ||align="center"| right-handed ||align="center"| right-handed ||align="center"| left-handed
+|-
+|Repeating unit ||align="right"| 1 bp ||align="right"| 1 bp ||align="right"| 2 bp
+|-
+|Rotation/bp ||align="right"| 32.7° ||align="right"| 34.3° ||align="right"| 60°/2
+|-
+|bp/turn ||align="right"| 11 ||align="right"| 10.5 ||align="right"| 12
+|-
+|Inclination of bp to axis ||align="right"| +19° ||align="right"| −1.2° ||align="right"| −9°
+|-
+|Rise/bp along axis ||align="right"| 2.3 Å (0.23&amp;nbsp;nm)||align="right"| 3.32 Å (0.332&amp;nbsp;nm)||align="right"| 3.8 Å (0.38&amp;nbsp;nm)
+|-
+|Pitch/turn of helix ||align="right"| 28.2 Å (2.82&amp;nbsp;nm)||align="right"| 33.2 Å (3.32&amp;nbsp;nm)||align="right"| 45.6 Å (4.56&amp;nbsp;nm)
+|-
+|Mean propeller twist ||align="right"| +18° ||align="right"| +16° ||align="right"| 0°
+|-
+|Glycosyl angle ||align="center"| anti ||align="center"| anti ||align="center"| C: anti,&lt;br&gt; G: syn 
+|-
+|[[ring pucker|Sugar pucker]] ||align="center"| C3'-endo ||align="center"| C2'-endo ||align="center"| C: C2'-endo,&lt;br&gt;G: C2'-exo
+|-
+|Diameter ||align="right"| 23 Å (2.3&amp;nbsp;nm)||align="right"| 20 Å (2.0&amp;nbsp;nm)||align="right"| 18 Å (1.8&amp;nbsp;nm)
+|}
+
+===Grooves===
+[[File:DNA-ligand-by-Abalone.png|thumb|Major and minor grooves of DNA. Minor groove is a binding site for the dye [[Hoechst stain|Hoechst 33258]].]]
+
+Twin helical strands form the DNA backbone. Another double helix may be found by tracing the spaces, or grooves, between the strands. These voids are adjacent to the base pairs and may provide a [[binding site]]. As the strands are not directly opposite each other, the grooves are unequally sized. One groove, the major groove, is 22&amp;nbsp;Å wide and the other, the minor groove, is 12&amp;nbsp;Å wide.&lt;ref&gt;{{cite journal |vauthors=Wing R, Drew H, Takano T, Broka C, Tanaka S, Itakura K, Dickerson R |title=Crystal structure analysis of a complete turn of B-DNA |journal=Nature |volume=287 |issue=5784 |pages=755–8 |year=1980 |pmid=7432492 |doi=10.1038/287755a0|bibcode = 1980Natur.287..755W}}&lt;/ref&gt; The narrowness of the minor groove means that the edges of the bases are more accessible in the major groove. As a result, proteins like [[transcription factor]]s that can bind to specific sequences in double-stranded DNA usually make contacts to the sides of the bases exposed in the major groove.&lt;ref name="Pabo1984" /&gt; This situation varies in unusual conformations of DNA within the cell ''(see below)'', but the major and minor grooves are always named to reflect the differences in size that would be seen if the DNA is twisted back into the ordinary B form.
+
+===Non-double helical forms===
+Alternative [[Non-helical models of DNA structure|non-helical models]] were briefly considered in the late 1970s as a potential solution to problems in [[DNA replication]] in [[plasmid]]s and [[chromatin]]. However, the models were set aside in favor of the double-helical model due to subsequent experimental advances such as [[X-ray crystallography]] of DNA duplexes and later the [[nucleosome core particle]], and the discovery of [[topoisomerase]]s. Also, the non-double-helical models are not currently accepted by the mainstream scientific community.&lt;ref&gt;{{cite journal|last=Stokes|first=T. D.|title=The double helix and the warped zipper—an exemplary tale|journal=Social Studies of Science|year=1982|volume=12|issue=2|pages=207–240|doi=10.1177/030631282012002002|pmid=11620855}}&lt;/ref&gt;&lt;ref&gt;{{cite journal|last=Gautham|first=N.|title=Response to 'Variety in DNA secondary structure'|journal=Current Science|date=25 May 2004|volume=86|issue=10|pages=1352&amp;ndash;1353|url=http://cs-test.ias.ac.in/cs/Downloads/article_37537.pdf|accessdate=25 May 2012|quote=However, the discovery of topoisomerases took "the sting" out of the topological objection to the plectonaemic double helix. The more recent solution of the single crystal X-ray structure of the nucleosome core particle showed nearly 150 base pairs of the DNA (i.e., about 15 complete turns), with a structure that is in all essential respects the same as the Watson–Crick model. This dealt a death blow to the idea that other forms of DNA, particularly double helical DNA, exist as anything other than local or transient structures.}}{{dead link|date=February 2018 |bot=InternetArchiveBot |fix-attempted=yes }}&lt;/ref&gt;
+
+[[DNA#Sense and antisense|Single-stranded nucleic acids]] (ssDNA) do not adopt a helical formation, and are described by models such as the [[random coil]] or [[worm-like chain]].{{Citation needed|date=January 2013}}
+
+==Bending==
+DNA is a relatively rigid polymer, typically modelled as a [[worm-like chain]]. It has three significant degrees of freedom; bending, twisting, and compression, each of which cause certain limits on what is possible with DNA within a cell. Twisting-torsional stiffness is important for the circularisation of DNA and the orientation of DNA bound proteins relative to each other and bending-axial stiffness is important for DNA wrapping and circularisation and protein interactions. Compression-extension is relatively unimportant in the absence of high tension.
+
+===Persistence length, axial stiffness===
+{{Main|Persistence length}}
+{{Unreferenced section|date=November 2010}}
+{| align="right" class="wikitable"
+|+ Example sequences and their persistence lengths (B DNA){{Citation needed|date=April 2010}}
+! Sequence
+! Persistence length&lt;br /&gt;/ base pairs
+|-
+| Random
+| align="right" | 154±10
+|-
+| (''CA'')&lt;sub&gt;repeat&lt;/sub&gt;
+| align="right" | 133±10
+|-
+| (''CAG'')&lt;sub&gt;repeat&lt;/sub&gt;
+| align="right" | 124±10
+|-
+| (''TATA'')&lt;sub&gt;repeat&lt;/sub&gt;
+| align="right" | 137±10
+|}
+
+DNA in solution does not take a rigid structure but is continually changing conformation due to thermal vibration and collisions with water molecules, which makes classical measures of rigidity impossible to apply. Hence, the bending stiffness of DNA is measured by the persistence length, defined as:
+{{quote|The length of DNA over which the time-averaged orientation of the polymer becomes uncorrelated by a factor of ''e''.{{citation needed|date=April 2018}}}}
+
+This value may be directly measured using an [[atomic force microscope]] to directly image DNA molecules of various lengths. In an aqueous solution, the average persistence length is 46–50&amp;nbsp;nm or 140–150 base pairs (the diameter of DNA is 2&amp;nbsp;nm), although can vary significantly. This makes DNA a moderately stiff molecule.
+
+The persistence length of a section of DNA is somewhat dependent on its sequence, and this can cause significant variation. The variation is largely due to base stacking energies and the residues which extend into the [[minor groove|minor]] and [[major groove]]s.
+
+===Models for DNA bending===
+{| align="right" class="wikitable"
+|+ Stacking stability of base steps (B DNA)&lt;ref name="Protozanova2004"&gt;{{cite journal |vauthors=Protozanova E, Yakovchuk P, Frank-Kamenetskii MD |title=Stacked–Unstacked Equilibrium at the Nick Site of DNA |journal=J Mol Biol |volume=342 |issue=3 |pages=775–785 |year=2004 |pmid=15342236 |doi=10.1016/j.jmb.2004.07.075}}&lt;/ref&gt;
+! Step
+! Stacking ΔG &lt;br /&gt; /kcal mol&lt;sup&gt;−1&lt;/sup&gt;
+|-
+| '''T A'''
+| align="right" | -0.19
+|-
+| '''T G''' or '''C A'''
+| align="right" | -0.55
+|-
+| '''C G'''
+| align="right" | -0.91
+|-
+| '''A G''' or '''C T'''
+| align="right" | -1.06
+|-
+| '''A A''' or '''T T'''
+| align="right" | -1.11
+|-
+| '''A T'''
+| align="right" | -1.34
+|-
+| '''G A''' or '''T C'''
+| align="right" | -1.43
+|-
+| '''C C''' or '''G G'''
+| align="right" | -1.44
+|-
+| '''A C''' or '''G T'''
+| align="right" | -1.81
+|-
+| '''G C'''
+| align="right" | -2.17
+|}
+The entropic flexibility of DNA is remarkably consistent with standard [[polymer physics]] models, such as the ''Kratky-Porod'' [[worm-like chain]] model.{{Citation needed|date=January 2013}} Consistent with the [[worm-like chain]] model is the observation that bending DNA is also described by [[Hooke's law]] at very small (sub-[[Newton (unit)|piconewton]]) forces. However, for DNA segments less than the persistence length, the bending force is approximately constant and behaviour deviates from the worm-like chain predictions.
+
+This effect results in unusual ease in circularising small DNA molecules and a higher probability of finding highly bent sections of DNA.{{Citation needed|date=January 2013}}
+
+===Bending preference===
+DNA molecules often have a preferred direction to bend, i.e., [[anisotropic]] bending. This is, again, due to the properties of the bases which make up the DNA sequence - a random sequence will have no preferred bend direction, i.e., isotropic bending.
+
+Preferred DNA bend direction is determined by the stability of stacking each base on top of the next. If unstable base stacking steps are always found on one side of the DNA helix then the DNA will preferentially bend away from that direction. As bend angle increases then steric hindrances and ability to roll the residues relative to each other also play a role, especially in the minor groove. ''A'' and ''T'' residues will be preferentially be found in the minor grooves on the inside of bends. This effect is particularly seen in DNA-protein binding where tight DNA bending is induced, such as in [[nucleosome]] particles. See base step distortions above.
+
+DNA molecules with exceptional bending preference can become intrinsically bent. This was first observed in [[trypanosoma]]tid [[kinetoplast]] DNA. Typical sequences which cause this contain stretches of 4-6 ''T'' and ''A'' residues separated by ''G'' and ''C'' rich sections which keep the A and T residues in phase with the minor groove on one side of the molecule. For example:
+
+{| style="text-align:center;"
+|   || ¦ ||   ||   ||   ||   ||   ||   ||   ||   ||   ||   ||   ||   ||   ||   ||   ||   ||   ||   || ¦ ||   ||   ||   ||   ||   ||   ||   ||   ||   ||   ||   ||   ||   ||   ||   ||   ||   ||   || ¦ ||   ||   ||   ||   ||   ||   ||   ||   ||   ||   ||   ||   ||   ||   ||   ||   ||   ||   || ¦ ||   ||   ||   ||   ||   ||   ||   ||   ||   ||   ||   ||   ||   ||   ||   ||   ||   ||   || ¦ ||   ||   ||   ||   ||   ||   ||   ||   ||   ||   ||   ||   ||   ||   ||   ||   ||   ||   || ¦
+|- 
+| G ||   || A ||   || T ||   || T ||   || C ||   || C ||   || C ||   || A ||   || A ||   || A ||   || A ||   || A ||   || T ||   || G ||   || T ||   || C ||   || A ||   || A ||   || A ||   || A ||   || A ||   || A ||   || T ||   || A ||   || G ||   || G ||   || C ||   || A ||   || A ||   || A ||   || A ||   || A ||   || A ||   || T ||   || G ||   || C ||   || C ||   || A ||   || A ||   || A ||   || A ||   || A ||   || A ||   || T ||   || C ||   || C ||   || C ||   || A ||   || A ||   || A ||   || C 
+|}
+The intrinsically bent structure is induced by the 'propeller twist' of base pairs relative to each other allowing unusual bifurcated Hydrogen-bonds between base steps. At higher temperatures this structure is denatured, and so the intrinsic bend, is lost.
+
+All DNA which bends anisotropically has, on average, a longer persistence length and greater axial stiffness. This increased rigidity is required to prevent random bending which would make the molecule act isotropically.
+
+===Circularization===
+DNA circularization depends on both the axial (bending) stiffness and torsional (rotational) stiffness of the molecule. For a DNA molecule to successfully circularize it must be long enough to easily bend into the full circle and must have the correct number of bases so the ends are in the correct rotation to allow bonding to occur. The optimum length for circularization of DNA is around 400 base pairs (136&amp;nbsp;nm){{Citation needed|date=December 2017}}, with an integral number of turns of the DNA helix, i.e., multiples of 10.4 base pairs. Having a non integral number of turns presents a significant energy barrier for circularization, for example a 10.4 x 30 = 312 base pair molecule will circularize hundreds of times faster than 10.4 x 30.5 ≈ 317 base pair molecule.&lt;ref&gt;{{cite journal |doi= 10.1016/j.cub.2005.05.007 |volume=15 |issue=10 |title=DNA Dynamics: Bubble 'n' Flip for DNA Cyclisation? |journal=Current Biology |pages=R377–R379|year=2005 |last1=Travers |first1=Andrew |pmid=15916938 }}&lt;/ref&gt;
+
+==Stretching==
+
+===Elastic stretching regime===
+
+Longer stretches of DNA are entropically elastic under tension. When DNA is in solution, it undergoes continuous structural variations due to the energy available in the [[Thermal bath (thermodynamics)|thermal bath]] of the solvent. This is due to the thermal vibration of the molecule combined with continual collisions with water molecules. For [[Entropy|entropic]] reasons, more compact relaxed states are thermally accessible than stretched out states, and so DNA molecules are almost universally found in a tangled relaxed layouts. For this reason, one molecule of DNA will stretch under a force, straightening it out. Using [[optical tweezers]], the entropic stretching behavior of DNA has been studied and analyzed from a [[polymer physics]] perspective, and it has been found that DNA behaves largely like the ''Kratky-Porod'' [[worm-like chain]] model under physiologically accessible energy scales.
+
+===Phase transitions under stretching===
+
+Under sufficient tension and positive torque, DNA is thought to undergo a [[phase transition]] with the bases splaying outwards and the phosphates moving to the middle. This proposed structure for overstretched DNA has been called ''P-form DNA'', in honor of [[Linus Pauling]] who originally presented it as a possible structure of DNA.&lt;ref name="Allemand1998" /&gt;
+
+Evidence from mechanical stretching of DNA in the absence of imposed torque points to a transition or transitions leading to further structures which are generally referred to as ''S-form DNA''.  These structures have not yet been definitively characterised due to the difficulty of carrying out atomic-resolution imaging in solution while under applied force although many computer simulation studies have been made  (for example,&lt;ref name="Konrad1996"&gt;{{cite journal |vauthors=Konrad MW, Bolonick JW |title=Molecular dynamics simulation of DNA stretching is consistent with the tension observed for extension and strand separation and predicts a novel ladder structure. |journal=Journal of the American Chemical Society |volume=118 |issue=45 |pages=10989–10994 |year=1996 |doi=10.1021/ja961751x}}&lt;/ref&gt;&lt;ref name="Roe2009"&gt;{{cite journal |vauthors=Roe DR, Chaka AM |title=Structural basis of pathway-dependent force profiles in stretched DNA. |journal=Journal of Physical Chemistry B |volume=113 |issue=46 |pages=15364–15371 |year=2009 |doi=10.1021/jp906749j |pmid=19845321}}&lt;/ref&gt;).
+
+Proposed S-DNA structures include those which preserve base-pair stacking and hydrogen bonding (GC-rich), while releasing extension by tilting, as well as structures in which partial melting of the base-stack takes place, while base-base association is nonetheless overall preserved (AT-rich).
+
+Periodic fracture of the base-pair stack with a break occurring once per three bp (therefore one out of every three bp-bp steps) has been proposed as a regular structure which preserves planarity of the base-stacking and releases the appropriate amount of extension,&lt;ref name="Bosaeus2017"&gt;{{cite journal |vauthors=Bosaeus N, Reymer A, Beke-Somfai T, Brown T, Takahashi M, Wittung-Stafshede P, Rocha S, Nordén B  |title=A stretched conformation of DNA with a biological role? |journal=Quarterly Reviews of Biophysics |volume=50  |year=2017 |pages=e11 |doi=10.1017/S0033583517000099|pmid=29233223 |doi-access=free }}&lt;/ref&gt; with the term "Σ-DNA" introduced as a mnemonic, with the three right-facing points of the Sigma character serving as a reminder of the three grouped base pairs. The Σ form has been shown to have a sequence preference for GNC motifs which are believed under the [[GNC hypothesis]] to be of evolutionary importance.&lt;ref name="Taghavi2017"&gt;{{cite journal |vauthors=Taghavi A, van Der Schoot P, Berryman JT |title=DNA partitions into triplets under tension in the presence of organic cations, with sequence evolutionary age predicting the stability of the triplet phase |journal=Quarterly Reviews of Biophysics |volume=50  |year=2017 |doi=10.1017/S0033583517000130|pmid=29233227 |doi-access=free }}&lt;/ref&gt;
+
+==Supercoiling and topology==
+{{Main|DNA supercoil}}
+[[File:Circular DNA Supercoiling.png|thumb|right|Supercoiled structure of circular DNA molecules with low writhe. The helical aspect of the DNA duplex is omitted for clarity.]]
+
+The B form of the DNA helix twists 360° per 10.4-10.5 bp in the absence of torsional strain. But many molecular biological processes can induce torsional strain. A DNA segment with excess or insufficient helical twisting is referred to, respectively, as positively or negatively ''[[supercoil]]ed''. DNA ''in vivo'' is typically negatively supercoiled, which facilitates the unwinding (melting) of the double-helix required for RNA [[Transcription (genetics)|transcription]].
+
+Within the cell most DNA is topologically restricted. DNA is typically found in closed loops (such as [[plasmid]]s in prokaryotes) which are topologically closed, or as very long molecules whose diffusion coefficients produce effectively topologically closed domains. Linear sections of DNA are also commonly bound to proteins or physical structures (such as membranes) to form closed topological loops.
+
+[[Francis Crick]] was one of the first to propose the importance of linking numbers when considering DNA supercoils. In a paper published in 1976, Crick outlined the problem as follows:
+&lt;blockquote&gt;
+In considering supercoils formed by closed double-stranded molecules of DNA certain mathematical concepts, such as the linking number and the twist, are needed. The meaning of these for a closed ribbon is explained and also that of the writhing number of a closed curve. Some simple examples are given, some of which may be relevant to the structure of chromatin.&lt;ref name=Crick1976&gt;{{cite journal |author=Crick FH |title=Linking numbers and nucleosomes |journal=Proc Natl Acad Sci USA |volume=73 |issue=8 |pages=2639–43 |year=1976 |pmid=1066673 |doi=10.1073/pnas.73.8.2639 |pmc=430703 |bibcode = 1976PNAS...73.2639C}}&lt;/ref&gt;
+&lt;/blockquote&gt;
+
+Analysis of DNA topology uses three values:
+*''L'' = linking number - the number of times one DNA strand wraps around the other. It is an integer for a closed loop and constant for a closed topological domain.
+*''T'' = twist - total number of turns in the double stranded DNA helix. This will normally tend to approach the number of turns that a topologically open double stranded DNA helix makes free in solution: number of bases/10.5, assuming there are no [[intercalation (biochemistry)|intercalating]] agents (e.g., [[ethidium bromide]]) or other elements modifying the stiffness of the DNA.
+*''W'' = writhe - number of turns of the double stranded DNA helix around the superhelical axis
+*''L'' = ''T'' + ''W'' and Δ''L'' = Δ''T'' + Δ''W''
+Any change of T in a closed topological domain must be balanced by a change in W, and vice versa. This results in higher order structure of DNA. A circular DNA molecule with a writhe of 0 will be circular. If the twist of this molecule is subsequently increased or decreased by supercoiling then the writhe will be appropriately altered, making the molecule undergo plectonemic or toroidal superhelical coiling.
+
+When the ends of a piece of double stranded helical DNA are joined so that it forms a circle the strands are [[knot theory|topologically knotted]]. This means the single strands cannot be separated any process that does not involve breaking a strand (such as heating). The task of un-knotting topologically linked strands of DNA falls to enzymes termed [[topoisomerase]]s. These enzymes are dedicated to un-knotting circular DNA by cleaving one or both strands so that another double or single stranded segment can pass through. This un-knotting is required for the replication of circular DNA and various types of [[Genetic recombination|recombination]] in linear DNA which have similar topological constraints.
+
+===The linking number paradox===
+For many years, the origin of residual supercoiling in eukaryotic genomes remained unclear. This topological puzzle was referred to by some as the "linking number paradox".&lt;ref name=Prunell1998&gt;{{cite journal
+| author=Prunell A
+| title=A topological approach to nucleosome structure and dynamics: the linking number paradox and other issues
+| journal=Biophys J |volume=74 |issue=5 |pages=2531–2544 |year=1998
+| pmid=9591679 |pmc=1299595 |doi=10.1016/S0006-3495(98)77961-5 | bibcode=1998BpJ....74.2531P
+}}&lt;/ref&gt; However, when experimentally determined structures of the [[nucleosome]] displayed an over-twisted left-handed wrap of DNA around the [[histone]] octamer,&lt;ref name="Luger1997"&gt;{{cite journal
+|vauthors=Luger K, Mader AW, Richmond RK, Sargent DF, Richmond TJ | title=Crystal structure of the nucleosome core particle at 2.8 A resolution
+|journal=Nature |volume=389 |issue=6648 |pages=251–260 |year=1997
+|pmid=9305837 |doi=10.1038/38444
+|bibcode = 1997Natur.389..251L}}&lt;/ref&gt;&lt;ref name="Davey2002"&gt;{{cite journal
+|vauthors=Davey CA, Sargent DF, Luger K, Maeder AW, Richmond TJ | title=Solvent mediated interactions in the structure of the nucleosome core particle at 1.9 Å resolution
+| journal=Journal of Molecular Biology |volume=319 |issue=5 |pages=1097–1113 |year=2002
+| pmid=12079350 |doi=10.1016/S0022-2836(02)00386-8
+}}&lt;/ref&gt; this ''paradox'' was considered to be solved by the scientific community.
+
+==See also==
+{{Commons category|DNA helix-structures}}
+*[[Triple-stranded DNA]]
+*[[G-quadruplex]]
+*[[DNA nanotechnology]]
+*[[Molecular models of DNA]]
+*[[Molecular structure of Nucleic Acids]] (publication)
+*[[Comparison of nucleic acid simulation software]]
+
+==References==
+&lt;!-- JMolBiol143:49; JMolBiol300:891 --&gt;
+{{Reflist|2}}
+
+{{Biomolecular structure}}
+
+[[Category:DNA]]
+[[Category:Biophysics]]
+[[Category:Molecular geometry|Molecular structure]]
+[[Category:Helices]]</text>
+      <sha1>527rje93nti0ka3u1y6ifvdmaitj06i</sha1>
+    </revision>
+  </page>
+</mediawiki>

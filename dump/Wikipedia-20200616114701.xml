@@ -1,0 +1,222 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.10/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.10/ http://www.mediawiki.org/xml/export-0.10.xsd" version="0.10" xml:lang="en">
+  <siteinfo>
+    <sitename>Wikipedia</sitename>
+    <dbname>enwiki</dbname>
+    <base>https://en.wikipedia.org/wiki/Main_Page</base>
+    <generator>MediaWiki 1.35.0-wmf.36</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Media</namespace>
+      <namespace key="-1" case="first-letter">Special</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Talk</namespace>
+      <namespace key="2" case="first-letter">User</namespace>
+      <namespace key="3" case="first-letter">User talk</namespace>
+      <namespace key="4" case="first-letter">Wikipedia</namespace>
+      <namespace key="5" case="first-letter">Wikipedia talk</namespace>
+      <namespace key="6" case="first-letter">File</namespace>
+      <namespace key="7" case="first-letter">File talk</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki talk</namespace>
+      <namespace key="10" case="first-letter">Template</namespace>
+      <namespace key="11" case="first-letter">Template talk</namespace>
+      <namespace key="12" case="first-letter">Help</namespace>
+      <namespace key="13" case="first-letter">Help talk</namespace>
+      <namespace key="14" case="first-letter">Category</namespace>
+      <namespace key="15" case="first-letter">Category talk</namespace>
+      <namespace key="100" case="first-letter">Portal</namespace>
+      <namespace key="101" case="first-letter">Portal talk</namespace>
+      <namespace key="108" case="first-letter">Book</namespace>
+      <namespace key="109" case="first-letter">Book talk</namespace>
+      <namespace key="118" case="first-letter">Draft</namespace>
+      <namespace key="119" case="first-letter">Draft talk</namespace>
+      <namespace key="446" case="first-letter">Education Program</namespace>
+      <namespace key="447" case="first-letter">Education Program talk</namespace>
+      <namespace key="710" case="first-letter">TimedText</namespace>
+      <namespace key="711" case="first-letter">TimedText talk</namespace>
+      <namespace key="828" case="first-letter">Module</namespace>
+      <namespace key="829" case="first-letter">Module talk</namespace>
+      <namespace key="2300" case="first-letter">Gadget</namespace>
+      <namespace key="2301" case="first-letter">Gadget talk</namespace>
+      <namespace key="2302" case="case-sensitive">Gadget definition</namespace>
+      <namespace key="2303" case="case-sensitive">Gadget definition talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Dilution of precision (navigation)</title>
+    <ns>0</ns>
+    <id>1021510</id>
+    <revision>
+      <id>954726021</id>
+      <parentid>954717074</parentid>
+      <timestamp>2020-05-04T00:09:04Z</timestamp>
+      <contributor>
+        <username>HopsonRoad</username>
+        <id>3672900</id>
+      </contributor>
+      <minor/>
+      <comment>Undid revision 954717074 by [[Special:Contributions/Hi im MaLwArE|Hi im MaLwArE]] ([[User talk:Hi im MaLwArE|talk]]) No verbs, no periods</comment>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="14256" xml:space="preserve">'''Dilution of precision''' ('''DOP'''), or '''geometric dilution of precision''' ('''GDOP'''), is a term used in [[satellite navigation]] and [[geomatics engineering]] to specify the Error propagation as a mathematical effect of navigation satellite geometry on positional measurement precision.
+
+[[Image:Geometric Dilution Of Precision.svg|right|thumb|Understanding the Geometric Dilution of Precision (GDOP) with a simple example. In '''A''' someone has measured the distance to two landmarks, and plotted their point as the intersection of two circles with the measured radius. In '''B''' the measurement has some error bounds, and their true location will lie anywhere in the green area. In '''C''' the measurement error is the same, but the error on their position has grown considerably due to the arrangement of the landmarks.]]
+
+[[Image:Bad gdop.png|right|thumb|Navigation satellites with poor geometry for Geometric Dilution of Precision (GDOP).]]
+
+[[Image:Good gdop.png|right|thumb|Navigation satellites with good geometry for Geometric Dilution of Precision (GDOP).]]
+
+==Introduction==
+The concept of dilution of precision (DOP) originated with users of the [[Loran-C|Loran-C navigation system]].&lt;ref&gt;{{cite web 
+ | url = http://gauss.gge.unb.ca/papers.pdf/gpsworld.may99.pdf
+ | title = Dilution of Precision
+ | author = Richard B. Langley
+ | work = GPS World
+ | date = May 1999
+ | accessdate = 2011-10-12
+}}&lt;/ref&gt; The idea of Geometric DOP is to state how errors in the measurement will affect the final state estimation. This can be defined as:&lt;ref&gt;{{cite book
+  | last1 = Dudek
+  | first1 = Gregory
+  | authorlink1 = Gregory Dudek
+  | last2 = Jenkin
+  | first2 = Michael
+  | title = Computational Principles of Mobile Robotics
+  | url = https://archive.org/details/computationalpri0000dude
+  | url-access = registration
+  | publisher = [[Cambridge University Press]]
+  | year = 2000
+  | isbn = 0-521-56876-5
+}}
+&lt;/ref&gt;
+
+&lt;math&gt;GDOP=\frac{\Delta ( {\rm Output \ Location} )}{\Delta ( {\rm Measured \ Data} )}&lt;/math&gt;
+
+Conceptually you can geometrically imagine errors on a measurement resulting in the &lt;math&gt;\Delta ( {\rm Measured \ Data} )&lt;/math&gt; term changing. Ideally small changes in the measured data will not result in large changes in output location.  The opposite of this ideal is the situation where the solution is very sensitive to measurement errors. The interpretation of this formula is shown in the figure to the right, showing two possible scenarios with acceptable and poor GDOP.
+
+More recently, the term has come into much wider usage with the development and adoption of GPS. Neglecting ionospheric &lt;ref&gt;{{cite web
+ |url          = http://www.insidegnss.com/node/1579
+ |title        = GNSS and Ionospheric Scintillation: How to Survive the Next Solar Maximum
+ |author       = Paul Kintner, Cornell University
+ |author2      = Todd Humphreys
+ |author3      = University of Texas-Austin
+ |author4      = Joanna Hinks
+ |author5      = Cornell University
+ |work         = [[Inside GNSS]]
+ |date         = July–August 2009
+ |accessdate   = 2011-10-12
+ |archive-url  = https://web.archive.org/web/20111106011219/http://www.insidegnss.com/node/1579
+ |archive-date = 2011-11-06
+ |url-status   = dead
+}}&lt;/ref&gt; and tropospheric&lt;ref&gt;[http://www.trimble.com/gps_tutorial/howgps-error.aspx GPS errors (Trimble tutorial)]&lt;/ref&gt; effects, the signal from navigation satellites has a fixed precision. Therefore, the relative satellite-receiver geometry plays a major role in determining the precision of estimated positions and times.  Due to the relative geometry of any given satellite to a receiver, the precision in the [[pseudorange]] of the satellite translates to a corresponding component in each of the four dimensions of position measured by the receiver (i.e., &lt;math&gt;x&lt;/math&gt;, &lt;math&gt;y&lt;/math&gt;, &lt;math&gt;z&lt;/math&gt;, and &lt;math&gt;t&lt;/math&gt;).  The precision of multiple satellites in view of a receiver combine according to the relative position of the satellites to determine the level of precision in each dimension of the receiver measurement.  When visible navigation satellites are close together in the sky, the geometry is said to be weak and the DOP value is high; when far apart, the geometry is strong and the DOP value is low.  Consider two overlapping rings, or [[annulus (mathematics)|annuli]], of different centres.  If they overlap at right angles, the greatest extent of the overlap is much smaller than if they overlap in near parallel. Thus a low DOP value represents a better positional precision due to the wider angular separation between the satellites used to calculate a unit's position.  Other factors that can increase the effective DOP are obstructions such as nearby mountains or buildings.
+
+DOP can be expressed as a number of separate measurements:
+* HDOP – horizontal dilution of precision
+* VDOP – vertical dilution of precision
+* PDOP – position (3D) dilution of precision
+* TDOP – time dilution of precision
+* GDOP – geometric dilution of precision
+These values follow mathematically from the positions of the usable satellites. Signal receivers allow the display of these positions (''skyplot'') as well as the DOP values.
+
+The term can also be applied to other location systems that employ several geographical spaced sites.  It can occur in electronic-counter-counter-measures (electronic warfare) when computing the location of enemy emitters (radar jammers and radio communications devices).  Using such an [[interferometry]] technique can provide certain geometric layout where there are degrees of freedom that cannot be accounted for due to inadequate configurations.
+
+The effect of geometry of the satellites on position error is called geometric dilution of precision (GDOP) and it is roughly interpreted as ratio of position error to the range error.  Imagine that a [[square pyramid]] is formed by lines joining four satellites with the receiver at the tip of the pyramid.  The larger the volume of the pyramid, the better (lower) the value of GDOP; the smaller its volume, the worse (higher) the value of GDOP will be.  Similarly, the greater the number of satellites, the better the value of GDOP.
+
+==Meaning of DOP Values {{Citation needed|date=July 2019}}==
+{| class="wikitable"
+|-
+! DOP Value
+! Rating
+! Description
+|-
+|  1
+| Ideal
+| Highest possible confidence level to be used for applications demanding the highest possible precision at all times.
+|-
+| 1-2
+| Excellent
+| At this confidence level, positional measurements are considered accurate enough to meet all but the most sensitive applications.
+|-
+| 2-5
+| Good
+| Represents a level that marks the minimum appropriate for making accurate decisions. Positional measurements could be used to make reliable in-route navigation suggestions to the user.
+|-
+| 5-10
+| Moderate
+| Positional measurements could be used for calculations, but the fix quality could still be improved. A more open view of the sky is recommended.
+|-
+| 10-20
+| Fair
+| Represents a low confidence level. Positional measurements should be discarded or used only to indicate a very rough estimate of the current location.
+|-
+| &gt;20
+| Poor
+| At this level, measurements are inaccurate by as much as 300 meters with a 6-meter accurate device (50 DOP × 6 meters) and should be discarded.
+|}
+
+The DOP factors are functions of the diagonal elements of the [[covariance matrix]] of the parameters, expressed either in a global or a local geodetic frame.
+
+==Computation of DOP Values==
+As a first step in computing DOP, consider the unit vectors from the receiver to satellite i: &lt;math&gt;\left(\frac {(x_i-x)} {R_i}, \frac {(y_i-y)} {R_i}, \frac {(z_i-z)} {R_i}\right)&lt;/math&gt; where &lt;math&gt;R_i= \sqrt{(x_i- x)^2 + (y_i-y)^2 + (z_i-z)^2}&lt;/math&gt; and where &lt;math&gt;x,y&lt;/math&gt; and &lt;math&gt;z&lt;/math&gt; denote the position of the receiver and &lt;math&gt;x_i, y_i&lt;/math&gt; and &lt;math&gt;z_i&lt;/math&gt; denote the position of satellite i. Formulate the matrix, A, which (for 4 range measurement residual equations) is:
+:&lt;math&gt;A = 
+\begin{bmatrix}
+\frac {(x_1- x)} {R_1} &amp; \frac {(y_1-y)} {R_1} &amp; \frac {(z_1-z)} {R_1} &amp; -1 \\
+\frac {(x_2- x)} {R_2} &amp; \frac {(y_2-y)} {R_2} &amp; \frac {(z_2-z)} {R_2} &amp; -1 \\
+\frac {(x_3- x)} {R_3} &amp; \frac {(y_3-y)} {R_3} &amp; \frac {(z_3-z)} {R_3} &amp; -1 \\
+\frac {(x_4- x)} {R_4} &amp; \frac {(y_4-y)} {R_4} &amp; \frac {(z_4-z)} {R_4} &amp; -1
+\end{bmatrix}
+&lt;/math&gt;
+The first three elements of each row of ''A'' are the components of a unit vector from the receiver to the indicated satellite.  If the elements in the fourth column are ''c'' which denotes the [[speed of light]] then the &lt;math&gt;\sigma_{t}&lt;/math&gt; factor (time dilution) is always 1. If the elements in the fourth column are ''-1'' then the &lt;math&gt;\sigma_{t}&lt;/math&gt; factor is calculated properly.&lt;ref&gt;http://www.colorado.edu/geography/gcraft/notes/gps/gif/gdop.gif&lt;/ref&gt;  Formulate the matrix, ''Q'', as:
+:&lt;math&gt;Q = \left (A^T A \right )^{-1}
+&lt;/math&gt;
+
+In general: &lt;math&gt; Q=(J_x^T(J_d C_d J_d^T)^{-1}J_x)^{-1}&lt;/math&gt; where &lt;math&gt;J_x&lt;/math&gt; is the Jacobian of the sensor measurement residual equations &lt;math&gt;f_i(\underline{x},\underline{d})=0&lt;/math&gt;, with respect to the unknowns, &lt;math&gt;\underline{x}&lt;/math&gt;; &lt;math&gt;J_d&lt;/math&gt; is the Jacobian of the sensor measurement residual equations with respect to the measured quantities &lt;math&gt;\underline{d}&lt;/math&gt;, and &lt;math&gt;C_d&lt;/math&gt; is the correlation matrix for noise in the measured quantities.  For the preceding case of 4 range measurement residual equations: &lt;math&gt;\underline{x}=(x,y,z,\tau)^{T}&lt;/math&gt;, &lt;math&gt;\underline{d}=(\tau_1,\tau_2,\tau_3,\tau_4)^T&lt;/math&gt;, &lt;math&gt;\tau=c t&lt;/math&gt;, &lt;math&gt;\tau_i=c t_i&lt;/math&gt;, &lt;math&gt;R_i=|\tau_i-\tau|=\sqrt{(\tau_i-\tau)^2}&lt;/math&gt;, &lt;math&gt; f_i(\underline{x},\underline{d})=\sqrt{(x_i - x)^2 + (y_i - y)^2 +(z_i - z)^2}-\sqrt{(\tau_i-\tau)^2} &lt;/math&gt;, &lt;math&gt;J_x=A&lt;/math&gt;, &lt;math&gt;J_d=-I&lt;/math&gt; and the measurement noises for the different &lt;math&gt;\tau_i&lt;/math&gt; have been assumed to be independent which makes &lt;math&gt;C_d=I&lt;/math&gt;.  This formula for Q arises from applying [[best linear unbiased estimator|best linear unbiased estimation]] to a linearized version of the sensor measurement residual equations about the current solution &lt;math&gt;\Delta\underline{x}=-Q*(J_x^T(J_d C_d J_d^T)^{-1} f)&lt;/math&gt;, except in the case of B.L.U.E. &lt;math&gt;C_d&lt;/math&gt; is a noise covariance matrix rather than the noise correlation matrix used in DOP, and the reason DOP makes this substitution is to obtain a relative error.  When &lt;math&gt;C_d&lt;/math&gt; is a noise covariance matrix, &lt;math&gt;Q&lt;/math&gt; is an estimate of the matrix of covariance of noise in the unknowns due to the noise in the measured quantities.  It is the estimate obtained by the [[First-order second-moment method|First Order Second Moment]] (F.O.S.M.) uncertainty quantification technique which was state of the art in the 1980s. In order for the F.O.S.M. theory to be strictly applicable, either the input noise distributions need to be Gaussian or the measurement noise standard deviations need to be small relative to rate of change in the output near the solution.  In this context, the second criteria is typically the one that is satisfied.
+
+This (i.e. for the 4 range measurement residual equations) computation is in accordance with &lt;ref&gt;{{cite web|url=http://www.gmat.unsw.edu.au/snap/gps/gps_survey/chap1/142.htm |title=Section 1.4.2 of ''Principles of Satellite Positioning'' |url-status=dead |archiveurl=https://web.archive.org/web/20081201060630/http://www.gmat.unsw.edu.au/snap/gps/gps_survey/chap1/142.htm |archivedate=December 1, 2008 }}&lt;/ref&gt; where the weighting matrix, &lt;math&gt;P=(J_d C_d J_d^T)^{-1}&lt;/math&gt;, has been set to the identity matrix.
+
+The elements of ''Q'' are designated as:
+:&lt;math&gt;Q = 
+\begin{bmatrix}
+\sigma_x^2    &amp; \sigma_{xy}   &amp; \sigma_{xz}   &amp; \sigma_{xt}   \\
+\sigma_{xy}   &amp; \sigma_{y}^2  &amp; \sigma_{yz}   &amp; \sigma_{yt}   \\
+\sigma_{xz}   &amp; \sigma_{yz}   &amp; \sigma_{z}^2  &amp; \sigma_{zt}   \\
+\sigma_{xt}   &amp; \sigma_{yt}   &amp; \sigma_{zt}   &amp; \sigma_{t}^2
+\end{bmatrix}
+&lt;/math&gt;
+PDOP, TDOP and GDOP are given by:
+
+:&lt;math&gt;\begin{align}
+PDOP &amp;= \sqrt{\sigma_x^2 + \sigma_y^2 + \sigma_z^2}\\
+TDOP &amp;= \sqrt{\sigma_{t}^2}\\
+GDOP &amp;= \sqrt{PDOP^2 + TDOP^2}\\
+\end{align}&lt;/math&gt;
+
+in agreement with [https://web.archive.org/web/20141122153439/http://www.gmat.unsw.edu.au/snap/gps/gps_survey/chap1/149.htm Section 1.4.9 of ''Principles of Satellite Positioning'']. More generally, GDOP is the square root of the trace of the &lt;math&gt;Q&lt;/math&gt; matrix.
+
+The horizontal dilution of precision, &lt;math&gt;\scriptstyle HDOP = \sqrt{\sigma_x^2 + \sigma_y^2}&lt;/math&gt;, and the vertical dilution of precision, &lt;math&gt;\scriptstyle \ VDOP = \sqrt{\sigma_{z}^2} &lt;/math&gt;, are both dependent on the coordinate system used.  To correspond to the local horizon plane and the local vertical, ''x'', ''y'', and ''z'' should denote positions in either a north, east, down coordinate system or an east, north, up coordinate system.
+
+== References ==
+
+=== Notes ===
+{{reflist}}
+
+=== General ===
+{{refbegin}}
+* [http://gauss.gge.unb.ca/papers.pdf/gpsworld.may99.pdf DOP Factors]
+* [http://www.developerfusion.co.uk/show/4652/2/ Writing Your Own GPS Applications: Part 2 - Causes of Precision Error]
+* [http://www.colorado.edu/geography/gcraft/notes/gps/gif/gdop.gif manually calculating GDOP]
+* [https://web.archive.org/web/20140222000521/http://www.crowtracker.com/hdop-gps-position-errors/ HDOP AND GPS HORIZONTAL POSITION ERRORS]
+{{refend}}
+
+== External links ==
+* Article on DOP and Trimble's program:  [http://freegeographytools.com/2007/determining-local-gps-satellite-geometry-effects-on-position-accuracy Determining Local GPS Satellite Geometry Effects On Position Accuracy].
+* Notes &amp; [[GIF]] image on manually calculating GDOP: [https://web.archive.org/web/20050823013233/http://www.colorado.edu/geography/gcraft/notes/gps/gps.html#Gdop Geographer's Craft]
+* GPS Errors &amp; Estimating Your Receiver's Accuracy: [https://web.archive.org/web/20160310132600/http://edu-observatory.org/gps/gps_accuracy.html Sam Wormley's GPS Accuracy Web Page]
+* GPS Accuracy, Errors &amp; Precision: [http://www.radio-electronics.com/info/satellite/gps/accuracy-errors-precision.php Radio-Electronics.com]
+
+{{DEFAULTSORT:Dilution Of Precision (Gps)}}
+[[Category:Global Positioning System]]
+[[Category:Satellite navigation]]</text>
+      <sha1>27rcv9gkfyzh8dpdxmxidzurarhnlhk</sha1>
+    </revision>
+  </page>
+</mediawiki>

@@ -1,0 +1,1157 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.10/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.10/ http://www.mediawiki.org/xml/export-0.10.xsd" version="0.10" xml:lang="en">
+  <siteinfo>
+    <sitename>Wikipedia</sitename>
+    <dbname>enwiki</dbname>
+    <base>https://en.wikipedia.org/wiki/Main_Page</base>
+    <generator>MediaWiki 1.35.0-wmf.36</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Media</namespace>
+      <namespace key="-1" case="first-letter">Special</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Talk</namespace>
+      <namespace key="2" case="first-letter">User</namespace>
+      <namespace key="3" case="first-letter">User talk</namespace>
+      <namespace key="4" case="first-letter">Wikipedia</namespace>
+      <namespace key="5" case="first-letter">Wikipedia talk</namespace>
+      <namespace key="6" case="first-letter">File</namespace>
+      <namespace key="7" case="first-letter">File talk</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki talk</namespace>
+      <namespace key="10" case="first-letter">Template</namespace>
+      <namespace key="11" case="first-letter">Template talk</namespace>
+      <namespace key="12" case="first-letter">Help</namespace>
+      <namespace key="13" case="first-letter">Help talk</namespace>
+      <namespace key="14" case="first-letter">Category</namespace>
+      <namespace key="15" case="first-letter">Category talk</namespace>
+      <namespace key="100" case="first-letter">Portal</namespace>
+      <namespace key="101" case="first-letter">Portal talk</namespace>
+      <namespace key="108" case="first-letter">Book</namespace>
+      <namespace key="109" case="first-letter">Book talk</namespace>
+      <namespace key="118" case="first-letter">Draft</namespace>
+      <namespace key="119" case="first-letter">Draft talk</namespace>
+      <namespace key="446" case="first-letter">Education Program</namespace>
+      <namespace key="447" case="first-letter">Education Program talk</namespace>
+      <namespace key="710" case="first-letter">TimedText</namespace>
+      <namespace key="711" case="first-letter">TimedText talk</namespace>
+      <namespace key="828" case="first-letter">Module</namespace>
+      <namespace key="829" case="first-letter">Module talk</namespace>
+      <namespace key="2300" case="first-letter">Gadget</namespace>
+      <namespace key="2301" case="first-letter">Gadget talk</namespace>
+      <namespace key="2302" case="case-sensitive">Gadget definition</namespace>
+      <namespace key="2303" case="case-sensitive">Gadget definition talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Normal distribution</title>
+    <ns>0</ns>
+    <id>21462</id>
+    <revision>
+      <id>961232831</id>
+      <parentid>959529084</parentid>
+      <timestamp>2020-06-07T09:49:48Z</timestamp>
+      <contributor>
+        <username>InternetArchiveBot</username>
+        <id>27015025</id>
+      </contributor>
+      <comment>Bluelink 2 books for [[Wikipedia:Verifiability|verifiability]] (refca)) #IABot (v2.0.1) ([[User:GreenC bot|GreenC bot]]</comment>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="132344" xml:space="preserve">{{short description|Probability distribution}}
+{{About|the univariate probability distribution|normally distributed vectors|Multivariate normal distribution|normally distributed matrices|Matrix normal distribution}}
+{{redirect|Bell curve}}
+
+{{use mdy dates|date=August 2012}}
+
+{{Probability distribution
+  | name       = Normal distribution
+  | type       = density
+  | pdf_image  = [[File:Normal Distribution PDF.svg|340px|Probability density function for the normal distribution]]&lt;br /&gt;&lt;small&gt;The red curve is the ''standard normal distribution''&lt;/small&gt;
+  | cdf_image  = [[File:Normal Distribution CDF.svg|340px|Cumulative distribution function for the normal distribution]]
+  | notation   = &lt;math&gt;\mathcal{N}(\mu,\sigma^2)&lt;/math&gt;
+  | parameters = &lt;math&gt;\mu\in\R&lt;/math&gt; = mean ([[location parameter|location]])&lt;br /&gt;&lt;math&gt;\sigma^2&gt;0&lt;/math&gt; = variance (squared [[scale parameter|scale]])
+  | support    = &lt;math&gt;x\in\R&lt;/math&gt;
+  | pdf        = &lt;math&gt;\frac{1}{\sigma\sqrt{2\pi}} e^{-\frac{1}{2}\left(\frac{x - \mu}{\sigma}\right)^2}&lt;/math&gt;
+  | cdf        = &lt;math&gt;\frac{1}{2}\left[1 + \operatorname{erf}\left( \frac{x-\mu}{\sigma\sqrt{2}}\right)\right] &lt;/math&gt;
+  | quantile   = &lt;math&gt;\mu+\sigma\sqrt{2} \operatorname{erf}^{-1}(2p-1)&lt;/math&gt;
+  | mean       = &lt;math&gt;\mu&lt;/math&gt;
+  | median     = &lt;math&gt;\mu&lt;/math&gt;
+  | mode       = &lt;math&gt;\mu&lt;/math&gt;
+  | variance   = &lt;math&gt;\sigma^2&lt;/math&gt;
+  | mad        = &lt;math&gt;\sigma\sqrt{2/\pi}&lt;/math&gt;
+  | skewness   = &lt;math&gt;0&lt;/math&gt;
+  | kurtosis   = &lt;math&gt;0&lt;/math&gt; &lt;!-- DO NOT REPLACE THIS WITH THE OLD-STYLE KURTOSIS WHICH IS 3. --&gt;
+  | entropy    = &lt;math&gt;\frac{1}{2} \log(2\pi e\sigma^2)&lt;/math&gt;
+  | mgf        = &lt;math&gt;\exp(\mu t + \sigma^2t^2/2)&lt;/math&gt;
+  | char       = &lt;math&gt;\exp(i\mu t - \sigma^2 t^2/2)&lt;/math&gt;
+  | fisher     = &lt;math&gt;\mathcal{I}(\mu,\sigma) =\begin {pmatrix} 1/\sigma^2 &amp; 0 \\ 0 &amp; 2/\sigma^2\end{pmatrix}&lt;/math&gt; 
+&lt;math&gt;\mathcal{I}(\mu,\sigma^2) =\begin {pmatrix} 1/\sigma^2 &amp; 0 \\ 0 &amp; 1/(2\sigma^4)\end{pmatrix}&lt;/math&gt;
+  | KLDiv = &lt;math&gt;D_\text{KL}(\mathcal{N}_0 \parallel \mathcal{N}_1) = { 1 \over 2 } \left\{ \left( \frac{\sigma_0}{\sigma_1} \right)^2 + \frac{(\mu_1 - \mu_0)^2}{\sigma_1^2} - 1 + 2 \ln {\sigma_1 \over \sigma_0} \right\}&lt;/math&gt;
+}}
+
+In [[probability theory]], a '''normal''' (or '''Gaussian''' or '''Gauss''' or '''Laplace–Gauss''') '''distribution''' is a type of [[continuous probability distribution]] for a [[real number|real-valued]] [[random variable]].  The general form of its [[probability density|probability density function]] is
+:&lt;math&gt;
+f(x) = \frac{1}{\sigma \sqrt{2\pi} } e^{-\frac{1}{2}\left(\frac{x-\mu}{\sigma}\right)^2}
+&lt;/math&gt;
+The parameter &lt;math&gt;\mu&lt;/math&gt; is the [[mean]] or [[expected value|expectation]] of the distribution (and also its [[median]] and [[mode (statistics)|mode]]); and &lt;math&gt;\sigma&lt;/math&gt; is its [[standard deviation]].  The [[variance]] of the distribution is &lt;math&gt;\sigma^2&lt;/math&gt;. A random variable with a Gaussian distribution is said to be '''normally distributed''' and is called a '''normal deviate'''.
+
+Normal distributions are important in [[statistics]] and are often used in the [[natural science|natural]] and [[social science]]s to represent real-valued [[random variable]]s whose distributions are not known.&lt;ref&gt;[http://www.encyclopedia.com/topic/Normal_Distribution.aspx#3 ''Normal Distribution''], Gale Encyclopedia of Psychology&lt;/ref&gt;&lt;ref&gt;{{harvtxt |Casella |Berger |2001 |p=102 }}&lt;/ref&gt; Their importance is partly due to the [[central limit theorem]]. It states that, under some conditions, the average of many samples (observations) of a [[random variable]] with finite [[mean]] and [[variance]] is itself a random variable whose distribution [[convergence in distribution|converges]] to a normal distribution as the number of samples increases. Therefore, physical quantities that are expected to be the sum of many independent processes (such as [[measurement error]]s) often have distributions that are nearly normal.&lt;ref&gt;Lyon, A. (2014). [https://aidanlyon.com/normal_distributions.pdf Why are Normal Distributions Normal?], The British Journal for the Philosophy of Science.&lt;/ref&gt; 
+
+Moreover, Gaussian distributions have some unique properties that are valuable in analytic studies.  For instance, any linear combination of a fixed collection of normal deviates is a normal deviate.  Many results and methods (such as [[propagation of uncertainty]] and [[least squares]] parameter fitting) can be derived analytically in explicit form when the relevant variables are normally distributed.
+
+A normal distribution is sometimes informally called a '''bell curve'''. However, many other distributions are bell-shaped (such as the [[Cauchy distribution|Cauchy]], [[Student's t-distribution|Student's ''t'']], and [[logistic distribution|logistic]] distributions).
+
+== Definitions ==
+
+=== Standard normal distribution ===
+The simplest case of a normal distribution is known as the ''standard normal distribution''. This is a special case when &lt;math&gt;\mu=0&lt;/math&gt; and &lt;math&gt;\sigma =1&lt;/math&gt;, and it is described by this [[probability density function]]:
+
+:&lt;math&gt;
+\varphi(x) = \frac 1{\sqrt{2\pi}}e^{- \frac 12 x^2}
+&lt;/math&gt;
+
+The factor &lt;math&gt;1/\sqrt{2\pi}&lt;/math&gt; in this expression ensures that the total area under the curve &lt;math&gt;\varphi(x)&lt;/math&gt; is equal to one.{{NoteTag|For the proof see [[Gaussian integral]].}} The factor &lt;math&gt;1/2&lt;/math&gt; in the exponent ensures that the distribution has unit variance (i.e., the variance is equal to one), and therefore also unit standard deviation. This function is symmetric around &lt;math&gt;x=0&lt;/math&gt;, where it attains its maximum value &lt;math&gt;1/\sqrt{2\pi}&lt;/math&gt; and has [[inflection point]]s at &lt;math&gt;x=+1&lt;/math&gt; and &lt;math&gt;x=-1&lt;/math&gt;.
+
+Authors differ on which normal distribution should be called the "standard" one. [[Carl Friedrich Gauss]] defined the standard normal as having variance &lt;math&gt;\sigma^2 = 1/2&lt;/math&gt;, that is
+:&lt;math&gt;\varphi(x) = \frac{e^{-x^2}}{\sqrt\pi}&lt;/math&gt;
+
+[[Stephen Stigler|Stigler]]&lt;ref&gt;{{harvtxt |Stigler |1982 }}&lt;/ref&gt; goes even further, defining the standard normal with variance &lt;math&gt;\sigma^2 = 1/(2\pi)&lt;/math&gt;:
+:&lt;math&gt; \varphi(x) = e^{-\pi x^2}&lt;/math&gt;
+
+=== General normal distribution ===
+Every normal distribution is a version of the standard normal distribution whose domain has been stretched by a factor &lt;math&gt;\sigma&lt;/math&gt; (the standard deviation) and then translated by &lt;math&gt;\mu&lt;/math&gt; (the mean value):
+
+:&lt;math&gt;
+f(x \mid \mu, \sigma^2) =\frac 1 \sigma \varphi\left(\frac{x-\mu} \sigma \right)
+&lt;/math&gt;
+
+The probability density must be scaled by &lt;math&gt;1/\sigma&lt;/math&gt; so that the integral is still&amp;nbsp;1.
+
+If &lt;math&gt;Z&lt;/math&gt; is a [[standard normal deviate]], then &lt;math&gt;X=\sigma Z + \mu&lt;/math&gt; will have a normal distribution with expected value &lt;math&gt;\mu&lt;/math&gt; and standard deviation &lt;math&gt;\sigma&lt;/math&gt;. Conversely, if &lt;math&gt;X&lt;/math&gt; is a normal deviate with parameters &lt;math&gt;\mu&lt;/math&gt; and &lt;math&gt;\sigma^2&lt;/math&gt;, then &lt;math&gt;Z=(X-\mu)/\sigma&lt;/math&gt; will have a standard normal distribution. This variate is called the standardized form of &lt;math&gt;X&lt;/math&gt;.
+
+=== Notation ===
+The probability density of the standard Gaussian distribution (standard normal distribution) (with zero mean and unit variance) is often denoted with the Greek letter &lt;math&gt;\phi&lt;/math&gt; ([[phi (letter)|phi]]).&lt;ref&gt;{{harvtxt |Halperin |Hartley |Hoel |1965 |loc=item 7 }}&lt;/ref&gt; The alternative form of the Greek letter phi, &lt;math&gt;\varphi&lt;/math&gt;, is also used quite often.
+
+The normal distribution is often referred to as &lt;math&gt;N(\mu,\sigma^2)&lt;/math&gt; or &lt;math&gt;\mathcal{N}(\mu,\sigma^2)&lt;/math&gt;.&lt;ref&gt;{{harvtxt |McPherson |1990 |p=110 }}&lt;/ref&gt; Thus when a random variable &lt;math&gt;X&lt;/math&gt; is distributed normally with mean &lt;math&gt;\mu&lt;/math&gt; and variance &lt;math&gt;\sigma^2&lt;/math&gt;, one may write
+
+:&lt;math&gt;X \sim \mathcal{N}(\mu,\sigma^2).&lt;/math&gt;
+
+=== Alternative parameterizations ===
+Some authors advocate using the [[precision (statistics)|precision]] &lt;math&gt;\tau&lt;/math&gt; as the parameter defining the width of the distribution, instead of the deviation &lt;math&gt;\sigma&lt;/math&gt; or the variance &lt;math&gt;\sigma^2&lt;/math&gt;. The precision is normally defined as the reciprocal of the variance, &lt;math&gt;1/\sigma^2&lt;/math&gt;.&lt;ref&gt;{{harvtxt |Bernardo |Smith |2000 |page=121 }}&lt;/ref&gt; The formula for the distribution then becomes
+
+:&lt;math&gt;f(x) = \sqrt{\frac\tau{2\pi}} e^{-\tau(x-\mu)^2/2}.&lt;/math&gt;
+
+This choice is claimed to have advantages in numerical computations when &lt;math&gt;\sigma&lt;/math&gt; is very close to zero and simplify formulas in some contexts, such as in the [[Bayesian statistics|Bayesian inference]] of variables with [[multivariate normal distribution]].
+
+Also the reciprocal of the standard deviation &lt;math&gt;\tau^\prime=1/\sigma&lt;/math&gt; might be defined as the ''precision'' and the expression of the normal distribution becomes
+
+: &lt;math&gt;f(x) = \frac{\tau^\prime}{\sqrt{2\pi}} e^{-(\tau^\prime)^2(x-\mu)^2/2}.&lt;/math&gt;
+
+According to Stigler, this formulation is advantageous because of a much simpler and easier-to-remember formula, and simple approximate formulas for the [[quantile]]s of the distribution.
+
+Normal distributions form an [[exponential family]] with [[natural parameter]]s &lt;math&gt; \textstyle\theta_1=\frac{\mu}{\sigma^2}&lt;/math&gt; and &lt;math&gt;\textstyle\theta_2=\frac{-1}{2\sigma^2}&lt;/math&gt;, and natural statistics ''x'' and ''x''&lt;sup&gt;2&lt;/sup&gt;. The dual, expectation parameters for normal distribution are {{nowrap|1=''η''&lt;sub&gt;1&lt;/sub&gt; = ''μ''}} and {{nowrap|1=''η''&lt;sub&gt;2&lt;/sub&gt; = ''μ''&lt;sup&gt;2&lt;/sup&gt; + ''σ''&lt;sup&gt;2&lt;/sup&gt;}}.
+
+=== Cumulative distribution function ===
+The [[cumulative distribution function]] (CDF) of the standard normal distribution, usually denoted with the capital Greek letter &lt;math&gt;\Phi&lt;/math&gt; ([[phi (letter)|phi]]), is the integral
+
+:&lt;math&gt;\Phi(x) = \frac 1 {\sqrt{2\pi}} \int_{-\infty}^x e^{-t^2/2} \, dt&lt;/math&gt;
+
+The related [[error function]] &lt;math&gt;\operatorname{erf}(x)&lt;/math&gt; gives the probability of a random variable with normal distribution of mean 0 and variance 1/2 falling in the range &lt;math&gt;[-x, x]&lt;/math&gt;;&lt;!-- SIC! The interval for erf is [−x,+x], NOT [0,x]. --&gt; that is
+
+:&lt;math&gt;\operatorname{erf}(x) = \frac 2 {\sqrt\pi} \int_0^x e^{-t^2} \, dt&lt;/math&gt;
+
+These integrals cannot be expressed in terms of elementary functions, and are often said to be [[special function]]s. However, many numerical approximations are known; see [[#Numerical approximations for the normal CDF|below]].
+
+The two functions are closely related, namely
+
+: &lt;math&gt; \Phi(x) = \frac{1}{2} \left[1 + \operatorname{erf}\left( \frac x {\sqrt 2} \right) \right]&lt;/math&gt;
+
+For a generic normal distribution with density &lt;math&gt;f&lt;/math&gt;, mean &lt;math&gt;\mu&lt;/math&gt; and deviation &lt;math&gt;\sigma&lt;/math&gt;, the cumulative distribution function is
+
+:&lt;math&gt;
+F(x) = \Phi\left(\frac{x-\mu} \sigma \right) = \frac{1}{2} \left[1 + \operatorname{erf}\left(\frac{x-\mu}{\sigma \sqrt 2 }\right)\right]
+&lt;/math&gt;
+
+The complement of the standard normal CDF, &lt;math&gt;Q(x) = 1 - \Phi(x)&lt;/math&gt;, is often called the [[Q-function]], especially in engineering texts.&lt;ref&gt;{{cite web|url=http://cnx.org/content/m11537/1.2/|last=Scott|first=Clayton|first2=Robert|last2=Nowak|title=The Q-function|work=Connexions|date=August 7, 2003}}&lt;/ref&gt;&lt;ref&gt;{{cite web|url=http://www.eng.tau.ac.il/~jo/academic/Q.pdf|last=Barak|first=Ohad|title=Q Function and Error Function|publisher=Tel Aviv University|date=April 6, 2006|url-status=dead|archiveurl=https://web.archive.org/web/20090325160012/http://www.eng.tau.ac.il/~jo/academic/Q.pdf|archivedate=March 25, 2009|df=mdy-all}}&lt;/ref&gt; It gives the probability that the value of a standard normal random variable &lt;math&gt;X&lt;/math&gt; will exceed &lt;math&gt;x&lt;/math&gt;: &lt;math&gt;P(X&gt;x)&lt;/math&gt;. Other definitions of the &lt;math&gt;Q&lt;/math&gt;-function, all of which are simple transformations of &lt;math&gt;\Phi&lt;/math&gt;, are also used occasionally.&lt;ref&gt;{{MathWorld |urlname=NormalDistributionFunction |title=Normal Distribution Function }}&lt;/ref&gt;
+
+The [[graph of a function|graph]] of the standard normal CDF &lt;math&gt;\Phi&lt;/math&gt; has 2-fold [[rotational symmetry]] around the point (0,1/2); that is, &lt;math&gt;\Phi(-x) = 1 - \Phi(x)&lt;/math&gt;. Its [[antiderivative]] (indefinite integral) is 
+:&lt;math&gt;\int \Phi(x)\, dx = x\Phi(x) + \varphi(x) + C.&lt;/math&gt;
+
+The CDF of the standard normal distribution can be expanded by [[Integration by parts]] into a series:
+
+:&lt;math&gt;\Phi(x)=\frac{1}{2} + \frac{1}{\sqrt{2\pi}}\cdot e^{-x^2/2} \left[x + \frac{x^3}{3} + \frac{x^5}{3\cdot 5} + \cdots + \frac{x^{2n+1}}{(2n+1)!!} + \cdots\right]&lt;/math&gt;
+
+where &lt;math&gt;!!&lt;/math&gt; denotes the [[double factorial]].
+
+An [[asymptotic expansion]] of the CDF for large ''x'' can also be derived using integration by parts; see [[Error function#Asymptotic expansion]].&lt;ref&gt;{{AS ref|26, eqn 26.2.12|932}}&lt;/ref&gt;
+
+==== Standard deviation and coverage ====
+{{further|Interval estimation|Coverage probability}}
+[[File:Standard deviation diagram.svg|thumb|350px|For the normal distribution, the values less than one standard deviation away from the mean account for 68.27% of the set; while two standard deviations from the mean account for 95.45%; and three standard deviations account for 99.73%.]]
+About 68% of values drawn from a normal distribution are within one standard deviation ''σ'' away from the mean; about 95% of the values lie within two standard deviations; and about 99.7% are within three standard deviations. This fact is known as the [[68–95–99.7 rule|68-95-99.7 (empirical) rule]], or the ''3-sigma rule''.
+
+More precisely, the probability that a normal deviate lies in the range between &lt;math&gt;\mu-n\sigma&lt;/math&gt; and &lt;math&gt;\mu+n\sigma&lt;/math&gt; is given by
+:&lt;math&gt;
+F(\mu+n\sigma) - F(\mu-n\sigma) = \Phi(n)-\Phi(-n) = \operatorname{erf} \left(\frac{n}{\sqrt{2}}\right).
+&lt;/math&gt;
+To 12 significant figures, the values for &lt;math&gt;n=1,2,\ldots , 6&lt;/math&gt; are:&lt;ref&gt;{{cite web|url=http://www.wolframalpha.com/input/?i=Table%5B{N(Erf(n/Sqrt(2)),+12),+N(1-Erf(n/Sqrt(2)),+12),+N(1/(1-Erf(n/Sqrt(2))),+12)},+{n,1,6}%5D |title=Wolfram&amp;#124;Alpha: Computational Knowledge Engine |website=Wolframalpha.com |date= |accessdate=2017-03-03}}&lt;/ref&gt;
+
+{| class="wikitable" style="text-align:center;margin-left:24pt"
+|- "
+! &lt;math&gt;n&lt;/math&gt; !! &lt;math&gt;p= F(\mu+n\sigma) - F(\mu-n\sigma)&lt;/math&gt; !! &lt;math&gt;\text{i.e. }1-p&lt;/math&gt;!! &lt;math&gt;\text{or }1\text{ in }p&lt;/math&gt; !! [[OEIS]]
+|-
+|1 || {{val|0.682689492137}} || {{val|0.317310507863}} ||
+{| cellpadding="0" cellspacing="0" style="width: 16em;"
+| style="text-align: right; width: 7em;" | {{val|3}} || style="text-align: left; width: 9em;" | {{#invoke:Gapnum|main|.15148718753}}
+|}
+|| {{OEIS2C|A178647}}
+|-
+|2 || {{val|0.954499736104}} || {{val|0.045500263896}} ||
+{| cellpadding="0" cellspacing="0" style="width: 16em;"
+| style="text-align: right; width: 7em;" | {{val|21}} || style="text-align: left; width: 9em;" | {{#invoke:Gapnum|main|.9778945080}}
+|}
+|| {{OEIS2C|A110894}}
+|-
+|3 || {{val|0.997300203937}} || {{val|0.002699796063}} ||
+{| cellpadding="0" cellspacing="0" style="width: 16em;"
+| style="text-align: right; width: 7em;" | {{val|370}} || style="text-align: left; width: 9em;" | {{#invoke:Gapnum|main|.398347345}}
+|}
+|| {{OEIS2C|A270712}}
+|-
+|4 || {{val|0.999936657516}} || {{val|0.000063342484}} ||
+{| cellpadding="0" cellspacing="0" style="width: 16em;"
+| style="text-align: right; width: 7em;" | {{val|15787}} || style="text-align: left; width: 9em;" | {{#invoke:Gapnum|main|.1927673}}
+|}
+|-
+|5 || {{val|0.999999426697}} || {{val|0.000000573303}} ||
+{| cellpadding="0" cellspacing="0" style="width: 16em;"
+| style="text-align: right; width: 7em;" | {{val|1744277}} || style="text-align: left; width: 9em;" | {{#invoke:Gapnum|main|.89362}}
+|}
+|-
+|6 || {{val|0.999999998027}} || {{val|0.000000001973}} ||
+{| cellpadding="0" cellspacing="0" style="width: 16em;"
+| style="text-align: right; width: 7em;" | {{val|506797345}} || style="text-align: left; width: 9em;" | {{#invoke:Gapnum|main|.897}}
+|}
+|}
+
+==== Quantile function ====
+{{further|Quantile function#Normal distribution}}
+
+The [[quantile function]] of a distribution is the inverse of the cumulative distribution function.  The quantile function of the standard normal distribution is called the [[probit function]], and can be expressed in terms of the inverse [[error function]]:
+:&lt;math&gt;
+\Phi^{-1}(p) = \sqrt2\operatorname{erf}^{-1}(2p - 1), \quad p\in(0,1).
+&lt;/math&gt;
+For a normal random variable with mean &lt;math&gt;\mu&lt;/math&gt; and variance &lt;math&gt;\sigma^2&lt;/math&gt;, the quantile function is
+:&lt;math&gt;
+F^{-1}(p) = \mu + \sigma\Phi^{-1}(p)
+= \mu + \sigma\sqrt 2 \operatorname{erf}^{-1}(2p - 1), \quad p\in(0,1).
+&lt;/math&gt;
+The [[quantile]] &lt;math&gt;\Phi^{-1}(p)&lt;/math&gt; of the standard normal distribution is commonly denoted as &lt;math&gt;z_p&lt;/math&gt;. These values are used in [[hypothesis testing]], construction of [[confidence interval]]s and [[Q-Q plot]]s. A normal random variable &lt;math&gt;X&lt;/math&gt; will exceed &lt;math&gt;\mu + z_p\sigma&lt;/math&gt; with probability &lt;math&gt;1-p&lt;/math&gt;, and will lie outside the interval &lt;math&gt;\mu \pm z_p\sigma&lt;/math&gt; with probability &lt;math&gt;2(1-p)&lt;/math&gt;. In particular, the quantile &lt;math&gt;z_{0.975}&lt;/math&gt; is [[1.96]]; therefore a normal random variable will lie outside the interval &lt;math&gt;\mu \pm 1.96\sigma&lt;/math&gt; in only 5% of cases.
+
+The following table gives the quantile &lt;math&gt;z_p&lt;/math&gt; such that &lt;math&gt;X&lt;/math&gt; will lie in the range &lt;math&gt;\mu \pm z_p\sigma&lt;/math&gt; with a specified probability &lt;math&gt;p&lt;/math&gt;. These values are useful to determine [[tolerance interval]] for [[Sample mean and sample covariance#Sample mean|sample averages]] and other statistical [[estimator]]s with normal (or [[asymptotic]]ally normal) distributions:.&lt;ref&gt;{{cite web |url=http://www.wolframalpha.com/input/?i=Table%5BSqrt%282%29*InverseErf%28x%29%2C+{x%2C+N%28{8%2F10%2C+9%2F10%2C+19%2F20%2C+49%2F50%2C+99%2F100%2C+995%2F1000%2C+998%2F1000}%2C+13%29}%5D|title=Wolfram&amp;#124;Alpha: Computational Knowledge Engine|website=Wolframalpha.com|date=|accessdate=}}&lt;/ref&gt;&lt;ref&gt;{{cite web|url=http://www.wolframalpha.com/input/?i=Table%5B%7BN(1-10%5E(-x),9),N(Sqrt(2)*InverseErf(1-10%5E(-x)),13)%7D,%7Bx,3,9%7D%5D|title=Wolfram&amp;#124;Alpha: Computational Knowledge Engine|website=Wolframalpha.com|date=|accessdate=2017-03-03}}&lt;/ref&gt; NOTE: the following table shows &lt;math&gt;\sqrt 2 \operatorname{erf}^{-1}(p)=\Phi^{-1}\left(\frac{p+1}{2}\right)&lt;/math&gt;, not &lt;math&gt;\Phi^{-1}(p)&lt;/math&gt; as defined above.
+
+{| class="wikitable" style="text-align:left;margin-left:24pt;border:none;background:none;"
+! &lt;math&gt;p&lt;/math&gt; !! &lt;math&gt;z_p&lt;/math&gt;
+| rowspan="8" style="border:none;background:none;"|&amp;nbsp;
+! &lt;math&gt;p&lt;/math&gt; !! &lt;math&gt;z_p&lt;/math&gt;
+|-
+| 0.80  || {{val|1.281551565545}} || 0.999       || {{val|3.290526731492}}
+|-
+| 0.90  || {{val|1.644853626951}} || 0.9999      || {{val|3.890591886413}}
+|-
+| 0.95  || {{val|1.959963984540}} || 0.99999     || {{val|4.417173413469}}
+|-
+| 0.98  || {{val|2.326347874041}} || 0.999999    || {{val|4.891638475699}}
+|-
+| 0.99  || {{val|2.575829303549}} || 0.9999999   || {{val|5.326723886384}}
+|-
+| 0.995 || {{val|2.807033768344}} || 0.99999999  || {{val|5.730728868236}}
+|-
+| 0.998 || {{val|3.090232306168}} || 0.999999999 || {{val|6.109410204869}}
+|}
+
+For small &lt;math&gt;p&lt;/math&gt;, the quantile function has the useful asymptotic expansion 
+&lt;math&gt;\Phi^{-1}(p)=-\sqrt{\ln\frac{1}{p^2}-\ln\ln\frac{1}{p^2}-\ln(2\pi)}+\mathcal{o}(1).&lt;/math&gt;
+
+== Properties ==
+The normal distribution is the only distribution whose [[cumulant]]s beyond the first two (i.e., other than the mean and [[variance]]) are zero. It is also the continuous distribution with the [[maximum entropy probability distribution|maximum entropy]] for a specified mean and variance.&lt;ref&gt;{{cite book|last=Cover|first=Thomas M.|author2=Thomas, Joy A.|year=2006|title=Elements of Information Theory|url=https://archive.org/details/elementsinformat00cove|url-access=limited|publisher=John Wiley and Sons|page=[https://archive.org/details/elementsinformat00cove/page/n279 254]}}&lt;/ref&gt;&lt;ref&gt;{{cite journal|last1=Park|first1=Sung Y.|last2=Bera|first2=Anil K.|year=2009|title=Maximum Entropy Autoregressive Conditional Heteroskedasticity Model|journal=Journal of Econometrics|pages=219–230|url=http://www.wise.xmu.edu.cn/Master/Download/..%5C..%5CUploadFiles%5Cpaper-masterdownload%5C2009519932327055475115776.pdf|accessdate=2011-06-02|doi=10.1016/j.jeconom.2008.12.014|volume=150|issue=2|citeseerx=10.1.1.511.9750}}&lt;/ref&gt; Geary has shown, assuming that the mean and variance are finite, that the normal distribution is the only distribution where the mean and variance calculated from a set of independent draws are independent of each other.&lt;ref name=Geary1936&gt;Geary RC(1936) The distribution of the "Student's" ratio for the non-normal samples". Supplement to the Journal of the Royal Statistical Society 3 (2): 178–184&lt;/ref&gt;&lt;ref name=Lukas1942&gt;Lukas E (1942) A characterization of the normal distribution. Annals of Mathematical Statistics 13: 91–93&lt;/ref&gt;
+
+The normal distribution is a subclass of the [[elliptical distribution]]s. The normal distribution is [[Symmetric distribution|symmetric]] about its mean, and is non-zero over the entire real line. As such it may not be a suitable model for variables that are inherently positive or strongly skewed, such as the [[weight]] of a person or the price of a [[share (finance)|share]]. Such variables may be better described by other distributions, such as the [[log-normal distribution]] or the [[Pareto distribution]].
+
+The value of the normal distribution is practically zero when the value &lt;math&gt;x&lt;/math&gt; lies more than a few [[standard deviation]]s away from the mean (e.g., a spread of three standard deviations covers all but 0.27% of the total distribution). Therefore, it may not be an appropriate model when one expects a significant fraction of [[outlier]]s—values that lie many standard deviations away from the mean—and least squares and other [[statistical inference]] methods that are optimal for normally distributed variables often become highly unreliable when applied to such data. In those cases, a more [[heavy-tailed]] distribution should be assumed and the appropriate [[robust statistics|robust statistical inference]] methods applied.
+
+The Gaussian distribution belongs to the family of [[stable distribution]]s which are the attractors of sums of [[Independent and identically distributed random variables|independent, identically distributed]] distributions whether or not the mean or variance is finite. Except for the Gaussian which is a limiting case, all stable distributions have heavy tails and infinite variance. It is one of the few distributions that are stable and that have probability density functions that can be expressed analytically, the others being the [[Cauchy distribution]] and the [[Lévy distribution]].
+
+=== Symmetries and derivatives ===
+The normal distribution with density &lt;math&gt;f(x)&lt;/math&gt; (mean &lt;math&gt;\mu&lt;/math&gt; and standard deviation &lt;math&gt;\sigma &gt; 0&lt;/math&gt;) has the following properties:
+* It is symmetric around the point &lt;math&gt;x=\mu,&lt;/math&gt; which is at the same time the [[mode (statistics)|mode]], the [[median]] and the [[mean]] of the distribution.&lt;ref name="PR2.1.4"&gt;{{harvtxt |Patel |Read |1996 |loc=[2.1.4] }}&lt;/ref&gt;
+* It is [[unimodal]]: its first [[derivative]] is positive for &lt;math&gt;x&lt;\mu,&lt;/math&gt; negative for &lt;math&gt;x&gt;\mu,&lt;/math&gt; and zero only at &lt;math&gt;x=\mu.&lt;/math&gt;
+* The area under the curve and over the &lt;math&gt;x&lt;/math&gt;-axis is unity (i.e. equal to one).
+* Its density has two [[inflection point]]s (where the second derivative of &lt;math&gt;f&lt;/math&gt; is zero and changes sign), located one standard deviation away from the mean, namely at &lt;math&gt;x=\mu-\sigma&lt;/math&gt; and &lt;math&gt;x=\mu+\sigma.&lt;/math&gt;&lt;ref name="PR2.1.4" /&gt;
+* Its density is [[logarithmically concave function|log-concave]].&lt;ref name="PR2.1.4" /&gt;
+* Its density is infinitely [[differentiable function|differentiable]], indeed [[supersmooth]] of order 2.&lt;ref&gt;{{harvtxt |Fan |1991 |p=1258 }}&lt;/ref&gt;
+
+Furthermore, the density &lt;math&gt;\varphi&lt;/math&gt; of the standard normal distribution (i.e. &lt;math&gt;\mu=0&lt;/math&gt; and &lt;math&gt;\sigma=1&lt;/math&gt;) also has the following properties:
+* Its first derivative is &lt;math&gt;\varphi^\prime(x)=-x\varphi(x).&lt;/math&gt;
+* Its second derivative is &lt;math&gt;\varphi^{\prime\prime}(x)=(x^2-1)\varphi(x)&lt;/math&gt;
+* More generally, its {{mvar|n}}th derivative is &lt;math&gt;\varphi^{(n)}(x) = (-1)^n\operatorname{He}_n(x)\varphi(x),&lt;/math&gt; where &lt;math&gt;\operatorname{He}_n(x)&lt;/math&gt; is the {{mvar|n}}th (probabilist) [[Hermite polynomial]].&lt;ref&gt;{{harvtxt |Patel |Read |1996 |loc=[2.1.8] }}&lt;/ref&gt;
+* The probability that a normally distributed variable &lt;math&gt;X&lt;/math&gt; with known &lt;math&gt;\mu&lt;/math&gt; and &lt;math&gt;\sigma&lt;/math&gt; is in a particular set, can be calculated by using the fact that the fraction &lt;math&gt;Z = (X-\mu)/\sigma&lt;/math&gt; has a standard normal distribution.
+
+=== Moments ===
+{{See also|List of integrals of Gaussian functions}}
+The plain and absolute [[moment (mathematics)|moments]] of a variable &lt;math&gt;X&lt;/math&gt; are the expected values of &lt;math&gt;X^p&lt;/math&gt; and &lt;math&gt;|X|^p&lt;/math&gt;, respectively. If the expected value &lt;math&gt;\mu&lt;/math&gt; of &lt;math&gt;X&lt;/math&gt; is zero, these parameters are called ''central moments''.  Usually we are interested only in moments with integer order &lt;math&gt;\ p&lt;/math&gt;.
+
+If &lt;math&gt;X&lt;/math&gt; has a normal distribution, these moments exist and are finite for any &lt;math&gt;p&lt;/math&gt; whose real part is greater than&amp;nbsp;−1. For any non-negative integer &lt;math&gt;p&lt;/math&gt;, the plain central moments are:&lt;ref&gt;{{cite book|last1=Papoulis|first1=Athanasios|title=Probability, Random Variables and Stochastic Processes (4th Edition)|page=148}}&lt;/ref&gt;
+:&lt;math&gt;
+    \operatorname{E}\left[(X-\mu)^p\right] =
+      \begin{cases}
+        0 &amp; \text{if }p\text{ is odd,} \\
+        \sigma^p (p-1)!! &amp; \text{if }p\text{ is even.}
+      \end{cases}
+  &lt;/math&gt;
+Here &lt;math&gt;n!!&lt;/math&gt; denotes the [[double factorial]], that is, the product of all numbers from &lt;math&gt;n&lt;/math&gt; to&amp;nbsp;1 that have the same parity as &lt;math&gt;n.&lt;/math&gt;
+
+The central absolute moments coincide with plain moments for all even orders, but are nonzero for odd orders. For any non-negative integer &lt;math&gt;p,&lt;/math&gt;
+
+:&lt;math&gt;\begin{align}
+   \operatorname{E}\left[|X - \mu|^p\right] &amp;= \sigma^p (p-1)!! \cdot \begin{cases}
+     \sqrt{\frac{2}{\pi}} &amp; \text{if }p\text{ is odd} \\
+     1 &amp; \text{if }p\text{ is even}
+   \end{cases} \\
+   &amp;= \sigma^p \cdot \frac{2^{p/2}\Gamma\left(\frac{p+1} 2 \right)}{\sqrt\pi}.
+ \end{align}&lt;/math&gt;
+The last formula is valid also for any non-integer &lt;math&gt;p&gt;-1.&lt;/math&gt;  When the mean &lt;math&gt;\mu \ne 0,&lt;/math&gt; the plain and absolute moments can be expressed in terms of [[confluent hypergeometric function]]s &lt;math&gt;{}_1F_1&lt;/math&gt; and &lt;math&gt;U.&lt;/math&gt;{{Citation needed|date=June 2010}}
+
+:&lt;math&gt;\begin{align}
+   \operatorname{E}\left[X^p\right] &amp;= \sigma^p\cdot (-i\sqrt 2)^p U\left(-\frac{p}{2}, \frac{1}{2}, -\frac{1}{2} \left( \frac \mu \sigma \right)^2 \right), \\
+   \operatorname{E}\left[|X|^p \right] &amp;= \sigma^p \cdot 2^{p/2} \frac {\Gamma\left(\frac{1+p} 2\right)}{\sqrt\pi} {}_1F_1\left( -\frac{p}{2}, \frac{1}{2}, -\frac{1}{2} \left( \frac \mu \sigma \right)^2 \right).
+ \end{align}&lt;/math&gt;
+
+These expressions remain valid even if &lt;math&gt;p&lt;/math&gt; is not integer. See also [[Hermite polynomials#"Negative variance"|generalized Hermite polynomials]].
+
+{| class="wikitable" style="background:#fff; margin: auto;"
+|-
+! Order !! Non-central moment !! Central moment
+|-
+| 1
+| &lt;math&gt;\mu&lt;/math&gt;
+| &lt;math&gt;0&lt;/math&gt;
+|-
+| 2
+| &lt;math&gt;\mu^2+\sigma^2&lt;/math&gt;
+| &lt;math&gt;\sigma^2&lt;/math&gt;
+|-
+| 3
+| &lt;math&gt;\mu^3+3\mu\sigma^2&lt;/math&gt;
+| &lt;math&gt;0&lt;/math&gt;
+|-
+| 4
+| &lt;math&gt;\mu^4+6\mu^2\sigma^2+3\sigma^4&lt;/math&gt;
+| &lt;math&gt;3\sigma^4&lt;/math&gt;
+|-
+| 5
+| &lt;math&gt;\mu^5+10\mu^3\sigma^2+15\mu\sigma^4&lt;/math&gt;
+| &lt;math&gt;0&lt;/math&gt;
+|-
+| 6
+| &lt;math&gt;\mu^6+15\mu^4\sigma^2+45\mu^2\sigma^4+15\sigma^6&lt;/math&gt;
+| &lt;math&gt;15\sigma^6&lt;/math&gt;
+|-
+| 7
+| &lt;math&gt;\mu^7+21\mu^5\sigma^2+105\mu^3\sigma^4+105\mu\sigma^6&lt;/math&gt;
+| &lt;math&gt;0&lt;/math&gt;
+|-
+| 8
+| &lt;math&gt;\mu^8+28\mu^6\sigma^2+210\mu^4\sigma^4+420\mu^2\sigma^6+105\sigma^8&lt;/math&gt;
+| &lt;math&gt;105\sigma^8&lt;/math&gt;
+|}
+
+The expectation of &lt;math&gt;X&lt;/math&gt; conditioned on the event that &lt;math&gt;X&lt;/math&gt; lies in an interval &lt;math&gt;[a,b]&lt;/math&gt; is given by
+:&lt;math&gt;\operatorname{E}\left[X \mid a&lt;X&lt;b \right] = \mu - \sigma^2\frac{f(b)-f(a)}{F(b)-F(a)} &lt;/math&gt;
+where &lt;math&gt;f&lt;/math&gt; and &lt;math&gt;F&lt;/math&gt; respectively are the density and the cumulative distribution function of &lt;math&gt;X&lt;/math&gt;. For &lt;math&gt;b=\infty&lt;/math&gt; this is known as the [[inverse Mills ratio]]. Note that above, density &lt;math&gt;f&lt;/math&gt; of &lt;math&gt;X&lt;/math&gt; is used instead of standard normal density as in inverse Mills ratio, so here we have &lt;math&gt;\sigma^2&lt;/math&gt; instead of &lt;math&gt;\sigma&lt;/math&gt;.
+
+=== Fourier transform and characteristic function ===
+The [[Fourier transform]] of a normal density &lt;math&gt;f&lt;/math&gt; with mean &lt;math&gt;\mu&lt;/math&gt; and standard deviation &lt;math&gt;\sigma&lt;/math&gt; is&lt;ref&gt;{{harvtxt |Bryc |1995 |p=23 }}&lt;/ref&gt;
+
+:&lt;math&gt;
+\hat f(t) = \int_{-\infty}^\infty f(x)e^{-itx} \, dx = e^{ -i\mu t} e^{- \frac12 (\sigma t)^2}
+&lt;/math&gt;
+
+where &lt;math&gt;i&lt;/math&gt; is the [[imaginary unit]]. If the mean &lt;math&gt;\mu=0&lt;/math&gt;, the first factor is 1, and the Fourier transform is, apart from a constant factor, a normal density on the [[frequency domain]], with mean 0 and standard deviation &lt;math&gt;1/\sigma&lt;/math&gt;. In particular, the standard normal distribution &lt;math&gt;\varphi&lt;/math&gt; is an [[eigenfunction]] of the Fourier transform.
+
+In probability theory, the Fourier transform of the probability distribution of a real-valued random variable &lt;math&gt;X&lt;/math&gt; is closely connected to the [[characteristic function (probability theory)|characteristic function]] &lt;math&gt;\varphi_X(t)&lt;/math&gt; of that variable, which is defined as the [[expected value]] of &lt;math&gt;e^{itX}&lt;/math&gt;, as a function of the real variable &lt;math&gt;t&lt;/math&gt; (the [[frequency]] parameter of the Fourier transform). This definition can be analytically extended to a complex-value variable &lt;math&gt;t&lt;/math&gt;.&lt;ref&gt;{{harvtxt |Bryc |1995 |p=24 }}&lt;/ref&gt; The relation between both is:
+:&lt;math&gt;\varphi_X(t) = \hat f(-t)&lt;/math&gt;
+
+=== Moment and cumulant generating functions ===
+The [[moment generating function]] of a real random variable &lt;math&gt;X&lt;/math&gt; is the expected value of &lt;math&gt;e^{tX}&lt;/math&gt;, as a function of the real parameter &lt;math&gt;t&lt;/math&gt;. For a normal distribution with density &lt;math&gt;f&lt;/math&gt;, mean &lt;math&gt;\mu&lt;/math&gt; and deviation &lt;math&gt;\sigma&lt;/math&gt;, the moment generating function exists and is equal to
+
+:&lt;math&gt;M(t) = \operatorname{E}[e^{tX}] = \hat f(it) = e^{\mu t} e^{\tfrac12 \sigma^2 t^2}&lt;/math&gt;
+
+The [[cumulant generating function]] is the logarithm of the moment generating function, namely
+
+:&lt;math&gt;g(t) = \ln M(t) = \mu t + \tfrac 12 \sigma^2 t^2&lt;/math&gt;
+
+Since this is a quadratic polynomial in &lt;math&gt;t&lt;/math&gt;, only the first two [[cumulant]]s are nonzero, namely the mean&amp;nbsp;&lt;math&gt;\mu&lt;/math&gt; and the variance&amp;nbsp;&lt;math&gt;\sigma^2&lt;/math&gt;.
+
+=== Stein operator and class ===
+Within [[Stein's method]] the Stein operator and class of a random variable  &lt;math&gt;X \sim \mathcal{N}(\mu, \sigma^2)&lt;/math&gt; are &lt;math&gt;\mathcal{A}f(x) = \sigma^2 f'(x) - (x-\mu)f(x)&lt;/math&gt; and &lt;math&gt;\mathcal{F}&lt;/math&gt; the class of all absolutely continuous functions &lt;math&gt;f : \R \to \R \mbox{ such that }\mathbb{E}[|f'(X)|]&lt; \infty&lt;/math&gt;.
+
+=== Zero-variance limit ===
+In the [[limit (mathematics)|limit]] when &lt;math&gt;\sigma&lt;/math&gt; tends to zero, the probability density &lt;math&gt;f(x)&lt;/math&gt; eventually tends to zero at any &lt;math&gt;x\ne \mu&lt;/math&gt;, but grows without limit if &lt;math&gt;x = \mu&lt;/math&gt;, while its integral remains equal to 1. Therefore, the normal distribution cannot be defined as an ordinary [[function (mathematics)|function]] when &lt;math&gt;\sigma = 0&lt;/math&gt;.
+
+However, one can define the normal distribution with zero variance as a [[generalized function]]; specifically, as [[Dirac delta function|Dirac's "delta function"]] &lt;math&gt;\delta&lt;/math&gt; translated by the mean &lt;math&gt;\mu&lt;/math&gt;, that is &lt;math&gt;f(x)=\delta(x-\mu).&lt;/math&gt;
+Its CDF is then the [[Heaviside step function]] translated by the mean &lt;math&gt;\mu&lt;/math&gt;, namely
+:&lt;math&gt;F(x) = 
+\begin{cases}
+  0 &amp; \text{if }x &lt; \mu \\
+  1 &amp; \text{if }x \geq \mu
+\end{cases}
+&lt;/math&gt;
+
+=== Maximum entropy ===
+Of all probability distributions over the reals with a specified mean &lt;math&gt;\mu&lt;/math&gt; and variance&amp;nbsp;&lt;math&gt;\sigma^2&lt;/math&gt;, the normal distribution &lt;math&gt;N(\mu,\sigma^2)&lt;/math&gt; is the one with [[Maximum entropy probability distribution|maximum entropy]].&lt;ref&gt;{{harvtxt |Cover |Thomas |2006 |p=254 }}&lt;/ref&gt; If &lt;math&gt;X&lt;/math&gt; is a [[continuous random variable]] with [[probability density function|probability density]] &lt;math&gt;f(x)&lt;/math&gt;, then the entropy of &lt;math&gt;X&lt;/math&gt; is defined as&lt;ref&gt;{{cite book|last1=Williams|first1=David|title=Weighing the odds : a course in probability and statistics|url=https://archive.org/details/weighingoddscour00will|url-access=limited|date=2001|publisher=Cambridge Univ. Press|location=Cambridge [u.a.]|isbn=978-0-521-00618-7|pages=[https://archive.org/details/weighingoddscour00will/page/n219 197]–199|edition=Reprinted.}}&lt;/ref&gt;&lt;ref&gt;{{cite book|last1=Smith|first1=José M. Bernardo; Adrian F. M.|title=Bayesian theory|url=https://archive.org/details/bayesiantheory00bern_963|url-access=limited|date=2000|publisher=Wiley|location=Chichester [u.a.]|isbn=978-0-471-49464-5|pages=[https://archive.org/details/bayesiantheory00bern_963/page/n224 209], 366|edition=Reprint}}&lt;/ref&gt;&lt;ref&gt;O'Hagan, A. (1994) ''Kendall's Advanced Theory of statistics, Vol 2B, Bayesian Inference'', Edward Arnold. {{isbn|0-340-52922-9}} (Section 5.40)&lt;/ref&gt;
+:&lt;math&gt;
+H(X) = - \int_{-\infty}^\infty f(x)\log f(x)\, dx
+&lt;/math&gt;
+
+where &lt;math&gt;f(x)\log f(x)&lt;/math&gt; is understood to be zero whenever &lt;math&gt;f(x)=0&lt;/math&gt;. This functional can be maximized, subject to the constraints that the distribution is properly normalized and has a specified variance, by using [[variational calculus]]. A function with two [[Lagrange multipliers]] is defined:
+
+:&lt;math&gt;
+L=\int_{-\infty}^\infty f(x)\ln(f(x))\,dx-\lambda_0\left(1-\int_{-\infty}^\infty f(x)\,dx\right)-\lambda\left(\sigma^2-\int_{-\infty}^\infty f(x)(x-\mu)^2\,dx\right)
+&lt;/math&gt;
+
+where &lt;math&gt;f(x)&lt;/math&gt; is, for now, regarded as some density function with mean &lt;math&gt;\mu&lt;/math&gt; and standard deviation &lt;math&gt;\sigma&lt;/math&gt;.
+
+At maximum entropy, a small variation &lt;math&gt;\delta f(x)&lt;/math&gt; about &lt;math&gt;f(x)&lt;/math&gt; will produce a variation &lt;math&gt;\delta L&lt;/math&gt; about &lt;math&gt;L&lt;/math&gt; which is equal to 0:
+
+:&lt;math&gt;
+0=\delta L=\int_{-\infty}^\infty \delta f(x)\left (\ln(f(x))+1+\lambda_0+\lambda(x-\mu)^2\right )\,dx
+&lt;/math&gt;
+
+Since this must hold for any small &lt;math&gt;\delta f(x)&lt;/math&gt;, the term in brackets must be zero, and solving for &lt;math&gt;f(x)&lt;/math&gt; yields:
+
+:&lt;math&gt;f(x)=e^{-\lambda_0-1-\lambda(x-\mu)^2}&lt;/math&gt;
+
+Using the constraint equations to solve for &lt;math&gt;\lambda_0&lt;/math&gt; and &lt;math&gt;\lambda&lt;/math&gt; yields the density of the normal distribution:
+
+:&lt;math&gt;
+f(x, \mu, \sigma)=\frac{1}{\sqrt{2\pi\sigma^2}}e^{-\frac{(x-\mu)^2}{2\sigma^2}}
+&lt;/math&gt;
+The entropy of a normal distribution equals to
+:&lt;math&gt;
+H(x)=\tfrac{1}{2}(1+\log(2\sigma^2\pi))
+&lt;/math&gt;
+
+=== Operations on normal deviates ===
+The family of normal distributions is closed under linear transformations: if  &lt;math&gt;X &lt;/math&gt; is normally distributed with mean &lt;math&gt;\mu&lt;/math&gt; and standard deviation &lt;math&gt;\sigma&lt;/math&gt;, then the variable  &lt;math&gt;Y=aX+b&lt;/math&gt;, for any real numbers &lt;math&gt;a&lt;/math&gt; and &lt;math&gt;b&lt;/math&gt;, is also normally distributed, with
+mean &lt;math&gt;a\mu+b&lt;/math&gt; and standard deviation &lt;math&gt;|a|\sigma&lt;/math&gt;.
+
+Also if &lt;math&gt;X_1&lt;/math&gt; and &lt;math&gt;X_2&lt;/math&gt; are two [[independence (probability theory)|independent]] normal random variables, with means &lt;math&gt;\mu_1&lt;/math&gt;, &lt;math&gt;\mu_2&lt;/math&gt; and standard deviations &lt;math&gt;\sigma_1&lt;/math&gt;, &lt;math&gt;\sigma_2&lt;/math&gt;, then their sum &lt;math&gt;X_1+X_2&lt;/math&gt; will also be normally distributed,&lt;sup&gt;[[sum of normally distributed random variables|[proof]]]&lt;/sup&gt; with mean &lt;math&gt;\mu_1 + \mu_2&lt;/math&gt; and variance &lt;math&gt;\sigma_1^2 + \sigma_2^2&lt;/math&gt;.
+
+In particular, if &lt;math&gt;X&lt;/math&gt; and &lt;math&gt;Y&lt;/math&gt; are independent normal deviates with zero mean and variance &lt;math&gt;\sigma^2&lt;/math&gt;, then &lt;math&gt;X + Y&lt;/math&gt; and &lt;math&gt;X - Y&lt;/math&gt; are also independent and normally distributed, with zero mean and variance &lt;math&gt;2\sigma^2&lt;/math&gt;. This is a special case of the [[polarization identity]].&lt;ref&gt;{{harvtxt |Bryc |1995 |p=27 }}&lt;/ref&gt;
+
+Also, if &lt;math&gt;X_1&lt;/math&gt;, &lt;math&gt;X_2&lt;/math&gt; are two independent normal deviates with mean &lt;math&gt;\mu&lt;/math&gt; and deviation &lt;math&gt;\sigma&lt;/math&gt;, and &lt;math&gt;a&lt;/math&gt;, &lt;math&gt;b&lt;/math&gt; are arbitrary real numbers, then the variable
+: &lt;math&gt;
+    X_3 = \frac{aX_1 + bX_2 - (a+b)\mu}{\sqrt{a^2+b^2}} + \mu
+  &lt;/math&gt;
+is also normally distributed with mean &lt;math&gt;\mu&lt;/math&gt; and deviation &lt;math&gt;\sigma&lt;/math&gt;. It follows that the normal distribution is [[stable distribution|stable]] (with exponent &lt;math&gt;\alpha=2&lt;/math&gt;).
+
+More generally, any [[linear combination]] of independent normal deviates is a normal deviate.
+
+==== Infinite divisibility and Cramér's theorem ====
+For any positive integer &lt;math&gt;\text{n}&lt;/math&gt;, any normal distribution with mean &lt;math&gt;\mu &lt;/math&gt; and variance &lt;math&gt;\sigma^2&lt;/math&gt; is the distribution of the sum of &lt;math&gt;\text{n}&lt;/math&gt; independent normal deviates, each with mean &lt;math&gt;\frac{\mu}{n}&lt;/math&gt; and variance &lt;math&gt;\frac{\sigma^2}{n}&lt;/math&gt;.  This property is called [[infinite divisibility (probability)|infinite divisibility]].&lt;ref&gt;{{harvtxt |Patel |Read |1996 |loc=[2.3.6] }}&lt;/ref&gt;
+
+Conversely, if &lt;math&gt;X_1&lt;/math&gt; and &lt;math&gt;X_2&lt;/math&gt; are independent random variables and their sum &lt;math&gt;X_1+X_2&lt;/math&gt; has a normal distribution, then both &lt;math&gt;X_1&lt;/math&gt; and &lt;math&gt;X_2&lt;/math&gt; must be normal deviates.&lt;ref&gt;{{harvtxt |Galambos |Simonelli |2004 |loc=Theorem&amp;nbsp;3.5 }}&lt;/ref&gt;
+
+This result is known as [[Cramér’s decomposition theorem]], and is equivalent to saying that the [[convolution]] of two distributions is normal if and only if both are normal. Cramér's theorem implies that a linear combination of independent non-Gaussian variables will never have an exactly normal distribution, although it may approach it arbitrarily closely.&lt;ref name="Bryc 1995 35"&gt;{{harvtxt |Bryc |1995 |p=35 }}&lt;/ref&gt;
+
+==== Bernstein's theorem ====
+Bernstein's theorem states that if &lt;math&gt;X&lt;/math&gt; and &lt;math&gt;Y&lt;/math&gt; are independent and &lt;math&gt;X + Y&lt;/math&gt; and &lt;math&gt;X - Y&lt;/math&gt; are also independent, then both ''X'' and ''Y'' must necessarily have normal distributions.&lt;ref name=LK&gt;{{harvtxt |Lukacs |King |1954 }}&lt;/ref&gt;&lt;ref&gt;{{cite journal|last1=Quine|first1=M.P.|year=1993|title=On three characterisations of the normal distribution|url=http://www.math.uni.wroc.pl/~pms/publicationsArticle.php?nr=14.2&amp;nrA=8&amp;ppB=257&amp;ppE=263|journal=Probability and Mathematical Statistics|volume=14|issue=2|pages=257–263}}&lt;/ref&gt;
+
+More generally, if &lt;math&gt;X_1, \ldots, X_n&lt;/math&gt; are independent random variables, then two distinct linear combinations &lt;math&gt;\sum{a_kX_k}&lt;/math&gt; and &lt;math&gt;\sum{b_kX_k}&lt;/math&gt;will be independent if and only if all &lt;math&gt;X_k&lt;/math&gt; are normal and &lt;math&gt;\sum{a_kb_k\sigma_k^2=0}&lt;/math&gt;, where &lt;math&gt;\sigma_k^2&lt;/math&gt; denotes the variance of &lt;math&gt;X_k&lt;/math&gt;.&lt;ref name=LK /&gt;
+
+=== Other properties ===
+{{ordered list
+|1= If the characteristic function &lt;math&gt;\phi_X&lt;/math&gt; of some random variable &lt;math&gt;X&lt;/math&gt; is of the form &lt;math&gt;\phi_X(t) = \exp^{Q(t)}&lt;/math&gt;, where &lt;math&gt;Q(t)&lt;/math&gt; is a [[polynomial]], then the '''Marcinkiewicz theorem''' (named after [[Józef Marcinkiewicz]]) asserts that &lt;math&gt;Q&lt;/math&gt; can be at most a quadratic polynomial, and therefore &lt;math&gt;X&lt;/math&gt; is a normal random variable.&lt;ref name="Bryc 1995 35" /&gt; The consequence of this result is that the normal distribution is the only distribution with a finite number (two) of non-zero [[cumulant]]s.
+
+|2= If &lt;math&gt;X&lt;/math&gt; and &lt;math&gt;Y&lt;/math&gt; are [[multivariate normal distribution|jointly normal]] and [[uncorrelated]], then they are [[independence (probability theory)|independent]]. The requirement that &lt;math&gt;X&lt;/math&gt; and &lt;math&gt;Y&lt;/math&gt; should be ''jointly'' normal is essential; without it the property does not hold.&lt;ref&gt;[http://www.math.uiuc.edu/~r-ash/Stat/StatLec21-25.pdf UIUC, Lecture 21. ''The Multivariate Normal Distribution''], 21.6:"Individually Gaussian Versus Jointly Gaussian".&lt;/ref&gt;&lt;ref&gt;Edward L. Melnick and Aaron Tenenbein, "Misspecifications of the Normal Distribution", ''[[The American Statistician]]'', volume 36, number 4 November 1982, pages 372–373&lt;/ref&gt;&lt;sup&gt;[[Normally distributed and uncorrelated does not imply independent|[proof]]]&lt;/sup&gt; For non-normal random variables uncorrelatedness does not imply independence.
+
+|3= The [[Kullback–Leibler divergence]] of one normal distribution &lt;math&gt;X_1 \sim N(\mu_1, \sigma^2_1)&lt;/math&gt; from another &lt;math&gt;X_2 \sim N(\mu_2, \sigma^2_2)&lt;/math&gt; is given by:&lt;ref&gt;{{cite web|url=http://www.allisons.org/ll/MML/KL/Normal/|title=Kullback Leibler (KL) Distance of Two Normal (Gaussian) Probability Distributions|website=Allisons.org|date=2007-12-05|accessdate=2017-03-03}}&lt;/ref&gt;
+: &lt;math&gt;
+    D_\mathrm{KL}( X_1 \,\|\, X_2 ) = \frac{(\mu_1 - \mu_2)^2}{2\sigma_2^2} + \frac{1}{2}\left( \frac{\sigma_1^2}{\sigma_2^2} - 1 - \ln\frac{\sigma_1^2}{\sigma_2^2} \right)
+  &lt;/math&gt;
+The [[Hellinger distance]] between the same distributions is equal to
+: &lt;math&gt;
+    H^2(X_1,X_2) = 1 - \sqrt{\frac{2\sigma_1\sigma_2}{\sigma_1^2+\sigma_2^2}}
+                       e^{-\frac{1}{4}\frac{(\mu_1-\mu_2)^2}{\sigma_1^2+\sigma_2^2}}
+  &lt;/math&gt;
+
+|4= The [[Fisher information matrix]] for a normal distribution is diagonal and takes the form
+: &lt;math&gt;
+    \mathcal I = \begin{pmatrix} \frac{1}{\sigma^2} &amp; 0 \\ 0 &amp; \frac{1}{2\sigma^4} \end{pmatrix}
+  &lt;/math&gt;
+
+|5= The [[conjugate prior]] of the mean of a normal distribution is another normal distribution.&lt;ref&gt;{{cite web|url=http://www.cs.berkeley.edu/~jordan/courses/260-spring10/lectures/lecture5.pdf|title=Stat260: Bayesian Modeling and Inference: The Conjugate Prior for the Normal Distribution|first=Michael I.|last=Jordan|date=February 8, 2010}}&lt;/ref&gt; Specifically, if &lt;math&gt;x_1, \ldots, x_n&lt;/math&gt; are iid &lt;math&gt; \sim N(\mu, \sigma^2)&lt;/math&gt; and the prior is &lt;math&gt;\mu \sim N(\mu_0 , \sigma^2_0)&lt;/math&gt;, then the posterior distribution for the estimator of &lt;math&gt;\mu&lt;/math&gt; will be
+: &lt;math&gt;
+    \mu \mid x_1,\ldots,x_n \sim \mathcal{N}\left( \frac{\frac{\sigma^2}{n}\mu_0 + \sigma_0^2\bar{x}}{\frac{\sigma^2}{n}+\sigma_0^2},\left( \frac{n}{\sigma^2} + \frac{1}{\sigma_0^2} \right)^{-1} \right)
+  &lt;/math&gt;
+
+|6= The family of normal distributions not only forms an [[exponential family]] (EF), but in fact forms a [[natural exponential family]] (NEF) with quadratic [[variance function]] ([[NEF-QVF]]). Many properties of normal distributions generalize to properties of NEF-QVF distributions, NEF distributions, or EF distributions generally. NEF-QVF distributions comprises 6 families, including Poisson, Gamma, binomial, and negative binomial distributions, while many of the common families studied in probability and statistics are NEF or EF.
+
+|7= In [[information geometry]], the family of normal distributions forms a [[statistical manifold]] with [[constant curvature]] &lt;math&gt;-1&lt;/math&gt;. The same family is [[flat manifold|flat]] with respect to the (±1)-connections ∇&lt;math&gt;^{(e)}&lt;/math&gt; and ∇&lt;math&gt;^{(m)}&lt;/math&gt;.&lt;ref&gt;{{harvtxt |Amari |Nagaoka |2000 }}&lt;/ref&gt;
+
+}}
+
+== Related distributions ==
+
+=== Central limit theorem ===
+[[File:De moivre-laplace.gif|right|thumb|250px|As the number of discrete events increases, the function begins to resemble a normal distribution]]
+[[File:Dice sum central limit theorem.svg|thumb|250px|Comparison of probability density functions, &lt;math&gt;p(k)&lt;/math&gt; for the sum of &lt;math&gt;n&lt;/math&gt; fair 6-sided dice to show their convergence to a normal distribution with increasing &lt;math&gt;na&lt;/math&gt;, in accordance to the central limit theorem. In the bottom-right graph, smoothed profiles of the previous graphs are rescaled, superimposed and compared with a normal distribution (black curve).]]
+{{Main|Central limit theorem}}
+
+The central limit theorem states that under certain (fairly common) conditions, the sum of many random variables will have an approximately normal distribution. More specifically, where &lt;math&gt;X_1,\ldots ,X_n&lt;/math&gt; are [[independent and identically distributed]] random variables with the same arbitrary distribution, zero mean, and variance &lt;math&gt;\sigma^2&lt;/math&gt; and &lt;math&gt;Z&lt;/math&gt; is their
+mean scaled by &lt;math&gt;\sqrt{n}&lt;/math&gt;
+:&lt;math&gt; Z = \sqrt{n}\left(\frac{1}{n}\sum_{i=1}^n X_i\right) &lt;/math&gt;
+Then, as &lt;math&gt;n&lt;/math&gt; increases, the probability distribution of &lt;math&gt;Z&lt;/math&gt; will tend to the normal distribution with zero mean and variance &lt;math&gt;\sigma^2&lt;/math&gt;.
+
+The theorem can be extended to variables &lt;math&gt;(X_i)&lt;/math&gt; that are not independent and/or not identically distributed if certain constraints are placed on the degree of dependence and the moments of the distributions.
+
+Many [[test statistic]]s, [[score (statistics)|scores]], and [[estimator]]s encountered in practice contain sums of certain random variables in them, and even more estimators can be represented as sums of random variables through the use of [[influence function (statistics)|influence functions]].  The central limit theorem implies that those statistical parameters will have asymptotically normal distributions.
+
+The central limit theorem also implies that certain distributions can be approximated by the normal distribution, for example:
+* The [[binomial distribution]] &lt;math&gt;B(n,p)&lt;/math&gt; is [[De Moivre–Laplace theorem|approximately normal]] with mean &lt;math&gt;np&lt;/math&gt; and variance &lt;math&gt;np(1-p)&lt;/math&gt; for large &lt;math&gt;n&lt;/math&gt; and for &lt;math&gt;p&lt;/math&gt; not too close to 0 or 1.
+* The [[Poisson distribution]] with parameter &lt;math&gt;\lambda&lt;/math&gt; is approximately normal with mean &lt;math&gt;\lambda&lt;/math&gt; and variance &lt;math&gt;\lambda&lt;/math&gt;, for large values of &lt;math&gt;\lambda&lt;/math&gt;.&lt;ref&gt;{{cite web|url=http://www.stat.ucla.edu/~dinov/courses_students.dir/Applets.dir/NormalApprox2PoissonApplet.html|title=Normal Approximation to Poisson Distribution|website=Stat.ucla.edu|date=|accessdate=2017-03-03}}&lt;/ref&gt;
+* The [[chi-squared distribution]] &lt;math&gt;\chi^2(k)&lt;/math&gt; is approximately normal with mean &lt;math&gt;k&lt;/math&gt; and variance &lt;math&gt;2k&lt;/math&gt;, for large &lt;math&gt;k&lt;/math&gt;.
+* The [[Student's t-distribution]] &lt;math&gt;t(\nu)&lt;/math&gt; is approximately normal with mean 0 and variance 1 when &lt;math&gt;\nu&lt;/math&gt; is large.
+
+Whether these approximations are sufficiently accurate depends on the purpose for which they are needed, and the rate of convergence to the normal distribution. It is typically the case that such approximations are less accurate in the tails of the distribution.
+
+A general upper bound for the approximation error in the central limit theorem is given by the [[Berry–Esseen theorem]], improvements of the approximation are given by the [[Edgeworth expansion]]s.
+
+=== Operations on a single random variable ===
+If ''X'' is distributed normally with mean ''μ'' and variance ''σ''&lt;sup&gt;2&lt;/sup&gt;, then
+* The exponential of ''X'' is distributed [[Log-normal distribution|log-normally]]: {{nowrap|''e&lt;sup&gt;X&lt;/sup&gt;'' ~ ln(''N'' (''μ'', ''σ''&lt;sup&gt;2&lt;/sup&gt;))}}.
+* The absolute value of ''X'' has [[folded normal distribution]]: {{nowrap|&amp;#124;''X''&amp;#124; ~ ''N&lt;sub&gt;f&lt;/sub&gt;'' (''μ'', ''σ''&lt;sup&gt;2&lt;/sup&gt;)}}. If {{nowrap|''μ'' {{=}} 0}} this is known as the [[half-normal distribution]].
+* The absolute value of normalized residuals, |''X'' − ''μ''|/''σ'', has [[chi distribution]] with one degree of freedom: |''X'' − ''μ''|/''σ'' ~ &lt;math&gt;\chi_1&lt;/math&gt;.
+* The square of ''X''/''σ'' has the [[noncentral chi-squared distribution]] with one degree of freedom: {{nowrap|1= ''X''&lt;sup&gt;2&lt;/sup&gt;/''σ''&lt;sup&gt;2&lt;/sup&gt; ~ &lt;math&gt;\chi_1^2&lt;/math&gt;(''μ''&lt;sup&gt;2&lt;/sup&gt;/''σ''&lt;sup&gt;2&lt;/sup&gt;)&lt;/span&gt;}}. If ''μ'' = 0, the distribution is called simply [[chi-squared distribution|chi-squared]].
+* The distribution of the variable ''X'' restricted to an interval [''a'', ''b''] is called the [[truncated normal distribution]].
+* (''X'' − ''μ'')&lt;sup&gt;−2&lt;/sup&gt; has a [[Lévy distribution]] with location 0 and scale ''σ''&lt;sup&gt;−2&lt;/sup&gt;.
+
+=== Combination of two independent random variables ===
+If &lt;math&gt;X_1&lt;/math&gt; and &lt;math&gt;X_2&lt;/math&gt; are two independent standard normal random variables with mean 0 and variance 1, then
+* Their sum and difference is distributed normally with mean zero and variance two: &lt;math&gt;X_1 \pm X_2 \sim N(0, 2)&lt;/math&gt;.
+* Their product &lt;math&gt;Z=X_1X_2&lt;/math&gt; follows the "product-normal" distribution&lt;ref&gt;{{cite web|url = http://mathworld.wolfram.com/NormalProductDistribution.html |title = Normal Product Distribution|work = MathWorld|publisher =wolfram.com| first = Eric W. |last = Weisstein}}&lt;/ref&gt; with density function &lt;math&gt;f_Z(z) = \pi^{-1} K_0(|z|)&lt;/math&gt; where &lt;math&gt;K_0&lt;/math&gt; is the [[Macdonald function|modified Bessel function of the second kind]]. This distribution is symmetric around zero, unbounded at &lt;math&gt;z = 0&lt;/math&gt;, and has the [[characteristic function (probability theory)|characteristic function]] &lt;math&gt; \phi_Z(t) = (1 + t^2)^{-1/2}&lt;/math&gt;.
+* Their ratio follows the standard [[Cauchy distribution]]: &lt;math&gt;X_1/ X_2 \sim \operatorname{Cauchy}(0, 1)&lt;/math&gt;.
+* Their Euclidean norm &lt;math&gt;\sqrt{X_1^2 + X_2^2}&lt;/math&gt; has the [[Rayleigh distribution]].
+
+=== Combination of two or more independent random variables ===
+* If &lt;math&gt;X_1, X_2, \ldots, X_n&lt;/math&gt; are independent standard normal random variables, then the sum of their squares has the [[chi-squared distribution]] with &lt;math&gt;\text{n}&lt;/math&gt; degrees of freedom
+::&lt;math&gt;X_1^2 + \cdots + X_n^2 \sim \chi_n^2.&lt;/math&gt;
+* If &lt;math&gt;X_1, X_2, \ldots, X_n&lt;/math&gt; are independent normally distributed random variables with means &lt;math&gt;\mu&lt;/math&gt; and variances &lt;math&gt;\sigma^2&lt;/math&gt;, then their [[sample mean]] is independent from the sample [[standard deviation]],&lt;ref&gt;{{cite journal|title=A Characterization of the Normal Distribution|last=Lukacs|first=Eugene|journal=[[The Annals of Mathematical Statistics]]|issn=0003-4851|volume=13|issue=1|year=1942|pages=91–3|jstor=2236166|doi=10.1214/aoms/1177731647|doi-access=free}}&lt;/ref&gt; which can be demonstrated using [[Basu's theorem]] or [[Cochran's theorem]].&lt;ref&gt;{{cite journal|title=On Some Characterizations of the Normal Distribution|last1=Basu|first1=D.|last2=Laha|first2=R. G.|journal=[[Sankhyā (journal)|Sankhyā]]|issn=0036-4452|volume=13|issue=4|year=1954|pages=359–62|jstor=25048183}}&lt;/ref&gt; The ratio of these two quantities will have the [[Student's t-distribution]] with &lt;math&gt;\text{n}-1&lt;/math&gt; degrees of freedom:
+::&lt;math&gt;t = \frac{\overline X - \mu}{S/\sqrt{n}} = \frac{\frac{1}{n}(X_1+\cdots+X_n) - \mu}{\sqrt{\frac{1}{n(n-1)}\left[(X_1-\overline X)^2+\cdots+(X_n-\overline X)^2\right]}} \sim t_{n-1}.&lt;/math&gt;
+* If &lt;math&gt;X_1, X_2, \ldots, X_n&lt;/math&gt;, &lt;math&gt;Y_1, Y_2, \ldots, Y_m&lt;/math&gt; are independent standard normal random variables, then the ratio of their normalized sums of squares will have the {{nowrap|[[F-distribution]]}} with {{math|(''n'', ''m'')}} degrees of freedom:&lt;ref&gt;{{cite book|title=Testing Statistical Hypotheses|edition=2nd|first=E. L.|last=Lehmann|publisher=Springer|year=1997|isbn=978-0-387-94919-2|page=199}}&lt;/ref&gt;
+::&lt;math&gt;F = \frac{\left(X_1^2+X_2^2+\cdots+X_n^2\right)/n}{\left(Y_1^2+Y_2^2+\cdots+Y_m^2\right)/m} \sim F_{n,m}.&lt;/math&gt;
+
+=== Operations on the density function ===
+The [[split normal distribution]] is most directly defined in terms of joining scaled sections of the density functions of different normal distributions and rescaling the density to integrate to one.  The [[truncated normal distribution]] results from rescaling a section of a single density function.
+
+=== Extensions ===
+The notion of normal distribution, being one of the most important distributions in probability theory, has been extended far beyond the standard framework of the univariate (that is one-dimensional) case (Case 1). All these extensions are also called ''normal'' or ''Gaussian'' laws, so a certain ambiguity in names exists.
+* The [[multivariate normal distribution]] describes the Gaussian law in the ''k''-dimensional [[Euclidean space]]. A vector {{nowrap|''X'' ∈ '''R'''&lt;sup&gt;''k''&lt;/sup&gt;}} is multivariate-normally distributed if any linear combination of its components {{nowrap|∑{{su|p=''k''|b=''j''=1}}''a&lt;sub&gt;j&lt;/sub&gt; X&lt;sub&gt;j&lt;/sub&gt;''}} has a (univariate) normal distribution. The variance of ''X'' is a ''k×k'' symmetric positive-definite matrix&amp;nbsp;''V''. The multivariate normal distribution is a special case of the [[elliptical distribution]]s. As such, its iso-density loci in the ''k'' = 2 case are [[ellipse]]s and in the case of arbitrary ''k'' are [[ellipsoid]]s.
+* [[Rectified Gaussian distribution]] a rectified version of normal distribution with all the negative elements reset to 0
+* [[Complex normal distribution]] deals with the complex normal vectors. A complex vector {{nowrap|''X'' ∈ '''C'''&lt;sup&gt;''k''&lt;/sup&gt;}} is said to be normal if both its real and imaginary components jointly possess a 2''k''-dimensional multivariate normal distribution. The variance-covariance structure of ''X'' is described by two matrices: the ''variance'' matrix&amp;nbsp;Γ, and the ''relation'' matrix&amp;nbsp;''C''.
+* [[Matrix normal distribution]] describes the case of normally distributed matrices.
+* [[Gaussian process]]es are the normally distributed [[stochastic process]]es. These can be viewed as elements of some infinite-dimensional [[Hilbert space]]&amp;nbsp;''H'', and thus are the analogues of multivariate normal vectors for the case {{nowrap|''k'' {{=}} ∞}}. A random element {{nowrap|''h'' ∈ ''H''}} is said to be normal if for any constant {{nowrap|''a'' ∈ ''H''}} the [[scalar product]] {{nowrap|(''a'', ''h'')}} has a (univariate) normal distribution. The variance structure of such Gaussian random element can be described in terms of the linear ''covariance {{nowrap|operator K: H → H}}''. Several Gaussian processes became popular enough to have their own names:
+** [[Wiener process|Brownian motion]],
+** [[Brownian bridge]],
+** [[Ornstein–Uhlenbeck process]].
+* [[Gaussian q-distribution]] is an abstract mathematical construction that represents a "[[q-analogue]]" of the normal distribution.
+* the [[q-Gaussian]] is an analogue of the Gaussian distribution, in the sense that it maximises the [[Tsallis entropy]], and is one type of [[Tsallis distribution]]. Note that this distribution is different from the [[Gaussian q-distribution]] above.
+
+A random variable ''X'' has a two-piece normal distribution if it has a distribution
+
+: &lt;math&gt; f_X( x ) = N( \mu, \sigma_1^2 )  \text{ if } x \le \mu&lt;/math&gt;
+: &lt;math&gt; f_X( x ) = N( \mu, \sigma_2^2 )  \text{ if } x \ge \mu&lt;/math&gt;
+
+where ''μ'' is the mean and ''σ''&lt;sub&gt;1&lt;/sub&gt; and ''σ''&lt;sub&gt;2&lt;/sub&gt; are the standard deviations of the distribution to the left and right of the mean respectively.
+
+The mean, variance and third central moment of this distribution have been determined&lt;ref name=John1982&gt;{{cite journal|last1=John|first1=S|year=1982|title=The three parameter two-piece normal family of distributions and its fitting|url=|journal=Communications in Statistics - Theory and Methods|volume=11|issue=8|pages=879–885|doi=10.1080/03610928208828279}}&lt;/ref&gt;
+
+:&lt;math&gt; \operatorname{E}( X ) = \mu +  \sqrt{\frac 2 \pi } ( \sigma_2 - \sigma_1 ) &lt;/math&gt;
+:&lt;math&gt; \operatorname{V}( X ) = \left( 1 - \frac 2 \pi\right)( \sigma_2 - \sigma_1 )^2 + \sigma_1 \sigma_2 &lt;/math&gt;
+: &lt;math&gt; \operatorname{T}( X ) = \sqrt{ \frac 2 \pi}( \sigma_2 - \sigma_1 ) \left[ \left( \frac 4 \pi  - 1 \right) ( \sigma_2 - \sigma_1)^2 + \sigma_1 \sigma_2 \right]&lt;/math&gt;
+
+where E(''X''), V(''X'') and T(''X'') are the mean, variance, and third central moment respectively.
+
+One of the main practical uses of the Gaussian law is to model the empirical distributions of many different random variables encountered in practice. In such case a possible extension would be a richer family of distributions, having more than two parameters and therefore being able to fit the empirical distribution more accurately. The examples of such extensions are:
+* [[Pearson distribution]] — a four-parameter family of probability distributions that extend the normal law to include different skewness and kurtosis values.
+* The [[generalized normal distribution]], also known as the exponential power distribution, allows for distribution tails with thicker or thinner asymptotic behaviors.
+
+== Statistical Inference ==
+=== Estimation of parameters ===
+{{See also|Maximum likelihood#Continuous distribution, continuous parameter space}}
+
+It is often the case that we don't know the parameters of the normal distribution, but instead want to [[Estimation theory|estimate]] them. That is, having a sample &lt;math&gt;(x_1, \ldots, x_n)&lt;/math&gt; from a normal &lt;math&gt;N(\mu, \sigma^2)&lt;/math&gt; population we would like to learn the approximate values of parameters &lt;math&gt;\mu&lt;/math&gt; and &lt;math&gt;\sigma^2&lt;/math&gt;. The standard approach to this problem is the [[maximum likelihood]] method, which requires maximization of the ''log-likelihood function'':
+: &lt;math&gt;
+   \ln\mathcal{L}(\mu,\sigma^2)
+     = \sum_{i=1}^n \ln f(x_i\mid\mu,\sigma^2)
+     = -\frac{n}{2}\ln(2\pi) - \frac{n}{2}\ln\sigma^2 - \frac{1}{2\sigma^2}\sum_{i=1}^n (x_i-\mu)^2.
+  &lt;/math&gt;
+Taking derivatives with respect to &lt;math&gt;\mu&lt;/math&gt; and &lt;math&gt;\sigma^2&lt;/math&gt; and solving the resulting system of first order conditions yields the ''maximum likelihood estimates'':
+: &lt;math&gt;
+    \hat{\mu} = \overline{x} \equiv \frac{1}{n}\sum_{i=1}^n x_i, \qquad
+    \hat{\sigma}^2 = \frac{1}{n} \sum_{i=1}^n (x_i - \overline{x})^2.
+  &lt;/math&gt;
+
+==== Sample mean ====
+{{See also|Standard error of the mean}}
+
+Estimator &lt;math style="vertical-align:-.3em"&gt;\textstyle\hat\mu&lt;/math&gt; is called the ''[[sample mean]]'', since it is the arithmetic mean of all observations. The statistic &lt;math style="vertical-align:0"&gt;\textstyle\overline{x}&lt;/math&gt; is [[complete statistic|complete]] and [[sufficient statistic|sufficient]] for &lt;math&gt;\mu&lt;/math&gt;, and therefore by the [[Lehmann–Scheffé theorem]], &lt;math style="vertical-align:-.3em"&gt;\textstyle\hat\mu&lt;/math&gt; is the [[uniformly minimum variance unbiased]] (UMVU) estimator.&lt;ref name="Kri127"&gt;{{harvtxt |Krishnamoorthy |2006 |p=127 }}&lt;/ref&gt; In finite samples it is distributed normally:
+: &lt;math&gt;
+    \hat\mu \sim \mathcal{N}(\mu,\sigma^2/n).
+  &lt;/math&gt;
+The variance of this estimator is equal to the ''μμ''-element of the inverse [[Fisher information matrix]] &lt;math style="vertical-align:0"&gt;\textstyle\mathcal{I}^{-1}&lt;/math&gt;. This implies that the estimator is [[efficient estimator|finite-sample efficient]]. Of practical importance is the fact that the [[standard error (statistics)|standard error]] of &lt;math style="vertical-align:-.3em"&gt;\textstyle\hat\mu&lt;/math&gt; is proportional to &lt;math style="vertical-align:-.3em"&gt;\textstyle1/\sqrt{n}&lt;/math&gt;, that is, if one wishes to decrease the standard error by a factor of 10, one must increase the number of points in the sample by a factor of 100. This fact is widely used in determining sample sizes for opinion polls and the number of trials in [[Monte Carlo simulation]]s.
+
+From the standpoint of the [[asymptotic theory (statistics)|asymptotic theory]], &lt;math style="vertical-align:-.3em"&gt;\textstyle\hat\mu&lt;/math&gt; is [[consistent estimator|consistent]], that is, it [[convergence in probability|converges in probability]] to &lt;math&gt;\mu&lt;/math&gt; as &lt;math&gt;n\rightarrow\infty&lt;/math&gt;. The estimator is also [[asymptotic normality|asymptotically normal]], which is a simple corollary of the fact that it is normal in finite samples:
+: &lt;math&gt;
+    \sqrt{n}(\hat\mu-\mu) \,\xrightarrow{d}\, \mathcal{N}(0,\sigma^2).
+  &lt;/math&gt;
+
+==== Sample variance ====
+{{See also|Standard deviation#Estimation|Variance#Estimation}}
+
+The estimator &lt;math style="vertical-align:0"&gt;\textstyle\hat\sigma^2&lt;/math&gt; is called the ''[[sample variance]]'', since it is the variance of the sample (&lt;math&gt;(x_1, \ldots, x_n)&lt;/math&gt;). In practice, another estimator is often used instead of the &lt;math style="vertical-align:0"&gt;\textstyle\hat\sigma^2&lt;/math&gt;. This other estimator is denoted  &lt;math&gt;s^2&lt;/math&gt;, and is also called the ''sample variance'', which represents a certain ambiguity in terminology; its square root &lt;math&gt;s&lt;/math&gt; is called the ''sample standard deviation''. The estimator &lt;math&gt;s^2&lt;/math&gt; differs from &lt;math style="vertical-align:0"&gt;\textstyle\hat\sigma^2&lt;/math&gt; by having {{nowrap|(''n'' − 1)}} instead of&amp;nbsp;''n'' in the denominator (the so-called [[Bessel's correction]]):
+: &lt;math&gt;
+    s^2 = \frac{n}{n-1} \hat\sigma^2 = \frac{1}{n-1} \sum_{i=1}^n (x_i - \overline{x})^2.
+  &lt;/math&gt;
+The difference between &lt;math&gt;s^2&lt;/math&gt; and &lt;math style="vertical-align:0"&gt;\textstyle\hat\sigma^2&lt;/math&gt; becomes negligibly small for large ''n''{{'}}s. In finite samples however, the motivation behind the use of &lt;math&gt;s^2&lt;/math&gt; is that it is an [[unbiased estimator]] of the underlying parameter &lt;math&gt;\sigma^2&lt;/math&gt;, whereas &lt;math style="vertical-align:0"&gt;\textstyle\hat\sigma^2&lt;/math&gt; is biased. Also, by the Lehmann–Scheffé theorem the estimator &lt;math&gt;s^2&lt;/math&gt; is uniformly minimum variance unbiased (UMVU),&lt;ref name="Kri127" /&gt; which makes it the "best" estimator among all unbiased ones. However it can be shown that the biased estimator &lt;math style="vertical-align:0"&gt;\textstyle\hat\sigma^2&lt;/math&gt; is "better" than the &lt;math&gt;s^2&lt;/math&gt; in terms of the [[mean squared error]] (MSE) criterion. In finite samples both &lt;math&gt;s^2&lt;/math&gt; and &lt;math style="vertical-align:0"&gt;\textstyle\hat\sigma^2&lt;/math&gt; have scaled [[chi-squared distribution]] with {{nowrap|(''n'' − 1)}} degrees of freedom:
+: &lt;math&gt;
+    s^2 \sim \frac{\sigma^2}{n-1} \cdot \chi^2_{n-1}, \qquad
+    \hat\sigma^2 \sim \frac{\sigma^2}{n} \cdot \chi^2_{n-1}.
+  &lt;/math&gt;
+The first of these expressions shows that the variance of &lt;math&gt;s^2&lt;/math&gt; is equal to &lt;math&gt;2\sigma^4/(n-1)&lt;/math&gt;, which is slightly greater than the ''σσ''-element of the inverse Fisher information matrix &lt;math style="vertical-align:0"&gt;\textstyle\mathcal{I}^{-1}&lt;/math&gt;. Thus, &lt;math&gt;s^2&lt;/math&gt; is not an efficient estimator for &lt;math&gt;\sigma^2&lt;/math&gt;, and moreover, since &lt;math&gt;s^2&lt;/math&gt; is UMVU, we can conclude that the finite-sample efficient estimator for &lt;math&gt;\sigma^2&lt;/math&gt; does not exist.
+
+Applying the asymptotic theory, both estimators &lt;math&gt;s^2&lt;/math&gt; and &lt;math style="vertical-align:0"&gt;\textstyle\hat\sigma^2&lt;/math&gt; are consistent, that is they converge in probability to &lt;math&gt;\sigma^2&lt;/math&gt; as the sample size &lt;math&gt;n\rightarrow\infty&lt;/math&gt;. The two estimators are also both asymptotically normal:
+: &lt;math&gt;
+    \sqrt{n}(\hat\sigma^2 - \sigma^2) \simeq
+    \sqrt{n}(s^2-\sigma^2) \,\xrightarrow{d}\, \mathcal{N}(0,2\sigma^4).
+  &lt;/math&gt;
+In particular, both estimators are asymptotically efficient for  &lt;math&gt;\sigma^2&lt;/math&gt;.
+
+=== Confidence intervals ===
+{{see also|Studentization}}
+
+By [[Cochran's theorem]], for normal distributions the sample mean &lt;math style="vertical-align:-.3em"&gt;\textstyle\hat\mu&lt;/math&gt; and the sample variance ''s''&lt;sup&gt;2&lt;/sup&gt; are [[independence (probability theory)|independent]], which means there can be no gain in considering their [[joint distribution]]. There is also a converse theorem: if in a sample the sample mean and sample variance are independent, then the sample must have come from the normal distribution. The independence between &lt;math style="vertical-align:-.3em"&gt;\textstyle\hat\mu&lt;/math&gt; and ''s'' can be employed to construct the so-called ''t-statistic'':
+: &lt;math&gt;
+    t = \frac{\hat\mu-\mu}{s/\sqrt{n}} = \frac{\overline{x}-\mu}{\sqrt{\frac{1}{n(n-1)}\sum(x_i-\overline{x})^2}} \sim t_{n-1}
+  &lt;/math&gt;
+This quantity ''t'' has the [[Student's t-distribution]] with {{nowrap|(''n'' − 1)}} degrees of freedom, and it is an [[ancillary statistic]] (independent of the value of the parameters). Inverting the distribution of this ''t''-statistics will allow us to construct the [[confidence interval]] for ''μ'';&lt;ref&gt;{{harvtxt |Krishnamoorthy |2006 |p=130 }}&lt;/ref&gt; similarly, inverting the ''χ''&lt;sup&gt;2&lt;/sup&gt; distribution of the statistic ''s''&lt;sup&gt;2&lt;/sup&gt; will give us the confidence interval for ''σ''&lt;sup&gt;2&lt;/sup&gt;:&lt;ref&gt;{{harvtxt |Krishnamoorthy |2006 |p=133 }}&lt;/ref&gt;
+
+:&lt;math&gt;\mu \in \left[ \hat\mu - t_{n-1,1-\alpha/2} \frac{1}{\sqrt{n}}s,
+                      \hat\mu + t_{n-1,1-\alpha/2} \frac{1}{\sqrt{n}}s \right] \approx
+              \left[ \hat\mu - |z_{\alpha/2}|\frac{1}{\sqrt n}s,
+                      \hat\mu + |z_{\alpha/2}|\frac{1}{\sqrt n}s \right],&lt;/math&gt;
+:&lt;math&gt;\sigma^2 \in \left[ \frac{(n-1)s^2}{\chi^2_{n-1,1-\alpha/2}},
+                            \frac{(n-1)s^2}{\chi^2_{n-1,\alpha/2}} \right] \approx
+                   \left[ s^2 - |z_{\alpha/2}|\frac{\sqrt{2}}{\sqrt{n}}s^2,
+                           s^2 + |z_{\alpha/2}|\frac{\sqrt{2}}{\sqrt{n}}s^2 \right],&lt;/math&gt;
+
+where ''t&lt;sub&gt;k,p&lt;/sub&gt;'' and {{SubSup|χ|''k,p''|2}} are the ''p''th [[quantile]]s of the ''t''- and ''χ''&lt;sup&gt;2&lt;/sup&gt;-distributions respectively. These confidence intervals are of the ''[[confidence level]]'' {{nowrap|1 − ''α''}}, meaning that the true values ''μ'' and ''σ''&lt;sup&gt;2&lt;/sup&gt; fall outside of these intervals with probability (or [[significance level]]) ''α''. In practice people usually take {{nowrap|''α'' {{=}} 5%}}, resulting in the 95% confidence intervals. The approximate formulas in the display above were derived from the asymptotic distributions of &lt;math style="vertical-align:-.3em"&gt;\textstyle\hat\mu&lt;/math&gt; and ''s''&lt;sup&gt;2&lt;/sup&gt;. The approximate formulas become valid for large values of ''n'', and are more convenient for the manual calculation since the standard normal quantiles ''z''&lt;sub&gt;''α''/2&lt;/sub&gt; do not depend on ''n''. In particular, the most popular value of {{nowrap|''α'' {{=}} 5%}}, results in {{nowrap|{{!}}''z''&lt;sub&gt;0.025&lt;/sub&gt;{{!}} {{=}} [[1.96]]}}.
+
+=== Normality tests ===
+{{Main|Normality tests}}
+
+Normality tests assess the likelihood that the given data set {''x''&lt;sub&gt;1&lt;/sub&gt;, ..., ''x&lt;sub&gt;n&lt;/sub&gt;''} comes from a normal distribution. Typically the [[null hypothesis]] ''H''&lt;sub&gt;0&lt;/sub&gt; is that the observations are distributed normally with unspecified mean ''μ'' and variance ''σ''&lt;sup&gt;2&lt;/sup&gt;, versus the alternative ''H&lt;sub&gt;a&lt;/sub&gt;'' that the distribution is arbitrary. Many tests (over 40) have been devised for this problem, the more prominent of them are outlined below:
+* '''"Visual" tests''' are more intuitively appealing but subjective at the same time, as they rely on informal human judgement to accept or reject the null hypothesis.
+** [[Q-Q plot]]— is a plot of the sorted values from the data set against the expected values of the corresponding quantiles from the standard normal distribution. That is, it's a plot of point of the form (Φ&lt;sup&gt;−1&lt;/sup&gt;(''p&lt;sub&gt;k&lt;/sub&gt;''), ''x''&lt;sub&gt;(''k'')&lt;/sub&gt;), where plotting points ''p&lt;sub&gt;k&lt;/sub&gt;'' are equal to ''p&lt;sub&gt;k&lt;/sub&gt;''&amp;nbsp;=&amp;nbsp;(''k''&amp;nbsp;−&amp;nbsp;''α'')/(''n''&amp;nbsp;+&amp;nbsp;1&amp;nbsp;−&amp;nbsp;2''α'') and ''α'' is an adjustment constant, which can be anything between 0 and&amp;nbsp;1. If the null hypothesis is true, the plotted points should approximately lie on a straight line.
+** [[P-P plot]]— similar to the Q-Q plot, but used much less frequently. This method consists of plotting the points (Φ(''z''&lt;sub&gt;(''k'')&lt;/sub&gt;), ''p&lt;sub&gt;k&lt;/sub&gt;''), where &lt;math&gt;\textstyle z_{(k)} = (x_{(k)}-\hat\mu)/\hat\sigma&lt;/math&gt;. For normally distributed data this plot should lie on a 45° line between (0,&amp;nbsp;0) and&amp;nbsp;(1,&amp;nbsp;1).
+** [[Shapiro-Wilk test]] employs the fact that the line in the Q-Q plot has the slope of ''σ''. The test compares the least squares estimate of that slope with the value of the sample variance, and rejects the null hypothesis if these two quantities differ significantly.
+** [[Normal probability plot]] ([[rankit]] plot)
+* '''Moment tests''':
+** [[D'Agostino's K-squared test]]
+** [[Jarque–Bera test]]
+* '''Empirical distribution function tests''':
+** [[Lilliefors test]] (an adaptation of the [[Kolmogorov–Smirnov test]])
+** [[Anderson–Darling test]]
+
+=== Bayesian analysis of the normal distribution ===
+Bayesian analysis of normally distributed data is complicated by the many different possibilities that may be considered:
+* Either the mean, or the variance, or neither, may be considered a fixed quantity.
+* When the variance is unknown, analysis may be done directly in terms of the variance, or in terms of the [[precision (statistics)|precision]], the reciprocal of the variance.  The reason for expressing the formulas in terms of precision is that the analysis of most cases is simplified.
+* Both univariate and [[multivariate normal distribution|multivariate]] cases need to be considered.
+* Either [[conjugate prior|conjugate]] or [[improper prior|improper]] [[prior distribution]]s may be placed on the unknown variables.
+* An additional set of cases occurs in [[Bayesian linear regression]], where in the basic model the data is assumed to be normally distributed, and normal priors are placed on the [[regression coefficient]]s. The resulting analysis is similar to the basic cases of [[independent identically distributed]] data, but more complex.
+
+The formulas for the non-linear-regression cases are summarized in the [[conjugate prior]] article.
+
+==== Sum of two quadratics ====
+
+===== Scalar form =====
+The following auxiliary formula is useful for simplifying the [[posterior distribution|posterior]] update equations, which otherwise become fairly tedious.
+
+:&lt;math&gt;a(x-y)^2 + b(x-z)^2 = (a + b)\left(x - \frac{ay+bz}{a+b}\right)^2 + \frac{ab}{a+b}(y-z)^2&lt;/math&gt;
+
+This equation rewrites the sum of two quadratics in ''x'' by expanding the squares, grouping the terms in ''x'', and [[completing the square]].  Note the following about the complex constant factors attached to some of the terms:
+# The factor &lt;math&gt;\frac{ay+bz}{a+b}&lt;/math&gt; has the form of a [[weighted average]] of ''y'' and ''z''.
+# &lt;math&gt;\frac{ab}{a+b} = \frac{1}{\frac{1}{a}+\frac{1}{b}} = (a^{-1} + b^{-1})^{-1}.&lt;/math&gt; This shows that this factor can be thought of as resulting from a situation where the [[Multiplicative inverse|reciprocals]] of quantities ''a'' and ''b'' add directly, so to combine ''a'' and ''b'' themselves, it's necessary to reciprocate, add, and reciprocate the result again to get back into the original units.  This is exactly the sort of operation performed by the [[harmonic mean]], so it is not surprising that &lt;math&gt;\frac{ab}{a+b}&lt;/math&gt; is one-half the [[harmonic mean]] of ''a'' and ''b''.
+
+===== Vector form =====
+A similar formula can be written for the sum of two vector quadratics: If '''x''', '''y''', '''z''' are vectors of length ''k'', and '''A''' and '''B''' are [[symmetric matrix|symmetric]], [[invertible matrices]] of size &lt;math&gt;k\times k&lt;/math&gt;, then
+
+:&lt;math&gt;
+\begin{align}
+&amp; (\mathbf{y}-\mathbf{x})'\mathbf{A}(\mathbf{y}-\mathbf{x}) + (\mathbf{x}-\mathbf{z})' \mathbf{B}(\mathbf{x}-\mathbf{z}) \\
+= {} &amp; (\mathbf{x} - \mathbf{c})'(\mathbf{A}+\mathbf{B})(\mathbf{x} - \mathbf{c}) + (\mathbf{y} - \mathbf{z})'(\mathbf{A}^{-1} + \mathbf{B}^{-1})^{-1}(\mathbf{y} - \mathbf{z})
+\end{align}
+&lt;/math&gt;
+
+where
+
+:&lt;math&gt;\mathbf{c} = (\mathbf{A} + \mathbf{B})^{-1}(\mathbf{A}\mathbf{y} + \mathbf{B} \mathbf{z}) &lt;/math&gt;
+
+Note that the form '''x'''′ '''A''' '''x''' is called a [[quadratic form]] and is a [[scalar (mathematics)|scalar]]:
+:&lt;math&gt;\mathbf{x}'\mathbf{A}\mathbf{x} = \sum_{i,j}a_{ij} x_i x_j&lt;/math&gt;
+In other words, it sums up all possible combinations of products of pairs of elements from '''x''', with a separate coefficient for each.  In addition, since &lt;math&gt;x_i x_j = x_j x_i&lt;/math&gt;, only the sum &lt;math&gt;a_{ij} + a_{ji}&lt;/math&gt; matters for any off-diagonal elements of '''A''', and there is no loss of generality in assuming that '''A''' is [[symmetric matrix|symmetric]].  Furthermore, if '''A''' is symmetric, then the form &lt;math&gt;\mathbf{x}'\mathbf{A}\mathbf{y} = \mathbf{y}'\mathbf{A}\mathbf{x}.&lt;/math&gt;
+
+==== Sum of differences from the mean ====
+Another useful formula is as follows:
+
+:&lt;math&gt;\sum_{i=1}^n (x_i-\mu)^2 = \sum_{i=1}^n(x_i-\bar{x})^2 + n(\bar{x} -\mu)^2&lt;/math&gt;
+
+where &lt;math&gt;\bar{x} = \frac{1}{n}\sum_{i=1}^n x_i.&lt;/math&gt;
+
+=== With known variance ===
+For a set of [[i.i.d.]] normally distributed data points '''X''' of size ''n'' where each individual point ''x'' follows &lt;math&gt;x \sim \mathcal{N}(\mu, \sigma^2)&lt;/math&gt; with known [[variance]] σ&lt;sup&gt;2&lt;/sup&gt;, the [[conjugate prior]] distribution is also normally distributed.
+
+This can be shown more easily by rewriting the variance as the [[precision (statistics)|precision]], i.e. using τ = 1/σ&lt;sup&gt;2&lt;/sup&gt;. Then if &lt;math&gt;x \sim \mathcal{N}(\mu, 1/\tau)&lt;/math&gt; and &lt;math&gt;\mu \sim \mathcal{N}(\mu_0, 1/\tau_0),&lt;/math&gt; we proceed as follows.
+
+First, the [[likelihood function]] is (using the formula above for the sum of differences from the mean):
+
+:&lt;math&gt;\begin{align}
+p(\mathbf{X}\mid\mu,\tau) &amp;= \prod_{i=1}^n \sqrt{\frac{\tau}{2\pi}} \exp\left(-\frac{1}{2}\tau(x_i-\mu)^2\right) \\
+&amp;= \left(\frac{\tau}{2\pi}\right)^{n/2} \exp\left(-\frac{1}{2}\tau \sum_{i=1}^n (x_i-\mu)^2\right) \\
+&amp;= \left(\frac{\tau}{2\pi}\right)^{n/2} \exp\left[-\frac{1}{2}\tau \left(\sum_{i=1}^n(x_i-\bar{x})^2 + n(\bar{x} -\mu)^2\right)\right].
+\end{align}&lt;/math&gt;
+
+Then, we proceed as follows:
+
+:&lt;math&gt;\begin{align}
+p(\mu\mid\mathbf{X}) &amp;\propto p(\mathbf{X}\mid\mu) p(\mu) \\
+&amp; = \left(\frac{\tau}{2\pi}\right)^{n/2} \exp\left[-\frac{1}{2}\tau \left(\sum_{i=1}^n(x_i-\bar{x})^2 + n(\bar{x} -\mu)^2\right)\right] \sqrt{\frac{\tau_0}{2\pi}} \exp\left(-\frac{1}{2}\tau_0(\mu-\mu_0)^2\right) \\
+&amp;\propto \exp\left(-\frac{1}{2}\left(\tau\left(\sum_{i=1}^n(x_i-\bar{x})^2 + n(\bar{x} -\mu)^2\right) + \tau_0(\mu-\mu_0)^2\right)\right) \\
+&amp;\propto \exp\left(-\frac{1}{2} \left(n\tau(\bar{x}-\mu)^2 + \tau_0(\mu-\mu_0)^2 \right)\right) \\
+&amp;= \exp\left(-\frac{1}{2}(n\tau + \tau_0)\left(\mu - \dfrac{n\tau \bar{x} + \tau_0\mu_0}{n\tau + \tau_0}\right)^2 + \frac{n\tau\tau_0}{n\tau+\tau_0}(\bar{x} - \mu_0)^2\right) \\
+&amp;\propto \exp\left(-\frac{1}{2}(n\tau + \tau_0)\left(\mu - \dfrac{n\tau \bar{x} + \tau_0\mu_0}{n\tau + \tau_0}\right)^2\right)
+\end{align}&lt;/math&gt;
+
+In the above derivation, we used the formula above for the sum of two quadratics and eliminated all constant factors not involving&amp;nbsp;''μ''.  The result is the [[kernel (statistics)|kernel]] of a normal distribution, with mean &lt;math&gt;\frac{n\tau \bar{x} + \tau_0\mu_0}{n\tau + \tau_0}&lt;/math&gt; and precision &lt;math&gt;n\tau + \tau_0&lt;/math&gt;, i.e.
+
+:&lt;math&gt;p(\mu\mid\mathbf{X}) \sim \mathcal{N}\left(\frac{n\tau \bar{x} + \tau_0\mu_0}{n\tau + \tau_0}, \frac{1}{n\tau + \tau_0}\right)&lt;/math&gt;
+
+This can be written as a set of Bayesian update equations for the posterior parameters in terms of the prior parameters:
+
+:&lt;math&gt;\begin{align}
+\tau_0' &amp;= \tau_0 + n\tau \\
+\mu_0' &amp;= \frac{n\tau \bar{x} + \tau_0\mu_0}{n\tau + \tau_0} \\
+\bar{x} &amp;= \frac{1}{n}\sum_{i=1}^n x_i
+\end{align}&lt;/math&gt;
+
+That is, to combine ''n'' data points with total precision of ''nτ'' (or equivalently, total variance of ''n''/''σ''&lt;sup&gt;2&lt;/sup&gt;) and mean of values &lt;math&gt;\bar{x}&lt;/math&gt;, derive a new total precision simply by adding the total precision of the data to the prior total precision, and form a new mean through a ''precision-weighted average'', i.e. a [[weighted average]] of the data mean and the prior mean, each weighted by the associated total precision. This makes logical sense if the precision is thought of as indicating the certainty of the observations: In the distribution of the posterior mean, each of the input components is weighted by its certainty, and the certainty of this distribution is the sum of the individual certainties. (For the intuition of this, compare the expression "the whole is (or is not) greater than the sum of its parts".  In addition, consider that the knowledge of the posterior comes from a combination of the knowledge of the prior and likelihood, so it makes sense that we are more certain of it than of either of its components.)
+
+The above formula reveals why it is more convenient to do [[Bayesian analysis]] of [[conjugate prior]]s for the normal distribution in terms of the precision.  The posterior precision is simply the sum of the prior and likelihood precisions, and the posterior mean is computed through a precision-weighted average, as described above.  The same formulas can be written in terms of variance by reciprocating all the precisions, yielding the more ugly formulas
+
+:&lt;math&gt;\begin{align}
+{\sigma^2_0}' &amp;= \frac{1}{\frac{n}{\sigma^2} + \frac{1}{\sigma_0^2}} \\
+\mu_0' &amp;= \frac{\frac{n\bar{x}}{\sigma^2} + \frac{\mu_0}{\sigma_0^2}}{\frac{n}{\sigma^2} + \frac{1}{\sigma_0^2}} \\
+\bar{x} &amp;= \frac{1}{n}\sum_{i=1}^n x_i
+\end{align}&lt;/math&gt;
+
+==== With known mean ====
+For a set of [[i.i.d.]] normally distributed data points '''X''' of size ''n'' where each individual point ''x'' follows &lt;math&gt;x \sim \mathcal{N}(\mu, \sigma^2)&lt;/math&gt; with known mean μ, the [[conjugate prior]] of the [[variance]] has an [[inverse gamma distribution]] or a [[scaled inverse chi-squared distribution]].  The two are equivalent except for having different [[parameterization]]s.  Although the inverse gamma is more commonly used, we use the scaled inverse chi-squared for the sake of convenience.  The prior for σ&lt;sup&gt;2&lt;/sup&gt; is as follows:
+
+:&lt;math&gt;p(\sigma^2\mid\nu_0,\sigma_0^2) = \frac{(\sigma_0^2\frac{\nu_0}{2})^{\nu_0/2}}{\Gamma\left(\frac{\nu_0}{2} \right)}~\frac{\exp\left[ \frac{-\nu_0 \sigma_0^2}{2 \sigma^2}\right]}{(\sigma^2)^{1+\frac{\nu_0}{2}}} \propto \frac{\exp\left[ \frac{-\nu_0 \sigma_0^2}{2 \sigma^2}\right]}{(\sigma^2)^{1+\frac{\nu_0}{2}}}&lt;/math&gt;
+
+The [[likelihood function]] from above, written in terms of the variance, is:
+
+:&lt;math&gt;\begin{align}
+p(\mathbf{X}\mid\mu,\sigma^2) &amp;= \left(\frac{1}{2\pi\sigma^2}\right)^{n/2} \exp\left[-\frac{1}{2\sigma^2} \sum_{i=1}^n (x_i-\mu)^2\right] \\
+&amp;= \left(\frac{1}{2\pi\sigma^2}\right)^{n/2} \exp\left[-\frac{S}{2\sigma^2}\right]
+\end{align}&lt;/math&gt;
+
+where
+
+:&lt;math&gt;S = \sum_{i=1}^n (x_i-\mu)^2.&lt;/math&gt;
+
+Then:
+
+:&lt;math&gt;\begin{align}
+p(\sigma^2\mid\mathbf{X}) &amp;\propto p(\mathbf{X}\mid\sigma^2) p(\sigma^2) \\
+&amp;= \left(\frac{1}{2\pi\sigma^2}\right)^{n/2} \exp\left[-\frac{S}{2\sigma^2}\right] \frac{(\sigma_0^2\frac{\nu_0}{2})^{\frac{\nu_0}{2}}}{\Gamma\left(\frac{\nu_0}{2} \right)}~\frac{\exp\left[ \frac{-\nu_0 \sigma_0^2}{2 \sigma^2}\right]}{(\sigma^2)^{1+\frac{\nu_0}{2}}} \\
+&amp;\propto \left(\frac{1}{\sigma^2}\right)^{n/2} \frac{1}{(\sigma^2)^{1+\frac{\nu_0}{2}}} \exp\left[-\frac{S}{2\sigma^2} + \frac{-\nu_0 \sigma_0^2}{2 \sigma^2}\right] \\
+&amp;= \frac{1}{(\sigma^2)^{1+\frac{\nu_0+n}{2}}} \exp\left[-\frac{\nu_0 \sigma_0^2 + S}{2\sigma^2}\right]
+\end{align}&lt;/math&gt;
+
+The above is also a scaled inverse chi-squared distribution where
+
+:&lt;math&gt;\begin{align}
+\nu_0' &amp;= \nu_0 + n \\
+\nu_0'{\sigma_0^2}' &amp;= \nu_0 \sigma_0^2 + \sum_{i=1}^n (x_i-\mu)^2
+\end{align}&lt;/math&gt;
+
+or equivalently
+
+:&lt;math&gt;\begin{align}
+\nu_0' &amp;= \nu_0 + n \\
+{\sigma_0^2}' &amp;= \frac{\nu_0 \sigma_0^2 + \sum_{i=1}^n (x_i-\mu)^2}{\nu_0+n}
+\end{align}&lt;/math&gt;
+
+Reparameterizing in terms of an [[inverse gamma distribution]], the result is:
+
+:&lt;math&gt;\begin{align}
+\alpha' &amp;= \alpha + \frac{n}{2} \\
+\beta' &amp;= \beta + \frac{\sum_{i=1}^n (x_i-\mu)^2}{2}
+\end{align}&lt;/math&gt;
+
+==== With unknown mean and unknown variance ====
+For a set of [[i.i.d.]] normally distributed data points '''X''' of size ''n'' where each individual point ''x'' follows &lt;math&gt;x \sim \mathcal{N}(\mu, \sigma^2)&lt;/math&gt; with unknown mean μ and unknown [[variance]] σ&lt;sup&gt;2&lt;/sup&gt;, a combined (multivariate) [[conjugate prior]] is placed over the mean and variance, consisting of a [[normal-inverse-gamma distribution]].
+Logically, this originates as follows:
+# From the analysis of the case with unknown mean but known variance, we see that the update equations involve [[sufficient statistic]]s computed from the data consisting of the mean of the data points and the total variance of the data points, computed in turn from the known variance divided by the number of data points.
+# From the analysis of the case with unknown variance but known mean, we see that the update equations involve sufficient statistics over the data consisting of the number of data points and [[sum of squared deviations]].
+# Keep in mind that the posterior update values serve as the prior distribution when further data is handled.  Thus, we should logically think of our priors in terms of the sufficient statistics just described, with the same semantics kept in mind as much as possible.
+# To handle the case where both mean and variance are unknown, we could place independent priors over the mean and variance, with fixed estimates of the average mean, total variance, number of data points used to compute the variance prior, and sum of squared deviations.  Note however that in reality, the total variance of the mean depends on the unknown variance, and the sum of squared deviations that goes into the variance prior (appears to) depend on the unknown mean.  In practice, the latter dependence is relatively unimportant: Shifting the actual mean shifts the generated points by an equal amount, and on average the squared deviations will remain the same.  This is not the case, however, with the total variance of the mean: As the unknown variance increases, the total variance of the mean will increase proportionately, and we would like to capture this dependence.
+# This suggests that we create a ''conditional prior'' of the mean on the unknown variance, with a hyperparameter specifying the mean of the [[pseudo-observation]]s associated with the prior, and another parameter specifying the number of pseudo-observations.  This number serves as a scaling parameter on the variance, making it possible to control the overall variance of the mean relative to the actual variance parameter.  The prior for the variance also has two hyperparameters, one specifying the sum of squared deviations of the pseudo-observations associated with the prior, and another specifying once again the number of pseudo-observations.  Note that each of the priors has a hyperparameter specifying the number of pseudo-observations, and in each case this controls the relative variance of that prior.  These are given as two separate hyperparameters so that the variance (aka the confidence) of the two priors can be controlled separately.
+# This leads immediately to the [[normal-inverse-gamma distribution]], which is the product of the two distributions just defined, with [[conjugate prior]]s used (an [[inverse gamma distribution]] over the variance, and a normal distribution over the mean, ''conditional'' on the variance) and with the same four parameters just defined.
+
+The priors are normally defined as follows:
+
+:&lt;math&gt;\begin{align}
+p(\mu\mid\sigma^2; \mu_0, n_0) &amp;\sim \mathcal{N}(\mu_0,\sigma^2/n_0) \\
+p(\sigma^2; \nu_0,\sigma_0^2) &amp;\sim I\chi^2(\nu_0,\sigma_0^2) = IG(\nu_0/2, \nu_0\sigma_0^2/2)
+\end{align}&lt;/math&gt;
+&lt;!-- \\
+ &amp; =\frac{(\sigma_0^2\nu_0/2)^{\nu_0/2}}{\Gamma(\nu_0/2)}~\frac{\exp\left[ \frac{-\nu_0 \sigma_0^2}{2 \sigma^2}\right]}{(\sigma^2)^{1+\nu_0/2}} \propto \frac{\exp\left[ \frac{-\nu_0 \sigma_0^2}{2 \sigma^2}\right]}{(\sigma^2)^{1+\nu_0/2}}
+--&gt;
+
+The update equations can be derived, and look as follows:
+
+:&lt;math&gt;\begin{align}
+\bar{x} &amp;= \frac 1 n \sum_{i=1}^n x_i \\
+\mu_0' &amp;= \frac{n_0\mu_0 + n\bar{x}}{n_0 + n} \\
+n_0' &amp;= n_0 + n \\
+\nu_0' &amp;= \nu_0 + n \\
+\nu_0'{\sigma_0^2}' &amp;= \nu_0 \sigma_0^2 + \sum_{i=1}^n (x_i-\bar{x})^2 + \frac{n_0 n}{n_0 + n}(\mu_0 - \bar{x})^2
+\end{align}&lt;/math&gt;
+
+The respective numbers of pseudo-observations add the number of actual observations to them.  The new mean hyperparameter is once again a weighted average, this time weighted by the relative numbers of observations.  Finally, the update for &lt;math&gt;\nu_0'{\sigma_0^2}'&lt;/math&gt; is similar to the case with known mean, but in this case the sum of squared deviations is taken with respect to the observed data mean rather than the true mean, and as a result a new "interaction term" needs to be added to take care of the additional error source stemming from the deviation between prior and data mean.
+
+{{hidden begin|header=[Proof]|toggle=left}}
+The prior distributions are
+
+:&lt;math&gt;\begin{align}
+p(\mu\mid\sigma^2; \mu_0, n_0) &amp;\sim \mathcal{N}(\mu_0,\sigma^2/n_0) = \frac{1}{\sqrt{2\pi\frac{\sigma^2}{n_0}}} \exp\left(-\frac{n_0}{2\sigma^2}(\mu-\mu_0)^2\right) \\
+&amp;\propto (\sigma^2)^{-1/2} \exp\left(-\frac{n_0}{2\sigma^2}(\mu-\mu_0)^2\right) \\
+p(\sigma^2; \nu_0,\sigma_0^2) &amp;\sim I\chi^2(\nu_0,\sigma_0^2) = IG(\nu_0/2, \nu_0\sigma_0^2/2) \\
+&amp;= \frac{(\sigma_0^2\nu_0/2)^{\nu_0/2}}{\Gamma(\nu_0/2)}~\frac{\exp\left[ \frac{-\nu_0 \sigma_0^2}{2 \sigma^2}\right]}{(\sigma^2)^{1+\nu_0/2}} \\
+&amp;\propto {(\sigma^2)^{-(1+\nu_0/2)}} \exp\left[ \frac{-\nu_0 \sigma_0^2}{2 \sigma^2}\right].
+\end{align}&lt;/math&gt;
+
+Therefore, the joint prior is
+
+:&lt;math&gt;\begin{align}
+p(\mu,\sigma^2; \mu_0, n_0, \nu_0,\sigma_0^2) &amp;= p(\mu\mid\sigma^2; \mu_0, n_0)\,p(\sigma^2; \nu_0,\sigma_0^2) \\
+&amp;\propto (\sigma^2)^{-(\nu_0+3)/2} \exp\left[-\frac 1 {2\sigma^2}\left(\nu_0\sigma_0^2 + n_0(\mu-\mu_0)^2\right)\right].
+\end{align}&lt;/math&gt;
+
+The [[likelihood function]] from the section above with known variance is:
+
+:&lt;math&gt;\begin{align}
+p(\mathbf{X}\mid\mu,\sigma^2) &amp;= \left(\frac{1}{2\pi\sigma^2}\right)^{n/2} \exp\left[-\frac{1}{2\sigma^2} \left(\sum_{i=1}^n(x_i -\mu)^2\right)\right]
+\end{align}&lt;/math&gt;
+
+Writing it in terms of variance rather than precision, we get:
+:&lt;math&gt;\begin{align}
+p(\mathbf{X}\mid\mu,\sigma^2) &amp;= \left(\frac{1}{2\pi\sigma^2}\right)^{n/2} \exp\left[-\frac{1}{2\sigma^2} \left(\sum_{i=1}^n(x_i-\bar{x})^2 + n(\bar{x} -\mu)^2\right)\right] \\
+&amp;\propto {\sigma^2}^{-n/2} \exp\left[-\frac{1}{2\sigma^2} \left(S + n(\bar{x} -\mu)^2\right)\right]
+\end{align}&lt;/math&gt;
+
+where &lt;math&gt;S = \sum_{i=1}^n(x_i-\bar{x})^2.&lt;/math&gt;
+
+Therefore, the posterior is (dropping the hyperparameters as conditioning factors):
+
+:&lt;math&gt;\begin{align}
+p(\mu,\sigma^2\mid\mathbf{X}) &amp; \propto p(\mu,\sigma^2) \, p(\mathbf{X}\mid\mu,\sigma^2) \\
+&amp; \propto (\sigma^2)^{-(\nu_0+3)/2} \exp\left[-\frac{1}{2\sigma^2}\left(\nu_0\sigma_0^2 + n_0(\mu-\mu_0)^2\right)\right] {\sigma^2}^{-n/2} \exp\left[-\frac{1}{2\sigma^2} \left(S + n(\bar{x} -\mu)^2\right)\right] \\
+&amp;= (\sigma^2)^{-(\nu_0+n+3)/2} \exp\left[-\frac{1}{2\sigma^2}\left(\nu_0\sigma_0^2 + S + n_0(\mu-\mu_0)^2 + n(\bar{x} -\mu)^2\right)\right] \\
+&amp;= (\sigma^2)^{-(\nu_0+n+3)/2} \exp\left[-\frac{1}{2\sigma^2}\left(\nu_0\sigma_0^2 + S + \frac{n_0 n}{n_0+n}(\mu_0-\bar{x})^2 + (n_0+n)\left(\mu-\frac{n_0\mu_0 + n\bar{x}}{n_0 + n}\right)^2\right)\right] \\
+&amp; \propto (\sigma^2)^{-1/2} \exp\left[-\frac{n_0+n}{2\sigma^2}\left(\mu-\frac{n_0\mu_0 + n\bar{x}}{n_0 + n}\right)^2\right] \\
+&amp; \quad\times (\sigma^2)^{-(\nu_0/2+n/2+1)} \exp\left[-\frac{1}{2\sigma^2}\left(\nu_0\sigma_0^2 + S + \frac{n_0 n}{n_0+n}(\mu_0-\bar{x})^2\right)\right] \\
+&amp; = \mathcal{N}_{\mu\mid\sigma^2}\left(\frac{n_0\mu_0 + n\bar{x}}{n_0 + n}, \frac{\sigma^2}{n_0+n}\right) \cdot {\rm IG}_{\sigma^2}\left(\frac12(\nu_0+n), \frac12\left(\nu_0\sigma_0^2 + S + \frac{n_0 n}{n_0+n}(\mu_0-\bar{x})^2\right)\right).
+\end{align}&lt;/math&gt;
+
+In other words, the posterior distribution has the form of a product of a normal distribution over ''p''(''μ''&amp;nbsp;|&amp;nbsp;''σ''&lt;sup&gt;2&lt;/sup&gt;) times an inverse gamma distribution over ''p''(σ&lt;sup&gt;2&lt;/sup&gt;), with parameters that are the same as the update equations above.
+{{hidden end}}
+
+==Occurrence and applications==
+The occurrence of normal distribution in practical problems can be loosely classified into four categories:
+# Exactly normal distributions;
+# Approximately normal laws, for example when such approximation is justified by the [[central limit theorem]]; and
+# Distributions modeled as normal – the normal distribution being the distribution with [[Principle of maximum entropy|maximum entropy]] for a given mean and variance.
+# Regression problems – the normal distribution being found after systematic effects have been modeled sufficiently well.
+
+=== Exact normality ===
+[[File:QHarmonicOscillator.png|thumb|The ground state of a [[quantum harmonic oscillator]] has the [[Gaussian distribution]].]]
+Certain quantities in [[physics]] are distributed normally, as was first demonstrated by [[James Clerk Maxwell]]. Examples of such quantities are:
+* Probability density function of a ground state in a [[quantum harmonic oscillator]].
+* The position of a particle that experiences [[diffusion]]. If initially the particle is located at a specific point (that is its probability distribution is the [[Dirac delta function]]), then after time ''t'' its location is described by a normal distribution with variance ''t'', which satisfies the [[diffusion equation]]&amp;nbsp;&lt;math&gt;\frac{\partial}{\partial t} f(x,t) = \frac{1}{2} \frac{\partial^2}{\partial x^2} f(x,t)&lt;/math&gt;. If the initial location is given by a certain density function &lt;math&gt;g(x)&lt;/math&gt;, then the density at time ''t'' is the [[convolution]] of ''g'' and the normal PDF.
+
+=== Approximate normality ===
+''Approximately'' normal distributions occur in many situations, as explained by the [[central limit theorem]]. When the outcome is produced by many small effects acting ''additively and independently'', its distribution will be close to normal. The normal approximation will not be valid if the effects act multiplicatively (instead of additively), or if there is a single external influence that has a considerably larger magnitude than the rest of the effects.
+* In counting problems, where the central limit theorem includes a discrete-to-continuum approximation and where [[Infinite divisibility|infinitely divisible]] and [[Indecomposable distribution|decomposable]] distributions are involved, such as
+** [[binomial distribution|Binomial random variables]], associated with binary response variables;
+** [[Poisson distribution|Poisson random variables]], associated with rare events;
+* [[Thermal radiation]] has a [[Bose–Einstein statistics|Bose–Einstein]] distribution on very short time scales, and a normal distribution on longer timescales due to the central limit theorem.
+
+=== Assumed normality ===
+[[File:Fisher iris versicolor sepalwidth.svg|thumb|right|Histogram of sepal widths for ''Iris versicolor'' from Fisher's [[Iris flower data set]], with superimposed best-fitting normal distribution.]]
+{{quote|I can only recognize the occurrence of the normal curve – the Laplacian curve of errors – as a very abnormal phenomenon. It is roughly approximated to in certain distributions; for this reason, and on account for its beautiful simplicity, we may, perhaps, use it as a first approximation, particularly in theoretical investigations.|{{harvtxt |Pearson |1901 }}}}
+There are statistical methods to empirically test that assumption, see the above [[Normal distribution#Normality tests|Normality tests]] section.
+* In [[biology]], the ''logarithm'' of various variables tend to have a normal distribution, that is, they tend to have a [[log-normal distribution]] (after separation on male/female subpopulations), with examples including:
+** Measures of size of living tissue (length, height, skin area, weight);&lt;ref&gt;{{harvtxt |Huxley |1932 }}&lt;/ref&gt;
+** The ''length'' of ''inert'' appendages (hair, claws, nails, teeth) of biological specimens, ''in the direction of growth''; presumably the thickness of tree bark also falls under this category;
+** Certain physiological measurements, such as blood pressure of adult humans.
+* In finance, in particular the [[Black–Scholes model]], changes in the ''logarithm'' of exchange rates, price indices, and stock market indices are assumed normal (these variables behave like [[compound interest]], not like simple interest, and so are multiplicative). Some mathematicians such as [[Benoit Mandelbrot]] have argued that [[Levy skew alpha-stable distribution|log-Levy distributions]], which possesses [[heavy tails]] would be a more appropriate model, in particular for the analysis for [[stock market crash]]es. The use of the assumption of normal distribution occurring in financial models has also been criticized by [[Nassim Nicholas Taleb]] in his works.
+* [[Propagation of uncertainty|Measurement errors]] in physical experiments are often modeled by a normal distribution. This use of a normal distribution does not imply that one is assuming the measurement errors are normally distributed, rather using the normal distribution produces the most conservative predictions possible given only knowledge about the mean and variance of the errors.&lt;ref&gt;{{cite book|last=Jaynes|first=Edwin T.|year=2003|title=Probability Theory: The Logic of Science|publisher=Cambridge University Press|pages=592–593|url=https://books.google.com/books?id=tTN4HuUNXjgC&amp;pg=PA592|isbn=9780521592710}}&lt;/ref&gt;
+* In [[Standardized testing (statistics)|standardized testing]], results can be made to have a normal distribution by either selecting the number and difficulty of questions (as in the [[Intelligence quotient|IQ test]]) or transforming the raw test scores into "output" scores by fitting them to the normal distribution. For example, the [[SAT]]'s traditional range of 200–800 is based on a normal distribution with a mean of 500 and a standard deviation of 100.
+[[File:FitNormDistr.tif|thumb|220px|Fitted cumulative normal distribution to October rainfalls, see [[distribution fitting]] ]]
+* Many scores are derived from the normal distribution, including [[percentile rank]]s ("percentiles" or "quantiles"), [[normal curve equivalent]]s, [[stanine]]s, [[Standard score|z-scores]], and T-scores. Additionally, some behavioral statistical procedures assume that scores are normally distributed; for example, [[Student's t-test|t-tests]] and [[Analysis of variance|ANOVAs]]. [[Bell curve grading]] assigns relative grades based on a normal distribution of scores.
+* In [[hydrology]] the distribution of long duration river discharge or rainfall, e.g. monthly and yearly totals, is often thought to be practically normal according to the [[central limit theorem]].&lt;ref&gt;{{cite book|last=Oosterbaan|first=Roland J. |editor-last=Ritzema |editor-first=Henk P.|chapter=Chapter 6: Frequency and Regression Analysis of Hydrologic Data|year=1994|edition=second revised|title=Drainage Principles and Applications, Publication 16|publisher=International Institute for Land Reclamation and Improvement (ILRI)|location=Wageningen, The Netherlands|pages=175–224|chapter-url=http://www.waterlog.info/pdf/freqtxt.pdf|isbn=978-90-70754-33-4}}&lt;/ref&gt; The blue picture, made with [[CumFreq]], illustrates an example of fitting the normal distribution to ranked October rainfalls showing the 90% [[confidence belt]] based on the [[binomial distribution]]. The rainfall data are represented by [[plotting position]]s as part of the [[cumulative frequency analysis]].
+
+=== Produced normality ===
+In [[regression analysis]], lack of normality in [[Errors and residuals in statistics|residuals]] simply indicates that the model postulated is inadequate in accounting for the tendency in the data and needs to be augmented; in other words, normality in residuals can always be achieved given a properly constructed model.{{Citation needed|date=May 2020|reason=This is a crucial claim about fundamental regression analysis.}}
+
+== Computational methods ==
+=== Generating values from normal distribution ===
+[[File:Planche de Galton.jpg|thumb|250px|right|The [[bean machine]], a device invented by [[Francis Galton]], can be called the first generator of normal random variables. This machine consists of a vertical board with interleaved rows of pins. Small balls are dropped from the top and then bounce randomly left or right as they hit the pins. The balls are collected into bins at the bottom and settle down into a pattern resembling the Gaussian curve.]]
+
+In computer simulations, especially in applications of the [[Monte-Carlo method]], it is often desirable to generate values that are normally distributed. The algorithms listed below all generate the standard normal deviates, since a {{nowrap|''N''(''μ, σ''{{su|p=2}})}} can be generated as {{nowrap|''X {{=}} μ + σZ''}}, where ''Z'' is standard normal. All these algorithms rely on the availability of a [[random number generator]] ''U'' capable of producing [[Uniform distribution (continuous)|uniform]] random variates.
+* The most straightforward method is based on the [[probability integral transform]] property: if ''U'' is distributed uniformly on (0,1), then Φ&lt;sup&gt;−1&lt;/sup&gt;(''U'') will have the standard normal distribution. The drawback of this method is that it relies on calculation of the [[probit function]] Φ&lt;sup&gt;−1&lt;/sup&gt;, which cannot be done analytically. Some approximate methods are described in {{harvtxt |Hart |1968 }} and in the [[error function|erf]] article. Wichura gives a fast algorithm for computing this function to 16 decimal places,&lt;ref&gt;{{cite journal|last=Wichura|first=Michael J.|year=1988|title=Algorithm AS241: The Percentage Points of the Normal Distribution|journal=Applied Statistics|volume=37|pages=477–84|doi=10.2307/2347330|jstor=2347330|issue=3}}&lt;/ref&gt; which is used by [[R programming language|R]] to compute random variates of the normal distribution.
+* An easy to program approximate approach, that relies on the [[central limit theorem]], is as follows: generate 12 uniform ''U''(0,1) deviates, add them all up, and subtract 6 – the resulting random variable will have approximately standard normal distribution. In truth, the distribution will be [[Irwin–Hall distribution|Irwin–Hall]], which is a 12-section eleventh-order polynomial approximation to the normal distribution. This random deviate will have a limited range of (−6,&amp;nbsp;6).&lt;ref&gt;{{harvtxt |Johnson |Kotz  |Balakrishnan |1995 |loc=Equation (26.48) }}&lt;/ref&gt;
+* The [[Box–Muller transform|Box–Muller method]] uses two independent random numbers ''U'' and ''V'' distributed [[uniform distribution (continuous)|uniformly]] on (0,1). Then the two random variables ''X'' and ''Y''
+:: &lt;math&gt;
+    X = \sqrt{- 2 \ln U} \, \cos(2 \pi V) , \qquad
+    Y = \sqrt{- 2 \ln U} \, \sin(2 \pi V) .
+  &lt;/math&gt;
+:will both have the standard normal distribution, and will be [[independence (probability theory)|independent]]. This formulation arises because for a [[bivariate normal]] random vector (''X'', ''Y'') the squared norm {{nowrap|''X''&lt;sup&gt;2&lt;/sup&gt; + ''Y''&lt;sup&gt;2&lt;/sup&gt;}} will have the [[chi-squared distribution]] with two degrees of freedom, which is an easily generated [[exponential distribution|exponential random variable]] corresponding to the quantity −2ln(''U'') in these equations; and the angle is distributed uniformly around the circle, chosen by the random variable ''V''.
+* The [[Marsaglia polar method]] is a modification of the Box–Muller method which does not require computation of the sine and cosine functions. In this method, ''U'' and ''V'' are drawn from the uniform (−1,1) distribution, and then {{nowrap|1=''S'' = ''U''&lt;sup&gt;2&lt;/sup&gt; + ''V''&lt;sup&gt;2&lt;/sup&gt;}} is computed. If ''S'' is greater or equal to 1, then the method starts over, otherwise the two quantities
+:: &lt;math&gt;X = U\sqrt{\frac{-2\ln S}{S}}, \qquad  Y = V\sqrt{\frac{-2\ln S}{S}}&lt;/math&gt;
+:are returned. Again, ''X'' and ''Y'' are independent, standard normal random variables.
+* The Ratio method&lt;ref&gt;{{harvtxt |Kinderman |Monahan |1977 }}&lt;/ref&gt; is a rejection method. The algorithm proceeds as follows:
+** Generate two independent uniform deviates ''U'' and ''V'';
+** Compute ''X'' = {{sqrt|8/''e''}} (''V'' − 0.5)/''U'';
+** Optional: if ''X''&lt;sup&gt;2&lt;/sup&gt; ≤ 5 − 4''e''&lt;sup&gt;1/4&lt;/sup&gt;''U'' then accept ''X'' and terminate algorithm;
+** Optional: if ''X''&lt;sup&gt;2&lt;/sup&gt; ≥ 4''e''&lt;sup&gt;−1.35&lt;/sup&gt;/''U'' + 1.4 then reject ''X'' and start over from step 1;
+** If ''X''&lt;sup&gt;2&lt;/sup&gt; ≤ −4 ln''U'' then accept ''X'', otherwise start over the algorithm.
+:The two optional steps allow the evaluation of the logarithm in the last step to be avoided in most cases.  These steps can be greatly improved&lt;ref&gt;{{harvtxt|Leva|1992}}&lt;/ref&gt; so that the logarithm is rarely evaluated.
+* The [[ziggurat algorithm]]&lt;ref&gt;{{harvtxt |Marsaglia |Tsang |2000 }}&lt;/ref&gt; is faster than the Box–Muller transform and still exact. In about 97% of all cases it uses only two random numbers, one random integer and one random uniform, one multiplication and an if-test. Only in 3% of the cases, where the combination of those two falls outside the "core of the ziggurat" (a kind of rejection sampling using logarithms), do exponentials and more uniform random numbers have to be employed.
+* Integer arithmetic can be used to sample from the standard normal distribution.&lt;ref&gt;{{harvtxt|Karney|2016}}&lt;/ref&gt;  This method is exact in the sense that it satisfies the conditions of ''ideal approximation'';&lt;ref&gt;{{harvtxt|Monahan|1985|loc=section 2}}&lt;/ref&gt; i.e., it is equivalent to sampling a real number from the standard normal distribution and rounding this to the nearest representable floating point number.
+* There is also some investigation&lt;ref&gt;{{harvtxt |Wallace |1996}}&lt;/ref&gt; into the connection between the fast [[Hadamard transform]] and the normal distribution, since the transform employs just addition and subtraction and by the central limit theorem random numbers from almost any distribution will be transformed into the normal distribution. In this regard a series of Hadamard transforms can be combined with random permutations to turn arbitrary data sets into a normally distributed data.
+
+=== Numerical approximations for the normal CDF ===
+The standard normal [[cumulative distribution function|CDF]] is widely used in scientific and statistical computing.
+
+The values Φ(''x'') may be approximated very accurately by a variety of methods, such as [[numerical integration]], [[Taylor series]], [[asymptotic series]] and [[Gauss's continued fraction#Of Kummer's confluent hypergeometric function|continued fractions]]. Different approximations are used depending on the desired level of accuracy.
+
+{{unordered list
+
+|1= {{harvtxt |Zelen |Severo |1964 }} give the approximation for Φ(''x'') for ''x &gt; 0'' with the absolute error {{abs|''ε''(''x'')}}&amp;nbsp;&lt;&amp;nbsp;7.5·10&lt;sup&gt;−8&lt;/sup&gt; (algorithm [http://www.math.sfu.ca/~cbm/aands/page_932.htm 26.2.17]):
+: &lt;math&gt;
+    \Phi(x) = 1 - \varphi(x)\left(b_1t + b_2t^2 + b_3t^3 + b_4t^4 + b_5t^5\right) + \varepsilon(x), \qquad t = \frac{1}{1+b_0x},
+  &lt;/math&gt;
+where ''ϕ''(''x'') is the standard normal PDF, and ''b''&lt;sub&gt;0&lt;/sub&gt; = 0.2316419, ''b''&lt;sub&gt;1&lt;/sub&gt; = 0.319381530, ''b''&lt;sub&gt;2&lt;/sub&gt; = −0.356563782, ''b''&lt;sub&gt;3&lt;/sub&gt; =  1.781477937, ''b''&lt;sub&gt;4&lt;/sub&gt; = −1.821255978, ''b''&lt;sub&gt;5&lt;/sub&gt; = 1.330274429.
+
+|2= {{harvtxt |Hart |1968 }} lists some dozens of approximations – by means of rational functions, with or without exponentials – for the {{mono|erfc()}} function. His algorithms vary in the degree of complexity and the resulting precision, with maximum absolute precision of 24 digits. An algorithm by {{harvtxt |West |2009 }} combines Hart's algorithm 5666 with a [[continued fraction]] approximation in the tail to provide a fast computation algorithm with a 16-digit precision.
+
+|3= {{harvtxt |Cody |1969 }} after recalling Hart68 solution is not suited for erf, gives a solution for both erf and erfc, with maximal relative error bound, via [[rational function|Rational Chebyshev Approximation]].
+
+|4= {{harvtxt |Marsaglia |2004 }} suggested a simple algorithm{{NoteTag|For example, this algorithm is given in the article [[Bc programming language#A translated C function|Bc programming language]].}} based on the Taylor series expansion
+
+: &lt;math&gt;
+    \Phi(x) = \frac12 + \varphi(x)\left( x + \frac{x^3} 3 + \frac{x^5}{3\cdot5} + \frac{x^7}{3\cdot5\cdot7} + \frac{x^9}{3\cdot5\cdot7\cdot9} + \cdots \right)
+  &lt;/math&gt;
+
+for calculating Φ(''x'') with arbitrary precision. The drawback of this algorithm is comparatively slow calculation time (for example it takes over 300 iterations to calculate the function with 16 digits of precision when {{nowrap|1=''x'' = 10}}).
+
+|5= The [[GNU Scientific Library]] calculates values of the standard normal CDF using Hart's algorithms and approximations with [[Chebyshev polynomial]]s.
+}}
+
+Shore (1982) introduced simple approximations that may be incorporated in stochastic optimization models of engineering and operations research, like reliability engineering and inventory analysis. Denoting p=Φ(z), the simplest approximation for the quantile function is:
+
+: &lt;math&gt;z=\Phi^{-1}(p)=5.5556\left[1- \left( \frac{1-p} p \right)^{0.1186}\right],\qquad p\ge 1/2 &lt;/math&gt;
+
+This approximation delivers for ''z'' a maximum absolute error of 0.026 (for 0.5&amp;nbsp;≤&amp;nbsp;''p''&amp;nbsp;≤&amp;nbsp;0.9999, corresponding to 0&amp;nbsp;≤&amp;nbsp;''z''&amp;nbsp;≤&amp;nbsp;3.719). For ''p''&amp;nbsp;&lt;&amp;nbsp;1/2 replace ''p'' by 1&amp;nbsp;−&amp;nbsp;''p'' and change sign. Another approximation, somewhat less accurate, is the single-parameter approximation:
+
+: &lt;math&gt; z=-0.4115\left\{ \frac{1-p} p + \log \left[ \frac{1-p} p \right] - 1 \right\}, \qquad p\ge 1/2&lt;/math&gt;
+
+The latter had served to derive a simple approximation for the loss integral of the normal distribution, defined by
+
+: &lt;math&gt;
+\begin{align}
+L(z) &amp; =\int_z^\infty (u-z)\varphi(u) \, du=\int_z^\infty [1-\Phi (u)] \, du \\[5pt]
+L(z) &amp; \approx \begin{cases}
+   0.4115\left(\dfrac p {1-p} \right) - z, &amp; p&lt;1/2,  \\  \\
+   0.4115\left( \dfrac {1-p} p \right), &amp; p\ge 1/2.
+\end{cases} \\[5pt]
+\text{or, equivalently,} \\
+L(z) &amp; \approx \begin{cases}
+   0.4115\left\{ 1-\log \left[ \frac p {1-p} \right] \right\}, &amp; p&lt;1/2, \\  \\
+   0.4115 \dfrac{1-p} p, &amp; p\ge 1/2.
+\end{cases}
+\end{align}
+&lt;/math&gt;
+
+This approximation is particularly accurate for the right far-tail (maximum error of 10&lt;sup&gt;−3&lt;/sup&gt; for z≥1.4). Highly accurate approximations for the CDF, based on [[Response modeling methodology|Response Modeling Methodology]] (RMM, Shore, 2011, 2012), are shown in Shore (2005).
+
+Some more approximations can be found at: [[Error function#Approximation with elementary functions]]. In particular, small ''relative'' error on the whole domain for the CDF &lt;math&gt;\Phi&lt;/math&gt; and the quantile function &lt;math&gt;\Phi^{-1}&lt;/math&gt; as well, is achieved via an explicitly invertible formula by Sergei Winitzki in 2008.
+
+== History ==
+
+=== Development ===
+Some authors&lt;ref&gt;{{harvtxt |Johnson |Kotz |Balakrishnan |1994 |p=85 }}&lt;/ref&gt;&lt;ref&gt;{{harvtxt |Le Cam | Lo Yang |2000 |p=74 }}&lt;/ref&gt; attribute the credit for the discovery of the normal distribution to [[Abraham de Moivre|de Moivre]], who in 1738{{NoteTag|De Moivre first published his findings in 1733, in a pamphlet "Approximatio ad Summam Terminorum Binomii {{nowrap|(''a'' + ''b'')&lt;sup&gt;''n''&lt;/sup&gt;}} in Seriem Expansi" that was designated for private circulation only. But it was not until the year 1738 that he made his results publicly available. The original pamphlet was reprinted several times, see for example {{harvtxt |Walker |1985 }}.}} published in the second edition of his "''[[The Doctrine of Chances]]''" the study of the coefficients in the [[binomial expansion]] of {{nowrap|(''a'' + ''b'')&lt;sup&gt;''n''&lt;/sup&gt;}}. De Moivre proved that the middle term in this expansion has the approximate magnitude of &lt;math&gt;  2/\sqrt{2\pi n}&lt;/math&gt;, and that "If ''m'' or ½''n'' be a Quantity infinitely great, then the Logarithm of the Ratio, which a Term distant from the middle by the Interval ''ℓ'', has to the middle Term, is &lt;math &gt; -\frac{2\ell\ell}{n}&lt;/math&gt;."&lt;ref&gt;De Moivre, Abraham (1733), Corollary I – see {{harvtxt |Walker |1985 |p=77 }}&lt;/ref&gt; Although this theorem can be interpreted as the first obscure expression for the normal probability law, [[Stephen Stigler|Stigler]] points out that de Moivre himself did not interpret his results as anything more than the approximate rule for the binomial coefficients, and in particular de Moivre lacked the concept of the probability density function.&lt;ref&gt;{{harvtxt |Stigler |1986 |p=76 }}&lt;/ref&gt;
+
+[[File:Carl Friedrich Gauss.jpg|thumb|180px|left|[[Carl Friedrich Gauss]] discovered the normal distribution in 1809 as a way to rationalize the [[method of least squares]].]]
+
+In 1809 [[Carl Friedrich Gauss|Gauss]] published his monograph &lt;span title="Theory of the motion of the heavenly bodies moving about the Sun in conic sections"&gt;"''Theoria motus corporum coelestium in sectionibus conicis solem ambientium''"&lt;/span&gt; where among other things he introduces several important statistical concepts, such as the [[method of least squares]], the [[method of maximum likelihood]], and the ''normal distribution''. Gauss used ''M'', {{nobr|''M''′}}, {{nobr|''M''′′, ...}} to denote the measurements of some unknown quantity&amp;nbsp;''V'', and sought the "most probable" estimator of that quantity: the one that maximizes the probability {{nobr|''φ''(''M''&amp;nbsp;−&amp;nbsp;''V'') · ''φ''(''M′''&amp;nbsp;−&amp;nbsp;''V'') · ''φ''(''M''′′&amp;nbsp;−&amp;nbsp;''V'') · ...}} of obtaining the observed experimental results. In his notation φΔ is the probability law of the measurement errors of magnitude Δ. Not knowing what the function ''φ'' is, Gauss requires that his method should reduce to the well-known answer: the arithmetic mean of the measured values.{{NoteTag|"It has been customary certainly to regard as an axiom the hypothesis that if any quantity has been determined by several direct observations, made under the same circumstances and with equal care, the arithmetical mean of the observed values affords the most probable value, if not rigorously, yet very nearly at least, so that it is always most safe to adhere to it." — {{harvtxt |Gauss |1809 |loc=section 177 }} }} Starting from these principles, Gauss demonstrates that the only law that rationalizes the choice of arithmetic mean as an estimator of the location parameter, is the normal law of errors:&lt;ref&gt;{{harvtxt |Gauss |1809 |loc=section 177 }}&lt;/ref&gt;
+
+: &lt;math&gt;
+    \varphi\mathit{\Delta} = \frac h {\surd\pi} \, e^{-\mathrm{hh}\Delta\Delta},
+&lt;/math&gt; &lt;!-- please do not modify this formula; its spacing and style follow the original as closely as possible --&gt;
+
+where ''h'' is "the measure of the precision of the observations". Using this normal law as a generic model for errors in the experiments, Gauss formulates what is now known as the non-linear weighted least squares (NWLS) method.&lt;ref&gt;{{harvtxt |Gauss |1809 |loc=section 179 }}&lt;/ref&gt;
+
+[[File:Pierre-Simon Laplace.jpg|thumb|180px|right|[[Pierre-Simon Laplace|Marquis de Laplace]] proved the [[central limit theorem]] in 1810, consolidating the importance of the normal distribution in statistics.]]
+
+Although Gauss was the first to suggest the normal distribution law, [[Pierre Simon de Laplace|Laplace]] made significant contributions.{{NoteTag|"My custom of terming the curve the Gauss–Laplacian or ''normal'' curve saves us from proportioning the merit of discovery between the two great astronomer mathematicians." quote from {{harvtxt |Pearson |1905 |p=189 }} }} It was Laplace who first posed the problem of aggregating several observations in 1774,&lt;ref&gt;{{harvtxt |Laplace |1774 |loc = Problem III }}&lt;/ref&gt; although his own solution led to the [[Laplacian distribution]]. It was Laplace who first calculated the value of the [[Gaussian integral|integral {{nowrap|∫ ''e''&lt;sup&gt;−''t''&lt;sup&gt;2&lt;/sup&gt;&lt;/sup&gt;&amp;nbsp;''dt'' {{=}} {{sqrt|{{pi}}}}}}]] in 1782, providing the normalization constant for the normal distribution.&lt;ref&gt;{{harvtxt |Pearson |1905 |p=189 }}&lt;/ref&gt; Finally, it was Laplace who in 1810 proved and presented to the Academy the fundamental [[central limit theorem]], which emphasized the theoretical importance of the normal distribution.&lt;ref&gt;{{harvtxt |Stigler |1986 |p=144 }}&lt;/ref&gt;
+
+It is of interest to note that in 1809 an Irish mathematician [[Robert Adrain|Adrain]] published two derivations of the normal probability law, simultaneously and independently from Gauss.&lt;ref&gt;{{harvtxt |Stigler |1978 |p=243 }}&lt;/ref&gt; His works remained largely unnoticed by the scientific community, until in 1871 they were "rediscovered" by [[Cleveland Abbe|Abbe]].&lt;ref&gt;{{harvtxt |Stigler |1978 |p=244 }}&lt;/ref&gt;
+
+In the middle of the 19th century [[James Clerk Maxwell|Maxwell]] demonstrated that the normal distribution is not just a convenient mathematical tool, but may also occur in natural phenomena:&lt;ref&gt;{{harvtxt |Maxwell |1860 |p=23 }}&lt;/ref&gt; "The number of particles whose velocity, resolved in a certain direction, lies between ''x'' and ''x''&amp;nbsp;+&amp;nbsp;''dx'' is
+: &lt;math&gt;
+    \operatorname{N} \frac{1}{\alpha\;\sqrt\pi}\; e^{-\frac{x^2}{\alpha^2}} \, dx
+  &lt;/math&gt; &lt;!-- please do not modify this formula; its spacing and style follow the original as close as possible --&gt;
+
+=== Naming ===
+Since its introduction, the normal distribution has been known by many different names: the law of error, the law of facility of errors, Laplace's second law, Gaussian law, etc. Gauss himself apparently coined the term with reference to the "normal equations" involved in its applications, with normal having its technical meaning of orthogonal rather than "usual".&lt;ref&gt;Jaynes, Edwin J.; [http://www-biba.inrialpes.fr/Jaynes/cc07s.pdf ''Probability Theory: The Logic of Science'', Ch 7]&lt;/ref&gt; However, by the end of the 19th century some authors{{NoteTag|Besides those specifically referenced here, such use is encountered in the works of [[Charles Sanders Peirce|Peirce]], [[Francis Galton|Galton]] ({{harvtxt |Galton |1889 |loc = chapter V }}) and [[Wilhelm Lexis|Lexis]] ({{harvtxt | Lexis |1878 }}, {{harvtxt |Rohrbasser |Véron |2003 }}) c. 1875.{{Citation needed |date=June 2011 }} }} had started using the name ''normal distribution'', where the word "normal" was used as an adjective&amp;nbsp;– the term now being seen as a reflection of the fact that this distribution was seen as typical, common&amp;nbsp;– and thus "normal". Peirce (one of those authors) once defined "normal" thus: "...the 'normal' is not the average (or any other kind of mean) of what actually occurs, but of what ''would'', in the long run, occur under certain circumstances."&lt;ref&gt;Peirce, Charles S. (c. 1909 MS), ''[[Charles Sanders Peirce bibliography#CP|Collected Papers]]'' v. 6, paragraph 327&lt;/ref&gt; Around the turn of the 20th century [[Karl Pearson|Pearson]] popularized the term ''normal'' as a designation for this distribution.&lt;ref&gt;{{harvtxt |Kruskal |Stigler |1997 }}&lt;/ref&gt;
+{{quote|Many years ago I called the Laplace–Gaussian curve the ''normal'' curve, which name, while it avoids an international question of priority, has the disadvantage of leading people to believe that all other distributions of frequency are in one sense or another 'abnormal'. |{{harvtxt |Pearson |1920 }}}}
+
+Also, it was Pearson who first wrote the distribution in terms of the standard deviation ''σ'' as in modern notation. Soon after this, in year 1915, [[Ronald Fisher|Fisher]] added the location parameter to the formula for normal distribution, expressing it in the way it is written nowadays:
+: &lt;math&gt; df = \frac{1}{\sqrt{2\sigma^2\pi}}e^{-(x-m)^2/(2\sigma^2)} \, dx &lt;/math&gt;
+
+The term "standard normal", which denotes the normal distribution with zero mean and unit variance came into general use around the 1950s, appearing in the popular textbooks by P.G. Hoel (1947) "''Introduction to mathematical statistics''" and A.M. Mood (1950) "''Introduction to the theory of statistics''".&lt;ref&gt;{{cite web|title=Earliest uses... (entry STANDARD NORMAL CURVE)|url=http://jeff560.tripod.com/s.html}}&lt;/ref&gt;
+
+When the name is used, the "Gaussian distribution" was [[List of topics named after Carl Friedrich Gauss|named after]] [[Carl Friedrich Gauss]], who introduced the distribution in 1809 as a way of rationalizing the [[method of least squares]] as outlined above. Among English speakers, both "normal distribution" and "Gaussian distribution" are in common use, with different terms preferred by different communities.
+
+== See also ==
+{{Portal|Mathematics}}
+* [[Wrapped normal distribution]] — the Normal distribution applied to a circular domain
+* [[Bates distribution]] — similar to the Irwin–Hall distribution, but rescaled back into the 0 to 1 range
+* [[Behrens–Fisher problem]] — the long-standing problem of testing whether two normal samples with different variances have same means;
+* [[Bhattacharyya distance]] – method used to separate mixtures of normal distributions
+* [[Erdős–Kac theorem]]—on the occurrence of the normal distribution in [[number theory]]
+* [[Gaussian blur]]—[[convolution]], which uses the normal distribution as a kernel
+* [[Normally distributed and uncorrelated does not imply independent]]
+* [[Reciprocal normal distribution]]
+* [[Ratio normal distribution]]
+* [[Standard normal table]]
+* [[Sub-Gaussian distribution]]
+* [[Sum of normally distributed random variables]]
+* [[Tweedie distribution]] — The normal distribution is a member of the family of Tweedie [[exponential dispersion model]]s
+* [[Z-test]]— using the normal distribution
+*[[Stein's lemma]]
+
+== Notes ==
+{{NoteFoot}}
+
+== References ==
+=== Citations ===
+{{Reflist}}
+
+=== Sources ===
+{{refbegin}}
+* {{cite web |url = http://jeff560.tripod.com/stat.html|title=Earliest Uses of Symbols in Probability and Statistics|last2=Miller|first2=Jeff |date=|website=|access-date=|ref=harv|last1=Aldrich|first1=John}}
+* {{cite web |url = http://jeff560.tripod.com/mathword.html|title=Earliest Known Uses of Some of the Words of Mathematics |last2=Miller|first2=Jeff|date=|website=|access-date=|ref=harv|last1=Aldrich |first1=John }} In particular, the entries for [http://jeff560.tripod.com/b.html "bell-shaped and bell curve"], [http://jeff560.tripod.com/n.html "normal (distribution)"], [http://jeff560.tripod.com/g.html "Gaussian"], and [http://jeff560.tripod.com/e.html "Error, law of error, theory of errors, etc."].
+* {{cite book |title=Methods of Information Geometry|last2=Nagaoka|first2=Hiroshi|publisher=Oxford University Press|year=2000|isbn=978-0-8218-0531-2|location=|pages=|ref=harv|last1=Amari|first1=Shun-ichi}}
+* {{cite book |title=Bayesian Theory|last2=Smith|first2=Adrian F. M.|publisher=Wiley|year=2000|isbn=978-0-471-49464-5 |location=|pages=|ref=harv|last1=Bernardo|first1=José M.}}
+* {{cite book |title=The Normal Distribution: Characterizations with Applications|last=Bryc|first=Wlodzimierz|publisher=Springer-Verlag|year=1995|isbn=978-0-387-97990-8|location=|pages=|ref=harv}}
+* {{cite book |title=Statistical Inference|last2=Berger|first2=Roger L.|publisher=Duxbury|year=2001|isbn=978-0-534-24312-8|edition=2nd|location=|pages=|ref=harv|last1=Casella|first1=George}}
+* {{cite journal |last=Cody|first=William J.|year=1969|title=Rational Chebyshev Approximations for the Error Function|url=|journal=Mathematics of Computation|volume=23|issue=107|pages=631–638|doi=10.1090/S0025-5718-1969-0247736-4|ref=harv|title-link=Error function#cite note-5|doi-access=free}}
+* {{cite book |title=Elements of Information Theory|last2=Thomas|first2=Joy A.|publisher=John Wiley and Sons|year=2006|isbn=|location=|pages=|ref=harv|last1=Cover|first1=Thomas M.}}
+* {{cite book |title=The Doctrine of Chances|last=de Moivre|first=Abraham|publisher=|year=1738|isbn=978-0-8218-2103-9|location=|pages=|ref=harv|authorlink=Abraham de Moivre|title-link=The Doctrine of Chances}}
+* {{cite journal |last=Fan|first=Jianqing|year=1991|title=On the optimal rates of convergence for nonparametric deconvolution problems|url=|journal=The Annals of Statistics|volume=19|issue=3|pages=1257–1272|doi=10.1214/aos/1176348248|jstor=2241949|ref=harv|doi-access=free}}
+* {{cite book |url=http://galton.org/books/natural-inheritance/pdf/galton-nat-inh-1up-clean.pdf|title=Natural Inheritance|last=Galton|first=Francis|publisher=Richard Clay and Sons|year=1889|isbn=|location=London, UK|pages=|ref=harv}}
+* {{cite book |title=Products of Random Variables: Applications to Problems of Physics and to Arithmetical Functions|url=https://archive.org/details/productsofrandom00gala|url-access=registration|last2=Simonelli|first2=Italo|publisher=Marcel Dekker, Inc.|year=2004|isbn=978-0-8247-5402-0|location=|pages=|ref=harv|last1=Galambos|first1=Janos}}
+* {{cite book |title=Theoria motvs corporvm coelestivm in sectionibvs conicis Solem ambientivm|url=https://archive.org/details/theoriamotuscor00gausgoog|last=Gauss|first=Carolo Friderico|publisher=|year=1809|isbn=|location=|pages=|language=Latin|id=[https://books.google.com/books?id=1TIAAAAAQAAJ English translation]|ref=harv|authorlink=Carl Friedrich Gauss|trans-title=Theory of the Motion of the Heavenly Bodies Moving about the Sun in Conic Sections}}
+* {{cite book |title=The Mismeasure of Man|last=Gould|first=Stephen Jay|publisher=W. W. Norton|year=1981|isbn=978-0-393-01489-1|edition=first|location=|pages=|ref=harv|authorlink=Stephen Jay Gould|title-link=The Mismeasure of Man}}
+* {{cite journal |last2=Hartley|first2=Herman O.|last3=Hoel|first3=Paul G.|year=1965|title=Recommended Standards for Statistical Symbols and Notation. COPSS Committee on Symbols and Notation|url=|journal=The American Statistician|volume=19|issue=3|pages=12–14|doi=10.2307/2681417|jstor=2681417|ref=harv|last1=Halperin|first1=Max}}
+* {{cite book |title=Computer Approximations|last=Hart|first=John F.|publisher=John Wiley &amp; Sons, Inc.|year=1968|isbn=978-0-88275-642-4|location=New York, NY|pages=|ref=harv|display-authors=etal}}
+* {{Springer
+  | title = Normal Distribution
+  | id = p/n067460
+  | ref = harv
+  }}
+* {{cite book |title=The Bell Curve: Intelligence and Class Structure in American Life|last2=Murray|first2=Charles|publisher=[[Free Press (publisher)|Free Press]]|year=1994|isbn=978-0-02-914673-6|location=|pages=|ref=harv|last1=Herrnstein|first1=Richard J.|authorlink2=Charles Murray (political scientist)|title-link=The Bell Curve}}
+* {{cite book|title=Problems of Relative Growth|last=Huxley|first=Julian S.|publisher=London|year=1932|isbn=978-0-486-61114-3|location=|pages=|oclc=476909537|ref=harv}}
+* {{cite book|title=Continuous Univariate Distributions, Volume 1|last2=Kotz|first2=Samuel|last3=Balakrishnan|first3=Narayanaswamy|publisher=Wiley|year=1994|isbn=978-0-471-58495-7|location=|pages=|ref=harv|last1=Johnson|first1=Norman L.}}
+* {{cite book|title=Continuous Univariate Distributions, Volume 2|last2=Kotz|first2=Samuel|last3=Balakrishnan|first3=Narayanaswamy|publisher=Wiley|year=1995|isbn=978-0-471-58494-0|location=|pages=|ref=harv|last1=Johnson|first1=Norman L.}}
+* {{cite journal|last=Karney|first=C. F. F.|year=2016|title=Sampling exactly from the normal distribution|url=|journal=ACM Transactions on Mathematical Software|volume=42|issue=1|pages=3:1–14|arxiv=1303.6257|doi=10.1145/2710016|ref=harv}}
+* {{cite journal|last2=Monahan|first2=John F.|year=1977|title=Computer Generation of Random Variables Using the Ratio of Uniform Deviates|url=|journal=ACM Transactions on Mathematical Software|volume=3|issue=3|pages=257–260|doi=10.1145/355744.355750|ref=harv|first1=Albert J.|last1=Kinderman}}
+* {{cite book|title=Handbook of Statistical Distributions with Applications|last=Krishnamoorthy|first=Kalimuthu|publisher=Chapman &amp; Hall/CRC|year=2006|isbn=978-1-58488-635-8|location=|pages=|ref=harv}}
+* {{cite book|title=Normative Terminology: 'Normal' in Statistics and Elsewhere|last2=Stigler|first2=Stephen M.|publisher=Oxford University Press|year=1997|isbn=978-0-19-852341-3|editor-last = Spencer|editor-first = Bruce D.|series=Statistics and Public Policy|location=|pages=|ref=harv|last1=Kruskal|first1=William H.}}
+* {{cite journal|last=Laplace|first=Pierre-Simon de|year=1774|title=Mémoire sur la probabilité des causes par les événements|url=http://gallica.bnf.fr/ark:/12148/bpt6k77596b/f32|journal=Mémoires de l'Académie Royale des Sciences de Paris (Savants étrangers), Tome 6|volume=|pages=621–656|ref=harv|authorlink=Pierre-Simon Laplace}} Translated by Stephen M. Stigler in ''Statistical Science'' '''1''' (3), 1986: {{jstor|2245476}}.
+* {{cite book|title=Théorie analytique des probabilités|url=https://archive.org/details/thorieanalytiqu00laplgoog|last=Laplace|first=Pierre-Simon|publisher=|year=1812|isbn=|location=|pages=|ref=harv|trans-title=[[Analytical theory of probabilities]]}}
+* {{cite book|title=Asymptotics in Statistics: Some Basic Concepts|last=Le Cam|first=Lucien|last2=Lo Yang|first2=Grace|publisher=Springer|year=2000|isbn=978-0-387-95036-5|edition=second|location=|pages=|ref=harv}}
+* {{cite journal|last1=Leva|first1=Joseph L.|year=1992|title=A fast normal random number generator|url=http://saluc.engr.uconn.edu/refs/crypto/rng/leva92afast.pdf|journal=ACM Transactions on Mathematical Software|volume=18|issue=4|pages=449–453|doi=10.1145/138351.138364|archive-url=https://web.archive.org/web/20100716035328/http://saluc.engr.uconn.edu/refs/crypto/rng/leva92afast.pdf|archive-date=16 July 2010|ref=harv|via=|citeseerx=10.1.1.544.5806}}
+* {{cite journal|last=Lexis|first=Wilhelm|year=1878|title=Sur la durée normale de la vie humaine et sur la théorie de la stabilité des rapports statistiques|url=|journal=Annales de Démographie Internationale|location=Paris|volume=II|pages=447–462|ref=harv}}
+* {{cite journal|last2=King|first2=Edgar P.|year=1954|title=A Property of Normal Distribution|url=|journal=The Annals of Mathematical Statistics|volume=25|issue=2|pages=389–394|doi=10.1214/aoms/1177728796|jstor=2236741|ref=harv|last1=Lukacs|first1=Eugene|doi-access=free}}
+* {{cite book|title=Statistics in Scientific Investigation: Its Basis, Application and Interpretation|url=https://archive.org/details/statisticsinscie0000mcph|url-access=registration|last=McPherson|first=Glen|publisher=Springer-Verlag|year=1990|isbn=978-0-387-97137-7|location=|pages=|ref=harv}}
+* {{cite journal|last2=Tsang|first2=Wai Wan|year=2000|title=The Ziggurat Method for Generating Random Variables|journal=Journal of Statistical Software|volume=5|issue=8|pages=|doi=10.18637/jss.v005.i08|ref=harv|last1=Marsaglia|first1=George|authorlink1=George Marsaglia|doi-access=free}}
+* {{cite journal|last=Marsaglia|first=George|year=2004|title=Evaluating the Normal Distribution|journal=Journal of Statistical Software|volume=11|issue=4|pages=|doi=10.18637/jss.v011.i04|ref=harv|doi-access=free}}
+* {{cite journal|last=Maxwell|first=James Clerk|year=1860|title=V. Illustrations of the dynamical theory of gases. — Part I: On the motions and collisions of perfectly elastic spheres|url=|journal=Philosophical Magazine |series=Series 4|volume=19|issue=124|pages=19–32|doi=10.1080/14786446008642818|ref=harv|authorlink=James Clerk Maxwell}}
+* {{cite journal|last=Monahan|first=J. F.|year=1985|title=Accuracy in random number generation|url=|journal=Mathematics of Computation|volume=45|issue=172|pages=559–568|doi=10.1090/S0025-5718-1985-0804945-X|ref=harv|doi-access=free}}
+* {{cite book|title=Handbook of the Normal Distribution|last2=Read|first2=Campbell B.|publisher=CRC Press|year=1996|isbn=978-0-8247-9342-5|edition=2nd|location=|pages=|ref=harv|last1=Patel|first1=Jagdish K.}}
+* {{cite journal|last=Pearson|first=Karl|year=1901|title=On Lines and Planes of Closest Fit to Systems of Points in Space|url=http://stat.smmu.edu.cn/history/pearson1901.pdf|journal=[[Philosophical Magazine]]|series=6|volume=2|issue=11|pages=559–572|ref=harv|authorlink=Karl Pearson|doi=10.1080/14786440109462720}}
+* {{cite journal|last=Pearson|first=Karl|year=1905|title='Das Fehlergesetz und seine Verallgemeinerungen durch Fechner und Pearson'. A rejoinder|url=|journal=Biometrika|volume=4|issue=1|pages=169–212|doi=10.2307/2331536|jstor=2331536|ref=harv|authorlink=Karl Pearson}}
+* {{cite journal|last=Pearson|first=Karl|year=1920|title=Notes on the History of Correlation|url=https://zenodo.org/record/1431597/files/article.pdf|journal=Biometrika|volume=13|issue=1|pages=25–45|doi=10.1093/biomet/13.1.25|jstor=2331722|ref=harv}}
+* {{cite journal|last2=Véron|first2=Jacques|year=2003|title=Wilhelm Lexis: The Normal Length of Life as an Expression of the "Nature of Things"|url=http://www.persee.fr/web/revues/home/prescript/article/pop_1634-2941_2003_num_58_3_18444|journal=Population|volume=58|issue=3|pages=303–322|doi=10.3917/pope.303.0303|ref=harv|first1=Jean-Marc|last1=Rohrbasser}}
+* {{cite journal | last1 = Shore | first1 = H | year = 1982 | title = Simple Approximations for the Inverse Cumulative Function, the Density Function and the Loss Integral of the Normal Distribution | url = | journal = Journal of the Royal Statistical Society. Series C (Applied Statistics) | volume = 31 | issue = 2| pages = 108–114 | doi = 10.2307/2347972 | jstor = 2347972 }}
+* {{cite journal | last1 = Shore | first1 = H | year = 2005 | title = Accurate RMM-Based Approximations for the CDF of the Normal Distribution | url = | journal = Communications in Statistics – Theory and Methods | volume = 34 | issue = 3| pages = 507–513 | doi = 10.1081/sta-200052102 }}
+* {{cite journal | last1 = Shore | first1 = H | year = 2011 | title = Response Modeling Methodology | url = | journal = WIREs Comput Stat | volume = 3 | issue = 4| pages = 357–372 | doi = 10.1002/wics.151 }}
+* {{cite journal | last1 = Shore | first1 = H | year = 2012 | title = Estimating Response Modeling Methodology Models | url = | journal = WIREs Comput Stat | volume = 4 | issue = 3| pages = 323–333 | doi = 10.1002/wics.1199 }}
+* {{cite journal |last=Stigler|first=Stephen M.|year=1978|title=Mathematical Statistics in the Early States|url=|journal=The Annals of Statistics|volume=6|issue=2|pages=239–265|doi=10.1214/aos/1176344123|jstor=2958876|ref=harv|authorlink=Stephen Stigler|doi-access=free}}
+* {{cite journal|last=Stigler|first=Stephen M.|year=1982|title=A Modest Proposal: A New Standard for the Normal|url=|journal=The American Statistician|volume=36|issue=2|pages=137–138|doi=10.2307/2684031|jstor=2684031|ref=harv}}
+* {{cite book |title=The History of Statistics: The Measurement of Uncertainty before 1900|url=https://archive.org/details/historyofstatist00stig|url-access=registration|last=Stigler|first=Stephen M.|publisher=Harvard University Press|year=1986|isbn=978-0-674-40340-6|location=|pages=|ref=harv}}
+* {{cite book |title=Statistics on the Table|last=Stigler|first=Stephen M.|publisher=Harvard University Press|year=1999|isbn=978-0-674-83601-3|location=|pages=|ref=harv}}
+* {{cite book |title=A Source Book in Mathematics|last=Walker|first=Helen M.|publisher=Dover|year=1985|isbn=978-0-486-64690-9|editor-last = Smith|editor-first = David Eugene|location=|pages=|chapter=De Moivre on the Law of Normal Probability|ref=harv|chapterurl=http://www.york.ac.uk/depts/maths/histstat/demoivre.pdf}}
+* {{cite journal |year=1996|title=Fast pseudo-random generators for normal and exponential variates|url=|journal=ACM Transactions on Mathematical Software|volume=22|issue=1|pages=119–127|doi=10.1145/225545.225554|ref=harv|last1=Wallace|first1=C. S.|authorlink1=Chris Wallace (computer scientist)}}
+* {{cite web|url=http://mathworld.wolfram.com/NormalDistribution.html|title=Normal Distribution|last=Weisstein|first=Eric W.|authorlink=Eric W. Weisstein|date=|website=|publisher=[[MathWorld]]|access-date=|ref=harv}}
+* {{cite journal|last=West|first=Graeme|year=2009|title=Better Approximations to Cumulative Normal Functions|url=http://www.wilmott.com/pdfs/090721_west.pdf|journal=Wilmott Magazine|volume=|pages=70–76|ref=harv}}
+* {{cite book|url=http://www.math.sfu.ca/~cbm/aands/page_931.htm|title=Probability Functions (chapter 26)|last2=Severo|first2=Norman C.|publisher=Dover|year=1964|isbn=978-0-486-61272-0|series=''[[Abramowitz and Stegun|Handbook of mathematical functions with formulas, graphs, and mathematical tables]]'', by [[Milton Abramowitz|Abramowitz, M.]]; and [[Irene A. Stegun|Stegun, I. A.]]: National Bureau of Standards|location=New York, NY|pages=|ref=harv|last1=Zelen|first1=Marvin}}
+{{refend}}
+
+== External links ==
+{{Commons category|Normal distribution}}
+* {{springer|title=Normal distribution|id=p/n067460}}
+* [https://www.hackmath.net/en/calculator/normal-distribution Normal distribution calculator], [https://keisan.casio.com/exec/system/1180573188 More powerful calculator]
+
+{{-}}
+{{ProbDistributions|continuous-infinite}}
+
+[[Category:Continuous distributions]]
+[[Category:Conjugate prior distributions]]
+[[Category:Normal distribution| ]]
+[[Category:Exponential family distributions]]
+[[Category:Stable distributions]]
+[[Category:Location-scale family probability distributions]]</text>
+      <sha1>r1uteiwwil67vczai37becgshpdp36r</sha1>
+    </revision>
+  </page>
+</mediawiki>

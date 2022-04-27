@@ -1,0 +1,337 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.10/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.10/ http://www.mediawiki.org/xml/export-0.10.xsd" version="0.10" xml:lang="en">
+  <siteinfo>
+    <sitename>Wikipedia</sitename>
+    <dbname>enwiki</dbname>
+    <base>https://en.wikipedia.org/wiki/Main_Page</base>
+    <generator>MediaWiki 1.35.0-wmf.36</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Media</namespace>
+      <namespace key="-1" case="first-letter">Special</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Talk</namespace>
+      <namespace key="2" case="first-letter">User</namespace>
+      <namespace key="3" case="first-letter">User talk</namespace>
+      <namespace key="4" case="first-letter">Wikipedia</namespace>
+      <namespace key="5" case="first-letter">Wikipedia talk</namespace>
+      <namespace key="6" case="first-letter">File</namespace>
+      <namespace key="7" case="first-letter">File talk</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki talk</namespace>
+      <namespace key="10" case="first-letter">Template</namespace>
+      <namespace key="11" case="first-letter">Template talk</namespace>
+      <namespace key="12" case="first-letter">Help</namespace>
+      <namespace key="13" case="first-letter">Help talk</namespace>
+      <namespace key="14" case="first-letter">Category</namespace>
+      <namespace key="15" case="first-letter">Category talk</namespace>
+      <namespace key="100" case="first-letter">Portal</namespace>
+      <namespace key="101" case="first-letter">Portal talk</namespace>
+      <namespace key="108" case="first-letter">Book</namespace>
+      <namespace key="109" case="first-letter">Book talk</namespace>
+      <namespace key="118" case="first-letter">Draft</namespace>
+      <namespace key="119" case="first-letter">Draft talk</namespace>
+      <namespace key="446" case="first-letter">Education Program</namespace>
+      <namespace key="447" case="first-letter">Education Program talk</namespace>
+      <namespace key="710" case="first-letter">TimedText</namespace>
+      <namespace key="711" case="first-letter">TimedText talk</namespace>
+      <namespace key="828" case="first-letter">Module</namespace>
+      <namespace key="829" case="first-letter">Module talk</namespace>
+      <namespace key="2300" case="first-letter">Gadget</namespace>
+      <namespace key="2301" case="first-letter">Gadget talk</namespace>
+      <namespace key="2302" case="case-sensitive">Gadget definition</namespace>
+      <namespace key="2303" case="case-sensitive">Gadget definition talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Microsoft OneDrive</title>
+    <ns>0</ns>
+    <id>11190001</id>
+    <revision>
+      <id>961769123</id>
+      <parentid>961169481</parentid>
+      <timestamp>2020-06-10T09:22:51Z</timestamp>
+      <contributor>
+        <username>Grettoonist</username>
+        <id>38560994</id>
+      </contributor>
+      <minor/>
+      <comment>The section about the Sky lawsuit would repeatedly refer to the corporation as "BSkyB", which is their old name. They now go by as simply "Sky", so changes have been made.</comment>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="52964" xml:space="preserve">{{short description|File hosting and synchronization service operated by Microsoft}}
+{{Use mdy dates|date=September 2018}}
+{{Infobox website
+| name = Microsoft OneDrive
+| logo = Microsoft Office OneDrive (2018–present).svg
+| logo_size = 70px
+| screenshot = OneDrive screenshot.png{{!}}border
+| caption = OneDrive, as it appears in a web browser
+| url = {{URL|https://onedrive.live.com}}
+| alexa = 137,305 ({{as of|2019|11|02|alt=2 November 2019}})&lt;ref&gt;{{cite web |title=Onedrive.com Traffic, Demographics and Competitors - Alexa |url=https://www.alexa.com/siteinfo/onedrive.com |website=www.alexa.com |accessdate=2 November 2019 |language=en}}&lt;/ref&gt;
+| type = [[File hosting service]]
+| language = {{Flatlist|&lt;!--A flatlist is easier to maintain, e.g. with Notepad++ or Excel--&gt;
+* Afrikaans
+* Albanian
+* Amharic
+* Arabic
+* Assamese
+* Azerbaijani (Latin)
+* Bangla (Bangladesh)
+* Bangla (India)
+* Basque (Basque)
+* Belarusian
+* Bosnian (Latin)
+* Bulgarian
+* Catalan
+* Central Kurdish
+* Cherokee (Cherokee)
+* Croatian
+* Czech
+* Danish
+* Dari
+* Dutch
+* English (United Kingdom)
+* English (United States)
+* Estonian
+* Filipino
+* Finnish
+* French
+* Galician
+* Georgian
+* German
+* Greek
+* Gujarati
+* Hausa
+* Hebrew
+* Hindi
+* Hungarian
+* Icelandic
+* Igbo
+* Indonesian
+* Irish
+* isiXhosa
+* isiZulu
+* Italian
+* Japanese
+* K’iche’
+* Kannada
+* Kazakh
+* Khmer
+* Kinyarwanda
+* Kiswahili
+* Konkani
+* Korean
+* Kyrgyz
+* Latvian
+* Lithuanian
+* Luxembourgish
+* Macedonian
+* Malay
+* Malayalam
+* Maltese
+* Maori
+* Marathi
+* Mongolian (Cyrillic)
+* Nepali
+* Norwegian (Bokmål)
+* Norwegian (Nynorsk)
+* Oriya
+* Persian
+* Polish
+* Portuguese (Brazil)
+* Portuguese (Portugal)
+* Punjabi (Gurmukhi)
+* Punjabi (Pakistan)
+* Quechua
+* Romanian
+* Russian
+* Scottish Gaelic
+* Serbian (Bosnia and Herzegovina)
+* Serbian (Serbia, Montenegro)
+* Serbian (Serbia, Montenegro)
+* Sesotho sa Leboa
+* Setswana
+* Simplified Chinese
+* Sindhi
+* Sinhala
+* Slovak
+* Slovenian
+* Spanish
+* Swedish
+* Tajik
+* Tamil
+* Tatar
+* Telugu
+* Thai
+* Tigrinya
+* Traditional Chinese
+* Turkish
+* Turkmen
+* Ukrainian
+* Urdu
+* Uyghur
+* Uzbek (Latin)
+* Valencian
+* Vietnamese
+* Welsh
+* Wolof
+* Yoruba}}
+| language_count = 107
+| language_footnote = &lt;ref&gt;{{cite web |title=Change views on the OneDrive website |url=http://windows.microsoft.com/en-us/onedrive/view-web-files |publisher=Microsoft |accessdate=September 25, 2014 |at=§ Change language}}&lt;/ref&gt;
+| owner = [[Microsoft]]
+| launch_date = {{Start date and age|2007|08|01}}
+}}
+
+'''Microsoft OneDrive''' (commonly known as '''OneDrive''' and previously known as '''SkyDrive''') is a [[file hosting service]] and [[file synchronization|synchronization service]] operated by [[Microsoft]] as part of its [[Office Online|web version of Office]]. First launched in August 2007, OneDrive allows users to store files and personal data like [[Microsoft Windows|Windows]] settings or [[BitLocker]] recovery keys in the [[Cloud storage|cloud]], share files, and sync files across [[Android (operating system)|Android]], [[Windows Phone]], and [[iOS]] mobile devices, Windows and [[macOS]] computers, and the [[Xbox 360]] and [[Xbox One]] consoles. Users can upload [[Microsoft Office]] documents to OneDrive.
+
+OneDrive offers 5&amp;nbsp;GB of storage space free of charge, with 100&amp;nbsp;GB, 1&amp;nbsp;TB, and 6&amp;nbsp;TB storage options available either separately or with [[Office 365]] subscriptions.&lt;ref name="storage_plans"&gt;{{cite web |url=https://onedrive.live.com/about/en-us/plans|title=Microsoft OneDrive Plans |publisher=Microsoft |accessdate=July 23, 2018}}&lt;/ref&gt;
+
+==History==
+[[File:Windows Live Folders logo.png|thumb|Windows Live Folders logo]]
+[[File:Skydrive logo and wordmark.svg|thumb|Logo as "SkyDrive"]]
+At its launch the service, known as ''Windows Live Folders'' at the time (with a codename of ''SkyDrive''), was provided as a limited beta available to a few testers in the United States.&lt;ref&gt;{{cite web |url=http://www.winsupersite.com/showcase/wl_2007_preview.asp |title=Windows Live 2007: A Look at the Next Generation |last=Thurrott |first=Paul |work=Paul Thurrott's SuperSite for Windows |publisher=Penton Media |date=June 27, 2007 |accessdate=November 27, 2010 |archiveurl=https://web.archive.org/web/20070629190005/http://www.winsupersite.com/showcase/wl_2007_preview.asp |archivedate=June 29, 2007}}&lt;/ref&gt; On August 1, 2007, the service was expanded to a wider audience. Shortly thereafter, on August 9, 2007, the service was renamed Windows Live SkyDrive and made available to testers in the United Kingdom and India.&lt;ref&gt;{{cite web |url=http://skydriveteam.spaces.live.com/blog/cns!977F793E846B3C96!23398.entry |title=Introducing Windows Live Skydrive! |work=Windows Live SkyDrive team blog |publisher=Microsoft |date=August 9, 2007 |accessdate=November 27, 2010 |archiveurl=https://web.archive.org/web/20091226035927/http://skydriveteam.spaces.live.com/blog/cns!977F793E846B3C96!23398.entry |archivedate=December 26, 2009}}&lt;/ref&gt; {{As of|2008|5|22}} SkyDrive was initially available in 38 countries and regions.,&lt;ref&gt;{{cite web |url=http://skydriveteam.spaces.live.com/blog/cns!977F793E846B3C96!23403.entry |title=Welcome to the bigger, better, faster SkyDrive! |work=Windows Live SkyDrive team blog |publisher=Microsoft |date=February 21, 2008 |accessdate=November 27, 2010 |archiveurl=https://web.archive.org/web/20091226035804/http://skydriveteam.spaces.live.com/blog/cns!977F793E846B3C96!23403.entry |archivedate=December 26, 2009}}&lt;/ref&gt; later expanded to 62.&lt;ref&gt;{{cite web |url=http://skydriveteam.spaces.live.com/blog/cns!977F793E846B3C96!23405.entry |title=Hot new updates to SkyDrive! |work=Windows Live SkyDrive team blog |publisher=Microsoft |date=May 22, 2008 |accessdate=November 27, 2010 |archiveurl=https://web.archive.org/web/20091226034757/http://skydriveteam.spaces.live.com/blog/cns!977F793E846B3C96!23405.entry |archivedate=December 26, 2009}}&lt;/ref&gt; On December 2, 2008, the capacity of an individual SkyDrive account was upgraded from 5&amp;nbsp;GB to 25&amp;nbsp;GB, and Microsoft added a separate entry point called ''Windows Live Photos'' which allowed users to access their photos and videos stored on SkyDrive. This entry point allowed users to add "People tags" to their photos, download photos into [[Windows Photo Gallery]] or as a [[ZIP (file format)|ZIP]] file, as well as viewing [[Exchangeable image file format|Exif]] metadata such as camera information for the photos uploaded. Microsoft also added the ability to have full-screen slide shows for photos using [[Microsoft Silverlight|Silverlight]].
+
+SkyDrive was updated to "Wave 4" release on June 7, 2010, and added the ability to work with Office Web Apps (now known as [[Office Online]]), with versioning. In this update, due to the discontinuation of [[Windows Live Toolbar]], the ability to synchronise and share bookmarked web links between users via SkyDrive was also discontinued. However, users were still able to use [[Windows Live Mesh]], which replaced the previous [[Windows Live Favorites]], to synchronize their favorites between computers until its discontinuation in February 2013.&lt;ref&gt;{{cite web |title=Update on Windows Live Mesh |url=http://blogs.windows.com/skydrive/b/skydrive/archive/2012/12/13/update-on-windows-live-mesh.aspx |last=Kornfield |first=David |date=December 13, 2012 |work=Inside SkyDrive |publisher=Microsoft |accessdate=December 31, 2013 |archiveurl=https://web.archive.org/web/20121216024806/http://blogs.windows.com/skydrive/b/skydrive/archive/2012/12/13/update-on-windows-live-mesh.aspx |archivedate=December 16, 2012}}&lt;/ref&gt;
+
+In June 2010, users of [[Microsoft Office Live|Office Live Workspace]], released in October 2007,&lt;ref&gt;{{cite web |url=https://arstechnica.com/information-technology/2008/03/first-look-microsoft-office-live-workspaces-goes-public |title=First look: Microsoft Office Live Workspaces goes public |last=Chartier |first=David |work=Ars Technica |publisher=Condé Nast |date=March 4, 2008 |accessdate=July 25, 2012}}&lt;/ref&gt; were migrated to ''Windows Live Office''. The migration included all existing workspaces, documents, and sharing permissions.&lt;ref&gt;{{cite web |title=Your Office Live Workspace is soon upgrading to Windows Live SkyDrive |url=http://ask.officelive.com/workspace/blogs/workspace_team/archive/2010/05/13/your-office-live-workspace-is-soon-upgrading-to-windows-live-skydrive.aspx |last=Sengupta |first=Sam |work=Office Live Workspace Blog |publisher=Microsoft |date=May 13, 2010 |accessdate=February 3, 2011 |archiveurl=https://web.archive.org/web/20100517034231/http://ask.officelive.com/workspace/blogs/workspace_team/archive/2010/05/13/your-office-live-workspace-is-soon-upgrading-to-windows-live-skydrive.aspx |archivedate=May 17, 2010}}&lt;/ref&gt; The merger of the two services was a result of Microsoft's decision to merge its Office Live team into Windows Live in January 2009,&lt;ref&gt;{{cite web |title=Looking ahead and bringing you even more |url=http://ask.officelive.com/workspace/blogs/workspace_team/archive/2009/01/23/looking-ahead-and-bringing-you-even-more.aspx |work=Office Live Workspace Team Blog |publisher=Microsoft |date=January 23, 2009 |accessdate=January 24, 2009 |archiveurl=https://web.archive.org/web/20090305125128/http://ask.officelive.com/workspace/blogs/workspace_team/archive/2009/01/23/looking-ahead-and-bringing-you-even-more.aspx |archivedate=March 5, 2009}}&lt;/ref&gt; as well as several deficiencies with Office Live Workspace, which lacked high-fidelity document viewing and did not allow files to be edited from within the web browser.&lt;ref name="readwrite"&gt;{{cite news |url=http://www.readwriteweb.com/archives/office_live_workspace_vs_google_docs_feature_by_feature.php |title=Office Live Workspace vs Google Docs: Feature-by-Feature Comparison |last=Perez |first=Sarah |publisher=[[ReadWrite]]Web
+|date=March 4, 2008 |accessdate=February 3, 2011 |archiveurl=https://web.archive.org/web/20080306014513/http://www.readwriteweb.com/archives/office_live_workspace_vs_google_docs_feature_by_feature.php |archivedate=March 6, 2008}}&lt;/ref&gt; Office Live Workspace also did not offer offline collaboration and co-authoring functionality&amp;nbsp;– instead documents were "checked out" and "checked in", though the service did integrate with [[Microsoft SharedView|SharedView]] for real-time screen sharing.
+
+On June 20, 2011, Microsoft overhauled the user interface for SkyDrive, built using [[HTML5]] technologies. The updated version featured caching, hardware acceleration, [[HTML5 video]], quick views, cleaner arrangement of photos and infinite scrolling. Microsoft also doubled the file size limit from 50&amp;nbsp;MB to 100&amp;nbsp;MB per file. With this update, Microsoft consolidated the different entry points for SkyDrive, such as ''Windows Live Photos'' and ''Windows Live Office'', into one single interface. Files and folders shared with a user, including those in [[Windows Live Groups]], were also accessible in the new interface.&lt;ref name="intro5"&gt;{{cite web |url=http://blogs.windows.com/windows_live/b/windowslive/archive/2011/06/20/introducing-skydrive-for-the-modern-web-built-using-html5.aspx |title = Introducing SkyDrive for the modern web, built using HTML5 |last=Shahine |first=Omar |work=Inside Windows Live |publisher=Microsoft |date=June 20, 2011 |accessdate=June 20, 2011 |archiveurl=https://web.archive.org/web/20121230074309/http://blogs.windows.com/windows_live/b/windowslive/archive/2011/06/20/introducing-skydrive-for-the-modern-web-built-using-html5.aspx |archivedate=December 30, 2012}}&lt;/ref&gt; On November 29, 2011, Microsoft updated SkyDrive to make sharing and file management easier, as well as HTML5 and other updates. This update also allowed users to see how much storage they had (and how much they had used), a feature that had been removed in the previous update as part of the redesign.&lt;ref name="html5-upload"&gt;{{cite web |url=http://windowsteamblog.com/windows_live/b/windowslive/archive/2011/11/29/skydrive-gets-simple-app-centric-sharing-for-office-powerful-file-management-html5-upload-other-updates.aspx |title=SkyDrive gets simple app-centric sharing for Office, powerful file management, HTML5 upload, other updates |last=Shahine |first=Omar |work=Inside Windows Live |publisher=Microsoft |date=November 29, 2011 |accessdate=July 25, 2012 |archiveurl=https://web.archive.org/web/20111130233902/http://windowsteamblog.com/windows_live/b/windowslive/archive/2011/11/29/skydrive-gets-simple-app-centric-sharing-for-office-powerful-file-management-html5-upload-other-updates.aspx |archivedate=November 30, 2011}}&lt;/ref&gt;
+
+On December 3, 2011, Microsoft released SkyDrive apps for iOS and Windows Phone, which are available in the App Store and Windows Phone Store respectively. On April 22, 2012, Microsoft released a SkyDrive desktop app for [[Windows Vista]], [[Windows 7|7]] and [[Windows 8|8]], as well as [[macOS]], allowing users to synchronize files on SkyDrive, much like [[Windows Live Mesh]], and to "fetch" files on their computer via the web browser. In addition, SkyDrive also provided additional storage available for purchase and reduced the free storage space for new users to 7&amp;nbsp;GB (from&amp;nbsp;25 GB). Existing users were offered a free upgrade offer to retain their 25&amp;nbsp;GB of free storage. The updated SkyDrive also allowed files up to 2&amp;nbsp;GB in size (uploaded via the SkyDrive desktop app).&lt;ref name="skydrive-win8"&gt;{{cite web |url=http://blogs.msdn.com/b/b8/archive/2012/02/20/connecting-your-apps_2c00_-files_2c00_-pcs-and-devices-to-the-cloud-with-skydrive-and-windows-8.aspx |title=Connecting your apps, files, PCs and devices to the cloud with SkyDrive and Windows 8 |last1=Sinofsky |first1=Steven |last2=Torres |first2=Mike |last3=Shahine |first3=Omar|work=Building Windows 8 |publisher=Microsoft |date=February 20, 2012 |accessdate=February 23, 2012 |quote=Oh, and we will also have support for uploading large files (up to 2 GB) through Explorer, another big request from SkyDrive.com users over the years.}}&lt;/ref&gt; The update also brought additional features such as [[OpenDocument|Open Document Format]] (ODF) capability, URL shortening services and direct sharing of files to [[Twitter]].
+
+On August 14, 2012, Microsoft announced a new update for SkyDrive which brought changes and improvements to SkyDrive.com, SkyDrive for Windows desktop and [[macOS|OS X]], and the SkyDrive API as part of [[Live Connect]]. For SkyDrive.com, the updates brought a new "modern" design for the web service consistent with [[Outlook.com]], and along with the UI update the service also received improvements such as instant search, contextual toolbar, multi-select in thumbnail view, drag-and-drop files into folders, and sorting improvements. For the SkyDrive for Windows desktop and [[macOS]] applications, the update brought new performance improvements to photo uploads and the sync experience. The update also improved the SkyDrive API with the removal of file type restrictions, ability to upload images in their full resolution, as well as a new SkyDrive file picker for opening and saving files.&lt;ref&gt;{{cite web |url=http://windowsteamblog.com/skydrive/b/skydrive/archive/2012/08/14/a-new-modern-skydrive-com-updated-apps-and-outlook-com-at-10-million-users.aspx |title=A new modern SkyDrive.com, updated apps, and Outlook.com at 10 million users |last=Jones |first=Chris |date=August 14, 2012 |work=Inside SkyDrive |publisher=Microsoft |accessdate=August 17, 2012 |archiveurl=https://web.archive.org/web/20120816083641/http://windowsteamblog.com/skydrive/b/skydrive/archive/2012/08/14/a-new-modern-skydrive-com-updated-apps-and-outlook-com-at-10-million-users.aspx |archivedate=August 16, 2012}}&lt;/ref&gt; On August 28, 2012, Microsoft released a SkyDrive app for [[Android (operating system)|Android]] on [[Google Play]] store.&lt;ref name="google-play"&gt;{{cite web |url=https://play.google.com/store/apps/details?id=com.microsoft.skydrive&amp;hl=en_US |title=Microsoft OneDrive at Google Play}}&lt;/ref&gt; On September 18, 2012, Microsoft also introduced a [[Trash (computing)|recycle bin]] feature on SkyDrive and announced that SkyDrive will allow users to create online surveys via [[Office Web Apps|Excel Web App]].&lt;ref name="windowsteamblog.com"&gt;{{cite web |url=http://windowsteamblog.com/skydrive/b/skydrive/archive/2012/09/18/new-skydrive-recycle-bin-available-today-and-excel-surveys-coming-soon.aspx |title=New SkyDrive recycle bin available today and Excel surveys coming soon |last=Shahine |first=Omar |date=September 18, 2012 |work=Inside SkyDrive |publisher=Microsoft |accessdate=September 18, 2012 |archiveurl=https://web.archive.org/web/20120919205253/http://windowsteamblog.com/skydrive/b/skydrive/archive/2012/09/18/new-skydrive-recycle-bin-available-today-and-excel-surveys-coming-soon.aspx |archivedate=September 19, 2012}}&lt;/ref&gt;
+
+===Sky lawsuit and OneDrive renaming===
+Microsoft became involved in a lawsuit with British television broadcaster [[Sky UK]] for using the word "Sky", resulting in a [[High Court of Justice|High Court]] ruling in June 2013 that the service's brand breached Sky's trademark.&lt;ref&gt;{{cite news |title=Microsoft made to rename Skydrive after Sky victory |url=https://www.bbc.co.uk/news/technology-23530337 |date=August 1, 2013 |newspaper=BBC News |publisher=BBC |accessdate=December 16, 2013}}&lt;/ref&gt; On July 31, 2013, in a joint press release between Sky and Microsoft, it was announced that a settlement had been reached and as a result the SkyDrive name would be dropped. Sky allowed Microsoft to continue using the brand "for a reasonable period of time to allow for an orderly transition to a new brand".&lt;ref&gt;{{cite web |url=https://www.theverge.com/2013/7/31/4574878/microsoft-skydrive-name-change-sky |title=Microsoft forced to rename SkyDrive following trademark case with broadcaster |last=Warren |first=Tom |work=[[The Verge]] |publisher=[[Vox Media]] |date=July 31, 2013 |accessdate=July 31, 2013}}&lt;/ref&gt; "SkyDrive" was renamed "OneDrive" on most platforms on February 19, 2014, following an announcement on January 27.&lt;ref name=":0"&gt;{{cite web |url=http://blog.onedrive.com/onedrive-for-everything-your-life |title=OneDrive for Everything in Your Life |last=Gavin |first=Ryan |work=The OneDrive Blog |publisher=Microsoft |date=January 27, 2014 |accessdate=February 14, 2014}}&lt;/ref&gt;&lt;ref name=":1"&gt;{{cite web |url=http://news.cnet.com/8301-10805_3-57617836-75/microsoft-ditches-skydrive-for-onedrive-after-bskyb-dispute |title=Microsoft ditches SkyDrive for OneDrive after BSkyB dispute |last=Reisinger |first=Don |date=January 27, 2014 |work=[[CNET]] |publisher=[[CBS Interactive]] |accessdate=January 27, 2014}}&lt;/ref&gt;&lt;ref name=verge-onedrivelaunch /&gt;
+
+On June 18, 2015, Microsoft launched an improved design of OneDrive for the web.&lt;ref&gt;{{cite web |url=http://www.eweek.com/cloud/microsofts-onedrive-cloud-storage-gets-made-over-for-the-web.html |title=Microsoft's OneDrive Cloud Storage Gets Made Over for the Web|last=Hernandez |first= Pedro |date=June 18, 2015 |work=eWeek |publisher= |accessdate=June 19, 2015}}&lt;/ref&gt;
+
+In 2015 Microsoft removed the unlimited storage plan for Office 365 Home, Personal and University packages, reduced the free OneDrive storage from 15&amp;nbsp;GB to 5&amp;nbsp;GB, and replaced paid subscriptions to 100&amp;nbsp;GB and 200&amp;nbsp;GB plans to a $1.99 per month 50&amp;nbsp;GB plan. These changes caused major controversy with users, some of whom petitioned Microsoft to reverse the plans. By November 21, 2015, in response to Microsoft's November 2 announcement, over 70,000 people had taken to the official OneDrive uservoice to voice their concerns.&lt;ref&gt;{{cite news |url=https://onedrive.uservoice.com/forums/262982-onedrive/suggestions/10524099-give-us-back-our-storage |title=Give us back our storage |work=The One Drive Uservoice |publisher=Uservoice |date=November 3, 2015 |accessdate=November 21, 2015 }}&lt;/ref&gt; According to Microsoft these changes were a response to people abusing the service by using OneDrive to store PC backups,  movie collections, and DVR recordings.&lt;ref&gt;{{cite news |url=https://blog.onedrive.com/onedrive_changes/ |title=OneDrive storage plans change in pursuit of productivity and collaboration |work=The One Drive Blog |publisher=Microsoft |date=November 2, 2015 |accessdate=November 12, 2015 }}&lt;/ref&gt;
+
+== Storage ==
+
+===Quota===
+{{As of|2018|7}} the service offers 5&amp;nbsp;[[Gigabyte|GB]] of free storage for new users.&lt;ref name="storage_plans"/&gt;&lt;ref name=verge-unlimitedremoved/&gt; Additional storage is available for purchase.&lt;ref&gt;{{cite web |url=https://onedrive.live.com/about/en-us/plans |title=OneDrive grows with you |publisher=Microsoft |accessdate=October 31, 2014}}&lt;/ref&gt;
+
+The amount of storage available has changed several times. Initially, the service provided 7&amp;nbsp;GB of storage and, for one year, an additional 3&amp;nbsp;GB of free storage to students.&lt;ref&gt;{{cite news |url=https://www.engadget.com/2013/05/26/microsoft-gives-students-3gb-additional-skydrive-storage-for-one |title=Microsoft gives students 3GB additional Skydrive storage for one year |last=Joire |first=Myriam |date=May 26, 2013 |work=Engadget |publisher=AOL |accessdate=October 31, 2014}}&lt;/ref&gt; Users who signed up to OneDrive prior to April 22, 2012 were able to opt-in for a limited time offer of 25&amp;nbsp;GB of free storage upgrade. The service is built using [[HTML5]] technologies,&lt;ref name="intro5" /&gt; and files up to 300&amp;nbsp;MB can be uploaded via drag and drop into the web browser,&lt;ref&gt;{{cite web |url=http://tech.uk.msn.com/microsoft/microsoft-updates-skydrive-to-include-300mb-web-uploads-odf-support-and-more |title=Microsoft updates SkyDrive to include 300MB web uploads, ODF support &amp; more |last=Farrington-Smith |first=Matt |date=April 23, 2012 |work=MSN Tech &amp; Gadgets UK |publisher=Microsoft |accessdate=April 26, 2012 |archiveurl=https://web.archive.org/web/20120425095705/http://tech.uk.msn.com/microsoft/microsoft-updates-skydrive-to-include-300mb-web-uploads-odf-support-and-more |archivedate=April 25, 2012}}&lt;/ref&gt; or up to 10&amp;nbsp;GB via the OneDrive desktop application for [[Microsoft Windows]] and [[macOS|OS X]].&lt;ref&gt;{{cite web |url=https://blog.onedrive.com/onedrive-now-supports-10-gb-files |title=OneDrive now supports 10 GB files |last=Moore |first=Jason |work=The OneDrive Blog |publisher=Microsoft |date=September 10, 2014 |accessdate=September 13, 2014}}&lt;/ref&gt; From September 23, 2013 onwards, in addition to 7&amp;nbsp;GB of free storage (or 25&amp;nbsp;GB for users eligible for the free upgrade), power users who required more storage could choose from one of four paid storage plans.&lt;ref&gt;{{cite web |url=https://blog.onedrive.com/skydrives-new-200-gb-plan-enough-storage-for-a-photo-every-hour-from-birth-to-graduation |title=SkyDrive's new 200 GB plan: Enough storage for a photo every hour from birth to graduation |last=Shahine |first=Omar |work=The OneDrive Blog |publisher=Microsoft |date=September 23, 2013 |accessdate=September 23, 2013}}&lt;/ref&gt;
+
+Users in some regions may need to have a certain payment card or [[PayPal]] account to pay.&lt;ref name="Skydrive-w8" /&gt; The paid storage plan is renewed automatically each year unless Microsoft or the user cancels the service.&lt;ref name="Storage_plans_FAQ"&gt;{{cite web |url=http://windows.microsoft.com/en-us/onedrive/storage-subscription |title=Storage plans: Common subscription and billing questions |publisher=Microsoft |accessdate=October 31, 2014}}&lt;/ref&gt;
+
+Upon the re-launch as OneDrive, monthly payment plans were introduced, along with the ability to earn up to 5&amp;nbsp;GB of free storage for referring new users to OneDrive (500&amp;nbsp;MB each), and 3&amp;nbsp;GB if users enable automatic uploads of photos using the OneDrive mobile apps on smartphones.&lt;ref name=verge-onedrivelaunch&gt;{{cite web |title=Microsoft OneDrive launches with Dropbox-like bonus storage and new Android app |url=https://www.theverge.com/2014/2/19/5422770/microsoft-onedrive-launch-bonus-storage-new-android-app |last=Warren |first=Tom |work=The Verge |publisher=Vox Media |date=February 19, 2014 |accessdate=February 20, 2014}}&lt;/ref&gt; Subscribers to [[Office 365]]'s home-oriented plans also receive additional storage for use with the service, with 20&amp;nbsp;GB per user.&lt;ref name=verge-365terabyte&gt;{{cite web |title=Microsoft kicks off Google 'productivity war' by doubling free OneDrive storage |url=https://www.theverge.com/2014/6/23/5833808/onedrive-free-storage-increase-pricing-productivity-war |last=Warren |first=Tom |work=The Verge |publisher=Vox Media |date=June 23, 2014 |accessdate=June 23, 2014}}&lt;/ref&gt;
+
+In June 2014 it was announced that OneDrive's default storage would increase to 15&amp;nbsp;GB, putting it in line with its competitor [[Google Drive]]. An additional 15&amp;nbsp;GB were offered for activating camera roll backup on a mobile device, putting it ahead of Google Drive until November 2015, when this bonus was cancelled. The amount of additional storage for Office 365 subscribers also increased to 1&amp;nbsp;TB.&lt;ref name=verge-365terabyte/&gt; Microsoft reduced the price of OneDrive storage subscriptions at that time.
+
+In October 2014 Microsoft announced that it would offer unlimited OneDrive storage to all Office 365 subscribers.&lt;ref&gt;{{cite web |url=https://techcrunch.com/2014/10/27/microsoft-adds-unlimited-onedrive-storage-to-all-office-365-accounts |title=Microsoft Adds Unlimited OneDrive Storage To All Office 365 Accounts |last=Wilhelm |first=Alex |date=October 27, 2014 |work=TechCrunch |publisher=AOL |accessdate=October 31, 2014}}&lt;/ref&gt; However, on November 3, 2015, the 1&amp;nbsp;TB cap was reinstated. Microsoft additionally announced the planned replacement of its 100&amp;nbsp;GB and 200&amp;nbsp;GB plans with a new 50&amp;nbsp;GB plan in early 2016, and the reduction of free storage from 15 GB to 5&amp;nbsp;GB. Any current accounts over this limit could keep the increased storage for at least 12 months.&lt;ref name="20151102MS"&gt;{{cite web |url=https://blog.onedrive.com/onedrive_changes |title=OneDrive storage plans change in pursuit of productivity and collaboration |date=November 2, 2015 |work=The OneDrive Blog |publisher=Microsoft |accessdate=November 3, 2015 |archiveurl=https://web.archive.org/web/20151103051743/https://blog.onedrive.com/onedrive_changes |archivedate=November 3, 2015}}&lt;/ref&gt;&lt;ref name=verge-unlimitedremoved&gt;{{cite news|title=Microsoft reduces free OneDrive storage and removes unlimited option|url=https://www.theverge.com/2015/11/3/9662414/microsoft-reduces-free-onedrive-storage-15-to-5-gb-removes-unlimited|accessdate=November 3, 2015|work=The Verge}}&lt;/ref&gt;&lt;ref&gt;{{cite news |title=Microsoft drops unlimited OneDrive storage after people use it for unlimited storage |first=Peter |last=Bright |url= https://arstechnica.com/information-technology/2015/11/microsoft-drops-unlimited-onedrive-storage-after-people-use-it-for-unlimited-storage/ |newspaper=Ars Technica |date=November 4, 2015 |accessdate=November 4, 2015}}&lt;/ref&gt; Following calls for Microsoft to reverse the reduction decision, Microsoft announced on December 11 of the same year that it would allow existing users to request to have up to 30GB of free storage unaffected by the reduction, and said it would fully refund customers of Office 365 not satisfied with the 1TB cap, among other redress.&lt;ref&gt;{{cite web |title=Microsoft is letting OneDrive users keep their 15GB of free storage after all|url=https://www.theverge.com/2015/12/11/9890966/microsoft-onedrive-free-storage|last=Warren |first=Tom |work=The Verge |publisher=Vox Media |date=December 11, 2015|accessdate=January 27, 2016}}&lt;/ref&gt;
+
+In June 2019, alongside the announcement for the Personal Vault, Microsoft announced that it would increase the OneDrive standalone storage plan from 50 GB to 100 GB at no additional charge, and that it would be giving Office 365 subscribers a new option to add more storage as they need it.&lt;ref&gt;{{Cite web|url=https://www.microsoft.com/en-us/microsoft-365/blog/2019/06/25/onedrive-personal-vault-added-security-onedrive-additional-storage/|title=OneDrive Personal Vault brings added security to your most important files and OneDrive gets additional storage options|last=Patton|first=Seth|last2=Manager|first2=General|date=2019-06-25|website=Microsoft 365 Blog|language=en-US|access-date=2020-03-05|last3=Microsoft 365}}&lt;/ref&gt;
+
+===Versioning===
+
+OneDrive initially did not store previous versions of files, except for Microsoft Office formats.&lt;ref&gt;{{cite web |url=http://www.pcworld.com/article/3072649/software/3-ways-to-recover-an-older-version-of-an-existing-file.html |title=3 ways to recover an older version of an existing file |last=Spector |first=Lincoln |date=June 3, 2016 |website=[[PCWorld]] |publisher=[[IDG]]}}&lt;/ref&gt; In July 2017, however, Microsoft OneDrive team announced that version history support for all file types was the top requested feature; as such, OneDrive would keep older versions of all files for up to 30 days.&lt;ref&gt;{{cite web|last1=Rodrigues|first1=John|title=Expanding OneDrive version history support to all file types|url=https://blogs.office.com/en-us/2017/07/19/expanding-onedrive-version-history-support-file-types/|website=Office Blogs|publisher=[[Microsoft]]|date=July 19, 2017}}&lt;/ref&gt;
+
+===Recycle bin===
+OneDrive implements a [[Trash (computing)|"recycle bin"]]; files the user chooses to delete are stored there for a time, without counting as part of the user's allocation, and can be reinstated until they are ultimately purged from OneDrive.&lt;ref name="windowsteamblog.com"/&gt;
+
+=== Download as ZIP files ===
+Entire folders can be downloaded as a single ZIP file with OneDrive. For a single download, there is a limit of 15&amp;nbsp;GB; the total ZIP file size limit is 20&amp;nbsp;GB; and up to 10,000 files can be included in a ZIP file.&lt;ref&gt;{{Cite web|url=https://support.office.com/en-us/article/download-files-and-folders-from-onedrive-or-sharepoint-5c7397b7-19c7-4893-84fe-d02e8fa5df05|title=Download files and folders from OneDrive or SharePoint|website=Office Support|publisher=Microsoft|access-date=September 9, 2018}}&lt;/ref&gt;
+
+==Editing==
+
+===Office for the web===
+{{main|Office on the web}}
+Microsoft added [[Office on the web|Office for the web]] (known at the time as Office Web Apps and later Office Online) capability to OneDrive in its "Wave 4" update, allowing users to upload, create, edit and share [[Microsoft Word|Word]], [[Microsoft Excel|Excel]], [[Microsoft PowerPoint|PowerPoint]] and [[Microsoft OneNote|OneNote]] documents directly within a web browser. In addition, Office for the web allows multiple users to simultaneously co-author Excel documents in a web browser, and co-author OneNote documents with another web user or the desktop application. Users can also view the version history of Office documents stored on OneDrive.&lt;ref name="thurrott"&gt;{{cite web |url=http://www.winsupersite.com/article/office/office-2010-review-part-3-office-web-apps.aspx |title=Office 2010 Review, Part 3: Office Web Apps |last=Thurrott |first=Paul |work=Paul Thurrott's Supersite for Windows |publisher=Penton Media |date=October 6, 2010 |accessdate=June 25, 2012}}&lt;/ref&gt;
+
+===Formats===
+OneDrive allows the viewing of documents in [[Portable Document Format]] (PDF),&lt;ref name="html5-upload" /&gt; and in the [[OpenDocument|Open Document Format]] (ODF), an [[XML]]-based file format supported by a number of word processing applications, including Microsoft Office, [[LibreOffice]], [[Apache OpenOffice]] and Corel's [[WordPerfect]].&lt;ref&gt;{{cite web |url=https://www.theverge.com/2012/4/17/2955021/skydrive-300mb-file-upload-short-url-open-document-format |title=SkyDrive updated to include 300MB browser uploads, short URLs for Windows Phone images, and ODF support |last=Warren |first=Tom |work=The Verge |publisher=Vox Media |date=April 17, 2012 |accessdate=July 25, 2012}}&lt;/ref&gt; OneDrive's search function supports search within PDF documents.&lt;ref&gt;{{cite web|last1=Pearce|first1=Douglas|title=Introducing an all new way to view, manage, and share your photos in OneDrive|url=https://blogs.office.com/en-us/2015/01/27/introducing-an-all-new-way-to-view-manage-and-share-your-photos-in-onedrive/?eu=true|website=blogs.office.com|quote=You can now search for Office documents and PDFs by text inside of them}}&lt;/ref&gt;
+
+OneDrive includes an online text editor that allows users to view and edit files in [[plain text]] format, such as [[text file]]s and [[batch file]]s. [[Syntax highlighting]] and [[code completion]] is available for a number of programming and markup languages, including [[C Sharp (programming language)|C#]], [[Visual Basic]], [[JavaScript]], [[Windows PowerShell]], [[CSS]], [[HTML]], [[XML]], [[PHP]] and [[Java (programming language)|Java]]. This online editor includes a find-and-replace feature and a way to manage file merging conflicts.&lt;ref&gt;{{cite web |url=http://blogs.windows.com/skydrive/b/skydrive/archive/2013/07/30/creating-the-most-beautiful-and-powerful-way-to-view-share-and-search-your-photos-with-html5.aspx |title=Creating the most beautiful and powerful way to view, share, and search your photos with HTML5 |last=Shahine |first=Omar |work=Inside SkyDrive |publisher=Microsoft |date=July 30, 2013 |accessdate=February 23, 2014 |archiveurl=https://web.archive.org/web/20130801084741/http://blogs.windows.com/skydrive/b/skydrive/archive/2013/07/30/creating-the-most-beautiful-and-powerful-way-to-view-share-and-search-your-photos-with-html5.aspx |archivedate=August 1, 2013}}&lt;/ref&gt;&lt;ref&gt;{{cite web |title=Text Editor from SkyDrive with HTML5 |url=http://channel9.msdn.com/posts/Text-Editor-from-SkyDrive-with-HTML5 |last=Larsen|first=Larry |work=[[Channel 9 (Microsoft)|Channel 9]] |publisher=Microsoft |date=July 30, 2013 |accessdate=February 24, 2014}}&lt;/ref&gt;
+
+==Photos and videos==
+OneDrive can use geo-location data for photos uploaded to the service, and will automatically display a map of the tagged location. OneDrive also allows users to tag people in photos uploaded via the web interface or via [[Windows Photo Gallery]].
+
+Photos uploaded to OneDrive can be played as an automatic slideshow. Images uploaded to OneDrive will be recognized as 360° images if they are clicked with popular models of 360° cameras in a panoramic mode, right from within the OneDrive.
+
+==Client apps==
+{{Infobox software
+|name = OneDrive
+|title = OneDrive client
+|screenshot = OneDrive client app screenshot.jpg
+|caption = OneDrive client app, as appears on [[personal computer|PC]], [[Xbox One]] and [[HoloLens]]
+|developer = [[Microsoft]]
+|ver layout = stacked
+|genre = [[File manager]], [[file synchronization]]
+|website = {{URL|onedrive.live.com/about/download/}}
+}}
+
+Microsoft has released OneDrive client applications for [[Android (operating system)|Android]],&lt;ref name="google-play"/&gt; [[iOS]],&lt;ref name="windowsteamblog1"&gt;{{cite web |url=http://windowsteamblog.com/windows_live/b/windowslive/archive/2011/12/13/introducing-skydrive-for-iphone-and-windows-phone.aspx |title=Introducing SkyDrive for iPhone and Windows Phone |last=Torres |first=Mike |work=Inside Windows Live |publisher=Microsoft |date=December 13, 2011 |accessdate=July 25, 2012 |archiveurl=https://web.archive.org/web/20120104012720/http://windowsteamblog.com/windows_live/b/windowslive/archive/2011/12/13/introducing-skydrive-for-iphone-and-windows-phone.aspx |archivedate=January 4, 2012}}&lt;/ref&gt; [[Windows 8]],&lt;ref name="skydrive-win8" /&gt;&lt;ref name="Skydrive-w8"&gt;{{cite web |url=http://blogs.msdn.com/b/b8/archive/2012/04/23/the-next-chapter-for-skydrive-personal-cloud-storage-for-windows-available-anywhere.aspx |title=Making personal cloud storage for Windows available anywhere, with the new SkyDrive |last=Sinofsky |first=Steven |work=Building Windows 8 |publisher=Microsoft |date=April 23, 2012 |accessdate=July 25, 2012}}&lt;/ref&gt; [[Windows 10]], [[Windows 10 Mobile]],&lt;ref name="winstore"&gt;{{cite web|title=OneDrive|url=https://www.microsoft.com/en-us/store/apps/onedrive/9wzdncrfj1p3|website=[[Windows Store]]|publisher=[[Microsoft]]|accessdate=July 13, 2016}}&lt;/ref&gt; [[Windows Phone]]&lt;ref name="windowsteamblog1"/&gt; [[Xbox 360]],&lt;ref&gt;{{cite web |title=SkyDrive comes to Xbox 360: Your photos and videos on the TV |url=http://blogs.windows.com/skydrive/b/skydrive/archive/2012/12/11/skydrive-comes-to-xbox-360-photos-and-videos-on-your-tv.aspx |last=Torres |first=Mike |work=Inside SkyDrive |publisher=Microsoft |date=December 11, 2012 |accessdate=December 13, 2012 |archiveurl=https://web.archive.org/web/20121211121018/http://blogs.windows.com/skydrive/b/skydrive/archive/2012/12/11/skydrive-comes-to-xbox-360-photos-and-videos-on-your-tv.aspx |archivedate=December 11, 2012}}&lt;/ref&gt; and [[Xbox One]]&lt;ref name=verge-onedrivelaunch/&gt; that allow users to browse, view and organize files stored on their OneDrive cloud storage. In addition, Microsoft also released desktop applications for [[Microsoft Windows]] ([[Windows Vista|Vista]] and later) and [[macOS|OS X]] (10.7 [[Mac OS X Lion|Lion]] and later)&lt;ref name="native client"&gt;{{cite web |url=https://onedrive.live.com/about/en-us/download |title=Download OneDrive for Windows |publisher=Microsoft |accessdate=October 31, 2014}}&lt;/ref&gt; that allow users to synchronize their entire OneDrive storage with their computers for offline access, as well as between multiple computers.&lt;ref name=pcw-nofetch/&gt; The OneDrive client for Windows allows users to "fetch" the contents of their PCs via the web browser, provided the user enabled this option; macOS users can fetch from a PC, but not vice versa. The Android, iOS and [[Windows Phone 8]] versions also allow camera photos to automatically be uploaded to OneDrive.&lt;ref name=verge-onedrivelaunch/&gt; Upon the re-branding as OneDrive, the Xbox One app also added [[Gamerscore|achievements]].&lt;ref&gt;{{cite web |title=SkyDrive relaunched as OneDrive with Achievements on Xbox One |url=http://www.polygon.com/2014/2/19/5426228/xbox-one-onedrive-achievements-relaunched-skydrive |last=Sarkar |first=Samit |date=February 19, 2014 |work=Polygon |publisher=Vox Media |accessdate=February 20, 2014}}&lt;/ref&gt;
+
+In addition to the client apps, OneDrive is integrated into [[Windows 8.1]] and later, [[Microsoft Office 2010]] and later, as well as the Office and Photos hub in [[Windows Phone]], enabling users to access documents, photos and videos stored on their OneDrive account. OneDrive in Windows 8.1 can sync user settings and files, through either the included OneDrive app (originally called SkyDrive, until the name was changed with a Windows update&lt;ref&gt;{{cite web |title=OneNote for Windows 8.1 Updated For OneDrive |url=http://winsupersite.com/windows-8/onenote-windows-81-updated-onedrive |last=Thurrott |first=Paul |work=Paul Thurrott's SuperSite for Windows |publisher=Penton Media |date=February 21, 2014 |accessdate=February 23, 2014}}&lt;/ref&gt;) or [[File Explorer]], deprecating the previous Windows client. Along with the use of [[NTFS reparse point|reparse points]], these changes allow files to be accessed directly from OneDrive as if they are stored locally. The OneDrive app was also updated to include a local [[file manager]]. Unlike on Windows 8, use of OneDrive on Windows 8.1 requires the user's Windows account be linked to a [[Microsoft account]]; the previous OneDrive desktop client (which did not have this requirement) no longer works on Windows 8.1. Additionally, the Fetch feature does not work on Windows 8.1.&lt;ref name=verge-onedrivelaunch/&gt;&lt;ref name=pcw-nofetch&gt;{{cite web |title=Warning: Windows 8.1 kills SkyDrive's remote 'Fetch' feature |url=http://www.pcworld.com/article/2055597/warning-windows-8-1-kills-skydrives-remote-fetch-feature.html |last=Chacos |first=Brad |date=October 18, 2013 |work=PCWorld |publisher=IDG |accessdate=October 22, 2013}}&lt;/ref&gt;&lt;ref&gt;{{cite web |title=Windows 8.1 review: The great compromise |url=http://www.pcworld.com/article/2048508/windows-8-1-review-the-great-compromise.html |last=Chacos |first=Brad |date=September 11, 2013 |work=PCWorld |publisher=IDG |accessdate=September 24, 2013}}&lt;/ref&gt;&lt;ref&gt;{{cite web |title=SkyDrive in Windows 8.1: Cloud storage the way it's meant to be |url=https://arstechnica.com/information-technology/2013/07/skydrive-in-windows-8-1-cloud-storage-the-way-its-meant-to-be |last=Bright |first=Peter |date=July 3, 2013 |work=Ars Technica |publisher=Condé Nast |accessdate=October 22, 2013}}&lt;/ref&gt;
+
+In an update on July 4, 2017, OneDrive desktop client started showing an error message to the effect that the local OneDrive folder must be located on an [[NTFS]] volume only. Other file systems, including the older [[FAT32]] and [[exFAT]], as well as the newer [[ReFS]] were not supported. Microsoft further commented that this was always the requirement; it had merely fixed a bug in which the warning was not displayed. Microsoft also denied this feature having anything to do with the forthcoming OneDrive Files On-Demand.&lt;ref&gt;{{cite web|last1=Bright|first1=Peter|title=OneDrive has stopped working on non-NTFS drives|url=https://arstechnica.com/information-technology/2017/07/onedrive-has-stopped-working-on-non-ntfs-drives/|website=[[Ars Technica]]|publisher=[[Condé Nast]]|date=July 7, 2016}}&lt;/ref&gt;&lt;ref&gt;{{cite web|last1=Foley|first1=Mary Jo|title=Microsoft changes behavior of OneDrive on non-NTFS drives|url=http://www.zdnet.com/article/microsoft-changes-behavior-of-onedrive-on-non-ntfs-drives/|website=[[ZDNet]]|publisher=[[CBS Interactive]]|date=July 6, 2017}}&lt;/ref&gt;
+
+===Integration with Microsoft Office===
+
+[[Microsoft Office]], starting with [[Microsoft Office 2010]] and [[Microsoft Office for Mac 2011]], allows users to directly open or save documents to OneDrive, or [[Collaborative real-time editor|simultaneously edit]] shared documents with other users. Changes are synchronized when a document is saved and, where conflicts occur, the saving user can choose which version to keep; users can also [[Collaborative real-time editor|use several different desktop and web programs]] to edit the same shared document.&lt;ref name="Office2010CoAuthoring"&gt;{{cite web |url=https://blogs.msdn.microsoft.com/mvpawardprogram/2010/12/20/mvps-for-office-and-sharepoint-2010-using-co-authoring-features-in-office-2010-office-web-apps-and-office-for-mac-2011/ |title=MVPs for Office and SharePoint 2010: Using co-authoring features in Office 2010, Office Web Apps, and Office for Mac 2011 |last=Krieger |first=Stephanie |editor-last=Webb |editor-first=Lonnie |date=December 20, 2010 |publisher=[[Microsoft]] |work=[[Microsoft TechNet|TechNet]] |accessdate=September 28, 2017}}&lt;/ref&gt;
+
+[[Microsoft OneNote]] users can sync one or more of their notebooks using OneDrive. Once a notebook is selected for sharing, OneDrive copies the notebook from the user's computer to OneDrive, and that online copy then becomes the original for all future changes. The originating copy remains on the user's hard drive but is no longer updated by OneNote. Users can switch back to an offline-only version of the notebook by manually changing its location in OneNote, but unpredictable results may occur, including the OneNote application crashing and loss of notebook data under certain conditions.&lt;ref name="BEALERS"&gt;{{cite web | url=https://bealers.com/2016/11/15/onenote-sync-onedrive/ | title=OneNote Sync To OneDrive Explained | date=15 November 2016 | accessdate=14 January 2019 | author= BEALERS}}&lt;/ref&gt; Under such circumstances, re-sharing the Notebook to OneDrive may result in recovery of the lost data.&lt;ref name="Maxim Cherniga"&gt;{{cite web | url=https://hetmanrecovery.com/recovery_news/onenote-restoration-of-notebooks-and-notes.htm | title=OneNote: Recover Notebooks Files and Notes | date=2 August 2017 | accessdate=14 January 2019 | author= Maxim Cherniga}}&lt;/ref&gt;
+
+=== Personal Vault ===
+In September 2019 Microsoft announced Personal Vault.&lt;ref&gt;{{Cite web|url=https://support.office.com/en-us/article/protect-your-onedrive-files-in-personal-vault-6540ef37-e9bf-4121-a773-56f98dce78c4|title=Protect your OneDrive files in Personal Vault|website=support.office.com|access-date=2019-09-18}}&lt;/ref&gt; It is a protected area in OneDrive where users can store their most important or sensitive files and photos without sacrificing the convenience of anywhere access. Personal Vault has a strong authentication method or a second step of identity verification, such as fingerprint, face, PIN, or a code sent via email or SMS. Personal Vault is not available in macOS app.&lt;ref&gt;{{Cite web|url=https://matovsky.com/personal-vault-onedrive-not-macos.html|title=Personal Vault in OneDrive, but not for macOS|last=Matovsky|first=Roman|date=2019-09-18|website=Matovsky.com|access-date=2019-09-18}}&lt;/ref&gt;
+
+== Interoperability ==
+OneDrive allows users to embed their Word, Excel and PowerPoint documents into other web pages. These embedded documents allow anyone who visits these web pages to interact with them, such as browsing an embedded PowerPoint slideshow or perform calculations within an embedded Excel spreadsheet. In addition, Microsoft has released a set of APIs for OneDrive via [[Live Connect]] to enable developers to develop web services and client apps utilizing OneDrive's cloud storage.&lt;ref&gt;{{cite web |url=http://windowsteamblog.com/windows_live/b/windowslive/archive/2011/12/07/skydrive-apis-for-docs-and-photos-now-ready-to-cloud-enable-apps-on-windows-8-windows-phone-and-more.aspx |title=SkyDrive APIs for Docs and Photos—now ready to cloud enable apps on Windows 8, Windows Phone and more |last=Obasanjo |first=Dare |work=Inside Windows Live |publisher=Microsoft |date=December 7, 2011 |accessdate=July 25, 2012 |archiveurl=https://web.archive.org/web/20120107205648/http://windowsteamblog.com/windows_live/b/windowslive/archive/2011/12/07/skydrive-apis-for-docs-and-photos-now-ready-to-cloud-enable-apps-on-windows-8-windows-phone-and-more.aspx |archivedate=January 7, 2012}}&lt;/ref&gt; This allows users of these web services and client apps to browse, view, upload or edit files stored on OneDrive. A [[software development kit]] (SDK) is available for [[.NET Framework]], [[iOS]], [[Android (operating system)|Android]] and [[Python (programming language)|Python]] with a limited set of API for [[web app]]s and Windows.&lt;ref&gt;{{cite web |url=https://dev.onedrive.com/sdks.htm |title=SDKs for OneDrive integration |work=OneDrive Dev Center |publisher=Microsoft |accessdate=December 17, 2015}}&lt;/ref&gt;
+
+OneDrive is already interoperable with a host of web services, including:
+* [[Outlook.com]]: Allows users to:
+** Directly upload Office documents and photos within Outlook.com, store them on OneDrive and share them with other users.&lt;ref&gt;{{cite web |url=http://office.microsoft.com/en-us/web-apps-help/store-your-doc-send-a-link-with-office-docs-in-hotmail-HA102624889.aspx |title=Store your doc, send a link with Office Docs in Hotmail |work=Office Web Apps Support |publisher=Microsoft |accessdate=August 28, 2012 |archiveurl=https://web.archive.org/web/20111007032143/http://office.microsoft.com/en-us/web-apps-help/store-your-doc-send-a-link-with-office-docs-in-hotmail-HA102624889.aspx |archivedate=October 7, 2011}}&lt;/ref&gt;
+** Directly save Office documents within Outlook.com to OneDrive, and view or edit these documents directly within the web browser.&lt;ref name="officecom"&gt;{{cite web |url=https://support.office.com/en-us/article/Download-a-Word-PowerPoint-Excel-or-PDF-attachment-in-Outlook-com-a6907939-79cc-4d67-8592-26950fafe19c |title=Download a Word, PowerPoint, or Excel attachment in Hotmail |work=Office Online Support |publisher=Microsoft |accessdate=October 31, 2014}}&lt;/ref&gt;
+** Edit Office documents within the web browser using [[Office Online]] and reply directly back to the sender with the edits made.&lt;ref name="officecom" /&gt;&lt;ref&gt;{{cite web |url=http://windows.microsoft.com/en-US/windows/outlook/home/office |title=Office and SkyDrive |work=Outlook Preview |publisher=Microsoft |accessdate=August 28, 2012 |archiveurl=https://web.archive.org/web/20120803191317/http://windows.microsoft.com/en-US/windows/outlook/home/office |archivedate=August 3, 2012}}&lt;/ref&gt;
+* [[Facebook]], [[Twitter]] and [[LinkedIn]]: Enables users to quickly share their files with their contacts on these [[social network]]s.&lt;ref&gt;{{cite web |url=https://www.engadget.com/2012/04/18/microsoft-updates-skydrive-with-support-for-odf-twitter |title=Microsoft updates SkyDrive with support for ODF, Twitter |last=Volpe |first=Joseph |work=[[Engadget]] |publisher=[[AOL]] |date=April 18, 2012 |accessdate=July 25, 2012}}&lt;/ref&gt; OneDrive maintains an access control list of all users with permissions to view or edit the files, including those users on social networks.&lt;ref&gt;{{cite web |url=http://windowsteamblog.com/windows_live/b/windowslive/archive/2011/12/22/designing-app-centric-sharing-for-skydrive-part-2-of-2-rebuilding-permissions.aspx |title=Designing app-centric sharing for SkyDrive, part 2 of 2: Rebuilding permissions |last=Shahine |first=Omar |work=Inside Windows Live |publisher=Microsoft |date=December 22, 2011 |accessdate=July 25, 2012 |archiveurl=https://web.archive.org/web/20120109000008/http://windowsteamblog.com/windows_live/b/windowslive/archive/2011/12/22/designing-app-centric-sharing-for-skydrive-part-2-of-2-rebuilding-permissions.aspx |archivedate=January 9, 2012}}&lt;/ref&gt;
+* [[Bing (search engine)|Bing]]: ''Save &amp; Share'' feature allows users to save search histories into a OneDrive folder.
+* [[Windows Live Groups]]: Before being discontinued, Windows Live Groups provided each group with 1&amp;nbsp;GB of storage space on OneDrive to be shared between the group members. Group members were allowed to access, create, modify and delete files within the group's OneDrive folders, along with the other functionality that OneDrive provides. However, these features eventually became native to OneDrive.
+
+==Privacy concerns==
+Data stored on OneDrive is subject to monitoring by Microsoft, and any content that is in violation of Microsoft's Code of Conduct is subject to removal and may lead to temporary or permanent shutdown of the account. This has led to privacy concerns in relation to data stored on OneDrive.&lt;ref&gt;{{cite web |url=http://wmpoweruser.com/watch-what-you-store-on-skydriveyou-may-lose-your-microsoft-life/ |title=Watch what you store on SkyDrive–you may lose your Microsoft life |publisher=WMPoweruser |date=July 19, 2012 |accessdate=July 25, 2012}}&lt;/ref&gt; Microsoft has responded by indicating that "strict internal policies [are] in place to limit access to a user’s data", and that advanced mechanisms, such as Microsoft's automated [[PhotoDNA]] scanning tool, are utilized to ensure users abide with the Code of Conduct and that their account does not contain files in contravention thereof, such as partial  human nudity (including art or drawings), or any online surveys.&lt;ref&gt;{{cite web |title=Code of conduct |url=http://windows.microsoft.com/en-us/windows-live/code-of-conduct |date=April 2009 |publisher=Microsoft |accessdate=December 13, 2012}}&lt;/ref&gt;&lt;ref&gt;{{cite web |url=http://www.neowin.net/news/microsoft-responds-to-skydrive-privacy-concerns |title=Microsoft responds to SkyDrive privacy concerns |last=Holman |first=Tyler |work=Neowin |date=July 22, 2012 |accessdate=July 25, 2012}}&lt;/ref&gt;
+
+==OneDrive for Business==
+Microsoft has a similarly named but unrelated [[Software plus services|software plus service]] offering called OneDrive for Business (previously SkyDrive Pro&lt;ref name=":0" /&gt;&lt;ref name=":1" /&gt;). While OneDrive is a personal storage service on the web, OneDrive for Business is a managed cloud storage for business users that replaces [[Microsoft SharePoint Workspace|SharePoint Workspace]]. The physical medium on which the information is stored can be either hosted on-premises or purchased as service subscription from Microsoft.&lt;ref&gt;{{cite web |url=http://blog.onedrive.com/one-place-for-all-your-work-files-introducing-onedrive-for-business/ |title=One place for all your work files — introducing OneDrive for Business |last=White |first=Julia |work=The OneDrive Blog |publisher=[[Microsoft]] |date=March 3, 2014 |accessdate=April 8, 2014}}&lt;/ref&gt;
+
+==See also==
+* [[Comparison of file hosting services]]
+* [[Comparison of online backup services]]
+
+==References==
+{{reflist|30em}}
+
+==External links==
+* {{Official website|https://onedrive.live.com}}
+
+{{Microsoft Office}}
+{{Windows Live}}
+{{Windows Components}}{{File hosting service}}
+
+[[Category:Windows Live]]
+[[Category:Cloud storage]]
+[[Category:Data synchronization]]
+[[Category:Email attachment replacements]]
+[[Category:File hosting]]
+[[Category:File sharing services]]
+[[Category:Online backup services]]
+[[Category:Web applications]]
+[[Category:Proprietary cross-platform software]]
+[[Category:Android (operating system) software]]
+[[Category:Internet properties established in 2007]]
+[[Category:IOS software]]
+[[Category:Windows Phone software]]
+[[Category:File hosting for MacOS]]
+[[Category:File hosting for Windows]]
+[[Category:Microsoft Office]]
+[[Category:Windows components]]
+[[Category:Microsoft websites]]
+[[Category:Universal Windows Platform apps]]
+[[Category:Companies' terms of service]]</text>
+      <sha1>jpokm2fc431q0auzmnhsfo6zhels62s</sha1>
+    </revision>
+  </page>
+</mediawiki>

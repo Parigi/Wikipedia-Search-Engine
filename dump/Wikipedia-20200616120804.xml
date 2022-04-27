@@ -1,0 +1,288 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.10/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.10/ http://www.mediawiki.org/xml/export-0.10.xsd" version="0.10" xml:lang="en">
+  <siteinfo>
+    <sitename>Wikipedia</sitename>
+    <dbname>enwiki</dbname>
+    <base>https://en.wikipedia.org/wiki/Main_Page</base>
+    <generator>MediaWiki 1.35.0-wmf.36</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Media</namespace>
+      <namespace key="-1" case="first-letter">Special</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Talk</namespace>
+      <namespace key="2" case="first-letter">User</namespace>
+      <namespace key="3" case="first-letter">User talk</namespace>
+      <namespace key="4" case="first-letter">Wikipedia</namespace>
+      <namespace key="5" case="first-letter">Wikipedia talk</namespace>
+      <namespace key="6" case="first-letter">File</namespace>
+      <namespace key="7" case="first-letter">File talk</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki talk</namespace>
+      <namespace key="10" case="first-letter">Template</namespace>
+      <namespace key="11" case="first-letter">Template talk</namespace>
+      <namespace key="12" case="first-letter">Help</namespace>
+      <namespace key="13" case="first-letter">Help talk</namespace>
+      <namespace key="14" case="first-letter">Category</namespace>
+      <namespace key="15" case="first-letter">Category talk</namespace>
+      <namespace key="100" case="first-letter">Portal</namespace>
+      <namespace key="101" case="first-letter">Portal talk</namespace>
+      <namespace key="108" case="first-letter">Book</namespace>
+      <namespace key="109" case="first-letter">Book talk</namespace>
+      <namespace key="118" case="first-letter">Draft</namespace>
+      <namespace key="119" case="first-letter">Draft talk</namespace>
+      <namespace key="446" case="first-letter">Education Program</namespace>
+      <namespace key="447" case="first-letter">Education Program talk</namespace>
+      <namespace key="710" case="first-letter">TimedText</namespace>
+      <namespace key="711" case="first-letter">TimedText talk</namespace>
+      <namespace key="828" case="first-letter">Module</namespace>
+      <namespace key="829" case="first-letter">Module talk</namespace>
+      <namespace key="2300" case="first-letter">Gadget</namespace>
+      <namespace key="2301" case="first-letter">Gadget talk</namespace>
+      <namespace key="2302" case="case-sensitive">Gadget definition</namespace>
+      <namespace key="2303" case="case-sensitive">Gadget definition talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Linear least squares</title>
+    <ns>0</ns>
+    <id>27118759</id>
+    <revision>
+      <id>941975124</id>
+      <parentid>937904518</parentid>
+      <timestamp>2020-02-21T20:05:17Z</timestamp>
+      <contributor>
+        <username>Michaelnikolaou</username>
+        <id>12858716</id>
+      </contributor>
+      <minor/>
+      <comment>Simplification in formula notation</comment>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="27057" xml:space="preserve">{{Regression bar}}
+
+'''Linear least squares''' ('''LLS''') is the [[least squares approximation]] of [[linear functions]] to data.
+It is a set of formulations for solving statistical problems involved in [[linear regression]], including variants for 
+[[Ordinary least squares|ordinary (unweighted)]],
+[[Weighted least squares|weighted]], and 
+[[Generalized least squares|generalized (correlated)]] [[residuals (statistics)|residuals]].
+[[Numerical methods for linear least squares]] include inverting the matrix of the normal equations and orthogonal decomposition methods.
+
+==Main formulations==
+
+The three main linear least squares formulations are:
+
+{{unordered list&lt;!--
+ the reason for {{unordered list}} instead of wiki-formatting is that some items on this list are spanning several paragraphs.
+ --&gt;
+|1=  '''[[Ordinary least squares]]''' (OLS) is the most common estimator. OLS estimates are commonly used to analyze both [[experiment]]al and [[observational study|observational]] data.
+
+The OLS method minimizes the sum of squared [[Errors and residuals in statistics|residuals]], and leads to a closed-form expression for the estimated value of the unknown parameter vector ''β'':
+: &lt;math&gt;
+  \hat{\boldsymbol\beta} = (\mathbf{X}^\mathsf{T}\mathbf{X})^{-1} \mathbf{X}^\mathsf{T} \mathbf{y},
+  &lt;/math&gt;
+
+where &lt;math&gt;\mathbf{y}&lt;/math&gt; is a vector whose ''i''th element is the ''i''th observation of the [[dependent variable]], and &lt;math&gt;\mathbf{X}&lt;/math&gt; is a matrix whose ''ij'' element is the ''i''th observation of the ''j''th [[independent variable]]. (Note: &lt;math&gt;(\mathbf{X}^\mathsf{T}\mathbf{X})^{-1} \mathbf{X}^\mathsf{T}&lt;/math&gt; is the [[Moore–Penrose inverse]].) The estimator is [[bias of an estimator|unbiased]] and [[consistent estimator|consistent]] if the errors have finite variance and are uncorrelated with the regressors:&lt;ref&gt;{{cite journal | last1=Lai | first1=T.L. | last2=Robbins | first2=H. | last3=Wei | first3=C.Z. | journal=[[Proceedings of the National Academy of Sciences|PNAS]] | year=1978 | volume=75 | title=Strong consistency of least squares estimates in multiple regression | issue=7 | pages=3034–3036 | doi= 10.1073/pnas.75.7.3034 | pmid=16592540 | jstor=68164 | bibcode=1978PNAS...75.3034L | pmc=392707 }}&lt;/ref&gt;
+: &lt;math&gt;
+ \operatorname{E}[\,\mathbf{x}_i\varepsilon_i\,] = 0,
+ &lt;/math&gt;
+where &lt;math&gt;\mathbf{x}_i&lt;/math&gt; is the transpose of row ''i'' of the matrix &lt;math&gt;\mathbf{X}.&lt;/math&gt; It is also [[efficiency (statistics)|efficient]] under the assumption that the errors have finite variance and are [[Homoscedasticity|homoscedastic]], meaning that E[''ε''&lt;sub&gt;''i''&lt;/sub&gt;&lt;sup&gt;2&lt;/sup&gt;{{!}}'''x'''&lt;sub&gt;''i''&lt;/sub&gt;] does not depend on ''i''. The condition that the errors are uncorrelated with the regressors will generally be satisfied in an experiment, but in the case of observational data, it is difficult to exclude the possibility of an omitted covariate ''z'' that is related to both the observed covariates and the response variable. The existence of such a covariate will generally lead to a correlation between the regressors and the response variable, and hence to an inconsistent estimator of '''β'''. The condition of homoscedasticity can fail with either experimental or observational data. If the goal is either inference or predictive modeling, the performance of OLS estimates can be poor if [[multicollinearity]] is present, unless the sample size is large.
+
+|2= '''[[Weighted least squares]]''' (WLS) are used when [[heteroscedasticity]] is present in the error terms of the model.
+
+|3= '''[[Generalized least squares]]''' (GLS) is an extension of the OLS method, that allows efficient estimation of ''β'' when either [[heteroscedasticity]], or correlations, or both are present among the error terms of the model, as long as the form of heteroscedasticity and correlation is known independently of the data. To handle heteroscedasticity when the error terms are uncorrelated with each other, GLS minimizes a weighted analogue to the sum of squared residuals from OLS regression, where the weight for the ''i''&lt;sup&gt;th&lt;/sup&gt; case is inversely proportional to var(''ε''&lt;sub&gt;''i''&lt;/sub&gt;). This special case of GLS is called "weighted least squares". The GLS solution to estimation problem is
+: &lt;math&gt;
+ \hat{\boldsymbol\beta} = (\mathbf{X}^\mathsf{T} \boldsymbol\Omega^{-1} \mathbf{X})^{-1}\mathbf{X}^\mathsf{T}\boldsymbol\Omega^{-1}\mathbf{y},
+ &lt;/math&gt;
+where '''Ω''' is the covariance matrix of the errors. GLS can be viewed as applying a linear transformation to the data so that the assumptions of OLS are met for the transformed data. For GLS to be applied, the covariance structure of the errors must be known up to a multiplicative constant.
+}}
+
+==Alternative formulations==
+Other formulations include:
+{{unordered list&lt;!--
+ the reason for {{unordered list}} instead of wiki-formatting is that some items on this list are spanning several paragraphs.
+ --&gt;
+
+|4= '''[[Iteratively reweighted least squares]]''' (IRLS) is used when [[heteroscedasticity]], or correlations, or both are present among the error terms of the model, but where little is known about the covariance structure of the errors independently of the data.&lt;ref&gt;{{cite journal | title=The Unifying Role of Iterative Generalized Least Squares in Statistical Algorithms | last=del Pino | first=Guido | journal=Statistical Science | volume=4 | year=1989 | pages=394–403 | doi=10.1214/ss/1177012408 | issue=4 | jstor=2245853| doi-access=free }}&lt;/ref&gt; In the first iteration, OLS, or GLS with a provisional covariance structure is carried out, and the residuals are obtained from the fit. Based on the residuals, an improved estimate of the covariance structure of the errors can usually be obtained. A subsequent GLS iteration is then performed using this estimate of the error structure to define the weights. The process can be iterated to convergence, but in many cases, only one iteration is sufficient to achieve an efficient estimate of ''β''.&lt;ref&gt;{{cite journal | title=Adapting for Heteroscedasticity in Linear Models | last=Carroll | first=Raymond J. | journal=The Annals of Statistics | volume=10 | year=1982 | pages=1224–1233 | doi=10.1214/aos/1176345987 | issue=4 | jstor=2240725| doi-access=free }}&lt;/ref&gt;&lt;ref&gt;{{cite journal | title=Robust, Smoothly Heterogeneous Variance Regression | last=Cohen | first=Michael |author2=Dalal, Siddhartha R. |author3=Tukey, John W.  | journal=Journal of the Royal Statistical Society, Series C | volume=42 | year=1993 | pages=339–353 | issue=2 | jstor=2986237}}&lt;/ref&gt;
+
+|5=  '''[[Instrumental variables]]''' regression (IV) can be performed when the regressors are correlated with the errors. In this case, we need the existence of some auxiliary ''instrumental variables'' '''z'''&lt;sub&gt;''i''&lt;/sub&gt; such that E['''z'''&lt;sub&gt;''i''&lt;/sub&gt;''ε''&lt;sub&gt;''i''&lt;/sub&gt;]&amp;nbsp;=&amp;nbsp;0. If '''Z''' is the matrix of instruments, then the estimator can be given in closed form as
+: &lt;math&gt;
+ \hat{\boldsymbol\beta} = (\mathbf{X}^\mathsf{T}\mathbf{Z}(\mathbf{Z}^\mathsf{T}\mathbf{Z})^{-1}\mathbf{Z}^\mathsf{T}\mathbf{X})^{-1}\mathbf{X}^\mathsf{T}\mathbf{Z}(\mathbf{Z}^\mathsf{T}\mathbf{Z})^{-1}\mathbf{Z}^\mathsf{T}\mathbf{y}.
+ &lt;/math&gt;
+'''Optimal instruments''' regression is an extension of classical IV regression to the situation where E[''ε&lt;sub&gt;i&lt;/sub&gt;''&amp;nbsp;{{!}}&amp;nbsp;'''z'''&lt;sub&gt;''i''&lt;/sub&gt;]&amp;nbsp;=&amp;nbsp;0.
+
+|6=  '''[[Total least squares]]''' (TLS)&lt;ref&gt;{{cite journal | title=Total Least Squares: State-of-the-Art Regression in Numerical Analysis | last=Nievergelt | first=Yves | journal=SIAM Review | volume=36 | year=1994 |pages=258–264 | doi=10.1137/1036055 | issue=2 | jstor=2132463}}&lt;/ref&gt; is an approach to least squares estimation of the linear regression model that treats the covariates and response variable in a more geometrically symmetric manner than OLS. It is one approach to handling the "errors in variables" problem, and is also sometimes used even when the covariates are assumed to be error-free.
+}}
+
+In addition, '''percentage least squares''' focuses on reducing percentage errors, which is useful in the field of forecasting or time series analysis. It is also useful in situations where the dependent variable has a wide range without constant variance, as here the larger residuals at the upper end of the range would dominate if OLS were used. When the percentage or relative error is normally distributed, least squares percentage regression provides maximum likelihood estimates. Percentage regression is linked to a multiplicative error model, whereas OLS is linked to models containing an additive error term.&lt;ref&gt;{{cite journal | ssrn = 1406472 | title=Least Squares Percentage Regression | author = Tofallis, C | journal = Journal of Modern Applied Statistical Methods | volume=7 | year = 2009 | pages=526–534 | doi = 10.2139/ssrn.1406472 | url = https://digitalcommons.wayne.edu/cgi/viewcontent.cgi?article=1466&amp;context=jmasm }}&lt;/ref&gt;
+
+In [[constrained least squares]], one is interested in solving a linear least squares problem with an additional constraint on the solution.
+
+== Objective function ==
+In OLS (i.e., assuming unweighted observations), the [[mathematical optimization|optimal value]] of the [[objective function]] is found by substituting the optimal expression for the coefficient vector:
+
+:&lt;math&gt;S=\mathbf y^{\rm T} (\mathbf{I} - \mathbf{H})^{\rm T} (\mathbf{I} - \mathbf{H}) \mathbf y = \mathbf y^{\rm T} (\mathbf{I} - \mathbf{H}) \mathbf y,&lt;/math&gt;
+
+where &lt;math&gt;\mathbf{H}=\mathbf{X}(\mathbf{X}^\mathsf{T}\mathbf{X})^{-1} \mathbf{X}^\mathsf{T} &lt;/math&gt;, the latter equality holding since &lt;math&gt;(\mathbf{I} - \mathbf{H})&lt;/math&gt; is symmetric and idempotent. It can be shown from this&lt;ref&gt;{{cite book |title=Statistics in Physical Science |last=Hamilton |first=W. C. |authorlink= |year=1964 |publisher=Ronald Press |location=New York |isbn= |pages= |url=https://archive.org/details/statisticsinphys0000hami|url-access=registration }}&lt;/ref&gt; that under an appropriate assignment of weights the [[expected value]] of ''S'' is ''m'' − ''n''.  If instead unit weights are assumed, the expected value of ''S'' is &lt;math&gt;(m - n)\sigma^2&lt;/math&gt;, where &lt;math&gt;\sigma^2&lt;/math&gt; is the variance of each observation.
+
+If it is assumed that the residuals belong to a normal distribution, the objective function, being a sum of weighted squared residuals, will belong to a [[Chi-squared distribution|chi-squared (&lt;math&gt;\chi ^2&lt;/math&gt;) distribution]] with ''m'' − ''n'' [[Degrees of freedom (statistics)|degrees of freedom]]. Some illustrative percentile values of &lt;math&gt;\chi ^2&lt;/math&gt; are given in the following table.&lt;ref&gt;{{cite book |title=Schaum's outline of theory and problems of probability and statistics |last=Spiegel |first=Murray R. |authorlink= |year=1975 |publisher=McGraw-Hill |location=New York |isbn=978-0-585-26739-5 |pages= |url= }}&lt;/ref&gt;
+:&lt;math&gt;
+\begin{array}{r|ccc}
+m - n &amp;\chi ^2 _{0.50} &amp;\chi ^2 _{0.95} &amp;\chi ^2 _{0.99}\\
+\hline
+10 &amp; 9.34 &amp;18.3 &amp;23.2 \\
+25 &amp;24.3 &amp;37.7 &amp;44.3 \\
+100 &amp;99.3 &amp;124 &amp;136
+\end{array}
+&lt;/math&gt;
+These values can be used for a statistical criterion as to the [[goodness of fit]]. When unit weights are used, the numbers should be divided by the variance of an observation.
+
+For WLS, the ordinary objective function above is replaced for a weighted average of residuals.
+
+==Discussion==
+In [[statistics]] and [[mathematics]], '''linear least squares''' is an approach to fitting a [[mathematical model|mathematical]] or [[statistical model]] to [[data]] in cases where the idealized value provided by the model for any data point is expressed linearly in terms of the unknown [[parameter]]s of the model.  The resulting fitted model can be used to [[descriptive statistics|summarize]] the data, to [[prediction|predict]] unobserved values from the same system, and to understand the mechanisms that may underlie the system.
+
+Mathematically, linear least squares is the problem of approximately solving an [[overdetermined system]] of linear equations '''A''' '''x''' = '''b''', where '''b''' is not an element of the [[column space]] of the matrix '''A'''. The approximate solution is realized as an exact solution to '''A''' '''x''' = '''b'''', where '''b'''' is the projection of '''b''' onto the column space of '''A'''. The best approximation is then that which minimizes the sum of squared differences between the data values and their corresponding modeled values. The approach is called ''linear'' least squares since the assumed function is linear in the parameters to be estimated. Linear least squares problems are [[Convex function|convex]] and have a [[closed-form expression|closed-form solution]] that is unique, provided that the number of data points used for fitting equals or exceeds the number of unknown parameters, except in special degenerate situations.  In contrast, [[non-linear least squares]] problems generally must be solved by an [[iterative method|iterative procedure]], and the problems can be non-convex with multiple optima for the objective function. If prior distributions are available, then even an underdetermined system can be solved using the [[Minimum mean square error|Bayesian MMSE estimator]].
+ 
+In statistics, linear least squares problems correspond to a particularly important type of [[statistical model]] called [[linear regression]] which arises as a particular form of [[regression analysis]]. One basic form of such a model is an [[ordinary least squares]] model. The present article concentrates on the mathematical aspects of linear least squares problems, with discussion of the formulation and interpretation of statistical regression models and [[statistical inference]]s related to these being dealt with in the articles just mentioned. See [[outline of regression analysis]] for an outline of the topic.
+
+== Properties ==
+{{see also|Ordinary least squares#Properties}}
+
+If the experimental errors, &lt;math&gt;\epsilon \,&lt;/math&gt;, are uncorrelated, have a mean of zero and a constant variance, &lt;math&gt;\sigma&lt;/math&gt;, the [[Gauss–Markov theorem]] states that the least-squares estimator, &lt;math&gt;\hat{\boldsymbol{\beta}}&lt;/math&gt;, has the minimum variance of all estimators that are linear combinations of the observations. In this sense it is the best, or optimal, estimator of the parameters. Note particularly that this property is independent of the statistical [[Cumulative distribution function|distribution function]] of the errors. In other words, ''the distribution function of the errors need not be a [[normal distribution]]''. However, for some probability distributions, there is no guarantee that the least-squares solution is even possible given the observations; still, in such cases it is the best estimator that is both linear and unbiased.
+
+For example, it is easy to show that the [[arithmetic mean]] of a set of measurements of a quantity is the least-squares estimator of the value of that quantity. If the conditions of the Gauss–Markov theorem apply, the arithmetic mean is optimal, whatever the distribution of errors of the measurements might be.
+
+However, in the case that the experimental errors do belong to a normal distribution, the least-squares estimator is also a [[maximum likelihood]] estimator.&lt;ref&gt;{{cite book |title=The Mathematics of Physics and Chemistry |last=Margenau |first=Henry |authorlink= |author2=Murphy, George Moseley  |year=1956 |publisher=Van Nostrand |location=Princeton |isbn= |pages= |url=https://archive.org/details/mathematicsofphy0002marg|url-access=registration }}&lt;/ref&gt;
+
+These properties underpin the use of the method of least squares for all types of data fitting, even when the assumptions are not strictly valid.
+
+=== Limitations ===
+An assumption underlying the treatment given above is that the independent variable, ''x'', is free of error. In practice, the errors on the measurements of the independent variable are usually much smaller than the errors on the dependent variable and can therefore be ignored. When this is not the case, [[total least squares]] or more generally [[errors-in-variables models]], or ''rigorous least squares'', should be used. This can be done by adjusting the weighting scheme to take into account errors on both the dependent and independent variables and then following the standard procedure.&lt;ref name="pg"&gt;{{cite book |title=Data fitting in the Chemical Sciences |last=Gans |first=Peter |authorlink= |year=1992 |publisher=Wiley |location=New York |isbn=978-0-471-93412-7 |pages= |url= }}&lt;/ref&gt;&lt;ref&gt;{{cite book |title=Statistical adjustment of Data |last=Deming |first=W. E. |authorlink= |year=1943 |publisher=Wiley |location=New York |isbn= |pages= |url= }}&lt;/ref&gt;
+
+In some cases the (weighted) normal equations matrix ''X''&lt;sup&gt;T&lt;/sup&gt;''X'' is [[ill-conditioned]]. When fitting polynomials the normal equations matrix is a [[Vandermonde matrix]]. Vandermonde matrices become increasingly ill-conditioned as the order of the matrix increases.{{citation needed|date=December 2010}} In these cases, the least squares estimate amplifies the measurement noise and may be grossly inaccurate.{{citation needed|date=December 2010}} Various [[regularization (mathematics)|regularization]] techniques can be applied in such cases, the most common of which is called [[Tikhonov regularization|ridge regression]]. If further information about the parameters is known, for example, a range of possible values of &lt;math&gt;\mathbf{\hat{\boldsymbol{\beta}}}&lt;/math&gt;, then various techniques can be used to increase the stability of the solution. For example, see [[#Constrained_linear_least_squares|constrained least squares]].
+
+Another drawback of the least squares estimator is the fact that the norm of the residuals, &lt;math&gt;\| \mathbf y - X\hat{\boldsymbol{\beta}} \|&lt;/math&gt; is minimized, whereas in some cases one is truly interested in obtaining small error in the parameter &lt;math&gt;\mathbf{\hat{\boldsymbol{\beta}}}&lt;/math&gt;, e.g., a small value of &lt;math&gt;\|{\boldsymbol{\beta}}-\hat{\boldsymbol{\beta}}\|&lt;/math&gt;.{{citation needed|date=December 2010}} However, since the true parameter &lt;math&gt;{\boldsymbol{\beta}}&lt;/math&gt; is necessarily unknown, this quantity cannot be directly minimized. If a [[prior probability]] on &lt;math&gt;\hat{\boldsymbol{\beta}}&lt;/math&gt; is known, then a [[Minimum mean square error|Bayes estimator]] can be used to minimize the [[mean squared error]], &lt;math&gt;E \left\{ \| {\boldsymbol{\beta}} - \hat{\boldsymbol{\beta}} \|^2 \right\} &lt;/math&gt;. The least squares method is often applied when no prior is known. Surprisingly, when several parameters are being estimated jointly, better estimators can be constructed, an effect known as [[Stein's phenomenon]]. For example, if the measurement error is [[Normal distribution|Gaussian]], several estimators are known which [[dominating decision rule|dominate]], or outperform, the least squares technique; the best known of these is the [[James–Stein estimator]]. This is an example of more general [[shrinkage estimator]]s that have been applied to regression problems.
+
+==Applications==
+{{see also|Linear regression#Applications}}
+
+* [[Polynomial regression|Polynomial fitting]]: models are [[polynomial]]s in an independent variable, ''x'':
+** Straight line: &lt;math&gt;f(x, \boldsymbol \beta)=\beta_1 +\beta_2 x&lt;/math&gt;.&lt;ref&gt;{{cite book |title=Analysis of Straight-Line Data |last=Acton |first=F. S. |authorlink= |year=1959 |publisher=Wiley |location=New York |isbn= |pages= |url= }}&lt;/ref&gt;
+** Quadratic: &lt;math&gt;f(x, \boldsymbol \beta)=\beta_1  + \beta_2 x +\beta_3 x^2&lt;/math&gt;.
+** Cubic, quartic and higher polynomials. For [[polynomial regression|regression with high-order polynomials]], the use of [[orthogonal polynomials]] is recommended.&lt;ref&gt;{{cite book |title=Numerical Methods of Curve Fitting |last=Guest |first=P. G. |authorlink= |year=1961 |publisher=Cambridge University Press |location=Cambridge |isbn= |pages= |url= }}{{page needed|date=December 2010}}&lt;/ref&gt;
+*[[Numerical smoothing and differentiation]] &amp;mdash; this is an application of polynomial fitting.
+*Multinomials in more than one independent variable, including surface fitting
+*Curve fitting with [[B-spline]]s &lt;ref name=pg/&gt;
+*[[Chemometrics]], [[Calibration curve]], [[Standard addition]], [[Gran plot]], [[Beer-Lambert law#Chemical analysis|analysis of mixtures]]
+
+===Uses in data fitting===
+
+The primary application of linear least squares is in [[data fitting]]. Given a set of ''m'' data points    &lt;math&gt;y_1, y_2,\dots, y_m,&lt;/math&gt; consisting of experimentally measured values taken at ''m'' values &lt;math&gt;x_1, x_2,\dots, x_m&lt;/math&gt; of an independent variable (&lt;math&gt;x_i&lt;/math&gt; may be scalar or  vector quantities), and given a model function &lt;math&gt;y=f(x, \boldsymbol \beta),&lt;/math&gt; with &lt;math&gt;\boldsymbol \beta = (\beta_1, \beta_2, \dots, \beta_n),&lt;/math&gt; it is desired to find the parameters &lt;math&gt;\beta_j&lt;/math&gt; such that the model function "best" fits the data. In linear least squares, linearity is meant to be with respect to parameters &lt;math&gt;\beta_j,&lt;/math&gt; so
+
+:&lt;math&gt;f(x, \boldsymbol \beta) = \sum_{j=1}^{n} \beta_j \phi_j(x).&lt;/math&gt;
+
+Here, the functions &lt;math&gt;\phi_j&lt;/math&gt; may be '''nonlinear''' with respect to the  variable '''x'''.
+
+Ideally, the model function fits the data exactly, so
+
+: &lt;math&gt;y_i = f(x_i, \boldsymbol \beta)&lt;/math&gt;
+
+for all &lt;math&gt;i=1, 2, \dots, m.&lt;/math&gt; This is usually not possible in practice, as there are more data points than there are parameters to be determined. The approach chosen then is to find the minimal possible value of the sum of squares of the [[residual (statistics)|residual]]s
+:&lt;math&gt;r_i(\boldsymbol \beta)= y_i - f(x_i, \boldsymbol \beta),\  (i=1, 2, \dots, m) &lt;/math&gt;
+so to minimize the function
+
+:&lt;math&gt;S(\boldsymbol \beta)=\sum_{i=1}^{m}r_i^2(\boldsymbol \beta).&lt;/math&gt;
+
+After substituting for &lt;math&gt;r_i&lt;/math&gt; and then for &lt;math&gt;f&lt;/math&gt;, this minimization problem becomes the quadratic minimization problem above with
+
+:&lt;math&gt;X_{ij}=\phi_j(x_i),&lt;/math&gt;
+
+and the best fit can be found by solving the normal equations.
+
+== Example ==
+{{see also|Ordinary least squares#Example|Simple linear regression#Example}}
+{{further|Polynomial regression}}
+[[Image:Linear least squares example2.svg|right|thumb|A plot of the data points (in red), the least squares line of best fit (in blue), and the residuals (in green).]]
+
+As a result of an experiment, four &lt;math&gt;(x, y)&lt;/math&gt; data points were obtained, &lt;math&gt;(1, 6),&lt;/math&gt; &lt;math&gt;(2, 5),&lt;/math&gt; &lt;math&gt;(3, 7),&lt;/math&gt; and &lt;math&gt;(4, 10)&lt;/math&gt; (shown in red in the  diagram on the right). We hope to find a line &lt;math&gt;y=\beta_1+\beta_2 x&lt;/math&gt; that best fits these four points. In other words, we would like to find the numbers &lt;math&gt;\beta_1&lt;/math&gt; and &lt;math&gt;\beta_2&lt;/math&gt; that approximately solve the overdetermined linear system
+:&lt;math&gt;\begin{alignat}{3}
+\beta_1  +  1\beta_2 &amp;&amp;\; = \;&amp;&amp; 6 &amp; \\
+\beta_1  +  2\beta_2 &amp;&amp;\; = \;&amp;&amp; 5 &amp; \\
+\beta_1  +  3\beta_2 &amp;&amp;\; = \;&amp;&amp; 7 &amp; \\
+\beta_1  +  4\beta_2 &amp;&amp;\; = \;&amp;&amp; 10 &amp; \\
+\end{alignat}&lt;/math&gt;
+of four equations in two unknowns in some "best" sense.
+
+The residual, at each point, between the curve fit and the data is the difference between the right- and left-hand sides of the equations above. The [[least squares]] approach to solving this problem is to try to make the sum of the squares of these residuals as small as possible; that is, to find the [[maxima and minima|minimum]] of the function
+
+: &lt;math&gt;\begin{align}S(\beta_1, \beta_2) =&amp;
+ \left[6-(\beta_1+1\beta_2)\right]^2
++\left[5-(\beta_1+2\beta_2)   \right]^2 \\
+&amp;+\left[7-(\beta_1 +  3\beta_2)\right]^2
++\left[10-(\beta_1  +  4\beta_2)\right]^2 \\
+&amp;= 4\beta_1^2 + 30\beta_2^2 + 20\beta_1\beta_2 - 56\beta_1 - 154\beta_2 + 210 .\end{align}&lt;/math&gt;
+
+The minimum is determined by calculating the [[partial derivative]]s of &lt;math&gt;S(\beta_1, \beta_2)&lt;/math&gt; with respect to &lt;math&gt;\beta_1&lt;/math&gt; and &lt;math&gt;\beta_2&lt;/math&gt; and setting them to zero
+
+:&lt;math&gt;\frac{\partial S}{\partial \beta_1}=0=8\beta_1 + 20\beta_2 -56&lt;/math&gt;
+:&lt;math&gt;\frac{\partial S}{\partial \beta_2}=0=20\beta_1 + 60\beta_2 -154.&lt;/math&gt;
+
+This results in a system of two equations in two unknowns, called the normal equations, which when solved give
+
+:&lt;math&gt;\beta_1=3.5&lt;/math&gt;
+:&lt;math&gt;\beta_2=1.4&lt;/math&gt;
+
+and the equation &lt;math&gt;y=3.5+1.4x&lt;/math&gt; of the line of best fit. The [[residual (statistics)|residual]]s, that is, the differences between the &lt;math&gt;y&lt;/math&gt; values from the observations and the &lt;math&gt;y&lt;/math&gt; predicated variables by using the line of best fit, are then found to be &lt;math&gt;1.1,&lt;/math&gt; &lt;math&gt;-1.3,&lt;/math&gt; &lt;math&gt;-0.7,&lt;/math&gt; and &lt;math&gt;0.9&lt;/math&gt; (see the diagram on the right). The minimum value of the sum of squares of the residuals is &lt;math&gt;S(3.5, 1.4)=1.1^2+(-1.3)^2+(-0.7)^2+0.9^2=4.2.&lt;/math&gt;
+
+More generally, one can have &lt;math&gt;n&lt;/math&gt; regressors &lt;math&gt;x_j&lt;/math&gt;, and a linear model
+:&lt;math&gt;y = \beta_0 + \sum_{j=1}^{n} \beta_{j} x_{j}. &lt;/math&gt;
+
+===Using a quadratic model===
+[[File:Linear least squares2.svg|alt=|thumb|The result of fitting a quadratic function &lt;math&gt;y=\beta_1+\beta_2x+\beta_3x^2\,&lt;/math&gt; (in blue) through a set of data points &lt;math&gt;(x_i, y_i)&lt;/math&gt; (in red). In linear least squares the function need not be linear in the argument &lt;math&gt;x,&lt;/math&gt; but only in the parameters &lt;math&gt;\beta_j&lt;/math&gt; that are determined to give the best fit.]]
+Importantly, in "linear least squares", we are not restricted to using a line as the model as in the above example. For instance, we could have chosen the restricted quadratic model &lt;math&gt;y=\beta_1 x^2&lt;/math&gt;. This model is still linear in the &lt;math&gt;\beta_1&lt;/math&gt; parameter, so we can still perform the same analysis, constructing a system of equations from the data points:
+
+:&lt;math&gt;\begin{alignat}{2}
+6 &amp;&amp;\; = \beta_1 (1)^2 \\
+5 &amp;&amp;\; = \beta_1 (2)^2 \\
+7 &amp;&amp;\; = \beta_1 (3)^2 \\
+10 &amp;&amp;\; = \beta_1 (4)^2 \\
+\end{alignat}&lt;/math&gt;
+
+The partial derivatives with respect to the parameters (this time there is only one) are again computed and set to 0:
+
+&lt;math&gt;\frac{\partial S}{\partial \beta_1} = 0 = 708 \beta_1 - 498&lt;/math&gt;
+
+and solved
+
+&lt;math&gt;\beta_1 = 0.703&lt;/math&gt;
+
+leading to the resulting best fit model &lt;math&gt;y = 0.703 x^2.&lt;/math&gt;
+
+==See also==
+* [[Line-line intersection#Nearest point to non-intersecting lines]], an application
+* [[Line fitting]]
+* [[Nonlinear least squares]]
+* [[Regularized least squares]]
+* [[Simple linear regression]]
+* [[Partial least squares regression]]
+* [[Linear function]]
+
+==References==
+{{reflist}}
+
+==Further reading==
+*{{Cite book | author=Bevington, Philip R. |author2=Robinson, Keith D.  | title=Data Reduction and Error Analysis for the Physical Sciences | year=2003 | publisher=McGraw-Hill | location= | isbn=978-0-07-247227-1 | pages=}}
+
+==External links==
+*[http://mathworld.wolfram.com/LeastSquaresFitting.html Least Squares Fitting &amp;ndash; From MathWorld]
+*[http://mathworld.wolfram.com/LeastSquaresFittingPolynomial.html Least Squares Fitting-Polynomial &amp;ndash; From MathWorld]
+
+{{Least Squares and Regression Analysis}}
+
+[[Category:Broad-concept articles]]
+[[Category:Least squares]]
+[[Category:Computational statistics]]</text>
+      <sha1>puddcw1yb1meyhe0w58zono60nhkadu</sha1>
+    </revision>
+  </page>
+</mediawiki>

@@ -1,0 +1,222 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.10/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.10/ http://www.mediawiki.org/xml/export-0.10.xsd" version="0.10" xml:lang="en">
+  <siteinfo>
+    <sitename>Wikipedia</sitename>
+    <dbname>enwiki</dbname>
+    <base>https://en.wikipedia.org/wiki/Main_Page</base>
+    <generator>MediaWiki 1.35.0-wmf.36</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Media</namespace>
+      <namespace key="-1" case="first-letter">Special</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Talk</namespace>
+      <namespace key="2" case="first-letter">User</namespace>
+      <namespace key="3" case="first-letter">User talk</namespace>
+      <namespace key="4" case="first-letter">Wikipedia</namespace>
+      <namespace key="5" case="first-letter">Wikipedia talk</namespace>
+      <namespace key="6" case="first-letter">File</namespace>
+      <namespace key="7" case="first-letter">File talk</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki talk</namespace>
+      <namespace key="10" case="first-letter">Template</namespace>
+      <namespace key="11" case="first-letter">Template talk</namespace>
+      <namespace key="12" case="first-letter">Help</namespace>
+      <namespace key="13" case="first-letter">Help talk</namespace>
+      <namespace key="14" case="first-letter">Category</namespace>
+      <namespace key="15" case="first-letter">Category talk</namespace>
+      <namespace key="100" case="first-letter">Portal</namespace>
+      <namespace key="101" case="first-letter">Portal talk</namespace>
+      <namespace key="108" case="first-letter">Book</namespace>
+      <namespace key="109" case="first-letter">Book talk</namespace>
+      <namespace key="118" case="first-letter">Draft</namespace>
+      <namespace key="119" case="first-letter">Draft talk</namespace>
+      <namespace key="446" case="first-letter">Education Program</namespace>
+      <namespace key="447" case="first-letter">Education Program talk</namespace>
+      <namespace key="710" case="first-letter">TimedText</namespace>
+      <namespace key="711" case="first-letter">TimedText talk</namespace>
+      <namespace key="828" case="first-letter">Module</namespace>
+      <namespace key="829" case="first-letter">Module talk</namespace>
+      <namespace key="2300" case="first-letter">Gadget</namespace>
+      <namespace key="2301" case="first-letter">Gadget talk</namespace>
+      <namespace key="2302" case="case-sensitive">Gadget definition</namespace>
+      <namespace key="2303" case="case-sensitive">Gadget definition talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Evaluation measures (information retrieval)</title>
+    <ns>0</ns>
+    <id>50716473</id>
+    <revision>
+      <id>959543933</id>
+      <parentid>959542893</parentid>
+      <timestamp>2020-05-29T08:48:11Z</timestamp>
+      <contributor>
+        <username>Naomy Mwaurah</username>
+        <id>39282359</id>
+      </contributor>
+      <comment>/* F-score / F-measure */ #1Lib1Ref  #AfLibWk</comment>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="18250" xml:space="preserve">'''Evaluation measures''' for an [[information retrieval system]] are used to assess how well the search results satisfied the user's query intent. Such metrics are often split into kinds: online metrics look at users' interactions with the search system, while offline metrics measure relevance, in other words how likely each result, or [[search engine results page]] (SERP) page as a whole, is to meet the information needs of the user.
+
+==Notation==
+The mathematical symbols used in the formulas below mean:
+* &lt;math&gt;X \cap Y&lt;/math&gt; - [[Intersection (set theory)|Intersection]] - in this case, specifying the documents in ''both'' sets X and Y
+* &lt;math&gt;| X |&lt;/math&gt; - [[Cardinality]] - in this case, the number of documents in set X
+* &lt;math&gt;\int&lt;/math&gt; - [[Integral]]
+* &lt;math&gt;\sum&lt;/math&gt; - [[Summation]]
+* &lt;math&gt;\Delta&lt;/math&gt; - [[Symmetric difference]]
+
+== Online metrics ==
+Online metrics are generally created from search logs. The metrics are often used to determine the success of an [[A/B testing|A/B test]].
+
+=== Session abandonment rate ===
+Session abandonment rate is a ratio of search sessions which do not result in a click.
+
+=== Click-through rate ===
+[[Click-through rate]] (CTR) is the ratio of users who click on a specific link to the number of total users who view a page, email, or advertisement. It is commonly used to measure the success of an [[online advertising]] campaign for a particular website as well as the effectiveness of email campaigns.&lt;ref name=AMA&gt;[[American Marketing Association]] Dictionary. http://www.marketingpower.com/_layouts/Dictionary.aspx.{{dead link|date=July 2016 |bot=InternetArchiveBot |fix-attempted=yes }} Retrieved 2012-11-02. The [[Marketing Accountability Standards Board (MASB)]] endorses this definition as part of its ongoing [http://www.commonlanguage.wikispaces.net/ Common Language in Marketing Project].&lt;/ref&gt;
+
+=== Session success rate ===
+Session success rate measures the ratio of user sessions that lead to a success. Defining "success" is often dependent on context, but for search a successful result is often measured using [[dwell time (information retrieval)|dwell time]] as a primary factor along with secondary user interaction, for instance, the user copying the result URL is considered a successful result, as is copy/pasting from the snippet.
+
+=== Zero result rate ===
+''Zero result rate'' (''ZRR'') is the ratio of SERPs which returned with zero results. The metric either indicates a [[precision and recall|recall]] issue, or that the information being searched for is not in the index.
+
+== Offline metrics ==
+Offline metrics are generally created from relevance judgment sessions where the judges score the quality of the search results. Both binary (relevant/non-relevant) and multi-level (e.g., relevance from 0 to 5) scales can be used to score each document returned in response to a query. In practice, queries may be [[ill-posed]], and there may be different shades of relevance. For instance, there is ambiguity in the query "mars": the judge does not know if the user is searching for the planet [[Mars]], the [[Mars (chocolate bar)|Mars]] chocolate bar, or the singer [[Bruno Mars]].
+
+=== Precision ===
+{{main|Precision and recall}}
+Precision is the fraction of the documents retrieved that are [[relevance (information retrieval)|relevant]] to the user's information need.
+
+:&lt;math&gt; \mbox{precision}=\frac{|\{\mbox{relevant documents}\}\cap\{\mbox{retrieved documents}\}|}{|\{\mbox{retrieved documents}\}|} &lt;/math&gt;
+
+In [[binary classification]], precision is analogous to [[positive predictive value]]. Precision takes all retrieved documents into account. It can also be evaluated at a given cut-off rank, considering only the topmost results returned by the system. This measure is called ''precision at n'' or ''P@n''.
+
+Note that the meaning and usage of "precision" in the field of information retrieval differs from the definition of [[accuracy and precision]] within other branches of science and [[statistics]].
+
+=== Recall ===
+{{main|Precision and recall}}
+Recall is the fraction of the documents that are relevant to the query that are successfully retrieved.
+
+:&lt;math&gt;\mbox{recall}=\frac{|\{\mbox{relevant documents}\}\cap\{\mbox{retrieved documents}\}|}{|\{\mbox{relevant documents}\}|} &lt;/math&gt;
+
+In binary classification, recall is often called [[sensitivity and specificity|sensitivity]]. So it can be looked at as ''the probability that a relevant document is retrieved by the query''.
+
+It is trivial to achieve recall of 100% by returning all documents in response to any query. Therefore, recall alone is not enough but one needs to measure the number of non-relevant documents also, for example by computing the precision.
+
+=== Fall-out ===
+The proportion of non-relevant documents that are retrieved, out of all non-relevant documents available:
+
+:&lt;math&gt; \mbox{fall-out}=\frac{|\{\mbox{non-relevant documents}\}\cap\{\mbox{retrieved documents}\}|}{|\{\mbox{non-relevant documents}\}|} &lt;/math&gt;
+
+In binary classification, fall-out is closely related to [[sensitivity and specificity|specificity]] and is equal to &lt;math&gt;(1-\mbox{specificity})&lt;/math&gt;. It can be looked at as ''the probability that a non-relevant document is retrieved by the query''.
+
+It is trivial to achieve fall-out of 0% by returning zero documents in response to any query.
+
+=== F-score / F-measure ===
+{{main|F-score}}
+The weighted [[harmonic mean]] of precision and recall, the traditional F-measure or balanced F-score is:
+
+:&lt;math&gt;F = \frac{2 \cdot \mathrm{precision} \cdot \mathrm{recall}}{(\mathrm{precision} + \mathrm{recall})}&lt;/math&gt;
+
+This is also known as the &lt;math&gt;F_1&lt;/math&gt; measure, because recall and precision are evenly weighted.
+
+The general formula for non-negative real &lt;math&gt;\beta&lt;/math&gt; is:
+:&lt;math&gt;F_\beta = \frac{(1 + \beta^2) \cdot (\mathrm{precision} \cdot \mathrm{recall})}{(\beta^2 \cdot \mathrm{precision} + \mathrm{recall})}\,&lt;/math&gt;
+
+Two other commonly used F measures are the &lt;math&gt;F_{2}&lt;/math&gt; measure, which weights recall twice as much as precision, and the &lt;math&gt;F_{0.5}&lt;/math&gt; measure, which weights precision twice as much as recall.
+
+The F-measure was derived by van Rijsbergen (1979) so that &lt;math&gt;F_\beta&lt;/math&gt; "measures the effectiveness of retrieval with respect to a user who attaches &lt;math&gt;\beta&lt;/math&gt; times as much importance to recall as precision".  It is based on van Rijsbergen's effectiveness measure &lt;math&gt;E = 1 - \frac{1}{\frac{\alpha}{P} + \frac{1-\alpha}{R}}&lt;/math&gt;.  Their relationship is:
+:&lt;math&gt;F_\beta = 1 - E&lt;/math&gt; where &lt;math&gt;\alpha=\frac{1}{1 + \beta^2}&lt;/math&gt;
+
+F-measure can be a better single metric when compared to precision and recall; both precision and recall give different information that can complement each other when combined. If one of them excels more than the other, F-measure will reflect it.&lt;ref&gt;{{Cite journal|last=Powers|first=D.M.W|date=2011|title=EVALUATION:  FROM  PRECISION,  RECALL  AND  F-MEASURE  TO  ROC, INFORMEDNESS, MARKEDNESS &amp; CORRELATION|url=https://bioinfopublication.org/files/articles/2_1_1_JMLT.pdf|journal=Journal of Machine Learning Technologies|volume=2,1|pages=37-63|via=}}&lt;/ref&gt;
+
+=== Average precision ===
+&lt;!-- [[Average precision]] redirects here --&gt;
+Precision and recall are single-value metrics based on the whole list of documents returned by the system. For systems that return a ranked sequence of documents, it is desirable to also consider the order in which the returned documents are presented. By computing a precision and recall at every position in the ranked sequence of documents, one can plot a precision-recall curve, plotting precision &lt;math&gt;p(r)&lt;/math&gt; as a function of recall &lt;math&gt;r&lt;/math&gt;. Average precision computes the average value of &lt;math&gt;p(r)&lt;/math&gt; over the interval from &lt;math&gt;r=0&lt;/math&gt; to &lt;math&gt;r=1&lt;/math&gt;:&lt;ref name="zhu2004"&gt;{{cite journal |first=Mu |last=Zhu |title=Recall, Precision and Average Precision |url=http://sas.uwaterloo.ca/stats_navigation/techreports/04WorkingPapers/2004-09.pdf |year=2004 }}{{Dead link|date=February 2020}}&lt;/ref&gt;
+:&lt;math&gt;\operatorname{AveP} = \int_0^1 p(r)dr&lt;/math&gt;
+That is the area under the precision-recall curve.
+This integral is in practice replaced with a finite sum over every position in the ranked sequence of documents:
+:&lt;math&gt;\operatorname{AveP} = \sum_{k=1}^n P(k) \Delta r(k)&lt;/math&gt;
+where &lt;math&gt;k&lt;/math&gt; is the rank in the sequence of retrieved documents, &lt;math&gt;n&lt;/math&gt; is the number of retrieved documents, &lt;math&gt;P(k)&lt;/math&gt; is the precision at cut-off &lt;math&gt;k&lt;/math&gt; in the list, and &lt;math&gt;\Delta r(k)&lt;/math&gt; is the change in recall from items &lt;math&gt;k-1&lt;/math&gt; to &lt;math&gt;k&lt;/math&gt;.&lt;ref name="zhu2004" /&gt;
+
+This finite sum is equivalent to:
+:&lt;math&gt; \operatorname{AveP} = \frac{\sum_{k=1}^n (P(k) \times \operatorname{rel}(k))}{\mbox{number of relevant documents}} \!&lt;/math&gt;
+where &lt;math&gt;\operatorname{rel}(k)&lt;/math&gt; is an indicator function equaling 1 if the item at rank &lt;math&gt;k&lt;/math&gt; is a relevant document, zero otherwise.&lt;ref name="Turpin2006"&gt;{{cite book |last=Turpin |first=Andrew |last2=Scholer |first2=Falk |title=User performance versus precision measures for simple search tasks |journal=Proceedings of the 29th Annual International ACM SIGIR Conference on Research and Development in Information Retrieval (Seattle, WA, August 06–11, 2006) |publisher=ACM |location=New York, NY |pages=[https://archive.org/details/sigirseattle20060000inte/page/11 11–18] |doi=10.1145/1148170.1148176 |year=2006 |isbn=978-1-59593-369-0 |citeseerx=10.1.1.533.4100 |url-access=registration |url=https://archive.org/details/sigirseattle20060000inte/page/11 }}&lt;/ref&gt; Note that the average is over all relevant documents and the relevant documents not retrieved get a precision score of zero.
+
+Some authors choose to interpolate the &lt;math&gt;p(r)&lt;/math&gt; function to reduce the impact of "wiggles" in the curve.&lt;ref name=voc2010&gt;{{cite journal |last=Everingham |first=Mark |last2=Van Gool |first2=Luc |last3=Williams |first3=Christopher K. I. |last4=Winn |first4=John |last5=Zisserman |first5=Andrew |title=The PASCAL Visual Object Classes (VOC) Challenge |journal=International Journal of Computer Vision |volume=88 |issue=2 |pages=303–338 |date=June 2010 |url=http://pascallin.ecs.soton.ac.uk/challenges/VOC/pubs/everingham10.pdf |accessdate=2011-08-29 |doi=10.1007/s11263-009-0275-4 |url-status=dead |archiveurl=https://web.archive.org/web/20111120074515/http://pascallin.ecs.soton.ac.uk/challenges/VOC/pubs/everingham10.pdf |archivedate=2011-11-20 }}&lt;/ref&gt;&lt;ref name="nlpbook"&gt;{{cite book |last=Manning |first=Christopher D. |last2=Raghavan |first2=Prabhakar |last3=Schütze |first3=Hinrich |title=Introduction to Information Retrieval |publisher=Cambridge University Press |year=2008 |url=http://nlp.stanford.edu/IR-book/html/htmledition/evaluation-of-ranked-retrieval-results-1.html }}&lt;/ref&gt; For example, the PASCAL Visual Object Classes challenge (a benchmark for computer vision object detection) until 2010&lt;ref&gt;{{Cite web|url=http://host.robots.ox.ac.uk/pascal/VOC/voc2012/htmldoc/devkit_doc.html#sec:ap|title=The PASCAL Visual Object Classes Challenge 2012 (VOC2012) Development Kit|website=host.robots.ox.ac.uk|access-date=2019-03-23}}&lt;/ref&gt; computed the average precision by averaging the precision over a set of evenly spaced recall levels {0, 0.1, 0.2, ... 1.0}:&lt;ref name="voc2010" /&gt;&lt;ref name="nlpbook" /&gt;
+:&lt;math&gt;\operatorname{AveP} = \frac{1}{11} \sum_{r \in \{0, 0.1, \ldots, 1.0\}} p_{\operatorname{interp}}(r)&lt;/math&gt;
+where &lt;math&gt;p_{\operatorname{interp}}(r)&lt;/math&gt; is an interpolated precision that takes the maximum precision over all recalls greater than &lt;math&gt;r&lt;/math&gt;:
+:&lt;math&gt;p_{\operatorname{interp}}(r) = \operatorname{max}_{\tilde{r}:\tilde{r} \geq r} p(\tilde{r})&lt;/math&gt;.
+
+An alternative is to derive an analytical &lt;math&gt;p(r)&lt;/math&gt; function by assuming a particular parametric distribution for the underlying decision values. For example, a ''binormal precision-recall curve'' can be obtained by assuming decision values in both classes to follow a Gaussian distribution.&lt;ref&gt;K.H. Brodersen, C.S. Ong, K.E. Stephan, J.M. Buhmann (2010). [http://icpr2010.org/pdfs/icpr2010_ThBCT8.28.pdf The binormal assumption on precision-recall curves] {{webarchive |url=https://web.archive.org/web/20121208201457/http://icpr2010.org/pdfs/icpr2010_ThBCT8.28.pdf |date=December 8, 2012 }}. ''Proceedings of the 20th International Conference on Pattern Recognition'', 4263-4266.&lt;/ref&gt;
+
+=== Precision at K ===
+For modern (web-scale) information retrieval, recall is no longer a meaningful metric, as many queries have thousands of relevant documents, and few users will be interested in reading all of them. [[Precision and recall#Precision|Precision]] at k documents (P@k) is still a useful metric (e.g., P@10 or "Precision at 10" corresponds to the number of relevant results among the top 10 documents), but fails to take into account the positions of the relevant documents among the top k.&lt;ref&gt;{{Cite journal|last=Kalervo|first=J~irvelin|date=2017|title=IR evaluation methods for retrieving highly relevant documents|url=https://sigir.org/wp-content/uploads/2017/06/p243.pdf|journal=ACM SIGIR Forum|volume=51,2|pages=243-250|via=}}&lt;/ref&gt;  Another shortcoming is that on a query with fewer relevant results than k, even a perfect system will have a score less than 1.&lt;ref name="stanford" /&gt;  It is easier to score manually since only the top k results need to be examined to determine if they are relevant or not.
+
+=== R-Precision ===
+R-precision requires knowing all documents that are relevant to a query.  The number of relevant documents, &lt;math&gt;R&lt;/math&gt;, is used as the cutoff for calculation, and this varies from query to query.  For example, if there are 15 documents relevant to "red" in a corpus (R=15), R-precision for "red" looks at the top 15 documents returned, counts the number that are relevant &lt;math&gt;r&lt;/math&gt; turns that into a relevancy fraction: &lt;math&gt;r/R = r/15&lt;/math&gt;.&lt;ref name="trec15"/&gt;
+
+Precision is equal to recall at the '''R'''-th position.&lt;ref name="stanford"&gt;{{cite web|url=http://nlp.stanford.edu/IR-book/pdf/08eval.pdf|title=Chapter 8: Evaluation in information retrieval|author=Christopher D. Manning|author2=Prabhakar Raghavan|date=2009|accessdate=2015-06-14|author3=Hinrich Schütze|last-author-amp=yes}}  Part of ''Introduction to Information Retrieval'' [http://nlp.stanford.edu/IR-book/]&lt;/ref&gt;
+
+Empirically, this measure is often highly correlated to mean average precision.&lt;ref name="stanford" /&gt;
+
+=== Mean average precision ===
+&lt;!-- [[Mean average precision]] redirects here --&gt;
+Mean average precision for a set of queries is the mean of the average precision scores for each query.
+:&lt;math&gt; \operatorname{MAP} = \frac{\sum_{q=1}^Q \operatorname{AveP(q)}}{Q} \!&lt;/math&gt;
+where ''Q'' is the number of queries.
+
+=== Discounted cumulative gain ===
+{{main|Discounted cumulative gain}}
+{{Confusion matrix terms}}
+DCG uses a graded relevance scale of documents from the result set to evaluate the usefulness, or gain, of a document based on its position in the result list. The premise of DCG is that highly relevant documents appearing lower in a search result list should be penalized as the graded relevance value is reduced logarithmically proportional to the position of the result.
+
+The DCG accumulated at a particular rank position &lt;math&gt;p&lt;/math&gt; is defined as:
+
+:&lt;math&gt; \mathrm{DCG_{p}} = \sum_{i=1}^{p} \frac{rel_{i}}{\log_{2}(i+1)}. &lt;/math&gt;
+
+Since result set may vary in size among different queries or systems, to compare performances the normalised version of DCG uses an ideal DCG. To this end, it sorts documents of a result list by relevance, producing an ideal DCG at position p (&lt;math&gt;IDCG_p&lt;/math&gt;), which normalizes the score:
+
+:&lt;math&gt; \mathrm{nDCG_{p}} = \frac{DCG_{p}}{IDCG{p}}. &lt;/math&gt;
+
+The nDCG values for all queries can be averaged to obtain a measure of the average performance of a ranking algorithm. Note that in a perfect ranking algorithm, the &lt;math&gt;DCG_p&lt;/math&gt; will be the same as the &lt;math&gt;IDCG_p&lt;/math&gt; producing an nDCG of 1.0. All nDCG calculations are then relative values on the interval 0.0 to 1.0 and so are cross-query comparable.
+
+=== Other measures ===
+* [[Mean reciprocal rank]]
+* [[Spearman's rank correlation coefficient]]
+* bpref - a summation-based measure of how many relevant documents are ranked before irrelevant documents&lt;ref name="trec15"&gt;http://trec.nist.gov/pubs/trec15/appendices/CE.MEASURES06.pdf&lt;/ref&gt;
+* GMAP - geometric mean of (per-topic) average precision&lt;ref name="trec15" /&gt;
+* Measures based on marginal relevance and document diversity - see {{section link|Relevance (information retrieval)|Problems and alternatives}}
+* Measures of both relevance and credibility (for fake news in search results)&lt;ref name="ictir17"&gt;{{cite web|url=http://main.cl-lab.dk/www/publications/2017/pdf/a66.pdf|title=Evaluation Measures for Relevance and Credibility in Ranked Lists|date=2017|author=C. Lioma|author2=J. G. Simonsen|author3=B. Larsen}} ''Proceedings of the ACM SIGIR International Conference on Theory of Information Retrieval'', 91-98.&lt;/ref&gt;
+
+===Visualization===
+Visualizations of information retrieval performance include:
+* Graphs which chart precision on one axis and recall on the other&lt;ref name="trec15" /&gt;
+* Histograms of average precision over various topics&lt;ref name="trec15" /&gt;
+* [[Receiver operating characteristic]] (ROC curve)
+* [[Confusion matrix]]
+
+== Non-metrics ==
+=== Top queries list ===
+Top queries is noting the most common queries over a fixed amount of time. The top queries list assists in knowing the style of queries entered by users.
+
+== Non-relevance metrics ==
+=== Queries per time ===
+Measuring how many queries are performed on the search system per (month/day/hour/minute/sec) tracks the utilization of the search system. It can be used for diagnostics to indicate an unexpected spike in queries, or simply as a baseline when comparing with other metrics, like query latency. For example, a spike in query traffic, may be used to explain a spike in query latency.
+
+==See also==
+*[[Universal IR Evaluation]]
+*[[Learning to rank]]
+
+==References==
+{{Reflist}}
+
+[[Category:Information retrieval]]
+[[Category:Information retrieval evaluation]]
+[[Category:Internet search engines]]</text>
+      <sha1>sknxx2pv90cgiir3apv68ec8ec20vzi</sha1>
+    </revision>
+  </page>
+</mediawiki>

@@ -1,0 +1,213 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.10/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.10/ http://www.mediawiki.org/xml/export-0.10.xsd" version="0.10" xml:lang="en">
+  <siteinfo>
+    <sitename>Wikipedia</sitename>
+    <dbname>enwiki</dbname>
+    <base>https://en.wikipedia.org/wiki/Main_Page</base>
+    <generator>MediaWiki 1.35.0-wmf.36</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Media</namespace>
+      <namespace key="-1" case="first-letter">Special</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Talk</namespace>
+      <namespace key="2" case="first-letter">User</namespace>
+      <namespace key="3" case="first-letter">User talk</namespace>
+      <namespace key="4" case="first-letter">Wikipedia</namespace>
+      <namespace key="5" case="first-letter">Wikipedia talk</namespace>
+      <namespace key="6" case="first-letter">File</namespace>
+      <namespace key="7" case="first-letter">File talk</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki talk</namespace>
+      <namespace key="10" case="first-letter">Template</namespace>
+      <namespace key="11" case="first-letter">Template talk</namespace>
+      <namespace key="12" case="first-letter">Help</namespace>
+      <namespace key="13" case="first-letter">Help talk</namespace>
+      <namespace key="14" case="first-letter">Category</namespace>
+      <namespace key="15" case="first-letter">Category talk</namespace>
+      <namespace key="100" case="first-letter">Portal</namespace>
+      <namespace key="101" case="first-letter">Portal talk</namespace>
+      <namespace key="108" case="first-letter">Book</namespace>
+      <namespace key="109" case="first-letter">Book talk</namespace>
+      <namespace key="118" case="first-letter">Draft</namespace>
+      <namespace key="119" case="first-letter">Draft talk</namespace>
+      <namespace key="446" case="first-letter">Education Program</namespace>
+      <namespace key="447" case="first-letter">Education Program talk</namespace>
+      <namespace key="710" case="first-letter">TimedText</namespace>
+      <namespace key="711" case="first-letter">TimedText talk</namespace>
+      <namespace key="828" case="first-letter">Module</namespace>
+      <namespace key="829" case="first-letter">Module talk</namespace>
+      <namespace key="2300" case="first-letter">Gadget</namespace>
+      <namespace key="2301" case="first-letter">Gadget talk</namespace>
+      <namespace key="2302" case="case-sensitive">Gadget definition</namespace>
+      <namespace key="2303" case="case-sensitive">Gadget definition talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Total least squares</title>
+    <ns>0</ns>
+    <id>971437</id>
+    <revision>
+      <id>960041488</id>
+      <parentid>956146606</parentid>
+      <timestamp>2020-05-31T20:53:28Z</timestamp>
+      <contributor>
+        <username>Bender235</username>
+        <id>88026</id>
+      </contributor>
+      <minor/>
+      <comment>/* Others */Replaced [[arXiv]] PDF link with more mobile-friendly abstract link, replaced: https://arxiv.org/pdf/ → https://arxiv.org/abs/</comment>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="20107" xml:space="preserve">{{Regression bar}}
+[[Image:Total least squares.svg|right|thumb|200px| The bivariate (Deming regression) case of total least squares. The red lines show the error in both ''x'' and ''y''. This is different from the traditional least squares method which measures error parallel to the ''y'' axis. The case shown, with deviations measured perpendicularly, arises when errors in ''x'' and ''y'' have equal variances.]]
+
+In [[applied statistics]], '''total least squares''' is a type of [[errors-in-variables regression]], a [[least squares]] data modeling technique in which observational errors on both dependent and independent variables are taken into account. It is a generalization of [[Deming regression]] and also of [[orthogonal regression]], and can be applied to both linear and non-linear models.
+
+The total least squares approximation of the data is generically equivalent to the best, in the [[Frobenius norm]], [[low-rank approximation]] of the data matrix.&lt;ref&gt;I. Markovsky and [[Sabine Van Huffel|S. Van Huffel]], ''Overview of total least squares methods.'' Signal Processing, vol. 87, pp. 2283–2302, 2007. [http://eprints.ecs.soton.ac.uk/13855/1/tls_overview.pdf preprint]&lt;/ref&gt;
+
+== Linear model ==
+
+===Background===
+
+In the [[least squares]] method of data modeling, the [[objective function]], ''S'',
+:&lt;math&gt;S=\mathbf{r^TWr},&lt;/math&gt;
+is minimized, where ''r'' is the vector of [[errors and residuals in statistics|residuals]] and ''W'' is a weighting matrix. In [[linear least squares (mathematics)|linear least squares]] the model contains equations which are linear in the parameters appearing in the parameter vector &lt;math&gt;\boldsymbol\beta&lt;/math&gt;, so the residuals are given by
+:&lt;math&gt;\mathbf{r=y-X\boldsymbol\beta}.&lt;/math&gt;
+There are ''m'' observations in '''y''' and ''n'' parameters in '''β''' with ''m''&gt;''n''. '''X''' is a ''m''×''n'' matrix whose elements are either constants or functions of the independent variables, '''x'''. The weight matrix '''W''' is, ideally, the inverse of the [[variance-covariance matrix]] &lt;math&gt;\mathbf M_y&lt;/math&gt; of the observations '''y'''. The independent variables are assumed to be error-free. The parameter estimates are found by setting the gradient equations to zero, which results in the normal equations
+&lt;ref group="note"&gt;An alternative form is &lt;math&gt;\mathbf{X^TWX\boldsymbol\Delta \boldsymbol\beta=X^T W \boldsymbol\Delta y}&lt;/math&gt;, where &lt;math&gt;\boldsymbol\Delta \boldsymbol\beta&lt;/math&gt; is the parameter shift from some starting estimate of &lt;math&gt;\boldsymbol\beta&lt;/math&gt; and &lt;math&gt;\boldsymbol\Delta \mathbf y&lt;/math&gt; is the difference between '''y''' and the value calculated using the starting value of &lt;math&gt;\boldsymbol\beta&lt;/math&gt;&lt;/ref&gt; 
+:&lt;math&gt;\mathbf{X^TWX\boldsymbol\beta=X^T Wy}.&lt;/math&gt;
+
+===Allowing observation errors in all variables===
+
+Now, suppose that both '''x''' and '''y''' are observed subject to error, with variance-covariance matrices &lt;math&gt;\mathbf M_x&lt;/math&gt; and &lt;math&gt;\mathbf M_y&lt;/math&gt; respectively. In this case the objective function can be written as
+:&lt;math&gt;S=\mathbf{r_x^TM_x^{-1}r_x+r_y^TM_y^{-1}r_y},&lt;/math&gt;
+where &lt;math&gt;\mathbf r_x&lt;/math&gt; and &lt;math&gt;\mathbf r_y&lt;/math&gt; are the residuals in '''x''' and '''y''' respectively. Clearly these residuals cannot be independent of each other, but they must be constrained by some kind of relationship. Writing the model function as &lt;math&gt;\mathbf{f(r_x,r_y,\boldsymbol\beta)}&lt;/math&gt;, the constraints are expressed by ''m'' [[condition equations]].&lt;ref&gt;W.E. Deming, Statistical Adjustment of Data, Wiley, 1943&lt;/ref&gt;
+
+:&lt;math&gt;\mathbf{F=\Delta y -\frac{\partial f}{\partial r_x} r_x-\frac{\partial f}{\partial r_y} r_y -X\Delta\boldsymbol\beta=0}.&lt;/math&gt;
+Thus, the problem is to minimize the objective function subject to the ''m'' constraints. It is solved by the use of [[Lagrange multipliers]]. After some algebraic manipulations,&lt;ref&gt;{{cite book |last=Gans |first=Peter |title=Data Fitting in the Chemical Sciences |year=1992 |publisher=Wiley |isbn=9780471934127 |url=http://www.wiley.com/WileyCDA/WileyTitle/productCd-0471934127.html |accessdate=4 December 2012}}&lt;/ref&gt; the result is obtained.
+
+:&lt;math&gt;\mathbf{X^TM^{-1}X\Delta \boldsymbol\beta=X^T M^{-1} \Delta y}, &lt;/math&gt;
+
+or alternatively &lt;math&gt;\mathbf{X^TM^{-1}X \boldsymbol\beta=X^T M^{-1} y},&lt;/math&gt;
+where '''M''' is the variance-covariance matrix relative to both independent and dependent variables.
+:&lt;math&gt;\mathbf{M=K_xM_xK_x^T+K_yM_yK_y^T;\ K_x=-\frac{\partial f}{\partial r_x},\ K_y=-\frac{\partial f}{\partial r_y}}.&lt;/math&gt;
+
+=== Example ===
+
+When the data errors are uncorrelated, all matrices '''M''' and '''W''' are diagonal. Then, take the example of straight line fitting.
+:&lt;math&gt;f(x_i,\beta)=\alpha + \beta x_i&lt;/math&gt;
+in this case
+:&lt;math&gt;M_{ii}=\sigma^2_{y,i}+\beta^2 \sigma^2_{x,i}&lt;/math&gt;
+showing how the variance at the ''i''th point is determined by the variances of both independent and dependent variables and by the model being used to fit the data. The expression may be generalized by noting that the parameter &lt;math&gt;\beta&lt;/math&gt; is the slope of the line.
+:&lt;math&gt;M_{ii}=\sigma^2_{y,i}+\left(\frac{dy}{dx}\right)^2_i \sigma^2_{x,i}&lt;/math&gt;
+
+An expression of this type is used in fitting [[Determination of equilibrium constants#Parameter errors and correlation|pH titration data]] where a small error on ''x'' translates to a large error on y when the slope is large.
+
+=== Algebraic point of view ===
+As was shown in 1980 by Golub and Van Loan, the TLS problem does not have a solution in general.&lt;ref&gt;G. H. Golub and C. F. Van Loan, An analysis of the total least squares problem. Numer. Anal., 17, 1980, pp. 883–893.&lt;/ref&gt; The following considers the simple case where a unique solution exists without making any particular assumptions.
+
+The computation of the TLS using [[singular value decomposition]] is described in standard texts.&lt;ref&gt;{{Cite book
+ | last1=Golub |first1=Gene H. |authorlink1=Gene H. Golub
+ | last2=Van Loan |first2=Charles F. |authorlink2=Charles F. Van Loan
+ | title = Matrix Computations
+ | edition = 3rd
+ | publisher = [[The Johns Hopkins University Press]]
+ | year = 1996
+}} pp 596.&lt;/ref&gt; We can solve the equation 
+:&lt;math&gt;XB \approx Y&lt;/math&gt;
+for ''B'' where ''X'' is ''m''-by-''n'' and ''Y'' is ''m''-by-''k''. &lt;ref group="note"&gt;The notation ''XB''&amp;nbsp;≈&amp;nbsp;''Y'' is used here to reflect the notation used in the earlier part of the article.  In the computational literature the problem has been more commonly presented as ''AX''&amp;nbsp;≈&amp;nbsp;''B'', i.e. with the letter ''X'' used for the ''n''-by-''k'' matrix of unknown regression coefficients.&lt;/ref&gt;
+
+That is, we seek to find ''B'' that minimizes error matrices ''E'' and ''F'' for ''X'' and ''Y'' respectively. That is,
+:&lt;math&gt;\mathrm{argmin}_{E,F} \| [E\; F] \|_F, \qquad (X+E) B = Y+F&lt;/math&gt;
+where &lt;math&gt;[E\; F]&lt;/math&gt; is the [[augmented matrix]] with ''E'' and ''F'' side by side and &lt;math&gt;\|\cdot\|_F&lt;/math&gt; is the [[Frobenius norm]], the square root of the sum of the squares of all entries in a matrix and so equivalently the square root of the sum of squares of the lengths of the rows or columns of the matrix.
+
+This can be rewritten as
+:&lt;math&gt;[(X+E) \; (Y+F)] \begin{bmatrix} B\\ -I_k\end{bmatrix} = 0.&lt;/math&gt;
+where &lt;math&gt;I_k&lt;/math&gt; is the &lt;math&gt;k\times k&lt;/math&gt; identity matrix.
+The goal is then to find &lt;math&gt;[E\; F]&lt;/math&gt; that reduces the rank of &lt;math&gt;[X\; Y]&lt;/math&gt; by ''k''. Define &lt;math&gt;[U] [\Sigma] [V]^*&lt;/math&gt; to be the singular value decomposition of the augmented matrix &lt;math&gt;[X\; Y]&lt;/math&gt;.
+:&lt;math&gt;[X\; Y] = [U_X\; U_Y] \begin{bmatrix}\Sigma_X &amp;0 \\ 0 &amp; \Sigma_Y\end{bmatrix}\begin{bmatrix}V_{XX} &amp; V_{XY} \\ V_{YX} &amp; V_{YY}\end{bmatrix}^* =  [U_X\; U_Y] \begin{bmatrix}\Sigma_X &amp;0 \\ 0 &amp; \Sigma_Y\end{bmatrix} \begin{bmatrix} V_{XX}^* &amp; V_{YX}^* \\ V_{XY}^* &amp; V_{YY}^*\end{bmatrix}&lt;/math&gt;
+where ''V'' is partitioned into blocks corresponding to the shape of ''X'' and ''Y''.
+
+Using the [[Eckart–Young theorem]], the approximation minimising the norm of the error is such that matrices &lt;math&gt;U&lt;/math&gt; and &lt;math&gt;V&lt;/math&gt; are unchanged, while the &lt;math&gt;k&lt;/math&gt;-smallest singular values are replaced with zeroes. That is, we want
+:&lt;math&gt;[(X+E)\; (Y+F)] = [U_X\; U_Y] \begin{bmatrix}\Sigma_X &amp;0 \\ 0 &amp; 0_{k\times k}\end{bmatrix}\begin{bmatrix}V_{XX} &amp; V_{XY} \\ V_{YX} &amp; V_{YY}\end{bmatrix}^*&lt;/math&gt;
+so by linearity,
+:&lt;math&gt;[E\; F] = -[U_X\; U_Y] \begin{bmatrix}0_{n\times n} &amp;0 \\ 0 &amp; \Sigma_Y\end{bmatrix}\begin{bmatrix}V_{XX} &amp; V_{XY} \\ V_{YX} &amp; V_{YY}\end{bmatrix}^*. &lt;/math&gt;
+We can then remove blocks from the ''U'' and Σ matrices, simplifying to
+:&lt;math&gt;[E\; F] = -U_Y\Sigma_Y \begin{bmatrix}V_{XY}\\V_{YY}\end{bmatrix}^*= -[X\; Y] \begin{bmatrix}V_{XY}\\V_{YY}\end{bmatrix}\begin{bmatrix}V_{XY}\\ V_{YY}\end{bmatrix}^*.&lt;/math&gt;
+This provides ''E'' and ''F'' so that 
+:&lt;math&gt;[(X+E) \; (Y+F)] \begin{bmatrix}V_{XY}\\ V_{YY}\end{bmatrix} = 0.&lt;/math&gt;
+Now if &lt;math&gt;V_{YY}&lt;/math&gt; is nonsingular, which is not always the case (note that the behavior of TLS when &lt;math&gt;V_{YY}&lt;/math&gt; is singular is not well understood yet), we can then right multiply both sides by &lt;math&gt;-V_{YY}^{-1}&lt;/math&gt; to bring the bottom block of the right matrix to the negative identity, giving&lt;ref&gt;Bjõrck, Ake (1996) ''Numerical Methods for Least Squares Problems'', Society for Industrial and Applied Mathematics. {{ISBN|978-0898713602}} {{page needed|date=June 2012}}&lt;/ref&gt;
+: &lt;math&gt;[(X+E) \; (Y+F)] \begin{bmatrix} -V_{XY} V_{YY}^{-1} \\ -V_{YY} V_{YY}^{-1}\end{bmatrix} = [(X+E) \; (Y+F)] \begin{bmatrix} B\\ -I_k\end{bmatrix} =  0 ,&lt;/math&gt;
+and so
+:&lt;math&gt;B=-V_{XY} V_{YY}^{-1}.&lt;/math&gt;
+
+A naive [[GNU Octave]] implementation of this is:
+
+&lt;syntaxhighlight lang="matlab"&gt;
+function B = tls(X,Y)
+
+[m n]   = size(X);            % n is the width of X (X is m by n)
+Z       = [X Y];              % Z is X augmented with Y.
+[U S V] = svd(Z,0);           % find the SVD of Z.
+VXY     = V(1:n,1+n:end);     % Take the block of V consisting of the first n rows and the n+1 to last column
+VYY     = V(1+n:end,1+n:end); % Take the bottom-right block of V.
+B       = -VXY/VYY;
+
+end
+&lt;/syntaxhighlight&gt;
+
+The way described above of solving the problem, which requires that the matrix &lt;math&gt;V_{YY}&lt;/math&gt; is nonsingular, can be slightly extended by the so-called ''classical TLS algorithm''.&lt;ref&gt;[[Sabine Van Huffel|S. Van Huffel]] and J. Vandewalle (1991) ''The Total Least Squares Problems: Computational Aspects and Analysis''. SIAM Publications, Philadelphia PA.&lt;/ref&gt;
+
+=== Computation ===
+
+The standard implementation of classical TLS algorithm is available through [http://www.netlib.org/vanhuffel/index.html Netlib], see also.&lt;ref&gt;[[Sabine Van Huffel|S. Van Huffel]], Documented Fortran 77 programs of the extended classical total least squares algorithm, the partial singular value decomposition algorithm and the partial total least squares algorithm, Internal Report ESAT-KUL 88/1, ESAT Lab., Dept. of Electrical Engineering, Katholieke Universiteit Leuven, 1988.&lt;/ref&gt;&lt;ref&gt;[[Sabine Van Huffel|S. Van Huffel]], The extended classical total least squares algorithm, J. Comput. Appl. Math., 25, pp. 111–119, 1989.&lt;/ref&gt; All modern implementations based, for example, on solving a sequence of ordinary least squares problems, approximate the matrix &lt;math&gt;B&lt;/math&gt; (denoted &lt;math&gt;X&lt;/math&gt; in the literature), as introduced by [[Sabine Van Huffel|Van Huffel]] and Vandewalle. It is worth noting, that this &lt;math&gt;B&lt;/math&gt; is, however, ''not the TLS solution'' in many cases.&lt;ref&gt;M. Plešinger, The Total Least Squares Problem and Reduction of Data in AX ≈ B. Doctoral Thesis, TU of Liberec and Institute of Computer Science, AS CR Prague, 2008. Ph.D. Thesis&lt;/ref&gt;&lt;ref&gt;I. Hnětynková, M. Plešinger, D. M. Sima, Z. Strakoš, and [[Sabine Van Huffel|S. Van Huffel]], The total least squares problem in AX ≈ B. A new classification with the relationship to the classical works. SIMAX vol. 32 issue 3 (2011), pp. 748–770.&lt;/ref&gt;
+
+== Non-linear model ==
+For [[non-linear least squares|non-linear systems]] similar reasoning shows that the normal equations for an iteration cycle can be written as
+:&lt;math&gt;\mathbf{J^TM^{-1}J\Delta \boldsymbol\beta=J^T M^{-1} \Delta y}. &lt;/math&gt;
+
+== Geometrical interpretation ==
+{{main|Curve fitting#Algebraic fit versus geometric fit for curves}}
+{{further|Orthogonal regression}}
+When the independent variable is error-free a residual represents the "vertical" distance between the observed data point and the fitted curve (or surface). In total least squares a residual represents the distance between a data point and the fitted curve measured along some direction. In fact, if both variables are measured in the same units and the errors on both variables are the same, then the residual represents the [[distance from a point to a line|shortest distance between the data point and the fitted curve]], that is, the residual vector is perpendicular to the tangent of the curve. For this reason, this type of regression is sometimes called ''two dimensional Euclidean regression'' (Stein, 1983)&lt;ref&gt;{{cite journal |last=Stein |first=Yaakov J. |title=Two Dimensional Euclidean Regression |url =http://www.dspcsp.com/pubs/euclreg.pdf }}&lt;/ref&gt; or ''orthogonal regression''.
+
+== Scale invariant methods ==
+A serious difficulty arises if the variables are not measured in the same units. First consider measuring distance between a data point and the line: what are the measurement units for this distance? If we consider measuring distance based on Pythagoras' Theorem then it is clear that we shall be adding quantities measured in different units, which is  meaningless. Secondly, if we rescale one of the variables e.g., measure in grams rather than kilograms, then we shall end up with different results (a different line). To avoid these problems it is sometimes suggested that we convert to dimensionless variables—this may be called normalization or standardization. However there are various ways of doing this, and these lead to fitted models which are not equivalent to each other. One approach is to normalize by known (or estimated) measurement precision thereby minimizing the [[Mahalanobis distance]] from the points to the line, providing a [[maximum-likelihood]] solution;{{Citation needed|date=July 2009}} the unknown precisions could be found via [[analysis of variance]].
+
+In short, total least squares does not have the property of units-invariance&amp;mdash;i.e. it is not [[scale invariance|scale invariant]]. For a meaningful model we require this property to hold. A way forward is to realise that residuals (distances) measured in different units can be combined if multiplication is used instead of addition. Consider fitting a line: for each data point the product of the vertical and horizontal residuals equals twice the area of the triangle formed by the residual lines and the fitted line. We choose the line which minimizes the sum of these areas. Nobel laureate [[Paul Samuelson]] proved in 1942 that, in two dimensions, it is the only line expressible solely in terms of the ratios of standard deviations and the correlation coefficient which (1) fits the correct equation when the observations fall on a straight line, (2) exhibits scale invariance, and (3) exhibits invariance under interchange of variables.&lt;ref&gt;{{cite journal |last=Samuelson |first=Paul A. |year=1942 |title=A Note on Alternative Regressions |journal=Econometrica |doi=10.2307/1907024 |jstor=1907024 |volume=10 |issue=1 |pages=80–83}}&lt;/ref&gt; This solution has been rediscovered in different disciplines and is variously known as '''standardised major axis''' (Ricker 1975, Warton et al., 2006),&lt;ref&gt;{{cite journal |last=Ricker |first=W. E. |year=1975 |title=A note concerning Professor Jolicoeur's Comments |journal=Journal of the Fisheries Research Board of Canada |doi=10.1139/f75-172 |volume=32 |issue=8 |pages=1494–1498}}&lt;/ref&gt;&lt;ref&gt;{{cite journal |last1=Warton |first1=David I. |last2=Wright |first2=Ian J. |last3=Falster |first3=Daniel S. |last4=Westoby |first4=Mark |year=2006 |title=Bivariate line-fitting methods for allometry |journal=Biological Reviews |doi=10.1017/S1464793106007007 |volume=81 |issue=2 |pages=259–291|pmid=16573844 |citeseerx=10.1.1.461.9154 }}&lt;/ref&gt; the '''reduced major axis''', the '''geometric mean functional relationship''' (Draper and Smith, 1998),&lt;ref&gt;Draper, NR and Smith, H. ''Applied Regression Analysis'', 3rd edition, pp. 92–96. 1998&lt;/ref&gt; '''least products regression''', '''diagonal regression''', '''line of organic correlation''', and the '''least areas line''' (Tofallis, 2002).&lt;ref&gt;{{cite book |last=Tofallis |first=Chris |editor1-last=Van Huffel |editor1-first=Sabine |editor1-link= Sabine Van Huffel |editor2-last=Lemmerling |editor2-first=P. |year=2002 |title=Total Least Squares and Errors-in-Variables Modeling: Analysis, Algorithms and Applications |chapter=Model Fitting for Multiple Variables by Minimising the Geometric Mean Deviation |publisher=Kluwer Academic Publ. |location=Dordrecht |isbn=978-1402004766 |ssrn=1077322}}&lt;/ref&gt; Tofallis (2015)&lt;ref&gt;{{ cite paper |last=Tofallis|first=Chris|year=2015|title=Fitting Equations to Data with the Perfect Correlation Relationship |ssrn=2707593}}&lt;/ref&gt; has extended this approach to deal with multiple variables.
+
+== See also ==
+* [[Deming regression]], a special case with two predictors and independent errors.
+* [[Errors-in-variables model]]
+* [[Linear regression]]
+* [[Least squares]]
+
+==Notes==
+{{reflist|group=note}}
+
+==References==
+{{Reflist}}
+
+===Others===
+* I. Hnětynková, M. Plešinger, D. M. Sima, Z. Strakoš, and [[Sabine Van Huffel|S. Van Huffel]], ''The total least squares problem in AX ≈ B. A new classification with the relationship to the classical works.'' SIMAX vol. 32 issue 3 (2011), pp.&amp;nbsp;748–770. Available  as a [ftp://ftp.sam.math.ethz.ch/pub/sam-reports/reports/reports2010/2010-38.pdf preprint].
+* M. Plešinger, ''The Total Least Squares Problem and Reduction of Data in AX ≈ B.'' Doctoral Thesis, TU of Liberec and Institute of Computer Science, AS CR Prague, 2008. [https://web.archive.org/web/20120724080908/http://www.fp.tul.cz/~plesinger/my_publications/doctoral_thesis/thesis.pdf Ph.D. Thesis]
+* C. C. Paige, Z. Strakoš, ''Core problems in linear algebraic systems.'' SIAM J. Matrix Anal. Appl. 27, 2006, pp.&amp;nbsp;861–875. {{doi|10.1137/040616991}}
+* [[Sabine Van Huffel|S. Van Huffel]] and P. Lemmerling, ''Total Least Squares and Errors-in-Variables Modeling: Analysis,   Algorithms and Applications''. Dordrecht, The Netherlands: Kluwer Academic Publishers, 2002.
+* S. Jo and S. W. Kim, ''Consistent normalized least mean square filtering with noisy data matrix.'' IEEE Trans. Signal Process., vol. 53, no. 6, pp.&amp;nbsp;2112–2123, Jun. 2005.
+* R. D. DeGroat and E. M. Dowling, ''The data least squares problem and channel equalization.'' IEEE Trans. Signal Process., vol. 41, no. 1, pp.&amp;nbsp;407–411, Jan. 1993.
+* [[Sabine Van Huffel|S. Van Huffel]] and J. Vandewalle, ''The Total Least Squares Problems: Computational Aspects and Analysis.'' SIAM Publications, Philadelphia PA, 1991. {{doi|10.1137/1.9781611971002}}
+* T. Abatzoglou and J. Mendel, ''Constrained total least squares'', in Proc. IEEE Int. Conf. Acoust., Speech, Signal Process. (ICASSP’87), Apr. 1987, vol. 12, pp.&amp;nbsp;1485–1488.
+* P. de Groen ''An introduction to total least squares'', in Nieuw Archief voor Wiskunde, Vierde serie, deel 14, 1996, pp.&amp;nbsp;237–253 [https://arxiv.org/abs/math.RA/9805076/ arxiv.org].
+* G. H. Golub and C. F. Van Loan, ''An analysis of the total least squares problem.'' SIAM J. on Numer. Anal., 17, 1980, pp.&amp;nbsp;883–893. {{doi|10.1137/0717073}}
+* [http://www.mathpages.com/home/kmath110.htm Perpendicular Regression Of A Line] at MathPages
+* A. R. Amiri-Simkooei and S. Jazaeri ''Weighted total least squares formulated by standard least squares theory'',in Journal of Geodetic Science, 2 (2): 113–124, 2012 [http://engold.ui.ac.ir/~amiri/JGS_Amiri_Jazaeri_2012.pdf].
+
+{{Least Squares and Regression Analysis}}
+
+{{DEFAULTSORT:Total Least Squares}}
+[[Category:Applied mathematics]]
+[[Category:Least squares]]</text>
+      <sha1>l9y0zlph6b75awzacffbumh6gpk8jno</sha1>
+    </revision>
+  </page>
+</mediawiki>

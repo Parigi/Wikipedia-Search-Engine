@@ -1,0 +1,167 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.10/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.10/ http://www.mediawiki.org/xml/export-0.10.xsd" version="0.10" xml:lang="en">
+  <siteinfo>
+    <sitename>Wikipedia</sitename>
+    <dbname>enwiki</dbname>
+    <base>https://en.wikipedia.org/wiki/Main_Page</base>
+    <generator>MediaWiki 1.35.0-wmf.36</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Media</namespace>
+      <namespace key="-1" case="first-letter">Special</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Talk</namespace>
+      <namespace key="2" case="first-letter">User</namespace>
+      <namespace key="3" case="first-letter">User talk</namespace>
+      <namespace key="4" case="first-letter">Wikipedia</namespace>
+      <namespace key="5" case="first-letter">Wikipedia talk</namespace>
+      <namespace key="6" case="first-letter">File</namespace>
+      <namespace key="7" case="first-letter">File talk</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki talk</namespace>
+      <namespace key="10" case="first-letter">Template</namespace>
+      <namespace key="11" case="first-letter">Template talk</namespace>
+      <namespace key="12" case="first-letter">Help</namespace>
+      <namespace key="13" case="first-letter">Help talk</namespace>
+      <namespace key="14" case="first-letter">Category</namespace>
+      <namespace key="15" case="first-letter">Category talk</namespace>
+      <namespace key="100" case="first-letter">Portal</namespace>
+      <namespace key="101" case="first-letter">Portal talk</namespace>
+      <namespace key="108" case="first-letter">Book</namespace>
+      <namespace key="109" case="first-letter">Book talk</namespace>
+      <namespace key="118" case="first-letter">Draft</namespace>
+      <namespace key="119" case="first-letter">Draft talk</namespace>
+      <namespace key="446" case="first-letter">Education Program</namespace>
+      <namespace key="447" case="first-letter">Education Program talk</namespace>
+      <namespace key="710" case="first-letter">TimedText</namespace>
+      <namespace key="711" case="first-letter">TimedText talk</namespace>
+      <namespace key="828" case="first-letter">Module</namespace>
+      <namespace key="829" case="first-letter">Module talk</namespace>
+      <namespace key="2300" case="first-letter">Gadget</namespace>
+      <namespace key="2301" case="first-letter">Gadget talk</namespace>
+      <namespace key="2302" case="case-sensitive">Gadget definition</namespace>
+      <namespace key="2303" case="case-sensitive">Gadget definition talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Computational epigenetics</title>
+    <ns>0</ns>
+    <id>14938064</id>
+    <revision>
+      <id>960987648</id>
+      <parentid>960723905</parentid>
+      <timestamp>2020-06-06T01:07:13Z</timestamp>
+      <contributor>
+        <username>Citation bot</username>
+        <id>7903804</id>
+      </contributor>
+      <comment>Add: s2cid. Removed URL that duplicated unique identifier. | You can [[WP:UCB|use this bot]] yourself. [[WP:DBUG|Report bugs here]]. | Activated by AManWithNoPlan | All pages linked from [[User:AManWithNoPlan/sandbox2]] | via #UCB_webform_linked</comment>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="11353" xml:space="preserve">[[File:DNA methylation.jpg|thumb|259x259px|DNA methylation is an epigenetic mechanism that can be studied with bioinformatics]]
+'''Computational epigenetics'''&lt;ref name="bock2008"&gt;{{cite journal
+| last = Bock
+| first =  C
+|author2=Lengauer T
+| title = Computational epigenetics
+| journal = Bioinformatics
+| year = 2008
+| volume = 24
+| issue = 1
+| pages = 1–10
+| doi = 10.1093/bioinformatics/btm546
+| pmid = 18024971| doi-access = free
+}}&lt;/ref&gt;
+&lt;ref name="lim2010"&gt;{{cite journal
+| last = Lim
+| first =  S J |author2=Tan T W |author3=Tong J C
+| title = Computational epigenetics: the new scientific paradigm
+| journal = Bioinformation
+| year = 2010
+| volume = 4
+| issue = 7
+| pages = 331–337
+| url = http://bioinformation.net/004/007000042010.pdf
+| doi=10.6026/97320630004331| pmid = 20978607 | pmc = 2957762 }}&lt;/ref&gt;{{unreliable source?|reason=Bioinformation is on Beall's list of questionable journals; it may provide only token peer-review|date=September 2016}}
+uses [[bioinformatic]] methods{{Clarify|date=January 2010}} to complement experimental research in [[epigenetics]]. Due to the recent explosion of epigenome datasets, computational methods play an increasing role in all areas of epigenetic research.
+
+==Definition==
+Research in computational epigenetics comprises the development and application of bioinformatics methods for solving epigenetic questions, as well as computational data analysis and theoretical modeling in the context of epigenetics. This includes modelling of the effects of histone and DNA CpG island methylation.
+
+==Current research areas==
+
+===Epigenetic data processing and analysis===
+[[File:ChIP-on-chip wet-lab.png|thumb|428x428px|ChIP-on-chip technique]]
+Various experimental techniques have been developed for genome-wide mapping of epigenetic information,&lt;ref&gt;{{cite journal|last=Madrigal|first=P|author2=Krajewski, P|title=Uncovering correlated variability in epigenomic datasets using the Karhunen-Loeve transform.|journal=BioData Mining|date=July 2015|volume=8|pages=20|doi=10.1186/s13040-015-0051-7|pmid=26140054|pmc=4488123}}&lt;/ref&gt; the most widely used being [[ChIP-on-chip]], [[ChIP-seq]] and [[bisulfite sequencing]]. All of these methods generate large amounts of data and require efficient ways of data processing and quality control by bioinformatic methods.
+
+===Epigenome prediction===
+A substantial amount of bioinformatic research has been devoted to the [[prediction]] of epigenetic information from characteristics of the [[genome sequence]]. Such predictions serve a dual purpose. First, accurate epigenome predictions can substitute for experimental data, to some degree, which is particularly relevant for newly discovered epigenetic mechanisms and for species other than human and mouse. Second, prediction algorithms build statistical models of epigenetic information from training data and can therefore act as a first step toward quantitative modeling of an epigenetic mechanism. Successful computational prediction of DNA and lysine methylation and acetylation has been achieved by combinations of various features.&lt;ref name="Shi2012"&gt;{{cite journal
+| last = Shi
+| first =  Shao-Yun |author2=Jian-Ding Qiu |author3=Xing-Yu Sun |author4=Sheng-Bao Suo |author5=Shu-Yun Huang |author6=Ru-Ping Liang
+| s2cid = 6172534 | title = PLMLA: prediction of lysine methylation and lysine acetylation by combining multiple features
+| journal = Mol. BioSyst.
+| year = 2012
+| volume = 8
+| issue = 1
+| pages = 1520–1527
+| doi = 10.1039/C2MB05502C
+| pmid = 22402705}}&lt;/ref&gt;
+&lt;ref name="Zheng2011"&gt;{{cite journal
+| last = Zheng
+| first =  Hao |author2=Shi-Wen Jiang |author3=Hongwei Wu
+| s2cid = 14599625 | title = Enhancement on the Predictive Power of the Prediction Model for Human Genomic DNA Methylation
+| journal = Biocomp'11
+| year = 2011
+| pages = The 2011 International Conference on Bioinformatics and Computational Biology
+}}&lt;/ref&gt;
+
+===Applications in cancer epigenetics===
+The important role of epigenetic defects for [[cancer]] opens up new opportunities for improved diagnosis and therapy. These active areas of research give rise to two questions that are particularly amenable to bioinformatic analysis. First, given a list of genomic regions exhibiting epigenetic differences between tumor cells and controls (or between different disease subtypes), can we detect common patterns or find evidence of a functional relationship of these regions to cancer? Second, can we use bioinformatic methods in order to improve diagnosis and therapy by detecting and classifying important disease subtypes?
+
+==Emerging topics==
+The first wave of research in the field of computational epigenetics was driven by rapid progress of experimental methods for data generation, which required adequate computational methods for data processing and quality control, prompted epigenome prediction studies as a means of understanding the genomic distribution of epigenetic information, and provided the foundation for initial projects on [[cancer epigenetics]]. While these topics will continue to be major areas of research and the mere quantity of epigenetic data arising from epigenome projects poses a significant bioinformatic challenge, several additional topics are currently emerging.
+* Epigenetic regulatory circuitry: Reverse engineering the regulatory networks that read, write and execute epigenetic codes.
+* [[Population epigenetics]]: Distilling regulatory mechanisms from the integration of epigenome data with [[gene expression]] profiles and [[haplotype]] maps for a large sample from a heterogeneous population.''
+* [[Evolutionary epigenetics]]: Learning about epigenome regulation in human (and its medical consequences) by cross-species comparisons.
+* Theoretical modeling: Testing our mechanistic and quantitative understanding of epigenetic mechanisms by [[in silico]] simulation.&lt;ref name="roznovat2013computational"&gt;{{cite journal
+| last = Roznovat
+| first =  I.A.
+|author2=Ruskin H. J.
+| title = A Computational Model for Genetic and Epigenetic Signals in Colon Cancer
+| journal = Interdisciplinary Sciences: Computational Life Sciences
+| year = 2013
+| volume = 5
+| issue = 3
+| pages = 175–186
+| doi = 10.1007/s12539-013-0172-y| pmid =  24307409
+}}&lt;/ref&gt;
+* [[Genome browsers]]: Developing a new blend of web services that enable biologists to perform sophisticated genome and epigenome analysis within an easy-to-use genome browser environment.
+* [[Medical epigenetics]]: Searching for epigenetic mechanisms that play a role in diseases other than cancer, as there is strong circumstantial evidence for epigenetic regulation being involved in [[mental disorders]], [[autoimmune diseases]] and other complex diseases. {{Citation needed|date=June 2020}}
+
+==Epigenetics Databases==
+# [[MethDB]]&lt;ref&gt;[http://www.methdb.de DNA Methylation Database&lt;!-- Bot generated title --&gt;]&lt;/ref&gt; Contains information on 19,905 DNA methylation content data and 5,382 methylation patterns for 48 species, 1,511 individuals, 198 tissues and cell lines and 79 phenotypes.
+# [[Pubmeth]]&lt;ref&gt;[http://www.pubmeth.org/ Pubmeth.Org&lt;!-- Bot generated title --&gt;]&lt;/ref&gt; Contains over 5,000 records on methylated genes in various cancer types.
+# [[REBASE]]&lt;ref&gt;{{Cite web | url=http://rebase.neb.com/rebase/rebase.html | title=Official REBASE Homepage &amp;#124; the Restriction Enzyme Database &amp;#124; NEB}}&lt;/ref&gt; Contains over 22,000 DNA methyltransferases genes derived from GenBank.
+# [[DeepBlue Epigenomic Database]]&lt;ref&gt;{{Cite web | url=https://deepblue.mpi-inf.mpg.de/ | title=DeepBlue Epigenomic Data Server}}&lt;/ref&gt;  contains epigenomic data from more than 60,000 experiments from different IHEC members files divided in many different epigenetic marks. DeepBlue also provides an API for access and process the data on the server.
+# [[MeInfoText]]&lt;ref&gt;[http://mit.lifescience.ntu.edu.tw/ MeInfoText: associated gene methylation and cancer information from text mining&lt;!-- Bot generated title --&gt;]&lt;/ref&gt; Contains gene methylation information across 205 human cancer types.
+# [[MethPrimerDB]]&lt;ref&gt;{{Cite web |url=http://medgen.ugent.be/methprimerdb/ |title=methPrimerDB: the DNA methylation analysis PCR primer database&lt;!-- Bot generated title --&gt; |access-date=2010-01-29 |archive-url=https://web.archive.org/web/20140715024506/http://medgen.ugent.be/methprimerdb/ |archive-date=2014-07-15 |url-status=dead }}&lt;/ref&gt; Contains 259 primer sets from human, mouse and rat for DNA methylation analysis.
+# [[The Histone Database]]&lt;ref&gt;[http://genome.nhgri.nih.gov/histones/ Histone Database - Histone Database&lt;!-- Bot generated title --&gt;]&lt;/ref&gt; Contains 254 sequences from histone H1, 383 from histone H2, 311 from histone H2B, 1043 from histone H3 and 198 from histone H4, altogether representing at least 857 species.
+# [[ChromDB]]&lt;ref&gt;{{Cite web |url=http://www.chromdb.org/ |title=ChromDB::Chromatin Database&lt;!-- Bot generated title --&gt; |access-date=2010-01-29 |archive-url=https://web.archive.org/web/20190410083124/http://www.chromdb.org/ |archive-date=2019-04-10 |url-status=dead }}&lt;/ref&gt; Contains 9,341 chromatin-associated proteins, including RNAi-associated proteins, for a broad range of organisms. 
+# [[CREMOFAC]]&lt;ref&gt;[http://www.jncasr.ac.in/cremofac/ Cremofac&lt;!-- Bot generated title --&gt;]&lt;/ref&gt; Contains 1725 redundant and 720 non-redundant chromatin-remodeling factor sequences in eukaryotes. 
+# [[The Krembil Family Epigenetics Laboratory]]&lt;ref&gt;http://www.epigenomics.ca&lt;/ref&gt; Contains DNA methylation data of human chromosomes 21, 22, male germ cells and DNA methylation profiles in monozygotic and dizygotic twins.
+# [[MethyLogiX DNA methylation database]]&lt;ref&gt;[http://www.methylogix.com/genetics/database.shtml.htm Methylation Database&lt;!-- Bot generated title --&gt;] {{webarchive|url=https://web.archive.org/web/20081203140425/http://www.methylogix.com/genetics/database.shtml.htm |date=2008-12-03 }}&lt;/ref&gt; Contains DNA methylation data of human chromosomes 21 and 22, male germ cells and late-onset Alzheimer's disease.
+
+==Sources and further reading==
+* The original version of this article was based on a review paper on computational epigenetics that appeared in the January 2008 issue of the Bioinformatics journal: {{cite journal | doi = 10.1093/bioinformatics/btm546 | pmid=18024971 | volume=24 | title=Computational epigenetics | date=January 2008 | journal=Bioinformatics | pages=1–10| last1=Bock | first1=C. | last2=Lengauer | first2=T. | doi-access=free }}. This review paper provides &gt;100 references to scientific papers and extensive background information. {{open access}}
+* Additional data has been updated and added, based on a review paper on computational epigenetics that appeared in the January 2010 issue of the [http://bioinformation.net/ Bioinformation] journal: ''[http://bioinformation.net/004/007000042010.pdf Lim S.J., Tan T.W. and Tong, J.C. (2010) Computational epigenetics: the new scientific paradigm. Bioinformation, 4(7): 331-337]''. This review paper provides &gt;129 references to scientific papers. It is published as [[Open access (publishing)|open access]] and can be downloaded freely from the publisher's web page: [http://bioinformation.net/004/007000042010.pdf http://bioinformation.net/004/007000042010.pdf].
+
+== References ==
+{{Reflist}}
+
+[[Category:Epigenetics]]
+[[Category:Bioinformatics]]
+[[Category:Biophysics]]
+[[Category:Computational fields of study]]</text>
+      <sha1>8strcl6u2njz3kyowivvuc9br2tnhul</sha1>
+    </revision>
+  </page>
+</mediawiki>

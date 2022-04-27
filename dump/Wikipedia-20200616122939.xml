@@ -1,0 +1,118 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.10/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.10/ http://www.mediawiki.org/xml/export-0.10.xsd" version="0.10" xml:lang="en">
+  <siteinfo>
+    <sitename>Wikipedia</sitename>
+    <dbname>enwiki</dbname>
+    <base>https://en.wikipedia.org/wiki/Main_Page</base>
+    <generator>MediaWiki 1.35.0-wmf.36</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Media</namespace>
+      <namespace key="-1" case="first-letter">Special</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Talk</namespace>
+      <namespace key="2" case="first-letter">User</namespace>
+      <namespace key="3" case="first-letter">User talk</namespace>
+      <namespace key="4" case="first-letter">Wikipedia</namespace>
+      <namespace key="5" case="first-letter">Wikipedia talk</namespace>
+      <namespace key="6" case="first-letter">File</namespace>
+      <namespace key="7" case="first-letter">File talk</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki talk</namespace>
+      <namespace key="10" case="first-letter">Template</namespace>
+      <namespace key="11" case="first-letter">Template talk</namespace>
+      <namespace key="12" case="first-letter">Help</namespace>
+      <namespace key="13" case="first-letter">Help talk</namespace>
+      <namespace key="14" case="first-letter">Category</namespace>
+      <namespace key="15" case="first-letter">Category talk</namespace>
+      <namespace key="100" case="first-letter">Portal</namespace>
+      <namespace key="101" case="first-letter">Portal talk</namespace>
+      <namespace key="108" case="first-letter">Book</namespace>
+      <namespace key="109" case="first-letter">Book talk</namespace>
+      <namespace key="118" case="first-letter">Draft</namespace>
+      <namespace key="119" case="first-letter">Draft talk</namespace>
+      <namespace key="446" case="first-letter">Education Program</namespace>
+      <namespace key="447" case="first-letter">Education Program talk</namespace>
+      <namespace key="710" case="first-letter">TimedText</namespace>
+      <namespace key="711" case="first-letter">TimedText talk</namespace>
+      <namespace key="828" case="first-letter">Module</namespace>
+      <namespace key="829" case="first-letter">Module talk</namespace>
+      <namespace key="2300" case="first-letter">Gadget</namespace>
+      <namespace key="2301" case="first-letter">Gadget talk</namespace>
+      <namespace key="2302" case="case-sensitive">Gadget definition</namespace>
+      <namespace key="2303" case="case-sensitive">Gadget definition talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Q-value (statistics)</title>
+    <ns>0</ns>
+    <id>60141466</id>
+    <revision>
+      <id>950594695</id>
+      <parentid>927515821</parentid>
+      <timestamp>2020-04-12T22:19:47Z</timestamp>
+      <contributor>
+        <username>OAbot</username>
+        <id>28481209</id>
+      </contributor>
+      <minor/>
+      <comment>[[Wikipedia:OABOT|Open access bot]]: doi added to citation with #oabot.</comment>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="8907" xml:space="preserve">{{Other uses|Q value (disambiguation){{!}}Q value}}
+
+{{short description|Statistical hypothesis testing measure}}
+In [[Statistical hypothesis testing|statistical hypothesis testing]], specifically [[Multiple comparisons problem|multiple hypothesis testing]], the '''''q''-value''' provides a means to control the [[False discovery rate#Related error rates|positive false discovery rate]] (pFDR).&lt;ref name=":0"&gt;{{Cite journal|last=Storey|first=John D.|date=2003|title=The positive false discovery rate: a Bayesian interpretation and the q-value|journal=The Annals of Statistics|volume=31|issue=6|pages=2013–2035|doi=10.1214/aos/1074290335|doi-access=free}}&lt;/ref&gt; Just as the [[P-value|''p''-value]] gives the expected [[False positive rate|false positive rate]] obtained by rejecting the [[null hypothesis]] for any result with an equal or smaller ''p''-value, the ''q''-value gives the expected pFDR obtained by rejecting the null hypothesis for any result with an equal or smaller ''q''-value.
+
+== History ==
+In statistics, testing multiple hypotheses simultaneously using methods appropriate for testing single hypotheses tends to yield many false positives: the so-called [[Multiple comparisons problem|multiple comparisons problem]].&lt;ref name=":2" /&gt; For example, assume that one were to test 1,000 null hypotheses, all of which are true, and (as is conventional in single hypothesis testing) to reject null hypotheses with a [[Significance level|significance level]] of 0.05; due to random chance, one would expect 5% of the results to appear significant (''[[P-value|P]]'' &lt; 0.05), yielding 50 false positives (rejections of the null hypothesis).&lt;ref&gt;{{Cite news|url=https://www.nature.com/news/scientific-method-statistical-errors-1.14700|title=Scientific method: Statistical errors|last=Nuzzo|first=Regina|date=2014|work=Nature|access-date=5 March 2019}}&lt;/ref&gt; Since the 1950s, statisticians had been developing methods for multiple comparisons that reduced the number of false positives, such as controlling the [[Family-wise error rate|family-wise error rate]] (FWER) using the [[Bonferroni correction]], but these methods also increased the number of false negatives (i.e. reduced the [[Statistical power|statistical power]]).&lt;ref name=":2" /&gt; In 1995, [[Yoav Benjamini]] and Yosef Hochberg proposed controlling the [[false discovery rate]] (FDR) as a more statistically powerful alternative to controlling the FWER in multiple hypothesis testing.&lt;ref name=":2"&gt;{{Cite journal|last=Benjamini|first=Yoav|last2=Hochberg|first2=Yosef|date=1995|title=Controlling the false discovery rate: a practical and powerful approach tomultiple testing|journal=Journal of the Royal Statistical Society. Series B (Methodological)|volume=57|pages=289–300|doi=10.1111/j.2517-6161.1995.tb02031.x}}&lt;/ref&gt; The pFDR and the ''q-''value were introduced by [[John D. Storey]] in 2002 in order to improve upon a limitation of the FDR, namely that the FDR is not defined when there are no positive results.&lt;ref name=":0" /&gt;&lt;ref&gt;{{Cite journal|last=Storey|first=John D.|date=2002|title=A direct approach to false discovery rates|journal=Journal of the Royal Statistical Society: Series B (Statistical Methodology)|volume=64|issue=3|pages=479–498|doi=10.1111/1467-9868.00346|citeseerx=10.1.1.320.7131}}&lt;/ref&gt;
+
+== Definition ==
+Let there be a null hypothesis &lt;math&gt;H_0&lt;/math&gt; and an [[Alternative hypothesis|alternative hypothesis]] &lt;math&gt;H_1&lt;/math&gt;. Perform &lt;math&gt;m&lt;/math&gt; hypothesis tests; let the [[Test statistic|test statistics]] be [[Independent and identically distributed random variables|i.i.d. random variables]] &lt;math&gt;T_1, \ldots, T_m&lt;/math&gt; such that &lt;math&gt;T_i \mid H_i \sim (1 - H_i) \cdot F_0 + H_i \cdot F_1&lt;/math&gt;. That is, if &lt;math&gt;H_0&lt;/math&gt; is true for test &lt;math&gt;i&lt;/math&gt; (&lt;math&gt;H_i = 0&lt;/math&gt;), then &lt;math&gt;T_i&lt;/math&gt; follows the [[null distribution]]  &lt;math&gt;F_0&lt;/math&gt;; while if &lt;math&gt;H_1&lt;/math&gt; is true (&lt;math&gt;H_i = 1&lt;/math&gt;), then &lt;math&gt;T_i&lt;/math&gt; follows the alternative distribution &lt;math&gt;F_1&lt;/math&gt;. Let &lt;math&gt;H_i \sim \operatorname{Bernoulli}(\pi_1)&lt;/math&gt;, that is, for each test, &lt;math&gt;H_1&lt;/math&gt; is true with probability &lt;math&gt;\pi_1&lt;/math&gt; and &lt;math&gt;H_0&lt;/math&gt; is true with probability &lt;math&gt;\pi_0 = 1 - \pi_1&lt;/math&gt;. Denote the [[Rejection region|critical region]] (the values of &lt;math&gt;T_i&lt;/math&gt; for which &lt;math&gt;H_0&lt;/math&gt; is rejected) at [[significance level]] &lt;math&gt;\alpha&lt;/math&gt; by &lt;math&gt;\Gamma_\alpha&lt;/math&gt;. Let an experiment yield a value &lt;math&gt;t&lt;/math&gt; for the test statistic. The ''q''-value of &lt;math&gt;t&lt;/math&gt; is formally defined as
+
+: &lt;math&gt;\inf_{\{\Gamma_\alpha : t \in \Gamma_\alpha\}} \operatorname{pFDR}(\Gamma_\alpha)&lt;/math&gt;
+
+That is, the ''q''-value is the [[Infimum and supremum|infimum]] of the pFDR if &lt;math&gt;H_0&lt;/math&gt;is rejected for test statistics with values &lt;math&gt;\ge t&lt;/math&gt;. Equivalently, the ''q''-value equals
+
+: &lt;math&gt;\inf_{\{\Gamma_\alpha : t \in \Gamma_\alpha\}}\Pr(H = 0 \mid T \in \Gamma_\alpha)&lt;/math&gt;
+
+which is the infimum of the probability that &lt;math&gt;H_0&lt;/math&gt; is true given that &lt;math&gt;H_0&lt;/math&gt; is rejected (the [[False discovery rate|false discovery rate]]).&lt;ref name=":0" /&gt;
+
+== Relationship to the ''p''-value ==
+The ''p''-value is defined as
+
+: &lt;math&gt;\inf_{\{\Gamma_\alpha : t \in \Gamma_\alpha\}} \Pr(T \in \Gamma_\alpha \mid H = 0)&lt;/math&gt;
+
+the infimum of the probability that &lt;math&gt;H_0&lt;/math&gt; is rejected given that &lt;math&gt;H_0&lt;/math&gt; is true (the [[false positive rate]]). Comparing the definitions of the ''p''- and ''q''-values, it can be seen that the ''q''-value is the minimum [[posterior probability]] that &lt;math&gt;H_0&lt;/math&gt; is true.&lt;ref name=":0" /&gt;
+
+== Interpretation ==
+The ''q''-value can be interpreted as the false discovery rate (FDR): the proportion of false positives among all positive results. Given a set of test statistics and their associated ''q''-values, rejecting the null hypothesis for all tests whose ''q''-value is less than or equal to some threshold &lt;math&gt;\alpha&lt;/math&gt; ensures that the expected value of the false discovery rate is &lt;math&gt;\alpha&lt;/math&gt;.&lt;ref name=":1"&gt;{{Cite journal|last=Storey|first=John D.|last2=Tibshirani|first2=Robert|date=2003|title=Statistical significance for genomewide studies|journal=PNAS|volume=100|issue=16|pages=9440–9445|doi=10.1073/pnas.1530509100|pmid=12883005|pmc=170937|bibcode=2003PNAS..100.9440S}}&lt;/ref&gt;
+
+== Applications ==
+
+=== Biology ===
+
+==== Gene expression ====
+[[Gene expression profiling|Genome-wide analyses of differential gene expression]] involve simultaneously testing the [[Gene expression|expression]] of thousands of genes. Controlling the FWER (usually to 0.05) avoids excessive false positives (i.e. detecting differential expression in a gene that is not differentially expressed) but imposes a strict threshold for the ''p''-value that results in many false negatives (many differentially expressed genes are overlooked). However, controlling the pFDR by selecting genes with significant ''q''-values lowers the number of false negatives (increases the statistical power) while ensuring that the expected value of the proportion of false positives among all positive results is low (e.g. 5%).&lt;ref name=":1" /&gt;
+
+For example, suppose that among 10,000 genes tested, 1,000 are actually differentially expressed and 9,000 are not:
+
+* If we consider every gene with a ''p''-value of less than 0.05 to be differentially expressed, we expect that 450 (5%) of the 9,000 genes that are not differentially expressed will appear to be differentially expressed (450 false positives).
+* If we control the FWER to 0.05, there is only a 5% probability of obtaining at least one false positive. However, this very strict criterion will reduce the power such that few of the 1,000 genes that are actually differentially expressed will appear to be differentially expressed (many false negatives).
+* If we control the pFDR to 0.05 by considering all genes with a ''q''-value of less than 0.05 to be differentially expressed, then we expect 5% of the positive results to be false positives (e.g. 900 true positives, 45 false positives, 100 false negatives, 8,955 true negatives). This strategy enables one to obtain relatively low numbers of both false positives and false negatives.
+
+== Implementations ==
+Note: the following is an incomplete list.
+
+=== R ===
+
+* The [https://www.bioconductor.org/packages/release/bioc/html/qvalue.html qvalue] package in [[R (programming language)|R]] estimates ''q''-values from a list of ''p''-values.&lt;ref&gt;{{Cite web|url=https://www.bioconductor.org/packages/release/bioc/html/qvalue.html|title=qvalue: Q-value estimation for false discovery rate control|last=Storey|first=John D.|last2=Bass|first2=Andrew J.|date=2019|website=Bioconductor|last3=Dabney|first3=Alan|last4=Robinson|first4=David|last5=Warnes|first5=Gregory}}&lt;/ref&gt;
+
+== References ==
+{{reflist}}
+
+[[Category:Multiple comparisons]]
+[[Category:Statistical hypothesis testing]]</text>
+      <sha1>t4tt2neve0wb99j65uevzkwocrtel1t</sha1>
+    </revision>
+  </page>
+</mediawiki>

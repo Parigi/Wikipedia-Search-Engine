@@ -1,0 +1,194 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.10/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.10/ http://www.mediawiki.org/xml/export-0.10.xsd" version="0.10" xml:lang="en">
+  <siteinfo>
+    <sitename>Wikipedia</sitename>
+    <dbname>enwiki</dbname>
+    <base>https://en.wikipedia.org/wiki/Main_Page</base>
+    <generator>MediaWiki 1.35.0-wmf.36</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Media</namespace>
+      <namespace key="-1" case="first-letter">Special</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Talk</namespace>
+      <namespace key="2" case="first-letter">User</namespace>
+      <namespace key="3" case="first-letter">User talk</namespace>
+      <namespace key="4" case="first-letter">Wikipedia</namespace>
+      <namespace key="5" case="first-letter">Wikipedia talk</namespace>
+      <namespace key="6" case="first-letter">File</namespace>
+      <namespace key="7" case="first-letter">File talk</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki talk</namespace>
+      <namespace key="10" case="first-letter">Template</namespace>
+      <namespace key="11" case="first-letter">Template talk</namespace>
+      <namespace key="12" case="first-letter">Help</namespace>
+      <namespace key="13" case="first-letter">Help talk</namespace>
+      <namespace key="14" case="first-letter">Category</namespace>
+      <namespace key="15" case="first-letter">Category talk</namespace>
+      <namespace key="100" case="first-letter">Portal</namespace>
+      <namespace key="101" case="first-letter">Portal talk</namespace>
+      <namespace key="108" case="first-letter">Book</namespace>
+      <namespace key="109" case="first-letter">Book talk</namespace>
+      <namespace key="118" case="first-letter">Draft</namespace>
+      <namespace key="119" case="first-letter">Draft talk</namespace>
+      <namespace key="446" case="first-letter">Education Program</namespace>
+      <namespace key="447" case="first-letter">Education Program talk</namespace>
+      <namespace key="710" case="first-letter">TimedText</namespace>
+      <namespace key="711" case="first-letter">TimedText talk</namespace>
+      <namespace key="828" case="first-letter">Module</namespace>
+      <namespace key="829" case="first-letter">Module talk</namespace>
+      <namespace key="2300" case="first-letter">Gadget</namespace>
+      <namespace key="2301" case="first-letter">Gadget talk</namespace>
+      <namespace key="2302" case="case-sensitive">Gadget definition</namespace>
+      <namespace key="2303" case="case-sensitive">Gadget definition talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Accuracy and precision</title>
+    <ns>0</ns>
+    <id>41932</id>
+    <revision>
+      <id>954910934</id>
+      <parentid>954910854</parentid>
+      <timestamp>2020-05-04T22:51:24Z</timestamp>
+      <contributor>
+        <ip>2601:445:4380:7DD0:A032:6BA:919A:9481</ip>
+      </contributor>
+      <comment>/* In binary classification */</comment>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="17723" xml:space="preserve">{{short description|Closeness to true value or to each other}}
+In measurement of a set, '''accuracy''' is closeness of the measurements to a specific value, while '''precision''' is the closeness of the measurements to each other.
+
+''Accuracy'' has two definitions:
+# More commonly, it is a description of ''[[systematic errors]]'', a measure of [[statistical bias]]; low accuracy causes a difference between a result and a "true" value. [[International Organization for Standardization|ISO]] calls this ''trueness''.
+# Alternatively, ISO defines&lt;ref name="iso5725"/&gt; accuracy as describing a combination of both types of [[observational error]] above (random and systematic), so high accuracy requires both high precision and high trueness.
+
+''Precision'' is a description of ''[[random errors]]'', a measure of [[statistical variability]].
+
+In simpler terms, given a set of data points from repeated measurements of the same quantity, the set can be said to be ''accurate'' if their average is close to the ''true value'' of the quantity being measured, while the set can be said to be ''precise'' if the values are close to each other.  In the first, more common definition of "accuracy" above, the two concepts are independent of each other, so a particular set of data can be said to be either accurate, or precise, or both, or neither.
+
+==Common technical definition==
+[[File:Accuracy and precision.svg|thumb|300px|''Accuracy'' is the proximity of measurement results to the true value; ''precision'' is the degree to which [[repeatability|repeated]] (or [[reproducibility|reproducible]]) measurements under unchanged conditions show the same results.]]
+
+In the fields of [[science]] and [[engineering]], the accuracy of a [[measurement]] system is the degree of closeness of measurements of a [[quantity]] to that quantity's true [[value (mathematics)|value]].&lt;ref name=metrology_terms&gt;''[http://www.bipm.org/utils/common/documents/jcgm/JCGM_200_2008.pdf JCGM 200:2008 International vocabulary of metrology] — Basic and general concepts and associated terms (VIM)&lt;/ref&gt; The precision of a measurement system, related to [[reproducibility]] and [[repeatability]], is the degree to which repeated measurements under unchanged conditions show the same [[result]]s.&lt;ref name=metrology_terms /&gt;&lt;ref name=Taylor&gt;{{cite book  |title=An Introduction to Error Analysis: The Study of Uncertainties in Physical Measurements |first= John Robert |last= Taylor |url=https://books.google.com/books?id=giFQcZub80oC&amp;pg=PA128 |pages=128–129 |isbn=0-935702-75-X |year=1999 |publisher=University Science Books}}&lt;/ref&gt;  Although the two words precision and accuracy can be [[synonymous]] in [[colloquial]] use, they are deliberately contrasted in the context of the [[scientific method]].
+
+The field of [[statistics]], where the interpretation of measurements plays a central role, prefers to use the terms ''[[Bias (statistics)|bias]]'' and ''[[Variability (statistics)|variability]]'' instead of accuracy and precision: bias is the amount of inaccuracy and variability is the amount of imprecision.
+
+A measurement system can be accurate but not precise, precise but not accurate, neither, or both. For example, if an experiment contains a [[systematic error]], then increasing the [[sample size]] generally increases precision but does not improve accuracy. The result would be a consistent yet inaccurate string of results from the flawed experiment.  Eliminating the systematic error improves accuracy but does not change precision.
+
+A measurement system is considered ''valid'' if it is both ''accurate'' and ''precise''. Related terms include ''bias'' (non-[[random]] or directed effects caused by a factor or factors unrelated to the [[independent variable]]) and ''error'' (random variability).
+
+The terminology is also applied to indirect measurements—that is, values obtained by a computational procedure from observed data.
+
+In addition to accuracy and precision, measurements may also have a [[Sensor#Resolution|measurement resolution]], which is the smallest change in the underlying physical quantity that produces a response in the measurement.
+
+In [[numerical analysis]], accuracy is also the nearness of a calculation to the true value; while precision is the resolution of the representation, typically defined by the number of decimal or binary digits.
+
+In military terms, accuracy refers primarily to the accuracy of fire (''justesse de tir''), the precision of fire expressed by the closeness of a grouping of shots at and around the centre of the target.&lt;ref&gt;North Atlantic Treaty Organization, Nato Standardization Agency AAP-6 - Glossary of terms and definitions, p 43.&lt;/ref&gt;
+
+===Quantification===
+{{see also|False precision}}
+In industrial instrumentation, accuracy is the measurement tolerance, or transmission of the instrument and defines the limits of the errors made when the instrument is used in normal operating conditions.&lt;ref&gt;Creus, Antonio. ''Instrumentación Industrial''{{citation needed|date=February 2015}}&lt;/ref&gt;
+
+Ideally a measurement device is both accurate and precise, with measurements all close to and tightly clustered around the true value. The accuracy and precision of a measurement process is usually established by repeatedly measuring some [[traceability|traceable]] reference [[Technical standard|standard]]. Such standards are defined in the [[SI|International System of Units]] (abbreviated SI from French: ''Système international d'unités'') and maintained by national [[standards organization]]s such as the [[National Institute of Standards and Technology]] in the United States.
+
+This also applies when measurements are repeated and averaged. In that case, the term [[standard error (statistics)|standard error]] is properly applied: the precision of the average is equal to the known standard deviation of the process divided by the square root of the number of measurements averaged. Further, the [[central limit theorem]] shows that the [[probability distribution]] of the averaged measurements will be closer to a normal distribution than that of individual measurements.
+
+With regard to accuracy we can distinguish:
+*the difference between the [[mean]] of the measurements and the reference value, the [[bias of an estimator|bias]]. Establishing and correcting for bias is necessary for [[calibration]].
+*the combined effect of that and precision.
+
+A common convention in science and engineering is to express accuracy and/or precision implicitly by means of [[significant figures]]. Here, when not explicitly stated, the margin of error is understood to be one-half the value of the last significant place. For instance, a recording of 843.6&amp;nbsp;m, or 843.0&amp;nbsp;m, or 800.0&amp;nbsp;m would imply a margin of 0.05&amp;nbsp;m (the last significant place is the tenths place), while a recording of 8436&amp;nbsp;m would imply a margin of error of 0.5&amp;nbsp;m (the last significant digits are the units).
+
+A reading of 8,000&amp;nbsp;m, with trailing zeroes and no decimal point, is ambiguous; the trailing zeroes may or may not be intended as significant figures. To avoid this ambiguity, the number could be represented in scientific notation: 8.0&amp;nbsp;&amp;times;&amp;nbsp;10&lt;sup&gt;3&lt;/sup&gt;&amp;nbsp;m indicates that the first zero is significant (hence a margin of 50&amp;nbsp;m) while 8.000&amp;nbsp;&amp;times;&amp;nbsp;10&lt;sup&gt;3&lt;/sup&gt;&amp;nbsp;m indicates that all three zeroes are significant, giving a margin of 0.5&amp;nbsp;m. Similarly, it is possible to use a multiple of the basic measurement unit: 8.0&amp;nbsp;km is equivalent to 8.0&amp;nbsp;&amp;times;&amp;nbsp;10&lt;sup&gt;3&lt;/sup&gt;&amp;nbsp;m. In fact, it indicates a margin of 0.05&amp;nbsp;km (50&amp;nbsp;m). However, reliance on this convention can lead to [[false precision]] errors when accepting data from sources that do not obey it. For example, a source reporting a number like 153,753 with precision +/- 5,000 looks like it has precision +/- 0.5. Under the convention it would have been rounded to 154,000.
+
+Precision includes:
+*''repeatability'' &amp;mdash; the variation arising when all efforts are made to keep conditions constant by using the same instrument and operator, and repeating during a short time period; and
+*''reproducibility'' &amp;mdash; the variation arising using the same measurement process among different instruments and operators, and over longer time periods.
+
+=={{visible anchor|ISO definition (ISO 5725)|ISO_Definition_.28ISO_5725.29}}==
+[[File:Accuracy (trueness and precision).svg|thumb|right|According to ISO 5725-1, Accuracy consists of trueness (proximity of measurement results to the true value) and precision (repeatability or reproducibility of the measurement)]]
+A shift in the meaning of these terms appeared with the publication of the ISO 5725 series of standards in 1994, which is also reflected in the 2008 issue of the "BIPM International Vocabulary of Metrology" (VIM), items 2.13 and 2.14.&lt;ref name="metrology_terms"/&gt;
+
+According to ISO 5725-1,&lt;ref name="iso5725"&gt;BS ISO 5725-1: "Accuracy (trueness and precision) of measurement methods and results - Part 1: General principles and definitions.", p.1 (1994)&lt;/ref&gt; the general term "accuracy" is used to describe the closeness of a measurement to the true value. When the term is applied to sets of measurements of the same [[measurand]], it involves a component of random error and a component of systematic error. In this case trueness is the closeness of the mean of a set of measurement results to the actual (true) value and precision is the closeness of agreement among a set of results.
+
+ISO 5725-1 and VIM also avoid the use of the term "[[Bias (statistics)|bias]]", previously specified in BS 5497-1,&lt;ref&gt;BS 5497-1: "Precision of test methods. Guide for the determination of repeatability and reproducibility for a standard test method." (1979)&lt;/ref&gt; because it has different connotations outside the fields of science and engineering, as in medicine and law.
+
+{{Gallery
+|title=Accuracy of a [[Grouping (firearms)|target grouping]] according to BIPM and ISO 5725
+|width=150  
+|align=center
+| File:High accuracy Low precision.svg|Low accuracy due to poor precision &lt;!-- note that filename's use of "high accuracy" is not in accord with the ISO 52725 terminology that's illustrated here --&gt;
+| File:High precision Low accuracy.svg|Low accuracy due to poor trueness
+}}
+
+==In binary classification==
+{{main|Evaluation of binary classifiers}}
+''Accuracy'' is also used as a statistical measure of how well a [[binary classification]] test correctly identifies or excludes a condition. That is, the accuracy is the proportion of correct predictions (both [[true positive]]s and [[true negative]]s) among the total number of cases examined.&lt;ref&gt;{{cite journal| url= http://www.umich.edu/~ners580/ners-bioe_481/lectures/pdfs/1978-10-semNucMed_Metz-basicROC.pdf |last= Metz |first= CE |title= Basic principles of ROC analysis |journal= Semin Nucl Med.| year= October 1978 |volume= 8| number=4 |pages=283–98|pmid= 112681 }}&lt;/ref&gt; To make the context clear by the semantics, it is often referred to as the "Rand accuracy" or "[[Rand index]]".&lt;ref&gt;{{cite web |url=http://www.alta.asn.au/events/altss_w2003_proc/altss/courses/powers/ALTSS2003-Val+Eval-L3.pdf |title=Archived copy |accessdate=2015-08-09 |url-status=dead |archiveurl=https://web.archive.org/web/20150311073014/http://alta.asn.au/events/altss_w2003_proc/altss/courses/powers/ALTSS2003-Val+Eval-L3.pdf |archivedate=2015-03-11 }}&lt;/ref&gt;&lt;ref&gt;{{cite arxiv |eprint=1503.06410|title=What the F-measure doesn't measure|last1=Powers|first1=David M. W|class=cs.IR|year=2015}}&lt;/ref&gt;&lt;ref&gt;{{cite web|url=http://www.anthology.aclweb.org/E/E12/E12-1035.pdf|format=PDF|title=The Problem with Kappa|author=David M W Powers|website=Anthology.aclweb.org|accessdate=11 December 2017}}&lt;/ref&gt;  It is a parameter of the test.
+The formula for quantifying binary accuracy is:
+
+: Accuracy = (TP + TN)/(TP + TN + FP + FN)
+
+where:  TP = True positive; FP = False positive; TN = True negative; FN = False negative
+
+Note that, in this context, the concepts of trueness and precision as defined by ISO 5725-1 are not applicable. One reason is that there is not a single "true value" of a quantity, but rather two possible true values for every case, while accuracy is an average across all cases and therefore takes into account both values. However, the term ''[[Precision_and_recall|precision]]'' is used in this context to mean a different metric originating from the field of information retrieval ([[Accuracy_and_precision#In_information_systems|see below]]).
+
+==In psychometrics and psychophysics==
+In [[psychometrics]] and [[psychophysics]], the term ''accuracy'' is interchangeably used with [[Validity (statistics)|validity]] and ''constant error''. ''Precision'' is a synonym for [[Reliability (statistics)|reliability]] and ''variable error''. The validity of a measurement instrument or psychological test is established through experiment or correlation with behavior. Reliability is established with a variety of statistical techniques, classically through an internal consistency test like [[Cronbach's alpha]] to ensure sets of related questions have related responses, and then comparison of those related question between reference and target population.{{Citation needed|date=July 2009}}
+
+==In logic simulation==
+In [[logic simulation]], a common mistake in evaluation of accurate models is to compare a [[electronic circuit simulation|logic simulation model]] to a [[transistor]] [[transistor models|circuit simulation model]]. This is a comparison of differences in precision, not accuracy. Precision is measured with respect to detail and accuracy is measured with respect to reality.&lt;ref&gt;{{cite journal|title=none| first= John M. |last= Acken |work= Encyclopedia of Computer Science and Technology |volume= 36 |year= 1997| pages= 281–306}}&lt;/ref&gt;&lt;ref&gt;{{cite journal| title= 1990 Workshop on Logic-Level Modelling for ASICS |first1= Mark |last1= Glasser |first2= Rob |last2= Mathews |first3= John M. |last3= Acken |journal=[[SIGDA]] Newsletter |volume= 20 |number=  1 |date= June 1990}}&lt;/ref&gt;
+
+==In information systems==
+
+Information retrieval systems, such as [[database]]s and [[web search engine]]s, are evaluated by [[Evaluation measures (information retrieval)|many different metrics]], some of which are derived from the [[confusion matrix]], which divides results into true positives (documents correctly retrieved), true negatives (documents correctly not retrieved), false positives (documents incorrectly retrieved), and false negatives (documents incorrectly not retrieved). Commonly used metrics include the notions of [[precision and recall]].  In this context, precision is defined as the fraction of retrieved documents which are relevant to the query (true positives divided by true+false positives), using a set of [[ground truth]] relevant results selected by humans.  Recall is defined as the fraction of relevant documents retrieved compared to the total number of relevant documents (true positives divided by true positives+false negatives).  Less commonly, the metric of accuracy is used, is defined as the total number of correct classifications (true positives plus true negatives) divided by the total number of documents.
+
+None of these metrics take into account the ranking of results. Ranking is very important for web search engines because readers seldom go past the first page of results, and there are too many documents on the web to manually classify all of them as to whether they should be included or excluded from a given search.  Adding a cutoff at a particular number of results takes ranking into account to some degree. The measure [[precision at k]], for example, is a measure of precision looking only at the top ten (k=10) search results. More sophisticated metrics, such as [[discounted cumulative gain]], take into account each individual ranking, and are more commonly used where this is important.
+
+==See also==
+{{div col|colwidth=20em}}
+* [[Bias-variance tradeoff]] in statistics and machine learning
+* [[Accepted and experimental value]]
+* [[Data quality]]
+* [[Engineering tolerance]]
+* [[Exactness (disambiguation)]]
+* [[Experimental uncertainty analysis]]
+* [[F-score]]
+* [[Information quality]]
+* [[Measurement uncertainty]]
+* [[Precision (statistics)]]
+* [[Probability]]
+* [[Random and systematic errors]]
+* [[Sensitivity and specificity]]
+* [[Significant figures]]
+* [[Statistical significance]]
+{{div col end}}
+
+==References==
+{{Reflist}}
+
+==External links==
+{{Wiktionary|accuracy||precision}}
+{{Commonscat}}
+*[http://www.bipm.org/en/publications/guides/ BIPM - Guides in metrology], ''Guide to the Expression of Uncertainty in Measurement (GUM) and International Vocabulary of Metrology (VIM)''
+*[http://img.en25.com/Web/Vaisala/NIST-article.pdf "Beyond NIST Traceability: What really creates accuracy"], ''Controlled Environments'' magazine
+*[http://www.yorku.ca/psycho Precision and Accuracy with Three Psychophysical Methods]
+*[http://physics.nist.gov/Pubs/guidelines/appd.1.html Appendix D.1: Terminology], ''Guidelines for Evaluating and Expressing the Uncertainty of NIST Measurement Results''
+*[http://digipac.ca/chemical/sigfigs/contents.htm Accuracy and Precision]
+*[https://www.youtube.com/watch?v=_LL0uiOgh1E Accuracy vs Precision] — a brief video by Matt Parker
+*[https://www.youtube.com/watch?v=hRAFPdDppzs What's the difference between accuracy and precision?] by Matt Anticole at [[TED (conference)|TED]]-Ed
+
+{{Software quality}}
+{{ISO standards}}
+
+{{DEFAULTSORT:Accuracy And Precision}}
+[[Category:Accuracy and precision| ]]
+[[Category:Biostatistics]]
+[[Category:Metrology]]
+[[Category:Psychometrics]]
+[[Category:ISO standards]]
+[[Category:Software quality]]</text>
+      <sha1>invuprqobltrtkpbvr76rm23et7n8qi</sha1>
+    </revision>
+  </page>
+</mediawiki>

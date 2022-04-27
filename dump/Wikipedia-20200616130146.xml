@@ -1,0 +1,261 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.10/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.10/ http://www.mediawiki.org/xml/export-0.10.xsd" version="0.10" xml:lang="en">
+  <siteinfo>
+    <sitename>Wikipedia</sitename>
+    <dbname>enwiki</dbname>
+    <base>https://en.wikipedia.org/wiki/Main_Page</base>
+    <generator>MediaWiki 1.35.0-wmf.36</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Media</namespace>
+      <namespace key="-1" case="first-letter">Special</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Talk</namespace>
+      <namespace key="2" case="first-letter">User</namespace>
+      <namespace key="3" case="first-letter">User talk</namespace>
+      <namespace key="4" case="first-letter">Wikipedia</namespace>
+      <namespace key="5" case="first-letter">Wikipedia talk</namespace>
+      <namespace key="6" case="first-letter">File</namespace>
+      <namespace key="7" case="first-letter">File talk</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki talk</namespace>
+      <namespace key="10" case="first-letter">Template</namespace>
+      <namespace key="11" case="first-letter">Template talk</namespace>
+      <namespace key="12" case="first-letter">Help</namespace>
+      <namespace key="13" case="first-letter">Help talk</namespace>
+      <namespace key="14" case="first-letter">Category</namespace>
+      <namespace key="15" case="first-letter">Category talk</namespace>
+      <namespace key="100" case="first-letter">Portal</namespace>
+      <namespace key="101" case="first-letter">Portal talk</namespace>
+      <namespace key="108" case="first-letter">Book</namespace>
+      <namespace key="109" case="first-letter">Book talk</namespace>
+      <namespace key="118" case="first-letter">Draft</namespace>
+      <namespace key="119" case="first-letter">Draft talk</namespace>
+      <namespace key="446" case="first-letter">Education Program</namespace>
+      <namespace key="447" case="first-letter">Education Program talk</namespace>
+      <namespace key="710" case="first-letter">TimedText</namespace>
+      <namespace key="711" case="first-letter">TimedText talk</namespace>
+      <namespace key="828" case="first-letter">Module</namespace>
+      <namespace key="829" case="first-letter">Module talk</namespace>
+      <namespace key="2300" case="first-letter">Gadget</namespace>
+      <namespace key="2301" case="first-letter">Gadget talk</namespace>
+      <namespace key="2302" case="case-sensitive">Gadget definition</namespace>
+      <namespace key="2303" case="case-sensitive">Gadget definition talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Man page</title>
+    <ns>0</ns>
+    <id>85332</id>
+    <revision>
+      <id>955989282</id>
+      <parentid>955989163</parentid>
+      <timestamp>2020-05-10T22:50:42Z</timestamp>
+      <contributor>
+        <username>Artoria2e5</username>
+        <id>18040497</id>
+      </contributor>
+      <comment>/* Manual sections */</comment>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="18717" xml:space="preserve">{{lowercase title}}
+
+[[File:Unix manual.png|thumb|The man page on {{tt|man(1)}}, as seen in various [[Linux distribution]]s. This version of the utility predates Linux itself, but is now maintained by the [[Debian]] project.|330x330px]]
+
+A '''man page''' (short for '''manual page''') is a form of [[software documentation]] usually found on a [[Unix]] or [[Unix-like]] [[Operating System|operating system]]. Topics covered include [[computer program]]s (including [[library (computing)|library]] and [[system call]]s), formal standards and conventions, and even abstract concepts. A [[User (computing)|user]] may invoke a man page by issuing the &lt;code&gt;man&lt;/code&gt; [[Command (computing)|command]].
+
+By default, &lt;code&gt;man&lt;/code&gt; typically uses a [[terminal pager]] program such as &lt;code&gt;[[more (command)|more]]&lt;/code&gt; or &lt;code&gt;[[less (Unix)|less]]&lt;/code&gt; to display its output.
+
+Because man pages are distributed together with the software they document, they are a more favourable means of documenting software compared to [[out-of-band]] documentation like [[web page]]s, as there is a higher likelihood for a match between the actual features of the software to the documented ones.&lt;ref name=mouse2019&gt;{{cite mailing list |author= der Mouse |date= 2019-03-30 |url= http://mail-index.netbsd.org/tech-kern/2019/03/30/msg024936.html |title= Web "documentation" [was Re: Removing PF] |mailing-list= tech-kern@NetBSD |publisher= [[NetBSD]] |access-date= 2019-04-01}}&lt;/ref&gt;
+It is for this reason that man-pages are often referred to as an ''on-line'' or ''[[online]]'' form of software documentation,&lt;ref name=online-man&gt;{{cite web |url= http://bxr.su/f/usr.bin/man/man.1 |title=man(1) — display online manual documentation pages |website= BSD Cross Reference |publisher= [[FreeBSD]] |access-date= 2019-04-01 |lay-url= http://mdoc.su/f,n,d/man.1 |quote= "The man utility finds and displays online manual documentation pages."}}&lt;/ref&gt; even though the &lt;code&gt;man&lt;/code&gt; command does not require internet access, dating back to the times when printed ''[[out-of-band]]'' manuals were the norm.
+
+==History==
+[[File:Screenshot of "Xman" program.png|thumb|''xman'', an early [[X11]] application for viewing manual pages]]
+[[File:OpenBSD Manpages Section 8 Intro.png|thumb|[[OpenBSD]] section 8 intro manpage, displaying in a text console]]
+
+In the first two years of the [[history of Unix]], no documentation existed.&lt;ref name="reader"&gt;{{cite techreport |first1=M. D. |last1=McIlroy |authorlink1=Doug McIlroy |year=1987 |url=http://www.cs.dartmouth.edu/~doug/reader.pdf |title=A Research Unix reader: annotated excerpts from the Programmer's Manual, 1971–1986 |series=CSTR |number=139 |institution=Bell Labs}}&lt;/ref&gt; The ''[http://man.cat-v.org/unix-1st/ Unix Programmer's Manual]'' was first published on November 3, 1971. The first actual man pages were written by [[Dennis Ritchie]] and [[Ken Thompson]] at the insistence{{fact|date=February 2020}} of their manager [[Douglas McIlroy|Doug McIlroy]] in 1971. Aside from the man pages, the ''Programmer's Manual'' also accumulated a set of short papers, some of them [[tutorial]]s (e.g. for general Unix usage, the [[C (programming language)|C]] programming language, and tools such as [[Yacc]]), and others more detailed descriptions of operating system features. The printed version of the manual initially fit into a single binder, but as of [[PWB/UNIX]] and the [[Version 7 Unix|7th Edition]] of [[Research Unix]], it was split into two volumes with the printed man pages forming Volume 1.&lt;ref name="evolution"&gt;{{cite web |url=http://www.collyer.net/who/geoff/history.html |title=UNIX Evolution: 1975-1984 Part I - Diversity |last1=Darwin |first1=Ian |last2=Collyer |first2=Geoffrey |accessdate=22 December 2012}} Originally published in ''Microsystems'' '''5'''(11), November 1984.&lt;/ref&gt;
+
+Later versions of the documentation imitated the first man pages' terseness. Ritchie added a "How to get started" section to the [[Version 3 Unix|Third Edition]] introduction, and [[Lorinda Cherry]] provided the "Purple Card" pocket reference for the [[Version 6 Unix|Sixth]] and [[Version 7 Unix|Seventh]] Editions.{{r|reader}} Versions of the software were named after the revision of the manual; the seventh edition of the ''Unix Programmer's Manual'', for example, came with the 7th Edition or Version 7 of Unix.&lt;ref name="fiedler198310"&gt;{{cite news | url=https://archive.org/stream/byte-magazine-1983-10/1983_10_BYTE_08-10_UNIX#page/n133/mode/2up | title=The Unix Tutorial / Part 3: Unix in the Microcomputer Marketplace | work=BYTE | date=October 1983 | accessdate=30 January 2015 | author=Fiedler, Ryan | pages=132}}&lt;/ref&gt;
+
+For the [[Version 4 Unix|Fourth]] Edition the man pages were formatted using the [[troff]] typesetting package{{r|reader}} and its set of &lt;code&gt;-man&lt;/code&gt; macros (which were completely revised between the Sixth and Seventh Editions of the ''Manual'',&lt;ref name="evolution"/&gt; but have since not drastically changed). At the time, the availability of online documentation through the manual page system was regarded as a great advance. To this day, virtually every Unix command line application comes with a man page, and many Unix users perceive a program's lack of man pages as a sign of low quality; indeed, some projects, such as [[Debian]], go out of their way to write man pages for programs lacking one. The modern descendants of [[Berkeley Software Distribution|4.4BSD]] also distribute man pages as one of the primary forms of system documentation (having replaced the old &lt;code&gt;-man&lt;/code&gt; macros with the newer &lt;code&gt;-mdoc&lt;/code&gt;).
+
+There was a hidden [[Easter egg (media)|easter egg]] in the man-db version of the man command that would cause the command to return "gimme gimme gimme" when run at 00:30 (a reference to the [[ABBA]] song [[Gimme! Gimme! Gimme! (A Man After Midnight)]]. It was introduced in 2011&lt;ref name="git1"&gt;{{cite web |url=https://git.savannah.nongnu.org/cgit/man-db.git/commit/src/man.c?id=002a6339b1fe8f83f4808022a17e1aa379756d99|title="GIT commit 002a6339b1fe8f83f4808022a17e1aa379756d99"|access-date=22 November 2017}}&lt;/ref&gt; but first restricted&lt;ref name="git2"&gt;{{cite web |url=https://git.savannah.gnu.org/cgit/man-db.git/commit/?id=84bde8d8a9a357bd372793d25746ac6b49480525|title="GIT commit 84bde8d8a9a357bd372793d25746ac6b49480525 "|access-date=22 November 2017}}&lt;/ref&gt; and then removed in 2017&lt;ref&gt;{{cite web |url=https://git.savannah.gnu.org/cgit/man-db.git/commit/?id=b225d9e76fbb0a6a4539c0992fba88c83f0bd37e|title="GIT commit b225d9e76fbb0a6a4539c0992fba88c83f0bd37e "|access-date=25 September 2018}}&lt;/ref&gt; after finally being found.&lt;ref name="stackexchange1"&gt;{{cite web |url=https://unix.stackexchange.com/questions/405783/why-does-man-print-gimme-gimme-gimme-at-0030|title="Why does man print “gimme gimme gimme” at 00:30?"|access-date=22 November 2017}}&lt;/ref&gt;
+
+== Formatting ==
+[[File:FreeBSD typeset man page.png|thumb|Part of the [[FreeBSD]] {{tt|man(1)}} manual page, typeset into [[portable document format|PDF]] format.]]
+The default format of the man pages is [[troff]], with either the [[troff macros|macro package]] man (appearance oriented) or [[mdoc]] (semantic oriented). This makes it possible to typeset a man page into [[PostScript]], [[portable document format|PDF]], and various other formats for viewing or printing.
+
+Most [[Unix]] systems have a package for the man2html command, which enables users to browse their man pages using an HTML browser (textproc/man2html on [[FreeBSD]] or ''man'' on some [[Linux]] distributions).
+
+In 2010, [[OpenBSD]] deprecated [[troff]] for formatting manpages in favour of [[mandoc]], a specialised compiler/formatter for manpages with native support for output in [[PostScript]], [[HTML]], [[XHTML]], and the terminal. It is meant to only support of a subset of troff used in manual pages, specifically those using the mdoc macros.
+
+=== Online services ===
+Quite a few websites offer online access for manual pages from various Unix-like systems.
+
+In February 2013, the [[BSD]] community saw a new open source [http://mdoc.su/ mdoc.su] service launched, which unified and shortened access to the man.cgi scripts of the major modern BSD projects through a unique [[nginx]]-based deterministic [[URL shortening]] service for the *BSD man pages.&lt;ref&gt;{{cite web |url=http://www.freebsd.org/news/status/report-2013-01-2013-03.html#mdoc.su-%E2%80%94-Short-Manual-Page-URLs &lt;!--|archive-url=http://lists.freebsd.org/pipermail/freebsd-announce/2013-May/001475.html--&gt; |title=FreeBSD Quarterly Status Report, January-March 2013 |publisher=[[FreeBSD]] |editor-first=Gabor |editor-last=Pali |date=12 May 2013 |accessdate=25 December 2014}}&lt;/ref&gt;&lt;ref&gt;{{cite mailing list |date=19 February 2013 |url=http://lists.freebsd.org/pipermail/freebsd-doc/2013-February/021465.html |mailinglist=freebsd-doc@freebsd.org |title=announcing mdoc.su, short manual page URLs |first=Constantine A. |last=Murenin |accessdate=25 December 2014}}&lt;/ref&gt;&lt;ref&gt;{{cite web |url=http://mdoc.su/ |title=mdoc.su — Short manual page URLs for FreeBSD, OpenBSD, NetBSD and DragonFly BSD |first=Constantine A. |last=Murenin |date=23 February 2013 |accessdate=25 December 2014}}&lt;/ref&gt;
+
+For Linux, a man7.org service has been set up to serve manuals specific to the system.&lt;ref&gt;{{cite web |title=Linux man pages online |url=http://man7.org/linux/man-pages/index.html |website=man7.org}}&lt;/ref&gt; A ManKier service provides a wider selection, and integrates the TLDR pages too.&lt;ref&gt;{{cite web |title=About |url=https://www.mankier.com/about |website=ManKier}}&lt;/ref&gt;
+
+==Command usage==
+To read a manual page for a Unix command, a user can type:
+&lt;syntaxhighlight lang="bash"&gt;
+man &lt;command_name&gt;
+&lt;/syntaxhighlight&gt;
+
+Pages are traditionally referred to using the notation "name(section)": for example, {{man|1|ftp|FreeBSD||inline}}. The section refers to different ways the topic might be referenced - for example, as a system call, or a shell (command line) command or package, or a package's configuration file, or as a coding construct / header.
+
+The same page name may appear in more than one section of the manual, such as when the names of [[system call]]s, user [[Command (computing)|command]]s, or [[Troff macro|macro packages]] coincide. Examples are {{man|1|man|ManKier||inline}} and {{man|7|man|ManKier||inline}}, or {{man|2|exit|Linux||inline}} and {{man|3|exit|Linux||inline}}. The syntax for accessing the non-default manual section varies between different man implementations. 
+
+On Solaris and illumos, for example, the syntax for reading {{man|3c|printf|Solaris||inline}} is:
+&lt;syntaxhighlight lang="bash"&gt;
+man -s 3c printf
+&lt;/syntaxhighlight&gt;
+On Linux and BSD derivatives the same invocation would be:
+&lt;syntaxhighlight lang="bash"&gt;
+man 3 printf
+&lt;/syntaxhighlight&gt;
+
+which searches for ''[[printf]]'' in section 3 of the man pages.
+
+==Manual sections==
+The manual is generally split into eight numbered sections, organized as follows (on [[Research Unix]], [[BSD]], [[macOS]] and [[Linux]]):&lt;ref name=mk/&gt;&lt;ref name=FBSD&gt;{{man|1|man|FreeBSD}}&lt;/ref&gt;&lt;ref name=v8&gt;{{cite web |title=Manual Pages for Research Unix Eighth Edition |url=http://man.cat-v.org/unix_8th/ |website=man.cat-v.org}}&lt;/ref&gt;&lt;ref name=svr4&gt;{{cite web |title=Unix Programmer's Manual - Introduction |url=https://www.bell-labs.com/usr/dmr/www/manintro.html |website=www.bell-labs.com |date=November 3, 1971}}&lt;/ref&gt;
+{| class="wikitable"
+! Section
+! Description
+|-
+| 1
+| General [[Command (computing)|command]]s
+|-
+| 2
+| [[System call]]s
+|-
+| 3
+|[[library (computing)|Library]] functions, covering in particular the [[C standard library]]
+|-
+| 4
+| [[Special file]]s (usually devices, those found in /dev) and [[device driver|drivers]]
+|-
+| 5
+| [[File format]]s and conventions
+|-
+| 6
+| [[Video game|Game]]s and [[screensaver]]s
+|-
+| 7
+| Miscellanea
+|-
+| 8
+| System administration [[command (computing)|command]]s and [[Daemon (computer software)|daemon]]s
+|}
+
+Unix [[System V]] uses a similar numbering scheme, except in a different order:&lt;ref&gt;{{cite web |title=System V release 4 manuals |url=http://bitsavers.trailing-edge.com/pdf/att/unix/System_V_Release_4/ |website=bitsavers.trailing-edge.com}}&lt;/ref&gt;
+{| class="wikitable"
+! Section
+! Description
+|-
+| 1
+| General [[Command (computing)|command]]s
+|-
+| 1M
+| System administration [[command (computing)|command]]s and [[Daemon (computer software)|daemon]]s
+|-
+| 2
+| [[System call]]s
+|-
+| 3
+| [[C library]] functions
+|-
+| 4
+| [[File format]]s and conventions
+|-
+| 5
+| Miscellanea
+|-
+| 6
+| [[Video game|Game]]s and [[screensaver]]s
+|-
+| 7
+| [[Special file]]s (usually devices, those found in /dev) and [[device driver|drivers]]
+|-
+|}
+
+On some systems some of the following sections are available:
+{| class="wikitable"
+! Section
+! Description
+|-
+| 0
+| [[C library]] [[header file]]s (Unix v6)
+|-
+| 9
+| [[Kernel (computing)|Kernel]] routines (FreeBSD, SVR4, Linux)&lt;ref name=svr4/&gt;&lt;ref name=FBSD/&gt;
+|-
+| n
+| [[Tcl]]/[[Tk (computing)|Tk]] keywords
+|-
+| x
+| The [[X Window System]]
+|}
+
+Some sections are further subdivided by means of a suffix; for example, in some systems, section 3C is for C library calls, 3M is for the math library, and so on. A consequence of this is that section 8 (system administration commands) is sometimes relegated to the 1M subsection of the main commands section. Some subsection suffixes have a general meaning across sections:
+{| class="wikitable"
+! Subsection
+! Description
+|-
+| p || [[POSIX]] specifications
+|-
+| x || [[X Window System]] documentation
+|}
+(Section 3 tends to be the exception with the many suffixes for different languages.)
+
+Some versions of &lt;tt&gt;man&lt;/tt&gt; cache the formatted versions of the last several pages viewed. One form is the ''cat page'', simply piped to the pager for display.
+
+==Layout==
+All man pages follow a common layout that is optimized for presentation on a simple [[ASCII]] text display, possibly without any form of highlighting or font control. Sections present may include:
+; NAME: The name of the command or function, followed by a one-line description of what it does.
+; SYNOPSIS: In the case of a command, a formal description of how to run it and what command line options it takes. For program functions, a list of the parameters the function takes and which header file contains its declaration.
+; DESCRIPTION: A textual description of the functioning of the command or function.
+; EXAMPLES: Some examples of common usage.
+; SEE ALSO: A list of related commands or functions.
+
+Other sections may be present, but these are not well standardized across man pages. Common examples include: OPTIONS, EXIT STATUS, RETURN VALUE, ENVIRONMENT, BUGS, FILES, AUTHOR, REPORTING BUGS, HISTORY and COPYRIGHT.
+
+==Authoring==
+Manual pages can be written either in the old {{code|man}} macros, the new {{code|doc}} macros, or a combination of both ({{code|mandoc}}).&lt;ref&gt;{{man|5|groff_tmac|ManKier}}&lt;/ref&gt; The {{code|man}} macro set provides minimal [[rich text]] functions, with directives for the title line, section headers, (bold, small or italic) fonts, paragraphs and adding/reducing indentation.&lt;ref&gt;{{man|7|man|ManKier}}&lt;/ref&gt; The newer {{code|mdoc}} language is more semantic in nature, and contains specialized macros for most standard sections such as program name, synopsis, function names, and the name of the authors. This information can be used to implement a [[semantic search]] for manuals by programs such as [[mandoc]]. Although it also includes directives to directly control the styling, it is expected that the specialized macros will cover most of the use-cases.&lt;ref&gt;{{man|7|mdoc|FreeBSD}}&lt;/ref&gt;
+
+Although man pages are, to troff, text laid out using 10-point [[Roman type]], this distinction is usually moot because man pages are viewed in the terminal (TTY) instead of laid out on paper. As a result, the "small font" macro is seldom used.&lt;ref&gt;{{cite web |title=man |url=https://www.gnu.org/software/groff/manual/html_node/man.html |website=The GNU Troff Manual |accessdate=31 December 2019}}&lt;/ref&gt; On the other hand, bold and italic text is supported by the terminal via [[ECMA-48]], and groff's {{code|grotty}} does emit them as requested when it detects a supporting terminal. The BSD mandoc however only supports bold and underlined text via the typewriter overstrike-with-backspace sequence, which needs to be translated into ECMA-48 by {{code|less}}.&lt;ref&gt;{{cite web |title=Italics and colour in manual pages on a nosh user-space virtual terminal |url=https://jdebp.eu/Softwares/nosh/italics-in-manuals.html |website=jdebp.eu}}&lt;/ref&gt;&lt;ref&gt;{{man|1|mandoc|FreeBSD}}. "Font styles are applied by using back-spaced encoding..."&lt;/ref&gt;
+
+Man pages are usually written in English, but translations into other languages may be available on the system. The GNU {{code|man-db}} and the mandoc {{code|man}} is known to search for localized manual pages under subdirectories.&lt;ref&gt;{{cite web |title=command line - Linux man pages in different languages |url=https://askubuntu.com/a/1113662 |website=Ask Ubuntu}}&lt;/ref&gt;&lt;ref name=mk&gt;{{man|1|man|ManKier}}&lt;/ref&gt;{{rp|at=Overview}}&lt;ref name=FBSD/&gt;
+
+=== Alternatives ===
+Few alternatives to &lt;code&gt;man&lt;/code&gt; have enjoyed much popularity, with the possible exception of [[GNU Project|GNU Project's]] "&lt;code&gt;[[Texinfo|info]]&lt;/code&gt;" system, an early and simple [[hypertext]] system.  There is also a third-party effort known as "[[wikt:tl;dr|TLDR]] pages" that provides simple examples for common use cases, similar to a [[cheatsheet]].&lt;ref&gt;{{cite web |title=TLDR pages |url=https://tldr.sh/ |website=tldr.sh}}&lt;/ref&gt;
+
+In addition, some Unix [[Graphical user interface|GUI]] applications (particularly those built using the [[GNOME]] and [[KDE]] development environments) now provide end-user documentation in [[HTML]] and include embedded HTML viewers such as &lt;code&gt;yelp&lt;/code&gt; for reading the help within the application.
+
+==See also==
+* [[List of Unix commands]]
+* [[List of Plan 9 applications]]
+* &lt;tt&gt;[[info (Unix)|info]]&lt;/tt&gt;
+* &lt;tt&gt;[[apropos (Unix)|apropos]]&lt;/tt&gt;
+* [[README]]
+* [[RTFM]]
+* [[ManOpen]] – [[NeXT]]/[[macOS]] graphical man utility
+
+==References==
+{{Reflist}}
+
+==External links==
+* [https://manpages.bsd.lv/history.html History of UNIX Manpages] for a primary-source history of UNIX manpages.
+* [https://www.unix.com/man-page-repository.php UNIX and Linux Man Page Repository] with nearly 300,000 well formatted man pages.
+* [https://unix.stackexchange.com/questions/3586/what-do-the-numbers-in-a-man-page-mean What do the numbers in a man page mean?]
+{{unix commands}}
+{{FOLDOC}}
+
+{{DEFAULTSORT:Man Page}}
+[[Category:Technical communication]]
+[[Category:Unix SUS2008 utilities]]
+[[Category:Plan 9 from Bell Labs]]
+[[Category:Online help]]</text>
+      <sha1>amgu9lpi35l32thwf98vjlkezmxln3v</sha1>
+    </revision>
+  </page>
+</mediawiki>

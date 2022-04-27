@@ -1,0 +1,208 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.10/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.10/ http://www.mediawiki.org/xml/export-0.10.xsd" version="0.10" xml:lang="en">
+  <siteinfo>
+    <sitename>Wikipedia</sitename>
+    <dbname>enwiki</dbname>
+    <base>https://en.wikipedia.org/wiki/Main_Page</base>
+    <generator>MediaWiki 1.35.0-wmf.36</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Media</namespace>
+      <namespace key="-1" case="first-letter">Special</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Talk</namespace>
+      <namespace key="2" case="first-letter">User</namespace>
+      <namespace key="3" case="first-letter">User talk</namespace>
+      <namespace key="4" case="first-letter">Wikipedia</namespace>
+      <namespace key="5" case="first-letter">Wikipedia talk</namespace>
+      <namespace key="6" case="first-letter">File</namespace>
+      <namespace key="7" case="first-letter">File talk</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki talk</namespace>
+      <namespace key="10" case="first-letter">Template</namespace>
+      <namespace key="11" case="first-letter">Template talk</namespace>
+      <namespace key="12" case="first-letter">Help</namespace>
+      <namespace key="13" case="first-letter">Help talk</namespace>
+      <namespace key="14" case="first-letter">Category</namespace>
+      <namespace key="15" case="first-letter">Category talk</namespace>
+      <namespace key="100" case="first-letter">Portal</namespace>
+      <namespace key="101" case="first-letter">Portal talk</namespace>
+      <namespace key="108" case="first-letter">Book</namespace>
+      <namespace key="109" case="first-letter">Book talk</namespace>
+      <namespace key="118" case="first-letter">Draft</namespace>
+      <namespace key="119" case="first-letter">Draft talk</namespace>
+      <namespace key="446" case="first-letter">Education Program</namespace>
+      <namespace key="447" case="first-letter">Education Program talk</namespace>
+      <namespace key="710" case="first-letter">TimedText</namespace>
+      <namespace key="711" case="first-letter">TimedText talk</namespace>
+      <namespace key="828" case="first-letter">Module</namespace>
+      <namespace key="829" case="first-letter">Module talk</namespace>
+      <namespace key="2300" case="first-letter">Gadget</namespace>
+      <namespace key="2301" case="first-letter">Gadget talk</namespace>
+      <namespace key="2302" case="case-sensitive">Gadget definition</namespace>
+      <namespace key="2303" case="case-sensitive">Gadget definition talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Coefficient of variation</title>
+    <ns>0</ns>
+    <id>1012687</id>
+    <revision>
+      <id>960198762</id>
+      <parentid>959542837</parentid>
+      <timestamp>2020-06-01T17:04:26Z</timestamp>
+      <contributor>
+        <username>Pol098</username>
+        <id>169132</id>
+      </contributor>
+      <minor/>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="25873" xml:space="preserve">{{distinguish|Coefficient of determination}}
+{{Use American English|date=January 2019}}
+{{Short description|Statistical parameter}}
+{{Use dmy dates|date=October 2017}}
+In [[probability theory]] and [[statistics]], the '''coefficient of variation''' ('''CV'''), also known as '''relative standard deviation''' ('''RSD'''), is a [[Standardized (statistics)|standardized]] measure of [[statistical dispersion|dispersion]] of a [[probability distribution]] or [[frequency distribution]]. It is often expressed as a percentage, and is defined as the ratio of the [[standard deviation]]  &lt;math&gt;\ \sigma &lt;/math&gt; to the [[mean]]  &lt;math&gt;\ \mu &lt;/math&gt; (or its [[absolute value]], {{nobreak|&lt;math&gt;| \mu |&lt;/math&gt;).}}  The CV or RSD is widely used in [[analytical chemistry]] to express the precision and repeatability of an [[assay]]. It is also commonly used in fields such as [[engineering]] or [[physics]] when doing quality assurance studies and [[ANOVA gauge R&amp;R]].{{citation needed|date=September 2016}} In addition, CV is utilized by economists and investors in [[economic model]]s.
+
+==Definition==
+The coefficient of variation (CV) is defined as the ratio of the standard deviation &lt;math&gt;\ \sigma &lt;/math&gt; to the mean &lt;math&gt;\ \mu &lt;/math&gt;, &lt;math&gt;c_{\rm v} = \frac{\sigma}{\mu}.&lt;/math&gt;&lt;ref&gt;{{cite book|url=https://archive.org/details/cambridgediction00ever_0|title=The Cambridge Dictionary of Statistics|last=Everitt|first=Brian|publisher=Cambridge University Press|year=1998|isbn=978-0521593465|location=Cambridge, UK New York|url-access=registration}}&lt;/ref&gt;
+It shows the extent of variability in relation to the mean of the population.
+The coefficient of variation should be computed only for data measured on a [[ratio scale]], that is, scales that have a meaningful zero and hence allow relative comparison of two measurements (i.e., division of one measurement by the other). The coefficient of variation may not have any meaning for data on an [[interval scale]].&lt;ref&gt;{{cite web | url=http://www.graphpad.com/faq/viewfaq.cfm?faq=1089 | title=What is the difference between ordinal, interval and ratio variables? Why should I care? | accessdate=22 February 2008 | publisher=GraphPad Software Inc | url-status=live | archiveurl=https://web.archive.org/web/20081215175508/http://graphpad.com/faq/viewfaq.cfm?faq=1089 | archivedate=15 December 2008 | df=dmy-all }}&lt;/ref&gt; For example, most temperature scales (e.g., Celsius, Fahrenheit etc.) are interval scales with arbitrary zeros, so the computed coefficient of variation would be different depending on which scale you used. On the other hand,  [[Kelvin]] temperature has a meaningful zero, the complete absence of thermal energy, and thus is a ratio scale. In plain language, it is meaningful to say that 20 Kelvin is twice as hot as 10 Kelvin, but only in this scale with a true absolute zero. While a standard deviation (SD) can be measured in Kelvin, Celsius, or Fahrenheit, the value computed is only applicable to that scale. Only the Kelvin scale can be used to compute a valid coefficient of variability.
+
+Measurements that are [[log-normal]]ly distributed exhibit stationary CV; in contrast, SD varies depending upon the expected value of measurements.
+
+A more robust possibility is the [[quartile coefficient of dispersion]], half the [[interquartile range]] &lt;math&gt; {(Q_3 - Q_1)/2} &lt;/math&gt; divided by the average of the quartiles (the [[midhinge]]), &lt;math&gt; {(Q_1 + Q_3)/2} &lt;/math&gt;.
+
+In most cases, a CV is computed for a single independent variable (e.g., a single factory product) with numerous, repeated measures of a dependent variable (e.g., error in the production process). However, data that are linear or even logarithmically non-linear and include a continuous range for the independent variable with sparse measurements across each value (e.g., scatter-plot) may be amenable to single CV calculation using a [[Maximum likelihood estimation|maximum-likelihood estimation]] approach.&lt;ref&gt;{{Cite journal|last=Odic|first=Darko|last2=Im|first2=Hee Yeon|last3=Eisinger|first3=Robert|last4=Ly|first4=Ryan|last5=Halberda|first5=Justin|date=June 2016|title=PsiMLE: A maximum-likelihood estimation approach to estimating psychophysical scaling and variability more reliably, efficiently, and flexibly|journal=Behavior Research Methods|volume=48|issue=2|pages=445–462|doi=10.3758/s13428-015-0600-5|issn=1554-3528|pmid=25987306|doi-access=free}}&lt;/ref&gt;
+
+== Examples ==
+A data set of [100, 100, 100] has constant values.  Its standard deviation is 0 and average is 100, giving the coefficient of variation as
+: 0 / 100 = 0
+
+A data set of [90, 100, 110] has more variability.  Its standard deviation is 10 and its average is 100, giving the coefficient of variation as
+: 10 / 100 = 0.1
+
+A data set of [1, 5, 6, 8, 10, 40, 65, 88] has still more variability. Its standard deviation is 32.9 and its average is 27.9, giving a coefficient of variation of
+: 32.9 / 27.9 = 1.18
+
+== Examples of misuse ==
+Comparing coefficients of variation between parameters using relative units can result in differences that may not be real. If we compare the same set of temperatures in [[Celsius]] and [[Fahrenheit]] (both relative units, where [[kelvin]] and [[Rankine scale]] are their associated absolute values):
+
+Celsius: [0, 10, 20, 30, 40]
+
+Fahrenheit: [32, 50, 68, 86, 104]
+
+The [[Standard deviation#Sample standard deviation|sample standard deviations]] are 15.81 and 28.46, respectively. The CV of the first set is 15.81/20 = 79%. For the second set (which are the same temperatures) it is 28.46/68 = 42%.
+
+If, for example, the data sets are temperature readings from two different sensors (a Celsius sensor and a Fahrenheit sensor) and you want to know which sensor is better by picking the one with the least variance, then you will be misled if you use CV. The problem here is that you have divided by a relative value rather than an absolute.
+
+Comparing the same data set, now in absolute units:
+
+Kelvin: [273.15, 283.15, 293.15, 303.15, 313.15]
+
+Rankine: [491.67, 509.67, 527.67, 545.67, 563.67]
+
+The [[Standard deviation#Sample standard deviation|sample standard deviations]] are still 15.81 and 28.46, respectively, because the standard deviation is not affected by a constant offset. The coefficients of variation, however, are now both equal to 5.39%.
+
+Mathematically speaking, the coefficient of variation is not entirely linear.  That is, for a random variable &lt;math&gt;X&lt;/math&gt;, the coefficient of variation of &lt;math&gt;aX+b&lt;/math&gt; is equal to the coefficient of variation of &lt;math&gt;X&lt;/math&gt; only when &lt;math&gt;b = 0&lt;/math&gt;.  In the above example, Celsius can only be converted to Fahrenheit through a linear transformation of the form &lt;math&gt;ax+b&lt;/math&gt; with &lt;math&gt;b \neq 0&lt;/math&gt;, whereas Kelvins can be converted to Rankines through a transformation of the form &lt;math&gt;ax&lt;/math&gt;.
+
+==Estimation==
+When only a sample of data from a population is available, the population CV can be estimated using the ratio of the [[Standard deviation#Estimation|sample standard deviation]] &lt;math&gt;s \,&lt;/math&gt; to the sample mean &lt;math&gt;\bar{x}&lt;/math&gt;:
+
+:&lt;math&gt;\widehat{c_{\rm v}} = \frac{s}{\bar{x}}&lt;/math&gt;
+
+But this estimator, when applied to a small or moderately sized sample, tends to be too low: it is a [[biased estimator]].  For [[normally distributed]] data, an unbiased estimator&lt;ref&gt;Sokal RR &amp; Rohlf FJ. ''Biometry'' (3rd Ed). New York: Freeman, 1995. p. 58. {{ISBN|0-7167-2411-1}}&lt;/ref&gt; for a sample of size n is:
+
+:&lt;math&gt;\widehat{c_{\rm v}}^*=\bigg(1+\frac{1}{4n}\bigg)\widehat{c_{\rm v}}&lt;/math&gt;
+
+===Log-normal data===
+In many applications, it can be assumed that data are log-normally distributed (evidenced by the presence of [[skewness]] in the sampled data).&lt;ref&gt;{{cite journal |doi=10.1641/0006-3568(2001)051[0341:LNDATS]2.0.CO;2 |title=Log-normal Distributions across the Sciences: Keys and Clues |year=2001 |last1=Limpert |first1=Eckhard |last2=Stahel |first2=Werner A. |last3=Abbt |first3=Markus |journal=BioScience |volume=51 |issue=5 |pages=341–352|doi-access=free }}&lt;/ref&gt;  In such cases, a more accurate estimate, derived from the properties of the [[log-normal distribution]],&lt;ref&gt;{{cite journal |doi=10.1093/biomet/51.1-2.25 |title=Confidence intervals for the coefficient of variation for the normal and log normal distributions |year=1964 |last1=Koopmans |first1=L. H. |last2=Owen |first2=D. B. |last3=Rosenblatt |first3=J. I. |journal=Biometrika |volume=51 |issue=1–2 |pages=25–32}}&lt;/ref&gt;&lt;ref&gt;{{cite journal |pmid=1601532 |year=1992 |last1=Diletti |first1=E |last2=Hauschke |first2=D |last3=Steinijans |first3=VW |title=Sample size determination for bioequivalence assessment by means of confidence intervals |volume=30 Suppl 1 |pages=S51–8 |journal=International Journal of Clinical Pharmacology, Therapy, and Toxicology}}&lt;/ref&gt;&lt;ref&gt;{{cite journal |doi=10.1081/BIP-100101013 |title=Why Are Pharmacokinetic Data Summarized by Arithmetic Means? |year=2000 |last1=Julious |first1=Steven A. |last2=Debarnot |first2=Camille A. M. |journal=Journal of Biopharmaceutical Statistics |volume=10 |pages=55–71 |pmid=10709801 |issue=1}}&lt;/ref&gt; is defined as:
+
+:&lt;math&gt;\widehat{cv}_{\rm raw} = \sqrt{\mathrm{e}^{s_{\rm ln}^2}-1}&lt;/math&gt;
+
+where &lt;math&gt;{s_{\rm ln}} \,&lt;/math&gt; is the sample standard deviation of the data after a [[natural log]] transformation.  (In the event that measurements are recorded using any other logarithmic base, b, their standard deviation &lt;math&gt;s_b \,&lt;/math&gt; is converted to base e using &lt;math&gt;s_{\rm ln} = s_b \ln(b) \,&lt;/math&gt;, and the formula for &lt;math&gt;\widehat{cv}_{\rm raw} \,&lt;/math&gt; remains the same.&lt;ref&gt;{{cite journal | last1 = Reed | first1 = JF | last2 = Lynn | first2 = F | last3 = Meade | first3 = BD | year = 2002 | title = Use of Coefficient of Variation in Assessing Variability of Quantitative Assays | url = | journal = Clin Diagn Lab Immunol | volume = 9 | issue = 6| pages = 1235–1239 | doi = 10.1128/CDLI.9.6.1235-1239.2002 | pmid = 12414755 | pmc = 130103 }}&lt;/ref&gt;)  This estimate is sometimes referred to as the "geometric CV" (GCV)&lt;ref&gt;Sawant,S.; Mohan, N. (2011) [http://pharmasug.org/proceedings/2011/PO/PharmaSUG-2011-PO08.pdf "FAQ: Issues with Efficacy Analysis of Clinical Trial Data Using SAS"] {{webarchive|url=https://web.archive.org/web/20110824094357/http://pharmasug.org/proceedings/2011/PO/PharmaSUG-2011-PO08.pdf |date=24 August 2011 }}, ''PharmaSUG2011'', Paper PO08&lt;/ref&gt;&lt;ref&gt;{{cite journal | last1 = Schiff | first1 = MH | display-authors = etal   | year = 2014 | title =  Head-to-head, randomised, crossover study of oral versus subcutaneous methotrexate in patients with rheumatoid arthritis: drug-exposure limitations of oral methotrexate at doses &gt;=15 mg may be overcome with subcutaneous administration| url = | journal = Ann Rheum Dis | volume = 73| issue = 8| pages = 1–3 | doi = 10.1136/annrheumdis-2014-205228 | pmid = 24728329 | pmc = 4112421}}&lt;/ref&gt; in order to distinguish it from the simple estimate above.  However, "geometric coefficient of variation" has also been defined by Kirkwood&lt;ref&gt;{{cite journal |last1=Kirkwood |first1=TBL |title=Geometric means and measures of dispersion |journal=Biometrics |year=1979 |volume=35 |issue=4 |pages=908–9 |jstor=2530139 }}&lt;/ref&gt; as:
+
+:&lt;math&gt;\mathrm{GCV_K} = {\mathrm{e}^{s_{\rm ln}}\!\!-1}&lt;/math&gt;
+
+This term was intended to be ''analogous'' to the coefficient of variation, for describing multiplicative variation in log-normal data, but this definition of GCV has no theoretical basis as an estimate of &lt;math&gt;c_{\rm v} \,&lt;/math&gt; itself.
+
+For many practical purposes (such as [[sample size determination]] and calculation of [[confidence intervals]]) it is &lt;math&gt;s_{ln} \,&lt;/math&gt; which is of most use in the context of log-normally distributed data.  If necessary, this can be derived from an estimate of &lt;math&gt;c_{\rm v} \,&lt;/math&gt; or GCV by inverting the corresponding formula.
+
+==Comparison to standard deviation==
+
+===Advantages===
+The coefficient of variation is useful because the standard deviation of data must always be understood in the context of the mean of the data. 
+In contrast, the actual value of the CV is independent of the unit in which the measurement has been taken, so it is a [[dimensionless number]]. 
+For comparison between data sets with different units or widely different means, one should use the coefficient of variation instead of the standard deviation.
+
+===Disadvantages===
+* When the mean value is close to zero, the coefficient of variation will approach infinity and is therefore sensitive to small changes in the mean. This is often the case if the values do not originate from a ratio scale. 
+* Unlike the standard deviation, it cannot be used directly to construct [[confidence interval]]s for the mean.
+* CVs are not an ideal index of the certainty of measurement when the number of replicates varies across samples because CV is invariant to the number of replicates while the certainty of the mean improves with increasing replicates. In this case, standard error in percent is suggested to be superior.&lt;ref name="ReferenceA"&gt;{{cite journal|last1=Eisenberg|first1=Dan|title=Improving qPCR telomere length assays: Controlling for well position effects increases statistical power|journal=American Journal of Human Biology|date=2015|doi=10.1002/ajhb.22690|pmid=25757675|volume=27|issue=4|pages=570–5|pmc=4478151}}&lt;/ref&gt;
+
+==Applications==
+The coefficient of variation is also common in applied probability fields such as [[renewal theory]], [[queueing theory]], and [[reliability theory]].  In these fields, the [[exponential distribution]] is often more important than the [[normal distribution]].
+The standard deviation of an [[exponential distribution]] is equal to its mean, so its coefficient of variation is equal to 1.  Distributions with CV &lt; 1 (such as an [[Erlang distribution]]) are considered low-variance, while those with CV &gt; 1 (such as a [[hyper-exponential distribution]]) are considered high-variance{{Citation needed|date=June 2019}}.  Some formulas in these fields are expressed using the '''squared coefficient of variation''', often abbreviated SCV. In modeling, a variation of the CV is the CV(RMSD).  Essentially the CV(RMSD) replaces the standard deviation term with the [[RMSD|Root Mean Square Deviation (RMSD)]]. While many natural processes indeed show a correlation between the average value and the amount of variation around it, accurate sensor devices need to be designed in such a way that the coefficient of variation is close to zero, i.e., yielding a constant [[absolute error]] over their working range.
+
+In [[actuarial science]], the CV is known as '''unitized risk'''.&lt;ref&gt;{{cite book|last1=Broverman|first1=Samuel A.|title=Actex study manual, Course 1, Examination of the Society of Actuaries, Exam 1 of the Casualty Actuarial Society|date=2001|publisher=Actex Publications|location=Winsted, CT|isbn=9781566983969|page=104|edition=2001|url=https://books.google.com/?id=qd4PAQAAMAAJ&amp;q=%22unitized+risk%22|accessdate=7 June 2014}}&lt;/ref&gt;
+
+In Industrial Solids Processing, CV is particularly important to measure the degree of homogeneity of a powder mixture. Comparing the calculated CV to a specification will allow to define if a sufficient degree of mixing has been reached.&lt;ref&gt;{{cite web|url=https://www.powderprocess.net/Measuring_Degree_Mixing.html|title=Measuring Degree of Mixing - Homogeneity of powder mix - Mixture quality - PowderProcess.net|website=www.powderprocess.net|accessdate=2 May 2018|url-status=live|archiveurl=https://web.archive.org/web/20171114145327/https://www.powderprocess.net/Measuring_Degree_Mixing.html|archivedate=14 November 2017|df=dmy-all}}&lt;/ref&gt;
+
+===Laboratory measures of intra-assay and inter-assay CVs===
+CV measures are often used as quality controls for quantitative laboratory [[assay]]s. While intra-assay and inter-assay CVs might be assumed to be calculated by simply averaging CV values across CV values for multiple samples within one assay or by averaging multiple inter-assay CV estimates, it has been suggested that these practices are incorrect and that a more complex computational process is required.&lt;ref&gt;{{cite journal|last=Rodbard|first=D|title=Statistical quality control and routine data processing for radioimmunoassays and immunoradiometric assays.|journal=Clinical Chemistry|date=October 1974|volume=20|issue=10|pages=1255–70|pmid=4370388}}&lt;/ref&gt; It has also been noted that CV values are not an ideal index of the certainty of a measurement when the number of replicates varies across samples − in this case standard error in percent is suggested to be superior.&lt;ref name="ReferenceA"/&gt; If measurements do not have a natural zero point then the CV is not a valid measurement and alternative measures such as the [[intraclass correlation]] coefficient are recommended.&lt;ref name="Eisenberg-CV-ICC"&gt;{{cite journal|last1=Eisenberg|first1=Dan T. A.|title=Telomere length measurement validity: the coefficient of variation is invalid and cannot be used to compare quantitative polymerase chain reaction and Southern blot telomere length measurement technique|journal=International Journal of Epidemiology|volume=45|issue=4|date=30 August 2016|pages=1295–1298|doi=10.1093/ije/dyw191|pmid=27581804|issn=0300-5771|doi-access=free}}&lt;/ref&gt;
+
+=== As a measure of economic inequality ===
+
+The coefficient of variation fulfills the [[Income inequality metrics|requirements for a measure of economic inequality]].&lt;ref name="Champ1999"&gt;{{cite book |last1=Champernowne |first1=D. G.|last2=Cowell |first2=F. A.|date=1999 |title=Economic Inequality and Income Distribution |url= |location= |publisher=Cambridge University Press |page= |isbn=}}&lt;/ref&gt;&lt;ref name="Campano2006"&gt;{{cite book |last1=Campano |first1=F. |last2=Salvatore |first2=D. |date=2006 |title=Income distribution |url= |location= |publisher=Oxford University Press |page= |isbn=}}&lt;/ref&gt;&lt;ref name="Bellu2006"&gt;{{cite web |url=http://www.fao.org/docs/up/easypol/448/simple_inequality_mesures_080en.pdf |title=Policy Impacts on Inequality – Simple Inequality Measures |last1=Bellu |first1=Lorenzo Giovanni |last2=Liberati |first2=Paolo |date=2006 |website=EASYPol, Analytical tools |publisher=Policy Support Service, Policy Assistance Division, FAO |access-date=13 June 2016 |url-status=live |archiveurl=https://web.archive.org/web/20160805101141/http://www.fao.org/docs/up/easypol/448/simple_inequality_mesures_080en.pdf |archivedate=5 August 2016 |df=dmy-all }}&lt;/ref&gt; If '''x''' (with entries x&lt;sub&gt;i&lt;/sub&gt;) is a list of the values of an economic indicator (e.g. wealth), with x&lt;sub&gt;i&lt;/sub&gt; being the wealth of agent ''i'', then the following requirements are met:
+
+* Anonymity – c&lt;sub&gt;v&lt;/sub&gt; is independent of the ordering of the list '''x'''. This follows from the fact that the variance and mean are independent of the ordering of '''x'''.
+* Scale invariance: c&lt;sub&gt;v&lt;/sub&gt;('''x''')=c&lt;sub&gt;v&lt;/sub&gt;(&amp;alpha;'''x''') where &amp;alpha; is a real number.&lt;ref name="Bellu2006"/&gt;
+* Population independence – If {'''x''','''x'''} is the list '''x''' appended to itself, then c&lt;sub&gt;v&lt;/sub&gt;({'''x''','''x'''})=c&lt;sub&gt;v&lt;/sub&gt;('''x'''). This follows from the fact that the variance and mean both obey this principle.
+* Pigou-Dalton transfer principle: when wealth is transferred from a wealthier agent ''i'' to a poorer agent ''j'' (i.e. x&lt;sub&gt;i&lt;/sub&gt; &gt; x&lt;sub&gt;j&lt;/sub&gt;) without altering their rank, then c&lt;sub&gt;v&lt;/sub&gt; decreases and vice versa.&lt;ref name="Bellu2006"/&gt;
+
+c&lt;sub&gt;v&lt;/sub&gt; assumes its minimum value of zero for complete equality (all x&lt;sub&gt;i&lt;/sub&gt; are equal).&lt;ref name="Bellu2006"/&gt; Its most notable drawback is that it is not bounded from above, so it cannot be normalized to be within a fixed range (e.g. like the [[Gini coefficient]] which is constrained to be between 0 and 1).&lt;ref name="Bellu2006"/&gt; It is, however, more mathematically tractable than the Gini Coefficient.
+
+==Distribution==
+Provided that negative and small positive values of the sample mean occur with negligible frequency, the [[probability distribution]] of the coefficient of variation for a sample of size &lt;math&gt;n&lt;/math&gt; has been shown by Hendricks and Robey to be&lt;ref&gt;{{cite journal|last1=Hendricks|first1=Walter A.|last2=Robey|first2=Kate W.|year=1936|title=The Sampling Distribution of the Coefficient of Variation|journal=The Annals of Mathematical Statistics|volume=7|issue=3|pages=129–32|doi=10.1214/aoms/1177732503|jstor=2957564|doi-access=free}}&lt;/ref&gt; 
+
+:&lt;math&gt;\mathrm{d}F_{c_{\rm v}}=\frac{2}{\pi^{1/2} \Gamma \left(\frac{n-1}{2}\right)} \; \mathrm{e}^{-\frac{n}{2\left(\frac{\sigma}{\mu}\right)^2}\frac{{c_{\rm v}}^2}{1+{c_{\rm v}}^2}}\frac{{c_{\rm v}}^{n-2}}{(1+{c_{\rm v}}^2)^{n/2}}\sideset{}{^\prime}\sum_{i=0}^{n-1}\frac{(n-1)! \, \Gamma \left(\frac{n-i}{2}\right)}{(n-1-i)! \, i! \,}\frac{n^{i/2}}{2^{i/2} \left(\frac{\sigma}{\mu}\right)^i}\frac{1}{(1+{c_{\rm v}}^2)^{i/2}} \, \mathrm{d}c_{\rm v} ,&lt;/math&gt;
+
+where the symbol &lt;math&gt;\sideset{}{^\prime}\sum&lt;/math&gt; indicates that the summation is over only even values of &lt;math&gt;n - 1 - i&lt;/math&gt;, i.e., if &lt;math&gt;n&lt;/math&gt; is odd, sum over even values of &lt;math&gt;i&lt;/math&gt; and if &lt;math&gt;n&lt;/math&gt; is even, sum only over odd values of &lt;math&gt;i&lt;/math&gt;.
+
+This is useful, for instance, in the construction of [[hypothesis test]]s or [[confidence interval]]s. 
+Statistical inference for the coefficient of variation in normally distributed data is often based on [[McKay's approximation for the coefficient of variation|McKay's chi-square approximation]] for the coefficient of variation &lt;ref&gt;{{cite journal |jstor=1267363 |title=Comparisons of approximations to the percentage points of the sample coefficient of variation |year=1970 |last1=Iglevicz |first1=Boris |last2=Myers |first2=Raymond |journal=Technometrics |volume=12 |issue=1 |pages=166–169|doi=10.2307/1267363 }}&lt;/ref&gt;&lt;ref&gt;{{cite journal | last1 = Bennett | first1 = B. M. | year = 1976 | title = On an approximate test for homogeneity of coefficients of variation | journal = Contributions to Applied Statistics Dedicated to A. Linder | volume = 22 | issue = | pages = 169–171 | doi = 10.1007/978-3-0348-5513-6_16 | series = Experientia Supplementum | isbn = 978-3-0348-5515-0 }}&lt;/ref&gt;&lt;ref&gt;{{cite journal |jstor=2685039 |title=Confidence intervals for a normal coefficient of variation |year=1996 |last1=Vangel |first1=Mark G. |journal=The American Statistician |volume=50 |issue=1 |pages=21–26 |doi=10.1080/00031305.1996.10473537}}.&lt;/ref&gt;&lt;ref&gt;{{cite journal |doi=10.1002/(SICI)1097-0258(19960330)15:6&lt;647::AID-SIM184&gt;3.0.CO;2-P |title=An asymptotic test for the equality of coefficients of variation from k populations |journal=Statistics in Medicine |volume=15 |issue=6 |pages=647 |year=1996 |last1=Feltz |first1=Carol J |last2=Miller |first2=G. Edward }}&lt;/ref&gt;&lt;ref&gt;{{Cite journal | url=http://pub.epsilon.slu.se/4489/1/forkman_j_110214.pdf | title=Estimator and tests for common coefficients of variation in normal distributions | accessdate=23 September 2013 | last1=Forkman | first1=Johannes | journal=Communications in Statistics – Theory and Methods | volume=38 | issue=2 | pages=21–26 | doi=10.1080/03610920802187448 | year=2009 | url-status=live | archiveurl=https://web.archive.org/web/20131206021229/http://pub.epsilon.slu.se/4489/1/forkman_j_110214.pdf | archivedate=6 December 2013 | df=dmy-all }}&lt;/ref&gt;&lt;ref&gt;{{cite journal |doi=10.1007/s00180-013-0445-2 |title=Improved tests for the equality of normal coefficients of variation |journal=Computational Statistics |volume=29 |issue=1–2 |pages=215–232 |year=2013 |last1=Krishnamoorthy |first1=K |last2=Lee |first2=Meesook }}&lt;/ref&gt;
+
+===Alternative===
+According to Liu (2012),&lt;ref&gt;{{Cite thesis |last=Liu |first=Shuang |title=Confidence Interval Estimation for Coefficient of Variation |publisher=Georgia State University |url=https://scholarworks.gsu.edu/math_theses/124 |accessdate=2014-02-25 |url-status=live |archiveurl=https://web.archive.org/web/20140301102042/http://scholarworks.gsu.edu/cgi/viewcontent.cgi?article=1116&amp;context=math_theses |archivedate=1 March 2014 |df=dmy-all |at=p.3 |year=2012}}&lt;/ref&gt; 
+Lehmann (1986).&lt;ref&gt;Lehmann, E. L. (1986). ''Testing Statistical Hypothesis.'' 2nd ed. New York: Wiley.&lt;/ref&gt; "also derived the sample distribution of CV in order to give an exact method for the construction of a confidence interval for CV;" it is based on a [[non-central t-distribution]].
+
+== Similar ratios ==
+[[Standardized moment]]s are similar ratios, &lt;math&gt;{\mu_k}/{\sigma^k}&lt;/math&gt; where &lt;math&gt;\mu_k&lt;/math&gt; is the ''k''&lt;sup&gt;th&lt;/sup&gt; moment about the mean, which are also dimensionless and scale invariant. The [[variance-to-mean ratio]], &lt;math&gt;\sigma^2/\mu&lt;/math&gt;, is another similar ratio, but is not dimensionless, and hence not scale invariant. See [[Normalization (statistics)]] for further ratios.
+
+In [[signal processing]], particularly [[image processing]], the [[Multiplicative inverse|reciprocal]] ratio &lt;math&gt;\mu/\sigma&lt;/math&gt; (or its square) is referred to as the [[signal to noise ratio]] in general and [[signal-to-noise ratio (imaging)]] in particular.
+
+Other related ratios include:
+* [[Efficiency (statistics)#Estimators of u.i.d. Variables|Efficiency]], &lt;math&gt;\sigma^2 / \mu^2&lt;/math&gt;
+* [[Standardized moment]], &lt;math&gt;\mu_k/\sigma^k&lt;/math&gt;
+* [[Variance-to-mean ratio]] (or relative variance), &lt;math&gt;\sigma^2/\mu&lt;/math&gt;
+* [[Fano factor]], &lt;math&gt;\sigma^2_W/\mu_W&lt;/math&gt; (windowed VMR)
+* [[Standard error (statistics)#Relative standard error|Relative Standard Error]]
+
+==See also==
+* [[Omega ratio]]
+* [[Sampling (statistics)]]
+
+==References==
+{{Reflist}}
+
+==External links==
+*[https://cran.r-project.org/package=cvequality cvequality]: [[R (programming language)|R]] package to test for significant differences between multiple coefficients of variation
+
+{{Statistics|descriptive}}
+
+{{DEFAULTSORT:Coefficient Of Variation}}
+[[Category:Statistical deviation and dispersion]]
+[[Category:Statistical ratios]]</text>
+      <sha1>nvsq4ju9uq0xos6bk7rjp60h6sdypfx</sha1>
+    </revision>
+  </page>
+</mediawiki>

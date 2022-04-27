@@ -1,0 +1,214 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.10/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.10/ http://www.mediawiki.org/xml/export-0.10.xsd" version="0.10" xml:lang="en">
+  <siteinfo>
+    <sitename>Wikipedia</sitename>
+    <dbname>enwiki</dbname>
+    <base>https://en.wikipedia.org/wiki/Main_Page</base>
+    <generator>MediaWiki 1.35.0-wmf.36</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Media</namespace>
+      <namespace key="-1" case="first-letter">Special</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Talk</namespace>
+      <namespace key="2" case="first-letter">User</namespace>
+      <namespace key="3" case="first-letter">User talk</namespace>
+      <namespace key="4" case="first-letter">Wikipedia</namespace>
+      <namespace key="5" case="first-letter">Wikipedia talk</namespace>
+      <namespace key="6" case="first-letter">File</namespace>
+      <namespace key="7" case="first-letter">File talk</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki talk</namespace>
+      <namespace key="10" case="first-letter">Template</namespace>
+      <namespace key="11" case="first-letter">Template talk</namespace>
+      <namespace key="12" case="first-letter">Help</namespace>
+      <namespace key="13" case="first-letter">Help talk</namespace>
+      <namespace key="14" case="first-letter">Category</namespace>
+      <namespace key="15" case="first-letter">Category talk</namespace>
+      <namespace key="100" case="first-letter">Portal</namespace>
+      <namespace key="101" case="first-letter">Portal talk</namespace>
+      <namespace key="108" case="first-letter">Book</namespace>
+      <namespace key="109" case="first-letter">Book talk</namespace>
+      <namespace key="118" case="first-letter">Draft</namespace>
+      <namespace key="119" case="first-letter">Draft talk</namespace>
+      <namespace key="446" case="first-letter">Education Program</namespace>
+      <namespace key="447" case="first-letter">Education Program talk</namespace>
+      <namespace key="710" case="first-letter">TimedText</namespace>
+      <namespace key="711" case="first-letter">TimedText talk</namespace>
+      <namespace key="828" case="first-letter">Module</namespace>
+      <namespace key="829" case="first-letter">Module talk</namespace>
+      <namespace key="2300" case="first-letter">Gadget</namespace>
+      <namespace key="2301" case="first-letter">Gadget talk</namespace>
+      <namespace key="2302" case="case-sensitive">Gadget definition</namespace>
+      <namespace key="2303" case="case-sensitive">Gadget definition talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Rover (space exploration)</title>
+    <ns>0</ns>
+    <id>10297736</id>
+    <revision>
+      <id>960315041</id>
+      <parentid>956666717</parentid>
+      <timestamp>2020-06-02T08:10:18Z</timestamp>
+      <contributor>
+        <ip>2600:6C40:7D80:157B:AC9B:E7B5:3920:F31</ip>
+      </contributor>
+      <comment>Incorrect facts, vulgar language</comment>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="23734" xml:space="preserve">{{short description|Space exploration vehicle designed to move across the surface of a planet or other celestial body}}
+{{see also|Lunar rover|Mars rover}}
+{{Other uses|Rover (disambiguation){{!}}Rover}}
+[[Image:PIA15279 3rovers-stand D2011 1215 D521.jpg|thumb|400px|Three different [[Mars rover]] designs: [[Sojourner (rover)|''Sojourner'']], [[Mars Exploration Rover|MER]] and [[Curiosity Rover|''Curiosity'']]]]
+[[File:Pia21486curiowheelpopping.jpg|thumb|''Curiosity''{{'}}s wheels on Mars, 2017]]
+
+A '''rover''' (or sometimes '''planetary rover''') is a [[planetary surface]] [[exploration]] device designed to move across the solid surface on a [[planet]] or other [[planetary mass]] [[celestial bodies]].  Some rovers have been designed as [[land vehicle]]s to transport members of a [[human spaceflight]] crew; others have been partially or fully [[autonomous robot]]s.  Rovers are typically created to land on another planet (other than [[Earth]]) via a [[lander (spacecraft)|lander]]-style [[spacecraft]],&lt;ref&gt;{{cite web|url=http://airandspace.si.edu/research/ceps/etp/tools/tools_rover.html|title=Exploring The Planets - Tools of Exploration - Rovers|date=2002|publisher=[[National Air and Space Museum|Air and Space Museum]]|accessdate=3 January 2013}}&lt;/ref&gt; tasked to collect information about the terrain, and to take [[crust (geology)|crust]] samples such as dust, soil, rocks, and even liquids.  They are essential tools in [[space exploration]].
+
+== Comparison with space probes of other types ==
+[[File:Driving Distances on Mars and the Moon.png|thumb|300px|Comparison of distances driven by various wheeled vehicles on the surface of the [[Moon]] and [[Mars]]]]
+ 
+Rovers have several advantages over stationary [[Lander (spacecraft)|landers]]: they examine more territory and they can be directed to interesting features. If they are solar powered, they can place themselves in sunny positions to weather winter months. They can also advance the knowledge of how to perform very remote [[robot]]ic vehicle control which is necessarily semi-autonomous due to the finite speed of light.
+
+Their advantages over [[orbiter|orbiting spacecraft]] are that they can make observations to a [[microscopic]] level and can conduct physical [[experiment]]ation. Disadvantages of rovers compared to orbiters are the higher chance of failure, due to landing and other risks, and that they are limited to a small area around a landing site which itself is only approximately anticipated.
+
+== Features ==
+Rovers arrive on spacecraft and are used in conditions very distinct from those on the Earth, which makes some demands on their design.
+
+=== Reliability ===
+Rovers have to withstand high levels of acceleration, high and low temperatures, [[pressure]], dust, [[corrosion]], [[cosmic rays]], remaining functional without repair for a needed period of time.
+[[File:Sojourner in cruise configuration.gif|thumb|left|150px|Mars rover ''Sojourner'' in cruise configuration]]
+
+=== Autonomy ===
+Rovers which land on celestial bodies far from the Earth, such as the [[Mars Exploration Rovers]], cannot be remotely controlled in real-time since the [[speed of light|speed at which radio signals travel]] is far too slow for ''real-time'' or ''near-real-time'' communication. For example, sending a signal from Mars to Earth takes between 3 and 21 minutes. These rovers are thus capable of operating [[Autonomous robot|autonomously]] with little assistance from ground control as far as [[Autonomous robot#Outdoor autonomous position-sensing and navigation|navigation]] and [[data acquisition]] are concerned, although they still require human input for identifying promising targets in the distance to which to drive, and determining how to position itself to maximize solar energy.&lt;ref name="Schirber"&gt;{{cite news | author = Michael Schirber | title = Rovers of the future may make decisions on their own | date = 8 July 2012 | publisher = Mother Nature Network | URL = http://www.mnn.com/earth-matters/space/stories/rovers-of-the-future-may-make-decisions-on-their-own | work = Astrobiology Magazine }}&lt;/ref&gt; Giving a rover some rudimentary visual identification capabilities to make simple distinctions can allow engineers to speed up the reconnaissance.&lt;ref name="Schirber" /&gt; During the NASA Sample Return Robot Centennial Challenge, a rover, named ''Cataglyphis'', successfully demonstrated autonomous navigation, decision-making, and sample detection, retrieval, and return capabilities.&lt;ref&gt;{{Cite web|url=https://www.nasa.gov/directorates/spacetech/centennial_challenges/feature/2016_sample_return_robot_challenge_award.html|title=NASA Awards $750K in Sample Return Robot Challenge|last=Hall|first=Loura|date=2016-09-08|access-date=2016-09-17}}&lt;/ref&gt;
+
+=== Non-wheeled approaches ===
+
+Other rover designs that do not use wheeled approaches are possible.  Mechanisms that utilize "walking" on [[robotic arm|robotic legs]], hopping, rolling, etc. are possible.  For example, [[Stanford University]] researchers have proposed "Hedgehog", a small [[cube]]-shaped rover that can controllably hop—or even spin out of a sandy sinkhole by corkscrewing upward to escape—for surface exploration of [[low gravity]] celestial bodies.&lt;ref name=physorg20160208&gt;{{cite news |last=Chipman |first=Ian |url=http://phys.org/news/2016-02-hedgehog-cube-like-rover-exploration-asteroids.html |title=Meet "Hedgehog": Engineers build cube-like rover for exploration of asteroids, comets |work=[[Phys.org]] |date=2016-02-08 |accessdate=2016-02-11 }}&lt;/ref&gt;
+
+== History ==
+[[File:moonLanderLola16.jpg|thumb|right|300px|Landing sites of sample return and rover missions]]
+
+===Lunokhod 0 (No.201)===
+The Soviet rover was intended to be the first roving remote-controlled [[robot]] on the [[Moon]], but crashed during a failed start of the launcher 19 February 1969.
+
+===Lunokhod 1===
+{{Main | Lunokhod 1}}
+The [[Lunokhod 1]] rover landed on the Moon in November 1970.&lt;ref&gt;{{cite web|title=Lunar Lost &amp; Found: The Search for Old Spacecraft|url=http://www.space.com/scienceastronomy/060327_mystery_monday.html|publisher=www.space.com|accessdate=2009-03-18}}&lt;/ref&gt; It was the first roving remote-controlled robot to land on any celestial body. The [[Soviet Union]] launched Lunokhod 1 aboard the [[Luna 17]] spacecraft on November 10, 1970, and it entered lunar orbit on November 15. The spacecraft soft-landed in the [[Sea of Rains]] region on November 17. The lander had dual ramps from which Lunokhod 1 could descend to the lunar surface, which it did at 06:28 UT. From November 17, 1970 to November 22, 1970 the rover drove 197 m, and during 10 communication sessions returned 14 close up pictures of the Moon and 12 panoramic views. It also analyzed the lunar soil. The last successful communications session with Lunokhod 1 was on September 14, 1971.  Having worked for 11 months,&lt;ref&gt;{{cite web|title=Luna 17 and Lunokhod 1
+|url=http://www.zarya.info/Diaries/Luna/Luna17.php
+|publisher=www.zarya.info
+|accessdate=2009-08-23}}
+&lt;/ref&gt;
+Lunokhod 1 held the durability record for space rovers for more than 30 years, until a new record was set by the [[Mars Exploration Rover]]s.
+[[File:Apollo15LunarRover.jpg|thumb|right|300px|Apollo 15 [[Lunar Roving Vehicle]]]]
+
+===Apollo Lunar Roving Vehicle===
+{{Main|Apollo Lunar Roving Vehicle}}
+[[NASA]] included [[Lunar Roving Vehicle]]s in three [[Apollo program|Apollo]] missions: [[Apollo 15]] (which landed on the Moon July 30, 1971), [[Apollo 16]] (which landed April 21, 1972), and [[Apollo 17]] (which landed December 11, 1972).&lt;ref&gt;{{cite web|url=http://ares.jsc.nasa.gov/HumanExplore/Exploration/EXLibrary/docs/ApolloCat/Part1/LRV.htm|title=Experiment: Lunar Rover Vehicle|publisher=Ares.jsc.nasa.gov|accessdate=2009-03-18|url-status=dead|archiveurl=https://web.archive.org/web/20090320185219/http://ares.jsc.nasa.gov/HumanExplore/Exploration/EXLibrary/docs/ApolloCat/Part1/LRV.htm|archivedate=2009-03-20}}&lt;/ref&gt;
+
+===Lunokhod 2===
+[[File:Lunokhod-2 model.jpg|thumb|left|The [[Lunokhod 2]] Lunar Rover]]
+{{Main | Lunokhod 2}}
+The [[Lunokhod 2]] was the second of two [[unmanned space missions|unmanned]] lunar rovers landed on the [[Moon]] by the [[Soviet Union]] as part of the [[Lunokhod program]].  The rover became operational on the [[Moon]] on January 16, 1973.&lt;ref&gt;{{cite web|title=Luna 21 and Lunokhod 2
+|url=http://www.zarya.info/Diaries/Luna/Luna21.php
+|publisher=www.zarya.info
+|accessdate=2009-08-23}}
+&lt;/ref&gt; 
+It was the second roving remote-controlled [[robot]] to land on any celestial body. The [[Soviet Union]] launched Lunokhod 2 aboard the [[Luna 21]] spacecraft on January 8, 1973, and the spacecraft soft-landed in the eastern edge of the [[Mare Serenitatis]] region on January 15, 1973. Lunokhod 2 descended from the lander's dual ramps to the lunar surface at 01:14 UT on January 16, 1973. Lunokhod 2 operated for about four months, covered {{convert|39|km|mi|abbr=on}} of terrain, including hilly [[highland (geography)|upland]] areas and [[rille]]s, and sent back 86 panoramic images and over 80,000 TV pictures.&lt;ref name="2004Lunokhod2Airandspace"&gt;{{cite news |title=The Other Moon Landings |url=http://www.airspacemag.com/space-exploration/other-moon.html |accessdate=May 25, 2013 |author=Andrew Chaikin |publisher=[[Air &amp; Space/Smithsonian]] |date=March 1, 2004 |url-status=dead |archiveurl=https://wayback.archive-it.org/all/20140511103222/http://www.airspacemag.com/space/the-other-moon-landings-6457729/ |archivedate=May 11, 2014 }}&lt;/ref&gt;&lt;ref name="2012Lunokhod2Register"&gt;{{cite news |title=New NASA snap of game developer's electric cart FOUND ON MOON: Probe in low pass over Garriott's radioactive tub-rover |url=https://www.theregister.co.uk/2012/03/16/moon_detailed_pic_landing_site_rover/ |author=Lewis Page |publisher=The Register |date=March 16, 2012 |accessdate=May 25, 2013}}&lt;/ref&gt;&lt;ref name="2012Lunokhod2Revisted"&gt;{{cite news |title=Lunokhod 2 Revisited |url=http://lroc.sese.asu.edu/news/?archives/537-Lunokhod-2-Revisited.html |publisher=NASA |date=March 13, 2012 |accessdate=May 25, 2013}}&lt;/ref&gt; Based on wheel rotations Lunokhod 2 was thought to have covered {{convert|37|km|mi|abbr=on}} but Russian scientists  at the Moscow State University of Geodesy and Cartography (MIIGAiK) have revised that to an estimated distance of about {{convert|42.1-42.2|km|mi|abbr=on}} based on Lunar Reconnaissance Orbiter ([[Lunar Reconnaissance Orbiter|LRO]]) images of the lunar surface.&lt;ref&gt;{{cite web |url=http://www.planetary.org/blogs/emily-lakdawalla/2013/06211627-opportunity-lunokhod-record.html |title=Is Opportunity near Lunokhod's distance record? Not as close as we used to think! |publisher=The Planetary Society |last1=Lakdawalla |first1=Emily |date=June 21, 2013 |accessdate=June 26, 2013}}&lt;/ref&gt;&lt;ref&gt;{{cite journal |last1=Witze |first1=Alexandra |title=Space rovers in record race |journal=Nature |volume=498 |issue=7454 |pages=284–285 |publisher=Nature News |date=June 19, 2013 |doi=10.1038/498284a |pmid=23783609 |bibcode=2013Natur.498..284W |doi-access=free }}&lt;/ref&gt; Subsequent discussions with their American counterparts ended with an agreed-upon final distance of {{convert|39|km|mi|abbr=on}}, which has stuck since.&lt;ref&gt;{{cite web|url=http://www.theweathernetwork.com/news/articles/its-official-nasa-confirms-mars-opportunity-rover-has-broken-the-off-world-driving-record/32813/|title=Opportunity breaks off-world driving record!|first=Pelmorex Weather Networks|last=Inc.|website=The Weather Network}}&lt;/ref&gt;&lt;ref&gt;{{cite web|url=http://lroc.sese.asu.edu/posts/774|title=Trundling Across the Moon|website=lroc.sese.asu.edu}}&lt;/ref&gt;
+
+[[File:Mars propm rover.jpg|left|thumb|200ppx|Prop-M Rover]]
+
+===Prop-M===
+{{Main|Mars 2|Mars 3}}
+The Soviet Mars 2 and Mars 3 landers each had a small 4.5&amp;nbsp;kg  Mars rover on board, which would have moved across the surface on [[skis]] while connected to the lander with a 15-meter umbilical. Two small metal rods were used for autonomous obstacle avoidance, as radio signals from Earth would have taken too long to drive the rovers using remote control. The rover was planned to be placed on the surface after landing by a manipulator arm and to move in the field of view of the television cameras and stop to make measurements every 1.5 meters. The rover tracks in the Martian soil would also have been recorded to determine material properties. Because of the crash landing of Mars 2 and the communication failure (15 seconds post landing) of Mars 3, neither rover was deployed.
+
+===Lunokhod 3===
+The Soviet rover was intended to be the third roving remote-controlled robot on the Moon in 1977. The mission was canceled due to lack of launcher availability and funding, although the rover was built.
+
+===Marsokhod===
+The  Marsokhod was a '' heavy'' Soviet  rover (hybrid, with both controls [[telecommand]] and automatic) aimed at Mars, part of the [[Mars 4NM]] and scheduled to commence after 1973 (according to the plans of 1970). It was to be launched by a [[N1 rocket]], which never flew successfully.&lt;ref&gt;[http://www.novosti-kosmonavtiki.ru/content/numbers/213/50.shtml Советский грунт с Марса] {{ru}} {{webarchive |url=https://web.archive.org/web/20100408175307/http://www.novosti-kosmonavtiki.ru/content/numbers/213/50.shtml |date=April 8, 2010 }}&lt;/ref&gt;
+[[File:Sojourner on Mars PIA01122.jpg|thumb|left|''[[Sojourner (rover)|Sojourner]]'' on Mars]]
+
+===''Sojourner''===
+{{main |Sojourner (rover)|Mars Pathfinder}}
+The [[Mars Pathfinder]] mission included ''Sojourner'', the first rover to successfully deploy on another planet. [[NASA]], the space agency of the [[United States]], launched Mars Pathfinder on 4 December 1996; it landed on [[Mars]] in a region called [[Chryse Planitia]] on 4 July 1997.&lt;ref name="NASASojourner"&gt;{{cite web|url=http://www.nasa.gov/mission_pages/mars-pathfinder/| title=Mars Pathfinder | publisher=NASA |accessdate=2009-03-18}}&lt;/ref&gt; From its landing until the final data transmission on 27 September 1997, Mars Pathfinder returned 16,500 images from the lander and 550 images from ''Sojourner'', as well as data from more than 15 chemical analyses of rocks and soil and extensive data on winds and other weather factors.&lt;ref name="NASASojourner" /&gt;
+
+===Beagle 2 Planetary Undersurface Tool===
+[[Beagle 2]] was designed to explore Mars with a small "mole" (Planetary Undersurface Tool, or PLUTO), to be deployed by the arm. PLUTO had a compressed spring mechanism designed to enable it to move across the surface at a rate of 20&amp;nbsp;mm per second and to burrow into the ground and collect a subsurface sample in a cavity in its tip. Beagle 2 failed while attempting to land on Mars in 2003.
+
+=== Mars Exploration Rover ''Spirit'' ===
+{{Main|Spirit rover}}
+[[Spirit rover|''Spirit'']] is a [[Mars Rover|robotic rover on Mars]], active from 2004 to 2010. It was one of two rovers of [[NASA]]'s ongoing [[Mars Exploration Rover]] mission. It landed successfully on [[Mars]] at 04:35 [[Ground UTC]] on January 4, 2004, three weeks before its twin, ''[[Opportunity rover|Opportunity]]'' (MER-B), landed on the other side of the planet. Its name was chosen through a [[Mars Exploration Rover#Naming of Spirit and Opportunity|NASA-sponsored student essay competition]]. The rover became stuck in late 2009, and its last communication with Earth was sent on March 22, 2010.
+
+===Chang'e 3's Yutu Rover===
+{{Main|Yutu (rover)}}
+[[Chang'e 3]] is a [[China|Chinese]] [[Exploration of the Moon|Moon mission]] that includes a [[robotic]] [[lunar rover]] [[Yutu (rover)|''Yutu'']], named after the pet rabbit of [[Chang'e]], the goddess of the Moon in Chinese mythology. Launched in 2013 with the [[Chang'e 3]] mission, it is China's first lunar rover, the first soft landing on the Moon since 1976 and the first rover to operate there since the Soviet [[Lunokhod 2]] ceased operations on 11 May 1973.&lt;ref name="Molnár-May2013"&gt;{{cite news | first=László | last=Molnár | title=Chang'e-3 revealed – and its massive! | date=24 May 2013 | url=http://www.pulispace.com/en/media/news/231-change-3-revealed-and-its-massive | work=Pull Space Technologies }}&lt;/ref&gt; It was deployed on the Moon on December 14, 2013 and the rover encountered operational difficulties toward the end of the second lunar day&lt;ref name="abnormality"&gt;{{cite news | url=http://www.abc.net.au/news/2014-01-25/an-china27s-moon-rover2c-jade-rabbit2c-has-27abnormality27/5218986 | title=China's first moon rover has experienced a "mechanical control abnormality | publisher=Australian Broadcasting Corporation | date=26 January 2014 }}&lt;/ref&gt; after surviving and recovering successfully the first 14-day lunar night (about a month on the Moon),&lt;ref name="back"&gt;{{cite news|first=Alan |last=Boyle |title=Chinese moon lander and rover wake up after weeks of sleep |date=12 January 2014 |publisher=NBC News |url=http://www.nbcnews.com/science/chinese-moon-lander-rover-wake-after-weeks-sleep-2D11909188 |url-status=dead |archiveurl=https://web.archive.org/web/20140114045936/http://www.nbcnews.com/science/chinese-moon-lander-rover-wake-after-weeks-sleep-2D11909188 |archivedate=14 January 2014 }}&lt;/ref&gt;  and was unable to move after the end of the second lunar night, though it continued to gather useful information for some months afterward.&lt;ref name="Not dead yet"&gt;{{cite news | first=Euan | last=McKirdy | title=Down but not out: Jade Rabbit comes back from the dead | date=13 February 2014 | url=http://www.cnn.com/2014/02/12/world/asia/jade-rabbit-resurrection/index.html?hpt=wo_c2 | work=CNN }}&lt;/ref&gt; In October 2015, ''Yutu'' set the record for the longest operational period for a rover on the Moon.&lt;ref&gt;{{cite news |url= http://spacenews.com/chinas-immobile-rover-passes-a-purely-figurative-milestone/ |title= China's Immobile Rover Passes a Purely Figurative Milestone |author= Jeff Foust |date= 30 October 2015 |publisher= SpaceNews }}&lt;/ref&gt; On 31 July  2016, ''Yutu'' ceased to operate after a total of 31 months, well beyond its original expected lifespan of three months.&lt;ref&gt;{{cite news |url= http://news.xinhuanet.com/english/2015-10/29/c_134763460.htm |title= China's first moon rover sets record for longest stay |date= 29 October 2015 |author= An |publisher= Xinhua }}&lt;/ref&gt;
+
+[[File:NASA Mars Rover.jpg|thumb|Mars Exploration Rover]]
+
+===Mars Exploration Rover ''Opportunity''===
+{{Main|Opportunity rover}}
+[[Opportunity rover|''Opportunity'']] is a [[Mars rover|robotic rover on the planet Mars]], active from 2004 to early 2019. Launched from [[Earth]] on July 7, 2003, it landed on the [[Mars|Martian]] [[Meridiani Planum]] on January 25, 2004 at 05:05 [[Ground UTC]] (about 13:15 [[Timekeeping on Mars|local time]]), three weeks after its twin ''[[Spirit rover|Spirit]]'' (MER-A) touched down on the other side of the planet. On July 28, 2014, NASA announced that ''Opportunity'', after having traveled over {{convert|25|mi|km|order=flip|abbr=on}} on the planet [[Mars]], has set a new "off-world" record as the rover having driven the greatest distance, surpassing the previous record held by the Soviet Union's [[Lunokhod 2|Lunokhod 2 rover]] that had traveled {{convert|39|km|mi|abbr=on}}.&lt;ref name="NASA-20140728a"&gt;{{cite web |last=Webster |first=Guy |last2=Brown |first2=Dwayne |title=NASA Long-Lived Mars Opportunity Rover Sets Off-World Driving Record |url=http://www.jpl.nasa.gov/news/news.php?release=2014-245 |date=July 28, 2014 |work=[[NASA]] |accessdate=July 29, 2014 }}&lt;/ref&gt;&lt;ref name="FRB-20140729"&gt;{{cite web |last=Knapp |first=Alex |title=NASA's Opportunity Rover Sets A Record For Off-World Driving |url=https://www.forbes.com/sites/alexknapp/2014/07/29/nasas-opportunity-rover-sets-a-record-for-off-world-driving |date=July 29, 2014  |work=[[Forbes]] |accessdate=July 29, 2014}}&lt;/ref&gt; ([[:File:Driving Distances on Mars and the Moon.png|related image]])
+
+== Active rover missions ==
+
+===Active rover locations in context===
+{{-}}
+{{Mars map indicating landers}}
+{{-}}
+
+===Mars Science Laboratory Rover ''Curiosity''===
+{{Main|Curiosity (rover)}}
+[[File:MSL concept February 2007 - PIA09201.jpg|thumb|Mars Science Laboratory]]
+On 26 November 2011, NASA's [[Mars Science Laboratory]] mission was successfully launched for Mars. The mission successfully landed the robotic ''Curiosity'' rover on the surface of Mars in August 2012. The rover is currently helping to determine whether Mars could ever have supported life, and search for evidence of past or present [[life on Mars (planet)|life on Mars]].&lt;ref name="NASA-MSL"&gt;{{cite web |author=NASA Staff |title=Mars Science Laboratory |url=http://marsprogram.jpl.nasa.gov/msl/ |publisher=[[NASA]] |date=26 November 2011 |accessdate=2011-11-26 }}&lt;/ref&gt;&lt;ref name="NYT-MSL"&gt;{{cite web |agency=Associated Press|title=NASA Launches Super-Size Rover to Mars: 'Go, Go!' |url=https://www.nytimes.com/aponline/2011/11/26/science/AP-US-SCI-Mars-Rover.html |work=[[New York Times]] |date=26 November 2011 |accessdate=2011-11-26 }}&lt;/ref&gt;
+
+== Planned rover missions ==
+{{Update section|date=August 2018}}
+
+===Chandrayaan 3===
+{{Main|Chandrayaan-3}}
+Chandrayaan-3 is a proposed mission by India, consisting of a lunar lander and a rover. It would be a re-attempt to demonstrate soft landing, following the failure of [[Chandrayaan-2]]'s ''Vikram'' lander.
+
+=== ExoMars ''Rosalind Franklin''===
+{{Main|Rosalind Franklin (rover)}}
+The European Space Agency (ESA) has designed and carried out early prototyping and testing of the ''[[Rosalind Franklin (rover)|Rosalind Franklin]]'' rover. {{as of|2019}}, the rover is scheduled for launch in 2020.&lt;ref&gt;{{cite web |url=http://www.esa.int/esaMI/ExoMars/ |title = ExoMars Rover ESA Portal |publisher=ESA}}&lt;/ref&gt;&lt;ref&gt;{{cite web |url=http://www.esa.int/Our_Activities/Space_Science/ExoMars/Full_go-ahead_for_building_ExoMars_2020 |title =Full go-ahead for building ExoMars 2020 |publisher=ESA |accessdate=8 July 2017}}&lt;/ref&gt;
+
+=== Mars 2020 rover mission ===
+{{Main|Mars 2020}}
+[[File:PIA22103-Mars2020Rover-23Cameras-20171031.jpg|thumb|Mars 2020 rover design infographic detailing cameras]]
+The '''Mars 2020 rover mission''' is a  [[Mars]] rover under development by [[NASA]] with a launch planned for 2020. It is intended to investigate an [[astrobiology|astrobiologically]] relevant ancient environment on Mars, investigate its surface [[Geology of Mars|geological processes]] and history, including the assessment of its past [[Planetary habitability|habitability]] and potential for preservation of [[biosignature]]s within accessible geological materials.&lt;ref name="Cowing"&gt;{{cite web | url = http://spaceref.com/mars/science-definition-team-for-the-2020-mars-rover.html | title = Science Definition Team for the 2020 Mars Rover | accessdate = 21 December 2012 | author = Keith Cowing | date = 21 December 2012 | work = NASA | publisher = Science Ref}}&lt;/ref&gt;
+
+===''Chang'e 5''===
+{{Main|Chang'e 5}}
+This Chinese mission consists of a lander and a sample-return vehicle. It is scheduled for launch in 2020.&lt;ref&gt;[http://spaceflight101.com/change/change-5/ Chang’e 5 – Change&lt;!-- Bot generated title --&gt;]&lt;/ref&gt;
+
+== See also ==
+* [[List of rovers on extraterrestrial bodies]]
+* [[Google Lunar X Prize]]
+* [[Lander (spacecraft)]]
+* [[LORAX]]
+* [[Lunar rover]]
+* [[Mars rover]] ([[Crewed Mars rover|Crewed]])
+* ''[[Tank on the Moon]]'', 2007 documentary film
+
+== References ==
+{{Commons category|Rovers (space exploration)}}
+{{More citations needed|date=January 2008}}
+{{Reflist|30em}}
+
+{{Mars spacecraft}} 
+{{Moon spacecraft}}
+{{Lunar Rovers}}
+
+{{Authority control}}
+
+{{DEFAULTSORT:Rover (Space Exploration)}}
+[[Category:Off-road vehicles]]
+[[Category:Spacecraft]]
+[[Category:Planetary rovers| ]]
+[[Category:Soviet inventions]]
+[[Category:Russian inventions]]
+[[Category:Space robots]]</text>
+      <sha1>7u64yknqpdge5itjfnqkb09v1lpmcsr</sha1>
+    </revision>
+  </page>
+</mediawiki>

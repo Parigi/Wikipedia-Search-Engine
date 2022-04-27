@@ -1,0 +1,2526 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.10/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.10/ http://www.mediawiki.org/xml/export-0.10.xsd" version="0.10" xml:lang="en">
+  <siteinfo>
+    <sitename>Wikipedia</sitename>
+    <dbname>enwiki</dbname>
+    <base>https://en.wikipedia.org/wiki/Main_Page</base>
+    <generator>MediaWiki 1.35.0-wmf.36</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Media</namespace>
+      <namespace key="-1" case="first-letter">Special</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Talk</namespace>
+      <namespace key="2" case="first-letter">User</namespace>
+      <namespace key="3" case="first-letter">User talk</namespace>
+      <namespace key="4" case="first-letter">Wikipedia</namespace>
+      <namespace key="5" case="first-letter">Wikipedia talk</namespace>
+      <namespace key="6" case="first-letter">File</namespace>
+      <namespace key="7" case="first-letter">File talk</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki talk</namespace>
+      <namespace key="10" case="first-letter">Template</namespace>
+      <namespace key="11" case="first-letter">Template talk</namespace>
+      <namespace key="12" case="first-letter">Help</namespace>
+      <namespace key="13" case="first-letter">Help talk</namespace>
+      <namespace key="14" case="first-letter">Category</namespace>
+      <namespace key="15" case="first-letter">Category talk</namespace>
+      <namespace key="100" case="first-letter">Portal</namespace>
+      <namespace key="101" case="first-letter">Portal talk</namespace>
+      <namespace key="108" case="first-letter">Book</namespace>
+      <namespace key="109" case="first-letter">Book talk</namespace>
+      <namespace key="118" case="first-letter">Draft</namespace>
+      <namespace key="119" case="first-letter">Draft talk</namespace>
+      <namespace key="446" case="first-letter">Education Program</namespace>
+      <namespace key="447" case="first-letter">Education Program talk</namespace>
+      <namespace key="710" case="first-letter">TimedText</namespace>
+      <namespace key="711" case="first-letter">TimedText talk</namespace>
+      <namespace key="828" case="first-letter">Module</namespace>
+      <namespace key="829" case="first-letter">Module talk</namespace>
+      <namespace key="2300" case="first-letter">Gadget</namespace>
+      <namespace key="2301" case="first-letter">Gadget talk</namespace>
+      <namespace key="2302" case="case-sensitive">Gadget definition</namespace>
+      <namespace key="2303" case="case-sensitive">Gadget definition talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Growth of photovoltaics</title>
+    <ns>0</ns>
+    <id>21150165</id>
+    <revision>
+      <id>960539775</id>
+      <parentid>960411941</parentid>
+      <timestamp>2020-06-03T14:16:24Z</timestamp>
+      <contributor>
+        <username>MrOllie</username>
+        <id>6908984</id>
+      </contributor>
+      <comment>rm refs to blacklisted / unreliable trade magazine</comment>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="109315" xml:space="preserve">{{Use dmy dates|date=February 2013}}
+{| class="infobox" style="width: 370px; text-align: center; font-size: 100%; background-color: white;"
+|-
+|
+&lt;!-- custom info box --&gt;
+{|
+|-
+| colspan=8 style="background-color: #f9f9f9; border-bottom: none;" |
+
+&lt;div style="background-color: #444; color: white; padding: 0; text-align: center;"&gt;'''Worldwide growth of photovoltaics'''&lt;/div&gt;
+
+&lt;div style="font-size: 0.8em; padding: 12px 0 0 12px; line-height: 1.2em;"&gt;Global growth of cumulative PV capacity in gigawatts (GW&lt;sub&gt;p&lt;/sub&gt;)&lt;ref name="epia-2016" /&gt;&lt;ref name="epia-2015" /&gt;&lt;ref name="epia-2014" /&gt;&lt;ref name="iea-pvps-snapshot-1992-2014" /&gt;&lt;ref name="iea-pvps-snapshot-1992-2015" /&gt; with regional shares (IEA estimates).&lt;ref&gt;{{cite web|title=Snapshot of Global PV Markets 2016|url=http://www.iea-pvps.org/fileadmin/dam/public/report/statistics/IEA-PVPS_-_A_Snapshot_of_Global_PV_-_1992-2016__1_.pdf|publisher=IEA-PVPS|accessdate=27 October 2017|pages=11}}&lt;/ref&gt;&lt;/div&gt;
+
+&lt;div style="margin: 15px 0px -40px -60px; position: relative; font-size: 0.8em;"&gt;
+{{ #invoke:Chart | bar-chart
+| height = 390
+| width = 420
+| stack = 1
+| group 1 = 3.289 : 5.312 : 11.02 : 16.854 : 30.505 : 52.764 : 70.513 : 81.488 : 88.636 : 95.092 : 98 : 105 : 116  : 0 : 0 &lt;!--Europe--&gt;
+| group 2 = 1.827 : 2.098 : 2.628 : 3.373  : 4.951  : 7.513  : 12.159 : 21.992 : 34.991 : 50.776 : 68 : 88  : 113  : 0 : 0 &lt;!--Asia pacific (ex. China)--&gt;
+| group 3 = 0.355 : 0.522 : 0.828 : 1.328  : 2.41   : 4.59   : 8.365  : 13.727 : 20.534 : 29.639 : 45 : 58  : 73   : 0 : 0 &lt;!--America--&gt;
+| group 4 = 0.08  : 0.1   : 0.14  : 0.3    : 0.8    : 3.3    : 6.8    : 18.6   : 28.199 : 43.53  : 78 : 131 : 175  : 0 : 0 &lt;!--China--&gt;
+| group 5 = 0.001 : 0.002 : 0.003 : 0.025  : 0.08   : 0.205  : 0.57   : 0.953  : 1.711  : 2.42   : 3  : 6   : 9    : 0 : 0&lt;!--MEA--&gt;
+| group 6 = 1.108 : 1.15  : 1.226 : 1.306  : 1.59   : 2.098  : 2.098  : 2.098  : 4.155  : 7.843  : 18 : 20  : 22   : 0 : 0&lt;!--RoW--&gt;
+| group 7 = 0     : 0     : 0     : 0      : 0      : 0      : 0      : 0      : 0      : 0      : 0  : 0   : 0    : 633: 0 &lt;!--Estimate 2019--&gt;
+| group 8 = 0     : 0     : 0     : 0      : 0      : 0      : 0      : 0      : 0      : 0      : 0  : 0   : 0    : 0  : 770 &lt;!--Forecast 2020--&gt;
+| colors = forestgreen : Orange : #2E5CB8 : #de2821: Yellow :  pink : grey : #333 
+| group names = Europe : APAC : Americas : China : MEA : RoW : Global estimate : Global forecast
+| hide group legends = 1
+| units suffix = _GWp
+| x legends = 2006 : : 2008 : : 2010 : : 2012 : : 2014 : : 2016 : : '18 : '19 : '20
+}}
+&lt;/div&gt;
+
+{| style="width: 100%; font-size: 0.8em; text-align: left; margin-left: 62px; width: 80%; margin-bottom: 14px; position: relative; z-index:1001;"
+|-
+| valign=top |
+{{legend|forestgreen|border=1px solid #134E13|[[Solar power in the European Union|Europe]]}}
+{{legend|#2E5CB8    |border=1px solid navy   |[[Solar power by country#North America|North America]]}}
+{{legend|yellow     |border=1px solid #B3B300|[[Solar power by country#Western Asia|Middle East]] and [[Solar power in Africa|Africa]]}}
+{{legend|grey      |border=1px solid #111|2019 Global estimate*}}
+| valign=top |
+{{legend|orange     |border=1px solid #B37400|[[Solar power by country#Asia|Asia]]-[[Solar power by country#Oceania|Pacific]]}}
+{{legend|#de2821    |border=1px solid #950E29|[[Solar power in China|China]]}}
+{{legend|pink       |border=1px solid #333|[[Solar power by country|Rest of the world]]}}
+{{legend|black      |border=1px solid #333|2020 Global forecast*}}
+|-
+| colspan=2|*(2019/20 tentative figures, no regional split-up)&lt;ref name="bnef2020"&gt;{{Cite web|url=https://about.bnef.com/blog/energy-vehicles-sustainability-10-predictions-for-2020/|title=Energy, Vehicles, Sustainability – 10 Predictions for 2020|date=2020-01-16|website=BloombergNEF|language=en-US|access-date=2020-01-17}}&lt;/ref&gt; 
+|}
+
+|-
+| colspan=8 style="border-bottom: none;" |
+
+&lt;div style="background-color: #444; color: white; padding: 0; text-align: center;"&gt;'''Recent and estimated capacity''' {{small|(GW&lt;sub&gt;p&lt;/sub&gt;)}}&lt;/div&gt;
+
+|- style="text-align: center; font-size: 0.8em; background-color: #f6f6f6;" 
+! style="text-align: right;" | Year-end
+! 2014
+! 2015
+! 2016&lt;ref&gt;{{Cite web |url=http://www.solarpowereurope.org/fileadmin/user_upload/documents/WEBINAR/Free_SolarPower_Webinar__Global_Market_Outlook_2017-2021.pdf |publisher=SolarPower Europe |title=Global Market Outlook 2017–2021 |date=13 June 2017 |page=7 |accessdate= 13 November 2017}}&lt;/ref&gt;
+! 2017&lt;ref name="IEA-PVPS-Trends-2018"&gt;{{cite web |title=Trends in PV Application 2018 |url=http://www.iea-pvps.org/fileadmin/dam/public/report/statistics/2018_iea-pvps_report_2018.pdf |publisher=IEA PVPS |date= |accessdate=14 December 2018}}&lt;/ref&gt;
+! 2018&lt;ref name="IEA-PVPS-2019"&gt;{{Cite web | url=http://www.iea-pvps.org/fileadmin/dam/public/report/statistics/IEA-PVPS_T1_35_Snapshot2019-Report.pdf |title = Publications – IEA-PVPS}}&lt;/ref&gt;
+! 2019{{abbr|E|Estimate}}&lt;ref name="bnef2020"/&gt;
+! 2020{{abbr|F|Forecast}}&lt;ref name="bnef2020"/&gt;
+|- style="text-align: center; font-size: 0.8em; background-color: #f6f6f6;" 
+| style="text-align: right;" | '''Cumulative'''
+| 178.4
+| 229.3
+| 306.5
+| 403.3
+| 512
+| 633
+| ''~770''
+|- style="text-align: center; font-size: 0.8em; background-color: #f6f6f6;" 
+| style="text-align: right;" | '''Annual new'''
+| 40.1
+| 50.9
+| 76.8
+| 99
+| 109&lt;ref name="BNEF-Est-2018"&gt;{{cite web|title=Clean Energy Investment Exceeded $300 Billion Once Again in 2018|publisher= [[BNEF]] – Bloomberg New Energy Finance |url=https://about.bnef.com/blog/clean-energy-investment-exceeded-300-billion-2018/|date=16 January 2019 |accessdate=14 February 2019}}&lt;/ref&gt;
+| 121
+| ''121-154''
+|- style="text-align: center; font-size: 0.8em; background-color: #f6f6f6;" 
+| style="text-align: right;" | '''Cumulative&lt;br/&gt; growth'''
+| 28%
+| 29%
+| 32%
+| 32%
+| 27%
+| 24%
+| 
+|-
+| colspan=8 style="background-color: #f9f9f9;" |
+&lt;div style="background-color: #444; color: white; padding: 0; margin-top: 19px; text-align: center;"&gt;'''Installed PV in watts per capita'''&lt;/div&gt;
+
+[[File:Worldwide Photovoltaic Deployment in Watts per Capita by Country.svg|frameless|upright=1.6|alt=Worldwid PV capacity in watts per capita by country in 2013.]]
+
+&lt;div style="padding-left: 60px;"&gt;
+{| style="width: 80%; font-size: 0.8em; text-align: left;"
+|-
+| valign=top |
+{{legend|#C5C5C5|border=1px solid #aaa| none or unknown}}
+{{legend|#b7e952|border=1px solid #97D41C| 0.1–10 watts}}
+{{legend|#f9ef58|border=1px solid #CABD07| 10–100 watts}}
+| valign=top |
+{{legend|#fac934|border=1px solid #C29305| 100–200 watts}}
+{{legend|#f6871b|border=1px solid #BF6308| 200–400 watts}}
+{{legend|#dc5207|border=1px solid #943705| 400–600 watts}}
+|}
+&lt;/div&gt;
+|-
+| colspan=8 style="background-color: #f9f9f9; border-bottom: none; " |
+
+&lt;div style="background-color: #444; color: white; padding: 0; margin-bottom: -5px; margin-top: 14px; position: relative; z-index: 1000; text-align: center;"&gt;'''History of cumulative PV capacity worldwide'''&lt;/div&gt;
+
+&lt;div style="position: relative; margin-top: -20px;"&gt;
+[[File:PV cume semi log chart 2014 estimate.svg|frameless|upright=1.6|alt=Exponential growth-curve on a semi-log scale, show a straight line since 1992]]
+&lt;/div&gt;
+
+|-
+| colspan=8 style="background-color: #f9f9f9; border-bottom: none;" |
+
+&lt;div style="background-color: #444; color: white; padding: 0; text-align: center;"&gt;'''Grid parity for solar PV around the world'''&lt;/div&gt;
+
+[[File:Grid parity map.svg|frameless|upright=1.6|alt=Grid parity for solar PV systems around the world]]
+
+&lt;div style="padding-left: 60px;"&gt;
+{| style="width: 90%; font-size: 0.8em; text-align: left;"
+&lt;!--
+|-
+| colspan=2 | Current status of territories at grid-parity
+--&gt;
+|-
+| valign=top |
+{{legend|#00CC66|border=1px solid #aaa|reached before 2014}}
+{{legend|#66a6a6|border=1px solid #aaa|reached after 2014}}
+| valign=top |
+{{legend|#a6a666|border=1px solid #aaa|only for peak prices}}
+{{legend|#ff9955|border=1px solid #aaa|predicted U.S. states}}
+|}
+&lt;/div&gt;
+|}
+|}
+
+Worldwide '''growth of photovoltaics''' has been close to [[exponential growth|exponential]] between 1992 and 2018. 
+During this period of time, [[photovoltaics]] (PV), also known as solar PV, evolved from a niche market of small scale applications to a mainstream [[Energy development|electricity source]]. 
+
+When [[solar PV system]]s were first recognized as a promising [[renewable energy]] technology, subsidy programs, such as [[feed-in tariff]]s, were implemented by a number of governments in order to provide economic incentives for investments. For several years, growth was mainly driven by Japan and pioneering European countries. As a consequence, cost of solar declined significantly due to [[experience curve effects]] like improvements in technology and [[economies of scale]]. Several national programs were instrumental in increasing PV deployment, such as the [[Energiewende]] in Germany, the [[Million Solar Roofs]] project in the United States, and China's 2011 five-year-plan for energy production.&lt;ref name="guardian-china"&gt;{{cite web |last1=Lacey |first1=Stephen |title=How China dominates solar power |url=https://www.theguardian.com/environment/2011/sep/12/how-china-dominates-solar-power |work=Guardian Environment Network |accessdate=29 June 2014 |date=12 September 2011}}&lt;/ref&gt; Since then, deployment of photovoltaics has gained momentum on a worldwide scale, increasingly competing with [[conventional energy]] sources. In the early 21st century a market for [[Photovoltaic power station|utility-scale plants]] emerged to complement rooftop and other distributed applications.&lt;ref&gt;{{cite book |last1=Wolfe |first1=Philip |title=Solar Photovoltaic Projects in the mainstream power market |date=2012 |publisher=Routledge |isbn=9780415520485 |pages=225}}&lt;/ref&gt; By 2015, some 30 countries had reached [[grid parity]].&lt;ref name="deutsche-2015-chasm"&gt;{{cite web |url=https://www.db.com/cr/en/docs/solar_report_full_length.pdf |title=Crossing the Chasm |publisher=Deutsche Bank Markets Research |date=27 February 2015 |archiveurl=https://www.webcitation.org/6XSrEw1QL |archivedate=1 April 2015 |url-status=live}}&lt;/ref&gt;{{rp|9}}
+
+Since the 1950s, when the first solar cells were commercially manufactured, there has been a succession of countries leading the world as the largest producer of electricity from solar photovoltaics. First it was the United States, then Japan,&lt;ref&gt;{{cite book |last1=Wolfe |first1=Philip |title=The Solar Generation |date=2018 |publisher=Wiley - IEEE |isbn=9781119425588 |page=81|title-link=The Solar Generation }}&lt;/ref&gt; followed by Germany, and currently China.
+
+By the end of 2018, global cumulative installed PV capacity reached about 512 [[gigawatt]]s (GW), of which about 180 GW (35%) were utility-scale plants.&lt;ref&gt;{{cite news |title=Utility-scale solar in 2018 Still growing thanks to Australia and other later entrants |url=http://wiki-solar.org/library/public/190314_Utility-scale_solar_in_2018.pdf |accessdate=22 March 2019 |publisher=[[Wiki-Solar]] |date=14 March 2019}}&lt;/ref&gt;
+Solar power supplied about 3% of global electricity demand in 2019.&lt;ref name="iea-pvps-snapshot-2020"&gt;{{cite web |title=Snapshot 2020 – IEA-PVPS |url=https://iea-pvps.org/snapshot-reports/snapshot-2020/ |website=iea-pvps.org |accessdate=10 May 2020}}&lt;/ref&gt;
+In 2018, solar PV contributed between 7% and 8% to the annual domestic consumption in [[Solar power in Italy|Italy]], [[Solar power in Greece|Greece]], Germany, and Chile. 
+The largest penetration of solar power in electricity production is found in [[Solar power in Honduras|Honduras]] (14%). 
+Solar PV contribution to electricity in [[Solar power in Australia|Australia]] is edging towards 7%, while in the [[Solar power in the United Kingdom|United Kingdom]] and [[Solar power in Spain|Spain]] it is close to 4%. 
+China and [[Solar power in India|India]] moved above the world average of 2.55%, while, in descending order, the [[Solar power in the United States|United States]], South Korea, [[Solar power in France|France]] and  [[Solar power in South Africa|South Africa]] are below the world's average.&lt;ref name="IEA-PVPS-Trends-2018" /&gt;{{rp|76}}
+
+Projections for photovoltaic growth are difficult and burdened with many uncertainties.{{cn|date=November 2019}} Official agencies, such as the [[International Energy Agency]] (IEA) have consistently increased their estimates for decades, while still falling far short of projecting actual deployment in every forecast.&lt;ref name="energywatchgroup"&gt;{{cite web |url=http://energywatchgroup.org/wp-content/uploads/2015/09/EWG_WEO-Study_2015.pdf |title= The projections for the future and quality in the past of the World Energy Outlook for solar PV and other renewable energy technologies |publisher=Energywatchgroup |date=September 2015 |url-status=dead |archiveurl= https://web.archive.org/web/20160915150103/http://energywatchgroup.org/wp-content/uploads/2015/09/EWG_WEO-Study_2015.pdf |archive-date= 15 September 2016}}&lt;/ref&gt;&lt;ref name="energypost-iea"&gt;{{cite web |last1=Osmundsen |first1=Terje |title=How the IEA exaggerates the costs and underestimates the growth of solar power |url=http://www.energypost.eu/iea-exaggerates-costs-underestimates-growth-solar-power/ |website=Energy Post |accessdate=30 October 2014 |date=4 March 2014 |archivedate=30 October 2014 |archiveurl= https://www.webcitation.org/6Tho10h3T |url-status= live}}&lt;/ref&gt;&lt;ref name="theenergycollective-iea"&gt;{{cite web
+ |last1=Whitmore |first1=Adam |title=Why Have IEA Renewables Growth Projections Been So Much Lower Than the Out-Turn? |url=http://theenergycollective.com/onclimatechangepolicy/286586/why-have-iea-s-projections-renewables-growth-been-so-much-lower-out-tur |website=The Energy Collective |accessdate=30 October 2014 |date=14 October 2013 |archivedate=30 October 2014 |archiveurl=https://www.webcitation.org/6ThoCrwDs |url-status=live}}&lt;/ref&gt; [[BNEF|Bloomberg NEF]] projects global solar installations to grow in 2019, adding another 125–141&amp;nbsp;GW resulting in a total capacity of 637–653&amp;nbsp;GW by the end of the year.&lt;ref name="BNEF-Projection-2019"&gt;{{cite web|title=Transition in Energy, Transport – 10 Predictions for 2019 – 2. Solar additions rise despite China |publisher= [[BNEF]] – Bloomberg New Energy Finance |url=https://about.bnef.com/blog/transition-energy-transport-10-predictions-2019/ |date=16 January 2019 |accessdate=15 February 2019}}&lt;/ref&gt; By 2050, the IEA foresees solar PV to reach 4.7 [[terawatt]]s (4,674&amp;nbsp;GW) in its high-renewable scenario, of which more than half will be deployed in China and India, making [[solar power]] the world's largest source of electricity.&lt;ref name="IEA-roadmap-PV-2014" /&gt;&lt;ref&gt;{{cite web |title=One Chart Shows How Solar Could Dominate Electricity In 30 Years |website=[[Business Insider]] |url=https://www.businessinsider.com/solar-to-become-largest-electricity-source-by-2050-2014-9?r=US&amp;IR=T |date=30 September 2014}}&lt;/ref&gt;
+
+
+{{Pie chart
+| thumb = right
+| caption =Added PV capacity by country in 2017 (by percent of world total, clustered by region)&lt;ref name="iea-pvps-snapshot-1992-2017" /&gt;
+| other = 
+| label1 =[[Solar power in China|China]]
+| value1 =55.8
+| color1 =#de2821
+| label2 =[[Solar power in Japan|Japan]]
+| value2 =7.4
+| color2 =#800000
+| label3 =[[Solar power in South Korea|South Korea]]
+| value3 =1.3
+| color3 =pink
+| label4 =[[Solar power in India|India]]
+| value4 =9.6
+| color4 =#FFF380
+| label5 =[[Solar power in Australia|Australia]]
+| value5 =1.3
+| color5 =#CC6600
+| label6 =[[Solar power in the United States|United States]]
+| value6 =11.2
+| color6 =#3366CC
+| label7 =[[Solar power in Brazil|Brazil]]
+| value7 =0.9
+| color7 =#33CCFF
+| label8 =[[Solar power in Turkey|Turkey]]
+| value8 =2.7
+| color8 =#850AFF
+| label9 =[[Solar power in Germany|Germany]]
+| value9 =1.9
+| color9 =#008000
+| label10 =[[Solar power in the United Kingdom|United Kingdom]]
+| value10 =0.9
+| color10 = #54C571
+| label11 =[[Solar power in France|France]]
+| value11 =0.9
+| color11 =#808000
+| label12 =[[Solar power in the Netherlands|Netherlands]]
+| value12 =0.9
+| color12 =#00FF00
+| label13 =[[Solar power in the European Union|Rest of Europe]]
+| value13 =1.5
+| color13 =forestgreen
+| label14 =Rest of the World
+| value14 =3.7
+| color14 =#666666
+}}
+
+== Solar PV nameplate capacity ==
+[[Nameplate capacity]] denotes the peak power output of power stations in unit watt [[Unit prefix|prefixed]] as convenient, to e.g. [[kilowatt]] (kW), [[megawatt]] (MW) and [[gigawatt]] (GW). Because power output for variable renewable sources is unpredictable, a source's average generation is generally significantly lower than the nameplate capacity. In order to have an estimate of the average power output, the capacity can be multiplied by a suitable [[capacity factor]], which takes into account varying conditions - weather, nighttime, latitude, maintenance. 
+Worldwide, the average solar PV capacity factor is 11%.&lt;ref name="eia-cf" /&gt;
+In addition, depending on context, the stated peak power may be prior to a subsequent conversion to [[alternating current]], e.g. for a single photovoltaic panel, or include this conversion and its loss for a grid connected [[photovoltaic power station]].&lt;ref name="epia-2014" /&gt;{{rp|15}}&lt;ref name="iea-pvps-snapshot-1992-2013" /&gt;{{rp|10}} 
+
+[[Wind power]] has different characteristics, e.g. a higher [[capacity factor]] and about four times the 2015 electricity production of solar power. Compared with wind power, photovoltaic power production correlates well with power consumption for air-conditioning in warm countries. {{Asof|2017}} a handful of utilities have started combining PV installations with battery banks, thus obtaining several hours of [[dispatchable generation]] to help mitigate problems associated with the [[duck curve]] after sunset.&lt;ref&gt;{{cite news |url= http://www.treehugger.com/energy-policy/tesla-kills-duck-big-batteries.html |work= [[TreeHugger]] |title= Tesla kills the duck with big batteries |first= Lloyd |last= Alter |date= 2017-01-31 |accessdate= 2017-03-16}}&lt;/ref&gt;&lt;ref&gt;{{cite news|url= https://www.cnbc.com/2017/03/08/tesla-battery-packs-power-the-hawaiian-island-of-kauai-after-dark.html |website= [[CNBC|cnbc.com]] |title= Tesla battery packs power the Hawaiian island of Kauai after dark |first= Phil |last= LeBeau |date= 2017-03-08 |accessdate= 2017-03-16}}&lt;/ref&gt;
+
+==Current status==
+=== Worldwide ===
+
+In 2017, photovoltaic capacity increased by 95&amp;nbsp;GW, with a 34% growth year-on-year of new installations. Cumulative installed capacity exceeded 401&amp;nbsp;GW by the end of the year, sufficient to supply 2.1 percent of the world's total [[electricity consumption]].&lt;ref name="IEA-PVPS-2016"&gt;{{cite web |url=http://www.iea-pvps.org/fileadmin/dam/public/report/statistics/IEA-PVPS_-_A_Snapshot_of_Global_PV_-_1992-2016__1_.pdf|title=Snapshot of Global Photovoltaic Markets 2017|date=19 April 2017 |accessdate=11 July 2017 |work=report |publisher=International Energy Agency}}&lt;/ref&gt;
+
+=== Regions ===
+
+As of 2018, Asia was the fastest growing region, with almost 75% of global installations. China alone accounted for more than half of worldwide deployment in 2017. In terms of cumulative capacity, Asia was the most developed region with more than half of the global total of 401&amp;nbsp;GW in 2017.&lt;ref name="iea-pvps-snapshot-1992-2017" /&gt; Europe continued to decline as a percentage of the global PV market. In 2017, Europe represented 28% of global capacity, the Americas 19% and Middle East 2%.&lt;ref name="iea-pvps-snapshot-1992-2017" /&gt;
+
+Solar PV covered 3.5% and 7% of European electricity demand and [[peak electricity demand]], respectively in 2014.&lt;ref name="iea-pvps-snapshot-1992-2014" /&gt;{{rp|6}}
+
+=== Countries and territories ===
+&lt;noinclude&gt;
+{{main|Solar power by country}}
+
+Worldwide growth of photovoltaics is extremely dynamic and varies strongly by country. The top installers of 2017 were China, the United States, and India.&lt;ref&gt;[https://www.greentechmedia.com/articles/read/iea-global-installed-pv-capacity-leaps-to-303-gw IEA: Global Installed PV Capacity Leaps to 303 Gigawatts], greentechmedia, Eric Wesoff, April 27, 2017&lt;/ref&gt; There are more than 24 countries around the world with a cumulative PV capacity of more than one gigawatt. The Philippines, Turkey, Israel, and Brazil all crossed the one gigawatt total installations mark in 2017 which Austria, Chile, and South Africa did in 2016. The available solar PV capacity in Honduras is sufficient to supply 12.5% of the nation's electrical power while [[#Italy|Italy]], Germany and [[#Greece|Greece]] can produce between 7% and 8% of their respective domestic electricity consumption.&lt;ref name="IEA-PVPS-2016" /&gt;&lt;ref name=epia-2015/&gt;&lt;ref name="iea-pvps-snapshot-1992-2014" /&gt; 
+
+Leading PV deployments in 2017 were [[Solar power in China|China]] (53&amp;nbsp;GW), [[Solar power in the United States|United States]] (10.6&amp;nbsp;GW), [[Solar power in India|India]] (9&amp;nbsp;GW), and [[Solar power in Japan|Japan]] (7&amp;nbsp;GW), the same four countries that led 2016 installations.&lt;ref name="iea-pvps-snapshot-1992-2016"&gt;{{cite web|url=http://www.iea-pvps.org/fileadmin/dam/public/report/statistics/IEA-PVPS_-_A_Snapshot_of_Global_PV_-_1992-2016__1_.pdf|title=2016 Snapshot of Global Photovoltaic Markets|publisher=[[International Energy Agency]]|year=2017|id=Report IEA PVPS T1-31:2017}}&lt;/ref&gt;&lt;ref name="iea-pvps-snapshot-1992-2017"&gt;{{cite web|url=http://www.iea-pvps.org/fileadmin/dam/public/report/statistics/IEA-PVPS_-_A_Snapshot_of_Global_PV_-_1992-2017.pdf|title=2018 Snapshot of Global Photovoltaic Markets|publisher=[[International Energy Agency]]|year=2018|id=Report IEA PVPS T1-33:2018}}&lt;/ref&gt;
+
+&lt;/noinclude&gt;{| class="wikitable sortable mw-datatable" style="text-align:right;"
+|+ Solar PV capacity by country and territory (MW) and share of total electricity consumption &lt;includeonly&gt;[ [[Growth of photovoltaics#Countries|view/edit]] ]&lt;/includeonly&gt;
+! 
+! colspan="2" |2015&lt;ref name="IEA-PVPS-2015"&gt;{{cite web |url=http://www.iea-pvps.org/fileadmin/dam/public/report/PICS/IEA-PVPS_-__A_Snapshot_of_Global_PV_-_1992-2015_-_Final_2_02.pdf |title=Snapshot of Global Photovoltaic Markets |date=22 April 2016 |accessdate=24 May 2016 |work=report |publisher=International Energy Agency}}&lt;/ref&gt;
+! colspan="2" |2016&lt;ref name="IEA-PVPS-2016" /&gt;
+! colspan="2" |2017&lt;ref name="iea-pvps-snapshot-1992-2017" /&gt;
+! colspan="2" |2018&lt;ref name="IRENA Renewable Capacity Statistics 2019"&gt;{{cite book|url=https://www.irena.org/-/media/Files/IRENA/Agency/Publication/2019/Mar/IRENA_RE_Capacity_Statistics_2019.pdf|title=Renewable Capacity Statistics|last=|first=|date=2019|publisher=IRENA|isbn=978-92-9260-123-2|location=|pages=24–26|accessdate=3 May 2019}}&lt;/ref&gt;&lt;ref name=":1"&gt;{{Cite web|url=http://www.iea-pvps.org/fileadmin/dam/public/report/statistics/IEA-PVPS_T1_35_Snapshot2019-Report.pdf|title=IEA PVPS Snapshot of Global PV 2019|website=IEA}}&lt;/ref&gt;
+! colspan="2" |2019&lt;ref name="iea-pvps-snapshot-2020" /&gt;&lt;ref&gt;{{cite web |title=Renewable Capacity Statistics 2020 |url=https://www.irena.org/publications/2020/Mar/Renewable-Capacity-Statistics-2020 |website=irena.org |accessdate=23 May 2020 |language=en}}&lt;/ref&gt;|| rowspan="2" data-sort-type="number" | Share of total&lt;br/&gt;consumption&lt;sup&gt;1&lt;/sup&gt;
+
+|-
+! Country or territory !! data-sort-type="number" | Added !! data-sort-type="number" | Total !! data-sort-type="number" | Added !! data-sort-type="number" | Total !! data-sort-type="number" | Added !! data-sort-type="number" | Total 
+!! data-sort-type="number" | Added !! data-sort-type="number" | Total 
+!Added
+!Total
+|-
+| align=left| {{flagicon|China}} [[Solar power in China|China]] || 15,150 || 43,530 || 34,540 || 78,070 || 53,000 || 131,000 ||45,000
+| 175,018 
+|30,100
+|204,700|| 3.9% (2019)&lt;ref name="iea-pvps-snapshot-2020" /&gt;
+|-
+| align=left| {{flagicon|European Union}} [[Solar power in the European Union|European Union]] || 7,230 || 94,570 ||  || 101,433 ||  || 107,150 ||8,300
+| 115,234 
+|16,000
+|131,700||4.9% (2019)&lt;ref name="iea-pvps-snapshot-2020" /&gt;
+|-
+| align="left" | {{flagicon|United States}} [[Solar power in the United States|United States]]|| 7,300 || 25,620 || 14,730 || 40,300 || 10,600 || 51,000 ||10,600
+| 62,200 
+|13,300
+|75,900|| 2.8% (2019)&lt;ref name="iea-pvps-snapshot-2020" /&gt;
+|-
+| align="left" |{{flagicon|Japan}} [[Solar power in Japan|Japan]]|| 11,000 || 34,410 || 8,600 || 42,750 || 7,000 || 49,000 ||6,500
+| 55,500 
+|7,000
+|63,000|| 7.6% (2019)&lt;ref name="iea-pvps-snapshot-2020" /&gt;
+|-
+| align=left| {{flagicon|Germany}} [[Solar power in Germany|Germany]] || 1,450 || 39,700 || 1,520 || 41,220 || 1,800 || 42,000 ||3,000
+| 45,930 
+|3,900
+|49,200|| 8.6% (2019)&lt;ref name="iea-pvps-snapshot-2020" /&gt;
+|-
+| align="left" |{{flagicon|India}} [[Solar power in India|India]]|| 2,000 || 5,050 || 3,970 || 9,010 || 9,100 || 18,300 ||10,800
+| 26,869 
+|9,900
+|42,800|| 7.5% (2019)&lt;ref name="iea-pvps-snapshot-2020" /&gt;
+|-
+| align=left| {{flagicon|Italy}} [[Solar power in Italy|Italy]] || 300 || 18,920 || 373 || 19,279 || 409 || 19,700 ||  || 20,120 
+|600
+|20,800|| 7.5% (2019)&lt;ref name="iea-pvps-snapshot-2020" /&gt;
+|-
+| align="left" |{{flagicon|Australia}} [[Solar power in Australia|Australia]]|| 935 || 5,070 || 839 || 5,900 || 1,250 || 7,200 ||3,800
+| 11,300
+|3,700
+|15,928|| 8.1% (2019)&lt;ref name="iea-pvps-snapshot-2020" /&gt;
+|-
+| align="left" | {{flagicon|United Kingdom}} [[Solar power in the United Kingdom|United Kingdom]]|| 3,510 || 8,780 || 1,970 || 11,630 || 900 || 12,700 ||  || 13,108
+|233
+|13,300|| 4.0% (2019)&lt;ref name="iea-pvps-snapshot-2020" /&gt;
+|-
+| align="left" | {{flagicon|South Korea}} [[Solar power in South Korea|South Korea]]|| 1,010 || 3,430 || 850 || 4,350 || 1,200 || 5,600 ||2,000
+| 7,862
+|3,100
+|11,200|| 3.1% (2019)&lt;ref name="iea-pvps-snapshot-2020" /&gt;
+|-
+| align="left" | {{flagicon|France}} [[Solar power in France|France]]|| 879 || 6,580 || 559 || 7,130 || 875 || 8,000 ||  || 9,483
+|900
+|9,900|| 2.4% (2019)&lt;ref name="iea-pvps-snapshot-2020" /&gt;
+|-
+| align="left" |{{flagicon|Spain}} [[Solar power in Spain|Spain]]|| 56 || 5,400 || 55 || 5,490 || 147 || 5,600 ||  || 4,744
+|
+| 8,761|| 4.8% (2019)&lt;ref name="iea-pvps-snapshot-2020" /&gt;
+|-
+| align="left" |{{flagicon|Netherlands}} [[Solar power in the Netherlands|Netherlands]]|| 450 || 1,570 || 525 || 2,100 || 853 || 2,900 ||1,300
+| 4,150
+|
+| 6,725|| 3.6% (2018)&lt;ref name=":1" /&gt;
+|-
+| align="left" |{{flagicon|Turkey}} [[Solar power in Turkey|Turkey]]||  ||  || 584 || 832 || 2,600 || 3,400 ||1,600
+| 5,063 
+|
+|5,995
+| 5.1% (2019)&lt;ref name="iea-pvps-snapshot-2020" /&gt;
+|-
+| align="left" | {{flagicon|Vietnam}} [[Solar power in Vietnam|Vietnam]]
+|
+|6
+|
+|6
+|
+|9
+|
+|106
+|4,800
+|5,695
+|
+|-
+| align="left" |{{flagicon|Ukraine}} [[Solar power in Ukraine|Ukraine]]|| 21 || 432 || 99 || 531 || 211 || 742 || 1,200 || 2,003
+|3,500
+|4,800|| &lt;1% (2017)&lt;ref name="res17"&gt;{{cite web |url=http://uprom.info/news/energy/potuzhnosti-vidnovlyuvanoyi-elektroenergetiki-u-2017-rotsi-zrosli-u-dva-razi/ |title=Потужності відновлюваної електроенергетики у 2017 році зросли у два рази |author= |date=2018-01-27 |website=uprom.info |publisher=National Industrial Portal |accessdate=2018-01-28}}&lt;/ref&gt;
+|-
+| align="left" |{{flagicon|Belgium}} [[Solar power in Belgium|Belgium]]|| 95 || 3,250 || 170 || 3,422 || 284 || 3,800 ||  || 4,026
+|
+|4,531
+| 4.7% (2018)&lt;ref name=":1" /&gt;
+|-
+| align="left" |{{flagicon|Mexico}} [[Solar power in Mexico|Mexico]]||  ||  || 150 || 320 || 150 || 539 ||2,700
+| 3,200
+|
+| 4,426||2.6% (2018)&lt;ref name=":1" /&gt;
+|-
+| align="left" | {{flagicon|Taiwan}} [[Solar power in Taiwan|Taiwan]]|| 400 || 1,010 ||  ||  ||  ||  ||  || 2,618
+|
+|4,100|| 
+|-
+| align="left" | {{flagicon|Canada}} [[Solar power in Canada|Canada]]|| 600 || 2,500 || 200 || 2,715 || 212 || 2,900 ||  || 3,113
+|
+| 3,310|| 0.6% (2018)&lt;ref name=":1" /&gt;
+|-
+| align="left" | {{flagicon|Thailand}} [[Solar power in Thailand|Thailand]]|| 121 || 1,420 || 726 || 2,150 || 251 || 2,700 ||  || 2,720
+|
+|2,982
+| 2.3% (2018)&lt;ref name=":1" /&gt;
+|-
+| align="left" |{{flagicon|Brazil}} [[Solar power in Brazil|Brazil]]||  ||  ||  ||  || 900 || 1,100&lt;ref&gt;{{cite web |title=Brazil To Hit 2 Gigawatts Of Installed Solar By End Of 2018 |publisher=CleanTechnia |url=https://cleantechnica.com/2018/05/15/brazil-to-hit-2-gigawatts-of-installed-solar-by-end-of-2018 |date=15 May 2018}}&lt;/ref&gt;||  || 2,296 || 551&lt;ref&gt;{{cite web |title=75% of Brazil’s new power comes from hydroelectric, wind energy and solar power | url=https://www.evwind.es/2020/01/19/75-of-brazils-new-power-comes-from-hydroelectric-wind-energy-and-solar-power/73131}}&lt;/ref&gt;|| 2,847 || 
+|-
+| align="left" |{{flagicon|Greece}} [[Solar power in Greece|Greece]]|| 10 || 2,613 ||  ||  ||  ||  ||  || 2,652
+|
+| 2,763|| 7.5% (2018)&lt;ref name=":1" /&gt;
+|-
+| align="left" |{{flagicon|Chile}} [[Solar power in Chile|Chile]]|| 446 || 848 || 746 || 1,610 || 668 || 1,800 ||  || 2,137
+|
+| 2,648|| 8.5% (2019)&lt;ref name="iea-pvps-snapshot-2020" /&gt;
+|-
+| align="left" |{{flagicon|South Africa}} [[Solar power in South Africa|South Africa]]|| 200 || 1,120 || 536 || 1,450 || 13 || 1,800 ||  || 2,559
+|
+|2,561
+| 1.4% (2018)&lt;ref name=":1" /&gt;
+|-
+| align="left" |{{flagicon|Switzerland}} [[Solar power in Switzerland|Switzerland]]|| 300 || 1,360 || 250 || 1,640 || 260 || 1,900 || 346 || 2,246
+|
+|2,524
+| 3.6% (2018)&lt;ref name=":1" /&gt;
+|-
+| align="left" | {{flagicon|Czech Republic}} [[Solar power in the Czech Republic|Czech Republic]]|| 16 || 2,083 || 48 || 2,131 || 63 || 2,193 ||  || 2,078
+|
+| 2,070|| 3.5% (2018)&lt;ref name=":1" /&gt;
+|-
+|{{flagicon|United Arab Emirates}} [[Solar power in the United Arab Emirates|United Arab Emirates]]
+|
+|35
+|
+|42
+|
+|255
+|
+|494
+|
+|1,783
+|
+|-
+| align="left" | {{flagicon|Egypt}} [[Solar power in Egypt|Egypt]]
+|
+|25
+|
+|48
+|
+|169
+|
+|750
+|
+|1,647
+|
+|-
+| align="left" |{{flagicon|Austria}} [[Solar power in Austria|Austria]]|| 150 || 937 || 154 || 1,077 || 153 || 1,250 ||  || 1,431
+|
+| 1,578|| 2.0% (2018)&lt;ref name=":1" /&gt;
+|-
+| align="left" |{{flagicon|Romania}} [[Solar power in Romania|Romania]]|| 102 || 1,325 ||  ||1,372
+|  || 1,374 ||  || 1,377
+|
+|1,386
+| 2.8% (2018)&lt;ref name=":1" /&gt;
+|-
+| align="left" | {{flagicon|Pakistan}} [[Solar power in Pakistan|Pakistan]]|| 600 || 1,000 ||  ||  ||  ||  ||  || 1,568
+|
+| 1,329|| 
+|-
+| align="left" | {{flagicon|Poland}} [[Solar power in Poland|Poland]]|| 57 || 87 ||  ||  ||  ||  ||  || 487
+|
+|1,300
+| 
+|-
+| align="left" |{{flagicon|Hungary}} [[Solar power in Hungary|Hungary]]|| 60 || 138 ||  ||  ||  ||  ||  || 665
+|
+| 1,277|| 
+|-
+| align="left" |{{flagicon|Israel}} [[Solar power in Israel|Israel]]|| 200 || 881 || 130 || 910 || 60 || 1,100 ||  || 1,070
+|
+|1,190
+|8.7% (2019)&lt;ref name="iea-pvps-snapshot-2020" /&gt;
+|-
+| align="left" |{{flagicon|Bulgaria}} [[Solar power in Bulgaria|Bulgaria]]|| 1 || 1,029 ||  || 1,028 ||  || 1,036|| 0 || 1,036
+|
+|1,065
+|3.8% (2018)&lt;ref name=":1" /&gt;
+|-
+| align="left" |{{flagicon|Denmark}} [[Solar power in Denmark|Denmark]]|| 183 || 789 || 70 || 900 || 60 || 910 ||  || 998
+|
+| 1,079|| 2.9% (2018)&lt;ref name=":1" /&gt;
+|-
+| align="left" |{{flagicon|Russia}} [[Solar power in Russia|Russia]]|| 55 || 62 || 15 || 77 || 159 || 236 || 310 || 546
+|
+| 1,064|| 
+|-
+| align="left" |{{flagicon|Jordan}} [[Solar power in Jordan|Jordan]]
+|
+|29
+|
+|298
+|
+|471
+|
+|829
+|
+|998
+|
+|-
+| align="left" |{{flagicon|Philippines}} [[Solar power in the Philippines|Philippines]]|| 122 || 155 || 756 || 900 ||  ||  ||  || 886
+|
+|922
+| 
+|-
+| align="left" |{{flagicon|Malaysia}} [[Solar power in Malaysia|Malaysia]]|| 63 || 231 || 54 || 286 || 50 || 386 ||  || 438
+|
+| 882||0.8% (2018)&lt;ref name=":1" /&gt;
+|-
+| align="left" |{{flagicon|Portugal}} [[Solar power in Portugal|Portugal]]||  ||  || 58 || 513 || 57 || 577 ||  || 670
+|
+| 828|| 2.2% (2018)&lt;ref name=":1" /&gt;
+|-
+| align="left" |{{flagicon|Sweden}} [[Solar power in Sweden|Sweden]]|| 51 || 130 || 60 || 175 || 93 || 303 ||  || 421
+|
+| 644|| 0.4% (2018)&lt;ref name=":1" /&gt;
+|-
+| align="left" |{{flagicon|Honduras}} [[Solar power in Honduras|Honduras]]||391 ||391 ||  || 414 ||  || 451 ||  || 485
+|
+| 511|| 14.8% (2019)&lt;ref name="iea-pvps-snapshot-2020" /&gt;
+|-
+| align="left" |{{flagicon|Slovakia}} [[Solar power in Slovakia|Slovakia]]|| 1 || 591 ||  ||533
+|  ||528
+|  || 472
+|
+|472
+|2.1% (2018)&lt;ref name=":1" /&gt;
+|-
+| align="left" |{{flagicon|Algeria}}[[Solar power in Algeria|Algeria]]
+|
+|49
+|
+|219
+|
+|400
+|
+|423
+|
+|423
+|
+|-
+| align="left" |{{flagicon|Iran}} [[Solar power in Iran|Iran]]||  || 9 || 34 || 43 || 141 || 184 ||102
+| 286 ||81
+|367
+| 0.4% (2019)&lt;ref name=":1" /&gt;
+|-
+| align="left" |{{flagicon|Bangladesh}}[[Renewable energy in Bangladesh|Bangladesh]]|| || 145 || || 161 || || 185 || || 201 || || 284
+|
+|-
+| align="left" |{{flagicon|Singapore}} [[Solar power in Singapore|Singapore]]||  ||46
+|  ||97
+|  ||118
+|  || 160
+|
+|255
+|0.8% (2018)&lt;ref&gt;{{cite press release|url=https://www.ema.gov.sg/cmsmedia/Publications_and_Statistics/Publications/SES18/Publication_Singapore_Energy_Statistics_2018.pdf|title=Publication_Singapore_Energy_Statistics, Energy Market Authority}}&lt;/ref&gt;
+|-
+| align="left" |{{flagicon|Morocco}} [[Solar power in Morocco|Morocco]]
+|
+|20
+|
+|22
+|
+|25
+|
+|205
+|
+|206
+|
+|-
+| align="left" |{{flagicon|Malta}} [[Solar power in Malta|Malta]]|| 19 || 73 || 20 || 93 || 19 || 112 ||  || 127
+|
+| 154|| 6.5% (2017)&lt;ref&gt;{{cite press release |url= https://nso.gov.mt/en/News_Releases/View_by_Unit/Unit_02/Regional_and_Geospatial_Statistics/Documents/2018/News2018_156.pdf |title= Electricity Generation: 2008-2017 |publisher= National Statistics Office, Malta|date=8 October 2018}}&lt;/ref&gt;
+|-
+| align="left" | {{flagicon|Luxembourg}} [[Solar power in Luxembourg|Luxembourg]]|| 15 || 125 ||  || 122 ||  || 127 ||  || 134
+|
+| 150|| 
+|-
+| align="left" |{{flagicon|Namibia}}[[Energy in Namibia|Namibia]]
+|
+|21
+|
+|36
+|
+|70
+|
+|88
+|
+|135
+|
+|-
+| align="left" |{{flagicon|Finland}} [[Solar power in Finland|Finland]]&lt;ref name=":3"&gt;{{Cite web|url=https://docs.google.com/viewer?url=http://www.iea-pvps.org/index.php?id=93&amp;eID=dam_frontend_push&amp;docID=4852|title=IEA PVPS National Survey Report of PV Power Applications in Finland 2018|date=2019-07-23|website=IEA PVPS|page=6|type=It refers to PDF National Survey Report of PV Power Applications in Finland 2018 visible from that page http://iea-pvps.org/index.php?id=93 that is viewed through Google Docs to prevent auto-downloading of PDF|access-date=2019-07-30}}&lt;/ref&gt;|| 5 || 20 || 17 || 37 || 23 || 80 || 53.1 || 134
+|
+|215
+| 0.2% (2018)&lt;ref name=":1" /&gt;
+|-
+| align="left" |{{flagicon|Senegal}}[[Solar power in Senegal|Senegal]]
+|
+|11
+|
+|43
+|
+|113
+|
+|134
+|
+|134
+|
+|-
+| align="left" | {{flagicon|Cyprus}} [[Solar power in Cyprus|Cyprus]]|| 5 || 70 || 14 || 84 || 21 || 105 ||  || 113
+|
+| 129|| 3.3% (2016)&lt;ref&gt;{{cite web|url=https://www.statista.com/statistics/497618/electricity-production-from-solar-in-cyprus/|title=Cyprus: Solar photovoltaic electricity production 2012-2018|date=2019|website=Statista.com}}&lt;/ref&gt;
+|-
+| align="left" | {{flagicon|Lithuania}} [[Solar power in Lithuania|Lithuania]]&lt;ref name="IRENA Renewable Capacity Statistics 2019" /&gt;|| 0 || 69 || 1 || 70 || 4 || 74|| 10 || 84
+|
+|103
+| 
+|-
+| align="left" |{{flagicon|Norway}} [[Solar power in Norway|Norway]]|| 2 || 15 || 11 || 27 || 18 || 45 ||23 || 68
+|
+|90
+| 0.0% (2018)&lt;ref name=":1" /&gt;
+|-
+| align="left" | {{flagicon|Croatia}} [[Solar power in Croatia|Croatia]]&lt;ref name="IRENA Renewable Capacity Statistics 2019" /&gt;|| 15 || 48 || 8 ||56 || 4 || 60 || 1 || 61
+|
+| 69|| 
+|-
+! World total !! 59,000&lt;ref name="GTM-2015" /&gt;|| 256,000&lt;ref name="GTM-2015"&gt;{{cite web |url=http://www.greentechmedia.com/articles/read/gtm-research-global-solar-pv-installations-grew-34-in-2015 |title=IEA PVPS: 177 GW of PV installed worldwide |date=22 January 2016 |accessdate=24 May 2016 |work=news |publisher=Greentech Media |author=Mike Munsell}}&lt;/ref&gt;|| 76,800 || 306,500 || 95,000 || 401,500 ||  || 510,000&lt;ref name=":1" /&gt;
+!
+!627,000&lt;ref name="iea-pvps-snapshot-2020" /&gt;|| 3.0% (2019)&lt;ref name="iea-pvps-snapshot-2020" /&gt;
+|- class="sortbottom" 
+| colspan="12" style="text-align:left" |&lt;sup&gt;1&lt;/sup&gt; Share of total electricity consumption for latest available year
+|}
+&lt;noinclude&gt;
+{{Image frame
+ |width = 300
+ |align=right
+ |pos=bottom
+ |content= &lt;div style="margin: 5px 5px -40px -60px; font-size: 0.85em;"&gt;
+ {{ #invoke:Chart
+  |bar-chart
+  |width= 330
+  |height= 220
+  |stack= 1 
+  |group 1= 2.5 :  6.0 : 7.1 : 16.2 : 29.3 : 29.8 : 37.3 : 39.7 : 50.3 : 77.8 : 81.1: 84.5 : 91.0 : 96.7 : 104.2 : 112.5
+  |group names = 
+  |hide group legends = 1
+  |units suffix = _GW
+  |x legends = 2007 : : 2009 : : 2011 : : 2013 : : 2015 : : 2017 : : 2019 : : 2021 : 
+ }}
+&lt;/div&gt;
+|caption =Historical and projected global demand for solar PV (new installations, GW). &lt;br/&gt; Source: GTM Research, Q2 2017&lt;ref name="GTM-GSDM-Q2-2017"&gt;{{Cite news|url=https://www.greentechmedia.com/articles/read/global-solar-capacity-set-to-surpass-global-nuclear-capacity|title=Global Solar Demand Monitor: Q2 2017|publisher=[[Greentech Media]] Research|access-date=2017-08-25}}&lt;/ref&gt;
+}}
+[[File:China Photovoltaics Installed Capacity.svg|thumb|PV capacity growth in [[Solar power in China|China]]]]
+[[File:Europe WattPerCapita animated sequence 1992-2014.gif|thumb|right|Growth of PV in Europe 1992-2014]]
+&lt;/noinclude&gt;
+
+== History of leading countries==
+{{see also|Timeline of solar cells}}
+
+The [[Solar power in the United States|United States]] was the leader of installed photovoltaics for many years, and its total capacity was 77 [[megawatt]]s in 1996, more than any other country in the world at the time. From the late 1990s, [[Solar power in Japan|Japan]] was the world's leader of solar electricity production until 2005, when [[Solar power in Germany|Germany]] took the lead and by 2016 had a capacity of over 40 [[gigawatt]]s. In 2015, [[Solar power in China|China]] surpassed Germany to become the world's largest producer of photovoltaic power,&lt;ref&gt;{{cite news |title=China's solar capacity overtakes Germany in 2015, industry data show |work=[[Reuters]] |url= https://www.reuters.com/article/china-solar-idUSL3N15533U |date= 21 January 2016}}&lt;/ref&gt; and in 2017 became the first country to surpass 100&amp;nbsp;GW of installed capacity.
+
+=== United States (1954–1996) ===
+
+The [[Solar power in the United States|United States]], where modern solar PV was invented, led installed capacity for many years. Based on preceding work by Swedish and German engineers, the American engineer [[Russell Ohl]] at [[Bell Labs]] patented the first modern solar cell in 1946.&lt;ref&gt;{{cite book |last1=Wolfe |first1=Philip |title=The Solar Generation |date=2018 |publisher=Wiley - IEEE |isbn=9781119425588 |page=120|title-link=The Solar Generation }}&lt;/ref&gt;&lt;ref&gt;[http://patft.uspto.gov/netacgi/nph-Parser?Sect1=PTO1&amp;Sect2=HITOFF&amp;d=PALL&amp;p=1&amp;u=%2Fnetahtml%2FPTO%2Fsrchnum.htm&amp;r=1&amp;f=G&amp;l=50&amp;s1=2402662.PN.&amp;OS=PN/2402662&amp;RS=PN/2402662 United States Patent and Trademark Office – Database]&lt;/ref&gt;&lt;ref&gt;{{cite book|url=https://books.google.com/?id=9CcDAAAAMBAJ&amp;pg=PA41 |title=Magic Plates, Tap Sun For Power|publisher=Popular Science |date=June 1931|accessdate=2 August 2013}}&lt;/ref&gt; It was also there at Bell Labs where the first practical [[Crystalline silicon|c-silicon]] cell was developed in 1954.&lt;ref&gt;{{cite web|url=http://www.aps.org/publications/apsnews/200904/physicshistory.cfm|title=Bell Labs Demonstrates the First Practical Silicon Solar Cell|work=aps.org}}&lt;/ref&gt;&lt;ref&gt;{{cite journal|title=A New Silicon p–n Junction Photocell for Converting Solar Radiation into Electrical Power|author=D. M. Chapin-C. S. Fuller-G. L. Pearson|journal=Journal of Applied Physics |volume=25|issue=5|pages=676–677|doi=10.1063/1.1721711|year=1954|bibcode=1954JAP....25..676C}}&lt;/ref&gt; [[Hoffman Electronics]], the leading manufacturer of silicon solar cells in the 1950s and 1960s, improved on the cell's efficiency, produced solar radios, and equipped [[Vanguard&amp;nbsp;I]], the first [[Solar panels on spacecraft|solar powered satellite]] launched into orbit in 1958.
+
+In 1977 US-President [[Jimmy Carter]] installed [[solar hot water panel]]s on the White House promoting [[solar energy]]&lt;ref name="whitehouse-panels"&gt;{{cite web |author=Biello David |title=Where Did the Carter White House's Solar Panels Go? |url=http://www.scientificamerican.com/article/carter-white-house-solar-panel-array/ |website=Scientific American |accessdate=31 July 2014 |date=6 August 2010}}&lt;/ref&gt; and the [[National Renewable Energy Laboratory]], originally named ''Solar Energy Research Institute'' was established at Golden, Colorado. In the 1980s and early 1990s, most photovoltaic modules were used in [[stand-alone power system]]s or powered consumer products such as [[Solar-powered watch|watches]], [[Solar-powered calculator|calculators]] and toys, but from around 1995, industry efforts have focused increasingly on developing grid-connected [[rooftop PV system]]s and [[Photovoltaic power station|power stations]]. By 1996, solar PV capacity in the US amounted to 77&amp;nbsp;megawatts–more than any other country in the world at the time. Then, Japan moved ahead.
+
+=== Japan (1997–2004) ===
+
+[[Solar power in Japan|Japan]] took the lead as the world's largest producer of PV electricity, after the city of Kobe was hit by the [[Great Hanshin earthquake]] in 1995. Kobe experienced severe power outages in the aftermath of the earthquake, and [[PV systems]] were then considered as a temporary supplier of power during such events, as the disruption of the [[electric grid]] paralyzed the entire infrastructure, including gas stations that depended on electricity to pump gasoline. Moreover, in December of that same year, an accident occurred at the multibillion-dollar experimental [[Monju Nuclear Power Plant]]. A sodium leak caused a major fire and forced a shutdown (classified as [[International Nuclear Event Scale|INES]] 1). There was massive public outrage when it was revealed that the semigovernmental agency in charge of Monju had tried to cover up the extent of the accident and resulting damage.&lt;ref&gt;{{cite news| title=REACTOR ACCIDENT IN JAPAN IMPERILS ENERGY PROGRAM| first=Andrew | last=Pollack | url=https://www.nytimes.com/1996/02/24/world/reactor-accident-in-japan-imperils-energy-program.html| work=New York Times| date=24 February 1996}}&lt;/ref&gt;&lt;ref&gt;wise-paris.org [http://www.wise-paris.org/index.html?/english/ournewsletter/2/page7.html&amp;/english/frame/menu.html&amp;/english/frame/band.html Sodium Leak and Fire at Monju]&lt;/ref&gt; Japan remained world leader in photovoltaics until 2004, when its capacity amounted to 1,132&amp;nbsp;megawatts. Then, focus on PV deployment shifted to Europe.
+
+=== Germany (2005–2014) ===
+
+In 2005, [[Solar power in Germany|Germany]] took the lead from Japan. With the introduction of the [[German Renewable Energy Act|Renewable Energy Act]] in 2000, [[feed-in tariffs]] were adopted as a policy mechanism. This policy established that renewables have priority on the grid, and that a fixed price must be paid for the produced electricity over a 20-year period, providing a guaranteed return on investment irrespective of actual market prices. As a consequence, a high level of investment security lead to a soaring number of new photovoltaic installations that peaked in 2011, while investment costs in renewable technologies were brought down considerably. In 2016 Germany's installed PV capacity was over the 40&amp;nbsp;GW mark.
+
+=== China (2015–present) ===
+
+China surpassed Germany's capacity by the end of 2015, becoming the world's largest producer of photovoltaic power.&lt;ref&gt;{{cite web |url= http://cleantechnica.com/2016/01/22/china-overtakes-germany-become-worlds-leading-solar-pv-country/|title= China Overtakes Germany To Become World's Leading Solar PV Country|first= Joshua|last=S Hill |date= January 22, 2016|accessdate= August 16, 2016|work= Clean Technica}}&lt;/ref&gt; [[Solar power in China|China]]'s rapid PV growth continued in 2016 – with 34.2&amp;nbsp;GW of solar photovoltaics installed.&lt;ref&gt;{{Cite web|url=http://www.solarserver.com/solar-magazine/solar-news/current/2017/kw03/nea-china-added-3424-gw-of-solar-pv-capacity-in-2016.html|title=NEA: China added 34.24 GW of solar PV capacity in 2016|last=|first=|date=|website=solarserver.com|language=en|access-date=2017-01-22}}&lt;/ref&gt; The quickly lowering feed in tariff rates&lt;ref&gt;https://www.reuters.com/article/us-china-renewables-tariffs-idUSKBN0U703Y20151224&lt;/ref&gt; at the end of 2015 motivated many developers to secure tariff rates before mid-year 2016 – as they were anticipating further cuts (correctly so&lt;ref&gt;http://www.renewableenergyworld.com/articles/2016/10/china-to-lower-feed-in-tariff-cut-subsidies-for-solar-pv-systems.html&lt;/ref&gt;). During the course of the year, China announced its goal of installing 100&amp;nbsp;GW during the next [[Five-year plans of China|Chinese Five Year Economic Plan]] (2016–2020). China expected to spend ¥1 trillion ($145B) on solar construction&lt;ref&gt;{{Cite news|url=https://www.reuters.com/article/us-china-energy-renewables-idUSKBN14P06P|title=China to plow $361 billion into renewable fuel by 2020|date=2017-01-05|newspaper=Reuters|access-date=2017-01-22}}&lt;/ref&gt; during that period. Much of China's PV capacity was built in the relatively less populated west of the country whereas the main centres of power consumption were in the east (such as Shanghai and Beijing).&lt;ref name=":0"&gt;{{Cite news|url=https://www.bbc.co.uk/news/business-40341833|title=Future Energy: China leads world in solar power production|last=Baraniuk|first=Chris|date=2017-06-22|work=BBC News|access-date=2017-06-27|language=en-GB}}&lt;/ref&gt; Due to lack of adequate power transmission lines to carry the power from the solar power plants, China had to curtail its PV generated power.&lt;ref name=":0" /&gt;&lt;ref&gt;{{Cite web|url=http://www.scmp.com/news/china/policies-politics/article/2088865/china-wasted-enough-renewable-energy-power-beijing|title=China wasted enough renewable energy to power Beijing for an entire year, says Greenpeace|language=en|accessdate=19 April 2017}}&lt;/ref&gt;&lt;ref&gt;{{Cite web|url=http://www.scmp.com/business/article/2088905/china-erect-fewer-farms-generate-less-solar-power-2017|title=China to erect fewer farms, generate less solar power in 2017|language=en|accessdate=19 April 2017}}&lt;/ref&gt;
+
+== History of market development ==
+
+=== Prices and costs (1977–present) ===
+
+{{multiple image
+|direction = vertical
+|align = right
+|width1= 220
+|width2= 220
+|image1=Swansons-law.svg
+|image2=Price history of silicon PV cells since 1977.svg
+|caption1=[[Swanson's law]] – the PV learning curve
+|caption2=Price decline of [[crystalline silicon|c-Si]] [[solar cell]]s
+}}
+
+{| class="wikitable floatleft" style="font-size: 0.9em; margin-right: 12px; margin-top: 12px"
+|-
+! Type of cell or module
+! Price per Watt
+|-
+| [[Polycrystalline silicon|Multi-Si]] [[Solar cell|Cell]] {{small|(&amp;gt;18.5%)}} || align=center | $0.09{{small|3}}
+|-
+| [[Monocrystalline silicon|Mono-Si]] Cell {{small|(&amp;gt;20.0%)}} || align=center | $0.10{{small|5}}
+|-
+| High Efficiency Mono-Si Cell {{small|(&amp;gt;21.0%)}} || align=center | $0.15{{small|7}}
+|-
+| Superior High Efficiency Mono-Si Cell (USD) {{small|(&amp;gt;21.5%)}} || align=center | $0.11{{small|8}}
+|-
+| 270W Multi-Si [[solar module|Module]] || align=center | $0.20{{small|3}}
+|-
+| 280W Multi-Si Module || align=center | $0.21{{small|3}}
+|-
+| 290W Mono-Si Module || align=center | $0.23{{small|0}}
+|-
+| 310W Mono-Si Module ([[PERC cell|PERC]]) || align=center | $0.28{{small|0}}
+|-
+! colspan=2 style="font-weight: normal; font-size: 0.92em; padding: 6px 2px 4px 4px; text-align: left;"| Source: ''EnergyTrend, price quotes, average prices, 30 October 2019''&amp;thinsp;&lt;ref name="energytrend-pricequotes"&gt;
+{{cite web
+ |url=https://pv.energytrend.com/pricequotes.html
+ |title=Price quotes updated weekly – PV Spot Prices
+ |work=PV EnergyTrend
+ |access-date=31 October 2018
+}}&lt;/ref&gt;&amp;nbsp;
+|}
+The average [[price per watt]] dropped drastically for solar cells in the decades leading up to 2017. While in 1977 prices for [[crystalline silicon]] cells were about $77 per watt, average spot prices in August 2018 were as low as $0.13 per watt or nearly 600 times less than forty years ago. Prices for [[thin-film solar cell]]s and for c-Si [[solar panel]]s were around $.60 per watt.&lt;ref name="energytrend-pv-spotprice"&gt;
+{{cite web
+ |title=PriceQuotes
+ |url=http://pv.energytrend.com/pricequotes.html
+ |website= pv.energytrend.com
+ |accessdate=26 June 2014
+ |archiveurl=https://www.webcitation.org/6QcjhW4C9
+ |archivedate=26 June 2014
+ |url-status=live
+}}&lt;/ref&gt; Module and cell prices declined even further after 2014 ''(see price quotes in table)''.
+
+This price trend was seen as evidence supporting [[Swanson's law]] (an observation similar to the famous [[Moore's Law]]) that states that the per-watt cost of solar cells and panels fall by 20 percent for every doubling of cumulative photovoltaic production.&lt;ref name="Econ1"&gt;{{cite web |url=https://www.economist.com/news/21566414-alternative-energy-will-no-longer-be-alternative-sunny-uplands |title=Sunny Uplands: Alternative energy will no longer be alternative |work=[[The Economist]] |accessdate =2012-12-28 |date=21 November 2012}}&lt;/ref&gt; A 2015 study showed price/kWh dropping by 10% per year since 1980, and predicted that solar could contribute 20% of total electricity consumption by 2030.&lt;ref&gt;{{cite journal |title=How predictable is technological progress? |journal=Research Policy |volume=45 |issue=3 |pages=647–665 |doi=10.1016/j.respol.2015.11.001 |author= J. Doyne Farmer, François Lafond |date=2 November 2015|arxiv=1502.05274 }} License: cc. Note: Appendix F. A trend extrapolation of solar energy capacity.&lt;/ref&gt;
+
+{{anchor|Typical PV system prices}}
+In its 2014 edition of the ''Technology Roadmap: Solar Photovoltaic Energy'' report, the International Energy Agency (IEA) published prices for residential, commercial and utility-scale [[PV system]]s for eight major markets as of 2013 ''(see table below)''.&lt;ref name="IEA-roadmap-PV-2014" /&gt; However, DOE's [[SVTC Technologies#The SunShot Initiative|SunShot Initiative]] report states lower prices than the IEA report, although both reports were published at the same time and referred to the same period. After 2014 prices fell further. For 2014, the SunShot Initiative modeled U.S. system prices to be in the range of $1.80 to $3.29 per watt.&lt;ref name="sunshot-2014"&gt;{{cite web |url=http://www.nrel.gov/docs/fy14osti/62558.pdf |title=Photovoltaic System Pricing Trends – Historical, Recent, and Near-Term Projections, 2014 Edition |work=NREL |page=4 |date=22 September 2014 |archiveurl=https://www.webcitation.org/6XOoaSCpl |archivedate=29 March 2015 |url-status=live}}&lt;/ref&gt; Other sources identified similar price ranges of $1.70 to $3.50 for the different market segments in the U.S.&lt;ref&gt;{{cite web |work=GreenTechMedia |url=http://www.greentechmedia.com/articles/read/solar-pv-system-prices-continue-to-fall-during-a-record-breaking-2014 |title=Solar PV Pricing Continues to Fall During a Record-Breaking 2014 |date=13 March 2015}}&lt;/ref&gt; In the highly penetrated German market, prices for residential and small commercial rooftop systems of up to 100&amp;nbsp;kW declined to $1.36 per watt (€1.24/W) by the end of 2014.&lt;ref&gt;{{cite web |url=http://www.photovoltaik-guide.de/pv-preisindex |title=Photovoltaik-Preisindex |trans-title=Solar PV price index |work=PhotovoltaikGuide |quote=Turnkey net-prices for a solar PV system of up to 100 kWp amounted to Euro 1,240 per kWp. |access-date=30 March 2015}}&lt;/ref&gt; In 2015, Deutsche Bank estimated costs for small residential rooftop systems in the U.S. around $2.90 per watt. Costs for utility-scale systems in China and India were estimated as low as $1.00 per watt.&lt;ref name="deutsche-2015-chasm" /&gt;{{rp|9}}  
+
+{| class="wikitable" style="text-align: center; font-size: 0.9em; margin: 6px auto;"
+|+ Typical PV system prices in 2013 in selected countries (USD)
+|-
+! USD/W
+!width="70" | [[Solar power in Australia|Australia]]
+!width="70" | [[Solar power in China|China]]
+!width="70" | [[Solar power in France|France]]
+!width="70" | [[Solar power in Germany|Germany]]
+!width="70" | [[Solar power in Italy|Italy]]
+!width="70" | [[Solar power in Japan|Japan]]
+!width="70" | [[Solar power in the United Kingdom|United Kingdom]]
+!width="70" | [[Solar power in the United States|United States]]
+|-
+| align="left" |&amp;nbsp;Residential
+|1.8
+|1.5
+|4.1
+|2.4
+|2.8
+|4.2
+|2.8
+|4.9&lt;sup&gt;1&lt;/sup&gt;
+|-
+| align="left" |&amp;nbsp;Commercial
+|1.7
+|1.4
+|2.7
+|1.8
+|1.9
+|3.6
+|2.4
+|4.5&lt;sup&gt;1&lt;/sup&gt;
+|-
+| align="left" |&amp;nbsp;Utility-scale
+|2.0
+|1.4
+|2.2
+|1.4
+|1.5
+|2.9
+|1.9
+|3.3&lt;sup&gt;1&lt;/sup&gt;
+|-
+| colspan="9" style="font-size: 0.85em; padding: 4px 6px; text-align: left; background-color: #f2f2f2;" | Source: ''[[International Energy Agency|IEA]] – Technology Roadmap: Solar Photovoltaic Energy report, September 2014'''&lt;ref name="IEA-roadmap-PV-2014" /&gt;{{rp|15}}&lt;br/&gt;&lt;sup&gt;1&lt;/sup&gt;U.S figures are lower in DOE's Photovoltaic System Pricing Trends&lt;ref name="sunshot-2014" /&gt; 
+|}
+
+According to the [[International Renewable Energy Agency]], a "sustained, dramatic decline" in utility-scale solar PV electricity cost driven by lower solar PV module and system costs continued in 2018, with global weighted average [[Cost of electricity by source|levelized cost of energy]] of solar PV falling to USD $0.085 per kilowatt-hour, or 13% lower than projects commissioned the previous year, resulting in a decline from 2010 to 2018 of 77%.&lt;ref&gt;{{cite book |title=Renewable Power Generation Costs in 2018 |date=2019 |publisher=International Renewable Energy Agency |location=Abu Dhabi |pages=20–22 |url=https://www.irena.org/-/media/Files/IRENA/Agency/Publication/2019/May/IRENA_Renewable-Power-Generations-Costs-in-2018.pdf |accessdate=25 November 2019}}&lt;/ref&gt;
+
+=== Technologies (1990–present) ===
+
+[[File:Global Market Share by PV Technology from 1990 to 2013.svg|thumb|upright=1.4|left|Market-share of PV technologies since 1990]]
+
+There were significant advances in conventional [[crystalline silicon]] (c-Si) technology in the years leading up to 2017. The falling cost of the [[polysilicon]] since 2009, that followed after a period of severe shortage ''(see below)'' of silicon feedstock, pressure increased on manufacturers of commercial [[thin film solar cell|thin-film PV technologies]], including amorphous thin-film silicon (a-Si), cadmium telluride (CdTe), and copper indium gallium diselenide (CIGS), led to the bankruptcy of several thin-film companies that had once been highly touted.&lt;ref&gt;RenewableEnergyWorld.com [http://www.renewableenergyworld.com/rea/news/article/2011/01/how-thin-film-solar-fares-vs-crystalline-silicon How thin film solar fares vs crystalline silicon], 3 January 2011&lt;/ref&gt; The sector faced price competition from Chinese crystalline silicon cell and module manufacturers, and some companies together with their patents were sold below cost.&lt;ref name=NYT01913&gt;{{cite news|title=Chinese Firm Buys U.S. Solar Start-Up|url=https://www.nytimes.com/2013/01/10/business/energy-environment/chinese-company-buys-2-solar-companies-from-west.html|accessdate=January 10, 2013|newspaper=The New York Times|date=January 9, 2013|author=Diane Cardwell|author2=Keith Bradsher}}&lt;/ref&gt;
+
+{{Pie chart
+| thumb = right
+| caption =Global PV market by technology in 2013.&lt;ref name="Pie-Chart-Fraunhofer-PR-2014"&gt;
+ {{cite web
+  |title=Photovoltaics Report
+  |url=http://www.ise.fraunhofer.de/en/downloads-englisch/pdf-files-englisch/photovoltaics-report-slides.pdf
+  |publisher=Fraunhofer ISE
+  |date=28 July 2014
+  |archiveurl=https://www.webcitation.org/6SFRTUaBS
+  |archivedate=31 August 2014
+  |url-status=live
+ }}&lt;/ref&gt;{{rp|18,19}}
+| other = 
+| label1 =[[Cadmium telluride photovoltaics|CdTe]]
+| value1 =5.1 
+| color1 =#de2821
+| label2 =[[Amorphous silicon|a-Si]]
+| value2 =2.0
+| color2 =#00CC00
+| label3 =[[Copper indium gallium selenide solar cell|CIGS]]
+| value3 =2.0
+| color3 =yellow
+| label4 =[[Monocrystalline silicon|mono-Si]]
+| value4 =36.0
+| color4 =#3300a6
+| label5 =[[Polycrystalline silicon|multi-Si]]
+| value5 =54.9
+| color5 =#4fc1cf
+}}
+
+In 2013 thin-film technologies accounted for about 9 percent of worldwide deployment, while 91 percent was held by crystalline silicon ([[mono-Si]] and [[multi-Si]]). With 5 percent of the overall market, CdTe held more than half of the thin-film market, leaving 2 percent to each CIGS and amorphous silicon.&lt;ref name="Fraunhofer-PR-2014"&gt;{{cite web
+|title=Photovoltaics Report
+|url=http://www.ise.fraunhofer.de/en/downloads-englisch/pdf-files-englisch/photovoltaics-report-slides.pdf
+|publisher=Fraunhofer ISE
+|accessdate=31 August 2014
+|archiveurl=https://www.webcitation.org/6SFRTUaBS
+|archivedate=31 August 2014
+|date=28 July 2014}}&lt;/ref&gt;{{rp|24–25}}
+
+*[[Copper indium gallium selenide solar cell|CIGS technology]]
+:Copper indium gallium selenide (CIGS) is the name of the semiconductor material on which the technology is based. One of the largest [[List of CIGS companies|producers of CIGS photovoltaics]] in 2015 was the Japanese company [[Solar Frontier]] with a manufacturing capacity in the gigawatt-scale. Their CIS line technology included modules with [[solar cell efficiency|conversion efficiencies]] of over 15%.&lt;ref name="solar-frontier-apr-2015"&gt;{{cite web |url=http://www.solar-frontier.com/eng/news/2015/C044372.html |title=Solar Frontier Completes Construction of the Tohoku Plant |work=Solar Frontier |date=2 April 2015 |access-date=30 April 2015}}&lt;/ref&gt; The company profited from the booming Japanese market and attempted to expand its international business. However, several prominent manufacturers could not keep up with the advances in conventional crystalline silicon technology. The company [[Solyndra]] ceased all business activity and filed for Chapter 11 bankruptcy in 2011, and [[Nanosolar]], also a CIGS manufacturer, closed its doors in 2013. Although both companies produced CIGS solar cells, it has been pointed out, that the failure was not due to the technology but rather because of the companies themselves, using a flawed architecture, such as, for example, Solyndra's cylindrical substrates.&lt;ref name="spw-cigs-simplified"&gt;
+{{cite web
+ |last1=Andorka
+ |first1=Frank
+ |title=CIGS Solar Cells, Simplified
+ |url=http://www.solarpowerworldonline.com/2014/01/cigs-solar-cells-simplified/
+ |work=Solar Power World
+ |accessdate=16 August 2014
+ |archiveurl=https://www.webcitation.org/6Rsia8Mv2
+ |archivedate=16 August 2014
+ |date=8 January 2014
+ |url-status=live
+}}
+&lt;/ref&gt;
+
+* [[Cadmium telluride photovoltaics|CdTe technology]]
+:The U.S.-company [[First Solar]], a leading manufacturer of CdTe, built several of the [[List of photovoltaic power stations|world's largest solar power stations]], such as the [[Desert Sunlight Solar Farm]] and [[Topaz Solar Farm]], both in the Californian desert with 550&amp;nbsp;MW capacity each, as well as the 102 MW&lt;sub&gt;[[Watt-peak AC|AC]]&lt;/sub&gt; Nyngan Solar Plant in [[Solar power in Australia|Australia]] (the largest PV power station in the Southern Hemisphere at the time) commissioned in mid-2015.&lt;ref&gt;{{cite web |work=AGL Energy Online |url=http://www.agl.com.au/about-agl/how-we-source-energy/renewable-energy/nyngan-solar-plant |title=Nyngan Solar Plant |access-date=18 June 2015}}&lt;/ref&gt; The company was reported in 2013 to be successfully producing CdTe-panels with a steadily increasing efficiency and declining cost per watt.&lt;ref&gt;CleanTechnica.com [http://cleantechnica.com/2013/11/07/first-solar-reports-largest-quarterly-decline-cdte-module-cost-per-watt-since-2007/ First Solar Reports Largest Quarterly Decline In CdTe Module Cost Per-Watt Since 2007], 7 November 2013&lt;/ref&gt;{{rp|18–19}} CdTe was the lowest [[Crystalline silicon#Energy payback time|energy payback time]] of all mass-produced PV technologies, and could be as short as eight months in favorable locations.&lt;ref name="Fraunhofer-PR-2014" /&gt;{{rp|31}} The company [[Abound Solar]], also a manufacturer of cadmium telluride modules, went bankrupt in 2012.&lt;ref&gt;{{cite news| url=http://www.denverpost.com/business/ci_21918799/bankrupt-abound-solar-colo-lives-political-football | work=Denver Post | first1=Steve | last1=Raabe | first2=Mark | last2=Jaffe | title=Bankrupt Abound Solar of Colo. lives on as political football | date=November 4, 2012}}&lt;/ref&gt;
+
+*[[Thin film solar cell#Amorphous silicon|a-Si technology]]
+:In 2012, [[Energy Conversion Devices|ECD solar]], once one of the world's leading manufacturer of amorphous silicon (a-Si) technology, filed for bankruptcy in Michigan, United States. Swiss [[OC Oerlikon]] divested its [[Oerlikon Solar|solar division]] that produced a-Si/μc-Si tandem cells to [[Tokyo Electron Limited]].&lt;ref&gt;{{cite web|url=http://www.greentechmedia.com/articles/read/The-End-Arrives-For-ECD-Solar-|title=The End Arrives for ECD Solar|author=|date=|work=greentechmedia.com|accessdate=27 January 2016}}&lt;/ref&gt;&lt;ref&gt;{{cite web|url=http://www.greentechmedia.com/articles/read/Oerlikon-Divests-its-Solar-Business-and-the-Fate-of-Amorphous-Silicon-Solar|title=Oerlikon Divests Its Solar Business and the Fate of Amorphous Silicon PV|author=|date=|work=greentechmedia.com|accessdate=27 January 2016}}&lt;/ref&gt; Other companies that left the amorphous silicon thin-film market include [[DuPont]], [[BP]], Flexcell, Inventux, Pramac, Schuco, Sencera, EPV Solar,&lt;ref&gt;GreenTechMedia.com [http://www.greentechmedia.com/articles/read/Rest-in-Peace-The-List-of-Deceased-Solar-Companies Rest in Peace: The List of Deceased Solar Companies], 6 April 2013&lt;/ref&gt; NovaSolar (formerly OptiSolar)&lt;ref&gt;{{cite web|url=http://www.greentechmedia.com/articles/read/NovaSolar-the-former-OptiSolar-Leaving-Smoking-Crater-in-Fremont|title=NovaSolar, Formerly OptiSolar, Leaving Smoking Crater in Fremont|author=|date=|work=greentechmedia.com|accessdate=27 January 2016}}&lt;/ref&gt; and [[Suntech Power]] that stopped manufacturing a-Si modules in 2010 to focus on [[crystalline silicon]] solar panels. In 2013, Suntech filed for bankruptcy in China.&lt;ref&gt;
+{{cite news
+ |url=https://www.nytimes.com/2013/03/21/business/energy-environment/chinese-solar-companys-operating-unit-declares-bankruptcy.html?pagewanted=all
+ |title=Chinese Subsidiary of Suntech Power Declares Bankruptcy
+ |date=20 March 2013
+ |work=New York Times
+}}
+&lt;/ref&gt;&lt;ref name="Bloomberg"&gt;
+{{cite news
+ |url=https://www.bloomberg.com/news/2014-04-29/suntech-seeks-new-cash-after-china-bankruptcy-liquidator-says.html
+ |title=Suntech Seeks New Cash After China Bankruptcy, Liquidator Says
+ |date= 29 April 2014
+ |work=Bloomberg News
+}}&lt;/ref&gt;
+
+=== Silicon shortage (2005–2008) ===
+
+[[File:Polysilicon prices history since 2004.svg|thumb|[[Polysilicon]] prices since 2004. As of October 2018, the [[Average selling price|ASP]] for polysilicon stands at $9.802/kg&lt;ref name="energytrend-pricequotes" /&gt;]]
+
+In the early 2000s, prices for [[polysilicon]], the raw material for conventional solar cells, were as low as $30 per kilogram and silicon manufacturers had no incentive to expand production.
+
+However, there was a severe silicon shortage in 2005, when governmental programmes caused a 75% increase in the deployment of solar PV in Europe. In addition, the demand for silicon from semiconductor manufacturers was growing. Since the amount of silicon needed for semiconductors makes up a much smaller portion of production costs, semiconductor manufacturers were able to outbid solar companies for the available silicon in the market.&lt;ref&gt;Wired.com [http://archive.wired.com/science/planetearth/news/2005/03/67013 Silicon Shortage Stalls Solar] 28 March 2005&lt;/ref&gt;
+
+Initially, the incumbent polysilicon producers were slow to respond to rising demand for solar 
+applications, because of their painful experience with over-investment in the past. Silicon prices sharply rose to about $80 per kilogram, and reached as much as $400/kg for long-term contracts and spot prices. In 2007, the constraints on silicon became so severe that the solar industry was forced to idle about a quarter of its cell and module manufacturing capacity—an estimated 777&amp;nbsp;MW of the then available production capacity. The shortage also provided silicon specialists with both the cash and an incentive to develop new technologies and several new producers entered the market. Early responses from the solar industry focused on improvements in the recycling of silicon. When this potential was exhausted, companies have been taking a harder look at alternatives to the conventional [[Siemens process]].&lt;ref&gt;
+{{cite web
+ |title=Solar State of the Market Q3 2008 – Rise of Upgraded Metallurgical Silicon
+ |url=http://www.solarweb.net/forosolar/attachments/aspectos-economicos-legales-administrativos/937d1241049999-verdadero-coste-la-energia-solar-espana-lux_research_rise_of_upgraded_metallurgical_silicon.pdf
+ |website=SolarWeb
+ |publisher= Lux Research Inc.
+ |page=1
+ |accessdate=12 October 2014
+ |archiveurl=https://www.webcitation.org/6TFljtiw4
+ |archivedate=12 October 2014
+ |url-status=dead
+}}&lt;/ref&gt;
+
+As it takes about three years to build a new polysilicon plant, the shortage continued until 2008. Prices for conventional solar cells remained constant or even rose slightly during the period of silicon shortage from 2005 to 2008. This is notably seen as a "shoulder" that sticks out in the [[commons:File:Swansons-law.png|Swanson's PV-learning curve]] and it was feared that a prolonged shortage could delay solar power becoming competitive with conventional energy prices without subsidies.
+
+In the meantime the solar industry lowered the number of grams-per-watt by reducing wafer thickness and kerf loss, increasing yields in each manufacturing step, reducing module loss, and raising panel efficiency. Finally, the ramp up of polysilicon production alleviated worldwide markets from the scarcity of silicon in 2009 and subsequently lead to an overcapacity with sharply declining prices in the photovoltaic industry for the following years.
+
+=== Solar overcapacity (2009–2013) ===
+{{thumb
+| width = 280
+|content=
+{{center|'''Solar module production'''}}
+{{center|style=font-size: 0.85em;|'''utilization of production capacity in %'''}}
+{{Graph:Chart
+| width = 220
+| height = 200
+| xAxisAngle = -40
+| x = 1993, 1994, 1995, 1996, 1997, 1998, 1999, 2000, 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013
+| yAxisMax = 1
+| yAxisMin = 0
+| yAxisFormat = %
+| y = .65, , .56, , .50, .50, .48, .60, .61, .64, .70, .73, .61, .71, .49, .52, .52, .57, .65, .58, .63
+| showSymbols = 
+}}
+|caption = Utilization rate of [[solar PV module]] production capacity in % since 1993&lt;ref name="iea-pvps-trends-2014" /&gt;{{rp|47}}
+}}
+
+As the [[Polycrystalline silicon#Manufacturers|polysilicon]] industry had started to build additional large production capacities during the shortage period, prices dropped as low as $15 per kilogram forcing some producers to suspend production or exit the sector. Prices for silicon stabilized around $20 per kilogram and the booming solar PV market helped to reduce the enormous global overcapacity from 2009 onwards. However, overcapacity in the PV industry continued to persist. In 2013, global record deployment of 38&amp;nbsp;GW (updated EPIA figure&lt;ref name="epia-2014" /&gt;) was still much lower than China's annual production capacity of approximately 60&amp;nbsp;GW. Continued overcapacity was further reduced by significantly lowering [[solar module]] prices and, as a consequence, many manufacturers could no longer cover costs or remain competitive. As worldwide growth of PV deployment continued, the gap between overcapacity and global demand was expected in 2014 to close in the next few years.&lt;ref&gt;
+{{cite web
+ |title=Annual Report 2013/2014
+ |url=http://www.ise.fraunhofer.de/en/publications/veroeffentlichungen-pdf-dateien-en/infomaterial/annual-reports/fraunhofer-ise-annual-report-2013-14.pdf
+ |website=ISE.Fraunhofer.de
+ |publisher=Fraunhofer Institute for Solar Energy Systems-ISE
+ |accessdate=5 November 2014
+ |archiveurl=https://www.webcitation.org/6TrDlHLYv
+ |archivedate=5 November 2014
+ |page=1
+ |date=2014
+ |url-status=live
+}}&lt;/ref&gt;
+
+IEA-PVPS published in 2014 historical data for the worldwide utilization of solar PV module production capacity that showed a slow return to normalization in manufacture in the years leading up to 2014. The utilization rate is the ratio of production capacities versus actual production output for a given year. A low of 49% was reached in 2007 and reflected the peak of the silicon shortage that idled a significant share of the module production capacity. As of 2013, the utilization rate had recovered somewhat and increased to 63%.&lt;ref name="iea-pvps-trends-2014" /&gt;{{rp|47}}
+
+=== Anti-dumping duties (2012–present) ===
+
+After anti-dumping petition were filed and investigations carried out,&lt;ref&gt;Europa.eu [http://europa.eu/rapid/press-release_MEMO-12-647_en.htm EU initiates anti-dumping investigation on solar panel imports from China]&lt;/ref&gt; the United States imposed tariffs of 31 percent to 250 percent on solar products imported from China in 2012.&lt;ref&gt;[https://www.bloomberg.com/news/2012-05-17/u-s-imposes-anti-dumping-duties-for-chinese-solar-imports.html U.S. Imposes Anti-Dumping Duties on Chinese Solar Imports], 12 May 2012&lt;/ref&gt; A year later, the EU also imposed definitive anti-dumping and anti-subsidy measures on imports of solar panels from China at an average of 47.7 percent for a two-year time span.&lt;ref&gt;Europa.eu [http://europa.eu/rapid/press-release_IP-13-1190_en.htm EU imposes definitive measures on Chinese solar panels, confirms undertaking with Chinese solar panel exporters], 02 December 2013&lt;/ref&gt;
+
+Shortly thereafter, China, in turn, levied duties on U.S. polysilicon imports, the feedstock for the production of solar cells.&lt;ref&gt;{{cite web |url=http://usa.chinadaily.com.cn/business/2013-09/16/content_16974631.htm |title=China to levy duties on US polysilicon imports |date=16 September 2013 |work=China Daily |archiveurl=https://www.webcitation.org/6YBY9PiuN |archivedate=30 April 2015 |url-status=live}}&lt;/ref&gt; In January 2014, the [[Chinese Ministry of Commerce]] set its anti-dumping tariff on U.S. polysilicon producers, such as Hemlock Semiconductor Corporation to 57%, while other [[Polycrystalline silicon#Manufacturers|major polysilicon producing companies]], such as German Wacker Chemie and Korean OCI were much less affected. All this has caused much controversy between proponents and opponents and was subject of debate.
+
+== History of deployment ==
+
+Deployment figures on a global, regional and nationwide scale are well documented since the early 1990s. While worldwide photovoltaic capacity grew continuously, deployment figures by country were much more dynamic, as they depended strongly on national policies. A number of organizations release comprehensive reports on PV deployment on a yearly basis. They include annual and cumulative deployed PV [[nameplate capacity|capacity]], typically given in [[watt-peak]], a break-down by markets, as well as in-depth analysis and forecasts about future trends.
+
+{{Timeline of the largest PV power stations in the world}}
+
+=== Worldwide annual deployment ===
+
+&lt;!-- pie chart - worldwide PV capacity by year of deployment (as of 2018) --&gt;
+{{Image frame
+|width = 220
+|align=right
+|pos=bottom
+|content=&lt;div style="background-color: #F9F9F9; font-size: 85%; text-align: left; padding: 10px 0 8px 5px; margin: 0;"&gt;
+ {{#invoke:Chart|pie chart
+ | radius = 100
+ | slices = 
+ &lt;!-- example: (installedCapacity:year:color) =&gt; e.g. ( 40,000 : 2014 : firebrick) --&gt;
+  ( 103,000: 2018 : #990033)
+  ( 95,000: 2017 : red)
+  ( 76,600: 2016 : orange)
+  ( 50,909: 2015 : #CCA300)
+  ( 40,134: 2014 : #ffcc00)
+  ( 38,352: 2013 : #FFE47A)
+  ( 30,011 : 2012 : #FFEFAD)
+  ( 30,133 : 2011 : #E8E8E8 )
+  ( 17,151 : 2010 : #cfcfcf)
+  ( 7,340 : 2009 : #aaa)
+  ( 6,661 : 2008 : #999)
+  ( 9,183 : before : #666)
+ | units suffix = _MW
+ | percent = true
+ }}&lt;/div&gt;
+|caption=Annual PV deployment as a %-share of global total capacity ''(estimate for 2018)''.&lt;ref name="epia-2015" /&gt;&lt;ref name="Est-Global-PV-2016/17" /&gt;
+}}
+
+Due to the exponential nature of PV deployment, most of the overall capacity has been installed in the years leading up to 2017 ''(see pie-chart)''. Since the 1990s, each year has been a record-breaking year in terms of newly installed PV capacity, except for 2012. Contrary to some earlier predictions, early 2017 forecasts were that 85 gigawatts would be installed in 2017.&lt;ref&gt;{{Cite web|url=https://cleantechnica.com/2017/04/05/gtm-forecasting-85-gw-solar-pv-installed-2017/|title=GTM Forecasting More Than 85 Gigawatts Of Solar PV To Be Installed In 2017|website=CleanTechnica|access-date=2017-06-28}}&lt;/ref&gt; Near end-of-year figures however raised estimates to 95&amp;nbsp;GW for 2017-installations.&lt;ref name="Est-Global-PV-2016/17"&gt;[https://cleantechnica.com/2017/10/27/global-solar-market-demand-expected-reach-100-gw-2017-solarpower-europe/ Global Solar Market Demand Expected To Reach 100 Gigawatts In 2017, Says SolarPower Europe], CleanTechnica, 27 October 2017&lt;/ref&gt;
+
+{{Image frame
+ |width = 555
+ |align=center
+ |pos=bottom
+ |content=
+ &lt;div style="margin: 15px 5px -43px -40px;"&gt;
+ {{ #invoke:Chart
+  | bar-chart
+  | width = 590
+  | height = 300
+  | stack = 1
+  | group 1 = 454 : 566 : 1088 : 1389 : 1547 : 2524 : 6661 : 7340 : 17151 : 30133: 30011 : 38352 : 40134 : 50909 : 0 : 0 : 0
+  | group 2 = 0 : 0 : 0 : 0 : 0 : 0 : 0 : 0 : 0 : 0 : 0 : 0 : 0 : 0 : 76600 : 95000 : 0
+  | group 3 = 0 : 0 : 0 : 0 : 0 : 0 : 0 : 0 : 0 : 0 : 0 : 0 : 0 : 0 : 0 : 0 : 103000
+  | colors = #ffcc00  : #ffcc00 : #990033
+  | group names = annual deployment : annual deployment : 2018 estimate
+  | hide group legends =1
+  | units suffix = _MW
+  | x legends = 2002 : : : : 2006 : : : : 2010 : : : : 2014 : : : : 2018
+ }}
+ &lt;/div&gt;
+|caption =&lt;div style="padding: 10px 2px 6px 6px;"&gt;Global annual installed capacity since 2002, in megawatts ''(hover with mouse over bar)''.&lt;/div&gt;&lt;div style="padding-left: 6px; font-size: 1.1em;"&gt;
+{{legend2|#ffcc00|annual deployment since 2002}}&amp;nbsp;
+{{legend2|orange|&amp;nbsp;2016: 76.8&amp;nbsp;GW}}&amp;nbsp;
+{{legend2|red|2018: 103&amp;nbsp;GW (estimate) }}
+&lt;/div&gt;
+}}
+{{clear left}}
+
+=== Worldwide cumulative ===
+
+[[File:PV cume semi log chart 2014 estimate.svg|thumb|Worldwide cumulative PV capacity on a semi log chart since 1992]]
+
+Worldwide growth of solar PV capacity was an exponential curve between 1992 and 2017. Tables below show global cumulative nominal capacity by the end of each year in [[megawatts]], and the year-to-year increase in percent. In 2014, global capacity was expected to grow by 33 percent from 139 to 185 GW. This corresponded to an exponential growth rate of 29 percent or about 2.4 years for current worldwide PV capacity to [[Doubling time|double]]. Exponential growth rate: P(t) = P&lt;sub&gt;0&lt;/sub&gt;e&lt;sup&gt;rt&lt;/sup&gt;, where ''P&lt;sub&gt;0&lt;/sub&gt;'' is 139&amp;nbsp;GW, growth-rate ''r'' 0.29 (results in [[doubling time]] ''t'' of 2.4 years).
+
+The following table contains data from multiple different sources. For 1992–1995: compiled figures of 16 main markets ''(see section [[#All time PV installations by country|All time PV installations by country]]),'' for 1996–1999: [[BP]]-Statistical Review of world energy (Historical Data Workbook)&lt;ref name="BP-review-world-energy" /&gt; for 2000–2013: EPIA Global Outlook on Photovoltaics Report&lt;ref name="epia-2014" /&gt;{{rp|17}}
+
+{| class="wikitable" style="text-align: right; float: left; margin-top: -4px; margin-right: 10px; font-size: 90%;"
+|+1990s 
+|-
+!&amp;nbsp;Year&amp;nbsp;
+!Capacity{{ref|woldwide-cume-Wp|A}}&lt;br/&gt;MW&lt;sub&gt;p&lt;/sub&gt;
+!Δ%{{ref|woldwide-cume-yty|B}}
+!Refs
+|-
+|align=center | 1991
+|''n.a.''
+|{{small|–}}&amp;nbsp;
+|{{ref|woldwide-cume-early-figures|C}}
+|-
+|align=center | 1992
+|105
+|{{small|n.a.}}
+|{{ref|woldwide-cume-early-figures|C}}
+|-
+|align=center | 1993
+|130
+|{{small|24%}}
+|{{ref|woldwide-cume-early-figures|C}}
+|-
+|align=center | 1994
+|158
+|{{small|22%}}
+|{{ref|woldwide-cume-early-figures|C}}
+|-
+|align=center | 1995
+|192
+|{{small|22%}}
+|{{ref|woldwide-cume-early-figures|C}}
+|-
+|align=center | 1996
+|309
+|{{small|61%}}
+|&lt;ref name="BP-review-world-energy" /&gt;
+|-
+|align=center | 1997
+|422
+|{{small|37%}}
+|&lt;ref name="BP-review-world-energy" /&gt;
+|-
+|align=center | 1998
+|566
+|{{small|34%}}
+|&lt;ref name="BP-review-world-energy" /&gt;
+|-
+|align=center | 1999
+|807
+|{{small|43%}}
+|&lt;ref name="BP-review-world-energy" /&gt;
+|-
+|align=center | 2000
+|1,250
+|{{small|55%}}
+|&lt;ref name="BP-review-world-energy" /&gt;
+|}
+
+{| class="wikitable" style="text-align: right; float: left; margin-right: 10px; margin-top: -4px; font-size: 90%;"
+|+2000s 
+|-
+!&amp;nbsp;Year&amp;nbsp;
+!Capacity{{ref|woldwide-cume-Wp|A}}&lt;br/&gt;MW&lt;sub&gt;p&lt;/sub&gt;
+!Δ%{{ref|woldwide-cume-yty|B}}
+!Refs
+|-
+|align=center | 2001
+|1,615
+|{{small|27%}}
+|&lt;ref name="epia-2014" /&gt;
+|-
+|align=center | 2002
+|2,069
+|{{small|28%}}
+|&lt;ref name="epia-2014" /&gt;
+|-
+|align=center | 2003
+|2,635
+|{{small|27%}}
+|&lt;ref name="epia-2014" /&gt;
+|-
+|align=center | 2004
+|3,723
+|{{small|41%}}
+|&lt;ref name="epia-2014" /&gt;
+|-
+|align=center | 2005
+|5,112
+|{{small|37%}}
+|&lt;ref name="epia-2014" /&gt;
+|-
+|align=center | 2006
+|6,660
+|{{small|30%}}
+|&lt;ref name="epia-2014" /&gt;
+|-
+|align=center | 2007
+|9,183
+|{{small|38%}}
+|&lt;ref name="epia-2014" /&gt;
+|-
+|align=center | 2008
+|15,844
+|{{small|73%}}
+|&lt;ref name="epia-2014" /&gt;
+|-
+|align=center | 2009
+|23,185
+|{{small|46%}}
+|&lt;ref name="epia-2014" /&gt;
+|-
+|align=center | 2010
+|40,336
+|{{small|74%}}
+|&lt;ref name="epia-2014" /&gt;
+|}
+
+{| class="wikitable" style="text-align: right; float: left; margin-right: 0; margin-top: -4px; font-size: 90%;"
+|+2010s 
+|-
+!&amp;nbsp;Year&amp;nbsp;
+!Capacity{{ref|woldwide-cume-Wp|A}}&lt;br/&gt;MW&lt;sub&gt;p&lt;/sub&gt;
+!Δ%{{ref|woldwide-cume-yty|B}}
+!Refs
+|-
+|align=center | 2011
+|70,469
+|{{small|75%}}
+|&lt;ref name="epia-2014" /&gt;
+|-
+|align=center | 2012
+|100,504
+|{{small|43%}}
+|&lt;ref name="epia-2014" /&gt;
+|-
+|align=center | 2013
+|138,856
+|{{small|38%}}
+|&lt;ref name="epia-2014" /&gt;
+|-
+|align=center | 2014
+|178,391
+|{{small|28%}}
+|&lt;ref name="epia-2015" /&gt;
+|-
+|align=center | 2015
+|229,300
+|{{small|29%}}
+|&lt;ref&gt;http://www.solarpowereurope.org/insights/new-global-market-outlook-2016/&lt;/ref&gt;
+|-
+|align=center | ''2016''
+|302,300
+|{{small|32%}}
+|
+|-
+|align=center | ''2017''
+|405,000
+|{{small|34%}}
+|&lt;ref&gt;{{cite web|url=https://www.renewableenergyworld.com/articles/2018/03/china-s-pv-module-exports-reached-37-9-gw-in-2017.html|title=China's Solar PV Module Exports Reached 37.9 GW in 2017|last=Liu|first=Yuanyuan|date=March 12, 2018|website=Renewable Energy World}}&lt;/ref&gt;
+|-
+|align=center | ''2018''
+|480,300
+|{{small|19%}}
+|
+|-
+|align=center | ''2019''
+|
+|
+|
+|-
+|align=center | ''2020''
+|
+|
+|
+|}
+
+&lt;div style="overflow: hidden; padding-left: 20px; min-width: 200px; max-width: 400px;"&gt;
+&lt;div style="clear: both; font-size: 0.85em; background-color: #f8f8f8; padding: 4px;"&gt;
+:'''Legend:'''
+: {{note|woldwide-cume-Wp|A}} Worldwide, cumulative [[nameplate capacity]] in [[Nominal power (photovoltaic)|megawatt-peak]] MW&lt;sub&gt;p&lt;/sub&gt;, (re-)calculated in DC power output.
+: {{note|woldwide-cume-yty|B}} annual increase of cumulative worldwide PV [[nameplate capacity]] in percent.
+: {{note|woldwide-cume-early-figures|C}} figures of 16 main markets, including Australia, Canada, Japan, Korea, Mexico, European countries, and the United States.
+&lt;/div&gt;
+&lt;/div&gt;{{clear}}
+
+=== Deployment by country ===
+{{further|History of photovoltaic growth|Solar power by country}}
+:''See section [[#Forecast|Forecast]]'' for projected photovoltaic deployment in 2017
+
+[[File:Grid parity map.svg|thumb|upright=2|[[Grid parity]] for solar PV systems around the world&lt;br/&gt;{{legend2|#00CC66|border=1px solid #666|Reached grid-parity before 2014}}&lt;br/&gt;{{legend2|#66a6a6|border=1px solid #666|Reached grid-parity after 2014}}&lt;br/&gt;{{legend2|#a6a666|border=1px solid #666|Reached grid-parity only for peak prices}}&lt;br/&gt;{{legend2|#ff9955|border=1px solid #666|U.S. states poised to reach grid-parity}}&lt;br/&gt;''Source: Deutsche Bank, as of February 2015'']]
+
+{{Image frame
+ |width = 250
+ |align=left
+ |pos=bottom
+ |content=
+ &lt;div style="margin: 0px 5px -40px -70px; font-size: 0.85em;"&gt;
+ &lt;div style="color: #000; font-size: 120%; font-weight: bold; padding: 10px 0 12px 90px;"&gt;Number of countries with PV capacities in the gigawatt-scale&lt;/div&gt;
+{{ #invoke:Chart | bar-chart
+  | width = 280
+  | height = 280
+  | stack = 1 
+  | group 1 = 0 : 0 : 0 : 0 : 0 : 0 : 0 : 0 : 0  : 0  : 0  : 0  : 0  : 1 : 1 : 1
+  | group 2 = 0 : 0 : 0 : 0 : 0 : 0 : 1 : 2 : 2  : 5  : 5  : 5  : 6  : 6 : 7 : 8
+  | group 3 = 2 : 2 : 2 : 2 : 4 : 5 : 7 : 8 : 12 : 12 : 15 : 18 : 19 : 22 : 24 : 28
+  | colors = #990000 : #FF0F4B : #F5B800
+  | group names = installed more than 100 GW : installed between 10 and 100 GW : installed between 1 and 10 GW
+  | units suffix = _countries
+  | hide group legends = 1
+  | x legends = : 2005 : : : : : 2010: : : : : 2015 : : : : 2019
+ }}&lt;/div&gt;
+|caption =Growing number of solar gigawatt-markets
+{{Collapsible list 
+ | title = {{legend2|#F5B800|border=1px solid #C29100|Countries above the 1-GW mark}}
+ |{{aligned table | cols=5 
+  | style=width: 60%; text-align: left; font-size: 100%; margin-left: 22px;
+  | 2019
+  | {{flagicon|RUS}} {{flagicon|HUN}}
+  | {{flagicon|DEN}}
+  | {{flagicon|POL}}
+  | {{flagicon|UAE}}
+  | 2018
+  | {{flagicon|MEX}} &lt;!-- &lt;ref&gt;{{cite news|title=Gigawatt solar markets seen in 13 countries in 2018 - GTM Research|url=https://www.pv-tech.org/news/gigawatt-solar-markets-seen-in-13-countries-in-2018-gtm-research|accessdate=27 April 2018|work=PV Tech|language=en}}&lt;/ref&gt;--&gt;
+  | {{flagicon|EGY}} &lt;!-- &lt;ref&gt;{{cite news|title=Gigawatt solar markets seen in 13 countries in 2018 - GTM Research|url=https://www.pv-tech.org/news/gigawatt-solar-markets-seen-in-13-countries-in-2018-gtm-research|accessdate=27 April 2018|work=PV Tech|language=en}}&lt;/ref&gt;--&gt;
+  | {{flagicon|UKR}} 
+  | 
+  | 2017
+  | {{flagicon|PHI}} &lt;!-- http://taiyangnews.info/markets/philippines-pv-close-to-1-gw/ --&gt;
+  | {{flagicon|TUR}} 
+  | {{flagicon|ISR}} 
+  | {{flagicon|BRA}} &lt;!-- https://cleantechnica.com/2018/05/15/brazil-to-hit-2-gigawatts-of-installed-solar-by-end-of-2018/ Access date 2018-01-23 --&gt;
+  | 2016
+  | {{flagicon|CHL}}
+  | {{flagicon|AUT}}
+  | 
+  |
+  | 2015
+  | {{flagicon|TWN}}
+  | {{flagicon|PAK}}
+  | {{flagicon|SAF}}
+  |
+  | 2014
+  | {{flagicon|THA}}
+  | {{flagicon|NLD}}
+  | {{flagicon|SWI}}
+  | 
+  | 2013
+  | {{flagicon|CAN}}
+  | {{flagicon|ROM}}
+  | {{flagdeco|KOR}}
+  |
+  | 2012
+  | {{flagicon|BUL}}
+  | {{flagicon|GRE}}
+  | {{flagicon|IND}}
+  | {{flagicon|UK}}
+  | 2011
+  | {{flagicon|AUS}}
+  | {{flagicon|CHN}}
+  | 
+  | 
+  | 2010
+  | {{flagicon|BEL}}
+  | {{flagicon|CZE}}
+  | {{flagicon|FRA}} 
+  | 
+  | 2009 
+  | {{flagicon|ITA}}
+  | 
+  | 
+  | 
+  | 2008 
+  | {{flagicon|ESP}}
+  | {{flagicon|USA}}
+  | 
+  | 
+  | 2004 
+  | {{flagicon|JPN}}
+  | {{flagicon|GER}}
+  | 
+  | 
+  }} &lt;!-- end of table--&gt;
+}} &lt;!-- end of list --&gt;
+{{Collapsible list 
+ | title = {{legend2|#FF0F4B|border=1px solid #C20030|Countries above the 10-GW mark}}
+ |{{aligned table | cols=5 
+  | style=width: 50%; text-align: left; font-size: 100%; margin-left: 22px;
+  | 2019
+  | {{flagicon|KOR}}
+  | 
+  | 
+  |
+  | 2018
+  | {{flagicon|AUS}} &lt;!-- http://pv-map.apvi.org.au/analyses --&gt;
+  | 
+  | 
+  |
+  | 2017
+  | {{flagicon|IND}}
+  | 
+  | 
+  |
+  | 2016
+  | {{flagicon|GBR}}
+  | 
+  | 
+  |
+  | 2013
+  | {{flagicon|USA}}
+  | {{flagicon|JPN}}
+  | {{flagicon|CHN}}
+  |
+  | 2011
+  | {{flagicon|ITA}}
+  |
+  |
+  |
+  | 2010 
+  | {{flagicon|GER}}
+  |
+  |
+  |
+  }}&lt;!-- end of table--&gt;
+ }}&lt;!-- end of list --&gt;
+{{Collapsible list 
+ | title = {{legend2|#990000|border=1px solid #200000|Countries above the 100-GW mark}}
+ |{{aligned table | cols=5 
+  | style=width: 50%; text-align: left; font-size: 100%; margin-left: 22px;
+  | 2017
+  | {{flagicon|CHN}}&lt;ref&gt;{{cite news|title=China Is Adding Solar Power at a Record Pace|url=https://www.bloomberg.com/news/articles/2017-07-19/china-adds-about-24gw-of-solar-capacity-in-first-half-official|accessdate=1 August 2017|work=Bloomberg.com|date=19 July 2017}}&lt;/ref&gt;
+  | &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;
+  | &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;
+  | &amp;nbsp;
+  }}&lt;!-- end of table--&gt;
+ }}&lt;!-- end of list --&gt;
+}}
+{{clear}}
+
+=== All time PV installations by country ===
+{| class="wikitable sortable collapsible collapsed" style="text-align: right; font-size: 0.9em; min-width:700px;"
+|+ Historical cumulative installed photovoltaic capacity by country  (MW&lt;sub&gt;p&lt;/sub&gt;)
+|-
+!Country !! 1992 !! 1993 !! 1994 !! 1995 !! 1996 !! 1997 !! 1998 !! 1999 !! 2000 !! 2001 !! 2002 !! 2003 !! 2004 !! 2005 !! 2006 !! 2007 !! 2008 !! 2009 !! 2010 !! 2011 !! 2012 !! 2013 !! 2014 !! 2015 
+|-
+! [[Solar power in Algeria|Algeria]]
+|colspan=22 bgcolor=#f2f2f2 | &amp;nbsp;
+|30
+|300
+|-
+! [[Solar power in Australia|Australia]]
+|7.3
+|8.9
+|10.7
+|12.7
+|15.9
+|18.7
+|22.5
+|25.3
+|29.2
+|33.6
+|39.1
+|45.6
+|52.3
+|60.6
+|70.3
+|82.5
+|105
+|188
+|571
+|1377
+|2415
+|3226
+|4136
+|5109
+|-
+! [[Solar power in Austria|Austria]] 
+|0.6
+|0.8
+|1.1
+|1.4
+|1.7
+|2.2
+|2.9
+|3.7
+|4.9
+|6.1
+|10.3
+|16.8
+|21.1
+|24.0
+|25.6
+|28.7
+|32.4
+|52.6
+|95.5
+|187
+|363
+|626
+|766
+|935
+|-
+! [[Solar power in Belgium|Belgium]]
+|colspan=15 bgcolor=#f2f2f2 | &amp;nbsp;
+|23.7
+|108
+|649
+|1067
+|2088
+|2722
+|3009
+|3074
+|3228
+|-
+! [[Solar power in Brazil|Brazil]]
+|colspan=19 bgcolor=#f2f2f2 | &amp;nbsp;
+|5
+|{{ref|to-be-checked|D}}17
+|{{ref|to-be-checked|D}}32
+|{{ref|latinamerica|F}}54
+|
+|-
+! [[Solar power in Bulgaria|Bulgaria]]
+|colspan=17 bgcolor=#f2f2f2 | &amp;nbsp;
+|5.7
+|35
+|141
+|1010
+|1020
+|1020
+|1021
+|-
+! [[Solar power in Canada|Canada]]
+|1.0
+|1.1
+|1.5
+|1.9
+|2.6
+|3.4
+|4.5
+|5.8
+|7.2
+|8.8
+|10.0
+|11.8
+|13.9
+|16.8
+|20.5
+|25.8
+|32.7
+|94.6
+|281
+|558
+|766
+|1211
+|1710
+|2579
+|-
+! [[Solar power in Chile|Chile]]
+|colspan=19 bgcolor=#f2f2f2 | &amp;nbsp;
+|{{ref|spcl-source-CHL|C}}&amp;lt;1
+|{{ref|spcl-source-CHL|C}}2
+|3
+|368
+|848
+|-
+! [[Solar power in the People's Republic of China|China]]
+|colspan=8 bgcolor=#f2f2f2 | &amp;nbsp;
+|19
+|23.5
+|42
+|52
+|62
+|70
+|80
+|100
+|140
+|300
+|800
+|3300
+|6800
+|19720
+|28199
+|43530
+|-
+! [[Solar power in Croatia|Croatia]]
+|colspan=20 bgcolor=#f2f2f2 | &amp;nbsp;
+|0.2
+|20
+|34
+|45
+|-
+! [[Solar power in Cyprus|Cyprus]]
+|colspan=17 bgcolor=#f2f2f2 | &amp;nbsp;
+|3.3
+|6.2
+|9
+|17
+|32
+|65
+|70
+|-
+! [[Solar power in the Czech Republic|Czech]]
+|colspan=17 bgcolor=#f2f2f2 | &amp;nbsp;
+|463.3
+|1952
+|1959
+|2087
+|2175
+|''2134''
+|''2083''
+|-
+! [[Solar power in Denmark|Denmark]]
+|bgcolor=#f2f2f2 | &amp;nbsp;
+|0.1
+|0.1
+|0.1
+|0.2
+|0.4
+|0.5
+|1.1
+|1.5
+|1.5
+|1.6
+|1.9
+|2.3
+|2.7
+|2.9
+|3.1
+|3.2
+|4.6
+|7.1
+|16.7
+|408
+|563
+|603
+|783
+|-
+! [[Solar power in Estonia|Estonia]]
+|colspan=17 bgcolor=#f2f2f2 | &amp;nbsp;
+|0.05
+|0.08
+|0.2
+|0.2
+|0.2
+|''0.1''
+|4.1
+|-
+! [[Solar power in Finland|Finland]]
+|colspan=18 bgcolor=#f2f2f2 | &amp;nbsp;
+| 0.1
+|1
+|11
+|11
+|11.2
+|14.7
+|-
+! [[Solar power in France|France]]
+|1.8
+|2.1
+|2.4
+|2.9
+|4.4
+|6.1
+|7.6
+|9.1
+|11.3
+|13.9
+|17.2
+|21.1
+|26.0
+|33.0
+|36.5
+|74.5
+|179
+|369
+|1204
+|2974
+|4090
+|4733
+|5660
+|6589
+|-
+! [[Solar power in Germany|Germany]]
+|2.9
+|4.3
+|5.6
+|6.7
+|10.3
+|16.5
+|21.9
+|30.2
+|89.4
+|207
+|324
+|473
+|1139
+|2072
+|2918
+|4195
+|6153
+|9959
+|17372
+|24858
+|32462
+|35766
+|38200
+|39763
+|-
+! [[Solar power in Greece|Greece]]
+|colspan=17 bgcolor=#f2f2f2 | &amp;nbsp;
+|55
+|205
+|624
+|1536
+|2579
+|2595
+|2613
+|-
+! [[Solar power in Guatemala|Guatemala]]
+|colspan=21 bgcolor=#f2f2f2 | &amp;nbsp;
+|{{small|n/a}}
+|{{ref|latinamerica|F}}''+6''
+|
+|-
+! [[Solar power in Honduras|Honduras]]
+|colspan=21 bgcolor=#f2f2f2 | &amp;nbsp;
+|{{small|n/a}}
+|{{ref|latinamerica|F}}''+5''
+|389
+|-
+! [[Solar power in Hungary|Hungary]]
+|colspan=17 bgcolor=#f2f2f2 | &amp;nbsp;
+|0.65
+|1.75
+|4
+|12
+|35
+|78
+|137
+|-
+! [[Solar power in India|India]]
+|colspan=18 bgcolor=#f2f2f2 | &amp;nbsp;
+|161
+|461
+|1205
+|2320
+|2936
+|5050
+|-
+! [[Solar power in the Republic of Ireland|Ireland]]
+|colspan=16 bgcolor=#f2f2f2 | &amp;nbsp;
+|0.4
+|0.6
+|0.7
+|0.7
+|0.9
+|1.0
+|1.1
+|2.1
+|-
+! [[Solar power in Israel|Israel]]
+|colspan=12 bgcolor=#f2f2f2 | &amp;nbsp;
+|0.9
+|1.0
+|1.3
+|1.8
+|3.0
+|24.5
+|69.9
+|190
+|237
+|481
+|731
+|886
+|-
+! [[Solar power in Italy|Italy]]
+|8.5
+|12.1
+|14.1
+|15.8
+|16.0
+|16.7
+|17.7
+|18.5
+|19.0
+|20.0
+|22.0
+|26.0
+|30.7
+|37.5
+|50.0
+|120
+|458
+|1181
+|3502
+|12809
+|16454
+|18074
+|18460
+|18924
+|-
+! [[Solar power in Japan|Japan]]
+|19.0
+|24.3
+|31.2
+|43.4
+|59.6
+|91.3
+|133
+|209
+|330
+|453
+|637
+|860
+|1132
+|1422
+|1709
+|1919
+|2144
+|2627
+|3618
+|4914
+|6632
+|13599
+|23300
+|34151
+|-
+! [[Solar power in Latvia|Latvia]]
+|colspan=18 bgcolor=#f2f2f2 | &amp;nbsp;
+|0
+|0.2
+|0.2
+|0.2
+|1.5
+|1.5
+|-
+! [[Solar power in Lithuania|Lithuania]]
+|colspan=17 bgcolor=#f2f2f2 | &amp;nbsp;
+|0.07
+|0.2
+|0.3
+|6.2
+|68
+|68
+|73
+|-
+! [[Solar power in Luxembourg|Luxembourg]]
+|colspan=17 bgcolor=#f2f2f2 | &amp;nbsp;
+|26.4
+|27.3
+|30
+|{{ref|discrepancy-LUX|A}}30
+|{{ref|discrepancy-LUX|A}}30
+|{{ref|discrepancy-LUX|A}}''45''
+|125
+|-
+! [[Solar power in Malaysia|Malaysia]]
+|colspan=14 bgcolor=#f2f2f2 | &amp;nbsp;
+|5.5
+|7.0
+|8.8
+|11.1
+|12.6
+|13.5
+|35
+|73
+|160
+|231
+|-
+! [[Solar power in Malta|Malta]]
+|colspan=17 bgcolor=#f2f2f2 | &amp;nbsp;
+|1.53
+|1.67
+|12
+|16
+|23
+|54
+|73
+|-
+! [[Solar power in Mexico|Mexico]]
+|5.4
+|7.1
+|8.8
+|9.2
+|10.0
+|11.0
+|12.0
+|12.9
+|13.9
+|{{ref|discrepancy-MEX|G}}13.9
+|{{ref|discrepancy-MEX|G}}13.9
+|{{ref|discrepancy-MEX|G}}13.9
+|{{ref|discrepancy-MEX|G}}15.9
+|{{ref|discrepancy-MEX|G}}16.9
+|{{ref|discrepancy-MEX|G}}17.9
+|{{ref|discrepancy-MEX|G}}18.9
+|{{ref|discrepancy-MEX|G}}19.9
+|{{ref|discrepancy-MEX|G}}24.9
+|{{ref|discrepancy-MEX|G}}38.9
+|{{ref|discrepancy-MEX|G}}29.9
+|{{ref|discrepancy-MEX|G}}34.9
+|{{ref|discrepancy-MEX|G}}65.9
+|{{ref|discrepancy-MEX|G}}114.1
+|{{ref|discrepancy-MEX|G}}170.1
+|-
+! [[Solar power in the Netherlands|Netherlands]]
+|bgcolor=#f2f2f2 | &amp;nbsp;
+|0.1
+|0.1
+|0.3
+|0.7
+|1.0
+|1.0
+|5.3
+|8.5
+|16.2
+|21.7
+|39.7
+|43.4
+|45.4
+|47.5
+|48.6
+|52.8
+|63.9
+|84.7
+|143
+|{{ref|discrepancy-NLD|I}}365
+|{{ref|discrepancy-NLD|I}}739
+|{{ref|discrepancy-NLD|I}}1048
+|{{ref|discrepancy-NLD|I}}1405
+|-
+! [[Solar power in Norway|Norway]]
+|colspan=10 bgcolor=#f2f2f2 | &amp;nbsp;
+|{{ref|discrepancy-NOR|B}}6.4
+|{{ref|discrepancy-NOR|B}}6.6
+|{{ref|discrepancy-NOR|B}}6.9
+|{{ref|discrepancy-NOR|B}}7.3
+|{{ref|discrepancy-NOR|B}}7.7
+|{{ref|discrepancy-NOR|B}}8.0
+|{{ref|discrepancy-NOR|B}}8.3
+|{{ref|discrepancy-NOR|B}}8.7
+|{{ref|discrepancy-NOR|B}}9.1
+|{{ref|discrepancy-NOR|B}}9.5
+|{{ref|discrepancy-NOR|B}}10
+|{{ref|discrepancy-NOR|B}}11
+|13
+|15.3
+|-
+! [[Solar power in Pakistan|Pakistan]]
+|colspan=21 bgcolor=#f2f2f2 | &amp;nbsp;
+| ?
+| 400
+| 1000
+|-
+! [[Solar power in Peru|Peru]]
+|colspan=19 bgcolor=#f2f2f2 | &amp;nbsp;
+|0
+|{{ref|to-be-checked|D}}22
+|{{small|n/a}}
+|{{small|n/a}}
+|
+|-
+! [[Solar power in Philippines|Philippines]]
+|colspan=21 bgcolor=#f2f2f2 | &amp;nbsp;
+|?
+|33
+|155
+|-
+! [[Solar power in Poland|Poland]]
+|colspan=17 bgcolor=#f2f2f2 | &amp;nbsp;
+|1.38
+|1.75
+|3
+|7
+|7
+|24
+|87
+|-
+! [[Solar power in Portugal|Portugal]]
+|0.2
+|0.2
+|0.3
+|0.3
+|0.4
+|0.5
+|0.6
+|0.9
+|1.1
+|1.3
+|1.7
+|2.0
+|2.0
+|2.0
+|4.0
+|15
+|56
+|99
+|135
+|169
+|228
+|281
+|391
+|460
+|-
+! [[Solar power in Romania|Romania]]
+|colspan=17 bgcolor=#f2f2f2 | &amp;nbsp;
+|0.64
+|1.94
+|4
+|51
+|1151
+|1219
+|1325
+|-
+! [[Solar power in Slovakia|Slovakia]]
+|colspan=17 bgcolor=#f2f2f2 | &amp;nbsp;
+|0.19
+|148
+|508
+|523
+|524
+|533
+|591
+|-
+! [[Solar power in Slovenia|Slovenia]]
+|colspan=17 bgcolor=#f2f2f2 | &amp;nbsp;
+|9.0
+|35
+|81
+|201
+|212
+|256
+|257
+|-
+! [[Solar power in South Africa|South Africa]]
+|colspan=19 bgcolor=#f2f2f2 | &amp;nbsp;
+|1
+|30
+|122
+|922
+|1120
+|-
+! [[Solar power in South Korea|South Korea]]
+|1.5
+|1.6
+|1.7
+|1.8
+|2.1
+|2.5
+|3.0
+|3.5
+|4.0
+|4.7
+|10.0
+|11.0
+|13.8
+|19.2
+|41.8
+|87.2
+|363
+|530
+|656
+|735
+|1030
+|1475
+|2384
+|3493
+|-
+! [[Solar power in Spain|Spain]]
+|colspan=2 bgcolor=#f2f2f2 | &amp;nbsp;
+|1.0
+|1.0
+|1.0
+|1.0
+|1.0
+|2.0
+|2.0
+|4.0
+|7.0
+|12.0
+|23.0
+|48
+|145
+|693
+|{{ref|discrepancy-ESP|H}}3421
+|{{ref|discrepancy-ESP|H}}3438
+|{{ref|discrepancy-ESP|H}}3859
+|{{ref|discrepancy-ESP|H}}4322
+|{{ref|discrepancy-ESP|H}}4603
+|{{ref|discrepancy-ESP|H}}4766
+|{{ref|discrepancy-ESP|H}}4872
+|{{ref|discrepancy-ESP|H}}4921
+|-
+! [[Solar power in Sweden|Sweden]]
+|0.8
+|1.0
+|1.3
+|1.6
+|1.8
+|2.1
+|2.4
+|2.6
+|2.8
+|3.0
+|3.3
+|3.6
+|3.9
+|4.2
+|4.8
+|6.2
+|7.9
+|8.8
+|11
+|11
+|24
+|43
+|79
+|130
+|-
+! [[Solar power in Switzerland|Switzerland]]
+|4.7
+|5.8
+|6.7
+|7.5
+|8.4
+|9.7
+|11.5
+|13.4
+|15.3
+|17.6
+|19.5
+|21.0
+|23.1
+|27.1
+|29.7
+|36.2
+|47.9
+|73.6
+|111
+|211
+|437
+|756
+|1076
+|1394
+|-
+! [[Solar power in Taiwan|Taiwan]]
+|colspan=18 bgcolor=#f2f2f2| &amp;nbsp;
+|32
+|102
+|206
+|376
+|776
+|1010
+|-
+! [[Solar power in Thailand|Thailand]]
+|colspan=10 bgcolor=#f2f2f2| &amp;nbsp;
+|2.9
+|4.2
+|10.8
+|23.9
+|30.5
+|32.5
+|33.4
+|43.2
+|49.2
+|243
+|388
+|824
+|1299
+|1420
+|-
+! [[Solar power in Turkey|Turkey]]
+|colspan=6 bgcolor=#f2f2f2| &amp;nbsp;
+|0.2
+|0.3
+|0.4
+|0.6
+|0.9
+|1.3
+|1.8
+|2.3
+|2.8
+|3.3
+|4.0
+|5.0
+|6
+|7
+|8.5
+|18
+|58
+|266
+|-
+! [[Solar power in Ukraine|Ukraine]]
+|colspan=18 bgcolor=#f2f2f2| &amp;nbsp;
+|3
+|191
+|326
+|616
+|819
+|432
+|-
+! [[Solar power in the United Kingdom|UK]]
+|0.2
+|0.3
+|0.3
+|0.4
+|0.4
+|0.6
+|0.7
+|1.1
+|1.9
+|2.7
+|4.1
+|5.9
+|8.2
+|10.9
+|14.3
+|18.1
+|22.5
+|29.6
+|77
+|904
+|{{ref|discrepancy-UK|E}}1901
+|{{ref|discrepancy-UK|E}}3377
+|5104
+|8917
+|-
+! [[Solar power in the United States|USA]]
+|43.5
+|50.3
+|57.8
+|66.8
+|76.5
+|88.2
+|100
+|117
+|139
+|168
+|212
+|275
+|376
+|479
+|624
+|831
+|1169
+|1256
+|2528
+|4383
+|7272
+|12079
+|18280
+|25600
+|- class="sortbottom" align=center style="background-color: #f2f2f2;font-size: 0.95em; padding-top:10px;color: #666;"
+|References
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|&lt;ref name="iea-pvps-trends-2009" /&gt;
+|&lt;ref name="iea-pvps-trends-2010" /&gt;
+|&lt;ref name="iea-pvps-trends-2011" /&gt;
+|&lt;ref name="epia-2012" /&gt;&lt;ref name="pv-barometer-2011" /&gt;
+|&lt;ref name="epia-2013" /&gt;&lt;ref name="iea-pvps-trends-2013" /&gt;
+|&lt;ref name="epia-2014" /&gt;&lt;ref name="iea-pvps-trends-2014" /&gt;
+|&lt;ref name="iea-pvps-snapshot-1992-2014" /&gt;&lt;ref name="pv-barometer-2014" /&gt;
+|&lt;ref name="iea-pvps-snapshot-1992-2015" /&gt;&lt;ref name="pv-barometer-2015" /&gt;&lt;ref name="iea-pvps-trends-2016" /&gt;
+|-class="sortbottom" style="background-color: #f2f2f2;font-size: 0.95em; padding-top:10px;color: #666;"
+!Year !! 1992 !! 1993 !! 1994 !! 1995 !! 1996 !! 1997 !! 1998 !! 1999 !! 2000 !! 2001 !! 2002 !! 2003 !! 2004 !! 2005 !! 2006 !! 2007 !! 2008 !! 2009 !! 2010 !! 2011 !! 2012 !! 2013 !! 2014 !! 2015 
+|-class="sortbottom"
+| colspan=25 style="padding: 5px; text-align: left; font-size: 0.95em;" |'''Notes''':
+
+: {{note|discrepancy-LUX|A}} Strong discrepancy for '''Luxembourg''': EPIA-figures report unchanged capacity of 30 MW for Y2011-2013 (source listed in row "References"), while Photovoltaic Barometer&lt;ref&gt;[http://www.energies-renouvelables.org/observ-er/stat_baro/observ/baro-jdp11_en.pdf PV Barometre at the end of 2013, page 6]&lt;/ref&gt; reports a capacity of 76.7 MW for Y2012 and 100 MW for Y2013. Table displays EPIA figures.
+
+: {{note|discrepancy-NOR|B}} Strong discrepancy for '''Norway''': Figures based on [[BP]]-Statistical Review of world energy&lt;ref name="BP-review-world-energy" /&gt; and IEA-PVPS trend report|&lt;ref name="iea-pvps-trends-2014" /&gt; as EIPA outlook report&lt;ref name="epia-2014" /&gt;{{rp|24}} mentions virtually zero deployment (as 0.02 watt per capita results in 0.07 MW).
+
+: {{note|spcl-source-CHL|C}} Different data source for '''Chile''', figures based on reports&lt;ref name=CORFO&gt;{{cite web|author1=Centro de Energías Renovables, [[CORFO]]|title=Reporte CER|url=http://cer.gob.cl/sobre-las-ernc/datos-y-estadisticas/|accessdate=22 July 2014|date=July 2014}}&lt;/ref&gt; published by the Chilean Ministry of Energy—Centro de Energías Renovables (CER) and [[CORFO]]. Monthly reports revise figures retroactively. Distinction between solar PV and CSP is missing, however.
+
+: {{note|to-be-checked|D}} Figures for '''Brazil''' and '''Peru''' need to be checked, as sources are unclear. Peru's 22 MW reflects capacity of one solar farm opened in 2012&lt;ref&gt;{{cite web |url=http://www.tsolar.com/en/portal.do?IDM=311&amp;NM=2 |title=Photovoltaic stations |work= T-Solar Group |quote=Repartición solar farm, Location: Municipalidad Distrital La Joya. Province: Arequipa. Power: 22 MWp |access-date=16 May 2015}}&lt;/ref&gt;&lt;ref&gt;{{cite web |url=http://cleantechnica.com/2012/10/15/latin-americas-largest-solar-plant-receiving-40-mw-of-solar-pv-modules-from-yingli-solar/ |title=Latin America's Largest Solar Power Plant Receiving 40 MW of Solar PV Modules from Yingli Solar (Peru) |work=CleanTechnica |date=15 October 2012}}&lt;/ref&gt; Historical data for these countries may be verifiable when new reports are released.
+
+: {{note|discrepancy-UK|E}} Displayed IEA-PVPS/EPIA figures for the '''United Kingdom''' differ significantly from those published by [[Department of Energy and Climate Change|DECC]].&lt;ref name="DECC-statistics-PV"&gt;{{cite web |url=https://www.gov.uk/government/statistics/solar-photovoltaics-deployment |title=Statistics – Solar photovoltaics deployment |publisher=DECC – Department of Energy &amp; Climate Change |website=gov.uk |date=2015 |access-date=26 February 2015}}&lt;/ref&gt;&lt;ref&gt;{{cite web |url=http://www.solarpowerportal.co.uk/editors_blog/why_decc_struggles_to_keep_up_with_solar_pv_capacity_data...and_why_we_dont |title=Why DECC struggles to keep up with solar PV capacity data…and why we don't |work=Solar Power Portal |date=26 June 2015}}&lt;/ref&gt;
+
+: {{note|latinamerica|F}} Only fragmented figures for all Central American and some Latin American countries available. Based on public figures from GTM's ''Latin America PV Playbook''&lt;ref name="gtm-latinameric-2015"&gt;{{cite web |url=http://www.greentechmedia.com/research/report/latin-america-pv-playbook |title=Latin America Country Markets 2014-2015E |work=GTM Research |date=10 May 2015}}&lt;/ref&gt;
+
+: {{note|discrepancy-MEX|G}} There's a strong discrepancy between the Trends 2014,&lt;ref name="iea-pvps-trends-2014" /&gt; Trends 2015 and Trends 2016 report.&lt;ref name="iea-pvps-trends-2016" /&gt; The cumulative capacity was revised downwards significantly for previous years in the 2016 report.
+
+: {{note|discrepancy-ESP|H}} There's a discrepancy between Eur'Observ&lt;ref name="pv-barometer-2014" /&gt;&lt;ref name="pv-barometer-2013" /&gt;&lt;ref name="pv-barometer-2012" /&gt;&lt;ref name="pv-barometer-2011" /&gt;&lt;ref name="pv-barometer-2010" /&gt;&lt;ref name="pv-barometer-2009" /&gt;&lt;ref name="pv-barometer-2015" /&gt; data IEA&lt;ref name="iea-pvps-trends-2016" /&gt; data where Eur'Observer reports about 10% less installed capacity. Eur'Observ data is used here.
+
+: {{note|discrepancy-NLD|I}} There's a discrepancy between Eur'Observ and IEA. Eur'Observ data used here.
+|}
+
+== See also ==
+
+{{Portal|Renewable energy|Energy}}
+* [[Concentrated solar power#Deployment around the world|Growth of concentrated solar power (CSP)]]
+* [[Solar power by country]]
+* [[Timeline of solar cells]]
+* [[List of renewable energy topics by country]]
+* [[Wind power by country]]
+
+== Notes ==
+{{Reflist|group=lower-alpha}}
+
+== References ==
+
+{{Reflist|refs=
+
+&lt;!-- list of references contains reports from BP, EPIA, PV-Barometre and IEA-PVPS --&gt;
+
+&lt;ref name="BP-review-world-energy"&gt;
+{{cite web
+ |url=http://www.bp.com/content/dam/bp/excel/Energy-Economics/statistical-review-2014/BP-Statistical_Review_of_world_energy_2014_workbook.xlsx
+ |title=Statistical Review of World Energy – Historical Data Workbook BP
+ |quote=downloadable XL-spread sheet
+ |website=bp.com
+ |publisher=BP
+ |accessdate=1 April 2015
+}}
+&lt;/ref&gt;
+
+&lt;!--EPIA-Reports Global Market Outlook for Photovoltaics --&gt;
+
+&lt;ref name="epia-2016"&gt;
+{{cite web
+|title=Global Market Outlook for Solar Power 2016–2020
+|url=http://www.solareb2b.it/wp-content/uploads/2016/06/SPE_GMO2016_full_version.pdf
+|publisher=Solar Power Europe (SPE), formerly known as EPIA – European Photovoltaic Industry Association
+|accessdate=11 January 2016
+|archiveurl=https://www.webcitation.org/6nRc4lsKn
+|archivedate=11 January 2016
+|url-status=live
+}}
+&lt;/ref&gt;
+
+&lt;ref name="epia-2015"&gt;
+{{cite web
+|title=Global Market Outlook for Solar Power 2015–2019
+|url=http://www.solarpowereurope.org/fileadmin/user_upload/documents/Publications/Global_Market_Outlook_2015_-2019_lr_v23.pdf
+|website=solarpowereurope.org
+|publisher=Solar Power Europe (SPE), formerly known as EPIA – European Photovoltaic Industry Association
+|accessdate=9 June 2015
+|archiveurl=https://www.webcitation.org/6ZA1o2aLo
+|archivedate=9 June 2015
+|url-status=dead
+}}
+&lt;/ref&gt;
+
+&lt;ref name="epia-2014"&gt;
+{{cite web
+|title=Global Market Outlook for Photovoltaics 2014–2018
+|url=http://www.epia.org/fileadmin/user_upload/Publications/EPIA_Global_Market_Outlook_for_Photovoltaics_2014-2018_-_Medium_Res.pdf
+|website= www.epia.org
+|publisher=EPIA – European Photovoltaic Industry Association
+|accessdate=12 June 2014
+|archiveurl=https://www.webcitation.org/6QGSvAF7w
+|archivedate=12 June 2014
+|url-status=live
+}}
+&lt;/ref&gt;
+
+&lt;ref name="epia-2013"&gt;
+{{cite web
+|title=Global Market Outlook for Photovoltaics 2013–2017
+|url=http://www.epia.org/fileadmin/user_upload/Publications/GMO_2013_-_Final_PDF.pdf
+|website= www.epia.org
+|publisher=EPIA – European Photovoltaic Industry Association
+|accessdate=6 November 2014
+|archiveurl=https://www.webcitation.org/6TsjmHc7A
+|archivedate=6 November 2014
+|url-status=live
+}}
+&lt;/ref&gt;
+
+&lt;ref name="epia-2012"&gt;
+{{cite web
+|title=Global Market Outlook for Photovoltaics until 2016
+|url=http://www.epia.org/fileadmin/user_upload/Publications/Global-Market-Outlook-2016.pdf
+|website= www.epia.org
+|publisher=EPIA – European Photovoltaic Industry Association
+|accessdate=6 November 2014
+|archiveurl=https://www.webcitation.org/6Tsk1BRUr
+|archivedate=6 November 2014
+|url-status=live
+}}
+&lt;/ref&gt;
+
+&lt;ref name="pv-barometer-2015"&gt;
+{{cite web
+|author1=EUROBSER'VER
+|title=Photovoltaic Barometer – installations 2014 and 2015
+|url=https://www.eurobserv-er.org/pdf/2016/EurObservER-Photovoltaic-Barometer-2016-EN.pdf
+|website= www.energies-renouvelables.org
+|date=April 2016
+|archiveurl=https://www.webcitation.org/6nR9U69eH
+|archivedate=11 January 2017
+|url-status=live
+}}
+&lt;/ref&gt;
+
+&lt;!-- PV-Barometer reports (EUROBSER'VER (Observatoire des énergies renouvelables) --&gt;
+&lt;ref name="pv-barometer-2014"&gt;
+{{cite web
+|author1=EUROBSER'VER
+|title=Photovoltaic Barometer – installations 2013 and 2014
+|url=http://www.energies-renouvelables.org/observ-er/stat_baro/observ/EurObservER-barojdpv13-Photovoltaic-Barometer-2015-EN.pdf
+|website= www.energies-renouvelables.org
+|date=April 2015
+|archiveurl=https://www.webcitation.org/6YK1IfR89
+|archivedate=6 May 2015
+|url-status=live
+}}
+&lt;/ref&gt;
+
+&lt;ref name="pv-barometer-2013"&gt;
+{{cite web
+|author1=EUROBSER'VER
+|title=Photovoltaic Barometer – installations 2012 and 2013
+|url=http://www.energies-renouvelables.org/observ-er/stat_baro/observ/baro-jdp11_en.pdf
+|website= www.energies-renouvelables.org
+|accessdate=1 May 2014
+|archiveurl=https://www.webcitation.org/6SUHGvBmA
+|archivedate=9 September 2014
+|url-status=live
+}}
+&lt;/ref&gt;
+
+&lt;ref name="pv-barometer-2012"&gt;
+{{cite web
+|author1=EUROBSER'VER|title=Photovoltaic Barometer – installations 2011 and 2012|url=http://www.energies-renouvelables.org/observ-er/stat_baro/observ/baro-jdp9.pdf|website= www.energies-renouvelables.org|accessdate=1 May 2013|archiveurl=https://www.webcitation.org/6QMzMloMY|archivedate=16 June 2014|pages=7}}
+&lt;/ref&gt;
+
+&lt;ref name="pv-barometer-2011"&gt;
+{{cite web
+|author1=EUROBSER'VER|title=Photovoltaic Barometer – installations 2010 and 2011|url=http://www.eurobserv-er.org/pdf/photovoltaic_2012.pdf|website= www.energies-renouvelables.org|accessdate=1 May 2013|archiveurl=https://www.webcitation.org/6QN1OZ1Bt|archivedate=16 June 2014|pages=6}}
+&lt;/ref&gt;
+
+&lt;ref name="pv-barometer-2010"&gt;
+{{cite web|author1=EUROBSER'VER|title=Photovoltaic Barometer – installations 2009 and 2010|url=http://www.eurobserv-er.org/pdf/baro202.pdf|website= www.energies-renouvelables.org|accessdate=1 May 2013|archiveurl=https://www.webcitation.org/6QN2Lx72F|archivedate=16 June 2014|pages=4}}
+&lt;/ref&gt;
+
+&lt;ref name="pv-barometer-2009"&gt;
+{{cite web
+|author1=EUROBSER'VER|title=Photovoltaic Barometer – installations 2008 and 2009|url=http://www.eurobserv-er.org/pdf/baro196.pdf|website= www.energies-renouvelables.org|accessdate=1 May 2013|archiveurl=https://www.webcitation.org/6QN2z5NRx|archivedate=16 June 2014|pages=5}}
+&lt;/ref&gt;
+
+&lt;!-- IEA-PVPS reports --&gt;
+
+&lt;ref name="iea-pvps-snapshot-1992-2014"&gt;
+{{cite web
+ |url=http://www.iea-pvps.org/fileadmin/dam/public/report/technical/PVPS_report_-_A_Snapshot_of_Global_PV_-_1992-2014.pdf
+ |title=Snapshot of Global PV 1992–2014
+ |website= www.iea-pvps.org/index.php?id=32
+ |publisher=International Energy Agency — Photovoltaic Power Systems Programme
+ |date=30 March 2015
+ |archiveurl=https://www.webcitation.org/6XPpb1fai
+ |archivedate=30 March 2015
+ |url-status=live
+}}
+&lt;/ref&gt;
+
+&lt;ref name="iea-pvps-trends-2014"&gt;
+{{cite web
+ |website= www.iea-pvps.org/index.php?id=trends
+ |url=http://www.iea-pvps.org/fileadmin/dam/public/report/statistics/IEA_PVPS_Trends_2014_in_PV_Applications_-_lr.pdf
+ |title=IEA PVPS TRENDS 2014 in Photovoltaic Applications
+ |date=12 October 2014
+ |archiveurl=https://www.webcitation.org/6UWS3kx4N
+ |archivedate=2 December 2014
+ |url-status=live
+}}&lt;/ref&gt;
+
+&lt;ref name="iea-pvps-snapshot-1992-2013"&gt;
+{{cite web
+ |url=http://www.iea-pvps.org/fileadmin/dam/public/report/statistics/PVPS_report_-_A_Snapshot_of_Global_PV_-_1992-2013_-_final_3.pdf
+ |title=Snapshot of Global PV 1992–2013
+ |website= www.iea-pvps.org/index.php?id=trends0
+ |publisher=International Energy Agency — Photovoltaic Power Systems Programme
+ |date=31 March 2014
+ |archiveurl=https://www.webcitation.org/6Obzux7nw
+ |archivedate=5 April 2014
+ |url-status=live
+}}
+&lt;/ref&gt;
+
+&lt;ref name="iea-pvps-trends-2013"&gt;
+{{cite web
+ |website= www.iea-pvps.org/index.php?id=92
+ |url=http://www.iea-pvps.org/fileadmin/dam/public/report/statistics/FINAL_TRENDS_v1.02.pdf
+ |title=IEA PVPS TRENDS 2013 in Photovoltaic Applications
+ |date=29 November 2013
+ |archiveurl=https://www.webcitation.org/6X6ZHwtuw
+ |archivedate=17 March 2015
+ |url-status=live
+}}&lt;/ref&gt;
+
+&lt;ref name="iea-pvps-snapshot-1992-2015"&gt;
+{{cite web
+ |url=http://www.iea-pvps.org/fileadmin/dam/public/report/PICS/IEA-PVPS_-__A_Snapshot_of_Global_PV_-_1992-2015_-_Final_2_02.pdf 
+ |title=Snapshot of Global PV 1992–2015 
+ |website= www.iea-pvps.org
+ |publisher=International Energy Agency – Photovoltaic Power Systems Programme 
+ |year=2015
+}}
+&lt;/ref&gt;
+
+&lt;ref name="iea-pvps-trends-2011"&gt;
+{{cite web |url= http://www.iea-pvps.org/index.php?id=92&amp;eID=dam_frontend_push&amp;docID=823 |title=TRENDS IN PHOTOVOLTAIC APPLICATIONS – Survey report of selected IEA countries between 1992 and 2010 |website= www.iea-pvps.org/ |publisher=International Energy Agency – Photovoltaic Power Systems Programme |year=2011 |accessdate=28 December 2014
+}}
+&lt;/ref&gt;
+
+&lt;ref name="iea-pvps-trends-2010"&gt;
+{{cite web
+|url= http://www.iea-pvps.org/index.php?id=92&amp;eID=dam_frontend_push&amp;docID=432 |title=TRENDS IN PHOTOVOLTAIC APPLICATIONS – Survey report of selected IEA countries between 1992 and 2009 |website= www.iea-pvps.org/ |publisher=International Energy Agency – Photovoltaic Power Systems Programme |year=2010 |accessdate=28 December 2014
+}}&lt;/ref&gt;
+
+&lt;ref name="iea-pvps-trends-2009"&gt;
+{{cite web
+|url= http://www.iea-pvps.org/index.php?id=92&amp;eID=dam_frontend_push&amp;docID=145 |title=TRENDS IN PHOTOVOLTAIC APPLICATIONS – Survey report of selected IEA countries between 1992 and 2008 |website= www.iea-pvps.org/ |publisher=International Energy Agency – Photovoltaic Power Systems Programme |year=2009 |accessdate=28 December 2014
+}}
+&lt;/ref&gt;
+
+&lt;ref name="IEA-roadmap-PV-2014"&gt;
+{{cite web
+ |author=International Energy Agency
+ |website= www.iea.org
+ |title=Technology Roadmap: Solar Photovoltaic Energy
+ |url=http://www.iea.org/publications/freepublications/publication/TechnologyRoadmapSolarPhotovoltaicEnergy_2014edition.pdf
+ |publisher=IEA
+ |accessdate=7 October 2014
+ |archiveurl=https://www.webcitation.org/6T92GIRhW
+ |archivedate=7 October 2014|year=2014
+ |url-status=live
+}}&lt;/ref&gt;
+
+&lt;ref name="iea-pvps-trends-2016"&gt;
+{{cite web
+ |url=http://www.iea-pvps.org/fileadmin/dam/public/report/national/Trends_2016_-_mr.pdf 
+ |title=Trends 2016 in Photovoltaic Applications – Survey report of selected IEA countries between 1992 and 2015
+ |website= www.iea-pvps.org
+ |publisher=International Energy Agency – Photovoltaic Power Systems Programme 
+ |year=2016
+ |accessdate=11 January 2017
+ |archiveurl=https://www.webcitation.org/6nR2WHAJK
+ |archivedate=11 January 2017
+ |url-status=live
+}}
+&lt;/ref&gt;
+
+&lt;ref name="eia-cf"&gt;
+{{cite web
+ |website= www.eia.gov
+ |url=https://www.eia.gov/todayinenergy/detail.php?id=22832
+ |title=Electric generator capacity factors vary widely around the world
+ |date=6 September 2015
+ |accessdate=17 June 2018
+ |url-status=live
+}}&lt;/ref&gt;
+
+}}
+
+== External links ==
+*[http://www.iea.org/publications/ IEA–International Energy Agency, Publications]
+*[http://www.iea-pvps.org/ IEA–PVPS, IEA's Photovoltaic Power System Programme]
+*[http://www.nrel.gov/analysis/publications.html NREL–National Renewable Energy Laboratory, Publications]
+*[http://www.ise.fraunhofer.de/en FHI–ISE, Fraunhofer Institute for Solar Energy Systems]
+*[http://apvi.org.au/ APVI–Australian PV Institute]
+*[http://www.epia.org/ EPIA–European Photovoltaic Industry Association]
+*[http://www.seia.org/ SEIA–Solar Energy Industries Association]
+*[http://www.cansia.ca/ CanSIA–Canadian Solar Industries Association]
+*{{YouTube|YL4-rK5lhUw|Presentation}} – Cost analysis of current PV production, PV learning curve – [[UNSW]], Pierre Verlinden, Trina Solar
+*{{YouTube|pxHKRI2Cbas|Interview}} – Michael Liebreich, "Cheapest Solar in World", about the record-low 5.84 US cents/kWh PPA in Dubai (2014)
+
+{{Photovoltaics}}
+{{Solar power by country}}
+
+{{DEFAULTSORT:Growth Of Photovoltaics}}
+[[Category:Photovoltaics]]
+[[Category:Technological change]]</text>
+      <sha1>2132ot4yjammqqmcflbr5mefyxfjuzz</sha1>
+    </revision>
+  </page>
+</mediawiki>

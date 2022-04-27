@@ -1,0 +1,84 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.10/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.10/ http://www.mediawiki.org/xml/export-0.10.xsd" version="0.10" xml:lang="en">
+  <siteinfo>
+    <sitename>Wikipedia</sitename>
+    <dbname>enwiki</dbname>
+    <base>https://en.wikipedia.org/wiki/Main_Page</base>
+    <generator>MediaWiki 1.35.0-wmf.36</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Media</namespace>
+      <namespace key="-1" case="first-letter">Special</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Talk</namespace>
+      <namespace key="2" case="first-letter">User</namespace>
+      <namespace key="3" case="first-letter">User talk</namespace>
+      <namespace key="4" case="first-letter">Wikipedia</namespace>
+      <namespace key="5" case="first-letter">Wikipedia talk</namespace>
+      <namespace key="6" case="first-letter">File</namespace>
+      <namespace key="7" case="first-letter">File talk</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki talk</namespace>
+      <namespace key="10" case="first-letter">Template</namespace>
+      <namespace key="11" case="first-letter">Template talk</namespace>
+      <namespace key="12" case="first-letter">Help</namespace>
+      <namespace key="13" case="first-letter">Help talk</namespace>
+      <namespace key="14" case="first-letter">Category</namespace>
+      <namespace key="15" case="first-letter">Category talk</namespace>
+      <namespace key="100" case="first-letter">Portal</namespace>
+      <namespace key="101" case="first-letter">Portal talk</namespace>
+      <namespace key="108" case="first-letter">Book</namespace>
+      <namespace key="109" case="first-letter">Book talk</namespace>
+      <namespace key="118" case="first-letter">Draft</namespace>
+      <namespace key="119" case="first-letter">Draft talk</namespace>
+      <namespace key="446" case="first-letter">Education Program</namespace>
+      <namespace key="447" case="first-letter">Education Program talk</namespace>
+      <namespace key="710" case="first-letter">TimedText</namespace>
+      <namespace key="711" case="first-letter">TimedText talk</namespace>
+      <namespace key="828" case="first-letter">Module</namespace>
+      <namespace key="829" case="first-letter">Module talk</namespace>
+      <namespace key="2300" case="first-letter">Gadget</namespace>
+      <namespace key="2301" case="first-letter">Gadget talk</namespace>
+      <namespace key="2302" case="case-sensitive">Gadget definition</namespace>
+      <namespace key="2303" case="case-sensitive">Gadget definition talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>DNA machine</title>
+    <ns>0</ns>
+    <id>3293508</id>
+    <revision>
+      <id>865033128</id>
+      <parentid>863316532</parentid>
+      <timestamp>2018-10-21T07:48:35Z</timestamp>
+      <contributor>
+        <username>Jessicapierce</username>
+        <id>2003421</id>
+      </contributor>
+      <minor/>
+      <comment>undid good-faith addition of unclear content with errors and stray, improperly-formatted citations. Could be re-added if cleaned up.</comment>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="2502" xml:space="preserve">A '''DNA machine''' is a [[molecular machine]] constructed from [[DNA]].  Research into DNA machines was pioneered in the late 1980s by [[Nadrian Seeman]] and co-workers from [[New York University]]. DNA is used because of the numerous biological tools already found in nature that can affect DNA, and the immense knowledge of how DNA works previously researched by [[biochemistry|biochemists]].
+
+DNA machines can be logically designed since DNA assembly of the double helix is based on strict rules of base pairing that allow portions of the strand to be predictably connected based on their sequence.  This "selective stickiness" is a key advantage in the construction of DNA machines.
+
+An example of a DNA machine was reported by Bernard Yurke and co-workers at [[Lucent Technologies]] in the year 2000, who constructed [[molecular tweezers]] out of DNA.&lt;ref name="pmid10949296"&gt;{{cite journal |vauthors=Yurke B, Turberfield AJ, Mills AP, Simmel FC, Neumann JL |title=A DNA-fuelled molecular machine made of DNA |journal=Nature |volume=406 |issue=6796 |pages=605–8 |date=August 2000 |pmid=10949296 |doi=10.1038/35020524 |url=|bibcode=2000Natur.406..605Y }}&lt;/ref&gt;
+The DNA tweezers contain three strands: A, B and C. Strand A latches onto half of strand B and half of strand C, and so it joins them all together. Strand A acts as a hinge so that the two "arms" &amp;mdash; AB and AC &amp;mdash; can move. The structure floats with its arms open wide. They can be pulled shut by adding a fourth strand of DNA (D) "programmed" to stick to both of the dangling, unpaired sections of strands B and C.   The closing of the tweezers was proven by tagging strand A at either end with light-emitting molecules that do not emit light when they are close together.  To re-open the tweezers add a further strand (E) with the right sequence to pair up with strand D. Once paired up, they have no connection to the machine BAC, so float away.  The DNA machine can be opened and closed repeatedly by cycling between strands D and E. These tweezers can be used for removing drugs from inside [[fullerenes]] as well as from a self assembled DNA [[tetrahedron]]. The state of the device can be determined by measuring the separation between donor and acceptor fluorophores using [[Förster resonance energy transfer|FRET]].
+
+[[DNA walker]]s are another type of DNA machine.
+
+==See also==
+*[[DNA nanotechnology]]
+
+==References==
+{{reflist}}
+
+[[Category:DNA nanotechnology]]
+[[Category:Molecular machines]]
+
+
+{{genetics-stub}}</text>
+      <sha1>d2svs48qbuqsdoq5yjbnz99f4yrwb5l</sha1>
+    </revision>
+  </page>
+</mediawiki>

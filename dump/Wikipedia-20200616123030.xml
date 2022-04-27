@@ -1,0 +1,164 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.10/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.10/ http://www.mediawiki.org/xml/export-0.10.xsd" version="0.10" xml:lang="en">
+  <siteinfo>
+    <sitename>Wikipedia</sitename>
+    <dbname>enwiki</dbname>
+    <base>https://en.wikipedia.org/wiki/Main_Page</base>
+    <generator>MediaWiki 1.35.0-wmf.36</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Media</namespace>
+      <namespace key="-1" case="first-letter">Special</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Talk</namespace>
+      <namespace key="2" case="first-letter">User</namespace>
+      <namespace key="3" case="first-letter">User talk</namespace>
+      <namespace key="4" case="first-letter">Wikipedia</namespace>
+      <namespace key="5" case="first-letter">Wikipedia talk</namespace>
+      <namespace key="6" case="first-letter">File</namespace>
+      <namespace key="7" case="first-letter">File talk</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki talk</namespace>
+      <namespace key="10" case="first-letter">Template</namespace>
+      <namespace key="11" case="first-letter">Template talk</namespace>
+      <namespace key="12" case="first-letter">Help</namespace>
+      <namespace key="13" case="first-letter">Help talk</namespace>
+      <namespace key="14" case="first-letter">Category</namespace>
+      <namespace key="15" case="first-letter">Category talk</namespace>
+      <namespace key="100" case="first-letter">Portal</namespace>
+      <namespace key="101" case="first-letter">Portal talk</namespace>
+      <namespace key="108" case="first-letter">Book</namespace>
+      <namespace key="109" case="first-letter">Book talk</namespace>
+      <namespace key="118" case="first-letter">Draft</namespace>
+      <namespace key="119" case="first-letter">Draft talk</namespace>
+      <namespace key="446" case="first-letter">Education Program</namespace>
+      <namespace key="447" case="first-letter">Education Program talk</namespace>
+      <namespace key="710" case="first-letter">TimedText</namespace>
+      <namespace key="711" case="first-letter">TimedText talk</namespace>
+      <namespace key="828" case="first-letter">Module</namespace>
+      <namespace key="829" case="first-letter">Module talk</namespace>
+      <namespace key="2300" case="first-letter">Gadget</namespace>
+      <namespace key="2301" case="first-letter">Gadget talk</namespace>
+      <namespace key="2302" case="case-sensitive">Gadget definition</namespace>
+      <namespace key="2303" case="case-sensitive">Gadget definition talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Goodness of fit</title>
+    <ns>0</ns>
+    <id>2474821</id>
+    <revision>
+      <id>962081310</id>
+      <parentid>951873532</parentid>
+      <timestamp>2020-06-12T00:24:25Z</timestamp>
+      <contributor>
+        <username>InternetArchiveBot</username>
+        <id>27015025</id>
+      </contributor>
+      <comment>Bluelink 1 book for [[Wikipedia:Verifiability|verifiability]] (prndis)) #IABot (v2.0.1) ([[User:GreenC bot|GreenC bot]]</comment>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="11141" xml:space="preserve">{{more citations needed|date=January 2018}}
+{{Regression bar}}
+The '''goodness of fit''' of a [[statistical model]] describes how well it fits a set of observations. Measures of goodness of fit typically summarize the discrepancy between observed values and the values expected under the model in question. Such measures can be used in [[statistical hypothesis testing]], e.g. to [[normality test|test for normality]] of [[Errors and residuals in statistics|residual]]s, to test whether two samples are drawn from identical distributions  (see [[Kolmogorov–Smirnov]] test), or whether outcome frequencies follow a specified distribution (see [[Pearson's chi-squared test]]).  In the [[analysis of variance]], one of the components into which the variance is partitioned may be a [[lack-of-fit sum of squares]].
+
+==Fit of distributions==
+
+In assessing whether a given distribution is suited to a data-set, the following [[statistical hypothesis test|test]]s and their underlying measures of fit can be used:
+*[[Bayesian information criterion]]
+*[[Kolmogorov–Smirnov test]]
+*[[Cramér–von Mises criterion]]
+*[[Anderson–Darling test]]
+*[[Shapiro–Wilk test]]
+*[[Chi-squared test]]
+*[[Akaike information criterion]]
+*[[Hosmer–Lemeshow test]]
+*[[Kuiper's test]]
+*Kernelized Stein discrepancy&lt;ref&gt;{{cite conference |url=http://proceedings.mlr.press/v48/liub16.html |title=A Kernelized Stein Discrepancy for Goodness-of-fit Tests |last1=Liu |first1=Qiang |last2=Lee |first2=Jason |last3=Jordan |first3=Michael |date=20 June 2016 |publisher=Proceedings of Machine Learning Research |book-title=Proceedings of the 33rd International Conference on Machine Learning |pages=276–284 |location=New York, New York, USA |conference=The 33rd International Conference on Machine Learning }}&lt;/ref&gt;&lt;ref&gt;{{cite conference |url=http://proceedings.mlr.press/v48/chwialkowski16.html |title=A Kernel Test of Goodness of Fit |last1= Chwialkowski |first1=Kacper |last2=Strathmann |first2=Heiko |last3=Gretton |first3=Arthur |date=20 June 2016 |publisher=Proceedings of Machine Learning Research |book-title=Proceedings of the 33rd International Conference on Machine Learning |pages=2606-2615 |location=New York, New York, USA |conference=The 33rd International Conference on Machine Learning }}&lt;/ref&gt;
+*Zhang's Z&lt;sub&gt;K&lt;/sub&gt;, Z&lt;sub&gt;C&lt;/sub&gt; and Z&lt;sub&gt;A&lt;/sub&gt; tests&lt;ref&gt;{{cite journal |last1=Zhang |first1=Jin |title=Powerful goodness-of-fit tests based on the likelihood ratio |journal=J. R. Stat. Soc. B |date=2002 |volume=64 |pages=281–294 |url=http://anakena.dcc.uchile.cl/~mnmonsal/eso.pdf |accessdate=5 November 2018}}&lt;/ref&gt;
+*[[Moran test]]
+
+==Regression analysis==
+
+In [[regression analysis]], the following topics relate to goodness of fit:
+
+* [[Coefficient of determination]] (the R-squared measure of goodness of fit);
+* [[Lack-of-fit sum of squares]];
+* [[Reduced chi-squared]]
+* [[Regression validation]]
+* [[Mallows's Cp|Mallows's Cp criterion]]
+
+==Categorical data==
+
+The following are examples that arise in the context of [[categorical data]].
+
+===Pearson's chi-squared test===
+
+[[Pearson's chi-squared test]] uses a measure of goodness of fit which is the sum of differences between observed and [[Expected value|expected outcome]] frequencies (that is, counts of observations), each squared and divided by the expectation:
+
+:&lt;math&gt; \chi^2 = \sum_{i=1}^n {\frac{(O_i - E_i)}{E_i}^2}&lt;/math&gt; 
+where:
+:''O&lt;sub&gt;i&lt;/sub&gt;'' = an observed count for bin ''i''
+:''E&lt;sub&gt;i&lt;/sub&gt;'' = an expected count for bin ''i'', asserted by the [[null hypothesis]].
+
+The expected frequency is calculated by:
+:&lt;math&gt;E_i \, = \, \bigg( F(Y_u) \, - \, F(Y_l) \bigg) \, N&lt;/math&gt;
+where:
+:''F''   = the [[cumulative distribution function]] for the [[probability distribution]] being tested.
+:''Y&lt;sub&gt;u&lt;/sub&gt;'' = the upper limit for class ''i'', 
+:''Y&lt;sub&gt;l&lt;/sub&gt;'' = the lower limit for class ''i'', and 
+:''N'' = the sample size
+
+The resulting value can be compared with a [[chi-squared distribution]] to determine the goodness of fit. The chi-squared distribution has (''k'' &amp;minus; ''c'') [[Degrees of freedom (statistics)|degrees of freedom]], where ''k'' is the number of non-empty cells and ''c'' is the number of estimated parameters (including location and scale parameters and shape parameters) for the distribution plus one. For example, for a 3-parameter [[Weibull distribution]], ''c'' = 4.
+
+====Example: equal frequencies of men and women====
+
+For example, to test the hypothesis that a random sample of 100 people has been drawn from a population in which men and women are equal in frequency, the observed number of men and women would be compared to the theoretical frequencies of 50 men and 50 women. If there were 44 men in the sample and 56 women, then
+
+:&lt;math&gt; \chi^2 = {(44 - 50)^2 \over 50} + {(56 - 50)^2 \over 50} = 1.44&lt;/math&gt;
+
+If the null hypothesis is true (i.e., men and women are chosen with equal probability in the sample), the test statistic will be drawn from a chi-squared distribution with one [[degrees of freedom (statistics)|degree of freedom]].  Though one might expect two degrees of freedom (one each for the men and women), we must take into account that the total number of men and women is constrained (100), and thus there is only one degree of freedom (2&amp;nbsp;&amp;minus;&amp;nbsp;1).  In other words, if the male count is known the female count is determined, and vice versa.
+
+Consultation of the [[chi-squared distribution]] for 1 degree of freedom shows that the [[probability]] of observing this difference (or a more extreme difference than this) if men and women are equally numerous in the population is approximately 0.23. This probability is higher than conventional criteria for [[statistical significance]] (.001-.05), so normally we would not reject the null hypothesis that the number of men in the population is the same as the number of women (i.e. we would consider our sample within the range of what we'd expect for a 50/50 male/female ratio.)
+
+Note the assumption that the mechanism that has generated the sample is random, in the sense of independent random selection with the same probability, here 0.5 for both males and females. If, for example, each of the 44 males selected brought a male buddy, and each of the 56 females brought a female buddy, each &lt;math display="inline"&gt;{(O_i - E_i)}^2&lt;/math&gt; will increase by a factor of 4, while each &lt;math display="inline"&gt;E_i&lt;/math&gt; will increase by a factor of 2. The value of the statistic will double to 2.88.  Knowing this underlying mechanism, we should of course be counting pairs.  In general, the mechanism, if not defensibly random, will not be known. The distribution to which the test statistic should be referred may, accordingly, be very different from chi-squared.&lt;ref&gt;{{cite book |last=Maindonald |first=J. H. |last2=Braun |first2=W. J. |year=2010 |title=Data Analysis and Graphics Using R.  An Example-Based Approach.|url=https://archive.org/details/dataanalysisgrap00main_071 |url-access=limited |location=New York |publisher=Cambridge University Press |edition=Third |isbn=978-0-521-76293-9 |pp=[https://archive.org/details/dataanalysisgrap00main_071/page/n143 116]-118}}&lt;/ref&gt;
+
+====Binomial case====
+
+A binomial experiment is a sequence of independent trials in which the trials can result in one of two outcomes, success or failure.  There are ''n'' trials each with probability of success, denoted by ''p''.  Provided that ''np''&lt;sub&gt;''i''&lt;/sub&gt;&amp;nbsp;≫&amp;nbsp;1 for every ''i'' (where ''i''&amp;nbsp;=&amp;nbsp;1,&amp;nbsp;2,&amp;nbsp;...,&amp;nbsp;''k''), then
+
+&lt;math&gt; \chi^2 = \sum_{i=1}^{k} {\frac{(N_i - np_i)^2}{np_i}} = \sum_{\mathrm{all\ cells}}^{} {\frac{(\mathrm{O} - \mathrm{E})^2}{\mathrm{E}}}.&lt;/math&gt;
+
+This has approximately a chi-squared distribution with ''k''&amp;nbsp;&amp;minus;&amp;nbsp;1 degrees of freedom.  The fact that there are ''k''&amp;nbsp;&amp;minus;&amp;nbsp;1 degrees of freedom is a consequence of the restriction &lt;math&gt; \sum N_i=n&lt;/math&gt;.  We know there are ''k'' observed cell counts, however, once any ''k''&amp;nbsp;&amp;minus;&amp;nbsp;1 are known, the remaining one is uniquely determined.  Basically, one can say, there are only ''k''&amp;nbsp;&amp;minus;&amp;nbsp;1 freely determined cell counts, thus ''k''&amp;nbsp;&amp;minus;&amp;nbsp;1 degrees of freedom.
+
+===''G''-test===
+
+[[G-test|''G''-tests]] are [[likelihood ratio test|likelihood-ratio]] tests of [[statistical significance]] that are increasingly being used in situations where Pearson's chi-squared tests were previously recommended.&lt;ref&gt;{{cite book|author=McDonald, J.H.|year=2014|title=Handbook of Biological Statistics|location=Baltimore, Maryland|publisher=Sparky House Publishing|edition=Third|chapter=G–test of goodness-of-fit|url=http://www.biostathandbook.com/gtestgof.html|pages=53–58}}&lt;/ref&gt;
+
+The general formula for ''G'' is
+:&lt;math&gt; G = 2\sum_{i} {O_{i} \cdot \ln\left(\frac{O_i}{E_i}\right)}, &lt;/math&gt;
+
+where &lt;math display="inline"&gt;O_i&lt;/math&gt; and &lt;math display="inline"&gt;E_i&lt;/math&gt; are the same as for the chi-squared test, &lt;math display="inline"&gt;\ln&lt;/math&gt; denotes the [[natural logarithm]], and the sum is taken over all non-empty cells. Furthermore, the total observed count should be equal to the total expected count:&lt;math display="block"&gt;\sum_i O_i = \sum_i E_i = N&lt;/math&gt;where &lt;math display="inline"&gt;N&lt;/math&gt; is the total number of observations.
+
+''G''-tests have been recommended at least since the 1981 edition of the popular statistics textbook by [[Robert R. Sokal]] and [[F. James Rohlf]].&lt;ref&gt;{{cite book |last=Sokal |first=R. R. |last2=Rohlf |first2=F. J. |year=1981 |title=Biometry: The Principles and Practice of Statistics in Biological Research |publisher=[[W. H. Freeman]] |edition=Second |isbn=0-7167-2411-1 |url-access=registration |url=https://archive.org/details/biometryprincipl00soka_0 }}&lt;/ref&gt;
+
+== See also ==
+* [[All models are wrong]]
+* [[Deviance (statistics)]] (related to [[Generalized linear model|GLM]])
+* [[Overfitting]]
+* [[Statistical model validation]]
+* [[Theil–Sen estimator]]
+
+==References==
+&lt;references/&gt;
+
+==Further reading==
+*{{citation| editor1-first= C. | editor1-last= Huber-Carol |  editor2-first=  N.  | editor2-last=Balakrishnan |  editor3-first= M. S. | editor3-last= Nikulin |  editor4-first= M.  | editor4-last= Mesbah | title= Goodness-of-Fit Tests and Model Validity | publisher= [[Springer Science+Business Media|Springer]] | year= 2002}}
+*{{citation | first1= Yu. I. | last1= Ingster | first2= I. A. | last2= Suslina | title= Nonparametric Goodness-of-Fit Testing Under Gaussian Models | year= 2003 | publisher= [[Springer Science+Business Media|Springer]] }}
+*{{citation | first1= J. C. W. | last1= Rayner | first2= O. | last2= Thas | first3= D. J. | last3=  Best | title= Smooth Tests of Goodness of Fit | publisher= [[Wiley (publisher)|Wiley]] | year= 2009 | edition= 2nd}}
+*{{citation | author1-first= Albert | author1-last= Vexlera | author2-first= Gregory | author2-last= Gurevich | title= Empirical likelihood ratios applied to goodness-of-fit tests based on sample entropy | journal= [[Computational Statistics &amp; Data Analysis]] | year= 2010 | volume= 54 | pages= 531-545 | doi= 10.1016/j.csda.2009.09.025 }}
+
+[[Category:Statistical theory]]</text>
+      <sha1>h8ux8z0h4akrwt3bbor2nd2pbjmskrg</sha1>
+    </revision>
+  </page>
+</mediawiki>

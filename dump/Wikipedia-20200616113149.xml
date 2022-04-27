@@ -1,0 +1,155 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.10/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.10/ http://www.mediawiki.org/xml/export-0.10.xsd" version="0.10" xml:lang="en">
+  <siteinfo>
+    <sitename>Wikipedia</sitename>
+    <dbname>enwiki</dbname>
+    <base>https://en.wikipedia.org/wiki/Main_Page</base>
+    <generator>MediaWiki 1.35.0-wmf.36</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Media</namespace>
+      <namespace key="-1" case="first-letter">Special</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Talk</namespace>
+      <namespace key="2" case="first-letter">User</namespace>
+      <namespace key="3" case="first-letter">User talk</namespace>
+      <namespace key="4" case="first-letter">Wikipedia</namespace>
+      <namespace key="5" case="first-letter">Wikipedia talk</namespace>
+      <namespace key="6" case="first-letter">File</namespace>
+      <namespace key="7" case="first-letter">File talk</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki talk</namespace>
+      <namespace key="10" case="first-letter">Template</namespace>
+      <namespace key="11" case="first-letter">Template talk</namespace>
+      <namespace key="12" case="first-letter">Help</namespace>
+      <namespace key="13" case="first-letter">Help talk</namespace>
+      <namespace key="14" case="first-letter">Category</namespace>
+      <namespace key="15" case="first-letter">Category talk</namespace>
+      <namespace key="100" case="first-letter">Portal</namespace>
+      <namespace key="101" case="first-letter">Portal talk</namespace>
+      <namespace key="108" case="first-letter">Book</namespace>
+      <namespace key="109" case="first-letter">Book talk</namespace>
+      <namespace key="118" case="first-letter">Draft</namespace>
+      <namespace key="119" case="first-letter">Draft talk</namespace>
+      <namespace key="446" case="first-letter">Education Program</namespace>
+      <namespace key="447" case="first-letter">Education Program talk</namespace>
+      <namespace key="710" case="first-letter">TimedText</namespace>
+      <namespace key="711" case="first-letter">TimedText talk</namespace>
+      <namespace key="828" case="first-letter">Module</namespace>
+      <namespace key="829" case="first-letter">Module talk</namespace>
+      <namespace key="2300" case="first-letter">Gadget</namespace>
+      <namespace key="2301" case="first-letter">Gadget talk</namespace>
+      <namespace key="2302" case="case-sensitive">Gadget definition</namespace>
+      <namespace key="2303" case="case-sensitive">Gadget definition talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Epigenetics of plant growth and development</title>
+    <ns>0</ns>
+    <id>46694447</id>
+    <revision>
+      <id>930969123</id>
+      <parentid>923113315</parentid>
+      <timestamp>2019-12-16T03:59:03Z</timestamp>
+      <contributor>
+        <username>Akrasia25</username>
+        <id>35035024</id>
+      </contributor>
+      <minor/>
+      <comment>link [[H4K5ac]] using [[:en:User:Edward/Find link|Find link]]</comment>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="14793" xml:space="preserve">[[Plants]] depend on [[epigenetics|epigenetic processes]] for proper function. Epigenetics has been defined as "the study of changes in gene function that are mitotically and/or meiotically heritable and that do not entail a change in DNA sequence" (Wu et al. 2001). Epigenetic examines proteins' interactions with DNA and its associated components, including [[histones]] and various modifications such as [[methylation]], which alter the rate or target of [[Transcription (genetics)|transcription]]. Epigenetic mechanisms are required for proper regulation while epi-alleles and epi-mutants, much like their genetic complements, describe changes in phenotype associated with distinct epigenetic circumstance. There has been scientific enthusiasm for the study of epigenetics in plants because of their long-standing importance in agriculture.
+
+== Background and history==
+
+In the past, macroscopic observations on plants led to basic understandings of how plants respond to their environments and grow. While these investigations could somewhat correlate cause and effect as a plant develops, they could not truly explain the mechanisms at work without inspection at the molecular level.
+
+Certain studies provided simplistic models with the groundwork for further exploration and eventual explanation through [[epigenetics]]. In 1918, Gassner published findings that noted the necessity of a cold phase in order for proper plant growth. Meanwhile, Garner and Allard examined the importance of the duration of light exposure to plant growth in 1920. Gassner's work would shape the conceptualization of vernalization which involves epigenetic changes in plants after a period of cold that leads to development of flowering (Heo and Sung et al. 2011). In a similar manner, Garner and Allard's efforts would gather an awareness of [[photoperiodism]] which involves epigenetic modifications following the duration of nighttime which enable flowering (Sun et al. 2014). Rudimentary comprehensions set precedent for later molecular evaluation and, eventually, a more complete view of how plants operate. 
+ 
+Modern epigenetic work depends heavily on bioinformatics to gather large quantities of data relating the function of elements such as intensive looks at DNA sequences or patterns in DNA modifications. 
+With improved methods, flowering mechanisms including vernalization and photoperiodism, Flowering Wageningen, and the underlying processes controlling [[germination]], [[meristematic tissue]], and [[heterosis]] have been explained through epigenetics.
+
+Research on plants looks at several species. These species are apparently selected on the basis of either conventional model organisms status, such as ''[[Arabidopsis]]'' with its manageability in lab and a known genome, or relevance in agronomy, such as rice, barley or tomatoes.
+
+== Epigenetics ==
+
+===Overview===
+
+Epigenetic modifications regulate [[gene expression]]. The transcription of DNA into RNA and subsequent translation into proteins determines the form and function of all living things. The level of DNA transcription generally depends on how accessible DNA is to [[transcription factor]]s. Many epigenetic changes occur either on histones, which are normally associated with DNA in [[chromatin]], or directly on the DNA. For instance, [[DNA methylation|methylation of DNA]] leads to [[transcriptional silencing]] by denying access to transcription factors. [[Histone methylation]] can lead to either silencing or activation as determined by the [[amino acid]] marked. Meanwhile, [[histone acetylation]] typically lessens the hold of histones on DNA by reducing positive charge, resulting in facilitation of transcription (Weinhold et al. 2001).
+
+===Polycomb group proteins and trithorax group proteins===
+
+Polycomb group (PcG) proteins and trithorax groups (TrxG) proteins act as key regulators of gene expression through histone [[lysine]] methylation. PcG proteins repress target genes via Histone 3 lysine 27 trimethylation ([[H3K27me3]]), whereas TrxG proteins activate gene expression via histone 3 lysine 4 trimethylation (H3K4me3) (Kleinmanns et al. 2014).
+
+===Long non-coding RNA===
+
+[[Long non-coding RNA]] can associate with DNA in tandem with proteins to alter the rate of gene expression. These RNA are upwards of 200 base pairs. They can be transcribed from a standalone sequence or be part of a promoter, intron or other component of DNA. Long non-coding RNA often complement functional regions of DNA with overlaps or [[antisense]] (Kung et al. 2013). To direct transcriptional silencing, a non-coding RNA will associate with a polycomb group protein which to tether it to a specific gene for silencing (Kleinmanns et al. 2014).
+
+== Seed dormancy and germination ==
+
+Germination is the early growth of a plant from a seed. Meanwhile, dormancy precedes germination and serves to preserve a seed until conditions are receptive towards growth. The transition from dormancy to germination seems to depend on the removal of factors inhibiting growth. There are many models for germination which may differ between species. The activity of genes such as Delay of Germination and presence of hormones such as [[gibberelin]]s have been implicated in dormancy while the exact mechanisms surrounding their action is unknown (Nonogaki et al. 2014).
+
+===Deacetylation===
+
+There are at least eighteen [[histone deacetylase]]s in ''Arabidopsis'' (Hollender et al. 2008). Genome-wide association mapping has shown that deacetylation of histones by Histone Deacetylase 2B negatively affects dormancy. The remodeling of chromatin by histone deacetylase leads to silencing of genes that control plant hormones such as [[ethylene]], [[abscisic acid]], and gibberelin which maintain dormancy. Additionally, Histone Deacetylase A6 and A19 activity contributes to silencing of [[Cytochrome P450]] 707A and activation of NINE-CIS-EPOXYCAROTENOID DIOXYGENASE 4, 9. Both of these actions lead to increased abscisic acid (Nonogaki et al. 2014).
+
+===Methylaltion===
+
+Methylation by the [[methyltransferase]] KRYPTONITE causes histone H3 lysine 9 dimethylation which recruits the DNA methyltransferase CHROMOMETHTLASE3 in tandem with HETEROCHROMATIN PROTEIN1. This association methylates cytosine for a stable silencing of Delay of Germination 1 and ABA Insensitive Genes which both contribute to dormancy (Nonogaki et al. 2014).
+
+== Flowering and related mechanisms ==
+
+Flowering is a pivotal step in plant development. Numerous epigenetic factors contribute to the regulation of flowering genes, known as flowering loci (FL). In ''Arabidopsis'', flowering locus t is responsible for the production of florigen, which induces changes in the shoot apical meristem, a special set of growth tissues, to establish flowering (Turck et al. 2008). Homologs of the flowering genes exist in flowering plants, but the exact nature of how the genes respond to each mechanism might differ between species (Sun et al. 2014).
+
+===Vernalization===
+
+[[Vernalization]] depends on the presence of a long non-coding RNA that is termed COLDAIR. The exposure of plants to a significant period of cold results in COLDAIR accumulation. COLDAIR targets [[polycomb repressive complex 2]] which acts to silence flowering locus C through methylation (Heo and Sung et al. 2011). As flowering locus C is repressed it no longer acts to inhibit the transcription of flowering locus t and SOC1. Flowering locus t and SOC1 activity leads to the development of flowers (Deng et al. 2011).
+
+===Photoperiodism===
+
+Another set of flowering controls stems from photoperiodism which initiates flowering based on the length of nighttime. Long day plants flower with a short night, while short day plants require uninterrupted darkness. Some plants are restricted to either condition, while others can operate under a combination of the two, and some plants do not operate under photoperiodism.  In ''Arabidopsis'', the gene CONSTANS responds to long day conditions and enables flowering when it stops repressing flowering locus t (Shim et al. 2015). In rice, photoperiodic response is slightly more complex and is controlled by the florigen genes Rice Flowering locus T 1 (RFT1) and Heading date 3 a (Hd3a). Hd3a, is a homolog of flowering locus t and, when no longer repressed, activates flowering by directing modification of DNA at the shoot apical meristem with florigen. Heading date 1 (Hd1) is a gene that promotes flowering under short day conditions but represses flowering under long day as it either activates or suppresses Hd3a. Meanwhile, RFT1 can cause flowering under non-inductive long day. Polycomb Repressive Complex 2 can lead to silencing of the genes through histone H3 lysine 27 trimethylation. A variety of chromatin modifications operating in both long and short days or only under one condition can also affect the two florigen genes in rice (Sun et al. 2014).
+
+== Flowering wageningen (FWA) ==
+
+The gene FWA has been identified as responsible for late flowering in epi-mutants. Epi-mutants are individuals with particular epigenetic changes that lead to a distinct phenotype. As such, both wild type and epi-mutant variants contain identical sequences for FWA. Loss of methylation in direct repeats in the 5' region of the gene results in expression of FWA and subsequent prevention of proper flowering. The gene is normally silenced by methylation of DNA in tissues not related to flowering (Soppe et al. 2000).
+
+== Meristematic tissue ==
+
+Meristematic tissues contain cells that continue to grow and differentiate throughout the plant's lifetime. Shoot apical meristem gives rise to flowers and leaves while root apical meristem grows into roots. These components are crucial to general plant growth and are the harbingers of development. Meristematic tissue apparently contains characteristic epigenetic modifications. For example, the boundary between the proximal meristem and elongation zone showed elevated [[H4K5ac]] along with a high level of 5mC in barley. Root meristematic tissues have been found to contain patterns for histone H4 lysine 5 acetylation, histone H3 lysine 4 and 9 di methylation and DNA methylation as 5-methyl cytosine. So far, only a casual correlation between epigenetic marks and tissue types has been established and further study is required to understand the exact involvement of the marks (Braszewska et al. 2013).
+
+== Heterosis ==
+
+Heterosis is defined as any advantages seen in hybrids. The effects of heterosis seem to follow a rather simple epigenetic premise in plants. In hybrids, lack of proper regulatory action, such as silencing by methylation, leads to uninhibited genes. If the gene is involved in growth, such as photosynthesis, the plant will experience increased vitality (Ni et al. 2008).
+
+The results heterosis can be seen in traits such as increased fruit yield, earlier ripening, and heat tolerance. Heterosis has been shown to provide increased general growth and fruit yield in tomato plants (Xiaodong).
+
+== References ==
+
+* Braszewska-Zalewska AJ, Wolny EA, Smialek L, Hasterok R. Tissue-Specific Epigenetic Modifications in Root Apical Meristem Cells of Hordeum vulgare. Zhang X, ed. PLoS ONE. 2013;8(7):e69204. doi:10.1371/journal.pone.0069204.
+* Braszewska-Zalewska, Agnieszka, and Robert Hasterok. “Epigenetic Modifications of Nuclei Differ between Root Meristematic Tissues of Hordeum Vulgare." Plant Signaling &amp; Behavior 8.10 (2013): e26711. PMC. Web.
+* Deng W, Ying H, Helliwell CA, Taylor JM, Peacock WJ, Dennis ES. FLOWERING LOCUS C (FLC) regulates development pathways throughout the life cycle of Arabidopsis. Proceedings of the National Academy of Sciences of the United States of America. 2011;108(16):6680-6685. doi:10.1073/pnas.1103175108.
+* Gassner, G. (1918). Beiträge zur physiologiischen Charakteristik sommer- und winterannueller Gewächse, insbesondere der Getreidepflanzen. Z. Bot. 10, 417–480.
+* Garner, W.W. Allard, H.A. “Effect of the Relative Length of Day and Night and Other Factors of the Environment on Growht and Reproduction in Plants." Monthly Weather Review. 1920.
+* Heo, J. B., and Sung, S. (2011). Vernalization-mediated epigenetic silencing by along Intronic noncoding RNA. Science 331, 76–79. doi: 10.1126/science.1197349
+* Hollender C, Liu ZC. Histone deacetylase genes in Arabidopsis development. Integr Plant Biol. 2008;50:875–85. doi: 10.1111/j.1744-7909.2008.00704.x
+* Kleinmanns, J. &amp; Schubert, D. (2014). Polycomb and Trithorax group protein-mediated control of stress responses in plants. Biological Chemistry, 395(11), pp.&amp;nbsp;1291–1300. Retrieved 9 May. 2015, from doi:10.1515/hsz-2014-0197
+* Kung JTY, Colognori D, Lee JT. Long Noncoding RNAs: Past, Present, and Future. Genetics. 2013;193(3):651-669. doi:10.1534/genetics.112.146704.
+* Matsubara, K. et al. Ehd3, encoding a plant homeodomain finger-containing protein, is a critical promoter of rice flowering. Plant J. 66, 603–612 (2011).
+* Müller, Ralf, and Justin Goodrich. “Sweet Memories: Epigenetic Control in Flowering." F1000 Biology Reports 3 (2011): 13. PMC.
+* Ni, X. E-D. Kim, M. Ha, E. Lackey, J. Liu, Y. Zhang, Q. Sun, Z.J. Chen. "Altered circadian rhythms regulate growth vigour in hybrids and allopolyploids". Nature, 457 (2008), pp.&amp;nbsp;327–333
+* Nonogaki H. Seed dormancy and germination—emerging mechanisms and new hypotheses. Frontiers in Plant Science. 2014;5:233. doi:10.3389/fpls.2014.00233.
+* Shim, JS. Imaizumi, Takato. "Circadian Clock and Photoperiodic Response in Arabidopsis: From Seasonal Flowering to Redox Homeostasis" Biochemistry 2015 54 (2), 157–170. DOI: 10.1021/bi500922q
+* Soppe WJJ, et al. (2000) The late flowering phenotype of fwa mutants is caused by gain-of-function epigenetic alleles of a homeodomain gene. Mol Cell 6(4): 791–802.
+* Sun, Changhui et al. “Understanding the Genetic and Epigenetic Architecture in Complex Network of Rice Flowering Pathways." Protein &amp; Cell 5.12 (2014): 889–898. PMC.
+* Turck F, Fornara F, Coupland G Regulation and identity of florigen: FLOWERING LOCUS T moves center stage. Annu Rev Plant Biol. 2008; 59: 573–594 doi: 10.1146/annurev.arplant.59.032607.09275518444908 [PubMed]
+* Weinhold B. Epigenetics: The Science of Change. Environmental Health Perspectives. 2006;114(3):A160-A167.
+* Wu Ct, Morris JR. Genes, genetics, and epigenetics: a correspondence. Science. 2001;293(5532):1103–1105.
+* Xiaodong Yang, Hardik Kundariya, Ying-zhi Xu, Ajay P Sandhu, Jiantao Yu, Samuel F Hutton, Mingfang Zhang, and Sally A Mackenzie MSH1-Derived Epigenetic Breeding Potential in Tomato Plant Physiology 2015 : pp.&amp;nbsp;15.00075v1-pp.&amp;nbsp;00075.2015.
+&lt;!--This article is part of a project from the University of Texas at Austin.--&gt;
+
+[[Category:Plant development]]
+[[Category:Epigenetics]]</text>
+      <sha1>mabimigb4ytqw7b189eq0r4mp5nlfuu</sha1>
+    </revision>
+  </page>
+</mediawiki>

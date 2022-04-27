@@ -1,0 +1,233 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.10/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.10/ http://www.mediawiki.org/xml/export-0.10.xsd" version="0.10" xml:lang="en">
+  <siteinfo>
+    <sitename>Wikipedia</sitename>
+    <dbname>enwiki</dbname>
+    <base>https://en.wikipedia.org/wiki/Main_Page</base>
+    <generator>MediaWiki 1.35.0-wmf.36</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Media</namespace>
+      <namespace key="-1" case="first-letter">Special</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Talk</namespace>
+      <namespace key="2" case="first-letter">User</namespace>
+      <namespace key="3" case="first-letter">User talk</namespace>
+      <namespace key="4" case="first-letter">Wikipedia</namespace>
+      <namespace key="5" case="first-letter">Wikipedia talk</namespace>
+      <namespace key="6" case="first-letter">File</namespace>
+      <namespace key="7" case="first-letter">File talk</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki talk</namespace>
+      <namespace key="10" case="first-letter">Template</namespace>
+      <namespace key="11" case="first-letter">Template talk</namespace>
+      <namespace key="12" case="first-letter">Help</namespace>
+      <namespace key="13" case="first-letter">Help talk</namespace>
+      <namespace key="14" case="first-letter">Category</namespace>
+      <namespace key="15" case="first-letter">Category talk</namespace>
+      <namespace key="100" case="first-letter">Portal</namespace>
+      <namespace key="101" case="first-letter">Portal talk</namespace>
+      <namespace key="108" case="first-letter">Book</namespace>
+      <namespace key="109" case="first-letter">Book talk</namespace>
+      <namespace key="118" case="first-letter">Draft</namespace>
+      <namespace key="119" case="first-letter">Draft talk</namespace>
+      <namespace key="446" case="first-letter">Education Program</namespace>
+      <namespace key="447" case="first-letter">Education Program talk</namespace>
+      <namespace key="710" case="first-letter">TimedText</namespace>
+      <namespace key="711" case="first-letter">TimedText talk</namespace>
+      <namespace key="828" case="first-letter">Module</namespace>
+      <namespace key="829" case="first-letter">Module talk</namespace>
+      <namespace key="2300" case="first-letter">Gadget</namespace>
+      <namespace key="2301" case="first-letter">Gadget talk</namespace>
+      <namespace key="2302" case="case-sensitive">Gadget definition</namespace>
+      <namespace key="2303" case="case-sensitive">Gadget definition talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Nucleic acid sequence</title>
+    <ns>0</ns>
+    <id>331535</id>
+    <revision>
+      <id>961317487</id>
+      <parentid>961157936</parentid>
+      <timestamp>2020-06-07T19:42:15Z</timestamp>
+      <contributor>
+        <username>El-Allanine</username>
+        <id>35618358</id>
+      </contributor>
+      <comment>Changed "base-pairs" to "bases" in first sentence because if the nucleic acid is single-stranded, then the sequence is of individual bases (not base pairs); and if double-stranded, then each strand will have its own sequence (which may or may not be perfectly complementary).</comment>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="23272" xml:space="preserve">{{short description|succession of nucleotides in a nucleic acid}}
+{{more citations needed|date=March 2014}}
+{{DNA RNA structure}}
+A '''nucleic acid sequence''' is a succession of bases signified by a series of a set of five different letters that indicate the order of [[nucleotides]] forming [[allele]]s within a [[DNA]] (using GACT) or [[RNA]] (GACU) molecule. By convention, sequences are usually presented  from the [[Directionality (molecular biology)|5' end to the 3' end]]. For DNA, the [[Sense (molecular biology)|sense]] strand is used. Because nucleic acids are normally linear (unbranched) [[polymers]], specifying the sequence is equivalent to defining the [[covalent]] structure of the entire molecule. For this reason, the nucleic acid sequence is also termed the [[primary structure]].
+
+The sequence has capacity to represent [[information]]. Biological deoxyribonucleic acid represents the information which directs the functions of a living thing.
+
+Nucleic acids also have a [[secondary structure]] and [[tertiary structure]]. Primary structure is sometimes mistakenly referred to as ''primary sequence''. Conversely, there is no parallel concept of secondary or tertiary sequence.
+
+== Nucleotides ==
+[[File:RNA chemical structure.GIF|thumb|Chemical structure of RNA]]
+[[Image:RNA-codons.png|thumb|A series of codons in part of a [[mRNA]] molecule. Each codon consists of three [[nucleotide]]s, usually representing a single [[amino acid]].]]
+{{Main|Nucleotide}}
+
+Nucleic acids consist of a chain of linked units called nucleotides.  Each nucleotide consists of three subunits: a [[phosphate]] group and a [[sugar]] ([[ribose]] in the case of [[RNA]], [[deoxyribose]] in [[DNA]]) make up the backbone of the nucleic acid strand, and attached to the sugar is one of a set of [[nucleobase]]s.  The nucleobases are important in [[base pair]]ing of strands to form higher-level [[Nucleic acid secondary structure|secondary]] and [[Nucleic acid tertiary structure|tertiary structure]] such as the famed [[Nucleic acid double helix|double helix]].
+
+The possible letters are ''A'', ''C'', ''G'', and ''T'', representing the four [[nucleotide]] [[nucleobase|bases]] of a DNA strand – [[adenine]], [[cytosine]], [[guanine]], [[thymine]] – [[covalent]]ly linked to a [[phosphodiester bond|phosphodiester]] backbone. In the typical case, the sequences are printed abutting one another without gaps, as in the sequence AAAGTCTGAC, read left to right in the [[Directionality (molecular biology)|5' to 3']] direction. With regards to [[transcription (biology)|transcription]], a sequence is on the coding strand if it has the same order as the transcribed RNA.
+
+One sequence can be [[Complementarity (molecular biology)|complementary]] to another sequence, meaning that they have the base on each position in the complementary (i.e. A to T, C to G) and in the reverse order. For example, the complementary sequence to TTAC is GTAA. If one strand of the double-stranded DNA is considered the sense strand, then the other strand, considered the antisense strand, will have the complementary sequence to the sense strand.
+
+=== Notation ===
+{{Main|Nucleic acid notation}}
+
+Comparing and determining % difference between two nucleotide sequences. 
+*AA'''T'''CC'''GC'''TAG
+*AA'''A'''CC'''CT'''TAG
+* Given the two 10-nucleotide sequences, line them up and compare the differences between them. Calculate the percent similarity by taking the number of different DNA bases divided by the total number of nucleotides. In the above case, there are three differences in the 10 nucleotide sequence. Therefore, divide 7/10 to get the 70% similarity and subtract that from 100% to get a 30% difference.
+
+While A, T, C, and G represent a particular nucleotide at a position, there are also letters that represent ambiguity which are used when more than one kind of nucleotide could occur at that position. The rules of the International Union of Pure and Applied Chemistry ([[IUPAC]]) are as follows:&lt;ref name=NCIUB&gt;[http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html Nomenclature for Incompletely Specified Bases in Nucleic Acid Sequences], NC-IUB, 1984.&lt;/ref&gt;
+
+{| class="wikitable" style="margin-left:25px; margin-top:0px; text-align:center;"
+|-
+! Symbol&lt;ref name="iupac"&gt;{{cite web |url=http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html |author=Nomenclature Committee of the International Union of Biochemistry (NC-IUB) |title=Nomenclature for Incompletely Specified Bases in Nucleic Acid Sequences |year=1984 |accessdate=2008-02-04}}&lt;/ref&gt; !! Description !!colspan=5| Bases represented || Complement
+|-
+| '''A''' ||align=left| [[Adenine|'''A'''denine]] || A || || || ||rowspan=5| 1 || T
+|-
+| '''C''' ||align=left| [[Cytosine|'''C'''ytosine]] || || C || || || G
+|-
+| '''G''' ||align=left| [[Guanine|'''G'''uanine]] || || || G || || C
+|-
+| '''T''' ||align=left| [[Thymine|'''T'''hymine]] || || || || T  || A
+|- 
+| '''U''' ||align=left| [[Uracil|'''U'''racil]] || || || || U || A
+|- bgcolor=#e8e8e8
+| '''W''' ||align=left| '''W'''eak || A || || || T ||rowspan=6| 2 || W
+|- bgcolor=#e8e8e8
+| '''S''' ||align=left| '''S'''trong || || C || G ||  || S
+|- bgcolor=#e8e8e8
+| '''M''' ||align=left| [[Amine|a'''M'''ino]] || A || C || || || K
+|- bgcolor=#e8e8e8
+| '''K''' ||align=left| [[Ketone|'''K'''eto]] || || || G || T  || M
+|- bgcolor=#e8e8e8
+| '''R''' ||align=left| [[Purine|pu'''R'''ine]] || A || || G ||  || Y
+|- bgcolor=#e8e8e8
+| '''Y''' ||align=left| [[Pyrimidine|p'''Y'''rimidine]] || || C || || T || R
+|- 
+| '''B''' ||align=left|  not A ('''B''' comes after A) || || C || G || T  ||rowspan=4| 3 || V
+|- 
+| '''D''' ||align=left|  not C ('''D''' comes after C) || A || || G || T || H
+|- 
+| '''H''' ||align=left| not G ('''H''' comes after G)|| A || C || || T || D
+|- 
+| '''V''' ||align=left| not T ('''V''' comes after T and U) || A || C || G || || B
+|- bgcolor=#e8e8e8
+| '''N''' ||align=left|  any '''N'''ucleotide (not a gap) || A || C || G || T || 4 || N
+|-
+|'''Z''' ||align=left| [[0|'''Z'''ero]] || || || ||  || 0 || Z
+|}
+
+These symbols are also valid for RNA, except with U (uracil) replacing T (thymine).&lt;ref name=NCIUB/&gt;
+
+Apart from adenine (A), cytosine (C), guanine (G), thymine (T) and uracil (U), DNA and RNA also contain bases that have been modified after the nucleic acid chain has been formed. In DNA, the most common modified base is [[5-Methylcytidine|5-methylcytidine]] (m5C). In RNA, there are many modified bases, including pseudouridine (Ψ), dihydrouridine (D), inosine (I), ribothymidine (rT) and [[7-methylguanosine]] (m7G).&lt;ref&gt;{{cite web|url=https://www.mun.ca/biology/desmid/brian/BIOL2060/BIOL2060-22/CB22.html|title=BIOL2060: Translation|work=mun.ca}}&lt;/ref&gt;&lt;ref&gt;{{cite web|url=http://www.biogeo.uw.edu.pl/research/grupaC_en.html|title=Research|work=uw.edu.pl}}&lt;/ref&gt;  [[Hypoxanthine]] and [[xanthine]] are two of the many bases created through [[mutagen]] presence, both of them through deamination (replacement of the amine-group with a carbonyl-group). Hypoxanthine is produced from [[adenine]], and xanthine is produced from [[guanine]].&lt;ref&gt;{{cite journal | last1 = Nguyen | first1 = T | last2 = Brunson | first2 = D | last3 = Crespi | first3 = C L | last4 = Penman | first4 = B W | last5 = Wishnok | first5 = J S | last6 = Tannenbaum | first6 = S R | date = April 1992 | title = DNA damage and mutation in human cells exposed to nitric oxide in vitro | journal = Proc Natl Acad Sci USA | volume = 89 | issue = 7| pages = 3030–034 | pmc=48797 | pmid=1557408 | doi=10.1073/pnas.89.7.3030| bibcode = 1992PNAS...89.3030N }}&lt;/ref&gt; Similarly, deamination of [[cytosine]] results in [[uracil]].
+
+== Biological significance ==
+[[File:Kooditabel.png|200px|thumb|A depiction of the [[genetic code]], by which the information contained in [[nucleic acid]]s are [[Translation (genetics)|translated]] into [[amino acid]] sequences in [[protein]]s.]]
+
+{{Further|Genetic code|Central dogma of molecular biology}}
+
+In biological systems, nucleic acids contain information which is used by a living [[Cell (biology)|cell]] to construct specific [[protein]]s.  The sequence of [[nucleobase]]s on a nucleic acid strand is [[Translation (genetics)|translated]] by cell machinery into a sequence of [[amino acid]]s making up a protein strand.  Each group of three bases, called a [[codon]], corresponds to a single amino acid, and there is a specific [[genetic code]] by which each possible combination of three bases corresponds to a specific amino acid.
+
+The [[central dogma of molecular biology]] outlines the mechanism by which proteins are constructed using information contained in nucleic acids.  [[DNA]] is [[Transcription (genetics)|transcribed]] into [[mRNA]] molecules, which travels to the [[ribosome]] where the mRNA is used as a template for the construction of the protein strand.  Since nucleic acids can bind to molecules with [[Complementarity (molecular biology)|complementary]] sequences, there is a distinction between "[[Sense (molecular biology)|sense]]" sequences which code for proteins, and the complementary "antisense" sequence which is by itself nonfunctional, but can bind to the sense strand.
+
+== Sequence determination ==
+[[Image:DNA sequence.svg|right|thumb|268px|Electropherogram printout from automated sequencer for determining part of a DNA sequence]]
+
+{{Main|DNA sequencing}}
+
+DNA sequencing is the process of determining the [[nucleotide]] sequence of a given [[DNA]] fragment. The sequence of the DNA of a living thing encodes the necessary information for that living thing to survive and reproduce. Therefore, determining the sequence is useful in fundamental research into why and how organisms live, as well as in applied subjects. Because of the importance of DNA to living things, knowledge of a DNA sequence may be useful in practically any biological [[research]]. For example, in [[medicine]] it can be used to identify, [[diagnosis|diagnose]] and potentially develop [[treatment (medicine)|treatments]] for [[genetic disease]]s. Similarly, research into [[pathogens]] may lead to treatments for contagious diseases. [[Biotechnology]] is a burgeoning discipline, with the potential for many useful products and services.
+
+RNA is not sequenced directly. Instead, it is copied to a DNA by [[reverse transcriptase]], and this DNA is then sequenced.
+
+Current sequencing methods rely on the discriminatory ability of DNA polymerases, and therefore can only distinguish four bases. An inosine (created from adenosine during [[RNA editing]]) is read as a G, and 5-methyl-cytosine (created from cytosine by [[DNA methylation]]) is read as a C.  With current technology, it is difficult to sequence small amounts of DNA, as the signal is too weak to measure. This is overcome by [[polymerase chain reaction]] (PCR) amplification.
+
+=== Digital representation ===
+[[File:AMY1gene.png|thumb|370px|Genetic sequence in digital format.]]
+Once a nucleic acid sequence has been obtained from an organism, it is stored ''[[in silico]]'' in digital format. Digital genetic sequences may be stored in [[sequence database]]s, be analyzed (see ''Sequence analysis'' below), be digitally altered and be used as templates for creating new actual DNA using [[artificial gene synthesis]].
+
+== Sequence analysis ==
+{{Main|Sequence analysis}}
+
+Digital genetic sequences may be analyzed using the tools of [[bioinformatics]] to attempt to determine its function.
+
+=== Genetic testing ===
+{{Main|Genetic testing}}
+
+The DNA in an organism's [[genome]] can be analyzed to [[medical diagnosis|diagnose]] vulnerabilities to inherited [[disease]]s, and can also be used to determine a child's paternity (genetic father) or a person's [[ancestry]]. Normally, every person carries two variations of every [[gene]], one inherited from their mother, the other inherited from their father. The [[human genome]] is believed to contain around 20,000–25,000 genes. In addition to studying [[chromosome]]s to the level of individual genes, genetic testing in a broader sense includes [[biochemical]] tests for the possible presence of [[genetic disease]]s, or mutant forms of genes associated with increased risk of developing genetic disorders.
+
+Genetic testing identifies changes in chromosomes, genes, or proteins.&lt;ref&gt;{{cite web|url=http://www.ghr.nlm.nih.gov/handbook/testing/genetictesting|title=What is genetic testing?|date=16 March 2015|work=Genetics Home Reference}}&lt;/ref&gt;   Usually, testing is used to find changes that are associated with inherited disorders. The results of a genetic test can confirm or rule out a suspected genetic condition or help determine a person's chance of developing or passing on a genetic disorder. Several hundred genetic tests are currently in use, and more are being developed.&lt;ref&gt;{{cite web|url=https://www.nlm.nih.gov/medlineplus/genetictesting.html|title=Genetic Testing|work=nih.gov}}&lt;/ref&gt;&lt;ref&gt;{{cite web|url=http://www.eurogentest.org/patient/public_health/info/public/unit3/DefinitionsGeneticTesting-3rdDraf18Jan07.xhtml |title=Definitions of Genetic Testing |accessdate=2008-08-10 |work=Definitions of Genetic Testing (Jorge Sequeiros and Bárbara Guimarães) |publisher=EuroGentest Network of Excellence Project |date=2008-09-11 |url-status=dead |archiveurl=https://web.archive.org/web/20090204181251/http://eurogentest.org/patient/public_health/info/public/unit3/DefinitionsGeneticTesting-3rdDraf18Jan07.xhtml |archivedate=February 4, 2009 }}&lt;/ref&gt;
+
+=== Sequence alignment ===
+{{Main|Sequence alignment}}
+
+In bioinformatics, a sequence alignment is a way of arranging the sequences of [[DNA]], [[RNA]], or [[protein]] to identify regions of similarity that may be due to functional, [[structural biology|structural]], or [[evolution]]ary relationships between the sequences.&lt;ref name=mount&gt;{{cite book| author=Mount DM.| year=2004 | title=Bioinformatics: Sequence and Genome Analysis |edition=2nd | publisher= Cold Spring Harbor Laboratory Press: Cold Spring Harbor, NY |isbn=0-87969-608-7}}&lt;/ref&gt;    If two sequences in an alignment share a common ancestor, mismatches can be interpreted as [[point mutation]]s and gaps as insertion or deletion mutations ([[indel]]s) introduced in one or both lineages in the time since they diverged from one another. In sequence alignments of proteins, the degree of similarity between [[amino acid]]s occupying a particular position in the sequence can be interpreted as a rough measure of how [[conservation (genetics)|conserved]] a particular region or [[sequence motif]] is among lineages. The absence of substitutions, or the presence of only very conservative substitutions (that is, the substitution of amino acids whose [[side chain]]s have similar biochemical properties) in a particular region of the sequence, suggest&lt;ref name=predict&gt;{{Cite journal 
+| last1 = Ng | first1 = P. C. 
+| last2 = Henikoff | first2 = S. 
+| doi = 10.1101/gr.176601 
+| title = Predicting Deleterious Amino Acid Substitutions 
+| journal = Genome Research 
+| volume = 11 
+| issue = 5 
+| pages = 863–74 
+| year = 2001 
+| pmid = 11337480 
+| pmc =311071 
+}}&lt;/ref&gt; that this region has structural or functional importance. Although DNA and RNA [[nucleotide]] bases are more similar to each other than are amino acids, the conservation of base pairs can indicate a similar functional or structural role.&lt;ref&gt;{{cite journal | last1 = Witzany | first1 = G | year = 2016 | title = Crucial steps to life: From chemical reactions to code using agents | url = https://philpapers.org/rec/GUECST-2| journal = Biosystems | volume = 140 | issue = | pages = 49–57 | doi=10.1016/j.biosystems.2015.12.007 | pmid=26723230}}&lt;/ref&gt;
+
+[[Computational phylogenetics]] makes extensive use of sequence alignments in the construction and interpretation of [[phylogenetic tree]]s, which are used to classify the evolutionary relationships between homologous genes represented in the genomes of divergent species. The degree to which sequences in a query set differ is qualitatively related to the sequences' evolutionary distance from one another. Roughly speaking, high sequence identity suggests that the sequences in question have a comparatively young [[most recent common ancestor]], while low identity suggests that the divergence is more ancient. This approximation, which reflects the "[[molecular clock]]" hypothesis that a roughly constant [[rate of evolution|rate of evolutionary change]] can be used to extrapolate the elapsed time since two genes first diverged (that is, the [[coalescence (genetics)|coalescence]] time), assumes that the effects of mutation and [[natural selection|selection]] are constant across sequence lineages. Therefore, it does not account for possible difference among organisms or species in the rates of [[DNA repair]] or the possible functional conservation of specific regions in a sequence. (In the case of nucleotide sequences, the molecular clock hypothesis in its most basic form also discounts the difference in acceptance rates between [[silent mutation]]s that do not alter the meaning of a given [[codon]] and other mutations that result in a different [[amino acid]] being incorporated into the protein.) More statistically accurate methods allow the evolutionary rate on each branch of the phylogenetic tree to vary, thus producing better estimates of coalescence times for genes.
+
+=== Sequence motifs ===
+{{Main|Sequence motif}}
+
+Frequently the primary structure encodes motifs that are of functional importance. Some examples of sequence motifs are: the C/D&lt;!--
+--&gt;&lt;ref&gt;{{cite journal | last = Samarsky | first = DA |author2=Fournier MJ |author3=Singer RH |author4=Bertrand E  | year = 1998 | title = The snoRNA box C/D motif directs nucleolar targeting and also couples snoRNA synthesis and localization | journal = The EMBO Journal | volume = 17 | pages = 3747–57 | pmid = 9649444 | doi = 10.1093/emboj/17.13.3747 | issue = 13 | pmc = 1170710 }}&lt;/ref&gt;
+and H/ACA boxes&lt;!--
+--&gt;&lt;ref&gt;{{Cite journal | last1 = Ganot | first1 = Philippe| last2 = Caizergues-Ferrer | first2 = Michèle| last3 = Kiss | first3 = Tamás| doi = 10.1101/gad.11.7.941 | title = The family of box ACA small nucleolar RNAs is defined by an evolutionarily conserved secondary structure and ubiquitous sequence elements essential for RNA accumulation | journal = [[Genes &amp; Development]]| volume = 11 | issue = 7 | pages = 941–56| date = 1 April 1997 | pmid = 9106664| pmc = | doi-access = free }}&lt;/ref&gt;
+of [[snoRNA]]s, [[LSm|Sm binding site]] found in spliceosomal RNAs such as [[U1 spliceosomal RNA|U1]], [[U2 spliceosomal RNA|U2]], [[U4 spliceosomal RNA|U4]], [[U5 spliceosomal RNA|U5]], [[U6 spliceosomal RNA|U6]], [[U12 minor spliceosomal RNA|U12]] and [[Small nucleolar RNA U3|U3]], the [[Shine-Dalgarno sequence]],&lt;!--
+--&gt;&lt;ref&gt;{{cite journal |author=Shine J, Dalgarno L |title=Determinant of cistron specificity in bacterial ribosomes |journal=Nature |volume=254 |issue=5495 |pages=34–38 |year=1975 |pmid=803646 |doi=10.1038/254034a0|bibcode=1975Natur.254...34S }}&lt;/ref&gt;
+the [[Kozak consensus sequence]]&lt;!--
+--&gt;&lt;ref name="Kozak1987"&gt;{{cite journal |author=Kozak M |title=An analysis of 5'-noncoding sequences from 699 vertebrate messenger RNAs |journal=Nucleic Acids Res. |volume=15 |issue=20 |pages=8125–48 |date=October 1987 |pmid=3313277 |pmc=306349 |doi= 10.1093/nar/15.20.8125|url=http://nar.oxfordjournals.org/cgi/pmidlookup?view=long&amp;pmid=3313277}}&lt;/ref&gt;
+and the [[RNA polymerase III|RNA polymerase III terminator]]&lt;!--
+--&gt;.&lt;ref name="pmid6263489"&gt;{{cite journal |author=Bogenhagen DF, Brown DD |title=Nucleotide sequences in Xenopus 5S DNA required for transcription termination. |journal=Cell |volume=24 |issue=1 |pages=261–70 |year=1981 |pmid=6263489 |doi=10.1016/0092-8674(81)90522-5}}&lt;/ref&gt;
+
+=== Long range correlations ===
+Peng et al.&lt;ref name="PengBuldyrev1992"&gt;{{cite journal|last1=Peng|first1=C.-K.|last2=Buldyrev|first2=S. V.|last3=Goldberger|first3=A. L.|last4=Havlin|first4=S.|last5=Sciortino|first5=F.|last6=Simons|first6=M.|last7=Stanley|first7=H. E.|title=Long-range correlations in nucleotide sequences|journal=Nature|volume=356|issue=6365|year=1992|pages=168–70|issn=0028-0836|doi=10.1038/356168a0|pmid=1301010|bibcode=1992Natur.356..168P}}&lt;/ref&gt;&lt;ref name="PengBuldyrev1994"&gt;{{cite journal|last1=Peng|first1=C.-K.|last2=Buldyrev|first2=S. V.|last3=Havlin|first3=S.|last4=Simons|first4=M.|last5=Stanley|first5=H. E.|last6=Goldberger|first6=A. L.|title=Mosaic organization of DNA nucleotides|journal=Physical Review E|volume=49|issue=2|year=1994|pages=1685–89|issn=1063-651X|doi=10.1103/PhysRevE.49.1685|pmid=9961383|bibcode=1994PhRvE..49.1685P|doi-access=free}}&lt;/ref&gt; found the existence of long-range correlations in the non-coding base pair sequences of DNA. In contrast, such correlations seem not to appear in coding DNA sequences. This finding has been explained by Grosberg et al.&lt;ref&gt;{{Cite journal|last1=Grosberg|first1=A|last2=Rabin|first2=Y|last3=Havlin|first3=S|last4=Neer|first4=A|date=1993|title=Crumpled globule model of the three-dimensional structure of DNA|url=|journal=Europhysics Letters|volume=23|issue=5|pages=373–78|doi=10.1209/0295-5075/23/5/012|bibcode=1993EL.....23..373G}}&lt;/ref&gt; by the global spatial structure of the DNA.
+
+=== Sequence entropy ===
+{{Main|Sequence entropy}}
+
+In [[Bioinformatics]], a sequence entropy, also known as sequence complexity or information profile,&lt;ref name="glance"&gt;{{cite journal|last=Pinho|first=A|author2=Garcia, S|author3=Pratas, D|author4=Ferreira, P|title=DNA Sequences at a Glance.|journal=PLOS ONE|date=Nov 21, 2013|volume=8|issue=11|pages=e79922|pmid=24278218|doi=10.1371/journal.pone.0079922|pmc=3836782|bibcode=2013PLoSO...879922P}}&lt;/ref&gt; is a numerical sequence providing a quantitative measure of the local complexity of a DNA sequence, independently of the direction of processing. The manipulations of the information profiles enable the analysis of the sequences using alignment-free techniques, such as for example in motif and rearrangements detection.&lt;ref name="glance"/&gt;&lt;ref name="rearrang"&gt;{{cite journal|last=Pratas|first=D|author2=Silva, R|author3=Pinho, A|author4=Ferreira, P|title=An alignment-free method to find and visualise rearrangements between pairs of DNA sequences.|journal=Scientific Reports|date=May 18, 2015|volume=5|number=|pmid=25984837|doi=10.1038/srep10203|pages=10203|pmc=4434998|bibcode=2015NatSR...510203P}}&lt;/ref&gt;
+&lt;ref name="troy"&gt;{{cite journal|last=Troyanskaya|first=O|author2=Arbell, O|author3=Koren, Y|author4=Landau, G|author5=Bolshoy, A|title=Sequence complexity profiles of prokaryotic genomic sequences: A fast algorithm for calculating linguistic complexity.|journal=Bioinformatics|date=2002|volume=18|number=5|pmid=12050064|pages=679–88|doi=10.1093/bioinformatics/18.5.679|doi-access=free}}&lt;/ref&gt;
+
+== See also ==
+* [[Gene structure]]
+* [[Quaternary numeral system]]
+* [[Single-nucleotide polymorphism]] (SNP)
+
+== References ==
+{{Reflist|2}}
+
+== External links ==
+{{Commons category|Nucleic acid sequence}}
+* [https://web.archive.org/web/20080509072853/http://www.nslij-genetics.org/dnacorr/ A bibliography on features, patterns, correlations in DNA and protein texts]
+
+{{Biomolecular structure}}
+
+{{DEFAULTSORT:Nucleic Acid Sequence}}
+[[Category:DNA]]
+[[Category:Molecular biology]]
+[[Category:Nucleic acids]]
+[[Category:RNA]]</text>
+      <sha1>l94exnmbwlwyjos2ho0i47c04igh8i6</sha1>
+    </revision>
+  </page>
+</mediawiki>

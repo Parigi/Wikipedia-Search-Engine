@@ -1,0 +1,465 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.10/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.10/ http://www.mediawiki.org/xml/export-0.10.xsd" version="0.10" xml:lang="en">
+  <siteinfo>
+    <sitename>Wikipedia</sitename>
+    <dbname>enwiki</dbname>
+    <base>https://en.wikipedia.org/wiki/Main_Page</base>
+    <generator>MediaWiki 1.35.0-wmf.36</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Media</namespace>
+      <namespace key="-1" case="first-letter">Special</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Talk</namespace>
+      <namespace key="2" case="first-letter">User</namespace>
+      <namespace key="3" case="first-letter">User talk</namespace>
+      <namespace key="4" case="first-letter">Wikipedia</namespace>
+      <namespace key="5" case="first-letter">Wikipedia talk</namespace>
+      <namespace key="6" case="first-letter">File</namespace>
+      <namespace key="7" case="first-letter">File talk</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki talk</namespace>
+      <namespace key="10" case="first-letter">Template</namespace>
+      <namespace key="11" case="first-letter">Template talk</namespace>
+      <namespace key="12" case="first-letter">Help</namespace>
+      <namespace key="13" case="first-letter">Help talk</namespace>
+      <namespace key="14" case="first-letter">Category</namespace>
+      <namespace key="15" case="first-letter">Category talk</namespace>
+      <namespace key="100" case="first-letter">Portal</namespace>
+      <namespace key="101" case="first-letter">Portal talk</namespace>
+      <namespace key="108" case="first-letter">Book</namespace>
+      <namespace key="109" case="first-letter">Book talk</namespace>
+      <namespace key="118" case="first-letter">Draft</namespace>
+      <namespace key="119" case="first-letter">Draft talk</namespace>
+      <namespace key="446" case="first-letter">Education Program</namespace>
+      <namespace key="447" case="first-letter">Education Program talk</namespace>
+      <namespace key="710" case="first-letter">TimedText</namespace>
+      <namespace key="711" case="first-letter">TimedText talk</namespace>
+      <namespace key="828" case="first-letter">Module</namespace>
+      <namespace key="829" case="first-letter">Module talk</namespace>
+      <namespace key="2300" case="first-letter">Gadget</namespace>
+      <namespace key="2301" case="first-letter">Gadget talk</namespace>
+      <namespace key="2302" case="case-sensitive">Gadget definition</namespace>
+      <namespace key="2303" case="case-sensitive">Gadget definition talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Outline of computer programming</title>
+    <ns>0</ns>
+    <id>6301802</id>
+    <revision>
+      <id>927797388</id>
+      <parentid>914708568</parentid>
+      <timestamp>2019-11-24T21:29:22Z</timestamp>
+      <contributor>
+        <username>Stiphan1</username>
+        <id>1290788</id>
+      </contributor>
+      <comment>/* See also */ Added link to "Outline of web design and web development"</comment>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="16329" xml:space="preserve">{{Short description|1=Overview of and topical guide to computer programming}}
+&lt;!--... Attention:  THIS IS AN OUTLINE
+
+        part of the set of 740+ outlines listed at
+             [[Portal:Contents/Outlines]].
+
+                 Wikipedia outlines are
+              a special type of list article.
+              They make up one of Wikipedia's
+                content navigation systems
+
+                See [[Wikipedia:Outlines]]
+                      for more details.
+                   Further improvements
+              to this outline are on the way
+...--&gt;
+The following [[Outline (list)|outline]] is provided as an overview of and topical guide to computer programming:
+
+'''[[Computer programming]]''' &amp;ndash; process that leads from an original formulation of a [[computing]] problem to [[executable]] computer programs. Programming involves activities such as analysis, developing understanding, generating [[algorithms]], [[software verification|verification]] of requirements of algorithms including their [[correctness (computer science)|correctness]] and resources consumption, and implementation (commonly referred to as coding&lt;ref&gt;{{cite web| author=Shaun Bebbington| year=2014| url=http://yearofcodes.tumblr.com/what-is-coding| title=What is coding| accessdate=2014-03-03}}&lt;/ref&gt;&lt;ref&gt;{{cite web| author=Shaun Bebbington| year=2014| url=http://yearofcodes.tumblr.com/what-is-programming| title=What is programming| accessdate=2014-03-03}}&lt;/ref&gt;) of algorithms in a target [[programming language]]. [[Source code]] is written in one or more [[programming language]]s. The purpose of programming is to find a sequence of instructions that will automate performing a specific task or solving a given problem.
+
+==History==
+*[[History of computer science]]
+*[[History of computing hardware]]
+**[[History of computing hardware (1960s–present)]]
+*[[History of programming languages]]
+**[[Timeline of programming languages]]
+*[[Computer programming in the punched card era]]
+*[[Operating systems timeline]]
+
+==Platforms==
+{{details|Computing platform}}
+*[[Computer]]
+*[[Computer hardware]]
+**[[Analog computer]]
+***[[Analytical Engine]]
+**Digital computer
+***[[Vacuum tube computer]]
+****[[List of vacuum tube computers]]
+***[[Transistor computer]]
+****[[List of transistorized computers]]
+***[[Mainframe]]
+***[[Minicomputer]]
+***[[Microcomputer]]
+****[[Home computers]]
+****[[IBM PC compatible]]
+****[[Personal computer]]
+*****[[Desktop computer]]
+*****[[Laptop computer]]
+***[[Mobile computer]]
+****[[Personal digital assistant]] (PDA)
+****[[Smartphone]]
+****[[Tablet computer]]
+****[[Wearable computer]]
+***[[Server (computing)|Server]]
+***[[Supercomputer]]
+*[[Virtual machine]]
+**[[Hardware virtualization]]
+**[[Runtime system]]
+
+==Paradigms==
+{{details|Programming paradigm}}
+*[[Agent-oriented programming|Agent-oriented]]
+*[[Aspect-oriented programming|Aspect-oriented]]
+*[[Automata-based programming|Automata-based]]
+*[[Data-driven programming|Data-driven]]
+*[[Declarative programming|Declarative]] (as opposed to imperative programming)
+**[[Constraint programming|Constraint]]
+***[[Constraint logic programming|Constraint logic]]
+****[[Concurrent constraint logic programming|Concurrent constraint logic]]
+**[[Dataflow programming|Dataflow]]
+***[[Flow-based programming|Flow-based]] (FBP)
+***[[Reactive programming|Reactive]]
+**[[Functional programming|Functional]]
+***[[Functional logic programming|Functional logic]]
+***[[Purely functional programming|Purely functional]]
+**[[Logic programming|Logic]]
+***[[Abductive logic programming|Abductive logic]]
+***[[Answer set programming|Answer set]]
+***[[Concurrent logic programming|Concurrent logic]]
+***[[Functional logic programming|Functional logic]]
+***[[Inductive logic programming|Inductive logic]]
+*[[Event-driven programming|Event-driven]]
+**[[Time-driven programming|Time-driven]]
+*[[Expression-oriented_programming_language|Expression-oriented]]
+*[[Feature-oriented programming|Feature-oriented]]
+*[[Function-level programming|Function-level]] (as opposed to value-level programming)
+*[[Generic programming|Generic]]
+*[[Imperative programming|Imperative]] (as opposed to declarative programming)
+**[[Literate programming|Literate]]
+**[[Procedural programming|Procedural]]
+*[[Inductive programming]]
+*[[Language-oriented programming|Language-oriented]] (LOP)
+**[[Natural language programming]]
+**[[Intentional programming|Intentional]]
+*[[Non-structured programming|Non-structured]] (as opposed to [[Structured programming|Structured]])
+**[[Array programming|Array]]
+*[[Nondeterministic programming|Nondeterministic]]
+*[[Process-oriented programming|Process-oriented]]
+*[[Role-oriented programming|Role-oriented]]
+*[[Semantic-oriented programming|Semantic-oriented]] (SOP)
+*[[Structured programming|Structured]] (as opposed to non-structured programming)
+**[[Block (programming)|Block-structured]]
+**[[Modular programming|Modular]]
+***[[Concurrent computing]]
+****[[Relativistic programming]]
+**[[Object-oriented programming|Object-oriented]] (OOP)
+***[[Class-based programming|Class-based]]
+***[[Concurrent object-oriented programming|Concurrent OOP]]
+***[[Prototype-based programming|Prototype-based]]
+***[[Subject-oriented programming|Subject-oriented]]
+*[[Tacit programming|Tacit]]
+*[[Value-level programming|Value-level]] (as opposed to function-level programming)
+* [[Probabilistic programming language|Probabilistic]]
+* [[Concept programming|Concept]]
+
+== Writing programs ==
+
+* [[Pseudocode]]
+
+===Methodology===
+{{details|Programming style}}
+*[[Array programming]]
+*[[End-user development]]
+*[[Metaprogramming]]
+**[[Automatic programming]]
+**[[Reflection (computer programming)|Reflection]]
+***[[Attribute-oriented programming]] (AOP)
+**[[Homoiconicity]]
+**[[Template metaprogramming]]
+***[[Policy-based design]]
+**[[Service-oriented architecture]]
+***[[Service-oriented modeling]]
+*[[Recursion (computer science)|Recursion]]
+*[[Separation of concerns]]
+*[[Threaded code|Threaded coding]]
+
+==Algorithms==
+{{details|Algorithm}}
+*[[List of algorithms]]
+*[[List of algorithm general topics]]
+*[[List of important_publications in theoretical computer science#Algorithms|List of important_publications in theoretical computer science § Algorithms]]
+*[[Algorithm characterizations]]
+**[[Introduction to Algorithms]]
+*[[Theory of computation]]
+**[[Computational complexity theory]]
+***[[Analysis of algorithms]]
+****[[Empirical algorithmics]]
+****[[Big O notation]]
+****[[Algorithmic efficiency]]
+**[[Algorithmic information theory]]
+***[[Algorithmic probability]]
+***[[Algorithmically random sequence]]
+*[[Search algorithm]]
+*[[Sorting algorithm]]
+*[[Merge algorithm]]
+*[[String algorithms]]
+*[[Greedy algorithm]]
+*[[Reduction (complexity)|Reduction]]
+*[[Sequential algorithm]]
+*[[Parallel algorithm]]
+**[[Distributed algorithm]]
+*[[Deterministic algorithm]]
+*[[Randomized algorithm]]
+*[[Quantum algorithm]]
+
+==Programming languages==
+
+[[Programming language]] &amp;ndash; formal constructed language designed to communicate instructions to a machine, particularly a computer. Programming languages can be used to create programs to control the behavior of a machine or to express algorithms.
+*[[Generational list of programming languages]]
+*[[List of programming languages by type]]
+*[[Alphabetical list of programming languages]]
+**[[Compiled language]]
+**[[Interpreted language]]
+***[[Scripting language]]
+*[[Comparison of programming languages]]
+*[[Programming language dialect]]
+*[[Programming language theory]]
+**[[Formal semantics of programming languages]]
+*[[Assembly language]]
+*[[Macro (computer science)|Macro]]
+
+=== Types of programming languages ===
+{{details|Programming paradigm}}
+*[[Array programming|Array programming language]]
+*[[Aspect-oriented programming|Aspect-oriented programming language]]
+*[[Class-based programming|Class-based programming language]]
+*[[Concatenative programming language]]
+*[[Concurrent computing|Concurrent programming language]]
+*[[Data-structured language]]
+*[[Dataflow programming|Dataflow programming language]]
+*[[Declarative programming|Declarative programming language]]
+*[[Domain-specific language]]
+*[[Dynamic programming language]]
+*[[Esoteric programming language]]
+*[[Event-driven programming|Event-driven programming language]]
+*[[Extensible programming|Extensible programming language]]
+*[[Functional programming|Functional programming language]]
+*[[High-level programming language]]
+*[[Imperative programming|Imperative programming language]]
+*[[Interpreted language]]
+*[[Logic programming|Logic programming language]]
+*[[Low-level programming language]]
+*[[Machine code|Machine programming language]]
+*[[Metaprogramming|Metaprogramming programming language]]
+*[[Multi-paradigm programming language]]
+*[[Non-English-based programming languages|Non-English-based programming language]]
+*[[Object-based language]]
+*[[Object-oriented programming|Object-oriented programming language]]
+*[[Off-side rule|Off-side rule programming language]]
+*[[Pipeline programming|Pipeline programming language]]
+*[[Procedural programming|Procedural programming language]]
+*[[Prototype-based programming|Prototype-based programming language]]
+*[[Reflection (computer programming)|Reflective programming language]]
+*[[Rule-based system|Rule-based programming language]]
+*[[Synchronous programming language]]
+*[[Very high-level programming language]]
+*[[Visual programming language]]
+
+===Popular languages===
+The top 20 most popular programming languages {{as of|2016|March|lc=y}}:&lt;ref&gt;{{cite web|title=Tiobe Index|url=http://www.tiobe.com/tiobe_index?page=index|publisher=TIOBE Software|accessdate=23 March 2016}}&lt;/ref&gt;
+#[[Java (programming language)|Java]]
+#[[C (programming language)|C]]
+#[[C++]]
+#[[C Sharp (programming language)|C#]]
+#[[Python (programming language)|Python]]
+#[[PHP]]
+#[[Visual Basic .NET]]
+#[[JavaScript]]
+#[[Perl]]
+#[[Ruby (programming language)|Ruby]]
+#[[Embarcadero Delphi|Delphi]]/[[Object Pascal]]
+#[[Assembly language|Assembly]]
+#[[Visual Basic]]
+#[[Swift (programming language)|Swift]]
+#[[Objective-C]]
+#[[R (programming language)|R]]
+#[[Groovy (programming language)|Groovy]]
+#[[MATLAB]]
+#[[PL/SQL]]
+#[[D (programming language)|D]]
+
+=== Anatomy of a programming language ===
+
+* [[Syntax (programming languages)|Syntax]]
+** [[Lexical grammar]]
+** [[Semicolon#Computing usage|Semicolon]]s
+* [[Value (computer science)|Value]]s
+* [[Data type|Type]]s
+* [[Operator (computer programming)|Operator]]s
+* [[Program structure]]s
+** [[Variable (computer science)|Variable]]s
+** [[Expression (computer science)|Expression]]s
+** [[Statement (computer science)|Statement]]s
+** [[Reserved word|Keywords and reserved words]]
+** [[Structured programming#Control structures|Control structures]]
+*** [[Subroutine]]s (also known as functions)
+**** [[Anonymous function]]s
+*** [[Loop (computing)|Loop]]s
+**** [[For loop]]s
+**** [[While loop]]s
+*** [[Conditional (computer programming)|Conditional]]s
+**** [[Conditional (computer programming)# If–then(–else)|If-then]]
+**** [[Conditional (computer programming)# If–then(–else)|If-then-else]]
+**** [[Switch statement|Case and switch statements]]
+* [[Control flow]]
+* [[Data structure]]s
+** [[Object (computer science)|Object]]s
+** [[Array data structure|Array]]s
+* [[Regular expression]]s
+
+=== Comparisons of programming languages ===
+
+[[Comparison of programming languages|Programming language comparisons]]
+* [[Comparison of programming languages|General comparison]]
+* [[Comparison of programming languages (syntax)|Basic syntax]]
+* [[Comparison of programming languages (basic instructions)|Basic instructions]]
+* [[Exception handling syntax|Exception handling]]
+* [[Enumerated_type#Pascal_and_syntactically_similar_languages|Enumerated types]]
+* [[Anonymous_function#Examples|Anonymous functions]]
+* [[%3F:|Conditional expressions]]
+* [[Comparison of programming languages (functional instructions)|Functional instructions]]
+* [[Comparison of programming languages (array)|Arrays]]
+* [[Comparison of programming languages (associative arrays)|Associative arrays]]
+* [[Comparison of programming languages (strings)|String operations]]
+* [[Comparison of programming languages (string functions)|String functions]]
+* [[Comparison of programming languages (list comprehension)|List comprehension]]
+* [[Comparison of programming languages (object-oriented programming)|Object-oriented programming]]
+* [[Constructor (object-oriented programming)|Object-oriented constructors]]
+* [[While_loop#Demonstrating_while_loops|While loops]]
+* [[For_loop#Timeline_of_the_for-loop_syntax_in_various_programming_languages|For loops]]
+* [[Evaluation strategy]]
+* [[b:Computer Programming/Hello world|List of "Hello World" programs]]
+*[[Comparision of programming languages with dependent types|Languages with dependent types]]
+*[[Comparison of type systems]]
+
+==== Comparisons of individual languages ====
+* [[Comparison of the Java and .NET platforms|Java and .NET platforms]]
+* [[ALGOL 58#ALGOL 58's influence on ALGOL 60|ALGOL 58's influence on ALGOL 60]]
+* [[ALGOL 60#Comparisons with other languages|ALGOL 60: Comparisons with other languages]]
+* [[Comparison of ALGOL 68 and C++]]
+* [[ALGOL 68#Comparisons with other languages|ALGOL 68: Comparisons with other languages]]
+* [[Compatibility of C and C++]]
+* [[Comparison of Pascal and Delphi|Comparison of Pascal and Borland Delphi]]
+* [[Comparison of Object Pascal and C]]
+* [[Comparison of Pascal and C]]
+* [[Comparison of Java and C++]]
+* [[Comparison of C Sharp and Java|Comparison of C# and Java]]
+* [[Comparison of C Sharp and Visual Basic .NET|Comparison of C# and Visual Basic .NET]]
+* [[Comparison of Visual Basic and Visual Basic .NET]]
+
+==Compilation==
+{{details|Compiler}}
+*[[Programmer]]
+*[[Source code]]
+**[[Parsing]]
+*[[Compiler|Compilation]]
+**[[Preprocessor|Preprocessing]]
+**[[Translation (computing)|Translation]]
+***[[Assembler (computing)|Assembly]]
+**[[Linker (computing)|Linking]]
+**[[Compiler optimization]]
+**[[Compilation error]]
+
+==Software==
+{{details|Computer software}}
+*[[Computer program]]
+**[[Hello world]] (a common form of example program for learning programmers)
+*[[Application software]]
+**[[Software suite]]
+**[[Database management system]]
+*[[Programming software]]
+**[[Programming tool]]
+***[[Text editor]]
+****[[Source code editor]]
+*****[[Integrated development environment]] (IDE)
+***[[Assembly language#Assembler|Assembler]]
+***[[Compiler]]
+***[[Interpreter (computing)|Interpreter]]
+***[[Linker (computing)|Linker]]
+***[[Debugger]]
+*[[System software]]
+
+===Components===
+*[[Instruction (computer science)|Instruction]]
+*[[Library (computing)|Library]]
+*[[Application programming interface]] (API)
+
+===Software development===
+* [[Outline of software development|Software development]]
+** [[Software development process]]
+***[[Debugging]]
+****[[Human error]]
+** [[Software development methodology]]
+*** [[Agile software development]]
+*** [[Extreme programming]]
+
+===Software engineering===
+[[Outline of software engineering|Software engineering]] &amp;ndash; 
+* [[Implementation]]
+* [[Execution (computers)|Execution]]
+* [[Software architecture]]
+* [[Software reliability]]
+* [[Software quality]]
+* [[Software testing]]
+* [[Software maintenance]]
+* [[Software optimization]]
+* [[Software brittleness]]
+
+== See also ==
+* [[Outline of computers]]
+** [[Outline of computing]]
+*** [[Outline of computer science]]
+**** [[Outline of artificial intelligence]]
+**** [[Outline of cryptography]]
+*** [[Outline of the Internet]]
+**** [[Outline of Google]]
+*** [[Outline of software]]
+**** Types of software
+***** [[Outline of free software]]
+***** [[Outline of search engines]]
+**** [[Outline of software development]]
+***** [[Outline of software engineering]]
+***** [[Outline of web design and web development]]
+***** Outline of computer programming
+****** Programming languages
+******* [[Outline of C++]]
+******* [[Outline of Perl]]
+
+==References==
+{{Reflist}}
+
+== External links ==
+{{sisterlinks|Computer programming}}
+
+*[http://www.openbookproject.net/thinkcs/ How to Think Like a Computer Scientist] - by Jeffrey Elkner, Allen B. Downey and Chris Meyers
+
+{{Outline footer}}
+
+[[Category:Computer programming| ]]
+[[Category:Computing-related lists|Programming topics]]
+[[Category:Outlines of sciences|Computer programming]]
+[[Category:Wikipedia outlines|Computer programming]]</text>
+      <sha1>m6hfy65lzc0nmiqi9mgzwoy3ggyjumq</sha1>
+    </revision>
+  </page>
+</mediawiki>

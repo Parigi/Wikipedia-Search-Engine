@@ -1,0 +1,110 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.10/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.10/ http://www.mediawiki.org/xml/export-0.10.xsd" version="0.10" xml:lang="en">
+  <siteinfo>
+    <sitename>Wikipedia</sitename>
+    <dbname>enwiki</dbname>
+    <base>https://en.wikipedia.org/wiki/Main_Page</base>
+    <generator>MediaWiki 1.35.0-wmf.36</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Media</namespace>
+      <namespace key="-1" case="first-letter">Special</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Talk</namespace>
+      <namespace key="2" case="first-letter">User</namespace>
+      <namespace key="3" case="first-letter">User talk</namespace>
+      <namespace key="4" case="first-letter">Wikipedia</namespace>
+      <namespace key="5" case="first-letter">Wikipedia talk</namespace>
+      <namespace key="6" case="first-letter">File</namespace>
+      <namespace key="7" case="first-letter">File talk</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki talk</namespace>
+      <namespace key="10" case="first-letter">Template</namespace>
+      <namespace key="11" case="first-letter">Template talk</namespace>
+      <namespace key="12" case="first-letter">Help</namespace>
+      <namespace key="13" case="first-letter">Help talk</namespace>
+      <namespace key="14" case="first-letter">Category</namespace>
+      <namespace key="15" case="first-letter">Category talk</namespace>
+      <namespace key="100" case="first-letter">Portal</namespace>
+      <namespace key="101" case="first-letter">Portal talk</namespace>
+      <namespace key="108" case="first-letter">Book</namespace>
+      <namespace key="109" case="first-letter">Book talk</namespace>
+      <namespace key="118" case="first-letter">Draft</namespace>
+      <namespace key="119" case="first-letter">Draft talk</namespace>
+      <namespace key="446" case="first-letter">Education Program</namespace>
+      <namespace key="447" case="first-letter">Education Program talk</namespace>
+      <namespace key="710" case="first-letter">TimedText</namespace>
+      <namespace key="711" case="first-letter">TimedText talk</namespace>
+      <namespace key="828" case="first-letter">Module</namespace>
+      <namespace key="829" case="first-letter">Module talk</namespace>
+      <namespace key="2300" case="first-letter">Gadget</namespace>
+      <namespace key="2301" case="first-letter">Gadget talk</namespace>
+      <namespace key="2302" case="case-sensitive">Gadget definition</namespace>
+      <namespace key="2303" case="case-sensitive">Gadget definition talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Contribution of epigenetic modifications to evolution</title>
+    <ns>0</ns>
+    <id>42684750</id>
+    <revision>
+      <id>957233425</id>
+      <parentid>921812966</parentid>
+      <timestamp>2020-05-17T19:29:45Z</timestamp>
+      <contributor>
+        <ip>73.39.40.72</ip>
+      </contributor>
+      <comment>/* Lamarckism */Edited from “would be considered a method” to “could be considered a method” which is more accurate to what the cited source states.</comment>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="14105" xml:space="preserve">[[Epigenetics]] is the study of changes in [[gene expression]] that occur via mechanisms such as [[DNA methylation]], [[histone acetylation]], and [[microRNA]] modification. When these epigenetics changes are [[Heritability|heritable]], they can influence [[evolution]].  Current research indicates that epigenetics has influenced evolution in a number of [[organism]]s, including [[plant]]s and [[animal]]s.&lt;ref&gt;Suter CM, Boffelli D, Martin DIK. 2013 [http://rspb.royalsocietypublishing.org/content/280/1771/20130903.full A role for epigenetic inheritance in modern evolutionary theory? A comment in response to Dickins and Rahman]. Proc R Soc B 280: 20130903. doi: 10.1098/rspb.2013.0903&lt;/ref&gt;
+
+== In plants ==
+
+=== Overview ===
+DNA methylation is a process by which [[Methyl group|methyl groups]] are added to the DNA molecule. Methylation can change the activity of a DNA segment without changing the sequence. Histones are [[Protein|proteins]] found in cell nuclei that package and order the [[DNA]] into structural units called [[Nucleosome|nucleosomes]].
+
+DNA methylation and histone modification are two mechanisms used to regulate gene expression in plants. DNA methylation can be stable during cell division, allowing for methylation states to be passed to other [[Orthologous gene|orthologous genes]] in a genome. DNA methylation can be reversed via the use of enzymes known as DNA de-methylases, while histone modifications can be reversed via removing histone acetyl groups with deacetylases. Interspecific differences due to environmental factors are shown to be associated with the difference between [[annual plant|annual]] and [[perennial]] life cycles. There can be varying adaptive responses based on this.&lt;ref&gt;Turck F, Coupland G.: [http://onlinelibrary.wiley.com/doi/10.1111/evo.12286/abstract Natural variation in epigenetic gene regulation and its effects on plant developmental traits]. ''[[Evolution (journal)|Evolution]]''. 2013 Oct 7. {{doi|10.1111/evo.12286}}&lt;/ref&gt;
+
+=== ''Arabidopsis thaliana'' ===
+
+Forms of [[histone methylation]] cause repression of certain genes that are stably inherited through mitosis but that can also be erased during meiosis or with the progression of time. The induction of [[flowering]] by exposure to low winter temperatures in ''[[Arabidopsis thaliana]]'' shows this effect. Histone methylation participates in repression of expression of an inhibitor of flowering during cold. In annual, [[semelparous]] species such as Arabidopsis thaliana, this histone methylation is stably inherited through mitosis after return from cold to warm temperatures giving the plant the opportunity to flower continuously during spring and summer until it senesces. However, in perennial, [[iteroparous]] relatives the histone modification rapidly disappears when temperatures rise, allowing expression of the floral inhibitor to increase and limiting flowering to a short interval. Epigenetic histone modifications control a key adaptive trait in Arabidopsis thaliana, and their pattern changes rapidly during evolution associated with reproductive strategy.&lt;ref&gt;Turck, F.; Coupland, G. (2013) [http://onlinelibrary.wiley.com/doi/10.1111/evo.12286/abstract Natural variation in epigenetic gene regulation and its effects on plant developmental traits]. Evolution. doi: 10.1111/evo.12286&lt;/ref&gt;
+
+Another study tested several epigenetic recombinant inbred lines (epiRILs) of Arabidopsis thaliana - lines with similar genomes but varying levels of DNA methylation - for their drought sensitivity and their sensitivity to nutritional stress. It was found that there was a significant amount of heritable variation in the lines in regards to traits important for survival of drought and nutrient stress. This study proved that variation in DNA methylation can result in heritable variation of ecologically important plant traits, such as root allocation, [[drought tolerance]], and nutrient [[Phenotypic plasticity|plasticity]]. It also hinted that epigenetic variation alone could result in rapid evolution.&lt;ref&gt;Zhang, Y.-Y.; Fischer, M.; Colot, V.; Bossdorf, O. (2013)[http://onlinelibrary.wiley.com/doi/10.1111/nph.12010/abstract Epigenetic variation creates potential for evolution of plant phenotypic plasticity]. New Phytologist, 197: 314–322. doi: 10.1111/nph.12010&lt;/ref&gt;
+
+=== Dandelions ===
+
+Scientists found that changes in DNA methylation induced by stress was inherited in [[asexual reproduction|asexual]] [[dandelions]]. Genetically similar plants were exposed to different ecological stresses, and their offspring were raised in an unstressed environment. Amplified fragment-length polymorphism markers that were methylation-sensitive were used to test for methylation on a genome-wide scale. It was found that many of the environmental stresses caused induction of pathogen and herbivore defenses, which caused methylation in the genome. These modifications were then genetically transmitted to the offspring dandelions. The transgenerational inheritance of a stress response can contribute to the heritable plasticity of the organism, allowing it to better survive environmental stresses. It also helps add to the [[genetic variation]] of specific lineages with little variability, giving a greater chance of [[reproductive success]].&lt;ref&gt;Koen J. F. Verhoeven, Jeroen J. Jansen, Peter J. van Dijk and Arjen Biere. [http://www.nioo.knaw.nl/sites/default/files/Verhoeven_ea_4642.pdf Stress-induced DNA methylation changes and their 	heritability in asexual dandelions] {{webarchive |url=https://web.archive.org/web/20140507033833/http://www.nioo.knaw.nl/sites/default/files/Verhoeven_ea_4642.pdf |date=May 7, 2014 }}. New Phytologist(2010) 185: 1108–1118. doi: 10.1111/j.1469-8137.2009.03121.x&lt;/ref&gt;
+
+== In animals ==
+
+=== Primates ===
+
+A comparative analysis of [[CpG site|CpG]] methylation patterns between [[human]]s and [[primate]]s found that there were more than 800 genes that varied in their methylation patterns among [[orangutan]]s, [[gorilla]]s, [[chimpanzee]]s, and bonobos. Despite these [[ape]]s having the same genes, methylation differences are what account for their [[phenotypic variation]]. The genes in question are involved in development. It is not the protein sequences that account for the differences in physical characteristics between humans and apes; rather, it is the epigenetic changes to the genes. Since humans and the [[great apes]] share 99% of their DNA, it is thought that the differences in methylation patterns account for their distinction. So far, there are known to be 171 genes that are uniquely methylated in humans, 101 genes that are uniquely methylated in chimpanzees and bonobos, 101 genes that are uniquely methylated in gorillas, and 450 genes that are uniquely methylated in orangutans. For example, genes involved in blood pressure regulation and the development of the inner ear’s semicircular canal are highly methylated in humans, but not in the apes. There are also 184 genes that are conserved at the protein level between human and chimpanzees, but have epigenetic differences. Enrichments in multiple independent gene categories show that regulatory changes to these genes have given humans their specific traits. This research shows that epigenetics plays an important role in evolution in primates.&lt;ref&gt;Hernando-Herraez I, Prado-Martinez J, Garg P, Fernandez-Callejo M, Heyn H, et al. (2013) [http://www.plosgenetics.org/article/info%3Adoi%2F10.1371%2Fjournal.pgen.1003763 Dynamics of DNA Methylation in Recent Human and Great Ape Evolution]. PLoS Genet 9(9): e1003763. doi: 10.1371/journal.pgen.1003763&lt;/ref&gt;
+It has also been shown that cis-regulatory elements changes affect the transcription start sites (TSS) of genes. 471 DNA sequences are found to be enriched or depleted in regards to histone trimethylation at the H3K4 histone in chimpanzee, human, and macaque prefrontal cortexes. Among these sequences, 33 are selectively methylated in neuronal [[chromatin]] from children and adults, but not from non-neuronal chromatin. One [[Locus (genetics)|locus]] that was selectively methylated was [[DPP10]], a [[regulatory sequence]] that showed evidence of hominid adaptation, such as higher [[nucleotide substitution]] rates and certain regulatory sequences that were missing in other primates. Epigenetic regulation of TSS chromatin has been identified as an important development in the evolution of gene expression networks in the human brain. These networks are thought to play a role in [[cognitive processes]] and [[neurological disorders]].&lt;ref&gt;Shulha HP, Crisci JL, Reshetov D, Tushir JS, Cheung I, et al. (2012) [http://www.plosbiology.org/article/info%3Adoi%2F10.1371%2Fjournal.pbio.1001427 Human-Specific Histone Methylation Signatures at Transcription Start Sites in Prefrontal Neurons]. PLoS Biol 10(11): e1001427. doi: 10.1371/journal.pbio.1001427&lt;/ref&gt;
+An analysis of methylation profiles of humans and primate [[sperm cells]] reveals epigenetic regulation plays an important role here as well. Since mammalian cells undergo reprogramming of DNA methylation patterns during [[germ cell]] development, the methylomes of human and chimp sperm can be compared to methylation in [[embryonic stem cells]] (ESCs). There were many hypomethylated regions in both sperms cells and ESCs that showed structural differences. Also, many of the [[promoter (genetics)|promoter]]s in human and chimp sperm cells had different amounts of methylation. In essence, DNA methylation patterns differ between germ cells and [[somatic cells]] as well as between the human and chimpanzee sperm cells. Meaning, differences in promoter methylation could possible account for the phenotypic differences between humans and primates.&lt;ref&gt;Molaro A, Hodges E, Fang F, Song Q, McCombie WR, et al. [http://www.sciencedirect.com/science/article/pii/S0092867411009421 Sperm methylation profiles reveal features of epigenetic inheritance and evolution in primates]. Cell. 2011;146:1029–41. doi: 10.1016/j.cell.2011.08.016&lt;/ref&gt;
+
+=== Chickens ===
+
+Red Junglefowl, ancestor of domestic chickens, show that gene expression and methylation profiles in the [[thalamus]] and [[hypothalamus]] differed significantly from that of a domesticated egg laying breed. Methylation differences and gene expression were maintained in the offspring, depicting that epigenetic variation is inherited. Some of the inherited methylation differences were specific to certain tissues, and the differential methylation at specific loci were not altered much after intercrossing between Red Junglefowl and domesticated laying hens for eight generations.The results hint that domestication has led to epigenetic changes, as domesticated chickens maintained a higher level of methylation for more than 70% of the genes.&lt;ref&gt;Daniel Natt, Carl-Johan Rubin, Dominic Wright, Martin Johnsson, Johan Belteky, Leif Andersson, Per Jensen. [http://www.biomedcentral.com/1471-2164/13/59 Heritable genome-wide variation of gene expression and promoter methylation between wild and domesticated chickens]. BMC Genomics, 2012; 13 (1): 59 DOI: 10.1186/1471-2164-13-59&lt;/ref&gt;
+
+== Role in evolution ==
+
+The role of epigenetics in evolution is clearly linked to the selective pressures that regulate that process. As organisms leave offspring that are best suited to their environment, environmental stresses change DNA gene expression that are further passed down to their offspring, allowing for them also to better thrive in their environment. The classic case study of the rats who experience licking and grooming from their mothers pass this trait to their offspring shows that a [[mutation]] in the DNA sequence is not required for a heritable change.&lt;ref&gt;Thomas E. Dickins and Qazi Rahman. [http://rspb.royalsocietypublishing.org/content/early/2012/05/10/rspb.2012.0273 The extended evolutionary synthesis and the role of soft inheritance in evolution]. Proc. R. Soc. B 2012 279, doi: 10.1098/rspb.2012.0273&lt;/ref&gt; Basically, a high degree of maternal nurturing makes the offspring of that mother more likely to nurture their own children with a high degree of care as well. Rats with a lower degree of maternal nurturing are less likely to nurture their own offspring with so much care. Also, rates of epigenetic mutations, such as DNA methylation, are much higher than rates of mutations transmitted genetically&lt;ref&gt;Rando OJ, Verstrepen KJ (February 2007). [http://www.cell.com/cell/abstract/S0092-8674(07)00121-3 Timescales of genetic and epigenetic inheritance]. Cell 128 (4): 655–68. doi:10.1016/j.cell.2007.01.023&lt;/ref&gt; and are easily reversed.&lt;ref&gt;Lancaster, Alex K.; [[Joanna Masel|Masel, Joanna]] (1 September 2009). [https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2770902/ The evolution of reversible switches in the presence of irreversible mimics]. Evolution 63 (9): 2350–2362. doi:10.1111/j.1558-5646.2009.00729.x&lt;/ref&gt; This provides a way for variation within a species to rapidly increase, in times of stress, providing opportunity for adaptation to newly arising selection pressures.
+
+== Lamarckism ==
+
+[[Lamarckism]] supposes that species acquire characteristics to deal with challenges experienced during their lifetimes, and that such accumulations are then passed to their offspring. In modern terms, this transmission from parent to offspring could be considered a method of epigenetic inheritance. Scientists are now questioning the framework of the [[modern synthesis (20th century)|modern synthesis]], as epigenetics to some extent is Lamarckist rather than [[Darwinism|Darwinian]]. While some evolutionary biologists have dismissed epigenetics' impact on evolution entirely, others are exploring a fusion of epigenetic and traditional genetic inheritance.&lt;ref&gt;Pennisi E. (2013) Evolution Heresy? [http://www.sciencemag.org/content/341/6150/1055.summary Epigenetics Underlies Heritable Plant Traits]. Science. 341(6150):1055. doi: 10.1126/science.341.6150.1055&lt;/ref&gt;
+
+==See also==
+*[[Transgenerational epigenetic inheritance]]
+
+== References ==
+
+{{Reflist}}
+
+[[Category:Epigenetics]]
+[[Category:Evolutionary biology]]</text>
+      <sha1>go8uk0m3wli1yw98igsp5sjfng0djqn</sha1>
+    </revision>
+  </page>
+</mediawiki>

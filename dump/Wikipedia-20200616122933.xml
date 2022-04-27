@@ -1,0 +1,116 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.10/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.10/ http://www.mediawiki.org/xml/export-0.10.xsd" version="0.10" xml:lang="en">
+  <siteinfo>
+    <sitename>Wikipedia</sitename>
+    <dbname>enwiki</dbname>
+    <base>https://en.wikipedia.org/wiki/Main_Page</base>
+    <generator>MediaWiki 1.35.0-wmf.36</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Media</namespace>
+      <namespace key="-1" case="first-letter">Special</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Talk</namespace>
+      <namespace key="2" case="first-letter">User</namespace>
+      <namespace key="3" case="first-letter">User talk</namespace>
+      <namespace key="4" case="first-letter">Wikipedia</namespace>
+      <namespace key="5" case="first-letter">Wikipedia talk</namespace>
+      <namespace key="6" case="first-letter">File</namespace>
+      <namespace key="7" case="first-letter">File talk</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki talk</namespace>
+      <namespace key="10" case="first-letter">Template</namespace>
+      <namespace key="11" case="first-letter">Template talk</namespace>
+      <namespace key="12" case="first-letter">Help</namespace>
+      <namespace key="13" case="first-letter">Help talk</namespace>
+      <namespace key="14" case="first-letter">Category</namespace>
+      <namespace key="15" case="first-letter">Category talk</namespace>
+      <namespace key="100" case="first-letter">Portal</namespace>
+      <namespace key="101" case="first-letter">Portal talk</namespace>
+      <namespace key="108" case="first-letter">Book</namespace>
+      <namespace key="109" case="first-letter">Book talk</namespace>
+      <namespace key="118" case="first-letter">Draft</namespace>
+      <namespace key="119" case="first-letter">Draft talk</namespace>
+      <namespace key="446" case="first-letter">Education Program</namespace>
+      <namespace key="447" case="first-letter">Education Program talk</namespace>
+      <namespace key="710" case="first-letter">TimedText</namespace>
+      <namespace key="711" case="first-letter">TimedText talk</namespace>
+      <namespace key="828" case="first-letter">Module</namespace>
+      <namespace key="829" case="first-letter">Module talk</namespace>
+      <namespace key="2300" case="first-letter">Gadget</namespace>
+      <namespace key="2301" case="first-letter">Gadget talk</namespace>
+      <namespace key="2302" case="case-sensitive">Gadget definition</namespace>
+      <namespace key="2303" case="case-sensitive">Gadget definition talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Exact test</title>
+    <ns>0</ns>
+    <id>2485378</id>
+    <revision>
+      <id>955341022</id>
+      <parentid>944041884</parentid>
+      <timestamp>2020-05-07T08:09:37Z</timestamp>
+      <contributor>
+        <username>Muelsak</username>
+        <id>38306313</id>
+      </contributor>
+      <comment>Added link to new wikipedia page of Boschloo's test. It is more powerful than Fisher's exact test but still conservative due to discreteness and exactness.</comment>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="6488" xml:space="preserve">{{Expert subject|statistics|date=November 2008|reason=Needs discussion in body of exact tests in general}}
+In [[statistics]], an '''exact (significance) test''' is a test where if the [[null hypothesis]] is true then all [[Statistical assumption|assumptions]], upon which the derivation of the distribution of the [[test statistic]] is based, are met. Using an exact test provides a [[significance test]] that keeps the [[Type_I_and_type_II_errors#Type_I_error|Type I error rate]] of the test (&lt;math&gt;\alpha&lt;/math&gt;) at the desired significance level of the test. For example an exact test at [[significance level]] of &lt;math&gt;\alpha = 5%&lt;/math&gt;, when repeating the test over many samples where the [[Null hypothesis|null hypotheses]] is true,  will reject at most &lt;math&gt;5%&lt;/math&gt; of the time. This is opposed to an ''approximate test'' in which the desired type I error rate is only approximately kept (i.e.: the test might reject more than 5% of the time), while this approximation may be made as close to &lt;math&gt;\alpha&lt;/math&gt; as desired by making the sample size big enough.
+
+Exact tests that are based on discrete [[test statistic]] may be conservative tests, i.e. that its actual rejection rate is below the nominal significance level &lt;math&gt;\alpha&lt;/math&gt;. For example, this is the case for [[Fisher%27s_exact_test#Controversies| Fisher's exact test]] and also its more powerful alternative, [[Boschloo's test]]. If the test statistic is continuous, it will reach the significance level exactly {{citation_needed|date=July 2019}}.
+
+[[Parametric statistics|Parametric tests]], such as those described in [[exact statistics]], are exact tests when the parametric assumptions are fully met, but in practice the use of the term ''exact'' (significance) ''test'' is reserved for those tests that do not rest on parametric assumptions – non-parametric tests {{citation_needed|date=July 2019}}. However, in practice most implementations of non-parametric test software use asymptotical algorithms for obtaining the significance value, which makes the implementation of the test non-exact.
+
+So when the result of a statistical analysis is said to be an “exact test” or an “exact [[p-value]]”, it ought to imply that the test is defined without parametric assumptions and evaluated without using approximate algorithms.  In principle however it could also mean that a parametric test has been employed in a situation where all parametric assumptions are fully met, but it is in most cases impossible to prove this completely in a real world situation. Exceptions when it is certain that parametric tests are exact include tests based on the binomial or Poisson distributions. Sometimes [[permutation test]] is used as a synonym for exact test, but although all permutation tests are exact tests, not all exact tests are permutation tests.
+
+==Exact tests==
+
+The basic equation underlying exact tests is
+
+:&lt;math&gt;\Pr(\text{exact})=\sum_{\mathbf{y}\,:\,T(\mathbf{y})\ge T(\mathbf{x)}} \Pr(\mathbf{y})&lt;/math&gt;
+
+where:
+:*'''x''' is the outcome actually observed,
+:*Pr('''y''') is the probability under the null hypothesis of a potentially observed outcome '''y''',
+:*''T''('''y''') is the value of the test statistic for an outcome '''y''', with larger values of ''T'' representing cases which notionally represent greater departures from the null hypothesis,
+and where the sum ranges over all outcomes '''y''' (including the observed one) that have the same value of the test statistic obtained for the observed sample '''x''', or a larger one .
+
+== Example: Pearson's chi-squared test versus an exact test ==
+
+{{Main|Pearson's chi-squared test}}
+
+A simple example of the occasion for this concept may be seen by observing that [[Pearson's chi-squared test]] is an approximate test.  Suppose Pearson's chi-squared test is used to ascertain whether a six-sided die is "fair", i.e. gives each of the six outcomes equally often.  If the die is thrown ''n'' times, then one [[expected value|"expects"]] to see each outcome ''n''/6 times.  The test statistic is
+
+: &lt;math&gt; \sum \frac{(\text{observed}-\text{expected})^2}{\text{expected}}
+= \sum_{k=1}^6 \frac{(X_k - n/6)^2}{n/6}, &lt;/math&gt;
+
+where ''X''&lt;sub&gt;''k''&lt;/sub&gt; is the number of times outcome ''k'' is observed.  If the null hypothesis of "fairness" is true, then the [[probability distribution]] of the test statistic can be made as close as desired to the chi-squared distribution with &lt;nowiki&gt;5&lt;/nowiki&gt; degrees of freedom by making the sample size ''n'' big enough.  But if ''n'' is small, then the probabilities based on chi-squared distributions may not be very close approximations.  Finding the exact probability that this test statistic exceeds a certain value then requires [[combinatorics|combinatorial enumeration]] of all outcomes of the experiment that result in such a large value of the test statistic.  Moreover, it becomes questionable whether the same test statistic ought to be used.  A [[likelihood-ratio test]] might be preferred as being more [[statistical power|powerful]], and the test statistic might not be a monotone function of the one above.
+
+== Example: Fisher's exact test ==
+
+{{Main|Fisher's exact test}}
+
+[[Fisher's exact test]], based on the work of [[Ronald Fisher]] and [[E. J. G. Pitman]] in the 1930s, is exact because the sampling distribution (conditional on the marginals) is known exactly.  Compare [[Pearson's chi-squared test]], which (although it tests the same null) is not exact because the distribution of the test statistic is correct only asymptotically.
+
+==See also==
+* [[Exact statistics]]
+* [[Optimal discriminant analysis]]
+
+== References ==
+
+* [[Ronald Fisher]] (1954) ''[[Statistical Methods for Research Workers]]. Oliver and Boyd.
+* Mehta, C.R. ; Patel, N.R. (1998). "Exact Inference for Categorical Data". In P. Armitage and T. Colton, eds., ''Encyclopedia of Biostatistics'', Chichester: John Wiley, pp.&amp;nbsp;1411–1422. [https://resources.cytel.com/sites/default/files/resources/exact-inference-for-categorical-data.pdf unpublished preprint]
+* {{Cite book | last1 = Corcoran | first1 = C. D. | last2 = Senchaudhuri | first2 = P. | last3 = Mehta | first3 = C. R. | last4 = Patel | first4 = N. R. | chapter = Exact Inference for Categorical Data | doi = 10.1002/0470011815.b2a10019 | title = Encyclopedia of Biostatistics | year = 2005 | isbn = 047084907X | pmid =  | pmc = }}
+
+{{statistics|inference|collapsed}}
+
+[[Category:Statistical tests]]
+
+[[de:Statistischer Test#Exakter Test]]</text>
+      <sha1>g9ao0p7c2c08x3cba06g7of3o0zpfy7</sha1>
+    </revision>
+  </page>
+</mediawiki>

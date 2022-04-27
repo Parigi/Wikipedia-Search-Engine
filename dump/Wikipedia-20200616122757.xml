@@ -1,0 +1,551 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.10/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.10/ http://www.mediawiki.org/xml/export-0.10.xsd" version="0.10" xml:lang="en">
+  <siteinfo>
+    <sitename>Wikipedia</sitename>
+    <dbname>enwiki</dbname>
+    <base>https://en.wikipedia.org/wiki/Main_Page</base>
+    <generator>MediaWiki 1.35.0-wmf.36</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Media</namespace>
+      <namespace key="-1" case="first-letter">Special</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Talk</namespace>
+      <namespace key="2" case="first-letter">User</namespace>
+      <namespace key="3" case="first-letter">User talk</namespace>
+      <namespace key="4" case="first-letter">Wikipedia</namespace>
+      <namespace key="5" case="first-letter">Wikipedia talk</namespace>
+      <namespace key="6" case="first-letter">File</namespace>
+      <namespace key="7" case="first-letter">File talk</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki talk</namespace>
+      <namespace key="10" case="first-letter">Template</namespace>
+      <namespace key="11" case="first-letter">Template talk</namespace>
+      <namespace key="12" case="first-letter">Help</namespace>
+      <namespace key="13" case="first-letter">Help talk</namespace>
+      <namespace key="14" case="first-letter">Category</namespace>
+      <namespace key="15" case="first-letter">Category talk</namespace>
+      <namespace key="100" case="first-letter">Portal</namespace>
+      <namespace key="101" case="first-letter">Portal talk</namespace>
+      <namespace key="108" case="first-letter">Book</namespace>
+      <namespace key="109" case="first-letter">Book talk</namespace>
+      <namespace key="118" case="first-letter">Draft</namespace>
+      <namespace key="119" case="first-letter">Draft talk</namespace>
+      <namespace key="446" case="first-letter">Education Program</namespace>
+      <namespace key="447" case="first-letter">Education Program talk</namespace>
+      <namespace key="710" case="first-letter">TimedText</namespace>
+      <namespace key="711" case="first-letter">TimedText talk</namespace>
+      <namespace key="828" case="first-letter">Module</namespace>
+      <namespace key="829" case="first-letter">Module talk</namespace>
+      <namespace key="2300" case="first-letter">Gadget</namespace>
+      <namespace key="2301" case="first-letter">Gadget talk</namespace>
+      <namespace key="2302" case="case-sensitive">Gadget definition</namespace>
+      <namespace key="2303" case="case-sensitive">Gadget definition talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Confidence interval</title>
+    <ns>0</ns>
+    <id>280911</id>
+    <revision>
+      <id>961683702</id>
+      <parentid>959091226</parentid>
+      <timestamp>2020-06-09T21:05:34Z</timestamp>
+      <contributor>
+        <username>1234qwer1234qwer4</username>
+        <id>20836525</id>
+      </contributor>
+      <minor/>
+      <comment>decapitalise</comment>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="69601" xml:space="preserve">{{Expert needed|statistics|
+| reason = Many reverts and fixes indicate the language of the article needs to be checked carefully
+| date = November 2018
+}}
+
+In [[Frequentist statistics|statistics]], a '''confidence interval''' ('''CI''') is a type of [[Interval estimate|estimate]] computed from the statistics of the observed data. This proposes a range of plausible values for an unknown [[parameter]] (for example, the mean). The interval has an associated '''confidence level''' that the true parameter is in the proposed range. Given observations &lt;math&gt;x_1, \ldots, x_n&lt;/math&gt; and a confidence level &lt;math&gt;\gamma&lt;/math&gt;, a valid confidence interval has a &lt;math&gt;\gamma&lt;/math&gt; probability of containing the true underlying parameter. The level of confidence can be chosen by the investigator. In general terms, a confidence interval for an unknown parameter is based on sampling the [[Probability distribution|distribution]] of a corresponding [[estimator]].&lt;ref name=":0"&gt;{{Cite book|title=A modern introduction to probability and statistics : understanding why and how|last=Dekking, F.M. (Frederik Michel), 1946-|date=2005|publisher=Springer|isbn=1-85233-896-2|oclc=783259968}}&lt;/ref&gt;
+
+More strictly speaking, the confidence level represents the [[frequency]] (i.e. the proportion) of possible confidence intervals that contain the true value of the unknown population parameter. In other words, if confidence intervals are constructed using a given confidence level from an infinite number of independent sample statistics, the proportion of those intervals that contain the true value of the parameter will be equal to the confidence level.&lt;ref name="CH" /&gt;&lt;ref name="KS" /&gt;&lt;ref name="Neyman" /&gt; For example, if the confidence level (CL) is 90% then in hypothetical indefinite data collection, in 90% of the samples the interval estimate will contain the population parameter.&lt;ref name=":3"&gt;{{Cite book|title=Introductory statistics|last=Illowsky, Barbara|others=Dean, Susan L., 1945-, Illowsky, Barbara., OpenStax College|isbn=978-1-947172-05-0|location=Houston, Texas|oclc=899241574}}&lt;/ref&gt;
+
+The confidence level is designated prior to examining the data. Most commonly, the 95% confidence level is used.&lt;ref&gt;{{Cite book|title=Biostatistical Analysis|last=Zar|first=Jerrold H.|publisher=Prentice Hall|year=199|isbn=978-0130815422|edition=4th|location=Upper Saddle River, N.J.|pages=43–45|oclc=39498633}}&lt;/ref&gt; However, confidence levels of 90% and 99% are also often used in analysis.
+
+Factors affecting the width of the confidence interval include the size of the sample, the confidence level, and the variability in the sample. A larger sample will tend to produce a better estimate of the population parameter, when all other factors are equal. A higher confidence level will tend to produce a broader confidence interval.
+
+Many confidence intervals are of the form: &lt;math&gt;(t-c\sigma_T, t+c\sigma_T)&lt;/math&gt;, where &lt;math&gt;t&lt;/math&gt; is the realization of the dataset, c is a constant and &lt;math&gt;\sigma_T&lt;/math&gt; is the standard deviation of the dataset.&lt;ref name=":0" /&gt; Another way to express the form of confidence interval:
+
+(point estimate – error bound, point estimate + error bound)
+
+           or symbolically expressed, (–EBM, +EBM)
+
+where (point estimate) serves as an estimate for m (the population mean) and EBM is the error bound for a population mean.&lt;ref name=":3" /&gt;
+
+The margin of error (EBM) depends on the confidence level.&lt;ref name=":3" /&gt;
+
+A thorough, general definition:
+
+Suppose a dataset &lt;math&gt;x_1, \ldots, x_n&lt;/math&gt; is given, modeled as realization of random variables &lt;math&gt;X_1,\ldots,X_n&lt;/math&gt;. Let &lt;math&gt;\theta&lt;/math&gt; be the parameter of interest, and &lt;math&gt;\gamma&lt;/math&gt; a number between 1 and 0. If there exist sample statistics &lt;math&gt;L_n=g(X_1,\ldots,X_n)&lt;/math&gt; and &lt;math&gt;U_n = h(X_1,\ldots,X_n)&lt;/math&gt; such that:
+
+&lt;math&gt;P(L_n&lt;\theta&lt;U_n)=\gamma&lt;/math&gt; for every value of &lt;math&gt;\theta&lt;/math&gt;
+
+Then &lt;math&gt;(l_n,u_n)&lt;/math&gt;, where &lt;math&gt;l_n=g(x_1,\ldots,x_n)&lt;/math&gt; and &lt;math&gt;u_n=h(x_1,\ldots,x_n)&lt;/math&gt;, is called a &lt;math&gt;\gamma\times100&lt;/math&gt;% ''confidence interval for &lt;math&gt;\theta&lt;/math&gt;''. The number &lt;math&gt;\gamma&lt;/math&gt; is called the ''confidence level''.&lt;ref name=":0" /&gt;
+
+{{toc limit|3}}
+
+== Conceptual basis ==
+
+[[File:Confidenceinterval.png|thumb|200px|In this [[bar chart]], the top ends of the brown bars indicate observed [[mean]]s and the red [[line segment]]s ("error bars") represent the confidence intervals around them. Although the error bars are shown as symmetric around the means, that is not always the case. It is also important to note that in most graphs, the error bars do not represent confidence intervals (e.g., they often represent standard errors or [[standard deviations]])]]
+
+=== Introduction ===
+
+[[Interval estimation]] can be contrasted with [[point estimation]]. A point estimate is a single value given as the estimate of a population parameter that is of interest, for example, the mean of some quantity. An interval estimate specifies instead a range within which the parameter is estimated to lie. Confidence intervals are commonly reported in tables or graphs along with point estimates of the same parameters, to show the [[Reliability (statistics)|reliability]] of the estimates.
+
+For example, a confidence interval can be used to describe how reliable survey results are. In a poll of election–voting intentions, the result might be that 40% of respondents intend to vote for a certain party. A 99% &lt;!--this number is correct, do not change!--&gt;confidence interval for the proportion in the whole population having the same intention on the survey might be 30% to 50%. From the same data one may calculate a 90% &lt;!--this number is correct, do not change!--&gt;confidence interval, which in this case might be 37% to 43%. A major factor determining the length of a confidence interval is the [[Sample size|size of the sample]] used in the estimation procedure, for example, the number of people taking part in a survey.
+
+=== Meaning and interpretation ===
+{{See also|#Practical example interpretation}}
+
+Various interpretations of a confidence interval can be given (taking the 90% confidence interval as an example in the following).
+* The confidence interval can be expressed in terms of [[Sample (statistics)|samples]] (or [[Replication (statistics)|repeated samples]]): "''Were this procedure to be repeated on numerous samples, the fraction of calculated confidence intervals (which would differ for each sample) that encompass the true population parameter would tend toward 90%."''&lt;ref name=CH /&gt;
+* The confidence interval can be expressed in terms of a single sample: "''There is a 90% [[Coverage probability|probability]] that the calculated confidence interval from some future experiment encompasses the true value of the population parameter."'' Note this is a probability statement about the confidence interval, not the population parameter. This considers the probability associated with a confidence interval from a pre-experiment point of view, in the same context in which arguments for the random allocation of treatments to study items are made. Here the experimenter sets out the way in which they intend to calculate a confidence interval and to know, before they do the actual experiment, that the interval they will end up calculating has a particular chance of covering the true but unknown value.&lt;ref name=Neyman /&gt; This is very similar to the "repeated sample" interpretation above, except that it avoids relying on considering hypothetical repeats of a sampling procedure that may not be repeatable in any meaningful sense. See [[Neyman construction]].
+* The explanation of a confidence interval can amount to something like: "''The confidence interval represents values for the population parameter for which the difference between the parameter and the observed estimate is not [[statistically significant]] at the 10% level''".&lt;ref&gt;Cox D.R., Hinkley D.V. (1974) Theoretical Statistics, Chapman &amp; Hall, pp 214, 225, 233&lt;/ref&gt; In fact, this relates to one particular way in which a confidence interval may be constructed.
+
+In each of the above, the following applies: If the true value of the parameter lies outside the 90% confidence interval, then a sampling event has occurred (namely, obtaining a point estimate of the parameter at least this far from the true parameter value) which had a probability of 10% (or less) of happening by chance.
+
+==== Misunderstandings ====
+{{See also|#Counter-examples|Misunderstandings of p-values}}
+Confidence intervals and levels are frequently misunderstood, and published studies have shown that even professional scientists often misinterpret them.&lt;ref&gt;[http://iase-web.org/documents/papers/icots8/ICOTS8_C104_KALINOWSKI.pdf]&lt;/ref&gt;&lt;ref&gt;{{Cite web |url=http://irt.com.ne.kr/data/researchers%20misunderstand%20ci%20and%20error%20bars.pdf |title=Archived copy |access-date=2014-09-16 |archive-url=https://web.archive.org/web/20160304043241/http://irt.com.ne.kr/data/researchers%20misunderstand%20ci%20and%20error%20bars.pdf |archive-date=2016-03-04 |url-status=dead }}&lt;/ref&gt;&lt;ref&gt;Hoekstra, R., R. D. Morey, J. N. Rouder, and E-J. Wagenmakers, 2014. Robust misinterpretation of confidence intervals. Psychonomic Bulletin Review, in press. [http://www.ejwagenmakers.com/inpress/HoekstraEtAlPBR.pdf]&lt;/ref&gt;&lt;ref&gt;[https://www.sciencenews.org/blog/context/scientists%E2%80%99-grasp-confidence-intervals-doesn%E2%80%99t-inspire-confidence Scientists’ grasp of confidence intervals doesn’t inspire confidence], [[Science News]], July 3, 2014&lt;/ref&gt;&lt;ref name=":2"&gt;{{Cite journal|last1=Greenland|first1=Sander|last2=Senn|first2=Stephen J.|last3=Rothman|first3=Kenneth J.|last4=Carlin|first4=John B.|last5=Poole|first5=Charles|last6=Goodman|first6=Steven N.|last7=Altman|first7=Douglas G.|date= April 2016 |title=Statistical tests, P values, confidence intervals, and power: a guide to misinterpretations|journal=European Journal of Epidemiology |volume=31|issue=4|pages=337–350|doi=10.1007/s10654-016-0149-3|issn=0393-2990|pmc=4877414|pmid=27209009}}&lt;/ref&gt;
+
+* A 95% confidence level does not mean that for a given realized interval there is a 95% probability that the population parameter lies within the interval (i.e., a 95% probability that the interval covers the population parameter).&lt;ref name=Morey /&gt; According to the strict frequentist interpretation, once an interval is calculated, this interval either covers the parameter value or it does not; it is no longer a matter of probability. The 95% probability relates to the reliability of the estimation procedure, not to a specific calculated interval.&lt;ref&gt;{{cite web|url=http://www.itl.nist.gov/div898/handbook/eda/section3/eda352.htm|title=1.3.5.2. Confidence Limits for the Mean|work=nist.gov|access-date=2014-09-16|archive-url=https://web.archive.org/web/20080205120031/http://www.itl.nist.gov/div898/handbook/eda/section3/eda352.htm|archive-date=2008-02-05|url-status=dead}}&lt;/ref&gt; Neyman himself (the original proponent of confidence intervals) made this point in his original paper:&lt;ref name=Neyman /&gt;&lt;blockquote&gt;"It will be noticed that in the above description, the probability statements refer to the problems of estimation with which the statistician will be concerned in the future. In fact, I have repeatedly stated that the frequency of correct results will tend to ''α''. Consider now the case when a sample is already drawn, and the calculations have given [particular limits]. Can we say that in this particular case the probability of the true value [falling between these limits] is equal to ''α''? The answer is obviously in the negative. The parameter is an unknown constant, and no probability statement concerning its value may be made..."&lt;/blockquote&gt;
+:Deborah Mayo expands on this further as follows:&lt;ref name=Mayo /&gt;&lt;blockquote&gt;"It must be stressed, however, that having seen the value [of the data], Neyman–Pearson theory never permits one to conclude that the specific confidence interval formed covers the true value of 0 with either (1&amp;nbsp;−&amp;nbsp;''α'')100% probability or (1&amp;nbsp;−&amp;nbsp;''α'')100% degree of confidence. Seidenfeld's remark seems rooted in a (not uncommon) desire for Neyman–Pearson confidence intervals to provide something which they cannot legitimately provide; namely, a measure of the degree of probability, belief, or support that an unknown parameter value lies in a specific interval. Following Savage (1962), the probability that a parameter lies in a specific interval may be referred to as a measure of final precision. While a measure of final precision may seem desirable, and while confidence levels are often (wrongly) interpreted as providing such a measure, no such interpretation is warranted. Admittedly, such a misinterpretation is encouraged by the word 'confidence'."&lt;/blockquote&gt;
+* A 95% confidence level does not mean that 95% of the sample data lie within the confidence interval.
+* A confidence interval is not a definitive range of plausible values for the sample parameter, though it may be understood as an estimate of plausible values for the population parameter.
+* A particular confidence level of 95% calculated from an experiment does not mean that there is a 95% probability of a sample parameter from a repeat of the experiment falling within this interval.&lt;ref name=":2" /&gt;
+
+=== History ===
+Confidence intervals were introduced to statistics by [[Jerzy Neyman]] in a paper published in 1937.&lt;ref&gt;[Neyman, J., 1937. Outline of a theory of statistical estimation based on the classical theory of probability. Philosophical Transactions of the Royal Society of London. Series A, Mathematical and Physical Sciences, 236(767), pp.333-380]&lt;/ref&gt; However, it took quite a while for confidence intervals to be accurately and routinely used. In the earliest modern controlled clinical trial of a medical treatment for acute stroke, published by Dyken and White in 1959, the investigators concluded that cortisol increased the risk of stroke. When confidence interval was applied however, it showed that the no possible advantage to using cortisol statement was not strictly true. There was a 12% chance that cortisol reduced risk. Especially in the medical sciences, where datasets can be small, proper selection of confidence intervals is necessary to determine size of effect, direction, and reliably determine whether the null hypothesis can be accepted or rejected.&lt;ref name=":1"&gt;{{Cite journal|last=Sandercock|first=Peter A.G.|date=May 2015|title=Short History of Confidence Intervals|url=|journal=American Heart Association|volume=|pages=|via=}}&lt;/ref&gt;
+
+It wasn't until the 1980s that journals required confidence intervals and p-values to be reported in papers. By 1992, imprecise estimates were still common, even for large trials. This prevented a clear decision regarding the null hypothesis. For example, a study of medical therapies for acute stroke came to the conclusion that the stroke treatments could reduce mortality or increase it by 10%–20%. Strict admittance to the study introduced unforeseen error, further increasing uncertainty in the conclusion. Studies persisted, and it wasn't until 1997 that a trial with a massive sample pool and acceptable confidence interval was able to provide a definitive answer: cortisol therapy does not reduce the risk of acute stroke.&lt;ref name=":1" /&gt;
+
+=== Philosophical issues ===
+
+The principle behind confidence intervals was formulated to provide an answer to the question raised in [[statistical inference]] of how to deal with the uncertainty inherent in results derived from data that are themselves only a randomly selected subset of a population. There are other answers, notably that provided by [[Bayesian inference]] in the form of [[credible intervals]]. Confidence intervals correspond to a chosen rule for determining the confidence bounds, where this rule is essentially determined before any data are obtained, or before an experiment is done. The rule is defined such that over all possible datasets that might be obtained, there is a high probability ("high" is specifically quantified) that the interval determined by the rule will include the true value of the quantity under consideration. The Bayesian approach appears to offer intervals that can, subject to acceptance of an interpretation of "probability" as [[Bayesian probability]], be interpreted as meaning that the specific interval calculated from a given dataset has a particular probability of including the true value, conditional on the data and other information available. The confidence interval approach does not allow this since in this formulation and at this same stage, both the bounds of the interval and the true values are fixed values, and there is no randomness involved. On the other hand, the Bayesian approach is only as valid as the prior probability used in the computation, whereas the confidence interval does not depend on assumptions about the prior probability.
+
+The questions concerning how an interval expressing uncertainty in an estimate might be formulated, and of how such intervals might be interpreted, are not strictly mathematical problems and are philosophically problematic.&lt;ref&gt;T. Seidenfeld, ''Philosophical Problems of Statistical Inference: Learning from R.A. Fisher'', Springer-Verlag, 1979&lt;/ref&gt; Mathematics can take over once the basic principles of an approach to 'inference' have been established, but it has only a limited role in saying why one approach should be preferred to another: For example, a confidence level of 95% is often used in the [[biological sciences]], but this is a matter of convention or arbitration. In the [[physical sciences]], a much higher level may be used.&lt;ref&gt;{{cite web
+|url=http://www.graphpad.com/www/data-analysis-resource-center/blog/statistical-significance-defined-using-the-five-sigma-standard/
+|title=Statistical significance defined using the five sigma standard}}&lt;/ref&gt;
+
+=== Relationship with other statistical topics ===
+
+==== Statistical hypothesis testing ====
+{{See also|Statistical hypothesis testing#Alternatives|Estimation statistics}}
+
+Confidence intervals are closely related to statistical [[statistical hypothesis testing|significance testing]]. For example, if for some estimated parameter ''θ'' one wants to test the [[null hypothesis]] that ''θ''&amp;nbsp;=&amp;nbsp;0 against the alternative that ''θ''&amp;nbsp;≠&amp;nbsp;0, then this test can be performed by determining whether the confidence interval for ''θ'' contains 0.
+
+More generally, given the availability of a hypothesis testing procedure that can test the null hypothesis ''θ''&amp;nbsp;=&amp;nbsp;''θ''&lt;sub&gt;0&lt;/sub&gt; against the alternative that ''θ''&amp;nbsp;≠&amp;nbsp;''θ''&lt;sub&gt;0&lt;/sub&gt; for any value of ''θ''&lt;sub&gt;0&lt;/sub&gt;, then a confidence interval with confidence level&amp;nbsp;''γ''&amp;nbsp;=&amp;nbsp;1&amp;nbsp;−&amp;nbsp;''α'' can be defined as containing any number ''θ''&lt;sub&gt;0&lt;/sub&gt; for which the corresponding null hypothesis is not rejected at significance level&amp;nbsp;''α''.&lt;ref name=CH7&gt;Cox D.R., Hinkley D.V. (1974) Theoretical Statistics, Chapman &amp; Hall, Section 7.2(iii)&lt;/ref&gt;
+
+If the estimates of two parameters (for example, the mean values of a variable in two independent groups) have confidence intervals that do not overlap, then the difference between the two values is more [[statistical significance|significant]] than that indicated by the individual values of ''α''.&lt;ref&gt;Pav Kalinowski, "[http://www.psychologicalscience.org/index.php/publications/observer/2010/april-10/understanding-confidence-intervals-cis-and-effect-size-estimation.html Understanding Confidence Intervals (CIs) and Effect Size Estimation]", ''Observer'' Vol.23, No.4 April 2010.&lt;/ref&gt; So, this "test" is too conservative and can lead to a result that is more significant than the individual values of ''α'' would indicate. If two confidence intervals overlap, the two means still may be significantly different.&lt;ref&gt;Andrea Knezevic, "[https://www.cscu.cornell.edu/news/statnews/stnews73.pdf Overlapping Confidence Intervals and Statistical Significance]", ''StatNews # 73:'' Cornell Statistical Consulting Unit, October 2008.&lt;/ref&gt;&lt;ref name="gh95"&gt;{{cite journal | last1 = Goldstein | first1 = H. | last2 = Healey | first2 = M.J.R. | year = 1995 | title = The graphical presentation of a collection of means | jstor = 2983411 | journal = Journal of the Royal Statistical Society | volume = 158 | issue = 1| pages = 175–77 | doi=10.2307/2983411| citeseerx = 10.1.1.649.5259 }}&lt;/ref&gt;&lt;ref&gt;{{cite journal |vauthors=Wolfe R, Hanley J |title=If we're so different, why do we keep overlapping? When 1 plus 1 doesn't make 2 |journal=CMAJ |volume=166 |issue=1 |pages=65–6 |date=Jan 2002 |pmid=11800251 |pmc=99228 |doi= |url=http://www.cmaj.ca/cgi/pmidlookup?view=long&amp;pmid=11800251}}&lt;/ref&gt; Accordingly, and consistent with the [[Cochran–Mantel–Haenszel statistics|Mantel-Haenszel]] [[Chi-squared test]], is a proposed fix whereby one reduces the error bounds for the two means by multiplying them by the square root of ½ (0.707107) before making the comparison.&lt;ref&gt;Daniel Smith, "[http://www.amstat.org/chapters/sacramento/Smithpresentation.pdf Overlapping confidence intervals are not a statistical test] {{Webarchive|url=https://web.archive.org/web/20160222025623/http://www.amstat.org/chapters/sacramento/Smithpresentation.pdf |date=2016-02-22 }}", California Dept of Health Services, 26th Annual Institute on Research and Statistics, Sacramento, CA, March, 2005.&lt;/ref&gt;
+
+While the formulations of the notions of confidence intervals and of [[statistical hypothesis testing]] are distinct, they are in some senses related and to some extent complementary. While not all confidence intervals are constructed in this way, one general purpose approach to constructing confidence intervals is to define a 100(1&amp;nbsp;−&amp;nbsp;''α'')% confidence interval to consist of all those values ''θ''&lt;sub&gt;0&lt;/sub&gt; for which a test of the hypothesis ''θ''&amp;nbsp;=&amp;nbsp;''θ''&lt;sub&gt;0&lt;/sub&gt; is not rejected at a significance level of 100α%. Such an approach may not always be available since it presupposes the practical availability of an appropriate significance test. Naturally, any assumptions required for the significance test would carry over to the confidence intervals.
+
+It may be convenient to make the general correspondence that parameter values within a confidence interval are equivalent to those values that would not be rejected by a hypothesis test, but this would be dangerous. In many instances the confidence intervals that are quoted are only approximately valid, perhaps derived from "plus or minus twice the standard error," and the implications of this for the supposedly corresponding hypothesis tests are usually unknown.
+
+It is worth noting that the confidence interval for a parameter is not the same as the acceptance region of a test for this parameter, as is sometimes thought. The confidence interval is part of the parameter space, whereas the acceptance region is part of the sample space. For the same reason, the confidence level is not the same as the complementary probability of the level of significance.{{elucidate|date=November 2013}}
+
+==== Confidence region ====
+{{Main|Confidence region}}
+[[Confidence region]]s generalize the confidence interval concept to deal with multiple quantities. Such regions can indicate not only the extent of likely [[sampling error]]s but can also reveal whether (for example) it is the case that if the estimate for one quantity is unreliable, then the other is also likely to be unreliable.
+
+==== Confidence band ====
+{{Main|Confidence band}}
+
+A [[confidence band]] is used in [[statistics|statistical analysis]] to represent the uncertainty in an estimate of a curve or function based on limited or noisy data. Similarly, a '''prediction band''' is used to represent the uncertainty about the value of a new data point on the curve, but subject to noise. Confidence and prediction bands are often used as part of the graphical presentation of results of a [[regression analysis]].
+
+Confidence bands are closely related to confidence intervals, which represent the uncertainty in an estimate of a single numerical value. "As confidence intervals, by construction, only refer to a single point, they are narrower (at this point) than a confidence band which is supposed to hold simultaneously at many points."&lt;ref&gt;p.65 in W. Härdle, M. Müller, S. Sperlich, A. Werwatz (2004), Nonparametric and Semiparametric Models, Springer, {{isbn|3-540-20722-8}}&lt;/ref&gt;
+
+== Basic steps ==
+This example assumes that the samples are drawn from a [[normal distribution]]. The basic procedure for calculating a confidence interval for a population mean is as follows:
+
+:1. Identify the sample mean, &lt;math&gt;\bar{x}&lt;/math&gt; .
+
+:2. Identify whether the population standard deviation is known, &lt;math&gt;\sigma&lt;/math&gt;, or is unknown and is estimated by the sample standard deviation &lt;math&gt;s&lt;/math&gt;.
+::* If the population standard deviation is known then &lt;math&gt;z^* = \Phi^{-1}\left(1 - \frac{\alpha}{2}\right)= -\Phi^{-1}\left(\frac{\alpha}{2}\right)&lt;/math&gt;, where &lt;math&gt;C = 100(1-\alpha)\%&lt;/math&gt; is the confidence level and &lt;math&gt;\Phi&lt;/math&gt; is the [[Cumulative distribution function|{{Abbr|CDF|Cumulative distribution function}}]] of the [[standard normal distribution]], used as the critical value. This value is only dependent on the confidence level for the test. Typical two sided confidence levels are:&lt;ref&gt;{{Cite web|title = Checking Out Statistical Confidence Interval Critical Values – For Dummies|url = http://www.dummies.com/how-to/content/checking-out-statistical-confidence-interval-criti.html|website = www.dummies.com|access-date = 2016-02-11}}&lt;/ref&gt;
+
+:::{| class="wikitable"
+|-
+| C || z*
+|-
+| 99% || 2.576
+|-
+| 98% || 2.326
+|-
+| 95% || 1.96
+|-
+| 90% || 1.645
+|}
+::* If the population standard deviation is unknown then the [[Student's t-distribution|Student's t distribution]] is used as the critical value. This value is dependent on the confidence level (C) for the test and degrees of freedom. The degrees of freedom are found by subtracting one from the number of observations, ''n''&amp;nbsp;−&amp;nbsp;1. The critical value is found from the t-distribution table. In this table the critical value is written as &lt;math&gt; t^*=t_{\alpha}(r)&lt;/math&gt;, where &lt;math&gt;r&lt;/math&gt; is the degrees of freedom and &lt;math&gt;\alpha = {1-C \over 2}&lt;/math&gt;.
+
+:3. Plug the found values into the appropriate equations:
+::* For a known standard deviation: &lt;math&gt;\left(\bar{x} - z^* {\sigma \over \sqrt{n}}, \bar{x} + z^* {\sigma \over \sqrt{n}}\right)&lt;/math&gt;
+::* For an unknown standard deviation: &lt;math&gt;\left(\bar{x} - t^* {s \over \sqrt{n}}, \bar{x} + t^* {s \over \sqrt{n}}\right)&lt;/math&gt;&lt;ref&gt;{{Cite web|title = Confidence Intervals|url = http://www.stat.yale.edu/Courses/1997-98/101/confint.htm|website = www.stat.yale.edu|access-date = 2016-02-11}}&lt;/ref&gt;
+
+[[File:Normal distribution and scales.gif|thumb|Normal Distribution: graphical representation of confidence interval breakdown and relation of the confidence intervals to the z- and t-scores.]]
+
+=== Significance of t-tables and z-tables ===
+Confidence intervals can be calculated using two different values: t-values or z-values, as shown in the basic example above. Both values are tabulated in tables, based on degrees of freedom and the tail of a probability distribution. More often, z-values are used. These are the critical values of the normal distribution with right tail probability. However, t-values are used when the sample size is below 30 and the standard deviation is unknown.&lt;ref name=":0" /&gt;&lt;ref&gt;{{Cite web|url=https://pages.wustl.edu/montgomery/articles/2757|title=Confidence Intervals with the z and t-distributions {{!}} Jacob Montgomery|website=pages.wustl.edu|access-date=2019-12-14}}&lt;/ref&gt;
+
+When the variance is unknown, we must use a different estimator: &lt;math&gt;S_n
+&lt;/math&gt;. This allows the formation of a distribution that only depends on &lt;math&gt;n&lt;/math&gt; and whose density can be expression explicitly.&lt;ref name=":0" /&gt;
+
+Definition: A continuous random variable has a t-distribution with parameter m, where &lt;math&gt;m\geq1&lt;/math&gt; is an integer, if its probability density is given by &lt;math&gt;f(x) = \left(k_m\left(1+\frac{x^2}{m}\right)\right)^\frac{-m+1}{2}&lt;/math&gt; for &lt;math&gt;-\infin&lt;x&lt;\infin&lt;/math&gt;, where &lt;math&gt;k_m = \frac{\Gamma\left(\frac{m+1}{2}\right)}{\sqrt{m\pi}\, \Gamma\left(\frac{m}{2}\right)}&lt;/math&gt;. This distribution is denoted by &lt;math&gt;t(m)&lt;/math&gt; and is referred to as the t-distribution with m degrees of freedom.&lt;ref name=":0" /&gt;
+&lt;br /&gt;
+
+&lt;u&gt;Example:&lt;/u&gt; Using [[Student's t-distribution|t-distribution]] table&lt;ref&gt;{{Cite book|title=Probability &amp; statistics for engineers &amp; scientists|date=2012|publisher=Prentice Hall|others=Walpole, Ronald E., Myers, Raymond H., Myers, Sharon L., 1944-, Ye, Keying.|isbn=978-0-321-62911-1|edition=9th|location=Boston|oclc=537294244}}&lt;/ref&gt;
+
+1.Find [[Degrees of freedom (statistics)|degrees of freedom]] (df) from sample size:
+
+If sample size = 10, df = 9.
+
+2. Subtract the confidence interval (CL) from 1 and then, divide it by two. This value is the alpha level. (alpha + CL = 1)
+
+2. Look df and alpha in the t-distribution table. For df = 9 and alpha = 0.01, the table gives a value of 2.821. This value obtained from the table is the t-score.
+
+== Statistical theory ==
+
+=== Definition ===
+
+Let ''X'' be a [[random sample]] from a [[probability distribution]] with [[statistical parameter]]s ''θ'', which is a quantity to be estimated, and ''φ'', representing quantities that are not of immediate interest. A ''confidence interval'' for the parameter ''θ'', with confidence level or confidence coefficient ''γ'', is an interval with random endpoints (''u''(''X''),&amp;nbsp;''v''(''X'')), determined by the pair of [[random variable]]s ''u''(''X'') and ''v''(''X''), with the property:
+: &lt;math&gt;{\Pr}_{\theta,\varphi}(u(X)&lt;\theta&lt;v(X))=\gamma\text{ for all }(\theta,\varphi).&lt;/math&gt;
+
+The quantities ''φ'' in which there is no immediate interest are called [[nuisance parameter]]s, as statistical theory still needs to find some way to deal with them.
+The number ''γ'', with typical values close to but not greater than 1, is sometimes given in the form 1&amp;nbsp;−&amp;nbsp;''α'' (or as a percentage 100%·(1&amp;nbsp;−&amp;nbsp;''α'')), where ''α'' is a small non-negative number, close to 0.
+
+Here Pr&lt;sub&gt;''θ'',''φ''&lt;/sub&gt; indicates the probability distribution of ''X'' characterised by&amp;nbsp;(''θ'',&amp;nbsp;''φ''). An important part of this specification is that the random interval (''u''(''X''),&amp;nbsp;''v''(''X'')) covers the unknown value ''θ'' with a high probability no matter what the true value of ''θ'' actually is.
+
+Note that here Pr&lt;sub&gt;''θ'',''φ''&lt;/sub&gt; need not refer to an explicitly given parameterized family of distributions, although it often does. Just as the random variable ''X'' notionally corresponds to other possible realizations of ''x'' from the same population or from the same version of reality, the parameters (''θ'',&amp;nbsp;''φ'') indicate that we need to consider other versions of reality in which the distribution of ''X'' might have different characteristics.
+
+In a specific situation, when ''x'' is the outcome of the sample ''X'', the interval (''u''(''x''),&amp;nbsp;''v''(''x'')) is also referred to as a confidence interval for ''θ''. Note that it is no longer possible to say that the (observed) interval (''u''(''x''),&amp;nbsp;''v''(''x'')) has probability ''γ'' to contain the parameter ''θ''. This observed interval is just one realization of all possible intervals for which the probability statement holds.
+
+==== Approximate confidence intervals ====
+
+In many applications, confidence intervals that have exactly the required confidence level are hard to construct. But practically useful intervals can still be found: the rule for constructing the interval may be accepted as providing a confidence interval at level ''γ'' if
+
+: &lt;math&gt; {\Pr}_{\theta,\varphi}(u(X)&lt;\theta&lt;v(X))\approx\gamma\text{ for all }(\theta,\varphi)\,&lt;/math&gt;
+
+to an acceptable level of approximation. Alternatively, some authors&lt;ref&gt;George G. Roussas (1997) A Course in Mathematical Statistics, 2nd Edition, Academic Press, p397&lt;/ref&gt; simply require that
+
+: &lt;math&gt;{\Pr}_{\theta,\varphi}(u(X)&lt;\theta&lt;v(X))\ge\gamma\text{ for all }(\theta,\varphi)\,&lt;/math&gt;
+
+which is useful if the probabilities are only partially identified or [[Imprecise probability|imprecise]], and also when dealing with [[Probability distribution#Discrete probability distribution|discrete distributions]]. Confidence limits of form &lt;math&gt;{\Pr}_{\theta,\varphi}(u(X)&lt;\theta)\ge\gamma&lt;/math&gt; and &lt;math&gt;{\Pr}_{\theta,\varphi}(\theta&lt;v(X))\ge\gamma&lt;/math&gt; are called '''conservative''';&lt;ref&gt;Cox D.R., Hinkley D.V. (1974) Theoretical Statistics, Chapman &amp; Hall, p. 210&lt;/ref&gt; accordingly, one speaks of conservative confidence intervals and, in general, regions.
+
+=== Desirable properties ===
+
+When applying standard statistical procedures, there will often be standard ways of constructing confidence intervals. These will have been devised so as to meet certain desirable properties, which will hold given that the assumptions on which the procedure rely are true. These desirable properties may be described as: validity, optimality, and invariance. Of these "validity" is most important, followed closely by "optimality". "Invariance" may be considered as a property of the method of derivation of a confidence interval rather than of the rule for constructing the interval. In non-standard applications, the same desirable properties would be sought.
+* ''Validity.'' This means that the nominal [[coverage probability]] (confidence level) of the confidence interval should hold, either exactly or to a good approximation.
+* ''Optimality.'' This means that the rule for constructing the confidence interval should make as much use of the information in the data-set as possible. Recall that one could throw away half of a dataset and still be able to derive a valid confidence interval. One way of assessing optimality is by the length of the interval so that a rule for constructing a confidence interval is judged better than another if it leads to intervals whose lengths are typically shorter.
+* ''Invariance.'' In many applications, the quantity being estimated might not be tightly defined as such. For example, a survey might result in an estimate of the median income in a population, but it might equally be considered as providing an estimate of the logarithm of the median income, given that this is a common scale for presenting graphical results. It would be desirable that the method used for constructing a confidence interval for the median income would give equivalent results when applied to constructing a confidence interval for the logarithm of the median income: specifically the values at the ends of the latter interval would be the logarithms of the values at the ends of former interval.
+
+=== Methods of derivation ===
+
+For non-standard applications, there are several routes that might be taken to derive a rule for the construction of confidence intervals. Established rules for standard procedures might be justified or explained via several of these routes. Typically a rule for constructing confidence intervals is closely tied to a particular way of finding a [[point estimation|point estimate]] of the quantity being considered.
+
+; [[Summary statistics]]
+: This is closely related to the [[method of moments (statistics)|method of moments]] for estimation. A simple example arises where the quantity to be estimated is the mean, in which case a natural estimate is the sample mean. The usual arguments indicate that the sample variance can be used to estimate the variance of the sample mean. A confidence interval for the true mean can be constructed centered on the sample mean with a width which is a multiple of the square root of the sample variance.
+; Likelihood theory
+: Where estimates are constructed using the [[maximum likelihood principle]], the theory for this provides two ways of constructing confidence intervals or confidence regions for the estimates.{{Clarify|date=July 2014}}&lt;!-- Allowing inference from internal document. Please expand. --&gt; One way is by using [[Likelihood-ratio test#Distribution: Wilks's theorem|Wilks's theorem]] to find all the possible values of &lt;math&gt;\theta&lt;/math&gt; that fulfill the following restriction:&lt;ref&gt;Abramovich, Felix, and Ya'acov Ritov. Statistical Theory: A Concise Introduction. CRC Press, 2013. Pages 121–122&lt;/ref&gt;
+:: &lt;math&gt;\ln( L(\theta))\ge \ln( L(\hat{\theta}))-\frac 1 2 \chi^2_{1,1-\alpha } &lt;/math&gt;
+; Estimating equations
+: The estimation approach here can be considered as both a generalization of the method of moments and a generalization of the maximum likelihood approach. There are corresponding generalizations of the results of maximum likelihood theory that allow confidence intervals to be constructed based on estimates derived from [[estimating equations]].{{Clarify|date=July 2014}}&lt;!-- Allowing inference from internal document. Please expand. --&gt;
+; [[Hypothesis testing]]
+: If significance tests are available for general values of a parameter, then confidence intervals/regions can be constructed by including in the 100''p''% confidence region all those points for which the significance test of the null hypothesis that the true value is the given value is not rejected at a significance level of (1&amp;nbsp;−&amp;nbsp;''p'').&lt;ref name=CH7 /&gt;
+; [[Bootstrapping (statistics)|Bootstrapping]]
+: In situations where the distributional assumptions for that above methods are uncertain or violated, resampling methods allow construction of confidence intervals or prediction intervals. The observed data distribution and the internal correlations are used as the surrogate for the correlations in the wider population.
+
+== Examples ==
+
+=== Practical example ===
+[[File:Margarinefilling.png|right]]A machine fills cups with a liquid, and is supposed to be adjusted so that the content of the cups is 250&amp;nbsp;g of liquid. As the machine cannot fill every cup with exactly 250.0&amp;nbsp;g, the content added to individual cups shows some variation, and is considered a random variable X. This variation is assumed to be [[normal distribution|normally distributed]] around the desired average of 250&amp;nbsp;g, with a [[standard deviation]], [[Sigma|σ]], of 2.5&amp;nbsp;g. To determine if the machine is adequately calibrated, a sample of ''n''&amp;nbsp;=&amp;nbsp;25 cups of liquid is chosen at random and the cups are weighed. The resulting measured masses of liquid are ''X''&lt;sub&gt;1&lt;/sub&gt;,&amp;nbsp;...,&amp;nbsp;''X''&lt;sub&gt;25&lt;/sub&gt;, a random sample from&amp;nbsp;''X''.
+
+To get an impression of the expectation ''μ'', it is sufficient to give an estimate. The appropriate [[estimator]] is the sample mean:
+
+: &lt;math&gt;\hat \mu=\bar X = \frac 1 n \sum_{i=1}^n X_i.&lt;/math&gt;
+
+The sample shows actual weights ''x''&lt;sub&gt;1&lt;/sub&gt;,&amp;nbsp;...,&amp;nbsp;''x''&lt;sub&gt;25&lt;/sub&gt;, with mean:
+
+: &lt;math&gt;\bar x=\frac {1}{25} \sum_{i=1}^{25} x_i = 250.2 \text{ grams}.&lt;/math&gt;
+
+If we take another sample of 25 cups, we could easily expect to find mean values like 250.4 or 251.1&amp;nbsp;grams. A sample mean value of 280&amp;nbsp;grams however would be extremely rare if the mean content of the cups is in fact close to 250&amp;nbsp;grams. There is a whole interval around the observed value 250.2&amp;nbsp;grams of the sample mean within which, if the whole population mean actually takes a value in this range, the observed data would not be considered particularly unusual. Such an interval is called a confidence interval for the parameter&amp;nbsp;''μ''. How do we calculate such an interval? The endpoints of the interval have to be calculated from the sample, so they are statistics, functions of the sample ''X''&lt;sub&gt;1&lt;/sub&gt;,&amp;nbsp;...,&amp;nbsp;''X''&lt;sub&gt;25&lt;/sub&gt; and hence random variables themselves.
+
+In our case we may determine the endpoints by considering that the sample mean {{overbar|''X''}} from a normally distributed sample is also normally distributed, with the same expectation ''μ'', but with a [[Standard error (statistics)|standard error]] of:
+
+: &lt;math&gt;\frac \sigma {\sqrt{n}}=\frac {2.5 \text{ g}}{\sqrt{25}}=0.5 \text{ grams}&lt;/math&gt;
+
+By [[Standard score|standardizing]], we get a random variable:
+
+: &lt;math&gt;Z = \frac {\bar X-\mu}{\sigma/\sqrt{n}} =\frac {\bar X-\mu}{0.5} &lt;/math&gt;
+
+dependent on the parameter ''μ'' to be estimated, but with a standard normal distribution independent of the parameter&amp;nbsp;''μ''. Hence it is possible to find numbers −''z'' and ''z'', independent of&amp;nbsp;''μ'', between which ''Z'' lies with probability 1&amp;nbsp;−&amp;nbsp;α, a measure of how confident we want to be.
+
+We take 1&amp;nbsp;−&amp;nbsp;α = 0.95, for example. So we have:
+
+:&lt;math&gt;P(-z\le Z\le z) = 1-\alpha = 0.95.&lt;/math&gt;
+
+The number ''z'' follows from the [[cumulative distribution function]], in this case the [[Normal distribution#Cumulative distribution function|cumulative normal distribution function]]:
+
+:&lt;math&gt;
+\begin{align}
+\Phi(z) &amp; = P(Z \le z) = 1 - \tfrac{\alpha}{2} = 0.975,\\[6pt]
+z &amp; = \Phi^{-1}(\Phi(z)) = \Phi^{-1}(0.975) = 1.96,
+\end{align}
+&lt;/math&gt;
+
+and we get:
+
+:&lt;math&gt;
+\begin{align}
+0.95 &amp; = 1-\alpha=P(-z \le Z \le z)=P \left(-1.96 \le \frac {\bar X-\mu}{\sigma/\sqrt{n}} \le 1.96 \right) \\[6pt]
+&amp; = P \left( \bar X - 1.96 \frac \sigma {\sqrt{n}} \le \mu \le \bar X + 1.96 \frac \sigma {\sqrt{n}}\right).
+\end{align}
+&lt;/math&gt;
+
+In other words, the lower endpoint of the 95% confidence interval is:
+:&lt;math&gt;\text{Lower endpoint} = \bar X - 1.96 \frac \sigma {\sqrt{n}},&lt;/math&gt;
+and the upper endpoint of the 95% confidence interval is:
+:&lt;math&gt;\text{Upper endpoint} = \bar X + 1.96 \frac \sigma {\sqrt{n}}.&lt;/math&gt;
+
+With the values in this example, the confidence interval is:
+:&lt;math&gt;
+\begin{align}
+0.95 &amp; = \Pr(\bar X - 1.96 \times 0.5 \le \mu \le \bar X + 1.96 \times 0.5) \\[6pt]
+&amp; = \Pr( \bar X - 0.98 \le \mu \le \bar X + 0.98).
+\end{align}
+&lt;/math&gt;
+
+As the standard deviation of the population [[Sigma|σ]] is known in this case, the distribution of the sample mean &lt;math&gt;\bar X&lt;/math&gt; is a [[normal distribution]] with &lt;math&gt;\mu&lt;/math&gt; the only unknown parameter. In the theoretical example below, the parameter σ is also unknown, which calls for using the [[Student's t-distribution]].
+
+==== Interpretation{{anchor|Practical example interpretation}} ====
+This might be interpreted as: with probability 0.95 we will find a confidence interval in which the value of parameter ''μ'' will be between the stochastic endpoints
+
+:&lt;math&gt;\! \bar X - 0{.}98&lt;/math&gt;
+
+and
+
+:&lt;math&gt;\! \bar X + 0.98.&lt;/math&gt;
+
+This does not mean there is 0.95 probability that the value of parameter ''μ'' is in the interval obtained by using the currently computed value of the sample mean,
+
+: &lt;math&gt; (\bar{x}-0.98,\, \bar{x}+0.98). &lt;/math&gt;
+
+Instead, every time the measurements are repeated, there will be another value for the mean&amp;nbsp;{{overbar|''X''}} of the sample. In 95% of the cases ''μ'' will be between the endpoints calculated from this mean, but in 5% of the cases it will not be. The actual confidence interval is calculated by entering the measured masses in the formula. Our 0.95 confidence interval becomes:
+
+: &lt;math&gt;(\bar x - 0.98;\bar x + 0.98) = (250.2 - 0.98; 250.2 + 0.98) = (249.22; 251.18).\,&lt;/math&gt;
+
+[[File:NYW-confidence-interval.svg|thumb|300px|The blue vertical [[line segment]]s represent 50 realizations of a confidence interval for the population mean ''μ'', represented as a red horizontal dashed line; note that some confidence intervals do not contain the population mean, as expected.]]
+
+In other words, the 95% confidence interval is between the lower endpoint 249.22 g and the upper endpoint&amp;nbsp;251.18&amp;nbsp;g.
+
+As the desired value 250 of ''μ'' is within the resulted confidence interval, there is no reason to believe the machine is wrongly calibrated.
+
+The calculated interval has fixed endpoints, where μ might be in between (or not). Thus this event has probability either 0 or&amp;nbsp;1. One '''cannot''' say: "with probability (1&amp;nbsp;−&amp;nbsp;''α'') the parameter ''μ'' lies in the confidence interval." One only knows that by repetition in 100(1&amp;nbsp;−&amp;nbsp;''α'')% of the cases, ''μ'' will be in the calculated interval. In 100α% of the cases however it does not. And unfortunately one does not know in which of the cases this happens. That is (instead of using the term "probability") why one can say: "with '''confidence level''' 100(1&amp;nbsp;−&amp;nbsp;α) %, ''μ''&amp;nbsp;lies in the confidence interval."
+
+The maximum error is calculated to be 0.98 since it is the difference between the value that we are confident of with upper or lower endpoint.
+
+The figure on the right shows 50 realizations of a confidence interval for a given population mean ''μ''. If we randomly choose one realization, the probability is 95% we end up having chosen an interval that contains the parameter; however, we may be unlucky and have picked the wrong one. We will never know; we are stuck with our interval.
+
+=== Medical examples ===
+Medical research often estimates the effects of an intervention or exposure in a certain population.&lt;ref name=":4"&gt;{{Cite journal|last=Attia|first=Abdelhamid|date= December 2005|title=Evidence-based Medicine Corner- Why should researchers report the confidence interval in modern research?|url=http://www.bioline.org.br/abstract?id=mf05015|journal=Middle East Fertility Society Journal|volume=10|pages=|via=}}&lt;/ref&gt; Usually, researchers have determined the significance of the effects based on the p-value; however, recently there has been a push for more statistical information in order to provide a stronger basis for the estimations.&lt;ref name=":4" /&gt; One way to resolve this issue is also requiring the reporting of the confidence interval. Below are two examples of how confidence intervals are used and reported for research.
+
+In a 2004 study, Briton and colleagues conducted a study on evaluating relation of infertility to ovarian cancer. The incidence ratio of 1.98 was reported for a 95% Confidence (CI) interval with a ratio range of 1.4 to 2.6.&lt;ref name=":5"&gt;{{Cite journal|last1=Brinton|first1=Louise A|last2=Lamb|first2=Emmet J|last3=Moghissi|first3=Kamran S|last4=Scoccia|first4=Bert|last5=Althuis|first5=Michelle D|last6=Mabie|first6=Jerome E|last7=Westhoff|first7=Carolyn L|date= August 2004 |title=Ovarian cancer risk associated with varying causes of infertility|journal=Fertility and Sterility|volume=82|issue=2|pages=405–414|doi=10.1016/j.fertnstert.2004.02.109|pmid=15302291|issn=0015-0282}}&lt;/ref&gt; The statistic was reported as the following in the paper: “(standardized incidence ratio = 1.98; 95% CI, 1.4–2.6).”&lt;ref name=":5" /&gt; This means that, based on the sample studied, infertile females have an ovarian cancer incidence that is 1.98 times higher than non-infertile females. Furthermore, it also means that we are 95% confident that the true incidence ratio in all the infertile female population lies in the range from 1.4 to 2.6.&lt;ref name=":5" /&gt; Therefore, there is a 5% probability that the true incidence ratio may lie out of the range of 1.4 to 2.6 values.&lt;ref name=":5" /&gt; Overall, the confidence interval provided more statistical information in that it reported the lowest and largest effects that are likely to occur for the studied variable while still providing information on the significance of the effects observed.&lt;ref name=":4" /&gt;
+
+In a 2018 study, the prevalence and disease burden of atopic dermatitis in the US Adult Population was understood with the use of 95% confidence intervals.&lt;ref name=":6"&gt;{{Cite journal|last1=Chiesa Fuxench|first1=Zelma C.|last2=Block|first2=Julie K.|last3=Boguniewicz|first3=Mark|last4=Boyle|first4=John|last5=Fonacier|first5=Luz|last6=Gelfand|first6=Joel M.|last7=Grayson|first7=Mitchell H.|last8=Margolis|first8=David J.|last9=Mitchell|first9=Lynda|last10=Silverberg|first10=Jonathan I.|last11=Schwartz|first11=Lawrence|date= March 2019 |title=Atopic Dermatitis in America Study: A Cross-Sectional Study Examining the Prevalence and Disease Burden of Atopic Dermatitis in the US Adult Population|journal=The Journal of Investigative Dermatology|volume=139|issue=3|pages=583–590|doi=10.1016/j.jid.2018.08.028|issn=1523-1747|pmid=30389491|doi-access=free}}&lt;/ref&gt; It was reported that among 1,278 participating adults, the prevalence of atopic dermatitis was 7.3% (5.9–8.8).&lt;ref name=":6" /&gt; Furthermore, 60.1% (56.1–64.1) of participants were classified to have mild atopic dermatitis while 28.9% (25.3–32.7) had moderate and 11% (8.6–13.7) had severe.&lt;ref name=":6" /&gt; The study confirmed that there is a high prevalence and disease burden of atopic dermatitis in the population.
+
+=== Theoretical example ===
+Suppose {''X''&lt;sub&gt;1&lt;/sub&gt;,&amp;nbsp;...,&amp;nbsp;''X''&lt;sub&gt;''n''&lt;/sub&gt;} is an [[statistical independence|independent]] sample from a [[normal distribution|normally distributed]] population with unknown ([[statistical parameters|parameters]]) [[mean]] ''μ'' and [[variance]] σ&lt;sup&gt;2&lt;/sup&gt;. Let
+
+: &lt;math&gt;\bar{X}=(X_1+\cdots+X_n)/n\,,&lt;/math&gt;
+
+: &lt;math&gt;S^2=\frac 1 {n-1}\sum_{i=1}^n (X_i-\bar{X}\,)^2.&lt;/math&gt;
+
+Where {{overbar|''X''}} is the [[sample mean]], and ''S&lt;sup&gt;2&lt;/sup&gt;'' is the [[sample variance]]. Then
+
+: &lt;math&gt;T=\frac{\bar{X}-\mu}{S/\sqrt{n}}&lt;/math&gt;
+
+has a [[Student's t-distribution]] with ''n'' − 1 degrees of freedom.&lt;ref&gt;Rees. D.G. (2001) ''Essential Statistics'', 4th Edition, Chapman and Hall/CRC. {{isbn|1-58488-007-4}} (Section 9.5)&lt;/ref&gt; Note that the distribution of ''T'' does not depend on the values of the unobservable parameters ''μ'' and ''σ''&lt;sup&gt;2&lt;/sup&gt;; i.e., it is a [[pivotal quantity]]. Suppose we wanted to calculate a 95% confidence interval for&amp;nbsp;''μ''. Then, denoting ''c'' as the 97.5th [[percentile]] of this distribution,
+
+: &lt;math&gt;\Pr(-c\le T \le c)=0.95\,&lt;/math&gt;
+
+Note that "97.5th" and "0.95" are correct in the preceding expressions. There is a 2.5% chance that &lt;math&gt;T&lt;/math&gt; will be less than &lt;math&gt;-&lt;/math&gt;&lt;math&gt;c&lt;/math&gt; and a 2.5% chance that it will be larger than &lt;math&gt;+&lt;/math&gt;&lt;math&gt;c&lt;/math&gt;. Thus, the probability that &lt;math&gt;T&lt;/math&gt; will be between &lt;math&gt;-&lt;/math&gt;&lt;math&gt;c&lt;/math&gt; and &lt;math&gt;+&lt;/math&gt;&lt;math&gt;c&lt;/math&gt; is 95%.
+
+Consequently,
+
+: &lt;math&gt;\Pr\left(\bar{X} - \frac{cS}{\sqrt{n}} \le \mu \le \bar{X} + \frac{cS}{\sqrt{n}} \right)=0.95\,&lt;/math&gt;
+
+and we have a theoretical (stochastic) 95% confidence interval for&amp;nbsp;''μ''.
+
+After observing the sample we find values {{overbar|''x''}} for {{overbar|''X''}} and ''s'' for ''S'', from which we compute the confidence interval
+
+: &lt;math&gt; \left[ \bar{x} - \frac{cs}{\sqrt{n}}, \bar{x} + \frac{cs}{\sqrt{n}} \right], \,&lt;/math&gt;
+
+an interval with fixed numbers as endpoints, of which we can no longer say there is a certain probability it contains the parameter&amp;nbsp;''μ''; either ''μ'' is in this interval or isn't.
+
+== Alternatives and critiques ==
+{{Main|Interval estimation}}
+
+Confidence intervals are one method of [[interval estimation]], and the most widely used in [[frequentist statistics]].
+An analogous concept in [[Bayesian statistics]] is [[credible interval]]s, while an alternative frequentist method is that of [[prediction interval]]s which, rather than estimating ''parameters,'' estimate the outcome of ''future'' samples. For other approaches to expressing uncertainty using intervals, see [[interval estimation]].
+
+=== Comparison to prediction intervals ===
+{{Main|Prediction interval}}
+
+A [[prediction interval]] for a [[random variable]] is defined similarly to a confidence interval for a [[statistical parameter]]. Consider an additional [[random variable]] ''Y'' which may or may not be statistically dependent on the [[random sample]] ''X''. Then (''u''(''X''),&amp;nbsp;''v''(''X'')) provides a [[prediction interval]] for the as-yet-to-be observed value ''y'' of ''Y'' if
+
+: &lt;math&gt;{\Pr}_{\theta,\varphi}(u(X) &lt; Y &lt; v(X)) = \gamma\text{ for all }(\theta,\varphi).\,&lt;/math&gt;
+
+Here Pr&lt;sub&gt;''θ'',''φ''&lt;/sub&gt; indicates the [[joint probability distribution]] of the random variables (''X'',&amp;nbsp;''Y''), where this distribution depends on the [[statistical parameter]]s&amp;nbsp;(''θ'',&amp;nbsp;''φ'').
+
+=== Comparison to tolerance intervals ===
+{{Main|Tolerance interval}}
+{{expand section|date=September 2014}}
+
+=== Comparison to Bayesian interval estimates{{anchor|Credible interval}} ===
+{{See also|Credible interval#Confidence interval}}
+
+A Bayesian interval estimate is called a [[credible interval]]. Using much of the same notation as above, the definition of a credible interval for the unknown true value of ''θ'' is, for a given ''γ'',&lt;ref&gt;{{cite book |author=Bernardo JE, Smith, Adrian |title=Bayesian theory |publisher=Wiley |location=New York |year=2000 |pages=259 |isbn=978-0-471-49464-5 |oclc= |doi= }}&lt;/ref&gt;
+
+: &lt;math&gt;\Pr(u(x)&lt;\Theta&lt;v(x) \mid X = x)=\gamma. \, &lt;/math&gt;
+
+Here Θ is used to emphasize that the unknown value of ''θ'' is being treated as a random variable. The definitions of the two types of intervals may be compared as follows.
+* The definition of a confidence interval involves probabilities calculated from the distribution of ''X'' for a given (''θ'',&amp;nbsp;''φ'') (or conditional on these values) and the condition needs to hold for all values of&amp;nbsp;(''θ'',&amp;nbsp;''φ'').
+* The definition of a credible interval involves probabilities calculated from the distribution of Θ conditional on the observed values of ''X''&amp;nbsp;=&amp;nbsp;''x'' and marginalised (or averaged) over the values of Φ, where this last quantity is the random variable corresponding to the uncertainty about the [[nuisance parameter]]s in&amp;nbsp;''φ''.
+
+Note that the treatment of the nuisance parameters above is often omitted from discussions comparing confidence and credible intervals but it is markedly different between the two cases.
+
+In some simple standard cases, the intervals produced as confidence and credible intervals from the same data set can be identical. They are very different if informative [[prior information]] is included in the [[Bayesian analysis]], and may be very different for some parts of the space of possible data even if the Bayesian prior is relatively [[uninformative prior|uninformative]].
+
+There is disagreement about which of these methods produces the most useful results: the mathematics of the computations are rarely in question–confidence intervals being based on sampling distributions, credible intervals being based on [[Bayes' theorem]]–but the application of these methods, the utility and interpretation of the produced statistics, is debated.
+
+=== Confidence intervals for proportions and related quantities ===
+
+{{See also|Margin of error|Binomial proportion confidence interval}}
+
+An approximate confidence interval for a population mean can be constructed for random variables that are not normally distributed in the population, relying on the [[central limit theorem]], if the [[sample size]]s and counts are big enough. The formulae are identical to the case above (where the sample mean is actually normally distributed about the population mean). The approximation will be quite good with only a few dozen observations in the sample if the [[probability distribution]] of the random variable is not too different from the [[normal distribution]] (e.g. its [[cumulative distribution function]] does not have any [[Discontinuity (mathematics)|discontinuities]] and its [[skewness]] is moderate).
+
+One type of sample mean is the mean of an [[indicator variable]], which takes on the value 1 for true and the value 0 for false. The mean of such a variable is equal to the proportion that has the variable equal to one (both in the population and in any sample). This is a useful property of indicator variables, especially for hypothesis testing. To apply the central limit theorem, one must use a large enough sample. A rough rule of thumb is that one should see at least 5 cases in which the indicator is 1 and at least 5 in which it is 0. Confidence intervals constructed using the above formulae may include negative numbers or numbers greater than 1, but proportions obviously cannot be negative or exceed 1. Additionally, sample proportions can only take on a finite number of values, so the central limit theorem and the normal distribution are not the best tools for building a confidence interval. See "[[Binomial proportion confidence interval]]" for better methods which are specific to this case.
+
+=== Counter-examples{{anchor|Counter-examples}} ===
+
+Since confidence interval theory was proposed, a number of counter-examples to the theory have been developed to show how the interpretation of confidence intervals can be problematic, at least if one interprets them naïvely.
+
+==== Confidence procedure for uniform location ====
+
+Welch&lt;ref&gt;{{cite journal |last= Welch|first=B. L. |date= 1939|title= On Confidence Limits and Sufficiency, with Particular Reference to Parameters of Location|jstor= 2235987 |journal= The Annals of Mathematical Statistics|volume= 10|issue= 1|pages= 58–69|doi= 10.1214/aoms/1177732246|doi-access= free}}&lt;/ref&gt; presented an example which clearly shows the difference between the theory of confidence intervals and other theories of interval estimation (including Fisher's [[Fiducial inference|fiducial]] intervals and objective [[Bayesian inference|Bayesian]] intervals). Robinson&lt;ref&gt;{{cite journal |last= Robinson|first=G. K. |date= 1975|title= Some Counterexamples to the Theory of Confidence Intervals|jstor= 2334498 |journal= Biometrika|volume= 62|issue= 1|pages= 155–161|doi=10.2307/2334498}}&lt;/ref&gt; called this example "[p]ossibly the best known counterexample for Neyman's version of confidence interval theory." To Welch, it showed the superiority of confidence interval theory; to critics of the theory, it shows a deficiency. Here we present a simplified version.
+
+Suppose that &lt;math&gt;X_1,X_2&lt;/math&gt; are independent observations from a [[Uniform distribution (continuous)|Uniform]](''θ'' − 1/2, ''θ'' + 1/2) distribution. Then the optimal 50% confidence procedure&lt;ref&gt;{{cite journal |last= Pratt|first=J. W. |date= 1961|title= Book Review: Testing Statistical Hypotheses. by E. L. Lehmann|jstor= 2282344 |journal= Journal of the American Statistical Association|volume= 56|issue= 293|pages= 163–167|doi= 10.1080/01621459.1961.10482103}}&lt;/ref&gt; is
+
+: &lt;math&gt;\bar{X} \pm \begin{cases}
+\dfrac{|X_1-X_2|}{2} &amp; \text{if } |X_1-X_2| &lt; 1/2 \\[8pt]
+\dfrac{1-|X_1-X_2|}{2} &amp;\text{if } |X_1-X_2| \geq 1/2 .
+\end{cases}
+&lt;/math&gt;
+
+A fiducial or objective Bayesian argument can be used to derive the interval estimate
+: &lt;math&gt;
+\bar{X} \pm \frac{1-|X_1-X_2|}{4},
+&lt;/math&gt;
+which is also a 50% confidence procedure. Welch showed that the first confidence procedure dominates the second, according to desiderata from confidence interval theory; for every &lt;math&gt;\theta_1\neq\theta&lt;/math&gt;, the probability that the first procedure contains &lt;math&gt;\theta_1&lt;/math&gt; is ''less than or equal to'' the probability that the second procedure contains &lt;math&gt;\theta_1&lt;/math&gt;. The average width of the intervals from the first procedure is less than that of the second. Hence, the first procedure is preferred under classical confidence interval theory.
+
+However, when &lt;math&gt; |X_1-X_2| \geq 1/2&lt;/math&gt;, intervals from the first procedure are ''guaranteed'' to contain the true value &lt;math&gt;\theta&lt;/math&gt;: Therefore, the nominal 50% confidence coefficient is unrelated to the uncertainty we should have that a specific interval contains the true value. The second procedure does not have this property.
+
+Moreover, when the first procedure generates a very short interval, this indicates that &lt;math&gt;X_1,X_2&lt;/math&gt; are very close together and hence only offer the information in a single data point. Yet the first interval will exclude almost all reasonable values of the parameter due to its short width. The second procedure does not have this property.
+
+The two counter-intuitive properties of the first procedure—100% coverage when &lt;math&gt;X_1,X_2&lt;/math&gt; are far apart and almost 0% coverage when &lt;math&gt;X_1,X_2&lt;/math&gt; are close together—balance out to yield 50% coverage on average. However, despite the first procedure being optimal, its intervals offer neither an assessment of the precision of the estimate nor an assessment of the uncertainty one should have that the interval contains the true value.
+
+This counter-example is used to argue against naïve interpretations of confidence intervals. If a confidence procedure is asserted to have properties beyond that of the nominal coverage (such as relation to precision, or a relationship with Bayesian inference), those properties must be proved; they do not follow from the fact that a procedure is a confidence procedure.
+
+==== Confidence procedure for ''ω''&lt;sup&gt;2&lt;/sup&gt; ====
+
+Steiger&lt;ref&gt;{{cite journal |last= Steiger|first=J. H. |date= 2004|title= Beyond the F test: Effect size confidence intervals and tests of close fit in the analysis of variance and contrast analysis|journal= Psychological Methods|volume= 9|issue= 2|pages= 164–182|doi= 10.1037/1082-989x.9.2.164|pmid=15137887 }}&lt;/ref&gt; suggested a number of confidence procedures for common [[Effect size#Omega-squared (ω2)|effect size]] measures in [[Analysis of variance|ANOVA]]. Morey et al.&lt;ref name=Morey /&gt; point out that several of these confidence procedures, including the one for ''ω''&lt;sup&gt;2&lt;/sup&gt;, have the property that as the ''F'' statistic becomes increasingly small—indicating misfit with all possible values of ''ω''&lt;sup&gt;2&lt;/sup&gt;—the confidence interval shrinks and can even contain only the single value ''ω''&lt;sup&gt;2&lt;/sup&gt;&amp;nbsp;=&amp;nbsp;0; that is, the CI is infinitesimally narrow (this occurs when &lt;math&gt;p\geq1-\alpha/2&lt;/math&gt; for a &lt;math&gt;100(1-\alpha)\%&lt;/math&gt; CI).
+
+This behavior is consistent with the relationship between the confidence procedure and significance testing: as ''F'' becomes so small that the group means are much closer together than we would expect by chance, a significance test might indicate rejection for most or all values of ''ω''&lt;sup&gt;2&lt;/sup&gt;. Hence the interval will be very narrow or even empty (or, by a convention suggested by Steiger, containing only 0). However, this does ''not'' indicate that the estimate of ''ω''&lt;sup&gt;2&lt;/sup&gt; is very precise. In a sense, it indicates the opposite: that the trustworthiness of the results themselves may be in doubt. This is contrary to the common interpretation of confidence intervals that they reveal the precision of the estimate.
+
+== See also ==
+* [[CDF-based nonparametric confidence interval|Cumulative distribution function-based nonparametric confidence interval]]
+* [[CLs upper limits (particle physics)]]
+* [[Confidence distribution]]
+* [[Credence (statistics)]]
+* [[Error bar]]
+* [[Estimation statistics]]
+* [[p-value]]
+* [[Robust confidence intervals]]
+* [[Confidence region]]
+* [[Credible interval]]
+
+=== Confidence interval for specific distributions ===
+* [[Binomial proportion confidence interval|Confidence interval for binomial distribution]]
+* [[Power law#Estimating the exponent from empirical data|Confidence interval for exponent of the power law distribution]]
+* [[Exponential distribution#Confidence intervals|Confidence interval for mean of the exponential distribution]]
+* [[Poisson distribution#Confidence interval|Confidence interval for mean of the Poisson distribution]]
+* [[Normal distribution#Estimation of parameters|Confidence intervals for mean and variance of the normal distribution]]
+
+== References ==
+{{Reflist|30em|refs=
+
+&lt;ref name=CH&gt;Cox D.R., Hinkley D.V. (1974) ''Theoretical Statistics'', Chapman &amp; Hall, p49, p209&lt;/ref&gt;
+
+&lt;ref name=KS&gt;Kendall, M.G. and Stuart, D.G. (1973) ''The Advanced Theory of Statistics''. Vol 2: Inference and Relationship, Griffin, London. Section 20.4&lt;/ref&gt;
+
+&lt;ref name=Morey&gt;{{cite journal |last1= Morey|first1=R. D. |last2=Hoekstra|first2= R.|last3=Rouder|first3=J. N.|last4=Lee|first4=M. D.|last5=Wagenmakers|first5=E.-J.|date= 2016|title= The Fallacy of Placing Confidence in Confidence Intervals|journal= Psychonomic Bulletin &amp; Review|volume= 23|issue= 1|pages= 103–123|doi= 10.3758/s13423-015-0947-8|pmid=26450628 |pmc=4742505 }}&lt;/ref&gt;
+
+&lt;ref name=Neyman&gt;{{cite journal | last1 = Neyman | first1 = J. | authorlink = Jerzy Neyman | year = 1937 | title = Outline of a Theory of Statistical Estimation Based on the Classical Theory of Probability | jstor = 91337 | journal = [[Philosophical Transactions of the Royal Society A]] | volume = 236 | issue = 767| pages = 333–380 | doi=10.1098/rsta.1937.0005| bibcode = 1937RSPTA.236..333N | doi-access = free }}&lt;/ref&gt;
+
+&lt;ref name=Mayo&gt;Mayo, D. G. (1981) [http://www.phil.vt.edu/dmayo/PhilStatistics/In%20Defense%20of%20the%20Neyman-Pearson%20Theory%20of%20Confidence%20Intervals.pdf "In defence of the Neyman–Pearson theory of confidence intervals"], ''Philosophy of Science'', 48 (2), 269–280. {{JSTOR|187185}}&lt;/ref&gt;
+
+&lt;!-- The following references appeared in the reflist but were not used in the prior text. Please return them to the reflist once they have been correctly cited in the main article.
+&lt;ref name="Jiang He"&gt;Jiang He, et al., ''Passive Smoking and the Risk of Coronary Heart Disease — A Meta-Analysis of Epidemiologic Studies'', N Engl J Med 1999; 340:920–926.&lt;/ref&gt;
+--&gt;
+}}
+
+== Bibliography ==
+
+{{refbegin}}
+* [[Ronald Fisher|Fisher, R.A.]] (1956) ''Statistical Methods and Scientific Inference.'' Oliver and Boyd, Edinburgh. (See p.&amp;nbsp;32.)
+* Freund, J.E. (1962) ''Mathematical Statistics'' Prentice Hall, Englewood Cliffs, NJ. (See pp.&amp;nbsp;227–228.)
+* [[Ian Hacking|Hacking, I.]] (1965) ''Logic of Statistical Inference.'' Cambridge University Press, Cambridge. {{isbn|0-521-05165-7}}
+* Keeping, E.S. (1962) ''Introduction to Statistical Inference.'' D. Van Nostrand, Princeton, NJ.
+* {{cite journal | last1 = Kiefer | first1 = J. | authorlink = Jack Kiefer (mathematician) | year = 1977 | title = Conditional Confidence Statements and Confidence Estimators (with discussion) | jstor = 2286460 | journal = Journal of the American Statistical Association | volume = 72 | issue = 360a| pages = 789–827 | doi=10.1080/01621459.1977.10479956}}
+* Mayo, D. G. (1981) [http://www.phil.vt.edu/dmayo/PhilStatistics/In%20Defense%20of%20the%20Neyman-Pearson%20Theory%20of%20Confidence%20Intervals.pdf "In defence of the Neyman–Pearson theory of confidence intervals"], ''Philosophy of Science'', 48 (2), 269–280. {{JSTOR|187185}}
+* [[Jerzy Neyman|Neyman, J.]] (1937) [https://www.jstor.org/stable/91337 "Outline of a Theory of Statistical Estimation Based on the Classical Theory of Probability"] ''Philosophical Transactions of the Royal Society of London A,'' '''236,''' 333–380. (Seminal work.)
+* {{cite journal | last1 = Robinson | first1 = G.K. | year = 1975 | title = Some Counterexamples to the Theory of Confidence Intervals | jstor = 2334498 | journal = Biometrika | volume = 62 | issue = 1| pages = 155–161 | doi=10.1093/biomet/62.1.155}}
+* Savage, L. J. (1962), ''The Foundations of Statistical Inference''. Methuen, London.
+* Smithson, M. (2003) ''Confidence intervals''. Quantitative Applications in the Social Sciences Series, No. 140. Belmont, CA: SAGE Publications. {{isbn|978-0-7619-2499-9}}.
+{{refend}}
+* [[Salil Mehta|Mehta, S.]] (2014) ''Statistics Topics'' {{isbn|978-1-4992-7353-3}}
+* {{springer|title=Confidence estimation|id=p/c024620}}
+* {{cite journal|last1=Morey|first1=R. D.|last2=Hoekstra|first2=R.|last3=Rouder|first3=J. N.|last4=Lee|first4=M. D.|last5=Wagenmakers|first5=E.-J.|title=The fallacy of placing confidence in confidence intervals|journal=Psychonomic Bulletin &amp; Review|volume=23|issue=1|year=2016|pages=103–123|doi=10.3758/s13423-015-0947-8|pmid=26450628|pmc=4742505}}
+
+=== External links ===
+
+{{Commons category}}
+* [http://www.latrobe.edu.au/psy/esci/ The Exploratory Software for Confidence Intervals tutorial programs that run under Excel]
+* Confidence interval calculators for [https://web.archive.org/web/20090703130234/http://www.danielsoper.com/statcalc/calc28.aspx R-Squares], [https://web.archive.org/web/20090806085113/http://www.danielsoper.com/statcalc/calc26.aspx Regression Coefficients], and [https://web.archive.org/web/20090404113030/http://www.danielsoper.com/statcalc/calc27.aspx Regression Intercepts]
+* {{mathworld | urlname = ConfidenceInterval | title = Confidence Interval}}
+* [http://www.causeweb.org/ CAUSEweb.org] Many resources for teaching statistics including Confidence Intervals.
+* [http://www.usablestats.com/tutorials/CI An interactive introduction to Confidence Intervals]
+* ''[http://demonstrations.wolfram.com/ConfidenceIntervalsConfidenceLevelSampleSizeAndMarginOfError/ Confidence Intervals: Confidence Level, Sample Size, and Margin of Error]'' by Eric Schulz, the [[Wolfram Demonstrations Project]].
+* ''[http://health.utah.gov/opha/IBIShelp/ConfInts.pdf Confidence Intervals in Public Health].'' Straightforward description with examples and what to do about small sample sizes or rates near 0.
+
+=== Online calculators ===
+* [http://www.graphpad.com/quickcalcs/index.cfm GraphPad QuickCalcs]
+* [http://www.stat.tamu.edu/~jhardin/applets/index.html TAMU's Confidence Interval Calculators]
+* [http://www.mbastats.net/ MBAStats confidence interval and hypothesis test calculators]
+* [https://statsjournal.com/ Stats Journal – statistics calculator online]
+
+{{statistics}}
+
+[[Category:Quantitative marketing research]]
+[[Category:Psephology]]
+[[Category:Biostatistics]]
+[[Category:Statistical intervals]]</text>
+      <sha1>dfr044lklb9zym6w7wvulfp02owx8mx</sha1>
+    </revision>
+  </page>
+</mediawiki>

@@ -1,0 +1,210 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.10/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.10/ http://www.mediawiki.org/xml/export-0.10.xsd" version="0.10" xml:lang="en">
+  <siteinfo>
+    <sitename>Wikipedia</sitename>
+    <dbname>enwiki</dbname>
+    <base>https://en.wikipedia.org/wiki/Main_Page</base>
+    <generator>MediaWiki 1.35.0-wmf.36</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Media</namespace>
+      <namespace key="-1" case="first-letter">Special</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Talk</namespace>
+      <namespace key="2" case="first-letter">User</namespace>
+      <namespace key="3" case="first-letter">User talk</namespace>
+      <namespace key="4" case="first-letter">Wikipedia</namespace>
+      <namespace key="5" case="first-letter">Wikipedia talk</namespace>
+      <namespace key="6" case="first-letter">File</namespace>
+      <namespace key="7" case="first-letter">File talk</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki talk</namespace>
+      <namespace key="10" case="first-letter">Template</namespace>
+      <namespace key="11" case="first-letter">Template talk</namespace>
+      <namespace key="12" case="first-letter">Help</namespace>
+      <namespace key="13" case="first-letter">Help talk</namespace>
+      <namespace key="14" case="first-letter">Category</namespace>
+      <namespace key="15" case="first-letter">Category talk</namespace>
+      <namespace key="100" case="first-letter">Portal</namespace>
+      <namespace key="101" case="first-letter">Portal talk</namespace>
+      <namespace key="108" case="first-letter">Book</namespace>
+      <namespace key="109" case="first-letter">Book talk</namespace>
+      <namespace key="118" case="first-letter">Draft</namespace>
+      <namespace key="119" case="first-letter">Draft talk</namespace>
+      <namespace key="446" case="first-letter">Education Program</namespace>
+      <namespace key="447" case="first-letter">Education Program talk</namespace>
+      <namespace key="710" case="first-letter">TimedText</namespace>
+      <namespace key="711" case="first-letter">TimedText talk</namespace>
+      <namespace key="828" case="first-letter">Module</namespace>
+      <namespace key="829" case="first-letter">Module talk</namespace>
+      <namespace key="2300" case="first-letter">Gadget</namespace>
+      <namespace key="2301" case="first-letter">Gadget talk</namespace>
+      <namespace key="2302" case="case-sensitive">Gadget definition</namespace>
+      <namespace key="2303" case="case-sensitive">Gadget definition talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Sator Square</title>
+    <ns>0</ns>
+    <id>988765</id>
+    <revision>
+      <id>962705373</id>
+      <parentid>962247129</parentid>
+      <timestamp>2020-06-15T15:36:30Z</timestamp>
+      <contributor>
+        <username>Mikko Kuusirati</username>
+        <id>31706033</id>
+      </contributor>
+      <comment>/* Translation */</comment>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="22518" xml:space="preserve">{{short description|A word square containing a five-word Latin palindrome}}
+[[File:Sator Square at Oppède.jpg|thumb|right|A Sator Square in [[Oppede]], France]]
+[[File:Enigmatic inscription of St Peter ad Oratorium 400.jpg|thumb|right|A Sator Square on a brick wall of the 8th century [[Capestrano#Abbey of St. Peter ad Oratorium|St. Peter ad Oratorium]] in Italy]]
+
+The '''Sator Square''' (or '''Rotas Square''') is a [[word square]] containing a five-word Latin [[palindrome]]. The earliest form has ROTAS as the top line, but in time the version with SATOR on the top line became dominant. It is a five-by-five square made up of five 5-letter words, thus consisting of 25 letters in total, all derived from eight Latin letters: five consonants (S, T, R, P, N) and three vowels (A, E, O).
+
+{| style="font-family: monospace; margin: 0; line-height:90%"
+|style="padding-left: 2em;"|R O T A S 
+|-
+|style="padding-left: 2em;"|O P E R A
+|-
+|style="padding-left: 2em;"|T E N E T
+|-
+|style="padding-left: 2em;"|A R E P O
+|-
+|style="padding-left: 2em;"|S A T O R
+|}
+
+{| style="font-family: monospace; margin: 0; line-height:90%"
+|style="padding-left: 2em;"|S A T O R
+|-
+|style="padding-left: 2em;"|A R E P O
+|-
+|style="padding-left: 2em;"|T E N E T
+|-
+|style="padding-left: 2em;"|O P E R A
+|-
+|style="padding-left: 2em;"|R O T A S
+|}
+
+In particular, this is a square two-dimensional palindrome, and admits four symmetries (its [[symmetry group]] is the [[Klein four-group]] rather than the [[dihedral group of order 8]] since adjacent sides of the square are not the same): identity, two diagonal reflections, and 180-degree rotation. As can be seen, the text may be read top-to-bottom, bottom-to-top, left-to-right, or right-to-left; and it may be rotated 180 degrees and still be read in all those ways.
+
+The Sator Square is the earliest dateable two-dimensional palindrome. It was found in the ruins of [[Pompeii]], at [[Herculaneum]], a city buried in [[Eruption of Mount Vesuvius in 79|the ash of Mount Vesuvius in 79 AD]]. It consists of a sentence written in Latin: {{lang|la|Sator Arepo tenet opera rotas}}. Its translation has been the subject of speculation with no clear consensus.
+
+Other 2D palindrome examples may be found carved on stone tablets or pressed into clay before being [[Pottery|fired]].
+
+==Translation==
+;{{lang|la|SATOR}} : (nominative or vocative noun) (from {{lang|la|serere}}=to sow) sower, planter, founder, progenitor (usually divine); originator; literally “seeder”.
+;{{lang|la|AREPO}} : unknown, likely a proper name, either invented or, perhaps, of Egyptian origin, e.g. coded form of the name Harpocrates or Hor-Hap ([[Serapis]]).
+;{{lang|la|TENET}} : (verb) (from {{lang|la|tenere}}=to hold) he/she/it holds, keeps, comprehends,  possesses, masters, preserves, sustains.
+;{{lang|la|OPERA}} : (nominative, ablative or accusative noun) work, care, aid, labour, service, effort/trouble; (from {{lang|la|opus}}): (nominative, accusative or vocative noun) works, deeds; (ablative) with effort.
+;{{lang|la|ROTAS}} : (''rotās'', accusative plural of {{lang|la|rota}}) wheels; (verb) you (singular) turn or cause to rotate.
+
+[[File:Grenoble - Sator 02.jpg|thumb|right|The Sator square on a wooden door in Grenoble (France)]]
+One likely translation is "The farmer Arepo has [as] works wheels [a plough]"; that is, the farmer uses his plough as his form of work. Though not a significant sentence, it is grammatical; it can be read up and down, backwards and forwards. [[C. W. Ceram]] also reads the square [[boustrophedon]] (in alternating directions). But since word order is very free in Latin, the translation is the same. If the Sator Square is read [[boustrophedon]], in reverse direction, the words become ''SATOR OPERA TENET'', with the sequence reversed.&lt;ref&gt;Ceram (1958), p. 30.&lt;/ref&gt;
+
+Given that the Square’s Outer consonant string joined with the Square’s central letter produces S-T-R-N, and that SaTuRN was the Roman God of time-cycles, agriculture, and magic, this claim by The Museum of Witchcraft and Magic is especially relevant: “Sator may originally have been a Sacred Name of [[Saturn (mythology)|Saturn.]] The Roman scholar Marcus Terentius Varro (De Lingua Latina, 5.64) was of the opinion that the name Saturn had its origins in the verb sero (sow/beget), which the noun sator is derived from.”.&lt;ref&gt;[https://museumofwitchcraftandmagic.co.uk/object/charm-talisman/]&lt;/ref&gt; The theory is further affirmed when one notes that Saturn’s consort [[Ops]], from which “opus” comes, the plural form of which is “opera”. 
+
+The word ''arepo'' is a [[hapax legomenon]], appearing nowhere else in Latin literature. Its similarity with {{lang|la|arrepo}}, from {{lang|la|ad repo}}, 'I creep towards', may be coincidental. Most of those who have studied the Sator Square agree that it is a proper name, either an adaptation of a non-Latin word or most likely a name invented specifically for this sentence. [[Jerome Carcopino]] thought that it came from a [[Celtic languages|Celtic]], specifically [[Gaulish language|Gaulish]], word for ''plough''. [[David Daube]] argued that it represented a [[Hebrew language|Hebrew]] or [[Aramaic language|Aramaic]] rendition of the Greek {{lang|grc|Ἄλφα ω}}, or "[[Alpha and Omega|Alpha-Omega]]" (cf. [[Book of Revelation|Revelation]] 1:8) by early Christians. [[J. Gwyn Griffiths]] contended that it came, via [[Alexandria]], from the attested Egyptian name Ḥr-Ḥp,&lt;!--not sure if this is the right H-with-a-dot-underneath--&gt; which he took to mean "the face of [[Apis (egyptian mythology)|Apis]]".&lt;ref&gt;"'Arepo' in the Magic 'Sator' Square'": J. Gwyn Griffiths, ''The Classical Review'', New Series, Vol. 21, No. 1, March 1971, pp.&amp;nbsp;6&amp;ndash;8.&lt;/ref&gt; An origin in Graeco-Roman Egypt was also advocated by [[Miroslav Marcovich]], who maintains that ''Arepo'' is a Latinized abbreviation of [[Harpocrates]], god of the rising sun, in some places called ''Γεωργός `Aρπον'', which Marcovich suggests corresponds to ''Sator Arepo''.&lt;ref&gt;"Sator arepo = ΓΕΩΡΓΟΣ ̔ΑΡΠΟΝ(ΚΝΟΥΦΙ) ΑΡΠΩΣ (''geōrgos arpon''[''knouphi''] ''arpōs''), arpo(cra), harpo(crates)": [[Miroslav Marcovich]], ''Zeitschrift für Papyrologie und Epigraphik'' Bd. 50 (1983), pp. 155-171, [https://www.jstor.org/stable/20183770 jstor.com]&lt;/ref&gt; If one accepts that one or more deity names is encoded into the Sator square then this [[word square]] could be considered an example of a [[theophoric]] [[mandala]].
+
+If ''arepo'' is taken to be in the [[second declension]], the ''-o'' ending could put the word in the ablative case, giving it a meaning of "by means of [arepus]."  Using this definition of ''arepo'' and the boustrophedon reading order produces the text "The sower works for mastery by turning the wheel."
+
+Reading ox-plough style from the outer S corner into the central N would produce the sentence: SAT ORO PER ATEN (Sufficiently I pray through Aten).
+
+Turning to the diagonals, we see N-P-R or [[Neper (mythology)]], the Egyptian god of grain.
+And the other diagonal is N-R-S or [[Nereus]], the Roman Old Man of the Sea. 
+The central letter N is pronounced [[Nun (letter)]] in Hebrew, and has the meaning of fish. But in Egyptian cosmogology Nun or [[Nu (mythology)]] is the primordial waters, source of all, father of all the gods.
+The vertical and horizontal NET sequence spells [[Neith]], the Egyptian goddess of creation and weaving, and prime creator deity. When we combine the full inner lines we get TENET, which puns into TINNIT (a.k.a. [[Tanit]]), the Great Mother Goddess of Carthage and the equivalent of [[Astarte]] (aSTaRTe).
+If we use the NETOR turn we see the Coptic word for “god”, Neter.&lt;ref&gt;[[Ancient Egyptian deities#Definition]]&lt;/ref&gt;{{Circular reference|date=May 2020}} If we turn in the other direction we get NETAS, the accusative feminine plural of “woven”.
+
+==Appearances==
+[[File:Rotas square from Cirencester.jpg|thumb|right|Square in [[Cirencester]].]]
+
+The oldest datable representation of the Sator Square was found in the ruins of Pompeii. Others have been found in excavations under the [[Basilica di Santa Maria Maggiore|church of S. Maria Maggiore]] in Rome,&lt;ref&gt;{{cite book|last=Magi|first=Filippo|title=Il calendario dipinto sotto S. Maria Maggiore|year=1972|issue=Volume 16 of Arte e archeologia|publisher=Libreria Editrice Vaticana|isbn=9788820943790}}&lt;/ref&gt; at [[Corinium]] (modern [[Cirencester]] in England) and [[Dura-Europos]] (in modern [[Syria]]).
+
+The Benedictine [[Capestrano#Abbey of St. Peter ad Oratorium|Abbey of St Peter ad Oratorium]], near [[Capestrano]], in [[Abruzzo]], [[Italy]], has a marble square inscription of the Sator Square. An example discovered at the [[Valvisciolo Abbey]], also in central Italy, has the letters forming five concentric rings, each one divided into five sectors. Other Sator Squares are on the exterior wall of the [[Siena Cathedral|Duomo]] of [[Siena]], Italy, and on a memorial.&lt;ref name=autogenerated1&gt;[http://www.findagrave.com/photos/2004/244/9362572_109406705336.jpg Findagrave.com]&lt;/ref&gt;
+
+Outside of Italy, an example found in a group of stones in the grounds of [[Rivington Church]] reads ''SATOR AREPO TENET OPERA ROTAS''. The stone is one of a group thought to have come from a local private chapel in [[Anderton, Lancashire]].&lt;ref&gt;John Rawlinson, ''About Rivington'', Chorley: Nelson Brothers Limited, 1969, p. 42.&lt;/ref&gt; An example is found inserted in a wall of the old district of [[Oppède]], in France's [[Luberon]].  There is a Sator Square in the museum at [[Conimbriga]] (near [[Coimbra]] in [[Portugal]]), excavated on the site.
+
+There is one known occurrence of the phrase on the [[rune]] stone Nä Fv1979;234 from [[Närke]], [[Sweden]], dated to the 14th century. It reads "sator arepo tenet" (untranscribed: "sator ¶ ar(æ)po ¶ tænæt).&lt;ref name=Runforum&gt;{{cite web |url=http://www.runforum.nordiska.uu.se/samnord/ |title=amnordisk runtextdatabas |publisher=Runforum Uppsala |date=2010-12-20 |accessdate=2014-02-13 |url-status=dead |archiveurl=https://archive.is/20120525193554/http://www.runforum.nordiska.uu.se/samnord/ |archivedate=2012-05-25 }}&lt;/ref&gt; It also occurs in two inscriptions from Gotland (G 145 M and G 149 M), in both of which the whole palindrome is written.&lt;ref name=Runforum /&gt;
+
+"Sator Square" appears as a geographical location in the city/state of Anhk-Morpork in Terry Pratchett's [[Discworld]] series of books.
+
+The Sator Square also appears in the [[Catweazle]] series of books created by [[Richard Carpenter (screenwriter)|Richard Carpenter]].
+
+==Christian associations==
+[[File:Palindrom PATERNOSTER.svg|left|thumb|Anagram formed by the letters of the sator square]]
+By repositioning the letters around the central letter ''Ν'' (en), a [[Greek cross]] can be made that reads ''Pater Noster'' ([[Latin]] for "Our Father", the first two words of the "[[Lord's Prayer]]") both vertically and horizontally. The remaining letters – two each of ''A'' and ''O'' – can be taken to represent the concept of [[Alpha and Omega]], a reference in Christianity to the omnipresence of God. Thus the square might have been used as a covert symbol for early Christians to express their presence to each other.&lt;ref name="MilburnMilburn1988"&gt;{{cite book|author1=Robert Milburn|author2=Robert Leslie Pollington Milburn|title=Early Christian art and architecture|url=https://books.google.com/books?id=qIDho9jinAwC&amp;pg=PA1|accessdate=22 December 2011|year=1988|publisher=University of California Press|isbn=978-0-520-06326-6|pages=1–}}&lt;/ref&gt;
+
+In addition to the equilateral TENET cross within the square, and the PATER NOSTER equilateral cross which can be formed from the letters in the square, one can find a [[Maltese cross]] in the square by joining the A, E, O vowels in each quadrant in a V formation and joining them to the central N. Astonishingly the feminine goddess of eternity in ancient Roman religion and thus the consort of Aeon, [[Aeternitas]], is found in the Sator Square and also forms a cross: ETOR-NETAS. 
+
+In the Latin Vulgate version on Ezekiel one finds the words “rota” and “opera” in 1:16, as well as the plural form “rotae”. This is a central [[Merkabah mysticism]] text which speaks of wheels within wheels. The outer wheel of the square spins as SATOROTA or ROTASATO (O: oh, sat: sufficient, rota: wheel) while the inner wheel spins as PERE (per: through, throughout) or REPE (rēpe: you crawl). Ezekiel 1:18 mentions that the wheel’s “rims were immense, circled with eyes, and interesting on the outer portion of the square the letter A can be considered to be a depiction of an eye viewed from a horizontal angle while the letter O considered a depiction of an open eye viewed from the front.
+
+An example of the Sator Square found in [[Manchester]] dating to the 2nd century AD has been interpreted according to this model as one of the earliest pieces of evidence of Christianity in Britain.&lt;ref&gt;Shotter (2004), pp.&amp;nbsp;129–130.&lt;/ref&gt;
+
+The Coptic ''Prayer of the Virgin in Bartos'' describes how that Christ was crucified with five nails, which were named Sator, Arepo, Tenet, Opera and Rotas.&lt;ref name="Donehoo1903"&gt;{{cite book|author=James De Quincey Donehoo|title=The Apocryphal and legendary life of Christ: being the whole body of the Apocryphal gospels and other extra canonical literature which pretends to tell of the life and words of Jesus Christ, including much matter which has not before appeared in English. In continuous narrative form, with notes, Scriptural references, prolegomena, and indices|url=https://archive.org/details/apocryphalandle00donegoog|accessdate=22 December 2011|year=1903|publisher=Macmillan |pages=[https://archive.org/details/apocryphalandle00donegoog/page/n416 350]–}}&lt;/ref&gt; This reading of the words consequently entered the Ethiopic tradition where they became the names of the wounds of Christ.&lt;ref name="Ludolf1691"&gt;.  {{cite book|last=Ludolf|first=Hiob|title=Iobi Ludolfi alias Lutholf dicti ad suam historiam Adthiopicam adhanc editam commentarius|url=https://books.google.com/books?id=hapJAAAAMAAJ&amp;pg=PA351|accessdate=8 September 2017|year=1691|pages=351}}&lt;/ref&gt; In Ethiopian tradition the words are slightly altered, with SADOR being the lance wound, ALADOR being the right hand wound, DANAT being the left hand wound, ADERA being the right foot wound, and RODAS being the left foot wound. These 5 words are prayed on each knot of an 41 count Ethiopian mequetaria (prayer rope).&lt;ref&gt;[http://themasterbeadsman.blogspot.com/2012/05/ethiopian-prayers-for-mequtaria.html Ethiopian Orthodox Prayers]&lt;/ref&gt;
+
+In [[Cappadocia]], in the time of [[Constantine VII|Constantine VII Porphyrogenitus]] (913–959), the shepherds of the Nativity story are called SATOR, AREPON, and TENETON, while a Byzantine bible of an earlier period conjures out of the square the baptismal names of the three Magi, ATOR, SATOR, and PERATORAS.&lt;ref&gt;Fishwick, D. 1959. An Early Christian Cryptogram? Link: http://www.umanitoba.ca/colleges/st_pauls/ccha/Back%20Issues/CCHA1959/Fishwick.htm&lt;/ref&gt;
+
+Other authorities believe the Sator Square was [[Mithraic]] or Jewish in origin, because it is not likely that Pompeii had a large Christian population in 79 AD and the symbolism inferred as Christian and the use of Latin in Christianity is not attested until later.&lt;ref name="Ferguson2003"&gt;{{cite book|last=Ferguson|first=Everett|title=Backgrounds of early Christianity|url=https://books.google.com/books?id=3tuKkxU4-ncC&amp;pg=PA590|accessdate=22 December 2011|date=1 September 2003|publisher=Wm. B. Eerdmans Publishing|isbn=978-0-8028-2221-5|pages=590–}}&lt;/ref&gt; James H. Charlesworth is of the view that the Sator Square is sacred to [[Asclepius]], the serpent god, and thus sacred to all serpent gods. He suggests that one possible prayer form of this square might be: “SATOR-ROTAS (O Creator - you who cause [all] to rotate.) OPERA-AREPO (with effort I crawl toward [you].) TENET-TENET-TENET-TENET (Maintain [the rotations from the north, the east, the south and the west].)&lt;ref&gt;The Good and Evil Serpent: How a Universal Symbol Became Christianized by James H. Charlesworth; The Anchor Yale Bible Reference Library: March 23, 2010&lt;/ref&gt;
+
+Exorcism prayers can also be derived from rearranging the 25 letters of the square:
+* RETRO SATANA, TOTO OPERE ASPER
+* ORO TE PATER, ORO TE PATER, SANAS
+* O PATER, ORES PRO AETATE NOSTRA
+* ORA, OPERARE, OSTENTA TE PASTOR&lt;ref&gt;[http://www.umanitoba.ca/colleges/st_pauls/ccha/Back%20Issues/CCHA1959/Fishwick.htm Duncan Fishwick, ''An Early Christian Cryptogram? (HTML)'']&lt;/ref&gt;
+
+Punning with the square reveals many more spiritual themes in the square, such as:
+* Pardon: PER-TEN (per- + dōnō)
+* Repent: REPENETO (re-  + poeniteo)
+
+Employing non-Latin languages known by the 1st century Romans is also useful in reading the square’s letter configurations. For instance, in the two corners, when Sanskrit is phonetically employed, one finds the sacred “body” (ROOP/rup or POOR/pur) and “blood” (ASRA)&lt;ref&gt;[https://www.sanskrit-lexicon.uni-koeln.de/scans/MWScan/tamil/index.html]&lt;/ref&gt;
+
+== Magical uses ==
+[[File:Greek palindrome on the font.jpg|thumb|A Greek palindrome on the font at [[St Martin, Ludgate]] in London, England]]
+The Sator Square is a four-times palindrome, and some people have attributed magical properties to it, considering it one of the broadest magical formulas in the [[Western world|West]]. An article on the square from ''The Saint Louis Medical and Surgical Journal'', vol. 76, reports that palindromes were viewed as being immune to tampering by the [[devil]], who would become confused by the repetition of the letters, and hence their popularity in magical use. The same principle, alongside the above "Paternoster cross", is also present in the Greek magical palindrome: [[Abraxas#Magical papyri|ΑΒΛΑΝΑΘΑΝΑΛΒΑ]], which probably derives from the Hebrew or Aramaic אב לן את, meaning "Thou art our father".
+
+The square has reportedly been used in [[folk magic]] for various purposes, including putting out fires (the spell is "TO EXTINGUISH FIRE WITHOUT WATER" in John George Hohman's ''[[Long Lost Friend]]''), removing jinxes and fevers,{{Citation needed|date=May 2011}} to protect cattle from witchcraft,&lt;ref&gt;[http://www.northvegr.org/lore/powwow/010.php#135 Northvegr.org] {{webarchive |url=https://web.archive.org/web/20090814012225/http://www.northvegr.org/lore/powwow/010.php#135 |date=August 14, 2009 }}&lt;/ref&gt; and against fatigue when traveling.&lt;ref&gt;''The Gentleman's Magazine'' vol. 258, 1885.&lt;/ref&gt; It is sometimes claimed it must be written upon a certain material, or else with a certain type of ink to achieve its magical effect. It is often placed on houses and barns for protection.
+
+In regards to magic, it is also worth considering the masculine and feminine polarities which can be invoked when working/ploughing/weaving with the square. In Latin the -TOR suffix is a masculine indicator while -TAS is a feminine indicator. Also interesting is that in Latin, applying the D/T soundshift to the word SATOR and dropping the beginning S aspirate produces ADOR, which can be read as “adiūrō” (to conjure) or “adōrō” (to adore).
+
+The Sator Square is used in both Pennsylvania Dutch communities as part of their powwow medicine and in Russian Orthodox Old Believer communities.&lt;ref&gt;“POWWOWING IN PENNSYLVANIA: HEALING RITUALS OF THE DUTCH COUNTRY”, Glencairn Museum News, Number 2, 2017. [https://glencairnmuseum.org/newsletter/2017/3/2/powwowing-in-pennsylvania]&lt;/ref&gt;&lt;ref&gt;Ilia Rodov, “Kabbalistic Traces in a Russian Old-Believer Painting”, Wolf Moskovich, Roman Mnich and Renata Tarasiuk (editors), 'Galicia, Bukovina and Other Borderlands in Eastern and Central Europe', Jews and Slavs Volume 23, Jerusalem-Siedlce: 2013.[https://lookaside.fbsbx.com/file/Kabbalistic%20Old%20Believer%20Painting.pdf?token=AWzemac2GBMzLjXHYs6joK0DdgwVwWNJSXvq36SbR7sXN0dQ-ZEXnLKz1pQZi4c0w2pQmu1o-g14pr7visK2p2shetZSJsB4HfsUzDB-3Haz5Y-f6y98dSsDhtOSBDaPLZ477466nOcpw4s-GpPMwDIrOvvEV8_veyVSjOsrLkWJeEXPoWT13hOOb4kgHtKWGY1KjaCiEhh4E3twmG7ftDzwazn-V7rjDZYZ5Qjje2R3FxlSjR8GnrK5pBY8blxC4QFRfKCfaUkzwk0a-uBzRXWmM5NGrSCmEDbg-_kZ2x9tVVEq1nD1J0DAhwozt5OiEwl_OAaKIPcanHroT1eBh0Z3]&lt;/ref&gt;
+
+== See also ==&lt;!-- Please respect alphabetical order --&gt;
+*[[Abracadabra]], sometimes written in form of triangle
+*[[Beware of the dog|Cave canem]], another Pompeian phrase
+*[[Christian symbolism]]
+*[[Isopsephy]], for further Pompeian graffiti
+*[[Magic square]]
+*[[Memes]]
+*[[Mithraic Mysteries]]
+*[[Word square]]
+
+==References==
+{{Reflist}}
+
+==Bibliography==
+*{{cite book |first=David |last=Shotter |date=1993 |title=Romans and Britons in North-West England |publisher=Centre for North-West Regional Studies |location=Lancaster |isbn=1-86220-152-8}}
+*{{cite book |first=C. W. |last=Ceram |year=1958 |title=The March of Archaeology|url=https://archive.org/details/marchofarchaeolo00cera |url-access=registration |location=New York |isbn= |publisher=Alfred A. Knopf. L.C.Catalog no. 58-10977}}
+*James H. Charlesworth, ''The Good and Evil Serpent'', Anchor Yale (2010)
+*Walter Moeller, ''The Mithraic Origin and Meanings of the Rotas-Sator Square'', Brill (2015)
+
+==External links==
+{{Commons category}}
+* {{cite journal|last=Pérez-Rubín|first=Carlos|title=The sunken ruins of Pompeii and an age-old enigmatic specimen of roman incidental Epigraphy|journal=Documenta &amp; Instrumenta|year=2004|volume=2|pages=173–192|url=http://www.ucm.es/info/documen/articulos/art_segunda/art_rubin.pdf}}
+* [http://www.umanitoba.ca/colleges/st_pauls/ccha/Back%20Issues/CCHA1959/Fishwick.htm Duncan Fishwick, ''An Early Christian Cryptogram? (HTML)'']
+* [http://www.archimedes-lab.org/images6/sator-inscript_nm.gif Sator Square, inscribed], [http://www.archimedes-lab.org/latin.html Article]; the article uses: "Rotas square"
+* [http://www.smithtrust.com/satorsite "Section of Page and Eloise's Memorial website related to the Sator Square, 1995 (HTML)"]
+* [http://www.magic-square-museum.com/ Magic Square Museum]: the first Second Life museum about Magic Square. The first flow is about Sator Square. Vulcano (89,35,25)
+* [https://museumofwitchcraftandmagic.co.uk/object/charm-talisman/ The Museum of Witchcraft, 1583 – CHARM: TALISMAN]
+
+[[Category:Graffiti and unauthorised signage]]
+[[Category:Latin inscriptions]]
+[[Category:Latin words and phrases]]
+[[Category:Magic symbols]]
+[[Category:Palindromes]]
+[[Category:Word puzzles]]</text>
+      <sha1>n69ay935z0f5u0yqjoex2h2m9h4ggl5</sha1>
+    </revision>
+  </page>
+</mediawiki>

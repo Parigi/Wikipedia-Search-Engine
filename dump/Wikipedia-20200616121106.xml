@@ -1,0 +1,200 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.10/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.10/ http://www.mediawiki.org/xml/export-0.10.xsd" version="0.10" xml:lang="en">
+  <siteinfo>
+    <sitename>Wikipedia</sitename>
+    <dbname>enwiki</dbname>
+    <base>https://en.wikipedia.org/wiki/Main_Page</base>
+    <generator>MediaWiki 1.35.0-wmf.36</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Media</namespace>
+      <namespace key="-1" case="first-letter">Special</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Talk</namespace>
+      <namespace key="2" case="first-letter">User</namespace>
+      <namespace key="3" case="first-letter">User talk</namespace>
+      <namespace key="4" case="first-letter">Wikipedia</namespace>
+      <namespace key="5" case="first-letter">Wikipedia talk</namespace>
+      <namespace key="6" case="first-letter">File</namespace>
+      <namespace key="7" case="first-letter">File talk</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki talk</namespace>
+      <namespace key="10" case="first-letter">Template</namespace>
+      <namespace key="11" case="first-letter">Template talk</namespace>
+      <namespace key="12" case="first-letter">Help</namespace>
+      <namespace key="13" case="first-letter">Help talk</namespace>
+      <namespace key="14" case="first-letter">Category</namespace>
+      <namespace key="15" case="first-letter">Category talk</namespace>
+      <namespace key="100" case="first-letter">Portal</namespace>
+      <namespace key="101" case="first-letter">Portal talk</namespace>
+      <namespace key="108" case="first-letter">Book</namespace>
+      <namespace key="109" case="first-letter">Book talk</namespace>
+      <namespace key="118" case="first-letter">Draft</namespace>
+      <namespace key="119" case="first-letter">Draft talk</namespace>
+      <namespace key="446" case="first-letter">Education Program</namespace>
+      <namespace key="447" case="first-letter">Education Program talk</namespace>
+      <namespace key="710" case="first-letter">TimedText</namespace>
+      <namespace key="711" case="first-letter">TimedText talk</namespace>
+      <namespace key="828" case="first-letter">Module</namespace>
+      <namespace key="829" case="first-letter">Module talk</namespace>
+      <namespace key="2300" case="first-letter">Gadget</namespace>
+      <namespace key="2301" case="first-letter">Gadget talk</namespace>
+      <namespace key="2302" case="case-sensitive">Gadget definition</namespace>
+      <namespace key="2303" case="case-sensitive">Gadget definition talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Tikhonov regularization</title>
+    <ns>0</ns>
+    <id>954323</id>
+    <revision>
+      <id>957352208</id>
+      <parentid>957349935</parentid>
+      <timestamp>2020-05-18T12:14:07Z</timestamp>
+      <contributor>
+        <username>AnomieBOT</username>
+        <id>7611264</id>
+      </contributor>
+      <minor/>
+      <comment>Dating maintenance tags: {{Clarify}}</comment>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="23175" xml:space="preserve">{{Short description|Regularization technique for ill-posed problems}}{{Regression bar}}
+'''Tikhonov regularization''', named for [[Andrey Nikolayevich Tikhonov|Andrey Tikhonov]], is a method of [[regularization (mathematics)|regularization]] of [[ill-posed problem]]s. Also known as '''ridge regression''',{{efn|In [[statistics]], the method is known as '''ridge regression''', in [[machine learning]] it is known as '''weight decay''', and with multiple independent discoveries, it is also variously known as the '''Tikhonov–Miller method''', the '''Phillips–Twomey method''', the '''constrained linear inversion''' method, and the method of '''linear regularization'''. It is related to the [[Levenberg–Marquardt algorithm]] for [[non-linear least squares|non-linear least-squares]] problems.}} it is particularly useful to mitigate the problem of [[multicollinearity]] in [[linear regression]], which commonly occurs in models with large numbers of parameters.&lt;ref&gt;{{cite book |first=Peter |last=Kennedy |authorlink=Peter Kennedy (economist) |title=A Guide to Econometrics |location=Cambridge |publisher=The MIT Press |edition=Fifth |year=2003 |isbn=0-262-61183-X |pages=205–206 |url=https://books.google.com/books?id=B8I5SP69e4kC&amp;pg=PA205 }}&lt;/ref&gt; In general, the method provides improved [[Efficient estimator|efficiency]] in parameter estimation problems in exchange for a tolerable amount of [[Bias of an estimator|bias]] (see [[bias–variance tradeoff]]).&lt;ref&gt;{{cite book |first=Marvin |last=Gruber |title=Improving Efficiency by Shrinkage: The James–Stein and Ridge Regression Estimators |location=Boca Raton |publisher=CRC Press |year=1998 |pages=7–15 |isbn=0-8247-0156-9 |url=https://books.google.com/books?id=wmA_R3ZFrXYC&amp;pg=PA7 }}&lt;/ref&gt;
+
+In the simplest case, the problem of a [[Singular matrices|near-singular]] [[moment matrix]] &lt;math&gt;(\mathbf{X}^\mathsf{T}\mathbf{X})&lt;/math&gt; is alleviated by adding positive elements to the [[Main diagonal|diagonals]]. The approach can be conceptualized by posing a [[Constraint (mathematics)|constraint]] &lt;math&gt;\sum \beta_{i}^{2} = c&lt;/math&gt; to the [[least squares]] problem, such that
+:&lt;math&gt;\min_{\beta} \, (\mathbf{y} - \mathbf{X} \beta)^\mathsf{T}(\mathbf{y} - \mathbf{X} \beta) + \lambda (\beta^\mathsf{T}\beta - c)&lt;/math&gt;
+where &lt;math&gt;\lambda&lt;/math&gt; is the [[Lagrange multiplier]] of the constraint. The minimizer of the problem is the simple ridge estimator
+:&lt;math&gt;\hat{\beta}_{R} = (\mathbf{X}^{\mathsf{T}} \mathbf{X} + \lambda \mathbf{I})^{-1} \mathbf{X}^{\mathsf{T}} \mathbf{y}&lt;/math&gt;
+where &lt;math&gt;\mathbf{I}&lt;/math&gt; is the [[identity matrix]] and the ridge parameter &lt;math&gt;\lambda&lt;/math&gt; serves as the positive constant shifting the diagonals,&lt;ref&gt;For the choice of &lt;math&gt;\lambda&lt;/math&gt; in practice, see {{cite journal |first=Ghadban |last=Khalaf |first2=Ghazi |last2=Shukur |title=Choosing Ridge Parameter for Regression Problems |journal=[[Communications in Statistics – Theory and Methods]] |volume=34 |year=2005 |issue=5 |pages=1177–1182 |doi=10.1081/STA-200056836 }}&lt;/ref&gt; thereby decreasing the [[condition number]] of the moment matrix. A more general approach to Tikhonov regularization is discussed below.
+
+==History==
+Tikhonov regularization has been invented independently in many different contexts.
+It became widely known from its application to integral equations from the work of
+[[Andrey Nikolayevich Tikhonov|Andrey Tikhonov]]&lt;ref&gt;{{Cite journal| last=Tikhonov | first=Andrey Nikolayevich | authorlink=Andrey Nikolayevich Tikhonov | year=1943 | title=Об устойчивости обратных задач |trans-title=On the stability of inverse problems | journal=[[Doklady Akademii Nauk SSSR]] | volume=39 | issue=5 | pages=195–198|url=http://a-server.math.nsc.ru/IPP/BASE_WORK/tihon_en.html}}&lt;/ref&gt;&lt;ref&gt;{{Cite journal| last=Tikhonov | first=A. N. | year=1963 | title=О решении некорректно поставленных задач и методе регуляризации | journal=Doklady Akademii Nauk SSSR | volume=151 | pages=501–504}}. Translated in {{Cite journal| journal=Soviet Mathematics | volume=4 | pages=1035–1038 | title=Solution of incorrectly formulated problems and the regularization method }}&lt;/ref&gt;&lt;ref&gt;{{Cite book| last=Tikhonov | first=A. N. |author2=V. Y. Arsenin  | year=1977 | title=Solution of Ill-posed Problems | publisher=Winston &amp; Sons | location=Washington | isbn=0-470-99124-0}}&lt;/ref&gt;&lt;ref&gt;{{cite book |last1=Tikhonov |first1=Andrey Nikolayevich |last2=Goncharsky |first2=A. |last3=Stepanov |first3=V. V. |last4=Yagola |first4=Anatolij Grigorevic |title=Numerical Methods for the Solution of Ill-Posed Problems |date=30 June 1995 |publisher=Springer Netherlands |location=Netherlands |isbn=079233583X |url=https://www.springer.com/us/book/9780792335832 |accessdate=9 August 2018 |ref=TikhonovSpringer1995Numerical}}&lt;/ref&gt;&lt;ref&gt;{{cite book |last1=Tikhonov |first1=Andrey Nikolaevich |last2=Leonov |first2=Aleksandr S. |last3=Yagola |first3=Anatolij Grigorevic |title=Nonlinear ill-posed problems |date=1998 |publisher=Chapman &amp; Hall |location=London |isbn=0412786605 |url=https://www.springer.com/us/book/9789401751698 |accessdate=9 August 2018 |ref=TikhonovChapmanHall1998Nonlinear}}&lt;/ref&gt; and David L. Phillips.&lt;ref&gt;{{Cite journal | last1 = Phillips | first1 = D. L. | doi = 10.1145/321105.321114 | title = A Technique for the Numerical Solution of Certain Integral Equations of the First Kind | journal = Journal of the ACM | volume = 9 | pages = 84–97 | year = 1962 | pmid =  | pmc = }}&lt;/ref&gt; Some authors use the term '''Tikhonov–Phillips regularization'''.
+The finite-dimensional case was expounded by [[Arthur E. Hoerl]], who took a statistical approach,&lt;ref&gt;{{cite journal |last1=Hoerl |first1=Arthur E. |title=Application of Ridge Analysis to Regression Problems |journal=Chemical Engineering Progress |date=1962 |volume=58 |issue=3 |pages=54–59 |ref=AEHoerl1962V58I3}}&lt;/ref&gt; and by Manus Foster, who interpreted this method as a [[Kriging|Wiener–Kolmogorov (Kriging)]] filter.&lt;ref&gt;{{Cite journal | last1 = Foster | first1 = M. | title = An Application of the Wiener-Kolmogorov Smoothing Theory to Matrix Inversion | doi = 10.1137/0109031 | journal = Journal of the Society for Industrial and Applied Mathematics | volume = 9 | issue = 3 | pages = 387–392 | year = 1961 | pmid =  | pmc = }}&lt;/ref&gt; Following Hoerl, it is known in the statistical literature as ridge regression.&lt;ref&gt;{{cite journal | last = Hoerl | first = A. E. |author2=R. W. Kennard | year = 1970 | title=Ridge regression: Biased estimation for nonorthogonal problems | journal=Technometrics | volume=12 | issue=1 | pages = 55–67 | doi=10.1080/00401706.1970.10488634}}&lt;/ref&gt;
+
+== Tikhonov regularization ==
+Suppose that for a known matrix &lt;math&gt;A&lt;/math&gt; and vector &lt;math&gt;\mathbf{b}&lt;/math&gt;, we wish to find a vector &lt;math&gt;\mathbf{x}&lt;/math&gt; such that{{Clarify|reason=what are the relative dimensions of A, b and x/ is A a square or non-square matrix?; are x and y of the same dimension|date=May 2020}}
+: &lt;math&gt;A\mathbf{x} = \mathbf{b}.&lt;/math&gt;
+The standard approach is [[ordinary least squares]] linear regression.{{Clarify|reason=does this represent a system of linear equations (i.e. are x and b both of the same dimension as one side of the - supposedly square - matrix? then, as far as I know, the standard approach for solving it is any of a wide range of solvers ''not'' including linear regression|date=May 2020}} However, if no &lt;math&gt;\mathbf{x}&lt;/math&gt; satisfies the equation or more than one &lt;math&gt;\mathbf{x}&lt;/math&gt; does—that is, the solution is not unique—the problem is said to be [[Well-posed problem|ill posed]]. In such cases, ordinary least squares estimation leads to an [[Overdetermined system|overdetermined]], or more often an [[Underdetermined system|underdetermined]] system of equations.  Most real-world phenomena have the effect of [[low-pass filters]] in the forward direction where &lt;math&gt;A&lt;/math&gt; maps &lt;math&gt;\mathbf{x}&lt;/math&gt; to &lt;math&gt;\mathbf{b}&lt;/math&gt;.  Therefore, in solving the inverse-problem, the inverse mapping operates as a [[high-pass filter]] that has the undesirable tendency of amplifying noise ([[eigenvalues]] / singular values are largest in the reverse mapping where they were smallest in the forward mapping).  In addition, ordinary least squares implicitly nullifies every element of the reconstructed version of &lt;math&gt;\mathbf{x}&lt;/math&gt; that is in the null-space of &lt;math&gt;A&lt;/math&gt;, rather than allowing for a model to be used as a prior for &lt;math&gt;\mathbf{x}&lt;/math&gt;.
+Ordinary least squares seeks to minimize the sum of squared [[Residual (numerical analysis)|residuals]], which can be compactly written as
+: &lt;math&gt;\|A\mathbf{x} - \mathbf{b}\|_2^2,&lt;/math&gt;
+where &lt;math&gt;\|\cdot\|_2&lt;/math&gt; is the [[Norm (mathematics)#Euclidean norm|Euclidean norm]].
+
+In order to give preference to a particular solution with desirable properties, a regularization term can be included in this minimization:
+: &lt;math&gt;\|A\mathbf{x} - \mathbf{b}\|_2^2 + \|\Gamma \mathbf{x}\|_2^2&lt;/math&gt;
+for some suitably chosen '''Tikhonov matrix''' &lt;math&gt;\Gamma &lt;/math&gt;. In many cases, this matrix is chosen as a multiple of the [[identity matrix]] (&lt;math&gt;\Gamma = \alpha I&lt;/math&gt;), giving preference to solutions with smaller [[Norm (mathematics)|norms]]; this is known as '''{{math|''L''&lt;sub&gt;2&lt;/sub&gt;}} regularization'''.&lt;ref&gt;{{cite conference |first=Andrew Y. |last=Ng |authorlink=Andrew Ng |year=2004 |title=Feature selection, L1 vs. L2 regularization, and rotational invariance |conference=Proc. [[International Conference on Machine Learning|ICML]] |url=https://icml.cc/Conferences/2004/proceedings/papers/354.pdf}}&lt;/ref&gt; In other cases, high-pass operators (e.g., a [[difference operator]] or a weighted [[discrete fourier transform|Fourier operator]]) may be used to enforce smoothness if the underlying vector is believed to be mostly continuous.
+This regularization improves the conditioning of the problem, thus enabling a direct numerical solution. An explicit solution, denoted by &lt;math&gt;\hat{x}&lt;/math&gt;, is given by
+: &lt;math&gt;\hat{x} = (A^\top A + \Gamma^\top \Gamma)^{-1} A^\top \mathbf{b}.&lt;/math&gt;
+The effect of regularization may be varied by the scale of matrix &lt;math&gt;\Gamma&lt;/math&gt;. For &lt;math&gt;\Gamma = 0&lt;/math&gt; this reduces to the unregularized least-squares solution, provided that (A&lt;sup&gt;T&lt;/sup&gt;A)&lt;sup&gt;−1&lt;/sup&gt; exists.
+
+{{math|''L''&lt;sub&gt;2&lt;/sub&gt;}} regularization is used in many contexts aside from linear regression, such as [[Statistical classification|classification]] with [[logistic regression]] or [[support vector machine]]s,&lt;ref&gt;{{cite journal |author1=R.-E. Fan |author2=K.-W. Chang |author3=C.-J. Hsieh |author4=X.-R. Wang |author5=C.-J. Lin |title=LIBLINEAR: A library for large linear classification |journal=[[Journal of Machine Learning Research]] |volume=9 |pages=1871–1874 |year=2008}}&lt;/ref&gt; and matrix factorization.&lt;ref&gt;{{cite journal |last1=Guan |first1=Naiyang |first2=Dacheng |last2=Tao |first3=Zhigang |last3=Luo |first4=Bo |last4=Yuan |title=Online nonnegative matrix factorization with robust stochastic approximation |journal=IEEE Transactions on Neural Networks and Learning Systems |volume=23 |issue=7 |year=2012 |pages=1087–1099|doi=10.1109/TNNLS.2012.2197827 |pmid=24807135 }}&lt;/ref&gt;
+
+===Generalized Tikhonov regularization===
+For general multivariate normal distributions for &lt;math&gt;x&lt;/math&gt; and the data error, one can apply a transformation of the variables to reduce to the case above. Equivalently, one can seek an &lt;math&gt;x&lt;/math&gt; to minimize
+
+: &lt;math&gt;\|Ax - b\|_P^2 + \|x - x_0\|_Q^2,&lt;/math&gt;
+
+where we have used &lt;math&gt;\|x\|_Q^2&lt;/math&gt; to stand for the weighted norm squared &lt;math&gt;x^\top Q x&lt;/math&gt; (compare with the [[Mahalanobis distance]]). In the Bayesian interpretation &lt;math&gt;P&lt;/math&gt; is the inverse [[covariance matrix]] of &lt;math&gt;b&lt;/math&gt;, &lt;math&gt;x_0&lt;/math&gt; is the [[expected value]] of &lt;math&gt;x&lt;/math&gt;, and &lt;math&gt;Q&lt;/math&gt; is the inverse covariance matrix of &lt;math&gt;x&lt;/math&gt;. The Tikhonov matrix is then given as a factorization of the matrix &lt;math&gt;Q = \Gamma^\top \Gamma&lt;/math&gt; (e.g. the [[Cholesky factorization]]) and is considered a [[Whitening transformation|whitening filter]].
+
+This generalized problem has an optimal solution &lt;math&gt;x^*&lt;/math&gt; which can be written explicitly using the formula
+
+: &lt;math&gt;x^* = (A^\top PA + Q)^{-1} (A^\top Pb + Qx_0),&lt;/math&gt;
+
+or equivalently
+
+: &lt;math&gt;x^* = x_0 + (A^\top PA + Q)^{-1} (A^\top P(b - Ax_0)).&lt;/math&gt;
+
+==Lavrentyev regularization==
+In some situations, one can avoid using the transpose &lt;math&gt;A^\top&lt;/math&gt;, as proposed by [[Mikhail Lavrentyev]].&lt;ref&gt;{{cite book |first=M. M. |last=Lavrentiev |title=Some Improperly Posed Problems of Mathematical Physics |publisher=Springer |location=New York |year=1967 }}&lt;/ref&gt; For example, if &lt;math&gt;A&lt;/math&gt; is symmetric positive definite, i.e. &lt;math&gt;A = A^\top &gt; 0&lt;/math&gt;, so is its inverse &lt;math&gt;A^{-1}&lt;/math&gt;, which can thus be used to set up the weighted norm squared &lt;math&gt;\|x\|_P^2  = x^\top A^{-1} x&lt;/math&gt; in the generalized Tikhonov regularization, leading to minimizing  
+: &lt;math&gt;\|Ax - b\|_{A^{-1}}^2 + \|x - x_0\|_Q^2&lt;/math&gt;
+or, equivalently up to a constant term,
+: &lt;math&gt;x^\top (A+Q)x - 2 x^\top (b + Qx)&lt;/math&gt;.
+
+This minimization problem has an optimal solution &lt;math&gt;x^*&lt;/math&gt; which can be written explicitly using the formula
+
+: &lt;math&gt;x^* = (A + Q)^{-1} (b + Qx_0)&lt;/math&gt;,
+
+which is nothing but the solution of the generalized Tikhonov problem where &lt;math&gt;A = A^\top =P^{-1}.&lt;/math&gt;
+
+The Lavrentyev regularization, if applicable, is advantageous to the original Tikhonov regularization, since the Lavrentyev matrix &lt;math&gt;A + Q&lt;/math&gt; can be better conditioned, i.e., have a smaller [[condition number]], compared to the Tikhonov matrix &lt;math&gt;A^\top A + \Gamma^\top \Gamma.&lt;/math&gt;
+
+==Regularization in Hilbert space==
+Typically discrete linear ill-conditioned problems result from discretization of [[integral equation]]s, and one can formulate a Tikhonov regularization in the original infinite-dimensional context. In the above we can interpret &lt;math&gt;A&lt;/math&gt; as a [[compact operator]] on [[Hilbert space]]s, and &lt;math&gt;x&lt;/math&gt; and &lt;math&gt;b&lt;/math&gt; as elements in the domain and range of &lt;math&gt;A&lt;/math&gt;. The operator &lt;math&gt;A^* A + \Gamma^\top \Gamma &lt;/math&gt; is then a [[Hermitian adjoint|self-adjoint]] bounded invertible operator.
+
+==Relation to singular-value decomposition and Wiener filter==
+With &lt;math&gt;\Gamma = \alpha I&lt;/math&gt;, this least-squares solution can be analyzed in a special way using the [[singular-value decomposition]]. Given the singular value decomposition
+
+:&lt;math&gt;A = U \Sigma V^\top&lt;/math&gt;
+
+with singular values &lt;math&gt;\sigma _i&lt;/math&gt;, the Tikhonov regularized solution can be expressed as
+
+:&lt;math&gt;\hat{x} = V D U^\top b,&lt;/math&gt;
+
+where &lt;math&gt;D&lt;/math&gt; has diagonal values
+
+:&lt;math&gt;D_{ii} = \frac{\sigma_i}{\sigma_i^2 + \alpha^2}&lt;/math&gt;
+
+and is zero elsewhere. This demonstrates the effect of the Tikhonov parameter on the [[condition number]] of the regularized problem. For the generalized case, a similar representation can be derived using a [[generalized singular-value decomposition]].&lt;ref name="Hansen_SIAM_1998"&gt;{{cite book |last1=Hansen |first1=Per Christian |title=Rank-Deficient and Discrete Ill-Posed Problems: Numerical Aspects of Linear Inversion |date=Jan 1, 1998 |publisher=SIAM |location=Philadelphia, USA |isbn=9780898714036 |edition=1st }}&lt;/ref&gt;
+
+Finally, it is related to the [[Wiener filter]]:
+
+:&lt;math&gt;\hat{x} = \sum _{i=1}^q f_i \frac{u_i^\top b}{\sigma_i} v_i,&lt;/math&gt;
+
+where the Wiener weights are &lt;math&gt;f_i = \frac{\sigma _i^2}{\sigma_i^2 + \alpha^2}&lt;/math&gt; and &lt;math&gt;q&lt;/math&gt; is the [[Rank (linear algebra)|rank]] of &lt;math&gt;A&lt;/math&gt;.
+
+==Determination of the Tikhonov factor==
+The optimal regularization parameter &lt;math&gt;\alpha&lt;/math&gt; is usually unknown and often in practical problems is determined by an ''ad hoc'' method. A possible approach relies on the Bayesian interpretation described below. Other approaches include the [[discrepancy principle]], [[cross-validation (statistics)|cross-validation]], [[L-curve method]],&lt;ref&gt;P. C. Hansen, "The L-curve and its use in the
+numerical treatment of inverse problems", [https://www.sintef.no/globalassets/project/evitameeting/2005/lcurve.pdf]&lt;/ref&gt; [[restricted maximum likelihood]] and [[unbiased predictive risk estimator]]. [[Grace Wahba]] proved that the optimal parameter, in the sense of [[cross-validation (statistics)#Leave-one-out cross-validation|leave-one-out cross-validation]] minimizes&lt;ref&gt;{{cite journal |last=Wahba |first=G. |year=1990 |title=Spline Models for Observational Data |journal=CBMS-NSF Regional Conference Series in Applied Mathematics |publisher=Society for Industrial and Applied Mathematics |bibcode=1990smod.conf.....W }}&lt;/ref&gt;&lt;ref&gt;{{cite journal |last3=Wahba |first3=G. |first=G. |last=Golub |first2=M. |last2=Heath |year=1979 |title=Generalized cross-validation as a method for choosing a good ridge parameter |journal=Technometrics |volume=21 |issue=2 |pages=215–223 |url=http://www.stat.wisc.edu/~wahba/ftp1/oldie/golub.heath.wahba.pdf |doi=10.1080/00401706.1979.10489751}}&lt;/ref&gt;
+
+:&lt;math&gt;G = \frac{\operatorname{RSS}}{\tau^2} = \frac{\|X \hat{\beta} - y\|^2}{[\operatorname{Tr}(I - X(X^T X + \alpha^2 I)^{-1} X^T)]^2},&lt;/math&gt;
+
+where &lt;math&gt;\operatorname{RSS}&lt;/math&gt; is the [[residual sum of squares]], and &lt;math&gt;\tau&lt;/math&gt; is the [[effective number of degrees of freedom]].
+
+Using the previous SVD decomposition, we can simplify the above expression:
+:&lt;math&gt;\operatorname{RSS} = \left\| y - \sum_{i=1}^q (u_i' b) u_i \right\|^2 + \left\| \sum _{i=1}^q \frac{\alpha^2}{\sigma_i^2 + \alpha^2} (u_i' b) u_i \right\|^2,&lt;/math&gt;
+
+:&lt;math&gt;\operatorname{RSS} = \operatorname{RSS}_0 + \left\| \sum_{i=1}^q \frac{\alpha^2}{\sigma_i^2 + \alpha^2} (u_i' b) u_i \right\|^2,&lt;/math&gt;
+
+and
+
+:&lt;math&gt;\tau = m - \sum_{i=1}^q \frac{\sigma_i^2}{\sigma_i^2 + \alpha^2}
+= m - q + \sum_{i=1}^q \frac{\alpha^2}{\sigma _i^2 + \alpha^2}.&lt;/math&gt;
+
+==Relation to probabilistic formulation==
+The probabilistic formulation of an [[inverse problem]] introduces (when all uncertainties are Gaussian) a covariance matrix &lt;math&gt; C_M&lt;/math&gt; representing the ''a priori'' uncertainties on the model parameters, and a covariance matrix &lt;math&gt; C_D&lt;/math&gt; representing the uncertainties on the observed parameters.&lt;ref&gt;{{cite book |last1=Tarantola |first1=Albert |title=Inverse Problem Theory and Methods for Model Parameter Estimation |date=2005 |publisher=Society for Industrial and Applied Mathematics (SIAM) |location=Philadelphia |isbn=0898717922 |edition=1st |url=http://www.ipgp.jussieu.fr/~tarantola/Files/Professional/SIAM/index.html |accessdate=9 August 2018 |ref=ATarantolaSIAM2004}}&lt;/ref&gt; In the special case when these two matrices are diagonal and isotropic, &lt;math&gt; C_M = \sigma_M^2 I &lt;/math&gt; and &lt;math&gt; C_D = \sigma_D^2 I &lt;/math&gt;, and, in this case, the equations of inverse theory reduce to the equations above, with &lt;math&gt; \alpha = {\sigma_D}/{\sigma_M} &lt;/math&gt;.
+
+==Bayesian interpretation==
+{{main|Bayesian interpretation of regularization}}
+{{further|Minimum mean square error#Linear MMSE estimator for linear observation process}}
+Although at first the choice of the solution to this regularized problem may look artificial, and indeed the matrix &lt;math&gt;\Gamma&lt;/math&gt; seems rather arbitrary, the process can be justified from a [[Bayesian probability|Bayesian point of view]]. Note that for an ill-posed problem one must necessarily introduce some additional assumptions in order to get a unique solution. Statistically, the [[prior probability]] distribution of &lt;math&gt;x&lt;/math&gt; is sometimes taken to be a [[multivariate normal distribution]]. For simplicity here, the following assumptions are made: the means are zero; their components are independent; the components have the same [[standard deviation]] &lt;math&gt;\sigma _x&lt;/math&gt;. The data are also subject to errors, and the errors in &lt;math&gt;b&lt;/math&gt; are also assumed to be [[statistical independence|independent]] with zero mean and standard deviation &lt;math&gt;\sigma _b&lt;/math&gt;. Under these assumptions the Tikhonov-regularized solution is the [[maximum a posteriori|most probable]] solution given the data and the ''a priori'' distribution of &lt;math&gt;x&lt;/math&gt;, according to [[Bayes' theorem]].&lt;ref&gt;{{cite book |author=Vogel, Curtis R. |title=Computational methods for inverse problems |publisher=Society for Industrial and Applied Mathematics |location=Philadelphia |year=2002 |pages= |isbn=0-89871-550-4 |oclc= |doi= |accessdate=}}&lt;/ref&gt;
+
+If the assumption of [[normal distribution|normality]] is replaced by assumptions of [[homoscedasticity]] and uncorrelatedness of [[errors and residuals in statistics|errors]], and if one still assumes zero mean, then the [[Gauss–Markov theorem]] entails that the solution is the minimal [[Bias of an estimator|unbiased estimator]].&lt;ref&gt;{{cite book |last=Amemiya |first=Takeshi |authorlink=Takeshi Amemiya |year=1985 |title=Advanced Econometrics |location= |publisher=Harvard University Press |pages=[https://archive.org/details/advancedeconomet00amem/page/60 60–61] |isbn=0-674-00560-0 |url-access=registration |url=https://archive.org/details/advancedeconomet00amem/page/60 }}&lt;/ref&gt;
+
+==See also==
+* [[Lasso (statistics)|LASSO estimator]] is another regularization method in statistics.
+* [[Elastic net regularization]]
+* [[Matrix regularization]]
+
+==Notes==
+{{notelist}}
+
+==References==
+{{Reflist}}
+
+==Further reading==
+*{{cite book |first=Marvin |last=Gruber |title=Improving Efficiency by Shrinkage: The James–Stein and Ridge Regression Estimators |location=Boca Raton |publisher=CRC Press |year=1998 |isbn=0-8247-0156-9 |url=https://books.google.com/books?id=wmA_R3ZFrXYC }}
+* {{cite book |last=Kress |first=Rainer |title=Numerical Analysis |location=New York |publisher=Springer |edition= |year=1998 |isbn=0-387-98408-9 |pages=86–90 |chapter=Tikhonov Regularization |chapterurl=https://books.google.com/books?id=Jv_ZBwAAQBAJ&amp;pg=PA86 }}
+* {{Cite book | last1=Press | first1=W. H. | last2=Teukolsky | first2=S. A. | last3=Vetterling | first3=W. T. | last4=Flannery | first4=B. P. | year=2007 | title=Numerical Recipes: The Art of Scientific Computing | edition=3rd | publisher=Cambridge University Press |  location=New York | isbn=978-0-521-88068-8 | chapter=Section 19.5. Linear Regularization Methods | chapter-url=http://apps.nrbook.com/empanel/index.html#pg=1006}}
+* {{cite book |first=A. K. Md. Ehsanes |last=Saleh |first2=Mohammad |last2=Arashi |first3=B. M. Golam |last3=Kibria |title=Theory of Ridge Regression Estimation with Applications |location=New York |publisher=John Wiley &amp; Sons |year=2019 |isbn=978-1-118-64461-4 |url=https://books.google.com/books?id=v0KCDwAAQBAJ }}
+* {{cite book |first=Matt |last=Taddy |title=Business Data Science: Combining Machine Learning and Economics to Optimize, Automate, and Accelerate Business Decisions |chapter=Regularization |pages=69–104 |location=New York |publisher=McGraw-Hill |year=2019 |isbn=978-1-260-45277-8 |chapterurl=https://books.google.com/books?id=yPOUDwAAQBAJ&amp;pg=PA69 }}
+
+{{Least_squares_and_regression_analysis}}
+
+[[Category:Linear algebra]]
+[[Category:Estimation methods]]
+[[Category:Inverse problems]]</text>
+      <sha1>3ypg1rghhz5d24276n88vgqcgppdsaj</sha1>
+    </revision>
+  </page>
+</mediawiki>

@@ -1,0 +1,313 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.10/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.10/ http://www.mediawiki.org/xml/export-0.10.xsd" version="0.10" xml:lang="en">
+  <siteinfo>
+    <sitename>Wikipedia</sitename>
+    <dbname>enwiki</dbname>
+    <base>https://en.wikipedia.org/wiki/Main_Page</base>
+    <generator>MediaWiki 1.35.0-wmf.36</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Media</namespace>
+      <namespace key="-1" case="first-letter">Special</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Talk</namespace>
+      <namespace key="2" case="first-letter">User</namespace>
+      <namespace key="3" case="first-letter">User talk</namespace>
+      <namespace key="4" case="first-letter">Wikipedia</namespace>
+      <namespace key="5" case="first-letter">Wikipedia talk</namespace>
+      <namespace key="6" case="first-letter">File</namespace>
+      <namespace key="7" case="first-letter">File talk</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki talk</namespace>
+      <namespace key="10" case="first-letter">Template</namespace>
+      <namespace key="11" case="first-letter">Template talk</namespace>
+      <namespace key="12" case="first-letter">Help</namespace>
+      <namespace key="13" case="first-letter">Help talk</namespace>
+      <namespace key="14" case="first-letter">Category</namespace>
+      <namespace key="15" case="first-letter">Category talk</namespace>
+      <namespace key="100" case="first-letter">Portal</namespace>
+      <namespace key="101" case="first-letter">Portal talk</namespace>
+      <namespace key="108" case="first-letter">Book</namespace>
+      <namespace key="109" case="first-letter">Book talk</namespace>
+      <namespace key="118" case="first-letter">Draft</namespace>
+      <namespace key="119" case="first-letter">Draft talk</namespace>
+      <namespace key="446" case="first-letter">Education Program</namespace>
+      <namespace key="447" case="first-letter">Education Program talk</namespace>
+      <namespace key="710" case="first-letter">TimedText</namespace>
+      <namespace key="711" case="first-letter">TimedText talk</namespace>
+      <namespace key="828" case="first-letter">Module</namespace>
+      <namespace key="829" case="first-letter">Module talk</namespace>
+      <namespace key="2300" case="first-letter">Gadget</namespace>
+      <namespace key="2301" case="first-letter">Gadget talk</namespace>
+      <namespace key="2302" case="case-sensitive">Gadget definition</namespace>
+      <namespace key="2303" case="case-sensitive">Gadget definition talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Coefficient of determination</title>
+    <ns>0</ns>
+    <id>1500869</id>
+    <revision>
+      <id>953904846</id>
+      <parentid>953904760</parentid>
+      <timestamp>2020-04-29T17:28:31Z</timestamp>
+      <contributor>
+        <ip>101.164.129.204</ip>
+      </contributor>
+      <comment>/* Inflation of R2 */</comment>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="36701" xml:space="preserve">{{distinguish|Coefficient of variation|Coefficient of correlation}}
+{{expand German|date=September 2019|Bestimmtheitsmaß}}
+[[File:Okuns law quarterly differences.svg|300px|thumb|[[Ordinary least squares]] regression of [[Okun's law]]. Since the regression line does not miss any of the points by very much, the ''R''&lt;sup&gt;2&lt;/sup&gt; of the regression is relatively high.]]
+
+[[File:Thiel-Sen estimator.svg|thumb|Comparison of the [[Theil–Sen estimator]] (black) and [[simple linear regression]] (blue) for a set of points with [[outlier]]s. Because of the many outliers, neither of the regression lines fits the data well, as measured by the fact that neither gives a very high ''R''&lt;sup&gt;2&lt;/sup&gt;.]]
+
+In [[statistics]], the '''coefficient of determination''', denoted ''R''&lt;sup&gt;2&lt;/sup&gt; or ''r''&lt;sup&gt;2&lt;/sup&gt; and pronounced "R squared", is the proportion of the variance in the dependent variable that is predictable from the independent variable(s).
+
+It is a [[statistic]] used in the context of [[statistical model]]s whose main purpose is either the [[Prediction#Statistics|prediction]] of future outcomes or the testing of [[hypotheses]], on the basis of other related information. It provides a measure of how well observed outcomes are replicated by the model, based on the proportion of total variation of outcomes explained by the model.&lt;ref&gt;{{cite book|last=Steel|first=R. G. D.|last2=Torrie|first2=J. H.|year=1960|title=Principles and Procedures of Statistics with Special Reference to the Biological Sciences|publisher=[[McGraw Hill]]}}&lt;/ref&gt;&lt;ref&gt;{{cite book |last=Glantz |first=Stanton A. |last2=Slinker |first2=B. K. |year=1990 |title=Primer of Applied Regression and Analysis of Variance |publisher=McGraw-Hill |isbn=978-0-07-023407-9}}&lt;/ref&gt;&lt;ref&gt;{{cite book |last=Draper |first=N. R. |last2=Smith |first2=H. |year=1998 |title=Applied Regression Analysis |publisher=Wiley-Interscience |isbn=978-0-471-17082-2}}&lt;/ref&gt;
+
+There are several definitions of ''R''&lt;sup&gt;2&lt;/sup&gt; that are only sometimes equivalent. One class of such cases includes that of [[simple linear regression]] where ''r''&lt;sup&gt;2&lt;/sup&gt; is used instead of ''R''&lt;sup&gt;2&lt;/sup&gt;. When an [[regression intercept|intercept]] is included, then ''r''&lt;sup&gt;2&lt;/sup&gt; is simply the square of the sample [[Pearson product-moment correlation coefficient|correlation coefficient]] (i.e., ''r'') between the observed outcomes and the observed predictor values.&lt;ref name=Devore&gt;{{cite book |last1 = Devore|first1 = Jay L.|title = Probability and Statistics for Engineering and the Sciences| edition=8th |publisher = Cengage Learning |location = Boston, MA | year = 2011 |isbn =978-0-538-73352-6 |pages=508–510}}&lt;/ref&gt; If additional [[regressor]]s are included, ''R''&lt;sup&gt;2&lt;/sup&gt; is the square of the [[coefficient of multiple correlation]]. In both such cases, the coefficient of determination normally ranges from 0 to 1.
+
+There are cases where the computational definition of ''R''&lt;sup&gt;2&lt;/sup&gt; can yield negative values, depending on the definition used. This can arise when the predictions that are being compared to the corresponding outcomes have not been derived from a model-fitting procedure using those data. Even if a model-fitting procedure has been used, ''R''&lt;sup&gt;2&lt;/sup&gt; may still be negative, for example when linear regression is conducted without including an intercept,&lt;ref&gt;{{cite book |last=Barten |first=Anton P. |authorlink=Anton Barten |chapter=The Coeffecient of Determination for Regression without a Constant Term |editor-first=Risto |editor-last=Heijmans |editor2-first=Heinz |editor2-last=Neudecker |title=The Practice of Econometrics |location=Dordrecht |publisher=Kluwer |year=1987 |isbn=90-247-3502-5 |pages=181–189 }}
+
+&lt;/ref&gt; or when a non-linear function is used to fit the data.&lt;ref&gt;{{cite journal |doi=10.1016/S0304-4076(96)01818-0 |title=An R-squared measure of goodness of fit for some common nonlinear regression models |year=1997 |last1=Colin Cameron |first1=A. |last2=Windmeijer |first2=Frank A.G. |journal=Journal of Econometrics |volume=77 |issue=2 |pages=1790–2 }}&lt;/ref&gt; In cases where negative values arise, the mean of the data provides a better fit to the outcomes than do the fitted function values, according to this particular criterion. Since the most general definition of the coefficient of determination is also known as the [[Nash–Sutcliffe model efficiency coefficient]], this last notation is preferred in many fields, because denoting a goodness-of-fit indicator that can vary from −∞ to 1 (i.e., it can yield negative values) with a squared letter is confusing.
+
+When evaluating the goodness-of-fit of simulated (''Y''&lt;sub&gt;pred&lt;/sub&gt;) vs. measured (''Y''&lt;sub&gt;obs&lt;/sub&gt;) values, it is not appropriate to base this on the ''R''&lt;sup&gt;2&lt;/sup&gt; of the linear regression (i.e., ''Y''&lt;sub&gt;obs&lt;/sub&gt;= ''m''·''Y''&lt;sub&gt;pred&lt;/sub&gt; + b). The ''R''&lt;sup&gt;2&lt;/sup&gt; quantifies the degree of any linear correlation between ''Y''&lt;sub&gt;obs&lt;/sub&gt; and ''Y''&lt;sub&gt;pred&lt;/sub&gt;, while for the goodness-of-fit evaluation only one specific linear correlation should be taken into consideration: ''Y''&lt;sub&gt;obs&lt;/sub&gt; = 1·''Y''&lt;sub&gt;pred&lt;/sub&gt; + 0 (i.e., the 1:1 line).&lt;ref&gt;{{cite journal |doi=10.1029/1998WR900018 |title= Evaluating the use of "goodness-of-fit" measures in hydrologic and hydroclimatic model validation |year=1999 |last1= Legates |first1=D.R. |last2= McCabe |first2=G.J. |journal= Water Resour. Res. |volume=35 |issue=1 |pages=233–241 }}&lt;/ref&gt;&lt;ref&gt;{{cite journal |doi=10.1016/j.jhydrol.2012.12.004|title= Performance evaluation of hydrological models: statistical significance for reducing subjectivity in goodness-of-fit assessments |year=2013 |last1= Ritter |first1=A. |last2= Muñoz-Carpena |first2=R. |journal= Journal of Hydrology |volume=480 |issue=1 |pages=33–45 }}&lt;/ref&gt; 
+
+==Definitions==
+[[File:Coefficient of Determination.svg|thumb|400px|&lt;math&gt;R^2 = 1 - \frac{\color{blue}{SS_\text{res}}}{\color{red}{SS_\text{tot}}}&lt;/math&gt;&lt;br&gt;
+The better the linear regression (on the right) fits the data in comparison to the simple average (on the left graph), the closer the value of &lt;math&gt;R^2&lt;/math&gt; is to 1. The areas of the blue squares represent the squared residuals with respect to the linear regression. The areas of the red squares represent the squared residuals with respect to the average value.]]
+
+A data set has ''n'' values marked ''y''&lt;sub&gt;1&lt;/sub&gt;,...,''y''&lt;sub&gt;''n''&lt;/sub&gt; (collectively known as ''y''&lt;sub&gt;''i''&lt;/sub&gt; or as a vector ''y'' = [''y''&lt;sub&gt;1&lt;/sub&gt;,...,''y''&lt;sub&gt;''n''&lt;/sub&gt;]&lt;sup&gt;''T''&lt;/sup&gt;), each associated with a fitted (or modeled, or predicted) value ''f''&lt;sub&gt;1&lt;/sub&gt;,...,''f''&lt;sub&gt;''n''&lt;/sub&gt; (known as ''f''&lt;sub&gt;''i''&lt;/sub&gt;, or sometimes ''ŷ''&lt;sub&gt;''i''&lt;/sub&gt;, as a vector ''f'').
+
+Define the [[Residuals (statistics)|residuals]] as ''e''&lt;sub&gt;''i''&lt;/sub&gt; = ''y''&lt;sub&gt;''i''&lt;/sub&gt; − ''f''&lt;sub&gt;''i''&lt;/sub&gt; (forming a vector ''e'').
+
+If &lt;math&gt;\bar{y}&lt;/math&gt; is the mean of the observed data:
+
+:&lt;math&gt;\bar{y}=\frac{1}{n}\sum_{i=1}^n y_i &lt;/math&gt;
+
+then the variability of the data set can be measured using three [[Mean squared error|sums of squares]] formulas:
+
+* The [[total sum of squares]] (proportional to the [[variance]] of the data):
+:: &lt;math&gt;SS_\text{tot}=\sum_i (y_i-\bar{y})^2,&lt;/math&gt;
+* The regression sum of squares, also called the [[explained sum of squares]]:
+:: &lt;math&gt;SS_\text{reg}=\sum_i (f_i -\bar{y})^2,&lt;/math&gt;
+* The sum of squares of residuals, also called the [[residual sum of squares]]:
+:: &lt;math&gt;SS_\text{res}=\sum_i (y_i - f_i)^2=\sum_i e_i^2\,&lt;/math&gt;
+
+The most general definition of the coefficient of determination is
+
+:&lt;math&gt;R^2 \equiv 1 - {SS_{\rm res}\over SS_{\rm tot}} \,&lt;/math&gt;
+
+In the best case, the modeled values exactly match the observed values, which results in &lt;math&gt;SS_\text{res}=0&lt;/math&gt; and &lt;math&gt;R^2=1&lt;/math&gt;. A baseline model, which always predicts &lt;math&gt;\bar{y}&lt;/math&gt;, will have &lt;math&gt;R^2=0&lt;/math&gt;. Models that have worse predictions than this baseline will have a negative &lt;math&gt;R^2&lt;/math&gt;.
+
+===Relation to unexplained variance===
+{{main|Fraction of variance unexplained}}
+In a general form, ''R''&lt;sup&gt;2&lt;/sup&gt; can be seen to be related to the fraction of variance unexplained (FVU), since the second term compares the unexplained variance (variance of the model's errors) with the total variance (of the data):
+:&lt;math&gt;
+R^2 = 1 - \text{FVU}
+&lt;/math&gt;
+
+===As explained variance===
+Suppose ''R''&lt;sup&gt;2&lt;/sup&gt; = 0.49. This implies that 49% of the variability of the dependent variable has been accounted for, and the remaining 51% of the variability is still unaccounted for. 
+In some cases the [[total sum of squares]] equals the sum of the two other sums of squares defined above,
+
+:&lt;math&gt;SS_\text{res}+SS_\text{reg}=SS_\text{tot}. \,&lt;/math&gt;
+
+See [[Explained sum of squares#Partitioning in the general ordinary least squares model|Partitioning in the general OLS model]] for a derivation of this result for one case where the relation holds. When this relation does hold, the above definition of ''R''&lt;sup&gt;2&lt;/sup&gt; is equivalent to
+
+:&lt;math&gt;R^2 = \frac{SS_\text{reg}}{SS_\text{tot}} = \frac{SS_\text{reg}/n}{SS_\text{tot}/n}&lt;/math&gt;
+
+where ''n'' is the number of observations (cases) on the variables.
+
+In this form ''R''&lt;sup&gt;2&lt;/sup&gt; is expressed as the ratio of the [[explained variation|explained variance]] (variance of the model's predictions, which is ''SS''&lt;sub&gt;reg&lt;/sub&gt; / ''n'') to the total variance (sample variance of the dependent variable, which is ''SS''&lt;sub&gt;tot&lt;/sub&gt; / ''n'').
+
+This partition of the sum of squares holds for instance when the model values ''ƒ''&lt;sub&gt;''i''&lt;/sub&gt; have been obtained by [[linear regression]]. A milder [[sufficient condition]] reads as follows: The model has the form
+
+:&lt;math&gt;f_i=\widehat\alpha+\widehat\beta q_i \,&lt;/math&gt;
+
+where the ''q''&lt;sub&gt;''i''&lt;/sub&gt; are arbitrary values that may or may not depend on ''i'' or on other free parameters (the common choice ''q''&lt;sub&gt;''i''&lt;/sub&gt;&amp;nbsp;=&amp;nbsp;''x''&lt;sub&gt;''i''&lt;/sub&gt; is just one special case), and the coefficient estimates &lt;math&gt;\widehat\alpha&lt;/math&gt; and &lt;math&gt;\widehat\beta&lt;/math&gt; are obtained by minimizing the residual sum of squares.
+
+This set of conditions is an important one and it has a number of implications for the properties of the fitted [[Errors and residuals in statistics|residuals]] and the modelled values. In particular, under these conditions:
+
+:&lt;math&gt;\bar{f}=\bar{y}.\,&lt;/math&gt;
+
+===As squared correlation coefficient===
+In linear least squares [[multiple regression]] with an estimated intercept term, ''R''&lt;sup&gt;2&lt;/sup&gt; equals the square of the [[Pearson correlation coefficient]] between the observed &lt;math&gt;y&lt;/math&gt; and modeled (predicted) &lt;math&gt;f&lt;/math&gt; data values of the dependent variable.
+
+In a [[simple regression|linear least squares regression with an intercept term and a single explanator]], this is also equal to the squared Pearson correlation coefficient of the dependent variable &lt;math&gt;y&lt;/math&gt; and explanatory variable &lt;math&gt;x.&lt;/math&gt;
+
+It should not be confused with the correlation coefficient between two estimates, defined as
+	
+:&lt;math&gt;\rho_{\widehat\alpha,\widehat\beta} = {\operatorname{cov}\left(\widehat\alpha,\widehat\beta\right) \over \sigma_{\widehat\alpha} \sigma_{\widehat\beta}},&lt;/math&gt;
+	
+where the covariance between two coefficient estimates, as well as their [[standard deviation]]s, are obtained from the [[Ordinary least squares#Covariance matrix|covariance matrix]] of the coefficient estimates.
+
+Under more general modeling conditions, where the predicted values might be generated from a model different from linear least squares regression, an ''R''&lt;sup&gt;2&lt;/sup&gt; value can be calculated as the square of the [[Pearson product-moment correlation coefficient|correlation coefficient]] between the original &lt;math&gt;y&lt;/math&gt; and modeled &lt;math&gt;f&lt;/math&gt; data values. In this case, the value is not directly a measure of how good the modeled values are, but rather a measure of how good a predictor might be constructed from the modeled values (by creating a revised predictor of the form ''α''&amp;nbsp;+&amp;nbsp;''βƒ''&lt;sub&gt;''i''&lt;/sub&gt;).{{Citation needed|reason=The citation for the next sentence does not discuss the information in this sentence.|date=March 2017}} According to Everitt (p.&amp;nbsp;78),&lt;ref&gt;{{cite book |last=Everitt |first=B. S. |year=2002 |title=Cambridge Dictionary of Statistics |edition=2nd |publisher=CUP |isbn=978-0-521-81099-9}}&lt;/ref&gt; this usage is specifically the definition of the term "coefficient of determination": the square of the correlation between two (general) variables.
+
+==Interpretation==
+''R''&lt;sup&gt;2&lt;/sup&gt; is a statistic that will give some information about the [[goodness of fit]] of a model. In regression, the ''R''&lt;sup&gt;2&lt;/sup&gt; coefficient of determination is a statistical measure of how well the regression predictions approximate the real data points. An ''R''&lt;sup&gt;2&lt;/sup&gt; of 1 indicates that the regression predictions perfectly fit the data.
+
+Values of ''R''&lt;sup&gt;2&lt;/sup&gt; outside the range 0 to 1 can occur when the model fits the data worse than a horizontal hyperplane. This would occur when the wrong model was chosen, or nonsensical constraints were applied by mistake. If equation 1 of Kvålseth&lt;ref&gt;{{Cite journal|last=Kvalseth|first=Tarald O.|date=1985|title=Cautionary Note about R2|jstor=2683704|journal=The American Statistician|volume=39|issue=4|pages=279–285|doi=10.2307/2683704}}&lt;/ref&gt; is used (this is the equation used most often), ''R''&lt;sup&gt;2&lt;/sup&gt; can be less than zero. If equation 2 of Kvålseth is used, ''R''&lt;sup&gt;2&lt;/sup&gt; can be greater than one.
+
+In all instances where ''R''&lt;sup&gt;2&lt;/sup&gt; is used, the predictors are calculated by ordinary [[least-squares]] regression: that is, by minimizing ''SS''&lt;sub&gt;res&lt;/sub&gt;. In this case ''R''&lt;sup&gt;2&lt;/sup&gt; increases as we increase the number of variables in the model (''R''&lt;sup&gt;2&lt;/sup&gt; is [[Monotonic function|monotone increasing]] with the number of variables included—i.e., it will never decrease). This illustrates a drawback to one possible use of ''R''&lt;sup&gt;2&lt;/sup&gt;, where one might keep adding variables ([[Kitchen sink regression]]) to increase the ''R''&lt;sup&gt;2&lt;/sup&gt; value. For example, if one is trying to predict the sales of a model of car from the car's gas mileage, price, and engine power, one can include such irrelevant factors as the first letter of the model's name or the height of the lead engineer designing the car because the ''R''&lt;sup&gt;2&lt;/sup&gt; will never decrease as variables are added and will probably experience an increase due to chance alone.
+
+This leads to the alternative approach of looking at the [[#Adjusted R2|adjusted ''R''&lt;sup&gt;2&lt;/sup&gt;]]. The explanation of this statistic is almost the same as ''R''&lt;sup&gt;2&lt;/sup&gt; but it penalizes the statistic as extra variables are included in the model. For cases other than fitting by ordinary least squares, the ''R''&lt;sup&gt;2&lt;/sup&gt; statistic can be calculated as above and may still be a useful measure. If fitting is by [[weighted least squares]] or [[generalized least squares]], alternative versions of ''R''&lt;sup&gt;2&lt;/sup&gt; can be calculated appropriate to those statistical frameworks, while the "raw" ''R''&lt;sup&gt;2&lt;/sup&gt; may still be useful if it is more easily interpreted. Values for ''R''&lt;sup&gt;2&lt;/sup&gt; can be calculated for any type of predictive model, which need not have a statistical basis.
+
+===In a non-simple linear model===
+Consider a linear model with [[multiple regression|more than a single explanatory variable]], of the form
+
+:&lt;math&gt;Y_i = \beta_0 + \sum_{j=1}^p \beta_j X_{i,j} + \varepsilon_i,&lt;/math&gt;
+
+where, for the ''i''th case, &lt;math&gt;{Y_i}&lt;/math&gt; is the response variable, &lt;math&gt;X_{i,1},\dots,X_{i,p}&lt;/math&gt; are ''p'' regressors, and &lt;math&gt;\varepsilon_i&lt;/math&gt; is a mean zero [[errors and residuals in statistics|error]] term. The quantities &lt;math&gt;\beta_0,\dots,\beta_p&lt;/math&gt; are unknown coefficients, whose values are estimated by [[least squares]]. The coefficient of determination ''R''&lt;sup&gt;2&lt;/sup&gt; is a measure of the global fit of the model. Specifically, ''R''&lt;sup&gt;2&lt;/sup&gt; is an element of [0,&amp;nbsp;1] and represents the proportion of variability in ''Y''&lt;sub&gt;''i''&lt;/sub&gt; that may be attributed to some linear combination of the regressors ([[explanatory variable]]s) in ''X''.&lt;ref&gt;[https://www.mathworks.com/help/matlab/data_analysis/linear-regression.html#bswinlz Computing Adjusted R2 for Polynomial Regressions]&lt;/ref&gt;
+
+''R''&lt;sup&gt;2&lt;/sup&gt; is often interpreted as the proportion of response variation "explained" by the regressors in the model. Thus, ''R''&lt;sup&gt;2&lt;/sup&gt;&amp;nbsp;=&amp;nbsp;1 indicates that the fitted model explains all variability in &lt;math&gt;y&lt;/math&gt;, while ''R''&lt;sup&gt;2&lt;/sup&gt;&amp;nbsp;=&amp;nbsp;0 indicates no 'linear' relationship (for straight line regression, this means that the straight line model is a constant line (slope&amp;nbsp;=&amp;nbsp;0, intercept&amp;nbsp;=&amp;nbsp;&lt;math&gt;\bar{y}&lt;/math&gt;) between the response variable and regressors). An interior value such as ''R''&lt;sup&gt;2&lt;/sup&gt;&amp;nbsp;=&amp;nbsp;0.7 may be interpreted as follows: "Seventy percent of the variance in the response variable can be explained by the explanatory variables. The remaining thirty percent can be attributed to unknown, [[lurking variable]]s or inherent variability."
+
+A caution that applies to ''R''&lt;sup&gt;2&lt;/sup&gt;, as to other statistical descriptions of [[correlation]] and association is that "[[correlation does not imply causation]]." In other words, while correlations may sometimes provide valuable clues in uncovering causal relationships among variables, a non-zero estimated correlation between two variables is not, on its own, evidence that changing the value of one variable would result in changes in the values of other variables. For example, the practice of carrying matches (or a lighter) is correlated with incidence of lung cancer, but carrying matches does not cause cancer (in the standard sense of "cause").
+
+In case of a single regressor, fitted by least squares, ''R''&lt;sup&gt;2&lt;/sup&gt; is the square of the [[Pearson product-moment correlation coefficient]] relating the regressor and the response variable. More generally, ''R''&lt;sup&gt;2&lt;/sup&gt; is the square of the correlation between the constructed predictor and the response variable. With more than one regressor, the ''R''&lt;sup&gt;2&lt;/sup&gt; can be referred to as the [[coefficient of multiple determination]].
+
+===Inflation of ''R''&lt;sup&gt;2&lt;/sup&gt;===
+In [[least squares]] regression using typical data, ''R''&lt;sup&gt;2&lt;/sup&gt; is at least weakly increasing with increases in the number of regressors in the model. Because increases in the number of regressors increase the value of ''R''&lt;sup&gt;2&lt;/sup&gt;, ''R''&lt;sup&gt;2&lt;/sup&gt; alone cannot be used as a meaningful comparison of models with very different numbers of independent variables. For a meaningful comparison between two models, an [[F-test]] can be performed on the [[residual sum of squares]], similar to the F-tests in [[Granger causality]], though this is not always appropriate. As a reminder of this, some authors denote ''R''&lt;sup&gt;2&lt;/sup&gt; by ''R''&lt;sub&gt;''q''&lt;/sub&gt;&lt;sup&gt;2&lt;/sup&gt;, where ''q'' is the number of columns in ''X'' (the number of explanators including the constant).
+
+To demonstrate this property, first recall that the objective of least squares linear regression is
+
+:&lt;math&gt;\min_b SS_\text{res}(b) \Rightarrow \min_b \sum_i (y_i - X_ib)^2\,&lt;/math&gt;
+
+where ''X&lt;sub&gt;i&lt;/sub&gt;'' is a row vector of values of explanatory variables for case ''i'' and ''b'' is a column vector of coefficients of the respective elements of ''X&lt;sub&gt;i&lt;/sub&gt;''.
+
+The optimal value of the objective is weakly smaller as more explanatory variables are added and hence additional columns of &lt;math&gt;X&lt;/math&gt; (the explanatory data matrix whose ''i''th row is ''X&lt;sub&gt;i&lt;/sub&gt;'') are added, by the fact that less constrained minimization leads to an optimal cost which is weakly smaller than more constrained minimization does. Given the previous conclusion and noting that &lt;math&gt;SS_{tot}&lt;/math&gt; depends only on ''y'', the non-decreasing property of ''R''&lt;sup&gt;2&lt;/sup&gt; follows directly from the definition above.
+
+The intuitive reason that using an additional explanatory variable cannot lower the ''R''&lt;sup&gt;2&lt;/sup&gt; is this: Minimizing &lt;math&gt;SS_\text{res}&lt;/math&gt; is equivalent to maximizing ''R''&lt;sup&gt;2&lt;/sup&gt;. When the extra variable is included, the data always have the option of giving it an estimated coefficient of zero, leaving the predicted values and the ''R''&lt;sup&gt;2&lt;/sup&gt; unchanged. The only way that the optimization problem will give a non-zero coefficient is if doing so improves the ''R''&lt;sup&gt;2&lt;/sup&gt;.
+
+===Caveats===
+''R''&lt;sup&gt;2&lt;/sup&gt; does not indicate whether:
+* the independent variables are a cause of the changes in the [[dependent variable]];
+* [[omitted-variable bias]] exists;
+* the correct [[regression analysis|regression]] was used;
+* the most appropriate set of independent variables has been chosen;
+* there is [[Multicollinearity|collinearity]] present in the data on the explanatory variables;
+* the model might be improved by using transformed versions of the existing set of independent variables;
+* there are enough data points to make a solid conclusion.
+
+==Extensions==
+===Adjusted ''R''&lt;sup&gt;2&lt;/sup&gt;===
+{{see also|Effect size#Omega-squared (ω2){{!}}Omega-squared (ω&lt;sup&gt;2&lt;/sup&gt;)}}
+The use of an adjusted ''R''&lt;sup&gt;2&lt;/sup&gt; (one common notation is &lt;math&gt;\bar R^2&lt;/math&gt;, pronounced "R bar squared"; another is &lt;math&gt;R^2_{\text{adj}}&lt;/math&gt;) is an attempt to account for the phenomenon of the ''R''&lt;sup&gt;2&lt;/sup&gt; automatically and spuriously increasing when extra explanatory variables are added to the model. Originated by [[Henri Theil]], it is a modification of ''R''&lt;sup&gt;2&lt;/sup&gt; that adjusts for the number of [[explanatory variable|explanatory]] terms in a model (&lt;math&gt;p&lt;/math&gt;) relative to the number of data points (&lt;math&gt;n&lt;/math&gt;).&lt;ref&gt;{{cite book | title=Economic Forecasts and Policy | publisher=North | author=Theil, Henri | year=1961 | location=Holland, Amsterdam | page=213}}&lt;/ref&gt; 
+The adjusted ''R''&lt;sup&gt;2&lt;/sup&gt; is defined as
+
+:&lt;math&gt;\bar R^2 = 1-(1-R^2){n-1 \over n-p-1}&lt;/math&gt;
+
+where ''p'' is the total number of explanatory variables in the model (not including the constant term), and ''n'' is the sample size.
+It can also be written as:
+
+:&lt;math&gt;\bar R^2 = {1-{SS_\text{res}/\text{df}_e \over SS_\text{tot}/\text{df}_t}}&lt;/math&gt;
+
+where df&lt;sub&gt;''t''&lt;/sub&gt; is the [[Degrees of freedom (statistics)|degrees of freedom]] ''n''&amp;nbsp;–&amp;nbsp;1 of the estimate of the population variance of the dependent variable, and df&lt;sub&gt;''e''&lt;/sub&gt; is the degrees of freedom ''n''&amp;nbsp;–&amp;nbsp;''p''&amp;nbsp;–&amp;nbsp;1 of the estimate of the underlying population error variance.
+
+The adjusted ''R''&lt;sup&gt;2&lt;/sup&gt; can be negative, and its value will always be less than or equal to that of ''R''&lt;sup&gt;2&lt;/sup&gt;. Unlike ''R''&lt;sup&gt;2&lt;/sup&gt;, the adjusted ''R''&lt;sup&gt;2&lt;/sup&gt; increases only when the increase in ''R''&lt;sup&gt;2&lt;/sup&gt; (due to the inclusion of a new explanatory variable) is more than one would expect to see by chance. If a set of explanatory variables with a predetermined hierarchy of importance are introduced into a regression one at a time, with the adjusted ''R''&lt;sup&gt;2&lt;/sup&gt; computed each time, the level at which adjusted ''R''&lt;sup&gt;2&lt;/sup&gt; reaches a maximum, and decreases afterward, would be the regression with the ideal combination of having the best fit without excess/unnecessary terms.
+
+Adjusted ''R''&lt;sup&gt;2&lt;/sup&gt; can be interpreted as an unbiased (or less biased) estimator of the population ''R''&lt;sup&gt;2&lt;/sup&gt;, whereas the observed sample ''R''&lt;sup&gt;2&lt;/sup&gt; is a positively biased estimate of the population value.&lt;ref name=":0"&gt;{{Cite journal|last=Shieh|first=Gwowen|date=2008-04-01|title=Improved shrinkage estimation of squared multiple correlation coefficient and squared cross-validity coefficient|journal=Organizational Research Methods|volume=11|issue=2|pages=387–407|doi=10.1177/1094428106292901|issn=1094-4281}}&lt;/ref&gt; Adjusted ''R''&lt;sup&gt;2&lt;/sup&gt; is more appropriate when evaluating model fit (the variance in the dependent variable accounted for by the independent variables) and in comparing alternative models in the [[feature selection]] stage of model building.&lt;ref name=":0" /&gt;
+
+The principle behind the adjusted ''R''&lt;sup&gt;2&lt;/sup&gt; statistic can be seen by rewriting the ordinary ''R''&lt;sup&gt;2&lt;/sup&gt; as
+
+:&lt;math&gt;R^2 = {1-{\textit{VAR}_\text{res} \over \textit{VAR}_\text{tot}}}&lt;/math&gt;
+
+where &lt;math&gt;\text{VAR}_\text{res} = SS_\text{res}/n&lt;/math&gt; and &lt;math&gt;\text{VAR}_\text{tot} = SS_\text{tot}/n&lt;/math&gt; are the sample variances of the estimated residuals and the dependent variable respectively, which can be seen as biased estimates of the population variances of the errors and of the dependent variable. These estimates are replaced by statistically [[Bias of an estimator#Sample variance|unbiased]] versions: &lt;math&gt;\text{VAR}_\text{res} = SS_\text{res}/(n-p-1)&lt;/math&gt; and &lt;math&gt;\text{VAR}_\text{tot} = SS_\text{tot}/(n-1)&lt;/math&gt;.
+
+===Coefficient of partial determination===
+{{see also|Partial correlation}}
+
+The coefficient of partial determination can be defined as the proportion of variation that cannot be explained in a reduced model, but can be explained by the predictors specified in a full(er) model.&lt;ref&gt;Richard Anderson-Sprecher, "[http://www.tandfonline.com/doi/abs/10.1080/00031305.1994.10476036 Model Comparisons and ''R''&lt;sup&gt;2&lt;/sup&gt;]", ''[[The American Statistician]]'', Volume 48, Issue 2, 1994, pp. 113–117.&lt;/ref&gt;&lt;ref&gt;(generalized to [[Maximum Likelihood]]) N. J. D. Nagelkerke, "[http://www.cesarzamudio.com/uploads/1/7/9/1/17916581/nagelkerke_n.j.d._1991_-_a_note_on_a_general_definition_of_the_coefficient_of_determination.pdf A Note on a General Definition of the Coefficient of Determination]", ''[[Biometrika]]'', Vol. 78, No. 3. (Sep., 1991), pp. 691–692.&lt;/ref&gt;&lt;ref&gt;[https://stats.stackexchange.com/q/7775 "R implementation of coefficient of partial determination"]&lt;/ref&gt; This coefficient is used to provide insight into whether or not one or more additional predictors may be useful in a more fully specified regression model.
+
+The calculation for the partial ''R''&lt;sup&gt;2&lt;/sup&gt; is relatively straightforward after estimating two models and generating the [[ANOVA]] tables for them. The calculation for the partial ''R''&lt;sup&gt;2&lt;/sup&gt; is
+
+:&lt;math&gt;\frac{SS_\text{ res, reduced} - SS_\text{ res, full}}{SS_\text{ res, reduced}},&lt;/math&gt;
+
+which is analogous to the usual coefficient of determination:
+
+:&lt;math&gt;\frac{SS_\text{tot} - SS_\text{res}}{SS_\text{tot}}.&lt;/math&gt;
+
+=== Generalizing and decomposing ''R''&lt;sup&gt;2&lt;/sup&gt; &lt;ref name="Hoornweg2018SUS"&gt;{{cite book |last1=Hoornweg |first1=Victor |title=Science: Under Submission | chapter=Part II: On Keeping Parameters Fixed | date=2018 |publisher=Hoornweg Press |isbn=978-90-829188-0-9 |chapter-url=http://www.victorhoornweg.com}}&lt;/ref&gt;=== 
+
+As explained above, model selection heuristics such as the Adjusted &lt;math&gt;R^2&lt;/math&gt; criterion and the [[F-test]] examine whether the total &lt;math&gt;R^2&lt;/math&gt; sufficiently increases to determine if a new regressor should be added to the model. If a regressor is added to the model that is highly correlated with other regressors which have already been included, then the total &lt;math&gt;R^2&lt;/math&gt; will hardly increase, even if the new regressor is of relevance. As a result, the above-mentioned heuristics will ignore relevant regressors when cross-correlations are high. 
+
+[[File:Geometric R squared .svg|thumb|Geometric representation of &lt;math&gt;r^2&lt;/math&gt;.]]
+Alternatively, one can decompose a generalized version of &lt;math&gt;R^2&lt;/math&gt; to quantify the relevance of deviating from a hypothesis.&lt;ref name = "Hoornweg2018SUS" /&gt; As Hoornweg (2018) shows, several shrinkage estimators – such as [[Bayesian linear regression]], [[ridge regression]], and the (adaptive) [[Lasso (statistics)#Lasso method|lasso]] – make use of this decomposition of &lt;math&gt;R^2&lt;/math&gt; when they gradually shrink parameters from the unrestricted OLS solutions towards the hypothesized values. Let us first define the linear regression model as 
+: &lt;math&gt;y=X\beta+\varepsilon.&lt;/math&gt;
+It is assumed that the matrix &lt;math&gt;X&lt;/math&gt; is standardized with Z-scores and that the column vector &lt;math&gt;y&lt;/math&gt; is centered to have a mean of zero. Let the column vector &lt;math&gt;\beta_0&lt;/math&gt; refer to the hypothesized regression parameters and let the column vector &lt;math&gt;b&lt;/math&gt; denote the estimated parameters. We can then define 
+: &lt;math&gt;R^2=1-\frac{(y-Xb)'(y-Xb)}{(y-X\beta_0)'(y-X\beta_0)}.&lt;/math&gt;
+An &lt;math&gt;R^2&lt;/math&gt; of 75% means that the in-sample accuracy improves by 75% if the data-optimized &lt;math&gt;b&lt;/math&gt; solutions are used instead of the hypothesized &lt;math&gt;\beta_0&lt;/math&gt; values. In the special case that &lt;math&gt;\beta_0&lt;/math&gt; is a vector of zeros, we obtain the traditional &lt;math&gt;R^2&lt;/math&gt; again. 
+
+The individual effect on &lt;math&gt;R^2&lt;/math&gt; of deviating from a hypothesis can be computed with &lt;math&gt;R^\otimes&lt;/math&gt; ('R-outer'). This &lt;math&gt;p&lt;/math&gt; times &lt;math&gt;p&lt;/math&gt; matrix is given by
+: &lt;math&gt;R^{\otimes}=(X'\tilde y_0)(X'\tilde y_0)' (X'X)^{-1}(\tilde y_0'\tilde y_0)^{-1},&lt;/math&gt;
+where &lt;math&gt;\tilde y_0=y-X\beta_0&lt;/math&gt;. The diagonal elements of &lt;math&gt;R^\otimes&lt;/math&gt; exactly add up to &lt;math&gt;R^2&lt;/math&gt;. If regressors are uncorrelated and &lt;math&gt;\beta_0&lt;/math&gt; is a vector of zeros, then the &lt;math&gt;j^\text{th}&lt;/math&gt; diagonal element of &lt;math&gt;R^{\otimes}&lt;/math&gt; simply corresponds to the &lt;math&gt;r^2&lt;/math&gt; value between &lt;math&gt;x_j&lt;/math&gt; and &lt;math&gt;y&lt;/math&gt;. When regressors &lt;math&gt;x_i&lt;/math&gt; and &lt;math&gt;x_j&lt;/math&gt; are correlated, &lt;math&gt;R^\otimes_{ii}&lt;/math&gt; might increase at the cost of a decrease in &lt;math&gt;R^{\otimes}_{jj}&lt;/math&gt;. As a result, the diagonal elements of &lt;math&gt;R^{\otimes}&lt;/math&gt; may be smaller than 0 and, in more exceptional cases, larger than 1. To deal with such uncertainties, several shrinkage estimators implicitly take a weighted average of the diagonal elements of &lt;math&gt;R^{\otimes}&lt;/math&gt; to quantify the relevance of deviating from a hypothesized value.&lt;ref name = "Hoornweg2018SUS" /&gt; Click on the [[Lasso (statistics)#Interpretations of lasso|lasso]] for an example.
+
+=== ''R''&lt;sup&gt;2&lt;/sup&gt; in logistic regression ===
+In the case of [[logistic regression]], usually fit by [[maximum likelihood]], there are several choices of [[Logistic regression#Pseudo-R2s|''pseudo-R''&lt;sup&gt;2&lt;/sup&gt;]].
+
+One is the generalized ''R''&lt;sup&gt;2&lt;/sup&gt; originally proposed by Cox &amp; Snell,&lt;ref&gt;{{cite book |last=Cox|first=D. D.|last2=Snell|first2=E. J.|author2-link= Joyce Snell |year=1989|title=The Analysis of Binary Data|edition=2nd|publisher=Chapman and Hall}}&lt;/ref&gt; and independently by Magee:&lt;ref&gt;{{cite news|last=Magee|first=L.|year=1990|title=''R''&lt;sup&gt;2&lt;/sup&gt; measures based on Wald and likelihood ratio joint significance tests|journal=The American Statistician|volume=44|pages=250–3|doi=10.1080/00031305.1990.10475731}}&lt;/ref&gt;
+: &lt;math&gt;R^2 = 1 - \left({ \mathcal{L}(0) \over \mathcal{L}(\widehat{\theta}) }\right)^{2/n}&lt;/math&gt;
+where &lt;math&gt;\mathcal{L}(0)&lt;/math&gt; is the likelihood of the model with only the intercept, &lt;math&gt;{\mathcal{L}(\widehat{\theta})}&lt;/math&gt; is the likelihood of the estimated model (i.e., the model with a given set of parameter estimates) and ''n'' is the sample size. It is easily rewritten to:
+: &lt;math&gt;R^2 = 1 - e^{\frac{2}{n} (\ln(\mathcal{L}(0)) - \ln(\mathcal{L}(\widehat{\theta}))} = 1 - e^{-D/n}&lt;/math&gt;
+where ''D'' is the test statistic of the [[likelihood ratio test]].
+
+Nagelkerke&lt;ref&gt;{{cite book |last=Nagelkerke |first=Nico J. D. |year=1992 |title=Maximum Likelihood Estimation of Functional Relationships, Pays-Bas |series=Lecture Notes in Statistics |volume=69 |isbn=978-0-387-97721-8}}&lt;/ref&gt; noted that it had the following properties:
+# It is consistent with the classical coefficient of determination when both can be computed;
+# Its value is maximised by the maximum likelihood estimation of a model;
+# It is asymptotically independent of the sample size;
+# The interpretation is the proportion of the variation explained by the model;
+# The values are between 0 and 1, with 0 denoting that model does not explain any variation and 1 denoting that it perfectly explains the observed variation;
+# It does not have any unit.
+
+However, in the case of a logistic model, where &lt;math&gt;\mathcal{L}(\widehat{\theta})&lt;/math&gt; cannot be greater than 1, ''R''&lt;sup&gt;2&lt;/sup&gt; is between 0 and &lt;math&gt; R^2_\max = 1- (\mathcal{L}(0))^{2/n} &lt;/math&gt;: thus, Nagelkerke&amp;nbsp;suggested the possibility to define a scaled ''R''&lt;sup&gt;2&lt;/sup&gt; as ''R''&lt;sup&gt;2&lt;/sup&gt;/''R''&lt;sup&gt;2&lt;/sup&gt;&lt;sub&gt;max&lt;/sub&gt;.&lt;ref&gt;{{cite journal |doi=10.1093/biomet/78.3.691 |title=A Note on a General Definition of the Coefficient of Determination |year=1991 |last1=Nagelkerke |first1=N. J. D. |journal=Biometrika |volume=78 |issue=3 |pages=691–2 |jstor=2337038}}&lt;/ref&gt;
+
+==Comparison with norm of residuals==
+Occasionally, the [[Norm (mathematics)#Examples|norm]] of residuals is used for indicating goodness of fit. This term is calculated as the square-root of the [[sum of squares of residuals]]:
+
+:&lt;math&gt;\text{norm of residuals} = \sqrt{SS_\text{res}} = \| e \|. &lt;/math&gt;
+
+Both ''R''&lt;sup&gt;2&lt;/sup&gt; and the norm of residuals have their relative merits. For [[least squares]] analysis ''R''&lt;sup&gt;2&lt;/sup&gt; varies between 0 and 1, with larger numbers indicating better fits and 1 representing a perfect fit. The norm of residuals varies from 0 to infinity with smaller numbers indicating better fits and zero indicating a perfect fit. One advantage and disadvantage of ''R''&lt;sup&gt;2&lt;/sup&gt; is the &lt;math&gt;SS_\text{tot}&lt;/math&gt; term acts to [[Normalization (statistics)|normalize]] the value. If the ''y&lt;sub&gt;i&lt;/sub&gt;'' values are all multiplied by a constant, the norm of residuals will also change by that constant but ''R''&lt;sup&gt;2&lt;/sup&gt; will stay the same. As a basic example, for the linear least squares fit to the set of data:
+: &lt;math&gt;
+\begin{array}{rcrrrrr}
+    x &amp; = &amp; 1, &amp;  2, &amp;  3, &amp;  4, &amp;  5 \\
+    y &amp; = &amp; 1.9, &amp; 3.7, &amp; 5.8, &amp; 8.0, &amp; 9.6
+\end{array}
+&lt;/math&gt;
+''R''&lt;sup&gt;2&lt;/sup&gt; = 0.998, and norm of residuals = 0.302.
+If all values of ''y'' are multiplied by 1000 (for example, in an [[Metric prefix|SI prefix]] change), then ''R''&lt;sup&gt;2&lt;/sup&gt; remains the same, but norm of residuals = 302.
+
+Another single-parameter indicator of fit is the [[Root-mean-square deviation|RMSE]] of the residuals, or standard deviation of the residuals. This would have a value of 0.135 for the above example given that the fit was linear with an unforced intercept.&lt;ref name="origin wp"&gt;OriginLab webpage, http://www.originlab.com/doc/Origin-Help/LR-Algorithm. Retrieved February 9, 2016.&lt;/ref&gt;
+
+==History==
+
+The creation of the coefficient of determination has been attributed to the geneticist [[Sewall Wright]] and was first published in 1921.&lt;ref&gt;{{cite journal |last=Wright |first=Sewell|date=January 1921 |title=Correlation and causation |journal=Journal of Agricultural Research |volume=20 |pages=557–585}}&lt;/ref&gt;
+
+==See also==
+* [[Anscombe's quartet]]
+* [[Fraction of variance unexplained]]
+* [[Goodness of fit]]
+* [[Nash–Sutcliffe model efficiency coefficient]] ([[Hydrology|hydrological applications]])
+* [[Pearson product-moment correlation coefficient]]
+* [[Proportional reduction in loss]]
+* [[Regression model validation]]
+* [[Root mean square deviation]]
+* [[Test statistic#Common test statistics|''t''-test of &lt;math&gt;H_0\colon R^2=0.&lt;/math&gt;]]
+
+==Notes==
+{{Reflist|30em}}
+
+== Further reading ==
+* {{cite book |last=Gujarati |first=Damodar N. |authorlink=Damodar N. Gujarati |last2=Porter |first2=Dawn C. |title=Basic Econometrics |location=New York |publisher=McGraw-Hill/Irwin |edition=Fifth |year=2009 |isbn=978-0-07-337577-9 |pages=73–78 }}
+* {{cite book |last=Hughes |first=Ann |first2=Dennis |last2=Grawoig |title=Statistics: A Foundation for Analysis |location=Reading |publisher=Addison-Wesley |year=1971 |isbn=0-201-03021-7 |pages=[https://archive.org/details/trent_0116302260611/page/344 344–348] |url=https://archive.org/details/trent_0116302260611/page/344 }} 
+* {{cite book |last=Kmenta |first=Jan |authorlink=Jan Kmenta |title=Elements of Econometrics |location=New York |publisher=Macmillan |edition=Second |year=1986 |isbn=978-0-02-365070-3 |pages=[https://archive.org/details/elementsofeconom0003kmen/page/240 240–243] |url-access=registration |url=https://archive.org/details/elementsofeconom0003kmen/page/240 }}
+* {{cite journal |first=Michael S. |last=Lewis-Beck |authorlink=Michael Lewis-Beck |first2=Andrew |last2=Skalaban |title=The ''R''-Squared: Some Straight Talk |journal=[[Political Analysis (journal)|Political Analysis]] |volume=2 |year=1990 |issue= |pages=153–171 |doi=10.1093/pan/2.1.153 |jstor=23317769 }}
+
+{{DEFAULTSORT:Coefficient Of Determination}}
+[[Category:Regression diagnostics]]
+[[Category:Statistical ratios]]
+[[Category:Least squares]]</text>
+      <sha1>hl3jmjag0yvxpym56tmsnhb4fgg5of4</sha1>
+    </revision>
+  </page>
+</mediawiki>

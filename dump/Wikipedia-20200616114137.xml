@@ -1,0 +1,451 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.10/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.10/ http://www.mediawiki.org/xml/export-0.10.xsd" version="0.10" xml:lang="en">
+  <siteinfo>
+    <sitename>Wikipedia</sitename>
+    <dbname>enwiki</dbname>
+    <base>https://en.wikipedia.org/wiki/Main_Page</base>
+    <generator>MediaWiki 1.35.0-wmf.36</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Media</namespace>
+      <namespace key="-1" case="first-letter">Special</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Talk</namespace>
+      <namespace key="2" case="first-letter">User</namespace>
+      <namespace key="3" case="first-letter">User talk</namespace>
+      <namespace key="4" case="first-letter">Wikipedia</namespace>
+      <namespace key="5" case="first-letter">Wikipedia talk</namespace>
+      <namespace key="6" case="first-letter">File</namespace>
+      <namespace key="7" case="first-letter">File talk</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki talk</namespace>
+      <namespace key="10" case="first-letter">Template</namespace>
+      <namespace key="11" case="first-letter">Template talk</namespace>
+      <namespace key="12" case="first-letter">Help</namespace>
+      <namespace key="13" case="first-letter">Help talk</namespace>
+      <namespace key="14" case="first-letter">Category</namespace>
+      <namespace key="15" case="first-letter">Category talk</namespace>
+      <namespace key="100" case="first-letter">Portal</namespace>
+      <namespace key="101" case="first-letter">Portal talk</namespace>
+      <namespace key="108" case="first-letter">Book</namespace>
+      <namespace key="109" case="first-letter">Book talk</namespace>
+      <namespace key="118" case="first-letter">Draft</namespace>
+      <namespace key="119" case="first-letter">Draft talk</namespace>
+      <namespace key="446" case="first-letter">Education Program</namespace>
+      <namespace key="447" case="first-letter">Education Program talk</namespace>
+      <namespace key="710" case="first-letter">TimedText</namespace>
+      <namespace key="711" case="first-letter">TimedText talk</namespace>
+      <namespace key="828" case="first-letter">Module</namespace>
+      <namespace key="829" case="first-letter">Module talk</namespace>
+      <namespace key="2300" case="first-letter">Gadget</namespace>
+      <namespace key="2301" case="first-letter">Gadget talk</namespace>
+      <namespace key="2302" case="case-sensitive">Gadget definition</namespace>
+      <namespace key="2303" case="case-sensitive">Gadget definition talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>List of Microsoft software</title>
+    <ns>0</ns>
+    <id>2043026</id>
+    <revision>
+      <id>962156228</id>
+      <parentid>962155954</parentid>
+      <timestamp>2020-06-12T12:07:49Z</timestamp>
+      <contributor>
+        <ip>108.14.74.165</ip>
+      </contributor>
+      <comment>/* References */</comment>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="11994" xml:space="preserve">{{short description|Wikipedia list article}}
+{{Distinguish|List of Microsoft Windows components}}
+{{see also|Microsoft Mobile Services}}
+
+{{More citations needed|date=September 2019}}
+[[Microsoft]] is a large developer of [[personal computer]] software. It is best known for its [[Windows]] operating system, the [[Microsoft Office]] family of productivity software plus services, and the [[Visual Studio]] IDE. The company also publishes books (through [[Microsoft Press]]) and video games (through [[Xbox Game Studios]]), and produces [[Microsoft hardware|its own line of hardware]]. The following is a list of the notable Microsoft software applications.
+
+==Software development==
+* Azure DevOps
+** [[Azure DevOps Server]] (formerly Team Foundation Server and Visual Studio Team System)
+** [[Microsoft Visual Studio#Azure DevOps Services|Azure DevOps Services]] (formerly Visual Studio Team Services, Visual Studio Online and Team Foundation Service)
+* [[BASICA]]
+* [[Bosque (programming language)|Bosque]]
+* Citus Data
+* [[CLR Profiler]]
+* [[GitHub]]
+**[[Atom (text editor)|Atom]]&lt;ref&gt;{{Cite web|title=Introducing Atom|url=https://blog.atom.io/2014/02/26/introducing-atom.html|last=nathansobo|date=2014-02-26|website=Atom Blog|access-date=2020-05-03}}&lt;/ref&gt;
+**GitHub Desktop&lt;ref&gt;{{Cite web|url=https://desktop.github.com/|title=GitHub Desktop|website=GitHub Desktop|language=en-gb|access-date=2020-04-15}}&lt;/ref&gt;
+**[[Npm (software)|npm]]&lt;ref&gt;{{Cite web|title=npm has joined GitHub|url=https://github.blog/2020-04-15-npm-has-joined-github/|date=2020-04-15|website=The GitHub Blog|language=en-US|access-date=2020-05-03}}&lt;/ref&gt;
+* [[GW-BASIC]]
+* [[IronRuby]]
+* [[IronPython]]
+* [[JScript]]
+* [[Microsoft Liquid Motion]]
+* [[Microsoft BASIC]], also licensed as:
+** [[Altair BASIC]]
+** [[AmigaBASIC]]
+** [[Applesoft BASIC]]
+** [[Commodore BASIC]]
+** [[Color BASIC]]
+** [[MBASIC]]
+** [[Spectravideo|Spectravideo Extended BASIC]]
+** [[TRS-80#BASIC|TRS-80 Level II BASIC]]
+* [[Microsoft MACRO-80]]
+* [[Microsoft Macro Assembler]]
+* [[Microsoft Small Basic]]
+* [[Microsoft Visual SourceSafe]]
+* [[Microsoft XNA]]
+* [[Microsoft WebMatrix]]
+* [[MSX BASIC]]
+* [[NuGet]]
+* Power Apps
+* [[QBasic]] and [[QuickBASIC]]
+* TASC (The AppleSoft Compiler)&lt;ref&gt;[https://archive.org/details/TASC_The_AppleSoft_Compiler_Manual TASC (The AppleSoft Compiler) Manual (1981)]&lt;/ref&gt;
+* [[TypeScript]]
+* [[VBScript]]
+* [[Visual Studio]]
+** [[Microsoft Visual Studio Express]]
+** [[Visual Basic]]
+** [[Visual Basic .NET]]
+** [[Visual Basic for Applications]]
+** [[Visual C++]]
+*** [[C++/CLI]]
+*** [[Managed Extensions for C++]]
+** [[Visual C Sharp|Visual C#]]
+** [[Visual FoxPro]]
+** [[Visual J++]]
+** [[Visual J Sharp|Visual J#]]
+** [[Visual Studio Code]]
+** [[Visual Studio Lab Management]]
+** [[Visual Studio Tools for Office]]
+** [[Visual Studio Tools for Applications]]
+** [[VSTS Profiler]]
+* [[Windows API]]
+* [[Windows SDK]]
+* [[WordBASIC]]
+* [[Xbox Development Kit]]
+
+== 3D ==
+* 3D Builder
+* 3D Scan (requires a Kinect for Xbox One sensor)
+* [[Microsoft 3D Viewer|3D Viewer]]
+* [[Bing Maps Platform|Bing Maps for Enterprise]] (formerly "Bing Maps Platform" and "Microsoft Virtual Earth")
+* [[Direct3D]]
+* [[Havok (software)|Havok]]
+* [[Microsoft HoloLens#Applications|HoloStudio]]
+* [[Kinect#Kinect for Windows|Kinect for Windows SDK]]
+* [[Softimage (company)#1994 - Microsoft Softimage|Microsoft Softimage]]
+* [[Paint 3D]]
+* Print 3D
+* [[Simplygon]]
+* [[trueSpace]]
+
+==Digital media authoring==
+* [[AutoCollage 2008]]
+* [[Microsoft Digital Image]]
+* [[Microsoft Expression Studio]]
+** [[Microsoft Expression Web]]
+** [[Microsoft Expression Blend]]
+** [[Microsoft Expression Encoder]]
+** [[Microsoft Expression Media]]
+* [[Microsoft Picture It!]]
+* [[Windows Live Movie Maker]]
+* [[Windows Media Encoder]]
+* [[Windows Media Center]]
+* [[Microsoft Research Image Composite Editor]]
+* [[Photo Story]]
+* [[Photosynth]]
+
+==Educational==
+* [[Creative Writer]]
+* [[Encarta]]
+* [[Microsoft Mathematics]]
+* [[Microsoft Student]]
+* [[Online Proctoring]]
+
+==Internet==
+* [[Bing (search engine)|Bing]]
+* [[Bing Bar]]
+* [[Browstat]]
+* [[GitHub]]
+* [[LinkedIn]]
+* [[Microsoft Comic Chat]]
+* [[Microsoft Developer Network]]
+* [[Microsoft Pay]] ([[mobile payment]] and [[digital wallet]] service)
+* [[Microsoft Silverlight]]
+* [[Microsoft TechNet]]
+* [[Mixer (website)|Mixer]]
+* [[MSN]]
+* [[Office Online]]
+* [[Outlook.com]]
+* [[Skype]]
+* [[So.cl]]
+* [[Windows Essentials]]
+** [[Microsoft Family Safety]]
+** [[Microsoft Outlook Hotmail Connector]]
+** [[OneDrive]]
+** [[Windows Live Mail]]
+** [[Windows Live Messenger]]
+** [[Windows Live Writer]]
+** [[Windows Photo Gallery]]
+* [[Yammer]]
+
+===Subscription services===
+* [[Microsoft 365]]
+* [[Office 365]]
+* [[Xbox Game Pass]]
+* [[Xbox Live Gold]]
+* [[Xbox Game Pass|Xbox Game Pass Ultimate]]
+
+==Maintenance and administration==
+* [[Microsoft Anti-Virus]]
+* [[Microsoft Security Essentials]]
+* [[Microsoft Desktop Optimization Pack]]
+* [[Sysinternals]] utilities
+** [[Process Explorer]]
+** [[Process Monitor]]
+** [[PageDefrag]]
+* [[SyncToy]]
+* [[Windows SteadyState]]
+* [[Windows Live OneCare]]
+
+== Operating systems ==
+{{Details|List of Microsoft operating systems}}
+* [[MS-DOS]]
+** [[SB-DOS]]
+** [[COMPAQ-DOS]]
+** [[NCR-DOS]]
+** [[Z-DOS]]
+** [[86-DOS]]
+* [[Microsoft Windows]]
+** [[Windows NT]]
+** [[Windows CE]]
+** [[Windows Embedded]]
+** [[Windows Mobile]]
+** [[Windows Phone]]
+** [[Windows Preinstallation Environment]]
+** [[Windows Server]]
+** [[Windows 95]]
+** [[Windows 98]]
+** [[Windows ME]]
+** [[Windows 2000]]
+** [[Windows XP]]
+** [[Windows Server 2003]]
+** [[Windows Server 2008]]
+** [[Windows Server 2012]]
+** [[Windows Server 2016]]
+** [[Windows Server 2019]]
+** [[Windows Vista]]
+** [[Windows 7]]
+** [[Windows 8]]
+*** [[Windows RT]]
+** [[Windows 8.1]]
+*** [[Windows RT|Windows RT 8.1]]
+** [[Windows 10]]
+* [[MSX-DOS]]
+* [[OS/2]]
+* [[HomeOS]]
+* [[Midori (operating system)|Midori]]
+* [[MIDAS (operating system)|MIDAS]]
+* [[Singularity (operating system)|Singularity]]
+* [[Xenix]]
+* [[Zune]]
+
+== Productivity ==
+* [[Microsoft Entourage]]
+* [[Microsoft FrontPage]]
+* [[Microsoft InfoPath]]
+* [[Microsoft MapPoint]]
+* [[Microsoft Money]]
+* [[Microsoft Office shared tools]]
+** [[Microsoft Office Picture Manager]]
+** [[Office Assistant]]
+* [[Microsoft Response Point]]
+* [[Microsoft SharePoint Workspace]]
+* [[Microsoft Schedule Plus|Microsoft Schedule+]]
+* [[Microsoft Vizact]]
+* [[Microsoft Works]]
+* [[Microsoft Dynamics]]
+* [[Wunderlist]]
+
+=== Applications ===
+{{Main|List of Microsoft Office programs}}
+* [[Microsoft Access]]
+* [[Microsoft Excel]]
+* [[Microsoft OneNote]]
+* [[Microsoft Outlook]]
+* [[Microsoft Power BI]]
+* [[Microsoft PowerPoint]]
+* [[Microsoft Project]]
+* [[Microsoft Publisher]]
+* [[Microsoft Sway]]
+* [[Microsoft SwiftKey]]
+* [[Microsoft Teams]]
+* [[Microsoft Visio]]
+* [[Microsoft Word]]
+* [[Outlook Web App]]
+* [[Skype for Business]]
+
+=== Suites ===
+* [[Microsoft Office]]
+** [[Microsoft Office 3.0]]
+** [[Microsoft Office 95]]
+** [[Microsoft Office 97]]
+** [[Microsoft Office 2000]]
+** [[Microsoft Office XP]]
+** [[Microsoft Office 2003]]
+** [[Microsoft Office 2007]]
+** [[Microsoft Office 2010]]
+** [[Microsoft Office 2013]]
+** [[Microsoft Office 2016]]
+** [[Microsoft Office 2019]]
+* Microsoft Office for Mac
+** [[Microsoft Office 98 Macintosh Edition]]
+** [[Microsoft Office 2001]]
+** [[Microsoft Office v. X]]
+** [[Office 2004 for Mac]]
+** [[Microsoft Office 2008 for Mac]]
+** [[Microsoft Office for Mac 2011]]
+** [[Microsoft Office 2016 for Mac]]
+** [[Microsoft Office 2016]]
+** [[Microsoft Office 2019]]
+
+==Video games==
+{{Main|List of Xbox Game Studios video games}}
+* [[List of Xbox Game Studios video games|Xbox Game Studios Video Games]]
+** [[Age of Empires (series)|Age of Empires]] series
+** [[Banjo-Kazooie (series)|Banjo-Kazooie]] series
+** [[Battletoads]] series
+** [[Crackdown]] series
+** [[Fable (video game series)|Fable]] series
+** [[Forza (series)|Forza]] series
+** [[Gears of War]] series (rebranded)
+** [[Gears of War|Gears]] series (formerly Gears of War)
+** [[Halo (series)|Halo]] series
+** [[Killer Instinct]] series
+** Microsoft Casual Games ([[Microsoft Solitaire Collection]], [[Microsoft Mahjong]], Microsoft Jigsaw, [[Microsoft Minesweeper]], Microsoft Sudoku, [[Microsoft Ultimate Word Games]], Microsoft Treasure Hunt, Microsoft Bingo, Microsoft Wordament)
+** [[Microsoft Flight Simulator]] series
+** [[Minecraft]]
+** [[Ori and the Blind Forest|Ori]] series
+** [[Perfect Dark (series)|Perfect Dark]] series
+** [[State of Decay (video game)|State of Decay]] series
+** [[Viva Piñata]] series
+** [[Zoo Tycoon]] series
+
+== Servers ==
+{{Main|Microsoft Servers}}
+* [[Microsoft Azure]]
+* [[Microsoft BackOffice Server]]
+* [[Microsoft BizTalk Server]]
+* [[Microsoft Commerce Server]]
+* [[Microsoft Content Management Server]]
+* [[Microsoft Exchange Server]]
+* [[Microsoft Forefront]]
+** [[Exchange Online Protection]]
+** [[Forefront Identity Manager]]
+** [[Microsoft Forefront Threat Management Gateway]]
+** [[Microsoft Forefront Unified Access Gateway]]
+* [[Microsoft Host Integration Server]]
+* [[Microsoft Identity Integration Server]]
+* [[Microsoft Merchant Server]]
+* [[Microsoft Site Server]]
+* [[Microsoft SharePoint]]
+* [[Microsoft Office PerformancePoint Server]]
+* [[Microsoft Project Server]]
+** [[Microsoft Office Project Portfolio Server]]
+* [[Microsoft Speech Server]]
+* [[Microsoft SQL Server]]
+* [[Microsoft System Center]]
+** [[System Center Advisor]]
+** [[System Center Configuration Manager]]
+** [[System Center Data Protection Manager]]
+** [[System Center Essentials]]
+** [[System Center Operations Manager]]
+** [[System Center Service Manager]]
+** [[System Center Virtual Machine Manager]]
+* [[Microsoft Virtual Server]]
+* [[Search Server]]
+* [[Skype for Business Server]]
+* [[Windows Admin Center]]
+
+== Windows components ==
+{{Main|List of Microsoft Windows components}}
+* [[Alarms &amp; Clock]]
+* [[Calendar (Windows)]]
+* [[Character Map (Windows)]]
+* [[ClickOnce]]
+* [[DirectX]]
+* [[Disk Cleanup]]
+* [[Ease of Access]] (formerly Utility Manager)
+* [[Feedback Hub]] (Windows 10, Version 1607)
+* [[File Explorer]]
+* [[Internet Explorer]]
+* [[Internet Information Services]]
+* [[Hyper-V]]
+* [[Microsoft Agent]]
+* [[Microsoft Command Prompt]] (formerly [[MS-DOS Prompt]])
+* [[Microsoft Cortana]]
+* [[Microsoft Edge]]
+* [[Microsoft Magnifier]]
+* [[Microsoft Narrator]]
+* [[Microsoft Notepad]]
+* [[Microsoft Paint]]
+* [[Microsoft Photos]]
+* [[Microsoft Speech API]]
+* [[Microsoft Store (digital)|Microsoft Store]]
+* [[Microsoft Wordpad]] (formerly [[Microsoft Write]])
+* [[On-screen keyboard]]
+* [[Paint 3D]] (Windows 10, Version 1703)
+* [[Registry Editor]]
+* [[Windows Calculator]]
+* [[Windows Camera]]
+* [[Windows Chat]]
+* [[Windows Contacts]]
+* [[Windows Defender]]
+* [[Windows Disk Defragmenter]] (succeeded by Defragment and Optimize Drives)
+* [[Windows Easy Transfer]] (formerly [[Files and Settings Transfer Wizard]])
+* [[Windows Installer]]
+* [[Windows Media Player]]
+* [[Windows Photo Viewer]]
+* [[Windows PowerShell]]
+* [[Windows Speech Recognition]]
+* [[Windows Subsystem for Linux]] (WSL)
+* [[Windows To Go]]
+
+=== Pre-installed Windows Games ===
+==== Windows 7 ====
+* [[Chess Titans]]
+* [[Microsoft FreeCell|FreeCell]]
+* [[Microsoft Hearts|Hearts]]
+* Internet-Backgammon
+* Internet-Dame
+* Internet-Spades
+* [[Microsoft Mahjong|Mahjong Titans]]
+* [[Microsoft Minesweeper|Minesweeper]]
+* [[Purble Place]]
+* [[Microsoft Solitaire|Solitaire]]
+* [[Microsoft Spider Solitaire|Spider Solitaire]]
+
+== Miscellaneous ==
+* [[Microsoft Bob]]
+* [[Microsoft Plus!]]
+
+==See also==
+* [[Microsoft and open source]]
+* [[Microsoft hardware]]
+* [[List of Microsoft topics]]
+
+{{Microsoft}}
+{{MSN services}}
+
+==References==
+{{Reflist}}
+
+[[Category:Microsoft software|*]]
+[[Category:Microsoft lists|Software]]
+[[Category:Lists of software|Microsoft's]]
+[[[https://appsource.microsoft.com/en-us/product/web-apps/examus.examusproctoring Online proctoring software Microsoft]]]
+[[Microsoft &amp; [https://exam.us/ Examus]]]</text>
+      <sha1>9x4tcw339r81ab6k1wq90ri0iyuhy1z</sha1>
+    </revision>
+  </page>
+</mediawiki>

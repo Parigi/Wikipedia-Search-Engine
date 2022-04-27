@@ -1,0 +1,777 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.10/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.10/ http://www.mediawiki.org/xml/export-0.10.xsd" version="0.10" xml:lang="en">
+  <siteinfo>
+    <sitename>Wikipedia</sitename>
+    <dbname>enwiki</dbname>
+    <base>https://en.wikipedia.org/wiki/Main_Page</base>
+    <generator>MediaWiki 1.35.0-wmf.36</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Media</namespace>
+      <namespace key="-1" case="first-letter">Special</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Talk</namespace>
+      <namespace key="2" case="first-letter">User</namespace>
+      <namespace key="3" case="first-letter">User talk</namespace>
+      <namespace key="4" case="first-letter">Wikipedia</namespace>
+      <namespace key="5" case="first-letter">Wikipedia talk</namespace>
+      <namespace key="6" case="first-letter">File</namespace>
+      <namespace key="7" case="first-letter">File talk</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki talk</namespace>
+      <namespace key="10" case="first-letter">Template</namespace>
+      <namespace key="11" case="first-letter">Template talk</namespace>
+      <namespace key="12" case="first-letter">Help</namespace>
+      <namespace key="13" case="first-letter">Help talk</namespace>
+      <namespace key="14" case="first-letter">Category</namespace>
+      <namespace key="15" case="first-letter">Category talk</namespace>
+      <namespace key="100" case="first-letter">Portal</namespace>
+      <namespace key="101" case="first-letter">Portal talk</namespace>
+      <namespace key="108" case="first-letter">Book</namespace>
+      <namespace key="109" case="first-letter">Book talk</namespace>
+      <namespace key="118" case="first-letter">Draft</namespace>
+      <namespace key="119" case="first-letter">Draft talk</namespace>
+      <namespace key="446" case="first-letter">Education Program</namespace>
+      <namespace key="447" case="first-letter">Education Program talk</namespace>
+      <namespace key="710" case="first-letter">TimedText</namespace>
+      <namespace key="711" case="first-letter">TimedText talk</namespace>
+      <namespace key="828" case="first-letter">Module</namespace>
+      <namespace key="829" case="first-letter">Module talk</namespace>
+      <namespace key="2300" case="first-letter">Gadget</namespace>
+      <namespace key="2301" case="first-letter">Gadget talk</namespace>
+      <namespace key="2302" case="case-sensitive">Gadget definition</namespace>
+      <namespace key="2303" case="case-sensitive">Gadget definition talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Apple Pay</title>
+    <ns>0</ns>
+    <id>43782487</id>
+    <revision>
+      <id>962837007</id>
+      <parentid>962428511</parentid>
+      <timestamp>2020-06-16T08:33:36Z</timestamp>
+      <contributor>
+        <ip>141.237.58.203</ip>
+      </contributor>
+      <comment>/* Supported countries */</comment>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="108939" xml:space="preserve">{{short description|Mobile payment and digital wallet service}}
+{{Use American English|date=September 2014}}
+{{Use mdy dates|date=September 2015}}
+{{Infobox software
+| name = Apple Pay
+| logo = Apple Pay logo.svg
+| logo size = 100px
+| screenshot = Apple Pay promotional hero.png
+| screenshot size = 200px
+| caption = Apple Pay on an [[iPhone]] and an [[Apple Watch]]
+| developer = [[Apple Inc.]]
+| released = {{start date and age|2014|10|20}}
+| operating system = [[iOS 8]].1 or later&lt;br /&gt;([[iOS 10]] or later for Apple Pay on the web)&lt;br /&gt;([[iOS 11]].2 or later for [[Apple Pay Cash]])&lt;br /&gt;All [[watchOS]] versions&lt;br /&gt;[[macOS Sierra]] or later
+| platform = {{plainlist|
+*'''''In store''''':&lt;br&gt;[[iPhone 6]] or newer
+*'''''In store with Apple Watch only''''':&lt;br&gt;[[iPhone 5]], [[iPhone 5C|5C]], [[iPhone 5S|5S]]
+*'''''On the web (Safari)''''':&lt;br&gt;iPhone 6 or newer with [[iOS 10]] or later&lt;br /&gt;2014 [[iPad]]s ([[iPad Air 2|Air 2]], [[iPad Mini 3|Mini 3]]) or newer with [[iOS 10]] or later&lt;br&gt;2016 [[MacBook Pro]] with [[Touch ID]] or newer&lt;br&gt;2018 [[MacBook Air]] or newer&lt;br&gt;Macs with [[Bluetooth Low Energy|Bluetooth 4.0]] running [[macOS Sierra]] or later paired with an [[Apple Watch]] or iPhone 6 or newer}}
+| license = [[Proprietary software|Proprietary]]
+| website = &lt;!-- The US and UK web sites each contain country-specific content. Neither is an international site. Do not remove non-US web sites, otherwise this page will become US-centric. --&gt; {{Collapsible list
+  |framestyle=border:none; padding:0; &lt;!--Hides borders and improves row spacing--&gt;
+  |title=Websites
+  |1={{URL|https://www.apple.com/apple-pay/|apple.com/apple-pay/}} (US)
+  |2={{URL|https://www.apple.com/uk/apple-pay/|apple.com/uk/apple-pay/}} (UK)
+  |3={{URL|https://www.apple.com/ca/apple-pay/|apple.com/ca/apple-pay/}} (CA)
+  |4={{URL|https://www.apple.com/au/apple-pay/|apple.com/au/apple-pay/}} (AU)
+  |5={{URL|https://www.apple.com/cn/apple-pay/|apple.com/cn/apple-pay/}} (CN)
+  |6={{URL|https://www.apple.com/sg/apple-pay/|apple.com/sg/apple-pay/}} (SG)
+  |7={{URL|https://www.apple.com/hk/en/apple-pay/|apple.com/hk/en/apple-pay/}} (HK en)
+  |8={{URL|https://www.apple.com/hk/apple-pay/|apple.com/hk/apple-pay/}} (HK zh)
+  |9={{URL|https://www.apple.com/chfr/apple-pay/|apple.com/chfr/apple-pay/}} (CH fr)
+  |10={{URL|https://www.apple.com/chde/apple-pay/|apple.com/chde/apple-pay/}} (CH de)
+  |11={{URL|https://www.apple.com/fr/apple-pay/|apple.com/fr/apple-pay/}} (FR)
+  |12={{URL|https://www.apple.com/ru/apple-pay/|apple.com/ru/apple-pay/}} (RU)
+  |13={{URL|https://www.apple.com/jp/apple-pay/|apple.com/jp/apple-pay/}} (JP)
+  |14={{URL|https://www.apple.com/nz/apple-pay/|apple.com/nz/apple-pay/}} (NZ)
+  |15={{URL|https://www.apple.com/es/apple-pay/|apple.com/es/apple-pay/}} (SP)
+  |16={{URL|https://www.apple.com/ie/apple-pay/|apple.com/ie/apple-pay/}} (IE)
+  |17={{URL|https://www.apple.com/tw/apple-pay/|apple.com/tw/apple-pay/}} (TW)
+  |18={{URL|https://www.apple.com/it/apple-pay/|apple.com/it/apple-pay/}} (IT)
+  |19={{URL|https://www.apple.com/ae/apple-pay/|apple.com/ae/apple-pay/}} (AE)
+  |20={{URL|https://www.apple.com/ae-ar/apple-pay/|apple.com/ae-ar/apple-pay/}} (AE ar)
+  |21={{URL|https://www.apple.com/se/apple-pay/|apple.com/se/apple-pay/}} (SE)
+  |22={{URL|https://www.apple.com/fi/apple-pay/|apple.com/fi/apple-pay/}} (FI)
+  |23={{URL|https://www.apple.com/dk/apple-pay/|apple.com/dk/apple-pay/}} (DK)
+  |24={{URL|https://www.apple.com/br/apple-pay/|apple.com/br/apple-pay/}} (BR)
+  |25={{URL|https://www.apple.com/pl/apple-pay/|apple.com/pl/apple-pay/}} (PL)
+  |26={{URL|https://www.apple.com/no/apple-pay/|apple.com/no/apple-pay/}} (NO)
+  |27={{URL|https://www.apple.com/sa/apple-pay/|apple.com/sa/apple-pay/}} (SA)
+  |28={{URL|https://www.apple.com/sa-ar/apple-pay/|apple.com/sa-ar/apple-pay/}} (SA ar)
+  |29={{URL|https://www.apple.com/de/apple-pay/|apple.com/de/apple-pay/}} (DE)
+  |30={{URL|https://www.apple.com/befr/apple-pay/|apple.com/befr/apple-pay/}} (BE fr)
+  |31={{URL|https://www.apple.com/benl/apple-pay/|apple.com/benl/apple-pay/}} (BE nl)
+  |32={{URL|https://www.apple.com/cz/apple-pay/|apple.com/cz/apple-pay/}} (CZ)
+  |33={{URL|https://www.apple.com/at/apple-pay/|apple.com/at/apple-pay/}} (AT)
+  |34={{URL|https://www.apple.com/nl/apple-pay/|apple.com/nl/apple-pay/}} (NL)
+  |35={{URL|https://www.apple.com/hu/apple-pay/|apple.com/hu/apple-pay/}} (HU)
+  |36={{URL|https://www.apple.com/lu/apple-pay/|apple.com/lu/apple-pay/}} (LU)
+  |37={{URL|https://www.apple.com/sk/apple-pay/|apple.com/sk/apple-pay/}} (SK)
+  |38={{URL|https://www.apple.com/ro/apple-pay/|apple.com/ro/apple-pay/}} (RO)
+  |39={{URL|https://www.apple.com/pt/apple-pay/|apple.com/pt/apple-pay/}} (PT)
+  |40={{URL|https://www.apple.com/si/apple-pay/|apple.com/si/apple-pay/}} (SI)
+  |41={{URL|https://www.apple.com/bg/apple-pay/|apple.com/bg/apple-pay/}} (BG)
+  |42={{URL|https://www.apple.com/hr/apple-pay/|apple.com/hr/apple-pay/}} (HR)
+  |43={{URL|https://www.apple.com/ee/apple-pay/|apple.com/ee/apple-pay/}} (EE)
+  |44={{URL|https://www.apple.com/gr/apple-pay/|apple.com/gr/apple-pay/}} (GR)
+  |45={{URL|https://www.apple.com/lv/apple-pay/|apple.com/lv/apple-pay/}} (LV)
+  |46={{URL|https://www.apple.com/li/apple-pay/|apple.com/li/apple-pay/}} (LI)
+  |47={{URL|https://www.apple.com/lt/apple-pay/|apple.com/lt/apple-pay/}} (LT)
+  |48={{URL|https://www.apple.com/mt/apple-pay/|apple.com/mt/apple-pay/}} (MT)
+  |49={{URL|https://www.apple.com/mo/apple-pay/|apple.com/mo/apple-pay/}} (MO)
+  |50={{URL|https://www.apple.com/me/apple-pay/|apple.com/me/apple-pay/}} (ME) }}
+ }}
+
+'''Apple Pay''' is a [[mobile payment]] and [[digital wallet]] service by [[Apple Inc.]] that allows users to make [[payment]]s in person, in [[App Store (iOS)|iOS apps]], and on the web. It is supported on the [[iPhone]], [[Apple Watch]], [[iPad]], and [[Macintosh|Mac]]. It digitizes and can replace a [[credit card|credit]] or [[debit card|debit]] card [[chip and PIN]] transaction at a contactless-capable [[point-of-sale terminal]]. Apple Pay does not require Apple Pay-specific [[contactless payment]] terminals; it works with any merchant that accepts contactless payments.&lt;ref name="pocket-lint.com"&gt;{{cite web|url=https://support.apple.com/en-us/HT207957|title=Countries and regions that support Apple Pay|last=|first=|last2=|first2=|date=July 17, 2019|publisher=[[Apple Inc.|Apple]]|archive-url=|archive-date=|access-date=|df=mdy-all}}&lt;/ref&gt; It is similar to contactless payments, with the addition of [[two-factor authentication]] via Touch ID, [[Face ID]], PIN, or passcode. Devices wirelessly communicate with point of sale systems using [[near field communication]] (NFC), with an embedded secure element (eSE) to securely store payment data and perform cryptographic functions, and Apple's [[Touch ID]] and [[Face ID]] for biometric authentication.
+
+Originally launching in the United States, Apple Pay is available in the [[United Kingdom]], [[Canada]], [[Australia]], [[Brazil]], the [[United Arab Emirates]], [[Saudi Arabia]], [[Russia]], [[Kazakhstan]], [[China]], [[New Zealand]], [[Singapore]], [[Japan]], [[Taiwan]], [[Hong Kong]], [[Macau]], [[Georgia (country)|Georgia]], [[Belarus]], [[Montenegro]] and all countries in the [[European Economic Area|European Economic Area (EEA)]].&lt;ref name="pocket-lint.com" /&gt; Apple Pay supports both international payment schemes—such as [[American Express]], [[Visa Inc.|Visa]] (including [[Visa Electron|Electron]] and [[V Pay]]), [[Mastercard]] (including [[Maestro (debit card)|Maestro]]), and [[Discover Card|Discover]]—as well as country-specific domestic payment schemes like China's [[UnionPay]], Japan's [[JCB Co., Ltd.|JCB]], France's [[Groupement des Cartes Bancaires CB|Cartes Bancaires]], Australia's [[eftpos]] and Saudi Arabia's [[Saudi Payments Network|mada]]. Participating banks vary by region. Apple Pay can also be used to ride some public transport networks&lt;ref&gt;{{Cite web|url=https://support.apple.com/en-us/HT207958|title=Where you can ride transit with Apple Pay|publisher=[[Apple Inc.|Apple]] Support|access-date=2019-07-18}}&lt;/ref&gt; either through the use of credit/debit cards (open loop) or dedicated travel cards such as [[JR East]]'s [[Suica]] or the [[Metropolitan Transportation Authority|MTA]]'s [[OMNY]] (closed loop).
+
+==Service==
+===Device compatibility===
+The service is compatible with [[iPhone 6]] and newer, [[iPad Air 2]] and newer, Macs with Touch ID, and all [[Apple Watch|Apple Watches]]. Users with the [[iPhone 5]] and [[iPhone 5C]] can use the service through an Apple Watch, though it lacks Touch ID security. (The iPhone 5s has Touch ID but not NFC; iPhone 5s users must use an Apple Watch and confirm using Touch ID on the iPhone 5s.)&lt;ref name="The Verge: allows you"/&gt; Instead, Apple Pay is activated with a passcode and remains active for as long as the user wears the Apple Watch.&lt;ref name="COM AW theft 1"&gt;{{cite web |url= http://www.cultofmac.com/295024/apple-watch-anti-theft|title=Clever trick will safeguard Apple Watch from thieves |publisher= Cult Of Mac |date= September 10, 2014 |accessdate= November 10, 2014 |df= mdy-all}}&lt;/ref&gt; It can store eight or 12 cards depending upon the device.&lt;ref name="Set up Apple Pay"&gt;{{cite web |title= Set up Apple Pay |url= https://support.apple.com/en-us/ht204506 |publisher=[[Apple Inc.|Apple]] |accessdate=June 4, 2018 |df= mdy-all}}&lt;/ref&gt;
+
+===Technology===
+Apple Pay uses&lt;ref&gt;{{cite web | title = How Apple Pay Really Works and Why You Should Begin Using it Immediately | url = http://www.kirklennon.com/a/applepay.html | date = 2014-10-20 | first = kirk | last = Lennon |df= mdy-all}}&lt;/ref&gt; the EMV Payment Tokenisation Specification.&lt;ref name="emvpaytok"&gt;{{cite web | title =  Payment Tokenisation | url = http://www.emvco.com/specifications.aspx?id=263 | publisher = EMVco | date = 2014-03-01 |df= mdy-all}}&lt;/ref&gt;
+
+The service keeps customer payment information private from the retailer by replacing the customer's credit or debit card [[Primary Account Number|Funding Primary Account Number]] (FPAN) with a tokenized Device Primary Account Number (DPAN), and creates a "dynamic security code [...] generated for each transaction".&lt;ref name="The Verge: allows you"/&gt; The 'dynamic security code' is the cryptogram in an [[EMV]]-mode transaction, and the Dynamic Card Verification Value (dCVV) in a magnetic stripe data emulation-mode transaction. Apple added that they would not track usage, which would stay between the customers, the vendors, and the banks. Users can also remotely halt the service on a lost phone via the [[Find My iPhone]] service.&lt;ref name="The Verge: allows you"/&gt;
+
+To pay at points of sale, users hold their authenticated Apple device to the point of sale system's NFC card reader. iPhone users authenticate by using Touch ID, Face ID,&lt;ref name="The Verge: allows you"/&gt;&lt;ref name="Apple Pay security"&gt;{{cite web | title=Apple Pay security and privacy overview | publisher=[[Apple Inc.|Apple]] | date=July 12, 2019 | url=https://support.apple.com/en-us/HT203027 | access-date=August 21, 2019}}&lt;/ref&gt; or passcode,&lt;ref name="Apple Pay security" /&gt; whereas [[Apple Watch]] users authenticate by double clicking a button on the device.&lt;ref name="The Verge: watch works"/&gt; To pay in supported iOS apps, users choose Apple Pay as their payment method and authenticate with Touch ID or Face ID.&lt;ref name="The Verge: allows you"/&gt; Users can add payment cards to the service in any of four ways: through the payment card listed on their iTunes accounts, by taking a photo of the card, being provisioned from within the card issuer's app, or by entering the card information manually.
+
+Although users receive immediate notification of the transaction, the Apple Pay system is not an [[instant payment]] instrument, because the funds transfer between counter-parties is not immediate.&lt;ref&gt;{{Cite web |url= https://www.ecb.europa.eu/paym/retpaym/instant/html/index.en.html |title= Definition of instant payment system |publisher=[[European Central Bank]] |date=February 24, 2018 |df= mdy-all}}&lt;/ref&gt; The settlement time depends on the payment method chosen by the customer. (An exception being payments made using a Japanese [[Suica]] card, which stores the user's balance on the card itself and can transfer funds directly to the merchant without the need for an online connection.)
+
+In the [[United Kingdom]], traditional contactless payments using bank cards are limited to £45 (previously £30 until April 2020 and then previously £20 until August 2015)&lt;ref&gt;{{cite news |last= Titcomb |first= James |title= Most Apple Pay UK transactions will be limited to £20, for now |url= https://www.telegraph.co.uk/technology/apple/11696699/Most-Apple-Pay-UK-transactions-will-be-limited-to-20-for-now.html |accessdate= July 13, 2015 |work=[[The Daily Telegraph|The Telegraph]] |date= June 24, 2015 |df= mdy-all}}&lt;/ref&gt; as no cardholder authentication is provided as part of the transaction. Payments using Apple Pay, however, support payments of any amount owing to the increased security and lower risk of fraud in Apple Pay transactions (although some issuing banks may impose their own transaction limits, and not all contactless readers support this functionality – see CDCVM below).&lt;ref&gt;{{cite web |url= https://support.apple.com/en-gb/HT204906|title=About Apple Pay for merchants in the UK |publisher=[[Apple Inc.|Apple]] |accessdate= July 12, 2015 |df= mdy-all}}&lt;/ref&gt; Similar transaction limits apply in other countries.
+
+Apple assumes some liability for fraudulent use of the service.&lt;ref name="The Verge: allows you" /&gt; Banks are expected to carry the burden of the service, and Apple is said to have negotiated smaller transaction fees. In turn, the banks hoped to capture purchases that were formerly handled without credit.&lt;ref name="NYT: Apple's Way" /&gt; ''[[Financial Times]]'' reported that Apple receives 0.15% cut of US purchases made with the service,&lt;ref name="The Register: 0.15%" /&gt; but, following the UK launch, reported that Apple's cut is much lower in the UK. This is largely because Regulation (EU) 2015/751 capped [[interchange fees]] in the [[European Economic Area]] at 0.3% for personal credit cards and 0.2% for personal debit cards with effect from June 8, 2015.&lt;ref&gt;{{cite news |last= Arnold |first= Martin |title= UK banks put squeeze on Apple Pay fees |url= http://www.ft.com/cms/s/0/02287f44-2a3d-11e5-8613-e7aedbb7bdb7.html |work=[[Financial Times]] |date= July 14, 2015 |accessdate= July 15, 2015 |df= mdy-all}}&lt;/ref&gt;&lt;ref&gt;{{cite web |title= Regulation (EU) 2015/751 of the European Parliament and of the Council of April 29, 2015 on interchange fees for card-based payment transactions |url= http://eur-lex.europa.eu/legal-content/EN/TXT/?uri=uriserv:OJ.L_.2015.123.01.0001.01.ENG |publisher= [[European Commission]] |accessdate= July 25, 2015 |df= mdy-all}}&lt;/ref&gt; In Russia, Apple receives 0.05% for debit cards and 0.12% for credit cards of each purchase, in addition, the bank pays 45 rubles a year for each card added in the service.&lt;ref name="Ведомости: комиссия"&gt;{{cite news |url= https://www.vedomosti.ru/finance/articles/2016/10/07/659962-apple-pay-komissiyu |title= Apple Pay берет с банков небольшую комиссию за каждую транзакцию |date= 2016-10-07 |publisher= Ведомости | language=Russian |accessdate= 2016-12-06 |df= mdy-all}}&lt;/ref&gt;
+
+=== {{anchor|CDCVM}}Consumer Device Cardholder Verification Method (CDCVM) ===
+In EMV-mode transactions, Apple Pay supports the use of the Consumer Device Cardholder Verification Method (CDCVM) using Touch ID, Face ID or the phone's or watch's passcode. The use of CDCVM allows for the device itself to provide verification for the transaction and may not require the cardholder to sign a receipt or enter their PIN. Additionally, in certain markets which have a 'no verification contactless limit' using contactless cards (such as the £30 limit in the United Kingdom and the C$100 limit in Canada), the use of CDCVM can enable merchants to accept transactions higher than these amounts using Apple Pay, providing their terminal software is updated to support the latest network contactless specifications.&lt;ref&gt;{{Cite news |url= https://support.apple.com/en-us/HT202527 |title= Consumer Device Cardholder Verification Method |publisher=[[Apple Inc.|Apple]] |access-date= 2016-12-01 |df= mdy-all}}&lt;/ref&gt;
+
+=== Express Transit or Express Travel ===
+Since iOS 12.3, supported credit and debit cards, as well as some [[stored-value card|stored-value transport cards]] (such as Shanghai &amp; Beijing transit cards, [[Suica]], [[Metropolitan Transportation Authority|MTA]] and [[TriMet]]) can be used to pay for journeys on certain public transport networks without requiring the user to authenticate the payment with [[Touch ID]] or [[Face ID]].&lt;ref&gt;{{Cite web|url=https://support.apple.com/en-us/HT209495|title=Use Express Transit with Apple Pay|publisher=[[Apple Inc.|Apple]] Support|access-date=2019-07-18}}&lt;/ref&gt; Once a supported credit, debit or transit card is selected as a user's Express Transit/Travel card, the user can simply hold their device near the card reader, for example at ticket barriers, to initiate or complete payment for the journey.
+
+Within iOS, the functionality is labelled as "Express Transit" in North America and "Express Travel" in most other English-speaking countries, because "transit" in most varieties of English has a narrower meaning of travelling through a jurisdiction or airport during a journey as opposed to travel or transport in general.
+
+On iPhone XR, iPhone XS, iPhone XS Max and later, Express Transit/Travel cards can be used up to five hours on Power Reserve after the device has powered off due to a drained battery. The typical low-battery icon will display with "Express Cards Available" text appearing at the bottom of the display, letting users know that Express Transit/Travel is still available for usage.
+
+Express mode is also available for contactless student ID cards stored in the Wallet app.&lt;ref&gt;{{Cite web|url=https://support.apple.com/en-us/HT208965|title=Use student ID cards in Wallet on your iPhone or Apple Watch|publisher=[[Apple Inc.|Apple]] Support|access-date=2019-07-18}}&lt;/ref&gt;
+
+=== Global acceptance ===
+About two-thirds of merchants accept Apple Pay, but many terminals don’t.&lt;ref&gt;{{cite web|title=Apple Card Review: Actually Owning It Changed Our Minds|url=https://thewirecutter.com/money/credit-cards/apple-credit-card-review/|last=Tepper|first=Taylor|date=11 May 2020|website=Wirecutter|url-status=live|archive-url=|archive-date=|access-date=}}&lt;/ref&gt; Due to [[provisioning]] differences between countries (and even between issuers), users may encounter acceptance issues when travelling to a different country. Some known issues include:
+* Canada, UK, and possibly other non-US-issued VISA cards only support EMV-mode transactions and not legacy magnetic stripe data emulation transactions. Some contactless terminals in the US do not support EMV-mode contactless transactions (even if they support EMV contact transactions), and therefore these visitors to the US will receive a 'Could Not Complete Payment' error on the iPhone screen and an error on the terminal when attempting to use Apple Pay.
+
+=== Apple Cash ===
+'''Apple Cash''', formerly '''Apple Pay Cash''', is a feature that allows the transfer of money from one user to another via [[iMessage]]. When a user receives a payment, the funds are deposited in the recipient's Apple Cash card, where it is available for immediate use at merchants that accept Discover. Alternatively, the user can choose to transfer the balance to a nominated bank account via [[ACH Network|ACH transfer]]. Apple Cash is only available in the [[United States]].&lt;ref&gt;{{Cite news |url= https://www.macworld.com/article/3236545/ios/apple-pay-cash-guide-what-it-is-how-it-works-and-what-it-costs.html |title= Apple Pay Cash guide: What it is, how it works, and what it costs |work=[[Macworld]] |access-date= 2018-08-05 |df= mdy-all}}&lt;/ref&gt;&lt;ref&gt;{{Cite news |url= https://www.forbes.com/sites/amitchowdhry/2017/12/19/how-to-use-apple-pay-cash/ |title= How To Use Apple Pay Cash |last= Chowdhry |first= Amit |work=[[Forbes]] |access-date= 2018-08-05 |df= mdy-all}}&lt;/ref&gt;
+
+==History==
+=== 2013 ===
+The service was in preparation for "a long time", as Apple acquired startups, hired executives and filed patents related to payments.&lt;ref name="The Verge: allows you" /&gt; Apple partnered with American Express, [[MasterCard]] and Visa. Their joint project began in January 2013, though they had discussed Apple's potential involvement for years. Their joint solution was a system where single-use digital tokens would replace the transfer of personal information.&lt;ref name="NYT: Apple's Way" /&gt; A Visa executive said that 750 people at the company worked on the anonymized "token" system for a year, and the other partners had similar teams in collaboration.&lt;ref name="The Verge: most revolutionary" /&gt; MasterCard began work on the project in 2013 and hoped that their joint work would become a "standard for mobile payments".&lt;ref name="The Verge: most revolutionary" /&gt; The announcement of the service came at a time when MasterCard and Visa policy created strong incentives for upgrading to mobile payment-compatible point of sale systems.&lt;ref name="The Verge: allows you" /&gt; Apple then approached several big banks in mid 2013 and did not divulge the names of the other banks. To maintain secrecy, JPMorgan set up a windowless "war room" where the majority of the sensitive work was done. Of their 300 people on the project, about 100 knew that the partner was Apple. Others close to the project did not know it was named "Apple Pay" until the announcement. The company's participation remained a secret leading up to its announcement.&lt;ref name="NYT: Apple's Way" /&gt;
+
+=== 2014 ===
+The service was announced at Apple's iPhone 6 event on September 9, 2014. At its announcement, Apple CEO [[Tim Cook]] described the magnetic stripe card payment process as broken for its reliance on plastic cards' "outdated and vulnerable magnetic interface", "exposed numbers", and insecure "security codes".&lt;ref name="The Verge: allows you" /&gt; The [[iOS 8]].1 software update accompanying the service's launch activated Apple Pay on compatible devices.&lt;ref name="The Verge: allows you" /&gt;&lt;ref name="The Verge: watch works" /&gt;&lt;ref&gt;{{cite web |title= How To Set Up Apple Pay On Your iPhone, iPad and Apple Watch| work= TaletLeopard |url= http://talentleopard.com/how-to-set-up-apple-pay-on-iphone-or-ipad/ |df= mdy-all}}&lt;/ref&gt; The company announced an API for app developers to build Apple Pay checkout into their apps.&lt;ref name="The Verge: allows you" /&gt;
+
+=== 2015 ===
+The service initially supported US-issued payment cards. An international roll-out was ongoing, beginning with support for '''[[United Kingdom|UK]]'''-issued payment cards in July 2015.&lt;ref name="APUK BBC 1"&gt;{{cite web|url=https://www.bbc.co.uk/news/business-33063748|title=Most Apple Pay payments will have £20 limit, banks say|publisher=[[BBC News Online]]|date=June 9, 2015|accessdate=July 26, 2015 |df= mdy-all}}&lt;/ref&gt; On December 17, 2015, [[Apple Inc.|Apple]] announced that it would launch Apple Pay with fifteen major banks in '''[[China]]''',&lt;ref name="china"&gt;{{cite news|url=http://fortune.com/2015/12/17/apple-pay-china-2016/ |title=Apple Pay Is Finally Coming To China |newspaper=[[Fortune (magazine)|Fortune]] |first= Leena |last=Rao |date=December 17, 2015 |df= mdy-all}}&lt;/ref&gt; and Chinese users could start to use Apple Pay on February 18, 2016.&lt;ref&gt;{{cite news|url=https://www.bbc.com/news/technology-35601110 |title=Apple Pay to be available in China from this week |publisher=[[BBC News Online]] |date=February 18, 2016 |df= mdy-all}}&lt;/ref&gt;
+
+In October 2015, Apple Pay vice president Jennifer Bailey confirmed that KFC, Chili's, and Starbucks would begin accepting Apple Pay in 2016.&lt;ref&gt;{{cite web|url=http://www.macrumors.com/2016/06/01/kfc-now-accepts-apple-pay-united-states/|title=KFC Now Accepts Apple Pay in the United States|publisher=[[MacRumors]]|last=Rossignol|first=Joe|access-date=2016-06-01 |df= mdy-all}}&lt;/ref&gt;
+
+=== 2016 ===
+On March 8, 2016, [[ExxonMobil]] officially launched Apple Pay support within its [[Speedpass|Speedpass+]] iOS app, letting customers pay for gas or car washes directly from their iPhone, eliminating the need to use the ExxonMobil's physical NFC Speedpass keychain token at the point of transaction.&lt;ref&gt;{{cite web|url=http://www.cnet.com/news/exxonmobil-now-lets-you-buy-gas-using-apple-pay-at-the-pump/|title=ExxonMobil lets you buy gas using Apple Pay at the pump|publisher=[[CNET]]|access-date=2016-06-03 |df= mdy-all}}&lt;/ref&gt;
+
+On April 27, 2016, [[Australia and New Zealand Banking Group|ANZ]] made Apple Pay available to their American Express and Visa cardholders in '''[[Australia]]'''.&lt;ref name=":0"&gt;{{cite web|url=https://www.apple.com/au/apple-pay/|title=Apple Pay - Apple (AU)|publisher=[[Apple Inc.|Apple]] (AU)|access-date=2016-04-27 |df= mdy-all}}&lt;/ref&gt;&lt;ref name=":1"&gt;{{Cite news|url=https://www.reuters.com/article/us-apple-australia-banking-idUSKCN0XO2L8|title=Apple, ANZ Bank strike deal to bring Apple Pay to Australia|date=2016-04-27|agency=[[Reuters]]|access-date=2016-04-27 |df= mdy-all}}&lt;/ref&gt;
+
+On May 4, 2016, [[Kohl's]] became the first retailer to allow the use of Apple Pay with Kohl's Charge Cards or other credit or debit cards enrolled with Apple Pay and simultaneously earn Yes2You Rewards&lt;ref&gt;{{cite web |url= http://www.kohls.com/feature/rewards.jsp |title= Sign Up for Kohl's Rewards: Yes2You Rewards - Kohl's |publisher=[[Kohl's]] |df= mdy-all}}&lt;/ref&gt; loyalty points with a single tap using Apple Pay. [[J. C. Penney|J.C. Penney]] announced that they will be rolling out the same in the near future.&lt;ref&gt;{{cite web |url= http://www.macrumors.com/2016/05/04/kohls-combined-payments-rewards-apple-pay/ |title= Kohl's Becomes First Retailer to Support Store Payments and Rewards With One Tap in Apple Pay |publisher=[[MacRumors]] |last= Rossignol |first= Joe |access-date= 2016-05-05 |df= mdy-all}}&lt;/ref&gt;
+
+On May 10, 2016, Apple Pay expanded the service in '''[[Canada]]''' to customers of [[Royal Bank of Canada|RBC]], [[Canadian Imperial Bank of Commerce|CIBC]], [[ATB Financial]] and [[Canadian Tire Financial Services|Canadian Tire Bank]]. The expansion includes varying support for Visa, MasterCard, and [[Interac]], covering most major debit and credit cards in Canada. Apple Pay was previously only available in Canada for non-bank-issued American Express cards. Apple Pay was expanded to [[TD Canada Trust]], [[Scotiabank]], and the [[Bank of Montreal]] in June to complete the rollout across Canada's Big Five financial institutions.&lt;ref name="Apple Pay - Apple CA"&gt;{{cite web|url=https://www.apple.com/ca/apple-pay/|title=Apple Pay - Apple (CA)|publisher=[[Apple Inc.|Apple]] (CA)|access-date=2016-05-10 |df= mdy-all}}&lt;/ref&gt; Apple Pay support is also coming soon to [[Air Canada]], [[Aldo Group]], [[Domino's Pizza]], [[Pizza Pizza]], [[Zulily]], and the [[Toronto Transit Commission]]. Additionally, the payment service is integrated into the iPhone and iPad applications for the [[Apple Store (online)|Apple Store]], [[Delta Air Lines]], [[Etsy]], [[Fancy.com]], [[Groupon]], [[Kickstarter]], [[Priceline.com]], [[Starbucks]], [[Ticketmaster]], [[Uber]], and [[Zara (retailer)|Zara]] starting in June 2016.&lt;ref&gt;{{cite web |url= http://www.macrumors.com/2016/05/10/canadas-big-five-banks-sign-up-to-apple-pay/ |title= Apple Pay Coming to Canada's Banks Starting With RBC and CIBC Today |publisher=[[MacRumors]] |last= Rossignol |first= Joe |access-date= 2016-05-10 |df= mdy-all}}&lt;/ref&gt;
+
+On May 19, 2016, Chime Banking initiated its support of Apple Pay.&lt;ref&gt;{{cite web |url= http://www.macrumors.com/2016/05/19/chime-banking-now-supports-apple-pay/ |title= Chime Banking Now Supports Apple Pay |publisher=[[MacRumors]] |last= Rossignol |first= Joe |access-date= 2016-05-19 |df= mdy-all}}&lt;/ref&gt;
+
+Apple Pay launched in '''[[Singapore]]''' on April 19, 2016, with American Express issued cards. On May 25, 2016, this was extended to support Visa and MasterCard credit and debit cards issued by Singapore's five major banks, translating to about 83 percent of credit and debit cards in the country.&lt;ref&gt;{{cite news |title= Apple Pay expands in Singapore |url= http://www.channelnewsasia.com/news/business/apple-pay-expands-in/2814278.html |publisher=[[Channel NewsAsia]] |df= mdy-all}}&lt;/ref&gt;
+
+BMO, Scotiabank, and TD Canada Trust, which make up three of the five largest banks in Canada, rolled out Apple Pay support on June 1, 2016.&lt;ref&gt;{{cite web |url= https://www.thestar.com/business/2016/05/31/all-big-five-banks-join-apple-pay-club.html|title=All Big Five banks join Apple Pay club |website=[[Toronto Star]] |date=May 31, 2016 |access-date= 2016-06-01 |df= mdy-all}}&lt;/ref&gt;
+
+On June 1, 2016, KFC has announced that it accepts Apple Pay at some of its U.S. restaurants, with nationwide adoption to be completed by the end of the summer.&lt;ref&gt;{{cite news |url= http://www.prnewswire.com/news-releases/convenient-commerce-comes-to-kfc-customers-300277919.html |title= Convenient Commerce Comes To KFC Customers |publisher=[[KFC]] |agency=[[PR Newswire]] |access-date= 2016-06-03 |df= mdy-all}}&lt;/ref&gt;
+
+On June 3, 2016, [[GrubHub Seamless|Grubhub]], the nation's leading online and mobile food-ordering and delivery platform began accepting payment from its customers using Apple Pay on its two applications; Grubhub and [[Seamless (company)|Seamless]].&lt;ref&gt;{{cite web |url= http://www.publicnow.com/view/315B37A4E2F7F5DE75DF821B2F9C7D5A1D2D50C3#sthash.R6x1MdQ2.dpuf |title= GrubHub Inc. (via Public) / Apple Pay Coming to Grubhub's Customers |publisher= publicnow.com |access-date= 2016-06-03 |df= mdy-all}}&lt;/ref&gt; The company is keeping up with its rivals in adopting the payment service as Caviar, [[DoorDash]], and [[Postmates]].&lt;ref&gt;{{cite web |url= https://techcrunch.com/2016/06/02/you-can-now-use-apple-pay-to-pay-for-seamless-and-grubhub-deliveries/ |title= You can now use Apple Pay to pay for Seamless and Grubhub deliveries |last= Tepper |first= Fitz |website=[[TechCrunch]] |access-date= 2016-06-03 |df= mdy-all}}&lt;/ref&gt;
+
+[[Apple Inc.|Apple]] announced at its [[Apple Worldwide Developers Conference|WWDC]] 2016 keynote on June 13, 2016, that Apple Pay will be entering three new markets; '''[[France]]''', '''[[Hong Kong]]''', and '''[[Switzerland]]''' over the following months in partnerships with Visa, Mastercard, and American Express. Visa and Mastercard cards will be supported in all three markets, while American Express will also be available in Hong Kong. The specific credit, debit, and prepaid cards that can be used in each country vary depending on the participating issuers&lt;ref&gt;{{cite web |url= http://www.macrumors.com/2016/06/14/apple-pay-france-hong-kong-switzerland/ |title= Apple Pay Expanding to France, Hong Kong, and Switzerland |publisher=[[MacRumors]] |last= Rossignol |first= Joe |access-date= 2016-06-14 |df= mdy-all}}&lt;/ref&gt;
+
+* [[France]] at launch will include [[Groupe Banque Populaire|Banque Populaire]], Boon, [[Caisse d'Epargne-Illes Balears|Caisse Epargne]], [[Carrefour SA|Carrefour Banque]], Orange, and [[meal voucher|Ticket Restaurants]]. It will also be accepted at many retailers in France, including Apple, [[Bocage]], [[Paul (bakery)|Boulanger]], Cojean, [[Christian Dior SE|Dior]], [[Fnac]], [[Le Bon Marché]], [[Louis Vuitton]], [[Orange S.A.|Orange]], [[Pret a Manger]], [[Parkeon]], [[Sephora]], and at other locations where contactless payments are already accepted.&lt;ref&gt;{{cite web |url= http://iphoneaddict.fr/post/news-184272-apple-pay-disponible-france-voici-comment-lactiver-lutiliser |title= Apple Pay est disponible en France : voici comment l'activer et l'utiliser |language= fr-FR |access-date= 2016-07-19 |df= mdy-all}}&lt;/ref&gt;
+* [[Hong Kong]] at launch will include the [[Bank of East Asia]] (BEA), [[Bank of China (Hong Kong)]], [[DBS Bank (Hong Kong)]], [[Hang Seng Bank]], [[HSBC]], and [[Standard Chartered Hong Kong|Standard Chartered]]. Apple Pay will also be accepted at [[7-Eleven]], Apple, Colourmix, KFC, [[Lane Crawford]], [[Mannings]], [[McDonald's]], [[Pacific Coffee Company|Pacific Coffee]], [[Pizza Hut]], Sasa, Senryo, Starbucks, [[ThreeSixty]], and at other locations where contactless payments are already accepted.
+* [[Switzerland|Switzerland's]] launch of the service was on July 7, 2016, with Mastercard and Visa.&lt;ref name="macprime.ch"&gt;{{cite web |url= https://www.macprime.ch/news/article/apple-pay-ist-ab-sofort-verfuegbar-in-der-schweiz |title= Apple Pay ist ab sofort verfügbar in der Schweiz |website=Macprime.ch |access-date= 2016-07-07 |df= mdy-all}}&lt;/ref&gt; Initial banks deploying Apple Pay in Switzerland include Bonus Card, {{Interlanguage link|Cornèr Bank|de|vertical-align=sup}} (Cornèrcard), and [[Swiss Bankers Association|Swiss Bankers]]. Apple Pay will also be accepted at retail locations of [[Aldi|Aldi Suisse]], Apple, Avec, [[Hublot]], K Kiosk, [[Lidl]], [[Louis Vuitton]], Mobilezone, Press &amp; Books, [[Spar (retailer)|SPAR]], [[TAG Heuer]], and at other locations where contactless payments are already accepted.
+* A month after Apple Pay launched in Hong Kong, the service has expanded to [[Bank of East Asia|The Bank of East Asia (BEA)]] and [[Hong Kong Telecom|Hong Kong Telecom (HKT)'s]] Tap &amp; Go contactless payments network.&lt;ref&gt;{{cite web |url= http://www.macrumors.com/2016/08/16/apple-pay-bea-tap-and-go-hong-kong/ |title= BEA and Tap &amp; Go Now Support Apple Pay in Hong Kong |publisher=[[MacRumors]] |last= Rossignol |first= Joe |access-date= 2016-08-16 |df= mdy-all}}&lt;/ref&gt;
+
+On June 26, 2016, [[Bendigo and Adelaide Bank]] alongside [[Commonwealth Bank]], [[National Australia Bank|NAB]] and [[Westpac]] sought authorisation from the [[Australian Competition and Consumer Commission]] (ACCC) for third party access to the iPhone's NFC chip (limited to Apple Pay) in order to distribute their own mobile wallet without any delays nor interference from Apple and also to collectively negotiate passing Apple Pay fees to cardholders. This action received support from the likes of [[Heritage Bank]], [[Tyro Payments]] and [[Coles Supermarkets|Coles]]. An interim authorisation, however, was not granted on August 19, 2016. A draft determination also denied the authorisation on November 29, 2016. After a three-month extension, the ACCC released a determination denying authorisation on March 31, 2017. During this time, the banks involved in this action held a collective boycott of the service.&lt;ref&gt;{{Cite web |url= https://www.accc.gov.au/public-registers/authorisations-and-notifications-registers/authorisations-register/bendigo-and-adelaide-bank-ors-authorisation-a91546-a91547 |title= Bendigo and Adelaide Bank &amp; Ors - Authorisation - A91546 &amp; A91547 |publisher=[[Australian Competition and Consumer Commission]] |date= 2017-03-31 |access-date= 2019-01-26 |df= mdy-all}}&lt;/ref&gt;
+
+Under a partnership with American Express, Hong Kong and [[Spain]] will also get Apple Pay support in 2016.&lt;ref&gt;{{cite news |title= Apple Partnering With American Express to Bring Apple Pay to Canada, Australia, Spain, Singapore and Hong Kong |date= 2015-10-27 |url= http://www.macrumors.com/2015/10/27/apple-pay-american-express-partnership/ |publisher=[[MacRumors]] |df= mdy-all}}&lt;/ref&gt;
+
+[[Bank of America]] is outfitting some of its [[ATM Machine|ATMs]] with Apple Pay support and the ability to withdraw cash using it. The new Apple Pay enabled ATM is outfitted with the NFC reader and logo that Apple Pay users have become used to seeing since the service launched. The NFC reader is located directly to the left of the card reader, although unlike the card reader, the NFC reader does not light up. Bank of America has launched a new website&lt;ref name=BoAPromo /&gt; detailing the simple process of withdrawing cash with a smartphone ([[Google Pay]], [[Samsung Pay]], or Apple Pay). Bank of America says that "Consumer Debit Cards, [[U.S. Trust]] Debit Cards, Small Business Debit Cards (owner card only)" are supported.&lt;ref name=BoAPromo&gt;{{cite web |url= https://www.reddit.com/r/apple/comments/4oogms/you_can_now_get_cash_at_bank_of_america_atms_with/ |title= You can now get cash at Bank of America ATMs with Apple Pay|work=/r/apple |publisher=[[reddit]] |access-date= 2016-06-20 |df= mdy-all}}&lt;/ref&gt;&lt;ref&gt;{{cite web |url= http://promo.bankofamerica.com/cardlessatm/?cm_mmc=DEP-General-_-vanity-_-DG01VN001L_cardlessatm-_-NA |title= Cardless ATM |publisher=[[Bank of America]] |access-date= 2016-06-20 |df= mdy-all}}&lt;/ref&gt; [[Wells Fargo]] and [[JPMorgan Chase]] also integrated Apple Pay support into their ATMs.&lt;ref&gt;{{cite web |url= http://9to5mac.com/2016/01/28/bank-of-america-wells-fargo-said-to-be-working-on-apple-pay-support-for-atm-withdrawals/ |title= Bank of America &amp; Wells Fargo said to be working on Apple Pay support for ATM withdrawals |last= Miller |first= Chance |date= 2016-01-28 |website=[[9to5Mac]] |access-date= 2016-06-20 |df= mdy-all}}&lt;/ref&gt;
+
+On August 18, 2016, Apple announced it has added Apple Pay support for customers of [[Yorkshire Bank]] and [[Clydesdale Bank]] in the United Kingdom.&lt;ref&gt;{{cite web |url= http://www.macrumors.com/2016/08/18/apple-pay-clydesdale-bank-yorkshire-bank-b-u-k/ |title= Apple Pay Comes to Clydesdale Bank, Yorkshire Bank, and 'B' Customers in the U.K. |publisher=[[MacRumors]] |last= Hardwick |first= Tim |access-date= 2016-08-18 |df= mdy-all}}&lt;/ref&gt;
+
+On August 29, 2016, ANZ expanded their support for Apple Pay to support MasterCard holders in Australia.&lt;ref&gt;{{cite web |url= http://www.macrumors.com/2016/08/29/apple-pay-anz-australia-mastercard/ |title= ANZ Expands Apple Pay Support to MasterCard in Australia |publisher=[[MacRumors]] |last= Rossignol |first= Joe |access-date= 2016-08-31 |df= mdy-all}}&lt;/ref&gt;
+
+On September 7, 2016, Apple announced that [[iPhone 7]] and [[Apple Watch Series 2]] users in '''[[Japan]]''' can add both local credit cards and [[FeliCa]] cards to their Apple Pay wallets. Only [[Suica]] cards are supported by Apple Pay, which can be used at subway stations, convenience stores, etc., just like regular Suica cards. Apple Pay also supports payment via all [[QUICPay]] and [[iD(Credit Settlement Service)|iD]] enabled terminals that are already popular in Japan.&lt;ref name="applepayjapan"&gt;{{cite web |url=https://www.apple.com/jp/apple-pay/ |title=Apple Pay|accessdate=2016-09-07 |df= mdy-all}}&lt;/ref&gt;&lt;ref&gt;{{cite web|url=https://www.apple.com/jp/apple-pay/getting-started/|title=Apple Pay Getting Started|accessdate=2016-09-07 |df= mdy-all}}&lt;/ref&gt;&lt;ref name="applepayjapan_news"&gt;{{cite press release |url= https://www.apple.com/newsroom/2016/09/apple-pay-coming-to-japan-with-iphone-7.html |title= Apple Pay Coming to Japan|publisher=[[Apple Inc.|Apple]]|access-date=2016-09-13 |df= mdy-all}}&lt;/ref&gt;
+
+Taiwan's Financial Supervisory Commission began accepting applications from the country's banks offering Apple Pay to their customers on September 28, 2016. This includes the banks; [[CTBC Bank]], [[Cathay United Bank|Cathay]], [[United Commercial Bank]], [[E.SUN Commercial Bank]], and [[Taishin International Bank]].&lt;ref&gt;{{cite web |url= http://www.digitimes.com/news/a20160930PD211.html |title= Taiwan government starts taking applications from banks for Apple Pay |work=[[DigiTimes]] |first= Rachel |last= Miaou |location= [[Taipei]] |first2= Joseph |last2= Tsai |access-date= 2016-09-30 |df= mdy-all}}&lt;/ref&gt;
+
+On October 13, 2016, Apple Pay rolled out in '''[[New Zealand]]''', available to customers with Visa credit or debit cards issued by [[ANZ Bank New Zealand|ANZ]].&lt;ref&gt;{{cite web|title=Apple Pay Launches in New Zealand, Now Available in 11 Countries|url=http://www.financemagnates.com/fintech/payments/apple-pay-launches-in-new-zealand-now-available-in-11-countries/|website=[[Finance Magnates]] |date=October 13, 2016 |accessdate=October 13, 2016}}&lt;/ref&gt;
+
+On November 15, 2016, Apple Pay was made available to credit unions and minor banks under the [[Cuscal]] network in Australia.&lt;ref&gt;{{Cite web|url=https://www.cuscalpayments.com.au/news/press-releases/cuscal-enables-clients-offer-apple-pay/|title=Cuscal enables clients to offer Apple Pay|date=2016-11-14|website=Cuscal|access-date=2019-01-26}}&lt;/ref&gt;
+
+On December 1, 2016, Apple Pay started operating in '''[[Spain]]''' available to customers with cards issued by American Express, [[Banco Santander]], Ticket Restaurante and Carrefour.&lt;ref&gt;{{cite web|url=https://phoneia.com/using-apple-pay-in-spain-right-now-and-what-cards-are-valid-for-this/|title=Using Apple Pay in Spain right now (and what cards are valid for this)|last=Miller|first=Chance|date=2016-01-28|website=Phoneia|access-date=2016-12-06}}&lt;/ref&gt;
+
+=== 2017 ===
+On January 13, 2017, ANZ was one of the first banks to release an instant provisioning service with Apple Pay in Australia, this allowed for customers to utilise the service even when they lost or had their card stolen.
+
+On January 28, 2017, Credibanco and Redeban Multicolor enabled contactless payments such as Apple Pay; it was available by virtual prepaid card service like Boon Payment by Wirecard, Square Cash by Squareup and Yandex Money. Also Apple Pay enabled bank cards are accepted.
+
+On March 7, 2017, [[Ulster Bank]] and [[KBC Bank Ireland]] became the first banks in '''[[Republic of Ireland]]''' to launch Apple Pay.&lt;ref&gt;{{cite web|url=http://www.independent.ie/business/technology/news/want-to-pay-in-shops-with-your-iphone-or-apple-watch-apple-pay-available-for-irish-consumers-35508500.html|title=Want to pay in shops with your iPhone or Apple Watch? Apple Pay available for Irish consumers - Independent.ie|work=[[Irish Independent]] |df= mdy-all}}&lt;/ref&gt;&lt;ref&gt;{{cite web|url=http://www.irishtimes.com/business/technology/apple-pay-contactless-service-launches-in-ireland-1.3000151|title=Apple Pay contactless service launches in Ireland|work=[[Irish Times]] |df= mdy-all}}&lt;/ref&gt;
+
+On March 29, 2017, Apple Pay launched in '''[[Taiwan]]''' with seven banks.
+
+On May 17, 2017, Apple Pay launched in '''[[Italy]]''' (including [[San Marino]] and [[Vatican City]]) with boon., Unicredit and Carrefour Bank, also introducing support for Mastercard's Maestro and Visa's VPay, not available to use with Apple Pay in other countries.
+
+On May 18, 2017, Apple Pay expanded in [[Ireland]] to include bank [[Allied Irish Bank]].
+
+On October 17, 2017, Apple Pay rolled out to the [[debit card#Australia|eftpos]] card network in Australia, marking the first card tokenisation service of the network. The rollout was only limited to ANZ Access cards and could only be used in physical stores.&lt;ref&gt;{{Cite web|url=https://9to5mac.com/2017/10/17/eftpos-apple-pay-anz-australia/|title=Apple Pay now works with Eftpos cards from ANZ in Australia|last=Miller|first=Chance|date=2017-10-17|website=[[9to5Mac]]|access-date=2019-01-26 |df= mdy-all}}&lt;/ref&gt;
+
+On October 23, 2017, Apple Pay expanded to '''[[Sweden]]''', '''[[Denmark]]''', '''[[Finland]]''', and the '''[[United Arab Emirates]]'''.&lt;ref&gt;{{cite web |title= Apple Pay Has Expanded to Sweden, Denmark, Finland and the United Arab Emirates |url= https://developer.apple.com/news/?id=10232017a |publisher= [[Apple Inc.|Apple]] |df= mdy-all |access-date= October 24, 2017 |archive-url= https://web.archive.org/web/20171024151209/https://developer.apple.com/news/?id=10232017a |archive-date= October 24, 2017 |url-status= dead }}&lt;/ref&gt;
+
+On October 24, 2017, [[Bank of New Zealand|BNZ (Bank of New Zealand)]] became the second bank in [[New Zealand]] to offer Apple Pay to their customers with eligible Visa cards.&lt;ref&gt;{{cite web|title=Apple Pay Available to BNZ Customers|url=http://www.scoop.co.nz/stories/BU1710/S00659/apple-pay-available-to-bnz-customers.htm|website=Scoop |df= mdy-all}}&lt;/ref&gt;
+
+On November 28, 2017, Bendigo Bank was the first bank after the denied ACCC authorisation to roll out Apple Pay to its Mastercard customers.&lt;ref&gt;{{Cite web|url=https://www.finder.com.au/bendigo-bank-customers-can-now-shop-with-apple-pay|title=Bendigo Bank customers can now shop with Apple Pay|last=McMullen|first=Sally|date=2017-11-28|website=finder.com.au|access-date= 2019-01-26 |df= mdy-all}}&lt;/ref&gt;
+
+On December 14, 2017, Apple approved for UK banks to provide Apple merchant accounts.{{citation needed|date=August 2018}}
+
+=== 2018 ===
+On February 1, 2018, Apple has confirmed that Apple Pay will arrive in '''[[Brazil]]''' as it announces its fiscal first quarter results for 2018.
+
+On March 28, 2018, Bendigo and Adelaide Bank subsidiary and neobank Up announced support for multiple mobile wallets, one being Apple Pay.&lt;ref&gt;{{Cite web|url=https://twitter.com/up_banking/status/978847666384891904?s=20|title=It's Wristlemania time! We're now live with (from top to bottom) Google, Apple, Fitbit, AND Garmin Pay pic.twitter.com/myEr2jucZQ|author=@up_banking|date=2018-03-27|publisher=[[Twitter]]|access-date=2019-01-26 |df= mdy-all}}&lt;/ref&gt;
+
+On March 30, 2018, iOS 11.3 released, Apple Pay supports the [[Shanghai Public Transport Card]] (SPTC) and [[Yikatong|Beijing Transportation Card]] for local buses, subways and other public transportation. The SPTC can also be used for public transportation in cities that have joined the [[:zh-tw:全国城市一卡通互联互通|City Union]] plan.&lt;ref&gt;{{cite web |script-title=zh:关于Apple Pay交通卡你可能关心的几个问题 |trans-title=Some questions about Apple Pay transit card you may care |url=http://www.icfw.com.cn/meet_info.php?id=1000555&amp;pid=362 |website=icfw.com.cn |language=zh-CN |df= mdy-all}}&lt;/ref&gt;
+
+On April 4, 2018, Apple Pay launched in Brazil with Itaú Unibanco (including Credicard).&lt;ref&gt;{{Cite news |url= https://www.zdnet.com/article/apple-pay-launches-in-brazil-with-itau/|title=Apple Pay launches in Brazil with Itaú |last= Mari |first= Angelica |work=[[ZDNet]] |access-date= 2018-06-18 |df= mdy-all}}&lt;/ref&gt;
+
+On May 1, 2018, Apple has confirmed that Apple Pay will arrive in '''[[Norway]]''', '''[[Poland]]''', and '''[[Ukraine]]''' as it announces its fiscal second quarter results for 2018.
+
+* On May 17, 2018, Apple Pay launched in Ukraine with PrivatBank.&lt;ref&gt;{{Cite news|url=https://www.macrumors.com/2018/05/17/apple-pay-launches-in-ukraine/|title=Apple Pay Launches in Ukraine|last=|first=|date=|publisher=[[MacRumors]]|access-date=2018-06-18|df= mdy-all}}&lt;/ref&gt;
+* On June 19, 2018, Apple Pay launched in Poland with [[Alior Bank]], [[Bank BGŻ BNP Paribas|BGZ BNP Paribas]], [[Bank Zachodni WBK|BZ WBK]], [[Getin Bank]], [[mBank]], Nest Bank, [[Bank Pekao|Pekao]], and Raiffeisen Polbank.&lt;ref&gt;{{Cite news |url= https://www.macrumors.com/2018/06/19/apple-pay-launches-in-poland/ |title= Apple Pay Launches in Poland |last= Clover |first= Juli |publisher=[[MacRumors]] |access-date= 2018-06-19 |df= mdy-all}}&lt;/ref&gt;
+* On June 20, 2018, Apple Pay launched in Norway with [[Nordea Bank Norge|Nordea]], [[Santander Bank|Santander]], and [[Sbanken]].&lt;ref&gt;{{Cite news |url= https://www.macrumors.com/2018/06/20/apple-pay-debut-norway/ |title= Apple Pay Debuts in Norway |last= Slivka |first= Eric |publisher=[[MacRumors]] |access-date= 2018-06-20 |df= mdy-all}}&lt;/ref&gt;
+
+On July 31, 2018, [[Tim Cook]] announced on the Q3 2018 Earnings Call, that Apple Pay would launch in '''[[Germany]]''' later in 2018.&lt;ref&gt;{{Cite news|url=https://9to5mac.com/2018/07/31/apple-pay-germany-cvs-7-11-late-2018/|title=Apple Pay coming to Germany this fall|last=|first=|work=[[9to5mac]]|access-date=2018-08-04|df= mdy-all}}&lt;/ref&gt;
+
+On August 14, 2018, Apple Pay expanded in Brazil to include [[Banco Bradesco]] and [[Banco do Brasil]].&lt;ref&gt;{{Cite news |url= https://tecnoblog.net/255559/apple-pay-cartoes-bradesco-bb/ |title= Apple Pay agora suporta cartões do Bradesco e BB |work= technoblog |access-date= 2018-08-14 |language= pt |df= mdy-all}}&lt;/ref&gt;
+
+On November 5, 2018, Apple announced the launch banks for the upcoming launch in Germany. This includes [[Deutsche Bank]], [[HypoVereinsbank]], [[comdirect]], [[Fidor Bank|Fidor]] Bank, [[Hanseatic Bank]], [[N26 (bank)|N26]], [[bunq]], [https://www.vimpay.de VimPay] and boon. by [[Wirecard]].&lt;ref&gt;{{Cite web|url=https://www.apple.com/de/apple-pay/|title=Apple Pay|publisher=[[Apple Inc.|Apple]] (Deutschland)|language=de-DE|access-date=2018-11-13 |df= mdy-all}}&lt;/ref&gt; American Express will also support all self-issued cards from launch. [[Payment system|Payments networks]] include American Express, Mastercard (along with the debit brand [[Maestro (debit card)|Maestro]]), and Visa. The German national debit card scheme [[Girocard]] will not be part of the launch.
+
+On September 18, 2018, similar to the Bank of America ATM rollout, ANZ made their contactless ATM available to all mobile wallets including Apple Pay. Contactless withdrawals were previously exclusive to their proprietary ANZ Mobile Wallet app.
+
+On November 8, 2018, Bendigo and Adelaide Bank subsidiary and neobank Up announced their instant provisioning service, being the second bank in Australia to do so. It also allows for customers to start using the banking service with Apple Pay before their physical card arrives.&lt;ref&gt;{{Cite web|url=https://twitter.com/up_banking/status/1060401490030776321?s=20|title=Apple Pay provisioning is now part of the sign up flow for new customers. You can add your Up card to Apple Pay before the plastic arrives! We've also just given Apple Pay a permanent home You can always find 'setup Apple Pay' under the Card section of the Up tab pic.twitter.com/N9MWmoes6Q|date=2018-11-07|author=@up_banking|publisher=[[Twitter]]|access-date=2019-01-26 |df= mdy-all}}&lt;/ref&gt;
+
+On November 28, 2018, Apple Pay launched in '''[[Belgium]]''' with an exclusive partnership with [[BNP Paribas Fortis]], along with its subsidiaries [[Fintro]] and [[Hello bank!]]&lt;ref&gt;{{Cite web|url=https://www.apple.com/befr/apple-pay/|title=Apple Pay|publisher=[[Apple Inc.|Apple]] (Belgique)|language=fr-FR|access-date=2018-11-28 |df= mdy-all}}&lt;/ref&gt; and support for the MasterCard, Maestro and Visa payment networks. In '''[[Kazakhstan]]''' Apple Pay launched with support from ATFBank, [[Eurasian Bank]], [[Halyk Bank]], [[Sberbank of Russia|Sberbank]], [[Bank CenterCredit]] and ForteBank.&lt;ref&gt;{{Cite news|url=https://support.apple.com/en-gb/HT206638|title=Apple Pay participating banks and card issuers in Asia-Pacific|publisher=[[Apple Inc.|Apple]]|access-date=2018-11-28|df= mdy-all}}&lt;/ref&gt;
+
+On December 11, 2018, Apple launched Apple Pay in '''[[Germany]]''' along with a press conference at the [[Allianz Arena]] in Munich, the home stadium of the major football team [[FC Bayern Munich|Bayern München]].&lt;ref&gt;{{Cite press release |url= https://www.apple.com/de/newsroom/2018/12/apple-pay-launches-in-germany/ |title= Apple Pay startet in Deutschland |publisher=[[Apple Inc.|Apple]] |language= de-DE |access-date= 2018-12-11 |df= mdy-all}}&lt;/ref&gt; Apple also announced more banks to follow in 2019, including the major banks [[Deutsche Kreditbank|DKB]], [[ING Group|ING]], [[Consorsbank]] ([[BNP Paribas]]), [[Consors Finanz]] ([[BNP Paribas]]), and the British FinTech [[Revolut]]. Meanwhile, on the same day as the launch in Germany, the German Public Savings Banks Association (DSGV / [[Sparkasse]]), with the largest share of consumer banking in Germany, has announced that it is seeking to gain access to the NFC chip in iPhones for their own proprietary payment solution.&lt;ref&gt;{{Cite press release |url= https://www.dsgv.de/newsroom/presse/181211-PM-Apple-Pay-54.html |title= Apple Pay: Sparkassen fordern Zugang für alle Kunden - DSGV.de |website= sparkasse_de |language= de |access-date= 2018-12-14 |df= mdy-all}}&lt;/ref&gt;
+
+On December 14, 2018, [[Commonwealth Bank of Australia|Commonwealth Bank]] announced Apple Pay on its social media, which would launch in January 2019 for its customers.&lt;ref&gt;{{Cite web |url= https://twitter.com/CommBank/status/1073367238235676672?s=20|title=Apple Pay is coming for CommBank personal customers January 2019 pic.twitter.com/VHeZWKBoRp |publisher=[[Twitter]] |date= 2018-12-13 |author= @CommBank |access-date= 2019-01-26 |df= mdy-all}}&lt;/ref&gt;
+
+=== 2019 ===
+On January 14, 2019, Apple Pay was confirmed by local banks in '''[[Czech Republic]]''',&lt;ref&gt;{{Cite web|url=https://www.letemsvetemapplem.eu/2019/02/13/potvrzeno-apple-pay-v-ceske-republice-odstartuje-19-unora-v-600/|title=Potvrzeno: Apple Pay v České republice odstartuje 19. února v 6:00|website=letemsvetemapplem.eu|language=cs-cz |date=February 13, 2019 |access-date=2019-02-17|df=mdy-all}}&lt;/ref&gt; where it is expected to launch on February 19,&lt;ref&gt;{{cite news|url=https://appleinsider.com/articles/19/02/08/apple-pay-expected-to-debut-in-czech-republic-on-feb-19|title=Apple Pay expected to debut in Czech Republic on Feb. 19|date=February 8, 2019|author= Roger Fingas|publisher=[[Apple Inc.|Apple]] Insider}}&lt;/ref&gt; and '''[[Slovakia]]''' and '''[[Slovenia]]''' with launch expected during March.&lt;ref name="macgadget20190219"&gt;{{cite web|url=https://www.macgadget.de/News/2019/02/19/Bezahldienst-Apple-Pay-in-zwei-weiteren-Laendern-gestartet|title=Bezahldienst Apple Pay in Zwei Weiteren Ländern Gestartet|date=February 19, 2019|website=MacGadget.de|language=German}}&lt;/ref&gt;
+
+On January 18, 2019, Apple Pay announced support for dual network debit cards in Australia. ANZ Visa debit cardholders can choose to pay via the Visa network (Credit) or the eftpos network (savings and cheque).&lt;ref&gt;{{Cite web|url=https://media.anz.com/posts/2019/01/anz-extends-apple-pay-offering-with-eftpos-choice|title=ANZ extends Apple Pay offering with eftpos choice|website=media.anz.com|access-date=2019-01-26|df=mdy-all}}&lt;/ref&gt; [[Debit card#Australia|Eftpos]] also announced that Apple Pay can be used for cash out at [[Bunnings Warehouse]] and McDonald's with more participating retailers rolling out later.&lt;ref&gt;{{Cite web|url=http://www.itnews.com.au/news/you-want-cash-with-that-anz-plugs-apple-pay-into-eftpos-518060|title=You want cash with that? ANZ plugs Apple Pay into eftpos|website=iTnews|access-date=2019-01-26|df=mdy-all}}&lt;/ref&gt;
+
+On January 22, 2019, Apple reportedly rejected a plan to launch&lt;ref&gt;{{Cite web | url=https://slovodelu.by/news/apple-okonchatelno-otkazalas-razvivat-v-belarusi-svoy-finansovyy/ |title = Apple окончательно отказалась развивать в Беларуси свой финансовый бизнес|trans-title=Apple finally decides not to develop its financial business in Belarus|language=Belarusian|date=January 22, 2019|website=Слово Делу}}&lt;/ref&gt; Apple Pay in '''[[Belarus]]'''.
+
+On January 23, 2019, after two years of the declined ACCC determination, [[Commonwealth Bank]] and its subsidiary [[Bankwest]] rolled out Apple Pay to personal cardholders.&lt;ref&gt;{{cite tweet|user=CommBank|number=1087802145305329665|title=Thanks for all your gentle prompts. We read them all. Now you #CanApplePay|date=January 22, 2019|access-date=January 26, 2019}}&lt;/ref&gt;&lt;ref&gt;{{cite tweet|user=Bankwest|number=1087809627369156608|title=Apple Pay is here. T&amp;Cs apply.|date=January 22, 2019|access-date=January 26, 2019}}&lt;/ref&gt;
+
+On January 28, 2019, news surfaced in Germany&lt;ref&gt;{{Cite web|url=https://www.iphone-ticker.de/apple-pay-volks-und-raiffeisenbanken-verhandeln-mit-apple-136729/|title=Apple Pay: Volks- und Raiffeisenbanken verhandeln mit Apple|website=iPhone-Ticker.de|language=de|access-date=2019-01-29|df=mdy-all}}&lt;/ref&gt; that the [[Volksbanken und Raiffeisenbanken|Volks- and Raiffeisenbanken]] (through [[Bundesverband der Deutschen Volksbanken und Raiffeisenbanken|BVR - National Association of German Cooperative Banks]]) were in negotiations to launch Apple Pay later in 2019. The co-operative banks are one of the three main pillars of [[German public bank|Germanys unique retail banking]] structure, with a market share of around 20%.&lt;ref&gt;{{Cite web|url=https://de.statista.com/statistik/daten/studie/171479/umfrage/geldinstitute-bei-denen-gehalts-bzw-girokonto-gefuehrt-wird/|title=Beliebteste Geldinstitute (Filialbanken, Filialsparkassen) für Gehalts-, Girokonto 2018 {{!}} Statistik|website=Statista|language=de|access-date=2019-01-29|df=mdy-all}}&lt;/ref&gt;
+
+On March 25, 2019, [[Apple Card]] was announced in partnership with [[Goldman Sachs]] and Mastercard.&lt;ref&gt;{{cite press release |last1=Wong |first1=Hanna |title=Introducing Apple Card, a new kind of credit card created by Apple |url=https://www.apple.com/newsroom/2019/03/introducing-apple-card-a-new-kind-of-credit-card-created-by-apple/ |publisher=[[Apple Inc.|Apple]] |accessdate=May 24, 2019}}&lt;/ref&gt;
+
+On March 27, 2019, Austrian bank [[Erste Bank|Erste Bank und Sparkasse]], prepaid service boon. from Wirecard, German bank [[N26 (bank)|N26]], Slovakian bank [[Slovenská sporiteľňa]],&lt;ref name="macgadget20190219" /&gt; and Romanian banks [[ING Group|ING Bank Romania]] and [[Banca Transilvania]]  announced that Apple Pay is coming soon to [[Austria]], [[Romania]], [[Estonia]], [[Greece]], [[Portugal]], and others.&lt;ref name="9to5Mac20190327"&gt;{{Cite web | url=https://9to5mac.com/2019/03/27/apple-pay-european-countries/ | title=Apple Pay European countries: Seven more coming soon| date=March 27, 2019}}&lt;/ref&gt;&lt;ref&gt;{{cite tweet |user=n26 |number=1110892358910902273 |date=March 27, 2019 |title=Coming Soon! @n26 will bring #ApplePay, which is transforming mobile payments with an easy, secure and private way to pay that's fast and convenient to customers in Estonia, Greece, Portugal, Slovakia, and Slovenia!}}&lt;/ref&gt;&lt;ref&gt;{{Cite web | url=https://www.go4it.ro/telefoane-mobile/apple-pay-se-lanseaza-in-romania-doua-banci-au-confirmat-parteneriatul-cu-apple-17988311/ |title = Apple Pay se lansează în România! Două bănci au confirmat parteneriatul cu Apple!}}&lt;/ref&gt; An upcoming announcement had become apparent after Austria had been marked as a supported country in an Apple Pay world map shown during the Apple Keynote earlier that week.&lt;ref name="DerStandardOesterreich"&gt;{{Cite web | url=https://derstandard.at/2000100237505/Apple-Pay-startet-in-Oesterreich | title=Apple Pay startet in Österreich - derStandard.at}}&lt;/ref&gt;
+
+On April 2, 2019, Apple Pay had its first addition of banks in Germany after the launch in late 2018.{{citation needed|date=April 2019}} [[Consors Finanz]] ([[BNP Paribas]]), [[Monese]], Viabuy,&lt;ref&gt;{{Cite web | url=https://www.viabuy.com/de/prepaid-mastercard-in-gold-und-schwarz.html | title=VIABUY Mastercard Prepaid Kreditkarte}}&lt;/ref&gt; Crosscard,&lt;ref&gt;{{Cite web | url=https://www.crosscard.com |title = Home}}&lt;/ref&gt; and Fleetmoney&lt;ref&gt;{{Cite web | url=https://www.fleetmoney.com |title = Fleetmoney Mastercard fleet card}}&lt;/ref&gt; joined the 12 launch banks.{{citation needed|date=April 2019}} [[Westpac|Westpac New Zealand]] launched Apple Pay on this date as well.&lt;ref&gt;{{Cite web|url=https://www.westpac.co.nz/bank-accounts/ways-to-pay/apple-pay/|title=Westpac with Apple Pay {{!}} Westpac New Zealand|website=westpac.co.nz|access-date=2019-04-17}}&lt;/ref&gt;
+
+On April 4, 2019, Slovakian bank mBank announced upcoming support for Apple Pay on their website.&lt;ref&gt;{{Cite web | url=https://www.mbank.sk/individualni/mobilna-aplikacia/funkcie/apple-pay/ |title = MBank a Apple Pay už čoskoro - Mobilná aplikácia &amp;#124; mBank.sk}}&lt;/ref&gt;
+
+On April 4, 2019, BGL BNP Paribas bank announced on Twitter account that Apple Pay is coming to '''[[Luxembourg]]''' soon.&lt;ref&gt;{{cite tweet|user=BGLBNPParibas|number=1113793919626694657|date=April 4, 2019|title=The new, easy way to pay coming soon}}&lt;/ref&gt;
+
+On April 12, 2019, Portuguese bank Crédito Agrícula announced upcoming support for Apple Pay on their website.&lt;ref&gt;{{cite web|url=https://www.creditoagricola.pt/institucional/comunicacao/comunicados-de-imprensa/2019/apple-pay|title=Crédito Agrícola Vai Disponibilizar Apple Pay|date=April 12, 2019|website=Crédito Agrícola|language=Portuguese}}&lt;/ref&gt;
+
+On April 24, 2019, Apple launched Apple Pay in '''[[Austria]]''' with [[Erste Group|Erste Bank und Sparkasse]] and [[N26 (bank)|N26]]. Other services marked as coming soon are, amongst others, [[Bank Austria]], [[Revolut]] and VIMpay. In Germany, [[Consorsbank]] ([[BNP Paribas]]) was added to the list of supported banks. In Spain, interbank network EURO 6000 and all its members ([[Abanca|ABANCA]], [[Caixa Ontinyent]], [[CajaSur]], [[Cecabank]], [[Ibercaja Banco|iberCaja]], [[Kutxabank]], [[Liberbank]] and [[Unicaja Banco]]) started to offer support for Apple Pay.
+
+On April 24, 2019, Slovakian bank [[Tatra banka]] announced upcoming support for Apple Pay on their Facebook page.
+
+On May 1, 2019, [[ING]] announced that it will bring Apple Pay to the '''[[Netherlands]]''', being the first Dutch bank to do so.&lt;ref&gt;{{Cite web | url=https://www.ing.nl/particulier/betalen/betalingen-doen/apple-pay/index.html | title=ING introduceert Apple Pay}}&lt;/ref&gt;
+
+On May 8, 2019, Apple Pay launched in '''[[Iceland]]''' with [[Landsbankinn]] and [[Arion Bank]].&lt;ref&gt;{{Cite web | url=https://www.landsbankinn.com/news-and-notifications/2019/05/08/Landsbankinn-offers-customers-access-to-Apple/ |title = Landsbankinn offers customers access to Apple Pay}}&lt;/ref&gt;&lt;ref&gt;{{Cite web | url=https://www.arionbanki.is/einstaklingar/fleira/arion-appid/apple-pay/ | title=Apple Pay - Arion banki}}&lt;/ref&gt;
+
+On May 15, 2019, [[Monese]] announced that they will bring Apple Pay to Bulgaria, Croatia, Cyprus, Estonia, Greece, Italy, Lithuania, Liechtenstein, Latvia, Malta, Portugal, Romania, Slovakia and Slovenia.
+
+On May 21, 2019, [[National Australia Bank|NAB]] and its subsidiary [[UBank]] rolled out Apple Pay. Apple Pay is available in Hungary (with Maestro and MasterCard) and Luxembourg.&lt;ref&gt;{{Cite web | url=https://www.smh.com.au/business/banking-and-finance/nab-gives-green-light-to-apple-pay-20190521-p51pi1.html |title = NAB gives green light to Apple Pay, leaving Westpac on its own|date = May 20, 2019}}&lt;/ref&gt;&lt;ref&gt;{{cite web|url=https://eftm.com/2019/05/ubank-adds-apple-pay-is-nab-next-60534|title=UBank adds Apple Pay – is NAB Next?|author=Trevor Long|date=May 21, 2019|website=EFTM}}&lt;/ref&gt; [[Monese]] started supporting Apple Pay in Iceland &amp; Norway. [[Portland, Oregon metropolitan area|Portland area]] transit card [[Hop Fastpass]] began Apple Pay support.&lt;ref&gt;{{cite news |last1=Miller |first1=Chance |title=Hop Fastpass adds support for Apple Wallet |url=https://9to5mac.com/2019/05/21/hop-fastpass-adds-support-for-apple-wallet/ |work=9to5Mac |date=May 21, 2019 |accessdate=May 24, 2019}}&lt;/ref&gt;
+
+On May 29, 2019, [[Revolut]] started support for Apple Pay in the United Kingdom and France.
+
+On May 30, 2019, [[Revolut]] started support for Apple Pay in Belgium, Czech Republic, Denmark, Finland, Germany, Iceland, Ireland, Italy, Norway, Poland, Spain, Sweden, and Switzerland.
+
+On June 11, 2019, Apple Pay launched in the '''[[Netherlands]]''' with [[ING]]. Also [[Monese]] started supporting Apple Pay in '''[[Austria]]'''.
+
+On June 12, 2019, [[Banca Comercială Română]] announced that it has been working with [[Apple Inc.|Apple]] to implement Apple Pay in '''[[Romania]]'''.
+
+On June 18, 2019, [[Deutsche Kreditbank]] launched Apple Pay in '''[[Germany]]''' to its over 4m customers, being the 20th bank to launch the payment service to customers in the country.
+
+On June 26, 2019, Apple Pay officially launched in '''[[Romania]]''' with the support of the following banks: Banca Transilvania, ING Bank, Unicredit Bank, Orange Money, Edenred, Revolut and Monese. In '''[[Greece]]''' Apple Pay launched with the following banks: [[Revolut]], [[Monese]] and [[N26 (bank)|N26]]. [[Edenred]] Greece also started supporting Apple Pay. Apple Pay was also launched in the following countries: '''[[Bulgaria]]''', '''[[Croatia]]''', '''[[Cyprus]]''', '''[[Estonia]]''', '''[[Latvia]]''', '''[[Liechtenstein]]''', '''[[Lithuania]]''', '''[[Malta]]''', '''[[Portugal]]''', '''[[Slovakia]]''' and '''[[Slovenia]]'''. In Germany, the [[Cooperative|co-operative]] [[Volksbanken und Raiffeisenbanken|Volks- und Raiffeisenbanken]] (through BVR)&lt;ref&gt;{{Cite web|url=https://twitter.com/BVRPresse/status/1143776278983696384|title=Die Tinte ist trocken: Die Volksbanken Raiffeisenbanken werden ihren Kunden im Laufe des Jahres #ApplePay anbieten. @BVRPressepic.twitter.com/EKQ0ewZuc6|last=BVR|date=2019-06-26|website=@BVRPresse|language=de|access-date=2019-06-26}}&lt;/ref&gt; and the [[Savings bank|public savings bank]] [[Sparkasse]] announced&lt;ref&gt;{{Cite web|url=https://twitter.com/sparkasse/status/1143791454625472512|title=Die Sparkassen werden Apple Pay noch in diesem Jahr in Deutschland einführen und den Kunden diese einfache, sichere und vertrauliche Zahlungsweise anbieten.pic.twitter.com/IY9gI7w7c3|last=Sparkasse|date=2019-06-26|website=@sparkasse|language=de|access-date=2019-06-26}}&lt;/ref&gt; an Apple Pay launch later in 2019. The two banks have a combined retail banking market share of around 70%.
+
+On July 2, 2019, support for Apple Pay rolled out to customers with [[Erste Group|Erste Bank]] (with VISA card support too) and [[Granite Banksia|Granit Bank]] in Hungary and [[Klarna]] in Germany. Moreover, Apple Pay officially launched in '''[[Faroe Islands]]''' with Betri Bank.&lt;ref name=":2"&gt;{{Cite web|url=https://www.betri.fo/privat/adrar-taenastur/nettaenastur/apple-pay/|title=Apple Pay|website=Betri|access-date=2019-07-03}}&lt;/ref&gt;
+
+On July 10, 2019, support for Apple Pay rolled out to customers of [[Íslandsbanki|Islandsbanki]] in Iceland.&lt;ref&gt;{{Cite web|url=https://www.islandsbanki.is/is/frett/apple-pay|title=Viðskiptavinir Íslandsbanka geta nú notað Apple Pay|website=www.islandsbanki.is|language=is|access-date=2019-08-16}}&lt;/ref&gt;
+
+On July 12, 2019, Head of the Digital Technologies Department of the General Directorate of Payment Systems and Digital Technologies of [[National Bank of the Republic of Belarus]], Anton Padrez announced upcoming support of Apple Pay&lt;ref&gt;{{Cite web|url=https://infobank.by/infolineview/do-konca-2019-goda-v-belarusj-pridet-apple-pay/|title=До конца 2019 года в Беларусь придет Apple Pay|website=infobank.by|language=ru|access-date=2019-07-16}}&lt;/ref&gt;&lt;ref&gt;{{Cite web|url=https://byfin.by/zhurnal-byfin/novosti-bankov/v-minske-proshla-konferentsiya-finmobile-2019/|title=В Минске прошла конференция FinMobile-2019|website=byfin.by|language=ru|access-date=2019-07-17}}&lt;/ref&gt; in [[Belarus]] by the end of 2019 on FinMobile conference.
+
+As of July 16, 2019, all countries in the European Economic Area (EEA) support Apple Pay since the expansion of [[Monese]] and [[Revolut]].
+
+On August 6, 2019, Apple Pay launched in '''[[Macau]]''' with Union Pay by [[Banco Nacional Ultramarino]] and [[Industrial and Commercial Bank of China (Macau)]].&lt;ref&gt;{{Cite web|url=https://www.macrumors.com/2019/08/06/macau-bank-bnu-announces-apple-pay-support/|title=Macau Bank BNU Announces Apple Pay Support|last=Hardwick|first=Tim|publisher=MacRumors|access-date=2019-08-07}}&lt;/ref&gt;&lt;ref&gt;{{Cite web|url=https://www.bnu.com.mo/en/personal/other-products-services/Pages/BNU-ApplePay.aspx|title=BNU UnionPay Cards &amp; Apple Pay|website=www.bnu.com.mo|access-date=2019-08-07}}&lt;/ref&gt;
+
+On September 3, 2019, Apple Pay launched in [[Georgia (country)|'''Georgia''']] with [[Bank of Georgia]],&lt;ref&gt;{{Cite web|url=http://bankofgeorgia.ge/applepay/|title=Apple Pay საქართველოს ბანკშია|last=|first=|date=|website=bankofgeorgia.ge|language=Georgian|archive-url=|archive-date=|access-date=2019-09-03}}&lt;/ref&gt; [[TBC Bank]],&lt;ref&gt;{{Cite web|url=https://www.tbcapplepay.ge/|title=TBC Applepay|website=TBC Applepay|language=ka|access-date=2019-09-03}}&lt;/ref&gt; VTB Bank Georgia&lt;ref&gt;{{Cite web|url=https://vtb.ge/ge/individuals/banking-cards/5/skhva-sabarate-produqtebi/28/apple-pay|title=Apple Pay|website=vtb.ge|language=en|access-date=2019-09-03}}&lt;/ref&gt; and [[Liberty Bank (Georgia)|Liberty Bank]].&lt;ref&gt;{{Cite web|url=https://apple-pay.libertybank.ge/|title=Apple-Pay|website=applepay|language=ka|access-date=2019-09-03}}&lt;/ref&gt; Moreover, four more banks in the Netherlands rolled out support for Apple Pay: [[bunq]], [[Monese]], [[N26 (bank)|N26]] and [[Revolut]].&lt;ref&gt;{{Cite web|url=https://www.iculture.nl/nieuws/bunq-n26-monese-revolut-apple-pay-nederland/|title=bunq, N26, Monese en Revolut in Nederland nu geschikt voor Apple Pay|date=2019-09-03|website=iCulture|language=nl|access-date=2019-09-04}}&lt;/ref&gt; Dutch banks [[ABN AMRO]] and [[Rabobank]] announced support for Apple Pay is coming soon.&lt;ref&gt;{{Cite web|url=https://www.abnamro.nl/nl/prive/betalen/apple-pay/index.html|title=Apple Pay|website=www.abnamro.nl|language=nl|access-date=2019-09-04}}&lt;/ref&gt;&lt;ref&gt;{{Cite web|url=https://www.rabobank.nl/particulieren/betalen/betaaldiensten/apple-pay/|title=Apple Pay – Contactloos betalen met je iPhone of Apple Watch|website=www.rabobank.nl|language=nl|access-date=2019-09-04}}&lt;/ref&gt; [[N26 (bank)|N26]] also started support for Apple Pay in Switzerland and Iceland.
+
+On October 15, 2019, the major international banks [[ING Group|ING]] (bring the payment service to Germany) and [[Deutsche Bank]] (expanding to Italy after Germany and Spain previously) expanded their coverage in Europe. FinTech [[bunq]] expanded Apple Pay support to Austria. Phyre rolled out support for Apple Pay in Bulgaria. ABN Amro starts supporting Apple Pay in The Netherlands.
+
+On November 5,2019, [[Banque et Caisse d'Épargne de l'État|The Spuerkeess]] bank announced that its customers could now use Apple Pay as a means of payment.&lt;ref&gt;{{Cite web|url=https://today.rtl.lu/news/luxembourg/a/1427627.html|title=Banking: Spuerkeess clients can now use Apple Pay|website=today.rtl.lu|language=en|access-date=2019-11-22}}&lt;/ref&gt;
+
+On November 5, 2019, [[First Investment Bank]] is the first bank in Bulgaria to roll out support for Apple Pay.&lt;ref&gt;{{Cite web|url=https://www.prnewswire.com/news-releases/apple-pay-coming-to-fibanks-customers-300952055.html|title=Apple Pay Coming to Fibank's Customers|last=Bank)|first=Fibank (First Investment|website=www.prnewswire.com|language=en|access-date=2019-11-11}}&lt;/ref&gt;
+
+On November 19, 2019, Apple Pay launched in [[Belarus]] with BPS-Sberbank&lt;ref&gt;{{Cite web|url=https://www.bps-sberbank.by/applepay|title=БПС-Сбербанк|website=www.bps-sberbank.by|access-date=2019-11-19}}&lt;/ref&gt; with support of [[Mastercard]] and [[Visa Inc.|Visa]] cards.
+
+On December 2, 2019, [[Bank of Valletta]] is the first national bank in Malta to announce that Apple Pay support for their Visa debit and credit cards is “coming soon".&lt;ref&gt;{{Cite web|title=Coming Soon|url=https://www.facebook.com/bovclubmt/photos/a.285239521551390/3167073933367920/?type=3|last=|first=|date=|website=|language=en|url-status=live|archive-url=|archive-date=|access-date=2013-12-03}}&lt;/ref&gt;&lt;ref&gt;{{Cite web|url=https://www.businesstoday.com.mt/banking-finance/banking-finance/497/bov_to_launch_digital_wallet_services_in_coming_days#.XeY0HuhKiUk|title=BOV to launch digital wallet services in coming days|language=en|access-date=2019-12-03}}&lt;/ref&gt; The service rolled out to customers on December 10, 2019&lt;ref&gt;{{Cite web|url=https://www.facebook.com/bovclubmt/posts/3193683920706921|title=BOV Club|website=www.facebook.com|language=en|access-date=2019-12-10}}&lt;/ref&gt;&lt;ref&gt;{{Cite web|url=https://www.bov.com/content/apple-pay|title=Apple Pay|last=|first=|date=December 10, 2019|website=Bank of Valletta|url-status=live|archive-url=|archive-date=|access-date=}}&lt;/ref&gt; 
+
+On December 4, 2019, support for Apple Pay rolled out to customers of Alfa-Bank, BSB Bank, Belagroprombank, [[Belarusbank]], Belgazprombank, MTBank, Priorbank and VTB in [[Belarus]] with support of [[Mastercard]] and [[Visa Inc.|Visa]] cards.&lt;ref&gt;{{Cite web|url=https://tech.onliner.by/2019/12/04/apple-pay-belarus-5|title=Процесс пошел. Белорусские банки начали работать с Apple Pay - Технологии Onliner|last=Альшевский|first=Ян|date=2019-12-04|website=Onliner|language=ru|access-date=2019-12-04}}&lt;/ref&gt;&lt;ref&gt;{{Cite web|url=https://www.tvr.by/eng/news/ekonomika/platezhnyy_servis_apple_pay_prisoedinyaetsya_k_novym_bankam_belarusi/|title=Payment service Apple Pay joins new banks in Belarus|last=|first=|date=|website=|url-status=live|archive-url=|archive-date=|access-date=}}&lt;/ref&gt;
+
+On December 4, 2019, support for Apple Pay rolled out to customers of [[:bg:Айкарт|iCard Bulgaria]]&lt;ref&gt;{{Cite web | url=https://icard.com/en/apple-pay | title=ICard Mobile}}&lt;/ref&gt;
+
+On December 10, 2019, support for Apple Pay rolled out to customers of [[UniCredit Bulbank]] &lt;ref&gt;{{Cite web | url=https://money.bg/business/unicredit-veche-predlaga-i-v-balgariya.html | title=Втора банка в България вече предлага Apple Pay| date=December 10, 2019}}&lt;/ref&gt;
+
+=== 2020 === 
+On January 28, 2020, Apple Pay launched in [[Montenegro]] with Crnogorska Komercijalna Banka&lt;ref&gt;{{Cite web|url=https://www.ckb.me/news.647.html?newsId=223|title=For the first time in Montenegro, Apple Pay is available to CKB cardholders|last=|first=|date=|website=|language=en|url-status=live|archive-url=|archive-date=|access-date=}}&lt;/ref&gt; with support of [[Mastercard]] and [[Visa Inc.|Visa]] cards.
+
+On January 30, 2020, [[Curve_(payment_card)|Curve]] announced that its customers could now use Apple Pay as a means of payment.&lt;ref&gt;{{Cite web | url=https://www.curve.app/en-gb/f/apple-pay | title=Curve with Apple Pay &amp;#124; Curve}}&lt;/ref&gt;
+
+On April 1, 2020, [[TransferWise]] announced that its customers could now use Apple Pay as a means of payment. &lt;ref&gt;{{Cite web | url= https://transferwise.com/help/18/transferwise-debit-mastercard/2935788/does-my-transferwise-debit-mastercard-work-with-apple-pay-google-pay-or-samsung-pay | title= TransferWise with Apple Pay}}&lt;/ref&gt;
+
+On April 7, 2020, [[Alpha Bank]] becomes the first Greek bank that launches Apple Pay in Greece, only for Visa cards. &lt;ref&gt;{{Cite web | url= https://www.insider.gr/trapezes/tehnologia/134316/apple-pay-ypostirizei-pleon-tis-kartes-visa-tis-alpha-bank | title= Alpha Bank launches Apple Pay}}&lt;/ref&gt;
+&lt;ref&gt;{{Cite web | url= https://www.alpha.gr/el/idiotes/myalpha/mobile-apps/apple-pay | title= Alpha Bank Apple Pay landing page}}&lt;/ref&gt;
+
+On April 8, 2020, Beijing T-union transit card, Yikatong marked with [[China T-union|T-union]] and Shenzhen transit card were launched in Apple Pay and the cards could be used to pay the fares of the public transport in more 300 cities of China. At the same time, Beijing transit card(Yikatong) was removed, but the early added cards still could be used.&lt;ref&gt;{{cite news |title=苹果iPhone手机Apple Pay京津冀互联互通卡/深圳通正式上线 - Apple Pay,交通联合卡,苹果 - IT之家 |url=https://www.ithome.com/0/481/544.htm |work=www.ithome.com}}&lt;/ref&gt;
+
+On April 21, 2020, [[Volksbanken und Raiffeisenbanken]] Germany and  announced that their customers could now use Apple Pay as a means of payment. &lt;ref&gt;{{Cite news | url=https://www.focus.de/finanzen/banken/unternehmen-bezahldienst-apple-pay-jetzt-auch-bei-deutschlands-volksbanken_id_11904947.html | title=Apple Pay is now also available to millions of Volksbank customers / Apple Pay jetzt auch für Millionen Volksbank-Kunden verfügbar}}&lt;/ref&gt; &lt;ref&gt;{{Cite news | url=https://9to5mac.com/2020/04/21/volksbank-and-raiffeisenbank-germany-apple-pay/ | title=Apple Pay expands to Volksbank and Raiffeisenbank customers in Germany}}&lt;/ref&gt;
+
+On April 22, 2020, [[Raiffeisenbank (Bulgaria)]] announced that its customers could now use Apple Pay as a means of payment.&lt;ref&gt;{{Cite news | url=https://www.rbb.bg/bg/individualni-klienti/produkti-uslugi/karti/digitalen-portfeil-apple-wallet/ | title=Pay faster and more securely with your Raiffeisenbank cards through Apple Pay.}}&lt;/ref&gt; &lt;ref&gt;{{Cite news | url=https://money.bg/business/rayfayzenbank-veche-predlaga-apple-pay-v-balgariya.html | title=Raiffeisenbank now offers Apple Pay in Bulgaria}}&lt;/ref&gt;
+On April 28, 2020, [[Westpac]] has become the last of Australia's big four banks to announce Apple Pay support for its customers. &lt;ref&gt;{{Cite news | url=https://www.macrumors.com/2020/04/28/westpac-australian-bank-turns-on-apple-pay/ | title=Westpac Becomes Last of Australia's Four Big Banks to Support Apple Pay
+}}&lt;/ref&gt;
+
+On June 1, 2020, [[Octopus card]] were launched in Apple Pay and the cards could be used in [[Hong Kong]] public transport, convenience stores, etc.. Only iPhone 8 and Apple Watch Series 3 or newer models were supported due to Octopus card using [[FeliCa]] technology. Other models, including iPhone 7 series sold in Japan that support FeliCa, do not support the Octopus card.&lt;ref&gt;{{cite web |last1=Chan |first1=Eric |title=出現了！？八達通正式登陸 Apple Pay |url=https://chinese.engadget.com/apple-pay-smart-octopus-hk-171631970.html |accessdate=2 June 2020}}&lt;/ref&gt;&lt;ref&gt;{{cite web |title=Apple Pay |url=https://www.apple.com/hk/apple-pay/octopus/ |accessdate=2 June 2020}}&lt;/ref&gt;
+
+[[Raiffeisen Bank (Serbia)]] has announced changes to its terms and conditions, effective June 15, 2020, announcing that Apple Pay will be available for Visa cards issued by the bank &lt;ref&gt;{{Cite news | url=https://www.raiffeisenbank.rs/pravila-i-uslovi-raiffeisen-banke-ad-bgd-za-apple-pay/ | title=Terms and conditions for usage of Apple Pay service.}}}}&lt;/ref&gt;, with [[Serbia]] becoming a new market for Apple Pay.
+
+==Availability==
+
+[[File:Apple Pay Availability.svg|thumb|700x700px|Global availability of Apple Pay - &lt;b style="color:#165096;"&gt;Dark Blue&lt;/b&gt;: Available&lt;small&gt; (59 countries) &lt;/small&gt;&lt;b style="color:#ADD8E6;"&gt;Light Blue&lt;/b&gt;: Coming Soon &lt;small&gt; (1 country - Serbia)&lt;/small&gt;]]
+
+===Supported countries===
+ 
+{| class="wikitable sortable" style="font-size:95%"
+|+ &lt;ref&gt;{{Cite web|url=https://support.apple.com/en-us/HT207957|title=Countries and regions that support Apple Pay|last=|first=|date=January 28, 2020|website=Apple|archive-url=|archivedate=|accessdate=January 28, 2020}}&lt;/ref&gt;
+|-
+! style="width:9em;" |Date
+! style="width:12em;" |Support for payment cards issued in
+|-	
+|{{dts|link=off|October 20, 2014}}
+|'''{{flagcountry|United States}}''' &lt;br&gt; (except {{flagcountry|Puerto Rico}} &amp; [[Unincorporated territories of the United States|other unincorporated territories]])
+|-
+|{{dts|link=off|July 14, 2015}}
+|{{flagcountry|United Kingdom}} &lt;br&gt; (except [[British Overseas Territories]])
+|-
+|{{dts|link=off|November 17, 2015}}
+|{{flagcountry|Canada}}
+|-
+|{{dts|link=off|November 19, 2015}}
+|{{flagcountry|Australia}}
+|-	
+|{{dts|link=off|February 18, 2016}}
+|{{flagcountry|China}}
+|-	
+|{{dts|link=off|April 19, 2016}}
+|{{flagcountry|Singapore}}
+|-	
+|{{dts|link=off|July 7, 2016}}
+|{{flagcountry|Switzerland}}
+|-	
+| rowspan="2" |{{dts|link=off|July 19, 2016}}
+|{{flagcountry|France}}
+|-
+|{{flagcountry|Monaco}}
+|-	
+|{{dts|link=off|July 20, 2016}}
+|{{flagcountry|Hong Kong SAR}}
+|-	
+|{{dts|link=off|October 4, 2016}}
+|{{flagcountry|Russia}}
+|-
+|{{dts|link=off|October 13, 2016}}
+|{{flagcountry|New Zealand}}
+|-
+|{{dts|link=off|October 25, 2016}}
+|{{flagcountry|Japan}}
+|-
+|{{dts|link=off|December 1, 2016}}
+|{{flagcountry|Spain}}
+|-
+| rowspan="4" |{{dts|link=off|March 7, 2017}}
+|{{flagcountry|GGY}}
+|-
+|{{flagcountry|Ireland}}
+|-
+|{{flagcountry|IMN}}
+|-
+|{{flagcountry|JEY}}
+|-
+|{{dts|link=off|March 29, 2017}}
+|{{flagcountry|Taiwan}}&lt;!--Do not change to China (Taiwan province) until the official dispute is resolved; as Taiwan is autonomous and has a functional government and independent from the Peoples Republic of China.--&gt;
+|-
+| rowspan="3" |{{dts|link=off|May 17, 2017}}
+|{{flagcountry|Italy}}
+|-
+|{{flagcountry|San Marino}}
+|-
+|{{flagcountry|Vatican City}}
+|- 
+| rowspan="5" |{{dts|link=off|October 24, 2017}}
+|{{flagcountry|Denmark}}
+|- 
+|{{flagcountry|Greenland}}
+|- 
+|{{flagcountry|Finland}}
+|- 
+|{{flagcountry|Sweden}}
+|-
+|{{flagcountry|UAE}}
+|-
+|{{dts|link=off|April 4, 2018}}
+|{{flagcountry|Brazil}}
+|-
+|{{dts|link=off|May 17, 2018}}
+|{{flagcountry|Ukraine}}
+|-
+|{{dts|link=off|June 19, 2018}}
+|{{flagcountry|Poland}}
+|-
+|{{dts|link=off|June 20, 2018}}
+|{{flagcountry|Norway}}
+|-
+| rowspan="2" |{{dts|link=off|November 28, 2018}}
+|{{flagcountry|Kazakhstan}}
+|-
+|{{flagcountry|Belgium}}
+|-
+|{{dts|link=off|December 11, 2018}}
+|{{flagcountry|Germany}}
+|-	
+| rowspan="2" |{{dts|link=off|February 19, 2019}}
+|{{flagcountry|Czech Republic}}
+|-
+|{{flagcountry|KSA}}
+|-
+|{{dts|link=off|April 24, 2019}}
+|{{flagcountry|Austria}}
+|-
+|{{dts|link=off|May 08, 2019}}
+|{{flagcountry|Iceland}}
+|-
+| rowspan="2" |{{dts|link=off|May 21, 2019}}
+|{{flagcountry|Hungary}}
+|- 
+|{{flagcountry|Luxembourg}}
+|-
+|{{dts|link=off|June 11, 2019}}
+|{{flagcountry|Netherlands}}
+|-
+| rowspan="13" |{{dts|link=off|June 26, 2019}}
+|{{flagcountry|Bulgaria}}
+|-
+|{{flagcountry|Croatia}}
+|-
+|{{flagcountry|Cyprus}} &lt;br&gt; (except {{flagcountry|Northern Cyprus}})
+|-
+|{{flagcountry|Estonia}}
+|-
+|{{flagcountry|Greece}}
+|-
+|{{flagcountry|Latvia}}
+|-
+|{{flagcountry|Liechtenstein}}
+|-
+|{{flagcountry|Lithuania}}
+|-
+|{{flagcountry|Malta}}
+|-
+|{{flagcountry|Portugal}}
+|-
+|{{flagcountry|Romania}}
+|-
+|{{flagcountry|Slovakia}}
+|-
+|{{flagcountry|Slovenia}}
+|-
+|{{dts|link=off|July 2, 2019}}
+|{{flagcountry|Faroe Islands}}
+|-
+|{{dts|link=off|August 6, 2019}}
+|{{flagcountry|Macao}}
+|-
+|{{dts|link=off|September 3, 2019}}
+|{{flagcountry|Georgia}}
+|-
+|{{dts|link=off|November 19, 2019}}
+|{{flagcountry|Belarus}}
+|-
+|{{dts|link=off|January 28, 2020}}
+|{{flagcountry|Montenegro}}
+|}
+
+===Supported Payment Networks and Card Schemes===
+*Visa (worldwide)&lt;ref&gt;{{Cite news|url=https://www.theverge.com/2014/9/9/6084211/apple-pay-iphone-6-nfc-mobile-payment|title=Apple Pay allows you to pay at the counter with your iPhone 6|work=[[The Verge]]|access-date=2018-04-14 |df= mdy-all}}&lt;/ref&gt;
+*[[V Pay]] (worldwide)&lt;ref&gt;{{Cite news|url=https://support.apple.com/en-hk/HT205630|title=Get help adding cards to Apple Pay|publisher=[[Apple Inc.|Apple]]|access-date=2018-04-14|df= mdy-all}}&lt;/ref&gt;
+*MasterCard (worldwide)&lt;ref&gt;{{Cite news|url=http://fortune.com/2015/09/04/mastercards-mobile-payments-chief/|title=MasterCard's mobile payments guru talks Apple Pay, Android Pay and more|work=[[Fortune (magazine)|Fortune]]|access-date=2018-04-14|df= mdy-all}}&lt;/ref&gt;
+*Maestro&lt;ref name="Apple Pay Italy"&gt;{{cite web|url=https://www.apple.com/it/apple-pay/|title=Apple Pay|publisher=[[Apple Inc.|Apple]] (Italy) |language=it-IT|accessdate=January 26, 2018 |df= mdy-all}}&lt;/ref&gt;
+*American Express (worldwide)&lt;ref&gt;{{Cite web |url= https://www.retaildive.com/ex/mobilecommercedaily/american-express-swipes-in-apple-pay-for-corporate-card-holders |title= American Express swipes in Apple Pay for corporate card holders |website= www.retaildive.com |access-date= 2018-04-14 |df= mdy-all}}&lt;/ref&gt;
+*[[Discover Card]] (only in the United States)&lt;ref&gt;{{Cite news |url= https://www.engadget.com/2017/10/11/discover-card-apple-pay-cashback-rewards |title= Discover card users can redeem their points on Apple Pay |work= [[Engadget]] |access-date= 2018-04-14|df= mdy-all}}&lt;/ref&gt;
+*[[Groupement des Cartes Bancaires CB|Cartes Bancaires (CB)]] (only in France) &lt;ref name="GIE Cartes Bancaires"&gt;{{cite web|url=http://www.cartes-bancaires.com/sites/default/files/actualites/fichiers/apple_pay_now_available_to_cb_customers_in_france_.pdf|title=Apple Pay now available to CB customers in France|website=[[Groupement des Cartes Bancaires CB]] GIE|publisher=[[Groupement des Cartes Bancaires CB|CB]]|language=fr-FR|accessdate=March 4, 2018 |df= mdy-all}}&lt;/ref&gt;
+*[[Interac]] (only in Canada) &lt;ref&gt;{{Cite news|url=https://www.theglobeandmail.com/technology/tech-news/five-things-to-know-about-using-apple-pay-in-canada-update/article29953516/|title=Five things to know about using Apple Pay in Canada|work=[[The Globe and Mail]]|publisher=[[The Woodbridge Company]]|access-date=2018-04-14 |df= mdy-all}}&lt;/ref&gt;
+*[[Eftpos]] (only in Australia)&lt;ref&gt;{{Cite news|url=https://9to5mac.com/2017/10/17/eftpos-apple-pay-anz-australia/|title=Apple Pay now works with Eftpos cards from ANZ in Australia|date=2017-10-17|work=[[9to5Mac]]|access-date=2018-04-14|df= mdy-all}}&lt;/ref&gt;
+*[[China UnionPay]] (worldwide)&lt;ref&gt;{{Cite news|url=http://www.thestandard.com.hk/section-news.php?id=183218|title=UnionPay taps into Apple Pay|work=[[The Standard (Hong Kong)|The Standard]]|access-date=2018-04-14|df= mdy-all}}&lt;/ref&gt;
+*[[Suica]], iD, QUICPay (only in Japan)&lt;ref name="Apple Pay Japan"&gt;{{cite web|title=Apple Pay|url=https://www.apple.com/jp/apple-pay/|publisher=[[Apple Inc.|Apple]] (Japan)|accessdate=March 20, 2018|language=ja-JP |df= mdy-all}}&lt;/ref&gt;
+*[[Shanghai Public Transport Card|SPTC]] transit card (only in Shanghai, China) &lt;ref&gt;{{Cite news|url=http://www.timeoutshanghai.com/features/Blog-News/53436/Apple-Pay-can-now-be-used-for-the-Shanghai-metro.html|title=Apple Pay can now be used for the Shanghai metro|author=[[Stock Exchange Executive Council|SEEC]] Media Group|work=[[Time Out Shanghai]]|access-date=2018-04-14|df= mdy-all}}&lt;/ref&gt;
+*[[Yikatong]], Beijing Transit Card&lt;ref&gt;{{Cite news|url=https://technode.com/2018/03/30/new-ios-update-allows-commuters-in-shanghai-and-beijing-to-use-apple-pay-for-metro-and-bus-rides/|title=New iOS update allows commuters in Shanghai and Beijing to use Apple Pay for metro and bus rides · TechNode|date=2018-03-30|work=TechNode|access-date=2018-04-14|df= mdy-all}}&lt;/ref&gt;
+*[[Saudi Payments Network|mada]] in Saudi Arabia&lt;ref&gt;{{Cite web | url=https://www.mada.com.sa/en/services#apple-pay | title=Debit cards &amp;#124; Prepaid Cards &amp;#124; Cashback Option &amp;#124; Mada}}&lt;/ref&gt;
+*[[Hop Fastpass]], transit card in [[TriMet|Portland, Oregon]]&lt;ref&gt;{{cite press release |last=Altstadt |first=Roberta |date=2019-01-21 |title=Portland-Vancouver's Hop Fastpass® becomes first transit fare card in North America on iPhone |url=http://news.trimet.org/2019/05/portland-vancouvers-hop-fastpass-becomes-first-transit-fare-card-in-north-america-on-iphone/ |location= |publisher=TriMet |agency= |access-date=2019-05-24}}&lt;/ref&gt;
+*[[Edenred|Ticket Restaurant]] 
+*[[Elo (card association)|Elo]] (only in Brazil)&lt;ref&gt;{{Cite news |url= https://www.elo.com.br/applepay|title=Elo com Apple Pay, o próximo passo|website=Elo|language=portuguese|trans-title=Elo and Apple Pay, the next step|access-date=July 4, 2019}}&lt;/ref&gt;
+*[[Octopus card]] (only in Hong Kong)&lt;ref&gt;{{Cite web|last=Lovejoy|first=Ben|date=2020-06-02|title=Apple Pay Octopus goes live in Hong Kong; here's one tip ...|url=https://9to5mac.com/2020/06/02/apple-pay-octopus-2/|access-date=2020-06-02|website=9to5Mac|language=en-US}}&lt;/ref&gt;
+
+=== Usage within [[public transport]] systems ===
+{| class="wikitable sortable"
+|+
+!Country
+!Area
+!Express Transit/Travel
+!Fare Payment Method(s)
+|-
+|Australia
+|Sydney
+|
+|Debit and credit cards
+|-
+|Belarus
+|Minsk
+|
+|Debit and credit cards
+|-
+|Canada
+|Vancouver
+|
+|Credit cards
+|-
+| rowspan="11" |China
+|Beijing
+|{{ya}}
+|Transit cards
+|-
+|Guangzhou
+|{{ya}}
+|Transit cards
+|-
+|Hangzhou
+|
+|UnionPay (CUP) debit and credit cards
+|-
+|Harbin
+|
+|UnionPay (CUP) debit and credit cards
+|-
+|Kunming
+|
+|UnionPay (CUP) debit and credit cards
+|-
+|Lanzhou
+|
+|UnionPay (CUP) debit and credit cards
+|-
+|Nanjing
+|
+|UnionPay (CUP) debit and credit cards
+|-
+|Shanghai
+|{{ya}}
+|Transit cards
+|-
+|Shenzhen
+|{{ya}}
+|Transit cards
+|-
+|Tianjin
+|
+|UnionPay (CUP) debit and credit cards
+|-
+|Xiamen
+|
+|UnionPay (CUP) debit and credit cards
+|-
+|Georgia
+|Tbilisi
+|
+|Bank of Georgia debit and credit cards
+|-
+|Hong Kong
+|Hong Kong
+|{{ya}}
+|All forms of transit that support [[Octopus card]]
+|-
+|Japan
+|Countrywide
+|{{ya}}
+|All forms of transit that support [[Suica]]
+|-
+| rowspan="3" |Russia
+|Moscow
+|
+|Debit and credit cards
+|-
+|Novosibirsk
+|
+|Debit and credit cards
+|-
+|Saint Petersburg
+|
+|Debit and credit cards
+|-
+|Singapore
+|Countrywide
+|
+|Mastercard and Visa debit and credit cards
+|-
+|United Kingdom
+|London
+|{{ya}}
+|Debit and credit cards
+|-
+| rowspan="4" |United States
+|Chicago
+|
+|Debit and credit cards
+|-
+|Miami
+|
+|Debit and credit cards
+|-
+|New York City
+|{{ya}}
+|Debit and credit cards
+|-
+|Portland
+|{{ya}}
+|[[Hop Fastpass|Hop FastPass]], debit and credit cards
+|-
+| rowspan="2" |Brazil
+|Rio de Janeiro (only MetrôRio)
+|
+|Visa debit and credit cards
+|-
+|Sao Paulo (only [[SPTrans]])
+|
+|Elo, Mastercard and Visa debit and credit cards
+|}
+
+==Reception==
+===Reviews===
+Journalists noted the multiple previously unsuccessful efforts of other retailers to build mobile payments services,&lt;ref name="The Verge: allows you"/&gt;&lt;ref name="The Verge: most revolutionary"/&gt; including those of [[PayPal]], [[Walmart]], [[Target Corporation|Target]],&lt;ref name="The Verge: allows you"/&gt; [[Google Wallet]], and [[Softcard]].&lt;ref name="The Verge: most revolutionary"/&gt; They noted that previous efforts did not solve customer inconvenience issues, and felt that Apple Pay potentially did.&lt;ref name="The Verge: allows you"/&gt; ''[[The Verge]]''{{'s}} Adrianne Jeffries noted that mobile payment market fragmentation was partially due to Apple's refusal to enter the market. [[Bloomberg Businessweek|''BusinessWeek'']]'s Joshua Brustein added that Apple has a history of letting "first movers fail" with an early version of the service before releasing "a more polished version of the same idea".&lt;ref name="The Verge: allows you"/&gt; ''The Verge''{{'s}} Dieter Bohn called Apple Pay the "week's most revolutionary product" and the announcement "a classic Apple moment of simplification and integration", and the partnership between payments services and Apple "a rare piece of collaboration and agreement". He predicted that the service's effect on the mobile payments industry would be similar to the [[iPhone]]'s effect on the [[smartphone]] industry.&lt;ref name="The Verge: most revolutionary"/&gt; Nathaniel Popper of ''[[The New York Times]]'' referred to the banks' level of coordination with Apple as "elaborate" and indicative of mutual "preparation and investment".&lt;ref name="NYT: Apple's Way"/&gt; Some analysts added that the service could reduce the standard credit card transaction fees over time, since fees traditionally cover [[credit card fraud]]. The banks were willing to work with Apple in the face of efforts like [[Bitcoin]] and the [[Merchant Customer Exchange]], which seeks to work around the card networks.&lt;ref name="NYT: Apple's Way"/&gt;
+
+Early reviews of the service regarded it as easy to use, but were not sure whether the service would become widely adopted.&lt;ref name="The Verge: hands"/&gt;&lt;ref name="NYT: problem"/&gt; ''The Verge''{{'s}} [[Nilay Patel]] wrote that the product demo was "remarkably smooth" and "a cohesive user experience".&lt;ref name="The Verge: hands"/&gt; Patel said the process took five to ten seconds at a retail card reader, and added that it may be less smooth at stores such as Walgreens, where cashiers prompt customers for loyalty cards and charity donations.&lt;ref name="The Verge: hands"/&gt; ''The New York Times''{{'}} Neil Irwin wrote that Apple exaggerated the inconvenience of credit cards. Among the plastic card's benefits, he included how others could make purchases on another's behalf and how dead cell phones could leave the owner stranded.&lt;ref name="NYT: problem"/&gt;
+
+In a 2018 publication released by ''[[Consumer Reports]]'', Apple Pay was the leading payment service.&lt;ref&gt;{{cite web |last=Fingas |first=Jon |date=August 6, 2018 |title=Apple Pay Cash leads Consumer Reports' first payment service test |url=https://www.engadget.com/amp/2018/08/06/consumer-reports-p2p-payment-service-test/ |publisher=[[Engadget]] |accessdate=2018-08-07 |df= mdy-all}}&lt;/ref&gt;
+
+===Adoption===
+[[File:Apple-payment-square.jpg|thumb|Paying for coffee with [[Square, Inc.|Square's]] Apple Pay reader]]
+Apple announced that more than one million credit cards had been registered on Apple Pay in the first three days of its availability,&lt;ref name="Time adoption rate 1"&gt;{{cite news |url= http://time.com/3543263/apple-pay-1-million |title= Apple Pay Registers 1 Million Credit Cards in 3 Days |work=[[Time (magazine)|Time]] |first= Justin |last= Worland |date= October 28, 2014 |accessdate= October 29, 2014 |df= mdy-all}}&lt;/ref&gt; making it the largest mobile payment system in the US at the time.&lt;ref&gt;{{cite web |title= Number Of Users On Apple Pay |url= http://www.businessinsider.com/number-of-apple-pay-users-2014-10 |website=[[Business Insider]] |accessdate= October 29, 2014 |df= mdy-all}}&lt;/ref&gt; There were 220,000 participating vendors when it launched.&lt;ref name="TechCrunch: announces" /&gt;&lt;ref name="USA Today: jump-start" /&gt; Outside the United States and the United Kingdom, Apple Pay can be used with American and British payment cards at compatible NFC-based payment terminals.&lt;ref&gt;{{cite web |url= https://bgr.com/2014/10/21/apple-pay-how-to-activate-and-use/ |title= Apple Pay works in countries outside the U.S. with this simple trick |date= October 21, 2014 |website =[[Boy Genius Report]] |last= Smith |first= Chris |accessdate= July 26, 2015 |df= mdy-all}}&lt;/ref&gt;&lt;ref&gt;{{cite web|url = http://www.digitaltrends.com/mobile/apple-pay-works-abroad-with-u-s-credit-card/ |title = Apple Pay Works Abroad! ... If You Have a U.S. Credit Card |date= October 22, 2014 |website= [[Digital Trends]] |last= Gokey |first= Malarie |accessdate= July 26, 2015 |df= mdy-all}}&lt;/ref&gt;&lt;ref name="Forbes info 1"&gt;{{cite web |url= https://www.forbes.com/sites/markrogowsky/2014/10/20/apple-pay-is-here-and-its-going-to-be-great-why-the-skeptics-have-it-wrong |title= Apple Pay Is Here And It's Going To Be Great: Why The Skeptics Have It Wrong |first= Mark |last= Rogowksi |date= October 20, 2014 |website=[[Forbes]] |accessdate= October 21, 2014 |quote= First, a clarification. There is no 'accepting Apple Pay.' You may have read an article or five suggesting that retailers don't plan to support Apple Pay, implying there is some special thing they have to do to work with Apple. What a retailer needs is nothing more than a NFC-equipped point-of-sale terminal. |df= mdy-all}}&lt;/ref&gt;
+
+In the United States, Apple faced opposition by the mobile payments industry, particularly the [[Merchant Customer Exchange]] (MCX) which was trialing a competing system known as [[CurrentC]]. Several participants of CurrentC, such as [[Best Buy]], [[Walmart]], and [[Publix]] had initially stated that they would not accept Apple Pay as a result of exclusivity deals. [[CVS Pharmacy]] and [[Rite-Aid]] subsequently disabled all NFC payment systems in favor of CurrentC,&lt;ref name="NYT: Apple's Way"&gt;{{cite news |url= https://dealbook.nytimes.com/2014/09/11/banks-did-it-apples-way-in-payments-by-mobile |title= Banks Did It Apple's Way in Payments by Mobile |work= [[The New York Times]] |first= Nathaniel |last= Popper |date= September 11, 2014 |archiveurl= https://archive.today/20140915052657/http://dealbook.nytimes.com/2014/09/11/banks-did-it-apples-way-in-payments-by-mobile/?_php=true&amp;_type=blogs&amp;_php=true&amp;_type=blogs&amp;_php=true&amp;_type=blogs&amp;_r=2 |archivedate= September 15, 2014 |url-status = live|df= mdy-all |access-date= March 5, 2017}}&lt;/ref&gt;&lt;ref name="techcrunch-currentc"&gt;{{cite web |url= https://techcrunch.com/2014/10/25/currentc |title= CurrentC Is The Big Retailers' Clunky Attempt To Kill Apple Pay And Credit Card Fees |work=[[TechCrunch]] |publisher=[[AOL Inc.]] |first= Josh |last= Constine |date= October 25, 2014 |accessdate= October 26, 2014 |df= mdy-all}}&lt;/ref&gt;&lt;ref name="ars-cvsriteaid"&gt;{{cite web |url= https://arstechnica.com/apple/2014/10/apple-pay-goes-offline-at-cvs-rite-aid |title= Apple Pay goes offline at CVS, Rite Aid |work=[[Ars Technica]] |date= October 30, 2014 |accessdate= October 30, 2014 |df= mdy-all}}&lt;/ref&gt; although due to the exclusivity period ending in August 2015, Rite Aid has begun accepting it August 15, 2015.&lt;ref&gt;{{cite web |url= http://www.macrumors.com/2015/08/11/rite-aid-apple-pay-august-15/ |title= Rite Aid Reverses Course, Will Accept Apple Pay Starting August 15 |publisher=[[MacRumors]] |date= August 11, 2015 |df= mdy-all}}&lt;/ref&gt;&lt;ref&gt;{{cite web |url= https://www.usatoday.com/story/tech/2015/08/11/rite-aid-apple-pay/31455651/ |title= Rite Aid to accept Apple Pay after initial refusal |work=[[USA Today]] |date=August 11, 2015 |df= mdy-all}}&lt;/ref&gt; [[Best Buy]] has begun to accept Apple Pay at all stores starting in October 2015.&lt;ref&gt;{{cite web |url=http://www.macrumors.com/2015/09/17/best-buy-apple-pay-rolling-out/ |title=Best Buy Rolling Out In-Store Apple Pay Support in U.S. |publisher=[[MacRumors]] |date=September 17, 2015 |df= mdy-all}}&lt;/ref&gt;
+
+[[Target Corporation|Target's]] CEO [[Brian Cornell]] said that they would be open to accepting Apple Pay eventually after the conversion to chip and PIN technology is done, but they remain involved with MCX.&lt;ref&gt;{{cite news|url=http://recode.net/2015/05/27/target-ceo-loves-apple-pay-but-wants-chip-and-pin-cards-first/|website=re/code|archive-url=https://web.archive.org/web/20160104151100/http://recode.net/2015/05/27/target-ceo-loves-apple-pay-but-wants-chip-and-pin-cards-first/ |archive-date=January 4, 2016 |title=Target CEO Loves Apple Pay, but Wants Chip-and-PIN Cards First (Video)|author=Arik Hesseldahl|date=May 27, 2015}}&lt;/ref&gt; On January 22, 2019, Target announced the roll-out of Apple Pay support to all of its US stores.&lt;ref&gt;{{cite web|url=https://www.theverge.com/2019/1/22/18192802/apple-pay-target-iphone-watch |date=January 22, 2019 |author=Makena Kelly |publisher=The Verge |title=Target is adding Apple Pay and Google Pay to all US stores}}&lt;/ref&gt;
+
+[[Transport for London]], one of Apple Pay's official UK launch partners and one of the largest contactless merchants in the world, became the UK's most used Apple Pay merchant.&lt;ref&gt;{{cite news|last=Mortimer|first=Natalie|title=TfL proves most popular retailer on Apple Pay UK following launch|url=http://www.thedrum.com/news/2015/07/20/tfl-proves-most-popular-retailer-apple-pay-uk-following-launch |publisher=The Drum |date=July 20, 2015 |accessdate=July 22, 2015 |df= mdy-all}}&lt;/ref&gt;&lt;ref&gt;{{cite news |last= Titcomb |first= James |title= How London's transport crunch forged a contactless revolution |url= https://www.telegraph.co.uk/technology/11747819/How-Londons-transport-crunch-forged-a-contactless-revolution.html |work=[[The Daily Telegraph|The Telegraph]] |date= July 20, 2015 |accessdate= July 22, 2015 |df= mdy-all}}&lt;/ref&gt;&lt;ref&gt;{{cite news |last= Gibbs |first= Samuel |title= TfL cautions users over pitfalls of Apple Pay |url= https://www.theguardian.com/technology/2015/jul/16/tfl-cautions-pitfalls-apple-pay |work=[[The Guardian]] |date= July 16, 2015 |accessdate= July 22, 2015 |df= mdy-all}}&lt;/ref&gt;&lt;ref&gt;{{cite web|url=https://www.apple.com/uk/apple-pay/transport/|title=Apple Pay|last=|first=|date=|website=[[Apple Inc.|Apple]]|url-status=live|archive-url=|archive-date=|accessdate=2 February 2020}}{{Dead link|date=May 2019|bot=InternetArchiveBot|fix-attempted=yes}}&lt;/ref&gt;
+
+As of February 11, 2016, 20% of iPhone 6 users in the United States reported using the service at least once.&lt;ref&gt;{{cite web |title= Apple Pay Awareness, Adoption Plateau According to First Annapolis Survey|url=http://www.firstannapolis.com/news/apple-pay-awareness-adoption-plateau-according-to-first-annapolis-survey|website=First Annapolis|accessdate=February 26, 2016 |df= mdy-all}}&lt;/ref&gt; Apple maintains an up-to-date list of merchants who accept Apple Pay on its website.&lt;ref&gt;{{cite web|url=https://support.apple.com/en-us/HT204916|title=Apple Pay participating banks in Canada and the United States|publisher=[[Apple Inc.|Apple]] |df= mdy-all}}&lt;/ref&gt;
+
+On June 2, 2016, according to ''[[Fortune (magazine)|Fortune]]'', Apple said its mobile payment platform is gaining a million new users each week, yet the company did not reveal the total number of Apple Pay users. Apple also revealed that transaction volume through the service is five times what it was a year ago, and that payment volume within apps more than doubled in the second half of 2015.&lt;ref&gt;{{cite web|url=http://fortune.com/2016/06/02/grubhub-apple-pay/|title=Grubhub Adds Apple Pay To Food Delivery Apps |date= 2016-06-02|website=[[Fortune (magazine)|Fortune]]|access-date=2016-06-03 |df= mdy-all}}&lt;/ref&gt;
+
+With the launch of Apple Pay in China, the service hit three million provisions inside its first three days, while, more generally, it is adding one million new users per week worldwide.&lt;ref&gt;{{cite web|url=https://techcrunch.com/2016/02/17/apple-pay-goes-live-in-china/|title=Apple Pay Goes Live In China|last=Russell|first=Jon|website=[[TechCrunch]]|access-date=2016-07-08 |df= mdy-all}}&lt;/ref&gt;
+
+On July 11, 2016 [[Liquor Control Board of Ontario]] (LCBO) confirmed that it accepts Apple Pay at all of its over 850 stores in [[Ontario]], Canada. LCBO had been gradually rolling out Apple Pay support since June at its stores, which had NFC-based terminals for contactless payments.&lt;ref&gt;{{cite web |url= http://www.macrumors.com/2016/07/11/apple-pay-lcbo-quiktrip-sheetz/ |title= Latest Apple Pay Retailers Include LCBO and Former CurrentC Backers |last= Rossignol |first= Joe |publisher=[[MacRumors]] |access-date= 2016-07-12 |df= mdy-all}}&lt;/ref&gt;
+
+Starting on August 19, 2016, Apple Pay will be available in [[Chick-fil-A]] restaurants across the United States, allowing fast food buyers to make their purchases both in-store and at the drive-thru using Apple Pay.&lt;ref&gt;{{cite web |url= http://www.macrumors.com/2016/08/17/chick-fil-a-apple-pay-august-19/ |title= Apple Pay Launching at Chick-fil-A on August 19 |last= Clover |first= Juli |publisher=[[MacRumors]] |access-date= 2016-08-18 |df= mdy-all}}&lt;/ref&gt;
+
+On September 7, 2016, [[Wayfair]] announced that they will support Apple Pay in [[Safari (web browser)|Safari]] on iPhone, iPad, and Mac at launch.&lt;ref&gt;{{cite web |url= http://www.macrumors.com/2016/09/07/wayfair-apple-pay-on-the-web/ |title= Wayfair Will Support Apple Pay in Safari on iPhone, iPad, and Mac at Launch |last= Rossignol |first= Joe |publisher=[[MacRumors]] |access-date= 2016-09-07 |df= mdy-all}}&lt;/ref&gt;
+
+On May 22, 2018, [[TransLink (British Columbia)|TransLink]] announced support for Apple Pay at all fare gates and on buses.&lt;ref&gt;{{Cite news|url=https://www.straight.com/news/1079186/translink-rolls-out-tap-pay-feature-allowing-credit-card-use-fare-gates-and-buses |title= TransLink rolls out "tap to pay" feature allowing credit-card use at fare gates and on buses |date= 2018-05-23 |work=[[The Georgia Straight]] |access-date= 2018-05-23 |df= mdy-all}}&lt;/ref&gt;
+
+On July 31, 2018, Tim Cook announced that both [[CVS Pharmacy|CVS]] and [[7-Eleven]] in the United States will support the service.&lt;ref&gt;{{cite news|url=https://www.theverge.com/2018/7/31/17637058/apple-pay-cvs-7-eleven-support-germany-launch-announcement|title=Apple Pay is coming to CVS and 7-Eleven later this year|date=July 31, 2018|author=Nick Statt|work=The Verge}}&lt;/ref&gt;
+
+On August 21, 2019 and December 23, 2019, [[Miami-Dade Transit|Miami Dade Transit]] announced support for Apple Pay at all fare gates and on buses.&lt;ref&gt;{{Cite web|url=https://www.miamidade.gov/global/service.page?Mduid_service=ser1565197498854306|title=Contactless Payment|website=www.miamidade.gov|language=en|access-date=2019-12-29}}&lt;/ref&gt; 
+
+In Feb 2020, apple pay accounts for 5% of global card transactions&lt;ref&gt;{{cite web|title=Apple Pay is on pace to account for 10% of all global card transactions|url=https://qz.com/1799912/apple-pay-on-pace-to-account-for-10-percent-of-global-card-transactions/|last=Detrixhe|first=John|date=11 February 2020|website=Quartz|url-status=live|archive-url=|archive-date=|access-date=}}&lt;/ref&gt; On April 4, 2020 Publix CEO Todd Jones announced [[Publix]] would be supporting Apple Pay immediately to help consumers fight COVID-19.&lt;ref&gt;{{Cite web|url=http://corporate.publix.com/about-publix/newsroom/news-releases/publix-offers-contactless-pay-options|title=Publix now offers contactless pay options {{!}} Newsroom|website=Publix Super Markets|language=en-us|access-date=2020-04-10}}&lt;/ref&gt;
+==References==
+{{reflist|30em|refs=
+&lt;ref name="NYT: problem"&gt;{{cite news |url=https://www.nytimes.com/2014/09/11/upshot/apple-pay-tries-to-solve-a-problem-that-really-isnt-a-problem.html |title=Apple Pay Tries to Solve a Problem That Really Isn't a Problem |work=[[The New York Times]] |first=Neil |last=Irwin |date=September 10, 2014 |accessdate=September 14, 2014 |archiveurl=https://archive.today/20140915042743/http://www.nytimes.com/2014/09/11/upshot/apple-pay-tries-to-solve-a-problem-that-really-isnt-a-problem.html?abt=0002&amp;abg=0&amp;_r=0 |archivedate=September 15, 2014 |url-status = live|df=mdy-all}}&lt;/ref&gt;
+
+&lt;ref name="TechCrunch: announces"&gt;{{cite web|url=https://techcrunch.com/2014/09/09/announces-mobile-payments-solution-called-apple-pay |title=Apple Announces Mobile Payment Solution Called Apple Pay |work=[[TechCrunch]] |publisher=[[AOL]] |first=Sarah |last=Perez |date=September 9, 2014 |accessdate=September 22, 2014 |archiveurl=https://web.archive.org/web/20140910151239/http://techcrunch.com/2014/09/09/announces-mobile-payments-solution-called-apple-pay/ |archivedate=September 10, 2014 |url-status = live|df= mdy-all}}&lt;/ref&gt;
+
+&lt;ref name="The Register: 0.15%"&gt;{{cite web |url= https://www.theregister.co.uk/2014/09/13/apple_to_get_15_cents_for_every_100_dollar_payment_on_its_pay_service_says_ft |title=Apple Pay is a tidy payday for Apple with 0.15% cut, sources say |work=[[The Register]] |first=Kelly |last=Fiveash |date=September 13, 2014 |accessdate= September 13, 2014 |archiveurl=https://web.archive.org/web/20140914043605/http://www.theregister.co.uk/2014/09/13/apple_to_get_15_cents_for_every_100_dollar_payment_on_its_pay_service_says_ft/ |archivedate= September 14, 2014 |url-status = live|df=mdy-all}}&lt;/ref&gt;
+
+&lt;ref name="The Verge: allows you"&gt;{{cite web|url=https://www.theverge.com/2014/9/9/6084211/apple-pay-iphone-6-nfc-mobile-payment |title=Apple Pay allows you to pay at the counter with your iPhone 6 |work=[[The Verge]] |first=Adrianne |last=Jeffries |date= September 9, 2014 |accessdate=September 13, 2014 |archiveurl=https://web.archive.org/web/20140910225525/http://www.theverge.com/2014/9/9/6084211/apple-pay-iphone-6-nfc-mobile-payment |archivedate=September 10, 2014 |url-status = live|df= mdy-all}}&lt;/ref&gt;
+
+&lt;ref name="The Verge: hands"&gt;{{cite web |url= https://www.theverge.com/2014/9/9/6128371/apple-pay-hands-on |title= Apple Pay hands-on: is this the future of payments? |work=[[The Verge]] |first= Nilay |last= Patel |authorlink= Nilay Patel |date= September 9, 2014 |accessdate= September 13, 2014 |archiveurl= https://web.archive.org/web/20140910225053/http://www.theverge.com/2014/9/9/6128371/apple-pay-hands-on |archivedate= September 10, 2014 |url-status = live|df= mdy-all}}&lt;/ref&gt;
+
+&lt;ref name="The Verge: most revolutionary"&gt;{{cite web|url=https://www.theverge.com/2014/9/10/6132153/apple-pay-was-this-weeks-most-revolutionary-product |title=Apple Pay was this week's most revolutionary product |work=[[The Verge]] |last=Bohn |first=Dieter |date= September 10, 2014 |accessdate=September 13, 2014 |archiveurl=https://web.archive.org/web/20140910224120/http://www.theverge.com/2014/9/10/6132153/apple-pay-was-this-weeks-most-revolutionary-product |archivedate=September 10, 2014 |url-status = live|df= mdy-all}}&lt;/ref&gt;
+
+&lt;ref name="The Verge: watch works"&gt;{{cite web|url=https://www.theverge.com/2014/9/9/6127587/apple-watch-works-with-apple-pay-to-replace-your-credit-cards |title=Apple Watch works with Apple Pay to replace your credit cards |work=[[The Verge]] |first=Dante |last= D'Orazio |date= September 9, 2014 |accessdate= September 13, 2014 |archiveurl= https://web.archive.org/web/20140910225251/http://www.theverge.com/2014/9/9/6127587/apple-watch-works-with-apple-pay-to-replace-your-credit-cards |archivedate= September 10, 2014 |url-status = live|df= mdy-all}}&lt;/ref&gt;
+
+&lt;ref name="USA Today: jump-start"&gt;{{cite web |url= https://www.usatoday.com/story/tech/personal/2014/09/09/apple-mobile-payments-iwallet/15334553 |title= Apple hopes to jump-start mobile payments with Apple Pay |work=[[USA Today]] |first= Mike |last= Snider |date= September 9, 2014 |accessdate= September 22, 2014 |archiveurl= https://web.archive.org/web/20140910175634/http://www.usatoday.com/story/tech/personal/2014/09/09/apple-mobile-payments-iwallet/15334553/ |archivedate= September 10, 2014 |url-status = live|df= mdy-all}}&lt;/ref&gt;
+
+&lt;!-- unused reference --&gt;
+&lt;!-- &lt;ref name="ValueQual.com: jump-start"&gt;{{cite web |url= https://valuequal.com/apple-pay-credit-card/ |title= Apple Pay - Future of Payments |work=[[ValueQual]] |date= September 9, 2014 |accessdate= September 15, 2019 |url-status = live|df= mdy-all}}&lt;/ref&gt; --&gt;
+}}
+
+==External links==
+*{{commonscatinline}}
+*{{official website|name=Apple Pay official site}}
+
+{{iOS}}
+{{Apple}}
+{{Mobile payments}}
+{{Payment service providers}}
+
+[[Category:Financial services companies established in 2014]]
+[[Category:2014 software]]
+[[Category:Apple Inc. services]]
+[[Category:Apple Inc. software|Pay]]
+[[Category:Computer-related introductions in 2014]]
+[[Category:Mobile payments in the United States]]
+[[Category:Mobile payments]]</text>
+      <sha1>2eu5b9u0sx4zcacnml6hvo6y2b5y7o0</sha1>
+    </revision>
+  </page>
+</mediawiki>

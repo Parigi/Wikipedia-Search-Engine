@@ -1,0 +1,596 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.10/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.10/ http://www.mediawiki.org/xml/export-0.10.xsd" version="0.10" xml:lang="en">
+  <siteinfo>
+    <sitename>Wikipedia</sitename>
+    <dbname>enwiki</dbname>
+    <base>https://en.wikipedia.org/wiki/Main_Page</base>
+    <generator>MediaWiki 1.35.0-wmf.36</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Media</namespace>
+      <namespace key="-1" case="first-letter">Special</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Talk</namespace>
+      <namespace key="2" case="first-letter">User</namespace>
+      <namespace key="3" case="first-letter">User talk</namespace>
+      <namespace key="4" case="first-letter">Wikipedia</namespace>
+      <namespace key="5" case="first-letter">Wikipedia talk</namespace>
+      <namespace key="6" case="first-letter">File</namespace>
+      <namespace key="7" case="first-letter">File talk</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki talk</namespace>
+      <namespace key="10" case="first-letter">Template</namespace>
+      <namespace key="11" case="first-letter">Template talk</namespace>
+      <namespace key="12" case="first-letter">Help</namespace>
+      <namespace key="13" case="first-letter">Help talk</namespace>
+      <namespace key="14" case="first-letter">Category</namespace>
+      <namespace key="15" case="first-letter">Category talk</namespace>
+      <namespace key="100" case="first-letter">Portal</namespace>
+      <namespace key="101" case="first-letter">Portal talk</namespace>
+      <namespace key="108" case="first-letter">Book</namespace>
+      <namespace key="109" case="first-letter">Book talk</namespace>
+      <namespace key="118" case="first-letter">Draft</namespace>
+      <namespace key="119" case="first-letter">Draft talk</namespace>
+      <namespace key="446" case="first-letter">Education Program</namespace>
+      <namespace key="447" case="first-letter">Education Program talk</namespace>
+      <namespace key="710" case="first-letter">TimedText</namespace>
+      <namespace key="711" case="first-letter">TimedText talk</namespace>
+      <namespace key="828" case="first-letter">Module</namespace>
+      <namespace key="829" case="first-letter">Module talk</namespace>
+      <namespace key="2300" case="first-letter">Gadget</namespace>
+      <namespace key="2301" case="first-letter">Gadget talk</namespace>
+      <namespace key="2302" case="case-sensitive">Gadget definition</namespace>
+      <namespace key="2303" case="case-sensitive">Gadget definition talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Opportunity (rover)</title>
+    <ns>0</ns>
+    <id>421051</id>
+    <revision>
+      <id>960035335</id>
+      <parentid>959766628</parentid>
+      <timestamp>2020-05-31T20:15:21Z</timestamp>
+      <contributor>
+        <username>Citation bot</username>
+        <id>7903804</id>
+      </contributor>
+      <comment>Alter: title, url. Add: date, author pars. 1-1. Removed parameters. Some additions/deletions were actually parameter name changes. | You can [[WP:UCB|use this bot]] yourself. [[WP:DBUG|Report bugs here]]. | Activated by AManWithNoPlan | [[Category:CS1 maint: archived copy as title]] | via #UCB_Category</comment>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="66811" xml:space="preserve">{{for|the latest updates|Opportunity mission timeline}}
+{{short description|NASA Mars rover deployed in 2004}}
+{{italic title}}
+{{Use mdy dates|date=May 2020}}
+{{Use American English|date=January 2019}}
+{{Infobox spaceflight
+| name                  = ''Opportunity''
+| image                 = NASA Mars Rover.jpg
+| image_caption         = An artist's portrayal of ''Opportunity'' on the surface of Mars.
+| insignia              = Nasa mer daffy.png
+| insignia_caption      = The launch patch for ''Opportunity'', featuring [[Duck Dodgers]] ([[Daffy Duck]])
+
+| mission_type          = [[Mars rover]]
+| operator              = [[NASA]]
+| website               = [http://marsrovers.jpl.nasa.gov/mission/status.html#opportunity JPL's Mars Exploration Rover]
+| COSPAR_ID             = 2003-032A
+| SATCAT                =
+| mission_duration      = Planned: 90 [[Sol (day on Mars)|sols]] (92.5&amp;nbsp;Earth&amp;nbsp;days)&lt;br /&gt;Final: 5,352 sols ({{age in days|2004|01|25|2019|02|13}}&amp;nbsp;Earth&amp;nbsp;days from landing to mission end; 15 Earth years or 8 Martian years)
+
+| spacecraft_type       = Rover
+| dry_mass              = 
+| launch_mass           = Total: 1,063 kg&lt;br/&gt; rover: 185 kg&lt;br/&gt; lander: 348 kg &lt;br/&gt; backshell/parachute: 209 kg&lt;br/&gt; heat shield: 78 kg&lt;br/&gt; Cruise Stage: 193 kg&lt;br/&gt; propellant: 50 kg&lt;ref name="LaunchDetails"/&gt;
+
+| launch_date           = {{start-date|July 7, 2003, 03:18 UTC}}&lt;ref name="NASA-Opportunity"&gt;{{cite web |last=Nelson |first=Jon |title=Mars Exploration Rover – Opportunity |url=http://www.jpl.nasa.gov/missions/mars-exploration-rover-opportunity-mer/ |work=NASA |accessdate=February 2, 2014 |archive-url=https://web.archive.org/web/20140124075309/http://www.jpl.nasa.gov/missions/mars-exploration-rover-opportunity-mer |archive-date=January 24, 2014 |url-status=live  }}&lt;/ref&gt;&lt;ref name="LaunchDetails"/&gt;
+| launch_rocket         = [[Delta II]] 7925H-9.5&lt;ref name="LaunchDetails"/&gt;&lt;ref name="nasa"/&gt;&lt;ref name="Jonathan's Space Report No. 504"/&gt;
+| launch_site           = [[Cape Canaveral Air Force Station|Cape Canaveral]] [[Cape Canaveral Air Force Station Space Launch Complex 17|SLC-17B]]
+| launch_contractor     = Boeing
+
+| last_contact           = June 10, 2018&lt;ref name="NASA-20190213"&gt;{{cite news |last1=Agle |first1=D.C. |last2=Brown |first2=Dwayne |last3=Wendel |first3=JoAnna |title=NASA's Opportunity Rover Mission on Mars Comes to End |url=https://www.jpl.nasa.gov/news/news.php?feature=7334 |date=February 13, 2019 |work=NASA |accessdate=February 14, 2019}}&lt;/ref&gt;
+| declared              = February 13, 2019&lt;ref name="NASA-20190213" /&gt;
+|interplanetary={{Infobox spaceflight/IP|type=rover|object=[[Mars]]|arrival_date=January 25, 2004,&lt;ref name="NASA-Opportunity" /&gt; 05:05 UTC [[Spacecraft Event Time|SCET]]&lt;br /&gt; [[Timekeeping on Mars|MSD]] 46236 14:35 [[Airy Mean Time|AMT]]
+
+|location={{coord|1.9462|S|354.4734|E|globe:Mars|name=Opportunity rover}}&lt;ref name="Esri-Mapping"&gt;{{cite web |author=Staff |title=Mapping the Mars Rovers' Landing Sites |url=http://www.esri.com/news/arcuser/0404/mapmars3of3.html |work=[[Esri]] |accessdate=May 4, 2014 |archive-url=https://web.archive.org/web/20140504190618/http://www.esri.com/news/arcuser/0404/mapmars3of3.html |archive-date=May 4, 2014 |url-status=live  }}&lt;/ref&gt;
+
+|distance = {{cvt|45.16|km}}&lt;ref name="mer-status"&gt;{{cite web|url=http://mars.nasa.gov/mer/mission/status_opportunityAll.html|title=Mars Exploration Rover Mission: All Opportunity Updates|work=nasa.gov|accessdate=September 18, 2018|archive-url=https://archive.today/20150830191319/http://mars.nasa.gov/mer/mission/status_opportunityAll_2011.html|archive-date=August 30, 2015|url-status=live}}&lt;/ref&gt; &lt;small&gt;
+}}
+| programme             = [[Mars Exploration Program]]
+| previous_mission      = ''[[Sojourner (rover)|Sojourner]]''
+| next_mission          = ''[[Curiosity (rover)|Curiosity]]''
+}}
+
+'''''Opportunity''''', also known as '''MER-B''' ('''Mars Exploration Rover – B''') or '''MER-1''', and nicknamed "'''Oppy'''",&lt;ref&gt;{{cite web|url=https://www.jpl.nasa.gov/opportunity-memories/#group-2|title=Opportunity Memories|website=NASA Jet Propulsion Laboratory|access-date=February 14, 2019}}&lt;/ref&gt; is&lt;!-- the rover still exists--&gt; a [[Robotics|robotic]] [[rover (space exploration)|rover]] that was active on [[Mars]] from 2004 until the middle of 2018.&lt;ref name="NASA-Opportunity" /&gt; Launched on July 7, 2003, as part of [[NASA]]'s [[Mars Exploration Rover]] program, it landed in [[Meridiani Planum]] on January 25, 2004, three weeks after its twin ''[[Spirit (rover)|Spirit]]'' (MER-A) touched down on the other side of the planet.&lt;ref name="january"/&gt; With a planned 90-[[Sol (day on Mars)|sol]] duration of activity (slightly less than 92.5 Earth days), ''Spirit'' functioned until it got stuck in 2009 and ceased communications in 2010, while ''Opportunity'' was able to stay operational for {{age in sols|2004|01|25|2018|06|11}} sols after landing, maintaining its power and key systems through continual recharging of its batteries using [[solar power]], and hibernating during events such as dust storms to save power. This careful operation allowed ''Opportunity'' to exceed its operating plan by {{Age in years and days|2004|04|26|2018|06|11}} (in Earth time), 55 times its designed lifespan. By June 10, 2018, when it last contacted NASA,&lt;ref name="Malik2018"&gt;{{cite web |url= https://www.space.com/40888-mars-dust-storm-2018-and-opportunity-rover-images.html| title= Mars Dust Storm 2018: How It Grew &amp; What It Means for the Opportunity Rover|last= Malik|first= T.|date=June 21, 2018|website= space.com|publisher= Future.plc|access-date=February 14, 2019}}&lt;/ref&gt;&lt;ref name="Rayl2018-08"&gt;{{cite web |url= http://www.planetary.org/explore/space-topics/space-missions/mer-updates/2018/08-mer-update-opportunity-sleeps.html| title= The Mars Exploration Rovers Update: Dust Storm Wanes, Opportunity Sleeps, Team Prepares Recovery Strategy|last= Rayl|first= A.J.S.|date=August 1, 2018|website= planetary.org|publisher= [[Planetary Society]]|access-date=February 14, 2019}}&lt;/ref&gt; the rover had traveled a distance of {{convert|45.16|km|abbr=off|sp=us}}.&lt;ref name="mer-status" /&gt;
+
+Mission highlights included the initial 90-sol mission, finding extramartian [[meteorite]]s such as [[Heat Shield Rock]] (Meridiani Planum meteorite), and over two years of exploring and studying [[Victoria crater]]. The rover survived moderate dust storms and in 2011 reached [[Endeavour crater]], which has been described as a "second landing site".&lt;ref name=wustl/&gt; The ''Opportunity'' mission is considered one of NASA's most successful ventures.&lt;ref&gt;{{cite web | url = https://www.bbc.com/news/science-environment-47231247 | title = Nasa calls time on silent Opportunity Mars rover | first = Jonathan | last = Amos | date = February 13, 2019 | access-date = February 14, 2019 | work = BBC }}&lt;/ref&gt;
+
+Due to the [[Opportunity mission timeline#Dust storm|planetary 2018 dust storm]] on Mars, ''Opportunity'' ceased communications on June 10 and entered [[Safe mode (spacecraft)|hibernation]] on June 12, 2018. It was hoped it would reboot once the weather cleared,&lt;ref&gt;{{Cite news|url=https://www.nasa.gov/feature/jpl/opportunity-emerges-in-a-dusty-picture|title=Opportunity Emerges in a Dusty Picture|last=Greicius|first=Tony|date=September 24, 2018|work=NASA|access-date=November 30, 2018|language=en|archive-url=https://web.archive.org/web/20181015130226/https://www.nasa.gov/feature/jpl/opportunity-emerges-in-a-dusty-picture/|archive-date=October 15, 2018|url-status=live}}&lt;/ref&gt; but it did not, suggesting either a catastrophic failure or that a layer of dust had covered its solar panels. NASA hoped to re-establish contact with the rover, citing a windy period that could potentially clean off its solar panels.&lt;ref&gt;{{Cite news|url=https://www.nasa.gov/feature/update-on-opportunity-rover-recovery-efforts|title=Update on Opportunity Rover Recovery Efforts|last=Greicius|first=Tony|date=August 30, 2018|work=NASA|access-date=November 30, 2018|language=en|archive-url=https://web.archive.org/web/20181103171532/https://www.nasa.gov/feature/update-on-opportunity-rover-recovery-efforts/|archive-date=November 3, 2018|url-status=live}}&lt;/ref&gt; On February 13, 2019, NASA officials declared that the ''Opportunity'' mission was complete, after the spacecraft had failed to respond to over 1,000 signals sent since August 2018.&lt;ref name=":0"&gt;{{cite news |title= NASA's Opportunity Rover Mission on Mars Comes to End |url=https://mars.nasa.gov/news/8413/nasas-opportunity-rover-mission-on-mars-comes-to-end/ |date=February 13, 2019 |work=NASA |access-date=February 13, 2019 }}&lt;/ref&gt;
+
+==Mission overview==
+{{see also|Opportunity mission timeline}}
+[[File:PIA22222-Mars-OpportunityRover-FirstSelfie-20180220.jpg|thumb|left|''Opportunity''{{'}}s first self-portrait on Mars&lt;br /&gt;(February 14–20, 2018 / [[Sol (day on Mars)|sols]] 4998−5004)]]Collectively, the ''Opportunity'' and ''Spirit'' rovers were part of the [[Mars Exploration Rover]] program in the long-term [[Mars Exploration Program]]. The Mars Exploration Program's four principal goals were to determine if the potential for life exists on Mars (in particular, whether recoverable water may be found on Mars), to characterize the Mars climate and its geology, and then to prepare for a potential human mission to Mars. The Mars Exploration Rovers were to travel across the Martian surface and perform periodic geologic analyses to determine if water ever existed on Mars as well as the types of minerals available, as well as to corroborate data taken by the [[Mars Reconnaissance Orbiter]].&lt;ref name="nasa2"&gt;{{cite web |url=http://marsrovers.nasa.gov/science/objectives.html |title=The scientific objectives of the Mars Exploration Rover |publisher=marsrovers.nasa.gov |accessdate=May 25, 2015 |archive-url=https://www.webcitation.org/61AZSknZA?url=http://marsrovers.nasa.gov/science/objectives.html |archive-date=August 24, 2011 |url-status=dead }}&lt;/ref&gt;
+
+''Spirit'' and ''Opportunity'' were launched a month apart, on June 10 and July 7, 2003, and both reached the Martian surface by January 2004. Both rovers were designed with an expected 90 [[Martian day|sols]] (92 Earth days) lifetime, but each lasted much longer than expected. ''Spirit''{{'s}} mission lasted 20 times longer than its expected lifetime, and its mission was declared ended on May 25, 2011, after it got stuck in soft sand and expended its power reserves trying to free itself. ''Opportunity'' lasted 55 times longer than its 90 sol planned lifetime, operating for {{age in days|2004|01|25|2019|02|13}} days from landing to mission end. An archive of weekly updates on the rover's status can be found at the ''Opportunity'' Update Archive.&lt;ref name="OpportunityUpdateArchive"/&gt; [[File:MOLA opportunity.jpg|thumb|upright=.9|''Opportunity''{{'}}s landing site (denoted with a star)|alt=|left]]
+
+From its initial landing, by chance, into an [[Eagle (crater)|impact crater]] amidst an otherwise generally flat plain, ''Opportunity'' successfully investigated regolith and rock samples and took panoramic photos of its landing site. Its sampling allowed NASA scientists to make hypotheses concerning the presence of [[hematite]] and past presence of water on the surface of Mars.&lt;ref name="GZM-20190215"&gt;{{cite web |last=Dvorsky |first=George |title=The Enduring Mystery of the Martian 'Blueberries' Discovered by Opportunity Rover |url=https://gizmodo.com/the-enduring-mystery-of-the-martian-blueberries-discove-1832649426 |date=February 15, 2019 |work=[[Gizmodo]] |accessdate=February 15, 2019 }}&lt;/ref&gt; Following this, it was directed to travel across the surface of Mars to investigate another crater site, [[Endurance (crater)|Endurance crater]], which it investigated from June to December 2004. Subsequently, ''Opportunity'' examined the impact site of its own [[heat shield]] and discovered an intact [[meteorite]], now known as [[Heat Shield Rock]], on the surface of Mars.
+
+From late April to early June 2005, ''Opportunity'' was perilously lodged in a sand dune, with several wheels buried in the sand. Over a six-week period, Earth-based physical simulations were performed to decide how best to extract the rover from its position without risking its permanent immobilization. Successful maneuvering a few centimeters at a time eventually freed the rover, which resumed its travels.
+
+''Opportunity'' was directed to proceed in a southerly direction to [[Erebus (crater)|Erebus crater]], a large, shallow, partially buried crater and a stopover on the way south towards [[Victoria (crater)|Victoria crater]], between October 2005 and March 2006. It experienced some mechanical problems with its robotic arm.
+
+In late September 2006, ''Opportunity'' reached Victoria crater and explored along the rim in a clockwise direction. In June 2007 it returned to Duck Bay, its original arrival point; in September 2007 it entered the crater to begin a detailed study. In August 2008, ''Opportunity'' left Victoria crater for [[Endeavour (crater)|Endeavour crater]], which it reached on August 9, 2011.&lt;ref name="NASA – NASA Mars Rover Arrives at New Site on Martian Surface"/&gt;
+
+Here at the rim of the Endeavour crater, the rover moved around a geographic feature named ''Cape York''. The Mars Reconnaissance Orbiter had detected [[phyllosilicate]]s there, and the rover analyzed the rocks with its instruments to check this sighting on the ground.
+This structure was analyzed in depth until summer 2013. In May 2013 the rover was heading south to a hill named ''[[Solander Point]]''.
+
+[[File:Opportunity rover lifetime progress map.jpg|thumb|right|upright=1.8|Lifetime progress map with Washington, D.C. overlay for size and distance comparison]]
+
+''Opportunity''{{'}}s total odometry by June 10, 2018 (sol 5111), was {{cvt|45.16|km}}, while the dust factor was 10.8.&lt;ref&gt;{{cite web|url=http://mars.nasa.gov/mer/mission/status_opportunityAll.html#sol4413|title=Mars Exploration Rover Mission: All Opportunity Updates|work=nasa.gov|accessdate=January 5, 2017|archive-url=https://archive.today/20150830191319/http://mars.nasa.gov/mer/mission/status_opportunityAll_2011.html#sol4413|archive-date=August 30, 2015|url-status=live}}&lt;/ref&gt; Since January 2013, the solar array dust factor (one of the determinants of solar power production) varied from a relatively dusty 0.467 on December 5, 2013 (sol 3507), to a relatively clean 0.964 on May 13, 2014 (sol 3662).&lt;ref name="Opportunity Updates"/&gt;
+
+In December 2014, NASA reported that ''Opportunity'' was suffering from "[[amnesia]]" events in which the rover failed to write data, e.g. [[telemetry]] information, to [[non-volatile memory]]. The hardware failure was believed to be due to an age-related fault in one of the rover's seven memory banks. As a result, NASA had aimed to force the rover's software to ignore the failed memory bank;&lt;ref&gt;{{cite web | url=http://news.discovery.com/space/mars-rover-opportunity-suffers-worrying-bouts-of-amnesia-141229.htm | title=Mars Rover Opportunity Suffers Worrying Bouts of 'Amnesia' | publisher=Discovery News | work=Web article | date=December 29, 2014 | accessdate=December 31, 2014 | author=O'Neill, Ian | archive-url=https://web.archive.org/web/20141230215656/http://news.discovery.com/space/mars-rover-opportunity-suffers-worrying-bouts-of-amnesia-141229.htm | archive-date=December 30, 2014 | url-status=live | df=mdy-all }}&lt;/ref&gt; amnesia events continued to occur, however, which eventually resulted in vehicle resets.{{clarify|date=February 2019}} In light of this, on Sol 4027 (May 23, 2015), the rover was configured to operate in RAM-only mode, completely avoiding the use of non-volatile memory for storage.&lt;ref&gt;{{cite web|url=http://mars.nasa.gov/mer/mission/status_opportunityAll.html#sol4024|title=Opportunity Update Archive, sols 4024–4029, May 20, 2015–May 25, 2015|access-date=July 2, 2015|archive-url=https://archive.today/20150830191319/http://mars.nasa.gov/mer/mission/status_opportunityAll_2011.html#sol4024|archive-date=August 30, 2015|url-status=live}}&lt;/ref&gt;
+
+===End of mission===
+[[File:Mars Opportunity tau watt-hours graph.jpg|left|thumb]]
+[[File:NASA-MarsOpportunityRover-LastImage-PanCam-Sol5111-20180610.jpg|thumb|left|200px|''Opportunity'' rover ‒ last image&lt;ref name="FRBS-20190218"&gt;{{cite news |last=O'Callaghan |first=Jonathan |title=This Was The Last Photo Taken By NASA's Opportunity Rover On Mars |url=https://www.forbes.com/sites/jonathanocallaghan/2019/02/18/this-was-the-last-photo-taken-by-nasas-opportunity-rover-on-mars/ |date=February 18, 2019 |work=[[Forbes]] |accessdate=February 19, 2019 }}&lt;/ref&gt; (of 228,771 raw images ‒ June 10, 2018)&lt;ref name="NASA-20190219"&gt;{{cite web |author=Staff |title=Opportunity: All 228,771 Raw Images |url=https://mars.nasa.gov/mer/gallery/all/opportunity.html |date=February 19, 2019 |work=[[NASA]] |accessdate=February 19, 2019 }}&lt;/ref&gt;]]
+In early June 2018, a large planetary-scale dust storm developed, and within a few days the rover's solar panels were not generating enough power to maintain communications, with the last contact on June 10, 2018.&lt;ref name="NASA-20190213" /&gt; NASA stated that they did not expect to resume communication until after the storm subsided,&lt;ref name='Official updates'/&gt; but the rover kept silent even after the storm ended in early October,&lt;ref name='Official updates'/&gt; suggesting either a catastrophic failure or a layer of dust covering its solar panels.&lt;ref name="covered panels"&gt;[https://www.space.com/42115-mars-rover-opportunity-still-silent-4-months-later.html Opportunity Rover Still Silent on Mars, 4 Months After Epic Dust Storm Began] {{Webarchive|url=https://web.archive.org/web/20181015192425/https://www.space.com/42115-mars-rover-opportunity-still-silent-4-months-later.html |date=October 15, 2018 }}. Mike Wall, ''Space.com''. October 12, 2018.&lt;/ref&gt; The team remained hopeful that a windy period between November 2018 and January 2019 might clear the dust from its solar panels, as had happened before.&lt;ref name='covered panels'/&gt;  Wind was detected nearby on January 8, and on January 26 the mission team announced a plan to begin broadcasting a new set of commands to the rover in case its radio receiver failed.&lt;ref&gt;{{cite web |last1=Torbet |first1=Georgina |title=NASA makes last-ditch attempt to revive dormant Mars rover Opportunity |url=https://www.digitaltrends.com/cool-tech/revive-mars-rover-opportunity/amp/ |website=digitaltrends.com |publisher=Designtechnica Corporation |accessdate=January 27, 2019 |language=English |date=January 26, 2019 |quote=Now NASA scientists are trying a last-ditch attempt to contact the rover based on three unlikely but possible scenarios: that the rover's primary X-band radio has failed, that both the primary and secondary X-band radios have failed, or that the rover's internal clock has become offset. The team is commanding the rover to switch to its backup X-band radio and to reset its clock to counteract these possibilities.}}&lt;/ref&gt;
+
+On February 12, 2019,&lt;ref&gt;{{cite web|url=https://twitter.com/PlanetaryKeri/status/1095469660017840128|title=Tonight is the final planned attempt to contact Opportunity. I had the extreme privilege to be the final Tactical Uplink Lead yesterday. My signature is in pink on the command approval form, as usual. Godspeed, Opportunity. #LoveYouOppy #OppyPhoneHome #WakeUpOppy|last=Bean|first=Keri|date=February 12, 2019|website=@PlanetaryKeri|language=en|access-date=February 16, 2019}}&lt;/ref&gt; past and present members of the mission team gathered in JPL's [[Space Flight Operations Facility]] to watch final commands being transmitted to Opportunity via the 70 meter dish of the [[Goldstone Deep Space Communications Complex]] in California. Following 25 minutes of transmission of the final 4 sets of commands, communication attempts with the rover were handed off to [[Canberra Deep Space Communication Complex|Canberra, Australia]].
+
+More than 835 recovery commands were transmitted since losing signal in June 2018 to the end of January 2019 with over 1000 recovery commands transmitted before February 13, 2019.&lt;ref name=":0"/&gt;&lt;ref&gt;{{cite web|url=https://mars.nasa.gov/mer/mission/status_opportunityAll.html|title=Mars Exploration Rover Mission: All Opportunity Updates|website=mars.nasa.gov|access-date=February 10, 2019|archive-url=https://web.archive.org/web/20180325061258/https://mars.nasa.gov/mer/mission/status_opportunityAll.html|archive-date=March 25, 2018|url-status=live}}&lt;/ref&gt;&lt;ref&gt;{{cite web|url=https://twitter.com/MarsRovers/status/1095454710432096257|title=#OppyPhoneHome Update Tonight, we'll make our last planned attempts to contact Opportunity. The solar-powered rover last communicated on June 10, 2018, as a planet-wide dust storm swept across Mars.|first=Spirit and|last=Oppy|date=February 12, 2019}}&lt;/ref&gt; NASA officials held a press conference on February 13 to declare an official end to the mission. NASA associate administrator Thomas Zurbuchen said, "It is therefore that I am standing here with a deep sense of appreciation and gratitude that I declare the ''Opportunity'' mission is complete."&lt;ref&gt;{{cite news | url = https://www.nytimes.com/2019/02/13/science/mars-opportunity-rover-dead.html | title = NASA's Mars Rover Opportunity Concludes a 15-Year Mission | first = Kenneth | last = Chang | date = February 13, 2019 | accessdate = February 13, 2019 | work = The New York Times }}&lt;/ref&gt; As NASA ended their attempts to contact the rover, the last data sent was the song "[[I'll Be Seeing You (song)|I'll Be Seeing You]]" performed by [[Billie Holiday]].&lt;ref&gt;{{cite web |url=https://arstechnica.com/science/2019/02/opportunity-did-not-answer-nasas-final-call-and-its-now-gone-to-us/ |title=Opportunity did not answer NASA's final call, and it's now lost to us |publisher=Ars Technica |date=February 13, 2019 |author=Berger, Eric}}&lt;/ref&gt;
+
+The final communication from the rover came on June 10, 2018 (sol 5111) from Perseverance Valley,&lt;ref name=":0" /&gt; and indicated a solar array energy  production of 22 [[Watt-hour|Wh]] for the sol, and the highest atmospheric opacity (tau) ever measured on Mars: 10.8.&lt;ref&gt;{{cite web|url=https://an.rsl.wustl.edu/merb/merxBrowser/an3.aspx?it=D1&amp;ii=22771|title=MERB Notebook - Opportunity Mars Rover data|website=an.rsl.wustl.edu|access-date=February 18, 2019}}&lt;/ref&gt;&lt;ref&gt;{{cite web|url=https://space.stackexchange.com/questions/34257/opportunitys-last-tau-was-10-8-what-does-that-mean-and-how-is-tau-defined-and|title=Opportunity's last tau was 10.8; what does that mean and how is tau defined and measured?|last=|first=|date=|website=Space Exploration Stack Exchange|access-date=February 18, 2019}}&lt;/ref&gt;
+
+[[File:PIA22737-Mars-2018DustStorm-MCS-MRO-Animation-20181030.webm|thumb|left|575px|&lt;center&gt;[[Atmosphere of Mars|Mars dust storm]] – [[Optical depth|optical depth tau]] – May to September 2018&lt;br /&gt;([[Mars Climate Sounder]]; [[Mars Reconnaissance Orbiter]])&lt;br /&gt;(1:38; animation; October 30, 2018; [[:File:PIA22737-Mars-2018DustStorm-MCS-MRO-Animation-20181030.webm|file description]]&lt;/center&gt;]]
+{{Bar graph
+| title       = ''Opportunity'' solar array energy production per sol (2018 dust storm)
+| float       = left
+| bar_width   = 30
+| width_units = em
+| data_max    = 800
+| label_type  = Date
+| data_type   = Watt-hours&lt;ref name='Official updates'/&gt; 
+| label1     =Sol 5079 (May 8, 2018)
+| data1    = 667
+| label2    =Sol 5100 (May 29, 2018)
+| data2    = 652
+| label3    =Sol 5105 (June 3, 2018)
+| data3    = 468
+| label4    =Sol 5106 (June 4, 2018)
+| data4   = 345
+| label5    =Sol 5107 (June 6, 2018)
+| data5   =  133 
+| label6    =Sol 5111 (June 10, 2018)
+| data6   =  22
+}}
+{{Clear}}
+
+== Objectives ==
+[[File:21497 PIA22216-16pval5000.jpg|thumb|500px|HiRise image from MRO, was laid over 3-D topographic map of the terrain, with 5-fold vertical exaggeration; view looking west on to Perseverance Valley on the western rim of Endeavour crater (February 15, 2018)&lt;ref&gt;{{cite web|url=https://mars.nasa.gov/resources/21497/|title=Martian 'Perseverance Valley' in Perspective (Vertical Exaggeration) – NASA's Mars Exploration Program|website=Mars.nasa.gov|accessdate=September 7, 2018}}&lt;/ref&gt;]]
+The scientific objectives of the Mars Exploration Rover mission were to:&lt;ref name="nasa1"/&gt;
+* Search for and characterize a variety of rocks and regolith that hold clues to past water activity. In particular, samples sought include those that have minerals deposited by water-related processes such as [[Precipitation (meteorology)|precipitation]], [[Water vapor|evaporation]], [[Sedimentary rock|sedimentary cementation]] or [[hydrothermal activity]].
+* Determine the distribution and composition of minerals, rocks, and regolith surrounding the landing sites.
+* Determine what [[Geology of Mars|geologic processes]] have shaped the local terrain and influenced the chemistry. Such processes could include water or wind erosion, sedimentation, hydrothermal mechanisms, volcanism, and cratering.
+* Perform calibration and validation of surface observations made by [[Mars Reconnaissance Orbiter]] instruments. This will help determine the accuracy and effectiveness of various instruments that survey [[Geology of Mars|Martian geology]] from orbit.
+* Search for iron-containing minerals, identify and quantify relative amounts of specific mineral types that contain water or were formed in water, such as iron-bearing carbonates.
+* Characterize the [[mineralogy]] and textures of rocks and regolith  and determine the processes that created them.
+* Search for geological clues to the [[Environmental science|environmental conditions]] that existed when liquid water was present.
+* Assess whether those environments were conducive to life.
+
+During the next two decades, NASA will continue to conduct missions with other spacecraft to address whether life ever arose on Mars. The search begins with determining whether the Martian environment was ever suitable for life. Life, as we understand it, requires water, so the history of [[water on Mars]] is critical to finding out if the Martian environment was ever conducive to life. Although the [[Mars Exploration Rover]]s did not have the ability to detect life directly, they offered very important information on the habitability of the environment in the planet's history.
+
+==Design and construction==
+{{main|Mars Exploration Rover}}
+{{see also|Comparison of embedded computer systems on board the Mars rovers}}
+[[File:MER Pancam.JPG|thumb|right|upright|Pancam Mast Assembly (PMA)]]
+[[File:PIA23248-MarsOpportunityRover-BeforeAndAfterProcessingImage-20190604.jpg|thumb|right|upright|Mars Opportunity Rover - Before And After Processing Image (posted June 4, 2019)]]
+''Spirit'' and ''Opportunity'' are twin rovers, each a six-wheeled, [[solar panel|solar-powered]] robot standing {{convert|1.5|m|ft|sp=us}} high, {{convert|2.3|m|ft|sp=us}} wide, and {{convert|1.6|m|ft|sp=us}} long and weighing {{convert|180|kg|lb}}. Six wheels on a [[rocker-bogie]] system enable mobility. Each wheel has its own motor, the vehicle is steered at front and rear and was designed to operate safely at tilts of up to 30 degrees. Maximum speed is {{convert|5|cm/s|in/s|sp=us}} although average speed was about a fifth of this ({{convert|0.89|cm/s|in/s|sp=us}}). Both ''Spirit'' and ''Opportunity'' have pieces of the fallen [[World Trade Center (1973–2001)|World Trade Center]]'s metal on them that were "turned into shields to protect cables on the drilling mechanisms".&lt;ref name="Martian Robots, Taking Orders From a Manhattan Walk-Up"/&gt;&lt;ref name="Roving Mars: Spirit, Opportunity, and the Exploration of the Red Planet"/&gt;
+
+Solar arrays generate about 140 watts for up to fourteen hours per sol, while rechargeable [[lithium ion batteries]] stored energy for use at night. ''Opportunity''{{'}}s onboard computer uses a 20&amp;nbsp;MHz [[IBM RAD6000|RAD6000]] CPU with 128&amp;nbsp;MB of DRAM, 3&amp;nbsp;MB of EEPROM, and 256&amp;nbsp;MB of flash memory. The rover's [[operating temperature]] ranges from {{convert|−40|to|+40|C|F}} and [[Radioisotope heater unit|radioisotope heaters]] provide a base level of heating, assisted by electrical heaters when necessary.&lt;ref&gt;{{cite web | url = http://marsrover.nasa.gov/technology/is_severe_environments.html | title = MER – Batteries and Heaters | accessdate = August 13, 2012 | work = Jet Propulsion Laboratory | publisher = NASA | archive-url = https://web.archive.org/web/20120609205903/http://marsrover.nasa.gov/technology/is_severe_environments.html | archive-date = June 9, 2012 | url-status = dead | df = mdy-all }}&lt;/ref&gt; A gold film and a layer of silica [[aerogel]] provides insulation.
+
+Communications depend on an omnidirectional low-gain antenna communicating at a low data rate and a steerable high-gain antenna, both in direct contact with Earth. A low gain antenna is also used to relay data to spacecraft orbiting Mars.
+
+Fixed science/engineering instruments included:
+* [[Pancam|Panoramic Camera (Pancam)]] – examines the texture, color, mineralogy, and structure of the local terrain.
+* [[Navcam|Navigation Camera (Navcam)]] – monochrome with a higher field of view but lower resolution, for navigation and driving.
+* [[Mini-TES|Miniature Thermal Emission Spectrometer (Mini-TES)]] – identifies promising rocks and regolith for closer examination, and determines the processes that formed them.
+* [[Hazcam]]s, two B&amp;W cameras with 120 degree field of view, that provide additional data about the rover's surroundings.
+
+The rover arm holds the following instruments:
+* Mössbauer spectrometer (MB) [[MIMOS II]] – used for close-up investigations of the mineralogy of iron-bearing rocks and regolith.
+* [[Alpha particle X-ray spectrometer]] (APXS) – close-up analysis of the abundances of elements that make up rocks and regolith.
+* Magnets – for collecting magnetic dust particles
+* Microscopic Imager (MI) – obtains close-up, high-resolution images of rocks and regolith.
+* [[Rock Abrasion Tool|Rock Abrasion Tool (RAT)]] – exposes fresh material for examination by instruments on board.
+
+The cameras produce 1024-pixel by 1024-pixel images, the data is compressed with [[ICER]], stored, and transmitted later.
+
+The rover's name was chosen through a [[Mars Exploration Rover#Naming of Spirit and Opportunity|NASA sponsored student essay competition]].
+
+''Opportunity'' was 'driven' by several operators throughout its mission, including JPL roboticist [[Vandi Verma]] who also cowrote the [[PLEXIL]] command language used in its software.&lt;ref name="sm2019"&gt;{{cite web |last1=Venkatraman |first1=Vijaysree |title=The space roboticist |url=https://www.sciencemag.org/careers/2015/07/space-roboticist |website=Science magazine |date=July 13, 2015 |accessdate=February 14, 2019}}&lt;/ref&gt;
+
+===Power===
+{{main|Mars Exploration Rover#Power and electronic systems}}
+[[File:Navigation Camera Sol 4959 of the MER-B Opportunity rover on Mars.jpg|thumb|upright=1.14|MER-B NavCam image Sol 4959&lt;ref&gt;{{cite web|url=https://mars.nasa.gov/mer/gallery/all/1/n/4959/1N568428036EFFD0J8P1826R0M1.HTML|title=Mars Exploration Rover|last=mars.nasa.gov|website=mars.nasa.gov}}&lt;/ref&gt; Start of January 2018, looking along rim of Endeavour crater]]
+The rover uses a combination of solar cells and a rechargeable chemical battery.&lt;ref name="mars.nasa.gov"&gt;{{cite web|url=http://mars.nasa.gov/mer/technology/bb_power.html|title=Mars Exploration Rover Mission: Technology|work=nasa.gov|accessdate=January 5, 2017|archive-url=https://web.archive.org/web/20161228213007/http://mars.nasa.gov/mer/technology/bb_power.html|archive-date=December 28, 2016|url-status=live}}&lt;/ref&gt; This class of rover has two rechargeable [[Lithium battery|lithium batteries]], each composed of 8 cells with 8 [[Ampere hour|amp-hour]] capacity.&lt;ref&gt;{{cite web |url=https://mars.nasa.gov/mer/technology/bb_power.html |title=Power |access-date=September 20, 2018 |archive-url=https://web.archive.org/web/20170118021407/http://mars.nasa.gov/mer/technology/bb_power.html |archive-date=January 18, 2017 |url-status=live  }}&lt;/ref&gt; At the start of the mission the solar panels could provide up to around 900 watt-hours (Wh) to recharge the battery and power system in one Sol, but this could vary due to a variety of factors.&lt;ref name="mars.nasa.gov"/&gt; In Eagle crater the cells were producing about 840 Wh, but by Sol 319 in December 2004, it had dropped to 730 Wh.&lt;ref&gt;{{cite web|url=http://mars.nasa.gov/mer/mission/status_opportunityAll_2004.html#sol11|title=Mars Exploration Rover Mission: All Opportunity Updates|work=nasa.gov|accessdate=January 5, 2017|archive-url=https://web.archive.org/web/20170201175441/http://mars.nasa.gov/mer/mission/status_opportunityAll_2004.html#sol11|archive-date=February 1, 2017|url-status=live}}&lt;/ref&gt;
+
+Like Earth, Mars has seasonal variations that reduce sunlight during winter.  However, since the Martian year is longer than that of the Earth, the seasons fully rotate roughly once every 2 Earth years.&lt;ref name="ReferenceA"&gt;{{cite web|url=http://mars.nasa.gov/news/whatsnew/index.cfm?FuseAction=ShowNews&amp;NewsID=1885|title=Mars Rover Opportunity Busy Through Depth of Winter – Mars News|last=mars.nasa.gov|work=nasa.gov|accessdate=January 5, 2017|archive-url=https://web.archive.org/web/20160726141458/http://mars.nasa.gov/news/whatsnew/index.cfm?FuseAction=ShowNews&amp;NewsID=1885|archive-date=July 26, 2016|url-status=live}}&lt;/ref&gt; By 2016, MER-B had endured seven Martian winters, during which times power levels drop which can mean the rover avoids doing activities that use a lot of power.&lt;ref name="ReferenceA"/&gt; During its first winter power levels dropped to under 300 Wh per day for two months, but some later winters were not as bad.&lt;ref name="ReferenceA"/&gt;
+
+Another factor that can reduce received power is dust in the atmosphere, especially dust storms.&lt;ref name="phys.org"&gt;{{cite web|url=http://phys.org/news/2016-10-europe-exomars-mission-middle-season.html|title=Europe's ExoMars mission arrives in the middle of dust season|work=phys.org|accessdate=January 5, 2017|archive-url=https://web.archive.org/web/20161130091828/http://phys.org/news/2016-10-europe-exomars-mission-middle-season.html|archive-date=November 30, 2016|url-status=live}}&lt;/ref&gt; Dust storms have occurred quite frequently when Mars is closest to the Sun.&lt;ref name="phys.org"/&gt; Global dust storms in 2007 reduced power levels for Opportunity and Spirit so much they could only run for a few minutes each day.&lt;ref name="phys.org"/&gt; Due to the [[Opportunity mission timeline#Dust storm|2018 dust storms]] on Mars, ''Opportunity'' entered [[Safe mode (spacecraft)|hibernation mode]] on June 12,&lt;ref&gt;[https://www.theverge.com/2018/6/13/17460314/nasa-opportunity-rover-mars-dust-storm-battery-drained NASA's Opportunity rover is in a deep sleep on Mars – but there's hope it will wake up again] {{Webarchive|url=https://web.archive.org/web/20180614021406/https://www.theverge.com/2018/6/13/17460314/nasa-opportunity-rover-mars-dust-storm-battery-drained |date=June 14, 2018 }}. Loren Grush, ''The Verge''. June 13, 2018.&lt;/ref&gt;&lt;ref&gt;{{Cite news|url=https://www.scientificamerican.com/article/as-massive-storm-rages-on-mars-opportunity-rover-falls-silent/|title=As Massive Storm Rages on Mars, Opportunity Rover Falls Silent|last=Malik|first=Tariq|work=Scientific American (Space.com)|access-date=June 13, 2018|language=en|archive-url=https://web.archive.org/web/20180613180214/https://www.scientificamerican.com/article/as-massive-storm-rages-on-mars-opportunity-rover-falls-silent/|archive-date=June 13, 2018|url-status=live}}&lt;/ref&gt; but it remained silent after the storm subsided in early October.&lt;ref name='Official updates'/&gt;
+
+====Examples====
+Examples of watt-hours per sol collected by the rover:&lt;ref name="OpportunityStatusUpdates"&gt;{{cite web|url=http://mars.nasa.gov/mer/mission/status_opportunityAll.html|title=All Opportunity Status Updates|accessdate=July 1, 2015|archive-url=https://archive.today/20150830191319/http://mars.nasa.gov/mer/mission/status_opportunityAll_2011.html|archive-date=August 30, 2015|url-status=live}}&lt;/ref&gt;
+
+{| class="wikitable mw-collapsible mw-collapsed"
+|-
+! Solar array energy production throughout mission graphs
+|-
+|
+{{Bar graph
+| title       = ''Opportunity'' solar array energy production (2013–2014)
+| float       = left
+| bar_width   = 30
+| width_units = em
+| data_max    = 800
+| label_type  = Date
+| data_type   = Watt-hours
+| label1      = Sol 3376 (July 23, 2013)
+| data1       = 431
+| label2      = Sol 3384 (July 31, 2013)
+| data2       = 395
+| label3      = Sol 3390 (August 6, 2013)
+| data3       = 385
+| label4      = Sol 3430 (September 16, 2013)
+| data4       = 346
+| label5      = Sol 3452 (October 9, 2013)
+| data5       = 325
+| label6      = Sol 3472 (October 30, 2013)
+| data6       = 299
+| label7      = Sol 3478 (November 5, 2013)
+| data7       = 311
+| label8      = Sol 3494 (November 21, 2013)
+| data8       = 302
+| label9      = Sol 3507 (December 5, 2013)
+| data9       = 270
+| label10     = Sol 3534 (January 1, 2014)
+| data10      = 371
+| label11     = Sol 3602 (March 12, 2014)
+| data11      = 498
+| label12     = Sol 3606 (March 16, 2014)
+| data12      = 615
+| label13     = Sol 3621 (April 1, 2014)
+| data13      = 661
+| label14     = Sol 3676 (May 27, 2014)
+| data14      = 764
+| label15     = Sol 3710 (July 1, 2014)
+| data15      = 745
+| label16     = Sol 3744 (August 5, 2014)
+| data16      = 686
+| label17     = Sol 3771 (September 2, 2014)
+| data17      = 713
+| label18     = Sol 3805 (October 7, 2014)
+| data18      = 640
+| label19     = Sol 3834 (November 6, 2014)
+| data19      = 505
+| label20     = Sol 3859 (December 1, 2014)
+| data20      = 468
+}}
+
+{{Bar graph
+| title       = ''Opportunity'' solar array energy production (2015–2016)
+| float       = left
+| bar_width   = 30
+| width_units = em
+| data_max    = 800
+| label_type  = Date
+| data_type   = Watt-hours
+| label1     = Sol 3894 (January 6, 2015)
+| data1      = 438
+| label2     = Sol 3921 (February 3, 2015)
+| data2      = 484
+| label3     = Sol 3948 (March 3, 2015)
+| data3      = 545
+| label4     = Sol 3982 (April 7, 2015)
+| data4      = 559
+| label5     = Sol 4010 (May 5, 2015)
+| data5      = 508
+| label6     = Sol 4055 (June 21, 2015)
+| data6      = 477
+| label7     = Sol 4084 (July 20, 2015)
+| data7      = 432
+| label8     = Sol 4119 (August 25, 2015)
+| data8      = 404
+| label9     = Sol 4153 (September 29, 2015)
+| data9      = 352
+| label10    = Sol 4180 (October 27, 2015)
+| data10     = 332
+| label11    = Sol 4201 (November 18, 2015)
+| data11     = 376
+| label12    = Sol 4221 (December 8, 2015)
+| data12     = 407
+| label13    = Sol 4246 (January 3, 2016)
+| data13     = 449
+| label14    = Sol 4275 (February 2, 2016)
+| data14     = 498
+| label15    = Sol 4303 (March 1, 2016)
+| data15     = 585
+| label16    = Sol 4337 (April 5, 2016)
+| data16     = 650
+| label17    = Sol 4377 (May. 16, 2016)
+| data17     = 672
+| label18    = Sol 4398 (June 7, 2016)
+| data18     = 637
+| label19    = Sol 4425 (July 5, 2016)
+| data19     = 644
+| label20    = Sol 4457 (August 7, 2016)
+| data20     = 607
+| label21    = Sol 4486 (September 5, 2016)
+| data21     = 476
+| label22    = Sol 4514 (October 4, 2016)
+| data22     = 472
+| label23    = Sol 4541 (November 1, 2016)
+| data23     = 390
+| label24    = Sol 4575 (December 6, 2016)
+| data24     = 372
+}}
+{{clear}}
+
+{{Bar graph
+| title       = ''Opportunity'' solar array energy production (2017–2018)
+| float       = left
+| bar_width   = 30
+| width_units = em
+| data_max    = 800
+| label_type  = Date
+| data_type   = Watt-hours
+| label1     = Sol 4602 (January 3, 2017)
+| data1      = 520
+| label2     = Sol 4636 (February 7, 2017)
+| data2      = 414
+| label3     = Sol 4663 (March 6, 2017)
+| data3      = 441
+| label4     = Sol 4691 (April 4, 2017)
+| data4      = 415
+| label5     = Sol 4718 (May. 2, 2017)
+| data5      = 405
+| label6     = Sol 4752 (June 6, 2017)
+| data6      = 362
+| label7     = Sol 4786 (July 11, 2017)
+| data7      = 352
+| label8     = Sol 4814 (August 8, 2017)
+| data8      = 319 
+| label9     =Sol 4841 (September 5, 2017)
+| data9     = 285
+| label10     =Sol 4875 (October 10, 2017)
+| data10    = 339
+| label11     =Sol 4909 (November 14, 2017)
+| data11    = 393
+| label12     =Sol 4934 (December 10, 2017)
+| data12    = 408
+| label13     =Sol 4970 (January 16, 2018)
+| data13    = 525
+| label14     =Sol 4991 (February 8, 2018)
+| data14    = 628
+| label15     =Sol 5025 (March 13, 2018)
+| data15    = 679
+| label16     =Sol 5052 (April 10, 2018)
+| data16    = 694
+| label17     =Sol 5079 (May 8, 2018)
+| data17    = 667
+| label18     =Sol 5100 (May 29, 2018)
+| data18    = 652
+| label19     =Sol 5105 (June 3, 2018)
+| data19    = 468
+| label20     =Sol 5106 (June 4, 2018)
+| data20    = 345
+| label21     =Sol 5107 (June 6, 2018)
+| data21    = 133
+| label22     =Sol 5111 (June 10, 2018)
+| data22    = 22
+
+}}
+|}
+{{clear}}
+
+==Launch==
+[[File:Mer-b-final-launch.jpg|thumb|upright|Delta II Heavy (7925H-9.5) lifting off from pad 17-B carrying MER-B in 2003 with ''Opportunity'' rover]]
+''Opportunity''{{'}}s launch was managed by [[NASA's Launch Services Program]]. This was the first launch of the [[Delta II]] Heavy. The launch period went from June 25 to July 15, 2003. The first launch attempt occurred on June 28, 2003, but the spacecraft launched nine days later on July 7, 2003, due to delays for range safety and winds, then later to replace items on the rocket (insulation and a battery). Each day had two instantaneous launch opportunities. On the day of launch, the launch was delayed to the second opportunity (11:18&amp;nbsp;p.m. EDT) in order to fix a valve.&lt;ref&gt;{{cite web|last1=Harwood|first1=William|title=Opportunity launched to Mars|url=https://www.spaceflightnow.com/mars/merb/030707launch.html|website=Spaceflight Now|accessdate=December 18, 2015|date=July 8, 2003|archive-url=https://web.archive.org/web/20160125022002/http://spaceflightnow.com/mars/merb/030707launch.html|archive-date=January 25, 2016|url-status=live}}&lt;/ref&gt;
+[[File:Animation of Opportunity trajectory.gif|thumb|left|Animation of Opportunity trajectory from Jul 9, 2003 to Jan 25, 2004&lt;br /&gt;{{legend2| Yellow| Sun}}{{·}}{{legend2| RoyalBlue| Earth}}{{·}}{{legend2|Lime| Mars}}{{·}}{{legend2|Magenta| Opportunity }}]]
+{{clear}}
+
+==Landing==
+
+[[File:Meridianicropped.png|thumb|left|upright=1.8|Annotated elevation map of ''Opportunity'' landing site and some surrounding craters including Endeavour and Airy]]
+{{Clear}}
+[[File:PIA05229 label.jpg|thumb|left|upright=1.8|Mars Global Surveyor [[orbiter]]'s photograph of landing site showing "[[Eagle (Meridiani Planum crater)|hole in one]]." (See also: [[:File:Opportunity-02.gif|simulation of ''Opportunity''{{'s}} trajectory on arrival at Mars in January 2004]]).]]
+{{Clear}}
+
+On January 25, 2004, the airbag-protected landing craft settled onto the surface of Mars in the Eagle crater.
+
+==Heat shield impact site==
+In late December 2004, ''Opportunity'' reached the impact site of its heat shield, and took a panorama around Sol 325.&lt;ref&gt;{{cite web|url=https://www.jpl.nasa.gov/missions/mer/images.cfm?id=1425|title=JPL.NASA.GOV: Mars Exploration Rovers|website=www.jpl.nasa.gov|access-date=February 18, 2018|archive-url=https://web.archive.org/web/20170609070250/https://www.jpl.nasa.gov/missions/mer/images.cfm?id=1425|archive-date=June 9, 2017|url-status=dead}}&lt;/ref&gt;
+{{Wide image |Opportunity Heat Shield.jpg|800px|Area around the heat shield, including the resulting shield impact point. The heat shield was released before the rover landed and struck the surface on its own, and the rover later drove to the impact site. Near this location it discovered the first meteorite found on Mars, [[Heat Shield Rock]]}}
+{{Clear}}
+
+== Scientific findings ==
+{{main|Scientific information from the Mars Exploration Rover mission}}
+[[File:PIA07269-Mars Rover Opportunity-Iron Meteorite.jpg|thumb|[[Heat Shield Rock]] turned out to be the first meteorite discovered on Mars.]]
+''Opportunity'' has provided substantial evidence in support of the mission's primary scientific goals: to search for and characterize a wide range of [[List of rocks on Mars#Opportunity|rocks]] and [[Martian soil|regolith]] that hold clues to past [[Water on Mars|water activity on Mars]]. In addition to investigating the water, ''Opportunity'' has also obtained astronomical observations and atmospheric data.
+
+== Honors ==
+Honoring ''Opportunity'''s great contribution to the exploration of Mars, an [[asteroid]] was named Opportunity: [[39382 Opportunity]].&lt;ref name="nasa12"/&gt; The name was proposed by [[Ingrid van Houten-Groeneveld]] who, along with [[Cornelis Johannes van Houten]] and [[Tom Gehrels]], discovered the asteroid on September 24, 1960. ''Opportunity''{{'}}s lander is ''Challenger Memorial Station''.&lt;ref name="ChallengerMemorial"&gt;{{cite web|url=http://marsrovers.nasa.gov/newsroom/pressreleases/20040128a.html|title=Space Shuttle Challenger Crew Memorialized on Mars|accessdate=July 24, 2008|archive-url=https://web.archive.org/web/20080616063929/http://marsrovers.nasa.gov/newsroom/pressreleases/20040128a.html|archive-date=June 16, 2008|url-status=dead}}&lt;/ref&gt;
+
+On July 28, 2014, it was announced that ''Opportunity'', having traversed over {{convert|25|mi|km|order=flip|abbr=on}}, had become the rover achieving the longest off-world distance, surpassing the previous record of {{convert|39|km|mi|abbr=on}} on the [[Moon]] by [[Lunokhod 2]].&lt;ref name="NASA-20140728a"&gt;{{cite web |last1=Webster |first1=Guy |last2=Brown |first2=Dwayne |title=NASA Long-Lived Mars Opportunity Rover Sets Off-World Driving Record |url=https://www.sciencedaily.com/releases/2014/07/140728192230.htm |date=July 28, 2014 |work=[[NASA]] |accessdate=July 29, 2014 |archive-url=https://web.archive.org/web/20140728223809/http://www.jpl.nasa.gov/news/news.php?release=2014-245 |archive-date=July 28, 2014 |url-status=live  }}&lt;/ref&gt;&lt;ref name="FRB-20140729"&gt;{{cite web |last=Knapp |first=Alex |title=NASA's Opportunity Rover Sets A Record For Off-World Driving |url=https://www.forbes.com/sites/alexknapp/2014/07/29/nasas-opportunity-rover-sets-a-record-for-off-world-driving |date=July 29, 2014 |work=[[Forbes]] |accessdate=July 29, 2014 |archive-url=https://web.archive.org/web/20140731081628/http://www.forbes.com/sites/alexknapp/2014/07/29/nasas-opportunity-rover-sets-a-record-for-off-world-driving/ |archive-date=July 31, 2014 |url-status=live  }}&lt;/ref&gt;
+
+On March 24, 2015, NASA celebrated ''Opportunity'' having traveled the distance of a [[marathon]] race, {{convert|42.195|km|mi|sp=us}}, from the start of ''Opportunity''{{'}}s landing and traveling on Mars.&lt;ref&gt;{{cite web|title = The First Martian Marathon – NASA Science|url = https://science.nasa.gov/science-news/science-at-nasa/2015/15may_marathon|website = science.nasa.gov|accessdate = May 15, 2015|archive-url = https://web.archive.org/web/20150518012024/http://science.nasa.gov/science-news/science-at-nasa/2015/15may_marathon/|archive-date = May 18, 2015|url-status = live|df = mdy-all}}&lt;/ref&gt;
+
+==Superlatives==
+;Steepest slope
+[[File:Mars-rover-opportunity-solar-panel-PIA20329.jpg|thumb|upright=1.8|left|In March 2016, while trying to reach target on the slope of Marathon Valley in Cape Tribulation, the Mars rover attained a slope of 32 degrees, the highest angle yet for the rover since its mission began. This was so steep that dust that had accumulated on its top panels began to flow downward.&lt;ref&gt;{{cite web|url=https://mars.nasa.gov/resources/7782/|title=Streaks on Opportunity Solar Panel After Uphill Drive – NASA's Mars Exploration Program|last=mars.nasa.gov}}&lt;/ref&gt;]]
+{{clear}}
+
+;Highest elevation
+{{wide image|PIA19109-MarsOpportunityRover-EndeavourCrater-CapeTribulation-20150122.jpg|800px| ''Opportunity''{{'s}} view from the top of Cape Tribulation on the rim of Endeavour Crater, January 22, 2015.}}
+{{Clear}}
+
+On Sol 3894 (January 6, 2015), ''Opportunity'' reached the summit of "Cape Tribulation," which is {{convert|443|ft|m}} above "Botany Bay" level and the highest point yet reached by the rover on western rim of Endeavour Crater according to NASA.&lt;ref name="Official updates"&gt;{{cite web|url=https://mars.nasa.gov/mer/mission/status_opportunityAll.html|title=Mars Exploration Rover Mission: All Opportunity Updates|website=mars.nasa.gov|access-date=February 10, 2018|archive-url=https://web.archive.org/web/20180325061258/https://mars.nasa.gov/mer/mission/status_opportunityAll.html|archive-date=March 25, 2018|url-status=live}}&lt;/ref&gt;
+
+;Driving distance
+[[File:Driving Distances on Mars and the Moon.png|thumb|left|upright=1.8|''Opportunity'' rover "off-world" driving distance record, compared to other rovers&lt;ref name="NASA-20140728a" /&gt;&lt;ref name="FRB-20140729" /&gt;]]
+{{clear}}
+
+== Images ==
+The rover could take pictures with its different cameras, but only the PanCam camera had the ability to photograph a scene with different color filters. The panorama views are usually built up from PanCam images. By February 3, 2018, ''Opportunity'' had returned 224,642 pictures.&lt;ref&gt;{{cite web|url=http://marsrovers.jpl.nasa.gov/gallery/all/opportunity.html|title=Mars Exploration Rover|first=Brian|last=Truong|work=nasa.gov|access-date=November 20, 2013|archive-url=https://web.archive.org/web/20131110232401/http://marsrovers.jpl.nasa.gov/gallery/all/opportunity.html|archive-date=November 10, 2013|url-status=live}}&lt;/ref&gt;&lt;ref&gt;{{cite web|url=https://www.space.com/39728-mars-rover-opportunity-5000-martian-days.html|title=Opportunity Rover Celebrates 5,000 Days on Mars|access-date=February 17, 2018|archive-url=https://web.archive.org/web/20180217012443/https://www.space.com/39728-mars-rover-opportunity-5000-martian-days.html|archive-date=February 17, 2018|url-status=live}}&lt;/ref&gt;
+
+=== Views ===
+{{Clear}}
+{{Gallery|align=center|lines=5
+|Challenger Memorial Station At Meridiani Planum.jpg|''Opportunity'' images the empty lander, the ''Challenger Memorial Station''
+|Pia16128-640-MatijevicHill-EnduranceCrater-20120928.jpg|Pancam view from August 2012 (Sol 3058)
+|Pia17271 sol3355-rearhaz 3.jpg|Solander Point is visible on the horizon; foreground shows Botany Bay&lt;!---there is about {{convert|3.3|ft|m|order=flip|abbr=on}} between the wheels---&gt;&lt;ref&gt;{{cite web|url=http://www.nasa.gov/mission_pages/mer/multimedia/pia17271.html|title=Opportunity's View in 'Botany Bay' Toward 'Solander Point'|work=NASA|access-date=August 14, 2013|archive-url=https://web.archive.org/web/20130806045414/http://www.nasa.gov/mission_pages/mer/multimedia/pia17271.html|archive-date=August 6, 2013|url-status=live}}&lt;/ref&gt;
+|Opportunity in Endurance Crater (cropped).jpg|''Opportunity'' in [[Endurance (crater)|Endurance crater]] (simulated view based on actual imagery)
+|PIA22928-MarsOpportunityRover-BackTrackView-20100804.jpg|BackTrack view (August 2010)
+}}
+
+=== Panoramas ===
+A selection of panoramas from the mission:
+{{wide image|Fram Crater in color.jpg|800px|Panorama of [[Fram crater]] (Sol {{age in sols|2004|01|25|2004|04|24}}, April 23, 2004)}}
+{{wide image|Naturaliste crater site A47 cyl-med.jpg|800px|Panorama of [[Naturaliste (crater)|Naturaliste crater]], in foreground (March 1, 2005)}}
+{{wide image|Erebus 360 L257atc-B652R1.jpg|800px|Panorama taken on the rim of Erebus crater. The rover's solar panels are seen on the lower half (December 5, 2005).}}
+{{wide image|PIA19109-MarsOpportunityRover-EndeavourCrater-CapeTribulation-20150122.jpg|800px|Panorama of the rim of [[Endeavour (crater)|Endeavour crater]] from Cape Tribulation (January 22, 2015)}}
+{{wide image|Spirit-st-louis-mars-crater-opportunity-rover-labeled-false-color-PIA19394wiki.jpg|800px|Panorama of Spirit of St. Louis crater, a shallow crater about {{convert|110|ft|order=flip|sp=us}} long and {{convert|80|ft|order=flip|sp=us}} across. In its center is Lindbergh Mound, about 2 to 3 meters (6 to 10 ft) high. (annotated; [[false color]]; May 2015).&lt;ref&gt;{{cite web|url=http://mars.nasa.gov/mer/gallery/press/opportunity/20150521a.html|title=Mars Exploration Rover Mission: Press Release Images: Opportunity|last=mars.nasa.gov|work=nasa.gov|accessdate=January 5, 2017|archive-url=https://web.archive.org/web/20161202044216/http://mars.nasa.gov/mer/gallery/press/opportunity/20150521a.html|archive-date=December 2, 2016|url-status=live}}&lt;/ref&gt;}}
+{{wide image|PIA21707-Mars-OpportunityRover-OrionCrater-April2017.jpg|800px|Panorama of Orion crater (enhanced color; April 26, 2017)&lt;ref name="NASA-20170616"&gt;{{cite web |last1=Webster |first1=Guy |last2=Cantillo |first2=Laurie |last3=Brown |first3=Dwayne |title=Martian Crater Provides Reminder of Apollo Moonwalk |url=https://www.jpl.nasa.gov/news/news.php?feature=6873 |date=June 16, 2017 |work=[[NASA]] |accessdate=June 16, 2017 |archive-url=https://web.archive.org/web/20170617203639/https://www.jpl.nasa.gov/news/news.php?feature=6873 |archive-date=June 17, 2017 |url-status=live |df=mdy-all }}&lt;/ref&gt;}}
+{{wide image|PIA21497capetrib.jpg|800px|''Opportunity'' looks north as it departs Cape Tribulation, its southern end shown here (April 2017)&lt;ref&gt;{{cite web|url=https://photojournal.jpl.nasa.gov/catalog/PIA21497|title=Catalog Page for PIA21497|website=photojournal.jpl.nasa.gov|accessdate=September 7, 2018|archive-url=https://web.archive.org/web/20180819055225/https://photojournal.jpl.nasa.gov/catalog/PIA21497|archive-date=August 19, 2018|url-status=live}}&lt;/ref&gt;}}
+{{clear}}
+{{wide image|PIA21723-MarsOpportunityRover-PerserveranceValley-20170619.jpg|800px|Panorama above Perseverance Valley (June 19, 2017)}}
+{{wide image|22341_PIA22908-MarsOpportunityRover-LastPanorama-Spring2018-20190312.jpg|800px|Final panorama image taken by Opportunity between May and June 2018 prior to being disabled by the dust storms.}}
+{{wide image|PIA23247-TestOpportunityRoverOnEarth-Dusty-20180906.jpg|800px|Panorama of the ''Opportunity'' rover team by "Dusty" – a testing replica of the rover on Earth (September 6, 2018).}}
+
+=== Microscopic images ===
+{{Clear}}
+{{Gallery|align=center|lines=4
+|File:Blueberries eagle.gif|[[List of rocks on Mars#2004 – Opportunity rover (MER-B)|"Blueberries"]] (hematite spheres) on a rocky outcrop at Eagle Crater. Note the merged triplet in the upper left.&lt;ref name="GZM-20190215" /&gt;
+|File:PIA16139 Puzzling Little Martian Spheres That Don't Taste Like 'Blueberries'.tif|[[List of rocks on Mars#2004 – Opportunity rover (MER-B)|"Blueberries"]]: This view displays an area about 6 centimeters across. It was taken at an outcrop named "Kirkwood" at the Cape York on the rim of Endeavour crater on Mars. The spheres seen here are about 3 millimeters in diameter. The Microscopic Imager took this image at 3064 sol.
+|File:PIA23245-MarsOpportunityRover-Rock-JornadaDelMuerto-20190604.jpg|[[List of rocks on Mars#2004 – Opportunity rover (MER-B)|"Jornada del Muerto"]] - rock found in Perserverance Valley&lt;br /&gt;(posted June 4, 2019)
+}}
+
+=== From orbit ===
+{{Clear}}
+{{Gallery|align=center|lines=4
+|File:Oppland02a.jpg|''Opportunity'' landing site, lander, as imaged by [[Mars Reconnaissance Orbiter|MRO]]&lt;br /&gt; (November 29, 2006)
+|File:Opportunity landing site4.jpg|''Opportunity'' landing site, parachute and backshell, as imaged by [[Mars Reconnaissance Orbiter|MRO]] (November 29, 2006)
+|File:Oppland03a.jpg|''Opportunity'' landing site, heat shield, as imaged by [[Mars Reconnaissance Orbiter|MRO]]&lt;br /&gt; (November 29, 2006)
+|File:Opportunity Rover by HiRISE.jpg|''Opportunity'' (circled) as seen by [[HiRISE]] on January 29, 2009. Endeavour Crater is {{convert|17|km|mi|abbr=on}} away.
+}}
+
+=== Area maps ===
+
+{{Gallery|align=center|lines=2
+|File:Opportunity rover's landing site.jpg|''Opportunity'' landing ellipse in [[Meridiani Planum]], near Endeavour crater
+|File:PIA13708westernrimgeo.jpg|This geological map created from MRO's CRISM instrument data from orbit gives an overview of some of the geology in the area MER-B is exploring
+}}
+
+[[File:Meridiani Planum PIA13704.jpg|thumb|upright=2.27|left|This map, color-coded for minerals ([[CRISM]]) and annotated, shows the rover's traverse up to about 2010 with some nearby features noted.]]
+{{Clear}}
+
+=== Traverse maps ===
+An example of a rover traverse map featuring a line showing path of the rover, and mission sols, which are Mars days counted from its landing and typical of Mars surface mission time reporting. Topographic lines and various feature names are also common
+[[File:MERB Sol2710 1merbarrives.jpg|thumb|upright=2.73|left|''Opportunity'' arrives at Endeavour crater]]
+{{Clear}}
+{{Gallery|align=center|lines=2
+|File:MERB 528 2.jpg|''Opportunity'' traverse map, from Sol 405 to 528 (2005)
+|Image:MERB Sol2055 1.jpg|''Opportunity'' traverse map, from sol 1 (2004) through sol 2055 (2009)
+|Image:MERB Sol2442 PIA13598 br.jpg|Annotated ''Opportunity'' traverse map as of December 8, 2010 (Sol 2442)
+|Image:Sol3689.jpg|Annotated ''Opportunity'' traverse map as of June 11, 2014 (Sol 3689)
+|Image:CapeYork-Map-2014.png|''Opportunity''{{'}}s traverse on Cape York from Sol 2678 to Sol 3317 with some additional annotations of the main features.
+}}
+
+{{wide image|Oppymap4836sept17.png|600px|Traverse map up to 4836 (September 12, 2017)&lt;ref&gt;{{cite web|url=https://mars.nasa.gov/mer/mission/tm-opportunity/opportunity-sol4836.html|title=Mars Exploration Rover|website=mars.nasa.gov}}&lt;/ref&gt;}}
+{{clear}}
+
+== Legacy ==
+With word on February 12, 2019, that NASA was likely to conclude the ''Opportunity'' mission, many media outsides and commentators issued statements praising the mission's success and stating their goodbyes to the rover. One journalist, Jacob Margolis, tweeted his translation of the last data transmission sent by ''Opportunity'' on June 10, 2018, as "My battery is low and it's getting dark". The phrase struck a chord with the public mind and became widely reported, including some news reports that mistakenly asserted that the rover sent that English message, inundating NASA with additional questions. Margolis wrote a clarifying article on February 16, making it clear he had taken statements from NASA officials who were interpreting the data sent by ''Opportunity'', both on the state of its low power and Mars's high atmospheric opacity, and rephrased them in a poetic manner, never to imply the rover had sent the specific words.&lt;ref name="LAIST-20190216"&gt;{{cite news |last=Margolis |first=Jacob |title=How A Tweet About The Mars Rover Dying Blew Up On The Internet And Made People Cry |url=https://laist.com/2019/02/16/jpl_mars_rover_opportunity_battery_is_low_and_its_getting_dark.php |date=February 16, 2019 |work=[[Gothamist|LAist]] |accessdate=February 17, 2019 |archive-url=https://web.archive.org/web/20190217100636/https://laist.com/2019/02/16/jpl_mars_rover_opportunity_battery_is_low_and_its_getting_dark.php |archive-date=February 17, 2019 |url-status=dead }}&lt;/ref&gt;&lt;ref&gt;{{cite web | url = https://www.newsweek.com/nasa-mars-opportunity-rover-new-york-daily-news-jet-propulsion-laboratory-1334615 | title = No, the Last Words of NASA's Opportunity Rover Weren't 'My Battery Is Low and It's Getting Dark'  |first= Aristos | last = Georgiou | date = February 18, 2019 | accessdate = February 18, 2019 | work = [[Newsweek]] }}&lt;/ref&gt;
+[[File:22341 PIA22908-MarsOpportunityRover-LastPanorama-Spring2018-20190312.jpg|thumb|center|800px|&lt;div align="center&gt;Opportunity rover – last panorama image – taken Spring 2018 (uploaded March 12, 2019)&lt;/div&gt;]]
+{{Features and artificial objects on Mars}}
+
+== See also ==
+{{Portal|Spaceflight|Solar System}}
+{{div col}}
+* {{annotated link|Autonomous robot}}
+* {{annotated link|Composition of Mars}}
+* {{annotated link|Curiosity (rover)|''Curiosity'' rover}}
+* {{annotated link|Exploration of Mars}}
+* {{annotated link|InSight}}
+* {{annotated link|Life on Mars}}
+* {{annotated link|List of missions to Mars}}
+* {{annotated link|List of rocks on Mars}}
+* {{annotated link|Mars 2020|Mars 2020 rover}}
+* {{annotated link|Opportunity mission timeline|''Opportunity'' mission timeline}}
+* [[Perseverance (rover)|''Perseverance'' (rover)]]
+* {{annotated link|Rosalind Franklin (rover)|''Rosalind Franklin'' rover}}
+* {{annotated link|Sojourner (rover)|''Sojourner''}}
+* {{annotated link|Scientific information from the Mars Exploration Rover mission}}
+* {{annotated link|Space exploration}}
+* {{annotated link|Spirit rover|''Spirit'' rover}}
+* {{annotated link|Viking program}}
+{{div col end}}
+
+==References==
+{{reflist|refs=
+&lt;ref name="january"&gt;''Spirit'' landed on January 4, 2004.&lt;/ref&gt;
+&lt;ref name="Jonathan's Space Report No. 504"&gt;{{cite web |url=http://host.planet4589.org/space/jsr/back/news.504 |title=Jonathan's Space Report No. 504 |work=[[Jonathan's Space Report]] |first=Jonathan |last=McDowell |date=July 15, 2003 |accessdate=April 28, 2009 |archive-url=https://web.archive.org/web/20090826060945/http://host.planet4589.org/space/jsr/back/news.504 |archive-date=August 26, 2009 |url-status=dead }}&lt;/ref&gt;
+&lt;ref name="LaunchDetails"&gt;{{cite web |url=http://marsprogram.jpl.nasa.gov/mer/mission/launch_e.html |title=Launch Event Details – When did the Rovers Launch? |accessdate=April 25, 2009 |archive-url=https://web.archive.org/web/20090218003623/http://marsprogram.jpl.nasa.gov/mer/mission/launch_e.html |archive-date=February 18, 2009 |url-status=live  }}&lt;/ref&gt;
+&lt;ref name="Martian Robots, Taking Orders From a Manhattan Walk-Up"&gt;{{cite news|url=https://www.nytimes.com/2004/11/07/science/07mars.html?pagewanted=2 |title=Martian Robots, Taking Orders From a Manhattan Walk-Up |work=The New York Times |date=November 7, 2004 |accessdate=April 9, 2009 | first=Kenneth | last=Chang}}&lt;/ref&gt;
+&lt;ref name="nasa"&gt;{{cite web|url=http://trs-new.jpl.nasa.gov/dspace/bitstream/2014/12837/1/01-1164.pdf |title=Mars Exploration Rover project, NASA/JPL document NSS ISDC 2001 27/05/2001 |page=5 |accessdate=April 28, 2009 |url-status=dead |archiveurl=https://web.archive.org/web/20100527044955/http://trs-new.jpl.nasa.gov/dspace/bitstream/2014/12837/1/01-1164.pdf |archivedate=May 27, 2010 }}&lt;/ref&gt;
+&lt;ref name="nasa1"&gt;{{cite web|url=http://marsrovers.nasa.gov/science/objectives.html|title=Mars Exploration Rover Mission: Science|work=nasa.gov|access-date=July 26, 2008|archive-url=https://web.archive.org/web/20110914072307/http://marsrovers.nasa.gov/science/objectives.html|archive-date=September 14, 2011|url-status=dead}}&lt;/ref&gt;
+&lt;ref name="nasa12"&gt;{{cite web|url=http://marsrovers.nasa.gov/spotlight/20041011.html|title=Mars Exploration Rover Mission; "Like Rover, Like Asteroid"|accessdate=June 9, 2008|archive-url=https://web.archive.org/web/20080511042036/http://marsrovers.nasa.gov/spotlight/20041011.html|archive-date=May 11, 2008|url-status=dead}}&lt;/ref&gt;
+&lt;ref name="NASA – NASA Mars Rover Arrives at New Site on Martian Surface"&gt;{{cite web |url=http://www.nasa.gov/mission_pages/mer/news/mer20110810.html |title=NASA – NASA Mars Rover Arrives at New Site on Martian Surface |publisher=Nasa.gov |accessdate=July 15, 2012 |archive-url=https://web.archive.org/web/20120606203157/http://www.nasa.gov/mission_pages/mer/news/mer20110810.html |archive-date=June 6, 2012 |url-status=live  }}&lt;/ref&gt;
+&lt;ref name="Opportunity Updates"&gt;{{cite web |url=http://marsrovers.jpl.nasa.gov/mission/status_opportunityAll.html |title=Opportunity Updates |accessdate=November 20, 2014 |archive-url=https://web.archive.org/web/20121012043536/http://marsrovers.jpl.nasa.gov/mission/status_opportunityAll.html |archive-date=October 12, 2012 |url-status=live  }}&lt;/ref&gt;
+&lt;ref name="OpportunityUpdateArchive"&gt;{{cite web |url=http://marsrovers.jpl.nasa.gov/mission/status_opportunity.html |title=Opportunity Update Archive |publisher=NASA/JPL |accessdate=May 4, 2009 |archive-url=https://web.archive.org/web/20090507050626/http://marsrovers.jpl.nasa.gov/mission/status_opportunity.html |archive-date=May 7, 2009 |url-status=live  }}&lt;/ref&gt;
+&lt;ref name="Roving Mars: Spirit, Opportunity, and the Exploration of the Red Planet"&gt;{{cite book|first=Steve|last=Squyres|title=Roving Mars: Spirit, Opportunity, and the Exploration of the Red Planet|publisher=Hyperion Press|year=2005|url=https://books.google.com/books?id=GQBRAAAAMAAJ&amp;dq=%22Roving+Mars%22&amp;q=%22World+Trade+Center%22#search|pages=113–117 | isbn=978-1-4013-0149-1}}&lt;/ref&gt;
+&lt;ref name="wustl"&gt;{{cite web|url=http://news.wustl.edu/news/Pages/22660.aspx|title=Opportunity on verge of new discovery|work=wustl.edu|access-date=September 17, 2011|archive-url=https://web.archive.org/web/20110924185837/http://news.wustl.edu/news/Pages/22660.aspx|archive-date=September 24, 2011|url-status=live}}&lt;/ref&gt;
+
+}}
+
+==External links==
+{{commons|Mars Exploration Rover}}
+
+===NASA links===
+* [http://mars.nasa.gov/mer/home/index.html NASA/JPL Mission page]
+* [https://www.youtube.com/watch?v=loXhsglsG-w Sunrise on Mars – video (02:10)] ([[NASA]]; November 7, 2018)
+* End of ''Opportunity'' Mission (February 13, 2019; videos) ‒ [https://www.youtube.com/watch?v=1Ll-VHYxWXU (3:52) overview] ‒ [https://www.youtube.com/watch?v=Dpw-oFYV5rE (59:47) final panel]
+
+===MSSS and WUSTL links===
+* [https://web.archive.org/web/20060821165354/http://www.msss.com/mars_images/moc/2004/01/24/ Finding ''Opportunity'': high-resolution images of landing site (Mars Global Surveyor – Mars Orbiter Camera)]
+* [http://pds-geosciences.wustl.edu/meran MER Analyst's Notebook], Interactive access to mission data and documentation
+
+=== Other links ===
+* [http://nasatech.net/Mars-Erebus/index.html Full-page, high-res spherical panorama of ''Opportunity'' in Erebus Crater], nasatech.net, November 23 to December 5, 2005 (long download, uses [[Java (programming language)|Java]])
+* [http://i-ota.net/Mars-Victoria/index.html Full-page, high-res spherical panorama of ''Opportunity'' in Victoria Crater], nasatech.net, October 23 to December 11, 2007 (long download, uses [[Java (programming language)|Java]])
+* [http://hobbiton.thisside.net/rovermanual/ Mars Exploration Rover Manual] (Unofficial)
+* [https://www.flickr.com/photos/136797589@N04/31833959933/ High resolution video] by Seán Doran of sol 4626 flyby of Opportunity
+* [http://www.planetary.org/explore/space-topics/space-missions/mer-updates/ Archive] of MER progress reports by A.J.S. Rayl at planetary.org
+
+{{NASAMER}}
+{{Extreme motion}}
+{{NASA navbox|state=collapsed}}
+{{Mars spacecraft}}
+{{Solar System probes}}
+{{Orbital launches in 2003}}
+
+{{DEFAULTSORT:Opportunity Rover}}
+[[Category:Mars Exploration Rover mission|*]]
+[[Category:2003 robots]]
+[[Category:Margaritifer Sinus quadrangle]]
+[[Category:Mars rovers]]
+[[Category:Missions to Mars]]
+[[Category:Robots of the United States]]
+[[Category:Six-wheeled robots]]
+[[Category:Solar-powered robots]]
+[[Category:Space probes decommissioned in 2019]]
+[[Category:Space probes launched in 2003]]
+[[Category:Spacecraft launched by Delta II rockets]]
+[[Category:Derelict landers (spacecraft)]]
+[[Category:Soft landings on Mars]]
+[[Category:2004 on Mars]]</text>
+      <sha1>8zlf7e6vanr3u7c9q65161evvetxma1</sha1>
+    </revision>
+  </page>
+</mediawiki>

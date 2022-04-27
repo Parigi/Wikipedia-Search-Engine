@@ -1,0 +1,96 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.10/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.10/ http://www.mediawiki.org/xml/export-0.10.xsd" version="0.10" xml:lang="en">
+  <siteinfo>
+    <sitename>Wikipedia</sitename>
+    <dbname>enwiki</dbname>
+    <base>https://en.wikipedia.org/wiki/Main_Page</base>
+    <generator>MediaWiki 1.35.0-wmf.36</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Media</namespace>
+      <namespace key="-1" case="first-letter">Special</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Talk</namespace>
+      <namespace key="2" case="first-letter">User</namespace>
+      <namespace key="3" case="first-letter">User talk</namespace>
+      <namespace key="4" case="first-letter">Wikipedia</namespace>
+      <namespace key="5" case="first-letter">Wikipedia talk</namespace>
+      <namespace key="6" case="first-letter">File</namespace>
+      <namespace key="7" case="first-letter">File talk</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki talk</namespace>
+      <namespace key="10" case="first-letter">Template</namespace>
+      <namespace key="11" case="first-letter">Template talk</namespace>
+      <namespace key="12" case="first-letter">Help</namespace>
+      <namespace key="13" case="first-letter">Help talk</namespace>
+      <namespace key="14" case="first-letter">Category</namespace>
+      <namespace key="15" case="first-letter">Category talk</namespace>
+      <namespace key="100" case="first-letter">Portal</namespace>
+      <namespace key="101" case="first-letter">Portal talk</namespace>
+      <namespace key="108" case="first-letter">Book</namespace>
+      <namespace key="109" case="first-letter">Book talk</namespace>
+      <namespace key="118" case="first-letter">Draft</namespace>
+      <namespace key="119" case="first-letter">Draft talk</namespace>
+      <namespace key="446" case="first-letter">Education Program</namespace>
+      <namespace key="447" case="first-letter">Education Program talk</namespace>
+      <namespace key="710" case="first-letter">TimedText</namespace>
+      <namespace key="711" case="first-letter">TimedText talk</namespace>
+      <namespace key="828" case="first-letter">Module</namespace>
+      <namespace key="829" case="first-letter">Module talk</namespace>
+      <namespace key="2300" case="first-letter">Gadget</namespace>
+      <namespace key="2301" case="first-letter">Gadget talk</namespace>
+      <namespace key="2302" case="case-sensitive">Gadget definition</namespace>
+      <namespace key="2303" case="case-sensitive">Gadget definition talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Speak &amp; Read</title>
+    <ns>0</ns>
+    <id>1562099</id>
+    <revision>
+      <id>811240195</id>
+      <parentid>749357015</parentid>
+      <timestamp>2017-11-20T10:57:52Z</timestamp>
+      <contributor>
+        <username>O Birck</username>
+        <id>32090052</id>
+      </contributor>
+      <comment>/* Electronics */</comment>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="2604" xml:space="preserve">{{refimprove|date=June 2015}}
+[[Image:TI Speak &amp; Read, with booklet.jpg|thumb|TI Speak &amp; Read, with booklet]]
+
+'''Speak &amp; Read''' is an [[Electronics|electronic]] [[Instructional technology|learning aid]] made in 1980, by [[Texas Instruments]]. Speak and Read was part of a family of learning [[toy]]s i.e. "[[Speak &amp; Math]]" and "[[Speak &amp; Spell (toy)|Speak &amp; Spell]]".
+
+Speak &amp; Read helped children from ages four to eight develop and improve their reading comprehension and vocabulary. &lt;ref&gt;http://smithsonianchips.si.edu/texas/ref433.htm&lt;/ref&gt; Speak &amp; Read came with a companion booklet for use with the skill activity modes included in the unit. The toy had a vocabulary of 250 words.&lt;ref&gt;http://www.datamath.org/Speech/SpeaknRead.htm&lt;/ref&gt;
+
+== Electronics ==
+The display was a [[vacuum fluorescent display]] (VFD). Speak &amp; Read units used a membrane keyboard for input. The Speak &amp; Read used a single-chip voice synthesizer, the TI [[TMC0280]] (later called the TMS5100), that was also used in the Speak &amp; Spell. The TMS5100 used a 10th-order [[linear predictive coding]] (LPC) model and the electronic [[Digital signal processing|DSP]] logic.&lt;ref&gt;History Channel, '''Modern Marvels: ''"70s Tech"''', 2007, aired 6:00-7:00pm MST&lt;/ref&gt;
+
+LPC encoded speech data was stored on a pair of [[TMS6100]] 128 Kbit (a very large capacity ROM in the early 1980s) metal gate serial PMOS ROMs. Additional memory modules could be plugged into a slot in the battery compartment and selected via a button on the keyboard. A later model, the Super Speak &amp; Read, had a much slimmer case and an [[Liquid crystal display|LCD]] screen rather than a VFD screen.
+
+The unit could use either 4 "C" batteries or 6 volt [[Direct current|DC]] power adapter with positive tip polarity.
+
+The game has been emulated in 2015 by [[MESS]].
+
+== Games included ==
+Speak &amp; Read had six built-in learning games: Word Zap, Word Maker, Read It, Picture Read, Letter Stumper, and Hear It. Picture Read required looking up pictures in the supplementary booklet that came with the unit. Eight expansion modules were known to have been made for the Speak &amp; Read by 1986.&lt;ref&gt;http://www.datamath.org/Speech/Images/SpeaknRead.jpg&lt;/ref&gt;
+
+== References ==
+{{reflist}}
+
+==External links==
+* [http://www.datamath.org/Speech/SpeaknRead.htm Datamath - Speak &amp; Read information page]
+* [http://smithsonianchips.si.edu/texas/ref433.htm The Chip Collection at the Smithsonian - TI Speak &amp; Read Learning Aid]
+
+{{DEFAULTSORT:Speak and Read}}
+[[Category:Educational toys]]
+[[Category:Texas Instruments hardware]]
+[[Category:Electronic toys]]
+
+
+{{Toy-stub}}</text>
+      <sha1>6d4og49p5sgbdh6rsbodbdjm4r3dsk3</sha1>
+    </revision>
+  </page>
+</mediawiki>

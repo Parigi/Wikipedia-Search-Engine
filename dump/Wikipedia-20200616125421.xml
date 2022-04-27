@@ -1,0 +1,137 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.10/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.10/ http://www.mediawiki.org/xml/export-0.10.xsd" version="0.10" xml:lang="en">
+  <siteinfo>
+    <sitename>Wikipedia</sitename>
+    <dbname>enwiki</dbname>
+    <base>https://en.wikipedia.org/wiki/Main_Page</base>
+    <generator>MediaWiki 1.35.0-wmf.36</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Media</namespace>
+      <namespace key="-1" case="first-letter">Special</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Talk</namespace>
+      <namespace key="2" case="first-letter">User</namespace>
+      <namespace key="3" case="first-letter">User talk</namespace>
+      <namespace key="4" case="first-letter">Wikipedia</namespace>
+      <namespace key="5" case="first-letter">Wikipedia talk</namespace>
+      <namespace key="6" case="first-letter">File</namespace>
+      <namespace key="7" case="first-letter">File talk</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki talk</namespace>
+      <namespace key="10" case="first-letter">Template</namespace>
+      <namespace key="11" case="first-letter">Template talk</namespace>
+      <namespace key="12" case="first-letter">Help</namespace>
+      <namespace key="13" case="first-letter">Help talk</namespace>
+      <namespace key="14" case="first-letter">Category</namespace>
+      <namespace key="15" case="first-letter">Category talk</namespace>
+      <namespace key="100" case="first-letter">Portal</namespace>
+      <namespace key="101" case="first-letter">Portal talk</namespace>
+      <namespace key="108" case="first-letter">Book</namespace>
+      <namespace key="109" case="first-letter">Book talk</namespace>
+      <namespace key="118" case="first-letter">Draft</namespace>
+      <namespace key="119" case="first-letter">Draft talk</namespace>
+      <namespace key="446" case="first-letter">Education Program</namespace>
+      <namespace key="447" case="first-letter">Education Program talk</namespace>
+      <namespace key="710" case="first-letter">TimedText</namespace>
+      <namespace key="711" case="first-letter">TimedText talk</namespace>
+      <namespace key="828" case="first-letter">Module</namespace>
+      <namespace key="829" case="first-letter">Module talk</namespace>
+      <namespace key="2300" case="first-letter">Gadget</namespace>
+      <namespace key="2301" case="first-letter">Gadget talk</namespace>
+      <namespace key="2302" case="case-sensitive">Gadget definition</namespace>
+      <namespace key="2303" case="case-sensitive">Gadget definition talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Mean absolute percentage error</title>
+    <ns>0</ns>
+    <id>3440396</id>
+    <revision>
+      <id>960405128</id>
+      <parentid>960403509</parentid>
+      <timestamp>2020-06-02T19:42:18Z</timestamp>
+      <contributor>
+        <ip>199.88.191.18</ip>
+      </contributor>
+      <comment>/* Alternative MAPE definitions */</comment>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="8355" xml:space="preserve">{{short description|Measure of prediction accuracy of a forecast}}
+{{Refimprove|date=December 2009}}
+The '''mean absolute percentage error''' ('''MAPE'''), also known as '''mean absolute percentage deviation''' ('''MAPD'''), is a measure of prediction accuracy of a forecasting method in [[statistics]], for example in [[trend estimation]], also used as a [[loss function]] for regression problems in [[machine learning]]. It usually expresses the accuracy as a ratio defined by the formula:
+
+: &lt;math&gt;\mbox{M} = \frac{1}{n}\sum_{t=1}^n  \left|\frac{A_t-F_t}{A_t}\right|, &lt;/math&gt;
+
+where {{math|''A''&lt;sub&gt;''t''&lt;/sub&gt;}} is the actual value and {{math|''F''&lt;sub&gt;''t''&lt;/sub&gt;}} is the forecast value. The MAPE is also sometimes reported as a percentage, which is the above equation multiplied by 100. The difference between {{math|''A''&lt;sub&gt;''t''&lt;/sub&gt;}} and {{math|''F''&lt;sub&gt;''t''&lt;/sub&gt;}} is divided by the actual value {{math|''A''&lt;sub&gt;''t''&lt;/sub&gt;}} again.  The absolute value in this calculation is summed for every forecasted point in time and divided by the number of fitted points&amp;nbsp;{{math|''n''}}. Multiplying by 100% makes it a percentage error.
+
+==MAPE in regression problems==
+
+Mean absolute percentage error is commonly used as a loss function for [[Regression analysis|regression problems]] and in model evaluation, because of its very intuitive interpretation in terms of relative error.
+
+===Definition===
+
+Consider a standard regression setting in which the data are fully described by a random pair &lt;math&gt;Z=(X,Y)&lt;/math&gt; with values in &lt;math&gt;\mathbb{R}^d\times\mathbb{R}&lt;/math&gt;, and {{math|''n''}} i.i.d. copies &lt;math&gt;(X_1, Y_1), ..., (X_n, Y_n)&lt;/math&gt; of &lt;math&gt;(X,Y)&lt;/math&gt;. Regression models aims at finding a good model for the pair, that is a [[measurable function]] {{math|''g''}} from &lt;math&gt;\mathbb{R}^d&lt;/math&gt; to &lt;math&gt;\mathbb{R}&lt;/math&gt; such that &lt;math&gt;g(X)&lt;/math&gt; is close to {{math|''Y''}}.
+
+In the classical regression setting, the closeness of &lt;math&gt;g(X)&lt;/math&gt; to {{math|''Y''}} is measured via the {{math|''L''&lt;sub&gt;2&lt;/sub&gt;}} risk, also called the [[mean squared error]] (MSE). In the MAPE regression context,&lt;ref name="demyttenaere2016"/&gt; the closeness of &lt;math&gt;g(X)&lt;/math&gt; to {{math|''Y''}} is measured via the MAPE, and the aim of MAPE regressions is to find a model &lt;math&gt;g_{MAPE}&lt;/math&gt; such that:
+
+&lt;math&gt;g_{MAPE}(x) = \arg\min_{g \in \mathcal{G}} \mathbb{E}\left[ \left|\frac{g(X) - Y}{Y}\right||X = x\right]&lt;/math&gt;
+
+where &lt;math&gt;\mathcal{G}&lt;/math&gt; is the class of models considered (e.g. linear models).
+
+'''In practice''' 
+
+In practice &lt;math&gt;g_{MAPE}(x)&lt;/math&gt; can be estimated by the [[empirical risk minimization]] strategy, leading to
+
+&lt;math&gt; \widehat{g}_{MAPE}(x) = \arg\min_{g \in \mathcal{G}} \sum_{i=1}^n \left|\frac{g(X_i) - Y_i}{Y_i}\right|&lt;/math&gt;
+
+From a practical point of view, the use of the MAPE as a quality function for regression model is equivalent to doing weighted [[mean absolute error]] (MAE) regression, also known as [[quantile regression]]. This property is trivial since
+
+&lt;math&gt; \widehat{g}_{MAPE}(x) = \arg\min_{g \in \mathcal{G}} \sum_{i=1}^n \omega(Y_i) \left|g(X_i) - Y_i\right| \mbox{ with } \omega(Y_i) = \left|\frac{1}{Y_i}\right|&lt;/math&gt;
+
+As a consequence, the use of the MAPE is very easy in practice, for example using existing libraries for quantile regression allowing weights.
+
+===Consistency===
+
+The use of the MAPE as a loss function for regression analysis is feasible both on a practical point of view and on a theoretical one, since the existence of an optimal model and the [[consistency (statistics)|consistency]] of the empirical risk minimization can be proved.&lt;ref name="demyttenaere2016"&gt;de Myttenaere, B Golden, B Le Grand, F Rossi (2015). "Mean absolute percentage error for regression models", Neurocomputing 2016 {{ArXiv|1605.02541}}&lt;/ref&gt;
+
+==Alternative MAPE definitions==
+
+Problems can occur when calculating the MAPE value with a series of small denominators. A singularity problem of the form 'one divided by zero' and/or the creation of very large changes in the Absolute Percentage Error, caused by a small deviation in error, can occur.
+
+As an alternative, each actual value ({{math|''A''&lt;sub&gt;''t''&lt;/sub&gt;}}) of the series in the original formula can be replaced by the average of all actual values ({{math|''Ā''&lt;sub&gt;''t''&lt;/sub&gt;}}) of that series. This alternative is still being used for measuring the performance of models that forecast spot electricity prices.&lt;ref&gt;Jorrit Vander Mynsbrugge (2010). "Bidding Strategies Using Price Based Unit Commitment in a Deregulated Power Market", K.U.Leuven&lt;/ref&gt; 
+
+Note that this is equivalent to dividing the sum of absolute differences by the sum of actual values, and is sometimes referred to as WAPE (weighted absolute percentage error).
+
+==Issues==
+Although the concept of MAPE sounds very simple and convincing, it has major drawbacks in practical application,&lt;ref name="tofallis2015"&gt;Tofallis (2015). "A Better Measure of Relative Prediction Accuracy for Model Selection and Model Estimation", ''Journal of the Operational Research Society'', 66(8):1352-1362. [http://papers.ssrn.com/sol3/papers.cfm?abstract_id=2635088 archived preprint]&lt;/ref&gt; and there are many studies on shortcomings and misleading results from MAPE.&lt;ref&gt;Hyndman, Rob J., and Anne B. Koehler (2006). "Another look at measures of forecast accuracy." ''International Journal of Forecasting'', 22(4):679-688 [[doi:10.1016/j.ijforecast.2006.03.001]].&lt;/ref&gt;&lt;ref name="Kim2016"&gt;Kim, Sungil and Heeyoung Kim (2016). "A new metric of absolute percentage error for intermittent demand forecasts." ''International Journal of Forecasting'', 32(3):669-679 [[doi:10.1016/j.ijforecast.2015.12.003]].&lt;/ref&gt;
+*It cannot be used if there are zero values (which sometimes happens for example in demand data) because there would be a division by zero.
+*For forecasts which are too low the percentage error cannot exceed 100%, but for forecasts which are too high there is no upper limit to the percentage error. 
+*MAPE puts a heavier penalty on negative errors, &lt;math&gt;A_t &lt; F_t&lt;/math&gt; than on positive errors.&lt;ref&gt;Makridakis, Spyros (1993) "Accuracy measures: theoretical and practical concerns." ''International Journal of Forecasting'', 9(4):527-529 [[doi:10.1016/0169-2070(93)90079-3]]&lt;/ref&gt; As a consequence, when MAPE is used to compare the accuracy of prediction methods it is biased in that it will systematically select a method whose forecasts are too low. This little-known but serious issue can be overcome by using an accuracy measure based on the logarithm of the accuracy ratio (the ratio of the predicted to actual value), given by &lt;math&gt;\log\left(\frac{\text{predicted}}{\text{actual}}\right) &lt;/math&gt;. This approach leads to superior statistical properties and leads to predictions which can be interpreted in terms of the geometric mean.&lt;ref name="tofallis2015"/&gt;
+
+To overcome these issues with MAPE, there are some other measures proposed in literature: 
+* [[Mean Absolute Scaled Error]] (MASE)
+* [[Symmetric Mean Absolute Percentage Error]] (sMAPE)
+* [[Mean Directional Accuracy (MDA)]]
+* Mean Arctangent Absolute Percentage Error (MAAPE): MAAPE is a new metric of absolute percentage error, and has been developed through looking at MAPE from a different angle. In essence, MAAPE is a ''slope as an angle'', while MAPE is a ''slope as a ratio''.&lt;ref name="Kim2016"&gt;Kim, Sungil and Heeyoung Kim (2016). "A new metric of absolute percentage error for intermittent demand forecasts." ''International Journal of Forecasting'', 32(3):669-679 [[doi:10.1016/j.ijforecast.2015.12.003]].&lt;/ref&gt;
+
+==See also==
+* [[Least absolute deviations]]
+* [[Mean absolute error]]
+* [[Mean percentage error]]
+* [[Symmetric mean absolute percentage error]]
+
+==External links==
+* [https://arxiv.org/abs/1605.02541 Mean Absolute Percentage Error for Regression Models]
+* [http://www.gestiondeoperaciones.net/proyeccion-de-demanda/error-porcentual-absoluto-medio-mape-en-un-pronostico-de-demanda/ Mean Absolute Percentage Error (MAPE)]
+* [http://robjhyndman.com/hyndsight/smape Errors on percentage errors] - variants of MAPE
+* [https://www.sciencedirect.com/science/article/pii/S0169207016000121/ Mean Arctangent Absolute Percentage Error (MAAPE)]
+
+==References==
+{{reflist}}
+
+{{DEFAULTSORT:Mean Absolute Percentage Error}}
+[[Category:Statistical deviation and dispersion]]</text>
+      <sha1>i8qm0aix152dj7rsxoio2b3qyalzt1b</sha1>
+    </revision>
+  </page>
+</mediawiki>

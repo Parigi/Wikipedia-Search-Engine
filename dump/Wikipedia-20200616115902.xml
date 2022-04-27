@@ -1,0 +1,637 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.10/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.10/ http://www.mediawiki.org/xml/export-0.10.xsd" version="0.10" xml:lang="en">
+  <siteinfo>
+    <sitename>Wikipedia</sitename>
+    <dbname>enwiki</dbname>
+    <base>https://en.wikipedia.org/wiki/Main_Page</base>
+    <generator>MediaWiki 1.35.0-wmf.36</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Media</namespace>
+      <namespace key="-1" case="first-letter">Special</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Talk</namespace>
+      <namespace key="2" case="first-letter">User</namespace>
+      <namespace key="3" case="first-letter">User talk</namespace>
+      <namespace key="4" case="first-letter">Wikipedia</namespace>
+      <namespace key="5" case="first-letter">Wikipedia talk</namespace>
+      <namespace key="6" case="first-letter">File</namespace>
+      <namespace key="7" case="first-letter">File talk</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki talk</namespace>
+      <namespace key="10" case="first-letter">Template</namespace>
+      <namespace key="11" case="first-letter">Template talk</namespace>
+      <namespace key="12" case="first-letter">Help</namespace>
+      <namespace key="13" case="first-letter">Help talk</namespace>
+      <namespace key="14" case="first-letter">Category</namespace>
+      <namespace key="15" case="first-letter">Category talk</namespace>
+      <namespace key="100" case="first-letter">Portal</namespace>
+      <namespace key="101" case="first-letter">Portal talk</namespace>
+      <namespace key="108" case="first-letter">Book</namespace>
+      <namespace key="109" case="first-letter">Book talk</namespace>
+      <namespace key="118" case="first-letter">Draft</namespace>
+      <namespace key="119" case="first-letter">Draft talk</namespace>
+      <namespace key="446" case="first-letter">Education Program</namespace>
+      <namespace key="447" case="first-letter">Education Program talk</namespace>
+      <namespace key="710" case="first-letter">TimedText</namespace>
+      <namespace key="711" case="first-letter">TimedText talk</namespace>
+      <namespace key="828" case="first-letter">Module</namespace>
+      <namespace key="829" case="first-letter">Module talk</namespace>
+      <namespace key="2300" case="first-letter">Gadget</namespace>
+      <namespace key="2301" case="first-letter">Gadget talk</namespace>
+      <namespace key="2302" case="case-sensitive">Gadget definition</namespace>
+      <namespace key="2303" case="case-sensitive">Gadget definition talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Object-oriented programming</title>
+    <ns>0</ns>
+    <id>27471338</id>
+    <revision>
+      <id>961120197</id>
+      <parentid>957825017</parentid>
+      <timestamp>2020-06-06T18:18:25Z</timestamp>
+      <contributor>
+        <ip>73.223.187.212</ip>
+      </contributor>
+      <comment>/* OOP languages */</comment>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="68299" xml:space="preserve">{{short description|Programming paradigm based on the concept of objects}}
+{{Redirect|Object-oriented|other meanings of object-oriented|Object-orientation}}
+{{redirect|Object-oriented programming language|a list of object-oriented programming languages|List of object-oriented programming languages}}
+{{Use dmy dates|date=January 2020}}
+{{Programming paradigms}}
+
+'''Object-oriented programming''' ('''OOP''') is a [[programming paradigm]] based on the concept of "[[Object (computer science)|objects]]", which can contain [[data]], in the form of [[Field (computer science)|fields]] (often known as ''attributes'' or ''properties''), and code, in the form of procedures (often known as ''[[Method (computer science)|methods]]''). A feature of objects is an object's procedures that can access and often modify the data fields of the object with which they are associated (objects have a notion of "[[this (computer programming)|this]]" or "self"). In OOP, computer programs are designed by making them out of objects that interact with one another.&lt;ref&gt;{{Cite journal
+  | last = Kindler | first =  E.
+  | last2 = Krivy | first2 = I.
+  | title = Object-Oriented Simulation of systems with sophisticated control
+  | publisher = International Journal of General Systems
+  | year = 2011 | pages = 313–343}}&lt;/ref&gt;&lt;ref&gt;{{Cite book|last=Lewis|first=John|last2=Loftus|first2= William|title=Java Software Solutions Foundations of Programming Design 6th ed|publisher=Pearson Education Inc.|year=2008|isbn=978-0-321-53205-3}}, section 1.6 "Object-Oriented Programming"&lt;/ref&gt; OOP languages are diverse, but the most popular ones are [[Class-based programming|class-based]], meaning that objects are [[instance (computer science)|instances]] of [[class (computer science)|classes]], which also determine their [[data type|types]].
+
+Many of the most widely used programming languages (such as C++, Java, Python, etc.) are [[multi-paradigm programming language|multi-paradigm]] and they support object-oriented programming to a greater or lesser degree, typically in combination with [[imperative programming|imperative]], [[procedural programming]]. Significant object-oriented languages include
+&lt;!-- list order based on [[TIOBE index]]--&gt;
+[[Java (programming language)|Java]],
+[[C++]],
+[[C Sharp (programming language)|C#]],
+[[Python (programming language)|Python]],
+[[R (programming language)|R]],
+[[PHP]],
+[[JavaScript]],
+[[Ruby (programming language)|Ruby]],
+[[Perl]],
+[[Object Pascal]],
+[[Objective-C]],
+[[Dart (programming language)|Dart]],
+[[Swift (programming language)|Swift]],
+[[Scala (programming language)|Scala]],
+[[Kotlin (programming language)|Kotlin]],
+[[Common Lisp]],
+[[MATLAB]],
+and
+[[Smalltalk]].
+
+==Features==
+Object-oriented programming uses objects, but not all of the associated techniques and structures are supported directly in languages that claim to support OOP.  The features listed below are common among languages considered to be strongly class- and object-oriented (or [[multi-paradigm]] with OOP support), with notable exceptions mentioned.&lt;ref name="ArmstrongQuarks"&gt;Deborah J. Armstrong. ''The Quarks of Object-Oriented Development''. A survey of nearly 40 years of computing literature which identified a number of fundamental concepts found in the large majority of definitions of OOP, in descending order of popularity: Inheritance, Object, Class, Encapsulation, Method, Message Passing, Polymorphism, and Abstraction.&lt;/ref&gt;&lt;ref&gt;[[John C. Mitchell]], ''Concepts in programming languages'', Cambridge University Press, 2003, {{ISBN|0-521-78098-5}}, p.278.  Lists: Dynamic dispatch, abstraction, subtype polymorphism, and inheritance.&lt;/ref&gt;&lt;ref&gt;Michael Lee Scott, ''Programming language pragmatics'', Edition 2, Morgan Kaufmann, 2006, {{ISBN|0-12-633951-1}}, p. 470.  Lists encapsulation, inheritance, and dynamic dispatch.&lt;/ref&gt;&lt;ref name="pierce"&gt;{{Cite book|last=Pierce|first=Benjamin|title=Types and Programming Languages|publisher=MIT Press|year=2002|isbn=978-0-262-16209-8|title-link=Types and Programming Languages}}, section 18.1 "What is Object-Oriented Programming?"  Lists: Dynamic dispatch, encapsulation or multi-methods (multiple dispatch), subtype polymorphism, inheritance or delegation, open recursion ("this"/"self")&lt;/ref&gt;
+
+{{See also|Comparison of programming languages (object-oriented programming)|List of object-oriented programming terms}}
+
+===Shared with non-OOP predecessor languages===
+* [[Variable (computer science)|Variables]] that can store information formatted in a small number of built-in [[data type]]s like [[Integer (computer science)|integers]] and alphanumeric [[Character (computing)|characters]].  This may include [[data structures]] like [[String (computer science)|strings]], [[List (abstract data type)|lists]], and [[hash table]]s that are either built-in or result from combining variables using [[Pointer (computer programming)|memory pointers]].
+* Procedures – also known as functions, methods, routines, or [[subroutine]]s – that take input, generate output, and manipulate data.  Modern languages include [[structured programming]] constructs like [[Loop (computing)|loops]] and [[Conditional (computer programming)|conditionals]].
+
+[[Modular programming]] support provides the ability to group procedures into files and modules for organizational purposes.  Modules are [[namespace]]d so identifiers in one module will not conflict with a procedure or variable sharing the same name in another file or module.
+
+===Objects and classes===
+Languages that support object-oriented programming (OOP) typically use [[Inheritance (object-oriented programming)|inheritance]] for code reuse and extensibility in the form of either [[Class-based programming|classes]] or [[Prototype-based programming|prototypes]]. Those that use classes support two main concepts:
+* [[Class (computer science)|Classes]] – the definitions for the data format and available procedures for a given type or class of object; may also contain data and procedures (known as class methods) themselves, i.e. classes contain the data members and member functions
+* [[Object (computer science)|Objects]] – instances of classes
+
+Objects sometimes correspond to things found in the real world. For example, a graphics program may have objects such as "circle", "square", "menu". An online shopping system might have objects such as "shopping cart", "customer", and "product".&lt;ref&gt;{{cite book|last=Booch|first=Grady|title=Software Engineering with Ada|year=1986|publisher=Addison Wesley|isbn=978-0805306088|page=220|url=https://en.wikiquote.org/wiki/Grady_Booch|quote=Perhaps the greatest strength of an object-oriented approach to development is that it offers a mechanism that captures a model of the real world.}}&lt;/ref&gt; Sometimes objects represent more abstract entities, like an object that represents an open file, or an object that provides the service of translating measurements from U.S. customary to metric.
+
+{{Quote box
+ |quote  = Object-oriented programming is more than just classes and objects; it's a whole programming paradigm based around [''sic''] ''objects'' (data structures) that contain data fields and methods. It is essential to understand this; using classes to organize a bunch of unrelated methods together is not object orientation.
+ |author = Junade Ali
+ |source = ''Mastering PHP Design Patterns''&lt;ref&gt;{{cite book|last1=Ali|first1=Junade|title=Mastering PHP Design Patterns {{!}} PACKT Books|date=28 September 2016|publisher=Packt Publishing Limited|location=Birmingham, England, UK|isbn=978-1-78588-713-0|page=11|edition=1|url=https://www.packtpub.com/application-development/mastering-php-design-patterns|accessdate=11 December 2017|language=en}}&lt;/ref&gt;
+ |width  = 50%
+ |align  = right
+}}
+
+Each object is said to be an [[instance (computer science)|instance]] of a particular class (for example, an object with its name field set to "Mary" might be an instance of class Employee).  Procedures in object-oriented programming are known as [[Method (computer science)|methods]]; variables are also known as [[Field (computer science)|fields]], members, attributes, or properties.  This leads to the following terms:
+* [[Class variable]]s – belong to the ''class as a whole''; there is only one copy of each one
+* [[Instance variable]]s or attributes – data that belongs to individual ''objects''; every object has its own copy of each one
+* [[Member variable]]s – refers to both the class and instance variables that are defined by a particular class
+* Class methods – belong to the ''class as a whole'' and have access only to class variables and inputs from the procedure call
+* Instance methods – belong to ''individual objects'', and have access to instance variables for the specific object they are called on, inputs, and class variables
+
+Objects are accessed somewhat like variables with complex internal structure, and in many languages are effectively [[Pointer (computer programming)|pointers]], serving as actual references to a single instance of said object in memory within a heap or stack.  They provide a layer of [[Abstraction (computer science)|abstraction]] which can be used to separate internal from external code. External code can use an object by calling a specific instance method with a certain set of input parameters, read an instance variable, or write to an instance variable. Objects are created by calling a special type of method in the class known as a [[Constructor (object-oriented programming)|constructor]].  A program may create many instances of the same class as it runs, which operate independently.  This is an easy way for the same procedures to be used on different sets of data.
+
+Object-oriented programming that uses classes is sometimes called [[class-based programming]], while [[prototype-based programming]] does not typically use classes. As a result, a significantly different yet analogous terminology is used to define the concepts of ''object'' and ''instance''.
+
+In some languages classes and objects can be composed using other concepts like [[Trait (computer programming)|traits]] and [[mixin]]s.
+
+===Class-based vs prototype-based===
+In [[Class-based programming|class-based languages]] the ''classes'' are defined beforehand and the ''objects'' are instantiated based on the classes. If two objects ''apple'' and ''orange'' are instantiated from the class ''Fruit'', they are inherently fruits and it is guaranteed that you may handle them in the same way; e.g. a programmer can expect the existence of the same attributes such as ''color'' or ''sugar_content'' or ''is_ripe''.
+
+In [[Prototype-based programming|prototype-based languages]] the ''objects'' are the primary entities. No ''classes'' even exist. The ''prototype'' of an object is just another object to which the object is linked. Every object has one ''prototype'' link (and only one).  New objects can be created based on already existing objects chosen as their prototype. You may call two different objects ''apple'' and ''orange'' a fruit, if the object ''fruit'' exists, and both ''apple'' and ''orange'' have ''fruit'' as their prototype. The idea of the ''fruit'' class doesn't exist explicitly, but as the [[equivalence class]] of the objects sharing the same prototype. The attributes and methods of the ''prototype'' are [[Delegation (computing)|delegated]] to all the objects of the equivalence class defined by this prototype. The attributes and methods ''owned'' individually by the object may not be shared by other objects of the same equivalence class; e.g. the attribute ''sugar_content'' may be unexpectedly not present in ''apple''. Only [[single inheritance]] can be implemented through the prototype.
+
+===Dynamic dispatch/message passing===
+It is the responsibility of the object, not any external code, to select the procedural code to execute in response to a method call, typically by looking up the method at run time in a table associated with the object.  This feature is known as [[dynamic dispatch]], and distinguishes an object from an [[abstract data type]] (or module), which has a fixed (static) implementation of the operations for all instances.  If the call variability relies on more than the single type of the object on which it is called (i.e. at least one other parameter object is involved in the method choice), one speaks of [[multiple dispatch]].
+
+A method call is also known as ''[[message passing]]''.  It is conceptualized as a message (the name of the method and its input parameters) being passed to the object for dispatch.
+
+===Encapsulation===
+Encapsulation is an object-oriented programming concept that binds together the data and functions that manipulate the data, and that keeps both safe from outside interference and misuse. Data encapsulation led to the important OOP concept of [[Information hiding|data hiding]].
+
+If a class does not allow calling code to access internal object data and permits access through methods only, this is a strong form of abstraction or information hiding known as [[Encapsulation (object-oriented programming)|encapsulation]].  Some languages (Java, for example) let classes enforce access restrictions explicitly, for example denoting internal data with the &lt;code&gt;private&lt;/code&gt; keyword and designating methods intended for use by code outside the class with the &lt;code&gt;public&lt;/code&gt; keyword.  Methods may also be designed public, private, or intermediate levels such as &lt;code&gt;protected&lt;/code&gt; (which allows access from the same class and its subclasses, but not objects of a different class).  In other languages (like Python) this is enforced only by convention (for example, &lt;code&gt;private&lt;/code&gt; methods may have names that start with an [[underscore]]).  Encapsulation prevents external code from being concerned with the internal workings of an object.  This facilitates [[code refactoring]], for example allowing the author of the class to change how objects of that class represent their data internally without changing any external code (as long as "public" method calls work the same way).  It also encourages programmers to put all the code that is concerned with a certain set of data in the same class, which organizes it for easy comprehension by other programmers.  Encapsulation is a technique that encourages [[Coupling (computer programming)|decoupling]].
+
+===Composition, inheritance, and delegation===
+Objects can contain other objects in their instance variables; this is known as [[object composition]].  For example, an object in the Employee class might contain (either directly or through a pointer) an object in the Address class, in addition to its own instance variables like "first_name" and "position".  Object composition is used to represent "has-a" relationships: every employee has an address, so every Employee object has access to a place to store an Address object (either directly embedded within itself, or at a separate location addressed via a pointer).
+
+Languages that support classes almost always support [[inheritance (object-oriented programming)|inheritance]].  This allows classes to be arranged in a hierarchy that represents "is-a-type-of" relationships.  For example, class Employee might inherit from class Person.  All the data and methods available to the parent class also appear in the child class with the same names.  For example, class Person might define variables "first_name" and "last_name" with method "make_full_name()".  These will also be available in class Employee, which might add the variables "position" and "salary".  This technique allows easy re-use of the same procedures and data definitions, in addition to potentially mirroring real-world relationships in an intuitive way. Rather than utilizing database tables and programming subroutines, the developer utilizes objects the user may be more familiar with: objects from their application domain.&lt;ref&gt;{{cite book|last=Jacobsen|first=Ivar|title=Object Oriented Software Engineering|year=1992|publisher=Addison-Wesley ACM Press|isbn=978-0-201-54435-0|pages=[https://archive.org/details/objectorientedso00jaco/page/43 43–69]|author2=Magnus Christerson|author3=Patrik Jonsson|author4=Gunnar Overgaard|url=https://archive.org/details/objectorientedso00jaco/page/43}}&lt;/ref&gt;
+
+Subclasses can override the methods defined by superclasses. [[Multiple inheritance]] is allowed in some languages, though this can make resolving overrides complicated.  Some languages have special support for [[mixin]]s, though in any language with multiple inheritance, a mixin is simply a class that does not represent an is-a-type-of relationship.  Mixins are typically used to add the same methods to multiple classes.  For example, class UnicodeConversionMixin might provide a method unicode_to_ascii() when included in class FileReader and class WebPageScraper, which don't share a common parent.
+
+[[Abstract class]]es cannot be instantiated into objects; they exist only for the purpose of inheritance into other "concrete" classes which can be instantiated.  In Java, the &lt;code&gt;[[final (Java)|final]]&lt;/code&gt; keyword can be used to prevent a class from being subclassed.
+
+The doctrine of [[composition over inheritance]] advocates implementing has-a relationships using composition instead of inheritance.  For example, instead of inheriting from class Person, class Employee could give each Employee object an internal Person object, which it then has the opportunity to hide from external code even if class Person has many public attributes or methods.  Some languages, like [[Go (programming language)|Go]] do not support inheritance at all.
+
+The "[[open/closed principle]]" advocates that classes and functions "should be open for extension, but closed for modification".
+
+[[Delegation (programming)|Delegation]] is another language feature that can be used as an alternative to inheritance.
+
+===Polymorphism===
+[[Subtyping]] – a form of [[polymorphism (computer science)|polymorphism]] – is when calling code can be agnostic as to which class in the supported hierarchy it is operating on – the parent class or one of its descendants.  Meanwhile, the same operation name among objects in an inheritance hierarchy may behave differently.
+
+For example, objects of type Circle and Square are derived from a common class called Shape.  The Draw function for each type of Shape implements what is necessary to draw itself while calling code can remain indifferent to the particular type of Shape being drawn.
+
+This is another type of abstraction which simplifies code external to the class hierarchy and enables strong [[separation of concerns]].
+
+===Open recursion===
+In languages that support [[open recursion]], object methods can call other methods on the same object (including themselves), typically using a special variable or keyword called &lt;code&gt;this&lt;/code&gt; or &lt;code&gt;self&lt;/code&gt;.  This variable is ''[[name binding|late-bound]]''; it allows a method defined in one class to invoke another method that is defined later, in some subclass thereof.
+
+==History==
+[[File:oop-uml-class-example.png|frame|right|[[Unified Modeling Language|UML]] notation for a class. This Button class has [[Variable (computer science)|variables]] for data, and [[Method (computer programming)|functions]]. Through inheritance a subclass can be created as subset of the Button class. Objects are instances of a class.]]
+
+Terminology invoking "objects" and "oriented" in the modern sense of object-oriented programming made its first appearance at [[MIT]] in the late 1950s and early 1960s. In the environment of the [[artificial intelligence]] group, as early as 1960, "object" could refer to identified items ([[Lisp (programming language)|LISP]] atoms) with properties (attributes);&lt;ref&gt;{{Cite journal
+ |last=McCarthy
+ |first=J.
+ |editor-link=John McCarthy
+ |last2=Brayton
+ |first2=R.
+ |author2-link=Robert Brayton (computer scientist)
+ |last3=Edwards
+ |first3=D.
+ |author3-link=Daniel Edwards (programmer)
+ |last4=Fox
+ |first4=P.
+ |author4-link=Phyllis Fox
+ |last5=Hodes
+ |first5=L.
+ |author5-link=Louis Hodes
+ |last6=Luckham
+ |first6=D.
+ |author6-link=David Luckham
+ |last7=Maling
+ |first7=K.
+ |author7-link=Klim Maling (programmer)
+ |last8=Park
+ |first8=D.
+ |author8-link=David Park (computer scientist)
+ |last9=Russell
+ |first9=S.
+ |author9-link=Steve Russell (computer scientist)
+ |title=LISP I Programmers Manual
+ |place=[[Boston]], [[Massachusetts]]
+ |publisher=Artificial Intelligence Group, [[M.I.T. Computation Center]] and [[Research Laboratory of Electronics at MIT|Research Laboratory]]
+ |date=March 1960
+ |page=88f
+ |url=http://history.siam.org/sup/Fox_1960_LISP.pdf
+ |quote=In the local M.I.T. patois, association lists [of atomic symbols] are also referred to as "property lists", and atomic symbols are sometimes called "objects".
+ |url-status=dead
+ |archiveurl=https://web.archive.org/web/20100717111134/http://history.siam.org/sup/Fox_1960_LISP.pdf
+ |archivedate=17 July 2010
+}}&lt;/ref&gt;&lt;ref&gt;{{Cite book |url          = https://archive.org/details/lisp15programmer00john/page/105
+ |title        = LISP 1.5 Programmer's Manual
+ |publisher    = [[MIT Press]]
+ |first1       = John
+ |last1        = McCarthy
+ |author-link  = John McCarthy (computer scientist)
+ |first2       = Paul W.
+ |last2        = Abrahams
+ |first3       = Daniel J.
+ |last3        = Edwards
+ |author3-link = Daniel Edwards (programmer)
+ |first4       = swapnil d.
+ |last4        = Hart
+ |first5       = Michael I.
+ |last5        = Levin
+ |isbn         = 978-0-262-13011-0
+ |year         = 1962
+ |page         = [https://archive.org/details/lisp15programmer00john/page/105 105]
+ |quote        = Object&amp;nbsp;— a synonym for atomic symbol
+ |url-status   = dead
+ |df           = dmy-all
+}}&lt;/ref&gt;
+[[Alan Kay]] was later to cite a detailed understanding of LISP internals as a strong influence on his thinking in 1966.&lt;ref name=alanKayOnOO&gt;{{Cite web|url= http://www.purl.org/stefan_ram/pub/doc_kay_oop_en |title=Dr. Alan Kay on the Meaning of "Object-Oriented Programming" |year= 2003|accessdate=11 February 2010}}&lt;/ref&gt;
+
+{{Quote box
+ |quote  = I thought of objects being like biological cells and/or individual computers on a network, only able to communicate with messages (so messaging came at the very beginning – it took a while to see how to do messaging in a programming language efficiently enough to be useful).
+ |author = Alan Kay
+ |source =&lt;ref name=alanKayOnOO /&gt;
+ |width  = 50%
+}}
+
+Another early MIT example was [[Sketchpad]] created by [[Ivan Sutherland]] in 1960–61; in the glossary of the 1963 technical report based on his dissertation about Sketchpad, Sutherland defined notions of "object" and "instance" (with the class concept covered by "master" or "definition"), albeit specialized to graphical interaction.&lt;ref&gt;{{Cite web|url=http://handle.dtic.mil/100.2/AD404549|title=Sketchpad: A Man-Machine Graphical Communication System|author=Sutherland, I. E.|date=30 January 1963|publisher=Technical Report No. 296, Lincoln Laboratory, Massachusetts Institute of Technology via Defense Technical Information Center (stinet.dtic.mil)|accessdate=17 July 2019}}&lt;!-- Seems to be fixed {{dead link|date=February 2018 |bot=InternetArchiveBot |fix-attempted=yes }} --&gt;
+&lt;/ref&gt;
+Also, an MIT [[ALGOL]] version, AED-0, established a direct link between data structures ("plexes", in that dialect) and procedures, prefiguring what were later termed "messages", "methods", and "member functions".&lt;ref name=simuladev&gt;
+ The Development of the Simula Languages,
+ [[Kristen Nygaard]], [[Ole-Johan Dahl]],
+ p.254
+ [http://cs-exhibitions.uni-klu.ac.at/fileadmin/template/documents/text/The_development_of_the_simula_languages.pdf Uni-kl.ac.at]
+&lt;/ref&gt;&lt;ref&gt;
+{{Cite web
+  |last = Ross   |first = Doug
+  |title = The first software engineering language
+  |work = LCS/AI Lab Timeline
+  |publisher = MIT Computer Science and Artificial Intelligence Laboratory
+  |url = http://www.csail.mit.edu/timeline/timeline.php?query=event&amp;id=19
+  |accessdate =13 May 2010 }}
+&lt;/ref&gt;
+
+In the 1960s, object-oriented programming was put into practice with the [[Simula]] language, which introduced important concepts that are today an essential part of object-oriented programming, such as [[Class (computer programming)|class]] and [[Object (computer science)|object]], inheritance, and [[Dynamic binding (computing)|dynamic binding]].&lt;ref name="auto"&gt;{{Cite journal|last = Holmevik  |first = Jan Rune|title = Compiling Simula: A historical study of technological genesis|journal = IEEE Annals of the History of Computing|volume = 16  |issue = 4 |pages = 25–37 |year = 1994|url = http://www.idi.ntnu.no/grupper/su/publ/simula/holmevik-simula-ieeeannals94.pdf| doi =   10.1109/85.329756|accessdate =3 March 2018 }}&lt;/ref&gt; Simula was also designed to take account of programming and [[data security]]. For programming security purposes a detection process was implemented so that through [[Reference counting|reference counts]] a last resort [[Garbage collection (computer science)|garbage collector]] deleted unused objects in the [[random-access memory]] (RAM). But although the idea of data objects had already been established by 1965, data encapsulation through [[Scope (computer science)|levels of scope]] for [[Variable (computer science)|variables]], such as private (-) and public (+), were not implemented in Simula because it would have required the accessing procedures to be also hidden.&lt;ref&gt;{{Cite book|last = Dahl  |first = Ole Johan|year = 2004  |chapter-url = http://www.mn.uio.no/ifi/english/about/ole-johan-dahl/bibliography/the-birth-of-object-orientation-the-simula-languages.pdf |doi = 10.1007/978-3-540-39993-3_3|accessdate =3 March 2018 |chapter = The Birth of Object Orientation: The Simula Languages|title = From Object-Orientation to Formal Methods|volume = 2635|pages = 15–25|series = Lecture Notes in Computer Science|isbn = 978-3-540-21366-6|citeseerx = 10.1.1.133.6730}}&lt;/ref&gt;
+
+In 1962, [[Kristen Nygaard]] initiated a project for a simulation language at the [[Norwegian Computing Center]], based on his previous use of the [[Monte Carlo method|Monte Carlo simulation]] and his work to conceptualise real-world systems. [[Ole-Johan Dahl]] formally joined the project and the Simula programming language was designed to run on the [[UNIVAC I|Universal Automatic Computer]] (UNIVAC) 1107. In the early stages Simula was supposed to be a procedure package for the programming language [[ALGOL]] 60.  Dissatisfied with the restrictions imposed by ALGOL the researchers decided to develop Simula into a fully-fledged programming language, which used the UNIVAC ALGOL 60 compiler. Simula launched in 1964, and was promoted by Dahl and Nygaard throughout 1965 and 1966, leading to increasing use of the programming language in Sweden, Germany and the [[Soviet Union]]. In 1968, the language became widely available through the [[Burroughs large systems|Burroughs B5500 computers]], and was later also implemented on the [[Ural (computer)|URAL-16 computer]]. In 1966, Dahl and Nygaard wrote a Simula [[compiler]]. They became preoccupied with putting into practice [[Tony Hoare]]'s record class concept, which had been implemented in the free-form, English-like general-purpose simulation language [[SIMSCRIPT]]. They settled for a generalised process concept with record class properties, and a second layer of prefixes. Through prefixing a process could reference its predecessor and have additional properties. Simula thus introduced the class and subclass hierarchy, and the possibility of generating objects from these classes. The Simula 1 compiler and a new version of the programming language, Simula 67, was introduced to the wider world through the research paper "Class and Subclass Declarations" at a 1967 conference.&lt;ref name="auto"/&gt;
+
+A Simula 67 compiler was launched for the [[IBM System/360|System/360]] and [[IBM System/370|System/370]] [[IBM mainframe|IBM mainframe computers]] in 1972. In the same year a Simula 67 compiler was launched free of charge for the French [[CII 10070]] and [[CII Iris]] 80 [[mainframe computers]]. By 1974, the Association of Simula Users had members in 23 different countries. Early 1975 a Simula 67 compiler was released free of charge for the [[DECsystem-10]] mainframe family. By August the same year the DECsystem-10 Simula 67 compiler had been installed at 28 sites, 22 of them in North America. The object-oriented Simula programming language was used mainly by researchers involved with [[physical modelling]], such as models to study and improve the movement of ships and their content through cargo ports.&lt;ref name="auto"/&gt;
+
+In the 1970s, the first version of the [[Smalltalk]] programming language was developed at [[Xerox PARC]] by [[Alan Kay]], [[Dan Ingalls]] and [[Adele Goldberg (computer scientist)|Adele Goldberg]]. Smaltalk-72 included a programming environment and was [[Dynamic programming|dynamically typed]], and at first was [[Interpreter (computing)|interpreted]], not [[Compiler|compiled]]. Smalltalk got noted for its application of object orientation at the language level and its graphical development environment. Smalltalk went through various versions and interest in the language grew.&lt;ref name="Bertrand Meyer 2009 329"&gt;{{Cite book|title=Touch of Class: Learning to Program Well with Objects and Contracts|author=Bertrand Meyer|publisher=Springer Science &amp; Business Media|year=2009|isbn=9783540921448|pages=329|bibcode=2009tclp.book.....M}}&lt;/ref&gt; While Smalltalk was influenced by the ideas introduced in Simula 67 it was designed to be a fully dynamic system in which classes could be created and modified dynamically.&lt;ref name="st"&gt;{{Cite web|first=Alan |last=Kay |url=http://gagne.homedns.org/~tgagne/contrib/EarlyHistoryST.html |title=The Early History of Smalltalk |accessdate=13 September 2007 |url-status=dead |archiveurl=https://web.archive.org/web/20080710144930/http://gagne.homedns.org/~tgagne/contrib/EarlyHistoryST.html |archivedate=10 July 2008 }}&lt;/ref&gt;
+
+In the 1970s, Smalltalk influenced the [[Lisp (programming language)#Language innovations|Lisp community]] to incorporate [[Lisp (programming language)#Object systems|object-based techniques]] that were introduced to developers via the [[Lisp machine]]. Experimentation with various extensions to Lisp (such as LOOPS and [[Flavors (programming language)|Flavors]] introducing [[multiple inheritance]] and [[mixins]]) eventually led to the [[Common Lisp Object System]], which integrates functional programming and object-oriented programming and allows extension via a [[Meta-object protocol]]. In the 1980s, there were a few attempts to design processor architectures that included hardware support for objects in memory but these were not successful. Examples include the [[Intel iAPX 432]] and the [[Linn Products|Linn Smart]] [[Rekursiv]].
+
+In 1981, Goldberg edited the August 1981 issue of [[Byte Magazine]], introducing Smalltalk and object-oriented programming to a wider audience. In 1986, the [[Association for Computing Machinery]] organised the first ''Conference on Object-Oriented Programming, Systems, Languages, and Applications'' (OOPSLA), which was unexpectedly attended by 1,000 people. In the mid-1980s [[Objective-C]] was developed by [[Brad Cox]], who had used Smalltalk at [[ITT Inc.]], and [[Bjarne Stroustrup]], who had used Simula for his PhD thesis, eventually went to create the object-oriented [[C++]].&lt;ref name="Bertrand Meyer 2009 329"/&gt; In 1985, [[Bertrand Meyer]] also produced the first design of the [[Eiffel (programming language)|Eiffel language]]. Focused on software quality, Eiffel is a purely object-oriented programming language and a notation supporting the entire software lifecycle. Meyer described the Eiffel software development method, based on a small number of key ideas from software engineering and computer science, in [[Object-Oriented Software Construction]]. Essential to the quality focus of Eiffel is Meyer's reliability mechanism, [[Design by Contract]], which is an integral part of both the method and language.
+
+[[File:Tiobeindex.png|thumb|350px|The [[TIOBE index|TIOBE]] [[Measuring programming language popularity|programming language popularity index]] graph from 2002 to 2018. In the 2000s the object-oriented [[Java (programming language)|Java]] (blue) and the [[Procedural programming|procedural]] [[C (programming language)|C]] (black) competed for the top position.]]
+In the early and mid-1990s object-oriented programming developed as the dominant programming [[paradigm]] when programming languages supporting the techniques became widely available. These included Visual [[FoxPro]] 3.0,&lt;ref&gt;1995 (June) Visual [[FoxPro]] 3.0, FoxPro evolves from a procedural language to an object-oriented language. Visual FoxPro 3.0 introduces a database container, seamless client/server capabilities, support for ActiveX technologies, and OLE Automation and null support. [http://www.foxprohistory.org/foxprotimeline.htm#summary_of_fox_releases Summary of Fox releases]&lt;/ref&gt;&lt;ref&gt;FoxPro History web site: [http://www.foxprohistory.org/tableofcontents.htm Foxprohistory.org]&lt;/ref&gt;&lt;ref&gt;1995 Reviewers Guide to Visual FoxPro 3.0: [http://www.dfpug.de/loseblattsammlung/migration/whitepapers/vfp_rg.htm DFpug.de]&lt;/ref&gt; [[C++]],&lt;ref&gt;{{Cite book|url=https://books.google.com/books?id=MHmqfSBTXsAC&amp;pg=PA16&amp;lpg=PA16|title=Object Oriented Programming with C++, 1E|isbn=9788125925323|last1=Khurana|first1=Rohit|date=1 November 2009}}&lt;/ref&gt; and [[Embarcadero Delphi|Delphi]]{{Citation needed|date=February 2010}}. Its dominance was further enhanced by the rising popularity of [[graphical user interface]]s, which rely heavily upon object-oriented programming techniques. An example of a closely related dynamic GUI library and OOP language can be found in the [[Cocoa (software)|Cocoa]] frameworks on [[Mac OS X]], written in [[Objective-C]], an object-oriented, dynamic messaging extension to C based on Smalltalk. OOP toolkits also enhanced the popularity of [[event-driven programming]] (although this concept is not limited to OOP).
+
+At [[ETH Zürich]], [[Niklaus Wirth]] and his colleagues had also been investigating such topics as [[data abstraction]] and [[modularity (programming)|modular programming]] (although this had been in common use in the 1960s or earlier). [[Modula-2]] (1978) included both, and their succeeding design, [[Oberon (programming language)|Oberon]], included a distinctive approach to object orientation, classes, and such.
+
+Object-oriented features have been added to many previously existing languages, including [[Ada (programming language)|Ada]], [[BASIC]], [[Fortran]], [[Pascal (programming language)|Pascal]], and [[COBOL]]. Adding these features to languages that were not initially designed for them often led to problems with compatibility and maintainability of code.
+
+More recently, a number of languages have emerged that are primarily object-oriented, but that are also compatible with procedural methodology. Two such languages are [[Python (programming language)|Python]] and [[Ruby programming language|Ruby]]. Probably the most commercially important recent object-oriented languages are [[Java (programming language)|Java]], developed by [[Sun Microsystems]], as well as [[C Sharp (programming language)|C#]] and [[Visual Basic.NET]] (VB.NET), both designed for Microsoft's [[.NET Framework|.NET]] platform. Each of these two frameworks shows, in its own way, the benefit of using OOP by creating an abstraction from implementation. VB.NET and C# support cross-language inheritance, allowing classes defined in one language to subclass classes defined in the other language.
+
+==OOP languages==
+{{Unreferenced section|date=August 2009}}
+{{See also|List of object-oriented programming languages}}
+
+[[Simula]] (1967) is generally accepted as being the first language with the primary features of an object-oriented language. It was created for making [[Computer simulation|simulation programs]], in which what came to be called objects were the most important information representation. [[Smalltalk]] (1972 to 1980) is another early example, and the one with which much of the theory of OOP was developed. Concerning the degree of object orientation, the following distinctions can be made:
+&lt;!-- Order lists of examples based on [[TIOBE index]]--&gt;
+* Languages called "pure" OO languages, because everything in them is treated consistently as an object, from primitives such as characters and punctuation, all the way up to whole classes, prototypes, blocks, modules, etc. They were designed specifically to facilitate, even enforce, OO methods. Examples: [[Ruby (programming language)|Ruby]], [[Scala (programming language)|Scala]], [[Smalltalk]], [[Eiffel (programming language)|Eiffel]], [[Emerald (programming language)|Emerald]],&lt;ref&gt;{{cite web|url=http://www.emeraldprogramminglanguage.org/|title=The Emerald Programming Language| date=26 February 2011}}&lt;/ref&gt; [[JADE (programming language)|JADE]], [[Self (programming language)|Self]], [[Raku (programming language)|Raku]].
+* Languages designed mainly for OO programming, but with some procedural elements. Examples: [[Java (programming language)|Java]], [[Python (programming language)|Python]], [[C++]], [[C Sharp (programming language)|C#]], [[Object Pascal|Delphi/Object Pascal]], [[VB.NET]].
+* Languages that are historically [[Procedural programming|procedural languages]], but have been extended with some OO features. Examples: [[PHP]], [[Perl]], [[Visual Basic]] (derived from BASIC), [[MATLAB]], [[COBOL 2002]], [[Fortran 2003]], [[ABAP]], [[Ada (programming language)|Ada 95]], [[Pascal (programming language)|Pascal]].
+* Languages with most of the features of objects (classes, methods, inheritance), but in a distinctly original form. Examples: [[Oberon (programming language)|Oberon]] (Oberon-1 or Oberon-2).
+* Languages with [[abstract data type]] support which may be used to resemble OO programming, but without all features of object-orientation. This includes [[object-based|object-''based'']] and [[Prototype-based programming|prototype-based]] languages. Examples: [[JavaScript]], [[Lua (programming language)|Lua]], [[Modula-2]], [[CLU (programming language)|CLU]].
+* Chameleon languages that support multiple paradigms, including OO. [[Tcl]] stands out among these for TclOO, a hybrid object system that supports both [[prototype-based programming]] and class-based OO.
+
+===OOP in dynamic languages===
+In recent years, object-oriented programming has become especially popular in [[dynamic programming language]]s. [[Python (programming language)|Python]], [[Windows PowerShell|PowerShell]], [[Ruby (programming language)|Ruby]] and [[Groovy (programming language)|Groovy]] are dynamic languages built on OOP principles, while [[Perl]] and [[PHP]] have been adding object-oriented features since Perl 5 and PHP 4, and [[ColdFusion]] since version 6.
+
+The [[Document Object Model]] of [[HTML]], [[XHTML]], and [[XML]] documents on the Internet has bindings to the popular [[JavaScript]]/[[ECMAScript]] language. JavaScript is perhaps the best known [[prototype-based programming]] language, which employs cloning from prototypes rather than inheriting from a class (contrast to [[class-based programming]]). Another scripting language that takes this approach is [[Lua (programming language)|Lua]].
+
+===OOP in a network protocol===
+The messages that flow between computers to request services in a client-server environment can be designed as the linearizations of objects defined by class objects known to both the client and the server.  For example, a simple linearized object would consist of a length field, a code point identifying the class, and a data value.  A more complex example would be a command consisting of the length and code point of the command and values consisting of linearized objects representing the command's parameters.  Each such command must be directed by the server to an object whose class (or superclass) recognizes the command and is able to provide the requested service. Clients and servers are best modeled as complex object-oriented structures. [[Distributed Data Management Architecture]] (DDM) took this approach and used class objects to define objects at four levels of a formal hierarchy:
+* Fields defining the data values that form messages, such as their length, code point and data values.
+* Objects and collections of objects similar to what would be found in a [[Smalltalk]] program for messages and parameters.
+* Managers similar to [[AS/400 object]]s, such as a directory to files and files consisting of metadata and records. Managers conceptually provide memory and processing resources for their contained objects.
+* A client or server consisting of all the managers necessary to implement a full processing environment, supporting such aspects as directory services, security and concurrency control.
+
+The initial version of DDM defined distributed file services.  It was later extended to be the foundation of [[DRDA|Distributed Relational Database Architecture]] (DRDA).
+
+==Design patterns==
+Challenges of object-oriented design are addressed by several approaches. Most common is known as the [[Design Patterns (book)|design patterns codified by Gamma ''et al.'']]. More broadly, the term "[[design pattern (computer science)|design patterns]]" can be used to refer to any general, repeatable, solution pattern to a commonly occurring problem in software design. Some of these commonly occurring problems have implications and solutions particular to object-oriented development.
+
+===Inheritance and behavioral subtyping===
+{{See also|Object-oriented design}}&lt;!-- not "further" because that article is mostly blather and does not even mention this --&gt;
+It is intuitive to assume that inheritance creates a [[program semantics|semantic]] "[[is a]]" relationship, and thus to infer that objects instantiated from subclasses can always be ''safely'' used instead of those instantiated from the superclass. This intuition is unfortunately false in most OOP languages, in particular in all those that allow [[mutable]] objects. [[Subtype polymorphism]] as enforced by the [[type checker]] in OOP languages (with mutable objects) cannot guarantee [[behavioral subtyping]] in any context. Behavioral subtyping is undecidable in general, so it cannot be implemented by a program (compiler). Class or object hierarchies must be carefully designed, considering possible incorrect uses that cannot be detected syntactically. This issue is known as the [[Liskov substitution principle]].
+
+===Gang of Four design patterns===
+{{Main|Design pattern (computer science)}}
+''[[Design Patterns (book)|Design Patterns: Elements of Reusable Object-Oriented Software]]'' is an influential book published in 1994 by [[Erich Gamma]], [[Richard Helm]], [[Ralph Johnson (computer scientist)|Ralph Johnson]], and [[John Vlissides]], often referred to humorously as the "Gang of Four". Along with exploring the capabilities and pitfalls of object-oriented programming, it describes 23 common programming problems and patterns for solving them.
+As of April 2007, the book was in its 36th printing.
+
+The book describes the following patterns:
+* ''[[Creational pattern]]s'' (5): [[Factory method pattern]], [[Abstract factory pattern]], [[Singleton pattern]], [[Builder pattern]], [[Prototype pattern]]
+* ''[[Structural pattern]]s'' (7): [[Adapter pattern]], [[Bridge pattern]], [[Composite pattern]], [[Decorator pattern]], [[Facade pattern]], [[Flyweight pattern]], [[Proxy pattern]]
+* ''[[Behavioral pattern]]s'' (11): [[Chain-of-responsibility pattern]], [[Command pattern]], [[Interpreter pattern]], [[Iterator pattern]], [[Mediator pattern]], [[Memento pattern]], [[Observer pattern]], [[State pattern]], [[Strategy pattern]], [[Template method pattern]], [[Visitor pattern]]
+
+===Object-orientation and databases===
+{{Main|Object-relational impedance mismatch|Object-relational mapping|Object database}}
+Both object-oriented programming and [[relational database management systems]] (RDBMSs) are extremely common in software {{As of|2006|alt=today}}. Since [[relational database]]s don't store objects directly (though some RDBMSs have object-oriented features to approximate this), there is a general need to bridge the two worlds. The problem of bridging object-oriented programming accesses and data patterns with relational databases is known as [[object-relational impedance mismatch]]. There are a number of approaches to cope with this problem, but no general solution without downsides.&lt;ref name="RDMDBobjectmis"&gt;{{Cite web| first = Ted| last = Neward| title = The Vietnam of Computer Science| date = 26 June 2006| accessdate = 2 June 2010| publisher = Interoperability Happens| url = http://blogs.tedneward.com/2006/06/26/The+Vietnam+Of+Computer+Science.aspx| archive-url = https://web.archive.org/web/20060704030226/http://blogs.tedneward.com/2006/06/26/The+Vietnam+Of+Computer+Science.aspx| archive-date = 4 July 2006| url-status = dead| df = dmy-all}}&lt;/ref&gt; One of the most common approaches is [[object-relational mapping]], as found in [[Integrated development environment|IDE]] languages such as [[Visual FoxPro]] and libraries such as [[Java Data Objects]] and [[Ruby on Rails]]' ActiveRecord.
+
+There are also [[object database]]s that can be used to replace RDBMSs, but these have not been as technically and commercially successful as RDBMSs.
+
+===Real-world modeling and relationships===
+OOP can be used to associate real-world objects and processes with digital counterparts. However, not everyone agrees that OOP facilitates direct real-world mapping (see [[object-oriented programming#Criticism|Criticism]] section) or that real-world mapping is even a worthy goal; [[Bertrand Meyer]] argues in ''[[Object-Oriented Software Construction]]''&lt;ref name="Meyer230"&gt;Meyer, Second Edition, p. 230&lt;/ref&gt; that a program is not a model of the world but a model of some part of the world; "Reality is a cousin twice removed". At the same time, some principal limitations of OOP have been noted.&lt;ref&gt;M.Trofimov, ''OOOP – The Third "O" Solution: Open OOP.'' First Class, [[Object Management Group|OMG]], 1993, Vol. 3, issue 3, p.14.&lt;/ref&gt;
+For example, the [[circle-ellipse problem]] is difficult to handle using OOP's concept of [[inheritance (object-oriented programming)|inheritance]].
+
+However, [[Niklaus Wirth]] (who popularized the adage now known as [[Wirth's law]]: "Software is getting slower more rapidly than hardware becomes faster") said of OOP in his paper, "Good Ideas through the Looking Glass", "This paradigm closely reflects the structure of systems 'in the real world', and it is therefore well suited to model complex systems with complex behaviours"&lt;ref&gt;{{cite journal |title=Good Ideas, Through the Looking Glass |journal=[[Computer (magazine)|Computer]] |year=2006 |last=Wirth |first=Nicklaus |authorlink=Niklaus Wirth |volume=39 |issue=1 |pages=28–39 |url=https://pdfs.semanticscholar.org/10bd/dc49b85196aaa6715dd46843d9dcffa38358.pdf |accessdate=2 October 2016 |doi=10.1109/mc.2006.20}}&lt;/ref&gt; (contrast [[KISS principle]]).
+
+[[Steve Yegge]] and others noted that natural languages lack the OOP approach of strictly prioritizing ''things'' (objects/[[noun]]s) before ''actions'' (methods/[[verb]]s).&lt;ref name="executioniKoN"&gt;{{Cite web| first = Steve| last=Yegge |title = Execution in the Kingdom of Nouns| date=30 March 2006|accessdate=3 July 2010| publisher = steve-yegge.blogspot.com| url=http://steve-yegge.blogspot.com/2006/03/execution-in-kingdom-of-nouns.html}}&lt;/ref&gt; This problem may cause OOP to suffer more convoluted solutions than procedural programming.&lt;ref name="executioniKoN2"&gt;{{Cite web| first = Timothy| last= Boronczyk |title = What's Wrong with OOP| date=11 June 2009|accessdate=3 July 2010| publisher = zaemis.blogspot.com| url=http://zaemis.blogspot.com/2009/06/whats-wrong-with-oop.html}}&lt;/ref&gt;
+
+===OOP and control flow===
+OOP was developed to increase the [[code reuse|reusability]] and [[software maintenance|maintainability]] of source code.&lt;ref name="realisticcodereuse"&gt;{{Cite web| first = Scott| last= Ambler| title = A Realistic Look at Object-Oriented Reuse| date=1 January 1998| accessdate=4 July 2010| publisher = drdobbs.com| url=http://www.drdobbs.com/184415594}}&lt;/ref&gt; Transparent representation of the [[control flow]] had no priority and was meant to be handled by a compiler. With the increasing relevance of parallel hardware and [[thread (computer science)|multithreaded coding]], developing transparent control flow becomes more important, something hard to achieve with OOP.&lt;ref name="flaws"&gt;{{Cite web| first = Asaf| last= Shelly |title = Flaws of Object Oriented Modeling| date=22 August 2008|accessdate=4 July 2010| publisher = Intel Software Network| url=http://software.intel.com/en-us/blogs/2008/08/22/flaws-of-object-oriented-modeling/}}&lt;/ref&gt;&lt;ref name="multithreadingisaverb"&gt;{{Cite web| first = Justin| last = James| title = Multithreading is a verb not a noun| date = 1 October 2007| accessdate = 4 July 2010| publisher = techrepublic.com| url = http://blogs.techrepublic.com.com/programming-and-development/?p=518| archive-url = https://web.archive.org/web/20071010105117/http://blogs.techrepublic.com.com/programming-and-development/?p=518| archive-date = 10 October 2007| url-status = dead| df = dmy-all}}&lt;/ref&gt;&lt;ref name="multicore"&gt;{{Cite web| first = Asaf| last= Shelly| title = HOW TO: Multicore Programming (Multiprocessing) Visual C++ Class Design Guidelines, Member Functions| date=22 August 2008| accessdate=4 July 2010| publisher = support.microsoft.com| url=http://support.microsoft.com/?scid=kb%3Ben-us%3B558117}}&lt;/ref&gt;&lt;ref&gt;{{cite web|url=http://existentialtype.wordpress.com/2011/04/17/some-advice-on-teaching-fp/|title=Some thoughts on teaching FP|author=Robert Harper |publisher=Existential Type Blog|accessdate=5 December 2011|date=17 April 2011|author-link=Robert Harper (computer scientist)}}&lt;/ref&gt;
+
+===Responsibility- vs. data-driven design===
+[[Responsibility-driven design]] defines classes in terms of a contract, that is, a class should be defined around a responsibility and the information that it shares. This is contrasted by Wirfs-Brock and Wilkerson with [[Data-driven programming|data-driven design]], where classes are defined around the data-structures that must be held. The authors hold that responsibility-driven design is preferable.
+
+===SOLID and GRASP guidelines===
+[[SOLID (object-oriented design)|SOLID]] is a mnemonic invented by Michael Feathers that stands for and advocates five programming practices:
+* [[Single responsibility principle]]
+* [[Open/closed principle]]
+* [[Liskov substitution principle]]
+* [[Interface segregation principle]]
+* [[Dependency inversion principle]]
+
+[[GRASP (object-oriented design)|GRASP]] (General Responsibility Assignment Software Patterns) is another set of guidelines advocated by [[Craig Larman]].
+
+==Criticism==
+The OOP paradigm has been criticised for a number of reasons, including not meeting its stated goals of reusability and modularity,&lt;ref name="badprop"/&gt;&lt;ref name="armstrongjoe"/&gt; and for overemphasizing one aspect of software design and modeling (data/objects) at the expense of other important aspects (computation/algorithms).&lt;ref name="stepanov"/&gt;&lt;ref name="hickey"/&gt;
+
+[[Luca Cardelli]] has claimed that OOP code is "intrinsically less efficient" than procedural code, that OOP can take longer to compile, and that OOP languages have "extremely poor modularity properties with respect to class extension and modification", and tend to be extremely complex.&lt;ref name="badprop"&gt;{{Cite journal| first=Luca| last=Cardelli|title=Bad Engineering Properties of Object-Oriented Languages |url=http://lucacardelli.name/Papers/BadPropertiesOfOO.html| year=1996| accessdate=21 April 2010| doi=10.1145/242224.242415| journal = ACM Comput. Surv.| volume=28| issn = 0360-0300| pages = 150–es| authorlink=Luca Cardelli| issue=4es}}&lt;/ref&gt; The latter point is reiterated by [[Joe Armstrong (programming)|Joe Armstrong]], the principal inventor of [[Erlang (programming language)|Erlang]], who is quoted as saying:&lt;ref name="armstrongjoe"&gt;Armstrong, Joe. In ''Coders at Work: Reflections on the Craft of Programming.'' Peter Seibel, ed. [http://www.codersatwork.com/ Codersatwork.com], Accessed 13 November 2009.&lt;/ref&gt;
+
+{{quote|The problem with object-oriented languages is they've got all this implicit environment that they carry around with them. You wanted a banana but what you got was a gorilla holding the banana and the entire jungle.}}
+
+A study by Potok et al. has shown no significant difference in productivity between OOP and procedural approaches.&lt;ref&gt;{{Cite journal| url=http://www.csm.ornl.gov/~v8q/Homepage/Papers%20Old/spetep-%20printable.pdf| title=Productivity Analysis of Object-Oriented Software Developed in a Commercial Environment| last=Potok| first=Thomas|author2=Mladen Vouk |author3=Andy Rindos |journal=Software&amp;nbsp;– Practice and Experience| volume=29|issue=10|pages=833–847 |year=1999 |accessdate=21 April 2010| doi=10.1002/(SICI)1097-024X(199908)29:10&lt;833::AID-SPE258&gt;3.0.CO;2-P}}&lt;/ref&gt;
+
+[[Christopher J. Date]] stated that critical comparison of OOP to other technologies, relational in particular, is difficult because of lack of an agreed-upon and rigorous definition of OOP;&lt;ref name="DatePage650"&gt;C. J. Date, Introduction to Database Systems, 6th-ed., Page 650&lt;/ref&gt; however, Date and Darwen have proposed a theoretical foundation on OOP that uses OOP as a kind of customizable [[data type|type system]] to support [[RDBMS]].&lt;ref name="ThirdManifesto"&gt;C. J. Date, Hugh Darwen. ''Foundation for Future Database Systems: The Third Manifesto'' (2nd Edition)&lt;/ref&gt;
+
+In an article Lawrence Krubner claimed that compared to other languages (LISP dialects, functional languages, etc.) OOP languages have no unique strengths, and inflict a heavy burden of unneeded complexity.&lt;ref name="lawrence"&gt;{{Cite web| last=Krubner| first=Lawrence| title=Object Oriented Programming is an expensive disaster which must end| url=http://www.smashcompany.com/technology/object-oriented-programming-is-an-expensive-disaster-which-must-end| publisher=smashcompany.com| accessdate=14 October 2014| archive-url=https://web.archive.org/web/20141014233854/http://www.smashcompany.com/technology/object-oriented-programming-is-an-expensive-disaster-which-must-end| archive-date=14 October 2014| url-status=dead}}&lt;/ref&gt;
+
+[[Alexander Stepanov]] compares object orientation unfavourably to [[generic programming]]:&lt;ref name="stepanov"&gt;{{Cite web| url=http://www.stlport.org/resources/StepanovUSA.html| title=STLport: An Interview with A. Stepanov| last=Stepanov| first=Alexander| accessdate=21 April 2010| authorlink=Alexander Stepanov}}&lt;/ref&gt;
+
+{{quote|I find OOP technically unsound. It attempts to decompose the world in terms of interfaces that vary on a single type. To deal with the real problems you need multisorted algebras&amp;nbsp;— families of interfaces that span multiple types. I find OOP philosophically unsound. It claims that everything is an object. Even if it is true it is not very interesting&amp;nbsp;— saying that everything is an object is saying nothing at all.}}
+
+[[Paul Graham (computer programmer)|Paul Graham]] has suggested that OOP's popularity within large companies is due to "large (and frequently changing) groups of mediocre programmers". According to Graham, the discipline imposed by OOP prevents any one programmer from "doing too much damage".&lt;ref name="graham"&gt;{{Cite web| last=Graham| first=Paul| title=Why ARC isn't especially Object-Oriented.| url=http://www.paulgraham.com/noop.html| publisher=PaulGraham.com| accessdate=13 November 2009| authorlink=Paul Graham (computer programmer)}}&lt;/ref&gt;
+
+Leo Brodie has suggested a connection between the standalone nature of objects and a tendency to [[duplicate code]]&lt;ref&gt;{{Cite book| url=http://thinking-forth.sourceforge.net/thinking-forth-ans.pdf| title=Thinking Forth| last=Brodie| first=Leo|pages=92–93 |year=1984 |accessdate=4 May 2018}}&lt;/ref&gt; in violation of the [[don't repeat yourself]] principle&lt;ref&gt;{{cite web| work=Category Extreme Programming| last=Hunt| first=Andrew| url=http://wiki.c2.com/?DontRepeatYourself|title=Don't Repeat Yourself| accessdate=4 May 2018}}&lt;/ref&gt; of software development.
+
+[[Steve Yegge]] noted that, as opposed to [[functional programming]]:&lt;ref name="yegge"&gt;{{Cite web|url=http://steve-yegge.blogspot.com/2006/03/execution-in-kingdom-of-nouns.html|title=Stevey's Blog Rants: Execution in the Kingdom of Nouns|accessdate=20 May 2020}}&lt;/ref&gt;
+
+{{quote|Object Oriented Programming puts the Nouns first and foremost. Why would you go to such lengths to put one part of speech on a pedestal? Why should one kind of concept take precedence over another? It's not as if OOP has suddenly made verbs less important in the way we actually think. It's a strangely skewed perspective.}}
+
+[[Rich Hickey]], creator of [[Clojure]], described object systems as overly simplistic models of the real world. He emphasized the inability of OOP to model time properly, which is getting increasingly problematic as software systems become more concurrent.&lt;ref name="hickey"&gt;Rich Hickey, JVM Languages Summit 2009 keynote, [http://www.infoq.com/presentations/Are-We-There-Yet-Rich-Hickey Are We There Yet?] November 2009.&lt;/ref&gt;
+
+[[Eric S. Raymond]], a [[Unix]] programmer and [[open-source software]] advocate, has been critical of claims that present object-oriented programming as the "One True Solution", and has written that object-oriented programming languages tend to encourage thickly layered programs that destroy transparency.&lt;ref name="Eric S. Raymond 2003"&gt;{{cite web|url=http://www.catb.org/esr/writings/taoup/html/unix_and_oo.html|title=The Art of Unix Programming: Unix and Object-Oriented Languages|author=Eric S. Raymond|date=2003|accessdate=6 August 2014}}&lt;/ref&gt; Raymond compares this unfavourably to the approach taken with Unix and the [[C (programming language)|C programming language]].&lt;ref name="Eric S. Raymond 2003"/&gt;
+
+[[Rob Pike]], a programmer involved in the creation of [[UTF-8]] and [[Go (programming language)|Go]], has called object-oriented programming "the [[Roman numerals]] of computing"&lt;ref&gt;{{cite mailing list |url=http://groups.google.com/group/comp.os.plan9/msg/006fec195aeeff15 |title=[9fans] Re: Threads: Sewing badges of honor onto a Kernel |date=2 March 2004 |accessdate=17 November 2016 |mailing-list=comp.os.plan9 |last=Pike |first=Rob |authorlink=Rob Pike}}&lt;/ref&gt; and has said that OOP languages frequently shift the focus from [[data structure]]s and [[algorithm]]s to [[data type|types]].&lt;ref&gt;{{cite web |url=https://commandcenter.blogspot.com/2012/06/less-is-exponentially-more.html |title=Less is exponentially more |last1=Pike |first1=Rob |date=25 June 2012 |accessdate=1 October 2016 }}&lt;/ref&gt; Furthermore, he cites an instance of a [[Java (programming language)|Java]] professor whose "idiomatic" solution to a problem was to create six new classes, rather than to simply use a [[lookup table]].&lt;ref&gt;{{cite web |url=http://plus.google.com/+RobPikeTheHuman/posts/hoJdanihKwb |title=A few years ago I saw this page |last1=Pike |first1=Rob |accessdate=1 October 2016 |date=14 November 2012|archive-url=https://web.archive.org/web/20180814173134/http://plus.google.com/+RobPikeTheHuman/posts/hoJdanihKwb |archive-date=14 August 2018 }}&lt;/ref&gt;
+
+==Formal semantics==
+{{see also|Formal semantics of programming languages}}
+Objects are the run-time entities in an object-oriented system. They may represent a person, a place, a bank account, a table of data, or any item that the program has to handle.
+
+There have been several attempts at formalizing the concepts used in object-oriented programming. The following concepts and constructs have been used as interpretations of OOP concepts:
+* [[F-Coalgebra|co algebraic data types]]&lt;ref name=poll97&gt;{{cite web|last=Poll|first=Erik|title=Subtyping and Inheritance for Categorical Datatypes|url=http://www.cs.ru.nl/E.Poll/papers/kyoto97.pdf|accessdate=5 June 2011}}&lt;/ref&gt;
+* [[abstract data type]]s (which have [[existential types]]) allow the definition of [[module (programming)|modules]] but these do not support [[dynamic dispatch]]
+* [[recursive type]]s
+* encapsulated state
+* [[Inheritance (object-oriented programming)|inheritance]]
+* [[Record (computer science)|records]] are basis for understanding objects if [[function literal]]s can be stored in fields (like in functional-programming languages), but the actual calculi need be considerably more complex to incorporate essential features of OOP. Several extensions of [[System F-sub|System F&lt;sub&gt;&lt;:&lt;/sub&gt;]] that deal with mutable objects have been studied;&lt;ref name="AbadiCardelli"/&gt; these allow both [[subtype polymorphism]] and [[parametric polymorphism]] (generics)
+
+Attempts to find a consensus definition or theory behind objects have not proven very successful (however, see Abadi &amp; Cardelli, [http://portal.acm.org/citation.cfm?id=547964&amp;dl=ACM&amp;coll=portal ''A Theory of Objects'']&lt;ref name="AbadiCardelli"&gt;{{Cite book| first=Martin| last=Abadi |title=A Theory of Objects| url=http://portal.acm.org/citation.cfm?id=547964&amp;dl=ACM&amp;coll=portal| year=1996| accessdate=21 April 2010| isbn = 978-0-387-94775-4| publisher = Springer-Verlag New York, Inc.| authorlink=Martin Abadi|author2=Cardelli, Luca }}&lt;/ref&gt; for formal definitions of many OOP concepts and constructs), and often diverge widely. For example, some definitions focus on mental activities, and some on program structuring. One of the simpler definitions is that OOP is the act of using "map" data structures or arrays that can contain functions and pointers to other maps, all with some [[syntactic sugar|syntactic and scoping sugar]] on top. Inheritance can be performed by cloning the maps (sometimes called "prototyping").
+
+==See also==
+{{Portal|Computer programming}}
+* [[Comparison of programming languages (object-oriented programming)]]
+* [[Comparison of programming paradigms]]
+* [[Component-based software engineering]]
+* [[Design by contract]]
+* [[Object association]]
+* [[Object database]]
+* [[Object modeling language]]
+* [[Object-oriented analysis and design]]
+* [[Object-relational impedance mismatch]] (and [[The Third Manifesto]])
+* [[Object-relational mapping]]
+
+===Systems===
+* [[CADES]]
+* [[Common Object Request Broker Architecture]] (CORBA)
+* [[Distributed Component Object Model]]
+* [[Distributed Data Management Architecture]]
+* [[Jeroo]]
+
+===Modeling languages===
+* [[IDEF4]]
+* [[Interface description language]]
+* [[Lepus3]]
+* [[Unified Modeling Language|UML]]
+
+==References==
+{{Reflist}}
+
+==Further reading==
+* {{Cite book
+|first=Martin
+|last=Abadi
+|authorlink=Martin Abadi
+|author2=Luca Cardelli
+|year=1998
+|title=A Theory of Objects
+|publisher=[[Springer Verlag]]
+|isbn=978-0-387-94775-4
+|author2-link=Luca Cardelli
+}}
+* {{Cite book
+|first=Harold
+|last=Abelson
+|authorlink=Harold Abelson
+|author2=Gerald Jay Sussman
+|year=1997
+|title=Structure and Interpretation of Computer Programs
+|url=http://mitpress.mit.edu/sicp/
+|publisher=[[MIT Press]]
+|isbn=978-0-262-01153-2
+|author2-link=Gerald Jay Sussman
+}}
+* {{Cite journal
+|first = Deborah J.
+|last = Armstrong
+|date=February 2006
+|title = The Quarks of Object-Oriented Development
+|journal = Communications of the ACM
+|volume = 49
+|issue = 2
+|pages = 123–128
+|issn = 0001-0782
+|doi = 10.1145/1113034.1113040
+
+}}
+* {{Cite book
+|first=Grady
+|last=Booch
+|authorlink=Grady Booch
+|year=1997
+|title=Object-Oriented Analysis and Design with Applications
+|publisher=[[Addison-Wesley]]
+|isbn=978-0-8053-5340-2
+|url=https://archive.org/details/objectorientedan00booc
+}}
+* {{Cite book
+|first=Peter
+|last=Eeles
+|author2=Oliver Sims
+|year=1998
+|title=Building Business Objects
+|publisher=[[John Wiley &amp; Sons]]
+|isbn=978-0-471-19176-6
+|url=https://archive.org/details/buildingbusiness0000eele
+|author2-link=Oliver Sims
+}}
+* {{Cite book
+|first=Erich
+|last=Gamma
+|authorlink=Erich Gamma
+|author2=Richard Helm
+|author3-link=Ralph Johnson (computer scientist)
+|author3=Ralph Johnson
+|author4-link=John Vlissides
+|author4=John Vlissides
+|year=1995
+|title=Design Patterns: Elements of Reusable Object Oriented Software
+|publisher=Addison-Wesley
+|isbn=978-0-201-63361-0
+|bibcode=1995dper.book.....G
+|url=https://archive.org/details/designpatternsel00gamm
+|author2-link=Richard Helm
+}}
+* {{Cite book
+|first=Paul
+|last=Harmon
+|authorlink=Paul Harmon (management author)
+|author2=William Morrissey
+|year=1996
+|title=The Object Technology Casebook – Lessons from Award-Winning Business Applications
+|publisher=John Wiley &amp; Sons
+|isbn=978-0-471-14717-6
+|url=https://archive.org/details/objecttechnology00harm
+}}
+* {{Cite book
+|first=Ivar
+|last=Jacobson
+|authorlink=Ivar Jacobson
+|year=1992
+|title=Object-Oriented Software Engineering: A Use Case-Driven Approach
+|publisher=Addison-Wesley
+|isbn=978-0-201-54435-0
+|title-link=Use case
+|bibcode=1992oose.book.....J
+}}
+* {{Cite book
+ |first        = Alan
+ |last         = Kay
+ |authorlink   = Alan Kay
+ |title        = The Early History of Smalltalk
+ |url          = http://gagne.homedns.org/%7etgagne/contrib/EarlyHistoryST.html
+ |access-date  = 18 April 2005
+ |archive-url  = https://web.archive.org/web/20050404075821/http://gagne.homedns.org/~tgagne/contrib/EarlyHistoryST.html#
+ |archive-date = 4 April 2005
+ |url-status     = dead
+ |df           = dmy-all
+}}
+* {{Cite book
+|first=Bertrand
+|last=Meyer
+|authorlink=Bertrand Meyer
+|year=1997
+|title=Object-Oriented Software Construction
+|publisher=[[Prentice Hall]]
+|isbn=978-0-13-629155-8
+|title-link=Object-Oriented Software Construction
+}}
+* {{Cite book
+|first=Rudolf
+|last=Pecinovsky
+|year=2013
+|title=OOP – Learn Object Oriented Thinking &amp; Programming
+|publisher=Bruckner Publishing
+|isbn=978-80-904661-8-0
+|url=http://pub.bruckner.cz/titles/oop
+
+}}
+* {{Cite book
+|first=James
+|last=Rumbaugh
+|authorlink=James Rumbaugh
+|author2=Michael Blaha
+|author3=William Premerlani
+|author4=Frederick Eddy
+|author5=William Lorensen
+|year=1991
+|title=Object-Oriented Modeling and Design
+|publisher=Prentice Hall
+|isbn=978-0-13-629841-0
+|url=https://archive.org/details/objectorientedmo00rumb
+}}
+* {{Cite book
+|first=Stephen
+|last=Schach
+|year=2006
+|title=Object-Oriented and Classical Software Engineering, Seventh Edition
+|publisher=[[McGraw-Hill]]
+|isbn=978-0-07-319126-3
+}}
+* {{Cite book
+|first=Axel-Tobias
+|last=Schreiner
+|year=1993
+|title=Object oriented programming with ANSI-C
+|publisher=Hanser
+|isbn=978-3-446-17426-9
+|hdl=1850/8544}}
+* {{Cite book
+|first=David A.
+|last=Taylor
+|year=1992
+|title=Object-Oriented Information Systems – Planning and Implementation
+|publisher=John Wiley &amp; Sons
+|isbn=978-0-471-54364-0
+|url=https://archive.org/details/objectorientedin00tayl
+}}
+* {{Cite book
+|first=Matt
+|last=Weisfeld
+|year=2009
+|title=The Object-Oriented Thought Process, Third Edition
+|publisher=[[Addison-Wesley]]
+|isbn=978-0-672-33016-2
+}}
+* {{Cite book
+|first=David
+|last=West
+|year=2004
+|title=Object Thinking (Developer Reference)
+|publisher=[[Microsoft Press]]
+|isbn=978-0735619654
+}}
+
+==External links==
+{{Wikiquote|Object-orientation}}
+{{Wikiversity|at=Topic:Object-Oriented Programming}}
+{{Wikibooks|Object Oriented Programming}}
+* {{curlie|Computers/Programming/Methodologies/Object-Oriented|Object-oriented programming}}
+* [http://www.codeproject.com/Articles/22769/Introduction-to-Object-Oriented-Programming-Concep Introduction to Object Oriented Programming Concepts (OOP) and More] by L.W.C. Nirosh
+* [http://software.intel.com/en-us/blogs/2008/08/22/flaws-of-object-oriented-modeling/ Discussion about the flaws of OOD]
+* [http://java.sun.com/docs/books/tutorial/java/concepts/index.html OOP Concepts (Java Tutorials)]
+* [https://se9book.wordpress.com/2011/08/29/science-or-snake-oil-empirical-software-engineering/ Science or Snake Oil: Empirical Software engineering] Thoughts on software and systems engineering, by Ian Sommerville (2011-8-29)
+{{Programming language}}
+{{Software engineering}}
+
+{{Authority control}}
+
+{{DEFAULTSORT:Object-Oriented Programming}}
+[[Category:Object-oriented programming| ]]
+[[Category:Programming paradigms]]
+[[Category:Norwegian inventions]]</text>
+      <sha1>96y4uvrhpef3ubs3s1olkx3v2wpg4co</sha1>
+    </revision>
+  </page>
+</mediawiki>

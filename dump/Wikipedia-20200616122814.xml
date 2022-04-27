@@ -1,0 +1,122 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.10/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.10/ http://www.mediawiki.org/xml/export-0.10.xsd" version="0.10" xml:lang="en">
+  <siteinfo>
+    <sitename>Wikipedia</sitename>
+    <dbname>enwiki</dbname>
+    <base>https://en.wikipedia.org/wiki/Main_Page</base>
+    <generator>MediaWiki 1.35.0-wmf.36</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Media</namespace>
+      <namespace key="-1" case="first-letter">Special</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Talk</namespace>
+      <namespace key="2" case="first-letter">User</namespace>
+      <namespace key="3" case="first-letter">User talk</namespace>
+      <namespace key="4" case="first-letter">Wikipedia</namespace>
+      <namespace key="5" case="first-letter">Wikipedia talk</namespace>
+      <namespace key="6" case="first-letter">File</namespace>
+      <namespace key="7" case="first-letter">File talk</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki talk</namespace>
+      <namespace key="10" case="first-letter">Template</namespace>
+      <namespace key="11" case="first-letter">Template talk</namespace>
+      <namespace key="12" case="first-letter">Help</namespace>
+      <namespace key="13" case="first-letter">Help talk</namespace>
+      <namespace key="14" case="first-letter">Category</namespace>
+      <namespace key="15" case="first-letter">Category talk</namespace>
+      <namespace key="100" case="first-letter">Portal</namespace>
+      <namespace key="101" case="first-letter">Portal talk</namespace>
+      <namespace key="108" case="first-letter">Book</namespace>
+      <namespace key="109" case="first-letter">Book talk</namespace>
+      <namespace key="118" case="first-letter">Draft</namespace>
+      <namespace key="119" case="first-letter">Draft talk</namespace>
+      <namespace key="446" case="first-letter">Education Program</namespace>
+      <namespace key="447" case="first-letter">Education Program talk</namespace>
+      <namespace key="710" case="first-letter">TimedText</namespace>
+      <namespace key="711" case="first-letter">TimedText talk</namespace>
+      <namespace key="828" case="first-letter">Module</namespace>
+      <namespace key="829" case="first-letter">Module talk</namespace>
+      <namespace key="2300" case="first-letter">Gadget</namespace>
+      <namespace key="2301" case="first-letter">Gadget talk</namespace>
+      <namespace key="2302" case="case-sensitive">Gadget definition</namespace>
+      <namespace key="2303" case="case-sensitive">Gadget definition talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Clinical significance</title>
+    <ns>0</ns>
+    <id>23658675</id>
+    <revision>
+      <id>960957601</id>
+      <parentid>946001681</parentid>
+      <timestamp>2020-06-05T21:09:37Z</timestamp>
+      <contributor>
+        <username>Citation bot</username>
+        <id>7903804</id>
+      </contributor>
+      <comment>Add: s2cid, author pars. 1-1. Removed URL that duplicated unique identifier. Removed parameters. Some additions/deletions were actually parameter name changes. | You can [[WP:UCB|use this bot]] yourself. [[WP:DBUG|Report bugs here]]. | Activated by AManWithNoPlan | All pages linked from [[User:AManWithNoPlan/sandbox2]] | via #UCB_webform_linked</comment>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="13905" xml:space="preserve">In medicine and psychology, '''clinical significance''' is the practical importance of a treatment effect—whether it has a real genuine, palpable, noticeable effect on daily life.&lt;ref&gt;{{cite journal | url = http://homepage.psy.utexas.edu/homepage/class/Psy394Q/Research%20Design%20Class/Assigned%20Readings/Clinical%20Trials/Kazdin99.pdf | author = Alan E. Kazdin | year = 1999 | title = The Meanings and Measurement of Clinical Significance | journal =  Journal of Consulting and Clinical Psychology| volume = 67 | issue = 3 | pages = 332–9 | doi = 10.1037/0022-006x.67.3.332 | pmid = 10369053 | citeseerx = 10.1.1.595.9231 | access-date = 3 November 2013 | archive-url = https://web.archive.org/web/20131106103031/http://homepage.psy.utexas.edu/homepage/class/Psy394Q/Research%20Design%20Class/Assigned%20Readings/Clinical%20Trials/Kazdin99.pdf | archive-date = 6 November 2013 | url-status = dead }}&lt;/ref&gt;
+
+==Types of significance==
+===Statistical significance===
+{{main|statistical significance}}
+Statistical significance is used in [[hypothesis testing]], whereby the [[null hypothesis]] (that there is no relationship between [[Dependent and independent variables|variables]]) is tested.&lt;ref name="Nursing Research"&gt;{{cite book |last1=Polit |first1=D. F. |last2=Beck |first2=C. T. |title=Nursing Research: Generating Evidence for Nursing Practice |edition=9th |location=Philadelphia |publisher=Wolters Klower/Lippincott Williams &amp;amp; Wilkins |year=2012 |isbn=978-1-60547-782-4 }}&lt;/ref&gt; A [[level of significance]] is selected (most commonly α = 0.05 or 0.01), which signifies the probability of incorrectly rejecting a true null hypothesis.&lt;ref name="Nursing Research"/&gt;  If there is a significant difference between two groups at α = 0.05, it means that there is only a 5% probability of obtaining the observed results under the assumption that the difference is entirely due to chance (i.e., the null hypothesis is true); it gives no indication of the magnitude or clinical importance of the difference.&lt;ref&gt;{{cite journal |author1=Haase R.F. |author2=Ellis M.V. |author3=Ladany N. | year = 1989 | title = Multiple Criteria for Evaluating the Magnitude of Experimental Effects | url = | journal = Journal of Counseling Psychology | volume = 36 | issue = 4| pages = 511–516 | doi=10.1037/0022-0167.36.4.511}}&lt;/ref&gt; When statistically significant results are achieved, they favor rejection of the null hypothesis, but they do not prove that the null hypothesis is false.  Likewise, non-significant results do not prove that the null hypothesis is true; they also give no evidence of the truth or falsity of the hypothesis the researcher has generated.&lt;ref name="Nursing Research"/&gt;  Statistical significance relates only to the compatibility between observed data  and what would be expected under the assumption that the null hypothesis is true.
+
+===Practical significance===
+{{main|effect size}}
+
+In broad usage, the "practical clinical significance" answers the question, ''how effective'' is the intervention or treatment, or how much change does the treatment cause. In terms of testing clinical treatments, practical significance optimally yields quantified information about the importance of a finding, using metrics such as [[effect size]], [[number needed to treat]] (NNT), and [[preventive fraction]].&lt;ref name="ReferenceB"&gt;{{cite journal|last1=Shabbir|first1=SH|last2=Sanders|first2=AE|title=Clinical significance in dementia research: a review of the literature.|journal=American Journal of Alzheimer's Disease &amp; Other Dementias|date=September 2014|volume=29|issue=6|pages=492–7|pmid=24526758|doi=10.1177/1533317514522539}}&lt;/ref&gt; Practical significance may also convey semi-quantitative, comparative, or feasibility assessments of utility.
+
+Effect size is one type of practical significance.&lt;ref name="ReferenceB"/&gt;&lt;ref name="Peterson, L. 2008"/&gt; It quantifies the extent to which a sample diverges from expectations.&lt;ref&gt;Vacha-Hasse, T., Nilsson, J.E., Reetz, ., Lance, T.S., &amp; Thompson, B. (2000). Reporting practices and APA editorial policies regarding statistical significance and effect size. Theory &amp; Psychology, 10, 413-425.&lt;/ref&gt; Effect size can provide important information about the results of a study, and are recommended for inclusion in addition to statistical significance.  Effect sizes have their own sources of bias, are subject to change based on population variability of the dependent variable, and tend to focus on group effects, not individual changes.&lt;ref name="Peterson, L. 2008"/&gt;&lt;ref name="Cohen"&gt;Cohen, J. (1997). The earth is round (p.&amp;nbsp;05). The American Psychologist, 49 (12), 997-1003.&lt;/ref&gt;&lt;ref&gt;{{cite journal | author = Wilkinson L., APA , Inference Statistical | year = 1999 | title = Statistical methods in psychology journals: Guidelines and explanations | url = | journal = American Psychologist | volume = 54 | issue = 8| pages = 594–604 | doi=10.1037/0003-066x.54.8.594}}&lt;/ref&gt;
+
+Although clinical significance and practical significance are often used synonymously, a more technical restrictive usage denotes this as erroneous.&lt;ref name="Peterson, L. 2008"&gt;Peterson, L. (2008). "Clinical" Significance: "Clinical" Significance and "Practical" Significance are NOT the Same Things. Online Submission, Paper presented at the Annual Meeting of the Southwest Educational Research Association (New Orleans, LA, Feb 7, 2008).&lt;/ref&gt;  This technical use within psychology and psychotherapy not only results from a carefully drawn precision and particularity of language, but it enables a shift in perspective from group effects to the specifics of change(s) within an individual.
+
+===Specific usage===
+In contrast, when used as a technical term within psychology and psychotherapy, clinical significance yields information on whether a treatment was effective enough to change a patient’s diagnostic label. In terms of clinical treatment studies, clinical significance answers the question "Is a treatment effective enough to cause the patient to be normal [with respect to the diagnostic criteria in question]?"
+
+For example, a treatment might significantly change depressive symptoms (statistical significance), the change could be a large decrease in depressive symptoms (practical significance- effect size), and 40% of the patients no longer met the diagnostic criteria for depression (clinical significance). It is very possible to have a treatment that yields a significant difference and medium or large effect sizes, but does not move a patient from dysfunctional to functional.
+
+Within psychology and psychotherapy, '''clinical significance''' was first proposed by Jacobson, Follette, and Revenstorf &lt;ref&gt;
+Jacobson, N.S., Follette, W.C., and Revenstorf, D. (1984). Psychotherapy outcome research: Methods for reporting variability and evaluating clinical significance. Behavior Therapy, 15(4).&lt;/ref&gt; as a way to answer the question, is a therapy or treatment effective enough such that a client does not meet the criteria for a diagnosis? Jacobson and Truax later defined clinical significance as “the extent to which therapy moves someone outside the range of the dysfunctional population or within the range of the functional population.”&lt;ref name="Jacobson, N. 1991"&gt;{{cite journal |author1=Jacobson N. |author2=Truax P. |s2cid=28125243 | year = 1991 | title = Clinical significance: A statistical approach to defining meaningful change in psychotherapy research | journal =  Journal of Consulting and Clinical Psychology| volume = 59 | issue = 1| pages = 12–19 | doi=10.1037/0022-006x.59.1.12}}&lt;/ref&gt; They proposed two components of this index of change: the status of a patient or client after therapy has been completed, and “how much change has occurred during the course of therapy.” &lt;ref name="Jacobson, N. 1991"/&gt;
+
+Clinical significance is also a consideration when interpreting the results of the [[psychological assessment]] of an individual. Frequently, there will be a difference of scores or subscores that is [[Statistical significance|statistically significant]], unlikely to have occurred purely by chance. However, not all of those statistically significant differences are clinically significant, in that they do not either explain existing information about the client, or provide useful direction for intervention. Differences that are small in magnitude typically lack practical relevance and are unlikely to be clinically significant. Differences that are common in the population are also unlikely to be clinically significant, because they may simply reflect a level of normal human variation. Additionally, clinicians look for information in the assessment data and the client's history that corroborates the relevance of the statistical difference, to establish the connection between performance on the specific test and the individual's more general functioning.&lt;ref&gt;Sattler JM (2008). Assessment of children: Cognitive foundations (5/e). San Diego: Sattler Publications. {{ISBN|978-0-9702671-6-0}}&lt;/ref&gt;&lt;ref&gt;{{Cite book |title=Assessing Adolescent and Adult Intelligence |last1=Kaufman |first1=Alan S. |last2=Lichtenberger |first2=Elizabeth |authorlink1=Alan S. Kaufman |edition=3rd |year=2006|publisher=Wiley |location=Hoboken (NJ) |isbn=978-0-471-73553-3 |lay-url=http://www.wiley.com/WileyCDA/WileyTitle/productCd-0471735531.html |laydate=22 August 2010 }}&lt;/ref&gt;
+
+==Calculation of clinical significance==
+Just as there are many ways to calculate statistical significance and practical significance, there are a variety of ways to calculate clinical significance. Five common methods are the Jacobson-Truax method, the Gulliksen-Lord-Novick method, the Edwards-Nunnally method, the Hageman-Arrindell method, and hierarchical linear modeling.&lt;ref name="Peterson, L. 2008"/&gt;
+
+===Jacobson-Truax===
+Jacobson-Truax is common method of calculating clinical significance. It involves calculating a Reliability Change Index (RCI).&lt;ref name="Jacobson, N. 1991"/&gt; The RCI equals the difference between a participant’s pre-test and post-test scores, divided by the [[standard error]] of the difference. Cutoff scores are established for placing participants into one of four categories: recovered, improved, unchanged, or deteriorated, depending on the directionality of the RCI and whether the cutoff score was met.
+
+===Gulliksen-Lord-Novick===
+The Gulliksen-Lord-Novick method&lt;ref&gt;{{cite journal | author = Hsu L. M. | year = 1999 | title = The comparison of three methods of identifying reliable and clinically significant client changes: commentary on Hageman and Arrindell | doi = 10.1016/S0005-7967(99)00033-9 | journal = Behaviour Research and Therapy | volume = 37 | issue = 12| pages = 1195–1202 | pmid = 10596465 }}&lt;/ref&gt; is similar to Jacobson-Truax, except that it takes into account [[regression to the mean]]. This is done by subtracting the pre-test and post-test scores from a population mean, and dividing by the standard deviation of the population.&lt;ref name="Peterson, L. 2008"/&gt;
+
+===Edwards-Nunnally===
+The Edwards-Nunnally method&lt;ref&gt;{{cite journal |author1=Speer D. C. |author2=Greenbaum P. E. | year = 1995 | title = Five methods for computing significant individual client change and improvement rates: Support for an individual growth curve approach | url = | journal =  Journal of Consulting and Clinical Psychology| volume = 63 | issue = 6| pages = 1044–1048 | doi=10.1037/0022-006x.63.6.1044|pmid=8543708 }}&lt;/ref&gt; of calculating clinical significance is a more stringent alternative to the Jacobson-Truax method.&lt;ref name="ReferenceA"&gt;Peterson, L. (2008). "Clinical" Significance: "Clinical" Significance and "Practical" Significance are NOT the Same Things. Online Submission, Paper presented at the Annual Meeting of the Southwest Educational Research.&lt;/ref&gt; Reliability scores are used to bring the pre-test scores closer to the mean, and then a confidence interval is developed for this adjusted pre-test score. Confidence intervals are used when calculating the change from pre-test to post-test, so greater actual change in scores is necessary to show clinical significance, compared to the Jacobson-Truax method.
+
+===Hageman-Arrindell===
+The Hageman-Arrindell&lt;ref&gt;{{cite journal |author1=Hageman W. J. |author2=Arrindell W. A. | year = 1999 | title = Establishing clinically significant change: increment of precision and the distinction between individual and group level of analysis | url = | journal = Behaviour Research and Therapy | volume = 37 | issue = 12| pages = 1169–1193 | doi=10.1016/s0005-7967(99)00032-7|pmid=10596464 }}&lt;/ref&gt; calculation of clinical significance involves indices of group change and of individual change. The reliability of change indicates whether a patient has improved, stayed the same, or deteriorated. A second index, the clinical significance of change, indicates four categories similar to those used by Jacobson-Truax: deteriorated, not reliably changed, improved but not recovered, and recovered.
+
+===Hierarchical Linear Modeling (HLM)===
+{{main|Hierarchical linear modeling}}
+HLM involves growth curve analysis instead of pre-test post-test comparisons, so three data points are needed from each patient, instead of only two data points (pre-test and post-test).&lt;ref name="ReferenceA"/&gt; A computer program, such as Hierarchical Linear and Nonlinear Modeling&lt;ref&gt;{{Cite web | url=http://www.ssicentral.com/hlm/index.html | title=SSI - Scientific Software International, Inc}}&lt;/ref&gt; is used to calculate change estimates for each participant. HLM also allows for analysis of growth curve models of dyads and groups.
+
+== See also ==
+*[[Medical statistics]]
+*[[Minimal clinically important difference]]
+*[[Cohen's h]]
+
+==References==
+{{reflist|30em}}
+
+{{Use dmy dates|date=April 2017}}
+
+{{DEFAULTSORT:Clinical Significance}}
+[[Category:Clinical research]]
+[[Category:Clinical trials]]
+[[Category:Biostatistics]]</text>
+      <sha1>hx8z42uko1p133qd6flnc7iqbs9lr2i</sha1>
+    </revision>
+  </page>
+</mediawiki>

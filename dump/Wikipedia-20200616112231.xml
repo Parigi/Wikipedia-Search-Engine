@@ -1,0 +1,285 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.10/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.10/ http://www.mediawiki.org/xml/export-0.10.xsd" version="0.10" xml:lang="en">
+  <siteinfo>
+    <sitename>Wikipedia</sitename>
+    <dbname>enwiki</dbname>
+    <base>https://en.wikipedia.org/wiki/Main_Page</base>
+    <generator>MediaWiki 1.35.0-wmf.36</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Media</namespace>
+      <namespace key="-1" case="first-letter">Special</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Talk</namespace>
+      <namespace key="2" case="first-letter">User</namespace>
+      <namespace key="3" case="first-letter">User talk</namespace>
+      <namespace key="4" case="first-letter">Wikipedia</namespace>
+      <namespace key="5" case="first-letter">Wikipedia talk</namespace>
+      <namespace key="6" case="first-letter">File</namespace>
+      <namespace key="7" case="first-letter">File talk</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki talk</namespace>
+      <namespace key="10" case="first-letter">Template</namespace>
+      <namespace key="11" case="first-letter">Template talk</namespace>
+      <namespace key="12" case="first-letter">Help</namespace>
+      <namespace key="13" case="first-letter">Help talk</namespace>
+      <namespace key="14" case="first-letter">Category</namespace>
+      <namespace key="15" case="first-letter">Category talk</namespace>
+      <namespace key="100" case="first-letter">Portal</namespace>
+      <namespace key="101" case="first-letter">Portal talk</namespace>
+      <namespace key="108" case="first-letter">Book</namespace>
+      <namespace key="109" case="first-letter">Book talk</namespace>
+      <namespace key="118" case="first-letter">Draft</namespace>
+      <namespace key="119" case="first-letter">Draft talk</namespace>
+      <namespace key="446" case="first-letter">Education Program</namespace>
+      <namespace key="447" case="first-letter">Education Program talk</namespace>
+      <namespace key="710" case="first-letter">TimedText</namespace>
+      <namespace key="711" case="first-letter">TimedText talk</namespace>
+      <namespace key="828" case="first-letter">Module</namespace>
+      <namespace key="829" case="first-letter">Module talk</namespace>
+      <namespace key="2300" case="first-letter">Gadget</namespace>
+      <namespace key="2301" case="first-letter">Gadget talk</namespace>
+      <namespace key="2302" case="case-sensitive">Gadget definition</namespace>
+      <namespace key="2303" case="case-sensitive">Gadget definition talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Molecular models of DNA</title>
+    <ns>0</ns>
+    <id>22833956</id>
+    <revision>
+      <id>961135831</id>
+      <parentid>951651327</parentid>
+      <timestamp>2020-06-06T20:08:22Z</timestamp>
+      <contributor>
+        <username>Citation bot</username>
+        <id>7903804</id>
+      </contributor>
+      <comment>Add: bibcode, author pars. 1-1. Removed parameters. Some additions/deletions were actually parameter name changes. | You can [[WP:UCB|use this bot]] yourself. [[WP:DBUG|Report bugs here]]. | Activated by Amigao | [[Category:Molecular biology]] | via #UCB_Category</comment>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="33267" xml:space="preserve">{{Multiple image|direction=horizontal |align=right|image1=DNA in water.jpg |image2=DNA animation.gif |width1=225 |width2=181 |footer=While this purified [[DNA]] precipitated in a water jug (left) appears to be a formless mass, at the [[nanoscale]], nucleic acids possess intricate structure (right). |alt1=Purified [[DNA]] precipitated in a water jug |alt2=Animated 3D-wire model of DNA}}
+
+'''Molecular models of DNA structures''' are representations of the [[molecular geometry]] and [[DNA topology|topology]] of deoxyribonucleic acid ([[DNA]]) molecules using one of several means,  with the aim of simplifying and presenting the essential, physical and chemical, properties of DNA molecular structures either ''in vivo'' or ''in vitro''.  These representations include closely packed spheres ([[CPK coloring|CPK]] models) made of plastic, metal wires for ''skeletal models'', graphic computations and animations by computers, artistic rendering.  Computer molecular models also allow animations and molecular dynamics simulations that are very important for understanding how DNA functions ''in vivo''.
+
+The more advanced, computer-based [[molecular model]]s of DNA involve [[molecular dynamics]] simulations and [[quantum mechanics]] computations of vibro-rotations, delocalized [[molecular orbital]]s (MOs), [[electric dipole moment]]s, [[hydrogen-bonding]], and so on.  ''DNA molecular dynamics modeling'' involves simulating deoxyribonucleic acid ([[DNA]]) [[molecular geometry]] and [[DNA topology|topology]] changes with time as a result of both intra- and inter- molecular interactions of DNA. Whereas molecular models of DNA molecules such as closely packed spheres (CPK models) made of plastic or metal wires for ''skeletal models'' are useful representations of static DNA structures, their usefulness is very limited for representing complex DNA dynamics. Computer molecular modeling allows both animations and molecular dynamics simulations that are very important to understand how DNA functions ''[[in vivo]]''.
+
+==History==
+[[File:DNA Model Crick-Watson.jpg|thumb|left|150px|The A-DNA double helix molecular model of Crick and Watson (consistent with X-ray data) for which they, with M.H.F. Wilkins, received a Nobel Prize.]]
+
+{{Single strand DNA discovery}}
+
+{{further|History of molecular biology}}
+
+From the very early stages of structural studies of DNA by [[X-ray diffraction]] and biochemical means, molecular models such as the Watson-Crick [[nucleic acid double helix]] model were successfully employed to solve the 'puzzle' of DNA structure, and also find how the latter relates to its key functions in living cells. The first high quality X-ray diffraction patterns
+of A-DNA were reported by [[Rosalind Franklin]] and [[Raymond Gosling]] in 1953.&lt;ref&gt;{{cite journal |doi=10.1107/S0365110X53001939 |author=Franklin, R.E., Gosling, R.G. |title=The Structure of Sodium Thymonucleate Fibres I. The Influence of Water Content |journal=Acta Crystallogr. |volume=6 |issue= 8|page=673 |date=6 March 1953|doi-access=free }}&lt;br/&gt;{{cite journal |doi=10.1107/S0365110X53001940 |author=Franklin, R.E., Gosling, R.G. |title=The Structure of Sodium Thymonucleate Fibres II. The Cylindrically Symmetrical Patterson Function |journal=Acta Crystallogr. |volume=6 |issue=8 |page=678 |date=6 March 1953|doi-access=free }}&lt;/ref&gt; Rosalind Franklin made the critical observation that DNA exists in two distinct forms, A and B, and produced the sharpest pictures of both through X-ray diffraction technique.&lt;ref&gt;{{Cite journal|last1=Hammer|first1=DEAN H.|last2=Maddox|first2=Brenda|date=2002|title=The Twisted Road to the Double Helix|jstor=26060090|journal=Scientific American|volume=287|issue=6|pages=127–128|doi=10.1038/scientificamerican1202-127|bibcode=2002SciAm.287f.127H}}&lt;/ref&gt; The first calculations of the Fourier transform of an atomic helix were reported one year earlier by Cochran, Crick and Vand,&lt;ref&gt;{{cite journal |doi=10.1107/S0365110X52001635 |author=Cochran, W., Crick, F.H.C., Vand V. |title=The Structure of Synthetic Polypeptides. 1. The Transform of Atoms on a Helix |journal=Acta Crystallogr. |volume=5 |issue=5 |pages=581–6 |year=1952|doi-access=free }}&lt;/ref&gt; and were followed in 1953 by the computation of the Fourier transform of a coiled-coil by Crick.&lt;ref&gt;{{cite journal |doi=10.1107/S0365110X53001952 |author=Crick, F.H.C. |title=The Fourier Transform of a Coiled-Coil |journal=Acta Crystallogr. |volume=6 |issue=8–9 |pages=685–9 |year=1953a|doi-access=free }}&lt;/ref&gt;
+
+Structural information is generated from X-ray diffraction studies of oriented DNA fibers with the help of molecular models of DNA that are combined with crystallographic and mathematical analysis of the X-ray patterns.
+
+The first reports of a double helix molecular model of B-DNA structure were made by James Watson and Francis Crick in 1953.&lt;ref&gt;{{cite journal |doi=10.1038/171737a0 |author=Watson, James D., Crick, Francis H.C. |title=A structure for Deoxyribose Nucleic Acid |journal=[[Nature (journal)|Nature]] |volume=171 |issue=4356 |pages=737–8 |date=25 April 1953 |url=http://www.nature.com/nature/dna50/watsoncrick.pdf |pmid=13054692 |bibcode=1953Natur.171..737W}}, .&lt;/ref&gt;&lt;ref&gt;{{cite journal |author1=Watson, J.D |author2=Crick F.H.C. |title=The Structure of DNA |journal=Cold Spring Harbor Symposia on Quantitative Biology |volume=18 |pages=123–31 |year=1953b |pmid=13168976 |doi=10.1101/SQB.1953.018.01.020}}&lt;/ref&gt; That same year, Maurice F. Wilkins,
+A. Stokes and H.R. Wilson, reported the first X-ray patterns
+of ''in vivo'' B-DNA in partially oriented salmon sperm heads.&lt;ref name=NatWilk&gt;{{cite journal|title=Molecular Structure of Deoxypentose Nucleic Acids |author=Wilkins M.H.F., A.R. Stokes A.R. &amp; Wilson, H.R. |journal=Nature |volume=171 |pages=738–40 |year=1953 |url=http://www.nature.com/nature/dna50/wilkins.pdf |pmid=13054693 |doi=10.1038/171738a0 |issue=4356 |bibcode=1953Natur.171..738W}}&lt;/ref&gt;
+
+The development of the first correct double helix molecular model of DNA by Crick and Watson may not have been possible without the biochemical evidence for the nucleotide base-pairing ([A---T]; [C---G]), or [[Chargaff's rules]].&lt;ref name="Elson1952"&gt;{{cite journal |doi=10.1007/BF02170221 |vauthors=Elson D, Chargaff E |year=1952 |title=On the deoxyribonucleic acid content of sea urchin gametes |journal=Experientia |volume=8 |issue=4 |pages=143–5 |pmid=14945441}}&lt;/ref&gt;&lt;ref name="Chargaff1952"&gt;{{cite journal |vauthors=Chargaff E, Lipshitz R, Green C |year=1952 |title=Composition of the deoxypentose nucleic acids of four genera of sea-urchin |journal=J Biol Chem |volume=195 |issue=1 |pages=155–160 |pmid=14938364}}&lt;/ref&gt;&lt;ref name="Chargaff1951a"&gt;{{cite journal |vauthors=Chargaff E, Lipshitz R, Green C, Hodes ME |year=1951 |title=The composition of the deoxyribonucleic acid of salmon sperm |journal=J Biol Chem |volume=192 |issue=1 |pages=223–230 |pmid=14917668}}&lt;/ref&gt;&lt;ref name="Chargaff1951b"&gt;{{cite journal |author=Chargaff E |year=1951 |title=Some recent studies on the composition and structure of nucleic acids |journal=J Cell Physiol Suppl |volume=38 |issue=Suppl}}&lt;/ref&gt;&lt;ref name="Magasanik1950"&gt;{{cite journal |vauthors=Magasanik B, Vischer E, Doniger R, Elson D, Chargaff E |year=1950 |title=The separation and estimation of ribonucleotides in minute quantities |journal=J Biol Chem |volume=186 |issue=1 |pages=37–50 |pmid=14778802}}&lt;/ref&gt;&lt;ref name="Chargaff1950"&gt;{{cite journal |doi=10.1007/BF02173653 |author=Chargaff E |year=1950 |title=Chemical specificity of nucleic acids and mechanism of their enzymatic degradation |journal=Experientia |volume=6 |issue=6 |pages=201–9 |pmid=15421335}}&lt;/ref&gt; Although such initial studies of DNA structures with the help of molecular models were essentially static, their consequences for explaining the ''in vivo'' functions of DNA were significant in the areas of protein biosynthesis and the quasi-universality of the genetic code. Epigenetic transformation studies of DNA ''in vivo'' were however much slower to develop despite their importance for embryology, morphogenesis and cancer research. Such chemical dynamics and biochemical reactions of DNA are much more complex than the molecular dynamics of DNA physical interactions with water, ions and proteins/enzymes in living cells.
+
+== Importance ==
+{{further|Nucleic acid structure}}
+
+An old standing dynamic problem is how DNA "self-replication" takes place in living cells that should involve transient uncoiling of supercoiled DNA fibers. Although DNA consists of relatively rigid, very large elongated biopolymer molecules called ''fibers'' or chains (that are made of repeating [[nucleotide]] units of four basic types, attached to deoxyribose and phosphate groups), its molecular structure ''in vivo'' undergoes dynamic configuration changes that involve dynamically attached water molecules and ions. Supercoiling, packing with histones in chromosome structures, and other such supramolecular aspects also involve  ''in vivo'' [[DNA topology]] which is even more complex than DNA molecular geometry, thus turning molecular modeling of DNA into an especially challenging problem for both molecular biologists and biotechnologists. Like other large molecules and biopolymers, DNA often exists in multiple stable geometries (that is, it exhibits [[conformational isomerism]]) and configurational, quantum states which are close to each other in energy on the potential energy surface of the DNA molecule.
+
+Such varying molecular geometries can also be computed, at least in principle, by employing ''ab initio'' [[quantum chemistry]] methods that can attain high accuracy for small molecules, although claims that acceptable accuracy can be also achieved for polynuclelotides, and DNA conformations, were recently made on the basis of [[vibrational circular dichroism]] (VCD) spectral data. Such quantum geometries define an important class of ''ab initio'' molecular models of DNA which exploration has barely started, especially related to results obtained by VCD in solutions. More detailed comparisons with such ''ab initio'' quantum computations are in principle obtainable through 2D-FT NMR spectroscopy and relaxation studies of polynucleotide solutions or specifically labeled DNA, as for example with deuterium labels.
+
+In an interesting twist of roles, the DNA molecule was proposed to be used for [[quantum computing]] via DNA. Both DNA nanostructures and [[DNA computing]] biochips have been built.
+
+==Fundamental concepts==
+ {{multiple image
+ | align  = right
+ | width  = 200
+ | footer = At left, the chemical structure of DNA showing the base-pairing.  This depiction of a DNA duplex lacks information about the molecule's three-dimensional structure, at right.
+ | image1 = DNA chemical structure.svg
+ | alt1   = DNA chemical structure
+ | image2 = DNA-fragment-3D-vdW.png
+ | alt2   = DNA three-dimensional model
+ }}
+
+The chemical structure of DNA is insufficient to understand the complexity of the 3D structures of DNA. In contrast, animated molecular models allow one to visually explore the three-dimensional (3D) structure of DNA. The DNA model shown (far right) is a space-filling, or [[CPK coloring|CPK]], model of the DNA double helix. Animated molecular models, such as the wire, or skeletal, type shown at the top of this article, allow one to visually explore the three-dimensional (3D) structure of DNA. Another type of DNA model is the space-filling, or CPK, model.
+
+The hydrogen bonding dynamics and proton exchange is very different by many orders of magnitude between the two systems of fully hydrated DNA and water molecules in ice.  Thus, the DNA dynamics is complex, involving nanosecond and several tens of picosecond time scales, whereas that of liquid ice is on the picosecond time scale, and that of proton exchange in ice is on the millisecond time scale.  The proton exchange rates in DNA and attached proteins may vary from picosecond to nanosecond, minutes or years, depending on the exact locations of the exchanged protons in the large biopolymers.
+
+A simple [[harmonic oscillator]] 'vibration' is only an oversimplified dynamic representation of the longitudinal vibrations of the DNA intertwined helices which were found to be [[Anharmonicity|anharmonic]] rather than harmonic as often assumed in quantum [[Molecular dynamics|dynamic simulations]] of DNA.
+
+===DNA structure===
+The structure of [[DNA]] shows a variety of forms, both double-stranded and single-stranded. The mechanical properties of DNA, which are directly related to its structure, are a significant problem for [[cell (biology)|cells]]. Every process which binds or reads [[DNA]] is able to use or modify the mechanical properties of DNA for purposes of recognition, packaging and modification. The extreme length (a [[chromosome]] may contain a 10&amp;nbsp;cm long DNA strand), relative rigidity and helical structure of DNA has led to the [[evolution]] of [[histone]]s and of [[enzyme]]s such as [[topoisomerase]]s and [[helicase]]s to manage a cell's DNA. The properties of DNA are closely related to its molecular structure and sequence, particularly the weakness of the hydrogen bonds and electronic interactions that hold strands of DNA together compared to the strength of the bonds within each strand.
+
+Experimental methods which can directly measure the mechanical properties of DNA are relatively new, and high-resolution visualization in solution is often difficult. Nevertheless, scientists have uncovered large amount of data on the mechanical properties of this polymer, and the implications of DNA's mechanical properties on cellular processes is a topic of active current research.
+
+The DNA found in many cells can be macroscopic in length: a few centimetres long for each human chromosome. Consequently, cells must compact or ''package'' DNA to carry it within them. In [[eukaryote]]s this is carried by spool-like [[protein]]s named [[histone]]s, around which DNA winds. It is the further compaction of this DNA-protein complex which produces the well known mitotic eukaryotic [[chromosome]]s.
+
+In the late 1970s, alternate [[non-helical models of DNA structure]] were briefly considered as a potential solution to problems in [[DNA replication]] in [[plasmid]]s and [[chromatin]].  However, the models were set aside in favor of the double-helical model due to subsequent experimental advances such as [[X-ray crystallography]] of DNA duplexes, and later the [[nucleosome core particle]], and the discovery of [[topoisomerase]]s. Such non-double-helical models are not currently accepted by the mainstream scientific community.&lt;ref&gt;{{cite journal|last=Stokes|first=T. D.|title=The double helix and the warped zipper—an exemplary tale|journal=Social Studies of Science|year=1982|volume=12|issue=2|pages=207–240|doi=10.1177/030631282012002002|pmid=11620855}}&lt;/ref&gt;&lt;ref&gt;{{cite journal|last=Gautham|first=N.|title=Response to "Variety in DNA secondary structure"|journal=Current Science|date=25 May 2004|volume=86|issue=10|pages=1352&amp;ndash;1353|url=http://cs-test.ias.ac.in/cs/Downloads/article_37537.pdf|accessdate=25 May 2012|quote=However, the discovery of topoisomerases took "the sting" out of the topological objection to the plectonaemic double helix. The more recent solution of the single crystal X-ray structure of the nucleosome core particle showed nearly 150 base pairs of the DNA (i.e. about 15 complete turns), with a structure that is in all essential respects the same as the Watson–Crick model. This dealt a death blow to the idea that other forms of DNA, particularly double helical DNA, exist as anything other than local or transient structures.}}{{dead link|date=August 2016}}&lt;/ref&gt;
+
+==DNA structure determination using molecular modeling and DNA X-ray patterns ==
+ {{multiple image
+ | align  = right
+ | width  = 150
+ | footer = Left, the major steps involved in DNA structure determination by X-ray crystallography showing the important role played by molecular models of DNA structure in this iterative process.  Right, an image of actual A- and B- DNA X-ray patterns obtained from oriented and hydrated DNA fibers (courtesy of Dr. Herbert R. Wilson, FRS- see refs. list).
+ | image1 = X ray diffraction.png
+ | alt1   = major steps involved in X-ray crystallography of biomolecules
+ | image2 = ABDNAxrgpj.jpg
+ | alt2   = DNA X-ray patterns
+ }}
+
+{{Main|Nucleic acid structure determination}}
+
+After DNA has been separated and purified by standard biochemical methods, one has a sample in a jar much like in the figure at the top of this article.  Below are the main steps involved in generating structural information from X-ray diffraction studies of oriented DNA fibers that are drawn from the hydrated DNA sample with the help of molecular models of DNA that are combined with crystallographic and mathematical analysis of the X-ray patterns.
+
+==Paracrystalline lattice models of B-DNA structures==
+[[File:Silica.svg|thumb|left|150px|[[Silica]] glass is another example of a material which is organized into a paracrystalline lattice.]]
+
+A [[paracrystalline]] lattice, or paracrystal, is a molecular or atomic lattice with significant amounts (e.g., larger than a few percent) of partial disordering of molecular arrangements. Limiting cases of the paracrystal model are [[nanostructure]]s, such as [[glass]]es, [[liquid]]s, etc., that may possess only local ordering and no global order. A simple example of a paracrystalline lattice is shown in the following figure for a silica glass:
+
+[[Liquid crystal]]s also have paracrystalline rather than [[crystal]]line structures.
+
+Highly hydrated B-DNA occurs naturally in living cells in such a paracrystalline state, which is a dynamic one despite the relatively rigid DNA double helix stabilized by parallel hydrogen bonds between the nucleotide base-pairs in the two complementary, helical DNA chains (see figures). For simplicity most DNA molecular models omit both water and ions dynamically bound to B-DNA, and are thus less useful for understanding the dynamic behaviors of B-DNA ''in vivo''. The physical and mathematical analysis of X-ray&lt;ref&gt;Hosemann R., Bagchi R.N., ''Direct analysis of diffraction by matter'', North-Holland Publs., Amsterdam – New York, 1962.&lt;/ref&gt;&lt;ref&gt;{{cite journal|author=Baianu, I.C. |title=X-ray scattering by partially disordered membrane systems|journal=Acta Crystallogr. A |volume=34 |issue=5 |pages=751–3|year=1978|doi=10.1107/S0567739478001540 |bibcode=1978AcCrA..34..751B|doi-access=free }}&lt;/ref&gt; and spectroscopic data for paracrystalline B-DNA is thus far more complex than that of crystalline, A-DNA X-ray diffraction patterns. The paracrystal model is also important for DNA technological applications such as [[DNA nanotechnology]]. Novel methods that combine X-ray diffraction of DNA with X-ray microscopy in hydrated living cells are now also being developed.&lt;ref&gt;{{cite journal |vauthors=Yamamoto Y, Shinohara K |title=Application of X-ray microscopy in analysis of living hydrated cells |journal=Anat. Rec. |volume=269 |issue=5 |pages=217–23 |date=October 2002 |pmid=12379938 |doi=10.1002/ar.10166}}&lt;/ref&gt;
+
+==Genomic and biotechnology applications of DNA molecular modeling==
+[[File:DNA nanostructures.png|thumb|350px|Molecular models are useful in the [[Nucleic acid design|design]] of structures for [[DNA nanotechnology]].  Here, individual DNA tiles (model at left) self-assemble into a highly ordered DNA 2D-nanogrid ([[Atomic force microscope|AFM]] image at right).]]
+
+There are various uses of DNA molecular modeling in Genomics and Biotechnology research applications, from DNA repair to PCR and [[DNA nanotechnology|DNA nanostructures]].  Two-dimensional DNA junction arrays have been visualized by [[Atomic force microscopy]].&lt;ref&gt;{{cite journal |last=Mao |first=Chengde |author2=Sun, Weiqiong |author3=Seeman, Nadrian C. |date=16 June 1999 |title=Designed Two-Dimensional DNA Holliday Junction Arrays Visualized by Atomic Force Microscopy |journal=[[Journal of the American Chemical Society]] |volume=121 |issue=23 |pages=5437–43 |doi=10.1021/ja9900398}}&lt;/ref&gt;
+
+DNA molecular modeling has various uses in [[genomics]] and [[biotechnology]], with research applications ranging from DNA repair to PCR and DNA nanostructures.  These include computer molecular models of molecules as varied as RNA polymerase, an E. coli, bacterial DNA primase template suggesting very complex dynamics at the interfaces between the enzymes and the DNA template, and molecular models of the mutagenic, chemical interaction of potent carcinogen molecules with DNA.  These are all represented in the gallery below.
+
+Technological application include a DNA biochip and DNA nanostructures designed for [[DNA computing]] and other dynamic applications of [[DNA nanotechnology]].&lt;!--
+--&gt;&lt;ref&gt;{{cite journal |last=Robinson |first=Bruche H. |author2=Seeman, Nadrian C. |date=August 1987 |title=The Design of a Biochip: A Self-Assembling Molecular-Scale Memory Device |journal=[[Protein Engineering (journal)|Protein Engineering]] |volume=1 |issue=4 |pages=295–300 |issn=0269-2139 |doi=10.1093/protein/1.4.295 |pmid=3508280}} [http://peds.oxfordjournals.org/cgi/content/abstract/1/4/295 Link]&lt;/ref&gt;&lt;!--
+--&gt;&lt;ref&gt;{{cite journal |last=Rothemund |first=Paul W. K. |authorlink=Paul W. K. Rothemund |author2=Ekani-Nkodo, Axel |author3=Papadakis, Nick |author4=Kumar, Ashish |author5=Fygenson, Deborah Kuchnir |author6=Winfree, Erik |date=22 December 2004 |title=Design and Characterization of Programmable DNA Nanotubes |journal=[[Journal of the American Chemical Society]] |volume=126 |issue=50 |pages=16344–52 |pmid=15600335|doi=10.1021/ja044319l}}&lt;/ref&gt;&lt;!--
+--&gt;&lt;ref&gt;{{cite journal |author2=Rotem S. Berman |author3=Evgeny Buchstab |author4-link=Uri Sivan |author4=Uri Sivan |author5=Erez Braun |date=November 2003 | title=DNA-Templated Carbon Nanotube Field-Effect Transistor |journal=[[Science (journal)|Science]] |volume=302 |issue=6549 |pages=1380–2 |pmid=14631035 |doi=10.1126/science.1091022 |author=Keren, K. |bibcode = 2003Sci...302.1380K|citeseerx=10.1.1.454.2291 }}&lt;/ref&gt;&lt;!--
+--&gt;&lt;ref&gt;{{cite journal |last=Zheng |first=Jiwen |author2=Constantinou, Pamela E. |author3=Micheel, Christine |author4=Alivisatos, A. Paul |author5=Kiehl, Richard A. |author6=Seeman Nadrian C. |year=2006 |title=2D Nanoparticle Arrays Show the Organizational Power of Robust DNA Motifs |journal=[[Nano Letters]] |volume=6 |issue=7 |pages=1502–4 |pmid=16834438|doi=10.1021/nl060994c|bibcode = 2006NanoL...6.1502Z |pmc=3465979}}&lt;/ref&gt;&lt;!--
+--&gt;&lt;ref&gt;{{cite journal |last=Cohen |first=Justin D. |author2=Sadowski, John P. |author3=Dervan, Peter B. |year=2007 |title=Addressing Single Molecules on DNA Nanostructures |journal=[[Angewandte Chemie International Edition]] |volume=46 |issue=42 |pages=7956–9 |pmid=17763481|doi=10.1002/anie.200702767}}&lt;/ref&gt;&lt;!--
+--&gt;&lt;ref&gt;{{cite journal |last=Constantinou |first=Pamela E. |author2=Wang, Tong |author3=Kopatsch, Jens |author4=Israel, Lisa B. |author5=Zhang, Xiaoping |author6=Ding, Baoquan |author7=Sherman, William B. |author8=Wang, Xing |author9=Zheng, Jianping |author10=Sha, Ruojie |author11=Seeman, Nadrian C. |year=2006 |title=Double cohesion in structural DNA nanotechnology |journal=[[Organic and Biomolecular Chemistry]] |volume=4 |issue= 18 |pages=3414–9 |pmid=17036134|doi=10.1039/b605212f |pmc=3491902}}&lt;/ref&gt;
+The image at right is of self-assembled DNA nanostructures. The DNA "tile" structure in this image consists of four branched junctions oriented at 90° angles. Each tile consists of nine DNA oligonucleotides as shown; such tiles serve as the primary "building block" for the assembly of the DNA nanogrids shown in the AFM micrograph.
+
+[https://web.archive.org/web/20071012172448/http://ndbserver.rutgers.edu/atlas/xray/structures/U/ud0017/ud0017.html Quadruplex DNA] may be involved in certain cancers.&lt;ref&gt;{{cite web |url=http://www.phy.cam.ac.uk/research/bss/molbiophysics.php |title=Archived copy |accessdate=2009-05-17 |url-status=dead |archiveurl=https://web.archive.org/web/20090523182548/http://www.phy.cam.ac.uk/research/bss/molbiophysics.php |archivedate=23 May 2009 |df=dmy-all }}&lt;/ref&gt;&lt;ref&gt;{{cite web |url=http://planetphysics.org/encyclopedia/TheoreticalBiophysics.html |title=Kryptowährungen und Physik – Planetphysics |accessdate=2009-05-17 |url-status=dead |archiveurl=https://web.archive.org/web/20090331164638/http://planetphysics.org/encyclopedia/TheoreticalBiophysics.html |archivedate=31 March 2009 |df=dmy-all }}&lt;/ref&gt;  Images of quadruplex DNA are in the gallery below.
+
+== Gallery of DNA models ==
+&lt;gallery&gt;
+File:Spinning DNA.gif|Spinning DNA generic model.
+File:Dna-SNP.svg|An oversimplified sketch of the double helix structure of A-DNA.
+File:DNA_replication_editable.svg|A model of DNA replication based on the double helix concept.
+File:Bdna.gif|Animated, space-filling molecular model of the A-DNA double helix
+File:Museo Príncipe Felipe. ADN.jpg|A large-scale Crick-Watson DNA model shown in the Museum of Príncipe Felipe.
+File:A-B-Z-DNA Side View.png|Side view of molecular models of A-, B-, Z- DNA.
+File:BU Bio5.jpg|Oversimplified model of the A-DNA double helix. 
+File:RNA pol.jpg|Molecular modeling of RNA polymerase.
+File:Primase 3B39.png|Molecular modeling of a bacterial DNA primase template.
+File:MGMT+DNA 1T38.png|Molecular modeling of DNA interactions with the carcinogen molecule MGMT.
+File:DNA_damaged_by_carcinogenic_2-aminofluorene_AF.jpg|3D Molecular model of DNA damaged by carcinogenic 2-aminofluorene(AF).
+File:DNA Repair.jpg|Fig.6. Molecular modeling of DNA repair
+File:A-DNA orbit animated small.gif|Animated skeletal model of A-DNA.
+File:Chromatin chromosom.png|Simplified models of chromatin.
+File:Chromosome.svg|Simplified model of chromosome structure.
+File:Parallel telomere quadruple.png|A hypothetical quadruplex of guanine-rich DNA structures that may be involved in cancers.
+File:Telomer-structure.gif|3D Molecular Structure of the intramolecular human telomeric G-quadruplex in potassium solution.
+File:DNA-(A)80-model.png|DNA spacefilling molecular model
+File:DNA tetrahedron white.png|A model of a designed DNA tetrahedron.
+File:Naturalis Biodiversity Center - Museum - Exhibition Biotechnology 11 - Large multicolour model of DNA.jpg|15 m long DNA model, [[Naturalis Biodiversity Center]]
+&lt;/gallery&gt;
+
+==See also==
+{{Commons category|Database}}
+{{Portal|Biology}}
+{{columns-list|colwidth=30em|
+* [[G-quadruplex]]
+* [[Crystallography]]
+* [[Crystal lattice]]s
+* Dinucleotide Property Database ([[DiProDB]]), designed to collect and analyse thermodynamic, structural and other dinucleotide traits
+* [[X-ray microscopy]]
+* [[X-ray scattering]]
+* [[Neutron scattering]]
+* [[Nucleic acid sequence]]
+* [[Vibrational circular dichroism]] (VCD)
+* [[Raman spectroscopy]]-microscopy and [[coherent anti-Stokes Raman spectroscopy]] (CARS)
+* Sir [[Lawrence Bragg]], FRS
+* [[Comparison of nucleic acid simulation software]]
+* [[AMBER]]
+* [[CHARMM]]
+* [[Abalone (molecular mechanics)]]
+* [[Sirius visualization software]]
+* [[QMC@Home]]
+* [[NMR spectroscopy]] (FT-NMR)
+* [[NMR imaging]] microscopy
+* [[Microwave spectroscopy]]
+* FT-[[infrared]] (IR)
+* FT-[[near infrared spectroscopy]] (NIR)
+* [[Spectral imaging]], [[hyperspectral imaging]], [[chemical imaging]]
+* [[Fluorescence correlation spectroscopy]]
+* [[Fluorescence cross-correlation spectroscopy]] and [[Förster resonance energy transfer]] (FRET)
+* [[Confocal microscopy]]
+}}
+
+==References==
+{{Reflist|30em}}
+
+==Further reading==
+* ''Applications of Novel Techniques to Health Foods, Medical and Agricultural Biotechnology''.(June 2004) I. C. Baianu, P. R. Lozano, V. I. Prisecaru and H. C. Lin., q-bio/0406047.
+* F. Bessel, ''Untersuchung des Theils der planetarischen Störungen'', Berlin Abhandlungen (1824), article 14.
+* Sir Lawrence Bragg, FRS. ''The Crystalline State, A General survey.'' London: G. Bells and Sons, Ltd., vols. 1 and 2., 1966., 2024 pages.
+* Cantor, C. R.  and Schimmel, P.R. ''Biophysical Chemistry, Parts I and II''., San Franscisco: W.H. Freeman and Co. 1980. 1,800 pages.
+* Voet, D. and J.G. Voet. ''Biochemistry'', 2nd Edn., New York, Toronto, Singapore: John Wiley &amp; Sons, Inc., 1995, {{ISBN|0-471-58651-X}}., 1361 pages.
+* Watson, G. N. ''A Treatise on the Theory of Bessel Functions''., (1995) Cambridge University Press. {{ISBN|0-521-48391-3}}.
+* Watson, James D. ''Molecular Biology of the Gene.'' New York and Amsterdam: W.A. Benjamin, Inc. 1965., 494 pages.
+* Wentworth, W.E. ''Physical Chemistry. A short course.'', Malden ( Mass.): Blackwell Science, Inc. 2000.
+* Herbert R. Wilson, FRS. ''Diffraction of X-rays by proteins, Nucleic Acids and Viruses''., London: Edward Arnold (Publishers) Ltd. 1966.
+* Kurt Wuthrich. ''NMR of Proteins and Nucleic Acids.'', New York, Brisbane,Chicester, Toronto, Singapore: J. Wiley &amp; Sons. 1986., 292 pages.
+*{{cite journal |doi=10.1093/bioinformatics/bth423 |vauthors=Hallin PF, David Ussery D |year=2004 |title=CBS Genome Atlas Database: A dynamic storage for bioinformatic results and DNA sequence data |journal=Bioinformatics |volume=20 |issue=18 |pages=3682–6 |pmid=15256401|doi-access=free }}
+*{{cite journal |vauthors=Zhang CT, Zhang R, Ou HY |year= 2003 |title= The Z curve database: a graphic representation of genome sequences |url= |journal= Bioinformatics |volume= 19 |issue= 5 |pages= 593–599 |doi= 10.1093/bioinformatics/btg041 |pmid= 12651717|doi-access= free }}
+
+==External links==
+* [http://nobelprize.org/educational_games/medicine/dna_double_helix/ DNA the Double Helix Game] From the official Nobel Prize website
+* [https://web.archive.org/web/20070226124940/http://humphry.chem.wesleyan.edu:8080/MDDNA/ MDDNA: Structural Bioinformatics of DNA]
+* [https://web.archive.org/web/20070213030135/http://www.ncbe.reading.ac.uk/DNA50/ Double Helix 1953&amp;ndash;2003] National Centre for Biotechnology Education
+* [https://web.archive.org/web/20120620121704/http://mmb.pcb.ub.es/DNAlive/ DNAlive: a web interface to compute DNA physical properties]. Also allows cross-linking of the results with the UCSC [[Genome browser]] and DNA dynamics.
+* [https://web.archive.org/web/20090724020817/http://planetphysics.org/encyclopedia/BesselFunctionsApplicationsToDiffractionByHelicalStructures.html Further details of mathematical and molecular analysis of DNA structure based on X-ray data]
+* [http://planetphysics.org/?op=getobj&amp;from=objects&amp;name=BesselFunctionsAndTheirApplicationsToDiffractionByHelicalStructures Bessel functions corresponding to Fourier transforms of atomic or molecular helices.]{{dead link|date=August 2016}}
+*[https://web.archive.org/web/20080418094451/http://www.ntmdt.ru/SPM-Techniques/Principles/ overview of STM/AFM/SNOM principles with educative videos]
+
+===Databases for DNA molecular models and sequences===
+;X-ray diffraction
+* [https://web.archive.org/web/20071012172448/http://ndbserver.rutgers.edu/atlas/xray/structures/U/ud0017/ud0017.html NDB ID: UD0017 Database]
+*[https://web.archive.org/web/20030803010825/http://ndbserver.rutgers.edu/atlas/xray/index.html X-ray Atlas -database]
+* [https://web.archive.org/web/20040105073855/http://ndbserver.rutgers.edu/ftp/NDB/coordinates/na-biol/ PDB files of coordinates for nucleic acid structures from X-ray diffraction by NA (incl. DNA) crystals]
+* [https://web.archive.org/web/20040105065152/http://ndbserver.rutgers.edu/ftp/NDB/structure-factors/ Structure factors downloadable files in CIF format]
+
+;Neutron scattering
+* [[ISIS neutron source]]: [https://web.archive.org/web/19981205225006/http://www.isis.rl.ac.uk/ ISIS pulsed neutron source:A world centre for science with neutrons &amp; muons at Harwell, near Oxford, UK.]
+
+;X-ray microscopy
+
+;Electron microscopy
+* [http://www.fidelitysystems.com/Unlinked_DNA.html DNA under electron microscope]
+
+;NMR databases
+* [https://web.archive.org/web/20030803005845/http://ndbserver.rutgers.edu/atlas/nmr/index.html NMR Atlas--database]
+* [https://web.archive.org/web/20040105082208/http://ndbserver.rutgers.edu/ftp/NDB/coordinates/na-nmr-mmcif/ mmcif downloadable coordinate files of nucleic acids in solution from 2D-FT NMR data]
+* [https://web.archive.org/web/20051215062524/http://ndbserver.rutgers.edu/ftp/NDB/nmr-restraints/ NMR constraints files for NAs in PDB format]
+
+;Genomic and structural databases
+* [http://www.cbs.dtu.dk/services/GenomeAtlas/ CBS Genome Atlas Database] &amp;mdash; contains examples of base skews.
+* [https://archive.is/20121129003619/http://tubic.tju.edu.cn/zcurve/ The Z curve database of genomes &amp;mdash; a 3-dimensional visualization and analysis tool of genomes].
+* [https://web.archive.org/web/20040301074323/http://ndbserver.rutgers.edu/ftp/NDB/models/ DNA and other nucleic acids' molecular models: Coordinate files of nucleic acids molecular structure models in PDB and CIF formats]
+
+;Atomic force microscopy
+*[https://web.archive.org/web/20080209123336/http://www.parkafm.com/New_html/resources/01general.php How SPM Works]
+*[http://www.rhk-tech.com/results/showcase.php SPM image gallery: AFM STM SEM MFM NSOM, more]
+
+{{Nucleic acids}}
+
+{{Use dmy dates|date=April 2017}}
+
+{{DEFAULTSORT:Molecular Models Of Dna}}
+[[Category:DNA]]
+[[Category:Molecular geometry]]
+[[Category:Molecular biology]]
+[[Category:Molecular genetics]]
+[[Category:Genomics]]</text>
+      <sha1>q9qwmpch39au5l9b66bc1mrdfkjjevk</sha1>
+    </revision>
+  </page>
+</mediawiki>

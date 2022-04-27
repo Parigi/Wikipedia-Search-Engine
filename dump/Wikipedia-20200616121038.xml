@@ -1,0 +1,347 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.10/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.10/ http://www.mediawiki.org/xml/export-0.10.xsd" version="0.10" xml:lang="en">
+  <siteinfo>
+    <sitename>Wikipedia</sitename>
+    <dbname>enwiki</dbname>
+    <base>https://en.wikipedia.org/wiki/Main_Page</base>
+    <generator>MediaWiki 1.35.0-wmf.36</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Media</namespace>
+      <namespace key="-1" case="first-letter">Special</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Talk</namespace>
+      <namespace key="2" case="first-letter">User</namespace>
+      <namespace key="3" case="first-letter">User talk</namespace>
+      <namespace key="4" case="first-letter">Wikipedia</namespace>
+      <namespace key="5" case="first-letter">Wikipedia talk</namespace>
+      <namespace key="6" case="first-letter">File</namespace>
+      <namespace key="7" case="first-letter">File talk</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki talk</namespace>
+      <namespace key="10" case="first-letter">Template</namespace>
+      <namespace key="11" case="first-letter">Template talk</namespace>
+      <namespace key="12" case="first-letter">Help</namespace>
+      <namespace key="13" case="first-letter">Help talk</namespace>
+      <namespace key="14" case="first-letter">Category</namespace>
+      <namespace key="15" case="first-letter">Category talk</namespace>
+      <namespace key="100" case="first-letter">Portal</namespace>
+      <namespace key="101" case="first-letter">Portal talk</namespace>
+      <namespace key="108" case="first-letter">Book</namespace>
+      <namespace key="109" case="first-letter">Book talk</namespace>
+      <namespace key="118" case="first-letter">Draft</namespace>
+      <namespace key="119" case="first-letter">Draft talk</namespace>
+      <namespace key="446" case="first-letter">Education Program</namespace>
+      <namespace key="447" case="first-letter">Education Program talk</namespace>
+      <namespace key="710" case="first-letter">TimedText</namespace>
+      <namespace key="711" case="first-letter">TimedText talk</namespace>
+      <namespace key="828" case="first-letter">Module</namespace>
+      <namespace key="829" case="first-letter">Module talk</namespace>
+      <namespace key="2300" case="first-letter">Gadget</namespace>
+      <namespace key="2301" case="first-letter">Gadget talk</namespace>
+      <namespace key="2302" case="case-sensitive">Gadget definition</namespace>
+      <namespace key="2303" case="case-sensitive">Gadget definition talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Proofs involving ordinary least squares</title>
+    <ns>0</ns>
+    <id>23493177</id>
+    <revision>
+      <id>956883545</id>
+      <parentid>956883389</parentid>
+      <timestamp>2020-05-15T20:57:54Z</timestamp>
+      <contributor>
+        <ip>2600:8801:C300:CB1:4817:7558:8640:14E4</ip>
+      </contributor>
+      <comment>/* Biasedness and expected value of \widehat\sigma^{\,2} */</comment>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="23968" xml:space="preserve">{{multiple issues|
+{{lead too short|date=July 2015}}
+{{Unreferenced|date=February 2010}}
+{{expert needed|1=Statistics|date=October 2017}}
+}}
+The purpose of this page is to provide supplementary materials for the [[ordinary least squares]] article, reducing the load of the main article with mathematics and improving its accessibility, while at the same time retaining the completeness of exposition.
+
+==Derivation of the normal equations==
+Define the &lt;math&gt;i&lt;/math&gt;th '''residual''' to be
+
+:&lt;math&gt;r_i= y_i - \sum_{j=1}^{n} X_{ij}\beta_j.&lt;/math&gt;
+
+Then the objective &lt;math&gt;S&lt;/math&gt; can be rewritten
+
+:&lt;math&gt;S = \sum_{i=1}^m r_i^2.&lt;/math&gt;
+
+Given that ''S'' is convex, it is [[Maxima and minima|minimized]] when its gradient vector is zero (This follows by definition: if the gradient vector is not zero, there is a direction in which we can move to minimize it further – see [[maxima and minima]].) The elements of the gradient vector are the partial derivatives of ''S'' with respect to the parameters:
+
+:&lt;math&gt;\frac{\partial S}{\partial \beta_j}=2\sum_{i = 1}^m r_i\frac{\partial r_i}{\partial \beta_j} \qquad (j=1,2,\dots, n).&lt;/math&gt;
+
+The derivatives are
+
+:&lt;math&gt;\frac{\partial r_i}{\partial \beta_j}=-X_{ij}.&lt;/math&gt;
+
+Substitution of the expressions for the residuals and the derivatives into the gradient equations gives
+
+:&lt;math&gt;\frac{\partial S}{\partial \beta_j} = 2\sum_{i=1}^{m} \left( y_i-\sum_{k=1}^{n} X_{ik}\beta_k \right) (-X_{ij})\qquad (j=1,2,\dots, n).&lt;/math&gt;
+
+Thus if &lt;math&gt;\widehat \beta&lt;/math&gt; minimizes ''S'', we have
+
+:&lt;math&gt;2\sum_{i=1}^{m} \left( y_i-\sum_{k=1}^{n} X_{ik}\widehat \beta_k \right) (-X_{ij}) = 0\qquad (j=1,2,\dots, n).&lt;/math&gt;
+
+Upon rearrangement, we obtain the '''normal equations''':
+
+:&lt;math&gt;\sum_{i=1}^{m}\sum_{k=1}^{n} X_{ij}X_{ik}\widehat \beta_k=\sum_{i=1}^{m} X_{ij}y_i\qquad (j=1,2,\dots, n).&lt;/math&gt;
+
+The normal equations are written in matrix notation as
+
+:&lt;math&gt;(\mathbf X^\mathrm{T} \mathbf X) \widehat{\boldsymbol{\beta}} = \mathbf X^\mathrm{T} \mathbf y&lt;/math&gt; (where ''X''&lt;sup&gt;T&lt;/sup&gt; is the [[matrix transpose]] of ''X'').
+
+The solution of the normal equations yields the vector &lt;math&gt;\widehat{\boldsymbol{\beta}}&lt;/math&gt; of the optimal parameter values.
+
+===Derivation directly in terms of matrices===
+
+The normal equations can be derived directly from a matrix representation of the problem as follows. The objective is to minimize
+
+:&lt;math&gt;S(\boldsymbol{\beta}) 
+= \bigl\|\mathbf y - \mathbf X \boldsymbol \beta \bigr\|^2 
+= (\mathbf y-\mathbf X \boldsymbol \beta)^{\rm T}(\mathbf y-\mathbf X \boldsymbol \beta) 
+= \mathbf y ^{\rm T} \mathbf y - \boldsymbol \beta ^{\rm T} \mathbf X ^{\rm T} \mathbf y - \mathbf y ^{\rm T} \mathbf X \boldsymbol \beta + \boldsymbol \beta ^{\rm T} \mathbf X ^{\rm T} \mathbf X \boldsymbol \beta .&lt;/math&gt;
+
+Here &lt;math&gt;( \boldsymbol \beta ^{\rm T} \mathbf X ^{\rm T} \mathbf y ) ^{\rm T} = \mathbf y ^{\rm T} \mathbf X \boldsymbol \beta&lt;/math&gt; has the dimension 1x1 (the number of columns of &lt;math&gt;\mathbf y&lt;/math&gt;), so it is a scalar and equal to its own transpose, hence &lt;math&gt;\boldsymbol \beta ^{\rm T} \mathbf X ^{\rm T} \mathbf y = \mathbf y ^{\rm T} \mathbf X \boldsymbol \beta&lt;/math&gt;
+and the quantity to minimize becomes
+
+:&lt;math&gt;S(\boldsymbol{\beta}) = \mathbf y ^{\rm T} \mathbf y - 2\boldsymbol \beta ^{\rm T} \mathbf X ^{\rm T} \mathbf y + \boldsymbol \beta ^{\rm T} \mathbf X ^{\rm T} \mathbf X \boldsymbol \beta .&lt;/math&gt;
+
+[[Matrix differentiation#Scalar-by-vector|Differentiating]] this with respect to &lt;math&gt;\boldsymbol \beta&lt;/math&gt; and equating to zero to satisfy the first-order conditions gives
+
+:&lt;math&gt;- \mathbf X^{\rm T} \mathbf y+ (\mathbf X^{\rm T} \mathbf X ){\boldsymbol{\beta}} = 0,&lt;/math&gt;
+
+which is equivalent to the above-given normal equations. A sufficient condition for satisfaction of the second-order conditions for a minimum is that &lt;math&gt;\mathbf X&lt;/math&gt; have full column rank, in which case &lt;math&gt;\mathbf X^{\rm T} \mathbf X&lt;/math&gt; is [[Positive definite matrix|positive definite]].
+
+===Derivation without calculus===
+
+When &lt;math&gt;\mathbf X^{\rm T} \mathbf X&lt;/math&gt; is positive definite, the formula for the minimizing value of &lt;math&gt; \boldsymbol \beta &lt;/math&gt; can be derived without the use of derivatives. The quantity
+
+:&lt;math&gt;S(\boldsymbol{\beta}) = \mathbf y ^{\rm T} \mathbf y - 2\boldsymbol \beta ^{\rm T} \mathbf X ^{\rm T} \mathbf y + \boldsymbol \beta ^{\rm T} \mathbf X ^{\rm T} \mathbf X \boldsymbol \beta &lt;/math&gt;
+
+can be written as
+
+:&lt;math&gt; \langle \boldsymbol \beta, \boldsymbol \beta \rangle - 2\langle \boldsymbol \beta, (\mathbf X^{\rm T} \mathbf X)^{-1}\mathbf X ^{\rm T} \mathbf y \rangle + \langle(\mathbf X^{\rm T} \mathbf X)^{-1}\mathbf X ^{\rm T} \mathbf y,(\mathbf X^{\rm T} \mathbf X)^{-1}\mathbf X ^{\rm T} \mathbf y \rangle+ C, &lt;/math&gt;
+
+where &lt;math&gt; C &lt;/math&gt; depends only on &lt;math&gt; \mathbf y &lt;/math&gt; and &lt;math&gt; \mathbf X &lt;/math&gt;, and &lt;math&gt; \langle \cdot, \cdot \rangle &lt;/math&gt; is the [[Dot product|inner product]] defined by
+
+:&lt;math&gt; \langle x, y \rangle = x ^{\rm T} (\mathbf X^{\rm T} \mathbf X) y. &lt;/math&gt;
+
+It follows that &lt;math&gt; S(\boldsymbol{\beta}) &lt;/math&gt; is equal to
+
+:&lt;math&gt;\langle \boldsymbol \beta - (\mathbf X^{\rm T} \mathbf X)^{-1}\mathbf X ^{\rm T} \mathbf y,\boldsymbol \beta - (\mathbf X^{\rm T} \mathbf X)^{-1}\mathbf X ^{\rm T} \mathbf y \rangle+ C &lt;/math&gt;
+
+and therefore minimized exactly when
+:&lt;math&gt;\boldsymbol \beta - (\mathbf X^{\rm T} \mathbf X)^{-1}\mathbf X ^{\rm T} \mathbf y = 0.&lt;/math&gt;
+
+===Generalization for complex equations===
+
+In general, the coefficients of the matrices &lt;math&gt; \mathbf {X}, \boldsymbol{\beta} &lt;/math&gt;  and &lt;math&gt;\mathbf{y}&lt;/math&gt; can be complex. By using a [[Hermitian transpose]] instead of a simple transpose, it is possible to find a vector &lt;math&gt;\boldsymbol{\widehat{\beta}} &lt;/math&gt; which minimizes &lt;math&gt;S(\boldsymbol{\beta})&lt;/math&gt;, just as for the real matrix case. In order to get the normal equations we follow a similar path as in previous derivations:
+
+:&lt;math&gt; \displaystyle S(\boldsymbol{\beta})=\langle \mathbf {y} -\mathbf{X} \boldsymbol{\beta},\mathbf {y} -\mathbf {X} \boldsymbol{\beta} \rangle = \langle \mathbf {y} ,\mathbf {y} \rangle - \overline{\langle \mathbf{X} \boldsymbol{\beta},\mathbf {y} \rangle}-{\overline {\langle \mathbf{y},\mathbf{X} \boldsymbol{\beta}\rangle}} + \langle \mathbf {X} \boldsymbol{\beta},\mathbf {X} \boldsymbol{\beta} \rangle =\mathbf {y}^{\rm T} \overline{\mathbf {y}}-\boldsymbol{\beta}^\dagger \mathbf{X}^\dagger \mathbf{y} -\mathbf{y}^\dagger \mathbf {X} \boldsymbol{\beta} + \boldsymbol{\beta}^{\rm T} \mathbf {X} ^{\rm {T}} \overline{\mathbf {X} } \overline{\boldsymbol{\beta}}, &lt;/math&gt;
+where &lt;math&gt; \dagger&lt;/math&gt; stands for Hermitian transpose.
+
+We should now take derivatives of &lt;math&gt; S(\boldsymbol{\beta}) &lt;/math&gt; with respect to each of the coefficients &lt;math&gt; \beta_j &lt;/math&gt;, but first we separate real and imaginary parts to deal with the conjugate factors in above expression. For the &lt;math&gt; \beta_j&lt;/math&gt; we have
+
+:&lt;math&gt; \beta_j = \beta_j^R + i\beta_j^I &lt;/math&gt;
+
+and the derivatives change into
+
+:&lt;math&gt; \frac {\partial S}{\partial \beta_j} = \frac {\partial S}{\partial \beta_j^R} \frac {\partial \beta_j^R}{\partial \beta_j} + \frac {\partial S}{\partial \beta_j^I} \frac {\partial \beta_j^I}{\partial \beta_j} = \frac {\partial S}{\partial \beta_j^R} - i \frac {\partial S}{\partial \beta_j^I} \quad (j=1,2,3,\ldots,n). &lt;/math&gt;
+
+After rewriting &lt;math&gt; S(\boldsymbol{\beta}) &lt;/math&gt; in the summation form and writing &lt;math&gt;\beta_j&lt;/math&gt; explicitly, we can calculate both partial derivatives with result:
+
+:&lt;math&gt;
+\begin{align}
+\frac {\partial S}{\partial \beta_j^R} = {} &amp; -\sum_{i=1}^m \Big(\overline {X}_{ij} y_i + \overline{y}_i X_{ij} \Big) + 2\sum_{i=1}^m X_{ij} \overline{X}_{ij} \beta_j^R + \sum_{i=1}^m \sum_{k\neq j}^n \Big( X_{ij} \overline{X}_{ik} \overline{\beta}_k + \beta_k X_{ik} \overline{X}_{ij} \Big), \\[8pt]
+&amp; {} -i{\frac {\partial S}{\partial \beta_j^I}} = \sum_{i=1}^m \Big(\overline{X}_{ij} y_i - \overline {y}_i X_{ij}{\Big )} - 2i\sum_{i=1}^m X_{ij}\overline{X}_{ij} \beta_j^I + \sum_{i=1}^m \sum_{k\neq j}^n \Big( X_{ij} \overline{X}_{ik} \overline{\beta}_k - \beta_k X_{ik} \overline{X}_{ij} \Big),
+\end{align}
+&lt;/math&gt;
+
+which, after adding it together and comparing to zero (minimization condition for &lt;math&gt;\boldsymbol{\widehat{\beta}} &lt;/math&gt;) yields
+
+:&lt;math&gt; \sum_{i=1}^m X_{ij} \overline{y}_i = \sum_{i=1}^m \sum_{k=1}^n X_{ij} \overline{X}_{ik} \overline{\widehat{\beta}}_k \qquad (j=1,2,3,\ldots,n). &lt;/math&gt;
+
+In matrix form:
+
+:&lt;math&gt; \textbf{X}^{\rm {T}} \overline{\textbf{y}} = \textbf{X}^{\rm T} \overline{\big( \textbf{X} \boldsymbol{\widehat{\beta}} \big)} \quad \text{ or }\quad \big (\textbf{X}^\dagger \textbf{X} \big) \boldsymbol{\widehat{\beta}} = \textbf{X}^\dagger \textbf{y}. &lt;/math&gt;
+
+== Least squares estimator for ''β'' ==
+
+Using matrix notation, the sum of squared residuals is given by
+
+: &lt;math&gt;S(\beta) = (y-X\beta)^T(y-X\beta). &lt;/math&gt;
+
+Since this is a quadratic expression, the vector which gives the global minimum may be found via [[Matrix calculus#Derivatives with vectors|matrix calculus]] by differentiating with respect to the vector&amp;nbsp;&lt;math&gt;\beta&lt;/math&gt; (using denominator layout) and setting equal to zero:
+
+: &lt;math&gt; 0 = \frac{dS}{d\beta}(\widehat\beta) = \frac{d}{d\beta}\bigg(y^Ty - \beta^TX^Ty - y^TX\beta + \beta^TX^TX\beta\bigg)\bigg|_{\beta=\widehat\beta} = -2X^Ty + 2X^TX\widehat\beta&lt;/math&gt;
+
+By assumption matrix ''X'' has full column rank, and therefore ''X&lt;sup&gt;T&lt;/sup&gt;X'' is invertible and the least squares estimator for ''β'' is given by
+
+: &lt;math&gt; \widehat\beta = (X^TX)^{-1}X^Ty &lt;/math&gt;
+
+== Unbiasedness and variance of &lt;math&gt;\widehat\beta&lt;/math&gt; ==
+Plug ''y''&amp;nbsp;=&amp;nbsp;''Xβ''&amp;nbsp;+&amp;nbsp;''ε'' into the formula for &lt;math&gt;\widehat\beta&lt;/math&gt; and then use the [[law of total expectation]]:
+
+: &lt;math&gt;
+\begin{align}\operatorname{E}[\,\widehat\beta] &amp;= \operatorname{E}\Big[(X^TX)^{-1}X^T(X\beta+\varepsilon)\Big] \\
+&amp;= \beta + \operatorname{E}\Big[(X^TX)^{-1}X^T\varepsilon\Big] \\
+&amp;= \beta + \operatorname{E}\Big[\operatorname{E}\Big[(X^TX)^{-1}X^T\varepsilon \mid X \Big]\Big] \\
+&amp;= \beta + \operatorname{E}\Big[(X^TX)^{-1}X^T\operatorname{E}[\varepsilon\mid X]\Big]
+&amp;= \beta,
+\end{align}
+&lt;/math&gt;
+
+where E[''ε''|''X'']&amp;nbsp;=&amp;nbsp;0 by assumptions of the model. Since the expected value of &lt;math&gt;\widehat{\beta}&lt;/math&gt; equals the parameter it estimates, &lt;math&gt;\beta&lt;/math&gt;, it is an [[Bias_of_an_estimator|unbiased estimator]] of &lt;math&gt;\beta&lt;/math&gt;.
+
+For the variance, let the covariance matrix of &lt;math&gt;\varepsilon&lt;/math&gt; be &lt;math&gt;\operatorname{E}[\,\varepsilon\varepsilon^T\,] = \sigma^2 I&lt;/math&gt;
+(where &lt;math&gt;I&lt;/math&gt; is the identity &lt;math&gt;m\,\times\,m&lt;/math&gt; matrix).
+Then,
+
+: &lt;math&gt;\begin{align}
+\operatorname{E}[\,(\widehat\beta - \beta)(\widehat\beta - \beta)^T] &amp;= \operatorname{E}\Big[ ((X^TX)^{-1}X^T\varepsilon)((X^TX)^{-1}X^T\varepsilon)^T \Big] \\
+&amp;= \operatorname{E}\Big[ (X^TX)^{-1}X^T\varepsilon\varepsilon^TX(X^TX)^{-1} \Big] \\
+&amp;= \operatorname{E}\Big[ (X^TX)^{-1}X^T\sigma^2X(X^TX)^{-1} \Big] \\
+&amp;= \operatorname{E}\Big[ \sigma^2(X^TX)^{-1}X^TX(X^TX)^{-1} \Big] \\
+&amp;= \sigma^2 (X^TX)^{-1},
+\end{align}&lt;/math&gt;
+
+where we used the fact that &lt;math&gt;\widehat{\beta} - \beta &lt;/math&gt; is just an [[Multivariate_normal_distribution#Affine_transformation|affine transformation]] of &lt;math&gt;\varepsilon&lt;/math&gt; by the matrix &lt;math&gt;(X^TX)^{-1}X^T&lt;/math&gt;.
+
+For a simple linear regression model, where &lt;math&gt;\beta = [\beta_0,\beta_1]^T&lt;/math&gt; (&lt;math&gt;\beta_0&lt;/math&gt; is the ''y''-intercept and &lt;math&gt;\beta_1&lt;/math&gt; is the slope), one obtains
+
+: &lt;math&gt;\begin{align}
+ \sigma^2 (X^TX)^{-1} &amp;=
+ \sigma^2 \left( \begin{pmatrix} 1&amp;1&amp; \cdots \\x_1&amp;x_2&amp; \cdots \end{pmatrix}\begin{pmatrix} 1&amp; x_1\\1&amp; x_2\\ \vdots &amp; \vdots\,\,\, \end{pmatrix} \right)^{-1}\\[6pt]
+&amp;=  \sigma^2 \left(\sum_{i=1}^m \begin{pmatrix} 1&amp; x_i\\x_i&amp; x_i^2\end{pmatrix} \right)^{-1}\\[6pt]
+&amp;=  \sigma^2 \begin{pmatrix} m&amp; \sum x_i\\\sum x_i&amp; \sum x_i^2\end{pmatrix}^{-1}\\[6pt]
+&amp;=  \sigma^2 \cdot \frac{1}{m\sum x_i^2-(\sum x_i)^2}\begin{pmatrix} \sum x_i^2&amp; -\sum x_i\\-\sum x_i&amp; m\end{pmatrix}\\[6pt]
+&amp;=  \sigma^2 \cdot \frac{1}{m\sum{(x_i - \bar{x})^2}}\begin{pmatrix} \sum x_i^2&amp; -\sum x_i\\-\sum x_i&amp; m\end{pmatrix} \\[8pt]
+ \operatorname{Var}(\beta_1) &amp;= \frac{\sigma^2}{\sum_{i=1}^m (x_i - \bar{x})^2}.
+\end{align}
+&lt;/math&gt;
+
+== Expected value and biasedness of &lt;math&gt;\widehat\sigma^{\,2}&lt;/math&gt; ==
+First we will plug in the expression for ''y'' into the estimator, and use the fact that ''X'M''&amp;nbsp;=&amp;nbsp;''MX''&amp;nbsp;=&amp;nbsp;0 (matrix ''M'' projects onto the space orthogonal to ''X''):
+
+: &lt;math&gt; \widehat\sigma^{\,2} = \tfrac{1}{n}y'My = \tfrac{1}{n} (X\beta+\varepsilon)'M(X\beta+\varepsilon) = \tfrac{1}{n} \varepsilon'M\varepsilon &lt;/math&gt;
+
+Now we can recognize ''ε''&amp;prime;''Mε'' as a 1×1 matrix, such matrix is equal to its own [[trace (linear algebra)|trace]]. This is useful because by properties of trace operator, '''tr'''(''AB'')&amp;nbsp;=&amp;nbsp;'''tr'''(''BA''), and we can use this to separate disturbance ''ε'' from matrix ''M'' which is a function of regressors ''X'':
+
+: &lt;math&gt; \operatorname{E}\,\widehat\sigma^{\,2}
+         = \tfrac{1}{n}\operatorname{E}\big[\operatorname{tr}(\varepsilon'M\varepsilon)\big] 
+         = \tfrac{1}{n}\operatorname{tr}\big(\operatorname{E}[M\varepsilon\varepsilon']\big)&lt;/math&gt;
+
+Using the [[Law of iterated expectation]] this can be written as
+
+: &lt;math&gt;\operatorname{E}\,\widehat\sigma^{\,2}
+         = \tfrac{1}{n}\operatorname{tr}\Big(\operatorname{E}\big[M\,\operatorname{E}[\varepsilon\varepsilon'|X]\big]\Big)
+         = \tfrac{1}{n}\operatorname{tr}\big(\operatorname{E}[\sigma^2MI]\big)
+         = \tfrac{1}{n}\sigma^2\operatorname{E}\big[ \operatorname{tr}\,M \big] &lt;/math&gt;
+
+Recall that ''M''&amp;nbsp;=&amp;nbsp;''I''&amp;nbsp;&amp;minus;&amp;nbsp;''P'' where ''P'' is the projection onto linear space spanned by columns of matrix ''X''. By properties of a [[projection matrix]], it has ''p''&amp;nbsp;=&amp;nbsp;rank(''X'') eigenvalues equal to 1, and all other eigenvalues are equal to 0. Trace of a matrix is equal to the sum of its characteristic values, thus tr(''P'')&amp;nbsp;=&amp;nbsp;''p'', and tr(''M'')&amp;nbsp;=&amp;nbsp;''n''&amp;nbsp;&amp;minus;&amp;nbsp;''p''. Therefore,
+
+: &lt;math&gt;\operatorname{E}\,\widehat\sigma^{\,2} = \frac{n-p}{n} \sigma^2&lt;/math&gt;
+
+Since the expected value of &lt;math&gt;\widehat\sigma^{\,2}&lt;/math&gt; does not equal the parameter it estimates, &lt;math&gt;\sigma^{\,2}&lt;/math&gt;, it is a [[Bias_of_an_estimator|biased estimator]] of &lt;math&gt;\sigma^{\,2}&lt;/math&gt;. Note in the later section [[#Maximum_likelihood_approach|“Maximum likelihood”]] we show that under the additional assumption that errors are distributed normally, the estimator &lt;math&gt;\widehat\sigma^{\,2}&lt;/math&gt; is proportional to a chi-squared distribution with ''n''&amp;nbsp;–&amp;nbsp;''p'' degrees of freedom, from which the formula for expected value would immediately follow. However the result we have shown in this section is valid regardless of the distribution of the errors, and thus has importance on its own.
+
+== Consistency and asymptotic normality of &lt;math&gt;\widehat\beta&lt;/math&gt; ==
+Estimator &lt;math&gt;\widehat\beta&lt;/math&gt; can be written as
+: &lt;math&gt;\widehat\beta = \big(\tfrac{1}{n}X'X\big)^{-1}\tfrac{1}{n}X'y 
+                  = \beta + \big(\tfrac{1}{n}X'X\big)^{-1}\tfrac{1}{n} X'\varepsilon 
+                  = \beta\; + \;\bigg(\frac{1}{n}\sum_{i=1}^n x_ix'_i\bigg)^{\!\!-1} \bigg(\frac{1}{n}\sum_{i=1}^n x_i\varepsilon_i\bigg)&lt;/math&gt;
+We can use the [[law of large numbers]] to establish that 
+: &lt;math&gt;\frac{1}{n}\sum_{i=1}^n x_ix'_i\ \xrightarrow{p}\ \operatorname{E}[x_ix_i']=\frac{Q_{xx}}{n}, \qquad 
+        \frac{1}{n}\sum_{i=1}^n x_i\varepsilon_i\ \xrightarrow{p}\ \operatorname{E}[x_i\varepsilon_i]=0&lt;/math&gt;
+By [[Slutsky's theorem]] and [[continuous mapping theorem]] these results can be combined to establish consistency of estimator &lt;math&gt;\widehat\beta&lt;/math&gt;:
+: &lt;math&gt;\widehat\beta\ \xrightarrow{p}\ \beta + nQ_{xx}^{-1}\cdot 0 = \beta&lt;/math&gt;
+
+The [[central limit theorem]] tells us that
+: &lt;math&gt;\frac{1}{\sqrt{n}}\sum_{i=1}^n x_i\varepsilon_i\ \xrightarrow{d}\ \mathcal{N}\big(0,\,V\big),&lt;/math&gt; where  &lt;math&gt;V = \operatorname{Var}[x_i\varepsilon_i] = \operatorname{E}[\,\varepsilon_i^2x_ix'_i\,] = \operatorname{E}\big[\,\operatorname{E}[\varepsilon_i^2\mid x_i]\;x_ix'_i\,\big] = \sigma^2 \frac{Q_{xx}}{n}&lt;/math&gt;
+
+Applying [[Slutsky's theorem]] again we'll have
+: &lt;math&gt;\sqrt{n}(\widehat\beta-\beta) = \bigg(\frac{1}{n}\sum_{i=1}^n x_ix'_i\bigg)^{\!\!-1} \bigg(\frac{1}{\sqrt{n}}\sum_{i=1}^n x_i\varepsilon_i\bigg)\ \xrightarrow{d}\ Q_{xx}^{-1}n\cdot\mathcal{N}\big(0, \sigma^2\frac{Q_{xx}}{n}\big) = \mathcal{N}\big(0,\sigma^2Q_{xx}^{-1}n\big)&lt;/math&gt;
+
+== Maximum likelihood approach ==
+[[Maximum likelihood estimation]] is a generic technique for estimating the unknown parameters in a statistical model by constructing a log-likelihood function corresponding to the joint distribution of the data, then maximizing this function over all possible parameter values. In order to apply this method, we have to make an assumption about the distribution of y given X so that the log-likelihood function can be constructed.  The connection of maximum likelihood estimation to OLS arises when this distribution is modeled as a [[Multivariate normal distribution|multivariate normal]].
+
+Specifically, assume that the errors ε have multivariate normal distribution with mean 0 and variance matrix ''σ''&lt;sup&gt;2&lt;/sup&gt;''I''. Then the distribution of ''y'' conditionally on ''X'' is
+: &lt;math&gt;y\mid X\ \sim\ \mathcal{N}(X\beta,\, \sigma^2I)&lt;/math&gt;
+and the log-likelihood function of the data will be
+: &lt;math&gt;\begin{align}
+  \mathcal{L}(\beta,\sigma^2\mid X) 
+    &amp;= \ln\bigg( \frac{1}{(2\pi)^{n/2}(\sigma^2)^{n/2}}e^{ -\frac{1}{2}(y-X\beta)'(\sigma^2I)^{-1}(y-X\beta) } \bigg) \\[6pt]
+    &amp;= -\frac{n}{2}\ln 2\pi - \frac{n}{2}\ln\sigma^2 - \frac{1}{2\sigma^2}(y-X\beta)'(y-X\beta)
+  \end{align}&lt;/math&gt;
+Differentiating this expression with respect to ''β'' and ''σ''&lt;sup&gt;2&lt;/sup&gt; we'll find the ML estimates of these parameters:
+: &lt;math&gt;\begin{align}
+  \frac{\partial\mathcal{L}}{\partial\beta'} &amp; = -\frac{1}{2\sigma^2}\Big(-2X'y + 2X'X\beta\Big)=0 \quad\Rightarrow\quad \widehat\beta = (X'X)^{-1}X'y \\[6pt]
+  \frac{\partial\mathcal{L}}{\partial\sigma^2} &amp; = -\frac{n}{2} \frac{1}{\sigma^2} + \frac{1}{2\sigma^4}(y-X\beta)'(y-X\beta)=0 \quad\Rightarrow\quad \widehat\sigma^{\,2} = \frac{1}{n} (y-X\widehat\beta)'(y-X\widehat\beta) = \frac{1}{n} S(\widehat\beta)
+  \end{align}&lt;/math&gt;
+We can check that this is indeed a maximum by looking at the [[Hessian matrix]] of the log-likelihood function.
+
+=== Finite-sample distribution ===
+Since we have assumed in this section that the distribution of error terms is known to be normal, it becomes possible to derive the explicit expressions for the distributions of estimators &lt;math&gt;\widehat\beta&lt;/math&gt; and &lt;math&gt;\widehat\sigma^{\,2}&lt;/math&gt;:
+: &lt;math&gt;\widehat\beta = (X'X)^{-1}X'y = (X'X)^{-1}X'(X\beta+\varepsilon) = \beta + (X'X)^{-1}X'\mathcal{N}(0,\sigma^2I)&lt;/math&gt;
+so that by the [[Multivariate normal distribution#Affine transformation|affine transformation properties of multivariate normal distribution]]
+
+: &lt;math&gt;\widehat\beta\mid X\ \sim\ \mathcal{N}(\beta,\, \sigma^2(X'X)^{-1}).&lt;/math&gt;
+
+Similarly the distribution of &lt;math&gt;\widehat\sigma^{\,2}&lt;/math&gt; follows from
+
+: &lt;math&gt;\begin{align}
+\widehat\sigma^{\,2} &amp;= \tfrac{1}{n}(y-X(X'X)^{-1}X'y)'(y-X(X'X)^{-1}X'y) \\[5pt]
+&amp;= \tfrac{1}{n}(My)'My \\[5pt]
+&amp;=\tfrac{1}{n}(X\beta+\varepsilon)'M(X\beta+\varepsilon) \\[5pt]
+&amp;= \tfrac{1}{n}\varepsilon'M\varepsilon,
+\end{align}&lt;/math&gt;
+
+where &lt;math&gt;M=I-X(X'X)^{-1}X'&lt;/math&gt; is the symmetric [[projection matrix]] onto subspace orthogonal to ''X'', and thus ''MX'' = ''X''&amp;prime;''M'' = 0. We have argued [[#Expected_value_of_.CF.83.CC.82.C2.B2|before]] that this matrix rank ''n''&amp;nbsp;–&amp;nbsp;''p'', and thus by properties of [[Chi-squared distribution#Related distributions and properties|chi-squared distribution]],
+: &lt;math&gt;\tfrac{n}{\sigma^2} \widehat\sigma^{\,2}\mid X = (\varepsilon/\sigma)'M(\varepsilon/\sigma)\ \sim\ \chi^2_{n-p}&lt;/math&gt;
+
+Moreover, the estimators &lt;math&gt;\widehat\beta&lt;/math&gt; and &lt;math&gt;\widehat\sigma^{\,2}&lt;/math&gt; turn out to be [[Independent random variables|independent]] (conditional on ''X''), a fact which is fundamental for construction of the classical t- and F-tests. The independence can be easily seen from following: the estimator &lt;math&gt;\widehat\beta&lt;/math&gt; represents coefficients of vector decomposition of &lt;math&gt;\widehat{y}=X\widehat\beta=Py=X\beta+P\varepsilon&lt;/math&gt; by the basis of columns of ''X'', as such &lt;math&gt;\widehat\beta&lt;/math&gt; is a function of ''Pε''. At the same time, the estimator &lt;math&gt;\widehat\sigma^{\,2}&lt;/math&gt; is a norm of vector ''Mε'' divided by ''n'', and thus this estimator is a function of ''Mε''. Now, random variables (''Pε'', ''Mε'') are jointly normal as a linear transformation of ''ε'', and they are also uncorrelated because ''PM'' = 0. By properties of multivariate normal distribution, this means that ''Pε'' and ''Mε'' are independent, and therefore estimators &lt;math&gt;\widehat\beta&lt;/math&gt; and &lt;math&gt;\widehat\sigma^{\,2}&lt;/math&gt; will be independent as well.
+
+==Derivation of simple linear regression estimators==
+{{further|Simple linear regression}}
+
+We look for &lt;math&gt;\widehat{\alpha}&lt;/math&gt; and &lt;math&gt;\widehat{\beta}&lt;/math&gt; that minimize the sum of squared errors (SSE):
+:&lt;math&gt;\min_{\widehat{\alpha}, \widehat{\beta}} \,\operatorname{SSE}\left(\widehat{\alpha}, \widehat{\beta}\right) \equiv \min_{\widehat{\alpha}, \widehat{\beta}} \sum_{i=1}^n \left(y_i - \widehat{\alpha} - \widehat{\beta} x_i\right)^2&lt;/math&gt;
+
+To find a minimum take partial derivatives with respect to &lt;math&gt;\widehat{\alpha}&lt;/math&gt; and &lt;math&gt;\widehat{\beta}&lt;/math&gt;
+
+: &lt;math&gt;\begin{align}
+                 &amp;\frac{\partial}{\partial\widehat{\alpha}} \left (\operatorname{SSE} \left(\widehat{\alpha}, \widehat{\beta}\right) \right ) = -2\sum_{i=1}^n \left(y_i - \widehat{\alpha} - \widehat{\beta}x_i\right) = 0 \\[4pt]
+  \Rightarrow {} &amp;\sum_{i=1}^n \left(y_i - \widehat{\alpha} - \widehat{\beta}x_i\right) = 0 \\[4pt]
+  \Rightarrow {} &amp;\sum_{i=1}^n y_i = \sum_{i=1}^n \widehat{\alpha} + \widehat{\beta}\sum_{i=1}^n x_i \\[4pt]
+  \Rightarrow {} &amp;\sum_{i=1}^n y_i = n\widehat{\alpha} + \widehat{\beta}\sum_{i=1}^n x_i \\[4pt]
+  \Rightarrow {} &amp;\frac{1}{n}\sum_{i=1}^n y_{i} = \widehat{\alpha} + \frac{1}{n} \widehat{\beta}\sum_{i=1}^n x_i \\[4pt]
+  \Rightarrow {} &amp;\bar{y} = \widehat{\alpha} + \widehat{\beta}\bar{x}
+\end{align}&lt;/math&gt;
+
+Before taking partial derivative with respect to &lt;math&gt;\widehat{\beta}&lt;/math&gt;, substitute the previous result for &lt;math&gt;\widehat{\alpha}.&lt;/math&gt;
+
+: &lt;math&gt;\min_{\widehat{\alpha}, \widehat{\beta}} \sum_{i=1}^n \left[y_i - \left(\bar{y} - \widehat{\beta} \bar{x}\right) - \widehat{\beta}x_{i}\right]^2 = \min_{\widehat{\alpha}, \widehat{\beta}} \sum_{i=1}^n \left[\left(y_i - \bar{y}\right) - \widehat{\beta}\left(x_i - \bar{x}\right) \right]^2&lt;/math&gt;
+
+Now, take the derivative with respect to &lt;math&gt;\widehat{\beta}&lt;/math&gt;:
+
+: &lt;math&gt;\begin{align}
+            &amp;\frac{\partial}{\partial\widehat{\beta}} \left (\operatorname{SSE} \left(\widehat{\alpha}, \widehat{\beta}\right) \right )= -2\sum_{i=1}^n \left[\left(y_{i} - \bar{y}\right) - \widehat{\beta}\left(x_{i} - \bar{x}\right)\right]\left(x_{i}-\bar{x}\right) = 0 \\
+  \Rightarrow {} &amp;\sum_{i=1}^n \left(y_i - \bar{y}\right)\left(x_i - \bar{x}\right) - \widehat{\beta}\sum_{i=1}^n \left(x_i - \bar{x}\right)^2 = 0 \\
+  \Rightarrow {} &amp; \widehat{\beta} = \frac{\sum_{i=1}^n \left(y_{i} - \bar{y}\right)\left(x_i - \bar{x}\right)}{\sum_{i=1}^n \left(x_{i}-\bar{x}\right)^2} = \frac{\operatorname{Cov}(x, y)}{\operatorname{Var}(x)}
+\end{align}&lt;/math&gt;
+
+And finally substitute &lt;math&gt;\widehat{\beta}&lt;/math&gt; to determine &lt;math&gt;\widehat{\alpha}&lt;/math&gt;
+
+: &lt;math&gt;\widehat{\alpha} = \bar{y} - \widehat{\beta}\bar{x}&lt;/math&gt;
+
+[[Category:Article proofs]]
+[[Category:Least squares]]</text>
+      <sha1>p3sd7rpz9ac5kn3aebrviava5e6qs7w</sha1>
+    </revision>
+  </page>
+</mediawiki>

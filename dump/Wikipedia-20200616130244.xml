@@ -1,0 +1,117 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.10/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.10/ http://www.mediawiki.org/xml/export-0.10.xsd" version="0.10" xml:lang="en">
+  <siteinfo>
+    <sitename>Wikipedia</sitename>
+    <dbname>enwiki</dbname>
+    <base>https://en.wikipedia.org/wiki/Main_Page</base>
+    <generator>MediaWiki 1.35.0-wmf.36</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Media</namespace>
+      <namespace key="-1" case="first-letter">Special</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Talk</namespace>
+      <namespace key="2" case="first-letter">User</namespace>
+      <namespace key="3" case="first-letter">User talk</namespace>
+      <namespace key="4" case="first-letter">Wikipedia</namespace>
+      <namespace key="5" case="first-letter">Wikipedia talk</namespace>
+      <namespace key="6" case="first-letter">File</namespace>
+      <namespace key="7" case="first-letter">File talk</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki talk</namespace>
+      <namespace key="10" case="first-letter">Template</namespace>
+      <namespace key="11" case="first-letter">Template talk</namespace>
+      <namespace key="12" case="first-letter">Help</namespace>
+      <namespace key="13" case="first-letter">Help talk</namespace>
+      <namespace key="14" case="first-letter">Category</namespace>
+      <namespace key="15" case="first-letter">Category talk</namespace>
+      <namespace key="100" case="first-letter">Portal</namespace>
+      <namespace key="101" case="first-letter">Portal talk</namespace>
+      <namespace key="108" case="first-letter">Book</namespace>
+      <namespace key="109" case="first-letter">Book talk</namespace>
+      <namespace key="118" case="first-letter">Draft</namespace>
+      <namespace key="119" case="first-letter">Draft talk</namespace>
+      <namespace key="446" case="first-letter">Education Program</namespace>
+      <namespace key="447" case="first-letter">Education Program talk</namespace>
+      <namespace key="710" case="first-letter">TimedText</namespace>
+      <namespace key="711" case="first-letter">TimedText talk</namespace>
+      <namespace key="828" case="first-letter">Module</namespace>
+      <namespace key="829" case="first-letter">Module talk</namespace>
+      <namespace key="2300" case="first-letter">Gadget</namespace>
+      <namespace key="2301" case="first-letter">Gadget talk</namespace>
+      <namespace key="2302" case="case-sensitive">Gadget definition</namespace>
+      <namespace key="2303" case="case-sensitive">Gadget definition talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Wikipedia:Manual of Style/Trivia sections</title>
+    <ns>4</ns>
+    <id>5294102</id>
+    <revision>
+      <id>961149055</id>
+      <parentid>959795792</parentid>
+      <timestamp>2020-06-06T21:36:34Z</timestamp>
+      <contributor>
+        <username>Voidxor</username>
+        <id>329764</id>
+      </contributor>
+      <minor/>
+      <comment>/* Guidance */ Avoid slashes per [[MOS:SLASH]].</comment>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="8590" xml:space="preserve">{{hatnote|"WP:TRIVIA" and "WP:TRIV" redirect here. You may be looking for the essay [[Wikipedia:Handling trivia]] (to which WP:TRIVIA formerly pointed), or the related essay [[Wikipedia:"In popular culture" content]]. You may also be looking for the essay [[Wikipedia:Trivial mentions]], or the [[Wikipedia:Notability]] guideline.}}
+{{hatnote|"WP:MISCELLANEOUS" and "WP:MISC" redirect here.  You may be looking for [[Wikipedia:Village pump (miscellaneous)]] or [[Wikipedia: Overcategorization #Miscellaneous categories]].}}
+{{MoS guideline|WP:MISC|WP:MISCELLANY|WP:MISCELLANEA|WP:TRIV|WP:TRIVIA|WP:TRIVIA MAGNET|MOS:TRIVIA}}
+{{nutshell|Sections with lists of miscellaneous information (such as "trivia" sections) should be avoided as an article develops.  Such information is better presented in an organized way.}}
+{{style}}
+
+'''Avoid creating lists of miscellaneous information.''' A number of articles contain lists of isolated information, which are often grouped into their own section, labeled "Trivia", "Notes" (not to be confused with "Notes" sections that store [[Wikipedia:Footnotes|reference citation footnotes]]), "Facts", "Miscellanea", "Other information", etc. This [[WP:Manual of Style|style guideline]] deals with the way in which these facts are represented in an article, not with whether the information contained within them is actually trivia, or [[Wikipedia:What Wikipedia is not#Wikipedia is not an indiscriminate collection of information|whether trivia belongs in Wikipedia]]. 
+
+Trivia sections should be avoided. If they must exist, they should in most cases be considered temporary, until a better method of presentation can be determined. Lists of miscellaneous information can be useful for developing a new article, as they represent an easy way for novice contributors to add information without having to keep in mind article organization or presentation: they can just add a new fact to the list. As articles grow, however, editors encountering such lists may feel encouraged to add to them indiscriminately, and these lists may then end up becoming '''trivia magnets''' which are increasingly disorganized, unwieldy, and difficult to read.  A better way to [[Wikipedia:Article development|organize an article]] is to provide a logical grouping and ordering of facts that gives an integrated presentation, providing context and smooth transitions, whether in text, list, or table.
+
+==Guidance==
+{{see also|Wikipedia:Handling trivia#Practical steps}}
+
+Trivia sections should not simply be removed from articles in all cases. It may be possible to integrate some items into the article text. Some facts may belong in existing sections, while others may warrant a new section. Integrate trivia items into the body of the article if appropriate. Otherwise, see if the trivia section contains [[WP:RS|sources]] for a particular aspect of the subject of the article, and then consider using the section items as a basis for a different article discussing that aspect. Items that duplicate material elsewhere in the article, have no support from reliable sources, or lack real importance can be removed in most cases.
+
+Research may be necessary to give each fact some context or to add [[WP:CITE|references]]. Any [[WP:No original research|speculative]] or factually incorrect entries should be removed, entries outside the scope of the article should be moved to other articles, and entries such as [[WP:NOT#GUIDE|"how-to" material]] as well as tangential or irrelevant facts may fall outside [[WP:NOT|Wikipedia's scope]] and should be removed altogether.
+
+==What this guideline is not==
+
+* This guideline does not suggest removing trivia sections, or moving them to the talk page. If information is otherwise suitable, it is better that it be poorly presented than not presented at all.
+* This guideline does not suggest always avoiding lists in favor of prose. Some information is better presented in list format.
+* This guideline does not suggest the inclusion or exclusion of any information; it only gives style recommendations. Issues of inclusion are addressed by [[WP:CSP|content policies]].
+
+==Not all list sections are trivia sections==
+{{main|Wikipedia:Manual of Style/Embedded lists}}
+
+In this guideline, the term "trivia section" refers to a section's ''content'', not its name. A trivia section is one that contains a ''disorganized'' and ''"unselective"'' list. However, a ''selectively'' populated list with a relatively narrow theme is not necessarily trivia, and can be the best way to present some types of information.
+
+==Other policies apply==
+Trivia sections found in other publications outside Wikipedia (such as [[IMDb]]) may contain speculation, rumor, invented "facts", or even [[libel]]. However, trivia sections (and others) in Wikipedia articles must not contain those, and their content must be maintained in accordance with Wikipedia's [[WP:POLICY|other policies]]. An item's degree of potential public interest will not excuse it from being subject to rules like [[WP:V|verifiability]], [[WP:NPOV|neutral point-of-view]], or [[WP:NOR|no original research]]. It is always best to [[WP:CITE|cite sources]] when adding new facts to a trivia section, or any other section.
+
+=="In popular culture" and "Cultural references" material{{Anchor|POPCULT}}==
+{{shortcut|MOS:POPCULT|MOS:CULTURALREFS}}
+{{See also|Wikipedia:"In popular culture" content}}
+A large number of articles contain a section on media references to, and other popular culture coverage or portrayal of, the subject of the Wikipedia article in which the section is written. Such sections are most often titled "In popular culture", though some more encyclopedic alternatives are in increasing use, e.g. "Cultural references". This material is not {{em|categorically}} trivial. Media coverage of a topic is generally encyclopedic information, helps establish the topic's [[WP:Notability|notability]], and helps readers understand the subject's influence on the public (and often vice versa).  Unfortunately, these sections are frequently just lists of appearances and mentions, many of them unencyclopedically trivial: this was parodied in [https://xkcd.com/446/ a 2008 xkcd cartoon], which depicted a Wikipedia article for [[wood]] containing pop culture references such as ''"In the Buffyverse, Buffy often slays Vampires using stakes made of wood."'' Such sections can be flagged for cleanup with the {{tl|In popular culture}} template.
+
+Short cultural references sections should usually be entirely reworked into the main flow of the article.  If a separate section for this material is maintained, the poorest approach is a list, which will attract the addition of trivia. It is preferable to develop a normal article section with well-written paragraphs that give a logically presented overview (often chronological and/or by medium) of how the subject has been documented, featured, and portrayed in different media and genres, for various purposes and audiences.  
+
+Other guidance: See [[WP:No original research]] for why and how to avoid engaging in your own novel analysis of this coverage.  See [[WP:Verifiability]] and [[WP:Identifying reliable sources]] for referencing standards; the more notable the topic is, and the more notable the topic's treatment in the media has been, the more likely there are already reliable sources that discuss that treatment and, for a modern biographical or organizational subject, their reactions to it.  See [[WP:Neutral point of view]] for principles to apply in balancing Wikipedia treatment of cultural references to the subject.  Wikipedia has no policies or guidelines addressing the content of pop-culture sections specifically, though [[Wikipedia_talk:Verifiability/Archive_63#popular-culture-RfC|a 2015 RfC]] was closed with:
+
+{{quote|The consensus is very clear that a secondary source is required in almost all cases. A tertiary source is even better, if available. In the rare case that a primary source is judged to be sufficient, it should be properly cited. The source(s) cited should not only establish the verifiability of the pop culture reference, but also its significance.}}
+
+==See also==
+* [[:Category:Articles with trivia sections]]
+* [[Template:In popular culture]]
+* [[Template:Trivia]]
+* [[Special:Search/trivia insource:/\=\= *Trivia *\=\=/|List of Wikipedia articles with trivia sections]]
+* [[WP:"In popular culture" content]], an [[Wikipedia:Essays|essay]]
+{{Handling miscellanea}}
+{{Manual of Style}}
+
+[[Category:Articles with trivia sections| ]]
+[[Category:Wikipedia Manual of Style (layout)]]</text>
+      <sha1>ii0io0sqvriwnkpnyf0luy60jtj19t7</sha1>
+    </revision>
+  </page>
+</mediawiki>

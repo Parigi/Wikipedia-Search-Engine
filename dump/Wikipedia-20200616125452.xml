@@ -1,0 +1,122 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.10/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.10/ http://www.mediawiki.org/xml/export-0.10.xsd" version="0.10" xml:lang="en">
+  <siteinfo>
+    <sitename>Wikipedia</sitename>
+    <dbname>enwiki</dbname>
+    <base>https://en.wikipedia.org/wiki/Main_Page</base>
+    <generator>MediaWiki 1.35.0-wmf.36</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Media</namespace>
+      <namespace key="-1" case="first-letter">Special</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Talk</namespace>
+      <namespace key="2" case="first-letter">User</namespace>
+      <namespace key="3" case="first-letter">User talk</namespace>
+      <namespace key="4" case="first-letter">Wikipedia</namespace>
+      <namespace key="5" case="first-letter">Wikipedia talk</namespace>
+      <namespace key="6" case="first-letter">File</namespace>
+      <namespace key="7" case="first-letter">File talk</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki talk</namespace>
+      <namespace key="10" case="first-letter">Template</namespace>
+      <namespace key="11" case="first-letter">Template talk</namespace>
+      <namespace key="12" case="first-letter">Help</namespace>
+      <namespace key="13" case="first-letter">Help talk</namespace>
+      <namespace key="14" case="first-letter">Category</namespace>
+      <namespace key="15" case="first-letter">Category talk</namespace>
+      <namespace key="100" case="first-letter">Portal</namespace>
+      <namespace key="101" case="first-letter">Portal talk</namespace>
+      <namespace key="108" case="first-letter">Book</namespace>
+      <namespace key="109" case="first-letter">Book talk</namespace>
+      <namespace key="118" case="first-letter">Draft</namespace>
+      <namespace key="119" case="first-letter">Draft talk</namespace>
+      <namespace key="446" case="first-letter">Education Program</namespace>
+      <namespace key="447" case="first-letter">Education Program talk</namespace>
+      <namespace key="710" case="first-letter">TimedText</namespace>
+      <namespace key="711" case="first-letter">TimedText talk</namespace>
+      <namespace key="828" case="first-letter">Module</namespace>
+      <namespace key="829" case="first-letter">Module talk</namespace>
+      <namespace key="2300" case="first-letter">Gadget</namespace>
+      <namespace key="2301" case="first-letter">Gadget talk</namespace>
+      <namespace key="2302" case="case-sensitive">Gadget definition</namespace>
+      <namespace key="2303" case="case-sensitive">Gadget definition talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Symmetric mean absolute percentage error</title>
+    <ns>0</ns>
+    <id>24283215</id>
+    <revision>
+      <id>841693149</id>
+      <parentid>838224765</parentid>
+      <timestamp>2018-05-17T12:45:01Z</timestamp>
+      <contributor>
+        <username>Deano asal</username>
+        <id>30896954</id>
+      </contributor>
+      <minor/>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="4840" xml:space="preserve">'''Symmetric mean absolute percentage error (SMAPE''' or '''sMAPE)''' is an accuracy measure based on percentage (or relative) errors. It is usually defined{{Citation needed|reason=S. Makridakis didn't use following definition in his article ''Accuracy measures: theoretical and practical concerns,'' 1993.|date=May 2017}} as follows:
+
+: &lt;math&gt; \text{SMAPE} = \frac{100\%}{n} \sum_{t=1}^n \frac{\left|F_t-A_t\right|}{(|A_t|+|F_t|)/2}&lt;/math&gt;
+
+where ''A''&lt;sub&gt;''t''&lt;/sub&gt; is the actual value and ''F''&lt;sub&gt;''t''&lt;/sub&gt; is the forecast value.
+
+The [[absolute difference]] between ''A''&lt;sub&gt;''t''&lt;/sub&gt; and ''F''&lt;sub&gt;''t''&lt;/sub&gt; is divided by half the sum of absolute values of the actual value ''A''&lt;sub&gt;''t''&lt;/sub&gt; and the forecast value ''F''&lt;sub&gt;''t''&lt;/sub&gt;. The value of this calculation is summed for every fitted point ''t'' and divided again by the number of fitted points&amp;nbsp;''n''.
+
+The earliest reference to similar formula appears to be Armstrong (1985, p.&amp;nbsp;348) where it is called "adjusted [[MAPE]]" and is defined without the absolute values in denominator. It has been later discussed, modified and re-proposed by Flores (1986).
+
+Armstrong's original definition is as follows:
+
+: &lt;math&gt; \text{SMAPE} = \frac 1 n \sum_{t=1}^n \frac{\left|F_t-A_t\right|}{(A_t+F_t)/2}&lt;/math&gt;
+
+The problem is that it can be negative (if &lt;math&gt;A_t + F_t &lt; 0&lt;/math&gt;) or even undefined (if &lt;math&gt;A_t + F_t = 0&lt;/math&gt;). Therefore the currently accepted version of SMAPE assumes the absolute values in the denominator.
+
+In contrast to the [[mean absolute percentage error]], SMAPE has both a lower bound and an upper bound. Indeed, the formula above provides a result between 0% and&amp;nbsp;200%. However a percentage error between 0% and 100% is much easier to interpret. That is the reason why the formula below is often used in practice (i.e. no factor 0.5 in denominator):
+
+: &lt;math&gt; \text{SMAPE} = \frac{100\%}{n} \sum_{t=1}^n \frac{|F_t-A_t|}{|A_t|+|F_t|}&lt;/math&gt;
+
+One supposed problem with '''SMAPE''' is that it is not symmetric since over- and under-forecasts are not treated equally. This is illustrated by the following example by applying the second '''SMAPE''' formula:
+
+* Over-forecasting: ''A''&lt;sub&gt;''t''&lt;/sub&gt; = 100 and ''F''&lt;sub&gt;''t''&lt;/sub&gt; = 110 give SMAPE =&amp;nbsp;4.76%
+* Under-forecasting: ''A''&lt;sub&gt;''t''&lt;/sub&gt; = 100 and ''F''&lt;sub&gt;''t''&lt;/sub&gt; = 90 give SMAPE =&amp;nbsp;5.26%.
+
+However, one should only expect this type of symmetry for measures which are entirely difference-based and not relative (such as mean squared error and mean absolute deviation). 
+
+There is a third version of SMAPE, which allows to measure the direction of the bias in the data by generating a positive and a negative error on line item level. Furthermore it is better protected against outliers and the bias effect mentioned in the previous paragraph than the two other formulas.
+The formula is:
+
+: &lt;math&gt; \text{SMAPE} = \frac{\sum_{t=1}^n \left|F_t-A_t\right|}{\sum_{t=1}^n (A_t+F_t)}&lt;/math&gt;
+
+A limitation to SMAPE is that if the actual value or forecast value is 0, the value of error will boom up to the upper-limit of error. (200% for the first formula and 100% for the second formula).
+
+Provided the data are strictly positive, a better measure of relative accuracy can be obtained based on the log of the accuracy ratio: log(''F''&lt;sub&gt;''t''&lt;/sub&gt; / ''A''&lt;sub&gt;''t''&lt;/sub&gt;)
+This measure is easier to analyse statistically, and has valuable symmetry and unbiasedness properties. When used in constructing forecasting models the resulting prediction corresponds to the geometric mean (Tofallis, 2015).
+
+==See also==
+* [[Relative change and difference]]
+* [[Mean absolute error]]
+* [[Mean absolute percentage error]]
+* [[Mean squared error]]
+* [[Root mean squared error]]
+
+{{No footnotes|date=August 2011}}
+
+==References==
+* [[J. Scott Armstrong|Armstrong, J. S.]] (1985) Long-range Forecasting: From Crystal Ball to Computer, 2nd. ed. Wiley. {{ISBN|978-0-471-82260-8}}
+* Flores, B. E. (1986) "A pragmatic view of accuracy measurement in forecasting", Omega (Oxford), 14(2), 93&amp;ndash;98. {{doi|10.1016/0305-0483(86)90013-7}}
+* Tofallis, C (2015) "A Better Measure of Relative Prediction Accuracy for Model Selection and Model Estimation", Journal of the Operational Research Society, 66(8),1352-1362. [http://papers.ssrn.com/sol3/papers.cfm?abstract_id=2635088 archived preprint] 
+
+==External links==
+* [http://robjhyndman.com/hyndsight/smape/ Rob J. Hyndman: Errors on Percentage Errors]
+&lt;!--* [http://www.monashforecasting.com/index.php?title=SMAPE More details on SMAPE]
+This is now broken too.--&gt;
+&lt;!--* [http://forecasters.org/pipermail/iif-discussion_forecasters.org/2008/000208.html Discussion on MAPE and SMAPE]
+ The second link is broken 18/Nov/2009 if this is persistent, then remove this section--&gt;
+
+[[Category:Statistical deviation and dispersion]]</text>
+      <sha1>gafowqmorouwqw8yby9bdsgimfwqlum</sha1>
+    </revision>
+  </page>
+</mediawiki>

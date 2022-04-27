@@ -1,0 +1,162 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.10/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.10/ http://www.mediawiki.org/xml/export-0.10.xsd" version="0.10" xml:lang="en">
+  <siteinfo>
+    <sitename>Wikipedia</sitename>
+    <dbname>enwiki</dbname>
+    <base>https://en.wikipedia.org/wiki/Main_Page</base>
+    <generator>MediaWiki 1.35.0-wmf.36</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Media</namespace>
+      <namespace key="-1" case="first-letter">Special</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Talk</namespace>
+      <namespace key="2" case="first-letter">User</namespace>
+      <namespace key="3" case="first-letter">User talk</namespace>
+      <namespace key="4" case="first-letter">Wikipedia</namespace>
+      <namespace key="5" case="first-letter">Wikipedia talk</namespace>
+      <namespace key="6" case="first-letter">File</namespace>
+      <namespace key="7" case="first-letter">File talk</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki talk</namespace>
+      <namespace key="10" case="first-letter">Template</namespace>
+      <namespace key="11" case="first-letter">Template talk</namespace>
+      <namespace key="12" case="first-letter">Help</namespace>
+      <namespace key="13" case="first-letter">Help talk</namespace>
+      <namespace key="14" case="first-letter">Category</namespace>
+      <namespace key="15" case="first-letter">Category talk</namespace>
+      <namespace key="100" case="first-letter">Portal</namespace>
+      <namespace key="101" case="first-letter">Portal talk</namespace>
+      <namespace key="108" case="first-letter">Book</namespace>
+      <namespace key="109" case="first-letter">Book talk</namespace>
+      <namespace key="118" case="first-letter">Draft</namespace>
+      <namespace key="119" case="first-letter">Draft talk</namespace>
+      <namespace key="446" case="first-letter">Education Program</namespace>
+      <namespace key="447" case="first-letter">Education Program talk</namespace>
+      <namespace key="710" case="first-letter">TimedText</namespace>
+      <namespace key="711" case="first-letter">TimedText talk</namespace>
+      <namespace key="828" case="first-letter">Module</namespace>
+      <namespace key="829" case="first-letter">Module talk</namespace>
+      <namespace key="2300" case="first-letter">Gadget</namespace>
+      <namespace key="2301" case="first-letter">Gadget talk</namespace>
+      <namespace key="2302" case="case-sensitive">Gadget definition</namespace>
+      <namespace key="2303" case="case-sensitive">Gadget definition talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Z-test</title>
+    <ns>0</ns>
+    <id>332213</id>
+    <revision>
+      <id>959837063</id>
+      <parentid>954101561</parentid>
+      <timestamp>2020-05-30T21:22:19Z</timestamp>
+      <contributor>
+        <username>Mikeblas</username>
+        <id>327592</id>
+      </contributor>
+      <minor/>
+      <comment>/* References */ no footnotes</comment>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="11933" xml:space="preserve">{{DISPLAYTITLE:''Z''-test}}
+[[File:Null-hypothesis-reigon-eng.png|thumb|]] 
+A '''''Z''-test''' is any [[statistical hypothesis testing|statistical test]] for which the [[probability distribution|distribution]] of the [[test statistic]] under the [[null hypothesis]] can be approximated by a [[normal distribution]]. Z-test tests the mean of a distribution in which we already know the population variance σ&lt;sup&gt;2&lt;/sup&gt; . Because of the [[central limit theorem]], many test statistics are approximately normally distributed for large samples. For each significance level in the [[Confidence intervals|confidence interval]], the ''Z''-test has a single critical value (for example, 1.96 for 5% two tailed) which makes it more convenient than the [[Student's t-test|Student's ''t''-test]] which has separate and different critical values for each sample size (for different sample size, it would have different degree of freedom, which may determine the value of the critical values). Therefore, many statistical tests can be conveniently performed as approximate ''Z''-tests if the sample size is large or the population variance is known. If the population variance is unknown (and therefore has to be estimated from the sample itself) and the sample size is not large (n &lt; 30), the Student's ''t''-test may be more appropriate. 
+
+How to perform a Z test when ''T'' is a statistic that is approximately normally distributed under the null hypothesis is as follows: 
+
+First, estimate the [[expected value]] μ of ''T'' under the null hypothesis, and obtain an estimate ''s'' of the [[standard deviation]] of ''T''.
+
+Second, determine the properties of ''T'' : one tailed or two tailed.
+
+For [[Null hypothesis]] '''''H''&lt;sub&gt;0&lt;/sub&gt;''': '''''μ≥μ''&lt;sub&gt;0&lt;/sub&gt;''' vs [[alternative hypothesis]] '''''H''&lt;sub&gt;1&lt;/sub&gt;''': '''''μ&lt;μ''&lt;sub&gt;0&lt;/sub&gt;''' ,  it is upper/right-tailed (one tailed). 
+
+For [[Null hypothesis]] '''''H''&lt;sub&gt;0&lt;/sub&gt;''': '''''μ≤μ''&lt;sub&gt;0&lt;/sub&gt;''' vs [[alternative hypothesis]] '''''H''&lt;sub&gt;1&lt;/sub&gt;''': '''''μ&gt;μ''&lt;sub&gt;0&lt;/sub&gt;''' ,  it is lower/left-tailed (one tailed). 
+
+For [[Null hypothesis]] '''''H''&lt;sub&gt;0&lt;/sub&gt;''': '''''μ=μ''&lt;sub&gt;0&lt;/sub&gt;''' vs [[alternative hypothesis]] '''''H''&lt;sub&gt;1&lt;/sub&gt;''': '''''μ≠μ''&lt;sub&gt;0&lt;/sub&gt;''' ,  it is two-tailed. 
+
+Third, calculate the  [[standard score]] :
+
+&lt;math&gt;Z=\frac{(\bar{X}-\mu_0)}{s}&lt;/math&gt; ,
+
+which [[one- and two-tailed tests|one-tailed and two-tailed]] [[p-values|''p''-values]] can be calculated as Φ(&amp;minus;''Z'') (for upper/right-tailed tests), Φ(''Z'') (for lower/left-tailed tests) and 2Φ(&amp;minus;|''Z''|) (for two-tailed tests) where Φ is the standard [[normal distribution|normal]] [[cumulative distribution function]].
+
+==Use in location testing==
+
+# The term "''Z''-test" is often used to refer specifically to the [[location test|one-sample location test]] comparing the mean of a set of measurements to a given constant when the sample variance is known. For example, if the observed data ''X''&lt;sub&gt;1&lt;/sub&gt;, ..., ''X''&lt;sub&gt;n&lt;/sub&gt; are (i) independent, (ii) have a common mean μ, and (iii) have a common variance σ&lt;sup&gt;2&lt;/sup&gt;, then the sample average &lt;span style="text-decoration: overline"&gt;''X''&lt;/span&gt; has mean μ and variance &lt;math&gt;\frac{\sigma^2}{n}&lt;/math&gt;. 
+# The null hypothesis is that the mean value of X is a given number μ&lt;sub&gt;0&lt;/sub&gt;.  We can use &lt;span style="text-decoration: overline"&gt;''X''&lt;/span&gt;&amp;nbsp;  as a test-statistic, rejecting the null hypothesis if &lt;span style="text-decoration: overline"&gt;''X''&lt;/span&gt;&amp;nbsp;− μ&lt;sub&gt;0&lt;/sub&gt; is large. 
+# To calculate the standardized statistic &lt;math&gt;Z=\frac{(\bar{X}-\mu_0)}{s}&lt;/math&gt;, we need to either know or have an approximate value for σ&lt;sup&gt;2&lt;/sup&gt;, from which we can calculate &lt;math&gt;s^2=\frac{\sigma^2}{n}&lt;/math&gt; . In some applications, σ&lt;sup&gt;2&lt;/sup&gt; is known, but this is uncommon. 
+# If the sample size is moderate or large, we can substitute the [[Sample variance#Population variance and sample variance|sample variance]] for σ&lt;sup&gt;2&lt;/sup&gt;, giving a ''plug-in'' test. The resulting test will not be an exact ''Z''-test since the uncertainty in the sample variance is not accounted for—however, it will be a good approximation unless the sample size is small. 
+# A [[t-test|''t''-test]] can be used to account for the uncertainty in the sample variance when the data are exactly [[normal distribution|normal]]. 
+# Difference between Z-test and t-test: Z-test is used when sample size is large (n&gt;50), or the population variance is known. t-test is used when sample  size is small (n&lt;50) and population variance is unknown. 
+# There is no universal constant at which the sample size is generally considered large enough to justify use of the plug-in test. Typical rules of thumb: the sample size should be 50 observations or more. 
+# For large sample sizes, the ''t''-test procedure gives almost identical ''p''-values as the ''Z''-test procedure. 
+# Other location tests that can be performed as ''Z''-tests are the two-sample location test and the [[paired difference test]].
+
+== Conditions ==
+
+For the ''Z''-test to be applicable, certain conditions must be met.
+
+* [[Nuisance parameter]]s should be known, or estimated with high accuracy (an example of a nuisance parameter would be the [[standard deviation]] in a one-sample location test). ''Z''-tests focus on a single parameter, and treat all other unknown parameters as being fixed at their true values. In practice, due to [[Slutsky's theorem]], "plugging in" [[consistent estimator|consistent]] estimates of nuisance parameters can be justified. However if the sample size is not large enough for these estimates to be reasonably accurate, the ''Z''-test may not perform well.
+* The test statistic should follow a [[normal distribution]]. Generally, one appeals to the [[central limit theorem]] to justify assuming that a test statistic varies normally. There is a great deal of statistical research on the question of when a test statistic varies approximately normally. If the variation of the test statistic is strongly non-normal, a ''Z''-test should not be used.
+
+If estimates of nuisance parameters are plugged in as discussed above, it is important to use estimates appropriate for the way the data were [[sampling (statistics)|sampled]]. In the special case of ''Z''-tests for the one or two sample location problem, the usual sample standard deviation is only appropriate if the data were collected as an independent sample.
+
+In some situations, it is possible to devise a test that properly accounts for the variation in plug-in estimates of nuisance parameters. In the case of one and two sample location problems, a [[t-test|''t''-test]] does this.
+
+== Example ==
+
+Suppose that in a particular geographic region, the mean and standard deviation of scores on a reading test are 100 points, and 12 points, respectively. Our interest is in the scores of 55 students in a particular school who received a mean score of 96. We can ask whether this mean score is significantly lower than the regional mean—that is, are the students in this school comparable to a simple random sample of 55 students from the region as a whole, or are their scores surprisingly low?
+
+First calculate the [[standard error (statistics)|standard error]] of the mean:
+
+:&lt;math&gt;\mathrm{SE} = \frac{\sigma}{\sqrt n} = \frac{12}{\sqrt{55}} = \frac{12}{7.42} = 1.62 \,\!&lt;/math&gt;
+
+where &lt;math&gt;{\sigma}&lt;/math&gt; is the population standard deviation.
+
+Next calculate the [[standard score|''z''-score]], which is the distance from the sample mean to the population mean in units of the standard error:
+
+:&lt;math&gt;z = \frac{M - \mu}{\mathrm{SE}} = \frac{96 - 100}{1.62} = -2.47 \,\!&lt;/math&gt;
+
+In this example, we treat the population mean and variance as known, which would be appropriate if all students in the region were tested. When population parameters are unknown, a t test should be conducted instead.
+
+The classroom mean score is 96, which is −2.47 standard error units from the population mean of 100. Looking up the ''z''-score in a table of the standard [[normal distribution]] cumulative probability, we find that the probability of observing a standard normal value below −2.47 is approximately 0.5 − 0.4932 = 0.0068. This is the [[one-tailed|one-sided]] [[p-value|''p''-value]] for the null hypothesis that the 55 students are comparable to a simple random sample from the population of all test-takers. The two-sided ''p''-value is approximately 0.014 (twice the one-sided ''p''-value).
+
+Another way of stating things is that with probability 1&amp;nbsp;−&amp;nbsp;0.014&amp;nbsp;=&amp;nbsp;0.986, a simple random sample of 55 students would have a mean test score within 4 units of the population mean. We could also say that with 98.6% confidence we reject the [[null hypothesis]] that the 55 test takers are comparable to a simple random sample from the population of test-takers.
+
+The ''Z''-test tells us that the 55 students of interest have an unusually low mean test score compared to most simple random samples of similar size from the population of test-takers. A deficiency of this analysis is that it does not consider whether the [[effect size]] of 4 points is meaningful. If instead of a classroom, we considered a subregion containing 900 students whose mean score was 99, nearly the same ''z''-score and ''p''-value would be observed. This shows that if the sample size is large enough, very small differences from the null value can be highly statistically significant. See [[statistical hypothesis testing]] for further discussion of this issue.
+
+== ''Z''-tests other than location tests ==
+
+Location tests are the most familiar ''Z''-tests. Another class of ''Z''-tests arises in [[maximum likelihood]] estimation of the [[parameter]]s in a [[parametric statistics|parametric]] [[statistical model]]. Maximum likelihood estimates are approximately normal under certain conditions, and their asymptotic variance can be calculated in terms of the Fisher information. The maximum likelihood estimate divided by its standard error can be used as a test statistic for the null hypothesis that the population value of the parameter equals zero. More generally, if &lt;math&gt;\hat{\theta}&lt;/math&gt; is the maximum likelihood estimate of a parameter θ, and θ&lt;sub&gt;0&lt;/sub&gt; is the value of θ under the null hypothesis,
+
+:&lt;math&gt;
+(\hat{\theta}-\theta_0)/{\rm SE}(\hat{\theta})
+&lt;/math&gt;
+
+can be used as a ''Z''-test statistic.
+
+When using a ''Z''-test for maximum likelihood estimates, it is important to be aware that the normal approximation may be poor if the sample size is not sufficiently large. Although there is no simple, universal rule stating how large the sample size must be to use a ''Z''-test, [[Monte Carlo method|simulation]] can give a good idea as to whether a ''Z''-test is appropriate in a given situation.
+
+''Z''-tests are employed whenever it can be argued that a test statistic follows a normal distribution under the null hypothesis of interest. Many [[non-parametric statistics|non-parametric]] test statistics, such as [[U statistic]]s, are approximately normal for large enough sample sizes, and hence are often performed as ''Z''-tests.
+
+== See also ==
+* [[Normal distribution]]
+* [[Standard normal table]]
+* [[Standard score]]
+* [[Student's t-test|Student's ''t''-test]]
+
+==References==
+{{nofootnotes|date=May 2020}}
+* {{cite book |last=Sprinthall |first=R. C. |year=2011 |title=Basic Statistical Analysis |edition=9th |publisher=Pearson Education |location= |isbn=978-0-205-05217-2 }}
+* [[George Casella|Casella, G.]], [[Roger Lee Berger|Berger, R. L.]] (2002). ''Statistical Inference''. Duxbury Press. {{isbn|0-534-24312-6}}.
+*Douglas C.Montgomery, George C.Runger.(2014). ''Applied Statistics And Probability For Engineers''.(6th ed.). John Wiley &amp; Sons, inc. {{ISBN|9781118539712|9781118645062}}.
+
+{{Statistics}}
+{{Public health}}
+
+[[Category:Statistical tests]]
+[[Category:Normal distribution]]</text>
+      <sha1>qtfifra3tfukray6kqxl7plw4b9ycrf</sha1>
+    </revision>
+  </page>
+</mediawiki>

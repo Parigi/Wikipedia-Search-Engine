@@ -1,0 +1,106 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.10/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.10/ http://www.mediawiki.org/xml/export-0.10.xsd" version="0.10" xml:lang="en">
+  <siteinfo>
+    <sitename>Wikipedia</sitename>
+    <dbname>enwiki</dbname>
+    <base>https://en.wikipedia.org/wiki/Main_Page</base>
+    <generator>MediaWiki 1.35.0-wmf.36</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Media</namespace>
+      <namespace key="-1" case="first-letter">Special</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Talk</namespace>
+      <namespace key="2" case="first-letter">User</namespace>
+      <namespace key="3" case="first-letter">User talk</namespace>
+      <namespace key="4" case="first-letter">Wikipedia</namespace>
+      <namespace key="5" case="first-letter">Wikipedia talk</namespace>
+      <namespace key="6" case="first-letter">File</namespace>
+      <namespace key="7" case="first-letter">File talk</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki talk</namespace>
+      <namespace key="10" case="first-letter">Template</namespace>
+      <namespace key="11" case="first-letter">Template talk</namespace>
+      <namespace key="12" case="first-letter">Help</namespace>
+      <namespace key="13" case="first-letter">Help talk</namespace>
+      <namespace key="14" case="first-letter">Category</namespace>
+      <namespace key="15" case="first-letter">Category talk</namespace>
+      <namespace key="100" case="first-letter">Portal</namespace>
+      <namespace key="101" case="first-letter">Portal talk</namespace>
+      <namespace key="108" case="first-letter">Book</namespace>
+      <namespace key="109" case="first-letter">Book talk</namespace>
+      <namespace key="118" case="first-letter">Draft</namespace>
+      <namespace key="119" case="first-letter">Draft talk</namespace>
+      <namespace key="446" case="first-letter">Education Program</namespace>
+      <namespace key="447" case="first-letter">Education Program talk</namespace>
+      <namespace key="710" case="first-letter">TimedText</namespace>
+      <namespace key="711" case="first-letter">TimedText talk</namespace>
+      <namespace key="828" case="first-letter">Module</namespace>
+      <namespace key="829" case="first-letter">Module talk</namespace>
+      <namespace key="2300" case="first-letter">Gadget</namespace>
+      <namespace key="2301" case="first-letter">Gadget talk</namespace>
+      <namespace key="2302" case="case-sensitive">Gadget definition</namespace>
+      <namespace key="2303" case="case-sensitive">Gadget definition talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>One- and two-tailed tests</title>
+    <ns>0</ns>
+    <id>1361141</id>
+    <revision>
+      <id>962422355</id>
+      <parentid>945142124</parentid>
+      <timestamp>2020-06-13T23:53:37Z</timestamp>
+      <contributor>
+        <username>InternetArchiveBot</username>
+        <id>27015025</id>
+      </contributor>
+      <comment>Bluelink 1 book for [[Wikipedia:Verifiability|verifiability]] (prndis)) #IABot (v2.0.1) ([[User:GreenC bot|GreenC bot]]</comment>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="12386" xml:space="preserve">[[File:DisNormal06.svg|thumb|A '''two-tailed test''' applied to the [[normal distribution]].]]
+[[File:P-value Graph.png|thumb|A '''one-tailed test''', showing the [[p-value|''p''-value]] as the size of one tail.]]
+In statistical [[significance testing]], a '''one-tailed test''' and a '''two-tailed test''' are alternative ways of computing the [[statistical significance]] of a [[parameter]] inferred from a data set, in terms of a [[test statistic]]. A two-tailed test is appropriate if the estimated value is greater or less than a certain range of values, for example, whether a test taker may score above or below a specific range of scores. This method is used for [[null hypothesis]] testing and if the estimated value exists in the critical areas, the alternative hypothesis is accepted over the null hypothesis.  
+A one-tailed test is appropriate if the estimated value may depart from the reference value in only one direction, left or right, but not both. An example can be whether a machine produces more than one-percent defective products. In this situation, if the estimated value exists in one of the one-sided critical areas, depending on the direction of interest (greater than or less than), the alternative hypothesis is accepted over the null hypothesis. Alternative names are '''one-sided''' and '''two-sided''' tests; the terminology "tail" is used because the extreme portions of distributions, where observations lead to rejection of the null hypothesis, are small and often "tail off" toward zero as in the [[normal distribution]], colored in yellow, or "bell curve", pictured on the right and colored in green.
+
+== Applications ==
+One-tailed tests are used for asymmetric distributions that have a single tail, such as the [[chi-squared distribution]], which are common in measuring [[goodness-of-fit]], or for one side of a distribution that has two tails, such as the [[normal distribution]], which is common in estimating location; this corresponds to specifying a direction. Two-tailed tests are only applicable when there are two tails, such as in the normal distribution, and correspond to considering either direction significant.&lt;ref&gt;{{cite journal |last=Mundry |first=R. |last2=Fischer |first2=J. |year=1998 |title=Use of Statistical Programs for Nonparametric Tests of Small Samples Often Leads to Incorrect P Values: Examples from Animal Behaviour |journal=Animal Behaviour |volume=56 |issue=1 |pages=256–259 |doi=10.1006/anbe.1998.0756 |pmid=9710485 }}&lt;/ref&gt;&lt;ref&gt;{{cite journal |last=Pillemer |first=D. B. |year=1991 |title=One-versus two-tailed hypothesis tests in contemporary educational research |journal=Educational Researcher |volume=20 |issue=9 |pages=13–17 |doi=10.3102/0013189X020009013 }}&lt;/ref&gt;
+
+In the approach of [[Ronald Fisher]], the [[null hypothesis]] H&lt;sub&gt;0&lt;/sub&gt; will be rejected when the [[p-value|''p''-value]] of the [[test statistic]] is sufficiently extreme (vis-a-vis the test statistic's [[sampling distribution]]) and thus judged unlikely to be the result of chance. This is usually done by comparing the resulting p-value with the specified significance level, denoted by &lt;math&gt;\alpha&lt;/math&gt;, when computing the statistical significance of a parameter''.''  In a one-tailed test, "extreme" is decided beforehand as either meaning "sufficiently small" ''or'' meaning "sufficiently large" – values in the other direction are considered not significant. One may report that the left or right tail probability as the one-tailed p-value, which ultimately corresponds to the direction in which the test statistic deviates from H&lt;sub&gt;0.&lt;/sub&gt;&lt;ref&gt;{{Cite book|title=A modern introduction to probability and statistics : understanding why and how|url=https://archive.org/details/modernintroducti00dekk_431|url-access=limited|date=2005|publisher=Springer|others=Dekking, Michel, 1946-|isbn=9781852338961|location=London|pages=[https://archive.org/details/modernintroducti00dekk_431/page/n392 389]–390|oclc=262680588}}&lt;/ref&gt; In a two-tailed test, "extreme" means "either sufficiently small or sufficiently large", and values in either direction are considered significant.&lt;ref&gt;[[John E. Freund]], (1984) ''Modern Elementary Statistics'', sixth edition. Prentice hall. {{ISBN|0-13-593525-3}} (Section "Inferences about Means", chapter "Significance Tests", page 289.)&lt;/ref&gt; For a given test statistic, there is a single two-tailed test, and two one-tailed tests, one each for either direction. When provided a significance level &lt;math&gt;\alpha&lt;/math&gt;, the critical regions would exist on the two tail ends of the distribution with an area of &lt;math&gt;\alpha/2&lt;/math&gt; each for a two-tailed test. Alternatively, the critical region would solely exist on the single tail end with an area of &lt;math&gt;\alpha&lt;/math&gt; for a one-tailed test. For a given significance level in a two-tailed test for a test statistic, the corresponding one-tailed tests for the same test statistic will be considered either twice as significant (half the ''p''-value) if the data is in the direction specified by the test, or not significant at all (''p''-value above &lt;math&gt;\alpha&lt;/math&gt;) if the data is in the direction opposite of the critical region specified by the test. 
+
+For example, if [[#Coin flipping example|flipping a coin]], testing whether it is biased ''towards'' heads is a one-tailed test, and getting data of "all heads" would be seen as highly significant, while getting data of "all tails" would be not significant at all (''p''&amp;nbsp;=&amp;nbsp;1). By contrast, testing whether it is biased in ''either'' direction is a two-tailed test, and either "all heads" or "all tails" would both be seen as highly significant data. In medical testing, while one is generally interested in whether a treatment results in outcomes that are ''better'' than chance, thus suggesting a one-tailed test; a ''worse'' outcome is also interesting for the scientific field, therefore one should use a two-tailed test that corresponds instead to testing whether the treatment results in outcomes that are ''different'' from chance, either better or worse.&lt;ref&gt;J M Bland, D G Bland (BMJ, 1994) ''Statistics Notes: One and two sided tests of significance''&lt;/ref&gt; In the archetypal [[lady tasting tea]] experiment, Fisher tested whether the lady in question was ''better'' than chance at distinguishing two types of tea preparation, not whether her ability was ''different'' from chance, and thus he used a one-tailed test.
+
+== Coin flipping example ==
+{{main|Checking whether a coin is fair}}
+In coin flipping, the [[null hypothesis]] is a sequence of [[Bernoulli trial]]s with probability 0.5, yielding a random variable ''X'' which is 1 for heads and 0 for tails, and a common test statistic is the [[sample mean]] (of the number of heads) &lt;math&gt;\bar X.&lt;/math&gt; If testing for whether the coin is biased towards heads, a one-tailed test would be used – only large numbers of heads would be significant. In that case a data set of five heads (HHHHH), with sample mean of 1, has a &lt;math&gt;1/32 = 0.03125 \approx 0.03&lt;/math&gt; chance of occurring, (5 consecutive flips with 2 outcomes - ((1/2)^5 =1/32). This would have &lt;math&gt;p \approx 0.03&lt;/math&gt; and would be significant (rejecting the null hypothesis) if the test was analyzed at a significance level of &lt;math&gt;\alpha = 0.05&lt;/math&gt; (the significance level corresponding to the cutoff bound). However, if testing for whether the coin is biased towards heads or tails, a two-tailed test would be used, and a data set of five heads (sample mean 1) is as extreme as a data set of five tails (sample mean 0). As a result, the ''p''-value would be &lt;math&gt;2/32 = 0.0625 \approx 0.06&lt;/math&gt; and this would not be significant (not rejecting the null hypothesis) if the test was analyzed at a significance level of &lt;math&gt;\alpha = 0.05&lt;/math&gt;.
+
+== History ==
+[[File:Chi-square distributionCDF-English.png|thumb|''p''-value of [[chi-squared distribution]] for different number of degrees of freedom]]
+The ''p''-value was introduced by [[Karl Pearson]]&lt;ref&gt;{{Cite journal | last = Pearson | first = Karl | authorlink = Karl Pearson | title = On the criterion that a given system of deviations from the probable in the case of a correlated system of variables is such that it can be reasonably supposed to have arisen from random sampling | doi = 10.1080/14786440009463897 | journal = Philosophical Magazine |series=Series 5 | volume = 50 | issue = 302 | pages = 157–175 | year = 1900 | url = http://www.economics.soton.ac.uk/staff/aldrich/1900.pdf | pmid =  | pmc = }}&lt;/ref&gt; in the [[Pearson's chi-squared test]], where he defined P (original notation) as the probability that the statistic would be at or above a given level. This is a one-tailed definition, and the chi-squared distribution is asymmetric, only assuming positive or zero values, and has only one tail, the upper one. It measures [[goodness of fit]] of data with a theoretical distribution, with zero corresponding to exact agreement with the theoretical distribution; the ''p''-value thus measures how likely the fit would be this bad or worse.
+
+[[File:Standard deviation diagram.svg|thumb|[[Normal distribution]], showing two tails]]
+The distinction between one-tailed and two-tailed tests was popularized by [[Ronald Fisher]] in the influential book [[Statistical Methods for Research Workers]]&lt;ref name=fisher&gt;{{cite book |title=Statistical Methods for Research Workers |last=Fisher |first=Ronald |authorlink1=Ronald Fisher |year=1925 |publisher=Oliver &amp;amp; Boyd |location=Edinburgh |isbn=0-05-002170-2 |ref=harv |title-link=Statistical Methods for Research Workers }}&lt;/ref&gt;, where he applied it especially to the [[normal distribution]], which is a symmetric distribution with two equal tails. The normal distribution is a common measure of location, rather than goodness-of-fit, and has two tails, corresponding to the estimate of location being above or below the theoretical location (e.g., sample mean compared with theoretical mean). In the case of a symmetric distribution such as the normal distribution, the one-tailed ''p''-value is exactly half the two-tailed ''p''-value:&lt;ref name=fisher /&gt;
+{{quotation|
+Some confusion is sometimes introduced by the fact that in some cases we wish to know the probability that the deviation, known to be positive, shall exceed an observed value, whereas in other cases the probability required is that a deviation, which is equally frequently positive and negative, shall exceed an observed value; the latter probability is always half the former.
+|[[Ronald Fisher]]|[[Statistical Methods for Research Workers]]}}
+
+Fisher emphasized the importance of measuring the tail – the observed value of the test statistic and all more extreme – rather than simply the probability of specific outcome itself, in his ''[[The Design of Experiments]]'' (1935).&lt;ref&gt;{{cite book |title=The Design of Experiments |edition=9th |last=Fisher |first=Ronald A. |authorlink=Ronald Fisher |origyear=1935 |year=1971 |publisher=Macmillan |isbn=0-02-844690-9 |ref=harv }}&lt;/ref&gt; He explains this as because a ''specific'' set of data may be unlikely (in the null hypothesis), but more extreme outcomes likely, so seen in this light, the specific but not extreme unlikely data should not be considered significant.
+
+== Specific tests ==
+If the test statistic follows a [[Student's t-distribution|Student's ''t''-distribution]] in the null hypothesis – which is common where the underlying variable follows a [[normal distribution]] with unknown scaling factor, then the test is referred to as a one-tailed or two-tailed [[Student's t-test|''t''-test]]. If the test is performed using the actual population mean and variance, rather than an estimate from a sample, it would be called a one-tailed or two-tailed [[Z-test|''Z''-test]].
+
+The [[Quantile function#Applications|statistical tables]] for ''t'' and for ''Z'' provide [[critical values]] for both one- and two-tailed tests. That is, they provide the critical values that cut off an entire region at one or the other end of the sampling distribution as well as the critical values that cut off the regions (of half the size) at both ends of the sampling distribution.
+
+== See also ==
+* [[Paired difference test]], when two samples are being compared
+
+== References ==
+{{reflist}}
+
+{{statistics|inference|collapsed}}
+
+{{DEFAULTSORT:One-Tailed Test}}
+[[Category:Statistical tests]]</text>
+      <sha1>98j66xty3g5tps14q2s5xkuvjg50qp4</sha1>
+    </revision>
+  </page>
+</mediawiki>

@@ -1,0 +1,910 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.10/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.10/ http://www.mediawiki.org/xml/export-0.10.xsd" version="0.10" xml:lang="en">
+  <siteinfo>
+    <sitename>Wikipedia</sitename>
+    <dbname>enwiki</dbname>
+    <base>https://en.wikipedia.org/wiki/Main_Page</base>
+    <generator>MediaWiki 1.35.0-wmf.36</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Media</namespace>
+      <namespace key="-1" case="first-letter">Special</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Talk</namespace>
+      <namespace key="2" case="first-letter">User</namespace>
+      <namespace key="3" case="first-letter">User talk</namespace>
+      <namespace key="4" case="first-letter">Wikipedia</namespace>
+      <namespace key="5" case="first-letter">Wikipedia talk</namespace>
+      <namespace key="6" case="first-letter">File</namespace>
+      <namespace key="7" case="first-letter">File talk</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki talk</namespace>
+      <namespace key="10" case="first-letter">Template</namespace>
+      <namespace key="11" case="first-letter">Template talk</namespace>
+      <namespace key="12" case="first-letter">Help</namespace>
+      <namespace key="13" case="first-letter">Help talk</namespace>
+      <namespace key="14" case="first-letter">Category</namespace>
+      <namespace key="15" case="first-letter">Category talk</namespace>
+      <namespace key="100" case="first-letter">Portal</namespace>
+      <namespace key="101" case="first-letter">Portal talk</namespace>
+      <namespace key="108" case="first-letter">Book</namespace>
+      <namespace key="109" case="first-letter">Book talk</namespace>
+      <namespace key="118" case="first-letter">Draft</namespace>
+      <namespace key="119" case="first-letter">Draft talk</namespace>
+      <namespace key="446" case="first-letter">Education Program</namespace>
+      <namespace key="447" case="first-letter">Education Program talk</namespace>
+      <namespace key="710" case="first-letter">TimedText</namespace>
+      <namespace key="711" case="first-letter">TimedText talk</namespace>
+      <namespace key="828" case="first-letter">Module</namespace>
+      <namespace key="829" case="first-letter">Module talk</namespace>
+      <namespace key="2300" case="first-letter">Gadget</namespace>
+      <namespace key="2301" case="first-letter">Gadget talk</namespace>
+      <namespace key="2302" case="case-sensitive">Gadget definition</namespace>
+      <namespace key="2303" case="case-sensitive">Gadget definition talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Microsoft Office</title>
+    <ns>0</ns>
+    <id>20288</id>
+    <revision>
+      <id>962278588</id>
+      <parentid>962262291</parentid>
+      <timestamp>2020-06-13T03:38:32Z</timestamp>
+      <contributor>
+        <username>Officer781</username>
+        <id>5336741</id>
+      </contributor>
+      <comment>better caption</comment>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="123362" xml:space="preserve">{{About|the device software|the web software|Office on the web}}
+{{pp-semi-indef|small=yes}}
+{{pp-move-indef}}
+{{pp-pc1|small=yes}}
+{{merge from|Office on the web|discuss=Talk:Microsoft Office#Merger proposal|date=April 2020}}
+{{short description|Suite of office programs produced by Microsoft}}
+{{Use mdy dates|date=October 2018}}
+{{Infobox software
+| name = Microsoft Office
+| logo = Microsoft Office logo (2019–present).svg
+| screenshot = Office 365 app logos.svg
+| caption = From top-left: [[Microsoft Outlook|Outlook]], [[Microsoft OneDrive|OneDrive]], [[Microsoft Word|Word]], [[Microsoft Excel|Excel]], [[Microsoft PowerPoint|PowerPoint]], [[Microsoft OneNote|OneNote]], [[Microsoft SharePoint|SharePoint]], [[Microsoft Teams|Teams]], and [[Yammer]].
+| developer = [[Microsoft]]
+| released = {{Start date and age|1990|11|19}}
+| ver layout = stacked
+| latest release version = &lt;!--edit at template page--&gt;
+| latest preview version = &lt;!--None; [[Microsoft Office 2019]] has not yet entered preview stage--&gt;
+| programming language = [[C++]] (back-end)&lt;ref name="C++ in MS Office"&gt;{{cite web | url=https://cppcon.org/bonus-talk-cxx-in-ms-office-2014/ | title=C++ in MS Office | publisher=cppcon | date=July 17, 2014 | accessdate=June 25, 2019}}&lt;/ref&gt;
+| operating system = [[Microsoft Windows]]
+| language count = 102
+| language footnote = &lt;ref&gt;{{cite web|title=Language Accessory Pack for Office 2016|url=https://support.office.com/en-us/article/Language-Accessory-Pack-for-Office-2016-82ee1236-0f9a-45ee-9c72-05b026ee809f|website=[[Office.com]]|publisher=[[Microsoft]]|accessdate=February 25, 2016}}&lt;/ref&gt;
+| language = {{Plainlist|
+* '''Full (43)''': English, Arabic, Basque, Bulgarian, Catalan,  Chinese (Simplified), Chinese (Traditional), Croatian, Czech, Danish, Dutch, Estonian, Finnish, French, Galician, German, Greek, Hebrew, Hindi, Hungarian, Indonesian, Italian, Japanese, Kazakh, Korean, Latvian, Lithuanian, Malay (Latin), Norwegian Bokmål, Polish, Portuguese (Brazil), Portuguese (Portugal), Romanian, Russian, Serbian (Latin, Serbia), Slovak, Slovenian, Spanish, Swedish, Thai, Turkish, Ukrainian, Vietnamese
+* '''Partial (48)''': Afrikaans, Albanian, Amharic, Armenian, Assamese, Azerbaijani (Latin), Bangla (Bangladesh), Bangla (Bengali India), Belarusian, Bosnian (Latin),  Dari, Filipino, Georgian, Gujarati, Icelandic, Irish, Kannada, Khmer, KiSwahili, Konkani, Kyrgyz, Luxembourgish, Macedonian, Malayalam, Maltese, Maori, Marathi, Mongolian (Cyrillic), Nepali, Norwegian Nynorsk, Odia, Persian (Farsi), Punjabi (Gurmukhi), Quechua, Scottish Gaelic, Serbian (Cyrillic, Bosnia &amp; Herzegovina), Serbian (Cyrillic, Serbia), Sindhi (Arabic), Sinhala, Tamil, Tatar (Cyrillic), Telugu, Turkmen (Latin), Urdu, Uyghur, Uzbek (Latin), Valencian, Welsh
+* '''Proofing only (11)''': Hausa, Igbo, isiXhosa, isiZulu, Kinyarwanda, Pashto, Romansh, Sesotho sa Leboa, Setswana, Wolof, Yoruba
+  }}
+| standard = [[Office Open XML]] (ISO/IEC 29500)
+| genre = [[Office suite]]
+| license = [[Trialware]], [[volume licensing]] or [[SaaS]]
+| website = {{URL|https://www.office.com}}
+}}
+{{Infobox software
+| name = Microsoft Office for Mac
+| screenshot = Microsoft Office for Mac 2016 screenshots.png
+| caption = Microsoft Office 2016 for Mac apps from top left to bottom right: Word, Excel, PowerPoint and Outlook
+| developer = [[Microsoft]]
+| released = {{Start date and age|1989|08|01}}
+| latest release version = [[Microsoft Office 2019]]
+| latest preview version =
+| programming language   = [[C++]] (back-end), [[Objective-C]] (API/UI)&lt;ref name="C++ in MS Office"&gt;{{cite web | url=https://cppcon.org/bonus-talk-cxx-in-ms-office-2014/ | title=C++ in MS Office | publisher=cppcon | date=July 17, 2014 | accessdate=June 25, 2019}}&lt;/ref&gt; &lt;!-- Don't forget your source please --&gt;
+| operating system = [[macOS]]&lt;br/&gt;[[Classic Mac OS]] (discontinued)
+| language count = 16
+| language footnote = &lt;ref&gt;{{cite web | url=http://blogs.technet.com/b/terminology/archive/2015/03/05/test-drive-office-for-mac-2016-in-16-languages.aspx | title=Office for Mac 2016 in 16 languages | publisher=Microsoft | date=March 5, 2015 | accessdate=September 26, 2015 | archive-url=https://web.archive.org/web/20150927155659/http://blogs.technet.com/b/terminology/archive/2015/03/05/test-drive-office-for-mac-2016-in-16-languages.aspx | archive-date=September 27, 2015 | url-status=dead }}&lt;/ref&gt;
+| language = English, Arabic, Chinese (Simplified), Chinese (Traditional), Danish, Dutch, Finnish, French, German, Italian, Japanese, Norwegian (Bokmål), Polish, Portuguese (Brazil), Russian, Spanish, Swedish
+| genre = [[Office suite]]
+| license = [[Proprietary software|Proprietary]] [[commercial software]] ([[Retail software|retail]], [[volume licensing]], [[SaaS]])
+}}
+{{Infobox software
+| name = Microsoft Office for Mobile
+| screenshot = Office mobile apps.png
+| caption = Microsoft Office for Mobile apps on [[Windows 10]]
+| developer = [[Microsoft]]
+| released = {{Start date and age|2000|4|19}}{{Citation needed|date=March 2015}}
+| latest release version = 16.0
+| latest release date = {{Start date and age|2020|2}}{{update inline|date=February 2020}}
+| operating system = [[Windows 10]],&lt;ref name=":0" /&gt;&lt;ref name=":1" /&gt;&lt;ref name=":2" /&gt;&lt;ref name=":3" /&gt; [[Windows 10 Mobile]], [[Windows Phone]], [[iOS]], [[iPadOS]], [[Android (operating system)|Android]],&lt;ref name = "freeware_with_paid"&gt;{{cite web|title=Office on mobile devices|url=http://office.microsoft.com/en-us/mobile/|work=[[Microsoft Office website|office.com]]|publisher=[[Microsoft]]|quote=Core editing is free for consumers on devices with screen sizes smaller than 10.1".|accessdate=August 29, 2013|archive-url=https://web.archive.org/web/20130830002232/http://office.microsoft.com/en-us/mobile/|archive-date=August 30, 2013|url-status=dead}}&lt;/ref&gt; [[Chrome OS]]&lt;ref name="ChromeOS"&gt;{{cite web|last1=Hoffman|first1=Chris|title=How Android apps transformed my Asus Chromebook Flip into an entirely new device|url=http://www.pcworld.com/article/3086871/chromebooks/how-android-apps-transformed-my-asus-chromebook-flip-into-an-entirely-new-device.html|website=[[PC World]]|publisher=[[IDG]]|date=June 22, 2016}}&lt;/ref&gt;
+| platform = [[Smartphone]]s and [[Tablet computer]]s&lt;ref name = "freeware_with_paid"/&gt;
+| genre = [[Productivity software]]
+| license = [[Proprietary software]]:&lt;ref name = "freeware_with_paid"/&gt;{{plainlist|
+* '''Windows 10 Mobile and Windows Phone:''' Built-in
+* '''Others:''' [[Freeware]], with [[shareware]] features}}
+}}
+'''Microsoft Office''', or simply '''Office''', is a family of [[client software]], [[server software]], and services developed by [[Microsoft]]. It was first announced by [[Bill Gates]] on August 1, 1988, at [[COMDEX]] in Las Vegas. Initially a marketing term for an [[office suite]] (bundled set of productivity [[application software|applications]]), the first version of Office contained [[Microsoft Word]], [[Microsoft Excel]], and [[Microsoft PowerPoint]]. Over the years, Office applications have grown substantially closer with shared features such as a common spell checker, [[Object Linking and Embedding|OLE]] data integration and [[Visual Basic for Applications]] scripting language. Microsoft also positions Office as a development platform for line-of-business software under the [[Office Business Applications]] brand. On July 10, 2012, [[Softpedia]] reported that Office was being used by over a billion people worldwide.&lt;ref&gt;{{cite web |url= http://news.softpedia.com/news/Microsoft-s-Office-Has-Over-One-Billion-Users-280426.shtml |title=Microsoft’s Office Has over One Billion Users |work=[[Softpedia]] |publisher=SoftNews |date=July 10, 2012}}&lt;/ref&gt;
+
+Office is produced in several versions targeted towards different end-users and computing environments. The original, and most widely used version, is the [[desktop computer|desktop]] version, available for [[personal computer|PCs]] running the [[Microsoft Windows|Windows]] and [[macOS]] [[operating system]]s. Microsoft also maintains [[mobile device|mobile]] apps for [[Android (operating system)|Android]] and [[iOS]]. [[Office on the web]] is a version of the software that runs within a [[web browser]].
+
+Since [[Office 2013]], Microsoft has promoted [[Office 365]] as the primary means of obtaining Microsoft Office: it allows the use of the software and other services on a [[subscription business model]], and users receive feature updates to the software for the lifetime of the subscription, including new features and [[cloud computing]] integration that are not necessarily included in the "on-premises" releases of Office sold under conventional license terms. In 2017, revenue from Office 365 overtook conventional license sales.
+
+The current on-premises, desktop version of Office is [[Microsoft Office 2019|Office 2019]], released on September 24, 2018.&lt;ref&gt;{{Cite web|url=https://www.zdnet.com/article/microsoft-starts-rolling-out-office-2019-for-windows-and-mac/|title=Microsoft starts rolling out Office 2019 for Windows and Mac|last=Foley|first=Mary Jo|website=ZDNet|language=en|access-date=2019-02-06}}&lt;/ref&gt;
+
+{{TOC limit}}
+
+==Components==
+{{See also|List of Microsoft Office programs}}
+
+===Core applications===
+* '''[[Microsoft Word]]:''' a [[word processor]] included in Microsoft Office and some editions of the now-discontinued [[Microsoft Works]]. The first version of Word, released in the autumn of 1983, was for the MS-DOS operating system and introduced the [[computer mouse]] to more users. Word 1.0 could be purchased with a bundled mouse, though none was required. Following the precedents of [[LisaWrite]] and [[MacWrite]], Word for Macintosh attempted to add closer [[WYSIWYG]] features into its package. Word for Mac was released in 1985. Word for Mac was the first graphical version of Microsoft Word. Initially, it implemented the proprietary [[Doc (computing)|.doc]] format as its primary format. Word 2007, however, deprecated this format in favor of [[Office Open XML]], which was later standardized by [[Ecma International]] as an [[open format]]. Support for [[Portable Document Format]] (PDF) and [[OpenDocument]] (ODF) was first introduced in Word for Windows with [[Service Pack]] 2 for Word 2007.&lt;ref&gt;{{cite press release|url=https://www.microsoft.com/Presspass/press/2008/may08/05-21ExpandedFormatsPR.mspx |title=Microsoft Expands List of Formats Supported in Microsoft Office |publisher=Microsoft |date=May 21, 2008 |accessdate=October 30, 2010 |url-status=dead |archiveurl=https://web.archive.org/web/20090501133844/http://www.microsoft.com/Presspass/press/2008/may08/05-21ExpandedFormatsPR.mspx |archivedate=May 1, 2009 |df= }}&lt;/ref&gt;
+* '''[[Microsoft Excel]]:''' a [[spreadsheet]] editor that originally competed with the dominant [[Lotus 1-2-3]] and eventually outsold it. Microsoft released the first version of Excel for the Mac OS in 1985 and the first Windows version (numbered 2.05 to line up with the Mac) in November 1987.
+* '''[[Microsoft PowerPoint]]:''' a [[presentation program]] used to create [[slideshows]] composed of text, graphics, and other objects, which can be displayed on-screen and shown by the presenter or printed out on [[transparency (projection)|transparencies]] or [[Presentation slide|slides]].
+* '''[[Microsoft Outlook]]''' (not to be confused with [[Microsoft Outlook Express|Outlook Express]], [[Outlook.com]] or [[Outlook on the web]]): a [[personal information manager]] that replaces [[Windows Messaging]], [[Microsoft Mail]], and [[Schedule+]] starting in Office 97; it includes an e-mail client, calendar, task manager and address book. On the Mac OS, Microsoft offered several versions of Outlook in the late 1990s, but only for use with [[Microsoft Exchange Server]]. In Office 2001, it introduced an alternative application with a slightly different feature set called [[Microsoft Entourage]]. It reintroduced Outlook in Office 2011, replacing Entourage.&lt;ref&gt;{{cite web |last=Fried |first=Ina |title=Next Mac Office, due by 2010's end, gets Outlook |url=http://news.cnet.com/8301-13860_3-10308997-56.html | work=[[CNET News]] |publisher=[[CBS Interactive]] | date=August 13, 2009 | accessdate=August 28, 2009}}&lt;/ref&gt;
+* '''[[Microsoft OneNote]]''': a [[Notetaking software|notetaking program]] that gathers handwritten or typed notes, drawings, [[screenshot|screen clippings]] and audio commentaries. Notes can be shared with other OneNote users over the Internet or a network. OneNote was initially introduced as a standalone app that was not included in any [[Microsoft Office 2003]] edition. However, OneNote eventually became a core component of Microsoft Office; with the release of [[Microsoft Office 2013]], OneNote was included in all Microsoft Office offerings&lt;!--not editions!--&gt;. OneNote is also available as a [[web application|web app]] on [[Office Online]], a [[freemium]] (and later [[freeware]]) Windows desktop app, a [[mobile app]] for [[Windows Phone]],  [[iOS]], [[Android (operating system)|Android]], and [[Symbian]], and a [[Metro (design language)|Metro-style]] app for [[Windows 8]] or later.
+* '''[[Skype for Business]]:''' an integrated communications client for conferences and meetings in real-time, it is the only Microsoft Office desktop app that is neither useful without a proper network infrastructure nor has the "Microsoft" prefix in its name.
+* '''[[Microsoft Teams]]:''' a platform that combines workplace chat, meetings, notes, and attachments. Microsoft announced that Teams would eventually replace Skype for Business.
+
+===Windows-only apps===
+* '''[[Microsoft Publisher]]:''' a [[desktop publishing]] app for Windows mostly used for designing brochures, labels, calendars, greeting cards, business cards, newsletters,  web site, and postcards. 
+* '''[[Microsoft Access]]:''' a [[database management system]] for Windows that combines the [[Relational database management system|relational]] [[Microsoft Jet Database Engine]] with a graphical user interface and software development tools. Microsoft Access stores data in its own format based on the Access Jet Database Engine. It can also import or link directly to data stored in other applications and databases.&lt;ref name="ms-import"&gt;{{cite web|title=Introduction to importing and exporting data|url=https://support.office.com/en-gb/article/Introduction-to-importing-and-exporting-data-08422593-42dd-4e73-bdf1-4c21fc3aa1b0|publisher=Microsoft|accessdate=June 8, 2016}}&lt;/ref&gt;
+* '''[[Microsoft Project]]:''' a [[project management]] app for Windows to keep track of events and to create [[network chart]]s and [[Gantt charts]], not bundled in any Office suite.
+* '''[[Microsoft Visio]]:''' a [[diagram]] and [[flowcharting]] app for Windows not bundled in any Office suite.
+
+===Mobile-only apps===
+* '''Office:''' A unified Office mobile app for Android and iOS, which combines Word, Excel, and PowerPoint into a single app and introduces new capabilities as making quick notes, signing PDFs, scanning QR codes, and transferring files.&lt;ref name="Microsoft"&gt;{{cite web|title=The new Office app now generally available for Android and iOS|url=https://www.microsoft.com/en-us/microsoft-365/blog/2020/02/19/new-office-app-android-ios-available/|work=Microsoft 365 team|publisher=[[Microsoft]]|date=February 19, 2020|accessdate=March 21, 2020}}&lt;/ref&gt;
+* '''[[Office Lens]]:''' An [[image scanner]] optimized for [[mobile device]]s. It captures the document (e.g. business card, paper, whiteboard) via the camera and then straightens the document portion of the image. The result can be exported to Word, OneNote, PowerPoint or Outlook, or saved in OneDrive, sent via [[Mail (Apple)|Mail]] or placed in [[Photos (Apple)|Photo Library]].
+* '''[[Office Remote]]:''' Turns the mobile device into a [[remote control]] for desktop versions of Word, Excel and PowerPoint.
+
+===Server applications===
+* '''[[Microsoft SharePoint]]:''' collaboration server.
+** [[Excel Services]]
+** [[InfoPath Forms Services]]
+** [[Microsoft Project Server]]: project management server
+** [[Microsoft Search Server]]
+* '''[[Skype for Business Server]]:''' a real-time communications server for instant messaging and [[video-conferencing]].
+* '''[[Microsoft Exchange Server]]:''' a mail server and calendaring server.
+
+===Web services===
+* '''[[Office Sway]]:''' A presentation web app released in October 2014. It also has a native app for [[iOS]] and [[Windows 10]].
+* '''[[Microsoft Office shared tools#Delve|Delve]]:''' Allows [[Office 365]] users to search and manage their emails, meetings, contacts, social networks and documents stored on OneDrive or Sites in Office 365. 
+* '''[[Microsoft Forms]]:''' An [[Survey data collection#Online surveys|online survey creator]], available for Office 365 Education subscribers.
+* '''[[Microsoft To Do]]:''' A [[task management]] service.
+* '''[[OneDrive]]:''' A file hosting service that allows users to sync files and later access them from a web browser or mobile device.
+* '''[[Outlook.com]]:''' Free [[webmail]] with a user interface similar to [[Microsoft Outlook]].
+* '''[[Outlook on the web]]:''' Similar to Outlook.com but more comprehensive and available only through Office 365 and [[Microsoft Exchange Server]] offerings.
+* '''[[Microsoft Planner]]:''' A planning application available on the Microsoft Office 365 platform.
+* '''[[Microsoft Stream]]:''' A corporate [[video sharing service]] for enterprise users with an Office 365 Academic or Enterprise license.
+* '''[[Microsoft Bookings]]:''' An appointment booking application on the Microsoft Office 365 platform.
+
+==Office on the web==
+{{Main|Office on the web}}
+Office on the web is a free lightweight [[web app|web version]] of Microsoft Office and primarily includes four web applications: [[Microsoft Word|Word]], [[Microsoft Excel|Excel]], [[Microsoft Powerpoint|Powerpoint]] and [[Microsoft OneNote|OneNote]]. The offering also includes [[Outlook.com]] and [[OneDrive]] which are accessible through a unified app switcher.
+
+==Common features==
+Most versions of Microsoft Office (including Office 97 and later) use their own [[widget toolkit|widget]] set and do not exactly match the native operating system. This is most apparent in Microsoft Office XP and 2003, where the standard [[Menu (computing)|menus]] were replaced with a colored, flat-looking, shadowed menu style. The user interface of a particular version of Microsoft Office often heavily influences a subsequent version of Microsoft Windows. For example, the [[toolbar]], colored [[Button (computing)|buttons]] and the gray-colored 3D look of Office 4.3 were added to Windows 95, and the [[Ribbon (computing)|ribbon]], introduced in Office 2007, has been incorporated into several programs bundled with [[Windows 7]] and later. In 2012, Office 2013 replicated the flat, box-like design of [[Windows 8]].
+
+Users of Microsoft Office may access external data via connection-specifications saved in Office Data Connection (.odc) files.&lt;ref&gt;{{cite book|last=DeMarco|first=Jim|authorlink=|title=Pro Excel 2007 VBA|year=2008|publisher=Apress|location=Berkeley, California|isbn=978-1-59059-957-0|page=361|quote= External data is accessed through a connection file, such as an Office Data Connection (ODC) file (.odc)}}&lt;/ref&gt;
+
+Both Windows and Office use [[service pack]]s to update software. Office had non-cumulative [[Patch (computing)|service release]]s, which were discontinued after Office 2000 Service Release 1.
+
+Past versions of Office [[Easter eggs in Microsoft products|often contained Easter eggs]]. For example, Excel 97 contained a reasonably functional flight-simulator.
+
+==File formats and metadata==
+Microsoft Office prior to Office 2007 used proprietary file formats based on the OLE [[Compound File Binary Format]].&lt;ref&gt;{{cite web|title=Microsoft Office File Formats|url=http://msdn.microsoft.com/en-us/library/cc313118.aspx|work=[[MSDN#Library|MSDN Library]]|publisher=Microsoft|accessdate=February 2, 2013}}&lt;/ref&gt; This forced users who share data to adopt the same software platform.&lt;ref&gt;{{cite web | url=https://www.gnu.org/philosophy/no-word-attachments.html | title=We Can Put an End to Word Attachments | last=Stallman | first = Richard M. | publisher=Free Software Foundation | accessdate=October 30, 2010}}&lt;/ref&gt; In 2008, Microsoft made the entire documentation for the binary Office formats freely available for download and granted any possible patents rights for use or implementations of those binary format for free under the [[Microsoft Open Specification Promise|Open Specification Promise]].&lt;ref&gt;{{cite web|last1=Spolsky|first1=Joel|title=Why are the Microsoft Office file formats so complicated? (And some workarounds)|url=http://www.joelonsoftware.com/items/2008/02/19.html|website=Joel on Software|date=February 19, 2008}}&lt;/ref&gt;&lt;ref&gt;{{cite web|last1=Jones|first1=Brian|title=Binary Documentation (.doc, .xls, .ppt) and Translator Project Site are now live|url=http://blogs.msdn.com/b/brian_jones/archive/2008/02/15/binary-documentation-doc-xls-ppt-and-translator-project-site-are-now-live.aspx|website=Brian Jones: Office Solutions|publisher=[[Microsoft]]|date=February 16, 2008}}&lt;/ref&gt; Previously, Microsoft had supplied such documentation freely but only on request.&lt;ref&gt;{{cite web |last1=Jones |first1=Brian |title=Mapping documents in the binary format (.doc; .xls; .ppt) to the Open XML format |url=http://blogs.msdn.com/b/brian_jones/archive/2008/01/16/mapping-documents-in-the-binary-format-doc-xls-ppt-to-the-open-xml-format.aspx |website=Brian Jones: Office Solutions |publisher=[[Microsoft]] |date=January 17, 2008}}&lt;/ref&gt;
+
+Starting with Office 2007, the default file format has been a version of [[Office Open XML]], though different than the one standardized and published by Ecma International and by [[International Organization for Standardization|ISO]]/[[International Electrotechnical Commission|IEC]]. Microsoft has granted patent rights to the formats technology under the Open Specification Promise&lt;ref&gt;{{cite web | url= https://www.microsoft.com/interop/osp/ | title=Microsoft Open Specification Promise | publisher= Microsoft | date=February 1, 2007 | accessdate=October 30, 2010}}&lt;/ref&gt; and has made available free downloadable converters for previous versions of Microsoft Office including Office 2003, Office XP, Office 2000&lt;ref&gt;{{cite web | url=https://www.microsoft.com/en-us/download/details.aspx?id=3 | title=Microsoft Office Compatibility Pack for Word, Excel, and PowerPoint File Formats | work=Download Center | date=January 6, 2010}}&lt;/ref&gt; and Office 2004 for Mac OS X. Third-party implementations of Office Open XML exist on the Windows platform ([[LibreOffice]], all platforms), macOS platform ([[iWork]] '08, [[NeoOffice]], [[LibreOffice]]) and [[Linux]] ([[LibreOffice]] and [[OpenOffice.org]] 3.0). In addition, Office 2010, Service Pack 2 for Office 2007, and Office 2016 for Mac supports the OpenDocument Format (ODF) for opening and saving documents – only the old [[OpenDocument|ODF]] 1.0 (2006 ISO/IEC standard) is supported, not the 1.2 version (2015 ISO/IEC standard).
+
+Microsoft provides the ability to [[metadata removal tool|remove metadata]] from Office documents. This was in response to highly publicized incidents where sensitive data about a document was leaked via its metadata.&lt;ref&gt;{{cite news | url=https://www.theregister.co.uk/2004/02/02/microsoft_releases_metadata_removal_tool/ | title=Microsoft releases metadata removal tool | first=Jan | last=Libbenga | work=The Register | date=February 2, 2004 | accessdate=October 30, 2010}}&lt;/ref&gt; Metadata removal was first available in 2004, when Microsoft released a tool called ''Remove Hidden Data Add-in for Office 2003/XP'' for this purpose.&lt;ref&gt;{{cite web | url= https://www.microsoft.com/en-us/download/details.aspx?id=8446 | title=Office 2003/XP Add-in: Remove Hidden Data |work=Download Center | publisher=Microsoft | date=July 8, 2008}}&lt;/ref&gt; It was directly integrated into Office 2007 in a feature called the ''Document Inspector''.
+
+==Extensibility==
+A major feature of the Office suite is the ability for users and third party companies to write add-ins ([[Plug-in (computing)|plug-ins]]) that extend the capabilities of an application by adding custom commands and specialized features. One of the new features is the Office Store.&lt;ref&gt;{{cite web|first=Julie |last=Bort |url=http://www.businessinsider.com/microsoft-office-2013-app-store-2012-8 |title=Microsoft Shows Off A New App Store For Office 2013 |work=Business Insider |date=August 6, 2012 |accessdate=April 24, 2013}}&lt;/ref&gt; [[Plugins]] and other tools can be downloaded by users.&lt;ref&gt;{{cite web|first=Mark |last=Hachman |url=http://readwrite.com/2013/01/29/inside-the-new-microsoft-office-app-store-one-developers-story |title=Inside The New Microsoft Office App Store: One Developer's Story |work=small-biz |publisher=ReadWrite |date=January 19, 2013 |accessdate=April 24, 2013}}&lt;/ref&gt; Developers can make money by selling their applications in the Office Store. The revenue is divided between the developer and [[Microsoft]] where the developer gets 80% of the money.&lt;ref name="mashable.com"&gt;{{cite web|first=Pete |last=Pachal |url=http://mashable.com/2012/08/07/office-2013-apps/ |title=Yes, Even Microsoft Office Has Apps Now |work=[[Mashable]] |date=August 7, 2012 |accessdate=April 24, 2013}}&lt;/ref&gt; Developers are able to share applications with all Office users.&lt;ref name="mashable.com"/&gt;
+
+The app travels with the document, and it is for the developer to decide what the recipient will see when they open it. The recipient will either have the option to download the app from the Office Store for free, start a free trial or be directed to payment.&lt;ref name="mashable.com"/&gt;
+With Office's cloud abilities, IT department can create a set of apps for their business employees in order to increase their productivity.&lt;ref&gt;{{cite web|last=Murph |first=Darren |url=https://www.engadget.com/2012/08/06/microsoft-office-store-app-catalog-downloads-now-open-available/ |title=Microsoft's Office Store now open for business, productivity-boosting apps just a click away |work=[[Engadget]] |publisher=[[Aol]] |date=August 6, 2012|accessdate=April 24, 2013}}&lt;/ref&gt; When employees go to the Office Store, they'll see their company's apps under ''My Organization''. The apps that employees have personally downloaded will appear under ''My Apps''.&lt;ref name="mashable.com"/&gt; Developers can use web technologies like [[HTML5]], [[XML]], [[CSS3]], [[JavaScript]], and APIs for building the apps.&lt;ref name="msdn.microsoft.com"&gt;{{cite web |url=http://msdn.microsoft.com/library/office/apps/jj220082%28v=office.15%29#StartBuildingApps_WhatIsApp |title=Overview of apps for Office |work=[[MSDN]] |publisher=Microsoft |date=February 26, 2013 |accessdate=April 24, 2013}}&lt;/ref&gt;
+An application for Office is a webpage that is hosted inside an Office client application. User can use apps to amplify the functionality of a document, email message, meeting request, or appointment. Apps can run in multiple environments and by multiple clients, including rich Office desktop clients, Office Web Apps, mobile browsers, and also on-premises and in the cloud.&lt;ref name="msdn.microsoft.com"/&gt; The type of add-ins supported differ by Office versions:
+
+* Office 97 onwards (standard Windows [[Dynamic link library|DLLs]] i.e. Word WLLs and Excel XLLs)
+* Office 2000 onwards ([[Component Object Model|COM]] add-ins)&lt;ref&gt;{{cite web | url= http://support.microsoft.com/kb/238228/en-us/ | title=How to build an Office 2000 COM add-in in Visual Basic | publisher=Microsoft | date=January 24, 2007 | accessdate=October 30, 2010}}&lt;/ref&gt;
+* Office XP onwards ([[OLE Automation|COM/OLE Automation]] add-ins)&lt;ref&gt;{{cite web | url= http://support.microsoft.com/kb/285337/ | title=How To Create a Visual Basic Automation Add-in for Excel Worksheet Functions | publisher=Microsoft | date=January 29, 2007 | accessdate=October 30, 2010}}&lt;/ref&gt;
+* Office 2003 onwards (Managed code add-ins – [[Visual Studio Tools for Office|VSTO solutions]])&lt;ref&gt;{{cite web | url=http://support.microsoft.com/kb/840585/en-us/ | title=Information about designing Office add-ins by using the .NET Framework | publisher=Microsoft | date=April 5, 2010 | accessdate=October 30, 2010}}&lt;/ref&gt;
+
+==Password protection==
+{{Main|Microsoft Office password protection}}
+Microsoft Office has a security feature that allows users to encrypt Office (Word, Excel, PowerPoint, Access, Skype Business) documents with a user-provided password. The password can contain up to 255 characters and uses [[Advanced Encryption Standard|AES]] 128-bit advanced encryption by default.&lt;ref&gt;{{cite web|url=https://support.office.com/en-us/article/Password-protect-documents-workbooks-and-presentations-ef163677-3195-40ba-885a-d50fa2obb6b68#bm1|title=Password protect documents, workbooks, and presentations|work=Microsoft Office Support|access-date=February 6, 2015}}{{Dead link|date=November 2019 |bot=InternetArchiveBot |fix-attempted=yes }}&lt;/ref&gt; Passwords can also be used to restrict modification of the entire document, worksheet or presentation. Due to lack of document encryption, though, these passwords can be removed using a third-party cracking software.&lt;ref&gt;{{Cite web|url=https://superuser.com/a/96244|title=Unprotect a Word Document|website=superuser.com|access-date=March 9, 2017}}&lt;/ref&gt;
+
+==Support policies==
+
+=== Approach ===
+All versions of Microsoft Office products before Microsoft Office 2019 are eligible for ten years of support following their release, during which Microsoft releases [[security update]]s for the product version and provides paid technical support. The ten-year period is divided into two five-year phases: The mainstream phase and the extended phase. During the mainstream phase, Microsoft may provide limited complimentary technical support and release non-security updates or change the design of the product. During the extended phase, said services stop.&lt;ref&gt;{{cite web|title=Microsoft Business, Developer and Desktop Operating Systems Policy|url=https://support.microsoft.com/en-us/help/14085/microsoft-business-developer-and-desktop-operating-systems-policy|website=Support|publisher=[[Microsoft]]|accessdate=April 10, 2017|date=March 9, 2017}}&lt;/ref&gt; Office 2019 only receives 5 years of mainstream and 2 years of extended support.&lt;ref&gt;{{Cite web|url=https://support.microsoft.com/en-us/help/4086137/office-2019-on-premises-release-details-february-1-2018|title=Office 2019 On-Premises Release Details (published February 1, 2018)|website=support.microsoft.com|access-date=2019-02-06}}&lt;/ref&gt;
+
+=== Timelines of support ===
+{{Simple Horizontal timeline
+|width=100%; min-width:70em
+|from=1995|to=2028|inc=1
+
+|styleDef-height=1.5em
+|bar-border=0
+
+|caption =
+{{hlist
+|{{legend0|#d4f4b4|(Spent) standard support}}
+|{{legend0|#b3e5bd|(Remaining) standard support}}
+|{{legend0|#fef8c6|(Spent) extended support}}
+|{{legend0|#ffe6b3|(Remaining) extended support}}
+}}
+|styleSS-boxcolour=#d4f4b4 &lt;!-- (Spent)_standard_support --&gt;
+|styleRS-boxcolour=#b3e5bd &lt;!-- (Remaining)_standard_support --&gt;
+|styleSE-boxcolour=#fef8c6 &lt;!-- (Spent)_extended_support --&gt;
+|styleRE-boxcolour=#ffe6b3 &lt;!-- (Remaining)_extended_support --&gt;
+
+|row1=timeline
+|row1-1-to = 1995|row1-1-border=0
+|row1-2-to = 2028|row1-2-border=0
+|row1-2-text = {{resize|150%|Timeline of Microsoft Office for Windows}}
+
+|row2=timeline
+|row2-style=styleDef
+|row2-1-to={{Year decimal|2018-09-24}}
+|row2-2-to={{Year decimal}}
+|row2-2-style=styleSS
+|row2-2-border=2px red solid
+|row2-3-to={{Year decimal|2023-10-10}}
+|row2-3-style=styleRS
+|row2-4-to={{Year decimal|2025-10-14}}
+|row2-4-style=styleRE
+
+|row2-3-text=[[Microsoft Office 2019|Office 2019]]
+&lt;!--https://support.microsoft.com/en-us/lifecycle/search/20321--&gt;
+
+|row3=timeline
+|row3-style=styleDef
+|row3-1-to={{Year decimal|2015-09-22}}
+|row3-2-to={{Year decimal}}
+|row3-2-style=styleSS
+|row3-2-border=2px red solid
+|row3-3-to={{Year decimal|2020-10-13}}
+|row3-3-style=styleRS
+|row3-4-to={{Year decimal|2025-10-14}}
+|row3-4-style=styleRE
+
+|row3-2-text=[[Microsoft Office 2016|Office 2016]]
+&lt;!--https://support.microsoft.com/lifecycle?p1=18412--&gt;
+
+|row4=timeline
+|row4-style=styleDef
+|row4-1-to={{Year decimal|2013-01-09}}
+|row4-2-style=styleSS
+|row4-2-to={{Year decimal|2018-04-10}}
+|row4-3-style=styleSE
+|row4-3-border=2px red solid
+|row4-3-to={{Year decimal}}
+|row4-4-style=styleRE
+|row4-4-to={{Year decimal|2023-04-11}}
+|row4-2-text=[[Microsoft Office 2013|Office 2013]]
+&lt;!-- http://support.microsoft.com/lifecycle/?p1=16674 --&gt;
+
+|row5=timeline
+|row5-style=styleDef
+|row5-1-to={{Year decimal|2010-07-15}}
+|row5-2-style=styleSS
+|row5-2-to={{Year decimal|2015-10-13}}
+|row5-3-style=styleSE
+|row5-3-border=2px red solid
+|row5-3-to={{Year decimal}}
+|row5-4-style=styleRE
+|row5-4-to={{Year decimal|2020-10-13}}
+|row5-2-text=[[Microsoft Office 2010|Office 2010]]
+&lt;!-- http://support.microsoft.com/lifecycle/?p1=13615 --&gt;
+
+|row6=timeline
+|row6-style=styleDef
+|row6-1-to={{Year decimal|2007-01-27}}
+|row6-2-style=styleSS
+|row6-2-to={{Year decimal|2012-10-09}}
+|row6-3-style=styleSE
+|row6-3-to={{Year decimal|2017-10-10}}
+|row6-2-text=[[Microsoft Office 2007|Office 2007]]
+&lt;!-- http://support.microsoft.com/lifecycle/?p1=8753 --&gt;
+|row6-4-border=2px red solid
+|row6-4-to={{Year decimal}}
+
+|row7=timeline
+|row7-style=styleDef
+|row7-1-to={{Year decimal|2003-11-17}}
+|row7-2-style=styleSS
+|row7-2-to={{Year decimal|2009-04-14}}
+|row7-3-style=styleSE
+|row7-3-to={{Year decimal|2014-04-08}}
+|row7-2-text=[[Microsoft Office 2003|Office 2003]]
+&lt;!-- http://support.microsoft.com/lifecycle/?p1=2488 --&gt;
+|row7-4-border=2px red solid
+|row7-4-to={{Year decimal}}
+
+|row8=timeline
+|row8-style=styleDef
+|row8-1-to={{Year decimal|2001-05-31}}
+|row8-2-style=styleSS
+|row8-2-to={{Year decimal|2006-07-11}}
+|row8-3-style=styleSE
+|row8-3-to={{Year decimal|2011-07-11}}
+|row8-2-text=[[Microsoft Office XP|Office XP]]
+&lt;!-- http://support.microsoft.com/lifecycle/?p1=2533 --&gt;
+|row8-4-border=2px red solid
+|row8-4-to={{Year decimal}}
+
+|row9=timeline
+|row9-style=styleDef
+|row9-1-to={{Year decimal|1999-06-27}}
+|row9-2-style=styleSS
+|row9-2-to={{Year decimal|2004-06-30}}
+|row9-3-style=styleSE
+|row9-3-to={{Year decimal|2009-07-14}}
+|row9-2-text=[[Microsoft Office 2000|Office 2000]]
+&lt;!--http://support.microsoft.com/lifecycle/search/default.aspx?sort=PN&amp;alpha=Office+2000&amp;Filter=FilterNO --&gt;
+|row9-4-border=2px red solid
+|row9-4-to={{Year decimal}}
+
+|row10=timeline
+|row10-style=styleDef
+|row10-1-to={{Year decimal|1997-01-05}}
+|row10-2-style=styleSS
+|row10-2-to={{Year decimal|2001-08-31}}
+|row10-3-style=styleSE
+|row10-3-to={{Year decimal|2002-02-28}}
+|row10-2-text=[[Microsoft Office 97|Office 97]]
+&lt;!-- http://support.microsoft.com/lifecycle/?p1=2507 --&gt;
+|row10-4-border=2px red solid
+|row10-4-to={{Year decimal}}
+
+|row11=timeline
+|row11-style=styleDef
+|row11-1-to={{Year decimal|1995-08-24}}
+|row11-2-style=styleSS
+|row11-2-to={{Year decimal|2001-12-31}}
+|row11-2-text=[[Microsoft Office 95|Office 95]]
+&lt;!-- http://support.microsoft.com/lifecycle/?p1=2503 --&gt;
+|row11-3-border=2px red solid
+|row11-3-to={{Year decimal}}
+|row11-4-border=0;text-align:right
+|row11-4-text={{color|#888|Updated {{#time:Y-m-d}}}}
+
+|row12=scale
+|axis-nudge=-0.5em
+}}
+
+{{Simple Horizontal timeline
+|width=100%; min-width:70em
+|from=1998|to=2022|inc=1
+
+|styleDef-height=1.5em
+|bar-border=0
+
+|caption =
+{{hlist
+|{{legend0|#d4f4b4|(Spent) standard support}}
+|{{legend0|#b3e5bd|(Remaining) standard support}}
+|{{legend0|#fef8c6|(Spent) extended support}}
+|{{legend0|#ffe6b3|(Remaining) extended support}}
+}}
+|styleSS-boxcolour=#d4f4b4 &lt;!-- (Spent)_standard_support --&gt;
+|styleRS-boxcolour=#b3e5bd &lt;!-- (Remaining)_standard_support --&gt;
+|styleSE-boxcolour=#fef8c6 &lt;!-- (Spent)_extended_support --&gt;
+|styleRE-boxcolour=#ffe6b3 &lt;!-- (Remaining)_extended_support --&gt;
+
+|row1=timeline
+|row1-1-to = 1998|row1-1-border=0
+|row1-2-to = 2021|row1-2-border=0
+|row1-2-text = {{resize|150%|Timeline of Microsoft Office for Mac}}
+
+|row2=timeline
+|row2-style=styleDef
+|row2-1-to={{Year decimal|2018-09-24}}
+|row2-2-to={{Year decimal}}
+|row2-2-style=styleSS
+|row2-2-border=2px red solid
+|row2-3-to={{Year decimal|2022-10-10}}
+|row2-3-style=styleRS
+
+|row2-3-text=[[Microsoft Office 2019|Office 2019&lt;!--for Mac--&gt;]]
+&lt;!--https://support.microsoft.com/lifecycle?p1=18335--&gt;
+
+|row3=timeline
+|row3-style=styleDef
+|row3-1-to={{Year decimal|2015-07-09}}
+|row3-2-to={{Year decimal}}
+|row3-2-style=styleSS
+|row3-2-border=2px red solid
+|row3-3-to={{Year decimal|2020-10-13}}
+|row3-3-style=styleRS
+
+|row3-2-text=[[Microsoft Office 2016|Office 2016&lt;!--for Mac--&gt;]]
+&lt;!--https://support.microsoft.com/lifecycle?p1=18335--&gt;
+
+|row4=timeline
+|row4-style=styleDef
+|row4-1-to={{Year decimal|2010-12-09}}
+|row4-2-style=styleSS
+|row4-2-to={{Year decimal|2017-10-10}}
+|row4-2-text=[[Microsoft Office for Mac 2011]]
+&lt;!-- http://support.microsoft.com/lifecycle/?p1=15627 --&gt;
+|row4-3-border=2px red solid
+|row4-3-to={{Year decimal}}
+
+|row5=timeline
+|row5-style=styleDef
+|row5-1-to={{Year decimal|2008-03-09}}
+|row5-2-style=styleSS
+|row5-2-to={{Year decimal|2013-04-09}}
+|row5-2-text=[[Microsoft Office 2008 for Mac]]
+&lt;!-- http://support.microsoft.com/lifecycle/?p1=12853 --&gt;
+|row5-3-border=2px red solid
+|row5-3-to={{Year decimal}}
+
+|row6=timeline
+|row6-style=styleDef
+|row6-1-to={{Year decimal|2004-07-13}}
+|row6-2-style=styleSS
+|row6-2-to={{Year decimal|2012-01-10}}
+|row6-2-text=[[Office 2004 for Mac]]
+&lt;!-- http://support.microsoft.com/lifecycle/?p1=2490 --&gt;
+|row6-3-border=2px red solid
+|row6-3-to={{Year decimal}}
+
+|row7=timeline
+|row7-style=styleDef
+|row7-1-to={{Year decimal|2001-10-24}}
+|row7-2-style=styleSS
+|row7-2-to={{Year decimal|2007-01-09}}
+|row7-2-text=Office X for Mac
+&lt;!-- http://support.microsoft.com/lifecycle/?p1=2487 --&gt;
+|row7-3-border=2px red solid
+|row7-3-to={{Year decimal}}
+
+|row8=timeline
+|row8-style=styleDef
+|row8-1-to={{Year decimal|2000-10-11}}
+|row8-2-style=styleSS
+|row8-2-to={{Year decimal|2005-12-31}}
+|row8-2-text=[[Microsoft Office 2001]]
+&lt;!-- http://support.microsoft.com/lifecycle/?p1=2487 --&gt;
+|row8-3-border=2px red solid
+|row8-3-to={{Year decimal}}
+
+|row9=timeline
+|row9-style=styleDef
+|row9-1-to={{Year decimal|1998-03-15}}
+|row9-2-style=styleSS
+|row9-2-to={{Year decimal|2003-06-30}}
+|row9-2-text=[[Microsoft Office 98 Macintosh Edition]]
+&lt;!--http://support.microsoft.com/lifecycle/?p1=2508 --&gt;
+|row9-3-border=2px red solid;text-align:right; padding-right:5px;
+|row9-3-to={{Year decimal}}
+|row9-3-text={{color|#888|Updated {{#time:Y-m-d}}}}
+
+|row10=scale
+|axis-nudge=-0.5em
+}}
+
+== Platforms ==
+Microsoft supports Office for the Windows and macOS platforms, as well as mobile versions for Windows Phone, [[Android (operating system)|Android]] and iOS platforms. Beginning with Mac Office 4.2, the macOS and Windows versions of Office share the same file format, and are [[interoperable]]. Visual Basic for Applications support was dropped in Microsoft Office 2008 for Mac,&lt;ref&gt;{{cite news|url= https://www.macworld.com/news/2006/08/07/msuniversal/|date=August 7, 2006|work=Macworld|title=WWDC: Microsoft updates Universal status of Mac apps|accessdate= May 25, 2007|archiveurl = https://web.archive.org/web/20121007070614/http://www.macworld.com/news/2006/08/07/msuniversal/ |archivedate =October 7, 2012}}&lt;/ref&gt; then reintroduced in Office for Mac 2011.&lt;ref name="macworld_office_2011"/&gt;
+
+Microsoft tried in the mid-1990s to port Office to RISC processors such as [[NEC]]/[[MIPS architecture|MIPS]] and [[IBM]]/[[PowerPC]], but they met problems such as memory access being hampered by [[data structure alignment]] requirements. Microsoft Word 97 and Excel 97, however, did ship for the [[DEC Alpha]] platform. Difficulties in porting Office may have been a factor in discontinuing [[Windows NT]] on non-Intel platforms.&lt;ref&gt;{{cite news|title=Can Linux break Intel's hold on the market?|url=http://edition.cnn.com/TECH/computing/9909/03/linux.alpha.idg/index.html|newspaper=[[CNN]]|date=September 3, 1999|author=Nicholas Petreley}}&lt;/ref&gt;
+
+==Pricing model and editions==
+The Microsoft Office applications and suites are sold via retail channels, and [[volume licensing]] for larger organizations (also including the "Home Use Program". allowing users at participating organizations to buy low-cost licenses for use on their personal devices as part of their employer's volume license agreement).&lt;ref&gt;{{Cite web|url=https://www.zdnet.com/article/microsoft-office-2013-now-available-to-business-users-via-home-use-program/|title=Microsoft Office 2013 now available to business users via Home Use Program|last=Foley|first=Mary Jo|website=ZDNet|language=en|access-date=2019-02-06}}&lt;/ref&gt;
+
+In 2010, Microsoft introduced a [[software as a service]] platform known as [[Office 365]], to provide [[Cloud server|cloud]]-hosted versions of Office's server software, including Exchange e-mail and SharePoint, on a subscription basis (competing in particular with [[Google Apps]]).&lt;ref name=nw-office365beta&gt;{{cite web|title=Microsoft takes aim at Google Apps with Office 365|url=http://www.networkworld.com/news/2010/101810-microsoft-office-365.html|work=Network World|accessdate=15 March 2013|url-status=dead|archiveurl=https://web.archive.org/web/20130501200751/http://www.networkworld.com/news/2010/101810-microsoft-office-365.html|archivedate=May 1, 2013|df=mdy-all}}&lt;/ref&gt;&lt;ref name="pcw-bpos migration"&gt;{{cite web|title=BPOS Customers Face Transition to Office 365|url=http://www.pcworld.com/article/231220/article.html|work=PC World|accessdate=18 June 2013}}&lt;/ref&gt; Following the release of Office 2013, Microsoft began to offer Office 365 plans for the consumer market, with access to Microsoft Office software on multiple devices with free feature updates over the life of the subscription, as well as other services such as [[OneDrive]] storage.&lt;ref name=ars-365-hp&gt;{{cite web |title=Review: Microsoft Office 365 Home Premium Edition hopes to be at your service |url=https://arstechnica.com/information-technology/2013/01/hands-on-with-microsofts-office-365-home-premium-edition/ |work=[[Ars Technica]] |publisher=[[Condé Nast]] |date=29 January 2013 |first=Sean |last=Gallagher}}&lt;/ref&gt;&lt;ref name=cw-365new&gt;{{cite web|title=Office 365 for businesses gets upgraded, new bundles added|url=http://www.computerworld.com/s/article/9237191/Office_365_for_businesses_gets_upgraded_new_bundles_added |work=[[ComputerWorld]] |publisher=[[IDG]] |first=Juan Carlos |last=Perez |date=27 February 2013}}&lt;/ref&gt;
+
+Microsoft has since promoted Office 365 as the primary means of purchasing Microsoft Office. Although there are still "on-premises" releases roughly every three years, Microsoft marketing emphasizes that they do not receive new features or access to new cloud-based services as they are released unlike Office 365, as well as other benefits for consumer and business markets.&lt;ref&gt;{{Cite web|url=https://venturebeat.com/2019/02/06/microsoft-office-2019-office-365-comparison-twins/|title=Microsoft really doesn’t want you to buy Office 2019|date=2019-02-06|website=VentureBeat|language=en-US|access-date=2019-02-06}}&lt;/ref&gt;&lt;ref&gt;{{Cite web|url=https://www.pcworld.com/article/3228116/software-productivity/microsoft-announces-office-2019-for-customers-who-dont-want-to-pay-forever-for-office-365.html|title=Microsoft announces Office 2019 for customers who don't want to pay forever for Office 365|date=2017-09-26|website=PCWorld|language=en|access-date=2019-02-06}}&lt;/ref&gt;&lt;ref&gt;{{Cite web|url=https://www.zdnet.com/article/microsoft-office-has-changed-how-you-use-it-should-too/|title=Microsoft Office has changed, how you use it should too|last=Branscombe|first=Mary|website=ZDNet|language=en|access-date=2019-02-06}}&lt;/ref&gt; Office 365 revenue overtook traditional license sales for Office in 2017.&lt;ref&gt;{{Cite news |url=https://arstechnica.com/information-technology/2017/07/microsoft-4q17-office-365-revenue-surpasses-traditional-licenses/ |title=Microsoft 4Q17: Office 365 revenue surpasses traditional licenses |work=[[Ars Technica]] |publisher=[[Condé Nast]] |date=21 July 2017 |access-date=February 6, 2019 |archive-url=https://web.archive.org/web/20190201110644/https://arstechnica.com/information-technology/2017/07/microsoft-4q17-office-365-revenue-surpasses-traditional-licenses/ |archive-date=February 1, 2019 |url-status=dead }}&lt;/ref&gt;
+
+=== Retail editions ===
+Microsoft Office is available in several editions, which regroup a given number of applications for a specific price. Current retail editions are grouped by category:
+* Home: Home, Personal, Home &amp; Student.
+* Business: Business, Business Premium, Business Essentials.
+*Enterprise: ProPlus, E1, E3, E5
+*Education
+
+=== Education pricing ===
+Post-secondary students may obtain the University edition of Microsoft Office 365 subscription. It is limited to one user and two devices, plus the subscription price is valid for four years instead of just one.  Apart from this, the University edition is identical in features to the Home Premium version.  This marks the first time Microsoft does not offer physical or permanent software at academic pricing, in contrast to the University versions of [[Microsoft Office 2010|Office 2010]] and [[Microsoft Office for Mac 2011|Office 2011]]. In addition, students eligible for [[DreamSpark]] program may receive select standalone Microsoft Office apps free of charge.
+
+==Discontinued applications and features==
+* [[Microsoft Binder]]: Incorporates several documents into one file and was originally designed as a container system for storing related documents in a single file. The complexity of use and learning curve led to little usage, and it was discontinued after Office XP.
+* [[Microsoft FrontPage]]: a [[WYSIWYG]] HTML editor and website administration tool for Windows. It was branded as part of the Microsoft Office suite from 1997 to 2003. FrontPage was discontinued in December 2006 and replaced by [[Microsoft SharePoint Designer]] and [[Microsoft Expression Web]].
+* [[Microsoft InfoPath]]: Windows application for designing and distributing rich [[XML]]-based forms. The last version was included in Office 2013.&lt;ref&gt;{{cite web|title=Update on InfoPath and SharePoint Forms|url=http://blogs.office.com/2014/01/31/update-on-infopath-and-sharepoint-forms/|website=Office Blogs|publisher=[[Microsoft]]|accessdate=July 25, 2014|date=January 31, 2014}}&lt;/ref&gt;
+* [[Microsoft Mail]]: Mail client (in old versions of Office, later replaced by [[Microsoft Schedule Plus]] and subsequently [[Microsoft Outlook]]).
+* [[Microsoft Office Accounting]]
+* Microsoft Office Document Image Writer: a [[virtual printer]] that takes documents from Microsoft Office or any other application and prints them, or stores them in an image file as TIFF or [[Microsoft Document Imaging Format]] format. It was discontinued with Office 2010.&lt;ref name="modi_office2010"&gt;{{cite web | url=http://support.microsoft.com/kb/982760 | title= Alternative methods to regain the functionalities of Microsoft Office Document Imaging (MODI) | publisher=Microsoft | date=May 31, 2010 | accessdate=October 31, 2010}}&lt;/ref&gt;
+* [[Microsoft Office Document Imaging]]: an application that supports editing scanned documents. Discontinued Office 2010.&lt;ref name="modi_office2010"/&gt;
+* [[Microsoft Office Document Scanning]]: a [[Image scanning|scanning]] and [[Optical character recognition|OCR]] application. Discontinued Office 2010.&lt;ref name="modi_office2010" /&gt;
+* [[Microsoft PhotoDraw 2000]]: A graphics program that was first released as part of the Office 2000 Premium Edition. A later version for [[Windows XP]] compatibility was released, known as PhotoDraw 2000 Version 2. Microsoft discontinued the program in 2001.
+* [[Microsoft Photo Editor]]: Photo-editing/raster-graphics software in older Office versions up to Office XP. It was supplemented by Microsoft PhotoDraw in Office 2000 Premium edition.
+* [[Microsoft Schedule Plus]]: Released with Office 95. It featured a planner, to-do list, and contact information. Its functions were incorporated into Microsoft Outlook.
+* [[Microsoft Virtual PC]]: Included with Microsoft Office Professional Edition 2004 for Mac. Microsoft discontinued support for Virtual PC on the Mac in 2006 owing to new Macs possessing the same Intel architecture as Windows PCs.&lt;ref&gt;{{cite news|url=https://www.macworld.com/news/2006/08/07/vpc/|title=WWDC: Microsoft kills Virtual PC for Mac|work=MacWorld|date=August 7, 2006|accessdate=October 8, 2007|last=Cohen|first=Peter|url-status=dead|archiveurl=https://web.archive.org/web/20121007065557/http://www.macworld.com/news/2006/08/07/vpc/|archivedate=October 7, 2012|df=dmy-all}}&lt;/ref&gt; It emulated a standard PC and its hardware.
+* [[Microsoft Vizact 2000]]: A program that "activated" documents using HTML, adding effects such as animation. It allows users to create dynamic documents for the Web. The development has ended due to unpopularity.
+* [[Microsoft Data Analyzer]] 2002: A [[business intelligence]] program for graphical visualization of data and its analysis.
+* [[Office Assistant]], included since Office 97 (Windows) and Office 98 (Mac) as a part of [[Microsoft Agent]] technology, is a system that uses [[animated]] characters to offer [[context-sensitive help|context-sensitive]] suggestions to users and access to the [[help system]]. The Assistant is often dubbed "Clippy" or "Clippit", due to its default to a [[paper clip]] character, coded as &lt;code&gt;CLIPPIT.ACS&lt;/code&gt;. The latest versions that include the Office Assistant were Office 2003 (Windows) and Office 2004 (Mac).
+* [[Microsoft SharePoint Workspace]] (formerly known as Microsoft Office Groove): a proprietary [[peer-to-peer]] document collaboration software designed for teams with members who are regularly offline or who do not share the same network security clearance.
+* [[Microsoft SharePoint Designer]]: Initially a WYSIWYG HTML editor and website administration tool, Microsoft attempted to turn it into a specialized HTML editor for SharePoint sites, failed and discontinued it.
+* [[Microsoft Office InterConnect]]: business-relationship database available only in Japan
+* [[Microsoft Office Picture Manager]]: basic photo management software (similar to [[Google]]'s [[Picasa]] or [[Adobe Systems|Adobe]]'s [[Photoshop Elements]]), replaced [[Microsoft Photo Editor]]
+* [[Microsoft Entourage]]: An Outlook counterpart on macOS, Microsoft discontinued it in favor of extending the Outlook brand name.
+
+===Discontinued server applications===
+* [[Microsoft Office Forms Server]]: Lets users use any browser to access and fill InfoPath forms. Office Forms Server is a standalone server installation of InfoPath Forms Services.
+* [[Microsoft Office Groove Server]]: Centrally managing all deployments of [[Microsoft Office Groove]] in the enterprise
+* [[Microsoft Office Project Portfolio Server]]: Allows creation of a project portfolio, including workflows, hosted centrally
+* [[Microsoft Office PerformancePoint Server]]: Allows customers to monitor, analyze, and plan their business
+
+===Discontinued web services===
+* [[Microsoft Office Live|Office Live]]
+** Office Live Small Business: [[Web hosting]] services and online collaboration tools for small businesses
+** Office Live Workspace: Online storage and collaboration service for documents, superseded by [[Office Online]]
+* [[Microsoft Office Live Meeting|Office Live Meeting]]: Web conferencing service
+
+== Criticism ==
+=== Data formats ===
+Microsoft Office has been criticized in the past for using proprietary file formats rather than [[open standard]]s, which forces users who share data into adopting the same software platform.&lt;ref&gt;{{cite web|url=https://www.gnu.org/philosophy/no-word-attachments.html|title=gnu.org|publisher=}}&lt;/ref&gt; However, on February 15, 2008, Microsoft made the entire documentation for the binary Office formats freely available under the [[Microsoft Open Specification Promise|Open Specification Promise]].&lt;ref&gt;{{cite web|url=https://www.microsoft.com/interop/docs/OfficeBinaryFormats.mspx|title=Open Specifications Developer Center|publisher=[[Microsoft]]|url-status=usurped|archive-url=https://web.archive.org/web/20080218212338/http://www.microsoft.com/interop/docs/officebinaryformats.mspx |archive-date=February 18, 2008|date=February 15, 2008}}&lt;/ref&gt; Also, [[Office Open XML]], the document format for the latest versions of Office for Windows and Mac, has been standardized under both [[Ecma International]] and [[International Organization for Standardization|ISO]]. Ecma International has published the Office Open XML specification free of copyrights and Microsoft has granted patent rights to the formats technology under the Open Specification Promise&lt;ref&gt;[https://www.microsoft.com/interop/osp/default.mspx Microsoft Open Specification Promise]&lt;/ref&gt; and has made available free downloadable converters for previous versions of Microsoft Office including Office 2003, Office XP, Office 2000 and Office 2004 for the [[Macintosh|Mac]]. Third-party implementations of Office Open XML exist on the Mac platform (iWork 08) and [[Linux]] ([[OpenOffice.org]] 2.3 – Novell Edition only).
+
+=== Unicode and bi-directional texts ===
+Another point of criticism Microsoft Office has faced was the lack of support in its Mac versions for [[Unicode]] and [[Bi-directional text]] languages, notably [[Arabic alphabet|Arabic]] and [[Hebrew alphabet|Hebrew]]. This issue, which had existed since the first release in 1989, was addressed in the 2016 version.&lt;ref&gt;{{cite web|url=http://blogs.msdn.com/macmojo/archive/2007/09/25/velkommen-tervetuloa-velkommen-and-bienvenue-paris.aspx|title='Velkommen, Tervetuloa, Velkommen' and 'Bienvenue à Paris'|last=Paquin|first=Eric|publisher=[[Microsoft]]|work=Mac Mojo}}&lt;/ref&gt;&lt;ref&gt;{{cite web|url=https://support.office.com/en-us/article/Type-in-a-bi-directional-language-in-Office-2016-for-Mac-d7bb1d52-4d82-4482-910f-d74b7c3bd468|title=Type in a bi-directional language in Office 2016 for Mac|publisher=[[Microsoft]]|work=Office Support|accessdate=September 10, 2016}}&lt;/ref&gt;
+
+=== Privacy ===
+On 13 November 2018, a report initiated by the Government of the Netherlands concluded that Microsoft Office 2016 and Office 365 do not comply with [[General Data Protection Regulation|GDPR]], the European law which regulates data protection and privacy for all citizens in and outside the EU and EFTA region.&lt;ref&gt;https://www.privacycompany.eu/en/impact-assessment-shows-privacy-risks-microsoft-office-proplus-enterprise/&lt;/ref&gt; The investigation was initiated by the observation that Microsoft does not reveal or share publicly any data collected about users of its software. In addition, the company does not provide users of its (Office) software an option to turn off diagnostic and telemetry data sent back to the company. Researchers found that most of the data that the Microsoft software collects and "sends home" is diagnostics. Researchers also observed that Microsoft "seemingly tried to make the system GDPR compliant by storing Office documents on servers based in the EU". However, they discovered the software packages collected additional data that contained private user information, some of which was stored on servers located in the US.&lt;ref&gt;{{cite web|url=https://www.rijksoverheid.nl/binaries/rijksoverheid/documenten/rapporten/2018/11/07/data-protection-impact-assessment-op-microsoft-office/Update+on+negotiations+between+Dutch+central+government+and+Microsoft+on+GDPR+compliance+November+7.pdf|last=Netherlands Ministry of Justice|title=Data Protection Impact Assessment (DPIA) Microsoft Office 2016 and 365}}&lt;/ref&gt; The Netherlands Ministry of Justice hired Privacy Company to probe and evaluate the use of Microsoft Office products in the public sector.&lt;ref name="The Register"/&gt; "Microsoft systematically collects data on a large scale about the individual use of Word, Excel, PowerPoint, and Outlook. Covertly, without informing people," researchers of the Privacy Company stated in their blog post. "Microsoft does not offer any choice with regard to the amount of data, or possibility to switch off the collection, or ability to see what data are collected, because the data stream is encoded."&lt;ref&gt;{{cite web|url=https://www.privacycompany.eu/en/impact-assessment-shows-privacy-risks-microsoft-office-proplus-enterprise/|last=Privacy Company|title=
+The impact assessment shows privacy risks in Microsoft Office ProPlus Enterprise}}&lt;/ref&gt;
+
+The researchers commented that there is no need for Microsoft to store information such as IPs and email addresses, which are collected automatically by the software. "Microsoft should not store these transient, functional data, unless the retention is strictly necessary, for example, for security purposes," the researchers conclude in the final report by the Netherlands Ministry of Justice.&lt;ref&gt;{{cite web|url=https://www.rijksoverheid.nl/binaries/rijksoverheid/documenten/rapporten/2018/11/07/data-protection-impact-assessment-op-microsoft-office/Update+on+negotiations+between+Dutch+central+government+and+Microsoft+on+GDPR+compliance+November+7.pdf|last=Netherlands Ministry of Justice|title=Data Protection Impact Assessment (DPIA) Microsoft Office 2016 and 365}}&lt;/ref&gt;
+
+As a result of this in-depth study and its conclusions, the Netherlands regulatory body concluded that Microsoft has violated GDPR "on many counts" including "lack of transparency and purpose limitation, and the lack of a legal ground for the processing."&lt;ref&gt;{{cite web|url=https://www.rijksoverheid.nl/binaries/rijksoverheid/documenten/rapporten/2018/11/07/data-protection-impact-assessment-op-microsoft-office/Update+on+negotiations+between+Dutch+central+government+and+Microsoft+on+GDPR+compliance+November+7.pdf|last=Netherlands Ministry of Justice|title=Data Protection Impact Assessment (DPIA) Microsoft Office 2016 and 365}}&lt;/ref&gt; Microsoft has provided the Dutch authorities with an "improvement plan" that should satisfy Dutch regulators that it "would end all violations." The Dutch regulatory body is monitoring the situation and states that "If progress is deemed insufficient or if the improvements offered are unsatisfactory, SLM Microsoft Rijk will reconsider its position and may ask the Data Protection Authority to carry out a prior consultation and to impose enforcement measures."&lt;ref&gt;{{cite web|url=https://www.rijksoverheid.nl/documenten/rapporten/2018/11/07/data-protection-impact-assessment-op-microsoft-office|title=Data Protection Impact Assessment op Microsoft Office}}&lt;/ref&gt; When asked for a response by an IT professional publication, a Microsoft spokesperson stated: We are committed to our customers’ privacy, putting them in control of their data and ensuring that Office ProPlus and other Microsoft products and services comply with GDPR and other applicable laws. We appreciate the opportunity to discuss our diagnostic data handling practices in Office ProPlus with the Dutch Ministry of Justice and look forward to a successful resolution of any concerns."&lt;ref name="The Register"&gt;{{cite web|url=https://www.theregister.co.uk/2018/11/16/microsoft_gdpr/|last=The Register|title=Microsoft menaced with GDPR mega-fines in Europe for 'large scale and covert' gathering of people's info via Office}}&lt;/ref&gt;
+The user privacy data issue affects ProPlus subscriptions of Microsoft Office 2016 and Microsoft Office 365, including the online version of Microsoft Office 365.&lt;ref&gt;{{cite web|url=https://www.rijksoverheid.nl/binaries/rijksoverheid/documenten/rapporten/2018/11/07/data-protection-impact-assessment-op-microsoft-office/Update+on+negotiations+between+Dutch+central+government+and+Microsoft+on+GDPR+compliance+November+7.pdf|last=Netherlands Ministry of Justice|title=Data Protection Impact Assessment (DPIA) Microsoft Office 2016 and 365}}&lt;/ref&gt;
+
+== History of releases ==
+{{Version|l|show=111111}}
+{| class="wikitable" style="text-align:center"
+|+ Windows
+|-
+! rowspan="2" | Office version
+! rowspan="2" | Version number
+! colspan="2" rowspan="2" | Minimum [[operating system]] version
+! colspan="2" | Office support end date
+|-
+! Mainstream
+! Extended
+|-
+| [[Microsoft Office 2019|2019]]
+| 16.0&lt;ref&gt;{{cite web |author1=Daniel H. Brown |author2=msft-bcorob |title=Supported scenarios for installing different versions of Office, Project, and Visio on the same computer |url=https://docs.microsoft.com/en-us/deployoffice/install-different-office-visio-and-project-versions-on-the-same-computer |publisher=Microsoft.com |accessdate=March 20, 2019 |date=March 1, 2019 |quote=Office 365, Office 2019, and Office 2016 all have the same version: 16.0}}&lt;/ref&gt;
+| rowspan="12" | [[Windows]]&lt;br /&gt;&lt;small&gt;client&lt;br /&gt;versions&lt;/small&gt;
+| [[Windows 10|10]]&lt;ref&gt;{{cite web|url=https://www.theverge.com/2018/2/1/16960640/microsoft-office-2019-windows-10-support|title=Microsoft Office 2019 will only work on Windows 10|last1=Warren|first1=Tom|date=February 1, 2018|website=[[The Verge]]|publisher=[[Vox Media]]}}&lt;/ref&gt;
+| {{version|c|October 10, 2023}}
+| {{version|c|October 14, 2025}}
+|-
+| [[Microsoft Office 2016|2016]]
+| 16.0
+| [[Windows 7|7 SP1]]&lt;ref&gt;{{cite web|url=https://products.office.com/en-us/office-system-requirements#SUITES|title=System requirements for Office 2016|date=September 22, 2015|publisher=[[Microsoft]]}}&lt;/ref&gt;
+| {{version|co|October 13, 2020}}&lt;ref name="support-2016-windows"&gt;{{cite web|url=https://support.microsoft.com/en-us/lifecycle/search/18412 |title=Office 2016 Support Lifecycle |work=Support |publisher=[[Microsoft]] |accessdate=September 22, 2015}}&lt;/ref&gt;
+| {{version|co|October 14, 2025}}&lt;ref name="support-2016-windows"/&gt;
+|-
+| [[Microsoft Office 2013|2013]]
+| 15.0
+| [[Windows 7|7]]&lt;ref&gt;{{cite web|url=https://technet.microsoft.com/library/ee624351%28office.15%29.aspx#Overview1|title=System requirements for Office 2013|date=December 4, 2012|work=[[Microsoft TechNet|TechNet]]|publisher=Microsoft|at=Office 2013 for Personal Computers – standard system requirements|accessdate=December 19, 2012}}&lt;/ref&gt;
+| {{version|o|April 10, 2018}}&lt;ref name="support-2013-windows"&gt;{{cite web|url=https://support.microsoft.com/en-us/lifecycle/search/16674 |title=Office 2013 Support Lifecycle |work=Support |publisher=Microsoft |accessdate=April 9, 2017}}&lt;/ref&gt;
+| {{version|co|April 11, 2023}}&lt;ref name="support-2013-windows"/&gt;
+|-
+| [[Microsoft Office 2010|2010]]
+| 14.0
+| [[Windows XP|XP SP3]]&lt;ref&gt;{{cite web|url=https://technet.microsoft.com/en-us/library/ee624351%28v=office.14%29.aspx|title=System requirements for Office 2010|work=[[Microsoft TechNet|TechNet]]|publisher=[[Microsoft]]|accessdate=April 22, 2016}}&lt;/ref&gt;
+| {{version|o|October 13, 2015}}
+| {{version|co|October 13, 2020}}
+|-
+| [[Microsoft Office 2007|2007]]
+| 12.0
+| [[Windows XP SP2|XP SP2]]&lt;ref&gt;{{cite web|url=https://technet.microsoft.com/en-us/library/dd188670%28office.12%29.aspx#BKMK_SysReqs|title=Getting started with the 2007 Office system|work=[[Microsoft TechNet#Library|TechNet Library]]|publisher=Microsoft|at=System requirements for the 2007 Office release|accessdate=March 6, 2013}}&lt;/ref&gt;
+| {{version|o|October 9, 2012}}&lt;ref name="support-2007" /&gt;
+| {{version|o|October 10, 2017}}&lt;ref name="support-2007"&gt;{{Cite web |url=https://support.microsoft.com/en-us/lifecycle/search/8753 |title=Office 2007 |website=Search product lifecycle |publisher=Microsoft |access-date=June 18, 2017}}&lt;/ref&gt;
+|-
+| [[Microsoft Office 2003|2003]]
+| 11.0
+| [[Windows 2000|2000 SP3]]&lt;ref&gt;{{cite web|url=https://support.microsoft.com/en-us/kb/822129|title=List of system requirements for Microsoft Office 2003|publisher=Microsoft|accessdate=December 30, 2015}}&lt;/ref&gt;
+| {{version|o|April 14, 2009}}
+| {{version|o|April 8, 2014}}
+|-
+| [[Microsoft Office XP|XP]]
+| 10.0
+| [[Windows 98|98]] or [[Windows NT 4.0|NT 4 SP6a]]&lt;ref&gt;{{cite web|url=https://support.microsoft.com/en-us/kb/285342|title=List of system requirements for Microsoft Office XP|publisher=Microsoft|accessdate=April 29, 2016}}&lt;/ref&gt;&lt;ref&gt;{{cite web|url=https://support.microsoft.com/en-us/kb/932087|title=Description of the versions of Office that are supported on Windows Vista|publisher=Microsoft|accessdate=April 29, 2016}}&lt;/ref&gt;
+| {{version|o|July 11, 2006}}&lt;ref name="support-xp" /&gt;
+| {{version|o|July 12, 2011}}&lt;ref name="support-xp"&gt;{{Cite web |url=https://support.microsoft.com/en-us/lifecycle/search/2533 |title=Office XP |website=Search product lifecycle |publisher=Microsoft |access-date=June 18, 2017}}&lt;/ref&gt;
+|-
+| [[Microsoft Office 2000|2000]]
+| 9.0
+| [[Windows 95|95]] or [[Windows NT 4|NT 4 SP3]]&lt;ref&gt;{{cite web|url=https://support.microsoft.com/en-us/kb/217883|title=Description of the system requirements for all editions of Office 2000|website=Support|publisher=[[Microsoft]]|accessdate=September 2, 2015}}&lt;/ref&gt;
+| {{version|o|June 30, 2004}}
+| {{version|o|July 14, 2009}}
+|-
+| [[Microsoft Office 97|97]]
+| 8.0
+| [[Windows NT 3.51|NT 3.51]] or [[Windows 95|95]]
+| {{version|o|August 31, 2001}}&lt;ref name=support-97 /&gt;
+| {{version|o|February 28, 2002}}&lt;ref name=support-97&gt;{{cite web|title=Office 97|url=https://support.microsoft.com/en-us/lifecycle/search/2507 |website=Search product lifecycle |publisher=[[Microsoft]]|accessdate=June 18, 2017}}&lt;/ref&gt;
+|-
+| [[Microsoft Office 95|95]]
+| 7.0
+| [[Windows NT 3.51|NT 3.51]] or [[Windows 95|95]]
+| {{version|o|December 31, 2001}}&lt;ref name="support-95" /&gt;
+| {{N/A}}&lt;ref name="support-95"&gt;{{Cite web |url=https://support.microsoft.com/en-us/lifecycle/search/2503 |title=Office 95 |website=Search product lifecycle |publisher=Microsoft |access-date=June 18, 2017}}&lt;/ref&gt;
+|-
+| 4.x
+| 6.0
+| [[Windows 3.1|3.1]]
+| {{version|o|November 1, 2000}}&lt;ref name="support-4.x" /&gt;
+| {{N/A}}&lt;ref name="support-4.x"&gt;{{cite web|title=Office 4.x|url=https://support.microsoft.com/en-us/lifecycle/search?alpha=Office%204.&lt;!--Don't drop this "."--&gt; |website=Search product lifecycle |publisher=Microsoft |accessdate=June 18, 2017}}&lt;/ref&gt;
+|-
+| 3.x
+| {{N/A|Various}}
+| [[Windows 3.0|3.0]]&lt;ref&gt;{{cite journal |title=Microsoft Office now has Mail, PowerPoint |journal=[[InfoWorld]] |date=August 31, 1992 |volume=14 |issue=35 |page=15 |url=https://books.google.com/books?id=EVEEAAAAMBAJ |accessdate=April 12, 2019 |issn=0199-6649}}&lt;/ref&gt;
+| {{version|o|September 30, 1998}}&lt;ref name="support-3.x" /&gt;
+| {{N/A}}&lt;ref name="support-3.x"&gt;{{cite web|title=Office 3.x|url=https://support.microsoft.com/en-us/lifecycle/search?alpha=Office%203.&lt;!--Don't drop this "."--&gt; |website=Search product lifecycle |publisher=Microsoft |accessdate=June 18, 2017}}&lt;/ref&gt;
+|}
+{| class="wikitable" style="text-align:center"
+|+ Mac
+|-
+! rowspan="2" | Office version
+! rowspan="2" | Version number
+! colspan="2" rowspan="2" | Minimum [[operating system]]
+! colspan="2" | Office support end date
+|-
+! Mainstream
+! Extended
+|-
+| [[Microsoft Office 2019|2019 for Mac]]
+| 16.0
+| rowspan="6" | [[macOS]]
+| [[macOS Sierra|10.12]] – [[macOS Mojave|10.14]] 
+| {{version|c|October 10, 2023}}
+| {{N/A}}
+|-
+| [[Microsoft Office 2016|2016 for Mac]]
+| 15.0
+| [[OS X Yosemite|10.10]] – [[macOS High Sierra|10.13]]&lt;ref name="OfficeHighSierra"&gt;{{cite web|url=https://www.neowin.net/news/microsoft-says-office-for-mac-2011-will-not-be-supported-on-macos-1013-high-sierra|title=Microsoft says Office for Mac 2011 will not be supported on macOS 10.13 High Sierra|last1=Weir|first1=Andy|date=June 5, 2017|website=Neowin|language=en|accessdate=June 6, 2017}}&lt;/ref&gt;
+| {{version|co|October 13, 2020}}&lt;ref name="support-2016-mac"&gt;{{cite web|url=https://support.microsoft.com/en-us/lifecycle/search/18335 |title=Office 2016 for Mac Support Lifecycle |work=Support |publisher=Microsoft |accessdate=September 17, 2015}}&lt;/ref&gt;
+| {{N/A}}&lt;ref name="support-2016-mac"/&gt;
+|-
+| [[Microsoft Office for Mac 2011|2011 for Mac]]
+| 14.0
+| [[Mac OS X Leopard|10.5]] &lt;small&gt;(Intel)&lt;/small&gt; – [[macOS Sierra|10.12]]&lt;ref name="OfficeHighSierra" /&gt;
+| {{version|o|October 10, 2017}}&lt;ref name="support-2011"&gt;{{cite web|url=https://support.microsoft.com/en-us/lifecycle/search/15627 |title=Office 2011 for Mac Support Lifecycle |work=Support |publisher=Microsoft |accessdate=April 24, 2013}}&lt;/ref&gt; || {{N/A}}&lt;ref name="support-2011"/&gt;
+|-
+| [[Microsoft Office 2008 for Mac|2008 for Mac]]
+| 12.0
+| [[Mac OS X Tiger|10.4]] &lt;small&gt;(PPC)&lt;/small&gt; – [[macOS Sierra|10.12]]&lt;ref name="OfficeHighSierra" /&gt;
+| {{version|o|April 9, 2013}}&lt;ref name=support-2008 /&gt; || {{N/A}}&lt;ref name=support-2008&gt;{{cite web|url=https://support.microsoft.com/en-us/lifecycle/search/12853 |title=Office 2008 for Mac Support Lifecycle |work=Support |publisher=Microsoft |accessdate=April 24, 2013}}&lt;/ref&gt;
+|-
+| [[Office 2004 for Mac|2004 for Mac]]
+| 11.0
+| [[Mac OS X 10.2|10.2]] – [[Mac OS X Snow Leopard|10.6]]
+| {{version|o|January 10, 2012}}&lt;ref name=support-2004 /&gt; || {{N/A}}&lt;ref name=support-2004&gt;{{cite web|url=https://support.microsoft.com/en-us/lifecycle/search/2490 |title=Office 2004 for Mac Support Lifecycle |work=Support |publisher=Microsoft |accessdate=April 24, 2013}}&lt;/ref&gt;
+|-
+| v. X
+| 10.0
+| [[Mac OS X 10.1|10.1]] – [[Mac OS X Snow Leopard|10.6]]
+| {{version|o|January 9, 2007}}&lt;ref name=support-x /&gt; || {{N/A}}&lt;ref name=support-x&gt;{{cite web|url=https://support.microsoft.com/en-us/lifecycle/search/2532 |title=Office X for Mac Support Lifecycle |work=Support |publisher=Microsoft |accessdate=April 24, 2013}}&lt;/ref&gt;
+|-
+| [[Microsoft Office 2001|2001]]
+| 9.0
+| rowspan="4" | [[Classic Mac OS|Classic&lt;br /&gt;Mac OS]]
+| [[Mac OS 8|8.1]] &lt;small&gt;(PPC)&lt;/small&gt;
+| {{version|o|December 31, 2005}}&lt;ref name=support-2001 /&gt; || {{N/A}}&lt;ref name=support-2001&gt;{{cite web|url=https://support.microsoft.com/en-us/lifecycle/search/2487 |title=Office 2001 for Mac Support Lifecycle |work=Support |publisher=Microsoft |accessdate=April 24, 2013}}&lt;/ref&gt;
+|-
+| [[Microsoft Office 98 Macintosh Edition|98 Macintosh Edition]]
+| 8.0
+| [[System 7|7.5]] &lt;small&gt;(PPC)&lt;/small&gt;
+| {{version|o|June 30, 2003}}&lt;ref name=support-98 /&gt; || {{N/A}}&lt;ref name=support-98&gt;{{cite web|url=https://support.microsoft.com/en-us/lifecycle/search/2508 |title=Office 98 for Mac Support Lifecycle |work=Support |publisher=Microsoft |accessdate=April 24, 2013}}&lt;/ref&gt;
+|-
+| 4.2
+| 7.0
+| [[System 7|7.0]] &lt;small&gt;(68K)&lt;/small&gt;
+| {{version|o|December 31, 1996}}&lt;ref name="support-4.x" /&gt; || {{N/A}}&lt;ref name="support-4.x" /&gt;
+|-
+| 3.0
+| 6.0
+| {{Dunno}}
+| {{version|o|June 1, 2001&lt;!--Strange!--&gt;}}&lt;ref name="support-3.x" /&gt;
+| {{N/A}}&lt;ref name="support-3.x" /&gt;
+|}
+{| class="wikitable" style="text-align:center"
+|+ iOS &amp; Android
+|-
+! rowspan="2" | Office version
+! rowspan="2" | Version number
+! colspan="2" rowspan="2" | Minimum [[operating system]]
+! colspan="2" | Office support end date
+|-
+! Mainstream
+! Extended
+|-
+| Android&lt;ref name=":0"&gt;{{cite web|url=https://play.google.com/store/apps/details?id=com.microsoft.office.word|title=Microsoft Word|website=Google Play|publisher=Google}}&lt;/ref&gt;&lt;ref name=":1"&gt;{{cite web|url=https://play.google.com/store/apps/details?id=com.microsoft.office.excel|title=Microsoft Excel|website=Google Play|publisher=Google}}&lt;/ref&gt;&lt;ref name=":2"&gt;{{cite web|url=https://play.google.com/store/apps/details?id=com.microsoft.office.powerpoint|title=Microsoft PowerPoint|website=Google Play|publisher=Google}}&lt;/ref&gt;&lt;br /&gt;&lt;small&gt;for Word, Excel, PowerPoint&lt;/small&gt;
+| 15.0
+| [[Android (operating system)|Android]]
+| [[Android KitKat|4.4.x KitKat]]
+| colspan="2" | Based on [[Office 365]] subscription
+|-
+| iOS&lt;ref name=":3"&gt;{{cite web|url=https://itunes.apple.com/app/microsoft-word/id586447913/|title=Microsoft Word|website=App Store|publisher=Apple}}&lt;/ref&gt;&lt;ref name=":4"&gt;{{cite web|url=https://itunes.apple.com/app/microsoft-excel/id586683407/|title=Microsoft Excel|website=App Store|publisher=Apple}}&lt;/ref&gt;&lt;ref name=":5"&gt;{{cite web|url=https://itunes.apple.com/app/microsoft-powerpoint/id586449534/|title=Microsoft PowerPoint|website=App Store|publisher=Apple}}&lt;/ref&gt;&lt;br /&gt;&lt;small&gt;for Word, Excel, PowerPoint&lt;/small&gt;
+| 2.24
+| [[iOS]]
+| [[iOS 11]]
+| colspan="2" | Based on [[Office 365]] subscription
+|}
+
+==Version history==
+{{Main|History of Microsoft Office}}
+
+===Windows versions===
+[[File:Office 4.0 Suite.jpg|thumb|Microsoft Office 4.0, inside [[Windows 3.1]]|240x240px]]
+
+====Microsoft Office for Windows====
+Microsoft Office for Windows&lt;ref&gt;{{cite news|title=The Microsoft Office for Windows Advertisement|newspaper=[[InfoWorld]]|date=November 19, 1990|page=50|url=https://books.google.com/books?id=wFAEAAAAMBAJ&amp;lpg=PA1&amp;pg=PA50#v=onepage&amp;q&amp;f=false}}&lt;/ref&gt; started in October 1990 as a bundle of three applications designed for Microsoft Windows 3.0: Microsoft Word for Windows 1.1, Microsoft Excel for Windows 2.0, and Microsoft PowerPoint for Windows 2.0.&lt;ref&gt;{{cite news|title= Office for Windows Bundles Popular Microsoft Applications|newspaper=InfoWorld|last=Johnston|first= Stuart J.|date=October 1, 1990|page=16|url=https://books.google.com/books?id=VTwEAAAAMBAJ&amp;pg=PT17}}&lt;/ref&gt;
+
+Microsoft Office for Windows 1.5 updated the suite with Microsoft Excel 3.0.&lt;ref&gt;{{cite news|title=Microsoft ships updated Office for Windows|newspaper=InfoWorld|date=March 4, 1991|page= 16|url=https://books.google.com/books?id=rlAEAAAAMBAJ&amp;pg=PT15}}&lt;/ref&gt;
+
+Version 1.6&lt;ref&gt;{{cite news|title=The Microsoft Office for Windows 1.6 Advertisement|newspaper=InfoWorld|date=July 8, 1991|pages=18–19|url=https://books.google.com/books?id=iVAEAAAAMBAJ&amp;pg=PA18}}&lt;/ref&gt; added Microsoft Mail for PC Networks 2.1 to the bundle.&lt;ref&gt;{{cite news|title=Microsoft Incorporates Mail for PC Networks Into Office for Windows| newspaper=InfoWorld|last=Eva|first=Elizabeth|date=May 27, 1991|page=16|url=https://books.google.com/books?id=ZFAEAAAAMBAJ&amp;pg=PT13}}&lt;/ref&gt;
+
+====Microsoft Office 3.0====
+[[Microsoft Office 3.0]],&lt;ref&gt;{{cite news|title=The Microsoft Office for Windows 3.0 Advertisement|newspaper=InfoWorld|date=April 5, 1993|pages= 18–19|url=https://books.google.com/books?id=ODwEAAAAMBAJ&amp;pg=PA18}}&lt;/ref&gt; also called Microsoft Office 92, was released on August 30, 1992 and&lt;ref&gt;{{cite news|title=Microsoft Office now has Mail, PowerPoint|newspaper=InfoWorld|date= August 31, 1992|page= 15|url=https://books.google.com/books?id=EVEEAAAAMBAJ&amp;pg=PA15}}&lt;/ref&gt; contained Word 2.0, Excel 4.0, PowerPoint 3.0 and Mail 3.0. It was the first version of Office also released on CD-ROM.&lt;ref&gt;{{cite news|title=Pipeline|newspaper=InfoWorld|date=February 15, 1993|page=16|url=https://books.google.com/books?id=ujsEAAAAMBAJ&amp;pg=PA16}}&lt;/ref&gt; In 1993, '''Microsoft Office Professional'''&lt;ref&gt;{{cite news|title=The Microsoft Office Professional Advertisement|newspaper=InfoWorld|date=July 5, 1993 |pages=17–19|url=https://books.google.com/books?id=QzsEAAAAMBAJ&amp;pg=PA17}}&lt;/ref&gt; was released, which added Microsoft Access 1.1.&lt;ref&gt;{{cite news|title= Microsoft Office gets Access | newspaper=InfoWorld | last=Willett | first=Shawn| last2 =Barney | first2=Doug | date=May 10, 1993 | page=111 | url=https://books.google.com/books?id=QTsEAAAAMBAJ&amp;pg=PA111}}&lt;/ref&gt;
+
+====Microsoft Office 4.x====
+Microsoft Office 4.0 was released containing Word 6.0, Excel 4.0a, PowerPoint 3.0 and Mail in 1993.&lt;ref&gt;[http://www.intowindows.com/microsoft-office-history-in-brief/] {{webarchive|url=https://web.archive.org/web/20120829165451/http://www.intowindows.com/microsoft-office-history-in-brief/|date=August 29, 2012}}&lt;/ref&gt; Word's version number jumped from 2.0 to 6.0 so that it would have the same version number as the MS-DOS and Macintosh versions (Excel and PowerPoint were already numbered the same as the Macintosh versions).
+
+Microsoft Office 4.2 for Windows NT was released in 1994 for i386, Alpha,&lt;ref&gt;{{cite web |url=http://d2ca.org/ss-gallery-winnt2k-commercial.html |archive-url=https://web.archive.org/web/20110725214705/http://d2ca.org/ss-gallery-winnt2k-commercial.html |url-status=dead |archive-date=July 25, 2011 |title=Windows NT/2000 Commercial Screen Shot Gallery: Dan's 20th Century Abandonware |publisher=D2ca.org |date= |accessdate=March 10, 2012 }}&lt;/ref&gt; MIPS and PowerPC&lt;ref&gt;{{cite web|url=http://www.thefreelibrary.com/MICROSOFT+ANNOUNCES+WORD+6.0+AND+MICROSOFT+EXCEL+5.0+FOR+WINDOWS+NT...-a015839910 |title=Microsoft announced Word 6.0 and Microsoft Excel 5.0 for Windows NT Workstation |publisher=Thefreelibrary.com |date=September 19, 1994 |accessdate=March 10, 2012}}&lt;/ref&gt; architectures, containing Word 6.0 and Excel 5.0 (both 32-bit,&lt;ref&gt;{{cite web|url=http://www.thefreelibrary.com/MICROSOFT+READIES+SUPPORTING+VERSIONS+OF+MICROSOFT+EXCEL+AND+WORD+FOR...-a017013735 |title=Microsoft readies supporting versions of Microsoft Excel and Word for Windows NT The PowerPC |publisher=Thefreelibrary.com |date=June 12, 1995 |accessdate=March 10, 2012}}&lt;/ref&gt; PowerPoint 4.0 (16-bit), and Microsoft Office Manager 4.2 (the precursor to the Office Shortcut Bar)).
+
+====Microsoft Office 95 and 97====
+'''[[Microsoft Office 95]]''' was released on August 24, 1995. Software version numbers were altered again to create parity across the suite{{snd}}every program was called version 7.0 meaning all but Word missed out versions. It was designed as a fully [[32-bit]] version to match [[Windows 95]]. Office 95 was available in two versions, Office 95 Standard and Office 95 Professional. The standard version consisted of Word 7.0, Excel 7.0, PowerPoint 7.0, and Schedule+ 7.0. The professional edition contained all of the items in the standard version plus [[Microsoft Access]] 7.0. If the professional version was purchased in [[CD-ROM]] form, it also included [[Microsoft Bookshelf|Bookshelf]].{{citation needed|date=October 2014}}
+
+The logo used in Office 95 returns in Office 97, 2000 and XP. [[Microsoft Office 98 Macintosh Edition]] also uses a similar logo.
+
+'''[[Microsoft Office 97]]''' (Office 8.0) included hundreds of new features and improvements, such as introducing command bars, a paradigm in which menus and toolbars were made more similar in capability and visual design. Office 97 also featured Natural Language Systems and grammar checking. Office 97 was the first version of Office to include the Office Assistant. In Brazil, it was also the first version to introduce the Registration Wizard, a precursor to [[Microsoft Product Activation]].
+
+====Microsoft Office 2000 to 2003====
+'''[[Microsoft Office 2000]]''' (Office 9.0) introduced [[adaptive]] menus, where little-used options were hidden from the user. It also introduced a new security feature, built around [[digital signature]]s, to diminish the threat of macro viruses. Office 2000 automatically trusts [[macro (computer science)|macros]] (written in VBA 6) that were digitally signed from authors who have been previously designated as trusted. The Registration Wizard, a precursor to [[Microsoft Product Activation]], remained in Brazil and was also extended to Australia and New Zealand, though not for volume-licensed editions. Academic software in the United States and Canada also featured the Registration Wizard.
+
+'''[[Microsoft Office XP]]''' (Office 10.0 or Office 2002) was released in conjunction with [[Windows XP]], and was a major upgrade with numerous enhancements and changes over Office 2000. Office XP introduced the [[Safe Mode]] feature, which allows applications such as Outlook to boot when it might otherwise fail by bypassing a corrupted [[Windows registry|registry]] or a faulty add-in. [[Smart tag (Microsoft)|Smart tag]] is a technology introduced with Office XP in Word and Excel and discontinued in Office 2010. Office XP includes integrated voice command and text dictation capabilities, as well as [[handwriting recognition]]. It was the first version to require [[Microsoft Product Activation]] worldwide and in all editions as an anti-piracy measure, which attracted widespread controversy.&lt;ref name="winitpro_activation"&gt;{{cite news | url=http://www.windowsitpro.com/article/windows-2000/office-xp-product-activation-a-personal-saga.aspx | archive-url=https://archive.is/20130209112950/http://www.windowsitpro.com/article/windows-2000/office-xp-product-activation-a-personal-saga.aspx | url-status=dead | archive-date=February 9, 2013 | title=Office XP Product Activation: A Personal Saga | last=Chernicoff | first=David | work=Windows IT Pro | date=June 22, 2001 | accessdate=November 7, 2010 }}&lt;/ref&gt; Product Activation remained absent from Office for Mac releases until it was introduced in [[Microsoft Office for Mac 2011|Office 2011 for Mac]].
+
+'''[[Microsoft Office 2003]]''' (Office 11.0) was released in 2003. It featured a new logo. Two new applications made their debut in Office 2003: Microsoft InfoPath and [[Microsoft OneNote|OneNote]]. It is the first version to use new, more colorful icons. Outlook 2003 provides improved functionality in many areas, including [[Kerberos (protocol)|Kerberos]] authentication, [[Remote procedure call|RPC]] over HTTP, Cached Exchange Mode, and an improved junk mail filter.
+
+====Microsoft Office 2007====
+'''[[Microsoft Office 2007]]''' (Office 12.0) was released in 2007. Office 2007's new features include a new [[graphical user interface]] called the Fluent User Interface,&lt;ref&gt;{{cite web |url=https://support.office.com/en-US/article/Use-the-Ribbon-instead-of-toolbars-and-menus-D946B26E-0C8C-402D-A0F7-C6EFA296B527 |title=Use the Ribbon instead of toolbars and menus |publisher=Microsoft |accessdate =June 8, 2016}}&lt;/ref&gt; replacing the menus and toolbars that have been the cornerstone of Office since its inception with a [[tabbed toolbar]], known as the [[Ribbon (computing)|Ribbon]]; new XML-based file formats called Office Open XML; and the inclusion of [[Microsoft Office Groove|Groove]], a [[collaborative software]] application.&lt;ref&gt;{{cite news | url= http://www.informationweek.com/news/software/reviews/showArticle.jhtml?articleID=194400938 | title= Review: A Comprehensive Look At Microsoft Office 2007 | first=Rick | last=Scott | first2=David | last2=DeJean | first3=Serdar | last3=Yegulalp | work=InformationWeek | date=November 20, 2006 | accessdate=October 30, 2010}}&lt;/ref&gt;
+
+{{anchor|Protected view}}
+
+====Microsoft Office 2010====
+'''[[Microsoft Office 2010]]''' (Office 14.0, because Microsoft [[triskaidekaphobia|skipped 13.0]]&lt;ref&gt;{{cite web |url=http://apcmag.com/microsoft_to_skip_unlucky_office_13.htm/ |title=Microsoft to skip 'unlucky' Office 13 |work=APC |publisher=[[Future plc|Future]] |date=March 29, 2007 |first=David |last=Flynn}}&lt;/ref&gt;) was finalized on April 15, 2010 and made available to consumers on June 15, 2010.&lt;ref name="office2010_pr"&gt;{{cite press release | url= https://www.microsoft.com/Presspass/press/2010/jun10/06-152010OfficeLaunchPR.mspx | title=Microsoft Office 2010 Now Available for Consumers Worldwide | publisher=Microsoft | date=June 10, 2010 | accessdate= October 30, 2010}}&lt;/ref&gt;&lt;ref&gt;{{cite news|url= http://www.neowin.net/news/office-14-slated-for-a-20092010-release|title= Office 14 slated for a 2009/2010 Release|work= Neowin.net|date=February 15, 2007|accessdate=December 19, 2009}}&lt;/ref&gt; The main features of Office 2010 include the backstage file menu, new collaboration tools, a customizable ribbon, protected view and a navigation panel. This is the first version to ship in [[32-bit]] and [[64-bit computing|64-bit]] variants. Microsoft Office 2010 featured a new logo, which resembled the 2007 logo, except in gold, and with a modification in shape.&lt;ref&gt;{{cite web |url= https://www.zdnet.com/blog/igeneration/office-2010-new-logo-outlook-and-user-interface/1475|title= Office 2010: new logo, Outlook, and user interface|date= April 18, 2009|first= Zack | last=Whittaker | work=[[ZDNet]] |publisher=[[CBS Interactive]] | accessdate= October 30, 2010}}&lt;/ref&gt;
+
+Microsoft released Service Pack 1 for Office 2010 on June 28, 2011&lt;ref&gt;
+{{cite web|url=http://www.officeforlawyers.com/tips/Office2010SP1.htm |title=Microsoft Office 2010 – Service Pack 1 |publisher=Officeforlawyers.com |date= |accessdate=March 10, 2012}}
+&lt;/ref&gt; and Service Pack 2 on July 16, 2013.&lt;ref&gt;{{Cite web|url=https://blogs.technet.microsoft.com/office_sustained_engineering/2013/07/16/office-2010-and-sharepoint-2010-service-pack-2-availability/|title=Office 2010 and SharePoint 2010 Service Pack 2 Availability|last=|first=|date=July 16, 2013|website=[[Microsoft TechNet|TechNet]]|publisher=[[Microsoft]]|archive-url=|archive-date=|url-status=|access-date=August 5, 2018}}&lt;/ref&gt;
+
+====Microsoft Office 2013====
+A technical preview of [[Microsoft Office 2013]] (Build 15.0.3612.1010) was released on January 30, 2012, and a Customer Preview version was made available to consumers on July 16, 2012.&lt;ref&gt;{{cite web |first=PJ |last=Hough |url=http://blogs.office.com/b/office-exec/archive/2012/01/30/quot-office-15-quot-begins-technical-preview.aspx |archive-url=https://web.archive.org/web/20120131014100/http://blogs.office.com/b/office-exec/archive/2012/01/30/quot-office-15-quot-begins-technical-preview.aspx |url-status=dead |archive-date=January 31, 2012 |title='Office 15' Begins Technical Preview |work=Office Exec |publisher=Microsoft |date=January 30, 2013 |accessdate=April 24, 2013 }}&lt;/ref&gt; It sports a revamped application interface; the interface is based on [[Metro (design language)|Metro]], the interface of [[Windows Phone]] and [[Windows 8]]. Microsoft Outlook has received the most pronounced changes so far; for example, the Metro interface provides a new visualization for scheduled tasks. PowerPoint includes more templates and transition effects, and OneNote includes a new splash screen.&lt;ref&gt;{{cite web |url=http://www.office-2012.com/microsoft-office-2012-15-0-2703-1000-first-look-with-full-screenshots/ |title=Microsoft Office 2012 15.0.2703.1000: First Look with Full Screenshots – Office 2012 |publisher=Office-2012.com |date=March 16, 2011 |accessdate=August 29, 2011 |url-status=dead |archiveurl=https://web.archive.org/web/20110623094440/http://www.office-2012.com/microsoft-office-2012-15-0-2703-1000-first-look-with-full-screenshots/ |archivedate=June 23, 2011 |df=dmy-all }}&lt;/ref&gt; On May 16, 2011, new images of Office 15 were revealed, showing Excel with a tool for filtering data in a timeline, the ability to convert Roman numerals to Arabic numerals, and the integration of advanced trigonometric functions. In Word, the capability of inserting video and audio online as well as the broadcasting of documents on the Web were implemented.&lt;ref&gt;{{cite web|url=http://www.neowin.net/news/office-15-build-15027031000-images-leak |title=Office 15 Build 15.0.2703.1000 images leak |publisher=Neowin.net |date= |accessdate=August 29, 2011}}&lt;/ref&gt; Microsoft has promised support for Office Open XML Strict starting with version 15, a format Microsoft has submitted to the ISO for interoperability with other office suites, and to aid adoption in the public sector.&lt;ref name="Doug Mahugh blog"&gt;{{cite web | url = http://blogs.msdn.com/b/dmahugh/archive/2010/04/06/office-s-support-for-iso-iec-29500-strict.aspx | title = Office’s Support for ISO/IEC 29500 Strict | author = Doug Mahugh | publisher = MSDN blogs | accessdate = February 18, 2011 }}&lt;/ref&gt; This version can read and write [[ODF]] 1.2 (Windows only).&lt;ref&gt;{{cite web|url = http://www.h-online.com/open/news/item/Microsoft-Office-15-to-support-ODF-1-2-1560464.html | title =Microsoft Office 15 to support ODF 1.2 | accessdate = April 26, 2012 }}&lt;/ref&gt;
+
+On October 24, 2012, Office 2013 Professional Plus was [[released to manufacturing]] and was made available to TechNet and MSDN subscribers for download.&lt;ref name="WinBeta"&gt;{{cite web|url=http://www.winbeta.org/news/microsoft-releases-office-2013-professional-plus-technet-and-msdn-users|title=Microsoft releases Office 2013 Professional Plus RTM to TechNet and MSDN subscribers|publisher=WinBeta|date=October 24, 2012|accessdate=November 18, 2012}}&lt;/ref&gt; On November 15, 2012, the 60-day trial version was released for public download.&lt;ref name="winbeta.org"&gt;{{cite web|url=http://www.winbeta.org/news/microsoft-office-professional-plus-2013-60-day-trial-now-available-download|title=Microsoft Office Professional Plus 2013 60-day trial now available for download|publisher=WinBeta|date=November 15, 2012|accessdate=November 18, 2012}}&lt;/ref&gt; Office 2013 was released to [[general availability]] on January 29, 2013.&lt;ref&gt;{{Cite web|url=http://www.theinquirer.net/inquirer/news/2239580/microsoft-says-office-2013-arrives-on-29-january|title=Microsoft says Office 2013 will arrive on 29 January|last=Page|first=Carly|date=January 28, 2013|website=[[The Inquirer]]|publisher=[[Incisive Media]]|archive-url=|archive-date=|url-status=|access-date=August 5, 2018}}&lt;/ref&gt;
+
+Service Pack 1 for Office 2013 was released on February 25, 2014.&lt;ref&gt;{{Cite web|url=https://support.microsoft.com/en-us/help/2850036/list-of-all-service-pack-1-sp1-updates-for-microsoft-office-2013-and-r|title=List of all Service Pack 1 (SP1) updates for Microsoft Office 2013 and related desktop products|last=|first=|date=February 25, 2014|website=Microsoft Support|publisher=[[Microsoft]]|archive-url=|archive-date=|url-status=|access-date=August 5, 2018}}&lt;/ref&gt;
+
+==== Microsoft Office 2016 ====
+{{Main|Microsoft Office 2016}}
+On January 22, 2015, the Microsoft Office blog announced that the next version of the suite for Windows desktop, Office 2016, was in development. On May 4, 2015, a public preview of Microsoft Office 2016 was released.&lt;ref name=office-2016announce&gt;{{cite web|title=The next chapter of Office on Windows|url=http://blogs.office.com/2015/02/04/next-chapter-office-windows/|website=Office Blog|publisher=Microsoft|accessdate=February 6, 2015}}&lt;/ref&gt;&lt;ref name=pcw-touchfriendlyoffice&gt;{{cite web|title=Microsoft's touch-friendly Office apps now available to download for Windows 10|url=http://www.pcworld.com/article/2879587/microsofts-touch-friendly-office-apps-now-available-to-download-for-windows-10.html|website=PC World|publisher=IDG|accessdate=February 6, 2015}}&lt;/ref&gt;&lt;ref&gt;{{cite web|last1=Foley|first1=Mary|title=Microsoft delivers public preview of Office 2016 for Windows desktops|url=https://www.zdnet.com/article/microsoft-delivers-public-preview-of-office-2016-for-windows-desktops/|work=[[ZDNet]]|publisher=[[CBS Interactive]]|accessdate=May 5, 2015}}&lt;/ref&gt; Office 2016 was released for Mac OS X on July 9, 2015&lt;ref name="office2016-mac"&gt;{{cite web|last1=Koenigsbauer|first1=Kirk|title=Office 2016 for Mac is here!|url=https://blogs.office.com/2015/07/09/office-2016-for-mac-is-here/|website=Office Blogs|publisher=[[Microsoft]]|accessdate=July 9, 2015|date=July 9, 2015}}&lt;/ref&gt; and for Windows on September 22, 2015.&lt;ref name=office2016-windows&gt;{{cite web|last1=Koenigsbauer|first1=Kirk|title=The new Office is here|url=https://blogs.office.com/2015/09/22/thenewoffice/|website=Office Blogs|publisher=Microsoft|accessdate=September 22, 2015|date=September 22, 2015}}&lt;/ref&gt;
+
+==== Microsoft Office 2019 ====
+{{Main|Microsoft Office 2019}}
+On September 26, 2017, Microsoft announced that the next version of the suite for Windows desktop, Office 2019, was in development. On April 27, 2018, Microsoft released Office 2019 Commercial Preview for Windows 10.&lt;ref&gt;{{cite web |title=Microsoft releases Office 2019 preview |date=April 27, 2018 |publisher=The Verge |url=https://www.theverge.com/2018/4/27/17290112/microsoft-office-2019-preview}}&lt;/ref&gt; It was released to general availability for [[Windows 10]] and for [[macOS]] on September 24, 2018.&lt;ref name="release-announcement"&gt;{{cite web |title=Office 2019 is now available for Windows and Mac|website=Microsoft 365 Blog |url=https://www.microsoft.com/en-us/microsoft-365/blog/2018/09/24/office-2019-is-now-available-for-windows-and-mac/ |publisher=[[Microsoft]] |date=September 24, 2018}}&lt;/ref&gt;
+
+===Mac versions===
+Prior to packaging its various office-type Mac OS software applications into Office, Microsoft released Mac versions of [[Microsoft Word|Word]] 1.0 in 1984, the first year of the Macintosh computer; Excel 1.0 in 1985; and [[Microsoft PowerPoint|PowerPoint]] 1.0 in 1987.&lt;ref name=history&gt;{{cite web | url=http://download.microsoft.com/download/4/E/0/4E01F3E7-53CF-4744-9BBB-876F69FA1683/MacBUHistoryFS.doc | title=History of the Microsoft Macintosh Business Unit | format=Microsoft Word format | date=August 2009 | publisher=Microsoft | accessdate=October 30, 2010 | url-status=dead | archiveurl=https://web.archive.org/web/20110515193937/http://download.microsoft.com/download/4/E/0/4E01F3E7-53CF-4744-9BBB-876F69FA1683/MacBUHistoryFS.doc | archivedate=May 15, 2011 | df=dmy-all }}&lt;/ref&gt; Microsoft does not include its Access database application in Office for Mac.
+
+Microsoft has noted that some features are added to Office for Mac before they appear in Windows versions, such as Office for Mac 2001's Office Project Gallery and PowerPoint Movie feature, which allows users to save presentations as QuickTime movies.&lt;ref name=macfirst&gt;{{cite press release | url=https://www.microsoft.com/presspass/features/1999/04-26macoffice.mspx | title=Office Macintosh Edition: A History of 'Mac-First' Technology | publisher=Microsoft | date=April 26, 1999 | accessdate=October 30, 2010}}&lt;/ref&gt;&lt;ref name=morefirsts&gt;{{cite press release | url= https://www.microsoft.com/presspass/press/2000/Oct00/Office2001PR.mspx | title=Microsoft Office 2001 for Mac Available Nationwide | publisher=Microsoft | date=October 11, 2000 | accessdate=October 30, 2010}}&lt;/ref&gt; However, Microsoft Office for Mac has been long criticized for its lack of support of [[Unicode]] and for its lack of support for [[Bi-directional text|right-to-left]] languages, notably [[Arabic alphabet|Arabic]], [[Hebrew alphabet|Hebrew]] and [[Persian alphabet|Persian]].&lt;ref&gt;{{cite web | url=http://www.heardworld.com/higgaion/?p=774 | work=Higgaion | title=It's official: no RTL support in Microsoft Office 2008 for Mac | first=Chris| last=Heard | date=September 27, 2007 | accessdate=October 30, 2010}}&lt;/ref&gt;&lt;ref&gt;{{cite web | url=http://www.officeformac.com/ms/blogs/blog1/I-know-I-ve-spelled-this-right | work=Mac Mojo: The Office for Mac Team Blog | title=I know I've spelled this right! | first=Eric | last=Paquin | date=August 3, 2010 | accessdate=October 30, 2010 | archive-url=https://web.archive.org/web/20100817065302/http://www.officeformac.com/ms/blogs/blog1/I-know-I-ve-spelled-this-right | archive-date=August 17, 2010 | url-status=dead }}&lt;/ref&gt;
+
+====Early Office for Mac releases (1989–1994)====
+Microsoft Office for Mac was introduced for Mac OS in 1989, before Office was released for Windows.&lt;ref&gt;{{cite news | url=http://www.businessweek.com/magazine/content/08_02/b4066000498753.htm | title=Microsoft and Mac, Happy Together | work=Business Week | first=Stephen H. | last=Wildstrom | date=January 3, 2008 | accessdate=October 30, 2010}}&lt;/ref&gt; It included Word 4.0, Excel 2.2, PowerPoint 2.01, and Mail 1.37.&lt;ref name="infoworld_macoffice1"&gt;{{cite news | url=https://books.google.com/books?id=lzAEAAAAMBAJ&amp;pg=PA17 | title=The Microsoft Office Bundles 4 Programs | last=Flynn | first=Laurie | work=InfoWorld | page=37 | date=June 19, 1989 | accessdate=October 30, 2010}}&lt;/ref&gt; It was originally a limited-time promotion but later became a regular product. With the release of Office on CD-ROM later that year, Microsoft became the first major Mac publisher to put its applications on CD-ROM.&lt;ref name="infoworld_macoffice2"&gt;{{cite news | url=https://books.google.com/books?id=vDAEAAAAMBAJ&amp;pg=PT4 | title=Microsoft Office Programs Will Be Available on CD ROM | last=Flynn | first=Laurie | work=InfoWorld | page=5 | date= August 7, 1989 | accessdate=October 30, 2010}}&lt;/ref&gt;
+
+Microsoft Office 1.5 for Mac was released in 1991 and included the updated Excel 3.0, the first application to support Apple's [[System 7]] [[operating system]].&lt;ref name=history/&gt;
+
+Microsoft Office 3.0 for Mac was released in 1992 and included Word 5.0, Excel 4.0, PowerPoint 3.0 and Mail Client. Excel 4.0 was the first application to support new [[AppleScript]].&lt;ref name=history/&gt;
+
+Microsoft Office 4.2 for Mac was released in 1994. (Version 4.0 was skipped to synchronize version numbers with Office for Windows) Version 4.2 included Word 6.0, Excel 5.0, PowerPoint 4.0 and Mail 3.2.&lt;ref name="infoworld_office42mac_1"&gt;{{cite news | url=https://books.google.com/books?id=pjgEAAAAMBAJ&amp;pg=PA21 | title=Microsoft set to unveil Office for Power Mac | last= Greenberg | first=Ilan | work=InfoWorld | page=21 | date=August 4, 1994 | accessdate=November 7, 2010}}&lt;/ref&gt; It was the first Office suite for [[Power Macintosh]].&lt;ref name=history/&gt; Its user interface was identical to Office 4.2 for Windows&lt;ref name="infoworld_office42mac_2"&gt;{{cite news | url=https://books.google.com/books?id=ejgEAAAAMBAJ&amp;pg=PA117 | title=Mac Office matches Windows – almost | last=Hall | first=Christopher | last2=Tews | first2=Carey | work=InfoWorld | page=117 | date=November 7, 1994 | accessdate=November 7, 2010}}&lt;/ref&gt; leading many customers to comment that it wasn't Mac-like enough.&lt;ref name=macfirst/&gt; The final release for Mac [[Motorola 68000 family|68K]] was Office 4.2.1, which updated Word to version 6.0.1, somewhat improving performance.
+
+====Microsoft Office 98 Macintosh Edition====
+[[Microsoft Office 98 Macintosh Edition]] was unveiled at [[Macworld – iWorld#1998|MacWorld Expo/San Francisco]] in 1998. It introduced the [[Internet Explorer]] 4.0 [[web browser]] and [[Outlook Express]], an Internet e-mail [[client (computing)|client]] and [[usenet newsgroup]] reader.&lt;ref&gt;{{cite press release | url=https://www.microsoft.com/presspass/press/1998/jan98/applepr.mspx | title=Microsoft Unveils Office 98 Macintosh Edition and Internet Explorer 4.0 for Macintosh; Apple Introduces Mac OS 8.1 With Internet Explorer as Default Browser | publisher=Microsoft | date=January 6, 1998 | accessdate=October 30, 2010}}&lt;/ref&gt; Office 98 was re-engineered by Microsoft's [[Macintosh Business Unit]] to satisfy customers' desire for software they felt was more Mac-like.&lt;ref name=macfirst/&gt; It included [[Drag-and-drop|drag–and-drop]] installation, self-repairing applications and Quick [[Thesaurus]], before such features were available in Office for Windows. It also was the first version to support [[QuickTime]] movies.&lt;ref name=macfirst/&gt;
+
+====Microsoft Office 2001 and v. X====
+[[File:OfficeMac v X.PNG|thumb|125px|right|Microsoft Office v. X&lt;!--This should NOT say "Xbox"--&gt; box art]]
+[[Microsoft Office 2001]] was launched in 2000 as the last Office suite for the [[classic Mac OS]]. It required a PowerPC processor. This version introduced Entourage, an e-mail client that included information management tools such as a calendar, an address book, task lists and notes.&lt;ref name="morefirsts"/&gt;
+&lt;!--  [[Microsoft Office v. X]] redirects here. Be careful not to rename the title without due consideration. --&gt;
+Microsoft Office v. X was released in 2001 and was the first version of Microsoft Office for [[macOS|Mac OS X]].&lt;ref&gt;{{cite press release | url=https://www.microsoft.com/presspass/press/2001/nov01/11-19retailpr.mspx | title=Microsoft Office v. X for Mac Hits U.S. Retail Stores | publisher=Microsoft | date=November 19, 2001 | accessdate=October 30, 2010}}&lt;/ref&gt; Support for Office v. X ended on January 9, 2007 after the release of the final update, 10.1.9&lt;ref&gt;[https://www.microsoft.com/download/en/details.aspx?displaylang=en&amp;id=2415 Microsoft Office v. X for Mac 10.1.9 Update]&lt;/ref&gt; Office v.X includes Word X, Excel X, PowerPoint X, Entourage X, [[MSN Messenger for Mac]] and [[Windows Media Player|Windows Media Player 9 for Mac]]; it was the last version of Office for Mac to include [[Internet Explorer for Mac]].&lt;ref&gt;{{cite web|first=Tom |last=Negrino|title=Microsoft Office v. X|url=https://www.macworld.com/article/1001393/office.html|work=[[Macworld]]|publisher=[[International Data Group|IDG]]|accessdate=June 28, 2013|date=February 1, 2002}}&lt;/ref&gt;
+
+====Office 2004====
+[[Microsoft Office 2004 for Mac]] was released on May 11, 2004.&lt;ref&gt;{{cite press release | url= https://www.microsoft.com/presspass/press/2004/Jan04/01-06Office2004IntentPR.mspx | title=Work Just Got Better: Introducing Microsoft Office 2004 for Mac | publisher=Microsoft | date=January 6, 2004| accessdate=October 30, 2010}}&lt;/ref&gt; It includes Microsoft Word, Excel, PowerPoint, Entourage and [[Microsoft Virtual PC|Virtual PC]]. It is the final version of Office to be built exclusively for [[PowerPC]] and to officially support [[PowerPC 7xx|G3]] processors, as its sequel lists a [[PowerPC G4|G4]], [[PowerPC 970|G5]] or [[Apple–Intel architecture|Intel]] processor as a requirement. It was notable for supporting [[Visual Basic for Applications]] (VBA), which is unavailable in Office 2008. This led Microsoft to extend support for Office 2004 from October 13, 2009 to January 10, 2012. VBA functionality was reintroduced in Office 2011, which is only compatible with Intel processors.
+
+====Office 2008====
+[[Microsoft Office 2008 for Mac]] was released on January 15, 2008. It was the only Office for Mac suite to be compiled as a [[universal binary]], being the first to feature native [[Apple–Intel architecture|Intel]] support and the last to feature PowerPC support for [[PowerPC G4|G4]] and [[PowerPC 970|G5]] processors, although the suite is unofficially compatible with [[PowerPC 7xx|G3]] processors. New features include native Office Open XML file format support, which debuted in Office 2007 for Windows,&lt;ref name="history"/&gt; and stronger [[Microsoft Office password protection]] employing [[Advanced Encryption Standard|AES-128]] and [[SHA-1]]. Benchmarks suggested that compared to its predecessor, Office 2008 ran at similar speeds on Intel machines and slower speeds on PowerPC machines.&lt;ref&gt;{{cite web |url=https://www.macworld.com/article/131943/2008/02/office_benchmarks.html |title=MS Mactopia Blog|date= March 13, 2008}}&lt;/ref&gt; Office 2008 also lacked [[Visual Basic for Applications]] (VBA) support, leaving it with only 15 months of additional mainstream support compared to its predecessor. Nevertheless, five months after it was released, Microsoft said that Office 2008 was "selling faster than any previous version of Office for Mac in the past 19 years" and affirmed "its commitment to future products for the Mac."&lt;ref&gt;{{cite press release | url= https://www.microsoft.com/presspass/press/2008/may08/05-13MacBU2008PR.mspx | title=Microsoft Mac BU Delivers Strongest Launch in History of Office for Mac | publisher=Microsoft | date=May 13, 2008 | accessdate=October 30, 2010}}&lt;/ref&gt;
+
+====Office 2011====
+[[Microsoft Office for Mac 2011]] was released on October 26, 2010,.&lt;ref name="macworld_office_2011"&gt;{{cite news | title=Microsoft launches Office 2011 | url= https://www.macworld.com/article/155197/2010/10/office2011_released.html | work=Macworld | first= Marco | last=Tabini | date=October 26, 2010 | accessdate=October 26, 2010}}&lt;/ref&gt; It is the first version of Office for Mac to be compiled exclusively for [[Apple–Intel architecture|Intel]] processors, dropping support for the [[PowerPC]] architecture. It features an OS X version of Outlook to replace the Entourage email client. This version of Outlook is intended to make the OS X version of Office work better with Microsoft's Exchange server and with those using Office for Windows.&lt;ref&gt;{{cite web | last=Hughes | first=Neil | url = https://www.appleinsider.com/articles/09/08/13/microsoft_announces_outlook_for_mac_coming_next_year.html|title=Microsoft says Office 2010, Outlook for Mac coming next year|publisher=AppleInsider|date=August 13, 2009|accessdate=December 19, 2009}}&lt;/ref&gt; Office 2011 includes a Mac-based Ribbon similar to Office for Windows.
+
+====OneNote and Outlook release (2014)====
+[[Microsoft OneNote]] for Mac was released on March 17, 2014. It marks the company's first release of the note-taking software on the Mac. It is available as a free download to all users of the [[Mac App Store]] in [[OS X Mavericks]].&lt;ref&gt;{{cite web | url=https://www.engadget.com/2014/03/17/onenote-goes-free-launches-on-mac/ | last=O'Brien | first=Terrence | title=Microsoft's OneNote goes completely free, launches for Macs | publisher=Engadget | date=March 17, 2014 | accessdate=November 3, 2014}}&lt;/ref&gt;
+
+[[Microsoft Outlook]] 2016 for Mac debuted on October 31, 2014. It requires a paid [[Office 365]] subscription, meaning that traditional Office 2011 retail or volume licenses cannot activate this version of Outlook. On that day, Microsoft confirmed that it would release the next version of Office for Mac in late 2015.&lt;ref&gt;{{cite web | url=https://www.engadget.com/2014/10/31/outlook-for-mac/ | last=Steele | first=Billy | title=Microsoft releases new Outlook for Mac to Office 365 subscribers | publisher=Engadget | date=October 31, 2014 | accessdate=November 3, 2014}}&lt;/ref&gt;
+
+Despite dropping support for older versions of OS X and only keeping support for 64-bit-only versions of OS X, these versions of OneNote and Outlook are 32-bit applications like their predecessors.
+
+====Office 2016====
+{{Main|Microsoft Office 2016}}
+The first Preview version of Microsoft Office 2016 for Mac was released on March 5, 2015.&lt;ref&gt;{{cite news | title=Microsoft announces Office 2016 for Mac Preview, download now available | url=http://www.neowin.net/news/microsoft-announces-office-2016-for-mac-preview-download-now-available | work=Neowin | first=Brad | last=Sams | date=March 5, 2015 | accessdate=March 5, 2015}}&lt;/ref&gt; On July 9, 2015, Microsoft released the final version of Microsoft Office 2016 for Mac which includes Word, Excel, PowerPoint, Outlook and OneNote. It was immediately made available for Office 365 subscribers with either a Home, Personal, Business, Business Premium, E3 or ProPlus subscription. A non–Office 365 edition of Office 2016 was made available as a one-time purchase option on September 22, 2015.&lt;ref name=office2016-windows/&gt;
+
+===Mobile versions===
+[[File:OfficeMobile2013 WP8.png|left|thumb|Office Hub on [[Windows Phone 8]] and [[Windows Phone 8.1|8.1]] ]]
+Office Mobile for [[iPhone]] was released on June 14, 2013 in the United States.&lt;ref name="Office iPhone"&gt;{{cite web|url=http://mashable.com/2013/06/14/office-iphone/|title=Microsoft Office Finally Comes to the iPhone|author=Pete Pachal|date=June 14, 2013|publisher=Mashable}}&lt;/ref&gt; Support for 135 markets and 27 languages was rolled out over a few days.&lt;ref&gt;{{cite web|url=http://blogs.office.com/2013/06/14/office-mobile-for-iphone/|title=Office Mobile for iPhone|website=Office Blogs|publisher=Microsoft|date=June 14, 2014}}&lt;/ref&gt; It requires [[iOS 8]] or later.&lt;ref&gt;{{cite web|url=https://itunes.apple.com/in/app/microsoft-office-mobile/id541164041?mt=8|title=Microsoft Office Mobile|accessdate=June 19, 2014|website=iTunes App Store|publisher=Apple}}&lt;/ref&gt;  Although the app also works on [[iPad]] devices, excluding the first generation, it is designed for a small screen.&lt;ref name="Office iPhone"/&gt; Office Mobile was released for [[Android (operating system)|Android]] phones on July 31, 2013 in the United States. Support for 117 markets and 33 languages was added gradually over several weeks.&lt;ref name="Office Android"&gt;{{cite web|url=http://blogs.office.com/2013/07/31/office-mobile-for-android-phones/|title=Office Mobile for Android phones|date=July 31, 2013|website=Office Blogs|publisher=Microsoft}}&lt;/ref&gt; It is supported on [[Android 4.0]] and later.&lt;ref&gt;{{cite web|url=https://www.theverge.com/2013/7/31/4571912/microsoft-office-for-android-features-screenshots|title=Microsoft Office for Android now available, but not for tablets|work=The Verge|date=July 31, 2013|author=Tom Warren}}&lt;/ref&gt;
+
+Office Mobile is or was also available, though no longer supported, on [[Windows Mobile]], [[Windows Phone]] and [[Symbian]]. There was also [[Office RT]], a touch-optimized version of the standard desktop Office suite, pre-installed on [[Windows RT]].&lt;ref&gt;{{cite web|title=Microsoft Office 365 for Mobile Devices, Tablets, Phones|url=https://products.office.com/en-us/mobile/|work=[[Microsoft Office website|office.com]]|publisher=[[Microsoft]]|accessdate=June 8, 2016|archive-url=https://web.archive.org/web/20160617184850/https://products.office.com/en-us/mobile/|archive-date=June 17, 2016|url-status=dead}}&lt;/ref&gt;
+
+====Early Office Mobile releases====
+Originally called Office Mobile which was shipped initially as "Pocket Office", was released by Microsoft with the Windows CE 1.0 operating system in 1996.  This release was specifically for the Handheld PC hardware platform, as [[Windows Mobile Smartphone]] and [[Pocket PC]] hardware specifications had not yet been released.  It consisted of Pocket Word and Pocket Excel; PowerPoint, Access, and Outlook were added later. With steady updates throughout subsequent releases of Windows Mobile, Office Mobile was rebranded as its current name after the release of the Windows Mobile 5.0 operating system.  This release of Office Mobile also included PowerPoint Mobile for the first time.&lt;ref&gt;Utter, David. [http://www.webpronews.com/topnews/2005/05/12/windows-mobile-now-with-powerpoint ''Windows Mobile Now With PowerPoint!''] {{webarchive|url=https://web.archive.org/web/20071208161806/http://www.webpronews.com/topnews/2005/05/12/windows-mobile-now-with-powerpoint |date=December 8, 2007 }}. WebProNews.com. Retrieved September 13, 2007.&lt;/ref&gt;  Accompanying the release of [[Microsoft OneNote|Microsoft OneNote 2007]], a new optional addition to the Office Mobile line of programs was released as OneNote Mobile.&lt;ref name="Out and About"&gt;Pratley, Chris. [http://blogs.msdn.com/chris_pratley/archive/2005/11/21/494990.aspx ''Out and About with OneNote Mobile'']. MSDN Blogs. Retrieved September 13, 2007.&lt;/ref&gt; With the release of Windows Mobile 6 Standard, Office Mobile became available for the Smartphone hardware platform, but unlike Office Mobile for the Professional and Classic versions of Windows Mobile, creation of new documents is not an added feature.&lt;ref&gt;Langridge, Jason. [http://blogs.msdn.com/jasonlan/archive/2007/02/08/windows-mobile-6-what-s-new-and-what-s-cool.aspx ''Windows Mobile 6 – What's New and What's Cool?'']. MSDN Blogs. Retrieved September 14, 2007.&lt;/ref&gt; A popular workaround is to create a new blank document in a desktop version of Office, synchronize it to the device, and then edit and save on the Windows Mobile device.
+
+In June 2007, Microsoft announced a new version of the office suite, Office Mobile 2007. It became available as "Office Mobile 6.1" on September 26, 2007 as a free upgrade download to current Windows Mobile 5.0 and 6 users. However, "Office Mobile 6.1 Upgrade" is not compatible with Windows Mobile 5.0 powered devices running builds earlier than 14847. It is a pre-installed feature in subsequent releases of Windows Mobile 6 devices.&lt;ref name="Office Mobile 2007"&gt;Chan, John. [http://asia.cnet.com/reviews/handhelds/ontheradar/0,39050970,62019010,00.htm ''Japanese WM6 and Office Mobile 2007''] {{webarchive|url=https://web.archive.org/web/20070610174022/http://asia.cnet.com/reviews/handhelds/ontheradar/0%2C39050970%2C62019010%2C00.htm |date=June 10, 2007 }}. Crave – CNET Asia. Retrieved September 13, 2007.&lt;/ref&gt; Office Mobile 6.1 is compatible with the [[Office Open XML]] specification like its desktop counterpart.&lt;ref name="Office Mobile 2007" /&gt;
+
+On August 12, 2009, it was announced that Office Mobile would also be released for the [[Symbian]] platform as a joint agreement between Microsoft and [[Nokia]].&lt;ref&gt;{{cite web |url=https://www.pcworld.com/article/170080/microsoft_nokia_team_to_put_office_apps_on_mobile_phones.html |title=Microsoft, Nokia Team to Put Office Apps on Mobile Phones |last=Montalbano |first=Elizabeth |date=August 12, 2009 |work=[[PC World]] |accessdate=August 12, 2009}}&lt;/ref&gt;&lt;ref&gt;{{cite web |url=http://conversations.nokia.com/2012/04/10/get-microsoft-office-for-symbian/ |title=Get Microsoft Office for Symbian |work=Conversations |publisher=[[Nokia]] |date=April 10, 2012 |accessdate=April 28, 2014 |archive-url=https://web.archive.org/web/20140725112248/http://conversations.nokia.com/2012/04/10/get-microsoft-office-for-symbian/ |archive-date=July 25, 2014 |url-status=dead }}&lt;/ref&gt; It was the first time Microsoft would develop Office mobile applications for another smartphone platform.&lt;ref&gt;https://phys.org/news/2009-08-microsoft-office-nokia-mobiles.html&lt;/ref&gt; The first application to appear on Nokia [[Eseries]] smartphones was Microsoft Office Communicator. In February 2012, Microsoft released OneNote, Lync 2010, Document Connection and PowerPoint Broadcast for Symbian.&lt;ref&gt;{{cite web|url=http://www.allaboutsymbian.com/news/item/14313_Microsoft_Apps_released_for_No.php |title=Microsoft Apps released for Nokia Belle |work=All About Symbian |first1=Steve |last1=Litchfield |first2=David |last2=Gilson |date=February 24, 2012 |accessdate=April 28, 2014}}&lt;/ref&gt; In April, Word Mobile, PowerPoint Mobile and Excel Mobile joined the Office Suite.&lt;ref&gt;{{cite web|url=http://www.3g.co.uk/PR/April2012/microsoft-office-suite-coming-to-symbian-smartphones.html |title=Microsoft Office Suite Coming To Symbian Smartphones |work=3g.co.uk |date=April 11, 2012 |accessdate=April 28, 2014}}&lt;/ref&gt;
+
+On October 21, 2010, Microsoft debuted Office Mobile 2010 with the release of [[Windows Phone 7]]. In Windows Phone, users can access and edit documents directly off of their [[SkyDrive]] or [[Office 365]] accounts in a dedicated Office hub. The Office Hub, which is preinstalled into the operating system, contains Word, PowerPoint and Excel. The operating system also includes OneNote, although not as a part of the Office Hub. Lync is not included, but can be downloaded as standalone app from the [[Windows Phone Store]] free of charge.
+
+In October 2012, Microsoft released a new version of Microsoft Office Mobile for [[Windows Phone 8]] and [[Windows Phone 7.8]].
+
+====Office for Android, iOS and Windows 10 Mobile====
+Office Mobile was released for iPhone on June 14, 2013, and for Android phones on July 31, 2013.
+
+In March 2014, Microsoft released [[Office Lens]], a scanner app that enhances photos. Photos are then attached to an Office document. Office Lens is an app in the Windows Phone store, as well as built into the camera functionality in the OneNote apps for iOS and Windows 8.&lt;ref&gt;{{cite web|title=Office Lens: A OneNote scanner for your pocket|url=http://blogs.office.com/2014/03/17/office-lens-a-onenote-scanner-for-your-pocket/|website=Office Blogs|accessdate=March 6, 2015|date=March 17, 2014}}&lt;/ref&gt;
+
+[[File:Word_on_iPhone.jpg|thumb|right|Word on the iPhone]]
+On March 27, 2014, Microsoft launched Office for [[iPad]], the first dedicated version of Office for [[tablet computer]]s. In addition, Microsoft made the Android and iOS versions of Office Mobile free for 'home use' on phones, although the company still requires an Office 365 subscription for using Office Mobile for business use.&lt;ref&gt;{{cite web|url=https://thenextweb.com/microsoft/2014/03/27/office-iphone-android-phones-now-free-home-use-office-365-subscription-longer-required/|title=Office for iPhone and Android phones is now completely free, Android tablet version coming ‘in the future’|author=Emil Protalinski|date=March 27, 2014|publisher=The Next Web}}&lt;/ref&gt;&lt;ref&gt;{{cite web|title=Microsoft CEO Unveils Office for IPad in Mobile-App Push|website=bloomberg.com|url=https://www.bloomberg.com/news/articles/2014-03-27/microsoft-ceo-unveils-office-for-ipad-in-mobile-app-push||date=March 27, 2014|accessdate=March 10, 2020}}&lt;/ref&gt;&lt;ref&gt;{{cite web|last=Magnalindan|first=JP|title=Microsoft CEO Satya Nadella announces Office for iPad at public debut|url=http://tech.fortune.cnn.com/2014/03/27/microsoft-ceo-satya-nadella-announces-office-for-ipad-at-public-debut/|work=CNN Money|accessdate=March 27, 2014|archive-url=https://web.archive.org/web/20140327232807/http://tech.fortune.cnn.com/2014/03/27/microsoft-ceo-satya-nadella-announces-office-for-ipad-at-public-debut/|archive-date=March 27, 2014|url-status=dead}}&lt;/ref&gt;&lt;ref&gt;{{cite web|last=Brustein|first=Joshua|title=Microsoft CEO Nadella Pulls the Trigger on Long-Gestating Office Apps for iPad|url=http://www.businessweek.com/articles/2014-03-27/microsoft-ceo-nadella-pulls-the-trigger-on-long-gestating-office-apps-for-ipad|work=BusinessWeek|accessdate=March 27, 2014}}&lt;/ref&gt;&lt;ref name="iOS and Android"&gt;{{cite web|url=https://thenextweb.com/microsoft/2014/03/27/office-iphone-android-phones-now-free-home-use-office-365-subscription-longer-required/|title=Office for iPhone and Android phones is now completely free, Android tablet version coming ‘in the future’|first=Emil |last=Protalinski|date=March 27, 2014|website=The Next Web}}&lt;/ref&gt; On November 6, 2014, Office was subsequently made free for personal use on the iPad in addition to phones. As part of this announcement, Microsoft also split up its single "Office suite" app on iPhones into separate, standalone apps for Word, Excel and PowerPoint, released a revamped version of Office Mobile for iPhone, added direct integration with [[Dropbox (service)|Dropbox]], and previewed future versions of Office for other platforms.&lt;ref&gt;{{cite web|url=https://arstechnica.com/apple/2014/11/office-for-ipad-goes-free-to-use-now-supports-the-iphone-too/|title=Office for iPad and iPhone go free-to-use, now supports the iPhone too [Updated]|work=Ars Technica}}&lt;/ref&gt;&lt;ref&gt;{{cite web|url=http://blogs.microsoft.com/blog/2014/11/06/office-everywhere/|title=More Office. Everywhere you need it. |work=The Official Microsoft Blog|publisher=[[Microsoft]]|date=November 6, 2014|first=John|last=Case}}&lt;/ref&gt;
+
+Office for Android tablets was released on January 29, 2015,&lt;ref&gt;{{Cite web|url = http://blogs.office.com/2015/01/29/office-love-now-android-tablet/|title = The Office you love is now on your Android tablet|date = January 29, 2015|accessdate = January 29, 2015|website = Office Blogs|publisher = Microsoft|last = Koenigsbauer|first = Kirk}}&lt;/ref&gt; following a successful two-month preview period.&lt;ref&gt;{{cite web |title=Bringing Office to everyone|url=http://blogs.office.com/2014/11/06/bringing-office-everyone/|website=Office Blogs|publisher=Microsoft|accessdate=December 18, 2014|date=November 6, 2014}}&lt;/ref&gt; These apps allow users to edit and create documents for free on devices with screen sizes of 10.1 inches or less, though as with the iPad versions, an Office 365 subscription is required to unlock premium features and for commercial use of the apps. Tablets with screen sizes larger than 10.1 inches are also supported, but, as was originally the case with the iPad version, are restricted to viewing documents only unless a valid Office 365 subscription is used to enable editing and document creation.
+
+On January 21, 2015, during the "Windows 10: The Next Chapter" press event, Microsoft unveiled Office for [[Windows 10]], [[Windows Runtime]] ports of the Android and iOS versions of the Office Mobile suite. Optimized for smartphones and tablets, they are [[universal app]]s that can run on both Windows and Windows for phones, and share similar underlying code. A simplified version of [[Microsoft Outlook|Outlook]] was also added to the suite. They will be bundled with Windows 10 [[Windows 10 (mobile)|mobile devices]], and available from the [[Windows Store]] for the PC version of [[Windows 10]].&lt;ref name=pcw-touchfriendlyoffice/&gt;&lt;ref name=office-2016announce/&gt; Although the preview versions were free for most editing, the release versions will require an Office 365 subscription on larger tablets (screen size larger than 10.1 inches) and desktops for editing, as with large Android tablets. Smaller tablets and phones will have most editing features for free.&lt;ref&gt;{{cite news|last1=Keizer|first1=Gregg|title=Office for Windows 10 will require Office 365 subscription on PCs, larger tablet|url=http://www.computerworld.com/article/2948755/windows-apps/office-for-windows-10-will-require-office-365-subscription-on-pcs-larger-tablets.html|accessdate=July 16, 2015|publisher=Computerworld|date=July 15, 2015}}&lt;/ref&gt;
+
+On June 24, 2015, Microsoft released Word, Excel and PowerPoint as standalone apps on [[Google Play]] for Android phones, following a one-month preview.&lt;ref&gt;{{cite web|url=https://blogs.office.com/2015/06/24/office-for-android-phone-is-here/|title=Office for Android phone is here!|work=Office Blogs|publisher=[[Microsoft]]|date=June 24, 2015|first=Kirk|last=Koenigsbauer}}&lt;/ref&gt; These apps have also been bundled with Android devices from major OEMs, as a result of Microsoft [[Tying (commerce)|tying]] distribution of them and [[Skype]] to [[patent]]-licensing agreements related to the Android platform.&lt;ref name="supersite-androidpatents"&gt;{{cite web|last1=Trent|first1=Rod|title=Microsoft Inside: 20 New Android Device Manufacturers Sign-on to Pre-Install Office and Skype|url=http://winsupersite.com/mobile/microsoft-inside-20-new-android-device-manufacturers-sign-pre-install-office-and-skype|website=SuperSite for Windows|publisher=Penton|accessdate=August 23, 2016|archive-url=https://web.archive.org/web/20160828093727/http://winsupersite.com/mobile/microsoft-inside-20-new-android-device-manufacturers-sign-pre-install-office-and-skype|archive-date=August 28, 2016|url-status=dead}}&lt;/ref&gt;&lt;ref name="verge-xiaomims"&gt;{{cite web|title=Xiaomi will bundle Microsoft’s Office and Skype apps on its Android devices|url=https://www.theverge.com/2016/6/1/11827268/microsoft-xiaomi-skype-office-android-apps-patent-deal|website=The Verge|accessdate=August 23, 2016}}&lt;/ref&gt; The Android version is also supported on certain [[Chrome OS]] machines.&lt;ref&gt;{{cite web|url=https://9to5google.com/2016/11/09/office-for-android-supported-on-chrome-os/|title=Microsoft Office for Android will be supported on Chrome OS after all, but you may need a subscription…|first=Ben|last=Schoon|date=November 10, 2016|publisher=}}&lt;/ref&gt;
+
+On February 19, 2020, Microsoft announced a new unified Office mobile app for Android and iOS. This app combines Word, Excel, and PowerPoint into a single app and introduces new capabilities as making quick notes, signing PDFs, scanning QR codes, and transferring files.&lt;ref name="Microsoft"/&gt;
+
+== References ==
+{{Reflist|30em}}
+
+==External links==
+&lt;!-- ======================== {{No more links}} ============================
+    | PLEASE BE CAUTIOUS IN ADDING MORE LINKS TO THIS ARTICLE. Wikipedia  |
+    | is not a collection of links nor should it be used for advertising. |
+    |                                                                     |
+    |           Excessive or inappropriate links WILL BE DELETED.         |
+    | See [[Wikipedia:External links]] &amp; [[Wikipedia:Spam]] for details.  |
+    |                                                                     |
+    | If there are already plentiful links, please propose additions or   |
+    | replacements on this article's discussion page, or submit your link |
+    | to the relevant category at the Open Directory Project (dmoz.org)   |
+    | and link back to that category using the {{dmoz}} template.         |
+============================ {{No more links}} ============================ --&gt;
+* {{Official website|https://office.com}}
+* {{curlie|Computers/Software/Office_Suites/Microsoft_Office}}
+
+{{Microsoft Office|state=open}}
+{{Microsoft|state=collapsed}}
+{{Office suites}}
+{{Windows Phone}}
+{{Windows Mobile}}
+{{Authority control}}
+
+[[Category:Microsoft Office| ]]
+[[Category:1989 software]]
+[[Category:Bundled products or services]]
+[[Category:Classic Mac OS software]]
+[[Category:Office suites for macOS]]
+[[Category:Office suites for Windows]]
+[[Category:Office suites]]
+[[Category:Pocket PC software]]
+[[Category:Windows Mobile Standard software]]
+[[Category:Windows Phone software]]</text>
+      <sha1>hn0as7q3eaf3qdp68nlznx74y53xzqm</sha1>
+    </revision>
+  </page>
+</mediawiki>

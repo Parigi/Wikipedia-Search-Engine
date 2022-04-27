@@ -1,0 +1,158 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.10/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.10/ http://www.mediawiki.org/xml/export-0.10.xsd" version="0.10" xml:lang="en">
+  <siteinfo>
+    <sitename>Wikipedia</sitename>
+    <dbname>enwiki</dbname>
+    <base>https://en.wikipedia.org/wiki/Main_Page</base>
+    <generator>MediaWiki 1.35.0-wmf.36</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Media</namespace>
+      <namespace key="-1" case="first-letter">Special</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Talk</namespace>
+      <namespace key="2" case="first-letter">User</namespace>
+      <namespace key="3" case="first-letter">User talk</namespace>
+      <namespace key="4" case="first-letter">Wikipedia</namespace>
+      <namespace key="5" case="first-letter">Wikipedia talk</namespace>
+      <namespace key="6" case="first-letter">File</namespace>
+      <namespace key="7" case="first-letter">File talk</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki talk</namespace>
+      <namespace key="10" case="first-letter">Template</namespace>
+      <namespace key="11" case="first-letter">Template talk</namespace>
+      <namespace key="12" case="first-letter">Help</namespace>
+      <namespace key="13" case="first-letter">Help talk</namespace>
+      <namespace key="14" case="first-letter">Category</namespace>
+      <namespace key="15" case="first-letter">Category talk</namespace>
+      <namespace key="100" case="first-letter">Portal</namespace>
+      <namespace key="101" case="first-letter">Portal talk</namespace>
+      <namespace key="108" case="first-letter">Book</namespace>
+      <namespace key="109" case="first-letter">Book talk</namespace>
+      <namespace key="118" case="first-letter">Draft</namespace>
+      <namespace key="119" case="first-letter">Draft talk</namespace>
+      <namespace key="446" case="first-letter">Education Program</namespace>
+      <namespace key="447" case="first-letter">Education Program talk</namespace>
+      <namespace key="710" case="first-letter">TimedText</namespace>
+      <namespace key="711" case="first-letter">TimedText talk</namespace>
+      <namespace key="828" case="first-letter">Module</namespace>
+      <namespace key="829" case="first-letter">Module talk</namespace>
+      <namespace key="2300" case="first-letter">Gadget</namespace>
+      <namespace key="2301" case="first-letter">Gadget talk</namespace>
+      <namespace key="2302" case="case-sensitive">Gadget definition</namespace>
+      <namespace key="2303" case="case-sensitive">Gadget definition talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Hollywood (programming language)</title>
+    <ns>0</ns>
+    <id>27421416</id>
+    <revision>
+      <id>953469192</id>
+      <parentid>940223687</parentid>
+      <timestamp>2020-04-27T10:51:36Z</timestamp>
+      <contributor>
+        <ip>2003:DD:EF1E:B0BB:2102:CC73:F751:FF10</ip>
+      </contributor>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="12973" xml:space="preserve">{{Infobox software
+| name=Hollywood
+| screenshot=Hollywood-ide3.jpg
+| caption=Hollywood IDE running on Windows XP
+| developer=Andreas Falkenhahn
+| released ={{Start date and age|2002|11}}
+| latest release version=8.0
+| latest release date= {{Start date and age|2019|02|08}}
+| operating system= [[AmigaOS]], [[MorphOS]], [[WarpOS]], [[AROS]], [[Microsoft Windows|Windows]]. [[macOS]], [[Linux]], [[Android (operating system)|Android]], [[iOS]]
+| genre= [[Programming language]]
+| license= [[Proprietary software|Proprietary]]
+| website= {{URL|www.hollywood-mal.com}}
+}}
+
+'''Hollywood''' is a commercially distributed programming language developed by Andreas Falkenhahn (Airsoft Softwair) which mainly focuses on the creation of multimedia-oriented applications. Hollywood is available for [[AmigaOS]], [[MorphOS]], [[WarpOS]], [[AROS]], [[Microsoft Windows|Windows]], [[macOS]], [[Linux]], [[Android (operating system)|Android]], and [[iOS]]. Hollywood has an inbuilt [[cross compiler]] that can automatically save executables for all platforms supported by the software. The generated executables are completely stand-alone and do not have any external dependencies, so they can also be started from a [[USB flash drive]]. An optional add-on also allows users to compile projects into [[Android application package|APK]] files.&lt;ref&gt;{{cite web|url=http://www.hollywood-mal.com/features.html |title=Hollywood - Features |website=Hollywood-mal.com |date= |accessdate=2016-07-17}}&lt;/ref&gt;
+
+The Hollywood Designer is an add-on for Hollywood with which it is possible to use Hollywood also as a presentation software and an [[authoring system]].
+
+==History==
+Hollywood has its roots on the [[Amiga]] computer. Inspired by Amiga programming languages like [[AMOS (programming language)|AMOS]], [[Blitz BASIC]], and [[Amiga E]], Hollywood author Andreas Falkenhahn began development of Hollywood in Spring 2002 after finishing his A-levels.&lt;ref&gt;Johnson, Magnus: Interview with Andreas Falkenhahn. Total Amiga 21 (2005), pp. 14-15.&lt;/ref&gt; Version 1.0 of the software was released in November 2002, but only for [[Motorola 68000|68000]]-based Amiga systems. A month later, a native version for the [[PowerPC]]-based MorphOS followed.&lt;ref&gt;Schaefer, Robbie: Hollywood Multimedia. AMIGAplus 132 (2003), pp. 24-26.&lt;/ref&gt; Support for WarpOS was introduced with Hollywood 1.9 which appeared in Spring 2004 together with the first release of the Hollywood Designer, a tool which can be used to create presentations with Hollywood. AmigaOS 4 is supported since March 2005. Starting with version 2.0 (released in January 2006), Hollywood is using the [[Lua (programming language)|Lua]] programming language as its [[virtual machine]], but with significant modifications in [[syntax]] and functionality.&lt;ref&gt;{{cite web|url=http://www.inf.puc-rio.br/~roberto/lua-uses.html |title=Lua: user projects |website=Inf.puc-rio.br |date=2003-01-07 |accessdate=2016-07-17}}&lt;/ref&gt; Starting with version 3.0 (January 2008), Hollywood for the first time also runs on two non Amiga inspired operating systems: Microsoft Windows and macOS. Since version 4.5 (January 2010) Hollywood is also available with an [[integrated development environment]] on Windows. Since version 4.8 (April 2011) Hollywood can also compile executables for [[Linux]]. Hollywood 5.0 was released in February 2012 and introduces support for video playback and vector image formats like SVG. Starting with version 5.2 Hollywood also supports Android. Hollywood 6.0 was released in February 2015 and introduces support for [[OpenGL]] programming via a dedicated plugin as well as support for the [[Raspberry Pi]]. Hollywood 7.0 was released in March 2017 and introduces [[Unicode]] support and support for [[64-bit]] architectures.&lt;ref&gt;{{cite web|author= |url=http://www.hollywood-mal.com/index.html |title=Hollywood - Multimedia Application Layer |website=Hollywood-mal.com |date= |accessdate=2016-07-17}}&lt;/ref&gt;
+
+==General information==
+Hollywood's focus is on ease of use and platform independence. It was mainly designed for the creation of games and [[multimedia]] applications. The language set comprises roughly 700 different commands from the following fields of application: 2D graphics, sound, file system operations, text output, animations, [[Sprite (computer graphics)|sprites]], layers, transition effects, image manipulation, saving of images and [[Audio Video Interleave|video files]], time and date functions, input functions (keyboard, joystick, mouse) as well as mathematical operations and string functions. Programming in Hollywood is done via so called Hollywood scripts (using the [[Filename extension|file extension]] *.hws). These scripts are compiled dynamically and can be converted into stand-alone executables. All Hollywood programs run inside a [[Sandbox (software development)|sandbox]], which makes it impossible for them to crash.&lt;ref&gt;Preinsack, Anton: Interview with Andreas Falkenhahn. Amiga Future 78 (2009), p. 14.&lt;/ref&gt;
+
+=== Platform independence ===
+Hollywood was designed to be a completely platform independent programming language. Thus, scripts cannot call any API functions of the host [[operating system]] directly and are limited to the inbuilt command set. Text rendering is also implemented via a platform independent font backend that ensures that [[TrueType]] text looks exactly the same on every platform. Furthermore, all versions of Hollywood support Amiga specific file formats like [[ILBM|IFF ILBM]] images, [[8SVX|IFF 8SVX]] sounds, or [[ANIM|IFF ANIM]] files, to be fully compatible with scripts written on an Amiga system.&lt;ref&gt;Christoph, Michael: Hollywood 3 on Windows. Amiga Future 71 (2008), pp. 26-27.&lt;/ref&gt;
+
+=== GUI development ===
+There are several GUI toolkits for Hollywood. RapaGUI is a cross-platform GUI plugin for Hollywood which supports Windows, macOS, Linux, and AmigaOS. RapaGUI uses native GUI controls provided by the respective host operating system giving all RapaGUI applications a native look and feel. MUI Royale is a GUI toolkit for Hollywood which can be used to create GUIs using the [[Magic User Interface]]. Another GUI toolkit for Hollywood is HGui.&lt;ref&gt;{{cite web|author= |url=http://www.a-mc.biz/_software/hgui-gui-toolkit-for-hollywood/ |title=HGui |website=a-mc.biz |date= |accessdate=2017-04-01}}&lt;/ref&gt; In contrast to RapaGUI and MUI Royale, HGui draws its GUI controls itself which makes its graphical user interfaces look exactly the same on every platform.
+
+=== Compiler ===
+A special feature of the [[cross-platform]] compiler that comes with Hollywood is the ability to link all external files (including fonts) into the executable to be built automatically. This makes it possible to create programs which consist only of a single file and can thus be easily transported and distributed. Additionally, the Hollywood compiler can compile scripts into Hollywood applets (using the file extension *.hwa). These applets are smaller than regular Hollywood programs, but they can only be started on systems that have Hollywood installed. Finally, it is also possible to export Hollywood scripts as [[Audio Video Interleave|AVI videos]].&lt;ref&gt;Cornelius, Martin: Hollywood 4.5 or Multimedia is back. Amiga Future 83 (2010), pp. 30-31.&lt;/ref&gt;
+
+== Development environment ==
+There is no [[integrated development environment]] for the Amiga-compatible version of Hollywood. On these systems, [[Cubic IDE]] and [[Codebench]] can be used to develop with Hollywood as these have support for the Hollywood language through plugins.&lt;ref&gt;{{cite web|url=https://code.google.com/p/hw4c/ |title=Google Code Archive - Long-term storage for Google Code Project Hosting |website=Code.google.com |date= |accessdate=2016-07-17}}&lt;/ref&gt;&lt;ref&gt;{{cite web|url=http://codebench.co.uk/ |title=Welcome to the home of CodeBench |website=Codebench.co.uk |date= |accessdate=2016-07-17}}&lt;/ref&gt; On Windows, Hollywood comes with an integrated development environment that can be used to create Hollywood scripts. The [[macOS]] and [[Linux]] versions of Hollywood do not come with an IDE either and can be controlled from the console or else integrated into other IDEs.
+
+== Hello World program ==
+A [[Hello World program]] in Hollywood could look like this:
+
+   Print("Hello World!")
+   WaitLeftMouse
+   End
+
+The code above opens a new window on the desktop, prints the text "Hello World!" in white letters and waits for the left mouse button before quitting. The opening of the window is automatically done by Hollywood. If not otherwise requested, Hollywood will automatically open a new window in the resolution of 640x480 for every script.
+
+== Hollywood Designer ==
+{{Infobox software
+| name=Hollywood Designer
+| screenshot=[[image:Hollywood-designer.jpg|250px]]
+| caption=Hollywood Designer running on AmigaOS4
+| developer=Andreas Falkenhahn
+| latest release version=5.0
+| latest release date= {{Start date and age|2020|04|19}}
+| operating system= [[AmigaOS]], [[MorphOS]], [[WarpOS]], [[AROS]]
+| genre= [[Presentation]]
+| license= [[Proprietary software|Proprietary]]
+| website= [http://www.hollywood-mal.com www.hollywood-mal.com]
+}}
+
+The Hollywood Designer is an add-on for Hollywood that allows the creation of presentations and [[Interactive kiosk|kiosk systems]] with Hollywood. The software uses a [[WYSIWYG]]-compliant interface based on slides. Users can create as many slides as desired and fill them with texts, graphics, and sound. Hollywood Designer will then run the slides one after another or in a predefined order. Various transition effects are available. Additionally, it is possible to create applications which require user interaction, like kiosk systems.&lt;ref&gt;{{cite web|url=http://www.ferrule-media.no |title=Tannlege / Tannpleier - effektiv informasjon til dine pasienter |website=Ferrule-media.no |date= |accessdate=2016-07-17}}&lt;/ref&gt;&lt;ref&gt;{{cite web |author= |url=http://www.amiga.org/forums/printthread.php?t=49890 |title=Amiga-based software presented at Nordental 2009 |website=Amiga.org |date= |accessdate=2016-07-17 |archive-url=https://web.archive.org/web/20130921060117/http://www.amiga.org/forums/printthread.php?t=49890 |archive-date=2013-09-21 |url-status=dead }}&lt;/ref&gt;
+
+All projects created in Hollywood Designer are displayed using Hollywood and can thus also be compiled into stand-alone executables or [[Audio Video Interleave|video files]]. Advanced users can also embed custom code inside their projects. Through custom code it is possible to access the complete command set of Hollywood.&lt;ref&gt;Williams, Robert: Hollywood 1.9 and Designer. Total Amiga 18 (2004), pp. 18-22.&lt;/ref&gt;
+
+Technically speaking, Hollywood Designer does nothing else but automatically generate scripts for Hollywood according to the layout defined by the user in the [[GUI]].&lt;ref&gt;Gutjahr, Christoph: Hollywood 1.9, Malibu and Hollywood Designer. The Triple Dream Factory. AMIGAplus 147 (2004), pp. 44-47.&lt;/ref&gt; The process of generating scripts and running them using Hollywood is entirely hidden from the user so that programming skills are not necessary for using Hollywood Designer.&lt;ref&gt;Williams, Robert: Hollywood 2.0 The Sequel. Total Amiga 23 (2006), pp. 40-42.&lt;/ref&gt; However, because Hollywood Designer merely generates scripts for Hollywood, the latter is a mandatory requirement for Hollywood Designer.
+
+The first version of Hollywood Designer was released in April 2004.&lt;ref&gt;Steigerwald, Martin: Multimedia pur. Amiga Magazin 7/2004, pp. 7-9.&lt;/ref&gt; Currently, the software is only available for Amiga compatible operating systems. However, thanks to the Hollywood cross-compiler, it can also save stand-alone executables for [[Windows]], [[macOS]] and [[Linux]] from the Amiga platform.
+
+==References==
+{{Reflist|30em}}
+
+==External links==
+{{Portal|Amiga}}
+* {{Official website|www.hollywood-mal.com}}
+* [http://www.airsoftsoftwair.com/ Homepage of the developer]
+* [https://web.archive.org/web/20110706144306/http://devplex.awardspace.biz/ Cubic IDE], an IDE for Hollywood
+* [http://www.codebench.co.uk/ CodeBench], an AmigaOS 4 IDE for Hollywood and other languages
+* [http://www.ferrule-media.no An Infochannel created using Hollywood Designer] (Norwegian)
+* [http://www.morguesoft.eu/Paginas/vamp.htm VAMP], the Virtual Amiga Multimedia Player (English &amp; Spanish)
+* [https://www.keho-software.com/ Homepage of KeHoSoftware], Hollywood LCARS SmartHome SmartSensor Project (English &amp; German)
+
+{{AmigaOS 4}}
+{{AmigaOS}}
+{{MorphOS}}
+
+{{DEFAULTSORT:Hollywood (Programming Language)}}
+[[Category:Amiga development software]]
+[[Category:AmigaOS 4 software]]
+[[Category:AROS software]]
+[[Category:Cross-platform software]]
+[[Category:Integrated development environments]]
+[[Category:MorphOS software]]
+[[Category:Presentation software]]
+[[Category:Procedural programming languages]]
+[[Category:Video game development software]]
+[[Category:Programming tools for Windows]]
+[[Category:MacOS programming tools]]
+[[Category:Programming languages created in 2002]]</text>
+      <sha1>7xxh831kglcvku0912ud0xoo9l99wgp</sha1>
+    </revision>
+  </page>
+</mediawiki>

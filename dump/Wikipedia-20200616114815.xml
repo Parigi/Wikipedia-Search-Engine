@@ -1,0 +1,104 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.10/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.10/ http://www.mediawiki.org/xml/export-0.10.xsd" version="0.10" xml:lang="en">
+  <siteinfo>
+    <sitename>Wikipedia</sitename>
+    <dbname>enwiki</dbname>
+    <base>https://en.wikipedia.org/wiki/Main_Page</base>
+    <generator>MediaWiki 1.35.0-wmf.36</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Media</namespace>
+      <namespace key="-1" case="first-letter">Special</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Talk</namespace>
+      <namespace key="2" case="first-letter">User</namespace>
+      <namespace key="3" case="first-letter">User talk</namespace>
+      <namespace key="4" case="first-letter">Wikipedia</namespace>
+      <namespace key="5" case="first-letter">Wikipedia talk</namespace>
+      <namespace key="6" case="first-letter">File</namespace>
+      <namespace key="7" case="first-letter">File talk</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki talk</namespace>
+      <namespace key="10" case="first-letter">Template</namespace>
+      <namespace key="11" case="first-letter">Template talk</namespace>
+      <namespace key="12" case="first-letter">Help</namespace>
+      <namespace key="13" case="first-letter">Help talk</namespace>
+      <namespace key="14" case="first-letter">Category</namespace>
+      <namespace key="15" case="first-letter">Category talk</namespace>
+      <namespace key="100" case="first-letter">Portal</namespace>
+      <namespace key="101" case="first-letter">Portal talk</namespace>
+      <namespace key="108" case="first-letter">Book</namespace>
+      <namespace key="109" case="first-letter">Book talk</namespace>
+      <namespace key="118" case="first-letter">Draft</namespace>
+      <namespace key="119" case="first-letter">Draft talk</namespace>
+      <namespace key="446" case="first-letter">Education Program</namespace>
+      <namespace key="447" case="first-letter">Education Program talk</namespace>
+      <namespace key="710" case="first-letter">TimedText</namespace>
+      <namespace key="711" case="first-letter">TimedText talk</namespace>
+      <namespace key="828" case="first-letter">Module</namespace>
+      <namespace key="829" case="first-letter">Module talk</namespace>
+      <namespace key="2300" case="first-letter">Gadget</namespace>
+      <namespace key="2301" case="first-letter">Gadget talk</namespace>
+      <namespace key="2302" case="case-sensitive">Gadget definition</namespace>
+      <namespace key="2303" case="case-sensitive">Gadget definition talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Long double</title>
+    <ns>0</ns>
+    <id>3686118</id>
+    <revision>
+      <id>958917693</id>
+      <parentid>946069161</parentid>
+      <timestamp>2020-05-26T08:38:32Z</timestamp>
+      <contributor>
+        <username>Vincent Lefèvre</username>
+        <id>197845</id>
+      </contributor>
+      <comment>/* Implementations */ + MIPS (32-bit and 64-bit ABIs)</comment>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="9404" xml:space="preserve">{{lowercase title}}
+{{floating-point}}
+
+In [[C (programming language)|C]] and related [[programming language]]s, &lt;code&gt;'''long double'''&lt;/code&gt; refers to a [[floating-point]] [[data type]] that is often more precise than [[double-precision]] though the language standard only requires it to be at least as precise as &lt;code&gt;double&lt;/code&gt;. As with C's other floating-point types, it may not necessarily map to an [[IEEE floating-point standard|IEEE format]].
+
+==&lt;code&gt;long double&lt;/code&gt; in C==
+
+===History===
+
+The &lt;code&gt;long double&lt;/code&gt; type was present in the original 1989 C standard,&lt;ref&gt;ANSI/ISO 9899-1990 American National Standard for Programming Languages - C, section 6.1.2.5.&lt;/ref&gt; but support was improved by the 1999 revision of the C standard, or [[C99]], which extended the standard [[Library (computer science)|library]] to include functions operating on &lt;code&gt;long double&lt;/code&gt; such as &lt;code&gt;sinl()&lt;/code&gt; and &lt;code&gt;strtold()&lt;/code&gt;.
+
+Long double constants are floating-point constants suffixed with "L" or "l" (lower-case L), e.g., 0.333333333333333333L. Without a suffix, the evaluation depends on [[C99#IEEE.C2.A0754 floating point support|FLT_EVAL_METHOD]].
+
+===Implementations===
+On the [[x86 architecture]], most [[C (programming language)|C]] compilers implement &lt;code&gt;long double&lt;/code&gt; as the [[Extended precision#x86 extended precision format|80-bit extended precision]] type supported by x86 hardware (sometimes stored as 12 or 16 bytes to maintain [[data structure alignment]]), as specified in the [[C99]] / [[C11 (C standard revision)|C11]] standards (IEC 60559 floating-point arithmetic (Annex F)). &lt;!-- While not a WP:RS, http://computer-programming-forum.com/47-c-language/ae9c42837f4986aa.htm gives some insight on this. What I would really like is a source listing compilers that do and do not support this -Guy Macon 14:17, 3 May 2013 --&gt; An exception is [[Microsoft Visual C++]] for x86, which makes &lt;code&gt;long double&lt;/code&gt; a synonym for &lt;code&gt;double&lt;/code&gt;.&lt;ref&gt;[http://msdn.microsoft.com/en-us/library/9cx8xs15.aspx MSDN homepage, about Visual C++ compiler]&lt;/ref&gt; The [[Intel C++ compiler]] on Microsoft Windows supports extended precision, but requires the &lt;code&gt;/Qlong&amp;#8209;double&lt;/code&gt; switch for &lt;code&gt;long double&lt;/code&gt; to correspond to the hardware's extended precision format.&lt;ref&gt;[http://software.intel.com/en-us/articles/size-of-long-integer-type-on-different-architecture-and-os/ Intel Developer Site]&lt;/ref&gt;
+
+Compilers may also use &lt;code&gt;long double&lt;/code&gt; for the [[quadruple precision#IEEE 754 quadruple-precision binary floating-point format: binary128|IEEE 754 quadruple-precision binary floating-point format]] (binary128). This is the case on [[HP-UX]],&lt;ref&gt;{{cite book|title=HP-UX Portability Guide - HP 9000 Computers|edition=2nd|author=Hewlett Packard|pages=5-3 and 5-37|url=http://www.textfiles.com/bitsavers/pdf/hp/9000_hpux/9.x/B2355-90025_HP-UX_Portability_Guide_Aug92.pdf|chapter=Porting C Programs|year=1992}}&lt;/ref&gt; [[Solaris (operating system)|Solaris]]/[[SPARC]],&lt;ref&gt;[http://docs.oracle.com/cd/E19957-01/806-3568/ncg_math.html Sun ''Numerical Computation Guide'', Chapter 2: IEEE Arithmetic]&lt;/ref&gt; [[MIPS architecture|MIPS]] with the 64-bit or n32 [[Application binary interface|ABI]],&lt;ref&gt;{{Cite web|title=MIPSpro™ N32 ABI Handbook|url=http://irix7.com/techpubs/007-2816-004.pdf|date=1999 |accessdate=2020-05-26}}&lt;/ref&gt; and [[ARM architecture#AArch64|64-bit ARM (AArch64)]]&lt;ref&gt;{{cite web|title=Procedure Call Standard for the ARM 64-bit Architecture (AArch64)|url=http://infocenter.arm.com/help/topic/com.arm.doc.ihi0055b/IHI0055B_aapcs64.pdf|date=2013-05-22|accessdate=2019-09-22}}&lt;/ref&gt; machines. Most implementations are in software, but some processors have [[Quadruple-precision floating-point format#Hardware support|hardware support]].
+
+On some [[PowerPC]] and [[SPARC|SPARCv9]] machines,{{citation needed|date=August 2015}} &lt;code&gt;long double&lt;/code&gt; is implemented as a [[Double-double (arithmetic)|double-double]] arithmetic, where a &lt;code&gt;long double&lt;/code&gt; value is regarded as the exact sum of two double-precision values, giving at least a 106-bit precision; with such a format, the &lt;code&gt;long double&lt;/code&gt; type does not conform to the [[IEEE floating-point standard]]. Otherwise, &lt;code&gt;long double&lt;/code&gt; is simply a synonym for &lt;code&gt;double&lt;/code&gt; (double precision), e.g. on 32-bit [[ARM architecture|ARM]]&lt;ref&gt;{{cite web|title=ARM® Compiler toolchain Compiler Reference, Version 5.03|url=http://infocenter.arm.com/help/topic/com.arm.doc.dui0491i/DUI0491I_arm_compiler_reference.pdf|at=Section 6.3 ''Basic data types''|year=2013|accessdate=2019-11-08}}&lt;/ref&gt; and on 32-bit MIPS&lt;ref&gt;{{Cite web|title=System V Application Binary Interface: MIPS(r) Processor Supplement, 3rd Edition|url=http://math-atlas.sourceforge.net/devel/assembly/mipsabi32.pdf||date=1996|accessdate=2020-05-26}}&lt;/ref&gt; (old ABI, a.k.a. o32).
+
+With the [[GNU C Compiler]], &lt;code&gt;long double&lt;/code&gt; is 80-bit extended precision on x86 processors regardless of the physical storage used for the type (which can be either 96 or 128 bits),&lt;ref&gt;[https://gcc.gnu.org/onlinedocs/gcc/x86-Options.html Using the GNU Compiler Collection, x86 Options].&lt;/ref&gt; On some other architectures, &lt;code&gt;long double&lt;/code&gt; can be [[Double-double (arithmetic)|double-double]] (e.g. on [[PowerPC]]&lt;ref&gt;[https://gcc.gnu.org/onlinedocs/gcc/RS_002f6000-and-PowerPC-Options.html Using the GNU Compiler Collection, RS/6000 and PowerPC Options]&lt;/ref&gt;&lt;ref&gt;[https://developer.apple.com/legacy/mac/library/documentation/Performance/Conceptual/Mac_OSX_Numerics/Mac_OSX_Numerics.pdf Inside Macintosh - PowerPC Numerics] {{webarchive|url=https://web.archive.org/web/20121009191824/http://developer.apple.com/legacy/mac/library/documentation/Performance/Conceptual/Mac_OSX_Numerics/Mac_OSX_Numerics.pdf |date=2012-10-09 }}&lt;/ref&gt;&lt;ref&gt;[https://opensource.apple.com/source/gcc/gcc-5646/gcc/config/rs6000/darwin-ldouble.c 128-bit long double support routines for Darwin]&lt;/ref&gt;) or 128-bit [[quadruple precision]] (e.g. on [[SPARC]]&lt;ref&gt;[https://gcc.gnu.org/onlinedocs/gcc/SPARC-Options.html SPARC Options]&lt;/ref&gt;).  As of gcc 4.3, a quadruple precision is also supported on x86, but as the nonstandard type &lt;code&gt;__float128&lt;/code&gt; rather than &lt;code&gt;long double&lt;/code&gt;.&lt;ref&gt;[https://gcc.gnu.org/gcc-4.3/changes.html GCC 4.3 Release Notes]&lt;/ref&gt;
+
+Although the x86 architecture, and specifically the [[x87]] floating-point instructions on x86, supports 80-bit extended-precision operations, it is possible to configure the processor to automatically round operations to double (or even single) precision.  Conversely, in extended-precision mode, extended precision may be used for intermediate compiler-generated calculations even when the final results are stored at a lower precision (i.e. [[C99#IEEE.C2.A0754 floating point support|FLT_EVAL_METHOD == 2]]).  With gcc on [[Linux]], 80-bit extended precision is the default; on several [[BSD]] operating systems ([[FreeBSD]] and [[OpenBSD]]), double-precision mode is the default, and &lt;code&gt;long double&lt;/code&gt; operations are effectively reduced to double precision.&lt;ref name=introgcc&gt;Brian J. Gough and Richard M. Stallman, ''An Introduction to GCC'', section 8.6 [http://www.network-theory.co.uk/docs/gccintro/gccintro_70.html Floating-point issues] (Network Theory Ltd., 2004).&lt;/ref&gt;  ([[NetBSD]] 7.0 and later, however, defaults to 80-bit extended precision &lt;ref&gt;{{cite web|url=https://www.netbsd.org/changes/changes-7.0.html|title=Significant changes from NetBSD 6.0 to 7.0}}&lt;/ref&gt;). However, it is possible to override this within an individual program via the FLDCW "floating-point load control-word" instruction.&lt;ref name=introgcc/&gt; On x86_64 the BSDs default to 80-bit extended precision.  Microsoft Windows with Visual C++ also sets the processor in double-precision mode by default, but this can again be overridden within an individual program (e.g. by the &lt;code&gt;_controlfp_s&lt;/code&gt; function in Visual C++&lt;ref&gt;[http://msdn.microsoft.com/en-us/library/c9676k6h%28v=vs.80%29.aspx _controlfp_s], [[Microsoft Developer Network]] (2/25/2011).&lt;/ref&gt;).  The Intel C++ Compiler for x86, on the other hand, enables extended-precision mode by default.&lt;ref&gt;Intel C++ Compiler Documentation, [http://www.nacad.ufrj.br/online/intel/Documentation/en_US/compiler_c/main_cls/index.htm Using the -fp-model (/fp) Option].&lt;/ref&gt; On IA-32 OS X, &lt;code&gt;long double&lt;/code&gt; is 80-bit extended precision.&lt;ref&gt;https://developer.apple.com/library/mac/documentation/DeveloperTools/Conceptual/LowLevelABI/130-IA-32_Function_Calling_Conventions/IA32.html&lt;/ref&gt;
+
+==Other specifications==
+
+In [[CORBA]] (from specification of 3.0, which uses "[[IEEE 754-1985|ANSI/IEEE Standard 754-1985]]" as its reference), "the long double data type represents an IEEE double-extended floating-point number, which has an exponent of at least 15 bits in length and a signed fraction of at least 64 bits", with GIOP/IIOP CDR, whose floating-point types "exactly follow the IEEE standard formats for floating point numbers", marshalling this as what seems to be [[IEEE 754-2008]] binary128 a.k.a. quadruple precision without using that name.
+
+==See also==
+* [[Quadruple precision]]
+* [[Extended precision]]
+
+==References==
+&lt;references/&gt;
+
+{{data types}}
+
+{{DEFAULTSORT:Long Double}}
+[[Category:Computer arithmetic]]
+[[Category:Data types]]
+[[Category:C (programming language)]]</text>
+      <sha1>rtd811r8klp4b7kdx1n67guvngxd5yb</sha1>
+    </revision>
+  </page>
+</mediawiki>

@@ -1,0 +1,106 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.10/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.10/ http://www.mediawiki.org/xml/export-0.10.xsd" version="0.10" xml:lang="en">
+  <siteinfo>
+    <sitename>Wikipedia</sitename>
+    <dbname>enwiki</dbname>
+    <base>https://en.wikipedia.org/wiki/Main_Page</base>
+    <generator>MediaWiki 1.35.0-wmf.36</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Media</namespace>
+      <namespace key="-1" case="first-letter">Special</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Talk</namespace>
+      <namespace key="2" case="first-letter">User</namespace>
+      <namespace key="3" case="first-letter">User talk</namespace>
+      <namespace key="4" case="first-letter">Wikipedia</namespace>
+      <namespace key="5" case="first-letter">Wikipedia talk</namespace>
+      <namespace key="6" case="first-letter">File</namespace>
+      <namespace key="7" case="first-letter">File talk</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki talk</namespace>
+      <namespace key="10" case="first-letter">Template</namespace>
+      <namespace key="11" case="first-letter">Template talk</namespace>
+      <namespace key="12" case="first-letter">Help</namespace>
+      <namespace key="13" case="first-letter">Help talk</namespace>
+      <namespace key="14" case="first-letter">Category</namespace>
+      <namespace key="15" case="first-letter">Category talk</namespace>
+      <namespace key="100" case="first-letter">Portal</namespace>
+      <namespace key="101" case="first-letter">Portal talk</namespace>
+      <namespace key="108" case="first-letter">Book</namespace>
+      <namespace key="109" case="first-letter">Book talk</namespace>
+      <namespace key="118" case="first-letter">Draft</namespace>
+      <namespace key="119" case="first-letter">Draft talk</namespace>
+      <namespace key="446" case="first-letter">Education Program</namespace>
+      <namespace key="447" case="first-letter">Education Program talk</namespace>
+      <namespace key="710" case="first-letter">TimedText</namespace>
+      <namespace key="711" case="first-letter">TimedText talk</namespace>
+      <namespace key="828" case="first-letter">Module</namespace>
+      <namespace key="829" case="first-letter">Module talk</namespace>
+      <namespace key="2300" case="first-letter">Gadget</namespace>
+      <namespace key="2301" case="first-letter">Gadget talk</namespace>
+      <namespace key="2302" case="case-sensitive">Gadget definition</namespace>
+      <namespace key="2303" case="case-sensitive">Gadget definition talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Precision Monolithics</title>
+    <ns>0</ns>
+    <id>9406926</id>
+    <revision>
+      <id>940949417</id>
+      <parentid>940618334</parentid>
+      <timestamp>2020-02-15T17:42:13Z</timestamp>
+      <contributor>
+        <username>Overjive</username>
+        <id>10502777</id>
+      </contributor>
+      <comment>added info to short description</comment>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="6240" xml:space="preserve">{{short description|American semiconductor company}}
+{{Infobox company
+| name = Precision Monolithics, Inc.
+| logo = 
+| fate = Merged
+| successor = [[Analog Devices]]
+| foundation = 
+| defunct = August, 1990
+| location = [[Santa Clara, California]], [[United States|U.S.]]
+| industry = [[Semiconductor]]s
+| key_people = 
+| products = [[Linear integrated circuit]]s
+| num_employees = 
+| parent = 
+| subsid = 
+}}
+
+'''Precision Monolithics, Inc.''' also known as '''PMI''', was an American company based in [[Santa Clara, California]], that developed and produced mixed signal and [[Analogue electronics|linear]] [[integrated circuit]]s (ICs). It was a pioneer in the fields of [[digital-to-analog converter]]s&lt;ref name=1968DACs&gt;[http://www.computerhistory.org/semiconductor/timeline/1968-Data.html 1968 - Dedicated Current Source IC Integrates a Data Conversion Function]&lt;/ref&gt; and [[operational amplifier]]s.&lt;ref name=Stanford&gt;[http://web.stanford.edu/class/archive/ee/ee214/ee214.1032/Handouts/01-02/HO18.pdf 1.7 The OP-07 (1975)]&lt;/ref&gt;
+
+The company was founded in 1969 by Marv Rudin and Garth Wilson,&lt;ref name=Companies&gt;[http://www.computerhistory.org/semiconductor/companies.html#mp Companies]&lt;/ref&gt; who had both left [[Fairchild Semiconductor]] at the end of 1968. Wilson was circuit design manager under Rudin who managed linear circuit R&amp;D at the Fairchild Semiconductor R&amp;D Laboratory in [[Palo Alto, California|Palo Alto]] from 1966 to 1968. At the beginning, Wilson was Vice President responsible for Engineering and Production, and reported to Rudin who was President, and Marketing Manager. Jim Grugan from Fairchild joined shortly after incorporation as Vice President of Administration, responsible for finance, facilities and purchasing.
+
+Immediately after financing and incorporation, they offered founder stock and hired IC designers George Erdi from Fairchild and Dan Dooley from [[TRW_Inc.#Semiconductors_and_computers|TRW Microelectronics]]. They also hired Jerry Bresee, a chief process engineer from [[Tektronix]], who developed a semiconductor process far superior to what they were able to access from the Fairchild R&amp;D processing services department, with the exception of nitride passivation for low [[Pink noise|1/f noise]], a technology known by the founders from Fairchild. In 1969 Dooley designed the first fully integrated D/A converter (DAC), the 6-bit DAC01, using diffused resistors.&lt;ref name=1968DACs /&gt; He recruited his thin film technician with precision resistor fabrication skills that were essential for improving the accuracy of DACs, which became the biggest-selling type of product that helped launch the company. Semiconductor and materials engineer Wadie Khadder was hired with founder stock from Fairchild to support Bresee in both semiconductor process engineering and also the critical precision thin film technology initially needed for producing high accuracy 2-chip D/A converters.
+
+PMI pioneered the design and manufacture of the first 10-bit semiconductor IC DACs on the market. In March 1970, during the IEEE Annual Convention in New York, PMI caused a major stir in engineering circles by introducing the aimDac100, the first 10-bit 2-chip DAC in a [[Dual in-line package|DIP]] semiconductor package. Not only was it far more compact and reliable than the modules that were state of the art at that time, but it provided 10-bit accuracy over the full military temperature range. The MonoDac01 was used by [[Jet Propulsion Laboratory]] (priced at $200 each) for their first Moon probe. By 1972 Dooley and Bresee, PMI's chief process engineer who developed process uniformity never before seen in the semiconductor industry, combined to design and produce a full 10 bit D/A converter on a single chip, the monoDac02. At that point PMI's linear process uniformity and products capitalizing on that uniformity put PMI in a class by itself. It would be several years before any other company could match the Dac-02.
+
+Bresee's superior processes, and George Erdi's outstanding design expertise enabled PMI to establish itself as a superior source of linear amplifiers, including [[operational amplifier]]s, some of which garnered U.S. patents. By superior layout and circuit design made possible by Bresee's and Khadders superior process uniformity, transistor performance, and surface passivation, Erdi was able to design and achieve breakthrough advances in micro-power amplifiers with both low input offset and 1/f noise voltage, rivaling many chopper amplifiers formerly used exclusively for microvolt input amplifiers. An industry milestone was the OP07, which was the first internally compensated, three-stage operational amplifier.&lt;ref&gt;[http://www.computerhistory.org/collections/catalog/102723940 George Erdi biographical notes]&lt;/ref&gt; It pioneered active base current cancellation and offset trimming, using Erdi's patented Zener-zapping technique.&lt;ref name=Stanford /&gt; Erdi and other PMI engineers later expanded their efforts to include high-precision voltage references and additional mixed-signal semiconductors for data acquisition, data conversion, and telecommunications.
+
+PMI also bought [[Solid State Micro Technology]]. Erdi and Khadder left PMI in 1981 to co-found [[Linear Technology]]. PMI was founded with financing from [[Bourns, Inc.]], which held 70% of the shares and 30% was stock purchased at a nominal price by the founders. Ultimately, all shares were purchased by Bourns to make PMI a wholly owned subsidiary, PMI was finally bought by [[Analog Devices]] in August 1990.
+
+Many of PMI's converters, amplifiers, voltage references, and other linear ICs (including the REF0x and OP0x series) continue to be manufactured and marketed by Analog Devices, which currently maintain the largest share of the precision linear market (ADI sales = $2.5B, Maxim = $2.1B, Linear Technology = $1.1B).
+
+==See also==
+*[[Analog Devices]]
+
+==References==
+{{reflist}}
+
+[[Category:Defunct semiconductor companies of the United States]]
+[[Category:Fabless semiconductor companies]]
+[[Category:Companies based in Santa Clara, California]]
+[[Category:Companies disestablished in 1990]]
+[[Category:1990 disestablishments in California]]
+[[Category:Defunct companies based in California]]</text>
+      <sha1>639wzn7t45actgd4qrj817xa79wpy1r</sha1>
+    </revision>
+  </page>
+</mediawiki>

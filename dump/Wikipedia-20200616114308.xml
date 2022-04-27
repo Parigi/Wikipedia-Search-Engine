@@ -1,0 +1,994 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.10/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.10/ http://www.mediawiki.org/xml/export-0.10.xsd" version="0.10" xml:lang="en">
+  <siteinfo>
+    <sitename>Wikipedia</sitename>
+    <dbname>enwiki</dbname>
+    <base>https://en.wikipedia.org/wiki/Main_Page</base>
+    <generator>MediaWiki 1.35.0-wmf.36</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Media</namespace>
+      <namespace key="-1" case="first-letter">Special</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Talk</namespace>
+      <namespace key="2" case="first-letter">User</namespace>
+      <namespace key="3" case="first-letter">User talk</namespace>
+      <namespace key="4" case="first-letter">Wikipedia</namespace>
+      <namespace key="5" case="first-letter">Wikipedia talk</namespace>
+      <namespace key="6" case="first-letter">File</namespace>
+      <namespace key="7" case="first-letter">File talk</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki talk</namespace>
+      <namespace key="10" case="first-letter">Template</namespace>
+      <namespace key="11" case="first-letter">Template talk</namespace>
+      <namespace key="12" case="first-letter">Help</namespace>
+      <namespace key="13" case="first-letter">Help talk</namespace>
+      <namespace key="14" case="first-letter">Category</namespace>
+      <namespace key="15" case="first-letter">Category talk</namespace>
+      <namespace key="100" case="first-letter">Portal</namespace>
+      <namespace key="101" case="first-letter">Portal talk</namespace>
+      <namespace key="108" case="first-letter">Book</namespace>
+      <namespace key="109" case="first-letter">Book talk</namespace>
+      <namespace key="118" case="first-letter">Draft</namespace>
+      <namespace key="119" case="first-letter">Draft talk</namespace>
+      <namespace key="446" case="first-letter">Education Program</namespace>
+      <namespace key="447" case="first-letter">Education Program talk</namespace>
+      <namespace key="710" case="first-letter">TimedText</namespace>
+      <namespace key="711" case="first-letter">TimedText talk</namespace>
+      <namespace key="828" case="first-letter">Module</namespace>
+      <namespace key="829" case="first-letter">Module talk</namespace>
+      <namespace key="2300" case="first-letter">Gadget</namespace>
+      <namespace key="2301" case="first-letter">Gadget talk</namespace>
+      <namespace key="2302" case="case-sensitive">Gadget definition</namespace>
+      <namespace key="2303" case="case-sensitive">Gadget definition talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Windows Vista</title>
+    <ns>0</ns>
+    <id>2289648</id>
+    <revision>
+      <id>962529116</id>
+      <parentid>960999530</parentid>
+      <timestamp>2020-06-14T15:53:52Z</timestamp>
+      <contributor>
+        <username>BHGbot</username>
+        <id>5737366</id>
+      </contributor>
+      <minor/>
+      <comment>[[WP:BHGbot 6]] ([[User:BHGbot/6/List 3|List 3]]): eponymous category first, per [[MOS:CATORDER]]; [[WP:GENFIXES]]</comment>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="147469" xml:space="preserve">{{short description|personal computer operating system by Microsoft released in 2006}}
+{{Use mdy dates|date=January 2020}}
+{{Infobox OS version
+| name = Windows Vista
+| version of = [[Windows NT]]
+| logo = Windows logo - 2006.svg
+| logo size = x64px
+| screenshot = Windows Vista.png
+| caption = Screenshot of Windows Vista Ultimate, showing its [[Desktop metaphor|desktop]], [[taskbar]], [[Start menu]], [[Windows Sidebar]], Welcome Center and glass effects of [[Windows Aero]]
+| developer = [[Microsoft]]
+| source_model = {{ubl
+  | [[Proprietary software|Closed-source]]
+  | [[Source-available software|Source-available]] (through [[Shared Source Initiative]])&lt;ref&gt;{{cite web|url=https://www.microsoft.com/resources/sharedsource/windowslp.mspx|title=Windows Licensing Programs|publisher=[[Microsoft]]|accessdate=September 21, 2008|date=June 2011|archive-url=https://web.archive.org/web/20081216125724/http://www.microsoft.com/resources/sharedsource/windowslp.mspx |archive-date=December 16, 2008 }}&lt;/ref&gt;
+}}
+| license = [[Proprietary software|Proprietary]] [[commercial software]]
+| supported_platforms = [[IA-32]] and [[x86-64]]
+| preceded_by = [[Windows XP]] (2001)
+| succeeded_by = [[Windows 7]] (2009)
+| kernel_type = [[Hybrid kernel|Hybrid]]
+| updatemodel = {{Plainlist|
+* [[Windows Update]] 
+* [[Windows Server Update Services]] (WSUS) 
+* [[System Center Configuration Manager]] (SCCM)
+}}
+| RTM_date = {{start date and age|2006|11|8}}&lt;ref name="WindowsVistaRTM"&gt;{{cite web |url=http://windowsvistablog.com/blogs/windowsvista/archive/2006/11/08/windows-vista-releases-to-manufacturing.aspx |title=Windows Vista releases to manufacturing |last=White |first=Nick |date=November 8, 2006 |publisher=[[Microsoft]] |work=Windows Vista Team Blog |archiveurl=https://web.archive.org/web/20050809150421/http://www.windowsvista.com/ |archivedate=August 9, 2005 |accessdate=January 2, 2017}}&lt;/ref&gt;
+| GA_date = {{start date and age|2007|1|30}}&lt;ref name="WindowsVistaGA"&gt;{{cite web |url=https://news.microsoft.com/2007/01/29/microsoft-launches-windows-vista-and-microsoft-office-2007-to-consumers-worldwide/ |title =Microsoft Launches Windows Vista and the 2007 Office System to Consumers |date=January 29, 2007 |publisher=[[Microsoft]] |work=News Center |accessdate=January 2, 2017}}&lt;/ref&gt;
+| release_version = Service Pack 2 (6.0.6002)&lt;ref name="WindowsVista" /&gt;
+| release_date = {{Start date and age|2009|5|26}}&lt;ref name=SP2-GA /&gt;
+| support_status = Mainstream support ended on April 10, 2012&lt;br /&gt;Extended support ended on April 11, 2017&lt;ref name="WindowsVistaSupportPolicy"&gt;{{cite web |url=https://support.microsoft.com/en-us/lifecycle/search/?sort=PN&amp;alpha=Windows%20Vista&amp;Filter=FilterNO |title=Windows Vista Lifecycle Policy |publisher=[[Microsoft]] | accessdate=January 2, 2017 |archive-url=https://support.microsoft.com/en-us/lifecycle/search/?sort=PN&amp;alpha=Windows%20Vista&amp;Filter=FilterNO |archive-date=March 8, 2019}}&lt;/ref&gt;&lt;br /&gt;Users must upgrade to [[Windows 7]] in order to continue receiving updates and support.&lt;ref name=sup1 /&gt;&lt;ref name=sup2 /&gt;
+| other_articles = 
+| date = January 2009 &lt;!-- approximate date of template insertion for dating hidden maintenance categories --&gt;
+| discontinued = yes
+}}
+
+{{Windows Vista}}
+
+'''Windows Vista''' is&lt;!--Attention: Do NOT change to "was". This violates [[MOS:TENSE]], which specifies that all articles on operating systems are written in present tense, even if discontinued.--&gt; an [[operating system]] that was produced by [[Microsoft]] and is a version of the [[Windows NT]] family of operating systems for use on personal computers, including home and business [[Desktop computer|desktops]], laptops, [[Tablet computer|tablet PCs]] and [[Home theater PC|media center]] PCs. [[Software release life cycle#Release to manufacturing (RTM)|Development was completed]] on November 8, 2006,&lt;ref name="WindowsVistaRTM"/&gt; and over the following three months, it was released in stages to computer hardware and software manufacturers, business customers and retail channels. On January 30, 2007, it was [[Software release life cycle#General availability (GA)|released worldwide]]&lt;ref name="WindowsVistaGA"/&gt; and was made available for purchase and download from the [[Windows Marketplace]]; it is the first release of Windows to be made available through a [[digital distribution platform]].&lt;ref name="WindowsVistaMarketplace"&gt;{{cite web |url=https://news.microsoft.com/2007/01/17/microsoft-unveils-new-ways-for-consumers-to-get-windows-vista/ |title=Microsoft Unveils New Ways for Consumers to Get Windows Vista |date=January 17, 2007 |publisher=[[Microsoft]] |work=News Center |accessdate=January 2, 2017}}&lt;/ref&gt; The release of Windows Vista came more than five years after the introduction of its predecessor, [[Windows XP]], the longest time span between successive releases of [[Microsoft Windows]] desktop operating systems.
+
+[[Features new to Windows Vista|New features of Windows Vista]] include an updated [[graphical user interface]] and [[Skin (computing)|visual style]] dubbed [[Windows Aero|Aero]], a new search component called [[Windows Search]], redesigned networking, audio, print and display sub-systems, and new multimedia tools such as [[Windows DVD Maker]]. Vista aimed to increase the level of communication between machines on a [[home network]], using [[peer-to-peer]] technology to simplify sharing [[computer file|files]] and [[digital media|media]] between computers and devices. Windows Vista included version 3.0 of the [[.NET Framework]], allowing [[software developer]]s to write applications without traditional [[Windows API]]s.
+
+Microsoft's primary stated objective with Windows Vista was to improve the state of security in the Windows operating system.&lt;ref name="GatesSecurity"&gt;{{cite web |url=https://www.informationweek.com/gates-says-security-is-job-one-for-vista-/d/d-id/1040561? |title = Gates Says Security Is Job One For Vista |last=Ricadela |first=Aaron |date=February 14, 2006 |publisher=[[UBM plc]] |work=[[InformationWeek]] |accessdate=January 2, 2017}}&lt;/ref&gt; One common [[criticism of Windows XP]] and its predecessors was their commonly exploited [[Vulnerability (computing)|security vulnerabilities]] and overall susceptibility to [[malware]], [[computer virus|viruses]] and [[buffer overflow]]s. In light of this, Microsoft chairman [[Bill Gates]] announced in early 2002 a company-wide "[[Trustworthy Computing]] initiative", which aimed to incorporate security into every aspect of software development at the company.&lt;ref name="TrustworthyComputing"&gt;{{cite web |url=https://www.microsoft.com/about/companyinformation/timeline/timeline/docs/bp_Trustworthy.rtf |title=Trustworthy computing |last=Gates |first=Bill |authorlink=Bill Gates |date=January 15, 2002 |publisher=[[Microsoft]] |format=[[Rich Text Format|RTF]] |accessdate=April 19, 2015 |archive-url=https://web.archive.org/web/20151013222319/http://www.microsoft.com/about/companyinformation/timeline/timeline/docs/bp_Trustworthy.rtf |archive-date=October 13, 2015 }}&lt;/ref&gt; Microsoft stated that it prioritized improving the security of Windows XP and [[Windows Server 2003]] above finishing Windows Vista, thus delaying its completion.&lt;ref name="LonghornDelayed"&gt;{{cite web |url=https://www.v3.co.uk/v3-uk/news/1991368/longhorn-beta-delayed-2005 |title='Longhorn' beta delayed to 2005 |last=Thomas |first=Daniel |date=April 2, 2004 |publisher=[[Incisive Media]] |work=V3 |accessdate=April 19, 2015}}&lt;/ref&gt;&lt;ref name="LHBeta2004"&gt;{{cite web |url=https://www.cnet.com/news/microsoft-longhorn-beta-unlikely-this-year/ |title=Microsoft: Longhorn beta unlikely this year |last=Ricciuti |first=Mike |date=April 9, 2004 |publisher=[[CBS Interactive]] |work=[[CNET]] |accessdate=October 10, 2015}}&lt;/ref&gt;
+
+While these new features and security improvements garnered positive reviews, Vista was also the target of much criticism and negative press. [[Criticism of Windows Vista]] targeted its high system requirements, its more restrictive licensing terms, the inclusion of a number of then-new [[digital rights management|DRM]] technologies aimed at restricting the copying of protected digital media, lack of compatibility with some pre-Vista hardware and software, longer boot time, and the number of authorization prompts for [[User Account Control]]. As a result of these and other issues, Windows Vista saw initial adoption and satisfaction rates lower than Windows XP.&lt;ref name="computerworld1"&gt;[https://www.computerworld.com/action/article.do?command=viewArticleBasic&amp;articleId=9072218&amp;source=NLT_AM&amp;nlid=1 Leopard drubs Vista in corporate satisfaction]. {{Webarchive|url=https://web.archive.org/web/20090612135810/http://www.computerworld.com/action/article.do?command=viewArticleBasic&amp;articleId=9072218&amp;source=NLT_AM&amp;nlid=1 |date=June 12, 2009 }} Computerworld.com (March 26, 2008). Retrieved on October 14, 2011. {{cite web |url=http://www.computerworld.com/s/article/9072218/Leopard_drubs_Vista_in_corporate_satisfaction_survey?nlid=1&amp;source=NLT_AM |title=Archived copy |accessdate=March 11, 2018 |url-status=bot: unknown |archiveurl=https://web.archive.org/web/20121012001529/http://www.computerworld.com/s/article/9072218/Leopard_drubs_Vista_in_corporate_satisfaction_survey?nlid=1&amp;source=NLT_AM |archivedate=October 12, 2012  }}&lt;/ref&gt; However, Vista usage had surpassed Microsoft's pre-launch two-year-out expectations of achieving 200 million users, with an estimated 330 million Internet users in January 2009.&lt;ref name="windowsitpro2006"&gt;{{cite web
+ |url          = http://www.windowsitpro.com/article/news2/allchin-200-million-windows-vista-users-in-24-months
+ |title        = Allchin: 200 Million Windows Vista Users in 24 Months.
+ |first        = Paul
+ |last         = Thurrott
+ |authorlink   = Paul Thurrott
+ |work         = Windows IT Pro
+ |publisher    = [[Penton (company)|Penton]]
+ |date         = September 16, 2006
+ |accessdate   = January 3, 2009
+ |archive-url  = https://web.archive.org/web/20120426175148/http://www.windowsitpro.com/article/news2/allchin-200-million-windows-vista-users-in-24-months
+ |archive-date = April 26, 2012
+ |url-status     = dead
+ |df           = dmy-all
+}}&lt;/ref&gt;&lt;ref name="internetworldusers"&gt;{{cite web
+|title = AMD 50x15—World Internet Usage
+|publisher = AMD
+|date = February 2, 2009
+|url = http://50x15.amd.com/en-us/internet_usage.aspx
+|accessdate =November 1, 2009 |archiveurl = https://web.archive.org/web/20080224164426/http://50x15.amd.com/en-us/internet_usage.aspx |archivedate = February 24, 2008}}&lt;/ref&gt;
+
+At the release of its successor, [[Windows 7]] (October 2009), Windows Vista (with approximately 400 million Internet users) was the second most widely used operating system on the Internet with an approximately 19% market share, the most widely used being Windows XP with an approximately 63% market share.&lt;ref&gt;{{cite web|url=https://www.w3counter.com/globalstats.php?year=2009&amp;month=8|title=W3Counter Global Web Stats:August 2009|publisher=W3Counter|accessdate=March 9, 2010}}&lt;/ref&gt; In May 2010, Windows Vista's market share had an estimated range from 15% to 26%.&lt;ref&gt;{{cite web|url=http://marketshare.hitslink.com/operating-system-market-share.aspx?qprid=10|title=Operating system market share|publisher=Marketshare Hitslink|accessdate=June 14, 2010}}&lt;/ref&gt;&lt;ref&gt;{{cite web|url=http://statowl.com/operating_system_market_share_by_os_version.php?1=1&amp;timeframe=last_6&amp;interval=month&amp;chart_id=4&amp;fltr_br=&amp;fltr_os=&amp;fltr_se=&amp;fltr_cn=&amp;limit%5B%5D=windows|title=Operating System Version Usage|publisher=StatOwl|accessdate=June 14, 2010|archive-url=https://web.archive.org/web/20101115095406/http://www.statowl.com/operating_system_market_share_by_os_version.php?1=1&amp;timeframe=last_6&amp;interval=month&amp;chart_id=4&amp;fltr_br=&amp;fltr_os=&amp;fltr_se=&amp;fltr_cn=&amp;limit%5B%5D=windows|archive-date=November 15, 2010|url-status=dead}}&lt;/ref&gt;  On October 22, 2010, Microsoft ceased sales of retail copies of Windows Vista, and the OEM sales for Vista ceased a year later.&lt;ref&gt;{{cite web|url=https://news.softpedia.com/news/Slow-Death-for-Windows-Vista-Packaged-Software-End-of-Sales-Reached-in-October-170467.shtml|title=Slow Death for Windows Vista - Packaged Software End of Sales Reached in October|first=Marius |last=Oiaga|date=December 3, 2010|work=softpedia}}&lt;/ref&gt;
+
+Mainstream support for Vista ended on April 10, 2012,&lt;ref name=sup1&gt;{{cite web |url=http://support.microsoft.com/lifecycle/?c2=14019 |title=Microsoft Support Lifecycle | website=Support | publisher=Microsoft |accessdate=May 11, 2012}}&lt;/ref&gt; and extended support ended on April 11, 2017.&lt;ref name=sup2&gt;{{cite web |url=https://support.microsoft.com/en-us/help/22882/windows-vista-end-of-support | title=Windows Vista support has ended - Windows Help | website=Support | publisher=Microsoft |archive-url=https://support.microsoft.com/en-us/help/22882/windows-vista-end-of-support | archive-date=August 6, 2019 |accessdate=April 11, 2017}}&lt;/ref&gt; After that date, Windows Vista users had to upgrade to Windows 7 in order to continue receiving Microsoft support. {{As of|2020|02|df=}}, Vista's market share has declined to 0.3% of Windows' total market share.&lt;ref&gt;{{Cite web|url=https://gs.statcounter.com/windows-version-market-share/desktop/worldwide/|title=Desktop Windows Version Market Share Worldwide|website=StatCounter Global Stats|language=en|access-date=February 16, 2020}}&lt;/ref&gt;
+
+== Development ==
+{{Main|Development of Windows Vista}}
+
+Microsoft began work on Windows Vista, known at the time by its [[codename]] "Longhorn", in May 2001,&lt;ref&gt;{{cite magazine
+| url = http://www.eweek.com/article2/0,1759,113701,00.asp
+| title = Pushing Forward
+| first = Peter
+| last = Gallii
+| date= July 30, 2001
+| accessdate = July 7, 2006
+| magazine = [[eWeek]]
+}}&lt;/ref&gt; five months before the release of Windows XP. It was originally expected to ship sometime late in 2003 as a minor step between [[Windows XP]] and "Blackcomb", which was planned to be the company's next major operating system release (which would eventually be released as [[Windows 7]]). Gradually, "Longhorn" assimilated many of the important new features and technologies slated for Blackcomb, resulting in the release date being pushed back several times in 3 years. In some builds of Longhorn, their license agreement said "For the Microsoft product codenamed 'Whistler'". Many of Microsoft's developers were also re-tasked to build updates to Windows XP and [[Windows Server 2003]] to strengthen security. Faced with ongoing delays and concerns about [[feature creep]], Microsoft announced on August 27, 2004, that it had revised its plans. For this reason, Longhorn was reset to start work on componentizing the Windows Server 2003 Service Pack 1 codebase, and over time re-incorporating the features that would be intended for an actual operating system release. However, some previously announced features such as [[WinFS]] were dropped or postponed, and a new software development methodology called the [[Security Development Lifecycle]] was incorporated in an effort to address concerns with the security of the Windows codebase, which is programmed in [[C (programming language)|C]], [[C++]] and [[Assembly language|assembly]]. Longhorn became known as Vista in 2005.&lt;ref&gt;[https://www.microsoft.com/technet/archive/winntas/training/ntarchitectoview/ntarc_2.mspx Microsoft Windows System Overview]. Microsoft.com. Retrieved on October 14, 2011.  {{webarchive|url=https://web.archive.org/web/20110316042956/http://technet.microsoft.com/library/cc767881.aspx |date=March 16, 2011 }}&lt;/ref&gt;&lt;ref&gt;{{cite web
+| first = Steve |last=Lipner |first2=Michael |last2=Howard
+| title = The Trustworthy Computing Security Development Lifecycle
+| work = [[Microsoft Developer Network]]
+| publisher= [[Microsoft]]
+| date = March 2005
+| url = https://msdn.microsoft.com/security/default.aspx?pull=/library/en-us/dnsecure/html/sdl.asp
+| accessdate = August 9, 2006
+}}&lt;/ref&gt;
+
+=== As Longhorn ===
+[[File:Microsoft Codename LongHorn v6.0 Build 4074.png|thumb|Desktop screenshot of [[Microsoft]] Windows Code Name ''Longhorn'' build 6.0.4074 (Milestone 7), showing [[Start menu]], early version of [[Windows Desktop Gadgets|Windows Desktop Sidebar]], My Computer window, and Slate visual style theme|alt=]]
+The early development stages of Longhorn were generally characterized by incremental improvements and updates to Windows XP. During this period, Microsoft was fairly quiet about what was being worked on, as their marketing and public relations focus was more strongly focused on Windows XP, and [[Windows Server 2003]], which was released in April 2003. Occasional builds of Longhorn were leaked onto popular [[file sharing]] networks such as [[Internet Relay Chat|IRC]], [[BitTorrent]], [[eDonkey network|eDonkey]] and various [[newsgroup]]s, and so most of what is known about builds prior to the first sanctioned development release of Longhorn in May 2003, is derived from these builds.
+
+After several months of relatively little news or activity from Microsoft with Longhorn, Microsoft released Build 4008, which had made an appearance on the Internet around February 28, 2003.&lt;ref name="build4008"&gt;{{cite web
+| url=http://www.winsupersite.com/reviews/longhorn_4008.asp
+| title=Longhorn Alpha Preview 2: Build 4008
+| accessdate=March 30, 2006
+| date=March 1, 2003
+| last=Thurrott
+| first=Paul
+| publisher=Windows SuperSite
+|archive-url=https://web.archive.org/web/20070117203459/http://www.winsupersite.com/reviews/longhorn_4008.asp |archive-date=January 17, 2007
+}}&lt;/ref&gt; It was also privately handed out to a select group of software developers. As an evolutionary release over build 3683, it contained a number of small improvements, including a modified blue "Plex" theme and a new, simplified Windows Image-based installer that operates in graphical mode from the outset, and completed an install of the operating system in approximately one third the time of Windows XP on the same hardware. An optional "new taskbar" was introduced that was thinner than the previous build and displayed the time differently.
+
+The most notable visual and functional difference, however, came with Windows Explorer. The incorporation of the Plex theme made blue the dominant color of the entire application. The Windows XP-style task pane was almost completely replaced with a large horizontal pane that appeared under the toolbars. A new search interface allowed for filtering of results, searching of Windows help, and natural-language queries that would be used to integrate with WinFS. The animated search characters were also removed. The "view modes" were also replaced with a single slider that would resize the icons in real-time, in list, thumbnail, or details mode, depending on where the slider was. File metadata was also made more visible and more easily editable, with more active encouragement to fill out missing pieces of information. Also of note was the conversion of Windows Explorer to being a [[.NET Framework|.NET]] application.
+
+Most builds of Longhorn and Vista were identified by a label that was always displayed in the bottom-right corner of the desktop. A typical build label would look like "Longhorn Build 3663.Lab06_N.020728-1728". Higher build numbers did not automatically mean that the latest features from every development team at Microsoft was included. Typically, a team working on a certain feature or subsystem would generate their own working builds which developers would test with, and when the code was deemed stable, all the changes would be incorporated back into the main development tree at once. At Microsoft, a number of "Build labs" exist where the compilation of the entirety of Windows can be performed by a team. The name of the lab in which any given build originated is shown as part of the build label, and the date and time of the build follows that. Some builds (such as Beta 1 and Beta 2) only display the build label in the version information dialog (Winver). The icons used in these builds are from Windows XP.
+
+At the [[Windows Hardware Engineering Conference]] (WinHEC) in May 2003, Microsoft gave their first public demonstrations of the new Desktop Window Manager and [[Windows Aero|Aero]]. The demonstrations were done on a revised build 4015 which was never released. A number of sessions for developers and hardware engineers at the conference focused on these new features, as well as the [[Next-Generation Secure Computing Base]] (previously known as "Palladium"), which at the time was Microsoft's proposed solution for creating a secure computing environment whereby any given component of the system could be deemed "trusted". Also at this conference, Microsoft reiterated their roadmap for delivering Longhorn, pointing to an "early 2005" release date.&lt;ref name="winhec2003"&gt;{{cite web
+|url=https://www.microsoft.com/whdc/winhec/pres03.mspx
+|title=WinHEC 2003 Session Presentations
+|accessdate=March 31, 2006
+|date=August 1, 2003
+|publisher=Microsoft
+|archiveurl=https://web.archive.org/web/20051216230533/http://www.microsoft.com/whdc/winhec/pres03.mspx |archivedate=December 16, 2005}}&lt;/ref&gt;
+
+=== Development reset ===
+By 2004, it had become obvious to the Windows team at Microsoft that they were losing sight of what needed to be done to complete the next version of Windows and ship it to customers. Internally, some Microsoft employees were describing the Longhorn project as "another Cairo" or "Cairo.NET", referring to the [[Cairo (operating system)|Cairo development project]] that the company embarked on through the first half of the 1990s, which never resulted in a shipping operating system (though nearly all the technologies developed in that time did end up in [[Windows 95]] and [[Windows NT]]&lt;ref name="caplancairo"&gt;{{cite web
+|url=http://www.siao2.com/2005/10/16/481625.aspx
+|title=A reset does not mean everything was thrown away
+|last=Kaplan
+|first=Michael
+|date=October 16, 2005
+|accessdate=April 2, 2006
+|work=Sorting It All Out
+}}&lt;/ref&gt;). Microsoft was shocked in 2005 by Apple's release of [[Mac OS X Tiger]]. It offered only a limited subset of features planned for Longhorn, in particular fast file searching and integrated graphics and sound processing, but appeared to have impressive reliability and performance compared to contemporary Longhorn builds.&lt;ref&gt;{{cite web|url=http://www.informationweek.co.uk/microsofts-vista-had-major-mac-envy-comp/197001418|title=Microsoft's Vista Had Major Mac Envy, Company E-Mails Reveal|first=Gregg |last=Keizer| work=[[InformationWeek]]|publisher=[[UBM plc]]|date=January 29, 2007|accessdate=February 28, 2013|archive-url=https://web.archive.org/web/20140127195804/http://www.informationweek.com/microsofts-vista-had-major-mac-envy-company-e-mails-reveal/d/d-id/1051287 |archive-date=January 27, 2014}}&lt;/ref&gt; Most Longhorn builds had major [[Explorer.exe]] system leaks which prevented the OS from performing well, and added more confusion to the development teams in later builds with more and more code being developed which failed to reach stability.
+
+In a September 23, 2005 front-page article in ''[[The Wall Street Journal]]'',&lt;ref name="resetwsj"&gt;{{cite news
+|url=https://www.wsj.com/articles/SB112743680328349448
+|title=Battling Google, Microsoft Changes How It Builds Software
+|last=Guth
+|first=Robert
+|date=September 23, 2005
+|pages= A1,??
+|newspaper=The Wall Street Journal
+}} (viewable online here [http://blog.sandeeprawat.com/2005/09/battling-google-microsoft-changes-how.html])
+&lt;/ref&gt; Microsoft co-president [[James Allchin|Jim Allchin]], who had overall responsibility for the development and delivery of Windows, explained how development of Longhorn had been "crashing into the ground" due in large part to the haphazard methods by which features were introduced and integrated into the core of the operating system, without a clear focus on an end-product. Allchin went on to explain how in December 2003, he enlisted the help of two other senior executives, Brian Valentine and Amitabh Srivastava, the former being experienced with shipping software at Microsoft, most notably Windows Server 2003,&lt;ref name="supersitevalentine"&gt;{{cite web
+|url=http://www.winsupersite.com/showcase/valentine_2003.asp
+|title=Brian Valentine talks Windows Server 2003
+|last=Thurrott
+|first=Paul
+|date=April 16, 2003
+|accessdate=April 2, 2006
+|publisher=SuperSite for Windows
+|archive-url=https://web.archive.org/web/20060614023154/http://www.winsupersite.com/showcase/valentine_2003.asp |archive-date=June 14, 2006
+}}&lt;/ref&gt; and the latter having spent his career at Microsoft researching and developing methods of producing high-quality testing systems.&lt;ref name="forbessrivastava"&gt;{{cite magazine
+|url=https://www.forbes.com/free_forbes/2003/0526/147.html
+|title=The Exterminator
+|last=Murphy
+|first=Victoria
+|date=May 26, 2003
+|magazine=[[Forbes|Forbes Magazine]]
+}}&lt;/ref&gt; Srivastava employed a team of core architects to visually map out the entirety of the Windows operating system, and to proactively work towards a development process that would enforce high levels of code quality, reduce interdependencies between components, and in general, "not make things worse with Vista".&lt;ref name="channel9kernel"&gt;{{cite web
+|url=http://channel9.msdn.com/Showpost.aspx?postid=148820
+|title=Rob Short (and kernel team) - Going deep inside Windows Vista's kernel architecture
+|first=Charles |last=Torre |first2=Robert |last2=Scoble |authorlink2=Robert Scoble
+|date=December 23, 2005
+|work=[[Channel 9 (discussion forum)|Channel 9]]
+|publisher=Microsoft
+}}&lt;/ref&gt; Since Microsoft decided that Longhorn needed to be further componentized, work started on the Omega-13 series builds where they would componentize existing Windows Server 2003 source code, and over time add back functionality as development progressed. Future Longhorn builds would start from Windows Server 2003 Service Pack 1 and continue from there.
+
+This change, announced internally to Microsoft employees on August 26, 2004, began in earnest in September, though it would take several more months before the new development process and build methodology would be used by all of the development teams. A number of complaints came from individual developers, and Bill Gates himself, that the new development process was going to be prohibitively difficult to work within.
+
+=== As Windows Vista ===
+By approximately November 2004, the company had considered several names for the final release, ranging from simple to fanciful and inventive. In the end, Microsoft chose Windows Vista as confirmed on July 22, 2005, believing it to be a "wonderful intersection of what the product really does, what Windows stands for, and what resonates with customers, and their needs". Group Project Manager Greg Sullivan told Paul Thurrott "You want the PC to adapt to you and help you cut through the clutter to focus on what's important to you. That's what Windows Vista is all about: "bringing clarity to your world" (a reference to the three marketing points of Vista—Clear, Connected, Confident), so you can focus on what matters to you".&lt;ref&gt;{{cite web|url=https://www.cnet.com/news/longhorns-new-name-windows-vista/|title=Longhorn's new name: Windows Vista|first=Mike |last=Ricciuti|work=[[CNET]]|publisher=[[CBS Interactive]]|date=July 22, 2005|accessdate=March 15, 2016}}&lt;/ref&gt; Microsoft co-president Jim Allchin also loved the name, saying that "Vista creates the right imagery for the new product capabilities and inspires the imagination with all the possibilities of what can be done with Windows—making people's passions come alive."&lt;ref name="roadtogold4"&gt;{{cite web
+|url=http://www.winsupersite.com/showcase/winvista_roadtogold_04.asp
+|title=Road to Gold: The Long Road to Windows Vista Part 4: January - July 2005
+|first=Paul
+|last=Thurrott
+|authorlink=Paul Thurrott
+|date=November 1, 2006
+|accessdate=November 2, 2006
+|archive-url=https://web.archive.org/web/20061109161221/http://www.winsupersite.com/showcase/winvista_roadtogold_04.asp |archive-date=November 9, 2006
+}}&lt;/ref&gt;
+
+After Longhorn was named Windows Vista in July 2005, an unprecedented [[Development stage|beta-test]] program was started, involving hundreds of thousands of volunteers and companies. In September of that year, Microsoft started releasing regular [[Community Technology Preview]]s (CTP) to beta testers from July 2005 to February 2006. The first of these was distributed at the 2005 Microsoft [[Professional Developers Conference]], and was subsequently released to beta testers and [[Microsoft Developer Network]] subscribers. The builds that followed incorporated most of the planned features for the final product, as well as a number of changes to the user interface, based largely on feedback from beta testers. Windows Vista was deemed feature-complete with the release of the "February CTP," released on February 22, 2006, and much of the remainder of the work between that build and the final release of the product focused on stability, performance, application and driver compatibility, and documentation. Beta 2, released in late May, was the first build to be made available to the general public through Microsoft's Customer Preview Program. It was downloaded by over five million people. Two release candidates followed in September and October, both of which were made available to a large number of users.&lt;ref&gt;{{cite web | first=Paul | last=Thurrott | authorlink=Paul Thurrott | url=http://www.winsupersite.com/showcase/winvista_roadtogold_07.asp | title=Paul Thurrott's SuperSite for Windows: Road to Gold: The Long Road to Windows Vista Part 7: July 2006 – present | work=SuperSite for Windows |publisher=[[Penton (company)|Penton]] | date=November 5, 2006 | accessdate=December 25, 2007 |archive-url=https://web.archive.org/web/20061109161522/http://www.winsupersite.com/showcase/winvista_roadtogold_07.asp |archive-date=November 9, 2006}}&lt;/ref&gt;
+
+At the [[Intel Developer Forum]] on March 9, 2006, Microsoft announced a change in their plans to support EFI in Windows Vista. The [[UEFI]] 2.0 specification (which replaced EFI 1.10) was not completed until early 2006, and at the time of Microsoft's announcement, no firmware manufacturers had completed a production implementation which could be used for testing. As a result, the decision was made to postpone the introduction of UEFI support to Windows; support for UEFI on 64-bit platforms was postponed until Vista Service Pack 1 and [[Windows Server 2008]] and 32-bit UEFI would not be supported, as Microsoft did not expect many such systems to be built because the market was quickly moving to 64-bit processors.&lt;ref name="uefiremoved"&gt;{{cite web
+| url=http://www.eweek.com/article2/0,1895,1937668,00.asp
+| title=Microsoft Shuts Windows on New PC Firmware
+| first=John |last=Spooner
+| date=March 14, 2006
+| accessdate=December 26, 2006
+| work=eWeek
+}}&lt;/ref&gt;&lt;ref name="uefiplans"&gt;{{cite web
+| url=https://www.microsoft.com/whdc/system/platform/firmware/efibrief.mspx
+| title=EFI and Windows Vista
+| date=April 20, 2006
+| accessdate=December 26, 2006
+| work=WHDC
+| publisher=Microsoft
+|archiveurl = https://web.archive.org/web/20080205221635/http://www.microsoft.com/whdc/system/platform/firmware/efibrief.mspx |archivedate = February 5, 2008}}&lt;/ref&gt;
+
+While Microsoft had originally hoped to have the consumer versions of the operating system available worldwide in time for the 2006 [[Christmas and holiday season#Shopping|holiday shopping season]], it announced in March 2006 that the release date would be pushed back to January 2007 in order to give the company—and the hardware and software companies that Microsoft depends on for providing [[device driver]]s—additional time to prepare. Because a [[release to manufacturing]] (RTM) build is the final version of code shipped to retailers and other distributors, the purpose of a pre-RTM build is to eliminate any last "show-stopper" bugs that may prevent the code from responsibly being shipped to customers, as well as anything else that consumers may find annoying. Thus, it is unlikely that any major new features would be introduced; instead, work would focus on Vista's fit and finish. In just a few days, developers had managed to drop Vista's bug count from over 2470 on September 22 to just over 1400 by the time RC2 shipped in early October. However, they still had a way to go before Vista was ready to RTM. Microsoft's internal processes required Vista's bug count to drop to 500 or fewer before the product could go into escrow for RTM.&lt;ref&gt;{{cite web
+|url=http://www.windowsitpro.com/Article/ArticleID/93715/93715.html
+|title=Exclusive: Here Comes Windows Vista RC2
+|first=Paul
+|last=Thurrott
+|authorlink=Paul Thurrott
+|date=October 23, 2006
+|accessdate=October 2, 2006
+|work=WinInfo blog
+|publisher=WindowsITPro
+|archive-url=https://web.archive.org/web/20061011174655/http://www.windowsitpro.com/Article/ArticleID/93715/93715.html |archive-date=October 11, 2006}}&lt;/ref&gt; For most of the pre-RTM builds, those 32-bit editions are only released.
+
+On June 14, 2006, Windows developer Philip Su posted a blog entry which decried the development process of Windows Vista, stating that "The code is way too complicated, and that the pace of coding has been tremendously slowed down by overbearing process."&lt;ref&gt;{{cite web
+|url=http://blogs.msdn.com/philipsu/archive/2006/06/14/631438.aspx
+|title=Broken Windows Theory
+|date=June 14, 2006
+|accessdate=June 24, 2006
+|work=The World As Best As I Remember It
+|publisher=MSDN Blogs
+}}&lt;/ref&gt; The same post also described Windows Vista as having approximately 50 million [[lines of code]], with about 2,000 developers working on the product. During a demonstration of the speech recognition feature new to Windows Vista at Microsoft's Financial Analyst Meeting on July 27, 2006, the software recognized the phrase "Dear mom" as ''"Dear aunt"''. After several failed attempts to correct the error, the sentence eventually became "''Dear aunt, let's set so double the killer delete select all''".&lt;ref name="voicedemo"&gt;{{cite web|url=http://usatoday30.usatoday.com/tech/products/software/2006-07-30-microsoft-voice-recognition_x.htm |title=Glitch in voice-recognition software foils Microsoft demo |date=July 28, 2006 |agency=Associated Press |work=USA Today |publisher= Gannett Co. Inc }}&lt;/ref&gt; A developer with Vista's speech recognition team later explained that there was a bug with the build of Vista that was causing the microphone [[Gain (electronics)|gain level]] to be set very high, resulting in the audio being received by the speech recognition software being "incredibly distorted".&lt;ref name="chamberssr"&gt;{{cite web|url=http://blogs.msdn.com/robch/archive/2006/07/29/682479.aspx
+|title=FAM: Vista SR Demo failure -- And now you know the rest of the story ...
+|date=July 29, 2006
+|accessdate=July 31, 2006
+|first=Rob |last=Chambers
+|work=Rob's Rhapsody
+|publisher=[[Microsoft]]
+}}&lt;/ref&gt;
+
+Windows Vista build 5824 (October 17, 2006) was supposed to be the RTM release, but a bug, which destroyed any system that was upgraded from Windows XP, prevented this, damaging development and lowering the chance that it would hit its January 2007 deadline.&lt;ref name="Windows Vista RTM code delayed"&gt;{{cite web | url=http://www.alphr.com/news/business-software/96607/vista-rtm-code-delayed-report | title=Windows Vista RTM code delayed | first=Steve |last=Malone |publisher=Digitimes/alphr |date=October 27, 2006 | accessdate=August 20, 2015}}&lt;/ref&gt;
+
+Development of Windows Vista came to an end when Microsoft announced that it had been finalized on November 8, 2006, and was concluded by co-president of Windows development, [[Jim Allchin]].&lt;ref&gt;{{cite web | first=Nick | last=White | url=http://windowsvistablog.com/blogs/windowsvista/archive/2006/11/08/windows-vista-releases-to-manufacturing.aspx|archiveurl=https://web.archive.org/web/20140407220451/http://blogs.windows.com/windows/archive/b/windowsvista/archive/2006/11/08/windows-vista-releases-to-manufacturing.aspx|archivedate=April 7, 2014 | title=Windows Vista releases to manufacturing | publisher=Windows Vista team blog | date=November 8, 2006 | accessdate=November 8, 2006 }} Windows Vista cost Microsoft six billion dollars to develop.{{cite web|url=http://news.softpedia.com/news/Vista-a-6-Billion-Dollars-Operating-System-44096.shtml |title=Vista – a {{sic|$6 Billion Dollars|hide=y}} Operating System – The best billions Bill Gates has ever spent|website=[[Softpedia]] |publisher=SoftNews|accessdate=October 2, 2008}}&lt;/ref&gt; The RTM's build number had also jumped to 6000 to reflect Vista's internal version number, [[Windows NT|NT]] 6.0.&lt;ref&gt;{{cite web
+|url=http://www.windowsitpro.com/Articles/ArticleID/94037/94037.html
+|title=WinInfo Short Takes
+|first=Paul
+|last=Thurrott
+|date=October 27, 2006
+|accessdate=October 27, 2006
+|work=WinInfo blog
+|publisher=WindowsITPro
+|archive-url=https://web.archive.org/web/20061103074235/http://www.windowsitpro.com/Articles/ArticleID/94037/94037.html |archive-date=November 3, 2006}}&lt;/ref&gt; Jumping RTM build numbers is common practice among consumer-oriented Windows versions, like [[Windows 98]] (build 1998), Windows 98 SE (build 2222), [[Windows Me]] (build 3000) or [[Windows XP]] (build 2600), as compared to the business-oriented versions like [[Windows 2000]] (build 2195) or [[Windows Server 2003|Server 2003]] (build 3790). On November 16, 2006, Microsoft made the final build available to [[Microsoft Developer Network|MSDN]] and Technet Plus subscribers.&lt;ref&gt;{{cite web
+|url=http://msdn2.microsoft.com/en-us/subscriptions/default.aspx
+|title=MSDN Subscriptions
+|publisher=Microsoft
+|accessdate=October 27, 2006
+}}&lt;/ref&gt; A business-oriented Enterprise edition was made available to volume license customers on November 30, 2006.&lt;ref&gt;{{cite web
+|url=https://www.microsoft.com/business/launch2007/default.mspx
+|title=Microsoft Business Value
+|publisher=Microsoft
+|accessdate=November 30, 2006
+|archiveurl = https://web.archive.org/web/20061205210037/http://www.microsoft.com/business/launch2007/default.mspx  |archivedate = December 5, 2006}}&lt;/ref&gt; Windows Vista was launched for general customer availability on January 30, 2007.
+
+== New or changed features ==
+{{Main| Features new to Windows Vista}}
+Windows Vista introduced several features and functionality not present in its predecessors.
+
+=== End-user ===
+* '''[[Windows Aero]]:''' The new graphical user interface is named ''Windows Aero'', which [[Jim Allchin]] stated is an acronym for ''Authentic, Energetic, Reflective, and Open''.&lt;ref name="WindowsVistaSounds"&gt;{{cite web |url=http://windowsvistablog.com/blogs/windowsvista/archive/2006/11/09/the-sounds-of-windows-vista.aspx |title=The Sounds of Windows Vista |last=Allchin |first=Jim |authorlink=Jim Allchin |date=November 9, 2006 |archiveurl=https://web.archive.org/web/20061110152317/http://windowsvistablog.com/blogs/windowsvista/archive/2006/11/09/the-sounds-of-windows-vista.aspx |archivedate=November 10, 2006 |publisher=[[Microsoft]] |work=Windows Vista Team Blog |accessdate=April 25, 2015}}&lt;/ref&gt; Microsoft intended the new interface to be cleaner and more aesthetically pleasing than those of previous Windows versions, featuring new transparencies, live thumbnails, live icons, and animations, thus providing a new level of [[attractiveness|eye candy]]. Laptop users report, however, that enabling Aero shortens battery life&lt;ref&gt;{{cite web |url=https://www.engadget.com/2007/05/04/vistas-aero-interface-blamed-for-truncated-battery-life/ |title=Vista's Aero interface blamed for truncated battery life |first=Darren |last=Murph |publisher=[[Engadget]] |date=May 3, 2007}}&lt;/ref&gt;&lt;ref&gt;{{cite web |url=http://blogs.msdn.com/coding4fun/archive/2007/05/06/2452864.aspx |title=Vista Battery Fix? |date=May 6, 2007 |publisher=[[Microsoft]] |accessdate=March 18, 2008 |archive-url=https://web.archive.org/web/20080313152247/http://blogs.msdn.com/coding4fun/archive/2007/05/06/2452864.aspx |archive-date=March 13, 2008 |url-status=dead  }}&lt;/ref&gt; and reduces performance.
+* '''[[Windows shell]]:''' The new Windows shell offers a new range of organization, navigation, and search capabilities: Task panes in [[Windows Explorer]] are removed, integrating the relevant task options into the toolbar. A "Favorite links" pane has been added, enabling one-click access to common directories. A search box appears in every Explorer window. The address bar has been replaced with a [[Breadcrumb (navigation)|breadcrumb navigation]] bar. Icons of certain file types in Windows Explorer are "live" and can be scaled in size up to 256 × 256 pixels. The preview pane allows users to see thumbnails of various files and view the contents of documents. The details pane shows information such as file size and type, and allows viewing and editing of [[Tag (metadata)|embedded tags]] in supported file formats. The [[Start menu]] has changed as well; incorporating an instant search box, and the ''All Programs'' list uses a horizontal scroll bar instead of the cascading flyout menu seen in Windows XP. The word "Start" itself has been removed in favor of a blue orb that bears the Windows logo.
+* '''[[Windows Search]]:''' A new search component of Windows Vista, it features [[Incremental search|instant search]] (also known as ''search as you type''), which provides instant search results, thus finding files more quickly than the search features found in previous versions of Windows and can search the contents of recognized file types.&lt;ref&gt;{{cite web
+| url = http://zone.ni.com/devzone/cda/tut/p/id/5604
+| title = A Closer Look at Windows Vista Part II: Enhanced Search
+| website=ni.com
+| publisher = National Instruments
+| date=September 17, 2009
+| url-status=live
+| archive-url=https://web.archive.org/web/20110929173955/http://zone.ni.com/devzone/cda/tut/p/id/5604
+| archive-date=September 29, 2011
+}}&lt;/ref&gt; Users can search for certain metadata such as [[filename|name]], [[filename extension|extension]], size, date or [[file attribute|attributes]].
+* '''[[Windows Sidebar]]:''' A transparent panel, anchored to the right side of the screen, wherein a user can place [[Desktop Gadgets]], which are small applets designed for a specialized purpose (such as displaying the weather or sports scores). Gadgets can also be placed on the desktop.&lt;ref&gt;{{cite web|url=https://www.pcmag.com/article2/0,2817,2108157,00.asp|title=Ten Must-Have Gadgets for Windows Vista Sidebar|first=Joel Jr. |last=Durham|work=[[PC Magazine]]|publisher=[[Ziff Davis]]|date=March 21, 2007|accessdate=March 19, 2016}}&lt;/ref&gt;
+* '''[[Internet Explorer 7|Windows Internet Explorer 7]]:''' New user interface, [[tabbed browsing]], [[RSS (file format)|RSS]], a search box, improved printing,&lt;ref name="ieprint"&gt;Windows Internet Explorer, Printing Advances [https://www.microsoft.com/windows/products/windowsvista/features/details/ie7printing.mspx Printing in IE7].&lt;/ref&gt; Page Zoom, Quick Tabs (thumbnails of all open tabs), Anti-Phishing filter, a number of new security protection features, Internationalized Domain Name support (IDN), and improved web standards support. IE7 in Windows Vista runs in isolation from other applications in the operating system (protected mode); exploits and malicious software are restricted from writing to any location beyond Temporary Internet Files without explicit user consent.
+* '''[[Windows Media Player 11]]''', a major revamp of Microsoft's program for playing and organizing music and video. New features in this version include word wheeling ([[incremental search]] or "search as you type"), a new [[GUI]] for the media library, photo display and organization, the ability to share music libraries over a network with other Windows Vista machines, [[Xbox 360]] integration, and support for other [[Windows Media Center Extender|Media Center Extenders]].
+* '''[[Windows Defender#Windows Vista-specific functionality|Windows Defender]]:''' An antispyware program with several real-time protection agents. It includes a software explorer feature, which provides access to startup programs, and allows one to view currently running software, network connected applications, and Winsock providers (Winsock LSPs).
+* '''[[Backup and Restore Center]]:''' Includes a backup and restore application that gives users the ability to schedule periodic backups of files on their computer, as well as recovery from previous backups. Backups are incremental, storing only the changes made each time, minimizing disk usage. It also features Complete PC Backup (available only in [[Windows Vista editions|the Ultimate, Business, and Enterprise versions]]), which backs up an entire computer as an image onto a hard disk or DVD. Complete PC Backup can automatically recreate a machine setup onto new hardware or hard disk in case of any hardware failures. Complete PC Restore can be initiated from within Windows Vista or from the Windows Vista installation CD in the event that a PC is so corrupt that it cannot start normally from the hard disk.
+* '''[[Windows Mail]]:''' A replacement for Outlook Express that includes a new mail store that improves stability,&lt;ref name="winmail"&gt;Windows Mail Features Explained, See Reliability Section [https://www.microsoft.com/windows/products/windowsvista/features/details/mail.mspx Windows Mail].&lt;/ref&gt; and features integrated instant search. It has the Phishing Filter like Internet Explorer 7 and [[spam filter|Junk mail filtering]] that is enhanced through regular updates via Windows Update.&lt;ref name="windowsmail"&gt;Windows Mail was demonstrated by the development team in [http://channel9.msdn.com/showpost.aspx?postid=116711 this Channel 9 video].&lt;/ref&gt;
+* '''[[Windows Calendar]]''' is a new calendar and task application which integrates with Windows Contacts and Windows Mail. It is compatible with various calendar file types, such as the popular ''[[iCalendar]]''.
+* '''[[Windows Photo Gallery]]''', a photo and movie library management application. It can import from digital cameras, tag and rate individual items, adjust colors and exposure, create and display slideshows (with pan and fade effects) through [[Direct3D]] and burn slideshows to a DVD.
+* '''[[Windows DVD Maker]]''', a companion program to [[Windows Movie Maker]] that provides the ability to create video DVDs based on a user's content. Users can design a DVD with title, menus, video, soundtrack, pan and zoom motion effects on pictures or slides.
+* '''[[Windows Media Center]]''', which was previously exclusively bundled in a separate version of Windows XP, known as [[Windows XP Media Center Edition]], has been incorporated into the Home Premium and Ultimate editions of Windows Vista.
+* '''Games:''' Most of the standard [[computer game]]s included in previous versions of Windows have been redesigned to showcase Vista's new graphical capabilities. New games available in Windows Vista are [[Chess Titans]] (3D [[Chess]] game), [[Mahjong Titans]] (3D [[Mahjong]] game), and [[Purble Place]] (a small collection of games, oriented towards younger children, including a matching game, a cake-creator game, and a [[dress-up]] puzzle game). Purble Place is the only one of the new games available in the Windows Vista Home Basic edition. [[InkBall]] is available for Home Premium (or better) users.
+* '''[[Games Explorer]]:''' A new special folder called "Games"&lt;!--Not "Game Explorer"--&gt; exposes installed video games and information about them. These metadata may be updated from the Internet.&lt;ref&gt;{{cite web|url=https://www.ign.com/articles/2006/12/07/vista-and-games-for-windows-update-2|title=Vista and Games for Windows update|first=Dan |last=Adams|work=[[IGN]]|publisher=[[Ziff Davis]]|date=December 7, 2006|accessdate=March 18, 2016}}&lt;/ref&gt;
+* '''[[Windows Mobility Center]]''' is a control panel that centralizes the most relevant information related to mobile computing (brightness, sound, battery level / power scheme selection, wireless network, screen orientation, presentation settings, etc.).
+* '''[[Windows Fax and Scan]]''' Allows computers with fax modems to send and receive fax documents, as well as scan documents. It is not available in the Home versions of Windows Vista, but is available in the Business, Enterprise and Ultimate editions.
+* '''[[Windows Meeting Space]]''' replaces [[NetMeeting]]. Users can share applications (or their entire desktop) with other users on the local network, or over the Internet using peer-to-peer technology (higher versions than Starter and Home Basic can take advantage of hosting capabilities, Starter and Home Basic editions are limited to "join" mode only)
+* '''[[Features new to Windows Vista#Windows HotStart|Windows HotStart]]''' enables compatible computers to start applications directly from operating system startup or resume by the press of a button—this enables what Microsoft has described as ''appliance-like availability'', which allows computers to function in a manner similar to a [[consumer electronics|consumer electronics device]] such as a [[DVD player]];&lt;ref name="MobilePCs"&gt;{{cite web |url = http://download.microsoft.com/download/1/8/f/18f8cee2-0b64-41f2-893d-a6f2295b40c8/SW04023_WINHEC2004.ppt|title = Windows For Mobile PCs And Tablet PCs - CY05 And Beyond|last = Suokko|first = Matti|date = 2004|publisher = [[Microsoft]]|archiveurl = https://web.archive.org/web/20051214170817/http://download.microsoft.com/download/1/8/f/18f8cee2-0b64-41f2-893d-a6f2295b40c8/SW04023_WINHEC2004.ppt|archivedate=December 14, 2005 |format = PPT|accessdate = July 15, 2015}}&lt;/ref&gt; the feature was also designed to provide the ''instant-on'' feature availability that is traditionally associated with [[mobile device]]s.&lt;ref name="LonghornMobilePC"&gt;{{cite web |url = http://download.microsoft.com/download/9/8/f/98f3fe47-dfc3-4e74-92a3-088782200fe7/TWDT05010_WinHEC05.ppt|title = Building a "Longhorn"-Ready Mobile PC|last = Parker|first = Burt|date = 2005|publisher = [[Microsoft]]|format = PPT|accessdate = August 4, 2015|archive-url=https://web.archive.org/web/20150907075301/http://download.microsoft.com/download/9/8/f/98f3fe47-dfc3-4e74-92a3-088782200fe7/TWDT05010_WinHEC05.ppt |archive-date=September 7, 2015}}&lt;/ref&gt; While Microsoft has emphasized multimedia scenarios with Windows HotStart,&lt;ref name="LonghornACPI"&gt;{{cite web |url = http://download.microsoft.com/download/1/8/f/18f8cee2-0b64-41f2-893d-a6f2295b40c8/TW04080_WINHEC2004.ppt|title = Windows Longhorn ACPI and Power Management - Part 1|publisher = [[Microsoft]]|date = 2004|format = PPT|archiveurl = https://web.archive.org/web/20060219093643/http://download.microsoft.com/download/1/8/f/18f8cee2-0b64-41f2-893d-a6f2295b40c8/TW04080_WINHEC2004.ppt|archivedate=February 19, 2006 |accessdate = August 4, 2015}}&lt;/ref&gt; a user can configure this feature so that a button launches a preferred application.&lt;ref name="HotStart"&gt;{{cite web |url=http://download.microsoft.com/download/a/f/7/af7777e5-7dcd-4800-8a0a-b18336565f5b/hotstart.docx |title=Configuring Windows HotStart |publisher=[[Microsoft]] |date=March 19, 2010 |format=DOCX |accessdate=April 18, 2015}}&lt;/ref&gt;
+* '''[[Shadow Copy]]''' automatically creates daily backup copies of files and folders. Users can also create "shadow copies" by setting a System Protection Point using the System Protection tab in the System control panel. The user can view multiple versions of a file throughout a limited history and be allowed to restore, delete, or copy those versions. This feature is available only in the Business, Enterprise, and Ultimate editions of Windows Vista and is inherited from [[Windows Server 2003]].&lt;ref&gt;{{cite web
+| year = 2006
+| publisher = Microsoft
+| accessdate = August 24, 2006
+| url = https://www.microsoft.com/technet/windowsvista/library/4ac505e6-dd8b-4ae7-80fa-b9d77cd8104d.mspx
+| title = Selected Scenarios for Maintaining Data Integrity with Windows Vista
+|archive-url=https://web.archive.org/web/20060820162347/http://www.microsoft.com/technet/windowsvista/library/4ac505e6-dd8b-4ae7-80fa-b9d77cd8104d.mspx |archive-date=August 20, 2006
+}}&lt;/ref&gt;
+
+* '''[[Windows Update]]:''' Software and security updates have been simplified,&lt;ref name="winupdate"&gt;Windows Update, Easier and Less Disruptive [https://www.microsoft.com/windows/products/windowsvista/features/details/windowsupdate.mspx Windows Update in Windows Vista].&lt;/ref&gt; now operating solely via a control panel instead of as a [[web application]]. Windows Mail's spam filter and Windows Defender's definitions are updated automatically via Windows Update. Users who choose the recommended setting for Automatic Updates will have the latest drivers installed and available when they add a new device.
+* '''[[Windows Parental Controls|Parental controls]]:''' Allows administrators to monitor and restrict user activity, as well as control which websites, programs and games each Standard user can use and install. This feature is not included in the Business or Enterprise editions of Vista.
+* '''[[Windows SideShow]]:''' Enables the auxiliary displays on newer laptops or on supported Windows Mobile devices. It is meant to be used to display device gadgets while the computer is on or off.
+* '''[[Windows Speech Recognition|Speech recognition]]''' is integrated into Vista.&lt;ref name="winspeech"&gt;Windows Vista, SAPI [http://msdn.microsoft.com/msdnmag/issues/06/01/speechinWindowsVista/ Talking Windows] {{webarchive |url=https://web.archive.org/web/20070323111812/http://msdn.microsoft.com/msdnmag/issues/06/01/speechinWindowsVista/ |date=March 23, 2007 }}&lt;/ref&gt; It features a redesigned user interface and configurable command-and-control commands. Unlike the Office 2003 version, which works only in Office and WordPad, Speech Recognition in Windows Vista works for any accessible application. In addition, it currently supports several languages: British and American English, Spanish, French, German, Chinese (Traditional and Simplified) and Japanese.
+* New [[font]]s, including several designed for [[screen reading]], and improved Chinese (Yahei, JhengHei), Japanese (Meiryo), and Korean (Malgun) fonts. [[ClearType]] has also been enhanced and enabled by default.
+* Improved audio controls allow the system-wide volume or volume of individual audio devices and even individual applications to be controlled separately. New audio functionalities such as room correction, bass management, speaker fill, and headphone virtualization have also been incorporated.
+* '''[[Problem Reports and Solutions]]''', a feature that allows users to check for solutions to problems or view previously sent problems for any solutions or additional information, if available.
+* '''[[Windows System Assessment Tool]]''' is a tool used to benchmark system performance. Software such as games can retrieve this rating and modify its own behavior at runtime to improve performance. The benchmark tests [[CPU]], [[RAM]], 2-D and 3-D graphics acceleration, graphics memory and hard disk space.&lt;ref&gt;{{cite web |last=Russell |first=Richard G. |title=System Performance Assessment Tools for Windows Longhorn |url= http://download.microsoft.com/download/9/8/f/98f3fe47-dfc3-4e74-92a3-088782200fe7/TWAR05002_WinHEC05.ppt|format=[[Microsoft PowerPoint|PPT]]|publisher=Microsoft|date=May 6, 2005|accessdate=December 27, 2012|url-status=dead|archive-url=https://web.archive.org/web/20121118060051/http://download.microsoft.com/download/9/8/f/98f3fe47-dfc3-4e74-92a3-088782200fe7/TWAR05002_WinHEC05.ppt |archive-date=November 18, 2012}}&lt;/ref&gt;&lt;ref name="winsat"&gt;{{cite web|title= Introducing the Windows System Assessment Tool|url= https://www.microsoft.com/technet/scriptcenter/topics/vista/winsat.mspx|archive-url= https://web.archive.org/web/20070116054456/http://www.microsoft.com/technet/scriptcenter/topics/vista/winsat.mspx |archive-date=January 16, 2007|url-status=dead|website=Microsoft TechNet}}&lt;/ref&gt;
+* '''[[Windows Ultimate Extras]]''': The Ultimate edition of Windows Vista provides, via Windows Update, access to some additional features. These are a collection of additional [[Multilingual User Interface|MUI]] language packs, ''Texas Hold 'Em'' (a Poker game) and ''Microsoft Tinker'' (a strategy game where the character is a robot), [[BitLocker Drive Encryption|BitLocker]] and [[Encrypting File System|EFS]] enhancements that allow users to back up their encryption [[key (cryptography)|key]] online in a ''Digital Locker'', and [[Windows Dreamscene]], which enables the use of videos in [[Moving Picture Experts Group|MPEG]] and [[Windows Media Video|WMV]] formats as the desktop background. On April 21, 2008, Microsoft launched two more Ultimate Extras; three new Windows sound schemes, and a content pack for [[Dreamscene]]. Various DreamScene Content Packs have been released since the final version of DreamScene was released.
+* '''Reliability and Performance Monitor''' includes various tools for tuning and monitoring system performance and resources activities of [[Central processing unit|CPU]], disks, network, memory and other resources. It shows the operations on files, the opened connections, etc.&lt;ref&gt;{{cite web|url=https://arstechnica.com/information-technology/2007/06/vistas-reliability-monitor-provides-detailed-information-on-os-uptime/|title=
+Vista’s Reliability Monitor provides detailed information on OS uptime|first=Joel |last=Hruska|work=[[Ars Technica]]|publisher=[[Condé Nast]]|date=June 29, 2007|accessdate=March 16, 2016}}&lt;/ref&gt;
+* '''Disk Management''': The [[Logical Disk Manager]] in Windows Vista supports shrinking and expanding volumes on-the-fly.&lt;ref&gt;{{cite web|url=http://www.pcworld.com/article/132079/article.html|title=Partitioning a Hard Drive in Vista|first=Dennis |last=O'Reilly|work=[[PC World]]|publisher=[[IDG]]|date=May 22, 2007|accessdate=March 15, 2016}}&lt;/ref&gt;
+* '''[[Windows Anytime Upgrade]]''': is a program that allows a user to upgrade their computer running Vista to a higher edition. For example, a computer running Windows Vista Home Basic can be upgraded to Home Premium or better. Anytime Upgrade permits users to upgrade without having their programs and data erased, and is cheaper than replacing the existing installation of Windows. Anytime Upgrade is no longer available for Vista.&lt;ref&gt;{{cite web|url=http://windows.microsoft.com/en-US/windows-vista/upgrade-to-another-edition-of-windows-vista |title=Upgrade to another edition of Windows Vista |website=Windows.microsoft.com |accessdate=February 4, 2012}}&lt;/ref&gt;
+* '''Digital Locker Assistant''': A program that facilitated access to downloads and purchases from the [[Windows Marketplace]] [[digital distribution platform]].&lt;ref name="DigitalLockerAssistant"&gt;{{cite web |url=https://blogs.windows.com/windowsexperience/2007/05/02/digital-locker-assistant-helps-manage-purchased-apps/ |title=Digital Locker Assistant helps manage purchased Apps |last=LeBlanc |first=Brandon |date=May 2, 2007 |publisher=[[Microsoft]] |work=Windows Blogs |accessdate=December 26, 2016}}&lt;/ref&gt; Apps purchased from Windows Marketplace are managed by [[Microsoft Account]] credentials, which are used to access a user's digital locker that stores the app and its associated information (e.g., licenses) off-site.&lt;ref name="DigitalLocker"&gt;{{cite web |url=http://www.windowsmarketplace.com/content.aspx?ctId=302 |title=Digital Locker |date=2007 |publisher=[[Microsoft]] |work=Windows Marketplace |archiveurl=https://web.archive.org/web/20070202222315/http://www.windowsmarketplace.com/content.aspx?ctId=302 |archivedate=February 2, 2007 |accessdate=December 26, 2016}}&lt;/ref&gt;
+
+=== Core ===
+{{Main|Technical features new to Windows Vista}}
+Vista includes technologies such as [[ReadyBoost]]&lt;ref&gt;{{cite web|url=http://www.techrepublic.com/article/windows-vista-readyboost-readydrive-and-superfetch-oh-my/6060817|title=Windows Vista: ReadyBoost, ReadyDrive, and SuperFetch, oh my!|first=Greg |last=Shultz|date=April 13, 2006|work=[[TechRepublic]]}}&lt;/ref&gt; and [[ReadyDrive]], which employ fast [[flash memory]] (located on [[USB flash drive]]s and [[hybrid drive|hybrid hard disk drives]]) to improve system performance by caching commonly used programs and data. This manifests itself in improved battery life on notebook computers as well, since a hybrid drive can be spun down when not in use.&lt;ref&gt;{{cite web|url=http://channel9.msdn.com/Blogs/Charles/Windows-Vista-Ready-for-ReadyDrive|title=Windows Vista: Ready for ReadyDrive - Charles - Channel 9|publisher=Microsoft|work=Channel 9}}&lt;/ref&gt; Another new technology called [[Windows Vista I/O technologies#SuperFetch|SuperFetch]] utilizes [[machine learning]] techniques to analyze usage patterns to allow Windows Vista to make intelligent decisions about what content should be present in system memory at any given time. It uses almost all the extra RAM as [[Page cache|disk cache]].&lt;ref&gt;{{cite web|url=http://www.osnews.com/story/21471/SuperFetch_How_it_Works_Myths|title=OSNews.com|work=osnews.com}}&lt;/ref&gt; In conjunction with SuperFetch, an automatic built-in [[Windows Disk Defragmenter]] makes sure that those applications are strategically positioned on the hard disk where they can be loaded into memory very quickly with the least amount of physical movement of the hard disk's read-write heads.&lt;ref&gt;{{cite web |url=http://www.techrepublic.com/blog/windows-and-office/understand-how-superfetch-uses-ram-to-enhance-system-performance/ |title=Understand how SuperFetch uses RAM to enhance system performance |work=[[TechRepublic]] |date=July 9, 2008 |accessdate=October 2, 2008 |first=Greg |last=Shultz}}&lt;/ref&gt;
+
+As part of the redesign of the networking architecture, [[IPv6]] has been fully incorporated into the operating system&lt;ref&gt;{{cite web|url=http://www.informationweek.com/microsoft-leverages-ipv6-with-vista/177103191|title=Microsoft Leverages IPv6 With Vista|work=[[InformationWeek]]|publisher=[[UBM plc]]|archive-url=https://web.archive.org/web/20130227025104/http://www.informationweek.com/microsoft-leverages-ipv6-with-vista/177103191 |archive-date=February 27, 2013}}&lt;/ref&gt; and a number of performance improvements have been introduced, such as [[TCP window scale option|TCP window scaling]].&lt;ref&gt;{{cite web|url=http://blogs.msdn.com/b/wndp/archive/2007/07/05/receive-window-auto-tuning-on-vista.aspx|title=MSDN Blogs|publisher=Microsoft|work=msdn.com}}&lt;/ref&gt; Earlier versions of Windows typically needed third-party wireless networking software to work properly, but this is not the case with Vista, which includes more comprehensive wireless networking support.&lt;ref&gt;{{cite web|url=https://technet.microsoft.com/en-gb/magazine/2006.11.vistanetworking.aspx|title=Windows Vista: Enterprise Networking with Windows Vista|publisher=Microsoft|work=microsoft.com}}&lt;/ref&gt;
+
+For graphics, Vista introduces a new [[Windows Display Driver Model]]&lt;ref&gt;{{cite web|url=http://computer.howstuffworks.com/windows-vista2.htm|title=Windows Vista: Creating a 3-D Desktop - How Windows Vista Works|work=HowStuffWorks}}&lt;/ref&gt; and a major revision to [[Direct3D]]. The new driver model facilitates the new [[Desktop Window Manager]], which provides the [[page tearing|tearing]]-free desktop and special effects that are the cornerstones of Windows Aero. Direct3D 10, developed in conjunction with major graphics card manufacturers, is a new architecture with more advanced [[shader]] support, and allows the [[graphics processing unit]] to render more complex scenes without assistance from the CPU. It features improved load balancing between CPU and GPU and also optimizes data transfer between them.&lt;ref&gt;{{cite web |url=http://blogs.technet.com/windowsvista/articles/447226.aspx |title=DirectX10: The Next Generation in Gaming |accessdate=January 25, 2007 |work=Windows Vista Team Blog |date=August 16, 2006 |first=Nick |last=White}}&lt;/ref&gt; WDDM also provides video content playback that rivals typical consumer electronics devices. It does this by making it easy to connect to external monitors, providing for protected HD video playback and increasing overall video playback quality. For the first time in Windows, graphics processing unit (GPU) multitasking is possible, enabling users to run more than one GPU-intensive application simultaneously.&lt;ref&gt;{{cite web |url= http://msdn.microsoft.com/en-us/library/aa480220.aspx |title=Windows Vista Display Driver Model |work=[[MSDN Library]]}}&lt;/ref&gt;
+
+At the core of the [[operating system]], many improvements have been made to the memory manager, process scheduler and I/O scheduler. The Heap Manager implements additional features such as integrity checking in order to improve robustness and defend against [[buffer overflow]] security [[exploit (computer security)|exploits]], although this comes at the price of breaking backward compatibility with some legacy applications.&lt;ref&gt;{{cite web|url=http://download.microsoft.com/download/9/c/5/9c5b2167-8017-4bae-9fde-d599bac8184a/kernel-en.doc|title=Kernel Enhancements for Windows Vista and Windows Server 2008|date=May 2006|publisher=[[Microsoft]]|format=[[DOC (computing)|DOC]]|accessdate=April 2, 2011}}&lt;!--If the URL fails, see https://www.microsoft.com/whdc/system/vista/kernel-en.mspx or http://msdn.microsoft.com/en-us/windows/hardware/gg463415.aspx--&gt;&lt;/ref&gt; A [[Kernel Transaction Manager]] has been implemented that enables applications to work with the [[file system]] and [[Windows Registry|Registry]] using [[Atomicity (database systems)|atomic transaction]] operations.&lt;ref&gt;{{cite web|url=https://technet.microsoft.com/en-us/library/cc748650.aspx|title=Inside the Windows Vista Kernel|publisher=Microsoft|work=microsoft.com}}&lt;/ref&gt;
+
+=== Security-related ===
+{{Main|Security and safety features new to Windows Vista}}
+Improved security was a primary design goal for Vista.&lt;ref name="GatesSecurity"/&gt; Microsoft's [[Trustworthy Computing]] initiative, which aims to improve public trust in its products, has had a direct effect on its development. This effort has resulted in a number of new security and safety features and an [[Evaluation Assurance Level]] rating of 4+.&lt;ref&gt;{{cite web|last=Myers|first=Tim|title=Windows Vista and Windows Server 2008 are Common Criteria Certified at EAL4+|url=http://blogs.msdn.com/b/timmyers/archive/2009/09/23/windows-vista-and-windows-server-2008-are-common-criteria-certified-at-eal4.aspx|publisher=Microsoft|accessdate=May 15, 2013}}&lt;/ref&gt;&lt;ref&gt;{{cite web|title=National Information Assurance Partnership Common Criteria Evaluation and Validation Scheme|url=http://www.commoncriteriaportal.org/files/epfiles/st_vid10291-st.pdf|accessdate=May 15, 2013|archive-url=https://web.archive.org/web/20121005103027/http://www.commoncriteriaportal.org/files/epfiles/st_vid10291-st.pdf|archive-date=October 5, 2012|url-status=dead}}&lt;/ref&gt;
+
+[[User Account Control]], or UAC is perhaps the most significant and visible of these changes. UAC is a security technology that makes it possible for users to use their computer with fewer privileges by default, with a view to stopping [[malware]] from making unauthorized changes to the system. This was often difficult in previous versions of Windows, as the previous "limited" user accounts proved too restrictive and incompatible with a large proportion of application software, and even prevented some basic operations such as looking at the calendar from the notification tray. In Windows Vista, when an action is performed that requires administrative rights (such as installing/uninstalling software or making system-wide configuration changes), the user is first prompted for an administrator name and password; in cases where the user is already an administrator, the user is still prompted to confirm the pending privileged action. Regular use of the computer such as running programs, printing, or surfing the Internet does not trigger UAC prompts. User Account Control asks for credentials in a Secure Desktop mode, in which the entire screen is dimmed, and only the authorization window is active and highlighted. The intent is to stop a malicious program misleading the user by interfering with the authorization window, and to hint to the user the importance of the prompt.&lt;ref&gt;{{cite web|url=http://windowsdevcenter.com/pub/a/windows/2007/02/06/understanding-windows-vistas-user-account-control.html|title=Understanding Windows Vista's User Account Control |first=William |last=Stanek |first2=Paul |last2=Marquardt|date=February 6, 2007|work=windowsdevcenter.com}}&lt;/ref&gt;
+
+Testing by [[Symantec Corporation]] has proven the effectiveness of UAC. Symantec used over 2,000 active malware samples, consisting of [[backdoor (computing)|backdoors]], [[keyloggers]], [[rootkits]], mass mailers, [[trojan horses]], [[spyware]], [[adware]], and various other samples. Each was executed on a default Windows Vista installation within a standard user account. UAC effectively blocked over 50 percent of each [[threat (computer)|threat]], excluding rootkits. 5 percent or less of the [[malware]] that evaded UAC survived a reboot.&lt;ref&gt;http://us.norton.com/support/premium_services/malware_removal_guide.pdf&lt;/ref&gt;&lt;ref&gt;{{cite book |last1=NortonLive Team |title=Malware Removal Guide |date=February 2010 |publisher=Symantec |page=41}}&lt;/ref&gt;
+
+[[Internet Explorer|Internet Explorer 7]]'s new security and safety features include a [[phishing]] filter, [[Internationalized domain name|IDN]] with anti-spoofing capabilities, and integration with system-wide parental controls. For added security, [[ActiveX]] controls are disabled by default. Also, Internet Explorer operates in a protected mode, which operates with lower permissions than the user and runs in isolation from other applications in the operating system, preventing it from accessing or modifying anything besides the Temporary Internet Files directory.&lt;ref name="protectedmodeie"&gt;Protected Mode IE has been described in detail at the Internet Explorer team blog: [http://blogs.msdn.com/ie/archive/2006/02/09/528963.aspx Protected Mode in Vista IE7] and [http://blogs.msdn.com/ie/archive/2005/09/20/471975.aspx More details on Protected Mode IE in Windows Vista].&lt;/ref&gt; Microsoft's anti-spyware product, ''[[Windows Defender]]'', has been incorporated into Windows, providing protection against malware and other threats. Changes to various system configuration settings (such as new auto-starting applications) are blocked unless the user gives consent.
+
+Whereas prior releases of Windows supported per-file encryption using [[Encrypting File System]], the Enterprise and Ultimate editions of Vista include [[BitLocker Drive Encryption]], which can protect entire [[volume (computing)|volumes]], notably the operating system volume. However, BitLocker requires approximately a 1.5-gigabyte partition to be permanently not encrypted and to contain system files in order for Windows to boot. In normal circumstances, the only time this partition is accessed is when the computer is booting, or when there is a Windows update that changes files in this area, which is a legitimate reason to access this section of the drive. The area can be a potential security issue, because a hexadecimal editor (such as dskprobe.exe), or malicious software running with administrator and/or kernel level privileges would be able to write to this "Ghost Partition" and allow a piece of malicious software to compromise the system, or disable the encryption. BitLocker can work in conjunction with a [[Trusted Platform Module]] (TPM) [[cryptoprocessor]] (version 1.2) embedded in a computer's [[motherboard]], or with a USB key.&lt;ref name="exec-overview"&gt;{{cite web
+| url = https://www.microsoft.com/technet/windowsvista/security/bitexec.mspx#EQB
+| title = BitLocker Drive Encryption: Executive Overview
+| accessdate =June 19, 2007
+| date=April 5, 2006
+| publisher = [[Microsoft]]
+}}&lt;/ref&gt; However, as with other [[full disk encryption]] technologies, BitLocker is vulnerable to a [[cold boot attack]], especially where TPM is used as a [[key (cryptography)|key]] protector without a boot [[personal identification number|PIN]] being required too.&lt;ref name="ColdBoot"&gt;{{cite journal|url=http://citp.princeton.edu/memory/|title=Lest We Remember: Cold Boot Attacks on Encryption Keys|first=J. Alex |last=Halderman |first2=Seth D.  |last2=Schoen |authorlink2=Seth Schoen |first3=Nadia |last3=Heninger|author3-link= Nadia Heninger |first4=William |last4=Clarkson |first5=William |last5=Paul |first6=Joseph A. |last6=Calandrino |first7=Ariel J. |last7=Feldman |first8=Jacob |last8=Appelbaum |authorlink8=Jacob Appelbaum |first9=Edward W. |last9=Felten |authorlink9=Edward Felten|publisher=[[Princeton University]]|date=February 21, 2008|accessdate=February 22, 2008}}&lt;/ref&gt;
+
+A variety of other privilege-restriction techniques are also built into Vista. An example is the concept of "integrity levels" in user processes, whereby a process with a lower integrity level cannot interact with processes of a higher integrity level and cannot perform DLL–injection to a processes of a higher integrity level. The security restrictions of [[Windows service]]s are more fine-grained, so that services (especially those listening on the network) have no ability to interact with parts of the operating system they do not need to. [[Obfuscation]] techniques such as [[address space layout randomization]] are used to increase the amount of effort required of [[malware]] before successful infiltration of a system. [[Code integrity]] verifies that system binaries have not been tampered with by malicious code.
+
+As part of the redesign of the network stack, [[Windows Firewall]] has been upgraded, with new support for filtering both incoming and outgoing traffic. Advanced packet filter rules can be created that can grant or deny communications to specific services.
+
+The 64-bit versions of Vista &lt;!--Please do not list XP x64's features (PatchGuard, DEP) here. This section is for *new* features.--&gt;require that all device drivers be digitally signed, so that the creator of the driver can be identified.&lt;ref&gt;[http://www.winsupersite.com/showcase/winvista_ff_x64.asp Windows Vista Feature Focus: 64-Bit (x64) Support]. Winsupersite.com. Retrieved on October 14, 2011. {{Webarchive|url=https://web.archive.org/web/20080730041953/http://www.winsupersite.com/showcase/winvista_ff_x64.asp |date=July 30, 2008 }}&lt;/ref&gt;
+
+=== System management ===
+{{Main|Management features new to Windows Vista}}
+While much of the focus of Vista's new capabilities highlighted the new user-interface,&lt;ref&gt;{{cite web|url=http://windows.microsoft.com/en-us/windows-vista/What-is-Windows-Aero|title=What is Windows Aero?|publisher=Microsoft|work=windows.microsoft.com}}&lt;/ref&gt; security technologies, and improvements to the core operating system, Microsoft also adding new deployment and maintenance features:
+
+* The [[Windows Imaging Format]] (WIM) provides the cornerstone of Microsoft's new deployment and packaging system. WIM files, which contain a [[Hardware Abstraction Layer|HAL]]-independent image of Windows Vista, can be maintained and patched without having to rebuild new images. Windows Images can be delivered via [[Systems Management Server]] or Business Desktop Deployment technologies. Images can be customized and configured with applications then deployed to corporate client personal computers using little to no touch by a system administrator. [[ImageX]] is the Microsoft tool used to create and customize images.
+* [[Windows Deployment Services]] replaces [[Remote Installation Services]] for deploying Vista and prior versions of Windows.
+* Approximately 700 new [[Group Policy]] settings have been added, covering most aspects of the new features in the operating system, as well as significantly expanding the configurability of wireless networks, removable storage devices, and user desktop experience. Vista also introduced an XML-based format (ADMX) to display registry-based policy settings, making it easier to manage networks that span geographic locations and different languages.&lt;ref name="gp"&gt;{{cite web
+| url = https://www.microsoft.com/technet/windowsvista/library/gpol/a8366c42-6373-48cd-9d11-2510580e4817.mspx?mfr=true
+| title = What's New in Group Policy in Windows Vista and Windows Server "Longhorn"
+| accessdate = May 18, 2006
+| work = TechNet
+| publisher = Microsoft
+|archive-url=https://web.archive.org/web/20060508195727/http://www.microsoft.com/technet/windowsvista/library/gpol/a8366c42-6373-48cd-9d11-2510580e4817.mspx?mfr=true |archive-date=May 8, 2006
+}}
+&lt;/ref&gt;
+* [[Microsoft Windows Services for UNIX|Services for UNIX]], renamed as "Subsystem for UNIX-based Applications", comes with the Enterprise and Ultimate editions of Vista. [[Network File System (protocol)|Network File System]] (NFS) client support is also included.
+* [[Multilingual User Interface]]–Unlike previous versions of Windows (which required the loading of language packs to provide local-language support), Windows Vista Ultimate and Enterprise editions support the ability to dynamically change languages based on the logged-on user's preference.
+* Wireless Projector support
+
+===Developer===
+Windows Vista includes a large number of new application programming interfaces. Chief among them is the inclusion of [[.NET Framework 3.0|version 3.0]] of the [[.NET Framework]], which consists of a [[class library]] and [[Common Language Runtime]] and OS/2 environment just like its NT predecessors. Version 3.0 includes four new major components:&lt;ref&gt;[http://msdn.microsoft.com/winfx/technologies/ .NET Framework 3.0 Technologies], [[Microsoft]] {{webarchive |url=https://web.archive.org/web/20060718172531/http://msdn.microsoft.com/winfx/technologies/ |date=July 18, 2006}}&lt;/ref&gt;
+* '''[[Windows Presentation Foundation]]''' is a [[user interface]] subsystem and framework based [[vector graphics]], which makes use of [[3D computer graphics]] hardware and [[Direct3D]] technologies. It provides the foundation for building applications and blending together application UI, documents, and media content. It is the successor to [[Windows Forms]].
+* '''[[Windows Communication Foundation]]''' is a service-oriented messaging subsystem that enables applications and systems to interoperate locally or remotely using [[Web service]]s.
+* '''[[Windows Workflow Foundation]]''' provides task automation and integrated transactions using [[workflow]]s. It is the programming model, engine and tools for building workflow-enabled applications on Windows.
+* '''[[Windows CardSpace]]''' is a component that securely stores digital identities of a person, and provides a unified interface for choosing the identity for a particular transaction, such as logging into a website.&lt;ref&gt;{{cite web|url=https://www.wsj.com/articles/SB115456348562125178|title=New Ways to Prove You Are Who You Say You Are Online|first=Jessica E. |last=Vascellaro|work=[[The Wall Street Journal]]|publisher=[[Dow Jones &amp; Company]]|date=August 3, 2006|accessdate=March 16, 2016}}&lt;/ref&gt;
+
+These technologies are also available for [[Windows XP]] and [[Windows Server 2003]] to facilitate their introduction to and usage by developers and end users.
+
+There are also significant new development APIs in the core of the operating system, notably the completely re-designed audio, networking, print, and video interfaces, major changes to the security infrastructure, improvements to the deployment and installation of applications ("[[ClickOnce]]" and [[Windows Installer]] 4.0), new device driver development model ("[[Windows Driver Foundation]]"), [[Transactional NTFS#Transactional NTFS|Transactional NTFS]], mobile computing API advancements (power management, [[Tablet computer|Tablet PC]] Ink support, [[Windows SideShow|SideShow]]) and major updates to (or complete replacements of) many core subsystems such as [[Winlogon]] and [[Cryptographic Application Programming Interface|CAPI]].
+
+There are some issues for software developers using some of the graphics APIs in Vista. Games or programs built solely on the Windows Vista-exclusive version of [[DirectX]], version 10, cannot work on prior versions of Windows, as [[DirectX 10]] is not available for previous Windows versions. Also, games that require the features of D3D9Ex, the updated implementation of DirectX 9 in Windows Vista are also incompatible with previous Windows versions.&lt;ref&gt;{{cite web | url=http://www.atomicmpc.com.au/article.asp?CIID=24636 | title=DirectX 10: More harm than good for graphics? | first=Logan | last=Booker | publisher=Maximum Power Computing Atomic | date=September 15, 2005 | accessdate=May 28, 2006 | archive-url=https://web.archive.org/web/20060627101625/http://www.atomicmpc.com.au/article.asp?CIID=24636 | archive-date=June 27, 2006 | url-status=dead | df=dmy-all }}&lt;/ref&gt; According to a Microsoft blog, there are three choices for [[OpenGL]] implementation on Vista. An application can use the default implementation, which translates OpenGL calls into the Direct3D API and is frozen at OpenGL version 1.4, or an application can use an Installable Client [[device driver|Driver]] (ICD), which comes in two flavors: legacy and Vista-compatible. A legacy ICD disables the [[Desktop Window Manager]], a Vista-compatible ICD takes advantage of a new API, and is fully compatible with the Desktop Window Manager.&lt;ref&gt;{{cite web | url=http://blogs.msdn.com/kamvedbrat/archive/2006/02/22/537624.aspx | title=more comments... | first=Kam | last=VedBrat | publisher=MSDN Blogs |date=February 22, 2006 | accessdate=May 28, 2006}}&lt;/ref&gt; At least two primary vendors, [[ATI Technologies|ATI]] and [[NVIDIA]] provided full Vista-compatible ICDs.&lt;ref&gt;{{cite web | url=http://www.khronos.org/developers/library/siggraph2006/OpenGL_BOF/&lt;!-- NVIDIA_-_OpenGL_on_Vista.ppt --&gt; | title=OpenGL on Vista | first=Neil | last=Trevett | publisher = Khronos Group |year=2006 |accessdate=November 9, 2006}}&lt;/ref&gt; However, [[hardware overlay]] is not supported, because it is considered as an obsolete feature in Vista. ATI and NVIDIA strongly recommend using compositing desktop/[[Framebuffer Object]]s for same functionality.&lt;ref&gt;{{cite web|url=http://dailytech.com/article.aspx?newsid=3760|title=OpenGL Now Natively Supported in Windows Vista|accessdate=January 25, 2007|last=Nguyen|first=Tuan|archive-url=https://web.archive.org/web/20080521121130/http://www.dailytech.com/article.aspx?newsid=3760|archive-date=May 21, 2008|url-status=dead}}&lt;/ref&gt;
+
+=== Installation ===
+Windows Vista is the first Microsoft operating system:
+
+* To use DVD-ROM media for installation&lt;ref name="WindowsVistaInstallationPart3"&gt;{{cite web |url=http://winsupersite.com/product-review/windows-vista-installation-super-guide-part-3-clean-install-windows-vista |title=Windows Vista Installation Super Guide, Part 3: Clean Install Windows Vista |last=Thurrott |first=Paul |authorlink=Paul Thurrott |date=October 6, 2010 |publisher=[[Penton (company)|Penton]] |work=SuperSite for Windows |accessdate=April 26, 2016 |archive-url=https://web.archive.org/web/20160430211602/http://winsupersite.com/product-review/windows-vista-installation-super-guide-part-3-clean-install-windows-vista |archive-date=April 30, 2016 |url-status=dead  }}&lt;/ref&gt;
+* That can be installed only on a partition formatted with the [[NTFS]] file system&lt;ref name="WindowsVistaRequiresNTFS"&gt;{{cite web |url=https://support.microsoft.com/en-us/kb/926069 |title= You cannot select the Upgrade option when you try to install Windows Vista, and you receive the following message: 'Upgrade has been disabled' |publisher=[[Microsoft]] |work=How-to |accessdate=April 26, 2016|quote=Windows Vista requires that the hard disk partition (disk volume) you are installing Vista into is formatted by using the NTFS file system.|url-status=dead|archive-url=https://web.archive.org/web/20160913064911/https://support.microsoft.com/en-us/kb/926069|archive-date=September 13, 2016}}&lt;/ref&gt;
+* That provides support for loading drivers for [[SCSI]], [[SATA]] and [[RAID]] controllers from any source other than [[floppy disk]]s prior to its installation.&lt;ref name="UpgradingAndRepairingPCs"&gt;{{cite web |url=https://books.google.com/books?id=jw7yCQAAQBAJ&amp;pg=PT542&amp;lpg=PT542&amp;dq=%22Windows+XP+and+earlier+only+support+loading+these+drivers+from+a+floppy+disk,+whereas+Windows+Vista+and+later+support+optical+drives+as+well+as+USB+drives%22&amp;source=bl&amp;ots=Jva8Ys79w0&amp;sig=F27ap_xgfDQtesTFrFNw7yb7XZ0&amp;hl=en&amp;sa=X&amp;ved=0ahUKEwj0p5vqnLjMAhWKOCYKHdmZArAQ6AEIHTAA#v=onepage&amp;q=%22Windows%20XP%20and%20earlier%20only%20support%20loading%20these%20drivers%20from%20a%20floppy%20disk%2C%20whereas%20Windows%20Vista%20and%20later%20support%20optical%20drives%20as%20well%20as%20USB%20drives%22&amp;f=false |title=Upgrading and Repairing PCs |last=Mueller |first=Scott |date=2015 |page=295 |publisher=[[Que Publishing]] |ISBN=978-0-13-405769-9 |accessdate=May 1, 2016}}&lt;/ref&gt;
+
+== Removed features ==
+{{Main| List of features removed in Windows Vista}}
+Some notable Windows XP features and components have been replaced or removed in Windows Vista, including several shell and Windows Explorer features, multimedia features, networking related functionality, [[Windows Messenger]], [[NTBackup]], the network [[Windows Messenger service]], [[HyperACCESS|HyperTerminal]], [[MSN Explorer]], [[Active Desktop]], and the replacement of [[NetMeeting]] with [[Windows Meeting Space]]. Windows Vista also does not include the Windows XP "[[Luna (theme)|Luna]]" visual theme, or most of the classic color schemes that have been part of Windows since the Windows 3.x era. The "Hardware profiles" startup feature has also been removed, along with support for older motherboard technologies like the [[Extended Industry Standard Architecture|EISA]] bus, [[Advanced Power Management|APM]] and [[game port]] support (though on the 32-bit version game port support can be enabled by applying an older driver).&lt;ref&gt;{{cite web
+| url=http://forums.creative.com/creativelabs/board/message?board.id=Vista&amp;message.id=13336
+| title = Enable Game port on vista
+| date=  December 8, 2004
+| accessdate = June 22, 2007
+| publisher = [[Creative Technology|Creative]]
+}}&lt;/ref&gt; IP over [[FireWire]] (TCP/IP over IEEE 1394) has been removed as well.&lt;ref&gt;{{cite web
+| url = https://www.microsoft.com/whdc/system/bus/1394/IP_1394.mspx
+| title = Discontinued Support for IP over 1394
+| date=  December 8, 2004
+| accessdate = June 22, 2007
+| publisher = [[Microsoft]]
+|archiveurl = https://web.archive.org/web/20070515101522/http://www.microsoft.com/whdc/system/bus/1394/IP_1394.mspx |archivedate = May 15, 2007}}&lt;/ref&gt; The IPX/SPX protocol has also been removed, although it can be enabled by a third-party plug-in.&lt;ref&gt;{{cite web
+ |url        = http://www.starbase01.com/site/index.php?id=22,87,0,0,1,0
+ |title      = IPX/SPX Protocol in Vista (32bit)
+ |date       = May 5, 2008
+ |accessdate = May 5, 2008
+ |website    = Starbase.com
+}}{{Dead link|date=September 2018 |bot=InternetArchiveBot |fix-attempted=yes }}&lt;/ref&gt;
+
+== Editions ==
+{{Main|Windows Vista editions}}
+Windows Vista shipped in six different editions.&lt;ref name="versionsannouncement"&gt;{{cite press release
+ |url          = https://www.microsoft.com/presspass/press/2006/feb06/02-26WinVistaProductsPR.mspx
+ |title        = Microsoft Unveils Windows Vista Product Lineup
+ |date         = February 26, 2006
+ |accessdate   = October 31, 2006
+ |work         = PressPass
+ |publisher    = [[Microsoft]]
+ |archive-url  = https://web.archive.org/web/20061116164533/http://www.microsoft.com/presspass/press/2006/feb06/02-26WinVistaProductsPR.mspx
+ |archive-date = November 16, 2006
+ |url-status     = dead
+ |df           = mdy-all
+}}&lt;/ref&gt; These are roughly divided into two target markets, consumer and business, with editions varying to cater for specific sub-markets. For consumers, there are three editions, with two available for economically more developed countries. Windows Vista Starter edition is aimed for low powered computers with availability only in emerging markets. Windows Vista Home Basic is intended for budget users. Windows Vista Home Premium covers the majority of the consumer market, and contains applications for creating and using multimedia. The home editions cannot join a [[Windows Server domain]]. For businesses, there are three editions as well. Windows Vista Business is specifically designed for [[small and medium-sized enterprises]],&lt;ref&gt;{{cite web|url=https://www.microsoft.com/windows/products/windowsvista/editions/business/default.mspx|title=Windows Vista Business}}&lt;/ref&gt; while Windows Vista Enterprise&lt;ref&gt;{{cite web|url=https://www.microsoft.com/windows/products/windowsvista/enterprise/default.mspx|title=Windows Vista Enterprise}}&lt;/ref&gt; is only available to customers participating in Microsoft's [[Microsoft Software Assurance|Software Assurance]] program. Windows Vista Ultimate contains the complete feature-set of both the Home and Business (combination of both Home Premium and Enterprise) editions, as well as a set of [[Windows Ultimate Extras]], and is aimed at enthusiasts.
+
+All editions except Windows Vista Starter support both [[32-bit]] ([[IA-32|x32]]) and [[64-bit]] ([[x86-64|x64]]) processor architectures.
+
+In the [[European Union]], Home Basic N and Business N versions are also available. These come without Windows Media Player, due to EU sanctions brought against Microsoft for [[Microsoft Corp v Commission|violating anti-trust laws]]. Similar sanctions exist in [[South Korea]].
+
+== Visual styles ==
+[[File:Vista-visual-styles-comparison.png|thumb|A comparison of the four visual styles included in Windows Vista]]
+Windows Vista has four distinct visual styles.&lt;ref&gt;{{cite web
+| url = http://download.microsoft.com/download/5/b/9/5b97017b-e28a-4bae-ba48-174cf47d23cd/PRI017_WH06.ppt
+| first = Kam
+| last = VedBrat
+| publisher = [[Microsoft]]
+| title = Desktop And Presentation Impact On Hardware Design |format=[[Microsoft Powerpoint|PPT]]
+| accessdate =September 1, 2006
+}}&lt;/ref&gt;&lt;ref name="softpedia-styles"&gt;{{cite web
+| url=http://news.softpedia.com/news/Windows-Vista-Graphical-User-Interface-s-42142.shtml
+| title=Windows Vista Graphical User Interface(s) – Aero, Standard, Basic and Classic
+| last=Oiaga
+| first=Marius
+| date=December 12, 2006
+| accessdate=April 28, 2009
+| publisher=[[Softpedia]]
+}}&lt;/ref&gt;
+
+; Windows Aero
+: Vista's default visual style, [[Windows Aero]], is built on a new desktop composition engine called [[Desktop Window Manager]]. Windows Aero introduces support for [[Transparency and translucency|translucency]] effects (Glass), live thumbnails, window animations, and other visual effects (for example Windows Flip 3D), and is intended for mainstream and high-end video cards. To enable these features, the contents of every open window are stored in video memory to facilitate [[Page tearing|tearing]]-free movement of windows. As such, Windows Aero has significantly higher hardware requirements than its predecessors. The minimum requirement is for 128&amp;nbsp;MB of graphics memory, depending on resolution used.&lt;ref name="TechNet Vista Requirements"&gt;{{cite web
+| url = https://technet.microsoft.com/en-us/library/cc507845.aspx
+| title = Windows Vista Enterprise Hardware Planning Guidance
+| year = 2006
+| accessdate =October 26, 2006
+| work = TechNet
+| publisher = Microsoft
+}}&lt;/ref&gt; Windows Aero (including Windows Flip 3D) is not included in the Starter and Home Basic editions.
+
+; Windows Vista Standard: This style is a variation of Windows Aero without the glass effects, window animations, and other advanced graphical effects such as Windows Flip 3D.&lt;ref name="thurrott-standard"&gt;{{cite web
+| url=http://www.winsupersite.com/showcase/winvista_ff_std_ux.asp
+| archiveurl=https://web.archive.org/web/20100522234909/http://www.winsupersite.com/showcase/winvista_ff_std_ux.asp
+| title=Windows Vista Feature Focus: Windows Vista Standard User Interface
+| last=Thurrott
+| first=Paul
+| authorlink=Paul Thurrott
+| date=August 25, 2008
+| accessdate=April 28, 2009
+| archivedate=May 22, 2010
+| work=SuperSite for Windows
+| publisher=[[Penton (company)|Penton]]
+}}&lt;/ref&gt; Like Windows Aero, it uses the Desktop Window Manager, and has generally the same video hardware requirements as Windows Aero. This visual style is included with Home Basic edition only as a "cheap" replacement of Windows Aero style.
+
+; Windows Vista Basic: This style has aspects that are similar to [[Windows XP]]'s "[[Luna (theme)|Luna]]" visual style with the addition of subtle animations such as those found on [[progress bar]]s. It does not employ the Desktop Window Manager, as such, it does not feature transparency or translucency, window animation, Windows Flip 3D or any of the functions provided by the DWM. The Basic mode does not require the new [[Windows Display Driver Model]] (WDDM) for display drivers, and has similar video card requirements to Windows XP. For computers with video cards that are not powerful enough to support Windows Aero, this is the default graphics mode. Prior to Service Pack 1, a machine that failed [[Windows Genuine Advantage]] validation would also default to this visual style.&lt;ref&gt;{{cite web
+| url=http://www.winsupersite.com/showcase/winvista_ff_basic_ux.asp
+| title=Windows Vista Feature Focus: Windows Vista Basic User Interface
+| last=Thurrott
+| first=Paul
+| authorlink=Paul Thurrott
+| date=August 25, 2008
+| accessdate=April 28, 2009
+| work=SuperSite for Windows
+| publisher=[[Penton (company)|Penton]]
+|archive-url=https://web.archive.org/web/20090222183652/http://www.winsupersite.com/showcase/winvista_ff_basic_ux.asp |archive-date=February 22, 2009
+}}&lt;/ref&gt;
+
+; Windows Standard: The Windows Standard (or Windows Classic) visual style is similar to that of [[Windows 9x]], [[Windows 2000]] and Microsoft's [[Windows Server]] line of operating systems. It does not use the Desktop Window Manager, and does not require a WDDM driver. As with previous versions of Windows, this visual style supports color schemes, which are collections of color settings. Windows Vista includes six color schemes: four high-contrast color schemes and the default color schemes from [[Windows 98]] (titled "Windows Classic") and [[Windows 2000]]/[[Windows Me]] (titled "Windows Standard").&lt;ref name="thurrott-standard"/&gt;
+
+== Hardware requirements ==
+Computers capable of running Windows Vista are classified as ''Vista Capable'' and ''Vista Premium Ready''.&lt;ref&gt;{{cite web
+| url = https://www.microsoft.com/presspass/press/2006/may06/05-18GetReadyPR.mspx
+| title = Microsoft and PC Manufacturers Make It Easier for Customers to Get Ready for Windows Vista
+| date = May 18, 2006
+| accessdate = May 18, 2006
+| work = PressPass
+| publisher = Microsoft
+}}&lt;/ref&gt; A ''Vista Capable'' or equivalent PC is capable of running all editions of Windows Vista although some of the special features and high-end graphics options may require additional or more advanced hardware. A ''Vista Premium Ready'' PC can take advantage of Vista's high-end features.&lt;ref name="microsoft1"&gt;{{cite web | url=https://www.microsoft.com/windowsvista/getready/upgradeadvisor/default.mspx | title=Windows Vista Upgrade Advisor | accessdate=June 25, 2006}}&lt;/ref&gt;
+
+Windows Vista's Basic and Classic interfaces work with virtually any graphics hardware that supports Windows XP or 2000; accordingly, most discussion around Vista's graphics requirements centers on those for the Windows Aero interface. As of Windows Vista Beta 2, the NVIDIA [[GeForce 6]] series and later, the ATI [[Radeon 9500]] and later, Intel's [[GMA 950]] and later integrated graphics, and a handful of [[VIA chipsets]] and [[S3 Graphics]] discrete chips are supported. Although originally supported, the GeForce FX 5 series has been dropped from newer drivers from NVIDIA. The last driver from NVIDIA to support the GeForce FX series on Vista was 96.85.&lt;ref&gt;{{cite web|url=http://www.nvidia.com/object/winvista_x86_96.85_2.html |title=ForceWare Release 95 |website=Nvidia.com |accessdate=October 2, 2008}}&lt;/ref&gt;&lt;ref&gt;{{cite web|url=http://www.msbetas.org/wiki/index.php/Vista_Ready_GPUs|archive-url=https://web.archive.org/web/20070313193420/http://www.msbetas.org/wiki/index.php/Vista_Ready_GPUs|url-status=dead|archive-date=March 13, 2007|title=MsBetas' List of Vista Ready GPUs|accessdate=July 30, 2007}}&lt;/ref&gt; Microsoft offered a tool called the ''Windows Vista Upgrade Advisor''&lt;ref name="microsoft1"/&gt; to assist Windows XP and Vista users in determining what versions of Windows their machine is capable of running.  The required server connections for this utility are no longer available.  Although the installation media included in retail packages is a 32-bit DVD, customers needing a CD-ROM or customers who wish for a 64-bit install media are able to acquire this media through the Windows Vista Alternate Media program.&lt;ref name="Windows Vista system requirements"&gt;{{cite web | url=https://www.microsoft.com/windowsvista/1033/ordermedia/default.mspx | title=Windows Vista Alternate Media| accessdate=August 20, 2007}}&lt;/ref&gt; The Ultimate edition includes both 32-bit and 64-bit media.&lt;ref&gt;[https://www.microsoft.com/windows/products/windowsvista/editions/64bit.mspx Windows Vista 64-bit Editions]. Microsoft.com. Retrieved on October 14, 2011.&lt;/ref&gt; The digitally downloaded version of Ultimate includes only one version, either 32-bit or 64-bit, from Windows Marketplace.
+
+{| class="wikitable" style="text-align:center; margin:auto"
+|+ Windows Vista system requirements&lt;ref&gt;{{cite web|url=https://www.microsoft.com/windows/products/windowsvista/editions/systemrequirements.mspx |archiveurl=https://web.archive.org/web/20080101144743/http://www.microsoft.com/windows/products/windowsvista/editions/systemrequirements.mspx |archivedate=January 1, 2008 |title=Windows Vista: Recommended System Requirements|publisher=[[Microsoft]]|accessdate=March 13, 2008}}&lt;/ref&gt;&lt;ref name="startsysreqnetworld2"&gt;{{cite news |last1=Ashley |first1=Mitchell |title=Vista Starter - The Easy Button For Vista |url=https://www.networkworld.com/article/2350639/vista-starter---the-easy-button-for-vista.html |accessdate=June 3, 2019 |publisher=Network World ([[International Data Group]]) |date=January 31, 2008}}&lt;/ref&gt;
+|-
+! Component of PC
+! Minimum required
+! Recommended
+|-
+![[Central processing unit|Processor]]
+| 800{{nbsp}}MHz
+| 1{{nbsp}}GHz
+|-
+![[Random Access Memory|Memory]]
+| 512{{nbsp}}MB&lt;br /&gt;(384{{nbsp}}MB for Starter edition)
+| 1{{nbsp}}GB
+|-
+!Graphics card
+| [[Super VGA]]
+| [[Windows Display Driver Model|WDDM 1.0]]-compliant&lt;br /&gt;[[RGBA color space|32 bits per pixel]]&lt;br /&gt;[[DirectX]] 9.0 support&lt;br /&gt;[[Pixel Shader 2.0]] support
+|-
+!Graphics memory
+| {{N/A}}
+| 128{{nbsp}}MB
+|-
+!Total [[Hard disk drive|HDD]] capacity
+| 20{{nbsp}}GB
+| 40{{nbsp}}GB
+|-
+!Free HDD space
+| 15{{nbsp}}GB
+| 15{{nbsp}}GB
+|-
+!Optical drives
+| [[CD-ROM]] drive
+| [[DVD-ROM]] drive
+|-
+!Others
+| {{N/A}}
+| [[TV tuner card]] &lt;small&gt;(Premium, Ultimate)&lt;/small&gt;&lt;br/&gt;[[Touchscreen]] &lt;small&gt;(Premium, Business, Ultimate)&lt;/small&gt;&lt;br/&gt;[[USB flash drive]] &lt;small&gt;(Ultimate)&lt;/small&gt;&lt;br/&gt;[[Trusted Platform Module]] &lt;small&gt;(Ultimate)&lt;/small&gt;
+|}
+
+=== Physical memory limits ===
+The maximum amount of RAM that Windows Vista can support varies, depending on both its edition and its processor architecture, as shown in the table.&lt;ref name="RAMlimitWindows"&gt;{{cite web|url=http://msdn.microsoft.com/en-us/library/windows/desktop/aa366778%28v=vs.85%29.aspx |title=What is the maximum amount of RAM that Windows Vista can handle? |publisher=Microsoft |accessdate=April 18, 2014}}&lt;/ref&gt;
+
+{| class="wikitable" cellspacing="3" cellpadding="0" style="margin:auto; text-align:center;"
+|+
+! rowspan=2 | Edition !! colspan=2 | Processor architecture
+|-
+! [[IA-32]] !! [[x64]]
+|-
+| Ultimate || rowspan="5" | 4{{nbsp}}GB || rowspan="3" | 128{{nbsp}}GB
+|-
+| Enterprise
+|-
+| Business
+|-
+| Home Premium || 16{{nbsp}}GB
+|-
+| Home Basic || 8{{nbsp}}GB
+|-
+| Starter || 1{{nbsp}}GB || {{N/A}} &lt;!--There is no Windows Vista Starter 64-bit.--&gt;
+|}
+
+=== Processor limits ===
+The maximum number of logical processors&lt;ref&gt;A logical processor is either: 1) One of the two handlers of thread of instructions of one of the number of cores of one of the number of physical processors with support for HyperThreading; or 2) One of the number of cores of one of the number of physical processors without support for HyperThreading.&lt;/ref&gt; in a PC that Windows Vista supports is: 32&lt;ref&gt;32 cores without support for HyperThreading, 16 cores with support for HyperThreading.&lt;/ref&gt; for 32-bit; 64&lt;ref&gt;64 cores without support for HyperThreading, 32 cores with support for HyperThreading.&lt;/ref&gt; for 64-bit.&lt;ref&gt;[http://msdn.microsoft.com/en-us/library/ff551830%28v=vs.85%29.aspx Logical processor limits for Windows Vista]. Msdn.microsoft.com. Retrieved on October 14, 2011.&lt;/ref&gt;
+
+The maximum number of physical processors in a PC that Windows Vista supports is: 2 for Business, Enterprise, and Ultimate, and 1 for Starter, Home Basic, and Home Premium.&lt;ref&gt;[http://social.answers.microsoft.com/Forums/en-US/vistahardware/thread/d00780f8-76e8-4af6-aa49-e64a7007c17f Physical processor limits for Windows Vista] {{Webarchive|url=https://archive.is/20120714083908/http://social.answers.microsoft.com/Forums/en-US/vistahardware/thread/d00780f8-76e8-4af6-aa49-e64a7007c17f |date=July 14, 2012 }}. Social.answers.microsoft.com (October 24, 2010). Retrieved on October 14, 2011.&lt;/ref&gt;
+
+== Updates ==
+Microsoft occasionally releases updates such as [[service pack]]s for its Windows operating systems to fix bugs, improve performance and add new features.
+
+=== Service Pack 1 ===
+Windows Vista Service Pack 1 (SP1) was released on February 4, 2008, alongside [[Windows Server 2008]] to [[Original equipment manufacturer|OEM]] partners, after a five-month beta test period. The initial deployment of the service pack caused a number of machines to continually reboot, rendering the machines unusable.&lt;ref&gt;{{cite web
+| url = http://blogs.zdnet.com/microsoft/?p=1197
+| publisher = [[Zdnet]]
+| title = No update from Microsoft on Vista SP1, Media Center problems
+| date = February 18, 2008
+| accessdate =October 8, 2008
+}}&lt;/ref&gt; This temporarily caused Microsoft to suspend automatic deployment of the service pack until the problem was resolved. The synchronized release date of the two operating systems reflected the merging of the workstation and server [[kernel (computer science)|kernels]] back into a single [[source code|code base]] for the first time since [[Windows 2000]]. [[Microsoft Developer Network|MSDN]] subscribers were able to download SP1 on February 15, 2008. SP1 became available to current Windows Vista users on [[Windows Update]] and the Download Center on March 18, 2008.&lt;ref&gt;{{cite web
+ |url         = http://windowsvistablog.com/blogs/windowsvista/archive/2008/02/04/announcing-the-rtm-of-windows-vista-sp1.aspx
+ |publisher   = [[Microsoft]]
+ |title       = Announcing the RTM of Windows Vista SP1
+ |date        = February 4, 2008
+ |accessdate  = February 4, 2008
+ |url-status     = dead
+ |archiveurl  = https://web.archive.org/web/20080205090639/http://windowsvistablog.com/blogs/windowsvista/archive/2008/02/04/announcing-the-rtm-of-windows-vista-sp1.aspx
+ |archivedate = February 5, 2008
+ |df          = dmy-all
+}}&lt;/ref&gt;&lt;ref name = "sp1whitepaper"&gt;{{cite web
+| url = http://windowsvistablog.com/blogs/windowsvista/pages/windows-vista-service-pack-1-beta-whitepaper.aspx
+| publisher = [[Microsoft]]
+| title = Windows Vista Service Pack 1 Beta White Paper
+| date = August 29, 2007
+| accessdate =August 29, 2007
+| page = 1
+}}&lt;/ref&gt;&lt;ref name="Fried"&gt;{{cite magazine
+| url = http://www.pcworld.com/article/id,142054-c,vistalonghorn/article.html
+| title = Feb. Launch Now Set for Windows Vista SP1
+| date = January 31, 2008
+| accessdate =January 31, 2008
+| magazine = [[PC World (magazine)|PC World]] Magazine
+}}&lt;/ref&gt; Initially, the service pack only supported five languages – English, French, Spanish, German and Japanese. Support for the remaining 31 languages was released on April 14, 2008.&lt;ref&gt;[https://www.microsoft.com/downloads/details.aspx?FamilyID=f559842a-9c9b-4579-b64a-09146a0ba746&amp;displaylang=en Download Details: Windows Vista SP1 All Language Standalone (KB936330)]. Microsoft.com (April 14, 2008). Retrieved on October 14, 2011.&lt;/ref&gt;
+
+A white paper, published by Microsoft on August 29, 2007, outlined the scope and intent of the service pack, identifying three major areas of improvement: reliability and performance, administration experience, and support for newer hardware and standards.&lt;ref&gt;{{cite web|url=https://techcrunch.com/2007/08/30/windows-vista-sp1-gets-officially-announced/|title=Windows Vista SP1 Gets Officially Announced|first=Vince |last=Veneziani|work=[[TechCrunch]]|publisher=[[AOL]]|date=August 30, 2007|accessdate=March 16, 2016}}&lt;/ref&gt;
+
+One area of particular note is performance. Areas of improvement include file copy operations, hibernation, logging off on domain-joined machines, JavaScript parsing in Internet Explorer, network file share browsing,&lt;ref name="sp1whitepaper" /&gt; Windows Explorer ZIP file handling,&lt;ref&gt;{{cite web
+| url = http://blogs.technet.com/markrussinovich/archive/2007/08/07/1715181.aspx
+| title = The Case of the Failed File Compression
+| first = Mark |last=Russinovich
+| authorlink = Mark Russinovich
+| date = August 7, 2007
+| work = Mark's Blog
+| publisher = MSDN Blogs
+}}&lt;/ref&gt; and [[Windows Disk Defragmenter]].&lt;ref&gt;{{cite web
+| url = http://blogs.technet.com/filecab/archive/2007/01/26/don-t-judge-a-book-by-its-cover-why-windows-vista-defrag-is-cool.aspx
+| title = Don't judge a book by its cover–why Windows Vista Defrag is cool
+| date = January 26, 2007
+| accessdate =April 6, 2007
+| work = The Filing Cabinet
+| publisher = MSDN Blogs
+}}&lt;/ref&gt; The ability to choose individual drives to defragment is being reintroduced as well.&lt;ref name="sp1whitepaper" /&gt;
+
+Service Pack 1 introduced support for some new hardware and software standards, notably the [[exFAT]] file system,&lt;ref name="sp1whitepaper" /&gt; [[802.11n]] wireless networking, [[IPv6]] over [[VPN]] connections, and the [[Secure Socket Tunneling Protocol]].&lt;ref&gt;{{cite web|url=https://technet.microsoft.com/en-us/library/cc749132(v=ws.10).aspx|title=Overview of Windows Vista Service Pack 1|work=[[Microsoft TechNet|TechNet]]|publisher=[[Microsoft]]|date=February 5, 2008|accessdate=March 17, 2016}}&lt;/ref&gt;
+
+Booting a system using [[Extensible Firmware Interface]] on [[x86-64|x64]] systems was also introduced;&lt;ref name="sp1whitepaper" /&gt; this feature had originally been slated for the initial release of Vista but was delayed due to a lack of compatible hardware at the time. Booting from a [[GUID Partition Table]]–based hard drive greater than 2.19&amp;nbsp;TB is supported (x64 only).&lt;ref&gt;{{cite web|url=http://msdn.microsoft.com/en-us/windows/hardware/gg463525 |title=Windows and GPT FAQ |website=[[MSDN]] |publisher=[[Microsoft]] |date=June 15, 2011 |accessdate=February 4, 2012}}&lt;/ref&gt;&lt;ref&gt;It is possible only when installing from installation DVD of Windows Vista x64 with its service pack 1 integrated.&lt;/ref&gt;
+
+Two areas have seen changes in SP1 that have come as the result of concerns from software vendors. One of these is desktop search; users will be able to change the default [[desktop search]] program to one provided by a third party instead of the Microsoft desktop search program that comes with Windows Vista, and desktop search programs will be able to seamlessly tie in their services into the operating system.&lt;ref name="Fried" /&gt; These changes come in part due to complaints from [[Google]], whose [[Google Desktop Search]] application was hindered by the presence of Vista's built-in desktop search. In June 2007, Google claimed that the changes being introduced for SP1 "are a step in the right direction, but they should be improved further to give consumers greater access to alternate desktop search providers".&lt;ref&gt;{{cite web
+| url = https://arstechnica.com/news.ars/post/20070621-google-says-vista-search-changes-not-enough.html
+| title = Google says Vista search changes not enough
+| first = Ken | last = Fisher
+| website = Ars Technica
+| date = June 21, 2007
+| accessdate =October 20, 2007
+}}&lt;/ref&gt; The other area of note is a set of new security [[Application programming interface|APIs]] being introduced for the benefit of [[antivirus software]] that currently relies on the unsupported practice of patching the kernel (''see [[Kernel Patch Protection]]'').&lt;ref&gt;{{cite web
+| url = http://www.betanews.com/article/Vista_SP1_to_Include_Common_Security_APIs_for_Partners/1161305514
+| title = Vista SP1 to Include Common Security APIs for Partners
+| date = October 19, 2006
+| accessdate = June 12, 2007
+| last = Fulton |first=Scott M., III
+| work = BetaNews
+}}&lt;/ref&gt;&lt;ref&gt;{{cite web
+| url=https://www.microsoft.com/downloads/details.aspx?familyid=4C7561E6-6F9D-4125-8A8C-AEAF8E3342B9&amp;displaylang=en
+| title = Kernel Patch Protection Criteria Evaluation Document
+| date=  December 19, 2006
+| accessdate = June 12, 2007
+| publisher = [[Microsoft]]
+}}&lt;/ref&gt;
+
+An update to DirectX 10, named DirectX 10.1,&lt;ref name="sp1whitepaper" /&gt; marked mandatory several features that were previously optional in Direct3D 10 hardware. Graphics cards will be required to support DirectX 10.1.&lt;ref&gt;{{cite web
+| url = https://arstechnica.com/journals/microsoft.ars/2007/08/09/microsoft-releases-information-on-upcoming-dx10-1-update
+| title = Microsoft releases information on upcoming D3D 10.1 update
+| first = Joel
+| last = Hruska
+| date=August 9, 2007
+| accessdate =August 10, 2008
+}}&lt;/ref&gt; SP1 includes a kernel (6001.18000) that matches the version shipped with Windows Server 2008.&lt;ref&gt;{{cite web|url=http://www.techrepublic.com/blog/the-enterprise-cloud/an-updated-guide-to-common-microsoft-software-versions/|title=An updated guide to common Microsoft software versions|first=Scott |last=Lowe|work=[[TechRepublic]]|publisher=[[CBS Interactive]]|date=January 13, 2010|accessdate=March 17, 2016}}&lt;/ref&gt;
+
+The [[Group Policy]] Management Console (GPMC) was replaced by the Group Policy Object Editor. An updated downloadable version of the Group Policy Management Console was released soon after the service pack.
+
+SP1 enables support for hotpatching, a reboot-reduction servicing technology designed to maximize uptime. It works by allowing Windows components to be updated (or "patched") while they are still in use by a running process. Hotpatch-enabled update packages are installed via the same methods as traditional update packages, and will not trigger a system reboot.&lt;ref name="technetnotablesp1"&gt;{{cite web
+ |url         = http://technet2.microsoft.com/WindowsVista/en/library/005f921e-f706-401e-abb5-eec42ea0a03e1033.mspx?mfr=true
+ |title       = Notable Changes in Vista Service Pack 1
+ |accessdate  = May 2, 2008
+ |publisher   = [[Microsoft]]
+ |url-status     = dead
+ |archiveurl  = https://web.archive.org/web/20080503040732/http://technet2.microsoft.com/WindowsVista/en/library/005f921e-f706-401e-abb5-eec42ea0a03e1033.mspx?mfr=true
+ |archivedate = May 3, 2008
+ |df          = dmy-all
+}}&lt;/ref&gt;
+
+=== Service Pack 2 ===
+Service Pack 2 for Windows Vista was released to manufacturing on April 28, 2009,&lt;ref&gt;{{cite web | url = http://blogs.windows.com/windows/archive/b/windowsvista/archive/2009/04/28/windows-vista-sp2-rtm-windows-vista-sp1-blocker-tool-removed.aspx |archiveurl=https://web.archive.org/web/20140518021113/http://blogs.windows.com/windows/archive/b/windowsvista/archive/2009/04/28/windows-vista-sp2-rtm-windows-vista-sp1-blocker-tool-removed.aspx | archivedate=May 18, 2014 | title = Windows Vista SP2 RTM + Windows Vista SP1 Blocker Tool Removed | work = Windows Vista Team Blog | first = Brandon | last = LeBlanc | date = April 28, 2009}}&lt;/ref&gt; and released to Microsoft Download Center and Windows Update on May 26, 2009.&lt;ref name=SP2-GA&gt;{{cite web | url = http://news.softpedia.com/news/Windows-Vista-Service-Pack-2-SP2-RTM-Download-112541.shtml | title = Download Windows Vista Service Pack 2 (SP2) RTM | work = [[Softpedia]] | publisher=SoftNews | first = Marius | last = Oiaga | date = May 26, 2009}}&lt;/ref&gt; In addition to a number of security and other fixes, a number of new features have been added. However, it did not include [[Internet Explorer 8]].&lt;ref name="Nash"&gt;{{cite web |archiveurl=https://web.archive.org/web/20130509023652/http://blogs.windows.com/windows/archive/b/windowsvista/archive/2008/10/24/windows-vista-service-pack-2-beta.aspx|url=http://blogs.windows.com/windows/archive/b/windowsvista/archive/2008/10/24/windows-vista-service-pack-2-beta.aspx|archivedate=May 9, 2013 |date=October 25, 2008 |title=Windows Vista Team Blog : Windows Vista Service Pack 2 Beta |first=Mike |last=Nash |accessdate=October 25, 2008}}&lt;/ref&gt;&lt;ref&gt;{{cite web |url=http://support.microsoft.com/kb/948465 |title=Information about Windows Server 2008 Service Pack 2 and Windows Vista Service Pack 2 |publisher=[[Microsoft]] |date=October 2, 2008 |accessdate=October 17, 2008}}&lt;/ref&gt; Windows Vista Service Pack 2 build number is 6002.18005.090410-1830.&lt;ref name="WindowsVista"&gt;{{cite web |url=http://www.mydigitallife.info/2009/04/29/windows-vista-with-sp2-rtm-slipstreamedintegrated-dvd-iso-image-bt-download/ |title=Windows Vista with SP2 RTM Slipstreamed/Integrated DVD ISO Image (BT Download) |accessdate=May 25, 2009}}&lt;/ref&gt;
+* [[Windows Search 4]] (available for SP1 systems as a standalone update)
+* Feature Pack for Wireless adds support for [[Bluetooth v2.1+EDR|Bluetooth 2.1]]
+* Windows Feature Pack for Storage enables the data recording onto [[Blu-ray Disc|Blu-ray]] media
+* [[Windows Connect Now|Windows Connect Now (WCN)]] to simplify [[Wi-Fi]] configuration
+* Improved support for resuming with active Wi-Fi connections
+* Improved support for eSATA drives
+* The limit of 10 half open, outgoing TCP connections introduced in Windows XP SP2 was removed
+* Enables the [[exFAT]] [[file system]] to support [[Coordinated Universal Time|UTC]] timestamps, which allows correct file synchronization across time zones
+* Support for ICCD/CCID [[smart card]]s
+* Support for [[VIA Nano|VIA 64-bit CPUs]]
+* Improved performance and responsiveness with the RSS feeds sidebar
+* Improves audio and video performance for streaming high-definition content
+* Improves [[Windows Media Center]] (WMC) in content protection for TV&lt;ref&gt;{{cite web |url=http://www.techarp.com/showarticle.aspx?artno=605&amp;pgno=0#vista_new |date=February 6, 2009 |title=What's New In Windows Vista SP2? |accessdate=February 6, 2009 |archive-url=https://web.archive.org/web/20090212213723/http://techarp.com/showarticle.aspx?artno=605&amp;pgno=0#vista_new |archive-date=February 12, 2009 |url-status=dead }}&lt;/ref&gt;
+* Provides an improved power management policy that is approximately 10% more efficient than the original with the default policies&lt;ref&gt;{{cite web |url=http://windowsitpro.com/windows-server-2008/windows-vista-sp2-what-expect |title=Windows Vista SP2: What to Expect |work=Windows IT Pro |publisher=[[Penton (company)|Penton]] |date=February 24, 2009 |accessdate=May 28, 2013 |first=Paul |last=Thurrott |authorlink=Paul Thurrott }}&lt;/ref&gt;
+
+Windows Vista and [[Windows Server 2008]] share a single service pack binary, reflecting the fact that their code bases were joined with the release of Server 2008.&lt;ref name="Nash"/&gt; Service Pack 2 is not a cumulative update meaning that Service Pack 1 must be installed first.
+
+=== Platform Update ===
+The Platform Update for Windows Vista was released on October 27, 2009. It includes major new components that shipped with [[Windows 7]], as well as updated runtime libraries.&lt;ref&gt;{{cite web | url = http://support.microsoft.com/kb/971644 | title = Description of the Platform Update for Windows Server 2008 and the Platform Update for Windows Vista | work = Microsoft Support | date = October 27, 2009}}&lt;/ref&gt;&lt;ref&gt;{{cite web | url = http://blogs.msdn.com/directx/archive/2009/09/10/windows-7-transition-pack-for-windows-vista.aspx|archiveurl=https://web.archive.org/web/20140408062133/http://blogs.msdn.com/b/directx/archive/2009/09/10/windows-7-transition-pack-for-windows-vista.aspx|archivedate=April 8, 2014 | title = The Platform Update for Windows Vista | work = DirectX Developer Blog | date = September 10, 2009}}&lt;/ref&gt; It requires Service Pack 2 of Windows Vista or Windows Server 2008 and is listed on [[Windows Update]] as a ''Recommended'' download.
+
+The Platform Update allows application developers to target both Windows Vista and Windows 7. It consists of the following components:
+* ''Windows Graphics'' runtime: [[Direct2D]], [[DirectWrite]], [[Direct3D 11]], [[DirectX Graphics Infrastructure|DXGI]] 1.1, and [[Windows Advanced Rasterization Platform|WARP]]
+* Updates to [[Windows Imaging Component]]
+* Updates to [[Open XML Paper Specification|XPS]] Print API, XPS Document API and XPS Rasterization Service
+* ''Windows Automation API'' (updates to [[Microsoft Active Accessibility|MSAA]] and [[Microsoft UI Automation|UI Automation]])
+* ''Windows Portable Devices Platform'' (adds support for [[Media Transfer Protocol|MTP]] over Bluetooth and MTP Device Services)
+* Windows [[Ribbon (computing)|Ribbon]] API
+* ''Windows Animation Manager'' library
+
+Some updates are available as separate releases for both Windows XP and Windows Vista:
+* ''Windows Management Framework'': [[Windows PowerShell]] 2.0, ''Windows Remote Management'' 2.0, [[Background Intelligent Transfer Service|BITS]] 4.0
+* [[Remote Desktop Connection]] 7.0 (RDP7) client
+
+Although extensive, the Platform Update does not bring Windows Vista to the level of features and performance offered by Windows 7.&lt;ref name="DXPlatformUpdate" /&gt; For example, even though Direct3D 11 runtime will be able to run on D3D9-class hardware and WDDM drivers using "[[Direct3D#Feature levels|feature levels]]" first introduced in Direct3D 10.1, Desktop Window Manager has not been updated to use Direct3D 10.1.&lt;ref name="DXPlatformUpdate"&gt;{{cite web | url=http://blogs.msdn.com/directx/archive/2009/11/18/internet-explorer-announces-to-use-directwrite-direct2d.aspx | title=Internet Explorer announces to use DirectWrite &amp; Direct2D (comment from Microsoft official) | date=November 25, 2009 | first=Mark | last=Lawrence | url-status=dead | archiveurl=https://web.archive.org/web/20140408062151/http://blogs.msdn.com/b/directx/archive/2009/11/18/internet-explorer-announces-to-use-directwrite-direct2d.aspx | archivedate=April 8, 2014 | df=dmy-all }}&lt;/ref&gt;
+
+In July 2011, Microsoft released the Platform Update Supplement for Windows Vista and Windows Server 2008, which contains several bug fixes and performance improvements.&lt;ref&gt;{{cite web|url=http://support.microsoft.com/kb/2117917|title=Platform Update Supplement for Windows Vista and for Windows Server 2008|date=February 8, 2011|work=Microsoft Support|publisher=[[Microsoft]]|archive-url=https://web.archive.org/web/20111228033756/http://support.microsoft.com/kb/2117917|archive-date=December 28, 2011|url-status=|access-date=June 28, 2019|edition=4.0}}&lt;/ref&gt;
+
+===BlueKeep security fix===
+The [[BlueKeep]] [[Vulnerability (computing)|security vulnerability]], {{CVE|2019-0708}}, that potentially affects older unpatched Microsoft Windows versions via the program's [[Remote Desktop Protocol]], has had a fix for it released by Microsoft for Vista.&lt;ref&gt;{{cite web |title=Customer guidance for CVE-2019-0708 |url=https://support.microsoft.com/en-nz/help/4500705/customer-guidance-for-cve-2019-0708 |publisher=Microsoft |accessdate=September 16, 2019}}&lt;/ref&gt;
+
+Related flaws, {{CVE|2019-1181|2019-1182|2019-1222|2019-1226|leadout=and}} were later discovered by Microsoft and dubbed ''[[DejaBlue]]'' by other researchers.&lt;ref name="WRD-20190813"&gt;{{cite news |last=Greenberg |first=Andy |title=DejaBlue: New BlueKeep-Style Bugs Renew The Risk Of A Windows worm |url=https://www.wired.com/story/dejablue-windows-bugs-worm-rdp/ |date=August 13, 2019 |work=[[Wired (magazine)|wired]] |accessdate=August 15, 2019 }}&lt;/ref&gt; Patches available to correct the flaw do ''not'' include one for Vista.
+
+In addition, {{CVE|2019-1162}}, based on [[legacy code]] involving [[Text Services Framework#ctfmon|Microsoft CTF and ctfmon (ctfmon.exe)]], affects all [[Windows]] versions from the older [[Windows XP]] version to the most recent Windows 10 versions,&lt;ref name="TP-20190814"&gt;{{cite web|last=Seals|first=Tara|title=20-Year-Old Bug in Legacy Microsoft Code Plagues All Windows Users|url=https://threatpost.com/20-year-old-bug-legacy-microsoft-windows-users/147336/ |date=August 14, 2019|work=ThreatPost.com|accessdate=August 15, 2019}}&lt;/ref&gt; but patches available to correct the flaw do ''not'' include one for Vista.&lt;ref&gt;{{cite web|title=CVE-2019-1162 {{!}} Windows ALPC Elevation of Privilege Vulnerability|url=https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2019-1162|publisher=Microsoft|accessdate=September 16, 2019}}&lt;/ref&gt;
+
+== Marketing campaign ==
+
+=== The Mojave Experiment ===
+{{Main|The Mojave Experiment}}
+In July 2008, Microsoft introduced a web-based advertising campaign called the "Mojave Experiment", that depicts a group of people who are asked to evaluate the newest operating system from Microsoft, calling it Windows 'Mojave'. Participants are first asked about Vista, if they have used it, and their overall satisfaction with Vista on a scale of 1 to 10. They are then shown a demo of some of the new operating system's features, and asked their opinion and satisfaction with it on the same 1 to 10 scale. After respondents rate "Mojave", they are then told that they were really shown a demo of Windows Vista. The object was to test "A theory: If people could see Windows Vista firsthand, they would like it." According to Microsoft, the initial sample of respondents rated Vista an average of 4.4 out of 10, and Mojave received an average of 8.5, with no respondents rating Mojave lower than they originally rated Windows Vista before the demo.&lt;ref&gt;{{cite web|url=http://www.mojaveexperiment.com/ |title=The Mojave Experiment |website=Mojaveexperiment.com |accessdate=October 2, 2008}}&lt;/ref&gt;&lt;ref&gt;{{cite web|url=https://www.microsoft.com/nz/digitallife/software/mojave_experiment_windows_vista.mspx |title=The Mojave Experiment: Microsoft Windows Vista }}&lt;/ref&gt; The "experiment" has been criticized for deliberate selection of positive statements and not addressing all aspects of Vista.&lt;ref&gt;{{cite web|url=https://www.nytimes.com/2008/08/04/technology/04vista.html|title=Blog Posts Poke Holes in 'Taste Test' by Microsoft|accessdate=April 8, 2009|publisher=[[The New York Times]]|work=[https://nytimes.com]|date=August 4, 2008}}&lt;/ref&gt;
+
+== Reception ==
+Windows Vista received mixed reviews at the time of its release and throughout its lifespan, mainly for its much higher hardware requirements and perceived slowness compared to Windows XP.
+
+Positive reviews often came from PC gamers who praised the advantages brought by DirectX 10, which allowed for better gaming performance and more realistic graphics, as well as support for many new capabilities featured in new [[Graphics processing unit|GPU]]s.&lt;ref&gt;[http://www.bit-tech.net/hardware/2006/11/30/directx10_future_of_pc_gaming/1 DirectX 10: The Future of PC Gaming, Tim Smalley, 30 November 2006]. Bit-tech.net (November 30, 2006). Retrieved on October 14, 2011.&lt;/ref&gt; However, many DirectX 9 games initially ran with lower frame rates compared to when they were run on Windows XP. In mid-2008, benchmarks suggested that the SP1 update improved performance to be on par with (or better than) Windows XP in terms of game performance.&lt;ref&gt;{{cite web
+|url=http://www.extremetech.com/computing/80294-gaming-performance-windows-vista-sp1-vs-xp-sp3
+|title=Gaming Performance: Windows Vista SP1 vs. XP SP3
+|date=May 12, 2008
+|accessdate=July 29, 2008
+|last=Durham
+|first=Joel
+|website=[[ExtremeTech]]
+|publisher=[[Ziff Davis]]
+|url-status=live
+|archiveurl=https://web.archive.org/web/20110607225651/http://www.extremetech.com/article2/0,2845,2302500,00.asp
+|archivedate=June 7, 2011
+}}&lt;/ref&gt;
+
+Peter Bright of ''[[Ars Technica]]'' wrote that, in spite of its delays and feature cuts, Windows Vista is "a huge evolution in the history of the NT platform [...] The fundamental changes to the platform are of a scale not seen since the release of NT [3.1; the first version]."&lt;ref name="ArsReview"&gt;{{cite web |url=https://arstechnica.com/information-technology/2007/03/pretty-vista/1/ |title=Windows Vista: more than just a pretty face |last=Bright |first=Peter |date=March 19, 2007 |publisher=[[Condé Nast]] |work=[[ArsTechnica]] |accessdate=July 15, 2015}}&lt;/ref&gt; In a continuation of his previous assessment, Bright stated that "Vista is not simply XP with a new skin; core parts of the OS have been radically overhauled, and virtually every area has seen significant refinement. In terms of the magnitude and extent of these changes, Vista represents probably the biggest leap that the NT platform has ever seen. Never before have significant subsystems been gutted and replaced in the way they are in Vista."&lt;ref name="UndertheHood"&gt;{{cite web |url=https://arstechnica.com/information-technology/2007/06/vista-under-the-hood/1/ |title=Windows Vista: Under the Hood |last=Bright |first=Peter |date=June 7, 2007 |publisher=[[Condé Nast]] |work=[[ArsTechnica]] |accessdate=July 15, 2015}}&lt;/ref&gt; Many others in the tech industry echoed these sentiments at the time, directing praise towards the massive amount of [[technical features new to Windows Vista]].&lt;ref&gt;{{Cite web|url=https://web.archive.org/web/20070819165733/http://www.winsupersite.com/reviews/winvista.asp|title=Paul Thurrott's SuperSite for Windows: Windows Vista Review, Part 1: Introduction|date=August 19, 2007|website=web.archive.org|access-date=December 31, 2019}}&lt;/ref&gt;
+
+Windows Vista received the "Best of CES" award at the [[Consumer Electronics Show]] in 2007.&lt;ref name="BestofCES"&gt;{{cite web |url=http://news.microsoft.com/2007/01/10/windows-vista-named-best-of-ces-at-the-2007-international-consumer-electronics-show/ |title=Windows Vista Named "Best of CES" at the 2007 International Consumer Electronics Show |date=January 10, 2007 |publisher=[[Microsoft]] |work=News Center |accessdate=May 25, 2015}}&lt;/ref&gt;&lt;ref name="CNET-BestOfCES"&gt;{{cite web |url=http://reviews.cnet.com/4520-12760_7-6676861-1.html |title=Best of CES 2007 awards Consumer Electronics Show, January 8 to 11 |date=2007 |publisher=[[CBS Interactive]] |work=[[CNET]] |archiveurl=https://web.archive.org/web/20070122224454/http://reviews.cnet.com/4520-12760_7-6676861-1.html |archivedate=January 22, 2007 |accessdate=May 25, 2015}}&lt;/ref&gt;
+
+In its first year of availability, ''[[PC World]]'' rated it as the biggest tech disappointment of 2007,&lt;ref&gt;{{cite web
+| url=http://www.pcworld.com/article/id,140583-page,5-c,techindustrytrends/article.html
+| title = The 15 Biggest Tech Disappointments of 2007
+| date=December 16, 2007
+| accessdate =December 18, 2007
+| work = PC World
+| publisher=IDG
+| first=Dan |last=Tynan}}: listed as No. 1 of "The 15 Biggest Tech Disappointments of 2007"&lt;/ref&gt; and it was rated by ''[[InfoWorld]]'' as No. 2 of Tech's all-time 25 flops.&lt;ref&gt;{{cite web
+| url=http://www.infoworld.com/article/2642687/operating-systems/tech-s-all-time-top-25-flops.html
+| title = Tech's all-time top 25 flops
+| date=January 21, 2008
+| accessdate =January 27, 2008
+| work = [[InfoWorld]]
+| publisher=[[IDG]]
+| first=Neil |last=McAllister}}&lt;/ref&gt; Microsoft's then much smaller competitor [[Apple Inc.|Apple]] noted that, despite Vista's far greater sales, its own operating system did not seem to have suffered after its release, and would later invest in [[Get a Mac|advertising]] mocking Vista's unpopularity with users.&lt;ref name="Apple Zooms Past Rivals, With 88% Profit Growth"&gt;{{cite web|last1=Flynn|first1=Laurie|title=Apple Zooms Past Rivals, With 88% Profit Growth|url=https://www.nytimes.com/2007/04/26/technology/26apple.html|website=New York Times|accessdate=December 2, 2015}}&lt;/ref&gt;
+
+Computer manufacturers such as [[Dell]], [[Lenovo]], and [[Hewlett-Packard]] released their newest computers with Windows Vista pre-installed; however, after the negative reception of the operating system, they also began selling their computers with Windows XP CDs included because of a drop in sales.&lt;ref&gt;{{cite web|url=https://www.cnet.com/news/whos-selling-windows-xp-in-july/|title=Who's selling Windows XP in July?|first=Michael |last=Horowitz|work=[[CNET]]|publisher=[[CBS Interactive]]|date=April 23, 2008|accessdate=March 14, 2016}}&lt;/ref&gt;
+
+=== Sales ===
+A [[Gartner]] research report predicted that Vista business adoption in 2008 would overtake that of XP during the same time frame (21.3% vs. 16.9%)&lt;ref&gt;{{cite web|first=J. Nicholas |last=Hoover |url=http://www.informationweek.com/news/windows/operatingsystems/showArticle.jhtml?articleID=207600845 |title=Microsoft's Windows Vista Spin Merits Second Look |work=[[InformationWeek]] |publisher=[[UBM plc]] |date=May 8, 2008 |accessdate=February 16, 2009}}&lt;/ref&gt; while [[International Data Corporation|IDC]] had indicated that the launch of [[Windows Server 2008]] served as a catalyst for the stronger adoption rates.&lt;ref&gt;{{cite web|first=Al |last=Gillen |first2=Brett |last2=Waldman |url=http://www.idc.com/getdoc.jsp?containerId=211087 |title=Document at a Glance – 211087 |publisher=[[International Data Corporation|IDC]] |date=March 2008 |accessdate=February 16, 2009 |url-status=dead |archiveurl=https://web.archive.org/web/20081216125724/http://www.idc.com/getdoc.jsp?containerId=211087 |archivedate=December 16, 2008 }}&lt;/ref&gt;&lt;ref&gt;{{cite web|first=Shane |last=O'Neill |url=http://www.pcworld.com/article/153089/vista_fights_for_relevancy_against_poor_sales_xp_windows_7.html |title=Vista Fights for Relevancy Against Poor Sales, XP, Windows 7 |work=[[PC World]] |publisher=[[IDG]] |date=October 30, 2008 |accessdate=February 16, 2009}}&lt;/ref&gt; As of January 2009, [[Forrester Research]] had indicated that almost one third of North American and European corporations had started deploying Vista.&lt;ref&gt;{{cite magazine
+|url=https://www.pcworld.com/article/159153/vista_makes_converts_of_gamers_enterprises.html?tk=nl_wvxnws
+|title=Vista Makes Converts of Gamers, Enterprises
+|date=February 7, 2009
+|accessdate=February 9, 2009
+|last=Lai
+|first=Eric
+|magazine=PC World
+}}&lt;/ref&gt; At a May 2009 conference, a Microsoft Vice President said "Adoption and deployment of Windows Vista has been slightly ahead of where we had been with XP" for big businesses.&lt;ref&gt;{{cite web | url = http://www.computerworld.com/action/article.do?command=viewArticleBasic&amp;articleId=9133643 | title = Microsoft: Vista's enterprise momentum will 'accrue' for Windows 7 | work = [[Computerworld]] | first = Eric | last = Lai | date = May 28, 2009 | access-date = June 2, 2009 | archive-url = https://web.archive.org/web/20070302144543/http://www.computerworld.com/action/article.do?command=viewArticleBasic | archive-date = March 2, 2007 | url-status = dead | df = dmy-all }}&lt;/ref&gt;&lt;ref&gt;{{cite web | url = https://www.microsoft.com/msft/download/transcripts/fy09/Cowan_and_Company_Tami_Reller_05282009.doc | title = Cowen and Company Technology Media &amp; Telecom Conference | first = Tami | last = Reller | date = May 28, 2009 | format = [[DOC (computing)|DOC]]}}&lt;/ref&gt;
+
+Within its first month, 20 million copies of Vista were sold, double the amount of Windows XP sales within its first month in October 2001, five years earlier.&lt;ref&gt;[http://www.betanews.com/article/Microsoft_First_Month_Vista_Sales_Double_XP/1174940745 Microsoft: First Month Vista Sales Double XP, article by Nate Mook]. Betanews.com (March 26, 2007). Retrieved on October 14, 2011.&lt;/ref&gt; Shortly after however, due to Vista's relatively low adoption rates and continued demand for Windows XP, Microsoft decided to sell Windows XP until June 30, 2008, instead of the previously planned date of January 31, 2008.&lt;ref&gt;{{cite web
+| url= http://www.news.com/Microsoft-extends-Windows-XPs-stay/2100-1016_3-6210524.html
+| title = Microsoft extends Windows XP's stay
+| date=September 27, 2007
+| first= Ina
+| last=Fried
+| work=[[CNET]]
+}}&lt;/ref&gt; There were reports of Vista users "downgrading" their operating systems, as well as reports of businesses planning to skip Vista.&lt;ref&gt;[https://abcnews.go.com/Technology/PCWorld/story?id=4486404&amp;page=1 Windows XP vs. Vista: An Explosion of Opinion]. Abcnews.go.com (March 20, 2008). Retrieved on October 14, 2011.&lt;/ref&gt; A study conducted by ChangeWave in March 2008 showed that the percentage of corporate users who were "very satisfied" with Vista was dramatically lower than other operating systems, with Vista at 8%, compared to the 40% who said they were "very satisfied" with Windows XP.&lt;ref name="computerworld1"/&gt;
+
+The internet-usage [[market share]] for Windows Vista after two years of availability, in January 2009, was 20.61%. This figure combined with World Internet Users and Population Stats yielded a user base of roughly 330 million,&lt;ref name="internetworldusers"/&gt; which exceeded Microsoft's two-year post launch expectations by 130 million.&lt;ref name="windowsitpro2006"/&gt; The internet user base reached before the release of its successor (Windows 7) was roughly 400 million according to the same statistical sources.{{citation needed|date=November 2013}}
+
+== Criticism ==
+{{Main|Criticism of Windows Vista}}
+Windows Vista has received a number of negative assessments. Criticism targets include protracted development time (5–6 years), more restrictive licensing terms, the inclusion of a number of technologies aimed at restricting the copying of protected digital media,&lt;ref&gt;{{cite web|url=http://badvista.fsf.org/what-s-wrong-with-microsoft-windows-vista|title=What's wrong with Microsoft Windows Vista?|date=March 6, 2007|accessdate=March 24, 2007|last=Sullivan|first=John|publisher=[[Free Software Foundation]]}}&lt;/ref&gt; and the usability of the new [[User Account Control]] security technology. Moreover, some concerns have been raised about many PCs meeting "Vista Premium Ready" hardware requirements and Vista's pricing.
+
+=== Hardware requirements ===
+While in 2005 Microsoft claimed "nearly all PCs on the market today will run Windows Vista",&lt;ref name="Hwreqts2"&gt;{{cite web
+| url = http://www.eweek.com/article2/0,1895,1843945,00.asp
+| title = Will Your PC Run Windows Vista?
+| date = August 5, 2005
+| accessdate =August 15, 2006
+| last = Spooner |first=John G.
+| last2=Foley |first2=Mary Jo |authorlink2=Mary Jo Foley
+| work = [[eWeek]]
+| publisher=[[QuinStreet]]
+}}&lt;/ref&gt; the higher requirements of some of the "premium" features, such as the Aero interface, affected many upgraders. According to the UK newspaper ''[[The Times]]'' in May 2006, the full set of features "would be available to less than 5 percent of Britain's PC market"; however, this prediction was made several months before Vista was released.&lt;ref name="Judge1"&gt;{{cite web
+| url = http://business.timesonline.co.uk/article/0,,9075-2188681,00.html
+| title = Windows revamp 'too advanced for most PCs'
+| date=May 20, 2006
+| accessdate =August 15, 2006
+| first = Elizabeth
+| last = Judge
+|work=The Times
+ | location=London}}&lt;/ref&gt; This continuing lack of clarity eventually led to a class action against Microsoft as people found themselves with new computers that were unable to use the new software to its full potential despite the assurance of "Vista Capable" designations.&lt;ref&gt;Gregg Keizer (November 26, 2007).[http://www.pcworld.com/article/id,139961-pg,1/article.html Lawyers: Even Microsoft Confused Over Vista Marketing]&lt;/ref&gt; The court case has made public internal Microsoft communications that indicate that senior executives have also had difficulty with this issue. For example, Mike Nash (Corporate Vice President, Windows Product Management) commented, "I now have a $2,100 e-mail machine" because of his laptop's lack of an appropriate graphics chip so hobbled Vista.&lt;ref&gt;[https://www.nytimes.com/2008/03/09/business/09digi.html "They Criticized Vista. And They Should Know."], ''[[The New York Times]]'', March 9, 2008.&lt;/ref&gt;
+
+=== Licensing ===
+Criticism of upgrade [[Software licensing|licenses]] pertaining to Windows Vista Starter through Home Premium was expressed by ''[[Ars Technica]]''{{'}}s Ken Fisher, who noted that the new requirement of having a prior operating system already installed was going to cause irritation for users who reinstall Windows on a regular basis.&lt;ref&gt;{{cite web
+| url = https://arstechnica.com/news.ars/post/20070128-8717.html
+| title = Vista "upgrade" drops compliance checking, requires old OS to install
+| date=January 28, 2007
+| accessdate =January 28, 2007
+| last = Fisher
+| first = Ken
+| website = Ars Technica
+}}&lt;/ref&gt;
+It has been revealed that an Upgrade copy of Windows Vista can be installed clean without first installing a previous version of Windows. On the first install, Windows will refuse to activate. The user must then reinstall that same copy of Vista. Vista will then activate on the reinstall, thus allowing a user to install an Upgrade of Windows Vista without owning a previous operating system.&lt;ref&gt;{{cite web
+ |url          = http://www.winsupersite.com/showcase/winvista_upgrade_clean.asp
+ |title        = How to Clean Install Windows Vista with Upgrade Media
+ |date         = February 3, 2007
+ |accessdate   = February 5, 2007
+ |last         = Thurrott
+ |first        = Paul
+ |authorlink   = Paul Thurrott
+ |work         = Supersite for Windows
+ |publisher    = [[Penton (company)|Penton]]
+ |archive-url  = https://web.archive.org/web/20070205052146/http://www.winsupersite.com/showcase/winvista_upgrade_clean.asp
+ |archive-date = February 5, 2007
+ |url-status     = dead
+ |df           = mdy-all
+}}&lt;/ref&gt; As with Windows XP, separate rules still apply to OEM versions of Vista installed on new PCs: Microsoft asserts that these versions are not legally transferable (although whether this conflicts with the [[right of first sale]] has yet to be clearly decided legally).&lt;ref&gt;{{cite web
+| url=https://www.cnet.com/news/microsoft-limits-vista-transfers/
+| title = Microsoft limits Vista transfers
+| date=October 17, 2006
+| last = Fried
+| first = Ina
+| website=[[CNET]]
+| publisher=[[CBS Interactive]]}}&lt;/ref&gt;
+
+=== Cost ===
+Initially, the cost of Windows Vista was also a source of concern and commentary. A majority of users in a poll said that the prices of various Windows Vista editions posted on the Microsoft Canada website in August 2006 make the product too expensive.&lt;ref&gt;
+{{cite web
+| url = http://www.itwire.com.au/content/view/5450/53/
+| title = Windows Vista too expensive says users
+| date = August 30, 2006
+| accessdate = October 19, 2006
+| last = Beer
+| first = Stan
+| website = ITWire.com
+| archive-url = https://web.archive.org/web/20060909162825/http://www.itwire.com.au/content/view/5450/53/
+| archive-date = September 9, 2006
+| url-status = dead
+| df = mdy-all
+}}
+&lt;/ref&gt; A BBC News report on the day of Vista's release suggested that, "there may be a backlash from consumers over its pricing plans—with the cost of Vista versions in the US roughly half the price of equivalent versions in the UK."&lt;ref&gt;{{cite web
+| url = http://news.bbc.co.uk/2/hi/technology/6309651.stm
+| title = Microsoft starts Vista hard sell
+| date=January 30, 2007
+| accessdate =January 30, 2007
+| work = Technology
+|publisher=BBC News
+}}&lt;/ref&gt;
+Since the release of Vista in 2006, Microsoft has reduced the retail, and upgrade price point of Vista. Originally, Vista Ultimate was priced at $399, and Home Premium Vista at $239. These prices have since been reduced to $319 and $199 respectively.&lt;ref&gt;{{cite web
+| url = https://arstechnica.com/microsoft/news/2009/06/windows-7-pricing-announced-cheaper-than-vista.ars
+| title = Windows 7 pricing announced: cheaper than Vista (Updated)
+| date= June 25, 2009
+| accessdate =October 4, 2009
+| last = Protalinski
+| first = Emil}}&lt;/ref&gt;
+
+=== Digital rights management ===
+Windows Vista supports additional forms of [[digital rights management|DRM]] restrictions. One aspect of this is the [[Protected Video Path]], which is designed so that "premium content" from [[HD DVD]] or [[Blu-ray Disc]]s may mandate that the connections between PC components be encrypted. Depending on what the content demands, the devices may not pass premium content over non-encrypted outputs, or they must artificially degrade the quality of the signal on such outputs or not display it at all. Drivers for such hardware must be approved by Microsoft; a revocation mechanism is also included, which allows Microsoft to disable drivers of devices in end-user PCs over the Internet.&lt;ref name="Microsoft-ocp"&gt;{{cite web
+| url = https://www.microsoft.com/whdc/device/stream/output_protect.mspx
+| title = Output Content Protection and Windows Vista
+| date=April 27, 2005
+| accessdate =January 8, 2007
+| work = WHDC
+| publisher = [[Microsoft]]
+|archiveurl = https://web.archive.org/web/20061116163834/http://www.microsoft.com/whdc/device/stream/output_protect.mspx |archivedate = November 16, 2006}}&lt;/ref&gt; [[Peter Gutmann (computer scientist)|Peter Gutmann]], security researcher and author of the [[Open-source software|open source]] [[cryptlib]] library, claims that these mechanisms violate fundamental rights of the user (such as [[fair use]]), unnecessarily increase the cost of hardware, and make systems less reliable (the "tilt bit" being a particular worry; if triggered, the entire graphic subsystem performs a reset) and vulnerable to [[denial-of-service attacks]].&lt;ref name="gutmann"&gt;{{cite web
+ |url        = http://www.cs.auckland.ac.nz/~pgut001/pubs/vista_cost.html
+ |title      = A Cost Analysis of Windows Vista Content Protection
+ |last       = Gutmann
+ |first      = Peter
+ |authorlink = Peter Gutmann (computer scientist)
+ |date       = January 27, 2007
+ |accessdate = January 27, 2007
+}} Also available: [http://max-sievers.name/vista_cost.pdf PDF version] {{Webarchive|url=https://web.archive.org/web/20110511144644/http://max-sievers.name/vista_cost.pdf |date=May 11, 2011 }}&lt;/ref&gt; However, despite several requests&lt;ref&gt;[http://blogs.guardian.co.uk/technology/2007/08/15/bott_and_ou_call_out_gutmanns_vista_fud.html Bott and Ou call out Gutmann's Vista FUD]. Blogs.guardian.co.uk. Retrieved on October 14, 2011.&lt;/ref&gt; for evidence supporting such claims Peter Gutmann has never supported his claims with any researched evidence. Proponents have claimed that Microsoft had no choice but to follow the demands of the movie studios, and that the technology will not actually be enabled until after 2010;&lt;ref name="smith"&gt;{{cite web
+| url = http://www.dasmirnov.net/blog/2006/12/31/windows_vista_drm_nonsense
+| title = Windows Vista DRM nonsense
+| last = Smith
+| first = Paul
+| date=December 31, 2006
+| accessdate =January 3, 2007
+}}&lt;/ref&gt;&lt;ref name="arstechnica"&gt;{{cite web
+| title = Hollywood reportedly in agreement to delay forced quality downgrades for Blu-ray, HD DVD
+| url = https://arstechnica.com/news.ars/post/20060521-6880.html
+| last = Fisher
+| first = Ken
+| date=May 21, 2006
+| accessdate =January 21, 2007
+| website = Ars Technica
+}}&lt;/ref&gt; Microsoft also noted that content protection mechanisms have existed in Windows as far back as [[Windows ME]], and that the new protections will not apply to any existing content, only future content.&lt;ref&gt;{{cite web
+| url = http://windowsvistablog.com/blogs/windowsvista/archive/2007/01/20/windows-vista-content-protection-twenty-questions-and-answers.aspx
+|archiveurl=https://web.archive.org/web/20130121121652/http://blogs.windows.com/windows/archive/b/windowsvista/archive/2007/01/20/windows-vista-content-protection-twenty-questions-and-answers.aspx
+|archivedate=January 21, 2013
+| title = Windows Vista Content Protection—Twenty Questions (and Answers)
+| last = Marsh
+| first = Dave
+| date=January 20, 2007
+| accessdate =January 20, 2007
+| work = Windows Vista team blog
+| publisher = Microsoft
+}}&lt;/ref&gt;
+
+=== User Account Control ===
+Although User Account Control (UAC) is an important part of Vista's security infrastructure as it blocks software from silently gaining administrator privileges without the user's knowledge, it has been widely criticized for generating too many prompts.&lt;ref&gt;{{cite web|url=https://arstechnica.com/information-technology/2006/09/7703/|title=User Account Control: yes, you can turn it off. Is this a good or a bad thing?|work=Ars Technica}}&lt;/ref&gt; This has led many Vista UAC users to consider it troublesome, with some consequently either turning the feature off or (for Windows Vista Enterprise or Windows Vista Ultimate users) putting it in auto-approval mode.&lt;ref&gt;{{Cite web |url=http://www.informationweek.com/blog/main/archives/2007/06/dont_shut_off_v.html |title=Don't Shut Off Vista UAC, There's A Better Way |work=[[InformationWeek]] |date=June 11, 2007 |accessdate=October 14, 2011}}&lt;/ref&gt; Responding to this criticism, Microsoft altered the implementation to reduce the number of prompts with SP1.&lt;ref name="technetnotablesp1"/&gt; Though the changes resulted in some improvement, it did not alleviate the concerns completely.&lt;ref&gt;{{Cite web |first=Christina |last=Torode |url=http://searchwinit.techtarget.com/news/article/0,289142,sid1_gci1308132,00.html |title=Minasi says Vista SP1 solves problems, adds new ones |work=SearchWinIT.com |date=April 2, 2008}}&lt;/ref&gt;
+
+=== Retrospective analysis ===
+{{Original research section|date=February 2020}}
+Some users now argue that Windows Vista does not deserve its negative reputation. Tech [[List of YouTubers|YouTube personality]] [[Linus Sebastian]] argued in a 2018 video that issues with Windows Vista were largely due to necessary overhauls from its predecessor, Windows XP. Sebastian critiqued hardware and [[Original Equipment Manufacturer|OEM]] manufacturers for unpreparedness. Many consumer-grade PCs did not meet Microsoft's hardware guidelines, and driver support suffered because developers did not develop new drivers as advised. Sebastian further noted that Vista's reputation as a "resource hog" (consuming excessive amounts of [[Random access memory|RAM]]) actually came from a misunderstanding of the new [[memory management]] model, which in fact made Vista operate more smoothly than Windows XP on appropriate hardware.
+
+== Downgrade rights ==
+End users of licenses of Windows 7 acquired through OEM or volume licensing may downgrade to the equivalent edition of Windows Vista. Downgrade rights are not offered for Starter, Home Basic or Home Premium editions of Windows 7.&lt;ref&gt;{{cite web|url=http://download.microsoft.com/download/6/8/9/68964284-864d-4a6d-aed9-f2c1f8f23e14/Downgrade_Rights.pdf|title=Downgrade rights for owners of licensed Windows 8 and Windows 7|author=|date=|website=microsoft.com}}&lt;/ref&gt; For [[Windows 8]] licenses acquired through an OEM, a user may also downgrade to the equivalent edition of Windows Vista. Customers licensed for use of Windows 8 Enterprise are generally licensed for Windows 8 Pro, which may be downgraded to Windows Vista Business.
+
+== See also ==
+* [[BlueKeep (security vulnerability)]]
+* [[Comparison of Windows Vista and Windows XP]]
+* [[Microsoft Security Essentials]]
+
+== References ==
+{{Reflist|30em}}
+
+== External links ==
+* [https://support.microsoft.com/en-my/help/22882/windows-vista-end-of-support Windows Vista End of Support]
+* [https://support.microsoft.com/en-my/help/13858/windows-vista-service-pack-2-install Windows Vista Service Pack 2 (SP2) Update]
+
+{{History of Windows}}
+
+{{Authority control}}
+
+[[Category:Windows Vista| ]]
+[[Category:2006 software]]
+[[Category:IA-32 operating systems]]
+[[Category:Products and services discontinued in 2017]]
+[[Category:Windows NT|Vista]]
+[[Category:X86-64 operating systems]]</text>
+      <sha1>1upqec72rrm2sbt4p1ip46oimgdc49v</sha1>
+    </revision>
+  </page>
+</mediawiki>

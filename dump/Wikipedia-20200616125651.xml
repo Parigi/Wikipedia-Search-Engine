@@ -1,0 +1,111 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.10/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.10/ http://www.mediawiki.org/xml/export-0.10.xsd" version="0.10" xml:lang="en">
+  <siteinfo>
+    <sitename>Wikipedia</sitename>
+    <dbname>enwiki</dbname>
+    <base>https://en.wikipedia.org/wiki/Main_Page</base>
+    <generator>MediaWiki 1.35.0-wmf.36</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Media</namespace>
+      <namespace key="-1" case="first-letter">Special</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Talk</namespace>
+      <namespace key="2" case="first-letter">User</namespace>
+      <namespace key="3" case="first-letter">User talk</namespace>
+      <namespace key="4" case="first-letter">Wikipedia</namespace>
+      <namespace key="5" case="first-letter">Wikipedia talk</namespace>
+      <namespace key="6" case="first-letter">File</namespace>
+      <namespace key="7" case="first-letter">File talk</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki talk</namespace>
+      <namespace key="10" case="first-letter">Template</namespace>
+      <namespace key="11" case="first-letter">Template talk</namespace>
+      <namespace key="12" case="first-letter">Help</namespace>
+      <namespace key="13" case="first-letter">Help talk</namespace>
+      <namespace key="14" case="first-letter">Category</namespace>
+      <namespace key="15" case="first-letter">Category talk</namespace>
+      <namespace key="100" case="first-letter">Portal</namespace>
+      <namespace key="101" case="first-letter">Portal talk</namespace>
+      <namespace key="108" case="first-letter">Book</namespace>
+      <namespace key="109" case="first-letter">Book talk</namespace>
+      <namespace key="118" case="first-letter">Draft</namespace>
+      <namespace key="119" case="first-letter">Draft talk</namespace>
+      <namespace key="446" case="first-letter">Education Program</namespace>
+      <namespace key="447" case="first-letter">Education Program talk</namespace>
+      <namespace key="710" case="first-letter">TimedText</namespace>
+      <namespace key="711" case="first-letter">TimedText talk</namespace>
+      <namespace key="828" case="first-letter">Module</namespace>
+      <namespace key="829" case="first-letter">Module talk</namespace>
+      <namespace key="2300" case="first-letter">Gadget</namespace>
+      <namespace key="2301" case="first-letter">Gadget talk</namespace>
+      <namespace key="2302" case="case-sensitive">Gadget definition</namespace>
+      <namespace key="2303" case="case-sensitive">Gadget definition talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Process capability</title>
+    <ns>0</ns>
+    <id>2731314</id>
+    <revision>
+      <id>950212274</id>
+      <parentid>916799617</parentid>
+      <timestamp>2020-04-10T20:35:44Z</timestamp>
+      <contributor>
+        <username>Pkgx</username>
+        <id>4173550</id>
+      </contributor>
+      <comment>wording</comment>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="4763" xml:space="preserve">{{About|the quantifiable measure of a process|software process capability|Capability Maturity Model|and|ISO/IEC 15504}}
+A '''[[Process (engineering)|process]]''' is a unique combination of tools, materials, methods, and people engaged in producing a measurable output;  for example a manufacturing line for machine parts.  All processes have inherent [[statistical variability]] which can be evaluated by statistical methods.
+
+The '''process capability''' is a measurable property of a process to the specification, expressed as a [[process capability index]] (e.g., C&lt;SUB&gt;pk&lt;/SUB&gt; or C&lt;SUB&gt;pm&lt;/SUB&gt;) or as a [[process performance index]] (e.g., P&lt;SUB&gt;pk&lt;/SUB&gt; or P&lt;SUB&gt;pm&lt;/SUB&gt;). The output of this measurement is often illustrated by a [[histogram]] and calculations that predict how many parts will be produced out of specification (OOS).
+
+Two parts of process capability are: 1) measure the variability of the output of a process, and 2) compare that variability with a proposed specification or product tolerance.
+
+==Measure the process==
+
+The input of a process usually has at least one or more measurable characteristics that are used to specify outputs.  These can be analyzed statistically; where the output data shows a [[normal distribution]] the process can be described by the process [[mean]] (average) and the [[standard deviation]].
+
+A process needs to be established with appropriate [[process control]]s in place.  A [[control chart]] analysis is used to determine whether the process is "in statistical control" If the process is not in statistical control then capability has no meaning. Therefore, the process capability involves only [[common cause variation]] and not [[special cause variation]].
+
+A batch of data needs to be obtained from the measured output of the process. The more data that is included the more precise the result, however an estimate can be achieved with as few as 17 data points.  This should include the normal variety of production conditions, materials, and people in the process.  With a manufactured product, it is common to include at least three different production runs, including start-ups.
+
+The process mean (average) and standard deviation are calculated.  With a normal distribution, the "tails" can extend well beyond plus and minus three standard deviations, but this interval should contain about 99.73% of production output. Therefore, for a normal distribution of data the process capability is often described as the relationship between six standard deviations and the required specification.
+
+==Capability study==
+The output of a process is expected to meet customer requirements, [[specification]]s, or [[engineering tolerance]]s.  Engineers can conduct a process capability study to determine the extent to which the process can meet these expectations.
+
+The ability of a process to meet specifications can be expressed as a single number using a [[process capability index]] or it can be assessed using [[control chart]]s.  Either case requires running the process to obtain enough measurable output so that engineering is confident that the process is stable and so that the process mean and variability can be reliably estimated.  [[Statistical process control]] defines techniques to properly differentiate between stable processes, processes that are drifting (experiencing a long-term change in the mean of the output), and processes that are growing more variable.  [[process capability index|Process capability indices]] are only meaningful for processes that are stable (in a state of [[statistical control]]).
+
+== See also ==
+*[[Process (engineering)]]
+*[[Control chart]]
+*[[Corrective and Preventative Action]] (CAPA)
+*[[Kurtosis]]
+*[[Normal distribution]]
+*[[Six Sigma]]
+*[[Statistical interference]]
+*[[Statistical process control]]
+*[[Tolerance (engineering)]]
+
+==References==
+* [[Thomas Pyzdek|Pyzdek, T]], "Quality Engineering Handbook", 2003, {{ISBN|0-8247-4614-7}}
+* Bothe, D. R., "Measuring Process Capability", 2001, {{ISBN|0-07-006652-3}}
+* Godfrey, A. B., "Juran's Quality Handbook", 1999, {{ISBN|007034003X}}
+* ASTM E2281 Standard Practice for Process and Measurement Capability Indices
+
+== External links ==
+*[http://www.itl.nist.gov/div898/handbook/pmc/section1/pmc16.htm NIST/SEMATEK discussion of capability]
+
+*[https://minitab.leandigit.in/blog/process-capability-for-parts-with-ovality-or-min-max-dia/ Estimating Process Capability for parts with ovality]
+*[https://web.archive.org/web/20070711230708/http://www.spcpress.com/pdf/The_Final_6_Sigma_Zone.pdf The Six Sigma Zone]
+*[https://www.sixsigmablackbelt.de/process-capability/ Process capability calculation excel template]
+{{Six Sigma Tools|state=collapsed}}
+[[Category:Quality control]]
+[[Category:Six Sigma]]</text>
+      <sha1>3koapuqekjn19ko1zgykf9i6f5qsbsm</sha1>
+    </revision>
+  </page>
+</mediawiki>

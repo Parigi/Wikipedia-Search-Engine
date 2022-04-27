@@ -1,0 +1,319 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.10/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.10/ http://www.mediawiki.org/xml/export-0.10.xsd" version="0.10" xml:lang="en">
+  <siteinfo>
+    <sitename>Wikipedia</sitename>
+    <dbname>enwiki</dbname>
+    <base>https://en.wikipedia.org/wiki/Main_Page</base>
+    <generator>MediaWiki 1.35.0-wmf.36</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Media</namespace>
+      <namespace key="-1" case="first-letter">Special</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Talk</namespace>
+      <namespace key="2" case="first-letter">User</namespace>
+      <namespace key="3" case="first-letter">User talk</namespace>
+      <namespace key="4" case="first-letter">Wikipedia</namespace>
+      <namespace key="5" case="first-letter">Wikipedia talk</namespace>
+      <namespace key="6" case="first-letter">File</namespace>
+      <namespace key="7" case="first-letter">File talk</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki talk</namespace>
+      <namespace key="10" case="first-letter">Template</namespace>
+      <namespace key="11" case="first-letter">Template talk</namespace>
+      <namespace key="12" case="first-letter">Help</namespace>
+      <namespace key="13" case="first-letter">Help talk</namespace>
+      <namespace key="14" case="first-letter">Category</namespace>
+      <namespace key="15" case="first-letter">Category talk</namespace>
+      <namespace key="100" case="first-letter">Portal</namespace>
+      <namespace key="101" case="first-letter">Portal talk</namespace>
+      <namespace key="108" case="first-letter">Book</namespace>
+      <namespace key="109" case="first-letter">Book talk</namespace>
+      <namespace key="118" case="first-letter">Draft</namespace>
+      <namespace key="119" case="first-letter">Draft talk</namespace>
+      <namespace key="446" case="first-letter">Education Program</namespace>
+      <namespace key="447" case="first-letter">Education Program talk</namespace>
+      <namespace key="710" case="first-letter">TimedText</namespace>
+      <namespace key="711" case="first-letter">TimedText talk</namespace>
+      <namespace key="828" case="first-letter">Module</namespace>
+      <namespace key="829" case="first-letter">Module talk</namespace>
+      <namespace key="2300" case="first-letter">Gadget</namespace>
+      <namespace key="2301" case="first-letter">Gadget talk</namespace>
+      <namespace key="2302" case="case-sensitive">Gadget definition</namespace>
+      <namespace key="2303" case="case-sensitive">Gadget definition talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Instrumental variables estimation</title>
+    <ns>0</ns>
+    <id>1514405</id>
+    <revision>
+      <id>961480131</id>
+      <parentid>959714163</parentid>
+      <timestamp>2020-06-08T18:32:28Z</timestamp>
+      <contributor>
+        <username>InternetArchiveBot</username>
+        <id>27015025</id>
+      </contributor>
+      <comment>Bluelink 1 book for [[Wikipedia:Verifiability|verifiability]] (refca)) #IABot (v2.0.1) ([[User:GreenC bot|GreenC bot]]</comment>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="39963" xml:space="preserve">{{merge from|Endogeneity with an exponential regression function|discuss=Talk:Instrumental variables estimation#Endogeneity with an exponential regression function|date=May 2019}}
+In [[statistics]], [[econometrics]], [[epidemiology]] and related disciplines, the method of '''instrumental variables''' ('''IV''') is used to estimate [[Causal inference|causal relationships]] when [[controlled experiment]]s are not feasible or when a treatment is not successfully delivered to every unit in a randomized experiment.&lt;ref name=Imbens:00&gt;{{cite journal |last=Imbens |first=G. |first2=J. |last2=Angrist |year=1994 |title=Identification and estimation of local average treatment effects |journal=[[Econometrica]] |volume=62 |issue=2 |pages=467–476 |jstor=2951620 |doi=10.2307/2951620 |url=http://www.nber.org/papers/t0118.pdf }}&lt;/ref&gt; Intuitively, IVs are used when an explanatory variable of interest is correlated with the error term, in which case [[ordinary least squares]] and [[ANOVA]] give [[bias (statistics)|biased]] results. A valid instrument induces changes in the explanatory variable but has no independent effect on the dependent variable, allowing a researcher to uncover the causal effect of the explanatory variable on the dependent variable.
+
+Instrumental variable methods allow for [[consistent estimator|consistent]] estimation when the [[dependent and independent variables|explanatory variables]] (covariates) are [[correlation|correlated]] with the [[errors and residuals in statistics|error terms]] in a [[regression analysis|regression]] model. Such correlation may occur when:
+# changes in the dependent variable change the value of at least one of the [[covariate]]s ("reverse" causation),
+# there are [[Omitted-variable bias|omitted variables]] that affect both the dependent and independent variables, or
+# the [[Errors-in-variables models|covariates are subject to non-random measurement error]].
+Explanatory variables that suffer from one or more of these issues in the context of a regression are sometimes referred to as [[endogeneity (econometrics)|endogenous]]. In this situation, [[ordinary least squares]] produces biased and inconsistent estimates.&lt;ref name=Bullock:00&gt;{{cite journal |last=Bullock |first=J. G. |last2=Green |first2=D. P. |last3=Ha |first3=S. E. |year=2010 |title=Yes, But What's the Mechanism? (Don't Expect an Easy Answer) |journal=[[Journal of Personality and Social Psychology]] |volume=98 |issue=4 |pages=550–558 |doi=10.1037/a0018933 |pmid=20307128 |citeseerx=10.1.1.169.5465 }}&lt;/ref&gt; However, if an ''instrument'' is available, consistent estimates may still be obtained. An instrument is a variable that does not itself belong in the explanatory equation but is correlated with the [[endogeneity (econometrics)|endogenous]] explanatory variables, conditionally on the value of other covariates. 
+
+In linear models, there are two main requirements for using IVs:
+* The instrument must be correlated with the endogenous explanatory variables, conditionally on the other covariates. If this correlation is strong, then the instrument is said to have a '''strong first stage'''. A weak correlation may provide misleading inferences about parameter estimates and standard errors.&lt;ref&gt;https://www.stata.com/meeting/5nasug/wiv.pdf&lt;/ref&gt;
+* The instrument cannot be correlated with the error term in the explanatory equation, conditionally on the other covariates. In other words, the instrument cannot suffer from the same problem as the original predicting variable. If this condition is met, then the instrument is said to satisfy the '''exclusion restriction'''.
+
+==Introduction==
+&lt;!-- Formal definitions of instrumental variables, using counterfactuals and graphical criteria, are given by [[Judea Pearl|Pearl]] (2000).&lt;ref name=Pearl:00&gt;{{cite book |last=Pearl |first=J.|title=Causality: Models, Reasoning, and Inference |url=https://archive.org/details/causalitymodelsr0000pear |url-access=registration |publisher=[[Cambridge University Press]] |year=2000 |location=New York |isbn=052189560X }}&lt;/ref&gt;  Notions of causality in econometrics, and their relationship with instrumental variables and other methods, are discussed by [[James Heckman|Heckman]] (2008).&lt;ref name=Heckman:00&gt;{{cite journal |last=Heckman|first=J. |year=2008 |title=Econometric Causality |journal=[[International Statistical Review]] |volume=76 |issue=1 |pages=1–27 |doi=10.1111/j.1751-5823.2007.00024.x }}&lt;/ref&gt; --&gt;
+
+The concept of instrumental variables was first derived by Philip G. Wright, possibly in co-authorship with his son [[Sewall Wright]], in the context of [[simultaneous equations]] in his 1928 book ''The Tariff on Animal and Vegetable Oils''.&lt;ref&gt;{{Cite journal | jstor = 2663184|title=The Fall of OLS in Structural Estimation| journal = Oxford Economic Papers| volume = 41| issue = 1| pages = 94–107| last1 = Epstein| first1 = Roy J| year = 1989}}&lt;/ref&gt;&lt;ref name=stock:trebbi03&gt;{{cite journal |last1=Stock |first1=James H. |last2=Trebbi |first2=Francesco  |year=2003 |title=Retrospectives: Who Invented Instrumental Variable Regression?  |journal=[[Journal of Economic Perspectives]] |volume=17 |issue=3 |pages=177–194 |doi=10.1257/089533003769204416 |doi-access=free }}&lt;!-- ref is helpful because the authorship of the appendix B was disputed and this references attempts to settle the dispute --&gt;&lt;/ref&gt; In 1945, [[Olav Reiersøl]] applied the same approach in the context of [[errors-in-variables models]] in his dissertation, giving the method its name.&lt;ref&gt;{{cite book |first=Olav |last=Reiersøl |title=Confluence Analysis by Means of Instrumental Sets of Variables |series=Arkiv for Mathematic, Astronomi, och Fysik |volume=32A |year=1945 |location=Uppsala |publisher=Almquist &amp; Wiksells |oclc=793451601 }}&lt;/ref&gt;
+
+While the ideas behind IV extend to a broad class of models, a very common context for IV is in linear regression. Traditionally,&lt;ref name=bowden:turkington84&gt;{{cite book|last1=Bowden|first1=R.J.|last2=Turkington|first2=D.A.|title=Instrumental Variables|date=1984|publisher=Cambridge University Press|location=Cambridge, England}}&lt;/ref&gt; an instrumental variable is defined
+as a variable ''Z'' that is correlated with the independent variable ''X'' and uncorrelated with the "error term" U in the linear equation
+
+: &lt;math&gt;Y = X \beta + U &lt;/math&gt;
+
+&lt;math&gt;Y&lt;/math&gt; is a vector. &lt;math&gt;X&lt;/math&gt; is a matrix, usually with a column of ones and perhaps with additional columns for other covariates. Consider how an instrument allows &lt;math&gt;\beta&lt;/math&gt; to be recovered. Recall that [[ordinary least squares|OLS]] solves for &lt;math&gt; \widehat{\beta }&lt;/math&gt; such that &lt;math&gt;\operatorname{cov}(X,\widehat{U}) = 0&lt;/math&gt; (when we minimize the sum of squared errors, &lt;math&gt;\min_{\widehat{\beta}} (Y-\widehat{\beta}  X)'(Y-\widehat{\beta} X) &lt;/math&gt;, the first-order condition is exactly &lt;math&gt; X' (Y-\widehat{\beta} X) = X' \widehat{U} = 0 &lt;/math&gt;.) If the true model is believed to have &lt;math&gt;\operatorname{cov}(X,U) \neq 0&lt;/math&gt; due to any of the reasons listed above—for example, if there is an [[Omitted-variable bias|omitted variable]] which affects both &lt;math&gt;X&lt;/math&gt; and &lt;math&gt;Y&lt;/math&gt; separately—then this [[ordinary least squares|OLS]] procedure will ''not'' yield the causal impact of &lt;math&gt;X&lt;/math&gt; on &lt;math&gt;Y&lt;/math&gt;. OLS will simply pick the parameter that makes the resulting errors appear uncorrelated with &lt;math&gt;X&lt;/math&gt;.
+
+Consider for simplicity the single-variable case. Suppose we are considering a regression with one variable and a constant (perhaps no other covariates are necessary, or perhaps we have [[Frisch–Waugh–Lovell theorem|partialed out]] any other relevant covariates):
+
+:&lt;math&gt;y=\alpha + \beta x + u&lt;/math&gt;
+
+In this case, the coefficient on the regressor of interest is given by &lt;math&gt; \widehat{\beta }= \frac{\operatorname{cov}(x,y)}{\operatorname{var}(x)} &lt;/math&gt;. Substituting for &lt;math&gt;y&lt;/math&gt; gives
+
+: &lt;math&gt;
+\begin{align}
+\widehat{\beta} &amp; = \frac{\operatorname{cov}(x,y)}{\operatorname{var}(x)} = \frac{\operatorname{cov}(x,\alpha + \beta x + u)}{\operatorname{var}(x)} \\[6pt]
+&amp; =\frac{\operatorname{cov}(x, \alpha +\beta x)}{\operatorname{var}(x)} +\frac{\operatorname{cov}(x,u)}{\operatorname{var}(x)}= \beta^* + \frac{\operatorname{cov}(x,u)}{\operatorname{var}(x)},
+\end{align}
+&lt;/math&gt;
+
+where &lt;math&gt;\beta^*&lt;/math&gt; is what the estimated coefficient vector would be if ''x'' were not correlated with ''u''. It can be shown that &lt;math&gt;\beta^*&lt;/math&gt; would be an unbiased estimator of &lt;math&gt;\beta .&lt;/math&gt; If &lt;math&gt;\operatorname{cov}(x,u) \neq 0&lt;/math&gt; in the underlying model that we believe, then [[ordinary least squares|OLS]] gives a coefficient which does ''not'' reflect the underlying causal effect of interest. IV helps to fix this problem by identifying the parameters &lt;math&gt;\vec{\beta}&lt;/math&gt; not based on whether &lt;math&gt;x&lt;/math&gt; is uncorrelated with &lt;math&gt;u&lt;/math&gt;, but based on whether another variable &lt;math&gt;z&lt;/math&gt; (or set of variables) is (are) uncorrelated with &lt;math&gt;u&lt;/math&gt;. If theory suggests that &lt;math&gt;z&lt;/math&gt; is related to &lt;math&gt;x&lt;/math&gt; (the first stage) but uncorrelated with &lt;math&gt;u&lt;/math&gt; (the exclusion restriction), then IV may identify the causal parameter of interest where OLS fails. Because there are multiple specific ways of using and deriving IV estimators even in just the linear case (IV, 2SLS, GMM), we save further discussion for the [[#Estimation|Estimation]] section below.
+
+Of course, IV techniques have been developed among a much broader class of non-linear models. General definitions of instrumental variables, using counterfactual and graphical formalism, were given by Pearl (2000; p.&amp;nbsp;248).&lt;ref name=Pearl:00&gt;{{cite book |last=Pearl |first=J.|title=Causality: Models, Reasoning, and Inference |url=https://archive.org/details/causalitymodelsr0000pear |url-access=registration |publisher=[[Cambridge University Press]] |year=2000 |location=New York |isbn=978-0-521-89560-6}}&lt;/ref&gt; The graphical definition requires that ''Z'' satisfy the following conditions:
+
+: &lt;math&gt;(Z \perp\!\!\!\perp Y)_{G_{\overline{X}}} \qquad(Z \not\!\!{\perp\!\!\!\perp} X)_G &lt;/math&gt;
+
+where &lt;math&gt;\perp\!\!\!\perp&lt;/math&gt; stands for [[Bayesian network#d-separation|''d''-separation]] &lt;ref name=bayes-wiki&gt;[[Bayesian network]]&lt;/ref&gt; and &lt;math&gt;G_{\overline{X}}&lt;/math&gt; stands for the [[Bayesian network|graph]] in which all arrows entering ''X'' are cut off.
+
+The counterfactual definition requires that ''Z'' satisfies
+
+: &lt;math&gt;(Z \perp\!\!\!\perp Y_x)\qquad (Z \not\!\!{\perp\!\!\!\perp} X)&lt;/math&gt;
+
+where ''Y''&lt;sub&gt;''x''&lt;/sub&gt; stands for the value that ''Y'' would attain had ''X'' been ''x'' and &lt;math&gt;\perp\!\!\!\perp&lt;/math&gt; stands for independence.
+
+If there are additional covariates ''W'' then the above definitions are modified so that ''Z'' qualifies as an instrument if the given criteria hold conditional on ''W''.
+
+The essence of Pearl's definition is:
+# The equations of interest are "structural," not "regression".
+# The error term ''U'' stands for all exogenous factors that affect ''Y'' when ''X'' is held constant.
+# The instrument ''Z'' should be independent of ''U.''
+# The instrument ''Z'' should not affect ''Y'' when ''X'' is held constant (exclusion restriction).
+# The instrument ''Z'' should not be independent of ''X.''
+
+These conditions do not rely on specific functional
+form of the equations and are applicable therefore to
+nonlinear equations, where ''U'' can be non-additive
+(see Non-parametric analysis). They are also applicable to a system of multiple
+equations, in which ''X'' (and other factors) affect ''Y'' through
+several intermediate variables. An instrumental variable need not be
+a cause of ''X''; a proxy of such cause may also be
+used, if it satisfies conditions 1-5.&lt;ref name=Pearl:00/&gt; The exclusion restriction (condition 4) is redundant; it follows from conditions 2 and 3.
+
+==Example==
+
+Informally, in attempting to estimate the causal effect of some variable ''X'' on another ''Y'', an instrument is a third variable ''Z'' which affects ''Y'' only through its effect on&amp;nbsp;''X''.  For example, suppose a researcher wishes to estimate the causal effect of smoking on general health.&lt;ref name=Leigh:00&gt;{{cite journal |last=Leigh |first=J. P. |first2=M. |last2=Schembri |year=2004 |title=Instrumental Variables Technique: Cigarette Price Provided Better Estimate of Effects of Smoking on SF-12 |journal=[[Journal of Clinical Epidemiology]] |volume=57 |issue=3 |pages=284–293 |doi=10.1016/j.jclinepi.2003.08.006 |pmid=15066689 }}&lt;/ref&gt;  Correlation between health and smoking does not imply that smoking causes poor health because other variables, such as depression, may affect both health and smoking, or because health may affect smoking.  It is at best difficult and expensive to conduct controlled experiments on smoking status in the general population.  The researcher may attempt to estimate the causal effect of smoking on health from observational data by using the tax rate for tobacco products as an instrument for smoking.  The tax rate for tobacco products is a reasonable choice for an instrument because the researcher assumes that it can only be correlated with health through its effect on smoking.  If the researcher then finds tobacco taxes and state of health to be correlated, this may be viewed as evidence that smoking causes changes in health.
+
+[[Joshua Angrist|Angrist]] and [[Alan Krueger|Krueger]] (2001) present a survey of the history and uses of instrumental variable techniques.&lt;ref name=angrist:00&gt;{{cite journal |last=Angrist |first=J. |first2=A. |last2=Krueger |year=2001 |title=Instrumental Variables and the Search for Identification: From Supply and Demand to Natural Experiments |journal=[[Journal of Economic Perspectives]] |volume=15 |issue=4 |pages=69–85 |doi=10.1257/jep.15.4.69 |doi-access=free }}&lt;/ref&gt;
+
+==Selecting suitable instruments==
+
+Since ''U'' is unobserved, the requirement that ''Z'' be independent of ''U'' cannot be inferred from data and must instead be determined from the model structure, i.e., the data-generating process. [[Causal graphs]] are a representation of this structure, and the [[#Introduction|graphical definition]] given above can be used to quickly determine whether a variable ''Z'' qualifies as an instrumental variable given a set of covariates ''W''. To see how, consider the following example.
+
+[[File:Instrumental Variable Example Effect of Tutoring 1.png|thumb|Figure 1: Proximity qualifies as an instrumental variable given Library Hours]]
+[[File:Instrumental Variable Example Effect of Tutoring (Edge Deleted)_2.png|thumb|Figure 2: &lt;math&gt;G_{\overline{X}}&lt;/math&gt;, which is used to determine whether Proximity is an instrumental variable.]]
+[[File:Instrumental Variable Example Effect of Tutoring 2.png|thumb|Figure 3: Proximity does not qualify as an instrumental variable given Library Hours]]
+[[File:Instrumental Variable Example Effect of Tutoring 3.png|thumb|Figure 4: Proximity qualifies as an instrumental variable, as long as we do not include Library Hours as a covariate.]]
+
+Suppose that we wish to estimate the effect of a university tutoring program on grade point average ([[Grading_in_education|GPA]]).  The relationship between attending the tutoring program and GPA may be confounded by a number of factors.  Students who attend the tutoring program may care more about their grades or may be struggling with their work.  This confounding is depicted in the Figures 1-3 on the right through the bidirected arc between Tutoring Program and GPA.  If students are assigned to dormitories at random, the proximity of the student's dorm to the tutoring program is a natural candidate for being an instrumental variable.
+
+However, what if the tutoring program is located in the college library?  In that case, Proximity may also cause students to spend more time at the library, which in turn improves their GPA (see Figure 1).  Using the causal graph depicted in the Figure 2, we see that Proximity does not qualify as an instrumental variable because it is connected to GPA through the path Proximity &lt;math&gt; \rightarrow &lt;/math&gt; Library Hours &lt;math&gt; \rightarrow &lt;/math&gt;  GPA in &lt;math&gt;G_{\overline{X}}&lt;/math&gt;.  However, if we control for Library Hours by adding it as a covariate then Proximity becomes an instrumental variable, since Proximity is separated from GPA given Library Hours in &lt;math&gt;G_{\overline{X}}&lt;/math&gt;{{Citation needed|date=April 2019}}.
+
+Now, suppose that we notice that a student's "natural ability" affects his or her number of hours in the library as well as his or her GPA, as in Figure 3.  Using the causal graph, we see that Library Hours is a collider and conditioning on it opens the path Proximity &lt;math&gt;\rightarrow&lt;/math&gt; Library Hours &lt;math&gt;\leftrightarrow&lt;/math&gt; GPA.  As a result, Proximity cannot be used as an instrumental variable.
+
+Finally, suppose that Library Hours does not actually affect GPA because students who do not study in the library simply study elsewhere, as in Figure 4.  In this case, controlling for Library Hours still opens a spurious path from Proximity to GPA.  However, if we do not control for Library Hours and remove it as a covariate then Proximity can again be used an instrumental variable.
+
+==Estimation==
+
+We now revisit and expand upon the mechanics of IV in greater detail. Suppose the data are generated by a process of the form
+
+: &lt;math&gt; y_i = X_i \beta + e_i, &lt;/math&gt;
+
+where
+* ''i'' indexes observations,
+* &lt;math&gt;y_i&lt;/math&gt; is the ''i''-th value of the dependent variable,
+* &lt;math&gt;X_i&lt;/math&gt; is a vector of the ''i''-th values of the independent variable(s) and a constant,
+* &lt;math&gt;e_i&lt;/math&gt; is the ''i''-th value of an unobserved error term representing all causes of &lt;math&gt;y_i&lt;/math&gt; other than &lt;math&gt;X_i&lt;/math&gt;, and
+* &lt;math&gt;\beta&lt;/math&gt; is an unobserved parameter vector.
+
+The parameter vector &lt;math&gt;\beta&lt;/math&gt; is the causal effect on &lt;math&gt;y_i&lt;/math&gt; of a one unit change in each element of &lt;math&gt;X_i&lt;/math&gt;, holding all other causes of &lt;math&gt;y_i&lt;/math&gt; constant.  The econometric goal is to estimate &lt;math&gt;\beta&lt;/math&gt;.  For simplicity's sake assume the draws of ''e'' are uncorrelated and that they are drawn from distributions with the same [[variance]] (that is, that the errors are serially uncorrelated and [[homoskedastic]]).
+
+Suppose also that a regression model of nominally the same form is proposed.  Given a random sample of ''T'' observations from this process, the [[least squares|ordinary least squares]] estimator is
+
+: &lt;math&gt; \widehat{\beta}_\mathrm{OLS} = (X'X)^{-1} X'y = (X'X)^{-1} X'(X \beta + e) = \beta + (X'X)^{-1} X'e&lt;/math&gt;
+
+where ''X'', ''y'' and ''e'' denote column vectors of length ''T''. This equation is similar to the equation involving &lt;math&gt; \operatorname{cov}(X,y) &lt;/math&gt; in the introduction (this is the matrix version of that equation). When ''X'' and ''e'' are [[correlation|uncorrelated]], under certain regularity conditions the second term has an expected value conditional on ''X'' of zero and converges to zero in the limit, so the estimator is [[estimator bias|unbiased]] and consistent.  When ''X'' and the other unmeasured, causal variables collapsed into the ''e'' term are correlated, however, the OLS estimator is generally biased and inconsistent for&amp;nbsp;''β''.  In this case, it is valid to use the estimates to predict values of ''y'' given values of ''X'', but the estimate does not recover the causal effect of ''X'' on&amp;nbsp;''y''.
+
+To recover the underlying parameter &lt;math&gt; \beta &lt;/math&gt;, we introduce a set of variables ''Z'' that is highly correlated with each [[endogeneity (econometrics)|endogenous]] component of ''X'' but (in our underlying model) is not correlated with&amp;nbsp;''e''. For simplicity, one might consider ''X'' to be a ''T'' × 2  matrix composed of a column of constants and one endogenous variable, and ''Z'' to be a ''T'' × 2 consisting of a column of constants and one instrumental variable. However, this technique generalizes to ''X'' being a matrix of a constant and, say, 5 endogenous variables, with ''Z'' being a matrix composed of a constant and 5 instruments. In the discussion that follows, we will assume that ''X'' is a ''T'' × ''K'' matrix and leave this value ''K'' unspecified. An estimator in which ''X'' and ''Z'' are both ''T'' × ''K'' matrices is referred to as [[Identifiability|just-identified]] .
+
+Suppose that the relationship between each endogenous component ''x''&lt;sub&gt;''i''&lt;/sub&gt; and the instruments is given by
+
+: &lt;math&gt; x_i = Z_i \gamma + v_i, &lt;/math&gt;
+
+The most common IV specification uses the following estimator:
+
+:&lt;math&gt; \widehat{\beta}_\mathrm{IV} = (Z'X)^{-1} Z'y &lt;/math&gt;
+
+This specification approaches the true parameter as the sample gets large, so long as &lt;math&gt; Z'e = 0 &lt;/math&gt; in the true model:
+
+:&lt;math&gt; \widehat{\beta}_\mathrm{IV} = (Z'X)^{-1} Z'y = (Z'X)^{-1} Z'X \beta + (Z'X)^{-1} Z'e  \rightarrow \beta    &lt;/math&gt;
+
+As long as &lt;math&gt; Z'e = 0 &lt;/math&gt; in the underlying process which generates the data, the appropriate use of the IV estimator will identify this parameter. This works because IV solves for the unique parameter that satisfies &lt;math&gt; Z'e = 0 &lt;/math&gt;, and therefore hones in on the true underlying parameter as the sample size grows.
+
+Now an extension: suppose that there are more instruments than there are covariates in the equation of interest, so that ''Z'' is a ''T × M'' matrix with ''M &gt; K''. This is often called the '''over-identified''' case. In this case, the [[generalized method of moments]] (GMM) can be used. The GMM IV estimator is
+
+:&lt;math&gt; \widehat{\beta}_\mathrm{GMM} = (X' P_Z X)^{-1}X' P_Z y,&lt;/math&gt;
+
+where &lt;math&gt;P_Z&lt;/math&gt; refers to the [[Projection (linear algebra)|projection matrix]] &lt;math&gt;P_Z=Z(Z' Z)^{-1}Z'&lt;/math&gt;.
+
+This expression collapses to the first when the number of instruments is equal to the number of covariates in the equation of interest. The over-identified IV is therefore a generalization of the just-identified IV.
+
+{{hidden begin|style=border:1px solid #aaa|title={{center|Proof that  β&lt;sub&gt;GMM&lt;/sub&gt; collapses to β&lt;sub&gt;IV&lt;/sub&gt; in the just-identified case}}}}
+Developing the &lt;math&gt;\beta_{GMM}&lt;/math&gt; expression:
+:&lt;math&gt; \widehat{\beta}_\mathrm{GMM} = (X^\mathrm{T} Z(Z^\mathrm{T} Z)^{-1}Z^\mathrm{T} X)^{-1}X^\mathrm{T} Z(Z^\mathrm{T} Z)^{-1}Z^\mathrm{T} y&lt;/math&gt;
+
+In the just-identified case, we have as many instruments as covariates, so that the dimension of ''X'' is the same as that of&amp;nbsp;''Z''. Hence, &lt;math&gt;X^\mathrm{T} Z, Z^\mathrm{T} Z&lt;/math&gt; and &lt;math&gt;Z^\mathrm{T}X&lt;/math&gt; are all squared matrices of the same dimension. We can expand the inverse, using the fact that, for any invertible ''n''-by-''n'' matrices '''A''' and '''B''', ('''AB''')&lt;sup&gt;−1&lt;/sup&gt; = '''B'''&lt;sup&gt;−1&lt;/sup&gt;'''A'''&lt;sup&gt;−1&lt;/sup&gt; (see [[Invertible matrix#Properties]]):
+:&lt;math&gt;
+\begin{align}
+\widehat{\beta}_\mathrm{GMM} &amp;= (Z^\mathrm{T} X)^{-1}(Z^\mathrm{T} Z)(X^\mathrm{T} Z)^{-1}X^\mathrm{T} Z(Z^\mathrm{T} Z)^{-1}Z^\mathrm{T} y\\
+&amp;=  (Z^\mathrm{T} X)^{-1}(Z^\mathrm{T} Z)(Z^\mathrm{T} Z)^{-1}Z^\mathrm{T} y\\
+&amp;=(Z^\mathrm{T} X)^{-1}Z^\mathrm{T}y \\
+&amp;=\widehat{\beta}_\mathrm{IV}
+\end{align}
+&lt;/math&gt;
+Reference: see Davidson and Mackinnnon (1993)&lt;ref&gt;{{cite book|last1=Davidson|first1=Russell|first2=James|last2=Mackinnon|title=Estimation and Inference in Econometrics|year=1993|publisher=Oxford University Press|location=New York|isbn=978-0-19-506011-9}}&lt;/ref&gt;{{rp|218}}
+{{hidden end}}
+
+There is an equivalent [[Parameter identification problem|under-identified]] estimator for the case where ''m &lt; k''. Since the parameters are the solutions to a set of linear equations, an under-identified model using the set of equations &lt;math&gt; Z'v = 0 &lt;/math&gt; does not have a unique solution.
+
+==Interpretation as two-stage least squares==
+
+One computational method which can be used to calculate IV estimates is two-stage least squares (2SLS or TSLS).  In the first stage, each explanatory variable that is an endogenous covariate in the equation of interest is regressed on all of the exogenous variables in the model, including both exogenous covariates in the equation of interest and the excluded instruments.  The predicted values from these regressions are obtained:
+
+'''Stage 1:''' Regress each column of '''X''' on '''Z''', (&lt;math&gt; X = Z \delta + \text{errors} &lt;/math&gt;):
+
+: &lt;math&gt;\widehat{\delta}=(Z^\mathrm{T} Z)^{-1}Z^\mathrm{T}X, \,&lt;/math&gt;
+
+and save the predicted values:
+
+: &lt;math&gt;\widehat{X}= Z\widehat{\delta} = {\color{ProcessBlue}Z(Z^\mathrm{T} Z)^{-1}Z^\mathrm{T}}X = {\color{ProcessBlue}P_Z} X.\, &lt;/math&gt;
+
+In the second stage, the regression of interest is estimated as usual, except that in this stage each endogenous covariate is replaced with the predicted values from the first stage:
+
+'''Stage 2: ''' Regress '''Y''' on the predicted values from the first stage:
+
+: &lt;math&gt; Y = \widehat X \beta + \mathrm{noise},\,&lt;/math&gt;
+
+which gives
+: &lt;math&gt; \beta_{2SLS} = \left(X^\mathrm{T}{\color{ProcessBlue}P_Z} X\right)^{-1} X^\mathrm{T}{\color{ProcessBlue}P_Z}Y.&lt;/math&gt;
+{{hidden begin|style=border:1px solid #aaa|title={{center|Proof: computation of the 2SLS estimator}}}}
+The usual OLS estimator is: &lt;math&gt; (\widehat X^\mathrm{T}\widehat X)^{-1}\widehat X^\mathrm{T}Y&lt;/math&gt;.
+Replacing &lt;math&gt; \widehat X = P_Z X&lt;/math&gt; and noting that &lt;math&gt;P_Z &lt;/math&gt; is a symmetric and [[Idempotence|idempotent]] matrix, so that &lt;math&gt;  P_Z^\mathrm{T}P_Z=P_Z P_Z = P_Z&lt;/math&gt;
+: &lt;math&gt; \beta_{2SLS} = (\widehat X^\mathrm{T}\widehat X)^{-1}\widehat X^\mathrm{T} Y = \left(X^\mathrm{T}P_Z^\mathrm{T}P_Z X\right)^{-1} X^\mathrm{T}P_Z^\mathrm{T}Y=\left(X^\mathrm{T}P_Z X\right)^{-1} X^\mathrm{T}P_ZY.&lt;/math&gt;
+{{hidden end}}
+
+The resulting estimator of &lt;math&gt;\beta&lt;/math&gt; is numerically identical to the expression displayed above. A small correction must be made to the sum-of-squared residuals in the second-stage fitted model in order that the covariance matrix of &lt;math&gt;\beta&lt;/math&gt; is calculated correctly.
+
+==Non-parametric analysis==
+
+When the form of the structural equations is unknown, an instrumental variable &lt;math&gt;Z&lt;/math&gt; can still be defined through the equations:
+
+:&lt;math&gt;x = g(z,u) \, &lt;/math&gt;
+:&lt;math&gt;y = f(x,u) \, &lt;/math&gt;
+
+where &lt;math&gt;f&lt;/math&gt; and &lt;math&gt;g&lt;/math&gt; are two arbitrary functions and &lt;math&gt;Z&lt;/math&gt; is independent of &lt;math&gt;U&lt;/math&gt;. Unlike linear models, however, measurements of &lt;math&gt;Z, X&lt;/math&gt; and &lt;math&gt;Y&lt;/math&gt; do not allow for the identification of the average causal effect of &lt;math&gt;X&lt;/math&gt; on &lt;math&gt;Y&lt;/math&gt;, denoted ACE
+:&lt;math&gt;\text{ACE} = \Pr(y\mid \text{do}(x)) = \operatorname{E}_u[f(x,u)].&lt;/math&gt;
+Balke and Pearl [1997] derived tight bounds on ACE and showed that these can provide valuable information on the sign and size of ACE.&lt;ref name=balke:pearl97&gt;{{cite journal |last=Balke |first=A. |last2=Pearl |first2=J. |title=Bounds on treatment effects from studies with imperfect compliance |journal=[[Journal of the American Statistical Association]] |volume=92 |issue=439 |pages=1172–1176 |year=1997 |doi=10.1080/01621459.1997.10474074 |citeseerx=10.1.1.26.3952 }}&lt;/ref&gt;
+
+In linear analysis, there is no test to falsify the assumption the &lt;math&gt;Z&lt;/math&gt; is instrumental relative to the pair &lt;math&gt;(X,Y)&lt;/math&gt;. This is not the case when &lt;math&gt;X&lt;/math&gt; is discrete. Pearl (2000) has shown that, for all &lt;math&gt;f&lt;/math&gt; and &lt;math&gt;g&lt;/math&gt;, the following constraint, called "Instrumental Inequality" must hold whenever &lt;math&gt;Z&lt;/math&gt; satisfies the two equations above:&lt;ref name=Pearl:00 /&gt;
+:&lt;math&gt;\max_x \sum_y [\max_z \Pr(y,x\mid z)]\leq 1.&lt;/math&gt;
+
+==On the interpretation of IV estimates==
+
+The exposition above assumes that the causal effect of interest does not vary across observations, that is, that &lt;math&gt;\beta&lt;/math&gt; is a constant.  Generally, different subjects will respond in different ways to changes in the "treatment" ''x''.  When this possibility is recognized, the average effect in the population of a change in ''x'' on ''y'' may differ from the effect in a given subpopulation.  For example, the average effect of a job training program may substantially differ across the group of people who actually receive the training and the group which chooses not to receive training.  For these reasons, IV methods invoke implicit assumptions on behavioral response, or more generally assumptions over the correlation between the response to treatment and propensity to receive treatment.&lt;ref&gt;{{cite journal |last=Heckman |first=J. |year=1997 |title=Instrumental variables: A study of implicit behavioral assumptions used in making program evaluations |journal=[[Journal of Human Resources]] |volume=32 |issue=3 |pages=441–462 |jstor=146178 |doi=10.2307/146178 }}&lt;/ref&gt;
+
+The standard IV estimator can recover [[Local average treatment effect|local average treatment effects]] (LATE) rather than [[average treatment effects]] (ATE).&lt;ref name=Imbens:00 /&gt;  Imbens and Angrist (1994) demonstrate that the linear IV estimate can be interpreted under weak conditions as a weighted average of local average treatment effects, where the weights depend on the elasticity of the endogenous regressor to changes in the instrumental variables. Roughly, that means that the effect of a variable is only revealed for the subpopulations affected by the observed changes in the instruments, and that subpopulations which respond most to changes in the instruments will have the largest effects on the magnitude of the IV estimate.
+
+For example, if a researcher uses presence of a land-grant college as an instrument for college education in an earnings regression, she identifies the effect of college on earnings in the subpopulation which would obtain a college degree if a college is present but which would not obtain a degree if a college is not present.  This empirical approach does not, without further assumptions, tell the researcher anything about the effect of college among people who would either always or never get a college degree regardless of whether a local college exists.
+
+==Potential problems==
+
+Instrumental variables estimates are generally inconsistent if the instruments are correlated with the error term in the equation of interest.  As Bound, [[David A. Jaeger|Jaeger]], and Baker (1995) note, another problem is caused by the selection of "weak" instruments, instruments that are poor predictors of the endogenous question predictor in the first-stage equation.&lt;ref&gt;{{Cite journal | doi = 10.1080/01621459.1995.10476536| title = Problems with Instrumental Variables Estimation when the Correlation between the Instruments and the Endogenous Explanatory Variable is Weak| journal = Journal of the American Statistical Association| volume = 90| issue = 430| pages = 443| year = 1995| last1 = Bound | first1 = J. | last2 = Jaeger | first2 = D. A. | last3 = Baker | first3 = R. M. }}&lt;/ref&gt; In this case, the prediction of the question predictor by the instrument will be poor and the predicted values will have very little variation. Consequently, they are unlikely to have much success in predicting the ultimate outcome when they are used to replace the question predictor in the second-stage equation.
+
+In the context of the smoking and health example discussed above, tobacco taxes are weak instruments for smoking if smoking status is largely unresponsive to changes in taxes.  If higher taxes do not induce people to quit smoking (or not start smoking), then variation in tax rates tells us nothing about the effect of smoking on health.  If taxes affect health through channels other than through their effect on smoking, then the instruments are invalid and the instrumental variables approach may yield misleading results.  For example, places and times with relatively health-conscious populations may both implement high tobacco taxes and exhibit better health even holding smoking rates constant, so we would observe a correlation between health and tobacco taxes even if it were the case that smoking has no effect on health.  In this case, we would be mistaken to infer a causal effect of smoking on health from the observed correlation between tobacco taxes and health.
+
+==Sampling properties and hypothesis testing==
+
+When the covariates are exogenous, the small-sample properties of the OLS estimator can be derived in a straightforward manner by calculating moments of the estimator conditional on ''X''.  When some of the covariates are endogenous so that instrumental variables estimation is implemented, simple expressions for the moments of the estimator cannot be so obtained.  Generally, instrumental variables estimators only have desirable asymptotic, not finite sample, properties, and inference is based on asymptotic approximations to the sampling distribution of the estimator.  Even when the instruments are uncorrelated with the error in the equation of interest and when the instruments are not weak, the finite sample properties of the instrumental variables estimator may be poor.  For example, exactly identified models produce finite sample estimators with no moments, so the estimator can be said to be neither biased nor unbiased, the nominal size of test statistics may be substantially distorted, and the estimates may commonly be far away from the true value of the parameter.&lt;ref name="Nelson 1990:00"&gt;{{cite journal |last=Nelson |first=C. R. |first2=R. |last2=Startz |year=1990 |title=Some Further Results on the Exact Small Sample Properties of the Instrumental Variable Estimator |journal=[[Econometrica]] |volume=58 |issue=4 |pages=967–976 |jstor=2938359 |doi=10.2307/2938359 |url=http://www.nber.org/papers/t0068.pdf }}&lt;/ref&gt;
+
+==Testing instrument strength and overidentifying restrictions==
+
+The strength of the instruments can be directly assessed because both the endogenous covariates and the instruments are observable.&lt;ref name=Stock:00&gt;{{cite journal |last=Stock |first=J. |first2=J. |last2=Wright |first3=M. |last3=Yogo |year=2002 |title=A Survey of Weak Instruments and Weak Identification in Generalized Method of Moments |journal=[[Journal of the American Statistical Association]] |volume=20 |issue=4 |pages=518–529 |doi=10.1198/073500102288618658 |citeseerx=10.1.1.319.2477 }}&lt;/ref&gt;  A common rule of thumb for models with one endogenous regressor is: the [[F-test|F-statistic]] against the [[Null hypothesis|null]] that the excluded instruments are irrelevant in the first-stage regression should be larger than 10.
+
+The assumption that the instruments are not correlated with the error term in the equation of interest is not testable in exactly identified models.  If the model is overidentified, there is information available which may be used to test this assumption.  The most common test of these ''overidentifying restrictions'', called the [[Sargan–Hansen test]], is based on the observation that the residuals should be uncorrelated with the set of exogenous variables if the instruments are truly exogenous.&lt;ref&gt;{{cite book |first=Fumio |last=Hayashi |chapter=Testing Overidentifying Restrictions |title=Econometrics |location=Princeton |publisher=Princeton University Press |year=2000 |isbn=978-0-691-01018-2 |pages=217–221 |chapterurl=https://books.google.com/books?id=QyIW8WUIyzcC&amp;pg=PA217 }}&lt;/ref&gt;  The Sargan–Hansen test statistic can be calculated as &lt;math&gt;TR^2&lt;/math&gt; (the number of observations multiplied by the [[coefficient of determination]]) from the OLS regression of the residuals onto the set of exogenous variables.  This statistic will be asymptotically chi-squared with ''m''&amp;nbsp;−&amp;nbsp;''k'' degrees of freedom under the null that the error term is uncorrelated with the instruments.
+
+== Application to random and fixed effects models==
+In the standard [[Random effects model|random effects]] (RE) and [[Fixed effects model|fixed effects]] (FE) models for [[panel data]], independent variables are assumed to be uncorrelated with error terms.  Provided the availability of valid instruments, RE and FE methods extend to the case where some of the explanatory variables are allowed to be endogenous. As in the exogenous setting, RE model with Instrumental Variables (REIV) requires more stringent assumptions than FE model with Instrumental Variables (FEIV) but it tends to be more efficient under appropriate conditions.&lt;ref name="Wooldridge"&gt;Wooldridge, J.M., Econometric Analysis of Cross Section and Panel Data, MIT Press, Cambridge, Mass.&lt;/ref&gt;  
+
+To fix ideas, consider the following model:   
+
+: &lt;math&gt;y_{it}=x_{it}\beta+c_i+u_{it}&lt;/math&gt;   
+
+where  &lt;math&gt;c_i&lt;/math&gt;  is unobserved unit-specific time-invariant effect (call it unobserved effect) and &lt;math&gt;x_{it}&lt;/math&gt; can be correlated with &lt;math&gt;u_{is}&lt;/math&gt; for ''s'' possibly different from ''t''.  Suppose there exists a set of valid instruments &lt;math&gt;z_{i}=(z_{i1},\ldots,z_{it})&lt;/math&gt;.  
+
+In REIV setting, key assumptions include that &lt;math&gt;z_{i}&lt;/math&gt; is uncorrelated with &lt;math&gt;c_{i}&lt;/math&gt; as well as &lt;math&gt;u_{it}&lt;/math&gt; for &lt;math&gt;t=1,\ldots,T&lt;/math&gt;. In fact, for REIV estimator to be efficient, conditions stronger than uncorrelatedness between instruments and unobserved effect are necessary. 
+
+On the other hand, FEIV estimator only requires that instruments be exogenous with error terms after conditioning on unobserved effect i.e. &lt;math&gt;E[u_{it} \mid z_i,c_i]=0[1]&lt;/math&gt;.&lt;ref name="Wooldridge"/&gt; The FEIV condition allows for arbitrary correlation between instruments and unobserved effect.  However, this generality does not come for free: time-invariant explanatory and instrumental variables are not allowed. As in the usual FE method, the estimator uses time-demeaned variables to remove unobserved effect. Therefore, FEIV estimator would be of limited use if variables of interest include time-invariant ones.
+
+The above discussion has parallel to the exogenous case of RE and FE models.  In the exogenous case, RE assumes uncorrelatedness between explanatory variables and unobserved effect, and FE allows for arbitrary correlation between the two. Similar to the standard case, REIV tends to be more efficient than FEIV provided that appropriate assumptions hold.&lt;ref name="Wooldridge"/&gt;
+
+==See also==
+* [[Control function (econometrics)]]
+* [[Optimal instruments]]
+
+==References==
+{{Reflist|30em}}
+==Further reading==
+* {{cite book |last=Greene |first=William H. |authorlink=William Greene (economist) |title=Econometric Analysis |url=https://archive.org/details/econometricanaly00gree_641 |url-access=limited |location=Upper Saddle River |publisher=Pearson Prentice-Hall |year=2008 |edition=Sixth |isbn=978-0-13-600383-0 |pages=[https://archive.org/details/econometricanaly00gree_641/page/n351 314]–353 }}
+* {{cite book |last=Gujarati |first=Damodar N. |authorlink=Damodar N. Gujarati |last2=Porter |first2=Dawn C. |title=Basic Econometrics |url=https://archive.org/details/basiceconometric05edguja |url-access=registration |location=New York |publisher=McGraw-Hill Irwin |edition=Fifth |year=2009 |isbn=978-0-07-337577-9 |pages=[https://archive.org/details/basiceconometric05edguja/page/711 711]–736 }}
+* {{cite book |first=Denis |last=Sargan |authorlink=Denis Sargan |title=Lectures on Advanced Econometric Theory |location=Oxford |publisher=Basil Blackwell |year=1988 |isbn=978-0-631-14956-9 |pages=42–67 }}
+* {{cite book |last=Wooldridge |first=Jeffrey M. |authorlink=Jeffrey Wooldridge |year=2013 |title=Introductory Econometrics: A Modern Approach |location=Mason, OH |publisher=South-Western |edition=Fifth international |pages=490–528 |isbn=978-1-111-53439-4 }}
+
+==External links==
+* [http://emlab.berkeley.edu/users/mcfadden/e240b_f01/ch4.pdf Chapter] from [[Daniel McFadden]]'s textbook
+* {{YouTube|id=Kb4LvSguwjg&amp;list=PLD15D38DC7AA3B737&amp;index=12|title=Econometrics lecture (topic: instrumental variable)}} by [[Mark Thoma]].
+* {{YouTube|id=D5lt9bhOshc&amp;list=PLD15D38DC7AA3B737&amp;index=15#t=54m09s|title=Econometrics lecture (topic: two-stages least square)}} by Mark Thoma
+
+[[Category:Regression analysis]]
+[[Category:Simultaneous equation methods (econometrics)]]</text>
+      <sha1>jlubxjtx1608z2p4unld4xxd5fgaz85</sha1>
+    </revision>
+  </page>
+</mediawiki>

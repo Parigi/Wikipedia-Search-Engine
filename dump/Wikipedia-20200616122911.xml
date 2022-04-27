@@ -1,0 +1,365 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.10/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.10/ http://www.mediawiki.org/xml/export-0.10.xsd" version="0.10" xml:lang="en">
+  <siteinfo>
+    <sitename>Wikipedia</sitename>
+    <dbname>enwiki</dbname>
+    <base>https://en.wikipedia.org/wiki/Main_Page</base>
+    <generator>MediaWiki 1.35.0-wmf.36</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Media</namespace>
+      <namespace key="-1" case="first-letter">Special</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Talk</namespace>
+      <namespace key="2" case="first-letter">User</namespace>
+      <namespace key="3" case="first-letter">User talk</namespace>
+      <namespace key="4" case="first-letter">Wikipedia</namespace>
+      <namespace key="5" case="first-letter">Wikipedia talk</namespace>
+      <namespace key="6" case="first-letter">File</namespace>
+      <namespace key="7" case="first-letter">File talk</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki talk</namespace>
+      <namespace key="10" case="first-letter">Template</namespace>
+      <namespace key="11" case="first-letter">Template talk</namespace>
+      <namespace key="12" case="first-letter">Help</namespace>
+      <namespace key="13" case="first-letter">Help talk</namespace>
+      <namespace key="14" case="first-letter">Category</namespace>
+      <namespace key="15" case="first-letter">Category talk</namespace>
+      <namespace key="100" case="first-letter">Portal</namespace>
+      <namespace key="101" case="first-letter">Portal talk</namespace>
+      <namespace key="108" case="first-letter">Book</namespace>
+      <namespace key="109" case="first-letter">Book talk</namespace>
+      <namespace key="118" case="first-letter">Draft</namespace>
+      <namespace key="119" case="first-letter">Draft talk</namespace>
+      <namespace key="446" case="first-letter">Education Program</namespace>
+      <namespace key="447" case="first-letter">Education Program talk</namespace>
+      <namespace key="710" case="first-letter">TimedText</namespace>
+      <namespace key="711" case="first-letter">TimedText talk</namespace>
+      <namespace key="828" case="first-letter">Module</namespace>
+      <namespace key="829" case="first-letter">Module talk</namespace>
+      <namespace key="2300" case="first-letter">Gadget</namespace>
+      <namespace key="2301" case="first-letter">Gadget talk</namespace>
+      <namespace key="2302" case="case-sensitive">Gadget definition</namespace>
+      <namespace key="2303" case="case-sensitive">Gadget definition talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Type I and type II errors</title>
+    <ns>0</ns>
+    <id>5657877</id>
+    <revision>
+      <id>958091404</id>
+      <parentid>958034914</parentid>
+      <timestamp>2020-05-21T23:01:59Z</timestamp>
+      <contributor>
+        <username>Sherif.alqallawi</username>
+        <id>32903010</id>
+      </contributor>
+      <comment>/* Table of error types */</comment>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="31874" xml:space="preserve">{{About|erroneous outcomes of statistical tests|closely related concepts in binary classification and testing generally|false positives and false negatives}}
+{{short description|Concepts from statistical hypothesis testing}}
+{{technical|date=April 2019}}
+In [[statistics|statistical]] [[hypothesis testing]], a '''type I error''' is the rejection of a true [[null hypothesis]] (also known as a "false positive" finding or conclusion), while a '''type II error''' is the non-rejection of a false null hypothesis (also known as a "false negative" finding or conclusion&lt;ref&gt;{{Cite web|url=https://explorable.com/type-i-error|title=
+Type I Error and Type II Error|website=explorable.com|access-date=2019-12-14}}&lt;/ref&gt;).  Much of statistical theory revolves around the minimization of one or both of these errors, though the complete elimination of either is a statistical impossibility for [[Nondeterministic algorithm|non-deterministic algorithms]].
+By selecting a low threshold (cut-off) value and modifying the alpha (p) level, the quality of the hypothesis test can be increased.&lt;ref&gt;{{Cite journal|last=Chow|first=Y. W.|last2=Pietranico|first2=R.|last3=Mukerji|first3=A.|date=1975-10-27|title=Studies of oxygen binding energy to hemoglobin molecule|journal=Biochemical and Biophysical Research Communications|volume=66|issue=4|pages=1424–1431|doi=10.1016/0006-291x(75)90518-5|issn=0006-291X|pmid=6}}&lt;/ref&gt; The knowledge of Type I errors and Type II errors is widely used in [[medical science]], [[biometrics]] and [[computer science]].
+
+Intuitively, type I errors can be thought of as errors of ''commission'', and type II errors as errors of ''omission''.  For example, in the context of [[binary classification]], when trying to decide whether an input image ''X'' is an image of a dog: an error of commission (type I) is classifying ''X'' as a dog when it isn't, whereas an error of omission (type II) is classifying ''X'' as not a dog when it is.
+
+== Definition ==
+'''Statistical background'''
+
+In [[Statistical hypothesis testing|statistical test theory]], the notion of a [[Errors and residuals|statistical error]] is an integral part of [[Hypothesis Testing|hypothesis testing]]. The test goes about choosing about two competing propositions called [[null hypothesis]], denoted by H&lt;sub&gt;0&lt;/sub&gt; and [[alternative hypothesis]], denoted by H&lt;sub&gt;1&lt;/sub&gt;  . This is conceptually similar to the judgement in a court trial. The null hypothesis corresponds to the position of defendant: just as he is presumed to be innocent until proven guilty, so is the null hypothesis presumed to be true until the data provide convincing evidence against it. The alternative hypothesis corresponds to the position against the defendant.
+
+If the result of the test corresponds with reality, then a correct decision has been made. However, if the result of the test does not correspond with reality, then an error has occurred. There are two situations in which the decision is wrong. The null hypothesis may be true, whereas we reject H&lt;sub&gt;0&lt;/sub&gt;. On the other hand, the alternative hypothesis H&lt;sub&gt;1&lt;/sub&gt; may be true, whereas we do not reject H&lt;sub&gt;0&lt;/sub&gt;. Two types of error are distinguished: Type I error and type II error.&lt;ref&gt;{{Cite book|title=A modern introduction to probability and statistics : understanding why and how|date=2005|publisher=Springer|others=Dekking, Michel, 1946-|isbn=978-1-85233-896-1|location=London|oclc=262680588}}&lt;/ref&gt;
+
+'''{{vanchor|Type I error}}'''
+
+The first kind of error is the rejection of a true null hypothesis as the result of a test procedure. This kind of error is called a type I error and is sometimes called an error of the first kind.
+
+In terms of the courtroom example, a type I error corresponds to convicting an innocent defendant.
+
+'''{{vanchor|Type II error}}'''
+
+The second kind of error is the failure to reject a false null hypothesis as the result of a test procedure. This sort of error is called a type II error and is also referred to as an error of the second kind.
+
+In terms of the courtroom example, a type II error corresponds to acquitting a criminal.&lt;ref&gt;{{Cite book|title=A modern introduction to probability and statistics : understanding why and how|date=2005|publisher=Springer|others=Dekking, Michel, 1946-|isbn=978-1-85233-896-1|location=London|oclc=262680588}}&lt;/ref&gt;
+
+'''False positive and false negative'''
+
+''See more information in: [[False positives and false negatives|False positive and false negative]]''
+
+In terms of false positives and false negatives, a positive result corresponds to rejecting the null hypothesis, while a negative result corresponds to failing to reject the null hypothesis; "false" means the conclusion drawn is incorrect. Thus, a type I error is equivalent to a false positive, and a type II error is equivalent to a false negative.
+
+===Table of error types===
+
+Tabularised relations between truth/falseness of the null hypothesis and outcomes of the test:&lt;ref name="Sheskin"&gt;{{cite book|title=Handbook of Parametric and Nonparametric Statistical Procedures|author=Sheskin, David|publisher=CRC Press|year=2004|isbn=1584884401|page=[https://books.google.com/books?id=ZvDLBQAAQBAJ&amp;pg=PA54 54]}}&lt;/ref&gt;
+
+{| class="wikitable"
+
+|-
+! rowspan="2" colspan="2" | &amp;nbsp;Table of error types 
+! colspan="2" | &lt;br /&gt;Null hypothesis (''H''&lt;sub&gt;0&lt;/sub&gt;) is&lt;br /&gt;&amp;nbsp;
+|-
+! True
+! False
+|-
+! rowspan="2" | Decision&lt;br /&gt;about null&lt;br /&gt;hypothesis (''H''&lt;sub&gt;0&lt;/sub&gt;)
+! Don't&lt;br /&gt;reject
+| style="text-align:center;"|&lt;br /&gt;Correct inference &lt;br /&gt;(true negative)
+(probability = 1−''α'')&lt;br /&gt;
+| style="text-align:center;"|Type II error &lt;br /&gt;(false negative)&lt;br /&gt;(probability = ''β'')&amp;nbsp;
+|-
+!Reject  
+| style="text-align:center;"|Type&amp;nbsp;I error &lt;br /&gt;(false positive)&lt;br /&gt;(probability = ''α'')&amp;nbsp;
+| style="text-align:center;"|&lt;br /&gt;Correct inference&lt;br /&gt;(true positive)
+(probability = 1−''β'')&lt;br /&gt;&amp;nbsp;
+|}
+
+== Error rate ==
+[[File:ROC curves.svg|thumb|upright=2.5|right|The results obtained from negative sample (left curve) overlap with the results obtained from positive samples (right curve). By moving the result cutoff value (vertical bar), the rate of false positives (FP) can be decreased, at the cost of raising the number of false negatives (FN), or vice-versa.]]
+
+A perfect test would have zero false positives and zero false negatives. However, statistics is a game of probability, and it cannot be known for certain whether statistical conclusions are correct. Whenever there is uncertainty, there is the possibility of making an error. Considering this nature of statistics science, all statistical hypothesis tests have a probability of making type I and type II errors.&lt;ref&gt;{{Cite journal|last=Smith|first=R. J.|last2=Bryant|first2=R. G.|date=1975-10-27|title=Metal substitutions incarbonic anhydrase: a halide ion probe study|journal=Biochemical and Biophysical Research Communications|volume=66|issue=4|pages=1281–1286|doi=10.1016/0006-291x(75)90498-2|issn=0006-291X|pmid=3}}&lt;/ref&gt;
+
+* The type I error rate or significance level is the probability of rejecting the null hypothesis given that it is true. It is denoted by the Greek letter α (alpha) and is also called the alpha level.  Usually, the significance level is set to 0.05 (5%), implying that it is acceptable to have a 5% probability of incorrectly rejecting the true null hypothesis.&lt;ref&gt;{{Cite book|title=Practical conservation biology|last=Lindenmayer, David.|date=2005|publisher=CSIRO Pub|others=Burgman, Mark A.|isbn=0-643-09310-9|location=Collingwood, Vic.|oclc=65216357}}&lt;/ref&gt;
+* The rate of the type II error is denoted by the Greek letter β (beta) and related to the [[Power (statistics)|power of a test]], which equals 1−β.&lt;ref&gt;{{Cite journal|last=Chow|first=Y. W.|last2=Pietranico|first2=R.|last3=Mukerji|first3=A.|date=1975-10-27|title=Studies of oxygen binding energy to hemoglobin molecule|journal=Biochemical and Biophysical Research Communications|volume=66|issue=4|pages=1424–1431|doi=10.1016/0006-291x(75)90518-5|issn=0006-291X|pmid=6}}&lt;/ref&gt;
+
+These two types of error rates are traded off against each other: for any given sample set, the effort to reduce one type of error generally results in increasing the other type of error.&lt;ref&gt;{{Cite journal|last=Smith|first=R. J.|last2=Bryant|first2=R. G.|date=1975-10-27|title=Metal substitutions incarbonic anhydrase: a halide ion probe study|journal=Biochemical and Biophysical Research Communications|volume=66|issue=4|pages=1281–1286|doi=10.1016/0006-291x(75)90498-2|issn=0006-291X|pmid=3}}&lt;/ref&gt;
+
+===The quality of hypothesis test===
+
+The same idea can be expressed in terms of the rate of correct results and therefore used to minimize error rates and improve the quality of hypothesis test. To reduce the probability of committing a Type I error, making the alpha (p) value more stringent is quite simple and efficient. To decrease the probability of committing a Type II error, which is closely associated with analyses' power, either increasing the test's sample size or relaxing the alpha level could increase the analyses' power.&lt;ref&gt;{{Cite journal|last=Smith|first=R. J.|last2=Bryant|first2=R. G.|date=1975-10-27|title=Metal substitutions incarbonic anhydrase: a halide ion probe study|journal=Biochemical and Biophysical Research Communications|volume=66|issue=4|pages=1281–1286|doi=10.1016/0006-291x(75)90498-2|issn=0006-291X|pmid=3}}&lt;/ref&gt;  A test statistic is robust if the Type I error rate is controlled.
+
+Varying different threshold (cut-off) value could also be used to make the test either more specific or more sensitive, which in turn elevates the test quality. For example, imagine a medical test, in which experimenter might measure the concentration of a certain protein in the blood sample. Experimenter could adjust the threshold (black vertical line in the figure) and people would be diagnosed as having diseases if any number is detected above this certain threshold. According to the image, changing the threshold would result in changes in false positives and false negatives, corresponding to movement on the curve.&lt;ref&gt;{{Cite journal|last=Moroi|first=K.|last2=Sato|first2=T.|date=1975-08-15|title=Comparison between procaine and isocarboxazid metabolism in vitro by a liver microsomal amidase-esterase|journal=Biochemical Pharmacology|volume=24|issue=16|pages=1517–1521|doi=10.1016/0006-2952(75)90029-5|issn=1873-2968|pmid=8}}&lt;/ref&gt;
+
+{{clear}}
+
+== Example ==
+
+Since in a real experiment, it is impossible to avoid all the type I and type II error, it is thus important to consider the amount of risk one is willing to take to falsely reject H&lt;sub&gt;0&lt;/sub&gt; or accept H&lt;sub&gt;0&lt;/sub&gt;. The solution to this question would be to report the [[p-value]] or [[Statistical significance|significance level]] α of the statistic. For example, if we say, the [[p-value]] of a test statistic result is 0.0596,then there is a probability of 5.96% that we falsely reject H&lt;sub&gt;0&lt;/sub&gt;. Or, if we say, the statistic is performed at level α, like 0.05, then we allow to falsely reject H&lt;sub&gt;0&lt;/sub&gt; at 5%. Usually, the significance level α will be set to 0.05, but there is no general rule.
+
+'''Vehicle speed measuring'''
+
+The speed limit of a freeway in the United States is 120 kilometers per hour. A device is set to measure the speed of passing vehicles. Suppose that the device will conduct three measurements of the speed a passing vehicle, recording as a random sample X&lt;sub&gt;1&lt;/sub&gt;, X&lt;sub&gt;2&lt;/sub&gt;, X&lt;sub&gt;3&lt;/sub&gt;. The traffic police will or will not fine the drivers depending on the average speed &lt;math&gt;\bar X&lt;/math&gt;. That is to say, the test statistic
+
+&lt;math&gt;T=\frac{X_1+X_2+X_3}{3}=\bar X&lt;/math&gt;
+
+In addition, we suppose that the measurements X&lt;sub&gt;1&lt;/sub&gt;, X&lt;sub&gt;2&lt;/sub&gt;, X&lt;sub&gt;3&lt;/sub&gt; are modeled as normal distribution N(μ,4). Then, should follow N(μ,4/3) and the parameter μ represents the true speed of passing vehicle. In this experiment, the null hypothesis H&lt;sub&gt;0&lt;/sub&gt; and the alternative hypothesis H&lt;sub&gt;1&lt;/sub&gt; should be
+
+H&lt;sub&gt;0&lt;/sub&gt;: μ=120     against      H&lt;sub&gt;1&lt;/sub&gt;: μ&lt;sub&gt;1&lt;/sub&gt;&gt;120.
+
+If we perform the statistic level at α=0.05, then a [[critical value]] c should be calculated to solve
+
+&lt;math&gt;P=(Z\geqslant\frac{c-120}{\frac{2}{\sqrt{3}}})=0.05&lt;/math&gt;
+
+According to change-of-units rule for the normal distribution. Referring to [[Z table|Z-table]], we can get
+
+&lt;math&gt;\frac{c-120}{\frac{2}{\sqrt{3}}}=1.645\Rightarrow c=121.9&lt;/math&gt;
+
+Here, the critical region. That is to say, if the recorded speed of a vehicle is greater than critical value 121.9, the driver will be fined. However, there are still 5% of the drivers are falsely fined since the recorded average speed is greater than 121.9 but the true speed does not pass 120, which we say, a type I error.
+
+The type II error corresponds to the case that the true speed of a vehicle is over 120 kilometers per hour but the driver is not fined. For example, if the true speed of a vehicle μ=125, the probability that the driver is not fined can be calculated as
+
+&lt;math&gt;P=(T&lt;121.9|\mu=125)=P(\frac{T-125}{\frac{2}{\sqrt{3}}}&lt;\frac{121.9-125}{\frac{2}{\sqrt{3}}})=\phi(-2.68)=0.0036&lt;/math&gt;
+
+which means, if the true speed of a vehicle is 125, the drive has the probability of 0.36% to avoid the fine when the statistic is performed at level 125 since the recorded average speed is lower than 121.9. If the true speed is closer to 121.9 than 125, then the probability of avoiding the fine will also be higher.
+
+The tradeoffs between type I error and type II error should also be considered. That is, in this case, if the traffic police do not want to falsely fine innocent drivers, the level α can be set to a smaller value, like 0.01. However, if that is the case, more drivers whose true speed is over 120 kilometers per hour, like 125, would be more likely to avoid the fine.
+
+== Etymology ==
+In 1928, [[Jerzy Neyman]] (1894–1981) and [[Egon Pearson]] (1895–1980), both eminent statisticians, discussed the problems associated with "deciding whether or not a particular sample may be judged as likely to have been randomly drawn from a certain population":&lt;ref&gt;{{Cite journal|last=NEYMAN|first=J.|last2=PEARSON|first2=E. S.|date=1928|journal=Biometrika|volume=20A|issue=1–2|pages=175–240|doi=10.1093/biomet/20a.1-2.175|issn=0006-3444|title=On the Use and Interpretation of Certain Test Criteria for Purposes of Statistical Inference Part I}}&lt;/ref&gt; and, as [[Florence Nightingale David]] remarked, "it is necessary to remember the adjective 'random' [in the term 'random sample'] should apply to the method of drawing the sample and not to the sample itself".&lt;ref&gt;{{Cite journal|last=C.I.K.F.|date=July 1951|title=Probability Theory for Statistical Methods. By F. N. David. [Pp. ix + 230. Cambridge University Press. 1949. Price 155.]|journal=Journal of the Staple Inn Actuarial Society|volume=10|issue=3|pages=243–244|doi=10.1017/s0020269x00004564|issn=0020-269X}}&lt;/ref&gt;
+
+They identified "two sources of error", namely:
+
+:(a) the error of rejecting a hypothesis that should have not been rejected, and
+
+:(b) the error of failing to reject a hypothesis that should have been rejected.
+
+In 1930, they elaborated on these two sources of error, remarking that:
+
+&lt;blockquote&gt;...in testing hypotheses two considerations must be kept in view,  we must be able to reduce the chance of rejecting a true hypothesis to as low a value as desired;  the test must be so devised that it will reject the hypothesis tested when it is likely to be false.&lt;/blockquote&gt;
+
+In 1933, they observed that these "problems are rarely presented in such a form that we can discriminate with certainty between the true and false hypothesis" . They also noted that, in deciding whether to fail to reject, or reject a particular hypothesis amongst a "set of alternative hypotheses", H&lt;sub&gt;1&lt;/sub&gt;, H&lt;sub&gt;2&lt;/sub&gt;..., it was easy to make an error:
+
+&lt;blockquote&gt;...[and] these errors will be of two kinds:&lt;br&gt;
+:(I) we reject H&lt;sub&gt;0&lt;/sub&gt; [i.e., the hypothesis to be tested] when it is true,&lt;ref&gt;Note that the subscript in the expression '''H&lt;sub&gt;0&lt;/sub&gt;''' is a zero (indicating ''null''), and is not an "O" (indicating ''original'').&lt;/ref&gt;&lt;br&gt;
+:(II) we fail to reject H&lt;sub&gt;0&lt;/sub&gt; when some alternative hypothesis H&lt;sub&gt;A&lt;/sub&gt; or H&lt;sub&gt;1&lt;/sub&gt; is true.  (There are various notations for the alternative).&lt;/blockquote&gt;
+
+In all of the papers co-written by Neyman and Pearson the expression H&lt;sub&gt;0&lt;/sub&gt; always signifies "the hypothesis to be tested".
+
+In the same paper they call these two sources of error, errors of type I and errors of type II respectively.&lt;ref&gt;{{Cite journal|last=Neyman|first=J.|last2=Pearson|first2=E. S.|date=1933-10-30|title=The testing of statistical hypotheses in relation to probabilities a priori|journal=Mathematical Proceedings of the Cambridge Philosophical Society|volume=29|issue=4|pages=492–510|doi=10.1017/s030500410001152x|issn=0305-0041|bibcode=1933PCPS...29..492N}}&lt;/ref&gt;
+
+==Related terms==
+{{see also|Coverage probability}}
+
+===Null hypothesis===
+{{main|Null hypothesis}}
+
+It is standard practice for statisticians to conduct [[Statistical hypothesis testing|tests]] in order to determine whether or not a "''speculative [[hypothesis]]''" concerning the observed phenomena of the world (or its inhabitants) can be supported. The results of such testing determine whether a particular set of results agrees reasonably (or does not agree) with the speculated hypothesis.
+
+On the basis that it is always assumed, by ''statistical convention'', that the speculated hypothesis is wrong, and the so-called "''null hypothesis''" that the observed phenomena simply occur by chance (and that, as a consequence, the speculated agent has no effect)&amp;nbsp;– the test will determine whether this hypothesis is right or wrong. This is why the hypothesis under test is often called the null hypothesis (most likely, coined by Fisher (1935, p.&amp;nbsp;19)), because it is ''this'' hypothesis that is to be either '''nullified''' or '''not nullified''' by the test. When the null hypothesis is nullified, it is possible to conclude that data support the "''alternative hypothesis''" (which is the original speculated one).
+
+The consistent application by statisticians of Neyman and Pearson's convention of representing "''the hypothesis to be tested''" (or "''the hypothesis to be nullified''") with the expression '''''H''&lt;sub&gt;0&lt;/sub&gt;''' has led to circumstances where many understand the term "''the null hypothesis''" as meaning "''the'' '''''nil''''' ''hypothesis''"&amp;nbsp;– a statement that the results in question have arisen through chance. This is not necessarily the case&amp;nbsp;– the key restriction, as per Fisher (1966), is that "''the null hypothesis must be exact, that is free from vagueness and ambiguity, because it must supply the basis of the 'problem of distribution,' of which the test of significance is the solution.''"&lt;ref&gt;Fisher, R.A. (1966). ''The design of experiments.'' 8th edition. Hafner:Edinburgh.&lt;/ref&gt; As a consequence of this, in experimental science the null hypothesis is generally a statement that a particular treatment has ''no effect''; in observational science, it is that there is ''no difference'' between the value of a particular measured variable, and that of an experimental prediction.
+
+===Statistical significance===
+
+If the probability of obtaining a result as extreme as the one obtained, supposing that the null hypothesis were true, is lower than a pre-specified cut-off probability (for example, 5%), then the result is said to be [[statistically significant]] and the null hypothesis is rejected.
+
+British statistician [[Ronald Fisher|Sir Ronald Aylmer Fisher]] (1890–1962) stressed that the "null hypothesis":
+
+{{quote|... is never proved or established, but is possibly disproved, in the course of experimentation. Every experiment may be said to exist only in order to give the facts a chance of disproving the null hypothesis.|Fisher, 1935, p.19}}
+
+==Application domains==
+
+'''Medicine'''
+
+In the practice of medicine, there is a significant difference between the applications of [[screening (medicine)|screening]] and [[Test (assessment)|testing]].
+
+'''Medical screening'''
+
+Screening involves relatively cheap tests that are given to large populations, none of whom manifest any clinical indication of disease (e.g., [[Pap test|Pap smears]]).
+
+Testing involves far more expensive, often invasive, procedures that are given only to those who manifest some clinical indication of disease, and are most often applied to confirm a suspected diagnosis.
+
+For example, most states in the USA require newborns to be screened for [[phenylketonuria]] and [[hypothyroidism]], among other [[congenital disorders]].
+
+Hypothesis: “The newborns have phenylketonuria and hypothyroidism”
+
+Null Hypothesis (H&lt;sub&gt;0&lt;/sub&gt;): “The newborns do not have phenylketonuria and hypothyroidism,”
+
+Type I error (false positive): The true fact is that the newborns do not have phenylketonuria and hypothyroidism but we consider they have the disorders according to the data.
+
+Type II error (false negative): The true fact is that the newborns have phenylketonuria and hypothyroidism but we consider they do not have the disorders according to the data.
+
+Although they display a high rate of false positives, the screening tests are considered valuable because they greatly increase the likelihood of detecting these disorders at a far earlier stage.
+
+The simple [[blood test]]s used to screen possible [[Blood donation|blood donors]] for [[HIV]] and [[hepatitis]] have a significant rate of false positives; however, physicians use much more expensive and far more precise tests to determine whether a person is actually infected with either of these viruses.
+
+Perhaps the most widely discussed false positives in medical screening come from the breast cancer screening procedure [[mammography]]. The US rate of false positive mammograms is up to 15%, the highest in world. One consequence of the high false positive rate in the US is that, in any 10-year period, half of the American women screened receive a false positive mammogram. False positive mammograms are costly, with over $100 million spent annually in the U.S. on follow-up testing and treatment. They also cause women unneeded anxiety. As a result of the high false positive rate in the US, as many as 90–95% of women who get a positive mammogram do not have the condition. The lowest rate in the world is in the Netherlands, 1%. The lowest rates are generally in Northern Europe where mammography films are read twice and a high threshold for additional testing is set (the high threshold decreases the power of the test).
+
+The ideal population screening test would be cheap, easy to administer, and produce zero false-negatives, if possible. Such tests usually produce more false-positives, which can subsequently be sorted out by more sophisticated (and expensive) testing.
+
+'''Medical testing'''
+
+False negatives and false positives are significant issues in [[Medical testing on animals|medical testing]].
+
+Hypothesis: “The patients have the specific disease.”
+
+Null hypothesis (H&lt;sub&gt;0&lt;/sub&gt;): “The patients do not have the specific disease.”
+
+Type I error (false positive): “The true fact is that the patients do not have a specific disease but the physicians judges the patients was ill according to the test reports.”
+
+False positives can also produce serious and counter-intuitive problems when the condition being searched for is rare, as in screening. If a test has a false positive rate of one in ten thousand, but only one in a million samples (or people) is a true positive, most of the positives detected by that test will be false. The probability that an observed positive result is a false positive may be calculated using [[Bayes' theorem]].
+
+Type II error (false negative): “The true fact is that the disease is actually present but the test reports provide a falsely reassuring message to patients and physicians that the disease is absent.”
+
+False negatives produce serious and counter-intuitive problems, especially when the condition being searched for is common. If a test with a false negative rate of only 10% is used to test a population with a true occurrence rate of 70%, many of the negatives detected by the test will be false.
+
+This sometimes leads to inappropriate or inadequate treatment of both the patient and their disease. A common example is relying on cardiac stress tests to detect coronary atherosclerosis, even though [[Cardiac stress test|cardiac stress]] tests are known to only detect limitations of [[Coronary arteries|coronary artery]] blood flow due to advanced [[stenosis]].
+
+'''Biometrics'''
+
+Biometric matching, such as for [[fingerprint recognition]], [[facial recognition system|facial recognition]] or [[iris recognition]], is susceptible to type I and type II errors.
+
+Hypothesis: “The input does not identify someone in the searched list of people”
+
+Null hypothesis: “The input does identify someone in the searched list of people”
+
+Type I error (false reject rate): “The true fact is that the person is someone in the searched list but the system concludes that the person is not according to the data.”
+
+Type II error (false match rate): “The true fact is that the person is not someone in the searched list but the system concludes that the person is someone whom we are looking for according to the data.”
+
+The probability of type I errors is called the "false reject rate" (FRR) or false non-match rate (FNMR), while the probability of type II errors is called the "false accept rate" (FAR) or false match rate (FMR).
+
+If the system is designed to rarely match suspects then the probability of type II errors can be called the "[[false alarm]] rate". On the other hand, if the system is used for validation (and acceptance is the norm) then the FAR is a measure of system security, while the FRR measures user inconvenience level.
+
+'''Security screening'''
+
+Main articles: [[explosive detection]] and [[metal detector]]
+
+False positives are routinely found every day in [[airport security screening]], which are ultimately [[visual inspection]] systems. The installed security alarms are intended to prevent weapons being brought onto aircraft; yet they are often set to such high sensitivity that they alarm many times a day for minor items, such as keys, belt buckles, loose change, mobile phones, and tacks in shoes.
+
+Here, the hypothesis is: “The item is a weapon.”
+
+The null hypothesis: “The item is not a weapon.”
+
+Type I error (false positive): “The true fact is that the item is not a weapon but the system still alarms.”
+
+Type II error (false negative) “The true fact is that the item is a weapon but the system keeps silent at this time.”
+
+The ratio of false positives (identifying an innocent traveler as a terrorist) to true positives (detecting a would-be terrorist) is, therefore, very high; and because almost every alarm is a false positive, the [[Positive Predictive Value|positive predictive value]] of these screening tests is very low.
+
+The relative cost of false results determines the likelihood that test creators allow these events to occur. As the cost of a false negative in this scenario is extremely high (not detecting a bomb being brought onto a plane could result in hundreds of deaths) whilst the cost of a false positive is relatively low (a reasonably simple further inspection) the most appropriate test is one with a low statistical specificity but high statistical sensitivity (one that allows a high rate of false positives in return for minimal false negatives).
+
+'''Computers'''
+
+The notions of false positives and false negatives have a wide currency in the realm of computers and computer applications, including [[computer security]], [[spam filtering]], [[Malware]], [[Optical character recognition]] and many others.
+
+For example, in the case of spam filtering the hypothesis here is that the message is a spam.
+
+Thus, null hypothesis: “The message is not a spam.”
+
+Type I error （false positive: “Spam filtering or spam blocking techniques wrongly classify a legitimate email message as spam and, as a result, interferes with its delivery.”
+
+While most anti-spam tactics can block or filter a high percentage of unwanted emails, doing so without creating significant false-positive results is a much more demanding task.
+
+Type II error (false negative): “Spam email is not detected as spam, but is classified as non-spam.” A low number of false negatives is an indicator of the efficiency of spam filtering.
+
+==See also==
+{{Portal|Mathematics}}
+{{div col}}
+* [[Binary classification]]
+* [[Detection theory]]
+* [[Egon Pearson]]
+* [[Ethics in mathematics]]
+* [[False positive paradox]]
+* [[Family-wise error rate]]
+* [[Information retrieval evaluation|Information retrieval performance measures]]
+* [[Neyman–Pearson lemma]]
+* [[Null hypothesis]]
+* [[Bayesian inference#Probability of a hypothesis|Probability of a hypothesis]] for Bayesian inference
+* [[Precision and recall]]
+* [[Prosecutor's fallacy]]
+* [[Prozone phenomenon]]
+* [[Receiver operating characteristic]]
+* [[Sensitivity and specificity]]
+* [[Statisticians' and engineers' cross-reference of statistical terms]]
+* [[Testing hypotheses suggested by the data]]
+* [[Type III error]]
+{{div col end}}
+
+==References==
+{{Reflist|2}}
+
+== Bibliography ==
+{{div col}}
+* Betz, M.A. &amp; [[K. Ruben Gabriel|Gabriel, K.R.]], "Type IV Errors and Analysis of Simple Effects", ''Journal of Educational Statistics'', Vol.3, No.2, (Summer 1978), pp.&amp;nbsp;121–144.
+* David, F.N., "A Power Function for Tests of Randomness in a Sequence of Alternatives", ''Biometrika'', Vol.34, Nos.3/4, (December 1947), pp.&amp;nbsp;335–339.
+* Fisher, R.A., ''The Design of Experiments'', Oliver &amp; Boyd (Edinburgh), 1935.
+* Gambrill, W., "False Positives on Newborns' Disease Tests Worry Parents", ''Health Day'', (5 June 2006). [http://news.healingwell.com/index.php?p=news1&amp;id=533064]
+* Kaiser, H.F., "Directional Statistical Decisions", ''Psychological Review'', Vol.67, No.3, (May 1960), pp.&amp;nbsp;160–167.
+* Kimball, A.W., "Errors of the Third Kind in Statistical Consulting", ''Journal of the American Statistical Association'', Vol.52, No.278, (June 1957), pp.&amp;nbsp;133–142.
+* Lubin, A., "The Interpretation of Significant Interaction", ''Educational and Psychological Measurement'', Vol.21, No.4, (Winter 1961), pp.&amp;nbsp;807–817.
+* Marascuilo, L.A. &amp; Levin, J.R., "Appropriate Post Hoc Comparisons for Interaction and nested Hypotheses in Analysis of Variance Designs: The Elimination of Type-IV Errors", ''American Educational Research Journal'', Vol.7., No.3, (May 1970), pp.&amp;nbsp;397–421.
+* Mitroff, I.I. &amp; Featheringham, T.R., "On Systemic Problem Solving and the Error of the Third Kind", ''Behavioral Science'', Vol.19, No.6, (November 1974), pp.&amp;nbsp;383–393.
+* Mosteller, F., "A '''''k'''''-Sample Slippage Test for an Extreme Population", ''The Annals of Mathematical Statistics'', Vol.19, No.1, (March 1948), pp.&amp;nbsp;58–65.
+* Moulton, R.T., “Network Security”, ''Datamation'', Vol.29, No.7, (July 1983), pp.&amp;nbsp;121–127.
+* Raiffa, H., ''Decision Analysis: Introductory Lectures on Choices Under Uncertainty'', Addison–Wesley, (Reading), 1968.
+{{div col end}}
+
+==External links==
+*[https://web.archive.org/web/20060909224540/http://www.publichealth.pitt.edu/supercourse/SupercoursePPT/18011-19001/18951.ppt Bias and Confounding]&amp;nbsp;– presentation by Nigel Paneth, Graduate School of Public Health, University of Pittsburgh
+
+{{Statistics}}
+
+{{Use dmy dates|date=October 2012}}
+
+{{DEFAULTSORT:Type I And Type Ii Errors}}
+[[Category:Design of experiments]]
+[[Category:Error]]
+[[Category:Statistical hypothesis testing]]
+[[Category:Spam filtering]]</text>
+      <sha1>n6g2xlh8dae5ce9m6hbqimoq7smjqgc</sha1>
+    </revision>
+  </page>
+</mediawiki>

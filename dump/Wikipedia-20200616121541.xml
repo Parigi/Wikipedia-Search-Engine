@@ -1,0 +1,119 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.10/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.10/ http://www.mediawiki.org/xml/export-0.10.xsd" version="0.10" xml:lang="en">
+  <siteinfo>
+    <sitename>Wikipedia</sitename>
+    <dbname>enwiki</dbname>
+    <base>https://en.wikipedia.org/wiki/Main_Page</base>
+    <generator>MediaWiki 1.35.0-wmf.36</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Media</namespace>
+      <namespace key="-1" case="first-letter">Special</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Talk</namespace>
+      <namespace key="2" case="first-letter">User</namespace>
+      <namespace key="3" case="first-letter">User talk</namespace>
+      <namespace key="4" case="first-letter">Wikipedia</namespace>
+      <namespace key="5" case="first-letter">Wikipedia talk</namespace>
+      <namespace key="6" case="first-letter">File</namespace>
+      <namespace key="7" case="first-letter">File talk</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki talk</namespace>
+      <namespace key="10" case="first-letter">Template</namespace>
+      <namespace key="11" case="first-letter">Template talk</namespace>
+      <namespace key="12" case="first-letter">Help</namespace>
+      <namespace key="13" case="first-letter">Help talk</namespace>
+      <namespace key="14" case="first-letter">Category</namespace>
+      <namespace key="15" case="first-letter">Category talk</namespace>
+      <namespace key="100" case="first-letter">Portal</namespace>
+      <namespace key="101" case="first-letter">Portal talk</namespace>
+      <namespace key="108" case="first-letter">Book</namespace>
+      <namespace key="109" case="first-letter">Book talk</namespace>
+      <namespace key="118" case="first-letter">Draft</namespace>
+      <namespace key="119" case="first-letter">Draft talk</namespace>
+      <namespace key="446" case="first-letter">Education Program</namespace>
+      <namespace key="447" case="first-letter">Education Program talk</namespace>
+      <namespace key="710" case="first-letter">TimedText</namespace>
+      <namespace key="711" case="first-letter">TimedText talk</namespace>
+      <namespace key="828" case="first-letter">Module</namespace>
+      <namespace key="829" case="first-letter">Module talk</namespace>
+      <namespace key="2300" case="first-letter">Gadget</namespace>
+      <namespace key="2301" case="first-letter">Gadget talk</namespace>
+      <namespace key="2302" case="case-sensitive">Gadget definition</namespace>
+      <namespace key="2303" case="case-sensitive">Gadget definition talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Page 6</title>
+    <ns>0</ns>
+    <id>2562498</id>
+    <revision>
+      <id>960262881</id>
+      <parentid>959803751</parentid>
+      <timestamp>2020-06-02T00:39:48Z</timestamp>
+      <contributor>
+        <username>JJMC89 bot III</username>
+        <id>35936988</id>
+      </contributor>
+      <minor/>
+      <comment>Moving [[:Category:Defunct British computer magazines]] to [[:Category:Defunct computer magazines published in the United Kingdom]] per [[Wikipedia:Categories for discussion/Speedy]]</comment>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="4922" xml:space="preserve">{{short description|Defunct British computer magazine}}
+{{about|a computer magazine|the gossip section of the New York Post|Page Six}}
+{{Use British English|date=December 2018}}
+{{Use dmy dates|date=December 2018}}
+{{Infobox magazine
+|image_file=Page 6 magazine.jpg
+|image_page=1
+|image_caption=May/June 1987 issue
+|founded=1982
+|finaldate=1998
+|editor=Les Ellingham
+|language=[[English language|English]]
+|based=[[Stafford]]
+|frequency=Bi-monthly
+|category=[[Atari 8-bit family|Atari 8-bit]]&lt;br&gt;[[Atari ST]]
+|publisher=Page 6 Publishing
+|issn=0952-4967
+}}
+'''''Page 6''''' (subtitled ''Atari Users Magazine'' and later known as '''''Page 6 Atari User''''', then '''''New Atari User''''') was an [[independent business|independent]] [[United Kingdom|British]] [[publication]] aimed at users of [[Atari]] [[home computer]]s. It was published between 1982 and 1998. The magazine supported both the [[Atari 8-bit family]] and later the [[Atari ST]] models.
+
+==History==
+The magazine had its origins in the newsletter of the [[Birmingham]] User's Group, an independent Atari club based in [[England]]. Les Ellingham was appointed to be the editor of the newsletter, but decided to produce a magazine with broader appeal instead. He remained editor of ''Page 6'' throughout its entire run of 85 issues. Although [[Subscription business model|subscription]]-only for most of its life, it was available through [[newsstand|newsagents]] during the late 1980s and early 1990s.
+
+When ''[[Europress|Database]]'' ceased publication of the original ''[[Atari User]]'' magazine in 1988, ''Page 6'' bought the rights (and subscriber list),&lt;ref name='p6_35' /&gt; and renamed their magazine, firstly to ''Page 6 Atari User'' in February 1989&lt;ref name='p6_35' /&gt;&lt;ref name='p6_36' /&gt; and then to ''New Atari User'' in June of the same year.&lt;ref name='p6_38' /&gt; The latter was simply ''Page 6'' under a different (and more newsagent-friendly) name,&lt;ref name='p6_38' /&gt; and had next to no continuity with the original ''Atari User''. The editor Les Ellingham had declined the offer to edit the original ''Atari User'' when approached by Database Publications in 1985.
+
+==The title==
+The magazine was named after the area of memory in 8-bit Atari computers covering locations 1536–1791 (or $600–$6FF, where the "$" prefix indicates [[hexadecimal]] notation). Memory is divided into "pages" of 256 [[byte]]s (the first being page 0), making locations 1536 (256×6) to 1791 be "page 6." Page 6 memory is neither used by the [[operating system]] nor by [[Atari BASIC]] [[computer program|programs]] and so can be used to store the short [[machine language|machine code]] routines without them being overwritten.
+
+==References==
+{{Reflist|refs=
+
+&lt;ref name='p6_35'&gt;{{cite journal|url=https://archive.org/stream/Page_6_Issue_35_1988-12_ABACUS_GB#page/n3/mode/2up|title=Stop Press|page=5|quote=Literally in the last couple of days before this issue went to press PAGE 6 completed discussions with Database Publications which resulted in an agreement for PAGE 6 to take over the Atari User title [..] Look out for the new PAGE 6 ATARI USER on sale 19th JANUARY|issue=35|date=December 1988|journal=Page 6}}&lt;/ref&gt;
+
+&lt;ref name='p6_36'&gt;{{cite journal|url=https://archive.org/stream/Page_6_Issue_36_1989-02_ABACUS_GB#page/n3/mode/2up|title=Editorial: Ringing the Changes?|page=4|quote=This issue I have to welcome a lot of new readers to PAGE 6 ATARI USER [..] The major change that you will notice is a change in the name of the magazine|issue=36|date=February 1989|journal=Page 6 Atari User}}&lt;/ref&gt;
+
+&lt;ref name='p6_38'&gt;{{cite journal|url=https://archive.org/stream/New_Atari_User_Issue_038_1989-06_Page_6_Publishing#page/n3/mode/2up|title=For Better or Worse|author=Les Ellingham|issue=38|date=June 1989|journal=New Atari User|quote=So here we have the first issue of NEW ATARI USER or rather the 38th issue of PAGE 6! [..] those who have been with us a long while can still call us PAGE 6 [..] nothing's changed except the name on the front cover.}}&lt;/ref&gt;}}
+
+==External links==
+* [http://www.page6.org/ Officially authorised ''Page 6''/''New Atari User'' website]
+* [http://www.computinghistory.org.uk/cgi-bin/sitewise.pl?act=sect&amp;pt=1094_371&amp;s=440 The Page 6 Magazine Library] at the [[Centre for Computing History]]
+
+[[Category:1982 establishments in the United Kingdom]]
+[[Category:1998 disestablishments in the United Kingdom]]
+[[Category:Atari 8-bit computer magazines]]
+[[Category:Atari ST magazines]]
+[[Category:Bi-monthly magazines published in the United Kingdom]]
+[[Category:Video game magazines published in the United Kingdom]]
+[[Category:Defunct computer magazines published in the United Kingdom]]
+[[Category:Home computer magazines]]
+[[Category:Magazines established in 1982]]
+[[Category:Magazines disestablished in 1998]]
+[[Category:Mass media in Birmingham, West Midlands]]
+[[Category:Mass media in Staffordshire]]
+
+{{UK-compu-mag-stub}}</text>
+      <sha1>5jyhgr9t6kqsn17mac8gnj1wxn7ppf6</sha1>
+    </revision>
+  </page>
+</mediawiki>

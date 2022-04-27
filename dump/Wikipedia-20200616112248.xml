@@ -1,0 +1,129 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.10/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.10/ http://www.mediawiki.org/xml/export-0.10.xsd" version="0.10" xml:lang="en">
+  <siteinfo>
+    <sitename>Wikipedia</sitename>
+    <dbname>enwiki</dbname>
+    <base>https://en.wikipedia.org/wiki/Main_Page</base>
+    <generator>MediaWiki 1.35.0-wmf.36</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Media</namespace>
+      <namespace key="-1" case="first-letter">Special</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Talk</namespace>
+      <namespace key="2" case="first-letter">User</namespace>
+      <namespace key="3" case="first-letter">User talk</namespace>
+      <namespace key="4" case="first-letter">Wikipedia</namespace>
+      <namespace key="5" case="first-letter">Wikipedia talk</namespace>
+      <namespace key="6" case="first-letter">File</namespace>
+      <namespace key="7" case="first-letter">File talk</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki talk</namespace>
+      <namespace key="10" case="first-letter">Template</namespace>
+      <namespace key="11" case="first-letter">Template talk</namespace>
+      <namespace key="12" case="first-letter">Help</namespace>
+      <namespace key="13" case="first-letter">Help talk</namespace>
+      <namespace key="14" case="first-letter">Category</namespace>
+      <namespace key="15" case="first-letter">Category talk</namespace>
+      <namespace key="100" case="first-letter">Portal</namespace>
+      <namespace key="101" case="first-letter">Portal talk</namespace>
+      <namespace key="108" case="first-letter">Book</namespace>
+      <namespace key="109" case="first-letter">Book talk</namespace>
+      <namespace key="118" case="first-letter">Draft</namespace>
+      <namespace key="119" case="first-letter">Draft talk</namespace>
+      <namespace key="446" case="first-letter">Education Program</namespace>
+      <namespace key="447" case="first-letter">Education Program talk</namespace>
+      <namespace key="710" case="first-letter">TimedText</namespace>
+      <namespace key="711" case="first-letter">TimedText talk</namespace>
+      <namespace key="828" case="first-letter">Module</namespace>
+      <namespace key="829" case="first-letter">Module talk</namespace>
+      <namespace key="2300" case="first-letter">Gadget</namespace>
+      <namespace key="2301" case="first-letter">Gadget talk</namespace>
+      <namespace key="2302" case="case-sensitive">Gadget definition</namespace>
+      <namespace key="2303" case="case-sensitive">Gadget definition talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>A-DNA</title>
+    <ns>0</ns>
+    <id>9329150</id>
+    <revision>
+      <id>958739267</id>
+      <parentid>958678964</parentid>
+      <timestamp>2020-05-25T13:25:45Z</timestamp>
+      <contributor>
+        <username>Citation bot</username>
+        <id>7903804</id>
+      </contributor>
+      <comment>Add: pmc. | You can [[WP:UCB|use this bot]] yourself. [[WP:DBUG|Report bugs here]]. | Activated by Headbomb | via #UCB_webform</comment>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="9032" xml:space="preserve">[[File:Adna3.ogv|right|200px|thumb|alt="The A-DNA structure"|The A-DNA structure.]]
+
+'''A-DNA''' is one of the possible double helical structures which [[DNA]] can adopt. A-DNA is thought to be one of three biologically active double helical structures along with [[B-DNA]] and [[Z-DNA]]. It is a right-handed double helix fairly similar to the more common B-DNA form, but with a shorter, more compact helical structure whose [[base pair]]s are not perpendicular to the helix-axis as in B-DNA. It was discovered by [[Rosalind Franklin]], who also named the A and B forms. She showed that DNA is driven into the A form when under dehydrating conditions. Such conditions are commonly used to form crystals, and many DNA crystal structures are in the A form.&lt;ref&gt;{{Cite journal|last=Rosalind|first=Franklin|date=1953|title=The Structure of Sodium Thymonucleate Fibres. I. The Influence of Water Content|url=http://journals.iucr.org/q/issues/1953/08-09/00/a00979/a00979.pdf|journal=Acta Crystallographica|volume=6|issue=8|pages=673–677|via=|doi=10.1107/s0365110x53001939}}&lt;/ref&gt; The same helical conformation occurs in double-stranded RNAs, and in DNA-RNA hybrid double helices.
+
+==Structure==
+A-DNA is fairly similar to B-DNA given that it is a right-handed double helix with major and minor grooves.  However, as shown in the comparison table below, there is a slight increase in the number of base pairs (bp) per turn (resulting in a smaller twist angle), and smaller rise per base pair (making A-DNA 20-25% shorter than B-DNA). The major groove of A-DNA is deep and narrow, while the minor groove is wide and shallow. A-DNA is broader and apparently more compressed along its axis than B-DNA.&lt;ref&gt;{{Cite book|last=Dickerson|first=Richard E.|date=1992|title=DNA Structure From A to Z|url=https://archive.org/details/dnastructures0000unse/page/67|journal=Methods in Enzymology|volume=211|pages=[https://archive.org/details/dnastructures0000unse/page/67 67–111]|via=Elsevier Science Direct|doi=10.1016/0076-6879(92)11007-6|pmid=1406328|isbn=9780121821128}}&lt;/ref&gt;
+
+==Comparison geometries of the most common DNA forms==
+[[Image:Dnaconformations.png|right|thumb|Side and top view of A-, B-, and Z-DNA conformations.]]
+[[Image:B&amp;Z&amp;A DNA formula.jpg|thumb|right|250px|Yellow dots represent the location of the helical axis of A-, B-, and Z-DNA with respect to a Guanine-Cytosine base pair.]]
+
+{| class="wikitable"
+|-
+!Geometry attribute:
+!'''A-form'''
+!'''B-form'''
+!'''Z-form'''
+|-
+|Helix sense ||align="center"| right-handed ||align="center"| right-handed ||align="center"| left-handed
+|-
+|Repeating unit ||align="right"| 1 bp||align="right"| 1 bp||align="right"| 2 bp
+|-
+|Rotation/bp ||align="right"| 32.7° ||align="right"| 34.3° ||align="right"| 60°/2
+|-
+|Mean bp/turn ||align="right"| 11 ||align="right"| 10 ||align="right"| 12
+|-
+|Inclination of bp to axis ||align="right"| +19° ||align="right"| −1.2° ||align="right"| −9°
+|-
+|Rise/bp along axis ||align="right"| 2.6 Å (0.26&amp;nbsp;nm)||align="right"| 3.4 Å (0.34&amp;nbsp;nm)||align="right"| 3.7 Å (0.37&amp;nbsp;nm)
+|-
+|Rise/turn of helix ||align="right"| 28.6 Å (2.86&amp;nbsp;nm)||align="right"| 35.7 Å (3.57&amp;nbsp;nm)||align="right"| 45.6 Å (4.56&amp;nbsp;nm)
+|-
+|Mean propeller twist ||align="right"| +18° ||align="right"| +16° ||align="right"| 0°
+|-
+|Glycosyl angle ||align="center"| anti ||align="center"| anti ||align="center"| pyrimidine: anti,&lt;br&gt; purine: syn 
+|-
+|Nucleotide phosphate to phosphate distance ||align="center"| 5.9 Å || align="center"| 7.0 Å || align="center" | C: 5.7 Å, &lt;br&gt;G: 6.1 Å
+|-
+|Sugar pucker ||align="center"| C3'-endo ||align="center"| C2'-endo ||align="center"| C: C2'-endo,&lt;br&gt;G: C3'-endo
+|-
+|Diameter ||align="right"| 23 Å (2.3&amp;nbsp;nm)||align="right"| 20 Å (2.0&amp;nbsp;nm)||align="right"| 18 Å (1.8&amp;nbsp;nm)
+|}
+
+==Biological function==
+Dehydration of DNA drives it into the A form, and this apparently protects DNA under conditions such as the extreme desiccation of bacteria.&lt;ref&gt;{{cite journal  |vauthors=Whelan DR, etal |title=Detection of an en masse and reversible B- to A-DNA conformational transition in prokaryotes in response to desiccation |journal=J R Soc Interface |volume=11 |issue=97 |pages=20140454 |year=2014 |pmid=24898023 |doi=10.1098/rsif.2014.0454 |pmc=4208382}}&lt;/ref&gt; Protein binding can also strip solvent off of DNA and convert it to the A form, as revealed by the structure of several hyperthermophilic archaeal viruses, including rod-shaped [[rudivirus]] SIRV2 &lt;ref&gt;{{cite journal  |vauthors=Di Maio F, Egelman EH, etal |title=A virus that infects a hyperthermophile encapsidates A-form DNA |journal=Science |volume=348 |issue=6237 |pages=914–917 |year=2015 |pmid=25999507 |doi=10.1126/science.aaa4181|pmc=5512286|bibcode=2015Sci...348..914D }}&lt;/ref&gt;, enveloped filamentous [[Lipothrixviridae|lipothrixviruses]] AFV1 &lt;ref&gt;{{cite journal |last1=Kasson |first1=P |last2=DiMaio |first2=F |last3=Yu |first3=X |last4=Lucas-Staat |first4=S |last5=Krupovic |first5=M |last6=Schouten |first6=S |last7=Prangishvili |first7=D |last8=Egelman |first8=EH |title=Model for a novel membrane envelope in a filamentous hyperthermophilic virus. |journal=eLife |date=2017 |volume=6 |pages=e26268 |doi=10.7554/eLife.26268 |pmid=28639939|pmc=5517147 }}&lt;/ref&gt; and SFV1 &lt;ref&gt;{{cite journal |last1=Liu |first1=Y |last2=Osinski |first2=T |last3=Wang |first3=F |last4=Krupovic |first4=M |last5=Schouten |first5=S |last6=Kasson |first6=P |last7=Prangishvili |first7=D |last8=Egelman |first8=EH |title=Structural conservation in a membrane-enveloped filamentous virus infecting a hyperthermophilic acidophile. |journal=Nature Communications |date=2018 |volume=9 |issue=1 |pages=3360 |doi=10.1038/s41467-018-05684-6 |pmid=30135568|pmc=6105669 |bibcode=2018NatCo...9.3360L }}&lt;/ref&gt;, [[Tristromaviridae|tristromavirus]] PFV2 &lt;ref&gt;{{cite journal |last1=Wang |first1=F |last2=Baquero |first2=DP |last3=Su |first3=Z |last4=Osinski |first4=T |last5=Prangishvili |first5=D |last6=Egelman |first6=EH |last7=Krupovic |first7=M |title=Structure of a filamentous virus uncovers familial ties within the archaeal virosphere. |journal=Virus Evolution |date=2020 |volume=6 |issue=1 |pages=veaa023 |doi=10.1093/ve/veaa023 |pmid=32368353|pmc=7189273 }}&lt;/ref&gt; as well as icosahedral [[Portogloboviridae|portoglobovirus]] SPV1 &lt;ref&gt;{{cite journal |last1=Wang |first1=F |last2=Liu |first2=Y |last3=Su |first3=Z |last4=Osinski |first4=T |last5=de Oliveira |first5=GAP |last6=Conway |first6=JF |last7=Schouten |first7=S |last8=Krupovic |first8=M |last9=Prangishvili |first9=D |last10=Egelman |first10=EH |title=A packing for A-form DNA in an icosahedral virus. |journal=Proceedings of the National Academy of Sciences of the United States of America |date=2019 |volume=116 |issue=45 |pages=22591–22597 |doi=10.1073/pnas.1908242116 |pmid=31636205|pmc=6842630 }}&lt;/ref&gt;. A-form DNA is believed to be one of the adaptations of hyperthermophilic archaeal viruses to harsh environmental conditions in which these viruses thrive.
+
+It has been proposed that the motors that package double-stranded DNA in bacteriophages exploit the fact that A-DNA is shorter than B-DNA, and that conformational changes in the DNA itself are the source of the large forces generated by these motors.&lt;ref&gt;{{cite journal |author=Harvey, SC |title=The scrunchworm hypothesis: Transitions between A-DNA and B-DNA provide the driving force for genome packaging in double-stranded DNA bacteriophages |journal=Journal of Structural Biology |volume=189 |issue=1 |pages=1–8 |year=2015 |pmid=25486612 |doi=10.1016/j.jsb.2014.11.012 |pmc=4357361}}&lt;/ref&gt; Experimental evidence for A-DNA as an intermediate in viral biomotor packing comes from double dye [[Förster resonance energy transfer]] measurements showing that B-DNA is shortened by 24% in a stalled ("crunched") A-form intermediate.&lt;ref&gt;{{cite journal |author=Oram, M |title=Modulation of the packaging reaction of bacteriophage t4 terminase by DNA structure |journal=J Mol Biol |volume=381 |issue=1 |pages=61–72 |year=2008 |doi=10.1016/j.jmb.2008.05.074|pmid=18586272 |pmc=2528301 }}&lt;/ref&gt;&lt;ref&gt;{{cite journal |author=Ray, K |title=DNA crunching by a viral packaging motor: Compression of a procapsid-portal stalled Y-DNA substrate |journal=Virology |volume=398 |issue=2 |pages=224–232 |year=2010 |doi=10.1016/j.virol.2009.11.047|pmid=20060554 |pmc=2824061 }}&lt;/ref&gt; In this model, ATP hydrolysis is used to drive protein conformational changes that alternatively dehydrate and rehydrate the DNA, and the DNA shortening/lengthening cycle is coupled to a protein-DNA grip/release cycle to generate the forward motion that moves DNA into the capsid.
+
+==See also==
+*[[Nucleic acid tertiary structure]]
+*[[DNA]]
+*[[B-DNA]]
+*[[Z-DNA]]
+*[[C-DNA]]
+
+==References==
+{{reflist}}
+
+==External links==
+* [https://web.archive.org/web/20061219121357/http://www.tulane.edu/~biochem/nolan/lectures/rna/bzcomp2.htm Cornell Comparison of DNA structures]
+* [http://
+
+{{Nucleic acids}}
+
+[[Category:DNA]]
+[[Category:Articles containing video clips]]</text>
+      <sha1>ogcm6sslkfcjetqs8hp6yrrzccf35dg</sha1>
+    </revision>
+  </page>
+</mediawiki>

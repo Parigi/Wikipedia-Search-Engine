@@ -1,0 +1,745 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.10/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.10/ http://www.mediawiki.org/xml/export-0.10.xsd" version="0.10" xml:lang="en">
+  <siteinfo>
+    <sitename>Wikipedia</sitename>
+    <dbname>enwiki</dbname>
+    <base>https://en.wikipedia.org/wiki/Main_Page</base>
+    <generator>MediaWiki 1.35.0-wmf.36</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Media</namespace>
+      <namespace key="-1" case="first-letter">Special</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Talk</namespace>
+      <namespace key="2" case="first-letter">User</namespace>
+      <namespace key="3" case="first-letter">User talk</namespace>
+      <namespace key="4" case="first-letter">Wikipedia</namespace>
+      <namespace key="5" case="first-letter">Wikipedia talk</namespace>
+      <namespace key="6" case="first-letter">File</namespace>
+      <namespace key="7" case="first-letter">File talk</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki talk</namespace>
+      <namespace key="10" case="first-letter">Template</namespace>
+      <namespace key="11" case="first-letter">Template talk</namespace>
+      <namespace key="12" case="first-letter">Help</namespace>
+      <namespace key="13" case="first-letter">Help talk</namespace>
+      <namespace key="14" case="first-letter">Category</namespace>
+      <namespace key="15" case="first-letter">Category talk</namespace>
+      <namespace key="100" case="first-letter">Portal</namespace>
+      <namespace key="101" case="first-letter">Portal talk</namespace>
+      <namespace key="108" case="first-letter">Book</namespace>
+      <namespace key="109" case="first-letter">Book talk</namespace>
+      <namespace key="118" case="first-letter">Draft</namespace>
+      <namespace key="119" case="first-letter">Draft talk</namespace>
+      <namespace key="446" case="first-letter">Education Program</namespace>
+      <namespace key="447" case="first-letter">Education Program talk</namespace>
+      <namespace key="710" case="first-letter">TimedText</namespace>
+      <namespace key="711" case="first-letter">TimedText talk</namespace>
+      <namespace key="828" case="first-letter">Module</namespace>
+      <namespace key="829" case="first-letter">Module talk</namespace>
+      <namespace key="2300" case="first-letter">Gadget</namespace>
+      <namespace key="2301" case="first-letter">Gadget talk</namespace>
+      <namespace key="2302" case="case-sensitive">Gadget definition</namespace>
+      <namespace key="2303" case="case-sensitive">Gadget definition talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Genetic code</title>
+    <ns>0</ns>
+    <id>12385</id>
+    <revision>
+      <id>962580071</id>
+      <parentid>961164124</parentid>
+      <timestamp>2020-06-14T21:53:33Z</timestamp>
+      <contributor>
+        <username>KiL92</username>
+        <id>32392775</id>
+      </contributor>
+      <minor/>
+      <comment>/* Expanded genetic codes (synthetic biology) */</comment>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="79445" xml:space="preserve">{{short description|Rules by which information encoded within genetic material is translated into proteins.}}
+{{redirect|Codon|the plant genus|Codon (genus)}}
+[[File:RNA-codons.png|thumb|A series of codons in part of a [[messenger RNA]] (mRNA) molecule. Each codon consists of three [[nucleotide]]s, usually corresponding to a single [[amino acid]]. The nucleotides are abbreviated with the letters A, U, G and C. This is mRNA, which uses U ([[uracil]]). DNA uses T ([[thymine]]) instead. This mRNA molecule will instruct a [[ribosome]] to synthesize a protein according to this code.]]
+
+The '''genetic code''' is the set of rules used by living [[cell (biology)|cells]] to [[Translation (biology)|translate]] information encoded within genetic material ([[DNA]] or [[Messenger RNA|mRNA]] sequences of nucleotide triplets, or '''codons''') into [[protein]]s. Translation is accomplished by the [[ribosome]], which links [[amino acid]]s in an order specified by [[messenger RNA]] (mRNA), using [[transfer RNA]] (tRNA) molecules to carry amino acids and to read the mRNA three [[nucleotide]]s at a time. The genetic code is highly similar among all organisms and can be expressed in a simple table with 64 entries.&lt;ref&gt;{{cite journal | title = A new integrated symmetrical table for genetic codes | journal = BioSystems | date = 2017 | first = Jian-Jun | last = Shu | volume = 151 | pages = 21–26 | doi = 10.1016/j.biosystems.2016.11.004 | pmid = 27887904 | arxiv = 1703.03787 | bibcode = 2017arXiv170303787S }}&lt;/ref&gt;
+
+The code defines how codons specify which amino acid will be added next during [[protein synthesis]]. With some exceptions,&lt;ref name="pmid19131629"&gt;{{cite journal | vauthors = Turanov AA, Lobanov AV, Fomenko DE, Morrison HG, Sogin ML, Klobutcher LA, Hatfield DL, Gladyshev VN | title = Genetic code supports targeted insertion of two amino acids by one codon | journal = Science | volume = 323 | issue = 5911 | pages = 259–61 | date = Jan 2009 | pmid = 19131629 | pmc = 3088105 | doi = 10.1126/science.1164748 }}&lt;/ref&gt; a three-nucleotide codon in a nucleic acid sequence specifies a single amino acid. The vast majority of [[gene]]s are encoded with a single scheme (see the [[#RNA codon table|RNA codon table]]). That scheme is often referred to as the canonical or standard genetic code, or simply ''the'' genetic code, though [[Genetic code#Variations|variant codes]] (such as in human [[mitochondrion|mitochondria]]) exist.
+
+While the "genetic code" is what determines a protein's amino acid sequence, other genomic regions determine [[Regulation of gene expression|when and where these proteins are produced]] according to various "gene regulatory codes".
+
+== History ==
+{{Anchor|Discovery}} 
+&lt;!--Linked from [[Genetics]]--&gt;
+[[File:GeneticCode21-version-2.svg|thumb|upright=1.5|The genetic code]]
+
+Efforts to understand how proteins are encoded began after DNA's structure was discovered in 1953. [[George Gamow]] postulated that sets of three bases must be employed to encode the 20 standard amino acids used by living cells to build proteins, which would allow a maximum of {{nowrap|4{{smallsup|3}} &amp;#61;}} 64 amino acids.&lt;ref name="isbn0-465-09138-5"&gt;{{cite book|first=Francis |last=Crick|title=What Mad Pursuit: A Personal View of Scientific Discovery|chapter-url={{google books |plainurl=y |id=awoXBQAAQBAJ|page=89}}|date=10 July 1990|publisher=Basic Books|pages=89–101 |isbn=978-0-465-09138-6 |chapter=Chapter 8: The genetic code}}&lt;/ref&gt;
+
+=== Codons ===
+The [[Crick, Brenner et al. experiment|Crick, Brenner, Barnett and Watts-Tobin experiment]] first demonstrated that codons consist of three DNA bases. [[Marshall Nirenberg]] and [[Heinrich J. Matthaei]] were the first to reveal the nature of a codon in 1961.
+
+They used a [[cell-free system]] to [[translation (biology)|translate]] a poly-[[uracil]] RNA sequence (i.e., UUUUU...) and discovered that the [[polypeptide]] that they had synthesized consisted of only the amino acid [[phenylalanine]].&lt;ref name="pmid14479932"&gt;{{cite journal | vauthors = Nirenberg MW, Matthaei JH | title = The dependence of cell-free protein synthesis in E. coli upon naturally occurring or synthetic polyribonucleotides | journal = Proceedings of the National Academy of Sciences of the United States of America | volume = 47 | issue = 10 | pages = 1588–602 | date = Oct 1961 | pmid = 14479932 | pmc = 223178 | doi = 10.1073/pnas.47.10.1588 | bibcode = 1961PNAS...47.1588N }}&lt;/ref&gt; They thereby deduced that the codon UUU specified the amino acid phenylalanine.
+
+This was followed by experiments in [[Severo Ochoa]]'s laboratory that demonstrated that the poly-[[adenine]] RNA sequence (AAAAA...) coded for the polypeptide poly-[[lysine]]&lt;ref name="pmid13946552"&gt;{{cite journal | vauthors = Gardner RS, Wahba AJ, Basilio C, Miller RS, Lengyel P, Speyer JF | title = Synthetic polynucleotides and the amino acid code. VII | journal = Proceedings of the National Academy of Sciences of the United States of America | volume = 48 | issue = 12 | pages = 2087–94 | date = Dec 1962 | pmid = 13946552 | pmc = 221128 | doi = 10.1073/pnas.48.12.2087 | bibcode = 1962PNAS...48.2087G }}&lt;/ref&gt; and that the poly-[[cytosine]] RNA sequence (CCCCC...) coded for the polypeptide poly-[[proline]].&lt;ref name="pmid13998282"&gt;{{cite journal | vauthors = Wahba AJ, Gardner RS, Basilio C, Miller RS, Speyer JF, Lengyel P | title = Synthetic polynucleotides and the amino acid code. VIII | journal = Proceedings of the National Academy of Sciences of the United States of America | volume = 49 | issue = 1 | pages = 116–22 | date = Jan 1963 | pmid = 13998282 | pmc = 300638 | doi = 10.1073/pnas.49.1.116 | bibcode = 1963PNAS...49..116W }}&lt;/ref&gt; Therefore, the codon AAA specified the amino acid [[lysine]], and the codon CCC specified the amino acid [[proline]]. Using various [[copolymers]] most of the remaining codons were then determined.
+
+Subsequent work by [[Har Gobind Khorana]] identified the rest of the genetic code. Shortly thereafter, [[Robert W. Holley]] determined the structure of [[transfer RNA]] (tRNA), the adapter molecule that facilitates the process of translating RNA into protein. This work was based upon Ochoa's earlier studies, yielding the latter the [[Nobel Prize in Physiology or Medicine]] in 1959 for work on the [[enzymology]] of RNA synthesis.&lt;ref name="Nobel_1959"&gt;{{cite press release |url=http://nobelprize.org/nobel_prizes/medicine/laureates/1959/index.html |title=The Nobel Prize in Physiology or Medicine 1959 |quote=The Nobel Prize in Physiology or Medicine 1959 was awarded jointly to Severo Ochoa and Arthur Kornberg 'for their discovery of the mechanisms in the biological synthesis of ribonucleic acid and deoxyribonucleic acid'. |publisher=The Royal Swedish Academy of Science |date=1959 |accessdate=2010-02-27}}&lt;/ref&gt;
+
+Extending this work, Nirenberg and [[Philip Leder]] revealed the code's triplet nature and deciphered its codons. In these experiments, various combinations of [[mRNA]] were passed through a filter that contained [[ribosome]]s, the components of cells that [[Translation (biology)|translate]] RNA into protein. Unique triplets promoted the binding of specific tRNAs to the ribosome. Leder and Nirenberg were able to determine the sequences of 54 out of 64 codons in their experiments.&lt;ref name="pmid5330357"&gt;{{cite journal | vauthors = Nirenberg M, Leder P, Bernfield M, Brimacombe R, Trupin J, Rottman F, O'Neal C | title = RNA codewords and protein synthesis, VII. On the general nature of the RNA code | journal = Proceedings of the National Academy of Sciences of the United States of America | volume = 53 | issue = 5 | pages = 1161–8 | date = May 1965 | pmid = 5330357 | pmc = 301388 | doi = 10.1073/pnas.53.5.1161 | bibcode = 1965PNAS...53.1161N }}&lt;/ref&gt; Khorana, Holley and Nirenberg received the 1968 Nobel for their work.&lt;ref name="Nobel_1968"&gt;{{cite press release |url=http://nobelprize.org/nobel_prizes/medicine/laureates/1968/index.html |title=The Nobel Prize in Physiology or Medicine 1968 |quote=The Nobel Prize in Physiology or Medicine 1968 was awarded jointly to Robert W. Holley, Har Gobind Khorana and Marshall W. Nirenberg 'for their interpretation of the genetic code and its function in protein synthesis'. |publisher=The Royal Swedish Academy of Science |date=1968 |accessdate=2010-02-27}}&lt;/ref&gt;
+
+The three stop codons were named by discoverers Richard Epstein and Charles Steinberg. "Amber" was named after their friend Harris Bernstein, whose last name means "amber" in German.&lt;ref&gt;{{cite journal|date=Oct 2004|title=The genome of bacteriophage T4: an archeological dig|journal=Genetics|volume=168|issue=2|pages=575–82|pmc=1448817|pmid=15514035|vauthors=Edgar B}}&lt;/ref&gt; The other two stop codons were named "ochre" and "opal" in order to keep the "color names" theme.
+
+=== Expanded genetic codes (synthetic biology) ===
+{{main|Expanded genetic code}}
+{{see also|Nucleic acid analogues}}
+
+In a broad academic audience, the concept of the evolution of the genetic code from the original and ambiguous genetic code to a well-defined ("frozen") code with the repertoire of 20 (+2) canonical amino acids is widely accepted.&lt;ref&gt;{{Cite book| title = The book at the Wiley Online Library
+| doi = 10.1002/3527607188
+| isbn = 9783527312436
+|last1 = Budisa|first1 = Nediljko| date = 2005-12-23
+}}&lt;/ref&gt;
+However, there are different opinions, concepts, approaches and ideas, which is the best way to change it experimentally. Even models are proposed that predict "entry points" for synthetic amino acid invasion of the genetic code.&lt;ref&gt;{{cite journal
+| last1 = Kubyshkin | first1 = V.
+| last2 = Budisa | first2 = N.
+| year = 2017
+| title = Synthetic alienation of microbial organisms by using genetic code engineering: Why and how?
+| journal = Biotechnology Journal
+| volume = 12
+| issue = 8
+| pages = 1600097
+| doi = 10.1002/biot.201600097
+| pmid = 28671771
+}}&lt;/ref&gt;
+
+Since 2001, 40 non-natural amino acids have been added into protein by creating a unique codon (recoding) and a corresponding transfer-RNA:aminoacyl&amp;nbsp;– tRNA-synthetase pair to encode it with diverse physicochemical and biological properties in order to be used as a tool to exploring [[protein structure]] and function or to create novel or enhanced proteins.&lt;ref name="XieSchultz2005"&gt;{{cite journal | vauthors = Xie J, Schultz PG | title = Adding amino acids to the genetic repertoire | journal = Current Opinion in Chemical Biology | volume = 9 | issue = 6 | pages = 548–54 | date = December 2005 | pmid = 16260173 | doi = 10.1016/j.cbpa.2005.10.011 }}&lt;/ref&gt;&lt;ref name="pmid19318213"&gt;{{cite journal | vauthors = Wang Q, Parrish AR, Wang L | title = Expanding the genetic code for biological studies | journal = Chemistry &amp; Biology | volume = 16 | issue = 3 | pages = 323–36 | date = March 2009 | pmid = 19318213 | pmc = 2696486 | doi = 10.1016/j.chembiol.2009.03.001 }}&lt;/ref&gt;
+
+H. Murakami and M. Sisido extended some codons to have four and five bases. [[Steven A. Benner]] constructed a functional 65th (''in vivo'') codon.&lt;ref name="isbn0-387-22046-1"&gt;{{cite book|first=Matthew |last=Simon | name-list-format = vanc | title = Emergent Computation: Emphasizing Bioinformatics|url={{google books |plainurl=y |id=Uxg51oZNkIsC|page=105}}|date=7 January 2005|publisher=Springer Science &amp; Business Media|isbn=978-0-387-22046-8|pages=105–106}}&lt;/ref&gt;
+
+In 2015 [[Nediljko Budisa|N. Budisa]], [[Dieter Söll|D. Söll]] and co-workers reported the full substitution of all 20,899 [[tryptophan]] residues (UGG codons) with unnatural thienopyrrole-alanine in the genetic code of the bacterium ''Escherichia coli''.&lt;ref&gt;{{cite journal | last1 = Hoesl | first1 = M. G. | last2 = Oehm | first2 = S. | last3 = Durkin | first3 = P. | last4 = Darmon | first4 = E. | last5 = Peil | first5 = L. | last6 = Aerni | first6 = H.-R. | last7 = Rappsilber | first7 = J. | last8 = Rinehart | first8 = J. | last9 = Leach | first9 = D. | last10 = Söll | first10 = D. | last11 = Budisa | first11 = N. | year = 2015 | title = Chemical evolution of a bacterial proteome | journal = Angewandte Chemie International Edition | volume = 54 | issue = 34 | pages = 10030–10034 | doi = 10.1002/anie.201502868 | pmc = 4782924 | pmid=26136259 }} NIHMSID: NIHMS711205&lt;/ref&gt;
+
+In 2016 the first stable semisynthetic organism was created. It was a (single cell) bacterium with two synthetic bases (called X and Y). The bases survived cell division.&lt;ref&gt;{{cite web | url = http://www.kurzweilai.net/first-stable-semisynthetic-organism-created |title = First stable semisynthetic organism created {{!}} KurzweilAI|last=|first=|date=February 3, 2017| website=www.kurzweilai.net | access-date = 2017-02-09 }}&lt;/ref&gt;&lt;ref&gt;{{cite journal | vauthors = Zhang Y, Lamb BM, Feldman AW, Zhou AX, Lavergne T, Li L, Romesberg FE | title = A semisynthetic organism engineered for the stable expansion of the genetic alphabet| journal = Proceedings of the National Academy of Sciences of the United States of America | volume = 114 | issue = 6 | pages = 1317–1322 | date = February 2017 | pmid = 28115716 | doi = 10.1073/pnas.1616443114 | pmc=5307467}}&lt;/ref&gt;
+
+In 2017, researchers in South Korea reported that they had engineered a mouse with an extended genetic code that can produce proteins with unnatural amino acids.&lt;ref&gt;{{cite journal | vauthors = Han S, Yang A, Lee S, Lee HW, Park CB, Park HS | title = Expanding the genetic code of Mus musculus | journal = Nature Communications | volume = 8 | pages = 14568 | date = February 2017 | pmid = 28220771 | doi = 10.1038/ncomms14568 | pmc=5321798| bibcode = 2017NatCo...814568H }}&lt;/ref&gt;
+
+In May 2019, researchers, in a milestone effort, reported the creation of a new [[Synthetic biology#Synthetic life|synthetic]] (possibly [[Artificial life#Biochemical-based ("wet")|artificial]]) form of [[wikt:viability|viable]] [[life]], a variant of the [[bacteria]] ''[[Escherichia coli]]'', by reducing the natural number of 64 [[codon]]s in the bacterial [[genome]] to 59 codons instead, in order to encode 20 [[amino acid]]s.&lt;ref name="NYT-20190515"&gt;{{cite news |last=Zimmer |first=Carl |authorlink=Carl Zimmer |title=Scientists Created Bacteria With a Synthetic Genome. Is This Artificial Life? - In a milestone for synthetic biology, colonies of E. coli thrive with DNA constructed from scratch by humans, not nature. |url=https://www.nytimes.com/2019/05/15/science/synthetic-genome-bacteria.html |date=15 May 2019 |work=[[The New York Times]] |accessdate=16 May 2019 }}&lt;/ref&gt;&lt;ref name="NAT-20190515"&gt;{{cite journal |author=Fredens, Julius |s2cid=205571025 |display-authors=et al. |title=Total synthesis of Escherichia coli with a recoded genome |date=15 May 2019 |journal=[[Nature (journal)|Nature]] |volume=569 |issue=7757 |pages=514–518 |doi=10.1038/s41586-019-1192-5 |pmid=31092918 |pmc=7039709 |bibcode=2019Natur.569..514F }}&lt;/ref&gt;
+
+==Features==
+[[File:Homo sapiens-mtDNA~NC 012920-ATP8+ATP6 Overlap.svg|thumb|right|Reading frames in the DNA sequence of a region of the human mitochondrial genome coding for the genes ''[[MT-ATP8]]'' and ''[[MT-ATP6]]'' (in black: positions 8,525 to 8,580 in the sequence accession NC_012920&lt;ref name="NCBI NC_012920"&gt;''Homo sapiens'' mitochondrion, complete genome. [https://www.ncbi.nlm.nih.gov/nuccore/NC_012920.1 "Revised Cambridge Reference Sequence (rCRS): accession NC_012920"], ''[[National Center for Biotechnology Information]]''. Retrieved on 27 December 2017.&lt;/ref&gt;). There are three possible reading frames in the 5' → 3' forward direction, starting on the first (+1), second (+2) and third position (+3). For each codon (square brackets), the amino acid is given by the [[vertebrate mitochondrial code]], either in the +1 frame for ''MT-ATP8'' (in red) or in the +3 frame for ''MT-ATP6'' (in blue). The ''MT-ATP8'' genes terminates with the TAG stop codon (red dot) in the +1 frame. The ''MT-ATP6'' gene starts with the ATG codon (blue circle for the M amino acid) in the +3 frame.]]
+
+===Reading frame===
+A reading frame is defined by the initial triplet of nucleotides from which translation starts. It sets the frame for a run of successive, non-overlapping codons, which is known as an "[[open reading frame]]" (ORF). For example, the string 5'-AAATGAACG-3' (see figure), if read from the first position, contains the codons AAA, TGA, and ACG ; if read from the second position, it contains the codons AAT and GAA ; and if read from the third position, it contains the codons ATG and AAC. Every sequence can, thus, be read in its [[5' to 3'|5' → 3' direction]] in three [[reading frames]], each producing a possibly distinct amino acid sequence: in the given example, Lys (K)-Trp (W)-Thr (T), Asn (N)-Glu (E), or Met (M)-Asn (N), respectively (when translating with the vertebrate mitochondrial code). When DNA is double-stranded, six possible [[reading frames]] are defined, three in the forward orientation on one strand and three reverse on the opposite strand.&lt;ref name="genetics_ dictionary"/&gt;{{rp|330}} Protein-coding frames are defined by a [[start codon]], usually the first AUG (ATG) codon in the RNA (DNA) sequence.
+
+In [[eukaryote]]s, ORFs in [[exon]]s are often interrupted by [[intron]]s.
+
+=== Start/stop codons ===
+Translation starts with a chain-initiation codon or [[start codon]]. The start  codon alone is not sufficient to begin the process. Nearby sequences such as the [[Shine-Dalgarno]] sequence in ''[[Escherichia coli|E. coli]]'' and [[initiation factor]]s are also required to start translation. The most common start codon is AUG, which is read as [[methionine]] or, in bacteria, as [[N-Formylmethionine|formylmethionine]]. Alternative start codons depending on the organism include "GUG" or "UUG"; these codons normally represent [[valine]] and [[leucine]], respectively, but as start codons they are translated as methionine or formylmethionine.&lt;ref name="pmid12867081"&gt;{{cite journal | vauthors = Touriol C, Bornes S, Bonnal S, Audigier S, Prats H, Prats AC, Vagner S | title = Generation of protein isoform diversity by alternative initiation of translation at non-AUG codons | journal = Biology of the Cell | volume = 95 | issue = 3–4 | pages = 169–78 | date = 2003 | pmid = 12867081 | doi = 10.1016/S0248-4900(03)00033-9 | doi-access = free }}&lt;/ref&gt;
+
+The three [[stop codon]]s have names: UAG is ''amber'', UGA is ''opal'' (sometimes also called ''umber''), and UAA is ''ochre''. Stop codons are also called "termination" or "nonsense" codons. They signal release of the nascent polypeptide from the ribosome because no cognate tRNA has anticodons complementary to these stop signals, allowing a [[release factor]] to bind to the ribosome instead.&lt;ref name="urlHow nonsense mutations got their names"&gt;{{cite web | url = http://www.sci.sdsu.edu/~smaloy/MicrobialGenetics/topics/rev-sup/amber-name.html | title = How nonsense mutations got their names | author = Maloy S | date = 2003-11-29 | work = Microbial Genetics Course | publisher = San Diego State University | accessdate = 2010-03-10 }}&lt;/ref&gt;
+
+===Effect of mutations===
+[[File:Notable mutations.svg|upright=1.75|thumb|Examples of notable [[mutation]]s that can occur in humans.&lt;ref&gt;References for the image are found in Wikimedia Commons page at: [[Commons:File:Notable mutations.svg#References]].&lt;/ref&gt;]]&lt;!-- EXPANSION OF THE IMAGE WITH MORE EXAMPLES IS EXPECTED (see its discussion page)--&gt;
+
+During the process of [[DNA replication]], errors occasionally occur in the [[polymerization]] of the second strand. These errors, [[mutation]]s, can affect an organism's [[phenotype]], especially if they occur within the protein coding sequence of a gene. Error rates are typically 1 error in every 10–100&amp;nbsp;million bases—due to the "proofreading" ability of [[DNA polymerase]]s.&lt;ref name=griffiths2000sect2706&gt;{{cite book |editor1-first=Anthony J. F. |display-editors=4 |editor1-last=Griffiths |editor2-first=Jeffrey H. |editor2-last=Miller |editor3-first=David T. |editor3-last=Suzuki |editor4-first=Richard C. |editor4-last=Lewontin |editor5-last=Gelbart | name-list-format = vanc |title=An Introduction to Genetic Analysis |date=2000 |isbn=978-0-7167-3520-5 |edition=7th |publisher=W. H. Freeman |location=New York |chapterurl=https://www.ncbi.nlm.nih.gov/books/bv.fcgi?rid=iga.section.2706 |chapter=Spontaneous mutations }}&lt;/ref&gt;&lt;ref name=Kunkel&gt;{{cite journal | vauthors = Freisinger E, Grollman AP, Miller H, Kisker C | title = Lesion (in)tolerance reveals insights into DNA replication fidelity | journal = The EMBO Journal | volume = 23 | issue = 7 | pages = 1494–505 | date = Apr 2004 | pmid = 15057282 | pmc = 391067 | doi = 10.1038/sj.emboj.7600158 }}&lt;/ref&gt;
+
+[[Missense mutation]]s and [[nonsense mutation]]s are examples of [[point mutation]]s that  can cause genetic diseases such as [[sickle-cell disease]] and [[thalassemia]] respectively.&lt;ref&gt;{{Harv | Boillée | 2006 | p=39}}&lt;/ref&gt;&lt;ref name="pmid88735"&gt;{{cite journal | vauthors = Chang JC, Kan YW | title = beta 0 thalassemia, a nonsense mutation in man | journal = Proceedings of the National Academy of Sciences of the United States of America | volume = 76 | issue = 6 | pages = 2886–9 | date = Jun 1979 | pmid = 88735 | pmc = 383714 | doi = 10.1073/pnas.76.6.2886 | bibcode = 1979PNAS...76.2886C }}&lt;/ref&gt;&lt;ref name="pmid17015226"&gt;{{cite journal | vauthors = Boillée S, Vande Velde C, Cleveland DW | title = ALS: a disease of motor neurons and their nonneuronal neighbors | journal = Neuron | volume = 52 | issue = 1 | pages = 39–59 | date = Oct 2006 | pmid = 17015226 | doi = 10.1016/j.neuron.2006.09.018 | doi-access = free }}&lt;/ref&gt; Clinically important missense mutations generally change the properties of the coded amino acid residue among basic, acidic, polar or non-polar states, whereas nonsense mutations result in a [[stop codon]].&lt;ref name="genetics_ dictionary"&gt;{{cite book | first1 = Robert C. | last1 = King | first2 = Pamela | last2 = Mulligan | first3 = William | last3 = Stansfield | name-list-format = vanc | title = A Dictionary of Genetics|url={{google books |plainurl=y |id=5jhH0HTjEdkC}}|date=10 January 2013 | publisher = OUP USA | isbn = 978-0-19-976644-4| pages = 608 }}&lt;/ref&gt;
+
+Mutations that disrupt the reading frame sequence by [[indels]] ([[gene insertion|insertions]] or [[genetic deletion|deletions]]) of a non-multiple of 3 nucleotide bases are known as [[frameshift mutation]]s. These mutations usually result in a completely different translation from the original, and likely cause a [[stop codon]] to be read, which truncates the protein.&lt;ref name="pmid8723688"&gt;{{cite journal | vauthors = Isbrandt D, Hopwood JJ, von Figura K, Peters C | title = Two novel frameshift mutations causing premature stop codons in a patient with the severe form of Maroteaux-Lamy syndrome | journal = Human Mutation | volume = 7 | issue = 4 | pages = 361–3 | date = 1996 | pmid = 8723688 | doi = 10.1002/(SICI)1098-1004(1996)7:4&lt;361::AID-HUMU12&gt;3.0.CO;2-0 }}&lt;/ref&gt; These mutations may impair the protein's function and are thus rare in ''[[in vivo]]'' protein-coding sequences. One reason inheritance of frameshift mutations is rare is that, if the protein being translated is essential for growth under the selective pressures the organism faces, absence of a functional protein may cause death before the organism becomes viable.&lt;ref name="pmid8444142"&gt;{{cite journal | vauthors = Crow JF | title = How much do we know about spontaneous human mutation rates? | journal = Environmental and Molecular Mutagenesis | volume = 21 | issue = 2 | pages = 122–9 | date = 1993 | pmid = 8444142 | doi = 10.1002/em.2850210205 }}&lt;/ref&gt; Frameshift mutations may result in severe genetic diseases such as [[Tay–Sachs disease]].&lt;ref name="isbn0-07-111156-5"&gt;{{cite book | last = Lewis | first = Ricki | name-list-format = vanc | title = Human Genetics: Concepts and Applications | edition = 6th | publisher = McGraw Hill | location = Boston, Mass | date = 2005| pages = 227–228| isbn = 978-0-07-111156-0 }}&lt;/ref&gt;
+
+Although most mutations that change protein sequences are harmful or neutral, some mutations have benefits.&lt;ref&gt;{{cite journal | vauthors = Sawyer SA, Parsch J, Zhang Z, Hartl DL | title = Prevalence of positive selection among nearly neutral amino acid replacements in Drosophila | journal = Proceedings of the National Academy of Sciences of the United States of America | volume = 104 | issue = 16 | pages = 6504–10 | date = Apr 2007 | pmid = 17409186 | pmc = 1871816 | doi = 10.1073/pnas.0701572104 | bibcode = 2007PNAS..104.6504S }}&lt;/ref&gt; These mutations may enable the mutant organism to withstand particular environmental stresses better than [[wild type]] organisms, or reproduce more quickly. In these cases a mutation will tend to become more common in a population through [[natural selection]].&lt;ref&gt;{{cite journal |author=Bridges KR |title=Malaria and the Red Cell |journal=Harvard |date=2002 |url=http://sickle.bwh.harvard.edu/malaria_sickle.html |url-status=dead |archiveurl=https://web.archive.org/web/20111127201806/http://sickle.bwh.harvard.edu/malaria_sickle.html |archivedate=27 November 2011 |df=dmy-all }}&lt;/ref&gt; [[Virus]]es that use [[RNA]] as their genetic material have rapid mutation rates,&lt;ref&gt;{{cite journal | vauthors = Drake JW, Holland JJ | title = Mutation rates among RNA viruses | journal = Proceedings of the National Academy of Sciences of the United States of America | volume = 96 | issue = 24 | pages = 13910–3 | date = Nov 1999 | pmid = 10570172 | pmc = 24164 | doi = 10.1073/pnas.96.24.13910 | bibcode = 1999PNAS...9613910D }}&lt;/ref&gt; which can be an advantage, since these viruses thereby evolve rapidly, and thus evade the [[immune system]] defensive responses.&lt;ref&gt;{{cite journal | vauthors = Holland J, Spindler K, Horodyski F, Grabau E, Nichol S, VandePol S | title = Rapid evolution of RNA genomes | journal = Science | volume = 215 | issue = 4540 | pages = 1577–85 | date = Mar 1982 | pmid = 7041255 | doi = 10.1126/science.7041255 | bibcode = 1982Sci...215.1577H }}&lt;/ref&gt; In large populations of asexually reproducing organisms, for example, ''E. coli'', multiple beneficial mutations may co-occur. This phenomenon is called [[clonal interference]] and causes competition among the mutations.&lt;ref&gt;{{cite journal | vauthors = de Visser JA, Rozen DE | title = Clonal interference and the periodic selection of new beneficial mutations in Escherichia coli | journal = Genetics | volume = 172 | issue = 4 | pages = 2093–100 | date = Apr 2006 | pmid = 16489229 | pmc = 1456385 | doi = 10.1534/genetics.105.052373 | bibcode =  }}&lt;/ref&gt;
+
+===Degeneracy===
+{{Main|Codon degeneracy}}
+[[File:Genetic Code Simple Corrected.pdf|thumb|Grouping of codons by amino acid residue molar volume and [[hydropathicity]].  A [[:File:ELLIPTICAL GENETIC CODE Ian.png|more detailed version]] is available.]]
+Degeneracy is the redundancy of the genetic code. This term was given by Bernfield and Nirenberg. The genetic code has redundancy but no ambiguity (see the [[#RNA codon table|codon tables]] below for the full correlation). For example, although codons GAA and GAG both specify [[glutamic acid]] (redundancy), neither specifies another amino acid (no ambiguity). The codons encoding one amino acid may differ in any of their three positions. For example, the amino acid leucine is specified by '''Y'''U'''R''' or CU'''N''' (UUA, UUG, CUU, CUC, CUA, or CUG) codons (difference in the first or third position indicated using [[Nucleic acid notation|IUPAC notation]]), while the amino acid [[serine]] is specified by UC'''N''' or AG'''Y''' (UCA, UCG, UCC, UCU, AGU, or AGC) codons (difference in the first, second, or third position).&lt;ref name="MBG"&gt;{{cite book|first=James D. |last=Watson|title=Molecular Biology of the Gene|url={{google books |plainurl=y |id=MByWPwAACAAJ}}|year=2008|publisher=Pearson/Benjamin Cummings|isbn=978-0-8053-9592-1}} {{rp|[{{google books |plainurl=y |id=MByWPwAACAAJ|page=102}} 102–117]}} {{rp|[{{google books |plainurl=y |id=MByWPwAACAAJ|page=521}} 521–522]}}&lt;/ref&gt; A practical consequence of redundancy is that errors in the third position of the triplet codon cause only a silent mutation or an error that would not affect the protein because the [[hydrophilicity]] or [[hydrophobicity]] is maintained by equivalent substitution of amino acids; for example, a codon of NUN (where N = any nucleotide) tends to code for hydrophobic amino acids. NCN yields amino acid residues that are small in size and moderate in [[hydropathicity]]; NAN encodes average size hydrophilic residues. The genetic code is so well-structured for hydropathicity that a mathematical analysis ([[Singular value decomposition|Singular Value Decomposition]]) of 12 variables (4 nucleotides x 3 positions) yields a remarkable correlation (C = 0.95) for predicting the hydropathicity of the encoded amino acid directly from the triplet nucleotide sequence, ''without translation.''&lt;ref name="Michel-Beyerle1990"&gt;{{cite book|first=Maria Elisabeth |last=Michel-Beyerle|title=Reaction centers of photosynthetic bacteria: Feldafing-II-Meeting|url={{google books |plainurl=y |id=xD5OAQAAIAAJ}}|year=1990|publisher=Springer-Verlag|isbn=978-3-540-53420-4}}&lt;/ref&gt;&lt;ref&gt;Füllen G, Youvan DC (1994). "Genetic Algorithms and Recursive Ensemble Mutagenesis in Protein Engineering". Complexity International 1.&lt;/ref&gt;  Note in the table, below, eight amino acids are not affected at all by mutations at the third position of the codon, whereas in the figure above, a mutation at the second position is likely to cause a radical change in the physicochemical properties of the encoded amino acid.
+Nevertheless, changes in the first position of the codons are more important than changes in the second position on a global scale.&lt;ref&gt;{{Cite journal|last=Fricke|first=Markus|s2cid=51968530|title=Global importance of RNA secondary structures in protein coding sequences|journal=Bioinformatics|volume=35|issue=4|pages=579–583|doi=10.1093/bioinformatics/bty678|pmid=30101307|year=2019|pmc=7109657}}&lt;/ref&gt;  The reason may be that charge reversal (from a positive to a negative charge or vice versa) can only occur upon mutations in the first position, but never upon changes in the second position of a codon. Such charge reversal may have dramatic consequences for the structure or function of a protein. This aspect may have been largely underestimated by previous studies.
+
+===Codon usage bias===
+The frequency of codons, also known as [[codon usage bias]], can vary from species to species with functional implications for the control of [[translation (biology)|translation]].  The following codon usage table is for the human genome.&lt;ref&gt;{{cite web|url=http://www.kazusa.or.jp/codon/cgi-bin/showcodon.cgi?species=9606&amp;aa=1&amp;style=N|title=Codon usage table|publisher=}}&lt;/ref&gt;
+
+{{collapse top|title=Human genome codon frequency table}}
+
+{|class="wikitable" style="text-align: center;"
+|+Human genome codon frequency
+|-
+!Codon || AA{{ref label|A|A}} || Fraction{{ref label|B|B}} || Freq [[per thousand|‰]]{{ref label|C|C}} || Number{{ref label|D|D}}
+|rowspan=17|
+!Codon || AA || Fraction || Freq [[per thousand|‰]] || Number
+|rowspan=17|
+!Codon || AA || Fraction || Freq [[per thousand|‰]] || Number 
+|rowspan=17|
+!Codon || AA || Fraction || Freq [[per thousand|‰]] || Number 
+|-
+|UUU||F||0.46||17.6||714,298||UCU||S||0.19||15.2||618,711||UAU||Y||0.44||12.2||495,699||UGU||C||0.46||10.6||430,311
+|-
+|UUC||F||0.54||20.3||824,692||UCC||S||0.22||17.7||718,892||UAC||Y||0.56||15.3||622,407||UGC||C||0.54||12.6||513,028
+|-
+|UUA||L||0.08||7.7||311,881||UCA||S||0.15||12.2||496,448||UAA||*||0.30||1.0||40,285||UGA||*||0.47||1.6||63,237
+|-
+|UUG||L||0.13||12.9||525,688||UCG||S||0.05||4.4||179,419||UAG||*||0.24||0.8||32,109||UGG||W||1.00||13.2||535,595
+|-
+|CUU||L||0.13||13.2||536,515||CCU||P||0.29||17.5||713,233||CAU||H||0.42||10.9||441,711||CGU||R||0.08||4.5||184,609
+|-
+|CUC||L||0.20||19.6||796,638||CCC||P||0.32||19.8||804,620||CAC||H||0.58||15.1||613,713||CGC||R||0.18||10.4||423,516
+|-
+|CUA||L||0.07||7.2||290,751||CCA||P||0.28||16.9||688,038||CAA||Q||0.27||12.3||501,911||CGA||R||0.11||6.2||250,760
+|-
+|CUG||L||0.40||39.6||1,611,801||CCG||P||0.11||6.9||281,570||CAG||Q||0.73||34.2||1,391,973||CGG||R||0.20||11.4||464,485
+|-
+|AUU||I||0.36||16.0||650,473||ACU||T||0.25||13.1||533,609||AAU||N||0.47||17.0||689,701||AGU||S||0.15||12.1||493,429
+|-
+|AUC||I||0.47||20.8||846,466||ACC||T||0.36||18.9||768,147||AAC||N||0.53||19.1||776,603||AGC||S||0.24||19.5||791,383
+|-
+|AUA||I||0.17||7.5||304,565||ACA||T||0.28||15.1||614,523||AAA||K||0.43||24.4||993,621||AGA||R||0.21||12.2||494,682
+|-
+|AUG||M||1.00||22.0||896,005||ACG||T||0.11||6.1||246,105||AAG||K||0.57||31.9||1,295,568||AGG||R||0.21||12.0||486,463
+|-
+|GUU||V||0.18||11.0||448,607||GCU||A||0.27||18.4||750,096||GAU||D||0.46||21.8||885,429||GGU||G||0.16||10.8||437,126
+|-
+|GUC||V||0.24||14.5||588,138||GCC||A||0.40||27.7||1,127,679||GAC||D||0.54||25.1||1,020,595||GGC||G||0.34||22.2||903,565
+|-
+|GUA||V||0.12||7.1||287,712||GCA||A||0.23||15.8||643,471||GAA||E||0.42||29.0||1,177,632||GGA||G||0.25||16.5||669,873
+|-
+|GUG||V||0.46||28.1||1,143,534||GCG||A||0.11||7.4||299,495||GAG||E||0.58||39.6||1,609,975||GGG||G||0.25||16.5||669,768
+|}
+{{note label|A|A}} Amino acid.
+{{note label|B|B}} Fraction of each codon among all those specifying a given amino acid.
+{{note label|C|C}} Frequency among 40,662,582 codons of 93,487 coding sequences.
+{{note label|D|D}} Number.
+
+{{collapse bottom}}
+
+==Standard codon tables==
+===RNA codon table===&lt;!-- This section is linked from [[Amino acid]] and [[DNA codon table]]; [[Codon table]], [[Codon dictionary]], [[RNA codon table]] redirect here --&gt;
+{{Codon table|T=U}}
+{{Inverse codon table|T=U}}
+
+===DNA codon table===
+{{main|DNA codon table}}
+The DNA codon table is essentially identical to that for RNA, but with [[Uracil|U]] replaced by [[Thymine|T]].
+
+==Alternative genetic codes==
+=== Non-standard amino acids ===
+In some proteins, non-standard amino acids are substituted for standard stop codons, depending on associated signal sequences in the messenger RNA. For example, UGA can code for [[selenocysteine]] and UAG can code for [[pyrrolysine]]. Selenocysteine became to be seen  as the 21st amino acid, and pyrrolysine as the 22nd.&lt;ref name=Zhang2005/&gt; Unlike selenocysteine, pyrrolysine-encoded UAG is translated with the participation of a dedicated [[Aminoacyl tRNA synthetase|aminoacyl-tRNA synthetase]].&lt;ref name=Krzycki2005&gt;{{cite journal | vauthors = Krzycki JA | title = The direct genetic encoding of pyrrolysine | journal = Current Opinion in Microbiology | volume = 8 | issue = 6 | pages = 706–12 | date = Dec 2005 | pmid = 16256420 | doi = 10.1016/j.mib.2005.10.009 }}&lt;/ref&gt; Both selenocysteine and pyrrolysine may be present in the same organism.&lt;ref name=Zhang2005&gt;{{cite journal | vauthors = Zhang Y, Baranov PV, Atkins JF, Gladyshev VN | title = Pyrrolysine and selenocysteine use dissimilar decoding strategies | journal = The Journal of Biological Chemistry | volume = 280 | issue = 21 | pages = 20740–51 | date = May 2005 | pmid = 15788401 | doi = 10.1074/jbc.M501458200 | url = http://digitalcommons.unl.edu/cgi/viewcontent.cgi?article=1071&amp;context=biochemgladyshev | doi-access = free }}&lt;/ref&gt; Although the genetic code is normally fixed in an organism, the achaeal prokaryote ''[[Acetohalobium arabaticum]]'' can expand its genetic code from 20 to 21 amino acids (by including pyrrolysine) under different conditions of growth.&lt;ref name=Prat2012&gt;{{cite journal | vauthors = Prat L, Heinemann IU, Aerni HR, Rinehart J, O'Donoghue P, Söll D | title = Carbon source-dependent expansion of the genetic code in bacteria | journal = Proceedings of the National Academy of Sciences of the United States of America | volume = 109 | issue = 51 | pages = 21070–5 | date = Dec 2012 | pmid = 23185002 | pmc = 3529041 | doi = 10.1073/pnas.1218613110 | bibcode = 2012PNAS..10921070P }}&lt;/ref&gt;
+
+=== Variations ===
+{{See also|List of genetic codes}}
+[[File:FACIL genetic code logo.png|thumb|upright=2.3|Genetic code logo of the ''Globobulimina pseudospinescens'' mitochondrial genome. The logo shows the 64 codons from left to right, predicted alternatives in red (relative to the standard genetic code). Red line: stop codons. The height of each amino acid in the stack shows how often it is aligned to the codon in homologous protein domains. The stack height indicates the support for the prediction.]]
+Variations on the standard code were predicted in the 1970s.&lt;ref&gt;
+{{cite journal | vauthors =Crick FH, Orgel LE |title=Directed panspermia |journal=Icarus |volume=19 |pages=341–6, 344 |date=1973 |quote=It is a little surprising that organisms with somewhat different codes do not coexist. |doi=10.1016/0019-1035(73)90110-3 |issue=3 |bibcode=1973Icar...19..341C}}  ([http://www.talkorigins.org/faqs/comdesc/section1.html Further discussion])&lt;/ref&gt; The first was discovered in 1979, by researchers studying [[human mitochondrial genetics|human mitochondrial genes]].&lt;ref&gt;
+{{cite journal | vauthors =Barrell BG, Bankier AT, Drouin J |s2cid=4335828 |title=A different genetic code in human mitochondria |journal=Nature |volume=282 |pages=189–194 |date=1979 |issue=5735 |doi=10.1038/282189a0 |pmid=226894|bibcode=1979Natur.282..189B }} ([https://www.ncbi.nlm.nih.gov/pubmed/226894])&lt;/ref&gt; Many slight variants were discovered thereafter,&lt;ref name="url_The_Genetic_Codes_NCBI"/&gt; including various alternative mitochondrial codes.&lt;ref&gt;{{cite journal | vauthors = Jukes TH, Osawa S | s2cid = 19264964 | title = The genetic code in mitochondria and chloroplasts | journal = Experientia | volume = 46 | issue = 11–12 | pages = 1117–26 | date = Dec 1990 | pmid = 2253709 | doi = 10.1007/BF01936921 }}&lt;/ref&gt; These minor variants for example involve translation of the codon UGA as [[tryptophan]] in ''[[Mycoplasma]]'' species, and translation of CUG as a serine rather than leucine in yeasts of the "CTG clade" (such as ''[[Candida albicans]]'').&lt;ref&gt;{{cite journal | vauthors = Fitzpatrick DA, Logue ME, Stajich JE, Butler G | title = A fungal phylogeny based on 42 complete genomes derived from supertree and combined gene analysis | journal = BMC Evolutionary Biology | volume = 6 | pages = 99 | date = 1 January 2006 | pmid = 17121679 | pmc = 1679813 | doi = 10.1186/1471-2148-6-99 }}&lt;/ref&gt;&lt;ref&gt;{{cite journal | vauthors = Santos MA, Tuite MF | title = The CUG codon is decoded in vivo as serine and not leucine in Candida albicans | journal = Nucleic Acids Research | volume = 23 | issue = 9 | pages = 1481–6 | date = May 1995 | pmid = 7784200 | pmc = 306886 | doi = 10.1093/nar/23.9.1481 }}&lt;/ref&gt;&lt;ref&gt;{{cite journal | vauthors = Butler G, Rasmussen MD, Lin MF, Santos MA, Sakthikumar S, Munro CA, Rheinbay E, Grabherr M, Forche A, Reedy JL, Agrafioti I, Arnaud MB, Bates S, Brown AJ, Brunke S, Costanzo MC, Fitzpatrick DA, de Groot PW, Harris D, Hoyer LL, Hube B, Klis FM, Kodira C, Lennard N, Logue ME, Martin R, Neiman AM, Nikolaou E, Quail MA, Quinn J, Santos MC, Schmitzberger FF, Sherlock G, Shah P, Silverstein KA, Skrzypek MS, Soll D, Staggs R, Stansfield I, Stumpf MP, Sudbery PE, Srikantha T, Zeng Q, Berman J, Berriman M, Heitman J, Gow NA, Lorenz MC, Birren BW, Kellis M, Cuomo CA | display-authors = 3 | title = Evolution of pathogenicity and sexual reproduction in eight Candida genomes | journal = Nature | volume = 459 | issue = 7247 | pages = 657–62 | date = Jun 2009 | pmid = 19465905 | pmc = 2834264 | doi = 10.1038/nature08064 | bibcode = 2009Natur.459..657B }}&lt;/ref&gt; Because viruses must use the same genetic code as their hosts, modifications to the standard genetic code could interfere with viral protein synthesis or functioning. However, viruses such as [[totivirus]]es have adapted to the host's genetic code modification.&lt;ref name="pmid23638388"&gt;{{cite journal | vauthors = Taylor DJ, Ballinger MJ, Bowman SM, Bruenn JA | title = Virus-host co-evolution under a modified nuclear genetic code | journal = PeerJ | volume = 1 | pages = e50 | date = 2013 | pmid = 23638388 | pmc = 3628385 | doi = 10.7717/peerj.50 }}&lt;/ref&gt; In [[bacteria]] and [[archaea]], GUG and UUG are common start codons. In rare cases, certain proteins may use alternative start codons.&lt;ref name="url_The_Genetic_Codes_NCBI"&gt;{{cite web | url = https://www.ncbi.nlm.nih.gov/Taxonomy/Utils/wprintgc.cgi?mode=c | title = The Genetic Codes | vauthors = Elzanowski A, Ostell J | date = 2008-04-07| publisher = National Center for Biotechnology Information (NCBI) | accessdate = 2010-03-10 }}&lt;/ref&gt;
+Surprisingly, variations in the interpretation of the genetic code exist also in human nuclear-encoded genes: In 2016, researchers studying the translation of malate dehydrogenase found that in about 4% of the mRNAs encoding this enzyme the stop codon is naturally used to encode the amino acids tryptophan and arginine.&lt;ref name="pmid27881739"&gt;{{cite journal | vauthors = Hofhuis J, Schueren F, Nötzel C, Lingner T, Gärtner J, Jahn O, Thoms S | title = The functional readthrough extension of malate dehydrogenase reveals a modification of the genetic code | journal = Open Biol | volume = 6 | issue = 11 | pages = 160246 | date = 2016 | pmid = 27881739 | doi = 10.1098/rsob.160246 | pmc=5133446}}&lt;/ref&gt; This type of recoding is induced by a high-readthrough stop codon context&lt;ref name="pmid25247702"&gt;{{cite journal | vauthors = Schueren F, Lingner T, George R, Hofhuis J, Gartner J, Thoms S | title = Peroxisomal lactate dehydrogenase is generated by translational readthrough in mammals | journal = eLife | volume = 3 | pages = e03640 | date = 2014 | pmid = 25247702 | doi = 10.7554/eLife.03640 | pmc=4359377}}&lt;/ref&gt; and it is referred to as ''functional translational readthrough''.&lt;ref name="PMC4973966"&gt;{{cite journal|author=F. Schueren und S. Thoms |title=Functional Translational Readthrough: A Systems Biology Perspective |journal=PLOS Genetics |volume=12 |issue=8 |page=e1006196  |date=2016 |pmid=27490485 |pmc=4973966 |doi=10.1371/journal.pgen.1006196}}&lt;/ref&gt;
+
+Variant genetic codes used by an organism can be inferred by identifying highly conserved genes encoded in that genome, and comparing its codon usage to the amino acids in homologous proteins of other organisms. For example, the program [http://www.cmbi.ru.nl/FACIL FACIL]&lt;ref name="DutilhJurgelenaite2011"&gt;{{cite journal | vauthors = Dutilh BE, Jurgelenaite R, Szklarczyk R, van Hijum SA, Harhangi HR, Schmid M, de Wild B, Françoijs KJ, Stunnenberg HG, Strous M, Jetten MS, Op den Camp HJ, Huynen MA | title = FACIL: Fast and Accurate Genetic Code Inference and Logo | journal = Bioinformatics | volume = 27 | issue = 14 | pages = 1929–33 | date = Jul 2011 | pmid = 21653513 | doi = 10.1093/bioinformatics/btr316 | pmc=3129529}}&lt;/ref&gt; infers a genetic code by searching which amino acids in homologous protein domains are most often aligned to every codon. The resulting amino acid probabilities for each codon are displayed in a genetic code logo, that also shows the support for a stop codon.
+
+Despite these differences, all known naturally occurring codes are very similar. The coding mechanism is the same for all organisms: three-base codons, [[Transfer RNA|tRNA]], ribosomes, single direction reading and translating single codons into single amino acids.&lt;ref&gt;{{cite journal| last1 = Kubyshkin | first1 = V.
+| last2 = Acevedo-Rocha | first2 = C. G.| last3 = Budisa | first3 = N.| doi = 10.1016/j.biosystems.2017.10.004
+| pmid = 29030023| year = 2018| title = On universal coding events in protein biogenesis| journal = Biosystems
+ | volume=164 | pages=16–25| doi-access = free}}&lt;/ref&gt;
+
+===List of alternative codons===
+
+{{collapse top|List of alternative codons}}
+
+{| class="wikitable" style="border: none; background: none; text-align: center;"
+| '''[[Amino acids]]''' biochemical properties 
+| style="background-color:#ffe75f; width: 50px;" | nonpolar
+| style="background-color:#b3dec0; width: 50px;" | polar
+| style="background-color:#bbbfe0; width: 50px;" | basic
+| style="background-color:#f8b7d3; width: 50px;" | acidic
+| style="border: none; background: none; width: 100px;" |
+| style="background-color:#B0B0B0;" | Termination: stop codon
+|}
+
+{|class="wikitable sortable" style="text-align: center;"
+|+ Comparison between codon translations with alternative and standard genetic codes
+! scope="col" style="width: 200px;" | Code
+! scope="col" style="width: 25px;" | Translation &lt;br/&gt; table
+! scope="col" style="width: 50px;" | DNA codon involved
+! scope="col" style="width: 50px;" | RNA codon involved
+! scope="col" style="width: 150px;" colspan="3" | Translation &lt;br/&gt; with this code
+! scope="col" style="width: 50px;" | Standard translation
+! scope="col" style="width: 100px;" | Notes
+|-
+|rowspan="1" | [[DNA codon table|Standard]]
+|rowspan="1" | 1
+|
+|
+|colspan="3" |
+|
+|Includes translation table 8 (plant [[chloroplasts]]).
+|-
+|rowspan="4" | [[Vertebrate mitochondrial code|Vertebrate mitochondrial]]
+|rowspan="4" | 2
+|&lt;tt&gt;AGA&lt;/tt&gt;
+|&lt;tt&gt;AGA&lt;/tt&gt;
+|colspan="3" style="background-color:#B0B0B0;" | &lt;tt&gt;Ter&lt;/tt&gt; &lt;tt&gt;(*)&lt;/tt&gt;
+|style="background-color:#bbbfe0;" | &lt;tt&gt;Arg&lt;/tt&gt; &lt;tt&gt;(R)&lt;/tt&gt;
+|rowspan="4" |
+|-
+|&lt;tt&gt;AGG&lt;/tt&gt;
+|&lt;tt&gt;AGG&lt;/tt&gt;
+|colspan="3" style="background-color:#B0B0B0;" | &lt;tt&gt;Ter&lt;/tt&gt; &lt;tt&gt;(*)&lt;/tt&gt;
+|style="background-color:#bbbfe0;" | &lt;tt&gt;Arg&lt;/tt&gt; &lt;tt&gt;(R)&lt;/tt&gt;
+|-
+|&lt;tt&gt;ATA&lt;/tt&gt;
+|&lt;tt&gt;AUA&lt;/tt&gt;
+|colspan="3" style="background-color:#ffe75f;" | &lt;tt&gt;Met&lt;/tt&gt; &lt;tt&gt;(M)&lt;/tt&gt;
+|style="background-color:#ffe75f;" | &lt;tt&gt;Ile&lt;/tt&gt; &lt;tt&gt;(I)&lt;/tt&gt;
+|-
+|&lt;tt&gt;TGA&lt;/tt&gt;
+|&lt;tt&gt;UGA&lt;/tt&gt;
+|colspan="3" style="background-color:#ffe75f;" | &lt;tt&gt;Trp&lt;/tt&gt; &lt;tt&gt;(W)&lt;/tt&gt;
+|style="background-color:#B0B0B0;" | &lt;tt&gt;Ter&lt;/tt&gt; &lt;tt&gt;(*)&lt;/tt&gt;
+|-
+|rowspan="8" | [[Yeast mitochondrial code|Yeast mitochondrial]]
+|rowspan="8" | 3
+|&lt;tt&gt;ATA&lt;/tt&gt;
+|&lt;tt&gt;AUA&lt;/tt&gt;
+|colspan="3" style="background-color:#ffe75f;" | &lt;tt&gt;Met&lt;/tt&gt; &lt;tt&gt;(M)&lt;/tt&gt;
+|style="background-color:#ffe75f;" | &lt;tt&gt;Ile&lt;/tt&gt; &lt;tt&gt;(I)&lt;/tt&gt;
+|rowspan="8" |
+|-
+|&lt;tt&gt;CTT&lt;/tt&gt;
+|&lt;tt&gt;CUU&lt;/tt&gt;
+|colspan="3" style="background-color:#b3dec0;" | &lt;tt&gt;Thr&lt;/tt&gt; &lt;tt&gt;(T)&lt;/tt&gt;
+|style="background-color:#ffe75f;" | &lt;tt&gt;Leu&lt;/tt&gt; &lt;tt&gt;(L)&lt;/tt&gt;
+|-
+|&lt;tt&gt;CTC&lt;/tt&gt;
+|&lt;tt&gt;CUC&lt;/tt&gt;
+|colspan="3" style="background-color:#b3dec0;" | &lt;tt&gt;Thr&lt;/tt&gt; &lt;tt&gt;(T)&lt;/tt&gt;
+|style="background-color:#ffe75f;" | &lt;tt&gt;Leu&lt;/tt&gt; &lt;tt&gt;(L)&lt;/tt&gt;
+|-
+|&lt;tt&gt;CTA&lt;/tt&gt;
+|&lt;tt&gt;CUA&lt;/tt&gt;
+|colspan="3" style="background-color:#b3dec0;" | &lt;tt&gt;Thr&lt;/tt&gt; &lt;tt&gt;(T)&lt;/tt&gt;
+|style="background-color:#ffe75f;" | &lt;tt&gt;Leu&lt;/tt&gt; &lt;tt&gt;(L)&lt;/tt&gt;
+|-
+|&lt;tt&gt;CTG&lt;/tt&gt;
+|&lt;tt&gt;CUG&lt;/tt&gt;
+|colspan="3" style="background-color:#b3dec0;" | &lt;tt&gt;Thr&lt;/tt&gt; &lt;tt&gt;(T)&lt;/tt&gt;
+|style="background-color:#ffe75f;" | &lt;tt&gt;Leu&lt;/tt&gt; &lt;tt&gt;(L)&lt;/tt&gt;
+|-
+|&lt;tt&gt;TGA&lt;/tt&gt;
+|&lt;tt&gt;UGA&lt;/tt&gt;
+|colspan="3" style="background-color:#ffe75f;" | &lt;tt&gt;Trp&lt;/tt&gt; &lt;tt&gt;(W)&lt;/tt&gt;
+|style="background-color:#B0B0B0;" | &lt;tt&gt;Ter&lt;/tt&gt; &lt;tt&gt;(*)&lt;/tt&gt;
+|-
+|&lt;tt&gt;CGA&lt;/tt&gt;
+|&lt;tt&gt;CGA&lt;/tt&gt;
+|colspan="3" | &lt;tt&gt;absent&lt;/tt&gt;
+|style="background-color:#bbbfe0;" | &lt;tt&gt;Arg&lt;/tt&gt; &lt;tt&gt;(R)&lt;/tt&gt;
+|-
+|&lt;tt&gt;CGC&lt;/tt&gt;
+|&lt;tt&gt;CGC&lt;/tt&gt;
+|colspan="3" | &lt;tt&gt;absent&lt;/tt&gt;
+|style="background-color:#bbbfe0;" | &lt;tt&gt;Arg&lt;/tt&gt; &lt;tt&gt;(R)&lt;/tt&gt;
+|-
+|rowspan="1" | [[The mold, protozoan, and coelenterate mitochondrial code and the mycoplasma/spiroplasma code|Mold, protozoan, and coelenterate mitochondrial + Mycoplasma / Spiroplasma]]
+|rowspan="1" | 4
+|&lt;tt&gt;TGA&lt;/tt&gt;
+|&lt;tt&gt;UGA&lt;/tt&gt;
+|colspan="3" style="background-color:#ffe75f;" | &lt;tt&gt;Trp&lt;/tt&gt; &lt;tt&gt;(W)&lt;/tt&gt;
+|style="background-color:#B0B0B0;" | &lt;tt&gt;Ter&lt;/tt&gt; &lt;tt&gt;(*)&lt;/tt&gt;
+|rowspan="1" |Includes the translation table 7 ([[kinetoplast]]s).
+|-
+|rowspan="4" | [[Invertebrate mitochondrial code|Invertebrate mitochondrial]]
+|rowspan="4" | 5
+|&lt;tt&gt;AGA&lt;/tt&gt;
+|&lt;tt&gt;AGA&lt;/tt&gt;
+|colspan="3" style="background-color:#b3dec0;" | &lt;tt&gt;Ser&lt;/tt&gt; &lt;tt&gt;(S)&lt;/tt&gt;
+|style="background-color:#bbbfe0;" | &lt;tt&gt;Arg&lt;/tt&gt; &lt;tt&gt;(R)&lt;/tt&gt;
+|rowspan="4" |
+|-
+|&lt;tt&gt;AGG&lt;/tt&gt;
+|&lt;tt&gt;AGG&lt;/tt&gt;
+|colspan="3" style="background-color:#b3dec0;" | &lt;tt&gt;Ser&lt;/tt&gt; &lt;tt&gt;(S)&lt;/tt&gt;
+|style="background-color:#bbbfe0;" | &lt;tt&gt;Arg&lt;/tt&gt; &lt;tt&gt;(R)&lt;/tt&gt;
+|-
+|&lt;tt&gt;ATA&lt;/tt&gt;
+|&lt;tt&gt;AUA&lt;/tt&gt;
+|colspan="3" style="background-color:#ffe75f;" | &lt;tt&gt;Met&lt;/tt&gt; &lt;tt&gt;(M)&lt;/tt&gt;
+|style="background-color:#ffe75f;" | &lt;tt&gt;Ile&lt;/tt&gt; &lt;tt&gt;(I)&lt;/tt&gt;
+|-
+|&lt;tt&gt;TGA&lt;/tt&gt;
+|&lt;tt&gt;UGA&lt;/tt&gt;
+|colspan="3" style="background-color:#ffe75f;" | &lt;tt&gt;Trp&lt;/tt&gt; &lt;tt&gt;(W)&lt;/tt&gt;
+|style="background-color:#B0B0B0;" | &lt;tt&gt;Ter&lt;/tt&gt; &lt;tt&gt;(*)&lt;/tt&gt;
+|-
+|rowspan="2" | [[Ciliate, dasycladacean and hexamita nuclear code|Ciliate, dasycladacean and ''Hexamita'' nuclear]]
+|rowspan="2" | 6
+|&lt;tt&gt;TAA&lt;/tt&gt;
+|&lt;tt&gt;UAA&lt;/tt&gt;
+|colspan="3" style="background-color:#b3dec0;" | &lt;tt&gt;Gln&lt;/tt&gt; &lt;tt&gt;(Q)&lt;/tt&gt;
+|style="background-color:#B0B0B0;" | &lt;tt&gt;Ter&lt;/tt&gt; &lt;tt&gt;(*)&lt;/tt&gt;
+|rowspan="2" |
+|-
+|&lt;tt&gt;TAG&lt;/tt&gt;
+|&lt;tt&gt;UAG&lt;/tt&gt;
+|colspan="3" style="background-color:#b3dec0;" | &lt;tt&gt;Gln&lt;/tt&gt; &lt;tt&gt;(Q)&lt;/tt&gt;
+|style="background-color:#B0B0B0;" | &lt;tt&gt;Ter&lt;/tt&gt; &lt;tt&gt;(*)&lt;/tt&gt;
+|-
+|rowspan="4" | [[Echinoderm and flatworm mitochondrial code|Echinoderm and flatworm mitochondrial]]
+|rowspan="4" | 9
+|&lt;tt&gt;AAA&lt;/tt&gt;
+|&lt;tt&gt;AAA&lt;/tt&gt;
+|colspan="3" style="background-color:#b3dec0;" | &lt;tt&gt;Asn&lt;/tt&gt; &lt;tt&gt;(N)&lt;/tt&gt;
+|style="background-color:#bbbfe0;" | &lt;tt&gt;Lys&lt;/tt&gt; &lt;tt&gt;(K)&lt;/tt&gt;
+|rowspan="4" |
+|-
+|&lt;tt&gt;AGA&lt;/tt&gt;
+|&lt;tt&gt;AGA&lt;/tt&gt;
+|colspan="3" style="background-color:#b3dec0;" | &lt;tt&gt;Ser&lt;/tt&gt; &lt;tt&gt;(S)&lt;/tt&gt;
+|style="background-color:#bbbfe0;" | &lt;tt&gt;Arg&lt;/tt&gt; &lt;tt&gt;(R)&lt;/tt&gt;
+|-
+|&lt;tt&gt;AGG&lt;/tt&gt;
+|&lt;tt&gt;AGG&lt;/tt&gt;
+|colspan="3" style="background-color:#b3dec0;" | &lt;tt&gt;Ser&lt;/tt&gt; &lt;tt&gt;(S)&lt;/tt&gt;
+|style="background-color:#bbbfe0;" | &lt;tt&gt;Arg&lt;/tt&gt; &lt;tt&gt;(R)&lt;/tt&gt;
+|-
+|&lt;tt&gt;TGA&lt;/tt&gt;
+|&lt;tt&gt;UGA&lt;/tt&gt;
+|colspan="3" style="background-color:#ffe75f;" | &lt;tt&gt;Trp&lt;/tt&gt; &lt;tt&gt;(W)&lt;/tt&gt;
+|style="background-color:#B0B0B0;" | &lt;tt&gt;Ter&lt;/tt&gt; &lt;tt&gt;(*)&lt;/tt&gt;
+|-
+|rowspan="1" | [[The euplotid nuclear code|Euplotid nuclear]]
+|rowspan="1" | 10
+|&lt;tt&gt;TGA&lt;/tt&gt;
+|&lt;tt&gt;UGA&lt;/tt&gt;
+|colspan="3" style="background-color:#b3dec0;" | &lt;tt&gt;Cys&lt;/tt&gt; &lt;tt&gt;(C)&lt;/tt&gt;
+|style="background-color:#B0B0B0;" | &lt;tt&gt;Ter&lt;/tt&gt; &lt;tt&gt;(*)&lt;/tt&gt;
+|rowspan="1" |
+|-
+|rowspan="1" | [[Bacterial, archaeal and plant plastid code|Bacterial, archaeal and plant plastid]]
+|rowspan="1" | 11
+|
+|
+|colspan="3" |
+|
+|rowspan="1" | See translation table 1.
+|-
+|rowspan="1" | [[Alternative yeast nuclear code|Alternative yeast nuclear]]
+|rowspan="1" | 12
+|&lt;tt&gt;CTG&lt;/tt&gt;
+|&lt;tt&gt;CUG&lt;/tt&gt;
+|colspan="3" style="background-color:#b3dec0;" | &lt;tt&gt;Ser&lt;/tt&gt; &lt;tt&gt;(S)&lt;/tt&gt;
+|style="background-color:#ffe75f;" | &lt;tt&gt;Leu&lt;/tt&gt; &lt;tt&gt;(L)&lt;/tt&gt;
+|rowspan="1" |
+|-
+|rowspan="4" | [[Ascidian mitochondrial code|Ascidian mitochondrial]]
+|rowspan="4" | 13
+|&lt;tt&gt;AGA&lt;/tt&gt;
+|&lt;tt&gt;AGA&lt;/tt&gt;
+|colspan="3" style="background-color:#ffe75f;" | &lt;tt&gt;Gly&lt;/tt&gt; &lt;tt&gt;(G)&lt;/tt&gt;
+|style="background-color:#bbbfe0;" | &lt;tt&gt;Arg&lt;/tt&gt; &lt;tt&gt;(R)&lt;/tt&gt;
+|rowspan="4" |
+|-
+|&lt;tt&gt;AGG&lt;/tt&gt;
+|&lt;tt&gt;AGG&lt;/tt&gt;
+|colspan="3" style="background-color:#ffe75f;" | &lt;tt&gt;Gly&lt;/tt&gt; &lt;tt&gt;(G)&lt;/tt&gt;
+|style="background-color:#bbbfe0;" | &lt;tt&gt;Arg&lt;/tt&gt; &lt;tt&gt;(R)&lt;/tt&gt;
+|-
+|&lt;tt&gt;ATA&lt;/tt&gt;
+|&lt;tt&gt;AUA&lt;/tt&gt;
+|colspan="3" style="background-color:#ffe75f;" | &lt;tt&gt;Met&lt;/tt&gt; &lt;tt&gt;(M)&lt;/tt&gt;
+|style="background-color:#ffe75f;" | &lt;tt&gt;Ile&lt;/tt&gt; &lt;tt&gt;(I)&lt;/tt&gt;
+|-
+|&lt;tt&gt;TGA&lt;/tt&gt;
+|&lt;tt&gt;UGA&lt;/tt&gt;
+|colspan="3" style="background-color:#ffe75f;" | &lt;tt&gt;Trp&lt;/tt&gt; &lt;tt&gt;(W)&lt;/tt&gt;
+|style="background-color:#B0B0B0;" | &lt;tt&gt;Ter&lt;/tt&gt; &lt;tt&gt;(*)&lt;/tt&gt;
+|-
+|rowspan="5" | [[Alternative flatworm mitochondrial code|Alternative flatworm mitochondrial]]
+|rowspan="5" | 14
+|&lt;tt&gt;AAA&lt;/tt&gt;
+|&lt;tt&gt;AAA&lt;/tt&gt;
+|colspan="3" style="background-color:#b3dec0;" | &lt;tt&gt;Asn&lt;/tt&gt; &lt;tt&gt;(N)&lt;/tt&gt;
+|style="background-color:#bbbfe0;" | &lt;tt&gt;Lys&lt;/tt&gt; &lt;tt&gt;(K)&lt;/tt&gt;
+|rowspan="5" |
+|-
+|&lt;tt&gt;AGA&lt;/tt&gt;
+|&lt;tt&gt;AGA&lt;/tt&gt;
+|colspan="3" style="background-color:#b3dec0;" | &lt;tt&gt;Ser&lt;/tt&gt; &lt;tt&gt;(S)&lt;/tt&gt;
+|style="background-color:#bbbfe0;" | &lt;tt&gt;Arg&lt;/tt&gt; &lt;tt&gt;(R)&lt;/tt&gt;
+|-
+|&lt;tt&gt;AGG&lt;/tt&gt;
+|&lt;tt&gt;AGG&lt;/tt&gt;
+|colspan="3" style="background-color:#b3dec0;" | &lt;tt&gt;Ser&lt;/tt&gt; &lt;tt&gt;(S)&lt;/tt&gt;
+|style="background-color:#bbbfe0;" | &lt;tt&gt;Arg&lt;/tt&gt; &lt;tt&gt;(R)&lt;/tt&gt;
+|-
+|&lt;tt&gt;TAA&lt;/tt&gt;
+|&lt;tt&gt;UAA&lt;/tt&gt;
+|colspan="3" style="background-color:#b3dec0;" | &lt;tt&gt;Tyr&lt;/tt&gt; &lt;tt&gt;(Y)&lt;/tt&gt;
+|style="background-color:#B0B0B0;" | &lt;tt&gt;Ter&lt;/tt&gt; &lt;tt&gt;(*)&lt;/tt&gt;
+|-
+|&lt;tt&gt;TGA&lt;/tt&gt;
+|&lt;tt&gt;UGA&lt;/tt&gt;
+|colspan="3" style="background-color:#ffe75f;" | &lt;tt&gt;Trp&lt;/tt&gt; &lt;tt&gt;(W)&lt;/tt&gt;
+|style="background-color:#B0B0B0;" | &lt;tt&gt;Ter&lt;/tt&gt; &lt;tt&gt;(*)&lt;/tt&gt;
+|-
+|rowspan="1" | [[Blepharisma nuclear code|''Blepharisma'' nuclear]]
+|rowspan="1" | 15
+|&lt;tt&gt;TAG&lt;/tt&gt;
+|&lt;tt&gt;UAG&lt;/tt&gt;
+|colspan="3" style="background-color:#b3dec0;" | &lt;tt&gt;Gln&lt;/tt&gt; &lt;tt&gt;(Q)&lt;/tt&gt;
+|style="background-color:#B0B0B0;" | &lt;tt&gt;Ter&lt;/tt&gt; &lt;tt&gt;(*)&lt;/tt&gt;
+|rowspan="1" | As of Nov. 18, 2016: absent from the NCBI update. Similar to 6.
+|-
+|rowspan="1" | [[Chlorophycean mitochondrial code|Chlorophycean mitochondrial]]
+|rowspan="1" | 16
+|&lt;tt&gt;TAG&lt;/tt&gt;
+|&lt;tt&gt;UAG&lt;/tt&gt;
+|colspan="3" style="background-color:#ffe75f;" | &lt;tt&gt;Leu&lt;/tt&gt; &lt;tt&gt;(L)&lt;/tt&gt;
+|style="background-color:#B0B0B0;" | &lt;tt&gt;Ter&lt;/tt&gt; &lt;tt&gt;(*)&lt;/tt&gt;
+|rowspan="1" |
+|-
+|rowspan="5" | [[Trematode mitochondrial code|Trematode mitochondrial]]
+|rowspan="5" | 21
+|&lt;tt&gt;TGA&lt;/tt&gt;
+|&lt;tt&gt;UGA&lt;/tt&gt;
+|colspan="3" style="background-color:#ffe75f;" | &lt;tt&gt;Trp&lt;/tt&gt; &lt;tt&gt;(W)&lt;/tt&gt;
+|style="background-color:#B0B0B0;" | &lt;tt&gt;Ter&lt;/tt&gt; &lt;tt&gt;(*)&lt;/tt&gt;
+|rowspan="5" |
+|-
+|&lt;tt&gt;ATA&lt;/tt&gt;
+|&lt;tt&gt;AUA&lt;/tt&gt;
+|colspan="3" style="background-color:#ffe75f;" | &lt;tt&gt;Met&lt;/tt&gt; &lt;tt&gt;(M)&lt;/tt&gt;
+|style="background-color:#ffe75f;" | &lt;tt&gt;Ile&lt;/tt&gt; &lt;tt&gt;(I)&lt;/tt&gt;
+|-
+|&lt;tt&gt;AGA&lt;/tt&gt;
+|&lt;tt&gt;AGA&lt;/tt&gt;
+|colspan="3" style="background-color:#b3dec0;" | &lt;tt&gt;Ser&lt;/tt&gt; &lt;tt&gt;(S)&lt;/tt&gt;
+|style="background-color:#bbbfe0;" | &lt;tt&gt;Arg&lt;/tt&gt; &lt;tt&gt;(R)&lt;/tt&gt;
+|-
+|&lt;tt&gt;AGG&lt;/tt&gt;
+|&lt;tt&gt;AGG&lt;/tt&gt;
+|colspan="3" style="background-color:#b3dec0;" | &lt;tt&gt;Ser&lt;/tt&gt; &lt;tt&gt;(S)&lt;/tt&gt;
+|style="background-color:#bbbfe0;" | &lt;tt&gt;Arg&lt;/tt&gt; &lt;tt&gt;(R)&lt;/tt&gt;
+|-
+|&lt;tt&gt;AAA&lt;/tt&gt;
+|&lt;tt&gt;AAA&lt;/tt&gt;
+|colspan="3" style="background-color:#b3dec0;" | &lt;tt&gt;Asn&lt;/tt&gt; &lt;tt&gt;(N)&lt;/tt&gt;
+|style="background-color:#bbbfe0;" | &lt;tt&gt;Lys&lt;/tt&gt; &lt;tt&gt;(K)&lt;/tt&gt;
+|-
+|rowspan="2" | [[Scenedesmus obliquus mitochondrial code|''Scenedesmus obliquus'' mitochondrial]]
+|rowspan="2" | 22
+|&lt;tt&gt;TCA&lt;/tt&gt;
+|&lt;tt&gt;UCA&lt;/tt&gt;
+|colspan="3" style="background-color:#B0B0B0;" | &lt;tt&gt;Ter&lt;/tt&gt; &lt;tt&gt;(*)&lt;/tt&gt;
+|style="background-color:#b3dec0;" | &lt;tt&gt;Ser&lt;/tt&gt; &lt;tt&gt;(S)&lt;/tt&gt;
+|rowspan="2" |
+|-
+|&lt;tt&gt;TAG&lt;/tt&gt;
+|&lt;tt&gt;UAG&lt;/tt&gt;
+|colspan="3" style="background-color:#ffe75f;" | &lt;tt&gt;Leu&lt;/tt&gt; &lt;tt&gt;(L)&lt;/tt&gt;
+|style="background-color:#B0B0B0;" | &lt;tt&gt;Ter&lt;/tt&gt; &lt;tt&gt;(*)&lt;/tt&gt;
+|-
+|rowspan="1" | [[Thraustochytrium mitochondrial code|''Thraustochytrium'' mitochondrial]]
+|rowspan="1" | 23
+|&lt;tt&gt;TTA&lt;/tt&gt;
+|&lt;tt&gt;UUA&lt;/tt&gt;
+|colspan="3" style="background-color:#B0B0B0;" | &lt;tt&gt;Ter&lt;/tt&gt; &lt;tt&gt;(*)&lt;/tt&gt;
+|style="background-color:#ffe75f;" | &lt;tt&gt;Leu&lt;/tt&gt; &lt;tt&gt;(L)&lt;/tt&gt;
+|rowspan="1" |Similar to translation table 11.
+|-
+|rowspan="3" | [[Pterobranchia mitochondrial code|Pterobranchia mitochondrial]]
+|rowspan="3" | 24
+|&lt;tt&gt;AGA&lt;/tt&gt;
+|&lt;tt&gt;AGA&lt;/tt&gt;
+|colspan="3" style="background-color:#b3dec0;" | &lt;tt&gt;Ser&lt;/tt&gt; &lt;tt&gt;(S)&lt;/tt&gt;
+|style="background-color:#bbbfe0;" | &lt;tt&gt;Arg&lt;/tt&gt; &lt;tt&gt;(R)&lt;/tt&gt;
+|rowspan="3" |
+|-
+|&lt;tt&gt;AGG&lt;/tt&gt;
+|&lt;tt&gt;AGG&lt;/tt&gt;
+|colspan="3" style="background-color:#bbbfe0;" | &lt;tt&gt;Lys&lt;/tt&gt; &lt;tt&gt;(K)&lt;/tt&gt;
+|style="background-color:#bbbfe0;" | &lt;tt&gt;Arg&lt;/tt&gt; &lt;tt&gt;(R)&lt;/tt&gt;
+|-
+|&lt;tt&gt;TGA&lt;/tt&gt;
+|&lt;tt&gt;UGA&lt;/tt&gt;
+|colspan="3" style="background-color:#ffe75f;" | &lt;tt&gt;Trp&lt;/tt&gt; &lt;tt&gt;(W)&lt;/tt&gt;
+|style="background-color:#B0B0B0;" | &lt;tt&gt;Ter&lt;/tt&gt; &lt;tt&gt;(*)&lt;/tt&gt;
+|-
+|rowspan="1" | [[Candidate division SR1 and gracilibacteria code|Candidate division SR1 and Gracilibacteria]]
+|rowspan="1" | 25
+|&lt;tt&gt;TGA&lt;/tt&gt;
+|&lt;tt&gt;UGA&lt;/tt&gt;
+|colspan="3" style="background-color:#ffe75f;" | &lt;tt&gt;Gly&lt;/tt&gt; &lt;tt&gt;(G)&lt;/tt&gt;
+|style="background-color:#B0B0B0;" | &lt;tt&gt;Ter&lt;/tt&gt; &lt;tt&gt;(*)&lt;/tt&gt;
+|rowspan="1" |
+|-
+|rowspan="1" | [[Pachysolen tannophilus nuclear code|''Pachysolen tannophilus'' nuclear]]
+|rowspan="1" | 26
+|&lt;tt&gt;CTG&lt;/tt&gt;
+|&lt;tt&gt;CUG&lt;/tt&gt;
+|colspan="3" style="background-color:#ffe75f;" | &lt;tt&gt;Ala&lt;/tt&gt; &lt;tt&gt;(A)&lt;/tt&gt;
+|style="background-color:#ffe75f;" | &lt;tt&gt;Leu&lt;/tt&gt; &lt;tt&gt;(L)&lt;/tt&gt;
+|rowspan="1" |
+|-
+|rowspan="3" | [[Karyorelict nuclear code|Karyorelict nuclear]]
+|rowspan="3" scope="col" style="width: 50px;" | 27
+|&lt;tt&gt;TAA&lt;/tt&gt;
+|&lt;tt&gt;UAA&lt;/tt&gt;
+|colspan="3" style="background-color:#b3dec0;" | &lt;tt&gt;Gln&lt;/tt&gt; &lt;tt&gt;(Q)&lt;/tt&gt;
+|style="background-color:#B0B0B0;" | &lt;tt&gt;Ter&lt;/tt&gt; &lt;tt&gt;(*)&lt;/tt&gt;
+|rowspan="3" |
+|-
+|&lt;tt&gt;TAG&lt;/tt&gt;
+|&lt;tt&gt;UAG&lt;/tt&gt;
+|colspan="3" style="background-color:#b3dec0;" | &lt;tt&gt;Gln&lt;/tt&gt; &lt;tt&gt;(Q)&lt;/tt&gt;
+|style="background-color:#B0B0B0;" | &lt;tt&gt;Ter&lt;/tt&gt; &lt;tt&gt;(*)&lt;/tt&gt;
+|-
+|&lt;tt&gt;TGA&lt;/tt&gt;
+|&lt;tt&gt;UGA&lt;/tt&gt;
+|style="width: 50px; background-color:#B0B0B0;" | &lt;tt&gt;Ter&lt;/tt&gt; &lt;tt&gt;(*)&lt;/tt&gt; || style="width: 10px;" | or || style="width: 50px; background-color:#ffe75f;" | &lt;tt&gt;Trp&lt;/tt&gt; &lt;tt&gt;(W)&lt;/tt&gt;
+|style="background-color:#B0B0B0;" | &lt;tt&gt;Ter&lt;/tt&gt; &lt;tt&gt;(*)&lt;/tt&gt;
+|-
+|rowspan="3" | [[Condylostoma nuclear code|''Condylostoma'' nuclear]]
+|rowspan="3" | 28
+|&lt;tt&gt;TAA&lt;/tt&gt;
+|&lt;tt&gt;UAA&lt;/tt&gt;
+|style="width: 50px; background-color:#B0B0B0;" | &lt;tt&gt;Ter&lt;/tt&gt; &lt;tt&gt;(*)&lt;/tt&gt; || or || style="width: 50px; background-color:#b3dec0;" | &lt;tt&gt;Gln&lt;/tt&gt; &lt;tt&gt;(Q)&lt;/tt&gt;
+|style="background-color:#B0B0B0;" | &lt;tt&gt;Ter&lt;/tt&gt; &lt;tt&gt;(*)&lt;/tt&gt;
+|rowspan="3" |
+|-
+|&lt;tt&gt;TAG&lt;/tt&gt;
+|&lt;tt&gt;UAG&lt;/tt&gt;
+|style="width: 50px; background-color:#B0B0B0;" | &lt;tt&gt;Ter&lt;/tt&gt; &lt;tt&gt;(*)&lt;/tt&gt; || or || style="width: 50px; background-color:#b3dec0;" | &lt;tt&gt;Gln&lt;/tt&gt; &lt;tt&gt;(Q)&lt;/tt&gt;
+|style="background-color:#B0B0B0;" | &lt;tt&gt;Ter&lt;/tt&gt; &lt;tt&gt;(*)&lt;/tt&gt;
+|-
+|&lt;tt&gt;TGA&lt;/tt&gt;
+|&lt;tt&gt;UGA&lt;/tt&gt;
+|style="width: 50px; background-color:#B0B0B0;" | &lt;tt&gt;Ter&lt;/tt&gt; &lt;tt&gt;(*)&lt;/tt&gt; || or || style="width: 50px; background-color:#ffe75f;" | &lt;tt&gt;Trp&lt;/tt&gt; &lt;tt&gt;(W)&lt;/tt&gt;
+|style="background-color:#B0B0B0;" | &lt;tt&gt;Ter&lt;/tt&gt; &lt;tt&gt;(*)&lt;/tt&gt;
+|-
+|rowspan="2" | [[Mesodinium nuclear code|''Mesodinium'' nuclear]]
+|rowspan="2" | 29
+|&lt;tt&gt;TAA&lt;/tt&gt;
+|&lt;tt&gt;UAA&lt;/tt&gt;
+|colspan="3" style="background-color:#b3dec0;" | &lt;tt&gt;Tyr&lt;/tt&gt; &lt;tt&gt;(Y)&lt;/tt&gt;
+|style="background-color:#B0B0B0;" | &lt;tt&gt;Ter&lt;/tt&gt; &lt;tt&gt;(*)&lt;/tt&gt;
+|rowspan="2" |
+|-
+|&lt;tt&gt;TAG&lt;/tt&gt;
+|&lt;tt&gt;UAG&lt;/tt&gt;
+|colspan="3" style="background-color:#b3dec0;" | &lt;tt&gt;Tyr&lt;/tt&gt; &lt;tt&gt;(Y)&lt;/tt&gt;
+|style="background-color:#B0B0B0;" | &lt;tt&gt;Ter&lt;/tt&gt; &lt;tt&gt;(*)&lt;/tt&gt;
+|-
+|rowspan="2" | [[Peritrich nuclear code|Peritrich nuclear]]
+|rowspan="2" | 30
+|&lt;tt&gt;TAA&lt;/tt&gt;
+|&lt;tt&gt;UAA&lt;/tt&gt;
+|colspan="3" style="background-color:#f8b7d3;" | &lt;tt&gt;Glu&lt;/tt&gt; &lt;tt&gt;(E)&lt;/tt&gt;
+|style="background-color:#B0B0B0;" | &lt;tt&gt;Ter&lt;/tt&gt; &lt;tt&gt;(*)&lt;/tt&gt;
+|rowspan="2" |
+|-
+|&lt;tt&gt;TAG&lt;/tt&gt;
+|&lt;tt&gt;UAG&lt;/tt&gt;
+|colspan="3" style="background-color:#f8b7d3;" | &lt;tt&gt;Glu&lt;/tt&gt; &lt;tt&gt;(E)&lt;/tt&gt;
+|style="background-color:#B0B0B0;" | &lt;tt&gt;Ter&lt;/tt&gt; &lt;tt&gt;(*)&lt;/tt&gt;
+|-
+|rowspan="3" | [[Blastocrithidia nuclear code|''Blastocrithidia'' nuclear]]
+|rowspan="3" | 31
+|&lt;tt&gt;TAA&lt;/tt&gt;
+|&lt;tt&gt;UAA&lt;/tt&gt;
+|style="width: 50px; background-color:#B0B0B0;" | &lt;tt&gt;Ter&lt;/tt&gt; &lt;tt&gt;(*)&lt;/tt&gt; || or || style="width: 50px; background-color:#f8b7d3;" | &lt;tt&gt;Glu&lt;/tt&gt; &lt;tt&gt;(E)&lt;/tt&gt;
+|style="background-color:#B0B0B0;" | &lt;tt&gt;Ter&lt;/tt&gt; &lt;tt&gt;(*)&lt;/tt&gt;
+|rowspan="3" |
+|-
+|&lt;tt&gt;TAG&lt;/tt&gt;
+|&lt;tt&gt;UAG&lt;/tt&gt;
+|style="width: 50px; background-color:#B0B0B0;" | &lt;tt&gt;Ter&lt;/tt&gt; &lt;tt&gt;(*)&lt;/tt&gt; || or || style="width: 50px; background-color:#f8b7d3;" |  &lt;tt&gt;Glu&lt;/tt&gt; &lt;tt&gt;(E)&lt;/tt&gt;
+|style="background-color:#B0B0B0;" | &lt;tt&gt;Ter&lt;/tt&gt; &lt;tt&gt;(*)&lt;/tt&gt;
+|-
+|&lt;tt&gt;TGA&lt;/tt&gt;
+|&lt;tt&gt;UGA&lt;/tt&gt;
+|colspan="3" style="background-color:#ffe75f;" | &lt;tt&gt;Trp&lt;/tt&gt; &lt;tt&gt;(W)&lt;/tt&gt;
+|style="background-color:#B0B0B0;" | &lt;tt&gt;Ter&lt;/tt&gt; &lt;tt&gt;(*)&lt;/tt&gt;
+|-
+|rowspan="4" | [[Cephalodiscidae mitochondrial code]]
+|rowspan="4" | 33
+|&lt;tt&gt;AGA&lt;/tt&gt;
+|&lt;tt&gt;AGA&lt;/tt&gt;
+|colspan="3" style="background-color:#b3dec0;" | &lt;tt&gt;Ser&lt;/tt&gt; &lt;tt&gt;(S)&lt;/tt&gt;
+|style="background-color:#bbbfe0;" | &lt;tt&gt;Arg&lt;/tt&gt; &lt;tt&gt;(R)&lt;/tt&gt;
+|rowspan="4" |Similar to translation table 24.
+|-
+|&lt;tt&gt;AGG&lt;/tt&gt;
+|&lt;tt&gt;AGG&lt;/tt&gt;
+|colspan="3" style="background-color:#bbbfe0;" | &lt;tt&gt;Lys&lt;/tt&gt; &lt;tt&gt;(K)&lt;/tt&gt;
+|style="background-color:#bbbfe0;" | &lt;tt&gt;Arg&lt;/tt&gt; &lt;tt&gt;(R)&lt;/tt&gt;
+|-
+|&lt;tt&gt;TAA&lt;/tt&gt;
+|&lt;tt&gt;UAA&lt;/tt&gt;
+|colspan="3" style="background-color:#b3dec0;" | &lt;tt&gt;Tyr&lt;/tt&gt; &lt;tt&gt;(Y)&lt;/tt&gt;
+|style="background-color:#B0B0B0;" | &lt;tt&gt;Ter&lt;/tt&gt; &lt;tt&gt;(*)&lt;/tt&gt;
+|-
+|&lt;tt&gt;TGA&lt;/tt&gt;
+|&lt;tt&gt;UGA&lt;/tt&gt;
+|colspan="3" style="background-color:#ffe75f;" | &lt;tt&gt;Trp&lt;/tt&gt; &lt;tt&gt;(W)&lt;/tt&gt;
+|style="background-color:#B0B0B0;" | &lt;tt&gt;Ter&lt;/tt&gt; &lt;tt&gt;(*)&lt;/tt&gt;
+|}
+
+{{collapse bottom}}
+
+==Origin==
+The genetic code is a key part of the [[origin of life|history of life]], according to one version of which self-replicating RNA molecules preceded life as we know it. This is the [[RNA world hypothesis]]. Under this hypothesis, any model for the emergence of the genetic code is intimately related to a model of the transfer from [[ribozyme]]s (RNA enzymes) to proteins as the principal enzymes in cells. In line with the RNA world hypothesis, transfer RNA molecules appear to have evolved before modern [[aminoacyl-tRNA synthetase]]s, so the latter cannot be part of the explanation of its patterns.&lt;ref name=De1998&gt;{{cite journal | vauthors = Ribas de Pouplana L, Turner RJ, Steer BA, Schimmel P | title = Genetic code origins: tRNAs older than their synthetases? | journal = Proceedings of the National Academy of Sciences of the United States of America | volume = 95 | issue = 19 | pages = 11295–300 | date = Sep 1998 | pmid = 9736730 | pmc = 21636 | doi = 10.1073/pnas.95.19.11295 | bibcode = 1998PNAS...9511295D }}&lt;/ref&gt;
+
+A hypothetical randomly evolved genetic code further motivates a biochemical or evolutionary model for its origin. If amino acids were randomly assigned to triplet codons, there would be 1.5&amp;nbsp;×&amp;nbsp;10&lt;sup&gt;84&lt;/sup&gt; possible genetic codes.&lt;ref name="isbn0-674-05075-4"&gt;{{cite book|first=Michael |last=Yarus|title=Life from an RNA World: The Ancestor Within|url={{google books |plainurl=y |id=-YLBMmJE1WwC}}|year=2010|publisher=Harvard University Press|isbn=978-0-674-05075-4}}&lt;/ref&gt;{{rp|[{{google books |plainurl=y |id=-YLBMmJE1WwC|page=163}} 163]}} This number is found by calculating the number of ways that  21 items (20 amino acids plus one stop) can be placed in 64 bins, wherein each item is used at least once.&lt;ref&gt;{{Cite web|url=http://community.wolfram.com/groups/-/m/t/319970|title=Mathematica function for # possible arrangements of items in bins? – Online Technical Discussion Groups—Wolfram Community|website=community.wolfram.com|language=en-US|access-date=2017-02-03}}&lt;/ref&gt; However, the distribution of codon assignments in the genetic code is nonrandom.&lt;ref name="pmid9732450"&gt;{{cite journal | vauthors = Freeland SJ, Hurst LD | s2cid = 20130470 | title = The genetic code is one in a million | journal = Journal of Molecular Evolution | volume = 47 | issue = 3 | pages = 238–48 | date = Sep 1998 | pmid = 9732450 | doi = 10.1007/PL00006381 | bibcode = 1998JMolE..47..238F }}&lt;/ref&gt; In particular, the genetic code clusters certain amino acid assignments.
+
+Amino acids that share the same biosynthetic pathway tend to have the same first base in their codons. This could be an evolutionary relic of an early, simpler genetic code with fewer amino acids that later evolved to code a larger set of amino acids.&lt;ref name="pmid2650752"&gt;{{cite journal | vauthors = Taylor FJ, Coates D | title = The code within the codons | journal = Bio Systems | volume = 22 | issue = 3 | pages = 177–87 | date = 1989 | pmid = 2650752 | doi = 10.1016/0303-2647(89)90059-2 }}&lt;/ref&gt; It could also reflect steric and chemical properties that had another effect on the codon during its evolution. Amino acids with similar physical properties also tend to have similar codons,&lt;ref name="pmid2514270"&gt;{{cite journal | vauthors = Di Giulio M | s2cid = 20803686 | title = The extension reached by the minimization of the polarity distances during the evolution of the genetic code | journal = Journal of Molecular Evolution | volume = 29 | issue = 4 | pages = 288–93 | date = Oct 1989 | pmid = 2514270 | doi = 10.1007/BF02103616 | bibcode = 1989JMolE..29..288D }}&lt;/ref&gt;&lt;ref name="pmid6928661"&gt;{{cite journal | vauthors = Wong JT | title = Role of minimization of chemical distances between amino acids in the evolution of the genetic code | journal = Proceedings of the National Academy of Sciences of the United States of America | volume = 77 | issue = 2 | pages = 1083–6 | date = Feb 1980 | pmid = 6928661 | pmc = 348428 | doi = 10.1073/pnas.77.2.1083 | bibcode = 1980PNAS...77.1083W }}&lt;/ref&gt; reducing the problems caused by point mutations and mistranslations.&lt;ref name="pmid9732450" /&gt;
+
+Given the non-random genetic triplet coding scheme, a tenable hypothesis for the origin of genetic code could address multiple aspects of the codon table, such as absence of codons for D-amino acids, secondary codon patterns for some amino acids, confinement of synonymous positions to third position, the small set of only 20 amino acids (instead of a number approaching 64), and the relation of stop codon patterns to amino acid coding patterns.&lt;ref name="pmid21779963"&gt;{{cite journal | vauthors = Erives A | title = A model of proto-anti-codon RNA enzymes requiring L-amino acid homochirality | journal = Journal of Molecular Evolution | volume = 73 | issue = 1–2 | pages = 10–22 | date = Aug 2011 | pmid = 21779963 |  doi = 10.1007/s00239-011-9453-4 | pmc=3223571| bibcode = 2011JMolE..73...10E }}&lt;/ref&gt;
+
+Three main hypotheses address the origin of the genetic code. Many models belong to one of them or to a hybrid:&lt;ref name="pmid10742043"&gt;{{cite journal | vauthors = Freeland SJ, Knight RD, Landweber LF, Hurst LD | title = Early fixation of an optimal genetic code | journal = Molecular Biology and Evolution | volume = 17 | issue = 4 | pages = 511–18 | date = Apr 2000 | pmid = 10742043 | doi=10.1093/oxfordjournals.molbev.a026331| doi-access = free }}&lt;/ref&gt;
+
+*Random freeze: the genetic code was randomly created. For example, early [[tRNA]]-like ribozymes may have had different affinities for amino acids, with codons emerging from another part of the ribozyme that exhibited random variability. Once enough [[peptide]]s were coded for, any major random change in the genetic code would have been lethal; hence it became "frozen".&lt;ref name="pmid4887876"&gt;{{cite journal | vauthors = Crick FH | title = The origin of the genetic code | journal = Journal of Molecular Evolution | volume = 38 | issue = 3 | pages = 367–79 | date = Dec 1968 | pmid = 4887876 | doi=10.1016/0022-2836(68)90392-6}}&lt;/ref&gt;
+*Stereochemical affinity: the genetic code is a result of a high affinity between each amino acid and its codon or anti-codon; the latter option implies that pre-tRNA molecules matched their corresponding amino acids by this affinity. Later during evolution, this matching was gradually replaced with matching by aminoacyl-tRNA synthetases.&lt;ref name="pmid21779963" /&gt;&lt;ref name="pmid279919"&gt;{{cite journal | vauthors = Hopfield JJ | title = Origin of the genetic code: a testable hypothesis based on tRNA structure, sequence, and kinetic proofreading | journal = PNAS | volume = 75 | issue = 9 | pages = 4334–4338 | date = 1978 | pmid = 279919 | doi=10.1073/pnas.75.9.4334 | pmc=336109| bibcode = 1978PNAS...75.4334H }}&lt;/ref&gt;&lt;ref name="pmid19795157" /&gt;
+*Optimality: the genetic code continued to evolve after its initial creation, so that the current code maximizes some [[fitness (biology)|fitness]] function, usually some kind of error minimization.&lt;ref name="pmid21779963" /&gt;&lt;ref name="pmid10742043" /&gt;
+
+Hypotheses have addressed a variety of scenarios:&lt;ref name="pmid10366854"&gt;{{cite journal | vauthors = Knight RD, Freeland SJ, Landweber LF | title = Selection, history and chemistry: the three faces of the genetic code | journal = Trends in Biochemical Sciences | volume = 24 | issue = 6 | pages = 241–7 | date = Jun 1999 | pmid = 10366854 | doi = 10.1016/S0968-0004(99)01392-4 | url = ftp://rnaworld.princeton.edu/pub/export/TiBS.pdf }}&lt;/ref&gt;
+* Chemical principles govern specific RNA interaction with amino acids. Experiments with [[aptamer]]s showed that some amino acids have a selective chemical affinity for their codons.&lt;ref name="pmid9751648"&gt;{{cite journal | vauthors = Knight RD, Landweber LF | title = Rhyme or reason: RNA-arginine interactions and the genetic code | journal = Chemistry &amp; Biology | volume = 5 | issue = 9 | pages = R215–20 | date = Sep 1998 | pmid = 9751648 | doi = 10.1016/S1074-5521(98)90001-1 | doi-access = free }}&lt;/ref&gt; Experiments showed that of 8 amino acids tested, 6 show some RNA triplet-amino acid association.&lt;ref name="isbn0-674-05075-4" /&gt;&lt;ref name="pmid19795157"&gt;{{cite journal | vauthors = Yarus M, Widmann JJ, Knight R | title = RNA-amino acid binding: a stereochemical era for the genetic code | journal = Journal of Molecular Evolution | volume = 69 | issue = 5 | pages = 406–29 | date = Nov 2009 | pmid = 19795157 | doi = 10.1007/s00239-009-9270-1 | bibcode = 2009JMolE..69..406Y | doi-access = free }}&lt;/ref&gt;
+* Biosynthetic expansion. The genetic code grew from a simpler earlier code through a process of "biosynthetic expansion". Primordial life "discovered" new amino acids (for example, as by-products of [[metabolism]]) and later incorporated some of these into the machinery of genetic coding.&lt;ref&gt;{{cite journal | vauthors = Sengupta S, Higgs PG | s2cid = 15542587 | year = 2015 | title = Pathways of genetic code evolution in ancient and modern organisms | journal = Journal of Molecular Evolution | volume = 80 | issue = 5–6| pages = 229–243 | doi=10.1007/s00239-015-9686-8 | pmid=26054480| bibcode = 2015JMolE..80..229S}}&lt;/ref&gt; Although much circumstantial evidence has been found to suggest that fewer amino acid types were used in the past,&lt;ref name="pmid12270892"&gt;{{cite journal | vauthors = Brooks DJ, Fresco JR, Lesk AM, Singh M | title = Evolution of amino acid frequencies in proteins over deep time: inferred order of introduction of amino acids into the genetic code | journal = Molecular Biology and Evolution | volume = 19 | issue = 10 | pages = 1645–55 | date = Oct 2002 | pmid = 12270892 | doi = 10.1093/oxfordjournals.molbev.a003988 | url = http://mbe.oxfordjournals.org/content/19/10/1645.long | doi-access = free }}&lt;/ref&gt; precise and detailed hypotheses about which amino acids entered the code in what order are controversial.&lt;ref name="pmid9115171"&gt;{{cite journal | vauthors = Amirnovin R | s2cid = 23334860 | title = An analysis of the metabolic theory of the origin of the genetic code | journal = Journal of Molecular Evolution | volume = 44 | issue = 5 | pages = 473–6 | date = May 1997 | pmid = 9115171 | doi = 10.1007/PL00006170 | bibcode = 1997JMolE..44..473A }}&lt;/ref&gt;&lt;ref name="pmid11087835"&gt;{{cite journal | vauthors = Ronneberg TA, Landweber LF, Freeland SJ | title = Testing a biosynthetic theory of the genetic code: fact or artifact? | journal = Proceedings of the National Academy of Sciences of the United States of America | volume = 97 | issue = 25 | pages = 13690–5 | date = Dec 2000 | pmid = 11087835 | pmc = 17637 | doi = 10.1073/pnas.250403097 | bibcode = 2000PNAS...9713690R }}&lt;/ref&gt;
+* Natural selection has led to codon assignments of the genetic code that minimize the effects of [[mutation]]s.&lt;ref name="pmid14604186"&gt;{{cite journal | vauthors = Freeland SJ, Wu T, Keulmann N | s2cid = 18823745 | title = The case for an error minimizing standard genetic code | journal = Origins of Life and Evolution of the Biosphere | volume = 33 | issue = 4–5 | pages = 457–77 | date = Oct 2003 | pmid = 14604186 | doi = 10.1023/A:1025771327614 | bibcode = 2003OLEB...33..457F }}&lt;/ref&gt; A recent hypothesis&lt;ref name="pmid19479032"&gt;{{cite journal | vauthors = Baranov PV, Venin M, Provan G | title = Codon size reduction as the origin of the triplet genetic code | journal = PLOS ONE | volume = 4 | issue = 5 | pages = e5708 | date = 2009 | pmid = 19479032 | pmc = 2682656 | doi = 10.1371/journal.pone.0005708 | editor1-last = Gemmell | bibcode = 2009PLoSO...4.5708B | editor1-first = Neil John | name-list-format = vanc }}&lt;/ref&gt; suggests that the triplet code was derived from codes that used longer than triplet codons (such as quadruplet codons). Longer than triplet decoding would increase codon redundancy and would be more error resistant. This feature could allow accurate decoding absent complex translational machinery such as the [[ribosome]], such as before cells began making ribosomes.
+* Information channels: [[information theory|Information-theoretic]] approaches model the process of translating the genetic code into corresponding amino acids as an error-prone information channel.&lt;ref name="pmid17826800"&gt;{{cite journal | vauthors = Tlusty T | title = A model for the emergence of the genetic code as a transition in a noisy information channel | journal = Journal of Theoretical Biology | volume = 249 | issue = 2 | pages = 331–42 | date = Nov 2007 | pmid = 17826800 | doi = 10.1016/j.jtbi.2007.07.029 | arxiv = 1007.4122 }}&lt;/ref&gt; The inherent noise (that is, the error) in the channel poses the organism with a fundamental question: how can a genetic code be constructed to withstand noise&lt;ref&gt;{{cite book | vauthors = Sonneborn TM | veditors =Bryson V, Vogel H | title = Evolving genes and proteins |publisher=Academic Press|location=New York |date=1965|pages=377–397}}&lt;/ref&gt; while accurately and efficiently translating information? These [[rate-distortion theory|"rate-distortion"]] models&lt;ref name="pmid 18352335"&gt;{{cite journal | vauthors = Tlusty T | title = Rate-distortion scenario for the emergence and evolution of noisy molecular codes | journal = Physical Review Letters | volume = 100 | issue = 4 | pages = 048101 | date = Feb 2008 | pmid = 18352335 | doi = 10.1103/PhysRevLett.100.048101 | arxiv = 1007.4149 | bibcode = 2008PhRvL.100d8101T }}&lt;/ref&gt; suggest that the genetic code originated as a result of the interplay of the three conflicting evolutionary forces: the needs for diverse amino acids,&lt;ref name="pmid16838217"&gt;{{cite journal | vauthors = Sella G, Ardell DH | s2cid = 1260806 | title = The coevolution of genes and genetic codes: Crick's frozen accident revisited | journal = Journal of Molecular Evolution | volume = 63 | issue = 3 | pages = 297–313 | date = Sep 2006 | pmid = 16838217 | doi = 10.1007/s00239-004-0176-7 | bibcode = 2006JMolE..63..297S }}&lt;/ref&gt; for error-tolerance&lt;ref name="pmid14604186" /&gt; and for minimal resource cost. The code emerges at a transition when the mapping of codons to amino acids becomes nonrandom. The code's emergence is governed by the [[topology]] defined by the probable errors and is related to the [[map coloring problem]].&lt;ref name="pmid 20558115"&gt;{{cite journal | vauthors = Tlusty T | title = A colorful origin for the genetic code: information theory, statistical mechanics and the emergence of molecular codes | journal = Physics of Life Reviews | volume = 7 | issue = 3 | pages = 362–76 | date = Sep 2010 | pmid = 20558115 | doi = 10.1016/j.plrev.2010.06.002 | arxiv = 1007.3906 | bibcode = 2010PhLRv...7..362T }}&lt;/ref&gt;
+*Game theory: Models based on [[signaling game]]s combine elements of game theory, natural selection and information channels. Such models have been used to suggest that the first polypeptides were likely short and had non-enzymatic function. Game theoretic models suggested that the organization of RNA strings into cells may have been necessary to prevent "deceptive" use of the genetic code, i.e. preventing the ancient equivalent of viruses from overwhelming the RNA world.&lt;ref name="pmid23985735"&gt;{{cite journal | vauthors = Jee J, Sundstrom A, Massey SE, Mishra B | title = What can information-asymmetric games tell us about the context of Crick's 'frozen accident'? | journal = Journal of the Royal Society, Interface | volume = 10 | issue = 88 | pages = 20130614 | date = Nov 2013 | pmid = 23985735 | pmc = 3785830 | doi = 10.1098/rsif.2013.0614 }}&lt;/ref&gt;
+*Stop codons: Codons for translational stops are also an interesting aspect to the problem of the origin of the genetic code. As an example for addressing stop codon evolution, it has been suggested that the stop codons are such that they are most likely to terminate translation early in the case of a [[frame shift]] error.&lt;ref&gt;{{cite journal | vauthors = Itzkovitz S, Alon U | title = The genetic code is nearly optimal for allowing additional information within protein-coding sequences | journal = Genome Research | volume = 17| issue = 4 | pages = 405–412 | date = 2007| doi = 10.1101/gr.5987307 | pmid=17293451 | pmc=1832087}}&lt;/ref&gt; In contrast, some stereochemical molecular models explain the origin of stop codons as "unassignable".&lt;ref name="pmid21779963" /&gt;
+
+It has been claimed that the genetic code contains patterns and arithmetic coincidences that are very unlikely by chance and that would not arise through evolution. The authors of this claim contend that this is basically a message indicating that life on Earth was seeded by a previous civilization, similar to [[panspermia]].&lt;ref&gt;{{cite web |title=BioSETI – The message that goes with its addressee |url=https://bioseti.info/}}&lt;/ref&gt;&lt;ref&gt;{{cite journal |last1=Maxim Makukov and Vladimir shCherbak |title=SETI in vivo: testing the we-are-them hypothesis |journal=International Journal of Astrobiology |volume=17 |issue=2 |pages=127–146 |date=Apr 2018 |doi=10.1017/S1473550417000210 |arxiv=1707.03382 |bibcode=2018IJAsB..17..127M }}&lt;/ref&gt;
+
+== See also==
+* [[List of genetic engineering software]]
+
+== References ==
+{{Reflist|30em}}
+
+== Further reading ==
+{{refbegin}}
+* {{cite book | last1 = Griffiths | first1 = Anthony J. F. | last2 = Miller | first2 = Jeffrey H. | last3 = Suzuki | first3 =  David T. | last4 = Lewontin | first4 =  Richard C. | last5 = Gilbert | first5 =  William M. | name-list-format = vanc |title=An Introduction to genetic analysis |publisher=W.H. Freeman |location=San Francisco |date=1999 |isbn=978-0-7167-3771-1 |edition=7th |url=https://www.ncbi.nlm.nih.gov/books/bv.fcgi?call=bv.View..ShowTOC&amp;rid=iga.TOC}}
+* {{cite book | last1 = Alberts | first1 = Bruce | last2 = Johnson | first2 = Alexander | last3=Lewis | first3 = Julian | last4 = Raff | first4 = Martin | last5 = Roberts | first5 =  Keith | last6 = Walter | first6 = Peter  | name-list-format = vanc |title=Molecular biology of the cell |publisher=Garland Science |location=New York |date=2002 |isbn=978-0-8153-3218-3 |edition=4th |url=https://www.ncbi.nlm.nih.gov/books/bv.fcgi?call=bv.View..ShowTOC&amp;rid=mboc4.TOC&amp;depth=2}}
+* {{cite book | last1 = Lodish | first1 = Harvey F. | last2 = Berk | first2 = Arnold | last3 = Zipursky | first3 = S. Lawrence | last4 = Matsudaira | first4 = Paul | last5 = Baltimore | first5 = David | last6 = Darnell | first6 = James E. | name-list-format = vanc | title = Molecular cell biology | publisher = W.H. Freeman | location = San Francisco | date = 2000 | isbn = 978-0-7167-3706-3 | edition = 4th | url = https://archive.org/details/molecularcellbi000lodi | url-access = registration }}
+* {{cite journal | vauthors = Caskey CT, Leder P | title = The RNA code: nature's Rosetta Stone | journal = Proceedings of the National Academy of Sciences of the United States of America | volume = 111 | issue = 16 | pages = 5758–9 | date = Apr 2014 | pmid = 24756939 | doi = 10.1073/pnas.1404819111 | bibcode = 2014PNAS..111.5758C | pmc=4000803}}
+{{refend}}
+
+== External links ==
+{{Commons category|Genetic code}}
+* [https://www.ncbi.nlm.nih.gov/Taxonomy/taxonomyhome.html/index.cgi?chapter=cgencodes#SG11 The Genetic Codes: Genetic Code Tables]
+* The [http://www.kazusa.or.jp/codon/ Codon Usage Database] — Codon frequency tables for many organisms
+* [http://history.nih.gov/exhibits/nirenberg/ History of deciphering the genetic code]
+* [https://dx.doi.org/10.1511/2004.6.494 American Scientist: Ode to the code (Origin)]
+* [http://www.sciencenews.org/view/feature/id/69212/title/Alphabet_of_Life Alphabet of Life (Origin)]
+* [http://www.imb-jena.de/~sweta/genetic_code_and_evolution/ Symmetries in the genetic code]
+
+{{MolBioGeneExp}}
+{{good article}}
+
+{{Use dmy dates|date=August 2016}}
+
+{{DEFAULTSORT:Genetic Code}}
+[[Category:Gene expression]]
+[[Category:Genetics]]
+[[Category:Molecular genetics]]
+[[Category:Molecular biology]]
+[[Category:Protein biosynthesis]]</text>
+      <sha1>b1f6u3zti7as8q1ni8kjwn0oq4r54rc</sha1>
+    </revision>
+  </page>
+</mediawiki>

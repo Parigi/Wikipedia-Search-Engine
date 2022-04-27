@@ -1,0 +1,233 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.10/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.10/ http://www.mediawiki.org/xml/export-0.10.xsd" version="0.10" xml:lang="en">
+  <siteinfo>
+    <sitename>Wikipedia</sitename>
+    <dbname>enwiki</dbname>
+    <base>https://en.wikipedia.org/wiki/Main_Page</base>
+    <generator>MediaWiki 1.35.0-wmf.36</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Media</namespace>
+      <namespace key="-1" case="first-letter">Special</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Talk</namespace>
+      <namespace key="2" case="first-letter">User</namespace>
+      <namespace key="3" case="first-letter">User talk</namespace>
+      <namespace key="4" case="first-letter">Wikipedia</namespace>
+      <namespace key="5" case="first-letter">Wikipedia talk</namespace>
+      <namespace key="6" case="first-letter">File</namespace>
+      <namespace key="7" case="first-letter">File talk</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki talk</namespace>
+      <namespace key="10" case="first-letter">Template</namespace>
+      <namespace key="11" case="first-letter">Template talk</namespace>
+      <namespace key="12" case="first-letter">Help</namespace>
+      <namespace key="13" case="first-letter">Help talk</namespace>
+      <namespace key="14" case="first-letter">Category</namespace>
+      <namespace key="15" case="first-letter">Category talk</namespace>
+      <namespace key="100" case="first-letter">Portal</namespace>
+      <namespace key="101" case="first-letter">Portal talk</namespace>
+      <namespace key="108" case="first-letter">Book</namespace>
+      <namespace key="109" case="first-letter">Book talk</namespace>
+      <namespace key="118" case="first-letter">Draft</namespace>
+      <namespace key="119" case="first-letter">Draft talk</namespace>
+      <namespace key="446" case="first-letter">Education Program</namespace>
+      <namespace key="447" case="first-letter">Education Program talk</namespace>
+      <namespace key="710" case="first-letter">TimedText</namespace>
+      <namespace key="711" case="first-letter">TimedText talk</namespace>
+      <namespace key="828" case="first-letter">Module</namespace>
+      <namespace key="829" case="first-letter">Module talk</namespace>
+      <namespace key="2300" case="first-letter">Gadget</namespace>
+      <namespace key="2301" case="first-letter">Gadget talk</namespace>
+      <namespace key="2302" case="case-sensitive">Gadget definition</namespace>
+      <namespace key="2303" case="case-sensitive">Gadget definition talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Paired difference test</title>
+    <ns>0</ns>
+    <id>23004551</id>
+    <revision>
+      <id>896253693</id>
+      <parentid>883602073</parentid>
+      <timestamp>2019-05-09T08:39:53Z</timestamp>
+      <contributor>
+        <username>Glenbarnett</username>
+        <id>799350</id>
+      </contributor>
+      <comment>/* See also */ added Paired data</comment>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="18680" xml:space="preserve">In [[statistics]], a '''paired difference test''' is a type of [[location test]] that is used when comparing two sets of measurements to assess whether their [[expected value|population means]] differ.  A paired difference test uses additional information about the [[sample (statistics)|sample]] that is not present in an ordinary unpaired testing situation, either to increase the [[statistical power]], or to reduce the effects of [[confounder]]s.
+ 
+Specific methods for carrying out paired difference tests are, for normally distributed difference [[t-test]] (where the population standard deviation of difference is not known) and the paired [[Z-test]] (where the population standard deviation of the difference is known), and for differences that may not be normally distributed the [[Wilcoxon signed-rank test]].&lt;ref name="outie"&gt;{{cite journal|last1=Derrick|first1=B|last2=Broad|first2=A|last3=Toher|first3=D|last4=White|first4=P|title= The impact of an extreme observation in a paired samples design |journal= Metodološki Zvezki - Advances in Methodology and Statistics|date=2017|volume=14|issue=2|pages=1–17|url= http://www.stat-d.si/mz/Articles.html }}&lt;/ref&gt; 
+
+The most familiar example of a paired difference test occurs when subjects are measured before and after a treatment.  Such a "repeated measures" test compares these measurements within subjects, rather than across subjects, and will generally have greater power than an unpaired test. Another example comes from [[Matching (statistics)|matching]] cases of a disease with comparable controls.
+
+==Use in reducing variance==
+
+Paired difference tests for reducing variance are a specific type of [[blocking (statistics)|blocking]].  To illustrate the idea, suppose we are assessing the performance of a drug for treating high cholesterol.  Under the design of our study, we enroll 100 subjects, and measure each subject's cholesterol level.  Then all the subjects are treated with the drug for six months, after which their cholesterol levels are measured again.  Our interest is in whether the drug has any effect on mean cholesterol levels, which can be inferred through a comparison of the post-treatment to pre-treatment measurements.
+
+The key issue that motivates the paired difference test is that unless the study has very strict entry criteria, it is likely that the subjects will differ substantially from each other before the treatment begins.  Important baseline differences among the subjects may be due to their gender, age, smoking status, activity level, and diet.
+
+There are two natural approaches to analyzing these data:
+
+* In an "unpaired analysis", the data are treated as if the study design had actually been to enroll 200 subjects, followed by random assignment of 100 subjects to each of the treatment and control  groups.  The treatment group in the unpaired design would be viewed as analogous to the post-treatment measurements in the paired design, and the control group would be viewed as analogous to the pre-treatment measurements.  We could then calculate the sample means within the treated and untreated groups of subjects, and compare these means to each other.
+* In a "paired difference analysis", we would first subtract the pre-treatment value from the post-treatment value for each subject, then compare these differences to zero.
+
+If we only consider the means, the paired and unpaired approaches give the same result.  To see this, let {{math|''Y''&lt;sub&gt;''i''1&lt;/sub&gt;,&amp;nbsp;''Y''&lt;sub&gt;''i''2&lt;/sub&gt;}} be the observed data for the {{math|''i''&lt;sup&gt;th&lt;/sup&gt;}} pair, and let {{math|1=''D''&lt;sub&gt;''i''&lt;/sub&gt;&amp;nbsp;=&amp;nbsp;''Y''&lt;sub&gt;''i''2&lt;/sub&gt;&amp;nbsp;&amp;minus;&amp;nbsp;''Y''&lt;sub&gt;''i''1&lt;/sub&gt;}}.  Also let {{math|1=&lt;span style="text-decoration: overline"&gt;''D''&lt;/span&gt;, &lt;span style="text-decoration: overline"&gt;''Y''&lt;/span&gt;&lt;sub&gt;1&lt;/sub&gt;}}, and {{math|1=&lt;span style="text-decoration: overline"&gt;''Y''&lt;/span&gt;&lt;sub&gt;2&lt;/sub&gt;}} denote, respectively, the [[average|sample means]] of the  {{math|''D''&lt;sub&gt;''i''&lt;/sub&gt;}}, the {{math|''Y''&lt;sub&gt;''i''1&lt;/sub&gt;}}, and the {{math|''Y''&lt;sub&gt;''i''2&lt;/sub&gt;}}.  By rearranging terms we can see that
+
+:&lt;math&gt;
+\bar{D} = \frac{1}{n}\sum_i (Y_{i2}-Y_{i1}) = \frac{1}{n}\sum_iY_{i2} - \frac{1}{n}\sum_iY_{i1} = \bar{Y}_2 - \bar{Y}_1,
+&lt;/math&gt;
+
+where ''n'' is the number of pairs.  Thus the mean difference between the groups does not depend on whether we organize the data as pairs.
+
+Although the mean difference is the same for the paired and unpaired statistics, their statistical significance levels can be very different, because it is easy to overstate the [[variance]] of the unpaired statistic.  The variance of {{mvar|1=&lt;span style="text-decoration: overline"&gt;D&lt;/span&gt;}} is
+
+:&lt;math&gt;
+\begin{array}{ccl}
+{\rm var}(\bar{D}) &amp;=&amp; {\rm var}(\bar{Y}_2-\bar{Y}_1)\\
+                   &amp;=&amp; {\rm var}(\bar{Y}_2) + {\rm var}(\bar{Y}_1) - 2{\rm cov}(\bar{Y}_1,\bar{Y}_2)\\
+&amp;=&amp; \sigma_1^2/n + \sigma_2^2/n - 2\sigma_1\sigma_2{\rm corr}(Y_{i1}, Y_{i2})/n,
+\end{array}
+&lt;/math&gt;
+
+where {{math|''σ''&lt;sub&gt;1&lt;/sub&gt;}} and {{math|''σ''&lt;sub&gt;2&lt;/sub&gt;}} are the population standard deviations of the {{math|''Y''&lt;sub&gt;''i''1&lt;/sub&gt;}} and {{math|''Y''&lt;sub&gt;''i''2&lt;/sub&gt;}} data, respectively.  Thus the variance of {{mvar|1=&lt;span style="text-decoration: overline"&gt;D&lt;/span&gt;}} is lower if there is positive [[correlation]] within each pair.  Such correlation is very common in the repeated measures setting, since many factors influencing the value being compared are unaffected by the treatment.  For example, if cholesterol levels are associated with age, the effect of age will lead to positive correlations between the cholesterol levels measured within subjects, as long as the duration of the study is small relative to the variation in ages in the sample.
+
+===Power of the paired Z-test===
+
+Suppose we are using a [[Z-test]] to analyze the data, where the variances of the pre-treatment and post-treatment data {{math|''σ''&lt;sub&gt;1&lt;/sub&gt;&lt;sup&gt;2&lt;/sup&gt;}} and {{math|''σ''&lt;sub&gt;2&lt;/sub&gt;&lt;sup&gt;2&lt;/sup&gt;}} are known (the situation with a [[t-test]] is similar).  The unpaired Z-test statistic is
+
+:&lt;math&gt;
+\frac{\bar{Y}_2 - \bar{Y}_1}{\sqrt{\sigma_1^2/n + \sigma_2^2/n}},
+&lt;/math&gt;
+
+The power of the unpaired, [[two-tailed test|one-sided]] test carried out at level {{math|1=''α''&amp;nbsp;=&amp;nbsp;0.05}} can be calculated as follows:
+
+:&lt;math&gt;
+\begin{array}{lcl}
+P\left(\frac{\bar{Y}_2 - \bar{Y}_1}{\sqrt{\sigma_1^2/n + \sigma_2^2/n}} &gt; 1.64\right) &amp;=&amp;
+P\left(\frac{\bar{Y}_2 - \bar{Y}_1}{S} &gt; 1.64\sqrt{\sigma_1^2/n + \sigma_2^2/n}/S\right)\\ 
+&amp;=&amp; P\left(\frac{\bar{Y}_2 - \bar{Y}_1-\delta+\delta}{S} &gt; 1.64\sqrt{\sigma_1^2/n + \sigma_2^2/n}/S\right)\\
+&amp;=&amp; P\left(\frac{\bar{Y}_2 - \bar{Y}_1-\delta}{S} &gt; 1.64\sqrt{\sigma_1^2/n + \sigma_2^2/n}/S - \delta/S\right)\\
+&amp;=&amp; 1 - \Phi(1.64\sqrt{\sigma_1^2/n + \sigma_2^2/n}/S - \delta/S),
+\end{array}
+&lt;/math&gt;
+
+where ''S'' is the standard deviation of &lt;span style="text-decoration: overline"&gt;D&lt;/span&gt;, Φ is the standard [[normal distribution|normal]] [[cumulative distribution function]], and δ&amp;nbsp;=&amp;nbsp;E''Y''&lt;sub&gt;2&lt;/sub&gt;&amp;nbsp;&amp;minus;&amp;nbsp;EY&lt;sub&gt;1&lt;/sub&gt; is the true effect of the treatment.  The constant 1.64 is the 95th percentile of the standard normal distribution, which defines the rejection region of the test.
+
+By a similar calculation, the power of the paired Z-test is
+
+:&lt;math&gt;
+1 - \Phi(1.64 - \delta/S).
+&lt;/math&gt;
+
+By comparing the expressions for power of the paired and unpaired tests, one can see that the paired test has more power as long as
+
+:&lt;math&gt;
+\sqrt{\sigma_1^2/n + \sigma_2^2/n}/S = \sqrt{\frac{\sigma_1^2+\sigma_2^2}{\sigma_1^2+\sigma_2^2-2\sigma_1\sigma_2\rho}} &gt; 1 ~~\text{where} ~~ \rho := {\rm corr}(Y_{i1},Y_{i2}).
+&lt;/math&gt;
+
+This condition is met whenever &lt;math&gt;\rho&lt;/math&gt;, the within-pairs correlation, is positive.
+
+===A random effects model for paired testing===
+
+The following statistical model is useful for understanding the paired difference test
+
+:&lt;math&gt;
+Y_{ij} = \mu_j + \alpha_i + \epsilon_{ij}
+&lt;/math&gt;
+
+where  {{math|''α''&lt;sub&gt;''i''&lt;/sub&gt;}} is a [[random effect]] that is shared between the two values in the pair, and {{math|''ε''&lt;sub&gt;''ij''&lt;/sub&gt;}} is a random noise term that is independent across all data points.  The constant values {{math|''μ''&lt;sub&gt;1&lt;/sub&gt;,&amp;nbsp;''μ''&lt;sub&gt;2&lt;/sub&gt;}} are the [[expected value]]s of the two measurements being compared, and our interest is in {{math|1=''δ''&amp;nbsp;=&amp;nbsp;''μ''&lt;sub&gt;2&lt;/sub&gt;&amp;nbsp;&amp;minus;&amp;nbsp;''μ''&lt;sub&gt;1&lt;/sub&gt;}}.
+
+In this model, the {{math|''α''&lt;sub&gt;''i''&lt;/sub&gt;}} capture "stable confounders" that have the same effect on the pre-treatment and post-treatment measurements.  When we subtract to form {{math|''D''&lt;sub&gt;''i''&lt;/sub&gt;, the ''α''&lt;sub&gt;''i''&lt;/sub&gt;}} cancel out, so do not contribute to the variance.  The within-pairs covariance is
+
+:&lt;math&gt;
+{\rm cov}(Y_{i1}, Y_{i2}) = {\rm var}(\alpha_i).
+&lt;/math&gt;
+
+This is non-negative, so it leads to better performance for the paired difference test compared to the unpaired test, unless the {{math|''α''&lt;sub&gt;''i''&lt;/sub&gt;}} are constant over {{mvar|i}}, in which case the paired and unpaired tests are equivalent.
+
+In less mathematical terms, the unpaired test assumes that the data in the two groups being compared are independent.  This assumption determines the form for the variance of {{mvar|1=&lt;span style="text-decoration: overline"&gt;D&lt;/span&gt;}}.  However when two measurements are made for each subject, it is unlikely that the two measurements are independent.  If the two measurements within a subject are positively correlated, the unpaired test overstates the variance of {{mvar|1=&lt;span style="text-decoration: overline"&gt;D&lt;/span&gt;}}, making it a conservative test in the sense that its actual [[Type I and type II errors|type I error]] probability will be lower than the nominal level, with a corresponding loss of statistical power.  In rare cases, the data may be negatively correlated within subjects, in which case the unpaired test becomes anti-conservative.  The paired test is generally used when repeated measurements are made on the same subjects, since it has the correct level regardless of the correlation of the measurements within pairs.
+
+==Use in reducing confounding==
+
+Another application of paired difference testing arises when comparing two groups in a set of [[observational study|observational data]], with the goal being to isolate the effect of one factor of interest from the effects of other factors that may play a role.  For example, suppose teachers adopt one of two different approaches, denoted "A" and "B", to teaching a particular mathematical topic.  We may be interested in whether the performances of the students on a standardized mathematics test differ according to the teaching approach.  If the teachers are free to adopt approach A or approach B, it is possible that teachers whose students are already performing well in mathematics will preferentially choose method A (or vice versa).  In this situation, a simple comparison between the mean performances of students taught with approach A and approach B will likely show a difference, but this difference is partially or entirely due to the pre-existing differences between the two groups of students.  In this situation, the baseline abilities of the students serve as a [[confounder|confounding variable]], in that they are related to both the outcome (performance on the standardized test), and to the treatment assignment to approach A or approach B.
+
+It is possible to reduce, but not necessarily eliminate, the effects of confounding variables by forming "artificial pairs" and performing a pairwise difference test.  These artificial pairs are constructed based on additional variables that are thought to serve as confounders.  By pairing students whose values on the confounding variables are similar, a greater fraction of the difference in the value of interest (e.g. the standardized test score in the example discussed above), is due to the factor of interest, and a lesser fraction is due to the confounder. Forming artificial pairs for paired difference testing is an example of a general approach for reducing the effects of confounding when making comparisons using observational data called [[matching (statistics)|matching]].&lt;ref&gt;{{cite journal | last=Rubin | first=Donald B. | title=Matching to Remove Bias in Observational Studies | journal=Biometrics | volume=29 | year=1973 | pages=159&amp;ndash;183 | doi=10.2307/2529684 | issue=1 | jstor=2529684}}&lt;/ref&gt;&lt;ref&gt;{{cite journal | title=On Stratification, Grouping and Matching | last=Anderson | first=Dallas W. |author2=Kish, Leslie |author3=Cornell, Richard G.  | journal=Scandinavian Journal of Statistics | volume=7 | year=1980 | pages=61&amp;ndash;66 | issue=2 | publisher=Blackwell Publishing | jstor=4615774}}&lt;/ref&gt;&lt;ref&gt;{{cite journal | title=Matching in Epidemiologic Studies: Validity and Efficiency Considerations | last=Kupper | first=Lawrence L. |author2=Karon, John M. |author3=Kleinbaum, David G. |author4=Morgenstern, Hal |author5= Lewis, Donald K.  | journal=Biometrics | volume=37 | year=1981 | pages=271&amp;ndash;291 | doi=10.2307/2530417 | issue=2 | jstor=2530417 | pmid=7272415| citeseerx=10.1.1.154.1197 }}&lt;/ref&gt;
+
+As a concrete example, suppose we observe student test scores ''X'' under teaching strategies {{mvar|A}} and {{mvar|B}}, and each student has either a "high" or "low" level of mathematical knowledge before the two teaching strategies are implemented.  However, we do not know which students are in the "high" category and which are in the "low" category.  The [[expected value|population mean]] test scores in the four possible groups are
+&lt;math&gt;
+\begin{array}{l|ll}
+ &amp; A &amp; B \\
+\hline
+\text{High} &amp; \mu_{HA} &amp; \mu_{HB} \\
+\text{Low}  &amp; \mu_{LA} &amp; \mu_{LB}
+\end{array}
+&lt;/math&gt;
+and the proportions of students in the groups are
+&lt;math&gt;
+\begin{array}{l|ll}
+ &amp; A &amp; B \\
+\hline
+\text{High} &amp; p_{HA} &amp; p_{HB} \\
+\text{Low}  &amp; p_{LA} &amp; p_{LB}
+\end{array}
+&lt;/math&gt;
+where {{math|1=''p''&lt;sub&gt;''HA''&lt;/sub&gt;&amp;nbsp;+&amp;nbsp;''p''&lt;sub&gt;''HB''&lt;/sub&gt;&amp;nbsp;+&amp;nbsp;''p''&lt;sub&gt;''LA''&lt;/sub&gt;&amp;nbsp;+&amp;nbsp;''p''&lt;sub&gt;''LB''&lt;/sub&gt;&amp;nbsp;=&amp;nbsp;1}}.
+
+The "treatment difference" among students in the "high" group is {{math|''μ''&lt;sub&gt;''HA''&lt;/sub&gt;&amp;nbsp;&amp;minus;&amp;nbsp;''μ''&lt;sub&gt;''HB''&lt;/sub&gt;}} and the treatment difference among students in the "low" group is {{math|''μ''&lt;sub&gt;''LA''&lt;/sub&gt;&amp;nbsp;&amp;minus;&amp;nbsp;''μ''&lt;sub&gt;''LB''&lt;/sub&gt;}}.  In general, it is possible that the two teaching strategies could differ in either direction, or show no difference, and the effects could differ in magnitude or even in sign between the "high" and "low" groups.  For example, if strategy ''B'' were superior to strategy ''A'' for well-prepared students, but strategy ''A'' were superior to strategy ''B'' for poorly prepared students, the two treatment differences would have opposite signs.
+
+Since we do not know the baseline levels of the students, the expected value of the average test score {{math|1=&lt;span style="text-decoration: overline"&gt;''X''&lt;/span&gt;&lt;sub&gt;''A''&lt;/sub&gt;}} among students in the ''A'' group is an average of those in the two baseline levels:
+
+:&lt;math&gt;
+E\bar{X}_A = \mu_{HA}\frac{p_{HA}}{p_{HA}+p_{LA}} + \mu_{LA}\frac{p_{LA}}{p_{HA}+p_{LA}},
+&lt;/math&gt;
+
+and similarly the average test score {{math|1=&lt;span style="text-decoration: overline"&gt;''X''&lt;/span&gt;&lt;sub&gt;''B''&lt;/sub&gt;}} among students in the ''B'' group is
+
+:&lt;math&gt;
+E\bar{X}_B = \mu_{HB}\frac{p_{HB}}{p_{HB}+p_{LB}} + \mu_{LB}\frac{p_{LB}}{p_{HB}+p_{LB}}.
+&lt;/math&gt;
+
+Thus the expected value of the observed treatment difference {{math|1=&lt;span style="text-decoration: overline"&gt;''D''&lt;/span&gt;&amp;nbsp;=&amp;nbsp;&lt;span style="text-decoration: overline"&gt;''X''&lt;/span&gt;&lt;sub&gt;''A''&lt;/sub&gt;&amp;nbsp;&amp;minus;&amp;nbsp;&lt;span style="text-decoration: overline"&gt;''X''&lt;/span&gt;&lt;sub&gt;''B''&lt;/sub&gt;}} is
+
+:&lt;math&gt;
+\mu_{HA}\frac{p_{HA}}{p_{HA}+p_{LA}} - \mu_{HB}\frac{p_{HB}}{p_{HB}+p_{LB}} + \mu_{LA}\frac{p_{LA}}{p_{HA}+p_{LA}} - \mu_{LB}\frac{p_{LB}}{p_{HB}+p_{LB}}.
+&lt;/math&gt;
+
+A reasonable [[null hypothesis]] is that there is no effect of the treatment within either the "high" or "low" student groups, so that {{math|1=''μ''&lt;sub&gt;''HA''&lt;/sub&gt;&amp;nbsp;=&amp;nbsp;''μ''&lt;sub&gt;''HB''&lt;/sub&gt; and ''μ''&lt;sub&gt;''LA''&lt;/sub&gt;&amp;nbsp;=&amp;nbsp;''μ''&lt;sub&gt;''LB''&lt;/sub&gt;}}.  Under this null hypothesis, the expected value of {{math|1=&lt;span style="text-decoration: overline"&gt;''D''&lt;/span&gt;}} will be zero if
+
+:&lt;math&gt;
+p_{HA} = (p_{HA}+p_{LA})(p_{HA}+p_{HB})
+&lt;/math&gt;
+
+and
+
+:&lt;math&gt;
+p_{HB} = (p_{HB}+p_{LB})(p_{HA}+p_{HB}).
+&lt;/math&gt;
+
+This condition asserts that the assignment of students to the {{mvar|A}} and {{mvar|B}} teaching strategy groups is independent of their mathematical knowledge before the teaching strategies are implemented.  If this holds, baseline mathematical knowledge is not a confounder, and conversely, if baseline mathematical knowledge is a confounder, the expected value of {{math|1=&lt;span style="text-decoration: overline"&gt;''D''&lt;/span&gt;}} will generally differ from zero.  If the expected value of {{math|1=&lt;span style="text-decoration: overline"&gt;''D''&lt;/span&gt;}} under the null hypothesis is not equal to zero, then a situation where we reject the null hypothesis could either be due to an actual differential effect between teaching strategies {{mvar|A}} and {{mvar|B}}, or it could be due to non-independence in the assignment of students to the {{mvar|A}} and {{mvar|B}} groups (even in the complete absence of an effect due to the teaching strategy).
+
+This example illustrates that if we make a direct comparison between two groups when confounders are present, we do not know whether any difference that is observed is due to the grouping itself, or is due to some other factor.  If we are able to pair students by an exact or estimated measure of their baseline mathematical ability, then we are only comparing students "within rows" of the table of means given above.  Consequently, if the null hypothesis holds, the expected value of {{math|1=&lt;span style="text-decoration: overline"&gt;''D''&lt;/span&gt;}} will equal zero, and [[statistical significance]] levels have their intended interpretation.
+
+==See also==
+*[[Paired data]]
+*[[Pairwise comparison]]
+*[[Sign test]]
+*[[Conditional logistic regression]]
+
+==References==
+{{Reflist}}
+
+==External links==
+*[http://www.rac.es/ficheros/doc/00576.PDF Relative Measurement and Its Generalization in Decision Making: Why Pairwise Comparisons are Central in Mathematics for the Measurement of Intangible Factors – The Analytic Hierarchy/Network Process] (Thomas L. Saaty)
+*[http://compbio.berkeley.edu/people/ed/SeqCompEval/ Pairwise Sequence Comparison Evaluation]
+*[http://deseng.ryerson.ca/~fil/t/pwisecomp.html Pairwise Comparison] (Filippo A. Salustri)
+
+[[Category:Statistical hypothesis testing]]</text>
+      <sha1>9qs2ncvn4ai9tziltqknouwhrf6cdn1</sha1>
+    </revision>
+  </page>
+</mediawiki>

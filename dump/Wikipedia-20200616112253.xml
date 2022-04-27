@@ -1,0 +1,146 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.10/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.10/ http://www.mediawiki.org/xml/export-0.10.xsd" version="0.10" xml:lang="en">
+  <siteinfo>
+    <sitename>Wikipedia</sitename>
+    <dbname>enwiki</dbname>
+    <base>https://en.wikipedia.org/wiki/Main_Page</base>
+    <generator>MediaWiki 1.35.0-wmf.36</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Media</namespace>
+      <namespace key="-1" case="first-letter">Special</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Talk</namespace>
+      <namespace key="2" case="first-letter">User</namespace>
+      <namespace key="3" case="first-letter">User talk</namespace>
+      <namespace key="4" case="first-letter">Wikipedia</namespace>
+      <namespace key="5" case="first-letter">Wikipedia talk</namespace>
+      <namespace key="6" case="first-letter">File</namespace>
+      <namespace key="7" case="first-letter">File talk</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki talk</namespace>
+      <namespace key="10" case="first-letter">Template</namespace>
+      <namespace key="11" case="first-letter">Template talk</namespace>
+      <namespace key="12" case="first-letter">Help</namespace>
+      <namespace key="13" case="first-letter">Help talk</namespace>
+      <namespace key="14" case="first-letter">Category</namespace>
+      <namespace key="15" case="first-letter">Category talk</namespace>
+      <namespace key="100" case="first-letter">Portal</namespace>
+      <namespace key="101" case="first-letter">Portal talk</namespace>
+      <namespace key="108" case="first-letter">Book</namespace>
+      <namespace key="109" case="first-letter">Book talk</namespace>
+      <namespace key="118" case="first-letter">Draft</namespace>
+      <namespace key="119" case="first-letter">Draft talk</namespace>
+      <namespace key="446" case="first-letter">Education Program</namespace>
+      <namespace key="447" case="first-letter">Education Program talk</namespace>
+      <namespace key="710" case="first-letter">TimedText</namespace>
+      <namespace key="711" case="first-letter">TimedText talk</namespace>
+      <namespace key="828" case="first-letter">Module</namespace>
+      <namespace key="829" case="first-letter">Module talk</namespace>
+      <namespace key="2300" case="first-letter">Gadget</namespace>
+      <namespace key="2301" case="first-letter">Gadget talk</namespace>
+      <namespace key="2302" case="case-sensitive">Gadget definition</namespace>
+      <namespace key="2303" case="case-sensitive">Gadget definition talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Nucleic acid structure</title>
+    <ns>0</ns>
+    <id>26846483</id>
+    <revision>
+      <id>948068621</id>
+      <parentid>947983732</parentid>
+      <timestamp>2020-03-30T00:10:39Z</timestamp>
+      <contributor>
+        <ip>2607:FCC8:A280:A500:F841:BDF2:469A:7338</ip>
+      </contributor>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="18101" xml:space="preserve">{{Use dmy dates|date=February 2020}}
+{{DNA RNA structure}}
+'''Nucleic acid structure''' refers to the [[biomolecular structure|structure]] of [[nucleic acid]]s such as [[DNA]] and [[RNA]]. Chemically speaking, DNA and RNA are very similar. Nucleic acid structure is often divided into four different levels: primary, secondary, tertiary, and quaternary.
+
+==Primary structure==
+{{Main|Nucleic acid sequence}}
+[[File:DNA-Nucleobases.svg|thumb|Chemical structure of DNA]]
+
+Primary structure consists of a linear sequence of nucleotides that are linked together by [[phosphodiester bond]]. It is this linear sequence of nucleotides that make up the primary structure of [[DNA]] or [[RNA]]. Nucleotides consist of 3 components:
+# Nitrogenous base
+## [[Adenine]]
+## [[Guanine]]
+## [[Cytosine]]
+## [[Thymine]] (present in [[DNA]] only)
+## [[Uracil]] (present in [[RNA]] only)
+# 5-carbon sugar which is called [[deoxyribose]] (found in DNA) and [[ribose]] (found in RNA).
+# One or more phosphate groups.&lt;ref name=Krieger_2004&gt;{{cite book |vauthors= Krieger M, Scott MP, Matsudaira PT, Lodish HF, Darnell JE, Lawrence Z, Kaiser C, Berk A |title= Molecular cell biology |publisher= W.H. Freeman and CO |location= New York |year= 2004 |pages= |isbn= 978-0-7167-4366-8 |chapter= Section 4.1: Structure of Nucleic Acids |chapterurl= https://www.ncbi.nlm.nih.gov/books/NBK21514/ |url-access= registration |url= https://archive.org/details/molecularcellbio00harv}}&lt;/ref&gt;
+
+The nitrogen bases adenine and guanine are [[purine]] in structure and form a [[glycosidic bond]] between their 9 nitrogen and the 1' -OH group of the deoxyribose. Cytosine, thymine, and uracil are [[pyrimidine]]s, hence the glycosidic bonds form between their 1 nitrogen and the 1' -OH of the deoxyribose. For both the purine and pyrimidine bases, the phosphate group forms a bond with the deoxyribose sugar through an ester bond between one of its negatively charged oxygen groups and the 5' -OH of the sugar.&lt;ref name=Sparknotes&gt;{{cite web |url= https://www.sparknotes.com/biology/molecular/structureofnucleicacids/ |title= Structure of Nucleic Acids |format= |work= SparkNotes}}&lt;/ref&gt; The polarity in DNA and RNA is derived from the oxygen and nitrogen atoms in the backbone. Nucleic acids are formed when nucleotides come together through phosphodiester linkages between the 5' and 3' carbon atoms.&lt;ref name=Anthony-Cahill_2012&gt;{{cite book |vauthors= Anthony-Cahill SJ, Mathews CK, van Holde KE, Appling DR |title= Biochemistry (4th Edition) |publisher= Prentice Hall |location= Englewood Cliffs, N.J |year= 2012 |pages= |isbn= 978-0-13-800464-4}}&lt;/ref&gt;
+A [[nucleic acid sequence]] is the order of nucleotides within a DNA (GACT) or RNA (GACU) molecule that is determined by a series of letters. Sequences are presented from the 5' to 3' end and determine the covalent structure of the entire molecule. Sequences can be [[complementarity (molecular biology)|complementary]] to another sequence in that the base on each position is complementary as well as in the reverse order. An example of a complementary sequence to AGCT is TCGA. DNA is double-stranded containing both a [[sense (molecular biology)|sense]] strand and an [[antisense]] strand. Therefore, the complementary sequence will be to the sense strand.&lt;ref name=Alberts_20022&gt;{{cite book |vauthors= Alberts B, Johnson A, Lewis J, Raff M, Roberts K, Wlater P |title= Molecular Biology of the Cell (4th ed.) |publisher= Garland Science |location= New York NY |year= 2002 |isbn= 978-0-8153-3218-3}}&lt;/ref&gt;
+[[File:Неподвижная структура Холлидея (англ.).svg|thumb|250px|Nucleic acid design can be used to create nucleic acid complexes with complicated [[nucleic acid secondary structure|secondary structures]] such as this four-arm junction. These four strands associate into this structure because it maximizes the number of correct [[base pair]]s, with [[adenine|A]]s matched to [[thymine|T]]s and [[cytosine|C]]s matched to [[guanine|G]]s. Image from Mao, 2004.&lt;ref name="Mao04"&gt;{{cite journal |vauthors= Mao C |title= The emergence of complexity: lessons from DNA |journal= PLoS Biology |volume= 2 |issue= 12 |pages= e431 |date= December 2004 |pmid= 15597116 |pmc= 535573 |doi= 10.1371/journal.pbio.0020431}}&lt;/ref&gt;]]
+
+===Complexes with alkali metal ions===
+There are three potential metal binding groups on nucleic acids: phosphate, sugar, and base moieties. Solid-state structure of complexes with alkali metal ions have been reviewed.&lt;ref&gt;{{cite book|last1= Katsuyuki |first1= Aoki|last2= Kazutaka |first2= Murayama |last3=Hu|first3= Ning-Hai|publisher= Springer|date= 2016|series= Metal Ions in Life Sciences|volume=16|title= The Alkali Metal Ions: Their Role in Life|editor1-last=Astrid|editor1-first= Sigel|editor2-last=Helmut|editor2-first=Sigel|editor3-last=Roland K.O.|editor3-first= Sigel|chapter= Chapter 3, section3. Nucleic Acid Constituent complexes|pages= 43–66|doi=10.1007/978-3-319-21756-7_3|pmid= 26860299|isbn= 978-3-319-21755-0}}&lt;/ref&gt;
+
+==Secondary structure==
+{{Main|Nucleic acid secondary structure}}
+
+Secondary structure is the set of interactions between bases, i.e., which parts of strands are bound to each other. In DNA double helix, the two strands of DNA are held together by [[hydrogen bond]]s. The [[nucleotide]]s on one strand [[base pair]]s with the nucleotide on the other strand. The secondary structure is responsible for the shape that the nucleic acid assumes. The bases in the DNA are classified as [[purine]]s and [[pyrimidine]]s. The purines are [[adenine]] and [[guanine]]. Purines consist of a double ring structure, a six-membered and a five-membered ring containing nitrogen. The pyrimidines are [[cytosine]] and [[thymine]]. It has a single ring structure, a six-membered ring containing nitrogen. A purine base always pairs with a pyrimidine base (guanine (G) pairs with cytosine (C) and adenine (A) pairs with thymine (T) or [[uracil]] (U)). DNA's secondary structure is predominantly determined by [[base-pairing]] of the two polynucleotide strands wrapped around each other to form a [[double helix]]. Although the two strands are aligned by hydrogen bonds in base pairs, the stronger forces holding the two strands together are stacking interactions between the bases. These stacking interactions are stabilized by Van der Waals forces and hydrophobic interactions, and show a large amount of local structural variability.&lt;ref&gt;{{cite journal |vauthors= Sedova A, Banavali NK |title= Geometric Patterns for Neighboring Bases Near the Stacked State in Nucleic Acid Strands |journal= Biochemistry |volume= 56 |issue= 10 |pages= 1426–1443 |date= 2017 |pmid= 28187685 |doi= 10.1021/acs.biochem.6b01101}}&lt;/ref&gt; There are also two grooves in the double helix, which are called [[major groove]] and [[minor groove]] based on their relative size.
+
+The secondary structure of RNA consists of a single polynucleotide. Base pairing in RNA occurs when RNA folds between complementarity regions. Both single- and double-stranded regions are often found in RNA molecules. The antiparallel strands form a helical shape.&lt;ref name=Anthony-Cahill_2012/&gt; The four basic elements in the secondary structure of RNA are helices, loops, bulges, and junctions. [[Stem-loop]] or hairpin loop is the most common element of RNA secondary structure.&lt;ref&gt;{{cite journal |vauthors= Tinoco I, Bustamante C |title= How RNA folds |journal= Journal of Molecular Biology |volume= 293 |issue= 2 |pages= 271–81 |date= October 1999 |pmid= 10550208 |doi= 10.1006/jmbi.1999.3001}}&lt;/ref&gt; [[Stem-loop]] is formed when the RNA chains fold back on themselves to form a double helical tract called the stem, the unpaired nucleotides forms single stranded region called the loop.&lt;ref name="RNA structure"&gt;{{cite web|title=RNA structure (Molecular Biology)|url=http://what-when-how.com/molecular-biology/rna-structure-molecular-biology/}}&lt;/ref&gt; Secondary structure of RNA can be predicted by experimental data on the secondary structure elements, helices, loops, and bulges. Bulges and internal loops are formed by separation of the double helical tract on either one strand (bulge) or on both strands (internal loops) by unpaired nucleotides. A [[tetraloop]] is a four-base pairs hairpin RNA structure. There are three common families of tetraloop in ribosomal RNA: UNCG, GNRA, and CUUG (N is one of the four nucleotides and R is a purine).UNCG is the most stable tetraloop.&lt;ref&gt;{{cite journal |vauthors= Hollyfield JG, Besharse JC, Rayborn ME |title= The effect of light on the quantity of phagosomes in the pigment epithelium |journal= Experimental Eye Research |volume= 23 |issue= 6 |pages= 623–35 |date= December 1976 |pmid= 1087245 |doi= 10.1016/0014-4835(76)90221-9}}&lt;/ref&gt; [[Pseudoknot]] is a RNA secondary structure first identified in [[turnip yellow mosaic virus]].&lt;ref&gt;{{cite journal |vauthors= Rietveld K, Van Poelgeest R, Pleij CW, Van Boom JH, Bosch L |title= The tRNA-like structure at the 3' terminus of turnip yellow mosaic virus RNA. Differences and similarities with canonical tRNA |journal= Nucleic Acids Research |volume= 10 |issue= 6 |pages= 1929–46 |date= March 1982 |pmid= 7079175 |pmc= 320581 |doi= 10.1093/nar/10.6.1929}}&lt;/ref&gt; Pseudoknots are formed when nucleotides from the hairpin loop pair with a single stranded region outside of the hairpin to form a helical segment. H-type fold pseudoknots are best characterized. In H-type fold, nucleotides in the hairpin loop pair with the bases outside the hairpin stem forming second stem and loop. This causes formation of pseudoknots with two stems and two loops.&lt;ref&gt;{{cite journal |vauthors= Staple DW, Butcher SE |title= Pseudoknots: RNA structures with diverse functions |journal= PLoS Biology |volume= 3 |issue= 6 |pages= e213 |date= June 2005 |pmid= 15941360 |pmc= 1149493 |doi= 10.1371/journal.pbio.0030213}}&lt;/ref&gt; Pseudoknots are functional elements in RNA structure having diverse function and found in most classes of RNA. DotKnot-PW method is used for comparative pseudoknots prediction. The main points in the DotKnot-PW method is scoring the similarities found in stems, secondary elements and H-type pseudoknots.&lt;ref&gt;{{cite journal |vauthors= Sperschneider J, Datta A, Wise MJ |title= Predicting pseudoknotted structures across two RNA sequences |journal= Bioinformatics |volume= 28 |issue= 23 |pages= 3058–65 |date= December 2012 |pmid= 23044552 |pmc= 3516145 |doi= 10.1093/bioinformatics/bts575}}&lt;/ref&gt;
+
+==Tertiary structure==
+{{Main|Nucleic acid tertiary structure}}
+[[File:DNA structure and bases.svg|thumb|right|DNA structure and bases]]
+[[File:A-B-Z-DNA Side View.png|thumb|right|A-B-Z-DNA Side View]]
+
+Tertiary structure refers to the locations of the atoms in three-dimensional space, taking into consideration geometrical and [[steric]] constraints. It is a higher order than the secondary structure, in which large-scale folding in a linear polymer occurs and the entire chain is folded into a specific 3-dimensional shape. There are 4 areas in which the structural forms of DNA can differ.
+#Handedness – right or left
+#Length of the helix turn
+#Number of base pairs per turn
+#Difference in size between the major and minor grooves&lt;ref name=Anthony-Cahill_2012/&gt;
+
+The tertiary arrangement of DNA's [[double helix]] in space includes [[B-DNA]], [[A-DNA]], and [[Z-DNA]].
+
+[[B-DNA]] is the most common form of DNA in vivo and is a more narrow, elongated helix than A-DNA. Its wide major groove makes it more accessible to proteins. On the other hand, it has a narrow minor groove. B-DNA's favored conformations occur at high water concentrations; the hydration of the minor groove appears to favor B-DNA. B-DNA base pairs are nearly perpendicular to the helix axis. The sugar pucker which determines the shape of the a-helix, whether the helix will exist in the A-form or in the B-form, occurs at the C2'-endo.&lt;ref name=Dickerson_1982&gt;{{cite journal |vauthors= Dickerson RE, Drew HR, Conner BN, Wing RM, Fratini AV, Kopka ML |title= The anatomy of A-, B-, and Z-DNA |journal= Science |volume= 216 |issue= 4545 |pages= 475–85 |date= April 1982 |pmid= 7071593 |doi= 10.1126/science.7071593}}&lt;/ref&gt;
+
+[[A-DNA]], is a form of the DNA duplex observed under dehydrating conditions. It is shorter and wider than B-DNA. RNA adopts this double helical form, and RNA-DNA duplexes are mostly A-form, but B-form RNA-DNA duplexes have been observed.&lt;ref&gt;{{cite journal|author=Chen X|author2=Ramakrishnan B|author3=Sundaralingam M|title=Crystal structures of B-form DNA-RNA chimers complexed with distamycin|journal=Nature Structural Biology|date=1995|volume=2|issue=9|pages=733–735|doi=10.1038/nsb0995-733}}&lt;/ref&gt; In localized single strand dinucleotide contexts, RNA can also adopt the B-form without pairing to DNA.&lt;ref&gt;{{cite journal |vauthors= Sedova A, Banavali NK |title= RNA approaches the B-form in stacked single strand dinucleotide contexts |journal= Biopolymers |volume= 105 |issue= 2 |pages= 65–82 |date= 2016 |pmid= 26443416 |doi= 10.1002/bip.22750}}&lt;/ref&gt; A-DNA has a deep, narrow major groove which does not make it easily accessible to proteins. On the other hand, its wide, shallow minor groove makes it accessible to proteins but with lower information content than the major groove. Its favored conformation is at low water concentrations. A-DNAs base pairs are tilted relative to the helix axis, and are displaced from the axis. The sugar pucker occurs at the C3'-endo and in RNA 2'-OH inhibits C2'-endo conformation.&lt;ref name=Dickerson_1982/&gt; Long considered little more than a laboratory artifice, [[A-DNA#Biological function|A-DNA is now known to have several biological functions]].
+
+[[Z-DNA]] is a relatively rare left-handed double-helix. Given the proper sequence and superhelical tension, it can be formed in vivo but its function is unclear. It has a more narrow, more elongated helix than A or B. Z-DNA's major groove is not really a groove, and it has a narrow minor groove. The most favored conformation occurs when there are high salt concentrations. There are some base substitutions but they require an alternating purine-pyrimidine sequence. The N2-amino of G H-bonds to 5' PO, which explains the slow exchange of protons and the need for the G purine. Z-DNA base pairs are nearly perpendicular to the helix axis. Z-DNA does not contain single base-pairs but rather a GpC repeat with P-P distances varying for GpC and CpG. On the GpC stack there is good base overlap, whereas on the CpG stack there is less overlap. Z-DNA's zigzag backbone is due to the C sugar conformation compensating for G glycosidic bond conformation. The conformation of G is syn, C2'-endo; for C it is anti, C3'-endo.&lt;ref name=Dickerson_1982/&gt;
+
+A linear DNA molecule having free ends can rotate, to adjust to changes of various dynamic processes in the cell, by changing how many times the two chains of its double helix twist around each other. Some DNA molecules are circular and are topologically constrained. More recently circular RNA was described as well to be a natural pervasive class of nucleic acids, expressed in many organisms (see [[Circular RNA|CircRNA]]).
+
+A covalently closed, circular DNA (also known as cccDNA) is topologically constrained as the number of times the chains coiled around one other cannot change. This cccDNA can be [[DNA supercoil|supercoiled]], which is the tertiary structure of DNA. Supercoiling is characterized by the linking number, twist and writhe. The linking number (Lk) for circular DNA is defined as the number of times one strand would have to pass through the other strand to completely separate the two strands. The linking number for circular DNA can only be changed by breaking of a covalent bond in one of the two strands. Always an integer, the linking number of a cccDNA is the sum of two components: twists (Tw) and writhes (Wr).&lt;ref name=Mirkin_2001&gt;{{cite book |vauthors= Mirkin SM |title= DNA Topology: Fundamentals |journal= Encyclopedia of Life Sciences |year= 2001 |doi= 10.1038/npg.els.0001038 |isbn= 978-0470016176}}&lt;/ref&gt;
+:&lt;math&gt;Lk = Tw + Wr&lt;/math&gt;
+Twists are the number of times the two strands of DNA are twisted around each other. Writhes are number of times the DNA helix crosses over itself. DNA in cells is negatively supercoiled and has the tendency to unwind. Hence the separation of strands is easier in negatively supercoiled DNA than in relaxed DNA. The two components of supercoiled DNA are [[solenoid (DNA)|solenoid]] and plectonemic. The plectonemic supercoil is found in prokaryotes, while the solenoidal supercoiling is mostly seen in eukaryotes.
+
+==Quaternary structure==
+{{Main|Nucleic acid quaternary structure}}
+&lt;!-- Deleted image removed: [[File:DNA to Chromatin Formation.jpg|thumbnail|right|DNA to Chromatin]] --&gt;
+
+The quaternary structure of nucleic acids is similar to that of [[protein quaternary structure]]. Although some of the concepts are not exactly the same, the quaternary structure refers to a higher-level of organization of nucleic acids. Moreover, it refers to interactions of the nucleic acids with other molecules. The most commonly seen form of higher-level organization of nucleic acids is seen in the form of [[chromatin]] which leads to its interactions with the small proteins [[histone]]s. Also, the quaternary structure refers to the interactions between separate RNA units in the [[ribosome]] or [[spliceosome]].&lt;ref&gt;{{cite web|title=Structural Biochemistry/Nucleic Acid/DNA/DNA structure|url=https://en.wikibooks.org/wiki/Structural_Biochemistry/Nucleic_Acid/DNA/DNA_structure|accessdate=11 December 2012}}&lt;/ref&gt;
+
+==See also==
+{{Portal|Biology}}
+*[[Biomolecular structure]]
+*[[Crosslinking of DNA]]
+*[[DNA nanotechnology]]
+*[[DNA supercoil]]
+*[[Gene structure]]
+*[[Non-helical models of DNA structure]]
+*[[Nucleic acid design]]
+*[[Nucleic acid double helix]]
+*[[Nucleic acid structure determination]] (experimental)
+*[[Nucleic acid structure prediction]] (computational)
+*[[Nucleic acid thermodynamics]]
+*[[Protein structure]]
+
+==References==
+{{Reflist}}
+
+{{Biomolecular structure}}
+
+[[Category:DNA]]
+[[Category:RNA]]</text>
+      <sha1>28itq2z65s2wtqwb0emctq9d4yeeilw</sha1>
+    </revision>
+  </page>
+</mediawiki>

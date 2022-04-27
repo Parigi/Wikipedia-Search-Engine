@@ -1,0 +1,197 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.10/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.10/ http://www.mediawiki.org/xml/export-0.10.xsd" version="0.10" xml:lang="en">
+  <siteinfo>
+    <sitename>Wikipedia</sitename>
+    <dbname>enwiki</dbname>
+    <base>https://en.wikipedia.org/wiki/Main_Page</base>
+    <generator>MediaWiki 1.35.0-wmf.36</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Media</namespace>
+      <namespace key="-1" case="first-letter">Special</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Talk</namespace>
+      <namespace key="2" case="first-letter">User</namespace>
+      <namespace key="3" case="first-letter">User talk</namespace>
+      <namespace key="4" case="first-letter">Wikipedia</namespace>
+      <namespace key="5" case="first-letter">Wikipedia talk</namespace>
+      <namespace key="6" case="first-letter">File</namespace>
+      <namespace key="7" case="first-letter">File talk</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki talk</namespace>
+      <namespace key="10" case="first-letter">Template</namespace>
+      <namespace key="11" case="first-letter">Template talk</namespace>
+      <namespace key="12" case="first-letter">Help</namespace>
+      <namespace key="13" case="first-letter">Help talk</namespace>
+      <namespace key="14" case="first-letter">Category</namespace>
+      <namespace key="15" case="first-letter">Category talk</namespace>
+      <namespace key="100" case="first-letter">Portal</namespace>
+      <namespace key="101" case="first-letter">Portal talk</namespace>
+      <namespace key="108" case="first-letter">Book</namespace>
+      <namespace key="109" case="first-letter">Book talk</namespace>
+      <namespace key="118" case="first-letter">Draft</namespace>
+      <namespace key="119" case="first-letter">Draft talk</namespace>
+      <namespace key="446" case="first-letter">Education Program</namespace>
+      <namespace key="447" case="first-letter">Education Program talk</namespace>
+      <namespace key="710" case="first-letter">TimedText</namespace>
+      <namespace key="711" case="first-letter">TimedText talk</namespace>
+      <namespace key="828" case="first-letter">Module</namespace>
+      <namespace key="829" case="first-letter">Module talk</namespace>
+      <namespace key="2300" case="first-letter">Gadget</namespace>
+      <namespace key="2301" case="first-letter">Gadget talk</namespace>
+      <namespace key="2302" case="case-sensitive">Gadget definition</namespace>
+      <namespace key="2303" case="case-sensitive">Gadget definition talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Mars rover</title>
+    <ns>0</ns>
+    <id>421366</id>
+    <revision>
+      <id>962538535</id>
+      <parentid>962534565</parentid>
+      <timestamp>2020-06-14T17:01:21Z</timestamp>
+      <contributor>
+        <username>The ON YT</username>
+        <id>37817462</id>
+      </contributor>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="18395" xml:space="preserve">{{about|autonomous exploration vehicles|crewed vehicles on Mars|Crewed Mars rover}}
+[[File:Curiosity at Work on Mars (Artist's Concept).jpg|thumb|300px|Mark Rober's conception of the ''[[Curiosity rover|Curiosity]]'' rover vaporizing rock on Mars. The rover landed on Mars in August 2012.]]
+
+A '''Mars rover''' is a [[motor vehicle]] that travels across the surface of the planet [[Mars]] upon arrival. [[Rover (space exploration)|Rovers]] have several advantages over stationary [[Lander (spacecraft)|landers]]: they examine more territory, they can be directed to interesting features, they can place themselves in sunny positions to weather winter months, and they can advance the knowledge of how to perform very remote [[robot]]ic vehicle control.
+
+There have been four successful robotically operated Mars rovers, all managed by the [[Jet Propulsion Laboratory]]: ''[[Sojourner (rover)|Sojourner]]'', ''[[Opportunity (rover)|Opportunity]]'', ''[[Spirit (rover)|Spirit]]'' and ''[[Curiosity (rover)|Curiosity]]''. On January 24, 2016, [[NASA]] reported that [[Timeline of Mars Science Laboratory#Current status|current studies]] on Mars by ''Curiosity'' and ''Opportunity'' (the latter now defunct) would be searching for evidence of ancient life, including a [[biosphere]] based on [[autotroph]]ic, [[chemotroph]]ic or [[Lithotroph#Chemolithotrophs|chemolithoautotrophic]] [[microorganism]]s, as well as ancient water, including [[Lacustrine plain|fluvio-lacustrine environments]] ([[plain]]s related to ancient [[river]]s or [[lake]]s) that may have been [[Planetary habitability|habitable]].&lt;ref name="SCI-20140124a"&gt;{{cite journal |last=Grotzinger |first=John P. |title=Introduction to Special Issue - Habitability, Taphonomy, and the Search for Organic Carbon on Mars |journal=[[Science (journal)|Science]] |date=January 24, 2014 |volume=343 |number=6169 |pages=386–387 |doi=10.1126/science.1249944 |pmid=24458635|bibcode = 2014Sci...343..386G |doi-access=free }}&lt;/ref&gt;&lt;ref name="SCI-20140124special"&gt;{{cite journal |authors=Various |title=Special Issue - Table of Contents - Exploring Martian Habitability |url=http://www.sciencemag.org/content/343/6169.toc#SpecialIssue |date=January 24, 2014|journal=[[Science (journal)|Science]] |volume=343 |number=6169 |pages=345–452 |accessdate=24 January 2014 }}&lt;/ref&gt;&lt;ref name="SCI-20140124"&gt;{{cite journal |authors=Various |title=Special Collection - Curiosity - Exploring Martian Habitability |url=http://www.sciencemag.org/site/extra/curiosity/|date=January 24, 2014 |journal=[[Science (journal)|Science]] |accessdate=January 24, 2014 }}&lt;/ref&gt;&lt;ref name="SCI-20140124c"&gt;{{cite journal |authors=Grotzinger, J.P. |title=A Habitable Fluvio-Lacustrine Environment at Yellowknife Bay, Gale Crater, Mars |date=January 24, 2014 |journal=[[Science (journal)|Science]] |volume=343 |number=6169 |doi=10.1126/science.1242777 |display-authors=etal |pmid=24324272 |pages=1242777|bibcode = 2014Sci...343A.386G |citeseerx=10.1.1.455.3973 }}&lt;/ref&gt; The search for evidence of [[Planetary habitability|habitability]], [[taphonomy]] (related to [[fossils]]), and [[organic carbon]] on Mars is now a primary NASA objective.&lt;ref name="SCI-20140124a" /&gt; In June 2018, ''Opportunity'' went out of contact after going into hibernation mode in a dust storm.&lt;ref&gt;[https://mars.nasa.gov/mer/mission/rover-status/opportunity/recent/all/?y=2018 Mars Exploration Rover - Opportunity mission updates], mars.nasa.gov&lt;/ref&gt; NASA declared the end of the ''Opportunity'' mission on February 13, 2019, after numerous failures to wake up the rover.&lt;ref&gt;{{cite web|url=https://www.telegraph.co.uk/science/2019/02/13/nasa-declares-mars-rover-opportunity-dead-15-years-red-planet/|title=NASA declares Mars rover Opportunity dead after 15 years on the red planet|date=February 13, 2019|work=[[The Daily Telegraph]]}}&lt;/ref&gt;
+
+[[Mars 2]], [[Mars 3]] were physically tethered probes; ''Sojourner'' was dependent on the Mars Pathfinder base station for communication with Earth; MER-A &amp; B and ''Curiosity'' were on their own. As of {{CURRENTMONTHNAME}} 2019, ''Curiosity'' is still active, while ''Spirit'', ''Opportunity'', and ''Sojourner'' completed their missions before losing contact.
+
+==Missions==
+[[File:Driving Distances on Mars and the Moon.png|thumb|upright=1.2|Comparison of distances driven by various wheeled vehicles on the surface of the Moon and Mars.]]
+
+Six [[rover (space exploration)|rovers]] have been dispatched to Mars:
+* {{flagicon image|Flag of the Soviet Union.svg}} ''[[Pars
+', ''Prop-M'' rover, 1971, ''Mars 2'' landing failed taking Prop-M with it. The ''Mars 2'' and ''3'' spacecraft from the Soviet Union had identical 4.5&amp;nbsp;kg ''Prop-M'' rovers. They were to move on [[ski]]s while connected to the landers with cables.&lt;ref name=Mars2_NSSDC&gt;
+{{Cite web |url=https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1971-045D |title=Mars 2 Lander
+|publisher=NASA NSSDC |accessdate=2008-06-25}}&lt;/ref&gt;
+* {{flagicon image|Flag of the Soviet Union.svg}} ''[[Mars 3]]'', ''Prop-M'' rover, 1971, lost when ''Mars 3'' lander stopped communicating about 20 seconds after landing.&lt;ref name=Mars2_NSSDC/&gt;
+* {{flagicon image|Flag of the United States.svg}} ''[[Sojourner (rover)|Sojourner]]'' rover, [[Mars Pathfinder]], landed successfully on July 4, 1997. Communications were lost on September 27, 1997.
+* {{flagicon image|Flag of the United States.svg}} ''[[Spirit (rover)|Spirit]]'' (MER-A), [[Mars Exploration Rover]], launched on June 10, 2003,&lt;ref name="Mars Exploration"&gt;{{cite web | date=10 August 2012 | url = http://marsrovers.jpl.nasa.gov/mission/launch_e.html | title = Mars Exploration | accessdate = 2012-08-10 }}&lt;/ref&gt; and landed on January 4, 2004. Nearly 6 years after the original mission limit, ''Spirit'' had covered a total distance of {{convert|7.73|km|mi|abbr=on}} but its wheels became trapped in sand.&lt;ref&gt;{{Cite news | first=Alan | last=Boyle | title=Good moves on Mars | date= | publisher=MSNBC | url =http://cosmiclog.msnbc.msn.com/archive/2010/01/21/2181157.aspx | archive-url =https://web.archive.org/web/20100123192540/http://cosmiclog.msnbc.msn.com/archive/2010/01/21/2181157.aspx | url-status =dead | archive-date =2010-01-23 | accessdate = 2010-01-22 | language = }}&lt;/ref&gt; The last communication received from the rover was on March 22, 2010, and NASA ceased attempts to re-establish communication on May 25, 2011.&lt;ref&gt;{{Cite news |url=http://marsrover.nasa.gov/newsroom/pressreleases/20110524a.html| title=NASA Concludes Attempts To Contact Mars Rover Spirit|date=May 24, 2011 |publisher=NASA}}&lt;/ref&gt;
+* {{flagicon image|Flag of the United States.svg}} ''[[Opportunity (rover)|Opportunity]]'' (MER-B), Mars Exploration Rover, launched on July 7, 2003&lt;ref name="Mars Exploration"/&gt; and landed on January 25, 2004. ''Opportunity'' surpassed the previous records for longevity at 5,352 sols (5498 Earth days from landing to mission end; 15 Earth years or 8 Martian years) and coverance of {{convert|45.16|km|mi|abbr=on}}. The rover sent its last status on 10 June 2018 when a global [[Opportunity mission timeline#Dust storm|2018 Mars dust storm]] blocked the sunlight needed to recharge its batteries.&lt;ref name="nasa.gov"&gt;{{cite web|url=https://mars.nasa.gov/mer/mission/status_opportunityAll.html|title=Mars Exploration Rover Mission: All Opportunity Updates|website=mars.nasa.gov|accessdate=31 October 2018}}&lt;/ref&gt; After hundreds of attempts to reactivate the rover, NASA declared the mission complete on February 13, 2019.
+* {{flagicon image|Flag of the United States.svg}} ''[[Curiosity (rover)|Curiosity]]'' of the [[Mars Science Laboratory]] (MSL) mission by NASA, was launched November 26, 2011&lt;ref&gt;{{cite web | date=26 November 2011 | url = http://www.nasa.gov/mission_pages/msl/launch/index.html | title = Mars Science Laboratory Launch | accessdate = 2011-11-26 }}&lt;/ref&gt;&lt;ref name="NYT-MSL"&gt;{{cite web |agency=Associated Press |title=NASA Launches Super-Size Rover to Mars: 'Go, Go!' |url=https://www.nytimes.com/aponline/2011/11/26/science/AP-US-SCI-Mars-Rover.html |work=[[New York Times]] |date=26 November 2011 |accessdate=2011-11-26 }}&lt;/ref&gt; and landed at the [[Aeolis Palus]] plain near [[Aeolis Mons]] (informally "Mount Sharp")&lt;ref name="IAU-20120516"&gt;{{cite web|author=USGS|title=Three New Names Approved for Features on Mars|url=https://astrogeology.usgs.gov/HotTopics/index.php?/archives/447-Three-New-Names-Approved-for-Features-on-Mars.html|date=16 May 2012|publisher=[[USGS]]|accessdate=28 May 2012|archive-url=https://web.archive.org/web/20120728141903/http://astrogeology.usgs.gov/HotTopics/index.php?%2Farchives%2F447-Three-New-Names-Approved-for-Features-on-Mars.html|archive-date=28 July 2012|url-status=dead}}&lt;/ref&gt;&lt;ref name="NASA-20120327"&gt;{{cite web |author=NASA Staff|title='Mount Sharp' on Mars Compared to Three Big Mountains on Earth| url=http://www.nasa.gov/mission_pages/msl/multimedia/pia15292-Fig2.html| date=27 March 2012 |publisher=[[NASA]] |accessdate=31 March 2012}}&lt;/ref&gt;&lt;ref name="NASA-20120328"&gt;{{cite web |last=Agle |first=D. C.|title='Mount Sharp' On Mars Links Geology's Past and Future|url=http://www.nasa.gov/mission_pages/msl/news/msl20120328.html| date=28 March 2012 |publisher=[[NASA]] |accessdate=31 March 2012}}&lt;/ref&gt;&lt;ref name="Space-20120329"&gt;{{cite web |author=Staff |title=NASA's New Mars Rover Will Explore Towering 'Mount Sharp'|url=http://www.space.com/15097-mars-mountain-sharp-curiosity-rover.html|date=29 March 2012 |publisher=[[Space.com]] |accessdate=30 March 2012}}&lt;/ref&gt; in [[Gale (crater)|Gale Crater]] on August 6, 2012.&lt;ref name="Gale Crater"&gt;{{cite web |last1=Webster |first1=Guy |last2=Brown |first2=Dwayne |title=NASA's Next Mars Rover To Land At Gale Crater |date=22 July 2011 |publisher=[[NASA JPL]] |url=http://www.jpl.nasa.gov/news/news.cfm?release=2011-222#1 |accessdate=2011-07-22 }}&lt;/ref&gt;&lt;ref name="Gale Crater2"&gt;{{cite web |last1= Chow |first1=Dennis |title=NASA's Next Mars Rover to Land at Huge Gale Crater |url=http://www.space.com/12394-nasa-mars-rover-landing-site-unveiled.html |date=22 July 2011 |publisher=[[Space.com]] |accessdate=2011-07-22 }}&lt;/ref&gt;&lt;ref name="Gale Crater3"&gt;{{cite news |last1=Amos |first1=Jonathan |title=Mars rover aims for deep crater |date=22 July 2011 |url=https://www.bbc.co.uk/news/science-environment-14249524 |work=[[BBC News]] |accessdate = 2011-07-22}}&lt;/ref&gt; The ''Curiosity'' rover is still operational as of {{CURRENTMONTHNAME}} 2020.
+
+[[File:PIA01551.jpg|thumb|upright=1.5|&lt;center&gt;''Sojourner'' disembarks Mars Pathfinder base station lander on the surface of planet Mars&lt;/center&gt;]]
+
+===Planned===
+The following rovers are scheduled to launch in July 2020:
+*[[Perseverance_(rover)|Perseverance]], a NASA rover
+*[[Mars Global Remote Sensing Orbiter and Small Rover|Huoxing-1 (HX-1)]], a Chinese project
+
+Furthermore, the European-Russian ExoMars rover [[Rosalind Franklin (rover)|''Rosalind Franklin'']] is planned to launch in 2022.
+
+===Undeveloped===
+[[File:Mars Surveyor 2001 Rover.jpg|thumb|left|Mock-up of canceled Mars Surveyor 2001 rover, tabled after the triple failure of Mars Polar Lander, Deep Space 2, and Mars Climate Orbiter in the late 1990s]]
+*[[Astrobiology Field Laboratory]], proposed in the 2000-2010 period as a follow on to MSL.&lt;ref&gt;[https://www.nasa.gov/mission_pages/mars/missions/beyond-index.html]&lt;/ref&gt;
+*[[Mars Astrobiology Explorer-Cacher]] (MAX-C), cancelled 2011&lt;ref&gt;{{cite news | first = Peter B. | last = de Selding | title = ESA Halts Work on ExoMars Orbiter and Rover | date = 20 April 2011 | url = http://www.spacenews.com/civil/110420-esa-halts-work-exomars.html | work = Space News | accessdate = 2011-04-21}}&lt;/ref&gt;&lt;ref&gt;{{cite news | first = Amy | last = Svitak | title = U.S., Europe Plan Single-rover Mars Mission for 2018 | date = 18 April 2011 | url = http://www.spacenews.com/civil/110418-single-rover-mars-mission-2018.html | work = Space News | accessdate = 2011-04-21}}&lt;/ref&gt;
+*[[Mars Surveyor 2001]] rover,&lt;ref&gt;{{Cite web | url=https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=MS2001R | title=NASA - NSSDCA - Spacecraft - Details}}&lt;/ref&gt;
+* [[Zephyr (rover)|''Zephyr'' rover]], would use a rigid sail for wind propulsion.
+* ''Mars Tumbleweed Rover'', a spherical wind-propelled rover.&lt;ref&gt;{{cite news |url=http://www.nasa.gov/centers/langley/news/releases/2003/03-029.html |title=A new way to explore the surface of Mars |date= May 13, 2003 |author=Kimberly W. Land |publisher=NASA |accessdate=2011-04-04}}&lt;/ref&gt;&lt;ref&gt;[https://www.nasa.gov/missions/earth/f_tumbleweed.html The Tumbleweed Rover is on a Roll.] Anna Heiney, KSC NASA. 11 March 2004.&lt;/ref&gt;
+* In 2018, a kind of cushion-air rover was proposed,&lt;ref name=arias16&gt;{{cite book| last1=Arias|first1=Francisco. J |title=CO2-Cushion Vehicle for Mars. An Alternative Locomotion for Exploration Rovers |journal=54nd AIAA/SAE/ASEE Joint Propulsion Conference Cincinnati, OH, Propulsion and Energy, (AIAA 2018–4492)| date=2018 |doi=10.2514/6.2018-4492|isbn=978-1-62410-570-8 }}&lt;/ref&gt; which in contrast with traditional hovercrafts does not use blowers to pressurize the gas in the chamber but rather uses stored pressurized CO&lt;sub&gt;2&lt;/sub&gt; obtained from a freezing process which does not require mechanical compression.&lt;ref name=arias17&gt;{{cite book| last1=Arias|first1=Francisco. J |title=A Method of Attaining High Pressurized Vessels in Space, the Moon and With Particular Reference to Mars|journal=54nd AIAA/SAE/ASEE Joint Propulsion Conference Cincinnati, OH, Propulsion and Energy, (AIAA 2018–4688)| date=2018 |doi=10.2514/6.2018-4488|isbn=978-1-62410-571-5 }}&lt;/ref&gt;
+
+
+[[File:PIA16161-Mars Curiosity Rover-MAHLI.jpg|thumb|''[[Curiosity rover|Curiosity's]]'' (MSL) rover "hand" featuring a suite of instruments on a rotating "wrist", "[[Aeolis Mons|Mount Sharp]]" is in the background (September 8, 2012).]]
+
+==Examples of instruments==
+[[File:PIA22222-Mars-OpportunityRover-FirstSelfie-20180220.jpg|thumb|''Opportunity''{{'}}s first self-portrait including the camera mast on Mars&lt;br /&gt;(February 14−20, 2018 / sols 4998−5004) It was taken with its microscopic imager instrument]]
+Examples of instruments onboard landed rovers include:
+*[[Alpha particle X-ray spectrometer]] (MPF + MER + MSL)
+*[[CheMin]] (MSL)
+*[[Chemistry and Camera complex]] (MSL)
+*[[Dynamic Albedo of Neutrons]] (MSL)
+*[[Hazcam]] (MER + MSL)
+*[[MarsDial]] (MER + MSL)
+*[[Materials Adherence Experiment]] (MPF)
+*[[MIMOS II]] (MER)
+*[[Mini-TES]] (MER)
+*[[Mars Hand Lens Imager]] (MSL)
+*[[Navcam]] (MER + MSL)
+*[[Pancam]] (MER)
+*[[Rock Abrasion Tool]] (MER)
+*[[Radiation assessment detector]] (MSL)
+*[[Rover Environmental Monitoring Station]] (MSL)
+*[[Sample Analysis at Mars]] (MSL)
+
+{{clear}}
+
+== Locations of Mars rovers, in context ==
+
+{{Mars map indicating landers}}
+
+==NASA Mars rover goals (circa 2010s)==
+
+NASA distinguishes between "mission" objectives and "science" objectives. Mission objectives are related to progress in [[space technology]] and development processes. Science objectives are met by the instruments during their mission in space.
+
+The science instruments are chosen and designed based on the science objectives and goals. The primary goal of the ''Spirit'' and ''Opportunity'' rovers was to investigate "the history of water on Mars".&lt;ref&gt;{{Cite web |url=http://marsrovers.nasa.gov/overview/ |title=Mars Exploration Rover Mission: Overview |publisher=marsrovers.nasa.gov |accessdate=2008-06-25 |archive-url=https://web.archive.org/web/20120828191910/http://marsrovers.nasa.gov/overview/ |archive-date=2012-08-28 |url-status=dead }}&lt;/ref&gt;
+
+The four science goals of NASA's long-term [[Mars Exploration Program]] are:
+* Determine whether life ever arose on Mars
+* Characterize the [[climate of Mars]]
+* Characterize the [[geology of Mars]]
+* Prepare for [[human exploration of Mars]]&lt;ref&gt;{{Cite web |url=http://marsrovers.nasa.gov/science/ |title=Mars Exploration Rover Mission: Science – Looking for signs of past water on Mars |publisher=marsrovers.nasa.gov |accessdate=2008-06-25 |archive-url=https://web.archive.org/web/20080522134141/http://marsrovers.nasa.gov/science/ |archive-date=2008-05-22 |url-status=dead }}&lt;/ref&gt;
+{{wide image|MarsPanoramaa.jpg|800px|align-cap=center|Panorama of Husband Hill taken by the [[Spirit (rover)|''Spirit'' rover]] (November, 2005)}}
+
+==Gallery==
+
+&lt;div align=center&gt;
+&lt;gallery caption="Mars Rovers" widths="150px" heights="150px"&gt;
+Image:Mars_propm_rover.jpg|Soviet Mars rover [[Mars 2|Prop-M]] (1972)
+Image:Sojourner on Mars PIA01122.jpg|''Sojourner'' rover on Mars
+Image:Mars rover udvar-hazy.JPG|''Sojourner'' rover atop ''Pathfinder'' lander
+Image:h rover-comp wheels 02.jpg|Comparison of wheels: Mars ''Sojourner'' rover, MER, MSL
+Image:Mars Science Laboratory mockup comparison.jpg|Comparison: MER, ''Sojourner'' rover, MSL
+Image:PIA15279 3rovers-stand D2011 1215 D521.jpg|Comparison: MER, ''Sojourner'' rover, humans, MSL
+Image:PressurizedRoversOnMars.jpg|Concept: Crewed Mars rover
+Image:MarsSunset.jpg|Martian sunset viewed by the ''Spirit'' rover (May 2005)
+
+&lt;/gallery&gt;&lt;/div&gt;
+
+{{Wide image |Opportunity Heat Shield.jpg|500px|[[Opportunity (rover)|''Opportunity'' rover]] later visited its heat shield impact site; it was ejected during the rover's descent and impacted the surface separately. }}
+
+==See also==
+{{div col|colwidth=22em}}
+* [[Astrobiology]]
+* [[Comparison of embedded computer systems on board the Mars rovers]]
+* [[Crewed Mars rover]]
+* [[Curiosity (rover)|''Curiosity'' rover]]
+* [[ExoMars|ExoMars Lander]]
+* [[InSight|InSight lander]]
+* [[List of artificial objects on Mars]]
+* [[List of rovers on extraterrestrial bodies]]
+* [[Mars Exploration Rover]]
+* [[Mars-Grunt]]
+* [[Mars Pathfinder]]
+* [[Mars Reconnaissance Orbiter]]
+* [[Mars 2020 rover mission]]
+* [[2001 Mars Odyssey|Odyssey orbiter]]
+* [[Radiation hardening]]
+* [[Scientific information from the Mars Exploration Rover mission]]
+* [[Sojourner (rover)|''Sojourner'' rover]]
+{{div col end}}
+
+==References==
+{{Reflist|35em}}
+
+==External links==
+* [https://web.archive.org/web/20120828191910/http://marsrovers.nasa.gov/overview/ NASA official Mars Rover website]
+*[https://photojournal.jpl.nasa.gov/targetFamily/Mars?subselect=Mission%3AMars+Pathfinder+%28MPF%29%3A Mars Pathfinder Gallery] (NASA)
+
+{{NASA navbox}}
+{{Mars spacecraft}}
+{{Portal bar|Solar System|Spaceflight}}
+
+[[Category:Missions to Mars]]
+[[Category:Mars rovers| ]]
+[[Category:Landers (spacecraft)]]</text>
+      <sha1>dq8w96qyh0tkisotnhmp8xxj1ipqwun</sha1>
+    </revision>
+  </page>
+</mediawiki>

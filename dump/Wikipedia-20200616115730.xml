@@ -1,0 +1,962 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.10/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.10/ http://www.mediawiki.org/xml/export-0.10.xsd" version="0.10" xml:lang="en">
+  <siteinfo>
+    <sitename>Wikipedia</sitename>
+    <dbname>enwiki</dbname>
+    <base>https://en.wikipedia.org/wiki/Main_Page</base>
+    <generator>MediaWiki 1.35.0-wmf.36</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Media</namespace>
+      <namespace key="-1" case="first-letter">Special</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Talk</namespace>
+      <namespace key="2" case="first-letter">User</namespace>
+      <namespace key="3" case="first-letter">User talk</namespace>
+      <namespace key="4" case="first-letter">Wikipedia</namespace>
+      <namespace key="5" case="first-letter">Wikipedia talk</namespace>
+      <namespace key="6" case="first-letter">File</namespace>
+      <namespace key="7" case="first-letter">File talk</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki talk</namespace>
+      <namespace key="10" case="first-letter">Template</namespace>
+      <namespace key="11" case="first-letter">Template talk</namespace>
+      <namespace key="12" case="first-letter">Help</namespace>
+      <namespace key="13" case="first-letter">Help talk</namespace>
+      <namespace key="14" case="first-letter">Category</namespace>
+      <namespace key="15" case="first-letter">Category talk</namespace>
+      <namespace key="100" case="first-letter">Portal</namespace>
+      <namespace key="101" case="first-letter">Portal talk</namespace>
+      <namespace key="108" case="first-letter">Book</namespace>
+      <namespace key="109" case="first-letter">Book talk</namespace>
+      <namespace key="118" case="first-letter">Draft</namespace>
+      <namespace key="119" case="first-letter">Draft talk</namespace>
+      <namespace key="446" case="first-letter">Education Program</namespace>
+      <namespace key="447" case="first-letter">Education Program talk</namespace>
+      <namespace key="710" case="first-letter">TimedText</namespace>
+      <namespace key="711" case="first-letter">TimedText talk</namespace>
+      <namespace key="828" case="first-letter">Module</namespace>
+      <namespace key="829" case="first-letter">Module talk</namespace>
+      <namespace key="2300" case="first-letter">Gadget</namespace>
+      <namespace key="2301" case="first-letter">Gadget talk</namespace>
+      <namespace key="2302" case="case-sensitive">Gadget definition</namespace>
+      <namespace key="2303" case="case-sensitive">Gadget definition talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>List of programming languages</title>
+    <ns>0</ns>
+    <id>144146</id>
+    <revision>
+      <id>962175638</id>
+      <parentid>962147891</parentid>
+      <timestamp>2020-06-12T14:44:07Z</timestamp>
+      <contributor>
+        <username>Arianslashmnt</username>
+        <id>39476639</id>
+      </contributor>
+      <comment>/* G */ git is not programming language</comment>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="27213" xml:space="preserve">{{short description|Wikipedia list article}}
+{{Programming language lists}}
+
+The aim of this '''list of programming languages''' is to include all notable [[programming language]]s in existence, both those in current use and historical ones, in alphabetical order. [[List of BASIC dialects|Dialects]] of [[BASIC]], [[esoteric programming language]]s, and [[markup language]]s are not included. &lt;!-- Do not list HTML, it is *NOT* a programming language --&gt;
+
+{{Compact ToC|num=yes|seealso=yes|extlinks=no|side=yes|center=yes}}
+
+
+== A ==
+{{columns-list|colwidth=22em|
+* [[A Sharp (.NET)|A.NET]]
+* [[A-0 System]]
+* [[A+ (programming language)|A+]]
+* [[ABAP]]
+* [[ABC (programming language)|ABC]]
+* [[ABC ALGOL]]
+* [[ACC (programming language)|ACC]]
+* [[Accent (programming language)|Accent]]
+* [[Distributed Application Specification Language|Ace DASL (Distributed Application Specification Language)]]
+* [[Action! (programming language)|Action!]]
+* [[ActionScript]]
+* [[Actor (programming language)|Actor]]
+* [[Ada (programming language)|Ada]]
+* [[Adenine (programming language)|Adenine]]
+* [[Agda (theorem prover)|Agda]]
+* [[Agilent VEE]]
+* [[Agora (programming language)|Agora]]
+* [[AIMMS]]
+* [[Aldor]]
+* [[Alef (programming language)|Alef]]
+* [[Algebraic Logic Functional programming language|ALF]]
+&lt;!-- Alacrity belongs on the esoteric page --&gt;
+* [[ALGOL 58]]
+* [[ALGOL 60]]
+* [[ALGOL 68]]
+* [[ALGOL W]]
+* [[Alice (programming language)|Alice]]
+* [[Alma-0]]
+* [[AmbientTalk]]
+* [[Amiga E]]
+* [[AMOS (programming language)|AMOS]]
+* [[AMPL]]
+* [[AngelScript]]
+&lt;!-- [[AngularJS]]  is a Web app framework, not a language --&gt;
+* [[Apex (programming language)|Apex]]
+* [[APL (programming language)|APL]]
+* [[App Inventor for Android (programming language)|App Inventor for Android's visual block language]]
+* [[AppleScript]]
+* [[APT (programming language)|APT]]
+* [[Arc (programming language)|Arc]]
+&lt;!-- [[Arduino]] is an environment; the language is effectively C++ --&gt;
+&lt;!-- [[Arden Syntax]]&lt;ref&gt;http://www.openclinical.org/gmm_ardensyntax.html&lt;/ref&gt;
+-- Arden is the syntax used in Medical Logic Module development(Also known as Arden Syntax).  S. C. Holt, 04/16/2012
+-- Arden is not a programming language, rather a formal language for encoding medical information --&gt;
+* [[ARexx]]
+&lt;!--* [[Arduino]] Is based on lua code not a language itself--&gt;
+* [[Argus (programming language)|Argus]]
+&lt;!-- ArnoldC belongs on the esoteric page --&gt;
+&lt;!-- [[Active Server Pages|ASP]] is an environment, not a language --&gt;
+* [[Assembly language]]
+&lt;!-- Asciidots belongs on the esoteric page --&gt;
+* [[AutoHotkey]]
+* [[AutoIt]]
+* [[AutoLISP|AutoLISP / Visual LISP]]
+* [[Averest]]
+* [[AWK]]
+* [[Axum (programming language)|Axum]]
+}}
+
+== B ==
+{{columns-list|colwidth=22em|
+* [[B (programming language)|B]]
+* [[Babbage (programming language)|Babbage]]
+* [[Ballerina (programming_language)|Ballerina]]
+* [[Bash (Unix shell)|Bash]]
+* [[BASIC]]
+* [[Batch file|Batch file (Windows/MS-DOS)]]
+&lt;!-- [[BBC Basic 256]] – see [[List of BASIC dialects]] --&gt;
+* [[bc (programming language)|bc]]
+* [[BCPL]]
+* [[BeanShell]]
+&lt;!-- Befunge belongs on the esoteric page ---&gt;
+* [[Bertrand (programming language)|Bertrand]]
+* [[BETA (programming language)|BETA]]
+&lt;!-- Bungee
+[[File:Bootstrapped|thumb]]
+ belongs on the esoteric page ---&gt;
+&lt;!-- Binary is synonym for [[machine code]] --&gt;
+* [[BLISS (programming language)|BLISS]]
+&lt;!-- [[Blitz Basic]] – see [[List of BASIC dialects]] --&gt;
+* [[Blockly]]
+* [[BlooP and FlooP|BlooP]]
+* [[Boo (programming language)|Boo]]
+* [[Boomerang (programming language)|Boomerang]]
+* [[Bosque (programming language)|Bosque]]
+* [[Bourne shell]] (including [[Bash (Unix shell)|bash]] and [[Korn shell|ksh]])
+&lt;!-- [[Brainfuck]] belongs on the esoteric page --&gt;
+&lt;!-- [[Qualcomm Brew|BREW]] from its wiki page, it uses c/c++, not a language --&gt;
+}}
+
+== C ==
+{{columns-list|colwidth=22em|
+* [[C (programming language)|C]]
+* [[C--]] (C minus minus)
+* [[C++]] (C plus plus) – ISO/IEC 14882
+* [[C*]]
+* [[C Sharp (programming language)|C#]] (C sharp) – ISO/IEC 23270
+* [[C/AL]]
+* [[Caché ObjectScript]]
+&lt;!-- [[Caché Basic]] is on the BASIC dialects list --&gt;
+&lt;!-- add csh in parantheses here, to remove duplicates--&gt;
+* [[C Shell | C Shell (csh)]]
+* [[Caml]]
+* [[Cayenne (programming language)|Cayenne]]
+&lt;!-- [[CBASIC]] - see [[List of BASIC dialects]] page --&gt;
+* [[CDuce]]
+* [[Cecil (programming language)|Cecil]]
+* [[Cesil]]
+* [[Céu (programming language)|Céu]]
+* [[Ceylon (programming language)|Ceylon]]
+* [[CFEngine]]
+* [[Cg (programming language)|Cg]]
+* [[Ch (computer programming)|Ch]]
+* [[Chicken]]
+* [[Chapel (programming language)|Chapel]]
+* [[Charm (language)|Charm]]
+* [[CHILL]]
+* [[CHIP-8]]
+* [[chomski]]
+* [[ChucK]]
+&lt;!-- [[CICS]] is a transaction framework with macro processor, not a language, languages used are PL/I, COBOL, Java  --&gt;
+* [[Cilk]]
+* [[Citrine (programming language)|Citrine]]
+* [[AS/400 Control Language|CL]] (IBM)
+* [[Claire (programming language)|Claire]]
+* [[Clarion (programming language)|Clarion]]
+* [[Clean (programming language)|Clean]]
+* [[Clipper (programming language)|Clipper]]
+* [[CLIPS (programming language)|CLIPS]]
+* [[CLIST]]
+* [[Clojure]]
+&lt;!-- CLOS is under Common Lisp --&gt;
+* [[CLU (programming language)|CLU]]
+* [[CMS-2 (programming language)|CMS-2]]
+* [[COBOL]] – ISO/IEC 1989
+* [[CobolScript]] – COBOL Scripting language
+* [[Cobra (programming language)|Cobra]]
+* [[CoffeeScript]]
+* [[ColdFusion]]
+* [[COMAL]]
+* [[Combined Programming Language]] (CPL)
+* [[COMIT]]
+* [[Common Intermediate Language]] (CIL)
+* [[Common Lisp]] (also known as CL)
+* [[COMPASS]]
+* [[Component Pascal]]
+* [[Constraint Handling Rules]] (CHR)
+* [[COMTRAN]]
+* [[Cool (programming language)|Cool]]
+* [[Coq]]
+* [[Coral 66]]
+&lt;!-- [[Corn (emulator)|Corn]] was a nintendo emulator, not a language  --&gt;
+* [[CorVision]]
+* [[COWSEL]]
+* [[CPL (programming language)|CPL]]
+* [[Cryptol]]
+* [[Crystal (programming language)| Crystal]]
+&lt;!--  look at C Shell entry [[C shell|csh]] --&gt;
+* [[Csound]]
+* [[CSS]]
+* [[Cuneiform (programming language)|Cuneiform]]
+* [[Curl (programming language)|Curl]]
+* [[Curry (programming language)|Curry]]
+* [[Cybil (programming language)|Cybil]]
+* [[Cyclone (programming language)|Cyclone]]
+* [[Cypher Query Language]]
+* [[Cython]]
+* [[CEEMAC]]
+* [[CEEMAC]] 
+}}
+
+== D ==
+{{columns-list|colwidth=22em|
+* [[D (programming language)|D]]
+* [[Digital Asset Modeling Language (DAML)|DAML]]
+* [[Dart (programming language)|Dart]]
+* [[Darwin (programming language)|Darwin]]
+* [[DataFlex]]
+* [[Datalog]]
+* [[DATATRIEVE]]
+* [[dBase]]
+* [[dc (computer program)|dc]]
+* [[DIGITAL Command Language|DCL]]
+* [[Dink Smallwood#Modification|DinkC]]
+* [[DIBOL]]
+* [[Dog (programming language)|Dog]]
+* [[Draco (programming language)|Draco]]
+* [[DRAKON]]
+* [[Dylan (programming language)|Dylan]]
+* [[DYNAMO (programming language)|DYNAMO]]
+* [[Data_analysis_expressions|DAX (Data Analysis Expressions)]]
+}}
+
+== E ==
+{{columns-list|colwidth=22em|
+* [[E (programming language)|E]]
+&lt;!--[[EarSketch]] is an educational IDE for python, javascript --&gt;
+* [[Ease (programming language)|Ease]]
+* [[PL/I|Easy PL/I]]
+&lt;!-- under EPL * [[Easy Programming Language]] --&gt;
+* [[Easytrieve|EASYTRIEVE PLUS]]
+* [[eC (programming language)|eC]]
+* [[ECMAScript]]
+* [[Edinburgh IMP]]
+* [[EGL (programming language)|EGL]]
+* [[Eiffel (programming language)|Eiffel]]
+* [[ELAN (programming language)|ELAN]]
+* [[Elixir (programming language)|Elixir]]
+* [[Elm (programming language)|Elm]]
+* [[Emacs Lisp]]
+* [[Emerald (programming language)|Emerald]]
+* [[Epigram (programming language)|Epigram]]
+* [[Easy Programming Language | EPL (Easy Programming Language)]]
+* [[Eltron Programming Language | EPL (Eltron Programming Language)]]
+* [[Erlang (programming language)|Erlang]]
+* [[es (Unix shell)|es]]
+* [[Escher (programming language)|Escher]]
+&lt;!-- * [[Category:Esoteric Programming Language|Esoteric Programming Language]] --&gt;
+* [[Executive Systems Problem Oriented Language|ESPOL]]
+* [[Esterel]]
+* [[Etoys (programming language)|Etoys]]
+* [[Euclid (programming language)|Euclid]]
+* [[Euler (programming language)|Euler]]
+* [[Euphoria (programming language)|Euphoria]]
+* [[EusLisp Robot Programming Language]]
+* [[CMS EXEC]] (EXEC)
+* [[EXEC 2]]
+* [[Executable UML]]
+* [[Ezhil (programming language)|Ezhil]]
+&lt;!-- Ethereal belongs on the esoteric page --&gt;
+}}
+
+== F ==
+{{columns-list|colwidth=22em|
+* [[F (programming language)|F]]
+* [[F Sharp (programming language)|F#]]
+* [[F* (programming language)|F*]]
+* [[Factor (programming language)|Factor]]
+* [[Fantom (programming language)|Fantom]]
+* [[FAUST (programming language)|FAUST]]
+&lt;!-- [[False (programming language)]] belongs on the esoteric page --&gt;
+* [[FFP (programming language)|FFP]]
+* [[friendly interactive shell|fish]]
+* [[Fjölnir (programming language)|Fjölnir]]
+&lt;!-- FPC Pascal is under Pascal --&gt;
+* [[FL (programming language)|FL]]
+* [[Flavors (programming language)|Flavors]]
+* [[Flex (language)|Flex]]
+* [[BlooP and FlooP|FlooP]]
+* [[FLOW-MATIC]]
+* [[FOCAL (programming language)|FOCAL]]
+* [[FOCUS]]
+* [[FOIL (programming language)|FOIL]]
+* [[FORMAC (programming language)|FORMAC]]
+* [[Formula language|@Formula]]
+* [[Forth (programming language)|Forth]]
+* [[Fortran]] – ISO/IEC 1539
+* [[Fortress (programming language)|Fortress]]
+* [[FP (programming language)|FP]]
+* [[Franz Lisp]]
+* [[Futhark (programming language)|Futhark]]
+* [[F-Script (programming language)|F-Script]]
+}}
+
+== G ==
+{{columns-list|colwidth=22em|
+&lt;!-- [[Gambas]] – see [[List of BASIC dialects]] --&gt;
+* [[Game Maker Language]]([[Scripting language]])
+* [[GameMonkey Script]]
+* [[General Algebraic Modeling System|GAMS]]
+* [[GAP computer algebra system|GAP]]
+* [[G-code]]
+* [[GDScript]]
+* [[Genie (programming language)|Genie]]
+* [[Geometric Description Language|GDL]]
+* [[GEORGE (programming language)|GEORGE]]
+&lt;!-- [[GLBasic]] – see [[List of BASIC dialects]] --&gt;
+* [[GLSL]]
+* [[GNU E]]
+* [[GNU Guile]]
+* [[Go (programming language)|Go]]
+* [[Go! (programming language)|Go!]]
+* [[Game Oriented Assembly Lisp|GOAL]]
+* [[Gödel (programming language)|Gödel]]
+* [[Golo (programming language)|Golo]]
+* [[MAD (programming language)|GOM (Good Old Mad)]]
+* [[Google Apps Script]]
+* [[Gosu (programming language)|Gosu]]
+* [[IBM 1620#GOTRAN|GOTRAN]]
+* [[GPSS]]
+* [[Computer Sciences Corporation|GraphTalk]]
+* [[GRASS (programming language)|GRASS]]
+* [[Grasshopper_3D|Grasshopper]]
+* [[Groovy (programming language)|Groovy]]
+}}
+
+== H ==
+{{columns-list|colwidth=22em|
+* [[Hack (programming language)|Hack]]
+* [[HAGGIS]]
+* [[HAL/S]]
+* [[Halide (programming language)]]
+* [[Hamilton C shell]]
+* [[Harbour (software)|Harbour]]
+* [[Hartmann pipeline]]s
+* [[Haskell (programming language)|Haskell]]
+* [[Haxe]]
+* [[Hermes (programming language)|Hermes]]
+* [[High Level Assembly]]
+* [[High Level Shader Language|HLSL]]
+* [[Hollywood (programming language)|Hollywood]]
+* [[TempleOS|HolyC]]
+* [[Hop (software)|Hop]]
+* [[Hopscotch (programming language)|Hopscotch]]
+* [[Hope (programming language)|Hope]]
+&lt;!-- Please do not add [[HTML]]. It is a markup language, not a programming language. Seriously!!--&gt;
+* [[Hugo (programming language)|Hugo]]
+* [[Hume (language)|Hume]]
+* [[HyperTalk]]
+}}
+
+== I ==
+{{columns-list|colwidth=22em|
+* [[Io (programming language)|Io]]
+* [[Icon (programming language)|Icon]]
+* [[IBM Basic assembly language]]
+* [[IBM HAScript]]
+* [[IBM Informix-4GL]]
+* [[IBM RPG]]
+* [[IDL (programming language)|IDL]]
+* [[Idris (programming language)|Idris]]
+* [[Inform (programming language)|Inform]]
+}}
+
+== J ==
+{{columns-list|colwidth=22em|
+* [[J (programming language)|J]]
+* [[J Sharp|J#]]
+* [[Visual J++|J++]]
+* [[JADE (programming language)|JADE]]
+* [[JAL (compiler)|JAL]]
+* [[Janus (concurrent constraint programming language)]]
+* [[Janus (time-reversible computing programming language)]]
+* [[JASS]]
+* [[Java (programming language)|Java]]
+* [[JavaFX Script]]
+* [[JavaScript]]([[Scripting language]])
+* [[Jess (programming language)]]
+* [[Job Control Language|JCL]]
+* [[JEAN]]
+* [[Join Java]]
+* [[JOSS]]
+* [[Joule (programming language)|Joule]]
+* [[JOVIAL]]
+* [[Joy (programming language)|Joy]]
+* [[JQuery]]
+* [[JScript]]
+* [[JScript .NET]]
+* [[Julia (programming language)|Julia]]
+* [[Jython]]
+&lt;!-- Just BASIC is on BASIC dialects list --&gt;
+&lt;!-- Java EE, Java ME, etc. are subsets of Java, not separate languages --&gt;
+&lt;!-- Joomla is a PHP application, not a programming language --&gt;
+}}
+
+== K ==
+{{columns-list|colwidth=22em|
+* [[K (programming language)|K]]
+* [[Kaleidoscope (programming language)|Kaleidoscope]]
+* [[Karel (programming language)|Karel]]
+* [[IntelliCorp (Software)|KEE]]
+* [[KiXtart|Kixtart]]
+* [[Klerer-May System]]
+* [[Knowledge Interchange Format|KIF]]
+* [[Kojo (programming language)|Kojo]]
+* [[Kotlin (programming language)|Kotlin]]
+* [[Kent Recursive Calculator|KRC]]
+* [[KRL (programming language)|KRL]]
+* KRL ([[KUKA Robot Language]])
+* [[KRYPTON]]
+* [[Korn shell|Korn shell (ksh)]]
+* [[Kodu Game Lab|Kodu]]
+* [[Kivy (framework)#Kv language|Kv]]
+}}
+
+== L ==
+{{columns-list|colwidth=22em|
+* [[LabVIEW]]
+* [[Ladder logic|Ladder]]
+* [[LANSA (development environment)|LANSA]]
+* [[Lasso (programming language)|Lasso]]
+* [[Lava (programming language)|Lava]]
+* [[Little Computer 3|LC-3]]
+&lt;!-- Liberty BASIC is on the BASIC dialects list - see [[List of BASIC dialects]] page --&gt;
+* [[Legoscript]]
+* [[Little Implementation Language|LIL]]
+* [[LilyPond]]
+* [[Limbo (programming language)|Limbo]]
+* [[Limnor]]
+* [[LINC 4GL|LINC]]
+* [[Lingo (programming language)|Lingo]]
+* [[LINQ]]
+* [[LIS (programming language)|LIS]]
+* [[Language for Instruction Set Architecture|LISA]]
+* [[Language H]]
+* [[Lisp (programming language)|Lisp]] – ISO/IEC 13816
+* [[Lite-C]]
+* [[Lithe (programming language)|Lithe]]
+* [[Little b (programming language)|Little b]]
+* [[Ethereum#Programming languages|LLL]]
+* [[Logo (programming language)|Logo]]
+* [[Logtalk]]
+&lt;!-- LOLCODE is on the list of esoteric languages at Category:Esoteric_programming_languages --&gt;
+* [[LotusScript]]
+* [[LPC (programming language)|LPC]]
+* [[LSE (programming language)|LSE]]
+* [[Linden Scripting Language|LSL]]
+* [[LiveCode]]
+* [[LiveScript]]
+* [[Lua (programming language)|Lua]]
+* [[Lucid (programming language)|Lucid]]
+* [[Lustre (programming language)|Lustre]]
+* [[LYaPAS]]
+* [[Lynx (programming language)|Lynx]]
+}}
+
+
+== M ==
+{{columns-list|colwidth=22em|
+* [[M2001]]
+* [[M4 (computer language)|M4]]
+* [[M Sharp (programming language)|M#]]
+* [[Machine code]]
+&lt;!-- MacRuby is an implementation of Ruby --&gt;
+* [[MAD (programming language)|MAD]] (Michigan Algorithm Decoder)
+* [[MAD (programming language)|MAD/I]]
+* [[Magik (programming language)|Magik]]
+* [[Magma computer algebra system|Magma]]
+&lt;!-- Malbolge belongs on the esoteric page --&gt;
+* [[Máni]]
+&lt;!-- [[MapBasic]] – see [[List of BASIC dialects]] --&gt;
+* [[Maple (software)|Maple]]
+* [[MAPPER]] (now part of BIS)
+* [[MARK IV (software)|MARK-IV]] (now VISION:BUILDER)
+* [[Mary (programming language)|Mary]]
+* [[MATLAB]]
+* [[Microsoft Macro Assembler|MASM Microsoft Assembly x86]]
+&lt;!-- MinminC belongs on the esoteric page --&gt;
+* [[MATH-MATIC]]
+* [[Maude system]]
+* [[Maxima (software)|Maxima]] (see also [[Macsyma]])
+* [[Max (software)|Max]] (Max Msp – Graphical Programming Environment)
+* [[Autodesk 3ds Max|MaxScript]] internal language 3D Studio Max
+* [[Maya Embedded Language|Maya (MEL)]]
+* [[MDL (programming language)|MDL]]
+* [[Mercury (programming language)|Mercury]]
+* [[Mesa (programming language)|Mesa]]
+* [[Metafont]]
+* [[MHEG-5|MHEG-5 (Interactive TV programming language)]]
+* [[Microassembler|Microcode]]
+* [[MicroScript (programming language)|MicroScript]]
+* [[MIIS (programming language)|MIIS]]
+* [[Milk (programming language)]]
+* [[MIMIC]]
+* [[Mirah (programming language)|Mirah]]
+* [[Miranda (programming language)|Miranda]]
+* [[MIVA Script]]
+* [[ML (programming language)|ML]]
+* [[Model 204]]
+* [[Modelica]]
+* [[Modula]]
+* [[Modula-2]]
+* [[Modula-3]]
+* [[Mohol programming languages|Mohol]]
+* [[MOO (programming language)|MOO]]
+* [[Mortran]]
+* [[Mouse (programming language)|Mouse]]
+* [[MPD (programming language)|MPD]]
+* [[Mathcad]]
+* [[MIRC scripting language|MSL]]
+&lt;!-- * [[MSX BASIC]] is a BASIC dialect, listed in List of BASIC dialects --&gt;
+* [[MUMPS]]
+* [[MuPAD]] &lt;!-- a computer algebra system with its own language --&gt;
+* [[Ethereum#Programming languages|Mutan]]
+&lt;!-- MySQL is a database, not a programming language. --&gt;
+* [[Mystic BBS|Mystic Programming Language]] (MPL)
+}}
+
+== N ==
+{{columns-list|colwidth=22em|
+* [[Netwide Assembler|NASM]]
+* [[Napier88]]
+* [[Neko (programming language)|Neko]]
+* [[Nemerle]]
+* [[NESL]]
+* [[Net.Data]]
+* [[NetLogo]]
+* [[NetRexx]]
+* [[NewLISP]]
+* [[NEWP]]
+* [[Newspeak (programming language)|Newspeak]]
+* [[NewtonScript]]
+* [[Nial]]
+* [[Nice (programming language)|Nice]]
+&lt;!-- Nil belongs on the esoteric page --&gt;
+* [[Nickle (programming language)|Nickle]] ([[Nickle (programming language)|NITIN]])
+* [[Nim (programming language)|Nim]]
+* [[NORD Programming Language|NPL]]
+* [[Not eXactly C]] (NXC)
+* [[Not Quite C]] (NQC)
+* [[Nullsoft Scriptable Install System|NSIS]]
+* [[Nu (programming language)|Nu]]
+* [[NWScript]]
+* [[NXT-G]]
+}}
+
+== O ==
+{{columns-list|colwidth=22em|
+* [[o:XML]]
+* [[Oak (programming language)|Oak]]
+* [[Oberon (programming language)|Oberon]]
+* [[OBJ2]]
+* [[Object Lisp]]
+* [[ObjectLOGO]]
+* [[Object REXX]]
+* [[Object Pascal]]
+* [[Objective-C]]
+* [[Objective-J]]
+* [[Obliq]]
+* [[OCaml]]
+* [[occam (programming language)|occam]]
+* [[occam-π]]
+* [[GNU Octave|Octave]]
+* [[OmniMark]]
+* [[Opa (programming language)|Opa]]
+* [[Opal (programming language)|Opal]]
+* [[OpenCL]]
+* [[OpenEdge Advanced Business Language|OpenEdge ABL]]
+* [[Open Programming Language|OPL]]
+* [[OpenVera]]
+* [[OPS5]]
+* [[OptimJ]]
+* [[Orc (programming language)|Orc]]
+* [[ORCA/Modula-2]]
+* [[Oriel (scripting language)|Oriel]]
+* [[Orwell (programming language)|Orwell]]
+* [[Oxygene (programming language)|Oxygene]]
+* [[Oz (programming language)|Oz]]
+}}
+
+== P ==
+{{columns-list|colwidth=22em|
+* [[P (programming language)|P]]
+* [[P4 (programming language)|P4]]
+* [[P′′]]
+* [[ParaSail (programming language)]]
+* [[PARI/GP]]
+* [[Pascal (programming language)|Pascal]] – ISO 7185
+* [[Pascal Script]]
+&lt;!-- PBASIC is on the BASIC dialects list --&gt;
+* [[PCASTL]]
+* [[Programming language for Computable Functions|PCF]]
+* [[PEARL (programming language)|PEARL]]
+* [[PeopleCode]]
+* [[Perl]]
+* [[Perl Data Language|PDL]]
+* [[Pharo]]
+* [[PHP]]
+* [[Pico (programming language)|Pico]]
+* [[Picolisp]]
+* [[Pict (programming language)|Pict]]
+* [[Pig (programming tool)]]
+* [[Pike (programming language)|Pike]]
+* [[PILOT]]
+* [[Hartmann pipeline|Pipelines]]
+* [[Pizza (programming language)|Pizza]]
+* [[PL-11]]
+* [[PL/0]]
+* [[Programming Language for Business|PL/B]]
+* [[PL/C]]
+* [[PL/I]] – ISO 6160
+* [[PL/M]]
+* [[PL/P]]
+* [[PL/SQL]]
+* [[PL360]]
+* [[PLANC]]
+* [[Plankalkül]]
+* [[Planner (programming language)|Planner]]
+* [[PLEX (programming language)|PLEX]]
+* [[PLEXIL]]
+* [[Plus (programming language)|Plus]]
+* [[POP-11]]
+* [[POP-2]]
+&lt;!-- [[Poplog]] is an IDE --&gt;
+* [[PostScript]]
+* [[Amiga E#PortablE|PortablE]]
+* [[POV-Ray|POV-Ray SDL]]
+* [[Powerhouse (programming language)|Powerhouse]]
+* [[PowerBuilder]] – 4GL GUI application generator from Sybase
+* [[PowerShell]]
+* [[Polymorphic Programming Language|PPL]]
+* [[Processing (programming language)|Processing]]
+* [[Processing.js]]
+* [[Prograph]]
+* [[PROIV]]
+* [[Prolog]]
+* [[PROMAL]]
+* [[Promela]]
+* [[PROSE modeling language]]
+* [[Protel|PROTEL]]
+* [[ProvideX]]
+* [[Pro*C]]
+* [[Pure (programming language)|Pure]]
+* [[Pure Data]]
+&lt;!-- PureBasic is on BASIC dialects - see [[List of BASIC dialects]] page --&gt;
+* [[PureScript]]
+* [[Python (programming language)|Python]]
+}}
+
+== Q ==
+{{columns-list|colwidth=22em|
+* [[Q (programming language from Kx Systems)]]
+* [[Q Sharp|Q# (Microsoft programming language)]]
+* [[Qalb (programming language)|Qalb]]
+&lt;!-- [[QBasic]] - see [[List of BASIC dialects]] page --&gt;
+* [[Quantum Computation Language]]
+* [[QtScript]]
+* [[QuakeC]]
+* [[Quantum programming|QPL]]
+* [[Qbasic]]
+* [[.QL]]
+}}
+
+== R ==
+{{columns-list|colwidth=22em|
+* [[R (programming language)|R]]
+* [[R++]]
+* [[Racket (programming language)|Racket]]
+* [[Raku (programming language)|Raku]]
+* [[RAPID]]
+* [[Rapira]]
+* [[Ratfiv]]
+* [[Ratfor]]
+&lt;!-- [[RBScript]] – see [[List of BASIC dialects]] --&gt;
+&lt;!--Do not add RBX.Lua onto the list. Roblox Lua is just a slightly modified version of Lua with added and removed functions.--&gt;
+* [[rc]]
+* [[Reason (programming language)|Reason]]
+* [[REBOL]]
+* [[Red (programming language)|Red]]
+* [[Core War|Redcode]]
+&lt;!-- REALbasic is on the BASIC dialects list - see [[List of BASIC dialects]] page --&gt;
+* [[REFAL]]
+* [[REXX]]
+* [http://rittle.org Rittle]
+* [[Rlab]]
+* [[ROOP (programming language)|ROOP]]
+* [[IBM RPG|RPG]]
+* [[RPL (programming language)|RPL]]
+* [[Robot Battle#Robot scripting language|RSL]]
+* [[RTL/2]]
+* [[Ruby (programming language)|Ruby]]
+&lt;!-- Ruby on Rails is a Ruby library, not a programming language --&gt;
+* [[Rust (programming language)|Rust]]
+}}
+
+== S ==
+{{columns-list|colwidth=22em|
+* [[S (programming language)|S]]
+* [[S2 (programming language)|S2]]
+* [[S3 (programming language)|S3]]
+* [[S-Lang (programming language)|S-Lang]]
+* [[S-PLUS]]
+* [[SA-C (programming language)|SA-C]]
+* [[SabreTalk]]
+* [[SAIL (programming language)|SAIL]]
+* [[SAM76]]
+* [[SAS System|SAS]]
+* [[SASL (programming language)|SASL]]
+* [[Sather]]
+* [[Sawzall (programming language)|Sawzall]]
+* [[Scala (programming language)|Scala]]
+* [[Scheme (programming language)|Scheme]]
+* [[Scilab]]
+* [[Scratch (programming language)|Scratch]]
+* [[Script.NET]]
+* [[Sed]]
+* [[Seed7]]
+* [[Self (programming language)|Self]]
+* [[SenseTalk]]
+* [[SequenceL]]
+* [[Ethereum#Programming languages|Serpent]]
+* [[SETL]]
+* [[Superbase database#History|SIMPOL]]
+&lt;!-- Shake Speare belongs on the esoteric page --&gt;
+* [[SIGNAL (programming language)|SIGNAL]]
+* [[SiMPLE]]
+* [[SIMSCRIPT]]
+* [[Simula]]
+* [[Simulink]]
+* [[Singularity (operating system)|Singularity]]
+* [[SISAL]]
+* [[SLIP (programming language)|SLIP]]
+* [[SMALL]]
+&lt;!-- [[Small Basic]] – see [[List of BASIC dialects]] --&gt;
+* [[Smalltalk]]
+&lt;!-- [[Microsoft Small Basic|Small Basic]] - see [[List of BASIC dialects]] page --&gt;
+* [[Standard ML|SML]]
+* [[Strongtalk]]
+* [[Snap! (programming language)|Snap!]]
+* [[SNOBOL]] ([[SPITBOL compiler|SPITBOL]])
+* [[Snowball programming language|Snowball]]
+* [[Secure Operations Language|SOL]]
+* [[Solidity]]
+* [[SOPHAEROS]]
+* [[Source (programming language)|Source]]
+* [[SPARK (programming language)|SPARK]]
+* [[Speakeasy_(computational_environment)|Speakeasy]]
+* [[Speedcoding|Speedcode]]
+* [[Parallax Propeller|SPIN]]
+* [[SP/k]]
+* [[IBM 1401 Symbolic Programming System|SPS]]
+* [[SQL]]
+* [[SQR]]
+* [[Squeak]]
+* [[Squirrel (programming language)|Squirrel]]
+* [[SR (programming language)|SR]]
+* [[S/SL programming language|S/SL]]
+* [[Starlogo]]
+* [[Strand (programming language)|Strand]]
+* [[Stata]]
+* [[Stateflow]]
+* [[Subtext (programming language)|Subtext]]
+* [[Superbase database|SBL]]
+* [[SuperCollider]]
+* [[SuperTalk]]
+* [[Swift (programming language)|Swift (Apple programming language)]]
+* [[Swift (parallel scripting language)]]
+* [[SYMPL]]
+* [[SystemVerilog]]
+}}
+
+== T ==
+{{columns-list|colwidth=22em|
+* [[T (programming language)|T]]
+* [[TACL]]
+* [[TACPOL (programming language)|TACPOL]]
+* [[TADS]]
+* [[Transaction Application Language|TAL]]
+* [[Tcl]]
+* [[Tea (programming language)|Tea]]
+* [[text Editor and Corrector|TECO]]
+* [[TELCOMP]]
+* [[Tensorflow]]
+* [[TeX]]
+* [[Text Executive Programming Language|TEX]]
+&lt;!-- [[TI-BASIC]] - see [[List of BASIC dialects]] page --&gt;
+* [[Tensilica Instruction Extension|TIE]]
+&lt;!-- [[thinBasic]] – see [[List of BASIC dialects]] --&gt;
+* [[TMG (language)|TMG]], compiler-compiler
+* [[Tom (pattern matching language)|Tom]]
+* [[TOM (object-oriented programming language)|TOM]]
+* [[Toi (programming language)|Toi]]
+* [[Clarion (programming language)|Topspeed]]
+* [[text Processing Utility|TPU]]
+* [[TRAC (programming language)|Trac]]
+* [[TTM (programming language)|TTM]]
+* [[Transact-SQL|T-SQL]]
+* [[Transcript (programming language)|Transcript]]
+* [[TTCN]]
+&lt;!--* [[Turbo Pascal]] A dialect not a language, else let's include Turbo C, QuickPascal, etc. --&gt;
+* [[Turing (programming language)|Turing]]
+* [[TUTOR (programming language)|TUTOR]]
+* [[TXL (programming language)|TXL]]
+* [[TypeScript]]
+* [[Tynker]]
+}}
+
+== U ==
+{{columns-list|colwidth=22em|
+* [[Ubercode]]
+* [[UCSD Pascal]]
+* [[Umple]]
+* [[Unicon (programming language)|Unicon]]
+* [[Uniface (programming language)|Uniface]]
+* [[UNITY (programming language)|UNITY]]
+* [[Unix shell]]
+&lt;!-- Unlambda belongs on the esoteric page --&gt;
+* [[UnrealScript]]
+&lt;!-- Unified Modeling Language (UML) is not a programming language --&gt;
+}}
+
+== V ==
+{{columns-list|colwidth=22em|
+* [[Vala (programming language)|Vala]]
+* [[Verilog]]
+* [[VHDL]]
+* [[Vim (text editor) #Vim script|Vim script]]
+* [[Ethereum#Smart contracts|Viper]]
+* [[Visual Basic]]
+* [[Visual Basic .NET]]
+* [[Visual DataFlex]]
+* [[Visual DialogScript]]
+* [[Visual Fortran]]
+* [[Visual FoxPro]]
+* [[Visual J++]]
+* [[AutoLISP|Visual LISP]]
+* [[Visual Objects]]
+* [[Visual Prolog]]
+* [[VSXu]]
+}}
+&lt;!-- For all commented out languages, see [[List of BASIC dialects]] --&gt;
+
+== W ==
+{{columns-list|colwidth=22em|
+* [[WATFIV (programming language)|WATFIV, WATFOR]]
+* [[WebAssembly]]
+* [[WebDNA]]
+* [[Whiley (programming language)|Whiley]]
+&lt;!-- Whitespace belongs on the esoteric page --&gt;
+* [[Winbatch]]
+* [[Wolfram Language]]
+* [[Wyvern (programming language)|Wyvern]]
+}}
+
+== X ==
+{{Columns-list|colwidth=22em|
+* [[X++]]
+* [[X10 (programming language)|X10]]
+* [[XAML]]
+* [[xBase]]
+* [[xBase++]]
+* [[XBL]]
+* [[XC (programming language)|XC]] (targets [[XCore XS1|XMOS architecture]])
+* [[xHarbour]]
+* [[XL (programming language)|XL]]
+&lt;!-- XML is a markup language, not a programming language --&gt;
+* [[Xojo]]
+* [[XOTcl]]
+* [[XOD (programming language)]]
+* [[XPL]]
+* [[XPL0]]
+* [[XQuery]]
+* [[XSB]]
+* [[XSharp]]
+* [[XSL Transformations|XSLT]]
+* [[Xtend]]
+}}
+
+== Y ==
+{{columns-list|colwidth=22em|
+&lt;!-- [[Yabasic]] – see [[List of BASIC dialects]] --&gt;
+* [[YAML|YAML]]
+* [[Yorick (programming language)|Yorick]]
+* [[YQL (programming language)|YQL]]
+* [[Yoix]]
+* [[YUI Library|YUI]]
+}}
+
+== Z ==
+{{columns-list|colwidth=22em|
+* [[Z notation]]
+* [[Zebra (programming language)|Zebra, ZPL, ZPL2]]
+* [[Zeno (programming language)|Zeno]]
+* [[ZetaLisp]]
+* [[ZOPL]]
+* [[Z shell|Zsh]]
+* [[ZPL (programming language)|ZPL]]
+* [[Z++]]
+}}
+
+* 
+
+== See also ==
+{{Sister project links|Programming languages|wikt=programming language|b=Computer Programming|s=How to Think Like a Computer Scientist|commons=Category:Programming languages}}
+* [[Lists of programming languages]]
+* [[List of programming languages by type]]
+* [[Comparison of programming languages]]
+* [[List of BASIC dialects by platform]]
+* [[List of markup languages]]
+* [[List of stylesheet languages]]
+* [[History of programming languages]]
+* [[:Category:Programming languages]]
+* {{Wikibooks-inline|List of hello world programs}}
+{{Portal|Computer programming|left=yes}}
+
+{{Programming languages}}
+
+[[Category:Lists of programming languages| ]]
+[[Category:Computer programming|*]]</text>
+      <sha1>opzkns379yhcz5lmcrddbdwd15i649r</sha1>
+    </revision>
+  </page>
+</mediawiki>

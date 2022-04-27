@@ -1,0 +1,152 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.10/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.10/ http://www.mediawiki.org/xml/export-0.10.xsd" version="0.10" xml:lang="en">
+  <siteinfo>
+    <sitename>Wikipedia</sitename>
+    <dbname>enwiki</dbname>
+    <base>https://en.wikipedia.org/wiki/Main_Page</base>
+    <generator>MediaWiki 1.35.0-wmf.36</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Media</namespace>
+      <namespace key="-1" case="first-letter">Special</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Talk</namespace>
+      <namespace key="2" case="first-letter">User</namespace>
+      <namespace key="3" case="first-letter">User talk</namespace>
+      <namespace key="4" case="first-letter">Wikipedia</namespace>
+      <namespace key="5" case="first-letter">Wikipedia talk</namespace>
+      <namespace key="6" case="first-letter">File</namespace>
+      <namespace key="7" case="first-letter">File talk</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki talk</namespace>
+      <namespace key="10" case="first-letter">Template</namespace>
+      <namespace key="11" case="first-letter">Template talk</namespace>
+      <namespace key="12" case="first-letter">Help</namespace>
+      <namespace key="13" case="first-letter">Help talk</namespace>
+      <namespace key="14" case="first-letter">Category</namespace>
+      <namespace key="15" case="first-letter">Category talk</namespace>
+      <namespace key="100" case="first-letter">Portal</namespace>
+      <namespace key="101" case="first-letter">Portal talk</namespace>
+      <namespace key="108" case="first-letter">Book</namespace>
+      <namespace key="109" case="first-letter">Book talk</namespace>
+      <namespace key="118" case="first-letter">Draft</namespace>
+      <namespace key="119" case="first-letter">Draft talk</namespace>
+      <namespace key="446" case="first-letter">Education Program</namespace>
+      <namespace key="447" case="first-letter">Education Program talk</namespace>
+      <namespace key="710" case="first-letter">TimedText</namespace>
+      <namespace key="711" case="first-letter">TimedText talk</namespace>
+      <namespace key="828" case="first-letter">Module</namespace>
+      <namespace key="829" case="first-letter">Module talk</namespace>
+      <namespace key="2300" case="first-letter">Gadget</namespace>
+      <namespace key="2301" case="first-letter">Gadget talk</namespace>
+      <namespace key="2302" case="case-sensitive">Gadget definition</namespace>
+      <namespace key="2303" case="case-sensitive">Gadget definition talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Inverse-variance weighting</title>
+    <ns>0</ns>
+    <id>30440719</id>
+    <revision>
+      <id>961736011</id>
+      <parentid>934849550</parentid>
+      <timestamp>2020-06-10T03:51:54Z</timestamp>
+      <contributor>
+        <username>InternetArchiveBot</username>
+        <id>27015025</id>
+      </contributor>
+      <comment>Bluelink 1 book for [[Wikipedia:Verifiability|verifiability]] (refca)) #IABot (v2.0.1) ([[User:GreenC bot|GreenC bot]]</comment>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="7621" xml:space="preserve">In [[statistics]], '''inverse-variance weighting''' is a method of aggregating two or more [[random variables]] to minimize the [[variance]] of the weighted average. Each random variable is weighted in [[inverse proportion]] to its variance, i.e. proportional to its [[Precision (statistics)| precision]].
+
+Given a sequence of independent observations {{math|''y&lt;sub&gt;i&lt;/sub&gt;''}} with variances {{math|''σ&lt;sub&gt;i&lt;/sub&gt;&lt;sup&gt;2&lt;/sup&gt;''}}, the inverse-variance weighted average is given by&lt;ref&gt;{{Cite book
+ |author1=Joachim Hartung |author2=Guido Knapp |author3=Bimal K. Sinha | title = Statistical meta-analysis with applications
+ |url=https://archive.org/details/statisticalmetaa0000hart |url-access=registration | year = 2008
+ | publisher = [[John Wiley &amp; Sons]]
+ | isbn = 978-0-470-29089-7
+}}&lt;/ref&gt;
+:&lt;math&gt; \hat{y} = \frac{\sum_i y_i / \sigma_i^2}{\sum_i 1/\sigma_i^2} .&lt;/math&gt;
+
+The inverse-variance weighted average has the least variance among all weighted averages, which can be calculated as
+:&lt;math&gt; D^2(\hat{y}) = \frac{1}{\sum_i 1/\sigma_i^2} .&lt;/math&gt;
+
+If the variances of the measurements are all equal, then the inverse-variance weighted average becomes the simple average.
+
+Inverse-variance weighting is typically used in statistical [[meta-analysis]] to combine the results from independent measurements.
+
+==Context==
+Suppose an experimenter wishes to measure the value of a quantity, say the acceleration due to [[gravity of Earth]], whose true value happens to be &lt;math&gt; \mu &lt;/math&gt;. A careful experimenter makes multiple measurements, which we denote with &lt;math&gt; n &lt;/math&gt; [[random variables]] &lt;math&gt; X_1, X_2 , ... , X_n &lt;/math&gt;. If they are all noisy but unbiased,  i.e., the measuring device does not systematically overestimate or underestimate the true value and the errors are scattered symmetrically, then the [[expectation value]] &lt;math&gt; E[X_i] = \mu &lt;/math&gt; &lt;math&gt; \forall i &lt;/math&gt;. The scatter in the measurement is then characterised by the [[variance]] of the random variables &lt;math&gt; Var(X_i) := \sigma_i^2 &lt;/math&gt;, and if the measurements are performed under identical scenarios, then all the &lt;math&gt; \sigma_i &lt;/math&gt; are the same, which we shall refer to by &lt;math&gt; \sigma &lt;/math&gt;. Given the &lt;math&gt; n &lt;/math&gt; measurements, a typical [[estimator]] for &lt;math&gt; \mu &lt;/math&gt;, denoted as &lt;math&gt; \hat{\mu}&lt;/math&gt;, is given by the simple [[average]] &lt;math&gt; \overline{X} = \frac{1}{n} \sum_i X_i &lt;/math&gt;. Note that this empirical average is also a random variable, whose expectation value &lt;math&gt; E[\overline{X}]&lt;/math&gt; is &lt;math&gt; \mu &lt;/math&gt; but also has a scatter. If the individual measurements are uncorrelated, the square of the error in the estimate is given by 
+&lt;math&gt;
+Var(\overline{X}) = \frac{1}{n^2}\sum_i \sigma_i^2 = \left(\frac{\sigma}{\sqrt{n}}\right)^2
+&lt;/math&gt;. Hence, if all the &lt;math&gt; \sigma_i &lt;/math&gt; are equal, then the error in the estimate decreases with increase in &lt;math&gt; n &lt;/math&gt; as &lt;math&gt; 1/\sqrt{n} &lt;/math&gt;, thus making the more number of observations preferred.
+
+Instead of &lt;math&gt; n &lt;/math&gt; repeated measurements with one instrument, if the experimenter makes &lt;math&gt; n &lt;/math&gt; of the same quantity with &lt;math&gt; n &lt;/math&gt; different instruments with varying quality of measurements, then there is no reason to expect the different &lt;math&gt; \sigma_i &lt;/math&gt; to be the same. Some instruments could be noisier than others. In the example of measuring the acceleration due to gravity, the different "instruments" could be measuring &lt;math&gt; g &lt;/math&gt; from a [[simple pendulum]], from analysing a [[projectile motion]] etc.
+The simple average is no longer an optimal estimator, since the error in &lt;math&gt;\overline{X}&lt;/math&gt; might actually exceed the error in the least noisy measurement if different measurements have very different errors. Instead of discarding the noisy measurements that increase the final error, the experimenter can combine all the measurements with appropriate weights so as to give more importance to the least noisy measurements and vice versa. Given the knowledge of &lt;math&gt; \sigma_1^2, \sigma_2^2, ... , \sigma_n^2 &lt;/math&gt;, an optimal estimator to measure &lt;math&gt; \mu &lt;/math&gt; would be a [[weighted mean]] of the measurements &lt;math&gt; \hat{\mu} = \frac{\sum_i w_i X_i}{\sum_i w_i} &lt;/math&gt;, for the particular choice of the weights &lt;math&gt; w_i = 1/\sigma_i^2 &lt;/math&gt;. 
+The variance of the estimator &lt;math&gt; Var(\hat{\mu}) = \frac{  \sum_i w_i^2 \sigma_i^2  }{ \left( \sum_i w_i \right)^2 }&lt;/math&gt;, which for the optimal choice of the weights become &lt;math&gt;
+Var(\hat{\mu}_\text{opt}) =  \left(  \sum_{i}  \sigma_i^{-2} \right)^{-1} .
+&lt;/math&gt;
+
+Note that since &lt;math&gt; Var(\hat{\mu}_\text{opt}) &lt; \min_j \sigma_j^2 &lt;/math&gt;, the estimator has a scatter smaller than the scatter in any individual measurement. Furthermore, the scatter in &lt;math&gt; \hat{\mu}_\text{opt} &lt;/math&gt; decreases with adding more measurements, however noisier those measurements may be.
+
+==Derivation==
+Consider a generic weighted sum &lt;math&gt;Y= \sum_i w_i X_i &lt;/math&gt;, where the weights &lt;math&gt;w_i&lt;/math&gt; are normalised such that &lt;math&gt; \sum_i w_i = 1 &lt;/math&gt;. 
+If the &lt;math&gt; X_i &lt;/math&gt; are all independent, the variance of &lt;math&gt; Y &lt;/math&gt; is given by
+:&lt;math&gt;
+Var(Y) = \sum_i w_i^2 \sigma_i^2.
+&lt;/math&gt;
+For optimality, we wish to minimise &lt;math&gt; Var(Y) &lt;/math&gt; which can be done by equating the [[gradient]] with respect to the weights of &lt;math&gt; Var(Y) &lt;/math&gt; to zero, while maintaining the constraint that &lt;math&gt; \sum_i w_i = 1 &lt;/math&gt;. Using a [[Lagrange multiplier]] &lt;math&gt; w_0 &lt;/math&gt; to enforce the constraint, we express the variance
+:&lt;math&gt;
+Var(Y) = \sum_i w_i^2 \sigma_i^2 - w_0(\sum_i w_i - 1).
+&lt;/math&gt;
+
+For &lt;math&gt; k&gt;0 &lt;/math&gt;,
+
+:&lt;math&gt;
+0 = \frac{\partial}{\partial w_k} Var(Y) = 2w_k\sigma_k^2 - w_0,
+&lt;/math&gt;
+
+which implies that
+:&lt;math&gt; w_k = \frac{w_0/2}{\sigma_k^2}. &lt;/math&gt;
+
+The main takeaway here is that &lt;math&gt; w_k \propto 1/\sigma_k^2 &lt;/math&gt;. Since &lt;math&gt; \sum_i w_i = 1 &lt;/math&gt;,
+
+:&lt;math&gt;
+\frac{2}{w_0} = \sum_i \frac{1}{\sigma_i^2} := \frac{1}{\sigma_0^2}.
+&lt;/math&gt;
+
+The individual normalised weights are
+:&lt;math&gt;
+w_k = \frac{1}{\sigma_k^2}\left( \sum_i \frac{1}{\sigma_i^2} \right)^{-1}.
+&lt;/math&gt;
+
+It is easy to see that this extremum solution corresponds to the minimum from the [[second partial derivative test]] by noting that the variance is a quadratic function of the weights.
+Thus, the minimum variance of the estimator is then given by
+:&lt;math&gt;
+Var(Y) = \sum_i \frac{\sigma_0^4}{\sigma_i^4}\sigma_i^2 = \sigma_0^4\sum_i \frac{1}{\sigma_i^2} = \sigma_0^4\frac{1}{\sigma_0^2} = \sigma_0^2 = \frac{1}{\sum_i 1/\sigma_i^2}.
+&lt;/math&gt;
+
+===Normal Distributions===
+
+For [[Normal distribution| normally distributed]] random variables inverse-variance weighted averages can also be derived as the maximum likelihood estimate for the true value. Furthermore, from a [[Bayesian inference|Bayesian]] perspective the posterior distribution for the true value given normally distributed observations &lt;math&gt;y_i&lt;/math&gt; and a flat prior is a normal distribution with the inverse-variance weighted average as a mean and variance &lt;math&gt;Var(Y)&lt;/math&gt;
+
+==Multivariate Case==
+For multivariate distributions an equivalent argument leads to an optimal weighting based on the covariance matrices &lt;math&gt;\Sigma_i&lt;/math&gt; of the individual estimates &lt;math&gt;x_i&lt;/math&gt;:
+
+:&lt;math&gt;\hat{x} = \left(\sum_i \Sigma_i^{-1}\right)^{-1}\sum_i \Sigma_i^{-1} x_i &lt;/math&gt;
+
+For multivariate distributions the term "precision-weighted" average is more commonly used.
+
+==See also==
+*[[Weighted least squares]]
+
+== References ==
+{{Reflist}}
+
+{{Refimprove|date=September 2012}}
+
+[[Category:Meta-analysis]]
+[[Category:Estimation methods]]</text>
+      <sha1>5qc48c6t6xcte5l63p3nx1qb64vy0mt</sha1>
+    </revision>
+  </page>
+</mediawiki>

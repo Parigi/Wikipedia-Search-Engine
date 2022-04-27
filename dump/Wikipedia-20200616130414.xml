@@ -1,0 +1,125 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.10/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.10/ http://www.mediawiki.org/xml/export-0.10.xsd" version="0.10" xml:lang="en">
+  <siteinfo>
+    <sitename>Wikipedia</sitename>
+    <dbname>enwiki</dbname>
+    <base>https://en.wikipedia.org/wiki/Main_Page</base>
+    <generator>MediaWiki 1.35.0-wmf.36</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Media</namespace>
+      <namespace key="-1" case="first-letter">Special</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Talk</namespace>
+      <namespace key="2" case="first-letter">User</namespace>
+      <namespace key="3" case="first-letter">User talk</namespace>
+      <namespace key="4" case="first-letter">Wikipedia</namespace>
+      <namespace key="5" case="first-letter">Wikipedia talk</namespace>
+      <namespace key="6" case="first-letter">File</namespace>
+      <namespace key="7" case="first-letter">File talk</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki talk</namespace>
+      <namespace key="10" case="first-letter">Template</namespace>
+      <namespace key="11" case="first-letter">Template talk</namespace>
+      <namespace key="12" case="first-letter">Help</namespace>
+      <namespace key="13" case="first-letter">Help talk</namespace>
+      <namespace key="14" case="first-letter">Category</namespace>
+      <namespace key="15" case="first-letter">Category talk</namespace>
+      <namespace key="100" case="first-letter">Portal</namespace>
+      <namespace key="101" case="first-letter">Portal talk</namespace>
+      <namespace key="108" case="first-letter">Book</namespace>
+      <namespace key="109" case="first-letter">Book talk</namespace>
+      <namespace key="118" case="first-letter">Draft</namespace>
+      <namespace key="119" case="first-letter">Draft talk</namespace>
+      <namespace key="446" case="first-letter">Education Program</namespace>
+      <namespace key="447" case="first-letter">Education Program talk</namespace>
+      <namespace key="710" case="first-letter">TimedText</namespace>
+      <namespace key="711" case="first-letter">TimedText talk</namespace>
+      <namespace key="828" case="first-letter">Module</namespace>
+      <namespace key="829" case="first-letter">Module talk</namespace>
+      <namespace key="2300" case="first-letter">Gadget</namespace>
+      <namespace key="2301" case="first-letter">Gadget talk</namespace>
+      <namespace key="2302" case="case-sensitive">Gadget definition</namespace>
+      <namespace key="2303" case="case-sensitive">Gadget definition talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Mandoc</title>
+    <ns>0</ns>
+    <id>30073993</id>
+    <revision>
+      <id>956138241</id>
+      <parentid>933364212</parentid>
+      <timestamp>2020-05-11T18:07:09Z</timestamp>
+      <contributor>
+        <username>DannyS712 bot</username>
+        <id>35159807</id>
+      </contributor>
+      <minor/>
+      <comment>Task 70: Update syntaxhighlight tags - remove use of deprecated &lt;source&gt; tags</comment>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="7075" xml:space="preserve">{{lowercase title}}
+{{Infobox software
+| name                   = mandoc
+| screenshot             =
+| caption                =
+| author                 = 
+| developer              =
+| released               = November 2008
+| latest release version = 1.14.5
+| latest release date    = {{Start date and age|2019|03|10}}&lt;ref name=NEWS&gt;{{cite web | url = http://mandoc.bsd.lv/NEWS | title = Release notes | date = March 10, 2019}}&lt;/ref&gt;
+| programming language   = [[C (programming language)|C]]
+| genre                  = [[Typesetting]]
+| license                = [[ISC license]]
+| website                = {{URL|http://mandoc.bsd.lv/}}
+}}
+'''mandoc''' (historically called '''mdocml''') is an [[ISC license]]d utility for formatting [[man pages]], specifically those written in the ''[[mdoc]]'' and ''man'' macro languages. Unlike the [[Groff (software)|groff]] and older [[troff]] and [[nroff]] tools predominantly used for this purpose, mandoc focuses specifically on manuals and is not suitable for general-purpose [[type-setting]].
+
+mandoc is mainly used to format the ''[[mdoc]]'' manuals used in the [[Berkeley Software Distribution|BSD Operating Systems]], but it also implements most of the ''man'' macros used in [[Linux]] distributions, as well as a subset of [[roff (computer program)|roff]] commands occasionally intermixed with the ''man'' macros.&lt;ref name=roff7&gt;{{man|7|roff|OpenBSD}}&lt;/ref&gt;&lt;ref name=NEWS/&gt;{{rp|at=1.14.5}} It does not support other macro sets such as ''mm'' and ''ms'', or any typesetting features like hyphenation, fonts and alignment.&lt;ref name=roff7/&gt;{{rp|at=compatibility}} Simple styling such as bold and italics are supported, but italicized text is replaced by underlined text on the terminal.&lt;ref&gt;{{cite web |title=Italics and colour in manual pages on a nosh user-space virtual terminal |url=https://jdebp.eu/Softwares/nosh/italics-in-manuals.html |website=jdebp.eu}}&lt;/ref&gt;&lt;ref&gt;{{man|1|mandoc|FreeBSD}}. "Font styles are applied by using back-spaced encoding..."&lt;/ref&gt;
+
+mandoc has built-in support for the troff soelim (inclusion) preprocessor and partial built-in support for [[tbl]] and [[eqn (software)|eqn]].  It has strong support for UTF-8 output. It can also use the semantic information in mdoc manuals to implement [[semantic search]], which before version 1.4.1, relied on [[sqlite]].&lt;ref name=NEWS/&gt;{{rp|at=1.4.1}}
+
+== History ==
+Development began in November 2008 specifically to produce [[CSS]]-enabled [[HTML]] forms of manuals in response to the limitations of [[groff (software)|groff]]. mandoc gained initial text-mode output in February 2009.&lt;ref name="cvsweb"&gt;{{cite web|url=http://mdocml.bsd.lv/cgi-bin/cvsweb/?cvsroot=mdocml|title=Source history|date=|publisher=Mdocml.bsd.lv|accessdate=2010-12-18}}&lt;/ref&gt; It was then showcased at AsiaBSDCon-2009.&lt;ref name="absdcon"&gt;{{cite web|url=http://2009.asiabsdcon.org/live/abc2009-P6B.html|title=AsiaBSDCon 2009: Deprecating groff for BSD manual display|date=2009-03-15|publisher=2009.asiabsdcon.org|accessdate=2010-12-18}}&lt;/ref&gt;&lt;ref name="absdconpdf"&gt;{{cite web|url=http://2009.asiabsdcon.org/papers/abc2009-P6B-paper.pdf|title=Deprecating groff for BSD manual display|date=|format=PDF|accessdate=2010-12-18}}&lt;/ref&gt;&lt;ref name="absdconvid"&gt;{{cite web|url=https://www.youtube.com/watch?v=z25FFo01Zpw|title=Video of AsiaBSDCon presentation|date=|publisher=Youtube.com|author= |accessdate=2010-12-18}}&lt;/ref&gt;  In summer of 2010, mandoc was the subject of a [[NetBSD]]-mentored [[Google Summer of Code]] project&lt;ref name="mandoc_ps"&gt;{{cite web|url=http://netbsd-soc.sourceforge.net/projects/mandoc_ps/|title=Google Summer of Code: mandoc_ps|date=|publisher=Netbsd-soc.sourceforge.net|accessdate=2010-12-18}}&lt;/ref&gt; for producing [[PostScript]] and [[Portable Document Format|PDF]] output alongside the existing text, HTML, and [[XHTML]] outputs. This work was completed in August 2010.&lt;ref&gt;{{cite web|url=http://blog.netbsd.org/tnf/entry/google_summer_of_code_postscript|title=NetBSD Blog|date=2010-08-11|publisher=Blog.netbsd.org|accessdate=2010-12-18}}&lt;/ref&gt;  mandoc became the default formatter of manuals for [[OpenBSD]] 4.8, released in November 2010.&lt;ref name="openbsd"&gt;{{cite web|url=http://www.openbsd.org/48.html|title=OpenBSD 4.8|date=2010-11-01|publisher=Openbsd.org|accessdate=2010-12-18}}&lt;/ref&gt;&lt;ref&gt;{{cite web|url=http://www.undeadly.org/cgi?action=article&amp;sid=20110314142734|title=groff deleted from tree}}&lt;/ref&gt; It later became the default formatter in [[NetBSD]], [[FreeBSD]], [[illumos]], [[Void Linux]] and [[Alpine Linux]], and is also included in [[DragonFlyBSD]], [[MINIX 3]], [[Debian]], [[Ubuntu]], [[Gentoo Linux|Gentoo]], and [[Fedora]].&lt;ref&gt;{{cite web|url=http://mdocml.bsd.lv/ports.html|title=Availability of the mandoc toolset|publisher=Mdocml.bsd.lv}}&lt;/ref&gt; Its advantages were stated as high speed,&lt;ref name="speed"&gt;{{cite web|last=Unangst|first=Ted|url=http://marc.info/?l=openbsd-misc&amp;m=127070066732223|title=mandoc speed benchmarks}}&lt;/ref&gt; license, and clean reimplementation.
+
+==Sample usage==
+The following demonstrates running &lt;code&gt;mandoc&lt;/code&gt; on its own.  Usually, it would be called via the [[man page|man]] utility.  In this example, &lt;code&gt;foo.1&lt;/code&gt; is the name of an ''[[mdoc]]'' UNIX manual.&lt;ref name=mandoc&gt;{{man|1|mandoc|OpenBSD}}&lt;/ref&gt;
+&lt;syntaxhighlight lang="bash"&gt;
+ # Pipe output to a pager.
+ $ mandoc foo.1 | less
+ # HTML output with a style-sheet.
+ $ mandoc -Thtml -Ostyle=style.css &gt;foo.1.html
+&lt;/syntaxhighlight&gt;
+Multibyte (localised) manuals may also be rendered without preprocessing.  In this example, &lt;code&gt;foo.jp.1&lt;/code&gt; is a Japanese manual encoded in [[UTF-8]].  mandoc will automatically detect the encoding.&lt;ref name=mandoc/&gt;
+&lt;syntaxhighlight lang="bash"&gt;
+ # Pipe wide-character output to a pager.
+ $ mandoc foo.jp.1 | less
+&lt;/syntaxhighlight&gt;
+The included [[Apropos_(Unix)|apropos]] implementation can use semantic information in search:&lt;ref name=apropos&gt;{{man|1|apropos|OpenBSD}}&lt;/ref&gt;
+&lt;syntaxhighlight lang="bash"&gt;
+ # Search for all functions starting with 'str' having return type size_t:
+ $ apropos -s 3 Ft=size_t -a Nm~^str
+&lt;/syntaxhighlight&gt;
+
+== Other features ==
+* &lt;tt&gt;mandoc&lt;/tt&gt; supports HTML 5, PostScript, and PDF output via the {{code|-T}} parameter.&lt;ref name=mandoc/&gt;
+* &lt;tt&gt;man.cgi&lt;/tt&gt; is a [[Common Gateway Interface|CGI]] program designed to display manual pages on the web. [[OpenBSD]] uses it to format all its manual pages.&lt;ref name=man.cgi&gt;{{man|8|man.cgi|OpenBSD}}&lt;/ref&gt;
+
+==References==
+{{reflist|30em}}
+
+==External links==
+* [http://mandoc.bsd.lv/ The mandoc UNIX manpage compiler toolset]
+* [https://man.openbsd.org/ OpenBSD online manpages], generated by mandoc's man.cgi program
+* [http://www.undeadly.org/cgi?action=article&amp;sid=20100604082319&amp;mode=expanded Undeadly article on mandoc]
+* [http://netbsd-soc.sourceforge.net/projects/mandoc_ps/ Google Summer of Code mandoc_ps project site] - work on PostScript support
+* [http://freecode.com/projects/mandoc Freecode page for mandoc] - used until 1.12.2
+
+{{OpenBSD}}
+
+[[Category:BSD software]]
+[[Category:OpenBSD software using the ISC license]]</text>
+      <sha1>aajepnh8uyjbgtrtkcktqm5kfaoshu7</sha1>
+    </revision>
+  </page>
+</mediawiki>

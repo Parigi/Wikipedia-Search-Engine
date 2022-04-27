@@ -1,0 +1,331 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.10/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.10/ http://www.mediawiki.org/xml/export-0.10.xsd" version="0.10" xml:lang="en">
+  <siteinfo>
+    <sitename>Wikipedia</sitename>
+    <dbname>enwiki</dbname>
+    <base>https://en.wikipedia.org/wiki/Main_Page</base>
+    <generator>MediaWiki 1.35.0-wmf.36</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Media</namespace>
+      <namespace key="-1" case="first-letter">Special</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Talk</namespace>
+      <namespace key="2" case="first-letter">User</namespace>
+      <namespace key="3" case="first-letter">User talk</namespace>
+      <namespace key="4" case="first-letter">Wikipedia</namespace>
+      <namespace key="5" case="first-letter">Wikipedia talk</namespace>
+      <namespace key="6" case="first-letter">File</namespace>
+      <namespace key="7" case="first-letter">File talk</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki talk</namespace>
+      <namespace key="10" case="first-letter">Template</namespace>
+      <namespace key="11" case="first-letter">Template talk</namespace>
+      <namespace key="12" case="first-letter">Help</namespace>
+      <namespace key="13" case="first-letter">Help talk</namespace>
+      <namespace key="14" case="first-letter">Category</namespace>
+      <namespace key="15" case="first-letter">Category talk</namespace>
+      <namespace key="100" case="first-letter">Portal</namespace>
+      <namespace key="101" case="first-letter">Portal talk</namespace>
+      <namespace key="108" case="first-letter">Book</namespace>
+      <namespace key="109" case="first-letter">Book talk</namespace>
+      <namespace key="118" case="first-letter">Draft</namespace>
+      <namespace key="119" case="first-letter">Draft talk</namespace>
+      <namespace key="446" case="first-letter">Education Program</namespace>
+      <namespace key="447" case="first-letter">Education Program talk</namespace>
+      <namespace key="710" case="first-letter">TimedText</namespace>
+      <namespace key="711" case="first-letter">TimedText talk</namespace>
+      <namespace key="828" case="first-letter">Module</namespace>
+      <namespace key="829" case="first-letter">Module talk</namespace>
+      <namespace key="2300" case="first-letter">Gadget</namespace>
+      <namespace key="2301" case="first-letter">Gadget talk</namespace>
+      <namespace key="2302" case="case-sensitive">Gadget definition</namespace>
+      <namespace key="2303" case="case-sensitive">Gadget definition talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Regularized least squares</title>
+    <ns>0</ns>
+    <id>48803892</id>
+    <revision>
+      <id>938339427</id>
+      <parentid>938338895</parentid>
+      <timestamp>2020-01-30T16:12:05Z</timestamp>
+      <contributor>
+        <ip>35.3.74.63</ip>
+      </contributor>
+      <comment>added hyperlink to previous edit</comment>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="23387" xml:space="preserve">{{summarize|to|Least squares#Regularization}}
+{{Regression bar}}
+'''Regularized least squares''' ('''RLS''') is a family of methods for solving the [[least squares|least-squares]] problem while using [[regularization (mathematics)|regularization]] to further constrain the resulting solution.
+
+RLS is used for two main reasons. The first comes up when the number of variables in the linear system exceeds the number of observations. In such settings, the [[ordinary least squares|ordinary least-squares]] problem is [[ill-posed problem|ill-posed]] and is therefore impossible to fit because the associated optimization problem has infinitely many solutions. RLS allows the introduction of further constraints that uniquely determine the solution.
+
+The second reason that RLS is used occurs when the number of variables does not exceed the number of observations, but the learned model suffers from poor [[Generalization error|generalization]]. RLS can be used in such cases to improve the generalizability of the model by constraining it at training time. This constraint can either force the solution to be "sparse" in some way or to reflect other prior knowledge about the problem such as information about correlations between features. A [[Bayesian inference|Bayesian]] understanding of this can be reached by showing that RLS methods are often equivalent to [[prior probability|priors]] on the solution to the least-squares problem.
+
+== General formulation ==
+
+Consider a learning setting given by a probabilistic space &lt;math&gt;(X \times Y, \rho(X,Y))&lt;/math&gt;, &lt;math&gt;Y \in R&lt;/math&gt;. Let &lt;math&gt;S=\{x_{i},y_{i}\}_{i=1}^{n}&lt;/math&gt; denote a training set of &lt;math&gt;n&lt;/math&gt; pairs i.i.d. with respect to &lt;math&gt;\rho&lt;/math&gt;. Let &lt;math&gt;V:Y \times R \rightarrow [0;\infty)&lt;/math&gt; be a loss function. Define &lt;math&gt;F&lt;/math&gt; as the space of the functions such that expected risk: 
+:&lt;math&gt;
+\varepsilon(f) = \int V(y,f(x)) \, d\rho(x,y)
+&lt;/math&gt;
+is well defined. 
+The main goal is to minimize the expected risk:
+:&lt;math&gt;
+\inf_{f \in F}\varepsilon(f)
+&lt;/math&gt;
+Since the problem cannot be solved exactly there is a need to specify how to measure the quality of a solution. A good learning algorithm should provide an estimator with a small risk.
+
+As the joint distribution  &lt;math&gt;\rho&lt;/math&gt; is typically unknown, the empirical risk is taken. For regularized least squares the square loss function is introduced:
+:&lt;math&gt;
+\varepsilon(f) = \frac{1}{n}\sum_{i=1}^n V(y_i,f(x_i)) = \frac{1}{n}\sum_{i=1}^n(y_i-f(x_i))^2
+&lt;/math&gt;
+
+However, if the functions are from a relatively unconstrained space, such as the set of square-integrable functions on &lt;math&gt;X&lt;/math&gt;, this approach may overfit the training data, and lead to poor generalization. Thus, it should somehow constrain or penalize the complexity of the function &lt;math&gt;f &lt;/math&gt;. In RLS, this is accomplished by choosing functions from a reproducing kernel Hilbert space (RKHS) &lt;math&gt;\mathcal {H} &lt;/math&gt;, and adding a regularization term to the objective function, proportional to the norm of the function in &lt;math&gt;\mathcal {H} &lt;/math&gt;:
+:&lt;math&gt;
+\inf_{f \in F}\varepsilon(f) + \lambda R(f), \lambda &gt; 0
+&lt;/math&gt;
+
+== Kernel formulation ==
+
+=== Definition of RKHS ===
+A RKHS can be defined by a [[symmetric function|symmetric]] [[positive-definite kernel function]] &lt;math&gt;K(x,z)&lt;/math&gt; with the reproducing property:
+:&lt;math&gt;
+\langle K_{x},f\rangle_{\mathcal{H}}=f(x),
+&lt;/math&gt;
+
+where &lt;math&gt;K_x(z)=K(x,z)&lt;/math&gt;. The RKHS for a kernel &lt;math&gt;K&lt;/math&gt; consists of the [[complete metric space#Completion|completion]] of the space of functions spanned by &lt;math&gt;\left\{ K_x\mid x \in X\right\}&lt;/math&gt;: &lt;math&gt;f(x)=\sum_{i=1}^n \alpha_i K_{x_i}(x),\, f\in\mathcal{H}&lt;/math&gt;, where all &lt;math&gt;\alpha_i&lt;/math&gt; are real numbers. Some commonly used kernels include the linear kernel, inducing the space of linear functions:
+
+: &lt;math&gt;K(x,z)=x^T z,&lt;/math&gt;
+
+the polynomial kernel, inducing the space of polynomial functions of order &lt;math&gt;d&lt;/math&gt;:
+
+: &lt;math&gt;K(x,z)=(x^T z+1)^d,&lt;/math&gt;
+
+and the Gaussian kernel:
+
+: &lt;math&gt;K(x,z)=e^{-\frac{\|x-z\|^2}{\sigma^2}}.&lt;/math&gt;
+
+Note that for an arbitrary loss function &lt;math&gt;V&lt;/math&gt;, this approach defines a general class of algorithms named Tikhonov regularization. For instance, using the [[hinge loss]] leads to the [[support vector machine]] algorithm, and using the [[epsilon-insensitive loss]] leads to [[support vector regression]].
+
+=== Arbitrary kernel===
+The [[representer theorem]] guarantees that the solution can be written as:
+
+:&lt;math&gt;
+f(x) = \sum_{i=1}^n c_i K(x_i,x)
+&lt;/math&gt; for some &lt;math&gt;c \in \mathbb R^n&lt;/math&gt;.
+
+The minimization problem can be expressed as:
+
+:&lt;math&gt;
+\min_{c \in R^n}\frac{1}{n}\|Y-Kc\|^2_{R^n} + \lambda\|f\|^2_H 
+&lt;/math&gt;,
+
+where, with some abuse of notation, the &lt;math&gt;i,j&lt;/math&gt; entry of kernel matrix &lt;math&gt;K&lt;/math&gt; (as opposed to kernel function &lt;math&gt;K(\cdot, \cdot)&lt;/math&gt;) is &lt;math&gt;K(x_i, x_j)&lt;/math&gt;.
+
+For such a function,
+:&lt;math&gt;
+\begin{align}
+&amp; \|f\|^2_H = \langle f,f \rangle_{H} =\left\langle \sum_{i=1}^n c_i K(x_i,\cdot), \sum_{j=1}^n c_j K(x_{j},\cdot) \right\rangle_H \\
+= {} &amp; \sum_{i=1}^n \sum_{j=1}^n c_i c_j \langle K(x_i,\cdot), K(x_j,\cdot) \rangle_H = \sum_{i=1}^n \sum_{j=1}^n c_i c_j K(x_i,x_j) = c^T Kc,
+\end{align}
+&lt;/math&gt;
+
+The following minimization problem can be obtained:
+:&lt;math&gt;
+\min_{c \in R^{n}}\frac{1}{n}\|Y-Kc\|^{2}_{R^{n}} + \lambda c^{T}Kc  
+&lt;/math&gt;.
+
+As the sum of convex functions is convex, the solution is unique and its minimum can be found by setting the gradient w.r.t &lt;math&gt;c&lt;/math&gt; to &lt;math&gt;0&lt;/math&gt;:
+:&lt;math&gt;
+-\frac{1}{n}K(Y-Kc) + \lambda Kc = 0 \Rightarrow K(K+\lambda n I)c = K Y \Rightarrow c  = (K+\lambda n I)^{-1}Y &lt;/math&gt;,
+where &lt;math&gt; c \in R^{n}&lt;/math&gt;.
+
+==== Complexity ====
+The complexity of training is basically the cost of computing the kernel matrix plus the cost of solving the linear system which is roughly &lt;math&gt;O(n^{3})&lt;/math&gt;. The computation of the kernel matrix for the linear or [[Gaussian kernel]] is &lt;math&gt;O(n^{2}D)&lt;/math&gt;. The complexity of testing is &lt;math&gt;O(n)&lt;/math&gt;.
+
+=== Prediction ===
+The prediction at a new test point &lt;math&gt;x_{*}&lt;/math&gt; is:
+:&lt;math&gt;
+f(x_{*}) = \sum_{i=1}^n c_i K(x_i,x_{*}) = K(X,X_{*})^T c
+&lt;/math&gt;
+
+=== Linear kernel ===
+For convenience a vector notation is introduced. Let &lt;math&gt;X&lt;/math&gt; be an &lt;math&gt;n\times d&lt;/math&gt; matrix, where the rows are input vectors, and &lt;math&gt;Y&lt;/math&gt; a &lt;math&gt;n\times 1&lt;/math&gt; vector where the entries are corresponding outputs. In terms of vectors, the kernel matrix can be written as &lt;math&gt;\operatorname K=\operatorname X\operatorname X^{T}&lt;/math&gt;. The learning function can be written as:
+
+:&lt;math&gt;
+f(x_{*})  = \operatorname K_{x_{*}}c
+  =  x_{*}^T \operatorname X^T c
+  =  x_{*}^T w
+&lt;/math&gt;
+
+Here we define &lt;math&gt;w = X^T c, w \in R^d&lt;/math&gt;. The objective function can be rewritten as:
+:&lt;math&gt;
+\begin{align}
+&amp; \frac{1}{n}\|Y-\operatorname Kc\|^2_{R^n}+\lambda c^{T}\operatorname Kc \\[4pt]
+= {} &amp; \frac{1}{n}\|y-\operatorname X\operatorname X^T c\|^2_{R^n}+\lambda c^T \operatorname X\operatorname X^{T} c = \frac{1}{n}\|y-\operatorname Xw\|^2_{R^n}+\lambda \|w\|^2_{R^d}
+\end{align}
+&lt;/math&gt;
+
+The first term is the objective function from [[ordinary least squares]] (OLS) regression, corresponding to the [[residual sum of squares]]. The second term is a regularization term, not present in OLS, which penalizes large &lt;math&gt;w&lt;/math&gt; values.
+As a smooth finite dimensional problem is considered and it is possible to apply standard calculus tools. In order to minimize the objective function,  the gradient is calculated with respect to &lt;math&gt;w&lt;/math&gt; and set it to zero:
+
+: &lt;math&gt;\operatorname X^T \operatorname Xw-\operatorname X^T y+\lambda n w=0&lt;/math&gt;
+
+: &lt;math&gt;w=(\operatorname X^T \operatorname X+\lambda n \operatorname I)^{-1}\operatorname X^T y&lt;/math&gt;
+
+This solution closely resembles that of standard linear regression, with an extra term &lt;math&gt;\lambda\operatorname I&lt;/math&gt;. If the assumptions of OLS regression hold, the solution &lt;math&gt;
+w=(\operatorname X^{T}\operatorname X)^{-1}\operatorname X^{T}y&lt;/math&gt;, with &lt;math&gt;\lambda=0&lt;/math&gt;, is an unbiased estimator, and is the minimum-variance linear unbiased estimator, according to the [[Gauss–Markov theorem]]. The term &lt;math&gt;\lambda n \operatorname I&lt;/math&gt; therefore leads to a biased solution; however, it also tends to reduce variance. This is easy to see, as the [[covariance]] matrix of the &lt;math&gt;w&lt;/math&gt;-values is proportional to &lt;math&gt;(\operatorname X^T \operatorname X+\lambda n \operatorname I)^{-1}&lt;/math&gt;, and therefore large values of &lt;math&gt;\lambda&lt;/math&gt; will lead to lower variance. Therefore, manipulating &lt;math&gt;\lambda&lt;/math&gt; corresponds to trading-off bias and variance. For problems with high-variance &lt;math&gt;w&lt;/math&gt; estimates, such as cases with relatively small &lt;math&gt;n&lt;/math&gt; or with correlated regressors, the optimal prediction accuracy may be obtained by using a nonzero &lt;math&gt;\lambda&lt;/math&gt;, and thus introducing some bias to reduce variance. Furthermore, it is not uncommon in [[machine learning]] to have cases where &lt;math&gt;n&lt;d&lt;/math&gt;, in which case &lt;math&gt;X^T X&lt;/math&gt; is [[rank (linear algebra)|rank]]-deficient, and a nonzero &lt;math&gt;\lambda&lt;/math&gt; is necessary to compute &lt;math&gt;(\operatorname X^{T}\operatorname X+\lambda n \operatorname I)^{-1}&lt;/math&gt;.
+
+==== Complexity ====
+The parameter &lt;math&gt;\lambda&lt;/math&gt;
+controls the invertibility of the matrix &lt;math&gt;X^{T}X + \lambda n I &lt;/math&gt;.
+Several methods can be used to solve the above linear system,
+[[Cholesky decomposition]] being probably the method of choice, since the matrix &lt;math&gt;X^{T}X + \lambda n I &lt;/math&gt; is [[symmetric]] and [[positive definite]]. The complexity of this method is &lt;math&gt;O(nD^{2})&lt;/math&gt; for training and
+&lt;math&gt;O(D)&lt;/math&gt; for testing. The cost &lt;math&gt;O(nD^{2})&lt;/math&gt; is essentially that of computing &lt;math&gt;X^{T}X&lt;/math&gt;, whereas the inverse computation (or rather the solution of the linear system) is roughly &lt;math&gt;O(D^{3})&lt;/math&gt;.
+
+== Feature maps and Mercer's theorem==
+In this section it will be shown how to extend RLS to any kind of reproducing kernel K. Instead of linear kernel a feature map is considered
+&lt;math&gt;\Phi: X \rightarrow F&lt;/math&gt; for some Hilbert space &lt;math&gt;F&lt;/math&gt;, called the feature space.   In this case the kernel is defined as: The matrix &lt;math&gt;X&lt;/math&gt; is now replaced by the new data matrix  &lt;math&gt;\Phi&lt;/math&gt;, where  &lt;math&gt;\Phi_{ij} = \phi_{j}(x_{i})&lt;/math&gt;, or the  &lt;math&gt;j&lt;/math&gt;-th component of the  &lt;math&gt; \phi(x_{i})&lt;/math&gt;.
+
+:&lt;math&gt;
+K(x,x') = \langle \Phi(x), \Phi(x') \rangle_F. &lt;/math&gt;
+It means that for a given training set &lt;math&gt;K = \Phi \Phi^T&lt;/math&gt;. Thus, the objective function can be written as:
+:&lt;math&gt;
+\min_{c \in \mathbb R^n}\|Y - \Phi \Phi^{T}\|^2_{R^n} + \lambda c^{T}\Phi \Phi^{T} c
+&lt;/math&gt;
+
+This approach is known as the [[kernel trick]]. This technique can significantly simplify the computational operations. If &lt;math&gt;F&lt;/math&gt; is high dimensional, computing  &lt;math&gt;\phi(x_{i})&lt;/math&gt; may be rather intensive.  If the explicit form of the kernel function is known, we just need to compute and store the &lt;math&gt;n\times n&lt;/math&gt; kernel matrix &lt;math&gt;\operatorname K&lt;/math&gt;.
+
+In fact, the [[Hilbert space]] &lt;math&gt;F&lt;/math&gt; need not be isomorphic to &lt;math&gt;\mathbb{R}^{m}&lt;/math&gt;, and can be infinite dimensional. This  follows from [[Mercer's theorem]], which states that a continuous, symmetric, positive definite kernel function can be expressed as:
+
+&lt;math&gt;K(x,z)=\sum_{i=1}^\infty \sigma_i e_i(x) e_i(z)&lt;/math&gt;
+
+where &lt;math&gt;e_i(x)&lt;/math&gt; form an [[orthonormal basis]] for &lt;math&gt;\ell^2(X)&lt;/math&gt;, and &lt;math&gt;\sigma_i \in\mathbb{R}&lt;/math&gt;. If feature maps  is defined &lt;math&gt;\phi(x)&lt;/math&gt; with components &lt;math&gt;\phi_{i}(x)=\sqrt{\sigma_{i}}e_{i}(x)&lt;/math&gt;, it follows that &lt;math&gt;K(x,z)=\langle\phi(x),\phi(z)\rangle&lt;/math&gt;. This demonstrates that any kernel can be associated with a feature map, and that RLS generally consists of linear RLS performed in some possibly higher-dimensional feature space. While Mercer's theorem shows how one feature map that can be associated with a kernel, in fact multiple feature maps can be associated with a given reproducing kernel. For instance, the map &lt;math&gt;\phi(x)=K_{x}&lt;/math&gt; satisfies the property &lt;math&gt;K(x,z)=\langle\phi(x),\phi(z)\rangle&lt;/math&gt; for an arbitrary reproducing kernel.
+
+==Bayesian interpretation==
+{{further|Bayesian linear regression|Bayesian interpretation of kernel regularization}}
+
+Least squares can be viewed as a likelihood maximization under an assumption of normally distributed residuals. This is because the exponent of the [[Gaussian distribution]] is quadratic in the data, and so is the least-squares objective function. In this framework, the regularization terms of RLS can be understood to be encoding [[prior distribution|priors]] on &lt;math&gt;w&lt;/math&gt;. For instance, Tikhonov regularization corresponds to a normally distributed prior on &lt;math&gt;w&lt;/math&gt; that is centered at 0. To see this, first note that the OLS objective is proportional to the [[log-likelihood]] function when each sampled &lt;math&gt;y^i&lt;/math&gt; is normally distributed around &lt;math&gt;w^T \cdot x^i&lt;/math&gt;. Then observe that a normal prior on &lt;math&gt;w&lt;/math&gt; centered at 0 has a log-probability of the form
+: &lt;math&gt;\log P(w) = q - \alpha \sum_{j=1}^d w_j^2&lt;/math&gt;
+where &lt;math&gt;q&lt;/math&gt; and &lt;math&gt;\alpha&lt;/math&gt; are constants that depend on the variance of the prior and are independent of &lt;math&gt;w&lt;/math&gt;. Thus, minimizing the logarithm of the likelihood times the prior is equivalent to minimizing the sum of the OLS loss function and the ridge regression regularization term.
+
+This gives a more intuitive interpretation for why [[Tikhonov regularization]] leads to a unique solution to the least-squares problem: there are infinitely many vectors &lt;math&gt;w&lt;/math&gt; satisfying the constraints obtained from the data, but since we come to the problem with a prior belief that &lt;math&gt;w&lt;/math&gt; is normally distributed around the origin, we will end up choosing a solution with this constraint in mind.
+
+Other regularization methods correspond to different priors. See the [[Regularized least squares#List of RLS methods|list]] below for more details.
+
+==Specific examples==
+
+===Ridge regression (or Tikhonov regularization){{anchor|Ridge regression|Tikhonov regularization}}===
+{{main|Ridge regression{{!}}Ridge regression (or Tikhonov regularization)}}
+One particularly common choice for the penalty function  &lt;math&gt;R&lt;/math&gt; is the squared [[l2 norm|&lt;math&gt;\ell_2&lt;/math&gt; norm]], i.e.,
+: &lt;math&gt;R(w) = \sum_{j=1}^d w_j^2&lt;/math&gt;
+:&lt;math&gt; \frac{1}{n}\|Y-\operatorname Xw\|^{2}_{2}+\lambda  \sum_{j=1}^d |w_j|^2 \rightarrow  \min_{w \in \mathbf{R^{d}}}&lt;/math&gt;
+The most common names for this are called [[Tikhonov regularization]] and [[ridge regression]]. 
+It admits a closed-form solution for &lt;math&gt;w&lt;/math&gt;:
+: &lt;math&gt;w = (X^T X + \alpha I)^{-1} X^T Y &lt;/math&gt;
+The name ridge regression alludes to the fact that the &lt;math&gt;\alpha I&lt;/math&gt; term adds positive entries along the diagonal "ridge" of the sample [[covariance matrix]] &lt;math&gt;X^T X&lt;/math&gt;.
+
+When &lt;math&gt;\alpha=0&lt;/math&gt;, i.e., in the case of [[ordinary least squares]], the condition that &lt;math&gt;d &gt; n&lt;/math&gt; causes the sample [[covariance matrix]] &lt;math&gt;X^T X&lt;/math&gt; to not have full rank and so it cannot be inverted to yield a unique solution. This is why there can be an infinitude of solutions to the [[ordinary least squares]] problem when &lt;math&gt;d &gt; n&lt;/math&gt;. However, when &lt;math&gt;\alpha &gt; 0&lt;/math&gt;, i.e., when ridge regression is used, the addition of &lt;math&gt;\alpha I&lt;/math&gt; to the sample covariance matrix ensures that all of its eigenvalues will be strictly greater than 0. In other words, it becomes invertible, and the solution becomes unique.
+
+Compared to ordinary least squares, ridge regression is not unbiased. It accepts little bias to reduce variance and the [[mean square error]], and helps to improve the prediction accuracy. Thus, ridge estimator yields more stable solutions by shrinking coefficients but suffers from the lack of sensitivity to the data.
+
+===Lasso regression===
+{{main|Lasso (statistics)}}
+The least absolute selection and shrinkage (LASSO) method is another popular choice. In [[lasso regression]], the lasso penalty function &lt;math&gt;R&lt;/math&gt; is the [[l1 norm|&lt;math&gt;\ell_1&lt;/math&gt; norm]], i.e.
+: &lt;math&gt;R(w) = \sum_{j=1}^d \left| w_j \right|&lt;/math&gt;
+:&lt;math&gt; \frac{1}{n}\|Y-\operatorname Xw\|^{2}_{2}+\lambda  \sum_{j=1}^d |w_j| \rightarrow  \min_{w \in \mathbf{R^{d}}}&lt;/math&gt;
+
+Note that the lasso penalty function is convex but not strictly convex. 
+Unlike [[Tikhonov regularization]], this scheme does not have a convenient closed-form solution: instead, the solution is typically found using [[quadratic programming]] or more general [[convex optimization]] methods, as well as by specific algorithms such as the [[least-angle regression]] algorithm.
+
+An important difference between lasso regression and Tikhonov regularization is that lasso regression forces more entries of &lt;math&gt;w&lt;/math&gt; to actually equal 0 than would otherwise. In contrast, while Tikhonov regularization forces entries of &lt;math&gt;w&lt;/math&gt; to be small, it does not force more of them to be 0 than would be otherwise. Thus, LASSO regularization is more appropriate than Tikhonov regularization in cases in which we expect the number of non-zero entries of &lt;math&gt;w&lt;/math&gt; to be small, and Tikhonov regularization is more appropriate when we expect that entries of &lt;math&gt;w&lt;/math&gt; will generally be small but not necessarily zero. Which of these regimes is more relevant depends on the specific data set at hand.
+
+Besides feature selection described above, LASSO has some limitations. Ridge regression provides better accuracy in the case &lt;math&gt; n &gt; d &lt;/math&gt; for highly correlated variables.&lt;ref&gt;{{cite journal
+ | author = Tibshirani Robert 
+ | title = Regression shrinkage and selection via the lasso
+ | journal = Journal of the Royal Statistical Society, Series B
+ | year = 1996
+ | volume =  58
+ | pages = ''pp.'' 266&amp;ndash;288
+ | url = https://web.stanford.edu/~hastie/Papers/elasticnet.pdf
+}}&lt;/ref&gt; In another case, &lt;math&gt; n &lt; d &lt;/math&gt;, LASSO selects at most &lt;math&gt;
+n&lt;/math&gt; variables. Moreover, LASSO tends to select some arbitrary variables from group of highly correlated samples, so there is no grouping effect.
+
+===''ℓ''&lt;sub&gt;0&lt;/sub&gt; Penalization===
+:&lt;math&gt; \frac{1}{n}\|Y-\operatorname Xw\|^2_2+\lambda \|w_j\|_0 \rightarrow  \min_{w \in \mathbf{R^d}}&lt;/math&gt;
+The most extreme way to enforce sparsity is to say that the actual magnitude of the coefficients of &lt;math&gt;w&lt;/math&gt; does not matter; rather, the only thing that determines the complexity of &lt;math&gt;w&lt;/math&gt; is the number of non-zero entries. This corresponds to setting &lt;math&gt;R(w)&lt;/math&gt; to be the [[l0 norm|&lt;math&gt;\ell_0&lt;/math&gt; norm]] of &lt;math&gt;w&lt;/math&gt;. This regularization function, while attractive for the sparsity that it guarantees, is very difficult to solve because doing so requires optimization of a function that is not even weakly [[convex optimization|convex]]. Lasso regression is the minimal possible relaxation of &lt;math&gt;\ell_0&lt;/math&gt; penalization that yields a weakly convex optimization problem.
+
+=== Elastic net===
+{{main|Elastic net regularization}}
+
+For any non-negative &lt;math&gt;\lambda_{1}&lt;/math&gt; and &lt;math&gt;\lambda_{2}&lt;/math&gt; the objective has the following form:
+
+:&lt;math&gt;\frac{1}{n}\|Y-\operatorname Xw\|^2_2+\lambda_{1}\sum_{j=1}^d |w_j| + \lambda_2 \sum_{j=1}^d |w_j|^2 \rightarrow  \min_{w \in \mathbf{R^d}}&lt;/math&gt;
+
+Let &lt;math&gt;\alpha = \frac{\lambda_1}{\lambda_1 + \lambda_2}&lt;/math&gt;, then the solution of the minimization problem is described as:
+
+:&lt;math&gt;\frac{1}{n}\|Y-\operatorname Xw\|^2_2 \rightarrow  \min_{w \in \mathbf{R^d}} \text{s.t.} (1-\alpha)\|w\|_1 + \alpha \|w\|_2 \leq t&lt;/math&gt; for some &lt;math&gt;t&lt;/math&gt;.
+
+Consider   &lt;math&gt;(1-\alpha)\|w\|_{1} + \alpha \|w\|_{2} \leq t&lt;/math&gt; as an Elastic Net penalty function.
+
+When &lt;math&gt;\alpha = 1 &lt;/math&gt;, elastic net becomes ridge regression, whereas &lt;math&gt;\alpha = 0 &lt;/math&gt; it becomes Lasso. &lt;math&gt;\forall \alpha \in (0,1]&lt;/math&gt; Elastic Net penalty function doesn't have the first derivative at 0 and it is strictly convex 
+&lt;math&gt;\forall \alpha &gt; 0&lt;/math&gt; taking the properties both [[lasso regression]] and [[ridge regression]].
+
+One of the main properties of the Elastic Net is that it can select groups of correlated variables. The difference between weight vectors of samples &lt;math&gt;x_{i}&lt;/math&gt; and &lt;math&gt;x_{j}&lt;/math&gt; is given by:
+:&lt;math&gt;
+|w^{*}_i(\lambda_{1}, \lambda_{2}) -  w^{*}_{j}(\lambda_1, \lambda_2)| \leq \frac{\sum_{i=1}^n|y_i|}{\lambda_2}\sqrt{2(1-\rho_{ij})}
+&lt;/math&gt;, where &lt;math&gt;\rho_{ij} = x_{i}^{T}x_{j}&lt;/math&gt;.&lt;ref&gt;{{cite journal
+ | author = [[Zou Hui|Hui, Zou]] |author2=Hastie, Trevor 
+ | title = Regularization and Variable Selection via the Elastic Net
+ | journal = JRSSB
+ | year = 2003
+ | volume = 67
+ | issue = 2
+ | pages = ''pp.'' 301&amp;ndash;320
+ | url = https://web.stanford.edu/~hastie/Papers/elasticnet.pdf
+}}&lt;/ref&gt;
+
+If &lt;math&gt;x_{i}&lt;/math&gt; and &lt;math&gt;x_{j}&lt;/math&gt; are highly correlated ( &lt;math&gt;\rho_{ij} \rightarrow 1&lt;/math&gt;), the weight vectors are very close. In the case of negatively correlated samples  ( &lt;math&gt;\rho_{ij} \rightarrow -1&lt;/math&gt;) the samples &lt;math&gt;-x_{j}&lt;/math&gt; can be taken. To summarize, for highly correlated variables the weight vectors tend to be equal up to a sign in the case of negative correlated variables.
+
+==Partial list of RLS methods==
+The following is a list of possible choices of the regularization function &lt;math&gt;R(\cdot)&lt;/math&gt;, along with the name for each one, the corresponding prior if there is a simple one, and ways for computing the solution to the resulting optimization problem.
+{|class="wikitable sortable"
+!Name!!Regularization function!!Corresponding prior!!Methods for solving
+|-
+|[[Tikhonov regularization]]||&lt;math&gt;\| w \|_2^2 &lt;/math&gt;||[[Normal distribution|Normal]]||Closed form
+|-
+|[[Lasso (statistics)|Lasso regression]] || &lt;math&gt;\| w \|_1&lt;/math&gt; || [[Laplace distribution|Laplace]] || [[Proximal gradient method|Proximal gradient descent]], [[least angle regression]]
+|-
+|&lt;math&gt;\ell_0&lt;/math&gt; penalization || &lt;math&gt; \|w \|_0 &lt;/math&gt; || – || [[Forward selection]], [[Backward elimination]], use of priors such as [[spike and slab]]
+|-
+| [[Elastic net regularization|Elastic nets]] || &lt;math&gt; \beta \|w\|_1 + (1-\beta) \|w \|_2^2 &lt;/math&gt; || Normal and Laplace [[Mixture (probability)|mixture]] || [[Proximal gradient method|Proximal gradient descent]]
+|-
+| [[Total variation regularization]] || &lt;math&gt; \sum_{j=1}^{d-1} | w_{j+1} - w_j | &lt;/math&gt; || – || [[Split–Bregman method]], among others
+|}
+
+==See also==
+* [[Least squares]]
+* [[Regularization (mathematics)|Regularization]] in mathematics.
+* [[Generalization error]], one of the reasons regularization is used.
+* [[Tikhonov regularization]]
+* [[Lasso regression]]
+* [[Elastic net regularization]]
+* [[:Least-angle regression]]
+
+== References ==
+{{Reflist}}
+
+== External links ==
+* [http://www.stanford.edu/~hastie/TALKS/enet_talk.pdf http://www.stanford.edu/~hastie/TALKS/enet_talk.pdf Regularization and Variable Selection via the Elastic Net] (presentation)
+*[https://www.mit.edu/~9.520/fall15/slides/class06/class06_RLSSVM.pdf Regularized Least Squares and Support Vector Machines] (presentation)
+* [https://www.mit.edu/~9.520/spring07/Classes/rlsslides.pdf Regularized Least Squares](presentation)
+
+[[Category:Least squares]]
+[[Category:Linear algebra]]
+[[Category:Inverse problems]]</text>
+      <sha1>ab1uc96buo19zoatu5j1gxp8fjxd0gq</sha1>
+    </revision>
+  </page>
+</mediawiki>

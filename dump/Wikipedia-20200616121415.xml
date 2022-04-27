@@ -1,0 +1,166 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.10/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.10/ http://www.mediawiki.org/xml/export-0.10.xsd" version="0.10" xml:lang="en">
+  <siteinfo>
+    <sitename>Wikipedia</sitename>
+    <dbname>enwiki</dbname>
+    <base>https://en.wikipedia.org/wiki/Main_Page</base>
+    <generator>MediaWiki 1.35.0-wmf.36</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Media</namespace>
+      <namespace key="-1" case="first-letter">Special</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Talk</namespace>
+      <namespace key="2" case="first-letter">User</namespace>
+      <namespace key="3" case="first-letter">User talk</namespace>
+      <namespace key="4" case="first-letter">Wikipedia</namespace>
+      <namespace key="5" case="first-letter">Wikipedia talk</namespace>
+      <namespace key="6" case="first-letter">File</namespace>
+      <namespace key="7" case="first-letter">File talk</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki talk</namespace>
+      <namespace key="10" case="first-letter">Template</namespace>
+      <namespace key="11" case="first-letter">Template talk</namespace>
+      <namespace key="12" case="first-letter">Help</namespace>
+      <namespace key="13" case="first-letter">Help talk</namespace>
+      <namespace key="14" case="first-letter">Category</namespace>
+      <namespace key="15" case="first-letter">Category talk</namespace>
+      <namespace key="100" case="first-letter">Portal</namespace>
+      <namespace key="101" case="first-letter">Portal talk</namespace>
+      <namespace key="108" case="first-letter">Book</namespace>
+      <namespace key="109" case="first-letter">Book talk</namespace>
+      <namespace key="118" case="first-letter">Draft</namespace>
+      <namespace key="119" case="first-letter">Draft talk</namespace>
+      <namespace key="446" case="first-letter">Education Program</namespace>
+      <namespace key="447" case="first-letter">Education Program talk</namespace>
+      <namespace key="710" case="first-letter">TimedText</namespace>
+      <namespace key="711" case="first-letter">TimedText talk</namespace>
+      <namespace key="828" case="first-letter">Module</namespace>
+      <namespace key="829" case="first-letter">Module talk</namespace>
+      <namespace key="2300" case="first-letter">Gadget</namespace>
+      <namespace key="2301" case="first-letter">Gadget talk</namespace>
+      <namespace key="2302" case="case-sensitive">Gadget definition</namespace>
+      <namespace key="2303" case="case-sensitive">Gadget definition talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Mars Helicopter Ingenuity</title>
+    <ns>0</ns>
+    <id>56300556</id>
+    <revision>
+      <id>962559741</id>
+      <parentid>962252299</parentid>
+      <timestamp>2020-06-14T19:26:47Z</timestamp>
+      <contributor>
+        <username>PhilipTerryGraham</username>
+        <id>15292794</id>
+      </contributor>
+      <comment>Alphabetical order of categories, added [[Category:Individual space vehicles]]</comment>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="17861" xml:space="preserve">&lt;!-- This article is a part of [[Wikipedia:WikiProject Aircraft]]. Please see [[Wikipedia:WikiProject Aircraft/page content]] for recommended layout, and guidelines. --&gt;
+{{Short description|Rotorcraft manufactured by the Jet Propulsion Laboratory for the Mars 2020 mission, capable of flight on Mars}}
+{{Use American English|date=May 2020}}
+{{Use dmy dates|date=June 2020}}
+{{Italic title|string=Ingenuity}}
+{{Redirect|Mars Helicopter|Mars helicopters and other rotorcraft in general|Mars aircraft}}
+{{Infobox spaceflight
+| name             = ''Ingenuity''
+| names_list       = 
+| image            = File:PIA23882-MarsHelicopterIngenuity-20200429 (trsp).png
+| image_caption    = Photographic profile of ''Ingenuity''
+
+| spacecraft_type  = [[Unmanned aerial vehicle|UAV]] [[helicopter]]
+| manufacturer     = [[Jet Propulsion Laboratory]]
+
+| landing_mass     = {{Unbulleted list|Total: {{cvt|1.8|kg}}&lt;ref name="fact sheet"/&gt;|Batteries: {{cvt|273|g}}}}
+| dimensions       = {{Unbulleted list|Chassis: {{cvt|14|cm}} cube&lt;ref name='Aung May2018'/&gt;|Rotor: {{cvt|120|cm}} diameter&lt;ref name='Aung May2018'/&gt;&lt;ref name="fact sheet"/&gt;|Height: {{cvt|80|cm}}&lt;ref name='Aung May2018'/&gt;}}
+| power            = {{cvt|350|W}}&lt;ref name="official website"&gt;{{cite web|title=Mars Helicopter|website=NASA Mars|publisher=NASA|url=https://mars.nasa.gov/technology/helicopter/|accessdate=May 2, 2020}} {{PD-notice}}&lt;/ref&gt;
+
+| deployment_from  = ''[[Perseverance (rover)|Perseverance]]''
+| entered_service  = March or April 2021 (planned)
+| declared         = 
+| deactivated      = 
+| destroyed        = 
+| last_contact     = 
+
+| instruments      = {{Hlist|[[Inertial measurement unit|Inertial sensors]]|[[Lidar|Laser altimeter]]|[[Navcam]] × 2}}
+
+| insignia         = File:Mars Helicopter JPL insignia.svg
+| insignia_caption = JPL's Mars Helicopter insignia
+| insignia_alt     = 
+| insignia_upright = 0.6
+
+| programme        = 
+| previous_mission = 
+| next_mission     = 
+}}
+
+'''''Ingenuity''''' (also known as the '''Mars Helicopter''')&lt;ref name="NASA-20200429a"/&gt;&lt;ref name='distance'/&gt; is a robotic helicopter that is planned to be used to test the technology to scout interesting targets on [[Mars]], and help plan the best driving route for future Mars rovers.&lt;ref name="drone1"&gt;{{cite news|url=http://www.business2community.com/space-science/nasa-is-developing-a-helicopter-drone-for-2020-mars-mission-01138799|title=NASA Is Developing A Helicopter Drone For 2020 Mars Mission|work=Business 2 Community|date=January 27, 2015|accessdate=January 28, 2015|archive-url=https://web.archive.org/web/20150326071746/http://www.business2community.com/space-science/nasa-is-developing-a-helicopter-drone-for-2020-mars-mission-01138799|archive-date=March 26, 2015|url-status=dead}}&lt;/ref&gt;&lt;ref name="Leone heli"&gt;{{cite news|last=Leone|first=Dan|url=http://spacenews.com/elachi-touts-helicopter-scout-for-mars-sample-caching-rover/|title=Elachi Touts Helicopter Scout for Mars Sample-Caching Rover|work=[[SpaceNews]]|date=November 19, 2015|accessdate=November 20, 2015}}&lt;/ref&gt; The small drone helicopter is planned for deployment in 2021 from the [[Perseverance (rover)|''Perseverance'' rover]] as part of the [[Mars 2020]] mission. It is expected to fly up to five times during its 30-day test campaign, early in the rover's mission, as it is primarily a technology demonstration.&lt;ref name="spacenews 20180504"&gt;[http://spacenews.com/decision-expected-soon-on-adding-helicopter-to-mars-2020/ Decision expected soon on adding helicopter to Mars 2020]. Jeff Fout. ''Space News''. May 4, 2018.&lt;/ref&gt; Each flight is planned to take no more than three minutes, at altitudes ranging from {{Val|3|to|10|u=m}} above the ground.&lt;ref name="Balaram 2018"/&gt; It could potentially cover a distance of up to {{convert|300|m}} per flight.&lt;ref name='Balaram 2018'/&gt; It can use autonomous control and communicate with the ''Perseverance'' rover directly after each landing. If it works as expected, NASA could build on the design for future Mars aerial missions.&lt;ref name='Balaram 2018'&gt;[https://rotorcraft.arc.nasa.gov/Publications/files/Balaram_AIAA2018_0023.pdf Mars Helicopter Technology Demonstrator]. (PDF) J. (Bob) Balaram, Timothy Canham, Courtney Duncan, Matt Golombek, Håvard Fjær Grip, Wayne Johnson, Justin Maki, Amelia Quon, Ryan Stern, and David Zhu. American Institute of Aeronautics and Astronautics (AIAA), SciTech Forum Conference; January 8–12, 2018, Kissimmee, Florida. {{doi|10.2514/6.2018-0023}} {{PD-notice}}&lt;/ref&gt; [[MiMi Aung]] is the project lead.&lt;ref&gt;[http://kiss.caltech.edu/lectures/Aung_Lecture_2015.html MiMi Aung - Autonomous Systems Deputy Division Manager]. NASA/JPL {{PD-notice}}&lt;/ref&gt; Other contributors include [[AeroVironment|AeroVironment Inc.]], NASA [[Ames Research Center]], and NASA [[Langley Research Center]].&lt;ref name="Witold 2018"&gt;[https://rotorcraft.arc.nasa.gov/Publications/files/Koning_2018_TechMx.pdf Generation of Mars Helicopter Rotor Model for Comprehensive Analyses]. (PDF) Witold J. F. Koning, Wayne Johnson, Brian G. Allan. NASA Rotorcraft. 2018 {{PD-notice}}&lt;/ref&gt;
+
+== Design ==
+{{Stack|[[File:Anatomy of the Mars Helicopter.png|thumb|upright=1.2|Diagram showing the components of ''Ingenuity''.]]|float=right}}
+
+{| class="wikitable floatleft" style="font-size:85%; margin: 0.2em 1.5em 1em 0; width: 305px"
+|+ Flight characteristics of ''Ingenuity''
+|-
+| Revolutions/min
+| Up to 2400 rpm&lt;ref name="fact sheet"&gt;{{cite web|title=Mars Helicopter Fact Sheet|publisher=NASA|date=February 2020|url=https://mars.nasa.gov/files/mars2020/Mars2020_Helicopter_Fact_Sheet.pdf|access-date=May 2, 2020}} {{PD-notice}}&lt;/ref&gt;
+|-
+| Blade tip speed
+| &lt; 0.7 [[Mach number|Mach]]&lt;ref name='distance'&gt;[https://www.uasvision.com/2016/09/06/nasa-chooses-helicopter-for-mars-drone/ Mars Helicopter Scout]. video presentation at Caltech {{PD-notice}}&lt;/ref&gt;
+|-
+| Flight time
+| Up to 90 seconds, once per day&lt;ref name="official website"/&gt;
+|-
+| Operational time
+| 1 or more flights within 30 days&lt;ref name="official website"/&gt;
+|-
+| Maximum range 
+| Flight: {{cvt|300|m}}&lt;ref name="official website"/&gt;&lt;ref name='Balaram 2018'/&gt;&lt;br/&gt;Radio: {{cvt|1000|m}}&lt;ref name='Balaram 2018'/&gt;
+|-
+| Maximum altitude
+| {{cvt|5|m}}&lt;ref name="official website"/&gt;
+|-
+| Maximum speed
+| {{Unbulleted list|Horizontal: {{cvt|10|m/s}}&lt;ref name='Witold 2018'/&gt;|Vertical: {{cvt|3|m/s}}&lt;ref name='Witold 2018'/&gt;}} 
+|}
+
+''Ingenuity'' is designed to be a technology demonstrator by [[JPL]] to assess whether this technology can fly safely, and provide better mapping and guidance that would give future mission controllers more information to help with travel routes planning and hazard avoidance, as well as identifying points of interest for the rover.&lt;ref name="NASA-20180511b"&gt;{{cite web|last1=Brown|first1=Dwayne|last2=Wendel |first2=JoAnna|last3=Agle|first3=D.C.|last4=Northon|first4=Karen|title=Mars Helicopter to Fly on NASA's Next Red Planet Rover Mission|url=https://www.nasa.gov/press-release/mars-helicopter-to-fly-on-nasa-s-next-red-planet-rover-mission|date=May 11, 2018|work=NASA|accessdate=11 May 2018}} {{PD-notice}}&lt;/ref&gt;&lt;ref name="NYT-20180511"&gt;{{cite news|last=Chang|first=Kenneth|title=A Helicopter on Mars? NASA Wants to Try |url=https://www.nytimes.com/2018/05/11/science/mars-helicopter-nasa.html|work=[[The New York Times]]|accessdate=May 12, 2018}}&lt;/ref&gt;&lt;ref name="VRG-20180511"&gt;{{cite web|last=Gush|first=Loren|title=NASA is sending a helicopter to Mars to get a bird's-eye view of the planet - The Mars Helicopter is happening|url=https://www.theverge.com/2018/5/11/17346414/nasa-mars-2020-helicopter-atmosphere|date=May 11, 2018 |work=[[The Verge]]|accessdate=May 11, 2018}}&lt;/ref&gt; The helicopter is designed to provide overhead images with approximately ten times the resolution of orbital images, and would display features that may be occluded from the rover cameras.&lt;ref&gt;[https://solarsystem.nasa.gov/news/2015/01/22/helicopter-could-be-scout-for-mars-rovers Helicopter Could be 'Scout' for Mars Rovers]{{Dead link|date=January 2020 |bot=InternetArchiveBot|fix-attempted=yes}} NASA News January 22, 2015 {{PD-notice}}&lt;/ref&gt; It is expected that such scouting may enable future rovers to safely drive up to three times as far per [[Timekeeping on Mars|sol]].&lt;ref&gt;[http://epubs.surrey.ac.uk/841669/1/ScienceRobotics-SpaceRoboticsSurvey%20GaoChien_no%20figure_final.pdf Review on space robotics: Toward top-level science through space exploration] (PDF). Y Gao, S Chien - Science Robotics, 2017.&lt;/ref&gt; This technology demonstration could form the foundation on which more capable aircraft can be developed for aerial exploration of Mars and other planetary targets with an atmosphere.&lt;ref name="NASA-20180511b"/&gt;&lt;ref name='Balaram 2018'/&gt;&lt;ref name='UB 2018'&gt;{{cite web|url=https://www.jpl.nasa.gov/universe/archive/universe1807.pdf|title=Mars Helicopter a new challenge for flight|publisher=NASA JPL: Universe Bulletin|date=July 2018|accessdate=9 August 2018}} {{PD-notice}}&lt;/ref&gt; The next generation of rotorcraft may be in the range between 5 and 15 kg with science payloads between 0.5 and 1.5 kg. These potential aircraft could have direct communication to an orbiter and may or may not continue to work with a landed asset.&lt;ref name='Universe2018'/&gt; Future helicopters could be used to explore special regions with exposed [[Water on Mars|water ice or brines]] where Earth microbial life could potentially survive. Mars helicopters may also be considered for fast retrieval of small sample caches back to a Mars ascent vehicle for return to Earth.&lt;ref name='Balaram 2018'/&gt;
+
+The helicopter uses counter-rotating [[coaxial rotors]] about {{cvt|1.1|m}} in diameter. Its payload is planned to be a high resolution downward-looking camera for navigation, landing, and science surveying of the terrain, and a communication system to relay data to the 2020 Mars rover.&lt;ref&gt;{{cite web|url=https://www-robotics.jpl.nasa.gov/publications/Richard_Volpe/isairas%202014%20paper,%20volpe,%20v8.pdf|format=PDF |title=2014 Robotics Activities at JPL|last=Volpe|first=Richard|work=Jet Propulsion Laboratory|accessdate=September 1, 2015}} {{PD-notice}}&lt;/ref&gt; Although it is an aircraft, it is being constructed as a spacecraft in order to endure the g-force and vibration during launch. It also includes radiation-resistant systems capable of operating in the frigid environment of Mars. The inconsistent Mars magnetic field precludes the use of a [[compass]] for navigation, so it is planned to use a [[solar tracker]] camera integrated to JPL's visual [[inertial navigation system]]. Some additional inputs include [[gyroscope|gyros]], [[visual odometry]], [[Inclinometer|tilt sensors]], [[altimeter]], and hazard detectors.&lt;ref&gt;[https://thesis.library.caltech.edu/10338/1/Parth_Shah_2017Thesis.pdf Heading Estimation via Sun Sensing for Autonomous Navigation]. Parth Shah. 2017.&lt;/ref&gt; It is designed to use [[solar panels on spacecraft|solar panels]] to recharge its batteries, which are six Sony [[Li-ion]] cells with a nameplate capacity of 2 [[Ampere hour|Ah]].&lt;ref name='Balaram 2018'/&gt; The prototype uses the [[Qualcomm Snapdragon|Qualcomm Snapdragon processor]] from [[Intrinsyc]] with a [[Linux]] operating system,&lt;ref name='Balaram 2018'/&gt; which also implements visual navigation via a velocity estimate derived from features tracked with a camera.&lt;ref name='Balaram 2018'/&gt; The processor is connected to two flight-control Microcontroller Units (MCU) to perform the needed flight-control functions.&lt;ref name='Balaram 2018'/&gt; Communications with the rover are through a radio link using [[Zigbee]], implemented via 900 MHz SiFlex 02 chipsets mounted in both the rover and helicopter.&lt;ref name='Balaram 2018'/&gt; The communication system is designed to relay data at 250 kbit/s over distances of up to {{cvt|1000|m}}.&lt;ref name='Balaram 2018'/&gt; The helicopter is planned to travel to Mars attached to the underside of the ''Perseverance'' rover and to be deployed to the surface between 60 and 90 [[Timekeeping on Mars|Martian days]] after the landing. Then, the rover is expected to drive approximately {{cvt|100|m}} away for the test flights to begin.&lt;ref&gt;[http://www.ibtimes.com/nasas-mars-helicopter-small-autonomous-rotorcraft-fly-red-planet-2680575 "NASA's Mars Helicopter: Small, Autonomous Rotorcraft To Fly On Red Planet"]. Shubham Sharma, ''International Business Times''. May 14, 2018.&lt;/ref&gt;&lt;ref name='Universe2018'&gt;[https://www.jpl.nasa.gov/universe/archive/universe1807.pdf Mars Helicopter a new challenge for flight]. ''Universe - JPL - July 2018" Accessdate=20 July 2018 {{PD-notice}}&lt;/ref&gt;
+
+== Development ==
+NASA's JPL and [[Caltech]] have been exploring the potential of sending an airborne scout robot to accompany the ''Perseverance'' rover, publishing the conceptual design of this helicopter in 2014.&lt;ref name='Witold 2018'/&gt;&lt;ref&gt;J. Balaram and P. T. Tokumaru, "Rotorcrafts for Mars Exploration", in 11th International Planetary Probe Workshop, 2014.&lt;/ref&gt; By mid 2016, US$15 million was being requested to keep development of the helicopter on track.&lt;ref&gt;{{cite news|last=Berger|first=Eric|url=https://arstechnica.com/science/2016/05/four-wild-technologies-lawmakers-want-nasa-to-pursue/|title=Four wild technologies lawmakers want NASA to pursue|work=ARS Technica|date=May 24, 2016|accessdate=May 24, 2016}}&lt;/ref&gt; By December 2017, engineering models of the vehicle had been tested in a simulated Martian atmosphere&lt;ref name='Balaram 2018'/&gt;&lt;ref name='Aung May2018'&gt;[https://spaceflightnow.com/2018/05/14/helicopter-to-accompany-nasas-next-mars-rover-to-red-planet/ Helicopter to accompany NASA's next Mars rover to Red Planet]. Stephen Clarke, ''Spaceflight Now''. May 14, 2018&lt;/ref&gt; and models were undergoing testing in the Arctic, but its inclusion in the mission had not yet been approved nor funded.&lt;ref&gt;{{cite news |url=https://www.allaboutcircuits.com/news/nasa-projects-may-soon-use-drones-for-space-exploration-mars/|title=Drones on Mars? NASA Projects May Soon Use Drones for Space Exploration|work=All About Circuits |first=Chantelle|last=Dubois|date=November 29, 2017}}&lt;/ref&gt; The [[United States federal budget]] announced in March 2018, provided $23 million for the helicopter,&lt;ref&gt;[http://spacenews.com/nasa-mars-exploration-efforts-turn-to-operating-existing-missions-and-planning-sample-return/ NASA Mars exploration efforts turn to operating existing missions and planning sample return]. Jeff Foust, ''Space News''. February 23, 2018&lt;/ref&gt;&lt;ref&gt;[https://spaceflightnow.com/2018/03/15/nasa-to-decide-soon-whether-flying-drone-will-launch-with-mars-2020-rover/ NASA to decide soon whether flying drone will launch with Mars 2020 rover]. Stephen Clarke, ''Spaceflight Now''. March 15, 2018&lt;/ref&gt; and it was announced on 11 May 2018 that the helicopter can be developed and tested in time to be included in the Mars 2020 mission.&lt;ref name='HMS approved'&gt;[https://www.nasa.gov/press-release/mars-helicopter-to-fly-on-nasa-s-next-red-planet-rover-mission Mars Helicopter to Fly on NASA's Next Red Planet Rover Mission]. Karen Northon, NASA News. May 11, 2018 {{PD-notice}}&lt;/ref&gt; The helicopter underwent extensive flight-dynamics and environment testing,&lt;ref name='Balaram 2018'/&gt;&lt;ref name="NASA-20190328"&gt;{{cite news|last1=Agle|first1=AG|last2=Johnson |first2=Alana|title=NASA's Mars Helicopter Completes Flight Tests|url=https://www.jpl.nasa.gov/news/news.php?feature=7361|date=March 28, 2019|work=NASA|accessdate=28 March 2019}} {{PD-notice}}&lt;/ref&gt; and was then mounted on the underside of the ''Perseverance'' rover in August 2019.&lt;ref name='Integrated'&gt;[https://www.jpl.nasa.gov/news/news.php?feature=7489 NASA's Mars Helicopter Attached to Mars 2020 Rover]. NASA News – JPL. August 28, 2019 {{PD-notice}}&lt;/ref&gt; Its mass is just under {{cvt|1.8|kg}}&lt;ref name="NASA-20190328"/&gt; and it is designed to make up to 5 flights.&lt;ref name=SC2018&gt;[https://www.space.com/40570-nasa-sending-helicopter-to-mars.html Yes, NASA Is Actually Sending a Helicopter to Mars: Here's What It Will Do.] Sarah Lewin, ''Space''. May 12, 2018.&lt;/ref&gt;&lt;ref name='HMS approved'/&gt; The helicopter was named by Vaneeza Rupani, an 11th grader at [[Tuscaloosa County High School]] in [[Northport, Alabama]], who submitted an essay into NASA's "Name the Rover" contest.&lt;ref name="NASA-20200429a"&gt;{{cite news |last1=Hautaluoma|first1=Grey|last2=Johnson|first2=Alana|last3=Agle|first3=D.C.|title=Alabama High School Student Names NASA's Mars Helicopter|url=https://www.jpl.nasa.gov/news/news.php?feature=7650|date=April 29, 2020|work=NASA|accessdate=April 29, 2020}} {{PD-notice}}&lt;/ref&gt;&lt;ref name="NASA-20200429b"&gt;{{cite news|last1=Agle|first1=D.C.|last2=Cook|first2=Jia-Rui|last3=Johnson|first3=Alana|title=Q&amp;A with the Student Who Named Ingenuity, NASA's Mars Helicopter|url=https://www.jpl.nasa.gov/news/news.php?feature=7651|date=April 29, 2020|work=NASA|accessdate=April 29, 2020}} {{PD-notice}}&lt;/ref&gt;
+
+== See also ==
+{{Portal|Spaceflight}}
+* {{annotated link|Aerial Regional-scale Environmental Survey|ARES|}}
+* ''[[Dragonfly (spacecraft)|Dragonfly]]'' – Robotic [[rotorcraft]] mission to [[Titan (moon)|Titan]], launching in 2026
+* {{annotated link|Sky-Sailor}}
+
+== References ==
+{{Reflist}}
+
+== External links ==
+{{commons cat}}
+* [https://mars.nasa.gov/technology/helicopter/ NASA Mars Helicopter webpage]
+* [https://rotorcraft.arc.nasa.gov/Publications/files/Balaram_AIAA2018_0023.pdf Mars Helicopter Technology Demonstrator]. (PDF) — The key design features of the prototype drone.
+
+{{Mars 2020}}
+{{Mars spacecraft}}
+{{2020 in space}}
+
+[[Category:2020 in spaceflight]]
+[[Category:Coaxial rotor helicopters]]
+[[Category:Electric helicopters]]
+[[Category:Extraterrestrial aircraft]]
+[[Category:Individual space vehicles]]
+[[Category:Mars 2020|*]]
+[[Category:Missions to Mars]]
+[[Category:NASA aircraft]]
+[[Category:NASA space probes]]
+[[Category:Unmanned helicopters]]</text>
+      <sha1>6wttvsnfexca7q9fjqiqkv40u8vt3dt</sha1>
+    </revision>
+  </page>
+</mediawiki>

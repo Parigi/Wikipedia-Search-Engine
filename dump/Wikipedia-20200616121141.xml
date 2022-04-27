@@ -1,0 +1,142 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.10/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.10/ http://www.mediawiki.org/xml/export-0.10.xsd" version="0.10" xml:lang="en">
+  <siteinfo>
+    <sitename>Wikipedia</sitename>
+    <dbname>enwiki</dbname>
+    <base>https://en.wikipedia.org/wiki/Main_Page</base>
+    <generator>MediaWiki 1.35.0-wmf.36</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Media</namespace>
+      <namespace key="-1" case="first-letter">Special</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Talk</namespace>
+      <namespace key="2" case="first-letter">User</namespace>
+      <namespace key="3" case="first-letter">User talk</namespace>
+      <namespace key="4" case="first-letter">Wikipedia</namespace>
+      <namespace key="5" case="first-letter">Wikipedia talk</namespace>
+      <namespace key="6" case="first-letter">File</namespace>
+      <namespace key="7" case="first-letter">File talk</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki talk</namespace>
+      <namespace key="10" case="first-letter">Template</namespace>
+      <namespace key="11" case="first-letter">Template talk</namespace>
+      <namespace key="12" case="first-letter">Help</namespace>
+      <namespace key="13" case="first-letter">Help talk</namespace>
+      <namespace key="14" case="first-letter">Category</namespace>
+      <namespace key="15" case="first-letter">Category talk</namespace>
+      <namespace key="100" case="first-letter">Portal</namespace>
+      <namespace key="101" case="first-letter">Portal talk</namespace>
+      <namespace key="108" case="first-letter">Book</namespace>
+      <namespace key="109" case="first-letter">Book talk</namespace>
+      <namespace key="118" case="first-letter">Draft</namespace>
+      <namespace key="119" case="first-letter">Draft talk</namespace>
+      <namespace key="446" case="first-letter">Education Program</namespace>
+      <namespace key="447" case="first-letter">Education Program talk</namespace>
+      <namespace key="710" case="first-letter">TimedText</namespace>
+      <namespace key="711" case="first-letter">TimedText talk</namespace>
+      <namespace key="828" case="first-letter">Module</namespace>
+      <namespace key="829" case="first-letter">Module talk</namespace>
+      <namespace key="2300" case="first-letter">Gadget</namespace>
+      <namespace key="2301" case="first-letter">Gadget talk</namespace>
+      <namespace key="2302" case="case-sensitive">Gadget definition</namespace>
+      <namespace key="2303" case="case-sensitive">Gadget definition talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Least squares adjustment</title>
+    <ns>0</ns>
+    <id>43170941</id>
+    <revision>
+      <id>929060815</id>
+      <parentid>926568867</parentid>
+      <timestamp>2019-12-03T11:52:19Z</timestamp>
+      <contributor>
+        <username>Fgnievinski</username>
+        <id>6727347</id>
+      </contributor>
+      <comment>/* Related concepts */</comment>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="9586" xml:space="preserve">'''Least squares adjustment''' is a model for the solution of an [[overdetermined system]] of equations based on the principle of [[least squares]] of [[observation residuals]]. It is used extensively in the disciplines of [[surveying]], [[geodesy]], and [[photogrammetry]]—the field of [[geomatics]], collectively.
+
+==Formulation==
+There are three forms of least squares adjustment: ''parametric'', ''conditional'', and ''combined''. In '''parametric adjustment''', one can find an observation equation ''h(X)=Y'' relating observations ''Y'' explicitly in terms of parameters ''X'' (leading to the A-model below). In '''conditional adjustment''', there exists a condition equation which is ''g(Y)=0'' involving only observations ''Y'' (leading to the B-model below) — with no parameters ''X'' at all. Finally, in a '''combined adjustment''', both parameters ''X'' and observations ''Y'' are involved implicitly in a mixed-model equation ''f(X,Y)=0''. Clearly, parametric and conditional adjustments correspond to the more general combined case when ''f(X,Y)=h(X)-Y'' and ''f(X,Y)=g(Y)'', respectively. Yet the special cases warrant simpler solutions, as detailed below. Often in the literature, ''Y'' may be denoted ''L''.
+
+==Solution==
+The equalities above only hold for the estimated parameters &lt;math&gt;\hat{X}&lt;/math&gt; and observations &lt;math&gt;\hat{Y}&lt;/math&gt;, thus &lt;math&gt;f\left(\hat{X},\hat{Y}\right)=0&lt;/math&gt;. In contrast, measured observations &lt;math&gt;\tilde{Y}&lt;/math&gt; and approximate parameters &lt;math&gt;\tilde{X}&lt;/math&gt; produce a nonzero ''misclosure'':
+:&lt;math&gt;\tilde{w} = f\left(\tilde{X},\tilde{Y}\right).&lt;/math&gt;
+One can proceed to [[Taylor series expansion]] of the equations, which results in the [[Jacobian matrix and determinant|Jacobians]] or [[design matrix|design matrices]]: the first one,
+:&lt;math&gt;A=\partial{f}/\partial{X};&lt;/math&gt;
+and the second one,
+:&lt;math&gt;B=\partial{f}/\partial{Y}.&lt;/math&gt;
+The linearized model then reads:
+:&lt;math&gt;\tilde{w} + A \hat{x} + B \hat{y} = 0,&lt;/math&gt;
+where &lt;math&gt;\hat{x}=\hat{X}-\tilde{X}&lt;/math&gt; are estimated ''parameter corrections'' to the ''a priori'' values, and &lt;math&gt;\hat{y}=\hat{Y}-\tilde{Y}&lt;/math&gt; are post-fit ''observation [[Errors and residuals in statistics|residuals]]''.
+
+In the parametric adjustment, the second design matrix is an identity, ''B=-I'', and the misclosure vector can be interpreted as the pre-fit residuals, &lt;math&gt;\tilde{y}=\tilde{w}=h(\tilde{X})-\tilde{Y}&lt;/math&gt;, so the system simplifies to:
+:&lt;math&gt;A \hat{x} = \hat{y} - \tilde{y},&lt;/math&gt;
+which is in the form of [[ordinary least squares]]. 
+In the conditional adjustment, the first design matrix is null, ''A=0''.
+For the more general cases, [[Lagrange multipliers]] are introduced to relate the two Jacobian matrices and transform the [[Constraint (mathematics)|constrained]] least squares problem into an unconstrained one (albeit a larger one). In any case, their manipulation leads to the &lt;math&gt;\hat{X}&lt;/math&gt; and &lt;math&gt;\hat{Y}&lt;/math&gt; vectors as well as the respective parameters and observations ''a posteriori'' covariance matrices.
+
+===Computation===
+Given the matrices and vectors above, their solution is found via standard least-squares methods; e.g., forming the [[normal matrix]] and applying [[Cholesky decomposition]], applying the [[QR factorization]] directly to the Jacobian matrix, [[iterative methods]] for very large systems, etc.
+
+==Worked-out examples==
+{{expand section|date=June 2014}}
+
+==Applications==
+* [[Leveling]], [[Traverse (surveying)|traverse]], and [[control networks]]
+* [[Bundle adjustment]]
+* [[Triangulation]], [[Trilateration]], [[wikt:Triangulateration|Triangulateration]]
+* [[GPS]]/[[GNSS positioning]]
+* [[Helmert transformation]]
+
+==Related concepts==
+*Parametric adjustment is similar to most of [[regression analysis]] and coincides with the [[Gauss–Markov model]]
+*Combined adjustment, also known as the [[Gauss–Helmert model]],&lt;ref&gt;"Gauss-Helmert Model" in: Samuel Kotz; N. Balakrishnan; Campbell Read Brani Vidakovic (2006), ''Encyclopedia of statistical sciences'', Wiley. doi:10.1002/0471667196.ess0854&lt;/ref&gt;&lt;ref&gt;J Cothren (2005), "Reliability in Constrained Gauss–Markov Models", Report No. 473. Department of Civil and Environmental Engineering and Geodetic Science. The Ohio State University. [https://earthsciences.osu.edu/sites/earthsciences.osu.edu/files/report-473.pdf], eq.(2.31), p.8&lt;/ref&gt; (named after German mathematicians/geodesists [[Carl Friedrich Gauss|C.F. Gauss]] and [[Friedrich Robert Helmert|F.R. Helmert]]) is related to the [[errors-in-variables models]]&lt;ref&gt;Snow, Kyle, Topics in Total Least-Squares Adjustment within the Errors-In-Variables Model: Singular Cofactor Matrices and Prior Information [pdf], vii+90 pp, December 2012. [https://earthsciences.osu.edu/sites/earthsciences.osu.edu/files/report-502.pdf]&lt;/ref&gt;
+
+*The use of ''a priori'' parameter covariance matrix is akin to [[Tikhonov regularization]]
+
+==Extensions==
+If [[rank deficiency]] is encountered, it can often be rectified by the inclusion of additional equations imposing constraints on the parameters and/or observations, leading to [[constrained least squares]].
+
+==References==
+{{Reflist}}
+
+==Bibliography==
+{{more footnotes|date=June 2014}}
+;Lecture notes and technical reports:
+*Nico Sneeuw and Friedhelm Krum, [https://web.archive.org/web/20140714115230/http://www.uni-stuttgart.de/gi/education/BSC/19820_Ausgleichungsrechnung/skript_prelim.pdf "Adjustment theory"], Geodätisches Institut, [[Universität Stuttgart]], 2014
+*Krakiwsky, [http://www2.unb.ca/gge/Pubs/LN42.pdf "A synthesis of recent advances in the method of least squares"], Lecture Notes #42, Department of Geodesy and Geomatics Engineering, [[University of New Brunswick]], 1975
+*Cross, P.A. [ftp://stella.ncl.ac.uk/pub/Fugro/Working%20Paper%20No6%20-%20P%20A%20Cross.pdf "Advanced least squares applied to position-fixing"], [[University of East London]], School of Surveying, Working Paper No. 6, {{ISSN|0260-9142}}, January 1994. First edition April 1983, Reprinted with corrections January 1990. (Original Working Papers, [[North East London Polytechnic]], Dept. of Surveying, 205 pp., 1983.)
+*Snow, Kyle B., [https://earthsciences.osu.edu/sites/earthsciences.osu.edu/files/report-465.pdf Applications of Parameter Estimation and Hypothesis Testing to GPS Network Adjustments], Division of Geodetic Science, [[Ohio State University]], 2002
+
+;Books and chapters:
+* [[Reino Antero Hirvonen]], "Adjustments by least squares in geodesy and photogrammetry", Ungar, New York. 261 p., {{ISBN|0804443971}}, {{ISBN|978-0804443975}}, 1971.
+*Edward M. Mikhail, Friedrich E. Ackermann, "Observations and least squares", University Press of America, 1982
+*{{cite book | doi = 10.1007/978-1-4615-2067-2_16 | chapter=Survey Measurement Adjustments by Least Squares | title=The Surveying Handbook | date=1995 | pages=383–413 | first=Paul R. | last=Wolf}}
+* [[Peter Vaníček]] and E.J. Krakiwsky, "Geodesy: The Concepts." Amsterdam: Elsevier. (third ed.): {{ISBN|0-444-87777-0}}, {{ISBN|978-0-444-87777-2}}; chap. 12, "Least-squares solution of overdetermined models", pp.&amp;nbsp;202–213, 1986.
+* [[Gilbert Strang]] and Kai Borre, "Linear Algebra, Geodesy, and GPS", SIAM, 624 pages, 1997.
+*Paul Wolf and Bon DeWitt, "Elements of Photogrammetry with Applications in GIS", McGraw-Hill, 2000
+*Karl-Rudolf Koch, "Parameter Estimation and Hypothesis Testing in Linear Models", 2a ed., Springer, 2000
+*P.J.G. Teunissen, "Adjustment theory, an introduction", Delft Academic Press, 2000
+*Edward M. Mikhail, James S. Bethel, J. Chris McGlone, "Introduction to Modern Photogrammetry", Wiley, 2001
+*Harvey, Bruce R., "Practical least squares and statistics for surveyors", Monograph 13, Third Edition, School of Surveying and Spatial Information Systems, University of New South Wales, 2006
+*Huaan Fan, "Theory of Errors and Least Squares Adjustment", Royal Institute of Technology (KTH), Division of Geodesy and Geoinformatics, Stockholm, Sweden, 2010, {{ISBN|91-7170-200-8}}.
+*{{Cite book | doi = 10.1007/978-3-540-72680-7_2| chapter = Mathematics and Statistics| title = Springer Handbook of Geographic Information| pages = 7| year = 2011| last1 = Gielsdorf | first1 = F. | last2 = Hillmann | first2 = T. | isbn = 978-3-540-72678-4}}
+*Charles D. Ghilani, "Adjustment Computations: Spatial Data Analysis", John Wiley &amp; Sons, 2011
+*Charles D. Ghilani and Paul R. Wolf, "Elementary Surveying: An Introduction to Geomatics", 13th Edition, Prentice Hall, 2011
+*Erik Grafarend and Joseph Awange, "Applications of Linear and Nonlinear Models: Fixed Effects, Random Effects, and Total Least Squares", Springer, 2012
+*Alfred Leick, Lev Rapoport, and Dmitry Tatarnikov, "GPS Satellite Surveying", 4th Edition, John Wiley &amp; Sons, {{ISBN|9781119018612}}; Chapter 2, "Least-Squares Adjustments", pp.&amp;nbsp;11–79, doi:10.1002/9781119018612.ch2
+*A. Fotiou (2018) "A Discussion on Least Squares Adjustment with Worked Examples" In: Fotiou A., D. Rossikopoulos, eds. (2018): “Quod erat demonstrandum. In quest for the ultimate geodetic insight.” Special issue for Professor Emeritus Athanasios Dermanis. Publication of the  School of Rural and Surveying Engineering, Aristotle Universsity of Thessaloniki, 405 pages. {{ISBN|978-960-89704-4-1}} [https://www.topo.auth.gr/main/images/pdf/TOMOS_DERMANIS/04_Fotiou.pdf]
+*John Olusegun Ogundare (2018), "Understanding Least Squares Estimation and Geomatics Data Analysis", John Wiley &amp; Sons, 720 pages, {{ISBN|9781119501404}}.
+
+[[Category:Least squares]]
+[[Category:Geodesy]]
+[[Category:Surveying]]
+[[Category:Photogrammetry]]</text>
+      <sha1>f0yuovxybrjle9qq493howrzxhs6ken</sha1>
+    </revision>
+  </page>
+</mediawiki>

@@ -1,0 +1,104 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.10/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.10/ http://www.mediawiki.org/xml/export-0.10.xsd" version="0.10" xml:lang="en">
+  <siteinfo>
+    <sitename>Wikipedia</sitename>
+    <dbname>enwiki</dbname>
+    <base>https://en.wikipedia.org/wiki/Main_Page</base>
+    <generator>MediaWiki 1.35.0-wmf.36</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Media</namespace>
+      <namespace key="-1" case="first-letter">Special</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Talk</namespace>
+      <namespace key="2" case="first-letter">User</namespace>
+      <namespace key="3" case="first-letter">User talk</namespace>
+      <namespace key="4" case="first-letter">Wikipedia</namespace>
+      <namespace key="5" case="first-letter">Wikipedia talk</namespace>
+      <namespace key="6" case="first-letter">File</namespace>
+      <namespace key="7" case="first-letter">File talk</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki talk</namespace>
+      <namespace key="10" case="first-letter">Template</namespace>
+      <namespace key="11" case="first-letter">Template talk</namespace>
+      <namespace key="12" case="first-letter">Help</namespace>
+      <namespace key="13" case="first-letter">Help talk</namespace>
+      <namespace key="14" case="first-letter">Category</namespace>
+      <namespace key="15" case="first-letter">Category talk</namespace>
+      <namespace key="100" case="first-letter">Portal</namespace>
+      <namespace key="101" case="first-letter">Portal talk</namespace>
+      <namespace key="108" case="first-letter">Book</namespace>
+      <namespace key="109" case="first-letter">Book talk</namespace>
+      <namespace key="118" case="first-letter">Draft</namespace>
+      <namespace key="119" case="first-letter">Draft talk</namespace>
+      <namespace key="446" case="first-letter">Education Program</namespace>
+      <namespace key="447" case="first-letter">Education Program talk</namespace>
+      <namespace key="710" case="first-letter">TimedText</namespace>
+      <namespace key="711" case="first-letter">TimedText talk</namespace>
+      <namespace key="828" case="first-letter">Module</namespace>
+      <namespace key="829" case="first-letter">Module talk</namespace>
+      <namespace key="2300" case="first-letter">Gadget</namespace>
+      <namespace key="2301" case="first-letter">Gadget talk</namespace>
+      <namespace key="2302" case="case-sensitive">Gadget definition</namespace>
+      <namespace key="2303" case="case-sensitive">Gadget definition talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Buffer over-read</title>
+    <ns>0</ns>
+    <id>42571948</id>
+    <revision>
+      <id>946696678</id>
+      <parentid>928601721</parentid>
+      <timestamp>2020-03-21T20:53:45Z</timestamp>
+      <contributor>
+        <username>InternetArchiveBot</username>
+        <id>27015025</id>
+      </contributor>
+      <comment>Rescuing 1 sources and tagging 0 as dead.) #IABot (v2.0) ([[User:Smasongarrison|Smasongarrison]] - 5519</comment>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="3422" xml:space="preserve">In [[computer security]] and [[computer programming|programming]], a '''buffer over-read'''&lt;ref&gt;{{cite web |url=http://cwe.mitre.org/data/definitions/126.html |title=CWE – CWE-126: Buffer Over-read (2.6) |publisher=Cwe.mitre.org |date=February 18, 2014 |accessdate=April 10, 2014}}&lt;/ref&gt;&lt;ref&gt;{{Cite journal|last=Strackx|first=Raoul|last2=Younan|first2=Yves|last3=Philippaerts|first3=Pieter|last4=Piessens|first4=Frank|last5=Lachmund|first5=Sven|last6=Walter|first6=Thomas|date=2009-01-01|title=Breaking the Memory Secrecy Assumption|journal=Proceedings of the Second European Workshop on System Security|series=EUROSEC '09|location=New York, NY, USA|publisher=ACM|pages=1–8|doi=10.1145/1519144.1519145|isbn=9781605584720}}&lt;/ref&gt; is an [[anomaly in software|anomaly]] where a [[computer program|program]], while reading [[data]] from a [[buffer (computer science)|buffer]], overruns the buffer's boundary and reads (or tries to read) adjacent memory.  This is a special case of violation of [[memory safety]].
+
+Buffer over-reads can be triggered, as in the [[Heartbleed]] bug, by maliciously crafted inputs that are designed to exploit a lack of [[bounds checking]] to read parts of memory not intended to be accessible. They may also be caused by programming errors alone. Buffer over-reads can result in erratic program behavior, including [[random-access memory|memory]] access errors, incorrect results, a [[crash (computing)|crash]], or a breach of system security. Thus, they are the basis of many [[vulnerability (computer science)|software vulnerabilities]] and can be maliciously [[exploit (computer security)|exploited]] to access privileged information.
+
+[[Programming language]]s commonly associated with buffer over-reads include [[C (programming language)|C]] and [[C++]], which provide no built-in protection against using [[Pointer (computer programming)|pointers]] to access data in any part of [[virtual memory]], and which do not automatically check that reading data from a block of memory is safe; respective examples are attempting to read more elements than contained in an array, or failing to append a trailing terminator to a [[null-terminated string]]. [[Bounds checking]] can prevent buffer over-reads,&lt;ref&gt;{{cite web
+ | url = http://www.fort-knox.org/files/younan_malloc.pdf
+ | title = Efficient protection against heap-based buffer overflows without resorting to magic
+ | date = 2013-02-25
+ | accessdate = 2014-04-24
+ | author1 = Yves Younan
+ | author2 = Wouter Joosen
+ | author3 = Frank Piessens
+ | publisher = Dept. of Computer Science, Katholieke Universiteit Leuven
+ | archive-url = https://web.archive.org/web/20130905132446/http://fort-knox.org/files/younan_malloc.pdf
+ | archive-date = 2013-09-05
+ | url-status = dead
+ }}&lt;/ref&gt; while [[fuzz testing]] can help detect them.
+
+== See also ==
+{{Portal|Computer programming}}
+
+* [[Buffer overflow]]
+* [[Computer security]]
+* [[Type safety]]
+
+== References ==
+{{Reflist}}
+
+== External links ==
+* [https://web.archive.org/web/20140424142313/http://telussecuritylabs.com/threats/show/TSL20140102-03 PHP DateInterval Heap Buffer Overread Denial of Service]
+* [https://bugs.php.net/bug.php?id=66060 PHP Bug #66060: Heap buffer over-read in DateInterval]
+
+{{Memory management navbox}}
+
+{{DEFAULTSORT:Buffer Over-read}}
+[[Category:Software bugs]]
+[[Category:Computer memory]]
+[[Category:Computer security exploits]]
+
+
+{{Computer-security-stub}}</text>
+      <sha1>08j4yjwcs7a9yxm2x4oyeyxlr4rrdn4</sha1>
+    </revision>
+  </page>
+</mediawiki>

@@ -1,0 +1,115 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.10/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.10/ http://www.mediawiki.org/xml/export-0.10.xsd" version="0.10" xml:lang="en">
+  <siteinfo>
+    <sitename>Wikipedia</sitename>
+    <dbname>enwiki</dbname>
+    <base>https://en.wikipedia.org/wiki/Main_Page</base>
+    <generator>MediaWiki 1.35.0-wmf.36</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Media</namespace>
+      <namespace key="-1" case="first-letter">Special</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Talk</namespace>
+      <namespace key="2" case="first-letter">User</namespace>
+      <namespace key="3" case="first-letter">User talk</namespace>
+      <namespace key="4" case="first-letter">Wikipedia</namespace>
+      <namespace key="5" case="first-letter">Wikipedia talk</namespace>
+      <namespace key="6" case="first-letter">File</namespace>
+      <namespace key="7" case="first-letter">File talk</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki talk</namespace>
+      <namespace key="10" case="first-letter">Template</namespace>
+      <namespace key="11" case="first-letter">Template talk</namespace>
+      <namespace key="12" case="first-letter">Help</namespace>
+      <namespace key="13" case="first-letter">Help talk</namespace>
+      <namespace key="14" case="first-letter">Category</namespace>
+      <namespace key="15" case="first-letter">Category talk</namespace>
+      <namespace key="100" case="first-letter">Portal</namespace>
+      <namespace key="101" case="first-letter">Portal talk</namespace>
+      <namespace key="108" case="first-letter">Book</namespace>
+      <namespace key="109" case="first-letter">Book talk</namespace>
+      <namespace key="118" case="first-letter">Draft</namespace>
+      <namespace key="119" case="first-letter">Draft talk</namespace>
+      <namespace key="446" case="first-letter">Education Program</namespace>
+      <namespace key="447" case="first-letter">Education Program talk</namespace>
+      <namespace key="710" case="first-letter">TimedText</namespace>
+      <namespace key="711" case="first-letter">TimedText talk</namespace>
+      <namespace key="828" case="first-letter">Module</namespace>
+      <namespace key="829" case="first-letter">Module talk</namespace>
+      <namespace key="2300" case="first-letter">Gadget</namespace>
+      <namespace key="2301" case="first-letter">Gadget talk</namespace>
+      <namespace key="2302" case="case-sensitive">Gadget definition</namespace>
+      <namespace key="2303" case="case-sensitive">Gadget definition talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Talk:Statistical significance</title>
+    <ns>1</ns>
+    <id>653904</id>
+    <revision>
+      <id>955656762</id>
+      <parentid>955654620</parentid>
+      <timestamp>2020-05-09T01:29:55Z</timestamp>
+      <contributor>
+        <username>Danielkueh</username>
+        <id>612714</id>
+      </contributor>
+      <comment>/* Statistical significance in Psychology */ re</comment>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="5321" xml:space="preserve">{{Vital article|class=|level=5|link=Wikipedia:Vital articles/Level/5/Mathematics|anchor=Statistics (43 articles)}}
+{{WPStatistics|class=c|importance=high}}
+{{maths rating|frequentlyviewed=yes|class=c|importance=mid|field=Probability and statistics}}
+{{dashboard.wikiedu.org assignment | course = Wikipedia:Wiki_Ed/Amherst_College/STAT495-Advanced-Data-Analysis_(Fall2016) | assignments = [[User:Cokusiak|Cokusiak]] | reviewers = [[User:Cokusiak|Cokusiak]] }}
+{{Annual readership}}
+{{Auto archiving notice |age=31 |units=days |bot=lowercase sigmabot III}}
+{{User:MiszaBot/config
+| algo                = old(31d)
+| archive             = Talk:Statistical significance/Archive %(counter)d
+| counter             = 6
+| maxarchivesize      = 70K
+| archiveheader       = {{talk archive navigation}}
+| minthreadstoarchive = 1
+| minthreadsleft      = 4
+}}
+{{archive box
+|root=
+ |image=
+ |box-width=
+ |image-width=
+ |auto=short
+}}
+
+==Comment on Dubious==
+
+The citation (USEPA December 1992) contains numerous statistical tests, some presented as p-values and some as confidence intervals.  Figures 5-1 through 5-4 show some of the test statistics used in the citation.  In two of the figures the statistics are for individual studies and can be assumed to be prospective.  In the other two, the statistics are for pooled studies and can be assumed to be retrospective.  Table 5-9 includes the results of the test of the hypothesis RR = 1 versus RR &gt; 1 for individual studies and for pooled studies.  In the cited report, no distinction between prospective tests and retrospective tests was made.  This is a departure from the traditional scientific method, which makes a strict distinction between predictions of the future and explanations of the past.  [[User:Gjsis|Gjsis]] ([[User talk:Gjsis|talk]])
+
+== You can reject the null hypothesis when the p-value EQUALS the significance level ==
+
+See [https://en.wikipedia.org/wiki/Talk:Statistical_hypothesis_testing#The_p-value_doesn't_have_to_be_strictly_lower_than_the_significance_level_to_reject_the_null_hypothesis. this discussion].
+
+This requires many small corrections to this article.
+
+I'd rather not edit the article myself, as English is not my first language.
+[[User:Jpeccoud|Jpeccoud]] ([[User talk:Jpeccoud|talk]]) 06:35, 30 August 2019 (UTC)jpeccoud
+
+== Short description ==
+
+I'd like to offer a thought that might cut the Gordian Knot on the [[WP:SHORTDESC|short description]].
+
+Remember that short descriptions are supposed to be ''short'', and they don't have to precisely define the topic.  The purpose is to give just enough information so that users know whether or not they want to click on a link.
+
+With that in mind, I think a short description saying "Concept from inferential statistics" would be entirely adequate.  That way we don't need to argue about the details of the meaning, or the grammar. --[[User:Trovatore|Trovatore]] ([[User talk:Trovatore|talk]]) 18:49, 10 March 2020 (UTC)
+
+:I appreciate the thought and I am open to suggestions. That said, I do find the proposed short description, "Concept from inferential statistics", to be rather vague even if it is not wrong. My two cents. [[User:Danielkueh|danielkueh]] ([[User talk:Danielkueh|talk]]) 19:04, 10 March 2020 (UTC)
+::"Vague" is fine.  Think of short descriptions like disambiguators, like the parenthetical parts of [[Georgia (US state)]] and [[Georgia (country)]].  They don't need to provide any significant ''information'' about the topic; they just need to make the user aware of the general area the topic is in.  Frankly this article probably doesn't need one at all; we could get away with {{tlg|shortdescription|}}, which provides an empty short description, the recommended action when there's nothing useful to put there. --[[User:Trovatore|Trovatore]] ([[User talk:Trovatore|talk]]) 19:21, 10 March 2020 (UTC)
+:::If that's the case, I'm not opposed and would much prefer it over the alternative [https://en.wikipedia.org/w/index.php?title=Statistical_significance&amp;oldid=944677176]. Thanks. [[User:Danielkueh|danielkueh]] ([[User talk:Danielkueh|talk]]) 19:29, 10 March 2020 (UTC)
+
+== Statistical significance in Psychology ==
+
+In the late 80s-early 90's, and perhaps afterwards, Clark University taught that in Psychology, as opposed to just about all other fields of science, P-values under 0.1 were accepted, that was the norm, rather than the standard .05.  This was because results often weren't as robust for a variety of reasons, namely that human subjects were needed for the experiments, it was more expensive to get participation (compared to experiments on animals, for example), and humans have rights that require a lot of work to document and follow. I don't think it's a coincidence that it is psychology journals that bring up the issues of statistical significance. It would be great to see additional information on statistical significance in psychology in particular, because that's where its most controversial. [[User:Tumacama|Tumacama]] ([[User talk:Tumacama|talk]]) 00:53, 9 May 2020 (UTC)
+:I reverted your recent edit because the problem And concern of overuse is not unique to psychology unless the sources explicitly say otherwise, which I don’t believe they do. [[User:Danielkueh|danielkueh]] ([[User talk:Danielkueh|talk]]) 01:29, 9 May 2020 (UTC)</text>
+      <sha1>lxyh4tcpa3x1ujhq2k1f42v919kdvih</sha1>
+    </revision>
+  </page>
+</mediawiki>

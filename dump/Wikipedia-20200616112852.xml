@@ -1,0 +1,100 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.10/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.10/ http://www.mediawiki.org/xml/export-0.10.xsd" version="0.10" xml:lang="en">
+  <siteinfo>
+    <sitename>Wikipedia</sitename>
+    <dbname>enwiki</dbname>
+    <base>https://en.wikipedia.org/wiki/Main_Page</base>
+    <generator>MediaWiki 1.35.0-wmf.36</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Media</namespace>
+      <namespace key="-1" case="first-letter">Special</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Talk</namespace>
+      <namespace key="2" case="first-letter">User</namespace>
+      <namespace key="3" case="first-letter">User talk</namespace>
+      <namespace key="4" case="first-letter">Wikipedia</namespace>
+      <namespace key="5" case="first-letter">Wikipedia talk</namespace>
+      <namespace key="6" case="first-letter">File</namespace>
+      <namespace key="7" case="first-letter">File talk</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki talk</namespace>
+      <namespace key="10" case="first-letter">Template</namespace>
+      <namespace key="11" case="first-letter">Template talk</namespace>
+      <namespace key="12" case="first-letter">Help</namespace>
+      <namespace key="13" case="first-letter">Help talk</namespace>
+      <namespace key="14" case="first-letter">Category</namespace>
+      <namespace key="15" case="first-letter">Category talk</namespace>
+      <namespace key="100" case="first-letter">Portal</namespace>
+      <namespace key="101" case="first-letter">Portal talk</namespace>
+      <namespace key="108" case="first-letter">Book</namespace>
+      <namespace key="109" case="first-letter">Book talk</namespace>
+      <namespace key="118" case="first-letter">Draft</namespace>
+      <namespace key="119" case="first-letter">Draft talk</namespace>
+      <namespace key="446" case="first-letter">Education Program</namespace>
+      <namespace key="447" case="first-letter">Education Program talk</namespace>
+      <namespace key="710" case="first-letter">TimedText</namespace>
+      <namespace key="711" case="first-letter">TimedText talk</namespace>
+      <namespace key="828" case="first-letter">Module</namespace>
+      <namespace key="829" case="first-letter">Module talk</namespace>
+      <namespace key="2300" case="first-letter">Gadget</namespace>
+      <namespace key="2301" case="first-letter">Gadget talk</namespace>
+      <namespace key="2302" case="case-sensitive">Gadget definition</namespace>
+      <namespace key="2303" case="case-sensitive">Gadget definition talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Apple menu</title>
+    <ns>0</ns>
+    <id>7379076</id>
+    <revision>
+      <id>957623152</id>
+      <parentid>957486257</parentid>
+      <timestamp>2020-05-19T19:03:01Z</timestamp>
+      <contributor>
+        <username>Bamyers99</username>
+        <id>12311825</id>
+      </contributor>
+      <comment>Undid revision 957486257 by [[Special:Contributions/142.120.127.122|142.120.127.122]] ([[User talk:142.120.127.122|talk]])</comment>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="5143" xml:space="preserve">{{Use mdy dates|date=October 2013}}
+{{Refimprove|date=January 2010}}
+[[File:Apple_Menu_OS_X_10.10.png|thumb|right|The Apple Menu in OS X 10.10 (Yosemite)]]
+
+The '''Apple menu''' is a drop-down [[Menu (computing)|menu]] that is on left side of the [[menu bar]] in the [[classic Mac OS]], [[macOS]] and [[A/UX]] [[operating system]]s. The Apple menu's role has changed throughout the history of [[Apple Inc.]]'s operating systems, but the menu has always featured a version of the Apple logo.
+
+==System 6 and earlier==
+[[File:System608AppleMenu.png|thumb|right|130px|The Apple Menu in [[System 6|System 6.0.8]] with MultiFinder enabled, showing the installed Desk Accessories]]
+In System 6.0.8 and earlier, the Apple menu featured a Control Panel, as well as [[Desk Accessory (Mac OS)|Desk Accessories]] such as a Calculator, the [[Scrapbook (Mac OS)|Scrapbook]] and Alarm Clock.  If [[MultiFinder]] (an early implementation of [[computer multitasking]]) was active, the Apple menu also allowed the user to switch between multiple running applications.
+The Macintosh user could add third-party Desk Accessories via the System Utility "Font/DA Mover". However, there was a limitation on the number of Desk Accessories that could be displayed in the Apple menu. Third-party shareware packages such as OtherMenu added a second customizable menu (without the [[trademark]]ed Apple logo&lt;ref&gt;[http://www.jwwalker.com/pages/om.html OtherMenu], Last modified: 22 November 2008, James Walker's Mac Stuff&lt;/ref&gt;) that allowed users to install Desk Accessories beyond Apple's limitations.
+
+==System 7.0–9.2.2==
+[[File:MacOS8AppleMenu.png|thumb|right|150px|[[Mac OS 8.6]]'s Apple Menu]]
+System 7.0 introduced the Apple Menu Items folder in the [[System Folder (Mac OS)|System Folder]]. This allowed users to place [[Alias (Mac OS)|Alias(es)]] to their favorite software and documents in the menu. The Menu Manager forced these additions into alphabetical order, which prompted users to rename their aliases with leading spaces, numbers and other characters in order to get them into the order that suited them the best. Several third-party utilities provided a level of customization of the order of the items added to the Apple menu without having to rename each item.
+The Apple menu also featured a [[Shutdown (computing)|Shut Down]] command, implemented by a Desk Accessory. An alias to the [[Control panel (Mac OS)|Control Panel]]s folder was also present. System 7.0 was also the first version to feature the [[rainbow]] striped logo, as opposed to the black logo found in previous versions. In System 7.0, the black logo was retained in grayscale modes, and was used when the Monitors control panel was set to display "Thousands" or "Millions" of grays, though the rest of the display was in color. 
+
+System 7.0 featured built-in multitasking, so MultiFinder was removed as an option.  The feature allowing users to switch between multiple running applications as in System 6 was given its own menu (appearing as the icon of the active application) on the opposite  side of the menubar. Beginning in Mac OS 8.5, this new menu was given a unique "tear-off" capability, which detached the menu from the menu bar to become a free-floating window when the user dragged the cursor downwards off the bottom of the menu. In this case, it ran the application called "Application Switcher".
+
+System 7.5 added an Apple Menu Options control panel, which added submenus to folders and disks in the Apple Menu, showing the contents of the folder or disk. Prior versions of System 7 showed only a standard menu entry that opened the folder in Finder. Apple Menu Options also added Recent Applications, Recent Documents, and Recent Servers to the Apple Menu; the user could specify the desired number of Recent Items.
+
+==macOS==
+[[macOS]] (previously known as Mac OS X and OS X) features a completely redesigned Apple menu. System management functions from the [[Special menu (Mac OS)|Special menu]] have been merged into it. The Apple menu was missing entirely from the [[Mac OS X Public Beta]], replaced by a nonfunctional Apple logo in the center of the menu bar, but the menu was restored in [[Mac OS X 10.0]]. The quick file access feature implemented in System 7 was removed, although a third-party utility, [[Unsanity]]'s FruitMenu, restored the Apple menu to its classic functionality until it stopped working with the advent of OS 10.6 (Snow Leopard). 
+
+The Apple menu is now dedicated to managing features of the Macintosh computer, with commands to get system information, [[Apple Software Update|update software]], launch the [[Mac App Store]], open [[System Preferences (Mac OS X)|System Preferences]], set [[Dock (Mac OS X)|Dock]] preferences, set the location (network configuration), view recent items (applications, documents and servers), Force Quit applications, power management ([[Sleep mode|sleep]], restart, [[Shutdown (computing)|shut down]]), [[log out]], etc.
+
+==See also==
+*[[Start menu]]
+
+==References==
+{{reflist}}
+
+{{Mac OS}}
+{{Mac OS X}}
+
+{{DEFAULTSORT:Apple Menu}}
+[[Category:Mac OS user interface]]
+[[Category:MacOS user interface]]</text>
+      <sha1>g9ds518g3fxtl8u4bvz0nr5ct6ag9xp</sha1>
+    </revision>
+  </page>
+</mediawiki>

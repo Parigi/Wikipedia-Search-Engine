@@ -1,0 +1,129 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.10/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.10/ http://www.mediawiki.org/xml/export-0.10.xsd" version="0.10" xml:lang="en">
+  <siteinfo>
+    <sitename>Wikipedia</sitename>
+    <dbname>enwiki</dbname>
+    <base>https://en.wikipedia.org/wiki/Main_Page</base>
+    <generator>MediaWiki 1.35.0-wmf.36</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Media</namespace>
+      <namespace key="-1" case="first-letter">Special</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Talk</namespace>
+      <namespace key="2" case="first-letter">User</namespace>
+      <namespace key="3" case="first-letter">User talk</namespace>
+      <namespace key="4" case="first-letter">Wikipedia</namespace>
+      <namespace key="5" case="first-letter">Wikipedia talk</namespace>
+      <namespace key="6" case="first-letter">File</namespace>
+      <namespace key="7" case="first-letter">File talk</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki talk</namespace>
+      <namespace key="10" case="first-letter">Template</namespace>
+      <namespace key="11" case="first-letter">Template talk</namespace>
+      <namespace key="12" case="first-letter">Help</namespace>
+      <namespace key="13" case="first-letter">Help talk</namespace>
+      <namespace key="14" case="first-letter">Category</namespace>
+      <namespace key="15" case="first-letter">Category talk</namespace>
+      <namespace key="100" case="first-letter">Portal</namespace>
+      <namespace key="101" case="first-letter">Portal talk</namespace>
+      <namespace key="108" case="first-letter">Book</namespace>
+      <namespace key="109" case="first-letter">Book talk</namespace>
+      <namespace key="118" case="first-letter">Draft</namespace>
+      <namespace key="119" case="first-letter">Draft talk</namespace>
+      <namespace key="446" case="first-letter">Education Program</namespace>
+      <namespace key="447" case="first-letter">Education Program talk</namespace>
+      <namespace key="710" case="first-letter">TimedText</namespace>
+      <namespace key="711" case="first-letter">TimedText talk</namespace>
+      <namespace key="828" case="first-letter">Module</namespace>
+      <namespace key="829" case="first-letter">Module talk</namespace>
+      <namespace key="2300" case="first-letter">Gadget</namespace>
+      <namespace key="2301" case="first-letter">Gadget talk</namespace>
+      <namespace key="2302" case="case-sensitive">Gadget definition</namespace>
+      <namespace key="2303" case="case-sensitive">Gadget definition talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Face ID</title>
+    <ns>0</ns>
+    <id>55217711</id>
+    <revision>
+      <id>958024055</id>
+      <parentid>958023859</parentid>
+      <timestamp>2020-05-21T17:11:14Z</timestamp>
+      <contributor>
+        <username>Ghostofakina</username>
+        <id>34942200</id>
+      </contributor>
+      <comment>Fix link</comment>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="19624" xml:space="preserve">{{For|the general recognition system in computing|Facial recognition system}}
+[[File:הלוגו של מערכת ה־Face ID.jpg|alt=|thumb|Icon used by Apple to indicate Face ID technology.]]
+'''Face ID''' is a [[facial recognition system]] designed and developed by [[Apple Inc.]] for the [[iPhone]] (X, XS, XS Max, XR, 11, 11 Pro, 11 Pro Max) and [[iPad Pro]] (third and fourth generation). A successor to [[Touch ID]], the system allows [[Biometrics|biometric authentication]] for unlocking a device, making [[Apple Pay|payments]], and accessing sensitive data, as well as providing detailed [[Facial motion capture|facial expression tracking]] for Animoji and other features. Initially released in November 2017 with the [[iPhone X]], it has since been updated and introduced to most new iPhone models, and all iPad Pro models.
+
+The Face ID hardware consists of a sensor with three modules; a dot projector that projects a grid of small [[infrared]] dots onto a user's face, a module called the flood illuminator that reads the resulting pattern and generates a 3D facial map, and an infrared camera which takes an infrared picture of the user. This map is compared with the registered face using a secure subsystem, and the user is authenticated if the two faces match sufficiently. The system can recognize faces with glasses, clothing, makeup, and facial hair, and adapts to changes in appearance over time.
+
+Face ID has sparked a number of debates about security and privacy. Apple claims it is significantly more advanced than Touch ID and has far fewer false positives in general, though Face ID has shown mixed results when trying to separate identical twins. Multiple security features largely limit the risk of the system being bypassed using photos or masks, and only one proof-of-concept attempt using detailed scans has succeeded. Debate continues over the lack of legal protections offered by biometric systems as compared to passcode authentication in the United States. Privacy advocates have also expressed concern about third-party app developers' access to "rough maps" of user facial data, despite rigid requirements by Apple of how developers handle facial data.
+
+== History ==
+[[Apple Inc.|Apple]] announced Face ID during the unveiling of the [[iPhone X]] on September 12, 2017.&lt;ref&gt;{{cite web |first=Vlad |last=Savov |title=iPhone X announced with edge-to-edge screen, Face ID, and no home button |url=https://www.theverge.com/2017/9/12/16288806/apple-iphone-x-price-release-date-features-announced |website=[[The Verge]] |publisher=[[Vox Media]] |date=September 12, 2017 |accessdate=December 13, 2017}}&lt;/ref&gt; The system was presented as the successor to [[Touch ID]], Apple's previous [[fingerprint]]-based authentication technology embedded in the home button of the [[iPhone 8]] and earlier devices.&lt;ref name="replace"&gt;{{Cite news|url=https://techcrunch.com/2017/09/12/face-id-is-replacing-touch-id-on-the-new-iphone-x/|title=Face ID is replacing Touch ID on the new iPhone X|last=Tepper|first=Fitz|date=September 12, 2017|work=[[TechCrunch]]|access-date=December 13, 2017|publisher=[[Oath Inc.]]}}&lt;/ref&gt; On September 12, 2018, Apple introduced the iPhone XS and XR with faster [[AI accelerator|neural network processing]] speeds, providing a significant speed increase to Face ID. On October 30, 2018, Apple introduced the third generation iPad Pro, which brings Face ID to the iPad and allows face recognition in any orientation.&lt;ref&gt;{{Cite news|url=https://www.theverge.com/circuitbreaker/2018/10/30/17846264/new-ipad-pro-2018-price-release-date-specs-usb-c-face-id|title=Apple’s new iPad Pro has Face ID, USB-C, and slimmer bezels than ever before|work=The Verge|access-date=2018-11-20}}&lt;/ref&gt; On September 10, 2019, Apple announced the iPhone 11, 11 Pro, and 11 Pro Max, which all had the third generation Face ID which is 30% faster than Face ID on the iPhone XS.
+
+== Technology ==
+[[File:Face ID logo.png|thumb|162x162px|Face ID logo, based on the [[Macintosh startup|Happy Mac icon]]]]
+Face ID is based on a [[facial recognition system|facial recognition]] sensor that consists of two parts: a dot projector module that projects more than 30,000 [[infrared]] dots onto the user's face, and an [[Thermographic camera|infrared camera]] module that reads the pattern.&lt;ref&gt;{{Cite news|url=https://www.wsj.com/articles/apple-iphone-x-production-woe-sparked-by-juliet-and-her-romeo-1506510189|title=Apple iPhone X Production Woe Sparked by Juliet and Her Romeo|last=Kubota|first=Yoko|date=September 27, 2017|work=[[The Wall Street Journal]]|access-date=September 27, 2017|archive-url=https://web.archive.org/web/20170928103032/https://www.wsj.com/articles/apple-iphone-x-production-woe-sparked-by-juliet-and-her-romeo-1506510189|archive-date=September 28, 2017|url-status=live|df=mdy-all}}&lt;/ref&gt; The pattern is encrypted and sent to a local "[[IOS#Secure Enclave|Secure Enclave]]" in the device's [[central processing unit|CPU]] to confirm a match with the registered face.&lt;ref name="Biggest questions"&gt;{{cite web |first=Russell |last=Brandom |title=The five biggest questions about Apple’s new facial recognition system |url=https://www.theverge.com/2017/9/12/16298156/apple-iphone-x-face-id-security-privacy-police-unlock |website=[[The Verge]] |publisher=[[Vox Media]] |date=September 12, 2017 |access-date=November 9, 2017 |url-status=live |archive-url=https://web.archive.org/web/20171115005812/https://www.theverge.com/2017/9/12/16298156/apple-iphone-x-face-id-security-privacy-police-unlock |archive-date=November 15, 2017 |df=mdy-all }}&lt;/ref&gt;&lt;ref&gt;{{cite web |first=Alfred |last=Ng |title=Is Face ID secure? Apple takes on lingering questions |url=https://www.cnet.com/news/apple-takes-on-some-unanswered-questions-about-face-id/ |website=[[CNET]] |publisher=[[CBS Interactive]] |date=September 27, 2017 |access-date=November 9, 2017 |url-status=live |archive-url=https://web.archive.org/web/20171002101520/https://www.cnet.com/news/apple-takes-on-some-unanswered-questions-about-face-id/ |archive-date=October 2, 2017 |df=mdy-all }}&lt;/ref&gt; The stored facial data is a mathematical representation of key details of the face, and it is inaccessible to Apple or other parties.&lt;ref name="Biggest questions" /&gt; To avoid involuntary authentication, the system requires the user to open their eyes and look at the device to attempt a match, although this can be disabled through an accessibility setting.&lt;ref name="Biggest questions" /&gt; Face ID is temporarily disabled and the user's passcode is required after 5 unsuccessful scans, 48 hours of inactivity, restarting the device, or if two of the device's side buttons are held briefly.&lt;ref&gt;{{cite web|url=https://techcrunch.com/2017/09/15/interview-apples-craig-federighi-answers-some-burning-questions-about-face-id/|title=Interview: Apple’s Craig Federighi answers some burning questions about Face ID|last=Panzarino|first=Matthew|date=September 15, 2017|website=[[TechCrunch]]|publisher=[[Oath Inc.]]|accessdate=December 13, 2017}}&lt;/ref&gt;
+
+Apple claimed the probability of someone else unlocking a phone with Face ID is 1 in 1,000,000 as opposed to Touch ID at 1 in 50,000.&lt;ref name="replace"/&gt;&lt;ref&gt;{{cite web |first=Tom |last=Warren |title=Apple’s Face ID struggles detailed in new iPhone X report |url=https://www.theverge.com/2017/10/25/16542614/apple-iphone-x-face-id-manufacturing-issues-report |website=[[The Verge]] |publisher=[[Vox Media]] |date=October 25, 2017 |accessdate=December 13, 2017}}&lt;/ref&gt; During initial setup, the user's face is scanned twice from a number of angles to create a complete reference map. As the system is used, it learns about typical variations in a user's appearance, and will adjust its registered face data to match aging, facial hair growth, and other changes using the [[Apple A11#Neural Engine|Neural Engine]]. The system will recognize a face wearing hats, scarves, glasses, many sunglasses,&lt;ref name="MacRumors differences"&gt;{{cite web |first=Juli |last=Clover |title=Apple's New Face ID Biometric System Works in the Dark and When Your Face is Obscured by Hats and Beard |url=https://www.macrumors.com/2017/09/13/how-iphone-x-face-id-works/ |website=[[MacRumors]] |date=September 13, 2017 |accessdate=December 13, 2017}}&lt;/ref&gt; facial hair or makeup.&lt;ref&gt;{{cite web |first=Juli |last=Clover |title=Apple's Face ID Feature Works With Most Sunglasses, Can Be Quickly Disabled to Thwart Thieves |url=https://www.macrumors.com/2017/09/14/face-id-works-with-sunglasses-thwarts-thieves/ |website=[[MacRumors]] |date=September 14, 2017 |accessdate=December 13, 2017}}&lt;/ref&gt; It also works in the dark by invisibly illuminating the whole face with a dedicated infrared flash module.&lt;ref&gt;{{cite web |first=Yoni |last=Heisler |title=Infrared video shows off the iPhone X’s new Face ID feature in action |url=http://bgr.com/2017/11/03/iphone-x-face-id-video-infrared/ |website=[[Boy Genius Report|BGR]] |publisher=[[Penske Media Corporation]] |date=November 3, 2017 |accessdate=December 19, 2017}}&lt;/ref&gt;
+
+Authentication with Face ID is used to enable a number of iOS features, including unlocking the phone automatically on wake, making payments with [[Apple Pay]], and viewing saved passwords. Apps by Apple or third party developers can protect sensitive data with a system framework; the device will verify the user's identity and return success or failure without sharing face data with the app. Additionally, Face ID can be used without authentication to track over 50 aspects of a user's facial expression and positioning, which can be used to create live effects such as [[Animoji]] or camera filters.
+
+==Devices with Face ID==
+* [[iPhone X]]
+* [[iPhone XS]]
+* [[iPhone XS Max]]
+* [[iPhone XR]]
+* [[iPhone 11]]
+* [[iPhone 11 Pro]]
+* [[iPhone 11 Pro Max]]
+* [[iPad Pro|iPad Pro 12.9-inch (2018) (3rd generation)]]
+* [[iPad Pro|iPad Pro 12.9-inch (2020) (4th generation)]]
+* [[iPad Pro|iPad Pro 11-inch (2018) (1st generation)]]
+* [[iPad Pro|iPad Pro 11-inch (2020) (2nd generation)]]
+
+==Safety== 
+Face ID uses an infrared flood illuminator and dot projector, though Apple insists that the output is low enough that it will cause no harm to the eyes or skin, and meets 'international safety standards'. They do not, however, recommend the sensor be repaired by third parties, and there is an inbuilt feature to deactivate Face ID should faulty components be found.&lt;ref&gt;{{cite web |first=Apple |last=Inc |title=About Face ID advanced technology |url=https://support.apple.com/en-gb/HT208108 |date=November 7, 2018 |accessdate=March 7, 2019}}&lt;/ref&gt;
+
+== Issues ==
+=== Twins and close relatives ===
+Inconsistent results have been shown when testing Face ID on [[identical twin]]s, with some tests showing the system managing to separate the two,&lt;ref&gt;{{cite web |first=Emmanuel |last=Ocbazghi |title=We put the iPhone X's Face ID to the ultimate test with identical twins — and the results surprised us |url=http://www.businessinsider.com/can-iphone-x-tell-difference-between-twins-face-id-recognition-apple-2017-10 |website=[[Business Insider]] |publisher=[[Axel Springer SE]] |date=October 31, 2017 |accessdate=December 4, 2017}}&lt;/ref&gt; while other tests have failed.&lt;ref&gt;{{cite web |first=Lance |last=Ulanoff |title=The iPhone X can't tell the difference between identical twins |url=http://mashable.com/2017/10/31/putting-iphone-x-face-id-to-twin-test/ |website=[[Mashable]] |date=October 31, 2017 |accessdate=December 4, 2017}}&lt;/ref&gt; The system has additionally been fooled by close relatives.&lt;ref&gt;{{cite web |first=Dani |last=Deahl |title=This 10-year-old was able to unlock his mom’s iPhone using Face ID |url=https://www.theverge.com/2017/11/14/16650394/10-year-old-unlock-mom-iphone-face-id |website=[[The Verge]] |publisher=[[Vox Media]] |date=November 14, 2017 |accessdate=December 13, 2017}}&lt;/ref&gt; Apple states that the probability of a false match is different for twins and siblings, as well as children under 13 years of age, as "their distinct facial features may not have fully developed".&lt;ref&gt;{{cite web |first=Zac |last=Hall |title=Apple explains how iPhone X facial recognition with Face ID works (and fails) in security paper |url=https://9to5mac.com/2017/09/27/face-id-iphone-x-white-paper/ |website=9to5Mac |date=September 27, 2017 |accessdate=December 13, 2017}}&lt;/ref&gt;
+
+=== Law enforcement access ===
+Face ID has raised concerns regarding the possibility of law enforcement accessing an individual's phone by pointing the device at the user's face.&lt;ref&gt;{{cite web |first=Madison Malone |last=Kircher |title=Yes, You Can Unlock the New iPhone With Your Face. Here’s How It Works. |url=http://nymag.com/selectall/2017/09/face-id-unlocks-iphone-x-without-home-button-is-it-safe.html |website=Select All |publisher=[[New York (magazine)|New York]] |date=September 12, 2017 |access-date=November 9, 2017 |url-status=live |archive-url=https://web.archive.org/web/20171013203938/http://nymag.com/selectall/2017/09/face-id-unlocks-iphone-x-without-home-button-is-it-safe.html |archive-date=October 13, 2017 |df=mdy-all }}&lt;/ref&gt; United States Senator [[Al Franken]] asked Apple to provide more information on the security and privacy of Face ID a day after the announcement,&lt;ref&gt;{{cite web |first=Tony |last=Romm |title=Apple is facing questions from the U.S. Senate on the privacy protections in iPhone X and Face ID |url=https://www.recode.net/2017/9/13/16304932/apple-iphone-x-face-id-facial-recognition-privacy-security-franken-senate-congress |website=[[Recode]] |publisher=[[Vox Media]] |date=September 13, 2017 |access-date=November 9, 2017 |url-status=live |archive-url=https://web.archive.org/web/20171110114541/https://www.recode.net/2017/9/13/16304932/apple-iphone-x-face-id-facial-recognition-privacy-security-franken-senate-congress |archive-date=November 10, 2017 |df=mdy-all }}&lt;/ref&gt; with Apple responding by highlighting the recent publication of a security white paper and knowledge base detailing answers.&lt;ref&gt;{{cite web |first=Natasha |last=Lomas |title=Apple responds to Senator Franken’s Face ID privacy concerns |url=https://techcrunch.com/2017/10/17/apple-responds-to-senator-frankens-face-id-privacy-concerns/ |website=[[TechCrunch]] |publisher=[[Oath Inc.]] |date=October 17, 2017 |access-date=November 9, 2017 |url-status=live |archive-url=https://web.archive.org/web/20171109023814/https://techcrunch.com/2017/10/17/apple-responds-to-senator-frankens-face-id-privacy-concerns/ |archive-date=November 9, 2017 |df=mdy-all }}&lt;/ref&gt;&lt;ref&gt;{{cite web |first=Saqib |last=Shah |title=Apple responds to Sen. Al Franken’s Face ID concerns in letter |url=https://www.engadget.com/2017/10/18/apple-letter-senator-al-franken-face-id/ |website=[[Engadget]] |publisher=[[Oath Inc.]] |date=October 18, 2017 |access-date=November 9, 2017 |url-status=live |archive-url=https://web.archive.org/web/20171110005110/https://www.engadget.com/2017/10/18/apple-letter-senator-al-franken-face-id/ |archive-date=November 10, 2017 |df=mdy-all }}&lt;/ref&gt;
+
+''[[The Verge]]'' noted that courts in the United States have granted different [[Fifth Amendment to the United States Constitution|Fifth Amendment]] rights in the United States Constitution to biometric unlocking systems as opposed to keycodes. Keycodes are considered "testimonial" evidence based on the contents of users' thoughts, whereas fingerprints are considered physical evidence, with some suspects having been ordered to unlock their phones via fingerprint.&lt;ref&gt;{{cite web |first=Adi |last=Robertson |title=Why Face ID won’t give you the legal protection of a passcode |url=https://www.theverge.com/2017/9/12/16298192/apple-iphone-face-id-legal-security-fifth-amendment |website=[[The Verge]] |publisher=[[Vox Media]] |date=September 12, 2017 |accessdate=December 4, 2017}}&lt;/ref&gt;
+
+=== Infiltration ===
+Many people have attempted to fool Face ID with sophisticated masks, though most have failed.&lt;ref&gt;{{cite web |first=Andy |last=Greenberg |title=We tried really hard to beat Face ID - and failed (so far) |url=https://www.wired.com/story/tried-to-beat-face-id-and-failed-so-far/ |website=[[Wired (website)|Wired]] |publisher=[[Condé Nast]] |date=November 3, 2017 |accessdate=December 4, 2017}}&lt;/ref&gt; In November 2017, Vietnamese security firm Bkav announced in a blog post that it had  created a $150 mask that successfully unlocked Face ID, but ''[[Wired (magazine)|WIRED]]'' noted that Bkav's technique was more of a "proof-of-concept" rather than active exploitation risk, with the technique requiring a detailed measurement or digital scan of the iPhone owner's face, putting the real risk of danger only to targets of espionage and world leaders.&lt;ref&gt;{{cite web |first=Andy |last=Greenberg |title=Hackers say they've broken Face ID a week after iPhone X release |url=https://www.wired.com/story/hackers-say-broke-face-id-security/ |website=[[Wired (website)|Wired]] |publisher=[[Condé Nast]] |date=November 12, 2017 |accessdate=December 4, 2017}}&lt;/ref&gt;&lt;ref&gt;{{cite web |first=Thuy |last=Ong |title=This $150 mask beat Face ID on the iPhone X |url=https://www.theverge.com/2017/11/13/16642690/bkav-iphone-x-faceid-mask |website=[[The Verge]] |publisher=[[Vox Media]] |date=November 13, 2017 |accessdate=December 4, 2017}}&lt;/ref&gt;
+
+=== Third-party developers ===
+If the user explicitly grants a third-party app permission to use the camera, the app can also access basic facial expression and positioning data from Face ID for features such as precise selfie filters such as those seen in [[Snapchat#Filters, lenses, and stickers|Snapchat]], or game characters mirroring real-world user facial expressions. The data accessible to third parties is not sufficient to unlock a device or even identify a user, and Apple prohibits developers from selling the data to others, creating profiles on users, or using the data for advertising. The [[American Civil Liberties Union]] and the [[Center for Democracy and Technology]] raised privacy questions about Apple's enforcement of the privacy restrictions connected to third-party access, with Apple maintaining that its App Store review processes were effective safeguards. Jay Stanley, a senior policy analyst with the ACLU, has stated that the overall idea of letting developers access sensitive facial information was still not satisfactorily handled, with Stanley telling ''[[Reuters]]'' that "the privacy issues around of the use of very sophisticated facial recognition technology for unlocking the phone have been overblown. The real privacy issues have to do with the access by third-party developers".&lt;ref&gt;{{cite web|url=https://www.reuters.com/article/us-apple-iphone-privacy-analysis/app-developer-access-to-iphone-x-face-data-spooks-some-privacy-experts-idUSKBN1D20DZ|title=App developer access to iPhone X face data spooks some privacy experts|last=Nellis|first=Stephen|date=November 2, 2017|website=[[Reuters]]|publisher=[[Thomson Reuters]]|accessdate=December 4, 2017}}&lt;/ref&gt;&lt;ref&gt;{{cite web|url=https://www.theverge.com/2017/11/2/16599592/apple-iphone-x-face-id-data-share-app-developers-privacy|title=Apple will share face mapping data from the iPhone X with third-party app developers|last=Statt|first=Nick|date=November 2, 2017|website=[[The Verge]]|publisher=[[Vox Media]]|accessdate=December 4, 2017}}&lt;/ref&gt;
+
+== See also ==
+* [[Touch ID]]
+* [[Structured-light 3D scanner]]
+
+== References ==
+{{Reflist}}
+
+== External links ==
+* [https://www.apple.com/iphone-x/#face-id Official website]
+
+{{Apple}}
+
+[[Category:Computer-related introductions in 2017]]
+[[Category:Facial recognition software]]
+[[Category:IOS]]
+[[Category:Authentication methods]]</text>
+      <sha1>jzbghov0hwzx0xs72yndvr5ean7kfvs</sha1>
+    </revision>
+  </page>
+</mediawiki>

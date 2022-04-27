@@ -1,0 +1,92 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.10/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.10/ http://www.mediawiki.org/xml/export-0.10.xsd" version="0.10" xml:lang="en">
+  <siteinfo>
+    <sitename>Wikipedia</sitename>
+    <dbname>enwiki</dbname>
+    <base>https://en.wikipedia.org/wiki/Main_Page</base>
+    <generator>MediaWiki 1.35.0-wmf.36</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Media</namespace>
+      <namespace key="-1" case="first-letter">Special</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Talk</namespace>
+      <namespace key="2" case="first-letter">User</namespace>
+      <namespace key="3" case="first-letter">User talk</namespace>
+      <namespace key="4" case="first-letter">Wikipedia</namespace>
+      <namespace key="5" case="first-letter">Wikipedia talk</namespace>
+      <namespace key="6" case="first-letter">File</namespace>
+      <namespace key="7" case="first-letter">File talk</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki talk</namespace>
+      <namespace key="10" case="first-letter">Template</namespace>
+      <namespace key="11" case="first-letter">Template talk</namespace>
+      <namespace key="12" case="first-letter">Help</namespace>
+      <namespace key="13" case="first-letter">Help talk</namespace>
+      <namespace key="14" case="first-letter">Category</namespace>
+      <namespace key="15" case="first-letter">Category talk</namespace>
+      <namespace key="100" case="first-letter">Portal</namespace>
+      <namespace key="101" case="first-letter">Portal talk</namespace>
+      <namespace key="108" case="first-letter">Book</namespace>
+      <namespace key="109" case="first-letter">Book talk</namespace>
+      <namespace key="118" case="first-letter">Draft</namespace>
+      <namespace key="119" case="first-letter">Draft talk</namespace>
+      <namespace key="446" case="first-letter">Education Program</namespace>
+      <namespace key="447" case="first-letter">Education Program talk</namespace>
+      <namespace key="710" case="first-letter">TimedText</namespace>
+      <namespace key="711" case="first-letter">TimedText talk</namespace>
+      <namespace key="828" case="first-letter">Module</namespace>
+      <namespace key="829" case="first-letter">Module talk</namespace>
+      <namespace key="2300" case="first-letter">Gadget</namespace>
+      <namespace key="2301" case="first-letter">Gadget talk</namespace>
+      <namespace key="2302" case="case-sensitive">Gadget definition</namespace>
+      <namespace key="2303" case="case-sensitive">Gadget definition talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Moving least squares</title>
+    <ns>0</ns>
+    <id>6582659</id>
+    <revision>
+      <id>940537866</id>
+      <parentid>891526338</parentid>
+      <timestamp>2020-02-13T03:29:26Z</timestamp>
+      <contributor>
+        <username>GreenC bot</username>
+        <id>27823944</id>
+      </contributor>
+      <comment>Move 1 url. [[User:GreenC/WaybackMedic_2.5|Wayback Medic 2.5]]</comment>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="2603" xml:space="preserve">'''Moving least squares''' is a method of reconstructing [[continuous function]]s from a [[set (mathematics)|set]] of unorganized point samples via the calculation of a [[weighted least squares]] [[measure (mathematics)|measure]] biased towards the region around the point at which the reconstructed value is requested.
+
+In [[computer graphics]], the moving least squares method is useful for reconstructing a surface from a set of points. Often it is used to create a 3D surface from a [[point cloud]] through either [[downsampling]] or [[upsampling]].
+
+==Definition==
+[[Image:Moving_Least_Squares2.png|thumb|200px|Here is a 2D example. The circles are the samples  and the polygon is a linear interpolation. The blue curve is a smooth approximation of order 3.]]
+Consider a function &lt;math&gt;f: \mathbb{R}^n \to \mathbb{R}&lt;/math&gt; and a set of sample points &lt;math&gt;S = \{ (x_i,f_i) | f(x_i) = f_i \} &lt;/math&gt;. Then, the moving least square approximation of degree &lt;math&gt;m&lt;/math&gt; at the point &lt;math&gt;x&lt;/math&gt; is &lt;math&gt;\tilde{p}(x)&lt;/math&gt; where &lt;math&gt;\tilde{p}&lt;/math&gt; minimizes the weighted least-square error 
+:&lt;math&gt;\sum_{i \in I} (p(x_i)-f_i)^2\theta(\|x-x_i\|)&lt;/math&gt;
+over all polynomials &lt;math&gt;p&lt;/math&gt; of degree &lt;math&gt;m&lt;/math&gt; in &lt;math&gt;\mathbb{R}^n&lt;/math&gt;. &lt;math&gt;\theta(s)&lt;/math&gt; is the weight and it tends to zero as &lt;math&gt;s\to \infty&lt;/math&gt;.
+
+In the example &lt;math&gt;\theta(s) = e^{-s^2}&lt;/math&gt;.  The smooth interpolator of "order 3" is a quadratic interpolator.
+
+==See also==
+*[[Local regression]]
+*[[Diffuse element method]]
+*[[Moving average]]
+
+==References==
+{{Reflist}}
+*[http://dl.acm.org/citation.cfm?id=301704 The approximation power of moving least squares] David Levin, Mathematics of Computation, Volume 67, 1517-1531, 1998 [http://www.ams.org/mcom/1998-67-224/S0025-5718-98-00974-0/S0025-5718-98-00974-0.pdf ]
+*[http://www.sciencedirect.com/science/article/pii/S0045794905000726/ Moving least squares response surface approximation: Formulation and metal forming applications] Piotr Breitkopf; Hakim Naceur; Alain Rassineux; Pierre Villon, Computers and Structures, Volume 83, 17-18, 2005.
+* [https://doi.org/10.1007%2FBF00364252 Generalizing the finite element method: diffuse approximation and diffuse elements], B Nayroles, G Touzot. Pierre Villon, P, Computational Mechanics Volume 10, pp 307-318, 1992
+
+==External links==
+* [http://www.nealen.net/projects/mls/asapmls.pdf An As-Short-As-Possible Introduction to the Least Squares, Weighted Least Squares and Moving Least Squares Methods for Scattered Data Approximation and Interpolation]
+
+[[Category:Least squares]]
+
+{{mathapplied-stub}}</text>
+      <sha1>r4qq3w2ctslxdt6jmq096iwv27jhwv5</sha1>
+    </revision>
+  </page>
+</mediawiki>

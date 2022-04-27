@@ -1,0 +1,399 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.10/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.10/ http://www.mediawiki.org/xml/export-0.10.xsd" version="0.10" xml:lang="en">
+  <siteinfo>
+    <sitename>Wikipedia</sitename>
+    <dbname>enwiki</dbname>
+    <base>https://en.wikipedia.org/wiki/Main_Page</base>
+    <generator>MediaWiki 1.35.0-wmf.36</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Media</namespace>
+      <namespace key="-1" case="first-letter">Special</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Talk</namespace>
+      <namespace key="2" case="first-letter">User</namespace>
+      <namespace key="3" case="first-letter">User talk</namespace>
+      <namespace key="4" case="first-letter">Wikipedia</namespace>
+      <namespace key="5" case="first-letter">Wikipedia talk</namespace>
+      <namespace key="6" case="first-letter">File</namespace>
+      <namespace key="7" case="first-letter">File talk</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki talk</namespace>
+      <namespace key="10" case="first-letter">Template</namespace>
+      <namespace key="11" case="first-letter">Template talk</namespace>
+      <namespace key="12" case="first-letter">Help</namespace>
+      <namespace key="13" case="first-letter">Help talk</namespace>
+      <namespace key="14" case="first-letter">Category</namespace>
+      <namespace key="15" case="first-letter">Category talk</namespace>
+      <namespace key="100" case="first-letter">Portal</namespace>
+      <namespace key="101" case="first-letter">Portal talk</namespace>
+      <namespace key="108" case="first-letter">Book</namespace>
+      <namespace key="109" case="first-letter">Book talk</namespace>
+      <namespace key="118" case="first-letter">Draft</namespace>
+      <namespace key="119" case="first-letter">Draft talk</namespace>
+      <namespace key="446" case="first-letter">Education Program</namespace>
+      <namespace key="447" case="first-letter">Education Program talk</namespace>
+      <namespace key="710" case="first-letter">TimedText</namespace>
+      <namespace key="711" case="first-letter">TimedText talk</namespace>
+      <namespace key="828" case="first-letter">Module</namespace>
+      <namespace key="829" case="first-letter">Module talk</namespace>
+      <namespace key="2300" case="first-letter">Gadget</namespace>
+      <namespace key="2301" case="first-letter">Gadget talk</namespace>
+      <namespace key="2302" case="case-sensitive">Gadget definition</namespace>
+      <namespace key="2303" case="case-sensitive">Gadget definition talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Internet Explorer</title>
+    <ns>0</ns>
+    <id>15215</id>
+    <revision>
+      <id>962384845</id>
+      <parentid>962377975</parentid>
+      <timestamp>2020-06-13T18:54:08Z</timestamp>
+      <contributor>
+        <username>Tedickey</username>
+        <id>1942604</id>
+      </contributor>
+      <comment>Undid revision 962377975 by [[Special:Contributions/174.4.66.133|174.4.66.133]] ([[User talk:174.4.66.133|talk]])</comment>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="67629" xml:space="preserve">{{Short description|Web browser developed by Microsoft}}
+{{Use mdy dates|date=April 2014}}
+{{Infobox software
+| name = Internet Explorer
+| logo = Internet Explorer 9 icon.svg
+| logo alt = Small blue "e" letter with a yellow aureola
+| screenshot = Internet Explorer 11 screenshot.png
+| caption = Internet Explorer 11 running on [[Windows 10]]
+| author = [[Thomas Reardon]]
+| developer = [[Microsoft]]
+| released = {{Start date and age|1995|8|16}}&lt;br /&gt;{{dubious|initial release date|date=March 2019}}
+| discontinued = No
+| ver layout = stacked
+| latest release version = {{Multiple releases
+| branch1=Windows | version1={{Latest stable software release/Internet Explorer}}
+| branch2=Mac OS | version2={{Latest stable software release/Internet Explorer for Mac OS X}}
+| branch3=UNIX | version3={{Latest stable software release/Internet Explorer for UNIX}}
+}}
+| status = Discontinued, but [[software maintenance|maintained]]&lt;ref name="is-ie-discontinued" /&gt;
+| operating system = [[Windows]] &lt;small&gt;(and previously supported: [[macOS|Mac OS X]], [[Solaris (operating system)|Solaris]], [[HP-UX]])&lt;/small&gt;
+| included with = [[Windows 95]] OSR1 and later&lt;br /&gt;[[Windows NT 4]] and later&lt;br /&gt;[[Windows Phone 7]] through [[Windows Phone 8.1]]&lt;br /&gt;[[Mac OS 8.1]] through [[Mac OS X 10.2]]&lt;br /&gt;[[Zune HD]]&lt;br /&gt;[[Xbox 360]]&lt;br /&gt;[[Xbox One]]
+| engines = [[Trident (layout engine)|Trident]], [[Chakra (JScript engine)|Chakra]]
+| platform = [[IA-32]], [[x86-64]], [[ARMv7]], [[IA-64]] &lt;small&gt;(and previously supported: [[MIPS architecture|MIPS]], [[DEC Alpha|Alpha]], [[PowerPC]], [[68k]], [[SPARC]], [[PA-RISC]])&lt;/small&gt;
+| size = &lt;!--Varies; really, really varies. Please include your source.--&gt;
+| language count = 95
+| language footnote = &lt;ref&gt;{{Cite web|url=https://blogs.technet.microsoft.com/terminology/2013/02/27/internet-explorer-10-for-windows-7-released-in-95-languages/|title=Internet Explorer 10 for Windows 7 released in 95 languages – Microsoft Language Portal Blog|website=blogs.technet.microsoft.com}}&lt;/ref&gt;
+| genre = [[Web browser]]&lt;br /&gt;[[Feed reader]]
+| license = [[Proprietary software|Proprietary]], [[end-user license agreement|requires]] a Windows license&lt;ref&gt;{{cite web|title=Microsoft Pre-Release Software License Terms: Internet Explorer 11 Developer Preview|url=http://windows.microsoft.com/en-US/internet-explorer/ie11-win7-preview-software-license|work=microsoft.com|publisher=[[Microsoft]]|accessdate=July 27, 2013}}&lt;/ref&gt;
+| website = {{URL|https://microsoft.com/ie}}&lt;!--Redirect; see [[MOS:COMPUTING#Website addresses]]--&gt;
+| standard = [[HTML5]], [[CSS3]], [[WOFF]], [[Scalable Vector Graphics|SVG]], [[RSS]], [[Atom (standard)|Atom]], [[JPEG XR]]
+}}
+
+'''Internet Explorer'''{{efn|Since version 10}} (formerly '''Microsoft Internet Explorer'''{{efn|In version 6 and earlier}} and '''Windows Internet Explorer''',{{efn|In versions 7, 8, and 9}} commonly abbreviated '''IE''' or '''MSIE''') is a series of [[graphical user interface|graphical]] [[web browser]]s developed by [[Microsoft]] and included in the [[Microsoft Windows]] line of [[operating system]]s, starting in 1995. It was first released as part of the add-on package [[Microsoft Plus!|Plus! for Windows 95]] that year. Later versions were available as free downloads, or in-[[service pack]]s, and included in the [[original equipment manufacturer]] (OEM) service releases of Windows 95 and later versions of Windows. The browser is discontinued, but still [[software maintenance|maintained]].&lt;ref name="is-ie-discontinued"&gt;{{cite web|url=https://developer.microsoft.com/en-us/microsoft-edge/platform/faq/|title=Frequently Asked Questions|website=Microsoft Edge Development|publisher=[[Microsoft]]|archive-url=https://web.archive.org/web/20160716113141/https://developer.microsoft.com/en-us/microsoft-edge/platform/faq/|archive-date=2016-07-16|url-status=dead|quote=The latest features and platform updates will only be available in Microsoft Edge. We will continue to deliver security updates to Internet Explorer 11 through its supported lifespan. To ensure consistent behavior across Windows versions, we will evaluate Internet Explorer 11 bugs for servicing on a case by case basis.}}&lt;/ref&gt;
+
+Internet Explorer was once the most widely used web browser, attaining a peak of about 95% [[Usage share of web browsers|usage share]] by 2003.&lt;ref&gt;{{cite news| url=https://www.bbc.co.uk/news/10095730 | publisher=BBC News | title=Microsoft's Internet Explorer losing browser share | date=}}&lt;/ref&gt; This came after Microsoft used [[Product bundling|bundling]] to win the [[first browser war]] against [[Netscape]], which was the dominant browser in the 1990s. Its usage share has since declined with the launch of [[Firefox]] (2004) and [[Google Chrome]] (2008), and with the growing popularity of operating systems such as [[Android (operating system)|Android]] and [[iOS]] that do not support Internet Explorer.
+
+Estimates for Internet Explorer's market share [[Usage share of web browsers#Summary table|are about 1.4% &lt;!--1.41% --&gt; across all platforms]], or by StatCounter's numbers ranked 8th.&lt;ref&gt;{{Cite web|url=https://gs.statcounter.com/browser-market-share/desktop/worldwide/#monthly-201609-202004|title=Desktop Browser Market Share Worldwide {{!}} StatCounter Global Stats|website=StatCounter Global Stats|language=en|access-date=2020-05-02}}&lt;/ref&gt; On traditional PCs (e.g. excluding mobile and [[Xbox]]), the only platform on which it has ever had significant share, it is ranked 5th at 3.26%, after [[Microsoft Edge]], its successor. Edge first overtook Internet Explorer in terms of market share in August 2019. IE and Edge combined rank fourth, after Firefox, previously being second after Chrome. &lt;!-- Other source place IE ranked 4th with a 5.45% market share after Firefox.&lt;ref&gt;{{Cite web|url=https://netmarketshare.com/browser-market-share.aspx?options=%7B%22filter%22%3A%7B%22%24and%22%3A%5B%7B%22deviceType%22%3A%7B%22%24in%22%3A%5B%22Desktop%2Flaptop%22%5D%7D%7D%5D%7D%2C%22dateLabel%22%3A%22Custom%22%2C%22attributes%22%3A%22share%22%2C%22group%22%3A%22browser%22%2C%22sort%22%3A%7B%22share%22%3A-1%7D%2C%22id%22%3A%22browsersDesktop%22%2C%22dateInterval%22%3A%22Monthly%22%2C%22dateStart%22%3A%222020-04%22%2C%22dateEnd%22%3A%222020-04%22%2C%22segments%22%3A%22-1000%22%7D|title=Browser market share|website=netmarketshare.com|access-date=2020-05-02}}&lt;/ref&gt; --&gt;
+
+Microsoft spent over {{USD|100 million}} per year on Internet Explorer in the late 1990s,&lt;ref name="victor"&gt;{{cite web|url=http://www.news.com/2009-1032-995681.html?tag=toc|title=Victor: Software empire pays high price |publisher=[[CNET News]] |accessdate=October 17, 2008}}&lt;/ref&gt; with over 1,000 people involved in the project by 1999.&lt;ref name="citeworld-ie-rise-fall"&gt;{{cite web|url=http://www.citeworld.com/article/2147006/consumerization/internet-explorer-rise-fall-rehabilitation.html|title=The rise, fall, and rehabilitation of Internet Explorer|publisher=citeworld.com|accessdate=February 6, 2015}}&lt;/ref&gt;&lt;ref name="justice-gov-98-1232"&gt;{{cite web|url=http://www.justice.gov/atr/cases/f2600/2613-1.htm|title=U.S. Antitrust Case 98-1232 |publisher=justice.gov |accessdate=February 6, 2015|author=Paul Maritz|quote=There is talk about how we get more $'s from the 1000+ people we have working on browser related stuff...}}&lt;/ref&gt;
+
+Versions of Internet Explorer for other operating systems have also been produced, including an [[Xbox 360]] version called Internet Explorer for Xbox and for platforms Microsoft no longer supports: [[Internet Explorer for Mac]] and [[Internet Explorer for UNIX]] ([[Solaris (operating system)|Solaris]] and [[HP-UX]]), and an embedded OEM version called Pocket Internet Explorer, later rebranded [[Internet Explorer Mobile]] made for [[Windows CE]], [[Windows Phone]] and previously, based on Internet Explorer 7 for [[Windows Mobile|Windows Phone 7]].
+
+On March 17, 2015, Microsoft announced that [[Microsoft Edge]] would replace Internet Explorer as the default browser on its [[Windows 10]] devices. This effectively makes [[Internet Explorer 11]] the last release. Internet Explorer, however, remains on Windows 10 and [[Windows Server 2019]] primarily for enterprise purposes.&lt;ref&gt;{{cite web |url=https://www.theverge.com/2015/3/17/8230631/microsoft-is-killing-off-the-internet-explorer-brand |title=Microsoft is killing off the Internet Explorer brand |work=[[The Verge]] |publisher=[[Vox Media]] |date=March 17, 2015 |accessdate=March 18, 2015}}&lt;/ref&gt;&lt;ref&gt;{{Cite web|url=https://docs.microsoft.com/en-us/windows-insider/at-work/whats-new-wip-at-work-1809|title=What's new in the Windows Server 2019 Insider Preview Builds|website=docs.microsoft.com}}&lt;/ref&gt; Since January 12, 2016, only Internet Explorer 11 has official support for consumers; extended support for Internet Explorer 10 ended on 31 January 2020.&lt;!--IE 10 has "Extended Support End Date", while IE 9, down to 7, have "Review Note" in that column--&gt;&lt;ref&gt;{{Cite web|url=https://support.microsoft.com/en-us/lifecycle/search?alpha=Internet%20Explorer|title=Search product lifecycle|website=support.microsoft.com|access-date=2019-09-21}}&lt;/ref&gt;&lt;ref&gt;{{cite web |url=https://support.microsoft.com/en-us/lifecycle#gp/Microsoft-Internet-Explorer |title=What is the Microsoft Lifecycle Support policy for Internet Explorer? |date=&lt;!--This FAQ was updated on--&gt; March 31, 2016 |quote=Compared with older versions of Internet Explorer, Internet Explorer 11 offers improved security &lt;!--Unclear if [down to] IE 7 is supported (receiving [security] updates, or just plain [still] available (and their Lifecycle Support policy then meaningless).. rest of quote:
+[..]
+Windows Vista SP2	Internet Explorer 9
+Windows Server 2008 SP2	Internet Explorer 9
+Windows Server 2008 IA64 (Itanium)	Internet Explorer 9
+Windows Server 2012	Internet Explorer 10
+Windows Server 2012 R2	Internet Explorer 11
+
+[.. Even:]
+Windows Embedded Operating Systems	Internet Explorer Version
+Windows Embedded for Point of Service (WEPOS)	Internet Explorer 7
+--&gt;}}&lt;/ref&gt;&lt;ref&gt;{{cite web |url=http://blogs.msdn.com/b/ie/archive/2014/08/07/stay-up-to-date-with-internet-explorer.aspx |title=Stay up-to-date with Internet Explorer |publisher=Microsofts's MSDN blog |date=August 7, 2014 |accessdate=August 29, 2014}}&lt;/ref&gt; Support varies based on the operating system's technical capabilities and its support life cycle.&lt;ref name="IELifecycle"&gt;{{cite web|url=https://support.microsoft.com/en-us/lifecycle#gp/Microsoft-Internet-Explorer |title=Internet Explorer Support Lifecycle Policy FAQ |accessdate=2015-03-18}}&lt;!-- Ref'd document title says "Lifecycle" not "Life cycle", please do not change --&gt;&lt;/ref&gt;
+
+The browser has been scrutinized throughout its development for use of third-party technology (such as the [[source code]] of [[Spyglass Mosaic]], used without royalty in early versions) and security and privacy [[Vulnerability (computing)|vulnerabilities]], and [[United States v. Microsoft|the United States]] and [[European Union Microsoft competition case#Related investigations|the European Union have alleged]] that integration of Internet Explorer with Windows has been to the detriment of fair browser competition.&lt;ref&gt;{{Cite news|url=http://rotten-websites.wikia.com/wiki/Internet_Explorer#WikiaArticleComments|title=Internet Explorer|work=Rotten Websites Wiki|access-date=2018-08-12|language=en|archive-url=https://web.archive.org/web/20180812213820/http://rotten-websites.wikia.com/wiki/Internet_Explorer#WikiaArticleComments|archive-date=August 12, 2018|url-status=dead}}&lt;/ref&gt;
+
+==History==
+{{Main|History of Internet Explorer|Internet Explorer version history}}
+
+===Internet Explorer 1===
+[[File:Internet Explorer 1.0.png|thumb|Internet Explorer 1|right]]
+The Internet Explorer project was started in the summer of 1994 by [[Thomas Reardon]], who, according to the [[Massachusetts Institute of Technology]] Review of 2003,&lt;ref name="tr35"&gt;{{cite web|title=Thomas Reardon, 34|url=http://www2.technologyreview.com/tr35/profile.aspx?trid=301|work=MIT Technology Review|accessdate=18 January 2015}}&lt;/ref&gt; used source code from [[Spyglass, Inc.]] Mosaic, which was an early commercial web browser with formal ties to the pioneering [[National Center for Supercomputing Applications]] (NCSA) [[Mosaic (web browser)|Mosaic]] browser.&lt;ref name="bw"&gt;{{cite web|url=http://www.businessweek.com/bwdaily/dnflash/january/new0122d.htm |title=Microsoft's $8 Million Goodbye to Spyglass |accessdate=February 9, 2011 |first=Peter |last=Elstrom |date=January 22, 1997 |website=[[Businessweek]] |publisher=[[Bloomberg L.P.]] |url-status=dead |archiveurl=https://web.archive.org/web/19970629174318/http://www.businessweek.com/bwdaily/dnflash/january/new0122d.htm |archivedate=June 29, 1997 |df=mdy-all }}&lt;/ref&gt;&lt;ref name="win"&gt;{{cite web |url=http://www.windowsitpro.com/article/news2/microsoft-and-spyglass-kiss-and-make-up.aspx |title=Microsoft and Spyglass kiss and make up |website=[[Windows IT Pro]] |publisher=[[Penton (company)|Penton]] |last=Thurrott |first=Paul |authorlink=Paul Thurrott |date=January 22, 1997 |accessdate=February 9, 2011 |url-status=dead |archiveurl=https://archive.today/20120919002551/http://www.windowsitpro.com/article/news2/microsoft-and-spyglass-kiss-and-make-up.aspx |archivedate=September 19, 2012 |df=mdy-all }}&lt;/ref&gt; In late 1994, [[Microsoft]] licensed Spyglass Mosaic for a quarterly fee plus a percentage of Microsoft's non-Windows revenues for the software.&lt;ref name="win" /&gt; Although bearing a name like NCSA Mosaic, Spyglass Mosaic had used the NCSA Mosaic source code sparingly.&lt;ref name="ericsink1"&gt;{{cite web|url=http://www.ericsink.com/Browser_Wars.html|title=Memoirs From the Browser Wars|publisher= Ericsink.com|accessdate=October 17, 2008}}&lt;/ref&gt;
+
+The first version, dubbed Microsoft Internet Explorer, was installed as part of the ''Internet Jumpstart Kit'' in [[Microsoft Plus!]] for [[Windows 95]] and Plus!.&lt;ref name="mshistory"&gt;{{Cite web |url=https://www.microsoft.com/windows/ie/community/columns/historyofie.mspx |title=The History of Internet Explorer |access-date=February 16, 2008 |archive-url=https://web.archive.org/web/20051001113951/http://www.microsoft.com/windows/ie/community/columns/historyofie.mspx |archive-date=October 1, 2005 |url-status=bot: unknown }}&lt;/ref&gt; The Internet Explorer team began with about six people in early development.&lt;ref name="ericsink1" /&gt;&lt;ref&gt;{{cite web|url=http://news.cnet.com/2009-1032-995681.html|title=Software empire pays high price|publisher=[[CBS Interactive]]|work=[[CNET News]]|date=April 15, 2003|first=John|last=Borland|accessdate=February 9, 2011}}&lt;/ref&gt; Internet Explorer 1.5 was released several months later for [[Windows NT]] and added support for basic table rendering. By including it free of charge with their [[operating system]], they did not have to pay royalties to Spyglass Inc, resulting in a lawsuit and a [[United States dollar|US$]]8 million settlement on January 22, 1997.&lt;ref name="bw" /&gt;&lt;ref name="autogenerated2"&gt;{{cite web|url=http://www.windowsitpro.com/article/news2/microsoft-and-spyglass-kiss-and-make-up.aspx|title=Microsoft and Spyglass kiss and make up|publisher=WindowsITPro|last=Thurrott|first=Paul|authorlink=Paul Thurrott|date=January 22, 1997|accessdate=February 9, 2011|url-status=dead|archiveurl=https://archive.today/20120919002551/http://www.windowsitpro.com/article/news2/microsoft-and-spyglass-kiss-and-make-up.aspx|archivedate=September 19, 2012|df=mdy-all}}&lt;/ref&gt;
+
+Microsoft was sued by Synet Inc. in 1996, over the trademark infringement.&lt;ref name="Zdnet.co.uk"&gt;{{cite web|url=http://www.zdnet.co.uk/news/it-strategy/1996/08/15/microsoft-sued-by-minnow-over-internet-explorer-name-2064090/|title=Microsoft sued by minnow over Internet Explorer name|last=Goodwins|first=Rupert|date=August 15, 1996|website=[[ZDNet]]|archive-url=https://web.archive.org/web/20111205162312/http://www.zdnet.co.uk/news/it-strategy/1996/08/15/microsoft-sued-by-minnow-over-internet-explorer-name-2064090/|archive-date=December 5, 2011|url-status=|accessdate=April 20, 2019}}&lt;/ref&gt;
+
+===Internet Explorer 2–10===
+
+* [[Internet Explorer 2]]
+* [[Internet Explorer 3]]
+* [[Internet Explorer 4]]
+* [[Internet Explorer 5]]
+* [[Internet Explorer 6]]
+* [[Internet Explorer 7]]
+* [[Internet Explorer 8]]
+* [[Internet Explorer 9]]
+* [[Internet Explorer 10]]
+
+===Internet Explorer 11===
+{{Main|Internet Explorer 11}}
+Internet Explorer 11 is featured in [[Windows 8.1]], which was released on October 17, 2013. It includes an incomplete mechanism for syncing tabs. It is a major update to its [[Internet Explorer Developer Tools|developer tools]],&lt;ref name="ie11-7-preview"&gt;{{cite web|last=Thurrott|first=Paul|title=Internet Explorer 11 Developer Preview for Windows 7|url=http://winsupersite.com/windows-7/internet-explorer-11-developer-preview-windows-7|work=Paul Thurrott's SuperSite for Windows|publisher=[[Penton (company)|Penton]]|accessdate=July 26, 2013|date=July 25, 2013|archive-url=https://web.archive.org/web/20130726114752/http://winsupersite.com/windows-7/internet-explorer-11-developer-preview-windows-7|archive-date=July 26, 2013|url-status=dead}}&lt;/ref&gt;&lt;ref&gt;{{cite web|url=http://msdn.microsoft.com/en-US/library/ie/bg182632(v=vs.85) |title=What's new in F12 Tools (Preliminary) |work=[[MSDN]] |publisher=Microsoft |date=June 26, 2013 |accessdate=July 13, 2013}}&lt;/ref&gt; enhanced scaling for high DPI screens,&lt;ref&gt;{{cite web|url=http://msdn.microsoft.com/en-US/library/ie/dn265030(v=vs.85) |title=High DPI support (Preliminary) |work=[[MSDN]] |publisher=[[Microsoft]] |date=July 25, 2013 |accessdate=July 26, 2013}}&lt;/ref&gt; [[HTML5]] prerender and prefetch,&lt;ref&gt;{{cite web|url=http://msdn.microsoft.com/en-US/library/ie/dn265039(v=vs.85) |title=Prerender and prefetch support (Preliminary) |work=[[MSDN]] |publisher=[[Microsoft]] |date=July 25, 2013 |accessdate=July 26, 2013}}&lt;/ref&gt; [[hardware-accelerated]] [[JPEG]] decoding,&lt;ref name="PCWord Bradley Business"&gt;{{cite web|last=Bradley|first=Tony|title=Why Internet Explorer 11 is the right browser for business|url=http://www.pcworld.com/article/2045355/why-internet-explorer-11-is-the-right-browser-for-business.html|work=[[PC World]]|publisher=[[International Data Group|IDG]]|accessdate=July 27, 2013|date=July 26, 2013}}&lt;/ref&gt; [[closed captioning]], HTML5 full screen,&lt;ref name="ghack Brinkmann Preview"&gt;{{cite web|last=Brinkmann|first=Martin|title=The Internet Explorer 11 Preview for Windows 7 is now available|url=http://www.ghacks.net/2013/07/25/the-internet-explorer-11-preview-for-windows-7-is-now-available/|work=Ghacks.net|publisher=ghacks Technology News|accessdate=July 27, 2013|date=July 25, 2013}}&lt;/ref&gt; and is the first Internet Explorer to support [[WebGL]]&lt;ref name="cnet-ie11dev"&gt;{{cite web|title=Latest Windows 8.1 build beefs up IE developer tools|url=http://news.cnet.com/8301-10805_3-57582508-75/latest-windows-8.1-build-beefs-up-ie-developer-tools/ |work=[[CNET]] |publisher=[[CBS Interactive]] |accessdate=May 29, 2013}}&lt;/ref&gt;&lt;ref name="verge-ie11webgl"&gt;{{cite web|title=Microsoft teases Internet Explorer 11 WebGL support on Vine|url=https://www.theverge.com/2013/5/22/4355942/internet-explorer-11-webgl-support-teased-on-vine|work=The Verge|date=May 22, 2013|accessdate=May 29, 2013}}&lt;/ref&gt;&lt;ref&gt;{{cite web|url=http://msdn.microsoft.com/en-US/library/ie/bg182648(v=vs.85) |title=WebGL (Preliminary) |work=[[MSDN]] |publisher=[[Microsoft]] |date=July 25, 2013 |accessdate=July 26, 2013}}&lt;/ref&gt; and Google's protocol [[SPDY]] (starting at v3).&lt;ref name="techcrunch-spdy"&gt;{{cite web|last=Lardinois|first=Frederic|title=Microsoft Confirms IE11 Will Support Google's SPDY Protocol|url=https://techcrunch.com/2013/06/26/microsoft-confirms-ie11-will-support-googles-spdy-protocol/|work=[[TechCrunch]]|publisher=[[Aol]]|accessdate=September 10, 2013|date=June 26, 2013}}&lt;/ref&gt; This version of IE has features dedicated to Windows 8.1, including cryptography (WebCrypto),&lt;ref name="ie11-7-preview" /&gt; [[adaptive bitrate streaming]] ([[Media Source Extensions]])&lt;ref name="BetaNews Williams DevPreview"&gt;{{cite web|last=Williams|first=Mike|title=Internet Explorer 11 Developer Preview now available for Windows 7|url=http://betanews.com/2013/07/26/internet-explorer-11-developer-preview-now-available-for-windows-7/|work=BetaNews|publisher=BetaNews, Inc|accessdate=July 27, 2013|date=July 26, 2013}}&lt;/ref&gt; and [[Encrypted Media Extensions]].&lt;ref name="ghack Brinkmann Preview" /&gt;
+
+Internet Explorer 11 was made available for [[Windows 7]] users to download on November 7, 2013, with [[Windows Update#Automatic Updates|Automatic Updates]] in the following weeks.&lt;ref name="ieblog-ie11-w7"&gt;{{cite web|title=IE11 for Windows 7 Globally Available for Consumers and Businesses |url=http://blogs.msdn.com/b/ie/archive/2013/11/07/ie11-for-windows-7-globally-available-for-consumers-and-businesses.aspx |accessdate=November 8, 2013}}&lt;/ref&gt;
+
+Internet Explorer 11's [[user agent]] string now identifies the agent as "[[Trident (layout engine)|Trident]]" (the underlying layout engine) instead of "MSIE". It also announces compatibility with [[Gecko (layout engine)|Gecko]] (the layout engine of [[Firefox]]).
+
+Microsoft claimed that Internet Explorer 11, running the [[WebKit]] SunSpider [[JavaScript]] Benchmark, was the fastest browser as of October 15, 2013.&lt;ref&gt;{{cite web | url=http://ie.microsoft.com/testdrive/benchmarks/SunSpider/SunSpiderResultsIE11GA.png | title=WebKit SunSpider JavaScript Benchmark Results | publisher=ie.microsoft.com | accessdate=October 23, 2013 | archive-url=https://web.archive.org/web/20131023061619/http://ie.microsoft.com/testdrive/benchmarks/SunSpider/SunSpiderResultsIE11GA.png | archive-date=October 23, 2013 | url-status=dead }}&lt;/ref&gt;
+
+Internet Explorer 11 was made available for [[Windows Server 2012]] and [[Windows Embedded 8 Standard]] in the spring of 2019.&lt;ref name="Win8IE11"&gt;{{cite web|title=Bringing Internet Explorer 11 to Windows Server 2012 and Windows Embedded 8 Standard |url=https://techcommunity.microsoft.com/t5/Windows-IT-Pro-Blog/Bringing-Internet-Explorer-11-to-Windows-Server-2012-and-Windows/ba-p/325297 |date=2019-01-28|accessdate=2019-03-26}}&lt;/ref&gt;
+
+===End of life===
+[[Microsoft Edge]], officially unveiled on January 21, 2015, has replaced Internet Explorer as the default browser on [[Windows 10]]. Internet Explorer is still installed in Windows 10 in order to maintain compatibility with older websites and [[intranet]] sites that require [[ActiveX]] and other Microsoft legacy web technologies.&lt;ref name="ieblog-spartan"&gt;{{cite web|url=http://blogs.msdn.com/b/ie/archive/2015/01/22/project-spartan-and-the-windows-10-january-preview-build.aspx|title=Spartan and the Windows 10 January Preview Build|date=January 21, 2015|website=IEBlog|publisher=[[Microsoft]]|first1=Jason|last1=Weber}}&lt;/ref&gt;&lt;ref name="ieblog-edge"&gt;{{cite web|url=http://blogs.msdn.com/b/ie/archive/2014/11/11/living-on-the-edge-our-next-step-in-interoperability.aspx|title=Living on the Edge – our next step in helping the web just work|date=November 11, 2014|website=IEBlog|publisher=[[Microsoft]]|first1=Jacob|last1=Rossi}}&lt;/ref&gt;&lt;ref name="verge-spartanextensions"&gt;{{cite web|url=https://www.theverge.com/2015/1/27/7925007/microsoft-project-spartan-browser-extensions|title=Microsoft reveals its Internet Explorer successor will support extensions|date=January 27, 2015|website=[[The Verge]]|publisher=[[Vox Media]]|first1=Tom|last1=Warren}}&lt;/ref&gt;
+
+According to Microsoft, development of new features for Internet Explorer has ceased. However, it will continue to be [[Software maintenance|maintained]] as part of the support policy for the versions of Windows with which it is included.&lt;ref name="is-ie-discontinued" /&gt; Support for the browser is expected to cease in 2025.
+
+On June 1, 2020, the [[Internet Archive]] removed the latest version of Internet Explorer from its list of supported browsers, citing its dated infrastructure that makes it hard to work with, following the suggestion of Microsoft Chief of Security Chris Jackson that users not use it as their browser of choice.&lt;ref&gt;{{cite web |title=Farewell to IE11 |url=https://blog.archive.org/2020/05/01/farewell-to-ie11/ |website=Internet Archive Blogs |publisher=Internet Archive |accessdate=14 May 2020 |language=English |date=1 May 2020}}&lt;/ref&gt;&lt;ref&gt;{{cite web |last1=Jackson |first1=Chris |title=The perils of using Internet Explorer as your default browser |url=https://techcommunity.microsoft.com/t5/windows-it-pro-blog/the-perils-of-using-internet-explorer-as-your-default-browser/ba-p/331732# |website=Windows IT Pro Blog |publisher=Microsoft |accessdate=14 May 2020 |language=English |date=6 February 2019}}&lt;/ref&gt;
+
+==Features==
+[[File:Internet Explorer zoom menu.png|thumb|[[Page zoom]] as seen in [[IE9]] ]]
+
+Internet Explorer has been designed to view a broad range of web pages and provide certain features within the operating system, including [[Microsoft Update]]. During the heyday of the [[browser wars]], Internet Explorer superseded [[Netscape]] only when it caught up technologically to support the progressive features of the time.&lt;ref&gt;{{cite web|url=http://www.blooberry.com/indexdot/history/netscape.htm |title=Netscape Navigator&amp;nbsp;— Browser History: Netscape explains that by the fourth generations of both browsers, Internet Explorer had caught up technologically with Netscape's browser&amp;nbsp;... Netscape 6.0 was considered slow and buggy, and adoption was slow to occur |author=Brian wilson |date= |publisher=blooberry.com |accessdate=September 26, 2010}}&lt;/ref&gt;{{better source|date=January 2013}}
+
+===Standards support===
+Internet Explorer, using the Trident [[Browser engine|layout engine]]:
+
+* Supports [[HTML]] 4.01, parts of HTML5, [[Cascading Style Sheets|CSS]] Level 1, Level 2 and Level 3, [[XML]] 1.0, and [[Document Object Model|DOM]] Level 1, with minor implementation gaps.
+* Fully supports [[XSLT]] 1.0 as well as an obsolete Microsoft dialect of XSLT often referred to as ''WD-xsl'', which was loosely based on the December 1998 W3C Working Draft of [[Extensible Stylesheet Language|XSL]]. Support for [[XSLT 2.0]] lies in the future: semi-official Microsoft bloggers have indicated that development is underway, but no dates have been announced.
+* Almost full conformance to CSS 2.1 has been added in the Internet Explorer 8 release.&lt;ref&gt;{{cite web| url = http://code.msdn.microsoft.com/ie8whitepapers/Release/ProjectReleases.aspx?ReleaseId=568 | title = Internet Explorer 8 Beta 1 Whitepapers | publisher = [[MSDN]] | accessdate = March 11, 2008}}&lt;/ref&gt;&lt;ref&gt;{{cite web|url=http://idreamincode.co.uk/ie8-bugs |title=IE8 Bugs |first=James |last=Hopkins |url-status=dead |archiveurl=https://web.archive.org/web/20090801120753/http://idreamincode.co.uk/ie8-bugs |archivedate=August 1, 2009 |df=mdy-all }}&lt;/ref&gt; The trident rendering engine in Internet Explorer 9 in 2011, scored highest in the [http://test.csswg.org/suites/css2.1/20110323/report/results.html official W3C conformance test suite for CSS 2.1] of all major browsers.
+* Supports [[XHTML]] in Internet Explorer 9 (Trident version 5.0). Prior versions can render XHTML documents authored with HTML compatibility principles and served with a &lt;code&gt;text/html&lt;/code&gt; [[MIME|MIME-type]].
+* Supports a subset&lt;ref&gt;{{cite web| url = http://www.codedread.com/svg-support.php | title = Summary results of W3C test suite on multiple browsers, different versions and browser plugins. | accessdate = April 15, 2011}}&lt;/ref&gt; of [[Scalable Vector Graphics|SVG]] in Internet Explorer 9 (Trident version 5.0), excluding SMIL, SVG fonts and filters.
+
+Internet Explorer uses [[Comparison of layout engines (HTML)#DOCTYPE sniffing|DOCTYPE sniffing]] to choose between standards mode and a "[[quirks mode]]" in which it deliberately mimicks nonstandard behaviours of old versions of MSIE for HTML and CSS rendering on screen (Internet Explorer always uses standards mode for printing). It also provides its own dialect of [[ECMAScript]] called [[JScript]].
+
+Internet Explorer was criticised by [[Tim Berners-Lee]] for its limited support for SVG, which is promoted by [[W3C]].&lt;ref name="TBLcrit"&gt;{{cite web|url=https://www.nbcnews.com/id/26646919|title=Creator of Web spots a flaw in Internet Explorer|last=Svensson|first=Peter|date=September 10, 2008|website=NBC News|accessdate=November 16, 2008}}&lt;/ref&gt;
+
+===Non-standard extensions===
+Internet Explorer has introduced an array of proprietary extensions to many of the standards, including HTML, CSS, and the DOM.  This has resulted in a number of web pages that appear broken in standards-compliant web browsers and has introduced the need for a "quirks mode" to allow for rendering improper elements meant for Internet Explorer in these other browsers.
+
+Internet Explorer has introduced several extensions to the DOM that have been adopted by other browsers. 
+
+These include the innerHTML property, which provides access to the HTML string within an element, which was part of IE 5 and was standardized as part of HTML 5 roughly 15 years later after all other browsers implemented it for compatibility&lt;ref&gt;{{Cite web|url=https://www.xul.fr/en/html5/innerhtml.php|title=innerHTML and compatibility|website=www.xul.fr}}&lt;/ref&gt;, the XMLHttpRequest object, which allows the sending of HTTP request and receiving of HTTP response, and may be used to perform [[AJAX]], and the designMode attribute of the contentDocument object, which enables rich text editing of HTML documents.{{Citation needed|date=December 2011}} Some of these functionalities were not possible until the introduction of the W3C DOM methods. Its [[Ruby character]] extension to HTML is also accepted as a module in W3C XHTML 1.1, though it is not found in all versions of W3C HTML.
+
+Microsoft submitted several other features of IE for consideration by the W3C for standardization. These include the 'behaviour' CSS property, which connects the HTML elements with JScript behaviours (known as HTML Components, HTC); [[HTMLplusTIME|HTML+TIME]] profile, which adds timing and media synchronization support to HTML documents (similar to the W3C [[XHTMLplusSMIL|XHTML+SMIL]]), and the [[VML]] [[vector graphics]] file format. However, all were rejected, at least in their original forms; VML was subsequently combined with [[PGML]] (proposed by [[Adobe Systems|Adobe]] and [[Sun Microsystems|Sun]]), resulting in the W3C-approved SVG format, one of the few vector image formats being used on the web, which IE did not support until version 9.&lt;ref&gt;{{cite web|url=http://www.codedread.com/svg-support.php|title=SVG Support Tables|last=Schiller|first=Jeff|work=codedread.com|accessdate=April 20, 2019}}&lt;/ref&gt;
+
+Other non-standard behaviours include: support for vertical text, but in a syntax different from W3C CSS3 candidate recommendation, support for a variety of image effects&lt;ref&gt;{{cite web|url=http://webfx.eae.net/tools/filtertool.html |title=Filter Tool (WebFX) |author= |date=May 12, 2005 |publisher=webfx.eae.net |accessdate=}}&lt;/ref&gt; and page transitions, which are not found in W3C CSS, support for [[obfuscated code|obfuscated]] script code, in particular [[JScript.Encode]],&lt;ref&gt;{{cite web|url=https://docs.microsoft.com/en-us/previous-versions//cbfz3598(v=vs.85)|title=Using Script Encoder|date=October 24, 2011|work=Microsoft Docs|publisher=[[Microsoft]]|accessdate=April 20, 2019}}&lt;/ref&gt; as well as support for [[font embedding|embedding]] [[Embedded OpenType|EOT]] fonts in [[Font embedding on the Web|web pages]].&lt;ref&gt;{{cite web|url=https://www.microsoft.com/typography/web/embedding/default.aspx|title=Font Embedding for the Web|date=February 26, 2001|work=Microsoft Typography|publisher=[[Microsoft]]|archive-url=https://web.archive.org/web/20050428064515/http://www.microsoft.com/typography/web/embedding/default.aspx|archive-date=April 28, 2005|url-status=|accessdate=April 20, 2019}}&lt;/ref&gt;
+
+===Favicon===
+Support for [[favicon]]s was first added in Internet Explorer 5.&lt;ref&gt;{{cite web|url=http://msdn.microsoft.com/en-us/library/ms537656(VS.85).aspx|title=How to Add a Shortcut Icon to a Web Page|work=[[MSDN]]|publisher=[[Microsoft]]|archive-url=https://web.archive.org/web/20081217122653/http://msdn.microsoft.com/en-us/library/ms537656(VS.85).aspx|archive-date=December 17, 2008|url-status=|accessdate=April 20, 2019}}&lt;/ref&gt; Internet Explorer supports favicons in [[Portable Network Graphics|PNG]], static [[GIF]] and [[ICO (file format)|native Windows icon]] formats. In Windows Vista and later, Internet Explorer can display native Windows icons that have embedded PNG files.&lt;ref name="jeffdavis"&gt;{{cite web|url=http://jeffcode.blogspot.com/2007/12/why-doesnt-favicon-for-my-site-appear.html|title=why doesn't the favicon for my site appear in IE7?|last=Davis|first=Jeff|date=December 27, 2007|work=jeffdav on code|accessdate=March 11, 2013}}&lt;/ref&gt;&lt;ref name="ericlaw-1"&gt;{{cite web|url=https://blogs.msdn.microsoft.com/ieinternals/2013/09/07/fun-with-favicons/|title=Fun with Favicons|date=September 7, 2013|website=[[Microsoft Developer Network]]|publisher=[[Microsoft]]|accessdate=April 20, 2019}}&lt;/ref&gt;
+
+===Usability and accessibility===
+Internet Explorer makes use of the accessibility framework provided in Windows. Internet Explorer is also a user interface for FTP, with operations similar to that of Windows Explorer. [[Pop-up blocking]] and [[tabbed browsing]] were added respectively in Internet Explorer 6 and Internet Explorer 7. Tabbed browsing can also be added to older versions by installing [[MSN Search Toolbar]] or [[Yahoo Toolbar]].
+
+===Cache===
+{{Main|Temporary Internet Files|Index.dat}}
+
+Internet Explorer caches visited content in the [[Temporary Internet Files]] folder to allow quicker access (or offline access) to previously visited pages. The content is indexed in a database file, known as [[Index.dat]]. Multiple Index.dat files exist which index different content—visited content, [[web feed]]s, visited [[URL]]s, cookies, etc.&lt;ref&gt;{{cite web|url=http://blogs.msdn.com/wndp/archive/2006/08/04/WinInet_Index_dat.aspx|title=A bit about WinInet's Index.dat|author=Windows Core Networking Team|date=August 4, 2006|website=[[Microsoft Developer Network]]|publisher=[[Microsoft]]|archive-url=https://web.archive.org/web/20080112205144/http://blogs.msdn.com/wndp/archive/2006/08/04/WinInet_Index_dat.aspx|archive-date=January 12, 2008|url-status=|accessdate=April 20, 2019}}&lt;/ref&gt;
+
+Prior to IE7, clearing the cache used to clear the index but the files themselves were not reliably removed, posing a potential security and privacy risk. In IE7 and later, when the cache is cleared, the cache files are more reliably removed, and the index.dat file is overwritten with null bytes.
+
+Caching has been improved in IE9.&lt;ref&gt;{{cite web|url=https://blogs.msdn.microsoft.com/ie/2011/03/17/internet-explorer-9-network-performance-improvements/|title=Internet Explorer 9 Network Performance Improvements|date=March 17, 2011|website=[[Microsoft Developer Network]]|publisher=[[Microsoft]]|accessdate=April 20, 2019}}&lt;/ref&gt;
+
+===Group Policy===
+{{Main|Group Policy}}
+Internet Explorer is fully configurable using [[Group Policy]].  Administrators of [[Windows Server domain]]s (for domain-joined computers) or the local computer can apply and enforce a variety of settings on computers that affect the user interface (such as disabling menu items and individual configuration options), as well as underlying security features such as downloading of files, zone configuration, per-site settings, ActiveX control behaviour and others.  Policy settings can be configured for each user and for each machine. Internet Explorer also supports [[Integrated Windows Authentication]].
+
+==Architecture==
+[[File:IExplore.svg|thumb|right|The architecture of IE8. Previous versions had a similar architecture, except that both tabs and the UI were within the same process. Consequently, each browser window could have only one "tab process".]]
+Internet Explorer uses a [[software componentry|componentized]] architecture built on the [[Component Object Model]] (COM) technology. It consists of several major components, each of which is contained in a separate [[Dynamic-link library]] (DLL) and exposes a set of COM [[interface (computing)|programming interfaces]] hosted by the Internet Explorer main executable, {{samp|iexplore.exe}}:&lt;ref name="architecture"&gt;{{cite web|url = http://msdn2.microsoft.com/en-us/library/aa741312.aspx |title = Internet Explorer Architecture | publisher = [[MSDN]] |accessdate = January 10, 2007}}&lt;/ref&gt;
+* {{samp|WinInet.dll}} is the protocol handler for [[HTTP]], [[HTTPS]] and [[FTP]]. It handles all network communication over these protocols.
+* {{samp|URLMon.dll}} is responsible for MIME-type handling and download of web content, and provides a thread-safe wrapper around WinInet.dll and other protocol implementations.
+* {{samp|MSHTML.dll}} houses the [[Trident (rendering engine)|Trident]] [[Rendering (computer graphics)|rendering engine]] introduced in Internet Explorer 4, which is responsible for displaying the pages on-screen and handling the Document Object Model of the web pages. MSHTML.dll parses the HTML/CSS file and creates the internal DOM tree representation of it. It also exposes a set of [[API]]s for runtime inspection and modification of the DOM tree.  The DOM tree is further processed by a layout engine which then renders the internal representation on screen.
+* {{samp|IEFrame.dll}} contains the user interface and window of IE in Internet Explorer 7 and above.
+* {{samp|ShDocVw.dll}} provides the navigation, local caching and history functionalities for the browser.
+* {{samp|BrowseUI.dll}} is responsible for rendering the browser user interface such as menus and toolbars.&lt;ref&gt;{{cite web| first = Chris |last = Wilson | publisher = MSDN Channel9 | accessdate = March 7, 2008 | url = http://channel9.msdn.com/Showpost.aspx?postid=388331 | title = Inside IE8 Beta 1 for Developers}}&lt;/ref&gt;
+
+Internet Explorer does not include any native scripting functionality. Rather, {{samp|MSHTML.dll}} exposes an API that permits a programmer to develop a scripting environment to be plugged-in and to access the DOM tree. Internet Explorer 8 includes the bindings for the [[Active Scripting]] engine, which is a part of [[Microsoft Windows]] and allows any language implemented as an Active Scripting module to be used for client-side scripting. By default, only the JScript and [[VBScript]] modules are provided; third party implementations like [[ScreamingMonkey]] (for ECMAScript 4 support) can also be used. Microsoft also makes available the [[Microsoft Silverlight]] runtime (not supported in [[Windows RT]]) that allows [[CLI languages]], including [[Dynamic Language Runtime|DLR]]-based dynamic languages like [[IronPython]] and [[IronRuby]], to be used for client-side scripting.
+
+Internet Explorer 8 introduces some major architectural changes, called ''Loosely Coupled IE'' (LCIE). LCIE separates the main window process (frame process) from the processes hosting the different web applications in different tabs (tab processes). A frame process can create multiple tab processes, each of which can be of a different [[Mandatory Integrity Control|integrity level]]; each tab process can host multiple web sites. The processes use asynchronous [[Inter-Process Communication]] to synchronize themselves. Generally, there will be a single frame process for all web sites. In [[Windows Vista]] with Protected Mode turned on, however, opening privileged content (such as local HTML pages) will create a new tab process as it will not be constrained by Protected Mode.&lt;ref&gt;{{cite web|url=https://blogs.msdn.microsoft.com/ie/2008/03/11/ie8-and-loosely-coupled-ie-lcie/|title=IE8 and Loosely Coupled IE|last=Zeigler|first=Andy|date=March 11, 2008|website=[[Microsoft Developer Network]]|publisher=[[Microsoft]]|accessdate=April 20, 2019}}&lt;/ref&gt;
+
+==Extensibility==
+Internet Explorer exposes a set of Component Object Model (COM) interfaces that allows [[Plug-in (computing)|add-ons]] to extend the functionality of the browser.&lt;ref name="architecture" /&gt; Extensibility is divided into two types: Browser extensibility and content extensibility. Browser extensibility involves adding context menu entries, toolbars, menu items or [[Browser Helper Objects]] (BHO). BHOs are used to extend the feature set of the browser, whereas the other extensibility options are used to expose that feature in the user interface. Content extensibility adds support for non-native content formats.&lt;ref name="architecture" /&gt; It allows Internet Explorer to handle new [[file format]]s and new [[network protocol|protocols]], e.g. [[WebM]] or SPDY.&lt;ref name="architecture" /&gt; In addition, web pages can integrate [[software widget|widgets]] known as ActiveX controls which run on Windows only but have vast potentials to extend the content capabilities; [[Adobe Flash Player]] and Microsoft Silverlight are examples.&lt;ref name="architecture" /&gt; Add-ons can be installed either locally, or directly by a web site.
+
+Since malicious add-ons can compromise the security of a system, Internet Explorer implements several safeguards. Internet Explorer 6 with Service Pack 2 and later feature an Add-on Manager for enabling or disabling individual add-ons, complemented by a "No Add-Ons" mode. [[Security and safety features new to Windows Vista#Application isolation|Starting with Windows Vista]], Internet Explorer and its BHOs run with restricted privileges and are isolated from the rest of the system. Internet Explorer 9 introduced a new component&amp;nbsp;– Add-on Performance Advisor. Add-on Performance Advisor shows a notification when one or more of installed add-ons exceed a pre-set performance threshold. The notification appears in the Notification Bar when the user launches the browser. Windows 8 and Windows RT introduce a [[Metro-style app|Metro-style version]] of Internet Explorer that is entirely sandboxed and does not run add-ons at all.&lt;ref name=":0"&gt;{{Cite web|url = http://www.techrepublic.com/blog/australian-technology/a-look-at-internet-explorer-10-on-windows-rt/|title = A look at Internet Explorer 10 on Windows RT|date = January 20, 2013|accessdate = |website = [[TechRepublic]]|publisher = [[CBS Interactive]]|last = McSherry|first = Tony}}&lt;/ref&gt; In addition, Windows RT cannot download or install ActiveX controls at all; although existing ones bundled with Windows RT still run in the traditional version of Internet Explorer.&lt;ref name=":0" /&gt;
+
+Internet Explorer itself can be hosted by other applications via a set of COM interfaces. This can be used to embed the browser functionality inside a computer program or create [[Internet Explorer shell]]s.&lt;ref name="architecture" /&gt;
+
+==Security==
+{{See also|Browser security}}
+Internet Explorer uses a zone-based [[computer security|security]] framework that groups sites based on certain conditions, including whether it is an Internet- or intranet-based site as well as a user-editable whitelist. Security restrictions are applied per zone; all the sites in a zone are subject to the restrictions.
+
+Internet Explorer 6 SP2 onwards uses the ''Attachment Execution Service'' of Microsoft Windows to mark executable files downloaded from the Internet as being potentially unsafe. Accessing files marked as such will prompt the user to make an explicit trust decision to execute the file, as executables originating from the Internet can be potentially unsafe. This helps in preventing accidental installation of malware.
+
+Internet Explorer 7 introduced the phishing filter, which restricts access to [[phishing]] sites unless the user overrides the decision. With version 8, it also blocks access to sites known to host [[malware]]. Downloads are also checked to see if they are known to be malware infected.
+
+In Windows Vista, Internet Explorer by default runs in what is called ''Protected Mode'', where the privileges of the browser itself are severely restricted—it cannot make any system-wide changes. One can optionally turn this mode off, but this is not recommended. This also effectively restricts the privileges of any add-ons. As a result, even if the browser or any add-on is compromised, the damage the security breach can cause is limited.
+
+Patches and updates to the browser are released periodically and made available through the Windows Update service, as well as through Automatic Updates. Although security patches continue to be released for a range of platforms, most feature additions and security infrastructure improvements are only made available on operating systems which are in Microsoft's mainstream support phase.
+
+On December 16, 2008, [[Trend Micro]] recommended users switch to rival browsers until an emergency patch was released to fix a potential security risk which "could allow outside users to take control of a person's computer and steal their passwords". Microsoft representatives countered this recommendation, claiming that "0.02% of internet sites" were affected by the flaw. A fix for the issue was released the following day with the Security Update for Internet Explorer KB960714, on Microsoft Windows Update.&lt;ref&gt;{{Cite news| url=http://www.belfasttelegraph.co.uk/breaking-news/world/north-america/security-risk-detected-in-internet-explorer-software-14110209.html |title=Security risk detected in Internet Explorer software |date=December 16, 2008 |newspaper=[[Belfast Telegraph]] }}&lt;/ref&gt;&lt;ref&gt;{{Cite news| url=http://news.bbc.co.uk/2/hi/technology/7784908.stm |newspaper=BBC News | title=Serious security flaw found in IE | date=December 16, 2008 | accessdate=May 5, 2010}}&lt;/ref&gt;
+
+In 2010, Germany's Federal Office for Information Security, known by its German initials, BSI, advised "temporary use of alternative browsers" because of a "critical security hole" in Microsoft's software that could allow hackers to remotely plant and run malicious code on Windows PCs. &lt;ref&gt;{{Cite news|title=Business Technology: Microsoft's Internet Explorer Is Under Fire in Europe|last=Wingfield|first=Nick|date=January 19, 2010|work=The Wall Street Journal|last2=McGroarty|first2=Patrick}}&lt;/ref&gt;
+
+In 2011, a report by Accuvant, funded by Google, rated the security (based on sandboxing) of Internet Explorer worse than [[Google Chrome]] but better than [[Mozilla Firefox]].&lt;ref&gt;{{cite web|url=https://www.theregister.co.uk/2011/12/09/chrome_ie_firefox_security_bakeoff|title=Chrome is the most secured browser – new study|website=The Register|first=Dan|last=Goodin|date=December 9, 2011|accessdate=October 15, 2012}}&lt;/ref&gt;&lt;ref&gt;{{cite web|title=Accuvant Study Finds Chrome is Most Secure Browser|url=http://www.esecurityplanet.com/browser-security/accuvant-study-finds-chrome-is-most-secure-browser.html|date=December 13, 2011|publisher=eSecurity Planet|accessdate=May 22, 2012}}&lt;/ref&gt;
+
+A 2017 browser security white paper comparing Google Chrome, Microsoft Edge, and [[Internet Explorer 11]] by X41 D-Sec in 2017 came to similar conclusions, also based on sandboxing and support of legacy web technologies.&lt;ref&gt;{{cite web|url=https://browser-security.x41-dsec.de/X41-Browser-Security-White-Paper.pdf|title=Browser Security White Paper|publisher=X41-Dsec GmbH|date=September 18, 2017|accessdate=September 21, 2017}}&lt;/ref&gt;
+
+===Security vulnerabilities===
+{{See also|Comparison of web browsers#Security and vulnerabilities}}
+Internet Explorer has been subjected to many security vulnerabilities and concerns:&lt;!-- Now, in one sentence, we answer how the security issues, enumerated and detailed ELSEWHERE, affect people such that the volume of criticism for IE is unusually high --&gt; much of the [[spyware]], [[adware]], and [[computer virus]]es across the Internet are made possible by exploitable bugs and flaws in the security architecture of Internet Explorer, sometimes requiring nothing more than viewing of a malicious web page in order to install themselves. This is known as a "[[drive-by download|drive-by install]]". There are also attempts to trick the user into installing malicious software by misrepresenting the software's true purpose in the description section of an ActiveX security alert.
+
+A number of security flaws affecting IE originated not in the browser itself, but ActiveX-based add-ons used by it. Because the add-ons have the same privilege as IE, the flaws can be as critical as browser flaws. This has led to the ActiveX-based architecture being criticized for being fault-prone. By 2005, some experts maintained that the dangers of ActiveX have been overstated and there were safeguards in place.&lt;ref&gt;{{cite web
+|url=http://www.eweek.com/c/a/Security/The-Lame-Blame-of-ActiveX/
+|title=The Lame Blame of ActiveX
+|date=April 14, 2005
+|accessdate=April 7, 2006
+|work = Security—Opinions
+|publisher=eWeek
+|last=Seltzer
+|first=Larry
+}}&lt;/ref&gt; In 2006, new techniques using [[automated testing]] found more than a hundred vulnerabilities in standard Microsoft ActiveX components.&lt;ref&gt;{{cite web
+|url=http://www.securityfocus.com/news/11403
+|title=ActiveX security faces storm before calm
+|date=July 31, 2006
+|accessdate=July 11, 2009
+|publisher=Security Focus
+|last=Lemos
+|first=Robert
+}}&lt;/ref&gt; Security features introduced in Internet Explorer 7 mitigated some of these vulnerabilities.
+
+In 2008, Internet Explorer had a number of published security vulnerabilities. According to research done by security research firm [[Secunia]], Microsoft did not respond as quickly as its competitors in fixing security holes and making patches available.&lt;ref&gt;{{cite web
+|url=http://secunia.com/gfx/Secunia2008Report.pdf
+|title=Secunia 2008 Report
+|publisher=Secunia
+}}&lt;/ref&gt;  The firm also reported 366 vulnerabilities in ActiveX controls, an increase from the previous year.
+
+According to an October 2010 report in ''[[The Register]]'', researcher Chris Evans had detected a known security vulnerability which, then dating back to 2008, had not been fixed for at least six hundred days.&lt;ref&gt;{{cite web
+  |url=https://www.theregister.co.uk/2010/11/01/internet_explorer_600_day_bug/
+  |title=Internet Explorer info leak festers for 2 years
+  |website = The Register
+  |date = November 1, 2010
+  |accessdate=November 2, 2010
+  |first = Dan
+  |last = Goodin
+  |location = [[San Francisco]]
+  }}&lt;/ref&gt; Microsoft says that it had known about this vulnerability, but it was of exceptionally low severity as the victim web site must be configured in a peculiar way for this attack to be feasible at all.&lt;ref&gt;{{cite web
+  |url = https://www.zdnet.com/blog/security/two-year-old-data-leakage-flaw-still-haunts-internet-explorer/7604
+  |title = Two-year-old data leakage flaw still haunts Internet Explorer
+  |work = [[ZDNet]]
+  |publisher = [[CBS Interactive]]
+  |date = November 1, 2010
+  |accessdate = November 2, 2010
+  |first = Ryan
+  |last = Naraine
+  }}&lt;/ref&gt;
+
+In December 2010, researchers were able to bypass the "Protected Mode" feature in Internet Explorer.&lt;ref&gt;{{cite web|url=https://www.theregister.co.uk/2010/12/03/protected_mode_bypass/
+|title=Researchers bypass Internet Explorer Protected Mode
+|date = December 3, 2010
+|accessdate=December 4, 2010
+}}
+&lt;/ref&gt;
+
+===Vulnerability exploited in attacks on U.S. firms===
+{{Main|Operation Aurora}}
+{{Countries by most used web browser}}
+In an advisory on January 14, 2010, Microsoft said that attackers targeting Google and other U.S. companies used software that exploits a security hole, which had already been patched, in Internet Explorer. The vulnerability affected Internet Explorer 6 on Windows XP and Server 2003, IE6 SP1 on Windows 2000 SP4, IE7 on Windows Vista, XP, Server 2008 and Server 2003, and IE8 on Windows 7, Vista, XP, Server 2003, and Server 2008 (R2).&lt;ref&gt;{{cite news |title=New IE hole exploited in attacks on U.S. firms |first=Elinor |last=Mills |newspaper=[[CNET News]] |publisher=[[CBS Interactive]] |date=January 14, 2010 |url=http://news.cnet.com/8301-27080_3-10435232-245.html |accessdate=September 26, 2010}}&lt;/ref&gt;
+
+The [[Germany|German government]] warned users against using Internet Explorer and recommended switching to an alternative web browser, due to the major security hole described above that was [[Operation Aurora#Attack analysis|exploited in Internet Explorer]].&lt;ref&gt;{{Cite news| url=http://news.bbc.co.uk/1/hi/technology/8463516.stm | work=BBC News | title=Germany issues Explorer warning | date=January 16, 2010 | accessdate=March 26, 2010 | first=Daniel | last=Emery}}&lt;/ref&gt; The Australian and French Government issued a similar warning a few days later.&lt;ref&gt;{{Cite news| url=http://news.bbc.co.uk/1/hi/technology/8465038.stm | work=BBC News | title=France in fresh Explorer warning | date=January 18, 2010 | accessdate=March 26, 2010 | first=Jonathan | last=Fildes}}&lt;/ref&gt;&lt;ref&gt;{{cite web|url=http://www.abc.net.au/news/stories/2010/01/19/2795684.htm |title=Govt issues IE security warning |author=Emily Bourke for AM |date=January 19, 2010 |publisher=abc.net.au |accessdate=September 26, 2010}}&lt;/ref&gt;&lt;ref&gt;{{Cite news| url=http://www.sfgate.com/cgi-bin/blogs/techchron/detail?&amp;entry_id=55509 | title=The Technology Chronicles : France and Germany warn users not to use Internet Explorer | first=Alejandro | last=Martinez-Cabrera | date=January 18, 2010 | work=The San Francisco Chronicle}}&lt;/ref&gt;&lt;ref&gt;{{Cite news| url=https://www.telegraph.co.uk/technology/microsoft/7011626/Germany-warns-against-using-Microsoft-Internet-Explorer.html | work=The Daily Telegraph | location=London | title=Germany warns against using Microsoft Internet Explorer | first=Fiona | last=Govan | date=January 18, 2010 | accessdate=March 26, 2010}}&lt;/ref&gt;
+
+===Major vulnerability across versions===
+On April 26, 2014, Microsoft issued a security advisory relating to {{CVE|2014-1776}} (use-after-free vulnerability in Microsoft Internet Explorer 6 through 11&lt;ref&gt;{{cite web|url=https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-1776|title=CVE-2014-1776|website=Common Vulnerabilities and Exposures (CVE)|date=2014-01-29|access-date=2017-05-16|archive-url=https://web.archive.org/web/20170430095220/http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-1776|archive-date=April 30, 2017|url-status=dead}}&lt;/ref&gt;), a vulnerability that could allow "remote code execution" in Internet Explorer versions 6 to 11.&lt;ref&gt;{{Cite web| url=https://technet.microsoft.com/en-US/library/security/2963983 | title=Microsoft Security Advisory 2963983 | date=April 26, 2014 | publisher=Microsoft | accessdate=April 28, 2014}}&lt;/ref&gt; On April 28, 2014, the United States [[Department of Homeland Security]]'s [[United States Computer Emergency Readiness Team]] (US-CERT) released an advisory stating that the vulnerability could result in "the complete compromise" of an affected system.&lt;ref&gt;{{cite news | url=https://www.reuters.com/article/2014/04/28/us-cybersecurity-microsoft-browser-idUSBREA3Q0PB20140428 | title=U.S., UK advise avoiding Internet Explorer until bug fixed | first=Jim | last=Finkle | date=April 28, 2014 | work=Reuters | accessdate=April 28, 2014}}&lt;/ref&gt; US-CERT recommended reviewing Microsoft's suggestions to mitigate an attack or using an alternate browser until the bug is fixed.&lt;ref&gt;{{Cite web | url=http://www.us-cert.gov/ncas/current-activity/2014/04/28/Microsoft-Internet-Explorer-Use-After-Free-Vulnerability-Being | title=Microsoft Internet Explorer Use-After-Free Vulnerability Guidance | date=April 28, 2014 | publisher=United States Computer Emergency Readiness Team | accessdate=April 28, 2014}}&lt;/ref&gt;&lt;ref&gt;{{Cite web | url=http://www.kb.cert.org/vuls/id/222929 | title=Vulnerability Note VU#222929 – Microsoft Internet Explorer use-after-free vulnerability | date=April 27, 2014 | publisher=Carnegie Mellon University | accessdate=April 28, 2014}}&lt;/ref&gt; The UK National Computer Emergency Response Team (CERT-UK) published an advisory announcing similar concerns and for users to take the additional step of ensuring their antivirus software is up to date.&lt;ref&gt;{{cite news | url=https://www.chicagotribune.com/business/technology/chi-microsoft-explorer-security-flaws-20140428,0,4797833.story | title=U.S.: Stop using Internet Explorer until security holes are fixed | date=April 28, 2014 | newspaper=Chicago Tribune | accessdate=April 28, 2014}}&lt;/ref&gt; [[NortonLifeLock|Symantec]], a cyber security firm, confirmed that "the vulnerability crashes Internet Explorer on Windows XP".&lt;ref&gt;{{Cite web | url=https://www.bbc.com/news/technology-27184188 | title=Microsoft warns of Internet Explorer flaw | date=April 28, 2014 | publisher=BBC | accessdate=April 28, 2014}}&lt;/ref&gt; The vulnerability was resolved on May 1, 2014, with a security update.&lt;ref name=IEfix&gt;{{Cite web |url=https://technet.microsoft.com/library/security/ms14-021 |title=Microsoft Security Bulletin MS14-021 – Critical Security Update for Internet Explorer (2965111) |date=May 1, 2014 |publisher=Microsoft Technet |accessdate=July 6, 2014}}&lt;/ref&gt;
+
+==Market adoption and usage share==
+{{See also|History of Internet Explorer#Market adoption and usage share|Usage share of web browsers}}
+[[File:Usage share of web browsers (Source StatCounter).svg|thumb|[[Usage share of web browsers]] according to [[StatCounter]] ]]
+[[File:Internet-explorer-usage-data.svg|thumb|left|300px|Historical market share of Internet Explorer]]
+
+The adoption rate of Internet Explorer seems to be closely related to that of Microsoft Windows, as it is the default web browser that comes with Windows. Since the integration of Internet Explorer 2.0 with Windows 95 OSR 1 in 1996, and especially after version 4.0's release in 1997, the adoption was greatly accelerated: from below 20% in 1996, to about 40% in 1998, and over 80% in 2000. This made Microsoft the winner in the infamous '[[first browser war]]' against Netscape. [[Netscape Navigator]] was the dominant browser during 1995 and until 1997, but rapidly lost share to IE starting in 1998, and eventually slipped behind in 1999. The integration of IE with Windows led to a lawsuit by [[AOL]], Netscape's owner, accusing Microsoft of unfair competition. The infamous case was eventually won by AOL but by then it was too late, as Internet Explorer had already become the dominant browser.
+
+Internet Explorer peaked during 2002 and 2003, with about 95% share. Its first notable competitor after beating Netscape was Firefox from [[Mozilla]], which itself was an offshoot from Netscape.
+
+Firefox 1.0 had surpassed Internet Explorer 5 in early 2005, with Firefox 1.0 at 8 percent market share.&lt;ref&gt;{{cite web|url=http://marketshare.hitslink.com/report.aspx?qprid=2&amp;qpmr=40&amp;qpdt=1&amp;qpct=3&amp;qptimeframe=M&amp;qpsp=74 |title=Market share for browsers, operating systems and search engines |author= |date= |publisher=marketshare.hitslink.com |accessdate= }}&lt;/ref&gt;
+
+Approximate usage over time based on various usage share counters averaged for the year overall, or for the fourth quarter, or for the last month in the year depending on availability of reference.&lt;ref name="nashare"&gt;{{cite web|url=http://marketshare.hitslink.com/ |title=Market share for browsers, operating systems and search engines |publisher=marketshare.hitslink.com |accessdate=February 9, 2011}}&lt;/ref&gt;&lt;ref name=zdnetearly&gt;Borland, John. [https://www.zdnet.com/news/browser-wars-high-price-huge-rewards/128738?tag=search-results-rivers;item2 Browser wars: High price, huge rewards], ''ZDNet'', April 15, 2003. Accessed June 2, 2012.&lt;/ref&gt;&lt;ref name="thecountermonth"&gt;{{cite web |url=http://www.thecounter.com/stats/2002/December/browser.php |title=TheCounter.com: The Full-Featured Web Counter with Graphic Reports and Detailed Information |publisher=Thecounter.com |accessdate=October 17, 2008 |url-status=dead |archiveurl=https://web.archive.org/web/20081003033505/http://www.thecounter.com/stats/2002/December/browser.php |archivedate=October 3, 2008 |df=mdy-all }}&lt;/ref&gt;&lt;ref name="Thecounter.com"&gt;{{cite web |url=http://www.thecounter.com/stats/1999/December/browser.php |title=TheCounter.com: The Full-Featured Web Counter with Graphic Reports and Detailed Information |publisher=Thecounter.com |accessdate=October 17, 2008 |url-status=dead |archiveurl=https://web.archive.org/web/20081002055109/http://www.thecounter.com/stats/1999/December/browser.php |archivedate=October 2, 2008 |df=mdy-all }}&lt;/ref&gt;&lt;ref name="bhn"&gt;{{Cite news|url=http://www.cnn.com/TECH/computing/9810/08/browser.idg/ |title=CNN&amp;nbsp;— Behind the numbers: Browser market share&amp;nbsp;— October 8, 1998 |publisher=Cnn.com |accessdate=October 17, 2008 |url-status=dead |archiveurl=https://web.archive.org/web/20000816032353/http://www.cnn.com/TECH/computing/9810/08/browser.idg/ |archivedate=August 16, 2000 |df=mdy-all }}&lt;/ref&gt;&lt;ref name="wbs"&gt;{{cite web |url=http://www.omniture.com/home?cms_site_lang=1&amp;s_cid=1493&amp;s_cid=1493 |title=Web Analytics &amp;#124; Online Business Optimization by Omniture |publisher=Omniture.com |accessdate=October 17, 2008 |url-status=dead |archiveurl=https://web.archive.org/web/20080420103123/http://www.omniture.com/home?cms_site_lang=1&amp;s_cid=1493&amp;s_cid=1493 |archivedate=April 20, 2008 |df=mdy-all }}&lt;/ref&gt;
+
+According to StatCounter Internet Explorer's marketshare fell below 50% in September 2010.&lt;ref&gt;{{Cite news |last = Goldman |first = David |url = http://money.cnn.com/2010/10/06/technology/internet_explorer_market_share/index.htm?source=cnn_bin&amp;hpt=Sbin |title = Internet Explorer usage falls below 50% |publisher = CNN |date = October 6, 2010 |accessdate = October 6, 2010}}&lt;/ref&gt; In May 2012, Google Chrome overtook Internet Explorer as the most used browser worldwide, according to StatCounter.&lt;ref&gt;{{Cite web|url=https://www.pcworld.com/article/255886/google_chrome_overtakes_internet_explorer.html|title=Google Chrome Overtakes Internet Explorer|date=2012-05-21|website=PCWorld|language=en|access-date=2019-01-19}}&lt;/ref&gt;
+
+===Industry adoption===
+[[Browser Helper Object]]s are also used by many [[Web search engine|search engines]] companies and third parties for creating add-ons that access their services, such as search engine toolbars. Because of the use of COM, it is possible to embed web-browsing functionality in third-party applications. Hence, there are several Internet Explorer shells, and several content-centric applications like [[RealPlayer]] also use Internet Explorer's web browsing module for viewing web pages within the applications.
+
+==Removal==
+{{Main|Removal of Internet Explorer}}
+While a major upgrade of Internet Explorer can be uninstalled in a traditional way if the user has saved the original application files for installation, the matter of uninstalling the version of the browser that has shipped with an operating system remains a controversial one.
+
+The idea of removing a stock install of Internet Explorer from a Windows system was proposed during the ''[[United States v. Microsoft Corp. (2001)|United States v. Microsoft Corp.]]'' case. One of Microsoft's arguments during the trial was that removing Internet Explorer from Windows may result in system instability. Indeed, programs that depend on libraries installed by IE, including Windows help and support system, fail to function without IE. Before Windows Vista, it was not possible to run [[Windows Update]] without IE because the service used ActiveX technology, which no other web browser supports.
+
+==Impersonation by malware==
+The popularity of Internet Explorer has led to the appearance of malware abusing its name. On January 28, 2011, a fake Internet Explorer browser calling itself "Internet Explorer – Emergency Mode" appeared. It closely resembles the real Internet Explorer but has fewer buttons and no search bar. If a user attempts to launch any other browser such as Google Chrome, Mozilla Firefox, [[Opera (web browser)|Opera]], [[Safari (web browser)|Safari]] or the real Internet Explorer, this browser will be loaded instead. It also displays a fake error message, claiming that the computer is infected with malware and Internet Explorer has entered "Emergency Mode". It blocks access to legitimate sites such as [[Google]] if the user tries to access them.&lt;ref&gt;{{cite web|url=http://www.im-infected.com/hijacker/internet-explorer-emergency-mode.html |title=IE Emergency Mode |work=im-infected.com |date=January 28, 2011 |accessdate=June 23, 2013 |url-status=live |archiveurl=https://web.archive.org/web/20110630065328/http://www.im-infected.com/hijacker/internet-explorer-emergency-mode.html |archivedate=June 30, 2011 }}&lt;/ref&gt;&lt;ref&gt;{{cite web|url=http://www.bleepingcomputer.com/virus-removal/remove-avg-antivirus-2011 |title=Bleeping Computer – Fake IE Emergency Mode (by fake AVG) |date=January 28, 2011 |accessdate=June 23, 2013}}&lt;/ref&gt;
+
+==See also==
+{{Portal|Internet}}
+* [[Bing Bar]]
+* [[History of the web browser]]
+* [[List of web browsers]]
+* [[Month of bugs]]
+* [[Web 2.0]]
+* [[Windows Filtering Platform]]
+* [[Winsock]]
+
+==Notes==
+{{Notelist}}
+
+==References==
+{{Reflist|30em}}
+
+==Further reading==
+{{Refbegin}}
+* {{cite web |title=Index DOT Html and Index DOT Css |work=Browser History: Windows Internet Explorer |url=http://www.blooberry.com/indexdot/history/ie.htm |accessdate=December 22, 2013}}
+* {{cite web |title=Windows Vista &amp; IE7 Beta 1 Available | url=http://blogs.msdn.com/b/ie/archive/2005/07/27/windows-vista-amp-ie7-beta-1-available.aspx |work=IEBlog |publisher=[[Microsoft]] |date=July 27, 2005 |accessdate=December 22, 2013 |first=Dean |last=Hachamovitch |authorlink=Dean Hachamovitch}}
+* {{cite web |title=Standards and CSS in IE |url=http://blogs.msdn.com/b/ie/archive/2005/07/29/445242.aspx |work=IEBlog |publisher=[[Microsoft]] |date=July 30, 2005 |accessdate=December 22, 2013 |first=Chris |last=Wilson}}
+* {{cite web |title=IE7 Is Coming This Month |url=http://blogs.msdn.com/b/ie/archive/2006/10/06/IE7-Is-Coming-This-Month_2E002E002E00_Are-you-Ready_3F00_.aspx |work=IEBlog |publisher=[[Microsoft]] |date=October 7, 2006 |accessdate=December 22, 2013 |first=Scott |last=Graff}}
+* {{cite web |title=IE7 Platforms And Outlook Express |url=http://blogs.msdn.com/b/ie/archive/2005/02/28/382054.aspx |work=IEBlog |publisher=[[Microsoft]] |date=March 1, 2005 |accessdate=December 22, 2013}}
+* {{cite web |title=Gates Highlights Progress on Security, Outlines Next Steps for Continued Innovation |url=https://www.microsoft.com/en-us/news/press/2005/feb05/02-15rsa05keynotepr.aspx |work=News Center |publisher=[[Microsoft]] |date=February 15, 2005 |accessdate=December 22, 2013}}
+* {{cite web |url=http://blogs.msdn.com/b/ie/archive/2010/09/16/internet-explorer-9-logo-visual-refresh.aspx |title=User Experiences: Evolving the blue "e" |work=IEBlog |publisher=[[Microsoft]] |first1=Mary-Lynne |last1=Williams |first2=Leslie |last2=MacNeil |first3=Marty |last3=Hall |editor-first=Dean |editor-last=Hachamovitch |editor-link=Dean Hachamovitch |date=September 17, 2010 |accessdate = December 22, 2013}}
+{{Refend}}
+
+==External links==
+{{Commons category|Internet Explorer}}
+{{Wikibooks|Internet Explorer}}
+* {{Official website}}
+** [https://docs.microsoft.com/en-us/previous-versions/windows/internet-explorer/ie-developer/platform-apis/aa741312(v=vs.85) Internet Explorer Architecture]
+
+{{Internet Explorer|state=open}}
+{{Web browsers|desktop}}
+{{gopher clients}}
+{{Aggregators}}
+{{Timeline of web browsers|1990s}}
+{{Windows Components}}
+
+{{Authority control}}
+
+[[Category:Internet Explorer| ]]
+[[Category:1995 software]]
+[[Category:FTP clients]]
+[[Category:History of the Internet]]
+[[Category:News aggregator software]]
+[[Category:Proprietary software]]
+[[Category:Windows components]]
+[[Category:Windows web browsers]]
+[[Category:Computer-related introductions in 1995]]
+[[Category:Discontinued Microsoft software]]
+[[Category:Web browsers]]
+[[Category:Xbox One software]]
+[[Category:Xbox 360 software]]</text>
+      <sha1>okhp4n783dqagcafdkk9wrcjsr4jm7c</sha1>
+    </revision>
+  </page>
+</mediawiki>

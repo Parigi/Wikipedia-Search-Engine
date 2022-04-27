@@ -1,0 +1,139 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.10/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.10/ http://www.mediawiki.org/xml/export-0.10.xsd" version="0.10" xml:lang="en">
+  <siteinfo>
+    <sitename>Wikipedia</sitename>
+    <dbname>enwiki</dbname>
+    <base>https://en.wikipedia.org/wiki/Main_Page</base>
+    <generator>MediaWiki 1.35.0-wmf.36</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Media</namespace>
+      <namespace key="-1" case="first-letter">Special</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Talk</namespace>
+      <namespace key="2" case="first-letter">User</namespace>
+      <namespace key="3" case="first-letter">User talk</namespace>
+      <namespace key="4" case="first-letter">Wikipedia</namespace>
+      <namespace key="5" case="first-letter">Wikipedia talk</namespace>
+      <namespace key="6" case="first-letter">File</namespace>
+      <namespace key="7" case="first-letter">File talk</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki talk</namespace>
+      <namespace key="10" case="first-letter">Template</namespace>
+      <namespace key="11" case="first-letter">Template talk</namespace>
+      <namespace key="12" case="first-letter">Help</namespace>
+      <namespace key="13" case="first-letter">Help talk</namespace>
+      <namespace key="14" case="first-letter">Category</namespace>
+      <namespace key="15" case="first-letter">Category talk</namespace>
+      <namespace key="100" case="first-letter">Portal</namespace>
+      <namespace key="101" case="first-letter">Portal talk</namespace>
+      <namespace key="108" case="first-letter">Book</namespace>
+      <namespace key="109" case="first-letter">Book talk</namespace>
+      <namespace key="118" case="first-letter">Draft</namespace>
+      <namespace key="119" case="first-letter">Draft talk</namespace>
+      <namespace key="446" case="first-letter">Education Program</namespace>
+      <namespace key="447" case="first-letter">Education Program talk</namespace>
+      <namespace key="710" case="first-letter">TimedText</namespace>
+      <namespace key="711" case="first-letter">TimedText talk</namespace>
+      <namespace key="828" case="first-letter">Module</namespace>
+      <namespace key="829" case="first-letter">Module talk</namespace>
+      <namespace key="2300" case="first-letter">Gadget</namespace>
+      <namespace key="2301" case="first-letter">Gadget talk</namespace>
+      <namespace key="2302" case="case-sensitive">Gadget definition</namespace>
+      <namespace key="2303" case="case-sensitive">Gadget definition talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Rocker-bogie</title>
+    <ns>0</ns>
+    <id>7499977</id>
+    <revision>
+      <id>954539427</id>
+      <parentid>934470295</parentid>
+      <timestamp>2020-05-02T23:38:10Z</timestamp>
+      <contributor>
+        <username>FishE</username>
+        <id>31626450</id>
+      </contributor>
+      <comment>Edited statements that were too specific to one application of the system. Not all applications had the bogie in the rear. Also changed ambiguous reference system description. "Up" and "down" aren't as accurate as describing the coupled rotation.</comment>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="8053" xml:space="preserve">[[File:Rocker-bogie.jpg|thumb|A rocker bogie]]
+[[File:Rocker bogie.gif|thumb|In motion - incorrectly shows chassis staying level; the chassis actually maintains the average of the two rockers]]
+[[File:Mars Science Laboratory wheels.jpg|thumb|Rocker bogie on ''[[Curiosity (rover)|Curiosity]]'']]
+
+The '''rocker-bogie''' system is the [[Suspension (vehicle)|suspension]] arrangement developed in 1988 for use in [[NASA]]'s [[Mars rover]] [[Sojourner (rover)|Sojourner]],&lt;ref&gt;{{cite patent
+  |country=US  |number=4840394
+  |title=Articulated suspension system|inventor=Donald B. Bickler|pubdate=1988-04-21|gdate=1989-06-20|assign1=NASA
+}}&lt;/ref&gt;&lt;ref&gt;{{cite magazine
+  |url=https://ntrs.nasa.gov/archive/nasa/casi.ntrs.nasa.gov/19900016382_1990016382.pdf |format=PDF
+  |title=NASA Patent Abstracts Bibliography, Section 1. Abstracts |date=June 1990 |department=ARTICULATED SUSPENSION SYSTEM |page=19
+}}&lt;/ref&gt;&lt;ref&gt;{{cite magazine
+  |url=http://www.memagazine.org/backissues/membersonly/april98/features/mars/mars.html
+  |last=Bickler |first= Donald |title=Roving over Mars |magazine=Mechanical Engineering |date=April 1998 |pages=74–77
+  |archiveurl=https://web.archive.org/web/20081022180558/http://www.memagazine.org/backissues/membersonly/april98/features/mars/mars.html
+  |archive-date=2008-10-22
+}}&lt;/ref&gt; and which has since become [[NASA]]'s favored design for rovers.&lt;ref&gt;{{cite conference
+  |first1=David P. |last1=Miller |first2=Tze-Liang |last2=Lee
+  |url=http://dpm.kipr.org/papers/robotics02.pdf
+  |title=High-speed traversal of rough terrain using a rocker-bogie mobility system
+  |conference=Space 2002 and Robotics 2002 |date=March 17–21, 2002 |location=Albuquerque, NM
+  |book-title=Proceedings of Space 2002: The Eighth International Conference and exposition on engineering, construction, operations, and business in space, and proceedings of Robotics 2002: the Fifth International conference and exposition/demonstration on robotics for challenging situations and environments |isbn=0-7844-0625-1
+}}&lt;/ref&gt; It has been used in the 2003 [[Mars Exploration Rover]] mission robots [[Spirit (rover)|Spirit]] and [[Opportunity (rover)|Opportunity]],&lt;ref&gt;{{cite web
+  |url=https://mars.nasa.gov/mer/mission/rover/wheels-and-legs/
+  |title=Rover Wheels |website=Mars Exploration Rovers: Mission  |publisher=NASA |access-date=29 March 2019
+}}&lt;/ref&gt; on the 2012 [[Mars Science Laboratory|Mars Science Laboratory (MSL)]] mission's rover [[Curiosity (rover)|Curiosity]],&lt;ref&gt;{{cite web |url=https://mars.nasa.gov/msl/mission/rover/wheelslegs/ |title=Wheels and Legs |website=Mars Science Laboratory: Curiosity Rover |publisher=NASA |access-date=29 March 2019}}&lt;/ref&gt; and is slated for use in the [[Mars 2020]] rover.&lt;ref&gt;{{cite web
+ |url=https://mars.nasa.gov/mars2020/mission/rover/wheels/
+ |title=Rover Wheels |website=Mars 2020 Mission |publisher=NASA |access-date=29 March 2019
+}}&lt;/ref&gt;
+
+The "rocker" part of the suspension comes from the rocking aspect of the larger, body-mounted linkage on each side of the rover. These rockers are connected to each other and the vehicle chassis through a [[Differential (mechanical device)|differential]]. Relative to the chassis, the rockers will rotate in opposite directions to maintain approximately equal wheel contact. The chassis maintains the average pitch angle of both rockers. One end of a rocker is fitted with a drive wheel, and the other end is pivoted to the bogie.
+
+The "[[bogie]]" part of the suspension refers to the smaller linkage that pivots to the rocker in the middle and which has a drive wheel at each end. Bogies were commonly used as load wheels in the [[Bogie#Tracked vehicles|tracks of army tanks]] as idlers distributing the load over the terrain, and were also quite commonly used in [[semi-trailer|trailers]] of [[semi-trailer truck]]s. Both tanks and semi-trailers now prefer [[trailing arm suspension]]s.
+
+On the Sojourner rover the front wheels attach to the bogies, while on the MER and MSL rovers the front wheels attach to the rockers.
+
+==Design==
+{{More citations needed section|date=March 2019}}
+The rocker-bogie design has no [[Spring (device)|spring]]s or stub [[axle]]s for each wheel, allowing the rover to climb over obstacles (such as rocks) that are up to twice the wheel's diameter in size while keeping all six wheels on the ground.&lt;ref name = Reina&gt;
+{{cite journal
+ | last = Reina
+ | first = Giulio
+ | title = On the Mobility of All-terrain Rovers
+ | journal = Industrial Robot
+ | date = 2013
+ | location =
+ | pages = 12
+ | doi = 10.1108/01439911311297720 }}
+&lt;/ref&gt; As with any suspension system, the tilt stability is limited by the height of the center of gravity. Systems using springs tend to tip more easily as the loaded side yields. Based on the center of mass, the ''[[Curiosity (rover)|Curiosity]]'' rover of the [[Mars Science Laboratory]] mission can withstand a tilt of at least 45 degrees in any direction without overturning, but automatic sensors limit the rover from exceeding 30-degree tilts.&lt;ref name="DESCANSO"&gt;{{Cite web | first1 = Andre | last1 = Makovsky | first2 = Peter | last2 = Ilott | first3 = Jim | last3 = Taylor | title = Mars Science Laboratory Telecommunications System Design | publisher = [[Jet Propulsion Laboratory]] | place = Pasadena, California | date = November 2009| url = http://descanso.jpl.nasa.gov/DPSummary/Descanso14_MSL_Telecom.pdf | accessdate = 2012-08-07 | format = PDF }}&lt;/ref&gt; 
+The system is designed to be used at slow speed of around {{Convert|10|cm/s|in/s}} so as to minimize dynamic shocks and consequential damage to the vehicle when surmounting sizable obstacles.
+
+The [[Jet Propulsion Laboratory]] states that this rocker bogie system reduces the motion of the main MER vehicle body by half compared to other suspension systems.{{citation needed |date=March 2019}} Each of the Curiosity rover's six wheels has an independent [[Electric motor|motor]].&lt;ref&gt;{{cite conference |url=https://trs.jpl.nasa.gov/bitstream/handle/2014/42086/11-1313.pdf |title=An overview of NASA’s Mars Science Laboratory |last1=Gross |first1=Michael A. |last2=Cardell |first2=Greg |conference=9th European Space Power Conference (ESPC) |date=June 6, 2011 |location=Sainta Raphael, France}}&lt;/ref&gt; The two front and two rear wheels have individual steering motors which allow the vehicle to turn in place. Each wheel also has cleats, providing grip for climbing in soft sand and scrambling over rocks. The maximum speed of the robots operated in this way is limited to eliminate as many dynamic effects as possible so that the motors can be geared down, thus enabling each wheel to individually lift a large portion of the entire vehicle's mass.
+
+In order to go over a vertical obstacle face, the front wheels are forced against the obstacle by the center and rear wheels. The rotation of the front wheel then lifts the front of the vehicle up and over the obstacle. The middle wheel is then pressed against the obstacle by the rear wheels and pulled against the obstacle by the front until it is lifted up and over. Finally, the rear wheel is pulled over the obstacle by the front two wheels. During each wheel's traversal of the obstacle, forward progress of the vehicle is slowed or completely halted. This is not an issue for the operational speeds at which these vehicles have been operated to date.
+
+One of the future applications of rovers will be to assist [[astronaut]]s during surface operations. To be a useful assistant, the rover will need to be able to move at least as fast as human walking speed. Other missions which have been proposed, such as the [[Sun-Synchronous Lunar Polar Rover]], require even greater speeds (4–10&amp;nbsp;km/h).
+
+== See also ==
+* [[iBOT]]
+* [[Whippletree (mechanism)]]
+
+{{clear right}}
+
+==References==
+{{Reflist}}
+
+{{Mars spacecraft}}
+{{NASAMER}}
+{{MSL}}
+{{Mars 2020}}
+
+{{DEFAULTSORT:Rocker-Bogie}}
+[[Category:Automotive suspension technologies]]
+[[Category:Mars Exploration Rover mission]]
+[[Category:Mars Pathfinder]]
+[[Category:Mars Science Laboratory]]
+[[Category:Mars 2020]]</text>
+      <sha1>aac69v5k96thoct2zebj40w9mzjv88c</sha1>
+    </revision>
+  </page>
+</mediawiki>

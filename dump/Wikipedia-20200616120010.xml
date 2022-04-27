@@ -1,0 +1,337 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.10/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.10/ http://www.mediawiki.org/xml/export-0.10.xsd" version="0.10" xml:lang="en">
+  <siteinfo>
+    <sitename>Wikipedia</sitename>
+    <dbname>enwiki</dbname>
+    <base>https://en.wikipedia.org/wiki/Main_Page</base>
+    <generator>MediaWiki 1.35.0-wmf.36</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Media</namespace>
+      <namespace key="-1" case="first-letter">Special</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Talk</namespace>
+      <namespace key="2" case="first-letter">User</namespace>
+      <namespace key="3" case="first-letter">User talk</namespace>
+      <namespace key="4" case="first-letter">Wikipedia</namespace>
+      <namespace key="5" case="first-letter">Wikipedia talk</namespace>
+      <namespace key="6" case="first-letter">File</namespace>
+      <namespace key="7" case="first-letter">File talk</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki talk</namespace>
+      <namespace key="10" case="first-letter">Template</namespace>
+      <namespace key="11" case="first-letter">Template talk</namespace>
+      <namespace key="12" case="first-letter">Help</namespace>
+      <namespace key="13" case="first-letter">Help talk</namespace>
+      <namespace key="14" case="first-letter">Category</namespace>
+      <namespace key="15" case="first-letter">Category talk</namespace>
+      <namespace key="100" case="first-letter">Portal</namespace>
+      <namespace key="101" case="first-letter">Portal talk</namespace>
+      <namespace key="108" case="first-letter">Book</namespace>
+      <namespace key="109" case="first-letter">Book talk</namespace>
+      <namespace key="118" case="first-letter">Draft</namespace>
+      <namespace key="119" case="first-letter">Draft talk</namespace>
+      <namespace key="446" case="first-letter">Education Program</namespace>
+      <namespace key="447" case="first-letter">Education Program talk</namespace>
+      <namespace key="710" case="first-letter">TimedText</namespace>
+      <namespace key="711" case="first-letter">TimedText talk</namespace>
+      <namespace key="828" case="first-letter">Module</namespace>
+      <namespace key="829" case="first-letter">Module talk</namespace>
+      <namespace key="2300" case="first-letter">Gadget</namespace>
+      <namespace key="2301" case="first-letter">Gadget talk</namespace>
+      <namespace key="2302" case="case-sensitive">Gadget definition</namespace>
+      <namespace key="2303" case="case-sensitive">Gadget definition talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>This (computer programming)</title>
+    <ns>0</ns>
+    <id>3897924</id>
+    <revision>
+      <id>956146405</id>
+      <parentid>955569330</parentid>
+      <timestamp>2020-05-11T18:54:21Z</timestamp>
+      <contributor>
+        <username>DannyS712 bot</username>
+        <id>35159807</id>
+      </contributor>
+      <minor/>
+      <comment>Task 70: Update syntaxhighlight tags - remove use of deprecated &lt;source&gt; tags</comment>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="24283" xml:space="preserve">{{short description|In programming languages, the object or class the currently running code belongs tot}}
+{{lowercase}}
+'''this''', '''self''', and '''Me''' are [[Reserved word|keywords]] used in some computer [[programming language]]s to refer to the object, class, or other entity of which the currently running code is a part.  The entity referred to by these keywords thus depends on the [[execution context]] (such as which object is having its method called).  Different programming languages use these keywords in slightly different ways.  In languages where a keyword like "this" is mandatory, the keyword is the only way to access data and methods stored in the current object.  Where optional, they can disambiguate variables and functions with the same name.
+
+==Object-oriented programming==
+In many [[object-oriented programming|object-oriented]] [[programming language]]s, &lt;code&gt;this&lt;/code&gt; (also called &lt;code&gt;self&lt;/code&gt; or &lt;code&gt;Me&lt;/code&gt;) is a variable that is used in [[instance method]]s to refer to the object on which they are working. The first OO language, [[Simula|SIMULA 67]], used &lt;code&gt;this&lt;/code&gt; to explicitly reference the local object.&lt;ref&gt;{{cite web |last=Dahl |first=Ole-Johan |author-link=Ole-Johan Dahl |last2=Myhrhaug |first2=Bjørn |last3=Nygaard |first3=Kristen |author3-link=Kristen Nygaard |date=1970 |url=http://www.edelweb.fr/Simula/#7 |title=Common Base Language, Norwegian Computing Center}}&lt;/ref&gt;{{rp|4.3.2.3}}  [[C++]] and languages which derive in style from it (such as [[Java (programming language)|Java]], [[C Sharp (programming language)|C#]], [[D (programming language)|D]], and [[PHP]]) also generally use &lt;code&gt;this&lt;/code&gt;. [[Smalltalk]] and others, such as [[Object Pascal]], [[Perl]], [[Python (programming language)|Python]], [[Ruby (programming language)|Ruby]], [[Rust_(programming_language)|Rust]], [[Objective-C]], [[DataFlex]] and [[Swift (programming language)|Swift]], use &lt;code&gt;self&lt;/code&gt;. Microsoft's [[Visual Basic]] uses &lt;code&gt;Me&lt;/code&gt;.
+
+The concept is similar in all languages: &lt;code&gt;this&lt;/code&gt; is usually an immutable [[reference (computer science)|reference]] or [[pointer (computer programming)|pointer]] which refers to the current object; the current object often being the code that acts as 'parent' to the [[Property (programming)|property]], [[Method (computer programming)|method]], sub-routine or function that contains the &lt;code&gt;this&lt;/code&gt; keyword. After an object is properly constructed, or instantiated, &lt;code&gt;this&lt;/code&gt; is always a valid reference. Some languages require it explicitly; others use [[lexical scoping]] to use it implicitly to make symbols within their class visible. Or alternatively, the current object referred to by &lt;code&gt;this&lt;/code&gt; may be an independent code object that has called the function or method containing the keyword &lt;code&gt;this&lt;/code&gt;. Such a thing happens, for example, when a [[JavaScript]] event handler attached to an HTML tag in a web page calls a function containing the keyword &lt;code&gt;this&lt;/code&gt; stored in the global space outside the document object; in that context, &lt;code&gt;this&lt;/code&gt; will refer to the page element within the document object, not the enclosing window object.&lt;ref&gt;Powell, Thomas A, and Schneider, Fritz, 2012. ''JavaScript: The Complete Reference, Third Edition.'' McGraw-Hill. Chapter 11, ''Event Handling'', p 428. {{ISBN|978-0-07-174120-0}}&lt;/ref&gt;
+
+In some languages, for example C++ and Java, &lt;code&gt;this&lt;/code&gt; or &lt;code&gt;self&lt;/code&gt; is a [[Keyword (computer programming)|keyword]], and the variable automatically exists in instance methods. In others, for example [[Python (programming language)|Python]], [[Rust_(programming_language)|Rust]], and [[Perl]] 5, the first parameter of an instance method is such a reference. It needs to be specified explicitly. In Python and Perl, the parameter need not necessarily be named &lt;code&gt;this&lt;/code&gt; or &lt;code&gt;self&lt;/code&gt;; it can be named freely by the programmer like any other parameter. However, by informal convention, the first parameter of an instance method in Perl or Python is named &lt;code&gt;self&lt;/code&gt;. Rust requires the self object to be called &lt;code&gt;&amp;self&lt;/code&gt; or &lt;code&gt;self&lt;/code&gt;, depending on whether the invoked function borrows the invocant, or moves it in, respectively.
+
+[[Static method]]s in [[C++]] or [[Java (programming language)|Java]] are not associated with instances but classes, and so cannot use &lt;code&gt;this&lt;/code&gt;, because there is no object.  In other languages, such as [[Ruby (programming language)|Ruby]], [[Smalltalk]], [[Objective-C]], or [[Swift (programming language)|Swift]], the method is associated with a ''class object'' that is passed as &lt;code&gt;this&lt;/code&gt;, and they are called [[class method]]s. For [[class method]]s, [[Python (programming language)|Python]] uses &lt;code&gt;cls&lt;/code&gt; to access to the ''class object''.
+
+==Subtleties and difficulties==
+When lexical scoping is used to infer &lt;code&gt;this&lt;/code&gt;, the use of &lt;code&gt;this&lt;/code&gt; in code, while not illegal, may raise warning bells to a maintenance programmer, although there are still legitimate uses of &lt;code&gt;this&lt;/code&gt; in this case, such as referring to instance variables hidden by local variables of the same name, or if the method wants to return a reference to the current object, i.e. &lt;code&gt;this&lt;/code&gt;, itself.
+
+In some compilers (for example [[GNU Compiler Collection|GCC]]), pointers to C++ instance methods can be directly cast to a pointer of another type, with an explicit &lt;code&gt;this&lt;/code&gt; pointer parameter.&lt;ref&gt;Using the GNU Compiler Collection (GCC) &amp;ndash; [https://gcc.gnu.org/onlinedocs/gcc/Bound-member-functions.html Bound member functions]&lt;/ref&gt;
+
+===Open recursion===
+The dispatch semantics of &lt;code&gt;this&lt;/code&gt;, namely that method calls on &lt;code&gt;this&lt;/code&gt; are dynamically dispatched, is known as '''open recursion''', and means that these methods can be overridden by derived classes or objects. By contrast, direct named recursion or [[anonymous recursion]] of a function uses '''closed recursion''', with early binding. For example, in the following [[Perl]] code for the factorial, the token &lt;code&gt;__SUB__&lt;/code&gt; is a reference to the current function:
+&lt;syntaxhighlight lang="perl"&gt;
+use feature ":5.16";
+sub {
+    my $x = shift;
+    $x == 0 ? 1 : $x * __SUB__-&gt;( $x - 1 );
+}
+&lt;/syntaxhighlight&gt;
+By contrast, in C++ (using an explicit &lt;code&gt;this&lt;/code&gt; for clarity, though not necessary) the &lt;code&gt;this&lt;/code&gt; binds to the object itself, but if the class method was declared "virtual" i.e. polymorphic in the base, it's resolved via dynamic dispatch ([[late binding]]) so that derived classes can override it.
+&lt;syntaxhighlight lang="cpp"&gt;
+unsigned int factorial(unsigned int n)
+{
+  if (n == 0)
+    return 1;
+  else
+    return n * this-&gt;factorial(n - 1);
+}
+&lt;/syntaxhighlight&gt;
+This example is artificial, since this is direct recursion, so overriding the &lt;code&gt;factorial&lt;/code&gt; method would override this function; more natural examples are when a method in a derived class calls the same method in a base class, or in cases of mutual recursion.&lt;ref&gt;"[http://www.cs.ox.ac.uk/people/ralf.hinze/talks/Open.pdf Closed and Open Recursion]", [http://www.informatik.uni-bonn.de/~ralf Ralf Hinze], July 2007&lt;/ref&gt;&lt;ref&gt;[http://lambda-the-ultimate.org/node/3204 Open Recursion], ''[http://lambda-the-ultimate.org/ Lambda the Ultimate]''&lt;/ref&gt;
+
+The [[fragile base class]] problem has been blamed on open recursion, with the suggestion that invoking methods on &lt;code&gt;this&lt;/code&gt; default to closed recursion (static dispatch, early binding) rather than open recursion (dynamic dispatch, late binding), only using open recursion when it is specifically requested; external calls (not using &lt;code&gt;this&lt;/code&gt;) would be dynamically dispatched as usual.&lt;ref&gt;"[https://www.cs.cmu.edu/~aldrich/papers/selective-open-recursion.pdf Selective Open Recursion: A Solution to the Fragile Base Class Problem]", Jonathan Aldrich&lt;/ref&gt;&lt;ref&gt;"[http://lambda-the-ultimate.org/classic/message12271.html Selective Open Recursion: A Solution to the Fragile Base Class Problem]", ''[http://lambda-the-ultimate.org/ Lambda the Ultimate]''&lt;/ref&gt; The way this is solved in practice in the JDK is through a certain programmer discipline; this discipline has been formalized by C. Ruby and G. T. Leavens; it basically consists of the following rules:&lt;ref name="JDK"&gt;Aldrich, Jonathan, and Kevin Donnelly. "[https://www.cs.cmu.edu/~aldrich/papers/savcbs04.pdf Selective open recursion: Modular reasoning about components and inheritance.]" SAVCBS 2004 Specification and Verification of Component-Based Systems (2004): 26. citing for the JDK-adopted solution C. Ruby and G. T. Leavens. "Safely Creating Correct Subclasses without Seeing Superclass Code". In Object-Oriented Programming Systems, Languages, and Applications, October 2000. {{doi|10.1145/353171.353186}} also available as [http://www.eecs.ucf.edu/~leavens/tech-reports/ISU/TR00-05/TR.pdf technical report TR #00-05d]&lt;/ref&gt;
+* No code invokes &lt;code&gt;public&lt;/code&gt; methods on &lt;code&gt;this&lt;/code&gt;.
+* Code that can be reused internally (by invocation from other methods of the same class) is encapsulated in a &lt;code&gt;protected&lt;/code&gt; or &lt;code&gt;private&lt;/code&gt; method; if it needs to be exposed directly to the users as well, then a wrapper &lt;code&gt;public&lt;/code&gt; method calls the internal method.
+* The previous recommendation can be relaxed for [[Pure function|pure]] methods.
+
+== Implementations ==
+
+=== C++ ===
+{{details|C++ classes}}
+
+Early versions of C++ would let the &lt;code&gt;this&lt;/code&gt; pointer be changed; by doing so a programmer could change which object a method was working on. This feature was eventually removed, and now &lt;code&gt;this&lt;/code&gt; in C++ is an [[Value (computer science)#Assignment: l-values and r-values|r-value]].&lt;ref name="C++03"&gt;{{cite book
+| year = 2003
+| title = ISO/IEC 14882:2003(E): Programming Languages - C++
+| publisher = ISO/IEC
+}}
+&lt;/ref&gt;
+
+Early versions of C++ did not include references and it has been suggested that had they been so in [[C++]] from the beginning, &lt;code&gt;this&lt;/code&gt; would have been a reference, not a pointer.&lt;ref&gt;Stroustrup: [http://www.stroustrup.com/bs_faq2.html#this C++ Style and Technique FAQ]&lt;/ref&gt;
+
+C++ lets objects destroy themselves with the source code statement: &lt;code&gt;delete this&lt;/code&gt;.
+
+=== C# ===
+{{details|C Sharp (programming language)}}
+The  keyword &lt;code&gt;this&lt;/code&gt; in [[C Sharp (programming language)|C#]] works the same way as in Java, for reference types.  However, within C# [[value type]]s, &lt;code&gt;this&lt;/code&gt; has quite different semantics, being similar to an ordinary mutable variable reference, and can even occur on the left side of an assignment.
+
+One use of &lt;code&gt;this&lt;/code&gt; in C# is to allow reference to an outer field variable within a method that contains a local variable that has the same name. In such a situation, for example, the statement &lt;code&gt;var n = localAndFieldname;&lt;/code&gt; within the method will assign the type and value of the local variable &lt;code&gt;localAndFieldname&lt;/code&gt; to &lt;code&gt;n&lt;/code&gt;, whereas the statement &lt;code&gt;var n = this.localAndFieldname;&lt;/code&gt; will assign the type and value of the outer field variable to &lt;code&gt;n&lt;/code&gt;.&lt;ref&gt;De Smet, Bart, 2011. ''C# 4.0 Unleashed.'' Sams Publishing, Indianapolis, USA. Chapter 4, ''Language Essentials'', p 210. {{ISBN|978-0-672-33079-7}}&lt;/ref&gt;
+
+=== D ===
+In [[D (programming language)|D]] &lt;code&gt;this&lt;/code&gt; in a class, struct or union method refers to an immutable reference of the instance of the enclosing aggregate. Classes are [[Reference type|reference]] types, structs and unions are value types. In the first version of D, the keyword  &lt;code&gt;this&lt;/code&gt; is used as a pointer to the instance of the object the method is bound to, while in D2 it has the character of an implicit [[Call by reference|&lt;code&gt;ref&lt;/code&gt;]] function argument.
+
+=== Dylan ===
+In the programming language [[Dylan (programming language)|Dylan]], which is an object-oriented language that supports [[multimethod]]s and doesn't have a concept of &lt;code&gt;this&lt;/code&gt;, sending a message to an object is still kept in the syntax. The two forms below work in the same way; the differences are just [[syntactic sugar]].
+ object.method(param1, param2)
+
+and
+
+ method (object, param1, param2)
+
+=== Eiffel ===
+Within a class text, the '''current type''' is the type obtained from the '''current class'''. Within features (routines, commands and queries) of a class, one may use the keyword &lt;code&gt;Current&lt;/code&gt; to reference the current class and its features. The use of the keyword &lt;code&gt;Current&lt;/code&gt; is optional as the keyword &lt;code&gt;Current&lt;/code&gt; is implied by simply referring to the name of the current class feature openly. For example: One might have a feature `foo' in a class MY_CLASS and refer to it by:
+
+&lt;syntaxhighlight lang="eiffel" line highlight="10"&gt;
+  class
+     MY_CLASS
+  
+  feature -- Access
+  
+     foo: INTEGER
+  
+     my_function: INTEGER
+        do
+          Result := foo
+       end
+ 
+ end
+&lt;/syntaxhighlight&gt;&lt;ref&gt;NOTE: The line numbers are for reference purposes only. Eiffel does not have line numbers in the class text. However, there is a line number option in the Eiffel Studio IDE, which can be optionally turned on for reference purposes (e.g. pair programming, etc).&lt;/ref&gt;
+
+Line #10 (above) has the implied reference to &lt;code&gt;Current&lt;/code&gt; by the call to simple `foo'.
+
+Line #10 (below) has the explicit reference to &lt;code&gt;Current&lt;/code&gt; by the call to `Current.foo'.
+
+&lt;syntaxhighlight lang="eiffel" line highlight="10"&gt;
+  class
+     MY_CLASS
+  
+  feature -- Access
+  
+     foo: INTEGER
+  
+     my_function: INTEGER
+        do
+           Result := Current.foo
+       end
+ 
+ end
+&lt;/syntaxhighlight&gt;
+
+Either approach is acceptable to the compiler, but the implied version (e.g. &lt;code&gt;x := foo&lt;/code&gt;) is preferred as it is less verbose.
+
+As with other languages, there are times when the use of the keyword &lt;code&gt;Current&lt;/code&gt; is mandated, such as:
+
+&lt;syntaxhighlight lang="eiffel" line highlight="11"&gt;
+  class
+     MY_CLASS
+  
+  feature -- Access
+  
+     my_command
+           -- Create MY_OTHER_CLASS with `Current'
+        local
+           x: MY_OTHER_CLASS
+       do
+          create x.make_with_something (Current)
+       end
+ 
+ end
+&lt;/syntaxhighlight&gt;
+
+In the case of the code above, the call on line #11 to '''make_with_something''' is passing the current class by explicitly passing the keyword &lt;code&gt;Current&lt;/code&gt;.
+
+=== Java ===
+{{details|Java (programming language)}}
+The keyword &lt;code&gt;this&lt;/code&gt; is a [[Java (programming language)|Java]] language keyword that represents the current instance of the class in which it appears. It is used to access class variables and methods.
+
+Since all instance methods are virtual in Java, &lt;code&gt;this&lt;/code&gt; can never be null.&lt;ref&gt;Barnes, D. and Kölling, M. ''Objects First with Java''. "...the reason for using this construct [this] is that we have a situation that is known as '''name overloading''' - the same name being used for two different entities... It is important to understand that the fields and the parameters are separate variables that exist independently of each other, even though they share similar names. A parameter and a field sharing a name is not really a problem in Java."{{citation needed|date=February 2013}}&lt;/ref&gt;
+
+=== JavaScript ===
+{{details|JavaScript}}
+In JavaScript, which is a programming or [[scripting language]] used extensively in web browsers, &lt;code&gt;this&lt;/code&gt; is an important keyword, although what it evaluates to depends on where it is used.
+
+* When used outside any function, in global space, &lt;code&gt;this&lt;/code&gt; refers to the enclosing object, which in this case is the enclosing browser window, the &lt;code&gt;window&lt;/code&gt; object.
+* When used in a function defined in the global space, what the keyword &lt;code&gt;this&lt;/code&gt; refers to depends on how the function is called. When such a function is called directly (e.g. &lt;code&gt;f(x)&lt;/code&gt;), &lt;code&gt;this&lt;/code&gt; will refer back to the global space in which the function is defined, and in which other global functions and variables may exist as well (or in strict mode, it is &lt;code&gt;undefined&lt;/code&gt;). If a global function containing &lt;code&gt;this&lt;/code&gt; is called as part of the event handler of an element in the document object, however, &lt;code&gt;this&lt;/code&gt; will refer to the calling HTML element.
+* When a method is called using the &lt;code&gt;new&lt;/code&gt; keyword (e.g. &lt;code&gt;var c = new Thing()&lt;/code&gt;) then within Thing  &lt;code&gt;this&lt;/code&gt; refers to the Thing object itself.
+* When a function is attached as a property of an object and called as a method of that object (e.g. &lt;code&gt;obj.f(x)&lt;/code&gt;), &lt;code&gt;this&lt;/code&gt; will refer to the object that the function is contained within.&lt;ref&gt;Crockford, Douglas, 2008. ''JavaScript: The Good Parts''. O'Reilly Media Inc. and Yahoo! Inc. Chapter 4, ''Functions'', p 28. {{ISBN|978-0-596-51774-8}}&lt;/ref&gt;&lt;ref&gt;Powell, Thomas A, and Schneider, Fritz, 2012. ''JavaScript: The Complete Reference, Third Edition.'' McGraw-Hill. Chapter 5, ''Functions'', pp 170&amp;ndash;1. {{ISBN|978-0-07-174120-0}}&lt;/ref&gt; It is even possible to manually specify &lt;code&gt;this&lt;/code&gt; when calling a function, by using the &lt;code&gt;.call()&lt;/code&gt; or &lt;code&gt;.apply()&lt;/code&gt; methods of the function object.&lt;ref&gt;Goodman, Danny, with Morrison, Michael, 2004. ''JavaScript Bible, 5th Edition.'' Wiley Publishing, Inc., Indianapolis, USA. Chapter 33, ''Functions and Custom Objects'', p 987. {{ISBN|0-7645-5743-2}}&lt;/ref&gt; For example, the method call &lt;code&gt;obj.f(x)&lt;/code&gt; could also be written as &lt;code&gt;obj.f.call(obj, x)&lt;/code&gt;.
+
+To work around the different meaning of &lt;code&gt;this&lt;/code&gt; in nested functions such as DOM event handlers, it is a common idiom in JavaScript to save the &lt;code&gt;this&lt;/code&gt; reference of the calling object in a variable (commonly called &lt;code&gt;that&lt;/code&gt; or &lt;code&gt;self&lt;/code&gt;), and then use the variable to refer to the calling object in nested functions.
+
+For example:
+
+&lt;syntaxhighlight lang="javascript"&gt;
+// In this example $ is a reference to the jQuery library 
+$(".element").hover(function() {
+    // Here, both this and that point to the element under the mouse cursor.
+    var that = this;
+    
+    $(this).find('.elements').each(function() {
+        // Here, this points to the DOM element being iterated.
+        // However, that still points to the element under the mouse cursor.
+        $(this).addClass("highlight");
+    });
+});
+&lt;/syntaxhighlight&gt;
+
+=== Lua ===
+{{details|Lua (programming language)}}
+In Lua, &lt;code&gt;self&lt;/code&gt; is created as [[syntactic sugar]] when functions are defined using the &lt;code&gt;:&lt;/code&gt; operator.&lt;ref&gt;https://www.lua.org/pil/16.html&lt;/ref&gt; When invoking a method using &lt;code&gt;:&lt;/code&gt;, the object being indexed will be implicitly given as the first argument to the function being invoked.
+
+For example, the following two functions are equivalent:
+
+&lt;syntaxhighlight lang="lua"&gt;
+local obj = {}
+
+function obj.foo(arg1, arg2)
+  print(arg1, arg2) -- cannot use "self" here
+end
+
+function obj:bar(arg)
+  print(self, arg) -- "self" is an implicit first argument before arg
+end
+
+-- All functions can be invoked both ways, with "." or with ":"
+
+obj:foo("Foo") -- equivalent to obj.foo(obj, "Foo")
+obj.bar(obj, "Bar") -- equivalent to obj:bar("Bar")
+&lt;/syntaxhighlight&gt;
+
+Lua itself is not object-oriented, but when combined with another feature called metatables, the use of &lt;code&gt;self&lt;/code&gt; lets programmers define functions in a manner resembling object-oriented programming.
+
+=== PowerShell ===
+In PowerShell the special [[automatic variable]] &lt;code&gt;$_&lt;/code&gt; contains the current object in the pipeline object. You can use this variable in commands that perform an action on every object or on selected objects in a pipeline.&lt;ref&gt;{{Cite web|url=https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_automatic_variables|title=PowerShell: About Automatic Variables|last=msdn|website=docs.microsoft.com|language=en-us|access-date=2018-03-22}}&lt;/ref&gt;
+
+&lt;syntaxhighlight lang="ps1"&gt;
+"one", "two", "three" | % { write $_ }
+&lt;/syntaxhighlight&gt;Also starting with PowerShell 5.0, which adds a formal syntax to define classes and other user-defined types&lt;ref&gt;{{Cite web|url=https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_classes|title=about_Classes|last=msdn|website=docs.microsoft.com|language=en-us|access-date=2018-12-17}}&lt;/ref&gt;, &lt;code&gt;$this&lt;/code&gt; variable describes the current instance of the object.
+
+=== Python ===
+In Python, there is no keyword for &lt;code&gt;this&lt;/code&gt;. When a member function is called on an object, it invokes the member function with the same name on the object's class object, with the object automatically bound to the first argument of the function. Thus, the obligatory first parameter of [[Method (computer programming)|instance methods]] serves as &lt;code&gt;this&lt;/code&gt;; this parameter is conventionally named &lt;code&gt;self&lt;/code&gt;, but can be named anything.
+
+In class methods (created with the &lt;code&gt;classmethod&lt;/code&gt; decorator), the first argument refers to the class object itself, and is conventionally called &lt;code&gt;cls&lt;/code&gt;; these are primarily used for inheritable constructors,&lt;ref&gt;''Unifying types and classes in Python 2.2,'' Guido van Rossum, "[https://www.python.org/download/releases/2.2.3/descrintro/#__new__ Overriding the __new__ method]"&lt;/ref&gt; where the use of the class as a parameter allows subclassing the constructor. In static methods (created with the &lt;code&gt;staticmethod&lt;/code&gt; decorator), no special first argument exists.
+
+=== Rust ===
+In Rust, types are declared separately from the functions associated with them. Functions designed to be analogous to instance methods in more traditionally object-oriented languages must explicitly take &lt;code&gt;self&lt;/code&gt; as their first parameter. These functions can then be called using &lt;code&gt;instance.method()&lt;/code&gt; syntax sugar. For example:
+
+&lt;syntaxhighlight lang="rust&gt;
+struct Foo {
+    bar: i32,
+}
+
+impl Foo {
+    fn new() -&gt; Foo {
+        Foo { bar: 0, }
+    }
+    fn refer(&amp;self) {
+        println!("{}", self.bar);
+    }
+    fn mutate(&amp;mut self, baz: i32) {
+        self.bar = baz;
+    }
+    fn consume(self) {
+        self.refer();
+    }
+}
+&lt;/syntaxhighlight&gt;
+
+This defines a type, &lt;code&gt;Foo&lt;/code&gt;, which has four associated functions. The first, &lt;code&gt;Foo::new()&lt;/code&gt;, is not an instance function and must be specified with the type prefix. The remaining three all take a &lt;code&gt;self&lt;/code&gt; parameter in a variety of ways, and can be called on a &lt;code&gt;Foo&lt;/code&gt; instance using the dot-notation syntax sugar, which is equivalent to calling the type-qualified function name with an explicit &lt;code&gt;self&lt;/code&gt; first parameter.
+
+&lt;syntaxhighlight lang="rust"&gt;
+let foo = Foo::new(); // must called as a type-specified function
+foo.refer(); // prints "0". Foo::refer() has read-only access to the foo instance
+foo.mutate(5); // mutates foo in place, permitted by the &amp;mut specification
+foo.consume(); // prints "5" and destroys foo, as Foo::consume() takes full ownership of self
+
+//  equivalent to foo.refer()
+Foo::refer(foo); // compilation error: foo is out of scope
+&lt;/syntaxhighlight&gt;
+
+=== Self ===
+The [[Self (programming language)|Self]] language is named after this use of "self".
+
+=== Xbase++ ===
+&lt;code&gt;Self&lt;/code&gt; is strictly used within methods of a class.
+Another way to refer to &lt;code&gt;Self&lt;/code&gt; is to use &lt;code&gt;::&lt;/code&gt;.
+
+== See also ==
+* {{annotated link|Anonymous recursion}}
+* {{annotated link|Inheritance (object-oriented programming)}}
+* {{annotated link|Self-reference}}
+* {{annotated link|Schizophrenia (object-oriented programming)}}
+* {{annotated link|Program Segment Prefix}}
+
+== References ==
+{{Reflist|30em}}
+
+==Further reading==
+* Meyers, Scott, 1995. ''More Effective C++: 35 New Ways to Improve Your Programs and Designs''. {{ISBN|0-201-63371-X}} [[Scott Meyers]]
+* Stroustrup, Bjarne, 1994. ''The Design and Evolution of C++''. Addison-Wesley Pub. Co. {{ISBN|0-201-54330-3}} [[Bjarne Stroustrup]]
+
+== External links ==
+* [http://javapapers.com/core-java/explain-the-java-this-keyword/ Java this]
+* [http://login2win.blogspot.com/2008/05/c-this-pointer.html *this in C++]
+*[http://www.javatips.net/blog/2011/12/java-this-keyword Java This Keyword]
+
+{{DEFAULTSORT:This (Computer Programming)}}
+[[Category:Object-oriented programming]]</text>
+      <sha1>jx47cw2m70vwur5qgoclwtdpfepon4f</sha1>
+    </revision>
+  </page>
+</mediawiki>

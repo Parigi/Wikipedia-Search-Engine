@@ -1,0 +1,454 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.10/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.10/ http://www.mediawiki.org/xml/export-0.10.xsd" version="0.10" xml:lang="en">
+  <siteinfo>
+    <sitename>Wikipedia</sitename>
+    <dbname>enwiki</dbname>
+    <base>https://en.wikipedia.org/wiki/Main_Page</base>
+    <generator>MediaWiki 1.35.0-wmf.36</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Media</namespace>
+      <namespace key="-1" case="first-letter">Special</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Talk</namespace>
+      <namespace key="2" case="first-letter">User</namespace>
+      <namespace key="3" case="first-letter">User talk</namespace>
+      <namespace key="4" case="first-letter">Wikipedia</namespace>
+      <namespace key="5" case="first-letter">Wikipedia talk</namespace>
+      <namespace key="6" case="first-letter">File</namespace>
+      <namespace key="7" case="first-letter">File talk</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki talk</namespace>
+      <namespace key="10" case="first-letter">Template</namespace>
+      <namespace key="11" case="first-letter">Template talk</namespace>
+      <namespace key="12" case="first-letter">Help</namespace>
+      <namespace key="13" case="first-letter">Help talk</namespace>
+      <namespace key="14" case="first-letter">Category</namespace>
+      <namespace key="15" case="first-letter">Category talk</namespace>
+      <namespace key="100" case="first-letter">Portal</namespace>
+      <namespace key="101" case="first-letter">Portal talk</namespace>
+      <namespace key="108" case="first-letter">Book</namespace>
+      <namespace key="109" case="first-letter">Book talk</namespace>
+      <namespace key="118" case="first-letter">Draft</namespace>
+      <namespace key="119" case="first-letter">Draft talk</namespace>
+      <namespace key="446" case="first-letter">Education Program</namespace>
+      <namespace key="447" case="first-letter">Education Program talk</namespace>
+      <namespace key="710" case="first-letter">TimedText</namespace>
+      <namespace key="711" case="first-letter">TimedText talk</namespace>
+      <namespace key="828" case="first-letter">Module</namespace>
+      <namespace key="829" case="first-letter">Module talk</namespace>
+      <namespace key="2300" case="first-letter">Gadget</namespace>
+      <namespace key="2301" case="first-letter">Gadget talk</namespace>
+      <namespace key="2302" case="case-sensitive">Gadget definition</namespace>
+      <namespace key="2303" case="case-sensitive">Gadget definition talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Weighted arithmetic mean</title>
+    <ns>0</ns>
+    <id>33274</id>
+    <revision>
+      <id>951347522</id>
+      <parentid>945917950</parentid>
+      <timestamp>2020-04-16T18:42:55Z</timestamp>
+      <contributor>
+        <ip>89.204.153.58</ip>
+      </contributor>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="25831" xml:space="preserve">{{distinguish redirect|Weighted average|Weighted median}}
+The '''weighted arithmetic mean''' is similar to an ordinary [[arithmetic mean]] (the most common type of [[average]]), except that instead of each of the data points contributing equally to the final average, some data points contribute more than others. The notion of weighted mean plays a role in [[descriptive statistics]] and also occurs in a more general form in several other areas of mathematics.
+
+If all the weights are equal, then the weighted mean is the same as the [[arithmetic mean]].  While weighted means generally behave in a similar fashion to arithmetic means, they do have a few counterintuitive properties, as captured for instance in [[Simpson's paradox]].
+
+== Examples ==
+=== Basic example ===
+Given two school classes, one with 20 students, and one with 30 students, the grades in each class on a test were:
+
+:Morning class = 62, 67, 71, 74, 76, 77, 78, 79, 79, 80, 80, 81, 81, 82, 83, 84, 86, 89, 93, 98
+
+:Afternoon class = 81, 82, 83, 84, 85, 86, 87, 87, 88, 88, 89, 89, 89, 90, 90, 90, 90, 91, 91, 91, 92, 92, 93, 93, 94, 95, 96, 97, 98, 99
+
+The mean for the morning class is 80 and the mean of the afternoon class is 90. The unweighted mean of the 80 and 90 is 85, so the unweighted mean of the two means is 85. However, this does not account for the difference in number of students in each class (20 versus 30); hence the value of 85 does not reflect the average student grade (independent of class). The average student grade can be obtained by averaging all the grades, without regard to classes (add all the grades up and divide by the total number of students):
+
+:&lt;math&gt;
+\bar{x} = \frac{4300}{50} = 86.
+&lt;/math&gt;
+
+Or, this can be accomplished by weighting the class means by the number of students in each class. The larger class is given more "weight":
+
+:&lt;math&gt;\bar{x} = \frac{(20\times80) + (30\times90)}{20 + 30} = 86.&lt;/math&gt;
+
+Thus, the weighted mean makes it possible to find the mean average student grade without knowing each student's score. Only the class means and the number of students in each class are needed.
+
+=== Convex combination example ===
+Since only the ''relative'' weights are relevant, any weighted mean can be expressed using coefficients that sum to one. Such a linear combination is called a [[convex combination]].
+
+Using the previous example, we would get the following weights:
+
+:&lt;math&gt;
+\frac{20}{20 + 30} = 0.4
+&lt;/math&gt;
+
+:&lt;math&gt;
+\frac{30}{20 + 30} = 0.6
+&lt;/math&gt;
+
+Then, apply the weights like this: 
+:&lt;math&gt;
+\bar{x} = (0.4\times80) + (0.6\times90) = 86.
+&lt;/math&gt;
+
+==Mathematical definition==
+Formally, the weighted mean of a non-empty finite [[multiset]] of data &lt;math&gt;\{x_1, x_2, \dots , x_n\},&lt;/math&gt;
+with corresponding non-negative [[weight function|weights]] &lt;math&gt;\{w_1, w_2, \dots , w_n\}&lt;/math&gt; is
+
+:&lt;math&gt;\bar{x} = \frac{ \sum\limits_{i=1}^n w_i x_i}{\sum\limits_{i=1}^n w_i},
+&lt;/math&gt;
+
+which expands to:
+
+:&lt;math&gt;
+\bar{x} = \frac{w_1 x_1 + w_2 x_2 + \cdots + w_n x_n}{w_1 + w_2 + \cdots + w_n}.
+&lt;/math&gt;
+
+Therefore, data elements with a high weight contribute more to the weighted mean than do elements with a low weight. The weights cannot be negative. Some may be zero, but not all of them (since division by zero is not allowed).
+
+The formulas are simplified when the weights are normalized such that they sum up to &lt;math&gt;1&lt;/math&gt;, i.e.:
+:&lt;math&gt; \sum_{i=1}^n {w_i'} = 1&lt;/math&gt;. 
+For such normalized weights the weighted mean is then:
+:&lt;math&gt;\bar {x} = \sum_{i=1}^n {w_i' x_i}&lt;/math&gt;.
+Note that one can always normalize the weights by making the following transformation on the original weights:
+:&lt;math&gt;w_i' = \frac{w_i}{\sum_{j=1}^n{w_j}}&lt;/math&gt;. 
+Using the normalized weight yields the same results as when using the original weights:
+:&lt;math&gt;\begin{align}
+\bar{x} &amp;= \sum_{i=1}^n w'_i x_i= \sum_{i=1}^n \frac{w_i}{\sum_{j=1}^n w_j} x_i = \frac{ \sum_{i=1}^n w_i x_i}{\sum_{j=1}^n w_j}
+\\
+&amp; = \frac{ \sum_{i=1}^n w_i x_i}{\sum_{i=1}^n w_i}.
+\end{align}
+&lt;/math&gt;
+The [[ordinary mean]] &lt;math&gt;\frac {1}{n}\sum_{i=1}^n {x_i}&lt;/math&gt; is a special case of the weighted mean where all data have equal weights, &lt;math&gt;w_i=1&lt;/math&gt;. 
+
+The ''standard error of the weighted mean '''(unit input variances)''''', &lt;math&gt;\sigma_{\bar{x}}&lt;/math&gt; can be shown via [[uncertainty propagation]] to be:
+:&lt;math&gt;
+\sigma_{\bar{x}} = \left(\sqrt{\sum_{i=1}^n {w_i}} \right)^{-1}
+&lt;/math&gt;
+
+==Statistical properties==
+The weighted sample mean, &lt;math&gt;\bar{x}&lt;/math&gt;, is itself a random variable. Its expected value and standard deviation are related to the expected values and standard deviations of the observations, as follows. For simplicity, we assume normalized weights (weights summing to one). 
+
+If the observations have expected values 
+: &lt;math&gt;E(x_i )={\mu_i},&lt;/math&gt;
+then the weighted sample mean has expectation
+: &lt;math&gt;E(\bar{x}) = \sum_{i=1}^n {w_i' \mu_i}. &lt;/math&gt;
+In particular, if the means are equal, &lt;math&gt;\mu_i=\mu&lt;/math&gt;, then the expectation of the weighted sample mean will be that value,
+: &lt;math&gt;E(\bar{x})= \mu. &lt;/math&gt;
+
+For uncorrelated observations with variances &lt;math&gt;\sigma^2_i&lt;/math&gt;, the variance of the weighted sample mean is{{Citation needed|date=October 2018}} 
+: &lt;math&gt; \sigma^2_{\bar x} = \sum_{i=1}^n {w_i'^2 \sigma^2_i}&lt;/math&gt;
+whose square root &lt;math&gt;\sigma_{\bar x}&lt;/math&gt; can be called the ''standard error of the weighted mean (general case)''.{{Citation needed|date=October 2018}}{{anchor|Standard error}}
+
+Consequently, if all the observations have equal variance, &lt;math&gt;\sigma^2_i= \sigma^2_0&lt;/math&gt;, the weighted sample mean will have variance
+: &lt;math&gt; \sigma^2_{\bar x} =  \sigma^2_0 \sum_{i=1}^n {w_i'^2},&lt;/math&gt;
+where &lt;math&gt;1/n \le \sum_{i=1}^n {w_i'^2} \le 1&lt;/math&gt;. The variance attains its maximum value, &lt;math&gt;\sigma_0^2&lt;/math&gt;, when all weights except one are zero. Its minimum value is found when all weights are equal (i.e., unweighted mean), in which case we have &lt;math&gt; \sigma_{\bar x} = \sigma_0 / \sqrt {n} &lt;/math&gt;, i.e., it degenerates into the [[standard error of the mean]], squared.
+
+Note that because one can always transform non-normalized weights to normalized weights all formula in this section can be adapted to non-normalized weights by replacing all &lt;math&gt;w_i' = \frac{w_i}{\sum_{i=1}^n{w_i}}&lt;/math&gt;.
+
+==Variance weights==
+{{see also|Weighted least squares}}
+For the weighted mean of a list of data for which each element &lt;math&gt;x_i&lt;/math&gt; potentially comes from a different [[probability distribution]] with known [[variance]] &lt;math&gt;\sigma_i^2&lt;/math&gt;, one possible choice for the weights is given by the reciprocal of variance:
+
+:&lt;math&gt;
+w_i = \frac{1}{\sigma_i^2}.
+&lt;/math&gt;
+
+The weighted mean in this case is:
+
+:&lt;math&gt;
+\bar{x} = \frac{ \sum_{i=1}^n \left( x_i \sigma_i^{-2} \right)}{\sum_{i=1}^n \sigma_i^{-2}},
+&lt;/math&gt;
+
+and the ''standard error of the weighted mean (with variance weights)'' is:
+
+:&lt;math&gt;
+\sigma_{\bar{x}} = \sqrt{\frac{ 1 }{\sum_{i=1}^n \sigma_i^{-2}}},
+&lt;/math&gt;
+
+Note this reduces to &lt;math&gt; \sigma_{\bar{x}}^2 = \sigma_0^2/n&lt;/math&gt; when all &lt;math&gt;\sigma_i = \sigma_0&lt;/math&gt;.
+It is a special case of the general formula in previous section,
+:&lt;math&gt; \sigma^2_{\bar x} = \sum_{i=1}^n {w_i'^2 \sigma^2_i} = \frac{ \sum_{i=1}^n {\sigma_i^{-4} \sigma^2_i} }{\left(\sum_{i=1}^n \sigma_i^{-2}\right)^2}.&lt;/math&gt;
+
+The equations above can be combined to obtain:
+:&lt;math&gt;
+\bar{x} = \sigma_{\bar{x}}^2 \sum_{i=1}^n \frac{x_i}{\sigma_i^2}.
+&lt;/math&gt;
+
+The significance of this choice is that this weighted mean is the [[maximum likelihood estimator]] of the mean of the probability distributions under the assumption that they are independent and [[normally distributed]] with the same mean.
+
+===Correcting for over- or under-dispersion===
+{{further|Weighted sample variance}}
+Weighted means are typically used to find the weighted mean of historical data, rather than theoretically generated data. In this case, there will be some error in the variance of each data point. Typically experimental errors may be underestimated due to the experimenter not taking into account all sources of error in calculating the variance of each data point. In this event, the variance in the weighted mean must be corrected to account for the fact that &lt;math&gt;\chi^2&lt;/math&gt; is too large. The correction that must be made is
+
+:&lt;math&gt;\hat{\sigma}_{\bar{x}}^2 = \sigma_{\bar{x}}^2 \chi^2_\nu &lt;/math&gt;
+
+where &lt;math&gt;\chi^2_\nu&lt;/math&gt; is the [[reduced chi-squared]]:
+
+:&lt;math&gt;\chi^2_\nu = \frac{1}{(n-1)} \sum_{i=1}^n \frac{ (x_i - \bar{x} )^2}{ \sigma_i^2 };&lt;/math&gt;
+
+The square root &lt;math&gt;\hat{\sigma}_{\bar{x}}&lt;/math&gt; can be called the ''standard error of the weighted mean (variance weights, scale corrected)''.
+
+When all data variances are equal, &lt;math&gt;\sigma_i = \sigma_0&lt;/math&gt;, they cancel out in the weighted mean variance,  &lt;math&gt;\sigma_{\bar{x}}^2&lt;/math&gt;, which again reduces to the [[standard error of the mean]] (squared), &lt;math&gt;\sigma_{\bar{x}}^2 = \sigma^2/n&lt;/math&gt;, formulated in terms of the [[sample standard deviation]] (squared),
+:&lt;math&gt;\sigma^2 = \frac {\sum_{i=1}^n (x_i - \bar{x} )^2} {n-1}. &lt;/math&gt;
+
+==Bootstrapping validation==
+
+It has been shown by [[bootstrapping (statistics)|bootstrapping]] methods that the following is an accurate estimation for the square of the standard error of the mean (general case):&lt;ref&gt;{{cite journal |last1=Gatz |first1=Donald F. |last2=Smith |first2=Luther |title=The standard error of a weighted mean concentration—I. Bootstrapping vs other methods |journal=Atmospheric Environment |date=June 1995 |volume=29 |issue=11 |pages=1185–1193 |doi=10.1016/1352-2310(94)00210-C}}&lt;/ref&gt;
+
+:&lt;math&gt;
+\sigma_{\bar{x}}^2 = \frac{n}{(n-1)w_s^2}  \left[\sum (w_i x_i - w_s \bar{x})^2 - 
+2 \bar{x} \sum (w_i - w_s)(w_i x_i - w_s\bar{x})
++ \bar{x}^2 \sum (w_i - w_s)^2 \right]
+&lt;/math&gt;
+
+where &lt;math&gt;w_s = \sum w_i&lt;/math&gt;. Further simplification leads to
+
+:&lt;math&gt;
+\sigma_{\bar{x}}^2 = \frac{n}{(n-1)w_s^2}  \sum w_i^2(x_i - \bar{x})^2
+&lt;/math&gt;
+
+==Weighted sample variance==
+{{see also|#Correcting for over- or under-dispersion}}
+
+Typically when a mean is calculated it is important to know the [[variance]] and [[standard deviation]] about that mean. When a weighted mean &lt;math&gt;\mu^*&lt;/math&gt; is used, the variance of the weighted sample is different from the variance of the unweighted sample.
+
+The ''biased'' weighted [[sample variance]] &lt;math&gt;\hat \sigma^2_\mathrm{w}&lt;/math&gt; is defined similarly to the normal ''biased'' sample variance &lt;math&gt;\hat \sigma^2&lt;/math&gt;:
+
+:&lt;math&gt;
+\begin{align}
+\hat \sigma^2\ &amp;= \frac{\sum_{i=1}^N \left(x_i - \mu\right)^2} N \\
+\hat \sigma^2_\mathrm{w} &amp;= \frac{\sum_{i=1}^N w_i \left(x_i - \mu^*\right)^2 }{V_1}
+\end{align}
+&lt;/math&gt;
+where &lt;math&gt;V_1 = \sum_{i=1}^N w_i&lt;/math&gt;, which is 1 for normalized weights. If the weights are ''frequency weights'' (and thus are random variables), it can be shown that &lt;math&gt;\hat \sigma^2_\mathrm{w}&lt;/math&gt; is the maximum likelihood estimator of &lt;math&gt;\sigma^2&lt;/math&gt; for [[Independent and identically distributed random variables|iid]] Gaussian observations.
+
+For small samples, it is customary to use an [[unbiased estimator]] for the population variance. In normal unweighted samples, the ''N'' in the denominator (corresponding to the sample size) is changed to ''N''&amp;nbsp;&amp;minus;&amp;nbsp;1 (see [[Bessel's correction]]). In the weighted setting, there are actually two different unbiased estimators, one for the case of ''frequency weights'' and another for the case of ''reliability weights''.
+
+===Frequency weights===
+If the weights are ''frequency weights'', then the unbiased estimator is:
+
+:&lt;math&gt;
+\begin{align}
+s^2\ &amp;= \frac {\sum_{i=1}^N w_i \left(x_i - \mu^*\right)^2} {V_1 - 1}
+\end{align}
+&lt;/math&gt;
+
+This effectively applies Bessel's correction for frequency weights.
+
+For example, if values &lt;math&gt;\{2, 2, 4, 5, 5, 5\}&lt;/math&gt; are drawn from the same distribution, then we can treat this set as an unweighted sample, or we can treat it as the weighted sample &lt;math&gt;\{2, 4, 5\}&lt;/math&gt; with corresponding weights &lt;math&gt;\{2, 1, 3\}&lt;/math&gt;, and we get the same result either way.
+
+If the frequency weights &lt;math&gt;\{w_i\}&lt;/math&gt; are normalized to 1, then the correct expression after Bessel's correction becomes
+
+:&lt;math&gt;
+\begin{align}
+s^2\ &amp;= \frac {V_1} {V_1 - 1}\sum_{i=1}^N w_i \left(x_i - \mu^*\right)^2
+\end{align}
+&lt;/math&gt;
+
+where the total number of samples is &lt;math&gt;V_1&lt;/math&gt; (not &lt;math&gt;N&lt;/math&gt;). In any case, the information on total number of samples is necessary in order to obtain an unbiased correction, even if &lt;math&gt;w_i&lt;/math&gt; has a different meaning other than frequency weight.
+
+Note that the estimator can be unbiased only if the weights are not [[Standard score|standardized]] nor [[Normalization (statistics)|normalized]], these processes changing the data's mean and variance and thus leading to a [[Base rate fallacy|loss of the base rate]] (the population count, which is a requirement for Bessel's correction).
+
+===Reliability weights===
+If the weights are instead non-random (''reliability weights''), we can determine a correction factor to yield an unbiased estimator. Assuming each random variable is sampled from the same distribution with mean &lt;math&gt;\mu&lt;/math&gt; and actual variance &lt;math&gt;\sigma_{\text{actual}}^2&lt;/math&gt;, taking expectations we have,
+
+:&lt;math&gt;
+\begin{align}
+\operatorname{E} [\hat \sigma^2]
+&amp;=  \frac{ \sum_{i=1}^N \operatorname{E} [(x_i - \mu)^2]} N \\
+&amp;= \operatorname{E} [(X - \operatorname{E}[X])^2] - \frac{1}{N} \operatorname{E} [(X - \operatorname{E}[X])^2] \\
+&amp;= \left( \frac{N - 1} N \right) \sigma_{\text{actual}}^2 \\
+\operatorname{E} [\hat \sigma^2_\mathrm{w}] &amp;= \frac{\sum_{i=1}^N w_i \operatorname{E} [(x_i - \mu^*)^2] }{V_1} \\
+&amp;= \operatorname{E}[(X - \operatorname{E}[X])^2] - \frac{V_2}{V_1^2} \operatorname{E}[(X - \operatorname{E}[X])^2] \\
+&amp;= \left(1 - \frac{V_2 }{ V_1^2}\right) \sigma_{\text{actual}}^2
+\end{align}
+&lt;/math&gt;
+
+where &lt;math&gt;V_2 = \sum_{i=1}^N w_i^2&lt;/math&gt;. Therefore, the bias in our estimator is &lt;math&gt;\left(1 - \frac{V_2 }{ V_1^2}\right) &lt;/math&gt;, analogous to the &lt;math&gt; \left( \frac{N - 1} {N} \right)&lt;/math&gt; bias in the unweighted estimator (also notice that &lt;math&gt;\ V_1^2 / V_2 = N_{eff} &lt;/math&gt; is the [[effective sample size#weighted samples|effective sample size]]). This means that to unbias our estimator we need to pre-divide by &lt;math&gt;1 - \left(V_2 / V_1^2\right) &lt;/math&gt;, ensuring that the expected value of the estimated variance equals the actual variance of the sampling distribution.
+
+The final unbiased estimate of sample variance is:
+:&lt;math&gt;
+\begin{align}
+s^2\ &amp;=  \frac{\hat \sigma^2_\mathrm{w}} {1 - (V_2 / V_1^2)} \\
+&amp;= \frac {\sum_{i=1}^N w_i (x_i - \mu^*)^2} {V_1 - (V_2 / V_1)}
+\end{align}
+&lt;/math&gt;,&lt;ref&gt;{{cite web|url=https://www.gnu.org/software/gsl/manual/html_node/Weighted-Samples.html|title=GNU Scientific Library – Reference Manual: Weighted Samples|website=Gnu.org|accessdate=22 December 2017}}&lt;/ref&gt; 
+where &lt;math&gt;\operatorname{E}[s^2] =  \sigma_{\text{actual}}^2&lt;/math&gt;.
+
+The degrees of freedom of the weighted, unbiased sample variance vary accordingly from ''N''&amp;nbsp;&amp;minus;&amp;nbsp;1 down to&amp;nbsp;0.
+
+The standard deviation is simply the square root of the variance above.
+
+As a side note, other approaches have been described to compute the weighted sample variance.&lt;ref&gt;{{cite web|url=http://www.analyticalgroup.com/download/WEIGHTED_MEAN.pdf|title=Weighted Standard Error and its Impact on Significance Testing (WinCross vs. Quantum &amp; SPSS), Dr. Albert Madansky|website=Analyticalgroup.com|accessdate=22 December 2017}}&lt;/ref&gt;
+
+==Weighted sample covariance==
+In a weighted sample, each row vector &lt;math&gt;\textstyle \textbf{x}_{i}&lt;/math&gt; (each set of single observations on each of the ''K'' random variables) is assigned a weight &lt;math&gt;\textstyle w_i \geq0&lt;/math&gt;.
+
+Then the [[weighted mean]] vector &lt;math&gt;\textstyle \mathbf{\mu^*}&lt;/math&gt; is given by
+
+:&lt;math&gt; \mathbf{\mu^*}=\frac{\sum_{i=1}^N w_i \mathbf{x}_i}{\sum_{i=1}^N w_i}.&lt;/math&gt;
+
+And the weighted covariance matrix is given by:&lt;ref name="PRICE-1972"&gt;{{cite journal |last1=Price |first1=George R. |title=Extension of covariance selection mathematics |journal=Annals of Human Genetics |date=April 1972 |volume=35 |issue=4 |pages=485–490 |doi=10.1111/j.1469-1809.1957.tb01874.x|url=http://www.dynamics.org/Altenberg/LIBRARY/REPRINTS/Price_extension_AnnHumGenetLond.1972.pdf}}&lt;/ref&gt;
+
+:&lt;math&gt;
+\begin{align}
+\mathbf{C} &amp;= \frac {\sum_{i=1}^N w_i \left(\mathbf{x}_i - \mu^*\right)^T \left(\mathbf{x}_i - \mu^*\right)} {V_1}.
+\end{align}
+&lt;/math&gt;
+
+Similarly to weighted sample variance, there are two different unbiased estimators depending on the type of the weights.
+
+===Frequency weights===
+If the weights are ''frequency weights'', the ''unbiased'' weighted estimate of the covariance matrix &lt;math&gt;\textstyle \mathbf{C}&lt;/math&gt;, with Bessel's correction, is given by:&lt;ref name="PRICE-1972"/&gt;
+
+:&lt;math&gt;
+\begin{align}
+\mathbf{C} &amp;= \frac {\sum_{i=1}^N w_i \left(\mathbf{x}_i - \mu^*\right)^T \left(\mathbf{x}_i - \mu^*\right)} {V_1 - 1}.
+\end{align}
+&lt;/math&gt;
+
+Note that this estimator can be unbiased only if the weights are not [[Standard score|standardized]] nor [[Normalization (statistics)|normalized]], these processes changing the data's mean and variance and thus leading to a [[Base rate fallacy|loss of the base rate]] (the population count, which is a requirement for Bessel's correction).
+
+=== Reliability weights ===
+In the case of ''reliability weights'', the weights are [[Normalizing constant|normalized]]:
+
+: &lt;math&gt; V_1 = \sum_{i=1}^N w_i = 1. &lt;/math&gt;
+
+(If they are not, divide the weights by their sum to normalize prior to calculating &lt;math&gt;V_1&lt;/math&gt;:
+
+: &lt;math&gt; w_i' = \frac{w_i}{\sum_{i=1}^N w_i} &lt;/math&gt;
+
+Then the [[weighted mean]] vector &lt;math&gt;\textstyle \mathbf{\mu^*}&lt;/math&gt; can be simplified to
+
+:&lt;math&gt; \mathbf{\mu^*}=\sum_{i=1}^N w_i \mathbf{x}_i.&lt;/math&gt;
+
+and the ''unbiased'' weighted estimate of the covariance matrix &lt;math&gt;\textstyle \mathbf{C}&lt;/math&gt; is:&lt;ref name="Galassi-2007-GSL"&gt;Mark Galassi, Jim Davies, James Theiler, Brian Gough, Gerard Jungman, Michael Booth, and Fabrice Rossi. [https://www.gnu.org/software/gsl/manual GNU Scientific Library - Reference manual, Version 1.15], 2011. 
+[https://www.gnu.org/software/gsl/manual/html_node/Weighted-Samples.html Sec. 21.7 Weighted Samples]&lt;/ref&gt;
+
+:&lt;math&gt;
+\begin{align}
+\mathbf{C} &amp;= \frac{\sum_{i=1}^N w_i}{\left(\sum_{i=1}^N w_i\right)^2-\sum_{i=1}^N w_i^2} \sum_{i=1}^N w_i \left(\mathbf{x}_i - \mu^*\right)^T \left(\mathbf{x}_i - \mu^*\right) \\
+&amp;= \frac {\sum_{i=1}^N w_i \left(\mathbf{x}_i - \mu^*\right)^T \left(\mathbf{x}_i - \mu^*\right)} {V_1 - (V_2 / V_1)}.
+\end{align}
+&lt;/math&gt;
+
+The reasoning here is the same as in the previous section.
+
+Since we are assuming the weights are normalized, then &lt;math&gt;V_1 = 1&lt;/math&gt; and this reduces to:
+
+: &lt;math&gt;\mathbf{C}=\frac{\sum_{i=1}^N w_i \left(\mathbf{x}_i - \mu^*\right)^T \left(\mathbf{x}_i - \mu^*\right)}{1-V_2}.&lt;/math&gt;
+
+If all weights are the same, i.e. &lt;math&gt;\textstyle w_{i} / V_1=1/N&lt;/math&gt;, then the weighted mean and covariance reduce to the unweighted sample mean and covariance above.
+
+==Vector-valued estimates==
+The above generalizes easily to the case of taking the mean of vector-valued estimates. For example, estimates of position on a plane may have less certainty in one direction than another. As in the scalar case, the weighted mean of multiple estimates can provide a [[maximum likelihood]] estimate. We simply replace the variance &lt;math&gt;\sigma^2&lt;/math&gt; by the [[covariance matrix]] &lt;math&gt;\mathbf{C}&lt;/math&gt; and the [[arithmetic inverse]] by the [[matrix inverse]] (both denoted in the same way, via superscripts); the weight matrix then reads:&lt;ref&gt;{{cite book|last=James|first=Frederick|title=Statistical Methods in Experimental Physics|year=2006|publisher=World Scientific|location=Singapore|isbn=981-270-527-9|edition=2nd|page=324}}&lt;/ref&gt;
+
+:&lt;math&gt;
+ \mathbf{W}_i = \mathbf{C}_i^{-1}.
+&lt;/math&gt;
+
+The weighted mean in this case is:
+
+:&lt;math&gt;
+\bar{\mathbf{x}} = \mathbf{C}_{\bar{\mathbf{x}}} \left(\sum_{i=1}^n \mathbf{W}_i \mathbf{x}_i\right),
+&lt;/math&gt;
+
+(where the order of the [[matrix-vector product]] is not [[commutative]]), in terms of the covariance of the weighted mean:
+
+:&lt;math&gt;
+\mathbf{C}_{\bar{\mathbf{x}}} = \left(\sum_{i=1}^n \mathbf{W}_i\right)^{-1},
+&lt;/math&gt;
+
+For example, consider the weighted mean of the point [1 0] with high variance in the second component and [0 1] with high variance in the first component. Then
+
+: &lt;math&gt;\mathbf{x}_1 := \begin{bmatrix}1 &amp; 0\end{bmatrix}^\top, \qquad \mathbf{C}_1 := \begin{bmatrix}1 &amp; 0\\ 0 &amp; 100\end{bmatrix}&lt;/math&gt;
+: &lt;math&gt;\mathbf{x}_2 := \begin{bmatrix}0 &amp; 1\end{bmatrix}^\top, \qquad \mathbf{C}_2 := \begin{bmatrix}100 &amp; 0\\ 0 &amp; 1\end{bmatrix}&lt;/math&gt;
+
+then the weighted mean is:
+
+: &lt;math&gt;
+\begin{align}
+\bar{\mathbf{x}} &amp; = \left(\mathbf{C}_1^{-1} + \mathbf{C}_2^{-1}\right)^{-1} \left(\mathbf{C}_1^{-1} \mathbf{x}_1 + \mathbf{C}_2^{-1} \mathbf{x}_2\right) \\[5pt]
+&amp; =\begin{bmatrix}  0.9901 &amp;0\\ 0&amp; 0.9901\end{bmatrix}\begin{bmatrix}1\\1\end{bmatrix} = \begin{bmatrix}0.9901 \\ 0.9901\end{bmatrix}
+\end{align}
+&lt;/math&gt;
+
+which makes sense: the [1 0] estimate is "compliant" in the second component and the [0 1] estimate is compliant in the first component, so the weighted mean is nearly [1 1].
+
+==Accounting for correlations==
+{{see also|Generalized least squares|Variance#Sum of correlated variables}}
+In the general case, suppose that &lt;math&gt;\mathbf{X}=[x_1,\dots,x_n]^T&lt;/math&gt;, &lt;math&gt;\mathbf{C}&lt;/math&gt; is the [[covariance matrix]] relating the quantities &lt;math&gt;x_i&lt;/math&gt;, &lt;math&gt;\bar{x}&lt;/math&gt; is the common mean to be estimated, and &lt;math&gt;\mathbf{J}&lt;/math&gt; is a [[design matrix]] equal to a [[vector of ones]] &lt;math&gt;[1, ..., 1]^T&lt;/math&gt; (of length &lt;math&gt;n&lt;/math&gt;). The [[Gauss–Markov theorem]] states that the estimate of the mean having minimum variance is given by:
+
+:&lt;math&gt;\sigma^2_\bar{x}=(\mathbf{J}^T \mathbf{W} \mathbf{J})^{-1},&lt;/math&gt;
+
+and
+
+:&lt;math&gt;\bar{x} = \sigma^2_\bar{x} (\mathbf{J}^T \mathbf{W} \mathbf{X}),&lt;/math&gt;
+
+where:
+
+:&lt;math&gt;\mathbf{W} = \mathbf{C}^{-1}.&lt;/math&gt;
+
+==Decreasing strength of interactions==
+
+Consider the time series of an independent variable &lt;math&gt;x&lt;/math&gt; and a dependent variable &lt;math&gt;y&lt;/math&gt;, with &lt;math&gt;n&lt;/math&gt; observations sampled at discrete times &lt;math&gt;t_i&lt;/math&gt;. In many common situations, the value of &lt;math&gt;y&lt;/math&gt; at time &lt;math&gt;t_i&lt;/math&gt; depends not only on &lt;math&gt;x_i&lt;/math&gt; but also on its past values. Commonly, the strength of this dependence decreases as the separation of observations in time increases. To model this situation, one may replace the independent variable by its sliding mean &lt;math&gt;z&lt;/math&gt; for a window size &lt;math&gt;m&lt;/math&gt;.
+
+:&lt;math&gt;
+z_k=\sum_{i=1}^m w_i x_{k+1-i}.
+&lt;/math&gt;
+
+==Exponentially decreasing weights==
+{{see also|Exponentially weighted moving average}}
+In the scenario described in the previous section, most frequently the decrease in interaction strength obeys a negative exponential law. If the observations are sampled at equidistant times, then exponential decrease is equivalent to decrease by a constant fraction &lt;math&gt;0&lt;\Delta&lt;1&lt;/math&gt; at each time step. Setting &lt;math&gt;w=1-\Delta&lt;/math&gt; we can define &lt;math&gt;m&lt;/math&gt; normalized weights by
+: &lt;math&gt;w_i=\frac {w^{i-1}}{V_1},&lt;/math&gt;
+where &lt;math&gt;V_1&lt;/math&gt; is the sum of the unnormalized weights. In this case &lt;math&gt;V_1&lt;/math&gt; is simply
+: &lt;math&gt;V_1=\sum_{i=1}^m{w^{i-1}} = \frac {1-w^{m}}{1-w},&lt;/math&gt;
+approaching &lt;math&gt;V_1=1/(1-w)&lt;/math&gt; for large values of &lt;math&gt;m&lt;/math&gt;.
+
+The damping constant &lt;math&gt;w&lt;/math&gt; must correspond to the actual decrease of interaction strength. If this cannot be determined from theoretical considerations, then the following properties of exponentially decreasing weights are useful in making a suitable choice: at step &lt;math&gt;(1-w)^{-1}&lt;/math&gt;, the weight approximately equals &lt;math&gt;{e^{-1}}(1-w)=0.39(1-w)&lt;/math&gt;, the tail area the value &lt;math&gt;e^{-1}&lt;/math&gt;, the head area &lt;math&gt;{1-e^{-1}}=0.61&lt;/math&gt;. The tail area at step &lt;math&gt;n&lt;/math&gt; is &lt;math&gt;\le {e^{-n(1-w)}}&lt;/math&gt;. Where primarily the closest &lt;math&gt;n&lt;/math&gt; observations matter and the effect of the remaining observations can be ignored safely, then choose &lt;math&gt;w&lt;/math&gt; such that the tail area is sufficiently small.
+
+==Weighted averages of functions==
+The concept of weighted average can be extended to functions.&lt;ref&gt;G. H. Hardy, J. E. Littlewood, and G. Pólya. ''Inequalities'' (2nd ed.), Cambridge University Press, {{ISBN|978-0-521-35880-4}}, 1988.&lt;/ref&gt; Weighted averages of functions play an important role in the systems of weighted differential and integral calculus.&lt;ref&gt;Jane Grossman, Michael Grossman, Robert Katz. [https://books.google.com/books?as_brr=0&amp;q=%22The+First+Systems+of+Weighted+Differential+and+Integral+Calculus%E2%80%8E%22&amp;btnG=Search+Books,''The First Systems of Weighted Differential and Integral Calculus''], {{ISBN|0-9771170-1-4}}, 1980.&lt;/ref&gt;
+
+==See also==
+{{Div col|colwidth=22em}}
+* [[Average]]
+* [[Central tendency]]
+* [[Mean]]
+* [[Standard deviation]]
+* [[Summary statistics]]
+* [[Weight function]]
+* [[Weighted average cost of capital]]
+* [[Weighted geometric mean]]
+* [[Weighted harmonic mean]]
+* [[Weighted least squares]]
+* [[Weighted median]]
+* [[Weighting]]
+{{div col end}}
+
+==References==
+{{Reflist}}
+
+==Further reading==
+* {{Cite book |last=Bevington |first=Philip R |title=Data Reduction and Error Analysis for the Physical Sciences |year=1969 |location=New York, N.Y. |publisher=McGraw-Hill |oclc=300283069}}
+* {{cite book|author=Strutz, T.| title=Data Fitting and Uncertainty (A practical introduction to weighted least squares and beyond) |publisher=Vieweg+Teubner | year=2010 | isbn= 978-3-8348-1022-9}}
+
+==External links==
+* {{MathWorld|title=Weighted Mean|urlname=WeightedMean|author=David Terr}}
+
+{{DEFAULTSORT:Weighted Mean}}
+[[Category:Means]]
+[[Category:Mathematical analysis]]
+[[Category:Summary statistics]]</text>
+      <sha1>j9lg59jzlhoop9pwxn5v1rz7aqpebp7</sha1>
+    </revision>
+  </page>
+</mediawiki>

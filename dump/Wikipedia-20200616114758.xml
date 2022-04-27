@@ -1,0 +1,287 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.10/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.10/ http://www.mediawiki.org/xml/export-0.10.xsd" version="0.10" xml:lang="en">
+  <siteinfo>
+    <sitename>Wikipedia</sitename>
+    <dbname>enwiki</dbname>
+    <base>https://en.wikipedia.org/wiki/Main_Page</base>
+    <generator>MediaWiki 1.35.0-wmf.36</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Media</namespace>
+      <namespace key="-1" case="first-letter">Special</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Talk</namespace>
+      <namespace key="2" case="first-letter">User</namespace>
+      <namespace key="3" case="first-letter">User talk</namespace>
+      <namespace key="4" case="first-letter">Wikipedia</namespace>
+      <namespace key="5" case="first-letter">Wikipedia talk</namespace>
+      <namespace key="6" case="first-letter">File</namespace>
+      <namespace key="7" case="first-letter">File talk</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki talk</namespace>
+      <namespace key="10" case="first-letter">Template</namespace>
+      <namespace key="11" case="first-letter">Template talk</namespace>
+      <namespace key="12" case="first-letter">Help</namespace>
+      <namespace key="13" case="first-letter">Help talk</namespace>
+      <namespace key="14" case="first-letter">Category</namespace>
+      <namespace key="15" case="first-letter">Category talk</namespace>
+      <namespace key="100" case="first-letter">Portal</namespace>
+      <namespace key="101" case="first-letter">Portal talk</namespace>
+      <namespace key="108" case="first-letter">Book</namespace>
+      <namespace key="109" case="first-letter">Book talk</namespace>
+      <namespace key="118" case="first-letter">Draft</namespace>
+      <namespace key="119" case="first-letter">Draft talk</namespace>
+      <namespace key="446" case="first-letter">Education Program</namespace>
+      <namespace key="447" case="first-letter">Education Program talk</namespace>
+      <namespace key="710" case="first-letter">TimedText</namespace>
+      <namespace key="711" case="first-letter">TimedText talk</namespace>
+      <namespace key="828" case="first-letter">Module</namespace>
+      <namespace key="829" case="first-letter">Module talk</namespace>
+      <namespace key="2300" case="first-letter">Gadget</namespace>
+      <namespace key="2301" case="first-letter">Gadget talk</namespace>
+      <namespace key="2302" case="case-sensitive">Gadget definition</namespace>
+      <namespace key="2303" case="case-sensitive">Gadget definition talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Significant figures</title>
+    <ns>0</ns>
+    <id>317062</id>
+    <revision>
+      <id>962647514</id>
+      <parentid>959247018</parentid>
+      <timestamp>2020-06-15T07:44:33Z</timestamp>
+      <contributor>
+        <username>EyeTruth</username>
+        <id>17955641</id>
+      </contributor>
+      <comment>other name, and was already a redirect</comment>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="22753" xml:space="preserve">{{More citations needed|date=July 2013|talk=Problems}}
+{{Redir|First digit|the body part|First digit (anatomy)}}
+{{Use dmy dates|date=May 2019|cs1-dates=y}}
+{{Order-of-approx}}
+The '''significant figures''' (also known as the '''significant digits''' or '''precision''') of a number are [[Numerical digit|digits]] that carry meaningful contributions to its [[Accuracy and precision|measurement resolution]]. This includes all digits ''except'':&lt;ref&gt;''Chemistry in the Community''; Kendall-Hunt:Dubuque, IA 1988&lt;/ref&gt;
+
+*  All [[leading zeros]]. For example, "013." has two significant figures: 1 and 3;
+* [[Trailing zeros]] when they are merely placeholders to indicate the scale of the number (exact rules are explained at [[#Identifying significant figures|identifying significant figures]]); and
+* [[wikt:spurious|Spurious]] digits introduced, for example, by calculations carried out to greater precision than that of the original data, or measurements reported to a greater precision than the equipment supports.
+
+Of the significant figures in a number, the '''most significant''' is the position with the highest exponent value (the left-most in normal decimal notation), and the '''least significant''' is the position with the lowest exponent value (the right-most in normal decimal notation). For example, in the number "123", the "1" is the most significant figure as it counts hundreds (10&lt;sup&gt;2&lt;/sup&gt;), and "3" is the least significant figure as it counts ones (10&lt;sup&gt;0&lt;/sup&gt;).
+ 
+[[Significance arithmetic]] is a set of approximate rules for roughly maintaining significance throughout a computation.  The more sophisticated scientific rules are known as [[propagation of uncertainty]].
+
+Numbers are often [[rounding|rounded]] to avoid reporting insignificant figures. For example, it would create [[false precision]] to express a measurement as 12.34525&amp;nbsp;kg (which has seven significant figures) if the scales only measured to the nearest gram and gave a reading of 12.345&amp;nbsp;kg (which has five significant figures). Numbers can also be rounded merely for simplicity rather than to indicate a given precision of measurement, for example, to make them faster to pronounce in news broadcasts.
+
+==Identifying significant figures==
+
+===Concise rules===
+[[File:Sigfigs.png|thumb|Digits in red are significant figures; those in black are not]]
+*All non-zero digits are significant: 1, 2, 3, 4, 5, 6, 7, 8, 9.
+*Zeros between non-zero digits are significant: 102, 2005, 50009.
+*Leading zeros are never significant: 0.02, 001.887, 0.000515.
+*In a number ''with'' or '' without'' a decimal point, trailing zeros (those to the right of the last non-zero digit) are significant provided they are justified by the precision of their derivation: 389,000; 2.02000; 5.400; 57.5400. More information through additional graphical symbols or explicit information on errors is needed to clarify the significance or importance of trailing zeros.
+
+===Significant figures rules explained===
+Specifically, the rules for identifying significant figures when writing or interpreting numbers are as follows:&lt;ref&gt;Giving a precise definition for the number of correct significant digits is surprisingly subtle, see {{cite book |first= Nicholas |last= Higham |title= Accuracy and Stability of Numerical Algorithms |edition= 2nd |publisher= SIAM |year= 2002 |pages = 3–5  | url=http://ftp.demec.ufpr.br/CFD/bibliografia/Higham_2002_Accuracy%20and%20Stability%20of%20Numerical%20Algorithms.pdf}}&lt;/ref&gt;
+*All non-zero digits are considered significant. For example, 91 has two significant figures (9 and 1), while 123.45 has five significant figures (1, 2, 3, 4 and 5).
+*Zeros appearing anywhere between two non-zero digits are significant: 101.1203 has seven significant figures: 1, 0, 1, 1, 2, 0 and 3.
+* Zeros to the left of the significant figures are not significant. For example, 0.00052 has two significant figures: 5 and 2.
+
+Zeros to the right of the significant figures are significant if and only if they are justified by the precision of their derivation. For example, 12.2300 may have six significant figures: 1, 2, 2, 3, 0 and 0. The number 0.000122300 still has only six significant figures (the zeros before the 1 are not significant). In addition, 120.00 has five significant figures since it has three trailing zeros. In most contexts it is understood that trailing zeros are only shown if they are significant: for example, if a measurement precise to four decimal places (0.0001) were to be given as 12.23, then it would usually be misunderstood to indicate that only two decimal places of precision are available. Stating the result as 12.2300, however, makes clear that it is precise to four decimal places (in this case, six significant figures).
+
+*The significance of trailing zeros in a number not containing a decimal point can be ambiguous. For example, it may not always be clear if a number like 1300 is precise to the nearest unit (and just happens coincidentally to be an exact multiple of a hundred) or if it is only shown to the nearest hundred due to rounding or uncertainty. Many conventions exist to address this issue, but these conventions are mostly esoteric and not understood by those who are not specialists in the subject:
+
+:*An [[overline]], sometimes also called an overbar, or less accurately, a [[Vinculum (symbol)|vinculum]], may be placed over the last significant figure; any trailing zeros following this are insignificant. For example, 13{{overline|0}}0 has three significant figures (and hence indicates that the number is precise to the nearest ten).
+
+:*Less often, using a closely related convention, the last significant figure of a number may be [[underline]]d; for example, "2&lt;span style="text-decoration: underline;"&gt;0&lt;/span&gt;00" has two significant figures.
+
+:*A decimal point may be placed after the number; for example "100." indicates specifically that three significant figures are meant.&lt;ref name="Chemistry Significant Figures"&gt;{{cite book |last= Myers |first= R. Thomas |last2= Oldham |first2= Keith B. |last3= Tocci |first3= Salvatore |title= Chemistry |year= 2000 |publisher= Holt Rinehart Winston |location= Austin, Texas |isbn= 0-03-052002-9 |page= [https://archive.org/details/holtchemistryvis00myer/page/59 59] |url-access= registration |url= https://archive.org/details/holtchemistryvis00myer/page/59 }}&lt;/ref&gt;
+
+:*In the combination of a number and a [[unit of measurement]], the ambiguity can be avoided by choosing a suitable [[unit prefix]]. For example, the number of significant figures in a mass specified as 1300&amp;nbsp;g is ambiguous, while if stated as 1.3&amp;nbsp;kg it is not.
+
+:*The number can be expressed in Scientific Notation (see below).
+
+As these conventions are not in general use, it is often necessary to determine from context whether such trailing zeros are intended to be significant. If all else fails, the level of rounding can be specified explicitly. The abbreviation s.f. is sometimes used, for example "20&amp;nbsp;000 to 2&amp;nbsp;s.f." or "20&amp;nbsp;000 (2&amp;nbsp;sf)". Alternatively, the uncertainty can be stated separately and explicitly with a [[plus-minus sign]], as in 20&amp;nbsp;000&amp;nbsp;±&amp;nbsp;1%, so that significant-figures rules do not apply.  This also allows specifying a precision in-between powers of ten.
+
+===Scientific notation===
+In most cases, the same rules apply to numbers expressed in [[scientific notation]]. However, in the normalized form of that notation, placeholder leading and trailing digits do not occur, so all digits are significant. For example, {{val|0.00012}} (two significant figures) becomes {{val|1.2|e=-4}}, and {{val|0.00122300}} (six significant figures) becomes {{val|1.22300|e=-3}}. In particular, the potential ambiguity about the significance of trailing zeros is eliminated. For example, {{val|1300}} to four significant figures is written as {{val|1.300|e=3}}, while {{val|1300}} to two significant figures is written as {{val|1.3|e=3}}.
+
+The part of the representation that contains the significant figures (as opposed to the base or the exponent) is known as the [[significand]] or mantissa.
+
+==Rounding and decimal places==
+
+The basic concept of significant figures is often used in connection with [[rounding]]. Rounding to significant figures is a more general-purpose technique than rounding to ''n'' decimal places, since it handles numbers of different scales in a uniform way. For example, the population of a city might only be known to the nearest thousand and be stated as 52,000, while the population of a country might only be known to the nearest million and be stated as 52,000,000. The former might be in error by hundreds, and the latter might be in error by hundreds of thousands, but both have two significant figures (5 and 2). This reflects the fact that the significance of the error is the same in both cases, relative to the size of the quantity being measured.
+
+To round to ''n'' significant figures:&lt;ref&gt;{{cite web
+|title = Rounding Decimal Numbers to a Designated Precision
+|author = Engelbrecht, Nancy|display-authors=etal
+|year = 1990
+|publisher = U.S. Department of Education
+|location = Washington, D.C.
+|url = https://archive.org/download/ERIC_ED327701/ERIC_ED327701.pdf
+|format = PDF}}&lt;/ref&gt;&lt;ref name="Numerical Mathematics and Computing, by Cheney and Kincaid"&gt;[https://books.google.com/books?id=ZUfVZELlrMEC&amp;pg=PA321&amp;lpg=PA321&amp;dq=Condition+Number+Rule+of+Thumb&amp;source=bl&amp;ots=kMuMoeATcB&amp;sig=22t9ml1TcXKbve-nAkkTJ-qAf1g&amp;hl=en&amp;ei=A5abTIvGOsaMnQe_17TpDw&amp;sa=X&amp;oi=book_result&amp;ct=result&amp;resnum=3&amp;ved=0CBsQ6AEwAg#v=onepage&amp;q=Condition%20Number%20Rule%20of%20Thumb&amp;f=false Numerical Mathematics and Computing, by Cheney and Kincaid].&lt;/ref&gt;
+
+* Identify the significant figures before rounding.  These are the ''n'' consecutive digits beginning with the first non-zero digit.
+* If the digit immediately to the right of the last significant figure is greater than 5 or is a 5 followed by other non-zero digits, add 1 to the last significant figure. For example, 1.2459 as the result of a calculation or measurement that only allows for 3 significant figures should be written 1.25.
+* If the digit immediately to the right of the last significant figure is a 5 not followed by any other digits or followed only by zeros, rounding requires a [[Rounding#Tie-breaking|tie-breaking]] rule. For example, to round 1.25 to 2 significant figures:
+**[[Rounding#Round half away from zero|Round half away from zero]] (also known as "5/4"){{Citation needed|date=August 2018|reason=By who?}} rounds up to 1.3. This is the default rounding method implied in many disciplines{{Citation needed|date=August 2018|reason=How many, and which, disciplines?}} if not specified.
+** [[Rounding#Round half to even|Round half to even]], which rounds to the nearest even number, rounds down to 1.2 in this case. The same strategy applied to 1.35 would instead round up to 1.4. This is the method preferred by many scientific disciplines, because, for example, it avoids skewing the average value of a long list of values upwards.
+* Replace non-significant figures in front of the decimal point by zeros.
+* Drop all the digits after the decimal point to the right of the significant figures (do not replace them with zeros).
+
+In financial calculations, a number is often rounded to a given number of places (for example, to two places after the [[decimal separator]] for many world currencies). This is done because greater precision is immaterial, and usually it is not possible to settle a debt of less than the smallest currency unit.
+
+In UK personal tax returns income is rounded down to the nearest pound, whilst tax paid is calculated to the nearest penny.
+
+As an illustration, the [[decimal]] quantity '''12.345''' can be expressed with various numbers of significant digits or decimal places.  If insufficient precision is available then the number is [[rounding|rounded]] in some manner to fit the available precision.  The following table shows the results for various total precisions and decimal places.
+{| class="wikitable"
+|-
+! &amp;nbsp;&lt;br&gt;Precision
+! Rounded to&lt;br&gt;significant figures
+! Rounded to&lt;br&gt;decimal places
+|-
+| align=center |6
+| align=left | 12.3450
+| align=left | 12.345000
+|-
+| align=center |5
+| align=left | 12.345
+| align=left | 12.34500
+|-
+| align=center |4
+| align=left | 12.34 or 12.35
+| align=left | 12.3450
+|-
+| align=center |3
+| align=left | 12.3
+
+| align=left | 12.345
+|-
+| align=center |2
+| align=left | 12
+| align=left | 12.34 or 12.35
+|-
+| align=center |1
+| align=left | 10
+| align=left | 12.3
+|-
+| align=center |0
+| align=left {{n/a}}
+| align=left | 12
+|}
+
+Another example for '''0.012345''':
+
+{| class="wikitable"
+|-
+! &amp;nbsp;&lt;br&gt;Precision
+! Rounded to&lt;br&gt;significant figures
+! Rounded to&lt;br&gt;decimal places
+|-
+| align=center |7
+| align=left | 0.01234500
+| align=left | 0.0123450
+|-
+| align=center |6
+| align=left | 0.0123450
+| align=left | 0.012345
+|-
+| align=center |5
+| align=left | 0.012345
+| align=left | 0.01234 or 0.01235
+|-
+| align=center |4
+| align=left | 0.01234 or 0.01235
+| align=left | 0.0123
+|-
+| align=center |3
+| align=left | 0.0123
+| align=left | 0.012
+|-
+| align=center |2
+| align=left | 0.012
+| align=left | 0.01
+|-
+| align=center |1
+| align=left | 0.01
+| align=left | 0.0
+|-
+| align=center |0
+| align=left {{n/a}}
+| align=left | 0
+|}
+
+The representation of a positive number ''x'' to a precision of ''p'' significant digits has a numerical value that is given by the formula:{{Citation needed|date=July 2017}}
+:&lt;math&gt;10^n \cdot \operatorname{round}\left(\frac{|x|}{10^n}\right)&lt;/math&gt;
+:where
+:&lt;math&gt;n=\lfloor \log_{10} (x) \rfloor + 1 - p&lt;/math&gt;
+which may need to be written with a specific marking as detailed [[Significant figures#Significant figures rules explained|above]] to specify the number of significant trailing zeros.
+
+==Arithmetic==
+{{Main|Significance arithmetic}}
+As there are rules for determining the number of significant figures in directly ''measured'' quantities, there are rules for determining the number of significant figures in quantities ''calculated'' from these ''measured'' quantities.
+
+Only ''measured'' quantities figure into the determination of the number of significant figures in ''calculated quantities''.  Exact mathematical quantities like the {{math|π}} in the formula for the [[area of a disk|area of a circle]] with radius {{math|''r''}}, {{math|π''r''&lt;sup&gt;2&lt;/sup&gt;}} has no effect on the number of significant figures in the final calculated area.  Similarly the {{math|½}} in the formula for the [[kinetic energy]] of a mass {{math|''m''}} with velocity {{math|''v''}}, {{math|½''mv''&lt;sup&gt;2&lt;/sup&gt;}}, has no bearing on the number of significant figures in the final calculated kinetic energy. The constants {{math|π}} and {{math|½}} are considered for this purpose to have an ''infinite'' number of significant figures.
+
+For quantities created from measured quantities by '''multiplication''' and '''division''', the calculated result should have as many significant figures as the ''measured'' number with the ''least'' number of significant figures.  For example, 
+:1.234 × 2.0 =  2.{{overline|4}}68… ≈ 2.5, 
+with only ''two'' significant figures. The first factor has four significant figures and the second has two significant figures. The factor with the least number of significant figures is the second one with only two, so the final calculated result should also have a total of two significant figures. However see below regarding intermediate results.
+
+For quantities created from measured quantities by '''addition''' and '''subtraction''', the last significant [[Positional notation|''decimal place'']] (hundreds, tens, ones, tenths, and so forth) in the calculated result should be the same as the ''leftmost'' or largest ''decimal place'' of the last significant figure out of all the ''measured'' quantities in the terms of the sum.  For example, 
+:100.0 + 1.234 = 101.{{overline|2}}34… ≈ 101.2 
+with the last significant figure in the ''tenths'' place. The first term has its last significant figure in the tenths place and the second term has its last significant figure in the thousandths place. The leftmost of the decimal places of the last significant figure out of all the terms of the sum is the tenths place from the first term, so the calculated result should also have its last significant figure in the tenths place.
+
+The rules for calculating significant figures for multiplication and division are opposite to the rules for addition and subtraction. For multiplication and division, only the total number of significant figures in each of the factors matters; the decimal place of the last significant figure in each factor is irrelevant. For addition and subtraction, only the decimal place of the last significant figure in each of the terms matters; the total number of significant figures in each term is irrelevant. However, greater accuracy will often be obtained if some non-significant digits are maintained in intermediate results which are used in subsequent calculations.
+
+&lt;!-- see [[Significance arithmetic#Addition and subtraction using significance arithmetic]] for details --&gt;
+In a [[Base (exponentiation)|base]] 10 [[logarithm]] of a [[normalized number]], the result should be rounded to the number of significant figures in the normalized number. For example, log&lt;sub&gt;10&lt;/sub&gt;(3.000×10&lt;sup&gt;4&lt;/sup&gt;) = log&lt;sub&gt;10&lt;/sub&gt;(10&lt;sup&gt;4&lt;/sup&gt;) + log&lt;sub&gt;10&lt;/sub&gt;(3.000) ≈ 4 + 0.47712125472, should be rounded to 4.4771.
+
+When taking antilogarithms, the resulting number should have as many significant figures as the [[Common logarithm|mantissa]] in the logarithm.
+
+When performing a calculation, do not follow these guidelines for intermediate results; keep as many digits as is practical (at least 1 more than implied by the precision of the final result) until the end of calculation to avoid cumulative rounding errors.&lt;ref&gt;{{cite web |url= http://www.ligo.caltech.edu/~vsanni/ph3/SignificantFiguresAndMeasurements/SignificantFiguresAndMeasurements.pdf |format= PDF |archiveurl= https://web.archive.org/web/20130618184216/http://www.ligo.caltech.edu/~vsanni/ph3/SignificantFiguresAndMeasurements/SignificantFiguresAndMeasurements.pdf |archivedate= June 18, 2013 |title= Measurements and Significant Figures (Draft) |first= Virgínio |last= de Oliveira Sannibale |year= 2001 |work= Freshman Physics Laboratory |publisher= California Institute of Technology, Physics Mathematics And Astronomy Division }}&lt;/ref&gt;
+
+==Estimating tenths==
+When using a ruler, initially use the smallest mark as the first estimated digit. For example, if a ruler's smallest mark is 0.1&amp;nbsp;cm, and 4.5&amp;nbsp;cm is read, it is 4.5 (±0.1&amp;nbsp;cm) or 4.4&amp;nbsp;– 4.6&amp;nbsp;cm. However, in practice a measurement can usually be estimated by eye to closer than the interval between the ruler's smallest mark, e.g. in the above case it might be estimated as between 4.51&amp;nbsp;cm and 4.53&amp;nbsp;cm (see below).
+
+It is also possible that the overall length of a ruler may not be accurate to the degree of the smallest mark, and the marks may be imperfectly spaced within each unit. However assuming a normal good quality ruler, it should be possible to estimate tenths between the nearest two marks to achieve an extra decimal place of accuracy.&lt;ref name="Weston"&gt;{{cite book|title=Experimental Electrical Testing|url=https://archive.org/details/experimentalele00njgoog|quote=Experimental Electrical Testing..|date=1914|publisher=Weston Electrical Instruments Co.|location=Newark, NJ|page=[https://archive.org/details/experimentalele00njgoog/page/n14 9]|accessdate=14 January 2019}}&lt;/ref&gt; Failing to do this adds the error in reading the ruler to any error in the calibration of the ruler.&lt;ref name="UMmeasurements"&gt;{{cite web|title=Measurements|url=http://slc.umd.umich.edu/slconline/SIGF/page7.html|website=slc.umd.umich.edu|publisher=University of Michigan|accessdate=3 July 2017}}&lt;/ref&gt;
+
+==Estimation==
+{{Main|Estimation}}
+When estimating the proportion of individuals carrying some particular characteristic in a population, from a random sample of that population, the number of significant figures should not exceed the maximum precision allowed by that sample size.
+
+==Relationship to accuracy and precision in measurement==
+{{main|Accuracy and precision}}
+
+Traditionally, in various technical fields, "accuracy" refers to the closeness of a given measurement to its true value; "precision" refers to the stability of that measurement when repeated many times.  Hoping to reflect the way the term "accuracy" is actually used in the scientific community, there is a more recent standard, ISO 5725, which keeps the same definition of precision but defines the term "trueness" as the closeness of a given measurement to its true value and uses the term "accuracy" as the combination of trueness and precision.  (See the [[Accuracy and precision]] article for a fuller discussion.)  In either case, the number of significant figures roughly corresponds to ''precision'', not to either use of the word accuracy or to the newer concept of trueness. &lt;!--The smaller digits are not significant because they effectively random noise generated by the measurement process having little to do with the true value; they, they can be omitted for some reporting purposes. (This approach ignores techniques such as averaging to produce a higher-precision result.) *****NOTE: Aside from being broken grammatically, the previous blanket statement is unlikely to be true—it depends on the precision of the instruments and the exact situation. --&gt;
+
+==In computing==
+{{main|Floating point}}
+Computer representations of [[floating point numbers]] typically use a form of rounding to significant figures, but with [[binary number]]s. The number of correct significant figures is closely related to the notion of [[Approximation error|relative error]] (which has the advantage of being a more accurate measure of precision, and is independent of the radix, also known as the base, of the number system used).
+
+==See also==
+*[[Accuracy and precision]]
+*[[Benford's Law]] (First Digit Law)
+*[[Engineering notation]]
+*[[Error bar]]
+*[[False precision]]
+*[[IEEE754]] (IEEE floating point standard)
+*[[Interval arithmetic]]
+*[[Kahan summation algorithm]]
+*[[Precision (computer science)]]
+*[[Round-off error]]
+
+==References==
+{{Reflist}}
+
+==External links==
+* [http://www.khanacademy.org/video/significant-figures?playlist=Pre-algebra Significant Figures Video by Khan academy]
+* [https://www.calculators.tech/sig-fig-calculator Significant Figures Calculator by Calculators.tech]
+* [https://www.sigfigscalculator.com/ Significant Figures Calculator by Sig Figs Calculator]
+
+[[Category:Arithmetic]]
+[[Category:Numerical analysis]]</text>
+      <sha1>daphv68y8ssxkafae2f0tg14hdwzu1b</sha1>
+    </revision>
+  </page>
+</mediawiki>

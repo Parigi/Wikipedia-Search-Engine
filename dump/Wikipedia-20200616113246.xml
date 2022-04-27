@@ -1,0 +1,126 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.10/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.10/ http://www.mediawiki.org/xml/export-0.10.xsd" version="0.10" xml:lang="en">
+  <siteinfo>
+    <sitename>Wikipedia</sitename>
+    <dbname>enwiki</dbname>
+    <base>https://en.wikipedia.org/wiki/Main_Page</base>
+    <generator>MediaWiki 1.35.0-wmf.36</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Media</namespace>
+      <namespace key="-1" case="first-letter">Special</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Talk</namespace>
+      <namespace key="2" case="first-letter">User</namespace>
+      <namespace key="3" case="first-letter">User talk</namespace>
+      <namespace key="4" case="first-letter">Wikipedia</namespace>
+      <namespace key="5" case="first-letter">Wikipedia talk</namespace>
+      <namespace key="6" case="first-letter">File</namespace>
+      <namespace key="7" case="first-letter">File talk</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki talk</namespace>
+      <namespace key="10" case="first-letter">Template</namespace>
+      <namespace key="11" case="first-letter">Template talk</namespace>
+      <namespace key="12" case="first-letter">Help</namespace>
+      <namespace key="13" case="first-letter">Help talk</namespace>
+      <namespace key="14" case="first-letter">Category</namespace>
+      <namespace key="15" case="first-letter">Category talk</namespace>
+      <namespace key="100" case="first-letter">Portal</namespace>
+      <namespace key="101" case="first-letter">Portal talk</namespace>
+      <namespace key="108" case="first-letter">Book</namespace>
+      <namespace key="109" case="first-letter">Book talk</namespace>
+      <namespace key="118" case="first-letter">Draft</namespace>
+      <namespace key="119" case="first-letter">Draft talk</namespace>
+      <namespace key="446" case="first-letter">Education Program</namespace>
+      <namespace key="447" case="first-letter">Education Program talk</namespace>
+      <namespace key="710" case="first-letter">TimedText</namespace>
+      <namespace key="711" case="first-letter">TimedText talk</namespace>
+      <namespace key="828" case="first-letter">Module</namespace>
+      <namespace key="829" case="first-letter">Module talk</namespace>
+      <namespace key="2300" case="first-letter">Gadget</namespace>
+      <namespace key="2301" case="first-letter">Gadget talk</namespace>
+      <namespace key="2302" case="case-sensitive">Gadget definition</namespace>
+      <namespace key="2303" case="case-sensitive">Gadget definition talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Epigenetic effects of smoking</title>
+    <ns>0</ns>
+    <id>57386068</id>
+    <revision>
+      <id>918815167</id>
+      <parentid>909494036</parentid>
+      <timestamp>2019-09-30T12:23:42Z</timestamp>
+      <contributor>
+        <username>OAbot</username>
+        <id>28481209</id>
+      </contributor>
+      <minor/>
+      <comment>[[Wikipedia:OABOT|Open access bot]]: pmc added to citation with #oabot.</comment>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="14466" xml:space="preserve">'''Cigarette smoking''' has been found to affect global [[Epigenetics|epigenetic]] regulation of transcription across tissue types. Studies have shown differences in epigenetic markers like [[DNA methylation]], [[histone modification]]s and [[miRNA]] expression between smokers and non-smokers. Similar differences exist in children whose mothers smoked during pregnancy. These epigenetic effects are thought to be linked to many of negative health effects associated with smoking.
+
+==Health impact==
+
+It has been well established that smoking cigarettes has a number of negative health effects, including increased risk for [[cancer]], [[cardiovascular disease]], and [[chronic obstructive pulmonary disease]] (COPD).&lt;ref name="Lee2013"&gt;{{cite journal | vauthors = Lee KW, Pausova Z | title = Cigarette smoking and DNA methylation | journal = Frontiers in Genetics | volume = 4 | pages = 132 | year = 2013 | pmid = 23882278 | doi = 10.3389/fgene.2013.00132 | pmc = 3713237 }}&lt;/ref&gt; Children exposed prenatally to cigarette smoke demonstrate increased risk for [[Intrauterine growth restriction|fetal growth restriction]], [[sudden infant death syndrome]], and [[addictive behavior]]s later in life, as well as a host of other secondary health effects. It is thought that epigenetic changes that arise from smoking cigarettes or exposure to cigarette smoke play a role in the development of these conditions.
+
+Epigenetic modifications to the genome, including [[Histone|histone modifications]], [[DNA methylation]], and the modulation of [[RNA interference|RNAi]], are major epigenetic events used to modulate gene expression. When the [[epigenome]] of an organism is altered by an environmental cue like smoking, gene expression changes accordingly. Changes in the regulation of critical genes can have disastrous consequences on health and quality of life. Irregular gene expression is one of the hallmarks of [[cancer]], but is also found in a number of diseases and disorders.
+
+==Mechanisms for changes in DNA methylation==
+
+One of the most prominent and well studied epigenetic consequences of cigarette smoke is altered DNA methylation. Cigarette smoke acts through a number of mechanisms to effect this, chief among these being smoke induced damage to the DNA and altered expression levels of proteins involved in DNA methylation and transcriptional regulation.
+
+===Damage to DNA===
+Chemicals in smoke can damage DNA, which subsequently leads to changes in DNA methylation during the repair process. Damage typically comes in the form of double-strand breaks that are linked to carcinogens like [[arsenic]], [[chromium]], [[formaldehyde]], [[polycyclic aromatic hydrocarbons]], and [[nitrosamine]]s which are found in cigarette smoke. [[DNA methyltransferase|DNMT1]] is the enzyme involved in the maintenance of DNA methylation marks. [[DNA methyltransferase|DNMT1]] is recruited to DNA during its replication, or during DNA repair. As a new DNA strand is synthesized, unmethylated cytosines are incorporated into the sequence. This leads to hemimethylated DNA, where an older methylated strand is bound to a younger unmethylated one. 
+
+[[DNA methyltransferase|DNMT1]] is an enzyme which recognizes and corrects hemimethylation by transferring the appropriate methyl groups to the newly synthesized strand. Like all biological processes, DNMT1 based hemimethylation correction is not perfect. Mistakes in hemimethylation correction can occur, and are more likely to appear the more a DNA sequence is replicated or repaired. This is compounded by the fact that cigarette smoke compromises the expression
+and activity of [[DNMT1]]. The end result is a decrease in the body's ability to maintain proper methylation patterns, leading to misexpression of genes.
+
+===Effects on DNA methylating proteins ===
+Exposure to cigarette smoke impacts proteins involved in [[DNA methylation]]. These effects come from either hypoxia induced by the cigarette smoke, or the chemical consequences of [[nicotine]].
+Inhaling cigarette smoke increases blood levels of [[carbon monoxide]] which negatively affects oxygenation throughout the body leading to hypoxia.&lt;ref name="Lee2013" /&gt; One response to hypoxia is the upregulation in synthesis of the major methyl donor [[S-adenosylmethionine]]. Upregulation of this methyl donor through heightened expression of methionine adenosyltransferase 2A leads to increased DNA methylation, which can lead to the down-regulation of target genes. 
+[[Nicotine]] found in cigarette smoke binds to [[nicotinic acetylcholine receptor]]s.&lt;ref name="Lee2013"/&gt; 
+
+This binding leads to an increase in calcium levels which in turn can activate the [[cAMP response element-binding protein]] (CREB) transcription factor. The most striking downstream effect of the upregulation of this transcription factor is the downregulation of the [[DNMT1]] gene, which has a cAMP response element in its promoter. This down-regulation of [[DNMT1]] can have serious consequences on DNA methylation, namely a failure to maintain normal methylation patterns during DNA replication and repair. The upregulation of [[DNMT3b]] has also been shown to occur as a result of cigarette exposure.&lt;ref name="Desir2012"/&gt; 
+
+[[DNMT3b]] is thought to be critical to de novo methylation, or the production of new methylation marks on DNA. This increased expression of [[DNMT3b]] and methionine adenosyltransferase 2A, taken together with the down-regulation of [[DNMT1]], results in myriad unintended epigenetic consequences.
+
+===Effects on transcription factors===
+[[Sp1 transcription factor|Sp1]], a transcription factor that plays a crucial role in early development, was shown to be expressed at higher rates in lung epithelial cells in the presence of cigarette-smoke condensate.&lt;ref name="Lee2013"/&gt; This is relevant because Sp1 binds to GC-rich promoter regions which prevent the methylation of these regions during embryonic development. Increased Sp1 expression can lead to a global reduction in DNA methylation, leading to a number of downstream health effects in developing embryos exposed to maternal cigarette smoke.
+
+==Consequences of altered DNA methylation==
+
+Regardless of mechanism, several known differences in DNA methylation have been observed between smokers and non-smokers. An overall average decrease in DNA methylation is observed, leading to an increase in the expression of a number of genes. Several genes known to be affected by differential methylation are the [[Cytochrome P450, family 1, member A1|CYP1A1]] xenobiotic response element, [[Aryl hydrocarbon receptor repressor|AHRR]], and [[F2RL3]]. CYP1A1 is critical to the detoxification of carcinogens, and is found to be hypomethylated in frequent smokers. [[Aryl hydrocarbon receptor repressor|AHRR]] and [[F2RL3]] are similarly hypomethylated in smokers.&lt;ref name="Lee2013"/&gt;
+
+[[Aryl hydrocarbon receptor repressor|AHRR]] is known to inhibit the aryl hydrocarbon receptor, which is important to metabolizing harmful chemicals. The resultant increase in [[Aryl hydrocarbon receptor repressor|AHRR]] expression could lead to a decrease in the body's ability to break down carcinogens, increasing the risk of cancer. [[F2RL3]] is known to be involved in blood clotting and the inflammation response.&lt;ref name="Lee2013"/&gt; Effects on the regulation of [[F2RL3]] in particular could be a link between epigenetic changes from smoking and increased risk of heart disease. Time specific changes in methylation of D4Z4 and NBL2 repeats, which are known factors in carcinogenesis, have also been observed.&lt;ref name="Desir2012"&gt;{{cite journal | vauthors = Lovinsky-Desir S, Miller RL | title = Epigenetics, asthma, and allergic diseases: a review of the latest advancements | journal = Current Allergy and Asthma Reports | volume = 12 | issue = 3 | pages = 211–20 | date = June 2012 | pmid = 22451193 | doi = 10.1007/s11882-012-0257-4 | pmc = 3358775 }}&lt;/ref&gt;
+
+Though smoking leads to an overall decrease in DNA methylation, several critical genes become hypermethylated. Two of the most noteworthy of these genes are [[p16]] and [[p53]]. These genes are critical to cell cycle regulation and were shown to have higher levels of methylation in smokers than in non smokers.&lt;ref name="Talikka2012" /&gt; The subsequent loss of function of these genes could potentially lead to dysregulation of the cell cycle, wherein cells are able to bypass normal growth impeding signals. Ultimately, uncontrolled cellular divisions and failure to properly regulate the cell cycle leads to cancer.
+
+Fetuses exposed in utero to cigarette smoke are also known to have some distinct epigenetic differences from smoke-free cohorts. CYP1A1 was found to be hypomethylated in the placentas of fetuses prenatally exposed to cigarette smoke, along with the transposable element AluYB8.&lt;ref name="Knopik2012"&gt;{{cite journal | vauthors = Knopik VS, Maccani MA, Francazio S, McGeary JE | title = The epigenetics of maternal cigarette smoking during pregnancy and effects on child development | journal = Development and Psychopathology | volume = 24 | issue = 4 | pages = 1377–90 | date = November 2012 | pmid = 23062304 | doi = 10.1017/S0954579412000776 | pmc = 3581096 }}&lt;/ref&gt; Methylation of transposable elements is one of the primary ways they are prevented from replicating or moving within the genome. Similarly observed hypomethylation in a number of [[Alu elements]] results in a general decrease in genomic stability and an increase in the risk of cancer from mutation resulting from the random insertion of transposable elements.&lt;ref name="Desir2012"/&gt; 
+
+Strikingly, [[Brain-derived neurotrophic factor|BDNF]] appears to be hypermethylated in children who were exposed to smoke prenatally. BDNF is critical to long term memory formation and the upkeep of neurons. Downregulation of BDNF has also been linked to clinical depression.&lt;ref name="Knopik2012"/&gt; Taken as a whole, the epigentic consequences of prenatal exposure to cigarette smoke result in increased metabolic stress, decreased genomic stability, heightened risk of mutation and altered brain development.
+
+==Effects on histone modifications==
+
+[[Histone modification]]s are another epigenetic phenomenon known to be affected by smoking. Cigarette smoke has been observed to globally alter [[histone modification]]s near the promoter regions of pro-inflammatory genes, mainly through an overall increase in acetylation.&lt;ref name="Talikka2012"&gt;{{cite journal | vauthors = Talikka M, Sierro N, Ivanov NV, Chaudhary N, Peck MJ, Hoeng J, Coggins CR, Peitsch MC | title = Genomic impact of cigarette smoke, with application to three smoking-related diseases | journal = Critical Reviews in Toxicology | volume = 42 | issue = 10 | pages = 877–89 | date = November 2012 | pmid = 22989067 | doi = 10.3109/10408444.2012.725244 | pmc = 3491444 }}&lt;/ref&gt;&lt;ref name ="Yang2008"&gt;{{cite journal | vauthors = Yang SR, Valvo S, Yao H, Kode A, Rajendrasozhan S, Edirisinghe I, Caito S, Adenuga D, Henry R, Fromm G, Maggirwar S, Li JD, Bulger M, Rahman I | title = IKK alpha causes chromatin modification on pro-inflammatory genes by cigarette smoke in mouse lung | journal = American Journal of Respiratory Cell and Molecular Biology | volume = 38 | issue = 6 | pages = 689–98 | date = June 2008 | pmid = 18239189 | doi = 10.1165/rcmb.2007-0379OC | pmc = 2396248 }}&lt;/ref&gt; Cigarette smoke can alter histone acetylation through a number of pathways. Chief among these is the degradation of [[Histone deacetylase 2|HDAC2]], thereby preventing the removal of acetylation marks in affected cells. The degradation of this enzyme results from phosphorylation and subsequent ubiquitination induced by cigarette smoke.&lt;ref name="Talikka2012"/&gt;
+
+In rat and mouse models, cigarette smoke was observed to increase acetylation of lysine 9 on histone H3 (H3K9), lysine 12 on histone H4 (H4K12) and phosphorylation of serine 10 on histone H3 (H3S10). These marks are associated with an increase in gene expression and prevent the accumulation of repressive [[histone modification]]s. Mechanistically, the increased frequency of these marks, especially the modifications on histone H3, are linked to the activation of [[CHUK|IKK-α]] which directly phosphorylates histone H3 as a consequence of exposure to cigarette smoke. It is thought that this increase in acetylation of histones H3 and H4 in [[macrophages]] in the [[Pulmonary alveolus|alveolus]] could potentially lead to the development of COPD.
+
+==Effects on miRNA==
+
+[[MicroRNA]]s, or miRNAs, are known to be major epigenetic regulators of gene expression in humans. These RNAs are short molecules which bind to [[mRNA]] through complementary base pairing. This binding impacts the expression of proteins encoded by those [[mRNA]]s by either inducing the cleavage of the [[mRNA]], destabilizing the molecule, or limiting the efficiency of its translation. Unlike differences in DNA methylation, changes in miRNA activity induced by cigarette smoke are largely unknown.&lt;ref name="Lee2013"/&gt; Primary research data suggests that cigarette smoke promotes the dysregulation of a number of miRNA's. One such study showed that cigarette smoke downregulates miR-16, miR-21, and miR-146a in the placenta.&lt;ref name="Maccani2010"&gt;{{cite journal | vauthors = Maccani MA, Avissar-Whiting M, Banister CE, McGonnigal B, Padbury JF, Marsit CJ | title = Maternal cigarette smoking during pregnancy is associated with downregulation of miR-16, miR-21, and miR-146a in the placenta | journal = Epigenetics | volume = 5 | issue = 7 | pages = 583–9 | date = October 2010 | pmid = 20647767 | pmc = 2974801 | doi = 10.4161/epi.5.7.12762}}&lt;/ref&gt; 
+
+A downregulation of miR-16 is predicted to inhibit apoptosis via the subsequent upregulation of [[BCL2L2]] and [[Ectodysplasin A|EDA]], both of which contribute to anti-apoptotic signaling. Downregulaton of miR-146a is predicted to influence the expression of [[TRAF6]], which has a number of downstream effects, including regulation of  inflammatory responses and anti-apoptotic signaling. Taken as a whole, dysregulation of these miRNA's could lead to dysregulation of normal cell death, cell cycling and immune responses, all of which have negative health impacts and could potentially lead to cancerous growths and improper placental formation.
+
+== See also ==
+* [[Health effects of tobacco]]
+
+== References ==
+{{reflist|32em}}
+
+[[Category:Epigenetics|Smoking]]
+[[Category:Health effects of tobacco]]</text>
+      <sha1>922vz93t9roggujqe7n139n1gisxvhr</sha1>
+    </revision>
+  </page>
+</mediawiki>

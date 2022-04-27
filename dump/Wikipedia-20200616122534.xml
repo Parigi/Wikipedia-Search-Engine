@@ -1,0 +1,365 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.10/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.10/ http://www.mediawiki.org/xml/export-0.10.xsd" version="0.10" xml:lang="en">
+  <siteinfo>
+    <sitename>Wikipedia</sitename>
+    <dbname>enwiki</dbname>
+    <base>https://en.wikipedia.org/wiki/Main_Page</base>
+    <generator>MediaWiki 1.35.0-wmf.36</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Media</namespace>
+      <namespace key="-1" case="first-letter">Special</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Talk</namespace>
+      <namespace key="2" case="first-letter">User</namespace>
+      <namespace key="3" case="first-letter">User talk</namespace>
+      <namespace key="4" case="first-letter">Wikipedia</namespace>
+      <namespace key="5" case="first-letter">Wikipedia talk</namespace>
+      <namespace key="6" case="first-letter">File</namespace>
+      <namespace key="7" case="first-letter">File talk</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki talk</namespace>
+      <namespace key="10" case="first-letter">Template</namespace>
+      <namespace key="11" case="first-letter">Template talk</namespace>
+      <namespace key="12" case="first-letter">Help</namespace>
+      <namespace key="13" case="first-letter">Help talk</namespace>
+      <namespace key="14" case="first-letter">Category</namespace>
+      <namespace key="15" case="first-letter">Category talk</namespace>
+      <namespace key="100" case="first-letter">Portal</namespace>
+      <namespace key="101" case="first-letter">Portal talk</namespace>
+      <namespace key="108" case="first-letter">Book</namespace>
+      <namespace key="109" case="first-letter">Book talk</namespace>
+      <namespace key="118" case="first-letter">Draft</namespace>
+      <namespace key="119" case="first-letter">Draft talk</namespace>
+      <namespace key="446" case="first-letter">Education Program</namespace>
+      <namespace key="447" case="first-letter">Education Program talk</namespace>
+      <namespace key="710" case="first-letter">TimedText</namespace>
+      <namespace key="711" case="first-letter">TimedText talk</namespace>
+      <namespace key="828" case="first-letter">Module</namespace>
+      <namespace key="829" case="first-letter">Module talk</namespace>
+      <namespace key="2300" case="first-letter">Gadget</namespace>
+      <namespace key="2301" case="first-letter">Gadget talk</namespace>
+      <namespace key="2302" case="case-sensitive">Gadget definition</namespace>
+      <namespace key="2303" case="case-sensitive">Gadget definition talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Solar power in China</title>
+    <ns>0</ns>
+    <id>15479533</id>
+    <revision>
+      <id>961748748</id>
+      <parentid>961737483</parentid>
+      <timestamp>2020-06-10T05:56:49Z</timestamp>
+      <contributor>
+        <username>Ita140188</username>
+        <id>8500787</id>
+      </contributor>
+      <minor/>
+      <comment>Reverted 1 edit by [[Special:Contributions/62.246.104.146|62.246.104.146]] ([[User talk:62.246.104.146|talk]]) to last revision by Citation bot ([[WP:TW|TW]])</comment>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="30300" xml:space="preserve">
+{{Image frame
+ |width = 495
+ |align=right
+ |pos=bottom
+ |content=&lt;div style="margin: 15px 5px -40px -50px; font-size: 80%;"&gt;{{ #invoke:Chart | bar-chart
+ | width = 525
+ | height = 340
+ | group 1 = 0.100 : 0.140 : 0.300 : 0.800 : 3.300 : 8.300 : 17.800 : 28.199 : 43.180 : 77.420 : 125.790 : 174.460 : 204.680
+ | colors = #003DF5
+ | group names =
+ | units suffix = _GW
+ | x legends =  2007 : : : 2010 : : : 2013 : : : 2016 : : : 2019
+ }}&lt;/div&gt;
+ |caption = Cumulative installed PV capacity in gigawatts since 2007
+}}
+China is the world's largest market for both [[photovoltaics]] and [[solar thermal energy]]. 
+Since 2013 China has been the [[Growth of photovoltaics#Current status|world's leading installer]] of solar photovoltaics (PV). 
+In 2015, China became the world's largest producer of photovoltaic power, narrowly surpassing [[solar power in Germany|Germany]].&lt;ref&gt;{{cite web|url=https://www.reuters.com/article/china-solar-idUSL3N15533U|title=China's solar capacity overtakes Germany in 2015, industry data show|first1=Adam|last1=Rose}}&lt;/ref&gt;&lt;ref&gt;{{cite web|url=http://cleantechnica.com/2016/01/22/china-overtakes-germany-become-worlds-leading-solar-pv-country/|title=China Overtakes Germany To Become World's Leading Solar PV Country|website=[[cleantechnica.com]]}}&lt;/ref&gt;&lt;ref&gt;{{cite web|url=http://cleantechnica.com/2016/07/07/china-installs-18-6-gw-solar-pv-2015-connected/|title=China Installed 18.6 GW Of Solar PV In 2015, But Was All Of It Connected? - CleanTechnica|website=cleantechnica.com}}&lt;/ref&gt; 
+In 2017 China was the first country to pass 100 GW of cumulative installed PV capacity,&lt;ref&gt;{{cite news|title=China Is Adding Solar Power at a Record Pace|url=https://www.bloomberg.com/news/articles/2017-07-19/china-adds-about-24gw-of-solar-capacity-in-first-half-official|accessdate=1 August 2017|work=Bloomberg.com|date=19 July 2017}}&lt;/ref&gt;&lt;ref name="Shubbak2019" /&gt; and by the end of 2018, it had 174 GW of cumulative installed solar capacity.&lt;ref&gt;{{Cite web|url=https://cleantechnica.com/2019/01/23/china-installs-44-3-gigawatts-of-solar-in-2018/|title=China Installs 44.3 Gigawatts Of Solar In 2018|date=2019-01-23|website=CleanTechnica|language=en-US|access-date=2019-02-18}}&lt;/ref&gt; As of May 2018, China holds the record for largest operational solar project in its 1,547-MW project at Tengger.&lt;ref&gt;{{Cite news|url=http://ieefa.org/ieefa-report-advances-in-solar-energy-accelerate-global-shift-in-electricity-generation/|title=IEEFA Report: Advances in Solar Energy Accelerate Global Shift in Electricity Generation - Institute for Energy Economics &amp; Financial Analysis|date=2018-05-21|work=Institute for Energy Economics &amp; Financial Analysis|access-date=2018-05-22|language=en-US}}&lt;/ref&gt;
+The contribution to the total electric energy production remains modest&lt;ref&gt;{{cite web|url=http://www.ren21.net/wp-content/uploads/2016/06/GSR_2016_Full_Report.pdf |title=Report |date=2016 |website=www.ren21.net }} &lt;/ref&gt; as the average [[capacity factor]] of solar power plants is relatively low at 17% on average. 
+Of the 6,412 TWh electricity produced in China in 2017,&lt;ref name="chinaenergyportal.org"&gt;{{cite web|url=https://chinaenergyportal.org/en/2017-electricity-energy-statistics/|title=2017 electricity &amp; other energy statistics - China Energy Portal - 中国能源门户|date=6 February 2018}}&lt;/ref&gt; 118.2 TWh was generated by solar power, equivalent to 1.84% of total electricity production&lt;ref name="chinaenergyportal.org"/&gt;.
+The goal for 2050 is to reach 1,300 GW of solar capacity. 
+If this goal is to be reached it would be the source with the largest installed capacity in China.&lt;ref&gt;{{Cite journal|title=China's renewable energy goals by 2050|journal=Environmental Development |volume=20|pages=83–90|doi=10.1016/j.envdev.2016.10.001|year=2016 | last1 = Yang | first1 = X. Jin | last2 = Hu | first2 = Hanjun | last3 = Tan | first3 = Tianwei | last4 = Li | first4 = Jinying}}&lt;/ref&gt;
+
+[[Solar water heating]] is also extensively implemented, with a total installed capacity of 290 [[gigawatt thermal|GWth]] at the end of 2014, representing about 70% of world's total installed solar thermal capacity.&lt;ref&gt;{{cite web|url=http://www.sciam.com/article.cfm?id=chinas-big-push-for-renewable-energy|title=China's Big Push for Renewable Energy}}&lt;/ref&gt;&lt;ref name="SHC-IEA_2014" /&gt;
+
+==History==
+
+According to plans unveiled by the [[National Development and Reform Commission]] in 2007, China's installed solar capacity was to grow to 1,800&amp;nbsp;MW by 2020.&lt;ref name="reu20090505" /&gt;
+However already in 2009, Wang Zhongying, a Commission official, mentioned at a solar energy conference in Shanghai that the plan might be exceeded several-fold, with the installed capacity possibly reaching as much as 10&amp;nbsp;GW by 2020.&lt;ref name="reu20090505"&gt;{{cite news |url= https://www.reuters.com/article/newsOne/idAFPEK12384620090505 |title=China solar set to be 5 times 2020 target |agency=[[Reuters]] |date=May 5, 2009}}&lt;/ref&gt;
+
+[[File:Dunhuang.champs.de.panneaux.solaires.jpg|right|thumb|A part of [[Gansu Dunhuang Solar Park]]（10MW， Solar PV）]]
+In 2010 a new feed-in tariff was introduced. 
+Projects completed before September 30, 2012 received 1.15 yuan ($0.18) per kWh.&lt;ref&gt;{{cite web|url=http://usa.chinadaily.com.cn/business/2012-07/03/content_15545080.htm|title=Sun shines on development of power sector-Industries-chinadaily.com.cn|website=usa.chinadaily.com.cn}}&lt;/ref&gt; 
+Since then, solar power deployment vastly exceeded initial government plans.
+The 200&amp;nbsp;MW [[Huanghe Hydropower Golmud Solar Park]] was completed in 2011, the world's largest solar farm at the time. 
+There were many other solar farms in [[Golmud]], totaling 570 MW at the end of 2011, with another 500&amp;nbsp;MW expected in 2012. 
+The [[Qinghai]] province, which contains Golmud, was leading China in solar installations.&lt;ref&gt;{{cite web|url=http://www.chinadaily.com.cn/usa/business/2012-03/02/content_14744509.htm|title=China Daily USA|website=www.chinadaily.com.cn}}&lt;/ref&gt;
+
+The Chinese PV production system faced severe external shocks since 2010. A sharp recession in the global demand due to institutional alterations in the German market in 2010, followed by [[Dumping_(pricing_policy)|anti-dumping duties]] and anti-subsidy countervailing duties on Chinese PV products enforced in both USA and EU.&lt;ref name="Shubbak2019"&gt;{{cite journal |last1=Shubbak |first1=Mahmood H. |title=The technological system of production and innovation: The case of photovoltaic technology in China |journal=Research Policy |date=May 2019 |volume=48 |issue=4 |pages=993–1015 |doi=10.1016/j.respol.2018.10.003}}&lt;/ref&gt; Chinese PV manufacturers, which were already running at full capacity, faced a difficult situation in 2011 and 2012 with huge financial losses that led to the bankruptcy of some important companies, such as [[Suntech Power|SunTech Power]] in 2013 which defaulted on $541 million of convertible bonds.&lt;ref name="Shubbak2019" /&gt; To rescue the huge PV industry with its large labor market and assets, a comprehensive set of policies was introduced by the Chinese government mainly to stimulate the domestic market. Accordingly, the annual installed capacity in China experienced notable growth since 2011. This growth was mainly due to the construction of several PV power plants around the country.
+
+In May&amp;nbsp;2011, the [[National People's Congress]] (NPC) revised the solar target again, setting 5&amp;nbsp;GW as an official minimum PV target for 2015, with a longer-term target of 20–30&amp;nbsp;GW by 2020.&lt;ref name="epia-2011"&gt;{{cite web|url=http://www.epia.org/publications/archives/archives-publications.html|archive-url=https://web.archive.org/web/20100731073558/http://www.epia.org/publications/archives/archives-publications.html|url-status=dead|archive-date=2010-07-31|title=Global Market Outlook for Photovoltaics until 2015|date=May 2011|publisher=European Photovoltaic Industry Association (EPIA)|page=39|accessdate=10 March 2012}}&lt;/ref&gt;
+According to a 2012 forecast by the [[European Photovoltaic Industry Association]], the total installed capacity was predicted to reach between 47&amp;nbsp;GW and 66&amp;nbsp;GW by 2017.&lt;ref name="epia-2013"&gt;{{cite web|url=http://www.epia.org/news/publications/|archiveurl=https://web.archive.org/web/20121203185136/http://www.epia.org/news/publications/|archivedate=2012-12-03|title=Publications - European Photovoltaic Industry Association|date=3 December 2012}}&lt;/ref&gt;{{rp|p. 35}}
+
+In May 2014, the [[National Development and Reform Commission]] announced that the solar capacity target had been increased, to 70 GW by 2017.&lt;ref&gt;{{cite news|url=https://www.bloomberg.com/news/2014-05-16/china-targets-70-gigawatts-of-solar-power-to-cut-coal-reliance.html|title=China Targets 70 Gigawatts of Solar Power to Cut Coal Reliance|date=May 16, 2014|publisher=[[Bloomberg News]]|accessdate=16 May 2014}}&lt;/ref&gt; 
+In October 2014 China planned to install 100&amp;nbsp;GW of solar power—along with 200&amp;nbsp;GW of [[Wind power|wind]], 350&amp;nbsp;GW of [[Hydro power|hydro]] and 58&amp;nbsp;GW of [[Nuclear power|nuclear]] power by 2020.&lt;ref name=":1" /&gt; 
+Market research firm [[NPD Group]] forecast that China would have over 100&amp;nbsp;GW of PV capacity by 2018.&lt;ref&gt;{{cite web|url=http://www.solarbuzz.com/resources/blog/2014/08/china-on-track-to-have-over-100-gw-of-pv-capacity-installed-in-2018|title=China on Track to Have Over 100 GW of PV Capacity Installed in 2018|author=Michael Barker|date=2014-08-29|publisher=NPD SolarBuzz|accessdate=2014-09-08}}&lt;/ref&gt; 
+In October 2015, China's [[National Energy Administration]] (NEA) set an ambitious 23.1&amp;nbsp;GW target for 2015, upgrading its previous target of 17.8&amp;nbsp;GW from March 2015, which was already more than the global PV capacity installed in 2010.&lt;ref&gt;{{cite web|url=http://renewables.seenews.com/news/china-again-lifts-2015-solar-target-now-aims-at-23-1-gw-496550|title=China again lifts 2015 solar target, now aims at 23.1 GW|date=9 October 2015|work=Seenew Renewables|author=Militsa Mancheva}}&lt;/ref&gt; 
+At that time, China planned to install 150&amp;nbsp;GW of solar power by 2020,&lt;ref&gt;{{cite web|url=http://news.xinhuanet.com/english/2015-10/13/c_134710495.htm|title=China's PV power capacity to hit 150 gigawatts by 2020|date=13 October 2015|publisher=Xinhuanet.com}}&lt;/ref&gt; an increase of 50&amp;nbsp;GW compared to the 2020-target announced in October 2014.&lt;ref name=":1"&gt;{{cite web|url=http://pv.energytrend.com/news/20141014-7578.html|title=China Plans to Install 200GW of Wind and 100GW of Solar Power by 2020|date=14 October 2014|publisher=EnergyTrend.com|archiveurl=https://www.webcitation.org/6TNqeVMsN?url=http://pv.energytrend.com/news/20141014-7578.html|archivedate=October 17, 2014|url-status=unfit}}&lt;/ref&gt;
+
+The goal set by the Chinese authorities of 105 GW solar capacity for the year 2020 was passed in July 2017. 
+China installed 43 GW of solar power in the first nine months of 2017, already above the 34.5 GW target for the whole year. 
+This caused the Chinese Government to more than double the original target to 213 GW for 2020.&lt;ref&gt;{{cite web|url=https://unearthed.greenpeace.org/2017/08/25/china-raises-solar-power-target/|title=China has already surpassed its 2020 solar target|last=|first=|date=2017-08-24|website=|access-date=}}&lt;/ref&gt; 
+CCB International Securities Ltd. raised its forecast for China's solar power capacity to 55 gigawatts from 40 gigawatts for 2018.&lt;ref&gt;{{Cite news|url=https://www.bloomberg.com/news/articles/2017-11-20/china-on-pace-for-record-solar-installations-as-forecasts-jump|title=China on Pace for Record Solar-Power Installations|date=2017-11-20|work=Bloomberg.com|access-date=2017-12-24}}&lt;/ref&gt;
+Of the 6,412 TWh electricity produced in China in 2017,&lt;ref&gt;[https://chinaenergyportal.org/en/2017-electricity-energy-statistics/ 2017 electricity &amp; other energy statistics]&lt;/ref&gt; 118.2 TWh was generated by solar power, equivalent to 1.84% of total electricity production.&lt;ref name="chinaenergyportal.org"/&gt;
+
+==Solar resources==
+[[File:China GHI mid-size-map 156x152mm-300dpi v20170926.png|thumb|upright=1.5|Global Horizontal Irradiation in China.&lt;ref&gt;{{Cite web|url=https://globalsolaratlas.info/|title=Global Solar Atlas|access-date=7 December 2018}}&lt;/ref&gt;]]A July 2019 report found that local air pollution (black carbon and sulfur dioxide) has decreased the available solar energy that can be harnessed today by up to 15% compared to the 1960s.&lt;ref&gt;{{Cite web|url=https://www.inverse.com/article/58347-solar-energy-china-s-panels-reveal-a-big-issue|title=China's Pollution-Hampered Solar Panels Reveal a Big Issue|last1=Brown|first1=Mike|website=Inverse|language=en|access-date=2019-08-06}}&lt;/ref&gt;
+
+==Solar photovoltaics==
+{| class="wikitable floatright" style="text-align: center; width: 320px; margin-right: 16px;"
+|+Photovoltaics
+|-
+!style="background:Yellow;"|Year!!style="background:Yellow;"|Capacity (MW)!!style="background:Yellow;"|Installed/yr
+|-
+|1999||16||
+|-
+|2000||19||3
+|-
+|2001||23.5||4.5
+|-
+|2002||42||8.5
+|-
+|2003||52||10
+|-
+|2004||62||10
+|-
+|2005||70||8
+|-
+|2006||80||10
+|-
+|2007||100||20
+|-
+|2008||140||40
+|-
+|2009||300||160
+|-
+|2010||800||500
+|-
+|2011||3,300||2,500
+|-
+|2012||4,198||898
+|-
+|2013||16,137||12,119
+|-
+|2014||28,050||11,733
+|-
+|2015||43,180||15,130
+|-
+|2016||77,420||34,240
+|-
+|2017||130,200||52,780
+|-
+|2018||174,460||44,260
+|-
+|2019||204,680||30,220
+|-
+!colspan=3 style="font-weight: normal; font-size: 0.85em; text-align: left; padding: 6px 2px 4px 4px;" |Sources: IEA for years up to and incl 2011&lt;ref name=iea&gt;{{cite web|url=http://www.iea-pvps.org/index.php?id=1&amp;eID=dam_frontend_push&amp;docID=1236|title=National Survey Report of PV Power Applications in China 2011}}&lt;/ref&gt;&lt;ref name="iea-pvps-snapshot-1992-2014"&gt;{{cite web |url=http://www.iea-pvps.org/fileadmin/dam/public/report/technical/PVPS_report_-_A_Snapshot_of_Global_PV_-_1992-2014.pdf |title=Snapshot of Global PV 1992-2014 |publisher=International Energy Agency — Photovoltaic Power Systems Programme |date=30 March 2015 |archiveurl=https://www.webcitation.org/6XPpb1fai?url=http://www.iea-pvps.org/index.php?id=92&amp;eID=dam_frontend_push&amp;docID=2430 |archivedate=30 March 2015 |url-status=live }}&lt;/ref&gt;; China National Energy Administration for data from 2012 onwards&lt;ref&gt;{{cite web|title = 2012 &amp; 2013 distributed and utility PV installations by province (Original title:2013年光伏发电统计数据)|date = 28 April 2014|url = https://chinaenergyportal.org/en/2012-2013-distributed-utility-pv-installations-province/|access-date = 2020-02-08}}&lt;/ref&gt;&lt;ref&gt;{{cite web|title = 2014 distributed and utility PV installations by province (Original title:2014年光伏发电统计数据)|date = 9 March 2015|url = https://chinaenergyportal.org/en/2014-pv-installations-utility-and-distributed-by-province/|access-date = 2020-02-08}}&lt;/ref&gt;&lt;ref&gt;{{cite web|title = 2015 distributed and utility PV installations by province (Original title:2015年光伏发电统计数据)|date = 5 February 2016|url = https://chinaenergyportal.org/en/2015-pv-installations-utility-and-distributed-by-province/|access-date = 2020-02-08}}&lt;/ref&gt;&lt;ref&gt;{{cite web|title = 2016 distributed and utility PV installations by province (Original title:2016年光伏发电统计数据)|date = 4 February 2017|url = https://chinaenergyportal.org/en/2016-pv-installations-utility-distributed-province/|access-date = 2020-02-08}}&lt;/ref&gt;&lt;ref&gt;{{cite web|title = 2017 distributed and utility P installations by province (Original title:2017年光伏发电统计数据)|date = 19 March 2018|url = https://chinaenergyportal.org/en/2017-pv-installations-utility-and-distributed-by-province/|access-date = 2020-02-08}}&lt;/ref&gt;&lt;ref&gt;{{cite web|title = 2018 distributed and utility PV installations by province (Original title:2018年光伏发电统计数据)|date = 19 March 2019|url = https://chinaenergyportal.org/en/2018-pv-installations-utility-and-distributed-by-province/|access-date = 2020-02-08}}&lt;/ref&gt;&lt;ref&gt;{{cite web|title = 2019 electricity &amp; other energy statistics (preliminary) (Original title: 2019年电力统计年快报基本数据一览表)|url = https://chinaenergyportal.org/en/2019-electricity-other-energy-statistics-preliminary/|access-date = 2018-01-24}}&lt;/ref&gt;
+|}
+
+=== Solar PV by province ===
+A large part of the solar power capacity installed in China is in the form of large PV power plants in the west of the country, an area much less populated than the eastern part but with better solar resources and available land.
+
+{| style="text-align: right" class="wikitable sortable"
+|+Installed solar PV capacity by province&lt;ref&gt;{{cite web|url=http://www.cnenergy.org/yw/201702/t20170206_411688.html|title=能源局：2016年光伏发电累计装机容量7742万千瓦 - 中国能源网|website=www.cnenergy.org}}&lt;/ref&gt;&lt;ref name="Chinaenergyportal 2017 update"&gt;{{cite web|url=https://chinaenergyportal.org/en/2018-q12-pv-installations-utility-and-distributed-by-province/|title=2018 Q1&amp;2 PV installations utility and distributed by province; Original Title: 2018年上半年光伏建设运行情况|work=National Energy Administration, translation via chinaenergyportal.org|date=3 August 2018|accessdate=3 March 2019}}&lt;/ref&gt;&lt;ref name="Chinaenergyportal 2018 update"&gt;{{cite web|url=https://chinaenergyportal.org/en/2018-pv-installations-utility-and-distributed-by-province/|title=2018 PV installations utility and distributed by province; Original Title: 2018年年光伏建设运行情况|work=National Energy Administration, translation via chinaenergyportal.org|date=19 March 2019|accessdate=22 March 2019}}&lt;/ref&gt;
+|-
+! Province !! MW end of 2015 !! MW end of 2016 !! MW end of 2017 !! MW end of 2018
+|-
+| China total || 43,170 || 77,420 || 130,200 || 174,460
+|-
+| [[Xinjiang]] || 4,060 || 8,620 || 9,470 || 9,920
+|-
+| [[Gansu]] || 6,100 || 6,860 || 7,840 || 8,280
+|-
+| [[Qinghai]] || 5,640 || 6,820 || 7,910 || 9,560
+|-
+| [[Inner Mongolia]] || 4,880 || 6,370 || 7,430 || 9,450
+|-
+| [[Jiangsu]] || 4,220 || 5,460 || 9,070 || 13,320
+|-
+| [[Ningxia]] || 3,080 || 5,260 || 6,200 || 8,160
+|-
+| [[Shandong]] || 1,330 || 4,450 || 10,520 || 13,610
+|-
+| [[Hebei]] || 2,390 || 4,430 || 8,680 || 12,340
+|-
+| [[Anhui]] || 1,210 || 3,450 || 8,880 || 11,180
+|-
+| [[Zhejiang]] || 1,640 || 3,380 || 8,410 || 11,380
+|-
+| [[Shaanxi]] || 1,170 || 3,340|| 5,240 || 7,160
+|-
+| [[Shanxi]] || 1,140 || 2,970 || 5,910 || 8,460
+|-
+| [[Henan]] || 410 || 2,840 || 7,030 || 9,910
+|-
+| [[Jiangxi]] || 440 || 2,280 || 4,500 || 5,360
+|-
+| [[Yunnan]] || 640 || 2,080 || 2,330 || 3,430
+|-
+| [[Hubei]] || 480|| 1,870 || 4,140 || 5,100
+|-
+| [[Guangdong]] || 640 || 1,560 || 3,310 || 5,270
+|-
+| [[Sichuan]] || 370 || 960 || 1,340 || 1,810
+|-
+| [[Tianjin]] || 120|| 600 || 680 || 1,280
+|-
+| [[Jilin]] || 60 || 560 || 1,590 || 2,650
+|-
+| [[Liaoning]] || 170 || 520 || 2,230 || 3,020
+|-
+| [[Guizhou]] || 30 || 460 || 1,370 || 1,780
+|-
+| [[Shanghai]] || 200 || 350 || 580 || 890
+|-
+| [[Hainan]] || 240 || 340 || 320 || 1,360
+|-
+| [[Tibet Autonomous Region]] || 170 || 330 || 790 || 980
+|-
+| [[Hunan]] || 290 || 300 || 1,760 || 2,920
+|-
+| [[Fujian]] || 150 || 270 || 920 || 1,480
+|-
+| [[Beijing]] || 160 || 240 || 250 || 400
+|-
+| [[Guangxi]] || 120 || 180 || 690 || 1,240
+|-
+| [[Heilongjiang]] || 20 || 170 || 940 || 2,150
+|-
+| [[Chongqing]] || 5 || 5 || 130 || 430
+|}
+
+=== Solar PV by type ===
+{| style="text-align: right" class="wikitable"
+|+PV installations by sector, 2018&lt;ref&gt;{{Cite web|url=http://www.iea-pvps.org/?id=6|title=IEA-PVPS Annual Report 2018, 2019/07/15|last=|first=|date=|website=|url-status=live|archive-url=|archive-date=|access-date=}}&lt;/ref&gt;
+!Sector
+!Annual MW
+!Cumulative MW
+|-
+| align="left" |Power Plant
+|23,300
+|123,730
+|-
+| align="left" |Distributed
+|20,960
+|51,250
+|-
+| align="left" |Off-grid
+|
+|360
+|-
+| align="left" |'''''Total'''''
+|'''''44,260'''''
+|'''''175,340'''''
+|}
+In 2018 23,300 MW of utility scale power plant installations were added bring the cumulative total in this sector to 123,730 MW of power. Distributed installations rose by almost as much during 2018 at 20,960 MW bringing the cumulative total in the sector to 51,250 MW by year end 2018. Off-grid solar was the smallest component in 2018 with just 360 MW cumulatively installed.
+
+=== Manufacturers  ===
+[[File:Largest Producers of Solar Cells by Country-Market Share.svg|thumb|Data on the world's largest solar PV producers, including China, Taiwan, US, Japan, and Germany]]
+{{see also|List of photovoltaics companies}}
+China has been the world's largest manufacturer of solar panels since 2008 and, since 2011, has produced the majority of global photovoltaics on an annualized basis.&lt;ref&gt;{{cite web|url=http://www.earth-policy.org/datacenter/xls/indicator12_2013_2.xlsx|title=Annual Solar Photovoltaics Production by Country, 1995-2012|author=|publisher=Earth Policy Institute|date=2013-07-31|accessdate=2014-08-08}}&lt;/ref&gt; 
+Industry projections estimated that, by the end of 2017, China would have enough manufacturing capacity to produce 51 GW of PV modules per year, an amount over twice as large as 2010's global production of 24 GW.&lt;ref&gt;{{cite web|url=http://www.earth-policy.org/datacenter/xls/highlights47_1.xlsx|title=Annual Solar Photovoltaics Module Production in China, 2007-2013, with Projection to 2017|author=|publisher=Earth Policy Institute|date=2014-07-08|accessdate=2014-08-08}}&lt;/ref&gt;&lt;ref&gt;{{cite web|url=http://www.earth-policy.org/datacenter/xls/indicator12_2013_1.xlsx|title=World Solar Photovoltaics Production, 1975-2012 |author=|publisher=Earth Policy Institute|date=2013-07-31|accessdate=2014-08-08}}&lt;/ref&gt;
+
+The industry is dominated by several major manufacturers. 
+They include [[CHINT Group Corporation]], [[JA Solar Holdings]], [[Jinniu Energy]], [[Suntech Power]], [[Yingli]], [[China Sunergy]] and [[Hanwha SolarOne]].&lt;ref name="GCL-Poly Energy Holdings Limited"&gt;[http://www.gcl-poly.com.hk/eng/about/glance_key.php GCL-Poly Energy Holdings Limited] {{webarchive|url=https://web.archive.org/web/20110118003255/http://www.gcl-poly.com.hk/eng/about/glance_key.php |date=2011-01-18 }}&lt;/ref&gt;&lt;ref name="Solar Energy Booming in China"&gt;{{cite web|url=http://www.worldwatch.org/node/41|title=Solar Energy Booming in China}}&lt;/ref&gt; 
+Large debt challenges several manufacturers.&lt;ref&gt;{{cite web |url= http://www.digitimes.com/news/a20161223PD201.html |title=60% of China PV makers may be forced out in 2017, say reports |last1=Huang |first1=Nuying |date=23 December 2016 |website= |publisher=DigiTimes |access-date=24 December 2016 |quote=domestic demand is not large enough to absorb the output}}&lt;/ref&gt;
+
+==Concentrated solar power==
+{{update section|date=July 2016}}
+China has large potential for [[concentrated solar power]] (CSP), especially in the south-western part of the country.&lt;ref name=wang2017&gt;{{cite journal|last1=Wang|first1=Jun|last2=Yang|first2=Song|last3=Jiang|first3=Chuan|last4=Zhang|first4=Yaoming|last5=Lund|first5=Peter D.|title=Status and future strategies for Concentrating Solar Power in China|journal=Energy Science &amp; Engineering|date=April 2017|volume=5|issue=2|pages=100–109|doi=10.1002/ese3.154|doi-access=free}}&lt;/ref&gt;
+The highest daily mean values of [[direct normal radiation]] are found in the Qinghai-Tibet Plateau and Sichuan Basin, at 9 kWh/m2.
+Most of northern and western China has daily average direct normal radiation over 5 kWh/m2, considered the limit for economical use of CSP.&lt;ref name=wang2017/&gt;
+Practical limitations for deployment of CSP include mountainous terrain and distance from energy load centers, mostly concentrated in the east.&lt;ref name=wang2017/&gt;
+
+The 12th five-year plan, for 2011 to 2015, called for the installation of 1,000&amp;nbsp;MW by 2015, and 3,000&amp;nbsp;MW of CSP plants by 2020.&lt;ref name=cleantechnica2012/&gt;
+However, at the end of 2014, only 14 MW of CSP was operational in the country.&lt;ref name=wang2017/&gt;
+
+Plants planned or under construction:&lt;ref name=cleantechnica2012&gt;{{cite web|url=http://cleantechnica.com/2012/03/30/china-to-have-3-gw-of-concentrated-solar-thermal-power-csp-by-2020/|title=China to Have 3 GW of Concentrated Solar Thermal Power (CSP) by 2020 - CleanTechnica|website=cleantechnica.com|date=30 March 2012}}&lt;/ref&gt;
+
+*1 MW Badaling Pilot Project — collaboration between the Institute of Electrical Engineering (IEE) and the [[Chinese Academy of Sciences]] (CAS)
+*12 MW (short term) / 300-MW (long term) project — collaboration between Xinjiang Qingsong Building Materials and Chemicals (Group) Co. and Guodian Xinjiang Company
+*50 MW project in Tibet by Huaneng Tibet Company
+*100 MW project in Sichuan Abazhou by Tianwei New Energy (Aba)
+*50 MW (TBD) by China Huadian Corporation
+*100 MW project in Golmud by GD ENERGY
+*100 MW project in Ningxia by Beijing Control Technology Co. Ltd
+*100 MW project (TBD) by Avic Xi’an Aero-Engine (Group) Ltd
+*100 MW project (TBD) by Guangdong Kangda
+*100 MW in Gansu by SETC Tianjin
+*1,000 MW in Qinghai by Lion International Investment Ltd.
+*2,000 MW in Shaanxi by Shandong Penglai Dianli and eSolar
+
+==Solar water heating==
+{{multiple image
+ |direction = horizontal
+ |align = right
+ |width1 = 300
+ |width2 = 225
+ |image1=Tieshan-solar-water-heaters-0101.jpg
+ |image2=SolarGlobal2007V2.png
+ |caption1=Rooftop solar water heaters are ubiquitous in China
+ |caption2=New solar hot water installations during 2007, worldwide
+}}
+China is the leading country for [[solar water heating]] capacity in the world, with 290 [[GWth]] in operation at the end of 2014, accounting for about 70% of the total world capacity. In terms of capacity per unit of population, China comes 7th in the world with 213 kWth per 1,000 people. Most of the installed capacity (92%) was [[Evacuated tube collector|evacuated tube]] water heaters.&lt;ref name="SHC-IEA_2014"&gt;{{cite web|title=Solar Heat Worldwide 2014|url=http://www.iea-shc.org/data/sites/1/publications/Solar-Heat-Worldwide-2016.pdf|website=www.iea-shc.org|publisher=IEA Solar Heating &amp; Cooling Programme|accessdate=13 June 2016}}&lt;/ref&gt;
+
+==Government incentives==
+{{empty section|date=January 2018}}
+
+==Controversy==
+China is a large producer of [[polysilicon]], for use in first generation [[solar cell]]s around the world. A byproduct of the process is poisonous [[silicon tetrachloride]], which is normally processed and recycled at a higher cost in the developed world, but often dumped by Chinese green startups,&lt;ref name="Wash"/&gt; With proper recycling the polysilicon would cost $84,500 per tonne, but the Chinese companies are making it at $21,000 to $56,000 a ton.&lt;ref name="Wash"&gt;[[Washington Post]]. [https://www.washingtonpost.com/wp-dyn/content/article/2008/03/08/AR2008030802595_pf.html Solar Energy Firms Leave Waste Behind in China]. March 9, 2008.&lt;/ref&gt;
+
+Zhejiang Jinko Solar Co., Ltd., founded in 2006 as a subsidiary of [[Hong Kong]]-invested JinkoSolar Holding Co, Ltd (NYSE Stock Code: JKS), produces [[solar panel]] photovoltaic cells and wafers. It employs more than 10,000 professionals in two factories in east China and has offshore offices and warehouse in the United States and Europe, according to the company website (www.jinkosolar.com). On Thursday, 15 September 2011, more than 500 people from Hongxiao Village protested over the large-scale death of fish in a nearby river. Angry protesters stormed the factory compound, overturned eight company vehicles, and destroyed the offices before police came to disperse the crowd. Protests continued on the two following nights with reports of scuffle, officials said. Chen Hongming, a deputy head of Haining's environmental protection bureau, said the factory's waste disposal had failed the pollution tests since April. The environmental watchdog has warned the factory but it had not effectively controlled the pollution, Chen added.&lt;ref&gt;{{cite news |title= Protest over factory pollution in E China enters third day|author= 
+|url= http://www.chinadaily.com.cn/china/2011-09/18/content_13727154.htm|agency = [[Xinhua]]|newspaper= [[China Daily]]|date= 18 September 2011|accessdate=19 September 2011| quote = Hangzhou - Hundreds of villagers in East China's Zhejiang Province protested for the third day on Saturday at a solar panel manufacturer, whose parent is a New York-listed firm, over concerns of its harmful wastes.}}&lt;/ref&gt;
+
+The Chinese government subsidies for solar energy (PV) have been described as "unsustainable" (although reduced in 2017)&lt;ref name=":0"&gt;{{Cite news|url=https://www.bbc.co.uk/news/business-40341833|title=Future Energy: China leads world in solar power production|last1=Baraniuk|first1=Chris|date=2017-06-22|work=BBC News|access-date=2017-06-27|language=en-GB}}&lt;/ref&gt; and are sometimes paid late to generating companies. Much of the solar power generating capacity has been built in the relatively less populated west of China whereas the major electricity consumption areas (such as Shanghai and Beijing) are in the east causing difficulties and expense in transferring the energy between regions with curtailment rates of 30% or more reported in 2017.&lt;ref name=":0" /&gt;
+
+== See also ==
+{{colbegin}} 
+* [[Climate change in China]]
+* [[Electricity sector in China]]
+* [[Growth of photovoltaics]]
+* [[List of photovoltaics companies]]
+* [[List of power stations in China#Solar]]
+* [[List of solar thermal power stations]]
+* [[Renewable energy in China]]
+* [[Solar Valley (China)]]
+* [[Solar power by country]]
+{{colend}}
+
+==References==
+{{reflist}}
+
+== External links ==
+{{commons category|Solar power in China}}
+* [https://web.archive.org/web/20080905054631/http://www.creia.net/cms_eng/_code/english/index.php Chinese Renewable Energy Industries Association]
+* [http://www.yinglisolar.com Yingli Green Energy]
+* [http://www.greenpeace.org/eastasia/publications/reports/climate-energy/2007/china-pv-report/ China Solar PV Report (Greenpeace China)] (2007)
+* [http://www.solarindustrymag.com/e107_plugins/content/content.php?content.2573 Kyocera Constructing New Solar Manufacturing Plant In China]
+* [http://www.sunrevolution.net/ Solar Power Resources and News in the Asia-Pacific region, with focus page on China]
+
+{{Solar energy companies of China}}
+{{21st century unrest in the People's Republic of China}}
+{{Energy in the People's Republic of China}}
+{{Solar power by country}}
+{{Renewable energy by country}}
+{{Portal bar|Renewable energy|China}}
+
+[[Category:Solar power in China| ]]
+[[Category:Science and technology in the People's Republic of China]]</text>
+      <sha1>mhm2xhkfry41z217syi2v209kmz0t6m</sha1>
+    </revision>
+  </page>
+</mediawiki>

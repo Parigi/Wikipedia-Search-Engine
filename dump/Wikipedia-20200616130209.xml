@@ -1,0 +1,135 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.10/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.10/ http://www.mediawiki.org/xml/export-0.10.xsd" version="0.10" xml:lang="en">
+  <siteinfo>
+    <sitename>Wikipedia</sitename>
+    <dbname>enwiki</dbname>
+    <base>https://en.wikipedia.org/wiki/Main_Page</base>
+    <generator>MediaWiki 1.35.0-wmf.36</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Media</namespace>
+      <namespace key="-1" case="first-letter">Special</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Talk</namespace>
+      <namespace key="2" case="first-letter">User</namespace>
+      <namespace key="3" case="first-letter">User talk</namespace>
+      <namespace key="4" case="first-letter">Wikipedia</namespace>
+      <namespace key="5" case="first-letter">Wikipedia talk</namespace>
+      <namespace key="6" case="first-letter">File</namespace>
+      <namespace key="7" case="first-letter">File talk</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki talk</namespace>
+      <namespace key="10" case="first-letter">Template</namespace>
+      <namespace key="11" case="first-letter">Template talk</namespace>
+      <namespace key="12" case="first-letter">Help</namespace>
+      <namespace key="13" case="first-letter">Help talk</namespace>
+      <namespace key="14" case="first-letter">Category</namespace>
+      <namespace key="15" case="first-letter">Category talk</namespace>
+      <namespace key="100" case="first-letter">Portal</namespace>
+      <namespace key="101" case="first-letter">Portal talk</namespace>
+      <namespace key="108" case="first-letter">Book</namespace>
+      <namespace key="109" case="first-letter">Book talk</namespace>
+      <namespace key="118" case="first-letter">Draft</namespace>
+      <namespace key="119" case="first-letter">Draft talk</namespace>
+      <namespace key="446" case="first-letter">Education Program</namespace>
+      <namespace key="447" case="first-letter">Education Program talk</namespace>
+      <namespace key="710" case="first-letter">TimedText</namespace>
+      <namespace key="711" case="first-letter">TimedText talk</namespace>
+      <namespace key="828" case="first-letter">Module</namespace>
+      <namespace key="829" case="first-letter">Module talk</namespace>
+      <namespace key="2300" case="first-letter">Gadget</namespace>
+      <namespace key="2301" case="first-letter">Gadget talk</namespace>
+      <namespace key="2302" case="case-sensitive">Gadget definition</namespace>
+      <namespace key="2303" case="case-sensitive">Gadget definition talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Wikipedia:The newcomer's manual/One page view - full manual</title>
+    <ns>4</ns>
+    <id>36460661</id>
+    <revision>
+      <id>504891644</id>
+      <parentid>504080532</parentid>
+      <timestamp>2012-07-30T06:30:57Z</timestamp>
+      <contributor>
+        <username>ThatPeskyCommoner</username>
+        <id>1282608</id>
+      </contributor>
+      <minor/>
+      <comment>/* "Verifiability" in Wikipedia */ twk fmt</comment>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="6081" xml:space="preserve">=="Verifiability" in Wikipedia==
+
+This is an encyclopedia. People have to be able to check that you didn't just make things up! This means that we have to make it clear ''where that information came from'' (and we also have to make sure that where it came from can be ''trusted'' - see the section on reliable sources). Citing the source is showing where the information came from.
+
+This is the [[WP:V|Verifiability policy]] in a nutshell. Anything you put in an article is a statement of some kind.
+* ''IF'' the statement is a quote ''THEN''  say where you found it (citation) and say who said it ([[WP:INTEXT|inline attribution]]) in the same sentence
+* ''IF'' the statement is controversial and therefore highly likely to be challenged, ''THEN'' it needs the highest quality citation(s)&lt;p&gt;''"Exceptional claims need exceptional sources."''
+
+* ''IF'' the statement is challenged or likely to be challenged, ''THEN'' a citation is needed
+
+* ''IF'' the statement is easily verifiable by anyone, unchallenged nor ever likely to be challenged ''THEN'' no citation is needed.
+
+This approach makes the whole verifiability thing as simple as it really is.  Three easy-to-apply steps: 
+
+# Which category is this statement in? 
+# What is the rule for that category?  
+# Apply the rule to the statement.
+
+[[WP:REFB|Here's how to include citations.]]  It's ''much'' easier than you might think.
+{{Clickable button|[[WP:V|Read more about the Verifiability policy]]}}
+
+==Reliable sources==
+
+Now about those citations …
+
+This is an encyclopedia.  That means that our readers must be able to trust that we're not getting our information from ''anyone else'' who just made stuff up, either!  We are ''relying'' on the information; therefore it must be reliable.
+
+Joe and Jillie Knutt-Kays's little ten-year-old daughter Jennifer, who made up some cool-sounding stuff and put it up on her share of the family's web space, is ''not'' a reliable source for almost anything.
+
+Jeremy Ravenlune, who dreamed up his Bizarre Theorem whilst under the influence, and [[Vanity publishing|paid to have it printed]] so that he could sell his book on eBay, is ''not'' a reliable source for almost anything, either.
+
+Here are some rare exceptions:
+
+# If Jennifer Knutt-Kays's Wonderful Web Hoax is worthy of an article ''about itself'', (for example if it resulted in something really newsworthy, like a worldwide security alert, or banks shutting down, because people were fooled by it) then we can use it [[WP:SELFSOURCE|for information about itself]].
+# If Jeremy Ravenlune's Bizarre Theorem sold millions and developed a cult following, then we can use it [[WP:SELFSOURCE|for information about the Bizarre Theorem]].
+
+Even if you personally '''know''' that the source is spot-on right, Wikipedia has to be able to reassure ''everyone else'' that the source is reliable, and not someone like Jennifer or Jeremy, too.
+
+{{Clickable button|[[WP:IRS|Read more about identifying reliable sources]]}}
+
+==Notability==
+
+Now, about those articles on Jennifer and Jeremy …
+
+This is an encyclopedia.  Not everything is worthy of an article of its own. Remembering that almost every statement in the article is likely to need to be verifiable with a citation from a reliable source, if there just aren't any reliable sources discussing the subject of the article, it's highly unlikely to be notable enough for inclusion.
+
+So, if Jennifer's Wonderful Web Hoax never became newsworthy, never had much of an impact, and the only people commenting on it were likely to be her family and friends on Facebook, then no, it doesn't get an article.  (Neither does Jennifer, unless she was notable for some other reason.) The same goes for Jeremy's Bizarre Theorem.  If all he ever did was sell a few copies on eBay, and no reliable sources have discussed it, it doesn't get an article either.
+
+The garage band that your friend Jack has just formed is also highly unlikely to be notable enough. (Although if something catastrophic happened ''because'' of their practice session, "The Anyville garage band inferno" might well be worthy of an article.  And if a reliable source mentions Jack's band as being the cause of it, then the band gets a mention in the article, with the relevant citation.)
+
+{{Clickable button|[[WP:N|Read more about Notability]]}}
+
+==[[WP:NPOV|Neutral point of view]] and [[WP:DUE|due weight]]==
+
+It's human nature to "take sides" on something.  But Wikipedia (though written by humans) isn't a human.  It's an encyclopedia.  People have to be able to trust that we're representing something ''fairly''.  Remember we're here to present ''articles'', not advertisements or attack pages.
+
+In the shortest terms, what this means is that anyone reading what you wrote shouldn't be able to tell which side you're on.  Stick to ''the facts'', and only the facts. (And remember the stuff about citing reliable sources.)  You might not like some of the facts, but unless they're trivial they still have to go into the article for it to be neutral.
+
+Each view on a subject should be given its [[WP:DUE|due weight]] in the article.  This means that the article should, over all, make it clear which is the most widely-accepted viewpoint, though it can discuss other viewpoints.  Tiny minority views are generally not considered to have enough weight to go in the article at all.
+
+We also have to take care that we're not seeming to give Jeremy Ravenlune's ideas the same level of importance as the views of (for example) The Archaeological Society's highly-qualified experts.
+
+{{Clickable button|[[WP:NPOV|Read more about neutral point of view]]}}
+==Civility==
+
+This is pretty simple.
+
+# Be patient, even if someone else seems to be being stupid.  It's pretty stupid to think that you can cure stupidity by losing your temper.
+# Be nice, even if someone else is being nasty. If you start being nasty too, then you're no better than they are. "But he started it!" is the kind of excuse that people should have grown out of by the age of ten.
+
+{{Clickable button|[[WP:CIVIL|Read more about the civility policy]]}}</text>
+      <sha1>6z8dtbphwq5yzr5bhf76dn2wuqaqyt9</sha1>
+    </revision>
+  </page>
+</mediawiki>

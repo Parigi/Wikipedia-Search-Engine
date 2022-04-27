@@ -1,0 +1,151 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.10/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.10/ http://www.mediawiki.org/xml/export-0.10.xsd" version="0.10" xml:lang="en">
+  <siteinfo>
+    <sitename>Wikipedia</sitename>
+    <dbname>enwiki</dbname>
+    <base>https://en.wikipedia.org/wiki/Main_Page</base>
+    <generator>MediaWiki 1.35.0-wmf.36</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Media</namespace>
+      <namespace key="-1" case="first-letter">Special</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Talk</namespace>
+      <namespace key="2" case="first-letter">User</namespace>
+      <namespace key="3" case="first-letter">User talk</namespace>
+      <namespace key="4" case="first-letter">Wikipedia</namespace>
+      <namespace key="5" case="first-letter">Wikipedia talk</namespace>
+      <namespace key="6" case="first-letter">File</namespace>
+      <namespace key="7" case="first-letter">File talk</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki talk</namespace>
+      <namespace key="10" case="first-letter">Template</namespace>
+      <namespace key="11" case="first-letter">Template talk</namespace>
+      <namespace key="12" case="first-letter">Help</namespace>
+      <namespace key="13" case="first-letter">Help talk</namespace>
+      <namespace key="14" case="first-letter">Category</namespace>
+      <namespace key="15" case="first-letter">Category talk</namespace>
+      <namespace key="100" case="first-letter">Portal</namespace>
+      <namespace key="101" case="first-letter">Portal talk</namespace>
+      <namespace key="108" case="first-letter">Book</namespace>
+      <namespace key="109" case="first-letter">Book talk</namespace>
+      <namespace key="118" case="first-letter">Draft</namespace>
+      <namespace key="119" case="first-letter">Draft talk</namespace>
+      <namespace key="446" case="first-letter">Education Program</namespace>
+      <namespace key="447" case="first-letter">Education Program talk</namespace>
+      <namespace key="710" case="first-letter">TimedText</namespace>
+      <namespace key="711" case="first-letter">TimedText talk</namespace>
+      <namespace key="828" case="first-letter">Module</namespace>
+      <namespace key="829" case="first-letter">Module talk</namespace>
+      <namespace key="2300" case="first-letter">Gadget</namespace>
+      <namespace key="2301" case="first-letter">Gadget talk</namespace>
+      <namespace key="2302" case="case-sensitive">Gadget definition</namespace>
+      <namespace key="2303" case="case-sensitive">Gadget definition talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Weighted median</title>
+    <ns>0</ns>
+    <id>38492648</id>
+    <revision>
+      <id>942803354</id>
+      <parentid>928972891</parentid>
+      <timestamp>2020-02-26T23:01:38Z</timestamp>
+      <contributor>
+        <ip>118.149.74.172</ip>
+      </contributor>
+      <comment>/* Examples */</comment>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="8688" xml:space="preserve">
+[[File:Weighted median.svg|thumb|300px|The top chart shows a list of elements with values indicated by height and the median element shown in red. The lower chart shows the same elements with weights as indicated by the width of the boxes. The weighted median is shown in red and is different than the ordinary median.]]
+
+In [[statistics]], a '''weighted median''' of a sample is the 50% [[weighted percentile]].&lt;ref name=":0"&gt;{{Cite journal | url = https://books.google.com/books?id=NLngYyWFl_YC&amp;lpg=PA194&amp;dq=weighted%20median&amp;pg=PA194#v=onepage&amp;q=weighted%20median&amp;f=false | title = Introduction to Algorithms | isbn = 9780262032933 | author1 = Cormen | first1 = Thomas H. | last2 = Leiserson | first2 = Charles E. | last3 = Rivest | first3 = Ronald L. | last4 = Stein | first4 = Clifford | year = 2001}}&lt;/ref&gt;&lt;ref&gt;{{Cite journal | url = https://books.google.com/books?id=q1FKJ6l0_zUC&amp;lpg=PA693&amp;dq=weighted%20median&amp;pg=PA693#v=onepage&amp;q=weighted%20median&amp;f=false | title = Computer Algorithms C++: C++ and Pseudocode Versions | isbn = 9780716783152 | author1 = Horowitz | first1 = Ellis | last2 = Sahni | first2 = Sartaj | last3 = Rajasekaran | first3 = Sanguthevar | date = 1996-12-15}}&lt;/ref&gt;&lt;ref&gt;{{Cite journal | url = https://books.google.com/books?id=UM_GCfJe88sC&amp;lpg=PA111&amp;dq=weighted%20median&amp;pg=PA111#v=onepage&amp;q=weighted%20median&amp;f=false | title = Handbook of Image and Video Processing | isbn = 9780080533612 | author1 = Bovik | first1 = Alan C | date = 2010-07-21}}&lt;/ref&gt; It was first proposed by [[F. Y. Edgeworth]] in 1888.&lt;ref&gt;{{Cite journal | title = On a New Method of Reducing Observations Relating to Several Quantities | first1 = F. Y. | last1 = Edgeworth | volume = 25 | year = 1888 | pages = 184 | journal = Philosophical Magazine | doi = 10.1080/14786448808628170 | issue = 154 | url = https://zenodo.org/record/1431185/files/article.pdf }}&lt;/ref&gt;&lt;ref&gt;{{cite journal| title = On Observations Relating to Several Quantities | first1 = F. Y. | last1 = Edgeworth| journal = Hermathena| volume = 6| year = 1887| pages = 279–285| publisher = Trinity College Dublin| jstor = 23036355}}&lt;/ref&gt; Like the median, it is useful as an estimator of [[central tendency]], [[Robust statistics|robust]] against [[outliers]]. It allows for non-uniform statistical weights related to, e.g., varying precision measurements in the sample.
+
+== Definition ==
+===General case===
+For &lt;math&gt;n&lt;/math&gt; distinct ordered elements &lt;math&gt;x_1, x_2,...,x_n&lt;/math&gt; with positive weights &lt;math&gt;w_1, w_2,...,w_n&lt;/math&gt; such that &lt;math&gt;\sum_{i=1}^n w_i = 1&lt;/math&gt;, the weighted median is the element &lt;math&gt;x_k&lt;/math&gt; satisfying
+
+:&lt;math&gt;\sum_{i = 1}^{k - 1} w_i \le 1/2 &lt;/math&gt; and &lt;math&gt;\sum_{i = k + 1}^{n} w_i \le 1/2 &lt;/math&gt;
+
+===Special case===
+Consider a set of elements in which two of the elements satisfy the general case. This occurs when both element's respective weights border the midpoint of the set of weights without encapsulating it; Rather, each element defines a partition equal to &lt;math&gt;1/2&lt;/math&gt;. These elements are referred to as the lower weighted median and upper weighted median. Their conditions are satisfied as follows:
+&lt;br&gt;&lt;br&gt;
+'''Lower Weighted Median'''
+:&lt;math&gt;\sum_{i = 1}^{k - 1} w_i &lt; 1/2 &lt;/math&gt; and &lt;math&gt;\sum_{i = k + 1}^{n} w_i = 1/2 &lt;/math&gt;
+
+'''Upper Weighted Median'''
+:&lt;math&gt;\sum_{i = 1}^{k - 1} w_i = 1/2 &lt;/math&gt; and &lt;math&gt;\sum_{i = k + 1}^{n} w_i &lt; 1/2 &lt;/math&gt;
+
+Ideally, a new element would be created using the mean of the upper and lower weighted medians and assigned a weight of zero. This method is similar to finding the median of an even set. The new element would be a true median since the sum of the weights to either side of this partition point would be equal.
+&lt;br&gt; 
+Depending on the application, it may not be possible or wise to create new data. In this case, the weighted median should be chosen based on which element keeps the partitions most equal. This will always be the weighted median with the lowest weight. 
+&lt;br&gt;
+In the event that the upper and lower weighted medians are equal, the lower weighted median is generally accepted as originally proposed by Edgeworth&lt;ref&gt;{{cite book|last1=Lange|first1=Kenneth|title=Numerical Analysis for Statisticians|publisher=Springer|isbn=978-1-4419-5944-7|page=313|edition=second|url=https://books.google.com/books?id=AtiDhx2bsiMC&amp;pg=PA313&amp;lpg=PA313&amp;dq=edgeworth+weighted+median&amp;source=bl&amp;ots=SFoKs-I0J4&amp;sig=CimqUDnGiBlYO6BtdxU7s-Xp5B8&amp;hl=en&amp;sa=X&amp;ved=0ahUKEwjr4Py6t-fUAhXDGz4KHdVvBYAQ6AEIMTAD#v=onepage&amp;q=edgeworth%20weighted%20median&amp;f=false}}&lt;/ref&gt;.
+
+== Properties ==
+The sum of weights in each of the two partitions should be as equal as possible.
+
+If the weights of all numbers in the set are equal, then the weighted median reduces down to the median.
+
+== Examples ==
+For simplicity, consider the set of numbers &lt;math&gt;\{1; 2; 3; 4; 5;\}&lt;/math&gt; with each number having weights &lt;math&gt;\{0.15; 0.1; 0.2; 0.3; 0.25;\}&lt;/math&gt; respectively. The median is 3 and the weighted median is the element corresponding to the weight 0.3, which is 4. The weights on each side of the pivot add up to 0.45 and 0.25, satisfying the general condition that each side be as even as possible. Any other weight would result in a greater difference between each side of the pivot. 
+
+Consider the set of numbers &lt;math&gt;\{1; 2; 3; 4;\}&lt;/math&gt; with each number having uniform weights &lt;math&gt;\{0.25; 0.25; 0.25; 0.25;\}&lt;/math&gt; respectively. Equal weights should result in a weighted median equal to the median. This median is 2.5 since it is an even set. The lower weighted median is 2 with partition sums of 0.25 and 0.5, and the upper weighted median is 3 with partition sums of 0.5 and 0.25. These partitions each satisfy their respective special condition and the general condition. It is ideal to introduce a new pivot by taking the mean of the upper and lower weighted medians when they exist. With this, the set of numbers is &lt;math&gt;\{1; 2; 2.5; 3; 4;\}&lt;/math&gt; with each number having weights &lt;math&gt;\{0.25; 0.25; 0; 0.25; 0.25;\}&lt;/math&gt; respectively. This creates partitions that both sum to 0.5. It can easily be seen that the weighted median and median are the same for any size set with equal weights.
+
+Similarly, consider the set of numbers &lt;math&gt;\{1; 2; 3; 4;\}&lt;/math&gt; with each number having weights &lt;math&gt;\{0.49; 0.01; 0.25; 0.25;\}&lt;/math&gt; respectively. The lower weighted median is 2 with partition sums of 0.49 and 0.5, and the upper weighted median is 3 with partition sums of 0.5 and 0.25. In the case of working with integers or [[Level_of_measurement#Ordinal_scale|non-interval measures]], the lower weighted median would be accepted since it is the lower weight of the pair and therefore keeps the partitions most equal. However, it is more ideal to take the mean of these weighted medians when it makes sense instead. Coincidentally, both the weighted median and median are equal to 2.5, but this will not always hold true for larger sets depending on the weight distribution.
+
+== Algorithm ==
+Weighted median can be computed by sorting the set of numbers and finding the smallest numbers which sums to half the weight of total weight. This algorithm takes &lt;math&gt;O(n \log n)&lt;/math&gt; time. There is a better approach to find weighted median using a modified selection algorithm.&lt;ref name=":0" /&gt;
+&lt;syntaxhighlight lang="pascal"&gt;
+// Main call is WeightedMedian(a, 1, n)
+// Returns lower median
+WeightedMedian(a[1..n], p, r)
+    // Base case for single element
+    if r = p then
+        return a[p]
+    // Base case for two elements
+    // Make sure we return the average, in case the two candidates have equal weight
+    if r-p = 1 then
+        if a[p].w == a[r].w
+            return (a[p] + a[r])/2
+        if a[p].w &gt; a[r].w
+            return a[p]
+        else 
+            return a[r]
+    // Partition around pivot r
+    q = partition(a, p, r)
+    wl, wg = sum weights of partitions (p, q-1), (q+1, r)
+    // If partitions are balanced then we are done
+    if wl and wg both &lt; 1/2 then
+        return a[q]
+    else
+        // Increase pivot weight by the amount of partition we eliminate
+        if wl &gt; wg then
+            a[q].w += wg
+            // Recurse on pivot inclusively 
+            WeightedMedian(a, p, q)
+        else
+            a[q].w += wl
+            WeightedMedian(a, q, r)
+&lt;/syntaxhighlight&gt;
+
+==Software/source code==
+* A fast weighted median algorithm is implemented in a C extension for Python in the [https://github.com/FilippoBovo/robustats Robustats Python package].
+
+==See also==
+* [[Weighted arithmetic mean]]
+* [[Least absolute deviations]]
+* [[Median filter]]
+* [[Quickselect]]
+
+==References==
+&lt;references/&gt;
+
+{{statistics-stub}}
+
+[[Category:Means]]
+[[Category:Robust statistics]]</text>
+      <sha1>0mkycoxb0niqoh8dkjojrw7lzvfc6mi</sha1>
+    </revision>
+  </page>
+</mediawiki>

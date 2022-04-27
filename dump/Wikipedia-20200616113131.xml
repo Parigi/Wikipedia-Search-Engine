@@ -1,0 +1,143 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.10/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.10/ http://www.mediawiki.org/xml/export-0.10.xsd" version="0.10" xml:lang="en">
+  <siteinfo>
+    <sitename>Wikipedia</sitename>
+    <dbname>enwiki</dbname>
+    <base>https://en.wikipedia.org/wiki/Main_Page</base>
+    <generator>MediaWiki 1.35.0-wmf.36</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Media</namespace>
+      <namespace key="-1" case="first-letter">Special</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Talk</namespace>
+      <namespace key="2" case="first-letter">User</namespace>
+      <namespace key="3" case="first-letter">User talk</namespace>
+      <namespace key="4" case="first-letter">Wikipedia</namespace>
+      <namespace key="5" case="first-letter">Wikipedia talk</namespace>
+      <namespace key="6" case="first-letter">File</namespace>
+      <namespace key="7" case="first-letter">File talk</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki talk</namespace>
+      <namespace key="10" case="first-letter">Template</namespace>
+      <namespace key="11" case="first-letter">Template talk</namespace>
+      <namespace key="12" case="first-letter">Help</namespace>
+      <namespace key="13" case="first-letter">Help talk</namespace>
+      <namespace key="14" case="first-letter">Category</namespace>
+      <namespace key="15" case="first-letter">Category talk</namespace>
+      <namespace key="100" case="first-letter">Portal</namespace>
+      <namespace key="101" case="first-letter">Portal talk</namespace>
+      <namespace key="108" case="first-letter">Book</namespace>
+      <namespace key="109" case="first-letter">Book talk</namespace>
+      <namespace key="118" case="first-letter">Draft</namespace>
+      <namespace key="119" case="first-letter">Draft talk</namespace>
+      <namespace key="446" case="first-letter">Education Program</namespace>
+      <namespace key="447" case="first-letter">Education Program talk</namespace>
+      <namespace key="710" case="first-letter">TimedText</namespace>
+      <namespace key="711" case="first-letter">TimedText talk</namespace>
+      <namespace key="828" case="first-letter">Module</namespace>
+      <namespace key="829" case="first-letter">Module talk</namespace>
+      <namespace key="2300" case="first-letter">Gadget</namespace>
+      <namespace key="2301" case="first-letter">Gadget talk</namespace>
+      <namespace key="2302" case="case-sensitive">Gadget definition</namespace>
+      <namespace key="2303" case="case-sensitive">Gadget definition talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Epigenetics in stem-cell differentiation</title>
+    <ns>0</ns>
+    <id>35868491</id>
+    <revision>
+      <id>950717505</id>
+      <parentid>937033657</parentid>
+      <timestamp>2020-04-13T13:42:36Z</timestamp>
+      <contributor>
+        <username>OAbot</username>
+        <id>28481209</id>
+      </contributor>
+      <minor/>
+      <comment>[[Wikipedia:OABOT|Open access bot]]: doi added to citation with #oabot.</comment>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="21704" xml:space="preserve">{{update|article|date=September 2018}}
+[[Embryonic stem cells]] are capable of self-renewing and differentiating to the desired fate depending on its position within the body. Stem cell [[homeostasis]] is maintained through [[epigenetic]] mechanisms that are highly dynamic in regulating the [[chromatin]] structure as well as specific [[gene transcription]] programs.&lt;ref name="zhou"&gt;{{cite journal|vauthors=Zhou Y, Kim J, Yuan X, Braun T|year=2011|title=Epigenetic Modifications of Stem Cells-A Paradigm for the Control of Cardiac Progenitor Cells|journal=Circulation Research|volume=109|issue=9|pages=1067–1081|doi=10.1161/circresaha.111.243709|pmid=21998298|doi-access=free}}&lt;/ref&gt; Epigenetics has been used to refer to changes in [[gene expression]], which are heritable through modifications not affecting the [[DNA]] sequence.&lt;ref name="LS-20200121"&gt;{{cite news |last=Lanese |first=Nicoletta |title=Scientists uncover new mode of evolution - Scientists have discovered a form of natural selection that doesn't rely on DNA. |url=https://www.livescience.com/yeast-reveals-new-mode-of-evolution.html |date=21 January 2020 |work=[[Live Science]] |accessdate=22 January 2020 }}&lt;/ref&gt;
+
+The [[mammal]]ian [[epigenome]] undergoes global remodeling during early stem cell development that requires commitment of cells to be restricted to the desired [[stem cell lineage|lineage]]. There has been multiple evidence suggesting that the maintenance of the lineage commitment of stem cells are controlled by epigenetic mechanisms such as [[DNA methylation]], [[histone modification]]s and regulation of [[adenosine triphosphate|ATP]]-dependent remolding of [[chromatin structure]].&lt;ref name="zhou"/&gt;&lt;ref&gt;{{cite journal | vauthors = Wang YP, Lei QY | title = Metabolic recoding of epigenetics in cancer | journal = Cancer Commun (Lond) |date=21 May 2018| volume = 38 | issue = 1 | pages = 25 | pmid = 29784032 | pmc = 5993135 | doi = 10.1186/s40880-018-0302-3 }}&lt;/ref&gt; Based on the ''[[histone code]]'' hypothesis, distinct [[covalent]] [[histone]] modifications can lead to functionally distinct chromatin structures that influence the fate of the cell.
+
+This regulation of chromatin through epigenetic modifications is a molecular mechanism that will determine whether the cell will continue to [[Stem cell differentiation|differentiate]] into the desired fate. A research study performed by ''Lee et al.'' examined the effects of epigenetic modifications on the chromatin structure and the modulation of these epigenetic markers during stem cell differentiation through [[in vitro]] differentiation of [[murine]] embryonic stem (ES) cells.&lt;ref name="Lee"&gt;{{cite journal|author=Lee J.H.|author2=Hart S.|author3=Skalnik D.|date=January 2004|title=Histone Deacetylase Activity is Required for Embryonic Stem Cell Differentiation|journal=Genesis|volume=38|issue=1|pages=32–38|doi=10.1002/gene.10250|pmid=14755802}}&lt;/ref&gt;
+
+==Experimental background==
+
+Embryonic stem cells exhibit dramatic and complex alterations to both global and site-specific [[chromatin structure]]s. ''Lee et al.'' performed an experiment to determine the importance of de[[acetylation]] and [[acetylation]] for stem cell differentiation by looking at global acetylation and [[methylation]] levels at certain site-specific modification in [[histone]] sites ''H3K9'' and ''H3K4''. Gene expression at these histones regulated by epigenetic modifications is critical in restricting the embryonic stem cell to desired cell lineages and developing [[Epigenetics|cellular memory]].
+
+For mammalian cells, the maintenance of [[cytosine]] methylation is catalyzed by [[DNA methyltransferase]]s and any disruption to these methyltransferases will cause a lethal [[phenotype]] to the embryo. [[Cytosine methylation]] is examined at ''H3K9'', which is associated with inactive [[heterochromatin]] and occurs mainly at [[CpG dinucleotide]]s while global acetylation is examined at ''H3K4'', which is associated with active [[euchromatin]]. The mammalian [[zygotic genome]] undergoes active and passive global cytosine demethylation following [[fertilization]] that reaches a minimal point of 20% CpG methylation at the [[blastocyst]] stage to which is then followed by a wave of methylation that reprograms the chromatin structure in order to restore global levels of CpG methylation to 60%.&lt;ref name="Lee"/&gt; Embryonic stem cells containing reduced or elevation levels of methylation are viable but unable to differentiate and therefore require critical regulation of cytosine methylation for [[mammalian development]].
+
+==Effects of global histone modifications during embryonic stem cell differentiation==
+Histones modifications in [[chromatin]] were analyzed at various time intervals (along a 6-day period) following the initiation of [[in vitro]] embryonic stem cell differentiation. The removal of [[leukemia inhibitory factor]] (LIF) triggers differentiation. Representative data of the histone modifications at the specific sites after LIF removal, assessed using [[Western blotting]], confirms strong deacetylation at the ''H3K4'' and ''H3K9'' positions on [[histone H3]] after one day, followed by a small increase in acetylation by day two {{citation needed|date=September 2018}}.
+
+The methylation of histone ''H3K4'' also decreased after one day of LIF removal but showed a rebound between days 2–4 of differentiation, finally ending with a decrease in methylation on day five. These results indicate a decrease in the level of active [[euchromatin]] epigenetic marks upon initiation of embryonic stem cell differentiation which is then followed immediately by reprogramming of the epigenome.
+
+Histone modifications of ''H3K9'' position show a decrease in di- and tri-methylation of undifferentiated embryonic stem cells and had a gradual increase in methylation during the six-day time course of in vitro differentiation, which indicated that there is a global increase of inactive [[heterochromatin]] levels at this histone mark.{{citation needed|date=September 2018}}
+
+As the embryonic stem cell undergoes differentiation the markers for active euchromatin (histone acetylation and ''H3K4'' methylation) are decreased after the removal of LIF showing that the cell is indeed becoming more differentiated. The slight rebound in each of these marks allows for further differentiation to occur by allowing another opportunity to decrease the markers once again, bringing the cell closer to its mature state. Since there is also an increase throughout the six-day period in ''H3K9me'', a marker for active heterochromatin, once differentiation occurs it is concluded that the formation of heterochromatin occurs as the cell is differentiated into its desired fate making the cell inactive to prevent further differentiation.
+
+===DNA methylation in differentiated versus undifferentiated cells===
+Global levels of 5-methylcytosine were compared between undifferentiated and differentiated embryonic stem cells in vitro. The global cytosine methylation pattern appears to be established prior to the reprogramming of the histone code that occurs upon in vitro differentiation of embryonic stem cells.
+
+As the embryonic stem cell undergoes differentiation the level of DNA methylation increases.  This indicates that there is an increase in inactive heterochromatin during differentiation.
+
+==Supplemental effects of methylation with DNMTs==
+
+In mammals, DNA methylation plays a role in regulating a key component of [[multipotency]]—the ability to rapidly self-renew. Khavari et al. discussed the fundamental mechanisms of DNA methylation and the interaction with several pathways regulating differentiation.&lt;ref name="Khav"&gt;{{cite journal|author=Khavari D.|author2= Sen G.|author3=Rinn J.|year=2010|title=DNA methylation and epigenetic control of cellular differentiation|journal=Cell Cycle|volume=9|issue=19|pages=3880–3883|doi=10.4161/cc.9.19.13385|pmid= 20890116|doi-access=free}}&lt;/ref&gt; New approaches studying the genomic status of DNA methylation in various states of differentiation have shown that methylation at CpG sites associated with putative [[Enhancer (genetics)|enhancers]] are important in this process. DNA methylation can modulate the binding affinities of [[transcription factor]]s by recruiting repressors such as ''[[MeCP2]]'' which display binding specificity for sequences containing methylated CpG dinucleotides. DNA methylation is controlled by certain [[DNA methyltransferase|methyltransferases]], ''DMNTs'', which perform different functions depending on each one. ''[[DNMT3A]]'' and ''[[DNMT3B]]'' have both been linked to a role in the establishment of DNA methylation pattern in the early development of the stem cell, whereas ''[[DNMT1]]'' is required to methylate a newly synthesized strand of DNA after the cell has undergone replication in order to sustain the epigenetic regulatory state. Numerous proteins can physically interact with ''DNMTs'' themselves, which help target ''DNMT1'' to [[hemi-methylated DNA]].
+
+Several new{{When|date=November 2019}} studies point to the central role of DNA methylation interacting with the regulation of [[cell cycle]]s and [[DNA repair]] pathways in order to maintain the [[Cellular differentiation|undifferentiated]] state. In embryonic stem cells, ''DNMT1'' depletion within the undifferentiated progenitor cell compartment led to cell cycle arrest, premature differentiation and a failure of tissue self-renewal. The loss of ''DNMT1'' occurred from profound effects associated with activation of differentiation genes and loss of genes promoting cell cycle progression, thus indicating that ''DNMT1'' and other ''DNMTs'' do not continuously suppress differentiation and thus maintain the [[pluripotent]] state.
+
+These studies point to the importance of the interaction of DNMTs in order to maintain stem cell states allowing for further differentiation and formation of heterochromatin to occur.
+
+==Epigenetic modifications of regulated genes during ESC differentiation==
+
+''Okamoto et al.'' previously documented the expression level of the ''[[Oct4]]'' gene decreasing with embryonic stem cell differentiation.&lt;ref&gt;{{cite journal|vauthors=Okamoto K, Okazawa H, Okuda A, Sakai M, Murmatsu M, Hamada H|year=1990|title=A novel octamer binding transcription factor is differentially expressed in mouse embryonic cells|journal=Cell|volume=60|issue=3|pages=461–472|doi=10.1016/0092-8674(90)90597-8|pmid=1967980}}&lt;/ref&gt; ''Lee et al.'' performed a [[ChIP]] analysis of the Oct4 promoter, associated with undifferentiated cells, region to examine the epigenetic modifications of regulated genes undergoing development during embryonic stem cell differentiation.  This promoter region decreased at ''H3K4'' methylation and ''H3K9'' acetylation sites and increased at the ''H3K9'' methylation site during differentiation. Analysis of a CpG motif of the ''Oct4'' gene promoter revealed a progressive increase of DNA methylation and was completely methylated at day 10 of differentiation as previously reported in Gidekel and Bergman.&lt;ref&gt;{{cite journal|vauthors=Gidekel S, Bergman Y|year=2002|title=A unique developmental pattern of Oct3/4 DNA methylation is controlled by a cis-demodification element|journal=Journal of Biological Chemistry|volume=277|issue=37|pages=34521–34530|doi=10.1074/jbc.m203338200|pmid=12110668|doi-access=free}}&lt;/ref&gt;
+
+These results indicate that there was a shift from the active eurchromatin to the inactive heterochromatin due to the decrease of acetylation of H3K4 and an increase of H3K9me. This means that the cell is becoming differentiated at the Oct4 gene, which is coincident with the silence of Oct4 gene expression.
+
+Another site specific gene tested for histone modification was a ''[[Brachyury]]'' gene, a marker of [[mesoderm]] differentiation and is only slightly expressed in undifferentiated embryonic stem cells. "Brachyury" was induced at day five of differentiation and completely silencing by day 10, corresponding to the last day of differentiation.&lt;ref&gt;{{cite journal|vauthors=Keller G, Kennedy M, Papayannopoulou T, Wiles M|year=1993|title=Hematopoietic commitment during embryonic stem cell differentiation in culture|journal=Molecular Cell Biology|volume=13|issue=1|pages=473–486|doi=10.1128/mcb.13.1.473|pmid=8417345|pmc=358927}}&lt;/ref&gt; The ChIP analysis of the "Brachyury" gene promoter revealed increase of expression in mono- and di-methylation of ''H3K4'' at day 0 and 5 of embryonic stem cell differentiation with a loss of gene expression at day 10. ''H3K4'' trimethylation coincides with the time of highest Brachyury gene expression since it only had gene expression on day 5. ''H3K4'' methylations in all forms are absent at day 10 of differentiation, which correlates with the silencing of Brachyury gene expression.  Mono-methylation of both histones produced expression at day 0 indication a marker that is not useful for chromatin structure. Acetlyation of H3K9 does not correlate to ''Brachyury'' gene expression since it was down regulated at the induction of differentiation. 
+Upon examining of DNA methylation expression, there was no formation of intermediate sized bad in the [[Southern analysis]] suggesting that CpG motifs upstream of the promoter region are not methylated in the absence of cytosine methylation at this site.
+
+It is demonstrated from these studies that both ''H3K9'' di-and tri-methylation correlate with the DNA methylation and gene expression while ''H3K4'' tri-methylation is associated the highest gene expression stage of the ''Brachyury'' gene. A previous report from Santos-Rosa is in agreement with these data showing that active genes are associated with ''H3K4'' tri-methylation in yeast.&lt;ref&gt;{{cite journal|vauthors=Santos-rosa H, Schneider R, Bannister AJ, Sherriff J, Bernstein BE, Emre NC, Schreiber SL, Mellor J, Kouzarides T|year=2002|title=Active genes are tri-methylated at K4 of histone H3|journal=Nature|volume=419|issue=6905|pages=407–411|doi=10.1038/nature01080|pmid=12353038|bibcode=2002Natur.419..407S}}&lt;/ref&gt;
+
+This data indicated the same results as for the ''Oct4'' gene, in that heterochromatin is forming as differentiation occurs again coinciding with the silence of ''Brachyury'' gene expression.
+
+==Effect of TSA on stem cell differentiation==
+
+[[Leukemia inhibitory factor]] (LIF) was removed from all the [[cell line]]s. LIF inhibits cell differentiation, and its removal allows the cell lines to go through cell differentiation.
+The cell lines were treated with [[Trichostatin A]] (TSA) - a [[histone deacetylase inhibitor]] for 6 days. One group of cell lines was treated with 10nM of TSA.  The [[western analysis]] showed the lack of initial deacetylation on Day-1 which, was observed in the control for the embryonic stem cell differentiation.  The lack of [[histone deacetylase]] activity allowed the acetylation of [[H3K9]] and [[histone H4]]. Embryonic stem cells were also analyzed morphologically to observe the formation of [[embryoid body]] formation as one of the measures of cell differentiation. The 10nM TSA treated cells failed to form the embryoid body by Day-6 as observed in the control cell line. This implies that the ES cells treated with TSA lacked the deacetylation on Day-1 and failed to differentiate after the removal of LIF.
+Second group,’-TSA Day4’ was treated with TSA for 3days. As soon as the TSA treatment was stopped, on day 4 the deacetylation was observed and the acetylation recovered on Day-5. The morphological examination showed the formation of embryoid body formation by Day-6. In addition, the embryoid body formation was faster than the control cell line. This suggests that the ‘-TSA Day4’ lines were responding to the removal of LIF but, were unable to acquire any differentiation phenotype. They were able to acquire the differentiation phenotype after the cessation of TSA treatment and at rapid rate.
+The morphological examination of the third group,’ 5 nM TSA’ showed the intermediate effect between the control and 10nM-TSA group. The lower dose of TSA allowed the formation of some embryoid body formation.
+This experiment shows that TSA inhibits histone deacetylase and the activity of histone deacetylase is required for the embryonic stem cell differentiation. Without the initial deacetylation on Day-1, the ES cells cannot go through the differentiation.{{citation needed|date=May 2012}}
+
+==Alkaline phosphatase activity==
+
+Alkaline phosphatases found in humans are membrane bound glycoproteins, which function to catalyze the hydrolysis of monophosphate esters. McKenna et al. (1979) found that there are at least three varieties of akaline phosphatases, kidney, liver, and bone alkaline phosphatases, that are all coded by the same structural gene, but contain non-identical carbohydrate moieties. The alkaline phosphatase varieties, therefore, express a unique complement of in the enzymatic processes in post-translational glycosylation of proteins.&lt;ref&gt;{{Cite journal|last=McKenna|first=M. J.|last2=Hamilton|first2=T. A.|last3=Sussman|first3=H. H.|date=1979-07-01|title=Comparison of human alkaline phosphatase isoenzymes. Structural evidence for three protein classes|journal=Biochemical Journal|language=en|volume=181|issue=1|pages=67–73|doi=10.1042/bj1810067|issn=0264-6021|pmid=90505|pmc=1161126}}&lt;/ref&gt;
+
+In normal stem cells, the activity of [[alkaline phosphatase]] activity is lowered upon differentiation. Trichostatin A causes the cells to maintain the activity of alkaline phosphatase. Trichostatin A can cause reversible inhibition of mammalian histone deacetylase, which leads to the inhibition of cell growth Significant increase in alkaline phosphatase extinction was observed when Trichostatin A was withdrawn after three days. Alkaline phosphatase activity correlates with the morphology changes. Initial deacetylation of histone is required for embryonic stem cell differentiation.{{citation needed|date=May 2012}}&lt;ref&gt;{{Cite journal|last=Siavoshian|first=S.|last2=Segain|first2=J.-P.|last3=Kornprobst|first3=M.|last4=Bonnet|first4=C.|last5=Cherbut|first5=C.|last6=Galmiche|first6=J.-P.|last7=Blottière|first7=H. M.|date=2000-04-01|title=Butyrate and trichostatin A effects on the proliferation/differentiation of human intestinal epithelial cells: induction of cyclin D3 and p21 expression|url=http://gut.bmj.com/content/46/4/507|journal=Gut|language=en|volume=46|issue=4|pages=507–514|doi=10.1136/gut.46.4.507|issn=0017-5749|pmid=10716680|pmc=1727889}}&lt;/ref&gt;
+
+==HDAC1, but not HDAC2 controls differentiation==
+
+Dovery et al. (2010) used [[HDAC]] [[knockout mice]]  to demonstrate whether [[HDAC1]] or [[HDAC2]] was important for the embryonic stem cell differentiation. Examination of [[global histone acetylation]] in the absence of HDAC 1 showed an increase in acetylation. Global histone acetylation levels were unchanged by the loss of HDAC2. In order to analyze the process of HDAC knockout mouse in detail, the knockout mice embryonic stem cells were used to generate embryoid bodies. It showed that just before or during [[gastrulation]], embryonic stem cells lacking HDAC1 acquired visible developmental defects. The continued culture of HDAC1 knockout embryonic stem cells showed that the embryoid bodies formed became irregular and reduced in size rather than uniformly spherical as in normal mice. Embryonic stem cell proliferation was unaffected by the loss of either HDAC1 or HDAC2 but the differentiation of embryonic stem cells were affected with that lack of HDAC 1. This shows that HDAC1 is required for cell fate determination during differentiation.&lt;ref&gt;{{cite journal|author=Dovey O.|author2=Foster C.|author3=Cowley S.|year=2010|title=Histone deacetylase 1(HDAC1), but not HDAC2, controls embryonic stem cell differentiation|journal=PNAS|volume=107|issue=18|pages=8242–8247|doi=10.1073/pnas.1000478107|pmid=20404188|pmc=2889513|bibcode=2010PNAS..107.8242D}}&lt;/ref&gt;
+
+==The future==
+
+Any disturbance of a stable epigenetic regulation of [[gene expression]] mediated by [[DNA methylation]] is associated with a number of human disorders, including cancer as well as [[congenital disease]]s such as [[pseudohypoparathyroidism type IA]], [[Beckwith-Wiedemann syndrome|Beckwith-Wiedemann]], [[Prader-Willi syndrome|Prader-Willi]] and [[Angelman syndrome]]s, which are each caused by altered methylation-based imprinting at specific loci.
+
+Perturbations of both global and gene-specific patterns of cytosine methylation are commonly observed in cancer while [[histone deacetylation]] is an important feature of nuclear reprogramming in [[oocyte]]s during [[meiosis]].&lt;ref&gt;{{cite journal|vauthors=Kim JM, Liu H, Tazaki M, Nagata M, Aoki F|year=2003|title=Changes in histone acetylation during mouse oocyte meiosis|journal=Journal of Cell Biology|volume=162|issue=1|pages=37–47|doi=10.1083/jcb.200303047|pmid=12835313|pmc=2172711}}&lt;/ref&gt;
+
+Recent studies have revealed that there is an array of different pathways that cooperates with one another in order to bestow proper epigenetic regulation by DNA methylation. Future studies will be needed to further clarify the certain mechanism pathways such as [[DNA binding protein]]s, [[DNA repair]] and [[noncoding RNA]]s serve in order to regulate DNA methylation to suppress differentiation and sustain self-renewal in somatic stem cells in the epidermis and other tissues. Addressing these questions will help extend insight into these recent findings for a central role in epigenetic regulators of DNA methylation in controlling embryonic stem cell differentiation.&lt;ref name="Khav"/&gt;
+
+==References==
+&lt;references/&gt;
+
+[[Category:Epigenetics]]
+[[Category:Induced stem cells]]</text>
+      <sha1>g3x106xqwk2lvahrpx1rzsunyyx0t1e</sha1>
+    </revision>
+  </page>
+</mediawiki>

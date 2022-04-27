@@ -1,0 +1,946 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.10/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.10/ http://www.mediawiki.org/xml/export-0.10.xsd" version="0.10" xml:lang="en">
+  <siteinfo>
+    <sitename>Wikipedia</sitename>
+    <dbname>enwiki</dbname>
+    <base>https://en.wikipedia.org/wiki/Main_Page</base>
+    <generator>MediaWiki 1.35.0-wmf.36</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Media</namespace>
+      <namespace key="-1" case="first-letter">Special</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Talk</namespace>
+      <namespace key="2" case="first-letter">User</namespace>
+      <namespace key="3" case="first-letter">User talk</namespace>
+      <namespace key="4" case="first-letter">Wikipedia</namespace>
+      <namespace key="5" case="first-letter">Wikipedia talk</namespace>
+      <namespace key="6" case="first-letter">File</namespace>
+      <namespace key="7" case="first-letter">File talk</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki talk</namespace>
+      <namespace key="10" case="first-letter">Template</namespace>
+      <namespace key="11" case="first-letter">Template talk</namespace>
+      <namespace key="12" case="first-letter">Help</namespace>
+      <namespace key="13" case="first-letter">Help talk</namespace>
+      <namespace key="14" case="first-letter">Category</namespace>
+      <namespace key="15" case="first-letter">Category talk</namespace>
+      <namespace key="100" case="first-letter">Portal</namespace>
+      <namespace key="101" case="first-letter">Portal talk</namespace>
+      <namespace key="108" case="first-letter">Book</namespace>
+      <namespace key="109" case="first-letter">Book talk</namespace>
+      <namespace key="118" case="first-letter">Draft</namespace>
+      <namespace key="119" case="first-letter">Draft talk</namespace>
+      <namespace key="446" case="first-letter">Education Program</namespace>
+      <namespace key="447" case="first-letter">Education Program talk</namespace>
+      <namespace key="710" case="first-letter">TimedText</namespace>
+      <namespace key="711" case="first-letter">TimedText talk</namespace>
+      <namespace key="828" case="first-letter">Module</namespace>
+      <namespace key="829" case="first-letter">Module talk</namespace>
+      <namespace key="2300" case="first-letter">Gadget</namespace>
+      <namespace key="2301" case="first-letter">Gadget talk</namespace>
+      <namespace key="2302" case="case-sensitive">Gadget definition</namespace>
+      <namespace key="2303" case="case-sensitive">Gadget definition talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Comment (computer programming)</title>
+    <ns>0</ns>
+    <id>8592308</id>
+    <revision>
+      <id>953651083</id>
+      <parentid>953651019</parentid>
+      <timestamp>2020-04-28T10:06:24Z</timestamp>
+      <contributor>
+        <username>Materialscientist</username>
+        <id>7852030</id>
+      </contributor>
+      <minor/>
+      <comment>Reverted edits by [[Special:Contributions/122.169.45.124|122.169.45.124]] ([[User talk:122.169.45.124|talk]]): addition of unnecessary/inappropriate [[WP:EL|external links]] ([[WP:HG|HG]]) (3.4.10)</comment>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="51727" xml:space="preserve">{{selfref|For comments in Wikipedia markup, see [[Help:Wiki markup#Character formatting]] and [[WP:COMMENT]].}}
+[[File:CodeCmmt002.svg|thumb|right|300px|An illustration of [[Java (programming language)|Java]] source code with '''prologue''' comments indicated in &lt;span style="color:#f00;"&gt;red&lt;/span&gt; and '''inline''' comments in &lt;span style="color:#0e850e;"&gt;green&lt;/span&gt;. '''Program code''' is in &lt;span style="color:#00f;"&gt; blue&lt;/span&gt;.]]
+In [[computer programming]], a '''comment''' is a programmer-readable explanation or ''[[annotation]]'' in the [[source code]] of a [[computer program]].  They are added with the purpose of making the source code easier for humans to understand, and are generally ignored by [[compiler]]s and [[interpreter (computing)|interpreters]].&lt;ref name="PennyGrubb000"&gt;Source code can be divided into ''program code'' (which consists of machine-translatable instructions); and ''comments'' (which include human-readable notes and other kinds of annotations in support of the program code).{{cite book | last = Penny Grubb | first = Armstrong Takang | title = Software Maintenance: Concepts and Practice | publisher = World Scientific | year = 2003 | isbn = 978-981-238-426-3 | pages = 7, plese start120–121}}&lt;/ref&gt;&lt;ref&gt;For purposes of this article, programming language comments are treated as indistinct from comments that appear in [[markup language]]s, [[configuration file]]s and other similar contexts. Moreover, markup language is often closely integrated with programming language code, especially in the context of [[Automatic programming|code generation]]. See e.g., {{cite book | last = Ganguli | first = Madhushree | title = Making Use of Jsp | publisher = Wiley | location = New York | year = 2002 | isbn = 978-0-471-21974-3 }}, {{cite book | last = Hewitt | first = Eben | title = Java for Coldfusion Developers | publisher = Pearson Education | location = Upper Saddle River | year = 2003 | isbn = 978-0-13-046180-3}}&lt;/ref&gt; The [[comparison of programming languages (syntax)#Comments|syntax of comments]] in various programming languages varies considerably.
+
+Comments are sometimes processed in various ways to generate documentation external to the source code itself by [[documentation generator]]s, or used for integration with [[Version control|source code management]] systems and other kinds of external [[programming tool]]s.
+
+The flexibility provided by comments allows for a wide degree of variability, but formal conventions for their use are commonly part of programming style guides.
+
+== Overview ==
+
+Comments are generally formatted as either ''block comments'' (also called ''prologue comments'' or ''stream comments'') or ''line comments'' (also called ''inline comments'').&lt;ref name="JBDixit000"&gt;{{cite book | last = Dixit | first = J.B. | title = Computer Fundamentals and Programming in C | publisher = Laxmi Publications | year = 2003 | isbn = 978-81-7008-882-0 }}&lt;/ref&gt;
+
+Block comments [[delimiter#Bracket delimiters|delimit]] a region of source code which may span multiple lines or a part of a single line. This region is specified with a ''start'' delimiter and an ''end'' delimiter. Some programming languages (such as [[MATLAB]]) allow block comments to be recursively nested inside one another, but others (such as [[Java (programming language)|Java]]) do not.&lt;ref name="Higham000"&gt;{{cite book
+| title     = MATLAB Guide
+| first     = Desmond
+| last      = Higham
+| publisher = SIAM
+| year      = 2005
+| isbn      = 978-0-89871-578-1
+}}&lt;/ref&gt;&lt;ref name="Vermeulen000"&gt;{{cite book
+| title      = The Elements of Java Style
+| first      = Al
+| last      = Vermeulen
+| publisher      = Cambridge University Press
+| year      = 2000
+| isbn      = 978-0-521-77768-1
+| url      = https://archive.org/details/elementsofjavast00verm
+}}&lt;/ref&gt;&lt;ref name="javadude000"&gt;{{cite web
+| title       = Using the right comment in Java
+| url         = http://javadude.com/articles/comments.html
+| accessdate  = 2007-07-24
+| date = 2000-03-04
+}}&lt;/ref&gt;
+
+Line comments either start with a comment delimiter and continue until the end of the line, or in some cases, start at a specific column (character line offset) in the source code, and continue until the end of the line.&lt;ref name="javadude000" /&gt;
+
+Some programming languages employ both block and line comments with different comment delimiters.  For example, [[C++]] has block comments delimited by &lt;code&gt;/*&lt;/code&gt; and &lt;code&gt;*/&lt;/code&gt; that can span multiple lines and line comments delimited by &lt;code&gt;//&lt;/code&gt;. Other languages support only one type of comment. For example, [[Ada (programming language)|Ada]] comments are line comments: they start with &lt;code&gt;--&lt;/code&gt; and continue to the end of the line.&lt;ref name="javadude000" /&gt;
+
+==Uses==
+
+How best to make use of comments is subject to dispute; different commentators have offered varied and sometimes opposing viewpoints.&lt;ref name="Dietrich000"&gt;{{cite book
+| last      = W. R.
+| first     = Dietrich
+| title     = Applied Pattern Recognition: Algorithms and Implementation in C++
+| publisher = Springer
+| year      = 2003
+| isbn      = 978-3-528-35558-6
+}} offers viewpoints on proper use of comments in source code. p. 66.&lt;/ref&gt;&lt;ref name="Keyes000"&gt;{{cite book
+| last      = Keyes
+| first     = Jessica
+| title     = Software Engineering Handbook
+| publisher = CRC Press
+| year      = 2003
+| isbn      = 978-0-8493-1479-7
+}} discusses comments and the "Science of Documentation" p. 256.&lt;/ref&gt;
+There are many different ways of writing comments and many commentators offer conflicting advice.&lt;ref name="Keyes000" /&gt;
+
+=== Planning and reviewing ===
+Comments can be used as a form of [[pseudocode]] to outline intention prior to writing the actual code. In this case it should explain the logic behind the code rather than the code itself.
+.
+&lt;syntaxhighlight lang="cpp"&gt;/* loop backwards through all elements returned by the server 
+(they should be processed chronologically)*/
+for (i = (numElementsReturned - 1); i &gt;= 0; i--) {
+    /* process each element's data */
+    updatePattern(i, returnedElements[i]);
+}
+&lt;/syntaxhighlight&gt;
+
+If this type of comment is left in, it simplifies the review process by allowing a direct comparison of the code with the intended results. A common logical fallacy is that code that is easy to understand does what it's ''supposed'' to do.
+
+=== Code description ===
+Comments can be used to summarize code or to explain the programmer's intent. According to this school of thought, restating the code in plain English is considered superfluous; the need to re-explain code may be a sign that it is too complex and should be rewritten, or that the naming is bad.
+
+:"Don't document bad code – rewrite it."&lt;ref name="BadComment000"&gt;''[[The Elements of Programming Style (book)|The Elements of Programming Style]]'', [[Brian Kernighan|Kernighan]] &amp; [[P. J. Plauger|Plauger]]&lt;/ref&gt;
+
+:"Good comments don't repeat the code or explain it. They clarify its intent. Comments should explain, at a higher level of abstraction than the code, what you're trying to do."&lt;ref name="GoodComment000"&gt;''[[Code Complete]]'', [[Steve McConnell|McConnell]]&lt;/ref&gt;
+
+Comments may also be used to explain why a block of code does not seem to fit conventions or best practices.  This is especially true of projects involving very little development time, or in bug fixing.  For example:
+&lt;syntaxhighlight lang="vb"&gt;' Second variable dim because of server errors produced when reuse form data. No
+' documentation available on server behavior issue, so just coding around it.
+vtx = server.mappath("local settings")
+&lt;/syntaxhighlight&gt;
+
+=== Algorithmic description ===
+
+Sometimes source code contains a novel or noteworthy solution to a specific problem. In such cases, comments may contain an explanation of the methodology. Such explanations may include diagrams and formal mathematical proofs. This may constitute explanation of the code, rather than a clarification of its intent; but others tasked with maintaining the code base may find such explanation crucial. This might especially be true in the case of highly specialized problem domains; or rarely used optimizations, constructs or function-calls.&lt;ref name="AlgoComments"&gt;{{cite book
+| last      = Spinellis
+| first     = Diomidis
+| title     = Code reading: The Open Source Perspective
+| publisher = Addison-Wesley
+| year      = 2003
+| isbn      = 978-0-201-79940-8
+}}&lt;/ref&gt;
+
+For example, a programmer may add a comment to explain why an [[insertion sort]] was chosen instead of a [[quicksort]], as the former is, in theory, slower than the latter. This could be written as follows:
+&lt;syntaxhighlight lang="java"&gt;
+ list = [f (b), f (b), f (c), f (d), f (a), ...];
+ // Need a stable sort. Besides, the performance really does not matter.
+ insertion_sort (list);
+&lt;/syntaxhighlight&gt;
+
+=== Resource inclusion ===&lt;!--This header is linked externally, pls. no changey unless you fixy--&gt;
+
+[[Logo]]s, diagrams, and [[flowchart]]s consisting of [[ASCII art]] constructions can be inserted into source code formatted as a comment.&lt;ref name="asciiart000"&gt;{{cite web
+| title       = CodePlotter 1.6 – Add and edit diagrams in your code with this 'Visio-like' tool
+| url       = http://www.codeproject.com/macro/codeplotter.asp
+| accessdate       = 2007-07-24
+| archive-url       = https://web.archive.org/web/20070714092702/http://www.codeproject.com/macro/codeplotter.asp
+| archive-date       = 2007-07-14
+| url-status       = dead
+}}&lt;/ref&gt; Further, [[copyright]] notices can be embedded within source code as comments. Binary data may also be encoded in comments through a process known as [[binary-to-text encoding]], although such practice is uncommon and typically relegated to external resource files.
+
+The following code fragment is a simple ASCII diagram depicting the process flow for a [[system administration]] script contained in a [[Windows Script File]] running under [[Windows Script Host]]. Although a section marking the code appears as a comment, the diagram itself actually appears in an [[XML]] [[CDATA]] section, which is technically considered distinct from comments, but can serve similar purposes.&lt;ref name="Niederst000"&gt;{{cite book
+| title     = Web Design in a Nutshell: A Desktop Quick Reference
+| first     = Jennifer
+| last      = Niederst
+| publisher = O'Reilly
+| year      = 2006
+| isbn      = 978-0-596-00987-8
+}}Sometimes the difference between a "comment" and other syntax elements of a programming or markup language entails subtle nuances. Niederst indicates one such situation by stating: "Unfortunately, XML software thinks of comments as unimportant information and may simply remove the comments from a document before processing it. To avoid this problem, use an XML CDATA section instead."&lt;/ref&gt;
+
+&lt;syntaxhighlight lang="xml"&gt;
+&lt;!-- begin: wsf_resource_nodes --&gt;
+&lt;resource id="ProcessDiagram000"&gt;
+&lt;![CDATA[
+ HostApp (Main_process)
+    |
+    V
+script.wsf (app_cmd) --&gt; ClientApp (async_run, batch_process)
+                |
+                |
+                V
+         mru.ini (mru_history)  
+]]&gt;
+&lt;/resource&gt;
+&lt;/syntaxhighlight&gt;
+
+Although this identical diagram could easily have been included as a comment, the example illustrates one instance where a programmer may opt not to use comments as a way of including resources in source code.&lt;ref name="Niederst000" /&gt;
+
+=== Metadata ===
+{{main | Metadata }}
+
+Comments in a computer program often store metadata about a program file.
+
+In particular, many [[software maintainer]]s put submission guidelines in comments to help people who read the source code of that program to send any improvements they make back to the maintainer.
+
+Other metadata includes:
+the name of the creator of the original version of the program file and the date when the first version was created,
+the name of the current maintainer of the program,
+the names of other people who have edited the program file so far,
+the URL of documentation about how to use the program,
+the name of the [[software license]] for this program file,
+etc.
+
+When an algorithm in some section of the program is based on a description in a book or other reference, comments can be used to give the page number and title of the book or [[Request for Comments]] or other reference.
+
+{{anchor|Comment out}} &lt;!-- [[Comment out]] redirects here --&gt;
+=== Debugging ===
+
+A common developer practice is to ''comment out'' a [[snippet (programming)|code snippet]], meaning to add comment syntax causing that block of code to become a comment, so that it will not be executed in the final program. This may be done to exclude certain pieces of code from the final program, or (more commonly) it can be used to find the source of an error. By systematically commenting out and running parts of the program, the source of an error can be determined, allowing it to be corrected.
+
+An example of commenting out code for exclusion purposes is below:
+
+&lt;syntaxhighlight lang="C"&gt;
+ if (opt.equals ("e"))
+   opt_enabled = true;
+
+ /*
+ if (opt.equals ("d"))
+   opt_debug = true;
+ */
+
+ if (opt.equals ("v"))
+    opt_verbose = true;
+
+&lt;/syntaxhighlight&gt;
+The above code fragment suggests that the programmer opted to disable the debugging option for some reason.
+
+Many [[Integrated development environment|IDEs]] allow quick adding or removing such comments with single menu options or key combinations. The programmer has only to mark the part of text they want to (un)comment and choose the appropriate option.
+
+===Automatic documentation generation===
+{{main|Documentation generator}}
+[[Programming tool]]s sometimes store documentation and [[metadata]] in comments.&lt;ref&gt;See e.g., {{cite book | last = Wynne-Powell | first = Rod | title = Mac Os X for Photographers: Optimized Image Workflow for the Mac User | publisher = Focal Press | location = Oxford | year = 2008 | isbn = 978-0-240-52027-8 | url = https://archive.org/details/macosxforphotogr0000wynn }} page 243&lt;/ref&gt; These may include insert positions for automatic header file inclusion, commands to set the file's [[syntax highlighting]] mode,&lt;ref&gt;{{cite book | last = Lamb | first = Linda | title = Learning the VI Editor | publisher = O'Reilly &amp; Associates | location = Sebastopol | year = 1998 | isbn = 978-1-56592-426-0 | url = https://archive.org/details/learningvieditor00lamb }} describes the use of modeline syntax in Vim configuration files.&lt;/ref&gt; or the file's [[revision control|revision number]].&lt;ref&gt;See e.g., {{cite book | last = Berlin | first = Daniel | title = Practical Subversion, Second Edition | publisher = APress | location = Berkeley | year = 2006 | isbn = 978-1-59059-753-8 }} page 168.&lt;/ref&gt; These functional control comments are also commonly referred to as [[annotation]]s. Keeping documentation within source code comments is considered as one way to simplify the documentation process, as well as increase the chances that the documentation will be kept up to date with changes in the code.&lt;ref name="Ambler000"&gt;{{cite book
+| title     = The Object Primer: Agile Model-Driven Development with UML 2.0
+| first     = Scott
+| last      = Ambler
+| publisher = Cambridge University Press
+| year      = 2004
+| isbn      = 978-1-397-80521-8
+}}&lt;/ref&gt;
+
+Examples of documentation generators include the programs [[Javadoc]] for use with [[Java (programming language)|Java]], [[Ddoc]] for [[D (programming language)|D]], [[Doxygen]] for [[C (programming language)|C]], [[C++]], Java, [[interface description language|IDL]], [[Visual Expert]] for [[PL/SQL]], [[Transact-SQL]], [[PowerBuilder]] and [[PHPDoc]] for [[PHP]]. Forms of [[docstring]] are supported by [[Python (programming language)|Python]], [[Lisp (programming language)|Lisp]], [[Elixir (programming language)|Elixir]], and [[Clojure]].&lt;ref&gt;[https://clojure.github.com/clojure/clojure.core-api.html#clojure.core/defn Function definition with docstring in Clojure]&lt;/ref&gt;
+
+[[C Sharp (programming language)|C#]], [[F Sharp (programming language)|F#]] and [[Visual Basic .NET]] implement a similar feature called "XML Comments" which are read by [[IntelliSense]] from the compiled [[.NET Framework|.NET]] assembly.&lt;ref&gt;{{cite book|last=Murach|title=C# 2005|page=56}}&lt;/ref&gt;
+
+=== Syntax extension ===
+
+Occasionally syntax elements that were originally intended to be comments are re-purposed to convey additional information to a program, such as "[[conditional comment]]s".
+Such "hot comments" may be the only practical solution that maintains backward-compatibility, but are widely regarded as a [[kludge]].&lt;ref&gt;
+[[c2: HotComments]]
+&lt;/ref&gt;
+
+===Directive uses===
+There are cases where the normal comment characters are co-opted to create a special [[Directive (programming)|directive]] for an editor or interpreter. 
+
+Two examples of this directing an interpreter are:
+
+* The Unix "[[shebang (Unix)|shebang]]" – &lt;code&gt;#!&lt;/code&gt; – used on the first line of a script to point to the interpreter to be used.
+* "Magic comments" identifying the encoding a source file is using,&lt;ref&gt;{{cite web |title=class Encoding |url=https://docs.ruby-lang.org/en/2.4.0/Encoding.html |website=Ruby |publisher=ruby-lang.org |accessdate=5 December 2018}}&lt;/ref&gt; e.g. Python's PEP 263.&lt;ref&gt;{{cite web |title=PEP 263 – Defining Python Source Code Encodings |url=https://www.python.org/dev/peps/pep-0263/ |publisher=Python.org |accessdate=5 December 2018}}&lt;/ref&gt;
+
+The script below for a Unix-like system shows both of these uses:
+&lt;syntaxhighlight lang="bash"&gt;
+#!/usr/bin/env python3
+# -*- coding: UTF-8 -*-
+print("Testing")
+&lt;/syntaxhighlight&gt;
+
+Somewhat similar is the use of comments in C to communicate to a compiler that a default "fallthough" in a [[case statement]] has been done deliberately:
+&lt;syntaxhighlight lang="c"&gt;
+switch (command) {
+    case CMD_SHOW_HELP_AND_EXIT:
+      do_show_help();
+      /* Fall thru */
+    case CMD_EXIT:
+      do_exit();
+      break;
+    case CMD_OTHER:
+      do_other();
+      break;
+    /* ... etc. ... */
+  }
+&lt;/syntaxhighlight&gt;
+Inserting such a &lt;code&gt;/* Fall thru */&lt;/code&gt; comment for human readers was a already a common convention, but in 2017 the [[GNU Compiler Collection|gcc]] compiler began looking for these (or other indications of deliberate intent), and, if not found, emitting: "warning: this statement may fall through".&lt;ref&gt;{{cite web |last1=Polacek |first1=Marek |title=-Wimplicit-fallthrough in GCC 7 |url=https://developers.redhat.com/blog/2017/03/10/wimplicit-fallthrough-in-gcc-7/ |website=Red Hat Developer |publisher=Red Hat |accessdate=10 February 2019|date=2017-03-10 }}&lt;/ref&gt; Compiler-dependent comments which switch off warnings have existed for decades.{{cn|date=February 2019}}
+
+===Stress relief===
+Sometimes programmers will add comments as a way to relieve stress by commenting about development tools, competitors, employers, working conditions, or the quality of the code itself.&lt;ref&gt;[http://www.businessinsider.com.au/microsoft-hidden-messages-in-word-and-ms-dos-2014-3?r=US&amp;IR=T "Microsoft Programmers Hid A Bunch Of Profanity In Early Software Code"], Lisa Eadicicco, 27 March 2014, businessinsider.com.au&lt;/ref&gt; The occurrence of this phenomenon can be easily seen from online resources that track [[profanity]] in source code.&lt;ref name="SwearWords"&gt;(see e.g., [http://www.vidarholen.net/contents/wordcount/ Linux Swear Count]).&lt;/ref&gt;
+
+==Normative views==
+There are various normative views and long-standing opinions regarding the proper use of comments in source code.&lt;ref&gt;{{cite book | last = Goodliffe | first = Pete | title = Code Craft | publisher = No Starch Press | location = San Francisco | year = 2006 | isbn = 978-1-59327-119-0 }}&lt;/ref&gt;&lt;ref&gt;{{cite book | last = Smith | first = T. | title = Intermediate Programming Principles and Techniques Using Pascal | publisher = West Pub. Co | location = Belmont | year = 1991 | isbn = 978-0-314-66314-6 }}&lt;/ref&gt; Some of these are informal and based on personal preference, while others are published or promulgated as formal guidelines for a particular community.&lt;ref&gt;See e.g., {{cite book | last = Koletzke | first = Peter | title = Oracle Developer Advanced Forms &amp; Reports | publisher = Osborne/McGraw-Hill | location = Berkeley | year = 2000 | isbn = 978-0-07-212048-6 }} page 65.&lt;/ref&gt;
+
+===Need for comments===
+Experts have varying viewpoints on whether, and when, comments are appropriate in source code.&lt;ref name="BadComment000" /&gt;&lt;ref name="BadComments001"&gt;{{cite web
+| title       = Worst Practice - Bad Comments
+| url         = http://www.sqlservercentral.com/columnists/awarren/worstpracticebadcomments.asp
+| accessdate  = 2007-07-24
+}}&lt;/ref&gt; Some assert that source code should be written with few comments, on the basis that the source code should be self-explanatory or [[self-documenting]].&lt;ref name="BadComment000" /&gt; Others suggest code should be extensively commented (it is not uncommon for over 50% of the non-[[whitespace (computer science)|whitespace]] characters in source code to be contained within comments).&lt;ref name="Morelli000"&gt;{{cite book
+| title     = Java, Java, Java: object-oriented problem solving
+| first     = Ralph
+| last      = Morelli
+| publisher = Prentice Hall College
+| year      = 2006
+| isbn      = 978-0-13-147434-5
+}}&lt;/ref&gt;&lt;ref name="Javadoc000"&gt;{{cite web
+| title       = How to Write Doc Comments for the Javadoc Tool
+| url         = http://java.sun.com/j2se/javadoc/writingdoccomments/
+| accessdate  = 2007-07-24
+}} Javadoc guidelines specify that comments are crucial to the platform. Further, the appropriate level of detail is fairly well-defined: "We spend time and effort focused on specifying boundary conditions, argument ranges and corner cases rather than defining common programming terms, writing conceptual overviews, and including examples for developers."&lt;/ref&gt;
+
+In between these views is the assertion that comments are neither beneficial nor harmful by themselves, and what matters is that they are correct and kept in sync with the source code, and omitted if they are superfluous, excessive, difficult to maintain or otherwise unhelpful.&lt;ref name="techniques001"&gt;{{cite book
+| title     = Techniques of Program Structure and Design
+| first     = Edward
+| last      = Yourdon
+| publisher = University of Michigan
+| year      = 2007
+| id        = 013901702X
+}}Non-existent comments can make it difficult to comprehend code, but comments may be detrimental if they are obsolete, redundant, incorrect or otherwise make it more difficult to comprehend the intended purpose for the source code.&lt;/ref&gt;&lt;ref name="CmmtPhilosophy"&gt;{{cite book
+| last      = Dewhurst 
+| first     = Stephen C
+| title     = C++ Gotchas: Avoiding Common Problems in Coding and Design
+| publisher = Addison-Wesley Professional
+| year      = 2002
+| isbn      = 978-0-321-12518-7
+}}&lt;/ref&gt;
+
+Comments are sometimes used to document contracts in the [[design by contract]] approach to programming.
+
+=== Level of detail ===
+Depending on the intended audience of the code and other considerations, the level of detail and description may vary considerably.
+
+For example, the following Java comment would be suitable in an introductory text designed to teach beginning programming:
+
+    &lt;syntaxhighlight lang="java"&gt;
+    String s = "Wikipedia"; /* Assigns the value "Wikipedia" to the variable s. */
+    &lt;/syntaxhighlight&gt;
+
+This level of detail, however, would not be appropriate in the context of production code, or other situations involving experienced developers. Such rudimentary descriptions are inconsistent with the guideline: "Good comments ... clarify intent."&lt;ref name="GoodComment000" /&gt; Further, for professional coding environments, the level of detail is ordinarily well-defined to meet a specific performance requirement defined by business operations.&lt;ref name="Javadoc000" /&gt;
+
+==Styles==
+There are many stylistic alternatives available when considering how comments should appear in source code. For larger projects involving a team of developers, comment styles are either agreed upon before a project starts, or evolve as a matter of convention or need as a project grows. Usually programmers prefer styles that are consistent, non-obstructive, easy to modify, and difficult to break.&lt;ref name="gnome000"&gt;{{cite web
+| title       = Coding Style
+| url       = http://developer.gnome.org/doc/guides/programming-guidelines/code-style.html
+| accessdate       = 2007-07-24
+| archive-url       = https://web.archive.org/web/20070808173421/http://developer.gnome.org/doc/guides/programming-guidelines/code-style.html
+| archive-date       = 2007-08-08
+| url-status       = dead
+}}&lt;/ref&gt;
+
+===Block comment===
+The following code fragments in C demonstrate just a tiny example of how comments can vary stylistically, while still conveying the same basic information:
+&lt;syntaxhighlight lang="c"&gt;
+/*
+     This is the comment body.
+     Variation One.
+*/
+&lt;/syntaxhighlight&gt;
+
+&lt;syntaxhighlight lang="c"&gt;
+/***************************\
+*                           *
+* This is the comment body. *
+* Variation Two.            *
+*                           *
+\***************************/
+&lt;/syntaxhighlight&gt;
+
+Factors such as personal preference, flexibility of programming tools, and other considerations tend to influence the stylistic variants used in source code. For example, Variation Two might be disfavored among programmers who do not have [[source code editor]]s that can automate the alignment and visual appearance of text in comments.
+
+Software consultant and technology commentator Allen Holub&lt;ref name="Holub000"&gt;{{cite web
+| title       = Allen Holub
+| url       = http://www.holub.com/company/allen_holub.html
+| url-status       = dead
+| accessdate       = 2007-07-24
+| archive-url       = https://web.archive.org/web/20070720153845/http://www.holub.com/company/allen_holub.html
+| archive-date       = 2007-07-20
+}}&lt;/ref&gt; is one expert who advocates aligning the left edges of comments:&lt;ref name="Holub001"&gt;Allen Holub, ''Enough Rope to Shoot Yourself in the Foot'', {{ISBN|0-07-029689-8}}, 1995, McGraw-Hill&lt;/ref&gt;
+
+ &lt;syntaxhighlight lang="c"&gt;
+ /* This is the style recommended by Holub for C and C++.
+  * It is demonstrated in ''Enough Rope'', in rule 29.
+  */
+ &lt;/syntaxhighlight&gt;
+
+ &lt;syntaxhighlight lang="c"&gt;
+ /* This is another way to do it, also in C.
+ ** It is easier to do in editors that do not automatically indent the second
+ ** through last lines of the comment one space from the first.
+ ** It is also used in Holub's book, in rule 31.
+ */
+ &lt;/syntaxhighlight&gt;
+
+The use of /* and */ as block comment delimiters was inherited from PL/I into the B programming language, the immediate predecessor of the C programming language.&lt;ref name="Thompson1972"&gt;
+{{cite web
+| title = Users' Reference to B
+| author = Ken Thompson
+| url = https://www.bell-labs.com/usr/dmr/www/kbman.html
+| accessdate = 2017-07-21
+}}&lt;/ref&gt;
+
+===Line comments===
+Line comments generally use an arbitrary [[delimiter]] or sequence of [[token (parser)|tokens]] to indicate the beginning of a comment, and a [[newline]] character to indicate the end of a comment.
+
+In this example, all the text from the ASCII characters // to the end of the line is ignored.
+&lt;syntaxhighlight lang="c"&gt;
+// -------------------------
+// This is the comment body.
+// -------------------------
+&lt;/syntaxhighlight&gt;
+
+Often such a comment has to begin at far left and extend to the whole line. However in many languages, it is also possible to put a comment ''inline'' with a command line, to add a comment to it – as in this Perl example:
+&lt;syntaxhighlight lang="Perl"&gt;
+print $s . "\n";     # Add a newline character after printing
+&lt;/syntaxhighlight&gt;
+
+If a language allows both line comments and block comments, programming teams may decide upon a convention of using them differently: e.g. line comments only for minor comments, and  block comments to describe higher-level abstractions.
+
+==Tags==
+Programmers may use informal [[tag (metadata)|tags]] in comments to assist in indexing common issues. They may then be able to be searched for with common programming tools, such as the [[Unix]] [[grep]] utility or even [[Syntax highlighting|syntax-highlighted]] within [[text editor]]s. These are sometimes referred to as "codetags"&lt;ref&gt;[https://www.python.org/dev/peps/pep-0350/#what-are-codetags "PEP 0350 – Codetags"], Python Software Foundation&lt;/ref&gt;&lt;ref&gt;[https://medium.com/@eido.askayo/never-forget-anything-before-after-and-while-coding-98d187ae4cf1 "Never Forget Anything Before, After and While Coding"], Using "codetag" comments as productive remainders&lt;/ref&gt; or "tokens".&lt;ref&gt;[https://msdn.microsoft.com/en-us/library/txtwdysk.aspx#tokenscomments "Using the Task List"], msdn.microsoft.com&lt;/ref&gt;
+
+Such tags differ widely, but might include:
+* BUG – a known [[software bug|bug]] that should be corrected.
+* FIXME – should be corrected.
+* HACK – a workaround.
+* TODO – something to be done.
+* UNDONE – a reversal or "roll back" of previous code.
+* XXX – warn other programmers of problematic or misguiding code
+
+==Examples==
+
+===Comparison===
+{{main|Comparison of programming languages (syntax)#Comments}}
+
+Typographic conventions to specify comments vary widely. Further, individual programming languages sometimes provide unique variants. For a detailed review, please consult the [[comparison of programming languages (syntax)#Comments|programming language comparison]] article.
+
+====Ada====
+
+The [[Ada (programming language)|Ada]] programming language uses '--' to indicate a comment up to the end of the line.
+
+For example:
+&lt;syntaxhighlight lang="ada"&gt;
+  -- the air traffic controller task takes requests for takeoff and landing
+   task type Controller (My_Runway: Runway_Access) is
+      -- task entries for synchronous message passing
+      entry Request_Takeoff (ID: in Airplane_ID; Takeoff: out Runway_Access);
+      entry Request_Approach(ID: in Airplane_ID; Approach: out Runway_Access);
+   end Controller;
+&lt;/syntaxhighlight&gt;
+====APL====
+
+[[APL (programming language)|APL]] uses &lt;code&gt;⍝&lt;/code&gt; to indicate a comment up to the end of the line.
+
+For example:
+&lt;syntaxhighlight lang="apl"&gt;
+⍝ Now add the numbers:
+c←a+b ⍝ addition
+&lt;/syntaxhighlight&gt;
+
+In dialects that have the &lt;code&gt;⊣&lt;/code&gt; ("left") and &lt;code&gt;⊢&lt;/code&gt; ("right") primitives, comments can often be ''inside'' or separate statements, in the form of ignored strings:
+&lt;syntaxhighlight lang="apl"&gt;
+d←2×c ⊣'where'⊢ c←a+ 'bound'⊢ b
+&lt;/syntaxhighlight&gt;
+
+====AppleScript====
+This section of [[AppleScript]] code shows the two styles of comments used in that language.
+&lt;syntaxhighlight lang="AppleScript"&gt;
+(*
+This program displays a greeting.
+*)
+on greet(myGreeting)
+     display dialog myGreeting &amp; " world!"
+end greet
+
+-- Show the greeting
+greet("Hello")
+&lt;/syntaxhighlight&gt;
+
+====BASIC====
+In this classic early [[BASIC]] code fragment the REM (''"Remark"'') keyword is used to add comments.
+&lt;syntaxhighlight lang="basic"&gt;
+10 REM This BASIC program shows the use of the PRINT and GOTO Statements.
+15 REM It fills the screen with the phrase "HELLO"
+20 PRINT "HELLO"
+30 GOTO 20
+&lt;/syntaxhighlight&gt;
+
+In later [[Microsoft]] BASICs, including [[Quick Basic]], [[Q Basic]], [[Visual Basic]], [[Visual Basic .NET]], and [[VB Script]]; and in descendants such as [[Free BASIC]] and [[Gam bas]] any text on a line after an ' (apostrophe) character is also treated as a comment.
+
+An example in Visual Basic .NET:
+&lt;syntaxhighlight lang="vbnet"&gt;
+Public Class Form1
+    Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
+        ' The following code is executed when the user
+        ' clicks the button in the program's window.
+        rem comments still exist.
+
+        MessageBox.Show("Hello, World") 'Show a pop-up window with a greeting
+    End Sub
+End Class
+&lt;/syntaxhighlight&gt;
+
+====C====
+This [[C (programming language)|C]] code fragment demonstrates the use of a prologue comment or "block comment" to describe the purpose of a [[conditional (programming)|conditional statement]]. The comment explains key terms and concepts, and includes a short signature by the programmer who authored the code.
+&lt;syntaxhighlight lang="c"&gt;
+ /*
+  * Check if we are over our maximum process limit, but be sure to
+  * exclude root. This is needed to make it possible for login and
+  * friends to set the per-user process limit to something lower
+  * than the amount of processes root is running. -- Rik
+  */
+ if (atomic_read(&amp;p-&gt;user-&gt;processes) &gt;= p-&gt;rlim[RLIMIT_NPROC].rlim_cur
+     &amp;&amp; !capable(CAP_SYS_ADMIN) &amp;&amp; !capable(CAP_SYS_RESOURCE))
+     goto bad_fork_free;
+&lt;/syntaxhighlight&gt;
+
+Since C99, it has also been possible to use the // syntax from C++, indicating a single-line comment.
+
+====Cisco IOS and IOS-XE configuration====
+The [[exclamation point]] ('''!''') may be used to mark comments in a Cisco router's configuration mode, however such comments are ''not'' saved to [[non-volatile memory]] (which contains the startup-config), nor are they displayed by the "show run" command.&lt;ref&gt;{{cite web|url=https://learningnetwork.cisco.com/thread/71302|title=Leave a comment in running-config|work=Cisco Learning Network (discussion forum)}}&lt;/ref&gt;&lt;ref&gt;{{cite web|url =http://www.cisco.com/c/en/us/td/docs/ios-xml/ios/config-mgmt/configuration/xe-3s/asr903/config-mgmt-xe-3s-asr903-book/cm-config-files.html|ref=GUID-657D5FD4-32C5-444C-BCE0-BC2CC1069005|title=Managing Configuration Files Configuration Guide, Cisco IOS XE Release 3S (ASR 900 Series)}}&lt;/ref&gt;
+
+It is possible to insert [[human-readable]] content that is actually part of the configuration, and may be saved to the [[NVRAM]] startup-config via:
+*  The "description" command, used to add a description to the configuration of an interface or of a [[BGP]] neighbor
+* The "name" parameter, to add a remark to a static route
+* The "remark" command in access lists
+
+&lt;syntaxhighlight lang="text"&gt;
+! Paste the text below to reroute traffic manually
+config t
+int gi0/2
+no shut
+ip route 0.0.0.0 0.0.0.0 gi0/2 name ISP2
+no ip route 0.0.0.0 0.0.0.0 gi0/1 name ISP1
+int gi0/1
+shut
+exit
+&lt;/syntaxhighlight&gt;
+
+====ColdFusion====
+[[ColdFusion]] uses comments similar to [[HTML comment]]s, but instead of two dashes, it uses three. These comments are caught by the ColdFusion engine and not printed to the browser.
+
+&lt;syntaxhighlight lang="cfm"&gt;
+ &lt;!--- This prints "Hello World" to the browser. ---&gt;
+ &lt;cfoutput&gt;
+   Hello World&lt;br /&gt;
+ &lt;/cfoutput&gt;
+&lt;/syntaxhighlight&gt;
+
+====Fortran IV====
+This [[Fortran IV]] code fragment demonstrates how comments are used in that language, which is very column-oriented. A letter "C" in column 1 causes the entire line to be treated as a comment.
+
+&lt;syntaxhighlight lang="fortranfixed"&gt;
+C
+C Lines that begin with 'C' (in the first or 'comment' column) are comments
+C
+      WRITE (6,610)
+  610 FORMAT(12H HELLO WORLD)
+      END
+&lt;/syntaxhighlight&gt;
+
+Note that the columns of a line are otherwise treated as four fields: 1 to 5 is the label field, 6 causes the line to be taken as a continuation of the previous statement; and declarations and statements go in 7 to 72.
+
+====Fortran 90====
+This [[Fortran]] code fragment demonstrates how comments are used in that language, with the comments themselves describing the basic formatting rules.
+&lt;syntaxhighlight lang="Fortran"&gt;
+!* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+!* All characters after an exclamation mark are considered as comments *
+!* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+program comment_test
+    print '(A)', 'Hello world' ! Fortran 90 introduced the option for inline comments.
+end program
+&lt;/syntaxhighlight&gt;
+
+====Haskell====
+Line comments in Haskell start with '--' (two hyphens) until the end of line, and multiple line comments start with '{-' and end with '-}'.
+&lt;syntaxhighlight lang="Haskell"&gt;
+{- this is a comment
+on more lines -}
+-- and this is a comment on one line
+putStrLn "Wikipedia"  -- this is another comment
+&lt;/syntaxhighlight&gt;
+
+Haskell also provides a [[literate programming]] method of commenting known as "Bird Style".&lt;ref&gt;{{cite web |url=http://www.haskell.org/haskellwiki/Literate_programming#Bird_Style |title=Literate programming |website=haskell.org}}&lt;/ref&gt; In this all lines starting with &gt; are interpreted as code, everything else is considered a comment. One additional requirement is that you always leave a blank line before and after the code block:
+
+&lt;syntaxhighlight lang="lHaskell"&gt;
+In Bird-style you have to leave a blank before the code.
+
+&gt; fact :: Integer -&gt; Integer
+&gt; fact 0 = 1
+&gt; fact (n+1) = (n+1) * fact n
+
+And you have to leave a blank line after the code as well.
+&lt;/syntaxhighlight&gt;
+Literate programming can also be done in Haskell, using [[LaTeX]].  The code environment can be used instead of the Richard Bird's style:
+In [[LaTeX]] style this is equivalent to the above example, the code environment could be defined in the LaTeX preamble. Here is a simple definition:
+&lt;syntaxhighlight lang="lHaskell"&gt;
+\usepackage{verbatim}
+\newenvironment{code}{\verbatim}{\endverbatim}
+&lt;/syntaxhighlight&gt;
+later in
+&lt;syntaxhighlight lang="lhaskell"&gt;
+% the LaTeX source file
+The \verb|fact n| function call computes $n!$ if $n\ge 0$, here is a definition:\\
+\begin{code}
+fact :: Integer -&gt; Integer
+fact 0 = 1
+fact (n+1) = (n+1) * fact n
+\end{code}
+Here more explanation using \LaTeX{} markup
+&lt;/syntaxhighlight&gt;
+
+====Java====
+This [[Java (programming language)|Java]] code fragment shows a block comment used to describe the &lt;code&gt;setToolTipText&lt;/code&gt; method. The formatting is consistent with [[Sun Microsystems]] [[Javadoc]] standards. The comment is designed to be read by the Javadoc processor.
+&lt;syntaxhighlight lang="java"&gt;
+/**
+ * This is a block comment in Java.
+ * The setToolTipText method registers the text to display in a tool tip.
+ * The text is displayed when the cursor lingers over the component.
+ *
+ * @param text  The string to be displayed.  If 'text' is null,
+ *              the tool tip is turned off for this component.
+ */
+public void setToolTipText(String text) {
+    // This is an inline comment in Java. TODO: Write code for this method.
+}
+&lt;/syntaxhighlight&gt;
+
+====JavaScript====
+[[JavaScript (programming language)|JavaScript]] uses // to precede comments and /* */ for multi-line comments.
+
+&lt;syntaxhighlight lang="javascript"&gt;
+// A single line JavaScript comment
+var iNum = 100;
+var iTwo = 2; // A comment at the end of line
+/*
+multi-line
+JavaScript comment
+*/
+&lt;/syntaxhighlight&gt;
+
+====Lua====
+The [[Lua (programming language)|Lua]] programming language uses double-hyphens, &lt;code&gt;--&lt;/code&gt;, for single line comments in a similar way to [[Ada (programming language)|Ada]], [[Eiffel (programming language)|Eiffel]], [[Haskell (programming language)|Haskell]], [[SQL]] and [[VHDL]] languages. Lua also has block comments, which start with &lt;code&gt;--[[&lt;/code&gt; and run until a closing &lt;code&gt;]]&lt;/code&gt;
+
+For example:
+
+&lt;syntaxhighlight lang="lua"&gt;
+--[[A multi-line
+long comment
+]]
+print(20)   -- print the result
+&lt;/syntaxhighlight&gt;
+
+A common technique to comment out a piece of code,&lt;ref&gt;{{Cite web|url=http://www.lua.org/pil/1.3.html|title=Programming in Lua 1.3|website=www.Lua.org|access-date=2017-11-08}}&lt;/ref&gt; is to enclose the code between &lt;code&gt;--[[&lt;/code&gt; and
+&lt;code&gt;--]]&lt;/code&gt;, as below:
+
+&lt;syntaxhighlight lang="lua"&gt;
+--[[
+print(10)
+--]]
+-- no action (commented out)
+&lt;/syntaxhighlight&gt;
+
+In this case, it's possible to reactivate the code by adding a single hyphen to the first line:
+
+&lt;syntaxhighlight lang="lua"&gt;
+---[[
+print(10)
+--]]
+--&gt; 10
+&lt;/syntaxhighlight&gt;
+
+In the first example, the &lt;code&gt;--[[&lt;/code&gt; in the first line starts a long comment, and the two hyphens in the last line
+are still inside that comment. In the second example, the sequence &lt;code&gt;---[[&lt;/code&gt; starts an ordinary, single-line
+comment, so that the first and the last lines become independent comments. In this case, the &lt;code&gt;print&lt;/code&gt; is
+outside comments. In this case, the last line becomes an independent comment, as it starts with &lt;code&gt;--&lt;/code&gt;.
+
+Long comments in Lua can be more complex than these, as you can read in the section called "Long strings" c.f. ''Programming in Lua''.
+
+====MATLAB====
+In [[MATLAB]]'s programming language, the '%' character indicates a single-line comment.  Multi line comments are also available via %{ and %} brackets and can be nested, e.g.
+
+&lt;syntaxhighlight lang="matlab"&gt;
+% These are the derivatives for each term
+d = [0 -1 0];
+
+%{
+  %{
+    (Example of a nested comment, indentation is for cosmetics (and ignored).)
+  %}
+  We form the sequence, following the Taylor formula.
+  Note that we're operating on a vector.
+%}
+seq = d .* (x - c).^n ./(factorial(n))
+
+% We add-up to get the Taylor approximation
+approx = sum(seq)
+&lt;/syntaxhighlight&gt;
+
+====OCaml====
+[[OCaml]] uses nestable comments, which is useful when commenting a code block.
+&lt;syntaxhighlight lang="ocaml"&gt;
+codeLine(* comment level 1(*comment level 2*)*)
+&lt;/syntaxhighlight&gt;
+
+====Pascal====
+
+In Niklaus Wirth's [[Pascal (programming language)|pascal]] family of languages (including [[Modula-2]] and [[Oberon (programming language)|Oberon]]), comments are opened with '(*' and completed with '*)'.
+
+for example:
+&lt;syntaxhighlight lang="pascal"&gt;
+(* test diagonals *)
+columnDifference := testColumn - column;
+if (row + columnDifference = testRow) or
+    .......
+&lt;/syntaxhighlight&gt;In modern dialects of Pascal, '{' and '}' are used instead.&lt;ref&gt;{{Cite web|url=https://www.freepascal.org/docs-html/3.0.0/ref/refse2.html|title=Comments|website=www.freepascal.org|access-date=2017-09-20}}&lt;/ref&gt;
+
+====Perl====
+Line comments in [[Perl]], and many other [[scripting language]]s, begin with a hash (#) symbol. 
+&lt;syntaxhighlight lang="perl"&gt;
+# A simple example
+# 
+my $s = "Wikipedia"; # Sets the variable s to "Wikipedia".
+print $s . "\n";     # Add a newline character after printing
+&lt;/syntaxhighlight&gt;
+
+Instead of a regular block commenting construct, Perl uses [[Plain Old Documentation]], a markup language for [[literate programming]],&lt;ref&gt;
+{{cite web
+| title = perlpod – the Plain Old Documentation format
+| url = http://perldoc.perl.org/perlpod.html|accessdate=2011-09-12
+}}
+&lt;/ref&gt; for instance:&lt;ref&gt;
+{{cite web
+| title = Pod::ParseUtils – helpers for POD parsing and conversion
+| url = http://search.cpan.org/~bradapp/PodParser-1.20/lib/Pod/ParseUtils.pm|accessdate=2011-09-12
+}}&lt;/ref&gt;
+&lt;syntaxhighlight lang="perl"&gt;
+=item Pod::List-E&lt;gt&gt;new()
+
+Create a new list object. Properties may be specified through a hash
+reference like this:
+
+  my $list = Pod::List-&gt;new({ -start =&gt; $., -indent =&gt; 4 });
+
+See the individual methods/properties for details.
+
+=cut
+
+sub new {
+    my $this = shift;
+    my $class = ref($this) || $this;
+    my %params = @_;
+    my $self = {%params};
+    bless $self, $class;
+    $self-&gt;initialize();
+    return $self;
+}
+&lt;/syntaxhighlight&gt;
+
+====Raku====
+[[Raku (programming language)|Raku]] (previously called Perl 6) uses the same line comments and POD Documentation comments as regular [[Perl]] (see Perl section above), but adds a configurable block comment type: "multi-line / embedded comments".&lt;ref name=perl6&gt;
+{{cite web
+| title = Perl 6 Documentation – Syntax (Comments)
+| url = https://docs.perl6.org/language/syntax#Comments|accessdate=2017-04-06
+}}
+&lt;/ref&gt;
+
+These start with a hash character, followed by a backtick, and then some opening bracketing character, and end with the matching closing bracketing character.&lt;ref name=perl6 /&gt; The content can not only span multiple lines, but can also be embedded inline.
+&lt;syntaxhighlight lang="perl6"&gt;
+#`{{ "commenting out" this version 
+toggle-case(Str:D $s)
+
+Toggles the case of each character in a string:
+
+  my Str $toggled-string = toggle-case("mY NAME IS mICHAEL!");
+
+}}
+
+sub toggle-case(Str:D $s) #`( this version of parens is used now ){
+    ...
+}
+&lt;/syntaxhighlight&gt;
+
+====PHP====
+Comments in [[PHP]] can be either in C++ style (both inline and block), or use hashes.  [[PHPDoc]] is a style adapted from Javadoc and is a common standard for documenting PHP code.
+
+====PowerShell====
+Comments in [[Windows PowerShell]]
+
+&lt;syntaxhighlight lang="powershell"&gt;
+# Single line comment
+Write-Host "Hello, World!"
+
+&lt;# Multi
+   Line
+   Comment #&gt;
+
+Write-Host "Goodbye, world!"
+&lt;/syntaxhighlight&gt;
+
+====Python====
+Inline comments in [[Python (programming language)|Python]] use the hash (#) character, as in the two examples in this code: 
+
+&lt;syntaxhighlight lang="python"&gt;
+# This program prints "Hello World" to the screen
+print("Hello World!")  # Note the new syntax
+&lt;/syntaxhighlight&gt;
+
+Block comments, as defined in this article, don't technically exist in Python.&lt;ref&gt;{{cite web |url=https://www.tutorialdocs.com/tutorial/python3/python3-basic-syntax.html |title=Python 3 Basic Syntax |accessdate=25 February 2019 |quote=Triple quotes are treated as regular strings with the exception that they can span multiple lines. By regular strings I mean that if they are not assigned to a variable they will be immediately garbage collected as soon as that code executes. hence are not ignored by the interpreter in the same way that #a comment is.}}&lt;/ref&gt; A bare [[string literal]] represented by a triple-quoted string can be used&lt;ref&gt;[https://twitter.com/gvanrossum/status/112670605505077248 "Python tip: You can use multi-line strings as multi-line comments"], 11 September 2011, Guido van Rossum&lt;/ref&gt; but is not ignored by the interpreter in the same way that "#" comment is. In the examples below, the triple double-quoted strings act in this way as comments, but are also treated as [[docstring]]s:
+
+&lt;syntaxhighlight lang="python"&gt;
+"""
+Assuming this is file mymodule.py, then this string, being the
+first statement in the file, will become the "mymodule" module's
+docstring when the file is imported.
+"""
+
+class MyClass(object):
+    """The class's docstring"""
+
+    def my_method(self):
+        """The method's docstring"""
+
+def my_function():
+    """The function's docstring"""
+&lt;/syntaxhighlight&gt;
+
+====Ruby====
+Comments in [[Ruby (programming language)|Ruby]].
+
+Single line commenting: (line starts with hash "#")
+&lt;syntaxhighlight lang="ruby"&gt;
+puts "This is not a comment"
+
+# this is a comment
+
+puts "This is not a comment"
+&lt;/syntaxhighlight&gt;
+
+Multi-line commenting: (comments goes between keywords "begin" and "end")
+&lt;syntaxhighlight lang="Ruby"&gt;
+puts "This is not a comment"
+
+=begin
+
+whatever goes in these lines
+
+is just for the human reader
+
+=end
+
+puts "This is not a comment"
+&lt;/syntaxhighlight&gt;
+
+==== SQL ====
+Standard comments in SQL are in single-line-only form, using two dashes:
+&lt;syntaxhighlight lang="sql"&gt;
+-- This is a single line comment
+-- followed by a second line
+SELECT COUNT(*)
+       FROM Authors
+       WHERE Authors.name = 'Smith'; -- Note: we only want 'smith'
+                                     -- this comment appears after SQL code
+&lt;/syntaxhighlight&gt;
+Alternatively, a comment format syntax identical to the "block comment" style used in the syntax for C and Java is supported by [[Transact-SQL]], [[MySQL]], [[SQLite]], [[PostgreSQL]], and [[Oracle Database|Oracle]].&lt;ref name="MSSQL"&gt;{{cite book
+| title      = Microsoft SQL Server 7
+| first      = Ronald R.
+| last      = Talmage
+| publisher      = Prima Publishing
+| year      = 1999
+| isbn      = 978-0-7615-1389-6
+| url      = https://archive.org/details/microsoftsqlserv00talm
+}}&lt;/ref&gt;&lt;ref name="MySQL"&gt;{{cite web | url=https://dev.mysql.com/doc/refman/8.0/en/comments.html | title=MySQL 8.0 Reference Manual | publisher=Oracle Corporation | accessdate=January 2, 2020}}&lt;/ref&gt;&lt;ref name="SQLite"&gt;{{cite web | url=https://www.sqlite.org/lang_comment.html | title=SQL As Understood By SQLite | publisher=SQLite Consortium | accessdate=January 2, 2020}}&lt;/ref&gt;&lt;ref name="PostgreSQL"&gt;{{cite web | url=https://www.postgresql.org/docs/10/sql-syntax-lexical.html#SQL-SYNTAX-COMMENTS | title=PostgreSQL 10.11 Documentation | publisher=The PostgreSQL Global Development Group | accessdate=January 2, 2020}}&lt;/ref&gt;&lt;ref name="Oracle"&gt;{{cite web | url=https://docs.oracle.com/cd/B13789_01/server.101/b10759/sql_elements006.htm | title=Oracle® Database SQL Reference | publisher=Oracle Corporation | accessdate=January 2, 2020}}&lt;/ref&gt; 
+
+MySQL also supports comments from the hash (#) character to the end of the line.
+
+==== Swift ====
+Single-line comments begin with two forward-slashes (//):&lt;syntaxhighlight lang="swift"&gt;
+// This is a comment.
+&lt;/syntaxhighlight&gt;Multiline comments start with a forward-slash followed by an asterisk (/*) and end with an asterisk followed by a forward-slash (*/):&lt;syntaxhighlight lang="swift"&gt;
+/* This is also a comment
+ but is written over multiple lines. */
+&lt;/syntaxhighlight&gt;Multiline comments in Swift can be nested inside other multiline comments. You write nested comments by starting a multiline comment block and then starting a second multiline comment within the first block. The second block is then closed, followed by the first block:&lt;syntaxhighlight lang="swift"&gt;
+/* This is the start of the first multiline comment.
+ /* This is the second, nested multiline comment. */
+ This is the end of the first multiline comment. */
+&lt;/syntaxhighlight&gt;
+
+====XML====
+Comments in [[XML]] (or HTML) are introduced with &lt;syntaxhighlight lang="XML"&gt;&lt;!--&lt;/syntaxhighlight&gt; and can spread over several lines until the terminator, &lt;syntaxhighlight lang="XML"&gt;--&gt;&lt;/syntaxhighlight&gt;
+
+For example,
+
+&lt;syntaxhighlight lang="xml"&gt;
+&lt;!-- select the context here --&gt;
+&lt;param name="context" value="public" /&gt;
+&lt;/syntaxhighlight&gt;
+
+==Security issues==
+In [[interpreted language]]s the comments are viewable to the end user of the program. In some cases, such as sections of code that are "commented out", this may present a security [[vulnerability (computing)|vulnerability]].&lt;ref name="InsecureComments"&gt;{{cite book
+| last      = Andress
+| first     = Mandy
+| title     = Surviving Security: How to Integrate People, Process, and Technology
+| publisher = CRC Press
+| year      = 2003
+| isbn      = 978-0-8493-2042-2
+}}&lt;/ref&gt;
+
+==See also==
+* [[Docstring]], a specific type of comment that is parsed and retained throughout the runtime of the program.
+* [[Shebang (Unix)|Shebang]], the use of ''#!'' as an interpreter directive in scripts on Unix-like systems
+* [[HTML comment tag]]
+* [[Literate programming]], alternative documentation [[programming paradigm|paradigm]]
+* [[Comparison of programming languages (syntax)#Comments|Syntax of comments]] in various programming languages
+
+==Notes and references==
+{{reflist|2}}
+
+== Further reading ==
+* Movshovitz-Attias, Dana and Cohen, William W. (2013) [https://www.cs.cmu.edu/~dmovshov/papers/dma_acl2013.pdf Natural Language Models for Predicting Programming Comments]. In Association for Computational Linguistics (ACL), 2013.
+
+==External links==
+* [https://web.archive.org/web/20110708033309/http://dkrukovsky.blogspot.com/2005/07/how-to-write-comments.html How to Write Comments] by Denis Krukovsky
+* [https://web.archive.org/web/20070722211609/http://www.ptlogica.com/TwinText/resource/liveuser.pdf Source Code Documentation as a Live User Manual] by PTLogica
+* [https://www.oracle.com/technetwork/java/javase/tech/index-137868.html How to Write Comments for the Javadoc Tool]
+* [http://www.stack.nl/~dimitri/doxygen/index.html Doxygen], a documentation system for C, C++, Java, Objective-C, Python, IDL and to some extent PHP, C#, and D
+* [http://blogs.sitepoint.com/2007/10/10/comment-driven-development/ Comment-driven development], a personal presentation of good coding practice
+* [http://www.allthingsoracle.com/how-to-make-comments-the-most-important-code-you-write/ How to make comments the most important 'code' you write] By David Njoku
+
+{{DEFAULTSORT:Comment (Computer Programming)}}
+[[Category:Source code]]
+[[Category:Articles with example code]]
+[[Category:Articles with example C code]]
+[[Category:Articles with example Java code]]
+[[Category:Articles with example Perl code]]
+[[Category:Metadata]]</text>
+      <sha1>qfbmjsi4ujhlpncobs2k2galtl63ey1</sha1>
+    </revision>
+  </page>
+</mediawiki>

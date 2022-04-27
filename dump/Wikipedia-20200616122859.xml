@@ -1,0 +1,453 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.10/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.10/ http://www.mediawiki.org/xml/export-0.10.xsd" version="0.10" xml:lang="en">
+  <siteinfo>
+    <sitename>Wikipedia</sitename>
+    <dbname>enwiki</dbname>
+    <base>https://en.wikipedia.org/wiki/Main_Page</base>
+    <generator>MediaWiki 1.35.0-wmf.36</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Media</namespace>
+      <namespace key="-1" case="first-letter">Special</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Talk</namespace>
+      <namespace key="2" case="first-letter">User</namespace>
+      <namespace key="3" case="first-letter">User talk</namespace>
+      <namespace key="4" case="first-letter">Wikipedia</namespace>
+      <namespace key="5" case="first-letter">Wikipedia talk</namespace>
+      <namespace key="6" case="first-letter">File</namespace>
+      <namespace key="7" case="first-letter">File talk</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki talk</namespace>
+      <namespace key="10" case="first-letter">Template</namespace>
+      <namespace key="11" case="first-letter">Template talk</namespace>
+      <namespace key="12" case="first-letter">Help</namespace>
+      <namespace key="13" case="first-letter">Help talk</namespace>
+      <namespace key="14" case="first-letter">Category</namespace>
+      <namespace key="15" case="first-letter">Category talk</namespace>
+      <namespace key="100" case="first-letter">Portal</namespace>
+      <namespace key="101" case="first-letter">Portal talk</namespace>
+      <namespace key="108" case="first-letter">Book</namespace>
+      <namespace key="109" case="first-letter">Book talk</namespace>
+      <namespace key="118" case="first-letter">Draft</namespace>
+      <namespace key="119" case="first-letter">Draft talk</namespace>
+      <namespace key="446" case="first-letter">Education Program</namespace>
+      <namespace key="447" case="first-letter">Education Program talk</namespace>
+      <namespace key="710" case="first-letter">TimedText</namespace>
+      <namespace key="711" case="first-letter">TimedText talk</namespace>
+      <namespace key="828" case="first-letter">Module</namespace>
+      <namespace key="829" case="first-letter">Module talk</namespace>
+      <namespace key="2300" case="first-letter">Gadget</namespace>
+      <namespace key="2301" case="first-letter">Gadget talk</namespace>
+      <namespace key="2302" case="case-sensitive">Gadget definition</namespace>
+      <namespace key="2303" case="case-sensitive">Gadget definition talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Student's t-test</title>
+    <ns>0</ns>
+    <id>536080</id>
+    <revision>
+      <id>961669845</id>
+      <parentid>961669372</parentid>
+      <timestamp>2020-06-09T19:37:24Z</timestamp>
+      <contributor>
+        <username>Incagnito</username>
+        <id>37637730</id>
+      </contributor>
+      <comment>Rollback edit(s) by [[Special:Contributions/Taekook 1995|Taekook 1995]] ([[User_talk:Taekook 1995|talk]]) to rev. 960794587 by 82.3.19.113: non-constructive [[WP:REDWARN|(RedWarn rev13)]]</comment>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="42885" xml:space="preserve">{{DISPLAYTITLE:Student's ''t''-test}}
+{{Short description|Statistical method}}
+The '''''t''-test''' is any [[statistical hypothesis testing|statistical hypothesis test]] in which the [[test statistic]] follows a [[Student's t-distribution|Student's ''t''-distribution]] under the [[null hypothesis]].
+
+A ''t''-test is most commonly applied when the test statistic would follow a [[normal distribution]] if the value of a [[Scale parameter|scaling term]] in the test statistic were known.  When the scaling term is unknown and is replaced by an estimate based on the [[data]], the test statistics (under certain conditions) follow a Student's ''t'' distribution. The ''t''-test can be used, for example, to determine if the means of two sets of data are [[Statistical significance|significantly]] different from each other.
+
+==History==
+[[File:William Sealy Gosset.jpg|thumb|[[William Sealy Gosset]], who developed the "''t''-statistic" and published it under the [[pseudonym]] of "Student".]]
+The term "''t''-statistic" is abbreviated from "hypothesis test statistic".{{Citation needed|date=February 2011}} In statistics, the t-distribution was first derived as a [[Posterior probability|posterior distribution]] in 1876 by [[Friedrich Robert Helmert|Helmert]]&lt;ref&gt;{{Citation|last=Szabó|first=István|chapter=Systeme aus einer endlichen Anzahl starrer Körper|date=2003|work=Einführung in die Technische Mechanik|pages=196–199|publisher=Springer Berlin Heidelberg|doi=10.1007/978-3-642-61925-0_16|isbn=978-3-540-13293-6}}&lt;/ref&gt;&lt;ref&gt;{{Cite journal|last=Schlyvitch|first=B.|date=October 1937|title=Untersuchungen über den anastomotischen Kanal zwischen der Arteria coeliaca und mesenterica superior und damit in Zusammenhang stehende Fragen|journal=Zeitschrift für Anatomie und Entwicklungsgeschichte|volume=107|issue=6|pages=709–737|doi=10.1007/bf02118337|issn=0340-2061}}&lt;/ref&gt;&lt;ref&gt;{{Cite journal|last=Helmert|date=1876|title=Die Genauigkeit der Formel von Peters zur Berechnung des wahrscheinlichen Beobachtungsfehlers directer Beobachtungen gleicher Genauigkeit|journal=Astronomische Nachrichten|language=de|volume=88|issue=8–9|pages=113–131|doi=10.1002/asna.18760880802|bibcode=1876AN.....88..113H}}&lt;/ref&gt; and [[Jacob Lüroth|Lüroth]].&lt;ref&gt;{{Cite journal|last=Lüroth|first=J.|date=1876|title=Vergleichung von zwei Werthen des wahrscheinlichen Fehlers|journal=Astronomische Nachrichten|language=de|volume=87|issue=14|pages=209–220|doi=10.1002/asna.18760871402|bibcode=1876AN.....87..209L|url=https://zenodo.org/record/1424693}}&lt;/ref&gt;&lt;ref&gt;Pfanzagl J, Sheynin O (1996). "Studies in the history of probability and statistics. XLIV. A forerunner of the t-distribution". ''[[Biometrika]]''. '''83''' (4): 891–898. [[Digital object identifier|doi]]:10.1093/biomet/83.4.891. [[Mathematical Reviews|MR]] 1766040.&lt;/ref&gt;&lt;ref&gt;{{Cite journal|last=Sheynin|first=Oscar|date=1995|title=Helmert's work in the theory of errors|journal=Archive for History of Exact Sciences|language=en|volume=49|issue=1|pages=73–104|doi=10.1007/BF00374700|issn=0003-9519}}&lt;/ref&gt; The t-distribution also appeared in a more general form as Pearson Type [[Pearson distribution|IV]] distribution in [[Karl Pearson]]'s 1895 paper.&lt;ref&gt;Pearson, K. (1895-01-01). "Contributions to the Mathematical Theory of Evolution. II. Skew Variation in Homogeneous Material". ''Philosophical Transactions of the Royal Society A: Mathematical, Physical and Engineering Sciences''. '''186''': 343–414 (374). [[Digital object identifier|doi]]:10.1098/rsta.1895.0010. [[International Standard Serial Number|ISSN]] 1364-503X&lt;/ref&gt; However, the T-Distribution, also known as [[Student's t-distribution|Student's T Distribution]] gets its name from [[William Sealy Gosset]] who first published it in English literature in his 1908 paper titled [[Biometrika]] using his pseudonym "Student"&lt;ref&gt;"Student" [[William Sealy Gosset]] (1908). "The probable error of a mean" (PDF). ''[[Biometrika]]''. '''6''' (1): 1–25. [[Digital object identifier|doi]]:10.1093/biomet/6.1.1. [[Handle System|hdl]]:10338.dmlcz/143545. [[JSTOR]] 2331554&lt;/ref&gt;&lt;ref&gt;{{Cite web|url=https://www.tdistributiontable.com|title=T Table {{!}} History of T Table, Etymology, one-tail T Table, two-tail T Table and T-statistic|last=|first=|date=|website=|url-status=live|archive-url=|archive-date=|access-date=}}&lt;/ref&gt; because his employer preferred staff to use pen names when publishing scientific papers instead of their real name, so he used the name "Student" to hide his identity.&lt;ref&gt;Wendl MC (2016). "Pseudonymous fame". Science. 351 (6280): 1406. doi:10.1126/science.351.6280.1406. {{PMID|27013722}}&lt;/ref&gt; Gosset worked at the [[Guinness Brewery]] in [[Dublin]], [[Ireland]], and was interested in the problems of small samples – for example, the chemical properties of barley with small sample sizes. Hence a second version of the etymology of the term Student is that Guinness did not want their competitors to know that they were using the t-test to determine the quality of raw material. Although it was William Gosset after whom the term "Student" is penned, it was actually through the work of [[Ronald Fisher]] that the distribution became well known as "Student's distribution"&lt;ref&gt;{{Cite document|title=Original PDF|doi=10.15438/rr.5.1.7}}&lt;/ref&gt;&lt;ref&gt;{{Cite book|last=Walpole, Ronald E.|title=Probability &amp; statistics for engineers &amp; scientists|date=2006|publisher=Pearson|others=Myers, H. Raymond.|isbn=81-7758-404-9|edition= 7th|location=New Delhi|oclc=818811849}}&lt;/ref&gt; and "Student's t-test".
+
+Gosset had been hired owing to [[Claude Guinness]]'s policy of recruiting the best graduates from [[Oxford University|Oxford]] and [[Cambridge University|Cambridge]] to apply [[biochemistry]] and [[statistics]] to Guinness's industrial processes.&lt;ref name="Gossett"&gt;{{MacTutor Biography|id=Gosset|title=William Sealy Gosset}}&lt;/ref&gt; Gosset devised the ''t''-test as an economical way to monitor the quality of [[stout]]. The ''t''-test work was submitted to and accepted in the journal ''[[Biometrika]]'' and published in 1908.&lt;ref name="The Probable Error of a Mean"&gt;{{cite journal|title=The Probable Error of a Mean|journal=[[Biometrika]]|date=1908|volume=6|issue=1|pages=1–25|url=http://seismo.berkeley.edu/~kirchner/eps_120/Odds_n_ends/Students_original_paper.pdf|accessdate=24 July 2016|doi=10.1093/biomet/6.1.1|hdl=10338.dmlcz/143545}}&lt;/ref&gt; Company policy at Guinness forbade its chemists from publishing their findings, so Gosset published his statistical work under the pseudonym "Student" (see [[Student's t-distribution#History and etymology|Student's ''t''-distribution]] for a detailed history of this pseudonym, which is not to be confused with the literal term ''[[student]]'').
+
+Guinness had a policy of allowing technical staff leave for study (so-called "study leave"), which Gosset used during the first two terms of the 1906–1907 academic year in [[Karl Pearson|Professor Karl Pearson]]'s Biometric Laboratory at [[University College London]].&lt;ref&gt;{{cite journal |last=Raju |first=T. N. |title=William Sealy Gosset and William A. Silverman: Two "students" of science |journal=[[Pediatrics (journal)|Pediatrics]] |volume=116 |issue=3 |pages=732–5 |year=2005 |pmid=16140715 |doi=10.1542/peds.2005-1134}}&lt;/ref&gt; Gosset's identity was then known to fellow statisticians and to editor-in-chief Karl Pearson.&lt;ref name="Dodge2008"&gt;{{cite book|first=Yadolah|last=Dodge|author-link= Yadolah Dodge|title=The Concise Encyclopedia of Statistics|url=https://books.google.com/?id=k2zklGOBRDwC&amp;pg=PA234|year=2008|publisher=Springer Science &amp; Business Media|isbn=978-0-387-31742-7|pages=234–235}}&lt;/ref&gt;
+&lt;!--
+==Properties of the t-statistic== --&gt;
+
+==Uses==
+Among the most frequently used ''t''-tests are:
+* A one-sample [[location test]] of whether the mean of a population has a value specified in a [[null hypothesis]].
+* A two-sample location test of the null hypothesis such that the [[expected value|mean]]s of two populations are equal. All such tests are usually called '''Student's ''t''-tests''', though strictly speaking that name should only be used if the [[variance]]s of the two populations are also assumed to be equal; the form of the test used when this assumption is dropped is sometimes called [[Welch's t test|Welch's ''t''-test]]. These tests are often referred to as "unpaired" or "independent samples" ''t''-tests, as they are typically applied when the [[unit (statistics)|statistical units]] underlying the two samples being compared are non-overlapping.&lt;ref name=fadem&gt;{{cite book |last=Fadem |first=Barbara |title=High-Yield Behavioral Science |series=High-Yield Series |publisher=Lippincott Williams &amp; Wilkins |location=Hagerstown, MD |year=2008 |pages= |isbn=978-0-7817-8258-6 |oclc= |doi=}}&lt;/ref&gt;
+
+==Assumptions==
+Most test statistics have the form {{math|1=''t'' = {{sfrac|''Z''|''s''}}}}, where {{math|''Z''}} and {{math|''s''}} are functions of the data.
+
+{{math|''Z''}} may be sensitive to the alternative hypothesis (i.e., its magnitude tends to be larger when the alternative hypothesis is true), whereas {{math|''s''}} is a [[Scale parameter|scaling parameter]] that allows the distribution of {{math|''t''}} to be determined.
+
+As an example, in the one-sample ''t''-test
+:&lt;math&gt;t = \frac{Z} {s} = \frac{\bar{X} - \mu}{\widehat\sigma / \sqrt{n}}&lt;/math&gt;
+where {{math|{{overline|''X''}}}} is the [[average|sample mean]] from a sample {{math|''X''&lt;sub&gt;1&lt;/sub&gt;, ''X''&lt;sub&gt;2&lt;/sub&gt;, …, ''X''&lt;sub&gt;''n''&lt;/sub&gt;}}, of size {{math|''n''}}, {{math|''s''}} is the [[standard error of the mean]], &lt;math display="inline"&gt; \widehat\sigma&lt;/math&gt; is the estimate of the [[variance|standard deviation]] of the population, and {{math|''μ''}} is the [[population mean]].
+
+The assumptions underlying a ''t''-test in its simplest form are that
+
+* {{math|{{overline|''X''}}}} follows a normal distribution with mean {{math|''μ''}} and variance {{math|{{sfrac|''σ''&lt;sup&gt;2&lt;/sup&gt;|''n''}}}}
+* {{math|''s''&lt;sup&gt;2&lt;/sup&gt;(n-1)/''σ''&lt;sup&gt;2&lt;/sup&gt;}} follows a [[chi-squared distribution|{{math|''χ''&lt;sup&gt;2&lt;/sup&gt;}} distribution]] with {{math|''n''&amp;nbsp;−&amp;nbsp;1}} [[Degrees of freedom (statistics)|degrees of freedom]]. This assumption is met when the observations used for estimating {{math|''s''&lt;sup&gt;2&lt;/sup&gt;}} come from a normal distribution (and i.i.d for each group).
+* {{math|''Z''}} and {{math|''s''}} are [[statistical independence|independent]].
+
+In the ''t''-test comparing the means of two independent samples, the following assumptions should be met:
+
+* The means of the two populations being compared should follow [[normal distributions]]. Under weak assumptions, this follows in large samples from the [[central limit theorem]], even when the distribution of observations in each group is non-normal.&lt;ref name=":0"&gt;{{Cite journal|last=Lumley|first=Thomas|last2=Diehr|first2=Paula|last3=Emerson|first3=Scott|last4=Chen|first4=Lu|date=May 2002|title=The Importance of the Normality Assumption in Large Public Health Data Sets|journal=Annual Review of Public Health|volume=23|issue=1|pages=151–169|doi=10.1146/annurev.publhealth.23.100901.140546|pmid=11910059|issn=0163-7525}}&lt;/ref&gt;
+* If using Student's original definition of the ''t''-test, the two populations being compared should have the same variance (testable using [[F-test of equality of variances|''F''-test]], [[Levene's test]], [[Bartlett's test]], or the [[Brown–Forsythe test]]; or assessable graphically using a [[Q–Q plot]]).  If the sample sizes in the two groups being compared are equal, Student's original ''t''-test is highly robust to the presence of unequal variances.&lt;ref&gt;{{cite journal |last1=Markowski |first1=Carol A. |last2=Markowski |first2=Edward P. |year=1990 |title=Conditions for the Effectiveness of a Preliminary Test of Variance |journal=The American Statistician |pages=322–326 |volume=44 |jstor=2684360 |doi=10.2307/2684360 |issue=4}}&lt;/ref&gt; [[Welch's t-test|Welch's ''t''-test]] is insensitive to equality of the variances regardless of whether the sample sizes are similar.
+* The data used to carry out the test should either be sampled independently from the two populations being compared or be fully paired. This is in general not testable from the data, but if the data are known to be dependent (e.g. paired by test design), a dependent test has to be applied. For partially paired data, the classical independent ''t''-tests may give invalid results as the test statistic might not follow a ''t'' distribution, while the dependent ''t''-test is sub-optimal as it discards the unpaired data.&lt;ref name="Guo2017"&gt;{{cite journal |last1=Guo |first1=Beibei |last2=Yuan |first2=Ying |title=A comparative review of methods for comparing means using partially paired data |journal=Statistical Methods in Medical Research |date=2017 |volume=26 |issue=3 |pages=1323–1340 |doi=10.1177/0962280215577111 |pmid=25834090}}&lt;/ref&gt;
+
+Most two-sample ''t''-tests are robust to all but large deviations from the assumptions.&lt;ref name="Bland1995"&gt;{{cite book|first=Martin|last=Bland|title=An Introduction to Medical Statistics|url=https://books.google.com/?id=v6xpAAAAMAAJ|year=1995|publisher=Oxford University Press|isbn=978-0-19-262428-4|page=168}}&lt;/ref&gt;
+
+For [[Exact test|exactness]], the ''t''-test and ''Z''-test require normality of the sample means, and the ''t''-test additionally requires that the sample variance follows a scaled [[Chi-squared distribution|''χ''{{isup|2}} distribution]], and that the sample mean and sample variance be [[independence (probability theory)|statistically independent]].  Normality of the individual data values is not required if these conditions are met.  By the [[central limit theorem]], sample means of moderately large samples are often well-approximated by a normal distribution even if the data are not normally distributed.  For non-normal data, the distribution of the sample variance may deviate substantially from a ''χ''{{isup|2}} distribution.  However, if the sample size is large, [[Slutsky's theorem]] implies that the distribution of the sample variance has little effect on the distribution of the test statistic.
+
+==Unpaired and paired two-sample ''t''-tests==
+
+[[File:Type 1 error.png|thumb|Type I error of unpaired and paired two-sample ''t''-tests as a function of the correlation. The simulated random numbers originate from a bivariate normal distribution with a variance of 1. The significance level is 5% and the number of cases is 60.]]
+[[File:Power of t-tests.png|thumb|Power of unpaired and paired two-sample ''t''-tests as a function of the correlation. The simulated random numbers originate from a bivariate normal distribution with a variance of 1 and a deviation of the expected value of 0.4. The significance level is 5% and the number of cases is 60.]]
+
+Two-sample ''t''-tests for a difference in mean involve independent samples (unpaired samples) or paired samples.  Paired ''t''-tests are a form of [[blocking (statistics)|blocking]], and have greater [[statistical power|power]] than unpaired tests when the paired units are similar with respect to "noise factors" that are independent of membership in the two groups being compared.&lt;ref&gt;{{cite book|first=John A. |last=Rice |date=2006 |title=Mathematical Statistics and Data Analysis |edition= 3rd |publisher=Duxbury Advanced |isbn= }}{{ISBN missing}}&lt;/ref&gt; In a different context, paired ''t''-tests can be used to reduce the effects of [[confounders|confounding factors]] in an [[observational study]].
+
+===Independent (unpaired) samples===
+The independent samples ''t''-test is used when two separate sets of [[Independent and identically-distributed random variables|independent and identically distributed]] samples are obtained, one from each of the two populations being compared. For example, suppose we are evaluating the effect of a medical treatment, and we enroll 100&amp;nbsp;subjects into our study, then randomly assign 50&amp;nbsp;subjects to the treatment group and 50&amp;nbsp;subjects to the control group. In this case, we have two independent samples and would use the unpaired form of the ''t''-test.
+
+===Paired samples===
+{{Main|Paired difference test}}
+
+Paired samples ''t''-tests typically consist of a sample of matched pairs of similar [[unit (statistics)|units]], or one group of units that has been tested twice (a "repeated measures" ''t''-test).
+
+A typical example of the repeated measures ''t''-test would be where subjects are tested prior to a treatment, say for high blood pressure, and the same subjects are tested again after treatment with a blood-pressure-lowering medication. By comparing the same patient's numbers before and after treatment, we are effectively using each patient as their own control. That way the correct rejection of the null hypothesis (here: of no difference made by the treatment) can become much more likely, with statistical power increasing simply because the random interpatient variation has now been eliminated. However, an increase of statistical power comes at a price: more tests are required, each subject having to be tested twice. Because half of the sample now depends on the other half, the paired version of Student's ''t''-test has only {{math|{{sfrac|''n''|2}} − 1}} degrees of freedom (with {{math|''n''}} being the total number of observations).{{citation needed|reason=many references says n-1, like http://www.statsdirect.com/help/Default.htm#parametric_methods/paired_t.htm|date=February 2016}} Pairs become individual test units, and the sample has to be doubled to achieve the same number of degrees of freedom. Normally, there are {{math|''n'' − 1}} degrees of freedom (with {{math|''n''}} being the total number of observations).&lt;ref&gt;{{cite web|last1=Weisstein|first1=Eric|title=Student's t-Distribution|url=http://mathworld.wolfram.com/Studentst-Distribution.html|website=mathworld.wolfram.com}}&lt;/ref&gt;
+
+A paired samples ''t''-test based on a "matched-pairs sample" results from an unpaired sample that is subsequently used to form a paired sample, by using additional variables that were measured along with the variable of interest.&lt;ref&gt;{{cite journal |last1=David |first1=H.&amp;nbsp;A. |last2=Gunnink |first2=Jason L. |year=1997 |title=The Paired ''t'' Test Under Artificial Pairing |journal=The American Statistician |volume=51 |pages=9–12 |jstor=2684684 |doi=10.2307/2684684 |issue=1}}&lt;/ref&gt; The matching is carried out by identifying pairs of values consisting of one observation from each of the two samples, where the pair is similar in terms of other measured variables. This approach is sometimes used in observational studies to reduce or eliminate the effects of confounding factors.
+
+Paired samples ''t''-tests are often referred to as "dependent samples ''t''-tests".
+
+==Calculations==
+Explicit expressions that can be used to carry out various ''t''-tests are given below.  In each case, the formula for a test statistic that either exactly follows or closely approximates a ''t''-distribution under the null hypothesis is given.  Also, the appropriate [[degrees of freedom (statistics)|degrees of freedom]] are given in each case.  Each of these statistics can be used to carry out either a [[One-tailed test|one-tailed or two-tailed test]].
+
+Once the ''t'' value and degrees of freedom are determined, a [[p-value|''p''-value]] can be found using a [[Student's t-distribution#Table of selected values|table of values from Student's ''t''-distribution]].  If the calculated ''p''-value is below the threshold chosen for [[statistical significance]] (usually the 0.10, the 0.05, or 0.01 level), then the null hypothesis is rejected in favor of the alternative hypothesis.
+
+===One-sample ''t''-test===
+In testing the null hypothesis that the population mean is equal to a specified value {{math|''μ''&lt;sub&gt;0&lt;/sub&gt;}}, one uses the statistic
+
+:&lt;math&gt; t = \frac{\bar{x} - \mu_0}{s/\sqrt{n}} &lt;/math&gt;
+
+where &lt;math&gt;\bar x&lt;/math&gt; is the sample mean, {{math|''s''}} is the [[Standard deviation#Estimation|sample standard deviation]] and {{math|''n''}} is the sample size. The degrees of freedom used in this test are {{math|''n'' − 1}}. 
+Although the parent population does not need to be normally distributed, the distribution of the population of sample means &lt;math&gt;\bar x&lt;/math&gt; is assumed to be normal.
+
+By the [[central limit theorem]], if the observations are independent and the second moment exists, then &lt;math&gt;t&lt;/math&gt; will be approximately normal N(0;1).
+
+===Slope of a regression line===
+Suppose one is fitting the model
+
+: &lt;math&gt; Y = \alpha + \beta x + \varepsilon &lt;/math&gt;
+
+where {{math|''x''}} is known, {{math|''α''}} and {{math|''β''}} are unknown, {{math|''ε''}} is a normally distributed random variable with mean 0 and unknown variance {{math|''σ''&lt;sup&gt;2&lt;/sup&gt;}}, and {{math|''Y''}} is the outcome of interest. We want to test the null hypothesis that the slope {{math|''β''}} is equal to some specified value {{math|''β''&lt;sub&gt;0&lt;/sub&gt;}} (often taken to be 0, in which case the null hypothesis is that {{math|''x''}} and {{math|''y''}} are uncorrelated).
+
+Let
+
+: &lt;math&gt;
+\begin{align}
+\widehat\alpha, \widehat\beta &amp; = \text{least-squares estimators}, \\
+SE_{\widehat\alpha}, SE_{\widehat\beta} &amp; = \text{the standard errors of least-squares estimators}.
+\end{align}
+&lt;/math&gt;
+
+Then
+
+:&lt;math&gt;
+t_\text{score} = \frac{\widehat\beta - \beta_0}{ SE_{\widehat\beta} }\sim\mathcal{T}_{n-2}
+&lt;/math&gt;
+
+has a ''t''-distribution with {{math|''n'' − 2}} degrees of freedom if the null hypothesis is true. The [[Simple linear regression#Normality assumption|standard error of the slope coefficient]]:
+
+: &lt;math&gt;
+SE_{\widehat\beta} = \frac{\sqrt{\dfrac{1}{n - 2}\displaystyle\sum_{i=1}^n \left(y_i - \widehat y_i\right)^2}}{\sqrt{ \displaystyle\sum_{i=1}^n \left(x_i - \bar{x}\right)^2 }}
+&lt;/math&gt;
+
+can be written in terms of the residuals. Let
+
+: &lt;math&gt;
+\begin{align}
+\widehat\varepsilon_i &amp; = y_i - \widehat y_i = y_i - \left(\widehat\alpha + \widehat\beta x_i\right) = \text{residuals} = \text{estimated errors}, \\
+\text{SSR} &amp; = \sum_{i=1}^n {\widehat\varepsilon_i}^2 = \text{sum of squares of residuals}.
+\end{align}
+&lt;/math&gt;
+
+Then {{math|''t''}}&lt;sub&gt;score&lt;/sub&gt; is given by:
+
+: &lt;math&gt; t_\text{score} = \frac{\left(\widehat\beta - \beta_0\right)\sqrt{n-2}}{  \sqrt{\frac{SSR}{\sum_{i=1}^n \left(x_i - \bar{x}\right)^2}} }. &lt;/math&gt;
+
+Another way to determine the {{math|''t''}}&lt;sub&gt;score&lt;/sub&gt; is:
+
+:&lt;math&gt; t_\text{score} =  \frac{r\sqrt{n-2}}{\sqrt{1-r^2}}, &lt;/math&gt;
+
+where ''r'' is the [[Pearson correlation coefficient]].
+
+The {{math|''t''}}&lt;sub&gt;score, intercept&lt;/sub&gt; can be determined from the {{math|''t''}}&lt;sub&gt;score, slope&lt;/sub&gt;:
+
+:&lt;math&gt; t_\text{score,intercept} =  \frac{\alpha}{\beta} \frac{t_\text{score,slope}}{\sqrt{s_\text{x}^2+\bar{x}^2}}  &lt;/math&gt;
+
+where {{math|''s''&lt;sub&gt;x&lt;/sub&gt;&lt;sup&gt;2&lt;/sup&gt;}} is the sample variance.
+
+===Independent two-sample ''t''-test===
+
+====Equal sample sizes and variance====
+Given two groups (1, 2), this test is only applicable when:
+*the two sample sizes (that is, the number {{math|''n''}} of participants of each group) are equal;
+*it can be assumed that the two distributions have the same variance;
+Violations of these assumptions are discussed below.
+
+The {{math|''t''}} statistic to test whether the means are different can be calculated as follows:
+
+: &lt;math&gt; t = \frac{\bar{X}_1 - \bar{X}_2}{s_p \sqrt\frac{2}{n}} &lt;/math&gt;
+
+where
+:&lt;math&gt; s_p = \sqrt{\frac{s_{X_1}^2+s_{X_2}^2}{2}}.&lt;/math&gt;
+
+Here {{math|''s&lt;sub&gt;p&lt;/sub&gt;''}} is the [[pooled standard deviation]] for {{math|1=''n'' = ''n''&lt;sub&gt;1&lt;/sub&gt; = ''n''&lt;sub&gt;2&lt;/sub&gt;}} and {{math|''s''{{su|b=''X''&lt;sub&gt;1&lt;/sub&gt;|p=&amp;nbsp;2}}}} and {{math|''s''{{su|b=''X''&lt;sub&gt;2&lt;/sub&gt;|p=&amp;nbsp;2}}}} are the [[unbiased estimator]]s of the [[variance]]s of the two samples. The denominator of {{math|''t''}} is the [[Standard error (statistics)|standard error]] of the difference between two means.
+
+For significance testing, the [[Degrees of freedom (statistics)|degrees of freedom]] for this test is {{math|2''n'' − 2}} where {{math|''n''}} is the number of participants in each group.
+
+====Equal or unequal sample sizes, similar variances ( &lt;math&gt;\frac{1}{2}&lt;/math&gt; &lt; &lt;math&gt;\frac{s_{X_1}}{s_{X_2}}&lt;/math&gt; &lt; 2)====
+This test is used only when it can be assumed that the two distributions have the same variance. (When this assumption is violated, see below.) 
+The previous formulae are a special case of the formulae below, one recovers them when both samples are equal in size: {{math|1=''n'' = ''n''&lt;sub&gt;1&lt;/sub&gt; = ''n''&lt;sub&gt;2&lt;/sub&gt;}}.
+
+The {{math|''t''}} statistic to test whether the means are different can be calculated as follows:
+:&lt;math&gt;t = \frac{\bar {X}_1 - \bar{X}_2}{s_p \cdot \sqrt{\frac{1}{n_1}+\frac{1}{n_2}}}&lt;/math&gt;
+
+where
+
+:&lt;math&gt; s_p = \sqrt{\frac{\left(n_1-1\right)s_{X_1}^2+\left(n_2-1\right)s_{X_2}^2}{n_1+n_2-2}}&lt;/math&gt;
+
+is an estimator of the [[pooled standard deviation]] of the two samples: it is defined in this way so that its square is an [[unbiased estimator]] of the common variance whether or not the population means are the same. In these formulae, {{math|''n&lt;sub&gt;i&lt;/sub&gt;'' − 1}} is the number of degrees of freedom for each group, and the total sample size minus two (that is, {{math|''n''&lt;sub&gt;1&lt;/sub&gt; + ''n''&lt;sub&gt;2&lt;/sub&gt; − 2}}) is the total number of degrees of freedom, which is used in significance testing.
+
+==== Equal or unequal sample sizes, unequal variances ( &lt;math&gt;s_{X_1} &gt; 2s_{X_2}&lt;/math&gt; or &lt;math&gt;s_{X_2} &gt; 2s_{X_1}&lt;/math&gt;) ====
+{{main|Welch's t test{{!}}Welch's t-test}}
+This test, also known as Welch's ''t''-test, is used only when the two population variances are not assumed to be equal (the two sample sizes may or may not be equal) and hence must be estimated separately. The {{math|''t''}} statistic to test whether the population means are different is calculated as:
+
+:&lt;math&gt;t = \frac{\bar{X}_1 - \bar{X}_2}{s_{\bar\Delta}}&lt;/math&gt;
+
+where
+
+:&lt;math&gt;s_{\bar\Delta} = \sqrt{\frac{s_1^2}{n_1} + \frac{s_2^2}{n_2}}.
+&lt;/math&gt;
+
+Here {{math|''s&lt;sub&gt;i&lt;/sub&gt;''&lt;sup&gt;2&lt;/sup&gt;}} is the [[unbiased estimator]] of the [[variance]] of each of the two samples with {{math|''n&lt;sub&gt;i&lt;/sub&gt;''}} = number of participants in group {{math|''i''}} (1 or 2). In this case {{math|''s''{{su|p=2|b={{overline|Δ}}}}}} is not a pooled variance. For use in significance testing, the distribution of the test statistic is approximated as an ordinary Student's ''t''-distribution with the degrees of freedom calculated using
+
+:&lt;math&gt; \mathrm{d.f.} = \frac{\left(\frac{s_1^2}{n_1} + \frac{s_2^2}{n_2}\right)^2}{\frac{\left(s_1^2/n_1\right)^2}{n_1-1} + \frac{\left(s_2^2/n_2\right)^2}{n_2-1}}.
+&lt;/math&gt;
+
+This is known as the [[Welch–Satterthwaite equation]]. The true distribution of the test statistic actually depends (slightly) on the two unknown population variances (see [[Behrens–Fisher problem]]).
+
+===Dependent ''t''-test for paired samples===
+This test is used when the samples are dependent; that is, when there is only one sample that has been tested twice (repeated measures) or when there are two samples that have been matched or "paired". This is an example of a [[paired difference test]]. The ''t'' statistic is calculated as
+
+:&lt;math&gt;t = \frac{\bar{X}_D - \mu_0}{s_D/\sqrt n} &lt;/math&gt;
+
+where &lt;math&gt;\bar{X}_D&lt;/math&gt; and &lt;math&gt;s_D&lt;/math&gt; are the average and standard deviation of the differences between all pairs. The pairs are e.g. either one person's pre-test and post-test scores or between-pairs of persons matched into meaningful groups (for instance drawn from the same family or age group: see table). The constant {{math|''μ''&lt;sub&gt;0&lt;/sub&gt;}} is zero if we want to test whether the average of the difference is significantly different. The degree of freedom used is {{math|''n'' − 1}}, where {{math|''n''}} represents the number of pairs.
+
+:{| border="1" cellspacing="0" cellpadding="5" align="right" class="wikitable"
+|+ Example of repeated measures
+|-
+! Number !! Name !! Test 1 !! Test 2
+|-
+| 1 || Mike || 35% || 67%
+|-
+| 2 || Melanie || 50% || 46%
+|-
+| 3 || Melissa|| 90% || 86%
+|-
+| 4 || Mitchell || 78% || 91%
+|}
+:{| border="1" cellspacing="0" cellpadding="5" class="wikitable"
+|+ Example of matched pairs
+|-
+! Pair !! Name !! Age !! Test
+|-
+| 1 || John || 35 || 250
+|-
+| 1 || Jane || 36 || 340
+|-
+| 2 || Jimmy || 22 || 460
+|-
+| 2 || Jessy || 21 || 200
+|}
+
+==Worked examples==
+{{bad summary}}
+Let {{math|''A''&lt;sub&gt;1&lt;/sub&gt;}} denote a set obtained by drawing a random sample of six measurements:
+
+:&lt;math&gt;A_1=\{30.02,\ 29.99,\ 30.11,\ 29.97,\ 30.01,\ 29.99\}&lt;/math&gt;
+
+and let {{math|''A''&lt;sub&gt;2&lt;/sub&gt;}} denote a second set obtained similarly:
+
+:&lt;math&gt;A_2=\{29.89,\ 29.93,\ 29.72,\ 29.98,\ 30.02,\ 29.98\}&lt;/math&gt;
+
+These could be, for example, the weights of screws that were chosen out of a bucket.
+
+We will carry out tests of the null hypothesis that the [[Arithmetic mean|mean]]s of the populations from which the two samples were taken are equal.
+
+The difference between the two sample means, each denoted by {{math|{{overline|''X''}}&lt;sub&gt;''i''&lt;/sub&gt;}}, which appears in the numerator for all the two-sample testing approaches discussed above, is
+
+:&lt;math&gt;\bar{X}_1 - \bar{X}_2 = 0.095.&lt;/math&gt;
+
+The sample [[standard deviations]] for the two samples are approximately 0.05 and 0.11, respectively. For such small samples, a test of equality between the two population variances would not be very powerful.  Since the sample sizes are equal, the two forms of the two-sample ''t''-test will perform similarly in this example.
+
+===Unequal variances===
+If the approach for unequal variances (discussed above) is followed, the results are
+:&lt;math&gt;\sqrt{\frac{s_1^2}{n_1} + \frac{s_2^2}{n_2}} \approx 0.04849&lt;/math&gt;
+
+and the degrees of freedom
+
+:&lt;math&gt;\text{d.f.} \approx 7.031.&lt;/math&gt;
+
+The test statistic is approximately 1.959, which gives a two-tailed test ''p''-value of 0.09077.
+
+===Equal variances===
+If the approach for equal variances (discussed above) is followed, the results are
+
+:&lt;math&gt;s_p \approx 0.08396&lt;/math&gt;
+
+and the degrees of freedom
+
+:&lt;math&gt;\text{d.f.} = 10.&lt;/math&gt;
+
+The test statistic is approximately equal to 1.959, which gives a two-tailed ''p''-value of 0.07857.
+
+==Related statistical tests==
+===Alternatives to the ''t''-test for location problems===
+The ''t''-test provides an exact test for the equality of the means of two i.i.d. normal populations with unknown, but equal, variances. ([[Welch's t-test|Welch's ''t''-test]] is a nearly exact test for the case where the data are normal but the variances may differ.)  For moderately large samples and a one tailed test, the ''t''-test is relatively robust to moderate violations of the normality assumption.&lt;ref name="Sawilowsky-Blair"&gt;{{cite journal |last1=Sawilowsky |first1=Shlomo S. |last2=Blair |first2=R. Clifford |year=1992 |title=A More Realistic Look at the Robustness and Type II Error Properties of the ''t'' Test to Departures From Population Normality |journal=Psychological Bulletin |volume=111 |issue=2 |pages=352–360 |doi=10.1037/0033-2909.111.2.352}}&lt;/ref&gt; In large enough samples, the t-test asymptotically approaches the [[Z-test|''z''-test]], and becomes robust even to large deviations from normality.&lt;ref name=":0" /&gt;
+
+If the data are substantially non-normal and the sample size is small, the ''t''-test can give misleading results. See [[location testing for Gaussian scale mixture distributions|Location test for Gaussian scale mixture distributions]] for some theory related to one particular family of non-normal distributions.
+
+When the normality assumption does not hold, a [[non-parametric]] alternative to the ''t''-test may have better [[statistical power]]. However, when data are non-normal with differing variances between groups, a t-test may have better [[Type 1 error|type-1 error]] control than some non-parametric alternatives.&lt;ref&gt;{{Cite journal|last=Zimmerman|first=Donald W.|date=January 1998|title=Invalidation of Parametric and Nonparametric Statistical Tests by Concurrent Violation of Two Assumptions|journal=The Journal of Experimental Education|volume=67|issue=1|pages=55–68|doi=10.1080/00220979809598344|issn=0022-0973}}&lt;/ref&gt; Furthermore, non-parametric methods, such as the [[Mann–Whitney U test|Mann-Whitney U test]] discussed below, typically do not test for a difference of means, so should be used carefully if a difference of means is of primary scientific interest.&lt;ref name=":0"/&gt; For example, Mann-Whitney U test will keep the type 1 error at the desired level alpha if both groups have the same distribution. It will also have power in detecting an alternative by which group B has the same distribution as A but after some shift by a constant (in which case there would indeed be a difference in the means of the two groups). However, there could be cases where group A and B will have different distributions but with the same means (such as two distributions, one with positive skewness and the other with a negative one, but shifted so to have the same means). In such cases, MW could have more than alpha level power in rejecting the Null hypothesis but attributing the interpretation of difference in means to such a result would be incorrect.
+
+In the presence of an [[outlier]], the t-test is not robust. For example, for two independent samples when the data distributions are asymmetric  (that is, the distributions are [[skewness|skewed]]) or the distributions have large tails, then the Wilcoxon rank-sum test (also known as the [[Mann–Whitney U test|Mann–Whitney ''U'' test]]) can have three to four times higher power than the ''t''-test.&lt;ref name="Sawilowsky-Blair"/&gt;&lt;ref&gt;{{cite journal |last1=Blair |first1=R. Clifford |last2=Higgins |first2=James J. |journal=Journal of Educational Statistics |year=1980 |pages=309–335 | volume=5 |issue=4 |title=A Comparison of the Power of Wilcoxon's Rank-Sum Statistic to That of Student's ''t'' Statistic Under Various Nonnormal Distributions |doi=10.2307/1164905 |jstor=1164905}}&lt;/ref&gt;&lt;ref&gt;{{cite journal |last1=Fay |first1=Michael P. |last2=Proschan |first2=Michael A. |journal=Statistics Surveys |year=2010 |pages=1–39 |volume=4 |url=http://www.i-journals.org/ss/viewarticle.php?id=51 |title=Wilcoxon–Mann–Whitney or ''t''-test? On assumptions for hypothesis tests and multiple interpretations of decision rules |doi=10.1214/09-SS051 |pmid=20414472 |pmc=2857732}}&lt;/ref&gt; The nonparametric counterpart to the paired samples ''t''-test is the [[Wilcoxon signed-rank test]] for paired samples. For a discussion on choosing between the ''t''-test and nonparametric alternatives, see Lumley, et al. (2002).&lt;ref name=":0" /&gt;
+
+One-way [[analysis of variance]] (ANOVA) generalizes the two-sample ''t''-test when the data belong to more than two groups.
+
+===A design which includes both paired observations and independent observations===
+When both paired observations and independent observations are present in the two sample design, assuming  data are missing completely at random (MCAR), the paired observations or independent observations may be discarded in order to proceed with the standard tests above. Alternatively making use of all of the available data, assuming normality and MCAR, the generalized partially overlapping samples t-test could be used.&lt;ref name="Partover"&gt;{{cite journal|last1=Derrick|first1=B|last2=Toher|first2=D|last3=White|first3=P|title=How to compare the means of two samples that include paired observations and independent observations: A companion to Derrick, Russ, Toher and White (2017)|journal=The Quantitative Methods for Psychology|date=2017|volume=13|issue=2|pages=120–126|doi=10.20982/tqmp.13.2.p120|url=http://eprints.uwe.ac.uk/31765/1/How%20to%20compare%20means......%20BD_DT_PW.pdf}}&lt;/ref&gt;
+
+===Multivariate testing===
+{{main|Hotelling's T-squared distribution}}
+A generalization of Student's ''t'' statistic, called [[Hotelling's t-squared statistic|Hotelling's ''t''-squared statistic]], allows for the testing of hypotheses on multiple (often correlated) measures within the same sample. For instance, a researcher might submit a number of subjects to a personality test consisting of multiple personality scales (e.g. the [[Minnesota Multiphasic Personality Inventory]]). Because measures of this type are usually positively correlated, it is not advisable to conduct separate univariate ''t''-tests to test hypotheses, as these would neglect the covariance among measures and inflate the chance of falsely rejecting at least one hypothesis ([[Type I error]]). In this case a single multivariate test is preferable for hypothesis testing. [[Fisher's Method#Limitations of independent assumption|Fisher's Method]] for combining multiple tests with ''[[Type I and type II errors#Type I error|alpha]]'' reduced for positive correlation among tests is one. Another is Hotelling's ''T''{{isup|2}} statistic follows a ''T''{{isup|2}} distribution. However, in practice the distribution is rarely used, since tabulated values for ''T''{{isup|2}} are hard to find. Usually, ''T''{{isup|2}} is converted instead to an ''F'' statistic.
+
+For a one-sample multivariate test, the hypothesis is that the mean vector ({{math|'''μ'''}}) is equal to a given vector ({{math|'''μ'''&lt;sub&gt;0&lt;/sub&gt;}}). The test statistic is [[Hotelling's t-squared statistic|Hotelling's ''t''{{isup|2}}]]:
+
+:&lt;math&gt;
+t^2=n(\bar{\mathbf x}-{\boldsymbol\mu_0})'{\mathbf S}^{-1}(\bar{\mathbf x}-{\boldsymbol\mu_0})
+&lt;/math&gt;
+
+where {{math|''n''}} is the sample size, {{math|{{overline|'''x'''}}}} is the vector of column means and {{math|'''S'''}} is an {{math|''m'' × ''m''}} [[sample covariance matrix]].
+
+For a two-sample multivariate test, the hypothesis is that the mean vectors ({{math|'''μ'''&lt;sub&gt;1&lt;/sub&gt;, '''μ'''&lt;sub&gt;2&lt;/sub&gt;}}) of two samples are equal. The test statistic is [[Hotelling's two-sample t-squared statistic|Hotelling's two-sample ''t''{{isup|2}}]]:
+
+:&lt;math&gt;t^2 = \frac{n_1 n_2}{n_1+n_2}\left(\bar{\mathbf x}_1-\bar{\mathbf x}_2\right)'{\mathbf S_\text{pooled}}^{-1}\left(\bar{\mathbf x}_1-\bar{\mathbf x}_2\right).&lt;/math&gt;
+
+==Software implementations==
+Many [[spreadsheet]] programs and statistics packages, such as [[QtiPlot]], [[LibreOffice Calc]], [[Microsoft Excel]], [[SAS (software)|SAS]], [[SPSS]], [[Stata]], [[DAP (software)|DAP]], [[gretl]], [[R (programming language)|R]], [[Python (programming language)|Python]], [[PSPP]], [[Matlab]] and [[Minitab]], include implementations of Student's ''t''-test.
+
+{| class="wikitable sortable"
+|-
+! Language/Program !! Function !! Notes
+|-
+| [[Microsoft Excel]] pre 2010 || &lt;code&gt;TTEST(''array1'', ''array2'', ''tails'', ''type'')&lt;/code&gt; || See [https://support.office.com/en-US/article/TTEST-function-1696FFC1-4811-40FD-9D13-A0EAAD83C7AE]
+
+|-
+| [[Microsoft Excel]] 2010 and later || &lt;code&gt;T.TEST(''array1'', ''array2'', ''tails'', ''type'')&lt;/code&gt; || See [https://support.office.com/en-US/article/TTEST-function-d4e08ec3-c545-485f-962e-276f7cbed055]
+|-
+| [[LibreOffice Calc]] || &lt;code&gt;TTEST(''Data1; Data2; Mode; Type'')&lt;/code&gt; || See [https://help.libreoffice.org/Calc/Statistical_Functions_Part_Five#TTEST]
+|-
+| [[Google Sheets]] || &lt;code&gt;TTEST(range1, range2, tails, type)&lt;/code&gt; || See [https://support.google.com/docs/answer/6055837]
+|-
+| [[Python (programming language)|Python]] || &lt;code&gt;scipy.stats.ttest_ind(''a'', ''b'', ''equal_var=True'')&lt;/code&gt; || See [http://docs.scipy.org/doc/scipy/reference/generated/scipy.stats.ttest_ind.html]
+|-
+| [[Matlab]] || &lt;code&gt;ttest(data1, data2)&lt;/code&gt; || See [http://www.mathworks.com/help/stats/ttest.html]
+|-
+| [[Mathematica]] || &lt;code&gt;TTest[{data1,data2}]&lt;/code&gt; || See [https://reference.wolfram.com/language/ref/TTest.html]
+|-
+| [[R (programming language)|R]] || &lt;code&gt;t.test(data1, data2, var.equal=TRUE)&lt;/code&gt;  || See [https://stat.ethz.ch/R-manual/R-devel/library/stats/html/t.test.html]
+|-
+| [[SAS (software)|SAS]] || &lt;code&gt;PROC TTEST&lt;/code&gt;  || See [https://web.archive.org/web/20131029195637/http://www.sas.com/offices/europe/belux/pdf/academic/ttest.pdf]
+|-
+| [[Java (programming language)|Java]] || &lt;code&gt;tTest(sample1, sample2)&lt;/code&gt; || See [http://commons.apache.org/proper/commons-math/apidocs/org/apache/commons/math4/stat/inference/TTest.html]
+|-
+| [[Julia (programming language)|Julia]] || &lt;code&gt;EqualVarianceTTest(sample1, sample2)&lt;/code&gt; || See [https://juliastats.github.io/HypothesisTests.jl/stable/parametric.html#HypothesisTests.EqualVarianceTTest]
+|-
+| [[Stata]] || &lt;code&gt;ttest data1 == data2&lt;/code&gt;  || See [https://www.stata.com/manuals/rttest.pdf]
+|}
+
+==See also==
+{{Portal|Mathematics}}
+{{Div col|colwidth=20em}}
+* [[Conditional change model]]
+* [[F-test|''F''-test]]
+* [[Noncentral t-distribution#Use in power analysis|Noncentral ''t''-distribution in power analysis]]
+* [[Student's t-statistic|Student's ''t''-statistic]]
+* [[Z-test|''Z''-test]]
+* [[Mann–Whitney U test|Mann–Whitney ''U'' test]]
+* [[Šidák correction for t-test|Šidák correction for ''t''-test]]
+* [[Welch's t-test|Welch's ''t''-test]]
+* [[Analysis of variance]] (ANOVA)
+{{Div col end}}
+
+== References ==
+=== Citations ===
+{{Reflist}}
+
+=== Sources ===
+{{Refbegin}}
+* {{cite book
+|last = O'Mahony
+|first = Michael
+|title = Sensory Evaluation of Food: Statistical Methods and Procedures
+|publisher = [[CRC Press]]
+|year = 1986
+|page = 487
+|isbn = 0-82477337-3
+}}
+* {{cite book
+|last1 = Press
+|first1 = William H.
+|first2 = Saul A.
+|last2 = Teukolsky
+|first3 = William T.
+|last3 = Vetterling
+|first4 = Brian P.
+|last4 = Flannery
+|title = Numerical Recipes in C: The Art of Scientific Computing
+|publisher = [[Cambridge University Press]]
+|year = 1992
+|page = [https://archive.org/details/numericalrecipes0865unse/page/616 616]
+|chapterurl = http://www.nrbook.com/a/bookcpdf/c14–2.pdf
+|isbn = 0-521-43108-5
+|url = https://archive.org/details/numericalrecipes0865unse/page/616
+|url-status = dead
+}}
+{{Refend}}
+
+==Further reading==
+*{{Cite journal |year=1960 |last=Boneau |first=C. Alan |title=The effects of violations of assumptions underlying the ''t'' test |journal=Psychological Bulletin |volume=57 |issue=1 |pages=49–64 |doi=10.1037/h0041412 |pmid=13802482 }}
+*{{Cite journal |year=1984 |last1=Edgell |first1=Stephen E. |last2=Noon |first2=Sheila M. |title=Effect of violation of normality on the ''t'' test of the correlation coefficient |journal=Psychological Bulletin |volume=95 |issue=3 |pages=576–583 |doi=10.1037/0033-2909.95.3.576}}
+
+== External links ==
+{{Wikiversity|t-test}}
+* {{springer|title=Student test|id=p/s090720}}
+* [http://www.socialresearchmethods.net/kb/stat_t.php A conceptual article on the Student's ''t''-test]
+* {{YouTube|id=sajXLvfolmg&amp;list=PLD15D38DC7AA3B737&amp;index=2#t=13m31s|title=Econometrics lecture (topic: hypothesis testing)}} by [[Mark Thoma]]
+* [https://statsjournal.com/one-sample-t-test-calculator One Sample Student's ''t''-test Calculator]
+{{Clear}}
+{{Statistics}}
+{{Public health}}
+
+{{DEFAULTSORT:Student's T-Test}}
+[[Category:Statistical tests]]
+[[Category:Parametric statistics]]</text>
+      <sha1>ey72f2orlfo9hyb0du40mw0h1w2qe4h</sha1>
+    </revision>
+  </page>
+</mediawiki>

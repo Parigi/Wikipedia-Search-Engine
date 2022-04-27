@@ -1,0 +1,893 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.10/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.10/ http://www.mediawiki.org/xml/export-0.10.xsd" version="0.10" xml:lang="en">
+  <siteinfo>
+    <sitename>Wikipedia</sitename>
+    <dbname>enwiki</dbname>
+    <base>https://en.wikipedia.org/wiki/Main_Page</base>
+    <generator>MediaWiki 1.35.0-wmf.36</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Media</namespace>
+      <namespace key="-1" case="first-letter">Special</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Talk</namespace>
+      <namespace key="2" case="first-letter">User</namespace>
+      <namespace key="3" case="first-letter">User talk</namespace>
+      <namespace key="4" case="first-letter">Wikipedia</namespace>
+      <namespace key="5" case="first-letter">Wikipedia talk</namespace>
+      <namespace key="6" case="first-letter">File</namespace>
+      <namespace key="7" case="first-letter">File talk</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki talk</namespace>
+      <namespace key="10" case="first-letter">Template</namespace>
+      <namespace key="11" case="first-letter">Template talk</namespace>
+      <namespace key="12" case="first-letter">Help</namespace>
+      <namespace key="13" case="first-letter">Help talk</namespace>
+      <namespace key="14" case="first-letter">Category</namespace>
+      <namespace key="15" case="first-letter">Category talk</namespace>
+      <namespace key="100" case="first-letter">Portal</namespace>
+      <namespace key="101" case="first-letter">Portal talk</namespace>
+      <namespace key="108" case="first-letter">Book</namespace>
+      <namespace key="109" case="first-letter">Book talk</namespace>
+      <namespace key="118" case="first-letter">Draft</namespace>
+      <namespace key="119" case="first-letter">Draft talk</namespace>
+      <namespace key="446" case="first-letter">Education Program</namespace>
+      <namespace key="447" case="first-letter">Education Program talk</namespace>
+      <namespace key="710" case="first-letter">TimedText</namespace>
+      <namespace key="711" case="first-letter">TimedText talk</namespace>
+      <namespace key="828" case="first-letter">Module</namespace>
+      <namespace key="829" case="first-letter">Module talk</namespace>
+      <namespace key="2300" case="first-letter">Gadget</namespace>
+      <namespace key="2301" case="first-letter">Gadget talk</namespace>
+      <namespace key="2302" case="case-sensitive">Gadget definition</namespace>
+      <namespace key="2303" case="case-sensitive">Gadget definition talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Wikipedia:Six degrees of Wikipedia</title>
+    <ns>4</ns>
+    <id>212268</id>
+    <revision>
+      <id>960425524</id>
+      <parentid>960425385</parentid>
+      <timestamp>2020-06-02T22:12:24Z</timestamp>
+      <contributor>
+        <username>StanPines69</username>
+        <id>39427878</id>
+      </contributor>
+      <comment>/* Three-degree chains */</comment>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="72488" xml:space="preserve">{{Shortcut|WP:6|WP:SIX|WP:SDOWP|WP:6D|WP:6DOW}}
+{{See also|Wikipedia:Wikipedia Games}}
+:''Note that some of the article chains listed here have changed since they were added to this page.''
+{{humor}}
+
+There is a popular hypothesis, known as ''[[six degrees of separation]]'', holding that any two people are separated by a chain of no more than six acquaintances. Studying the characters of [[Wikipedia]] to see whether something similar obtains among its articles, Six Degrees of Wikipedia aims to be a compendium of the following things:
+* The items separated by the ''longest'' minimal chains in the encyclopædia (especially where these are more than four links long). The shortest known chain between the two items should be specified. Generalisation over time, where possible, seems to produce the shortest chains. Failing this, try generalisation over space to reduce chain length.{{clarify|date=September 2010}}
+* The most intuitively remote items separated by ''short'' chains—chains of fewer than six articles, anyway.  That is, these should be items that have no obvious connection but which, nonetheless, can be linked between very quickly in Wikipedia. This is a much more subjective category, but should still be interesting; it may be enough to describe these as "interestingly" or "oddly" short chains.
+* Chains between two articles selected at random (using [[Special:Randompage]]). Since these can often be uninteresting, think twice about actually adding these to this page.
+
+==Rules==
+
+We will accept only links between actual articles, '''not''' "Talk" pages. (If this approach still allows many uninteresting connections, it might be worth restricting it in further ways, such as disallowing articles on years or decades completely, or any other type of article that might be considered "too general". For now, though, we will not worry about these.)
+
+Be sure to specify the direction the chain runs in by using, for example, the right-arrow character (→), which can be found below the "edit window" when editing pages. If you cannot use the arrow character, you can just use the word "to".
+
+Using date-to-date links (e.g., [[1996]] → [[1993]]) is "uninteresting" and should be avoided. Similarly, using country-to-country links (e.g., [[Japan]] → [[China]]) is uninteresting and should be avoided as well.
+
+Tampering with articles for the sole reason of changing their degrees of separation is discouraged for the purposes of this project; we aim to clarify how Wikipedia is as it evolves, not to set forth that it should be more or less so.  That being said, if this page brings to your attention a "missing link" that really should be in an article, feel free to correct it (and make the corresponding change to this page, as well).&lt;!--
+Minimal paths between articles, based on a particular snapshot of the Wikipedia database, can be found using Stephen Dolan's [http://www.netsoc.tcd.ie/~mu/wiki/ Six Degrees of Wikipedia] page.
+--&gt;&lt;!--Hmm... doesn't seem to work--&gt;
+
+==Other versions==
+
+Popular versions of this game include [http://www.thewikigame.com The Wiki Game]
+
+[http://www.thewikigame.com The Wiki Game] Is a Real-time and multi-player version, and contains different game type challenges that include random start and end goals.
+[http://www.wikipediamaze.com Wikipedia Maze]{{Dead link|date=January 2018}} awards points and badges for both creating and solving puzzles. Each time a user solves a puzzle they are awarded points based on the average amount of clicks it has taken. The harder the puzzle, the more points are awarded. Each puzzle can be voted "up" or "down" by other players, based on whether or not they like it, which results in points being given to or taken from the creator of the puzzle.  Players are also awarded badges when reaching certain point-total milestones.
+== Articles with no connections to each other ==
+* There were no chains connecting [[Basque]] to [[Bisque]].
+
+== Surprisingly short chains==
+=== Eight-degree chains ===
+*[[QWK (file format)]] → [[FidoNet]] → [[Latin America]] → [[Gulf of Mannar]] → [[List of national parks of Sri Lanka]] → [[List of coleopterans of Sri Lanka]] → [[Sybra albisparsa]] → [[Sybra]] → [[Sybra fuscotriangularis]]
+:*Confirmed August 23rd, 2019.
+*[[Phenomena (Amiga demogroup)]] → [[List of Amiga games]]  → [[Bandai]]  → [[Big Bad Beetleborgs]]  → [[Longhorn beetle]]  → [[Lamiinae]]  → [[Apomecynini]]  → [[Sybra]]  → [[Sybra fuscotriangularis]]
+:*Confirmed May 17, 2019.
+*[[Black Leather Jesus]] → [[Rock music]] → [[Christianity]] → [[British Columbia]] → [[Longhorn beetle]]  → [[Lamiinae]]  → [[Apomecynini]]  → [[Sybra]]  → [[Sybra fuscotriangularis]]
+:*Confirmed September 25th, 2018.
+*[[Olam Tzafuf]] → [[Record producer]] → [[Music of Tanzania]] → [[indian ocean]] → [[List of national parks of Sri Lanka]] → [[List of coleopterans of Sri Lanka]] → [[Sybra albisparsa]] → [[Sybra]]  → [[Sybra fuscotriangularis]]
+:*Confirmed September 25th, 2018.
+*[[Keyboard matrix circuit]] → [[Synthesizer]]  → [[Keith Emerson]]  → [[British Columbia]]  → [[Longhorn beetle]]  → [[Lamiinae]]  → [[Apomecynini]]  → [[Sybra]]  → [[Sybra fuscotriangularis]]
+*[[Ion]] → [[Michael Faraday]] → [[Albert Einstein]] → [[US Citizenship]] → [[United States]] → [[Rhode Island]] → [[H.P. Lovecraft]] → [[Lovecraftian horror]] → [[SCP Foundation]]
+
+=== Seven-degree chains ===
+*[[Pozděchov]] → [[Vsetín]] → [[Sweden]] → [[Carl_Linnaeus]] → [[Lepidoptera_in_the_10th_edition_of_Systema_Naturae]] → [[Nyctemera_tripunctaria]] → [[Nyctemera]] → [[Nyctemera_dauila]]
+:*Confirmed to still work as of August 7th, 2018.
+*[[YAFM]] → [[Radio broadcasting]]  → [[Radio in Sri Lanka]]  → [[Deforestation in Sri Lanka]]  → [[List of coleopterans of Sri Lanka]]  → [[Sybra praeusta]]  → [[Sybra]]  → [[Sybra fuscotriangularis]]
+:*Confirmed September 12th, 2019.
+*[[Ch'aki Qucha (disambiguation)]] → [[Quechuan languages]] → [[Quinine]] → [[Alkaloid]] →  [[Utetheisa ornatrix]] → [[Utetheisa]] → [[Nyctemera]] → [[Nyctemera dauila]]
+:*Confirmed to still work as of August 7th, 2018.
+*[[Ibrahim Ali Hussein]] → [[Wajir West Constituency]] → [[Nairobi]] → [[South Africa]] → [[Lichen]] → [[Pertusariaceae]] → [[Pertusaria]] → [[Pertusaria lactea]]
+:*Tested on 29 February 2020.
+
+=== Six-degree chains ===
+*[[Salman Khan]] → [[Being Human]] → [[Population]] → [[Bharatiya Janata Party ]] → [[Modi]]
+*[[Scaphism]] → [[Capital Punishment]] → [[Execution by shooting]] → [[Firearm]] → [[Projectile]] → [[Dart]] → [[Lawn darts]]
+:*[[Scaphism]] → [[Death by burning]] → [[British Isles]] → [[Darts]] → [[Lawn darts]]
+*[[Jesus]] → [[Roman Empire]] → [[Germanic peoples]] → [[Germanic-speaking Europe]] → [[Germany]] → [[Adolf Hitler]]
+:*[[Jesus]] → [[Judaism]] → [[Holocaust]] → [[Adolf Hitler]]
+:*[[Jesus]] → [[Jews]] → [[Nazi Germany]] → [[Adolf Hitler]]
+*[[Hoffman Estates, Illinois]] → [[Mori Seiki]] → [[Machine tool]] → [[Metal]] → [[Greek language]] → [[Mathematics]] → [[Game theory]]
+*[[Uranus]] → [[Right-hand rule]] → [[Reflection (mathematics)]] → [[Binary relation]] → [[Restriction (mathematics)]] → [[Restriction (disambiguation)]] → [[Racial segregation]]
+:*[[Uranus]] → [[helium]] → [[Oklahoma]] → [[Racial segregation]]
+*[[Lin-Manuel Miranda]] → [[New York City]] → [[Street Food]] → [[List of street foods]] → [[Ice Cream]] → [[Sorbet]] → [[Raspberry]]
+:*[[Lin-Manuel Miranda]] → [[Primetime Emmy Award for Outstanding Guest Actor in a Comedy Series]] → [[Desperate Housewives]] → [[Raspberry]] 
+*''[[Hedda Gabler]]'' → [[Motörhead]] → [[Andy Kershaw]] → [[Axis of evil]] → [[Evel Knievel]] → [[Liberace]] → [[Chico Marx]]
+*[[Big Bang]] → [[Cambrian Explosion]] → [[Feces]] → [[Coffee]] → [[Magnesium]] → [[Ancient Greek]] → ''[[Harry Potter and the Philosopher's Stone]]''
+:*[[Big Bang]] → [[Aristotle]] → [[Ancient Greek]] → ''[[Harry Potter and the Philosopher's Stone]]''
+*[[Honey dipper]] → [[Honey]] → [[Russia]] → [[Hokkaido]] → [[Niseko-Shakotan-Otaru Kaigan Quasi-National Park]] → [[Finella]] → [[Finella dubia]]
+*[[NGC 1466]] → [[John Herschel]] → [[Chemist]] → [[Albert Einstein]] → [[Adolf Hitler]]
+*[[Tissue]] → [[Wrapping tissue]] → [[Book]] → [[Author]] → [[Fermat's Last Theorem]] → [[Abc conjecture]] → [[Inter-universal Teichmüller theory]]
+=== Five-degree chains ===
+*[[Swedish War of Liberation]] → [[Copper]] → [[Copper toxicity]] → [[Physalaemin]] → [[Physalaemus]] → [[Physalaemus riograndensis]]
+*[[Kinkajou]] → [[Peru]] → [[Ceviche]] → [[Onion]] → [[Microscope]] → [[Wave]]
+*[[Apple]] → [[deciduous]] → [[wisteria]] → [[latticework]] → [[lattice girder]] → [[San Francisco - Oakland Bay Bridge]]
+**[[Apple]] → [[Apple (disambiguation)]] → [[Apple Inc.]] → [[Cupertino, California]] → [[San Francisco Bay]] → [[San Francisco - Oakland Bay Bridge]]
+*[[John Travolta]] → [[L. Ron Hubbard]] → [[Astoria, Oregon]] → [[The Goonies]] → [[Corey Feldman]] → [[Michael Jackson]]
+**[[John Travolta]] → [[2001]] → [[2001 in music]] → [[Michael Jackson]] etc.
+***[[John Travolta]] → [[1971 in music]] → [[Michael Jackson]]
+*[[Galaxy class starship]] → [[Bar (establishment)]] → [[Australia]] → [[Prime Minister of Australia]] → [[John Curtin]] → [[Marxism]]
+**[[Galaxy class starship]] → [[Andorian]] → [[Gesture]] → [[Marxism]]
+::* Article deleted.
+*[[Soup Nazi]] → [[Argentina]] → [[1970s]] → [[Unix]] → [[Diff]] → [[ExamDiff]]
+*[[Governor of New Hampshire]] → [[Fredholm operator]]
+**[[Governor of New Hampshire]] → [[List of Governors of New Hampshire]] → [[1899]] → [[David Hilbert]] → [[Integral equation]] → [[Fredholm operator]]
+***[[Governor of New Hampshire]] → [[Veto]] → [[Exclusion]] → [[Operator]] → [[Integral transform]] → [[Fredholm operator]]
+*[[Hurricane Ike]] → [[Cape Verde]] → [[Protestantism]] → [[Christianity]] → [[Baptism]] → [[Immersion Baptism]]
+*[[Take It]] → [[The Wallets]] → [[Minneapolis-St. Paul]] → [[Rhythm and blues]] → [[Post-disco]] → [[The Limit]]
+*[[Polydactyly]] → [[Uttar Pradesh]] → [[Lizard]] → [[Early Jurassic]] → [[Pterosaur]] → [[Pterodactyl]]
+*[[Are You Being Served?]] → [[United States]] → [[Culture of the United States]] → [[Hip hop music]] → [[Breakdance]] → [[You Got Served]]
+*[[Progressive rock]] → [[Spock's Beard]] → [[Mirror, Mirror (TOS episode)]] → [[Mirror Mirror]] → [[Twiztid]] → [[Twiztid|The Purple Show]]
+*[[Shikamaru Nara]] → [[Deer]] → [[Africa]] → [[Geography of Africa]] → [[Mount Kilimanjaro]]
+*[[Whose Line Is It Anyway?]] → [[David Hasselhoff]] → [[Miami Heat]] → [[Miami, Florida]] → [[Scarface]] → [[It's Mine]]
+**[[Whose Line Is It Anyway?]] → [[Robin Williams]] → [[Robots (film)]] → [[Scarface (1983 film)]] → [[It's Mine]]. 
+*[[Jesus]] &amp; [[Sanjaya Malakar]]
+**[[Jesus]] → [[Homosexual readings of Jesus and John]] → [[Homosexuality]] → [[Metrosexual]] → [[Ryan Seacrest]] → [[Sanjaya Malakar]]
+**[[Sanjaya Malakar]] → [[Ryan Seacrest]] → [[Metrosexual]] → [[Homosexuality]] → [[Religion and homosexuality]]  → [[Jesus]]
+***[[Sanjaya Malakar]] → [[An American Idol Christmas]] → [[Christmas]] → [[Jesus]].
+*[[Jesus]] → [[Religion and homosexuality]] → [[Homosexuality]] → [[Metrosexual]] → [[Marketing]] → [[Automobile|Car]]
+**[[Jesus]] → [[Europe]] → [[Economy of Europe]] → [[Volkswagen]] → [[Automobile|Car]]
+***[[Jesus]] → [[Child Jesus]] → [[Saint Christopher]] → [[Automobile|Car]]
+*[[Heartland Village, Staten Island]] → [[Verrazano-Narrows Bridge]] → [[W. Averell Harriman]] → [[North Vietnam]] → [[Joe Kernan]] → [[Armagh GAA]]
+*[[Flywheel energy storage]] → [[Moment of Inertia]] → [[Parallel Axis Theorem]] → [[Area]] → [[Pinellas County, Florida]] → [[Palm Harbor, Florida]]
+*[[2005-06 in Malaysian football]] → [[Negeri Sembilan FA]] → [[Malaysia]] → [[States of Malaysia]] → [[Federation]] → [[Latin]].
+*[[Colt 45]] → [[Colt Cabana]] → [[Western Michigan University]] → [[Battle Creek, Michigan]] → [[:Category:People from Battle Creek, Michigan|People from Battle Creek, Michigan]] → [[Rob Van Dam]]
+*[[Benzene]] ⇄ [[Rayquaza]]
+**[[Benzene]] → [[Alkane]] → [[Heptane]] → [[Purple]] → [[Pokémon]] → [[Rayquaza]]
+**[[Rayquaza]] → [[Ozone layer]] → [[Chlorine]] → [[Chlorobenzene]] → [[Benzene]]
+*[[Empty]] → [[Emptiness]] → [[Death]] → [[Lists of people by cause of death]] → [[Lists of office-holders]] → [[Colonial heads of German Cameroon]] → [[Full]]
+**[[Empty]] → [[Suicide]] → [[List of suicides]] → [[Lists of office-holders]] → [[Colonial heads of German Cameroon]] → [[Full]]
+*[[Mario]] → [[Super Smash Bros.]] → [[Pikachu]] → [[Hey You, Pikachu]] → [[Pokémon Channel]]
+*[[Björk]] → [[Icelanders]] → [[Iceland]] → [[foreign relations of Iceland]] → [[Czech Republic]] → [[Václav Havel]]
+**[[Björk]] → [[Dancer in the Dark]] → [[Czechoslovakia]] → [[Vaclav Havel]]
+*[[Eggplant]] → [[South Asia]] → [[Continent]] → [[Africa]] → [[South Africa]] → [[Apartheid]]
+*[[Jesus]] → [[Roman Empire]] → [[Britannia]] → [[UK]] → [[United States]] → [[Donald Trump]]
+**[[Jesus]] → [[Pope]] → [[Pope Francis]] → [[Donald Trump]]
+*[[Racism]] → [[Barack Obama]] → [[Bo (dog)]] → [[Canis lupus familiaris]] → [[Puppy]]
+:*[[Racism]] → [[Dominican Order]] → [[Hound]] → [[Puppy]]
+*[[Puppy]] → [[Designer dog]] → [[New York Times]] → [[Civil War]] → [[Racism]]
+:*[[Puppy]] → [[Dog]] → [[Indonesia]] → [[Racism]]
+*[[Edgar Allan Poe Museum (Richmond, Virginia)]] → [[The New York Times]] → [[Serbia]] → [[Origin hypotheses of the Serbs]] → [[Genetic studies on Arabs]] → [[Nablus mask-like facial syndrome]]
+
+=== Four-degree chains ===
+*[[Frikkadel]] → [[Meat]] → [[Jainism]] → [[List_of_Jains]] → [[Kalyanji Virji Shah]]
+*[[Leda Cosmides]] → [[United States Hunter/Jumper Association]]
+**[[Leda Cosmides]] → [[Stanford University]] → [[Equestrianism]] → [[United States Equestrian Federation]] → [[United States Hunter/Jumper Association]]
+*[[Entscheidungsproblem]] → [[Recursion]] → [[Strange loop]] → [[Predestination paradox]] → [[My Little Pony: Friendship Is Magic]]
+*[[Avocado]] → [[Mexico]] → [[United States]] → [[Illegal Immigration to the United States]] → [[Illegal Immigration]]
+*[[Daily Aikya]] → [[India]] → [[Formula 1]] → [[Superleague Formula]] → [[List of Superleague Formula drivers and teams]]
+:* Page deleted by a [[WP:PROD|PROD]].
+*[[Wikipedia:Vandalism]] → [[Wikipedia:Protection Policy]] → [[German Wikipedia]] → [[Holocaust denial]] → [[Ku Klux Klan]]
+*[[Milli Vanilli Greatest Hits]] → [[Pop music]] → [[Internet]] → [[Moore's law]] → [[Graphene nanoribbon]]
+*[[Martin Garrix]] → [[Amstelveen]] → [[World War II]] → [[Ustashe]] → [[Velebit uprising]]
+
+=== Three-degree chains ===
+*[[Alice Hathaway Lee Roosevelt]] → [[Theodore Roosevelt]] → [[Scrooge McDuck]] → [[Diamond]]
+**[[Alice Hathaway Lee Roosevelt]] → [[New York]] → [[Diamond]]
+*[[Coretta Scott King]] → [[Weapon of mass destruction]] → [[Magenta]] → [[Stellar classification]]
+*[[Cracker (pejorative)]] → [[Winn-Dixie]] → ''[[Because of Winn-Dixie (film)|Because of Winn-Dixie]]'' →  [[AnnaSophia Robb]]
+*[[Derek Jeter]] → [[The Rock]] → [[Alcatraz Island]] → [[Egret]]
+*[[Fire]] → [[Dresden]] → [[Club (weapon)]] → [[Crotch]]
+*[[Gagaku]] → [[China]] → [[Taiwan]] → [[Brokeback Mountain]]
+*[[Howard Keel]] → [[United States]] → [[Capitalism]] → [[State monopoly capitalism]]
+*[[Jeremy Bentham]] → [[John Bowring]] → [[Hong Kong]] → [[Cantopop]]
+*[[Jeremy Bentham]] → [[John Bowring]] → [[Giuseppe Caspar Mezzofanti]] → [[Algonquin language]]
+*[[San Jose Youth Symphony]] → [[Japan]] → [[Animation]] → [[Thomas Edison]]
+*[[Spin (physics)]] → [[Ferromagnetism]] → [[North Pole]] → [[Chandler wobble]]
+*[[Ted Danson]] → [[United States]] → [[Pilgrim (Plymouth Colony)|Pilgrims]] → [[William Brewster (Pilgrim)]]
+*[[The Eagles]] → [[Los Angeles, California]] → [[Rail Transport]] → [[William Jessop]]
+*[[Yellow-eyed Penguin]] → ''[[Farce of the Penguins]]'' → [[Abe Vigoda]] → ''[[The Godfather]]''
+*[[Ted Kennedy]] → [[Ronald Reagan]] → [[Korean Air Lines Flight 007]] → [[King Salmon, Alaska]]
+*[[WP:WILLY]] → [[John Kerry]] → [[Judaism]] → [[Jesus]]
+*[[Jimmy Wales]] → [[Encyclopedia]] → [[Hierarchy]] → [[God]]
+*[[SCP 06F6]] → [[Phenomenon]] → [[List of internet phenomena]] → [[SCP Foundation]]
+*[[T-Series (company)]] → [[World Bank]] → [[Equal Employment Opportunity Commission]] → [[We choose to go to the Moon]]
+*[[Sharpie (marker)]] → [[U.S]] → [[World War II]]
+
+=== Two-degree chains ===
+*[[Trigonometry]] → [[Germany]] → [[Adolf Hitler]]
+*[[Colt 45]] → [[United States]] → [[American Dream]]
+*[[Inglewood Park Cemetery]] → [[Ella Fitzgerald]] → [[Pizza]]
+*[[xkcd]] → [[Golden Gate Park]] → [[Detergent]]
+*[[Toothpaste]] → [[Apricot]] → [[William Shakespeare]]
+*[[Michael Jackson]] → [[Thriller (viral video)]] → [[Pope John Paul II]]
+**[[Michael Jackson]] → [[Michael Jackson memorial service]] → [[Pope John Paul II]]
+*[[Cobalt]] → [[Cobalt blue]] → [[Sonic the Hedgehog (character)]]
+*[[Newcastle United F.C.]] → [[Testicular cancer]] → [[Hirsuties coronae glandis|Pearly penile papules]] (warning: NSFW)
+*[[Hulk Hogan]] → [[Jesus]] → [[Carpentry]]
+*[[Jesus]] → [[Jerusalem]] → [[Donald Trump]]
+*[[Emoji]] → [[Japanese]] → [[World War II]]
+*[[Directive on Copyright in the Digital Single Market]] → [[Susan Wojcicki]] → [[Hillary Clinton]]
+*[[Touhou Project]] → [[List of Touhou Project characters]] → [[Hecate]]
+*[[Costume]] → [[Uniform]] → [[Prison]]
+*[[xkcd]] → [[Hilbert curve]] → [[IP address]]
+*[[Trojan.Win32.DNSChanger]] → [[iTunes]] → [[Digital rights management]]
+
+== Surprisingly long minimal chains ==
+
+=== Ten steps claimed ===
+
+*[[Six]] to [[Degree]]s
+**7 links: [[Six]] → [[6 (number)]] → [[Natural number]] → [[Mathematics]] → [[Euclidean geometry]] → [[Angle]] → [[Degree (angle)]] → [[Degree]].
+**4 links: [[Six]] → [[6 (number)]] → [[polygon]] → [[degrees of freedom (physics and chemistry)]] → [[Degree]]
+**4 links: [[Six]] → [[6 (number)]] → [[O]] → [[Degree_symbol]]  → [[Degree]]
+**4 links: [[Six]] → [[V6 engine]] → [[Right angle]] → [[Degree (angle)]]  → [[Degree]]
+*[[George Bush]] → [[MIT]] and back
+**Only takes 3 or 5, depending on direction. George W. Bush → MIT is 3 or 2. &lt;font style="color:#00BB55"&gt;&lt;u&gt;&lt;b&gt;s&lt;/b&gt;murray&lt;/u&gt;&lt;/font&gt;&lt;font style="color:#00AA77"&gt;&lt;u&gt;inch&lt;/u&gt;&lt;/font&gt;[[User:Smurrayinchester/Greene|&lt;font style="color:green"&gt;'''''e'''''&lt;/font&gt;]]&lt;font style="color:#00AA77"&gt;&lt;u&gt;ster&lt;/u&gt;&lt;/font&gt;&lt;font style="color:#00AA77"&gt;&lt;sup&gt;([[User:Smurrayinchester|User]]), ([[User talk:Smurrayinchester|Talk]])&lt;/sup&gt;&lt;/font&gt; 16:16, 5 March 2006 (UTC)
+
+*''[[Aliens (1986 film)|Aliens]]'' to [[Vimes]]
+*:There is, according to [http://toolserver.org/~river/cgi-bin/count_edits kate's tool], no path under 10 steps between these articles, however the return path, Vimes to Aliens is only 4 degrees - none of which are date related. [[User:Chrisboote|Chrisboote]]
+**''[[Aliens (1986 film)|Aliens]]'' → [[Science fiction]] → [[Fantasy]] → [[List of fantasy authors]] → [[Discworld]] → [[Vimes]] (redirects to [[Samuel Vimes]]) [[User:CambridgeBayWeather|CambridgeBayWeather]] [[User_talk:CambridgeBayWeather|(Talk)]] 12:41, 20 March 2006 (UTC)
+**''[[Aliens (1986 film)|Aliens]]'' → [[Pinewood Studios]] → [[Buckinghamshire]] → [[Terry Pratchett]] → [[Vimes]]
+**''[[Aliens (1986 film)|Aliens]]'' → ''[[Alien 3]]'' → [[Pete_Postlethwaite]] → [[Samuel Vimes]]   (using http://beta.degreesofwikipedia.com/)
+
+*[[Mulatto]] to [[MooLatte]]
+*:There is, according to kate's tool, no path under 10 steps between these articles.  Interesting.  [[User:Bart133|Bart133]] [[User talk:Bart133|t]] 23:30, 27 September 2005 (UTC)&lt;/s&gt;  MooLatte is orphaned.  [[User:Bart133|Bart133]] [[User talk:Bart133|t]] 21:56, 30 September 2005 (UTC)
+** Since [[MooLatte]] is orphaned, how about the 9-step:
+*** [[Mulatto]] → [[Haiti]] → [[Communications in Haiti]] → [[Telephone]] → [[Automatic number announcement circuit]] → [[Loop line]] → [[Wikipedia:Orphaned Articles]] → [[Wikipedia:Orphaned Articles/M]] → [[MooLatte]] [[User:Dlyons493|&lt;FONT COLOR="#00FF00"&gt;Dl&lt;/FONT&gt;&lt;FONT COLOR="#44FF00"&gt;yo&lt;/FONT&gt;&lt;FONT COLOR="#99DD11"&gt;ns&lt;/FONT&gt;&lt;FONT COLOR="#DDDD11"&gt;493&lt;/FONT&gt;]] [[User_talk:Dlyons493|&lt;FONT COLOR="#DDDD11"&gt;Ta&lt;/FONT&gt;&lt;FONT COLOR="#00FF00"&gt;lk&lt;/FONT&gt;]]  00:02, 1 October 2005 (UTC)
+**No longer necessary. Mulatto now links to MooLatte. [[User:Daykart|Daykart]] 22:24, 19 December 2005 (UTC)
+**MooLatte is now a redirect to [[Dairy Queen]]. [[Mulatto]] → [[Donkey]] → [[Asses' milk]] → [[Milk]] → [[Ice cream]] → [[Dairy Queen]]
+
+*[[Gigantothermy]] to [[Summa izbu]]
+**[[Gigantothermy]] → [[Biology]] → [[Mesopotamia]] → [[Akkadian literature]] → [[Summa izbu]]
+**[[Gigantothermy]] → [[Ichthyosaur]] → [[British Museum]] → [[Parthian Empire]] → [[Akkadian literature]] → [[Summa izbu]]
+*[[Jimmy Blanton]] to [[Summa izbu]]
+*:According to kate's tool, no paths under 10 steps exist between these two sets of articles. None are orphaned.
+** Looks to me like [[Summa izbu]] is orphaned  [[User:Dlyons493|&lt;FONT COLOR="#00FF00"&gt;Dl&lt;/FONT&gt;&lt;FONT COLOR="#44FF00"&gt;yo&lt;/FONT&gt;&lt;FONT COLOR="#99DD11"&gt;ns&lt;/FONT&gt;&lt;FONT COLOR="#DDDD11"&gt;493&lt;/FONT&gt;]] [[User_talk:Dlyons493|&lt;FONT COLOR="#DDDD11"&gt;Ta&lt;/FONT&gt;&lt;FONT COLOR="#00FF00"&gt;lk&lt;/FONT&gt;]] 22:26, 6 October 2005 (UTC)
+***Dlyons, look at [[Teratology]]
+**** De-orphaned the following day Oct 7th.  [[User:Dlyons493|&lt;FONT COLOR="#00FF00"&gt;Dl&lt;/FONT&gt;&lt;FONT COLOR="#44FF00"&gt;yo&lt;/FONT&gt;&lt;FONT COLOR="#99DD11"&gt;ns&lt;/FONT&gt;&lt;FONT COLOR="#DDDD11"&gt;493&lt;/FONT&gt;]] [[User_talk:Dlyons493|&lt;FONT COLOR="#DDDD11"&gt;Ta&lt;/FONT&gt;&lt;FONT COLOR="#00FF00"&gt;lk&lt;/FONT&gt;]] 21:17, 24 November 2005 (UTC)
+** [[Jimmy Blanton]] → [[Wikipedia:Perfect stub article]] → [[:Category:Stub categories]] → [[:Category:Astrology stubs]] → [[Summa izbu]]?
+**Same for Gigantothermy
+***[[Gigantothermy]] → [[Great white shark]] → [[Fish]] → [[Cyprinidae]] → [[Zebrafish]] → [[Teratology]] → [[Summa izbu]] and
+***[[Jimmy Blanton]] → [[Tuberculosis]] → [[Alcoholism]] → [[Fetal alcohol syndrome]] → [[Teratology]] → [[Summa izbu]]. [[User:Certes|Certes]] ([[User talk:Certes|talk]]) 20:49, 21 November 2009 (UTC)
+
+*[[Peasant Student Workers Movement]] to [[Moyola Park]] (reverse is 7 steps) &lt;font style="color:#00BB55"&gt;&lt;u&gt;&lt;b&gt;s&lt;/b&gt;murray&lt;/u&gt;&lt;/font&gt;&lt;font style="color:#00AA77"&gt;&lt;u&gt;inch&lt;/u&gt;&lt;/font&gt;[[Wikipedia:Esperanza|&lt;font style="color:green"&gt;'''''e'''''&lt;/font&gt;]]&lt;font style="color:#00AA77"&gt;&lt;u&gt;ster&lt;/u&gt;&lt;/font&gt;&lt;font style="color:#00AA77"&gt;&lt;sup&gt;([[User:Smurrayinchester|User]]), ([[User talk:Smurrayinchester|Talk]])&lt;/sup&gt;&lt;/font&gt; 16:47, 6 January 2006 (UTC)
+**[[Peasant Student Workers Movement]] → [[Colombia]] → [[Association football]] → [[Irish Football Association]] → [[Northern Ireland]] → [[James Chichester-Clark]] → [[Moyola Park]]
+
+*[[Snoring]] to [[ZZZ]]. Funnily, no paths under 10 steps exist for these two seemingly related articles. However, the reverse is only 3 steps. -- [[User:Daverocks|Daverocks]] 13:36, 13 January 2006 (UTC)
+**[[Snoring]] → [[Consonant]] → [[Z]] → [[Z (disambiguation)]] → [[ZZZ]]
+:The only article-space link to ZZZ, [[List of all three letter acronyms]], is orphaned. &lt;font style="color:#FF1111"&gt;&lt;u&gt;&lt;b&gt;s&lt;/b&gt;murray&lt;/u&gt;&lt;/font&gt;&lt;font style="color:#CC1111"&gt;&lt;u&gt;inch&lt;/u&gt;&lt;/font&gt;[[Wikipedia:Esperanza|&lt;font style="color:green"&gt;'''''e'''''&lt;/font&gt;]]&lt;font style="color:#CC1111"&gt;&lt;u&gt;ster&lt;/u&gt;&lt;/font&gt;&lt;font style="color:#CC1111"&gt;&lt;sup&gt;([[User:Smurrayinchester|User]]), ([[User talk:Smurrayinchester|Talk]])&lt;/sup&gt;&lt;/font&gt; 10:15, 4 February 2006 (UTC)
+:[[Snoring]] → [[Uvulopalatopharyngoplasty]] → [[Abbreviation]] → [[List of acronyms]] → [[List of acronyms: Z]] → [[Zzz]] [[User:Eventhorizon51|'''&lt;span style="background-color:yellow;color:;"&gt;Event&lt;/span&gt;&lt;span style="background-color:black;color:#00FFFF;"&gt;horizon51&lt;/span&gt;''']] &lt;sup&gt;([[User talk:Eventhorizon51|talk]])&lt;/sup&gt; 04:57, 14 November 2015 (UTC)
+
+*[[Lolicon]] to [[Pamela Levy]] - no path under 10 steps, although the return path is only 4 steps.
+**[[Lolicon]] → [[Eat Me, Drink Me]] → [[David Lynch]] → [[Fairfield, Iowa]] → [[Pamela Levy]]
+**[[Lolicon]] → [[John Reid, Baron Reid of Cardowan]] → [[United Kingdom]] → [[Culture of the United Kingdom]] → [[Pamela (disambiguation)]] → [[Pamela (name)]] → [[Pamela Levy]].  [[User:Oren0|Oren0]] 05:49, 17 April 2007 (UTC)
+
+*[[Pants]] → [[Lap top]] and [[Shirt]] → [[Laptop]] no path under 10 steps, short return paths. [[User:-Ozone-|Ozone]] 19:21, 3 April 2006 (UTC)
+**[[Shirt]] → [[Button]] → [[Plastic]] → [[General Electric]] → [[NBC Universal]] → [[Microsoft]] → [[Computer]] → [[Laptop]] [[User:Flora|Flora]] 03:23, 31 October 2006 (UTC)
+**[[Shirt]] → [[Button]] → [[Plastic]] → [[Silicon]] → [[Liquid crystal display]] → [[Laptop]] --[[User:White and unnerdy42|White and unnerdy42]] 22:54, 3 November 2006 (UTC)
+**[[Shirt]] → [[Sneakers]] → [[Online shopping]] → [[Laptop]]
+**[[Pants]] → [[Clothing]] → [[Plastic]] → [[Silicon]] → [[Liquid crystal display]] → [[Laptop]] [[User:CambridgeBayWeather|CambridgeBayWeather]] [[User_talk:CambridgeBayWeather|(Talk)]] 00:21, 26 December 2006 (UTC)
+**[[Pants]] → [[Western World]] → [[Technology]] → [[Computer]] → [[Laptop]]
+**[[Pants]] → [[Sneakers]] → [[Online shopping]] → [[Laptop]]
+
+*[[Shaler Area School District]] to [[Cameron Stout]] - no path under 10 steps, reverse path is seperated by only 4 steps.
+**[[Shaler Area School District]] → [[Public School]] → [[United Kingdom]] → [[Channel 4]] → [[Big Brother (UK)]] → [[Big Brother 2003 (UK)]] → [[Cameron Stout]] [[User:Oren0|Oren0]] 19:42, 9 April 2007 (UTC)
+
+* [[Mackay Airport]] to [[Barra do São Miguel]] has no path, even with year and date articles. The reverse is 5 degrees. [[User:128.139.226.34|128.139.226.34]] 11:48, 24 January 2007 (UTC)
+** [[Mackay Airport]] → [[Mackay, Queensland]] → [[Australia]] → [[Great Britain]] → [[Barra]] → [[Barra (disambiguation)]] → [[Barra do São Miguel]] --[[User:Brilliand|Brilliand]] 00:03, 16 February 2007 (UTC)
+
+* [[Bates Motel]] to [[Hornostaypil]] — not short (under 10 steps) path seems to exist. --[[Special:Contributions/77.121.113.77|77.121.113.77]] ([[User talk:77.121.113.77|talk]]) 08:11, 30 June 2008 (UTC)
+**[[Bates Motel]] → [[Psychiatric hospital]] → [[Punitive psychiatry in the Soviet Union]] → [[Soviet Union]] → [[Kiev]] → [[Kiev Oblast]] → [[Hornostaypil]] -- [[User:Sheztime|Sheztime]] ([[User talk:Sheztime|talk]]) 07:36, 2 April 2010 (UTC)
+**[[Bates Motel]] → [[Psycho]] → [[Jamie Lee Curtis]] → [[History of the Jews in Hungary]] → [[List of Hasidic dynasties]] → [[Hornostaypil]]
+
+===Eight steps claimed===
+
+*[[Functional Requirements for Authority Records]] to [[Victor deGrazia]]
+** [[Functional Requirements for Authority Records]] → [[International Federation of Library Associations and Institutions]] → [[Universal Declaration of Human Rights]] → [[United States]] → [[Chicago]] → [[Richard J. Daley]] → [[Dan Walker (politician)]] → [[Victor deGrazia]]
+**6 is now possible: [[Functional Requirements for Authority Records]] → [[Buenos Aires]] → [[1959 Pan American Games]] → [[Richard J. Daley]] → [[Dan Walker (politician)|Daniel Walker]] → [[Victor deGrazia]]
+
+*[[Mesencephalic duct]] to [[Surrey Central Station]]
+**[[Mesencephalic duct]] → [[Anatomy]] → [[Artery]] → [[Highway]] → [[British Columbia]] → [[Burnaby, British Columbia]] → [[Expo Line (TransLink)|Expo Line]] → [[Surrey Central Station]]
+**7 is now possible: [[Mesencephalic duct]] → [[Anatomy]] → [[Biology]] → [[19th century]] → [[Rapid transit]] → [[Vancouver SkyTrain]] → [[Surrey Central Station]]
+**The return journey is quicker [[Surrey Central Station]] → [[2005]] → [[March 2005]] → [[Brain]] → [[Mesencephalon]] → [[cerebral aqueduct]] (redirects to [[Mesencephalic duct]])
+
+*[[Rhett Biglands]] to [[Ozotuncus ozotuncus]]
+**[[Rhett Biglands]] → [[Australian Rules Football]] → [[Melbourne]] → [[Larissa]] → [[Larisa subsolana]] → [[List of Tortricidae genera]] → [[Expo Line (TransLink)|Expo Line]] → [[Ozotuncus ozotuncus]]
+
+*''[[Are You Being Served?]]'' to [[Ponte di Cerreto]]
+**''[[Are You Being Served?]]'' → [[1977]] → [[Bertil Ohlin]] → [[Real]] → [[List of Freguesias of Portugal]] → [[List of Freguesias of Portugal: V]] → [[Ponte]] → [[Ponte di Cerreto]]
+**Can be done in 6: ''[[Are You Being Served?]]'' → [[London]] → [[Rome]] → [[Administrative subdivision of Rome]] → [[Ponte]] → [[Ponte di Cerreto]]
+
+*[[Kenny Chesney]] to [[Brands Hatch]]
+**[[Kenny Chesney]] → [[Uncle Kracker]] → [[Mount Clemens, Michigan]] → [[Michigan]] → [[Detroit, Michigan]] → [[Formula One]] → [[1983 Formula One season]] → [[Brands Hatch]]
+**[[Kenny Chesney]] → [[Texas]] → [[Big Tex]] → [[Fair Park]] → [[Brands Hatch]]
+**(or [[Kenny Chesney]] → [[February 15]] → [[Graham Hill]] → [[Brands Hatch]] if you allow dates)
+**[[Kenny Chesney]] → [[Billboard Touring Award]] → [[Donington Park]] → [[Brands Hatch]]
+
+*[[Cheetos]] to [[Church ball]] doesn't have any paths of ten or less.
+**[[Cheetos]] → [[Frito Lay]] → [[Doritos]] → [[Junk food]] → [[French fries]] (redirect) to [[French fried potatoes]] → [[Utah]] → [[Church Ball]] -- [[User:Jake Nelson|Jake]] 15:12, 12 July 2007 (UTC)
+**Can be done in 5: [[Cheetos]] → [[Dallas]] → [[The Church of Jesus Christ of Latter-day Saints]] → [[LDS cinema]] → [[Church Ball]]
+
+*[[Rakvere Theatre]] to [[Sybra fuscotriangularis]]
+**[[Rakvere Theatre]] → [[Estonia]] → [[.eu]] → [[Sri Lanka]] → [[List of national parks of Sri Lanka]] → [[List of coleopterans of Sri Lanka]] → [[Sybra oblongipennis]] → [[Sybra]] → [[Sybra fuscotriangularis]]
+
+===Seven steps claimed===
+
+*[[111th Street (New York City Subway station)]] to [[Fiacha Cennfinnán]]  
+**[[111th Street (New York City Subway station)]] disambiguation page to [[111th Street (IRT Flushing Line)]] → [[New York City]] → [[Ireland]] → [[High King of Ireland]] → [[List of High Kings of Ireland]] → [[Fiacha Cennfinnán]]  
+**6 is now possible: [[111th Street (IRT Flushing Line)]] → [[IRT Flushing Line]] → [[London]] → [[Irish people]] → [[List of High Kings of Ireland]] → [[Fiacha Cennfinnán]]
+
+*[[Archerfish]] to [[Santa Maria Rupes]]
+**[[Archerfish]] → [[Actinopterygii]] → [[2004]] → [[Solar system]] → [[Geological features of the Solar System]] → [[List of geological features on Mercury]] → [[Santa Maria Rupes]]
+
+*[[Art (Myst)]] to [[Alien Tort Statute]]
+**[[Art (Myst)]] → [[Uru:_Ages_Beyond_Myst]] → [[2004]] → [[Guantanamo Bay]] → [[Rasul v. Bush]] → [[Alien Tort Claims Act]] → [[Alien Tort Statute]]
+**Can be done in 6: [[Art (Myst)]] → [[D'ni Restoration Council]] → [[2002]] → [[2002 in South Africa]] → [[Ed Fagan]] → [[Alien Tort Statute]]
+
+*[[Baluchitherium]] to [[Byzantian Empire]]
+**[[Baluchitherium]] → [[Asia]] → [[Australia]] → [[London]] → [[London Stansted Airport]] → [[Amathus]] → [[Byzantian Empire]]
+**Can be done in 4: [[Baluchitherium]] → [[Asia]] → [[Anatolia]] → [[Byzantian Empire]]
+
+*[[Gunpowder Plot]] to [[-ous]]
+**[[Gunpowder Plot]] → [[Dunchurch]] → [[Village]] → [[Ville]] → [[-ic]] → [[-ic (disambiguation)]] → [[-ous]].
+**Can now be done in 5: [[Gunpowder Plot]] → [[Dunchurch]] → [[Village]] → [[Ville]] → [[-ous]]
+
+*[[Klein Bottle]] to [[Puppies]]
+**[[Klein Bottle]] → [[1882]] → [[1818]] → [[April 29]] → [[Our Gang]] → [[Pups is Pups]] → [[Puppies]]
+**Can be done in 6: [[Klein Bottle]] → [[Nethack]] → [[Vegetarian]] → [[Carnivore]] → [[Domestic Dog]] → [[Puppy]].
+
+*[[List of consonants]] to [[Fiacha Cennfinnán]]
+**[[List of consonants]] → [[Velarized alveolar lateral approximant]] → [[Hiberno-English]](Redirected from Irish English) to [[Ireland]] → [[High King of Ireland]] → [[List of High Kings of Ireland]] → [[Fiacha Cennfinnán]]
+
+*[[Monique Alexander]] to [[Surrey Central Station]]
+**[[Monique Alexander]] → [[1982]] → [[1916]] → [[British Columbia]] → [[Burnaby, British Columbia]] → [[Expo Line (TransLink)|Expo Line]] → [[Surrey Central Station]]
+** can be done in 6: [[Monique Alexander]] → [[2000]] → [[2010s]] → [[Vancouver]] → [[SkyTrain (Vancouver)]] → [[Surrey Central Station]] 
+*** got it in 5: [[Monique Alexander]] → [[HBO]] → [[V-chip]] → [[Simon Fraser University]] → [[Surrey Central Station]]
+
+*[[Momo Hinamori]] to [[Andrea Gylfa]]
+**[[Momo Hinamori]] → [[Bleach (manga)]] → [[2001]] → [[2001 in music]] → [[Icelandic Symphony Orchestra]] → [[Todmobile]] → [[Andrea Gylfadóttir]] → [[Andrea Gylfa]].
+***Replace Bleach and 2001 with [[Grimmjow Jaggerjack]] and [[Slipknot (band)]] to replicate as well.
+**[[Momo Hinamori]] → [[Yachiru Kusajishi]] → [[Andre Previn]] → [[Vladimir Ashkenazy]] → [[Icelandic Symphony Orchestra]] → [[Todmobile]] → [[Andrea Gylfa]]
+***The return trip is five, however: [[Andrea Gylfa]] → [[1986]] → [[1988]] → [[Younha]] → [[Bleach GC: Tasogare Ni Mamieru Shinigami]] → [[Momo Hinamori]].
+
+*[[Mouth]] to [[Stearns (automobile)]]
+**[[Mouth]] → [[Animal]] → [[Cat]] → [[Automobile]] → [[History of the automobile]] → [[Brass Era car]] → [[Stearns (automobile)]].
+
+*[[Orphan]] to [[Erdős]]
+**[[Orphan]] → [[Aids]] → [[1981]] → [[May 15]] → [[Prime number]] → [[Bertrand's postulate]] → [[Erdős]].
+**[[Orphan]] → [[Greek language]] → [[Hungary]] →  [[List of Hungarians]] → [[Sándor_Erdős]] → [[Erdős]] (to which [[Erdős]] redirects).
+
+*[[Proof by verbosity]] to [[Rudraige]] (from: Chains between two random pages)
+**[[Proof by verbosity]] → [[Mathematical proof]] → [[Mathematics]] → [[Art]] → [[Art mac Cuinn]] → [[List of High Kings of Ireland]] → [[Rudraige]]
+
+*[[Rakata (Star Wars)]] to [[ESDP]]
+**[[Rakata (Star Wars)]] → [[2003]] → [[Euro]] → [[E]] → [[EZ]] → [[List of acronyms and initialisms: E]] → [[ESDP]]
+
+*[[Watch Hill, RI]] to [[Gunung Kerinci]] - both mountains so doubly interesting.
+**Interesting, but what are the steps?   [[User:Dlyons493|&lt;FONT COLOR="#00FF00"&gt;Dl&lt;/FONT&gt;&lt;FONT COLOR="#44FF00"&gt;yo&lt;/FONT&gt;&lt;FONT COLOR="#99DD11"&gt;ns&lt;/FONT&gt;&lt;FONT COLOR="#DDDD11"&gt;493&lt;/FONT&gt;]] [[User_talk:Dlyons493|&lt;FONT COLOR="#DDDD11"&gt;Ta&lt;/FONT&gt;&lt;FONT COLOR="#00FF00"&gt;lk&lt;/FONT&gt;]]  11:13, 12 October 2005 (UTC)
+**In 4: [[Watch Hill, RI]] → [[census-designated place]] → [[Hawaii]] → [[List of islands by highest point]] → [[Mount Kerinci]]
+
+*[[Zonguldak]] to [[Matamata, New Zealand]]
+**[[Zonguldak]] → [[Black Sea]] → [[1915]] → [[April 15]] →[[Kepa Te Rangihiwinui]] → [[Te Kooti's War]] → [[Josiah Firth]] → [[Matamata, New Zealand]]
+
+===Six steps claimed===
+
+*[[Panzerfaust]] to [[Lauren Faust]]
+**[[Panzerfaust]] → [[Operation Overlord]] →  [[Pegasus Bridge]] → [[Pegasus]] → [[My Little Pony]] → [[Lauren Faust]]
+
+*[[Maffra West Upper, Victoria]] to [[Northfleet Urban Country Park]]
+** [[Maffra West Upper, Victoria]] → [[Australia]] → [[England]] → [[Kent]] → [[Northfleet]] → [[Northfleet Urban Country Park]]
+
+===Five steps claimed===
+*[[Memphis Belle]] to [[Mousa Broch]]
+**[[Memphis Belle]] → [[B-17 Flying Fortress]] → [[World War II]] → [[United Kingdom]] → [[Shetland Islands]] → [[Mousa Broch]]
+
+*[[RIAA]] to [[Evil]]
+**[[RIAA]] → [[Recording Industry Association of America]] → [[Copyright]] → [[The Disneyland Memorial Orgy]] → [[Evil]]
+:*As RIAA is a redirect to Recording Industry Association of America this looks more like four steps to me. [[User:TomTheHand|TomTheHand]] 19:54, 7 February 2006 (UTC)
+
+*[[Cult]] to [[Kool-Aid]]
+**[[Cult]] → [[United States]] → [[List of United States companies]] → [[Kraft Foods]] → [[Kool-Aid]]
+** Can be done in 4 steps: [[Cult]] → [[Jim Jones]] → [[Flavor Aid]] → [[Kool Aid]]
+
+*[[Elmo]] to [[Teletubbies]], can anyone do it?
+**[[Elmo]] → [[Sesame Street]] → [[Sid the Science Kid]] → [[PBS]] → [[PBS Kids]] → [[Teletubbies]] [[Special:Contributions/64.173.171.186|64.173.171.186]] ([[User talk:64.173.171.186|talk]]) 01:38, 21 October 2010 (UTC)
+
+*[[Weakness]] leads to the [[United States Naval Academy]], Go Army, Beat Navy.
+**[[Weakness]] → [[Greek language]] → [[United States]] → [[U.S. state]] → [[Maryland]] → [[United States Naval Academy]]
+
+*[[You Forgot It in People]] to [[Alzheimer's Disease]]
+**[[You Forgot It in People]] → [[2002]] → [[February 13]] → [[Eddie Robinson (football coach)]] → [[Alzheimer's Disease]]
+** Can be done in 3 steps: [[You Forgot It in People]] → [[2004]] → [[Ronald Wilson Reagan]] → [[Alzheimer's Disease]]
+
+*[[Moses]] to [[Don Mills, Ontario]]
+**[[Moses]] → [[God]] → [[Evolution]] → [[Ecology]] → [[List of planned cities]] → [[Don Mills, Ontario]]).
+
+*[[1706]] to [[Eagle-Vail, Colorado]]
+**[[1706]] → [[1700s]] → [[18th Century]] → [[19th Century]] → [[2000]] → [[Eagle-Vail, Colorado]]
+
+*[[Naked mole rat]] to [[Black hole]]
+**[[Naked mole rat]] → [[Rüppell]] → [[University of Genoa]] → [[Physical]] (disambiguation page) to [[Physics]] → [[Black hole]]
+** Can be done in 4 steps: [[Naked mole rat]] → [[Rüppell]] → [[Germany]] → [[Physics]] → [[Black hole]] --[[User:Icweiner|Icweiner]] 03:02, 26 April 2007 (UTC)
+
+*[[Leda Cosmides]] to [[Flint the Time Detective]]
+**[[Leda Cosmides]] → [[1957]] → [[1954]] → [[Matt Groening]] → [[Animated television series]] → [[Flint the Time Detective]]
+
+*[[Cargo cult]] to [[Conformation show]]
+**[[Cargo cult]] → [[Hmong]] → [[Dog]] → [[Dog agility]] → [[The Kennel Club]] → [[Conformation show]]
+
+*[[Directorate-General for Transport and Energy (European Commission)]] to [[Ong-Bak: Muay Thai Warrior]]
+**[[Directorate-General for Transport and Energy (European Commission)]] → [[Andris Piebalgs]] → [[English language]] → [[Backpacking (travel)]] → [[2005 in film]] → [[Ong-Bak: Muay Thai Warrior]]
+
+*[[Melody]] to [[Dukes of Hazzard]]
+**[[Melody]] → [[Rock music]] → [[Radiohead]] → [[One-hit wonder]] → [[Dukes of Hazzard]]
+
+*[[Ashvin]] → [[Antarctica]] does not have any paths less than 10.
+**[[Ashvin]] → [[Indian national calendar]] → [[India]] → [[Indian Ocean]] → [[Antarctica]]. [[User:Oren0|Oren0]] 20:00, 22 April 2007 (UTC)
+
+*[[Annals of the Four Masters]] to [[Great Wall of China]]
+** [[Annals of the Four Masters]] → [[John O'Donovan (scholar)]] → [[Queen's University of Belfast]] (redirect) to [[Queen's University Belfast]] → [[United States]] → [[Superpower]] → [[Socialist Republic]] → [[Centrally planned economy]] (redirect) to [[Planned economy]] → [[China]] → [[Great Wall of China]]. ---[[User:Burned_by_everybody]]
+** Way quicker: [[Annals of the Four Masters]] → [[Chronicle]] → [[History of China]] → [[Great Wall of China]]. [[User:Oren0|Oren0]] 05:28, 28 August 2007 (UTC)
+
+*[[Snoring]] to [[Bugamba]]
+**[[Snoring]] → [[Edinburgh Royal Infirmary]] → [[United Nations]] → [[List of ambassadors to the United Nations]] → [[Francis K. Butagira]] → [[Bugamba]]
+
+*[[Journey (band)|Journey]] to [[Inner Core|the Center of the Earth]]
+**[[Journey (band)]] → [[Billboard Top 100]] → [[Elvis Presley]] → [[CBS]] → [[Teenage Mutant Ninja Turtles (1987 series)]] → [[Earth's core]]. Without using places or dates.
+
+*[[Talca]] to [[Hamdan bin Zayed bin Sultan Al Nahyan]]
+**[[Talca]] → [[2010 Chile earthquake]] → [[2010 Winter Olympics]] → [[Human trafficking]] → [[Child camel jockey]] → [[Hamdan bin Zayed bin Sultan Al Nahyan]]
+
+*[[Lincoln (2012 film)|Lincoln]] to [[Nicolas Cage]]
+**[[Lincoln (2012 film)]] → [[President of the United States]] → [[President of the United States (disambiguation)]] → [[The Presidents of the United States of America (band)]] → [[Roman Coppola]] → [[Nicolas Cage]]
+**Or [[Lincoln (2012 film)]] → [[Steven Spielberg]] → [[Francis Ford Coppola]] → [[Nicolas Cage]]
+
+*[[Kurtz_House_(Washington,_Iowa)]] to [[Heni_Te_Kiri_Karamu]]
+**[[Kurtz_House_(Washington,_Iowa)]] → [[Italianate_architecture]] → [[Wellington]] → [[Tauranga]] → [[Aquinas_College,_Tauranga]] → [[Heni_Te_Kiri_Karamu]]
+
+===Four steps claimed===
+*[[Gsteig bei Gstaad]] to [[Khalid al-Azm]]
+**[[Gsteig bei Gstaad]] → [[French language]] → [[Syria]] → [[List of Presidents of Syria]] → [[Khalid al-Azm]]
+
+*[[Development of the urinary and reproductive organs]] to [[Jesus]]
+**[[Development of the urinary and reproductive organs]] → [[Sex organ]] → [[Latin]] → [[The Passion of the Christ]] → [[Jesus]]
+
+*[[President]] to [[Vaginal intercourse]]
+**[[President]] → [[France]] → [[AIDS]] → [[Vaginal intercourse]]
+
+*[[Wallpaper]] to [[Erectile dysfunction]]
+**[[Wallpaper]] → [[Puritan]] → [[Human sexuality]] → [[Sexual dysfunction]] → [[Erectile dysfunction]]
+
+*[[Apple pie]] to [[Rock (geology)]]
+**[[Apple pie]] → [[Atlantic Ocean]] → [[Trough (geology)]] → [[Structural geology]] → [[Rock (geology)]]
+
+*[[Mars (planet)]] to [[Mars, Incorporated]]
+**[[Mars (planet)]] → [[1000000000 (number)]] → [[Lists of billionaires]] → [[List of billionaires (2007)]] → [[Mars, Incorporated]]
+**[[Mars (planet)]] → [[Mars (disambiguation)]] → [[Mars, Incorporated]] (uses disambiguation page(s))
+
+*[[Seven Layer Dip]] to [[Britney Spears]]
+**[[Seven Layer Dip]] → [[Lettuce]] → [[USA]] → [[Madonna]] → [[Britney Spears]]
+
+*[[Dwarf tossing]] to [[Quantum Mechanics]]
+**[[Dwarf tossing]] → [[American Dad]] → [[Family Guy]] → [[Stewie]] → [[Quantum Mechanics]]
+
+*[[Yassir Arafat]] to [[Britney Spears]]
+**[[Yassir Arafat]] → [[Barack Obama]] → [[Grammy Award]] → [[MTV Video Music Awards]] → [[Britney Spears]]
+
+== Surprisingly long reverse path ==
+
+*Whereas [[Bog]] to [[Toilet]] is two steps, [[Toilet]] to [[Bog]] is 4 steps.
+** [[Toilet]] → [[California]] → [[River]] → [[Bog]]
+
+* [[Bar]] → [[Foo]] is only one step. However, [[Foo]] → [[Metasyntactic variable]] → [[Hebrew language]] → [[Shtetl]] → [[Bar]] is four steps.
+**[[Bar]] no longer links directly to [[Foo]]. Shortest path: [[Bar]] → [[Bar (computer science)]] → [[Foo]] (two steps).
+
+* Interesting symmetry here:
+** [[Here]] → [[There]] (1)
+** [[Here]] → [[There]] → [[There (internet service)]] (2)
+** [[There]] → [[Pronoun]] → [[Linguistics]] → [[Australia]] → [[Indian Ocean]] → [[Here]] (5)
+** [[There (internet service)]] → [[Competition]] → [[Civilization]] → [[Indian Ocean]] → [[Here]] (4)
+*** Incidentally, the last link ([[Indian Ocean]] → [[Here]]) for these two has vanished, but [http://en.wikipedia.org/w/index.php?title=Indian_Ocean&amp;oldid=45018230#Data it was amusing].
+
+* [[Mykhailo Haivoronsky]] → [[Biography]] → [[United Kingdom]] → [[Liverpool F.C.]] → [[Liverpool F.C. statistics]] → [[David Raven (footballer)]] is 5 steps, but there is no return path.
+
+*[[Abdullah Al-Qasemi]] → [[Atheism]] → [[Bertrand Russell]] → [[Fabian Society]] → [[Disambiguation]] is 4, but the reverse is over 10.
+**[[Abdullah Al-Qasemi]] is an orphan, it's only link is from here.  Therefore, there is no path.  [[User:Oren0|Oren0]] 19:59, 22 April 2007 (UTC)
+
+*[[Soyuz TMA-22]] → [[Twitter]] is 1, but I don't think there is a return path (or a very long one).
+**One path, as of November 2011, is [[Twitter]] → [[United States Department of Justice]] → [[United States federal executive departments]] → [[United States Department of Defense]] → [[United States Department of the Air Force]] → [[United States Air Force]] → [[Vandenberg Air Force Base]] → [[Space Shuttle]] → [[Human spaceflight]] → [[Soyuz (spacecraft)]] → [[Soyuz TMA-22]] (10), &lt;small&gt;That is, ignoring the Twitter link in the External links section&lt;/small&gt;
+***[[Soyuz (spacecraft)]] no longer links directly to [[Soyuz TMA-22]]. The shortest path, as of January 2020, is [[Twitter]] → [[International Space Station]] → [[Soyuz (spacecraft)]] → [[Soyuz (rocket family)]] → [[Soyuz TMA]] → [[Soyuz TMA-22]]
+
+*[[Wales]] → [[Wales (disambiguation)]] → [[Jimmy Wales]] is two steps, while [[Jimmy Wales]] → [[English Wikipedia]] → [[English Language]] → [[United Kingdom]] → [[Wales]] is four steps. &lt;!-- [[Jimmy Wales]] → [[England]] → [[United Kingdom]] → [[Wales]]  3 steps --&gt;
+
+*[[Easy]] → [[Simple]], but [[Simple]] → [[Simple Kid]] → [[Alternative rock]] → [[Californication (album)]] → [[Easily]] → [[Easy]]
+
+*[[Antiferroelectricity]] → [[Checkerboard]] is 1.
+**One path (as of Dec 2017) is [[Checkerboard]] → [[Taxicab]] → [[Car]] → [[Electric car]] → [[Electric motor]] → [[Electrical energy]] → [[Electric potential energy]] → [[Electricity]] → [[Antiferroelectricity]] (9 pages, 8 links) ... probably could be shorter [[User:Ev3commander|Ev3commander]] ([[User talk:Ev3commander|talk]]) 23:15, 30 December 2017 (UTC)
+
+*Perhaps more surprising for the number of possible paths: [[Artemisia Gallery]] → [[The Doomsday Machine (Star Trek: The Original Series)]] is 4 steps, with 3 possible paths. (One is [[Artemisia Gallery]] → [[Phyllis Bramson]] → [[Smithsonian Institution]] → [[Star Trek: The Original Series]] → [[The Doomsday Machine (Star Trek: The Original Series)]]. The reverse path, however, is 5 steps with ''591 possible paths'': One example is [[The Doomsday Machine (Star Trek: The Original Series)]] → [[CBS]] → [[Low culture]] → [[Cultural artifact]] → [[Artist-run space]] → [[Artemisia Gallery]].
+
+== Shortest "unusual" chains ==
+&lt;!--When adding a chain to this category, try to maximize the amount of odd chains that could be made from the single chain being added.--&gt;
+
+*Cold Showers to My Cold Shower
+**[[Cold Showers]] → [[2005 in film]] → [[Zach Braff]] → [[List of Scrubs episodes]] → [[My Cold Shower]]
+
+*Urban Meyer to Pope Urban II
+**[[Urban Meyer]] → [[University of Notre Dame]] → [[Roman Catholic Church]] → [[Pope Urban II]]
+
+* Graffiti to Maritime archeology
+** [[Graffiti]] → [[Roman Empire]] → [[Maritime archeology]]
+
+*Devil Stick to Gunpowder
+**[[Devil Stick]] → [[Silk Road]] → [[Gunpowder]]
+
+*LSD to Shakespeare
+**[[LSD]] → [[Latin]] → [[split infinitive]] → [[Shakespeare]]
+**[[LSD]] → [[United Kingdom|British]] → [[William Shakespeare]] amounts to the same thing in a shorter chain. [[User:Id the Mildly Confused|Id the Mildly Confused]] 04:38, 17 April 2007 (UTC)
+
+*Oboe to veto
+**[[Oboe]] → [[Baroque]] → [[Papacy]] → [[temporal power]] → [[veto]]
+
+*Immanuel Kant to Ken Kesey
+**[[Immanuel Kant]] → [[reality]] → [[schizophrenia]] → [[electroconvulsive therapy]] → [[Ken Kesey]]
+
+*Anime to Three Stooges
+**[[Anime]] → [[Moe]] → [[Three Stooges]]
+***Moe is a disambiguation page, and the link has since been changed to bypass it, so the chain is now broken. [[User:NeonMerlin|&lt;span style="background:#000;color:red;border:#0f0 solid;border-width:1px 0"&gt;Neon&lt;/span&gt;]][[User talk:NeonMerlin|&lt;span style="background:#0f0;color:#000;border:red solid;border-width:1px 0"&gt;Merlin&lt;/span&gt;]] 05:09, 13 July 2007 (UTC)
+
+*Anus to ''Good Morning, Vietnam''
+**[[Anus]] → [[Cloaca]] → [[Robin Williams]] → ''[[Good Morning, Vietnam]]''
+***dirty lies. no cloaca page links to robin williams [[User:70.90.70.165|70.90.70.165]] 19:15, 19 April 2007 (UTC)
+
+*Eeyore to Zeno of Citium
+**[[Eeyore]] → [[Stoicism]] → [[Zeno of Citium]]
+
+*Francis of Assisi to Star Trek
+**[[Francis of Assisi]] → [[Natural environment|Environment]] → [[Star Trek]]
+Where is the link to [[Star Trek]] on [[Natural Environment]]? [[User:IrishJew|Avraham]] 03:01, 2 April 2006 (UTC)
+
+*Podenco Ibicenco to Detroit Tigers
+**[[Podenco Ibicenco]] → [[Fred Hutchinson Cancer Research Center]] → [[Detroit Tigers]]
+
+*Japanese toilet to Corrosion
+**[[Japanese toilet]] → [[Tokyo]] → [[Steel]] → [[Corrosion]]
+
+*Satyr to Wombat
+**[[Satyr]] → [[Bagpipes]] → [[Australia]] → [[Wombat]]
+
+*Oregon Coast Aquarium to European Coal and Steel Community
+**[[Oregon Coast Aquarium]] → [[Keiko (Orca)]] → [[Norway]] → [[European Union]] → [[European Coal and Steel Community]]
+
+*Mao Zedong to Ichiro Suzuki
+**[[Mao Zedong]] → [[October 1]] → [[Ichiro Suzuki]]
+
+*Locust to Bicycle
+**[[Locust]] → [[19th Century]] → [[Bus]] → [[Bicycle]]
+
+*''From a Jack to a King; From Loneliness to a Wedding Ring''
+**[[Jack (playing card)|Jack]] → [[Iliad]] → [[King]]; [[Loneliness]] → [[Interpersonal relationship]] → [[Marriage]] → [[Wedding band|Wedding band (or ring)]]
+
+*Dick Cheney to Sunflower
+**[[Dick Cheney]] → [[1964]] → [[Osama bin Laden]] → [[Sunflower]]
+(many obvious other chains from this e.g.:) [[Dick Cheney]] → [[George W. Bush]] → [[Osama bin Laden]] → [[Sunflower]]
+
+*Pants to Bill Gates
+**[[Pants]] → [[American English]] → [[20th century]] → [[Bill Gates]]
+
+*Penis to Queen Elizabeth II
+**[[Penis]] → [[Circumcision]] → [[Canada]] → [[Queen Elizabeth II]] or
+**[[Penis]] → [[Body piercing]] → [[1960s]] → [[Elizabeth II of the United Kingdom]]
+
+*Running to Naked
+**[[Running]] → [[Ancient Olympic Games]] → [[Naked]]
+
+*Basketball to Naked
+**[[Basketball]] → [[Gym]] → [[Naked]]
+
+*[[Under Pressure]] → [[World War I]]
+**[[Under Pressure]] → [[Propel Fitness Water]] → [[PepsiCo]] → [[Pepsi]] → [[World War I]] --[[User:68.75.182.69|68.75.182.69]] 23:58, 19 April 2007 (UTC)
+**[[Under Pressure]] → [[Switzerland]] → [[World War I]] amounts to the same thing in a shorter ch --[[User:Icweiner|Icweiner]] 02:45, 26 April 2007 (UTC)
+
+*[[The Neverending Story]] → [[Fantasy]] → [[Final Fantasy]]
+
+*[[Britney Spears]] → [[Montreal Screwjob]]
+**[[Britney Spears]] → [[UPN]] → [[World Wrestling Entertainment]] → [[Montreal Screwjob]] --[[User:Carn29|Carn29]]
+
+*[[Cyberpunk]] → [[Tool]]
+**[[Cyberpunk]] → [[United states secret service]] → [[Tool]]
+
+*[[Pikachu]] → [[World domination]]
+**[[Pikachu]] → [[Pokemon game mechanics]] → [[World domination]]
+
+*[[Hannah Montana]] → [[Illinois]] → [[McDonald's]] → [[Ronald McDonald]]
+
+*[[Bill Gates]] → [[History of Microsoft]] → [[Wii]] → [[Nintendo]] → [[Pokémon]]
+
+*[[Wales]] → [[Atlantic Ocean]] → [[Marine pollution]] → [[Plankton]] → [[Whale|Whales]]
+
+*[[Quantity]] → [[Energy]] → [[Quantum mechanics]]
+*[[Quantity]] → [[English language]] → [[Inflection]]
+
+* [[Boot to the Head]]:
+** [[Boot]] → [[Leggings]] → [[Home Shopping Network]] → [[List of programs broadcast by MTV]] → [[The Head]]
+
+*[[Abra, Kadabra, and Alakazam]] to [[Simplex]]
+:*[[Abra, Kadabra, and Alakazam]] → [[Pentagram]] → [[Simplex]]
+
+* [[Ameno (song)]] → [[Liberal Democrats (UK)]]
+:* [[Ameno (song)]] → [[France]] → [[Scientology]] → [[Arbitration Committee]] → [[Liberal Democrats (UK)]]
+::* [[Ameno (song)]] → [[France]] → [[United Kingdom]] → [[Liberal Democrats (UK)]]
+
+* [[SCP Foundation]] → [[Political prisoner]]
+:* [[SCP Foundation]] → [[IKEA]] → [[Political prisoner]]
+
+* Just...what.
+:* [[Ø]] → [[Ø (disambiguation)]] → [[Ø (Disambiguation)]]
+
+== Chains between two [[Special:Randompage|random pages]] ==
+
+Charyyapadas to Broadstairs
+*[[Charyyapadas]] → [[Assamese language]] → [[1867]] → [[United States]] → [[Tourism]] → [[Broadstairs]]
+
+Oatcake to Ukrainian I
+*[[Oatcake]] → [[England]] → [[English Language]] → [[Latin Alphabet]] → [[Cyrillic Alphabet]] → [[Ukrainian I]]
+
+The Payolas to Marvin Liebman
+*[[The Payolas]] → [[Punk Rock]] → [[Roxy Music]] → [[Manifesto]] → [[Young Americans for Freedom]] → [[Marvin Liebman]]
+
+Kick to The Face
+*[[Kick]] → [[Boxing]] → [[1968]] → [[Kylie Minogue]] → [[The Face]]
+
+Adolphe Joseph Thomas Monticelli to Classical theory
+*[[Adolphe Joseph Thomas Monticelli]] → [[France]] → [[God]] → [[Higgs boson]] → [[Graviton]] → [[Classical theory]]
+
+Sobhuza II of Swaziland to Binnenalster
+*[[Sobhuza II of Swaziland]] → [[April 12]] → [[April 13]] → [[Hamburg]] → [[Binnenalster]]
+
+Vin Mariani to Capital virtues
+*[[Vin Mariani]] → [[Wine]] → [[Italy]] → [[Petrarch]] → [[Cardinal virtues]] → [[Capital virtues]]
+
+Baltasar Carlos, Prince of Asturias to Saurodactylus
+*[[Baltasar Carlos, Prince of Asturias]] → [[Biography]] → [[Hermit]] → [[Sex]] → [[Gecko]] → [[Saurodactylus]]
+
+Hal Colebatch to Liard River
+*[[Hal Colebatch]] → [[Adolf Hitler]] → [[September 1]] → [[Rocky Mountains]] → [[Liard River]]
+
+Cyber Team in Akihabara to Mount Carmel Cemetery
+*[[Cyber Team in Akihabara]] → [[Manga]] → [[United States]] → [[Chicago]] → [[Al Capone]] → [[Mount Carmel Cemetery]]
+
+Sweet Polly Oliver to Committee of Public Safety
+*[[Sweet Polly Oliver]] → [[England]] → [[History of the United Kingdom]] → [[France]] → [[French Revolution]] → [[Committee of Public Safety]]
+
+Velociraptor to Jewish services
+*[[Velociraptor]] → [[Tooth]] → [[Human]] → [[Bible]] → [[Judaism]] → [[Jewish services]]
+*or... [[Velociraptor]] → [[Jurassic Park]] → [[Steven Spielberg]] → [[Schindler's List]] → [[Shabbat]] → [[Jewish services]]
+**Can be done in 5 [[Velociraptor]] → [[Poland]] → [[Jewish]] → [[Judaism]] → [[Jewish services]]
+
+Coenzyme Q to Rawlins, Wyoming
+*[[Coenzyme Q]] → [[dietary supplement]] → [[United States]] (a very general link that makes it possible to get to any geographic area, thus taking the fun out of 'six degrees') to [[Wyoming]] → [[List of Wyoming counties]] → [[Carbon County, Wyoming]] → [[Rawlins, Wyoming]]
+**Can be done in 6 [[Coenzyme Q]] → [[1958]] → [[Wyoming]] → [[List of Wyoming counties]] → [[Carbon County, Wyoming]] → [[Rawlins, Wyoming]]
+
+Gerald Posner to Michel Tremblay
+*[[Gerald Posner]] → [[Al Gore]] → [[Canadian Broadcasting Corporation]] → [[Quebec]] → [[List of Quebec authors]] → [[Michel Tremblay]]
+
+Solna to Mohammad Abaee-Khorasani
+*[[Solna]] → [[Sweden]] → [[Iran]] → [[List of Iranians]] → [[Mohammad Abaee-Khorasani]]
+
+Pokémon to Boston Molasses Disaster
+*[[Pokémon]] → [[North America]] → [[United States]] → [[Boston]] → [[Boston Molasses Disaster]]
+
+Common Grackle to Ambassador Hotel
+*[[Common Grackle]] → [[United States]] → [[Vietnam War]] → [[Robert F. Kennedy]] → [[Ambassador Hotel]]
+
+Ylistaro to Streptococcus pneumoniae
+*[[Ylistaro]] → [[Finland]] → [[20th Century]] → [[Infectious disease in the 20th century]] → [[Pneumonia]] → [[Streptococcus pneumoniae]]
+
+Julius Caesar to Rafael Cordero (educator)
+*[[Julius Caesar]] → [[Roman Empire]] → [[Spain]] → [[Puerto Rico]] → [[List of famous Puerto Ricans]] (which redirects to [[List of Puerto Ricans]]) to [[Rafael Cordero (educator)]]
+
+Marsupial to Bridge
+*[[Marsupial]] → [[Australia]] → [[Sydney]] → [[Sydney Harbour Bridge]] → [[Bridge]]
+
+Frank Drake to Ramsey Island
+*[[Frank Drake]] → [[List of astronomers]] → [[Britain]] → [[Wales]] → [[Anglesey]] → [[List of islands of Wales]] → [[Ramsey Island]]
+**Can be done in 6 [[Frank Drake]] → [[1961]] → [[1962]] → [[1962 in South Africa]] → [[Pembrokeshire]] → [[Ramsey Island]] 
+
+Proof by verbosity to Rudraige
+*[[Proof by verbosity]] → [[Mathematical proof]] → [[Natural language]] → [[Esperanto]] → [[Ireland]] → [[Early history of Ireland]] → [[List of High Kings of Ireland]] → [[Rudraige]]
+**Slightly shorter: [[Proof by verbosity]] → [[Mathematical proof]] → [[Mathematics]] → [[Art]] → [[Art mac Cuinn]] → [[List of High Kings of Ireland]] → [[Rudraige]]
+
+Walter Richard Parker to 85
+*[[Walter Richard Parker]] → [[Royal Marines]] → [[1982]] → [[List of state leaders in 1982]] → [[List of state leaders in 1981]] → [[85]] 
+
+Don Beebe to Haji Ali Dargah
+*[[Don Beebe]] → [[December 18]] → [[Niger]] → [[Islam]] → [[India]] → [[Mumbai]] → [[Haji Ali Dargah]]
+**Can be done in 5 [[Don Beebe]] → [[1996]] → [[1993]] → [[Bombay|Bombay (redirects to Mumbai)]] → [[Haji Ali Dargah]]
+ 
+Shoichi Nakagawa to Tallest buildings in Australia
+*[[Shoichi Nakagawa]] → [[1953]] → [[Prime Minister of Australia]] → [[Australia]] → [[Melbourne]] → [[Tall buildings in Melbourne]] → [[Tallest buildings in Australia]]
+**Can be done in 5 [[Shoichi Nakagawa]] → [[Japan]] → [[List of countries]] → [[Tallest structures of different countries]] → [[Tallest buildings in Australia]]
+
+Molson Coors to Chemical elements named after places
+*[[Molson Coors]] → [[Beer]] → [[Starch]] → [[Carbohydrate]] → [[Carbon]] → [[Chemical Element]] → [[List of elements by name]] → [[Chemical elements named after places]]
+[[User:Clarkefreak|Clarkefreak]] [[User talk:Clarkefreak|&amp;#8734;]] 22:25, 8 August 2005 (UTC)
+** Can be done in 6 [[Molson Coors]] → [[2005]] → [[February 2005]] → [[February 2004]] → [[Chemical element]] → [[Chemical elements named after places]]
+
+Hollycombe Steam Collection to Tithonus
+*[[Hollycombe Steam Collection]] → [[:Category:Tourist attractions in Hampshire]] → [[Broadlands]] → [[United Kingdom]] → [[Alfred Tennyson, 1st Baron Tennyson]] → [[Tithonus]]
+[[User:Clarkefreak|Clarkefreak]] [[User talk:Clarkefreak|&amp;#8734;]] 03:39, 18 August 2005 (UTC)
+
+Crawford Notch to Ferdinand von Saar
+*[[Crawford Notch ]] → [[19th century]] → [[1791]] → [[Franz Grillparzer]] → [[List of Austrian writers]] → [[Ferdinand von Saar]]
+
+Visualization (cam) to Defeated nominees to the U.S. Supreme Court
+*[[Visualization (cam)]] → [[Meditation]] → [[1972]] → [[Supreme Court of the United States]] → [[Defeated nominees to the U.S. Supreme Court]]
+
+ad nauseum to Coyville, Kansas in six steps:
+*[[ad nauseum]] → [[politician]] → [[governor]] → [[List of United States Governors]] → [[Kansas]] → [[Wilson County, Kansas]] (''or'' [[List of cities in Kansas]]) to [[Coyville, Kansas]]
+
+[[Back]] → [[The Future]]
+*[[Back]] → [[scrum]] → [[Canada]] → [[Montreal]] → [[Leonard Cohen]] → [[The Future]]
+**Also [[Back]] → [[Anatomy]] → [[Touch]] → [[Leonard Cohen]] → [[The Future]]
+
+List of names of the official languages of the European Union in the official languages respectively to GoldenEye (song)
+* [[List of names of the official languages of the European Union in the official languages respectively|LonotolotEUitolr]] → [[English language]] → [[Film]] → [[List of character-based movie franchises]] → [[James Bond]] → [[GoldenEye]] → [[GoldenEye (song)]]
+* [[List of names of the official languages of the European Union in the official languages respectively]] → [[Finnish language]] → [[Saint Petersburg]] → [[GoldenEye]] → [[GoldenEye (song)]], according to the Six degrees tool (see bottom)
+
+[[Zoe Stark]] → [[Port Everglades]]
+* [[Zoe Stark]] → [[Australian]] → [[United States]] → [[Florida]] → [[Port Everglades]]: this was  the first route I found (manually) on my first try.  --[[User:Ravi12346|Ravi12346]] 04:57, 20 February 2006 (UTC)
+
+[[Blue Nile Falls]] → [[John Norquist]]
+* [[Blue Nile Falls]] → [[Tourist attraction]] → [[United States]] → [[Wisconsin]] → [[Milwaukee, Wisconsin]] → [[List of mayors of Milwaukee]] → [[John Norquist]]. my first try :)--[[User:Ally525|Ally525]] 00:39, 5 March 2006 (UTC)
+
+[[Venice Commission]] → [[Dahntay Jones]]
+*[[Venice Commission]] → [[United States]] → [[Memphis International Airport]] → [[Memphis, Tennessee]] → [[Memphis Grizzlies]] → [[Dahntay Jones]] ---[[User:Sluzzelin|Sluzzelin]] 11:27, 12 October 2006 (UTC)
+::*Can be done in 5: [[Venice Commission]] → [[United States]] → [[Tennessee]] → [[Memphis Grizzlies]] → [[Dahntay Jones]]---[[User:Sluzzelin|Sluzzelin]] 14:25, 12 October 2006 (UTC)
+
+[[Principality of Capua]] → [[Grant Waite]]
+*[[Principality of Capua]] → [[Southern Italy]] → [[Italy]] → [[Sport in Italy]] → [[Italian national football team]] → [[Serie A]] → [[List of sports attendance figures]] → [[FBR Open]] → [[Grant Waite]]---[[User:Curlingforever|Curlingforever]] 09:12, 16 November 2006 (UTC)
+
+[[HMAS Brisbane (D 41)]] → [[Medical University of Lublin]]
+*[[HMAS Brisbane (D 41)]] → [[United States]] → [[Poland]] → [[Lublin]] → [[Medical University of Lublin]] --[[User:Jh51681|jh51681]] 22:59, 27 December 2006 (UTC)
+
+[[Fish]] → [[Growth hormone]]
+*[[Fish]] → [[Blood]] → [[Hormone]] → [[Growth hormone]]
+
+
+[[Ashvin]] → [[Antarctica]] does not have any paths less than 10.
+*[[Ashvin]] → [[Indian national calendar]] → [[India]] → [[Indian Ocean]] → [[Antarctica]]. [[User:Oren0|Oren0]] 05:56, 17 April 2007 (UTC)
+*Alternatively: [[Ashvin]] → [[BitTorrent, Inc.]] → [[United States]] → [[Military activity in the Antarctic]] → [[Antarctica]]. [[User:Sandy of the CSARs|Sandy of the CSARs]] ([[User talk:Sandy of the CSARs|talk]]) 05:39, 24 May 2009 (UTC)
+
+[[Antarctica]] → [[Snow Patrol]] does not have any paths less than 10.
+*There's a path of 1.  [[Antarctica]] → [[United Kingdom]] → [[Snow Patrol]].  [[User:Oren0|Oren0]] 05:58, 17 April 2007 (UTC)
+
+[[Bowling for Dollars]] → [[Essex County, Ontario]]
+
+[[Bowling for Dollars]] → [[WJW]] → [[Essex County, Ontario]]
+
+[[Caboose (Red vs. Blue)]] → [[Heterochromia]]
+*[[Caboose (Red vs. Blue)]] → [[Blue]] → [[Blond]] → [[Eye color]] → [[Heterochromia]] [[User:PamD|PamD]] 07:30, 15 October 2007 (UTC)
+
+[[Foreign relations of Cameroon]] → [[Baktykozha Izmukhambetov]]
+Foreign relations of Cameroon &gt; United Nations &gt; United Nations member states &gt; Kazakhstan &gt; Nursultan Nazarbayev &gt; Baktykozha Izmukhambetov &lt;b&gt;[[User:Salaskan|&lt;span style="color:red"&gt;Sala&lt;/span&gt;]][[User talk:Salaskan|&lt;span style="color:gold"&gt;Skan&lt;/span&gt;]]&lt;/b&gt; 01:48, 3 June 2007 (UTC)
+
+Qwilfish to University of Indonesia
+*[[Qwilfish]] → [[Pufferfish]] → [[Tropical zone]] → [[University of Indonesia]]
+
+Rei Ayanami to Crime &amp; Punishment
+* [[Rei Ayanami]] → [[Anime]] → [[Japan]] → [[Russia]] → [[Russian literature]] → [[Crime &amp; Punishment]]
+** Also: [[Rei Ayanami]] → [[Neon Genesis Evangelion (live-action movie)]] → [[Universal Studios]] → [[NBC Universal]] → [[NBC]] → [[Crime &amp; Punishment]]; reverse: [[Crime &amp; Punishment]] → [[NBC]] → [[NBC Universal]] → [[Universal Studios]] → [[List of Universal Pictures films]] → [[Neon Genesis Evangelion (live-action movie)]] → [[Rei Ayanami]] -- [[User:CJMiller|CJ Miller.]] (&lt;sup&gt;[[User talk:CJMiller|That's my name.]]&lt;/sup&gt;&lt;sub&gt;[[Special:Contributions/CJMiller|Don't wear it out.]]&lt;/sub&gt;) 03:22, 23 February 2009 (UTC)
+
+Maund to Chapare River
+*[[Maund]] → [[kilograms]] → [[litre|liter]] → [[beverages]] → [[cola|colas]] → [[Coca-Cola]] → [[coca]] → [[Chapare Province]] → [[Chapare River]] --[[User:Jh51681|jh51681]] ([[User talk:Jh51681|talk]]) 12:17, 23 February 2008 (UTC)
+
+Northern Qi to P.H.U.Q.
+* [[Northern Qi]] → [[Buddhism]] → [[Europe]] → [[England]] → [[Newcastle upon Tyne]] → [[The Wildhearts]] → [[P.H.U.Q.]] --[[User:Jh51681|jh51681]] ([[User talk:Jh51681|talk]]) 11:51, 23 February 2008 (UTC)
+
+[[River Deben]] → [[Earth Is Room Enough]]
+*[[River Deben]] → [[Suffolk]] → [[Russia]] → [[Asia]] → [[Bible]] → [[Isaac Asimov]] → [[Earth Is Room Enough]] --[[User:Jh51681|jh51681]] ([[User talk:Jh51681|talk]]) 11:24, 23 February 2008 (UTC)
+:*Shorter: [[River Deben]] → [[Common Reed]] → [[Asia]] → [[Bible]] → [[Isaac Asimov]] → [[Earth Is Room Enough]] --[[User:Jh51681|jh51681]] ([[User talk:Jh51681|talk]]) 11:37, 23 February 2008 (UTC)
+
+[[William Elfving]] → [[Emergency (Philippine TV program)]]
+*[[William Elfving]] → [[Santa Clara County, California|County of Santa Clara]] →  [[U.S. state]] → [[Georgia (U.S. state)|State of Georgia]] → [[Interstate 285 (Georgia)|Interstate 285]] → [[emergency]] → [[Emergency (disambiguation)]] → [[Emergency (Philippine TV program)]]. --[[User:Jh51681|jh51681]] ([[User talk:Jh51681|talk]]) 21:09, 13 March 2008 (UTC)
+
+Piano Sonata in E-flat major, D. 568 (Schubert) to William Coffey
+*[[Piano Sonata in E-flat major, D. 568 (Schubert)]] → [[1829]] → [[August 12]] → [[Victoria Cross]] → [[List of Victoria Cross recipients by name - C]] → [[William Coffey]]
+
+[[Pikachu]] → [[John Madden]]
+*[[Pikachu]] → [[Hey You, Pikachu!]] → [[Microphone]] → [[Edmund Lowe]] → [[Actor]] → [[Emmy Awards]] → [[Sports Emmy Award]] → [[Outstanding Sports Personality, Play-by-Play]] → [[Al Michaels]] → [[John Madden]] -- [[User:CJMiller|CJ Miller.]] (&lt;sup&gt;[[User talk:CJMiller|That's my name.]]&lt;/sup&gt;&lt;sub&gt;[[Special:Contributions/CJMiller|Don't wear it out.]]&lt;/sub&gt;) 03:07, 23 February 2009 (UTC)
+:*Shorter, more prosaic: [[Pikachu]] → [[Video game]]s → [[Video game genres]] → [[Madden NFL]] → [[John Madden]]. -- [[User:Sandy of the CSARs|Sandy of the CSARs]] ([[User talk:Sandy of the CSARs|talk]]) 05:34, 24 May 2009 (UTC)
+
+[[Counterfeit banknote detection pen]] → [[Juryszewo]].
+* [[Counterfeit banknote detection pen]] → [[Euro]] → [[Poland]] → [[Gmina]] → [[List of Polish gminas]] → [[List of Polish gminas/R]] → [[Gmina Radzanowo]] → [[Juryszewo]].
+* In the opposite direction: [[Juryszewo]] → [[Poland]] → [[Banknote]] → [[Counterfeit]] → [[Counterfeit banknote detection pen]]. -- [[User:Sandy of the CSARs|Sandy of the CSARs]] ([[User talk:Sandy of the CSARs|talk]]) 06:01, 24 May 2009 (UTC)
+
+[[Nikki Coghill]] → [[Dedicated (Lemar)]]
+* [[Nikki Coghill]] → [[Australia]] → [[Continent]] → [[Africa]]→ [[1984-1985 famine in Ethiopia|"major famine in Ethiopia"]] → [[Do They Know It's Christmas?]] → [[Lemar]] → [[Dedicated (Lemar)]] [[User:Sandy of the CSARs|Sandy of the CSARs]] ([[User talk:Sandy of the CSARs|talk]]) 06:19, 24 May 2009 (UTC)
+* [[Dedicated (Lemar album)]] → [[BBC Television]] → [[Neighbours]] → [[Ramsay Street]] → [[Nikki Coghill]], with help from [http://www.xltd.com/WikiMindMap/WikiPath.htm?button=Get]. [[User:Certes|Certes]] ([[User talk:Certes|talk]]) 00:18, 17 February 2011 (UTC)
+
+[[Goat Cheese]] → [[Barack Obama]]
+*[[Goat cheese]]
+*[[French Language]]
+*[[U.S.]]
+*[[Barack Obama]]
+
+[[Elisabeth Parr, Marchioness of Northampton]] → [[4774 Hobetsu]] 
+*[[Elisabeth Parr, Marchioness of Northampton]] → [[:Category:Daughters of barons]] → [[:Category:Barons]] → [[Ercole Dembowski]] → [[349 Dembowska]] → [[:Category:Asteroids named for people]] → [[:Category:Asteroids]] → [[:Category:Asteroids named for places]] → [[4774 Hobetsu]]. for this one, i cheated: I used categories (allowed?). i guessed that there may be an asteroid named after a baron. searched for Asteroid + Baron:there was, but his article wasnt categorized as a baron, so i added the category (accurate, but not there originally). so sue me. ok: [[Elisabeth Parr, Marchioness of Northampton]] [[Lady Jane Grey]] [[Renaissance humanism]] [[Renaissance]] [[Astronomy]] [[Asteroid]] [[List of notable asteroids]] [[List of minor planets named after places]] [[4774 Hobetsu]] cheated again by adding this to the list. but it belongs there, and the list is misnamed!!!
+*Without cheating, and shorter: [[Elisabeth Parr, Marchioness of Northampton]] → [[Southwark]] → [[United Kingdom]] → [[Astronomy]] → [[List of astronomers]] → [[Seiji Ueda]]
+
+[[ETAOIN SHRDLU]] → [[Fonejacker]]
+*[[ETAOIN SHRDLU]] → [[English Language]] → [[Cockney]] → [[Fonejacker]].
+
+Walt Disney to The Hollies
+*[[Walt Disney]] → [[The Walt Disney Company]] → [[Walt Disney Motion Pictures Group]] → [[DisneyToon Studios]] → [[The Tigger Movie]] → [[Kenny Loggins]] → [[Buffalo Springfield]] → [[Stephen Stills]] → [[Graham Nash]] → [[The Hollies]]
+**or... [[Walt Disney]] → [[Lincolnshire]] → [[Greater Manchester]] → [[Manchester]] → [[The Hollies]]
+
+Miranda Cosgrove to Journey (band)
+*[[Miranda Cosgrove]] → [[iCarly]] → [[List of iCarly episodes]] → [[iCarly (season 1)]] → [[Randy Jackson]] → [[Journey (band)]]
+*or... [[Miranda Cosgrove]] → [[School of Rock]] → [[AC/DC]] → [[Steven Tyler]] → [[American Idol]] → [[Randy Jackson]] → [[Journey (band)]]
+
+Wednesfield to Quilaco
+*[[Wednesfield]] → [[United Kingdom Census 2001]] → [[Christian]] → [[Christianity by country]] → [[Chile]] → [[Provinces of Chile]] → [[Biobío Province]] → [[Quilaco]]
+
+Gene Hamilton to 3-Faced Elva
+*[[Gene Hamilton]] → [[Eugene Hamilton]] → [[White Hall, Illinois]] → [[Asian (U.S. Census)]] → [[Asian American]] → [[Taiwan]] → [[Music of Taiwan]] → [[Mandarin pop]] → [[Elva Hsiao]] → [[3-Faced Elva]]
+
+Forest Thrush to Bird (disambiguation)
+*[[Forest Thrush]] → [[Bird]] → [[Bird (disambiguation)]]
+*[[Bird (disambiguation)]] → [[Bird]] → [[Passerine]] → [[Turdidae]] → [[Forest Thrush]]
+
+Pytor Iylich Tchaikovsky to Pelican Eel
+*[[Tchaikovsky]] → [[Germany]] → [[Baltic Sea]] → [[Atlantic Ocean]] → [[Eel]] → [[Saccopharyngiformes]] → [[Pelican eel]]
+
+==Six Degrees ''to'' Kevin Bacon==
+Rules: (1) The destination is [[Kevin Bacon]], in precisely six links; the more obscure, the better. (2) No, but no, film- or acting-related links are allowed. I'm starting off with:
+* ''[[Poor Man's Bible]]'' → [[Acid rain]] → [[John Evelyn]] → [[Bubble and squeak]] → [[Belgium]] → [[Afterlife]] → [[Kevin Bacon]]
+* [[Morphine]] → [[Botany]] → [[Binomial_nomenclature|Binomial Nomenclature]] → [[Clade]] → [[Smallpox]] → [[Philadelphia]] → [[Kevin_Bacon|Kevin Bacon]]
+* [[Composite_bow|Composite bow]] → [[Ancient_Egypt|Ancient Egypt]] → [[Government]] → [[Aerospace]] → [[Light_fixture|Lamp]] → [[Internet_meme|Meme]] → [[Kevin_Bacon|Kevin Bacon]]
+* [[Climate_change|Climate Change]] → [[Greenland_ice_sheet|Greenland Ice Sheet]] → [[Mars]] → [[Electric_vehicle|Electric vehicle]] → [[World_Bank|World Bank]] → [[Gulf_War|Desert Storm]] → [[Kevin_Bacon|Kevin Bacon]]
+* [[Cockroach]] → [[North America]] → [[List of regions of the United States]] → [[Mid-Atlantic (United States)]] → [[Pennsylvania]] → [[List of people from Pennsylvania]] → [[Kevin Bacon]]
+
+==See also==
+* [[Wikipedia:Wikipedians by Erdős number]]
+* [[Wikipedia:Get to Philosophy]]
+* [[Wikipedia:Link Surfing]]
+
+==External links==
+* [http://wikidistrict.com WikiDistrict] A real-time wikipedia path calculator
+* [http://www.thewikigame.com The Wiki Game] A Real-time and multiplayer version of the game where the player has given maximum time-limits to get from one wikipedia page to another. Players compete in real time. Players are assigned random names and can register and choose a permanent nickname.
+* [http://www.wikipediamaze.com Wikipedia Maze] An implementation of the game that awards points and badges to players for creating and solving puzzles.
+* [http://www.netsoc.tcd.ie/~mu/wiki/ Six degrees tool]
+* [https://dlab.epfl.ch/wikispeedia/play/ Wikispeedia] An implementation of the game with an additional research purpose.
+* [http://beta.degreesofwikipedia.com DegreesOfWikipedia.com] is a multi-lingual degrees of separation finder for wikipedia, using 11 different languages and a live copy of the wikipedia database.
+* [http://www.bbc.co.uk/news/magazine-12172367 Lost in Wikipedia] - BBC News Magazine article on 'Wiki-chaining'
+* [https://www.sixdegreesofwikipedia.com/ Six Degrees of Wikipedia]
+
+[[Category:Wikipedia games|{{PAGENAME}}]]</text>
+      <sha1>nhlr3gfw7csxzbnjjg6gu5uwaa2xjix</sha1>
+    </revision>
+  </page>
+</mediawiki>

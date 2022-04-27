@@ -1,0 +1,426 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.10/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.10/ http://www.mediawiki.org/xml/export-0.10.xsd" version="0.10" xml:lang="en">
+  <siteinfo>
+    <sitename>Wikipedia</sitename>
+    <dbname>enwiki</dbname>
+    <base>https://en.wikipedia.org/wiki/Main_Page</base>
+    <generator>MediaWiki 1.35.0-wmf.36</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Media</namespace>
+      <namespace key="-1" case="first-letter">Special</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Talk</namespace>
+      <namespace key="2" case="first-letter">User</namespace>
+      <namespace key="3" case="first-letter">User talk</namespace>
+      <namespace key="4" case="first-letter">Wikipedia</namespace>
+      <namespace key="5" case="first-letter">Wikipedia talk</namespace>
+      <namespace key="6" case="first-letter">File</namespace>
+      <namespace key="7" case="first-letter">File talk</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki talk</namespace>
+      <namespace key="10" case="first-letter">Template</namespace>
+      <namespace key="11" case="first-letter">Template talk</namespace>
+      <namespace key="12" case="first-letter">Help</namespace>
+      <namespace key="13" case="first-letter">Help talk</namespace>
+      <namespace key="14" case="first-letter">Category</namespace>
+      <namespace key="15" case="first-letter">Category talk</namespace>
+      <namespace key="100" case="first-letter">Portal</namespace>
+      <namespace key="101" case="first-letter">Portal talk</namespace>
+      <namespace key="108" case="first-letter">Book</namespace>
+      <namespace key="109" case="first-letter">Book talk</namespace>
+      <namespace key="118" case="first-letter">Draft</namespace>
+      <namespace key="119" case="first-letter">Draft talk</namespace>
+      <namespace key="446" case="first-letter">Education Program</namespace>
+      <namespace key="447" case="first-letter">Education Program talk</namespace>
+      <namespace key="710" case="first-letter">TimedText</namespace>
+      <namespace key="711" case="first-letter">TimedText talk</namespace>
+      <namespace key="828" case="first-letter">Module</namespace>
+      <namespace key="829" case="first-letter">Module talk</namespace>
+      <namespace key="2300" case="first-letter">Gadget</namespace>
+      <namespace key="2301" case="first-letter">Gadget talk</namespace>
+      <namespace key="2302" case="case-sensitive">Gadget definition</namespace>
+      <namespace key="2303" case="case-sensitive">Gadget definition talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>List of Mars landers</title>
+    <ns>0</ns>
+    <id>59656825</id>
+    <revision>
+      <id>943786046</id>
+      <parentid>942837635</parentid>
+      <timestamp>2020-03-03T22:24:08Z</timestamp>
+      <contributor>
+        <username>InternetArchiveBot</username>
+        <id>27015025</id>
+      </contributor>
+      <comment>Rescuing 1 sources and tagging 0 as dead.) #IABot (v2.0</comment>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="12663" xml:space="preserve">{{short description|Wikipedia list article}}
+The following table is a '''list of successful and unsuccessful Mars landers'''. As of 2018, 16 lander missions and 5 sub-landers (Rovers and Penetrators) attempted to land on Mars. Of 16 landers, only [[InSight|InSight Mars Lander]] is currently in operation on Mars. This list excludes [[Mars rover|rovers]], such as Spirit (''[[Mars Exploration Rover]]-A''), Opportunity (Mars ''Exploration Rover-B'') and Curiosity (''Mars Science Laboratory'').
+
+==Mars landers==
+{| class="wikitable"
+|+Table consisting of list of Mars landers
+!S.No
+!Landers
+!Launch Date
+!Landing Date
+!Mass (kg)&lt;ref name=":9"&gt;{{cite arxiv |last=M |first=Malaya Kumar Biswal |last2=A |first2=Ramesh Naidu |date=2018-08-23 |title=A Novel Entry, Descent and Landing Architecture for Mars Landers |eprint=1809.00062 |class=physics.pop-ph}}&lt;/ref&gt;
+![[Landing]] Site
+!Region
+!Status
+!MOLA
+!Entry Velocity
+!References
+|-
+|1.
+|2MV-3 No.1
+|04 Nov 1962
+|25 Nov 1962
+|890
+| -
+| -
+|Failed 
+| -
+| -
+|&lt;ref&gt;{{cite document&lt;!--Citation bot--&gt; |doi=10.13140/RG.2.2.13568.07682 |title=Comparative EDL Summary of Mars Landers |last1=Biswal.m |first1=Malaya Kumar |last2=Annavarapu |first2=Ramesh Naidu |year=2019 }}&lt;/ref&gt;
+|-
+|2.
+|[[Mars 2]]
+|19 May 1971
+|27 Nov 1971
+|1210
+|45°S 47°E&lt;sup&gt;♦&lt;/sup&gt;
+| -
+|Failed
+| -
+| -
+|&lt;ref name=":0"&gt;{{Cite web |url=https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1971-045A |title=NASA - NSSDCA - Spacecraft - Details |website=nssdc.gsfc.nasa.gov |access-date=2019-01-13}}&lt;/ref&gt;&lt;ref name=":1"&gt;Perminov, V. G. (1999). The difficult road to Mars: a brief history of Mars exploration in the Soviet Union.&lt;/ref&gt;
+|-
+|3.
+|[[Mars 3]]
+|28 May 1971
+|02 Dec 1971
+|1210
+|45°S 202°E&lt;sup&gt;♦&lt;/sup&gt;
+|[[Terra Sirenum|Sirenum Terra]]
+|Partial Success
+| -
+| -
+|&lt;ref name=":2"&gt;{{Cite web |url=https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1971-049F |title=NASA - NSSDCA - Spacecraft - Details |website=nssdc.gsfc.nasa.gov |access-date=2019-01-13}}&lt;/ref&gt;&lt;ref name=":1" /&gt;
+|-
+|4.
+|[[Mars 6]]
+|05 Aug 1973
+|12 Mar 1974
+|635
+|23.90°S 19.4°N
+|[[Margaritifer Terra]]
+|Partial Success
+| -
+| -
+|&lt;ref&gt;{{Cite web |url=https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1973-052A |title=NASA - NSSDCA - Spacecraft - Details |website=nssdc.gsfc.nasa.gov |access-date=2019-01-13}}&lt;/ref&gt;&lt;ref name=":1" /&gt;
+|-
+|5.
+|[[Mars 7]]
+|09 Aug 1973
+| -
+|635
+| -
+| -
+|Failed
+| -
+| -
+|&lt;ref&gt;{{Cite web |url=https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1973-053A |title=NASA - NSSDCA - Spacecraft - Details |website=nssdc.gsfc.nasa.gov |access-date=2019-01-13}}&lt;/ref&gt;&lt;ref name=":1" /&gt;
+|-
+|6.
+|[[Viking 1]]
+|20 Aug 1975
+|20 Jul 1976
+|572
+|22.27°N 47.95°W
+|[[Chryse Planitia]]
+|Success
+| -3.5
+|4.61&amp;nbsp;km/sec
+|&lt;ref&gt;{{Cite web |url=https://nssdc.gsfc.nasa.gov/planetary/viking1landata.html |title=Viking 1 Lander |website=nssdc.gsfc.nasa.gov |access-date=2019-01-13}}&lt;/ref&gt;
+|-
+|7.
+|[[Viking 2]]
+|09 Sep 1975
+|03 Sep 1976
+|572
+|47.64°N 225.71°W
+|[[Utopia Planitia]]
+|Success
+| -3.5
+|4.61&amp;nbsp;km/sec
+|&lt;ref&gt;{{Cite web |url=https://nssdc.gsfc.nasa.gov/planetary/viking2landata.html |title=Viking 2 Lander |website=nssdc.gsfc.nasa.gov |access-date=2019-01-13}}&lt;/ref&gt;
+|-
+|8.
+|[[Phobos program|Phobos 1]]&lt;sup&gt;'''§'''&lt;/sup&gt;
+|07 Jul 1988
+| -
+|2600&lt;sup&gt;†&lt;/sup&gt;
+| -
+| -
+|Failed
+| -
+| -
+|&lt;ref name=":3"&gt;{{Cite web |url=https://nssdc.gsfc.nasa.gov/planetary/phobos.html |title=Phobos Project Information |website=nssdc.gsfc.nasa.gov |access-date=2019-01-13}}&lt;/ref&gt;
+|-
+|9.
+|[[Phobos program|Phobos 2]]&lt;sup&gt;'''§'''&lt;/sup&gt;
+|12 Jul 1988
+| -
+|2600&lt;sup&gt;†&lt;/sup&gt;
+| -
+| -
+|Failed
+| -
+| -
+|&lt;ref name=":3" /&gt;
+|-
+|10.
+|[[Mars 96]]
+|16 Nov 1996
+| -
+|3159
+|41°31N 153°77 W&lt;sup&gt;♦&lt;/sup&gt;
+| -
+|Failed
+| -
+|5.75&lt;sup&gt;♦&lt;/sup&gt; km/sec
+|&lt;ref name=":4"&gt;{{Citation |last=Marov |first=Mikhail Ya |title=The last gasp: Mars-96 |date=2011 |work=Soviet Robots in the Solar System |pages=387–405 |series=Springer Praxis Books |publisher=Springer, New York, NY |doi=10.1007/978-1-4419-7898-1_20 |isbn=9781441978974 |last2=Huntress |first2=Wesley T.}}&lt;/ref&gt;
+|-
+|11.
+|[[Mars Pathfinder]]
+|04 Dec 1996
+|04 Jul 1997
+|361
+|19°7′48″ N 33°18′12″W
+|[[Ares Vallis]]
+|Success
+| -2.5
+|7.26&amp;nbsp;km/sec
+|&lt;ref name=":5"&gt;{{Cite journal |last=Shevalev |first=I. L. |last2=Huntress |first2=W. T. |last3=Moroz |first3=V. I. |date=2002-09-01 |title=Planetary Missions of the 20th Century* |journal=Cosmic Research |volume=40 |issue=5 |pages=419–445 |doi=10.1023/A:1020690700050}}&lt;/ref&gt;&lt;ref name=":6"&gt;Nilsen, E. N. (2012). Exploring Mars: an overview&lt;/ref&gt;
+|-
+|12.
+|[[Mars Polar Lander]]
+|03 Jan 1999
+|03 Dec 1999
+|583
+|76°S 195°W
+|[[Ultimi Scopuli]]
+|Partial Success
+| -3.0
+|6.91&amp;nbsp;km/sec
+|&lt;ref name=":7"&gt;{{Cite journal |title=Mars Pathfinder Heatshield Design and Flight Experience |journal=Journal of Spacecraft and Rockets |volume=36 |issue=3 |pages=374–379 |doi=10.2514/2.3456 |year = 1999 |last1 = Willcockson |first1 = William H. |bibcode=1999JSpRo..36..374W}}&lt;/ref&gt;&lt;ref name=":8"&gt;{{Cite web |url=https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1999-001A |title=NASA - NSSDCA - Spacecraft - Details |website=nssdc.gsfc.nasa.gov |access-date=2019-01-13}}&lt;/ref&gt;
+|-
+|13.
+|[[Beagle 2]]
+|02 Jun 2003
+|25 Dec 2003
+|33.2
+|11.5265°N 90.4295°E
+|[[Isidis Planitia]]
+|Partial Success
+| -
+|5.63&amp;nbsp;km/sec
+|&lt;ref&gt;{{Cite book |title=44th AIAA/ASME/ASCE/AHS/ASC Structures, Structural Dynamics, and Materials Conference |doi=10.2514/6.2003-1902 |chapter = Parachute Subsystems for the Beagle 2 Mars Lander Entry Descent and Landing Systems |year = 2003 |last1 = Lindstrand |first1 = Per |isbn=978-1-62410-100-7}}&lt;/ref&gt;&lt;ref&gt;{{Cite journal |date=1998-06-01 |title=A sophisticated lander for scientific exploration of Mars: scientific objectives and implementation of the Mars-96 Small Station |journal=Planetary and Space Science |volume=46 |issue=6–7 |pages=717–737 |doi=10.1016/S0032-0633(98)00008-7 |last1=Linkin |first1=V. |displayauthors=etal |bibcode=1998P&amp;SS...46..717L}}&lt;/ref&gt;
+|-
+|14.
+|[[Phoenix (spacecraft)|Phoenix Lander]]
+|04 Aug 2007
+|5 May 2008
+|350
+|68.22°N 125.7°W
+|[[Vastitas Borealis]]
+|Success
+| -3.5
+|5.59&amp;nbsp;km/sec
+|&lt;ref name=":5"/&gt;
+|-
+|15.
+|[[Schiaparelli EDM lander|Schiaparelli EDM]]
+|14 Mar 2016
+|19 Oct 2016
+|577
+|6.208°W 2.052°S
+|[[Meridiani Planum]]
+|Partial Success
+|1.45
+|5.83&amp;nbsp;km/sec
+|&lt;ref&gt;{{Cite web |url=https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=2016-017A |title=NASA - NSSDCA - Spacecraft - Details |website=nssdc.gsfc.nasa.gov |access-date=2019-01-13}}&lt;/ref&gt;
+|-
+|16.
+|[[InSight|InSight Mars Lander]]
+|5 May 2018
+|26 Nov 2018
+|727
+|4.5°N 135.9°E
+|[[Elysium Planitia]]
+|Operational
+| -2.5
+|6.3&amp;nbsp;km/sec
+|&lt;ref&gt;{{Cite web |url=http://www.nasa.gov/mission_pages/insight/main/index.html |title=InSight Mars Lander {{!}} Missions |last=Greicius |first=Tony |date=2015-02-23 |website=NASA |access-date=2019-01-13}}&lt;/ref&gt;
+|}
+&lt;blockquote&gt;'''&lt;sup&gt;§&lt;/sup&gt;''' - Spacecraft intended for Martian moons (Phobos and Deimos), &lt;sup&gt;'''†'''&lt;/sup&gt;Entry Mass, &lt;sup&gt;♦&lt;/sup&gt; Estimated, '''MOLA''' - Mars Orbiter Laser Altimeter&lt;/blockquote&gt;
+{| class="wikitable"
+|+Table consisting of sub-landers onboard Mars landers
+!S.No
+!Sub-Landers
+!Type
+!Lander Slot 
+!Launch Date
+!Mass (kg)
+!Status
+!References
+|-
+|1.
+|[[Prop-M]]
+|Rover
+|Mars 2
+|19 May 1971
+|4.5
+|Failed
+|&lt;ref name=":0" /&gt;&lt;ref name=":1" /&gt;
+|-
+|2.
+|[[Prop-M]]
+|Rover
+|Mars 3
+|28 May 1971
+|4.5
+|Failed
+|&lt;ref name=":1" /&gt;&lt;ref name=":2" /&gt;
+|-
+|3.
+|[[Mars 96]]
+|Penetrator
+|Mars 96 
+|16 Nov 1996
+|88
+|Failed
+|&lt;ref name=":4" /&gt;
+|-
+|4.
+|[[Deep Space 2]]
+|Penetrator
+|Mars Polar Lander
+|03 Jan 1999
+|2.4
+|Failed
+|&lt;ref name=":7" /&gt;&lt;ref name=":8" /&gt;
+|-
+|5.
+|[[Sojourner (rover)|Sojourner]]
+|Rover
+|Mars Pathfinder
+|04 Dec 1996
+|11.5
+|Success
+|&lt;ref name=":5" /&gt;&lt;ref name=":6" /&gt;
+|}
+
+== Future proposed Mars lander missions ==
+{| class="wikitable"
+|+List of future proposed Mars lander missions
+!Lander
+!Proposed Launch
+!Country
+!Agency
+!Type
+!Sub-Lander
+!References
+|-
+|[[Mars MetNet]] Precursor
+|?
+|Finland
+|FMI
+|Impact Lander
+| -
+|&lt;ref&gt;{{cite book |bibcode=2008epsc.conf..361H |chapter=MMPM - Mars MetNet Precursor Mission |title=European Planetary Science Congress 2008, Proceedings of the conference held 21-25 September, 2008 in Münster, Germany |journal=&lt;!-- --&gt; |pages=361 |last1=Harri |first1=A.-M. |display-authors=etal |year=2008}}&lt;/ref&gt;
+|-
+|Mars MetNet
+|?
+|Finland
+|FMI
+|Multi-lander
+| -
+|&lt;ref name=":10"&gt;{{cite book |doi=10.2514/6.2012-631|chapter=Design Study for a Mars Geyser Hopper|title=50th AIAA Aerospace Sciences Meeting including the New Horizons Forum and Aerospace Exposition|year=2012|last1=Landis|first1=Geoffrey|last2=Oleson|first2=Steven|last3=McGuire|first3=Melissa|isbn=978-1-60086-936-5|hdl=2060/20120004036}}&lt;/ref&gt;
+|-
+|[[Icebreaker Life|Icebreaker]]
+|2026
+|US
+|NASA
+|Lander
+|  -
+|&lt;ref&gt;{{cite journal |doi=10.1089/ast.2012.0878|pmid=23560417|title=The Icebreaker Life Mission to Mars: A Search for Biomolecular Evidence for Life|journal=Astrobiology|volume=13|issue=4|pages=334–353|year=2013|last1=McKay|first1=Christopher P.|last2=Stoker|first2=Carol R.|last3=Glass|first3=Brian J.|last4=Davé|first4=Arwen I.|last5=Davila|first5=Alfonso F.|last6=Heldmann|first6=Jennifer L.|last7=Marinova|first7=Margarita M.|last8=Fairen|first8=Alberto G.|last9=Quinn|first9=Richard C.|last10=Zacny|first10=Kris A.|last11=Paulsen|first11=Gale|last12=Smith|first12=Peter H.|last13=Parro|first13=Victor|last14=Andersen|first14=Dale T.|last15=Hecht|first15=Michael H.|last16=Lacelle|first16=Denis|last17=Pollard|first17=Wayne H.|bibcode=2013AsBio..13..334M}}&lt;/ref&gt;
+|-
+|[[Martian Moons Exploration]]
+|2024
+|Japan
+|JAXA
+|Lander
+|Sample Return
+|&lt;ref&gt;{{cite web |last=Miyamoto |first=Hirdly |date=17 March 2016 |title=Japanese mission of the two moons of Mars with sample return from Phobos |publisher=NASA MEPAG |url=http://mepag.nasa.gov/meeting/2016-03/17_Miyamoto.pdf |accessdate=14 January 2019 |archive-url=https://web.archive.org/web/20160516065146/http://mepag.nasa.gov/meeting/2016-03/17_Miyamoto.pdf |archive-date=16 May 2016 |url-status=dead }}&lt;/ref&gt;
+|-
+|[[Phootprint]]
+|2024
+|Europe
+|ESA
+|Lander
+|Ascent Stage
+|&lt;ref&gt;{{Cite journal |last=Galimov |first=E. M. |date=2010-02-01 |title=Phobos sample return mission: Scientific substantiation |journal=Solar System Research |volume=44 |issue=1 |pages=5–14 |doi=10.1134/S0038094610010028 |bibcode=2010SoSyR..44....5G}}&lt;/ref&gt;
+|-
+|[[Fobos-Grunt#Repeat mission|Fobos-Grunt (Repeat)]]
+|2024
+|Russia
+|ROSCOSMOS
+|Lander
+|Ascent Stage
+|&lt;ref&gt;{{Cite journal |last=Zelenyi |first=L. |last2=Zakharov |first2=A. |last3=Polischuk |first3=G. |last4=Pichkhadze |first4=K. |last5=Akim |first5=E. |last6=Hirahara |first6=Masfumi |last7=Miyoshi |first7=Yoshizumi |last8=Terada |first8=Naoki |last9=Mukai |first9=Toshifumi |date=2009 |title=Phobos Sample Return mission |journal=AIP Conference Proceedings |volume=1144 |issue=1 |pages=128–137 |doi=10.1063/1.3169276 |bibcode=2009AIPC.1144..128Z}}&lt;/ref&gt;
+|-
+|[[Mars-Grunt]]
+|2024
+|Russia
+|ROSCOSMOS
+|Lander
+|  -
+|&lt;ref name=":9" /&gt;
+|-
+|[[Biological Oxidant and Life Detection|BOLD]]
+|2020
+|US
+|NASA
+|Impact Lander
+|6-Impact Lander
+|&lt;ref&gt;{{cite journal |doi=10.1016/j.pss.2012.03.008|title=The Biological Oxidant and Life Detection (BOLD) mission: A proposal for a mission to Mars|journal=Planetary and Space Science|volume=67|issue=1|pages=57–69|year=2012|last1=Schulze-Makuch|first1=Dirk|last2=Head|first2=James N.|last3=Houtkooper|first3=Joop M.|last4=Knoblauch|first4=Michael|last5=Furfaro|first5=Roberto|last6=Fink|first6=Wolfgang|last7=Fairén|first7=Alberto G.|last8=Vali|first8=Hojatollah|last9=Kelly Sears|first9=S.|last10=Daly|first10=Mike|last11=Deamer|first11=David|last12=Schmidt|first12=Holger|last13=Hawkins|first13=Aaron R.|author13-link= Aaron Hawkins (engineer) |last14=Sun|first14=Henry J.|last15=Lim|first15=Darlene S.S.|last16=Dohm|first16=James|last17=Irwin|first17=Louis N.|last18=Davila|first18=Alfonso F.|last19=Mendez|first19=Abel|last20=Andersen|first20=Dale|bibcode=2012P&amp;SS...67...57S}}&lt;/ref&gt;
+|-
+|Mars Lander
+|2020
+|South Korea
+|KARI
+|Lander
+|  -
+|&lt;ref&gt;{{cite journal |doi=10.5139/IJASS.2004.5.2.054|title=Design Study of a Korean Mars Mission|journal=International Journal of Aeronautical and Space Sciences|volume=5|issue=2|pages=54–61|year=2004|last1=Lee|first1=Eun-Seok|last2=Chang|first2=Keun-Shik|last3=Park|first3=Chul|bibcode=2004IJASS...5...54.|doi-access=free}}&lt;/ref&gt;
+|}
+
+==See also==
+* [[Lists of spacecraft]]
+
+== References ==
+{{reflist}}
+
+{{Portal bar|Solar System|Astronomy|Lists|Technology}}
+
+[[Category:Exploration of Mars]]
+[[Category:Lists of spacecraft]]
+[[Category:Lists of space missions]]</text>
+      <sha1>bhm4h1yb4e2sj8qbeav3gxgoe43pgit</sha1>
+    </revision>
+  </page>
+</mediawiki>

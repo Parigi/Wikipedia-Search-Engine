@@ -1,0 +1,134 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.10/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.10/ http://www.mediawiki.org/xml/export-0.10.xsd" version="0.10" xml:lang="en">
+  <siteinfo>
+    <sitename>Wikipedia</sitename>
+    <dbname>enwiki</dbname>
+    <base>https://en.wikipedia.org/wiki/Main_Page</base>
+    <generator>MediaWiki 1.35.0-wmf.36</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Media</namespace>
+      <namespace key="-1" case="first-letter">Special</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Talk</namespace>
+      <namespace key="2" case="first-letter">User</namespace>
+      <namespace key="3" case="first-letter">User talk</namespace>
+      <namespace key="4" case="first-letter">Wikipedia</namespace>
+      <namespace key="5" case="first-letter">Wikipedia talk</namespace>
+      <namespace key="6" case="first-letter">File</namespace>
+      <namespace key="7" case="first-letter">File talk</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki talk</namespace>
+      <namespace key="10" case="first-letter">Template</namespace>
+      <namespace key="11" case="first-letter">Template talk</namespace>
+      <namespace key="12" case="first-letter">Help</namespace>
+      <namespace key="13" case="first-letter">Help talk</namespace>
+      <namespace key="14" case="first-letter">Category</namespace>
+      <namespace key="15" case="first-letter">Category talk</namespace>
+      <namespace key="100" case="first-letter">Portal</namespace>
+      <namespace key="101" case="first-letter">Portal talk</namespace>
+      <namespace key="108" case="first-letter">Book</namespace>
+      <namespace key="109" case="first-letter">Book talk</namespace>
+      <namespace key="118" case="first-letter">Draft</namespace>
+      <namespace key="119" case="first-letter">Draft talk</namespace>
+      <namespace key="446" case="first-letter">Education Program</namespace>
+      <namespace key="447" case="first-letter">Education Program talk</namespace>
+      <namespace key="710" case="first-letter">TimedText</namespace>
+      <namespace key="711" case="first-letter">TimedText talk</namespace>
+      <namespace key="828" case="first-letter">Module</namespace>
+      <namespace key="829" case="first-letter">Module talk</namespace>
+      <namespace key="2300" case="first-letter">Gadget</namespace>
+      <namespace key="2301" case="first-letter">Gadget talk</namespace>
+      <namespace key="2302" case="case-sensitive">Gadget definition</namespace>
+      <namespace key="2303" case="case-sensitive">Gadget definition talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>NCBI Epigenomics</title>
+    <ns>0</ns>
+    <id>31849528</id>
+    <revision>
+      <id>930746390</id>
+      <parentid>900559568</parentid>
+      <timestamp>2019-12-14T17:13:03Z</timestamp>
+      <contributor>
+        <username>Citation bot</username>
+        <id>7903804</id>
+      </contributor>
+      <minor/>
+      <comment>Add: author pars. 1-1. Removed parameters.  Some additions/deletions were actually parameter name changes.| You can [[WP:UCB|use this bot]] yourself. [[WP:DBUG|Report bugs here]].| Activated by [[User:Akrasia25]] | [[Category:Epigenetics]] | via #UCB_Category</comment>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="9431" xml:space="preserve">{{infobox biodatabase
+|title = NCBI Epigenomics
+|logo =[[File:US-NLM-NCBI-Logo.svg|60px]]
+|description = [[epigenomics|epigenomic]] data sets.
+|scope =
+|organism =
+|center = [[National Center for Biotechnology Information]]
+|laboratory =
+|author = Ian M Fingerman
+|citation = Fingerman  &amp; al. (2011)&lt;ref name="pmid21075792"/&gt;
+|released = 2010
+|standard =
+|format =
+|url = https://www.ncbi.nlm.nih.gov/epigenomics
+|download =
+|webservice =
+|sql =
+|sparql =
+|webapp =
+|standalone =
+|license =
+|versioning =
+|frequency =
+|curation =
+|bookmark =
+|version=
+}}The''' Epigenomics database''' at the [[National Center for Biotechnology Information]] was a database for whole-genome [[epigenetics]] data sets.&lt;ref name="pmid21075792"&gt;{{cite journal |last=Fingerman|first=Ian M|author2=McDaniel Lee |author3=Zhang Xuan |author4=Ratzat Walter |author5=Hassan Tarek |author6=Jiang Zhifang |author7=Cohen Robert F |author8=Schuler Gregory D |date=Jan 2011|title=NCBI Epigenomics: a new public resource for exploring epigenomic data sets|journal = Nucleic Acids Res.|volume=39|issue=Database issue|pages=D908–12| pmid = 21075792|doi = 10.1093/nar/gkq1146| pmc =3013719 }}&lt;/ref&gt; It was retired on 1 June 2016.
+
+==The Epigenomics database==
+The Epigenomics database of the [[National Center for Biotechnology Information]] (NCBI) at the [[National Institutes of Health]] (NIH) was launched in June 2010 as a means to collect maps of epigenetic modifications and their occurrence across the human genome.&lt;ref&gt;{{cite web|title=Overview|url=https://commonfund.nih.gov/epigenomics/overview.aspx|work=National Institutes of Health|publisher=Office of Strategic Coordination- The Common Fund|accessdate=22 September 2013}}&lt;/ref&gt; This database provides a publicly available resource for maps in [[stem cells]] and primary ''ex vivo'' tissues that detail genome-wide landscapes of epigenetic factors that occur in human development and disease.&lt;ref name="pmid21075792"/&gt;
+
+===Content of Epigenomics database===
+The primary resources for the content of the Epigenomics Database are derived from two archival databases at the NCBI: The Gene Expression Omnibus (GEO) and the Sequence Read Archive (SRA).&lt;ref name="pmid21075792"/&gt;  The Gene Expression Omnibus is a data system for high-throughput genomic data that is generated from microarray and next-generation sequencing technologies.&lt;ref&gt;{{cite journal|last=Sayers|first=EW|display-authors=etal|title=Database resources of the National Center for Biotechnology Information|journal=Nucleic Acids Research|date=January 2010|volume=38|issue=Database issue|pages=D5–16|doi=10.1093/nar/gkp967|pmid=19910364|pmc=2808881}}&lt;/ref&gt;  Data used in the Epigenomics database is a combination of GEO and SRA subsets that are specific to Epigenetic factors. This data is subjected to additional review and organized in a more easily attainable fashion before added to the Epigenomics database.&lt;ref name="pmid21075792"/&gt;
+
+===Database use===
+All of the experiments and corresponding samples in the Epigenomics database are displayed in the default browser. As of October 2013, there are currently 4112 experiments and 1257 samples available in the database.&lt;ref&gt;{{cite web|url=https://www.ncbi.nlm.nih.gov/epigenomics|title=Epigenomics database|accessdate=20 October 2013}}&lt;/ref&gt; Five studied species are represented in the database, and many data tracks are available including expression of micro and small RNAs, histone modification and histone modifying enzymes, chromatin accessibility and chromatin associated factors, and transcription factors.&lt;ref name="pmid21075792"/&gt; One such example from the database is a study of certain epigenetic factors in [[Drosophila melanogaster]] at the 20- to 24-hour embryonic stage of development.&lt;ref&gt;{{cite journal|last=Negre|first=N|author2=Morrison CA |author3=Shah PK |author4=Bild NA |author5=White KP |title=Genome-wide maps of chromatin state in staged Drosophila embryos, ChIP-seq|journal=ModENCODE|date=12 May 2009|series=GSE16013|url=https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE16013|accessdate=17 November 2013}}&lt;/ref&gt;
+
+The Epigenomics database browser contain two fundamental search records, "Experiments" and "Samples".
+
+====Experiment search====
+The Experiment search record refers to one or more experiments with a set of scientific aims.&lt;ref name="pmid21075792"/&gt; Here a user is able to retrieve full data source information.  This information includes the institution of the submitter, links to the original data submissions in GEO and SRA, links to literature citations in [[PubMed]] and/or full text articles in Pubmed.&lt;ref name="pmid21075792"/&gt; Experiment records contain a unique accession number that includes a prefix 'ESS'.&lt;ref name="pmid21075792"/&gt;
+
+====Sample search====
+The sample search record corresponds to the biological material examined in a given experiment in the database and provides details about source attributes with values from controlled vocabularies.&lt;ref name="pmid21075792"/&gt; There are over 20 biological attribute fields available, and among these fields include strain, cultivar, ecotype, individual, gender, age, developmental stage, cell line, cell type, tissue type, and health status.&lt;ref name="pmid21075792"/&gt;
+
+====Database navigation and usage help resources====
+There are many available resources online for help in navigating and using the Epigenomics database. The "Epigenetics Help" section of the NCBI help manual contains information on the searchable database and provides a user with tools to use, manage, download and upload, and navigate the database.&lt;ref name="Bookshelf ID: NBK45787"&gt;{{cite book|last=Bethesda (MD)|title=Epigenomics Help|year=2010|publisher=National Center for Biotechnology Information (US)|location=US National Library of Medicine|url=https://www.ncbi.nlm.nih.gov/books/NBK45787/}}&lt;/ref&gt;
+There are also guides to navigation of the database aimed at specific researchers and fields of study, such as stem cell research.&lt;ref&gt;{{cite journal|last=Karnik|first=R|author2=Meissner A.|title=Browsing (Epi)genomes: a guide to data resources and epigenome browsers for stem cell researchers|journal=Cell Stem Cell|date=3 July 2013|volume=13|issue=1|pages=14–21|doi=10.1016/j.stem.2013.06.006|pmid=23827707|pmc=3750740}}&lt;/ref&gt;
+
+==Roadmap Epigenomics Project==
+In 2007 the [[National Institutes of Health]] (NIH) launched the '''Roadmap Epigenomics Project'''. The aim of the project is a development of publicly available reference epigenome maps from a variety of cell types.&lt;ref name="pmid21075792"/&gt; These epigenetic maps are intended to provide resources for studies of epigenetic events that underline human development, diversity, and disease.&lt;ref name=pmid20944595&gt;{{cite journal|last=Bernstein|first=Bradley E |author2=John A Stamatoyannopoulos |author3=Joseph F Costello |author4=Bing Ren |author5=Aleksandar Milosavljevic |author6=Alexander Meissner |author7=Manolis Kellis |author8=Marco A Marra |author9=Arthur L Beaudet |author10=Joseph R Ecker |author11=Peggy J Farnham |author12=Martin Hirst |author13=Eric S Lander |author14=Tarjei S Mikkelsen |author15=James A Thomson |title=The NIH Roadmap Epigenomics Mapping Consortium|journal=Nature Biotechnology|date=13 October 2010|volume=28|pages=1045–1048|doi=10.1038/nbt1010-1045|pmid=20944595|pmc=3607281|issue=10}}&lt;/ref&gt; For similar efforts see the [[ENCODE]] (ENCyclopedia Of DNA Elements) Project, whose initiatives are complementary to the Roadmap Epigenomics Project.&lt;ref name=pmid15499007&gt;{{cite journal|title=The ENCODE (ENCyclopedia Of DNA Elements) Project|journal=Science|date=22 October 2004|volume=306|issue=5696|pages=636–40|doi=10.1126/science.1105136|pmid=15499007|last1=Encode Project|first1=Consortium|bibcode=2004Sci...306..636E|url=https://authors.library.caltech.edu/74915/2/Feingold.SOM.DC1.pdf}}&lt;/ref&gt;
+
+==The epigenome==
+{{Main article|Epigenome}}
+The [[epigenome]] consists of a record of the chemical changes to the [[DNA]] and [[Histone]] proteins of an organism.  These chemical changes influence gene expression across many tissue types and developmental stages.&lt;ref name=pmid17320505&gt;{{cite journal|last=Bernstein|first=Bradley E |author2=Alexander Meissner |author3=Eric S. Lander|title=The Mammalian Epigenome|journal=Cell|date=19 December 2011|volume=128|issue=4 |series=4|pages=669–681|doi=10.1016/j.cell.2007.01.033|pmid=17320505}}&lt;/ref&gt; These [[epigenetic]] changes involve methods of altering gene expression that do not involve changes in the underlying primary DNA sequence; these include [[DNA methylation]], [[Gene silencing]], and [[chromatin]] structure,&lt;ref name="ISBN 0-87969-490-4"&gt;{{cite book|last=Russo, Vincenzo EA, Robert A. Martienssen, and Arthur D. Riggs.|title=Epigenetic Mechanisms of Gene Regulation|year=1996|publisher=Cold Spring Harbor Laboratory Press|isbn=978-0-87969-490-6|page=Abstract}}&lt;/ref&gt; as well as involvement of [[Non-coding RNA]].&lt;ref name=pmid18226475&gt;{{cite journal|last=Costa|first=Fabricio F.|title=Non-coding RNAs, epigenetics and complexity|journal=Gene|date=29 February 2008|volume=410|issue=1|pages=9–17|doi=10.1016/j.gene.2007.12.008|pmid=18226475}}&lt;/ref&gt;
+
+==See also==
+* [[Epigenomics]]
+
+==References==
+&lt;references/&gt;
+
+==External links==
+* https://www.ncbi.nlm.nih.gov/epigenomics
+* http://www.nihroadmap.nih.gov/epigenomics
+* https://www.ncbi.nlm.nih.gov/geo/
+
+[[Category:Epigenetics]]
+[[Category:Genomics]]
+[[Category:Biological databases]]</text>
+      <sha1>h1v4iporclei8jgr9sh0shdo0glg24s</sha1>
+    </revision>
+  </page>
+</mediawiki>

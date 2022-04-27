@@ -1,0 +1,91 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.10/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.10/ http://www.mediawiki.org/xml/export-0.10.xsd" version="0.10" xml:lang="en">
+  <siteinfo>
+    <sitename>Wikipedia</sitename>
+    <dbname>enwiki</dbname>
+    <base>https://en.wikipedia.org/wiki/Main_Page</base>
+    <generator>MediaWiki 1.35.0-wmf.36</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Media</namespace>
+      <namespace key="-1" case="first-letter">Special</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Talk</namespace>
+      <namespace key="2" case="first-letter">User</namespace>
+      <namespace key="3" case="first-letter">User talk</namespace>
+      <namespace key="4" case="first-letter">Wikipedia</namespace>
+      <namespace key="5" case="first-letter">Wikipedia talk</namespace>
+      <namespace key="6" case="first-letter">File</namespace>
+      <namespace key="7" case="first-letter">File talk</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki talk</namespace>
+      <namespace key="10" case="first-letter">Template</namespace>
+      <namespace key="11" case="first-letter">Template talk</namespace>
+      <namespace key="12" case="first-letter">Help</namespace>
+      <namespace key="13" case="first-letter">Help talk</namespace>
+      <namespace key="14" case="first-letter">Category</namespace>
+      <namespace key="15" case="first-letter">Category talk</namespace>
+      <namespace key="100" case="first-letter">Portal</namespace>
+      <namespace key="101" case="first-letter">Portal talk</namespace>
+      <namespace key="108" case="first-letter">Book</namespace>
+      <namespace key="109" case="first-letter">Book talk</namespace>
+      <namespace key="118" case="first-letter">Draft</namespace>
+      <namespace key="119" case="first-letter">Draft talk</namespace>
+      <namespace key="446" case="first-letter">Education Program</namespace>
+      <namespace key="447" case="first-letter">Education Program talk</namespace>
+      <namespace key="710" case="first-letter">TimedText</namespace>
+      <namespace key="711" case="first-letter">TimedText talk</namespace>
+      <namespace key="828" case="first-letter">Module</namespace>
+      <namespace key="829" case="first-letter">Module talk</namespace>
+      <namespace key="2300" case="first-letter">Gadget</namespace>
+      <namespace key="2301" case="first-letter">Gadget talk</namespace>
+      <namespace key="2302" case="case-sensitive">Gadget definition</namespace>
+      <namespace key="2303" case="case-sensitive">Gadget definition talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Rock Abrasion Tool</title>
+    <ns>0</ns>
+    <id>1432075</id>
+    <revision>
+      <id>913363409</id>
+      <parentid>911784307</parentid>
+      <timestamp>2019-08-31T16:59:37Z</timestamp>
+      <contributor>
+        <username>GreenC bot</username>
+        <id>27823944</id>
+      </contributor>
+      <comment>Move 1 url. [[User:GreenC/WaybackMedic_2.5|Wayback Medic 2.5]]</comment>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="3359" xml:space="preserve">[[Image:Rock-abrasion-tool.jpg|right|thumb|Rock Abrasion Tool (RAT) on the Mars Rover [[Opportunity rover|''Opportunity''{{'}}s]] Instrument Deployment Device.]]
+[[Image:Rat post grind.jpg|right|thumb|The RAT has been used to grind a hole in the rock [[Adirondack (Mars)|Adirondack]]. The hole is approximately 2.65 millimeters deep.]]
+
+The '''Rock Abrasion Tool''' (RAT) is a grinding and brushing installation on [[NASA]]’s twin [[Mars Exploration Rovers]], ''[[Spirit rover|Spirit]]'' (MER-A) and ''[[Opportunity rover|Opportunity]]'' (MER-B), which landed on [[Mars]] in January 2004. It was designed, developed and continues to be operated by [[Honeybee Robotics]] LTD, a developer of specialized robots, automated technologies and related systems.
+
+The RAT was the first machine to gain access to the interior of rocks on another planet. The RAT has a mass of {{Convert|0.685|kg||abbr=off}}, is {{convert|7|cm|in|round=0.5|abbr=on}} in diameter and {{convert|10|cm|in|abbr=on}} long, about the size of a soda can. It uses a diamond dust and resin wheel spinning at 3000 rpm to drill a 45&amp;nbsp;mm diameter by 5&amp;nbsp;mm deep bore hole in martian rocks. The RAT then uses two brushes to sweep dust from the bore holes for closer scientific inspection. Its average power consumption is 30 watts.&lt;ref&gt;{{Cite web|url=https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=2003-027A-06|title=Rock Abrasion Tool (RAT)|last=|first=|date=|website=NASA Space Science Data Coordinated Archive|access-date=2018-04-11}}&lt;/ref&gt;
+
+There are five other instruments aboard both rovers, these are the Pancam (a camera), Mini-TES (an infrared spectrometer) for sensing targets at a distance, a microscopic imager, a [[Mössbauer spectroscopy|Mössbauer spectrometer]] and an [[alpha particle X-ray spectrometer]]. The RAT provides these instruments with a smooth, clean surface from which they make more accurate observations.
+
+The RAT was first used by ''[[Spirit rover|Spirit]]'' on its 34th sol (February 6, 2004).&lt;ref&gt;{{cite web|url=http://marsrovers.jpl.nasa.gov/technology/si_in_situ_instrumentation.html |title=Mars Exploration Rover Mission: Technology |publisher=Marsrovers.jpl.nasa.gov |date=2004-02-06 |accessdate=2016-02-17}}&lt;/ref&gt; It was held up to the rock [[Adirondack (Mars)|Adirondack]], whereby it scraped to a depth of {{Convert|2.85|mm||abbr=on}} over the course of three hours. Since then it has been used on numerous Martian rocks by both MER rovers.
+
+The RAT was originally controlled from NASA's [[Jet Propulsion Laboratory]] in Pasadena, California, but is now{{when|date=April 2015}} run by Honeybee Robotics LTD from their New York headquarters. The RAT is the first product of Honeybee Robotics LTD's to be sent into space by NASA.
+
+The cable shield of each RAT is made from aluminum recovered from the [[World Trade Center site]] after the [[September 11 attacks]].&lt;ref&gt;{{Cite news|url=http://www.redorbit.com/news/space/2609936/mars-rovers-carry-911-tributes/|title=Mars Rovers Carry 9/11 Tributes|first=|date=2011-09-09|work=Redorbit|access-date=2018-04-11|language=en-US}}&lt;/ref&gt;
+
+==References==
+{{reflist}}
+
+==External links==
+* [http://www.honeybeerobotics.com/rat.html Description from manufacturer's site]
+{{NASAMER}}
+{{Mars}}
+
+[[Category:Mars Exploration Rover mission]]
+[[Category:Spacecraft instruments]]
+
+
+{{US-spacecraft-stub}}</text>
+      <sha1>1gywcv80h7faw4zyscz3ug9abimyex7</sha1>
+    </revision>
+  </page>
+</mediawiki>

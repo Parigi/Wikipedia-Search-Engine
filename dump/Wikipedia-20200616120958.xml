@@ -1,0 +1,299 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.10/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.10/ http://www.mediawiki.org/xml/export-0.10.xsd" version="0.10" xml:lang="en">
+  <siteinfo>
+    <sitename>Wikipedia</sitename>
+    <dbname>enwiki</dbname>
+    <base>https://en.wikipedia.org/wiki/Main_Page</base>
+    <generator>MediaWiki 1.35.0-wmf.36</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Media</namespace>
+      <namespace key="-1" case="first-letter">Special</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Talk</namespace>
+      <namespace key="2" case="first-letter">User</namespace>
+      <namespace key="3" case="first-letter">User talk</namespace>
+      <namespace key="4" case="first-letter">Wikipedia</namespace>
+      <namespace key="5" case="first-letter">Wikipedia talk</namespace>
+      <namespace key="6" case="first-letter">File</namespace>
+      <namespace key="7" case="first-letter">File talk</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki talk</namespace>
+      <namespace key="10" case="first-letter">Template</namespace>
+      <namespace key="11" case="first-letter">Template talk</namespace>
+      <namespace key="12" case="first-letter">Help</namespace>
+      <namespace key="13" case="first-letter">Help talk</namespace>
+      <namespace key="14" case="first-letter">Category</namespace>
+      <namespace key="15" case="first-letter">Category talk</namespace>
+      <namespace key="100" case="first-letter">Portal</namespace>
+      <namespace key="101" case="first-letter">Portal talk</namespace>
+      <namespace key="108" case="first-letter">Book</namespace>
+      <namespace key="109" case="first-letter">Book talk</namespace>
+      <namespace key="118" case="first-letter">Draft</namespace>
+      <namespace key="119" case="first-letter">Draft talk</namespace>
+      <namespace key="446" case="first-letter">Education Program</namespace>
+      <namespace key="447" case="first-letter">Education Program talk</namespace>
+      <namespace key="710" case="first-letter">TimedText</namespace>
+      <namespace key="711" case="first-letter">TimedText talk</namespace>
+      <namespace key="828" case="first-letter">Module</namespace>
+      <namespace key="829" case="first-letter">Module talk</namespace>
+      <namespace key="2300" case="first-letter">Gadget</namespace>
+      <namespace key="2301" case="first-letter">Gadget talk</namespace>
+      <namespace key="2302" case="case-sensitive">Gadget definition</namespace>
+      <namespace key="2303" case="case-sensitive">Gadget definition talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Simple linear regression</title>
+    <ns>0</ns>
+    <id>2593771</id>
+    <revision>
+      <id>962105892</id>
+      <parentid>947209306</parentid>
+      <timestamp>2020-06-12T03:50:12Z</timestamp>
+      <contributor>
+        <username>Not Warren Buffett</username>
+        <id>35988143</id>
+      </contributor>
+      <comment>/* Numerical properties */</comment>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="22154" xml:space="preserve">{{Regression bar}}
+[[Image:Okuns law quarterly differences.svg|300px|thumb|[[Okun's law]] in [[macroeconomics]] is an example of the simple linear regression. Here the dependent variable (GDP growth) is presumed to be in a linear relationship with the changes in the unemployment rate.]]
+
+In [[statistics]], '''simple linear regression''' is a [[linear regression]] model with a single [[covariate|explanatory variable]].&lt;ref&gt;{{cite book |last=Seltman |first=Howard J. |date=2008-09-08 |title=Experimental Design and Analysis |url=http://www.stat.cmu.edu/~hseltman/309/Book/Book.pdf |page=227}}&lt;/ref&gt;&lt;ref name=":0"&gt;{{cite web |url=http://ci.columbia.edu/ci/premba_test/c0331/s7/s7_6.html |title=Statistical Sampling and Regression: Simple Linear Regression |publisher=Columbia University |access-date=2016-10-17 |quote=When one independent variable is used in a regression, it is called a simple regression;(...)}}&lt;/ref&gt;&lt;ref&gt;{{cite book |last=Lane |first=David M. |title=Introduction to Statistics |url=http://onlinestatbook.com/Online_Statistics_Education.pdf |page=462}}&lt;/ref&gt;&lt;ref&gt;{{Cite journal|last=Zou KH|last2=Tuncali K|last3=Silverman SG|date=2003|title=Correlation and simple linear regression.|journal=Radiology|language=English|volume=227|issue=3|pages=617–22|issn=0033-8419|oclc=110941167|doi=10.1148/radiol.2273011499|pmid=12773666}}&lt;/ref&gt;&lt;ref&gt;{{Cite journal|last=Altman|first=Naomi|last2=Krzywinski|first2=Martin|date=2015|title=Simple linear regression|journal=Nature Methods|language=English|volume=12|issue=11|pages=999–1000|issn=1548-7091|oclc=5912005539|doi=10.1038/nmeth.3627|pmid=26824102}}&lt;/ref&gt; That is, it concerns two-dimensional sample points with [[dependent and independent variables|one independent variable and one dependent variable]] (conventionally, the ''x'' and ''y'' coordinates in a [[Cartesian coordinate system]]) and finds a linear function (a non-vertical [[straight line]]) that, as accurately as possible, predicts the dependent variable values as a function of the independent variables.
+The adjective ''simple'' refers to the fact that the outcome variable is related to a single predictor.
+
+It is common to make the additional stipulation that the [[ordinary least squares]] (OLS) method should be used: the accuracy of each predicted value is measured by its squared ''[[errors and residuals|residual]]'' (vertical distance between the point of the data set and the fitted line), and the goal is to make the sum of these squared deviations as small as possible. Other regression methods that can be used in place of ordinary least squares include [[least absolute deviations]] (minimizing the sum of absolute values of residuals) and the [[Theil–Sen estimator]] (which chooses a line whose [[slope]] is the [[median]] of the slopes determined by pairs of sample points).  [[Deming regression]] (total least squares) also finds a line that fits a set of two-dimensional sample points, but (unlike ordinary least squares, least absolute deviations, and median slope regression) it is not really an instance of simple linear regression, because it does not separate the coordinates into one dependent and one independent variable and could potentially return a vertical line as its fit.
+
+The remainder of the article assumes an ordinary least squares regression.
+In this case, the slope of the fitted line is equal to the [[Pearson correlation coefficient|correlation]] between {{mvar|y}} and {{mvar|x}} corrected by the ratio of standard deviations of these variables. The intercept of the fitted line is such that the line passes through the center of mass {{math|({{overline|''x''}}, {{overline|''y''}})}} of the data points.
+
+==Fitting the regression line==
+Consider the [[mathematical model|model]] function
+: &lt;math&gt; y = \alpha + \beta x,&lt;/math&gt;
+which describes a line with slope {{mvar|β}} and {{mvar|y}}-intercept {{mvar|α}}. In general such a relationship may not hold exactly for the largely unobserved population of values of the independent and dependent variables; we call the unobserved deviations from the above equation the [[errors and residuals|errors]].   Suppose we observe {{mvar|n}} data pairs and call them {{math|{(''x''&lt;sub&gt;''i''&lt;/sub&gt;, ''y''&lt;sub&gt;''i''&lt;/sub&gt;), ''i'' {{=}} 1, ..., ''n''}}}. We can describe the underlying relationship between {{math|''y''&lt;sub&gt;''i''&lt;/sub&gt;}} and {{math|''x''&lt;sub&gt;''i''&lt;/sub&gt;}} involving this error term {{math|''ε''&lt;sub&gt;''i''&lt;/sub&gt;}} by
+
+: &lt;math&gt; y_i = \alpha + \beta x_i + \varepsilon_i.&lt;/math&gt;
+
+This relationship between the true (but unobserved) underlying parameters {{mvar|α}} and {{mvar|β}} and the data points is called a linear regression model.
+
+The goal is to find estimated values &lt;math&gt;\widehat\alpha&lt;/math&gt; and &lt;math&gt;\widehat\beta&lt;/math&gt; for the parameters {{mvar|α}} and {{mvar|β}} which would provide the "best" fit in some sense for the data points. As mentioned in the introduction, in this article the "best" fit will be understood as in the [[Ordinary least squares|least-squares]] approach: a line that minimizes the sum of squared [[errors and residuals|residuals]] &lt;math&gt;\widehat\varepsilon_i&lt;/math&gt; (differences between actual and predicted values of the dependent variable ''y''), each of which is given by, for any candidate parameter values &lt;math&gt;\alpha&lt;/math&gt; and &lt;math&gt;\beta&lt;/math&gt;,
+
+:&lt;math&gt;\widehat\varepsilon_i =y_i-\alpha -\beta x_i.&lt;/math&gt;
+
+In other words, &lt;math&gt;\widehat\alpha&lt;/math&gt; and &lt;math&gt;\widehat\beta&lt;/math&gt; solve the following minimization problem:
+
+: &lt;math&gt;\text{Find }\min_{\alpha,\, \beta} Q(\alpha, \beta), \quad \text{for } Q(\alpha, \beta) = \sum_{i=1}^n\widehat\varepsilon_i^{\,2} = \sum_{i=1}^n (y_i -\alpha - \beta x_i)^2\ .&lt;/math&gt;
+
+By expanding to get a quadratic expression in &lt;math&gt;\alpha&lt;/math&gt; and &lt;math&gt;\beta,&lt;/math&gt; we can derive values of &lt;math&gt;\alpha&lt;/math&gt; and &lt;math&gt;\beta&lt;/math&gt; that minimize the objective function {{mvar|Q}} (these minimizing values are denoted &lt;math&gt;\widehat{\alpha}&lt;/math&gt; and &lt;math&gt;\widehat{\beta}&lt;/math&gt;):&lt;ref&gt;Kenney, J. F. and Keeping, E. S. (1962) "Linear Regression and Correlation." Ch. 15 in ''Mathematics of Statistics'', Pt. 1, 3rd ed. Princeton, NJ: Van Nostrand, pp. 252–285&lt;/ref&gt;
+
+: &lt;math&gt;\begin{align}
+ \widehat\alpha &amp; = \bar{y} - \widehat\beta\,\bar{x}, \\[5pt]
+  \widehat\beta &amp;= \frac{ \sum_{i=1}^n (x_i - \bar{x})(y_i - \bar{y}) }{ \sum_{i=1}^n (x_i - \bar{x})^2 } \\[6pt]
+            &amp;= \frac{ s_{x, y} }{ s^2_{x} } \\[5pt]
+            &amp;= r_{xy} \frac{s_y}{s_x}. \\[6pt]
+\end{align}&lt;/math&gt;
+
+Here we have introduced
+{{unordered list
+|&lt;math&gt;\bar x&lt;/math&gt; and &lt;math&gt;\bar y&lt;/math&gt; as the average of the {{math|''x''&lt;sub&gt;''i''&lt;/sub&gt;}} and {{math|''y''&lt;sub&gt;''i''&lt;/sub&gt;}}, respectively
+|{{math|''r''&lt;sub&gt;''xy''&lt;/sub&gt;}} as the [[Correlation#Sample correlation coefficient|sample correlation coefficient]] between {{mvar|x}} and {{mvar|y}}
+|{{math|''s''&lt;sub&gt;''x''&lt;/sub&gt;}} and {{math|''s&lt;sub&gt;y&lt;/sub&gt;''}} as the [[standard deviation#Uncorrected sample standard deviation|uncorrected sample standard deviations]] of {{mvar|x}} and {{mvar|y}}
+|&lt;math&gt;s^2_x&lt;/math&gt; and &lt;math&gt;s_{x, y}&lt;/math&gt; as the [[Variance#Sample variance|sample variance]] and [[Sample mean and covariance#Sample covariance|sample covariance]], respectively
+}}
+
+Substituting the above expressions for &lt;math&gt;\widehat{\alpha}&lt;/math&gt; and &lt;math&gt;\widehat{\beta}&lt;/math&gt; into
+
+: &lt;math&gt;f = \widehat{\alpha} + \widehat{\beta} x,&lt;/math&gt;
+
+yields
+
+: &lt;math&gt;\frac{ f - \bar{y}}{s_y} = r_{xy} \frac{ x - \bar{x}}{s_x}  .&lt;/math&gt;
+
+This shows that {{math|''r''&lt;sub&gt;''xy''&lt;/sub&gt;}} is the slope of the regression line of the [[Standard score|standardized]] data points (and that this line passes through the origin).
+
+Generalizing the &lt;math&gt;\bar x&lt;/math&gt; notation, we can write a horizontal bar over an expression to indicate the average value of that expression over the set of samples. For example:
+
+:&lt;math&gt;\overline{xy} = \frac{1}{n} \sum_{i=1}^n x_i y_i.&lt;/math&gt;
+
+This notation allows us a concise formula for {{math|''r''&lt;sub&gt;''xy''&lt;/sub&gt;}}:
+
+:&lt;math&gt;r_{xy} = \frac{ \overline{xy} - \bar{x}\bar{y} }{ \sqrt{ \left(\overline{x^2} - \bar{x}^2\right)\left(\overline{y^2} - \bar{y}^2\right)} } .&lt;/math&gt;
+
+The [[coefficient of determination]] ("R squared") is equal to &lt;math&gt;r_{xy}^2&lt;/math&gt; when the model is linear with a single independent variable. See [[Correlation#Pearson's product-moment coefficient|sample correlation coefficient]] for additional details.
+
+====Intuitive explanation====
+
+By multiplying all members of the summation in the numerator by : &lt;math&gt;\begin{align}\frac{(x_i - \bar{x})}{(x_i - \bar{x})} = 1\end{align}&lt;/math&gt; (thereby not changing it):
+
+: &lt;math&gt;\begin{align}
+  \widehat\beta &amp;= \frac{ \sum_{i=1}^n (x_i - \bar{x})(y_i - \bar{y}) }{ \sum_{i=1}^n (x_i - \bar{x})^2 } = \frac{ \sum_{i=1}^n (x_i - \bar{x})^2*\frac{(y_i - \bar{y})}{(x_i - \bar{x})} }{ \sum_{i=1}^n (x_i - \bar{x})^2 } \\[6pt]
+            
+\end{align}&lt;/math&gt;
+
+We can see that the slope (tangent of angle) of the regression line is the weighted average of &lt;math&gt;\frac{(y_i - \bar{y})}{(x_i - \bar{x})}&lt;/math&gt; that is the slope (tangent of angle) of the line that connects the i-th point to the average of all points, weighted by &lt;math&gt;(x_i - \bar{x})^2&lt;/math&gt; because the further the point is the more "important" it is because small errors in its position will affect the slope connecting it to the center point less.
+
+: &lt;math&gt;\begin{align}
+ \widehat\alpha &amp; = \bar{y} - \widehat\beta\,\bar{x}, \\[5pt]
+\end{align}&lt;/math&gt;
+
+Given &lt;math&gt;\widehat\beta = \tan(\theta) = dy / dx \rightarrow dy = dx*\widehat\beta&lt;/math&gt; with &lt;math&gt;\theta&lt;/math&gt; the angle the line makes with the positive x axis, 
+we have &lt;math&gt;y_{\rm intersection} = \bar{y} - dx*\widehat\beta = \bar{y} - dy&lt;/math&gt;
+
+===Simple linear regression without the intercept term (single regressor) ===
+Sometimes it is appropriate to force the regression line to pass through the origin, because {{mvar|x}} and {{mvar|y}} are assumed to be proportional. For the model without the intercept term, {{math|''y'' {{=}} ''βx''}}, the OLS estimator for {{mvar|β}} simplifies to
+
+: &lt;math&gt;\widehat{\beta} = \frac{ \sum_{i=1}^n x_i y_i }{ \sum_{i=1}^n x_i^2 } = \frac{\overline{x y}}{\overline{x^2}} &lt;/math&gt;
+
+Substituting {{math|(''x'' − ''h'', ''y'' − ''k'')}} in place of {{math|(''x'', ''y'')}} gives the regression through {{math|(''h'', ''k'')}}:
+
+: &lt;math&gt;\begin{align}
+  \widehat\beta &amp;= \frac{\overline{(x - h) (y - k)}}{\overline{(x - h)^2}} \\[6pt]
+            &amp;= \frac{\overline{x y} - k \bar{x} - h \bar{y} + h k }{\overline{x^2} - 2 h \bar{x} + h^2} \\[6pt]
+            &amp;= \frac{\overline{x y} - \bar{x} \bar{y} + (\bar{x} - h)(\bar{y} - k)}{\overline{x^2} - \bar{x}^2 + (\bar{x} - h)^2} \\[6pt]
+            &amp;= \frac{\operatorname{Cov}(x,y) + (\bar{x} - h)(\bar{y}-k)}{\operatorname{Var}(x) + (\bar{x} - h)^2},
+\end{align}&lt;/math&gt;
+
+where Cov and Var refer to the covariance and variance of the sample data (uncorrected for bias).
+
+The last form above demonstrates how moving the line away from the center of mass of the data points affects the slope.
+
+==Numerical properties==
+{{ordered list
+| The regression line goes through the ''center of mass'' point, &lt;math&gt;(\bar x,\, \bar y)&lt;/math&gt;, if the model includes an intercept term (i.e., not forced through the origin).
+| The sum of the residuals is zero if the model includes an intercept term:
+: &lt;math&gt;\sum_{i=1}^n \widehat{\varepsilon}_i = 0.&lt;/math&gt;
+| The residuals and {{mvar|x}} values are uncorrelated (whether or not there is an intercept term in the model), meaning:
+: &lt;math&gt;\sum_{i=1}^n x_i \widehat{\varepsilon}_i \;=\; 0&lt;/math&gt;
+}}
+
+==Model-based properties==
+Description of the statistical properties of estimators from the simple linear regression estimates requires the use of a [[statistical model]]. The following is based on assuming the validity of a model under which the estimates are optimal. It is also possible to evaluate the properties under other assumptions, such as [[Homoscedasticity|inhomogeneity]], but this is discussed elsewhere.{{clarify|date=October 2015|reason=where?}}
+
+===Unbiasedness===
+The estimators &lt;math&gt;\widehat{\alpha}&lt;/math&gt; and &lt;math&gt;\widehat{\beta}&lt;/math&gt; are [[Estimator bias|unbiased]].
+
+To formalize this assertion we must define a framework in which these estimators are random variables. We consider the residuals {{math|''ε''&lt;sub&gt;i&lt;/sub&gt;}} as random variables drawn independently from some distribution with mean zero. In other words, for each value of {{mvar|x}}, the corresponding value of {{mvar|y}} is generated as a mean response  {{math|''α'' + ''βx''}} plus an additional random variable {{mvar|ε}} called the ''error term'', equal to zero on average. Under such interpretation, the least-squares estimators &lt;math&gt;\widehat\alpha&lt;/math&gt; and &lt;math&gt;\widehat\beta&lt;/math&gt; will themselves be random variables whose means will equal the "true values" {{mvar|α}} and {{mvar|β}}. This is the definition of an unbiased estimator.
+
+===Confidence intervals===
+The formulas given in the previous section allow one to calculate the ''point estimates'' of {{mvar|α}} and {{mvar|β}} — that is, the coefficients of the regression line for the given set of data. However, those formulas don't tell us how precise the estimates are, i.e., how much the estimators &lt;math&gt;\widehat{\alpha}&lt;/math&gt; and &lt;math&gt;\widehat{\beta}&lt;/math&gt; vary from sample to sample for the specified sample size. [[Confidence interval]]s were devised to give a plausible set of values to the estimates one might have if one repeated the experiment a very large number of times.
+
+The standard method of constructing confidence intervals for linear regression coefficients relies on the normality assumption, which is justified if either:
+
+# the errors in the regression are [[normal distribution|normally distributed]] (the so-called ''classic regression'' assumption), or 
+# the number of observations {{mvar|n}} is sufficiently large, in which case the estimator is approximately normally distributed.
+
+The latter case is justified by the [[central limit theorem]].
+
+===Normality assumption===
+Under the first assumption above, that of the normality of the error terms, the estimator of the slope coefficient will itself be normally distributed with mean {{mvar|β}} and variance &lt;math style="height:1.5em"&gt;\sigma^2\left/\sum(x_i - \bar{x})^2\right.,&lt;/math&gt; where {{math|''σ''&lt;sup&gt;2&lt;/sup&gt;}} is the variance of the error terms (see [[Proofs involving ordinary least squares]]).  At the same time the sum of squared residuals {{mvar|Q}} is distributed proportionally to [[chi-squared distribution|{{math|''χ''&lt;sup&gt;2&lt;/sup&gt;}}]] with {{math|''n'' − 2}} degrees of freedom, and independently from &lt;math&gt;\widehat{\beta}&lt;/math&gt;. This allows us to construct a {{mvar|t}}-value
+
+: &lt;math&gt;t = \frac{\widehat\beta - \beta}{s_{\widehat\beta}}\ \sim\ t_{n - 2},&lt;/math&gt;
+
+where
+
+: &lt;math&gt; s_\widehat{\beta} = \sqrt{ \frac{\frac{1}{n - 2}\sum_{i=1}^n \widehat{\varepsilon}_i^{\,2}} {\sum_{i=1}^n (x_i -\bar{x})^2} }&lt;/math&gt;
+
+is the ''standard error'' of the estimator &lt;math&gt;\widehat{\beta}&lt;/math&gt;.
+
+This {{mvar|t}}-value has a [[Student's t-distribution|Student's {{mvar|t}}]]-distribution with {{math|''n'' − 2}} degrees of freedom. Using it we can construct a confidence interval for {{mvar|β}}:
+
+: &lt;math&gt; \beta \in \left[\widehat\beta - s_{\widehat\beta} t^*_{n - 2},\ \widehat\beta + s_{\widehat\beta} t^*_{n - 2}\right],&lt;/math&gt;
+
+at confidence level {{math|(1 − ''γ'')}}, where &lt;math&gt;t^*_{n - 2}&lt;/math&gt; is the &lt;math&gt;\scriptstyle \left(1 \;-\; \frac{\gamma}{2}\right)\text{-th}&lt;/math&gt; quantile of the {{math|''t''&lt;sub&gt;''n''−2&lt;/sub&gt;}} distribution. For example, if {{math|''γ'' {{=}} 0.05}} then the confidence level is 95%.
+
+Similarly, the confidence interval for the intercept coefficient {{mvar|α}} is given by
+
+: &lt;math&gt;\alpha \in \left[ \widehat\alpha - s_{\widehat\alpha} t^*_{n - 2},\ \widehat\alpha + s_\widehat{\alpha} t^*_{n - 2}\right],&lt;/math&gt;
+
+at confidence level (1 − ''γ''), where
+
+: &lt;math&gt;s_{\widehat\alpha} = s_\widehat{\beta}\sqrt{\frac{1}{n} \sum_{i=1}^n x_i^2} = \sqrt{\frac{1}{n(n - 2)} \left(\sum_{i=1}^n \widehat{\varepsilon}_i^{\,2} \right) \frac{\sum_{i=1}^n x_i^2} {\sum_{i=1}^n (x_i  - \bar{x})^2} }&lt;/math&gt;
+
+[[Image:Okuns law with confidence bands.svg|thumb|300px|The US "changes in unemployment – GDP growth" regression with the 95% confidence bands.]]
+The confidence intervals for {{mvar|α}} and {{mvar|β}} give us the general idea where these regression coefficients are most likely to be. For example, in the [[Okun's law]] regression shown here the point estimates are
+
+: &lt;math&gt;\widehat{\alpha} = 0.859, \qquad \widehat{\beta} = -1.817.&lt;/math&gt;
+
+The 95% confidence intervals for these estimates are
+
+: &lt;math&gt;\alpha \in \left[\,0.76, 0.96\right], \qquad \beta \in \left[-2.06, -1.58 \,\right].&lt;/math&gt;
+
+In order to represent this information graphically, in the form of the confidence bands around the regression line, one has to proceed carefully and account for the joint distribution of the estimators. It can be shown&lt;ref&gt;Casella, G. and Berger, R. L. (2002), "Statistical Inference" (2nd Edition), Cengage, {{ISBN|978-0-534-24312-8}}, pp. 558–559.&lt;/ref&gt; that at confidence level (1&amp;nbsp;−&amp;nbsp;''γ'') the confidence band has hyperbolic form given by the equation
+
+: &lt;math&gt;(\alpha + \beta \xi) \in \left[ \,\widehat{\alpha} + \widehat{\beta} \xi \pm t^*_{n - 2} \sqrt{ \left(\frac{1}{n - 2} \sum\widehat{\varepsilon}_i^{\,2} \right) \cdot \left(\frac{1}{n} + \frac{(\xi - \bar{x})^2}{\sum(x_i - \bar{x})^2}\right)}\,\right].&lt;/math&gt;
+
+===Asymptotic assumption===
+The alternative second assumption states that when the number of points in the dataset is "large enough", the [[law of large numbers]] and the [[central limit theorem]] become applicable, and then the distribution of the estimators is approximately normal. Under this assumption all formulas derived in the previous section remain valid, with the only exception that the quantile ''t*''&lt;sub style="position:relative;left:-0.4em"&gt;''n''−2&lt;/sub&gt; of [[Student's t-distribution|Student's ''t'']] distribution is replaced with the quantile ''q*'' of the [[standard normal distribution]]. Occasionally the fraction {{math|{{sfrac|1|''n''−2}}}} is replaced with {{math|{{sfrac|1|''n''}}}}. When {{mvar|n}} is large such a change does not alter the results appreciably.
+
+==Numerical example{{anchor|Example}}==
+{{see also|Ordinary least squares#Example|Linear least squares#Example}}
+
+This data set gives average masses for women as a function of their height in a sample of American women of age 30–39. Although the [[Ordinary least squares|OLS]] article argues that it would be more appropriate to run a quadratic regression for this data, the simple linear regression model is applied here instead.
+
+:{|class="wikitable" style="text-align:right;"
+|-
+! style="text-align:left;" | Height (m), ''x&lt;sub&gt;i&lt;/sub&gt;''
+| 1.47 || 1.50 || 1.52 || 1.55 || 1.57 || 1.60 || 1.63 || 1.65 || 1.68 || 1.70 || 1.73 || 1.75 || 1.78 || 1.80 || 1.83
+|-
+! style="text-align:left;" | Mass (kg), ''y&lt;sub&gt;i&lt;/sub&gt;''
+| 52.21 || 53.12 || 54.48 || 55.84 || 57.20 || 58.57 || 59.93 || 61.29 || 63.11 || 64.47 || 66.28 || 68.10 || 69.92 || 72.19 || 74.46
+|}
+
+There are ''n'' = 15 points in this data set. Hand calculations would be started by finding the following five sums:
+
+: &lt;math&gt;\begin{align}
+  &amp; S_x = \sum x_i = 24.76, \quad S_y = \sum y_i = 931.17 \\[5pt]
+  &amp; S_{xx} = \sum x_i^2 = 41.0532, \quad S_{xy} = \sum x_iy_i = 1548.2453, \quad S_{yy} = \sum y_i^2 = 58498.5439
+\end{align}&lt;/math&gt;
+
+These quantities would be used to calculate the estimates of the regression coefficients, and their standard errors.
+
+: &lt;math&gt;\begin{align}
+       \widehat\beta  &amp;= \frac{nS_{xy} - S_xS_y}{nS_{xx} - S_x^2} = 61.272 \\[8pt]
+       \widehat\alpha &amp;= \frac{1}{n}S_y - \widehat{\beta} \frac{1}{n}S_x = -39.062 \\[8pt]
+  s_\varepsilon^2 &amp;= \frac{1}{n(n - 2)} \left[ nS_{yy} - S_y^2 - \widehat\beta^2(nS_{xx} - S_x^2) \right] = 0.5762 \\[8pt]
+        s_\widehat{\beta}^2 &amp;= \frac{n s_\varepsilon^2}{nS_{xx} - S_x^2} = 3.1539 \\[8pt]
+       s_\widehat{\alpha}^2 &amp;= s_\widehat{\beta}^2 \frac{1}{n} S_{xx} = 8.63185
+\end{align}&lt;/math&gt;
+
+The 0.975 quantile of Student's ''t''-distribution with 13 degrees of freedom is {{math|''t''{{sup|*}}&lt;sub style{{=}}"position:relative; left:-0.3em;"&gt;13&lt;/sub&gt; {{=}} 2.1604}}, and thus the 95% confidence intervals for {{mvar|α}} and {{mvar|β}} are
+
+: &lt;math&gt;\begin{align}
+  &amp; \alpha \in [\,\widehat{\alpha} \mp t^*_{13} s_\alpha \,] = [\,{-45.4},\ {-32.7}\,] \\[5pt]
+  &amp; \beta  \in [\,\widehat{\beta}  \mp t^*_{13} s_\beta  \,] = [\, 57.4,\ 65.1 \,]
+\end{align}&lt;/math&gt;
+
+The [[Pearson product-moment correlation coefficient|product-moment correlation coefficient]] might also be calculated:
+
+: &lt;math&gt;\widehat{r} = \frac{nS_{xy} - S_xS_y}{\sqrt{(nS_{xx} - S_x^2)(nS_{yy} - S_y^2)}} = 0.9945&lt;/math&gt;
+
+This example also demonstrates that sophisticated calculations will not overcome the use of badly prepared data. The heights were originally given in inches, and have been converted to the nearest centimetre. Since the conversion has introduced rounding error, this is ''not'' an exact conversion. The original inches can be recovered by Round(x/0.0254) and then re-converted to metric without rounding: if this is done, the results become
+
+:&lt;math&gt;\widehat\beta = 61.6746, \qquad \widehat\alpha = -39.7468.&lt;/math&gt;
+
+Thus a seemingly small variation in the data has a real effect.
+
+==See also==
+* [[Line fitting]]
+* [[Linear trend estimation]]
+* [[Segmented regression|Linear segmented regression]]
+* [[Proofs involving ordinary least squares]]—derivation of all formulas used in this article in general multidimensional case
+
+==References==
+ {{Reflist}}
+
+==External links==
+* [http://mathworld.wolfram.com/LeastSquaresFitting.html Wolfram MathWorld's explanation of Least Squares Fitting, and how to calculate it]
+* [http://people.duke.edu/~rnau/mathreg.htm Mathematics of simple regression (Robert Nau, Duke University)]
+
+{{statistics}}
+{{Quantitative forecasting methods}}
+
+{{DEFAULTSORT:Simple Linear Regression}}
+[[Category:Regression analysis]]
+[[Category:Parametric statistics]]</text>
+      <sha1>kimfsihat9k540i3d7fpxjj0w3j55iz</sha1>
+    </revision>
+  </page>
+</mediawiki>

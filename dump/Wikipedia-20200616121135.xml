@@ -1,0 +1,279 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.10/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.10/ http://www.mediawiki.org/xml/export-0.10.xsd" version="0.10" xml:lang="en">
+  <siteinfo>
+    <sitename>Wikipedia</sitename>
+    <dbname>enwiki</dbname>
+    <base>https://en.wikipedia.org/wiki/Main_Page</base>
+    <generator>MediaWiki 1.35.0-wmf.36</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Media</namespace>
+      <namespace key="-1" case="first-letter">Special</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Talk</namespace>
+      <namespace key="2" case="first-letter">User</namespace>
+      <namespace key="3" case="first-letter">User talk</namespace>
+      <namespace key="4" case="first-letter">Wikipedia</namespace>
+      <namespace key="5" case="first-letter">Wikipedia talk</namespace>
+      <namespace key="6" case="first-letter">File</namespace>
+      <namespace key="7" case="first-letter">File talk</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki talk</namespace>
+      <namespace key="10" case="first-letter">Template</namespace>
+      <namespace key="11" case="first-letter">Template talk</namespace>
+      <namespace key="12" case="first-letter">Help</namespace>
+      <namespace key="13" case="first-letter">Help talk</namespace>
+      <namespace key="14" case="first-letter">Category</namespace>
+      <namespace key="15" case="first-letter">Category talk</namespace>
+      <namespace key="100" case="first-letter">Portal</namespace>
+      <namespace key="101" case="first-letter">Portal talk</namespace>
+      <namespace key="108" case="first-letter">Book</namespace>
+      <namespace key="109" case="first-letter">Book talk</namespace>
+      <namespace key="118" case="first-letter">Draft</namespace>
+      <namespace key="119" case="first-letter">Draft talk</namespace>
+      <namespace key="446" case="first-letter">Education Program</namespace>
+      <namespace key="447" case="first-letter">Education Program talk</namespace>
+      <namespace key="710" case="first-letter">TimedText</namespace>
+      <namespace key="711" case="first-letter">TimedText talk</namespace>
+      <namespace key="828" case="first-letter">Module</namespace>
+      <namespace key="829" case="first-letter">Module talk</namespace>
+      <namespace key="2300" case="first-letter">Gadget</namespace>
+      <namespace key="2301" case="first-letter">Gadget talk</namespace>
+      <namespace key="2302" case="case-sensitive">Gadget definition</namespace>
+      <namespace key="2303" case="case-sensitive">Gadget definition talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Least mean squares filter</title>
+    <ns>0</ns>
+    <id>2017311</id>
+    <revision>
+      <id>941899198</id>
+      <parentid>941897218</parentid>
+      <timestamp>2020-02-21T09:45:34Z</timestamp>
+      <contributor>
+        <username>Constant314</username>
+        <id>3125232</id>
+      </contributor>
+      <comment>Reverted [[WP:AGF|good faith]] edits by [[Special:Contributions/Ssk08|Ssk08]] ([[User talk:Ssk08|talk]]): Least means squares is the name used by reliable sources ([[WP:TW|TW]])</comment>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="15787" xml:space="preserve">{{more footnotes|date=January 2019}}
+
+'''Least mean squares''' ('''LMS''') algorithms are a class of [[adaptive filter]] used to mimic a desired filter by finding the filter coefficients that relate to producing the least mean square of the error signal (difference between the desired and the actual signal). It is a [[stochastic gradient descent]] method in that the filter is only adapted based on the error at the current time.  It was invented in 1960 by [[Stanford University]] professor [[Bernard Widrow]] and his first Ph.D. student, [[Ted Hoff]].
+
+== Problem formulation ==
+[[File:Lms filter.svg|444px|LMS filter]]
+
+=== Relationship to the Wiener filter ===
+The realization of the causal [[Wiener filter]] looks a lot like the solution to the least squares estimate, except in the signal processing domain. The least squares solution, for input matrix &lt;math&gt;
+\mathbf{X}&lt;/math&gt; and output vector &lt;math&gt;\boldsymbol y &lt;/math&gt;
+is
+
+&lt;math&gt;
+\boldsymbol{\hat\beta} = (\mathbf{X} ^\mathbf{T}\mathbf{X})^{-1}\mathbf{X}^{\mathbf{T}}\boldsymbol y .
+&lt;/math&gt;
+
+The FIR least mean squares filter is related to the Wiener filter, but minimizing the error criterion of the former does not rely on cross-correlations or auto-correlations. Its solution converges to the Wiener filter solution. 
+Most linear adaptive filtering problems can be formulated using the block diagram above. That is, an unknown system &lt;math&gt;\mathbf{h}(n)&lt;/math&gt; is to be identified and the adaptive filter attempts to adapt the filter &lt;math&gt;\hat{\mathbf{h}}(n)&lt;/math&gt; to make it as close as possible to &lt;math&gt;\mathbf{h}(n)&lt;/math&gt;, while using only observable signals &lt;math&gt;x(n)&lt;/math&gt;, &lt;math&gt;d(n)&lt;/math&gt; and &lt;math&gt;e(n)&lt;/math&gt;; but &lt;math&gt;y(n)&lt;/math&gt;, &lt;math&gt;v(n)&lt;/math&gt; and &lt;math&gt;h(n)&lt;/math&gt; are not directly observable. Its solution is closely related to the [[Wiener filter]].
+
+=== Definition of symbols ===
+:&lt;math&gt;n&lt;/math&gt; is the number of the current input sample
+:&lt;math&gt;p&lt;/math&gt; is the number of filter taps
+:&lt;math&gt; \{\cdot\}^H &lt;/math&gt; ([[Hermitian transpose]] or [[conjugate transpose]])
+:&lt;math&gt;
+\mathbf{x}(n) = \left[x(n), x(n-1), \dots, x(n-p+1)\right]^T
+&lt;/math&gt; 
+:&lt;math&gt; 
+\mathbf{h}(n) = \left[h_0(n), h_1(n), \dots, h_{p-1}(n)\right]^T,\quad \mathbf{h}(n) \in \mathbb{C}^p
+&lt;/math&gt;
+:&lt;math&gt; 
+y(n) = \mathbf{h}^H(n) \cdot \mathbf{x}(n)
+&lt;/math&gt;
+:&lt;math&gt;
+d(n) = y(n) + \nu(n)
+&lt;/math&gt; 
+:&lt;math&gt;\hat{\mathbf{h}}(n)&lt;/math&gt; estimated filter; interpret as the estimation of the filter coefficients after {{math|n}} samples
+:&lt;math&gt; 
+e(n) = d(n) - \hat{y}(n) = d(n) - \hat{\mathbf{h}}^H(n) \cdot \mathbf{x}(n)
+
+&lt;/math&gt;
+
+== Idea ==
+The basic idea behind LMS filter is to approach the optimum filter weights &lt;math&gt;(R^{-1}P)&lt;/math&gt;, by updating the 
+filter weights in a manner to converge to the optimum filter weight. This is based on the gradient descent algorithm. The algorithm starts by assuming small weights
+(zero in most cases) and, at each step, by finding the gradient of the mean square error, the weights are updated.
+That is, if the MSE-gradient is positive, it implies the error would keep increasing positively 
+if the same weight is used for further iterations, which means we need to reduce the weights. In the same way, if the gradient is negative, we need to increase the weights. The weight update equation is
+
+&lt;math&gt; W_{n+1} = W_n - \mu\nabla \varepsilon [n] &lt;/math&gt;,
+
+where 
+&lt;math&gt; \varepsilon &lt;/math&gt; represents the mean-square error and &lt;math&gt; \mu &lt;/math&gt; is a convergence coefficient.
+
+The negative sign shows that we go down the slope of the error, &lt;math&gt; \varepsilon &lt;/math&gt; to find the filter weights, &lt;math&gt; W_i &lt;/math&gt;, which minimize the error.
+
+The mean-square error as a function of filter weights is a quadratic function which means it has only one extremum, that minimizes 
+the mean-square error, which is the optimal weight. The LMS thus, approaches towards this optimal weights by ascending/descending 
+down the mean-square-error vs filter weight curve.
+
+== Derivation ==
+ 
+The idea behind LMS filters is to use [[steepest descent]] to find filter weights &lt;math&gt; \hat{\mathbf{h}}(n)&lt;/math&gt; which minimize a [[Loss function|cost function]]. 
+We start by defining the cost function as 
+:&lt;math&gt; C(n) = E\left\{|e(n)|^{2}\right\}&lt;/math&gt;
+where &lt;math&gt;e(n)&lt;/math&gt; is the error at the current sample ''n'' and &lt;math&gt;E\{\cdot\}&lt;/math&gt; denotes the [[expected value]].
+
+This cost function (&lt;math&gt;C(n)&lt;/math&gt;) is the mean square error, and it is minimized by the LMS. This is where the LMS gets its name. Applying [[steepest descent]] means to take the [[partial derivative]]s with respect to the individual entries of the filter coefficient (weight) vector
+:&lt;math&gt; 
+\nabla_{\hat{\mathbf{h}}^H} C(n) = \nabla_{\hat{\mathbf{h}}^H} E\left\{e(n) \, e^{*}(n)\right\}=2E\left\{\nabla_{\hat{\mathbf{h}}^H} ( e(n)) \, e^{*}(n) \right\}
+&lt;/math&gt;
+where &lt;math&gt;\nabla&lt;/math&gt; is the [[gradient]] operator
+:&lt;math&gt;
+\nabla_{\hat{\mathbf{h}}^H} (e(n))= \nabla_{\hat{\mathbf{h}}^H} \left(d(n) - \hat{\mathbf{h}}^H \cdot \mathbf{x}(n)\right)=-\mathbf{x}(n)
+&lt;/math&gt;
+:&lt;math&gt; 
+\nabla C(n) = -2E\left\{\mathbf{x}(n) \, e^{*}(n)\right\}
+&lt;/math&gt;
+Now, &lt;math&gt;\nabla C(n)&lt;/math&gt; is a vector which points towards the steepest ascent of the cost function. To find the minimum of the cost function we need to take a step in the opposite direction of &lt;math&gt;\nabla C(n)&lt;/math&gt;. To express that in mathematical terms 
+:&lt;math&gt;\hat{\mathbf{h}}(n+1)=\hat{\mathbf{h}}(n)-\frac{\mu}{2} \nabla C(n)=\hat{\mathbf{h}}(n)+\mu \, E\left\{\mathbf{x}(n) \, e^{*}(n)\right\}&lt;/math&gt;
+where &lt;math&gt;\frac{\mu}{2}&lt;/math&gt; is the step size(adaptation constant). That means we have found a sequential update algorithm which minimizes the cost function. Unfortunately, this algorithm is not realizable until we know &lt;math&gt;E\left\{\mathbf{x}(n) \, e^{*}(n)\right\} &lt;/math&gt;.
+
+Generally, the expectation above is not computed. Instead, to run the LMS in an online (updating after each new sample is received) environment, we use an instantaneous estimate of that expectation. See below.
+
+== Simplifications ==
+For most systems the expectation function &lt;math&gt;{E}\left\{\mathbf{x}(n) \, e^{*}(n)\right\} &lt;/math&gt; must be approximated. This can be done with the following unbiased [[estimator]]
+:&lt;math&gt; 
+\hat{E}\left\{\mathbf{x}(n) \, e^{*}(n)\right\}=\frac{1}{N}\sum_{i=0}^{N-1}\mathbf{x}(n-i) \, e^{*}(n-i)
+&lt;/math&gt; 
+where &lt;math&gt;N&lt;/math&gt; indicates the number of samples we use for that estimate. The simplest case is &lt;math&gt;N=1&lt;/math&gt;
+:&lt;math&gt; 
+\hat{E}\left\{\mathbf{x}(n) \, e^{*}(n)\right\}=\mathbf{x}(n) \, e^{*}(n)
+&lt;/math&gt; 
+For that simple case the update algorithm follows as
+:&lt;math&gt;\hat{\mathbf{h}}(n+1)=\hat{\mathbf{h}}(n)+\mu \mathbf{x}(n) \, e^{*}(n)&lt;/math&gt;
+Indeed, this constitutes the update algorithm for the LMS filter.
+
+== LMS algorithm summary ==
+The LMS algorithm for a &lt;math&gt;p&lt;/math&gt;th order filter can be summarized as
+{| 
+| Parameters: || &lt;math&gt;p=&lt;/math&gt; filter order  
+|- 
+|  || &lt;math&gt;\mu=&lt;/math&gt; step size  
+|-
+|Initialisation: || &lt;math&gt;\hat{\mathbf{h}}(0)=\operatorname{zeros}(p)&lt;/math&gt;
+|-
+|Computation: || For &lt;math&gt;n=0,1,2,... &lt;/math&gt;
+|-
+|||
+&lt;math&gt;\mathbf{x}(n) = \left[x(n), x(n-1), \dots, x(n-p+1)\right]^T&lt;/math&gt;
+|-
+|||&lt;math&gt; e(n) = d(n)-\hat{\mathbf{h}}^{H}(n)\mathbf{x}(n)&lt;/math&gt;
+|-
+|||&lt;math&gt; \hat{\mathbf{h}}(n+1) = \hat{\mathbf{h}}(n)+\mu\,e^{*}(n)\mathbf{x}(n)&lt;/math&gt;
+|}
+
+== Convergence and stability in the mean ==
+
+As the LMS algorithm does not use the exact values of the expectations, the weights would never reach the optimal weights in the absolute sense, but a convergence is possible in mean. That is, even though the weights may change by small amounts, it changes about the optimal weights. However, if the variance with which the weights change, is large, convergence in mean would be misleading. This problem may occur, if the value of step-size &lt;math&gt; \mu &lt;/math&gt; is not chosen properly.
+
+If &lt;math&gt; \mu &lt;/math&gt; is chosen to be large, the amount with which the weights change depends heavily on the gradient estimate, and so the weights may change by a large value so that gradient which was negative at the first instant may now become positive. And at the second instant, the weight may change in the opposite direction by a large amount because of the negative gradient and would thus keep oscillating with a large variance about the optimal weights. On the other hand, if &lt;math&gt; \mu &lt;/math&gt; is chosen to be too small, time to converge to the optimal weights will be too large.
+
+Thus, an upper bound on &lt;math&gt; \mu &lt;/math&gt; is needed which is given as 
+&lt;math&gt; 0&lt;\mu&lt;\frac{2}{\lambda_{\mathrm{max}}} &lt;/math&gt;
+
+where &lt;math&gt;\lambda_{\max}&lt;/math&gt; is the greatest eigenvalue of the [[autocorrelation]] matrix &lt;math&gt; {\mathbf{R}} = E\{{\mathbf{x}}(n){\mathbf{x}^H}(n)\}&lt;/math&gt;. If this condition is not fulfilled, the algorithm becomes unstable and &lt;math&gt;\hat{h}(n)&lt;/math&gt; diverges.
+
+Maximum convergence speed is achieved when
+:&lt;math&gt;
+\mu=\frac{2}{\lambda_{\mathrm{max}}+\lambda_{\mathrm{min}}},
+&lt;/math&gt;
+where &lt;math&gt;\lambda_{\min}&lt;/math&gt; is the smallest eigenvalue of R.
+Given that &lt;math&gt;\mu&lt;/math&gt; is less than or equal to this optimum, the convergence speed is determined by &lt;math&gt;\lambda_{\min}&lt;/math&gt;, with a larger value yielding faster convergence. This means that faster convergence can be achieved when &lt;math&gt;\lambda_{\max}&lt;/math&gt; is close to &lt;math&gt;\lambda_{\min}&lt;/math&gt;, that is, the maximum achievable convergence speed depends on the [[eigenvalue spread]] of &lt;math&gt;{\mathbf{R}}&lt;/math&gt;.
+
+A [[white noise]] signal has autocorrelation matrix &lt;math&gt;{\mathbf{R}}=\sigma^2 {\mathbf{I}}&lt;/math&gt; where &lt;math&gt;\sigma^2&lt;/math&gt; is the variance of the signal. In this case all eigenvalues are equal, and the eigenvalue spread is the minimum over all possible matrices.
+The common interpretation of this result is therefore that the LMS converges quickly for white input signals, and slowly for colored input signals, such as processes with low-pass or high-pass characteristics.
+
+It is important to note that the above upperbound on &lt;math&gt;\mu&lt;/math&gt; only enforces stability in the mean, but the coefficients of &lt;math&gt;\hat{h}(n)&lt;/math&gt; can still grow infinitely large, i.e. divergence of the coefficients is still possible. A more practical bound is 
+:&lt;math&gt;
+0&lt;\mu&lt;\frac{2}{\mathrm{tr}\left[{\mathbf{R}}\right]},
+&lt;/math&gt;
+where &lt;math&gt;\mathrm{tr}[{\mathbf{R}}]&lt;/math&gt; denotes the [[Trace (linear algebra)|trace]] of &lt;math&gt;{\mathbf{R}}&lt;/math&gt;. This bound guarantees that the coefficients of &lt;math&gt;\hat{h}(n)&lt;/math&gt; do not diverge (in practice, the value of &lt;math&gt;\mu&lt;/math&gt; should not be chosen close to this upper bound, since it is somewhat optimistic due to approximations and assumptions made in the derivation of the bound).
+
+== Normalized least mean squares filter (NLMS) ==
+
+The main drawback of the "pure" LMS algorithm is that it is sensitive to the scaling of its input &lt;math&gt;x(n)&lt;/math&gt;. This makes it very hard (if not impossible) to choose a [[learning rate]] &lt;math&gt;\mu&lt;/math&gt; that guarantees stability of the algorithm (Haykin 2002). The ''Normalised least mean squares filter'' (NLMS) is a variant of the LMS algorithm that solves this problem by normalising with the power of the input. The NLMS algorithm can be summarised as:
+
+{| 
+| Parameters: || &lt;math&gt;p=&lt;/math&gt; filter order  
+|- 
+|  || &lt;math&gt;\mu=&lt;/math&gt; step size  
+|-
+|Initialization: || &lt;math&gt;\hat{\mathbf{h}}(0)=\operatorname{zeros}(p)&lt;/math&gt;
+|-
+|Computation: || For &lt;math&gt;n=0,1,2,... &lt;/math&gt;
+|-
+|||
+&lt;math&gt;\mathbf{x}(n) = \left[x(n), x(n-1), \dots, x(n-p+1)\right]^T&lt;/math&gt;
+|-
+|||&lt;math&gt; e(n) = d(n)-\hat{\mathbf{h}}^{H}(n)\mathbf{x}(n)&lt;/math&gt;
+|-
+|||&lt;math&gt; \hat{\mathbf{h}}(n+1) = \hat{\mathbf{h}}(n)+\frac{\mu\,e^{*}(n)\mathbf{x}(n)}{\mathbf{x}^H(n)\mathbf{x}(n)}&lt;/math&gt;
+|}
+
+=== Optimal learning rate ===
+It can be shown that if there is no interference (&lt;math&gt;v(n)=0&lt;/math&gt;), then the optimal learning rate for the NLMS algorithm is 
+:&lt;math&gt;\mu_{opt}=1&lt;/math&gt; 
+and is independent of the input &lt;math&gt;x(n)&lt;/math&gt; and the real (unknown) impulse response &lt;math&gt;\mathbf{h}(n)&lt;/math&gt;. In the general case with interference (&lt;math&gt;v(n) \ne 0&lt;/math&gt;), the optimal learning rate is
+:&lt;math&gt;
+\mu_{opt}=\frac{E\left[\left|y(n)-\hat{y}(n)\right|^2\right]}{E\left[|e(n)|^2\right]}
+&lt;/math&gt;
+
+The results above assume that the signals &lt;math&gt;v(n)&lt;/math&gt; and &lt;math&gt;x(n)&lt;/math&gt; are uncorrelated to each other, which is generally the case in practice.
+
+=== Proof ===
+Let the filter misalignment be defined as &lt;math&gt;\Lambda(n) = \left| \mathbf{h}(n) - \hat{\mathbf{h}}(n) \right|^2&lt;/math&gt;, we can derive the expected misalignment for the next sample as:
+: &lt;math&gt; E\left[ \Lambda(n+1) \right] = E\left[ \left| \hat{\mathbf{h}}(n) + \frac{\mu\,e^{*}(n)\mathbf{x}(n)}{\mathbf{x}^H(n)\mathbf{x}(n)} - \mathbf{h}(n) \right|^2 \right]&lt;/math&gt;
+: &lt;math&gt; E\left[ \Lambda(n+1) \right] = E\left[ \left| \hat{\mathbf{h}}(n) + \frac{\mu\, \left(  v^*(n)+y^*(n)-\hat{y}^*(n)  \right) \mathbf{x}(n)}{\mathbf{x}^H(n)\mathbf{x}(n)} - \mathbf{h}(n) \right|^2 \right]&lt;/math&gt;
+
+Let &lt;math&gt;\mathbf{\delta}=\hat{\mathbf{h}}(n)-\mathbf{h}(n)&lt;/math&gt; and &lt;math&gt;r(n) = \hat{y}(n)-y(n)&lt;/math&gt;
+
+: &lt;math&gt; E\left[ \Lambda(n+1) \right] = E\left[ \left| \mathbf{\delta}(n) - \frac{\mu\, \left(  v(n)+r(n) \right) \mathbf{x}(n)}{\mathbf{x}^H(n)\mathbf{x}(n)} \right|^2 \right]&lt;/math&gt;
+: &lt;math&gt; E\left[ \Lambda(n+1) \right] = E\left[ \left( \mathbf{\delta}(n) - \frac{\mu\, \left(  v(n)+r(n) \right) \mathbf{x}(n)}{\mathbf{x}^H(n)\mathbf{x}(n)} \right)^H \left( \mathbf{\delta}(n) - \frac{\mu\, \left(  v(n)+r(n) \right) \mathbf{x}(n)}{\mathbf{x}^H(n)\mathbf{x}(n)} \right)  \right]&lt;/math&gt;
+
+Assuming independence, we have:
+: &lt;math&gt; E\left[ \Lambda(n+1) \right] = \Lambda(n) + E\left[ \left( \frac{\mu\, \left(  v(n)+r(n) \right) \mathbf{x}(n)}{\mathbf{x}^H(n)\mathbf{x}(n)} \right)^H \left( \frac{\mu\, \left(  v(n)+r(n) \right) \mathbf{x}(n)}{\mathbf{x}^H(n)\mathbf{x}(n)} \right)  \right] - 2 E\left[\frac{\mu|r(n)|^2}{\mathbf{x}^H(n)\mathbf{x}(n)}\right]&lt;/math&gt;
+: &lt;math&gt; E\left[ \Lambda(n+1) \right] = \Lambda(n) + \frac{\mu^2 E\left[|e(n)|^2\right]}{\mathbf{x}^H(n)\mathbf{x}(n)} - \frac{2 \mu E\left[|r(n)|^2\right]}{\mathbf{x}^H(n)\mathbf{x}(n)}&lt;/math&gt;
+
+The optimal learning rate is found at &lt;math&gt;\frac{dE\left[ \Lambda(n+1) \right]}{d\mu} = 0 &lt;/math&gt;, which leads to:
+: &lt;math&gt;2 \mu E\left[|e(n)|^2\right] - 2 E\left[|r(n)|^2\right] = 0&lt;/math&gt;
+: &lt;math&gt;\mu = \frac{E\left[|r(n)|^2\right]}{E\left[|e(n)|^2\right]}&lt;/math&gt;
+
+== See also ==
+* [[Recursive least squares]]
+* For statistical techniques relevant to LMS filter see [[Least squares]].
+* [[Similarities between Wiener and LMS]]
+* [[Multidelay block frequency domain adaptive filter]]
+* [[Zero forcing equalizer]]
+* [[Kernel adaptive filter]]
+* [[matched filter]]
+* [[Wiener filter]]
+
+== References ==
+* Monson H. Hayes: ''Statistical Digital Signal Processing and Modeling,'' Wiley, 1996, {{ISBN|0-471-59431-8}}
+* Simon Haykin: ''Adaptive Filter Theory,'' Prentice Hall, 2002, {{ISBN|0-13-048434-2}}
+* Simon S. Haykin, Bernard Widrow (Editor): ''Least-Mean-Square Adaptive Filters,'' Wiley, 2003, {{ISBN|0-471-21570-8}}
+* Bernard Widrow, Samuel D. Stearns: ''Adaptive Signal Processing,'' Prentice Hall, 1985, {{ISBN|0-13-004029-0}}
+* Weifeng Liu, Jose Principe and Simon Haykin: ''Kernel Adaptive Filtering: A Comprehensive Introduction,'' John Wiley, 2010, {{ISBN|0-470-44753-2}}
+* Paulo S.R. Diniz: ''Adaptive Filtering: Algorithms and Practical Implementation,'' Kluwer Academic Publishers, 1997, {{ISBN|0-7923-9912-9}}
+
+== External links ==
+* [http://www.antenna-theory.com/arrays/weights/lms.php LMS Algorithm in Adaptive Antenna Arrays] www.antenna-theory.com
+* [http://www.advsolned.com/example_ale_nc.html LMS Noise cancellation demo] www.advsolned.com
+
+[[Category:Digital signal processing]]
+[[Category:Filter theory]]
+[[Category:Statistical algorithms]]</text>
+      <sha1>kh2ap8d80w2w9fxnydcbepzgrihbq5r</sha1>
+    </revision>
+  </page>
+</mediawiki>

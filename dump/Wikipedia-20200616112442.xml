@@ -1,0 +1,222 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.10/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.10/ http://www.mediawiki.org/xml/export-0.10.xsd" version="0.10" xml:lang="en">
+  <siteinfo>
+    <sitename>Wikipedia</sitename>
+    <dbname>enwiki</dbname>
+    <base>https://en.wikipedia.org/wiki/Main_Page</base>
+    <generator>MediaWiki 1.35.0-wmf.36</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Media</namespace>
+      <namespace key="-1" case="first-letter">Special</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Talk</namespace>
+      <namespace key="2" case="first-letter">User</namespace>
+      <namespace key="3" case="first-letter">User talk</namespace>
+      <namespace key="4" case="first-letter">Wikipedia</namespace>
+      <namespace key="5" case="first-letter">Wikipedia talk</namespace>
+      <namespace key="6" case="first-letter">File</namespace>
+      <namespace key="7" case="first-letter">File talk</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki talk</namespace>
+      <namespace key="10" case="first-letter">Template</namespace>
+      <namespace key="11" case="first-letter">Template talk</namespace>
+      <namespace key="12" case="first-letter">Help</namespace>
+      <namespace key="13" case="first-letter">Help talk</namespace>
+      <namespace key="14" case="first-letter">Category</namespace>
+      <namespace key="15" case="first-letter">Category talk</namespace>
+      <namespace key="100" case="first-letter">Portal</namespace>
+      <namespace key="101" case="first-letter">Portal talk</namespace>
+      <namespace key="108" case="first-letter">Book</namespace>
+      <namespace key="109" case="first-letter">Book talk</namespace>
+      <namespace key="118" case="first-letter">Draft</namespace>
+      <namespace key="119" case="first-letter">Draft talk</namespace>
+      <namespace key="446" case="first-letter">Education Program</namespace>
+      <namespace key="447" case="first-letter">Education Program talk</namespace>
+      <namespace key="710" case="first-letter">TimedText</namespace>
+      <namespace key="711" case="first-letter">TimedText talk</namespace>
+      <namespace key="828" case="first-letter">Module</namespace>
+      <namespace key="829" case="first-letter">Module talk</namespace>
+      <namespace key="2300" case="first-letter">Gadget</namespace>
+      <namespace key="2301" case="first-letter">Gadget talk</namespace>
+      <namespace key="2302" case="case-sensitive">Gadget definition</namespace>
+      <namespace key="2303" case="case-sensitive">Gadget definition talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Transcription (biology)</title>
+    <ns>0</ns>
+    <id>167544</id>
+    <revision>
+      <id>961943080</id>
+      <parentid>961942990</parentid>
+      <timestamp>2020-06-11T06:58:25Z</timestamp>
+      <contributor>
+        <username>Amitsabhadiyaj</username>
+        <id>38828841</id>
+      </contributor>
+      <comment>/* External links */</comment>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="32104" xml:space="preserve">{{about||the journal|Transcription (journal)|transcription in eukaryotes|Eukaryotic transcription}}
+{{short description|Process of copying a segment of DNA into RNA}}
+[[File:MRNA.svg|thumb|200px|Simplified diagram of mRNA synthesis and processing. Enzymes not shown.]]
+
+'''Transcription''' is the first of several steps of [[DNA]] based [[gene expression]] in which a particular segment of DNA is copied into [[RNA]] (especially [[mRNA]]) by the [[enzyme]] [[RNA polymerase]]. 
+
+Both DNA and RNA are [[nucleic acid]]s, which use [[base pair]]s of [[nucleotide]]s as a [[Complementarity (molecular biology)|complementary]] language.  During transcription, a DNA sequence is read by an RNA polymerase, which produces a complementary, [[Antiparallel (biochemistry)|antiparallel]] RNA strand called a [[primary transcript]].
+[[File:DNA Transcription cyle.jpg|alt=Key steps in transcription( mRNA synthesis) process|thumb|Key steps in transcription( mRNA synthesis) process]]
+Transcription proceeds in the following general steps:
+#RNA polymerase, together with one or more [[transcription factor|general transcription factors]], binds to [[Promoter (genetics)|promoter DNA]].
+#RNA polymerase generates a [[transcription bubble]], which separates the two strands of the DNA helix. This is done by breaking the [[hydrogen bond]]s between complementary DNA nucleotides.
+#RNA polymerase adds RNA [[nucleotides]] (which are complementary to the nucleotides of one DNA strand).
+#RNA sugar-phosphate backbone forms with assistance from RNA polymerase to form an RNA strand.
+#Hydrogen bonds of the RNA–DNA helix break, freeing the newly synthesized RNA strand.
+#If the cell has a [[Cell nucleus|nucleus]], the RNA may be further processed. This may include [[polyadenylation]], [[Five prime cap|capping]], and [[RNA splicing|splicing]].
+# The RNA may remain in the nucleus or exit to the [[cytoplasm]] through the [[nuclear pore]] complex.
+
+The stretch of DNA transcribed into an RNA molecule is called a ''transcription unit'' and encodes at least one [[gene]]. If the gene encodes a [[protein]], the transcription produces [[messenger RNA]] (mRNA); the mRNA, in turn, serves as a template for the protein's synthesis through [[translation (genetics)|translation]]. Alternatively, the transcribed gene may encode for [[non-coding RNA]] such as [[microRNA]], [[ribosomal RNA]] (rRNA), [[transfer RNA]] (tRNA), or enzymatic RNA molecules called [[ribozyme]]s.&lt;ref name="Biology"&gt;Eldra P. Solomon, Linda R. Berg, Diana W. Martin. ''Biology, 8th Edition, International Student Edition''. Thomson Brooks/Cole. {{ISBN|978-0495317142}}&lt;/ref&gt; Overall, RNA helps synthesize, regulate, and process proteins; it therefore plays a fundamental role in performing functions within a [[Cell (biology)|cell]].
+
+In [[virology]], the term may also be used when referring to mRNA synthesis from an RNA molecule (i.e., RNA replication). For instance, the [[genome]] of a negative-[[Sense (molecular biology)|sense]] single-stranded RNA (ssRNA -) virus may be template for a positive-sense single-stranded RNA (ssRNA +){{clarify|date=July 2019}}. This is because the positive-sense strand contains the information needed to translate the viral proteins for [[viral replication]] afterwards. This process is catalyzed by a viral [[RNA replicase]].&lt;ref&gt;{{cite journal | vauthors = Koonin EV, Gorbalenya AE, Chumakov KM | title = Tentative identification of RNA-dependent RNA polymerases of dsRNA viruses and their relationship to positive strand RNA viral polymerases | journal = FEBS Letters | volume = 252 | issue = 1–2 | pages = 42–6 | date = July 1989 | pmid = 2759231 | doi = 10.1016/0014-5793(89)80886-5 }}&lt;/ref&gt;{{clarify|date=May 2019|reason=the article to which RNA replicase redirects directly contrasts RNA replication with DNA transcription. Other sources treat 'RNA transcription' as the process of transcribing DNA /via/ RNA.}}
+
+== Background ==
+A DNA transcription unit encoding for a protein may contain both a ''coding sequence'', which will be translated into the protein, and ''regulatory sequences'', which direct and regulate the synthesis of that protein. The regulatory sequence before ("[[Upstream and downstream (DNA)|upstream]]" from) the coding sequence is called the [[five prime untranslated region]] (5'UTR); the sequence after ("[[Upstream and downstream (DNA)|downstream]]" from) the coding sequence is called the [[three prime untranslated region]] (3'UTR).&lt;ref name="Biology" /&gt;
+
+As opposed to [[DNA replication]], transcription results in an RNA complement that includes the nucleotide [[uracil]] (U) in all instances where [[thymine]] (T) would have occurred in a DNA complement.
+
+Only one of the two DNA strands serve as a template for transcription. The [[Sense (molecular biology)|antisense]] strand of DNA is read by RNA polymerase from the 3' end to the 5' end during transcription (3' → 5'). The complementary RNA is created in the opposite direction, in the 5' → 3' direction, matching the sequence of the sense strand with the exception of switching uracil for thymine. This directionality is because RNA polymerase can only add nucleotides to the 3' end of the growing mRNA chain. This use of only the 3' → 5' DNA strand eliminates the need for the [[Okazaki fragment]]s that are seen in DNA replication.&lt;ref name="Biology" /&gt; This also removes the need for an [[Primer (molecular biology)|RNA primer]] to initiate RNA synthesis, as is the case in DNA replication.
+
+The ''non''-template (sense) strand of DNA is called the [[coding strand]], because its sequence is the same as the newly created RNA transcript (except for the substitution of uracil for thymine). This is the strand that is used by convention when presenting a DNA sequence.&lt;ref&gt;{{cite web|url=http://www.sci.sdsu.edu/~smaloy/MicrobialGenetics/topics/chroms-genes-prots/temp-strand.html|title=DNA Strands|author=|date=|website=www.sci.sdsu.edu|accessdate=1 May 2018|url-status=live|archiveurl=https://web.archive.org/web/20171027100724/http://www.sci.sdsu.edu/~smaloy/MicrobialGenetics/topics/chroms-genes-prots/temp-strand.html|archivedate=27 October 2017|df=}}&lt;/ref&gt;
+
+Transcription has some proofreading mechanisms, but they are fewer and less effective than the controls for copying DNA. As a result, transcription has a lower copying fidelity than DNA replication.&lt;ref name="Stryer_2006"&gt;{{cite book |vauthors=Berg J, Tymoczko JL, Stryer L | title=Biochemistry | publisher=W. H. Freeman | edition=6th | location=San Francisco | year=2006 | isbn=0-7167-8724-5 }}&lt;/ref&gt; &lt;!-- page 788 in 5th edition --&gt;
+
+== Major steps ==
+{{further|Bacterial transcription|Eukaryotic transcription}}
+
+Transcription is divided into ''initiation'', ''promoter escape'', ''elongation,'' and ''termination''.&lt;ref name="MBOG"&gt;{{cite book |vauthors=Watson JD, Baker TA, Bell SP, Gann AA, Levine M, Losick RM | title=Molecular Biology of the Gene | publisher=Pearson | edition=7th | year=2013}}&lt;/ref&gt;
+
+=== Initiation ===
+
+Transcription begins with the binding of RNA polymerase, together with one or more [[transcription factor|general transcription factors]], to a specific DNA sequence referred to as a "[[promoter (biology)|promoter]]" to form an RNA polymerase-promoter "closed complex". In the "closed complex" the promoter DNA is still fully double-stranded.&lt;ref name="MBOG"/&gt;
+
+RNA polymerase, assisted by one or more general transcription factors, then unwinds approximately 14 base pairs of DNA to form an RNA polymerase-promoter "open complex". In the "open complex" the promoter DNA is partly unwound and single-stranded. The exposed, single-stranded DNA is referred to as the "transcription bubble."&lt;ref name="MBOG"/&gt;
+
+RNA polymerase, assisted by one or more general transcription factors, then selects a '''transcription start site''' in the transcription bubble, binds to an initiating [[Nucleoside triphosphate|NTP]] and an extending [[Nucleoside triphosphate|NTP]] (or a short RNA [[Primer (molecular biology)|primer]] and an extending NTP) complementary to the transcription start site sequence, and catalyzes bond formation to yield an initial RNA product.&lt;ref name="MBOG"/&gt;
+
+In [[bacteria]], RNA polymerase [[holoenzyme]] consists of five subunits: 2 α subunits, 1 β subunit, 1 β' subunit, and 1 ω subunit. In bacteria, there is one general RNA transcription factor known as a [[sigma factor]]. RNA polymerase core enzyme binds to the bacterial general transcription (sigma) factor to form RNA polymerase holoenzyme and then binds to a promoter.&lt;ref name="MBOG"/&gt;
+(RNA polymerase is called a holoenzyme when sigma subunit is attached to the core enzyme which is consist of 2 α subunits, 1 β subunit, 1 β' subunit only).
+
+In [[archaea]] and [[eukaryotes]], RNA polymerase contains subunits [[Sequence homology|homologous]] to each of the five RNA polymerase subunits in bacteria and also contains additional subunits. In archaea and eukaryotes, the functions of the bacterial general transcription factor sigma are performed by multiple general transcription factors that work together.&lt;ref name="MBOG"/&gt; In archaea, there are three general transcription factors: [[TATA-binding protein|TBP]], [[Archaeal transcription factor B|TFB]], and [[2,2,2-Trifluoroethanol|TFE]]. In eukaryotes, in [[RNA polymerase II]]-dependent transcription, there are six general transcription factors: [[TFIIA]], [[TFIIB]] (an [[orthologous|ortholog]] of archaeal TFB), [[TFIID]] (a multisubunit factor in which the key subunit, [[TATA-binding protein|TBP]], is an [[orthologous|ortholog]] of archaeal TBP), [[TFIIE]] (an [[orthologous|ortholog]] of archaeal TFE), [[TFIIF]], and [[TFIIH]]. The TFIID is the first component to bind to DNA due to binding of TBP, while TFIIH is the last component to be recruited. In archaea and eukaryotes, the RNA polymerase-promoter closed complex is usually referred to as the "[[Transcription preinitiation complex|preinitiation complex]]."&lt;ref name="Roeder1991"&gt;{{cite journal|last1=Roeder|first1=Robert G.|title=The complexities of eukaryotic transcription initiation: regulation of preinitiation complex assembly|journal=Trends in Biochemical Sciences|volume=16|year=1991|issue=11|pages=402–408|issn=0968-0004|doi=10.1016/0968-0004(91)90164-Q|pmid=1776168}}&lt;/ref&gt;
+
+Transcription initiation is regulated by additional proteins, known as [[activator (genetics)|activators]] and [[repressor]]s, and, in some cases, associated [[coactivator]]s or [[coactivator|corepressors]], which modulate formation and function of the transcription initiation complex.&lt;ref name="MBOG"/&gt;
+
+{{anchor|Promoter clearance}}
+
+=== Promoter escape ===
+
+After the first bond is synthesized, the RNA polymerase must escape the promoter.  During this time there is a tendency to release the RNA transcript and produce truncated transcripts.  This is called [[abortive initiation]], and is common for both eukaryotes and prokaryotes.&lt;ref&gt;{{cite journal | vauthors = Goldman SR, Ebright RH, Nickels BE | title = Direct detection of abortive RNA transcripts in vivo | journal = Science | volume = 324 | issue = 5929 | pages = 927–8 | date = May 2009 | pmid = 19443781 | pmc = 2718712 | doi = 10.1126/science.1169237 | bibcode = 2009Sci...324..927G | authorlink2 = Richard H. Ebright }}&lt;/ref&gt; Abortive initiation continues to occur until an RNA product of a threshold length of approximately 10 nucleotides is synthesized, at which point promoter escape occurs and a transcription elongation complex is formed.
+
+Mechanistically, promoter escape occurs through [[DNA scrunching]], providing the energy needed to break interactions between RNA polymerase holoenzyme and the promoter.&lt;ref&gt;{{cite journal | vauthors = Revyakin A, Liu C, Ebright RH, Strick TR | title = Abortive initiation and productive initiation by RNA polymerase involve DNA scrunching | journal = Science | volume = 314 | issue = 5802 | pages = 1139–43 | date = November 2006 | pmid = 17110577 | pmc = 2754787 | doi = 10.1126/science.1131398 | bibcode = 2006Sci...314.1139R }}&lt;/ref&gt;
+
+In bacteria, it was historically thought that the [[sigma factor]] is definitely released after promoter clearance occurs. This theory had been known as the ''obligate release model'' however later data showed that upon and following promoter clearance, the sigma factor is released according to a [[stochastic process|stochastic model]] known as the ''stochastic release model''.&lt;ref&gt;{{cite journal | vauthors = Raffaelle M, Kanin EI, Vogt J, Burgess RR, Ansari AZ | title = Holoenzyme switching and stochastic release of sigma factors from RNA polymerase in vivo | journal = Molecular Cell | volume = 20 | issue = 3 | pages = 357–66 | date = November 2005 | pmid = 16285918 | pmc =  | doi = 10.1016/j.molcel.2005.10.011 }}&lt;/ref&gt;
+
+In eukaryotes, at an RNA polymerase II-dependent promoter, upon promoter clearance, TFIIH phosphorylates serine 5 on the carboxy terminal domain of RNA polymerase II, leading to the recruitment of capping enzyme (CE).&lt;ref&gt;{{cite journal | vauthors = Mandal SS, Chu C, Wada T, Handa H, Shatkin AJ, Reinberg D | title = Functional interactions of RNA-capping enzyme with factors that positively and negatively regulate promoter escape by RNA polymerase II | journal = Proceedings of the National Academy of Sciences of the United States of America | volume = 101 | issue = 20 | pages = 7572–7 | date = May 2004 | pmid = 15136722 | pmc = 419647 | doi = 10.1073/pnas.0401493101 | bibcode = 2004PNAS..101.7572M }}&lt;/ref&gt;&lt;ref&gt;{{cite journal | vauthors = Goodrich JA, Tjian R | title = Transcription factors IIE and IIH and ATP hydrolysis direct promoter clearance by RNA polymerase II | journal = Cell | volume = 77 | issue = 1 | pages = 145–56 | date = April 1994 | pmid = 8156590 | doi = 10.1016/0092-8674(94)90242-9 }}&lt;/ref&gt; The exact mechanism of how CE induces promoter clearance in eukaryotes is not yet known.
+
+=== Elongation ===
+[[File:Simple transcription elongation1.svg|thumb|400px|Simple diagram of transcription elongation]]
+
+One strand of the DNA, the ''template strand'' (or noncoding strand), is used as a template for RNA synthesis.  As transcription proceeds, RNA polymerase traverses the template strand and uses base pairing complementarity with the DNA template to create an RNA copy (which elongates during the traversal).  Although RNA polymerase traverses the template strand from 3' → 5', the coding (non-template) strand and newly formed RNA can also be used as reference points, so transcription can be described as occurring 5' → 3'.  This produces an RNA molecule from 5' → 3', an exact copy of the coding strand (except that [[thymine]]s are replaced with [[uracil]]s, and the nucleotides are composed of a ribose (5-carbon) sugar where DNA has deoxyribose (one fewer oxygen atom) in its sugar-phosphate backbone).{{citation needed|date=January 2011}}
+
+mRNA transcription can involve multiple RNA polymerases on a single DNA template and multiple rounds of transcription (amplification of particular mRNA), so many mRNA molecules can be rapidly produced from a single copy of a gene.{{citation needed|date=January 2011}} The characteristic elongation rates in prokaryotes and eukaryotes are about 10-100 nts/sec.&lt;ref&gt;{{cite web|url= http://book.bionumbers.org/what-is-faster-transcription-or-translation/|title= Cell Biology by the Numbers: What is faster, transcription or translation?|website= book.bionumbers.org|first1= Ron|last1= Milo|first2= Rob|last2= Philips|accessdate= 8 March 2017|url-status= live|archiveurl= https://web.archive.org/web/20170420104945/http://book.bionumbers.org/what-is-faster-transcription-or-translation/|archivedate= 20 April 2017|df= }}&lt;/ref&gt; In eukaryotes, however, [[nucleosome]]s act as major barriers to transcribing polymerases during transcription elongation.&lt;ref&gt;{{cite journal | vauthors = Hodges C, Bintu L, Lubkowska L, Kashlev M, Bustamante C | title = Nucleosomal fluctuations govern the transcription dynamics of RNA polymerase II | journal = Science | volume = 325 | issue = 5940 | pages = 626–8 | date = July 2009 | pmid = 19644123 | pmc = 2775800 | doi = 10.1126/science.1172926| bibcode = 2009Sci...325..626H }}&lt;/ref&gt;&lt;ref name=":0" /&gt; In these organisms, the pausing induced by nucleosomes can be regulated by transcription elongation factors such as TFIIS.&lt;ref name=":0"&gt;{{cite journal |date=2016 |title=Nucleosomal arrangement affects single-molecule transcription dynamics |journal=Proceedings of the National Academy of Sciences |volume=113 |issue=45 |pages=12733–12738 |vauthors=Fitz V, Shin J, Ehrlich C, Farnung L, Cramer P, Zaburdaev V, Grill SW |df= |pmc=5111697 |doi=10.1073/pnas.1602764113 |pmid=27791062}}&lt;/ref&gt;
+
+Elongation also involves a proofreading mechanism that can replace incorrectly incorporated bases. In eukaryotes, this may correspond with short pauses during transcription that allow appropriate RNA editing factors to bind. These pauses may be intrinsic to the RNA polymerase or due to chromatin structure.{{cn|date=October 2019}}
+
+=== Termination ===
+{{main|Terminator (genetics)}}
+
+Bacteria use two different strategies for transcription termination – Rho-independent termination and Rho-dependent termination. In [[Rho-independent transcription termination]], RNA transcription stops when the newly synthesized RNA molecule forms a G-C-rich [[hairpin loop]] followed by a run of Us. When the hairpin forms, the mechanical stress breaks the weak rU-dA bonds, now filling the DNA–RNA hybrid.  This pulls the poly-U transcript out of the active site of the RNA polymerase, terminating transcription. In the "Rho-dependent" type of termination, a protein factor called "[[Rho factor|Rho]]" destabilizes the interaction between the template and the mRNA, thus releasing the newly synthesized mRNA from the elongation complex.&lt;ref&gt;{{cite journal | vauthors = Richardson JP | title = Rho-dependent termination and ATPases in transcript termination | journal = Biochimica et Biophysica Acta (BBA) - Gene Structure and Expression | volume = 1577 | issue = 2 | pages = 251–260 | date = September 2002 | pmid = 12213656 | doi = 10.1016/S0167-4781(02)00456-6 }}&lt;/ref&gt;
+
+Transcription termination in eukaryotes is less well understood than in bacteria, but involves cleavage of the new transcript followed by template-independent addition of adenines at its new 3' end, in a process called [[polyadenylation]].&lt;ref&gt;{{cite journal | vauthors = Lykke-Andersen S, Jensen TH | title = Overlapping pathways dictate termination of RNA polymerase II transcription | journal = Biochimie | volume = 89 | issue = 10 | pages = 1177–82 | date = October 2007 | pmid = 17629387 | doi = 10.1016/j.biochi.2007.05.007 }}&lt;/ref&gt;
+
+== Inhibitors ==
+
+Transcription inhibitors can be used as [[antibiotic]]s against, for example, [[pathogenic bacteria]] ([[antibacterial]]s) and [[fungus|fungi]] ([[antifungal medication|antifungals]]). An example of such an antibacterial is [[rifampicin]], which inhibits [[bacterial transcription]] of DNA into mRNA by inhibiting DNA-dependent [[RNA polymerase]] by binding its beta-subunit, while [[8-Hydroxyquinoline|8-hydroxyquinoline]] is an antifungal transcription inhibitor.&lt;ref&gt;[http://www.sigmaaldrich.com/catalog/ProductDetail.do?D7=0&amp;N5=SEARCH_CONCAT_PNO%7CBRAND_KEY&amp;N4=H6878%7CSIAL&amp;N25=0&amp;QS=ON&amp;F=SPEC 8-Hydroxyquinoline info] from SIGMA-ALDRICH. Retrieved Feb 2012&lt;/ref&gt; The effects of [[histone methylation]] may also work to inhibit the action of transcription.
+
+==Endogenous inhibitors==
+{{main|Regulation of transcription in cancer}}
+
+In vertebrates, the majority of gene [[Promoter (genetics)#CpG islands in promoters|promoters]] contain a [[CpG site#CpG islands|CpG island]] with numerous [[CpG site]]s.&lt;ref name="pmid16432200"&gt;{{cite journal | vauthors = Saxonov S, Berg P, Brutlag DL | title = A genome-wide analysis of CpG dinucleotides in the human genome distinguishes two distinct classes of promoters | journal = Proceedings of the National Academy of Sciences of the United States of America | volume = 103 | issue = 5 | pages = 1412–7 | date = January 2006 | pmid = 16432200 | pmc = 1345710 | doi = 10.1073/pnas.0510310103 | bibcode = 2006PNAS..103.1412S }}&lt;/ref&gt;  When many of a gene's promoter CpG sites are [[DNA methylation|methylated]] the gene becomes inhibited (silenced).&lt;ref name=Bird&gt;{{cite journal | vauthors = Bird A | title = DNA methylation patterns and epigenetic memory | journal = Genes &amp; Development | volume = 16 | issue = 1 | pages = 6–21 | date = January 2002 | pmid = 11782440 | doi = 10.1101/gad.947102 | doi-access = free }}&lt;/ref&gt;  Colorectal cancers typically have 3 to 6 [[Somatic evolution in cancer#Glossary|driver]] mutations and 33 to 66 [[Genetic hitchhiking|hitchhiker]] or passenger mutations.&lt;ref name="pmid23539594"&gt;{{cite journal | vauthors = Vogelstein B, Papadopoulos N, Velculescu VE, Zhou S, Diaz LA, Kinzler KW | title = Cancer genome landscapes | journal = Science | volume = 339 | issue = 6127 | pages = 1546–58 | date = March 2013 | pmid = 23539594 | pmc = 3749880 | doi = 10.1126/science.1235122 | bibcode = 2013Sci...339.1546V }}&lt;/ref&gt;   However, transcriptional inhibition (silencing) may be of more importance than mutation in causing progression to cancer.  For example, in colorectal cancers about 600 to 800 genes are transcriptionally inhibited by CpG island methylation (see [[regulation of transcription in cancer]]).  Transcriptional repression in cancer can also occur by other [[Cancer epigenetics|epigenetic]] mechanisms, such as altered expression of [[MicroRNA#DNA repair and cancer|microRNAs]].&lt;ref name="pmid24616890"&gt;{{cite journal | vauthors = Tessitore A, Cicciarelli G, Del Vecchio F, Gaggiano A, Verzella D, Fischietti M, Vecchiotti D, Capece D, Zazzeroni F, Alesse E | title = MicroRNAs in the DNA Damage/Repair Network and Cancer | journal = International Journal of Genomics | volume = 2014 | issue =  | pages = 820248 | year = 2014 | pmid = 24616890 | pmc = 3926391 | doi = 10.1155/2014/820248 }}&lt;/ref&gt;  In breast cancer, transcriptional repression of [[BRCA1]] may occur more frequently by over-expressed microRNA-182 than by hypermethylation of the BRCA1 promoter (see [[BRCA1#Low expression of BRCA1 in breast and ovarian cancers|Low expression of BRCA1 in breast and ovarian cancers]]).
+
+== Transcription factories ==
+{{main|Transcription factories}}
+
+Active transcription units are clustered in the nucleus, in discrete sites called [[transcription factories]] or [[euchromatin]]. Such sites can be visualized by allowing engaged polymerases to extend their transcripts in tagged precursors (Br-UTP or Br-U) and immuno-labeling the tagged nascent RNA. Transcription factories can also be localized using fluorescence in situ hybridization or marked by antibodies directed against polymerases. There are ~10,000 factories in the nucleoplasm of a [[HeLa cell]], among which are ~8,000 polymerase II factories and ~2,000 polymerase III factories. Each polymerase II factory contains ~8 polymerases. As most active transcription units are associated with only one polymerase, each factory usually contains ~8 different transcription units. These units might be associated through promoters and/or enhancers, with loops forming a "cloud" around the factor.&lt;ref&gt;{{cite journal | vauthors = Papantonis A, Kohro T, Baboo S, Larkin JD, Deng B, Short P, Tsutsumi S, Taylor S, Kanki Y, Kobayashi M, Li G, Poh HM, Ruan X, Aburatani H, Ruan Y, Kodama T, Wada Y, Cook PR | title = TNFα signals through specialized factories where responsive coding and miRNA genes are transcribed | journal = The EMBO Journal | volume = 31 | issue = 23 | pages = 4404–14 | date = November 2012 | pmid = 23103767 | pmc = 3512387 | doi = 10.1038/emboj.2012.288 | citeseerx = 10.1.1.919.1919 }}&lt;/ref&gt;
+
+== History ==
+A molecule that allows the genetic material to be realized as a protein was first hypothesized by [[François Jacob]] and [[Jacques Monod]]. [[Severo Ochoa]] won a [[Nobel Prize in Physiology or Medicine]] in 1959 for developing a process for synthesizing RNA ''[[in vitro]]'' with [[polynucleotide phosphorylase]], which was useful for cracking the [[genetic code]]. RNA synthesis by [[RNA polymerase]] was established ''in vitro'' by several laboratories by 1965; however, the RNA synthesized by these enzymes had properties that suggested the existence of an additional factor needed to terminate transcription correctly.{{citation needed|date=January 2011}}
+
+In 1972, [[Walter Fiers]] became the first person to actually prove the existence of the terminating enzyme.
+
+[[Roger D. Kornberg]] won the 2006 [[Nobel Prize in Chemistry]] "for his studies of the molecular basis of [[eukaryotic transcription]]".&lt;ref&gt;{{cite web|url=http://nobelprize.org/nobel_prizes/chemistry/laureates/2006/|title=Chemistry 2006|work=Nobel Foundation|accessdate=March 29, 2007|url-status=live|archiveurl=https://web.archive.org/web/20070315222401/http://nobelprize.org/nobel_prizes/chemistry/laureates/2006/|archivedate=March 15, 2007|df=}}&lt;/ref&gt;
+
+== Measuring and detecting ==
+[[File:Transcription label en.jpg|thumb|
+[[Electron micrograph]] of transcription of ribosomal RNA.  The forming [[ribosomal RNA]] strands are visible as branches from the main DNA strand.{{citation needed|date=January 2011}}
+]]
+
+Transcription can be measured and detected in a variety of ways:{{citation needed|date=January 2011}}
+* [[G-Less Cassette]] transcription assay: measures promoter strength
+* [[Run-off transcription]] assay: identifies transcription start sites (TSS)
+* [[Nuclear run-on]] assay: measures the relative abundance of newly formed transcripts
+* [[RNase protection assay]] and [[ChIP-Chip]] of [[RNAP]]: detect active transcription sites
+* [[RT-PCR]]: measures the absolute abundance of total or nuclear RNA levels, which may however differ from transcription rates
+* [[DNA microarrays]]: measures the relative abundance of the global total or nuclear RNA levels; however, these may differ from transcription rates
+* [[In situ hybridization]]: detects the presence of a transcript
+* [[MS2 tagging]]: by incorporating RNA [[Stem-loop|stem loops]], such as MS2, into a gene, these become incorporated into newly synthesized RNA. The stem loops can then be detected using a fusion of GFP and the MS2 coat protein, which has a high affinity, sequence-specific interaction with the MS2 stem loops. The recruitment of GFP to the site of transcription is visualized as a single fluorescent spot. This new approach has revealed that transcription occurs in discontinuous bursts, or pulses (see [[Transcriptional bursting]]). With the notable exception of in situ techniques, most other methods provide cell population averages, and are not capable of detecting this fundamental property of genes.&lt;ref&gt;{{cite journal | vauthors = Raj A, van Oudenaarden A | title = Nature, nurture, or chance: stochastic gene expression and its consequences | journal = Cell | volume = 135 | issue = 2 | pages = 216–26 | date = October 2008 | pmid = 18957198 | pmc = 3118044 | doi = 10.1016/j.cell.2008.09.050 }}&lt;/ref&gt;
+* [[Northern blot]]: the traditional method, and until the advent of [[RNA-Seq]], the most quantitative
+* [[RNA-Seq]]: applies next-generation sequencing techniques to sequence whole [[transcriptome]]s, which allows the measurement of relative abundance of RNA, as well as the detection of additional variations such as fusion genes, post-transcriptional edits and novel splice sites
+*[[Single-cell RNA-sequencing|Single cell RNA-Seq]]: amplifies and reads partial transcriptomes from isolated cells, allowing for detailed analyses of RNA in tissues, embryos, and cancers
+
+== Reverse transcription ==
+[[File:RetroTranscription.jpg|thumb|right|300px|Scheme of [[reverse transcription]]]]
+{{main|Reverse transcription}}
+
+Some [[viruses]] (such as [[HIV]], the cause of [[AIDS]]), have the ability to transcribe RNA into DNA. HIV has an RNA genome that is ''reverse transcribed'' into DNA. The resulting DNA can be merged with the DNA genome of the host cell. The main enzyme responsible for synthesis of DNA from an RNA template is called [[reverse transcriptase]].
+
+In the case of HIV, reverse transcriptase is responsible for synthesizing a [[complementary DNA]] strand (cDNA) to the viral RNA genome. The enzyme [[ribonuclease H]] then digests the RNA strand, and reverse transcriptase synthesises a complementary strand of DNA to form a double helix DNA structure ("cDNA"). The cDNA is integrated into the host cell's genome by the enzyme [[integrase]], which causes the host cell to generate viral proteins that reassemble into new viral particles.  In HIV, subsequent to this, the host cell undergoes programmed cell death, or [[apoptosis]] of [[T cell]]s.&lt;ref&gt;{{cite web | url =http://www.dissercat.com/content/nekotorye-osobennosti-mekhanizmov-apoptoza-pri-vich-infektsii | title =Some patterns of apoptosis mechanism during HIV-infection | vauthors =Kolesnikova IN | date =2000 | work =Dissertation | accessdate =February 20, 2011 | language =ru | url-status =live | archiveurl =https://web.archive.org/web/20110710133716/http://www.dissercat.com/content/nekotorye-osobennosti-mekhanizmov-apoptoza-pri-vich-infektsii | archivedate =July 10, 2011 | df = }}&lt;/ref&gt;  However, in other retroviruses, the host cell remains intact as the virus buds out of the cell.
+
+Some eukaryotic cells contain an enzyme with reverse transcription activity called [[telomerase]].  Telomerase is a reverse transcriptase that lengthens the ends of linear chromosomes. Telomerase carries an RNA template from which it synthesizes a repeating sequence of DNA, or "junk" DNA. This repeated sequence of DNA is called a [[telomere]] and can be thought of as a "cap" for a chromosome. It is important because every time a linear chromosome is duplicated, it is shortened. With this "junk" DNA or "cap" at the ends of chromosomes, the shortening eliminates some of the non-essential, repeated sequence rather than the protein-encoding DNA sequence, that is farther away from the chromosome end.
+
+Telomerase is often activated in cancer cells to enable cancer cells to duplicate their genomes indefinitely without losing important protein-coding DNA sequence. Activation of telomerase could be part of the process that allows cancer cells to become ''immortal''. The immortalizing factor of cancer via telomere lengthening due to telomerase has been proven to occur in 90% of all carcinogenic tumors ''[[in vivo]]'' with the remaining 10% using an alternative telomere maintenance route called ALT or Alternative Lengthening of Telomeres.&lt;ref name="pmid20351727"&gt;{{cite journal | vauthors = Cesare AJ, Reddel RR | title = Alternative lengthening of telomeres: models, mechanisms and implications | journal = Nature Reviews Genetics | volume = 11 | issue = 5 | pages = 319–30 | date = May 2010 | pmid = 20351727 | doi = 10.1038/nrg2763 }}&lt;/ref&gt;
+{{clear}}
+
+== See also ==
+
+* [[Crick's central dogma]], in which the product of transcription, mRNA, is [[Translation (genetics)|translated]] to form [[polypeptide]]s, and where it is asserted that the reverse processes never occur
+* [[Gene regulation]]
+* [[Long non-coding RNA]]
+* [[Missense mRNA]]
+* [[splicing (genetics)|Splicing]] - process of removing [[intron]]s from precursor messenger RNA ([[pre-mRNA]]) to make messenger RNA ([[mRNA]])
+* [[Transcriptomics]]
+* [[Translation (biology)]]
+
+== References ==
+{{Reflist|30em}}
+
+== External links ==
+{{Commons category|Transcription (genetics)}}
+*[http://highered.mcgraw-hill.com/sites/dl/free/0072437316/120060/ravenanimation.html Biology animations about this topic under Chapter 15 and Chapter 18]
+* [http://vcell.ndsu.nodak.edu/animations/transcription/index.htm Virtual Cell Animation Collection, Introducing Transcription]
+* [http://dnatorna.com Easy to use DNA transcription site]
+*[https://www.microblife.in/transcription-dna-transcription/ Transcription step by step process with infographics] 
+{{MolBioGeneExp}}
+{{Transcription}}
+
+{{Authority control}}
+
+{{DEFAULTSORT:Transcription (Genetics)}}
+[[Category:Gene expression]]
+[[Category:Molecular biology]]</text>
+      <sha1>r37cf5kghsg0e4x31587b1xpirhmclf</sha1>
+    </revision>
+  </page>
+</mediawiki>

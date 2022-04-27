@@ -1,0 +1,277 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.10/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.10/ http://www.mediawiki.org/xml/export-0.10.xsd" version="0.10" xml:lang="en">
+  <siteinfo>
+    <sitename>Wikipedia</sitename>
+    <dbname>enwiki</dbname>
+    <base>https://en.wikipedia.org/wiki/Main_Page</base>
+    <generator>MediaWiki 1.35.0-wmf.36</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Media</namespace>
+      <namespace key="-1" case="first-letter">Special</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Talk</namespace>
+      <namespace key="2" case="first-letter">User</namespace>
+      <namespace key="3" case="first-letter">User talk</namespace>
+      <namespace key="4" case="first-letter">Wikipedia</namespace>
+      <namespace key="5" case="first-letter">Wikipedia talk</namespace>
+      <namespace key="6" case="first-letter">File</namespace>
+      <namespace key="7" case="first-letter">File talk</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki talk</namespace>
+      <namespace key="10" case="first-letter">Template</namespace>
+      <namespace key="11" case="first-letter">Template talk</namespace>
+      <namespace key="12" case="first-letter">Help</namespace>
+      <namespace key="13" case="first-letter">Help talk</namespace>
+      <namespace key="14" case="first-letter">Category</namespace>
+      <namespace key="15" case="first-letter">Category talk</namespace>
+      <namespace key="100" case="first-letter">Portal</namespace>
+      <namespace key="101" case="first-letter">Portal talk</namespace>
+      <namespace key="108" case="first-letter">Book</namespace>
+      <namespace key="109" case="first-letter">Book talk</namespace>
+      <namespace key="118" case="first-letter">Draft</namespace>
+      <namespace key="119" case="first-letter">Draft talk</namespace>
+      <namespace key="446" case="first-letter">Education Program</namespace>
+      <namespace key="447" case="first-letter">Education Program talk</namespace>
+      <namespace key="710" case="first-letter">TimedText</namespace>
+      <namespace key="711" case="first-letter">TimedText talk</namespace>
+      <namespace key="828" case="first-letter">Module</namespace>
+      <namespace key="829" case="first-letter">Module talk</namespace>
+      <namespace key="2300" case="first-letter">Gadget</namespace>
+      <namespace key="2301" case="first-letter">Gadget talk</namespace>
+      <namespace key="2302" case="case-sensitive">Gadget definition</namespace>
+      <namespace key="2303" case="case-sensitive">Gadget definition talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Triple product</title>
+    <ns>0</ns>
+    <id>978650</id>
+    <revision>
+      <id>955594896</id>
+      <parentid>938270224</parentid>
+      <timestamp>2020-05-08T17:47:53Z</timestamp>
+      <contributor>
+        <username>Intellec7</username>
+        <id>12973350</id>
+      </contributor>
+      <comment>I think this is either incorrect or unclear.</comment>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="17532" xml:space="preserve">{{about|ternary operations on vectors|the identity in number theory|Jacobi triple product|the calculus chain rule for three interdependent variables|Triple product rule|the product in nuclear fusion|Lawson criterion}}
+
+In [[vector algebra]], a branch of [[mathematics]], the '''triple product''' is a product of three 3-[[dimension (vector space)|dimensional]] vectors, usually [[Euclidean vector]]s. The name "triple product" is used for two different products, the scalar-valued '''scalar triple product''' and, less often, the vector-valued '''vector triple product'''.
+
+== Scalar triple product ==
+[[Image:Parallelepiped volume.svg|right|thumb|240px|Three vectors defining a parallelepiped]]
+
+The '''scalar triple product''' (also called the '''mixed product''', '''box product''', or '''triple scalar product''') is defined as the [[dot product]] of one of the vectors with the [[cross product]] of the other two.
+
+=== Geometric interpretation ===
+Geometrically, the scalar triple product
+:&lt;math&gt; \mathbf{a}\cdot(\mathbf{b}\times \mathbf{c}) &lt;/math&gt;
+is the (signed) [[volume]] of the [[parallelepiped]] defined by the three vectors given. Here, the parentheses may be omitted without causing ambiguity, since the dot product cannot be evaluated first. If it were, it would leave the cross product of a scalar and a vector, which is not defined.
+
+=== Properties ===
+* The scalar triple product is unchanged under a [[circular shift]] of its three operands ('''a''', '''b''', '''c'''):
+*:&lt;math&gt;
+  \mathbf{a}\cdot(\mathbf{b}\times \mathbf{c})=
+  \mathbf{b}\cdot(\mathbf{c}\times \mathbf{a}) =
+  \mathbf{c}\cdot(\mathbf{a}\times \mathbf{b})
+&lt;/math&gt;
+* Swapping the positions of the operators without re-ordering the operands leaves the triple product unchanged. This follows from the preceding property and the commutative property of the dot product.
+*:&lt;math&gt;
+   \mathbf{a}\cdot (\mathbf{b}\times \mathbf{c}) =
+  (\mathbf{a}\times \mathbf{b})\cdot \mathbf{c}
+&lt;/math&gt;
+* Swapping any two of the three operands [[additive inverse|negates]] the triple product. This follows from the circular-shift property and the [[anticommutativity]] of the cross product.
+*:&lt;math&gt;\begin{align}
+          &amp;\mathbf{a}\cdot(\mathbf{b}\times \mathbf{c}) \\
+  = -&amp;\mathbf{a}\cdot(\mathbf{c}\times \mathbf{b}) \\
+  = -&amp;\mathbf{b}\cdot(\mathbf{a}\times \mathbf{c}) \\
+  = -&amp;\mathbf{c}\cdot(\mathbf{b}\times \mathbf{a})
+\end{align}&lt;/math&gt;
+* The scalar triple product can also be understood as the [[determinant]] of the {{gaps|3|×|3}} matrix that has the three vectors either as its rows or its columns (a matrix has the same determinant as its [[transpose]]):
+*:&lt;math&gt;\mathbf{a}\cdot(\mathbf{b}\times \mathbf{c}) = \det \begin{bmatrix}
+  a_1 &amp; a_2 &amp; a_3 \\
+  b_1 &amp; b_2 &amp; b_3 \\
+  c_1 &amp; c_2 &amp; c_3 \\
+\end{bmatrix}={\rm det}\left(\mathbf{a},\mathbf{b},\mathbf{c}\right) .&lt;/math&gt;
+* If the scalar triple product is equal to zero, then the three vectors '''a''', '''b''', and '''c''' are [[coplanar]], since the parallelepiped defined by them would be flat and have no volume.
+* If any two vectors in the scalar triple product are equal, then its value is zero:
+*:&lt;math&gt;
+  \mathbf{a} \cdot (\mathbf{a} \times \mathbf{b}) =
+  \mathbf{a} \cdot (\mathbf{b} \times \mathbf{a}) =
+  \mathbf{a} \cdot (\mathbf{b} \times \mathbf{b}) =
+  \mathbf{b} \cdot (\mathbf{a} \times \mathbf{a}) = 0
+&lt;/math&gt;
+* Moreover,
+*:&lt;math&gt;
+  (\mathbf{a}\cdot(\mathbf{b}\times \mathbf{c})) \mathbf{a} =
+  (\mathbf{a}\times \mathbf{b})\times (\mathbf{a}\times \mathbf{c})
+&lt;/math&gt;
+* The [[multiplication|simple product]] of two triple products (or the square of a triple product), may be expanded in terms of dot products:&lt;ref name="Wong"&gt;
+ {{cite book
+  |title=Introduction to Mathematical Physics: Methods &amp; Concepts
+  |first=Chun Wa
+  |last=Wong
+  |publisher=Oxford University Press
+  |isbn=9780199641390
+  |year=2013
+  |pages=215
+  |url=https://books.google.co.uk/books?id=JePI32FCqBYC&amp;pg=PA215#v=onepage&amp;f=true
+ }}&lt;/ref&gt;{{paragraph break}}{{glossary}}{{defn|&lt;math&gt;((\mathbf{a}\times \mathbf{b}) \cdot \mathbf{c})\;((\mathbf{d} \times \mathbf{e}) \cdot \mathbf{f}) =
+  \det\left[ \begin{pmatrix}
+    \mathbf{a} \\
+    \mathbf{b} \\
+    \mathbf{c}
+  \end{pmatrix} \cdot \begin{pmatrix}
+    \mathbf{d} &amp; \mathbf{e} &amp; \mathbf{f}
+  \end{pmatrix}\right] =
+  \det \begin{bmatrix}
+    \mathbf{a}\cdot \mathbf{d} &amp; \mathbf{a}\cdot \mathbf{e} &amp; \mathbf{a}\cdot \mathbf{f} \\
+    \mathbf{b}\cdot \mathbf{d} &amp; \mathbf{b}\cdot \mathbf{e} &amp; \mathbf{b}\cdot \mathbf{f} \\
+    \mathbf{c}\cdot \mathbf{d} &amp; \mathbf{c}\cdot \mathbf{e} &amp; \mathbf{c}\cdot \mathbf{f}
+  \end{bmatrix}
+&lt;/math&gt;}}{{glossary end}}{{paragraph break}}This restates in vector notation that the product of the determinants of two 3&amp;times;3 matrices equals the determinant of their matrix product. As a special case, the square of a triple product is a [[Gram determinant]].
+
+===Scalar or pseudoscalar===
+Although the scalar triple product gives the volume of the parallelepiped, it is the signed volume, the sign depending on the [[orientation (vector space)|orientation]] of the frame or the [[parity of a permutation|parity of the permutation]] of the vectors. This means the product is negated if the orientation is reversed, for example by a [[parity transformation]], and so is more properly described as a [[pseudoscalar]] if the orientation can change.
+
+This also relates to the [[cross product#Cross product and handedness|handedness of the cross product]]; the cross product transforms as a [[pseudovector]] under parity transformations and so is properly described as a pseudovector. The dot product of two vectors is a scalar but the dot product of a pseudovector and a vector is a pseudoscalar, so the scalar triple product must be pseudoscalar-valued.
+
+If '''T''' is a [[rotation (mathematics)|rotation operator]], then
+:&lt;math&gt;
+\mathbf{Ta} \cdot (\mathbf{Tb} \times \mathbf{Tc}) =
+\mathbf{a} \cdot (\mathbf{b} \times \mathbf{c}),
+&lt;/math&gt;
+but if '''T''' is an [[improper rotation]], then
+:&lt;math&gt;
+\mathbf{Ta} \cdot (\mathbf{Tb} \times \mathbf{Tc}) =
+-\mathbf{a} \cdot (\mathbf{b} \times \mathbf{c}).
+&lt;/math&gt;
+
+===As an exterior product===
+[[Image:Exterior calc triple product.svg|thumb|right|The three vectors spanning a parallelepiped have triple product equal to its volume.]]
+In [[exterior algebra]] and [[geometric algebra]] the exterior product of two vectors is a [[bivector]], while the exterior product of three vectors is a [[trivector]]. A bivector is an oriented plane element and a trivector is an oriented volume element, in the same way that a vector is an oriented line element. Given vectors '''a''', '''b''' and '''c''', the product
+:&lt;math&gt;\mathbf{a} \wedge \mathbf{b} \wedge \mathbf{c}&lt;/math&gt;
+is a trivector with magnitude equal to the scalar triple product, and is the [[Hodge dual]] of the scalar triple product. As the exterior product is associative brackets are not needed as it does not matter which of  {{nowrap|'''a''' ∧ '''b'''}} or  {{nowrap|'''b''' ∧ '''c'''}} is calculated first, though the order of the vectors in the product does matter. Geometrically the trivector '''a''' ∧ '''b''' ∧ '''c''' corresponds to the parallelepiped spanned by '''a''', '''b''', and '''c''', with bivectors {{nowrap|'''a''' ∧ '''b'''}}, {{nowrap|'''b''' ∧ '''c'''}} and {{nowrap|'''a''' ∧ '''c'''}} matching the [[parallelogram]] faces of the parallelepiped.
+
+===As a trilinear functional===
+The triple product is identical to the [[volume form]] of the Euclidean 3-space applied to the vectors via [[interior product]]. It also can be expressed as a [[tensor contraction|contraction]] of vectors with a rank-3 tensor equivalent to the form (or a [[pseudotensor]] equivalent to the volume pseudoform); see [[#Interpretations|below]].
+
+== Vector triple product ==
+The '''vector triple product''' is defined as the [[cross product]] of one vector with the cross product of the other two. The following relationship holds:
+
+:&lt;math&gt;\mathbf{a}\times (\mathbf{b}\times \mathbf{c}) = (\mathbf{a}\cdot\mathbf{c})\mathbf{b} -(\mathbf{a}\cdot\mathbf{b}) \mathbf{c}&lt;/math&gt;.
+
+This is known as '''triple product expansion''', or '''Lagrange's formula''',&lt;ref&gt;[[Joseph Louis Lagrange]] did not develop the cross product as an algebraic product on vectors, but did use an equivalent form of it in components: see {{cite book|author=Lagrange, J-L|title=Oeuvres|volume=vol 3|chapter=Solutions analytiques de quelques problèmes sur les pyramides triangulaires|year=1773}} He may have written a formula similar to the triple product expansion in component form. See also [[Lagrange's identity]] and {{cite book|author=[[Kiyosi Itô]]|title=Encyclopedic Dictionary of Mathematics|year=1987|isbn=0-262-59020-4|publisher=MIT Press|page=1679}}&lt;/ref&gt;&lt;ref name="Itô"&gt;
+{{cite book
+ |title=Encyclopedic dictionary of mathematics
+ |author=[[Kiyosi Itô]]
+ |page=1679
+ |chapter=§C: Vector product
+ |url=https://books.google.com/books?id=azS2ktxrz3EC&amp;pg=PA1679
+ |isbn=0-262-59020-4
+ |edition=2nd
+ |publisher=MIT Press
+ |year=1993
+}}&lt;/ref&gt; although the latter name is also used for [[Lagrange's formula (disambiguation)|several other formulas]]. Its right hand side can be remembered by using the [[mnemonic]] "ACB&amp;nbsp;&amp;minus;&amp;nbsp;ABC", provided one keeps in mind which vectors are dotted together. A proof is provided [[#Proof|below]]. Some textbooks write the identity as &lt;math&gt;\mathbf{a}\times (\mathbf{b}\times \mathbf{c}) = \mathbf{b}(\mathbf{a}\cdot\mathbf{c})-\mathbf{c}(\mathbf{a}\cdot\mathbf{b})&lt;/math&gt; such that a more familiar [[mnemonic]] is obtained "BAC&amp;nbsp;&amp;minus;&amp;nbsp;CAB", as in “back of the cab”.
+
+Since the cross product is anticommutative, this formula may also be written (up to permutation of the letters) as:
+
+:&lt;math&gt;(\mathbf{a}\times \mathbf{b})\times \mathbf{c} = -\mathbf{c}\times(\mathbf{a}\times \mathbf{b}) = -(\mathbf{c}\cdot\mathbf{b})\mathbf{a} + (\mathbf{c}\cdot\mathbf{a})\mathbf{b}&lt;/math&gt;
+
+From Lagrange's formula it follows that the vector triple product satisfies:
+
+:&lt;math&gt;\mathbf{a}\times (\mathbf{b}\times \mathbf{c}) + \mathbf{b}\times (\mathbf{c}\times \mathbf{a}) + \mathbf{c} \times (\mathbf{a}\times \mathbf{b}) =  0&lt;/math&gt;
+
+which is the [[Jacobi identity]] for the cross product.  Another useful formula follows:
+
+:&lt;math&gt;(\mathbf{a}\times \mathbf{b}) \times \mathbf{c} = \mathbf{a}\times (\mathbf{b}\times \mathbf{c}) - \mathbf{b} \times (\mathbf{a} \times \mathbf{c})&lt;/math&gt;
+
+These formulas are very useful in simplifying vector calculations in [[physics]]. A related identity regarding [[gradient]]s and useful in [[vector calculus]] is Lagrange's formula of vector cross-product identity:&lt;ref name= Lin&gt;
+{{cite book
+ |title=Numerical Modelling of Water Waves: An Introduction to Engineers and Scientists
+ |author=Pengzhi Lin
+ |page=13
+ |url=https://books.google.com/books?id=x6ALwaliu5YC&amp;pg=PA13
+ |isbn=0-415-41578-0
+ |year=2008
+ |publisher=Routledge
+}}&lt;/ref&gt;
+:&lt;math&gt;\boldsymbol{\nabla} \times (\boldsymbol{\nabla} \times \mathbf{f}) = \boldsymbol{\nabla} (\boldsymbol{\nabla} \cdot  \mathbf{f}) - (\boldsymbol{\nabla} \cdot \boldsymbol{\nabla}) \mathbf{f}&lt;/math&gt;
+
+This can be also regarded as a special case of the more general [[Laplace–Beltrami operator|Laplace–de Rham operator]] &lt;math&gt;\Delta = d \delta + \delta d&lt;/math&gt;.
+
+===Proof===&lt;!--caution: an internal #-link --&gt;
+The &lt;math&gt;x&lt;/math&gt; component of  &lt;math&gt;\mathbf{u} \times (\mathbf{v}\times \mathbf{w})&lt;/math&gt; is given by:
+
+:&lt;math&gt;\begin{align}
+  (\mathbf{u} \times (\mathbf{v} \times \mathbf{w}))_x
+    &amp;= \mathbf{u}_y(\mathbf{v}_x\mathbf{w}_y - \mathbf{v}_y\mathbf{w}_x) - \mathbf{u}_z(\mathbf{v}_z\mathbf{w}_x - \mathbf{v}_x\mathbf{w}_z) \\
+    &amp;= \mathbf{v}_x(\mathbf{u}_y\mathbf{w}_y + \mathbf{u}_z\mathbf{w}_z) - \mathbf{w}_x(\mathbf{u}_y\mathbf{v}_y + \mathbf{u}_z\mathbf{v}_z) \\
+    &amp;= \mathbf{v}_x(\mathbf{u}_y\mathbf{w}_y + \mathbf{u}_z\mathbf{w}_z) - \mathbf{w}_x(\mathbf{u}_y\mathbf{v}_y + \mathbf{u}_z\mathbf{v}_z) + (\mathbf{u}_x\mathbf{v}_x\mathbf{w}_x - \mathbf{u}_x\mathbf{v}_x\mathbf{w}_x) \\
+  &amp;= \mathbf{v}_x(\mathbf{u}_x\mathbf{w}_x + \mathbf{u}_y\mathbf{w}_y + \mathbf{u}_z\mathbf{w}_z) - \mathbf{w}_x(\mathbf{u}_x\mathbf{v}_x + \mathbf{u}_y\mathbf{v}_y + \mathbf{u}_z\mathbf{v}_z) \\
+  &amp;= (\mathbf{u}\cdot\mathbf{w})\mathbf{v}_x - (\mathbf{u}\cdot\mathbf{v})\mathbf{w}_x
+\end{align}&lt;/math&gt;
+
+Similarly, the &lt;math&gt;y&lt;/math&gt; and &lt;math&gt;z&lt;/math&gt; components of  &lt;math&gt;\mathbf{u}\times (\mathbf{v} \times \mathbf{w})&lt;/math&gt; are given by:
+
+:&lt;math&gt;\begin{align}
+  (\mathbf{u} \times (\mathbf{v} \times \mathbf{w}))_y &amp;= (\mathbf{u}\cdot\mathbf{w})\mathbf{v}_y - (\mathbf{u}\cdot\mathbf{v})\mathbf{w}_y \\
+  (\mathbf{u} \times (\mathbf{v} \times \mathbf{w}))_z &amp;= (\mathbf{u}\cdot\mathbf{w})\mathbf{v}_z - (\mathbf{u}\cdot\mathbf{v})\mathbf{w}_z
+\end{align}&lt;/math&gt;
+
+By combining these three components we obtain:
+
+:&lt;math&gt;\mathbf{u}\times (\mathbf{v}\times \mathbf{w}) = (\mathbf{u}\cdot\mathbf{w})\ \mathbf{v} - (\mathbf{u}\cdot\mathbf{v})\ \mathbf{w}&lt;/math&gt;&lt;ref&gt;{{cite book|title=Mathematical Methods in Science and Engineering|author=J. Heading|publisher=American Elsevier Publishing Company, Inc|pages=262–263|year=1970}}&lt;/ref&gt;
+
+===Using geometric algebra===
+If geometric algebra is used the cross product '''b''' × '''c''' of vectors is expressed as their exterior product  '''b'''∧'''c''', a [[bivector]]. The second cross product cannot be expressed as an exterior product, otherwise the scalar triple product would result. Instead a [[geometric algebra#Extensions of the inner and outer products|left contraction]]&lt;ref name=Lounesto&gt;{{cite book |author=Pertti Lounesto |page=46 |title=Clifford algebras and spinors |isbn=0-521-00551-5 |edition=2nd |publisher=Cambridge University Press |year=2001}}&lt;/ref&gt; can be used, so the formula becomes&lt;ref name=Pesonen&gt;{{cite web|title= Geometric Algebra of One and Many Multivector Variables|author=Janne Pesonen|url=http://www.helsinki.fi/%7Ejmpesone/index_files/GA_files/Chapter_1.pdf|page=37}}&lt;/ref&gt;
+
+:&lt;math&gt;\begin{align}
+  -\mathbf{a} \;\big\lrcorner\; (\mathbf{b} \wedge \mathbf{c}) &amp;=  \mathbf{b}  \wedge (\mathbf{a} \;\big\lrcorner\; \mathbf{c}) - (\mathbf{a} \;\big\lrcorner\; \mathbf{b}) \wedge \mathbf{c} \\
+                                                               &amp;=  (\mathbf{a} \cdot \mathbf{c}) \mathbf{b} - (\mathbf{a} \cdot \mathbf{b}) \mathbf{c}
+\end{align}&lt;/math&gt;
+
+The proof follows from the properties of the contraction.&lt;ref name=Lounesto/&gt; The result is the same vector as calculated using '''a''' × ('''b''' × '''c''').
+
+== Interpretations ==&lt;!--caution: an internal #-link --&gt;
+
+=== Tensor calculus ===&lt;!--caution: an internal #-link --&gt;
+In [[tensor calculus|tensor notation]] the triple product is expressed using the [[Levi-Civita symbol]]:&lt;ref&gt;{{cite web|title=Permutation Tensor|url=http://mathworld.wolfram.com/PermutationTensor.html|publisher=Wolfram|accessdate=21 May 2014}}&lt;/ref&gt;
+: &lt;math&gt;(\mathbf{a} \cdot [\mathbf{b}\times \mathbf{c}]) = \varepsilon_{ijk} a^i b^j c^k&lt;/math&gt;
+
+and
+: &lt;math&gt;(\mathbf{a} \times [\mathbf{b}\times \mathbf{c}])_i = \varepsilon_{ijk} a^j \varepsilon_{k\ell m} b^\ell c^m = \varepsilon_{ijk}\varepsilon_{k\ell m} a^j  b^\ell c^m&lt;/math&gt;,
+
+referring to the &lt;math&gt;i&lt;/math&gt;th component of the resulting vector. This can be simplified by performing a [[tensor contraction|contraction]] on the [[Levi-Civita symbol#Three dimensions 2|Levi-Civita symbols]], 
+&lt;math&gt;\varepsilon_{ijk} \varepsilon_{k\ell m}=-\varepsilon_{ijk} \varepsilon_{m\ell k}=\delta_{i\ell}\delta_{jm}-\delta_{im}\delta_{\ell j}&lt;/math&gt;
+where &lt;math&gt;\delta_{ij} = 0&lt;/math&gt; if &lt;math&gt;i\neq j&lt;/math&gt; and &lt;math&gt;\delta_{ij}=1&lt;/math&gt; if &lt;math&gt;i=j&lt;/math&gt;. We can reason out this identity by recognizing that the index &lt;math&gt;k&lt;/math&gt; will be summed out leaving only &lt;math&gt;i&lt;/math&gt; and &lt;math&gt;j&lt;/math&gt;. In the first term, we fix &lt;math&gt;i=l&lt;/math&gt; and thus &lt;math&gt;j=m&lt;/math&gt;. Likewise, in the second term, we fix &lt;math&gt;i=m&lt;/math&gt; and thus &lt;math&gt;l=j&lt;/math&gt;.
+
+Returning to the triple cross product,
+: &lt;math&gt;(\mathbf{a} \times [\mathbf{b}\times \mathbf{c}])_i = (\delta_{i\ell}\delta_{jm} - \delta_{im}\delta_{\ell j}) a^j  b^\ell c^m = a^jb^i c^j - a^j  b^j c^i = \mathbf{b}_i(\mathbf{a}\cdot\mathbf{c}) - \mathbf{c}_i(\mathbf{a}\cdot\mathbf{b})&lt;/math&gt;
+
+=== Vector calculus ===
+
+Consider the [[Surface integral#Surface integrals of vector fields|flux integral]] of the vector field &lt;math&gt;\vec{\mathbf{F}}&lt;/math&gt; across the parametrically-defined surface &lt;math&gt;S = \vec{\mathbf{r}}(u,v)&lt;/math&gt;: &lt;math&gt;\iint_S \vec{\mathbf{F}} \mathbf{\cdot} \vec{\mathbf{N}}\,dS&lt;/math&gt;. The unit normal vector &lt;math&gt;\vec{\mathbf{N}}&lt;/math&gt; to the surface is given by &lt;math&gt;\frac{\vec{\mathbf{r}}_u \times \vec{\mathbf{r}}_v}{| \vec{\mathbf{r}}_u \times \vec{\mathbf{r}}_v |}&lt;/math&gt;, so the integrand &lt;math&gt;\vec{\mathbf{F}} \mathbf{\cdot} \frac{\vec{\mathbf{r}}_u \times \vec{\mathbf{r}}_v}{| \vec{\mathbf{r}}_u \times \vec{\mathbf{r}}_v |}&lt;/math&gt; is a scalar triple product.
+{{Expand section|date=January 2014}}
+
+== Notes ==
+&lt;references/&gt;
+
+==References==
+*{{cite book|last = Lass|first = Harry|title = Vector and Tensor Analysis|publisher = McGraw-Hill Book Company, Inc.|year = 1950|pages = 23–25}}
+
+==External links==
+* [https://www.khanacademy.org/math/linear-algebra/vectors_and_spaces/dot_cross_products/v/vector-triple-product-expansion-very-optional Khan Academy video of the proof of the triple product expansion]
+
+{{Linear algebra}}
+
+[[Category:Linear algebra]]
+[[Category:Ternary operations]]
+[[Category:Vectors (mathematics and physics)]]</text>
+      <sha1>lnh6ab0s5js0s1r53ves0v3punhn7w8</sha1>
+    </revision>
+  </page>
+</mediawiki>

@@ -1,0 +1,154 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.10/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.10/ http://www.mediawiki.org/xml/export-0.10.xsd" version="0.10" xml:lang="en">
+  <siteinfo>
+    <sitename>Wikipedia</sitename>
+    <dbname>enwiki</dbname>
+    <base>https://en.wikipedia.org/wiki/Main_Page</base>
+    <generator>MediaWiki 1.35.0-wmf.36</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Media</namespace>
+      <namespace key="-1" case="first-letter">Special</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Talk</namespace>
+      <namespace key="2" case="first-letter">User</namespace>
+      <namespace key="3" case="first-letter">User talk</namespace>
+      <namespace key="4" case="first-letter">Wikipedia</namespace>
+      <namespace key="5" case="first-letter">Wikipedia talk</namespace>
+      <namespace key="6" case="first-letter">File</namespace>
+      <namespace key="7" case="first-letter">File talk</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki talk</namespace>
+      <namespace key="10" case="first-letter">Template</namespace>
+      <namespace key="11" case="first-letter">Template talk</namespace>
+      <namespace key="12" case="first-letter">Help</namespace>
+      <namespace key="13" case="first-letter">Help talk</namespace>
+      <namespace key="14" case="first-letter">Category</namespace>
+      <namespace key="15" case="first-letter">Category talk</namespace>
+      <namespace key="100" case="first-letter">Portal</namespace>
+      <namespace key="101" case="first-letter">Portal talk</namespace>
+      <namespace key="108" case="first-letter">Book</namespace>
+      <namespace key="109" case="first-letter">Book talk</namespace>
+      <namespace key="118" case="first-letter">Draft</namespace>
+      <namespace key="119" case="first-letter">Draft talk</namespace>
+      <namespace key="446" case="first-letter">Education Program</namespace>
+      <namespace key="447" case="first-letter">Education Program talk</namespace>
+      <namespace key="710" case="first-letter">TimedText</namespace>
+      <namespace key="711" case="first-letter">TimedText talk</namespace>
+      <namespace key="828" case="first-letter">Module</namespace>
+      <namespace key="829" case="first-letter">Module talk</namespace>
+      <namespace key="2300" case="first-letter">Gadget</namespace>
+      <namespace key="2301" case="first-letter">Gadget talk</namespace>
+      <namespace key="2302" case="case-sensitive">Gadget definition</namespace>
+      <namespace key="2303" case="case-sensitive">Gadget definition talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Autodesk Maya</title>
+    <ns>0</ns>
+    <id>113014</id>
+    <revision>
+      <id>947174342</id>
+      <parentid>946337267</parentid>
+      <timestamp>2020-03-24T19:11:43Z</timestamp>
+      <contributor>
+        <username>Llex1234</username>
+        <id>10495876</id>
+      </contributor>
+      <minor/>
+      <comment>Update version to 2020.1</comment>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="11293" xml:space="preserve">{{pp-sock|small=yes}}
+{{short description|3D computer graphics software}}
+{{Infobox software
+| name = Autodesk Maya
+| logo = Logo of Maya.png
+| logo_size = 135px
+| screenshot = 
+| collapsible = 
+| author = [[Alias Systems Corporation]]
+| developer = [[Autodesk, Inc.]]
+| released = {{start date and age|1998|02}}
+| discontinued = 
+| latest release version = 2020.1
+| latest release date = {{Start date and age|2020|03|19}}
+| programming language = [[C++]],&lt;ref&gt;{{cite web|url=http://www.stroustrup.com/applications.html|title=C++ Applications|author=|date=|work=stroustrup.com|access-date=December 16, 2016}}&lt;/ref&gt; [[Maya Embedded Language|MEL]], [[Python (programming language)|Python]],&lt;ref&gt;{{cite web|url=http://cgkit.sourceforge.net/maya_tutorials/intro/|title=Python/Maya: Introductory tutorial|first=Matthias|last=Baas|date=May 8, 2006|accessdate=December 10, 2010|publisher=cgkit.sourceforge.net| archiveurl= https://web.archive.org/web/20101115013603/http://cgkit.sourceforge.net/maya_tutorials/intro/| archivedate= November 15, 2010 | url-status= live}}&lt;/ref&gt; [[C Sharp (programming language)|C#]]
+| operating system = {{unbulleted list|[[RHEL]]/[[CentOS]] 7.3 or later|[[Windows 7]] or later|[[macOS 10.13]] or later}}
+| platform = [[IA-32]], [[x64]]
+| size = 
+| language = English, Japanese, Chinese
+| genre = [[3D computer graphics]]
+| license = [[Trialware]]
+| website = {{URL|http://autodesk.com/maya}}
+}}
+'''Autodesk Maya''', commonly shortened to just '''Maya''' ({{IPAc-en|ˈ|m|aɪ|ə}} {{respell|MY|ə}}&lt;ref&gt;{{cite web|url=https://www.youtube.com/watch?v=_1M4t73L4EE|title=Maya 2017 Overview|accessdate=May 18, 2018 |publisher=Autodesk}}&lt;/ref&gt;&lt;ref&gt;{{cite web|url=https://www.youtube.com/watch?v=DF6LJUJ9fxk|title=Maya LT 2018 – Overview|accessdate=May 18, 2018 |publisher=Autodesk}}&lt;/ref&gt;), is a [[3D computer graphics software|3D computer graphics application]] that runs on [[Windows]], [[macOS]] and [[Linux]], originally developed by [[Alias Systems Corporation]] (formerly Alias|Wavefront) and currently owned and developed by [[Autodesk, Inc.|Autodesk]]. It is used to create assets for interactive 3D applications (including video games), animated films, TV series, and visual effects.
+
+==History==
+Maya was originally an animation product based on code from [[The Advanced Visualizer]] by [[Wavefront Technologies]], Thomson Digital Image (TDI) Explore, [[PowerAnimator]] by Alias Research, Inc., and ''Alias Sketch!''. The [[IRIX]]-based projects were combined and animation features were added; the project codename was Maya.&lt;ref&gt;{{cite web|url=http://www.mayabooks.org/ |title=History |accessdate=December 11, 2010 |publisher=Maya books |url-status=dead |archiveurl=https://web.archive.org/web/20101125035450/http://www.mayabooks.org/ |archivedate=November 25, 2010 }}&lt;/ref&gt; [[Walt Disney Feature Animation]] collaborated closely with Maya's development during its production of ''[[Dinosaur (film)|Dinosaur]]''.&lt;ref name = micro&gt;{{cite web |url=http://www.microfilmmaker.com/reviews/Issue56/Maya11_1.html |date= July 1, 2010 | journal = Microfilmmaker Magazine |format=Software Review |title=Maya 2011 |first=Michael J |last=Muwanguzi |accessdate=December 11, 2010}}&lt;/ref&gt; Disney requested that the [[user interface]] of the application be customizable so that a personalized workflow could be created. This was a particular influence in the [[open architecture]] of Maya, and partly responsible for it becoming popular in the animation industry.
+
+After [[Silicon Graphics Inc.]] acquired both Alias and [[Wavefront Technologies]], Inc., Wavefront's technology (then under development) was merged into Maya. SGI's acquisition was a response to [[Microsoft Corporation]] acquiring [[Softimage 3D]]. The new wholly owned subsidiary was named "Alias&lt;math&gt;|&lt;/math&gt;Wavefront".&lt;ref&gt;{{cite web |url=http://www.design-engine.com/alias/history.html |work=Alias |title=Wavefront Discontinued Products and Brands |date=December 13, 2002 |first=Sam |last=Weisbard |accessdate=December 10, 2010 |publisher=Design engine |archive-url=https://web.archive.org/web/20090822040628/http://www.design-engine.com/alias/history.html |archive-date=August 22, 2009 |url-status=dead }}&lt;/ref&gt;
+
+In the early days of development, Maya started with [[Tcl]] as the scripting language, in order to leverage its similarity to a Unix shell language. But after the merger with Wavefront, Sophia, the scripting language in Wavefront's [[Dynamation (software)|Dynamation]], was chosen as the basis of MEL (Maya embedded language).&lt;ref&gt;{{citation | title = In silico: 3D animation and simulation of cell biology with Maya and MEL| last1 = Sharpe |first1 = Jason | first2 = Charles J | last2 = Lumsden | first3 = Nicholas | last3 = Woolridge | year= 2008| publisher= Morgan Kaufmann Martin | page= 263| isbn = 0-12-373655-2}}&lt;/ref&gt;
+
+Maya 1.0 was released in February 1998. Following a series of acquisitions, Maya was bought by Autodesk in 2005.&lt;ref&gt;{{cite web |url = http://usa.autodesk.com/adsk/servlet/item?siteID=123112&amp;id=5983502&amp;linkID=14271593 |title = Autodesk Signs Definitive Agreement to Acquire Alias |accessdate = October 23, 2015 |date = October 4, 2005 |author = Autodesk |archive-url = https://web.archive.org/web/20160110190511/http://usa.autodesk.com/adsk/servlet/item?linkID=14271593&amp;id=5983502&amp;siteID=123112 |archive-date = January 10, 2016 |url-status = dead }}&lt;/ref&gt;&lt;ref&gt;[[Wikinews:Autodesk to buy Alias]]&lt;/ref&gt; Under the name of the new parent company, Maya was renamed Autodesk Maya. However, the name "Maya" continues to be the dominant name used for the product.
+
+===Awards===
+On March 1, 2003, Alias was given an [[Academy Award for Technical Achievement]] by the Academy of Motion Picture Arts and Sciences for scientific and technical achievement for their development of Maya software.&lt;ref name="Macworld"&gt;{{cite journal|url=https://www.macworld.com/article/1008800/oscar.html|title=Maya gets Oscar for Technical Achievement|first=Dennis|last=Sellers|journal=Macworld|date=14 January 2003|accessdate=8 January 2019}}&lt;/ref&gt;
+
+In 2005, while working for Alias|Wavefront, Jos Stam shared an [[Academy Award for Technical Achievement]] with [[Edwin Catmull]] and Tony DeRose for their invention and application of subdivision surfaces.&lt;ref&gt;{{cite web|title=PIXAR Awards |url=http://www.pixar.com/companyinfo/press_box/awards.htm |accessdate=November 15, 2011 |url-status=dead |archiveurl=https://web.archive.org/web/20110927043045/http://www.pixar.com/companyinfo/press_box/awards.htm |archivedate=September 27, 2011 }}&lt;/ref&gt;
+
+On February 8, 2008, Duncan Brinsmead, [[Jos Stam]], Julia Pakalns and [[Martin Werner]] received an [[Academy Award for Technical Achievement]] for the design and implementation of the Maya Fluid Effects system.&lt;ref&gt;{{cite web|title=Scientific &amp; Technical Awards Winners |url=http://www.oscars.org/awards/scitech/winners/2007.html |date=January 6, 2003 |accessdate=December 10, 2010 |url-status=dead |archiveurl=https://web.archive.org/web/20090216053528/http://www.oscars.org/awards/scitech/winners/2007.html |archivedate=February 16, 2009 }}&lt;/ref&gt;&lt;ref&gt;{{cite web|title=Technical Achievement Award|url=http://www.oscars.org/awards/academyawards/about/awards/technical.html|date=January 6, 2003|accessdate=December 10, 2010}}&lt;/ref&gt;
+
+===Industry usage===
+The widespread use of Maya in the film industry is usually associated with its development on the film ''[[Dinosaur (film)|Dinosaur]]'', released by Disney in 2000.&lt;ref&gt;{{cite book|title=Learning Games: The Science and Art of Development|last=Warren|first=Scott|publisher=Springer|date=16 June 2017|page=77}}&lt;/ref&gt; In 2003, when the company received an Academy Award for technical achievement, it was noted to be used in films such as ''[[The Lord of the Rings: The Two Towers]]'', ''[[Spider-Man (2002 film)|Spider-Man]]'' (2002), ''[[Ice Age (2002 film)|Ice Age]]'', and ''[[Star Wars: Episode II – Attack of the Clones]]''.&lt;ref name="SELLERS"&gt;{{cite journal | url=https://www.macworld.com/article/1008800/oscar.html | title=Maya gets Oscar for Technical Achievement|first=Dennis|last=Sellers|journal=Macworld|date=14 January 2003|accessdate=8 January 2019}}&lt;/ref&gt; By 2015, [[VentureBeat]] Magazine stated that all ten films in consideration for the Best Visual Effects Academy Award had used Autodesk Maya and that it had been "used on every winning film since 1997."&lt;ref name="VENTURE"&gt;{{cite web|url=https://venturebeat.com/2015/01/15/hollywood-fx-pros-i-want-to-be-an-oscars-maya-winner/|title=And the Oscar for Best Visual Effects Goes to… Autodesk's Maya|first=Daniel|last=Terdiman|work=media|publisher=[[VentureBeat]]|date=15 January 2015}}&lt;/ref&gt;
+
+==Overview==
+Maya is an application used to generate 3D assets for use in film, television, game development and architecture. The software was initially released for the [[IRIX]] operating system. However, this support was discontinued in August 2006 after the release of version 6.5. Maya was available in both "Complete" and "Unlimited" editions until August 2008, when it was turned into a single suite.&lt;ref&gt;{{cite web | url= http://usa.autodesk.com/adsk/servlet/pc/compare/index?siteID=123112&amp;id=13583751 | title= Autodesk Maya Features – Compare | access-date= 2010-10-02 | archive-url= https://web.archive.org/web/20101006081157/http://usa.autodesk.com/adsk/servlet/pc/compare/index?siteID=123112&amp;id=13583751 | archive-date= 2010-10-06 | url-status= dead }}&lt;/ref&gt;
+
+Users define a virtual workspace (''scene'') to implement and edit media of a particular project. Scenes can be saved in a variety of formats, the default being ''.mb'' (Maya D). Maya exposes a [[node graph architecture]]. Scene elements are [[Node (computer science)|node]]-based, each node having its own attributes and customization. As a result, the visual representation of a scene is based entirely on a network of interconnecting nodes, depending on each other's information. For the convenience of viewing these networks, there is a [[dependency graph|dependency]] and a [[directed acyclic graph]].
+
+==See also==
+{{columns-list|colwidth=20em|
+* [[List of Maya plugins]]
+* [[PowerAnimator]]
+* [[Autodesk 3ds Max]]
+* [[Autodesk Softimage]]
+* [[Comparison of 3D computer graphics software]]
+* [[Computer animation]]
+* [[Blender (software)]]
+}}
+
+==References==
+{{Reflist|30em}}
+
+==External links==
+&lt;!--
+     Please keep links relevant, i.e. sites that relate primarily to Maya, not general 3D sites.
+     Also note comment below on commercial links being disallowed.
+--&gt;
+* {{Official website}}
+
+&lt;!--
+     Do not place advertisements here.
+     COMMERCIAL LINKS WILL BE REMOVED.
+     See WP:EL, and WP:SPAM for more information.
+     If you think that your link might be useful, instead of placing it here, put
+     it on this article's discussion page first.
+     Wikipedia is not a link directory.  Consider submitting your link to DMOZ instead.
+--&gt;
+{{Animation editors}}
+{{3D software}}
+
+[[Category:Autodesk]]
+[[Category:3D graphics software]]
+[[Category:Computer-aided design software]]
+[[Category:3D animation software]]
+[[Category:3D graphics software that uses Qt]]
+[[Category:IRIX software]]
+[[Category:3D computer graphics software for Linux]]
+[[Category:Proprietary software that uses Qt]]
+[[Category:Proprietary commercial software for Linux]]</text>
+      <sha1>jogdrl6u7llottu2gnwe5rrpu6uozts</sha1>
+    </revision>
+  </page>
+</mediawiki>

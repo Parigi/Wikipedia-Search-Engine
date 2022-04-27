@@ -1,0 +1,221 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.10/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.10/ http://www.mediawiki.org/xml/export-0.10.xsd" version="0.10" xml:lang="en">
+  <siteinfo>
+    <sitename>Wikipedia</sitename>
+    <dbname>enwiki</dbname>
+    <base>https://en.wikipedia.org/wiki/Main_Page</base>
+    <generator>MediaWiki 1.35.0-wmf.36</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Media</namespace>
+      <namespace key="-1" case="first-letter">Special</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Talk</namespace>
+      <namespace key="2" case="first-letter">User</namespace>
+      <namespace key="3" case="first-letter">User talk</namespace>
+      <namespace key="4" case="first-letter">Wikipedia</namespace>
+      <namespace key="5" case="first-letter">Wikipedia talk</namespace>
+      <namespace key="6" case="first-letter">File</namespace>
+      <namespace key="7" case="first-letter">File talk</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki talk</namespace>
+      <namespace key="10" case="first-letter">Template</namespace>
+      <namespace key="11" case="first-letter">Template talk</namespace>
+      <namespace key="12" case="first-letter">Help</namespace>
+      <namespace key="13" case="first-letter">Help talk</namespace>
+      <namespace key="14" case="first-letter">Category</namespace>
+      <namespace key="15" case="first-letter">Category talk</namespace>
+      <namespace key="100" case="first-letter">Portal</namespace>
+      <namespace key="101" case="first-letter">Portal talk</namespace>
+      <namespace key="108" case="first-letter">Book</namespace>
+      <namespace key="109" case="first-letter">Book talk</namespace>
+      <namespace key="118" case="first-letter">Draft</namespace>
+      <namespace key="119" case="first-letter">Draft talk</namespace>
+      <namespace key="446" case="first-letter">Education Program</namespace>
+      <namespace key="447" case="first-letter">Education Program talk</namespace>
+      <namespace key="710" case="first-letter">TimedText</namespace>
+      <namespace key="711" case="first-letter">TimedText talk</namespace>
+      <namespace key="828" case="first-letter">Module</namespace>
+      <namespace key="829" case="first-letter">Module talk</namespace>
+      <namespace key="2300" case="first-letter">Gadget</namespace>
+      <namespace key="2301" case="first-letter">Gadget talk</namespace>
+      <namespace key="2302" case="case-sensitive">Gadget definition</namespace>
+      <namespace key="2303" case="case-sensitive">Gadget definition talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Epigenetics and melanoma</title>
+    <ns>0</ns>
+    <id>42683705</id>
+    <revision>
+      <id>930937962</id>
+      <parentid>925285344</parentid>
+      <timestamp>2019-12-15T23:47:54Z</timestamp>
+      <contributor>
+        <username>Certes</username>
+        <id>5984052</id>
+      </contributor>
+      <minor/>
+      <comment>Fix links to [[SYK]], replaced: [[SYK]] → [[SYK (gene)|SYK]]</comment>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="20298" xml:space="preserve">{{orphan|date=May 2014}}
+
+[[Melanoma]] is a rare but aggressive [[malignant cancer]] that originates from [[melanocytes]]. These melanocytes are cells found in the [[basal layer]] of the [[epidermis (skin)|epidermis]] that produce [[melanin]] under the control of [[melanocyte-stimulating hormone]]. Despite the fact that melanoma represents only a small number of all skin cancers, it is the cause of more than 50% of cancer-related deaths. The high metastatic qualities and death rate, and also its prevalence among people of younger ages have caused melanoma to become a highly researched malignant cancer. [[Epigenetic modifications]] are suspected to influence the emergence of many types of cancer-related diseases, and are also suspected to have a role in the development of melanoma.
+
+In the last few years, chemical alterations in the [[genome]] have become more evident, and these alterations can be critical in the development of malignancy. This alteration process is referred to as epigenetics (Patino et al. 2008). [[Epigenetics]] is the term used to refer to stable changes in DNA that affect [[gene expression]] but do not involve changes in the underlying nucleotide sequence of the organism (Patino et al. 2008). The mechanisms by which epigenetics occur involve hypo- and hypermethylation of DNA, [[histone modification]]s by [[acetylation]], [[methylation]], and [[phosphorylation]], and [[posttranslational modifications]] which include [[RNA silencing]]. These modifications can cause different expression patterns to occur, which can result in alterations to cells. Some of these alterations could result in the formation of cancerous cells or various other dangerous changes in cell function, among many other outcomes when paired together. Cancerous cells are not formed from just one change.
+
+==Role of cytosine methylation in melanoma==
+
+In epigenetic alterations in cancer, [[DNA methylation]] is the most studied, although it is not the only alteration that can occur. DNA methylation is a covalent modification of DNA where a methyl group is added to the C-5 position of cytosine by DNA-methyltransferases. This occurs mostly at the cytosine-phosphate-guanine dinucleotide rich regions, known as [[CpG islands]], and are located particularly in the promoter regions of genes in the [[human genome]] (Patino et al. 2008). These promoter regions are methylated in certain ways or can be completely unmethylated. However, in an altered methylation of the CpG islands (generally where the methylation pattern is inverted), [[transcription (genetics)|transcription]] can be altered which can lead to cancer. This is due to chromosomes being highly condensed, preventing RNA polymerase and other transcription factors from recognizing and binding to the DNA. This can result in [[gene silencing]]. This silencing of genes can be dangerous to cells, especially when the genes silenced are active in maintaining the cell cycle. The table below shows some of the important genes targeted by promoter hypermethylation in melanoma.
+
+'''TABLE 1.''' Various genes targeted by promoter hypermethylation in malignant melanoma
+
+{| class="wikitable"
+|-
+! Gene  !! Frequency of alteration within Melanoma (%)
+|-
+| RASSF1A || 36- 57
+|-
+| APC || 19
+|-
+| PYCARD || 50
+|-
+| RARB || 20- 70
+|-
+| MGMT || 0- 34
+|-
+| DAPK || 19
+|-
+| 3- OST- 2 || 56
+|-
+| CDKN1B || 0- 9
+|-
+| INK4A || 10- 20
+|-
+| HOXB13 || 20- 33
+|-
+| SYK || 30- 89
+|-
+| PRDX2 || 8
+|-
+| PTEN || 0- 62
+|}
+
+'''Some of the genes affected by cytosine methylation in melanoma formation'''
+
+'''INK4A'''
+
+INK4A, also known as [[p16]], is a [[tumor suppressor gene]] and is found to have hypermethylated promoter regions in 10- 20% of melanoma cells and is involved in 40- 87% of gene alterations in melanoma cases (Gonzalgo et al., 1997). This means that 10- 20% of the time there is an epigenetic change in the INK4A gene, and 40- 87% of the time there is a nucleotide mutation in the gene. INK4A is one of the genes that is both epigenetically and genomically altered. As a regularly functioning gene, INK4A is a tumor suppressor that functions to repress the formation of tumors. The hypermethylation of this gene can cause it to become inactivated (Straume et al., 2002). When INK4 is inactivated through hypermethylation, it causes an interruption of the [[CDK4]] and [[CDK6]] genes, which normally stop cell growth in the G1 phase of cell division. When this happens, there is no regulation in the cell and it grows quickly and becomes cancerous. 
+ 
+'''SYK'''
+
+[[SYK (gene)|SYK]] is another gene that is affected by cytosine methylation during cancer progression. It is a gene that, when hypermethylated, loses function (Muthusamy et al., 2006). This gene is found in 30- 89% of melanoma cases (Dahl et al., 2007), and causes cells to grow quickly. This fast growth is important in the quick metastasis of melanoma cells, and when hypermethylated, the growth and spread of cells slow considerably (Hoeller et al., 2005). This is a controversial finding with inconclusive results, though. '''Some findings show that normally functioning SYK genes aids in tumor suppression, while other studies find that it is a transforming factor that facilitates cancer formation.''' Normally functioning, the SYK gene produces a non- receptor protein kinase enzyme that aids in differentiation, proliferation, and phagocytosis among many other important processes. SYK is found expressed in a variety of cells including fibroblasts, epithelial cells (where it controls cell division and acts as a tumor suppressor), hepatocytes, and neuronal cells (TORCIS Bioscience, 2014). Although SYK does not have any reported DNA modifications, the epigenetic changes still cause sufficient damage to cells. When SYK silencing is coupled with other alterations, both genetically and epigenetically, cancer can form.
+
+==Role of histone modification in melanoma==
+
+Histone modifications play a large role in epigenetics because of their widely varied methods of occurrence and affect. Modifications to histones come about in many forms, with many still not being clearly understood. Methylation, acetylation, phosphorylation, and ubiquitination are the main categories of histone modification, with combinations of changes resulting in a range of genetic expression.
+
+[[Histone methylation]] generally causes genes to turn off. Methylation of histones is also important for maintaining [[heterochromatin]] boundaries and a misregulation can lead to over expression or under expression of genes. This over expression or under expression can lead to the formation of cancer cells within an organism. On the other end of the spectrum, demethylation causes genes to turn on. This activation can be just as detrimental to cells, as their processes are disrupted by unnecessary gene products. Most histone methylation occurs in the promoter region, and is similar to cytosine methylation in process and function.&lt;ref&gt;Orouji E. &amp; Utikal J. Tackling malignant melanoma epigenetically: histone lysine methylation https://doi.org/10.1186/s13148-018-0583-z 2018&lt;/ref&gt;
+
+[[Histone acetylation]] is generally associated with transcription activation, which can cause certain proteins to be coded for and expressed when they shouldn't be. This can potentially lead to cancer. Conversely, deacetylation of genes causes transcription to be inhibited, shutting down important biological processes within the cell. In melanoma, [[Ku70]] and [[Ku86]] genes involved in DNA repair, were found to be inactivated when a [[histone deacetylase]], or HDAC, was exposed to the gene (Munshi et al., 2005).
+
+Histone phosphorylation is the process by which a phosphate group is added to histone tails. This process drastically changes histone structure and shape. It has been discovered that phosphorylation causes post translational changes, with binding domains having been found, in addition to regulations in DNA repair, transcription regulation, and chromatin condensation. One of the major phosphorylations in DNA repair is the H2AX location. When H2AX is phosphorylated, it spreads throughout the DNA break and is thought to recruit acetyltransferases to relax the DNA and allow repair proteins to access the damaged portion (Rossetto et al., 2012). Phosphorylation of histones begins the process of DNA repair, and it is important for signaling other processes to begin, including cell division . H2AX is an indicator of melanoma because of its high correlation to chromosomal instability (Warters et al., 2005). When high levels of H2AX are present, more phosphorylation occurs and chromosomes are more susceptible to damage. Histone phosphorylation of H3S10 has been shown to associate with H3 acetylation, which is integral in transcription activation (Rossetto et al., 2012). If transcription is altered, cells are generally negatively impacted and they react in adverse ways that may harm the organism.
+
+==Roles microRNAs play in melanoma development==
+
+Scientists have wondered how melanoma cells travel from major [[tumors]] found on the surface of the skin to the liver, brain, lungs and other organs where they become very destructive, resistant to treatments and even cause death. Research being conducted tries to answer the question of how and why melanoma cells become defective and cause harm to people. Many studies have found that some classes of short strands of RNA, called [[microRNA]]s, are linked to these harmful properties of melanoma cells.
+
+MicroRNAs (miRNAs)  are non-coding RNAs of roughly 20-22 nucleotides in length. They function in post-transcriptional gene regulation, preventing a particular protein from being produced. They can do this in many ways, such as binding to and destroying the messenger RNA that otherwise would have produced the protein. MiRNAs have also been shown to bind directly to messenger RNA and silence them before they are able to be translated into proteins which would play important roles in transcription (O'Donnell et al., 2005). There are roughly 1000 miRNAs in the human genome, and about 33% of all human [[messenger RNA]]s are under their control (Liu et al. 2012).
+
+MiRNAs function in several areas of biological processes, including differentiation, proliferation and apoptosis. They have also been found to play important roles in the development of cancers. Some of these non-coding RNAs, including miRNA-205, have been linked, recently, to the over or under expression of several genes associated with cancer and other life-threatening diseases such as heart disease, and alterations in their expressions have been shown to impact cancer cell growth, survival and the ability to spread (Liu et al. 2012). For instance, the loss of the miRNA-205 expression is associated with the metastasis of melanoma (Liu et al. 2012). An overproduction of MiRNAs can cause the epigenetic silencing of many important genes such as MITF, FOXO3, TFAP2C, CCND1, ITGA3 and c-KIT, needed in cell cycle regulation, and this can cause a cell to become cancerous (He et al., 2005).
+
+'''MicroRNAs and genes involved in melanoma'''
+
+A particular miRNA, MiR-182, has been found to impact [[MITF]] and [[FOXO3]], which are tumor suppressor genes. MiR-182 is a member of a miRNA cluster in a chromosomal locus that is most often amplified in melanoma (Segura ''et al.'' 2009). It is frequently up-regulated in human melanoma tissue samples and cell lines, and this up-regulation causes its ectopic expression, which stimulates migration of melanoma cells, both in vitro and in vivo. The down-regulation of this miRNA triggers apoptosis. Over-expression of miR-182 in malignancy has been shown to negatively impact these tumor suppressor genes by directly repressing them. The repression of these genes allows miRNA to promote the spread and migration of melanoma cells, not taking into account the properties necessary for metastasis to occur. 
+       
+In a fairly recent experiment done by Penna ''et al.'' on miRNA-214, it was shown that the miRNA regulates the expression of a panel of 11 target genes, including [[TFAP2C]] and [[ITGA3]], and contributes to melanoma tumor progression by suppressing those genes. In this experiment, these genes, known to contain one or more binding sites of the miRNA, were obtained and their three prime untranslated regions (3'UTRs) cloned into a vector. [[Luciferase]] assays were then performed in MA-2 and/or MC-1 cells transfected with the miRNA. It was reported that luciferase expression, which was driven by the [[3'UTR]]s of [[integrin]] alpha 3 (ITGA3) or [[transcription factor]] AP-2 gamma (TFAP2C), was repressed significantly. The team then tried to assess whether the luciferase expression regulation seen in the ITGA3 and TFAP2C genes depended on the binding between the miRNA and the complementary sequence that was present on the 3'UTRs of either gene. A four nucleotide deletion or three point mutations were respectively inserted in the ITGA3 or TFAP2C 3'UTRs, and the 3'UTR alterations entirely abrogated the effect of the miRNA over-expression on luciferase expression in the MA-2 and MC-1 cells. This observation indicated the direct regulation of miRNA-214 on the 3'UTR binding sites of the ITGA3 and TFAP2C genes.
+
+Further experiment on protein expression was also conducted on these two particular genes, TFAP2C and ITGA3, and it was shown that miRNA-214 over-expression led to a 30-90% protein decrease in ITGA3 and a 40-80% decrease in TFAP2C (Penna et al., 2011). Consistently, proteins were upregulated 20% in the ITGA3 and 40% in the TFAP2C when miRNA-214 was silenced in the MC-1 cell. This suggests that miRNA-214 importantly regulates the expression of the ITGA3 and TFAP2C genes and promotes melanoma tumor progression when overly expressed.
+
+'''TABLE 2.''' Various genes altered by general mutations or amplification in malignant melanoma
+
+{| class="wikitable"
+|-
+! Gene type !! Gene Name !! Alteration Type !! Frequency of alteration within Melanoma (%)
+|-
+| Proto- oncogenes || NRAS || Mutation || 15- 25
+
+|-
+| || BRAF  || Mutation || 50- 70
+
+|-
+| || KIT  || Mutation || 2- 10
+
+|-
+| || CDK4 || Mutation, amplification || 0- 9
+
+|-
+| || CTNNB1 || Mutation || 2- 23
+
+|-
+| || MITF || Amplification || 10- 16
+
+|-
+| || CCND1 || Amplification|| 6- 44
+
+|-
+| || PIK3CA || Mutation  || &lt;5
+
+|-
+| || AKT3  || Amplification || 40- 60
+
+|-
+| Tumor Suppressor Genes || INK4A || Mutation|| 40- 87
+
+|-
+| || ARF || Mutation|| 40- 70
+
+|-
+| || PTEN || Mutation|| 5- 40
+
+|-
+| || TP53 || Mutation || 0- 25
+|}
+
+ 
+Many genes are altered genetically and epigenetically in cancers, which is one of the reasons cancer is so hard to combat. INK4A and PTEN are two genes that are in both Tables 1 and 2 above, as they are both epigenetically and genetically mutated in melanoma cases. This is not uncommon, as cells need multiple changes to the genome to initiate a change as large as cancer. The epigenetic side of cancer research is growing and uncovering many overlaps like in the cases of INK4A and PTEN, giving a larger, more accurate image of cancer and melanoma. The complexity and variability of cancer epigenetics makes this a growing and important field. Since epigenetic modifications are able to be reversed, this makes them a target for therapeutics and part of the future of cancer combat, and specifically melanoma, due to its deadliness and difficulty to catch. The genes listed above are only the beginning of a long list of available treatment areas that could potentially reverse or prevent melanoma if detected early.
+
+==References==
+&lt;!--- After listing your sources please cite them using inline citations and place them after the information they cite. Please see http://en.wikipedia.org/wiki/Wikipedia:REFB for instructions on how to add citations. ---&gt;
+{{more footnotes|date=May 2014}}
+* Penna, Elisa et al. 2011. “MicroRNA-214 contributes to melanoma tumour progression through suppression of TFAP2C.” The EMBO Journal, Vol. 30, No. 10.
+* Segura, Miguel et al. 2009. “Aberrant miR-182 expression promotes melanoma metastasis by repressing FOXO3 and microphthalmia-associated transcription factor.” The CrossMark Journal, Vol. 106, No. 6.
+* Liu, Shujing ''et al.'' 2012. "Loss of microRNA-205 Expression is associated with Melanoma Progression." Laboratory investigation, Vol. 92, No. 1084-1096.
+* Patino, Willmar D., and Joseph Susa. "Epigenetics of Cutaneous Melanoma."Advances in Dermatology 24 (2008): 59-70. Print.
+* Saha, K., Hornyak, T. J., Eckert, R. L. 2013. “Epigenetic Cancer Prevention Mechanisms in Skin Cancer”. The AAPS Journal, Vol. 15, No. 4.
+* Dahl C, Guldberg P. 2007. “The genome and epigenome of malignant melanoma”. APMIS, vol. 115:1161– 1176. Also referenced for Tables 1 and 2
+* Wan, P.T., Garnett, M.J., Roe, S.M., Lee, S., Niculescu- Duvaz, D., Good, V.M., et al. 2004. “Mechanism of acti- vation of the RAF-ERK signaling pathway by oncogenic mutations of B-RAF”. Cell, vol. 116: 855–67.
+* Sumimoto, H., Miyagishi, M., Miyoshi, H., Yamaga- ta, S., Shimizu, A., Taira, K., et al. 2004. “Inhibition of growth and invasive ability of melanoma by inacti- vation of mutated BRAF with lentivirus-mediated RNA interference”. Oncogene, Vol 23:6031–9.
+* Eskandarpour, M., Kiaii, S., Zhu, C., Castro, J., Sakko, A.J., Hansson, J. 2005. “Suppression of oncogenic NRAS by RNA interference induces apoptosis of human melanoma cells”. International Journal of Cancer, vol 115:65–73.
+* Demunter, A., Stas, M., Degreef, H., De Wolf-Peeters, C., van den Oord, J.J. 2005. “Analysis of N- and K-RAS mutations in the distinctive tumor progression phases of melanoma”. Journal of Investigative Dermatology, vol 117: 1483–9.
+* Stahl, J.M., Sharma, A., Cheung, M., Zimmerman, M., Cheng, J.Q., Bosenberg, M.W., et al. 2004. “Deregulated Akt3 activity promotes development of malignant melanoma”. Cancer Res. vol 64:7002–10.
+* Gonzalgo, M.L., Bender, C.M., You, E.H., Glendening, J.M., Flores, J.F., Walker, G.J., et al. 1997. “Low frequency of p16/CDKN2A methylation in sporadic melanoma: comparative approaches for methylation analysis of primary tumors”. Cancer Res. vol 57:5336–47.
+* Straume, O., Smeds, J., Kumar, R., Hemminki, K., Akslen, L.A. 2002. “Significant impact of promoter hypermethylation and the 540 CT polymorphism of CDKN2A in cutaneous melanoma of the vertical growth phase”. American Journal of Pathology vol 161: 229–37.
+* Rothhammer, T., Bosserhoff A. K. 2007. “Epigenetic events in malignant melanoma”. Pigment Cell Res. vol 20; 92–111.
+* Muthusamy, V., Duraisamy, S., Bradbury, C. M., Hobbs, C., Curley, D. P., Nelson, B., and Bosenberg, M. 2006. “Epigenetic silencing of novel tumor suppressors in malignant melanoma”. Cancer Res. vol 66, 11187–11193.
+* Hoeller C, Thallinger C, Pratscher B, et al. 2005. “The non- receptor- associated tyrosine kinase Syk is a regulator of metastatic behavior in human melanoma cells”. Journal of Investigative Dermatology vol 124:1293–9.
+* NYU Langone Medical Center/New York University School of Medicine. “Micro RNA Plays A Key Role in Melanoma Metastasis.” ScienceDaily. ScienceDaily, 2009.
+* TOCRIS Bioscience. 2014. http://www.tocris.com/pharmacologicalBrowser.php?ItemId=187768&amp;Information=True#.U2FVEdz1hz0
+*O'Donnell KA, Wentzel EA, Zeller KI, Dang CV, Mendell JT. 2005. "c-Myc-regulated microRNAs modulate E2F1 expression". Nature. Vol 435, issue 7043:839–43.
+*He L, Thomson JM, Hemann MT, Hernando-Monge E, Mu D, Goodson S, Powers S, Cordon-Cardo C, Lowe SW, Hannon GJ, Hammond SM. 2005. "A microRNA polycistron as a potential human oncogene". Nature. Vol 435, Issue 7043:828–33.
+*Munshi, A., Kurland, J. F., Nishikawa, T., et al. 2005. "Histone Deacetylase Inhibitors Radiosensitize Human Melanoma Cells by Suppressing DNA Repair Activity". Clin Cancer Res. Vol 11:4912-4922.
+*Rossetto, D., Avvakumov, N., Côté, J. 2012. "Histone phosphorylation: a chromatin modification involved in diverse nuclear events". Epigenetics. Vol 7, 10:1098-108.
+*Warters, R. L., Adamson, P. J., Pond, C. D., Leachman, S. A. 2005. "Melanoma Cells Express Elevated Levels of Phosphorylated Histone H2AX Foci". Journal of Investigative Dermatology. Vol 124, 807–817.
+{{reflist}}
+
+[[Category:Epigenetics]]
+[[Category:Melanoma]]</text>
+      <sha1>ailj4p5xzomvh1roaw3b3wnpvuvyup3</sha1>
+    </revision>
+  </page>
+</mediawiki>

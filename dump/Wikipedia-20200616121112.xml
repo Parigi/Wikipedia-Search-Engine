@@ -1,0 +1,185 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.10/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.10/ http://www.mediawiki.org/xml/export-0.10.xsd" version="0.10" xml:lang="en">
+  <siteinfo>
+    <sitename>Wikipedia</sitename>
+    <dbname>enwiki</dbname>
+    <base>https://en.wikipedia.org/wiki/Main_Page</base>
+    <generator>MediaWiki 1.35.0-wmf.36</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Media</namespace>
+      <namespace key="-1" case="first-letter">Special</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Talk</namespace>
+      <namespace key="2" case="first-letter">User</namespace>
+      <namespace key="3" case="first-letter">User talk</namespace>
+      <namespace key="4" case="first-letter">Wikipedia</namespace>
+      <namespace key="5" case="first-letter">Wikipedia talk</namespace>
+      <namespace key="6" case="first-letter">File</namespace>
+      <namespace key="7" case="first-letter">File talk</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki talk</namespace>
+      <namespace key="10" case="first-letter">Template</namespace>
+      <namespace key="11" case="first-letter">Template talk</namespace>
+      <namespace key="12" case="first-letter">Help</namespace>
+      <namespace key="13" case="first-letter">Help talk</namespace>
+      <namespace key="14" case="first-letter">Category</namespace>
+      <namespace key="15" case="first-letter">Category talk</namespace>
+      <namespace key="100" case="first-letter">Portal</namespace>
+      <namespace key="101" case="first-letter">Portal talk</namespace>
+      <namespace key="108" case="first-letter">Book</namespace>
+      <namespace key="109" case="first-letter">Book talk</namespace>
+      <namespace key="118" case="first-letter">Draft</namespace>
+      <namespace key="119" case="first-letter">Draft talk</namespace>
+      <namespace key="446" case="first-letter">Education Program</namespace>
+      <namespace key="447" case="first-letter">Education Program talk</namespace>
+      <namespace key="710" case="first-letter">TimedText</namespace>
+      <namespace key="711" case="first-letter">TimedText talk</namespace>
+      <namespace key="828" case="first-letter">Module</namespace>
+      <namespace key="829" case="first-letter">Module talk</namespace>
+      <namespace key="2300" case="first-letter">Gadget</namespace>
+      <namespace key="2301" case="first-letter">Gadget talk</namespace>
+      <namespace key="2302" case="case-sensitive">Gadget definition</namespace>
+      <namespace key="2303" case="case-sensitive">Gadget definition talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Lack-of-fit sum of squares</title>
+    <ns>0</ns>
+    <id>18883979</id>
+    <revision>
+      <id>943879903</id>
+      <parentid>913207071</parentid>
+      <timestamp>2020-03-04T11:35:01Z</timestamp>
+      <contributor>
+        <username>InternetArchiveBot</username>
+        <id>27015025</id>
+      </contributor>
+      <comment>Bluelinking 1 books for [[WP:V|verifiability]].) #IABot (v2.1alpha3</comment>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="9731" xml:space="preserve">In [[statistics]], a '''sum of squares due to lack of fit''', or more tersely a '''lack-of-fit sum of squares''', is one of the components of a partition of the [[Sum of squares (statistics)|sum of squares]] of residuals in an [[analysis of variance]], used in the [[numerator]] in an [[F-test]] of the [[null hypothesis]] that says that a proposed model fits well. The other component is the '''pure-error sum of squares'''.
+
+The pure-error sum of squares is the sum of squared deviations of each value of the [[dependent variable]] from the average value over all observations sharing its [[independent variable]] value(s). These are errors that could never be avoided by any predictive equation that assigned a predicted value for the dependent variable as a function of the value(s) of the independent variable(s). The remainder of the residual sum of squares is attributed to lack of fit of the model since it would be mathematically possible to eliminate these errors entirely.
+
+== Sketch of the idea ==
+
+In order for the lack-of-fit sum of squares to differ from the [[Residual sum of squares|sum of squares of residuals]], there must be [[replication (statistics)|more than one]] value of the [[response variable]] for at least one of the values of the set of predictor variables.  For example, consider fitting a line
+
+: &lt;math&gt; y = \alpha x + \beta \, &lt;/math&gt;
+
+by the method of [[least squares]].  One takes as estimates of ''α'' and ''β'' the values that minimize the sum of squares of residuals, i.e., the sum of squares of the differences between the observed ''y''-value and the fitted ''y''-value.  To have a lack-of-fit sum of squares that differs from the residual sum of squares, one must observe more than one ''y''-value for each of one or more of the ''x''-values.  One then partitions the "sum of squares due to error", i.e., the sum of squares of residuals, into two components:
+
+: sum of squares due to error = (sum of squares due to "pure" error) + (sum of squares due to lack of fit).
+
+The sum of squares due to "pure" error is the sum of squares of the differences between each observed ''y''-value and the average of all ''y''-values corresponding to the same ''x''-value.
+
+The sum of squares due to lack of fit is the ''weighted'' sum of squares of differences between each average of ''y''-values corresponding to the same ''x''-value and the corresponding fitted ''y''-value, the weight in each case being simply the number of observed ''y''-values for that ''x''-value.&lt;ref&gt;{{cite book |first=Richard J. |last=Brook |first2=Gregory C. |last2=Arnold |title=Applied Regression Analysis and Experimental Design |publisher=[[CRC Press]] |location= |year=1985 |pages=[https://archive.org/details/appliedregressio0000broo/page/48 48–49] |isbn=0824772520 |url=https://archive.org/details/appliedregressio0000broo/page/48 }}&lt;/ref&gt;&lt;ref&gt;{{cite book |first=John |last=Neter |first2=Michael H. |last2=Kutner |first3=Christopher J. |last3=Nachstheim |first4=William |last4=Wasserman |title=Applied Linear Statistical Models |edition=Fourth |publisher=Irwin |location=Chicago |year=1996 |pages=121–122 |isbn=0256117365 }}&lt;/ref&gt; Because it is a property of least squares regression that the vector whose components are "pure errors" and the vector of lack-of-fit components are orthogonal to each other, the following equality holds:
+
+:&lt;math&gt;
+\begin{align}
+&amp;\sum (\text{observed value} - \text{fitted value})^2  &amp;&amp; \text{(error)} \\
+&amp;\qquad = \sum (\text{observed value} - \text{local average})^2  &amp;&amp; \text{(pure error)} \\
+&amp;\qquad\qquad {} + \sum \text{weight}\times (\text{local average} - \text{fitted value})^2  &amp;&amp; \text{(lack of fit)}
+\end{align}
+&lt;/math&gt;
+
+Hence the residual sum of squares has been completely decomposed into two components.
+
+== Mathematical details ==
+Consider fitting a line with one predictor variable. Define ''i'' as an index of each of the ''n'' distinct ''x'' values, ''j'' as an index of the response variable observations for a given ''x'' value, and ''n''&lt;sub&gt;''i''&lt;/sub&gt; as the number of ''y'' values associated with the ''i'' &lt;sup&gt;th&lt;/sup&gt; ''x'' value.  The value of each response variable observation can be represented by
+
+: &lt;math&gt; Y_{ij} = \alpha x_i + \beta + \varepsilon_{ij},\qquad i = 1,\dots, n,\quad j = 1,\dots,n_i.&lt;/math&gt;
+
+Let
+
+: &lt;math&gt; \widehat\alpha, \widehat\beta \,&lt;/math&gt;
+
+be the [[least squares]] estimates of the unobservable parameters ''α'' and ''β'' based on the observed values of ''x''&lt;sub&gt;&amp;nbsp;''i''&lt;/sub&gt; and ''Y''&lt;sub&gt;&amp;nbsp;''i&amp;nbsp;j''&lt;/sub&gt;.
+
+Let
+
+: &lt;math&gt; \widehat Y_i = \widehat\alpha x_i + \widehat\beta \,&lt;/math&gt;
+
+be the fitted values of the response variable.  Then
+
+: &lt;math&gt; \widehat\varepsilon_{ij} = Y_{ij} - \widehat Y_i \,&lt;/math&gt;
+
+are the [[errors and residuals in statistics|residuals]], which are observable estimates of the unobservable values of the error term&amp;nbsp;''ε''&lt;sub&gt;&amp;nbsp;''ij''&lt;/sub&gt;.  Because of the nature of the method of least squares, the whole vector of residuals, with 
+
+:&lt;math&gt; N = \sum_{i=1}^n n_i &lt;/math&gt;
+
+scalar components, necessarily satisfies the two constraints
+
+: &lt;math&gt; \sum_{i=1}^n \sum_{j=1}^{n_i} \widehat\varepsilon_{ij} = 0 \,&lt;/math&gt;
+
+: &lt;math&gt; \sum_{i=1}^n \left(x_i \sum_{j=1}^{n_i} \widehat\varepsilon_{ij} \right) = 0. \,&lt;/math&gt;
+
+It is thus constrained to lie in an (''N''&amp;nbsp;&amp;minus;&amp;nbsp;2)-dimensional subspace of '''R'''&lt;sup&gt;&amp;nbsp;''N''&lt;/sup&gt;, i.e. there are ''N''&amp;nbsp;&amp;minus;&amp;nbsp;2 "[[degrees of freedom (statistics)|degrees of freedom]] for error".
+
+Now let
+
+: &lt;math&gt; \overline{Y}_{i\bullet} = \frac{1}{n_i} \sum_{j=1}^{n_i} Y_{ij} &lt;/math&gt;
+
+be the average of all ''Y''-values associated with the ''i'' &lt;sup&gt;th&lt;/sup&gt; ''x''-value.
+
+We partition the sum of squares due to error into two components:
+
+:&lt;math&gt;
+\begin{align}
+&amp; \sum_{i=1}^n \sum_{j=1}^{n_i} \widehat\varepsilon_{ij}^{\,2}
+= \sum_{i=1}^n \sum_{j=1}^{n_i} \left( Y_{ij} - \widehat Y_i \right)^2 \\
+&amp; = \underbrace{ \sum_{i=1}^n \sum_{j=1}^{n_i} \left(Y_{ij} - \overline Y_{i\bullet}\right)^2 }_\text{(sum of squares due to pure error)}
++ \underbrace{ \sum_{i=1}^n n_i \left( \overline Y_{i\bullet} - \widehat Y_i \right)^2. }_\text{(sum of squares due to lack of fit)}
+\end{align}
+&lt;/math&gt;
+
+== Probability distributions ==
+
+=== Sums of squares ===
+
+Suppose the [[errors and residuals in statistics|error terms]] ''ε''&lt;sub&gt;&amp;nbsp;''i&amp;nbsp;j''&lt;/sub&gt; are [[statistical independence|independent]] and [[normal distribution|normally distributed]] with [[expected value]]&amp;nbsp;0 and [[variance]]&amp;nbsp;''σ''&lt;sup&gt;2&lt;/sup&gt;.  We treat ''x''&lt;sub&gt;&amp;nbsp;''i''&lt;/sub&gt; as constant rather than random.  Then the response variables ''Y''&lt;sub&gt;&amp;nbsp;''i&amp;nbsp;j''&lt;/sub&gt; are random only because the errors ''ε''&lt;sub&gt;&amp;nbsp;''i&amp;nbsp;j''&lt;/sub&gt; are random.
+
+It can be shown to follow that if the straight-line model is correct, then the '''sum of squares due to error''' divided by the error variance,
+
+: &lt;math&gt; \frac{1}{\sigma^2}\sum_{i=1}^n \sum_{j=1}^{n_i} \widehat\varepsilon_{ij}^{\,2} &lt;/math&gt;
+
+has a [[chi-squared distribution]] with ''N''&amp;nbsp;&amp;minus;&amp;nbsp;2 degrees of freedom.
+
+Moreover, given the total number of observations ''N'', the number of levels of the independent variable ''n,'' and the number of parameters in the model ''p'':
+
+* The sum of squares due to pure error, divided by the error variance ''σ''&lt;sup&gt;2&lt;/sup&gt;, has a chi-squared distribution with ''N''&amp;nbsp;&amp;minus;&amp;nbsp;''n'' degrees of freedom;
+* The sum of squares due to lack of fit, divided by the error variance ''σ''&lt;sup&gt;2&lt;/sup&gt;, has a chi-squared distribution with ''n''&amp;nbsp;&amp;minus;&amp;nbsp;''p'' degrees of freedom (here ''p''&amp;nbsp;=&amp;nbsp;2 as there are two parameters in the straight-line model);
+* The two sums of squares are probabilistically independent.
+
+=== The test statistic ===
+
+It then follows that the statistic
+
+: &lt;math&gt;
+\begin{align}
+F &amp; = \frac{ \text{lack-of-fit sum of squares} /\text{degrees of freedom} }{\text{pure-error sum of squares} / \text{degrees of freedom} } \\[8pt]
+&amp; = \frac{\left.\sum_{i=1}^n n_i \left( \overline Y_{i\bullet} - \widehat Y_i \right)^2\right/ (n-p)}{\left.\sum_{i=1}^n \sum_{j=1}^{n_i} \left(Y_{ij} - \overline Y_{i\bullet}\right)^2 \right/ (N - n)}
+\end{align}
+&lt;/math&gt;
+
+has an [[F-distribution]] with the corresponding number of degrees of freedom in the numerator and the denominator, provided that the model is correct. If the model is wrong, then the probability distribution of the denominator is still as stated above, and the numerator and denominator are still independent.  But the numerator then has a [[noncentral chi-squared distribution]], and consequently the quotient as a whole has a [[non-central F-distribution]].
+
+One uses this F-statistic to test the [[null hypothesis]] that the linear model is correct. Since the non-central F-distribution is [[stochastic order|stochastically larger]] than the (central) F-distribution, one rejects the null hypothesis if the F-statistic is larger than the critical F value.  The critical value corresponds to the [[cumulative distribution function]] of the [[F distribution]] with ''x'' equal to the desired [[confidence level]], and degrees of freedom ''d''&lt;sub&gt;1&lt;/sub&gt;&amp;nbsp;=&amp;nbsp;(''n''&amp;nbsp;&amp;minus;&amp;nbsp;''p'') and ''d''&lt;sub&gt;2&lt;/sub&gt;&amp;nbsp;=&amp;nbsp;(''N''&amp;nbsp;&amp;minus;&amp;nbsp;''n'').
+
+The assumptions of [[normal distribution]] of errors and [[independence (probability theory)|independence]] can be shown to entail that this [[Goodness of fit|lack-of-fit test]] is the [[likelihood-ratio test]] of this null hypothesis.
+
+== See also ==
+* [[Fraction of variance unexplained]]
+* [[Linear regression]]
+
+== Notes ==
+{{reflist}}
+
+[[Category:Analysis of variance]]
+[[Category:Design of experiments]]
+[[Category:Least squares]]
+[[Category:Statistical hypothesis testing]]</text>
+      <sha1>l0m1eevknsbmsdgt0tfnr9a9mkm17bi</sha1>
+    </revision>
+  </page>
+</mediawiki>

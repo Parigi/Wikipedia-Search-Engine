@@ -1,0 +1,202 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.10/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.10/ http://www.mediawiki.org/xml/export-0.10.xsd" version="0.10" xml:lang="en">
+  <siteinfo>
+    <sitename>Wikipedia</sitename>
+    <dbname>enwiki</dbname>
+    <base>https://en.wikipedia.org/wiki/Main_Page</base>
+    <generator>MediaWiki 1.35.0-wmf.36</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Media</namespace>
+      <namespace key="-1" case="first-letter">Special</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Talk</namespace>
+      <namespace key="2" case="first-letter">User</namespace>
+      <namespace key="3" case="first-letter">User talk</namespace>
+      <namespace key="4" case="first-letter">Wikipedia</namespace>
+      <namespace key="5" case="first-letter">Wikipedia talk</namespace>
+      <namespace key="6" case="first-letter">File</namespace>
+      <namespace key="7" case="first-letter">File talk</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki talk</namespace>
+      <namespace key="10" case="first-letter">Template</namespace>
+      <namespace key="11" case="first-letter">Template talk</namespace>
+      <namespace key="12" case="first-letter">Help</namespace>
+      <namespace key="13" case="first-letter">Help talk</namespace>
+      <namespace key="14" case="first-letter">Category</namespace>
+      <namespace key="15" case="first-letter">Category talk</namespace>
+      <namespace key="100" case="first-letter">Portal</namespace>
+      <namespace key="101" case="first-letter">Portal talk</namespace>
+      <namespace key="108" case="first-letter">Book</namespace>
+      <namespace key="109" case="first-letter">Book talk</namespace>
+      <namespace key="118" case="first-letter">Draft</namespace>
+      <namespace key="119" case="first-letter">Draft talk</namespace>
+      <namespace key="446" case="first-letter">Education Program</namespace>
+      <namespace key="447" case="first-letter">Education Program talk</namespace>
+      <namespace key="710" case="first-letter">TimedText</namespace>
+      <namespace key="711" case="first-letter">TimedText talk</namespace>
+      <namespace key="828" case="first-letter">Module</namespace>
+      <namespace key="829" case="first-letter">Module talk</namespace>
+      <namespace key="2300" case="first-letter">Gadget</namespace>
+      <namespace key="2301" case="first-letter">Gadget talk</namespace>
+      <namespace key="2302" case="case-sensitive">Gadget definition</namespace>
+      <namespace key="2303" case="case-sensitive">Gadget definition talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Tianwen-1</title>
+    <ns>0</ns>
+    <id>49516797</id>
+    <revision>
+      <id>961113427</id>
+      <parentid>961016699</parentid>
+      <timestamp>2020-06-06T17:33:43Z</timestamp>
+      <contributor>
+        <username>Spotty's Friend</username>
+        <id>37348975</id>
+      </contributor>
+      <minor/>
+      <comment>/* Overview */ minor spelling fix</comment>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="15311" xml:space="preserve">{{short description|Planned mission by China to place an orbiter, lander and rover on Mars}}
+{{Infobox spaceflight
+| name                  = ''Tianwen-1''
+| names_list            = Huoxing-1 (2018–20)&lt;ref&gt;{{cite web|url=http://www.takungpao.com/news/232108/2019/1012/360558.html|title=﻿中国火星探测器露真容 明年发射|date=2019-10-12}}&lt;/ref&gt;&lt;ref&gt;[https://www.nasa.gov/sites/default/files/atoms/files/ger_2018_small_mobile.pdf The Global Exploration Roadmap]. NASA. International Space Exploration Coordination Group. January 2018.&lt;/ref&gt;&lt;ref name='RM 2018'&gt;[http://www.unoosa.org/documents/pdf/copuos/2018/copuos2018tech19E.pdf China's Deep Space Exploration Roadmap]. 2018.&lt;/ref&gt;
+
+&lt;!--image of the spacecraft/mission--&gt;
+| image                 = Mars Global Remote Sensing Orbiter and Small Rover (2020).png
+| image_caption         = ''Tianwen-1'' undergoing tests in 2019
+| image_alt             = &lt;!--image alt text--&gt;
+| image_size            = &lt;!--include px/em; defaults to 220px--&gt;
+
+&lt;!--Basic details--&gt;
+| mission_type          = Planetary science with an orbiter, lander and rover
+| operator              = [[China National Space Administration|CNSA]] 
+| COSPAR_ID             = &lt;!--spacecraft launched since 1963 only (aka NSSDC ID; eg. 1998-067A)--&gt;
+| SATCAT                = &lt;!--satellite catalogue number, omit leading zeroes (e.g. 25544)--&gt;
+| website               = &lt;!--Homepage of the craft/mission, OFFICIAL PAGES ONLY--&gt;
+| mission_duration      = orbiter: ≥ 1 Earth year&lt;br/&gt; rover: 90 sols&lt;ref name="Xinhua 03212016"&gt;{{cite news |url=http://news.xinhuanet.com/english/2016-03/21/c_135209176.htm |title=China Exclusive: China's aim to explore Mars |work=[[Xinhua News]] |date=21 March 2016 |accessdate=2016-03-24}}&lt;/ref&gt;
+
+| spacecraft_type       = [[List of Mars orbiters|orbiter]], lander, [[Mars rover|rover]]
+| manufacturer          = &lt;!--company or companies who built the satellite--&gt;
+| launch_mass           = Total: {{cvt|5000|kg}}&lt;br/&gt;orbiter: {{cvt|3175|kg}}&lt;br/&gt;rover：{{cvt|240|kg}} 
+| landing_mass          = 
+| dry_mass              = 
+| payload_mass          = 
+| dimensions            = rover: 2.0 m × 1.65 m × 0.8 m 
+| power                 = &lt;!--in watts--&gt;
+
+&lt;!--Launch details--&gt;
+| launch_date           = July 23, 2020&lt;ref name="ChinaDaily23Jan2020"&gt;{{cite news |url=https://www.chinadaily.com.cn/a/202001/23/WS5e2963eea310128217273086.html |title=China to launch Mars probe in July |work=[[ChinaDaily.com]] |date=23 January 2020 |accessdate=2020-01-23}}&lt;/ref&gt;&lt;ref name="reuters20160824"/&gt;&lt;ref name="spaceflightfans.cn"/&gt; &lt;!--{{start date|YYYY|MM|DD|hh|mm|ss|TZ=Z}}--&gt;
+| launch_rocket         = [[Long March 5]]
+| launch_site           = [[Wenchang Spacecraft Launch Site]] LC101 
+| launch_contractor     = [[China Aerospace Science and Technology Corporation]]
+
+{{Infobox spaceflight/IP
+   |type                = orbiter
+   |object              = [[Mars]] 
+   |orbits              = &lt;!--number of orbits completed at target body (if applicable and known)--&gt;
+   |component           = orbiter
+   |arrival_date        = February 11 to February 24, 2021&lt;ref name="spaceflightfans.cn"/&gt;
+ }}
+
+{{Infobox spaceflight/IP
+   |type                = lander
+   |object              = Mars
+   |component           = lander&lt;ref name="CGTN14Nov2019"&gt;{{cite news |url=https://news.cgtn.com/news/2019-11-14/It-s-official-China-s-first-Mars-lander-makes-debut-LBZ6WsMviE/index.html |title=It's official: China's first Mars lander debuts |work=[[China Global Television Network]] |date=14 November 2019 |accessdate=2020-01-08}}&lt;/ref&gt;
+   |arrival_date        = April 23, 2021&lt;ref name="spaceflightfans.cn"/&gt; (proposed) 
+   |location            = [[Utopia Planitia]] (2 preliminary sites)&lt;ref name="IEEE2019article"/&gt;
+ }}
+
+{{Infobox spaceflight/IP
+   |type                = rover
+   |object              = Mars
+   |component           = rover
+   |arrival_date        = after April 23, 2021&lt;ref name="spaceflightfans.cn"/&gt; (proposed) 
+   |location            = Utopia Planitia (2 preliminary sites)&lt;ref name="IEEE2019article"/&gt;
+ }}
+
+&lt;!--mission insignia or patch--&gt;
+| insignia              = &lt;!--omit the "file" prefix--&gt;
+| insignia_caption      = 
+| insignia_alt          = &lt;!--image alt text--&gt;
+| insignia_size         = &lt;!--include px/em; defaults to 180px--&gt;
+}}
+
+'''''Tianwen-1''''' (known as '''Huoxing-1''', '''HX-1''' during development&lt;ref&gt;{{cite web|url=http://www.takungpao.com/news/232108/2019/1012/360558.html|title=﻿中国火星探测器露真容 明年发射|date=2019-10-12}}&lt;/ref&gt;) is a planned mission by China to send a spacecraft, which consists of an orbiter, a lander and a rover, to [[Mars]].&lt;ref name="Jones20180209"&gt;{{cite news |last=Jones |first=Andrew |url=https://gbtimes.com/china-simulates-mars-landing-in-preparation-for-2020-mission |title=China simulates Mars landing in preparation for 2020 mission |work=GBTimes |date=9 February 2018 |accessdate=3 March 2018}}&lt;/ref&gt; The name "Tianwen" ({{zh |c = {{linktext|天問}}}}), which means [[Heavenly Questions]] or Questions to Heaven, comes from the long poem of the same name written by [[Qu Yuan]] (about 340–278 BC), one of the greatest poets of ancient China.&lt;ref name="04242020Xinhua"&gt;{{cite news |url=http://www.xinhuanet.com/english/2020-04/24/c_139004153.htm|title=China's First Mars Exploration Mission Named Tianwen-1. |work=XinhuaNet |date=24 April 2020 |accessdate=24 April 2020}}&lt;/ref&gt; The mission is planned to be launched in July 2020&lt;ref name="reuters20160824"&gt;{{cite web|title=China shows first images of Mars rover, aims for 2020 mission|url=https://www.reuters.com/article/us-china-space-mars-idUSKCN10Z07B|publisher=[[Reuters]]|accessdate=24 August 2016}}&lt;/ref&gt;&lt;ref&gt;{{cite web|title=Interview with Zhang Rongqiao, the man behind China's mission to Mars|url=https://www.youtube.com/watch?v=XiJE5x9Lc80|website=Youtube|accessdate=24 August 2016|quote=[[China Central Television]]}}&lt;/ref&gt; with a [[Long March 5]] heavy lift rocket.&lt;ref name="Jones 2015"&gt;{{cite news |last=Jones |first=Andrew |url=https://gbtimes.com/china-racing-make-2020-launch-window-mars |title=China is racing to make the 2020 launch window to Mars |work=GBTimes |date=22 February 2016 |accessdate=2016-02-22}}&lt;/ref&gt;&lt;ref&gt;{{cite news |last=Berger |first=Eric |title=China pressing ahead with orbiter and lander mission to Mars |work=[[Ars Technica]] |date=22 February 2016 |url=https://arstechnica.com/science/2016/02/china-pressing-ahead-with-orbiter-and-lander-mission-to-mars/ |accessdate=2016-02-23}}&lt;/ref&gt;&lt;ref&gt;{{cite news |last=Lu |first=Shen |url=http://www.cnn.com/2015/11/04/asia/china-mars-probe-2020/ |title=China says it plans to land rover on Mars in 2020 |work=[[CNN News]] |date=4 November 2016 |accessdate=2016-02-23}}&lt;/ref&gt; Its stated objectives are to search for evidence of both current and past life, and to assess the planet's environment.&lt;ref name="Xinhua 03212016"/&gt;&lt;ref name='Radar 2016'/&gt;
+
+==Overview==
+China's Mars program started in partnership with Russia. In November 2011, the Russian spacecraft [[Fobos-Grunt]], destined for Mars and [[Phobos (moon)|Phobos]], was launched from [[Baikonur Cosmodrome]]; the Russian spacecraft carried with it an attached secondary spacecraft: [[Yinghuo-1]], which was intended to become China's first Mars orbiter ([[Fobos-Grunt]] also carried experiments from the [[Planetary Society]] and from [[Bulgaria]]). However, [[Fobos-Grunt]]'s main propulsion unit failed to boost the Mars-bound stack from its initial Earth parking orbit and the combined multinational spacecrafts and experiments eventually reentered Earth's atmosphere in January 2012&lt;ref name=RIANovostifalls&gt;{{cite news|last=Zolotukhin|first=Alexei|title=Russian Phobos-Grunt Mars probe falls in Pacific Ocean|url=http://en.rian.ru/world/20120115/170769403.html|accessdate=16 January 2012|agency=RIA Novosti|date=15 January 2012|quote=Phobos-Grunt fragments have crashed down in the Pacific Ocean}}&lt;/ref&gt;. China subsequently began an independent Mars project&lt;ref&gt;{{cite news |last=Nan |first=Wu |url=http://www.scmp.com/news/china/article/1539568/next-stop-mars-china-aims-send-rover-red-planet-within-six-years |title=Next stop – Mars: China aims to send rover to Red Planet within six years |work=[[South China Morning Post]] |date=24 June 2014 |accessdate=2016-02-23}}&lt;/ref&gt; and the current mission, which was formally approved by Chinese authorities in early 2016&lt;ref name="IEEE2019article"&gt;{{cite news | last=Jones | first=Andrew | url=https://spectrum.ieee.org/tech-talk/aerospace/robotic-exploration/china-says-its-mars-landing-technology-is-ready-for-2020 | title=China Says Its Mars Landing Technology Is Ready For 2020 | work=IEEE Spectrum | date=8 November 2019 | accessdate=2019-12-30 }}&lt;/ref&gt;, is the result.
+
+The new Chinese Mars spacecraft, consisting of an orbiter and a lander (with an attached rover) is developed by the [[China Aerospace Science and Technology Corporation]] (CASC), and managed by the National Space Science Centre (NSSC) in Beijing.&lt;ref name="Jones 2015"/&gt; The lander portion of the spacecraft will use a parachute, retrorockets, and an [[Airbag#Airbag landing systems|airbag]] in order to achieve landing on the Martian surface.&lt;ref name="GB Times"&gt;{{cite news |last=Jones |first=Andrew |url=https://gbtimes.com/china-reveals-more-details-its-2020-mars-mission |title=China reveals more details of its 2020 Mars mission |work=GB Times |date=21 March 2016 |accessdate=2016-03-22}}&lt;/ref&gt; If the landing is successful, the lander would then release a rover. Said rover will be powered by [[Solar panels on spacecraft|solar panels]] and is expected to probe the Martian surface with radar and to perform chemical analyses on the [[Martian soil|soil]]; it would also look for [[biomolecules]] and [[biosignatures]].&lt;ref name="Xinhua 03212016"/&gt;
+
+The aims of the mission may include the following: find evidence for current and past life, produce Martian surface maps, characterize Martian soil composition and water ice distribution, examine the Martian atmosphere, and in particular, its ionosphere, among others.&lt;ref&gt;{{Cite book|chapter=The subsurface penetrating radar on the rover of China's Mars 2020 mission|last=Zhou|title=2016 16th International Conference on Ground Penetrating Radar (GPR)|pages=1–4|display-authors=etal|date=13–16 June 2016|doi=10.1109/ICGPR.2016.7572700|isbn=978-1-5090-5181-6}}&lt;/ref&gt; Simulated Martian landings have been performed as part of mission preparations by the Beijing Institute of Space Mechanics and Electricity.&lt;ref name="Jones20180209" /&gt;
+
+The current Mars mission also would serve as a demonstration of technology that will be needed for an anticipated Chinese Mars sample-return mission proposed for the 2030s.&lt;ref name="Jones 2015"/&gt; There was also a plan that involved using the current mission to cache Martian rock and soil samples for retrieval by the later sample-return mission.&lt;ref&gt;[https://www.inquisitr.com/5253291/china-mars-probe-2020/ China Plans To Land A Rover On Mars In 2020.] Alexandra Lozovschi, ''Inquisitr''. January 17, 2019.&lt;/ref&gt;
+
+==Mission planning==
+In late 2019, the Xi'an Aerospace Propulsion Institute, a subsidiary of [[China Aerospace Science and Technology Corporation|CASC]], stated that the performance and control of the future spacecraft's propulsion system has been verified and had passed all requisite pre-flight tests, including tests for hovering, hazard avoidance, deceleration, and landing. The main component of the lander's propulsion system consists of a single engine that provides 7,500 Newtons of thrust. The spacecraft's supersonic parachute system had also been successfully tested previously.&lt;ref name="IEEE2019article"/&gt;
+
+[[CNSA]] initially focused on the Chryse Planitia and on the Elysium Mons regions of Mars in its search for possible landing sites for the lander and its associated rover. However, in September 2019, during a joint meeting in Geneva of the European Planetary Science Congress-Division for Planetary Sciences, Chinese presenters announced that two preliminary sites in the [[Utopia Planitia]] region of Mars have instead been chosen for the anticipated landing attempt, with each site having a landing ellipse of approximately 100 by 40 kilometers.&lt;ref name="IEEE2019article"/&gt;
+
+On January 23, 2020, [[China Youth Daily]] reported that, according to sources from [[China Aerospace Science and Technology Corporation|CASC]], the Mars probe will be launched in July 2020 by the [[Long March 5]] Y4 carrier rocket. This was the first time that China has officially announced the month in which the probe will be launched from Earth.&lt;ref name="ChinaDaily23Jan2020"/&gt; The newspaper also reported that the Long March 5 Y4 rocket's hydrogen-oxygen engine has completed a 100-seconds test, which was the last engine test prior to the final assembly of the carrier rocket.
+
+[[File:Mars_Global_Remote_Sensing_Orbiter_and_Small_Rover_at_IAC_Bremen_2018_02.jpg|thumb
+|Mockup of the rover at the 69th [[International Astronautical Congress]] ]]
+
+==Scientific instruments==
+The orbiter and rover will carry a total of 12 instruments:&lt;ref name="Jones 2015"/&gt;
+;Orbiter
+*Medium Resolution Camera (MRC) with a resolution of 100&amp;nbsp;m from a 400&amp;nbsp;km orbit&lt;ref name="Jones20180209" /&gt;
+*High Resolution Camera (HRC) with a resolution of 2&amp;nbsp;m from a 400&amp;nbsp;km orbit&lt;ref name="Jones20180209" /&gt;
+*Mars [[Magnetometer]] (MM)
+*Mars Mineral Spectrometer (MMS), to determine elementary composition
+*Orbiter Subsurface Radar (OSR)
+*Mars Ion and Neutral Particle Analyzer (MINPA)&lt;ref name="spaceflightfans.cn"&gt;[http://www.spaceflightfans.cn/28219.html 2020中国火星探测计划（根据叶院士报告整理] Published in 2018.&lt;/ref&gt;
+;Rover
+*[[Ground-Penetrating Radar]] (GPR), to image about {{convert|100|m|abbr=on}} below the Martian surface&lt;ref name='Radar 2016'&gt;[https://ieeexplore.ieee.org/abstract/document/7572700/ The subsurface penetrating radar on the rover of China's Mars 2020 mission]. B. Zhou, S. X. Shen, Y. C. Ji, etal. 2016 16th International Conference on Ground Penetrating Radar (GPR). 13–16 June 2016.&lt;/ref&gt; 
+*Mars Surface Magnetic Field Detector (MSMFD)
+*Mars Meteorological Measurement Instrument (MMMI)
+*Mars Surface Compound Detector (MSCD)
+*Multi-Spectrum Camera (MSC)
+*Navigation and Topography Camera (NTC)&lt;ref name="spaceflightfans.cn"/&gt;
+
+==See also==
+{{div col|colwidth=30em}}
+* {{annotated link|Astrobiology}}
+* {{annotated link|Climate of Mars}}
+* {{annotated link|ExoMars|ExoMars rover}}
+* {{annotated link|Exploration of Mars}}
+* {{annotated link|Life on Mars}}
+* {{annotated link|List of missions to Mars}}
+* {{annotated link|Mars 2020}}
+* {{annotated link|Mars Orbiter Mission}}
+* {{annotated link|Mars sample return mission}} 
+{{div col end}}
+
+== References ==
+{{Reflist}}
+
+== External links ==
+* {{Commons category-inline|Mars Global Remote Sensing Orbiter and Small Rover}}
+
+{{-}}
+{{Mars spacecraft}}
+{{Chinese spacecraft}}
+{{Astrobiology}}
+{{Future spaceflights}}
+{{2020 in space}}
+{{Portal bar|China|Solar System|Spaceflight}}
+
+[[Category:Chinese space probes]]
+[[Category:Mars rovers]]
+[[Category:Missions to Mars]]
+[[Category:Proposed space probes]]
+[[Category:Proposed astrobiology space missions]]
+[[Category:Six-wheeled robots]]
+[[Category:2020 in spaceflight]]
+[[Category:2020 in China]]</text>
+      <sha1>jc85y79vlrzec0e2gbb1enmish2mbvd</sha1>
+    </revision>
+  </page>
+</mediawiki>

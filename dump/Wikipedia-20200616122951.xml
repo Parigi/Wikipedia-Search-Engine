@@ -1,0 +1,105 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.10/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.10/ http://www.mediawiki.org/xml/export-0.10.xsd" version="0.10" xml:lang="en">
+  <siteinfo>
+    <sitename>Wikipedia</sitename>
+    <dbname>enwiki</dbname>
+    <base>https://en.wikipedia.org/wiki/Main_Page</base>
+    <generator>MediaWiki 1.35.0-wmf.36</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Media</namespace>
+      <namespace key="-1" case="first-letter">Special</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Talk</namespace>
+      <namespace key="2" case="first-letter">User</namespace>
+      <namespace key="3" case="first-letter">User talk</namespace>
+      <namespace key="4" case="first-letter">Wikipedia</namespace>
+      <namespace key="5" case="first-letter">Wikipedia talk</namespace>
+      <namespace key="6" case="first-letter">File</namespace>
+      <namespace key="7" case="first-letter">File talk</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki talk</namespace>
+      <namespace key="10" case="first-letter">Template</namespace>
+      <namespace key="11" case="first-letter">Template talk</namespace>
+      <namespace key="12" case="first-letter">Help</namespace>
+      <namespace key="13" case="first-letter">Help talk</namespace>
+      <namespace key="14" case="first-letter">Category</namespace>
+      <namespace key="15" case="first-letter">Category talk</namespace>
+      <namespace key="100" case="first-letter">Portal</namespace>
+      <namespace key="101" case="first-letter">Portal talk</namespace>
+      <namespace key="108" case="first-letter">Book</namespace>
+      <namespace key="109" case="first-letter">Book talk</namespace>
+      <namespace key="118" case="first-letter">Draft</namespace>
+      <namespace key="119" case="first-letter">Draft talk</namespace>
+      <namespace key="446" case="first-letter">Education Program</namespace>
+      <namespace key="447" case="first-letter">Education Program talk</namespace>
+      <namespace key="710" case="first-letter">TimedText</namespace>
+      <namespace key="711" case="first-letter">TimedText talk</namespace>
+      <namespace key="828" case="first-letter">Module</namespace>
+      <namespace key="829" case="first-letter">Module talk</namespace>
+      <namespace key="2300" case="first-letter">Gadget</namespace>
+      <namespace key="2301" case="first-letter">Gadget talk</namespace>
+      <namespace key="2302" case="case-sensitive">Gadget definition</namespace>
+      <namespace key="2303" case="case-sensitive">Gadget definition talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>F-test of equality of variances</title>
+    <ns>0</ns>
+    <id>26429557</id>
+    <revision>
+      <id>924492652</id>
+      <parentid>889802078</parentid>
+      <timestamp>2019-11-04T05:15:17Z</timestamp>
+      <contributor>
+        <ip>221.125.10.229</ip>
+      </contributor>
+      <comment>/* The test */</comment>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="5844" xml:space="preserve">{{DISPLAYTITLE:''F''-test of equality of variances}}
+In statistics, an '''''F''-test of equality of variances''' is a [[statistical test|test]] for the [[null hypothesis]] that two [[normal distribution|normal]] populations have the same [[variance]]. 
+Notionally, any [[F-test|''F''-test]] can be regarded as a comparison of two variances, but the specific case being discussed in this article is that of two populations, where the [[test statistic]] used is the ratio of two [[sample variance]]s &lt;ref&gt;Snedecor, George W. and Cochran, William G. (1989), Statistical Methods, Eighth Edition, Iowa State University Press.&lt;/ref&gt;. This particular situation is of importance in [[mathematical statistics]] since it provides a basic exemplar case in which the [[F-distribution]] can be derived.&lt;ref&gt;Johnson, N.L., Kotz, S., Balakrishnan, N. (1995) ''Continuous Univariate Distributions, Volume 2'', Wiley.  {{ISBN|0-471-58494-0}} (Section 27.1)&lt;/ref&gt;  For application in [[applied statistics]], there is concern{{Citation needed|date=May 2010}} that the test is so sensitive to the assumption of normality that it would be inadvisable to use it as a routine test for the equality of variances. In other words, this is a case where "approximate normality" (which in similar contexts would often be justified using the [[central limit theorem]]), is not good enough to make the test procedure approximately valid to an acceptable degree.
+
+== The test ==
+
+Let ''X''&lt;sub&gt;1&lt;/sub&gt;,&amp;nbsp;...,&amp;nbsp;''X''&lt;sub&gt;''n''&lt;/sub&gt; and ''Y''&lt;sub&gt;1&lt;/sub&gt;,&amp;nbsp;...,&amp;nbsp;''Y''&lt;sub&gt;''m''&lt;/sub&gt; be [[independent and identically distributed]] samples from two populations which each has a [[normal distribution]]. The [[expected value]]s for the two populations can be different, and the hypothesis to be tested is that the variances are equal. Let
+
+: &lt;math&gt; \overline{X} = \frac{1}{n}\sum_{i=1}^n X_i\text{  and  }\overline{Y} = \frac{1}{m}\sum_{i=1}^m Y_i&lt;/math&gt;
+
+be the [[sample mean]]s.  Let
+
+: &lt;math&gt; S_X^2 = \frac{1}{n-1}\sum_{i=1}^n \left(X_i - \overline{X}\right)^2\text{  and  }S_Y^2 = \frac{1}{m-1}\sum_{i=1}^m \left(Y_i - \overline{Y}\right)^2 &lt;/math&gt;
+
+be the [[sample variance]]s.  Then the test statistic
+
+: &lt;math&gt; F = \frac{S_X^2}{S_Y^2} &lt;/math&gt;
+
+has an [[F-distribution]] with ''n''&amp;nbsp;&amp;minus;&amp;nbsp;1 and ''m''&amp;nbsp;&amp;minus;&amp;nbsp;1 degrees of freedom if the [[null hypothesis]] of equality of variances is true.  Otherwise it follows an F-distribution scaled by the ratio of true variances.  The null hypothesis is rejected if ''F'' is either too large or too small based on the desired alpha level (i.e., [[statistical significance]]).
+
+== Properties ==
+This F-test is known to be extremely sensitive to [[normal distribution|non-normality]],&lt;ref&gt;{{cite journal | last=Box | first=G.E.P. |authorlink=George E. P. Box| journal=Biometrika | year=1953 | title=Non-Normality and Tests on Variances  | pages=318–335 | volume=40 | jstor=2333350 | issue=3/4 | doi=10.1093/biomet/40.3-4.318}}&lt;/ref&gt;&lt;ref&gt;{{cite journal | last=Markowski | first=Carol A |author2=Markowski, Edward P. | year = 1990 | title=Conditions for the Effectiveness of a Preliminary Test of Variance | journal=The American Statistician | pages=322–326 | volume=44 | jstor=2684360 | doi=10.2307/2684360 | issue=4}}&lt;/ref&gt; so [[Levene's test]], [[Bartlett's test]], or the [[Brown–Forsythe test]] are better tests for testing the equality of two variances. (However, all of these tests create experiment-wise [[type I error]] inflations when conducted as a test of the assumption of [[homoscedasticity]] prior to a test of effects.&lt;ref&gt;Sawilowsky, S. (2002). [http://digitalcommons.wayne.edu/coe_tbf/23 "Fermat, Schubert, Einstein, and Behrens–Fisher:The Probable Difference Between Two Means When σ&lt;sub&gt;1&lt;/sub&gt;&lt;sup&gt;2&lt;/sup&gt; ≠ σ&lt;sub&gt;2&lt;/sub&gt;&lt;sup&gt;2&lt;/sup&gt;"], ''Journal of Modern Applied Statistical Methods'', ''1''(2), 461–472.&lt;/ref&gt;) F-tests for the equality of variances can be used in practice, with care, particularly where a quick check is required, and subject to associated diagnostic checking: practical text-books&lt;ref&gt;Rees, D.G. (2001) ''Essential Statistics (4th Edition)'', Chapman &amp; Hall/CRC, {{ISBN|1-58488-007-4}}. Section 10.15&lt;/ref&gt; suggest both graphical and formal checks of the assumption.
+
+[[F-test]]s are used for other statistical [[hypothesis test|tests of hypotheses]], such as testing for differences in means in three or more groups, or in factorial layouts. These F-tests are generally not [[robust statistics|robust]] when there are violations of the assumption that each population follows the [[normal distribution]], particularly for small alpha levels and unbalanced layouts.&lt;ref&gt;{{cite journal |last=Blair |first=R. C. |year=1981 |title=A reaction to ‘Consequences of failure to meet assumptions underlying the fixed effects analysis of variance and covariance’ |journal=[[Review of Educational Research]] |volume=51 |issue= |pages=499–507 |doi=10.3102/00346543051004499 }}&lt;/ref&gt; However, for large alpha levels (e.g., at least 0.05) and balanced layouts, the F-test is relatively robust, although (if the normality assumption does not hold) it suffers from a loss in comparative statistical power as compared with non-parametric counterparts.
+
+==Generalization==
+The immediate generalization of the problem outlined above is to situations where there are more than two groups or populations, and the hypothesis is that all of the variances are equal. This is the problem treated by [[Hartley's test]] and [[Bartlett's test]].
+
+==See also==
+*[[Goldfeld–Quandt test]]
+*[[Levene's test]]
+*[[Bartlett's test]]
+*[[Brown–Forsythe test]]
+
+==References==
+{{reflist|30em}}
+
+{{Statistics}}
+
+{{DEFAULTSORT:F-Test Of Equality Of Variances}}
+[[Category:Statistical ratios]]
+[[Category:Statistical tests]]
+[[Category:Statistical deviation and dispersion]]</text>
+      <sha1>4t21gmif6q9l5gubzzztoq6w7bn8e44</sha1>
+    </revision>
+  </page>
+</mediawiki>

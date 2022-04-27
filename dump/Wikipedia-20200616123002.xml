@@ -1,0 +1,666 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.10/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.10/ http://www.mediawiki.org/xml/export-0.10.xsd" version="0.10" xml:lang="en">
+  <siteinfo>
+    <sitename>Wikipedia</sitename>
+    <dbname>enwiki</dbname>
+    <base>https://en.wikipedia.org/wiki/Main_Page</base>
+    <generator>MediaWiki 1.35.0-wmf.36</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Media</namespace>
+      <namespace key="-1" case="first-letter">Special</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Talk</namespace>
+      <namespace key="2" case="first-letter">User</namespace>
+      <namespace key="3" case="first-letter">User talk</namespace>
+      <namespace key="4" case="first-letter">Wikipedia</namespace>
+      <namespace key="5" case="first-letter">Wikipedia talk</namespace>
+      <namespace key="6" case="first-letter">File</namespace>
+      <namespace key="7" case="first-letter">File talk</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki talk</namespace>
+      <namespace key="10" case="first-letter">Template</namespace>
+      <namespace key="11" case="first-letter">Template talk</namespace>
+      <namespace key="12" case="first-letter">Help</namespace>
+      <namespace key="13" case="first-letter">Help talk</namespace>
+      <namespace key="14" case="first-letter">Category</namespace>
+      <namespace key="15" case="first-letter">Category talk</namespace>
+      <namespace key="100" case="first-letter">Portal</namespace>
+      <namespace key="101" case="first-letter">Portal talk</namespace>
+      <namespace key="108" case="first-letter">Book</namespace>
+      <namespace key="109" case="first-letter">Book talk</namespace>
+      <namespace key="118" case="first-letter">Draft</namespace>
+      <namespace key="119" case="first-letter">Draft talk</namespace>
+      <namespace key="446" case="first-letter">Education Program</namespace>
+      <namespace key="447" case="first-letter">Education Program talk</namespace>
+      <namespace key="710" case="first-letter">TimedText</namespace>
+      <namespace key="711" case="first-letter">TimedText talk</namespace>
+      <namespace key="828" case="first-letter">Module</namespace>
+      <namespace key="829" case="first-letter">Module talk</namespace>
+      <namespace key="2300" case="first-letter">Gadget</namespace>
+      <namespace key="2301" case="first-letter">Gadget talk</namespace>
+      <namespace key="2302" case="case-sensitive">Gadget definition</namespace>
+      <namespace key="2303" case="case-sensitive">Gadget definition talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Pearson's chi-squared test</title>
+    <ns>0</ns>
+    <id>226676</id>
+    <revision>
+      <id>957219564</id>
+      <parentid>956308209</parentid>
+      <timestamp>2020-05-17T18:06:02Z</timestamp>
+      <contributor>
+        <username>Probabilator</username>
+        <id>39251307</id>
+      </contributor>
+      <comment>/* Definition */</comment>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="37267" xml:space="preserve">{{short description|evaluates how likely it is that any difference between data sets arose by chance}}
+{{about|the particular test|the more general category of tests|Chi-squared test}}
+{{Use dmy dates|date=January 2020}}
+
+'''Pearson's chi-squared test''' (&lt;math&gt;\chi^2&lt;/math&gt;) is a statistical test applied to sets of [[categorical data]] to evaluate how likely it is that any observed difference between the sets arose by chance. It is the most widely used of many [[chi-squared test]]s (e.g., [[Yates's correction for continuity|Yates]], [[Likelihood-ratio test|likelihood ratio]], [[Portmanteau test|portmanteau test in time series]], etc.) – [[Statistics|statistical]] procedures whose results are evaluated by reference to the [[chi-squared distribution]]. Its properties were first investigated by [[Karl Pearson]] in 1900.&lt;ref&gt;{{Cite journal | last = Pearson | first = Karl | authorlink = Karl Pearson | title = On the criterion that a given system of deviations from the probable in the case of a correlated system of variables is such that it can be reasonably supposed to have arisen from random sampling | doi = 10.1080/14786440009463897 | journal = Philosophical Magazine |series=Series 5 | volume = 50 | issue = 302 | pages = 157–175 | year = 1900 | url = http://www.economics.soton.ac.uk/staff/aldrich/1900.pdf }}&lt;/ref&gt; In contexts where it is important to improve a distinction between the [[test statistic]] and its distribution, names similar to ''Pearson χ-squared'' test or statistic are used.
+
+It tests a [[null hypothesis]] stating that the [[frequency distribution]] of certain [[event (probability theory)|event]]s observed in a [[Sample (statistics)|sample]] is consistent with a particular theoretical distribution. The events considered must be mutually exclusive and have total probability 1. A common case for this is where the events each cover an outcome of a [[categorical variable]]. 
+A simple example is the hypothesis that an ordinary six-sided {{dice}} is "fair" (i. e., all six outcomes are equally likely to occur.)
+
+==Definition==
+Pearson's chi-squared test is used to assess three types of comparison: [[goodness of fit]], [[homogeneity (statistics)|homogeneity]], and [[Independence (probability theory)|independence]].
+* A test of goodness of fit establishes whether an observed [[frequency distribution]] differs from a theoretical distribution.
+* A test of homogeneity compares the distribution of counts for two or more groups using the same categorical variable (e.g. choice of activity—college, military, employment, travel—of graduates of a high school reported a year after graduation, sorted by graduation year, to see if number of graduates choosing a given activity has changed from class to class, or from decade to decade).&lt;ref name="Bock"&gt;David E. Bock, Paul F. Velleman, Richard D. De Veaux (2007). "Stats, Modeling the World," pp.&amp;nbsp;606-627, Pearson Addison Wesley, Boston, {{ISBN|0-13-187621-X}}&lt;/ref&gt;
+* A test of independence assesses whether observations consisting of measures on two variables, expressed in a [[contingency table]], are independent of each other (e.g. polling responses from people of different nationalities to see if one's nationality is related to the response).
+
+For all three tests, the computational procedure includes the following steps:
+# Calculate the chi-squared test [[statistic]], ''χ''², which resembles a [[Normalization (statistics)|normalized]] sum of squared deviations between observed and theoretical [[Frequency (statistics)|frequencies]] (see below).
+# Determine the [[degrees of freedom (statistics)|degrees of freedom]], '''df''', of that statistic.
+## For a test of goodness-of-fit, {{nobreak|1= df = Cats &amp;minus; Parms}}, where ''Cats'' is the number of observation categories recognized by the model, and ''Parms'' is the number of parameters in the model adjusted to make the model best fit the observations: The number of categories reduced by the number of fitted parameters in the distribution.
+## For test of homogeneity, {{nobreak|1= df = (Rows &amp;minus; 1)×(Cols &amp;minus; 1)}}, where ''Rows'' corresponds to the number of categories (i.e. rows in the associated contingency table), and ''Cols'' corresponds the number of independent groups (i.e. columns in the associated contingency table).&lt;ref name="Bock" /&gt;
+## For test of independence, {{nobreak|1= df = (Rows &amp;minus; 1)×(Cols &amp;minus; 1)}}, where in this case, ''Rows'' corresponds to number of categories in one variable, and ''Cols'' corresponds to number of categories in the second variable.&lt;ref name="Bock" /&gt;
+# Select a desired level of confidence ([[significance level]], [[p-value]] or the corresponding [[alpha level]]) for the result of the test.
+# Compare &lt;math&gt;\chi^2&lt;/math&gt; to the critical value from the [[chi-squared distribution]] with ''df'' degrees of freedom and the selected confidence level (one-sided since the test is only one direction, i.e. is the test value greater than the critical value?), which in many cases gives a good approximation of the distribution of &lt;math&gt;\chi^2&lt;/math&gt;.
+# Sustain or reject the null hypothesis that the observed frequency distribution is the same as the theoretical distribution based on whether the test statistic exceeds the critical value of &lt;math&gt;\chi^2&lt;/math&gt;. If the test statistic exceeds the critical value of &lt;math&gt;\chi^2&lt;/math&gt;, the null hypothesis (&lt;math&gt;H_0&lt;/math&gt; = there is ''no'' difference between the distributions) can be rejected, and the alternative hypothesis (&lt;math&gt;H_1&lt;/math&gt; = there ''is'' a difference between the distributions) can be accepted, both with the selected level of confidence. If the test statistic falls below the threshold &lt;math&gt;\chi^2&lt;/math&gt; value, then no clear conclusion can be reached, and the null hypothesis is sustained (we failed to reject the null hypothesis), but not necessarily accepted.
+
+==Test for fit of a distribution==
+
+===Discrete uniform distribution===
+
+In this case &lt;math&gt;N&lt;/math&gt; observations are divided among &lt;math&gt;n&lt;/math&gt; cells. A simple application is to test the hypothesis that, in the general population, values would occur in each cell with equal frequency. The "theoretical frequency" for any cell (under the null hypothesis of a [[discrete uniform distribution]]) is thus calculated as
+:&lt;math&gt;E_i=\frac{N}{n}\, ,&lt;/math&gt;
+and the reduction in the degrees of freedom is &lt;math&gt;p=1&lt;/math&gt;, notionally because the observed frequencies &lt;math&gt;O_i&lt;/math&gt; are constrained to sum to &lt;math&gt;N&lt;/math&gt;.
+
+One specific example of its application would be its application for log-rank test.
+
+===Other distributions===
+
+When testing whether observations are random variables whose distribution belongs to a given family of distributions, the "theoretical frequencies" are calculated using a distribution from that family fitted in some standard way. The reduction in the degrees of freedom is calculated as &lt;math&gt;p=s+1&lt;/math&gt;, where &lt;math&gt;s&lt;/math&gt; is the number of [[Covariate|co-variates]] used in fitting the distribution. For instance, when checking a three-co-variate Weibull distribution, &lt;math&gt;p=4&lt;/math&gt;, and when checking a normal distribution (where the parameters are mean and standard deviation), &lt;math&gt;p=3&lt;/math&gt;, and when checking a Poisson distribution (where the parameter is the expected value), &lt;math&gt;p=2&lt;/math&gt;. Thus, there will be &lt;math&gt;n-p&lt;/math&gt; degrees of freedom, where &lt;math&gt;n&lt;/math&gt; is the number of categories.
+
+The degrees of freedom are not based on the number of observations as with a [[Student's t]] or [[F-distribution]]. For example, if testing for a fair, six-sided {{dice}}, there would be five degrees of freedom because there are six categories/parameters (each number). The number of times the dice is rolled does not influence the number of degrees of freedom.
+
+===Calculating the test-statistic===
+[[File:Chi-square distributionCDF-English.png|thumb|right|300px|[[Chi-squared distribution]], showing ''X''&lt;sup&gt;2&lt;/sup&gt; on the x-axis and P-value on the y-axis.]]
+{| class="infobox wikitable collapsible collapsed" style="text-align:center;font-size:75%;line-height:0.9;"
+! colspan="6" style="font-weight:normal;font-size:125%;"|Upper-tail critical values of chi-square distribution&lt;ref&gt;{{cite web|title=1.3.6.7.4. Critical Values of the Chi-Square Distribution|url=http://www.itl.nist.gov/div898/handbook/eda/section3/eda3674.htm|accessdate=14 October 2014}}&lt;/ref&gt;
+|-
+! rowspan="2"|Degrees&lt;br /&gt; of&lt;br /&gt;freedom
+! colspan="5"|Probability less than the critical value
+|-
+!    0.90 ||    0.95 ||   0.975 ||    0.99 ||   0.999
+|-
+!   1
+|   2.706 ||   3.841 ||   5.024 ||   6.635 ||  10.828
+|-
+!   2
+|   4.605 ||   5.991 ||   7.378 ||   9.210 ||  13.816
+|-
+!   3
+|   6.251 ||   7.815 ||   9.348 ||  11.345 ||  16.266
+|-
+!   4
+|   7.779 ||   9.488 ||  11.143 ||  13.277 ||  18.467
+|-
+!   5
+|   9.236 ||  11.070 ||  12.833 ||  15.086 ||  20.515
+|-
+!   6
+|  10.645 ||  12.592 ||  14.449 ||  16.812 ||  22.458
+|-
+!   7
+|  12.017 ||  14.067 ||  16.013 ||  18.475 ||  24.322
+|-
+!   8
+|  13.362 ||  15.507 ||  17.535 ||  20.090 ||  26.125
+|-
+!   9
+|  14.684 ||  16.919 ||  19.023 ||  21.666 ||  27.877
+|-
+!  10
+|  15.987 ||  18.307 ||  20.483 ||  23.209 ||  29.588
+|-
+!  11
+|  17.275 ||  19.675 ||  21.920 ||  24.725 ||  31.264
+|-
+!  12
+|  18.549 ||  21.026 ||  23.337 ||  26.217 ||  32.910
+|-
+!  13
+|  19.812 ||  22.362 ||  24.736 ||  27.688 ||  34.528
+|-
+!  14
+|  21.064 ||  23.685 ||  26.119 ||  29.141 ||  36.123
+|-
+!  15
+|  22.307 ||  24.996 ||  27.488 ||  30.578 ||  37.697
+|-
+!  16
+|  23.542 ||  26.296 ||  28.845 ||  32.000 ||  39.252
+|-
+!  17
+|  24.769 ||  27.587 ||  30.191 ||  33.409 ||  40.790
+|-
+!  18
+|  25.989 ||  28.869 ||  31.526 ||  34.805 ||  42.312
+|-
+!  19
+|  27.204 ||  30.144 ||  32.852 ||  36.191 ||  43.820
+|-
+!  20
+|  28.412 ||  31.410 ||  34.170 ||  37.566 ||  45.315
+|-
+!  21
+|  29.615 ||  32.671 ||  35.479 ||  38.932 ||  46.797
+|-
+!  22
+|  30.813 ||  33.924 ||  36.781 ||  40.289 ||  48.268
+|-
+!  23
+|  32.007 ||  35.172 ||  38.076 ||  41.638 ||  49.728
+|-
+!  24
+|  33.196 ||  36.415 ||  39.364 ||  42.980 ||  51.179
+|-
+!  25
+|  34.382 ||  37.652 ||  40.646 ||  44.314 ||  52.620
+|-
+!  26
+|  35.563 ||  38.885 ||  41.923 ||  45.642 ||  54.052
+|-
+!  27
+|  36.741 ||  40.113 ||  43.195 ||  46.963 ||  55.476
+|-
+!  28
+|  37.916 ||  41.337 ||  44.461 ||  48.278 ||  56.892
+|-
+!  29
+|  39.087 ||  42.557 ||  45.722 ||  49.588 ||  58.301
+|-
+!  30
+|  40.256 ||  43.773 ||  46.979 ||  50.892 ||  59.703
+|-
+!  31
+|  41.422 ||  44.985 ||  48.232 ||  52.191 ||  61.098
+|-
+!  32
+|  42.585 ||  46.194 ||  49.480 ||  53.486 ||  62.487
+|-
+!  33
+|  43.745 ||  47.400 ||  50.725 ||  54.776 ||  63.870
+|-
+!  34
+|  44.903 ||  48.602 ||  51.966 ||  56.061 ||  65.247
+|-
+!  35
+|  46.059 ||  49.802 ||  53.203 ||  57.342 ||  66.619
+|-
+!  36
+|  47.212 ||  50.998 ||  54.437 ||  58.619 ||  67.985
+|-
+!  37
+|  48.363 ||  52.192 ||  55.668 ||  59.893 ||  69.347
+|-
+!  38
+|  49.513 ||  53.384 ||  56.896 ||  61.162 ||  70.703
+|-
+!  39
+|  50.660 ||  54.572 ||  58.120 ||  62.428 ||  72.055
+|-
+!  40
+|  51.805 ||  55.758 ||  59.342 ||  63.691 ||  73.402
+|-
+!  41
+|  52.949 ||  56.942 ||  60.561 ||  64.950 ||  74.745
+|-
+!  42
+|  54.090 ||  58.124 ||  61.777 ||  66.206 ||  76.084
+|-
+!  43
+|  55.230 ||  59.304 ||  62.990 ||  67.459 ||  77.419
+|-
+!  44
+|  56.369 ||  60.481 ||  64.201 ||  68.710 ||  78.750
+|-
+!  45
+|  57.505 ||  61.656 ||  65.410 ||  69.957 ||  80.077
+|-
+!  46
+|  58.641 ||  62.830 ||  66.617 ||  71.201 ||  81.400
+|-
+!  47
+|  59.774 ||  64.001 ||  67.821 ||  72.443 ||  82.720
+|-
+!  48
+|  60.907 ||  65.171 ||  69.023 ||  73.683 ||  84.037
+|-
+!  49
+|  62.038 ||  66.339 ||  70.222 ||  74.919 ||  85.351
+|-
+!  50
+|  63.167 ||  67.505 ||  71.420 ||  76.154 ||  86.661
+|-
+!  51
+|  64.295 ||  68.669 ||  72.616 ||  77.386 ||  87.968
+|-
+!  52
+|  65.422 ||  69.832 ||  73.810 ||  78.616 ||  89.272
+|-
+!  53
+|  66.548 ||  70.993 ||  75.002 ||  79.843 ||  90.573
+|-
+!  54
+|  67.673 ||  72.153 ||  76.192 ||  81.069 ||  91.872
+|-
+!  55
+|  68.796 ||  73.311 ||  77.380 ||  82.292 ||  93.168
+|-
+!  56
+|  69.919 ||  74.468 ||  78.567 ||  83.513 ||  94.461
+|-
+!  57
+|  71.040 ||  75.624 ||  79.752 ||  84.733 ||  95.751
+|-
+!  58
+|  72.160 ||  76.778 ||  80.936 ||  85.950 ||  97.039
+|-
+!  59
+|  73.279 ||  77.931 ||  82.117 ||  87.166 ||  98.324
+|-
+!  60
+|  74.397 ||  79.082 ||  83.298 ||  88.379 ||  99.607
+|-
+!  61
+|  75.514 ||  80.232 ||  84.476 ||  89.591 || 100.888
+|-
+!  62
+|  76.630 ||  81.381 ||  85.654 ||  90.802 || 102.166
+|-
+!  63
+|  77.745 ||  82.529 ||  86.830 ||  92.010 || 103.442
+|-
+!  64
+|  78.860 ||  83.675 ||  88.004 ||  93.217 || 104.716
+|-
+!  65
+|  79.973 ||  84.821 ||  89.177 ||  94.422 || 105.988
+|-
+!  66
+|  81.085 ||  85.965 ||  90.349 ||  95.626 || 107.258
+|-
+!  67
+|  82.197 ||  87.108 ||  91.519 ||  96.828 || 108.526
+|-
+!  68
+|  83.308 ||  88.250 ||  92.689 ||  98.028 || 109.791
+|-
+!  69
+|  84.418 ||  89.391 ||  93.856 ||  99.228 || 111.055
+|-
+!  70
+|  85.527 ||  90.531 ||  95.023 || 100.425 || 112.317
+|-
+!  71
+|  86.635 ||  91.670 ||  96.189 || 101.621 || 113.577
+|-
+!  72
+|  87.743 ||  92.808 ||  97.353 || 102.816 || 114.835
+|-
+!  73
+|  88.850 ||  93.945 ||  98.516 || 104.010 || 116.092
+|-
+!  74
+|  89.956 ||  95.081 ||  99.678 || 105.202 || 117.346
+|-
+!  75
+|  91.061 ||  96.217 || 100.839 || 106.393 || 118.599
+|-
+!  76
+|  92.166 ||  97.351 || 101.999 || 107.583 || 119.850
+|-
+!  77
+|  93.270 ||  98.484 || 103.158 || 108.771 || 121.100
+|-
+!  78
+|  94.374 ||  99.617 || 104.316 || 109.958 || 122.348
+|-
+!  79
+|  95.476 || 100.749 || 105.473 || 111.144 || 123.594
+|-
+!  80
+|  96.578 || 101.879 || 106.629 || 112.329 || 124.839
+|-
+!  81
+|  97.680 || 103.010 || 107.783 || 113.512 || 126.083
+|-
+!  82
+|  98.780 || 104.139 || 108.937 || 114.695 || 127.324
+|-
+!  83
+|  99.880 || 105.267 || 110.090 || 115.876 || 128.565
+|-
+!  84
+| 100.980 || 106.395 || 111.242 || 117.057 || 129.804
+|-
+!  85
+| 102.079 || 107.522 || 112.393 || 118.236 || 131.041
+|-
+!  86
+| 103.177 || 108.648 || 113.544 || 119.414 || 132.277
+|-
+!  87
+| 104.275 || 109.773 || 114.693 || 120.591 || 133.512
+|-
+!  88
+| 105.372 || 110.898 || 115.841 || 121.767 || 134.746
+|-
+!  89
+| 106.469 || 112.022 || 116.989 || 122.942 || 135.978
+|-
+!  90
+| 107.565 || 113.145 || 118.136 || 124.116 || 137.208
+|-
+!  91
+| 108.661 || 114.268 || 119.282 || 125.289 || 138.438
+|-
+!  92
+| 109.756 || 115.390 || 120.427 || 126.462 || 139.666
+|-
+!  93
+| 110.850 || 116.511 || 121.571 || 127.633 || 140.893
+|-
+!  94
+| 111.944 || 117.632 || 122.715 || 128.803 || 142.119
+|-
+!  95
+| 113.038 || 118.752 || 123.858 || 129.973 || 143.344
+|-
+!  96
+| 114.131 || 119.871 || 125.000 || 131.141 || 144.567
+|-
+!  97
+| 115.223 || 120.990 || 126.141 || 132.309 || 145.789
+|-
+!  98
+| 116.315 || 122.108 || 127.282 || 133.476 || 147.010
+|-
+!  99
+| 117.407 || 123.225 || 128.422 || 134.642 || 148.230
+|-
+! 100
+| 118.498 || 124.342 || 129.561 || 135.807 || 149.449
+|}
+The value of the test-statistic is
+
+:&lt;math&gt; \chi^2 = \sum_{i=1}^{n} \frac{(O_i - E_i)^2}{E_i} =  N \sum_{i=1}^n \frac{\left(O_i/N - p_i\right)^2}{p_i} &lt;/math&gt;
+
+where
+
+:&lt;math&gt; \chi^2&lt;/math&gt; = Pearson's cumulative test statistic, which asymptotically approaches a [[chi-squared distribution|&lt;math&gt;\chi^2&lt;/math&gt; distribution]].
+:&lt;math&gt;O_i&lt;/math&gt; = the number of observations of type ''i''.
+:&lt;math&gt;N&lt;/math&gt; = total number of observations
+:&lt;math&gt;E_i = N p_i&lt;/math&gt; = the expected (theoretical) count of type ''i'', asserted by the null hypothesis that the fraction of type ''i'' in the population is &lt;math&gt; p_i&lt;/math&gt;
+:&lt;math&gt;n&lt;/math&gt;  = the number of cells in the table.
+
+The chi-squared statistic can then be used to calculate a [[p-value]] by [[Chi-squared distribution#Table of χ2 values vs p-values|comparing the value of the statistic]] to a [[chi-squared distribution]]. The number of [[degrees of freedom (statistics)|degrees of freedom]] is equal to the number of cells &lt;math&gt;n&lt;/math&gt;, minus the reduction in degrees of freedom, &lt;math&gt;p&lt;/math&gt;.
+
+The result about the numbers of degrees of freedom is valid when the original data are multinomial and hence the estimated parameters are efficient for minimizing the chi-squared statistic. More generally however, when maximum likelihood estimation does not coincide with minimum chi-squared estimation, the distribution will lie somewhere between a chi-squared distribution with &lt;math&gt;n-1-p&lt;/math&gt; and &lt;math&gt;n-1&lt;/math&gt; degrees of freedom (See for instance Chernoff and Lehmann, 1954).
+
+===Bayesian method===
+
+{{details|Categorical distribution#Bayesian inference using conjugate prior}}
+In [[Bayesian statistics]], one would instead use a [[Dirichlet distribution]] as [[conjugate prior]]. If one took a uniform prior, then the [[maximum likelihood estimate]] for the population probability is the observed probability, and one may compute a [[credible region]] around this or another estimate.
+
+==Testing for statistical independence==
+In this case, an "observation" consists of the values of two outcomes and the null hypothesis is that the occurrence of these outcomes is [[statistically independent]]. Each observation is allocated to one cell of a two-dimensional array of cells (called a [[contingency table]]) according to the values of the two outcomes. If there are ''r'' rows and ''c'' columns in the table, the "theoretical frequency" for a cell, given the hypothesis of independence, is
+
+:&lt;math&gt;E_{i,j}= N  p_{i\cdot} p_{\cdot j} ,&lt;/math&gt;
+
+where &lt;math&gt;N&lt;/math&gt; is the total sample size (the sum of all cells in the table), and
+
+:&lt;math&gt; p_{i\cdot} = \frac{O_{i\cdot}}{N} = \sum_{j=1}^c \frac{O_{i,j}}{N},&lt;/math&gt;
+
+is the fraction of observations of type ''i'' ignoring the column attribute (fraction of row totals), and
+:&lt;math&gt; p_{\cdot j} = \frac{O_{\cdot j}}{N}  = \sum_{i = 1}^r \frac{O_{i,j}}{N} &lt;/math&gt;
+
+is the fraction of observations of type ''j'' ignoring the row attribute (fraction of column totals).  The term "[[frequency distribution|frequencies]]" refers to absolute numbers rather than already normalized values.
+
+The value of the test-statistic is
+
+:&lt;math&gt; \chi^2 = \sum_{i=1}^{r} \sum_{j=1}^{c} {(O_{i,j} - E_{i,j})^2 \over E_{i,j}}&lt;/math&gt;
+:&lt;math&gt; \  \  \  \ = N \sum_{i,j} p_{i\cdot}p_{\cdot j} \left(\frac{(O_{i,j}/N) - p_{i\cdot}p_{\cdot j}}{p_{i\cdot}p_{\cdot j}}\right)^2 &lt;/math&gt;
+
+Note that &lt;math&gt; \chi^2 &lt;/math&gt; is 0 if and only if &lt;math&gt; O_{i,j} = E_{i,j} \forall i,j &lt;/math&gt;, i.e. only if the expected and true number of observations are equal in all cells.
+
+Fitting the model of "independence" reduces the number of degrees of freedom by ''p''&amp;nbsp;=&amp;nbsp;''r''&amp;nbsp;+&amp;nbsp;''c''&amp;nbsp;−&amp;nbsp;1.  The number of [[degrees of freedom (statistics)|degrees of freedom]] is equal to the number of cells ''rc'', minus the reduction in degrees of freedom, ''p'', which reduces to&amp;nbsp;(''r''&amp;nbsp;−&amp;nbsp;1)(''c''&amp;nbsp;−&amp;nbsp;1).
+
+For the test of independence, also known as the test of homogeneity, a chi-squared probability of less than or equal to 0.05 (or the chi-squared statistic being at or larger than the 0.05 critical point) is commonly interpreted by applied workers as justification for rejecting the null hypothesis that the row variable is independent of the column variable.&lt;ref&gt;{{cite web|title=Critical Values of the Chi-Squared Distribution |url=http://www.itl.nist.gov/div898/handbook/eda/section3/eda3674.htm |work=NIST/SEMATECH e-Handbook of Statistical Methods |publisher=National Institute of Standards and Technology}}&lt;/ref&gt;
+The [[alternative hypothesis]] corresponds to the variables having an association or relationship where the structure of this relationship is not specified.
+
+==Assumptions==
+The chi-squared test, when used with the standard approximation that a chi-squared distribution is applicable, has the following assumptions:{{Citation needed|date=July 2009}}
+
+; [[Simple random sample]]: The sample data is a random sampling from a fixed distribution or population where every collection of members of the population of the given sample size has an equal probability of selection.  Variants of the test have been developed for complex samples, such as where the data is weighted. Other forms can be used such as [[purposive sampling]].&lt;ref&gt;See {{cite book |title=Discovering Statistics Using SPSS |first=Andy |last=Field }} for assumptions on Chi Square.&lt;/ref&gt;
+; Sample size (whole table): A sample with a sufficiently large size is assumed. If a chi squared test is conducted on a sample with a smaller size, then the chi squared test will yield an inaccurate inference. The researcher, by using chi squared test on small samples, might end up committing a [[Type II error]].
+; Expected cell count: Adequate expected cell counts. Some require 5 or more, and others require 10 or more. A common rule is 5 or more in all cells of a 2-by-2 table, and 5 or more in 80% of cells in larger tables, but no cells with zero expected count. When this assumption is not met, [[Yates's correction for continuity|Yates's correction]] is applied.
+; Independence: The observations are always assumed to be independent of each other. This means chi-squared cannot be used to test correlated data (like matched pairs or panel data). In those cases, [[McNemar's test]] may be more appropriate.
+
+A test that relies on different assumptions is [[Fisher's exact test]]; if its assumption of fixed marginal distributions is met it is substantially more accurate in obtaining a significance level, especially with few observations. In the vast majority of applications this assumption will not be met, and Fisher's exact test will be over conservative and not have correct coverage.&lt;ref&gt;{{cite web|title=A Bayesian Formulation for Exploratory Data Analysis and Goodness-of-Fit Testing|url=http://www.stat.columbia.edu/~gelman/research/published/isr.pdf | page=375 |publisher=International Statistical Review}}&lt;/ref&gt;
+
+==Derivation==
+{{hidden begin|border=1px #aaa solid|title={{center|Derivation using Central Limit Theorem}}}}
+
+The null distribution of the Pearson statistic with ''j'' rows and ''k'' columns is approximated by the [[chi-squared distribution]] with
+(''k''&amp;nbsp;−&amp;nbsp;1)(''j''&amp;nbsp;−&amp;nbsp;1) degrees of freedom.&lt;ref name="ocw"&gt;Statistics for Applications. ''MIT OpenCourseWare''. [http://ocw.mit.edu/courses/mathematics/18-443-statistics-for-applications-fall-2003/lecture-notes/lec23.pdf Lecture 23]. Pearson's Theorem.  Retrieved 21 March 2007.&lt;/ref&gt;
+
+This approximation arises as the true distribution, under the null hypothesis, if the expected value is given by a [[multinomial distribution]]. For large sample sizes, the [[central limit theorem]] says this distribution tends toward a certain [[multivariate normal distribution]].
+
+===Two cells===
+In the special case where there are only two cells in the table, the expected values follow a [[binomial distribution]],
+
+:&lt;math&gt; E \ \sim \ \mbox{Bin}(n,p), \, &lt;/math&gt;
+
+where
+
+:''p'' = probability, under the null hypothesis,
+:''n'' = number of observations in the sample.
+
+In the above example the hypothesised probability of a male observation is 0.5, with 100 samples. Thus we expect to observe 50 males.
+
+If ''n'' is sufficiently large, the above binomial distribution may be approximated by a Gaussian (normal) distribution and thus the Pearson test statistic approximates a chi-squared distribution,
+
+:&lt;math&gt; \text{Bin}(n,p) \approx \text{N}(np, np(1-p)). \, &lt;/math&gt;
+
+Let ''O''&lt;sub&gt;1&lt;/sub&gt; be the number of observations from the sample that are in the first cell. The Pearson test statistic can be expressed as
+
+:&lt;math&gt; \frac{(O_1-np)^2}{np} + \frac{(n-O_1-n(1-p))^2}{n(1-p)}, &lt;/math&gt;
+
+which can in turn be expressed as
+
+:&lt;math&gt; \left(\frac{O_1-np}{\sqrt{np(1-p)}}\right)^2. &lt;/math&gt;
+
+By the normal approximation to a binomial this is the squared of one standard normal variate, and hence is distributed as chi-squared with 1 degree of freedom.  Note that the denominator is one standard deviation of the Gaussian approximation, so can be written
+
+:&lt;math&gt; \frac{(O_1-\mu)^2}{\sigma^2}. &lt;/math&gt;
+
+So as consistent with the meaning of the chi-squared distribution, we are measuring how probable the observed number of standard deviations away from the mean is under the Gaussian approximation (which is a good approximation for large ''n'').
+
+The chi-squared distribution is then integrated on the right of the statistic value to obtain the [[P-value]], which is equal to the probability of getting a statistic equal or bigger than the observed one, assuming the null hypothesis.
+
+===Two-by-two contingency tables===
+When the test is applied to a [[contingency table]] containing two rows and two columns, the test is equivalent to a [[Z-test]] of proportions.{{Citation needed|date=September 2018|reason=Claim needs a citation or more precise context -- we were unable to reproduce this using standard library functions in Python or R}}
+
+===Many cells===
+Similar arguments as above lead to the desired result. {{Citation needed|date=January 2011}} &lt;!-- (TODO: details) --&gt; Each cell (except the final one, whose value is completely determined by the others) is treated as an independent binomial variable, and their contributions are summed and each contributes one degree of freedom.
+
+Let us now prove that the distribution indeed approaches asymptotically the &lt;math&gt;\chi^2&lt;/math&gt; distribution as the number of observations approaches infinity.
+
+Let &lt;math&gt;n&lt;/math&gt; be the number of observations, &lt;math&gt;m&lt;/math&gt; the number of cells and &lt;math&gt;p_i&lt;/math&gt; the probability of an observation to fall in the i-th cell, for &lt;math&gt;1\le i\le m&lt;/math&gt;. We denote by &lt;math&gt;\{k_i\}&lt;/math&gt; the configuration where for each i there are &lt;math&gt;k_i&lt;/math&gt; observations in the i-th cell. Note that
+
+:&lt;math&gt;\sum_{i=1}^m k_i = n \qquad \text{and} \qquad \sum_{i=1}^m p_i = 1.&lt;/math&gt;
+
+Let &lt;math&gt;\chi^2_P(\{k_i\},\{p_i\})&lt;/math&gt; be Pearson's cumulative test statistic for such a configuration, and let &lt;math&gt;\chi^2_P(\{p_i\})&lt;/math&gt; be the distribution of this statistic. We will show that the latter probability approaches the &lt;math&gt;\chi^2&lt;/math&gt; distribution with &lt;math&gt;m-1&lt;/math&gt; degrees of freedom, as &lt;math&gt;n \to \infty.&lt;/math&gt;
+
+For any arbitrary value T:
+
+:&lt;math&gt; P(\chi^2_P(\{p_i\}) &gt; T) = \sum_{\{k_i\}|\chi^2_P(\{k_i\},\{p_i\}) &gt; T} \frac{n!}{k_1! \cdots k_m!} \prod_{i=1}^m {p_i}^{k_i} &lt;/math&gt;
+
+We will use a procedure similar to the approximation in [[de Moivre–Laplace theorem]].  Contributions from small &lt;math&gt;k_i&lt;/math&gt; are of subleading order in &lt;math&gt;n&lt;/math&gt; and thus for large &lt;math&gt;n&lt;/math&gt; we may use [[Stirling's formula]] for both &lt;math&gt;n!&lt;/math&gt; and &lt;math&gt;k_i!&lt;/math&gt; to get the following:
+
+:&lt;math&gt;P(\chi^2_P(\{p_i\}) &gt; T) \sim \sum_{\{k_i\}|\chi^2_P(\{k_i\},\{p_i\}) &gt; T} \prod_{i=1}^m \left (\frac{np_i}{k_i}\right)^{k_i} \sqrt{\frac{2\pi n}{\prod_{i=1}^m 2\pi k_i}}&lt;/math&gt;
+
+By substituting for
+
+:&lt;math&gt;x_i = \frac{k_i-np_i}{\sqrt{n}}, \qquad i = 1, \cdots, m-1, &lt;/math&gt;
+
+we may approximate for large &lt;math&gt;n&lt;/math&gt; the sum over the &lt;math&gt;k_i&lt;/math&gt; by an integral over the &lt;math&gt;x_i&lt;/math&gt;. Noting that:
+
+:&lt;math&gt;k_m = np_m-\sqrt{n} \sum_{i=1}^{m-1}x_i,&lt;/math&gt;
+
+we arrive at
+
+:&lt;math&gt; \begin{align}
+P(\chi^2_P (\{p_i\}) &gt; T) &amp;\sim \sqrt{\frac{2\pi n}{\prod_{i=1}^m 2\pi k_i}} \int_{\chi^2_P(\{\sqrt{n} x_i+n p_i\},\{p_i\}) &gt; T} \left \{ \prod_{i=1}^{m-1} {\sqrt{n} dx_i}\right\} \left \{\prod_{i=1}^{m-1} \left (1+\frac{x_i}{\sqrt{n} p_i}\right)^{-(n p_i + \sqrt{n} x_i) } \left(1-\frac{\sum_{i=1}^{m-1}{x_i}}{\sqrt{n} p_m}\right)^{-\left(n p_m-\sqrt{n} \sum_{i=1}^{m-1}x_i\right)} \right\} \\
+&amp;=  \sqrt{\frac{2\pi n}{\prod_{i=1}^m \left (2\pi n p_i + 2\pi \sqrt{n} x_i\right)}} \int_{\chi^2_P(\{\sqrt{n} x_i+n p_i\},\{p_i\}) &gt; T} \left \{\prod_{i=1}^{m-1} {\sqrt{n} dx_i}\right \}\times \\
+&amp;\qquad \qquad \times \left \{ \prod_{i=1}^{m-1} \exp\left[-\left(n p_i + \sqrt{n} x_i \right) \ln \left(1+\frac{x_i}{\sqrt{n} p_i}\right)\right] \exp \left[ -\left(n p_m-\sqrt{n} \sum_{i=1}^{m-1}x_i\right) \ln \left(1-\frac{\sum_{i=1}^{m-1}{x_i}}{\sqrt{n}p_m}\right) \right] \right \}
+\end{align}&lt;/math&gt;
+
+By [[Taylor expansion|expanding]] the logarithm and taking the leading terms in &lt;math&gt;n&lt;/math&gt;, we get
+
+:&lt;math&gt; P(\chi^2_P(\{p_i\}) &gt; T) \sim  \frac{1}{\sqrt{(2\pi)^{m-1} \prod_{i=1}^{m} p_i}}  \int_{\chi^2_P(\{\sqrt{n} x_i+n p_i\},\{p_i\}) &gt; T} \left \{ \prod_{i=1}^{m-1} dx_i\right \} \prod_{i=1}^{m-1} \exp\left [-\frac{1}{2}\sum_{i=1}^{m-1}\frac{x_i^2}{p_i} -\frac{1}{2p_m}\left (\sum_{i=1}^{m-1}{x_i} \right )^2 \right]&lt;/math&gt;
+
+Pearson's chi, &lt;math&gt;\chi^2_P(\{k_i\},\{p_i\}) = \chi^2_P(\{\sqrt{n} x_i+n p_i\},\{p_i\})&lt;/math&gt;, is precisely the argument of the exponent (except for the -1/2; note that the final term in the exponent's argument is equal to &lt;math&gt;(k_m-n p_m)^2/(n p_m)&lt;/math&gt;).
+
+This argument can be written as:
+
+:&lt;math&gt;-\frac{1}{2}\sum_{i,j=1}^{m-1}x_i A_{ij} x_j, \qquad i,j = 1, \cdots, m-1, \quad A_{ij} = \tfrac{\delta_{ij}}{p_i} + \tfrac{1}{p_m}.&lt;/math&gt;
+
+&lt;math&gt;A&lt;/math&gt; is a regular symmetric &lt;math&gt;(m-1) \times (m-1)&lt;/math&gt; matrix, and hence [[diagonalizable]]. It is therefore possible to make a linear change of variables in &lt;math&gt;\{x_i\}&lt;/math&gt; so as to get &lt;math&gt;m-1&lt;/math&gt; new variables &lt;math&gt;\{y_i\}&lt;/math&gt; so that:
+
+:&lt;math&gt;\sum_{i,j=1}^{m-1}x_i A_{ij} x_j = \sum_{i=1}^{m-1}y_i^2.&lt;/math&gt;
+
+This linear change of variables merely multiplies the integral by a constant [[Jacobian matrix and determinant|Jacobian]], so we get:
+
+:&lt;math&gt;P(\chi^2_P(\{p_i\}) &gt; T) \sim C \int_{\sum_{i=1}^{m-1} y_i^2 &gt; T} \left\{\prod_{i=1}^{m-1} dy_i \right\} \prod_{i=1}^{m-1} \exp\left[-\frac{1}{2}\left(\sum_{i=1}^{m-1} y_i^2 \right)\right]&lt;/math&gt;
+
+Where C is a constant.
+
+This is the probability that squared sum of &lt;math&gt;m-1&lt;/math&gt; independent normally distributed variables of zero mean and unit variance will be greater than T, namely that &lt;math&gt;\chi^2&lt;/math&gt; with &lt;math&gt;m-1&lt;/math&gt; degrees of freedom is larger than T.
+
+We have thus shown that at the limit where &lt;math&gt;n \to \infty,&lt;/math&gt; the distribution of Pearson's chi approaches the chi distribution with &lt;math&gt;m-1&lt;/math&gt; degrees of freedom.
+{{hidden end}}
+
+==Examples==
+
+===Fairness of dice===
+A 6-sided die is thrown 60 times. The number of times it lands with 1, 2, 3, 4, 5 and 6 face up is 5, 8, 9, 8, 10 and 20, respectively. Is the die biased, according to the Pearson's chi-squared test at a significance level of 95% and/or 99%?
+
+''n'' = 6 as there are 6 possible outcomes, 1 to 6. The null hypothesis is that the die is unbiased, hence each number is expected to occur the same number of times, in this case, {{sfrac|60|''n''}} = 10. The outcomes can be tabulated as follows:
+{| class="wikitable" style="text-align:center;"
+|-
+! style="padding:0 1em;"|&lt;math&gt; i&lt;/math&gt;
+! style="padding:0 1em;"|&lt;math&gt; O_i&lt;/math&gt;
+! style="padding:0 1em;"|&lt;math&gt; E_i&lt;/math&gt;
+!&lt;math&gt; O_i - E_i&lt;/math&gt;
+!&lt;math&gt; (O_i - E_i)^2&lt;/math&gt;
+!&lt;math&gt; \frac{(O_i - E_i)^2}{E_i}&lt;/math&gt;
+|-
+| 1 ||  5 || 10 || &amp;minus;5 ||  25 ||  2.5
+|-
+| 2 ||  8 || 10 || &amp;minus;2 ||   4 ||  0.4
+|-
+| 3 ||  9 || 10 || &amp;minus;1 ||   1 ||  0.1
+|-
+| 4 ||  8 || 10 || &amp;minus;2 ||   4 ||  0.4
+|-
+| 5 || 10 || 10 ||        0 ||   0 ||  0
+|-
+| 6 || 20 || 10 ||       10 || 100 || 10
+|-
+| colspan="5" style="text-align:right;"|Sum || 13.4
+|}
+
+The number of degrees of freedom is ''n'' &amp;minus; 1 = 5. The ''Upper-tail critical values of chi-square distribution'' table gives a critical value of 11.070 at 95% significance level:
+{| class="wikitable" style="text-align:center;font-size:90%;line-height:0.9;"
+|-
+! rowspan="2"|Degrees&lt;br /&gt; of&lt;br /&gt;freedom
+! colspan="5"|Probability less than the critical value
+|-
+!    0.90 ||    ''0.95'' ||   0.975 ||    ''0.99'' ||   0.999
+|-
+!   ''5''
+|   9.236 ||  ''11.070'' ||  12.833 ||  ''15.086'' ||  20.515
+|}
+
+As the chi-squared statistic of 13.4 exceeds this critical value, we reject the null hypothesis and conclude that the die is biased at 95% significance level.
+
+At 99% significance level, the critical value is 15.086. As the chi-squared statistic does not exceed it, we fail to reject the null hypothesis and thus conclude that there is insufficient evidence to show that the die is biased at 99% significance level.
+
+===Goodness of fit===
+{{main|Goodness of fit}}
+In this context, the [[frequency distribution|frequencies]] of both theoretical and empirical distributions are unnormalised counts, and for a chi-squared test the total sample sizes &lt;math&gt;N&lt;/math&gt; of both these distributions (sums of all cells of the corresponding [[contingency tables]]) have to be the same.
+
+For example, to test the hypothesis that a random sample of 100 people has been drawn from a population in which men and women are equal in frequency, the observed number of men and women would be compared to the theoretical frequencies of 50 men and 50 women. If there were 44 men in the sample and 56 women, then
+
+:&lt;math&gt; \chi^2 = {(44 - 50)^2 \over 50} + {(56 - 50)^2 \over 50} = 1.44.&lt;/math&gt;
+
+If the null hypothesis is true (i.e., men and women are chosen with equal probability), the test statistic will be drawn from a chi-squared distribution with one [[degrees of freedom (statistics)|degree of freedom]] (because if the male frequency is known, then the female frequency is determined).
+
+Consultation of the [[chi-squared distribution]] for 1 degree of freedom shows that the [[probability]] of observing this difference (or a more extreme difference than this) if men and women are equally numerous in the population is approximately 0.23. This probability is higher than conventional criteria for [[statistical significance]] (0.01 or 0.05), so normally we would not reject the null hypothesis that the number of men in the population is the same as the number of women (i.e., we would consider our sample within the range of what we would expect for a 50/50 male/female ratio.)
+
+==Problems==
+The approximation to the chi-squared distribution breaks down if expected frequencies are too low. It will normally be acceptable so long as no more than 20% of the events have expected frequencies below 5. Where there is only 1 degree of freedom, the approximation is not reliable if expected frequencies are below 10. In this case, a better approximation can be obtained by reducing the absolute value of each difference between observed and expected frequencies by 0.5 before squaring; this is called [[Yates's correction for continuity]].
+
+In cases where the expected value, E, is found to be small (indicating a small underlying population probability, and/or a small number of observations), the normal approximation of the multinomial distribution can fail, and in such cases it is found to be more appropriate to use the [[G-test]], a [[likelihood-ratio test|likelihood ratio]]-based test statistic.  When the total sample size is small, it is necessary to use an appropriate exact test, typically either the [[binomial test]] or (for contingency tables) [[Fisher's exact test]]. This test uses the conditional distribution of the test statistic given the marginal totals; however, it does not assume that the data were generated from an experiment in which the marginal totals are fixed{{dubious|date=April 2019}} and is valid whether or not that is the case.{{dubious|date=April 2019}}{{citation needed|date=April 2019}}
+
+It can be shown that the &lt;math&gt;\chi^2&lt;/math&gt; test is a low order approximation of the &lt;math&gt;\Psi&lt;/math&gt; test.&lt;ref&gt;{{cite book |author-link=Edwin Thompson Jaynes |last=Jaynes |first=E.T. |year=2003 |title=Probability Theory: The Logic of Science |publisher=C. University Press |ISBN=978-0-521-59271-0 |page=298 |url=http://www-biba.inrialpes.fr/Jaynes/prob.html}} (''Link is to a fragmentary edition of March 1996''.)&lt;/ref&gt; The above reasons for the above issues become apparent when the higher order terms are investigated.
+
+==See also==
+*[[Nomogram#Chi-squared test computation nomogram|Chi-squared nomogram]]
+*[[Cramér's V]] – a measure of correlation for the chi-squared test
+*[[Degrees of freedom (statistics)]]
+*[[Deviance (statistics)]], another measure of the quality of fit
+*[[Fisher's exact test]]
+*[[G-test]], test to which chi-squared test is an approximation
+*[[Lexis ratio]], earlier statistic, replaced by chi-squared
+*[[Mann–Whitney U test]]
+*[[Median test]]
+*[[Minimum chi-square estimation]]
+
+==Notes==
+{{Reflist}}
+
+==References==
+{{refbegin}}
+*{{Cite journal | last1 = Chernoff | first1 = H. | authorlink1 = Herman Chernoff | last2 = Lehmann | first2 = E. L. | doi = 10.1214/aoms/1177728726 | title = The Use of Maximum Likelihood Estimates in &lt;math&gt;\chi^2&lt;/math&gt; Tests for Goodness of Fit | journal = The Annals of Mathematical Statistics | volume = 25 | issue = 3 | pages = 579–586 | year = 1954 | doi-access = free }}
+*{{Cite journal | last = Plackett | first = R. L. | authorlink = Robin Plackett | doi = 10.2307/1402731| title = Karl Pearson and the Chi-Squared Test | journal = International Statistical Review | volume = 51 | issue = 1 | pages = 59–72 | year = 1983 | jstor = 1402731 | publisher = [[International Statistical Institute]] (ISI) }}
+*{{cite book |title=A guide to chi-squared testing |last1=Greenwood|authorlink= Cindy Greenwood |first1=P.E. |last2=Nikulin |first2=M.S. |year=1996 |publisher=Wiley |location=New York |isbn=0-471-55779-X |ref=harv }}
+{{refend}}
+
+{{Statistics}}
+
+[[Category:Statistical tests for contingency tables]]
+[[Category:Normality tests]]
+[[Category:Statistical approximations]]</text>
+      <sha1>6z9e6pps6fsrvew4csioj3wki5admmm</sha1>
+    </revision>
+  </page>
+</mediawiki>

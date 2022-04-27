@@ -1,0 +1,275 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.10/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.10/ http://www.mediawiki.org/xml/export-0.10.xsd" version="0.10" xml:lang="en">
+  <siteinfo>
+    <sitename>Wikipedia</sitename>
+    <dbname>enwiki</dbname>
+    <base>https://en.wikipedia.org/wiki/Main_Page</base>
+    <generator>MediaWiki 1.35.0-wmf.36</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Media</namespace>
+      <namespace key="-1" case="first-letter">Special</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Talk</namespace>
+      <namespace key="2" case="first-letter">User</namespace>
+      <namespace key="3" case="first-letter">User talk</namespace>
+      <namespace key="4" case="first-letter">Wikipedia</namespace>
+      <namespace key="5" case="first-letter">Wikipedia talk</namespace>
+      <namespace key="6" case="first-letter">File</namespace>
+      <namespace key="7" case="first-letter">File talk</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki talk</namespace>
+      <namespace key="10" case="first-letter">Template</namespace>
+      <namespace key="11" case="first-letter">Template talk</namespace>
+      <namespace key="12" case="first-letter">Help</namespace>
+      <namespace key="13" case="first-letter">Help talk</namespace>
+      <namespace key="14" case="first-letter">Category</namespace>
+      <namespace key="15" case="first-letter">Category talk</namespace>
+      <namespace key="100" case="first-letter">Portal</namespace>
+      <namespace key="101" case="first-letter">Portal talk</namespace>
+      <namespace key="108" case="first-letter">Book</namespace>
+      <namespace key="109" case="first-letter">Book talk</namespace>
+      <namespace key="118" case="first-letter">Draft</namespace>
+      <namespace key="119" case="first-letter">Draft talk</namespace>
+      <namespace key="446" case="first-letter">Education Program</namespace>
+      <namespace key="447" case="first-letter">Education Program talk</namespace>
+      <namespace key="710" case="first-letter">TimedText</namespace>
+      <namespace key="711" case="first-letter">TimedText talk</namespace>
+      <namespace key="828" case="first-letter">Module</namespace>
+      <namespace key="829" case="first-letter">Module talk</namespace>
+      <namespace key="2300" case="first-letter">Gadget</namespace>
+      <namespace key="2301" case="first-letter">Gadget talk</namespace>
+      <namespace key="2302" case="case-sensitive">Gadget definition</namespace>
+      <namespace key="2303" case="case-sensitive">Gadget definition talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Mean squared error</title>
+    <ns>0</ns>
+    <id>201816</id>
+    <revision>
+      <id>960812422</id>
+      <parentid>959959954</parentid>
+      <timestamp>2020-06-05T01:49:13Z</timestamp>
+      <contributor>
+        <username>InternetArchiveBot</username>
+        <id>27015025</id>
+      </contributor>
+      <comment>Bluelink 1 book for [[Wikipedia:Verifiability|verifiability]] (prndis)) #IABot (v2.0.1) ([[User:GreenC bot|GreenC bot]]</comment>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="21677" xml:space="preserve">{{distinguish-redirect|Mean squared deviation|Mean squared displacement}}
+In [[statistics]], the '''mean squared error''' ('''MSE''') or '''mean squared deviation''' ('''MSD''') of an [[estimator]] (of a procedure for estimating an unobserved quantity) measures the [[expected value|average]] of the squares of the [[Error (statistics)|errors]]—that is, the average squared difference between the estimated values and the actual value. MSE is a [[risk function]], corresponding to the [[expected value]] of the squared error loss. The fact that MSE is almost always strictly positive (and not zero) is because of [[randomness]] or because the estimator [[Omitted-variable bias|does not account for information]] that could produce a more accurate estimate.&lt;ref name="pointEstimation"&gt;{{cite book
+ |first1=E. L. |last1=Lehmann
+ |first2=George |last2=Casella 
+ |title=Theory of Point Estimation
+ |publisher=Springer |location=New York
+ |year=1998 |edition=2nd
+ |isbn=978-0-387-98502-2 |mr=1639875
+}}&lt;/ref&gt;
+
+The MSE is a measure of the quality of an estimator—it is always non-negative, and values closer to zero are better.
+
+The MSE is the second [[moment (mathematics)|moment]] (about the origin) of the error, and thus incorporates both the [[variance]] of the estimator (how widely spread the estimates are from one [[data sample]] to another) and its [[Bias of an estimator|bias]] (how far off the average estimated value is from the truth). For an [[unbiased estimator]], the MSE is the variance of the estimator. Like the variance, MSE has the same units of measurement as the square of the quantity being estimated. In an analogy to [[standard deviation]], taking the square root of MSE yields the root-mean-square error or [[root-mean-square deviation]] (RMSE or RMSD), which has the same units as the quantity being estimated; for an unbiased estimator, the RMSE is the square root of the [[variance]], known as the [[standard error]].
+
+==Definition and basic properties==
+
+The MSE assesses the quality of a '''predictor''' (i.e., a function mapping arbitrary inputs to a sample of values of some [[random variable]]), or an '''[[estimator]]''' (i.e., a [[mathematical function]] mapping a [[Sample (statistics)|sample]] of data to an estimate of a [[Statistical parameter|parameter]] of the [[Statistical population|population]] from which the data is sampled). The definition of an MSE differs according to whether one is describing a predictor or an estimator.
+
+===Predictor===
+
+If  a vector of &lt;math&gt;n&lt;/math&gt; predictions is generated from a sample of ''n'' data points on all variables, and &lt;math&gt;Y&lt;/math&gt; is the vector of observed values of the variable being predicted, with &lt;math&gt;\hat{Y_i}&lt;/math&gt; being the predicted values (e.g. as from a least-squares fit), then the within-sample MSE of the predictor is computed as
+
+:&lt;math&gt;\operatorname{MSE}=\frac{1}{n}\sum_{i=1}^n(Y_i-\hat{Y_i})^2.&lt;/math&gt;
+
+I.e., the MSE is the ''mean'' &lt;math&gt;\left(\frac{1}{n}\sum_{i=1}^n \right)&lt;/math&gt; of the ''squares of the errors'' &lt;math&gt;(Y_i-\hat{Y_i})^2&lt;/math&gt;. This is an easily computable quantity for a particular sample (and hence is sample-dependent).
+
+The MSE can also be computed on ''q ''data points that were not used in estimating the model, either because they were held back for this purpose or because these data have been newly obtained. In this process, which is known as [[cross-validation (statistics)|cross-validation]], the MSE is often called the [[mean squared prediction error]], and is computed as
+
+:&lt;math&gt;\operatorname{MSPE}=\frac{1}{q}\sum_{i=n+1}^{n+q}(Y_i-\hat{Y_i})^2.&lt;/math&gt;
+
+===Estimator===
+
+The MSE of an estimator &lt;math&gt;\hat{\theta}&lt;/math&gt; with respect to an unknown parameter &lt;math&gt;\theta&lt;/math&gt; is defined as
+
+:&lt;math&gt;\operatorname{MSE}(\hat{\theta})=\operatorname{E}_{\theta}\left[(\hat{\theta}-\theta)^2\right].&lt;/math&gt;
+
+This definition depends on the unknown parameter, but the MSE is ''a priori'' a property of an estimator. The MSE could be a function of unknown parameters, in which case any ''estimator'' of the MSE based on estimates of these parameters would be a function of the data and thus a random variable. If the estimator &lt;math&gt;\hat{\theta}&lt;/math&gt; is derived as a sample statistic and is used to estimate some population parameter, then the expectation is with respect to the sampling distribution of the sample statistic. 
+
+The MSE can be written as the sum of the [[variance]] of the estimator and the squared [[Bias_of_an_estimator|bias]] of the estimator, providing a useful way to calculate the MSE and implying that in the case of unbiased estimators, the MSE and variance are equivalent.&lt;ref name="wackerly"&gt;{{cite book
+ |first1=Dennis |last1=Wackerly
+ |first2=William|last2=Mendenhall
+ |first3=Richard L.|last3=Scheaffer
+ |title=Mathematical Statistics with Applications
+ |publisher=Thomson Higher Education|location=Belmont, CA, USA
+ |year=2008 |edition=7
+ |isbn=978-0-495-38508-0
+}}&lt;/ref&gt;
+
+:&lt;math&gt;\operatorname{MSE}(\hat{\theta})=\operatorname{Var}_{\theta}(\hat{\theta})+ \operatorname{Bias}(\hat{\theta},\theta)^2.&lt;/math&gt;
+
+====Proof of variance and bias relationship====
+
+:&lt;math&gt;\begin{align}\operatorname{MSE}(\hat{\theta}) &amp;= \operatorname{E}_{\theta} \left [(\hat{\theta}-\theta)^2 \right ] \\
+&amp;=  \operatorname{E}_{\theta}\left[\left(\hat{\theta}-\operatorname{E}_{\theta} [\hat\theta]+\operatorname{E}_{\theta}[\hat\theta]-\theta\right)^2\right]\\ 
+&amp;= \operatorname{E}_{\theta}\left[\left(\hat{\theta}-\operatorname{E}_{\theta}[\hat\theta]\right)^2 +2\left (\hat{\theta}-\operatorname{E}_{\theta}[\hat\theta] \right ) \left (\operatorname{E}_{\theta}[\hat\theta]-\theta \right )+\left( \operatorname{E}_{\theta}[\hat\theta]-\theta \right)^2\right] \\ 
+&amp;= \operatorname{E}_{\theta}\left[\left(\hat{\theta}-\operatorname{E}_{\theta}[\hat\theta]\right)^2\right]+\operatorname{E}_{\theta}\left[2 \left (\hat{\theta}-\operatorname{E}_{\theta}[\hat\theta] \right ) \left (\operatorname{E}_{\theta}[\hat\theta]-\theta \right ) \right] + \operatorname{E}_{\theta}\left [ \left(\operatorname{E}_{\theta}[\hat\theta]-\theta\right)^2 \right] \\
+&amp;=  \operatorname{E}_{\theta}\left[\left(\hat{\theta}-\operatorname{E}_{\theta}[\hat\theta]\right)^2\right]+ 2 \left(\operatorname{E}_{\theta}[\hat\theta]-\theta\right) \operatorname{E}_{\theta}\left[\hat{\theta}-\operatorname{E}_{\theta}[\hat\theta] \right] +  \left(\operatorname{E}_{\theta}[\hat\theta]-\theta\right)^2 &amp;&amp; \operatorname{E}_{\theta}[\hat\theta]-\theta = \text{const.} \\
+&amp;=  \operatorname{E}_{\theta}\left[\left(\hat{\theta}-\operatorname{E}_{\theta}[\hat\theta]\right)^2\right]+ 2 \left(\operatorname{E}_{\theta}[\hat\theta]-\theta\right) \left ( \operatorname{E}_{\theta}[\hat{\theta}]-\operatorname{E}_{\theta}[\hat\theta] \right )+  \left(\operatorname{E}_{\theta}[\hat\theta]-\theta\right)^2 &amp;&amp; \operatorname{E}_{\theta}[\hat\theta] = \text{const.} \\
+&amp;= \operatorname{E}_{\theta}\left[\left(\hat{\theta}-\operatorname{E}_{\theta}[\hat\theta]\right)^2\right]+\left(\operatorname{E}_{\theta}[\hat\theta]-\theta\right)^2\\ 
+&amp;= \operatorname{Var}_{\theta}(\hat\theta)+ \operatorname{Bias}_{\theta}(\hat\theta,\theta)^2
+\end{align}&lt;/math&gt;
+:But in real modeling case, MSE could be described as the addition of model variance, model bias, and irreducible uncertainty. According to the relationship, the MSE of the estimators could be simply used for the [[Efficiency (statistics)|efficiency]] comparison, which includes the information of estimator variance and bias. This is called MSE criterion.
+
+==Regression==
+{{further|Reduced chi-squared statistic}}
+
+In [[regression analysis]], plotting is a more natural way to view the overall trend of the whole data. The mean of the distance from each point to the predicted regression model can be calculated and shown as the mean squared error. The squaring is critical to reduce the complexity with negative signs. To minimize it, the model could be more accurate, which means the model is close enough to actual data. One example of a linear regression using this method is called [[least squares]]. This is the method to evaluate appropriateness of linear regression model to model [[Bivariate data|bivariate dataset]]&lt;ref&gt;{{Cite book|title=A modern introduction to probability and statistics : understanding why and how|date=2005|publisher=Springer|others=Dekking, Michel, 1946-|isbn=978-1-85233-896-1|location=London|oclc=262680588}}&lt;/ref&gt;, but the limitation is related to known distribution of the data.  
+
+The term ''mean squared error'' is sometimes used to refer to the unbiased estimate of error variance: the [[residual sum of squares]] divided by the number of [[Degrees of freedom (statistics)|degrees of freedom]]. This definition for a known, computed quantity differs from the above definition for the computed MSE of a predictor in that a different denominator is used. The denominator is the sample size reduced by the number of model parameters estimated from the same data, ''(n-p)'' for ''p'' [[regressor]]s or ''(n-p-1)'' if an intercept is used.&lt;ref&gt;Steel, R.G.D, and Torrie, J. H., ''Principles and Procedures of Statistics with Special Reference to the Biological Sciences.'', [[McGraw Hill]], 1960, page 288.&lt;/ref&gt; For more details, see [[errors and residuals in statistics]]. Although the MSE (as defined in the present article) is not an unbiased estimator of the error variance, it is [[consistency (statistics)|consistent]], given the consistency of the predictor.
+
+Also in regression analysis, "mean squared error", often referred to as [[mean squared prediction error]] or "out-of-sample mean squared error", can refer to the mean value of the [[squared deviations]] of the predictions from the true values, over an out-of-sample test space, generated by a model estimated over a particular sample space. This also is a known, computed quantity, and it varies by sample and by out-of-sample test space.
+
+==Examples==
+
+===Mean===
+Suppose we have a random sample of size &lt;math&gt;n&lt;/math&gt; from a population, &lt;math&gt;X_1,\dots,X_n&lt;/math&gt;. Suppose the sample units were chosen with replacement. That is, the &lt;math&gt;n&lt;/math&gt; units are selected one at a time, and previously selected units are still eligible for selection for all &lt;math&gt;n&lt;/math&gt; draws. The usual estimator for the &lt;math&gt;\mu&lt;/math&gt; is the sample average
+
+:&lt;math&gt;\overline{X}=\frac{1}{n}\sum_{i=1}^n X_i &lt;/math&gt;
+
+which has an expected value equal to the true mean &lt;math&gt;\mu&lt;/math&gt; (so it is unbiased) and a mean squared error of
+
+:&lt;math&gt;\operatorname{MSE}\left(\overline{X}\right)=\operatorname{E}\left[\left(\overline{X}-\mu\right)^2\right]=\left(\frac{\sigma}{\sqrt{n}}\right)^2= \frac{\sigma^2}{n}&lt;/math&gt;
+
+where &lt;math&gt;\sigma^2&lt;/math&gt; is the [[Sample variance#Population variance|population variance]].
+
+For a [[Gaussian distribution]] this is the [[best unbiased estimator]] (that is, it has the lowest MSE among all unbiased estimators), but not, say, for a [[Uniform distribution (continuous)|uniform distribution]].
+
+===Variance===
+{{further|Sample variance}}
+The usual estimator for the variance is the ''corrected [[sample variance]]:''
+
+:&lt;math&gt;S^2_{n-1} = \frac{1}{n-1}\sum_{i=1}^n\left(X_i-\overline{X} \right)^2 =\frac{1}{n-1}\left(\sum_{i=1}^n X_i^2-n\overline{X}^2\right).&lt;/math&gt;
+
+This is unbiased (its expected value is &lt;math&gt;\sigma^2&lt;/math&gt;), hence also called the ''unbiased sample variance,'' and its MSE is&lt;ref&gt;{{cite book
+  | last = Mood |first=A.
+  | last2 = Graybill |first2=F.
+  |last3=Boes |first3=D.
+  | title = Introduction to the Theory of Statistics
+  | url = https://archive.org/details/introductiontoth00mood_706 | url-access = limited |page=[https://archive.org/details/introductiontoth00mood_706/page/n241 229]
+  | edition = 3rd
+  | publisher = McGraw-Hill
+  | year = 1974
+}}&lt;/ref&gt;
+
+:&lt;math&gt;\operatorname{MSE}(S^2_{n-1})= \frac{1}{n} \left(\mu_4-\frac{n-3}{n-1}\sigma^4\right) =\frac{1}{n} \left(\gamma_2+\frac{2n}{n-1}\right)\sigma^4,&lt;/math&gt;
+
+where &lt;math&gt;\mu_4&lt;/math&gt; is the fourth [[central moment]] of the distribution or population and &lt;math&gt;\gamma_2=\mu_4/\sigma^4-3&lt;/math&gt; is the [[excess kurtosis]].
+
+However, one can use other estimators for &lt;math&gt;\sigma^2&lt;/math&gt; which are proportional to &lt;math&gt;S^2_{n-1}&lt;/math&gt;, and an appropriate choice can always give a lower mean squared error. If we define
+
+:&lt;math&gt;S^2_a = \frac{n-1}{a}S^2_{n-1}= \frac{1}{a}\sum_{i=1}^n\left(X_i-\overline{X}\,\right)^2&lt;/math&gt;
+
+then we calculate:
+
+:&lt;math&gt;\begin{align}
+\operatorname{MSE}(S^2_a)&amp;=\operatorname{E}\left[\left(\frac{n-1}{a} S^2_{n-1}-\sigma^2\right)^2 \right] \\
+&amp;= \operatorname{E}\left[ \frac{(n-1)^2}{a^2} S^4_{n-1} -2 \left ( \frac{n-1}{a} S^2_{n-1} \right ) \sigma^2 + \sigma^4 \right ] \\
+&amp;= \frac{(n-1)^2}{a^2} \operatorname{E}\left[ S^4_{n-1} \right ] - 2 \left ( \frac{n-1}{a}\right )  \operatorname{E}\left[ S^2_{n-1} \right ] \sigma^2 + \sigma^4 \\
+&amp;= \frac{(n-1)^2}{a^2} \operatorname{E}\left[ S^4_{n-1} \right ] - 2 \left ( \frac{n-1}{a}\right )  \sigma^4 + \sigma^4 &amp;&amp; \operatorname{E}\left[ S^2_{n-1} \right ]  = \sigma^2 \\
+&amp;= \frac{(n-1)^2}{a^2} \left ( \frac{\gamma_2}{n} + \frac{n+1}{n-1} \right ) \sigma^4- 2 \left ( \frac{n-1}{a}\right )  \sigma^4+\sigma^4 &amp;&amp;  \operatorname{E}\left[ S^4_{n-1} \right ] = \operatorname{MSE}(S^2_{n-1}) + \sigma^4 \\
+&amp;=\frac{n-1}{n a^2} \left ((n-1)\gamma_2+n^2+n \right ) \sigma^4- 2 \left ( \frac{n-1}{a}\right )  \sigma^4+\sigma^4   
+\end{align}&lt;/math&gt;
+
+This is minimized when
+
+:&lt;math&gt;a=\frac{(n-1)\gamma_2+n^2+n}{n} = n+1+\frac{n-1}{n}\gamma_2.&lt;/math&gt;
+
+For a [[Gaussian distribution]], where &lt;math&gt;\gamma_2=0&lt;/math&gt;, this means the MSE is minimized when dividing the sum by &lt;math&gt;a=n+1&lt;/math&gt;. The minimum excess kurtosis is &lt;math&gt;\gamma_2=-2&lt;/math&gt;,{{efn|1=This can be proved by [[Jensen's inequality]] as follows. The fourth [[central moment]] is an upper bound for the square of variance, so that the least value for their ratio is one, therefore, the least value for the [[excess kurtosis]] is −2, achieved, for instance, by a Bernoulli with ''p''=1/2.}} which is achieved by a [[Bernoulli distribution]] with ''p''&amp;nbsp;=&amp;nbsp;1/2 (a coin flip), and the MSE is minimized for &lt;math&gt;a=n-1+\tfrac{2}{n}.&lt;/math&gt; So no matter what the kurtosis, we get a "better" estimate (in the sense of having a lower MSE) by scaling down the unbiased estimator a little bit; this is a simple example of a [[shrinkage estimator]]: one "shrinks" the estimator towards zero (scales down the unbiased estimator).
+
+Further, while the corrected sample variance is the [[best unbiased estimator]] (minimum mean squared error among unbiased estimators) of variance for Gaussian distributions, if the distribution is not Gaussian then even among unbiased estimators, the best unbiased estimator of the variance may not be &lt;math&gt;S^2_{n-1}.&lt;/math&gt;
+
+===Gaussian distribution===
+The following table gives several estimators of the true parameters of the population, μ and σ&lt;sup&gt;2&lt;/sup&gt;, for the Gaussian case.&lt;ref&gt;{{cite book
+  | last = DeGroot
+  | first = Morris H.
+  | authorlink = Morris H. DeGroot
+  | title = Probability and Statistics
+  | edition = 2nd
+  | publisher = Addison-Wesley
+  | year = 1980
+  | ref = degroot }}&lt;/ref&gt;
+
+{| class="wikitable"
+! True value !! Estimator !! Mean squared error
+|-
+| &lt;math&gt;\theta=\mu&lt;/math&gt; || &lt;math&gt;\hat{\theta}&lt;/math&gt; = the unbiased estimator of the [[population mean]], &lt;math&gt;\overline{X}=\frac{1}{n}\sum_{i=1}^n(X_i)&lt;/math&gt; || &lt;math&gt;\operatorname{MSE}(\overline{X})=\operatorname{E}((\overline{X}-\mu)^2)=\left(\frac{\sigma}{\sqrt{n}}\right)^2&lt;/math&gt;
+|-
+| &lt;math&gt;\theta=\sigma^2&lt;/math&gt; || &lt;math&gt;\hat{\theta}&lt;/math&gt; = the unbiased estimator of the [[population variance]], &lt;math&gt;S^2_{n-1} = \frac{1}{n-1}\sum_{i=1}^n\left(X_i-\overline{X}\,\right)^2&lt;/math&gt; || &lt;math&gt;\operatorname{MSE}(S^2_{n-1})=\operatorname{E}((S^2_{n-1}-\sigma^2)^2)=\frac{2}{n - 1}\sigma^4&lt;/math&gt;
+|-
+| &lt;math&gt;\theta=\sigma^2&lt;/math&gt; || &lt;math&gt;\hat{\theta}&lt;/math&gt; = the biased estimator of the [[population variance]], &lt;math&gt;S^2_{n} = \frac{1}{n}\sum_{i=1}^n\left(X_i-\overline{X}\,\right)^2&lt;/math&gt; || &lt;math&gt;\operatorname{MSE}(S^2_{n})=\operatorname{E}((S^2_{n}-\sigma^2)^2)=\frac{2n - 1}{n^2}\sigma^4&lt;/math&gt;
+|-
+| &lt;math&gt;\theta=\sigma^2&lt;/math&gt; || &lt;math&gt;\hat{\theta}&lt;/math&gt; = the biased estimator of the [[population variance]], &lt;math&gt;S^2_{n+1} = \frac{1}{n+1}\sum_{i=1}^n\left(X_i-\overline{X}\,\right)^2&lt;/math&gt; || &lt;math&gt;\operatorname{MSE}(S^2_{n+1})=\operatorname{E}((S^2_{n+1}-\sigma^2)^2)=\frac{2}{n + 1}\sigma^4&lt;/math&gt;
+|}
+
+==Interpretation==
+
+An MSE of zero, meaning that the estimator &lt;math&gt;\hat{\theta}&lt;/math&gt; predicts observations of the parameter &lt;math&gt;\theta&lt;/math&gt; with perfect accuracy, is the ideal, but is typically not possible.
+
+Values of MSE may be used for comparative purposes. Two or more [[statistical model]]s may be compared using their MSEs as a measure of how well they explain a given set of observations: An unbiased estimator (estimated from a statistical model) with the smallest variance among all unbiased estimators is the [[best unbiased estimator]] or MVUE (Minimum Variance Unbiased Estimator).
+
+Both [[linear regression]] techniques such as [[analysis of variance]] estimate the MSE as part of the analysis and use the estimated MSE to determine the [[statistical significance]] of the factors or predictors under study. The goal of [[experimental design]] is to construct experiments in such a way that when the observations are analyzed, the MSE is close to zero relative to the magnitude of at least one of the estimated treatment effects.
+
+In [[one-way analysis of variance]], MSE can be calculated by the division of the sum of squared errors and the degree of freedom. Also, the f-value is the ratio of the mean squared treatment and the MSE.
+
+MSE is also used in several [[stepwise regression]] techniques as part of the determination as to how many predictors from a candidate set to include in a model for a given set of observations.
+
+==Applications==
+
+*Minimizing MSE is a key criterion in selecting estimators: see [[minimum mean-square error]]. Among unbiased estimators, minimizing the MSE is equivalent to minimizing the variance, and the estimator that does this is the [[minimum variance unbiased estimator]]. However, a biased estimator may have lower MSE; see [[estimator bias]].
+*In [[statistical modelling]] the MSE can represent the difference between the actual observations and the observation values predicted by the model. In this context, it is used to determine the extent to which the model fits the data as well as whether removing some explanatory variables is possible without significantly harming the model's predictive ability.
+*In [[forecasting]] and [[prediction]], the [[Brier score]] is a measure of [[forecast skill]] based on MSE.
+
+==Loss function==
+
+Squared error loss is one of the most widely used [[loss function]]s in statistics{{Citation needed|date=July 2019}}, though its widespread use stems more from mathematical convenience than considerations of actual loss in applications. [[Carl Friedrich Gauss]], who introduced the use of mean squared error, was aware of its arbitrariness and was in agreement with objections to it on these grounds.&lt;ref name="pointEstimation" /&gt; The mathematical benefits of mean squared error are particularly evident in its use at analyzing the performance of [[linear regression]], as it allows one to partition the variation in a dataset into variation explained by the model and variation explained by randomness.
+
+===Criticism===
+The use of mean squared error without question has been criticized by the [[decision theory|decision theorist]] [[James Berger (statistician)|James Berger]]. Mean squared error is the negative of the expected value of one specific [[utility function]], the quadratic utility function, which may not be the appropriate utility function to use under a given set of circumstances. There are, however, some scenarios where mean squared error can serve as a good approximation to a loss function occurring naturally in an application.&lt;ref&gt;{{cite book
+ |title=Statistical Decision Theory and Bayesian Analysis
+ |url=https://archive.org/details/statisticaldecis00berg
+ |url-access=limited
+ |first=James O. |last=Berger |authorlink=James Berger (statistician)
+ |year=1985
+ |edition=2nd
+ |publisher=Springer-Verlag |location=New York
+ |isbn=978-0-387-96098-2 |mr=0804611
+ |chapter=2.4.2 Certain Standard Loss Functions |page=[https://archive.org/details/statisticaldecis00berg/page/n72 60]
+}}&lt;/ref&gt;
+
+Like [[variance]], mean squared error has the disadvantage of heavily weighting [[outliers]].&lt;ref&gt;{{cite journal | last1 = Bermejo | first1 = Sergio | last2 = Cabestany | first2 = Joan | year = 2001 | title = Oriented principal component analysis for large margin classifiers | journal = Neural Networks | volume = 14 | issue = 10| pages = 1447–1461 | doi=10.1016/S0893-6080(01)00106-X| pmid = 11771723 }}&lt;/ref&gt; This is a result of the squaring of each term, which effectively weights large errors more heavily than small ones. This property, undesirable in many applications, has led researchers to use alternatives such as the [[mean absolute error]], or those based on the [[median]].
+
+==See also==
+*[[Hodges' estimator]]
+*[[James–Stein estimator]]
+*[[Mean percentage error]]
+*[[Mean square quantization error]]
+*[[Mean square weighted deviation]]
+*[[Mean squared displacement]]
+*[[Mean squared prediction error]]
+*[[Minimum mean squared error|Minimum mean squared error estimator]]
+*[[Peak signal-to-noise ratio]]
+
+==Notes==
+{{notelist}}
+
+==References==
+{{reflist}}
+
+[[Category:Point estimation performance]]
+[[Category:Statistical deviation and dispersion]]
+[[Category:Loss functions]]
+[[Category:Least squares]]</text>
+      <sha1>s13syw4b4zedocv4lhn5qmo4ec2wtq6</sha1>
+    </revision>
+  </page>
+</mediawiki>

@@ -1,0 +1,130 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.10/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.10/ http://www.mediawiki.org/xml/export-0.10.xsd" version="0.10" xml:lang="en">
+  <siteinfo>
+    <sitename>Wikipedia</sitename>
+    <dbname>enwiki</dbname>
+    <base>https://en.wikipedia.org/wiki/Main_Page</base>
+    <generator>MediaWiki 1.35.0-wmf.36</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Media</namespace>
+      <namespace key="-1" case="first-letter">Special</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Talk</namespace>
+      <namespace key="2" case="first-letter">User</namespace>
+      <namespace key="3" case="first-letter">User talk</namespace>
+      <namespace key="4" case="first-letter">Wikipedia</namespace>
+      <namespace key="5" case="first-letter">Wikipedia talk</namespace>
+      <namespace key="6" case="first-letter">File</namespace>
+      <namespace key="7" case="first-letter">File talk</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki talk</namespace>
+      <namespace key="10" case="first-letter">Template</namespace>
+      <namespace key="11" case="first-letter">Template talk</namespace>
+      <namespace key="12" case="first-letter">Help</namespace>
+      <namespace key="13" case="first-letter">Help talk</namespace>
+      <namespace key="14" case="first-letter">Category</namespace>
+      <namespace key="15" case="first-letter">Category talk</namespace>
+      <namespace key="100" case="first-letter">Portal</namespace>
+      <namespace key="101" case="first-letter">Portal talk</namespace>
+      <namespace key="108" case="first-letter">Book</namespace>
+      <namespace key="109" case="first-letter">Book talk</namespace>
+      <namespace key="118" case="first-letter">Draft</namespace>
+      <namespace key="119" case="first-letter">Draft talk</namespace>
+      <namespace key="446" case="first-letter">Education Program</namespace>
+      <namespace key="447" case="first-letter">Education Program talk</namespace>
+      <namespace key="710" case="first-letter">TimedText</namespace>
+      <namespace key="711" case="first-letter">TimedText talk</namespace>
+      <namespace key="828" case="first-letter">Module</namespace>
+      <namespace key="829" case="first-letter">Module talk</namespace>
+      <namespace key="2300" case="first-letter">Gadget</namespace>
+      <namespace key="2301" case="first-letter">Gadget talk</namespace>
+      <namespace key="2302" case="case-sensitive">Gadget definition</namespace>
+      <namespace key="2303" case="case-sensitive">Gadget definition talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Epigenetic regulation of neurogenesis</title>
+    <ns>0</ns>
+    <id>41111089</id>
+    <revision>
+      <id>958709036</id>
+      <parentid>951386760</parentid>
+      <timestamp>2020-05-25T09:20:09Z</timestamp>
+      <contributor>
+        <username>Citation bot</username>
+        <id>7903804</id>
+      </contributor>
+      <comment>Alter: journal. | You can [[WP:UCB|use this bot]] yourself. [[WP:DBUG|Report bugs here]]. | Activated by AManWithNoPlan | All pages linked from [[User:AManWithNoPlan/sandbox2]] | via #UCB_webform_linked</comment>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="20278" xml:space="preserve">[[Epigenetics]] is the study of heritable changes in [[gene expression]] which do not result from modifications to the [[DNA sequence|sequence of DNA]]. [[Neurogenesis]] is the mechanism for [[neuron]] proliferation and [[cellular differentiation|differentiation]]. It entails many different complex processes which are all time and order dependent.&lt;ref name=Hu&gt;{{cite journal|last=Hu|first=X.L. |author2=Wang, Y. |author3=Shen, Q.|title=Epigenetic control on cell fate choice in neural stem cells|journal=Protein &amp; Cell|year=2012|volume=3|issue=4|pages=278–290|doi=10.1007/s13238-012-2916-6|pmid=22549586|pmc=4729703}}&lt;/ref&gt;  Processes such as neuron proliferation, fate specification, differentiation, maturation, and functional integration of newborn cells into existing [[neuronal networks]] are all interconnected.&lt;ref name=Faigle&gt;{{cite journal|last=Faigle|first=Roland|author2=Song, Hongjun|title=Signaling mechanisms regulating adult neural stem cells and neurogenesis|journal=Biochimica et Biophysica Acta (BBA) - General Subjects|year=2013|volume=1830|issue=2|pages=2435–2448|pmid=22982587|doi=10.1016/j.bbagen.2012.09.002|pmc=3541438}}&lt;/ref&gt;  In the past decade{{when|date=July 2018}} many [[epigenetic]] regulatory mechanisms have been shown to play a large role in the timing and determination of neural [[stem cell]] lineages.&lt;ref name= Hu /&gt;
+
+==Relevant mechanisms and definitions==
+[[File:Epigenetic mechanisms.png|thumb|right|middle|Epigenetic mechanisms]]
+Three important methods of epigenetic regulation include [[histone modification]], [[DNA methylation]] and [[DNA demethylation|demethylation]], and microRNA ([[miRNA]]) expression. [[Histones]] keep the DNA of the [[eukaryotic cell]] tightly packaged through charge interactions between the positive charge on the histone tail and the negative charge of the DNA, as well as between histone tails of nearby [[nucleosomes]]. While there are many different types of histone modifications, in neural epigenetics there are two primary mechanisms which have been explored: [[histone methylation]] and [[histone acetylation]].&lt;ref name=Hu /&gt;&lt;ref name=MuhChyi&gt;{{cite journal|last=MuhChyi|first=Chai|author2=Juliandi, Berry |author3=Matsuda, Taito |author4= Nakashima, Kinichi |title=Epigenetic regulation of neural stem cell fate during corticogenesis|journal=International Journal of Developmental Neuroscience|date=October 2013|volume=31|issue=6|pages=424–433|doi=10.1016/j.ijdevneu.2013.02.006|pmid=23466416}}&lt;/ref&gt; 
+In the former, [[methyl groups]] are either added or removed to the histone altering its structure and exposing [[chromatin]] and leading to [[gene activation]] or deactivation. In the latter, histone acetylation causes the histone to hold the DNA more loosely, allowing for more gene activation. DNA methylation, in which methyl groups are added to cytosine or adenosine redisdues on the DNA, is a more lasting method of gene inactivation than histone modification, though is still reversible in some cases.&lt;ref name= Hu /&gt;&lt;ref name= MuhChyi /&gt; MicroRNAs are a small form of [[non-coding RNA]] (ncRNA) which often act as "fine-tuning" mechanisms for gene expression by repressing or inducing messenger RNA (mRNA) in neural cells but can also act directly with [[transcription factors]] to guide neurogenesis.&lt;ref name = Hu/&gt;&lt;ref name = MuhChyi/&gt;&lt;ref name=Ji&gt;{{cite journal|last=Ji|first=Fen|author2=Lv, Xiaohui |author3=Jiao, Jianwei |title=The Role of MicroRNAs in Neural Stem Cells and Neurogenesis|journal=Journal of Genetics and Genomics|date=February 2013|volume=40|issue=2|pages=61–66|doi=10.1016/j.jgg.2012.12.008|pmid=23439404}}&lt;/ref&gt;&lt;ref name= Sun&gt;{{cite journal|last=Sun|first=Alfred X|author2=Crabtree, Gerald R |author3=Yoo, Andrew S |title=MicroRNAs: regulators of neuronal fate|journal=Current Opinion in Cell Biology|date=April 2013|volume=25|issue=2|pages=215–221|doi=10.1016/j.ceb.2012.12.007|pmid=23374323|pmc=3836262}}&lt;/ref&gt;
+
+==Epigenetic regulation in the brain==
+
+===Embryonic neurogenesis===
+
+====Histone modifications====
+
+Neural stem cells generate the cortex in a precise "inside out" manner with carefully controlled timing mechanisms. Early born neurons form [[Cerebral cortex#Layered structure|deep layers]] in the cortex while newer born form the upper layers. This timing program is seen ''in vitro'' as well as ''in vivo''.&lt;ref name = Hu/&gt;&lt;ref name = MuhChyi/&gt; Histone methylation has been shown to be one of the epigenetic regulatory mechanisms which alters the proportionate production of deep layer and upper layer neurons. Specifically, deletion of [[Ezh2]] encoding histone methyltransferase led to a twofold reduction of BRN2-expressing and [[SATB2]] expressing upper layer neurons without affecting the number of neurons in layer V and VI. Similarly, histone acetylation through [[histone deacetylase]] (HDAC) inhibitor [[valproic acid]], an epilepsy therapeutic, in mouse embryonic stem cell (ESC) derived neural proginetors not only induces neuronal differentiation, but also selectively enriched the upper layer neuronal population. As such, it has been proposed that HDAC inhibition promotes the progression of neuronal differentiation, leading to a fate-switch from deep-layer producing progenitors into upper-layer progenitors. However, the reasons behind this selective differentiation and timing control as a result of HDAC inhibition are not yet fully understood.&lt;ref name=MuhChyi /&gt;
+
+====DNA methylation====
+
+DNA methylation's critical nature to [[corticogenesis]] has been shown through knockout experiments in mice. When [[DNMT]]3b and DNMT1 were [[Ablated#Biology|ablated]] separately in mouse embryos they died due to impairment of [[neural tube]] development. DNMT3a silencing did not cause embryonic lethality, but did result in a severe detriment in postnatal neurogenesis.&lt;ref name=Hu /&gt;&lt;ref name=MuhChyi /&gt; This is largely due to the timing in which these epigenetic mechanisms are active. DNMT3b is expressed in early neural progenitor cells and decrease as neural development proceeds and DNMT3a is barely detectable up until embryonic day 10 (E.10). However, at E.10, DNMT3a expression increases significantly from E13.5 and well into adulthood. In the postnatal forebrain, DNMT3a is expressed in the subventricular zone (SVZ) and the hippocampal [[dentate gyrus]], the primary locations for adult neurogenesis.&lt;ref name=Hu /&gt;&lt;ref name=Faigle /&gt; The loss of DNMT3a in post natal neural progenitor cells leads to the down-regulation of neuronic genes such as ''Dlx2'', ''Neurog2'', and ''Sp8''; but upregulation of genes involved in [[astrocyte|astroglial]] and [[oligodendrocyte|oligodendroglial]] differentiation, indicating a role in the cell-fate switch from neurogenesis to [[gliogenesis]]. DNA demethylation, as well as methylation, of certain genes allows for neurogenesis to proceed in a time dependent manner. One such gene is ''Hes5'', hypermethylated in E7.5 Embryos but completely demethylated by E9.5, which is one of the target genes in the [[Notch signaling|Notch Signaling]] pathway. GCM1 and GCM2 demethylate the ''Hes5'' promoter, allowing it to respond to NOTCH signaling and initiating the generation of neural stem cells.&lt;ref name=Hu /&gt; Another example is the ''[[Glial fibrillary acidic protein|Gfap]]'' gene which is required for astrocyte differentiation. The ability to differentiate into glial cells is repressed in neural stem cells with a neuronal cell fate. This repression is due largely to an irresponsiveness of neural stem cells towards astrocyte-inducing stimulations. The neural stem cells are non-responsive due to hypermethylated DNA in the promoter regions of astrocyte genes such as ''Gfap''. The STAT3 binding site in the promoter region of ''Gfap''  is hypermethylated at E11.5 and barely so at E14.5, at which point it is able to receive astrocyte inducing stimulations and begin cytokine-inducible astrocyte differentiation.&lt;ref name=MuhChyi /&gt;
+
+====miRNAs====
+[[File:MiRNA.svg|thumb|left|middle|Mechanism of miRNAs]]
+Studies done by De Pietri Tonelli and Kawase-Koga have shown [[Conditional gene knockout|conditional knockout]] of [[Dicer]], an enzyme largely used for miRNA synthesis, in mouse [[neocortex]] resulted in reduced cortical size, increased neuronal apoptosis, and deficient corticol layering. Neuroepithelial cells and neuroprogenitor cells were not affected until E.14, at which point they also underwent apoptosis. This doesn't show which miRNAs were responsible for the varying factors affected, but it does show that there is a stage-specific requirement for miRNA expression in cortical development.&lt;ref name=Hu /&gt;&lt;ref name=Sun /&gt;&lt;ref&gt;{{cite journal|last=De Pietri Tonelli|first=D.|author2=Pulvers, J. N. |author3=Haffner, C. |author4=Murchison, E. P. |author5=Hannon, G. J. |author6= Huttner, W. B. |title=miRNAs are essential for survival and differentiation of newborn neurons but not for expansion of neural progenitors during early neurogenesis in the mouse embryonic neocortex|journal=Development|date=23 October 2008|volume=135|issue=23|pages=3911–3921|doi=10.1242/dev.025080|pmid=18997113|pmc=2798592}}&lt;/ref&gt;&lt;ref&gt;{{cite journal|last=Kawase-Koga|first=Y.|author2=Low, R. |author3=Otaegi, G. |author4=Pollock, A. |author5=Deng, H. |author6=Eisenhaber, F. |author7=Maurer-Stroh, S. |author8= Sun, T. |title=RNAase-III enzyme Dicer maintains signaling pathways for differentiation and survival in mouse cortical neural stem cells|journal=Journal of Cell Science|date=26 January 2010|volume=123|issue=4|pages=586–594|doi=10.1242/jcs.059659|pmid=20103535|pmc=2818196}}&lt;/ref&gt; [[Mir-124 microRNA precursor family|miR-124]], the most abundant microRNA in the central nervous system, controls the lineage progression of [[subventricular zone]] neural progenitor cells into neuroblasts by suppressing protein production by targeting ''Sox9''. Another major microRNA player is [[miR-9/9*]]. In embryonic neurogenesis miR-9 has been shown to regulate neuronal differentiation and self-renewal.&lt;ref name=Hu /&gt;&lt;ref name = Ji /&gt;&lt;ref name = Sun /&gt; Ectopic expression of miR-9 in the developing mouse cortex led to premature neuronal differentiation and disrupted the migration of new neurons through targeting ''Foxg1''.&lt;ref name = Hu /&gt;
+
+Contrary to the idea that microRNAs are only fine-tuning mechanisms, recent studies have shown that miR-9 and miR-124 can act together to guide [[fibroblasts]] into neural cells.  Transcription factors and regulatory genes, such as ''Neurod1'', ''Ascr1'', and ''Myt1l'', which were previously thought to be responsible for this phenomenon did not transform human fibroblasts in the absence of miR-9 and miR-124, but in the presence of the microRNAs and the absence of the transcription factors human fibroblast transformation proceeded, albeit in a less efficient manner.&lt;ref name=Hu /&gt;&lt;ref name=Ji /&gt;&lt;ref name=Sun /&gt;
+
+===Adult neurogenesis===
+
+====DNA methylation====
+
+Neurogenesis continues after development well through adulthood.&lt;ref name = Faigle /&gt;[[GADD45B|Growth arrest and DNA-damage-inducible, beta]] (GADD45b) is required for the demethylation of promoters of critical genes responsible for new-born neuron development such as [[brain-derived neurotrophic factor]] (BDNF) and [[FGF2|basic fibroblast growth factor]] (FGF2).&lt;ref name=Lv&gt;{{cite journal|last=Lv|first=Jingwen|author2=Yongjuan Xin |author3=Wenhao Zhou |author4=Zilong Qiu |title=The Epigenetic Switches for Neural Development and Psychiatric Disorders|journal=Journal of Genetics and Genomics|year=2013|volume=40|pages=339–346|doi=10.1016/j.jgg.2013.04.007|pmid=23876774|issue=7}}&lt;/ref&gt; As such, upregulation of GADD45b leads to increased demethylation, increased BDNF and FGF2, and ultimately more neural progenitor cells.&lt;ref name = Hu /&gt;&lt;ref name = Lv /&gt;
+
+====Histone modification====
+
+Histone deacetylation also plays a large role in the proliferation and self-renewal of post-natal neural stem cells. Neural-expressed HDACs interact with ''Tlx'', an essential neural stem cell regulator, to suppress TLX target genes. This includes the cyclin-dependent kinase inhibitor P21 and the tumor suppressor gene ''Pten'' to promote neural stem cell proliferation. Inhibition of HDACS by the antiepileptic drug valproic acid induces neuronal differentiation as in embryonic neurogenesis, but also inhibits glial cell differentiation of adult neural stem cells. This is likely mediated through upregulation of neuronal specific genes such as the neurogeneic basic helix-loop-helix transcription factors NEUROD, NEUROGENENIN1, and Math1. Conditional loss of HDAC1 and HDAC2 in neural progenitor cells prevented them from differentiating into neurons and their loss in oligodendrytic progenitor cells disrupted oligodendrocyte formations, suggesting that histone deacetlyation plays important but varying roles in different stages of neuronal development.&lt;ref name= Hu/&gt;
+
+====miRNAs====
+
+miR-9 targets the nuclear receptor [[TLX]] in adult neurogenesis to promote neural differentiation and inhibit neural stem cell proliferation. It also influences neuronal subtype specification and regulates axonal growth, branching, and targeting in the central nervous system through interactions with [[HES1]], a neural stem cell homeostasis molecule.&lt;ref name = Hu/&gt;&lt;ref name = Sun/&gt; miR-124 promotes cell cycle exit and neuronal differentiation in adult neurogensis. Mouse studies have shown that ectopic expression of miR-124 showed premature neural progenitor cell differentiation and exhaustion in the subventricular zone.&lt;ref name = Sun/&gt;
+
+
+===In memory===
+
+Histone acetylation has a dynamic role in controlling memory formation and synaptic plasticity. HDAC inhibitors exhibited positive effects on mice with cognitive defects such as Alzheimer's disease and improved the cognition of wild type mice. HDAC2 has been shown to play a negative role in memory and learning. Sirt1, a histone acetylase, reduces memory formation ability by promoting the expression of miR-134, which targets the critical activity-dependent transcription factor (CREB) essential for learning and memory.&lt;ref name = Lv/&gt;
+
+The Growth Arrest and DNA Damage inducible 45 (Gadd45) gene family plays a large role in the hippocampus. Gadd45 facilitates hippocampal long-term potentiation and enhances persisting memory for motor performance, aversive conditioning, and spatial navigation.&lt;ref name=Sultan&gt;{{cite journal|last=Sultan|first=Faraz|author2=Jing Wang |author3=Jennifer Tront |author4=Dan Liebermann |author5=J. David Sweatt |title=Genetic Deletion of gadd45b, a Regulator of Active DNA Demethylation, Enhances Long-Term Memory and Synaptic Plasticity|journal=The Journal of Neuroscience|year=2012|volume=32|issue=48|pages=17059–17066|doi=10.1523/JNEUROSCI.1747-12.2012|pmid=23197699|pmc=3518911}}&lt;/ref&gt; Additionally, DNA methylation has been shown to be important for activity-dependent modulation of adult neurogenesis in the hippocampus, which is mediated by GADD45b. GADD45b seems to act as a sensor in mature neurons for environmental changes which it expresses through these methylation changes.&lt;ref name = Hu /&gt; This was determined by examining the effects of applying an electric stimulus to the hippocampal dentate gyrus (DG) in normal and GADD45b knockout mice. In normal mice application of electrical stimulation to the DG increased neurogenesis by increasing BDNF. However, in GADD45b deficient mice the electrical stimulus had less of an effect. Further examination revealed that around 1.4% of [[CpG islands]] in DG neurons are actively methylated and demthylated upon electric shock. This shows that the post-mitotic methylation states of neurons are not static and given that electric shock equipment such as that used in the study has been shown to have therapeutic effects to human patients with depression and other psychiatric disorders, the possibility remains that epigenetic mechanisms may play an important role in the pathophysiology of neuropsychiatric disorders.&lt;ref name = Faigle/&gt;&lt;ref name = Lv/&gt; DNMT1 and DNMT3a are both required in conjunction for learning, memory, and synaptic plasticity.&lt;ref name =Lv/&gt;
+
+===Epigenetic misregulation and neurological disorders===
+
+Alterations on epigenomic machinery cause DNA methylation and histone acetylation processes to go rogue, leading to alterations on the transcriptional level of genes involved in the [[pathogenesis]] of neural degenerative diseases such as [[Parkinson's disease]], [[Alzheimer's disease]], schizophrenia, and bipolar disease.&lt;ref name=Hu /&gt;&lt;ref name=Dempster&gt;{{cite journal|last=Dempster|first=E. L. |author2=Pidsley, R. |author3=Schalkwyk, L. C. |author4=Owens, S. |author5=Georgiades, A. |author6=Kane, F. |author7=Kalidindi, S. |author8=Picchioni, M. |author9=Kravariti, E. |author10=Toulopoulou, T. |author11=Murray, R. M. |author12=Mill, J.|title=Disease-associated epigenetic changes in monozygotic twins discordant for schizophrenia and bipolar disorder|journal=Human Molecular Genetics|date=9 September 2011|volume=20|issue=24|pages=4786–4796|doi=10.1093/hmg/ddr416|pmid=21908516|pmc=3221539}}&lt;/ref&gt;
+
+====Alzheimer's disease====
+
+MicroRNA expression is critical for neurogenesis. In patients with Alzheimer's disease miR-9 and miR-128 is upregulated, while miR-15a is downregulated.&lt;ref name=Ji /&gt;  Alzheimer's patients also show decreases in brain-derived neurotrophic factor, which has been shown to be repressed through DNA methylation.&lt;ref name = Lv /&gt; Although what has been argued as the most evidence for epigenetic influence in Alzheimer's is the gene which controls the protein responsible for [[amyloid plaque]] formation, ''[[Amyloid precursor protein|App]]''. This gene has very high GC content in its [[promoter region]], meaning that it is highly susceptible to DNA methylation. This promoter site has been shown to naturally reduce methylation with aging, exemplifying the parallels between aging and Alzheimer's already well known.&lt;ref name = Balazs&gt;{{cite journal|last=Balazs|first=R|author2=Vernon, J |author3=Hardy, J |title=Epigenetic mechanisms in Alzheimer's disease: progress but much to do|journal=Neurobiology of Aging|date=July 2011|volume=32|issue=7|pages=1181–7|pmid=21669333|doi=10.1016/j.neurobiolaging.2011.02.024}}&lt;/ref&gt;&lt;ref name=Dan&gt;{{cite journal|last=Daniilidou|first=M|author2=Koutroumani, M |author3=Tsolaki, M |title=Epigenetic mechanisms in Alzheimer's disease|journal=Current Medicinal Chemistry|year=2011|volume=18|issue=12|pages=1751–6|pmid=21466476|doi=10.2174/092986711795496872}}&lt;/ref&gt; Heavy metals also seem to interfere with epigenetic mechanisms. Specifically in the case of APP, lead exposure earlier in life has been shown to cause a marked over-expression of the APP protein, leading to more amalyoid plaque later in life in the aging brain.&lt;ref name =Dan/&gt;
+
+DNA methylation's age relation has been further investigated in the promoter regions of several Alzheimer's related genes in the brains of [[postmortem]] late-onset Alzheimer's disease patients. The older patients seem to have more abnormal epigenetic machinery than the younger patients, despite the fact that both had died from Alzheimer's. Though this in of itself is not conclusive evidence of anything, it has led to an [[age-related epigenetic drift]] theory where abnormalities in epigenetic machinery and exposure to certain environmental factors which occur earlier in life lead to aberrant DNA methylation patterns far later, contributing to sporadic Alzheimer's Disease predisposition.&lt;ref name= Dan/&gt;
+
+Histone modifications may also have an impact in Alzheimer's disease, but the differences between HDAC effects in rodent brains compared to human brains have researchers puzzled.&lt;ref name= Dan/&gt; As the focus for neurodegenerative diseases begins to shift towards [[epigenetic pharmacology]], it can be expected that the interactions of histone modifications with respect to neurogenesis will become more clear.
+
+==References==
+{{reflist}}
+
+==External links==
+* Database of known microRNAs: http://www.miRbase.org
+* [http://www.the-scientist.com/?articles.view/articleNo/37155/title/Precision-Epigenetics/ Article on histone methylation visualization through fluorescent imaging]
+
+[[Category:Molecular neuroscience]]
+[[Category:Epigenetics]]</text>
+      <sha1>kc9ja01bwx3cbhxegendz41hrza2un7</sha1>
+    </revision>
+  </page>
+</mediawiki>

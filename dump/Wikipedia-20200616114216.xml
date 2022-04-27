@@ -1,0 +1,471 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.10/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.10/ http://www.mediawiki.org/xml/export-0.10.xsd" version="0.10" xml:lang="en">
+  <siteinfo>
+    <sitename>Wikipedia</sitename>
+    <dbname>enwiki</dbname>
+    <base>https://en.wikipedia.org/wiki/Main_Page</base>
+    <generator>MediaWiki 1.35.0-wmf.36</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Media</namespace>
+      <namespace key="-1" case="first-letter">Special</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Talk</namespace>
+      <namespace key="2" case="first-letter">User</namespace>
+      <namespace key="3" case="first-letter">User talk</namespace>
+      <namespace key="4" case="first-letter">Wikipedia</namespace>
+      <namespace key="5" case="first-letter">Wikipedia talk</namespace>
+      <namespace key="6" case="first-letter">File</namespace>
+      <namespace key="7" case="first-letter">File talk</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki talk</namespace>
+      <namespace key="10" case="first-letter">Template</namespace>
+      <namespace key="11" case="first-letter">Template talk</namespace>
+      <namespace key="12" case="first-letter">Help</namespace>
+      <namespace key="13" case="first-letter">Help talk</namespace>
+      <namespace key="14" case="first-letter">Category</namespace>
+      <namespace key="15" case="first-letter">Category talk</namespace>
+      <namespace key="100" case="first-letter">Portal</namespace>
+      <namespace key="101" case="first-letter">Portal talk</namespace>
+      <namespace key="108" case="first-letter">Book</namespace>
+      <namespace key="109" case="first-letter">Book talk</namespace>
+      <namespace key="118" case="first-letter">Draft</namespace>
+      <namespace key="119" case="first-letter">Draft talk</namespace>
+      <namespace key="446" case="first-letter">Education Program</namespace>
+      <namespace key="447" case="first-letter">Education Program talk</namespace>
+      <namespace key="710" case="first-letter">TimedText</namespace>
+      <namespace key="711" case="first-letter">TimedText talk</namespace>
+      <namespace key="828" case="first-letter">Module</namespace>
+      <namespace key="829" case="first-letter">Module talk</namespace>
+      <namespace key="2300" case="first-letter">Gadget</namespace>
+      <namespace key="2301" case="first-letter">Gadget talk</namespace>
+      <namespace key="2302" case="case-sensitive">Gadget definition</namespace>
+      <namespace key="2303" case="case-sensitive">Gadget definition talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>List of Microsoft 365 Applications</title>
+    <ns>0</ns>
+    <id>18784745</id>
+    <revision>
+      <id>962150046</id>
+      <parentid>962147545</parentid>
+      <timestamp>2020-06-12T11:07:48Z</timestamp>
+      <contributor>
+        <username>Smithr32</username>
+        <id>23571282</id>
+      </contributor>
+      <minor/>
+      <comment>Start date templated added, section renamed</comment>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="5921" xml:space="preserve">{{short description|Wikipedia list article}}{{Merge|Office 365|date=March 2020}}
+
+'''[[Microsoft Office]]''' is a set of interrelated desktop applications, servers and services, collectively referred to as an office suite, for the [[Microsoft Windows]] and [[macOS]] operating systems.
+
+This list contains all the programs that are, or have been, in Microsoft Office since it began. 
+
+== Office 365 Applications ==
+{| class="wikitable sortable"
+!Product Name
+!Release Date
+!Desktop
+App
+!Online
+Service
+!Mobile
+App
+|-
+|[[Microsoft Access|Access]]
+|{{Start date|1992|11}}
+|{{Yes}}
+|{{No}}
+|{{No}}
+|-
+|[[Microsoft Excel|Excel]]
+|{{Start date|1987}}
+|{{Yes}}
+|{{Yes}}
+|{{Yes}}
+|-
+|[[Microsoft OneNote|OneNote]]
+|{{Start date|2003|11|19}}
+|{{Yes}}
+|{{Yes}}
+|{{Yes}}
+|-
+|[[Microsoft Outlook|Outlook]]
+|{{Start date|1997|1|16}}
+|{{Yes}}
+|{{Yes}}
+|{{Yes}}
+|-
+|[[Microsoft PowerPoint|PowerPoint]]
+|{{Start date|1990|5|22}}
+|{{Yes}}
+|{{Yes}}
+|{{Yes}}
+|-
+|[[Microsoft Power BI|Power BI]]
+|{{Start date|2011|7|11}}
+|{{Yes}}
+|{{Yes}}
+|{{Yes}}
+|-
+|[[Microsoft Project|Project]]
+|{{Start date|1984}}
+|{{Yes}}
+|{{No}}
+|{{No}}
+|-
+|[[Microsoft Publisher|Publisher]]
+|{{Start date|1991}}
+|{{Yes}}
+|{{No}}
+|{{No}}
+|-
+|[[Microsoft Visio|Visio]]
+|{{Start date|1992}}
+|{{Yes}}
+|{{Yes}}
+|{{Yes|Yes &lt;ref&gt;Visio [[iOS]] application is a viewer only&lt;/ref&gt;}}
+|-
+|[[OneDrive for Business]]
+|
+|{{Yes}}
+|{{Yes}}
+|{{Yes}}
+|-
+|[[Microsoft Sway|Sway]]
+|{{Start date|2014}}
+|{{Yes}}
+|{{Yes}}
+|{{No}}
+|-
+|[[Microsoft Word|Word]]
+|{{Start date|1983|10|25}}
+|{{Yes}}
+|{{Yes}}
+|{{Yes}}
+|-
+|[[Microsoft Forms|Forms]]
+|{{Start date|2016|6|20}}
+|{{No}}
+|{{Yes}}
+|{{No}}
+|-
+|[[Microsoft Bookings|Bookings]]
+|{{Start date|2016|7|20}}
+|{{No}}
+|{{Yes}}
+|{{Yes}}
+|-
+|[[Microsoft Classroom|Classroom]]
+|{{Start date|2016|4|14}}
+|{{No}}
+|{{Yes}}
+|{{No}}
+|-
+|[[Docs.com]]
+|{{Start date|2010|4|21}}
+|{{No}}
+|{{Yes}}
+|{{No}}
+|-
+|[[Microsoft Delve|Delve]]
+|{{Start date|2015|3}}
+|{{No}}
+|{{Yes}}
+|{{Yes}}
+|-
+|[[Flow]]
+|{{Start date|2016|10|31}}
+|{{No}}
+|{{Yes}}
+|{{Yes}}
+|-
+|[[GroupMe]]
+|{{Start date|2010|5}}
+|{{No}}
+|{{Yes}}
+|{{Yes}}
+|-
+|[[MyAnalytics]]
+|{{Start date|2019|5|15}}
+|{{No}}
+|{{Yes}}
+|{{No}}
+|-
+|[[Office Online]]
+|{{Start date|2010|6|7}}
+|{{No}}
+|{{Yes}}
+|{{No}}
+|-
+|[[OneDrive]]
+|{{Start date|2007|8|1}}
+|{{Yes}}
+|{{Yes}}
+|{{Yes}}
+|-
+|[[Outlook.com]]
+|{{Start date|1996|7|4}}
+|{{No}}
+|{{Yes}}
+|{{No}}
+|-
+|[[Microsoft Planner|Planner]]
+|{{Start date|2016|6|6}}
+|{{No}}
+|{{Yes}}
+|{{Yes}}
+|-
+|[[Microsoft PowerApps]]
+|{{Start date|2016|10}}
+|{{No}}
+|{{Yes}}
+|{{Yes}}
+|-
+|[[Microsoft Stream]]
+|{{Start date|2017|6|20}}
+|{{No}}
+|{{Yes}}
+|{{No}}
+|-
+|[[Microsoft Teams]]
+|{{Start date|2016|11|2}}
+|{{Yes}}
+|{{Yes}}
+|{{Yes}}
+|-
+|[[SharePoint|SharePoint]]
+|{{Start date|2001|3|28}}
+|{{Yes}}
+|{{Yes}}
+|{{Yes}}
+|-
+|[[Microsoft To-Do]]
+|{{Start date|2017|4}}
+|{{Yes}}
+|{{Yes}}
+|{{Yes}}
+|-
+|[[Skype]]
+|{{Start date|2003|8|29}}
+|{{Yes}}
+|{{Yes}}
+|{{Yes}}
+|-
+|[[Yammer]]
+|{{Start date|2008|3|10}}
+|{{Yes}}
+|{{Yes}}
+|{{Yes}}
+|-
+|[[Fluid Framework]]
+|{{TBA}}
+|{{TBA}}
+|{{TBA}}
+|{{TBA}}
+|-
+|Project Cortex
+|{{TBA}}
+|{{TBA}}
+|{{TBA}}
+|{{TBA}}
+|}
+
+==Server applications==
+{| class="wikitable sortable"
+!Name
+!Release Date
+|-
+|[[Microsoft Exchange Server]]
+*[[Outlook on the web]]
+|April 11, 1996
+1997
+|-
+|[[Microsoft Project Server]]
+|2000
+|-
+|[[Office Online#Availability|Office Web Apps Server]]
+|
+|-
+|[[SharePoint]]
+*[[Excel Services]]
+*[[Microsoft InfoPath#Server-side components|InfoPath Forms Services]]
+|March 28, 2001
+2010
+
+November 19, 2003
+|-
+|[[Skype for Business Server]]
+|December 29, 2003
+|}
+
+==Discontinued programs==
+{| class="wikitable sortable"
+!Name
+!Release Date
+!Discontinued
+|-
+|Microsoft Binder
+|August 24, 1995
+|August 19, 2003
+|-
+|[[Microsoft Clip Organizer]]
+|
+|
+|-
+|[[Microsoft Data Analyzer]]
+|
+|
+|-
+|[[Microsoft Entourage]]
+|
+|
+|-
+|[[Microsoft Equation Editor]]
+|
+|
+|-
+|[[Microsoft Exchange Client]]
+|
+|
+|-
+|[[Microsoft FrontPage]]
+|
+|
+|-
+|[[Gigjam Preview]]
+|
+|
+|-
+|[[Microsoft InfoPath]]
+|
+|
+|-
+|[[Microsoft InterConnect]]
+|
+|
+|-
+|[[Microsoft Mail]]
+|
+|
+|-
+|[[Microsoft MapPoint]]
+|
+|
+|-
+|[[Microsoft Mathematics]] (formerly Microsoft Math)
+|
+|
+|-
+|[[Microsoft Office Accounting]]
+|
+|
+|-
+|[[Microsoft Office Document Imaging]]
+|
+|
+|-
+|[[Microsoft Office Document Scanning]]
+|
+|
+|-
+|[[Microsoft Office Live]]
+|
+|
+|-
+|[[Microsoft Office Live Meeting]]
+|
+|
+|-
+|[[Microsoft Office PerformancePoint Server]]
+|
+|
+|-
+|[[Microsoft Office Picture Manager]]
+|
+|
+|-
+|[[Microsoft Office Project Portfolio Server]]
+|
+|
+|-
+|[[Microsoft Outlook#Hotmail Connector|Microsoft Outlook Hotmail Connector]]
+|
+|
+|-
+|[[Microsoft PhotoDraw]]
+|
+|
+|-
+|[[Microsoft Photo Editor]]
+|
+|
+|-
+|[[Microsoft Schedule Plus|Microsoft Schedule+]]
+|
+|
+|-
+|[[Microsoft Search Server]]
+|
+|
+|-
+|[[Microsoft SharePoint Designer]]
+|
+|
+|-
+|[[Microsoft SharePoint Foundation]]
+|
+|
+|-
+|[[Microsoft SharePoint Foundation|Microsoft SharePoint Workspace]] [[Microsoft SharePoint Foundation|(formerly Microsoft Office Groove)]]
+|
+|
+|-
+|[[Microsoft Vizact]]
+|
+|
+|-
+|[[Office Assistant]]
+|
+|
+|-
+|[[Office Web Components]]
+|
+|
+|}
+
+==Technologies==
+*[[Information Bridge]]
+*[[Microsoft Office Open XML]]
+*[[Microsoft Office XML formats]]
+*[[Smart tag (Microsoft)|Smart Tags]]
+*[[Visual Basic for Applications]]
+
+==See also==
+*[[Microsoft Office shared tools]]
+*[[List of office suites]]
+*[[Comparison of office suites]]
+*[[Microsoft MapPoint]]
+*[[Microsoft Visual Studio]]
+*[[Microsoft Works]]
+
+==References==
+&lt;references /&gt;
+
+==External links==
+*[http://www.microsoft.com/office The Microsoft Office page for Windows]
+*[http://www.microsoft.com/mac/products/Office2008/default.mspx The Microsoft Office page for macOS]
+*[http://www.tytc.edu.bd/courses/computer/office-applications '''Training Center for Microsoft Office Application''']
+
+{{Microsoft Office}}
+[[Category:Microsoft Office| ]]
+[[Category:Microsoft lists|Office]]
+[[Category:Office suites for Windows]]
+[[Category:Office suites for macOS]]</text>
+      <sha1>swmvk6ni9q14mksskuiqi1lpykrpopo</sha1>
+    </revision>
+  </page>
+</mediawiki>

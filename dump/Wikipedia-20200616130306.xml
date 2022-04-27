@@ -1,0 +1,79 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.10/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.10/ http://www.mediawiki.org/xml/export-0.10.xsd" version="0.10" xml:lang="en">
+  <siteinfo>
+    <sitename>Wikipedia</sitename>
+    <dbname>enwiki</dbname>
+    <base>https://en.wikipedia.org/wiki/Main_Page</base>
+    <generator>MediaWiki 1.35.0-wmf.36</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Media</namespace>
+      <namespace key="-1" case="first-letter">Special</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Talk</namespace>
+      <namespace key="2" case="first-letter">User</namespace>
+      <namespace key="3" case="first-letter">User talk</namespace>
+      <namespace key="4" case="first-letter">Wikipedia</namespace>
+      <namespace key="5" case="first-letter">Wikipedia talk</namespace>
+      <namespace key="6" case="first-letter">File</namespace>
+      <namespace key="7" case="first-letter">File talk</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki talk</namespace>
+      <namespace key="10" case="first-letter">Template</namespace>
+      <namespace key="11" case="first-letter">Template talk</namespace>
+      <namespace key="12" case="first-letter">Help</namespace>
+      <namespace key="13" case="first-letter">Help talk</namespace>
+      <namespace key="14" case="first-letter">Category</namespace>
+      <namespace key="15" case="first-letter">Category talk</namespace>
+      <namespace key="100" case="first-letter">Portal</namespace>
+      <namespace key="101" case="first-letter">Portal talk</namespace>
+      <namespace key="108" case="first-letter">Book</namespace>
+      <namespace key="109" case="first-letter">Book talk</namespace>
+      <namespace key="118" case="first-letter">Draft</namespace>
+      <namespace key="119" case="first-letter">Draft talk</namespace>
+      <namespace key="446" case="first-letter">Education Program</namespace>
+      <namespace key="447" case="first-letter">Education Program talk</namespace>
+      <namespace key="710" case="first-letter">TimedText</namespace>
+      <namespace key="711" case="first-letter">TimedText talk</namespace>
+      <namespace key="828" case="first-letter">Module</namespace>
+      <namespace key="829" case="first-letter">Module talk</namespace>
+      <namespace key="2300" case="first-letter">Gadget</namespace>
+      <namespace key="2301" case="first-letter">Gadget talk</namespace>
+      <namespace key="2302" case="case-sensitive">Gadget definition</namespace>
+      <namespace key="2303" case="case-sensitive">Gadget definition talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Wikipedia talk:The newcomer's manual/One page view - full manual</title>
+    <ns>5</ns>
+    <id>36464126</id>
+    <revision>
+      <id>504965909</id>
+      <parentid>504563193</parentid>
+      <timestamp>2012-07-30T17:40:18Z</timestamp>
+      <contributor>
+        <username>Montanabw</username>
+        <id>1179460</id>
+      </contributor>
+      <comment>/* Still a bit technical */ I like them!</comment>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="4321" xml:space="preserve">Heh!  One thought: The "obvious" is often not obvious to that amorphous "everyone" or "anyone." So "IF the statement is easily verifiable by anyone, unchallenged nor ever likely to be challenged THEN no citation is needed."   Add to that the caveat, "Anyone' means a 10 year old kid, not your immediate social circle" or, "if someone insists on a citation anyway, remember that the sky is not, in fact ''always'' blue.  [[User:Montanabw|&lt;font color="006600"&gt;Montanabw&lt;/font&gt;]]&lt;sup&gt;[[User talk:Montanabw|(talk)]]&lt;/sup&gt; 17:00, 17 July 2012 (UTC)
+:Hehe! fing is, though, fing is, that ''as soon as it's challenged'' it falls straight into a different category, yes?  And adding (not a whole heap, just sufficient) citation(s) to a challenged statement is just fine. [[User:ThatPeskyCommoner| &lt;span style="color:#003300; font-family: Apple Chancery, Zapf Chancery, cursive;"&gt;Pesky&lt;/span&gt;]] ([[User talk:ThatPeskyCommoner|&lt;span style="color:#003300; font-family:Papyrus, Noteworthy;"&gt;talk&lt;/span&gt;]]) 08:03, 22 July 2012 (UTC)
+::I once had an editing spat over a ref I added to an article I was working on, the other editor, citing [[WP:POPE]]  insisted that I COULD NOT have a ref in there.   [[User:Montanabw|&lt;font color="006600"&gt;Montanabw&lt;/font&gt;]]&lt;sup&gt;[[User talk:Montanabw|(talk)]]&lt;/sup&gt; 01:25, 23 July 2012 (UTC)
+:::Heheheeee! On the other side of the coin, though, is the kind of person who wants video evidence of a large number of bears ''actually'' shitting in the woods ... [[User:ThatPeskyCommoner| &lt;span style="color:#003300; font-family: Apple Chancery, Zapf Chancery, cursive;"&gt;Pesky&lt;/span&gt;]] ([[User talk:ThatPeskyCommoner|&lt;span style="color:#003300; font-family:Papyrus, Noteworthy;"&gt;talk&lt;/span&gt;]]) 05:23, 24 July 2012 (UTC)
+
+== Still a bit technical ==
+
+I read through the manual and I think it's a great idea for new users. I still think it needs to be trimmed down quite a bit though. It seems a bit too technical, and some of the formatting and wording choices (IMO) make it so that new users probably won't be motivated to read the whole thing. Here are some examples:
+*'''IF'''...'''THEN''' structures might make a lot of sense to a computer programmers, but they can be scary for others.
+*Example names like ''Joe, Jillie, and Jennifer Knutt-Kays, Jeremy Ravenlune and their "Bizarre Theorem", and "Wonderful Web Hoax"'' are humorous, but hard to keep track of. Try using common names like Andrew, Brittany, Charlie, David, Elizabeth, etc.
+*Use simpler examples, and don't continue the same example in the next section (very hard for skimmers).
+*Find some good pictures.
+*Have a Lead section of a couple of sentences that puts everything in a nutshell.
+I'd be happy to make some of these changes myself, but I'm not sure if this page is something that I'm supposed to edit, or if it's still somebody's personal project. &lt;span style="font-family:times; font-size:10.2pt"&gt;~[[User:Adjwilley|Adjwilley]]&lt;/span&gt; &lt;span style="font-family:times; font-size:7pt"&gt;([[User talk:Adjwilley|talk]])&lt;/span&gt; 21:35, 25 July 2012 (UTC)
+:Aaah, where I come from, Joe, Jillie, Jennifer and Jeremy are all quite common names!  And the nutcase and raving loon soundalikes are specifically there to illustrate ''the kinds of views'' which would (hopefully!) make it obvious to newcomers exactly ''why'' we can't, as an encyclopaedia, rely on them.  Also the nutcase's hoax and the raving loon's bizarre theorem ... I wanted to keep on the same kind of metaphors throughout, and use the same examples throughout, so that newcomers could see ''what'' we don't want, and ''why''.  I can't think of a better way to include these ''[searching for word]]'' semi-subliminials? ... in there, so that newcomers are always aware that it's the nutcases, loonies, and their made-up stuff, which we neither want to include nor rely on for verifiability. [[User:ThatPeskyCommoner| &lt;span style="color:#003300; font-family: Apple Chancery, Zapf Chancery, cursive;"&gt;Pesky&lt;/span&gt;]] ([[User talk:ThatPeskyCommoner|&lt;span style="color:#003300; font-family:Papyrus, Noteworthy;"&gt;talk&lt;/span&gt;]]) 09:15, 28 July 2012 (UTC)
+::I"m good with the alliteration.  I use it myself when presenting thorny problems and quirky situations!  [[User:Montanabw|&lt;font color="006600"&gt;Montanabw&lt;/font&gt;]]&lt;sup&gt;[[User talk:Montanabw|(talk)]]&lt;/sup&gt; 17:40, 30 July 2012 (UTC)</text>
+      <sha1>d7nnc5skxxtk5o55p461pn8naq93c8w</sha1>
+    </revision>
+  </page>
+</mediawiki>

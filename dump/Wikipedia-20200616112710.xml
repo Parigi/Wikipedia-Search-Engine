@@ -1,0 +1,656 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.10/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.10/ http://www.mediawiki.org/xml/export-0.10.xsd" version="0.10" xml:lang="en">
+  <siteinfo>
+    <sitename>Wikipedia</sitename>
+    <dbname>enwiki</dbname>
+    <base>https://en.wikipedia.org/wiki/Main_Page</base>
+    <generator>MediaWiki 1.35.0-wmf.36</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Media</namespace>
+      <namespace key="-1" case="first-letter">Special</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Talk</namespace>
+      <namespace key="2" case="first-letter">User</namespace>
+      <namespace key="3" case="first-letter">User talk</namespace>
+      <namespace key="4" case="first-letter">Wikipedia</namespace>
+      <namespace key="5" case="first-letter">Wikipedia talk</namespace>
+      <namespace key="6" case="first-letter">File</namespace>
+      <namespace key="7" case="first-letter">File talk</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki talk</namespace>
+      <namespace key="10" case="first-letter">Template</namespace>
+      <namespace key="11" case="first-letter">Template talk</namespace>
+      <namespace key="12" case="first-letter">Help</namespace>
+      <namespace key="13" case="first-letter">Help talk</namespace>
+      <namespace key="14" case="first-letter">Category</namespace>
+      <namespace key="15" case="first-letter">Category talk</namespace>
+      <namespace key="100" case="first-letter">Portal</namespace>
+      <namespace key="101" case="first-letter">Portal talk</namespace>
+      <namespace key="108" case="first-letter">Book</namespace>
+      <namespace key="109" case="first-letter">Book talk</namespace>
+      <namespace key="118" case="first-letter">Draft</namespace>
+      <namespace key="119" case="first-letter">Draft talk</namespace>
+      <namespace key="446" case="first-letter">Education Program</namespace>
+      <namespace key="447" case="first-letter">Education Program talk</namespace>
+      <namespace key="710" case="first-letter">TimedText</namespace>
+      <namespace key="711" case="first-letter">TimedText talk</namespace>
+      <namespace key="828" case="first-letter">Module</namespace>
+      <namespace key="829" case="first-letter">Module talk</namespace>
+      <namespace key="2300" case="first-letter">Gadget</namespace>
+      <namespace key="2301" case="first-letter">Gadget talk</namespace>
+      <namespace key="2302" case="case-sensitive">Gadget definition</namespace>
+      <namespace key="2303" case="case-sensitive">Gadget definition talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>App Store (iOS)</title>
+    <ns>0</ns>
+    <id>16179920</id>
+    <revision>
+      <id>960774176</id>
+      <parentid>959599315</parentid>
+      <timestamp>2020-06-04T20:49:11Z</timestamp>
+      <contributor>
+        <username>WikiCleanerBot</username>
+        <id>18872885</id>
+      </contributor>
+      <minor/>
+      <comment>v2.02b - [[User:WikiCleanerBot#T5|Bot T5 CW#16]] - [[WP:WCW]] project (Unicode control characters)</comment>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="103717" xml:space="preserve">{{about||the macOS version of the app store|App Store (macOS)|the tvOS version of the app store|App Store (tvOS)|the general concept|App store}}
+{{short description|Digital application distribution platform for iOS}}
+{{Use mdy dates|date=February 2017}}
+{{Infobox software
+| name = App Store
+| logo = App Store (iOS).svg
+| logo_alt = 
+| logo_size = 100px
+| screenshot = 
+| screenshot_alt = 
+| screenshot_size = 300px
+| caption = App Store on [[iOS 12]], running on an [[iPhone XS|iPhone XS Max]].
+| other_names = 
+| replaces = 
+| replaced_by = 
+| service_name = 
+| repo = 
+| operating system = [[iOS]], [[iPadOS]]
+| genre = [[Digital distribution]] and [[software update]]
+}}
+The '''App Store''' is a [[digital distribution]] platform, developed and maintained by [[Apple Inc.]], for [[mobile app]]s on its [[iOS]] operating system. The store allows users to browse and download apps developed with Apple's [[iOS SDK|iOS software development kit]]. Apps can be downloaded on the [[iPhone]] smartphone, the [[iPod Touch]] handheld computer, or the [[iPad]] tablet computer, and some can be transferred to the [[Apple Watch]] smartwatch or 4th-generation or newer [[Apple TV]]s as extensions of iPhone apps.
+
+The App Store was opened on July 10, 2008, with an initial 500 applications available. {{As of|2017|}}, the store features over 2.2 million apps.
+
+Developers have multiple options for monetizing their applications, ranging from free, free with in-app purchases, and paid. However, App Store has been criticized for a lackluster development environment, prompting the company in June 2016 to announce a "renewed focus and energy" on the store. Major changes introduced in the following months include ads in search results, a new app subscription model, and the ability for developers to respond to customer reviews. Additionally, Apple began a process to remove old apps that do not function as intended or that don't follow current app guidelines, with app research firms noticing significant numbers of app removals from the store. Furthermore, with the release of [[iOS 11]] in September 2017, App Store received a complete design overhaul, bringing a greater focus on editorial content and daily highlights, as well as a design similar in style to several of Apple's built-in iOS apps.
+
+==History==
+[[File:Download on iTunes.svg|thumb|''Download on the App Store'' badge as of 2017]]
+
+The iPhone App Store opened on July 10, 2008.&lt;ref&gt;{{cite web |title=Apple's App Store launches with more than 500 apps |url=http://appleinsider.com/articles/08/07/10/apples_app_store_launches_with_more_than_500_apps |website=AppleInsider |date=July 10, 2008 |accessdate=March 31, 2017}}&lt;/ref&gt;&lt;ref&gt;{{cite web |first=Christina |last=Bonnington |title=5 Years On, the App Store Has Forever Changed the Face of Software |url=https://www.wired.com/2013/07/five-years-of-the-app-store/ |website=[[Wired (website)|Wired]] |publisher=[[Condé Nast]] |date=July 10, 2013 |accessdate=March 31, 2017}}&lt;/ref&gt;&lt;ref name="Launching with 500"/&gt; On July 11, the [[iPhone 3G]] was released and came pre-loaded with support for App Store.&lt;ref&gt;{{cite web |title=Apple Introduces the New iPhone 3G |url=https://www.apple.com/pr/library/2008/06/09Apple-Introduces-the-New-iPhone-3G.html |website=Apple Press Info |publisher=[[Apple Inc.]] |date=June 9, 2008 |accessdate=March 31, 2017}}&lt;/ref&gt;&lt;ref&gt;{{cite web |first=Paul |last=Miller |title=iPhone 3G is finally official, starts at $199, available July 11th |url=https://www.engadget.com/2008/06/09/iphone-3g-is-finally-official/ |website=[[Engadget]] |publisher=[[AOL]] |date=June 9, 2008 |accessdate=March 31, 2017}}&lt;/ref&gt;
+
+After the success of Apple's App Store and the launch of [[list of mobile software distribution platforms|similar services]] by its competitors, the term "app store" has been adopted to refer to any similar service for mobile devices.&lt;ref&gt;{{cite web |first=Sinead |last=Carew |title=In app store war, BlackBerry, Google hold own |url=https://www.reuters.com/article/us-column-pluggedin-idUSTRE53L5DK20090422 |website=[[Reuters]] |publisher=[[Thomson Reuters]] |date=April 22, 2009 |accessdate=March 31, 2017}}&lt;/ref&gt;&lt;ref&gt;{{cite web |first=Roy |last=Furchgott |title=Nokia’s App Store Launches With a Hiccup |url=https://gadgetwise.blogs.nytimes.com/2009/05/29/nokias-app-store-launches-with-a-hiccup/ |website=[[The New York Times]] |date=May 29, 2009 |accessdate=March 31, 2017}}&lt;/ref&gt;&lt;ref&gt;{{cite web |first=Priya |last=Ganapati |title=BlackBerry App Store Gets a Name |url=https://www.wired.com/2009/03/blackberry-app/ |website=[[Wired (website)|Wired]] |publisher=[[Condé Nast]] |date=March 4, 2009 |accessdate=March 31, 2017}}&lt;/ref&gt; However, Apple applied for a U.S. [[trademark]] on the term "App Store" in 2008,&lt;ref&gt;{{cite web |first=Larry |last=Dignan |title=Apple's App Store and a little trademark history |url=http://www.zdnet.com/article/apples-app-store-and-a-little-trademark-history/ |website=[[ZDNet]] |publisher=[[CBS Interactive]] |date=March 22, 2011 |accessdate=March 31, 2017}}&lt;/ref&gt; which was tentatively approved in early 2011.&lt;ref&gt;{{cite web |first=Peter |last=Pachal |title=How Apple Can Trademark 'App Store' |url=https://www.pcmag.com/article2/0,2817,2382968,00.asp |website=[[PC Magazine]] |publisher=[[Ziff Davis]] |date=April 1, 2011 |accessdate=March 31, 2017}}&lt;/ref&gt; In June 2011, U.S. District Judge [[Phyllis Hamilton]], who was presiding over Apple's case against [[Amazon.com|Amazon]], said she would "probably" deny Apple's motion to stop Amazon from using the "App Store" name.&lt;ref&gt;{{cite web |first=Josh |last=Lowensohn |title=Judge likely to deny Apple's 'Appstore' complaint |url=https://www.cnet.com/news/judge-likely-to-deny-apples-appstore-complaint/ |website=[[CNET]] |publisher=[[CBS Interactive]] |date=June 22, 2011 |accessdate=March 31, 2017}}&lt;/ref&gt;&lt;ref&gt;{{cite web |first1=Joel |last1=Rosenblatt |first2=Karen |last2=Gullo |title=Apple Bid to Bar Amazon ‘Appstore’ Will ‘Likely’ Be Denied |url=http://www.businessweek.com/news/2011-06-22/apple-bid-to-bar-amazon-appstore-will-likely-be-denied.html |archiveurl=https://web.archive.org/web/20110624211650/http://www.businessweek.com/news/2011-06-22/apple-bid-to-bar-amazon-appstore-will-likely-be-denied.html |website=[[Bloomberg Businessweek]] |publisher=[[Bloomberg L.P.]] |date=June 22, 2011 |archivedate=June 24, 2011 |accessdate=March 31, 2017}}&lt;/ref&gt;&lt;ref&gt;{{cite web |first1=Dan |last1=Levine |first2=Poornima |last2=Gupta |title=Apple may have tough road in Amazon lawsuit |url=https://www.reuters.com/article/us-apple-amazon-idUSTRE75L79Y20110622 |website=[[Reuters]] |publisher=[[Thomson Reuters]] |date=June 22, 2011 |accessdate=March 31, 2017}}&lt;/ref&gt; In July, Apple was denied preliminary injunction against [[Amazon Appstore|Amazon's Appstore]] by a federal judge.&lt;ref&gt;{{cite web |first=Chris |last=Foresman |title=Apple denied preliminary injunction against Amazon’s "Appstore" |url=https://arstechnica.com/apple/2011/07/apples-preliminary-injunction-against-amazons-appstore-denied/ |website=[[Ars Technica]] |publisher=[[Condé Nast]] |date=July 7, 2011 |accessdate=March 31, 2017}}&lt;/ref&gt;
+
+The term ''app'' has become a popular [[buzzword]]; in January 2011, ''app'' was awarded the honor of being 2010's "Word of the Year" by the [[American Dialect Society]].&lt;ref&gt;{{cite web |title=“App” voted 2010 word of the year by the American Dialect Society (UPDATED) |url=http://www.americandialect.org/app-voted-2010-word-of-the-year-by-the-american-dialect-society-updated |publisher=[[American Dialect Society]] |date=January 7, 2011 |accessdate=April 1, 2017}}&lt;/ref&gt;&lt;ref&gt;{{cite web |first=Cody |last=Fink |title=App Is 2010’s Word Of The Year |url=https://www.macstories.net/news/app-is-2010s-word-of-the-year/ |website=MacStories |date=January 13, 2011 |accessdate=April 1, 2017}}&lt;/ref&gt; "App" has been used as shorthand for "[[Application software|application]]" since at least the mid-1990s,&lt;ref&gt;{{cite web |title=Oracle gets NC religion |url=https://www.cnet.com/news/oracle-gets-nc-religion/ |website=[[CNET]] |publisher=[[CBS Interactive]] |date=February 27, 1996 |accessdate=April 1, 2017}}&lt;/ref&gt; and in product names since at least 2006, for example [[G Suite|then-named Google Apps]].&lt;ref&gt;{{cite web |title=Google Launches Hosted Communications Services |url=http://googlepress.blogspot.no/2006/08/google-launches-hosted-communications_28.html |website=News from Google |publisher=[[Google]] |date=August 28, 2006 |accessdate=April 1, 2017}}&lt;/ref&gt;
+
+Apple announced [[Mac App Store]], a similar app distribution platform for its [[macOS]] personal computer operating system, in October 2010,&lt;ref&gt;{{cite web |first=Ina |last=Fried |title=Apple unveils new MacBook Airs, previews Lion |url=https://www.cnet.com/news/apple-unveils-new-macbook-airs-previews-lion/ |website=[[CNET]] |publisher=[[CBS Interactive]] |date=October 20, 2010 |accessdate=April 1, 2017}}&lt;/ref&gt;&lt;ref&gt;{{cite web |first=Ross |last=Miller |title=Mac App Store for OS X 10.6 and 10.7 unveiled, coming 'within 90 days' |url=https://www.engadget.com/2010/10/20/app-store-for-os-x-unveiled/ |website=[[Engadget]] |publisher=[[AOL]] |date=October 20, 2010 |accessdate=April 1, 2017}}&lt;/ref&gt; with the official launch taking place in January 2011 with the release of its [[Mac OS X Snow Leopard|10.6.6 "Snow Leopard"]] update.&lt;ref&gt;{{cite web |title=The Mac App Store: What you need to know |url=http://www.macworld.com/article/1156962/software/mac-app-store-faq.html |website=[[Macworld]] |publisher=[[International Data Group]] |date=January 6, 2011 |accessdate=April 1, 2017}}&lt;/ref&gt;&lt;ref&gt;{{cite web |title=Apple’s Mac App Store Opens for Business |url=https://www.apple.com/pr/library/2011/01/06Apples-Mac-App-Store-Opens-for-Business.html |website=Apple Press Info |publisher=[[Apple Inc.]] |date=January 6, 2011 |accessdate=April 1, 2017}}&lt;/ref&gt;
+
+In February 2013, Apple informed developers that they could begin using appstore.com for links to their apps.&lt;ref&gt;{{cite web |first=Owen |last=Thomas |title=Apple Does Not Want You To Visit Appstore.com |url=http://www.businessinsider.com/apple-appstore-message-2013-2 |website=[[Business Insider]] |publisher=[[Axel Springer SE]] |date=February 4, 2013 |accessdate=April 1, 2017}}&lt;/ref&gt;&lt;ref&gt;{{cite web |first=Sarah |last=Perez |title=Apple Debuts New AppStore.com Vanity URLs For Developers During Super Bowl |url=https://techcrunch.com/2013/02/03/apple-debuts-new-vanity-urls-for-app-store-developers-during-super-bowl-domain-name-land-grab-to-follow/ |website=[[TechCrunch]] |publisher=[[AOL]] |date=February 3, 2013 |accessdate=April 1, 2017}}&lt;/ref&gt;&lt;ref&gt;{{cite web |first=Chris |last=Foresman |title=Apple debuts new AppStore.com URLs during Super Bowl 47 |url=https://arstechnica.com/apple/2013/02/apple-debuts-new-appstore-com-urls-during-super-bowl-47/ |website=[[Ars Technica]] |publisher=[[Condé Nast]] |date=February 4, 2013 |accessdate=April 1, 2017}}&lt;/ref&gt; In June at its [[Apple Worldwide Developers Conference|developer conference]], Apple announced an upcoming "Kids" section in App Store, a new section featuring apps categorized by age range, and the section was launched alongside the release of [[iOS 7]] in September 2013.&lt;ref&gt;{{cite web |first=Sarah |last=Perez |title=Introducing Apple’s New "Kids" App Store |url=https://techcrunch.com/2013/09/22/introducing-apples-new-kids-app-store/ |website=[[TechCrunch]] |publisher=[[AOL]] |date=September 22, 2013 |accessdate=April 1, 2017}}&lt;/ref&gt;&lt;ref&gt;{{cite web |first=Sarah |last=Guarino |title=App Store makes it easier for parents to find apps for their children with new Kids Category in iOS 7 |url=https://9to5mac.com/2013/09/19/app-store-makes-it-easier-for-parents-to-find-apps-for-their-children-with-new-kids-category-in-ios-7/ |website=9to5Mac |date=September 19, 2013 |accessdate=April 1, 2017}}&lt;/ref&gt;
+
+In November 2014, due to pressure from the [[European Commission]], Apple updated App Store so that all apps that have no charge to download are labeled "Get" instead of the previous "Free", due to many "free" apps' inclusions of paid [[Microtransaction|in-app purchases]].&lt;ref&gt;{{cite web |first=Sarah |last=Perez |title=Apple Relabels "Free" Download Buttons On iTunes And Mac App Store To "Get" Following Pressure from EC |url=https://techcrunch.com/2014/11/19/apple-relabels-free-download-buttons-on-itunes-and-mac-app-store-to-get-following-pressure-from-ec/ |website=[[TechCrunch]] |publisher=[[AOL]] |date=November 19, 2014 |accessdate=April 1, 2017}}&lt;/ref&gt;&lt;ref&gt;{{cite web |first=Juli |last=Clover |title=Apple Replaces 'Free' Purchase Button Labeling With 'Get' in App Store |url=https://www.macrumors.com/2014/11/19/apple-replaces-free-button-with-get/ |website=[[MacRumors]] |date=November 19, 2014 |accessdate=April 1, 2017}}&lt;/ref&gt;&lt;ref&gt;{{cite web |first=Matt |last=Brian |title=Why App Store apps are now labeled 'Get' instead of 'Free' |url=https://www.engadget.com/2014/11/20/apple-switches-free-get-app-store/ |website=[[Engadget]] |publisher=[[AOL]] |date=November 20, 2014 |accessdate=April 1, 2017}}&lt;/ref&gt;
+
+In January 2017, reports surfaced that documentation for a new [[beta test|beta]] for the then-upcoming release of [[IOS 10#10.3|iOS 10.3]] detailed that Apple would let developers respond to customer reviews in the App Store, marking a significant change from the previous limitation, which prevented developers from communicating with users.&lt;ref&gt;{{cite web |first=Sarah |last=Perez |title=Apple will finally let developers respond to App Store reviews |url=https://techcrunch.com/2017/01/24/apple-will-finally-let-developers-respond-to-app-store-reviews/ |website=[[TechCrunch]] |publisher=[[AOL]] |date=January 24, 2017 |accessdate=March 29, 2017}}&lt;/ref&gt;&lt;ref&gt;{{cite web |first=Benjamin |last=Mayo |title=Apple will let developers reply to reviews in the App Store soon, for iOS and Mac apps |url=https://9to5mac.com/2017/01/24/apple-will-let-developers-reply-to-reviews-in-the-app-store-soon-for-ios-and-mac-apps/ |website=9to5Mac |date=January 24, 2017 |accessdate=March 29, 2017}}&lt;/ref&gt; The functionality was officially enabled on March 27, 2017 when iOS 10.3 was released to users.&lt;ref&gt;{{cite web |first=Juli |last=Clover |title=Apple Releases iOS 10.3 With Find My AirPods, APFS, App Store Review Tweaks and More |url=https://www.macrumors.com/2017/03/27/apple-releases-ios-10-3/ |website=[[MacRumors]] |date=March 27, 2017 |accessdate=March 29, 2017}}&lt;/ref&gt; Further details were also released about reviews for users, including that they will be able to rate and review apps in the apps themselves rather than being redirected to the App Store, and that they can mark other users' reviews as "Helpful" or "Not Helpful".&lt;ref name="TechCrunch app reviews"&gt;{{cite web |first=Sarah |last=Perez |title=Developers can finally respond to App Store reviews – here’s how it works |url=https://techcrunch.com/2017/03/28/developers-can-finally-respond-to-app-store-reviews-heres-how-it-works/ |website=[[TechCrunch]] |publisher=[[AOL]] |date=March 28, 2017 |accessdate=March 29, 2017}}&lt;/ref&gt; Apple published a document describing proper ways to respond for developers, including being timely, clear and concise, prioritize certain forms of reviews (low-star ratings, certain countries or recent reviews) through filtering in [[iTunes Connect]], and that developer responses go through an approval process before being published.&lt;ref name="TechCrunch app reviews"/&gt; Developers are also forbidden from manipulating or incenting feedback.&lt;ref name="TechCrunch app reviews"/&gt; Developer responses are listed in the App Store as a line underneath the respective user's review,&lt;ref name="TechCrunch app reviews"/&gt; and users receive a notification/email upon a response from the respective developer, with the option to update their review.&lt;ref name="TechCrunch app reviews"/&gt;&lt;ref&gt;{{cite web |first=Chance |last=Miller |title=Apple details new App Store ratings and review responses on iOS 10.3 for developers |url=https://9to5mac.com/2017/03/27/apple-details-new-app-store-ratings-and-review-responses-on-ios-10-3-for-developers/ |website=9to5Mac |date=March 27, 2017 |accessdate=March 29, 2017}}&lt;/ref&gt;
+
+In March 2017, App Store submissions containing pricing details, such as "free", in the name started getting rejected. Developers had previously been advised in developer guides in [[iTunes Connect]] and App Store overview pages that they should refrain from the practice, though apps were still approved. Starting in March, some (though not all) apps with "free" in their titles were being rejected.&lt;ref&gt;{{cite web |first=Jordan |last=Novet |title=Apple now rejects App Store submissions when the name includes the price |url=https://venturebeat.com/2017/03/28/apple-now-rejects-app-store-submissions-when-the-name-includes-the-price/ |website=[[VentureBeat]] |date=March 28, 2017 |accessdate=April 19, 2017}}&lt;/ref&gt;&lt;ref&gt;{{cite web |first=Juli |last=Clover |title=Apple Rejecting Apps With Pricing Info Like 'Free' in App Title |url=https://www.macrumors.com/2017/03/28/apple-rejecting-apps-with-free-in-title/ |website=[[MacRumors]] |date=March 28, 2017 |accessdate=April 19, 2017}}&lt;/ref&gt;
+
+In October 2016, in an effort to improve app discoverability, Apple rolled out the ability for developers to purchase advertising spots in App Store to users in the United States.&lt;ref&gt;{{cite web |first=Tim |last=Hardwick |title=Ads Now Appearing in App Store Search Results for U.S. Users |url=https://www.macrumors.com/2016/10/06/ads-appearing-app-store-search-results/ |website=[[MacRumors]] |date=October 6, 2016 |accessdate=December 6, 2017}}&lt;/ref&gt; The ads, shown at the top of the search results,&lt;ref&gt;{{cite web |first=James |last=Vincent |title=Apple starts showing ads in App Store search results |url=https://www.theverge.com/2016/10/6/13184346/apple-app-store-ads |website=[[The Verge]] |publisher=[[Vox Media]] |date=October 6, 2016 |accessdate=December 6, 2017}}&lt;/ref&gt;&lt;ref&gt;{{cite web |first=Jordan |last=Novet |title=Apple starts showing App Store search ads in the U.S. |url=https://venturebeat.com/2016/10/05/apple-starts-showing-app-store-search-ads-in-the-u-s/ |website=[[VentureBeat]] |date=October 5, 2016 |accessdate=December 6, 2017}}&lt;/ref&gt; are based strictly on relevant keywords, and are not used to create profiles on users.&lt;ref name="verge changes" /&gt; Apple expanded search ads to the United Kingdom, Australia and New Zealand in April 2017, along with more configurable advertising settings for developers.&lt;ref&gt;{{cite web |first=Greg |last=Barbosa |title=App Store Search Ads expand internationally with new campaign tools |url=https://9to5mac.com/2017/04/19/app-store-search-ads-expand-internationally-with-new-campaign-tools/ |website=9to5Mac |date=April 19, 2017 |accessdate=December 6, 2017}}&lt;/ref&gt;&lt;ref&gt;{{cite web |first=Mikey |last=Campbell |title=Apple to expand Search Ads to three international markets, debuts new management tools |url=http://appleinsider.com/articles/17/04/19/apple-to-expand-search-ads-to-three-international-markets-debuts-new-management-tools |website=AppleInsider |date=April 19, 2017 |accessdate=December 6, 2017}}&lt;/ref&gt; Search ads were expanded to Canada, Mexico and Switzerland in October 2017.&lt;ref&gt;{{cite web |first=Michael |last=Potuck |title=App Store Search Ads go live today in Canada, Mexico, and Switzerland |url=https://9to5mac.com/2017/10/10/search-ads-app-store/ |website=9to5Mac |date=October 10, 2017 |accessdate=December 6, 2017}}&lt;/ref&gt; In December 2017, Apple revamped its search ads program to offer two distinctive versions; "Search Ads Basic" is a pay-per-install program aimed at smaller developers, in which they only pay when users actually install their app. Search Ads Basic also features an easier setup process and a restricted monthly budget. "Search Ads Advanced" is a new name given to the older method, in which developers have to pay whenever users tap on their apps in search results, along with unlimited monthly budgets. At launch, the Basic program is only available in the U.S., with international rollout expected "sometime next year".&lt;ref&gt;{{cite web |first=Sarah |last=Perez |title=Apple introduces a new pay-per-install ad product called Search Ads Basic |url=https://techcrunch.com/2017/12/05/apple-introduces-a-new-pay-per-install-ad-product-called-search-ads-basic/ |website=[[TechCrunch]] |publisher=[[Oath Inc.]] |date=December 5, 2017 |accessdate=December 6, 2017}}&lt;/ref&gt;&lt;ref&gt;{{cite web |first=Juli |last=Clover |title=Apple Adds New 'Search Ads Basic' Ad Option for Developers |url=https://www.macrumors.com/2017/12/05/apple-search-ads-basic-option/ |website=[[MacRumors]] |date=December 5, 2017 |accessdate=December 6, 2017}}&lt;/ref&gt;
+
+Apple also offers an iTunes Affiliate Program, which lets people refer others to apps and other iTunes content, along with in-app purchases, for a percentage of sales. The commission rate for in-app purchases was reduced from 7% to 2.5% in May 2017, while affiliate rates for paid apps, music, movies, books, and TV shows remained at 7%.&lt;ref&gt;{{cite web |title=Apple confirms reduced App Store affiliate commission rates apply to in-app purchases |url=http://appleinsider.com/articles/17/05/08/apple-confirms-reduced-app-store-affiliate-commission-rates-apply-to-in-app-purchases |website=AppleInsider |date=May 8, 2017 |accessdate=May 9, 2017}}&lt;/ref&gt;&lt;ref&gt;{{cite web |first=Chance |last=Miller |title=Apple clarifies iTunes affiliate changes: apps stay at 7% &amp; in-app purchases fall to 2.5% |url=https://9to5mac.com/2017/05/07/apple-clarifies-itunes-affiliate-changes-apps-stay-at-7-in-app-purchases-fall-to-2-5/ |website=9to5Mac |date=May 7, 2017 |accessdate=May 9, 2017}}&lt;/ref&gt;
+
+App Store received a major design overhaul with the release of [[iOS 11]]. The new design features a greater focus on editorial content and daily highlights, and introduces a "cleaner and more consistent and colorful look" similar to several of Apple's built-in iOS apps.&lt;ref&gt;{{cite web |first1=James |last1=Vincent |first2=Nick |last2=Statt |title=Apple unveils redesigned App Store with an all-new way to find apps and games |url=https://www.theverge.com/2017/6/5/15741096/apple-app-store-games-redesign-announcement-wwdc-2017 |website=[[The Verge]] |publisher=[[Vox Media]] |date=June 5, 2017 |accessdate=June 6, 2017}}&lt;/ref&gt;&lt;ref&gt;{{cite web |first=Mitchel |last=Broussard |title=Apple Reveals Redesigned App Store for iOS 11 With Design Similar to Apple Music |url=https://www.macrumors.com/2017/06/05/apple-redesigning-app-store/ |website=[[MacRumors]] |date=June 5, 2017 |accessdate=June 6, 2017}}&lt;/ref&gt;&lt;ref&gt;{{cite web |first=Sarah |last=Perez |title=Apple introduces a completely redesigned App Store |url=https://techcrunch.com/2017/06/05/apple-introduces-a-completely-redesigned-app-store/ |website=[[TechCrunch]] |publisher=[[AOL]] |date=June 5, 2017 |accessdate=June 6, 2017}}&lt;/ref&gt;
+
+Prior to September 2017, Apple offered a way for users to manage their iOS app purchases through the [[iTunes]] computer software. In September, version 12.7 of iTunes was released, removing the App Store section in the process.&lt;ref&gt;{{cite web |first=Chris |last=Welch |title=Apple starts cutting the bloat from iTunes by removing iOS App Store |url=https://www.theverge.com/2017/9/12/16298988/apple-itunes-desktop-update-removes-app-store |website=[[The Verge]] |publisher=[[Vox Media]] |date=September 12, 2017 |accessdate=December 16, 2017}}&lt;/ref&gt;&lt;ref&gt;{{cite web |first=Jake |last=Smith |title=Apple's iTunes removes iOS App Store from desktop version |url=http://www.zdnet.com/article/apple-removes-ios-app-store-from-desktop-versions-of-itunes/ |website=[[ZDNet]] |publisher=[[CBS Interactive]] |date=September 13, 2017 |accessdate=December 16, 2017}}&lt;/ref&gt; However, the following month, iTunes 12.6.3 was also released, retaining the App Store, with ''9to5Mac'' noting that the secondary release was positioned by Apple as "necessary for some businesses performing internal app deployments".&lt;ref&gt;{{cite web |first=Benjamin |last=Mayo |title=Apple still offers an iTunes version with App Store, Ringtones and other features removed in ‘focused’ iTunes 12.7 |url=https://9to5mac.com/2017/10/09/apple-itunes-apps-focused-removed-stopgap/ |website=9to5Mac |date=October 9, 2017 |accessdate=December 16, 2017}}&lt;/ref&gt;&lt;ref&gt;{{cite web |first=Tim |last=Hardwick |title=Apple Quietly Releases iTunes 12.6.3 With Built-In App Store |url=https://www.macrumors.com/2017/10/09/apple-itunes-with-app-store-included/ |website=[[MacRumors]] |date=October 9, 2017 |accessdate=December 16, 2017}}&lt;/ref&gt;
+
+In December 2017, Apple announced that developers could offer applications for pre-order, letting them make apps visible in the store between 2–90 days ahead of release.&lt;ref&gt;{{cite web |first=Chance |last=Miller |title=App Store now lets any developer make apps available for pre-order |url=https://9to5mac.com/2017/12/11/app-store-pre-order-support/ |website=9to5Mac |date=December 11, 2017 |accessdate=December 12, 2017}}&lt;/ref&gt;&lt;ref&gt;{{cite web |first=Juli |last=Clover |title=Apple Now Allowing Developers to Offer App Pre-Orders |url=https://www.macrumors.com/2017/12/11/apple-allowing-app-pre-orders/ |website=[[MacRumors]] |date=December 11, 2017 |accessdate=December 12, 2017}}&lt;/ref&gt;
+
+On January 4, 2018, Apple announced that the App Store had a record-breaking holiday season according to a new press release. During the week starting on Christmas Eve, a record number of customers made App Store purchases, spending more than $890 million in that seven-day period. On New Year's Day 2018 alone, customers made $300 million in purchases.&lt;ref&gt;{{Cite news|url=https://www.apple.com/newsroom/2018/01/app-store-kicks-off-2018-with-record-breaking-holiday-season/|title=App Store kicks off 2018 with record-breaking holiday season|work=Apple Newsroom|access-date=2018-01-05|language=en-US}}&lt;/ref&gt;
+
+==Development and monetization==
+===iOS SDK===
+{{Main|iOS SDK}} 
+The iOS SDK ([[Software Development Kit]]) allows for the development of [[mobile app]]s on iOS.
+
+While originally developing [[iPhone]] prior to its unveiling in 2007, Apple's then-[[CEO]] [[Steve Jobs]] did not intend to let third-party developers build native apps for iOS, instead directing them to make [[web application]]s for the [[Safari (web browser)|Safari web browser]].&lt;ref name="No native apps"&gt;{{cite web |title=Jobs’ original vision for the iPhone: No third-party native apps |url=https://9to5mac.com/2011/10/21/jobs-original-vision-for-the-iphone-no-third-party-native-apps/ |website=9to5Mac |date=October 21, 2011 |accessdate=June 21, 2017}}&lt;/ref&gt; However, backlash from developers prompted the company to reconsider,&lt;ref name="No native apps" /&gt; with Jobs announcing in October 2007 that Apple would have a software development kit available for developers by February 2008.&lt;ref&gt;{{cite web |first=Geoff |last=Duncan |title=Apple confirms iPhone SDK coming next year |url=https://www.digitaltrends.com/apple/apple-confirms-iphone-sdk-coming-next-year/ |website=[[Digital Trends]] |date=October 17, 2007 |accessdate=June 21, 2017}}&lt;/ref&gt;&lt;ref&gt;{{cite web |title=Steve Jobs confirms native iPhone SDK by February |url=http://appleinsider.com/articles/07/10/17/steve_jobs_confirms_native_iphone_sdk_by_february |website=AppleInsider |date=October 17, 2007 |accessdate=June 21, 2017}}&lt;/ref&gt; The SDK was released on March 6, 2008.&lt;ref&gt;{{cite web |first=Jim |last=Dalrymple |title=Apple unveils iPhone SDK |url=http://www.macworld.com/article/1132400/iphonesdk.html |website=[[Macworld]] |publisher=[[International Data Group]] |date=March 6, 2008 |accessdate=June 21, 2017}}&lt;/ref&gt;&lt;ref&gt;{{cite web |first=Ryan |last=Block |authorlink=Ryan Block |title=Live from Apple's iPhone SDK press conference |url=https://www.engadget.com/2008/03/06/live-from-apples-iphone-press-conference/ |website=[[Engadget]] |publisher=[[AOL]] |date=March 6, 2008 |accessdate=June 21, 2017}}&lt;/ref&gt;
+
+The SDK is a free download for users of [[Macintosh|Mac]] personal computers.&lt;ref name="SDK FAQ"&gt;{{cite web |first=Jennifer |last=Guevin |title=FAQ: What does the iPhone SDK mean? |url=https://www.cnet.com/news/faq-what-does-the-iphone-sdk-mean/ |website=[[CNET]] |publisher=[[CBS Interactive]] |date=March 6, 2008 |accessdate=June 21, 2017}}&lt;/ref&gt; It is not available for [[Microsoft Windows]] PCs.&lt;ref name="SDK FAQ" /&gt; The SDK contains sets giving developers access to various functions and services of iOS devices, such as hardware and software attributes.&lt;ref name="MacRumors SDK"&gt;{{cite web |first=Arnold |last=Kim |title=Apple Releases iPhone SDK, Demos Spore, Instant Messaging |url=https://www.macrumors.com/2008/03/06/apple-releases-iphone-sdk-demos-spore-instant-messaging/ |website=[[MacRumors]] |date=March 6, 2008 |accessdate=June 21, 2017}}&lt;/ref&gt; It also contains an iPhone [[simulator]] to mimic the look and feel of the device on the computer while developing.&lt;ref name="MacRumors SDK" /&gt; New versions of the SDK accompany new versions of iOS.&lt;ref&gt;{{cite web |first=Benjamin |last=Mayo |title=Apple now allowing developers to submit iOS 9, OS X El Capitan and native Watch apps to the App Store |url=https://9to5mac.com/2015/09/11/apple-developers-os-9-apps/ |website=9to5Mac |date=September 11, 2015 |accessdate=June 21, 2017}}&lt;/ref&gt;&lt;ref&gt;{{cite web |first=Steven |last=Sande |title=New iOS SDK features for developers |url=https://www.engadget.com/2013/06/10/new-ios-sdk-features-for-developers/ |website=[[Engadget]] |publisher=[[AOL]] |date=June 10, 2013 |accessdate=June 21, 2017}}&lt;/ref&gt; In order to test applications, get technical support, and distribute apps through App Store, developers are required to subscribe to the Apple Developer Program.&lt;ref name="SDK FAQ" /&gt;
+
+Combined with [[Xcode]], the iOS SDK helps developers write iOS apps using officially supported programming languages, including [[Swift (programming language)|Swift]] and [[Objective-C]].&lt;ref&gt;{{cite web |first=Adam |last=Sinicki |title=Developing for Android vs developing for iOS – in 5 rounds |url=http://www.androidauthority.com/developing-for-android-vs-ios-697304/ |website=Android Authority |date=June 9, 2016 |accessdate=June 21, 2017}}&lt;/ref&gt; Other companies have also created tools that allow for the development of native iOS apps using their respective programming languages.&lt;ref&gt;{{cite web |first=Ryan |last=Paul |title=MonoTouch drops .NET into Apple’s walled app garden |url=https://arstechnica.com/information-technology/2009/09/monotouch-drops-net-into-apples-walled-app-garden/ |website=[[Ars Technica]] |publisher=[[Condé Nast]] |date=September 15, 2009 |accessdate=June 21, 2017}}&lt;/ref&gt;&lt;ref&gt;{{cite web |first=Jackie |last=Dove |title=Adobe unleashes Creative Suite 5 |url=http://www.macworld.com/article/1150522/cs5launch.html |website=[[Macworld]] |publisher=[[International Data Group]] |date=April 11, 2010 |accessdate=June 21, 2017}}&lt;/ref&gt;
+
+===Monetization===
+To publish apps on App Store, developers must pay a $99 yearly fee for access to Apple's Developer Program.&lt;ref&gt;{{cite web |first=Tim |last=Mackenzie |title=App store fees, percentages, and payouts: What developers need to know |url=https://www.techrepublic.com/blog/software-engineer/app-store-fees-percentages-and-payouts-what-developers-need-to-know/ |website=[[TechRepublic]] |publisher=[[CBS Interactive]] |date=May 7, 2012 |accessdate=December 21, 2017}}&lt;/ref&gt;&lt;ref&gt;{{cite web |first=Blair Henry |last=Frank |title=Apple frees casual iOS developers of membership requirement |url=https://www.pcworld.com/article/2933052/apple-frees-casual-ios-developers-of-membership-requirement.html |website=[[PC World]] |publisher=[[International Data Group]] |date=June 8, 2015 |accessdate=December 21, 2017}}&lt;/ref&gt; Apple has announced that, in the United States in 2018, it will waive the fee for nonprofit organizations and governments.&lt;ref&gt;{{cite web |first=Dieter |last=Bohn |title=Apple will waive developer fees for nonprofits and governments in 2018 |url=https://www.theverge.com/2017/12/20/16804010/apple-waive-developer-fees-nonprofits-governments-2018 |website=[[The Verge]] |publisher=[[Vox Media]] |date=December 20, 2017 |accessdate=December 21, 2017}}&lt;/ref&gt;&lt;ref name="tc-templates" /&gt;
+
+Developers have a few options for monetizing their applications. The "Free Model" enables free apps, increasing likelihood of engagement. The "Freemium Model" makes the app download free, but users are offered optional additional features in-app that require payments. The "Subscription Model" enables ongoing monetization through renewable transactions. The "Paid Model" makes the app itself a paid download and offers no additional features. The "Paymium Model" enables paid app downloads and paid in-app content.&lt;ref&gt;{{cite web |title=Choosing a Business Model |url=https://developer.apple.com/app-store/business-models/ |website=Apple Developer |publisher=[[Apple Inc.]] |accessdate=June 27, 2017}}&lt;/ref&gt;
+
+In-app subscriptions were originally introduced for magazines, newspapers and music apps in February 2011, giving developers 70% of revenue earned and Apple 30%. Publishers could also sell digital subscriptions through their website, bypassing Apple's fees, but were not allowed to advertise their website alternative through the apps themselves.&lt;ref&gt;{{cite web |first=Josh |last=Halliday |title=Apple launches subscription service for magazines, newspapers and music |url=https://www.theguardian.com/technology/2011/feb/15/apple-subscription-service-app-store |website=[[The Guardian]] |publisher=[[Guardian Media Group]] |date=February 15, 2011 |accessdate=March 29, 2017}}&lt;/ref&gt;&lt;ref&gt;{{cite web |first=David |last=Chartier |title=Apple launches long-awaited subscriptions for App Store |url=http://www.macworld.com/article/1157927/app_store_subscriptions.html |website=[[Macworld]] |publisher=[[International Data Group]] |date=February 15, 2011 |accessdate=March 29, 2017}}&lt;/ref&gt;
+
+In 2016, multiple media outlets reported that apps had decreased significantly in popularity. ''[[Recode]]'' wrote that "The app boom is over",&lt;ref&gt;{{cite web |first=Peter |last=Kafka |title=The app boom is over |url=https://www.recode.net/2016/6/8/11883518/app-boom-over-snapchat-uber |website=[[Recode]] |publisher=[[Vox Media]] |date=June 8, 2016 |accessdate=June 27, 2017}}&lt;/ref&gt; an editorial in ''[[TechCrunch]]'' stated that "The air of hopelessness that surrounds the mobile app ecosystem is obvious and demoralizing",&lt;ref name="tc-monetization"&gt;{{cite web |first=Alex |last=Austin |title=The Apple App Store graveyard |url=https://techcrunch.com/2016/06/21/the-apple-app-store-graveyard/ |website=[[TechCrunch]] |publisher=[[AOL]] |date=June 21, 2016 |accessdate=June 27, 2017}}&lt;/ref&gt; and ''[[The Verge]]'' wrote that "the original App Store model of selling apps for a buck or two looks antiquated".&lt;ref name="verge-monetization"&gt;{{cite web |first=Casey |last=Newton |title=Life and death in the App Store |url=https://www.theverge.com/2016/3/2/11140928/app-store-economy-apple-android-pixite-bankruptcy |website=[[The Verge]] |publisher=[[Vox Media]] |date=March 2, 2016 |accessdate=June 27, 2017}}&lt;/ref&gt; Issues included consumer "boredom",&lt;ref name="verge-monetization" /&gt; a lack of app discoverability,&lt;ref name="tc-monetization" /&gt; and, as stated by a report from 2014, a lack of new app downloads among smartphone users.&lt;ref&gt;{{cite web |first=Dan |last=Frommer |title=Most smartphone users download zero apps per month |url=https://qz.com/253618/most-smartphone-users-download-zero-apps-per-month/ |website=[[Quartz (publication)|Quartz]] |publisher=[[Atlantic Media]] |date=August 22, 2014 |accessdate=June 27, 2017}}&lt;/ref&gt;
+
+In an interview with ''The Verge'' in June 2016, [[Phil Schiller]], Apple's senior vice president of Worldwide Marketing, said that Apple had a "renewed focus and energy" on the App Store, and announced multiple significant changes, including advertisements in search results and a new app subscription model. The subscription model saw the firmly established 70/30 revenue split between developers and Apple change into a new 85/15 revenue split if a user stays subscribed to the developer's app for a year, and opens the possibility of subscriptions to all apps, not just select categories.&lt;ref name="verge changes"&gt;{{cite web |first=Lauren |last=Goode |title=App Store 2.0 |url=https://www.theverge.com/2016/6/8/11880730/apple-app-store-subscription-update-phil-schiller-interview |website=[[The Verge]] |publisher=[[Vox Media]] |date=June 8, 2016 |accessdate=March 29, 2017}}&lt;/ref&gt;&lt;ref&gt;{{cite web |first=Juli |last=Clover |title=Apple Announces Major App Store Changes Including New Subscription Terms and Search Ads |url=https://www.macrumors.com/2016/06/08/apple-major-app-store-changes/ |website=[[MacRumors]] |date=June 8, 2016 |accessdate=March 29, 2017}}&lt;/ref&gt;
+
+App data and insights analyst company App Annie released a report in October 2016, announcing that China had overtaken the United States as Apple's biggest market in App Store revenue. In the third quarter of 2016, Chinese users spent $1.7 billion vs. approximately $1.5 billion by American users.&lt;ref&gt;{{cite web |first=Sarah |last=Perez |title=China overtakes the U.S. in iOS App Store revenue |url=https://techcrunch.com/2016/10/20/china-overtakes-the-u-s-in-ios-app-store-revenue/ |website=[[TechCrunch]] |publisher=[[AOL]] |date=October 20, 2016 |accessdate=June 27, 2017}}&lt;/ref&gt;&lt;ref&gt;{{cite web |first=Mitchel |last=Broussard |title=China 'Shatters' Records and Overtakes U.S. in App Store Revenue by 15% Margin |url=https://www.macrumors.com/2016/10/21/china-overtakes-u-s-app-store/ |website=[[MacRumors]] |date=October 21, 2016 |accessdate=June 27, 2017}}&lt;/ref&gt;
+
+In June 2017, Apple announced that App Store had generated over $70 billion in revenue for developers since its 2008 launch.&lt;ref&gt;{{cite web |first=Joe |last=Rossignol |title=Apple Says Developers Have Earned Over $70 Billion From App Store Since It Launched |url=https://www.macrumors.com/2017/06/01/app-store-developer-earnings-top-70-billion/ |website=[[MacRumors]] |date=June 1, 2017 |accessdate=June 2, 2017}}&lt;/ref&gt;&lt;ref&gt;{{cite web |first=Ingrid |last=Lunden |title=Apple passes $70B in app developer payouts, led by games and entertainment |url=https://techcrunch.com/2017/06/01/apple-passes-70b-in-app-developer-payouts-led-by-games-and-entertainment/ |website=[[TechCrunch]] |publisher=[[AOL]] |date=June 1, 2017 |accessdate=June 2, 2017}}&lt;/ref&gt;
+
+==Number of iOS applications==
+On July 10, 2008, Apple's then-CEO [[Steve Jobs]] told ''[[USA Today]]'' that App Store contained 500 third-party applications for the iPhone and the iPod Touch, and of these 25&amp;nbsp;percent were free.&lt;ref name="Launching with 500"/&gt; Ten million applications were downloaded the first weekend.&lt;ref name="First weekend"/&gt; By September, the number of available apps had increased to 3,000, with over 100 million downloads.&lt;ref name="September 2008 apps"/&gt;
+
+[[File:AppleAppStoreStatistics.png|thumb|alt=Chart showing App Store downloads and available apps over time.|300px|App Store app availability has increased in line with downloads over time.]]
+
+Over the years, the store has surpassed multiple major milestones, including 50,000,&lt;ref name="50,000"/&gt; 100,000,&lt;ref name="100,000"/&gt; 250,000,&lt;ref name="250,000"/&gt; 500,000,&lt;ref name="500,000"/&gt; 1&amp;nbsp;million,&lt;ref name="1 million"/&gt; and 2&amp;nbsp;million apps.&lt;ref name="The Verge 2 million"/&gt; The billionth application was downloaded on April 24, 2009.&lt;ref name="Billion"/&gt;
+
+{| class="wikitable"
+|-
+! Date
+! Available apps
+! Downloads to date
+|-
+| July 11, 2008
+| 500&lt;ref name="Launching with 500"&gt;{{cite web |first=Thomas |last=Ricker |title=Jobs: App Store launching with 500 iPhone applications, 25% free |url=https://www.engadget.com/2008/07/10/jobs-app-store-launching-with-500-iphone-applications-25-free/ |website=[[Engadget]] |publisher=[[AOL]] |date=July 10, 2008 |accessdate=March 29, 2017}}&lt;/ref&gt;
+| 0&lt;ref name="Launching with 500" /&gt;
+|-
+| July 14, 2008
+| 800&lt;ref name="First weekend"&gt;{{cite web |title=iPhone App Store Downloads Top 10 Million in First Weekend |url=https://www.apple.com/pr/library/2008/07/14iPhone-App-Store-Downloads-Top-10-Million-in-First-Weekend.html |website=Apple Press Info |publisher=[[Apple Inc.]] |date=July 14, 2008 |accessdate=March 29, 2017}}&lt;/ref&gt;&lt;ref name="CNET July 2008"&gt;{{cite web |first=Caroline |last=McCarthy |title=Apple: One million iPhones sold, 10 million App Store downloads in first weekend |url=https://www.cnet.com/news/apple-one-million-iphones-sold-10-million-app-store-downloads-in-first-weekend/ |website=[[CNET]] |publisher=[[CBS Interactive]] |date=July 15, 2008 |accessdate=March 31, 2017}}&lt;/ref&gt;
+| 10,000,000&lt;ref name="First weekend"/&gt;&lt;ref name="CNET July 2008"/&gt;
+|-
+| September 9, 2008
+| 3,000&lt;ref name="September 2008 apps"&gt;{{cite web |title=App Store Downloads Top 100 Million Worldwide |url=https://www.apple.com/pr/library/2008/09/09App-Store-Downloads-Top-100-Million-Worldwide.html |website=Apple Press Info |publisher=[[Apple Inc.]] |date=September 9, 2008 |accessdate=March 29, 2017}}&lt;/ref&gt;
+| 100,000,000&lt;ref name="September 2008 apps"/&gt;
+|-
+| January 16, 2009
+| 15,000&lt;ref name="January 2009"&gt;{{cite web |first=Rik |last=Myslewski |title=iPhone App Store breezes past 500 million downloads |url=https://www.theregister.co.uk/2009/01/16/half_billion_iphone_apps/ |website=[[The Register]] |publisher=Situation Publishing |date=January 16, 2009 |accessdate=March 29, 2017}}&lt;/ref&gt;
+| 500,000,000&lt;ref name="January 2009"/&gt;
+|-
+| March 17, 2009
+| 25,000&lt;ref name="March 2009"&gt;{{cite web |first=Erick |last=Schonfeld |title=Apple Opens Up More Ways To Get Paid On The iPhone, Adds Key New Features. Apps Hit 800 Million Downloads. |url=https://techcrunch.com/2009/03/17/phone-apps-hit-800-million-downloads/ |website=[[TechCrunch]] |publisher=[[AOL]] |date=March 17, 2009 |accessdate=March 29, 2017}}&lt;/ref&gt;
+| 800,000,000&lt;ref name="March 2009"/&gt;
+|-
+| April 24, 2009
+| 35,000&lt;ref name="Billion"&gt;{{cite web |title=Apple’s Revolutionary App Store Downloads Top One Billion in Just Nine Months |url=https://www.apple.com/pr/library/2009/04/24Apples-Revolutionary-App-Store-Downloads-Top-One-Billion-in-Just-Nine-Months.html |website=Apple Press Info |publisher=[[Apple Inc.]] |date=April 24, 2009 |accessdate=March 29, 2017}}&lt;/ref&gt;
+| 1,000,000,000&lt;ref name="Billion"/&gt;
+|-
+| June 8, 2009
+| 50,000&lt;ref name="50,000"&gt;{{cite web |first=MG |last=Siegler |title=State Of The iPhone Ecosystem: 40 Million Devices and 50,000 Apps |url=https://techcrunch.com/2009/06/08/40-million-iphones-and-ipod-touches-and-50000-apps/ |website=[[TechCrunch]] |publisher=[[AOL]] |date=June 8, 2009 |accessdate=March 29, 2017}}&lt;/ref&gt;
+| 1,000,000,000+&lt;ref name="Billion"/&gt;
+|-
+| July 14, 2009
+| 50,000&lt;ref name="50,000"/&gt;
+| 1,500,000,000&lt;ref&gt;{{cite web |first=Laura |last=June |title=Apple's App Store crosses the 1.5 billion download mark |url=https://www.engadget.com/2009/07/14/apples-app-store-crosses-the-1-5-billion-download-mark/ |website=[[Engadget]] |publisher=[[AOL]] |date=July 14, 2009 |accessdate=March 29, 2017}}&lt;/ref&gt;
+|-
+| September 28, 2009
+| 85,000&lt;ref name="September 2009"&gt;{{cite web |title=Apple’s App Store Downloads Top Two Billion |url=https://www.apple.com/pr/library/2009/09/28Apples-App-Store-Downloads-Top-Two-Billion.html |website=Apple Press Info |publisher=[[Apple Inc.]] |date=September 28, 2009 |accessdate=March 29, 2017}}&lt;/ref&gt;&lt;ref&gt;{{cite web |title=Apple announces App Store downloads top 2 billion |url=http://appleinsider.com/articles/09/09/28/apple_announces_app_store_downloads_top_2_billion.html |website=AppleInsider |date=September 28, 2009 |accessdate=March 29, 2017}}&lt;/ref&gt;
+| 2,000,000,000&lt;ref name="September 2009"/&gt;
+|-
+| November 4, 2009
+| 100,000&lt;ref name="100,000"&gt;{{cite web |title=Apple Announces Over 100,000 Apps Available on the App Store |url=https://www.macrumors.com/2009/11/04/apple-announces-over-100000-apps-available-on-the-app-store/ |website=[[MacRumors]] |date=November 4, 2009 |accessdate=March 29, 2017}}&lt;/ref&gt;&lt;ref&gt;{{cite web |title=Apple Announces Over 100,000 Apps Now Available on the App Store |url=https://www.apple.com/pr/library/2009/11/04Apple-Announces-Over-100-000-Apps-Now-Available-on-the-App-Store.html |website=Apple Press Info |publisher=[[Apple Inc.]] |date=November 4, 2009 |accessdate=March 29, 2017}}&lt;/ref&gt;
+| 2,000,000,000+&lt;ref name="September 2009"/&gt;
+|-
+| January 5, 2010
+| 140,000+&lt;ref name="TechCrunch Feb 2010"/&gt;
+| 3,000,000,000+&lt;ref name="3 billion downloads"&gt;{{cite web |first=Eric |last=Slivka |title=Apple Announces 3 Billion App Store Downloads |url=https://www.macrumors.com/2010/01/05/apple-announces-3-billion-app-store-downloads/ |website=[[MacRumors]] |date=January 5, 2010 |accessdate=March 29, 2017}}&lt;/ref&gt;&lt;ref&gt;{{cite web |title=Apple’s App Store Downloads Top Three Billion |url=https://www.apple.com/pr/library/2010/01/05Apples-App-Store-Downloads-Top-Three-Billion.html |website=Apple Press Info |publisher=[[Apple Inc.]] |date=January 5, 2010 |accessdate=March 29, 2017}}&lt;/ref&gt;
+|-
+| February 12, 2010
+| 150,000+&lt;ref name="TechCrunch Feb 2010"&gt;{{cite web |first=MG |last=Siegler |title=App Store Now Has 150,000 Apps. Great News For The iPad: Paid Books Rule. |url=https://techcrunch.com/2010/02/12/app-store-numbers-books-ipad/ |website=[[TechCrunch]] |publisher=[[AOL]] |date=February 12, 2010 |accessdate=March 29, 2017}}&lt;/ref&gt;
+| 3,000,000,000+&lt;ref name="3 billion downloads"/&gt;
+|-
+| June 7, 2010
+| 225,000+&lt;ref name="June 2010"&gt;{{cite web |title=Apple says App Store has made developers over $1 billion |url=http://appleinsider.com/articles/10/06/07/apple_says_app_store_has_made_developers_over_1_billion.html |website=AppleInsider |date=June 7, 2010 |accessdate=March 29, 2017}}&lt;/ref&gt;
+| 5,000,000,000+&lt;ref name="June 2010"/&gt;
+|-
+| August 28, 2010
+| 250,000+&lt;ref name="250,000"&gt;{{cite web |first=Matt |last=Brian |title=Apple’s App Store Now Features 250,000 Apps |url=https://thenextweb.com/mobile/2010/08/28/apples-app-store-now-features-250000-apps/ |website=The Next Web |date=August 28, 2010 |accessdate=March 29, 2017}}&lt;/ref&gt;&lt;ref&gt;{{cite web |first=Philip |last=Elmer-DeWitt |title=Apple App Store: 250,000 and counting |url=http://fortune.com/2010/08/28/apple-app-store-250000-and-counting/ |website=[[Fortune (magazine)|Fortune]] |publisher=[[Time Inc.]] |date=August 28, 2010 |accessdate=March 29, 2017}}&lt;/ref&gt;
+| 5,000,000,000+&lt;ref name="June 2010"/&gt;
+|-
+| September 1, 2010
+| 250,000+&lt;ref name="250,000"/&gt;
+| 6,500,000,000&lt;ref&gt;{{cite web |first=Leena |last=Rao |title=Jobs: 6.5 Billion Apps Downloaded From The App Store |url=https://techcrunch.com/2010/09/01/jobs-6-5-billion-apps-downloaded-from-app-store/ |website=[[TechCrunch]] |publisher=[[AOL]] |date=September 1, 2010 |accessdate=March 29, 2017}}&lt;/ref&gt;
+|-
+| October 20, 2010
+| 300,000&lt;ref&gt;{{cite web |first=Jason |last=Snell |title=Jobs speaks! The complete transcript |url=http://www.macworld.com/article/1154980/jobs_transcript.html |website=[[Macworld]] |publisher=[[International Data Group]] |date=October 18, 2010 |accessdate=March 29, 2017}}&lt;/ref&gt;
+| 7,000,000,000&lt;ref&gt;{{cite web |first=Alexia |last=Tsotsis |title=App Store Hits 7 Billion Downloads |url=https://techcrunch.com/2010/10/20/app-store-hits-7-billion-downloads/ |website=[[TechCrunch]] |publisher=[[AOL]] |date=October 20, 2010 |accessdate=March 30, 2017}}&lt;/ref&gt;
+|-
+| January 22, 2011
+| 350,000+&lt;ref name="January 2011"&gt;{{cite web |title=Apple’s App Store Downloads Top 10 Billion |url=https://www.apple.com/pr/library/2011/01/22Apples-App-Store-Downloads-Top-10-Billion.html |website=Apple Press Info |publisher=[[Apple Inc.]] |date=January 22, 2011 |accessdate=March 30, 2017}}&lt;/ref&gt;
+| 10,000,000,000+&lt;ref name="January 2011"/&gt;&lt;ref&gt;{{cite web |first=Sam |last=Oliver |title=Apple reaches 10 billion downloads on the iOS App Store |url=http://appleinsider.com/articles/11/01/22/apple_reaches_10_billion_downloads_on_the_ios_app_store |website=AppleInsider |date=January 22, 2011 |accessdate=April 19, 2017}}&lt;/ref&gt;
+|-
+| July 7, 2011
+| 425,000+&lt;ref name="TechCrunch July 2011"&gt;{{cite web |first=Leena |last=Rao |title=Apple's App Store Crosses 15B App Downloads, Adds 1B Downloads In Past Month |url=https://techcrunch.com/2011/07/07/apples-app-store-crosses-15b-app-downloads-adds-1b-downloads-in-past-month/ |website=[[TechCrunch]] |publisher=[[AOL]] |date=July 7, 2011 |accessdate=March 30, 2017}}&lt;/ref&gt;&lt;ref name="Apple July 2011"&gt;{{cite web |title=Apple’s App Store Downloads Top 15 Billion |url=https://www.apple.com/pr/library/2011/07/07Apples-App-Store-Downloads-Top-15-Billion.html |website=Apple Press Info |publisher=[[Apple Inc.]] |date=July 7, 2011 |accessdate=March 30, 2017}}&lt;/ref&gt;
+| 15,000,000,000+&lt;ref name="TechCrunch July 2011"/&gt;&lt;ref name="Apple July 2011"/&gt;
+|-
+| October 4, 2011
+| 500,000+&lt;ref name="500,000"&gt;{{cite web |first=Michael |last=Grothaus |title=More than 18 billion apps downloaded from App Store |url=https://www.engadget.com/2011/10/04/more-than-18-billion-apps-downloaded-from-app-store/ |website=[[Engadget]] |publisher=[[AOL]] |date=October 4, 2011 |accessdate=March 31, 2017}}&lt;/ref&gt;&lt;ref name="VentureBeat October 2011"&gt;{{cite web |first=Devindra |last=Hardawar |title=Apple has sold over 250M iOS devices, 18 billion apps |url=https://venturebeat.com/2011/10/04/apple-has-sold-over-250k-ios-devices-18-billion-apps/ |website=[[VentureBeat]] |date=October 4, 2011 |accessdate=March 31, 2017}}&lt;/ref&gt;
+| 18,000,000,000+&lt;ref name="500,000"/&gt;&lt;ref name="VentureBeat October 2011"/&gt;
+|-
+| March 2, 2012
+| 500,000+&lt;ref name="500,000"/&gt;
+| 25,000,000,000&lt;ref&gt;{{cite web |first=Eric |last=Slivka |title=Apple's App Store Reaches 25 Billion Downloads, Now on Pace for 15 Billion Apps Per Year |url=https://www.macrumors.com/2012/03/03/apples-app-store-reaches-25-billion-downloads-now-on-pace-for-15-billion-apps-per-year/ |website=[[MacRumors]] |date=March 2, 2012 |accessdate=March 31, 2017}}&lt;/ref&gt;
+|-
+| June 11, 2012
+| 650,000+&lt;ref name="CNET June 2012"&gt;{{cite web |first=Don |last=Reisinger |title=Apple: 30B apps downloaded, 400M App Store accounts set up |url=https://www.cnet.com/news/apple-30b-apps-downloaded-400m-app-store-accounts-set-up/ |website=[[CNET]] |publisher=[[CBS Interactive]] |date=June 11, 2012 |accessdate=March 31, 2017}}&lt;/ref&gt;
+| 30,000,000,000+&lt;ref name="CNET June 2012"/&gt;
+|-
+| September 12, 2012
+| 700,000+&lt;ref&gt;{{cite web |first=Darrell |last=Etherington |title=iOS App Store Boasts 700K Apps, 90% Downloaded Every Month |url=https://techcrunch.com/2012/09/12/ios-app-store-boasts-700k-apps-90-downloaded-every-month/ |website=[[TechCrunch]] |publisher=[[AOL]] |date=September 12, 2012 |accessdate=March 31, 2017}}&lt;/ref&gt;
+| 30,000,000,000+&lt;ref name="CNET June 2012"/&gt;
+|-
+| January 7, 2013
+| 775,000+&lt;ref name="Tom's Guide 40 bill"&gt;{{cite web |first=Zak |last=Islam |title=Apple App Store Surpasses 40 Billion Downloads |url=http://www.tomsguide.com/us/Apple-App-Store-Downloads-iOS,news-16571.html |website=[[Tom's Hardware]] |publisher=[[Purch Group]] |date=January 8, 2013 |accessdate=April 19, 2017}}&lt;/ref&gt;
+| 40,000,000,000+&lt;ref name="40bill"&gt;{{cite web |first=Natasha |last=Lomas |title=Apple App Store: 40B Downloads And Counting; 2B+ In December, ~20B In 2012 |url=https://techcrunch.com/2013/01/07/apple-app-store-40bn-downloads-and-counting-2bn-in-december-20bn-in-2012/ |website=[[TechCrunch]] |publisher=[[AOL]] |date=January 7, 2013 |accessdate=March 31, 2017}}&lt;/ref&gt;&lt;ref name="Tom's Guide 40 bill"/&gt;&lt;ref&gt;{{cite web |title=App Store Tops 40 Billion Downloads with Almost Half in 2012 |url=https://www.apple.com/pr/library/2013/01/07App-Store-Tops-40-Billion-Downloads-with-Almost-Half-in-2012.html |website=Apple Press Info |publisher=[[Apple Inc.]] |date=January 7, 2013 |accessdate=March 31, 2017}}&lt;/ref&gt;
+|-
+| January 28, 2013
+| 800,000+&lt;ref name="Apple 800,000"&gt;{{cite web |title=Apple Updates iOS to 6.1 |url=https://www.apple.com/pr/library/2013/01/28Apple-Updates-iOS-to-6-1.html |website=Apple Press Info |publisher=[[Apple Inc.]] |date=January 28, 2013 |accessdate=March 31, 2017}}&lt;/ref&gt;
+| 40,000,000,000+&lt;ref name="40bill"/&gt;
+|-
+|April 24, 2013
+| 800,000+&lt;ref name="Apple 800,000"/&gt;
+|45,000,000,000+&lt;ref&gt;{{cite web |first=Yoni |last=Heisler |title=Apple has paid out $9 billion to developers; App Store downloads reach 45 billion |url=https://www.engadget.com/2013/04/24/apple-has-paid-out-9-billion-to-developers-app-store-downloads/ |website=[[Engadget]] |publisher=[[AOL]] |date=April 24, 2013 |accessdate=March 31, 2017}}&lt;/ref&gt;
+|-
+|May 16, 2013
+| 850,000+&lt;ref&gt;{{cite web |title=Apple’s App Store Marks Historic 50 Billionth Download |url=https://www.apple.com/pr/library/2013/05/16Apples-App-Store-Marks-Historic-50-Billionth-Download.html |website=Apple Press Info |publisher=[[Apple Inc.]] |date=May 16, 2013 |accessdate=March 31, 2017}}&lt;/ref&gt;
+| 50,000,000,000+&lt;ref&gt;{{cite web |first=Roberto |last=Baldwin |title=Apple Hits 50 Billion Apps Served |url=https://www.wired.com/2013/05/apple-hits-50-billion-served |website=[[Wired (website)|Wired]] |publisher=[[Condé Nast]] |date=May 15, 2013 |accessdate=March 31, 2017}}&lt;/ref&gt;&lt;ref&gt;{{cite web |first=Josh |last=Lowensohn |title=Apple's App Store downloads hit 50 billion |url=https://www.cnet.com/news/apples-app-store-downloads-hit-50-billion/ |website=[[CNET]] |publisher=[[CBS Interactive]] |date=May 15, 2013 |accessdate=March 31, 2017}}&lt;/ref&gt;
+|-
+|June 10, 2013
+| 900,000+&lt;ref name="TechCrunch June 2013"&gt;{{cite web |first=Sarah |last=Perez |title=Apple’s App Store Hits 50 Billion Downloads, 900K Apps, $10 Billion Paid To Developers; iTunes Now With 575M Accounts |url=https://techcrunch.com/2013/06/10/apples-app-store-hits-50-billion-downloads-paid-out-10-billion-to-developers/ |website=[[TechCrunch]] |publisher=[[AOL]] |date=June 10, 2013 |accessdate=March 31, 2017}}&lt;/ref&gt;&lt;ref name="PhoneArena June 2013"&gt;{{cite web |first=Victor |last=H. |title=Apple App Store reaches 900 000 apps |url=http://www.phonearena.com/news/apple-app-store-reaches-900-000-apps_id43899 |website=PhoneArena |date=June 10, 2013 |accessdate=March 31, 2017}}&lt;/ref&gt;
+| 50,000,000,000+&lt;ref name="TechCrunch June 2013"/&gt;&lt;ref name="PhoneArena June 2013"/&gt;
+|-
+|October 22, 2013
+| 1,000,000+&lt;ref name="1 million"&gt;{{cite web |first=Nathan |last=Ingraham |title=Apple announces 1 million apps in the App Store, more than 1 billion songs played on iTunes radio |url=https://www.theverge.com/2013/10/22/4866302/apple-announces-1-million-apps-in-the-app-store |website=[[The Verge]] |publisher=[[Vox Media]] |date=October 22, 2013 |accessdate=March 31, 2017}}&lt;/ref&gt;&lt;ref name="Engadget-1mill"&gt;{{cite web |first=Marc |last=Perton |title=Apple App Store hits 60 billion cumulative downloads |url=https://www.engadget.com/2013/10/22/apple-ios-7-downloaded-over-200-million-times-in-5-days/ |website=[[Engadget]] |publisher=[[AOL]] |date=October 22, 2013 |accessdate=April 19, 2017}}&lt;/ref&gt;
+| 60,000,000,000+&lt;ref name="1 million"/&gt;&lt;ref name="Engadget-1mill"/&gt;
+|-
+|June 2, 2014
+| 1,200,000+&lt;ref name="1.2 million"&gt;{{cite web |first=Sarah |last=Perez |title=iTunes App Store Now Has 1.2 Million Apps, Has Seen 75 Billion Downloads To Date |url=https://techcrunch.com/2014/06/02/itunes-app-store-now-has-1-2-million-apps-has-seen-75-billion-downloads-to-date/ |website=[[TechCrunch]] |publisher=[[AOL]] |date=June 2, 2014 |accessdate=March 31, 2017}}&lt;/ref&gt;
+| 75,000,000,000+&lt;ref name="1.2 million"/&gt;
+|-
+|September 9, 2014
+| 1,300,000+&lt;ref&gt;{{cite web |first=Nick |last=Summers |title=The App Store now boasts 1.3 million iOS apps |url=https://thenextweb.com/apple/2014/09/09/now-13million-apps-app-store/ |website=The Next Web |date=September 9, 2014 |accessdate=March 31, 2017}}&lt;/ref&gt;&lt;ref&gt;{{cite web |first=Sarah |last=Perez |title=iTunes App Store Reaches 1.3 Million Mobile Applications |url=https://techcrunch.com/2014/09/09/itunes-app-store-reaches-1-3-million-mobile-applications/ |website=[[TechCrunch]] |publisher=[[AOL]] |date=September 9, 2014 |accessdate=March 31, 2017}}&lt;/ref&gt;
+| 75,000,000,000+&lt;ref name="1.2 million"/&gt;
+|-
+|January 8, 2015
+| 1,400,000+&lt;ref name="1.4mil"&gt;{{cite web |first=Steve |last=Ranger |title=Apple's App Store developer revenue hits $25bn as Apple touts job creation |url=http://www.zdnet.com/article/apples-app-store-developer-revenue-hits-25bn-as-apple-touts-job-creation/ |website=[[ZDNet]] |publisher=[[CBS Interactive]] |date=January 8, 2015 |accessdate=March 31, 2017}}&lt;/ref&gt;&lt;ref&gt;{{cite web |title=App Store Rings in 2015 with New Records |url=https://www.apple.com/pr/library/2015/01/08App-Store-Rings-in-2015-with-New-Records.html |website=Apple Press Info |publisher=[[Apple Inc.]] |date=January 8, 2015 |accessdate=March 31, 2017}}&lt;/ref&gt;
+| 75,000,000,000+&lt;ref name="1.2 million"/&gt;
+|-
+|June 8, 2015
+| 1,500,000+&lt;ref name="TechCrunch June 2015"&gt;{{cite web |first=Ingrid |last=Lunden |title=iTunes App Store Passes 1.5M Apps, 100B Downloads, $30B Paid To Developers To Date |url=https://techcrunch.com/2015/06/08/itunes-app-store-passes-1-5m-apps-100b-downloads-30b-paid-to-developers/ |website=[[TechCrunch]] |publisher=[[AOL]] |date=June 8, 2015 |accessdate=March 31, 2017}}&lt;/ref&gt;
+| 100,000,000,000+&lt;ref&gt;{{cite web |first=Nathan |last=Ingraham |title=Apple's App Store has passed 100 billion app downloads |url=https://www.theverge.com/2015/6/8/8739611/apple-wwdc-2015-stats-update |website=[[The Verge]] |publisher=[[Vox Media]] |date=June 8, 2015 |accessdate=March 31, 2017}}&lt;/ref&gt;&lt;ref name="TechCrunch June 2015"/&gt;&lt;ref&gt;{{cite web |first=Mitchel |last=Broussard |title=App Store Surpasses 100 Billion Lifetime Downloads |url=https://www.macrumors.com/2015/06/08/app-store-surpasses-100-billion/ |website=[[MacRumors]] |date=June 8, 2015 |accessdate=March 31, 2017}}&lt;/ref&gt;
+|-
+|June 13, 2016
+| 2,000,000+&lt;ref name="The Verge 2 million"&gt;{{cite web |first=Jordan |last=Golson |title=Apple’s App Store now has over 2 million apps |url=https://www.theverge.com/2016/6/13/11922926/apple-apps-2-million-wwdc-2016 |website=[[The Verge]] |publisher=[[Vox Media]] |date=June 13, 2016 |accessdate=March 31, 2017}}&lt;/ref&gt;&lt;ref name="TechCrunch 2 million"&gt;{{cite web |first=Sarah |last=Perez |title=Apple’s App Store hits 2M apps, 130B downloads, $50B paid to developers |url=https://techcrunch.com/2016/06/13/apples-app-store-hits-2m-apps-130b-downloads-50b-paid-to-developers/ |website=[[TechCrunch]] |publisher=[[AOL]] |date=June 13, 2016 |accessdate=March 31, 2017}}&lt;/ref&gt;&lt;ref name="Mashable 2 million"&gt;{{cite web |first=Kellen |last=Beck |title=Apple's App Store now has over 2 million apps |url=http://mashable.com/2016/06/13/apple-wwdc-apps/ |website=[[Mashable]] |date=June 13, 2016 |accessdate=March 31, 2017}}&lt;/ref&gt;
+| 130,000,000,000+&lt;ref name="The Verge 2 million"/&gt;&lt;ref name="TechCrunch 2 million"/&gt;&lt;ref name="Mashable 2 million"/&gt;
+|-
+|January 5, 2017
+|2,200,000&lt;ref&gt;{{cite web |first=Lauren |last=Goode |title=Apple's App Store just had the most successful month of sales ever |url=https://www.theverge.com/2017/1/5/14173328/apple-december-2016-app-store-record-phil-schiller |website=[[The Verge]] |publisher=[[Vox Media]] |date=January 5, 2017 |accessdate=March 31, 2017}}&lt;/ref&gt;&lt;ref&gt;{{cite web |first=Mitchel |last=Broussard |title=App Store Sets New Records With $240M in Sales on New Year's Day, $20B Paid to Developers in 2016 |url=https://www.macrumors.com/2017/01/05/apple-busiest-day-app-store-imessage/ |website=[[MacRumors]] |date=January 5, 2017 |accessdate=March 31, 2017}}&lt;/ref&gt;
+|130,000,000,000+&lt;ref name="The Verge 2 million"/&gt;&lt;ref name="TechCrunch 2 million"/&gt;&lt;ref name="Mashable 2 million"/&gt;
+|}
+
+===Number of iPad applications===
+The [[iPad]] was released in April 2010,&lt;ref&gt;{{cite web |first=Doug |last=Gross |title=Apple's iPad to be released April 3 |url=http://edition.cnn.com/2010/TECH/03/05/ipad.apple.release/ |website=[[CNN]] |date=March 5, 2010 |accessdate=April 1, 2017}}&lt;/ref&gt;&lt;ref&gt;{{cite web |title=Apple iPad launch day |url=https://www.cnet.com/news/apple-ipad-launch-day/ |website=[[CNET]] |publisher=[[CBS Interactive]] |date=April 3, 2010 |accessdate=April 1, 2017}}&lt;/ref&gt;  with approximately 3,000 apps available.&lt;ref name="iPad 3,000"/&gt; By July 2011, 16 months after the release, there were over 100,000 apps available designed specifically for the device.&lt;ref name="Date and number overview"/&gt;
+
+{| class="wikitable"
+|-
+! Date !! Number of native iPad apps
+|-
+| April 2010|| 3,000&lt;ref name="iPad 3,000"&gt;{{cite web |first=Leena |last=Rao |title=The App Store Now Has Over 3,000 iPad Apps, Only 20 Percent Are Free |url=https://techcrunch.com/2010/04/04/the-ipad-app-store-now-has-over-3000-apps-only-20-percent-are-free/ |website=[[TechCrunch]] |publisher=[[AOL]] |date=April 4, 2010 |accessdate=April 1, 2017}}&lt;/ref&gt;
+|-
+| January 2011 || 60,000&lt;ref name="Date and number overview"&gt;{{cite web |first=Steve |last=Ranger |title=iOS versus Android. Apple App Store versus Google Play: Here comes the next battle in the app wars |url=http://www.zdnet.com/article/ios-versus-android-apple-app-store-versus-google-play-here-comes-the-next-battle-in-the-app-wars/ |website=[[ZDNet]] |publisher=[[CBS Interactive]] |date=January 16, 2015 |accessdate=April 1, 2017}}&lt;/ref&gt;
+|-
+| July 2011 || 100,000&lt;ref name="Date and number overview"/&gt;&lt;ref&gt;{{cite web |first=Stuart |last=Dredge |title=The top 50 iPad apps |url=https://www.theguardian.com/technology/2011/sep/25/50-best-ipad-apps-apple |website=[[The Guardian]] |publisher=[[Guardian Media Group]] |date=September 25, 2011 |accessdate=April 1, 2017}}&lt;/ref&gt;&lt;ref&gt;{{cite web |title=Apple’s App Store Downloads Top 15 Billion |url=https://www.apple.com/pr/library/2011/07/07Apples-App-Store-Downloads-Top-15-Billion.html |website=Apple Press Info |publisher=[[Apple Inc.]] |date=July 7, 2011 |accessdate=April 1, 2017}}&lt;/ref&gt;
+|-
+| November 2011 || 140,000&lt;ref&gt;{{cite web |first=Harry |last=McCracken |title=iOS vs. Android: Lots of stats, little clarity |url=https://www.cnet.com/news/ios-vs-android-lots-of-stats-little-clarity/ |website=[[CNET]] |publisher=[[CBS Interactive]] |date=November 14, 2011 |accessdate=April 1, 2017}}&lt;/ref&gt;
+|-
+| January 7, 2013 || 300,000+&lt;ref name="40bill"/&gt;
+|-
+|  October 22, 2013 || 475,000&lt;ref&gt;{{cite web |first=Sarah |last=Perez |title=1 Million+ Apps Later, Apple Says Developers Have Made $13 Billion On Its Platform |url=https://techcrunch.com/2013/10/22/1-million-apps-later-apple-says-developers-have-made-13-billion-on-its-platform/ |website=[[TechCrunch]] |publisher=[[AOL]] |date=October 22, 2013 |accessdate=April 1, 2017}}&lt;/ref&gt;
+|-
+| February 25, 2015 || 725,000+&lt;ref name="1.4mil"/&gt;
+|-
+| March 21, 2016 || 1 million&lt;ref&gt;{{cite web |first=Jacob |last=Kastrenakes |title=There are now 1 million iPad apps |url=https://www.theverge.com/2016/3/21/11277804/1-million-ipad-apps |website=[[The Verge]] |publisher=[[Vox Media]] |date=March 21, 2016 |accessdate=April 1, 2017}}&lt;/ref&gt;
+|}
+
+==Most downloaded apps==
+
+=== Yearly ===
+Apple publishes a list on a yearly basis, giving credit to the apps with the highest number of downloads in the past year.
+{| class="wikitable"
+|+Most Popular iOS Apps each year
+!Rank
+!2015&lt;ref name=":4"&gt;{{Cite web|url=https://mashable.com/2015/12/09/apple-best-ios-apps-2015/|title=Apple names the best iOS apps of 2015|last=Warren|first=Christina|website=Mashable|language=en|access-date=2019-01-19}}&lt;/ref&gt;
+!2016&lt;ref name=":1"&gt;{{Cite web|url=http://time.com/4592864/most-popular-iphone-apps-2016/|title=These Are the Most Popular iPhone Apps of 2016|website=Time|language=en|access-date=2018-08-22}}{{br}}{{cite web|url=http://mashable.com/2016/12/06/most-downloaded-apps-2016/|title=Apple just revealed the most-downloaded app of 2016|last=Bell|first=Karissa|date=December 7, 2016|website=[[Mashable]]|accessdate=June 11, 2017}}&lt;/ref&gt;
+!2017&lt;ref name=":2"&gt;{{Cite news|url=https://mashable.com/2017/12/07/apple-most-popular-iphone-apps-2017/#R6gxjx91Cmq3|title=Apple's most downloaded apps of 2017|last=Bell|first=Karissa|work=Mashable|access-date=2018-08-22|language=en}}&lt;/ref&gt;
+!2018&lt;ref name=":3"&gt;{{Cite web|url=https://in.mashable.com/tech/1312/apple-reveals-the-most-popular-iphone-apps|title=Apple reveals the most popular iPhone apps of 2018|last=Bell|first=Karissa|date=2018-12-04|website=Mashable India|language=en|access-date=2019-01-19}}&lt;/ref&gt;
+!2019&lt;ref&gt;{{cite web|url=https://mashable.com/article/apple-most-popular-iphone-apps-2019/|title=Apple unveils the most popular iPhone apps of 2019|first=Brenda|last=Stolyar|website=Mashable|date=3 December 2019|accessdate=23 February 2020}}&lt;/ref&gt;
+|-
+|1
+|[[Trivia Crack]]
+|[[Snapchat]]
+|[[Bitstrips|Bitmoji]]
+|[[YouTube]]
+|[[YouTube]]
+|-
+|2
+|[[Facebook Messenger|Messenger]]
+|[[Facebook Messenger|Messenger]]
+|[[Snapchat]]
+|[[Instagram]]
+|[[Instagram]]
+|-
+|3
+|[[Dubsmash]]
+|[[Pokémon Go]]
+|[[YouTube]]
+|[[Snapchat]]
+|[[Snapchat]]
+|-
+|4
+|[[Instagram]]
+|[[Instagram]]
+|[[Facebook Messenger|Messenger]]
+|[[Facebook Messenger|Messenger]]
+|[[TikTok]]
+|-
+|5
+|[[Snapchat]]
+|[[Facebook]]
+|[[Instagram]]
+|[[Facebook]]
+|[[Facebook Messenger|Messenger]]
+|-
+|6
+|[[YouTube]]
+|[[YouTube]]
+|[[Facebook]]
+|[[Bitmoji]]
+|[[Gmail]]
+|-
+|7
+|[[Facebook]]
+|[[Google Maps]]
+|[[Google Maps]]
+|[[Netflix]]
+|[[Netflix]]
+|-
+|8
+|[[Uber]]
+|[[Pandora Radio|Pandora Music]]
+|[[Netflix]]
+|[[Google Maps]]
+|[[Facebook]]
+|-
+|9
+|[[Crossy Road]]s
+|[[Netflix]]
+|[[Spotify]]
+|[[Gmail]]
+|[[Google Maps]]
+|-
+|10
+|[[Google Maps]]
+|[[Spotify]]
+|[[Uber]]
+|[[Spotify]]
+|[[Amazon (company)|Amazon]]
+|}
+{| class="wikitable"
+|+Most Popular iOS Games each year&lt;ref name=":4" /&gt;&lt;ref name=":1" /&gt;&lt;ref name=":2" /&gt;&lt;ref name=":3" /&gt;
+!Rank
+!2015
+!2016
+!2017
+!2018
+!2019
+|-
+|1
+|[[Trivia Crack]]
+|[[Pokémon Go]]
+|[[Super Mario Run]]
+|[[Fortnite]]
+|[[Mario Kart Tour]]
+|-
+|2
+|[[Crossy Road]]s
+| rowspan="9" |''Not Published''
+|[[8 Ball Pool]]
+|Helix Jump
+|Color Bump 3D
+|-
+|3
+| rowspan="8" |''Not Published''
+|Snake vs. Block
+|Rise Up
+|aquapark.io
+|-
+|4
+|[[Ballz]]
+|[[PUBG Mobile]]
+|[[Call of Duty: Mobile]]
+|-
+|5
+|Word Cookies!
+|[[Hole.io]]
+|[[BitLife]]
+|-
+|6
+| rowspan="5" |  ''Not Published''
+|Love Balls
+|Polysphere
+|-
+|7
+|Snake vs. Block
+|Wordscapes
+|-
+|8
+|[[Rules of Survival]]
+|[[Fortnite]]
+|-
+|9
+|[[Roblox|ROBLOX]]
+|Roller Splat
+|-
+|10
+|Dune!
+|AMAZE!!
+|}
+
+=== Of All-time ===
+These are the most-downloaded iOS applications and the highest revenue generating iOS applications of all time from 2010–2018.&lt;ref&gt;{{Cite web|url=https://9to5mac.com/2018/07/02/all-time-most-popular-ios-apps-games/|title=These are the all-time most popular iOS apps and games from 2010-2018|last=Potuck|first=Michael|date=2018-07-02|website=9to5Mac|language=en-US|access-date=2019-01-19}}&lt;/ref&gt;
+{| class="wikitable"
+|+Most installed iOS apps and games of all time&lt;ref name=":0"&gt;{{Cite news|url=https://9to5mac.com/2018/07/02/all-time-most-popular-ios-apps-games/|title=These are the all-time most popular iOS apps and games from 2010-2018|date=2018-07-02|work=9to5Mac|access-date=2018-08-22|language=en-US}}&lt;/ref&gt;
+!Rank
+!Apps
+!Games
+|-
+|1
+|[[Facebook]]
+|[[Candy Crush Saga]]
+|-
+|2
+|[[Facebook Messenger|Messenger]]
+|[[Subway Surfers]]
+|-
+|3
+|[[YouTube]] 
+|[[Fruit Ninja]]
+|-
+|4
+|[[Instagram]]
+|[[Clash of Clans]]
+|-
+|5
+|[[WhatsApp]]
+|[[Wangzhe Rongyao|Honour of Kings]]
+|-
+|6
+|[[Google Maps]]
+|[[Minions (Despicable Me)|Minion Rush]]
+|-
+|7
+|[[Snapchat]]
+|[[Angry Birds]]
+|-
+|8
+|[[Skype]]
+|[[Temple Run 2]]
+|-
+|9
+|[[WeChat]]
+|[[Temple Run]]
+|-
+|10
+|[[Tencent QQ|QQ]]
+|[[Asphalt 8: Airborne|Asphalt 8:Airborne]]
+|}
+{| class="wikitable"
+|+Highest grossing iOS apps and games of all time&lt;ref name=":0" /&gt;
+!Rank
+!Apps
+!Games
+|-
+|1
+|[[Netflix]]
+|[[Clash of Clans]]
+|-
+|2
+|[[Spotify]]
+|[[Candy Crush Saga]]
+|-
+|3
+|[[Pandora Radio|Pandora Music]]
+|[[Monster Strike]]
+|-
+|4
+|[[Tencent Video]]
+|[[Puzzle &amp; Dragons]]
+|-
+|5
+|[[Tinder (app)|Tinder]]
+|[[Wangzhe Rongyao|Honour of Kings]]
+|-
+|6
+|[[Line (software)|Line]]
+|[[Fantasy Westward Journey]]
+|-
+|7
+|[[IQiyi|iQIYI]]
+|[[Game of War: Fire Age]]
+|-
+|8
+|[[HBO Now|HBO NOW]]
+|[[Fate/Grand Order]]
+|-
+|9
+|[[Kuaishou|Kwai]]
+|[[Clash Royale]]
+|-
+|10
+|[[Tencent QQ|QQ]]
+|[[Pokémon Go|Pokémon GO]]
+|}
+
+==Application ratings==
+Apple rates applications worldwide based on their content, and determines the age group for which each is appropriate. According to the [[iOS version history|iPhone OS 3.0]] launch event, the iPhone will allow blocking of objectionable apps in the iPhone's settings. The following are the ratings that Apple has detailed:
+
+{| class="wikitable"
+|-
+! Rating
+! Description
+|-
+| style="background:green; color:white;"|'''4+'''
+| Contains no objectionable material.&lt;ref name="age-ratings-story"&gt;{{cite web |title=Age Ratings : App Store Story |url=https://apps.apple.com/sa/story/id1440847896?l=en |website=App Store|publisher=[[Apple Inc.]] |accessdate=29 May 2020 |language=en-gb}}&lt;/ref&gt; This rating has three sub-classifications:
+* Made for Ages 5 and Under - This app is suitable for children aged 5 and under, but people aged 6 and over can also use this app.
+* Made for Ages 6 to 8 - This app is suitable for children aged 6 to 8, but people aged 9 and over can also use this app.
+* Made for Ages 9 to 11 - This app is suitable for children aged 9 to 11, but people aged 12 and over can also use this app.
+|-
+| style="background:lime;"|'''9+'''
+| May contain mild or infrequent occurrences of cartoon, fantasy or realistic violence, and mild or infrequent mature, suggestive, or horror-themed content which may not be suitable for children under the age of 9.&lt;ref name="age-ratings-story"/&gt; This rating has one sub-classification:
+* Made for Ages 9 to 11 - This app is suitable for children aged 9 to 11, but people aged 12 and over can also use this app.
+|-
+| style="background:yellow;" | '''12+'''
+| May contain frequent or intense cartoon, fantasy or realistic violence, mild or infrequent mature or suggestive themes, mild or infrequent profanity, and simulated gambling which may not be suitable for children under the age of 12.&lt;ref name="age-ratings-story"/&gt;
+|-
+|style="background:red; color:white;" |'''17+'''
+| May contain frequent and intense profanity, excessive cartoon, fantasy, or realistic violence, frequent and intense mature, horror, suggestive themes, sexual content, nudity, alcohol, and drugs, or a combination of any of these factors which are '''unsuitable''' for persons under 17 years of age. This includes apps with unrestricted web access. '''No one aged 16 and under is allowed to purchase an app rated 17+.'''&lt;ref name="age-ratings-story"/&gt;
+|-
+|style="background:black; color:red;" |'''No Rating'''
+| These apps cannot be purchased on the App Store.
+|}
+
+==App approval process==
+{{Main|Approval of iOS apps}}
+Applications are subject to approval by Apple, as outlined in the SDK agreement, for basic reliability testing and other analysis. Applications may still be distributed "ad-hoc" if they are rejected, by the author manually submitting a request to Apple to license the application to individual iPhones, although Apple may withdraw the ability for authors to do this at a later date.
+
+{{As of|2013}}, Apple employed mostly [[static program analysis|static analysis]] for their app review process, which means that dynamic code reassembly techniques could defeat the review process.&lt;ref&gt;{{cite web|last=Cox |first=John |url=http://www.networkworld.com/news/2013/081913-jekyll-test-attack-sneaks-through-272947.html |title="Jekyll" test attack sneaks through Apple App Store, wreaks havoc on iOS |publisher=Network World |date=August 18, 2013 |accessdate=June 20, 2014 |url-status=dead |archiveurl=https://web.archive.org/web/20140102195850/http://www.networkworld.com/news/2013/081913-jekyll-test-attack-sneaks-through-272947.html |archivedate=January 2, 2014 }}&lt;/ref&gt;&lt;ref&gt;{{cite web|last=Talbot |first=David |url=http://www.technologyreview.com/news/518096/remotely-assembled-malware-blows-past-apples-screening-process/ |title=Remotely Assembled Malware Blows Past Apple’s Screening Process &amp;#124; MIT Technology Review |publisher=Technologyreview.com |date=August 15, 2013 |accessdate=June 20, 2014}}&lt;/ref&gt;
+
+In June 2017, Apple updated its App Store review guidelines to specify that app developers will no longer have the ability to use custom prompts for encouraging users to leave reviews for their apps.&lt;ref&gt;{{cite web |first=Benjamin |last=Mayo |title=App Store now requires developers to use official API to request app ratings, disallows custom prompts |url=https://9to5mac.com/2017/06/09/app-rating-custom-prompts-app-store-banned/ |website=9to5Mac |date=June 9, 2017 |accessdate=June 14, 2017}}&lt;/ref&gt;&lt;ref&gt;{{cite web |first=Jacob |last=Kastrenakes |title=Apple won’t let apps annoy you with their own review prompts anymore |url=https://www.theverge.com/2017/6/9/15768196/apple-ending-annoying-app-store-review-prompts |website=[[The Verge]] |publisher=[[Vox Media]] |date=June 9, 2017 |accessdate=June 14, 2017}}&lt;/ref&gt; With the release of [[iOS 11]] in late 2017, Apple will also let developers choose whether to keep current app reviews when updating their apps or to reset.&lt;ref&gt;{{cite web |first=Romain |last=Dillet |title=The new iOS App Store lets devs choose whether or not to reset ratings when updating |url=https://techcrunch.com/2017/06/07/ios-app-developers-will-be-able-to-keep-app-store-ratings-when-releasing-an-update/ |website=[[TechCrunch]] |publisher=[[AOL]] |date=June 7, 2017 |accessdate=June 14, 2017}}&lt;/ref&gt; Additionally, another update to App Store policies allows users to optionally "tip" content creators, by voluntarily sending them money.&lt;ref&gt;{{cite web |first=Josh |last=Constine |title=Apple legalizes and taxes in-app tipping for content creators |url=https://techcrunch.com/2017/06/09/in-app-tips/ |website=[[TechCrunch]] |publisher=[[AOL]] |date=June 9, 2017 |accessdate=June 14, 2017}}&lt;/ref&gt;&lt;ref&gt;{{cite web |first=Joe |last=Rossignol |title=Apple Officially Allows Users to Tip Content Creators With In-App Purchases |url=https://www.macrumors.com/2017/06/09/apple-officially-allows-in-app-tipping/ |website=[[MacRumors]] |date=June 9, 2017 |accessdate=June 14, 2017}}&lt;/ref&gt; Furthermore, apps must be notarized as of macOS 10.15, indicating the Mac App Store is starting to further resemble the iOS App Store.
+
+==Controversial apps==
+In November 2012, [[Boyfriend Maker]], a [[dating sim]] game, was removed due to "reports of references to violent sexual acts and paedophilia" deemed inappropriate to Boyfriend Maker's age rating of 4+.&lt;ref&gt;{{cite web |first=Emily |last=Gera |title=Boyfriend Maker gets pulled from App Store for references to paedophilia |url=https://www.polygon.com/2012/11/26/3692230/boyfriend-maker-gets-pulled-from-app-store-for-references-to |website=[[Polygon (website)|Polygon]] |publisher=[[Vox Media]] |date=November 26, 2012 |accessdate=June 11, 2017}}&lt;/ref&gt; A revised version called Boyfriend Plus was approved by Apple in April 2013.&lt;ref&gt;{{cite web |first=Kirk |last=Hamilton |title=Bizarre Boyfriend Maker Is Back On The App Store, Slightly Declawed |url=https://www.kotaku.com.au/2013/04/bizarre-boyfriend-maker-is-back-on-the-app-store-slightly-declawed/ |website=[[Kotaku]] |publisher=[[Univision Communications]] |date=April 24, 2013 |accessdate=June 11, 2017}}&lt;/ref&gt;
+
+In March 2013, HiddenApps was approved and appeared in App Store. The app provided access to developer diagnostic menus, allowed for stock apps to be hidden, and enabled an opt-out feature for iAds, Apple's developer-driven advertisement system. The app was removed shortly afterwards for violating guidelines.&lt;ref&gt;{{cite web |first=Jordan |last=Golson |title='HiddenApps' Hides Stock Apps, iAds and More on Non-Jailbroken iOS Devices [Update: Removed] |url=https://www.macrumors.com/2013/03/11/hiddenapps-hides-stock-apps-iads-and-more-on-non-jailbroken-ios-devices/ |website=[[MacRumors]] |date=March 11, 2013 |accessdate=June 11, 2017}}&lt;/ref&gt;&lt;ref&gt;{{cite web |first=Jason |last=Cipriani |title=HiddenApps hides stock Apple apps on your iOS device |url=https://www.cnet.com/how-to/hiddenapps-hides-stock-apple-apps-on-your-ios-device/ |website=[[CNET]] |publisher=[[CBS Interactive]] |date=March 11, 2013 |accessdate=June 11, 2017}}&lt;/ref&gt;
+
+In April 2013, Apple removed [[AppGratis]], a then-successful app store market that promoted paid apps by offering one for free each day.&lt;ref&gt;{{cite web |first=John |last=Koetsier |title=Apple pulls AppGratis from app store 2 months after it raised $13.5M in funding |url=https://venturebeat.com/2013/04/08/apple-pulls-appgratis-from-app-store-2-months-after-it-raised-13-5m-in-funding/ |website=[[VentureBeat]] |date=April 8, 2013 |accessdate=June 11, 2017}}&lt;/ref&gt; Apple told ''[[All Things Digital]]'' that the app violated two of its developer agreement clauses, including "Apps that display Apps other than your own for purchase or promotion in a manner similar to or confusing with the App Store will be rejected" and "Apps cannot use Push Notifications to send advertising, promotions, or direct marketing of any kind".&lt;ref&gt;{{cite web |first=John |last=Paczkowski |title=Confirmed: Apple Kicks AppGratis Out of the Store for Being Too Pushy |url=http://allthingsd.com/20130408/confirmed-apple-kicks-appgratis-out-of-the-store-for-being-too-pushy/ |website=[[All Things Digital]] |publisher=[[Dow Jones &amp; Company]] |date=April 8, 2013 |accessdate=June 11, 2017}}&lt;/ref&gt; Apple did, however, tell the developers they were "welcome to resubmit" after changing the app, though there was "not much hope that it could survive in anything like its current incarnation".&lt;ref&gt;{{cite web |first=John |last=Koetsier |title=Pulled iOS app AppGratis is ‘welcome to resubmit’ |url=https://venturebeat.com/2013/04/08/pulled-ios-app-appgratis-is-welcome-to-resubmit/ |website=[[VentureBeat]] |date=April 8, 2013 |accessdate=June 11, 2017}}&lt;/ref&gt;
+
+In November 2014, Apple removed the [[marijuana]] social networking app [[MassRoots]], with the reason given that it "encourage[d] excessive consumption of alcohol or illegal substances.”&lt;ref&gt;{{cite web |first=Tom |last=Huddleston Jr. |title=Apple’s ban on marijuana social networking app goes up in smoke |url=http://fortune.com/2015/02/13/apple-marijuana-social-network/ |website=[[Fortune (magazine)|Fortune]] |publisher=[[Time Inc.]] |date=February 13, 2015 |accessdate=June 11, 2017}}&lt;/ref&gt; In February 2015, MassRoots was reintroduced into the store after Apple changed its enforcement guidelines to allow cannabis social apps in the 23 states where it is legal.&lt;ref&gt;{{cite web |first=James |last=Vincent |title=Banned weed app returns to the Apple store with new location restrictions |url=https://www.theverge.com/2015/2/13/8032867/massroots-back-in-app-store |website=[[The Verge]] |publisher=[[Vox Media]] |date=February 13, 2015 |accessdate=June 11, 2017}}&lt;/ref&gt;
+
+In September 2015, it was discovered that "hundreds" of apps submitted and approved on App Store were using [[XcodeGhost]], a [[Malware|malicious]] version of the [[Xcode]] development software. The issues prompted Apple to remove infected apps from the store and issue a statement that it was "working with the developers to make sure they’re using the proper version of Xcode".&lt;ref&gt;{{cite web |first=Benjamin |last=Mayo |title=Hundreds of apps infected by fake Xcode tools, Apple removing known malicious software from App Store |url=https://9to5mac.com/2015/09/20/xcode-ghost-app-store-malware-malicious-apps/ |website=9to5Mac |date=September 20, 2015 |accessdate=April 1, 2017}}&lt;/ref&gt;&lt;ref&gt;{{cite web |first=Jim |last=Finkle |title=Apple's iOS App Store suffers first major attack |url=https://www.reuters.com/article/us-apple-china-malware-idUSKCN0RK0ZB20150920 |website=[[Reuters]] |publisher=[[Thomson Reuters]] |date=September 20, 2015 |accessdate=April 1, 2017}}&lt;/ref&gt;&lt;ref&gt;{{cite web |first=Daniel |last=Van Boom |title=Apple cleanses App Store of tainted iPhone, iPad software |url=https://www.cnet.com/news/apple-struck-by-its-first-major-cyber-attack/ |website=[[CNET]] |publisher=[[CBS Interactive]] |date=September 21, 2015 |accessdate=April 1, 2017}}&lt;/ref&gt; A security firm later published lists of infected apps, including a China-only version of ''[[Angry Birds 2]]'', CamCard, Lifesmart, TinyDeal.com, and [[WeChat]].&lt;ref&gt;{{cite web |first=Ben |last=Lovejoy |title=Security firm publishes list of some of the iOS apps infected by XcodeGhost – including Angry Birds 2 [Update: more apps] |url=https://9to5mac.com/2015/09/21/xcodeghost-infected-apps/ |website=9to5Mac |date=September 21, 2015 |accessdate=April 1, 2017}}&lt;/ref&gt;&lt;ref&gt;{{cite web |first=Zach |last=Epstein |title=85 legitimate iPhone apps that were infected with malware in the big App Store hackImage |url=http://bgr.com/2015/09/21/app-store-hack-iphone-malware-apps-list/ |website=[[Boy Genius Report|BGR]] |publisher=[[Penske Media Corporation]] |date=September 21, 2015 |accessdate=April 1, 2017}}&lt;/ref&gt; In the aftermath, Apple stated that it would make Xcode faster to download in certain regions outside the United States,&lt;ref&gt;{{cite web |first=Daniel |last=Van Boom |title=Apple taking steps to prevent another large-scale App Store breach |url=https://www.cnet.com/news/apple-taking-steps-to-prevent-another-large-scale-app-store-breach/ |website=[[CNET]] |publisher=[[CBS Interactive]] |date=September 22, 2015 |accessdate=April 1, 2017}}&lt;/ref&gt; and contacted all developers to ensure they only download the code from the Mac App Store or Apple's website, and provided a code signature for developers to test if they are running a tampered version of Xcode.&lt;ref&gt;{{cite web |first=Owen |last=Williams |title=Apple asks developers to ensure their Xcode install isn’t infected |url=https://thenextweb.com/apple/2015/09/22/apple-asks-developers-to-ensure-their-xcode-install-isnt-infected/ |website=The Next Web |date=September 22, 2015 |accessdate=April 1, 2017}}&lt;/ref&gt;
+
+In June 2017, a [[scam]]ming trend was discovered on the store, in which developers make apps built on non-existent services, attach in-app purchase subscriptions to the opening dialogue, then buy App Store search advertising space to get the app into the higher rankings. In one instance, an app by the name of "Mobile protection :Clean &amp; Security VPN" would require payments of $99.99 for a seven-day subscription after a short trial. Apple has not yet responded to the issues.&lt;ref&gt;{{cite web |first=Tim |last=Hardwick |title=Report Reveals In-App Purchase Scams in the App Store |url=https://www.macrumors.com/2017/06/12/in-app-purchase-scams-app-store-ios/ |website=[[MacRumors]] |date=June 12, 2017 |accessdate=June 27, 2017}}&lt;/ref&gt;&lt;ref&gt;{{cite web |first=Chance |last=Miller |title=Report details how scammers are abusing App Store &amp; Search Ads |url=https://9to5mac.com/2017/06/10/report-details-how-scammers-are-abusing-app-store-search-ads/ |website=9to5Mac |date=June 10, 2017 |accessdate=June 27, 2017}}&lt;/ref&gt;
+
+In addition, Apple has removed software licensed under the [[GNU General Public License]] (GPL) from App Store, due to text in Apple's Terms of Service agreement imposing [[digital rights management]] and proprietary legal terms incompatible with the terms of the GPL.&lt;ref&gt;{{cite web|url=https://www.fsf.org/blogs/licensing/more-about-the-app-store-gpl-enforcement |title=More about the App Store GPL Enforcement |first=Brett |last=Smith |website=[[Free Software Foundation]] |date=May 26, 2010 |accessdate=May 1, 2017}}&lt;/ref&gt;&lt;ref&gt;{{cite web |first=David |last=Murphy |title=Apple Pulls VLC Player from App Store Due to GPL |url=https://www.pcmag.com/article2/0,2817,2375476,00.asp |website=[[PC Magazine]] |publisher=[[Ziff Davis]] |date=January 8, 2011 |accessdate=July 8, 2017}}&lt;/ref&gt;
+
+===Large-scale app removals===
+On September 1, 2016, Apple announced that starting September 7, it would be removing old apps that do not function as intended or that don't follow current review guidelines. Developers will be warned and given 30 days to update their apps, but apps that crash on startup will be removed immediately. Additionally, the app names registered by developers cannot exceed 50 characters, in an attempt to stop developers from inserting long descriptions or irrelevant terms in app names to improve the app's ranking in App Store search results.&lt;ref&gt;{{cite web |author=Juli Clover |title=Apple to Clean Up App Store, Eliminate Outdated and Non-Functional Apps |url=http://www.macrumors.com/2016/09/01/apple-cleaning-up-app-store/ |website=[[MacRumors]] |date=September 1, 2016 |accessdate=January 5, 2017}}&lt;/ref&gt;&lt;ref&gt;{{cite web |author=Chris Welch |title=Apple will start removing abandoned apps from the App Store this month |url=https://www.theverge.com/2016/9/1/12755260/apple-removing-abandoned-iphone-apps |website=[[The Verge]] |publisher=[[Vox Media]] |date=September 1, 2016 |accessdate=January 5, 2017}}&lt;/ref&gt; App intelligence firm Sensor Tower revealed in November 2016 that Apple, as promised from its September announcement of removing old apps, had removed 47,300 apps from App Store in October 2016, a 238 percent increase of its prior number of average monthly app removals.&lt;ref&gt;{{cite web |first=Sarah |last=Perez |title=Apple’s big App Store purge is now underway |url=https://techcrunch.com/2016/11/15/apples-big-app-store-purge-is-now-underway/ |website=[[TechCrunch]] |publisher=[[AOL]] |date=November 15, 2016 |accessdate=November 27, 2016}}&lt;/ref&gt;&lt;ref&gt;{{cite web |first=Juli |last=Clover |title=Apple Removed 47,300 Outdated iOS Apps From App Store in October of 2016 |url=http://www.macrumors.com/2016/11/15/apple-app-store-purge-october-2016/ |website=[[MacRumors]] |date=November 15, 2016 |accessdate=November 27, 2016}}&lt;/ref&gt;
+
+In June 2017, ''[[TechCrunch]]'' reported that Apple had turned its app removal focus on apps copying functionality from other, popular apps. An example cited included "if a popular game like ''[[Flappy Bird]]'' or ''Red Ball'' hits the charts, there will be hundreds or thousands of clones within weeks that attempt to capitalize on the initial wave of popularity". The report also noted removals of music apps serving [[pirated]] tracks. The publication wrote that, since the initial September app removals began, Apple had removed "multiple hundreds of thousands" of apps.&lt;ref&gt;{{cite web |first=Matthew |last=Panzarino |title=Apple goes after clones and spam on the App Store |url=https://techcrunch.com/2017/06/21/apple-goes-after-clones-and-spam-on-the-app-store/ |website=[[TechCrunch]] |publisher=[[AOL]] |date=June 21, 2017 |accessdate=June 27, 2017}}&lt;/ref&gt;&lt;ref&gt;{{cite web |first=Chance |last=Miller |title=Apple ramping up App Store cleaning efforts, has already removed ‘hundreds of thousands’ of apps |url=https://9to5mac.com/2017/06/21/apple-ramping-up-app-store-cleaning-efforts-has-already-removed-hundreds-of-thousands-of-apps/ |website=9to5Mac |date=June 21, 2017 |accessdate=June 27, 2017}}&lt;/ref&gt;
+
+In December 2017, a new report from ''TechCrunch'' stated that Apple had begun enforcing new restrictions on the use of "commercialized template or app generation services". Originally introduced as part of Apple's [[Apple Worldwide Developers Conference|2017 developer conference]], new App Store guidelines allow the company to ban apps making use of templates or commercial app services. This affected many small businesses, with ''TechCrunch''{{'}}s report citing that "local retailers, restaurants, small fitness studios, nonprofits, churches and other organizations" benefit from using templates or app services due to minimal costs. Developers had received notice from Apple with a January 1, 2018 deadline to change their respective apps. The news caught the attention of Congress, with Congressman [[Ted Lieu]] writing a letter to Apple at the beginning of December, asking it to reconsider, writing that "It is my understanding that many small businesses, research organizations, and religious institutions rely on template apps when they do not possess the resources to develop apps in-house", and that the new rules cast "too wide a net", specifically "invalidating apps from longstanding and legitimate developers who pose no threat to the App Store’s integrity". Additionally, the news of stricter enforcement caused significant criticism from app development firms; one company told ''TechCrunch'' that it chose to close down its business following the news, saying that "The 4.2.6 [rule enforcement] was just a final drop that made us move on a bit faster with that decision [to close]", and another company told the publication that "There was no way in June [when the guidelines changed] that we would have said, ‘that’s going to target our apps' ... Apple had told us you aren’t being targeted by this from a quality standpoint. So being hit now under the umbrella of spam is shocking to every quality developer out there and all the good actors". Furthermore, the latter company stated that "there’s only so much you can do with apps that perform the same utility – ordering food". A third company said that "Rule 4.2.6 is a concrete illustration of the danger of Apple’s dominant position", and a fourth said that "They’ve wiped out pretty much an entire industry. Not just DIY tools like AppMakr, but also development suites like Titanium".&lt;ref&gt;{{cite web |first=Sarah |last=Perez |title=Apple’s widened ban on templated apps is wiping small businesses from the App Store |url=https://techcrunch.com/2017/12/08/apples-widened-ban-on-templated-apps-is-wiping-small-businesses-from-the-app-store/ |website=[[TechCrunch]] |publisher=[[Oath Inc.]] |date=December 8, 2017 |accessdate=December 12, 2017}}&lt;/ref&gt;&lt;ref&gt;{{cite web |first=Chance |last=Miller |title=Report: Apple cracking down on template applications, giving developers January 1 deadline |url=https://9to5mac.com/2017/12/08/app-store-template-applications/ |website=9to5Mac |date=December 8, 2017 |accessdate=December 12, 2017}}&lt;/ref&gt; Towards the end of the year, Apple updated the guideline to clarify that companies and organizations are allowed to use template apps, but only as long as they directly publish their app on their own; it remained a violation of the rule for commercial app services to publish apps for the respective clients.&lt;ref name="tc-templates"&gt;{{cite web |first=Sarah |last=Perez |title=Apple revises its controversial guidelines on template-based apps |url=https://techcrunch.com/2017/12/20/apple-revises-its-controversial-guidelines-on-template-based-apps/ |website=[[TechCrunch]] |publisher=[[Oath Inc.]] |date=December 20, 2017 |accessdate=December 21, 2017}}&lt;/ref&gt;&lt;ref&gt;{{cite web |first=Juli |last=Clover |title=Apple Updates App Store Guidelines to Relax Restrictive Rules on Template Apps |url=https://www.macrumors.com/2017/12/20/app-store-guidelines-updated-template-apps/ |website=[[MacRumors]] |date=December 20, 2017 |accessdate=December 21, 2017}}&lt;/ref&gt;
+
+=== Censorship by the Chinese government ===
+In January 2017, Apple complied with a request from the Chinese government to remove the Chinese version of ''[[The New York Times]]''{{'}} app. This followed the government's efforts in 2012 to block the ''Times''{{'}} website after stories of hidden wealth among family members of then-leader of China, [[Wen Jiabao]], were published.&lt;ref&gt;{{cite web |first=James |last=Vincent |title=Apple removes New York Times app from China’s app store at government’s request |url=https://www.theverge.com/2017/1/5/14175556/new-york-times-china-app-removed-apple |website=[[The Verge]] |publisher=[[Vox Media]] |date=January 5, 2017 |accessdate=December 6, 2017}}&lt;/ref&gt; In a statement, an Apple spokesperson told the media that "we have been informed that the app is in violation of local regulations", though would not specify which regulations, and added that "As a result the app must be taken down off the China app store. When this situation changes the app store will once again offer the ''New York Times'' app for download in China".&lt;ref&gt;{{cite web |first=Benjamin |last=Haas |title=Apple removes New York Times app in China |url=https://www.theguardian.com/world/2017/jan/05/apple-removes-new-york-times-app-in-china |website=[[The Guardian]] |publisher=[[Guardian Media Group]] |date=January 5, 2017 |accessdate=December 6, 2017}}&lt;/ref&gt; The following July, it was reported that Apple had begun to remove listings in China for apps that circumvent [[Internet censorship in China|government Internet censorship]] policies and new laws restricting [[virtual private network]] (VPN) services.&lt;ref&gt;{{cite web |first=Jon |last=Russell |title=Apple removes VPN apps from the App Store in China |url=https://techcrunch.com/2017/07/29/apple-removes-vpn-apps-from-the-app-store-in-china/ |website=[[TechCrunch]] |publisher=[[Oath Inc.]] |date=July 29, 2017 |accessdate=November 8, 2017}}&lt;/ref&gt;&lt;ref&gt;{{cite web |first=Saheli Roy |last=Choudhury |title=Apple removes VPN apps in China as Beijing doubles down on censorship |url=https://www.cnbc.com/2017/07/31/apple-removes-vpn-apps-in-china-app-store.html |website=[[CNBC]] |publisher=[[NBCUniversal News Group]] |date=July 31, 2017 |accessdate=November 8, 2017}}&lt;/ref&gt; Apple issued a statement, explaining that the app removals were a result of developers not complying with new laws in China requiring a government license for businesses offering VPNs, and that "These apps remain available in all other markets where they do business".&lt;ref&gt;{{cite web |first=Matthew |last=Panzarino |title=Apple issues statement regarding removal of unlicensed VPN apps in China |url=https://techcrunch.com/2017/07/30/apple-issues-statement-regarding-removal-of-unlicensed-vpn-apps-in-china/ |website=[[TechCrunch]] |publisher=[[Oath Inc.]] |date=July 30, 2017 |accessdate=December 6, 2017}}&lt;/ref&gt;&lt;ref&gt;{{cite web |first=Paul |last=Mozur |title=Apple Removes Apps From China Store That Help Internet Users Evade Censorship |url=https://www.nytimes.com/2017/07/29/technology/china-apple-censorhip.html |website=[[The New York Times]] |date=July 29, 2017 |accessdate=November 8, 2017}}&lt;/ref&gt; In an earnings call the following month, Cook elaborated on the recent news, explainining that "We would obviously rather not remove the apps, but like we do in other countries, we follow the law wherever we do business".&lt;ref&gt;{{cite web |first=Josh |last=Horwitz |title=Tim Cook is defending Apple’s removal of VPN apps from its Chinese app store with a familiar refrain |url=https://qz.com/1044199/tim-cook-defends-apples-removal-of-vpn-apps-from-its-chinese-app-store/ |website=[[Quartz (publication)|Quartz]] |publisher=[[Atlantic Media]] |date=August 2, 2017 |accessdate=November 8, 2017}}&lt;/ref&gt; Besides VPN services, a number of [[VoIP|Internet calling]] apps, including Microsoft's [[Skype]], were also removed from the Chinese App Store in 2017, with Apple telling ''The New York Times'' that, similar to the VPN apps, these new apps also violated local law. Microsoft explained to ''[[BBC News]]'' that its Skype app had been "temporarily removed" and that it was "working to reinstate the app as soon as possible",&lt;ref&gt;{{cite web |title=Skype removed from China Apple and Android app stores |url=https://www.bbc.com/news/business-42076033 |website=[[BBC News]] |publisher=[[BBC]] |date=November 22, 2017 |accessdate=December 5, 2017}}&lt;/ref&gt; though many news outlets reported on the Chinese government's increased efforts and pressure to crack down on Internet freedom.&lt;ref&gt;{{cite web |title=Skype Disappears From Chinese App Stores in Latest Web Crackdown |url=https://www.bloomberg.com/news/articles/2017-11-21/microsoft-s-skype-disappears-from-apple-app-stores-in-china |website=Bloomberg Technology |publisher=[[Bloomberg L.P.|Bloomberg]] |date=November 21, 2017 |accessdate=December 6, 2017}}&lt;/ref&gt;&lt;ref&gt;{{cite web |first=Paul |last=Mozur |title=Skype Vanishes From App Stores in China, Including Apple’s |url=https://www.nytimes.com/2017/11/21/business/skype-app-china.html |website=[[The New York Times]] |date=November 21, 2017 |accessdate=December 5, 2017}}&lt;/ref&gt;&lt;ref&gt;{{cite web |first=Ben |last=Lovejoy |title=Apple removes Skype from Chinese app store after request from Ministry of Public Security |url=https://9to5mac.com/2017/11/21/skype-china-app-store/ |website=9to5Mac |date=November 21, 2017 |accessdate=December 6, 2017}}&lt;/ref&gt;&lt;ref&gt;{{cite web |first=Joe |last=Rossignol |title=Apple Has Removed Skype From App Store in China to Comply With Local Law |url=https://www.macrumors.com/2017/11/21/skype-removed-from-chinese-app-store/ |website=[[MacRumors]] |date=November 21, 2017 |accessdate=December 6, 2017}}&lt;/ref&gt;
+
+Following Apple CEO [[Tim Cook]]'s appearance at China's [[World Internet Conference]] in December 2017, in which Cook stated that Apple and China share a vision of "developing a digital economy for openness and shared benefits", free speech and human rights activists criticized Cook and the company. Maya Wang at [[Human Rights Watch]] told ''[[The Washington Post]]'' that "Cook’s appearance lends credibility to a state that aggressively censors the internet, throws people in jail for being critical about social ills, and is building artificial intelligence systems that monitors everyone and targets dissent. ... The version of cyberspace the Chinese government is building is a decidedly dystopian one, and I don’t think anyone would want to share in this ‘common future.’ Apple should have spoken out against it, not endorsed it."&lt;ref&gt;{{cite web |first=Simon |last=Denyer |title=Apple CEO backs China’s vision of an ‘open’ Internet as censorship reaches new heights |url=https://www.washingtonpost.com/news/worldviews/wp/2017/12/04/apple-ceo-backs-chinas-vision-of-an-open-internet-as-censorship-reaches-new-heights/ |website=[[The Washington Post]] |date=December 4, 2017 |accessdate=December 6, 2017}}&lt;/ref&gt; U.S. Senator Patrick Leahy told ''[[CNBC]]'' that "American tech companies have become leading champions of free expression. But that commitment should not end at our borders. ... Global leaders in innovation, like Apple, have both an opportunity and a moral obligation to promote free expression and other basic human rights in countries that routinely deny these rights."&lt;ref&gt;{{cite web |first=Anita |last=Balakrishnan |title=Apple has a 'moral obligation' to push back in China, says senator who probed the company's ties |url=https://www.cnbc.com/2017/12/05/apple-in-china-senator-patrick-leahy-reacts-to-tim-cook-speech.html |website=[[CNBC]] |publisher=[[NBCUniversal News Group]] |date=December 5, 2017 |accessdate=December 6, 2017}}&lt;/ref&gt;&lt;ref&gt;{{cite web |first=Chance |last=Miller |title=U.S. Senator Leahy says Apple has ‘moral responsibility’ to fight oppression in China |url=https://9to5mac.com/2017/12/05/tim-cook-patrick-leahy-china/ |website=9to5Mac |date=December 5, 2017 |accessdate=December 6, 2017}}&lt;/ref&gt;
+
+Cook told ''[[Reuters]]'' that "My hope over time is that some of the things, the couple of things that’s been pulled, come back. I have great hope on that and great optimism on that".&lt;ref&gt;{{cite web |title=Apple's Cook optimistic that apps pulled in China will be back |url=https://www.reuters.com/article/us-china-fortunteforum-apple/apples-cook-optimistic-that-apps-pulled-in-china-will-be-back-idUSKBN1E00MI |website=[[Reuters]] |publisher=[[Thomson Reuters]] |date=December 6, 2017 |accessdate=December 6, 2017}}&lt;/ref&gt; However, ''[[TechCrunch]]''{{'}}s Jon Russell criticized this line of thinking, writing that "Firstly, Apple didn’t just remove a 'couple of things' from the reach of China-based users", but rather "a couple of hundred" apps, acknowledging that "even that is under counting". Furthermore, Russell listed censorship efforts by the Chinese government, including VPN bans and restrictions on live video and messaging apps, and wrote that "Apple had little choice but to follow Beijing’s line in order to continue to do business in the lucrative Chinese market, but statements like Cook’s today are dangerous because they massively underplay the severity of the situation".&lt;ref&gt;{{cite web |first=Jon |last=Russell |title=For some reason Tim Cook thinks China will allow VPNs to return to the App Store |url=https://techcrunch.com/2017/12/06/tim-cook-apple-vpn-china/ |website=[[TechCrunch]] |publisher=[[Oath Inc.]] |date=December 6, 2017 |accessdate=December 6, 2017}}&lt;/ref&gt; Florida Senator [[Marco Rubio]] also criticized Cook's appearance at the World Internet Conference, describing the situation as "here’s an example of a company, in my view, so desperate to have access to the Chinese market place that they are willing to follow the laws of that country even if those laws run counter to what those companies’ own standards are supposed to be".&lt;ref&gt;{{cite web |first=Chance |last=Miller |title=Marco Rubio slams Tim Cook for Apple’s ‘desperate’ relationship with China |url=https://9to5mac.com/2017/12/13/marco-rubio-tim-cook-comments/ |website=9to5Mac |date=December 13, 2017 |accessdate=December 14, 2017}}&lt;/ref&gt; In August 2018, as a result of Chinese regulations, 25,000 illegal apps were pulled down by Apple from the App Store in China.&lt;ref&gt;{{Cite news|url=https://www.theverge.com/2018/8/20/17758426/apple-china-gambling-apps-removal|title=Apple removes 25,000 ‘illegal’ apps from App Store in China|work=The Verge|access-date=2018-08-20}}&lt;/ref&gt;&lt;ref&gt;{{Cite news|url=https://www.cnbc.com/2018/08/20/apple-reportedly-yanked-illegal-apps-from-its-china-app-store.html|title=Apple reportedly yanked 25,000 apps from its China App Store|last=Choudhury|first=Saheli Roy|date=2018-08-20|work=CNBC|access-date=2018-08-20}}&lt;/ref&gt;
+
+In October 2019, Apple rejected,&lt;ref&gt;{{cite web |last1=Yu |first1=Verna |title='Protecting rioters': China warns Apple over app that tracks Hong Kong police |url=https://www.theguardian.com/world/2019/oct/09/protecting-rioters-china-warns-apple-over-app-that-tracks-hong-kong-police |publisher=The Guardian}}&lt;/ref&gt; approved,&lt;ref&gt;{{cite web |last1=Torbet |first1=Georgina |title=Apple rejects Hong Kong protest map from App Store, relents under pressure |url=https://www.digitaltrends.com/computing/apple-hk-protest-map/ |publisher=Digital Trends}}&lt;/ref&gt; and finally removed&lt;ref&gt;{{cite web |last1=Neuman |first1=Scott |title=After China Objects, Apple Removes App Used By Hong Kong Protesters |url=https://www.npr.org/2019/10/10/768841864/after-china-objects-apple-removes-app-used-by-hong-kong-protesters |publisher=NPR}}&lt;/ref&gt;&lt;ref&gt;{{cite web |last1=Deng |first1=Iris |title=In an about-face, Apple removes Hong Kong protest map app following China backlash |url=https://www.scmp.com/tech/apps-social/article/3032310/about-face-apple-removes-hong-kong-protest-map-app-following-china |publisher=South China Morning Post}}&lt;/ref&gt; an app used by participants in the [[2019 Hong Kong protests]].
+
+=== Removal of vaping apps ===
+
+In November 2019, Apple removed all applications related to [[Electronic cigarette|vaping]], citing warning from health experts.&lt;ref&gt;{{Cite web|url=https://www.theverge.com/2019/11/15/20966362/apple-vaping-e-cigarette-apps-remove-app-store|title=Apple removes all vaping-related apps from the App Store|last=Vincent|first=James|date=2019-11-15|website=The Verge|language=en|access-date=2019-11-19}}&lt;/ref&gt;
+
+== See also ==
+* [[List of mobile app distribution platforms]]
+
+==References==
+{{reflist|30em}}
+
+==External links==
+*[https://developer.apple.com/programs/ios/ Apple Developer program]
+
+{{iOS}}
+{{iPod}}
+{{Apple}}
+{{Package management systems}}
+{{Software digital distribution platforms}}
+
+[[Category:Apple Inc. services]]
+[[Category:Mobile software distribution platforms]]
+[[Category:IOS software]]
+[[Category:ITunes]]
+[[Category:Computer-related introductions in 2008]]
+[[Category:American inventions]]
+[[Category:German inventions]]
+[[Category:Swiss inventions]]
+
+[[sv:Itunes Store#App Store]]</text>
+      <sha1>9wtsn8848sv69nxjhwtm3wiww82gf53</sha1>
+    </revision>
+  </page>
+</mediawiki>

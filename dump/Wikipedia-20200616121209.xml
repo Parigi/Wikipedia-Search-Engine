@@ -1,0 +1,300 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.10/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.10/ http://www.mediawiki.org/xml/export-0.10.xsd" version="0.10" xml:lang="en">
+  <siteinfo>
+    <sitename>Wikipedia</sitename>
+    <dbname>enwiki</dbname>
+    <base>https://en.wikipedia.org/wiki/Main_Page</base>
+    <generator>MediaWiki 1.35.0-wmf.36</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Media</namespace>
+      <namespace key="-1" case="first-letter">Special</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Talk</namespace>
+      <namespace key="2" case="first-letter">User</namespace>
+      <namespace key="3" case="first-letter">User talk</namespace>
+      <namespace key="4" case="first-letter">Wikipedia</namespace>
+      <namespace key="5" case="first-letter">Wikipedia talk</namespace>
+      <namespace key="6" case="first-letter">File</namespace>
+      <namespace key="7" case="first-letter">File talk</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki talk</namespace>
+      <namespace key="10" case="first-letter">Template</namespace>
+      <namespace key="11" case="first-letter">Template talk</namespace>
+      <namespace key="12" case="first-letter">Help</namespace>
+      <namespace key="13" case="first-letter">Help talk</namespace>
+      <namespace key="14" case="first-letter">Category</namespace>
+      <namespace key="15" case="first-letter">Category talk</namespace>
+      <namespace key="100" case="first-letter">Portal</namespace>
+      <namespace key="101" case="first-letter">Portal talk</namespace>
+      <namespace key="108" case="first-letter">Book</namespace>
+      <namespace key="109" case="first-letter">Book talk</namespace>
+      <namespace key="118" case="first-letter">Draft</namespace>
+      <namespace key="119" case="first-letter">Draft talk</namespace>
+      <namespace key="446" case="first-letter">Education Program</namespace>
+      <namespace key="447" case="first-letter">Education Program talk</namespace>
+      <namespace key="710" case="first-letter">TimedText</namespace>
+      <namespace key="711" case="first-letter">TimedText talk</namespace>
+      <namespace key="828" case="first-letter">Module</namespace>
+      <namespace key="829" case="first-letter">Module talk</namespace>
+      <namespace key="2300" case="first-letter">Gadget</namespace>
+      <namespace key="2301" case="first-letter">Gadget talk</namespace>
+      <namespace key="2302" case="case-sensitive">Gadget definition</namespace>
+      <namespace key="2303" case="case-sensitive">Gadget definition talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Mars 2</title>
+    <ns>0</ns>
+    <id>101447</id>
+    <revision>
+      <id>959410721</id>
+      <parentid>943784300</parentid>
+      <timestamp>2020-05-28T16:51:49Z</timestamp>
+      <contributor>
+        <username>Ionmars10</username>
+        <id>37005538</id>
+      </contributor>
+      <minor/>
+      <comment>date formats per [[MOS:DATEFORMAT]] by [[WP:MOSNUMscript|script]] (choosing DMY per [[MOS:DATEVAR|first main contributor]])</comment>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="19871" xml:space="preserve">{{Use dmy dates|date=May 2020}}
+{{other uses|Mars II (disambiguation)}}
+{{more citations needed|date=May 2014}}
+{{Infobox spaceflight
+| name                  = Mars 2
+| names_list            = M-71 No. 171&lt;!--list of previous names if the spacecraft has been renamed. 
+Include the dates applicable if possible, and separate each name with a linebreak. 
+Omit if the spacecraft has only ever been known by one name. 
+Do not include Harvard, COSPAR/NSSDC or SATCAT/NORAD/NASA designations as alternative names--&gt;
+&lt;!--image of the spacecraft/mission--&gt;
+| image                 = [[Image:Mars3 iki.jpg|250px]]
+| image_caption         = Mars 3 Orbiter with lander visible at top
+| image_alt             = &lt;!--image alt text--&gt;
+| image_size            = &lt;!--include px/em; defaults to 220px--&gt;
+
+&lt;!--Basic details--&gt;
+| mission_type          = Orbiter and lander
+| operator              = [[Soviet Union]]
+| Harvard_designation   = &lt;!--spacecraft launched 1962 and earlier only (eg. 1957 Alpha 2)--&gt;
+| COSPAR_ID             = Orbiter:1971-045A&lt;br&gt;Lander:1971-045D
+| SATCAT                = Orbiter:5234&lt;br&gt;Lander:5739
+| website               = &lt;!--Homepage of the craft/mission, OFFICIAL PAGES ONLY--&gt;
+| mission_duration      = {{Age in days|1971|05|19|1972|08|22}} days
+| distance_travelled    = &lt;!--How far the spacecraft travelled (if known)--&gt;
+| orbits_completed      = &lt;!--number of times the spacecraft orbited the Earth - see below for spacecraft beyond Earth orbit--&gt;
+| suborbital_range      = &lt;!--downrange distance reached if spacecraft did not enter orbit--&gt;
+| suborbital_apogee     = &lt;!--altitude reached if spacecraft did not enter orbit--&gt;
+
+&lt;!--Spacecraft properties--&gt;
+| spacecraft            = &lt;!--Spacecraft name/serial number (eg. Space Shuttle ''Discovery'', Apollo CM-118), etc--&gt;
+| spacecraft_type       = &lt;!--eg. GPS Block II, Kobalt-M, US-K, etc--&gt;
+| spacecraft_bus        = &lt;!--eg. A2100M, Star-2, etc--&gt;
+| manufacturer          = [[OKB-1]]
+| launch_mass           = Orbiter:{{convert|3440|kg|lb|abbr=on}}&lt;br&gt;Lander:{{convert|1210|kg|abbr=on}}&lt;ref&gt;{{cite web|url=https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1971-045A|title = NASA - NSSDCA - Spacecraft - Details}}&lt;/ref&gt;
+| BOL_mass              = &lt;!--spacecraft mass in orbit at beginning of operational life, after LEOP phase--&gt;
+| landing_mass          = &lt;!--Mass after landing (recovered spacecraft only)--&gt;
+| dry_mass              = &lt;!--spacecraft mass in orbit without fuel--&gt;
+| payload_mass          = &lt;!--Mass of cargo carried by spacecraft (eg. for Space Shuttle), or total mass of instrumentation/equipment/experiments for mission--&gt;
+| dimensions            = &lt;!--body dimensions and solar array span--&gt;
+| power                 = &lt;!--end-of-life power, in watts--&gt;
+
+&lt;!--Launch details--&gt;
+| launch_date           = {{start date|1971|05|19|16|22|44|7=Z}}
+| launch_rocket         = [[Proton rocket|Proton K]] with [[Blok D]] upper stage
+| launch_site           = &lt;!--Where the rocket launched from, including complex and pad; do not include the full address or country--&gt;
+| launch_contractor     = &lt;!--organisation(s) that conducted the launch (eg. United Launch Alliance, Arianespace, etc)--&gt;
+| deployment_from       = &lt;!--place where deployed from--&gt;
+| deployment_date       = &lt;!--date deployed--&gt;
+| entered_service       = &lt;!--date on which the spacecraft entered service, if it did not do so immediately after launch--&gt;
+&lt;!-- * - e.g. Proton-M/Briz-M not Proton-M, but Titan IV(401)A not Titan IV(401)A-Centaur--&gt;
+
+&lt;!--end of mission--&gt;
+| disposal_type         = Decommissioned
+| deactivated           = {{end date|1972|08|22}}
+| destroyed             = &lt;!--when craft was destroyed (if other than by re-entry)--&gt;
+| last_contact          = last data transmission July 1972&lt;ref&gt;See Mars 3 article in https://solarsystem.nasa.gov/resources/1060/beyond-earth-a-chronicle-of-deep-space-exploration/&lt;/ref&gt;
+| recovery_by           = &lt;!--recovered by--&gt;
+| recovery_date         = &lt;!--recovery date--&gt;
+| decay_date            = &lt;!--when craft re-entered the atmosphere, not needed if it landed--&gt;
+| landing_date          = &lt;!--when the spacecraft made a controlled landing, not needed if it did not return intact--&gt;
+| landing_site          = &lt;!--where the craft landed; site/runway or coordinates--&gt;
+&lt;!--
+    The following template should be used for ONE of the three above fields "end_of_mission", "decay" or "landing" if the spacecraft is no longer operational.
+    If it landed intact, use it for the landing time, otherwise for the date it ceased operations, or the decay date if it was still operational when it re-entered.
+    {{end date|YYYY|MM|DD|hh|mm|ss|TZ=Z}} (for Zulu/UTC) or {{end date|YYYY|MM|DD}} (if time unknown) 
+--&gt;
+
+&lt;!--orbit parameters--&gt;
+&lt;!--as science-related articles, SI units should be the principal units of measurement, however we usually use {{convert}} to display imperial units in parentheses after the initial values--&gt;
+| orbit_reference       = [[Areocentric orbit|Areocentric]]
+| orbit_regime          = &lt;!--high, low, medium, molniya, GSO - please link (e.g. [[Low Earth orbit|Low Earth]] - please don't use acronyms--&gt;
+| orbit_longitude       = &lt;!--geosynchronous satellites only--&gt;
+| orbit_slot            = &lt;!--Designation of orbital position or slot, if not longitude (e.g plane and position of a GPS satellite)--&gt;
+| orbit_semimajor       = &lt;!--semimajor axis--&gt;
+| orbit_eccentricity    = &lt;!--orbital eccentricity--&gt;
+| orbit_periapsis       = &lt;!--periapsis altitude--&gt; 
+| orbit_apoapsis        = &lt;!--apoapsis altitude--&gt; 
+| orbit_inclination     = &lt;!--orbital inclination--&gt; 
+| orbit_period          = &lt;!--time taken to complete an orbit--&gt;
+| orbit_RAAN            = &lt;!--right ascension of the ascending node--&gt;
+| orbit_arg_periapsis   = &lt;!--argument of perigee/periapsis--&gt;
+| orbit_mean_anomaly    = &lt;!--mean anomaly at epoch, only use in conjunction with an epoch value--&gt;
+| orbit_mean_motion     = &lt;!--mean motion of the satellite, usually measured in orbits per day--&gt;
+| orbit_repeat          = &lt;!--repeat interval/revisit time--&gt;
+| orbit_velocity        = &lt;!--speed at which the spacecraft was travelling at epoch - only use for spacecraft with low orbital eccentricity--&gt;
+| orbit_epoch           = &lt;!--the date at which the orbit parameters were correct--&gt;
+| orbit_rev_number      = &lt;!--revolution number--&gt;
+| apsis                 = areion
+
+|interplanetary         = &lt;!--Infobox spaceflight/IP can be called multiple times for missions with multiple targets or combined orbiter/lander missions, etc--&gt;
+ {{Infobox spaceflight/IP
+   |type                = orbiter
+   |object              = [[Mars]]
+   |orbits              = 362
+   |component           = &lt;!--part of the spacecraft involved, if spacecraft split into multiple components--&gt;
+   |arrival_date        = 27 November 1971
+   |departure_date      = &lt;!--Date of leaving orbit for orbiters, date of launch for landers which took off again--&gt;
+   |location            = &lt;!--landing/impact site, including EOM impacts for atmospheric probes and lunar/asteroid orbiters--&gt;
+   |distance            = &lt;!--closest approach distance for flybys, distance travelled on surface for rovers, omit for others--&gt;
+   |sample_mass         = &lt;!--mass of samples returned (sample return missions only)--&gt;
+   |surface_EVAs        = &lt;!--number of EVAs on the surface--&gt;
+   |surface_EVA_time    = &lt;!--time spent on surface EVAs--&gt;
+   
+   &lt;!--Orbit parameters, ONLY USE IF THE ABOVE ORBIT PARAMETERS SECTION DOESN'T APPLY TO THE TARGET--&gt;
+   |periapsis           = {{convert|1380|km|mi|abbr=on}}
+   |apoapsis            = {{convert|24940|km|mi|abbr=on}} 
+   |inclination         = 48.9°
+   |apsis               = areion
+ }}
+
+ {{Infobox spaceflight/IP
+   |type                = lander
+   |object              = [[Mars]]
+   |orbits              = &lt;!--number of orbits completed at target body (if applicable and known)--&gt;
+   |component           = Mars 2 Lander
+   |arrival_date        = 27 November 1971
+   |departure_date      = &lt;!--Date of leaving orbit for orbiters, date of launch for landers which took off again--&gt;
+   |location            = {{Coord|45|S|47|E|globe:Mars|name=Mars 2 Lander impact}}
+   |distance            = &lt;!--closest approach distance for flybys, distance travelled on surface for rovers, omit for others--&gt;
+ }}
+
+&lt;!--transponder parameters--&gt;
+| trans_band            = &lt;!--Transponder frequency bands--&gt;
+| trans_frequency       = &lt;!--specific frequencies--&gt;
+| trans_bandwidth       = &lt;!--bandwidth--&gt;
+| trans_capacity        = &lt;!--capacity of the transponders--&gt;
+| trans_coverage        = &lt;!--area covered--&gt;
+| trans_TWTA            = &lt;!--TWTA output power--&gt;
+| trans_EIRP            = &lt;!--equivalent isotropic power--&gt;
+| trans_HPBW            = &lt;!--half-power beam width--&gt;
+
+&lt;!--Only use where a spacecraft/mission is part of a clear programme of sequential missions. 
+If in doubt, leave it out--&gt;
+| programme             = 
+| previous_mission      =
+| next_mission          =
+
+&lt;!--mission insignia or patch--&gt;
+| insignia              = &lt;!--omit the "file" prefix--&gt;
+| insignia_caption      = &lt;!--image caption--&gt;
+| insignia_alt          = &lt;!--image alt text--&gt;
+| insignia_size         = &lt;!--include px/em; defaults to 180px--&gt;
+}}
+
+The '''Mars 2''' was an uncrewed space probe of the [[Mars program]], a series of uncrewed [[Mars]] [[Lander (spacecraft)|landers]] and [[orbiter]]s launched by the [[Soviet Union]] 19 May 1971. The Mars 2 and [[Mars 3]] missions consisted of identical spacecraft, each with an orbiter and an attached lander. The orbiter is identical to the [[Venera 9]] bus or orbiter. The type of bus/orbiter is the 4MV. They were launched by a [[Proton-K]] heavy launch vehicle with a Blok D upper stage. The lander of Mars 2 became the first human-made object to reach the surface of Mars, although the landing system failed and the lander was lost.
+
+==Overview==
+* Launch Date/Time:
+** Mars 2: 19 May 1971 at 16:22:44 UTC
+* Launch mass (including fuel):
+** Combined: {{convert|4650|kg|lb|abbr=on}}
+** Orbiter: {{convert|3440|kg|lb|abbr=on}}
+** Lander: {{convert|1210|kg|lb|abbr=on}}
+* On-orbit dry mass: {{convert|2265|kg|lb|abbr=on}}
+* Dimensions: {{convert|4.1|m|ft|1|abbr=on}} tall, {{convert|2|m|ft|1|abbr=on}} across ({{convert|5.9|m|ft|1|abbr=on}} across with solar panels deployed)
+
+==Launch==
+On 19 May 1971, the [[Proton-K]] heavy launch vehicle launched the probe from [[Baikonur Cosmodrome]]. After the first stage separated the second stage was ignited. The third stage engine blasted Mars 2 into parking orbit, then the Blok D upper stage sent Mars 2 on the trans-Mars trajectory.
+
+==Orbiter==
+The Orbiter type was the 4MV, used also for Mars-3 and later Mars and Venera Probes. The orbiter engine performed a burn to put the spacecraft into a {{nowrap|1380 x 24,940 km}}, 18-hour orbit about Mars with an inclination of 48.9 degrees. Scientific instruments were generally turned on for about 30 minutes near periapsis.
+
+The orbiter's primary scientific objectives were to image the Martian surface and clouds, determine the temperature on Mars, study the topography, composition and physical properties of the surface, measure properties of the atmosphere, monitor the [[solar wind]] and the interplanetary and Martian [[magnetic field]]s, and act as a communications relay to send signals from the landers to the Earth.
+
+By coincidence, a particularly large [[Storm#Extraterrestrial storms|dust storm]] on Mars adversely affected the mission.  When [[Mariner 9]] arrived and successfully orbited Mars on 14 November 1971, just two weeks prior to Mars 2 and Mars 3, [[Planetary science|planetary scientists]] were surprised to find the [[celestial body's atmosphere|atmosphere]] was thick with "a planet-wide robe of [[dust]], the largest storm ever observed."  The surface was totally obscured.  Unable to reprogram the mission computers, both Mars 2 and Mars 3 dispatched their landers immediately, and the orbiters used up a significant portion of their available data resources in snapping images of the featureless dust clouds below, rather than the surface mapping intended.&lt;ref name=Pyle2012-M9&gt;
+{{cite book |last=Pyle|first=Rod |title=Destination Mars |year=2012 |publisher=[[Prometheus Books]] |isbn=978-1-61614-589-7 |pages=73–78 |quote=...Mars 2 and Mars 3.  Both reached Mars shortly after Mariner 9.  Unfortunately, these Soviet ships were not reprogrammable, as was the case with Mariner 9, and rather than wait out the huge, planet-wide dust storm, they proceeded to follow their programming right on schedule.  Landers were dispatched from each, the first crashing and the second apparently reaching the surface intact but losing radio contact immediately.  The orbiters fared little better; following their simple logic, both used up their available resources snapping images of the featureless dust clouds below.}}&lt;/ref&gt;
+
+The Mars 2 orbiter sent back data covering the period from December 1971 to March 1972, although transmissions continued through August. It was announced that Mars 2 and Mars 3 had completed their missions by 22 August 1972, after 362 orbits. The probe, combined with Mars 3, sent back a total of 60 pictures. The images and data revealed mountains as high as 22&amp;nbsp;km, atomic hydrogen and oxygen in the upper atmosphere, surface temperatures ranging from −110&amp;nbsp;°C to +13&amp;nbsp;°C, surface pressures of 5.5 to 6 mbar (0.55 to 0.6 [[kilopascal|kPa]]), water vapor concentrations 5,000 times less than in the Earth's atmosphere, the base of the ionosphere starting at 80 to 110&amp;nbsp;km altitude, and grains from dust storms as high as 7&amp;nbsp;km in the atmosphere. The images and data enabled the creation of surface [[Raised-relief map|relief map]]s,&lt;ref name=Perminov1&gt;{{cite book|last=Perminov|first=V.G.|title=The Difficult Road to Mars - A Brief History of Mars Exploration in the Soviet Union|year=July 1999|publisher=NASA Headquarters History Division|isbn=0-16-058859-6|pages=[https://archive.org/details/difficultroadtom00perm/page/34 34–60]|url=https://archive.org/details/difficultroadtom00perm/page/34}}&lt;/ref&gt; and gave information on Martian [[gravity]] and magnetic fields. The orbiter remains in Martian orbit.
+
+==Lander==
+&lt;gallery mode=packed heights=200px&gt;
+File:Mars map Viking 1 Mars 2 Mars Pathfinder Opportunity.png|Map of Mars, showing the location of Mars 2 center left, in relation to [[Viking 1]], [[Mars Pathfinder]] and [[Opportunity rover|Opportunity]]
+File:Mars3 lander2 vsm.jpg|A cut-away view of the Mars 3 Lander at the NPO Lavochkin Museum
+File:Mars3 lander vsm.jpg|Mars 2 Lander model at the [[Memorial Museum of Cosmonautics]] in Russia
+&lt;/gallery&gt;
+
+===Lander spacecraft system===
+The Mars 2 descent module was mounted on the bus/orbiter opposite the propulsion system. It consisted of a spherical 1.2 m diameter landing capsule, a 2.9 m diameter conical aerodynamic braking shield, a parachute system and retro-rockets.
+
+The entire descent module had a fueled mass of 1210&amp;nbsp;kg, the spherical landing capsule accounting for 358&amp;nbsp;kg of this. An automatic control system consisting of gas micro-engines and pressurised nitrogen containers provided attitude control. Four "gunpowder" engines were mounted to the outer edge of the cone to control pitch and yaw.
+
+The main and auxiliary parachutes, the engine to initiate the landing, and the radar [[altimeter]] were mounted on the top section of the lander. Foam was used to absorb shock within the descent module. The landing capsule had four triangular petals which would open after landing, righting the spacecraft and exposing the instrumentation.
+
+The lander was equipped with two television cameras with a 360 degree view of the surface as well as a [[mass spectrometer]] to study atmospheric composition; temperature, pressure, and wind sensors; and devices to measure mechanical and chemical properties of the surface, including a mechanical scoop to search for organic materials and signs of life. It also contained a pennant with the [[State Emblem of the Soviet Union]].
+
+Four aerials protruded from the top of the sphere to provide communications with the orbiter via an onboard radio system. The equipment was powered by batteries which were charged by the orbiter prior to separation. Temperature control was maintained through thermal insulation and a system of radiators. The landing capsule was sterilised before launch to prevent contamination of the Martian environment.
+
+====Prop-M Rover====
+[[File:Mars propm rover.jpg|thumb|right|Mars Prop-M Rover]]
+Mars 2 lander had a small 4.5&amp;nbsp;kg [[Mars rover]] on board, which would move across the surface on skis while connected to the lander with a 15-meter umbilical. Two small metal rods were used for autonomous obstacle avoidance, as radio signals from Earth would take too long to drive the rovers using remote control. The rover carried a dynamic penetrometer and a radiation densitometer.&lt;ref name=Perminov1/&gt;
+
+The main PROP-M frame was a squat box with a small protrusion at the center. The frame was supported on two wide flat skis, one extending down from each side elevating the frame slightly above the surface.
+
+The rover was planned to be placed on the surface after landing by a manipulator arm and to move in the field of view of the television cameras and stop to make measurements every 1.5 metres. The traces of movement in the Martian soil would also be recorded to determine material properties.
+
+Because of the demise of the lander, the rover was not deployed.
+
+===Entry, descent, and crash landing===
+The descent module separated from the orbiter on 27 November 1971 about 4.5 hours before reaching Mars. After entering the atmosphere at approximately 6&amp;nbsp;km/s, the descent system on the module malfunctioned, possibly because the angle of entry was too steep. The descent sequence did not operate as planned and the parachute did not deploy.&lt;ref name=Perminov1/&gt;
+The descent module became the first man-made object to impact the surface of Mars. The exact crash site is unknown, but it is estimated to be at {{Coord|45|S|313|W|display=inline,title|globe:Mars}}.&lt;ref name=Pyle2012-M9/&gt;&lt;ref name="coord"&gt;{{cite web|url=http://www.planetary.org/explore/space-topics/space-missions/missions-to-mars.html#mars2 |title=Missions to Mars |publisher=[[The Planetary Society]]}}&lt;/ref&gt; Attempts to contact the probe after the crash were unsuccessful.
+{{Features and artificial objects on Mars}}
+
+==See also==
+{{portal|Spaceflight}}
+* [[List of Mars orbiters]]
+* [[List of missions to Mars]]
+* [[Mars 1M]]
+* [[Mars program]] 
+* [[Space exploration]]
+* [[Timeline of artificial satellites and space probes]]
+* [[Robotic spacecraft]]
+
+==References==
+{{reflist|2}}
+
+==External links==
+{{commons|Mars probe program}}
+* [http://www.mentallandscape.com/C_CatalogMars.htm catalog of Soviet Mars images]
+* [http://nssdc.gsfc.nasa.gov/planetary/planets/marspage.html NASA's mars probe website]
+* [https://web.archive.org/web/20071005010633/http://www.strykfoto.org/mars3.htm Ted Stryk's page on enhancing the partial photo]  
+* [[s:ru:Сообщение ТАСС о посадке автоматической станции Марс-3|TASS notice on the Mars-3 landing (in Russian)]] ([[Wikisource]])
+* [ftp://ftp.seds.org/pub/info/newsletters/ejasa/1989/jasa8910.txt "The Rocky Soviet Road to Mars" by Larry Klaes – EJASA October 1989]{{dead link|date=November 2017 |bot=InternetArchiveBot |fix-attempted=yes }}
+
+{{Mars programme}}
+{{Orbital launches in 1971}}
+{{Mars spacecraft}}
+
+[[Category:Space program of the Soviet Union]]
+[[Category:1971 in the Soviet Union]]
+[[Category:Spacecraft launched in 1971]]
+[[Category:Mars program]]
+[[Category:Lunae Palus quadrangle]]
+[[Category:Derelict satellites orbiting Mars]]
+[[Category:Mars rovers]]
+[[Category:Geography of Mars]]
+[[Category:Non Earth orbiting satellites of the Soviet Union]]</text>
+      <sha1>5ax6me8a87aac4yk84ejlm2se5g94l1</sha1>
+    </revision>
+  </page>
+</mediawiki>

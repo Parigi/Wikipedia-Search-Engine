@@ -1,0 +1,279 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.10/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.10/ http://www.mediawiki.org/xml/export-0.10.xsd" version="0.10" xml:lang="en">
+  <siteinfo>
+    <sitename>Wikipedia</sitename>
+    <dbname>enwiki</dbname>
+    <base>https://en.wikipedia.org/wiki/Main_Page</base>
+    <generator>MediaWiki 1.35.0-wmf.36</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Media</namespace>
+      <namespace key="-1" case="first-letter">Special</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Talk</namespace>
+      <namespace key="2" case="first-letter">User</namespace>
+      <namespace key="3" case="first-letter">User talk</namespace>
+      <namespace key="4" case="first-letter">Wikipedia</namespace>
+      <namespace key="5" case="first-letter">Wikipedia talk</namespace>
+      <namespace key="6" case="first-letter">File</namespace>
+      <namespace key="7" case="first-letter">File talk</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki talk</namespace>
+      <namespace key="10" case="first-letter">Template</namespace>
+      <namespace key="11" case="first-letter">Template talk</namespace>
+      <namespace key="12" case="first-letter">Help</namespace>
+      <namespace key="13" case="first-letter">Help talk</namespace>
+      <namespace key="14" case="first-letter">Category</namespace>
+      <namespace key="15" case="first-letter">Category talk</namespace>
+      <namespace key="100" case="first-letter">Portal</namespace>
+      <namespace key="101" case="first-letter">Portal talk</namespace>
+      <namespace key="108" case="first-letter">Book</namespace>
+      <namespace key="109" case="first-letter">Book talk</namespace>
+      <namespace key="118" case="first-letter">Draft</namespace>
+      <namespace key="119" case="first-letter">Draft talk</namespace>
+      <namespace key="446" case="first-letter">Education Program</namespace>
+      <namespace key="447" case="first-letter">Education Program talk</namespace>
+      <namespace key="710" case="first-letter">TimedText</namespace>
+      <namespace key="711" case="first-letter">TimedText talk</namespace>
+      <namespace key="828" case="first-letter">Module</namespace>
+      <namespace key="829" case="first-letter">Module talk</namespace>
+      <namespace key="2300" case="first-letter">Gadget</namespace>
+      <namespace key="2301" case="first-letter">Gadget talk</namespace>
+      <namespace key="2302" case="case-sensitive">Gadget definition</namespace>
+      <namespace key="2303" case="case-sensitive">Gadget definition talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Null hypothesis</title>
+    <ns>0</ns>
+    <id>226673</id>
+    <revision>
+      <id>960511481</id>
+      <parentid>958622662</parentid>
+      <timestamp>2020-06-03T10:42:36Z</timestamp>
+      <contributor>
+        <username>Citation bot</username>
+        <id>7903804</id>
+      </contributor>
+      <comment>Add: s2cid, author pars. 1-1. Removed URL that duplicated unique identifier. Removed parameters. Some additions/deletions were actually parameter name changes. | You can [[WP:UCB|use this bot]] yourself. [[WP:DBUG|Report bugs here]]. | Activated by SemperIocundus | via #UCB_webform</comment>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="36952" xml:space="preserve">{{short description|Position that there is no relationship between two phenomena}}
+{{For|the publication|Null Hypothesis: The Journal of Unlikely Science}}
+In [[inferential statistics]], the '''null hypothesis''' (often denoted '''''H''&lt;sub&gt;0&lt;/sub&gt;''',&lt;ref&gt;{{Cite web|url=https://www.thoughtco.com/definition-of-null-hypothesis-and-examples-605436|title=What Is the Null Hypothesis? Definition and Examples|last=Helmenstine|first=Anne Marie|date=|website=ThoughtCo|language=en|url-status=live|archive-url=|archive-date=|access-date=2019-12-10}}&lt;/ref&gt;) is a general statement or default position that there is no relationship between two measured phenomena or no association among groups.&lt;ref&gt;{{Cite web|url=https://mathvault.ca/math-glossary/#null|title=The Definitive Glossary of Higher Mathematical Jargon — Null|last=|first=|date=2019-08-01|website=Math Vault|language=en-US|url-status=live|archive-url=|archive-date=|access-date=2019-12-10}}&lt;/ref&gt;&lt;ref&gt;{{cite book | last = Everitt | first = Brian | title = The Cambridge Dictionary of Statistics | publisher = Cambridge University Press | location = Cambridge, UK New York | year = 1998 | isbn = 978-0521593465 | url-access = registration | url = https://archive.org/details/cambridgediction00ever_0 }}&lt;/ref&gt;&lt;ref name=":0"&gt;{{Cite web|url=https://www.investopedia.com/terms/n/null_hypothesis.asp|title=Null Hypothesis Definition|last=Hayes|first=Adam|website=Investopedia|language=en|access-date=2019-12-10}}&lt;/ref&gt; Testing (accepting, approving, rejecting, or disproving) the null [[hypothesis]]—and thus concluding that there are (or there are not) grounds for believing that there ''is'' a relationship between two phenomena (e.g. that a potential treatment has a measurable effect)—is a central task in the modern practice of science; the field of statistics, more specifically [[Hypothesis Testing|hypothesis testing]], gives precise criteria for rejecting or accepting a null hypothesis within a confidence level.&lt;ref name=":0" /&gt;
+
+The null hypothesis is generally assumed to be true until evidence indicates otherwise (similar to the case that a defendant of a jury trial is presumed innocent until guilty).&lt;ref name=":0" /&gt;
+
+The concept of a null hypothesis is used differently in two approaches to statistical inference. In the significance testing approach of [[Ronald Fisher]], a null hypothesis is rejected if the observed data is [[Statistical significance|significantly]] unlikely to have occurred if the null hypothesis were true. In this case, the null hypothesis is rejected and an [[alternative hypothesis]] is accepted in its place. If the data is consistent with the null hypothesis, then the null hypothesis is not rejected. In neither case is the null hypothesis or its alternative proven; the null hypothesis is tested with data and a decision is made based on how likely or unlikely the data is. This is analogous to the legal principle of [[presumption of innocence]], in which a suspect or defendant is assumed to be innocent (null is not rejected) until proven guilty (null is rejected) beyond a reasonable doubt (to a statistically significant degree).&lt;ref name=":0" /&gt;
+
+In the [[Statistical hypothesis testing|hypothesis testing]] approach of [[Jerzy Neyman]] and [[Egon Pearson]], a null hypothesis is contrasted with an [[alternative hypothesis]], and the two hypotheses are distinguished on the basis of data, with certain error rates. It is used in formulating answers in researches.
+
+Statistical inference can be done without a null hypothesis, by specifying a [[statistical model]] corresponding to each candidate hypothesis, and by using [[model selection]] techniques to choose the most appropriate model.&lt;ref&gt;{{Citation |last1=Burnham |first1=K. P. |last2=Anderson |first2=D. R. |year=2002 |title=Model Selection and Multimodel Inference: A Practical Information-Theoretic Approach |edition=2nd |publisher=Springer-Verlag |isbn=978-0-387-95364-9 |url-access=registration |url=https://archive.org/details/modelselectionmu0000burn }}.&lt;/ref&gt;  (The most common selection techniques are based on either [[Akaike information criterion]] or [[Bayes factor]].)
+
+==Principle==
+Hypothesis testing requires constructing a [[statistical model]] of what the data would look like, given that chance or random processes alone were responsible for the results. The hypothesis that chance alone is responsible for the results is called the ''null hypothesis''. The model of the result of the random process is called the ''distribution under the null hypothesis''. The obtained results are then compared with the distribution under the null hypothesis, and the likelihood of finding the obtained results is thereby determined.&lt;ref&gt;Stockburger D.W. (2007), "Hypothesis and hypothesis testing", ''Encyclopedia of Measurement and Statistics'' (editor—Salkind N.J.), [[Sage Publications]].&lt;/ref&gt;
+
+Hypothesis testing works by [[Sampling (statistics)|collecting data]] and measuring how likely the particular set of data is (assuming the null hypothesis is true), when the study is on a randomly selected representative sample. The null hypothesis assumes no relationship between variables in the [[Statistical population|population]] from which the [[Sample (statistics)|sample]] is selected.&lt;ref&gt;{{Cite web|url=https://opentextbc.ca/researchmethods/chapter/understanding-null-hypothesis-testing/|title=Understanding Null Hypothesis Testing – Research Methods in Psychology|website=opentextbc.ca|access-date=2019-12-10}}&lt;/ref&gt;
+
+If the data-set of a randomly selected representative [[Sample (statistics)|sample]] is very unlikely relative to the null hypothesis (defined as being part of a class of sets of data that only rarely will be observed), the experimenter rejects the null hypothesis, concluding it (probably) is false. This class of data-sets is usually specified via a [[test statistic]], which is designed to measure the extent of apparent departure from the null hypothesis. The procedure works by assessing whether the observed departure, measured by the test statistic, is larger than a value defined, so that the probability of occurrence of a more extreme value is small under the null hypothesis (usually in less than either 5% or 1% of similar data-sets in which the null hypothesis does hold).
+
+If the data do not contradict the null hypothesis, then only a weak conclusion can be made: namely, that the observed data set provides no strong evidence against the null hypothesis. In this case, because the null hypothesis could be true or false, in some contexts this is interpreted as meaning that the data give insufficient evidence to make any conclusion, while in other contexts, it is interpreted as meaning that there is no evidence to support changing from a currently useful regime to a different one.
+
+For instance, a certain drug may reduce the chance of having a heart attack. Possible null hypotheses are "this drug does not reduce the chances of having a heart attack" or "this drug has no effect on the chances of having a heart attack". The test of the hypothesis consists of administering the drug to half of the people in a study group as a [[controlled experiment]]. If the data show a [[statistically significant]] change in the people receiving the drug, the null hypothesis is rejected.
+
+==Basic definitions==
+The ''null hypothesis'' and the ''alternative hypothesis'' are types of conjectures used in statistical tests, which are formal methods of reaching conclusions or making decisions on the basis of data.  The hypotheses are conjectures about a [[statistical model]] of the [[Statistical population|population]], which are based on a [[Sample (statistics)|sample]] of the population.  The tests are core elements of [[statistical inference]], heavily used in the interpretation of scientific experimental data, to separate scientific claims from statistical noise.
+
+"The statement being tested in a test of [[statistical significance]] is called the '''null hypothesis'''.  The test of significance is designed to assess the strength of the evidence against the null hypothesis.  Usually, the null hypothesis is a statement of 'no effect' or 'no difference'."&lt;ref name=moore/&gt;  It is often symbolized as ''H''&lt;sub&gt;0&lt;/sub&gt;.
+
+The statement that is being tested against the null hypothesis is the '''alternative hypothesis'''.&lt;ref name=moore/&gt;  Symbols include ''H''&lt;sub&gt;1&lt;/sub&gt; and ''H''&lt;sub&gt;a&lt;/sub&gt;.
+
+Statistical significance test: "Very roughly, the procedure for deciding goes like this: Take a random sample from the population.  If the sample data are consistent with the null hypothesis, then [[do not reject]] the null hypothesis; if the sample data are inconsistent with the null hypothesis, then reject the null hypothesis and conclude that the alternative hypothesis is true."&lt;ref&gt;{{cite book|last=Weiss|first=Neil A.|title=Introductory Statistics|edition=5th|year=1999|page=[https://archive.org/details/introductorystat00neil/page/494 494]|isbn=9780201598773|url=https://archive.org/details/introductorystat00neil/page/494}}&lt;/ref&gt;
+
+The following sections add context and nuance to the basic definitions.
+
+==Example==
+Given the test scores of two random [[statistical sample|sample]]s, one of men and one of women, does one group differ from the other? A possible null hypothesis is that the mean male score is the same as the mean female score:
+
+: ''H''&lt;sub&gt;0&lt;/sub&gt;: ''μ''&lt;sub&gt;1&lt;/sub&gt; = ''μ''&lt;sub&gt;2&lt;/sub&gt;
+
+where
+
+: ''H''&lt;sub&gt;0&lt;/sub&gt; = the null hypothesis,
+: ''μ''&lt;sub&gt;1&lt;/sub&gt; = the mean of population 1, and
+: ''μ''&lt;sub&gt;2&lt;/sub&gt; = the mean of population 2.
+
+A stronger null hypothesis is that the two samples are drawn from the same population, such that the variances and shapes of the distributions are also equal.
+
+==Terminology==
+{{main|Statistical hypothesis testing#Definition of terms}}
+
+; Simple hypothesis : Any hypothesis which specifies the population distribution completely.  For such a hypothesis the sampling distribution of any statistic is a function of the sample size alone.
+; Composite hypothesis : Any hypothesis which does ''not'' specify the population distribution completely.&lt;ref name="Rossi2018"&gt;{{citation | last= Rossi | first= R. J. | year= 2018 | title= Mathematical Statistics | publisher= [[Wiley (publisher)|Wiley]] | page= 281 }}.&lt;/ref&gt;  Example: A hypothesis specifying a normal distribution with a specified mean and an unspecified variance.
+
+The simple/composite distinction was made by Neyman and Pearson.&lt;ref name="Neyman 289–337"/&gt;
+
+; Exact hypothesis: Any hypothesis that specifies an exact parameter value.&lt;ref&gt;{{cite book | last1 = Winkler | first1 = Robert L | last2 = Hays | first2 = William L | title = Statistics : probability, inference, and decision | publisher = Holt, Rinehart and Winston | location = New York | year = 1975 | isbn = 978-0-03-014011-2 | page = [https://archive.org/details/statisticsprobab0000wink/page/403 403] | url = https://archive.org/details/statisticsprobab0000wink/page/403 }}&lt;/ref&gt;  Example: μ = 100.  Synonym: '''point hypothesis'''.
+; Inexact hypothesis : Those specifying a parameter range or interval.  Examples: μ ≤ 100; 95 ≤ μ ≤ 105.
+
+Fisher required an exact null hypothesis for testing (see the quotations below).
+
+A  [[One-tailed test|'''one-tailed hypothesis''']] (tested using a one-sided test)&lt;ref name=moore/&gt; is an inexact hypothesis in which the value of a parameter is specified as being either:
+* above or equal to a certain value, or
+* below or equal to a certain value.
+A one-tailed hypothesis is said to have '''directionality'''.
+
+Fisher's original ([[lady tasting tea]]) example was a one-tailed test.  The null hypothesis was asymmetric.  The probability of guessing all cups correctly was the same as guessing all cups incorrectly, but Fisher noted that only guessing correctly was compatible with the lady's claim.  (See the quotations below about his reasoning.)
+
+==Goals of null hypothesis tests==
+
+There are many types of [[Statistical hypothesis testing#Common test statistics|significance tests]] for one, two or more samples, for means, variances and proportions, paired or unpaired data, for different distributions, for large and small samples; all have null hypotheses.  There are also at least four goals of null hypotheses for significance tests:&lt;ref&gt;{{cite journal
+ | authorlink = David Cox (statistician)
+ | title = Statistical Significance Tests
+ | journal = Br. J. Clin. Pharmacol.
+ | volume = 14 | issue = 3
+ | pages = 325–331 | year = 1982 | doi = 10.1111/j.1365-2125.1982.tb01987.x
+ | pmid = 6751362
+ | pmc = 1427620
+ | last1 = Cox
+ | first1 = DR
+ }}&lt;/ref&gt;
+* Technical null hypotheses are used to verify statistical assumptions.  For example, the residuals between the data and a statistical model cannot be distinguished from random noise.  If true, there is no justification for complicating the model.
+* Scientific null assumptions are used to directly advance a theory.  For example, the angular momentum of the universe is zero.  If not true, the theory of the early universe may need revision.
+* Null hypotheses of [[Homogeneity (statistics)|homogeneity]] are used to verify that multiple experiments are producing consistent results.  For example, the effect of a medication on the elderly is consistent with that of the general adult population.  If true, this strengthens the general effectiveness conclusion and simplifies recommendations for use.
+* Null hypotheses that assert the equality of effect of two or more alternative treatments, for example, a drug and a placebo, are used to reduce scientific claims based on statistical noise.  This is the most popular null hypothesis; It is so popular that many statements about significant testing assume such null hypotheses.
+
+Rejection of the null hypothesis is ''not necessarily'' the real goal of a significance tester.  An adequate statistical model may be associated with a failure to reject the null; the model is adjusted until the null is not rejected.  The numerous uses of significance testing were well known to Fisher who discussed many in his book written a decade before defining the null hypothesis.&lt;ref&gt;Statistical Methods for Research Workers (11th Ed): Chapter IV: Tests of Goodness of Fit, Independence and Homogeneity; With Table of χ&lt;sup&gt;2&lt;/sup&gt;.  Regarding a significance test supporting goodness of fit: If the calculated probability is high then "there is certainly no reason to suspect that the [null] hypothesis is tested.  If it is [low] it is strongly indicated that the [null] hypothesis fails to account for the whole of the facts."&lt;/ref&gt;
+
+A statistical significance test shares much mathematics with a [[confidence interval]].  They are [[Confidence interval#Statistical hypothesis testing|mutually illuminating]].  A result is often significant when there is confidence in the sign of a relationship (the interval does not include 0).  Whenever the sign of a relationship is important, statistical significance is a worthy goal.  This also reveals weaknesses of significance testing: A result can be significant without a good estimate of the strength of a relationship; significance can be a modest goal.  A weak relationship can also achieve significance with enough data.  Reporting both significance and confidence intervals is commonly recommended.
+
+The varied uses of significance tests reduce the number of generalizations that can be made about all applications.
+
+==Choice of the null hypothesis==
+
+The choice of the null hypothesis is associated with sparse and inconsistent advice.  Fisher mentioned few constraints on the choice and stated that many null hypotheses should be considered and that many tests are possible for each.  The variety of applications and the diversity of goals suggests that the choice can be complicated. In many applications the formulation of the test is traditional.  A familiarity with the range of tests available may suggest a particular null hypothesis and test.  Formulating the null hypothesis is not automated (though the calculations of significance testing usually are).  [[David Cox (statistician)|Sir David Cox]] has said, "How [the] translation from subject-matter problem to statistical model is done is often the most critical part of an analysis".&lt;ref&gt;{{cite book |last=Cox |first=D. R. |year=2006 |title=Principles of Statistical Inference |location= |publisher=Cambridge University Press |isbn=978-0-521-68567-2 |page=197 }}&lt;/ref&gt;
+
+A statistical significance test is intended to test a hypothesis.  If the hypothesis summarizes a set of data, there is no value in testing the hypothesis on that set of data.  Example: If a study of last year's weather reports indicates that rain in a region falls primarily on weekends, it is only valid to test that null hypothesis on weather reports from any ''other'' year.  [[Testing hypotheses suggested by the data]] is circular reasoning that proves nothing; It is a special limitation on the choice of the null hypothesis.
+
+A routine procedure is as follows: Start from the scientific hypothesis.  Translate this to a statistical alternative hypothesis and proceed: "Because H&lt;sub&gt;a&lt;/sub&gt; expresses the effect that we wish to find evidence for, we often begin with H&lt;sub&gt;a&lt;/sub&gt; and then set up H&lt;sub&gt;0&lt;/sub&gt; as the statement that the hoped-for effect is not present."&lt;ref name=moore&gt;{{cite book|last1=Moore|first1=David|last2=McCabe|first2=George|title=Introduction to the Practice of Statistics|url=https://archive.org/details/isbn_9780716749127|url-access=registration|publisher=W.H. Freeman and Co|location=New York|year=2003|page=438|edition=4|isbn=9780716796572}}&lt;/ref&gt;  This advice is ''reversed'' for modeling applications where we hope not to find evidence against the null.
+
+A complex case example is as follows:&lt;ref name=jones96&gt;{{cite journal
+ | last = Jones | first = B |author2=P Jarvis |author3=J A Lewis |author4=A F Ebbutt
+  | title = Trials to assess equivalence: the importance of rigorous methods
+ | journal = BMJ | volume = 313 | issue = 7048 | pages = 36–39 | date = 6 July 1996 | doi=10.1136/bmj.313.7048.36| pmid = 8664772 | pmc = 2351444 }}  It is suggested that the default position (the null hypothesis) should be that the treatments are ''not'' equivalent.  Conclusions should be made on the basis of [[confidence intervals]] rather than significance.&lt;/ref&gt;  The gold standard in clinical research is the [[Randomized controlled trial|randomized]] [[Placebo-controlled study|placebo-controlled]] [[Blinded experiment#Double-blind trials|double-blind]] clinical trial.  But testing a new drug against a (medically ineffective) placebo may be unethical for a serious illness.  Testing a new drug against an older medically effective drug raises fundamental philosophical issues regarding the goal of the test and the motivation of the experimenters.  The standard "no difference" null hypothesis may reward the pharmaceutical company for gathering inadequate data.  "Difference" is a better null hypothesis in this case, but statistical significance is not an adequate criterion for reaching a nuanced conclusion which requires a good numeric estimate of the drug's effectiveness.  A "minor" or "simple" proposed change in the null hypothesis ((new vs old) rather than (new vs placebo)) can have a dramatic effect on the utility of a test for complex non-statistical reasons.
+
+===Directionality===
+{{main|One- and two-tailed tests}}
+{{section too long|date=September 2014}}
+The choice of null hypothesis (''H''&lt;sub&gt;0&lt;/sub&gt;) and consideration of directionality (see "[[one-tailed test]]") is critical.
+
+====Tailedness of the null-hypothesis test====
+
+Consider the question of whether a tossed coin is fair (i.e. that on average it lands heads up 50% of the time) and an experiment where you toss the coin 5 times.
+A possible result of the experiment that we consider here is 5 heads. 
+Let outcomes be considered unlikely with respect to an assumed distribution if their probability is lower than a significance threshold of 0.05.
+
+A potential null hypothesis implying a one-tail test is "this coin is not biased toward heads". 
+Beware that, in this context, the word "tail" takes two meanings: either as outcome of a single toss, or as region of extremal values in a probability distribution.
+
+Indeed, with a fair coin the probability of this experiment outcome is 1/2&lt;sup&gt;5&lt;/sup&gt; = 0.031, which would be even lower if the coin were biased in favour of tails. 
+Therefore, the observations are not likely enough for the null hypothesis to hold, and the test refutes it. 
+Since the coin is ostensibly neither fair nor biased toward tails, the conclusion of the experiment is that the coin is biased towards heads.
+
+Alternatively, a null hypothesis implying a two-tailed test is "this coin is fair". 
+This one null hypothesis could be examined by looking out for either too many tails or too many heads in the experiments.
+The outcomes that would tend to refuse this null hypothesis are those with a large number of heads or a large number of tails, and our experiment with 5 heads would seem to belong to this class.
+
+However, the probability of 5 tosses of the same kind, irrespective of whether these are head or tails, is twice as much as that of the 5-head occurrence singly considered.
+Hence, under this two-tailed null hypothesis, the observation receives a [[P-value|probability value]] of 0.063.
+Hence again, with the same significance threshold used for the one-tailed test (0.05), the same outcome is not statistically significant.
+Therefore, the two-tailed null hypothesis will be preserved in this case, not supporting the conclusion reached with the single-tailed null hypothesis, that the coin is biased towards heads.
+
+This example illustrates that the conclusion reached from a statistical test may depend on the precise formulation of the null and alternative hypotheses.
+
+====Discussion====
+
+Fisher said, "the null hypothesis must be exact, that is free of vagueness and ambiguity, because it must supply the basis of the 'problem of distribution,' of which the test of significance is the solution", implying a more restrictive domain for ''H''&lt;sub&gt;0&lt;/sub&gt;.&lt;ref&gt;{{cite book |last=Fisher |first=R. A. |year=1966 |title=The Design of Experiments |edition=8th |publisher=Hafner |location=Edinburgh |title-link=The Design of Experiments }}&lt;/ref&gt; According to this view, the null hypothesis must be numerically exact—it must state that a particular quantity or difference is equal to a particular number. In classical science, it is most typically the statement that there is ''no effect'' of a particular treatment; in observations, it is typically that there is ''no difference'' between the value of a particular measured variable and that of a prediction.
+
+Most statisticians believe that it is valid to state direction as a part of null hypothesis, or as part of a null hypothesis/alternative hypothesis pair.&lt;ref&gt;For example see [http://davidmlane.com/hyperstat/A73079.html Null hypothesis]&lt;/ref&gt; However, the results are not a full description of all the results of an experiment, merely a single result tailored to one particular purpose. For example, consider an ''H''&lt;sub&gt;0&lt;/sub&gt; that claims the population mean for a new treatment is an improvement on a well-established treatment with population {{nowrap|mean {{=}} 10}} (known from long experience), with the one-tailed alternative being that the new treatment's {{nowrap|mean &gt; 10}}. If the sample evidence obtained through ''x''-bar equals −200 and the corresponding t-test statistic equals −50, the conclusion from the test would be that there is no evidence that the new treatment is better than the existing one: it would not report that it is markedly worse, but that is not what this particular test is looking for. To overcome any possible ambiguity in reporting the result of the test of a null hypothesis, it is best to indicate whether the test was two-sided and, if one-sided, to include the direction of the effect being tested.
+
+The statistical theory required to deal with the simple cases of directionality dealt with here, and more complicated ones, makes use of the concept of an [[unbiased test]].
+
+The directionality of hypotheses is not always obvious.  The explicit null hypothesis of Fisher's [[Lady tasting tea]] example was that the Lady had no such ability, which led to a symmetric probability distribution.  The one-tailed nature of the test resulted from the one-tailed alternate hypothesis (a term not used by Fisher).  The null hypothesis became implicitly one-tailed.  The logical negation of the Lady's one-tailed claim was also one-tailed.  (Claim: Ability &gt; 0; Stated null: Ability = 0;  Implicit null: Ability ≤ 0).
+
+Pure arguments over the use of one-tailed tests are complicated by the variety of tests.  Some tests (for instance the  χ&lt;sup&gt;2&lt;/sup&gt; goodness of fit test) are inherently one-tailed.  Some probability distributions are asymmetric.  The traditional tests of 3 or more groups are two-tailed.
+
+Advice concerning the use of one-tailed hypotheses has been inconsistent and accepted practice varies among fields.&lt;ref&gt;{{cite journal
+ | last1 = Lombardi | first1 = Celia M. | last2 = Hurlbert| first2 = Stuart H.
+ | title = Misprescription and misuse of one-tailed tests
+ | journal = Austral Ecology
+ | volume = 34 | pages = 447–468 | year = 2009 | doi = 10.1111/j.1442-9993.2009.01946.x}}  Discusses the merits and historical usage of one-tailed tests in biology at length.&lt;/ref&gt;  The greatest objection to one-tailed hypotheses is their potential subjectivity.  A non-significant result can sometimes be converted to a significant result by the use of a one-tailed hypothesis (as the fair coin test, at the whim of the analyst).  The flip side of the argument: One-sided tests are less likely to ignore a real effect.  One-tailed tests can suppress the publication of data that differs in sign from predictions.  Objectivity was a goal of the developers of statistical tests.
+
+It is a common practice to use a one-tailed hypothesis by default. However, "If you do not have a specific direction firmly in mind in advance, use a two-sided alternative.  Moreover, some users of statistics argue that we should ''always'' work with the two-sided alternative."&lt;ref name=moore/&gt;&lt;ref&gt;{{cite journal
+ | last1 = Bland | first1 = J Martin | last2 = Altman | first2 = Douglas G
+ | title = One and two sided tests of significance
+ | journal = BMJ | volume = 309 | issue = 6949 | page = 248 | date = 23 July 1994 | doi=10.1136/bmj.309.6949.248| pmid = 8069143 | pmc = 2540725 }}  With respect to medical statistics: "In general a one sided test is appropriate when a large difference in one direction would lead to the same action as no difference at all. Expectation of a difference in a particular direction is not adequate justification."  "Two sided tests should be used unless there is a very good reason for doing otherwise. If one sided tests are to be used the direction of the test must be specified in advance. One sided tests should never be used simply as a device to make a conventionally non-significant difference significant."&lt;/ref&gt;
+
+One alternative to this advice is to use three-outcome tests.  It eliminates the issues surrounding directionality of hypotheses by testing twice, once in each direction and combining the results to produce three possible outcomes.&lt;ref&gt;{{cite journal
+ | last1 = Jones | first1 = Lyle V. | last2 = Tukey | first2 = John W.
+ | s2cid = 14553341 | title = A Sensible Formulation of the Significance Test
+ | journal = Psychological Methods
+ | volume = 5 | number = 4 | pages = 411–414 | year = 2000 | doi = 10.1037/1082-989X.5.4.411 | pmid = 11194204 }}  Test results  are signed: significant positive effect, significant negative effect or insignificant effect of unknown sign.  This is a more nuanced conclusion than that of the two-tailed test.  It has the advantages of one-tailed tests without the disadvantages.&lt;/ref&gt;  Variations on this approach have a history, being suggested perhaps 10 times since 1950.&lt;ref&gt;{{cite journal
+ | last1 = Hurlbert | first1 = S. H. | last2 = Lombardi | first2 = C. M.
+ | title = Final collapse of the Neyman-Pearson decision theoretic framework and rise of the neoFisherian
+ | journal = Ann. Zool. Fennici
+ | volume = 46 | issue = 5 | pages = 311–349 | year = 2009 | issn = 1797-2450 | doi=10.5735/086.046.0501}}&lt;/ref&gt;
+
+Disagreements over one-tailed tests flow from the philosophy of science.  While Fisher was willing to ignore the unlikely case of the Lady guessing all cups of tea incorrectly (which may have been appropriate for the circumstances), medicine believes that a proposed treatment that kills patients is significant in every sense and should be reported and perhaps explained.  Poor statistical reporting practices have contributed to disagreements over one-tailed tests.  Statistical significance resulting from two-tailed tests is insensitive to the sign of the relationship; Reporting significance alone is inadequate.  "The treatment has an effect" is the uninformative result of a two-tailed test.  "The treatment has a beneficial effect" is the more informative result of a one-tailed test.  "The treatment has an effect, reducing the average length of hospitalization by 1.5 days" is the most informative report, combining a two-tailed significance test result with a numeric estimate of the relationship between treatment and effect.  Explicitly reporting a numeric result eliminates a philosophical advantage of a one-tailed test.  An underlying issue is the appropriate form of an experimental science without numeric predictive theories: A model of numeric results is more informative than a model of effect signs (positive, negative or unknown) which is more informative than a model of simple significance (non-zero or unknown); in the absence of numeric theory signs may suffice.
+
+==History of statistical tests==
+{{main|Statistical hypothesis testing#Origins and early controversy}}
+
+The history of the null and alternative hypotheses is embedded in the history of statistical tests.&lt;ref name=Gigerenzer&gt;{{cite book|title=The Empire of Chance: How Probability Changed Science and Everyday Life|last=Gigerenzer|first=Gerd|author2=Zeno Swijtink |author3=Theodore Porter |author4=Lorraine Daston |author5=John Beatty |author6=Lorenz Kruger |year=1989|publisher=Cambridge University Press|chapter=Part 3: The Inference Experts|isbn=978-0-521-39838-1|pages=70–122}}&lt;/ref&gt;&lt;ref&gt;{{cite book | last = Lehmann | first = E. L. | title = Fisher, Neyman, and the creation of classical statistics | publisher = Springer | location = New York | year = 2011 | isbn = 978-1441994998 }}&lt;/ref&gt;
+
+* Before 1925:  There are occasional transient traces of statistical tests for centuries in the past, which provide [[Statistical hypothesis testing#Early choices of null hypothesis|early examples]] of null hypotheses.  In the late 19th century statistical significance was defined.  In the early 20th century important [[probability distributions]] were defined.  [[William Sealy Gosset|Gossett]] and [[Karl Pearson|Pearson]] worked on specific cases of significance testing.
+* 1925:  [[Ronald Fisher|Fisher]] published the first edition of [[Statistical Methods for Research Workers]] which defined the statistical significance test and made it a mainstream method of analysis for much of experimental science.  The text was devoid of proofs and weak on explanations, but it was filled with real examples.  It placed statistical practice in the sciences well in advance of published statistical theory.
+* 1933:  In a series of papers (published over a decade starting in 1928) [[Jerzy Neyman|Neyman]] &amp; [[Egon Pearson|Pearson]] defined the statistical hypothesis test as a proposed improvement on Fisher's test.  The papers provided much of the terminology for statistical tests including ''alternative hypothesis'' and H&lt;sub&gt;0&lt;/sub&gt; as a hypothesis to be tested using observational data (with H&lt;sub&gt;1&lt;/sub&gt;, H&lt;sub&gt;2&lt;/sub&gt;... as alternatives).&lt;ref name="Neyman 289–337"&gt;{{cite journal|last1=Neyman|first1=J|title=On the Problem of the most Efficient Tests of Statistical Hypotheses|journal=[[Philosophical Transactions of the Royal Society A]]|date=January 1, 1933|volume=231|issue=694–706|pages=289–337|doi=10.1098/rsta.1933.0009|last2=Pearson|first2=E. S.|bibcode=1933RSPTA.231..289N|doi-access=free}}&lt;/ref&gt;  Neyman did not use the term null hypothesis in later writings about his method.
+* 1935:  Fisher published the first edition of the book "[[The Design of Experiments]]" which introduced the null hypothesis&lt;ref&gt;{{cite web
+ | last = Aldrich | first = John
+ | title = Earliest Known Uses of Some of the Words of Probability &amp; Statistics
+ | url = http://www.leidenuniv.nl/fsw/verduin/stathist/1stword.htm
+ | accessdate = 30 June 2014 }} Last update 12 march 2003.  From Jeff Miller.&lt;/ref&gt; (by example rather than by definition) and carefully explained the rationale for significance tests in the context of the interpretation of experimental results; see [[The Design of Experiments#Quotations regarding the null hypothesis]].
+* Following:  Fisher and Neyman  quarreled over the relative merits of their competing formulations until Fisher's death in 1962.  Career changes and World War II ended the partnership of Neyman and Pearson.  The formulations were merged by relatively anonymous textbook writers, experimenters (journal editors) and mathematical statisticians without input from the principals.&lt;ref name=Gigerenzer/&gt;  The subject today combines much of the terminology and explanatory power of Neyman &amp; Pearson with the scientific philosophy and calculations provided by Fisher.  Whether statistical testing is properly one subject or two remains a source of disagreement.&lt;ref&gt;{{cite journal|last=Lehmann|first=E. L.|title=The Fisher, Neyman-Pearson Theories of Testing Hypotheses: One Theory or Two?|journal=Journal of the American Statistical Association|volume=88|issue=424|pages=1242–1249|date=December 1993|doi=10.1080/01621459.1993.10476404}}&lt;/ref&gt;  Sample of two: One text refers to the subject as hypothesis testing (with no mention of significance testing in the index) while another says significance testing (with a section on inference as a decision).  Fisher developed significance testing as a flexible tool for researchers to weigh their evidence.  Instead testing has become institutionalized.  Statistical significance has become a rigidly defined and enforced criterion for the publication of experimental results in many scientific journals.  In some fields significance testing has become the dominant and nearly exclusive form of statistical analysis.  As a consequence the limitations of the tests have been exhaustively studied.  Books have been filled with the collected [[Statistical hypothesis testing#Criticism|criticism of significance testing]].
+
+==See also==
+{{Portal|Mathematics}}
+* [[Bayes factor]]
+* [[Burden of proof (philosophy)|Burden of proof]]
+* [[Counternull]]
+* [[Estimation statistics]]
+* [[Likelihood-ratio test]]
+* [[Presumption of innocence]]
+* [[Statistical hypothesis testing]]
+* [[P-value]]
+
+==References==
+{{Reflist|30em}}
+
+==Further reading==
+*{{Cite book |last1=Adèr |first1=H. J. | author-link1 = Herman J. Adèr|last2= Mellenbergh  |first2= G. J.| author2-link = Gideon J. Mellenbergh |lastauthoramp=yes |last3=Hand |first3=D. J. |year=2007 |title=Advising on research methods: A consultant's companion |publisher=Johannes van Kessel Publishing |location=Huizen, The Netherlands |isbn=978-90-79418-01-5 }}
+*{{Cite journal | doi = 10.1198/016214504000000089| title = Large-Scale Simultaneous Hypothesis Testing| journal = Journal of the American Statistical Association| volume = 99| issue = 465| pages = 96–104| year = 2004| last1 = Efron | first1 = B. }}  The application of significance testing in this paper is an outlier.  Tests to find a null hypothesis?  Not trying to show significance, but to find interesting cases?
+*{{cite journal | last1 = Rice | first1 = William R. | last2 = Gaines | first2 = Steven D.  | title = 'Heads I win, tails you lose': testing directional alternative hypotheses in ecological and evolutionary research | journal = TREE | volume = 9 | number = 6 | pages = 235–237 | date = June 1994 | doi=10.1016/0169-5347(94)90258-5| pmid = 21236837 }}  Directed tests combine the attributes of one-tailed and two-tailed tests.  "...directed tests should be used in virtually all applications where one-sided tests have previously been used, excepting those cases where the data can only deviate from H&lt;sub&gt;0&lt;/sub&gt;, in one direction."
+
+==External links==
+* [http://davidmlane.com/hyperstat/A29337.html HyperStat Online: Null hypothesis]
+{{Statistics}}
+
+{{authority control}}
+
+&lt;!-- having no relationship --&gt;
+
+{{DEFAULTSORT:Null Hypothesis}}
+
+[[Category:Design of experiments]]
+[[Category:Statistical hypothesis testing]]
+
+[[ja:帰無仮説]]</text>
+      <sha1>ivfh5h6ymbc7sz2wqjla1elpt4guglz</sha1>
+    </revision>
+  </page>
+</mediawiki>

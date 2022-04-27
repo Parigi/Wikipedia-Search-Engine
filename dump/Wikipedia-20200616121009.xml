@@ -1,0 +1,126 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.10/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.10/ http://www.mediawiki.org/xml/export-0.10.xsd" version="0.10" xml:lang="en">
+  <siteinfo>
+    <sitename>Wikipedia</sitename>
+    <dbname>enwiki</dbname>
+    <base>https://en.wikipedia.org/wiki/Main_Page</base>
+    <generator>MediaWiki 1.35.0-wmf.36</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Media</namespace>
+      <namespace key="-1" case="first-letter">Special</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Talk</namespace>
+      <namespace key="2" case="first-letter">User</namespace>
+      <namespace key="3" case="first-letter">User talk</namespace>
+      <namespace key="4" case="first-letter">Wikipedia</namespace>
+      <namespace key="5" case="first-letter">Wikipedia talk</namespace>
+      <namespace key="6" case="first-letter">File</namespace>
+      <namespace key="7" case="first-letter">File talk</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki talk</namespace>
+      <namespace key="10" case="first-letter">Template</namespace>
+      <namespace key="11" case="first-letter">Template talk</namespace>
+      <namespace key="12" case="first-letter">Help</namespace>
+      <namespace key="13" case="first-letter">Help talk</namespace>
+      <namespace key="14" case="first-letter">Category</namespace>
+      <namespace key="15" case="first-letter">Category talk</namespace>
+      <namespace key="100" case="first-letter">Portal</namespace>
+      <namespace key="101" case="first-letter">Portal talk</namespace>
+      <namespace key="108" case="first-letter">Book</namespace>
+      <namespace key="109" case="first-letter">Book talk</namespace>
+      <namespace key="118" case="first-letter">Draft</namespace>
+      <namespace key="119" case="first-letter">Draft talk</namespace>
+      <namespace key="446" case="first-letter">Education Program</namespace>
+      <namespace key="447" case="first-letter">Education Program talk</namespace>
+      <namespace key="710" case="first-letter">TimedText</namespace>
+      <namespace key="711" case="first-letter">TimedText talk</namespace>
+      <namespace key="828" case="first-letter">Module</namespace>
+      <namespace key="829" case="first-letter">Module talk</namespace>
+      <namespace key="2300" case="first-letter">Gadget</namespace>
+      <namespace key="2301" case="first-letter">Gadget talk</namespace>
+      <namespace key="2302" case="case-sensitive">Gadget definition</namespace>
+      <namespace key="2303" case="case-sensitive">Gadget definition talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Non-negative least squares</title>
+    <ns>0</ns>
+    <id>41740999</id>
+    <revision>
+      <id>950355459</id>
+      <parentid>930444515</parentid>
+      <timestamp>2020-04-11T17:13:37Z</timestamp>
+      <contributor>
+        <username>OAbot</username>
+        <id>28481209</id>
+      </contributor>
+      <minor/>
+      <comment>[[Wikipedia:OABOT|Open access bot]]: doi added to citation with #oabot.</comment>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="7748" xml:space="preserve">{{Regression bar}}
+In [[mathematical optimization]], the problem of '''non-negative least squares''' ('''NNLS''') is a type of [[constrained least squares]] problem where the coefficients are not allowed to become negative. That is, given a matrix {{math|'''A'''}} and a (column) vector of [[response variable]]s {{math|'''y'''}}, the goal is to find&lt;ref name="chen"/&gt;
+
+:&lt;math&gt;\operatorname{arg\,min}\limits_\mathbf{x} \|\mathbf{Ax} - \mathbf{y}\|_2&lt;/math&gt; subject to {{math|'''x''' ≥ 0}}.
+
+Here {{math|'''x''' ≥ 0}} means that each component of the vector {{math|'''x'''}} should be non-negative, and {{math|‖·‖₂}} denotes the [[Euclidean norm]].
+
+Non-negative least squares problems turn up as subproblems in [[matrix decomposition]], e.g. in algorithms for [[CP decomposition|PARAFAC]]&lt;ref name="bro"/&gt; and [[non-negative matrix factorization|non-negative matrix/tensor factorization]].&lt;ref&gt;{{Cite journal | last1 = Lin | first1 = Chih-Jen| title = Projected Gradient Methods for Nonnegative Matrix Factorization | doi = 10.1162/neco.2007.19.10.2756 | journal = [[Neural Computation]]| volume = 19 | issue = 10 | pages = 2756–2779 | year = 2007 | pmid =  17716011| pmc = | url = http://www.csie.ntu.edu.tw/~cjlin/papers/pgradnmf.pdf| citeseerx = 10.1.1.308.9135}}&lt;/ref&gt;&lt;ref&gt;{{cite journal |title=Random projections for the nonnegative least-squares problem |first1=Christos |last1=Boutsidis |first2=Petros |last2=Drineas |journal=Linear Algebra and Its Applications |volume=431 |issue=5–7 |year=2009 |pages=760–771 |doi=10.1016/j.laa.2009.03.026|arxiv=0812.4547 }}&lt;/ref&gt; The latter can be considered a generalization of NNLS.&lt;ref name="chen"/&gt;
+
+Another generalization of NNLS is '''bounded-variable least squares''' (BVLS), with simultaneous upper and lower bounds {{math|α''ᵢ'' ≤ '''x'''''ᵢ'' ≤ β''ᵢ''}}.{{r|lawson}}{{rp|291}}&lt;ref&gt;{{cite journal |last1=Stark |first1=Philip B. |first2=Robert L. |last2=Parker |title=Bounded-variable least-squares: an algorithm and applications |journal=Computational Statistics |volume=10 |year=1995 |pages=129 |url=http://digitalassets.lib.berkeley.edu/sdtr/ucb/text/394.pdf}}&lt;/ref&gt;
+
+==Quadratic programming version==
+The NNLS problem is equivalent to a [[quadratic programming]] problem
+
+:&lt;math&gt;\operatorname{arg\,min}\limits_\mathbf{x \ge 0} \left(\frac{1}{2} \mathbf{x}^\mathsf{T} \mathbf{Q}\mathbf{x} + \mathbf{c}^\mathsf{T} \mathbf{x}\right),&lt;/math&gt;
+
+where {{math|'''Q'''}} = {{math|'''A'''ᵀ'''A'''}} and {{math|'''c'''}} = {{math|−'''A'''ᵀ '''y'''}}. This problem is [[Convex optimization|convex]], as {{math|'''Q'''}} is [[positive-semidefinite matrix|positive semidefinite]] and the non-negativity constraints form a convex feasible set.&lt;ref name="sca"&gt;{{cite book|doi=10.1007/11556121_50|title=Sequential Coordinate-Wise Algorithm for the Non-negative Least Squares Problem|journal=Computer Analysis of Images and Patterns|volume=3691|pages=407–414|series=Lecture Notes in Computer Science|year=2005|last1=Franc|first1=Vojtěch|last2=Hlaváč|first2=Václav|last3=Navara|first3=Mirko|isbn=978-3-540-28969-2}}&lt;/ref&gt;
+
+==Algorithms==
+The first widely used algorithm for solving this problem is an [[active-set method]] published by Lawson and Hanson in their 1974 book ''Solving Least Squares Problems''.&lt;ref name="lawson"&gt;{{cite book |last1=Lawson |first1=Charles L. |last2=Hanson |first2=Richard J. |title=Solving Least Squares Problems |year=1995 |publisher=SIAM}}&lt;/ref&gt;{{rp|291}} In [[pseudocode]], this algorithm looks as follows:{{r|chen}}&lt;ref name="bro"&gt;{{Cite journal |doi=10.1002/(SICI)1099-128X(199709/10)11:5&lt;393::AID-CEM483&gt;3.0.CO;2-L |title=A fast non-negativity-constrained least squares algorithm |journal=Journal of Chemometrics |volume=11 |issue=5 |pages=393 |year=1997 |last1=Bro |first1=Rasmus |last2=De Jong |first2=Sijmen}}&lt;/ref&gt;
+
+{{framebox|blue}}
+* Inputs:
+** a real-valued matrix {{mvar|A}} of dimension {{math|''m'' × ''n''}},
+** a real-valued vector {{math|'''y'''}} of dimension {{mvar|m}},
+** a real value {{mvar|ε}}, the tolerance for the stopping criterion.
+* Initialize:
+** Set {{math|''P'' {{=}} ∅}}.
+** Set {{math|''R'' {{=}} {1, ..., ''n''}}}.
+** Set {{math|'''x'''}} to an all-zero vector of dimension {{mvar|n}}.
+** Set {{math|'''w''' {{=}} ''A''ᵀ('''y''' − ''A'''''x''')}}.
+* Main loop: while {{math|''R'' ≠ ∅}} and {{math|max('''w''') &gt; ε}}:
+** Let {{mvar|j}} in {{math|''R''}} be the index of {{math|max('''w''')}} in {{math|'''w'''}}.
+** Add {{mvar|j}} to {{mvar|P}}.
+** Remove {{mvar|j}} from {{mvar|R}}.
+** Let {{mvar|A&lt;sup&gt;P&lt;/sup&gt;}} be {{mvar|A}} restricted to the variables included in {{mvar|P}}.
+** Let {{math|''s''}} be vector of same length as {{math|'''x'''}}. Let {{math|''s&lt;sup&gt;P&lt;/sup&gt;''}} denote the sub-vector with indexes from ''P'', and let {{math|''s&lt;sup&gt;R&lt;/sup&gt;''}} denote the sub-vector with indexes from ''R''.
+** Set {{math|''s&lt;sup&gt;P&lt;/sup&gt;'' {{=}} ((''A&lt;sup&gt;P&lt;/sup&gt;'')ᵀ ''A&lt;sup&gt;P&lt;/sup&gt;'')&lt;sup&gt;−1&lt;/sup&gt; (''A&lt;sup&gt;P&lt;/sup&gt;'')ᵀ'''y'''}}
+** Set {{math|''s&lt;sup&gt;R&lt;/sup&gt;''}} to zero
+** While {{math|min(''s&lt;sup&gt;P&lt;/sup&gt;'') ≤ 0}}:
+*** Let {{math|''α'' {{=}} min {{sfrac|''x&lt;sub&gt;i&lt;/sub&gt;''|''x&lt;sub&gt;i&lt;/sub&gt;'' − ''s&lt;sub&gt;i&lt;/sub&gt;''}} for ''i'' in ''P'' where ''s&lt;sub&gt;i&lt;/sub&gt;'' ≤ 0}}.
+*** Set {{math|'''x'''}} to {{math|'''x''' + ''α''(''s'' − ''x'')}}.
+*** Move to {{mvar|R}} all indices {{mvar|j}} in {{mvar|P}} such that {{math|''x&lt;sub&gt;j&lt;/sub&gt;'' {{=}} 0}}.
+*** Set {{math|''s&lt;sup&gt;P&lt;/sup&gt;'' {{=}} ((''A&lt;sup&gt;P&lt;/sup&gt;'')ᵀ ''A&lt;sup&gt;P&lt;/sup&gt;'')&lt;sup&gt;−1&lt;/sup&gt; (''A&lt;sup&gt;P&lt;/sup&gt;'')ᵀ'''y'''}}
+*** Set {{math|''s&lt;sup&gt;R&lt;/sup&gt;''}} to zero.
+** Set {{math|'''x'''}} to {{mvar|s}}.
+** Set {{math|'''w'''}} to {{math|''A''ᵀ('''y''' − ''A'''''x''')}}.
+{{frame-footer}}
+
+This algorithm takes a finite number of steps to reach a solution and smoothly improves its candidate solution as it goes (so it can find good approximate solutions when cut off at a reasonable number of iterations), but is very slow in practice, owing largely to the computation of the [[Moore–Penrose pseudoinverse|pseudoinverse]] {{math|(('''A'''ᴾ)ᵀ '''A'''ᴾ)⁻¹}}.{{r|chen}} Variants of this algorithm are available in [[MATLAB]] as the routine {{mono|lsqnonneg}}&lt;ref name="chen"&gt;{{cite conference |authorlink2=Robert J. Plemmons |last1=Chen |first1=Donghui |first2=Robert J. |last2=Plemmons |title=Nonnegativity constraints in numerical analysis |conference=Symposium on the Birth of Numerical Analysis |date=2009 |citeseerx = 10.1.1.157.9203}}&lt;/ref&gt; and in [[SciPy]] as {{mono|optimize.nnls}}.&lt;ref&gt;{{cite web |url=http://docs.scipy.org/doc/scipy/reference/generated/scipy.optimize.nnls.html |title=scipy.optimize.nnls |website=SciPy v0.13.0 Reference Guide |accessdate=25 January 2014}}&lt;/ref&gt;
+&lt;!-- TODO cite the R package nnls as well --&gt;
+
+Many improved algorithms have been suggested since 1974.{{r|chen}} Fast NNLS (FNNLS) is an optimized version of the Lawson—Hanson algorithm.{{r|bro}} Other algorithms include variants of [[Landweber iteration|Landweber]]'s [[gradient descent]] method&lt;ref&gt;{{Cite journal | doi = 10.1016/j.mcm.2005.12.010| title = The application of an oblique-projected Landweber method to a model of supervised learning| journal = Mathematical and Computer Modelling| volume = 43| issue = 7–8| pages = 892| year = 2006| last1 = Johansson | first1 = B. R. | last2 = Elfving | first2 = T. | last3 = Kozlov | first3 = V. | last4 = Censor | first4 = Y. | last5 = Forssén | first5 = P. E. | last6 = Granlund | first6 = G. S. | doi-access = free }}&lt;/ref&gt; and [[coordinate descent|coordinate-wise optimization]] based on the quadratic programming problem above.{{r|sca}}
+
+==See also==
+* [[M-matrix]]
+* [[Perron–Frobenius theorem]]
+
+==References==
+{{reflist|30em}}
+
+[[Category:Least squares]]</text>
+      <sha1>jjh493ekurjhy8bm2i8ztqk8rdkpeqo</sha1>
+    </revision>
+  </page>
+</mediawiki>

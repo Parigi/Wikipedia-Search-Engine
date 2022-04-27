@@ -1,0 +1,272 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.10/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.10/ http://www.mediawiki.org/xml/export-0.10.xsd" version="0.10" xml:lang="en">
+  <siteinfo>
+    <sitename>Wikipedia</sitename>
+    <dbname>enwiki</dbname>
+    <base>https://en.wikipedia.org/wiki/Main_Page</base>
+    <generator>MediaWiki 1.35.0-wmf.36</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Media</namespace>
+      <namespace key="-1" case="first-letter">Special</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Talk</namespace>
+      <namespace key="2" case="first-letter">User</namespace>
+      <namespace key="3" case="first-letter">User talk</namespace>
+      <namespace key="4" case="first-letter">Wikipedia</namespace>
+      <namespace key="5" case="first-letter">Wikipedia talk</namespace>
+      <namespace key="6" case="first-letter">File</namespace>
+      <namespace key="7" case="first-letter">File talk</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki talk</namespace>
+      <namespace key="10" case="first-letter">Template</namespace>
+      <namespace key="11" case="first-letter">Template talk</namespace>
+      <namespace key="12" case="first-letter">Help</namespace>
+      <namespace key="13" case="first-letter">Help talk</namespace>
+      <namespace key="14" case="first-letter">Category</namespace>
+      <namespace key="15" case="first-letter">Category talk</namespace>
+      <namespace key="100" case="first-letter">Portal</namespace>
+      <namespace key="101" case="first-letter">Portal talk</namespace>
+      <namespace key="108" case="first-letter">Book</namespace>
+      <namespace key="109" case="first-letter">Book talk</namespace>
+      <namespace key="118" case="first-letter">Draft</namespace>
+      <namespace key="119" case="first-letter">Draft talk</namespace>
+      <namespace key="446" case="first-letter">Education Program</namespace>
+      <namespace key="447" case="first-letter">Education Program talk</namespace>
+      <namespace key="710" case="first-letter">TimedText</namespace>
+      <namespace key="711" case="first-letter">TimedText talk</namespace>
+      <namespace key="828" case="first-letter">Module</namespace>
+      <namespace key="829" case="first-letter">Module talk</namespace>
+      <namespace key="2300" case="first-letter">Gadget</namespace>
+      <namespace key="2301" case="first-letter">Gadget talk</namespace>
+      <namespace key="2302" case="case-sensitive">Gadget definition</namespace>
+      <namespace key="2303" case="case-sensitive">Gadget definition talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>P-value</title>
+    <ns>0</ns>
+    <id>554994</id>
+    <revision>
+      <id>962703018</id>
+      <parentid>962604211</parentid>
+      <timestamp>2020-06-15T15:21:13Z</timestamp>
+      <contributor>
+        <username>Bender235</username>
+        <id>88026</id>
+      </contributor>
+      <minor/>
+      <comment>/* top */ consistently italicized</comment>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="44068" xml:space="preserve">{{DISPLAYTITLE:''p''-value}}
+{{distinguish|text=the [[P-factor]]}}
+{{short description|Function of the observed sample results}}
+In [[statistical hypothesis testing]], the '''''p''-value'''{{NoteTag|1=Italicisation, capitalisation and hyphenation of the term varies. For example, [[AMA style]] uses "''P'' value", [[APA style]] uses "''p'' value", and the [[American Statistical Association]] uses "''p''-value".&lt;ref&gt;http://magazine.amstat.org/wp-content/uploads/STATTKadmin/style%5B1%5D.pdf&lt;/ref&gt;}} or '''probability value''' is the probability of obtaining test results at least as extreme as the [[Realization (probability)|results actually observed]], assuming that the [[null hypothesis]] is correct.&lt;ref&gt;{{cite web | last = Aschwanden | first = Christie | title = Not Even Scientists Can Easily Explain P-values | url = https://fivethirtyeight.com/features/not-even-scientists-can-easily-explain-p-values/ | website = FiveThirtyEight | access-date = 11 October 2019 | archive-url = https://web.archive.org/web/20190925221600/https://fivethirtyeight.com/features/not-even-scientists-can-easily-explain-p-values/ | archive-date = 25 September 2019 | date = 2015-11-24 }}&lt;/ref&gt;&lt;ref name="ASA"&gt;{{cite journal |last1 = Wasserstein |first1 = Ronald L. |last2 = Lazar |first2 = Nicole A. |date= 7 March 2016 |title = The ASA's Statement on p-Values: Context, Process, and Purpose |journal= The American Statistician |volume = 70 |issue = 2 |pages = 129–133 |doi= 10.1080/00031305.2016.1154108 |url = http://revistas.ucm.es/index.php/TEKN/article/view/57194 |doi-access = free }}&lt;/ref&gt; In other words, a small ''p''-value means that the observed [[Outcome (probability)|outcome]] is possible but not very likely under the null hypothesis. Reporting ''p''-values of statistical tests is common practice in [[academic publishing|academic publications]] of many quantitative fields, while the [[misuse of p-values|misuse of ''p''-values]] is a controversial topic in [[metascience]].&lt;ref&gt;{{Cite web|url=https://matloff.wordpress.com/2016/03/07/after-150-years-the-asa-says-no-to-p-values/|title=After 150 Years, the ASA Says No to p-values|last=matloff|date=2016-03-07|website=Mad (Data) Scientist|language=en|access-date=2020-03-04}}&lt;/ref&gt;&lt;ref&gt;{{cite journal |display-authors=1 |last1=Ioannidis |first1=John P. A. |last2=Ware |first2=Jennifer J. |last3=Wagenmakers |first3=Eric-Jan |last4=Simonsohn |first4=Uri |last5=Chambers |first5=Christopher D. |last6=Button |first6=Katherine S. |last7=Bishop |first7=Dorothy V. M. |last8=Nosek |first8=Brian A. |last9=Munafò |first9=Marcus R. |s2cid=6326747 |title=A manifesto for reproducible science |journal=Nature Human Behaviour |volume=1 |pages=0021 |language=en |doi=10.1038/s41562-016-0021 |date=January 2017|url=https://pure.uva.nl/ws/files/25988092/A_manifesto.pdf }}&lt;/ref&gt;
+
+== Basic concepts ==
+In statistics, every conjecture concerning the unknown distribution &lt;math&gt;F&lt;/math&gt; of a random variable &lt;math&gt;X&lt;/math&gt; is called a ''statistical hypothesis''. If we state one hypothesis only and the aim of the statistical test is to verify whether this hypothesis is not false, but not, at the same time, to investigate other hypotheses, then such a test is called a ''significance test''. A statistical hypothesis that refers only to the numerical values of unknown parameters of a distribution is called a ''parametric hypothesis''. Methods of verifying statistical hypotheses are called ''statistical tests''. Tests of parametric hypotheses are called ''parametric tests''.&lt;ref name="Fisz"&gt;{{cite book |last= Fisz |first= Marek |title = Probability theory and mathematical statistics |url= https://archive.org/details/probabilitytheor00fisz_909 |url-access= limited |edition = 3 |chapter = Significance Testing |page = [https://archive.org/details/probabilitytheor00fisz_909/page/n440 425] |publisher= John Wiley and Sons, Inc. |year = 1963 | location = New York }}&lt;/ref&gt; We can likewise also have ''non-parametric hypotheses'' and ''non-parametric tests''. 
+
+The ''p''-value is used in the context of [[null hypothesis]] testing in order to quantify the idea of [[statistical significance]] of evidence.{{NoteTag|The statistical significance of a result does not imply that the result is scientifically significant as well.{{what|reason=Please clarify what "scientifically significant" means for a layman.|date=March 2020}}}} Null hypothesis testing is a [[reductio ad absurdum]] argument adapted to statistics. In essence, a claim is assumed valid if its counterclaim is improbable.
+
+Thus, the only hypothesis that needs to be specified in this test and which embodies the counterclaim is referred to as the [[null hypothesis]] (that is, the hypothesis to be nullified). A result is said to be ''statistically significant'' if it allows us to reject the null hypothesis. That is, as per the reductio ad absurdum reasoning, the statistically significant result should be highly improbable if the null hypothesis is assumed to be true. The rejection of the null hypothesis implies that the correct hypothesis lies in the logical complement of the null hypothesis. However, unless there is a single alternative to the null hypothesis, the rejection of null hypothesis does not tell us which of the alternatives might be the correct one.
+
+As a general example, if a null hypothesis states that a certain summary statistic follows the standard [[normal distribution]] N(0,1), then the rejection of this null hypothesis can either mean (i) the mean is not 0, or (ii) the [[variance]] is not 1, or (iii) the distribution is not normal, depending on the type of test performed. However, supposing we manage to reject the zero mean hypothesis, even if we know the distribution is normal and variance is 1, the null hypothesis test does not tell us which non-zero value we should adopt as the new mean.
+
+If &lt;math&gt;X&lt;/math&gt; is a [[random variable]] representing the observed data and &lt;math&gt;H&lt;/math&gt; is the statistical hypothesis under consideration, then the notion of statistical significance can be naively quantified by the [[conditional probability]] &lt;math&gt;\Pr(X|H)&lt;/math&gt;, which gives the likelihood of a certain observation event ''X'' if the hypothesis is ''assumed'' to be correct. However, if &lt;math&gt;X&lt;/math&gt; is a continuous random variable, the probability of observing a specific instance &lt;math&gt;x&lt;/math&gt; is zero, that is, &lt;math&gt;\Pr(X=x|H)=0.&lt;/math&gt; Thus, this naive definition is inadequate and needs to be changed so as to accommodate the continuous random variables.
+
+Nonetheless, it helps to clarify that ''p''-values should '''not''' be confused with probability on hypothesis (as is done in [[Bayes factor|Bayesian hypothesis testing]]) such as &lt;math&gt;\Pr(H|X),&lt;/math&gt; the probability of the hypothesis given the data, or &lt;math&gt;\Pr(H),&lt;/math&gt; the probability of the hypothesis being true, given &lt;math&gt;\Pr(X),&lt;/math&gt; the probability of observing the given data.
+
+== Definition and interpretation ==
+=== General ===
+[[File:P-value in statistical significance testing.svg|thumb|right|400 px|Example of a ''p''-value computation. The vertical coordinate is the [[probability density function|probability density]] of each outcome, computed under the null hypothesis. The ''p''-value is the area under the curve past the observed data point.]]
+
+The ''p''-value is defined as the probability, under the [[null hypothesis]] &lt;math&gt;H&lt;/math&gt; (at times denoted &lt;math&gt;H_0&lt;/math&gt; as opposed to &lt;math&gt;H_\mathrm{a}&lt;/math&gt; denoting the alternative hypothesis) about the unknown distribution &lt;math&gt;F&lt;/math&gt; of the random variable &lt;math&gt;X&lt;/math&gt;, for the variate to be observed as a value equal to or more extreme than the value observed. If &lt;math&gt;x&lt;/math&gt; is the observed value, then depending on how we interpret it, the "equal to or more extreme than what was actually observed" can mean &lt;math&gt;\{ X \geq x \}&lt;/math&gt; (right-tail event), &lt;math&gt;\{ X \leq x \}&lt;/math&gt; (left-tail event) or the event giving the smallest probability among &lt;math&gt;\{ X \leq x\}&lt;/math&gt; and &lt;math&gt;\{ X \geq x \}&lt;/math&gt; (double-tailed event). Thus, the ''p''-value is given by
+* &lt;math&gt;\Pr(X \geq x |H)&lt;/math&gt; for right tail event,
+* &lt;math&gt;\Pr(X \leq x |H)&lt;/math&gt; for left tail event,
+* &lt;math&gt;2\min\{\Pr(X \leq x |H),\Pr(X \geq x |H)\}&lt;/math&gt; for double tail event.
+
+The smaller the ''p''-value, the higher the statistical significance because it tells the investigator that the hypothesis under consideration may not adequately explain the observation. The null hypothesis &lt;math&gt;H&lt;/math&gt; is rejected if any of these probabilities is less than or equal to a small, fixed but arbitrarily pre-defined threshold value &lt;math&gt;\alpha&lt;/math&gt;, which is referred to as the [[statistical significance|level of significance]]. Unlike the ''p''-value, the &lt;math&gt;\alpha&lt;/math&gt; level is not derived from any observational data and does not depend on the underlying hypothesis; the value of &lt;math&gt;\alpha&lt;/math&gt; is instead set by the researcher before examining the data. The setting of &lt;math&gt;\alpha&lt;/math&gt; is arbitrary. By convention, &lt;math&gt;\alpha&lt;/math&gt; is commonly set to 0.05, 0.01, 0.005, or 0.001.
+
+Because the value of &lt;math&gt;x&lt;/math&gt; that defines the left tail or right tail event is a random variable, this makes the ''p''-value a function of &lt;math&gt;x&lt;/math&gt; and a [[random variable]] in itself; under the null hypothesis, the ''p''-value is defined uniformly over &lt;math&gt;[0,1]&lt;/math&gt; interval, assuming &lt;math&gt;x&lt;/math&gt; is continuous. Thus, the ''p''-value is not fixed. This implies that ''p''-value cannot be given a frequency counting interpretation since the probability has to be fixed for the frequency counting interpretation to hold. In other words, if the same test is repeated independently bearing upon the same overall null hypothesis, it will yield different ''p''-values at every repetition. Nevertheless, these different ''p''-values can be combined, for instance using [[Fisher's combined probability test]]. It should further be noted that an ''instantiation'' of this random ''p''-value can still be given a frequency counting interpretation with respect to the number of observations taken during a given test, as per the definition, as the percentage of observations more extreme than the one observed under the assumption that the null hypothesis is true.
+
+=== Distribution ===
+When the null hypothesis is true, if it takes the form &lt;math&gt; H_0: \theta = \theta_0&lt;/math&gt;, and the underlying random variable is continuous, then the [[probability distribution]] of the ''p''-value is [[Uniform distribution (continuous)|uniform]] on the interval [0,1]. By contrast, if the alternative hypothesis is true, the distribution is dependent on sample size and the true value of the parameter being studied.&lt;ref name="Bhattacharya2002"&gt;{{cite journal |last1 = Bhattacharya |first1 = Bhaskar |last2 = Habtzghi |first2 = DeSale |s2cid = 33812107 |year = 2002 |title = Median of the p value under the alternative hypothesis |journal = The American Statistician |volume = 56 |issue = 3 |pages = 202–6 |doi = 10.1198/000313002146 }}&lt;/ref&gt;&lt;ref name="Hung1997"&gt;{{cite journal |last1=Hung |first1=H.M.J. |last2=O'Neill |first2=R.T. |last3=Bauer | first3 =P. |last4=Kohne | first4 =K.|date=1997|title=The behavior of the p-value when the alternative hypothesis is true |jstor=2533093 |journal=Biometrics |volume=53 |issue=1 |pages=11–22 |doi=10.2307/2533093 |pmid=9147587 |url=https://zenodo.org/record/1235121 |type=Submitted manuscript }}&lt;/ref&gt;
+
+The distribution of ''p''-values for a group of studies is sometimes called a ''p''-curve.&lt;ref name="Head2015"&gt;{{cite journal|vauthors=Head ML, Holman L, Lanfear R, Kahn AT, Jennions MD | title=The extent and consequences of p-hacking in science. | journal=PLOS Biol | year= 2015 | volume= 13 | issue= 3 | pages= e1002106 | pmid=25768323 | doi=10.1371/journal.pbio.1002106 | pmc=4359000 }}&lt;/ref&gt; The curve is affected by four factors: the proportion of studies that examined false null hypotheses, the [[Statistical power|power]] of the studies that investigated false null hypotheses, the alpha levels, and [[publication bias]].&lt;ref name="Lakens2012"&gt;{{cite journal| author=Lakens D| title=What p-hacking really looks like: a comment on Masicampo and LaLande (2012). | journal=Q J Exp Psychol (Hove) | year= 2015 | volume= 68 | issue= 4 | pages= 829–32 | doi=10.1080/17470218.2014.982664 | pmc= | pmid=25484109  | url=https://zenodo.org/record/235811 }}&lt;/ref&gt; A ''p''-curve can be used to assess the scientific literature, such as by detecting publication bias or [[p-hacking|''p''-hacking]].&lt;ref name="Head2015"/&gt;&lt;ref name="Simonsohn2014"&gt;{{cite journal|vauthors=Simonsohn U, Nelson LD, Simmons JP | s2cid=39975518 | title=p-Curve and Effect Size: Correcting for Publication Bias Using Only Significant Results. | journal=Perspect Psychol Sci | year= 2014 | volume= 9 | issue= 6 | pages= 666–81 | doi=10.1177/1745691614553988 | pmc= | pmid=26186117  }}&lt;/ref&gt;
+
+===For composite hypothesis===
+
+{{Expand section|date=August 2019}}
+
+In parametric hypothesis testing problems, a ''simple or point hypothesis'' refers to a hypothesis where the parameter's value is assumed to be a single number. In contrast, in a ''composite hypothesis'' the parameter's value is given by a set of numbers. While the above definition is satisfactory for a simple hypothesis, we need to be more cautious when dealing with compound hypotheses. For example, when testing the null hypothesis that a distribution is normal with a mean less than or equal to zero against the alternative that the mean is greater than zero (variance known), the null hypothesis does not specify the probability distribution of the appropriate test statistic. In the just mentioned example that would be the ''Z''-statistic belonging to the one-sided one-sample ''Z''-test. For each possible value of the theoretical mean, the ''Z''-test statistic has a different probability distribution. In these circumstances (the case of a so-called composite null hypothesis) the ''p''-value is defined by taking the least favourable null-hypothesis case, which is typically on the border between null and alternative.
+
+=== Misconceptions ===
+{{Main|Misuse of p-values}}
+According to the ASA, there is widespread agreement that ''p''-values are often [[Misunderstandings of p-values|misused and misinterpreted]].&lt;ref name="ASA" /&gt; One practice that has been particularly criticized is accepting the alternative hypothesis for any ''p''-value nominally less than .05 without other supporting evidence. Although ''p''-values are helpful in assessing how incompatible the data are with a specified statistical model, contextual factors must also be considered, such as "the design of a study, the quality of the measurements, the external evidence for the phenomenon under study, and the validity of assumptions that underlie the data analysis".&lt;ref name="ASA" /&gt; Another concern is that the ''p''-value is often misunderstood as being the probability that the null hypothesis is true.&lt;ref name="ASA" /&gt;&lt;ref&gt;{{cite journal |last1=Colquhoun |first1=David |title = An investigation of the false discovery rate and the misinterpretation of p-values |journal = Royal Society Open Science |year=2014 |doi = 10.1098/rsos.140216 |pmid=26064558 |pmc=4448847 |volume=1 |issue=3 |page = 140216 |bibcode=2014RSOS....140216C |arxiv=1407.5296 }}&lt;/ref&gt; Some statisticians have proposed replacing ''p''-values with alternative measures of evidence,&lt;ref name="ASA" /&gt; such as [[confidence intervals]],&lt;ref&gt;{{cite journal |last1=Lee |first1=Dong Kyu |title = Alternatives to P value: confidence interval and effect size |journal=Korean Journal of Anesthesiology |date = 7 March 2017 |volume=69 |issue=6 |pages=555–562 |doi = 10.4097/kjae.2016.69.6.555 |issn = 2005-6419 |pmc=5133225 |pmid=27924194 }}&lt;/ref&gt;&lt;ref&gt;{{cite journal |last1 = Ranstam |first1 = J. |title = Why the P-value culture is bad and confidence intervals a better alternative |journal = Osteoarthritis and Cartilage |date=August 2012 |volume=20 |issue=8 |pages=805–808 |doi=10.1016/j.joca.2012.04.001 |pmid=22503814 |url =https://lup.lub.lu.se/search/ws/files/1863714/2540644.pdf  }}&lt;/ref&gt; [[Likelihood principle#The law of likelihood|likelihood ratios]],&lt;ref&gt;{{cite journal |last1=Perneger |first1=Thomas V. |title = Sifting the evidence: Likelihood ratios are alternatives to P values |journal = BMJ: British Medical Journal |date=12 May 2001 |volume=322 |issue=7295 |pages=1184–5 |issn=0959-8138 |pmc=1120301 |pmid=11379590 |doi=10.1136/bmj.322.7295.1184}}&lt;/ref&gt;&lt;ref&gt;{{cite book |last1=Royall |first1=Richard |chapter=The Likelihood Paradigm for Statistical Evidence |title = The Nature of Scientific Evidence |pages=119–152 |doi = 10.7208/chicago/9780226789583.003.0005 |language=en |year=2004 |isbn= 9780226789576 }}&lt;/ref&gt; or [[Bayes factors]],&lt;ref&gt;{{cite web |last1=Schimmack |first1=Ulrich |title=Replacing p-values with Bayes-Factors: A Miracle Cure for the Replicability Crisis in Psychological Science |url = https://replicationindex.wordpress.com/2015/04/30/replacing-p-values-with-bayes-factors-a-miracle-cure-for-the-replicability-crisis-in-psychological-science/ |website=Replicability-Index |accessdate=7 March 2017 |date=30 April 2015 }}&lt;/ref&gt;&lt;ref&gt;{{cite journal |last1=Marden |first1=John I. |title = Hypothesis Testing: From p Values to Bayes Factors |journal = Journal of the American Statistical Association |date=December 2000 |volume=95|issue=452 |pages=1316–1320 |doi = 10.2307/2669779 |jstor=2669779 }}&lt;/ref&gt;&lt;ref&gt;{{cite journal |last1=Stern |first1 = Hal S. |title = A Test by Any Other Name: Values, Bayes Factors, and Statistical Inference |journal=Multivariate Behavioral Research|date=16 February 2016 |volume=51|issue=1 |pages=23–29|doi=10.1080/00273171.2015.1099032 |pmc=4809350 |pmid=26881954 }}&lt;/ref&gt; but there is heated debate on the feasibility of these alternatives.&lt;ref&gt;{{cite journal |last1=Murtaugh |first1=Paul A. |title=In defense of p-values |journal=Ecology |date=March 2014 |volume=95 |issue=3 |pages=611–617 |doi = 10.1890/13-0590.1 |pmid=24804441 |url = https://zenodo.org/record/894459 }}&lt;/ref&gt;&lt;ref&gt;{{cite web |url = https://fivethirtyeight.com/features/statisticians-found-one-thing-they-can-agree-on-its-time-to-stop-misusing-p-values/ |title = Statisticians Found One Thing They Can Agree On: It's Time To Stop Misusing P-Values
+|first=Christie |last=Aschwanden |website=FiveThirtyEight |date=Mar 7, 2016 }}&lt;/ref&gt; Others have suggested to remove fixed significance thresholds and to interpret ''p''-values as continuous indices of the strength of evidence against the null hypothesis.&lt;ref&gt;{{cite journal |last1=Amrhein |first1=Valentin |last2=Korner-Nievergelt |first2=Fränzi |last3=Roth |first3=Tobias |title = The earth is flat (p &gt; 0.05): significance thresholds and the crisis of unreplicable research |journal=PeerJ |year=2017 |volume=5 |page = e3544 |doi = 10.7717/peerj.3544 |pmid=28698825|pmc=5502092 |author1-link=Valentin Amrhein }}&lt;/ref&gt;&lt;ref&gt;{{cite journal |last1=Amrhein |first1=Valentin |last2=Greenland |first2=Sander |s2cid=46814177 |title = Remove, rather than redefine, statistical significance |journal = Nature Human Behaviour |year = 2017 |volume=2 |issue=1 |page=0224 |doi = 10.1038/s41562-017-0224-0 |pmid=30980046 |author1-link=Valentin Amrhein }}&lt;/ref&gt; Yet others suggested to report alongside p-values the prior probability of a real effect that would be required to obtain a false positive risk (i.e. the probability that there is no real effect) below a pre-specified threshold (e.g. 5%).&lt;ref&gt;{{cite journal |vauthors = Colquhoun D |title = p-values |journal = Royal Society Open Science |volume = 4 |issue = 12 |pages = 171085 |date = December 2017 |pmid = 29308247 |pmc = 5750014 | doi = 10.1098/rsos.171085 }}&lt;/ref&gt;
+
+== Usage ==
+The ''p''-value is widely used in [[statistical hypothesis testing]], specifically in [[null hypothesis significance testing]]. In this method, as part of [[experimental design]], before performing the experiment, one first chooses a model (the [[null hypothesis]]) and a threshold value for ''p'', called the [[significance level]] of the test, traditionally 5% or 1%&lt;ref name="nature506"&gt;{{Cite journal | doi = 10.1038/506150a| pmid = 24522584| title = Scientific method: Statistical errors| journal = Nature| volume = 506| issue = 7487| pages = 150–152| year = 2014| last1 = Nuzzo | first1 = R. | bibcode = 2014Natur.506..150N| doi-access = free}}&lt;/ref&gt; and denoted as ''α''. If the ''p''-value is less than the chosen significance level (''α''), that suggests that the observed data is sufficiently inconsistent with the [[null hypothesis]] and that the null hypothesis may be rejected. However, that does not prove that the tested hypothesis is true. When the ''p''-value is calculated correctly, this test guarantees that the [[type I error rate]] is at most ''α''{{Explain|date=May 2018}}{{Citation needed|date=May 2018}}. For typical analysis, using the standard ''α''&amp;nbsp;=&amp;nbsp;0.05 cutoff, the null hypothesis is rejected when ''p'' &lt; .05 and not rejected when ''p'' &gt; .05. The ''p''-value does not, in itself, support reasoning about the probabilities of hypotheses but is only a tool for deciding whether to reject the null hypothesis.
+
+== Calculation ==
+Usually, &lt;math&gt;X&lt;/math&gt; is a [[test statistic]], rather than any of the actual observations. A test statistic is the output of a [[scalar (mathematics)|scalar]] function of all the observations. This statistic provides a single number, such as the average or the [[correlation coefficient]], that summarizes the characteristics of the data, in a way relevant to a particular inquiry. As such, the test statistic follows a distribution determined by the function used to define that test statistic and the distribution of the input observational data.
+
+For the important case in which the data are hypothesized to follow the normal distribution, depending on the nature of the test statistic and thus the underlying hypothesis of the test statistic, different null hypothesis tests have been developed. Some such tests are [[z-test]] for [[normal distribution]], [[t-test]] for [[Student's t-distribution]], [[f-test]] for [[f-distribution]]. When the data do not follow a normal distribution, it can still be possible to approximate the distribution of these test statistics by a normal distribution by invoking the [[central limit theorem]] for large samples, as in the case of [[Pearson's chi-squared test]].
+
+Thus computing a ''p''-value requires a null hypothesis, a test statistic (together with deciding whether the researcher is performing a [[one-tailed test]] or a [[two-tailed test]]), and data. Even though computing the test statistic on given data may be easy, computing the sampling distribution under the null hypothesis, and then computing its [[cumulative distribution function]] (CDF) is often a difficult problem. Today, this computation is done using statistical software, often via numeric methods (rather than exact formulae), but, in the early and mid 20th century, this was instead done via tables of values, and one interpolated or extrapolated ''p''-values from these discrete values{{citation needed|date=March 2018}}. Rather than using a table of ''p''-values, Fisher instead inverted the CDF, publishing a list of values of the test statistic for given fixed ''p''-values; this corresponds to computing the [[quantile function]] (inverse CDF).
+
+==Examples==
+
+===Coin flipping===
+{{Main|Checking whether a coin is fair}}
+
+As an example of a statistical test, an experiment is performed to determine whether a [[coin flipping|coin flip]] is [[fair coin|fair]] (equal chance of landing heads or tails) or unfairly biased (one outcome being more likely than the other).
+
+Suppose that the experimental results show the coin turning up heads 14 times out of 20 total flips. The null hypothesis is that the coin is fair, and the test statistic is the number of heads. If a right-tailed test is considered, the ''p''-value of this result is the chance of a fair coin landing on heads ''at least'' 14 times out of 20 flips. That probability can be computed from [[binomial coefficient]]s as
+
+: &lt;math&gt;
+\begin{align}
+&amp; \operatorname{Prob}(14\text{ heads}) + \operatorname{Prob}(15\text{ heads}) +  \cdots + \operatorname{Prob}(20\text{ heads}) \\
+&amp; = \frac{1}{2^{20}} \left[ \binom{20}{14} + \binom{20}{15} + \cdots + \binom{20}{20} \right] = \frac{60,\!460}{1,\!048,\!576} \approx 0.058
+\end{align}
+&lt;/math&gt;
+
+This probability is the ''p''-value, considering only extreme results that favor heads. This is called a [[One- and two-tailed tests|one-tailed test]]. However, the deviation can be in either direction, favoring either heads or tails. The two-tailed ''p''-value, which considers deviations favoring either heads or tails, may instead be calculated. As the [[binomial distribution]] is symmetrical for a fair coin, the two-sided ''p''-value is simply twice the above calculated single-sided ''p''-value: the two-sided ''p''-value is 0.115.
+
+In the above example:
+* Null hypothesis (H&lt;sub&gt;0&lt;/sub&gt;): The coin is fair, with Prob(heads) = 0.5
+* Test statistic: Number of heads
+* Alpha level (designated threshold of significance): 0.05
+* Observation O: 14 heads out of 20 flips; and
+* Two-tailed ''p''-value of observation O given H&lt;sub&gt;0&lt;/sub&gt; = 2*min(Prob(no. of heads ≥&amp;nbsp;14&amp;nbsp;heads), Prob(no. of heads ≤&amp;nbsp;14&amp;nbsp;heads))= 2*min(0.058, 0.978) = 2*0.058 = 0.115.&lt;!-- Note we've summed the exact values not the rounded values.  Correct value = 0.1153183... --&gt;
+
+Note that the Prob (no. of heads ≤&amp;nbsp;14&amp;nbsp;heads) = 1 - Prob(no. of heads ≥&amp;nbsp;14&amp;nbsp;heads) + Prob (no. of head = 14) = 1 - 0.058 + 0.036 = 0.978; however, symmetry of the binomial distribution makes it an unnecessary computation to find the smaller of the two probabilities. Here, the calculated ''p''-value exceeds .05, meaning that the data falls within the range of what would happen 95% of the time were the coin in fact fair. Hence, the null hypothesis is not rejected at the .05 level.
+
+However, had one more head been obtained, the resulting ''p''-value (two-tailed) would have been&amp;nbsp;0.0414&amp;nbsp;(4.14%), in which case the null hypothesis would be rejected at the .05 level.
+
+==History==
+[[File:Arbuthnot John Kneller.jpg|thumb|upright|200px|alt=Chest high painted portrait of man wearing a brown robe and head covering|[[John Arbuthnot]]]]
+[[File:Pierre-Simon-Laplace (1749-1827).jpg|thumb|upright|200px|[[Pierre-Simon Laplace]]]]
+[[File:Journalofheredit07ameruoft 0448.jpg|thumb|200px|alt=Man seated at his desk looking up at the camera|[[Karl Pearson]]]]
+[[File:Youngronaldfisher2.JPG|thumb|upright|200px|alt=Sepia toned photo of young man wearing a suit, a medal, and wire-rimmed eyeglasses|[[Ronald Fisher]] ]]
+
+Computations of ''p''-values date back to the 1700s, where they were computed for the [[human sex ratio]] at birth, and used to compute statistical significance compared to the null hypothesis of equal probability of male and female births.&lt;ref&gt;{{cite book |title=The Descent of Human Sex Ratio at Birth |url=https://archive.org/details/descenthumansexr00bria |url-access=limited |first1=Éric |last1=Brian |first2=Marie |last2=Jaisson |chapter=Physico-Theology and Mathematics (1710–1794) |pages=[https://archive.org/details/descenthumansexr00bria/page/n17 1]–25 |year=2007 |publisher=Springer Science &amp;amp; Business Media |isbn=978-1-4020-6036-6}}&lt;/ref&gt; [[John Arbuthnot]] studied this question in 1710,&lt;ref&gt;{{cite journal|author=John Arbuthnot |s2cid=186209819|title=An argument for Divine Providence, taken from the constant regularity observed in the births of both sexes|journal=[[Philosophical Transactions of the Royal Society of London]] | volume=27| pages=186–190 | year=1710 | url = http://www.york.ac.uk/depts/maths/histstat/arbuthnot.pdf|doi=10.1098/rstl.1710.0011|issue=325–336}}&lt;/ref&gt;&lt;ref name="Conover1999"&gt;{{Citation
+|last=Conover
+|first=W.J.
+|title=Practical Nonparametric Statistics
+|edition=Third
+|year=1999
+|publisher=Wiley
+|isbn=978-0-471-16068-7
+|pages=157–176
+|chapter=Chapter 3.4: The Sign Test
+}}&lt;/ref&gt;&lt;ref name="Sprent1989"&gt;{{Citation
+|last=Sprent
+|first=P.
+|title=Applied Nonparametric Statistical Methods
+|edition=Second
+|year=1989
+|publisher=Chapman &amp; Hall
+|isbn=978-0-412-44980-2
+}}&lt;/ref&gt;&lt;ref&gt;{{cite book |title = The History of Statistics: The Measurement of Uncertainty Before 1900 |first=Stephen M. |last=Stigler |publisher=Harvard University Press |year=1986 |isbn=978-0-67440341-3 |pages=[https://archive.org/details/historyofstatist00stig/page/225 225–226]}}&lt;/ref&gt; and examined birth records in London for each of the 82 years from 1629 to 1710. In every year, the number of males born in London exceeded the number of females. Considering more male or more female births as equally likely, the probability of the observed outcome is 0.5&lt;sup&gt;82&lt;/sup&gt;, or about 1 in 4,836,000,000,000,000,000,000,000; in modern terms, the ''p''-value. This is vanishingly small, leading Arbuthnot that this was not due to chance, but to divine providence: "From whence it follows, that it is Art, not Chance, that governs." In modern terms, he rejected the null hypothesis of equally likely male and female births at the ''p''&amp;nbsp;=&amp;nbsp;1/2&lt;sup&gt;82&lt;/sup&gt; significance level. This and other work by Arbuthnot is credited as "… the first use of significance tests …"&lt;ref name="Bellhouse2001"&gt;{{Citation
+|last=Bellhouse
+|first=P.
+|title=in Statisticians of the Centuries by C.C. Heyde and E. Seneta
+|year=2001
+|publisher=Springer
+|isbn=978-0-387-95329-8
+|pages=39–42
+|chapter=John Arbuthnot}}
+&lt;/ref&gt; the first example of reasoning about statistical significance,&lt;ref name="Hald1998"&gt;{{Citation
+|last=Hald
+|first=Anders
+|title=A History of Mathematical Statistics from 1750 to 1930
+|year=1998
+|publisher=Wiley
+|isbn=
+|pages=65
+|chapter=Chapter 4. Chance or Design: Tests of Significance
+}}&lt;/ref&gt; and "… perhaps the first published report of a [[non-parametric test|nonparametric test]] …",&lt;ref name="Conover1999" /&gt; specifically the [[sign test]]; see details at {{section link|Sign test|History}}.
+
+The same question was later addressed by [[Pierre-Simon Laplace]], who instead used a ''parametric'' test, modeling the number of male births with a [[binomial distribution]]:{{sfn|Stigler|1986|p=134}}
+{{quotation|In the 1770s Laplace considered the statistics of almost half a million births. The statistics showed an excess of boys compared to girls. He concluded by calculation of a ''p''-value that the excess was a real, but unexplained, effect.}}
+
+The ''p''-value was first formally introduced by [[Karl Pearson]], in his [[Pearson's chi-squared test]],{{sfn|Pearson|1900}} using the [[chi-squared distribution]] and notated as capital P.{{sfn|Pearson|1900}} The ''p''-values for the [[chi-squared distribution]] (for various values of ''χ''&lt;sup&gt;2&lt;/sup&gt; and degrees of freedom), now notated as ''P,'' was calculated in {{Harv|Elderton|1902}}, collected in {{Harv|Pearson|1914|pp=xxxi–xxxiii, 26–28|loc=Table XII}}.
+
+The use of the ''p''-value in statistics was popularized by [[Ronald Fisher]],{{sfn|Inman|2004}} and it plays a central role in his approach to the subject.{{sfn|Hubbard|Bayarri|2003|p=1}} In his influential book ''[[Statistical Methods for Research Workers]]'' (1925), Fisher proposed the level ''p'' = 0.05, or a 1 in 20 chance of being exceeded by chance, as a limit for [[statistical significance]], and applied this to a normal distribution (as a two-tailed test), thus yielding the rule of two standard deviations (on a normal distribution) for statistical significance (see [[68–95–99.7 rule]]).{{sfn|Fisher|1925|p=47|loc=Chapter [http://psychclassics.yorku.ca/Fisher/Methods/chap3.htm III. Distributions]}}{{NoteTag| 1 = To be precise the ''p'' = 0.05 corresponds to about 1.96 standard deviations for a normal distribution (two-tailed test), and 2 standard deviations corresponds to about a 1 in 22 chance of being exceeded by chance, or ''p'' ≈ 0.045; Fisher notes these approximations.}}{{sfn|Dallal|2012|loc=Note 31: [http://www.jerrydallal.com/LHSP/p05.htm Why P=0.05?]}}
+
+He then computed a table of values, similar to Elderton but, importantly, reversed the roles of ''χ''&lt;sup&gt;2&lt;/sup&gt; and ''p.'' That is, rather than computing ''p'' for different values of ''χ''&lt;sup&gt;2&lt;/sup&gt; (and degrees of freedom ''n''), he computed values of ''χ''&lt;sup&gt;2&lt;/sup&gt; that yield specified ''p''-values, specifically 0.99, 0.98, 0.95, 0,90, 0.80, 0.70, 0.50, 0.30, 0.20, 0.10, 0.05, 0.02, and 0.01.{{sfn|Fisher|1925|pp=78–79, 98|loc=Chapter [http://psychclassics.yorku.ca/Fisher/Methods/chap4.htm IV. Tests of Goodness of Fit, Independence and Homogeneity; with Table of ''χ''&lt;sup&gt;2&lt;/sup&gt;], [http://psychclassics.yorku.ca/Fisher/Methods/tabIII.gif Table III. Table of ''χ''&lt;sup&gt;2&lt;/sup&gt;]}} That allowed computed values of ''χ''&lt;sup&gt;2&lt;/sup&gt; to be compared against cutoffs and encouraged the use of ''p''-values (especially 0.05, 0.02, and 0.01) as cutoffs, instead of computing and reporting ''p''-values themselves. The same type of tables were then compiled in {{Harv|Fisher|Yates|1938}}, which cemented the approach.{{sfn|Dallal|2012|loc=Note 31: [http://www.jerrydallal.com/LHSP/p05.htm Why P=0.05?]}}
+
+As an illustration of the application of ''p''-values to the design and interpretation of experiments, in his following book ''[[The Design of Experiments]]'' (1935), Fisher presented the [[lady tasting tea]] experiment,{{sfn|Fisher|1971|loc=II. The Principles of Experimentation, Illustrated by a Psycho-physical Experiment}} which is the archetypal example of the ''p''-value.
+
+To evaluate a lady's claim that she ([[Muriel Bristol]]) could distinguish by taste how tea is prepared (first adding the milk to the cup, then the tea, or first tea, then milk), she was sequentially presented with 8 cups: 4 prepared one way, 4 prepared the other, and asked to determine the preparation of each cup (knowing that there were 4 of each). In that case, the null hypothesis was that she had no special ability, the test was [[Fisher's exact test]], and the ''p''-value was &lt;math&gt;1/\binom{8}{4} = 1/70 \approx 0.014,&lt;/math&gt; so Fisher was willing to reject the null hypothesis (consider the outcome highly unlikely to be due to chance) if all were classified correctly. (In the actual experiment, Bristol correctly classified all 8 cups.)
+
+Fisher reiterated the ''p'' = 0.05 threshold and explained its rationale, stating:{{sfn|Fisher|1971|loc=Section 7. The Test of Significance}}
+{{quotation
+|It is usual and convenient for experimenters to take 5 per cent as a standard level of significance, in the sense that they are prepared to ignore all results which fail to reach this standard, and, by this means, to eliminate from further discussion the greater part of the fluctuations which chance causes have introduced into their experimental results.}}
+He also applies this threshold to the design of experiments, noting that had only 6 cups been presented (3 of each), a perfect classification would have only yielded a ''p''-value of &lt;math&gt;1/\binom{6}{3} = 1/20 = 0.05,&lt;/math&gt; which would not have met this level of significance.{{sfn|Fisher|1971|loc=Section 7. The Test of Significance}} Fisher also underlined the interpretation of ''p,'' as the long-run proportion of values at least as extreme as the data, assuming the null hypothesis is true.
+
+In later editions, Fisher explicitly contrasted the use of the ''p''-value for statistical inference in science with the Neyman–Pearson method, which he terms "Acceptance Procedures".{{sfn|Fisher|1971|loc=Section 12.1 Scientific Inference and Acceptance Procedures}} Fisher emphasizes that while fixed levels such as 5%, 2%, and 1% are convenient, the exact ''p''-value can be used, and the strength of evidence can and will be revised with further experimentation. In contrast, decision procedures require a clear-cut decision, yielding an irreversible action, and the procedure is based on costs of error, which, he argues, are inapplicable to scientific research.
+
+== Related quantities ==
+A closely related concept is the E-value,&lt;ref&gt;[https://www.ncbi.nlm.nih.gov/blast/Blast.cgi?CMD=Web&amp;PAGE_TYPE=BlastDocs&amp;DOC_TYPE=FAQ#expect National Institutes of Health definition of E-value]&lt;/ref&gt; which is the [[Conditional expectation|expected]] number of times in [[multiple comparisons|multiple testing]] that one expects to obtain a test statistic at least as extreme as the one that was actually observed if one assumes that the null hypothesis is true. The E-value is the product of the number of tests and the ''p''-value.
+
+The [[Q-value (statistics)|''q''-value]] is the analog of the ''p''-value with respect to the [[False discovery rate#Related concepts|positive false discovery rate]].&lt;ref&gt;{{Cite journal|last=Storey|first=John D|date=2003|title=The positive false discovery rate: a Bayesian interpretation and the q-value|journal=The Annals of Statistics|volume=31|issue=6|pages=2013–2035|doi=10.1214/aos/1074290335|doi-access=free}}&lt;/ref&gt; It is used in [[Multiple comparisons problem|multiple hypothesis testing]] to maintain statistical power while minimizing the [[false positive rate]].&lt;ref&gt;{{Cite journal|last1=Storey|first1=John D|last2=Tibshirani|first2=Robert|date=2003|title=Statistical significance for genomewide studies|journal=PNAS|volume=100|issue=16|pages=9440–9445|pmc=170937|pmid=12883005|doi=10.1073/pnas.1530509100|bibcode=2003PNAS..100.9440S}}&lt;/ref&gt;
+
+== See also ==
+*[[Bonferroni correction]]
+*[[Counternull]]
+*[[Fisher's method|Fisher's method of combining ''p''-values]]
+*[[Generalized p-value|Generalized ''p''-value]]
+*[[Holm–Bonferroni method]]
+*[[Multiple comparisons]]
+*[[p-rep|''p''-rep]]
+*[[p-value fallacy|''p''-value fallacy]]
+*[[Harmonic mean p-value|Harmonic mean ''p''-value]]
+
+== Notes ==
+{{NoteFoot}}
+
+== References ==
+{{Reflist}}
+
+== Further reading ==
+{{refbegin}}
+* Lydia Denworth, "A Significant Problem: Standard scientific methods are under fire. Will anything change?", ''[[Scientific American]]'', vol. 321, no. 4 (October 2019), pp. 62–67. "The use of [[p value|''p'' values]] for nearly a century [since 1925] to determine [[statistical significance]] of [[experiment|experimental]] results has contributed to an illusion of [[certainty]] and [to] [[reproducibility|reproducibility crises]] in many [[science|scientific fields]]. There is growing determination to reform statistical analysis... Some [researchers] suggest changing statistical methods, whereas others would do away with a threshold for defining "significant" results." (p. 63.)  
+* {{cite journal | last = Pearson | first = Karl | author-link = Karl Pearson | title = On the criterion that a given system of deviations from the probable in the case of a correlated system of variables is such that it can be reasonably supposed to have arisen from random sampling | doi = 10.1080/14786440009463897 | journal = Philosophical Magazine |series=Series 5 | volume = 50 | issue = 302 | pages = 157–175 | year = 1900 |url = http://www.economics.soton.ac.uk/staff/aldrich/1900.pdf | pmid =  | pmc = }}
+* {{cite journal | last = Elderton | first = William Palin | author-link = William Palin Elderton |title = Tables for Testing the Goodness of Fit of Theory to Observation |doi = 10.1093/biomet/1.2.155 |journal = Biometrika |volume = 1 |issue = 2 | pages = 155–163 | year = 1902 | pmid =  | pmc = | url = https://zenodo.org/record/1431595 }}
+* {{cite book |title = Statistical Methods for Research Workers |last=Fisher |first=Ronald |author-link = Ronald Fisher |year=1925 |publisher=Oliver &amp;amp; Boyd |location = Edinburgh, Scotland |isbn = 978-0-05-002170-5|title-link=Statistical Methods for Research Workers }}
+* {{cite book |title = The Design of Experiments |edition=9th |last=Fisher |first=Ronald A. |author-link = Ronald Fisher |origyear=1935 |year=1971 |publisher=Macmillan |isbn = 978-0-02-844690-5}}
+* {{cite book
+| last1 = Fisher |first1= R. A. |last2= Yates |first2 = F.
+| title = Statistical tables for biological, agricultural and medical research
+| year = 1938
+| location = London, England
+}}
+* {{cite book |title = The history of statistics : the measurement of uncertainty before 1900 |last = Stigler |first = Stephen M. |author-link = Stephen M. Stigler |year = 1986 |publisher = Belknap Press of Harvard University Press |location = Cambridge, Mass |isbn = 978-0-674-40340-6|url-access = registration |url = https://archive.org/details/historyofstatist00stig }}
+* {{citation |first1=Raymond |last1=Hubbard |first2=M. J. |last2=Bayarri |author2-link = M. J. Bayarri |url = http://ftp.isds.duke.edu/WorkingPapers/03-26.pdf |title = P Values are not Error Probabilities |date=November 2003 |postscript = , a working paper that explains the difference between Fisher's evidential ''p''-value and the Neyman–Pearson Type I error rate ''α''. |url-status=dead |archiveurl = https://web.archive.org/web/20130904000350/http://ftp.isds.duke.edu/WorkingPapers/03-26.pdf |archivedate=2013-09-04 }}
+* {{cite journal |last1=Hubbard |first1=Raymond |last2=Armstrong |first2=J. Scott |author2-link = J. Scott Armstrong |title = Why We Don't Really Know What Statistical Significance Means: Implications for Educators |doi = 10.1177/0273475306288399 |url=http://hops.wharton.upenn.edu/ideas/pdf/Armstrong/StatisticalSignificance.pdf |journal = Journal of Marketing Education |volume=28 |issue=2 |pages=114–120 |year=2006 |url-status=unfit |archiveurl = https://web.archive.org/web/20060518054857/http://hops.wharton.upenn.edu/ideas/pdf/Armstrong/StatisticalSignificance.pdf |archivedate=May 18, 2006 |hdl=2092/413 }}
+* {{cite journal |last1 = Hubbard |first1 = Raymond |last2 = Lindsay |first2 = R. Murray |doi = 10.1177/0959354307086923 |title = Why ''P'' Values Are Not a Useful Measure of Evidence in Statistical Significance Testing |journal = Theory &amp; Psychology |volume = 18 |issue = 1 |pages = 69–88 |year = 2008 |url = http://wiki.bio.dtu.dk/~agpe/papers/pval_notuseful.pdf &lt;!-- paper that explains the difference between Fisher's evidential [[p-value|''p''-value]] and the Neyman–Pearson [[Type I error rate]] ''α'' --&gt; |access-date = 2015-08-28 |archive-url = https://web.archive.org/web/20161021014340/http://wiki.bio.dtu.dk/~agpe/papers/pval_notuseful.pdf |archive-date = 2016-10-21 |url-status = dead }}
+* {{cite journal |last1 = Stigler | first1 = S. |author-link = Stephen Stigler |title = Fisher and the 5% level |doi = 10.1007/s00144-008-0033-3 |journal = Chance | volume = 21 | issue = 4 | page = 12 |date=December 2008 |pmid =  |pmc =|doi-access = free }}
+* {{cite book |title = The Little Handbook of Statistical Practice |first=Gerard E. |last=Dallal |year=2012 |url = http://www.tufts.edu/~gdallal/LHSP.HTM}}
+* {{cite journal |last1 = Biau  |first1 = D.J. |last2 = Jolles | first2 = B.M. | last3 = Porcher | first3 = R. |title = P value and the theory of hypothesis testing: an explanation for new researchers |doi = 10.1007/s11999-009-1164-4 |journal = Clin Orthop Relat Res |volume = 463 |issue = 3 |pages = 885–892 |date = March 2010 |pmid =  19921345 | pmc = 2816758}}
+* {{cite book |last=Reinhart |first=Alex |title=Statistics Done Wrong: The Woefully Complete Guide |publisher=[[No Starch Press]] |url = http://statisticsdonewrong.com |isbn = 978-1593276201 |page = 176 |year = 2015 }}
+{{refend}}
+
+== External links ==
+{{Commons category|P-value}}
+* [http://www.danielsoper.com/statcalc/default.aspx#c14 Free online ''p''-values calculators] for various specific tests (chi-square, Fisher's F-test, etc.).
+* [http://www.stat.duke.edu/%7Eberger/p-values.html Understanding ''p''-values], including a Java applet that illustrates how the numerical values of ''p''-values can give quite misleading impressions about the truth or falsity of the hypothesis under test.
+* {{YouTube|5Z9OIYA8He8|StatQuest: P Values, clearly explained}}
+* {{YouTube|UFhJefdVCjE|StatQuest: P-value pitfalls and power calculations}}
+
+{{-}}
+{{Statistics}}
+
+[[Category:Statistical hypothesis testing]]
+
+[[ja:有意#p値]]</text>
+      <sha1>bcgtwp6zf3c4hjuwbx82v9rp162zobr</sha1>
+    </revision>
+  </page>
+</mediawiki>

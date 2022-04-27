@@ -1,0 +1,189 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.10/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.10/ http://www.mediawiki.org/xml/export-0.10.xsd" version="0.10" xml:lang="en">
+  <siteinfo>
+    <sitename>Wikipedia</sitename>
+    <dbname>enwiki</dbname>
+    <base>https://en.wikipedia.org/wiki/Main_Page</base>
+    <generator>MediaWiki 1.35.0-wmf.36</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Media</namespace>
+      <namespace key="-1" case="first-letter">Special</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Talk</namespace>
+      <namespace key="2" case="first-letter">User</namespace>
+      <namespace key="3" case="first-letter">User talk</namespace>
+      <namespace key="4" case="first-letter">Wikipedia</namespace>
+      <namespace key="5" case="first-letter">Wikipedia talk</namespace>
+      <namespace key="6" case="first-letter">File</namespace>
+      <namespace key="7" case="first-letter">File talk</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki talk</namespace>
+      <namespace key="10" case="first-letter">Template</namespace>
+      <namespace key="11" case="first-letter">Template talk</namespace>
+      <namespace key="12" case="first-letter">Help</namespace>
+      <namespace key="13" case="first-letter">Help talk</namespace>
+      <namespace key="14" case="first-letter">Category</namespace>
+      <namespace key="15" case="first-letter">Category talk</namespace>
+      <namespace key="100" case="first-letter">Portal</namespace>
+      <namespace key="101" case="first-letter">Portal talk</namespace>
+      <namespace key="108" case="first-letter">Book</namespace>
+      <namespace key="109" case="first-letter">Book talk</namespace>
+      <namespace key="118" case="first-letter">Draft</namespace>
+      <namespace key="119" case="first-letter">Draft talk</namespace>
+      <namespace key="446" case="first-letter">Education Program</namespace>
+      <namespace key="447" case="first-letter">Education Program talk</namespace>
+      <namespace key="710" case="first-letter">TimedText</namespace>
+      <namespace key="711" case="first-letter">TimedText talk</namespace>
+      <namespace key="828" case="first-letter">Module</namespace>
+      <namespace key="829" case="first-letter">Module talk</namespace>
+      <namespace key="2300" case="first-letter">Gadget</namespace>
+      <namespace key="2301" case="first-letter">Gadget talk</namespace>
+      <namespace key="2302" case="case-sensitive">Gadget definition</namespace>
+      <namespace key="2303" case="case-sensitive">Gadget definition talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Pharmacoepigenetics</title>
+    <ns>0</ns>
+    <id>56840878</id>
+    <revision>
+      <id>951523683</id>
+      <parentid>950760179</parentid>
+      <timestamp>2020-04-17T16:13:08Z</timestamp>
+      <contributor>
+        <username>OAbot</username>
+        <id>28481209</id>
+      </contributor>
+      <minor/>
+      <comment>[[Wikipedia:OABOT|Open access bot]]: doi added to citation with #oabot.</comment>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="32381" xml:space="preserve">'''Pharmacoepigenetics''' is an emerging field that studies the underlying [[Epigenetics|epigenetic]] marking patterns that lead to variation in an individual's response to medical treatment.&lt;ref name = Gomez2009/&gt;
+
+==Background==
+
+Due to [[genetic heterogeneity]], environmental factors, and [[pathophysiological]] causes, individuals that exhibit similar disease expression may respond differently to identical drug treatments. Selecting treatments based on factors such as age, body-surface area, weight, gender, or disease stage has been shown to incompletely address this problem, so medical professionals are shifting toward using patient genomic data to select optimal treatments. Now, an increasing amount of evidence shows that [[epigenetics]] also plays an important role in determining the safety and efficacy of drug treatment in patients.&lt;ref name=Ivanov2014/&gt; Epigenetics is a bridge that connects individual genetics and environmental factors to explain some aspects of gene expression. Specifically, environmental factors have the potential to alter one's epigenetic mechanisms in order to influence the expression of genes. For example, smoking cigarettes can alter the DNA methylation state of genes and thereby expression of genes through different mechanisms.
+
+Epigenetic changes in genes caused by factors such as environment can result in abnormal gene expression and the initiation of diseases. The progression of diseases further alters the epigenetic patterns of the whole [[genome]]. While epigenetic changes are generally long lasting, and in some cases permanent, there is still the potential to change the epigenetic state of a gene. Thus, drugs have been developed to target aberrant epigenetic patterns in cells to either activate or suppress the epigenetically modified gene expression gene expression. This is known as [[epigenetic therapy]]. Besides being drug targets, epigenetic changes are also used as [[Diagnosis|diagnostic]] and [[Prognosis|prognostic]] indicators to predict disease risk and progression, and this could be beneficial for the improvement of personalized medicine.
+
+The development of the [[Human Epigenome Project]] and advances in [[epigenomics]] has given rise to a burgeoning field known as pharmacoepigenetics. Pharmacoepigenetics was initially developed to study how epigenetic patterns of drug transporters, drug-metabolizing enzymes, and nuclear receptors affect individuals’ response to the drug. Now, pharmacoepigenetics has an additional focus: the development of therapeutic epidrugs that can make changes to the epigenome in order to lessen the cause or symptoms of a disease in an individual. Even though a large gap still remains between the knowledge of epigenetic modifications on drug metabolism mechanisms and clinical applications,  
+pharmacoepigenetics has become a rapidly growing field that has the potential to play an important role in personalized medicine.
+
+In order to develop effective epigenetic therapies, it is important to understand the underlying epigenetic mechanisms and the proteins that are involved. Various mechanisms and modifications play a role in epigenetic remodeling and signaling, including [[DNA methylation]], [[histone modification]], [[Covalent bond|covalent]] modifications, RNA transcripts, [[microRNA]]s, [[Messenger RNA|mRNA]], [[Small interfering RNA|siRNA]], and nucleosome positioning. In particular, scientists have extensively studied the associations of DNA methylation, histone modifications, regulatory microRNA with the development of diseases.&lt;ref name="Kelly 2010"&gt;{{cite journal|last1=Kelly|first1=Theresa K|last2=De Carvalho|first2=Daniel D|last3=Jones|first3=Peter A|title=Epigenetic Modifications as Therapeutic Targets|journal=Nature Biotechnology|date=October 2010|volume=28|issue=10|pages=1069–1078|doi=10.1038/nbt.1678|pmid=20944599|pmc=3022972|issn=1087-0156}}&lt;/ref&gt;&lt;ref&gt;{{cite journal|last1=Portela|first1=Anna|last2=Esteller|first2=Manel|title=Epigenetic modifications and human disease|journal=Nature Biotechnology|date=October 2010|volume=28|issue=10|pages=1057–1068|doi=10.1038/nbt.1685|pmid=20944598|language=En|issn=1087-0156}}&lt;/ref&gt;&lt;ref name="Kelly 2010"/&gt;&lt;ref name="Weber 2010"/&gt;
+
+DNA methylation is the most widely studied epigenetic mechanism. Most of them occur at CpG sites. [[DNA methyltransferase]] is recruited to the site and adds [[methyl groups]] to the [[cytosine]] of the CpG dinucleotides. This allows the methyl-CpG binding proteins to bind to the methylated site and cause [[downregulation]] of genes.&lt;ref&gt;{{cite journal|last1=Tammen|first1=Stephanie A.|last2=Friso|first2=Simonetta|last3=Choi|first3=Sang-Woon|title=Epigenetics: the link between nature and nurture|journal=Molecular Aspects of Medicine|date=2013|volume=34|issue=4|pages=753–764|doi=10.1016/j.mam.2012.07.018|pmid=22906839|pmc=3515707|issn=0098-2997}}&lt;/ref&gt; Histone modification is mainly achieved by modifying the [[N-terminus|N-terminal]] tails of histones. The mechanisms include [[acetylation]], [[methylation]], [[phosphorylation]], unbiquitination, etc. They affect the compaction of chromatin structure, the accessibility of the DNA, and therefore the transcriptional level of specific genes.
+
+Additionally, [[microRNA]] is a type of noncoding RNA that is responsible for altering gene expression by targeting and marking mRNA transcripts for degradation. Since this process is a posttranscriptional modification, it does not involve changes in DNA sequence. The expression of microRNA is also regulated by other epigenetic mechanisms. Aberrant expression of microRNA facilitates disease development, making them good targets for epigenetic therapies. Epigenetic proteins involved in the regulation of gene transcription fall into three categories-writers, erasers, and readers.  Both writers and erasers have enzymatic activity that allows them to covalently modify DNA or histone proteins. Readers have the ability to recognize and bind to specific sites on chromatin to alter epigenetic signatures.
+
+Once the underlying epigenetic mechanisms are understood, it becomes possible to develop new ways to alter epigenetic marks such as "epidrugs", or [[epigenome editing]], which is the overwriting of epigenetic patterns using man-made signals to direct epigenetic proteins to target loci.&lt;ref name=Ivanov2014&gt;{{cite journal|last1=Ivanov|first1=Maxim|last2=Barragan|first2=Isabel|last3=Ingelman-Sundberg|first3=Magnus|title=Epigenetic mechanisms of importance for drug treatment|journal=Trends in Pharmacological Sciences|date=2014|volume=35|issue=8|pages=384–96|pmid=24993164|doi=10.1016/j.tips.2014.05.004}}&lt;/ref&gt; Furthermore, based on patients' unique epigenetic patterns, medical professionals can more accurately assign a safe and effective treatment including appropriate epigenetic drugs tailored to the patient.
+
+==Drug response and metabolism==
+Individual differences in drug metabolism and response can be partially explained by epigenetic changes.&lt;ref name=Lauschke2018/&gt;&lt;ref name = Dubowska2011&gt;{{cite journal|last1=Baer-Dubowska|first1=Wanda|last2=Majchrzak-Celiñska|first2=Aleksandra|last3=Cichocki|first3=Michal|title=Pharmocoepigenetics: A New Approach to Predicting Individual Drug Responses and Targeting New Drugs|journal=Pharmacological Reports|date=2011|volume=63|issue=2|pages=293–304|pmid=21602587|doi=10.1016/S1734-1140(11)70498-4}}&lt;/ref&gt; Epigenetic changes in genes that encode drug targets, enzymes, or transport proteins that affect the body's ability to absorb, metabolize, distribute and excrete substances that are foreign to the body ([[Xenobiotics]]) can result in changes in one's toxicity levels and drug response.&lt;ref name=Lauschke2018&gt;{{cite book|last1=Lauschke|first1=Volker|last2=Barragan|first2=Isabel|last3=Ingelman-Sundberg|first3=Magnus|title=Pharmacoepigenetics and Toxicoepigenetics: Novel Mechanistic Insights and Therapeutic Opportunities.|date=2018|publisher=Annual Reviews|location=Palo Alto|pages=161–185|edition=58}}&lt;/ref&gt;&lt;ref name = Dubowska2011/&gt; One of the main effects of drug exposure early in life is altered [[ADME]] (Absorption, Distribution, Metabolism, and Excretion) gene expression.&lt;ref name=Lauschke2018 /&gt; There is evidence that these genes are controlled by DNA methylation, histone acetylation, and miRNAs.&lt;ref&gt;{{cite journal|last1=Ingelman-Sundberg|first1=M|last2=Cascorbi|first2=I|title=Pharmacogenomic or -Epigenomic Biomarkers in Drug Treatment: Two Sides of the Same Medal?|journal=Clinical Pharmacology &amp; Therapeutics|date=2016|volume=99|issue=5|pages=478–480|doi=10.1002/cpt.351|pmid=26874931}}&lt;/ref&gt;&lt;ref name = Dubowska2011/&gt;
+
+More needs to be understood about these mechanisms, but the hope is that it can lead to proper drug selection and dosage.&lt;ref&gt;{{cite journal|last1=Zhong|first1=Xiao-bo|last2=Leeder|first2=Steven|title=Epigenetic Regulation of ADME-Related Genes: Focus on Drug Metabolism and Transport|journal=Drug Metabolism and Disposition|date=2013|volume=41|issue=10|pages=1721–1724|doi=10.1124/dmd.113.053942|pmid=23935066|pmc=3920173}}&lt;/ref&gt; Additionally, drug resistance can be acquired through epigenetic mechanisms. This is particularly common in chemotherapy, where cells that develop resistance to treatment continue to divide and survive.&lt;ref name="Lauschke2018" /&gt; Pharmacoepigenetic treatment plans can consist of a single epidrug class or combine several in a unique therapy. The following are the examples of how drug response or metabolism related proteins are regulated by epigenetic mechanisms:
+
+===Cyp2e1, DNA methylation, and histone acetylation===
+
+Age-related changes to epigenetic modifications on regulatory regions of mouse ''Cyp2e1'' has been associated with the metabolism mediated by its encoded protein. Cyp2e1 mediated hydroxylation of its probe drug chlorzoxazone to its metabolite, 6-hydroxychlorzoxazone, correlated negatively with DNA methylation and positively with histone acetylation in mouse microsome extracts.&lt;ref&gt;{{cite journal |last1=Kronfol |first1=MM |last2=Jahr |first2=FM |last3=Dozmorov |first3=MG |last4=Phansalkar |first4=PS |last5=Xie |first5=LY |last6=Aberg |first6=KA |last7=McRae |first7=M |last8=Price |first8=ET |last9=Slattum |first9=PW |last10=Gerk |first10=PM |last11=McClay |first11=JL |title=DNA methylation and histone acetylation changes to cytochrome P450 2E1 regulation in normal aging and impact on rates of drug metabolism in the liver. |journal=GeroScience |date=27 March 2020 |doi=10.1007/s11357-020-00181-5 |pmid=32221779}}&lt;/ref&gt;
+
+===CXCR4 and DNA methylation===
+
+CXCR4 is a protein that acts as a coreceptor for the entry of [[HIV]]. It has been developed as a drug target for anti-HIV therapy. A study has shown that its expression is dysregulated by abnormal methylation patterns in some cancers. Thus, this could affect the efficiency and drug response to the anti-HIV therapy.&lt;ref name = Gomez2009/&gt;
+
+===CYP1A1 methylation and histone modification===
+
+CYP1A1 is a protein that is well known for its role in chemical compounds and drug metabolism.&lt;ref&gt;{{cite journal|last1=Walsh|first1=Agnes A.|last2=Szklarz|first2=Grazyna D.|last3=Scott|first3=Emily E.|title=Human cytochrome P450 1A1 structure and utility in understanding drug and xenobiotic metabolism|journal=The Journal of Biological Chemistry|date=3 May 2013|volume=288|issue=18|pages=12932–12943|doi=10.1074/jbc.M113.452953|pmid=23508959|issn=1083-351X|pmc=3642336}}&lt;/ref&gt; A study in prostate cancer demonstrated that the protein's regulatory region was under the control of the histone modification [[H3K4me3]], which typically indicates active gene expression in non-cancerous cells.&lt;ref name = Gomez2009/&gt; This abnormal methylation typically causes histone modification and changes in chromatin structure at a local level, thus effecting gene expression.&lt;ref&gt;{{cite journal|last1=Kim|first1=In-Wha|last2=Han|first2=Nayoung|last3=Burckart|first3=Gilbert J.|last4=Oh|first4=Jung Mi|title=Epigenetic Changes in Gene Expression for Drug-metabolizing Enzymes and Transporters|journal=Pharmacotherapy|date=2014|volume=34|issue=2|pages=140–150|doi=10.1002/phar.1362|pmid=24166985}}&lt;/ref&gt;
+
+===ABCG2 and miRNA===
+ABCG2 is a protein that is responsible for multidrug resistance in cancer chemotherapy. Increased expression of ABCG2 is found in different drug resistant cancer cell lines and tumor tissues. One of the microRNA modifications changes its gene and protein expression by destabilizing its mRNA.&lt;ref&gt;{{cite journal|last1=Mo|first1=Wei|last2=Zhang|first2=Jian-Ting|title=Human ABCG2: structure, function, and its role in multidrug resistance|journal=International Journal of Biochemistry and Molecular Biology|date=30 March 2011|volume=3|issue=1|pages=1–27|pmc=3325772|issn=2152-4114|pmid=22509477}}&lt;/ref&gt;
+
+==Epigenetics and human diseases==
+
+===Epigenetics in cancer===
+{{See|Cancer epigenetics}}
+
+While there is still a lot of work that needs to be done regarding the epigenetic modifications of specific cancers at various steps in tumor development, there is a general understanding of epigenetic modifications in genes that lead to abnormal expression and various types of cancer. These epigenetic biomarkers are being considered in clinical use as a tool to detect disease, classify tumors, and understand drug response to treatments such as target compounds, traditional chemotherapy agents, and epigenetic drugs. Human cancer is generally characterized by hypermethylation of specific promoters, which typically prevents the expression of DNA repair and tumor-suppressing  genes, and the loss of DNA methylation on a global scale,&lt;ref name=lopomo2018/&gt; which can allow for expression of oncogenes or result in a loss of imprinting.&lt;ref name=herceg2011&gt;{{cite journal|last1=Herceg|first1=Zdenko|last2=Vaissière|first2=Thomas|title=Epigenetic mechanisms and cancer: An interface between the environment and the genome|journal=Epigenetics|date=2011|volume=6|issue=7|pages=804–819|doi=10.4161/epi.6.7.16262|pmid=21758002|doi-access=free}}&lt;/ref&gt; Histone modifications play an important role in the regulation of cellular processes, thus epigenetic changes resulting in changed structure can lead to abnormal transcription, DNA repair and replication.&lt;ref name=herceg2011/&gt; Below are some examples and then an overview of the ways these epigenetic modifications are being targeted.
+
+===Targeting epigenetic modifications in cancer===
+
+Epigenetic changes are highly present in cancer, therefore it is a good model to assess different ways in which epigenetic drugs can be used to make changes that turn up and turn down gene expression.&lt;ref name=Lauschke2018 /&gt;
+
+==== Targeting gain-of-function epigenetic mutations  ====
+
+DNA methyltransferase inhibitors are being pursued due to the hypermethylation of tumor suppressor genes and increased DNMTs that have been observed in cancer cells. Introduction of these inhibitors can result in reduced promoter methylation and expression of previously silenced tumor suppressor genes. [[Azacitidine]] and [[decitabine]], which incorporate into the DNA and covalently trap the methyltransferases, have been approved by the FDA for [[myelodysplastic syndrome]] (a group of cancers where blood cells from the bone marrow do not mature properly into healthy blood cells) treatment and are currently being investigated for other cancers like leukemia. Other types of drugs are being developed like non-nucleoside analogues, which can covalently bind to DNMTs.&lt;ref name="pfister2017"&gt;{{cite journal|last1=Pfister|first1=Sophia Xiao|last2=Ashworth|first2=Alan|title=Marked for death: targeting epigenetic changes in cancer|journal=Nature Reviews Drug Discovery|date=2017|volume=16|issue=4|pages=241–263|doi=10.1038/nrd.2016.256|pmid=28280262}}&lt;/ref&gt;
+
+Some examples include procaine, hydralazine, and procainimide, but they lack specificity and potency making it hard to test them in clinical trials. DNA methyltranferase inhibitors are usually used at a low level due to their lack of specificity and toxic effects on normal cells. HDAC inhibitors are also being used, due to the changes in histone acetylation and the increased HDACs observed. While the mechanism is still under investigation, it is believed that adding the HDAC inhibitors results in increased histone acetylation and therefore the reactivation of transcription of tumor suppressor genes.&lt;ref name="pfister2017"/&gt;
+
+More so, HDACs can also remove acetyl groups from proteins that are not the histone, so it is thought that adding HDAC inhibitors may result in changes in transcription factor activity. There are around 14 different HDAC inhibitors being investigated in clinical trials for haematological and solid tumors, but more research needs to be done on the specificity and mechanisms by which they are inhibiting. Another way to alter epigenetic modifications is through the use of histone methyltransferase inhibitors.&lt;ref name="pfister2017"/&gt;
+
+==== Targeting loss-of-Function epigenetic mutations ====
+
+Loss of function in genes encoding DNA demethylases or the overexpression of DNA methyltransferases can result in the hypermethylation of DNA promoters.&lt;ref name="pfister2017" /&gt; Loss of function of DNA methyltransferases can lead to hypomethylation. Loss of function in chromosome remodeling, DNA repair, and cell cycle regulation genes can lead to uncontrolled growth of cells giving rise to cancer.&lt;ref name="pfister2017" /&gt; Histone modification patterns can also lead to changes in genomes that can negatively affect these and other systems, making cancer more likely.
+
+Cells that carry loss-of-function mutations can be targeted by drugs that induce [[synthetic lethality]], a genetic/protein interaction where the loss of one component induces little change, but the loss of both components results in cell death. In cancer cells where one part of the interaction experiences a loss-of-function mutation, the other part can be interrupted by drug treatment to induce cell death in cancerous cells.  Synthetic lethality is an attractive treatment option in patients with cancer since it there should be minimal / no effect on healthy cells.
+
+For example, with [[SWI/SNF]] loss of function mutations, DNA replication and repair is negatively affected and can give rise to tumors if cell growth goes unchecked. Mutations of these genes are common causes of cancers. These mutations are not directly targetable, but several synthetic lethal interactions can be exploited by cancer drugs to kill early cancer growth.&lt;ref name="pfister2017" /&gt;
+
+Additionally, loss-of-function mutations can be targeted by using the dynamic states of histone modifications. Loss of function mutations in demethylases, such as [[UTX (gene)|KDMK6A]] are common in cancer.&lt;ref name="pfister2017" /&gt; By inducing upregulation of methyltransferase inhibitors, the effects of the loss-of-function mutation can be mitigated.&lt;ref name="pfister2017" /&gt;
+
+Development of drugs that target or modify epigenetic signatures of target genes is growing, especially as bioinformatic analysis increases our knowledge of the human genome and speeds up the search for synthetic lethal interactions. Most widely used to assess potential synthetic lethal interactions is using siRNA and [[CRISPR|CRISPR-Cas9]] to modify target genes. [[CRISPRi]] and [[CRISPR interference|CRISPRa]] technology allows researchers to activate or inactivate target genes.
+
+===Lung cancer===
+In lung cancer the activation of both dominant and recessive oncogenes and inactivation of tumor suppressor genes has been observed.&lt;ref name=herceg2011/&gt; Frequently observed in lung cancer is the methylation of gene promoters that are involved in critical functions like cell-cycle control, repairing DNA, cell adhesion, proliferation, apoptosis, and motility. A few of the common genes frequently observed are [[Adenomatous polyposis coli|APC]], [[CDH1 (gene)|CDH1]], [[CDKN2A]], [[MGMT]], and RASSF1A (a tumor suppressor).&lt;ref name= lopomo2018&gt;{{cite book|last1=Lopomo|first1=Angela|last2=Coppedè|first2=Fabio|title=Chapter 12 – Epigenetic Signatures in the Diagnosis and Prognosis of Cancer|journal=Translational Epigenetics|date=2018|volume=Epigenetic Mechanisms in Cancer|pages=313–343|doi=10.1016/B978-0-12-809552-2.00012-7|isbn=9780128095522}}&lt;/ref&gt; In the cases of CDKN2A and RASSF1A DNA these genes are methylated, resulting in the loss of tumor suppressor genes.&lt;ref name=herceg2011/&gt;
+
+Various strategies such as using drugs like [[entinostat]] and [[azacitidine]] have been observed in clinical trials of non-small-cell lung carcinoma. The idea being that etinostat, a histone deacetylase inhibitor, can prevent the silencing of genes by allowing them to be accessible to transcription machinery. [[Azacitidine]] can be metabolized and incorporated into DNA and then recognized as a substrate for DNA methyltransferases, but since the enzyme is bound the methyltransferase cannot add methylation marks and thus silence crucial genes.
+
+===Heart failure===
+
+Histone modifications, DNA methylation, and microRNAs have been found to play an important role in heart disease.&lt;ref name=Mateo2010&gt;{{cite journal|last1=Irene|first1=Mateo Leach|last2=van der Harst|first2=Pim|last3=de Boer|first3=Rudolf A|title=Pharmacoepigenetics in Heart Failure|journal=Current Heart Failure Reports|date=June 2010|volume=7|issue=2}}&lt;/ref&gt; Previously, histone tail acetylation has been linked to cardiac hypertrophy or abnormal heart muscle thickening that is usually due to an increase in cardiomyocyte size or other cardiac muscle changes.&lt;ref&gt;{{cite web|title=Cardiac hypertrophy|url=https://www.nature.com/subjects/cardiac-hypertrophy|website=Nature.com|publisher=Macmillan Publishers Limited|accessdate=10 April 2018}}&lt;/ref&gt; The hypertrophic changes that occur in cardiac muscles cells result from the required acetylation of histone tails via acetyltransferases. In addition to acetyltransferases, histone deacetylases (HDACs) also aid in the regulation of muscle cells. Class II HDACs 5 and 9 inhibit the activity of a factor known as myocyte enhancer factor 2 ([[MEF2]]), which unable to bind prevents the expression of genes that produce hypertrophic effects.
+
+Additionally,  loci such as [[CD31|PECAM1]], [[AMOTL2]] and [[ARHGAP24]] have been seen with different methylation patterns that are correlated with altered gene expression in cardiac tissue.&lt;ref name=Mateo2010 /&gt;
+
+There are an increasing number of scientific publications that are finding that miRNA plays a key role in various aspects of heart failure.&lt;ref name=Mateo2010/&gt;  Examples of functions for miRNA include the regulation of the cardiomyocyte cell cycle and regulation of cardiomyocyte cell growth.&lt;ref&gt;{{cite journal|last1=Zhao|first1=Yong|last2=Ransom|first2=Joshua F.|last3=Li|first3=Ankang|last4=Vedantham|first4=Vasanth .|last5=von Drehle|first5=Morgon|last6=Muth|first6=Alecia N.|last7=Tsuchihashi|first7=Takatoshi|last8=McManus|first8=Michael T.|last9=Schwartz|first9=Robert J.|last10=Srivastava|first10=Deepak|title=Dysregulation of cardiogenesis, cardiac conduction, and cell cycle in mice lacking miRNA-1-2|journal=Cell|date=20 April 2007|volume=129|issue=2|pages=303–317|doi=10.1016/j.cell.2007.03.030|pmid=17397913}}&lt;/ref&gt;&lt;ref&gt;{{cite journal|title=MicroRNA-1 negatively regulates expression of the hypertrophy-associated calmodulin and Mef2a genes|journal=Molecular and Cellular Biology|date=15 April 2009|volume=29|issue=8|pages=2193–2204|doi=10.1128/MCB.01222-08|pmid=19188439|last1=Ikeda|first1=S|last2=He|first2=A|last3=Kong|first3=S. W|last4=Lu|first4=J|last5=Bejar|first5=R|last6=Bodyak|first6=N|last7=Lee|first7=K.-H|last8=Ma|first8=Q|last9=Kang|first9=P. M|last10=Golub|first10=T. R|last11=Pu|first11=W. T|pmc=2663304}}&lt;/ref&gt; Knowing the epigenetic modifications allows for the potential use of drugs to modify the epigenetic status of a target sequence. One could possibly target the miRNAs using antagomirs. [[Antagomir]]s are single strand RNAs that are complementary, which have been chemically engineered oligonucleotides that silence miRNAs so that they cannot degrade the mRNA that is needed for normal levels of expression.
+
+DNA methylation of CpGs can lead to a reduction of gene expression, and in some cases this decrease in gene product can contribute to disease. Therefore, in those instances it is important to have potential drugs that can alter the methylation status of the gene and increase expression levels.  To increase gene expression, one may try to decrease CpG methylation by using a drug that works as DNA methytransferase inhibitor such as [[decitabine]] or 5-aza-2'-deoxycytidine.&lt;ref name="Gomez2009"&gt;{{cite journal|last1=Gomez|first1=A.|last2=Ingelman-Sundberg|first2=M.|date=25 February 2009|title=Pharmacoepigenetics: Its role in interindividual differences in drug response|journal=Clinical Pharmacology &amp; Therapeutics|volume=85|issue=4|pages=426–430|doi=10.1038/clpt.2009.2|pmid=19242404}}&lt;/ref&gt;
+
+On the other hand, some diseases result from a decrease in acetylase activity, which results in a decrease in gene expression. Some studies have shown that inhibiting HDAC activity can attenuate cardiac hypertrophy.&lt;ref name=Mateo2010/&gt; [[Trichostatin A|trichostatin]] A and sodium butyrate are two HDAC inhinitors. Trichostatin A is known for its ability to inhibit class I and II HDACs from removing acetylases and decreasing gene expression. [[Sodium butyrate]] is another chemical that inhibits class I HDACs, thus resulting in the ability for transcription factors to easily access and express the gene.
+
+=== Challenges in development of epigenetic therapies ===
+There are a number of challenges with the developing epigenetic therapies for widespread medical use. While laboratory results indicate relationships between genes and potential drug interactions that could mitigate the effects of mutations, the complexity of the human genome and epigenome makes it difficult to develop therapies that are safe, efficient, and consistent. Epigenetic alteration may affect more systems than the target genes, which gives potential for deleterious effects to rise out of treatment. Additionally, epigenetic mutations can be a result of lineage.&lt;ref name="Weber 2010"&gt;{{cite journal|last1=Weber|first1=Wendell|title=The Promise of Epigenetics in Personalized Medicine|journal=Molecular Interventions|date=2010|volume=10|issue=6|pages=363–370|doi=10.1124/mi.10.6.5|pmid=21263162}}&lt;/ref&gt;
+
+As tissue gene expression is largely regulated by epigenetic interactions, certain tissue-specific cancers are difficult to target with epigenetic therapies. Additionally, genes that encode for elements that prevent one type of cancer in a cell, may have altered function in another and lead to another type of cancer. Trying to modify these proteins, such as EZH2, may give rise to other types of cancer. Selectivity is another hurdle in the development of therapies. Since many proteins are structurally similar, especially within the same protein family, Broad-spectrum inhibitors can't always be used since modifying the regulation of one protein may do the same to others in the family.&lt;ref name="Weber 2010"/&gt;
+
+Based on the differences in these epigenetic patterns, scientists and physicians can further predict the drug response of each patient. One of the most compelling examples is methylation of the tumor suppressor gene at promoter sequence that codes for MGMT.&lt;ref&gt;{{cite journal|last1=Esteller|first1=Manel|title=Relevance of DNA methylation in the management of cancer|journal=The Lancet Oncology|date=2003|volume=4|issue=6|pages=351–358|doi=10.1016/S1470-2045(03)01115-X|pmid=12788407}}&lt;/ref&gt;  [[O-6-methylguanine-DNA methyltransferase|MGMT]] is a DNA repair protein responsible for transferring methyl groups from O(6)-alkylguanine in DNA to itself to fight against mutagenesis and the buildup of toxic compounds that result from alkylating agents.&lt;ref name=NCBIMGMT&gt;{{cite web|title=MGMT O-6-methylguanine-DNA methyltransferase [ Homo sapiens (human) ]|url=https://www.ncbi.nlm.nih.gov/gene/4255|website=NCBI|publisher=National Center for Biotechnology Information, U.S. National Library of Medicine|accessdate=13 April 2018}}&lt;/ref&gt;
+
+Therefore, MGMT is responsible for the repair of areas that have been damaged by toxins. This MGMT promoter region has been found to be highly methylated, and thereby repressed, in patients with various types of cancer.&lt;ref name=NCBIMGMT/&gt; Several drugs such as [[procarbazine]], [[streptozotocin]], BCNU ([[carmustine]]), and [[Temozolomide|temozolamide]] are designed to remodel DNA to reverse this abnormal methylation modification so that MGMT may be normally expressed and repair DNA. The methylation status of the promoter become the best predictor of responses to BCNU and temozolamide in patients with brain cancer.
+
+==Epigenetic inhibitors and therapies==
+
+===Bromodomain and inhibitors (BET inhibitor)===
+
+Proteins containing [[bromodomain]]s recognize and bind [[Acetylation|acetylated]] [[lysine]] residues in [[histone]]s, causing chromatin structure modification and a subsequent shift in levels of gene expression. Bromodomain and extra-terminal (BET) proteins bind acetyl groups and work with [[RNA polymerase II|RNAPII]] to help with [[Transcription (biology)|transcription]] and elongation of chromatin. [[BET inhibitor]]s have been able to prevent successful interaction between BET proteins and acetylated histones.&lt;ref name = pfister2017/&gt; Using a BET inhibitor can reduce the over expression of bromodomain proteins, which can cause aberrant chromatin remodeling, transcription regulation, and histone acetylation.&lt;ref name = pfister2017/&gt;
+
+=== Histone acetylase inhibitors ===
+Several studies have shown that [[histone acetyltransferase]] (HAT) inhibitors are useful in re-inducing expression of tumor suppression genes by stopping histone acetyltransferase activity to prevent chromatin condensation.&lt;ref name="Heerboth2014" /&gt;
+
+Protein [[methyltransferase]] (PMT) inhibitors: PMT's play a key role in methylating lysine and arginine residues to affect transcription levels of genes. It has been suggested that their enzymatic activity plays a role in cancer, as well as neurodegenerative and inflammatory diseases.&lt;ref name="Heerboth2014" /&gt;
+
+===Histone deacetylase inhibitors===
+Using [[Histone deacetylase]] (HDAC) [[Histone deacetylase inhibitor|inhibitors]] allows for genes to remain transcriptionally active. HDACi's have been used in various Autoimmune Disorders, such as systemic lupus erythematosus, rheumatoid arthritis, and systemic onset juvenile idiopathic arthritis.&lt;ref name=Lauschke2018/&gt; They have also proven useful for treating cancer, since they are structurally diverse and only effect 2-10% of expressed genes.&lt;ref name = Heerboth2014/&gt; Using HDAC Inhibitors for the treatment of psychiatric
+and neurodegenerative diseases has shown promising results in early studies.&lt;ref name = Heerboth2014&gt;{{cite journal|last1=Heerboth|first1=Sarah|last2=Lapinska|first2=Karolina|last3=Snyder|first3=Nicole|last4=Leary|first4=Meghan|last5=Rollinson|first5=Sarah|last6=Sarkar|first6=Sibaji|title=Use of epigenetic drugs in disease: an overview|journal=Genetics &amp; Epigenetics|date=2014|volume=6|pages=9–19|doi=10.4137/GEG.S12270|pmid=25512710|pmc=4251063}}&lt;/ref&gt; Additionally, studies have demonstrated that HDACi are useful in minimizing damage after a stroke, and encouraging angiogenesis and myogenesis in embryonic cells.&lt;ref name = Heerboth2014/&gt;
+
+=== DNA methyltransferase inhibitors ===
+One of the common characteristics of various types of cancer is hypermethylation of a tumor suppressing gene. Repression of this methyltransferase action at targeted loci can prevent recurring transfer of methyl groups to these sites and keep them open to transcriptional machinery, allowing more tumor-suppression genes to be made. These drugs are typically [[cytidine]] derivatives. These drugs tether DNMT to the DNA and prevent their continued action. Treatments that inhibit DNMT function without attachment to DNA (which can cause toxic effects) show they could be effective treatment options but they are not developed enough to see widespread use.&lt;ref name="Lauschke2018" /&gt;
+
+==See also==
+* [[Epigenetic therapy]]
+* [[Epigenetics]]
+* [[Cancer epigenetics]]
+
+==References==
+{{Reflist}}
+
+{{pharmacology|state=collapsed}}
+
+[[Category:Epigenetics]]</text>
+      <sha1>o51z186ezgjeyauox5zfu58ee0ckkrg</sha1>
+    </revision>
+  </page>
+</mediawiki>

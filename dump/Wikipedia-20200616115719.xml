@@ -1,0 +1,98 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.10/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.10/ http://www.mediawiki.org/xml/export-0.10.xsd" version="0.10" xml:lang="en">
+  <siteinfo>
+    <sitename>Wikipedia</sitename>
+    <dbname>enwiki</dbname>
+    <base>https://en.wikipedia.org/wiki/Main_Page</base>
+    <generator>MediaWiki 1.35.0-wmf.36</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Media</namespace>
+      <namespace key="-1" case="first-letter">Special</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Talk</namespace>
+      <namespace key="2" case="first-letter">User</namespace>
+      <namespace key="3" case="first-letter">User talk</namespace>
+      <namespace key="4" case="first-letter">Wikipedia</namespace>
+      <namespace key="5" case="first-letter">Wikipedia talk</namespace>
+      <namespace key="6" case="first-letter">File</namespace>
+      <namespace key="7" case="first-letter">File talk</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki talk</namespace>
+      <namespace key="10" case="first-letter">Template</namespace>
+      <namespace key="11" case="first-letter">Template talk</namespace>
+      <namespace key="12" case="first-letter">Help</namespace>
+      <namespace key="13" case="first-letter">Help talk</namespace>
+      <namespace key="14" case="first-letter">Category</namespace>
+      <namespace key="15" case="first-letter">Category talk</namespace>
+      <namespace key="100" case="first-letter">Portal</namespace>
+      <namespace key="101" case="first-letter">Portal talk</namespace>
+      <namespace key="108" case="first-letter">Book</namespace>
+      <namespace key="109" case="first-letter">Book talk</namespace>
+      <namespace key="118" case="first-letter">Draft</namespace>
+      <namespace key="119" case="first-letter">Draft talk</namespace>
+      <namespace key="446" case="first-letter">Education Program</namespace>
+      <namespace key="447" case="first-letter">Education Program talk</namespace>
+      <namespace key="710" case="first-letter">TimedText</namespace>
+      <namespace key="711" case="first-letter">TimedText talk</namespace>
+      <namespace key="828" case="first-letter">Module</namespace>
+      <namespace key="829" case="first-letter">Module talk</namespace>
+      <namespace key="2300" case="first-letter">Gadget</namespace>
+      <namespace key="2301" case="first-letter">Gadget talk</namespace>
+      <namespace key="2302" case="case-sensitive">Gadget definition</namespace>
+      <namespace key="2303" case="case-sensitive">Gadget definition talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Computer language</title>
+    <ns>0</ns>
+    <id>64750</id>
+    <revision>
+      <id>962664552</id>
+      <parentid>960974613</parentid>
+      <timestamp>2020-06-15T10:14:55Z</timestamp>
+      <contributor>
+        <username>Jorengarenar</username>
+        <id>38721302</id>
+      </contributor>
+      <comment>Revert messy changes of anons</comment>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="3568" xml:space="preserve">{{Multiple issues|
+{{unreferenced|date=March 2019}}
+{{original research|date=March 2019}}
+{{prose|date=March 2019}}
+}}
+{{Program execution}}
+A '''computer language''' is a system of communication with a computer. Such languages are used to create '''computer code''' or '''program code''', the set of instructions forming a [[computer program]] which is [[Execution (computing)|executed]] by a [[computer]]. It is one of two components of the [[software]] which runs on [[computer hardware]], the other being the [[data (computing)|data]].
+
+Computers can only execute the [[machine code]] instructions which are part of their [[instruction set]]. Because these instructions are difficult for humans to read, and writing good programs in machine code or other [[low-level programming language]]s is a time-consuming task, most [[programmer]]s write in the [[source code]] of a [[high-level programming language]]. This source code is [[Translator (computing)|translated]] into machine code by a [[compiler]] or [[interpreter (computing)|interpreter]] so that the computer can execute it to perform its [[task (computing)|task]]s. A compiler produces [[object code]] which is usually in machine language but may also be in an intermediate language which is at a lower level than the source. A [[runtime system]] is often used to execute object code by [[Linker (computing)|linking]] it with commonly used libraries. [[Bytecode]] is a lower level of source which is designed for more efficient interpretation by interpreters.
+
+==Types of computer languages== 
+
+*[[Software construction#Construction languages|Construction language]], a general category that includes configuration, toolkit and programming languages'''
+**[[Programming language]], a [[formal language]] designed to communicate instructions to a machine, particularly a computer
+***[[Assembly language]], a language closely related to one or a family of machine languages, and which uses mnemonics to ease writing
+***[[Scripting language]], a programming language for a special run-time environment that automates the execution of tasks; the tasks could alternatively be executed one-by-one by a human operator
+**[[Command language]], a language used to control the tasks of the computer itself, such as starting other programs
+**[[Configuration file#Configuration languages|Configuration language]], a language used to write [[configuration file]]s
+*[[Machine language]] or machine code, a set of instructions executed directly by a computer's central processing unit
+*[[Markup language]], a grammar for annotating a document in a way that is syntactically distinguishable from the text, such as HTML
+**[[Lightweight markup language]]
+*[[Style sheet language]], a computer language that expresses the presentation of structured documents, such as CSS
+*[[Query language]], a language used to make queries in databases and information systems
+*[[Modeling language]], a formal language used to express information or knowledge, often for use in computer system design
+** [[Hardware description language]], used to model integrated circuits
+*[[Simulation language]], a language used to describe simulations
+
+==See also==
+*[[Data serialization]]
+*[[Natural language processing]], the use of computers to process text or speech in human language
+*[[General-purpose language]], a computer language that is broadly applicable across application domains, and lacks specialized features for a particular domain
+*[[List of programming languages]]
+
+[[Category:Computer languages| ]]
+[[Category:Programming languages]]</text>
+      <sha1>jqenv2h4vf8y0rr7vvrpwcf3jm44ipc</sha1>
+    </revision>
+  </page>
+</mediawiki>

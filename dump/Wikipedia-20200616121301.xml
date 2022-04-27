@@ -1,0 +1,687 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.10/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.10/ http://www.mediawiki.org/xml/export-0.10.xsd" version="0.10" xml:lang="en">
+  <siteinfo>
+    <sitename>Wikipedia</sitename>
+    <dbname>enwiki</dbname>
+    <base>https://en.wikipedia.org/wiki/Main_Page</base>
+    <generator>MediaWiki 1.35.0-wmf.36</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Media</namespace>
+      <namespace key="-1" case="first-letter">Special</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Talk</namespace>
+      <namespace key="2" case="first-letter">User</namespace>
+      <namespace key="3" case="first-letter">User talk</namespace>
+      <namespace key="4" case="first-letter">Wikipedia</namespace>
+      <namespace key="5" case="first-letter">Wikipedia talk</namespace>
+      <namespace key="6" case="first-letter">File</namespace>
+      <namespace key="7" case="first-letter">File talk</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki talk</namespace>
+      <namespace key="10" case="first-letter">Template</namespace>
+      <namespace key="11" case="first-letter">Template talk</namespace>
+      <namespace key="12" case="first-letter">Help</namespace>
+      <namespace key="13" case="first-letter">Help talk</namespace>
+      <namespace key="14" case="first-letter">Category</namespace>
+      <namespace key="15" case="first-letter">Category talk</namespace>
+      <namespace key="100" case="first-letter">Portal</namespace>
+      <namespace key="101" case="first-letter">Portal talk</namespace>
+      <namespace key="108" case="first-letter">Book</namespace>
+      <namespace key="109" case="first-letter">Book talk</namespace>
+      <namespace key="118" case="first-letter">Draft</namespace>
+      <namespace key="119" case="first-letter">Draft talk</namespace>
+      <namespace key="446" case="first-letter">Education Program</namespace>
+      <namespace key="447" case="first-letter">Education Program talk</namespace>
+      <namespace key="710" case="first-letter">TimedText</namespace>
+      <namespace key="711" case="first-letter">TimedText talk</namespace>
+      <namespace key="828" case="first-letter">Module</namespace>
+      <namespace key="829" case="first-letter">Module talk</namespace>
+      <namespace key="2300" case="first-letter">Gadget</namespace>
+      <namespace key="2301" case="first-letter">Gadget talk</namespace>
+      <namespace key="2302" case="case-sensitive">Gadget definition</namespace>
+      <namespace key="2303" case="case-sensitive">Gadget definition talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Curiosity (rover)</title>
+    <ns>0</ns>
+    <id>36645032</id>
+    <revision>
+      <id>962826948</id>
+      <parentid>962643946</parentid>
+      <timestamp>2020-06-16T07:16:55Z</timestamp>
+      <contributor>
+        <ip>73.25.89.14</ip>
+      </contributor>
+      <comment>Update</comment>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="128158" xml:space="preserve">{{About|the Mars rover|its spaceflight mission|Mars Science Laboratory|its events on Mars|Timeline of Mars Science Laboratory}}
+{{short description|NASA robotic rover exploring the crater Gale on Mars}}
+{{Use mdy dates|date=July 2018}}
+{{Use American English|date=March 2018}}
+{{Italic title}}
+{{Infobox spaceflight
+| name                  = ''Curiosity''
+| image                 = Curiosity Self-Portrait at 'Big Sky' Drilling Site.jpg
+| image_caption         = {{longitem|[[Self-portrait]] of ''Curiosity'' located at the foothill of [[Mount Sharp]] (October 6, 2015)|style= padding: 3px 0; line-height: 1.3em;}}
+| mission_type          = [[Mars]] [[Rover (space exploration)|rover]]
+| operator              = [[NASA]]
+| website               = {{URL|mars.jpl.nasa.gov/msl/}}
+| COSPAR_ID             = 2011-070A
+| SATCAT                = 37936
+| mission_duration      = Primary: 668 [[Sol (day on Mars)|sols]] (687 days) &lt;br /&gt; Current: {{Curiosity Mission Timer}} [[Sol (day on Mars)|sols]] ({{time interval|6 August 2012 05:17:57|show=d|disp=raw}} days) since landing&lt;ref name="Space-20120806" /&gt;
+| manufacturer          = {{Plainlist| 
+* [[JPL]]
+* [[Boeing]]
+* [[Lockheed Martin]] }}
+| dry_mass              = Rover only: {{convert|1982|lb|kg|order=flip|abbr=on}}&lt;ref name="nasa" /&gt;
+| launch_mass           = 
+| power                 =
+| launch_date           = {{start-date|November 26th, 2011, 15:02:00|timezone=yes}}&amp;nbsp;UTC&lt;ref name="NASA-Curiosity" /&gt;&lt;ref name="NASA-1" /&gt;&lt;ref name="NASA-2" /&gt;
+| launch_rocket         = [[Atlas V|Atlas V 541]] (AV-028)
+| launch_site           = [[Cape Canaveral Air Force Station|Cape Canaveral]] [[LC-41]]&lt;ref name="oig report" /&gt;
+| launch_contractor     =
+| deactivated           = &lt;!-- {{end-date|[insert date here]}} --&gt;
+| last_contact          = &lt;!-- {{end-date|[insert date here]}} --&gt;
+&lt;!--delete one--&gt;
+| orbit_epoch           = 
+| orbit_reference       = [[Heliocentric orbit|Heliocentric]] (transfer)
+| orbit_periapsis       = 
+| orbit_apoapsis        = 
+| orbit_inclination     = 
+| apsis                 = helion
+| interplanetary         = 
+{{Infobox spaceflight/IP
+   |type                = rover
+   |object              = [[Mars]]
+   |component           = Rover
+   |arrival_date        = August 6th, 2012, 05:17:57&amp;nbsp;UTC [[Spacecraft Event Time|SCET]]&lt;ref name="Abilleira2013" /&gt;&lt;ref name="bbc20120808" /&gt; 
+   |location            = [[Aeolis Palus]] ("[[Bradbury Landing]]"&lt;ref name="NASA-20120822" /&gt;) in [[Gale (crater)|the crater Gale]]&lt;br /&gt;({{coord|4.5895|S|137.4417|E|globe:Mars|name=Curiosity}})&lt;ref name="MSNBC-20120806" /&gt;&lt;ref name="S&amp;T-20120807" /&gt;
+   |distance            = {{cvt|21.61|km}}&lt;ref name="msl-where" /&gt; &lt;br /&gt; &lt;small&gt;{{as of|2020|1|01|lc=y}}&lt;/small&gt;
+}}
+| programme             = Mars rovers (NASA)
+| previous_mission      = ''[[Spirit (rover)|Spirit]]''{{\}}''[[Opportunity (rover)|Opportunity]]''
+| next_mission          = ''[[Perseverance (rover)|Perseverance]]''
+}}
+
+'''''Curiosity''''' is a [[car]]-sized [[rover (space exploration)|rover]] designed to [[Space exploration|explore]] [[Gale (crater)|the crater Gale]] on [[Mars]] as part of [[NASA]]'s [[Mars Science Laboratory]] mission (MSL).&lt;ref name="NASA-Curiosity" /&gt; ''Curiosity'' was launched from [[Cape Canaveral Air Force Station|Cape Canaveral]] on November 26th, 2011, at 15:02&amp;nbsp;UTC and landed on [[Aeolis Palus]] inside Gale on Mars on August 6th, 2012, 05:17&amp;nbsp;UTC.&lt;ref name="Abilleira2013" /&gt;&lt;ref name="bbc20120808" /&gt;&lt;ref name="youtube1" /&gt; The [[Bradbury Landing]] site was less than {{convert|2.4|km|abbr=on}} from the center of the rover's touchdown target after a {{convert|35|e6mi|e6km|abbr=unit|order=flip}} journey.&lt;ref name="NASA-20120822" /&gt;&lt;ref name="autogenerated1" /&gt; The rover's [[#Goals and objectives|goals]] include an investigation of the Martian [[climate of Mars|climate]] and [[geology of Mars|geology]]; assessment of whether the selected field site inside Gale has ever offered [[environmental science|environmental conditions]] favorable for [[Life on Mars|microbial life]], including investigation of the [[Water on Mars|role of water]]; and [[planetary habitability]] studies in preparation for human exploration.&lt;ref name="overview" /&gt;&lt;ref name="goals" /&gt;
+
+In December 2012, ''Curiosity''{{'s}} two-year mission was extended indefinitely,&lt;ref name="3news.nz" /&gt; and on August 5th, 2017, NASA celebrated the fifth anniversary of the ''Curiosity'' rover landing.&lt;ref name="NASA-20170802" /&gt;&lt;ref name="SP-20170805" /&gt; The rover is still operational, and as of June 16th, 2020, ''Curiosity'' has been on Mars for {{Curiosity Mission Timer}} [[Martian day|sols]] ({{time interval|6 August 2012 05:17:57|show=d|disp=raw}} [[day|total days]]) since landing on August 6th, 2012.  ''(See [[Timeline of Mars Science Laboratory#Current status|current status]].)''
+
+''Curiosity''{{'s}} design serves as the basis for the planned [[Perseverance (rover)|''Perseverance'' rover]], which will carry different scientific instruments.
+
+== Goals and objectives ==
+[[File:Mars Science Laboratory Curiosity Rover Animation.webm|right|thumb|Animation of the ''Curiosity'' rover, showing its capabilities]]
+As established by the [[Mars Exploration Program]], the main scientific goals of the MSL mission are to help determine whether Mars could ever have supported [[life on Mars|life]], as well as determining the [[Water on Mars|role of water]], and to study the [[climate of Mars|climate]] and [[geology of Mars]].&lt;ref name="overview" /&gt;&lt;ref name="goals" /&gt; The mission results will also help prepare for human exploration.&lt;ref name="goals" /&gt; To contribute to these goals, MSL has eight main scientific objectives:&lt;ref name="nasa.obj" /&gt;
+;Biological:
+&lt;ol type="1" start="1"&gt;
+&lt;li&gt;Determine the nature and inventory of [[Organic compound|organic carbon compounds]]&lt;/li&gt;
+&lt;li&gt;Investigate the chemical [[CHON|building blocks of life]] (carbon, hydrogen, nitrogen, oxygen, phosphorus, and [[sulfur]])&lt;/li&gt;
+&lt;li&gt;Identify features that may represent the effects of biological processes ([[biosignature]]s and [[biomolecule]]s)&lt;/li&gt;
+&lt;/ol&gt;
+;Geological and geochemical:
+&lt;ol type="1" start="4"&gt;
+&lt;li&gt;Investigate the chemical, [[Isotope|isotopic]], and mineralogical composition of the Martian surface and near-surface geological materials&lt;/li&gt;
+&lt;li&gt;Interpret the processes that have formed and [[Pedology (soil study)|modified rocks and soils]]&lt;/li&gt;
+&lt;/ol&gt;
+;Planetary process:
+&lt;ol type="1" start="6"&gt;
+&lt;li&gt;Assess long-timescale (i.e., 4-billion-year) [[Atmosphere of Mars|Martian atmospheric]] evolution processes&lt;/li&gt;
+&lt;li&gt;Determine present state, distribution, and [[Water on Mars|cycling of water]] and [[carbon dioxide]]&lt;/li&gt;
+&lt;/ol&gt;
+;Surface radiation:
+&lt;ol type="1" start="8"&gt;
+&lt;li&gt;Characterize the broad spectrum of surface radiation, including [[cosmic ray|galactic and cosmic radiation]], [[solar proton event]]s and [[Neutron#High-energy neutrons|secondary neutrons]]. As part of its exploration, it also measured the radiation exposure in the interior of the spacecraft as it traveled to Mars, and it is continuing radiation measurements as it explores the surface of Mars. This data would be important for a future [[Human mission to Mars|crewed mission]].&lt;ref name="double" /&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+
+About one year into the surface mission, and having assessed that ancient Mars could have been hospitable to microbial life, the MSL mission objectives evolved to developing predictive models for the preservation process of [[organic compound]]s and [[biomolecules]]; a branch of paleontology called [[taphonomy]].&lt;ref name="Science 01-24-2014" /&gt;
+
+== Specifications ==
+''Curiosity'' comprised 23% of the mass of the {{convert|3893|kg|lb|abbr=on}} spacecraft at launch. The remaining mass was discarded in the process of transport and landing.
+* '''Dimensions''': ''Curiosity'' has a mass of {{convert|899|kg|lb|abbr=on}} including {{convert|80|kg|lb|abbr=on}} of scientific instruments.&lt;ref name="MSLUSAToday" /&gt; The rover is {{convert|2.9|m|ft|abbr=on}} long by {{convert|2.7|m|ft|abbr=on}} wide by {{convert|2.2|m|ft|abbr=on}} in height.&lt;ref name="cnes" /&gt;
+[[File:Fueling of the MSL MMRTG 001.jpg|thumb|Radioisotope pellet within a graphite shell that fuels the generator]]
+* '''Power source''': ''Curiosity'' is powered by a [[radioisotope thermoelectric generator]] (RTG), like the successful ''[[Viking 1]]'' and ''[[Viking 2]]'' Mars landers in 1976.&lt;ref name="MMRTG" /&gt;&lt;ref name="MarsExplorationMMRTG" /&gt;
+:Radioisotope power systems (RPSs) are generators that produce electricity from the decay of [[radioactive isotopes]], such as [[plutonium-238]], which is a non-[[fissile]] isotope of plutonium. Heat given off by the decay of this isotope is converted into electric voltage by [[thermocouple]]s, providing constant power during all seasons and through the day and night. [[Waste heat]] is also used via pipes to warm systems, freeing electrical power for the operation of the vehicle and instruments.&lt;ref name="MMRTG" /&gt;&lt;ref name="MarsExplorationMMRTG" /&gt; ''Curiosity''{{'s}} RTG is fueled by {{convert|4.8|kg|lb|abbr=on}} of [[Plutonium(IV) oxide|plutonium-238 dioxide]] supplied by the [[U.S. Department of Energy]].&lt;ref name="sfnow20111117" /&gt;
+
+:''Curiosity'''s RTG is the [[Multi-Mission Radioisotope Thermoelectric Generator]] (MMRTG), designed and built by [[Rocketdyne]] and [[Teledyne Technologies|Teledyne Energy Systems]] under contract to the [[United States Department of Energy|U.S. Department of Energy]],&lt;ref name="Ritz2004" /&gt; and assembled and tested by the [[Idaho National Laboratory]].&lt;ref name="Idaho2011" /&gt; Based on legacy RTG technology, it represents a more flexible and compact development step,&lt;ref name="MSLPower" /&gt; and is designed to produce 110 watts of electrical power and about 2,000 watts of thermal power at the start of the mission.&lt;ref name="MMRTG" /&gt;&lt;ref name="MarsExplorationMMRTG" /&gt; The MMRTG produces less power over time as its plutonium fuel decays: at its minimum lifetime of 14 years, electrical power output is down to 100 watts.&lt;ref name="Mars Science Laboratory – Technologies of Broad Benefit: Power" /&gt;&lt;ref name="Overview of NASA Program on Development of Radioisotope Power Systems with High Specific Power" /&gt; The power source generates {{convert|9|MJ|kWh|abbr=on|lk=on}} of electrical energy each day, much more than the solar panels of the now retired [[Mars Exploration Rover]]s, which generated about {{convert|2.1|MJ|kWh|abbr=on}} each day. The electrical output from the MMRTG charges two rechargeable [[Lithium-ion battery|lithium-ion batteries]]. This enables the power subsystem to meet peak power demands of rover activities when the demand temporarily exceeds the generator's steady output level. Each battery has a capacity of about 42&amp;nbsp;[[ampere-hour]]s.
+* '''Heat rejection system''': The temperatures at the landing site can vary from {{convert|-127|to|40|C|F}}; therefore, the thermal system warms the rover for most of the Martian year. The thermal system does so in several ways: passively, through the dissipation to internal components; by electrical heaters strategically placed on key components; and by using the rover heat rejection system (HRS).&lt;ref name="DESCANSO" /&gt; It uses fluid pumped through {{convert|60|m|ft|abbr=on}} of tubing in the rover body so that sensitive components are kept at optimal temperatures.&lt;ref name="HRS" /&gt; The fluid loop serves the additional purpose of rejecting heat when the rover has become too warm, and it can also gather waste heat from the power source by pumping fluid through two heat exchangers that are mounted alongside the RTG. The HRS also has the ability to cool components if necessary.&lt;ref name="HRS" /&gt;
+* '''Computers''': The two identical on-board rover computers, called Rover Compute Element (RCE) contain [[Radiation hardening|radiation hardened]] memory to tolerate the extreme radiation from space and to safeguard against power-off cycles. The computers run the [[VxWorks]] [[real-time operating system]] (RTOS). Each computer's memory includes 256 [[Kilobyte|kB]] of [[EEPROM]], 256 [[Megabyte|MB]] of [[Dynamic random-access memory|DRAM]], and 2 [[Gigabyte|GB]] of [[flash memory]].&lt;ref name="Brains" /&gt; For comparison, the Mars Exploration Rovers used 3 MB of EEPROM, 128 MB of DRAM, and 256 MB of flash memory.&lt;ref name="ieeecomputer" /&gt;
+
+:The RCE computers use the [[RAD750]] [[Central processing unit|CPU]], which is a successor to the [[IBM RAD6000|RAD6000]] CPU of the Mars Exploration Rovers.&lt;ref name="BAE Systems Computers to Manage Data Processing and Command For Upcoming Satellite Missions" /&gt;&lt;ref name="E&amp;ISNow — Media gets closer look at Manassas" /&gt; The RAD750 CPU, a radiation-hardened version of the [[PowerPC 750]], can execute up to 400&amp;nbsp;[[Million instructions per second|MIPS]], while the RAD6000 CPU is capable of up to only 35&amp;nbsp;MIPS.&lt;ref name="RAD750brochure" /&gt;&lt;ref name="RAD6000brochure" /&gt; Of the two on-board computers, one is configured as backup and will take over in the event of problems with the main computer.&lt;ref name="Brains" /&gt; On February 28, 2013, NASA was forced to switch to the backup computer due to a problem with the active computer's flash memory, which resulted in the computer continuously rebooting in a loop. The backup computer was turned on in [[safe mode]] and subsequently returned to active status on March 4.&lt;ref name="NASA-20130304" /&gt; The same problem happened in late March, resuming full operations on March 25, 2013.&lt;ref name="NASA-20130325" /&gt;
+:The rover has an [[inertial measurement unit]] (IMU) that provides 3-axis information on its position, which is used in rover navigation.&lt;ref name="Brains" /&gt; The rover's computers are constantly self-monitoring to keep the rover operational, such as by regulating the rover's temperature.&lt;ref name="Brains" /&gt; Activities such as taking pictures, driving, and operating the instruments are performed in a command sequence that is sent from the flight team to the rover.&lt;ref name="Brains" /&gt; The rover installed its full surface operations software after the landing because its computers did not have sufficient main memory available during flight. The new software essentially replaced the flight software.&lt;ref name="autogenerated1" /&gt;
+:The rover has four processors. One of them is a [[SPARC]] processor that runs the rover's thrusters and descent-stage motors as it descended through the Martian atmosphere. Two others are [[PowerPC]] processors: the main processor, which handles nearly all of the rover's ground functions, and that processor's backup. The fourth one, another [[SPARC]] processor, commands the rover's movement and is part of its [[motor controller]] box. All four processors are [[single-core|single core]].&lt;ref name="Gaudin" /&gt;
+
+[[File:PIA16106 - Curiosity speaks and orbiters listen.jpg|thumb|350px|''Curiosity'' transmits to Earth directly or via three relay satellites in Mars orbit.]]
+*'''Communications''': ''Curiosity'' is equipped with significant telecommunication redundancy by several means: an [[X band]] [[transponder (satellite communications)|transmitter and receiver]] that can communicate directly with Earth, and a UHF [[Electra (radio)|Electra]]-Lite [[software-defined radio]] for communicating with Mars orbiters.&lt;ref name="DESCANSO" /&gt; Communication with orbiters is the main path for data return to Earth, since the orbiters have both more power and larger antennas than the lander, allowing for faster transmission speeds.&lt;ref name="DESCANSO" /&gt; Telecommunication included a small deep space transponder on the descent stage and a solid-state power amplifier on the rover for [[X band]]. The rover also has two [[UHF]] radios,&lt;ref name="DESCANSO" /&gt; the signals of which orbiting relay satellites are capable of relaying back to Earth. Signals between Earth and Mars take an average of 14 minutes, 6 seconds.&lt;ref name="Mars-Earth distance in light minutes" /&gt; ''Curiosity'' can communicate with Earth directly at speeds up to 32&amp;nbsp;kbit/s, but the bulk of the data transfer is being relayed through the [[Mars Reconnaissance Orbiter]] and [[2001 Mars Odyssey|Odyssey orbiter]]. Data transfer speeds between ''Curiosity'' and each orbiter may reach 2000&amp;nbsp;kbit/s and 256&amp;nbsp;kbit/s, respectively, but each orbiter is able to communicate with ''Curiosity'' for only about eight minutes per day (0.56% of the time).&lt;ref name="Curiosity's data communication with Earth" /&gt; Communication from and to ''Curiosity'' relies on internationally agreed space data [[communications protocol]]s as defined by the Consultative Committee for Space Data Systems.&lt;ref name="aiaa.13350" /&gt;
+
+:[[JPL]] is the central data distribution hub where selected data products are provided to remote science operations sites as needed. JPL is also the central hub for the uplink process, though participants are distributed at their respective home institutions.&lt;ref name="DESCANSO" /&gt; At landing, telemetry was monitored by three orbiters, depending on their dynamic location: the [[2001 Mars Odyssey]], [[Mars Reconnaissance Orbiter]] and ESA's [[Mars Express]] satellite.&lt;ref name="ESA spacecraft records crucial NASA signals from Mars" /&gt; As of February 2019, the [[MAVEN]] orbiter is being positioned to serve as a relay orbiter while continuing its science mission.&lt;ref name="relay orbit" /&gt; 
+* '''Mobility systems''': ''Curiosity'' is equipped with six {{convert|50|cm|in|abbr=on}} diameter wheels in a [[rocker-bogie]] suspension. The suspension system also served as landing gear for the vehicle, unlike its smaller predecessors.&lt;ref name="new wheels" /&gt;&lt;ref name="nasa.build" /&gt; Each wheel has cleats and is independently actuated and geared, providing for climbing in soft sand and scrambling over rocks. Each front and rear wheel can be independently steered, allowing the vehicle to turn in place as well as execute arcing turns.&lt;ref name="DESCANSO" /&gt; Each wheel has a pattern that helps it maintain traction but also leaves patterned tracks in the sandy surface of Mars. That pattern is used by on-board cameras to estimate the distance traveled. The pattern itself is [[Morse code]] for "JPL" (·--- ·--· ·-··).&lt;ref name="aarlmorse" /&gt; The rover is capable of climbing sand dunes with slopes up to 12.5°.&lt;ref name="nasa.249" /&gt; Based on the [[center of mass]], the vehicle can withstand a tilt of at least 50° in any direction without overturning, but automatic sensors limit the rover from exceeding 30° tilts.&lt;ref name="DESCANSO" /&gt; After six years of use, the wheels are visibly worn with punctures and tears.&lt;ref name="planetary20140819" /&gt;
+
+:''Curiosity'' can roll over obstacles approaching {{convert|65|cm|in|abbr=on}} in height,&lt;ref name="facts" /&gt; and it has a ground clearance of {{convert|60|cm|in|abbr=on}}.&lt;ref name="first drive" /&gt; Based on variables including power levels, terrain difficulty, slippage and visibility, the maximum terrain-traverse speed is estimated to be {{convert|200|m|ft|abbr=on}} per day by automatic navigation.&lt;ref name="facts" /&gt; The rover landed about {{convert|10|km|mi|abbr=on}} from the base of Mount Sharp,&lt;ref name="stuff-7437621" /&gt; (officially named [[Aeolis Mons]]) and it is expected to traverse a minimum of {{convert|19|km|mi|abbr=on}} during its primary two-year mission.&lt;ref name="home" /&gt; It can travel up to {{convert|90|m|ft|abbr=on}} per hour but average speed is about {{convert|30|m|ft|abbr=on}} per hour.&lt;ref name="home" /&gt; The vehicle is 'driven' by several operators led by [[Vandi Verma]], group leader of Autonomous Systems, Mobility and Robotic Systems at JPL,&lt;ref name="rg2019" /&gt;&lt;ref name="jpl2019" /&gt; who also cowrote the [[PLEXIL]] language used to operate the rover.&lt;ref name="ntrs2019" /&gt;&lt;ref name="plex2019" /&gt;&lt;ref name="nasaapps" /&gt;
+
+== Instruments ==
+[[File:Drawing-of-the-Mars-Science Laboratory.png|thumb|350px|Instrument location diagram]]
+The general sample analysis strategy begins with high-resolution cameras to look for features of interest. If a particular surface is of interest, ''Curiosity'' can vaporize a small portion of it with an infrared laser and examine the resulting spectra signature to query the rock's elemental composition. If that signature is intriguing, the rover uses its long arm to swing over a [[Mars Hand Lens Imager|microscope]] and an [[X-ray spectroscopy|X-ray spectrometer]] to take a closer look. If the specimen warrants further analysis, ''Curiosity'' can drill into the boulder and deliver a powdered sample to either the [[Sample Analysis at Mars|SAM]] or the [[CheMin]] analytical laboratories inside the rover.&lt;ref name="Gale Crater: Geological 'sweet shop' awaits Mars rover" /&gt;&lt;ref name="MSLSAM" /&gt;&lt;ref name="nasa2" /&gt; The MastCam, Mars Hand Lens Imager (MAHLI), and Mars Descent Imager (MARDI) cameras were developed by [[Malin Space Science Systems]] and they all share common design components, such as on-board electronic [[image processing|imaging processing]] boxes, 1600×1200 [[Charge-coupled device|CCDs]], and an [[Bayer filter|RGB Bayer pattern filter]].&lt;ref name="LPSCMast" /&gt;&lt;ref name="MastCam" /&gt;&lt;ref name="MAHLI" /&gt;&lt;ref name="MARDI" /&gt;&lt;ref name="MastCamDescription" /&gt;&lt;ref name="NovEmail" /&gt;
+
+In total, the rover carries 17 cameras: HazCams (8), NavCams (4), MastCams (2), MAHLI (1), MARDI (1), and ChemCam (1).&lt;ref name="wired20120807" /&gt;
+
+=== Mast Camera (MastCam) ===
+[[File:Msl-arm.jpg|thumb|left|The turret at the end of the robotic arm holds five devices.]]
+The MastCam system provides multiple spectra and [[color of water|true-color]] imaging with two cameras.&lt;ref name="MastCam" /&gt; The cameras can take true-color images at 1600×1200 [[pixels]] and up to 10 [[frames per second]] hardware-compressed video at [[720p]] (1280×720).&lt;ref name="arstech20120807" /&gt;
+
+One MastCam camera is the Medium Angle Camera (MAC), which has a {{convert|34|mm|in|abbr=on}} [[focal length]], a 15° [[field of view]], and can yield 22&amp;nbsp;cm/pixel (8.7 in/pixel) scale at {{convert|1|km|mi|abbr=on}}. The other camera in the MastCam is the Narrow Angle Camera (NAC), which has a {{convert|100|mm|in|abbr=on}} focal length, a 5.1° field of view, and can yield 7.4&amp;nbsp;cm/pixel (2.9 in/pixel) scale at {{convert|1|km|mi|abbr=on}}.&lt;ref name="MastCam" /&gt; Malin also developed a pair of MastCams with zoom lenses,&lt;ref name="Mars Science Laboratory (MSL) Mast Camera (MastCam)" /&gt; but these were not included in the rover because of the time required to test the new hardware and the looming November 2011 launch date.&lt;ref name="NASA Nixes 3-D Camera for Next Mars Rover" /&gt; However, the improved zoom version was selected to be incorporated on the upcoming [[Mars 2020]] mission as [[Mastcam-Z]].&lt;ref name="Bell2014a" /&gt;
+
+Each camera has eight gigabytes of flash memory, which is capable of storing over 5,500 raw images, and can apply real time [[lossless data compression]].&lt;ref name="MastCam" /&gt; The cameras have an autofocus capability that allows them to focus on objects from {{convert|2.1|m|abbr=on}} to infinity.&lt;ref name="MastCamDescription" /&gt; In addition to the fixed RGBG [[Bayer filter|Bayer pattern filter]], each camera has an eight-position filter wheel. While the Bayer filter reduces visible light throughput, all three colors are mostly transparent at wavelengths longer than 700&amp;nbsp;nm, and have minimal effect on such [[infrared]] observations.&lt;ref name="MastCam" /&gt;
+{{Clear}}
+
+=== Chemistry and Camera complex (ChemCam) ===
+{{Main|Chemistry and Camera complex}}
+[[File:483646main pia13398-4x3 1600-1200.jpg|thumb|The internal spectrometer (left) and the laser telescope (right) for the mast]]
+ChemCam is a suite of two remote sensing instruments combined as one: a [[laser-induced breakdown spectroscopy]] (LIBS) and a Remote Micro Imager (RMI) telescope. The ChemCam instrument suite was developed by the French [[Centre d'Etude Spatiale des Rayonnements|CESR]] laboratory and the [[Los Alamos National Laboratory]].&lt;ref name="MSLChemCam" /&gt;&lt;ref name="Comparative study of different methodologies for quantitative rock analysis by Laser-Induced Breakdown Spectroscopy in a simulated Martian atmosphere" /&gt;&lt;ref name="Corrections and Clarifications, News of the Week" /&gt; The flight model of the mast unit was delivered from the French [[CNES]] to [[Los Alamos National Laboratory]].&lt;ref name="lanl" /&gt; The purpose of the LIBS instrument is to provide elemental compositions of rock and soil, while the RMI gives ChemCam scientists high-resolution images of the sampling areas of the rocks and soil that LIBS targets.&lt;ref name="MSLChemCam" /&gt;&lt;ref name="Spacecraft: Surface Operations Configuration: Science Instruments: ChemCam" /&gt; The LIBS instrument can target a rock or soil sample up to {{convert|7|m|ft|abbr=on}} away, vaporizing a small amount of it with about 50 to 75 5-nanosecond pulses from a 1067&amp;nbsp;[[Nanometre|nm]] [[infrared]] laser and then observes the spectrum of the light emitted by the vaporized rock.&lt;ref name="softpedia20131206" /&gt;
+
+[[File:PIA16089.jpg|thumb|left|First [[Laser-induced breakdown spectroscopy|laser spectrum]] of [[chemical element]]s from ChemCam on ''Curiosity'' ([[N165|"Coronation" rock]], August 19, 2012)]]
+
+ChemCam has the ability to record up to 6,144 different wavelengths of ultraviolet, visible, and infrared light.&lt;ref name="nasa.1315" /&gt; Detection of the ball of luminous plasma is done in the visible, near-UV and near-infrared ranges, between 240&amp;nbsp;nm and 800&amp;nbsp;nm.&lt;ref name="MSLChemCam" /&gt; The first initial laser testing of the ChemCam by ''Curiosity'' on Mars was performed on a rock, [[N165|N165 ("Coronation" rock)]], near [[Bradbury Landing]] on August 19, 2012.&lt;ref name="NASA-20120819a" /&gt;&lt;ref name="NASA-20120819" /&gt;&lt;ref name="BBC-20120817" /&gt; The ChemCam team expects to take approximately one dozen compositional measurements of rocks per day.&lt;ref name="chemcam" /&gt;
+
+Using the same collection optics, the RMI provides context images of the LIBS analysis spots. The RMI resolves {{convert|1|mm|in|abbr=on}} objects at {{convert|10|m|ft|abbr=on}} distance, and has a field of view covering {{convert|20|cm|in|abbr=on}} at that distance.&lt;ref name="MSLChemCam" /&gt;
+
+=== Navigation cameras (navcams) ===
+[[File:First two full-resolution images from the Curosity rover.jpg|thumb|First full-resolution Navcam images]]
+{{Main|Navcam}}
+The rover has two pairs of black and white [[navcam|navigation cameras]] mounted on the mast to support ground navigation.&lt;ref name="MSLPhotosynth" /&gt;&lt;ref name="NavCameras" /&gt; The cameras have a 45° [[angle of view]] and use visible light to capture [[Stereoscopy|stereoscopic 3-D imagery]].&lt;ref name="NavCameras" /&gt;&lt;ref name="planetary.2012" /&gt;
+
+=== Rover Environmental Monitoring Station (REMS) ===
+{{Main|Rover Environmental Monitoring Station}}
+REMS comprises instruments to measure the Mars environment: humidity, pressure, temperatures, wind speeds, and ultraviolet radiation.&lt;ref name="Rover Environmental Monitoring Station for MSL mission" /&gt; It is a meteorological package that includes an [[ultraviolet]] sensor provided by the [[Ministry of Education (Spain)|Spanish Ministry of Education and Science]]. The investigative team is led by Javier Gómez-Elvira of the [[Spanish Astrobiology Center]] and includes the [[Finnish Meteorological Institute]] as a partner.&lt;ref name="MSLREMS" /&gt;&lt;ref name="MSLREMS-pdf" /&gt; All sensors are located around three elements: two booms attached to the rover's mast, the Ultraviolet Sensor (UVS) assembly located on the rover top deck, and the Instrument Control Unit (ICU) inside the rover body. REMS provides new clues about the Martian general circulation, micro scale weather systems, local hydrological cycle, destructive potential of UV radiation, and subsurface habitability based on ground-atmosphere interaction.&lt;ref name="MSLREMS" /&gt;
+
+=== Hazard avoidance cameras (hazcams) ===
+{{main|Hazcam}}
+The rover has four pairs of black and white navigation cameras called [[hazcam]]s, two pairs in the front and two pairs in the back.&lt;ref name="MSLPhotosynth" /&gt;&lt;ref name="HazardAvoidanceCameras" /&gt; They are used for autonomous hazard avoidance during rover drives and for safe positioning of the robotic arm on rocks and soils.&lt;ref name="HazardAvoidanceCameras" /&gt; Each camera in a pair is hardlinked to one of two identical main computers for redundancy; only four out of the eight cameras are in use at any one time. The cameras use visible light to capture [[Stereoscopy|stereoscopic]] three-dimensional (3-D) imagery.&lt;ref name="HazardAvoidanceCameras" /&gt; The cameras have a 120° [[field of view]] and map the terrain at up to {{convert|3|m|ft|abbr=on}} in front of the rover.&lt;ref name="HazardAvoidanceCameras" /&gt; This imagery safeguards against the rover crashing into unexpected obstacles, and works in tandem with software that allows the rover to make its own safety choices.&lt;ref name="HazardAvoidanceCameras" /&gt;
+
+=== Mars Hand Lens Imager (MAHLI) ===
+{{Multiple image |direction=horizontal |align=right |total_width=350
+| image1=PIA16161-Mars Curiosity Rover-MAHLI.jpg |caption1=[[#Mars Hand Lens Imager (MAHLI)|Mars Hand Lens Imager]] (MAHLI)
+| image2=PIA16160-Mars Curiosity Rover-APXS.jpg |caption2=[[#Alpha Particle X-ray Spectrometer (APXS)|Alpha Particle X-Ray Spectrometer]] (APXS)
+}}
+{{Main|Mars Hand Lens Imager}}
+MAHLI is a camera on the rover's robotic arm, and acquires microscopic images of rock and soil. MAHLI can take [[24-bit color|true-color]] images at 1600×1200 [[pixel]]s with a resolution as high as 14.5 [[micrometre|micrometers]] per pixel. MAHLI has an {{convert|18.3|to|21.3|mm|in|abbr=on}} focal length and a 33.8–38.5° field of view.&lt;ref name="MAHLI" /&gt; MAHLI has both white and ultraviolet [[LED]] illumination for imaging in darkness or [[fluorescence]] imaging. MAHLI also has mechanical focusing in a range from infinite to millimeter distances.&lt;ref name="MAHLI" /&gt; This system can make some images with [[focus stacking]] processing.&lt;ref name="Mars Hand Lens Imager (MAHLI)" /&gt; MAHLI can store either the raw images or do real time lossless predictive or JPEG compression. The calibration target for MAHLI includes color references, a metric bar graphic, a 1909 VDB Lincoln penny, and a stair-step pattern for depth calibration.&lt;ref name="NASA-20120913" /&gt;
+
+=== Alpha Particle X-ray Spectrometer (APXS) ===
+{{See also|Alpha particle X-ray spectrometer}}
+The APXS instrument irradiates samples with [[alpha particle]]s and maps the spectra of [[X-ray]]s that are re-emitted for determining the elemental composition of samples.&lt;ref name="MSLAPXS" /&gt; ''Curiosity''{{'s}} APXS was developed by the [[Canadian Space Agency]].&lt;ref name="MSLAPXS" /&gt; [[MacDonald Dettwiler|MacDonald Dettwiler (MDA)]], the Canadian aerospace company that built the [[Canadarm]] and [[RADARSAT]], were responsible for the engineering design and building of the APXS. The APXS science team includes members from the [[University of Guelph]], the [[University of New Brunswick]], the [[University of Western Ontario]], [[NASA]], the [[University of California, San Diego]] and [[Cornell University]].&lt;ref name="usra" /&gt; The APXS instrument takes advantage of [[particle-induced X-ray emission]] (PIXE) and [[X-ray fluorescence]], previously exploited by the [[Mars Pathfinder]] and the two [[Mars Exploration Rover]]s.&lt;ref name="MSLAPXS" /&gt;&lt;ref name="The new Athena alpha particle X-ray spectrometer for the Mars Exploration Rovers" /&gt;
+
+=== Chemistry and Mineralogy (CheMin)  ===
+{{Multiple image
+ |direction=horizontal |align=left |total_width=350
+ |image1=PIA16161-Mars Curiosity Rover-CheMin-Closed.jpg
+ |image2=PIA16161-Mars Curiosity Rover-CheMin-Open.jpg
+ |footer=''Curiosity''{{'s}} [[#Chemistry and Mineralogy (CheMin)|CheMin Spectrometer]] on Mars (September 11, 2012), with sample inlet seen closed and open.
+}}
+[[File:PIA16217-MarsCuriosityRover-1stXRayView-20121017.jpg|thumb|First [[X-ray crystallography#Mineralogy and metallurgy|X-ray diffraction]] view of [[Martian soil]] (''Curiosity'' at [[Rocknest (Mars)|Rocknest]], October 17, 2012).&lt;ref name="NASA-20121030" /&gt;]]
+{{Main|CheMin}}
+
+[[CheMin]] is the Chemistry and Mineralogy [[X-ray diffraction|X-ray]] [[powder diffraction]] and [[X-ray fluorescence|fluorescence]] instrument.&lt;ref name="MSLCheMin" /&gt; CheMin is one of four [[spectrometer]]s. It can identify and quantify the abundance of the minerals on Mars. It was developed by David Blake at NASA [[Ames Research Center]] and the [[Jet Propulsion Laboratory]],&lt;ref name="fluorescence" /&gt; and won the 2013 NASA Government Invention of the year award.&lt;ref name="nasa20140624" /&gt; The rover can drill samples from rocks and the resulting fine powder is poured into the instrument via a sample inlet tube on the top of the vehicle. A beam of X-rays is then directed at the powder and the crystal structure of the minerals deflects it at characteristic angles, allowing scientists to identify the minerals being analyzed.&lt;ref name="SciPackage" /&gt;
+
+On October 17, 2012, at "[[Rocknest (Mars)|Rocknest]]", the first [[X-ray crystallography#Mineralogy and metallurgy|X-ray diffraction analysis]] of [[Martian soil]] was performed. The results revealed the presence of several minerals, including [[feldspar]], [[pyroxene]]s and [[olivine]], and suggested that the Martian soil in the sample was similar to the "weathered [[Basalt|basaltic soils]]" of [[Hawaiʻi Volcanoes National Park|Hawaiian volcanoes]].&lt;ref name="NASA-20121030" /&gt; The paragonetic [[tephra]] from a Hawaiian [[cinder cone]] has been mined to create [[Martian regolith simulant]] for researchers to use since 1998.&lt;ref name="Beegle2007" /&gt;&lt;ref name="Allen1997" /&gt;
+
+=== Sample Analysis at Mars (SAM) ===
+{{Multiple image
+ |direction=horizontal |align=left |total_width=350
+ |image1=PIA16711-MarsCuriosityRover-SayunyeiRock-20130122wh.jpg
+ |image2=PIA16712-MarsCuriosityRover-SayuneiRock-20130122uv.jpg
+ |footer=First night-time pictures on Mars (white-light left/[[ultraviolet|UV]] right) (''Curiosity'' viewing [[List of rocks on Mars#Curiosity|Sayunei]] rock, January 22, 2013)
+}}
+{{Main|Sample Analysis at Mars}}
+The SAM instrument suite analyzes [[organic compound|organics]] and gases from both atmospheric and solid samples. It consists of instruments developed by the NASA [[Goddard Space Flight Center]], the Laboratoire Inter-Universitaire des Systèmes Atmosphériques (LISA) (jointly operated by France's [[CNRS]] and Parisian universities), and [[Honeybee Robotics]], along with many additional external partners.&lt;ref name="MSLSAM" /&gt;&lt;ref name="search" /&gt;&lt;ref name="SAM" /&gt; The three main instruments are a [[Quadrupole Mass Spectrometer]] (QMS), a [[gas chromatograph]] (GC) and a [[Resonance Raman spectroscopy#Instrumentation|tunable laser spectrometer (TLS)]]. These instruments perform precision measurements of [[oxygen]] and [[carbon]] [[isotope]] ratios in [[Atmosphere of Mars#Carbon dioxide|carbon dioxide]] (CO&lt;sub&gt;2&lt;/sub&gt;) and [[Atmosphere of Mars#Methane|methane]] (CH&lt;sub&gt;4&lt;/sub&gt;) in the [[atmosphere of Mars]] in order to distinguish between their [[Geochemistry|geochemical]] or [[biology|biological]] origin.&lt;ref name="MSLSAM" /&gt;&lt;ref name="SAM" /&gt;&lt;ref name="astrobio.2765" /&gt;&lt;ref name="optics.6923" /&gt;&lt;ref name="Mah2012" /&gt;
+
+=== Dust Removal Tool (DRT) ===
+{{Multiple image
+ |direction=horizontal |align=right |total_width=350
+ |image1=PIA16619-MarsCuriosityRover-Ekwir1-CleanDRT-20130106.gif
+ |image2=MarsCuriosityRover-DustRemovalTool-Before-PIA16566.jpg
+ |footer=First use of ''Curiosity''{{'s}} [[#Dust Removal Tool (DRT)|Dust Removal Tool]] (DRT) (January 6, 2013); [[List of rocks on Mars#Curiosity|Ekwir_1]] rock before/after cleaning (left) and closeup (right)
+}}
+The Dust Removal Tool (DRT) is a motorized, wire-bristle brush on the turret at the end of ''Curiosity''{{'s}} arm. The DRT was first used on a rock target named [[List of rocks on Mars#Curiosity|Ekwir_1]] on January 6, 2013. [[Honeybee Robotics]] built the DRT.&lt;ref name="space20130107" /&gt;
+
+=== Radiation assessment detector (RAD) ===
+{{Main|Radiation assessment detector}}
+The role of the RAD instrument is to characterize the broad spectrum of radiation environment found inside the spacecraft during the cruise phase and while on Mars. These measurements have never been done before from the inside of a spacecraft in interplanetary space. Its primary purpose is to determine the viability and shielding needs for potential human explorers, as well as to characterize the radiation environment on the surface of Mars, which it started doing immediately after MSL landed in August 2012.&lt;ref name="MSLRAD" /&gt; Funded by the Exploration Systems Mission Directorate at NASA Headquarters and Germany's Space Agency (DLR), RAD was developed by [[Southwest Research Institute]] (SwRI) and the extraterrestrial physics group at [[University of Kiel|Christian-Albrechts-Universität zu Kiel]], Germany.&lt;ref name="MSLRAD" /&gt;&lt;ref name="rad" /&gt;
+
+=== Dynamic Albedo of Neutrons (DAN) ===
+{{main|Dynamic Albedo of Neutrons}}
+The DAN instrument employs a [[neutron source]] and detector for measuring the quantity and depth of [[hydrogen]] or ice and water at or near the Martian surface.&lt;ref name="IKI" /&gt; 
+The instrument consists of the detector element (DE) and a 14.1 MeV pulsing neutron generator (PNG). The die-away time of neutrons is measured by the DE after each neutron pulse from the PNG.
+DAN was provided by the [[Russian Federal Space Agency]]&lt;ref name="MSLDAN" /&gt;&lt;ref name="The Dynamic Albedo of Neutrons (DAN) Experiment for NASA's 2009 Mars Science Laboratory" /&gt; and funded by Russia.&lt;ref name="Mars Science Laboratory: Mission" /&gt;
+{{clear left}}
+
+=== Mars Descent Imager (MARDI) ===
+[[File:MARDI-MSL-camera.jpg|thumb|MARDI camera]]
+
+MARDI was fixed to the lower front left corner of the body of ''Curiosity''. During the descent to the Martian surface, MARDI took color images at 1600×1200 pixels with a 1.3-millisecond exposure time starting at distances of about {{convert|3.7|km|mi|abbr=on}} to near {{convert|5|m|ft|abbr=on}} from the ground, at a rate of four [[frames per second]] for about two minutes.&lt;ref name="MARDI" /&gt;&lt;ref name="Mars Descent Imager (MARDI) Update" /&gt; MARDI has a pixel scale of {{convert|1.5|m|ft|abbr=on}} at {{convert|2|km|mi|abbr=on}} to {{convert|1.5|mm|in|abbr=on}} at {{convert|2|m|ft|abbr=on}} and has a 90° circular field of view. MARDI has eight gigabytes of internal buffer memory that is capable of storing over 4,000 raw images. MARDI imaging allowed the mapping of surrounding terrain and the location of landing.&lt;ref name="MARDI" /&gt; [[JunoCam]], built for the [[Juno (spacecraft)|''Juno'' spacecraft]], is based on MARDI.&lt;ref name="Junocam, Juno Jupiter Orbiter" /&gt;
+
+=== Robotic arm ===
+{{Multiple image
+ |direction=vertical |align=left |total_width=200
+ |image1=PIA16225-MarsCuriosityRover-ScooperTest-20121008.jpg
+ |image2=PIA16226-MarsCuriosityRover-FirstScoopOfSoil-20121007.jpg
+ |footer=First use of ''Curiosity''{{'s}} [[#Robotic arm|scooper]] as it sifts a load of [[Martian soil|sand]] at [[Rocknest (Mars)|Rocknest]] (October 7, 2012)
+}}
+[[File:MarsCuriosityRover-Drilling-01.jpg|thumb|[[Timeline of Mars Science Laboratory#Images|First drill tests]] ([[List of rocks on Mars#Curiosity|John Klein rock]], [[Yellowknife Bay, Mars|Yellowknife Bay]], February 2, 2013).&lt;ref name="TMJ-20130203" /&gt;]]
+
+The rover has a {{convert|2.1|m|ft|abbr=on}} long [[robotic arm]] with a cross-shaped turret holding five devices that can spin through a 350° turning range.&lt;ref name="rover arm" /&gt;&lt;ref name="Test challenges" /&gt; The arm makes use of three joints to extend it forward and to stow it again while driving. It has a mass of {{convert|30|kg|lb|abbr=on}} and its diameter, including the tools mounted on it, is about {{convert|60|cm|in|abbr=on}}.&lt;ref name="stretches arm" /&gt; It was designed, built, and tested by [[MacDonald, Dettwiler and Associates|MDA US Systems]], building upon their prior robotic arm work on the [[Mars Surveyor 2001 Lander]], the ''[[Phoenix (spacecraft)|Phoenix]]'' lander, and the two [[Mars Exploration Rover]]s, ''Spirit'' and ''Opportunity''.&lt;ref name="mdacorp" /&gt;
+
+Two of the five devices are ''in-situ'' or contact instruments known as the [[#Alpha Particle X-ray Spectrometer (APXS)|X-ray spectrometer]] (APXS), and the [[Mars Hand Lens Imager]] (MAHLI camera). The remaining three are associated with sample acquisition and sample preparation functions: a [[Timeline of Mars Science Laboratory#Images|percussion drill]]; a brush; and mechanisms for scooping, sieving, and portioning samples of powdered rock and soil.&lt;ref name="rover arm" /&gt;&lt;ref name="stretches arm" /&gt; The diameter of the hole in a rock after drilling is {{convert|1.6|cm|in|abbr=on}} and up to {{convert|5|cm|in|abbr=on}} deep.&lt;ref name="Test challenges" /&gt;&lt;ref name="Washington U" /&gt; The drill carries two spare bits.&lt;ref name="Washington U" /&gt;&lt;ref name="esmats.2011" /&gt; The rover's arm and turret system can place the APXS and MAHLI on their respective targets, and also obtain powdered sample from rock interiors, and deliver them to the [[Sample Analysis at Mars|SAM]] and [[CheMin]] analyzers inside the rover.&lt;ref name="Test challenges" /&gt;
+
+Since early 2015 the percussive mechanism in the drill that helps chisel into rock has had an intermittent electrical short.&lt;ref name="drill-fault" /&gt; On December 1, 2016, the motor inside the drill caused a malfunction that prevented the rover from moving its robotic arm and driving to another location.&lt;ref name="popmech20161213" /&gt; The fault was isolated to the drill feed brake,&lt;ref name="spacecom20161215" /&gt; and internal debris is suspected of causing the problem.&lt;ref name="drill-fault" /&gt; By December 9, driving and robotic arm operations were cleared to continue, but drilling remained suspended indefinitely.&lt;ref name="nasa20161209" /&gt; The ''Curiosity'' team continued to perform diagnostics and testing on the drill mechanism throughout 2017,&lt;ref name="planetary20170906" /&gt; and resumed drilling operations on May 22, 2018.&lt;ref name="drillingagain" /&gt;
+
+== Comparisons to other Mars missions ==
+[[File:PIA15279 3rovers-stand D2011 1215 D521.jpg|thumb|left|400px|Two Jet Propulsion Laboratory engineers stand with three vehicles, providing a size comparison of three generations of Mars rovers. Front and center is the flight spare for the first Mars rover, ''Sojourner'', which landed on Mars in 1997 as part of the Mars Pathfinder Project. On the left is a Mars Exploration Rover (MER) test vehicle that is a working sibling to ''Spirit'' and ''Opportunity'', which landed on Mars in 2004. On the right is a test rover for the Mars Science Laboratory, which landed ''Curiosity'' on Mars in 2012.{{paragraph break}} ''Sojourner'' is {{convert|65|cm|ft|abbr=on}} long. The Mars Exploration Rovers (MER) are {{convert|1.6|m|ft|abbr=on}} long. ''Curiosity'' on the right is {{convert|3|m|ft|abbr=on}} long.]]
+
+''Curiosity'' has an advanced [[Payload (air and space craft)|payload]] of scientific equipment on Mars.&lt;ref name="facts" /&gt; It is the fourth NASA robotic rover sent to Mars since 1996. Previous successful Mars rovers are ''[[Sojourner (rover)|Sojourner]]'' from the [[Mars Pathfinder]] mission (1997), and ''[[Spirit (rover)|Spirit]]'' (2004–2010) and ''[[Opportunity (rover)|Opportunity]]'' (2004–2019) rovers from the [[Mars Exploration Rover]] mission.
+
+''Curiosity'' is {{convert|2.9|m|ft|abbr=on}} long by {{convert|2.7|m|ft|abbr=on}} wide by {{convert|2.2|m|ft|abbr=on}} in height,&lt;ref name="cnes" /&gt; larger than Mars Exploration Rovers, which are {{convert|1.5|m|ft|abbr=on}} long and have a mass of {{convert|174|kg|lb|abbr=on}} including {{convert|6.8|kg|lb|abbr=on}} of scientific instruments.&lt;ref name="MSLUSAToday" /&gt;&lt;ref name="Mars Rovers: Pathfinder, MER (Spirit and Opportunity), and MSL" /&gt;&lt;ref name="Mars Exploration Rover Launches" /&gt; In comparison to [[Pancam]] on the Mars Exploration Rovers, the MastCam-34 has 1.25× higher [[Angular resolution|spatial resolution]] and the MastCam-100 has 3.67× higher spatial resolution.&lt;ref name="MastCamDescription" /&gt;
+
+The region the rover is set to explore has been compared to the [[Four Corners]] region of the North American west.&lt;ref name="nasa.pia16068" /&gt;
+
+&lt;br /&gt;
+
+{{See also|Comparison of embedded computer systems on board the Mars rovers}}
+{{clear}}
+
+== The name: ''Curiosity'' ==
+
+A [[NASA]] panel selected the name ''Curiosity'' following a nationwide student contest that attracted more than 9,000 proposals via the Internet and mail. A sixth-grade student from [[Kansas]], twelve-year-old Clara Ma from Sunflower Elementary School in [[Lenexa, Kansas]], submitted the winning entry. As her prize, Ma won a trip to [[NASA]]'s [[Jet Propulsion Laboratory]] (JPL) in [[Pasadena, California]], where she signed her name directly onto the rover as it was being assembled.&lt;ref name="NASA" /&gt;
+
+Ma wrote in her winning essay:
+{{Quote|Curiosity is an everlasting flame that burns in everyone's mind. It makes me get out of bed in the morning and wonder what surprises life will throw at me that day. Curiosity is such a powerful force. Without it, we wouldn't be who we are today. Curiosity is the passion that drives us through our everyday lives. We have become explorers and scientists with our need to ask questions and to wonder.&lt;ref name="NASA" /&gt;}}
+
+== Landing ==
+
+=== Landing site ===
+{{Further|Bradbury Landing}}
+
+''Curiosity'' landed in Quad 51 (nicknamed Yellowknife) of [[Aeolis Palus]] in the crater Gale.&lt;ref name="NASA-20120810" /&gt;&lt;ref name="NASA-20120809" /&gt;&lt;ref name="BBC-20120809" /&gt;&lt;ref name="USA-20120809" /&gt; The landing site coordinates are: {{coord|4.5895|S|137.4417|E|globe:Mars}}.&lt;ref name="MSNBC-20120806" /&gt;&lt;ref name="S&amp;T-20120807" /&gt; The location was named [[Bradbury Landing]] on August 22, 2012, in honor of science fiction author [[Ray Bradbury]].&lt;ref name="NASA-20120822" /&gt; Gale, an estimated 3.5 to 3.8 billion-year-old impact crater, is hypothesized to have first been gradually filled in by [[sediment]]s; first water-deposited, and then wind-deposited, possibly until it was completely covered. Wind [[erosion]] then scoured out the sediments, leaving an isolated {{convert|5.5|km|mi|adj=mid|-high|sp=us}} mountain, [[Aeolis Mons]] ("Mount Sharp"), at the center of the {{convert|154|km|abbr=on}} wide crater. Thus, it is believed that the rover may have the opportunity to study two billion years of Martian history in the sediments exposed in the mountain. Additionally, its landing site is near an [[alluvial fan]], which is hypothesized to be the result of a flow of ground water, either before the deposition of the eroded sediments or else in relatively recent geologic history.&lt;ref name="Crater mound a prize and puzzle for Mars rover" /&gt;&lt;ref name="themis" /&gt;
+
+According to NASA, an estimated 20,000 to 40,000 heat-resistant [[bacterial spores]] were on ''Curiosity'' at launch, and as much as 1,000 times that number may not have been counted.&lt;ref name="NYT-20151005-kc" /&gt;
+
+{{wide image|PIA16056hl.jpg|1600px|align-cap=center|''Curiosity'' and surrounding area as viewed by [[Mars Reconnaissance Orbiter|MRO]]/[[HiRISE]]. North is left. (August 14, 2012; [[Mars surface color|enhanced colors]])}}
+
+=== Rover's role in the landing system ===
+&lt;!--- This section is only about the rover-related aspects of the landing. The full entry, descent, and landing were accomplished by the MSL spacecraft descent stage, covered in the Mars Science Laboratory article.
+---&gt;
+{{Main|Mars Science Laboratory#Entry, descent and landing (EDL)|l1=Mars Science Laboratory–Landing}}
+[[File:Curiosity's Seven Minutes of Terror.ogv|thumb|NASA video describing the landing procedure. NASA dubbed the landing as "Seven Minutes of Terror".]]
+
+Previous NASA [[Mars rovers]] became active only after the successful entry, descent and landing on the Martian surface. ''Curiosity'', on the other hand, was active when it touched down on the surface of Mars, employing the rover suspension system for the final set-down.&lt;ref name="cnes3" /&gt;
+
+''Curiosity'' transformed from its stowed flight configuration to a landing configuration while the MSL spacecraft simultaneously lowered it beneath the spacecraft descent stage with a {{convert|20|m|abbr=on}} tether from the "sky crane" system to a soft landing—wheels down—on the surface of Mars.&lt;ref name="EntryDescentLanding" /&gt;&lt;ref name="Sky Crane – how to land Curiosity on the surface of Mars" /&gt;&lt;ref name="Mars rover lands on Xbox Live" /&gt;&lt;ref name="Mars Science Laboratory: Entry, Descent, and Landing System Performance" /&gt; After the rover touched down it waited 2 seconds to confirm that it was on solid ground then fired several [[pyrotechnic fastener]]s activating cable cutters on the bridle to free itself from the spacecraft descent stage. The descent stage then flew away to a crash landing, and the rover prepared itself to begin the science portion of the mission.&lt;ref name="ellipse" /&gt;
+
+== Typical day ==
+The rover will stop and spend extended periods of time at major science waypoints. As of April 17, 2020, the rover has been driven on less than 800 out of 2736 [[Sol (day on Mars)|sols]] (Martian days).
+
+The rover spends a lot of its time idle. 
+
+Communication with the rover is not instantaneous. There is a delay in transmitting commands to the rover, and there is a delay receiving imagery back from the rover. Depending on the distance between Earth and Mars, the delay is between 4 to 24 minutes, and averages 14 minutes. As a result, navigation is done by sending a command such as "drive forward X distance" or "drive toward X place", and the rover will use its cameras and computers to drive to those locations autonomously.
+
+On April 16, 2020, the rover was located 13.66 miles away from the landing site.&lt;ref&gt;{{Cite web|url=https://an.rsl.wustl.edu/msl/mslbrowser/an3.aspx|title=MSL Notebook - Curiosity Mars Rover data|website=an.rsl.wustl.edu|access-date=2020-04-20}}&lt;/ref&gt;
+
+== Coverage, cultural impact and legacy ==
+[[File:Cheering-full-br2.jpg|thumb|Celebration erupts at NASA with the rover's successful landing on Mars (August 6, 2012).]]
+[[File:President Obama Phones Mars Rover Team.jpg|thumb|President [[Barack Obama]] congratulates NASA's ''Curiosity'' team (August 13, 2012).&lt;ref name="NYT-20120813" /&gt;]]
+
+Live video showing the first footage from the surface of Mars was available at [[NASA TV]], during the late hours of August 6, 2012 PDT, including interviews with the mission team. The NASA website momentarily became unavailable from the overwhelming number of people visiting it,&lt;ref name="Lands" /&gt; and a 13-minute NASA excerpt of the landings on its YouTube channel was halted an hour after the landing by an automated [[DMCA]] takedown notice from [[E. W. Scripps Company|Scripps Local News]], which prevented access for several hours.&lt;ref name="vice" /&gt; Around 1,000 people gathered in New York City's [[Times Square]], to watch NASA's live broadcast of ''Curiosity''{{'s}} landing, as footage was being shown on the giant screen.&lt;ref name="TimeSquare" /&gt; [[Bobak Ferdowsi]], Flight Director for the landing, became an [[Internet meme]] and attained Twitter celebrity status, with 45,000 new followers subscribing to his Twitter account, due to his [[Mohawk hairstyle]] with yellow stars that he wore during the televised broadcast.&lt;ref name="space" /&gt;&lt;ref name="venturebeat" /&gt;
+
+On August 13, 2012, U.S. President [[Barack Obama]], calling from aboard [[Air Force One]] to congratulate the ''Curiosity'' team, said, "You guys are examples of American know-how and ingenuity. It's really an amazing accomplishment."&lt;ref name="NYT-20120813" /&gt; ([http://mars.jpl.nasa.gov/multimedia/videos/movies/msl20120813_obamacall/msl20120813_obamacall-320.mov Video (07:20)])
+
+{{Multiple image
+ |direction=horizontal |align=left |total_width=350
+ |image1=PIA15882-Mars Curiosity Rover-USA-Flag.jpg |caption1=U.S. flag on Mars
+ |image2=PIA15883-Mars Curiosity Rover-President Obama Signature on Plaque.jpg |caption2=[[Commemorative plaque|Plaque]] of [[Barack Obama|President Obama]] and Vice President [[Joe Biden]]'s signatures on Mars
+}}
+
+Scientists at the [[Getty Conservation Institute]] in Los Angeles, California, viewed the CheMin instrument aboard ''Curiosity'' as a potentially valuable means to examine ancient works of art without damaging them. Until recently, only a few instruments were available to determine the composition without cutting out physical samples large enough to potentially damage the artifacts. CheMin directs a beam of [[X-ray]]s at particles as small as {{convert|400|µm|sp=us}}&lt;ref name="inxitu" /&gt; and reads the [[radiation]] [[scattering|scattered]] back to determine the composition of the artifact in minutes. Engineers created a smaller, portable version named the ''X-Duetto''. Fitting into a few [[briefcase]]-sized boxes, it can examine objects on site, while preserving their physical integrity. It is now being used by Getty scientists to analyze a large collection of museum [[antique]]s and the Roman ruins of [[Herculaneum]], Italy.&lt;ref name="NS-201208" /&gt;
+
+Prior to the landing, NASA and [[Microsoft]] released ''Mars Rover Landing'', a free downloadable game on [[Xbox Live]] that uses [[Kinect]] to capture body motions, which allows users to simulate the landing sequence.&lt;ref name="newsday" /&gt;
+
+NASA gave the general public the opportunity from 2009 until 2011 to submit their names to be sent to Mars. More than 1.2 million people from the international community participated, and their names were etched into [[silicon]] using an electron-beam machine used for fabricating micro devices at [[Jet Propulsion Laboratory|JPL]], and this plaque is now installed on the deck of ''Curiosity''.&lt;ref name="Send Your Name to Mars" /&gt; In keeping with a 40-year tradition, a plaque with the signatures of President Barack Obama and [[Joe Biden|Vice President Joe Biden]] was also installed. Elsewhere on the rover is the [[autograph]] of Clara Ma, the 12-year-old girl from [[Kansas]] who gave ''Curiosity'' its name in an essay contest, writing in part that "curiosity is the passion that drives us through our everyday lives."&lt;ref name="collect" /&gt;
+
+On August 6, 2013, ''Curiosity'' audibly played "[[Happy Birthday to You]]" in honor of the one Earth year mark of its Martian landing, the first time for a song to be played on another planet. This was also the first time music was transmitted between two planets.&lt;ref name="WP-20130806" /&gt;
+
+On June 24, 2014, ''Curiosity'' completed a [[Martian year]]—687 Earth days—after finding that Mars once had [[Timeline of Mars Science Laboratory#Evidence for ancient habitability|environmental conditions favorable for microbial life]].&lt;ref name="NASA-20140623" /&gt; ''Curiosity'' serves as the basis for the design of the [[Mars 2020 rover mission]] that is planned to be launched to Mars in 2020. Some spare parts from the build and ground test of ''Curiosity'' are being used in the new vehicle, but it will carry a different instrument payload.&lt;ref name="CNET Harwood first" /&gt;
+
+On August 5, 2017, NASA celebrated the fifth anniversary of the ''Curiosity'' rover mission landing, and related exploratory accomplishments, on the planet [[Mars]].&lt;ref name="NASA-20170802" /&gt;&lt;ref name="SP-20170805" /&gt; (Videos: [https://www.youtube.com/watch?v=IxvODcuFb1s ''Curiosity''{{'s}} First Five Years (02:07)]; [https://www.youtube.com/watch?v=O0nPFaBU98k ''Curiosity''{{'s}} POV: Five Years Driving (05:49)]; [https://www.youtube.com/watch?v=Q-uAz82sH-E ''Curiosity''{{'s}} Discoveries About Gale Crater (02:54)])
+
+As reported in 2018, drill samples taken in 2015 uncovered organic molecules of [[benzene]] and [[propane]] in 3 billion year old rock samples in Gale.&lt;ref name="NYT-20180607" /&gt;&lt;ref name="SCI-20180608a" /&gt;&lt;ref name="SCI-20180608c" /&gt;
+
+{{further|Timeline of Mars Science Laboratory#Current status}}
+
+=== Awards ===
+
+The NASA/JPL [[Mars Science Laboratory]]/''Curiosity'' Project Team was awarded the 2012 [[Robert J. Collier Trophy]] by the [[National Aeronautic Association]] "In recognition of the extraordinary achievements of successfully landing ''Curiosity'' on Mars, advancing the nation's technological and engineering capabilities, and significantly improving humanity's understanding of ancient Martian habitable environments."&lt;ref name="NAA-20130312" /&gt;
+
+== Images ==
+{{Multiple image |align=center
+ |image1=The Descent of the Curiosity Rover HD.ogv |width1=300 |caption1=Descent of ''Curiosity'' (video-02:26; August 6, 2012)
+ |image2=Curiosity Rover.stl |width2=290 |caption2=Interactive 3D model of the rover (with extended arm)
+}}
+
+=== Components of ''Curiosity'' ===
+&lt;gallery&gt;
+File:20110406 PIA13809 D2011 0404 D036 cropped-full.jpg|Mast head with ChemCam, MastCam-34, MastCam-100, NavCam.
+File:Curiosity wheel pattern morse code.png|One of the six wheels on Curiosity
+File:Curiosity's high gain antenna and low gain antenna.jpg|High-gain (right) and low-gain (left) antennas
+File:The UV sensor on the Curiosity rover deck.jpg|UV sensor
+&lt;/gallery&gt;
+
+=== Orbital images ===
+&lt;gallery&gt;
+File:HiRISE image of MSL during EDL (refined).png|''Curiosity'' descending under its parachute (August 6, 2012; [[Mars Reconnaissance Orbiter|MRO]]/[[HiRISE]]).
+File:PIA16813-MarsCuriosityRover-ParachuteFlapsInWind-20120812to20130113.gif|''Curiosity''{{'s}} parachute flapping in [[Climate of Mars#Wind|Martian wind]] (August 12, 2012 to January 13, 2013; [[Mars Reconnaissance Orbiter|MRO]]).
+File:PIA19674-Mars-GaleCrater-SurfaceMaterials-20150619.jpg|Gale crater - surface materials (false colors; [[Thermal Emission Imaging System|THEMIS]]; [[2001 Mars Odyssey]]).
+File:Mars Science Laboratory landing ellipse reduced.jpg|''Curiosity''{{'s}} landing site is on [[Aeolis Palus]] near [[Aeolis Mons|Mount Sharp]] (north is down).
+File:Curiosity Cradled by Gale Crater.jpg|[[Aeolis Mons|Mount Sharp]] rises from the middle of Gale; the green dot marks ''Curiosity''{{'s}} landing site (north is down).
+File:PIA16064-Mars Curiosity Rover Treasure Map.jpg|Green dot is ''Curiosity''{{'s}} landing site; upper blue is [[Glenelg, Mars|Glenelg]]; lower blue is base of [[Aeolis Mons|Mount Sharp]].
+File:Curiosity Rover Landing Site - Quadmapping Yellowknife.jpg|''Curiosity''{{'s}} [[landing ellipse]]. Quad 51, called Yellowknife, marks the area where ''Curiosity'' actually landed.
+File:Mars Curiosity Rover - Yellowknife Landing Site.jpg|Quad 51, a 1-mile-by-1-mile section of the crater Gale - ''Curiosity'' landing site is noted.
+File:PIA15696-HiRISE-MSL-Sol11 2 -br2.jpg|[[Mars Science Laboratory|MSL]] [[Space debris|debris field]] - parachute landed 615 m from ''Curiosity'' (3-D: [https://web.archive.org/web/20130512005245/http://mars.jpl.nasa.gov/msl/images/Rover3D-pia16208-br2.jpg rover] &amp; [https://web.archive.org/web/20160305012939/http://mars.jpl.nasa.gov/msl/images/Parachute3D-pia16209-br2.jpg parachute]) (August 17, 2012; [[Mars Reconnaissance Orbiter|MRO]]).
+File:Curiosity Rover (Exaggerated Color) - HiRISE - 20120814.jpg|''Curiosity''{{'s}} landing site, [[Bradbury Landing]], as seen by [[Mars Reconnaissance Orbiter|MRO]]/[[HiRISE]] (August 14, 2012)
+File:PIA16141-Curiosity Rover Tracks-20120906.jpg|''Curiosity''{{'s}} first tracks viewed by [[Mars Reconnaissance Orbiter|MRO]]/[[HiRISE]] (September 6, 2012)
+File:PIA17085-MarsCuriosityRover-TraverseMap-Sol351-20130801.jpg|First-year and first-mile [http://mars.jpl.nasa.gov/msl/mission/whereistherovernow/ map] of ''Curiosity''{{'s}} traverse on Mars (August 1, 2013) ([http://photojournal.jpl.nasa.gov/jpeg/PIA16210.jpg 3-D]).
+&lt;/gallery&gt;
+
+=== Rover images ===
+&lt;gallery&gt;
+File:NASA-MSL-Curiosity -Heat-shield.674789main pia16021-full full.jpg|Ejected heat shield as viewed by ''Curiosity'' descending to Martian surface (August 6, 2012).
+File:First picture sent by the Mars Curiosity rover.jpg|''Curiosity''{{'s}} first image after landing (August 6, 2012). The rover's wheel can be seen.
+File:NASA Curiosity, first image without dust cover.jpg|''Curiosity''{{'s}} first image after landing (without clear dust cover, August 6, 2012)
+File:673885main PIA15986-full full.jpg|''Curiosity'' landed on August 6, 2012 near the base of [[Aeolis Mons]] (or "Mount Sharp")&lt;ref name="PHYS-20120815" /&gt;
+File:First colored image from Curiosity.jpg|''Curiosity''{{'s}} first color image of the Martian landscape, taken by [[#Mars Hand Lens Imager (MAHLI)|MAHLI]] (August 6, 2012)
+File:PIA16149-Mars Curiosity Rover Takes Self Portrait.jpg|''Curiosity''{{'s}} self-portrait - with closed dust cover (September 7, 2012).
+File:PIA16149 MSL Curiosity Rover Self Portrait colour correction.jpg|''Curiosity''{{'s}} self-portrait (September 7, 2012; color-corrected).
+File:PIA16132-MarsCuriosityRover-CalibrationTarget-20120909.jpg|[[Color chart|Calibration target]] of [[#Mars Hand Lens Imager (MAHLI)|MAHLI]] (September 9, 2012; [http://mars.jpl.nasa.gov/images/MAHLIcaltarget-br2.jpg alternate 3-D version])
+File:PIA16131-US Lincoln Penny on Mars.jpg|[[Lincoln cent|U.S. Lincoln penny]] on [[Mars]] (''Curiosity''; September 10, 2012)&lt;br /&gt;([http://mars.jpl.nasa.gov/images/MAHLIcaltarget-br2.jpg 3-D]; [[:File:MarsCuriosityRover-Penny-20131002.jpg|October 2, 2013]]).
+File:NASA-MarsCuriosityRover-Penny-20180904.jpg|[[Lincoln cent|U.S. Lincoln penny]] on [[Mars]] (''Curiosity''; September 4, 2018)
+File:PIA16134-Mars Curiosity Rover Wheels.jpg|[[#Specifications|Wheels]] on ''Curiosity''. [[Aeolis Mons|Mount Sharp]] is visible in the background ([[#Mars Hand Lens Imager (MAHLI)|MAHLI]], September 9, 2012).
+File:PIA16094-Mars Curiosity Rover-First Drive Tracks.jpg|''Curiosity''{{'s}} tracks on first test drive (August 22, 2012), after parking {{convert|6|m|ft|abbr=on}} from [[Bradbury Landing|original landing site]]&lt;ref name="NASA-20120822" /&gt;
+File:PIA16800-MarsCuriosityRover-MtSharp-ColorVersions-20120823.jpg|Comparison of [[Color balance|color versions]] (raw, natural, white balance) of [[Aeolis Mons]] on Mars (August 23, 2012)
+File:PIA16068 - Mars Curiosity Rover - Aeolis Mons - 20120817.jpg|''Curiosity''{{'s}} view of [[Aeolis Mons]] (August 9, 2012; [[Color balance|white-balanced image]])
+File:PIA16105 malin04ano-br2.jpg|Layers at the base of [[Aeolis Mons]]. The dark rock in inset is the same size as ''Curiosity''.
+&lt;/gallery&gt;
+
+=== Self-portraits ===
+{{multiple image |align=center |total_width=900 |header=''Curiosity'' rover on [[Mount Sharp]] on [[Mars]] — self-portraits
+|width1=5247 |height1=7295 |image1=PIA16239 High-Resolution Self-Portrait by Curiosity Rover Arm Camera.jpg |caption1="[[Rocknest (Mars)|Rocknest]]"&lt;br /&gt;(Oct2012)
+|width2=5831 |height2=8109 |image2=PIA16937-MarsCuriosityRover-SelfPortraitAtJohnKlein-20130510.jpg |caption2="[[List of rocks on Mars#Curiosity|JohnKlein]]"&lt;br /&gt;(May2013)
+|width3=4576 |height3=6669 |image3=PIA18390-MarsCuriosityRover-SelfPortraitAtWindjana-20140512.jpg |caption3="[[List of rocks on Mars#Curiosity|Windjana]]"&lt;br /&gt;
+(May2014)
+|width4=1988 |height4=2765 |image4=PIA19142-MarsCuriosityRover-SelfPortrait-Mojave-20150131.jpg |caption4="[[List of rocks on Mars#Curiosity|Mojave]]"&lt;br /&gt;(Jan2015)
+|width5=818 |height5=810 |image5=PIA19808-MarsCuriosityRover-AeolisMons-BuckskinRock-20150805.jpg |caption5="[[List of rocks on Mars#Curiosity|Buckskin]]"&lt;br /&gt;
+(Aug2015)
+|width6=5082 |height6=8260 |image6=PIA19920-MarsCuriosityRover-SelfPortrait-Sol1126-20151006-crop.jpg |caption6="[[List of rocks on Mars#Curiosity|BigSky]]"&lt;br /&gt;
+(Oct2015)
+|width7=3032 |height7=4216 |image7=PIA20316-MarsCuriosityRover-SelfPortrait-SandDune-20160119.jpg |caption7="[[List of rocks on Mars#Curiosity|Namib]]"&lt;br /&gt;(Jan 2016) |width8=1673 |height8=2121 |image8=PIA20844-MarsCuriosityRover-SelfPortrait-Sol1466-20160920.jpg |caption8="[[List of rocks on Mars#Curiosity|Murray]]"&lt;br /&gt;(Sep2016)
+|width9=3864 |height9=5040|image9=PIA22207-Mars-CuriosityRover-SelfPortrait-20180123.jpg |caption9="[[List of rocks on Mars#Curiosity|VeraRubin]]"&lt;br /&gt;(Jan2018) 
+|width10=4392 |height10=6066|image10=NASA-CuriosityRover-Selfie-June2018.jpg |caption10="[[Timeline of Mars Science Laboratory#2018 events|DustStorm]]"&lt;br /&gt;
+(Jun2018)
+|width11=4050 |height11=5760 |image11=PIA22960-MarsCuriosityRover-SelfPortrait-RockHall-VeraRubinRidge-20190115.jpg |caption11="[[List of rocks on Mars#Curiosity|VeraRubin]]"&lt;br /&gt;(Jan2019)
+|width12=4811 |height12=7174 |image12=PIA23240-MarsCuriosityRover-SelfPortrait-Aberlady-Kilmarie-20190512.jpg |caption12="[[List of rocks on Mars#Curiosity|Aberlady]]"&lt;br /&gt;(May2019)
+|image13=PIA23378-MarsCuriosityRover-SelfPortrait-GlenEtive-20191011.jpg|caption13="[[List of rocks on Mars#Curiosity|GlenEtive]]"&lt;br /&gt;(Oct2019) 
+}}
+
+=== Wide images ===
+{{wide image |First 360 color panorama from the Curosity rover.jpg|800px|align-cap=center|''Curiosity''{{'s}} first 360° color panorama image (August 8, 2012)&lt;ref name="PHYS-20120815" /&gt;&lt;ref name="CuriosityRover-360Cities" /&gt;}}
+{{wide image |PIA16768-MarsCuriosityRover-AeolisMons-20120920.jpg|800px|align-cap=center|''Curiosity''{{'s}} view of [[Aeolis Mons|Mount Sharp]] (September 20, 2012; [http://photojournal.jpl.nasa.gov/jpeg/PIA16769.jpg raw color version])}}
+{{wide image |PIA16918-MarsCuriosityRover-RockNest-HiRezWB-20121116.jpg|800px|align-cap=center|''Curiosity''{{'s}} view of the [[Rocknest (Mars)|Rocknest]] area. South is at center, north is at both ends. [[Aeolis Mons|Mount Sharp]] dominates the horizon, while [[Glenelg, Mars|Glenelg]] is left-of-center and rover tracks are right-of-center (November 16, 2012; [[Color balance|white balanced]]; [http://photojournal.jpl.nasa.gov/catalog/PIA16919 raw color version]; [http://mars.nasa.gov/multimedia/interactives/billionpixel/ high-res panoramic]).}}
+{{wide image |PIA16453-MarsCuriosityRover-RocknestPanorama-20121126.jpg|800px|align-cap=center|''Curiosity''{{'s}} view from [[Rocknest (Mars)|Rocknest]] looking east toward Point Lake (center) on the way to [[Glenelg, Mars|Glenelg]] (November 26, 2012; [[Color balance|white balanced]]; [[:File:PIA16453-MarsCuriosityRover-RocknestPanorama-Raw-20121126.jpg|raw color version]])}}
+{{wide image|PIA19912-MarsCuriosityRover-MountSharp-20151002.jpg|800px|align-cap=center|''Curiosity''{{'s}} view of "Mount Sharp" (September 9, 2015)}}
+{{wide image |Martian-Sunset-O-de-Goursac-Curiosity-2013.jpg|800px|align-cap=center|''Curiosity''{{'s}} view of [[Extraterrestrial skies#Mars|Mars sky]] at [[Sunset#Planets|sunset]] (February 2013; Sun simulated by artist)}}
+{{wide image|File:Mars curiousity 360 panorama may 4 2020.jpg|800px|align-cap=center|''Curiosity''{{'s}} view of Glen Torridon near Mount Sharp, the rover's highest-resolution 360° panoramic image of over 1.8 billion pixels (at full size) from over 1000 photos taken between November 24 and December 1, 2019}}
+{{Features and artificial objects on Mars}}
+
+== See also ==
+{{Portal|Astronomy|Biology|Solar System|Spaceflight}}
+{{Wikipedia books|Mars Science Laboratory}}
+{{div col|colwidth=30em}}
+* {{annotated link|Astrobiology}}
+* {{annotated link|Autonomous robot}}
+* {{annotated link|Experience Curiosity}}
+* {{annotated link|Exploration of Mars}}
+* {{annotated link|InSight}}
+* {{annotated link|Life on Mars}}
+* {{annotated link|List of missions to Mars}}
+* ''[[Mars Express]]''
+* ''[[2001 Mars Odyssey]]''
+* {{annotated link|Mars Orbiter Mission}}
+* ''[[Mars Pathfinder]]''
+* ''[[Mars Reconnaissance Orbiter]]''
+* {{annotated link|Mars 2020}}
+* [[Opportunity (rover)|''Opportunity'' rover]]
+* [[Perseverance (rover)|''Perseverance'' (rover)]]
+* ''[[Rosalind Franklin (rover)|''Rosalind Franklin'' rover]]
+* [[Spirit (rover)|''Spirit'' rover]]
+* {{annotated link|Timeline of Mars Science Laboratory}}
+* {{annotated link|Viking program}}
+{{div col end}}
+{{-}}
+
+== References ==
+{{reflist|30em|refs=
+&lt;ref name="Space-20120806"&gt;{{cite news |last=Wall |first=Mike |title=Touchdown! Huge NASA Rover Lands on Mars |url=http://www.space.com/16932-mars-rover-curiosity-landing-success.html |date=August 6, 2012 |work=[[Space.com]] |accessdate=December 14, 2012}}&lt;/ref&gt;
+&lt;ref name="nasa"&gt;{{cite web |url=http://marsprogram.jpl.nasa.gov/msl/mission/rover/ |title=Rover Fast Facts |website= |publisher=NASA |date=}}&lt;/ref&gt;
+&lt;ref name="NASA-Curiosity"&gt;{{cite web |last=Nelson |first=Jon |title=Mars Science Laboratory Curiosity Rover |url=http://www.jpl.nasa.gov/missions/mars-science-laboratory-curiosity-rover-msl/ |work=[[NASA]] |accessdate=February 2, 2014}}&lt;/ref&gt;
+&lt;ref name="NASA-1"&gt;{{cite web |url=http://www.nasa.gov/mission_pages/msl/index.html |title=Curiosity: NASA's Next Mars Rover |date=August 6, 2012 |publisher=NASA |accessdate=August 6, 2012}}&lt;/ref&gt;
+&lt;ref name="NASA-2"&gt;{{cite web |url=http://mars.jpl.nasa.gov/news/whatsnew/index.cfm?FuseAction=ShowNews&amp;NewsID=1185 |title=NASA's Mars Science Laboratory Launch Rescheduled for Nov. 26 |first=Allard |last=Beutel |date=November 19, 2011 |publisher=[[NASA]] |accessdate=November 21, 2011}}&lt;/ref&gt;
+&lt;ref name="oig report"&gt;{{cite web |last=Martin |first=Paul K. |title=NASA'S Management of the Mars Science Laboratory Project (IG-11-019) |url=http://oig.nasa.gov/audits/reports/FY11/IG-11-019.pdf |publisher=NASA Office of Inspector General |date=June 8, 2011 |accessdate=August 6, 2012}}&lt;/ref&gt;
+&lt;ref name="Abilleira2013"&gt;{{cite conference |url=https://trs.jpl.nasa.gov/handle/2014/44069?show=full |title=2011 Mars Science Laboratory Trajectory Reconstruction and Performance from Launch Through Landing |conference=23rd AAS/AIAA Spaceflight Mechanics Meeting. February 10–14, 2013. Kauai, Hawaii. |first=Fernando |last=Abilleira |date=2013}}&lt;/ref&gt;
+&lt;ref name="bbc20120808"&gt;{{cite news |url=https://www.bbc.com/news/science-environment-19186237 |title=Nasa's Curiosity rover lifts its navigation cameras |work=BBC News |first=Jonathan |last=Amos |date=August 8, 2012 |accessdate=June 23, 2014}}&lt;/ref&gt;
+&lt;ref name="NASA-20120822"&gt;{{cite web |last1=Brown |first1=Dwayne |last2=Cole |first2=Steve |last3=Webster |first3=Guy |last4=Agle |first4=D.C. |title=NASA Mars Rover Begins Driving at Bradbury Landing |url=http://www.nasa.gov/home/hqnews/2012/aug/HQ_12-292_Mars_Bradbury_Landing.html |date=August 22, 2012 |publisher=[[NASA]] |accessdate=August 22, 2012}}&lt;/ref&gt;
+&lt;ref name="MSNBC-20120806"&gt;{{cite web |title=Video from rover looks down on Mars during landing |url=http://www.nbcnews.com/id/48540619/ns/technology_and_science-space/t/video-rover-looks-down-mars-during-landing/ |date=August 6, 2012 |publisher=[[MSNBC]] |accessdate=October 7, 2012}}&lt;/ref&gt;
+&lt;ref name="S&amp;T-20120807"&gt;{{cite web |last=Young |first=Monica |title=Watch Curiosity Descend onto Mars |url=http://www.skyandtelescope.com/astronomy-news/watch-curiosity-descend-onto-mars/ |date=August 7, 2012 |publisher=[[SkyandTelescope.com]] |accessdate=October 7, 2012}}&lt;/ref&gt;
+&lt;ref name="youtube1"&gt;{{cite web |title=MSL Sol 3 Update |url=https://www.youtube.com/watch?v=6f8HHQ2U2jg |publisher=NASA Television |date=August 8, 2012 |accessdate=August 9, 2012}}&lt;/ref&gt;
+&lt;ref name="autogenerated1"&gt;{{cite news |title=Impressive' Curiosity landing only 1.5 miles off, NASA says |url=http://www.cnn.com/2012/08/10/us/mars-curiosity/index.html?eref=mrss_igoogle_cnn |work=CNN |accessdate=August 10, 2012}}&lt;/ref&gt;
+&lt;ref name="overview"&gt;{{cite web |url=http://mars.jpl.nasa.gov/msl/mission/science/objectives/ |title=Overview |publisher=JPL, NASA |accessdate=August 16, 2012}}&lt;/ref&gt;
+&lt;ref name="goals"&gt;{{cite web |url=http://mars.jpl.nasa.gov/msl/mission/science/goals/ |title=Mars Science Laboratory: Mission Science Goals |work=NASA |date=August 2012 |accessdate=August 21, 2012}}&lt;/ref&gt;
+&lt;ref name="3news.nz"&gt;{{cite news |url=http://www.3news.co.nz/Curiositys-mission-extended-indefinitely/tabid/1160/articleID/279395/Default.aspx |work=3 News NZ |title=Curiosity's mission extended indefinitely |date=December 6, 2012 |access-date=December 5, 2012 |archive-url=https://web.archive.org/web/20130406061101/http://www.3news.co.nz/Curiositys-mission-extended-indefinitely/tabid/1160/articleID/279395/Default.aspx |archive-date=April 6, 2013 |url-status=dead |df=mdy-all}}&lt;/ref&gt;
+&lt;ref name="nasa.obj"&gt;{{cite web |url=http://mars.jpl.nasa.gov/msl/mission/science/objectives/ |website= |publisher=NASA |title=MSL Objectives |date=}}&lt;/ref&gt;
+&lt;ref name="double"&gt;{{cite web |url=http://www.nasa.gov/mission_pages/sunearth/news/curiosity-stuntdouble.html |title=Curiosity, The Stunt Double |work=NASA |first=Tony |last=Phillips |date=February 24, 2012 |accessdate=January 26, 2014}}&lt;/ref&gt;
+&lt;ref name="Science 01-24-2014"&gt;{{cite journal |title=Habitability, Taphonomy, and the Search for Organic Carbon on Mars |journal=[[Science (journal)|Science]] |first=John P. |last=Grotzinger |volume=343 |issue=6169 |pages=386–387 |date=January 24, 2014 |doi=10.1126/science.1249944 |bibcode=2014Sci...343..386G |pmid=24458635}}&lt;/ref&gt;
+&lt;ref name="MSLUSAToday"&gt;{{cite news |title=Troubles parallel ambitions in NASA Mars project |work=USA Today |url=https://www.usatoday.com/tech/science/space/2008-04-13-mars_N.htm |date=April 14, 2008 |first=Traci |last=Watson |accessdate=May 27, 2009}}&lt;/ref&gt;
+&lt;ref name="cnes"&gt;{{cite web |url=http://www.cnes.fr/web/CNES-en/5719-msl-09-at-a-glance.php |title=MSL at a glance|publisher=CNES |accessdate=August 7, 2012}}&lt;/ref&gt;
+&lt;ref name="MMRTG"&gt;{{cite web |url=https://mars.nasa.gov/msl/files/mep/MMRTG_FactSheet_update_10-2-13.pdf |title=Multi-Mission Radioisotope Thermoelectric Generator (MMRTG) |publisher=NASA/JPL |date=October 2013 |accessdate=December 26, 2017 |url-status=dead |archiveurl=https://web.archive.org/web/20150226100335/https://mars.nasa.gov/msl/files/mep/MMRTG_FactSheet_update_10-2-13.pdf |archivedate=February 26, 2015}}&lt;/ref&gt;
+&lt;ref name="MarsExplorationMMRTG"&gt;{{cite web |url=http://www.jpl.nasa.gov/news/fact_sheets/mars-power-heating.pdf |title=Mars Exploration: Radioisotope Power and Heating for Mars Surface Exploration |publisher=NASA/JPL |date=April 18, 2006 |accessdate=September 7, 2009}}&lt;/ref&gt;
+&lt;ref name="sfnow20111117"&gt;{{cite news |url=http://www.spaceflightnow.com/atlas/av028/111117mmrtg/ |title=Nuclear power generator hooked up to Mars rover |work=Spaceflight Now |first=Stephen |last=Clark |date=November 17, 2011 |accessdate=November 11, 2013}}&lt;/ref&gt;
+&lt;ref name="MSLPower"&gt;{{cite web |url=http://marsprogram.jpl.nasa.gov/msl/technology/tech_power.html |title=Technologies of Broad Benefit: Power |url-status=dead |archiveurl=https://web.archive.org/web/20080614071650/http://marsprogram.jpl.nasa.gov/msl/technology/tech_power.html |archivedate=June 14, 2008 |accessdate=September 20, 2008|website=NASA/JPL}}&lt;/ref&gt;
+&lt;ref name="Mars Science Laboratory – Technologies of Broad Benefit: Power"&gt;{{cite web |url=http://mars.jpl.nasa.gov/msl/mission/technology/technologiesofbroadbenefit/power/ |title=Mars Science Laboratory – Technologies of Broad Benefit: Power |publisher=NASA/JPL |accessdate=April 23, 2011}}&lt;/ref&gt;
+&lt;ref name="Overview of NASA Program on Development of Radioisotope Power Systems with High Specific Power"&gt;{{cite web |url=http://pdf.aiaa.org/preview/CDReadyMIECEC06_1309/PV2006_4187.pdf |title=Overview of NASA Program on Development of Radioisotope Power Systems with High Specific Power |first=Ajay K. |last=Misra |date=June 26, 2006 |publisher=NASA/JPL |accessdate=May 12, 2009}}&lt;/ref&gt;
+&lt;ref name="DESCANSO"&gt;{{Cite book |url=http://descanso.jpl.nasa.gov/DPSummary/Descanso14_MSL_Telecom.pdf |title=Mars Science Laboratory Telecommunications System Design |series=DESCANSO Design and Performance Summary Series |volume=14 |publisher=NASA/Jet Propulsion Laboratory |first1=Andre |last1=Makovsky |first2=Peter |last2=Ilott |first3=Jim |last3=Taylor |date=November 2009}}&lt;/ref&gt;
+&lt;ref name="HRS"&gt;{{cite web |first=Susan |last=Watanabe |url=http://www1.nasa.gov/mission_pages/mars/images/20081209_msl.html |title=Keeping it Cool (...or Warm!) |date=August 9, 2009 |publisher=NASA/JPL |accessdate=January 19, 2011 |url-status=dead |archiveurl=https://web.archive.org/web/20101224175812/http://www.nasa.gov/mission_pages/mars/images/20081209_msl.html |archivedate=December 24, 2010}}&lt;/ref&gt;
+&lt;ref name="Brains"&gt;{{cite web |url=http://marsprogram.jpl.nasa.gov/msl/mission/rover/brains/ |title=Mars Science Laboratory: Mission: Rover: Brains |publisher=NASA/JPL |accessdate=March 27, 2009}}&lt;/ref&gt;
+&lt;ref name="ieeecomputer"&gt;{{cite journal |last=Bajracharya |first=Max |first2=Mark W. |last2=Maimone |first3=Daniel |last3=Helmick |title=Autonomy for Mars rovers: past, present, and future |journal=Computer |volume=41 |issue=12 |page=45 |doi=10.1109/MC.2008.515 |date=December 2008 |issn=0018-9162}}&lt;/ref&gt;
+&lt;ref name="BAE Systems Computers to Manage Data Processing and Command For Upcoming Satellite Missions"&gt;{{cite press release |url=http://www.baesystems.com/Newsroom/NewsReleases/autoGen_108517143749.html |title=BAE Systems Computers to Manage Data Processing and Command For Upcoming Satellite Missions |date=June 17, 2008 |publisher=BAE Systems |archiveurl=https://web.archive.org/web/20080906233128/http://www.baesystems.com/Newsroom/NewsReleases/autoGen_108517143749.html |archivedate=September 6, 2008 |accessdate=November 17, 2008 |url-status=dead |df=mdy-all}}&lt;/ref&gt;
+&lt;ref name="E&amp;ISNow — Media gets closer look at Manassas"&gt;{{cite web |url=http://www.baesystems.com/BAEProd/groups/public/documents/bae_publication/bae_pdf_eis_2008-08-1.pdf |title=E&amp;ISNow&amp;nbsp;— Media gets closer look at Manassas |date=August 1, 2008 |publisher=BAE Systems |accessdate=November 17, 2008 |url-status=dead |archiveurl=https://web.archive.org/web/20081217034527/http://www.baesystems.com/BAEProd/groups/public/documents/bae_publication/bae_pdf_eis_2008-08-1.pdf |archivedate=December 17, 2008}}&lt;/ref&gt;
+&lt;ref name="RAD750brochure"&gt;{{cite news |title=RAD750 radiation-hardened PowerPC microprocessor |publisher=BAE Systems |url=http://www.baesystems.com/download/BAES_052281/Space-Products--RAD750-component |format=PDF |date=July 1, 2008 |accessdate=September 7, 2009}}&lt;/ref&gt;
+&lt;ref name="RAD6000brochure"&gt;{{cite news |title=RAD6000 Space Computers |publisher=BAE Systems |url=http://www.baesystems.com/BAEProd/groups/public/documents/bae_publication/bae_pdf_eis_sfrwre.pdf |date=June 23, 2008 |accessdate=September 7, 2009 |url-status=dead |archiveurl=https://web.archive.org/web/20091004130528/http://www.baesystems.com/BAEProd/groups/public/documents/bae_publication/bae_pdf_eis_sfrwre.pdf |archivedate=October 4, 2009}}&lt;/ref&gt;
+&lt;ref name="NASA-20130304"&gt;{{cite web |last=Webster |first=Guy |title=Curiosity Rover's Recovery on Track |url=http://www.nasa.gov/mission_pages/msl/news/msl20130304.html |date=March 4, 2013 |publisher=[[NASA]] |accessdate=March 5, 2013}}&lt;/ref&gt;
+&lt;ref name="NASA-20130325"&gt;{{cite web |last=Webster |first=Guy |title=Curiosity Resumes Science Investigations |url=http://www.nasa.gov/mission_pages/msl/news/msl20130325.html |date=March 25, 2013 |publisher=[[NASA]] |accessdate=March 27, 2013}}&lt;/ref&gt;
+&lt;ref name="Mars-Earth distance in light minutes"&gt;{{cite web |url=http://www.wolframalpha.com/input/?i=mars+earth+distance+ |title=Mars-Earth distance in light minutes |publisher=WolframAlpha |accessdate=August 6, 2012}}&lt;/ref&gt;
+&lt;ref name="Curiosity's data communication with Earth"&gt;{{cite web |url=http://mars.jpl.nasa.gov/msl/mission/communicationwithearth/data/ |title=Curiosity's data communication with Earth |publisher=NASA |accessdate=August 7, 2012}}&lt;/ref&gt;
+&lt;ref name="aiaa.13350"&gt;{{cite web|url=https://www.aiaa.org/SecondaryTwoColumn.aspx?id=13350|title=NASA's Curiosity Rover Maximizes Data Sent to Earth by Using International Space Data Communication Standards|access-date=January 2, 2013|archive-url=https://web.archive.org/web/20141129033817/https://www.aiaa.org/SecondaryTwoColumn.aspx?id=13350|archive-date=November 29, 2014|url-status=dead}}&lt;/ref&gt;
+&lt;ref name="Gaudin"&gt;{{cite news |url=https://www.computerworld.com/article/2505612/computer-processors/nasa--your-smartphone-is-as-smart-as-the-curiosity-rover.html |title=NASA: Your smartphone is as smart as the Curiosity rover |work=[[Computerworld]] |first=Sharon |last=Gaudin |date=August 8, 2012 |accessdate=June 17, 2018}}&lt;/ref&gt;
+&lt;ref name="ESA spacecraft records crucial NASA signals from Mars"&gt;{{cite news |title=ESA spacecraft records crucial NASA signals from Mars |date=August 7, 2012 |url=http://www.marsdaily.com/reports/ESA_spacecraft_records_crucial_NASA_signals_from_Mars_999.html |work=Mars Daily |accessdate=August 8, 2012}}&lt;/ref&gt;
+&lt;ref name="new wheels"&gt;{{cite web |title=Next Mars Rover Sports a Set of New Wheels |url=http://www.nasa.gov/mission_pages/msl/msl20100701.html |publisher=NASA/JPL}}&lt;/ref&gt;
+&lt;ref name="nasa.build"&gt;{{cite web |url=http://www.nasa.gov/mission_pages/msl/building_curiosity.html |title=Watch NASA's Next Mars Rover Being Built Via Live 'Curiosity Cam' |date=September 13, 2011 |work=NASA |accessdate=August 16, 2012}}&lt;/ref&gt;
+&lt;ref name="aarlmorse"&gt;{{cite web |title=New Mars Rover to Feature Morse Code |url=http://www.arrl.org/news/new-mars-rover-to-feature-morse-code |publisher=National Association for Amateur Radio}}&lt;/ref&gt;
+&lt;ref name="nasa.249"&gt;{{cite news |first=Jeffrey |last=Marlow |title=Looking Toward the Open Road |date=August 29, 2012 |publisher=NASA |url=http://mars.jpl.nasa.gov/blogs/index.cfm?FuseAction=ShowBlogs&amp;BlogsID=249 |work=JPL - Martian Diaries |accessdate=August 30, 2012}}&lt;/ref&gt;
+&lt;ref name="planetary20140819"&gt;{{cite web |last1=Lakdawalla |first1=Emily |title=Curiosity wheel damage: The problem and solutions |url=http://www.planetary.org/blogs/emily-lakdawalla/2014/08190630-curiosity-wheel-damage.html |website=The Planetary Society Blogs |publisher=[[The Planetary Society]] |date=August 19, 2014 |accessdate=August 22, 2014}}&lt;/ref&gt;
+&lt;ref name="facts"&gt;{{cite web |url=http://www.jpl.nasa.gov/news/fact_sheets/mars-science-laboratory.pdf |title=Mars Science Laboratory - Facts |date=March 2012 |publisher=Jet Propulsion Laboratory, NASA |accessdate=July 31, 2012}}&lt;/ref&gt;
+&lt;ref name="first drive"&gt;{{cite web |url=http://mars.jpl.nasa.gov/msl/mission/timeline/firstdrive/ |title=First drive |last= |first= |website= |date=}}&lt;/ref&gt;
+&lt;ref name="stuff-7437621"&gt;{{cite news |first=Steve |last=Gorman |title=Curiosity beams Mars images back |date=August 8, 2011 |url=http://www.stuff.co.nz/science/7437621/Curiosity-beams-Mars-images-back |work=Stuff - Science |accessdate=August 8, 2012}}&lt;/ref&gt;
+&lt;ref name="home"&gt;{{cite web |url=http://marsprogram.jpl.nasa.gov/msl/overview/ |title=Mars Science Laboratory |publisher=NASA |access-date=August 6, 2012 |archive-url=https://web.archive.org/web/20090730122143/http://marsprogram.jpl.nasa.gov/msl/overview/ |archive-date=July 30, 2009 |url-status=dead |df=mdy-all}}&lt;/ref&gt;
+&lt;ref name="Gale Crater: Geological 'sweet shop' awaits Mars rover"&gt;{{cite news |first=Jonathan |last=Amos |title=Gale Crater: Geological 'sweet shop' awaits Mars rover |date=August 3, 2012 |url=https://www.bbc.co.uk/news/science-environment-19112800 |work=BBC News |accessdate=August 6, 2012}}&lt;/ref&gt;
+&lt;ref name="MSLSAM"&gt;{{cite web |url=http://msl-scicorner.jpl.nasa.gov/Instruments/SAM/ |title=MSL Science Corner: Sample Analysis at Mars (SAM) |publisher=NASA/JPL |accessdate=September 9, 2009}}&lt;/ref&gt;
+&lt;ref name="nasa2"&gt;{{cite web |url=http://ael.gsfc.nasa.gov/marsSAM.shtml |title=Overview of the SAM instrument suite |publisher=NASA |url-status=dead |archivedate=February 22, 2007 |archiveurl=https://web.archive.org/web/20070222092231/http://ael.gsfc.nasa.gov/marsSAM.shtml}}&lt;/ref&gt;
+&lt;ref name="LPSCMast"&gt;{{cite conference |url=http://www.lpi.usra.edu/meetings/lpsc2005/pdf/1214.pdf |title=The Mast Cameras and Mars Descent Imager (MARDI) for the 2009 Mars Science Laboratory |conference=Lunar and Planetary Science XXXVI |first1=M. C. |last1=Malin |first2=J. F. |last2=Bell |first3=J. |last3=Cameron |first4=W. E. |last4=Dietrich |first5=K. S. |last5=Edgett |first6=B. |last6=Hallet |first7=K. E. |last7=Herkenhoff |first8=M. T. |last8=Lemmon |display-authors=5 |year=2005 |page=1214 |bibcode=2005LPI....36.1214M}}&lt;/ref&gt;
+&lt;ref name="MastCam"&gt;{{cite web |url=http://msl-scicorner.jpl.nasa.gov/Instruments/Mastcam/ |title=Mast Camera (MastCam) |publisher=NASA/JPL |accessdate=March 18, 2009}}&lt;/ref&gt;
+&lt;ref name="MAHLI"&gt;{{cite web |url=http://msl-scicorner.jpl.nasa.gov/Instruments/MAHLI/ |title=Mars Hand Lens Imager (MAHLI) |publisher=NASA/JPL |accessdate=March 23, 2009}}&lt;/ref&gt;
+&lt;ref name="MARDI"&gt;{{cite web |url=http://msl-scicorner.jpl.nasa.gov/Instruments/MARDI/ |title=Mars Descent Imager (MARDI) |publisher=NASA/JPL |accessdate=April 3, 2009}}&lt;/ref&gt;
+&lt;ref name="MastCamDescription"&gt;{{cite web |url=http://www.msss.com/msl/mastcam/MastCam_description.html |title=Mars Science Laboratory (MSL): Mast Camera (MastCam): Instrument Description |publisher=Malin Space Science Systems |accessdate=April 19, 2009}}&lt;/ref&gt;
+&lt;ref name="NovEmail"&gt;{{cite web |url=http://spaceref.com/news/viewsr.html?pid=25991 |title=Mars Science Laboratory Instrumentation Announcement from Alan Stern and Jim Green, NASA Headquarters |publisher=SpaceRef.com |first1=Alan |last1=Stern |first2=Jim |last2=Green |date=November 8, 2007 |accessdate=August 6, 2012}}&lt;/ref&gt;
+&lt;ref name="wired20120807"&gt;{{cite news |url=https://www.wired.com/2012/08/curiosity-mars-rover-cameras/ |title=The Photo-Geek's Guide to Curiosity Rover's 17 Cameras |work=[[Wired (magazine)|Wired]] |first=Adam |last=Mann |date=August 7, 2012 |accessdate=January 16, 2015}}&lt;/ref&gt;
+&lt;ref name="arstech20120807"&gt;{{cite news |url=https://arstechnica.com/science/2012/08/curiosity-says-good-morning-from-mars-and-has-busy-days-ahead/ |title=Curiosity says good morning from Mars (and has busy days ahead) |work=[[Ars Technica]] |first=Dave |last=Klinger |date=August 7, 2012 |accessdate=January 16, 2015}}&lt;/ref&gt;
+&lt;ref name="Mars Science Laboratory (MSL) Mast Camera (MastCam)"&gt;{{cite web |url=http://www.msss.com/all_projects/msl-mastcam.php |title=Mars Science Laboratory (MSL) Mast Camera (MastCam) |publisher=Malin Space Science Systems |accessdate=August 6, 2012}}&lt;/ref&gt;
+&lt;ref name="NASA Nixes 3-D Camera for Next Mars Rover"&gt;{{cite news |last=David |first=Leonard |title=NASA Nixes 3-D Camera for Next Mars Rover |url=http://www.space.com/11241-nasa-mars-rover-3d-camera-james-cameron.html |newspaper=Space.com |date=March 28, 2011 |accessdate=August 6, 2012}}&lt;/ref&gt;
+&lt;ref name="MSLChemCam"&gt;{{cite web |url=http://msl-scicorner.jpl.nasa.gov/Instruments/ChemCam/ |title=MSL Science Corner: Chemistry &amp; Camera (ChemCam) |publisher=NASA/JPL |accessdate=September 9, 2009}}&lt;/ref&gt;
+&lt;ref name="Comparative study of different methodologies for quantitative rock analysis by Laser-Induced Breakdown Spectroscopy in a simulated Martian atmosphere"&gt;{{cite journal |title=Comparative study of different methodologies for quantitative rock analysis by Laser-Induced Breakdown Spectroscopy in a simulated Martian atmosphere |last=Salle |first=B. |last2=Lacour |first2=J. L. |last3=Mauchien |first3=P. |last4=Fichet |first4=P. |last5=Maurice |first5=S. |last6=Manhes |first6=G. |display-authors=5 |journal=Spectrochimica Acta Part B-Atomic Spectroscopy |volume=61 |issue=3 |pages=301–313 |year=2006 |doi=10.1016/j.sab.2006.02.003 |url=http://www.lpi.usra.edu/meetings/lpsc2005/pdf/1580.pdf |bibcode=2006AcSpe..61..301S}}&lt;/ref&gt;
+&lt;ref name="Corrections and Clarifications, News of the Week"&gt;{{cite journal |title=Corrections and Clarifications, News of the Week |last=Wiens |first=R.C. |last2=Maurice |first2=S. |last3=Engel |first3=A |last4=Fabry |first4=V. J. |last5=Hutchins |first5=D. A. |last6=Reusch |first6=T. B. |last7=Schulz |first7=K. G. |last8=Morel |first8=F. M. |display-authors=5 |journal=Science |volume=322 |issue=5907 |page=1466 |year=2008 |doi=10.1126/science.322.5907.1466a |pmid=&lt;!--none--&gt;|pmc=1240923}}&lt;/ref&gt;
+&lt;ref name="lanl"&gt;{{cite web |url=http://libs.lanl.gov/ChemCam_status.html |title=ChemCam Status |date=April 2008 |website= |publisher=Los Alamos National Laboratory |access-date=August 6, 2012 |archive-url=https://web.archive.org/web/20131109004956/http://libs.lanl.gov/ChemCam_status.html |archive-date=November 9, 2013 |url-status=dead}}&lt;/ref&gt;
+&lt;ref name="Spacecraft: Surface Operations Configuration: Science Instruments: ChemCam"&gt;{{cite web |url=http://mars.jpl.nasa.gov/msl/mission/sc_instru_chemcam.html |title=Spacecraft: Surface Operations Configuration: Science Instruments: ChemCam |url-status=dead |archivedate=October 2, 2006 |archiveurl=https://web.archive.org/web/20061002094624/http://mars.jpl.nasa.gov/msl/mission/sc_instru_chemcam.html}}&lt;/ref&gt;
+&lt;ref name="softpedia20131206"&gt;{{cite news |url=http://news.softpedia.com/news/Curiosity-s-Laser-Reaches-100-000-Firings-on-Mars-406620.shtml |title=Curiosity's Laser Reaches 100,000 Firings on Mars |work=[[Softpedia]] |first=Tudor |last=Vieru |date=December 6, 2013 |accessdate=January 16, 2015}}&lt;/ref&gt;
+&lt;ref name="nasa.1315"&gt;{{cite web |url=http://mars.jpl.nasa.gov/msl/news/whatsnew/index.cfm?FuseAction=ShowNews&amp;NewsID=1315 |title=Rover's Laser Instrument Zaps First Martian Rock. |year=2012 |accessdate=August 20, 2012 |archive-url=https://www.webcitation.org/6A4PZRcQq?url=http://mars.jpl.nasa.gov/msl/news/whatsnew/index.cfm?FuseAction=ShowNews&amp;NewsID=1315 |archive-date=August 21, 2012 |url-status=dead}}&lt;/ref&gt;
+&lt;ref name="NASA-20120819a"&gt;{{cite web |last1=Webster |first1=Guy |last2=Agle |first2=D.C. |title=Mars Science Laboratory/Curiosity Mission Status Report |url=http://www.jpl.nasa.gov/news/news.php?release=2012-248 |date=August 19, 2012 |publisher=[[NASA]] |accessdate=September 3, 2012}}&lt;/ref&gt;
+&lt;ref name="NASA-20120819"&gt;{{cite web |title='Coronation' Rock on Mars |url=http://mars.jpl.nasa.gov/msl/multimedia/images/?ImageID=4492 |publisher=[[NASA]] |accessdate=September 3, 2012}}&lt;/ref&gt;
+&lt;ref name="BBC-20120817"&gt;{{cite news |last=Amos |first=Jonathan |title=Nasa's Curiosity rover prepares to zap Martian rocks |url=https://www.bbc.co.uk/news/science-environment-19302886 |date=August 17, 2012 |work=BBC News |accessdate=September 3, 2012}}&lt;/ref&gt;
+&lt;ref name="chemcam"&gt;{{cite web |url=http://www.msl-chemcam.com/index.php?menu=inc&amp;page_consult=textes&amp;rubrique=64&amp;sousrubrique=224&amp;soussousrubrique=0 |title=How Does ChemCam Work? |year=2011 |work=ChemCam Team |accessdate=August 20, 2012}}&lt;/ref&gt;
+&lt;ref name="MSLPhotosynth"&gt;{{cite web |url=http://marsprogram.jpl.nasa.gov/msl/multimedia/interactives/photosynth/ |title=Mars Science Laboratory Rover in the JPL Mars Yard |publisher=NASA/JPL |accessdate=May 10, 2009 |archive-url=https://web.archive.org/web/20090510233541/http://marsprogram.jpl.nasa.gov/msl/multimedia/interactives/photosynth/ |archive-date=May 10, 2009 |url-status=dead}}&lt;/ref&gt;
+&lt;ref name="NavCameras"&gt;{{cite web |url=http://marsprogram.jpl.nasa.gov/msl/mission/rover/eyesandother/ |title=Mars Science Laboratory: Mission: Rover: Eyes and Other Senses: Two Engineering NavCams (Navigation Cameras) |publisher=NASA/JPL |accessdate=April 4, 2009}}&lt;/ref&gt;
+&lt;ref name="planetary.2012"&gt;{{cite web |url=http://www.planetary.org/blogs/emily-lakdawalla/2012/08080751-curiosity-first-navcam-pan-3d.html |title=First NavCam mosaic |last= |first= |website= |date=}}&lt;/ref&gt;
+&lt;ref name="Rover Environmental Monitoring Station for MSL mission"&gt;{{cite journal |url=http://www-mars.lmd.jussieu.fr/paris2011/abstracts/gomez-elvira_paris2011.pdf |title=Rover Environmental Monitoring Station for MSL mission |page=473 |journal=4th International Workshop on the Mars Atmosphere: Modelling and Observations |date=February 2011 |accessdate=August 6, 2012|bibcode=2011mamo.conf..473G |last1=Gómez-Elvira |first1=J. |last2=Haberle |first2=B. |last3=Harri |first3=A. |last4=Martinez-Frias |first4=J. |last5=Renno |first5=N. |last6=Ramos |first6=M. |last7=Richardson |first7=M. |last8=de la Torre |first8=M. |last9=Alves |first9=J. |last10=Armiens |first10=C. |last11=Gómez |first11=F. |last12=Lepinette |first12=A. |last13=Mora |first13=L. |last14=Martín |first14=J. |last15=Martín-Torres |first15=J. |last16=Navarro |first16=S. |last17=Peinado |first17=V. |last18=Rodríguez-Manfredi |first18=J. A. |last19=Romeral |first19=J. |last20=Sebastián |first20=E. |last21=Torres |first21=J. |last22=Zorzano |first22=M. P. |last23=Urquí |first23=R. |last24=Moreno |first24=J. |last25=Serrano |first25=J. |last26=Castañer |first26=L. |last27=Jiménez |first27=V. |last28=Genzer |first28=M. |last29=Polko |first29=J.}}&lt;/ref&gt;
+&lt;ref name="MSLREMS"&gt;{{cite web |url=http://msl-scicorner.jpl.nasa.gov/Instruments/REMS/ |title=MSL Science Corner: Rover Environmental Monitoring Station (REMS) |publisher=NASA/JPL |accessdate=September 9, 2009}}&lt;/ref&gt;
+&lt;ref name="MSLREMS-pdf"&gt;{{cite web |url=http://mars.jpl.nasa.gov/msl/news/pdfs/MSL_Fact_Sheet-20100916.pdf |title=Mars Science Laboratory Fact Sheet |publisher=NASA/JPL |accessdate=June 20, 2011}}&lt;/ref&gt;
+&lt;ref name="HazardAvoidanceCameras"&gt;{{cite web |url=http://marsprogram.jpl.nasa.gov/msl/mission/rover/eyesandother/ |title=Mars Science Laboratory: Mission: Rover: Eyes and Other Senses: Four Engineering Hazcams (Hazard Avoidance Cameras) |publisher=NASA/JPL |accessdate=April 4, 2009}}&lt;/ref&gt;
+&lt;ref name="Mars Hand Lens Imager (MAHLI)"&gt;{{cite web |url=http://msl-scicorner.jpl.nasa.gov/Instruments/MAHLI/ |title=Mars Hand Lens Imager (MAHLI) |first=Kenneth S. |last=Edgett |publisher=NASA |accessdate=January 11, 2012}}&lt;/ref&gt;
+&lt;ref name="NASA-20120913"&gt;{{cite web |title=3D View of MAHLI Calibration Target |url=http://mars.jpl.nasa.gov/multimedia/images/?ImageID=4664 |date=September 13, 2012 |publisher=[[NASA]] |accessdate=October 11, 2012}}&lt;/ref&gt;
+&lt;ref name="MSLAPXS"&gt;{{cite web |url=http://msl-scicorner.jpl.nasa.gov/Instruments/APXS/ |title=MSL Science Corner: Alpha Particle X-ray Spectrometer (APXS) |publisher=NASA/JPL |accessdate=September 9, 2009}}&lt;/ref&gt;
+&lt;ref name="usra"&gt;{{cite web |url=http://www.lpi.usra.edu/meetings/lpsc2009/pdf/2364.pdf |title=40th Lunar and Planetary Science Conference |last= |first= |website= |year=2009}}&lt;br /&gt;{{cite web |url=http://www.lpi.usra.edu/meetings/lpsc2010/pdf/2539.pdf |title=41st Lunar and Planetary Science Conference |last= |first= |website= |year=2010}}&lt;/ref&gt;
+&lt;ref name="The new Athena alpha particle X-ray spectrometer for the Mars Exploration Rovers"&gt;{{cite journal |title=The new Athena alpha particle X-ray spectrometer for the Mars Exploration Rovers |first=R. |last=Rieder |first2=R. |last2=Gellert |first3=J. |last3=Brückner |first4=G. |last4=Klingelhöfer |first5=G. |last5=Dreibus |first6=A. |last6=Yen |first7=S. W. |last7=Squyres |display-authors=5 |journal=[[Journal of Geophysical Research]] |year=2003 |volume=108 |issue=E12 |page=8066 |doi=10.1029/2003JE002150 |bibcode=2003JGRE..108.8066R}}&lt;/ref&gt;
+&lt;ref name="NASA-20121030"&gt;{{cite web |last=Brown |first=Dwayne |title=NASA Rover's First Soil Studies Help Fingerprint Martian Minerals |url=http://www.nasa.gov/home/hqnews/2012/oct/HQ_12-383_Curiosity_CheMin.html |date=October 30, 2012 |publisher=[[NASA]] |accessdate=October 31, 2012}}&lt;/ref&gt;
+&lt;ref name="MSLCheMin"&gt;{{cite web |url=http://mars.jpl.nasa.gov/msl/mission/instruments/spectrometers/chemin/ |title=MSL Chemistry &amp; Mineralogy X-ray diffraction(CheMin) |publisher=NASA/JPL |accessdate=November 25, 2011}}&lt;/ref&gt;
+&lt;ref name="fluorescence"&gt;{{cite journal |title=Field deployment of a portable X-ray diffraction/X-ray fluorescence instrument on Mars analog terrain |last=Sarrazin |first=P. |last2=Blake |first2=D. |last3=Feldman |first3=S. |last4=Chipera |first4=S. |last5=Vaniman |first5=D. |last6=Bish |first6=D. |display-authors=5 |journal=Powder Diffraction |volume=20 |issue=2 |pages=128–133 |year=2005 |doi=10.1154/1.1913719 |bibcode=2005PDiff..20..128S}}&lt;/ref&gt;
+&lt;ref name="nasa20140624"&gt;{{cite web |last=Hoover |first=Rachel |title=Ames Instrument Helps Identify the First Habitable Environment on Mars, Wins Invention Award |url=http://www.nasa.gov/ames/ames-instrument-helps-identify-the-first-habitable-environment-on-mars-wins-invention-award |date=June 24, 2014 |work=[[NASA]] |accessdate=June 25, 2014}}&lt;/ref&gt;
+&lt;ref name="SciPackage"&gt;{{cite web |url=http://earthweb.ess.washington.edu/ess-306/MSL-PIP.pdf |title=Mars Science Laboratory Participating Scientists Program Proposal Information Package |publisher=NASA/Jet Propulsion Laboratory |first1=Robert C. |last1=Anderson |first2=Charles J. |last2=Baker |first3=Robert |last3=Barry |first4=David F. |last4=Blake |first5=Pamela |last5=Conrad |first6=Joy |last6=Crisp |first7=Kenneth S. |last7=Edgett |first8=Ralf |last8=Gellert |first9=John |last9=Gilbert |first10=Javier |last10=Gómez-Elvira |first11=Donald |last11=Hassler |first12=Maxim |last12=Litvak |first13=Paul |last13=Mahaffy |first14=Justin |last14=Maki |first15=Michael C. |last15=Malin |first16=Igor |last16=Mitrofanov |first17=Nicole |last17=Spanovich |first18=David |last18=Vaniman |first19=Ashwin |last19=Vasavada |first20=Richard V. |last20=Welch |first21=Roger C. |last21=Wiens |display-authors=5 |date=December 14, 2010 |accessdate=January 16, 2015}}&lt;/ref&gt;
+&lt;ref name="Beegle2007"&gt;{{cite journal |title=Mojave Martian Simulant: A New Martian Soil Simulant |journal=Lunar and Planetary Science Conference |issue=1338 |page=2005 |date=2007 |url=http://www.lpi.usra.edu/meetings/lpsc2007/pdf/2005.pdf |first1=L. W. |last1=Beegle |first2=G. H. |last2=Peters |first3=G. S. |last3=Mungas |first4=G. H. |last4=Bearman |first5=J. A. |last5=Smith |first6=R. C. |last6=Anderson |display-authors=5 |accessdate=April 28, 2014|bibcode=2007LPI....38.2005B}}&lt;/ref&gt;
+&lt;ref name="Allen1997"&gt;{{cite book |title=JSC Mars-1: Martian regolith simulant |date=March 1997 |publisher=Lunar and Planetary Exploration XXVIII |last1=Allen |first1=C. C. |last2=Morris |first2=R. V. |last3=Lindstrom |first3=D. J. |last4=Lindstrom |first4=M. M. |last5=Lockwood |first5=J. P. |url=http://www.orbitec.com/store/JSC_Mars_1_Characterization.pdf |accessdate=April 28, 2014 |url-status=dead |archiveurl=https://web.archive.org/web/20140910011606/http://www.orbitec.com/store/JSC_Mars_1_Characterization.pdf |archivedate=September 10, 2014}}&lt;/ref&gt;
+&lt;ref name="search"&gt;{{cite journal |year=2004 |title=Did life exist on Mars? Search for organic and inorganic signatures, one of the goals for "SAM" (sample analysis at Mars) |url=http://fingerprintsoflife.pbworks.com/f/cabane2004.pdf |journal=[[Advances in Space Research]] |volume=33 |issue=12 |pages=2240–2245 |bibcode=2004AdSpR..33.2240C |doi=10.1016/S0273-1177(03)00523-4 |last1=Cabane |first1=M. |last2=Coll |first2=P. |last3=Szopa |first3=C. |last4=Israël |first4=G. |last5=Raulin |first5=F. |last6=Sternberg |first6=R. |last7=Mahaffy |first7=P. |last8=Person |first8=A. |last9=Rodier |first9=C. |last10=Navarro-Gonzàlez |first10=R. |last11=Niemann |first11=H. |last12=Harpold |first12=D. |last13=Brinckerhoff |first13=W. |display-authors=5}}&lt;/ref&gt;
+&lt;ref name="SAM"&gt;{{cite web |date=October 2008 |url=http://ael.gsfc.nasa.gov/marsSAM.shtml |title=Sample Analysis at Mars (SAM) Instrument Suite |publisher=[[NASA]] |accessdate=October 9, 2009 |url-status=dead |archiveurl=https://web.archive.org/web/20081007102918/http://ael.gsfc.nasa.gov/marsSAM.shtml |archivedate=October 7, 2008}}&lt;/ref&gt;
+&lt;ref name="astrobio.2765"&gt;{{cite web |url=http://www.astrobio.net/news/modules.php?op=modload&amp;name=News&amp;file=article&amp;sid=2765&amp;mode=thread&amp;order=0&amp;thold=0 |title=Making Sense of Mars Methane |last=Tenenbaum |first=D. |date=June 9, 2008 |work=[[NASA|Astrobiology Magazine]] |accessdate=October 8, 2008}}&lt;/ref&gt;
+&lt;ref name="optics.6923"&gt;{{cite journal |last1=Tarsitano |first1=C. G. |last2=Webster |first2=C. R. |year=2007 |title=Multilaser Herriott cell for planetary tunable laser spectrometers |journal=[[Applied Optics]] |volume=46 |issue=28 |pages=6923–6935 |bibcode=2007ApOpt..46.6923T |doi=10.1364/AO.46.006923 |pmid=17906720}}&lt;/ref&gt;
+&lt;ref name="Mah2012"&gt;{{cite journal |year=2012 |title=The Sample Analysis at Mars Investigation and Instrument Suite |journal=[[Space Science Reviews]] |volume=170 |issue=1–4 |pages=401–478 |bibcode=2012SSRv..170..401M |doi=10.1007/s11214-012-9879-z |last1=Mahaffy |first1=Paul R. |last2=Webster |first2=Christopher R. |last3=Cabane |first3=Michel |last4=Conrad |first4=Pamela G. |last5=Coll |first5=Patrice |last6=Atreya |first6=Sushil K. |last7=Arvey |first7=Robert |last8=Barciniak |first8=Michael |last9=Benna |first9=Mehdi |last10=Bleacher |first10=Lora |last11=Brinckerhoff |first11=William B. |last12=Eigenbrode |first12=Jennifer L. |last13=Carignan |first13=Daniel |last14=Cascia |first14=Mark |last15=Chalmers |first15=Robert A. |last16=Dworkin |first16=Jason P. |last17=Errigo |first17=Therese |last18=Everson |first18=Paula |last19=Franz |first19=Heather |last20=Farley |first20=Rodger |last21=Feng |first21=Steven |last22=Frazier |first22=Gregory |last23=Freissinet |first23=Caroline |last24=Glavin |first24=Daniel P. |last25=Harpold |first25=Daniel N. |last26=Hawk |first26=Douglas |last27=Holmes |first27=Vincent |last28=Johnson |first28=Christopher S. |last29=Jones |first29=Andrea |last30=Jordan |first30=Patrick |display-authors=5}}&lt;/ref&gt;
+&lt;ref name="space20130107"&gt;{{cite news |url=http://www.space.com/19167-curiosity-rover-dusts-mars-rock.html |title=NASA's Curiosity Rover Brushes Mars Rock Clean, a First |work=Space.com |first=Clara |last=Moskowitz |date=January 7, 2013 |accessdate=January 16, 2015}}&lt;/ref&gt;
+&lt;ref name="MSLRAD"&gt;{{cite web |url=http://www.boulder.swri.edu/~hassler/rad/ |title=SwRI Radiation Assessment Detector (RAD) Homepage |publisher=Southwest Research Institute |accessdate=January 19, 2011}}&lt;/ref&gt;
+&lt;ref name="rad"&gt;{{cite web |url=http://mars.jpl.nasa.gov/msl/multimedia/images/?ImageID=4074 |website= |publisher=NASA |title=RAD |date=}}&lt;/ref&gt;
+&lt;ref name="IKI"&gt;{{cite web |url=http://l503.iki.rssi.ru/DAN-en.html |title=Laboratory for Space Gamma Spectroscopy - DAN |publisher=Laboratory for Space Gamma Spectroscopy |accessdate=September 20, 2012 |url-status=dead |archiveurl=https://web.archive.org/web/20130521050028/http://l503.iki.rssi.ru/DAN-en.html |archivedate=May 21, 2013}}&lt;/ref&gt;
+&lt;ref name="MSLDAN"&gt;{{cite web |url=http://msl-scicorner.jpl.nasa.gov/Instruments/DAN/ |title=MSL Science Corner: Dynamic Albedo of Neutrons (DAN) |publisher=NASA/JPL |accessdate=September 9, 2009}}&lt;/ref&gt;
+&lt;ref name="The Dynamic Albedo of Neutrons (DAN) Experiment for NASA's 2009 Mars Science Laboratory"&gt;{{cite journal |title=The Dynamic Albedo of Neutrons (DAN) Experiment for NASA's 2009 Mars Science Laboratory |journal=Astrobiology |first1=M. L. |last1=Litvak |first2=I. G. |last2=Mitrofanov |first3=Yu. N. |last3=Barmakov |first4=A. |last4=Behar |first5=A. |last5=Bitulev |first6=Yu. |last6=Bobrovnitsky |first7=E. P. |last7=Bogolubov |first8=W. V. |last8=Boynton |first9=S. I. |last9=Bragin |last10=Churin |first10=S. |last11=Grebennikov |first11=A. S. |last12=Konovalov |first12=A |last13=Kozyrev |first13=A. S. |last14=Kurdumov |first14=I. G. |last15=Krylov |first15=A |last16=Kuznetsov |first16=Y. P. |last17=Malakhov |first17=A. V. |last18=Mokrousov |first18=M. I. |last19=Ryzhkov |first19=V. I. |last20=Sanin |first20=A. B. |last21=Shvetsov |first21=V. N. |last22=Smirnov |first22=G. A. |last23=Sholeninov |first23=S |last24=Timoshenko |first24=G. N. |last25=Tomilina |first25=T. M. |last26=Tuvakin |first26=D. V. |last27=Tretyakov |first27=V. I. |last28=Troshin |first28=V. S. |last29=Uvarov |first29=V. N. |last30=Varenikov |first30=A. |display-authors=5 |volume=8 |issue=3 |year=2008 |pages=605–12 |pmid=18598140 |doi=10.1089/ast.2007.0157 |bibcode=2008AsBio...8..605L}}&lt;/ref&gt;
+&lt;ref name="Mars Science Laboratory: Mission"&gt;{{cite web |url=http://mars.jpl.nasa.gov/msl/mission/instruments/radiationdetectors/dan/ |title=Mars Science Laboratory: Mission |publisher=NASA JPL |accessdate=August 6, 2012}}&lt;/ref&gt;
+&lt;ref name="Mars Descent Imager (MARDI) Update"&gt;{{cite web |url=http://www.msss.com/msl/mardi/news/12Nov07/index.html |title=Mars Descent Imager (MARDI) Update |publisher=Malin Space Science Systems |date=November 12, 2007 |accessdate=August 6, 2012}}&lt;/ref&gt;
+&lt;ref name="Junocam, Juno Jupiter Orbiter"&gt;{{cite web |url=http://www.msss.com/all_projects/junocam.php |title=Junocam, Juno Jupiter Orbiter |publisher=Malin Space Science Systems |accessdate=August 6, 2012}}&lt;/ref&gt;
+&lt;ref name="TMJ-20130203"&gt;{{cite web |last=Anderson |first=Paul Scott |title=Curiosity 'hammers' a rock and completes first drilling tests |url=http://themeridianijournal.com/2013/02/curiosity-hammers-a-rock-and-completes-first-drilling-tests/ |date=February 3, 2013 |publisher=themeridianijournal.com |accessdate=February 3, 2013 |url-status=dead |archiveurl=https://web.archive.org/web/20130206162148/http://themeridianijournal.com/2013/02/curiosity-hammers-a-rock-and-completes-first-drilling-tests/ |archivedate=February 6, 2013}}&lt;/ref&gt;
+&lt;ref name="rover arm"&gt;{{cite web |url=http://mars.jpl.nasa.gov/msl/mission/rover/arm/ |title=Curiosity Rover - Arm and Hand |accessdate=August 21, 2012 |work=JPL |publisher=NASA}}&lt;/ref&gt;
+&lt;ref name="Test challenges"&gt;{{cite web |url=https://ntrs.nasa.gov/archive/nasa/casi.ntrs.nasa.gov/20100021927_2010023816.pdf |title=Mars Science Laboratory Sample Acquisition, Sample Processing and Handling: Subsystem Design and Test Challenges |first=Louise |last=Jandura |work=JPL |publisher=NASA |accessdate=August 21, 2012}}&lt;/ref&gt;
+&lt;ref name="stretches arm"&gt;{{cite news |title=Curiosity Stretches its Arm |date=August 21, 2012 |publisher=NASA |url=http://marsprogram.jpl.nasa.gov/msl/news/whatsnew/index.cfm?FuseAction=ShowNews&amp;NewsID=1317 |work=[[JPL]] |accessdate=August 21, 2012 |archive-url=https://web.archive.org/web/20120822102225/http://marsprogram.jpl.nasa.gov/msl/news/whatsnew/index.cfm?FuseAction=ShowNews&amp;NewsID=1317 |archive-date=August 22, 2012 |url-status=dead}}&lt;/ref&gt;
+&lt;ref name="Washington U"&gt;{{cite web |url=http://earthweb.ess.washington.edu/ess-306/MSL-PIP.pdf |title=MSL Participating Scientists Program - Proposal Information Package |date=December 14, 2010 |publisher=Washington University |accessdate=August 21, 2012}}&lt;/ref&gt;
+&lt;ref name="esmats.2011"&gt;{{cite web |url=http://www.esmats.eu/esmatspapers/pastpapers/pdfs/2011/billing.pdf |title=Mars Science Laboratory Robotic Arm |first1=Rius |last1=Billing |first2=Richard |last2=Fleischner |year=2011 |publisher=15th European Space Mechanisms and Tribology Symposium 2011 |accessdate=August 21, 2012}}&lt;/ref&gt;
+&lt;ref name="Mars Rovers: Pathfinder, MER (Spirit and Opportunity), and MSL"&gt;{{cite video |title=Mars Rovers: Pathfinder, MER (Spirit and Opportunity), and MSL |url=https://www.youtube.com/watch?v=D7kBTZAGhbs |medium=video |location=Pasadena, California |date=April 12, 2008 |accessdate=September 22, 2011}}&lt;/ref&gt;
+&lt;ref name="Mars Exploration Rover Launches"&gt;{{cite web |url=http://marsrovers.jpl.nasa.gov/newsroom/merlaunch.pdf |title=Mars Exploration Rover Launches |date=June 2003 |publisher=NASA |url-status=live |archivedate=July 26, 2004 |archiveurl=https://web.archive.org/web/20040726214103/http://marsrovers.jpl.nasa.gov/newsroom/merlaunch.pdf}}&lt;/ref&gt;
+&lt;ref name="nasa.pia16068"&gt;{{cite web |url=http://www.nasa.gov/mission_pages/msl/multimedia/pia16068.html |publisher=NASA |title=PIA16068 |last= |first= |website= |date=}}&lt;/ref&gt;
+&lt;ref name="NASA-20120810"&gt;{{cite web |title=Curiosity's Quad - IMAGE |url=http://mars.jpl.nasa.gov/msl/multimedia/images/?ImageID=4408 |date=August 10, 2012 |publisher=[[NASA]] |accessdate=August 11, 2012}}&lt;/ref&gt;
+&lt;ref name="NASA-20120809"&gt;{{cite web |last1=Agle |first1=DC |last2=Webster |first2=Guy |last3=Brown |first3=Dwayne |title=NASA's Curiosity Beams Back a Color 360 of Gale Crate |url=http://www.nasa.gov/mission_pages/msl/news/msl20120809.html |date=August 9, 2012 |publisher=[[NASA]] |accessdate=August 11, 2012}}&lt;/ref&gt;
+&lt;ref name="BBC-20120809"&gt;{{cite news |last=Amos |first=Jonathan |title=Mars rover makes first colour panorama |url=https://www.bbc.co.uk/news/science-environment-19201742 |date=August 9, 2012 |newspaper=[[BBC News]] |accessdate=August 9, 2012}}&lt;/ref&gt;
+&lt;ref name="USA-20120809"&gt;{{cite news |last=Halvorson |first=Todd |title=Quad 51: Name of Mars base evokes rich parallels on Earth |url=https://www.usatoday.com/tech/science/space/story/2012-08-09/mars-panorama-curiosity-quad-51/56922978/1 |date=August 9, 2012 |newspaper=[[USA Today]] |accessdate=August 12, 2012}}&lt;/ref&gt;
+&lt;ref name="Crater mound a prize and puzzle for Mars rover"&gt;{{cite journal |url=http://www.nature.com/news/crater-mound-a-prize-and-puzzle-for-mars-rover-1.11122 |title=Crater mound a prize and puzzle for Mars rover |journal=Nature |first=Eric |last=Hand |date=August 3, 2012 |accessdate=August 6, 2012|doi=10.1038/nature.2012.11122}}&lt;/ref&gt;
+&lt;ref name="themis"&gt;{{cite web |url=http://themis.mars.asu.edu/feature/22 |title=Gale Crater's History Book |publisher=Mars Odyssey THEMIS |accessdate=August 6, 2012}}&lt;/ref&gt;
+&lt;ref name="cnes3"&gt;{{cite news |title=Why NASA's Mars Curiosity Rover landing will be "Seven Minutes of Absolute Terror" |date=June 28, 2012 |publisher=Centre National d'Etudes Spatiales (CNES) |url=http://smsc.cnes.fr/MSL/GP_actualites.htm |work=NASA |accessdate=July 13, 2012}}&lt;/ref&gt;
+&lt;ref name="EntryDescentLanding"&gt;{{cite web |url=http://www.nasa.gov/mission_pages/msl/multimedia/gallery/pia13282.html |title=Final Minutes of Curiosity's Arrival at Mars |publisher=NASA/JPL |accessdate=April 8, 2011}}&lt;/ref&gt;
+&lt;ref name="Sky Crane – how to land Curiosity on the surface of Mars"&gt;{{cite web |url=http://blogs.scientificamerican.com/guest-blog/2011/11/28/sky-crane-how-to-land-curiosity-on-the-surface-of-mars/ |title=Sky Crane – how to land Curiosity on the surface of Mars |last=Teitel |first=Amy Shira |date=November 28, 2011 |work=Scientific American |accessdate=August 6, 2012}}&lt;/ref&gt;
+&lt;ref name="Mars rover lands on Xbox Live"&gt;{{cite news |first=Mike |last=Snider |title=Mars rover lands on Xbox Live |date=July 17, 2012 |url=https://www.usatoday.com/tech/science/space/story/2012-07-16/nasa-mars-rover-game/56253212/1 |work=USA Today |accessdate=July 27, 2012}}&lt;/ref&gt;
+&lt;ref name="Mars Science Laboratory: Entry, Descent, and Landing System Performance"&gt;{{cite web |title=Mars Science Laboratory: Entry, Descent, and Landing System Performance |url=https://ntrs.nasa.gov/archive/nasa/casi.ntrs.nasa.gov/20090007730_2009006430.pdf |publisher=[[NASA]] |date=March 2006 |page=7}}&lt;/ref&gt;
+&lt;ref name="ellipse"&gt;{{cite news |last=Amos |first=Jonathan |title=NASA's Curiosity rover targets smaller landing zone |date=June 12, 2012 |url=https://www.bbc.co.uk/news/science-environment-18401248 |work=BBC News |accessdate=June 12, 2012}}&lt;/ref&gt;
+&lt;ref name="NYT-20120813"&gt;{{cite news |last=Chang |first=Kenneth |title=Mars Looks Quite Familiar, if Only on the Surface |url=https://www.nytimes.com/2012/08/14/science/space/mars-looks-quite-familiar-if-only-on-the-surface.html |date=August 13, 2012 |newspaper=[[New York Times]] |accessdate=August 14, 2012}}&lt;/ref&gt;
+&lt;ref name="Lands"&gt;{{cite web |url=http://www.nasa.gov/externalflash/mars/curiosity_news3.html |title=Curiosity Lands on Mars |publisher=[[NASA TV]] |accessdate=August 6, 2012 |url-status=dead |archiveurl=https://web.archive.org/web/20120806070323/http://www.nasa.gov/externalflash/mars/curiosity_news3.html |archivedate=August 6, 2012}}&lt;/ref&gt;
+&lt;ref name="vice"&gt;{{cite web |url=http://motherboard.vice.com/2012/8/6/nasa-s-mars-rover-crashed-into-a-dmca-takedown |title=NASA's Mars Rover Crashed Into a DMCA Takedown |work=Motherboard |publisher=Motherboard.vice.com |date=August 6, 2012 |accessdate=August 8, 2012 |url-status=dead |archiveurl=https://web.archive.org/web/20120808121413/http://motherboard.vice.com/2012/8/6/nasa-s-mars-rover-crashed-into-a-dmca-takedown |archivedate=August 8, 2012}}&lt;/ref&gt;
+&lt;ref name="TimeSquare"&gt;{{cite news |url=http://www.space.com/16950-nasa-mars-rover-landing-times-square.html |title=Huge Crowds Watched NASA Rover Land on Mars from NYC's Times Square |work=[[Space.com]] |accessdate=August 8, 2012}}&lt;/ref&gt;
+&lt;ref name="space"&gt;{{cite news |url=http://www.space.com/16972-mars-rover-curiosity-landing-mohawk-guy.html |title=Mars Rover 'Mohawk Guy' a Space Age Internet Sensation &amp;#124; Curiosity Rover |work=Space.com |date=August 7, 2012 |accessdate=August 8, 2012}}&lt;/ref&gt;
+&lt;ref name="venturebeat"&gt;{{cite news |url=https://venturebeat.com/2012/08/06/curiosity-mars-memes/#s:mars-meme-01 |title=Mars landing proves memes now travel faster than the speed of light (gallery) |work=VentureBeat |date=June 18, 2012 |accessdate=August 8, 2012}}&lt;/ref&gt;
+&lt;ref name="inxitu"&gt;{{cite press release |url=http://www.inxitu.com/new/pdf/NASA%20invention%20of%20the%20year%20award%20v2.pdf |title=inXitu co-founder wins NASA Invention of the Year Award for 2010 |publisher=[[InXitu]] |first=Brad |last=Boyer |date=March 10, 2011 |accessdate=August 13, 2012 |url-status=dead |archiveurl=https://web.archive.org/web/20120803081352/http://www.inxitu.com/new/pdf/NASA%20invention%20of%20the%20year%20award%20v2.pdf |archivedate=August 3, 2012}}&lt;/ref&gt;
+&lt;ref name="NS-201208"&gt;{{cite web |title=Martian rover tech has an eye for priceless works of art |url=https://www.newscientist.com/blogs/onepercent/2012/08/martian-rover-tech.html?DCMP=OTC-rss&amp;nsref=online-news |date=August 10, 2012 |accessdate=August 13, 2012}}&lt;/ref&gt;
+&lt;ref name="newsday"&gt;{{cite news |last=Thomen |first=Daryl |title='Mars Rover Landing' with Kinect for the Xbox 360 |url=http://www.newsday.com/business/technology/warp-pipe-1.1521604/mars-rover-landing-with-kinect-for-the-xbox-360-1.3886958 |newspaper=[[Newsday]] |date=August 6, 2012 |accessdate=August 8, 2012}}&lt;/ref&gt;
+&lt;ref name="Send Your Name to Mars"&gt;{{cite web |url=http://marsparticipate.jpl.nasa.gov/msl/participate/sendyourname/worldmap/ |title=Send Your Name to Mars |accessdate=August 7, 2012 |year=2010 |work=NASA}}&lt;/ref&gt;
+&lt;ref name="collect"&gt;{{cite web |title=NASA's Curiosity rover flying to Mars with Obama's, others' autographs on board |url=http://www.collectspace.com/news/news-112611a.html |accessdate=August 11, 2012|website=collectSPACE}}&lt;/ref&gt;
+&lt;ref name="WP-20130806"&gt;{{cite news |last=Dewey |first=Caitlin |title=Lonely Curiosity rover sings 'Happy Birthday' to itself on Mars |url=https://www.washingtonpost.com/blogs/the-switch/wp/2013/08/06/lonely-curiosity-rover-sings-happy-birthday-to-itself-on-mars/ |date=August 6, 2013 |work=[[Washington Post]] |accessdate=August 7, 2013}}&lt;/ref&gt;
+&lt;ref name="NASA-20140623"&gt;{{cite web |last=Webster |first=Guy |last2=Brown |first2=Dwayne |title=NASA's Mars Curiosity Rover Marks First Martian Year |url=http://www.jpl.nasa.gov/news/news.php?release=2014-199 |date=June 23, 2014 |work=[[NASA]] |accessdate=June 23, 2014}}&lt;/ref&gt;
+&lt;ref name="CNET Harwood first"&gt;{{cite news |title=NASA announces plans for new $1.5 billion Mars rover |url=http://news.cnet.com/8301-11386_3-57557184-76/nasa-announces-plans-for-new-$1.5-billion-mars-rover/ |newspaper=[[CNET]] |date=December 4, 2012 |first=William |last=Harwood |quote=Using spare parts and mission plans developed for NASA's ''Curiosity'' Mars rover, the space agency says it can build and launch a new rover in 2020 and stay within current budget guidelines. |accessdate=December 5, 2012}}&lt;/ref&gt;
+&lt;ref name="NAA-20130312"&gt;{{cite web |last=Bosco |first=Cassandro |title=NASA/JPL Mars Curiosity Project Team Receive 2012 Robert J. Collier Trophy |url=http://naa.aero/siteadmin/data/document/Collier%202012%20PR.pdf |date=March 12, 2013 |work=[[National Aeronautic Association]] |accessdate=February 9, 2014 |url-status=dead |archiveurl=https://web.archive.org/web/20140223025521/http://naa.aero/siteadmin/data/document/Collier%202012%20PR.pdf |archivedate=February 23, 2014}}&lt;/ref&gt;
+&lt;ref name="PHYS-20120815"&gt;{{cite web |url=http://phys.org/news/2012-08-degree-street-view-mars.html |title=A 360-degree 'street view' from Mars |work=[[PhysOrg]] |first=John |last=Williams |date=August 15, 2012 |accessdate=August 16, 2012}}&lt;/ref&gt;
+&lt;ref name="CuriosityRover-360Cities"&gt;{{cite web |url=http://www.360pano.eu/show/?id=731 |title=Mars Panorama - Curiosity rover: Martian solar day 2 |work=360Cities |first=Andrew |last=Bodrov |date=September 14, 2012 |accessdate=September 14, 2012}}&lt;/ref&gt;
+&lt;ref name="msl-where"&gt;{{cite journal |url=http://mars.nasa.gov/msl/mission/whereistherovernow/ |title=Where is Curiosity? |journal=Space Science Reviews |volume=170 |issue=1–4 |page=401 |accessdate=January 1, 2020|last1=Mahaffy |first1=Paul R. |last2=Webster |first2=Christopher R. |last3=Cabane |first3=Michel |last4=Conrad |first4=Pamela G. |last5=Coll |first5=Patrice |last6=Atreya |first6=Sushil K. |last7=Arvey |first7=Robert |last8=Barciniak |first8=Michael |last9=Benna |first9=Mehdi |last10=Bleacher |first10=Lora |last11=Brinckerhoff |first11=William B. |last12=Eigenbrode |first12=Jennifer L. |last13=Carignan |first13=Daniel |last14=Cascia |first14=Mark |last15=Chalmers |first15=Robert A. |last16=Dworkin |first16=Jason P. |last17=Errigo |first17=Therese |last18=Everson |first18=Paula |last19=Franz |first19=Heather |last20=Farley |first20=Rodger |last21=Feng |first21=Steven |last22=Frazier |first22=Gregory |last23=Freissinet |first23=Caroline |last24=Glavin |first24=Daniel P. |last25=Harpold |first25=Daniel N. |last26=Hawk |first26=Douglas |last27=Holmes |first27=Vincent |last28=Johnson |first28=Christopher S. |last29=Jones |first29=Andrea |last30=Jordan |first30=Patrick |displayauthors=29 |year=2012 |doi=10.1007/s11214-012-9879-z |bibcode=2012SSRv..170..401M}}&lt;/ref&gt;
+&lt;ref name="NASA-20170802"&gt;{{cite web |last1=Webster |first1=Guy |last2=Cantillo |first2=Laurie |last3=Brown |first3=Dwayne |title=Five Years Ago and 154 Million Miles Away: Touchdown! |url=https://mars.jpl.nasa.gov/news/2017/five-years-ago-and-154-million-miles-away-touchdown |date=August 2, 2017 |work=[[NASA]] |accessdate=August 8, 2017}}&lt;/ref&gt;
+&lt;ref name="SP-20170805"&gt;{{cite web |last=Wall |first=Mike |title=After 5 Years on Mars, NASA's Curiosity Rover Is Still Making Big Discoveries |url=https://www.space.com/37722-mars-rover-curiosity-five-years-anniversary.html |date=August 5, 2017 |work=[[Space.com]] |accessdate=August 8, 2017}}&lt;/ref&gt;
+&lt;ref name="Ritz2004"&gt;{{cite conference |url=http://trs-new.jpl.nasa.gov/dspace/bitstream/2014/38246/1/04-0191.pdf |title=Multi-Mission Radioisotope Thermoelectric Generator (MMRTG) Program Overview |conference=2004 IEEE Aerospace Conference. March 6–13, 2004. Big Sky, Montana. |first1=Fred |last1=Ritz |first2=Craig E. |last2=Peterson |date=2004 |doi=10.1109/AERO.2004.1368101 |url-status=dead |archiveurl=https://web.archive.org/web/20111216101915/http://trs-new.jpl.nasa.gov/dspace/bitstream/2014/38246/1/04-0191.pdf |archivedate=December 16, 2011}}&lt;/ref&gt;
+&lt;ref name="Idaho2011"&gt;{{cite web |url=http://www4vip.inl.gov/research/mars-science-laboratory/d/mars-science-laboratory.pdf |title=Fueling the Mars Science Laboratory |publisher=Idaho National Laboratory |first=Joseph |last=Campbell |date=2011 |access-date=February 28, 2016 |archive-url=https://web.archive.org/web/20160304111419/http://www4vip.inl.gov/research/mars-science-laboratory/d/mars-science-laboratory.pdf |archive-date=March 4, 2016 |url-status=dead |df=mdy-all}}&lt;/ref&gt;
+&lt;ref name="relay orbit"&gt;[http://spacenews.com/nasa-mars-exploration-efforts-turn-to-operating-existing-missions-and-planning-sample-return/ NASA Mars exploration efforts turn to operating existing missions and planning sample return]. Jeff Foust, ''Space News''. 23 February 2018.&lt;/ref&gt;
+&lt;ref name="rg2019"&gt;{{cite web |title=Vandi Verma |url=https://www.researchgate.net/profile/Vandi_Verma |website=ResearchGate |accessdate=7 February 2019}}&lt;/ref&gt;
+&lt;ref name="jpl2019"&gt;{{cite web |title=Dr. Vandi Verma Group Supervisor |url=https://www-robotics.jpl.nasa.gov/people/Vandi_Verma/personFull.cfm |website=Jet Propulsion Laboratory |publisher=CIT |accessdate=8 February 2019}}&lt;/ref&gt;
+&lt;ref name="ntrs2019"&gt;{{cite web |last1=Estlin |first1=Tara |last2=Jonsson |first2=Ari |last3=Pasareanu |first3=Carina |last4=Simmons |first4=Reid |last5=Tso |first5=Kam |last6=Verma |first6=Vandi |title=Plan Execution Interchange Language (PLEXIL) |url=https://ntrs.nasa.gov/archive/nasa/casi.ntrs.nasa.gov/20060019246.pdf |website=NASA Technical Reports Server |accessdate=8 February 2019}}&lt;/ref&gt;
+&lt;ref name="plex2019"&gt;{{cite web |title=Bibliography of PLEXIL-related publications, organized by category. |url=http://plexil.sourceforge.net/wiki/index.php/References |website=Plexil souceforge |accessdate=8 February 2019}}&lt;/ref&gt;
+&lt;ref name="Bell2014a"&gt;{{cite conference |url=http://ssed.gsfc.nasa.gov/IPM/PDF/1151.pdf |title=Mastcam-Z: A Geologic, Stereoscopic, and Multispectral Investigation on the NASA Mars-2020 Rover |conference=International Workshop on Instrumentation for Planetary Missions. November 4–7, 2014. Greenbelt, Maryland. |first1=J. F. |last1=Bell III |first2=J. N. |last2=Maki |first3=G. L. |last3=Mehall |first4=M. A. |last4=Ravine |first5=M. A. |last5=Caplinger |date=2014}}&lt;/ref&gt;
+&lt;ref name="drill-fault"&gt;{{cite news |url=https://spaceflightnow.com/2016/12/29/internal-debris-may-be-causing-problem-with-mars-rovers-drill/ |title=Internal debris may be causing problem with Mars rover's drill |work=Spaceflight Now |first=Stephen |last=Clark |date=December 29, 2016 |accessdate=January 22, 2017}}&lt;/ref&gt;
+&lt;ref name="popmech20161213"&gt;{{cite news |url=http://www.popularmechanics.com/space/moon-mars/a24288/nasa-curiosity-arm-drill-stuck/ |title=NASA Is Trying to Get Mars Rover Curiosity's Arm Unstuck |work=Popular Mechanics |agency=Associated Press |date=December 13, 2016 |accessdate=January 18, 2017}}&lt;/ref&gt;
+&lt;ref name="spacecom20161215"&gt;{{cite news |url=https://www.space.com/35034-mars-rover-curiosity-drill-problem.html |title=Drill Issue Continues to Afflict Mars Rover Curiosity |work=Space.com |first=Mike |last=Wall |date=December 15, 2016 |accessdate=February 10, 2018}}&lt;/ref&gt;
+&lt;ref name="nasa20161209"&gt;{{cite web |url=https://mars.nasa.gov/msl/mission/mars-rover-curiosity-mission-updates/?mu=sols-1545-1547-moving-again |title=Sols 1545-1547: Moving again! |series=NASA Mars Rover Curiosity: Mission Updates |publisher=NASA |date=December 9, 2016}}&lt;/ref&gt;
+&lt;ref name="planetary20170906"&gt;{{cite web |url=http://www.planetary.org/blogs/emily-lakdawalla/2017/0906-curiosity-balky-drill-problem.html |title=Curiosity's balky drill: The problem and solutions |publisher=The Planetary Society |first=Emily |last=Lakdawalla |date=September 6, 2017 |accessdate=February 10, 2018}}&lt;/ref&gt;
+&lt;ref name="NASA"&gt;{{cite web |url=https://www.nasa.gov/mission_pages/msl/msl-20090527.html |title=NASA Selects Student's Entry as New Mars Rover Name |publisher=NASA{{\}}Jet Propulsion Laboratory |first1=Dwayne C. |last1=Brown |first2=Alan |last2=Buis |first3=Carolina |last3=Martinez |date=May 27, 2009 |accessdate=January 2, 2017}}{{PD-notice}}&lt;/ref&gt;
+&lt;ref name="NYT-20151005-kc"&gt;{{cite news |last=Chang |first=Kenneth |title=Mars Is Pretty Clean. Her Job at NASA Is to Keep It That Way. |url=https://www.nytimes.com/2015/10/06/science/mars-catharine-conley-nasa-planetary-protection-officer.html |date=October 5, 2015 |work=[[The New York Times]] |accessdate=October 6, 2015}}&lt;/ref&gt;
+&lt;ref name="NYT-20180607"&gt;{{cite news |url=https://www.nytimes.com/2018/06/07/science/mars-nasa-life.html |title=Life on Mars? Rover's Latest Discovery Puts It 'On the Table' |work=[[The New York Times]] |last=Chang |first=Kenneth |date=June 7, 2018 |accessdate=June 8, 2018 |quote=The identification of organic molecules in rocks on the red planet does not necessarily point to life there, past or present, but does indicate that some of the building blocks were present.}}&lt;/ref&gt;
+&lt;ref name="SCI-20180608a"&gt;{{cite journal |title=Organic molecules on Mars |journal=[[Science (journal)|Science]] |last=ten Kate |first=Inge Loes |volume=360 |issue=6393 |pages=1068–1069 |date=June 8, 2018 |doi=10.1126/science.aat2662 |pmid=29880670 |bibcode=2018Sci...360.1068T}}&lt;/ref&gt;
+&lt;ref name="SCI-20180608c"&gt;{{cite journal |title=Organic matter preserved in 3-billion-year-old mudstones at Gale crater, Mars |journal=[[Science (journal)|Science]] |first1=Jennifer L. |last1=Eigenbrode |first2=Roger E. |last2=Summons |first3=Andrew |last3=Steele |first4=Caroline |last4=Freissinet |first5=Maëva |last5=Millan |first6=Rafael |last6=Navarro-González |first7=Brad |last7=Sutter |first8=Amy C. |last8=McAdam |first9=Heather B. |last9=Franz |first10=Daniel P. |last10=Glavin |first11=Paul D. |last11=Archer |first12=Paul R. |last12=Mahaffy |first13=Pamela G. |last13=Conrad |first14=Joel A. |last14=Hurowitz |first15=John P. |last15=Grotzinger |first16=Sanjeev |last16=Gupta |first17=Doug W. |last17=Ming |first18=Dawn Y. |last18=Sumner |first19=Cyril |last19=Szopa |first20=Charles |last20=Malespin |first21=Arnaud |last21=Buch |first22=Patrice |last22=Coll |display-authors=1 |volume=360 |issue=6393 |pages=1096–1101 |date=June 8, 2018 |doi=10.1126/science.aas9185 |pmid=29880683 |bibcode=2018Sci...360.1096E|url=https://authors.library.caltech.edu/86910/2/aas9185-Eigenbrode-SM.pdf}}&lt;/ref&gt;
+&lt;ref name="nasaapps"&gt;{{cite web |title=Main page: NASA applications |url=http://plexil.sourceforge.net/wiki/index.php/Main_Page#NASA_Applications |website=PLEXIL sourceforge |accessdate=8 February 2019}}&lt;/ref&gt;
+&lt;ref name="mdacorp"&gt;{{cite paper |url=http://www.mdacorp-us.com/Robotics%20Papers/rbilling%20%28final%20copy%20sent%20to%20ESMATS%29.pdf |title=Mars Science Laboratory Robotic Arm |publisher=MDA US Systems |first1=Rius |last1=Billing |first2=Richard |last2=Fleischner |accessdate=January 22, 2017 |url-status=dead |archiveurl=https://web.archive.org/web/20161006040739/http://www.mdacorp-us.com/Robotics%20Papers/rbilling%20%28final%20copy%20sent%20to%20ESMATS%29.pdf |archivedate=October 6, 2016}}&lt;/ref&gt;
+&lt;ref name="drillingagain"&gt;[https://www.skyandtelescope.com/astronomy-news/curiosity-rover-in-the-drilling-business-once-again/ Curiosity Rover is Drilling Again.] David Dickinon, ''Sky and Telescope''. 4 June 2018.&lt;/ref&gt;
+}}
+
+== External links ==
+{{Wiktionary|Curiosity}}
+{{Commons category multi|Curiosity rover|Photos by the Curiosity rover}}
+* [http://mars.nasa.gov/msl/ ''Curiosity'' Rover - Home Page - NASA/JPL]
+* [http://www.nasa.gov/multimedia/nasatv/index.html MSL - NASA Updates] - [http://www.nasa.gov/multimedia/nasatv/MM_NTV_Breaking.html *LIVE* TBA] [http://www.nasa.gov/multimedia/nasatv/schedule.html Schedule] [http://www.nasa.gov/multimedia/nasatv/index.html (NASA-TV)] [http://www.nasa.gov/news/media/newsaudio/index.html (NASA-Audio)]
+* [https://slideslive.com/38890315/the-search-for-life-on-mars-elsewhere-in-the-solar-system-curiosity-update The search for life on Mars &amp; elsewhere in the Solar System: ''Curiosity'' update - Video lecture by Christopher P. McKay]
+* [https://www.pbs.org/wgbh/nova/space/ultimate-mars-challenge.html MSL - ''Curiosity'' Design and Mars Landing - PBS Nova (2012-11-14) - Video (53:06)]
+* [http://www.360pano.eu/show/?id=731 MSL - "''Curiosity'' 'StreetView'" (Sol 2 - 2012-08-08) - NASA/JPL - 360° Panorama]
+* [https://web.archive.org/web/20141109015701/http://mars.jpl.nasa.gov/msl/multimedia/interactives/learncuriosity/index-2.html MSL - ''Curiosity'' Rover - Learn About ''Curiosity'' - NASA/JPL]
+* [https://web.archive.org/web/20131215005525/http://mars.jpl.nasa.gov/msl/multimedia/interactives/photosynth/ MSL - ''Curiosity'' Rover - Virtual Tour - NASA/JPL]
+* [http://www.nasa.gov/mission_pages/msl/multimedia/gallery-indexEvents.html MSL - NASA Image Gallery]
+* [http://cab.inta-csic.es/rems/en/ Weather Reports] from the Rover Environmental Monitoring Station (REMS)
+* {{Twitter}}
+* [http://www.ustream.tv/recorded/27478475 MSL - NASA Update - AGU Conference (2012-12-03) Video (70:13)]
+* [http://www.universetoday.com/106350/go-mars-digging-beside-curiosity-in-new-panorama/ Panorama] (via Universe Today)
+
+{{Features and artificial objects on Mars}}
+{{Curiosity Rover Timeline}}
+{{MSL}}
+{{Astrobiology}}
+{{Mars spacecraft}}
+{{Solar System probes}}
+{{Orbital launches in 2011}}
+{{2012 in space}}
+
+[[Category:2011 robots]]
+[[Category:2012 on Mars]]
+[[Category:Aeolis quadrangle]]
+[[Category:American inventions]]
+[[Category:Articles containing video clips]]
+[[Category:Astrobiology space missions]]
+[[Category:Individual space vehicles]]
+[[Category:Mars rovers]]
+[[Category:Mars Science Laboratory]]
+[[Category:NASA space probes]]
+[[Category:Nuclear-powered robots]]
+[[Category:Nuclear power in space]]
+[[Category:Robots of the United States]]
+[[Category:Six-wheeled robots]]
+[[Category:Soft landings on Mars]]
+[[Category:Space probes launched in 2011]]</text>
+      <sha1>9k7u0o0lrexjrhz0skbdq011bfpeood</sha1>
+    </revision>
+  </page>
+</mediawiki>

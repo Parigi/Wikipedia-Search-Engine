@@ -1,0 +1,152 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.10/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.10/ http://www.mediawiki.org/xml/export-0.10.xsd" version="0.10" xml:lang="en">
+  <siteinfo>
+    <sitename>Wikipedia</sitename>
+    <dbname>enwiki</dbname>
+    <base>https://en.wikipedia.org/wiki/Main_Page</base>
+    <generator>MediaWiki 1.35.0-wmf.36</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Media</namespace>
+      <namespace key="-1" case="first-letter">Special</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Talk</namespace>
+      <namespace key="2" case="first-letter">User</namespace>
+      <namespace key="3" case="first-letter">User talk</namespace>
+      <namespace key="4" case="first-letter">Wikipedia</namespace>
+      <namespace key="5" case="first-letter">Wikipedia talk</namespace>
+      <namespace key="6" case="first-letter">File</namespace>
+      <namespace key="7" case="first-letter">File talk</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki talk</namespace>
+      <namespace key="10" case="first-letter">Template</namespace>
+      <namespace key="11" case="first-letter">Template talk</namespace>
+      <namespace key="12" case="first-letter">Help</namespace>
+      <namespace key="13" case="first-letter">Help talk</namespace>
+      <namespace key="14" case="first-letter">Category</namespace>
+      <namespace key="15" case="first-letter">Category talk</namespace>
+      <namespace key="100" case="first-letter">Portal</namespace>
+      <namespace key="101" case="first-letter">Portal talk</namespace>
+      <namespace key="108" case="first-letter">Book</namespace>
+      <namespace key="109" case="first-letter">Book talk</namespace>
+      <namespace key="118" case="first-letter">Draft</namespace>
+      <namespace key="119" case="first-letter">Draft talk</namespace>
+      <namespace key="446" case="first-letter">Education Program</namespace>
+      <namespace key="447" case="first-letter">Education Program talk</namespace>
+      <namespace key="710" case="first-letter">TimedText</namespace>
+      <namespace key="711" case="first-letter">TimedText talk</namespace>
+      <namespace key="828" case="first-letter">Module</namespace>
+      <namespace key="829" case="first-letter">Module talk</namespace>
+      <namespace key="2300" case="first-letter">Gadget</namespace>
+      <namespace key="2301" case="first-letter">Gadget talk</namespace>
+      <namespace key="2302" case="case-sensitive">Gadget definition</namespace>
+      <namespace key="2303" case="case-sensitive">Gadget definition talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>"Hello, World!" program</title>
+    <ns>0</ns>
+    <id>13834</id>
+    <revision>
+      <id>962247394</id>
+      <parentid>962247113</parentid>
+      <timestamp>2020-06-12T23:13:21Z</timestamp>
+      <contributor>
+        <username>Larry Hockett</username>
+        <id>15977090</id>
+      </contributor>
+      <minor/>
+      <comment>Reverted edits by [[Special:Contribs/2A01:CB1D:833A:2000:B906:7631:8561:4DE4|2A01:CB1D:833A:2000:B906:7631:8561:4DE4]] ([[User talk:2A01:CB1D:833A:2000:B906:7631:8561:4DE4|talk]]) to last version by Thanoscar21</comment>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="15819" xml:space="preserve">{{Redirect|Hello World|other uses|Hello World (disambiguation)}}
+{{short description|Traditional beginners' computer program}}
+
+[[File:HelloWorld Maktivism ComputerProgramming LEDs.jpg|thumb|A "Hello, World!" message being displayed through long-exposure [[light painting]] with a moving strip of LED lights]]
+
+A '''"Hello, World!" program''' generally is a [[computer program]] that outputs or displays the message "Hello, World!". Such a program is very simple in most [[programming language|programming languages]], and is often used to illustrate the basic [[syntax]] of a programming language. It is often the first program written by people learning to code.&lt;ref&gt;{{cite web|author=James A Langbridge|url=https://books.google.com/books?id=y51NAgAAQBAJ&amp;pg=PA74&amp;lpg=PA74&amp;dq#v=onepage&amp;q&amp;f=false 
+|title=Professional Embedded ARM Development}}&lt;/ref&gt;&lt;ref&gt;{{cite web|url=https://github.com/sinobitorg/hardware|title=sinobitorg/hardware|author=|date=|website=GitHub}}&lt;/ref&gt; It can also be used as a [[sanity test]] to make sure that a computer language is correctly installed, and that the operator understands how to use it.
+
+==History==
+[[File:Hello World Brian Kernighan 1974.jpg|thumb|"Hello, World!" program by [[Brian Kernighan]] (1978)]]
+
+While small test programs have existed since the development of programmable [[computer|computers]], the tradition of using the phrase "Hello, World!" as a test message was influenced by an example program in the seminal 1978 book ''[[The C Programming Language (book)|The C Programming Language]]''.&lt;ref&gt;{{cite book | last = Kernighan | first = Brian W. | authorlink = Brian W. Kernighan | author2 = Ritchie, Dennis M. | title = The C Programming Language | edition = 1st | publisher = [[Prentice Hall]] | date = 1978 | location = [[Englewood Cliffs, NJ]] | isbn = 0-13-110163-3 | authorlink2 = Dennis M. Ritchie | url-access = registration | url = https://archive.org/details/cprogramminglang00kern }}&lt;/ref&gt; The example program in that book prints "{{samp|hello, world}}", and was inherited from a 1974 [[Bell Labs|Bell Laboratories]] internal memorandum by [[Brian Kernighan]], ''Programming in C: A Tutorial'':&lt;ref name="ctut"&gt;{{cite web|url=https://www.bell-labs.com/usr/dmr/www/ctut.pdf|title=Programming in C: A Tutorial|last=Kernighan|first=Brian|year=1974|publisher=Bell Labs|accessdate=9 January 2019}}&lt;/ref&gt;
+&lt;!--
+**************************************
+Editor's Note: We do not need to have an example for every programming language ever created. Wikipedia is an encyclopedia. Please refrain from adding examples just because we can. If you think a particular example adds something unique and valuable to the article, bring it up on the talk page, first. Thanks. (User:DragonHawk)
+
+Addendum: there are large repositories of Hello, World! programs all over the net, in every conceivable language, and there is no need to list them all here. In fact, there is now a very comprehensive Wikibooks link: if you want to add a version for your language, do so there (you'll likely find it already exists). HERE IS NOT THE PLACE. The C version (which is not even correct in modern C) is here because it is the first in a non-obscure language, and the B example because it is the first known. There is no reason to have any others here. DO NOT ADD ANY MORE!
+
+Addendum II: Apparently, we now have a place for such things: List of Hello world program examples
+**************************************
+--&gt;
+&lt;!-- DO NOT ADD A NEWLINE, HEADER FILE OR INT DATA TYPE TO THIS CODE, AS THE ORIGINAL IN 1974 DIDN'T HAVE ONE, THANKS --&gt;
+&lt;!-- See https://www.bell-labs.com/usr/dmr/www/ctut.pdf for original.--&gt;
+&lt;syntaxhighlight lang="c"&gt;
+main( ) {
+        printf("hello, world\n");
+}
+&lt;/syntaxhighlight&gt;
+
+In the above example, the {{samp|main( )}} [[subroutine|function]] defines where the program [[Entry point|should start executing]]. The function body consists of a single [[Statement (computer science)|statement]], a call to the {{samp|printf}} function, which stands for "''print f''ormatted". This function will cause the program output whatever is passed to it as the [[Parameter (computer programming)|parameter]], in this case the [[String (computer science)|string]] {{samp|hello, world}}, followed by a [[newline]] character.
+
+The C language version was preceded by Kernighan's own 1972 ''A Tutorial Introduction to the Language [[B (programming language)|B]]'',&lt;ref name="langb"&gt;{{cite web| url = https://www.bell-labs.com/usr/dmr/www/bintro.html| title = The Programming Language B}}&lt;/ref&gt; where the first known version of the program is found in an example used to illustrate external variables:
+&lt;syntaxhighlight lang="c"&gt;
+main( ) {
+    extern a, b, c;
+    putchar(a); putchar(b); putchar(c); putchar('!*n');
+}
+ 
+a 'hell';
+b 'o, w';
+c 'orld';
+&lt;/syntaxhighlight&gt;
+
+The program also prints ''{{samp|hello, world!}}'' on the terminal, including a [[newline]] character. The phrase is divided into multiple variables because in B, a character constant is limited to four [[ASCII]] characters. The previous example in the tutorial printed ''{{samp|hi!}}'' on the terminal, and the phrase ''{{samp|hello,&amp;nbsp;world!}}'' was introduced as a slightly longer greeting that required several character constants for its expression.
+
+The [[Jargon File]] claims that "Hello, World!" originated instead with [[BCPL]] (1967).&lt;ref&gt;[http://www.catb.org/jargon/html/B/BCPL.html BCPL], ''[[Jargon File]]''&lt;/ref&gt; This claim is supposedly supported by the archived notes of the inventors of BCPL, [[Brian Kernighan]] at [[Princeton University|Princeton]] and [[Martin Richards (computer scientist)|Martin Richards]] at [[University of Cambridge|Cambridge]].
+
+==Variations==
+[[Image:PSP-Homebrew.jpeg|thumb|A "Hello, world!" program running on Sony's [[PlayStation Portable homebrew|PlayStation Portable]] as a proof of concept.]]
+"Hello, World!" programs vary in complexity between different languages. In some languages, particularly [[Scripting language|scripting languages]], the "Hello, World!" program can be written  as a single statement, while in others (particularly many [[Low-level programming language|low-level languages]]) there can be many more statements required. For example, in [[Python (programming language)|Python]], to print the string ''{{samp|Hello, World!}}'' followed by a newline, one need only write {{samp|print("Hello, World!")}}. In contrast, the equivalent code in [[C++]] &lt;sup&gt;[https://en.wikibooks.org/wiki/C%2B%2B_Programming/Examples/Hello_world]&lt;/sup&gt; requires the import of the [[input/output]] [[Library (computing)|software library]], the manual declaration of an [[entry point]], and the explicit instruction that the output string should be sent to the [[Standard streams#Standard output (stdout)|standard output stream]]. Generally, programming languages that give the programmer more control over the machine will result in more complex "Hello, World" programs.&lt;ref name="ODwyer"&gt;{{cite book |last1=O'Dwyer |first1=Arthur |title=Mastering the C++17 STL: Make full use of the standard library components in C++17 |date=September 2017 |publisher=[[Packt Publishing Ltd]] |isbn=978-1-78728-823-2 |page=251 |url=https://books.google.com/books?id=zJlGDwAAQBAJ&amp;pg=PA251&amp;lpg=PA251&amp;dq=%22TTHW%22&amp;source=bl&amp;sa=X&amp;q=%22TTHW%22&amp;f=false#v=onepage&amp;q=%22TTHW%22&amp;f=false |accessdate=4 December 2019 |language=en}}&lt;/ref&gt;
+
+The phrase "Hello World!" has seen various deviations punctuation and casing, such as the presence of the comma and exclamation mark, and the capitalization of the leading ''H'' and ''W''. Some devices limit the format to specific variations, such as all-capitalized versions on systems that support only capital letters, while some [[esoteric programming language]]s may have to print a slightly modified string. For example, the first non-trivial [[Malbolge]] program printed "HEllO WORld", this having been determined to be [[Principle of good enough|good enough]].&lt;ref&gt;{{cite web|title=Malbolge|url=https://esolangs.org/wiki/Malbolge|website=Esolang|publisher=esolangs-wiki|accessdate=28 October 2016}}&lt;/ref&gt; Other human languages have been used as the output; for example, a tutorial for the [[Go programming language]] outputted both English and Chinese characters, demonstrating the programming language's built-in [[Unicode]] support.&lt;ref&gt;[http://golang.org/doc/go_tutorial.html#tmp_20 A Tutorial for the Go Programming Language.] {{webarchive |url=https://web.archive.org/web/20100726052120/http://golang.org/doc/go_tutorial.html#tmp_20 |date=July 26, 2010 }} The Go Programming Language. Retrieved July 26, 2011.&lt;/ref&gt;
+
+Some languages change the functionality of the "Hello, World!" program while maintaining the spirit of demonstrating a simple example. [[Functional programming]] languages, such as [[Lisp (programming language)|Lisp]], [[ML (programming language)|ML]] and [[Haskell (programming language)|Haskell]], tend to substitute a [[factorial]] program for "Hello, World!", as functional programming emphasizes recursive techniques, whereas the original examples emphasize I/O, which violates the spirit of pure functional programming by producing [[Side effect (computer science)|side effects]]. Languages otherwise capable of printing "Hello, World!" (Assembly, C, [[VHDL]]) may also be used in [[embedded system|embedded systems]], where text output is either difficult (requiring additional components or communication with another computer) or nonexistent. For devices such as [[microcontroller|microcontrollers]], [[field-programmable gate arrays]], and [[Complex programmable logic device|CPLDs]], "Hello, World!" may thus be substituted with a blinking [[Light-emitting diode|LED]], which demonstrates timing and interaction between components.&lt;ref&gt;{{cite web|last1=Silva|first1=Mike|title=Introduction to Microcontrollers - Hello World|url=http://www.embeddedrelated.com/showarticle/460.php|website=EmbeddedRelated.com|accessdate=19 May 2015|date=11 September 2013}}&lt;/ref&gt;&lt;ref&gt;{{cite web|last1=George|first1=Ligo|title=Blinking LED using Atmega32 Microcontroller and Atmel Studio|url=https://electrosome.com/blinking-led-atmega32-avr-microcontroller/|website=electroSome|accessdate=19 May 2015}}&lt;/ref&gt;&lt;ref&gt;{{cite web|last1=PT|first1=Ranjeeth|title=2. AVR Microcontrollers in Linux HOWTO|url=http://www.tldp.org/HOWTO/Avr-Microcontrollers-in-Linux-Howto/x207.html|website=The Linux Documentation Project|accessdate=19 May 2015}}&lt;/ref&gt;&lt;ref&gt;{{cite web|last1=Andersson|first1=Sven-Åke|title=3.2 The first Altera FPGA design|url=http://www.rte.se/blog/blogg-modesty-corex/first-altera-fpga-design/3.2|website=RTE|publisher=Realtime Embedded AB|accessdate=19 May 2015|date=2 April 2012|archive-url=https://web.archive.org/web/20150521222132/http://www.rte.se/blog/blogg-modesty-corex/first-altera-fpga-design/3.2|archive-date=21 May 2015|url-status=dead}}&lt;/ref&gt;&lt;ref&gt;{{cite web|last1=Fabio|first1=Adam|title=CPLD Tutorial: Learn programmable logic the easy way|url=http://hackaday.com/2014/04/06/cpld-tutorial-learn-programmable-logic-the-easy-way/|website=Hackaday|accessdate=19 May 2015|date=6 April 2014}}&lt;/ref&gt;
+
+The [[Debian]] and [[Ubuntu (operating system)|Ubuntu]] [[Linux]] distributions provide the "Hello, World!" program through their [[Package manager|software package manager]] systems, which can be invoked with the command ''{{samp|hello}}''. It serves as a [[sanity check]] and a simple example of installing a software package. For developers, it provides an example of creating a [[.deb]] package, either traditionally or using ''debhelper'', and the version of {{samp|hello}} used, [[GNU Hello]], serves as an example of writing a [[GNU]] program.&lt;ref&gt;{{cite web|title=Hello - GNU Project - Free Software Foundation|url=https://www.gnu.org/software/hello/|website=gnu.org|publisher=GNU Project|accessdate=7 July 2017|archiveurl=https://archive.is/20140529011826/http://www.gnu.org/software/hello/|archivedate=29 May 2014|url-status=dead}}&lt;/ref&gt;
+
+Variations of the "Hello, World!" program that produce a [[computer graphics|graphical output]] (as opposed to text output) have also been shown. [[Sun Microsystems|Sun]] demonstrated a "Hello, World!" program in [[Java (programming language)|Java]] based on [[scalable vector graphics]],&lt;ref&gt;{{cite news|last=Jolif|first=Christophe|title=Bringing SVG Power to Java Applications|newspaper=Sun Developer Network|date=January 2003}}&lt;/ref&gt; and the [[XL (programming language)|XL]] programming language features a spinning Earth "Hello, World!" using [[3D computer graphics]].&lt;ref&gt;{{cite web|last=de Dinechin|first=Christophe|title=Hello world!|url=http://grenouillebouillie.wordpress.com/2010/07/24/hello-world/|publisher=Grenouille Bouillie|date=July 24, 2010}}&lt;/ref&gt; Mark Guzdial and Elliot Soloway have suggested that the "hello, world" test message may be outdated now that graphics and sound can be manipulated as easily as text.&lt;ref&gt;{{cite web|url=http://www.bfoit.org/itp/Soloway/CACM_Nintendo_Generation.pdf|title=Teaching the Nintendo Generation to Program|website=bfoit.org|access-date=2015-12-27|archive-url=https://web.archive.org/web/20160505190520/http://www.bfoit.org/itp/Soloway/CACM_Nintendo_Generation.pdf|archive-date=2016-05-05|url-status=dead}}&lt;/ref&gt;
+
+==Time to hello world==
+"Time to hello world" (TTHW) is the time it takes to author a "Hello, World!" program in a given programming language. This is one measure of a programming language's ease-of-use; since the program is meant as an introduction for people unfamiliar with the language, a more complex "Hello, World!" program may indicate that the programming language is less approachable.&lt;ref name="ODwyer" /&gt; The concept has been extended beyond programming languages to [[Application programming interface|APIs]], as a measure of how simple it is for a new developer to get a basic example working; a faster time indicates an easier API for developers to adopt.&lt;ref&gt;{{cite web |last1=Wiegers |first1=Harold |title=The importance of “Time to First Hello, World!” an efficient API program |url=https://apifriends.com/api-management/api-program-time-first-hello-world/}}&lt;/ref&gt;&lt;ref&gt;{{cite web |last1=Jin |first1=Brenda |last2=Sahni |first2=Saurabh |last3=Shevat |first3=Amir |title=Designing Web APIs: Building APIs That Developers Love |url=https://books.google.ca/books?id=Dg1rDwAAQBAJ&amp;lpg=PT150&amp;dq=%22time%20to%20hello%20world%22&amp;pg=PT150#v=onepage&amp;q&amp;f=false |website=Google Books |publisher=O'Reilly Media |accessdate=19 February 2020}}&lt;/ref&gt;
+== See also ==
+{{Portal|Computer programming}}
+* {{slink|C (programming language)|Hello, world}}
+* [[99 Bottles of Beer#References in computer science|"99 Bottles of Beer" as used in computer science]]
+* [[Foobar]]
+* [[Bad Apple!!]] used a graphic equivalent to "Hello, World!" for old hardware
+* [[Java BluePrints|Java Pet Store]]
+* [[Just another Perl hacker]]
+* [[List of basic computer science topics]]
+* [[Trabb Pardo-Knuth algorithm]]
+
+== References ==
+{{reflist|30em}}
+
+== External links ==
+{{Commons category|Hello World}}
+{{Wikibooks|Computer Programming|Hello world}}
+* {{cite web |title=Hello World Collection |url=http://helloworldcollection.de |work=helloworldcollection.de |first=Wolfram |last=Rösler }}
+* {{cite web |title=Hello world/Text |url=http://rosettacode.org/wiki/Hello_world | work=[[Rosetta Code]] }}
+* {{cite web |title=Unsung Heroes of IT / Part One: Brian Kernighan |url=http://theunsungheroesofit.com/helloworld/ |work=TheUnsungHeroesOfIT.com |access-date=2014-08-23 |archive-url=https://web.archive.org/web/20160326193543/http://theunsungheroesofit.com/helloworld/ |archive-date=2016-03-26 |url-status=dead }}
+
+{{Standard test item}}
+
+{{DEFAULTSORT:Hello World Program}}
+[[Category:Test items in computer languages]]
+[[Category:Computer programming folklore]]
+[[Category:Articles with example code]]</text>
+      <sha1>krq2i6jv3gzqoivi4zkh6pa3oa9kw6y</sha1>
+    </revision>
+  </page>
+</mediawiki>

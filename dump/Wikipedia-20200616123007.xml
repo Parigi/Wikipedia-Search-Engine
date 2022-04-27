@@ -1,0 +1,272 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.10/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.10/ http://www.mediawiki.org/xml/export-0.10.xsd" version="0.10" xml:lang="en">
+  <siteinfo>
+    <sitename>Wikipedia</sitename>
+    <dbname>enwiki</dbname>
+    <base>https://en.wikipedia.org/wiki/Main_Page</base>
+    <generator>MediaWiki 1.35.0-wmf.36</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Media</namespace>
+      <namespace key="-1" case="first-letter">Special</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Talk</namespace>
+      <namespace key="2" case="first-letter">User</namespace>
+      <namespace key="3" case="first-letter">User talk</namespace>
+      <namespace key="4" case="first-letter">Wikipedia</namespace>
+      <namespace key="5" case="first-letter">Wikipedia talk</namespace>
+      <namespace key="6" case="first-letter">File</namespace>
+      <namespace key="7" case="first-letter">File talk</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki talk</namespace>
+      <namespace key="10" case="first-letter">Template</namespace>
+      <namespace key="11" case="first-letter">Template talk</namespace>
+      <namespace key="12" case="first-letter">Help</namespace>
+      <namespace key="13" case="first-letter">Help talk</namespace>
+      <namespace key="14" case="first-letter">Category</namespace>
+      <namespace key="15" case="first-letter">Category talk</namespace>
+      <namespace key="100" case="first-letter">Portal</namespace>
+      <namespace key="101" case="first-letter">Portal talk</namespace>
+      <namespace key="108" case="first-letter">Book</namespace>
+      <namespace key="109" case="first-letter">Book talk</namespace>
+      <namespace key="118" case="first-letter">Draft</namespace>
+      <namespace key="119" case="first-letter">Draft talk</namespace>
+      <namespace key="446" case="first-letter">Education Program</namespace>
+      <namespace key="447" case="first-letter">Education Program talk</namespace>
+      <namespace key="710" case="first-letter">TimedText</namespace>
+      <namespace key="711" case="first-letter">TimedText talk</namespace>
+      <namespace key="828" case="first-letter">Module</namespace>
+      <namespace key="829" case="first-letter">Module talk</namespace>
+      <namespace key="2300" case="first-letter">Gadget</namespace>
+      <namespace key="2301" case="first-letter">Gadget talk</namespace>
+      <namespace key="2302" case="case-sensitive">Gadget definition</namespace>
+      <namespace key="2303" case="case-sensitive">Gadget definition talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Sample size determination</title>
+    <ns>0</ns>
+    <id>1776839</id>
+    <revision>
+      <id>957443383</id>
+      <parentid>946747442</parentid>
+      <timestamp>2020-05-18T21:50:24Z</timestamp>
+      <contributor>
+        <username>Emmatron</username>
+        <id>39308523</id>
+      </contributor>
+      <comment>/* Estimation of proportion and mean */  Disambiguate 2 coming from W/2 vs. 2 coming from rounding 1.96 to 2.  Use Z to delineate Z-score, then show concrete example for each.  Provide reference to Margin of Error page.  Deleted section about Error Bound because it was confusing.</comment>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="20931" xml:space="preserve">'''Sample size determination''' is the act of choosing the number of observations or [[Replication (statistics)|replicates]] to include in a [[statistical sample]]. The sample size is an important feature of any empirical study in which the goal is to make [[statistical inference|inferences]] about a [[statistical population|population]] from a sample. In practice, the sample size used in a study is usually determined based on the cost, time, or convenience of collecting the data, and the need for it to offer sufficient [[statistical power]]. In complicated studies there may be several different sample sizes: for example, in a [[stratified sampling|stratified]] [[survey sampling|survey]] there would be different sizes for each stratum. In a [[census]], data is sought for an entire population, hence the intended sample size is equal to the population. In [[experimental design]], where a study may be divided into different [[treatment group]]s, there may be different sample sizes for each group.
+
+Sample sizes may be chosen in several ways:
+*using experience –  small samples, though sometimes unavoidable, can result in wide [[confidence interval]]s and risk of errors in [[statistical hypothesis testing]].
+*using a target variance for an estimate to be derived from the sample eventually obtained, i.e. if a high precision is required (narrow confidence interval) this translates to a low target variance of the estimator.
+*using a target for the power of a [[statistical hypothesis testing|statistical test]] to be applied once the sample is collected.
+*using a confidence level, i.e. the larger the required confidence level, the larger the sample size (given a constant precision requirement).
+
+==Introduction==
+
+Larger sample sizes generally lead to increased [[Accuracy and precision|precision]] when [[statistical estimation|estimating]] unknown parameters. For example, if we wish to know the proportion of a certain species of fish that is infected with a pathogen, we would generally have a more precise estimate of this proportion if we sampled and examined 200 rather than 100 fish.  Several fundamental facts of mathematical statistics describe this phenomenon, including the [[law of large numbers]] and the [[central limit theorem]].
+
+In some situations, the increase in precision for larger sample sizes is minimal, or even non-existent. This can result from the presence of [[systematic error]]s or strong [[correlation and dependence|dependence]] in the data, or if the data follows a heavy-tailed distribution.
+
+Sample sizes may be evaluated by the quality of the resulting estimates. For example, if a proportion is being estimated, one may wish to have the 95% [[confidence interval]] be less than 0.06 units wide.  Alternatively, sample size may be assessed based on the [[statistical power|power]] of a hypothesis test. For example, if we are comparing the support for a certain political candidate among women with the support for that candidate among men, we may wish to have 80% power to detect a difference in the support levels of 0.04 units.
+
+==Estimation==
+===Estimation of a proportion===
+{{main|Population proportion}}
+A relatively simple situation is estimation of a [[Proportionality (mathematics)|proportion]]. For example, we may wish to estimate the proportion of residents in a community who are at least 65 years old.
+
+The [[estimator]] of a [[Proportionality (mathematics)|proportion]] is &lt;math&gt; \hat p = X/n&lt;/math&gt;, where ''X'' is the number of 'positive' observations  (e.g. the number of people out of the ''n'' sampled people who are at least 65 years old). When the observations are [[independent (statistics)|independent]], this estimator has a (scaled) [[binomial distribution]] (and is also the [[Sample (statistics)|sample]] [[arithmetic mean|mean]] of data from a [[Bernoulli distribution]]). The maximum [[variance]] of this distribution is 0.25/''n'', which occurs when the true [[parameter]] is ''p'' = 0.5. In practice, since ''p'' is unknown, the maximum variance is often used for sample size assessments.  If a reasonable estimate for p is known the quantity &lt;math&gt;p(1-p)&lt;/math&gt; may be used in place of 0.25.
+
+For sufficiently large ''n'', the distribution of &lt;math&gt;\hat{p}&lt;/math&gt; will be closely approximated by a [[normal distribution]].&lt;ref&gt;[[NIST]]/[[SEMATECH]], [http://www.itl.nist.gov/div898/handbook/prc/section2/prc242.htm "7.2.4.2. Sample sizes required"], ''e-Handbook of Statistical Methods.''&lt;/ref&gt; Using this and the [[Binomial distribution#Confidence intervals|Wald method for the binomial distribution]], yields a confidence interval of the form
+
+:&lt;math&gt;\left (\widehat p - Z\sqrt{\frac{0.25}{n}}, \quad \widehat p + Z\sqrt{\frac{0.25}{n}} \right )&lt;/math&gt; ,
+:where Z is a standard [[Standard score|Z-score]] for the desired level of confidence (1.96 for a 95% confidence interval).
+
+If we wish to have a confidence interval that is ''W'' units total in width (W/2 on each side of the sample mean), we would solve
+
+:&lt;math&gt;Z\sqrt{\frac{0.25}{n}} = W/2&lt;/math&gt;
+
+for ''n'', yielding the sample size
+
+&lt;math&gt;n=\frac{Z^2}{W^2}&lt;/math&gt; , in the case of using .5 as the most conservative estimate of the proportion.  ''(Note: W/2 = [[margin of error]].)''
+
+Otherwise, the formula would be &lt;math&gt;Z\sqrt{\frac{p(1-p)}{n}} = W/2&lt;/math&gt;  , which yields   &lt;math&gt;n = \frac{4Z^2p(1-p)}{W^2}&lt;/math&gt;.
+
+For example, if we are interested in estimating the proportion of the US population who supports a particular presidential candidate, and we want the width of 95% confidence interval to be at most 2 percentage points (0.02), then we would need a sample size of (1.96&lt;sup&gt;2&lt;/sup&gt;)/(0.02&lt;sup&gt;2&lt;/sup&gt;) = 9604.  It is reasonable to use the 0.5 estimate for p in this case because the presidential races are often close to 50/50, and it is also prudent to use a conservative estimate.  The [[margin of error]] in this case is 1 percentage point (half of 0.02).
+
+===Estimation of a mean===
+A proportion is a special case of a mean. When estimating the population mean using an independent and identically distributed (iid) sample of size ''n'', where each data value has variance ''σ''&lt;sup&gt;2&lt;/sup&gt;, the [[standard error (statistics)|standard error]] of the sample mean is:
+
+:&lt;math&gt;\frac{\sigma}{\sqrt{n}}.&lt;/math&gt;
+
+This expression describes quantitatively how the estimate becomes more precise as the sample size increases.  Using the [[central limit theorem]] to justify approximating the sample mean with a normal distribution yields a confidence interval of the form
+
+:&lt;math&gt; \left(\bar x - \frac{Z\sigma}{\sqrt{n}}, \quad \bar x + \frac{Z\sigma}{\sqrt{n}} \right )&lt;/math&gt; , 
+:where Z is a standard [[Standard score|Z-score]] for the desired level of confidence (1.96 for a 95% confidence interval).
+
+If we wish to have a confidence interval that is ''W'' units total in width (W/2 on each side of the sample mean), we would solve
+
+:&lt;math&gt; \frac{Z\sigma}{\sqrt{n}} = W/2&lt;/math&gt;
+
+for ''n'', yielding the sample size
+
+&lt;math&gt;n = \frac{4Z^2\sigma^2}{W^2}&lt;/math&gt;''.    (Note: W/2 = [[margin of error]].)''
+
+For example, if we are interested in estimating the amount by which a drug lowers a subject's blood pressure with a 95% confidence interval that is six units wide, and we know that the standard deviation of blood pressure in the population is 15, then the required sample size is &lt;math&gt;\frac{4\times1.96^2\times15^2}{6^2} = 96.04&lt;/math&gt;, which would be rounded up to 97, because the obtained value is the ''minimum'' sample size, and sample sizes must be integers and must lie on or above the calculated minimum.
+
+==Required sample sizes for hypothesis tests {{anchor|Estimating sample sizes}}==
+A common problem faced by statisticians is calculating the sample size required to yield a certain [[Statistical power|power]] for a test, given a predetermined [[Type I error]] rate α. As follows, this can be estimated by pre-determined tables for certain values, by Mead's resource equation, or, more generally, by the [[cumulative distribution function]]:
+
+===Tables===
+{|class="wikitable" align="right"
+!rowspan=2|&lt;ref name=Kenny1987/&gt;&lt;br /&gt;&amp;nbsp;&lt;br /&gt; [[statistical power|Power]] !!colspan=3| [[Effect size#Cohen.27s d|Cohen's d]]
+|-
+! 0.2 !! 0.5 !! 0.8
+|-
+! 0.25
+| 84 || 14 || 6
+|-
+! 0.50
+| 193 || 32 || 13
+|-
+! 0.60
+| 246 || 40 || 16
+|-
+! 0.70
+| 310 || 50 || 20
+|-
+! 0.80
+| 393 || 64 || 26
+|-
+! 0.90
+| 526 || 85 || 34
+|-
+! 0.95
+| 651 || 105 || 42
+|-
+! 0.99
+| 920 || 148 || 58
+|}
+The table shown on the right can be used in a [[two-sample t-test]] to estimate the sample sizes of an [[experimental group]] and a [[control group]] that are of equal size, that is, the total number of individuals in the trial is twice that of the number given, and the desired [[significance level]] is 0.05.&lt;ref name=Kenny1987&gt;[http://davidakenny.net/doc/statbook/chapter_13.pdf Chapter 13], page 215, in: {{cite book |author=Kenny, David A. |title=Statistics for the social and behavioral sciences |publisher=Little, Brown |location=Boston |year=1987 |pages= |isbn=978-0-316-48915-7 |oclc= |doi= |accessdate=}}&lt;/ref&gt; The parameters used are:
+*The desired [[statistical power]] of the trial, shown in column to the left.
+*[[Cohen's d]] (=&amp;nbsp;effect size), which is the expected difference between the [[mean]]s of the target values between the experimental group and the [[control group]], divided by the expected [[standard deviation]].
+
+===Mead's resource equation===
+Mead's resource equation is often used for estimating sample sizes of [[laboratory animal]]s, as well as in many other laboratory experiments. It may not be as accurate as using other methods in estimating sample size, but gives a hint of what is the appropriate sample size where parameters such as expected standard deviations or expected differences in values between groups are unknown or very hard to estimate.&lt;ref name=Hubrecht&amp;Kirkwood2010&gt;{{cite book |author1=Kirkwood, James |author2=Robert Hubrecht |title=The UFAW Handbook on the Care and Management of Laboratory and Other Research Animals |publisher=Wiley-Blackwell |location= |year=2010 |pages=29 |isbn=978-1-4051-7523-4 |oclc= |doi= |accessdate=}} [https://books.google.com/books?id=Wjr9u1AAht4C&amp;pg=PA29 online Page 29]&lt;/ref&gt;
+
+All the parameters in the equation are in fact the [[Degrees of freedom (statistics)|degrees of freedom]] of the number of their concepts, and hence, their numbers are subtracted by 1 before insertion into the equation.
+
+The equation is:&lt;ref name=Hubrecht&amp;Kirkwood2010/&gt;
+
+:&lt;math&gt; E = N - B - T,&lt;/math&gt;
+where:
+*''N'' is the total number of individuals or units in the study (minus 1)
+*''B'' is the ''blocking component'', representing environmental effects allowed for in the design (minus 1)
+*''T'' is the ''treatment component'', corresponding to the number of [[treatment groups]] (including [[control group]]) being used, or the number of questions being asked (minus 1)
+*''E'' is the degrees of freedom of the ''error component'', and should be somewhere between 10 and 20.
+
+For example, if a study using laboratory animals is planned with four treatment groups (''T''=3), with  eight animals per group, making 32 animals total (''N''=31), without any further [[Stratified sampling|stratification]] (''B''=0), then ''E'' would equal 28, which is above the cutoff of 20, indicating that sample size may be a bit too large, and six animals per group might be more appropriate.&lt;ref&gt;[http://www.isogenic.info/html/resource_equation.html Isogenic.info &gt; Resource equation] by Michael FW Festing. Updated Sept. 2006&lt;/ref&gt;
+
+===Cumulative distribution function===
+Let ''X&lt;sub&gt;i&lt;/sub&gt;'', ''i'' = 1, 2, ..., ''n'' be independent observations taken from a [[normal distribution]] with unknown mean μ and known variance σ&lt;sup&gt;2&lt;/sup&gt;. Consider two hypotheses, a [[null hypothesis]]:
+
+: &lt;math&gt; H_0:\mu=0 &lt;/math&gt;
+
+and an alternative hypothesis:
+
+: &lt;math&gt; H_a:\mu=\mu^* &lt;/math&gt;
+
+for some 'smallest significant difference' ''μ''&lt;sup&gt;*&lt;/sup&gt;&amp;nbsp;&gt;&amp;nbsp;0. This is the smallest value for which we care about observing a difference. Now, if we wish to (1) reject ''H''&lt;sub&gt;0&lt;/sub&gt; with a probability of at least 1&amp;nbsp;−&amp;nbsp;''β'' when
+''H''&lt;sub&gt;a&lt;/sub&gt; is true (i.e. a [[Statistical power|power]] of 1&amp;nbsp;−&amp;nbsp;''β''), and (2) reject ''H''&lt;sub&gt;0&lt;/sub&gt; with probability α when ''H''&lt;sub&gt;0&lt;/sub&gt; is true, then we need the following:
+
+If ''z''&lt;sub&gt;''α''&lt;/sub&gt; is the upper α percentage point of the standard normal distribution, then
+
+: &lt;math&gt; \Pr(\bar x &gt;z_\alpha \sigma/\sqrt{n}\mid H_0)=\alpha &lt;/math&gt;
+
+and so
+
+: 'Reject ''H''&lt;sub&gt;0&lt;/sub&gt; if our sample average (&lt;math&gt;\bar x&lt;/math&gt;) is more than &lt;math&gt;z_{\alpha}\sigma/\sqrt{n}&lt;/math&gt;'
+
+is a [[decision rule]] which satisfies (2). (This is a 1-tailed test.)
+
+Now we wish for this to happen with a probability at least 1&amp;nbsp;−&amp;nbsp;''β'' when
+''H''&lt;sub&gt;a&lt;/sub&gt; is true. In this case, our sample average will come from a Normal distribution with mean μ&lt;sup&gt;*&lt;/sup&gt;. Therefore, we require
+
+: &lt;math&gt; \Pr(\bar x &gt;z_\alpha \sigma/\sqrt{n}\mid H_a)\geq 1-\beta &lt;/math&gt;
+
+Through careful manipulation, this can be shown (see [[Statistical power#Example]]) to happen when
+
+: &lt;math&gt; n \geq \left(\frac{z_\alpha+\Phi^{-1}(1-\beta)}{\mu^{*}/\sigma}\right)^2 &lt;/math&gt;
+
+where &lt;math&gt;\Phi&lt;/math&gt; is the normal [[cumulative distribution function]].
+
+==Stratified sample size==
+With more complicated sampling techniques, such as [[stratified sampling]], the sample can often be split up into sub-samples. Typically, if there are ''H'' such sub-samples (from ''H'' different strata) then each of them will have a sample size ''n&lt;sub&gt;h&lt;/sub&gt;'', ''h'' = 1, 2, ..., ''H''. These ''n&lt;sub&gt;h&lt;/sub&gt;'' must conform to the rule that ''n''&lt;sub&gt;1&lt;/sub&gt; + ''n''&lt;sub&gt;2&lt;/sub&gt; + ... + ''n''&lt;sub&gt;''H''&lt;/sub&gt; = ''n'' (i.e. that the total sample size is given by the sum of the sub-sample sizes). Selecting these ''n&lt;sub&gt;h&lt;/sub&gt;'' optimally can be done in various ways, using (for example) Neyman's optimal allocation.
+
+There are many reasons to use stratified sampling:&lt;ref&gt;Kish (1965, Section 3.1)&lt;/ref&gt; to decrease variances of sample estimates, to use partly non-random methods, or to study strata individually.
+A useful, partly non-random method would be to sample individuals where easily accessible, but, where not, sample clusters to save travel costs.&lt;ref&gt;Kish (1965), p. 148.&lt;/ref&gt;
+
+In general, for ''H'' strata, a weighted sample mean is
+: &lt;math&gt; \bar x_w  = \sum_{h=1}^H W_h \bar x_h, &lt;/math&gt;
+with
+
+: &lt;math&gt; \operatorname{Var}(\bar x_w) = \sum_{h=1}^H W_h^2 \operatorname{Var}(\bar x_h). &lt;/math&gt;&lt;ref&gt;Kish (1965), p. 78.&lt;/ref&gt;
+
+The weights, &lt;math&gt;W_h&lt;/math&gt;, frequently, but not always, represent the proportions of the population elements in the strata, and &lt;math&gt;W_h=N_h/N&lt;/math&gt;. For a fixed sample size, that is &lt;math&gt; n = \sum n_h &lt;/math&gt;,
+
+: &lt;math&gt;  \operatorname{Var}(\bar x_w) = \sum_{h=1}^H W_h^2 \operatorname{Var}(\bar x_h) \left(\frac{1}{n_h} - \frac{1}{N_h}\right), &lt;/math&gt;&lt;ref&gt;Kish (1965), p. 81.&lt;/ref&gt;
+
+which can be made a minimum if the [[sampling rate]] within each stratum is made
+proportional to the standard deviation within each stratum: &lt;math&gt; n_h/N_h=k S_h &lt;/math&gt;, where &lt;math&gt; S_h = \sqrt{\operatorname{Var} (\bar x_h)} &lt;/math&gt; and &lt;math&gt;k&lt;/math&gt; is a constant such that &lt;math&gt; \sum{n_h} = n &lt;/math&gt;.
+
+An "optimum allocation" is reached when the sampling rates within the strata
+are made directly proportional to the standard deviations within the strata
+and inversely proportional to the square root of the sampling cost per element
+within the strata, &lt;math&gt;C_h&lt;/math&gt;:
+: &lt;math&gt; \frac{n_h}{N_h} = \frac{K S_h}{\sqrt{C_h}}, &lt;/math&gt;&lt;ref&gt;Kish (1965), p. 93.&lt;/ref&gt;
+
+where &lt;math&gt;K&lt;/math&gt; is a constant such that &lt;math&gt; \sum{n_h} = n &lt;/math&gt;, or, more generally, when
+
+: &lt;math&gt; n_h = \frac{K' W_h S_h}{\sqrt{C_h}}. &lt;/math&gt;&lt;ref&gt;Kish (1965), p. 94.&lt;/ref&gt;
+
+==Qualitative research==
+Sample size determination in qualitative studies takes a different approach. It is generally a subjective judgment, taken as the research proceeds.&lt;ref&gt;Sandelowski, M. (1995). Sample size in qualitative research. ''Research in Nursing &amp; Health'', 18, 179–183&lt;/ref&gt; One approach is to continue to include further participants or material until [[Theoretical sampling#Theoretical saturation|saturation]] is reached.&lt;ref&gt;Glaser, B. (1965). The constant comparative method of qualitative analysis. ''Social Problems'', 12, 436–445&lt;/ref&gt; The number needed to reach saturation has been investigated empirically.&lt;ref&gt;Francis, J. J., Johnston, M., Robertson, C., Glidewell, L., Entwistle, V., Eccles, M. P., &amp; Grimshaw, J. M. (2010). What is an adequate sample size? Operationalising data saturation for theory-based interview studies. ''Psychology and Health'', 25, 1229–1245. {{doi|10.1080/08870440903194015}}&lt;/ref&gt;&lt;ref name="Guest2006" /&gt;&lt;ref&gt;[http://www.biomedcentral.com/1472-6947/11/36 Wright, A., Maloney, F. L., &amp; Feblowitz, J. C. (2011)]. Clinician attitudes toward and use of electronic problem lists: a thematic analysis. ''BMC Medical Informatics and Decision Making'', 11, 36. {{doi|10.1186/1472-6947-11-36}}&lt;/ref&gt;&lt;ref&gt;{{cite journal|url=http://www.qualitative-research.net/index.php/fqs/article/view/1428/3027|title=Sample Size and Saturation in PhD Studies Using Qualitative Interviews – Mason – Forum Qualitative Sozialforschung / Forum: Qualitative Social Research|volume=11|issue=3|journal=Qualitative-research.net|date=2010-08-24}}&lt;/ref&gt;
+
+There is a paucity of reliable guidance on estimating sample sizes before starting the research, with a range of suggestions given.&lt;ref name="Guest2006"&gt;[http://fmx.sagepub.com/content/18/1/59 Guest, G., Bunce, A., &amp; Johnson, L. (2006)]. How many interviews are enough?: An experiment with data saturation and variability. ''Field Methods'', 18, 59–82. {{doi|10.1177/1525822X05279903}}&lt;/ref&gt;&lt;ref&gt;Emmel, N. (2013). ''Sampling and choosing cases in qualitative research: A realist approach.'' London: Sage.&lt;/ref&gt;&lt;ref&gt;[https://link.springer.com/article/10.1007%2Fs11135-005-1098-1 Onwuegbuzie, A. J., &amp; Leech, N. L. (2007)]. A call for qualitative power analyses. ''Quality &amp; Quantity'', 41, 105–121. {{doi|10.1007/s11135-005-1098-1}}&lt;/ref&gt;&lt;ref name="Fugard2015"&gt;{{cite journal |author1=Fugard AJB |author2=Potts HWW | title = Supporting thinking on sample sizes for thematic analyses: A quantitative tool | journal = International Journal of Social Research Methodology | volume =  18| issue =  6| pages =  669–684| date = 10 February 2015 | doi = 10.1080/13645579.2015.1005453 | url =http://discovery.ucl.ac.uk/1498831/3/Potts_10-7-2015_Supporting.pdf }}&lt;/ref&gt; A tool akin to a quantitative power calculation, based on the [[negative binomial distribution]], has been suggested for [[thematic analysis]].&lt;ref&gt;Galvin R (2015). How many interviews are enough? Do qualitative interviews in building energy consumption research produce reliable knowledge? Journal of Building Engineering, 1:2–12.&lt;/ref&gt;&lt;ref name="Fugard2015" /&gt;
+
+==See also==
+{{Portal|Mathematics}}
+*[[Design of experiments]]
+*Engineering response surface example under [[Stepwise regression]]
+*[[Cohen's h]]
+
+==Notes==
+{{Reflist|2}}
+
+==References==
+*{{cite journal |last=Bartlett |first=J. E., II |last2=Kotrlik |first2=J. W. |last3=Higgins |first3=C. |year=2001 |url=http://www.osra.org/itlpj/bartlettkotrlikhiggins.pdf |title=Organizational research: Determining appropriate sample size for survey research |journal=Information Technology, Learning, and Performance Journal |volume=19 |issue=1 |pages=43–50 |doi= }}
+*{{cite book |authorlink=Leslie Kish |last=Kish |first=L. |year=1965 |title=Survey Sampling |publisher=Wiley |isbn=978-0-471-48900-9 |url-access=registration |url=https://archive.org/details/surveysampling00lesl }}
+*{{cite web|last1=Smith|first1=Scott|title=Determining Sample Size: How to Ensure You Get the Correct Sample Size|url=https://www.qualtrics.com/experience-management/research/determine-sample-size/|website=Qualtrics|accessdate=19 September 2018|date=8 April 2013}}
+*{{cite journal|last1=Israel|first1=Glenn D.|title=Determining Sample Size|url=https://www.academia.edu/21353552|journal=University of Florida, PEOD-6|year=1992|accessdate=29 June 2019}}
+*Rens van de Schoot, Milica Miočević (eds.). 2020. [[doi:10.4324/9780429273872|Small Sample Size Solutions (Open Access): A Guide for Applied Researchers and Practitioners]]. Routledge.
+
+==Further reading==
+* [http://www.itl.nist.gov/div898/handbook/ppc/section3/ppc333.htm NIST: Selecting Sample Sizes]
+* [[ASTM]] E122-07: Standard Practice for Calculating Sample Size to Estimate, With Specified Precision, the Average for a Characteristic of a Lot or Process
+
+==External links==
+* [https://www.mathworks.com/matlabcentral/fileexchange/71985-cochran A MATLAB script implementing Cochran's sample size formula]
+
+{{Statistics|collection|state=expanded}}
+
+{{DEFAULTSORT:Sample Size}}
+[[Category:Sampling (statistics)]]
+
+[[de:Zufallsstichprobe#Stichprobenumfang]]</text>
+      <sha1>gmhnj1brxu38xkpgfdz25uqmwf2dkt4</sha1>
+    </revision>
+  </page>
+</mediawiki>

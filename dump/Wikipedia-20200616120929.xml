@@ -1,0 +1,129 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.10/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.10/ http://www.mediawiki.org/xml/export-0.10.xsd" version="0.10" xml:lang="en">
+  <siteinfo>
+    <sitename>Wikipedia</sitename>
+    <dbname>enwiki</dbname>
+    <base>https://en.wikipedia.org/wiki/Main_Page</base>
+    <generator>MediaWiki 1.35.0-wmf.36</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Media</namespace>
+      <namespace key="-1" case="first-letter">Special</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Talk</namespace>
+      <namespace key="2" case="first-letter">User</namespace>
+      <namespace key="3" case="first-letter">User talk</namespace>
+      <namespace key="4" case="first-letter">Wikipedia</namespace>
+      <namespace key="5" case="first-letter">Wikipedia talk</namespace>
+      <namespace key="6" case="first-letter">File</namespace>
+      <namespace key="7" case="first-letter">File talk</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki talk</namespace>
+      <namespace key="10" case="first-letter">Template</namespace>
+      <namespace key="11" case="first-letter">Template talk</namespace>
+      <namespace key="12" case="first-letter">Help</namespace>
+      <namespace key="13" case="first-letter">Help talk</namespace>
+      <namespace key="14" case="first-letter">Category</namespace>
+      <namespace key="15" case="first-letter">Category talk</namespace>
+      <namespace key="100" case="first-letter">Portal</namespace>
+      <namespace key="101" case="first-letter">Portal talk</namespace>
+      <namespace key="108" case="first-letter">Book</namespace>
+      <namespace key="109" case="first-letter">Book talk</namespace>
+      <namespace key="118" case="first-letter">Draft</namespace>
+      <namespace key="119" case="first-letter">Draft talk</namespace>
+      <namespace key="446" case="first-letter">Education Program</namespace>
+      <namespace key="447" case="first-letter">Education Program talk</namespace>
+      <namespace key="710" case="first-letter">TimedText</namespace>
+      <namespace key="711" case="first-letter">TimedText talk</namespace>
+      <namespace key="828" case="first-letter">Module</namespace>
+      <namespace key="829" case="first-letter">Module talk</namespace>
+      <namespace key="2300" case="first-letter">Gadget</namespace>
+      <namespace key="2301" case="first-letter">Gadget talk</namespace>
+      <namespace key="2302" case="case-sensitive">Gadget definition</namespace>
+      <namespace key="2303" case="case-sensitive">Gadget definition talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Least-squares function approximation</title>
+    <ns>0</ns>
+    <id>34561385</id>
+    <revision>
+      <id>864358695</id>
+      <parentid>858875475</parentid>
+      <timestamp>2018-10-16T17:59:35Z</timestamp>
+      <contributor>
+        <username>Glrx</username>
+        <id>2289521</id>
+      </contributor>
+      <comment>Undid revision 858875475 by [[Special:Contributions/42.107.217.208|42.107.217.208]] ([[User talk:42.107.217.208|talk]])</comment>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="5949" xml:space="preserve">In [[mathematics]], '''least squares function approximation''' applies the principle of [[least squares]] to [[function approximation]], by means of a weighted sum of other functions. The best approximation can be defined as that which minimises the difference between the original function and the approximation; for a least-squares approach the quality of the approximation is measured in terms of the squared differences between the two.
+
+==Functional analysis==
+{{See also|Fourier series|Generalized Fourier series}}
+
+A generalization to approximation of a data set is the approximation of a function by a sum of other functions, usually an [[orthogonal functions|orthogonal set]]:&lt;ref name=Lanczos&gt;
+
+{{cite book |title=Applied analysis |author=Cornelius Lanczos |pages =212–213 |isbn=0-486-65656-X |publisher=Dover Publications |year=1988 |edition=Reprint of 1956 Prentice–Hall |url=https://books.google.com/books?id=6E85hExIqHYC&amp;pg=PA212}}
+&lt;/ref&gt; 
+
+:&lt;math&gt;f(x) \approx f_n (x) = a_1 \phi _1 (x) + a_2 \phi _2(x) + \cdots + a_n \phi _n (x), \ &lt;/math&gt;
+
+with the set of functions {&lt;math&gt;\  \phi _j (x) &lt;/math&gt;} an [[Orthonormal_set#Real-valued_functions|orthonormal set]] over the interval of interest, {{nowrap|say [a, b]}}: see also [[Fejér's theorem]]. The coefficients {&lt;math&gt;\ a_j &lt;/math&gt;} are selected to make the magnitude of the difference ||{{nowrap|''f'' − ''f''&lt;sub&gt;''n''&lt;/sub&gt;}}||&lt;sup&gt;2&lt;/sup&gt; as small as possible. For example, the magnitude, or norm, of a function {{nowrap|''g'' (''x'' )}} over the {{nowrap|interval [a, b]}} can be defined by:&lt;ref name=Folland&gt;
+
+{{cite book |title=Fourier analysis and its application |page =69 |chapter=Equation 3.14 |author=Gerald B Folland |url=https://books.google.com/books?id=ix2iCQ-o9x4C&amp;pg=PA69 |isbn=0-8218-4790-2 |publisher=American Mathematical Society Bookstore |year=2009 |edition=Reprint of Wadsworth and Brooks/Cole 1992}}
+
+&lt;/ref&gt;
+
+:&lt;math&gt; \|g\| = \left(\int_a^b g^*(x)g(x) \, dx \right)^{1/2} &lt;/math&gt;
+
+where the ‘*’ denotes [[complex conjugate]] in the case of complex functions. The extension of Pythagoras' theorem in this manner leads to [[function space]]s and the notion of [[Lebesgue measure]], an idea of “space” more general than the original basis of Euclidean geometry. The {{nowrap|{ &lt;math&gt;\phi_j (x)\  &lt;/math&gt; } }} satisfy   [[Orthogonal#Orthogonal_functions|orthonormality relations]]:&lt;ref name=Folland2&gt;
+{{cite book |title=Fourier Analysis and Its Applications|page =69 |first1=Gerald B | last1= Folland|url=https://books.google.com/books?id=ix2iCQ-o9x4C&amp;pg=PA69 |isbn=0-8218-4790-2 |year=2009 |publisher=American Mathematical Society}}
+&lt;/ref&gt;
+
+:&lt;math&gt; \int_a^b \phi _i^* (x)\phi _j (x) \, dx =\delta_{ij},&lt;/math&gt;
+
+where ''δ''&lt;sub&gt;''ij''&lt;/sub&gt; is the [[Kronecker delta]]. Substituting function {{nowrap|''f''&lt;sub&gt;''n''&lt;/sub&gt;}} into these equations then leads to
+the ''n''-dimensional [[Pythagorean theorem]]:&lt;ref name=Wood&gt;
+
+{{cite book |title=Statistical methods: the geometric approach |author= David J. Saville, Graham R. Wood |chapter=§2.5 Sum of squares |page=30 |url=https://books.google.com/books?id=8ummgMVRev0C&amp;pg=PA30 |isbn=0-387-97517-9 |year=1991 |edition=3rd |publisher=Springer}}
+&lt;/ref&gt;
+
+:&lt;math&gt;\|f_n\|^2 = |a_1|^2 + |a_2|^2 + \cdots + |a_n|^2. \,  &lt;/math&gt;
+
+The coefficients {''a''&lt;sub&gt;''j''&lt;/sub&gt;} making {{nowrap begin}}||''f'' − ''f''&lt;sub&gt;''n''&lt;/sub&gt;||&lt;sup&gt;2&lt;/sup&gt;{{nowrap end}} as small as possible are found to be:&lt;ref name=Lanczos/&gt;
+
+:&lt;math&gt;a_j = \int_a^b \phi _j^* (x)f (x) \, dx. &lt;/math&gt;
+
+The generalization of the ''n''-dimensional Pythagorean theorem to ''infinite-dimensional&amp;thinsp;'' [[real number|real]] inner product spaces is known as [[Parseval's identity]] or Parseval's equation.&lt;ref name=Folland3&gt;
+
+{{cite book |title=cited work |page =77 |chapter=Equation 3.22 |author=Gerald B Folland |url=https://books.google.com/books?id=ix2iCQ-o9x4C&amp;pg=PA77 |isbn=0-8218-4790-2 |date=2009-01-13 }}
+
+&lt;/ref&gt; Particular examples of such a representation of a function are the [[Fourier series]] and the [[generalized Fourier series]].
+
+==Further discussion==
+===Using linear algebra===
+It follows that one can find a "best" approximation of another function by minimizing the area between two functions, a continuous function &lt;math&gt;f&lt;/math&gt; on &lt;math&gt;[a,b]&lt;/math&gt; and a function &lt;math&gt;g\in W&lt;/math&gt; where &lt;math&gt;W&lt;/math&gt; is a subspace of &lt;math&gt;C[a,b]&lt;/math&gt;:
+:&lt;math&gt;\text{Area} = \int_a^b \left\vert f(x) - g(x)\right\vert \, dx,&lt;/math&gt;
+all within the subspace &lt;math&gt;W&lt;/math&gt;. Due to the frequent difficulty of evaluating integrands involving absolute value, one can instead define
+:&lt;math&gt;\int_a^b [ f(x) - g(x) ] ^2\, dx&lt;/math&gt;
+as an adequate criterion for obtaining the least squares approximation, function &lt;math&gt;g&lt;/math&gt;, of &lt;math&gt;f&lt;/math&gt; with respect to the inner product space &lt;math&gt;W&lt;/math&gt;.
+
+As such, &lt;math&gt;\lVert f-g \rVert ^2&lt;/math&gt; or, equivalently, &lt;math&gt;\lVert f-g \rVert&lt;/math&gt;, can thus be written in vector form:
+
+:&lt;math&gt;\int_a^b [ f(x)-g(x) ]^2\, dx = \left\langle f-g , f-g\right\rangle = \lVert f-g\rVert^2.&lt;/math&gt;
+
+In other words, the least squares approximation of &lt;math&gt;f&lt;/math&gt; is the function &lt;math&gt;g\in \text{ subspace } W&lt;/math&gt; closest to &lt;math&gt;f&lt;/math&gt; in terms of the inner product &lt;math&gt;\left \langle f,g \right \rangle&lt;/math&gt;. Furthermore, this can be applied with a theorem:
+:Let &lt;math&gt;f&lt;/math&gt; be continuous on &lt;math&gt;[ a,b ]&lt;/math&gt;, and let &lt;math&gt;W&lt;/math&gt; be a finite-dimensional subspace of &lt;math&gt;C[a,b]&lt;/math&gt;. The least squares approximating function of &lt;math&gt;f&lt;/math&gt; with respect to &lt;math&gt;W&lt;/math&gt; is given by
+::&lt;math&gt;g = \left \langle f,\vec w_1 \right \rangle \vec w_1 + \left \langle f,\vec w_2 \right \rangle \vec w_2 + \cdots + \left \langle f,\vec w_n \right \rangle \vec w_n,&lt;/math&gt;
+:where &lt;math&gt;B = \{\vec w_1 , \vec w_2 , \dots , \vec w_n \}&lt;/math&gt; is an orthonormal basis for &lt;math&gt;W&lt;/math&gt;.
+
+==References==
+{{reflist}}
+
+[[Category:Least squares]]
+[[Category:Approximation theory]]</text>
+      <sha1>9nm9p2n37mhgfbuqm0j8rl3s9b8q0vo</sha1>
+    </revision>
+  </page>
+</mediawiki>

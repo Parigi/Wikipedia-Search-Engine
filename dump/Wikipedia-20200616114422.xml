@@ -1,0 +1,120 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.10/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.10/ http://www.mediawiki.org/xml/export-0.10.xsd" version="0.10" xml:lang="en">
+  <siteinfo>
+    <sitename>Wikipedia</sitename>
+    <dbname>enwiki</dbname>
+    <base>https://en.wikipedia.org/wiki/Main_Page</base>
+    <generator>MediaWiki 1.35.0-wmf.36</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Media</namespace>
+      <namespace key="-1" case="first-letter">Special</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Talk</namespace>
+      <namespace key="2" case="first-letter">User</namespace>
+      <namespace key="3" case="first-letter">User talk</namespace>
+      <namespace key="4" case="first-letter">Wikipedia</namespace>
+      <namespace key="5" case="first-letter">Wikipedia talk</namespace>
+      <namespace key="6" case="first-letter">File</namespace>
+      <namespace key="7" case="first-letter">File talk</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki talk</namespace>
+      <namespace key="10" case="first-letter">Template</namespace>
+      <namespace key="11" case="first-letter">Template talk</namespace>
+      <namespace key="12" case="first-letter">Help</namespace>
+      <namespace key="13" case="first-letter">Help talk</namespace>
+      <namespace key="14" case="first-letter">Category</namespace>
+      <namespace key="15" case="first-letter">Category talk</namespace>
+      <namespace key="100" case="first-letter">Portal</namespace>
+      <namespace key="101" case="first-letter">Portal talk</namespace>
+      <namespace key="108" case="first-letter">Book</namespace>
+      <namespace key="109" case="first-letter">Book talk</namespace>
+      <namespace key="118" case="first-letter">Draft</namespace>
+      <namespace key="119" case="first-letter">Draft talk</namespace>
+      <namespace key="446" case="first-letter">Education Program</namespace>
+      <namespace key="447" case="first-letter">Education Program talk</namespace>
+      <namespace key="710" case="first-letter">TimedText</namespace>
+      <namespace key="711" case="first-letter">TimedText talk</namespace>
+      <namespace key="828" case="first-letter">Module</namespace>
+      <namespace key="829" case="first-letter">Module talk</namespace>
+      <namespace key="2300" case="first-letter">Gadget</namespace>
+      <namespace key="2301" case="first-letter">Gadget talk</namespace>
+      <namespace key="2302" case="case-sensitive">Gadget definition</namespace>
+      <namespace key="2303" case="case-sensitive">Gadget definition talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Microsoft Office 2019</title>
+    <ns>0</ns>
+    <id>55351413</id>
+    <revision>
+      <id>958546574</id>
+      <parentid>958083435</parentid>
+      <timestamp>2020-05-24T12:00:57Z</timestamp>
+      <contributor>
+        <username>Bulhis899</username>
+        <id>5538981</id>
+      </contributor>
+      <comment>Comment for future editors</comment>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="9371" xml:space="preserve">{{short description|Version of the Microsoft Office productivity suite}}
+{{Use mdy dates|date=April 2019}}
+{{Infobox software
+| name = Microsoft Office 2019
+| logo = Microsoft Office logo (2019–present).svg
+| screenshot = Microsoft Office 2019 - Word, Excel, Outlook, PowerPoint.png
+| caption = Clockwise from top left: [[Microsoft Word|Word]], [[Microsoft Excel|Excel]], [[Microsoft Outlook|Outlook]] and [[Microsoft PowerPoint|PowerPoint]]
+| developer = [[Microsoft]]
+| released = September 24, 2018 (US),&lt;br /&gt;October 1, 2018 (UK),&lt;br /&gt;October 6, 2018 (India)&lt;ref name="release-announcement"&gt;{{cite web |title=Office 2019 is now available for Windows and Mac|website=Microsoft 365 Blog |url=https://www.microsoft.com/en-us/microsoft-365/blog/2018/09/24/office-2019-is-now-available-for-windows-and-mac/ |publisher=[[Microsoft]] |date=September 24, 2018}}&lt;/ref&gt;
+| ver layout = stacked
+&lt;!-- Update external template for version changes. See [[Template:Latest stable software release/Microsoft Office 2019]] --&gt;| operating system = [[Windows 10]], [[Windows Server 2019]], [[macOS Sierra]] and later&lt;ref name="system-requirements"&gt;{{cite web |title=System requirements for Microsoft Office |url=https://office.com/systemrequirements |website=[[Office.com]] |publisher=[[Microsoft]] |accessdate=September 24, 2018}}&lt;/ref&gt;
+| platform = [[IA-32]], [[x64]], [[ARM architecture|ARM]], [[Web-based application|Web]]
+| language = {{Plainlist|
+* '''Full (40)''': English, Arabic, Bulgarian, Chinese (Simplified), Chinese (Traditional), Croatian, Czech, Danish, Dutch, Estonian, Finnish, French, German, Greek, Hebrew, Hindi, Hungarian, Indonesian, Italian, Japanese, Kazakh, Korean, Latvian, Lithuanian, Malay (Latin), Norwegian Bokmål, Polish, Portuguese (Brazil), Portuguese (Portugal), Romanian, Russian, Serbian (Latin, Serbia), Slovak, Slovenian, Spanish, Swedish, Thai, Turkish, Ukrainian, Vietnamese
+* '''Partial (51)''': Afrikaans, Albanian, Amharic, Armenian, Assamese, Azerbaijani (Latin), Bangla (Bangladesh), Bangla (Bengali India), Basque (Basque), Belarusian, Bosnian (Latin), Catalan, Dari, Filipino, Galician, Georgian, Gujarati, Icelandic, Irish, Kannada, Khmer, KiSwahili, Konkani, Kyrgyz, Luxembourgish, Macedonian (Republic of Macedonia), Malayalam, Maltese, Maori, Marathi, Mongolian (Cyrillic), Nepali, Norwegian Nynorsk, Odia, Persian (Farsi), Punjabi (Gurmukhi), Quechua, Scottish Gaelic, Serbian (Cyrillic, Bosnia &amp; Herzegovina), Serbian (Cyrillic, Serbia), Sindhi (Arabic), Sinhala, Tamil, Tatar (Cyrillic), Telugu, Turkmen (Latin), Urdu, Uyghur, Uzbek (Latin), Valencian, Welsh
+* '''Proofing only (11)''': Hausa, Igbo, isiXhosa, isiZulu, Kinyarwanda, Pashto, Romansh, Sesotho sa Leboa, Setswana, Wolof, Yoruba
+}}
+| language count = 102
+| language footnote = &lt;ref&gt;{{cite web|title=Language Accessory Pack for Office 2016|url=https://support.office.com/en-us/article/Language-Accessory-Pack-for-Office-2016-82ee1236-0f9a-45ee-9c72-05b026ee809f|website=[[Office.com]]|publisher=[[Microsoft]]|accessdate=25 February 2016}}&lt;/ref&gt;
+| genre = [[Office suite]]
+| license = [[Trialware]] [[software as a service]]
+| website = {{URL|https://office.com}}
+}}
+
+'''Microsoft Office 2019''' is the current version of [[Microsoft Office]], a [[productivity suite]], succeeding [[Microsoft Office 2016|Office 2016]]. It was released to general availability for [[Windows 10]] and for [[macOS]] on September 24, 2018.&lt;ref name="release-announcement"/&gt; Some features that had previously been restricted to [[Office 365]] subscribers are available in this release.&lt;ref&gt;{{Cite news|url=https://www.theverge.com/2017/9/26/16366150/microsoft-office-2019-features-release-date|title=Microsoft is releasing Office 2019 next year|last=Warren|first=Tom|date=26 September 2017|work=[[The Verge]]|publisher=[[Vox Media]]}}&lt;/ref&gt;
+
+== History ==
+On April 27, 2018, Microsoft released Office 2019 Commercial Preview for Windows 10.&lt;ref&gt;{{cite web|url=https://www.theverge.com/2018/4/27/17290112/microsoft-office-2019-preview|title=Microsoft releases Office 2019 preview|last=Warren|first=Tom|date=27 April 2018|website=[[The Verge]]|publisher=[[Vox Media]]}}&lt;/ref&gt; On June 12, 2018, Microsoft released a preview for macOS.&lt;ref&gt;{{Cite news|url=https://www.theverge.com/2018/6/12/17453724/microsoft-office-2019-mac-preview-beta|title=Microsoft releases Office 2019 for Mac preview|last=Warren|first=Tom|date=12 June 2018|work=[[The Verge]]|access-date=|publisher=[[Vox Media]]}}&lt;/ref&gt;
+
+==New features==
+Office 2019 includes many of the features previously published via [[Office 365]], along with improved [[Pen computing|inking]] features, [[LaTeX]] support in Word, new animation features in [[PowerPoint]] including the morph and zoom features, and new formulas and charts in [[Microsoft Excel|Excel]] for data analysis{{cn|date=June 2019}}.
+
+[[Microsoft OneNote|OneNote]] is absent from the suite as the Universal Windows Platforms ([[Universal Windows Platform apps|UWP]]) version of OneNote bundled with Windows 10 replaces it. OneNote 2016 can be installed as an optional feature on the Office Installer.&lt;ref&gt;{{Cite news|url=https://techcommunity.microsoft.com/t5/Office-365-Blog/The-best-version-of-OneNote-on-Windows/ba-p/183974|title=The best version of OneNote on Windows|last=Devereux|first=William|date=18 April 2018|work=Microsoft Office 365 Blog|access-date=19 April 2018|publisher=[[Microsoft]]}}&lt;/ref&gt;&lt;ref&gt;{{Cite news|url=https://www.theverge.com/2018/4/18/17252312/microsoft-office-2019-onenote-windows-10-app|title=Microsoft Office 2019 kills off OneNote desktop app in favor of Windows 10 version|last=Warren|first=Tom|date=18 April 2018|work=The Verge|publisher=[[Microsoft]]}}&lt;/ref&gt;&lt;ref&gt;{{Cite news|url=https://support.office.com/en-us/article/frequently-asked-questions-about-onenote-in-office-2019-6582c7ae-2ec6-408d-8b7a-3ed71a3c2103|title=Frequently Asked Questions about OneNote in Office 2019|last=|first=|date=|work=[[Office.com]]|access-date=1 August 2018|publisher=[[Microsoft]]}}&lt;/ref&gt;
+
+For Mac users, Focus Mode will be brought to Word, 2D maps will be brought to Excel and new Morph transitions, SVG support and 4K video exports will be coming to [[PowerPoint]], among other features.
+
+Despite being released in the same month, the new Office [[user interface]] in Word, Excel, PowerPoint, and Outlook is only available to Office 365 subscribers, not perpetual Office 2019 licensees.&lt;ref&gt;{{Cite web|url=https://support.office.com/en-us/article/what-s-new-in-office-365-95c8d81d-08ba-42c1-914f-bca4603e1426|title=What's new in Office 365|website=support.office.com}}&lt;/ref&gt;&lt;ref&gt;{{Cite web|url=https://support.office.com/en-us/article/what-s-new-in-office-2019-5077cbbe-0d94-44cc-b30e-654e37629b0c|title=What's New in Office 2019|website=support.office.com}}&lt;/ref&gt;&lt;ref&gt;{{Cite web|url=https://arstechnica.com/gadgets/2018/06/office-getting-a-new-consistent-interface-across-web-desktop-and-mobile/|title=Microsoft rebuilding the Office interface to align it across Web, mobile, and desktop|first=Peter|last=Bright|date=June 13, 2018|website=Ars Technica}}&lt;/ref&gt;
+
+==Deployment==
+Office 2019 requires [[Windows 10]], [[Windows Server 2019]] or [[macOS Sierra]] and later.&lt;ref name=":0" /&gt; macOS installations can be acquired from the Microsoft website or the [[App Store (macOS)|Mac App Store]].&lt;ref&gt;{{Cite web|url=https://www.theverge.com/2019/1/24/18196087/microsoft-office-apple-mac-app-store-download|title=Microsoft Office now available on Apple’s Mac App Store|last=Warren|first=Tom|date=2019-01-24|website=The Verge|access-date=2019-02-01}}&lt;/ref&gt; For [[Office 2013]] and [[Office 2016|2016]], various editions containing the client apps were available in both Click-To-Run (inspired by [[Microsoft App-V]]) and traditional [[Windows Installer]] setup formats. For Office 2019, the client apps only have a Click-to-Run installer and only the server apps have the traditional MSI installer. The Click-To-Run version has a smaller footprint; in case of Microsoft Office 2019 Pro Plus, the product requires 10 GB less than the MSI version of Office 2016 Pro Plus.&lt;ref&gt;{{Cite web|url=https://support.microsoft.com/en-gb/help/4086177/office-2019-perpetual-volume-license-products-available-as-click-to-ru|title=Office 2019 perpetual volume license products available as Click-to-Run|date=27 April 2018|website=Support|publisher=[[Microsoft]]}}&lt;/ref&gt;
+
+Office 2019 will receive five years of mainstream support, but unlike [[Microsoft Office 2016|Office 2016]], which gets five years of extended support, Office 2019 only gets two. Mainstream support ends on October 10, 2023, while extended support ends on October 14, 2025.&lt;ref name=":0"&gt;{{Cite news|url=https://techcommunity.microsoft.com/t5/Windows-IT-Pro-Blog/Changes-to-Office-and-Windows-servicing-and-support/ba-p/151509|title=Changes to Office and Windows servicing and support|last=Caldas|first=Bernardo|date=1 February 2018|work=Windows IT Pro Blog|access-date=29 August 2018|publisher=[[Microsoft]]|last2=Spataro|first2=Jared}}&lt;/ref&gt;
+
+==See also==
+* [[List of office suites]]
+* [[List of typefaces included with Microsoft Windows]] (list of Office Cloud fonts continues in footnote)
+
+==References==
+{{Reflist}}
+
+{{Microsoft Office}}
+{{Microsoft}}
+
+[[Category:2018 software]]
+[[Category:Microsoft Office|2019]]
+[[Category:Microsoft software|Office 2019]]
+[[Category:Office suites for Windows]]</text>
+      <sha1>79wmta4zpkrhym5fj8dreer907d51r2</sha1>
+    </revision>
+  </page>
+</mediawiki>

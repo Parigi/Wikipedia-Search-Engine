@@ -1,0 +1,997 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.10/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.10/ http://www.mediawiki.org/xml/export-0.10.xsd" version="0.10" xml:lang="en">
+  <siteinfo>
+    <sitename>Wikipedia</sitename>
+    <dbname>enwiki</dbname>
+    <base>https://en.wikipedia.org/wiki/Main_Page</base>
+    <generator>MediaWiki 1.35.0-wmf.36</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Media</namespace>
+      <namespace key="-1" case="first-letter">Special</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Talk</namespace>
+      <namespace key="2" case="first-letter">User</namespace>
+      <namespace key="3" case="first-letter">User talk</namespace>
+      <namespace key="4" case="first-letter">Wikipedia</namespace>
+      <namespace key="5" case="first-letter">Wikipedia talk</namespace>
+      <namespace key="6" case="first-letter">File</namespace>
+      <namespace key="7" case="first-letter">File talk</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki talk</namespace>
+      <namespace key="10" case="first-letter">Template</namespace>
+      <namespace key="11" case="first-letter">Template talk</namespace>
+      <namespace key="12" case="first-letter">Help</namespace>
+      <namespace key="13" case="first-letter">Help talk</namespace>
+      <namespace key="14" case="first-letter">Category</namespace>
+      <namespace key="15" case="first-letter">Category talk</namespace>
+      <namespace key="100" case="first-letter">Portal</namespace>
+      <namespace key="101" case="first-letter">Portal talk</namespace>
+      <namespace key="108" case="first-letter">Book</namespace>
+      <namespace key="109" case="first-letter">Book talk</namespace>
+      <namespace key="118" case="first-letter">Draft</namespace>
+      <namespace key="119" case="first-letter">Draft talk</namespace>
+      <namespace key="446" case="first-letter">Education Program</namespace>
+      <namespace key="447" case="first-letter">Education Program talk</namespace>
+      <namespace key="710" case="first-letter">TimedText</namespace>
+      <namespace key="711" case="first-letter">TimedText talk</namespace>
+      <namespace key="828" case="first-letter">Module</namespace>
+      <namespace key="829" case="first-letter">Module talk</namespace>
+      <namespace key="2300" case="first-letter">Gadget</namespace>
+      <namespace key="2301" case="first-letter">Gadget talk</namespace>
+      <namespace key="2302" case="case-sensitive">Gadget definition</namespace>
+      <namespace key="2303" case="case-sensitive">Gadget definition talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Apple-designed processors</title>
+    <ns>0</ns>
+    <id>32327247</id>
+    <revision>
+      <id>962375127</id>
+      <parentid>962374254</parentid>
+      <timestamp>2020-06-13T17:45:44Z</timestamp>
+      <contributor>
+        <username>Guy Harris</username>
+        <id>122189</id>
+      </contributor>
+      <comment>/* A series list */ Fill in another reference.</comment>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="110080" xml:space="preserve">{{Use mdy dates|date=April 2015}}
+[[Apple Inc.]] has designed [[system on a chip|System on Chip (SoC)]] and [[System in package|System in Package (SiP)]] '''processors''' for their [[mobile device|mobile consumer devices]]. They combine a low-power [[central processing unit]] (CPU) and other components into a physically compact package to meet the stringent power and space constraints common to mobile devices.
+
+[[Johny Srouji]] is the executive in charge of Apple's silicon design.&lt;ref&gt;{{Cite news|url=https://www.bloomberg.com/features/2016-johny-srouji-apple-chief-chipmaker/|title=The Most Important Apple Executive You’ve Never Heard Of|work=[[Bloomberg L.P.]]|access-date=2016-06-18}}&lt;/ref&gt;
+
+== Early series ==
+Apple first used SoCs in early revisions of the [[iPhone]] and [[iPod touch]]. Specified by Apple and manufactured by [[Samsung]], they combine in one package a single [[ARM architecture|ARM-based]] processing core ([[CPU]]), a graphics processing unit ([[GPU]]), and other electronics necessary for mobile computing.
+
+The '''APL0098''' (also 8900B&lt;ref&gt;{{cite web |url=http://www.ifixit.com/Teardown/iPhone+1st+Generation+Teardown/599/4 |title=iPhone 1st Generation Teardown |publisher=[[iFixit]] |date=June 29, 2007 |accessdate=September 19, 2013}}&lt;/ref&gt; or S5L8900) is a [[package on package]] (PoP) system on a chip (SoC) that was introduced on June 29, 2007, at the launch of the [[iPhone (1st generation)|original iPhone]]. It includes a 412&amp;nbsp;MHz single-core [[ARM11]] CPU and a PowerVR MBX Lite GPU. It was manufactured by Samsung on a [[90 nm]] [[semiconductor device fabrication|process]].&lt;ref name="EETimes-A4" /&gt; The [[iPhone 3G]] and the first-generation iPod touch also used it.&lt;ref name=PCworldARM&gt;{{cite web |url=http://www.pcworld.com/article/154518/.html?tk=rss_news |title=That iPod touch runs at 533 MHz |date=25 November 2008 |work=TechHive}}&lt;/ref&gt;
+
+The '''APL0278'''&lt;ref&gt;{{cite web |url=http://www.ifixit.com/Teardown/iPod+Touch+2nd+Generation+Teardown/586/2|title=iPod Touch 2nd Generation Teardown |publisher= iFixit |date=September 10, 2008 |accessdate=September 19, 2013}}&lt;/ref&gt; (also S5L8720) is a PoP SoC introduced on September 9, 2008, at the launch of the [[iPod touch (2nd generation)|second-generation iPod touch]]. It includes a 533&amp;nbsp;MHz single-core ARM11 CPU and a [[PowerVR]] MBX Lite GPU. It was manufactured by Samsung on a [[65 nm]] process.&lt;ref name="EETimes-A4" /&gt;&lt;ref name=PCworldARM /&gt;
+
+The '''APL0298''' (also S5L8920) is a PoP SoC introduced on June 8, 2009, at the launch of the [[iPhone 3GS]]. It includes a 600&amp;nbsp;MHz single-core [[ARM Cortex-A8|Cortex-A8]] CPU and a PowerVR SGX535 GPU. It was manufactured by Samsung on a 65&amp;nbsp;nm process.&lt;ref name="AnandTech3GS-EnterCortexA8" /&gt;
+
+The '''APL2298''' (also S5L8922) is a [[45 nm]] [[die shrink|die shrunk]] version of the iPhone 3GS SoC&lt;ref name="EETimes-A4" /&gt; and was introduced on September 9, 2009, at the launch of the [[iPod touch (3rd generation)|third-generation iPod touch]].
+
+== A series ==
+{{chart top|width=100%|Evolution of Apple "A" series}}
+{{chart/start|align=center|summary=Evolution of Apple "A" series}}
+{{chart| }}
+{{chart| | A4a | A4a=[[Apple A4|A4]]&lt;br&gt;&lt;small&gt;March 2010-September 2013&lt;/small&gt;}} 
+{{chart| | |!| | }}
+{{chart| | A5a |-|-|.| A5a=[[Apple A5|A5]]&lt;br&gt;&lt;small&gt;March 2011-September 2016&lt;/small&gt;}}
+{{chart| | |!| | | A5X | | A5X=[[Apple A5X|A5X]]&lt;br&gt;&lt;small&gt;March–October 2012&lt;/small&gt;}}
+{{chart| | A6a |7| |!| | A6a=[[Apple A6|A6]]&lt;br&gt;&lt;small&gt;September 2012-2015&lt;/small&gt;}}
+{{chart| | |!| |L| A6X | | A6X=[[Apple A6X|A6X]]&lt;br&gt;&lt;small&gt;October 2012-2013&lt;br&gt;March–October 2014&lt;/small&gt; }}
+{{chart| | |)|-|-|-|'| }}
+{{chart| | A7a | A7a=[[Apple A7|A7]]&lt;br&gt;&lt;small&gt;{{nowrap|September 2013-March 2017}}&lt;/small&gt;}}
+{{chart| | |!| | }}
+{{chart| | A8a |-|-|.| A8a=[[Apple A8|A8]]&lt;br&gt;&lt;small&gt;September 2014-present&lt;/small&gt;}}
+{{chart| | |!| | | A8X | | A8X=[[Apple A8X|A8X]]&lt;br&gt;&lt;small&gt;October 2014-March 2017&lt;/small&gt;}}
+{{chart| | A9a |7| |!| A9a=[[Apple A9|A9]]&lt;br&gt;&lt;small&gt;September 2015-2018 &lt;/small&gt;}}
+{{chart| | |!| |L| A9X | | A9X=[[Apple A9X|A9X]]&lt;br&gt;&lt;small&gt;{{nowrap|November 2015-June 2017}}&lt;/small&gt;}}
+{{chart| | A10a |7| |!| A10a =[[Apple A10|A10 Fusion]]&lt;br&gt;&lt;small&gt;September 2016-present&lt;/small&gt;}}
+{{chart| | |!| |L| A10X | | A10X=[[Apple A10X|A10X Fusion]]&lt;br&gt;&lt;small&gt;June 2017-present&lt;/small&gt;}}
+{{chart| | A11a | | |!| A11a =[[Apple A11|A11 Bionic]]&lt;br&gt;&lt;small&gt;September 2017-April 2020&lt;/small&gt;}}
+{{chart| | |!| | | |!| }}
+{{chart| | A12a |7| |!| A12a =[[Apple A12|A12 Bionic]]&lt;br&gt;&lt;small&gt;September 2018-present&lt;/small&gt;}}
+{{chart| | |!| |H| A12X | | A12X=[[Apple A12X|A12X Bionic]]&lt;br&gt;&lt;small&gt;October 2018-March 2020&lt;/small&gt;}}
+{{chart| | A13a |:| |!| A13a =[[Apple A13|A13 Bionic]]&lt;br&gt;&lt;small&gt;September 2019-present&lt;/small&gt;}}
+{{chart| | | | |L| A12Z | | A12Z=[[Apple A12Z|A12Z Bionic]]&lt;br&gt;&lt;small&gt;March 2020-present&lt;/small&gt;}}
+{{chart/end}}
+|-
+|style="text-align: left;"|'''Notes:'''
+{{notelist-lr}}&lt;!--- use either {{Efn-lr}} and/or &lt;ref group=lower-roman /&gt; To fill this notelist --&gt;
+{{chart bottom}}
+
+{{nowrap|The Apple "A" series}} is a family of [[system on a chip|SoCs]] used in certain models of the [[iPhone]], [[iPad]], [[iPod Touch|iPod touch]], and the [[Apple TV]] digital media player. They integrate one or more [[ARM architecture|ARM-based]] processing cores ([[CPU]]), a graphics processing unit ([[GPU]]), [[CPU cache|cache memory]] and other electronics necessary to provide mobile computing functions within a single physical package. They are manufactured by [[Samsung]] and [[TSMC]].
+
+=== Apple A4 ===
+{{Main|Apple A4}}
+The '''Apple A4''' is a PoP SoC manufactured by [[Samsung]].&lt;ref&gt;{{cite web|last=Clark |first=Don |url=https://www.wsj.com/articles/SB10001424052702303912104575164112770784290?mod=rss_Today's_Most_Popular |title=Apple iPad Taps Familiar Component Suppliers - WSJ.com |publisher=Online.wsj.com |date=April 5, 2010 |accessdate=April 15, 2010}}&lt;/ref&gt; It combines an [[ARM architecture|ARM]] [[ARM Cortex-A8|Cortex-A8]] CPU with a [[PowerVR]] GPU, and emphasizes power efficiency.&lt;ref&gt;{{cite web|url=https://www.apple.com/ipad/design/#performance |title=iPad - It's thin, light, powerful, and revolutionary |publisher=Apple |accessdate=July 7, 2010| archiveurl= https://web.archive.org/web/20100706061702/http://www.apple.com/ipad/design/| archivedate= July 6, 2010 | url-status= live}}&lt;/ref&gt;  The chip commercially debuted with the release of Apple's iPad [[tablet computer|tablet]];&lt;ref name="Apple PR"&gt;{{cite press release|url=https://www.apple.com/newsroom/2010/01/27Apple-Launches-iPad/ |title=Apple Launches iPad |publisher=[[Apple Inc.|Apple]] |date=January 27, 2010 |accessdate=January 28, 2010}}&lt;/ref&gt; followed shortly by the [[iPhone 4]] smartphone,&lt;ref name="iPhoneA4"&gt;{{cite web |url=https://www.apple.com/iphone/design/index.html |title=iPhone 4 design |publisher=Apple |date=July 6, 2010 |archive-url=https://web.archive.org/web/20100706072512/https://www.apple.com/iphone/design/index.html |archive-date=July 6, 2010 |url-status=dead }}&lt;/ref&gt; the 4th generation [[iPod Touch|iPod touch]] and the 2nd generation [[Apple TV]]. It was superseded in the [[iPad 2]], released the following year, by the [[Apple A5]] processor.
+
+Apple A4 is based on the ARM processor architecture.&lt;ref name="based_on_arm"&gt;{{cite news |url=https://www.nytimes.com/2010/02/22/technology/22chip.html |title=For Chip Makers, the Next Battle Is in Smartphones |newspaper=New York Times |date=February 21, 2010 |accessdate=February 25, 2010 |first=Ashlee |last=Vance| archiveurl= https://web.archive.org/web/20100225065617/http://www.nytimes.com/2010/02/22/technology/22chip.html| archivedate= February 25, 2010 | url-status= live}}&lt;/ref&gt; The first version released ran at 1&amp;nbsp;GHz for the iPad&lt;ref&gt;{{cite web|url=https://support.apple.com/kb/sp580 |title=iPad — Technical specifications |publisher=Apple |accessdate=October 16, 2016}}&lt;/ref&gt; and contains an ARM Cortex-A8 CPU core paired with a [[PowerVR#Series5 (SGX)|PowerVR SGX 535]] [[graphics processing unit|graphics processor]] (GPU)&lt;ref name="Apple PR" /&gt;&lt;ref&gt;{{cite web |url=http://www.ifixit.com/Teardown/Apple-A4-Teardown/2204/3 |title=conclusion from both hard and software analysis it uses an ARM Cortex-A8 core |publisher=Ifixit.com |first=Kyle |last=Wiens |date=April 5, 2010 |accessdate=April 15, 2010| archiveurl= https://web.archive.org/web/20100418145031/http://www.ifixit.com/Teardown/Apple-A4-Teardown/2204/3| archivedate= April 18, 2010 | url-status= live}}&lt;/ref&gt;&lt;ref name="Engadget"&gt;{{cite web |url=https://www.engadget.com/2010/02/23/ipad-confirmed-to-use-powervr-sgx-graphics/ |title=iPad confirmed to use PowerVR SGX graphics |date=February 23, 2010 |first=Donald |last=Melanson |publisher=Engadget}}&lt;/ref&gt; built on Samsung's 45-nanometer (nm) silicon chip fabrication process.&lt;ref name="EETimes-A4"&gt;{{cite web|first=Young |last=Choi |url=http://www.electronics-eetimes.com/en/analysis-gives-first-look-inside-apple-s-a4-processor.html?cmp_id=7&amp;news_id=222901800 |title=Analysis gives first look inside Apple's A4 processor |publisher=[[EETimes]] |date=May 10, 2010 |accessdate=September 15, 2013 |archiveurl=https://web.archive.org/web/20130915010243/http://www.electronics-eetimes.com/en/analysis-gives-first-look-inside-apple-s-a4-processor.html?cmp_id=7&amp;news_id=222901800 |archivedate=September 15, 2013 |url-status=dead }}&lt;/ref&gt;&lt;ref name="Chipworks-A4"&gt;{{cite web |url=http://www.chipworks.com/A4_is_Samsung_45nm.aspx |title=Chipworks Confirms Apple A4 iPad chip is fabbed by Samsung in their 45-nm process |publisher=Chipworks |date=April 15, 2010 |archiveurl=https://web.archive.org/web/20100921083904/http://chipworks.com/A4_is_Samsung_45nm.aspx |archivedate=September 21, 2010 |url-status=dead}}&lt;/ref&gt; The clock speed for the units used in the iPhone 4 and the iPod touch (4th generation) is 800&amp;nbsp;[[MHz]]. The clock speed for the unit used in the Apple TV has not been revealed.
+
+The Cortex-A8 core used in the A4 is thought to use performance enhancements developed by chip designer [[Intrinsity]], which was subsequently acquired by Apple,&lt;ref&gt;{{cite web |url=https://arstechnica.com/apple/news/2010/04/apple-purchase-of-intrinsity-confirmed.ars |title=Apple purchase of Intrinsity confirmed |publisher=Ars Technica |date=April 28, 2010 |first=Jon |last=Stokes |accessdate=April 28, 2010| archiveurl= https://web.archive.org/web/20100428102017/http://arstechnica.com/apple/news/2010/04/apple-purchase-of-intrinsity-confirmed.ars| archivedate= April 28, 2010 | url-status= live}}&lt;/ref&gt; in collaboration with Samsung.&lt;ref name="Intrinsity"&gt;{{cite web |url=http://www.eetimes.com/news/latest/showArticle.jhtml?articleID=218600577 |publisher=EETimes.com |accessdate=April 23, 2010 |title=Samsung, Intrinsity pump ARM to&amp;nbsp;GHz rate |first=Rick |last=Merritt}}&lt;/ref&gt; The resulting core, dubbed "[[Samsung Hummingbird|Hummingbird]]", is able to run at far higher clock rates than other implementations while remaining fully compatible with the Cortex-A8 design provided by ARM.&lt;ref name = "speed"&gt;{{cite web |url= http://www.pcworld.com/article/193597/Apple_iPad_Smokes_Past_the_iPhone_3GS_in_Speed_Test.html |title=Apple iPad smokes past the iPhone 3GS in speed |publisher=[[PC World (magazine)|PC World]] |date=April 6, 2010 |accessdate=April 11, 2010 |first=Gregg |last=Keizer| archiveurl= https://web.archive.org/web/20100420062954/http://www.pcworld.com/article/193597/Apple_iPad_Smokes_Past_the_iPhone_3GS_in_Speed_Test.html| archivedate= April 20, 2010 | url-status= live}}&lt;/ref&gt; Other performance improvements include additional L2 cache. The same Cortex-A8 CPU core used in the A4 is also used in Samsung's S5PC110A01 SoC.&lt;ref&gt;{{cite web|url= http://www.eetimes.com/showArticle.jhtml?articleID=225700447 |title=Apple's A4 dissected, discussed...and tantalizing |publisher=EETimes.com |date=June 16, 2010 |first1=Paul |last1=Boldt |first2=Don |last2=Scansen | first3=Tim |last3=Whibley |accessdate=July 7, 2010}}&lt;/ref&gt;&lt;ref&gt;{{cite web |url=http://www.ubmtechinsights.com/uploadedFiles/Apple%20A4%20vs%20SEC%20S5PC110A01.pdf |title=Microsoft PowerPoint - Apple A4 vs SEC S5PC110A01 |format=PDF |accessdate=July 7, 2010 |archiveurl=https://web.archive.org/web/20100704204344/http://www.ubmtechinsights.com/uploadedFiles/Apple%20A4%20vs%20SEC%20S5PC110A01.pdf |archivedate=July 4, 2010 |url-status=dead }}&lt;/ref&gt; The SGX535 in the A4 could theoretically push 35 million polygons per second and 500 million pixels per second, although real world performance may be considerably less.&lt;ref&gt;{{cite web|url= http://www.anandtech.com/show/4216/apple-ipad-2-gpu-performance-explored-powervr-sgx543mp2-benchmarked |title=Apple iPad 2 GPU Performance Explored: PowerVR SGX543MP2 Benchmarked - AnandTech :: Your Source for Hardware Analysis and News |publisher=[[AnandTech]] |accessdate=March 15, 2011| archiveurl= https://web.archive.org/web/20110318205852/http://www.anandtech.com/show/4216/apple-ipad-2-gpu-performance-explored-powervr-sgx543mp2-benchmarked| archivedate= March 18, 2011 | url-status= live}}&lt;/ref&gt;
+
+The A4 processor package does not contain [[RAM]], but supports [[Package on package|PoP]] installation. Hence, there is a package with two low-power 128&amp;nbsp;MB [[DDR SDRAM]] [[Integrated circuit|chips]] (totaling 256&amp;nbsp;MB) mounted on top of the A4 used in the first-generation iPad, the [[IPod Touch 4th Generation|fourth-generation iPod touch]],&lt;ref&gt;{{cite web|url= http://www.appleinsider.com/articles/10/09/08/teardown_of_apples_4th_gen_ipod_touch_finds_256mb_of_ram.html |title=Teardown of Apple's 4th-gen iPod touch finds 256MB of RAM |publisher=Appleinsider.com |date=September 8, 2010 |accessdate=September 10, 2010| archiveurl= https://web.archive.org/web/20100911215136/http://www.appleinsider.com/articles/10/09/08/teardown_of_apples_4th_gen_ipod_touch_finds_256mb_of_ram.html| archivedate= September 11, 2010 | url-status= live}}&lt;/ref&gt; and the second-generation Apple TV.&lt;ref&gt;{{cite web|url=http://www.ifixit.com/Teardown/Apple-TV-2nd-Generation-Teardown/3625/2 |title=Apple TV 2nd Generation Teardown |publisher=iFixit |date=September 30, 2010 |accessdate=January 4, 2011| archiveurl= https://web.archive.org/web/20110102052816/http://www.ifixit.com/Teardown/Apple-TV-2nd-Generation-Teardown/3625/2| archivedate= January 2, 2011 | url-status= live}}&lt;/ref&gt; The iPhone 4 has two 256&amp;nbsp;MB packages for a total of 512&amp;nbsp;MB.&lt;ref&gt;{{cite news|url= http://www.appleinsider.com/articles/10/06/17/apple_reveals_iphone_4_has_512mb_ram_doubling_ipad_report.html |title=Apple reveals iPhone 4 has 512MB RAM, doubling iPad - report |work=[[AppleInsider]] |date=June 17, 2010 |accessdate=July 7, 2010| archiveurl= https://web.archive.org/web/20100704124612/http://www.appleinsider.com/articles/10/06/17/apple_reveals_iphone_4_has_512mb_ram_doubling_ipad_report.html| archivedate= July 4, 2010 | url-status= live}}&lt;/ref&gt;&lt;ref&gt;{{cite web |url=http://www.ifixit.com/blog/2010/04/a-peek-inside-apples-a4-processor/ |title=A Peek Inside Apple’s A4 Processor |publisher=[[iFixit]] |date=April 5, 2010}}&lt;/ref&gt;&lt;ref&gt;{{cite web |url=https://community.cadence.com/cadence_blogs_8/b/ip/posts/apple-ipad_3a00_-no-lpddr2_3f00_ |title=Apple iPad: no LPDDR2? |publisher=Denali |date=April 9, 2010 |first=Marc |last=Greenberg}}&lt;/ref&gt; The RAM is connected to the processor using ARM's [[64-bit computing|64-bit]]-wide [[ABMA 3 AXI|AMBA 3 AXI]] bus. To support the iPad's demand for high graphics bandwidth, the width of the RAM data bus is double that used in previous ARM11 and ARM9 based Apple devices.&lt;ref&gt;{{cite news|url=http://www.eetasia.com/ART_8800603321_499495_NP_1e1373d9.HTM |title=iPad equipped to deliver richer graphics |work=[[EE Times Asia]] |date=April 9, 2010 |accessdate=April 14, 2010 |first=Rick |last=Merritt |url-status=dead |archiveurl= https://web.archive.org/web/20110927104038/http://www.eetasia.com/ART_8800603321_499495_NP_1e1373d9.HTM |archivedate=September 27, 2011 }}&lt;/ref&gt;
+
+=== Apple A5 ===
+{{Main|Apple A5}}
+The '''Apple A5''' is an SoC manufactured by [[Samsung]]&lt;ref&gt;{{cite web| url=http://www.eetimes.com/electronics-news/4213981/Samsung-fabs-Apple-A5-processor |title= Updated: Samsung fabs Apple A5 processor | date= March 12, 2011 | publisher= EETimes.com| accessdate=March 15, 2011 |archiveurl=https://web.archive.org/web/20130509081929/http://www.eetimes.com/electronics-news/4213981/Samsung-fabs-Apple-A5-processor |archivedate=May 9, 2013 |url-status=dead}}&lt;/ref&gt; that replaced the [[Apple A4|A4]]. The chip commercially debuted with the release of Apple's [[iPad 2]] [[tablet computer|tablet]] in March 2011,&lt;ref&gt;{{Cite web|url=https://appleinsider.com/articles/11/03/02/apple_announces_ipad_2_with_new_design_faster_a5_processor|title=Apple announces redesigned iPad 2: A5 CPU, 2 cameras, ships March 11|website=AppleInsider}}&lt;/ref&gt; followed by its release in the [[iPhone 4S]] [[smartphone]] later that year. Apple claims that compared with its predecessor, the A4, the A5 [[CPU]] "can do twice the work" and the [[Graphics processing unit|GPU]] has "up to nine times the graphics performance".&lt;ref&gt;{{cite web|url=https://www.apple.com/ipad/features/ |title=Apple iPad 2 feature page |publisher=Apple.com |accessdate=March 15, 2011| archiveurl=https://web.archive.org/web/20110316162215/http://www.apple.com/ipad/features/ |archivedate=March 16, 2011 |url-status=dead}}&lt;/ref&gt;
+
+The A5 contains a dual-core [[ARM Cortex-A9 MPCore|ARM Cortex-A9]] CPU&lt;ref name="anandtech1"&gt;{{cite web|url=http://www.anandtech.com/show/4215/apple-ipad-2-benchmarked-dualcore-cortex-a9-powervr-sgx-543mp2/2 |title=Apple iPad 2 Preview - AnandTech :: Your Source for Hardware Analysis and News |publisher=AnandTech |date= |accessdate=March 15, 2011}}&lt;/ref&gt; with ARM's advanced [[SIMD]] extension, marketed as [[ARM NEON|NEON]], and a dual core [[PowerVR|PowerVR SGX543MP2]] GPU. This GPU can push between 70 and 80 million polygons/second and has a pixel fill rate of 2 billion pixels/second. Apple lists the A5 to be clocked at 1&amp;nbsp;GHz on the iPad 2's technical specifications page,&lt;ref&gt;{{cite web|url=https://support.apple.com/kb/sp622 |title=iPad 2 - Technical Specifications |publisher=Apple |date= |accessdate=October 16, 2016}}&lt;/ref&gt; though it can dynamically adjust its frequency to save battery life.&lt;ref name="anandtech1"/&gt;&lt;ref&gt;{{cite web|url= http://www.appleinsider.com/articles/11/03/13/inside_apples_ipad_2_a5_fast_lpddr2_ram_costs_66_more_than_tegra_2.html |title=Inside Apple's iPad 2 A5: fast LPDDR2 RAM, costs 66% more than Tegra 2 |publisher=[[AppleInsider]] |date= |accessdate=March 15, 2011}}&lt;/ref&gt; The clock speed of the unit used in the iPhone 4S is 800&amp;nbsp;MHz. Like the A4, the A5 process size is 45&amp;nbsp;nm.&lt;ref name="Chipworks-A5"&gt;{{cite web |url=http://www.chipworks.com/en/technical-competitive-analysis/resources/blog/a-first-look-at-apples-a5-processor/ |title=A First Look at Apple's A5 Processor |publisher=Chipworks |date=March 12, 2011 |accessdate=September 15, 2013 |archive-url=https://web.archive.org/web/20131101053030/http://www.chipworks.com/en/technical-competitive-analysis/resources/blog/a-first-look-at-apples-a5-processor/ |archive-date=November 1, 2013 |url-status=dead }}&lt;/ref&gt;
+
+An updated [[32 nm]] version of the A5 processor was used in the third generation Apple TV, the [[iPod Touch (5th generation)|iPod touch (5th generation)]], the iPad Mini, and the new version of iPad 2 (version iPad2,4).&lt;ref name="Chipworks-A5R2"&gt;{{cite web |url=http://www.chipworks.com/en/technical-competitive-analysis/resources/blog/apple-a5-from-the-apple-tv-3-surprise-surprise/ |title=Update – 32-nm Apple A5 in the Apple TV 3 – and an iPad 2! |publisher=Chipworks |date=April 11, 2012 |accessdate=September 15, 2013 |archive-url=https://web.archive.org/web/20131024092806/http://www.chipworks.com/en/technical-competitive-analysis/resources/blog/apple-a5-from-the-apple-tv-3-surprise-surprise/ |archive-date=October 24, 2013 |url-status=dead }}&lt;/ref&gt; The chip in the Apple TV has one core locked.&lt;ref&gt;{{cite web|url= http://www.appleinsider.com/articles/12/03/18/single_core_a5_cpu_in_new_1080p_apple_tv_doubles_ram_to_512mb.html|title=Single-core A5 CPU in new 1080p Apple TV doubles RAM to 512MB|website=[[AppleInsider]]}}&lt;/ref&gt;&lt;ref&gt;{{cite web |title=Update – 32-nm Apple A5 in the Apple TV 3 – and an iPad 2! |url=http://www.chipworks.com/en/technical-competitive-analysis/resources/technology-blog/2012/04/apple-a5-from-the-apple-tv-3-surprise-surprise/ |accessdate=April 12, 2012 |date=April 11, 2012 |publisher=ChipWorks |archive-url=https://web.archive.org/web/20120413061858/http://www.chipworks.com/en/technical-competitive-analysis/resources/technology-blog/2012/04/apple-a5-from-the-apple-tv-3-surprise-surprise/ |archive-date=April 13, 2012 |url-status=dead }}&lt;/ref&gt; The markings of the square package indicates that it is named ''APL2498'', and in software, the chip is called ''S5L8942''. The [[32 nanometer|32&amp;nbsp;nm]] variant of the A5 provides around 15% better battery life during web browsing, 30% better when playing 3D games and about 20% better battery life during video playback.&lt;ref&gt;{{cite web|url= http://www.anandtech.com/show/5789/the-ipad-24-review-32nm-a5-tested/2 |title=The iPad 2,4 Review: 32nm Brings Better Battery Life |publisher=[[AnandTech]] |date= |accessdate=November 1, 2012}}&lt;/ref&gt;
+
+In March 2013, Apple released an updated version of the third generation Apple TV (AppleTV3,2) containing a smaller, single-core version of the A5 processor.  Unlike the other A5 variants, this version of the A5 is not a PoP, having no stacked RAM. The chip is very small, just 6.1×6.2&amp;nbsp;mm, but as the decrease in size is not due to a decrease in feature size (it is still on a 32&amp;nbsp;nm fabrication process), this indicates that this A5 revision is of a new design.&lt;ref&gt;{{cite web|url=http://www.macrumors.com/2013/03/12/a5-chip-in-tweaked-apple-tv-still-manufactured-by-samsung/|title=A5 Chip in Tweaked Apple TV Still Manufactured by Samsung at 32nm|publisher=}}&lt;/ref&gt; Markings tell that it is named ''APL7498'', and in software, the chip is called ''S5L8947''.&lt;ref&gt;{{cite web|url=http://www.macrumors.com/2013/03/10/tweaked-apple-tv-contains-die-shrunk-a5-chip-not-a5x/|title=Tweaked Apple TV Contains Die-Shrunk A5 Chip, Not A5X|publisher=}}&lt;/ref&gt;&lt;ref name="Chipworks-A5-singlecore"&gt;{{cite web |url=http://www.chipworks.com/en/technical-competitive-analysis/resources/blog/inside-the-latest-apple-a5-from-a-new-apple-tv/ |title=Apple’s TV surprise – a new A5 chip! |publisher=Chipworks |date=March 12, 2013 |accessdate=September 15, 2013 |archive-url=https://web.archive.org/web/20131110141408/http://www.chipworks.com/en/technical-competitive-analysis/resources/blog/inside-the-latest-apple-a5-from-a-new-apple-tv/ |archive-date=November 10, 2013 |url-status=dead }}&lt;/ref&gt;
+
+=== Apple A5X ===
+{{Main|Apple A5X}}
+The '''Apple A5X''' is an SoC announced on March 7, 2012, at the launch of the [[iPad (3rd generation)|third-generation iPad]]. It is a high-performance variant of the [[Apple A5]]; Apple claims it has twice the graphics performance of the A5.&lt;ref&gt;{{cite web |url=https://www.apple.com/pr/library/2012/03/07Apple-Launches-New-iPad.html |title=Apple Launches New iPad |publisher=[[Apple Inc.|Apple]] |date=March 7, 2012 |accessdate=September 17, 2013}}&lt;/ref&gt; It was superseded in the [[iPad (4th generation)|fourth-generation iPad]] by the [[Apple A6X]] processor.
+
+The A5X has a quad-core graphics unit (PowerVR SGX543MP4) instead of the previous dual-core as well as a quad-channel memory controller that provides a memory bandwidth of 12.8&amp;nbsp;GB/s, roughly three times more than in the A5. The added graphics cores and extra memory channels add up to a very large die size of 165&amp;nbsp;mm²,&lt;ref name="Chipworks-A5X"&gt;{{cite web |url=http://www.chipworks.com/en/technical-competitive-analysis/resources/blog/the-apple-a5x-versus-the-a5-and-a4-big-is-beautiful |title=The Apple A5X versus the A5 and A4 – Big Is Beautiful |publisher=Chipworks |date=March 19, 2012 |accessdate=September 15, 2013 |archive-url=https://web.archive.org/web/20131205095719/http://www.chipworks.com/en/technical-competitive-analysis/resources/blog/the-apple-a5x-versus-the-a5-and-a4-big-is-beautiful |archive-date=December 5, 2013 |url-status=dead }}&lt;/ref&gt; for example twice the size of [[Nvidia]] [[Tegra 3]].&lt;ref name="anandtech.com"&gt;{{cite web|url=http://www.anandtech.com/show/5685/apple-a5x-die-size-measured-16294mm2-likely-still-45nm |title=Apple A5X Die Size Measured: 162.94mm^2, Samsung 45nm LP Confirmed |publisher=AnandTech |date= |accessdate=November 1, 2012}}&lt;/ref&gt; This is mainly due to the large PowerVR SGX543MP4 GPU. The clock frequency of the dual ARM Cortex-A9 cores have been shown to operate at the same 1&amp;nbsp;GHz frequency as in A5.&lt;ref&gt;{{cite web|url=http://www.anandtech.com/show/5670/the-frequency-of-apple-a5x-in-the-new-ipad-confirmed-still-running-at-1ghz |title=The Frequency of Apple A5X in the New iPad Confirmed: Still Running at 1GHz |publisher=AnandTech |date= |accessdate=November 1, 2012}}&lt;/ref&gt; The RAM in A5X is separate from the main CPU package.&lt;ref&gt;{{cite web|title=iFixit teardown of the 3rd generation iPad.|url=http://www.ifixit.com/Teardown/iPad-3-4G-Teardown/8277/2|publisher=iFixit}}&lt;/ref&gt;
+{{clear}}
+
+=== Apple A6 ===
+{{Main|Apple A6}}
+The '''Apple A6''' is a PoP SoC introduced on September 12, 2012, at the launch of the [[iPhone 5]], then a year later was inherited by its minor successor the [[iPhone 5C]]. Apple states that it is up to twice as fast and has up to twice the graphics power compared to its predecessor the [[Apple A5]].&lt;ref name="Apple iPhone 5 PR"&gt;{{citation |url=https://www.apple.com/pr/library/2012/09/12Apple-Introduces-iPhone-5.html |title=Apple Introduces iPhone 5 |publisher=Apple.com |date=September 12, 2012 |accessdate=September 20, 2012}}&lt;/ref&gt; It is 22% smaller and draws less power than the 45&amp;nbsp;nm A5.&lt;ref&gt;{{cite web|url=https://www.engadget.com/2012/09/12/iphone-5-processor/|title=Apple: A6 chip in iPhone 5 has 2x CPU power, 2x graphics performance, yet consumes less energy|publisher=}}&lt;/ref&gt;
+
+The A6 is said to use a 1.3&amp;nbsp;GHz&lt;ref name="Engadget-A6-1.3GHz"&gt;{{citation |url=https://www.engadget.com/2012/09/26/apple-a6-cpu-13ghz-geekbench-confirmed-overclocking// |title=Apple's A6 CPU actually clocked at around 1.3 GHz, per new Geekbench report |publisher=Engadget |date=September 26, 2012 |accessdate=September 26, 2012}}&lt;/ref&gt; custom&lt;ref name="NotanA15" /&gt; Apple-designed [[ARM architecture|ARMv7]] based [[Multi-core processor|dual-core CPU]], called Swift,&lt;ref name="A6NamedSwift"&gt;{{cite web |first1=Anand |last1=Lal Shimpi |first2=Brian |last2=Klug |first3=Vivek |last3=Gowri  |url=http://www.anandtech.com/show/6330/the-iphone-5-review/5 |title=The iPhone 5 Review - Decoding Swift |publisher=AnandTech |date=October 16, 2012 |accessdate=October 17, 2012}}&lt;/ref&gt; rather than a licensed CPU from ARM like in previous designs, and an integrated 266&amp;nbsp;MHz triple-core [[PowerVR]] SGX 543MP3&lt;ref name="AnandTechDieShot"&gt;{{cite web |url=http://www.anandtech.com/show/6323/apple-a6-die-revealed-3core-gpu-100mm2 |title=Apple A6 Die Revealed: 3-core GPU, &lt;100mm^2 |publisher=AnandTech |date=September 21, 2012 |accessdate=September 22, 2012}}&lt;/ref&gt; [[graphics processing unit]] (GPU).  The Swift core in the A6 uses a new tweaked instruction set, ARMv7s, featuring some elements of the [[ARM Cortex-A15 MPCore|ARM Cortex-A15]] such as support for the [[ARM architecture|Advanced SIMD v2]], and [[VFP (instruction set)|VFPv4]].&lt;ref name="NotanA15"/&gt; The A6 is manufactured by Samsung on a [[High-k dielectric|high-κ]] [[metal gate]] (HKMG) 32&amp;nbsp;nm process.&lt;ref name="Chipworks-A6"&gt;{{cite web|url=http://www.chipworks.com/en/technical-competitive-analysis/resources/blog/apple-iphone-5-the-a6-application-processor/ |title=Apple iPhone 5 – the A6 Application Processor |publisher=Chipworks |date=September 21, 2012 |accessdate=September 15, 2013 |archiveurl=https://web.archive.org/web/20130922151159/http://www.chipworks.com/en/technical-competitive-analysis/resources/blog/apple-iphone-5-the-a6-application-processor/ |archivedate=September 22, 2013 |url-status=dead |df=mdy }}&lt;/ref&gt;
+
+=== Apple A6X ===
+{{Main|Apple A6X}}
+'''Apple A6X''' is an SoC introduced at the launch of the [[iPad (4th generation)|fourth-generation iPad]] on October 23, 2012.  It is a high-performance variant of the [[Apple A6]]. Apple claims the A6X has twice the CPU performance and up to twice the graphics performance of its predecessor, the [[Apple A5X]].&lt;ref&gt;{{cite web |url=https://www.apple.com/pr/library/2012/10/23Apple-Introduces-iPad-mini.html |title=Apple Introduces iPad mini |publisher=[[Apple Inc.|Apple]] |date=October 23, 2012 |accessdate=September 16, 2013}}&lt;/ref&gt;
+
+Like the A6, this SoC continues to use the dual-core Swift CPU, but it has a new quad core GPU, quad channel memory and slightly higher 1.4&amp;nbsp;GHz CPU clock rate.&lt;ref name="AnandTech-iPad4GPU"&gt;{{cite web |first=Anand |last=Lal Shimpi |url=http://www.anandtech.com/show/6426/ipad-4-gpu-performance-analyzed-powervr-sgx-554mp4-under-the-hood |title=iPad 4 GPU Performance Analyzed: PowerVR SGX 554MP4 Under the Hood  |publisher=AnandTech |date=November 2, 2012 |accessdate=September 16, 2013}}&lt;/ref&gt; It uses an integrated quad-core [[PowerVR]] SGX 554MP4 [[graphics processing unit]] (GPU) running at 300&amp;nbsp;MHz and a quad-channel [[Memory controller|memory subsystem]].&lt;ref name="AnandTech-iPad4GPU" /&gt;&lt;ref name="Chipworks-A6X"&gt;{{cite web |url=http://www.chipworks.com/en/technical-competitive-analysis/resources/blog/inside-the-apple-ipad-4-a6x-a-very-new-beast/ |title=Inside the Apple iPad 4 – A6X a very new beast! |publisher=Chipworks |date=November 1, 2012 |accessdate=September 15, 2013 |archive-url=https://web.archive.org/web/20150518010605/http://www.chipworks.com/en/technical-competitive-analysis/resources/blog/inside-the-apple-ipad-4-a6x-a-very-new-beast/ |archive-date=May 18, 2015 |url-status=dead }}&lt;/ref&gt; Compared to the A6 the A6X is 30% larger, but it continues to be manufactured by Samsung on a [[High-k dielectric|high-κ]] [[metal gate]] (HKMG) 32&amp;nbsp;nm process.&lt;ref name="Chipworks-A6X" /&gt;
+
+=== Apple A7 ===
+{{Main|Apple A7}}
+The '''Apple A7''' is a [[64-bit computing|64-bit]] PoP SoC whose first appearance was in the [[iPhone 5S]], which was introduced on September 10, 2013. The chip would also be used in the [[iPad Air]], [[iPad Mini 2]] and [[iPad Mini 3]]. Apple states that it is up to twice as fast and has up to twice the graphics power compared to its predecessor the Apple A6.&lt;ref name="Apple iPhone 5s PR"&gt;{{cite web |url=https://www.apple.com/pr/library/2013/09/10Apple-Announces-iPhone-5s-The-Most-Forward-Thinking-Smartphone-in-the-World.html |title=Apple Announces iPhone 5s—The Most Forward-Thinking Smartphone in the World |publisher=[[Apple Inc.|Apple]] |date=September 10, 2013 |accessdate=September 13, 2013}}&lt;/ref&gt;
+
+The A7 features an Apple-designed 1.3&lt;ref name="AnandTech-iPhone5s-A7"&gt;{{cite web |first=Anand |last=Lal Shimpi |url=http://anandtech.com/show/7335/the-iphone-5s-review/2 |title=The iPhone 5s Review: A7 SoC Explained |publisher=AnandTech |date= September 17, 2013 |accessdate= September 18, 2013}}&lt;/ref&gt;–1.4&lt;ref name="AnandTech-iPadAir-CPU"&gt;{{cite web |last=Lai Shimpi |first=Anand |url=http://anandtech.com/show/7460/apple-ipad-air-review/3 |title=The iPad Air Review: iPhone to iPad: CPU Changes |publisher=AnandTech |date=October 29, 2013 |accessdate=October 30, 2013}}&lt;/ref&gt;&amp;nbsp;GHz 64-bit&lt;ref name="AnandTech-iPhone5s-64-bit"&gt;{{cite web |first=Anand |last=Lal Shimpi |url=http://anandtech.com/show/7335/the-iphone-5s-review/4 |title=The iPhone 5s Review: The Move to 64-bit |publisher=AnandTech |date= September 17, 2013 |accessdate= September 18, 2013}}&lt;/ref&gt; [[ARMv8|ARMv8-A]]&lt;ref name="AnandTech-iPhone5s-Cyclone"&gt;{{cite web |first=Anand |last=Lal Shimpi |url=http://anandtech.com/show/7335/the-iphone-5s-review/3 |title=The iPhone 5s Review: After Swift Comes Cyclone |publisher=AnandTech |date= September 17, 2013 |accessdate= September 18, 2013}}&lt;/ref&gt;&lt;ref name="LLVM-5s-ARMv8-A"&gt;{{cite mailing list|url=http://lists.llvm.org/pipermail/llvm-dev/2013-September/065449.html |title=[LLVMdev&amp;#93; A7 processor support? |first=Chris |last=Lattner |authorlink=Chris Lattner |mailing-list=llvm-dev |date=September 10, 2013 |accessdate=July 9, 2017}}&lt;/ref&gt; dual-core CPU,&lt;ref name="AnandTech-iPhone5s-A7" /&gt; called Cyclone,&lt;ref name="AnandTech-iPhone5s-Cyclone" /&gt; and an integrated [[PowerVR#Series 6 (Rogue)|PowerVR G6430]] GPU in a four cluster configuration.&lt;ref name="AnandTech-iPhone5s-GPU"&gt;{{cite web |first=Anand |last=Lal Shimpi |url=http://anandtech.com/show/7335/the-iphone-5s-review/7 |title=The iPhone 5s Review: GPU Architecture |date= September 17, 2013 |publisher=AnandTech |accessdate= September 18, 2013}}&lt;/ref&gt; The ARMv8-A architecture doubles the number of [[Processor register|registers]] of the A7 compared to the A6.&lt;ref name="Ars: Apple unveils"&gt;{{cite web |last=Cunningham |first=Andrew |url= https://arstechnica.com/apple/2013/09/apple-unveils-64-bit-iphone-5s/ |title=Apple unveils 64-bit iPhone 5S with fingerprint scanner, $199 for 16GB |publisher=Ars Technica |date=September 10, 2013 |accessdate=September 12, 2013}}&lt;/ref&gt; It now has 31 general-purpose registers that are each [[64-bit computing|64-bits]] wide and 32 floating-point/[[ARM NEON|NEON]] registers that are each 128-bits wide.&lt;ref name="AnandTech-iPhone5s-64-bit" /&gt; The A7 is manufactured by Samsung on a [[High-k dielectric|high-κ]] [[metal gate]] (HKMG) [[28 nanometer|28 nm]] process&lt;ref name="Chipworks-iPhone5s"&gt;{{cite web|url=http://www.chipworks.com/en/technical-competitive-analysis/resources/blog/inside-the-iphone-5s/|title=Inside the iPhone 5s|first1=Jason|last1=Tanner|first2=Jim|last2=Morrison|first3=Dick|last3=James|first4=Ray|last4=Fontaine|first5=Phil|last5=Gamache|publisher=Chipworks|date=September 20, 2013|accessdate=September 20, 2013|archiveurl=https://web.archive.org/web/20140803201521/http://www.chipworks.com/en/technical-competitive-analysis/resources/blog/inside-the-iphone-5s/|archivedate=August 3, 2014}}&lt;/ref&gt; and the chip includes over 1 billion [[Transistor count|transistors]] on a die 102&amp;nbsp;mm&lt;sup&gt;2&lt;/sup&gt; in size.&lt;ref name="AnandTech-iPhone5s-A7" /&gt;
+
+=== Apple A8 ===
+{{Main|Apple A8}}
+The '''Apple A8''' is a [[64-bit computing|64-bit]] PoP SoC manufactured by TSMC. Its first appearance was in the [[iPhone 6]] and [[iPhone 6 Plus]], which were introduced on September 9, 2014.&lt;ref name="Apple iPhone 6 PR"&gt;{{cite press release |url=https://www.apple.com/pr/library/2014/09/09Apple-Announces-iPhone-6-iPhone-6-Plus-The-Biggest-Advancements-in-iPhone-History.html |title=Apple Announces iPhone 6 &amp; iPhone 6 Plus—The Biggest Advancements in iPhone History |publisher=Apple |date=September 9, 2014 |accessdate=September 9, 2014}}&lt;/ref&gt; A year later it would drive the [[iPad Mini 4]]. Apple states that it has 25% more CPU performance and 50% more graphics performance while drawing only 50% of the power compared to its predecessor, the [[Apple A7]].&lt;ref name="Verge A8"&gt;{{cite news |last=Savov |first=Vlad |title=iPhone 6 and iPhone 6 Plus have a new faster A8 processor |url=https://www.theverge.com/2014/9/9/6127111/iphone-6-and-iphone-6-plus-have-a-new-faster-a8-processor |work=The Verge |publisher=Vox Media |date=September 9, 2014 |accessdate=September 9, 2014}}&lt;/ref&gt; On February 9, 2018 Apple released the HomePod, which is powered by an Apple A8 with 1 GB of RAM.&lt;ref&gt;{{Cite news|url=https://www.ifixit.com/Teardown/HomePod++Teardown/103133|title=HomePod Teardown|date=2018-02-12|work=iFixit|access-date=2018-02-13|language=en}}&lt;/ref&gt;
+
+The A8 features an Apple-designed 1.4&lt;ref name="A8’s CPU: What Comes After Cyclone?"/&gt;&amp;nbsp;GHz 64-bit&lt;ref name="A8: Apple’s First 20nm SoC"/&gt; [[ARMv8|ARMv8-A]]&lt;ref name="A8: Apple’s First 20nm SoC"/&gt; dual-core CPU, and an integrated custom [[PowerVR#Series 6XT|PowerVR GX6450]] GPU in a four cluster configuration.&lt;ref name="A8’s CPU: What Comes After Cyclone?"/&gt; The GPU features custom shader cores and compiler designed by Apple.&lt;ref name=":0"&gt;{{Cite web|url=https://www.realworldtech.com/apple-custom-gpu/|title=A Look Inside Apple’s Custom GPU for the iPhone|last=Kanter|first=David|language=en-US|access-date=2019-08-27}}&lt;/ref&gt; The A8 is manufactured on a 20&amp;nbsp;nm process&lt;ref name="AnandTech-Apple-Announces-A8"&gt;{{cite web |last=Smith |first=Ryan |url=http://www.anandtech.com/show/8504/apple-announces-a8-soc |title=Apple Announces A8 SoC |publisher=AnandTech |date=September 9, 2014 |accessdate=September 9, 2014}}&lt;/ref&gt; by [[TSMC]],&lt;ref name="Chipworks-iPhone6"&gt;{{cite web|url=http://www.chipworks.com/en/technical-competitive-analysis/resources/blog/inside-the-iphone-6-and-iphone-6-plus/|title=Inside the iPhone 6 and iPhone 6 Plus|publisher=Chipworks|date=September 19, 2014|accessdate=September 20, 2014|archive-url=https://web.archive.org/web/20140924015413/http://www.chipworks.com/en/technical-competitive-analysis/resources/blog/inside-the-iphone-6-and-iphone-6-plus/|archive-date=September 24, 2014|url-status=dead}}&lt;/ref&gt; which replaced [[Samsung]] as the manufacturer of Apple's mobile device processors. It contains 2 billion transistors. Despite that being double the number of transistors compared to the A7, its physical size has been reduced by 13% to 89&amp;nbsp;mm&lt;sup&gt;2&lt;/sup&gt; (consistent with a shrink only, not known to be a new microarchitecture).&lt;ref name="extremetech"&gt;{{cite web|last1=Anthony|first1=Sebastian|title=Apple’s A8 SoC analyzed: The iPhone 6 chip is a 2-billion-transistor 20nm monster|url=http://www.extremetech.com/computing/189787-apples-a8-soc-analyzed-the-iphone-6-chip-is-a-2-billion-transistor-20nm-monster|website=www.extremetech.com|publisher=ExtremeTech|accessdate=September 10, 2014}}&lt;/ref&gt;
+
+=== Apple A8X ===
+{{Main|Apple A8X}}
+The '''Apple A8X''' is a [[64-bit computing|64-bit]] SoC introduced at the launch of the [[iPad Air 2]] on October 16, 2014.&lt;ref name="Apple iPad Air 2 PR"&gt;{{cite press release |url=https://www.apple.com/pr/library/2014/10/16Apple-Introduces-iPad-Air-2-The-Thinnest-Most-Powerful-iPad-Ever.html |title=Apple Introduces iPad Air 2—The Thinnest, Most Powerful iPad Ever |publisher=Apple |date=October 16, 2014 |accessdate=October 16, 2014}}&lt;/ref&gt; It is a high performance variant of the [[Apple A8]]. Apple states that it has 40% more CPU performance and 2.5 times the graphics performance of its predecessor, the [[Apple A7]].&lt;ref name="Apple iPad Air 2 PR" /&gt;&lt;ref name="Apple Performance"&gt;{{cite web |url=https://www.apple.com/ipad-air-2/performance/ |title=iPad Air 2 - Performance |publisher=[[Apple Inc.|Apple]] |date=October 16, 2014 |accessdate=October 16, 2014}}&lt;/ref&gt;
+
+Unlike the A8, this SoC uses a [[triple-core]] [[Central processing unit|CPU]], a new [[octa-core]] [[Graphics processing unit|GPU]], [[Dual channel memory architecture|dual channel memory]] and slightly higher 1.5&amp;nbsp;GHz CPU clock rate.&lt;ref name="Apple A8X's GPU"/&gt; It uses an integrated custom octa-core [[PowerVR]] GXA6850 [[graphics processing unit]] (GPU) running at 450&amp;nbsp;MHz and a dual-channel [[Memory controller|memory subsystem]].&lt;ref name="Apple A8X's GPU"/&gt; It is manufactured by [[TSMC]] on their 20&amp;nbsp;nm fabrication process, and consists of 3 billion [[Transistor count|transistors]].
+
+=== Apple A9 ===
+{{Main|Apple A9}}
+The '''Apple A9''' is a [[64-bit computing|64-bit]] [[ARMv8-A|ARM-based]] SoC that first appeared in the [[iPhone 6S]] and 6S Plus, which were introduced on September 9, 2015.&lt;ref name="Apple iPhone 6S PR"&gt;{{cite press release |url=https://www.apple.com/pr/library/2015/09/09Apple-Introduces-iPhone-6s-iPhone-6s-Plus.html |title=Apple Introduces iPhone 6s &amp; iPhone 6s Plus |publisher=Apple |date=September 9, 2015 |accessdate=September 9, 2015}}&lt;/ref&gt; Apple states that it has 70% more CPU performance and 90% more graphics performance compared to its predecessor, the [[Apple A8]].&lt;ref name="Apple iPhone 6S PR" /&gt; It is dual sourced, a first for an Apple SoC; it is manufactured by Samsung on their 14&amp;nbsp;nm FinFET LPE process and by TSMC on their 16&amp;nbsp;nm FinFET process. It was subsequently included in the [[iPhone SE (1st generation)|first-generation iPhone SE]], and the [[iPad (2017)]].
+
+=== Apple A9X ===
+{{Main|Apple A9X}}
+The '''Apple A9X''' is a [[64-bit computing|64-bit]] SoC that was announced on September 9, 2015, and released on November 11, 2015, and first appeared in the [[iPad Pro]].&lt;ref name="Apple iPad Pro PR"&gt;{{cite press release |url=https://www.apple.com/pr/library/2015/09/09Apple-Introduces-iPad-Pro-Featuring-Epic-12-9-inch-Retina-Display.html |title=Apple Introduces iPad Pro Featuring Epic 12.9-inch Retina Display |publisher=Apple |date=September 9, 2015 |accessdate=September 9, 2015}}&lt;/ref&gt; It offers 80% more CPU performance and two times the GPU performance of its predecessor, the [[Apple A8X]]. It is manufactured by [[TSMC]] using a [[16 nm]] [[FinFET]] process.&lt;ref name="ArsTechnica iPad Pro"&gt;{{cite web|title=Apple’s new iPad Pro is an expansive 12.9 inches, available in November|url=https://arstechnica.com/apple/2015/09/apples-new-ipad-2-pro-is-an-expansive-12-9-inches/|website=Ars Technica|accessdate=9 September 2015}}&lt;/ref&gt;
+
+=== Apple A10 Fusion ===
+{{Main|Apple A10}}
+The '''Apple A10 Fusion''' is a [[64-bit computing|64-bit]] [[ARMv8-A|ARM-based]] SoC that first appeared in the [[iPhone 7]] and 7 Plus, which were introduced on September 7, 2016.&lt;ref name="Apple iPhone 7 PR"&gt;{{cite press release |url=https://www.apple.com/pr/library/2016/09/07Apple-Introduces-iPhone-7-iPhone-7-Plus-The-Best-Most-Advanced-iPhone-Ever.html |title=Apple Introduces iPhone 7 &amp; iPhone 7 Plus —The Best, Most Advanced iPhone Ever |publisher=[[Apple Inc.]] |date=September 7, 2016 |accessdate=September 16, 2016}}&lt;/ref&gt; The A10 is also featured in the [[iPad (2018)|2018 iPad]], [[iPad (2019)|2019 iPad]] and [[iPod Touch (7th generation)|7th generation iPod Touch]].&lt;ref&gt;{{Cite web|url=https://www.apple.com/ipod-touch/|title=iPod touch|website=Apple|language=en-US|access-date=2019-08-15}}&lt;/ref&gt; It has a new quad core design with two high performance cores, and two smaller highly efficient cores. It is 40% faster than the A9, with 50% faster graphics. It is made by TSMC on their 16&amp;nbsp;nm FinFET process.
+
+=== Apple A10X Fusion ===
+{{Main|Apple A10X}}
+The '''Apple A10X Fusion''' is a [[64-bit computing|64-bit]] [[ARMv8-A|ARM-based]] SoC that first appeared in the 10.5" [[iPad Pro]] and the second generation of the 12.9" iPad Pro, which were both announced on June 5, 2017.&lt;ref name="Apple iPad Pro 10.5 PR"&gt;{{cite press release |url=https://www.apple.com/newsroom/2017/06/ipad-pro-10-5-and-12-9-inch-models-introduces-worlds-most-advanced-display-breakthrough-performance/ |title=iPad Pro, in 10.5-inch and 12.9-inch models, introduces the world’s most advanced display and breakthrough performance |publisher=[[Apple Inc.]] |date=June 5, 2017 |accessdate=June 5, 2017}}&lt;/ref&gt; It is a variant of the [[Apple A10|A10]] and Apple claims that it has 30 percent faster CPU performance and 40 percent faster GPU performance than its predecessor, the [[Apple A9X|A9X]].&lt;ref name="Apple iPad Pro 10.5 PR" /&gt; On September 12, 2017, Apple announced that the [[Apple TV 4K]] would be powered by an A10X chip. It is made by TSMC on their 10&amp;nbsp;nm FinFET process.&lt;ref name="TechInsights-A10X"&gt;{{cite web |last=Wei |first=Andy |url=http://www.techinsights.com/about-techinsights/overview/blog/10nm-rollout-marching-right-along/ |title=10 nm Process Rollout Marching Right Along |publisher=TechInsights |date=June 29, 2017 |accessdate=June 30, 2017 |archive-url=https://web.archive.org/web/20170803141307/http://www.techinsights.com/about-techinsights/overview/blog/10nm-rollout-marching-right-along/ |archive-date=August 3, 2017 |url-status=dead }}&lt;/ref&gt;
+
+=== Apple A11 Bionic ===
+{{Main|Apple A11}}
+The '''Apple A11 Bionic''' is a [[64-bit computing|64-bit]] [[ARMv8-A|ARM-based]] SoC &lt;ref name="Apple iPhone 8 PR"&gt;{{cite press release |url=https://www.apple.com/newsroom/2017/09/iphone-8-and-iphone-8-plus-a-new-generation-of-iphone/ |title=iPhone 8 and iPhone 8 Plus: A new generation of iPhone |publisher=[[Apple Inc.]] |date=September 12, 2017 |accessdate= September 12, 2017}}&lt;/ref&gt; that first appeared in the [[iPhone 8]], iPhone 8 Plus, and [[iPhone X]] which were introduced on September 12, 2017.&lt;ref name="Apple iPhone 8 PR" /&gt; It has two high-performance cores which are 25% faster than the [[Apple A10|A10 Fusion]] and four high-efficiency cores which are 70% faster than the energy-efficient cores in the A10.&lt;ref name="Apple iPhone 8 PR" /&gt;&lt;ref name="iPhone 8 A11"&gt;{{cite web|url=https://www.apple.com/iphone-8/#a11 |title=iPhone 8:A11 Bionic |publisher=[[Apple Inc.]] |date=September 12, 2017 |access-date= September 12, 2017}}&lt;/ref&gt;
+
+=== Apple A12 Bionic ===
+{{Main|Apple A12}}
+The '''Apple A12 Bionic''' is a [[64-bit computing|64-bit]] [[ARM architecture|ARM-based]] SoC that first appeared in the [[iPhone XS]], [[iPhone XS|XS Max]] and [[iPhone XR|XR]] which were introduced on September 12, 2018. It is also within the 2019 models of the [[iPad Air]] and [[iPad Mini]]. It has two high-performance cores which are 15% faster than the A11 Bionic and four high-efficiency cores which are 50% lower power usage than the energy-efficient cores in the A11 Bionic.&lt;ref name="Apple A12 Bionic"&gt;{{cite web|url=https://www.apple.com/iphone-xs/a12-bionic/ |title=A12 Bionic |publisher=[[Apple Inc.]] |date=September 12, 2018 |access-date= November 22, 2018}}&lt;/ref&gt; The A12 is manufactured by [[TSMC]]&lt;ref name="Engadget 7nm" /&gt; using a [[7 nanometer|7&amp;nbsp;nm]]&lt;ref name="Apple iPhone XS PR"&gt;{{cite press release |url=https://www.apple.com/newsroom/2018/09/iphone-xs-and-iphone-xs-max-bring-the-best-and-biggest-displays-to-iphone/ |title=iPhone Xs and iPhone Xs Max bring the best and biggest displays to iPhone |publisher=[[Apple Inc.]] |date=September 12, 2018 |accessdate= September 12, 2018}}&lt;/ref&gt; [[FinFET]] process, the first to ship in a smartphone.&lt;ref name="AnandTech iPhone XS"&gt;{{cite web |last=Smith |first=Ryan |url=https://www.anandtech.com/show/13360/apple-announces-2018-iphones-iphone-xs-xr |title=Apple Announces the 2018 iPhones: iPhone XS, iPhone XS Max, &amp; iPhone XR |work=[[AnandTech]] |date=September 12, 2018 |accessdate=September 12, 2018}}&lt;/ref&gt;&lt;ref name="Engadget 7nm"&gt;{{cite web |last=Summers |first=Nick |url=https://www.engadget.com/2018/09/12/apple-a12-bionic-7-nanometer-chip/ |title=Apple's A12 Bionic is the first 7-nanometer smartphone chip |work=[[Engadget]] |date=September 12, 2018 |accessdate=September 12, 2018}}&lt;/ref&gt;
+
+=== Apple A12X Bionic ===
+{{Main|Apple A12X}}
+The '''Apple A12X Bionic''' is a [[64-bit computing|64-bit]] [[ARM architecture|ARM-based]] SoC that first appeared in the 11.0" [[iPad Pro]] and the third generation of the 12.9" iPad Pro, which were both announced on October 30, 2018.&lt;ref&gt;{{Cite press release|url=https://www.apple.com/newsroom/2018/10/new-ipad-pro-with-all-screen-design-is-most-advanced-powerful-ipad-ever/|title=New iPad Pro with all-screen design Is most advanced, powerful iPad ever|date=October 30, 2018|publisher=Apple}}&lt;/ref&gt; It offers 35% faster single-core and 90% faster multi-core CPU performance than its predecessor, the A10X. It has four high-performance cores and four high-efficiency cores. The A12X is manufactured by [[TSMC]] using a [[7 nanometer|7&amp;nbsp;nm]] [[FinFET]] process, the first to ship in a tablet.
+
+=== Apple A12Z Bionic ===
+{{Main|Apple A12Z}}
+The '''Apple A12Z Bionic''' is a [[64-bit computing|64-bit]] [[ARM architecture|ARM-based]] SoC based on the A12X that first appeared in the second 11.0" and the fourth generation of the 12.9" [[iPad Pro]] which were both announced on March 18, 2020.&lt;ref&gt;{{Cite web|url=https://9to5mac.com/2020/03/18/apple-unveils-new-ipad-pro-with-magic-keyboard-case-available-to-order-today/|title=Apple unveils new iPad Pro with backlit Magic Keyboard case, available to order today|last=Miller|first=Chance|date=2020-03-18|website=9to5Mac|language=en-US|access-date=2020-03-18}}&lt;/ref&gt;
+
+=== Apple A13 Bionic ===
+{{Main|Apple A13 Bionic}}
+The '''Apple A13 Bionic''' is a [[64-bit computing|64-bit]] [[ARM architecture|ARM-based]] SoC that first appeared in the [[iPhone 11]], [[iPhone 11 Pro|11 Pro]], and [[iPhone 11 Pro Max|11 Pro Max]] which were introduced on September 10, 2019. It is also featured in the [[iPhone SE (2nd generation)|second-generation iPhone SE]] which was introduced on April 15, 2020.
+
+== S series ==
+The Apple "S" series is a family of [[System in package|Systems in Package (SiP)]] used in the [[Apple Watch]]. It uses a customized [[Central processing unit|application processor]] that together with [[Random-access memory|memory]], [[Flash memory|storage]] and support processors for wireless connectivity, sensors and [[I/O]] comprise a complete computer in a single package. They are designed by Apple, and manufactured by contract manufacturers such as [[Samsung]].
+
+=== Apple S1 ===
+{{Main|Apple S1}}
+The '''Apple S1''' is an integrated computer designed by Apple. It includes memory, storage and support circuits like [[wireless modem]]s and I/O controllers in a sealed integrated package. It was announced on September 9, 2014 as part of the "Wish we could say more" event. Its first appearance was in the original [[Apple Watch]].&lt;ref&gt;{{cite web|url=http://www.technobuffalo.com/2014/09/09/apple-watch-uses-a-new-s1-chip-heart-rate-monitor/|title=Apple Watch Uses a New S1 Chip &amp; Heart Rate Monitor|first=Jacob |last=Kleinman|date=September 9, 2014}}&lt;/ref&gt;
+
+=== Apple S1P ===
+Used in [[Apple Watch Series 1]]. It has a dual-core processor almost identical to the S2, with the exception of the built-in [[GPS receiver]].
+
+=== Apple S2 ===
+{{Main|Apple S2}}
+Used in the [[Apple Watch Series 2]]. It has a dual-core processor and a built-in GPS receiver.
+
+=== Apple S3 ===
+{{Main|Apple S3}}
+Used in the [[Apple Watch Series 3]]. It has a dual-core processor that is 70% faster than the Apple S2 and a built-in GPS receiver.&lt;ref name="apple-watch-series-3-pr"&gt;{{cite press release|url=https://www.apple.com/newsroom/2017/09/apple-watch-series-3-features-built-in-cellular-and-more/|title=Apple Watch Series 3 brings built-in cellular, powerful new health and fitness enhancements|date=September 12, 2017|publisher=[[Apple Inc.]]}}&lt;/ref&gt; There is also an option for a cellular modem and an internal [[eSIM]] module.&lt;ref name="apple-watch-series-3-pr"/&gt; It also includes the W2 chip.&lt;ref name="apple-watch-series-3-pr"/&gt;
+
+=== Apple S4 ===
+{{Main|Apple S4}}
+Used in the [[Apple Watch Series 4]]. It has an Apple designed custom 64-bit dual-core processor with up to 2× faster performance. It also contains the W3 wireless chip, which supports [[Bluetooth 5]].
+
+=== Apple S5 ===
+Used in the [[Apple Watch Series 5]]. It has the same Apple designed custom 64-bit dual-core processor and GPU as the S4,&lt;ref&gt;{{Cite web|url=https://twitter.com/stroughtonsmith/status/1174376928758968320|title=According to Xcode, Apple Watch Series 5 has the same generation CPU/GPU as the Apple Watch Series 4; I guess the only changes are a gyro and 32GB of NAND? The plus side of that is that we won't have to worry about watchOS being slower on the Series 4 than on a brand new model|last=Troughton-Smith|first=Steve|date=2019-09-18|website=@stroughtonsmith|language=en|access-date=2019-09-19}}&lt;/ref&gt; with the exception of the built-in [[magnetometer]].
+
+== T series ==
+=== Apple T1 ===
+The Apple T1 chip is an [[ARMv7]] SoC from Apple driving the [[System Management Controller]] (SMC) and [[Touch ID]] sensor of the [[MacBook Pro#Fourth generation|2016 and 2017 MacBook Pro with Touch Bar]].&lt;ref&gt;{{cite news|last1=Smith|first1=Ryan|title=Apple Announces 4th Generation MacBook Pro Family: Thinner, Lighter, with Thunderbolt 3 &amp; "Touchbar"|url=http://www.anandtech.com/show/10799/apple-announces-4th-generation-macbook-pro-family-thinner-lighter-with-thunderbolt-3-touch-bar|accessdate=27 October 2016|publisher=[[Anandtech]]|date=27 October 2016}}&lt;/ref&gt; This chip operates as a secure enclave for the processing and encryption of fingerprints as well as acting as a gatekeeper to the microphone and FaceTime HD camera protecting these possible targets from potential hacking attempts. The T1 runs bridgeOS,&lt;ref name=arswatchosvariant /&gt; a variant of [[watchOS]],&lt;ref name=arswatchosvariant /&gt; separate from the [[Intel]] CPU running [[macOS]].&lt;ref name=arswatchosvariant&gt;{{cite news|last1=Cunningham|first1=Andrew|title=15 hours with the 13" MacBook Pro, and how Apple’s T1 bridges ARM and Intel|url=https://arstechnica.com/apple/2016/10/15-hours-with-the-13-macbook-pro-and-how-apples-t1-bridges-arm-and-intel/|accessdate=4 December 2018|publisher=[[Ars Technica]]|date=28 October 2016}}&lt;/ref&gt;
+
+=== Apple T2 ===
+The Apple T2 chip is a SoC from Apple first released in the [[iMac Pro|iMac Pro 2017]]. It is a 64-bit ARMv8 chip (a variant of the A10, or T8010), and runs a separate operating system called bridgeOS 2.0,&lt;ref&gt;{{cite web |last=Parrish |first=Kevin |title=Apple’s T2 chip may be causing issues in iMac Pro and 2018 MacBook Pros |url= https://www.digitaltrends.com/computing/apple-t2-chip-may-be-causing-imac-pro-macbook-problems/ |website=[[DigitalTrends]] |accessdate=22 January 2019 |archiveurl= https://web.archive.org/web/20180918223447/https://www.digitaltrends.com/computing/apple-t2-chip-may-be-causing-imac-pro-macbook-problems/ |archivedate=18 September 2018 |date=24 July 2018 |quote=Of all the error messages uploaded to these threads, there is one detail they seem to share: Bridge OS. This is an embedded operating system used by Apple’s stand-alone T2 security chip, which provides the iMac Pro with a secure boot, encrypted storage, live “Hey Siri” commands, and so on.}}&lt;/ref&gt; which is a watchOS derivative.&lt;ref&gt;{{cite tweet |user= stroughtonsmith |number= 791790949131231233 |date= 27 October 2016 |title= And there you have it. Apple's T1 chip runs an iOS (technically watchOS for armv7k) variant |last= Troughton-Smith |first= Steven }}&lt;/ref&gt; It provides a secure enclave for encrypted keys, gives users the ability to lock down the computer's boot process, handles system functions like the camera and audio control, and handles on-the-fly encryption and decryption for the [[solid-state drive]].&lt;ref&gt;{{cite web|url= https://www.macrumors.com/2017/12/14/imac-pro-has-t2-chip-with-secure-boot/|title=iMac Pro Features Apple's Custom T2 Chip With Secure Boot Capabilities|website=[[MacRumors]]|date=14 December 2017}}&lt;/ref&gt;&lt;ref&gt;{{cite web|url= https://www.computerworld.com/article/3290415/apple-mac/the-macbook-pro-s-t2-chip-boosts-enterprise-security.html|title=The MacBook Pro’s T2 chip boosts enterprise security|first=Jonny|last=Evans|publisher=[[ComputerWorld]]}}&lt;/ref&gt;&lt;ref&gt;{{cite web|url=https://www.macworld.com/article/3245764/macs/the-t2-chip-makes-the-imac-pro-the-start-of-a-mac-revolution.html|title=The T2 chip makes the iMac Pro the start of a Mac revolution|publisher=[[Macworld]]}}&lt;/ref&gt; T2 also delivers "enhanced imaging processing" for the iMac Pro's [[FaceTime|FaceTime HD]] camera.&lt;ref&gt;{{Cite web|url= http://appleinsider.com/articles/17/12/12/imac-pro-debuts-custom-apple-t2-chip-to-handle-secure-boot-password-encryption-more/| title=iMac Pro debuts custom Apple T2 chip to handle secure boot, password encryption, more|website=[[AppleInsider]]|access-date=14 December 2017|date=12 December 2017}}&lt;/ref&gt;&lt;ref&gt;{{cite web|url=https://appleinsider.com/articles/18/08/08/everything-you-need-to-know-about-apples-t2-chip-in-the-2018-macbook-pro|title=Everything you need to know about Apple's T2 chip in the 2018 MacBook Pro|website=[[AppleInsider]]|date=8 August 2018}}&lt;/ref&gt; On July 12, 2018, Apple released an updated [[MacBook Pro]] that includes the T2 chip, which among other things enables the [[Siri#Features and options|"Hey Siri" feature]].&lt;ref&gt;{{cite web |last1=Rossignol |first1=Joe |title=Apple Launches 2018 MacBook Pros: 8th Gen Core, Up to 32GB of RAM, Third-Gen Keyboard, Quad-Core on 13-Inch and More |date=12 July 2018 |url=https://www.macrumors.com/2018/07/12/apple-launches-2018-macbook-pro-lineup/ |website=[[MacRumors]] |accessdate=12 July 2018 |language=en}}&lt;/ref&gt;&lt;ref&gt;{{cite web|url= https://www.apple.com/newsroom/2018/07/apple-updates-macbook-pro-with-faster-performance-and-new-features-for-pros/|title=Apple updates MacBook Pro with faster performance and new features for pros|publisher=[[Apple Inc.]]}}&lt;/ref&gt; On November 7, 2018, Apple released an updated [[Mac mini]] and [[MacBook Air]] with the T2 chip.&lt;ref&gt;{{cite web |last1=Broussard |first1=Mitchel |title=Apple Announces New MacBook Air With 13-Inch Retina Display and Touch ID |url=https://www.macrumors.com/2018/10/30/apple-new-macbook-air/|website=[[MacRumors]] |date=30 October 2018 |accessdate=30 October 2018 |language=en}}&lt;/ref&gt;&lt;ref&gt;{{cite web |last1=Hardwick |first1=Tim |title=Apple Announces New Space Gray Mac mini With 4-Core or 6-Core Intel Processor and Up to 64GB RAM, Starting at $799 |url=https://www.macrumors.com/2018/10/30/apple-announces-new-mac-mini/ |website=[[MacRumors]] |date=30 October 2018 |accessdate=30 October 2018 |language=en}}&lt;/ref&gt;
+
+== W series ==
+The Apple "W" series is a family of [[system on a chip|"System on Chip" (SoC)]] and wireless chips with a focus on Bluetooth and Wi-Fi connectivity.
+
+=== Apple W1 ===
+The Apple W1 is a SoC from Apple used in the 2016 [[AirPods]] and select [[Beats Electronics|Beats headphones]].&lt;ref name="forbes-w1"&gt;{{cite web |url= https://www.forbes.com/sites/aarontilley/2016/09/07/apple-creates-its-first-wireless-chip-for-new-airpods/#19a1b3db7240 |title= Apple Creates Its First Wireless Chip For New Wireless Headphones, AirPods |first= Aaron |last= Tilley |work=[[Forbes]] }}&lt;/ref&gt;&lt;ref name="macrumors-w1-beats"&gt;{{cite web |url= http://www.macrumors.com/2016/09/07/beats-by-dre-w1-chip/ |title= Apple Announces New Line of Beats Headphones With W1 Wireless Chip |work=[[MacRumors]] }}&lt;/ref&gt; It maintains a [[Bluetooth]]&lt;ref name="recode-w1"&gt;{{cite web |url= http://www.recode.net/2016/9/7/12841136/apple-airpods-do-use-bluetooth |title= Apple’s AirPods do use Bluetooth and they don’t require an iPhone 7 |work=[[Recode]] }}&lt;/ref&gt; [[Bluetooth#Uses|Class 1]] connection with a computer device and decodes the audio stream that is sent to it.&lt;ref name="Apple-airpods"&gt;{{cite web |url= https://www.apple.com/airpods/ |title= AirPods |publisher=[[Apple Inc.]] }}&lt;/ref&gt;
+
+===Apple W2===
+The Apple W2 is used in the [[Apple Watch Series 3]]. It is integrated into the [[Apple S3]] SiP. Apple released that the implementation of the chip makes Wi-Fi 85% faster and Bluetooth and Wi-Fi 50% more power efficient than the previous model's chip design.&lt;ref name="apple-watch-series-3-pr"/&gt;
+
+===Apple W3===
+The Apple W3 is used in the [[Apple Watch Series 4]]&lt;ref&gt;{{Cite web |url= https://www.apple.com/apple-watch-series-4/ |title= Apple Watch Series 4 |publisher=[[Apple Inc.]] |language= en-US |access-date= 2018-09-13 }}&lt;/ref&gt; and [[Apple Watch Series 5|Series 5]].&lt;ref&gt;{{Cite web |url= https://www.apple.com/watch/compare/ |title= Apple Watch - Compare Models |publisher=[[Apple Inc.]] |language= en-US |access-date= 2018-09-13 }}&lt;/ref&gt; It is integrated into the [[Apple S4]] and [[Apple S5]] SiPs. It supports Bluetooth 5.0.
+
+== H series ==
+=== Apple H1 ===
+The Apple H1 chip was first used in the 2019 version of AirPods, and was later used in the Powerbeats Pro, the Beats Solo Pro, and the AirPods Pro.&lt;ref&gt;{{cite web |last= Mayo |first= Benjamin |title=New Apple AirPods now available: H1 chip, wireless charging case, hands-free Hey Siri |url= https://9to5mac.com/2019/03/20/new-apple-airpods-now-available-h1-chip-wireless-charging-case-hands-free-hey-siri/ |website=[[9to5Mac]] |accessdate= March 20, 2019 }}&lt;/ref&gt; Specifically designed for headphones, it has Bluetooth 5.0, supports hands-free "Hey Siri" commands, and offers 30 percent lower latency compared to the W1 chip in the prior version of AirPods.&lt;ref&gt;{{Cite web |url= https://www.apple.com/newsroom/2019/03/airpods-the-worlds-most-popular-wireless-headphones-are-getting-even-better/ |title= AirPods, the world’s most popular wireless headphones, are getting even better |work=[[Apple Newsroom]] |publisher=[[Apple Inc.]] |language= en-US |access-date= 2019-03-21 }}&lt;/ref&gt;
+
+== U series ==
+=== Apple U1 ===
+The Apple U1 chip, introduced in the 2019 iPhones, uses [[Ultra Wideband]] technology for spatial awareness functions such as an improved, spatially-aware [[AirDrop]].&lt;ref&gt;{{cite web|url=https://sixcolors.com/post/2019/09/the-u1-chip-in-the-iphone-11-is-the-beginning-of-an-ultra-wideband-revolution/|title=The U1 chip in the iPhone 11 is the beginning of an Ultra Wideband revolution|author=Jason Snell|authorlink=Jason Snell|date=September 13, 2019|website=Six Colors}}&lt;/ref&gt;&lt;ref&gt;{{cite web|url=https://www.pocket-lint.com/phones/news/apple/149336-how-apple-s-u1-chip-adds-amazing-new-capabilities-to-the-iphone|title=How Apple's U1 chip adds 'amazing' new capabilities to the iPhone|author=Maggie Tillman|date=September 11, 2019|website=Pocket-lint}}&lt;/ref&gt;&lt;ref&gt;{{cite web|url=https://www.wired.com/story/apple-u1-chip/|title=The Biggest iPhone News Is a Tiny New Chip Inside It|author=Brian Barrett|date=September 12, 2019|website=[[Wired (magazine)|Wired]]}}&lt;/ref&gt;
+
+==List of Apple processors==
+===A series list===
+{| class="wikitable"
+|-
+! Name !! Model no. !! Image !! [[Semiconductor device fabrication|Semiconductor technology]] !! [[Die (integrated circuit)|Die size]] 
+!Transistor count!! CPU [[Instruction set|ISA]]!! [[CPU]] !! [[CPU cache]] !! [[Graphics processing unit|GPU]] 
+![[AI accelerator]]!! Memory technology !! Introduced !! Utilizing devices !! Initial OS !! Terminal OS
+|-
+| &lt;!-- Could be referred referred to as "A1" though it is not labelled as such --&gt;
+| APL0098&lt;!-- 8900B; Sometimes also referred to as S5L8900 --&gt;
+| [[File:S5L8900.jpg|100px]]
+| [[90 nanometer|90&amp;nbsp;nm]]&lt;ref name="AnandTech3GS-EnterCortexA8"&gt;{{cite web |first=Anand |last=Lal Shimpi |url=http://www.anandtech.com/show/2782/2 |title=The iPhone 3GS Hardware Exposed &amp; Analyzed |publisher=[[AnandTech]] |date= June 10, 2009 |accessdate=September 13, 2013}}&lt;/ref&gt;&lt;!-- 3GS review mentions process size of 3G --&gt;
+| 72&amp;nbsp;mm&lt;sup&gt;2&lt;/sup&gt;&lt;ref name="EETimes-A4" /&gt;&lt;!-- Chart in A4 analysis has die size of APL0098 --&gt;
+|
+| [[ARM architecture|ARMv6]]
+| 412&amp;nbsp;MHz [[single-core]] [[ARM11]]
+| L1i:&amp;nbsp;16&amp;nbsp;KB&lt;br/&gt;L1d:&amp;nbsp;16&amp;nbsp;KB
+| [[PowerVR]] [[List of PowerVR products|MBX Lite]]
+| rowspan=20 {{n/a}}
+| [[16-bit]] [[Single-channel architecture|Single-channel]] 133&amp;nbsp;MHz [[Mobile DDR|LPDDR]] (533&amp;nbsp;MB/s)&lt;ref name="AnandTech-4S"&gt;{{cite web |first1=Anand |last1=Lal Shimpi |first2=Brian |last2=Klug |url=http://www.anandtech.com/show/4971/apple-iphone-4s-review-att-verizon/5 |title=Apple iPhone 4S: Thoroughly Reviewed - The Memory Interface |publisher=[[AnandTech]] |date= October 31, 2011 |accessdate=September 15, 2013}}&lt;/ref&gt;
+| June 2007
+| 
+* {{nowrap|[[iPhone (1st generation)|iPhone (1st gen.)]]}}
+* {{nowrap|[[iPod Touch|iPod Touch (1st gen.)]]}}
+* {{nowrap|[[iPhone 3G]]}}
+|
+|
+|-
+| &lt;!-- Could be referred referred to as "A2" though it is not labelled as such --&gt;
+| APL0278&lt;!-- APL0278A00; Sometimes also referred to as S5L8720 --&gt;
+| [[File:S5L8720.jpg|100px]]
+| [[65 nanometer|65&amp;nbsp;nm]]&lt;ref name="EETimes-A4" /&gt;&lt;!-- Chart in A4 analysis has process size of APL0278 --&gt;
+| 36&amp;nbsp;mm&lt;sup&gt;2&lt;/sup&gt;&lt;ref name="EETimes-A4" /&gt;&lt;!-- Chart in A4 analysis has die size of APL0098 --&gt;
+|
+| [[ARM architecture|ARMv6]]
+| 412–533&amp;nbsp;MHz [[single-core]] [[ARM11]]
+| L1i:&amp;nbsp;16&amp;nbsp;KB&lt;br/&gt;L1d:&amp;nbsp;16&amp;nbsp;KB
+| [[PowerVR]] [[List of PowerVR products|MBX Lite]]
+| [[32-bit]] [[Single-channel architecture|Single-channel]] 133&amp;nbsp;MHz [[Mobile DDR|LPDDR]] (1066&amp;nbsp;MB/s)
+| September 2008
+| 
+* {{nowrap|[[iPod Touch|iPod Touch (2nd gen.)]]}}
+* {{nowrap|[[iPod Nano|iPod Nano (4th gen.)]]}}
+|
+|
+|-
+| rowspan=2 | &lt;!-- Sometimes referred to as "A3" though it is not labelled as such --&gt;
+| APL0298&lt;!-- Sometimes also referred to as S5L8920 --&gt;
+| [[File:S5L8920.jpg|100px]]
+| [[65 nanometer|65&amp;nbsp;nm]]&lt;ref name="AnandTech3GS-EnterCortexA8" /&gt;
+| 71.8&amp;nbsp;mm&lt;sup&gt;2&lt;/sup&gt;&lt;ref name="Chipworks-A4" /&gt;&lt;!-- Compares size of A4 to predecessor APL0298 --&gt;
+|
+| [[ARMv7]]
+| 600&amp;nbsp;MHz [[single-core]] [[ARM Cortex-A8|Cortex-A8]]
+| L1i:&amp;nbsp;32&amp;nbsp;KB&lt;br/&gt;L1d:&amp;nbsp;32&amp;nbsp;KB&lt;br/&gt;L2:&amp;nbsp;256&amp;nbsp;KB
+| [[PowerVR]] [[List of PowerVR products|SGX535]]
+| [[32-bit]] [[Single-channel architecture|Single-channel]] 200&amp;nbsp;MHz [[Mobile DDR|LPDDR]] (1.6&amp;nbsp;GB/s)
+| June 2009
+| 
+* {{nowrap|[[iPhone 3GS]]}}
+|
+|
+|-
+| APL2298&lt;!-- Sometimes also referred to as S5L8922 --&gt;
+| [[File:S5L8922.jpg|100px]]
+| [[45 nanometer|45&amp;nbsp;nm]]&lt;ref name="EETimes-A4" /&gt;&lt;!-- Chart in A4 analysis has process size of APL2298 --&gt;
+| 41.6&amp;nbsp;mm&lt;sup&gt;2&lt;/sup&gt;&lt;ref name="EETimes-A4" /&gt;&lt;!-- Chart in A4 analysis has die size of APL2298 --&gt;
+|
+| [[ARMv7]]
+| 600–800&amp;nbsp;MHz [[single-core]] [[ARM Cortex-A8|Cortex-A8]]
+| L1i:&amp;nbsp;32&amp;nbsp;KB&lt;br/&gt;L1d:&amp;nbsp;32&amp;nbsp;KB&lt;br/&gt;L2:&amp;nbsp;256&amp;nbsp;KB
+| [[PowerVR]] [[List of PowerVR products|SGX535]]
+| [[32-bit]] [[Single-channel architecture|Single-channel]] 200&amp;nbsp;MHz [[Mobile DDR|LPDDR]] (1.6&amp;nbsp;GB/s)
+| September 2009
+| 
+* {{nowrap|[[iPod Touch|iPod Touch (3rd gen.)]]}}
+|
+|
+|-
+| [[Apple A4|A4]]
+| APL0398&lt;!-- Sometimes also referred to as S5L8930 --&gt;
+| [[File:Apple A4 Chip.jpg|100px]]
+| [[45 nanometer|45&amp;nbsp;nm]]&lt;ref name="EETimes-A4" /&gt;&lt;ref name="Chipworks-A4" /&gt;
+| 53.3&amp;nbsp;mm&lt;sup&gt;2&lt;/sup&gt;&lt;ref name="EETimes-A4" /&gt;&lt;ref name="Chipworks-A4" /&gt;
+|
+| [[ARMv7]]
+| 0.8–1.0&amp;nbsp;GHz [[single-core]] [[ARM Cortex-A8|Cortex-A8]]
+| L1i:&amp;nbsp;32&amp;nbsp;KB&lt;br/&gt;L1d:&amp;nbsp;32&amp;nbsp;KB&lt;br/&gt;L2:&amp;nbsp;512&amp;nbsp;KB
+| [[PowerVR]] [[List of PowerVR products|SGX535]]&lt;ref&gt;{{cite web |url=http://www.ifixit.com/Teardown/Apple-A4-Teardown/2204/3 |title=conclusion from both hard and software analysis it uses an ARM Cortex-A8 core |publisher=Ifixit.com |first=Kyle |last=Wiens |date=2010-04-05 |accessdate=2010-04-15| archiveurl= https://web.archive.org/web/20100418145031/http://www.ifixit.com/Teardown/Apple-A4-Teardown/2204/3| archivedate=April 18, 2010 | url-status= live}}&lt;/ref&gt;
+| [[32-bit]] [[Multi-channel memory architecture|Dual-channel]] 200&amp;nbsp;MHz [[Mobile DDR|LPDDR]] (3.2&amp;nbsp;GB/s)
+| March 2010
+| 
+* {{nowrap|[[iPad (1st generation)|iPad (1st gen.)]]}}
+* {{nowrap|[[iPhone 4]]}}
+* {{nowrap|[[iPod Touch (4th generation)|iPod Touch (4th gen.)]]}}
+* {{nowrap|[[Apple TV|Apple TV (2nd gen.)]]}}
+|
+|
+|-
+| rowspan=3 | [[Apple A5|A5]]
+| APL0498&lt;!-- Sometimes also referred to as S5L8940 --&gt;
+| [[File:Apple A5 Chip.jpg|100px]]
+| [[45 nanometer|45&amp;nbsp;nm]]&lt;ref name="Chipworks-A5" /&gt;
+| 122.2&amp;nbsp;mm&lt;sup&gt;2&lt;/sup&gt;&lt;ref name="Chipworks-A5" /&gt;
+|
+| rowspan=3 | [[ARMv7]]
+| 0.8–1.0&amp;nbsp;GHz [[Multi-core processor|dual-core]] [[ARM Cortex-A9 MPCore|Cortex-A9]]
+| L1i:&amp;nbsp;32&amp;nbsp;KB&lt;br/&gt;L1d:&amp;nbsp;32&amp;nbsp;KB&lt;br/&gt;L2:&amp;nbsp;1&amp;nbsp;MB
+| [[PowerVR]] [[List of PowerVR products|SGX543MP2]] ([[Multi-core processor|dual-core]]) @&amp;nbsp;200&amp;nbsp;MHz (12.8&amp;nbsp;[[FLOPS|GFLOPS]])&lt;ref name="the-iphone-5-performance-preview"&gt;{{cite web|url=http://www.anandtech.com/show/6324/the-iphone-5-performance-preview|title=The iPhone 5 Performance Preview|publisher=[[AnandTech]]|date=Sep 2012|accessdate=October 24, 2012|first=Anand|last=Lal Shimpi}}&lt;/ref&gt;
+| [[32-bit]] [[Multi-channel memory architecture|Dual-channel]] 400&amp;nbsp;MHz [[Mobile DDR|LPDDR2]]-800 (6.4&amp;nbsp;GB/s)
+| March 2011
+|
+* {{nowrap|[[iPad 2]]}} (iPad2,1; iPad2,2; iPad2,3)
+* {{nowrap|[[iPhone 4S]]}}
+|
+|
+|-
+| APL2498&lt;!-- Sometimes also referred to as S5L8942 --&gt;
+| [[File:Apple-A5-APL2498.jpg|100px]]
+| [[32 nanometer|32&amp;nbsp;nm]] [[High-k dielectric|HK]][[Metal gate|MG]]&lt;ref name="Chipworks-A5R2" /&gt;
+| 69.6&amp;nbsp;mm&lt;sup&gt;2&lt;/sup&gt;&lt;ref name="Chipworks-A5R2" /&gt;
+|
+| 0.8–1.0&amp;nbsp;GHz [[Multi-core processor|dual-core]] [[ARM Cortex-A9 MPCore|Cortex-A9]] (''one core locked in [[Apple TV]]'')
+| L1i:&amp;nbsp;32&amp;nbsp;KB&lt;br/&gt;L1d:&amp;nbsp;32&amp;nbsp;KB&lt;br/&gt;L2:&amp;nbsp;1&amp;nbsp;MB
+| [[PowerVR]] [[List of PowerVR products|SGX543MP2]] ([[Multi-core processor|dual-core]]) @&amp;nbsp;200&amp;nbsp;MHz (12.8&amp;nbsp;[[FLOPS|GFLOPS]])&lt;ref name="the-iphone-5-performance-preview" /&gt;
+| [[32-bit]] [[Multi-channel memory architecture|Dual-channel]] 400&amp;nbsp;MHz [[Mobile DDR|LPDDR2]]-800 (6.4&amp;nbsp;GB/s)
+| March 2012
+|
+* {{nowrap|[[Apple TV|Apple TV (3rd gen.)]]}}
+* {{nowrap|[[iPad 2]]}} (iPad2,4)
+* {{nowrap|[[iPod Touch (5th generation)|iPod Touch (5th gen.)]]}}
+* {{nowrap|[[iPad Mini (1st generation)|iPad Mini (1st gen.)]]}}
+|
+|
+|-
+| APL7498&lt;!-- Sometimes also referred to as S5L8947 --&gt;
+| [[File:Apple-A5-APL7498.jpg|100px]]
+| [[32 nanometer|32&amp;nbsp;nm]] [[HKMG]]&lt;ref name="Chipworks-A5-singlecore" /&gt;
+| 37.8&amp;nbsp;mm&lt;sup&gt;2&lt;/sup&gt;&lt;ref name="Chipworks-A5-singlecore" /&gt;
+|
+| [[Single-core]] [[ARM Cortex-A9 MPCore|Cortex-A9]]
+| L1i:&amp;nbsp;32&amp;nbsp;KB&lt;br/&gt;L1d:&amp;nbsp;32&amp;nbsp;KB&lt;br/&gt;L2:&amp;nbsp;1&amp;nbsp;MB
+| [[PowerVR]] [[List of PowerVR products|SGX543MP2]] ([[Multi-core processor|dual-core]]) @&amp;nbsp;200&amp;nbsp;MHz (12.8&amp;nbsp;[[FLOPS|GFLOPS]])&lt;ref name="the-iphone-5-performance-preview" /&gt;
+| [[32-bit]] [[Multi-channel memory architecture|Dual-channel]] 400&amp;nbsp;MHz [[Mobile DDR|LPDDR2]]-800 (6.4&amp;nbsp;GB/s)
+| March 2013
+|
+* {{nowrap|[[Apple TV|Apple TV (3rd gen.)]]}} (AppleTV3,2)
+|
+|
+|-
+| [[Apple A5X|A5X]]
+| APL5498&lt;!-- Sometimes also referred to as S5L8945 --&gt;
+| [[File:Apple A5X Chip.jpg|100px]]
+| [[45 nanometer|45&amp;nbsp;nm]]&lt;ref name="Chipworks-A5X" /&gt;
+| 165&amp;nbsp;mm&lt;sup&gt;2&lt;/sup&gt;&lt;ref name="Chipworks-A5X" /&gt;
+|
+| [[ARMv7]]
+| 1.0&amp;nbsp;GHz [[Multi-core processor|dual-core]] [[ARM Cortex-A9 MPCore|Cortex-A9]]
+| L1i:&amp;nbsp;32&amp;nbsp;KB&lt;br/&gt;L1d:&amp;nbsp;32&amp;nbsp;KB&lt;br/&gt;L2:&amp;nbsp;1&amp;nbsp;MB
+| [[PowerVR]] [[List of PowerVR products|SGX543MP4]] ([[Multi-core processor|quad-core]]) @&amp;nbsp;200&amp;nbsp;MHz (25&amp;nbsp;[[FLOPS|GFLOPS]])&lt;ref name="the-iphone-5-performance-preview" /&gt;
+| [[32-bit]] [[Multi-channel memory architecture|Quad-channel]] 400&amp;nbsp;MHz [[Mobile DDR|LPDDR2]]-800&lt;ref&gt;{{cite web|url=http://www.anandtech.com/show/5688/apple-ipad-2012-review/12 |title=The Apple iPad Review (2012) |publisher=AnandTech |date= |accessdate=November 1, 2012}}&lt;/ref&gt; (12.8&amp;nbsp;GB/s)
+| March 2012
+|
+* {{nowrap|[[iPad (3rd generation)|iPad (3rd gen.)]]}}
+|
+|
+|-
+| [[Apple A6|A6]]
+| APL0598&lt;!-- Sometimes also referred to as S5L8950 --&gt;
+| [[File:Apple A6 Chip.jpg|100px]]
+| [[32 nanometer|32&amp;nbsp;nm]] [[HKMG]]&lt;ref name="Chipworks-A6" /&gt;&lt;ref name="A6Teardown"&gt;{{cite web |url=http://www.ifixit.com/Teardown/Apple-A6-Teardown/10528/ |title=Apple A6 Teardown |publisher=IFixit |date=September 25, 2012}}&lt;/ref&gt;
+| 96.71&amp;nbsp;mm&lt;sup&gt;2&lt;/sup&gt;&lt;ref name="Chipworks-A6" /&gt;&lt;ref name="A6Teardown" /&gt;
+|
+| [[ARMv7]]s&lt;ref name="armv7s"&gt;{{cite web|url=https://www.cocoanetics.com/2014/10/xcode-6-drops-armv7s/|title=Xcode 6 drops armv7s|publisher=Cocoanetics|date=October 10, 2014}}&lt;/ref&gt;
+| 1.3&amp;nbsp;GHz&lt;ref&gt;{{cite web|url=http://www.anandtech.com/show/6324/the-iphone-5-performance-preview |title=The iPhone 5 Performance Preview |publisher=AnandTech |date= |accessdate=November 1, 2012}}&lt;/ref&gt; [[Multi-core processor|dual-core]] [[Swift (microarchitecture)|Swift]]&lt;ref name="NotanA15"&gt;{{cite web|url=http://www.anandtech.com/show/6292/iphone-5-a6-not-a15-custom-core|title=The iPhone 5's A6 SoC: Not A15 or A9, a Custom Apple Core Instead|publisher=[[AnandTech]]|date=September 15, 2012|accessdate=September 15, 2012|first=Anand|last=Lal Shimpi}}&lt;/ref&gt;
+| L1i:&amp;nbsp;32&amp;nbsp;KB&lt;br/&gt;L1d:&amp;nbsp;32&amp;nbsp;KB&lt;br/&gt;L2:&amp;nbsp;1&amp;nbsp;MB&lt;ref name="GeekBenchA6"&gt;{{cite web|url=http://www.macrumors.com/2012/09/16/iphone-5-benchmarks-appear-in-geekbench-showing-dual-core-1ghz-a6-cpu/|title=iPhone 5 Benchmarks Appear in Geekbench Showing a Dual Core, 1GHz A6 CPU|publisher=}}&lt;/ref&gt;
+| [[PowerVR]] [[List of PowerVR products|SGX543MP3]] ([[Multi-core processor|triple-core]]) @&amp;nbsp;266&amp;nbsp;MHz (25.5&amp;nbsp;[[FLOPS|GFLOPS]])&lt;ref name="AnandTechDieShot"/&gt;
+| [[32-bit]] [[Multi-channel memory architecture|Dual-channel]] 533&amp;nbsp;MHz [[Mobile DDR|LPDDR2]]-1066&lt;ref&gt;{{cite web|url=http://www.anandtech.com/show/6297/iphone-5-memory-size-and-speed-revealed-1gb-lpddr21066|title=iPhone 5 Memory Size and Speed Revealed: 1&amp;nbsp;GB LPDDR2-1066|last1=Shimpi|first1=Anand Lal|authorlink1=Anand Lal Shimpi|last2=Klug|first2=Brian|date=September 15, 2012|publisher=[[AnandTech]]|accessdate=September 16, 2012}}&lt;/ref&gt; (8.528&amp;nbsp;GB/s)
+| September 2012
+|
+* {{nowrap|[[iPhone 5]]}}
+* {{nowrap|[[iPhone 5C]]}}
+|
+|
+|-
+| [[Apple A6X|A6X]]
+| APL5598&lt;!-- Sometimes also referred to as S5L8955 --&gt;
+|[[File:Apple A6X chip.jpg|100px]]
+| [[32 nanometer|32&amp;nbsp;nm]] [[HKMG]]&lt;ref name="Chipworks-A6X" /&gt;
+| 123&amp;nbsp;mm&lt;sup&gt;2&lt;/sup&gt;&lt;ref name="Chipworks-A6X" /&gt;
+|
+| [[ARMv7]]s&lt;ref name="armv7s" /&gt;
+| 1.4&amp;nbsp;GHz [[Multi-core processor|dual-core]] [[Swift (microarchitecture)|Swift]]&lt;ref name="AnandTech-iPad4GPU" /&gt;
+| L1i:&amp;nbsp;32&amp;nbsp;KB&lt;br/&gt;L1d:&amp;nbsp;32&amp;nbsp;KB&lt;br/&gt;L2:&amp;nbsp;1&amp;nbsp;MB
+| [[PowerVR]] [[List of PowerVR products|SGX554MP4]] ([[Multi-core processor|quad-core]]) @&amp;nbsp;266&amp;nbsp;MHz (68.1&amp;nbsp;[[FLOPS|GFLOPS]])&lt;ref name="AnandTech-iPad4GPU" /&gt;&lt;ref name="AnandTech-iPadAir-GPU"&gt;{{cite web |last=Lai Shimpi |first=Anand |url=http://anandtech.com/show/7460/apple-ipad-air-review/4 |title=The iPad Air Review: GPU Performance |publisher=AnandTech |date=October 29, 2013 |accessdate=October 30, 2013}}&lt;/ref&gt;
+| [[32-bit]] [[Multi-channel memory architecture|Quad-channel]] 533&amp;nbsp;MHz [[Mobile DDR|LPDDR2]]-1066 (17.1&amp;nbsp;GB/s)&lt;ref&gt;{{cite web|url=http://www.anandtech.com/show/6472/ipad-4-late-2012-review/3 |title=iPad 4 (Late 2012) Review |publisher=AnandTech |date= |accessdate=July 10, 2013}}&lt;/ref&gt;
+| October 2012
+|
+* {{nowrap|[[iPad (4th generation)|iPad (4th gen.)]]}}
+|
+|
+|-
+| rowspan=2 | [[Apple A7|A7]]
+| APL0698&lt;!-- Sometimes also referred to as S5L8960X --&gt;
+| [[File:Apple A7 chip.jpg|100px]]
+| [[28 nanometer|28&amp;nbsp;nm]] [[HKMG]]&lt;ref name="Chipworks-iPhone5s" /&gt;
+| 102&amp;nbsp;mm&lt;sup&gt;2&lt;/sup&gt;&lt;ref name="AnandTech-iPhone5s-64-bit" /&gt;
+| ≈1 billion
+| rowspan=2 | {{nowrap|[[ARMv8|ARMv8.0-A]]}}&lt;ref name="AnandTech-iPhone5s-Cyclone" /&gt;
+| 1.3&amp;nbsp;GHz&lt;ref name="AnandTech-iPhone5s-A7" /&gt; [[Multi-core processor|dual-core]] [[Cyclone (microarchitecture)|Cyclone]]&lt;ref name="AnandTech-iPhone5s-Cyclone" /&gt;
+| L1i:&amp;nbsp;64&amp;nbsp;KB&lt;br/&gt;L1d:&amp;nbsp;64&amp;nbsp;KB&lt;br/&gt;L2:&amp;nbsp;1&amp;nbsp;MB&lt;br/&gt;L3:&amp;nbsp;4&amp;nbsp;MB&lt;ref name="AnandTech-iPhone5s-Cyclone" /&gt; (Inclusive)&lt;ref name="a9-l3cache"/&gt;
+| [[PowerVR]] [[List of PowerVR products|G6430]] ([[Multi-core processor|quad-core]]) @&amp;nbsp;450&amp;nbsp;MHz (115.2&amp;nbsp;[[FLOPS|GFLOPS]])&lt;ref name="AnandTech-iPhone5s-GPU" /&gt;&lt;ref name="AnandTech-iPadAir-GPU" /&gt;
+| [[64-bit computing|64-bit]] [[Single-channel architecture|Single-channel]] 800&amp;nbsp;MHz [[Mobile DDR|LPDDR3]]-1600&lt;ref name="A8: Apple’s First 20nm SoC" /&gt; (12.8&amp;nbsp;GB/s)&lt;ref name="The Apple iPad Air 2 Review"&gt;{{cite web|url=http://anandtech.com/show/8666/the-apple-ipad-air-2-review/2 |title=The Apple iPad Air 2 Review |publisher=AnandTech |date= |accessdate=November 12, 2014}}&lt;/ref&gt;
+| September 2013
+|
+* {{nowrap|[[iPhone 5S]]}}
+* {{nowrap|[[iPad Mini 2]]}}
+* {{nowrap|[[iPad Mini 3]]}}
+| iOS 7.0
+| iOS 12.x, iPadOS 13.x
+|-
+| APL5698
+| [[File:Apple A7 S5L9865 chip.jpg|100px]]
+| [[28 nanometer|28&amp;nbsp;nm]] [[HKMG]]&lt;ref name="Chipworks-iPad-Air"&gt;{{cite web |url=http://www.chipworks.com/en/technical-competitive-analysis/resources/blog/inside-the-ipad-air/ |title=Inside the iPad Air |publisher=Chipworks |date=November 1, 2013 |access-date=November 12, 2013 |archive-url=https://web.archive.org/web/20150508082331/http://www.chipworks.com/en/technical-competitive-analysis/resources/blog/inside-the-ipad-air/ |archive-date=May 8, 2015 |url-status=dead }}&lt;/ref&gt;
+| 102&amp;nbsp;mm&lt;sup&gt;2&lt;/sup&gt;&lt;ref name="AnandTech-iPhone5s-64-bit" /&gt;&lt;ref name="Chipworks-iPad-Air" /&gt;
+| ≈1 billion
+| 1.4&amp;nbsp;GHz&lt;ref name="AnandTech-iPadAir-CPU" /&gt; [[Multi-core processor|dual-core]] [[Cyclone (microarchitecture)|Cyclone]]&lt;ref name="AnandTech-iPhone5s-Cyclone" /&gt;
+| L1i:&amp;nbsp;64&amp;nbsp;KB&lt;br/&gt;L1d:&amp;nbsp;64&amp;nbsp;KB&lt;br/&gt;L2:&amp;nbsp;1&amp;nbsp;MB&lt;br/&gt;L3:&amp;nbsp;4&amp;nbsp;MB&lt;ref name="AnandTech-iPadAir-CPU" /&gt; (Inclusive)&lt;ref name="a9-l3cache"/&gt;
+| [[PowerVR]] [[List of PowerVR products|G6430]] ([[Multi-core processor|quad-core]]) @&amp;nbsp;450&amp;nbsp;MHz (115.2&amp;nbsp;[[FLOPS|GFLOPS]])&lt;ref name="AnandTech-iPadAir-GPU" /&gt;
+| [[64-bit computing|64-bit]] [[Single-channel architecture|Single-channel]] 800&amp;nbsp;MHz [[Mobile DDR|LPDDR3]]-1600&lt;ref name="A8: Apple’s First 20nm SoC" /&gt; (12.8&amp;nbsp;GB/s)&lt;ref name="The Apple iPad Air 2 Review"/&gt;
+| October 2013
+|
+* {{nowrap|[[iPad Air|iPad Air (1st gen.)]]}}
+| iOS 7.0.3
+| iPadOS 12.x
+|-
+| [[Apple A8|A8]]
+| APL1011
+| [[File:Apple A8 system-on-a-chip.jpg|100px]]
+| [[20 nanometer|20&amp;nbsp;nm]] ([[TSMC]])&lt;ref name="A8: Apple’s First 20nm SoC" /&gt;
+| 89&amp;nbsp;mm&lt;sup&gt;2&lt;/sup&gt;&lt;ref name="Apple’s A8 SoC analyzed"&gt;{{cite web |url=http://www.extremetech.com/computing/189787-apples-a8-soc-analyzed-the-iphone-6-chip-is-a-2-billion-transistor-20nm-monster |title=Apple’s A8 SoC analyzed |publisher=ExtremeTech |date=September 10, 2014}}&lt;/ref&gt;
+|~2 billion
+| {{nowrap|[[ARMv8|ARMv8.0-A]]}}&lt;ref name="A8’s CPU: What Comes After Cyclone?" /&gt;
+| 1.1–1.5&amp;nbsp;GHz [[Multi-core processor|dual-core]] [[Typhoon (microarchitecture)|Typhoon]]&lt;ref name="A8’s CPU: What Comes After Cyclone?" /&gt;&lt;ref name="Typhoon"&gt;{{cite web |url=http://www.anandtech.com/show/9443/apple-refreshes-the-ipod-touch-with-a8-soc-and-new-camera |title=Apple Refreshes The iPod Touch With A8 SoC And New Cameras |first=Brandon |last=Chester |date=July 15, 2015 |accessdate=September 11, 2015}}&lt;/ref&gt;
+| L1i:&amp;nbsp;64&amp;nbsp;KB&lt;br/&gt;L1d:&amp;nbsp;64&amp;nbsp;KB&lt;br/&gt;L2:&amp;nbsp;1&amp;nbsp;MB&lt;br&gt;L3:&amp;nbsp;4&amp;nbsp;MB&lt;ref name="A8’s CPU: What Comes After Cyclone?"&gt;{{cite web |url=http://www.anandtech.com/show/8554/the-iphone-6-review/3 |title=The iPhone 6 Review: A8’s CPU: What Comes After Cyclone? |publisher=AnandTech |date=September 30, 2014 |accessdate=September 30, 2014}}&lt;/ref&gt; (Inclusive)&lt;ref name="a9-l3cache"/&gt;
+| Custom [[PowerVR]] [[List of PowerVR products|GXA6450]] ([[Multi-core processor|quad-core]])&lt;ref name=":0" /&gt;&lt;ref name="Apple's A8 SoC: GX6450"&gt;{{cite web |url=http://www.anandtech.com/show/8562/chipworks-a8 |title=Chipworks Disassembles Apple's A8 SoC: GX6450, 4MB L3 Cache &amp; More |publisher=AnandTech |date=September 23, 2014}}&lt;/ref&gt;&lt;ref&gt;{{cite web |url=http://www.notebookcheck.com/Imagination-PowerVR-GX6450.126468.0.html |title=Imagination PowerVR GX6450 |publisher=NOTEBOOKCHECK|date=September 23, 2014}}&lt;/ref&gt; @&amp;nbsp;~533&amp;nbsp;MHz (136.5&amp;nbsp;[[FLOPS|GFLOPS]])
+| [[64-bit computing|64-bit]] [[Single-channel architecture|Single-channel]] 800&amp;nbsp;MHz [[Mobile DDR|LPDDR3]]-1600&lt;ref name="A8: Apple’s First 20nm SoC"&gt;{{cite web |url=http://www.anandtech.com/show/8554/the-iphone-6-review/2 |title=The iPhone 6 Review: A8: Apple’s First 20nm SoC |publisher=AnandTech |date=September 30, 2014 |accessdate=September 30, 2014}}&lt;/ref&gt; (12.8&amp;nbsp;GB/s)&lt;ref name="The Apple iPad Air 2 Review"/&gt;
+| September 2014
+|
+* {{nowrap|[[iPhone 6]]}}
+* {{nowrap|[[iPhone 6 Plus]]}}
+* {{nowrap|[[iPod Touch (6th generation)|iPod Touch (6th gen.)]]}}
+* {{nowrap|[[iPad Mini 4]]}}
+* {{nowrap|[[Apple TV|Apple TV (4th gen.)]]}}
+* {{nowrap|[[HomePod]]}}
+| iOS 8.0
+| iOS 12.x, iPadOS 13.x
+|-
+| [[Apple A8X|A8X]]
+| APL1012
+| [[File:Apple A8X system-on-a-chip.jpg|100px]]
+| [[20 nanometer|20&amp;nbsp;nm]] ([[TSMC]])&lt;ref name="Apple A8X's GPU"/&gt;&lt;ref name="PowerVR GXA6850"&gt;{{cite web |url=http://www.notebookcheck.net/Imagination-PowerVR-GXA6850.128993.0.html |title= Imagination PowerVR GXA6850 - NotebookCheck.net Tech |publisher=NotebookCheck.net |date=November 26, 2014 |accessdate=November 26, 2014}}&lt;/ref&gt;
+| 128&amp;nbsp;mm&lt;sup&gt;2&lt;/sup&gt;&lt;ref name="Apple A8X's GPU"/&gt;
+|~3 billion
+| {{nowrap|[[ARMv8|ARMv8.0-A]]}}
+| 1.5&amp;nbsp;GHz [[Multi-core processor|triple-core]] [[Typhoon (microarchitecture)|Typhoon]]&lt;ref name="Apple A8X's GPU"&gt;{{cite web |url=http://www.anandtech.com/show/8716/apple-a8xs-gpu-gxa6850-even-better-than-i-thought |title= Apple A8X’s GPU - GXA6850, Even Better Than I Thought |publisher=Anandtech |date=November 11, 2014 |accessdate=November 12, 2014}}&lt;/ref&gt;&lt;ref name="Typhoon" /&gt;
+| L1i:&amp;nbsp;64&amp;nbsp;KB&lt;br/&gt;L1d:&amp;nbsp;64&amp;nbsp;KB&lt;br/&gt;L2:&amp;nbsp;2&amp;nbsp;MB&lt;br/&gt;L3:&amp;nbsp;4&amp;nbsp;MB&lt;ref name="Apple A8X's GPU"/&gt; (Inclusive)&lt;ref name="a9-l3cache"/&gt;
+| Custom [[PowerVR]] [[List of PowerVR products|GXA6850]] ([[Multi-core processor|octa-core]])&lt;ref name=":0" /&gt;&lt;ref name="Apple A8X's GPU"/&gt;&lt;ref name="PowerVR GXA6850"/&gt; @&amp;nbsp;~450&amp;nbsp;MHz (230.4&amp;nbsp;[[FLOPS|GFLOPS]])
+| [[64-bit computing|64-bit]] [[Multi-channel memory architecture|Dual-channel]] 800&amp;nbsp;MHz [[Mobile DDR|LPDDR3]]-1600&lt;ref name="Apple A8X's GPU"/&gt; (25.6&amp;nbsp;GB/s)&lt;ref name="The Apple iPad Air 2 Review"/&gt;
+| October 2014
+|
+* {{nowrap|[[iPad Air 2]]}}
+| iOS 8.1
+| iOS 12.x, iPadOS 13.x
+|-
+| rowspan=2 | [[Apple A9|A9]]
+| APL0898
+| [[File:Apple A9 APL0898.jpg|100px]]
+| [[14 nanometer|14&amp;nbsp;nm]] [[FinFET]] ([[Samsung]])&lt;ref name="AnandTech iPhone 6S announced"&gt;{{cite web |url=http://www.anandtech.com/show/9619/apple-announces-iphone-6s-iphone-6s-plus |title=Apple Announces the iPhone 6s and iPhone 6s Plus |first=Joshua |last=Ho |date=September 9, 2015 |accessdate=September 10, 2015}}&lt;/ref&gt;
+| 96&amp;nbsp;mm&lt;sup&gt;2&lt;/sup&gt;&lt;ref name="A9dualsourced"&gt;{{cite web |url=http://www.anandtech.com/show/9665/apples-a9-soc-is-dual-sourced-from-samsung-tsmc |title= Apple’s A9 SoC Is Dual Sourced From Samsung &amp; TSMC |publisher=Anandtech |date=September 28, 2015 |accessdate=September 29, 2015}}&lt;/ref&gt;
+| rowspan="2" |&gt;2 billion
+| rowspan=2 | {{nowrap|[[ARMv8|ARMv8.0-A]]}}
+| rowspan=2 | 1.85&amp;nbsp;GHz [[Multi-core processor|dual-core]] [[Twister (microarchitecture)|Twister]]&lt;ref name="iPhone 6s benchmark"&gt;{{cite web|url=http://www.idownloadblog.com/2015/09/21/phone-6s-customer-receives-early-benchmarks/ |title=iPhone 6s customer receives her device early, benchmarks show a marked increase in power |publisher=iDownloadBlog |date=September 21, 2015 |accessdate=September 25, 2015}}&lt;/ref&gt;&lt;ref name="A9CPU"&gt;{{cite web|url=http://www.anandtech.com/show/9686/the-apple-iphone-6s-and-iphone-6s-plus-review/4|title=A9’s CPU: Twister - The Apple iPhone 6s and iPhone 6s Plus Review |publisher=AnandTech |date=November 2, 2015 |accessdate=November 4, 2015}}&lt;/ref&gt;
+| rowspan=2 | L1i:&amp;nbsp;64&amp;nbsp;KB&lt;br/&gt;L1d:&amp;nbsp;64&amp;nbsp;KB&lt;br/&gt;L2:&amp;nbsp;3&amp;nbsp;MB&lt;br/&gt;L3:&amp;nbsp;4&amp;nbsp;MB ([[CPU cache#Victim cache|Victim]])&lt;ref name="a9-l3cache"&gt;{{cite web|url=http://www.anandtech.com/show/9825/correcting-a9s-l3-cache |title=Correcting Apple's A9 SoC L3 Cache Size: A 4MB Victim Cache |publisher=AnandTech |date=November 30, 2015 |accessdate=December 1, 2015}}&lt;/ref&gt;&lt;ref name="Chipworks-iPhone6S"&gt;{{cite web|url=http://www.chipworks.com/about-chipworks/overview/blog/inside-the-iphone-6s|title=Inside the iPhone 6s|publisher=Chipworks|date=September 25, 2015|accessdate=September 26, 2015|archive-url=https://web.archive.org/web/20170203083215/http://www.chipworks.com/about-chipworks/overview/blog/inside-the-iphone-6s|archive-date=February 3, 2017|url-status=dead}}&lt;/ref&gt;
+| rowspan=2 | Custom [[PowerVR]] [[List of PowerVR products|GT7600]] ([[Multi-core processor|hexa-core]])&lt;ref name=":0" /&gt;&lt;ref name="A9 GPU"&gt;{{cite web|url=http://www.anandtech.com/show/9686/the-apple-iphone-6s-and-iphone-6s-plus-review/5|title=A9's GPU: Imagination PowerVR GT7600 - The Apple iPhone 6s and iPhone 6s Plus Review |publisher=AnandTech |date=November 2, 2015 |accessdate=November 4, 2015}}&lt;/ref&gt; @&amp;nbsp;650&amp;nbsp;MHz (249.6&amp;nbsp;[[FLOPS|GFLOPS]])
+| rowspan="2" | [[64-bit computing|64-bit]] [[Single-channel architecture|Single-channel]] 1600&amp;nbsp;MHz [[Mobile DDR|LPDDR4]]-3200&lt;ref name="A9CPU"/&gt;&lt;ref name="Chipworks-iPhone6S" /&gt; (25.6&amp;nbsp;GB/s)&lt;ref name="A9CPU"/&gt; 
+| rowspan=2 | September 2015
+| rowspan=2 |
+* {{nowrap|[[iPhone 6S]]}}
+* {{nowrap|[[iPhone 6S Plus]]}}
+* {{nowrap|[[iPhone SE (1st generation)|iPhone SE (1st gen.)]]}}
+* {{nowrap|[[iPad (2017)]]}}
+| rowspan=2 | iOS 9.0
+| rowspan=2 | Current
+|-
+| APL1022
+| [[File:Apple A9 APL1022.jpg|100px]]
+| [[16 nanometer|16&amp;nbsp;nm]] [[FinFET]] ([[TSMC]])&lt;ref name="A9dualsourced"/&gt;
+| 104.5&amp;nbsp;mm&lt;sup&gt;2&lt;/sup&gt;&lt;ref name="A9dualsourced"/&gt;
+|-
+| [[Apple A9X|A9X]]
+| APL1021
+| [[File:Apple A9X.jpg|100px]]
+| [[16 nanometer|16&amp;nbsp;nm]] [[FinFET]] ([[TSMC]])&lt;ref name="ars-a9x"/&gt;
+| 143.9&amp;nbsp;mm&lt;sup&gt;2&lt;/sup&gt;&lt;ref name="ars-a9x"&gt;{{cite web|url=http://www.anandtech.com/show/9824/more-on-apples-a9x-soc |title=More on Apple's A9X SoC: 147mm2@TSMC, 12 GPU Cores, No L3 Cache |publisher=AnandTech |date=November 30, 2015 |accessdate=December 1, 2015}}&lt;/ref&gt;&lt;ref name="TechInsights-A10X"/&gt;
+|&gt;3 billion
+| {{nowrap|[[ARMv8|ARMv8.0-A]]}}
+| 2.16–2.26&amp;nbsp;GHz [[Multi-core processor|dual-core]] [[Twister (microarchitecture)|Twister]]&lt;ref name="anandtech-ipadpro"&gt;{{cite web|url=http://www.anandtech.com/show/9780/taking-notes-with-ipad-pro/2|title=The A9X SoC &amp;amp; More To Come - The iPad Pro Preview: Taking Notes With iPad Pro |publisher=AnandTech |date=November 11, 2015 |accessdate=November 11, 2015}}&lt;/ref&gt;&lt;ref name="ars-ipadpro"&gt;{{cite web|url=https://arstechnica.com/apple/2015/11/ipad-pro-review-mac-like-speed-with-all-the-virtues-and-limitations-of-ios/ |title=iPad Pro review: Mac-like speed with all the virtues and restrictions of iOS |publisher=AnandTech |date=November 11, 2015 |accessdate=November 11, 2015}}&lt;/ref&gt;
+| L1i:&amp;nbsp;64&amp;nbsp;KB&lt;br/&gt;L1d:&amp;nbsp;64&amp;nbsp;KB&lt;br/&gt;L2:&amp;nbsp;3&amp;nbsp;MB&lt;br/&gt;L3:&amp;nbsp;''none''&lt;ref name="a9-l3cache"/&gt;&lt;ref name="ars-a9x"/&gt;
+| Custom [[PowerVR]] [[List of PowerVR products|GTA7850]] ([[Multi-core processor|12-core]])&lt;ref name=":0" /&gt;&lt;ref name="ars-a9x"/&gt; @&amp;nbsp;650&amp;nbsp;MHz (499.2&amp;nbsp;[[FLOPS|GFLOPS]])
+| [[64-bit computing|64-bit]] [[Multi-channel memory architecture|Dual-channel]] 1600&amp;nbsp;MHz [[Mobile DDR|LPDDR4]]-3200 (51.2&amp;nbsp;GB/s)
+| November 2015
+|
+* {{nowrap|[[iPad Pro|iPad Pro (12.9-inch) (1st gen.)]]}}
+* {{nowrap|[[iPad Pro|iPad Pro (9.7-inch)]]}}
+| iOS 9.1
+| Current
+|-
+|[[Apple A10|A10 Fusion]]
+| APL1W24
+| [[File:Apple A10 Fusion APL1W24.jpg|100px]]
+| [[16 nanometer|16&amp;nbsp;nm]] [[FinFET]] ([[TSMC]])&lt;ref name="chipworks-iphone7"&gt;{{cite web|url=http://www.chipworks.com/about-chipworks/overview/blog/apple-iphone-7-teardown|title=Apple iPhone 7 Teardown|first=|last=techinsights.com|website=www.chipworks.com|access-date=September 16, 2016|archive-url=https://web.archive.org/web/20160916230725/http://www.chipworks.com/about-chipworks/overview/blog/apple-iphone-7-teardown|archive-date=September 16, 2016|url-status=dead}}&lt;/ref&gt;
+| 125&amp;nbsp;mm&lt;sup&gt;2&lt;/sup&gt;&lt;ref name="chipworks-iphone7" /&gt;
+| 3.3 billion
+| {{nowrap|[[ARMv8|ARMv8.1-A]]}}
+| 2.34&amp;nbsp;GHz [[Multi-core processor|quad-core]] [[ARM big.LITTLE|(2× Hurricane + 2× Zephyr)]]&lt;ref&gt;{{cite web|url=https://developer.apple.com/library/content/releasenotes/General/APIDiffsMacOS10_12/Objective-C/Kernel.html|title=Kernel Changes for Objective-C|website=developer.apple.com}}&lt;/ref&gt;
+| L1i:&amp;nbsp;64&amp;nbsp;KB&lt;br/&gt;L1d:&amp;nbsp;64&amp;nbsp;KB&lt;br/&gt;L2:&amp;nbsp;3&amp;nbsp;MB&lt;br/&gt;L3:&amp;nbsp;4&amp;nbsp;MB
+| Custom [[PowerVR]] [[List of PowerVR products|GT7600 Plus]] ([[Multi-core processor|hexa-core]])&lt;ref name=":0" /&gt;&lt;ref name="iPhone 7 GPU breakdown"&gt;{{cite web |url=http://wccftech.com/apple-a10-fusion-gpu-breakdown/ |title=iPhone 7 GPU breakdown |publisher=Wccftech |date=December 2016}}&lt;/ref&gt;&lt;ref name="Mysteries of Apple A10 GPU"&gt;{{cite web |url=http://www.pcworld.com/article/3146630/mobile/the-mysteries-of-the-gpu-in-apples-iphone-7-are-unlocked.html |title=The mysteries of the GPU in Apple's iPhone 7 are unlocked |author=Agam Shah |publisher=PC World |date=December 2016}}&lt;/ref&gt; @&amp;nbsp;900&amp;nbsp;MHz (364.8&amp;nbsp;[[FLOPS|GFLOPS]]&lt;ref&gt;{{cite web|url=https://gadgetversus.com/processor/intel-core-i5-8250u-vs-apple-a10-fusion/|title=Intel Core i5-8250U vs Apple A10 Fusion|website=GadgetVersus}}&lt;/ref&gt;)
+| [[64-bit computing|64-bit]] [[Single-channel architecture|Single-channel]] 1600&amp;nbsp;MHz [[Mobile DDR|LPDDR4]] (25.6&amp;nbsp;GB/s)
+| September 2016
+|
+* {{nowrap|[[iPhone 7]]}}
+* {{nowrap|[[iPhone 7 Plus]]}}
+* {{nowrap|[[iPad (2018)]]}}
+* {{nowrap|[[iPod Touch (7th generation)|iPod Touch (7th gen.)]]}}
+* {{nowrap|[[iPad (2019)]]}}
+| iOS 10.0
+| Current
+|-
+| [[Apple A10X|A10X Fusion]]
+| APL1071&lt;ref name="iFixit iPad Pro 10.5 teardown"&gt;{{Cite web|url=https://www.ifixit.com/Teardown/iPad+Pro+10.5-Inch+Teardown/92534|title=iPad Pro 10.5" Teardown|date=June 13, 2017|publisher=iFixit|access-date=June 14, 2017|language=en}}&lt;/ref&gt;
+| [[File:Apple A10X Fusion.jpg|100px]]
+| [[10 nanometer|10&amp;nbsp;nm]] [[FinFET]] ([[TSMC]])&lt;ref name="TechInsights-A10X" /&gt;
+| 96.4&amp;nbsp;mm&lt;sup&gt;2&lt;/sup&gt;&lt;ref name="TechInsights-A10X" /&gt;
+| &gt;4 billion
+| {{nowrap|[[ARMv8|ARMv8.1-A]]}}
+| 2.36&amp;nbsp;GHz [[Multi-core processor|hexa-core]] (3× Hurricane + 3× Zephyr)&lt;ref name="AnandTech-A10X"&gt;{{cite web |last=Smith |first=Ryan |url=http://www.anandtech.com/show/11596/techinsights-confirms-apple-a10x-soc-10nm-tsmc |title=TechInsights Confirms Apple’s A10X SoC Is TSMC 10nm FF; 96.4mm2 Die Size |publisher=AnandTech |date=June 29, 2017 |accessdate=June 30, 2017}}&lt;/ref&gt;
+| L1i:&amp;nbsp;64&amp;nbsp;KB&lt;br/&gt;L1d:&amp;nbsp;64&amp;nbsp;KB&lt;br/&gt;L2:&amp;nbsp;8&amp;nbsp;MB&lt;br/&gt;L3:&amp;nbsp;''none''&lt;ref name="AnandTech-A10X" /&gt;
+| Custom [[List of PowerVR products|PowerVR]] GT7600 Plus ([[Multi-core processor|12-core]])&lt;ref name=":0" /&gt;&lt;ref name="Apple iPad Pro 10.5 PR" /&gt;
+| [[64-bit computing|64-bit]] [[Multi-channel memory architecture|Dual-channel]] 1600&amp;nbsp;MHz [[Mobile DDR|LPDDR4]]&lt;ref name="AnandTech-A10X" /&gt;&lt;ref name="iFixit iPad Pro 10.5 teardown" /&gt; (51.2&amp;nbsp;GB/s)
+| June 2017
+|
+* {{nowrap|[[iPad Pro|iPad Pro (10.5-inch)]]}}
+* {{nowrap|[[iPad Pro|iPad Pro (12.9-inch) (2nd gen.)]]}}
+* {{nowrap|[[Apple TV 4K]]}}
+| iOS 10.3.2
+| Current
+|-
+|[[Apple A11|A11 Bionic]]
+| APL1W72
+| [[File:Apple A11.jpg|100px]]
+| [[10 nanometer|10&amp;nbsp;nm]] [[FinFET]] ([[TSMC]])
+| 87.66&amp;nbsp;mm&lt;sup&gt;2&lt;/sup&gt;&lt;ref name="TechInsights-iPhone8Plus"&gt;{{cite web|url=http://techinsights.com/about-techinsights/overview/blog/apple-iphone-8-teardown/|title=Apple iPhone 8 Plus Teardown|publisher= TechInsights|date=September 27, 2017|accessdate=September 28, 2017}}&lt;/ref&gt;
+| 4.3 billion
+| {{nowrap|[[ARMv8|ARMv8.2-A]]}}&lt;ref name="Apple-ARMv8.2"&gt;{{cite web|url=https://devstreaming-cdn.apple.com/videos/wwdc/2018/409t8zw7rumablsh/409/409_whats_new_in_llvm.pdf|title=Apple A11 New Instruction Set Extensions|publisher=Apple Inc.|date=June 8, 2018}}&lt;/ref&gt;
+| 2.39&amp;nbsp;GHz [[Multi-core processor|hexa-core]] (2× Monsoon + 4× Mistral)
+| L1i:&amp;nbsp;64&amp;nbsp;KB&lt;br/&gt;L1d:&amp;nbsp;64&amp;nbsp;KB&lt;br/&gt;L2:&amp;nbsp;8&amp;nbsp;MB&lt;br/&gt;L3:&amp;nbsp;''none''&lt;ref&gt;{{cite web|url=https://www.anandtech.com/show/13392/the-iphone-xs-xs-max-review-unveiling-the-silicon-secrets/2|title=Measured and Estimated Cache Sizes|publisher=AnandTech|date=October 5, 2018}}&lt;/ref&gt;
+| Custom design ([[Multi-core processor|triple-core]])
+| Neural Engine ([[Multi-core processor|dual-core]])
+| [[64-bit computing|64-bit]] [[Single-channel architecture|Single-channel]] 2133&amp;nbsp;MHz [[Mobile DDR|LPDDR4X]]&lt;ref&gt;{{Cite web|url=http://techinsights.com/about-techinsights/overview/blog/apple-iphone-8-teardown/#01|title=Apple iPhone 8 Plus Teardown|last=techinsights.com|website=techinsights.com|access-date=2018-10-09}}&lt;/ref&gt;&lt;ref&gt;{{Cite web|url=https://www.digikey.com/product-detail/en/micron-technology-inc/MT53D384M64D4NY-046-XT-D/MT53D384M64D4NY-046XT-D-ND/6136033|title=MT53D384M64D4NY-046 XT:D Micron Technology Inc. {{!}} Integrated Circuits (ICs) {{!}} DigiKey|website=www.digikey.com|language=en-us|access-date=2018-10-09}}&lt;/ref&gt; (34.1&amp;nbsp;GB/s)
+| September 2017
+|
+* {{nowrap|[[iPhone 8]]}}
+* {{nowrap|[[iPhone 8 Plus]]}}
+* {{nowrap|[[iPhone X]]}}
+| iOS 11.0
+| Current
+|-
+|[[Apple A12|A12 Bionic]]
+| APL1W81
+| [[File:Apple A12.jpg|100px]]
+| [[7 nanometer|7&amp;nbsp;nm]] [[FinFET]] ([[TSMC]] N7)
+| 83.27&amp;nbsp;mm&lt;sup&gt;2&lt;/sup&gt;&lt;ref name="TechInsights-iPhoneXSmax"&gt;{{cite web|url=http://www.techinsights.com/about-techinsights/overview/blog/apple-iphone-xs-teardown/|title=Apple iPhone Xs Max Teardown|publisher=TechInsights|date=September 21, 2018|accessdate=September 21, 2018}}&lt;/ref&gt;
+| 6.9 billion
+| {{nowrap|[[ARMv8|ARMv8.3-A]]}}&lt;ref name="Apple-ARMv8.3"&gt;{{cite web|url=http://newosxbook.com/forum/viewtopic.php?f=11&amp;t=19557|title=Apple A12 Pointer Authentication Codes|publisher=Jonathan Levin, @Morpheus|date=September 12, 2018}}&lt;/ref&gt;
+| 2.49&amp;nbsp;GHz [[Multi-core processor|hexa-core]] (2× Vortex + 4× Tempest)&lt;ref name="gsmarena.com"&gt;{{Cite web|url=https://www.gsmarena.com/new_iphone_xs_xs_max_and_xr_benchmarked_ram_revealed-news-33246.php|title=New iPhone XS, XS Max and XR benchmarked, RAM revealed|website=GSMArena.com}}&lt;/ref&gt;
+| L1i:&amp;nbsp;128&amp;nbsp;KB&lt;br/&gt;L1d:&amp;nbsp;128&amp;nbsp;KB&lt;br/&gt;L2:&amp;nbsp;8&amp;nbsp;MB&lt;br/&gt;L3:&amp;nbsp;''none''&lt;ref name="gsmarena.com"/&gt;
+| Custom design ([[Multi-core processor|quad-core]])
+| Neural Engine ([[Multi-core processor|octa-core]])
+| [[64-bit computing|64-bit]] [[Single-channel architecture|Single-channel]] 2133&amp;nbsp;MHz [[Mobile DDR|LPDDR4X]]&lt;ref&gt;{{Cite web|url=http://www.techinsights.com/about-techinsights/overview/blog/apple-iphone-xs-teardown/#applicationprocessor|title=Apple iPhone XS Teardown|last=techinsights.com|website=www.techinsights.com|access-date=2018-10-09}}&lt;/ref&gt;&lt;ref&gt;{{Cite web|url=https://eu.mouser.com/ProductDetail/Micron/MT53D512M64D4SB-046-XTE?qs=j%252b1pi9TdxUaxE2V5mT1j5w==|title=MT53D512M64D4SB-046 XT:E Micron {{!}} Mouser|website=Mouser Electronics|access-date=2018-10-09}}&lt;/ref&gt; (34.1&amp;nbsp;GB/s)
+| September 2018
+|
+* {{nowrap|[[iPhone XS]]}}
+* {{nowrap|[[iPhone XS Max]]}}
+* {{nowrap|[[iPhone XR]]}}
+* {{nowrap|[[iPad Air (2019)|iPad Air (3rd gen.)]]}}
+* {{nowrap|[[iPad Mini (5th generation)|iPad Mini (5th gen.)]]}}
+| iOS 12.0
+| Current
+|-
+|[[Apple A12X|A12X Bionic]]
+| rowspan=2| APL1083
+| [[File:Apple A12X.jpg|100px]]
+| rowspan=2| [[7 nanometer|7&amp;nbsp;nm]] [[FinFET]] ([[TSMC]] N7)
+| rowspan=2| ≈135&amp;nbsp;mm&lt;sup&gt;2&lt;/sup&gt;&lt;ref&gt;{{cite web|url=https://electroiq.com/chipworks_real_chips_blog/2019/01/16/the-packaging-of-apples-a12x-is-weird/|title=The Packaging of Apple’s A12X is… Weird|publisher=Dick James of Chipworks|date=January 16, 2019}}&lt;/ref&gt;
+| rowspan=2| 10 billion
+| rowspan=2|{{nowrap|[[ARMv8|ARMv8.3-A]]}}&lt;ref name="Apple-ARMv8.3" /&gt;
+| rowspan=2|2.49&amp;nbsp;GHz [[Multi-core processor|octa-core]] (4× Vortex + 4× Tempest)
+| rowspan=2|L1i:&amp;nbsp;128&amp;nbsp;KB&lt;br/&gt;L1d:&amp;nbsp;128&amp;nbsp;KB&lt;br/&gt;L2:&amp;nbsp;8&amp;nbsp;MB&lt;br/&gt;L3:&amp;nbsp;''none''&lt;ref&gt;{{cite web|url=https://browser.geekbench.com/v4/cpu/11836094|title=iPad Pro (11-inch)|date=January 28, 2019|website=Geekbench Browser}}&lt;/ref&gt;
+| Custom design ([[Multi-core processor|hepta-core]])
+| rowspan=2| Neural Engine ([[Multi-core processor|octa-core]])
+| rowspan=2| [[64-bit computing|64-bit]] [[Multi-channel memory architecture|Dual-channel]] 2133&amp;nbsp;MHz [[Mobile DDR|LPDDR4X]] (68.2&amp;nbsp;GB/s)
+| October 2018
+|
+* {{nowrap|[[iPad Pro|iPad Pro (11-inch) (1st gen.)]]}}
+* {{nowrap|[[iPad Pro|iPad Pro (12.9-inch) (3rd gen.)]]}}
+| iOS 12.1
+| Current
+|-
+|[[Apple A12Z|A12Z Bionic]]
+| [[File:Apple A12Z.jpg|100px]]
+|Custom design ([[Multi-core processor|octa-core]])
+| March 2020
+|
+* {{nowrap|[[iPad Pro|iPad Pro (11-inch) (2nd gen.)]]}}
+* {{nowrap|[[iPad Pro|iPad Pro (12.9-inch) (4th gen.)]]}}
+| iPadOS 13.4.1
+| Current
+|-
+|[[Apple A13|A13 Bionic]]
+| APL1W85
+| [[File:Apple A13 Bionic.jpg|100px]]
+| [[7 nanometer|7&amp;nbsp;nm]] [[FinFET]] ([[TSMC]] N7P)
+| 98.48&amp;nbsp;mm&lt;sup&gt;2&lt;/sup&gt;&lt;ref&gt;{{Cite web|url=https://www.techinsights.com/blog/apple-iphone-11-pro-max-teardown|title=Apple iPhone 11 Pro Max Teardown {{!}} TechInsights|website=www.techinsights.com|access-date=2019-09-27}}&lt;/ref&gt;
+| 8.5 billion
+| {{nowrap|[[ARMv8|ARMv8.4-A]]}}&lt;ref&gt;{{cite web|url=http://newosxbook.com/ChangeLog.html#v2|title=A13 has ARMv8.4, apparently (LLVM project sources, thanks, @Longhorn)|publisher=Jonathan Levin, @Morpheus|date=March 13, 2020}}&lt;/ref&gt;
+| 2.65&amp;nbsp;GHz [[Multi-core processor|hexa-core]] (2× Lightning + 4× Thunder)
+| L1i:&amp;nbsp;128&amp;nbsp;KB&lt;br/&gt;L1d:&amp;nbsp;128&amp;nbsp;KB&lt;br/&gt;L2:&amp;nbsp;8&amp;nbsp;MB&lt;br/&gt;L3:&amp;nbsp;''none''&lt;ref&gt;{{cite web|url=https://www.anandtech.com/show/14892/the-apple-iphone-11-pro-and-max-review/2|title=The Apple A13 SoC: Lightning &amp; Thunder|publisher=AnandTech|date=October 27, 2019}}&lt;/ref&gt;
+| Custom design ([[Multi-core processor|quad-core]])
+| Neural Engine ([[Multi-core processor|octa-core]]) + AMX blocks ([[Multi-core processor|dual-core]]) 
+| 
+| September 2019
+|
+* {{nowrap|[[iPhone 11]]}}
+* {{nowrap|[[iPhone 11 Pro]]}}
+* {{nowrap|[[iPhone 11 Pro Max]]}}
+* {{nowrap|[[iPhone SE (2nd generation)|iPhone SE (2nd gen.)]]}}
+| iOS 13.0
+| Current
+|-
+! Name !! Model no. !! Image !! [[Semiconductor device fabrication|Semiconductor technology]] !! [[Die (integrated circuit)|Die size]] 
+!Transistor count!! CPU [[Instruction set|ISA]]!! [[CPU]] !! [[CPU cache]] !! [[Graphics processing unit|GPU]] 
+![[AI accelerator]]!! Memory technology !! Introduced !! Utilizing devices !! Initial OS !! Terminal OS
+|}
+
+===S series list===
+{| class="wikitable"
+|-
+! Name !! Model no. !! Image !! [[Semiconductor device fabrication|Semiconductor technology]] !! [[Die (integrated circuit)|Die size]] !! CPU [[Instruction set|ISA]]!! [[CPU]] !! [[CPU cache]] !! [[Graphics processing unit|GPU]] !! Memory technology 
+!Modem!! Introduced !! Utilizing devices !! Initial OS !! Terminal OS
+|-
+| [[Apple S1|S1]]
+| APL0778&lt;ref name="Watchteardown"&gt;{{cite web|url=http://appleinsider.com/articles/15/04/30/teardown-shows-apple-watch-s1-chip-has-custom-cpu-512mb-ram-8gb-storage|title=Teardown shows Apple Watch S1 chip has custom CPU, 512MB RAM, 8GB storage|publisher=[[AppleInsider]]|accessdate=30 April 2015}}&lt;/ref&gt;
+| [[File:Apple S1 module.png|100px]]
+| 28&amp;nbsp;nm [[high-k dielectric|HK]][[metal gate|MG]]&lt;ref name="ChipworksWatchTeardown"&gt;{{cite web|url=http://www.chipworks.com/en/technical-competitive-analysis/resources/blog/inside-the-apple-watch-technical-teardown/|title=Inside the Apple Watch: Technical Teardown|authors=Jim Morrison and Daniel Yang|publisher=Chipworks|date=April 24, 2015|access-date=May 8, 2015|archive-url=https://web.archive.org/web/20150518073725/http://www.chipworks.com/en/technical-competitive-analysis/resources/blog/inside-the-apple-watch-technical-teardown/|archive-date=May 18, 2015|url-status=dead}}&lt;/ref&gt;&lt;ref name="AppleS1Analysis"&gt;{{cite web|url=http://www.anandtech.com/show/9381/the-apple-watch-review/3|title=The Apple Watch Review: Apple S1 Analysis |publisher=[[AnandTech]]|date=July 20, 2015|accessdate=July 20, 2015|first1=Joshua|last1=Ho|first2=Brandon|last2=Chester}}&lt;/ref&gt;
+| 32&amp;nbsp;mm&lt;sup&gt;2&lt;/sup&gt;&lt;ref name="ChipworksWatchTeardown" /&gt;
+| [[ARMv7]]k&lt;ref name="AppleS1Analysis" /&gt;&lt;ref&gt;{{cite web|url=https://twitter.com/stroughtonsmith/status/591287127591247872|title=Steve Troughton-Smith on Twitter|publisher=}}&lt;/ref&gt;
+| 520&amp;nbsp;MHz [[single-core]] [[ARM Cortex-A7|Cortex-A7]]&lt;ref name="AppleS1Analysis" /&gt;
+| [[CPU cache|L1d]]:&amp;nbsp;32&amp;nbsp;KB&lt;ref name="AppleS1Analysis" /&gt;&lt;br&gt;[[CPU cache|L2]]:&amp;nbsp;256&amp;nbsp;KB&lt;ref name="AppleS1Analysis" /&gt;
+| [[PowerVR#Series 5 (SGX)|PowerVR Series 5]]&lt;ref name="AppleS1Analysis" /&gt;&lt;ref name="AppleInsider150424"&gt;{{cite web|url=http://appleinsider.com/articles/15/04/23/apple-watch-runs-most-of-ios-82-may-use-a5-equivalent-processor|title=Apple Watch runs 'most' of iOS 8.2, may use A5-equivalent processor|publisher=[[AppleInsider]]|accessdate=25 April 2015}}&lt;/ref&gt;
+| [[LPDDR3]]&lt;ref name="AnandTechAppleWatchReview"&gt;{{cite web|url=http://www.anandtech.com/show/9381/the-apple-watch-review|title=The Apple Watch Review |publisher=[[AnandTech]]|date=July 20, 2015|accessdate=July 20, 2015|first1=Joshua|last1=Ho|first2=Brandon|last2=Chester}}&lt;/ref&gt;
+|
+| April 2015
+|
+* {{nowrap|[[Apple Watch#First generation|Apple Watch (1st gen.)]]}}
+| watchOS 1.0
+| watchOS 4.x
+|-
+| [[Apple S1P|S1P]]
+| TBC
+| [[File:Apple S1P module.png|100px]]
+| TBC
+| TBC
+| ARMv7k&lt;ref name="anandtechS2Review"&gt;{{cite web|url=https://www.anandtech.com/show/10896/the-apple-watch-series-2-review|title=The Apple Watch Series 2 Review: Building Towards Maturity|publisher=[[AnandTech]]|date=December 20, 2016|accessdate=February 10, 2018|first1=Brandon|last1=Chester}}&lt;/ref&gt;&lt;ref name="ifixit series1"&gt;{{cite web|url=http://ifixit.org/blog/8439/apple-watch-series-1/|title=We Just Took Apart the Apple Watch Series 1—Here’s What We Found Out|publisher=}}&lt;/ref&gt;&lt;ref name="AppleWatch2-launchPR"&gt;{{cite web|url=https://www.apple.com/newsroom/2016/09/apple-introduces-apple-watch-series-2/|title=Apple introduces Apple Watch Series 2|publisher=}}&lt;/ref&gt;
+| 520&amp;nbsp;MHz [[Multi-core processor|dual-core]] [[ARM Cortex-A7|Cortex-A7]] without [[Global Positioning System|GPS]]&lt;ref name="anandtechS2Review" /&gt;
+| L1d:&amp;nbsp;64&amp;nbsp;KB{{citation needed|date=January 2018}}&lt;br&gt;L2:&amp;nbsp;1&amp;nbsp;MB{{citation needed|date=January 2018}}
+| [[PowerVR#Series6|PowerVR Series 6 'Rouge']]&lt;ref name="anandtechS2Review" /&gt;
+| LPDDR3
+|
+| September 2016
+|
+* {{nowrap|[[Apple Watch#Second generation|Apple Watch Series 1]]}}
+| watchOS 3.0
+| Current
+|-
+| [[Apple S2|S2]]
+| TBC
+| [[File:Apple S2 module.png|100px]]
+| TBC
+| TBC
+| ARMv7k&lt;ref name="anandtechS2Review" /&gt;&lt;ref name="ifixit series1" /&gt;&lt;ref name="AppleWatch2-launchPR" /&gt;
+| 520&amp;nbsp;MHz [[Multi-core processor|dual-core]] [[ARM Cortex-A7|Cortex-A7]] with [[Global Positioning System|GPS]]&lt;ref name="anandtechS2Review" /&gt;
+| L1d:&amp;nbsp;64&amp;nbsp;KB{{citation needed|date=January 2018}}&lt;br&gt;L2:&amp;nbsp;1&amp;nbsp;MB{{citation needed|date=January 2018}}
+| PowerVR Series 6 'Rouge'&lt;ref name="anandtechS2Review" /&gt;
+| LPDDR3
+|
+| September 2016
+|
+* {{nowrap|[[Apple Watch Series 2]]}}
+| watchOS 3.0
+| Current
+|-
+| [[Apple S3|S3]] Non-LTE and LTE
+| TBC
+| [[File:Apple S3 module.png|100px]]
+| TBC
+| TBC
+| ARMv7k&lt;ref&gt;{{cite web|url=http://newosxbook.com/forum/viewtopic.php?f=11&amp;t=19557#p23623|title=Apple CPU Architectures|publisher=Jonathan Levin, @Morpheus|date=September 20, 2018}}&lt;/ref&gt;
+| [[Multi-core processor|Dual-core]]
+| TBC
+| TBC
+| LPDDR4
+| Qualcomm MDM9635M (Snapdragon X7 LTE)
+| September 2017
+|
+* {{nowrap|[[Apple Watch Series 3]]}}
+| watchOS 4.0
+| Current
+|-
+| [[Apple S4|S4]] Non-LTE and LTE
+| TBC
+|[[File:Apple S4 module.png|100px]]
+| TBC
+| TBC
+| [[ARMv8|ARMv8-A]] ILP32&lt;ref&gt;{{cite web|url=http://infocenter.arm.com/help/topic/com.arm.doc.dai0490a/index.html|title=ILP32 for AArch64 Whitepaper|publisher=ARM Limited|date=June 9, 2015}}&lt;/ref&gt;&lt;ref name="auto"&gt;{{cite web|url=https://gist.github.com/woachk/943828f37c14563a607a26116435bf27|title=Apple devices in 2018|publisher=woachk, security researcher|date=October 6, 2018}}&lt;/ref&gt;
+| [[Multi-core processor|Dual-core]]
+| TBC
+| Apple G11M &lt;ref name="auto"/&gt;
+| TBC
+| TBC
+| September 2018
+|
+* {{nowrap|[[Apple Watch Series 4]]}}
+| watchOS 5.0
+| Current
+|-
+| [[Apple S5|S5]] Non-LTE and LTE
+| TBC
+| [[File:Apple S5 module.png|100px]]
+| TBC
+| TBC
+| ARMv8-A ILP32
+| [[Multi-core processor|Dual-core]]
+| TBC
+| Apple G11M
+| TBC
+| TBC
+| September 2019
+|
+* {{nowrap|[[Apple Watch Series 5]]}}
+| watchOS 6.0
+| Current
+|}
+
+===T series list===
+{| class="wikitable"
+|-
+! Name !! Model no. !! Image !! [[Semiconductor device fabrication|Semiconductor technology]] !! [[Die (integrated circuit)|Die size]] !! CPU [[Instruction set|ISA]]!! [[CPU]] !! [[CPU cache]] !! [[Graphics processing unit|GPU]] !! Memory technology !! Introduced !! Utilizing devices
+|-
+|[[Apple T1|T1]]
+|APL1023&lt;ref&gt;{{cite web|title=MacBook Pro 13" Touch Bar Teardown|url=https://www.ifixit.com/Teardown/MacBook+Pro+13-Inch+Touch+Bar+Teardown/73480|website=iFixit|accessdate=17 November 2016}}&lt;/ref&gt;
+|[[File:Apple T1 APL1023.jpg|110px|Apple T1 Processor]]
+|
+|
+|ARMv7
+|
+|
+|TBD
+|
+|October 2016
+|
+* {{nowrap|[[MacBook Pro#Fourth generation (Touch Bar and USB-C)|MacBook Pro (13-inch, 2016, Four Thunderbolt 3 Ports)]]}}
+* {{nowrap|[[MacBook Pro#Fourth generation (Touch Bar and USB-C)|MacBook Pro (15-inch, 2016)]]}}
+* {{nowrap|[[MacBook Pro#Fourth generation (Touch Bar and USB-C)|MacBook Pro (13-inch, 2017, Four Thunderbolt 3 Ports)]]}}
+* {{nowrap|[[MacBook Pro#Fourth generation (Touch Bar and USB-C)|MacBook Pro (15-inch, 2017)]]}}
+|-
+|[[Apple T2|T2]]
+|APL1027&lt;ref&gt;{{cite web|url=https://www.ifixit.com/Teardown/iMac+Pro+Teardown/101807|title=iMac Pro Teardown|date=January 2, 2018|publisher=}}&lt;/ref&gt;
+|[[File:Apple T2 APL1027.jpg|110px|Apple T2 Processor]]
+|
+|
+|ARMv8-A
+|
+|
+|TBD
+|LPDDR4
+|December 2017
+|
+* {{nowrap|[[iMac Pro|iMac Pro 2017]]}}
+* {{nowrap|[[MacBook Pro#Fourth generation (Touch Bar and USB-C)|MacBook Pro (13-inch, 2018, Four Thunderbolt 3 Ports)]]}}
+* {{nowrap|[[MacBook Pro#Fourth generation (Touch Bar and USB-C)|MacBook Pro (15-inch, 2018)]]}}
+* {{nowrap|[[Mac mini#4th generation (USB-C, 2018)|Mac mini (2018)]]}}
+* {{nowrap|[[MacBook Air#Third generation (Retina and USB-C)|MacBook Air (2018)]]}}
+* {{nowrap|[[MacBook Pro#Fourth generation (Touch Bar and USB-C)|MacBook Pro (15-inch, 2019)]]}}
+* {{nowrap|[[MacBook Pro#Fourth generation (Touch Bar and USB-C)|MacBook Pro (13-inch, 2019)]]}}
+* {{nowrap|[[MacBook Air#Third generation (Retina and USB-C)|MacBook Air (2019)]]}}
+* {{nowrap|[[MacBook Pro#Fifth generation (Magic Keyboard)|MacBook Pro (16-inch, 2019)]]}}
+* {{nowrap|[[Mac Pro#3rd generation (Tower and USB-C)|Mac Pro (2019)]]}}
+*[[MacBook Air#Third generation (Retina and USB-C)|MacBook Air (2020)]]
+|}
+
+===W series list===
+{| class="wikitable"
+|-
+! Name !! Model no. !! Image !! [[Semiconductor device fabrication|Semiconductor technology]] !! [[Die (integrated circuit)|Die size]] !! CPU [[Instruction set|ISA]]!! [[CPU]] !! [[CPU cache]] !! Memory technology !! Bluetooth !! Introduced !! Utilizing devices
+|-
+|[[#Apple W1|W1]]
+| 343S00130&lt;ref name="W1-techinsights"&gt;{{Cite web|url=http://w2.techinsights.com/l/4202/2017-01-19/wpgz2|title=Apple W1 343S00131 Bluetooth Module|last=techinsights.com|website=w2.techinsights.com|access-date=2017-02-17}}&lt;/ref&gt;&lt;br&gt;343S00131&lt;ref name="W1-techinsights" /&gt;
+|[[File:Apple W1 343S00130.jpg|110px|Apple W1 chip]]
+|TBC
+|14.3&amp;nbsp;mm&lt;sup&gt;2&lt;/sup&gt;&lt;ref name="W1-techinsights" /&gt;
+|TBC
+|TBC
+|TBC
+|TBC
+|4.2
+|September 2016
+|
+* {{nowrap|[[AirPods]] (1st Gen.)}}
+* {{nowrap|Beats Solo3}}
+* {{nowrap|Powerbeats3}}
+* {{nowrap|BeatsX}}
+* {{nowrap|Beats Studio3}}
+* {{nowrap|[[HomePod]]}}
+|-
+|[[#Apple W2|W2]]
+| 338S00348&lt;ref name="W2-techinsights"&gt;{{cite web|url=http://techinsights.com/about-techinsights/overview/blog/apple-watch-series-3-teardown/|title=Apple Watch Series 3 Teardown|first=|last=techinsights.com|website=techinsights.com}}&lt;/ref&gt;
+|[[File:Apple-W2-338S00348.jpg|110px|Apple W2 chip]]
+|TBC
+|TBC
+|TBC
+|TBC
+|TBC
+|TBC
+|4.2
+|September 2017
+|
+* {{nowrap|[[Apple Watch Series 3]]}}
+|-
+|[[#Apple W3|W3]]
+| 338S00464&lt;ref name="W3-techinsights"&gt;{{cite web|url=https://www.techinsights.com/products/far-1810-808|title=Apple W3 338S00464 Wireless Combo SoC Basic Functional Analysis|first=|last=techinsights.com|website=techinsights.com}}&lt;/ref&gt;
+|[[File:Apple_W3_338S00464.jpg|110px|Apple W3 chip]]
+|TBC
+|TBC
+|TBC
+|TBC
+|TBC
+|TBC
+|5.0
+|September 2018
+|
+*[[Apple Watch Series 4]]
+*[[Apple Watch Series 5]]
+|}
+
+===H series list===
+{| class="wikitable"
+|-
+! Name !! Model no. !! Image 
+!Bluetooth!! Introduced !! Utilizing devices
+|-
+|[[Apple H1|H1]]
+|343S00289&lt;ref&gt;{{Cite web|url=https://www.ifixit.com/Teardown/AirPods+2+Teardown/121471|title=AirPods 2 Teardown|date=2019-03-28|website=iFixit|language=en|access-date=2019-04-04}}&lt;/ref&gt;&lt;br/&gt;
+343S00290&lt;ref&gt;{{Cite web|url=http://www.52audio.com/archives/19716.html|title=H2 Audio AirPods 2 Teardown|date=2019-04-26|website=52 Audio|language=en|access-date=2020-03-29}}&lt;/ref&gt;
+|TBC
+|5.0
+|March 2019
+|
+* {{nowrap|[[AirPods|AirPods (2nd gen.)]]}}
+*Powerbeats Pro
+*Beats Solo Pro&lt;ref&gt;{{Cite web|url=https://www.beatsbydre.com/headphones/solo-pro|title=Solo Pro|website=Beats by Dre}}&lt;/ref&gt;
+*[[AirPods|AirPods Pro]]
+|}
+
+===U series list===
+{| class="wikitable"
+|-
+! Name !! Model no. !! Image 
+![[Ultra-wideband]]!! Introduced !! Utilizing devices
+|-
+|[[Apple U1|U1]]
+|TBC
+|[[File:Apple U1.jpg|110px|Apple U1 chip]]
+|TBC
+|September 2019
+|
+* {{nowrap|[[iPhone 11]]}}
+* {{nowrap|[[iPhone 11 Pro]]}}
+* {{nowrap|[[iPhone 11 Pro Max]]}}
+|}
+
+== See also ==
+* [[List of iOS devices]]
+* [[Apple motion coprocessors]]
+* [[List of Samsung System on a Chip|List of Historical Samsung Systems on a Chip]]
+* [[ARM Cortex-A9 MPCore]]
+* [[PowerVR#Series 5 (SGX)|PowerVR SGX]] GPUs were also used in the [[iPhone 3GS]] and the third-generation iPod touch
+* [[PWRficient]], a processor designed by [[P.A. Semi]], a company Apple acquired to form an in-house custom chip design department
+
+==Similar platforms==
+* BCM2xxxx by [[Broadcom]]
+* [[Allwinner A31|A31]] by [[AllWinner Technology Co. Ltd.|AllWinner]]
+* [[Atom (system on chip)|Atom]] by [[Intel]]
+* [[Exynos]] by [[Samsung]]
+* [[I.MX#i.MX6x series|i.MX]] by [[Freescale Semiconductor]]
+* [[Jaguar (microarchitecture)|Jaguar]] and [[Puma (microarchitecture)|Puma]] by [[AMD]]
+* [[HiSilicon|Kirin]] by HiSilicon
+* [[MediaTek#Smartphone application &amp; modem processors / SoCs|MTxxxx]] by [[MediaTek]]
+* [[NovaThor]] by [[ST-Ericsson]]
+* [[OMAP]] by [[Texas Instruments]]
+* [[Rockchip#RK30xx series|RK3xxx]] by [[Rockchip]]
+* [[Snapdragon (system on chip)|Snapdragon]] by [[Qualcomm]]
+* [[Tegra]] by [[Nvidia]]
+
+==References==
+{{Reflist}}
+
+== Further reading ==
+* Gurman, Mark (January 29, 2018). "[https://www.bloomberg.com/graphics/2018-apple-custom-chips/ How Apple Built a Chip Powerhouse to Threaten Qualcomm and Intel]". ''[[Bloomberg Businessweek]]''.
+
+{{ARM-based chips}}
+{{Apple Inc. hardware}}
+{{Apple Inc.}}
+{{Electronics industry in the United States}}
+
+[[Category:Apple Inc. mobile processors| ]]
+[[Category:ARM architecture]]
+[[Category:Computer-related introductions in 2011]]
+[[Category:Microprocessors]]
+[[Category:System on a chip]]</text>
+      <sha1>i4g7trpremmq6lhejg8jig1bomuh5jz</sha1>
+    </revision>
+  </page>
+</mediawiki>

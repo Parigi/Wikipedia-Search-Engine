@@ -1,0 +1,161 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.10/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.10/ http://www.mediawiki.org/xml/export-0.10.xsd" version="0.10" xml:lang="en">
+  <siteinfo>
+    <sitename>Wikipedia</sitename>
+    <dbname>enwiki</dbname>
+    <base>https://en.wikipedia.org/wiki/Main_Page</base>
+    <generator>MediaWiki 1.35.0-wmf.36</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Media</namespace>
+      <namespace key="-1" case="first-letter">Special</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Talk</namespace>
+      <namespace key="2" case="first-letter">User</namespace>
+      <namespace key="3" case="first-letter">User talk</namespace>
+      <namespace key="4" case="first-letter">Wikipedia</namespace>
+      <namespace key="5" case="first-letter">Wikipedia talk</namespace>
+      <namespace key="6" case="first-letter">File</namespace>
+      <namespace key="7" case="first-letter">File talk</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki talk</namespace>
+      <namespace key="10" case="first-letter">Template</namespace>
+      <namespace key="11" case="first-letter">Template talk</namespace>
+      <namespace key="12" case="first-letter">Help</namespace>
+      <namespace key="13" case="first-letter">Help talk</namespace>
+      <namespace key="14" case="first-letter">Category</namespace>
+      <namespace key="15" case="first-letter">Category talk</namespace>
+      <namespace key="100" case="first-letter">Portal</namespace>
+      <namespace key="101" case="first-letter">Portal talk</namespace>
+      <namespace key="108" case="first-letter">Book</namespace>
+      <namespace key="109" case="first-letter">Book talk</namespace>
+      <namespace key="118" case="first-letter">Draft</namespace>
+      <namespace key="119" case="first-letter">Draft talk</namespace>
+      <namespace key="446" case="first-letter">Education Program</namespace>
+      <namespace key="447" case="first-letter">Education Program talk</namespace>
+      <namespace key="710" case="first-letter">TimedText</namespace>
+      <namespace key="711" case="first-letter">TimedText talk</namespace>
+      <namespace key="828" case="first-letter">Module</namespace>
+      <namespace key="829" case="first-letter">Module talk</namespace>
+      <namespace key="2300" case="first-letter">Gadget</namespace>
+      <namespace key="2301" case="first-letter">Gadget talk</namespace>
+      <namespace key="2302" case="case-sensitive">Gadget definition</namespace>
+      <namespace key="2303" case="case-sensitive">Gadget definition talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Ch (computer programming)</title>
+    <ns>0</ns>
+    <id>31643142</id>
+    <revision>
+      <id>949166894</id>
+      <parentid>946210136</parentid>
+      <timestamp>2020-04-05T00:44:34Z</timestamp>
+      <contributor>
+        <username>Citation bot</username>
+        <id>7903804</id>
+      </contributor>
+      <comment>Alter: title. Add: edition. | You can [[WP:UCB|use this bot]] yourself. [[WP:DBUG|Report bugs here]]. | Activated by Rsjaffe | [[Category:C_programming_language_family]] | via #UCB_Category</comment>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="15032" xml:space="preserve">{{Multiple issues|
+{{confusing|date=June 2011}}
+{{tone|date=September 2017}}
+{{weasel|date=September 2017}}
+}}
+{{Infobox software
+| name                 = Ch C/C++ interpreter
+| logo                 =
+| screenshot           =
+| caption              =
+| author               = Harry H. Cheng
+| developer            = SoftIntegration, Inc.
+| released             = {{Start date and age|2001|10|01}}
+| latest release version = 8.0.0
+| latest release date  = {{Start date and age|2017|11|19}}
+| status               = 
+| programming language =  [[C (programming language)|C]]
+| operating system     = [[Microsoft Windows|Windows]], [[OS X]], [[Linux]], [[IBM AIX|AIX]], [[HP-UX]], [[Solaris (operating system)|Solaris]] (SPARC and x86), [[QNX]], [[FreeBSD]]
+| platform             = [[x86]], [[SPARC]]
+| size                 = 
+| language             = English
+| genre                = [[Integrated development environment]]
+| license              = [[Proprietary software]]&lt;br/&gt;'''Standard edition:''' [[freeware]]&lt;br /&gt;'''Student edition:''' [[freeware]] for students&lt;br /&gt;'''Professional edition:''' [[trialware]] for 30 days
+| website              = {{URL|www.softintegration.com}}
+}}
+
+'''Ch''' {{IPAc-en|ˌ|s|iː|ˈ|eɪ|tʃ}} is a proprietary [[cross-platform]] [[C (programming language)|C]] and [[C++]] [[Interpreter (computing)|interpreter]] and scripting language environment, originally designed by Harry H. Cheng as a scripting language for beginners to learn mathematics, computing, [[numerical analysis]] (numeric methods), and programming in C/C++. Ch is now developed and marketed by SoftIntegration, Inc. A student edition is freely available. Ch Professional Edition for Raspberry Pi is free for non-commercial use.
+
+Ch can be embedded in C/C++ application programs. It has numerical computing and graphical plotting features. Ch is a combined shell and IDE.&lt;ref&gt;{{cite journal |last= Veeraraghavan |first= Sriranga |year= 2013 |title= An introduction to Ch: Implementing a temperature converter in Ch |url= http://www.techworld.com.au/article/452524/an_introduction_ch_implementing_temperature_converter_ch/ |publisher= ComputerWorld}}&lt;/ref&gt; Ch shell combines the features of common shell and C language.&lt;ref&gt;[http://www.softintegration.com/docs/ch/shell/ Ch Shell]&lt;/ref&gt; ChIDE provides quick code navigation and symbolic debugging.  It is based on embedded Ch, Scite and Scintilla.&lt;ref&gt;[http://www.softintegration.com/docs/ch/chide/ Ch IDE]&lt;/ref&gt;&lt;ref&gt;{{cite journal |last= Wang |first= Gary |year= 2002 |title= Ch Solves Portability Headaches |journal= IEEE Spectrum |volume= 39 |issue= 6 |pages= 59 |doi= 10.1109/MSPEC.2002.1049264 }}&lt;/ref&gt;
+
+Ch is written in C and runs on [[Microsoft Windows|Windows]], [[Linux]], [[macOS]], [[FreeBSD]], [[IBM AIX|AIX]], [[Solaris (operating system)|Solaris]], [[QNX]], and [[HP-UX]]. It supports C90 and major C99 features, but it does not support the full set of C++ features. C99 complex number, IEEE-754 floating-point arithmetic, and [[variable-length array]] features were supported in Ch before they became part of the [[C99]] standard.&lt;ref&gt;{{cite journal |last= Cheng |first= Harry |year= 1993 |title= Handling of Complex Numbers in the Ch Programming Language |pages= 76–106 |url= http://iospress.metapress.com/content/xml874m51x1w42w0/|journal=Scientific Programming}}&lt;/ref&gt;&lt;ref&gt;{{cite journal |last= Cheng |first= Harry |year= 1993 |title= Scientific Computing in the Ch Programming Language |pages= 49–75 |url= http://iospress.metapress.com/content/f225771541203807/ |publisher= Scientific Programming}}&lt;/ref&gt;&lt;ref&gt;{{cite journal |last= Cheng |first= Harry |year= 1995 |title= Extending C and FORTRAN for Design Automation |pages= 390–395 |url= http://scitation.aip.org/getabs/servlet/GetabsServlet?prog=normal&amp;id=JMDEDB000117000003000390000001&amp;idtype=cvips&amp;gifs=yes&amp;ref=no |publisher= ASME Trans., Journal of Mechanical Design}}&lt;/ref&gt;&lt;ref&gt;{{cite journal |last= Cheng |first= Harry |year= 1995 |title= Extending C with arrays of variable length |pages= 375–406 |doi=10.1016/0920-5489(95)00007-H |journal= Computer Standards &amp; Interfaces |volume= 17 |issue= 4}}{{dead link|date=March 2019|bot=medic}}{{cbignore|bot=medic}}&lt;/ref&gt; An article published by ''Computer Reseller News'' ([[CRN Magazine|CRN]]) named Ch as notable among C-based virtual machines for its functionality and the availability of third-party libraries.&lt;ref&gt;{{cite journal |last= Morejon |first=Mario |year= 2006 |title= Ch Language Rivals Java Functionality |url= http://www.crn.com/reviews/applications-os/175804126/ch-language-rivals-java-functionality.htm |publisher= CRN}}&lt;/ref&gt;
+
+Ch has many toolkits that extend its functions. For example, Ch Mechanism Toolkit is used for design and analysis of commonly used mechanisms such as fourbar linkage, five-bar linkage, six-bar linkage, crank-slider mechanism, and cam-follower system.&lt;ref&gt;{{cite journal |last= Cheng |first= Harry |year= 2006 |title= Object-Oriented Interactive Mechanism Design and Analysis |journal= Engineering with Computers |volume= 21 |issue= 3 |pages= 237–246 |doi= 10.1007/s00366-005-0008-4 }}&lt;/ref&gt; Ch Control System Toolkit is used for modeling, design, and analysis of continuous-time or discrete-time linear time invariant (LTI) control systems.&lt;ref&gt;{{cite journal |last= Zhu |first= Yong |year= 2003 |title= An Object-Based Software Package for Interactive Control System Design and Analysis |journal= Journal of Computing and Information Science in Engineering |volume= 3 |issue= 4 |pages= 366–367 |doi= 10.1115/1.1630815 }}&lt;/ref&gt; Both toolkits includes the source code.
+
+Ch is now used and integrated into curriculum by many high schools and universities to teach computing and programming in C/C++.&lt;ref&gt;{{cite journal |last= Cheng |first= Harry |year= 2009 |title= C for the Course |pages= 50–52 |url= http://memagazine.asme.org/Articles/2009/september/C_Course.cfm |publisher= ASME Mechanical Engineering Magazine}}&lt;/ref&gt;&lt;ref&gt;{{cite journal |last= Huber |first= Tom |year= 2010 |title= An Introduction to C and Ch: Your One-Stop Shop for Scientific Computing |doi=10.1109/MCSE.2010.82 |journal= Computing in Science &amp; Engineering |volume= 12 |issue= 4 |page= 7}}&lt;/ref&gt;&lt;ref&gt;{{cite book |last1=Liu |first1=Li |last2= Wang |first2= Zhaoqing|last3=Jiang |first3= Xusheng |year= 2010 |title= Anchor-based programming teaching embedded with Ch platform |pages= 49–52 |publisher= Mechatronics and Embedded Systems and Applications (MESA), IEEE/ASME International Conference|doi=10.1109/MESA.2010.5552033 |chapter=Anchor-based promgramming teaching embedded with Ch platform |isbn=978-1-4244-7101-0 }}&lt;/ref&gt;&lt;ref&gt;{{cite book |last1=Furman |first1=B. |title=Proceedings of 2010 IEEE/ASME International Conference on Mechatronic and Embedded Systems and Applications |last2= Wertz |first2= E. |year= 2010 |pages= 70–75 |publisher= Mechatronics and Embedded Systems and Applications (MESA), IEEE/ASME International Conference|doi=10.1109/MESA.2010.5552091 |isbn=978-1-4244-7101-0 }}&lt;/ref&gt;&lt;ref&gt;{{cite journal |last1=Zhuang |first1=Hong |last2= Wang |first2= Zhao-qing |year= 2009 |title= Experience of Using Ch for Teaching Computer Programming in C |pages= TP311.11–4 |url= http://en.cnki.com.cn/Article_en/CJFDTOTAL-JYJS200907016.htm |publisher= Computer Education |id=[http://en.cnki.com.cn/Article_en/CJFDTOTAL-JYJS200907016.htm CKNI:SUN:JYJS.0.2009-07-016]}}&lt;/ref&gt;&lt;ref&gt;{{cite journal |last1=Wang |first1=Rong |year= 2009 |title= Study of C Language Programming Teaching Method on platform Ch |pages= TP312.1–4 |url= http://en.cnki.com.cn/Article_en/CJFDTOTAL-WOLF200905018.htm |publisher= Journal of Weinan Teachers University |id=[http://en.cnki.com.cn/Article_en/CJFDTOTAL-WOLF200905018.htm CNKI:SUN:WOLF.0.2009-05-018]}}&lt;/ref&gt;&lt;ref&gt;{{cite book |last1=Stopforth |first1=Riaan |title=2013 6th Robotics and Mechatronics Conference (Rob ''Mech'') |year= 2013 |pages= 146–149 |publisher= Robotics and Mechatronics Conference (RobMech)|doi=10.1109/RoboMech.2013.6685507 |isbn=978-1-4799-1518-7 |chapter=Teaching and programming with Ch for tertiary-level mechatronics engineering education }}&lt;/ref&gt; Ch has been integrated into free C-STEM Studio, a platform for learning  computing, science, technology, engineering, and mathematics (C-STEM) with robotics. C-STEM Studio is developed by UC Davis Center for Integrated Computing and STEM Education (C-STEM). It offers the curriculum for K-12 students.
+ 
+Ch supports LEGO Mindstorms NXT and EV3, Arduino, Linkbot, Finch Robot, RoboTalk and Raspberry Pi, Pi Zero, and ARM for robot programming and learning.&lt;ref&gt;
+[http://www.newtonium.com/public_html/Products/RoboWorks/chrobotalk.htm ch robot]&lt;/ref&gt;&lt;ref&gt;
+[http://www.finchrobot.com/software/ch ch finch]&lt;/ref&gt;&lt;ref&gt;[http://www.softintegration.com/company/press/ch_arm_raspberry_pi_released.htm ch raspberry and arm]{{Dead link|date=June 2019 |bot=InternetArchiveBot |fix-attempted=yes }}&lt;/ref&gt; It can also be embedded into the [[LabVIEW]] system-design platform and development environment.&lt;ref&gt;{{Cite web|url=http://iel.ucdavis.edu/projects/chlabview/|title=Embedding a C/C++ Interpreter Ch into LabVIEW for Scripting|last=|first=|date=|website=|access-date=}}&lt;/ref&gt;
+
+== Features ==
+Ch supports the 1999 ISO C Standard (C99) and C++ classes. It is a superset of C with C++ classes. Several major features of C99 are supported, such as complex numbers, variable length arrays (VLAs), IEEE-754 floating-point arithmetic, and generic mathematical functions. The specification for wide characters in Addendum 1 for C90 is also supported.
+
+C++ features available in Ch include:
+
+* Member functions
+* Mixed code and declaration
+* The ''[[this (computer programming)|this]]'' -&gt; pointer
+* Reference type and pass-by-reference
+* Function-style type conversion
+* Classes
+* Private/public data and functions in classes. Ch is compatible with C++ in that by default, members of a class definition are assumed to be private until a 'public' declaration is given
+* Static member of class/struct/union
+* Const member functions
+* The new and delete operators
+* Constructors and destructors
+* Polymorphic functions
+* The scope resolution operator ::
+* The I/O functions cout, cerr, and cin with endl
+* Arguments for [[variadic function]]s are optional
+
+Ch supports classes in C++ with added abilities, including:
+
+* Classes inside member functions
+* Nested functions with classes
+* Passing member function to argument of pointer-to-function type of functions
+
+Ch can interact with existing C/C++ libraries and call C/C++ functions from Ch script.&lt;ref&gt;{{cite magazine |last= Wilson |first= Matthew |year= 2004 |title= Open-RJ and Ch |url= http://drdobbs.com/184401877?queryText=ChSDK |magazine= Dr. Dobb's Journal}}&lt;/ref&gt;
+As a C/C++ interpreter, Ch can be used as a scripting engine and extension language for applications. Pointers to arrays or variables can be passed and shared in both C-compiled and Ch scripting contexts. One example of an embedded Ch scripting application is Mobile-C, which has been used for collaborative visualization of distributed mesh model.&lt;ref&gt;{{cite magazine |last= Cheng |first= Harry |year= 2009 |title= Speeding-Up Software Development Using Embedded Scripting |pages= 8 |url= http://drdobbs.com/architecture-and-design/212201774 |magazine= Dr. Dobb's Journal}}&lt;/ref&gt;&lt;ref&gt;{{cite book |last1=Wang |first1=Li-rong |title=2009 IEEE 10th International Conference on Computer-Aided Industrial Design &amp; Conceptual Design |pages=1127–1132 |last2= Bo |first2= Yo|last3=Hagiwara |first3= I |publisher= Computer-Aided Industrial Design &amp; Conceptual Design, 2009. CAID &amp; CD 2009. IEEE 10th International Conference|doi=10.1109/CAIDCD.2009.5375178 |year=2009 |isbn=978-1-4244-5266-8 }}&lt;/ref&gt;&lt;ref&gt;{{cite book |last1=Wang |first1=Li-rong |last2= Bo |first2= Yo|last3=Hagiwara |first3= Ichiro |title= An agent based collaborative simplification of 3D mesh model |pages=325–328 |url= http://dl.acm.org/citation.cfm?id=1813032 |year=2009 |publisher= CDVE'09 Proceedings of the 6th international conference on cooperative design, visualization, and engineering|isbn=9783642042645 |series=Cdve'09 }}&lt;/ref&gt;
+
+Ch has a built-in string type (string_t) for automatic memory allocation and de-allocation. It supports shell aliases, history, piping, etc.&lt;ref&gt;{{cite journal |last= Campbell |first= Matt |year= 2003 |title= Ch, A C/C++ Interpreter – New possibilities for people who like C and Unix |url= http://www.mactech.com/articles/mactech/Vol.19/19.09/CInterpreter/index.html |publisher= MACTECH, the journal of Apple technology}}&lt;/ref&gt;&lt;ref&gt;{{cite book|last=Cheng|first=Harry|title=The Ch Language Environment|edition=6.3|year=2010|publisher= SoftIntegration , Inc.|location=Davis, CA}}&lt;/ref&gt;
+
+Ch has built-in 2D/3D graphical plotting features and computational [[array data type|arrays]] for numerical computing. A 2D [[linear equation]] of the form ''b = A*x'' can be written verbatim in Ch.&lt;ref&gt;{{cite journal |last= Glassborow |first= Francis |year= 2001 |title= The Ch Language Environment Version 2.0 |url= http://www.softintegration.com/company/pub/accu.html |pages= 36–37 |publisher= C Vu Magazine}}&lt;/ref&gt;
+
+== See also ==
+* [[CINT]]
+* [[Pike (programming language)]]
+
+== References ==
+{{Reflist}}
+
+== Further reading ==
+* {{cite journal |last=Heller |first=Martin |year=2001 |title=The Ch Language Environment |url=http://www.byte.com/documents/s=1776/byt20011031s0002/1105_heller.html |publisher=[[Byte (magazine)|Byte]] |url-status=dead |archiveurl=https://web.archive.org/web/20011116220556/http://www.byte.com/documents/s%3D1776/byt20011031s0002/1105_heller.html |archivedate=November 16, 2001 }}
+*{{cite magazine |last= Cheng |first= Harry |year= 2002 |title= C99 &amp; Numeric Computing |pages= 28–34 |url= http://drdobbs.com/cpp/184404993 |magazine= Dr. Dobb's Journal}}
+* {{cite magazine |last= Cheng |first= Harry |year= 2006 |title= Ch: A C/C++ Interpreter for Script Computing |pages= 6–12 |url= http://drdobbs.com/184402054 |magazine= Dr. Dobb's Journal}}
+* {{cite book |last= Cheng |first= Harry |year= 2009 |title= C For Engineers &amp; Scientists, An Interpretive Approach |url= http://highered.mcgraw-hill.com/sites/0073376051/ |publisher= McGraw-Hill|isbn= 978-0-07-729046-7}}
+* {{cite book |last= Cheng |first= Harry |year= 2011 |title= C For Engineers &amp; Scientists |url= https://www.amazon.cn/C%E8%AF%AD%E8%A8%80%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1%E6%95%99%E7%A8%8B-%E7%A8%8B%E8%BE%89/dp/B005JR8IW6/ref=sr_1_1?s=books&amp;ie=UTF8&amp;qid=1325463722&amp;sr=1-1 |publisher= Higher Education Press|isbn= 978-0-07-729046-7|edition= Chinese }}
+
+== External links ==
+* {{Official website|www.softintegration.com}}, SoftIntegration
+* [http://www.mobilec.org/ Mobile-C: a Multi-Agent Platform for Mobile C/C++ Agents Home Page]
+* [http://c-stem.ucdavis.edu/studio/ C-STEM Studio]
+
+{{DEFAULTSORT:Ch Interpreter}}
+[[Category:C programming language family]]
+[[Category:Educational programming languages]]
+[[Category:Interpreters (computing)]]
+[[Category:Pedagogic integrated development environments]]</text>
+      <sha1>aah9f2cnzh8n0dv1k16d0fxvd69hxwe</sha1>
+    </revision>
+  </page>
+</mediawiki>

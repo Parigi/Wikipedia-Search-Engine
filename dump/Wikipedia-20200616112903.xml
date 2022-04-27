@@ -1,0 +1,280 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.10/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.10/ http://www.mediawiki.org/xml/export-0.10.xsd" version="0.10" xml:lang="en">
+  <siteinfo>
+    <sitename>Wikipedia</sitename>
+    <dbname>enwiki</dbname>
+    <base>https://en.wikipedia.org/wiki/Main_Page</base>
+    <generator>MediaWiki 1.35.0-wmf.36</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Media</namespace>
+      <namespace key="-1" case="first-letter">Special</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Talk</namespace>
+      <namespace key="2" case="first-letter">User</namespace>
+      <namespace key="3" case="first-letter">User talk</namespace>
+      <namespace key="4" case="first-letter">Wikipedia</namespace>
+      <namespace key="5" case="first-letter">Wikipedia talk</namespace>
+      <namespace key="6" case="first-letter">File</namespace>
+      <namespace key="7" case="first-letter">File talk</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki talk</namespace>
+      <namespace key="10" case="first-letter">Template</namespace>
+      <namespace key="11" case="first-letter">Template talk</namespace>
+      <namespace key="12" case="first-letter">Help</namespace>
+      <namespace key="13" case="first-letter">Help talk</namespace>
+      <namespace key="14" case="first-letter">Category</namespace>
+      <namespace key="15" case="first-letter">Category talk</namespace>
+      <namespace key="100" case="first-letter">Portal</namespace>
+      <namespace key="101" case="first-letter">Portal talk</namespace>
+      <namespace key="108" case="first-letter">Book</namespace>
+      <namespace key="109" case="first-letter">Book talk</namespace>
+      <namespace key="118" case="first-letter">Draft</namespace>
+      <namespace key="119" case="first-letter">Draft talk</namespace>
+      <namespace key="446" case="first-letter">Education Program</namespace>
+      <namespace key="447" case="first-letter">Education Program talk</namespace>
+      <namespace key="710" case="first-letter">TimedText</namespace>
+      <namespace key="711" case="first-letter">TimedText talk</namespace>
+      <namespace key="828" case="first-letter">Module</namespace>
+      <namespace key="829" case="first-letter">Module talk</namespace>
+      <namespace key="2300" case="first-letter">Gadget</namespace>
+      <namespace key="2301" case="first-letter">Gadget talk</namespace>
+      <namespace key="2302" case="case-sensitive">Gadget definition</namespace>
+      <namespace key="2303" case="case-sensitive">Gadget definition talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Apple Lisa</title>
+    <ns>0</ns>
+    <id>77118</id>
+    <revision>
+      <id>959898981</id>
+      <parentid>956381778</parentid>
+      <timestamp>2020-05-31T03:54:25Z</timestamp>
+      <contributor>
+        <username>NASCARfan0548</username>
+        <id>35766075</id>
+      </contributor>
+      <minor/>
+      <comment>Importing Wikidata [[Wikipedia:Short description|short description]]: "Personal computer by Apple Inc." ([[Wikipedia:Shortdesc helper|Shortdesc helper]])</comment>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="48745" xml:space="preserve">{{short description|Personal computer by Apple Inc.}}
+{{For|the MOS 6502 assembler for Apple II computers|Lisa assembler}}
+{{Use mdy dates|date=June 2016}}
+{{original research|date=September 2015}}
+{{Infobox information appliance
+| name = Lisa
+| logo = 
+| image = Apple Lisa.jpg
+| caption = Lisa, with an Apple ProFile external hard disk sitting atop it, and dual 5.25-inch "Twiggy" floppy drives
+| aka = Locally Integrated Software Architecture
+| developer = [[Apple Computer Inc.]]
+| manufacturer = [[Apple Computer Inc.]]
+| family = 
+| type = Personal computer
+| generation = 
+| lifespan = 
+| discontinued = {{End date|1986|08}}
+| media = 
+| os = Lisa OS, [[Xenix]]
+| power = 
+| soc = 
+| cpu = [[Motorola 68000]] {{nowrap|@ 5 [[Hertz|MHz]]}}
+| memory = 
+| storage = 
+| memory card = 
+| display = 
+| graphics = 
+| sound = 
+| input = 
+| controllers = 
+| camera = 
+| touchpad = 
+| connectivity = 
+| platform = 
+| dimensions = 
+| weight = 
+| compatibility = 
+| predecessor = [[Apple II Plus]]&lt;br&gt;[[Apple III]]
+| successor = [[Macintosh XL]]&lt;br&gt;[[Macintosh 128K|Macintosh]]
+| related = 
+| website = &lt;!--{{URL|example.org}}--&gt;
+| title = 
+| releasedate = {{Start date and age|1983|1|19}}
+| price = US$9,995 (equivalent to $25,811.18 in 2020)&lt;ref&gt;https://www.in2013dollars.com/us/inflation/1983?amount=9995&lt;/ref&gt;
+| unitssold = 10,000&lt;ref name=ogrady&gt;{{Cite book |first=Jason D. |last=O'Grady |year=2009 |title=Apple Inc. |publisher=ABC-CLIO |isbn=9780313362446|page=72|quote=By most accounts, Lisa was a failure, selling only 10,000 units. It reportedly cost Apple more than $150 million to develop Lisa ($100 million in software, $50 million in hardware), and it only brought in $100 million in sales for a net $50-million loss.}}&lt;/ref&gt;
+| unitsshipped = 
+| service = 
+| topgame = 
+}}
+'''Lisa''' is a [[desktop computer]] developed by [[Apple Inc.|Apple]], released on January 19, 1983. It is one of the first [[personal computer]]s to present a [[graphical user interface]] (GUI) in a machine aimed at individual business users. Development of the Lisa began in 1978,&lt;ref&gt;{{cite web|author=Christoph Dernbach |url=http://www.mac-history.net/apple-lisa/2007-10-12/apple-lisa |title=Apple Lisa |publisher=Mac History |date=October 12, 2007 |accessdate=November 15, 2012}}&lt;/ref&gt; and it underwent many changes during the development period before shipping at US$9,995 with a five-megabyte [[hard drive]]. The Lisa was challenged by a relatively high price, insufficient software library,  unreliable [[Apple FileWare]] ("Twiggy") [[floppy disk]]s, and the immediate release of the cheaper and faster [[Macintosh 128k|Macintosh]] — yielding lifelong sales of only 10,000 units in two years.
+
+In 1982, after [[Steve Jobs]] was forced out of the Lisa project,&lt;ref&gt;{{cite book|last=Simon|first=Jeffrey S. Young, William L.|title=iCon : Steve Jobs, the greatest second act in the history of business|publisher=[[John Wiley &amp; Sons|Wiley]] (retrieved via Google Books)|location=Hoboken, NJ|isbn=978-0471787846|url=https://books.google.com/books?id=Qv6RHwAACAAJ|edition=Newly updated.|accessdate=January 6, 2014|date=April 14, 2006}}&lt;/ref&gt; he appropriated the existing [[Macintosh]] project, which [[Jef Raskin]] had conceived in 1979 and led to develop a text-based appliance computer. Jobs immediately redefined Macintosh as a cheaper and more usable version of the graphical Lisa. Macintosh was launched in January 1984, quickly surpassing Lisa sales, and assimilating increasing numbers of Lisa staff. Newer Lisa models were introduced that addressed its faults and lowered its price considerably, but the platform failed to achieve favorable sales compared to the much less expensive Mac. The final model, the Lisa 2/10, was modified as the high end of the Macintosh series, the [[Macintosh XL]].&lt;ref name="apple_conf_v2_pg79"&gt;{{cite book|last=Linzmayer|first=Owen W.|title=Apple confidential 2.0 : the definitive history of the world's most colorful company|year=2004|publisher=[[No Starch Press]] (retrieved via Google Books)|location=San Francisco, Calif.|isbn=978-1593270100|page=79|url=https://books.google.com/books?id=mXnw5tM8QRwC&amp;lpg=PA79&amp;dq=&amp;pg=PA79#v=onepage&amp;q&amp;f=false|edition=2nd|accessdate=January 6, 2014}}&lt;/ref&gt;
+
+Considered a commercial failure but with technical acclaim, the Lisa introduced a number of advanced features that would not reappear on the Macintosh or the "PC" platform for many years. Among those is an [[operating system]] with [[protected memory]]&lt;ref&gt;{{cite book |title=Lisa Operating System Reference Manual |page=34}}&lt;/ref&gt; and a more document-oriented workflow. The [[Computer hardware|hardware]] overall is more advanced than the Macintosh, with a hard drive, support for up to 2 [[megabyte]]s (MB) of [[random-access memory]] (RAM), expansion slots, and a larger, higher-resolution display. One notable exception is that the [[Motorola 68000|68000]] [[microprocessor|processor]] in the Macintosh is clocked at 7.89 megahertz (MHz) and the Lisa's is 5&amp;nbsp;MHz.
+
+The complexity of the primarily Pascal-coded Lisa operating system and its associated programs (most notably its office suite) — as well as the ad hoc protected memory implementation (forced by Motorola not having provided an MMU) — is highly-demanding for the CPU (which had no co-processor to speed graphical output) and, to some extent, the storage system. As a result of cost-cutting measures designed to bring the system more into the consumer bracket, advanced software, and other factors — such as the delayed availability of the 68000 and its impact on the design process, Lisa feels sluggish overall. The workstation-tier (albeit at the low end of that spectrum) price and lack of much of a technical application library made it a difficult sell for much of the technical workstation market. However, the success of the earlier IBM PC and Apple's decision to compete with itself, mainly via the Macintosh, also were severe impediments for the platform.
+
+==History==
+===Development===
+====Name====
+Though the documentation shipped with the original Lisa only refers to it as "The Lisa", Apple officially stated the name was an [[acronym]] for "Locally Integrated Software Architecture" or "LISA".&lt;ref&gt;{{cite book|last=O'Grady|first=Jason D.|title=Apple Inc.|year=2009|publisher=[[Greenwood Press]] |location=Westport, Conn.|isbn=978-0313362446|page=[https://archive.org/details/appleinc0000ogra/page/7 7]|url=https://archive.org/details/appleinc0000ogra|url-access=registration|accessdate=January 6, 2014}}&lt;/ref&gt; Because Steve Jobs' first daughter was named [[Lisa Brennan-Jobs|Lisa Nicole Brennan]] (born in 1978), it was normally inferred that the name also had a personal association, and perhaps that the acronym was a [[backronym]] invented later to fit the name. [[Andy Hertzfeld]]&lt;ref&gt;{{cite book|author=Andy Hertzfeld|author-link=Andy Hertzfeld|title=Revolution in the Valley |date=2005 | publisher=O'Reilly |isbn=0-596-00719-1 |chapter=Bicycle |page=36}}&lt;/ref&gt; states the acronym was [[backronym|reverse engineered]] from the name "Lisa" in late 1982 by the Apple marketing team, after they had hired a marketing consultancy firm to come up with names to replace "Lisa" and "Macintosh" (at the time considered by [[Jef Raskin]] to be merely internal project codenames) and then rejected all of the suggestions. Privately, Hertzfeld and the other software developers used "Lisa: Invented Stupid Acronym", a [[recursive acronym|recursive]] backronym, while computer industry [[pundit]]s coined the term "Let's Invent Some Acronym" to fit the Lisa's name. Decades later, Jobs would tell his biographer [[Walter Isaacson]]: "Obviously it was named for my daughter."&lt;ref&gt;{{cite book|last=Isaacson|first=Walter|title=Steve Jobs|year=2011|publisher=Simon &amp; Schuster|isbn=978-1-4516-4853-9|page=[https://archive.org/details/stevejobs00isaa/page/93 93]|url-access=registration|url=https://archive.org/details/stevejobs00isaa/page/93}}&lt;/ref&gt;
+
+====Research and design====
+The project began in 1978 as an effort to create a more modern version of the then-conventional design epitomized by the [[Apple II]]. A ten-person team occupied its first dedicated office, which was nicknamed "the Good Earth building" and located at 20863 Stevens Creek Boulevard next to the restaurant named Good Earth.&lt;ref name="Good Earth"&gt;{{cite web |first=Andy | last=Hertzfeld | date=October 1980 | title=Good Earth | url=https://www.folklore.org/StoryView.py?project=Macintosh&amp;story=Good_Earth.txt&amp;sortOrder=Sort+by+Date | accessdate=March 11, 2019}}&lt;/ref&gt; Initial team leader Ken Rothmuller was soon replaced by [[John Couch (American executive)|John Couch]], under whose direction the project evolved into the "[[WIMP (computing)|window-and-mouse-driven]]" form of its eventual release. [[Trip Hawkins]] and [[Jef Raskin]] contributed to this change in design.&lt;ref&gt;{{cite web|url=http://lowendmac.com/orchard/05/apple-lisa-history.html|title=History of Apple's Lisa|date=October 6, 2005|publisher=}}&lt;/ref&gt; Apple's cofounder [[Steve Jobs]] was involved in the concept.
+
+At Xerox's [[PARC (company)|Palo Alto Research Center]], research had already been underway for several years to create a new humanized way to organize the computer screen, today known as the [[desktop metaphor]]. Steve Jobs visited Xerox PARC in 1979, and was absorbed and excited by the revolutionary mouse-driven GUI of the [[Xerox Alto]]. By late 1979, Jobs successfully negotiated a payment of Apple stock to Xerox, in exchange for his Lisa team to receive two demonstrations of ongoing research projects at Xerox PARC. When the Apple team saw the demonstration of the [[Xerox Alto|Alto]] computer, they were able to see in action the basic elements of what constituted a workable GUI. The Lisa team put a great deal of work into making the graphical interface a mainstream commercial product.
+
+The Lisa was a major project at Apple, which reportedly spent more than $50&amp;nbsp;million on its development.{{r|williams198302}} More than 90 people participated in the design, plus more in the sales and marketing effort, to launch the machine. ''[[BYTE]]'' credited [[Wayne Rosing]] with being the most important person on the development of the computer's hardware until the machine went into production, at which point he became technical lead for the entire Lisa project. The hardware development team was headed by Robert Paratore.&lt;ref&gt;{{cite web|url=http://www.linkedin.com/in/rparatore|title=Robert Paratore|publisher=}}&lt;/ref&gt; The industrial design, product design, and mechanical packaging were headed by Bill Dresselhaus, the Principal Product Designer of Lisa, with his team of internal product designers and contract product designers from the firm that eventually became IDEO. [[Bruce Daniels]] was in charge of applications development, and [[Larry Tesler]] was in charge of system software.&lt;ref name="byte198302"&gt;{{cite news | title=An Interview with Wayne Rosing, Bruce Daniels, and Larry Tesler | work=[[BYTE]] | date=February 1983 | accessdate=October 19, 2013 |author1=Morgan, Chris |author2=Williams, Gregg |author3=Lemmons, Phil | pages=90–114 | url=https://archive.org/details/byte-magazine-1983-02 }}&lt;/ref&gt; The user interface was designed in a six-month period, after which, the hardware, operating system, and applications were all created in parallel.
+
+In 1982, after [[Steve Jobs]] was forced out of the Lisa project,&lt;ref&gt;{{cite book|last=Simon|first=Jeffrey S. Young, William L.|title=iCon : Steve Jobs, the greatest second act in the history of business|publisher=[[John Wiley &amp; Sons|Wiley]]|location=Hoboken, NJ|isbn=978-0471787846|url=https://books.google.com/books?id=Qv6RHwAACAAJ|edition=Newly updated.|accessdate=January 6, 2014|date=April 14, 2006}}&lt;/ref&gt; he appropriated the existing [[Macintosh]] project, which [[Jef Raskin]] had conceived in 1979 and led to develop a text-based appliance computer. Jobs redefined Macintosh as a cheaper and more usable Lisa, leading the project in parallel and in secret, and substantially motivated to compete with the Lisa team.
+
+In September 1981, below the announcement of the [[IBM PC]], ''[[InfoWorld]]'' reported on Lisa, "McIntosh", and another Apple computer secretly under development "to be ready for release within a year". It described Lisa as having a 68000 and 128KB RAM, and "designed to compete with the new [[Xerox Star]] at a considerably lower price".&lt;ref name="freiberger19810914"&gt;{{Cite news |url=https://books.google.com/books?id=Mj0EAAAAMBAJ&amp;lpg=PA14&amp;pg=PA1#v=onepage&amp;q&amp;f=true |title=Apple Develops New Computers |last=Freiberger |first=Paul |date=1981-09-14 |work=InfoWorld |access-date=2019-04-08 |pages=1, 14}}&lt;/ref&gt; In May 1982 the magazine reported that "Apple's yet-to-be-announced Lisa 68000 network work station is also widely rumored to have [[Apple Mouse#Lisa Mouse (A9M0050)|a mouse]]."&lt;ref name="markoff19820510"&gt;{{cite news | url=https://books.google.com/books?id=bDAEAAAAMBAJ&amp;lpg=PA22&amp;pg=PA10#v=onepage&amp;q&amp;f=true | title=Computer mice are scurrying out of R&amp;D labs | work=InfoWorld | date=May 10, 1982 | accessdate=August 26, 2015 | author=Markoff, John | pages=10–11}}&lt;/ref&gt;
+
+===Launch===
+Lisa's low sales were quickly surpassed by the January 1984 launch of the Macintosh. Newer versions of the Lisa were introduced that addressed its faults and lowered its price considerably, but it failed to achieve favorable sales compared to the much less expensive Mac. The Macintosh project assimilated a lot more Lisa staff. The final revision of the Lisa, the Lisa 2/10, was modified and sold as the [[Macintosh XL]].&lt;ref name="apple_conf_v2_pg79"/&gt;
+
+===Discontinuation===
+The high cost and the delays in its release date contributed to the Lisa's discontinuation although it was repackaged and sold at $4,995, as the Lisa 2. In 1986, the entire Lisa platform was discontinued.
+
+In 1987, [[Sun Remarketing]] purchased about 5,000 [[Macintosh XL]]s and upgraded them. Some leftover Lisa computers and spare parts were available until recently when Cherokee Data (who purchased Sun Remarketing) went out of business.{{When|date=January 2017}} In 1989, with the help of Sun Remarketing, Apple disposed of approximately 2,700 unsold Lisas in a guarded landfill in [[Logan, Utah]], in order to receive a tax write-off on the unsold inventory.&lt;ref&gt;{{cite news |url=http://news.hjnews.com/opinion/article_b71cddba-f7a0-11e0-8054-001cc4c002e0.html |title=Editor's Corner: Logan has interesting link to Apple computer history |date=October 16, 2011 |author=McCollum, Charles |accessdate=February 24, 2014 |publisher=[[The Herald Journal]]}}&lt;/ref&gt;
+
+{{Timeline of Lisa models|headerextension==}}
+
+==Overview==
+===Hardware===
+[[File:Apple Lisa IO board.JPG|thumb|The IO board in an Apple Lisa with a [[Macintosh XL]] UV-EPROM installed]]
+The Lisa was first introduced on January 19, 1983. It is one of the first personal computer systems with a [[graphical user interface]] (GUI) to be sold commercially. It uses a [[Motorola 68000]] [[central processing unit|CPU]] clocked at 5&amp;nbsp;MHz and has 1&amp;nbsp;MB of RAM. It could be upgraded to 2 MB and later shipped with as little as 512 kilobytes. The CPU speed and model was not changed, from the release of the Lisa 1 to the repackaging of the hardware as Macintosh XL.
+
+The Lisa computer [[real-time clock]] uses a 4-bit integer and the base year is defined as 1980, and the software won't accept any value below 1981 so the only valid range is 1981–1995. Thus it has a "1995 problem".&lt;ref name=mcqk/&gt; The real-time clock depended on a 4 x [[AA battery|AA-cell]] [[Nickel–cadmium battery|NiCd]] pack of batteries that only lasted for a few hours when main power was not present. The batteries, over time, were prone to failure — causing the packs to burst open and leak corrosive alkaline electrolyte that could ruin the circuit boards.&lt;ref name=mcqk&gt;{{cite web|title=The little-known Apple Lisa: Five quirks and oddities |date=January 30, 2013 |accessdate=April 7, 2016 |url=http://www.macworld.com/article/2026544/the-little-known-apple-lisa-five-quirks-and-oddities.html }}&lt;/ref&gt;
+
+The integrated monochrome black-on-white monitor had 720*364 rectangular pixels on a 12" screen.
+
+Among the printers supported by Lisa were the [[Apple Dot Matrix Printer]], [[Apple Daisy Wheel Printer]], the [[Apple ImageWriter]] dot matrix, and a Canon [[inkjet printer]]. Inkjet printing was quite new at the time. Despite having a monochromatic monitor, Apple enabled software to support some color printing, due to the existence of the Canon printer.
+
+====CPU====
+The use of the slowest-clocked version of the 68000 offered by Motorola was a cost-cutting measure, as the 68000 was priced very high initially. By the time the price had come down very greatly, due to competition from the IBM PC primarily, Apple had already designed the Lisa software to rely on the timing of the 5&amp;nbsp;MHz version of the processor. The Macintosh team was able to use a nearly 8&amp;nbsp;MHz processor as the much less feature-rich (in most respects) Macintosh software did not use the underlying Lisa operating system code, except for [[QuickDraw]] (which was adapted). Macintosh was also coded mostly in assembly which led to serious bugs but greater performance, versus the primarily [[Pascal (programming language)|Pascal]]-coded Lisa software. Pascal was used for Lisa mainly to save development time, which also included a great deal of [[quality assurance]] as the machine was intended for professionals, given the high complexity of the software. Lisa had been in development for such a long time that it was not initially developed for the 68000 and much of its development was done on a pre-chip form of the 68000, which was much slower than the shipping CPU. (Somewhat similarly, the Macintosh was initially envisioned to use the 8-bit Motorola 6809 — although the Macintosh was envisioned, initially, as being a very inexpensive machine.) The sophistication of the Lisa software (which included a sophisticated multitasking GUI requiring a hard disk), coupled with the slow speed of the CPU, RAM, lack of hardware graphics acceleration co-processor, and protected memory implementation — led to the impression that the Lisa system was very slow. However, a productivity study done in 1984 rated the Lisa above the IBM PC and Macintosh, perhaps countering the high degree of focus on UI snappiness and other factors in perceived speed rather than actual productivity speed.
+
+====RAM====
+Lisa was designed to use slower, but more reliable, parity memory, and other features that reduced speed but increased stability and value. Lisa was able to operate when RAM chips had failed on its memory boards, unlike later Macintosh systems, reducing the cost to owners by enabling the usage of partially-failed boards. The Lisa system would isolate the failed chip or chips and use the rest of the board's RAM. This was particularly important given the very large number of individual RAM chips Lisa used due to 1 megabyte being a huge amount of RAM (and around $2500 in cost to Apple per machine) in 1983 for a consumer system. RAM density, per chip, was low at the time, resulting in many chips being required to achieve 1 MB. RAM boards take up more space in the Lisa system than its motherboard. RAM prices actually increased later in the 1980s, as Japanese manufacturers had cornered the market. This was a primary factor in Apple's decision to so greatly reduce the RAM amount shipped with the Macintosh and the later [[Apple IIGS]]. The original Macintosh could not even have its 128K RAM upgraded. Lisa, by contrast, could be upgraded to 2 MB. Due to the RAM price problem, Steve Jobs was forced to demo the original Macintosh by quietly substituting a 512K prototype so that he could run speech synthesis to impress the crowd.&lt;ref&gt;{{cite web |url=https://www.folklore.org/StoryView.py?project=Macintosh&amp;story=Intro_Demo.txt |title=It Sure Is Great To Get Out Of That Bag! |last=Hertzfeld |first=Andy |date= |website=Folklore.org |publisher=Andy Hertzfeld |access-date=24 September 2019}}&lt;/ref&gt;
+
+====Drives====
+The original Lisa, or Lisa 1, has two [[Apple FileWare]] 5.25-inch double-sided variable-speed [[floppy disk|floppy disk drives]], more commonly known by Apple's internal code name for the drive, "Twiggy".&lt;ref name="apple_conf_v2_pg77-78"&gt;{{cite book|last=Linzmayer|first=Owen W.|title=Apple confidential 2.0 : the definitive history of the world's most colorful company|year=2004|publisher=[[No Starch Press]] (retrieved via Google Books)|location=San Francisco, Calif.|isbn=978-1593270100|pages=77–78|url=https://books.google.com/books?id=mXnw5tM8QRwC&amp;lpg=PA79&amp;dq=&amp;pg=PA77#v=onepage&amp;q&amp;f=false|edition=2nd}}&lt;/ref&gt; They have, for the time, a very high capacity of approximately 871&amp;nbsp;kB each, but proved to be unreliable&lt;ref name="apple_conf_v2_pg78"&gt;{{cite book|last=Linzmayer|first=Owen W.|title=Apple confidential 2.0 : the definitive history of the world's most colorful company|year=2004|publisher=[[No Starch Press]] (retrieved via Google Books)|location=San Francisco, Calif.|isbn=978-1593270100|page=78|url=https://books.google.com/books?id=mXnw5tM8QRwC&amp;lpg=PA78&amp;dq=&amp;pg=PA78#v=onepage&amp;q&amp;f=false|edition=2nd|accessdate=January 6, 2014}}&lt;/ref&gt; and required non-standard diskettes. Competing systems implementing that level of per-diskette data storage had to utilize much larger 8" floppy disks. These disks were seen as cumbersome and old-fashioned for a consumer system. Apple had worked hard to increase the storage capacity of the minifloppy-size disk by pioneering features that Sony perfected shortly after with its microfloppy drives. Although it used a Twiggy in the prototype stage, the first Macintosh was launched the following year with one of the Sony 400&amp;nbsp;kB 3.5" "microfloppy" floppy disk drives. 1984 also saw the release of the first revision of Lisa, the Lisa 2, which also included a single Sony drive. Apple provided free upgrades to Lisa 1 owners to Lisa 2 hardware, including the replacement of the Twiggy drives with a single Sony. The Sony drive, being only single-sided, could not store nearly as much data as a single Twiggy, but did so with greater reliability. The IBM PC shipped with a minifloppy (5.25-inch) drive that stored even less data, 360K. It stored less data, was slower, and also did not have the protective shell of the Sony microfloppy drive diskettes, which improves reliability.
+
+An optional external 5&amp;nbsp;MB or, later, a 10&amp;nbsp;MB [[Apple ProFile]] [[hard drive]] (originally designed and produced for the [[Apple III]] by a third party), was available. With the introduction of the Lisa 2/10, an optional 10&amp;nbsp;MB compact internal proprietary hard disk manufactured by Apple, known as the "Widget", was also offered. As with the Twiggy, the Widget developed a reputation for reliability problems. The ProFile, by contrast, typically was long-lived. The Widget was incompatible with earlier Lisa models.
+
+In an effort to increase the reliability of the machine, Apple included, starting with Lisa 1, several of mechanisms involved with disk storage that were innovative and not present on at least early releases of the Macintosh, nor IBM PC. For example, block sparing was implemented, which would set aside bad blocks, even on floppy disks.&lt;ref&gt;{{cite web |url=https://www.cs.oberlin.edu/~jwalker/lisa-legacy/ |title=The Legacy of the Apple Lisa Personal Computer: An Outsider's View |last=Craig |first=David |date=16 February 1993 |website=Oberlin Computer Science |publisher=David T. Craig |access-date=24 September 2019 |quote=}}&lt;/ref&gt; Another feature was the redundant storage of critical operating system information, for recovery in case of corruption.
+
+====Lisa 2====
+[[File:Apple Lisa2-IMG 1517.jpg|thumb|Lisa 2]]
+The first hardware revision, the Lisa 2, was released in January 1984 and was priced between $3,495 and $5,495 US.&lt;ref name="apple_conf_v2_pg79"/&gt;&lt;ref&gt;{{cite web|url=http://macgui.com/usenet/?group=6&amp;id=278|title=Mac GUI :: Re: MACINTOSH opinion and request|website=macgui.com}}&lt;/ref&gt; It was much less expensive than the original model and dropped the Twiggy floppy drives in favor of a single [[Macintosh External Disk Drive#400K|400k Sony microfloppy]].&lt;ref name="infoworld_lisa2_intro_pg65"&gt;{{cite journal|last=Mace|first=Scott|title=Apple introduces Lisa 2; basic model to cost $3,500|journal=[[InfoWorld]]|date=February 13, 1984|volume=6|issue=7|page=65|url=https://books.google.com/book?id=gi4EAAAAMBAJ&amp;lpg=PA65&amp;dq=&amp;pg=PA65#v=onepage&amp;q&amp;f=false|accessdate=January 6, 2014}}&lt;/ref&gt; The Lisa 2 has as little as 512&amp;nbsp;kB of RAM. The Lisa 2/5 consists of a Lisa 2 bundled with an external 5- or 10-megabyte hard drive.&lt;ref name=mac_repair_secrets_pg236&gt;{{cite book|last=Pina|first=Larry|title=[[Macintosh Repair &amp; Upgrade Secrets]]|year=1990|publisher=Hayden Books|location=Carmel, IN, USA|isbn=0672484528|page=236|edition=1st|authorlink=Larry Pina}}&lt;/ref&gt; In 1984, at the same time the Macintosh was officially announced, Apple offered free upgrades to the Lisa 2/5 to all Lisa 1 owners, by swapping the pair of Twiggy drives for a single 3.5-inch drive,&lt;ref name="infoworld_lisa2_intro_pg66"&gt;{{cite journal|last=Mace|first=Scott|title=Apple introduces Lisa 2; basic model to cost $3,500|journal=[[InfoWorld]]|date=February 13, 1984|volume=6|issue=7|page=66|url=https://books.google.com/books?id=gi4EAAAAMBAJ&amp;lpg=PA65&amp;dq=&amp;pg=PA65#v=onepage&amp;q&amp;f=false|accessdate=January 6, 2014}}&lt;/ref&gt; and updating the boot ROM and I/O ROM. In addition, the Lisa 2's new front faceplate was included to accommodate the reconfigured floppy disk drive. With this change, the Lisa 2 had the notable distinction of introducing the new inlaid Apple logo, as well as the first [[Snow White design language]] features. The '''Lisa 2/10''' features a 10MB internal hard drive (but no external parallel port) and a standard configuration of 1MB of RAM.&lt;ref name="mac_repair_secrets_pg236"/&gt;
+
+Developing early Macintosh software required a Lisa 2.&lt;ref name="dacruz19840611"&gt;{{cite mailing list | url=http://www.columbia.edu/kermit/ftp/e/mail.84b | title=Macintosh Kermit No-Progress Report | publisher=Kermit Project, Columbia University | mailinglist=Info-Kermit mailing list | date=June 11, 1984 | accessdate=February 24, 2016 | author=da Cruz, Frank}}&lt;/ref&gt; There were relatively few third-party hardware offerings for the Lisa, as compared to the earlier [[Apple II]].{{Citation needed|date=April 2010}} [[AST Research|AST]] offered a 1.5&amp;nbsp;MB memory board, which&amp;nbsp;– when combined with the standard Apple 512&amp;nbsp;KB memory board&amp;nbsp;– expands the Lisa to a total of 2&amp;nbsp;MB of memory, the maximum amount that the [[Memory management unit|MMU]] can address.
+
+Late in the product life of the Lisa, there were third-party hard disk drives, SCSI controllers, and double-sided 3.5-inch floppy-disk upgrades. Unlike the [[Macintosh 128K|original Macintosh]], the Lisa features expansion slots; conversely, like the Apple II, it is an "open system". The Lisa 2 motherboard has a very basic [[backplane]] with virtually no electronic components, but plenty of [[edge connector]] sockets and slots. There are two RAM slots, one CPU upgrade slot, and one I/O slot all in parallel placement to each other. At the other end, there are three "Lisa" slots in parallel.
+
+====Macintosh XL====
+[[File:Macintosh XL 1.jpg|thumb|Macintosh XL]]
+{{Main|Macintosh XL}}
+
+In January 1985, following the Macintosh, the Lisa 2/10 (with integrated 10&amp;nbsp;MB hard drive) was rebranded as Macintosh XL.  It was given a hardware and software kit, enabling it to reboot into Macintosh mode and positioning it as Apple's high-end Macintosh. The price was lowered yet again, to $4,000 and sales tripled, but CEO John Sculley said that Apple would have lost money increasing production to meet the new demand.&lt;ref name="Infoworld June 3, 1985"&gt;{{cite journal | magazine=[[InfoWorld]] | title=Apple's LISA meets a bad end | date=June 3, 1985 | url=https://books.google.com/books?id=8C4EAAAAMBAJ&amp;pg=PA20&amp;lpg=PA20&amp;dq=Apple%27s+LISA+meets+a+bad+end | accessdate=October 26, 2017 |volume=7|issue=22| page=21|issn=0199-6649}}&lt;/ref&gt; Apple discontinued the Macintosh XL, leaving an eight-month void in Apple's high-end product line until the [[Macintosh Plus]] was introduced in 1986. The report that many Lisa machines were never sold and were disposed of by Apple is particularly interesting in light of Sculley's decision concerning the increased demand.
+
+===Software===
+[[File:Apple Lisa Office System 3.1.png|thumb|A screenshot of the Lisa Office System 3.1]]
+
+====Lisa OS====
+&lt;!-- Target of the redirect [[Lisa OS]] --&gt;
+{{expand section | reason=Smalltalk and pioneering in object orientation|date=March 2019}}
+The Lisa [[operating system]] features [[protected memory]],&lt;ref&gt;{{cite book |title=Lisa Operating System Reference Manual |page=50}}&lt;/ref&gt; enabled by a crude hardware circuit compared to the [[Sun-1]] workstation (c. 1982), which features a full memory management unit. [[Motorola]] did not have an MMU (memory-management unit) for the [[68000]] ready in time, so third parties such as Apple had to come up with their own solutions. Despite the sluggishness of Apple's solution, which was also the result of a cost-cutting compromise, the Lisa system differed from the Macintosh system which had no protected memory until OS X, released eighteen years later. (Motorola's initial MMU also was disliked for its high cost and slow performance.) Based, in part, on elements from the [[Apple III]] [[Apple SOS|SOS]] operating system released three years earlier, the Lisa's [[disk operating system]] also organizes its files in hierarchical directories, as do [[UNIX]] workstations of the time which were the main competition to Lisa in terms of price and hardware. [[Filesystem]] directories correspond to GUI folders, as with previous Xerox PARC computers from which the Lisa borrowed heavily. Unlike the first Macintosh, whose operating system could not utilize a hard disk in its first versions, the Lisa system was designed around a hard disk being present.
+
+Conceptually, the Lisa resembles the [[Xerox Star]] in the sense that it was envisioned as an office computing system. It also resembles [[Microsoft Office]] from a software standpoint, in that its software is designed to be an integrated "office suite". The Lisa's office software suite shipped long before the existence of Microsoft Office, although some of the constituent components differ (e.g. Lisa shipped with no presentation package and Office shipped without a projection package). Consequently, Lisa has two main user modes: the Lisa Office System and the Workshop. The Lisa Office System is the GUI environment for end users. The Workshop is a program development environment and is almost entirely text-based, though it uses a GUI text editor. The Lisa Office System was eventually renamed "7/7", in reference to the seven supplied application programs: LisaWrite, LisaCalc, LisaDraw, LisaGraph, [[LisaProject]], LisaList, and LisaTerminal.
+
+Apple's warranty said that this software works precisely as stated, and Apple refunded an unspecified number of users, in full for their systems.{{Citation needed|reason=Oh really? I hadn't heard of this. Source it.|date=September 2019}} These operating system frailties, and costly recalls, combined with the very high price point, led to the failure of the Lisa in the marketplace.{{Citation needed|reason=Oh really? Source it.|date=September 2019}} NASA purchased Lisa machines, mainly to use the LisaProject program.
+
+Computer History Museum will release source code for Lisa OS after Apple check source code, but will not include American Heritage dictionary.&lt;ref name="OpenElectronics"&gt;{{cite website|last=Ruggeri|first=Luca|title=The Computer History Museum will open source Apple’s Lisa OS|date=2018-01-17|url=https://www.open-electronics.org/the-computer-history-museum-will-open-source-apples-lisa-os/|accessdate=2020-05-11}}&lt;/ref&gt;
+
+====Task-oriented workflow====
+With Lisa, Apple presented users with what is generally, but imprecisely, known as a document-oriented paradigm. This is contrasted with program-centric design. The user focuses more on the task to accomplish than the tool to accomplish it. Apple presents tasks, with Lisa, in the form of stationery. Rather than opening LisaWrite, for instance, to begin to do word processing, users initially "tear off stationery", visually, that represents the task of word processing. Either that, or they open an existing LisaWrite document that resembles that stationery. By contrast, the Macintosh and most other GUI systems focus primarily on the program that is used to accomplish a task — directing users to that first.
+
+One benefit of task-based computing is that users have less of a need to memorize what program is associated with what task. That problem is compounded by the contemporary practice of naming programs with very unintuitive names such as Chrome and Safari. A drawback of task-oriented design, when presented in document-oriented form, is that the naturalness of the process can be lacking. The most frequently-cited example with Lisa is the use of LisaTerminal, in which a person tears off "terminal stationery" — a broken metaphor. However, task-based design does not necessarily require characterizing everything as a document, or as stationery specifically.
+
+More recently, menus and tabs have been used, rather sparingly, to present more task-based workflows. A "power user" could have somewhat laboriously customized the Apple menu in many versions of Mac OS (prior to OS X) to contain folders that are task-oriented. Tab systems are typically add-ons for contemporary operating systems and can be organized in a task-based manner — such as having a "web browsing" tab that contains various web browser programs. Task-oriented presentation is very helpful for systems that have many programs and a variety of users, such as a language-learning computer lab that caters to those learning a variety of languages. It is also helpful for computer users who have not yet memorized what program name, however unintuitive, is associated with a task. Some [[Linux]] desktop systems combine some unintuitive program names (e.g. Amarok) with task-based organization (menus that organize programs by task) — in the desire to make utilizing Linux desktop systems less of a challenge for those switching from the dominant desktop platforms.
+
+The desire for emotional marketing reinforcement appears to be a strong factor in the choice, by most companies, to promote the program-centric paradigm. Otherwise, there would be little incentive to give programs obscure unintuitive names and/or to add company names to the program name (e.g. Microsoft Word, Microsoft Excel, etc.). Combining unintuitive names with company names is especially popular today (e.g. [[Google Chrome]] and [[Mozilla]] [[Firefox]]). This is the opposite goal of the Lisa paradigm where the brand name and the program name are intentionally made more invisible to the user.
+
+====Internationalization====
+Within a few months of the Lisa's introduction in the US, fully translated versions of the software and documentation were commercially available for the British, French, West German, Italian, and Spanish markets, followed by several Scandinavian versions shortly thereafter. The user interface for the OS, all seven applications, LisaGuide, and the Lisa diagnostics (in ROM) can be fully translated, without any programming required, using resource files and a translation kit. The keyboard can identify its native language layout, and the entire user experience will be in that language, including any hardware diagnostic messages.
+
+Although several non-English keyboard layouts are available, the [[Dvorak Simplified Keyboard|Dvorak]] keyboard layout was never ported to the Lisa, though such porting had been available for the Apple III, IIe, and IIc, and was later done for the Macintosh. Keyboard-mapping on the Lisa is complex and requires building a new OS. All kernels contain images for all layouts, so due to serious memory constraints, keyboard layouts are stored as differences from a set of standard layouts; thus only a few bytes are needed to accommodate most additional layouts. An exception is the Dvorak layout that moves just about every key and thus requires hundreds of extra bytes of precious kernel storage regardless of whether it is needed.{{Citation needed|date=May 2010}}
+
+Each localized version (built on a globalized core) requires grammatical, linguistic, and cultural adaptations throughout the user interface, including formats for dates, numbers, times, currencies, sorting, even for word and phrase order in alerts and dialog boxes. A kit was provided, and the translation work was done by native-speaking Apple marketing staff in each country. This localization effort resulted in about as many Lisa unit sales outside the US as inside the US over the product's lifespan,{{citation needed|date=February 2014}} while setting new standards for future localized software products, and for global project co-ordination.{{citation needed|date=February 2014}}
+
+====MacWorks====
+{{Main|MacWorks}}
+
+In April 1984, following the release of the Macintosh, Apple introduced MacWorks, a software emulation environment which allows the Lisa to run Macintosh System software and applications.&lt;ref&gt;{{cite journal|title=The Lisa 2: Apple's ablest computer |journal=[[BYTE]] |pages=A106-A114 |issue=Dec 1984 |url=http://www.guidebookgallery.org/articles/thelisa2applesablestcomputer |archiveurl=https://web.archive.org/web/20061004122716/http://www.guidebookgallery.org/articles/thelisa2applesablestcomputer |archivedate=October 4, 2006 |url-status=dead }}&lt;/ref&gt; MacWorks helped make the Lisa more attractive to potential customers, although it did not enable the Macintosh emulation to access the hard disk until September. Initial versions of the Mac OS could not support a hard disk on the Macintosh machines. In January 1985, re-branded MacWorks XL, it became the primary system application designed to turn the Lisa into the [[Macintosh XL]].
+
+====Third-party software====
+[[File:Apple Lisa Workshop.png|thumb|A screenshot of the Apple Lisa Workshop]]
+A significant impediment to third-party software on the Lisa was the fact that, when first launched, the Lisa Office System could not be used to write programs for itself. A separate development OS, called Lisa Workshop, was required. During this development process, engineers would alternate between the two OSes at startup, writing and compiling code on one OS and testing it on the other. Later, the same Lisa Workshop was used to develop software for the Macintosh. After a few years, a Macintosh-native development system was developed. For most of its lifetime, the Lisa never went beyond the original seven applications that Apple had deemed enough to "do everything",{{Citation needed|date=April 2010}} although UniPress Software did offer [[UNIX System III]] for $495.&lt;ref name="byte198312"&gt;{{cite news | title=Unix Spoken Here / and MS-DOS, and VMS too! | work=[[BYTE]] | date=December 1983 | accessdate=March 8, 2016 | pages=334 | type=advertisement | url=https://archive.org/details/byte-magazine-1983-12}}&lt;/ref&gt;
+
+The company [[Santa Cruz Operation]], (SCO), offered [[Microsoft]] [[XENIX]] (version 3), a [[UNIX]]-like [[command-line interface]] operating system, for the Lisa 2 — and the [[Multiplan]] spreadsheet (version 2.1) for that.&lt;ref&gt;{{cite AV media |title=Photograph of Lisa Xenix Multiplan diskette |medium=Digital photography |language=English |url=https://i.postimg.cc/VLbyqzt9/xenix.png |access-date=24 September 2019 |format=JPEG |publisher=Postimg.com }}&lt;/ref&gt;
+
+==Reception==
+[[File:Apple Computer, 1983 (Lisa).jpg|thumb|An original Apple Lisa at work, Apple Convention, Boston, Spring 1983]]
+''[[BYTE]]'' wrote in February 1983 after previewing the Lisa that it was "the most important development in computers in the last five years, easily outpacing [the IBM PC]". It acknowledged that the $9,995 price was high, and concluded "Apple ... is not unaware that most people would be incredibly interested in a similar but less expensive machine. We'll see what happens".&lt;ref name="williams198302"&gt;{{cite news | title=The Lisa Computer System | work=[[BYTE]] | date=Feb 1983 | accessdate=October 19, 2013 | author=Williams, Gregg | pages=33 | url=https://archive.org/details/byte-magazine-1983-02}}&lt;/ref&gt;
+
+The Apple Lisa was a commercial failure for Apple, the largest since the failure of the [[Apple III]] of 1980. Apple sold approximately 10,000&lt;ref name=ogrady/&gt; Lisa machines at a price of {{US$|9995|1983|round=-2|about=yes}},&lt;ref&gt;{{Cite web|url = http://www.technologeek.net/a-look-back-at-apple-products-of-old/|title = A Look Back at Apple Products of Old|date = August 19, 2013|accessdate = September 8, 2015|website = Technologeek|archiveurl = https://web.archive.org/web/20131105121930/http://www.technologeek.net/a-look-back-at-apple-products-of-old/|archivedate = November 5, 2013|url-status = dead}}&lt;/ref&gt; generating total sales of $100 million against a development cost of more than $150 million.&lt;ref name=ogrady/&gt;{{Clarify|date=September 2019}}
+
+The high price put the Lisa at the bottom of the price realm of technical workstations, but without much of a technical application library. Some features that some much more expensive competing systems included were such things as hardware graphics co-processors (which increased perceived system power by improving GUI snappiness) and higher-resolution portrait displays. Lisa's implementation of the requisite graphical interface paradigm was novel but many of the time associated UI snappiness with power, even if that was so simplistic as to miss the mark, in terms of overall productivity. The mouse, for example, was dismissed by many critics of the time as being a toy, and mouse-driven machines as being unserious. Of course, the mouse would go one to displace the pure-CLI design for the vast majority of users, later. The largest Lisa customer was [[NASA]], which used [[LisaProject]] for project management.&lt;ref name="Steve Jobs by Walter Isaacson"&gt;''Steve Jobs'' by Walter Isaacson&lt;/ref&gt; Lisa was not slowed purely by having a 5&amp;nbsp;MHz CPU (the lowest clock offered by Motorola), sophisticated parity RAM, a slow hard disk interface (for the ProFile), and the lack of a graphics co-processor (which would have increased cost). It also had its software mainly coded in Pascal, was designed to multitask, and had advanced features like the clipboard for pasting data between programs. This sophistication came at the price of snappiness, although it added to productivity. The OS even had "soft power", remembering what was open and how desktop items were positioned. Many such features are taken for granted today but were not available on typical consumer systems.
+
+The massive brand power of IBM at that time was the largest factor in the PC's eventual dominance. Computing critics complained about the relatively primitive hardware ("off-the-shelf components") of the PC but admitted that it would be a success simply due to IBM's mindshare. By the time Lisa was available in the market, the less-expensive and less-powerful [[IBM PC]] had already become entrenched. The [[x86]] platform's backward compatibility with the [[CP/M]] operating system was helpful for the PC, given that many existing business software applications originally written for CP/M. However, Apple had attempted to compete with the PC, via the Apple II platform, on that front. DOS was very primitive when compared with the Lisa OS, but the CLI was familiar territory for most users of the time. It would be years before Microsoft would offer an integrated office suite.
+
+The 1984 release of the [[Macintosh 128K|Macintosh]] further eroded the Lisa's marketability, as the public perceived that Apple was abandoning it in favor of the Macintosh. Any marketing of the Macintosh clashed with promotion of the Lisa, since Apple had not made the platforms compatible. Macintosh was superficially faster (mainly in terms of UI responsiveness) than Lisa but much more primitive in key aspects, such as the lack of protected memory (which led to the famous bomb and completely frozen machines for so many years), very small amount of non-upgradable RAM, no ability to use a hard disk (which led to heavy criticism about frequent disk-swapping), no sophisticated file system, smaller-resolution display, lack of numeric keypad, lack of a built-in screensaver, inability to multitask, lack of parity RAM, lack of expansion slots, lack of a calculator with a paper tape and RPN, more primitive office software, and more. The Macintosh beat the Lisa in terms of having sound support (Lisa had only a beep), having square pixels (which reduced perceived resolution but removed the problem of display artifacts), having a nearly 8&amp;nbsp;MHz CPU, having more resources placed into marketing (leading to a large increase in the system's price tag), and being coded primarily in assembly. Some features, like protected memory, remained absent from the Macintosh platform for eighteen years, when OS X was released for the desktop. The Lisa was also designed to readily support multiple operating systems, making booting between them intuitive and convenient — something that has taken a very long time to achieve since Lisa, at least as a standard desktop OS feature.
+
+The Lisa 2 and its [[Old World ROM|Mac ROM]]-enabled sibling the [[Macintosh XL]] are the final two releases in the Lisa line, which was discontinued in April 1985.&lt;ref&gt;"Back in Time", A+ Magazine, Feb 1987: 48–49.&lt;/ref&gt; The Macintosh XL is a hardware and software conversion kit to effectively reboot Lisa into Macintosh mode. In 1986, Apple offered all Lisa and XL owners the opportunity to return their computer, with an additional payment of US$1,498, in exchange for a [[Macintosh Plus]] and [[Hard Disk 20]].&lt;ref&gt;{{cite web|url=http://www.semaphorecorp.com/ss/ss26.html|title=Signal 26, March 1986, circulation 45,013|website=www.semaphorecorp.com}}&lt;/ref&gt; Reportedly 2,700 working but unsold Lisa computers were buried in a landfill.&lt;ref&gt;{{cite web|url=https://fossbytes.com/why-2700-apple-lisa-computers-are-buried-in-a-landfill/|title=Why Are 2700 Apple Lisa Computers Buried in a Landfill?|first=Aditya|last=Tiwari|date=April 21, 2016|publisher=}}&lt;/ref&gt;
+
+==Legacy==
+The [[Macintosh]] project, led by Apple's cofounder [[Steve Jobs]], borrowed heavily from the Lisa's GUI paradigm and directly took many of its staff, to create Apple's ultimate flagship platform of the next several decades and progenitor of the [[iPhone]]. The column-based interface, for instance, made particularly famous via OS X, had originally been developed for Lisa. It had been discarded in favor of the icon view.
+
+Apple's culture of [[object-oriented programming]] on Lisa contributed to the 1988 conception of [[Taligent#Pink system|Pink]], the first attempt to rearchitect the operating system of Macintosh.
+
+==See also==
+* [[Macintosh 128K]]
+* People:
+**[[Bill Atkinson]]
+**[[Rich Page]]
+**[[Brad Silverberg]]
+* [[Semaphore Signal (periodical)]], a 1980s publication for Lisa users
+* Technology:
+**[[History of the graphical user interface]]
+**[[Cut, copy, and paste]]
+**[[Xerox Star]]
+**[[Visi On]]
+**[[Apple ProFile]]
+* [[GEMDOS]] (adaptation for Lisa 2/5)
+
+==References==
+{{Reflist|30em}}
+
+==External links==
+{{commons category|Apple Lisa}}
+* [https://www.youtube.com/watch?v=a4BlmsN4q2I&amp;mode=related&amp;search= A LISA Filmed Demonstration from 1984]
+* [http://lowendmac.com/hodges/07/0402.html Using Apple' Lisa for Real Work]
+* [http://oldcomputers.net/lisa.html Lisa 2/5 info.]
+* [https://www.mprove.de/visionreality/text/3.1.8_lisa.html mprove: Graphical User Interface of Apple Lisa]
+* {{Cite web|url=http://www.cs.berkeley.edu/~jasonh/cs39i-seminar/p40-perkins.pdf|title=Inventing the Lisa User Interface by Rod Perkins, Dan Keller and Frank Ludolph (1 MB PDF)|last=|first=|date=|website=|format=[[PDF]]|access-date=March 10, 2006|archive-url=https://web.archive.org/web/20040328125354if_/http://www.cs.berkeley.edu:80/%7Ejasonh/cs39i-seminar/p40-perkins.pdf|archive-date=March 28, 2004|url-status=dead}}
+* [https://www.youtube.com/watch?v=F_VVRAIaCWY&amp;t=7s= Apple Lisa Memorial Exhibition at Dongdaemun Design Plaza, Seoul, Korea]
+{{Apple hardware before 1998}}
+{{Apple hardware}}
+
+[[Category:Computer-related introductions in 1983]]
+[[Category:Apple Inc. hardware]]
+[[Category:Personal computers]]
+[[Category:Products introduced in 1983]]
+[[Category:Pascal software]]
+[[Category:68k architecture]]</text>
+      <sha1>cg9lq6ezg9wjz3boh54xh1l7h2zu610</sha1>
+    </revision>
+  </page>
+</mediawiki>

@@ -1,0 +1,328 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.10/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.10/ http://www.mediawiki.org/xml/export-0.10.xsd" version="0.10" xml:lang="en">
+  <siteinfo>
+    <sitename>Wikipedia</sitename>
+    <dbname>enwiki</dbname>
+    <base>https://en.wikipedia.org/wiki/Main_Page</base>
+    <generator>MediaWiki 1.35.0-wmf.36</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Media</namespace>
+      <namespace key="-1" case="first-letter">Special</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Talk</namespace>
+      <namespace key="2" case="first-letter">User</namespace>
+      <namespace key="3" case="first-letter">User talk</namespace>
+      <namespace key="4" case="first-letter">Wikipedia</namespace>
+      <namespace key="5" case="first-letter">Wikipedia talk</namespace>
+      <namespace key="6" case="first-letter">File</namespace>
+      <namespace key="7" case="first-letter">File talk</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki talk</namespace>
+      <namespace key="10" case="first-letter">Template</namespace>
+      <namespace key="11" case="first-letter">Template talk</namespace>
+      <namespace key="12" case="first-letter">Help</namespace>
+      <namespace key="13" case="first-letter">Help talk</namespace>
+      <namespace key="14" case="first-letter">Category</namespace>
+      <namespace key="15" case="first-letter">Category talk</namespace>
+      <namespace key="100" case="first-letter">Portal</namespace>
+      <namespace key="101" case="first-letter">Portal talk</namespace>
+      <namespace key="108" case="first-letter">Book</namespace>
+      <namespace key="109" case="first-letter">Book talk</namespace>
+      <namespace key="118" case="first-letter">Draft</namespace>
+      <namespace key="119" case="first-letter">Draft talk</namespace>
+      <namespace key="446" case="first-letter">Education Program</namespace>
+      <namespace key="447" case="first-letter">Education Program talk</namespace>
+      <namespace key="710" case="first-letter">TimedText</namespace>
+      <namespace key="711" case="first-letter">TimedText talk</namespace>
+      <namespace key="828" case="first-letter">Module</namespace>
+      <namespace key="829" case="first-letter">Module talk</namespace>
+      <namespace key="2300" case="first-letter">Gadget</namespace>
+      <namespace key="2301" case="first-letter">Gadget talk</namespace>
+      <namespace key="2302" case="case-sensitive">Gadget definition</namespace>
+      <namespace key="2303" case="case-sensitive">Gadget definition talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Fisher's exact test</title>
+    <ns>0</ns>
+    <id>819467</id>
+    <revision>
+      <id>955337933</id>
+      <parentid>955337370</parentid>
+      <timestamp>2020-05-07T07:40:40Z</timestamp>
+      <contributor>
+        <username>Muelsak</username>
+        <id>38306313</id>
+      </contributor>
+      <comment>Added Boschloo's test in section "Alternatives" and "See also". Boschloo's test is a natural expansion of Fisher's exact test and therefore should be mentioned here.</comment>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="23675" xml:space="preserve">{{Use dmy dates|date=July 2013}}
+'''Fisher's exact test''' is a [[statistical significance]] test used in the analysis of [[contingency table]]s.&lt;ref&gt;{{Cite journal| last=Fisher | first=R. A. | authorlink= Ronald Fisher | year=1922 | title=On the interpretation of χ&lt;sup&gt;2&lt;/sup&gt; from contingency tables, and the calculation of P |journal=[[Journal of the Royal Statistical Society]] | volume=85 | issue=1 | pages=87–94 | doi=10.2307/2340521| jstor=2340521| url=https://zenodo.org/record/1449484 }}&lt;/ref&gt;&lt;ref&gt;{{Cite book| last1=Fisher | first1=R.A. | year= 1954 | title=Statistical Methods for Research Workers | publisher=Oliver and Boyd| isbn=0-05-002170-2| title-link=Statistical Methods for Research Workers }}&lt;/ref&gt;&lt;ref&gt;{{Cite journal| last=Agresti | first=Alan | year=1992 | title=A Survey of Exact Inference for Contingency Tables |journal =Statistical Science | volume=7 | number=1 | pages=131–153 | doi=10.1214/ss/1177011454 | jstor = 2246001| citeseerx=10.1.1.296.874 }}&lt;/ref&gt; Although in practice it is employed when [[sample (statistics)|sample]] sizes are small, it is valid for all sample sizes. It is named after its inventor, [[Ronald Fisher]], and is one of a class of [[exact test]]s, so called because the significance of the deviation from a [[null hypothesis]] (e.g., [[P-value]]) can be calculated exactly, rather than relying on an approximation that becomes exact in the limit as the sample size grows to infinity, as with many statistical tests.
+
+Fisher is said to have devised the test following a comment from [[Muriel Bristol]], who claimed to be able to detect whether the tea or the milk was added first to her cup. He tested her claim in the "[[lady tasting tea]]" experiment.&lt;ref name=newman&gt;{{Cite book
+|first=Sir Ronald A.
+|last=Fisher
+|authorlink=Ronald Fisher
+|chapter=Mathematics of a Lady Tasting Tea
+|origyear=''[[The Design of Experiments]]'' (1935)
+|year=1956
+|title=The World of Mathematics, volume 3
+|editor=James Roy Newman
+|chapter-url=https://books.google.com/?id=oKZwtLQTmNAC&amp;pg=PA1512&amp;dq=%22mathematics+of+a+lady+tasting+tea%22
+|publisher=Courier Dover Publications
+|isbn=978-0-486-41151-4
+}}&lt;/ref&gt;
+
+==Purpose and scope==
+[[File:Nice Cup of Tea.jpg|thumb|A [[teapot]], a [[Creamer (vessel)|creamer]] and [[teacup]] full of tea with [[milk]]—can a taster tell if the milk went in first?]]
+The test is useful for [[categorical data]] that result from classifying objects in two different ways; it is used to examine the significance of the association (contingency) between the two kinds of classification. So in Fisher's original example, one criterion of classification could be whether milk or tea was put in the cup first; the other could be whether Bristol thinks that the milk or tea was put in first.  We want to know whether these two classifications are associated—that is, whether Bristol really can tell whether milk or tea was poured in first. Most uses of the Fisher test involve, like this example, a 2&amp;nbsp;×&amp;nbsp;2 contingency table. The [[p-value]] from the test is computed as if the margins of the table are fixed, i.e. as if, in the tea-tasting example, Bristol knows the number of cups with each treatment (milk or tea first) and will therefore provide guesses with the correct number in each category. As pointed out by Fisher, this leads under a null hypothesis of independence to a [[hypergeometric distribution]] of the numbers in the cells of the table.
+
+With large samples, a [[chi-squared test]] (or better yet, a [[G-test]]) can be used in this situation. However, the significance value it provides is only an approximation, because the [[sampling distribution]] of the test statistic that is calculated is only approximately equal to the theoretical chi-squared distribution. The approximation is inadequate when sample sizes are small, or the data are very unequally distributed among the cells of the table, resulting in the cell counts predicted on the null hypothesis (the “expected values”) being low. The usual rule of thumb for deciding whether the chi-squared approximation is good enough is that the chi-squared test is not suitable when the expected values in any of the cells of a contingency table are below 5, or below 10 when there is only one [[degrees of freedom (statistics)|degree of freedom]] (this rule is now known to be overly conservative&lt;ref name="Larntz1978"&gt;{{Cite journal
+ | doi = 10.2307/2286650
+ | last = Larntz
+ | first = Kinley
+ | year = 1978
+ | title = Small-sample comparisons of exact levels for chi-squared goodness-of-fit statistics
+ | journal = Journal of the American Statistical Association
+ | volume = 73
+ | issue = 362
+ | pages = 253–263
+ | jstor = 2286650
+}}&lt;/ref&gt;). In fact, for small, sparse, or unbalanced data, the exact and asymptotic ''p''-values can be quite different and may lead to opposite conclusions concerning the hypothesis of interest.&lt;ref name="Mehta1984"&gt;{{Cite journal
+ | last = Mehta
+ | first = Cyrus R
+ | last2 = Patel
+ | first2 = Nitin R
+ | last3 = Tsiatis
+ | first3 = Anastasios A
+ | year = 1984
+ | title = Exact significance testing to establish treatment equivalence with ordered categorical data
+ | journal = Biometrics
+ | volume = 40
+ | issue = 3
+ | pages = 819–825
+ | doi = 10.2307/2530927
+ | pmid = 6518249
+ | jstor = 2530927
+}}&lt;/ref&gt;&lt;ref name="Mehta1995"&gt;Mehta, C. R. 1995. SPSS 6.1 Exact test for Windows. Englewood Cliffs, NJ: Prentice Hall.&lt;/ref&gt; In contrast the Fisher exact test is, as its name states, exact as long as the experimental procedure keeps the row and column totals fixed, and it can therefore be used regardless of the sample characteristics. It becomes difficult to calculate with large samples or well-balanced tables, but fortunately these are exactly the conditions where the chi-squared test is appropriate.
+
+For hand calculations, the test is only feasible in the case of a 2&amp;nbsp;×&amp;nbsp;2 contingency table. However the principle of the test can be extended to the general case of an ''m''&amp;nbsp;×&amp;nbsp;''n'' table,&lt;ref&gt;{{cite journal |author1=Mehta C.R. |author2=Patel N.R. | year = 1983 | title = A Network Algorithm for Performing Fisher's Exact Test in ''r ''X''c'' Contingency Tables | url = | journal = Journal of the American Statistical Association | volume = 78 | issue = 382| pages = 427–434 | doi = 10.2307/2288652 |jstor=2288652 }}&lt;/ref&gt;&lt;ref&gt;[http://mathworld.wolfram.com/FishersExactTest.html mathworld.wolfram.com] Page giving the formula for the general form of Fisher's exact test for ''m''&amp;nbsp;×&amp;nbsp;''n'' contingency tables&lt;/ref&gt; and some [[statistical packages]] provide a calculation (sometimes using a [[Monte Carlo method]] to obtain an approximation) for the more general case.&lt;ref&gt;{{cite journal|author1=Cyrus R. Mehta |author2=Nitin R. Patel | title= ALGORITHM 643: FEXACT: a FORTRAN subroutine for Fisher's exact test on unordered r×c contingency tables|journal= ACM Trans. Math. Softw. |volume=12| issue= 2 |year=1986| pages=154–161|doi=10.1145/6497.214326}}&lt;/ref&gt;
+
+==Example==
+For example, a sample of teenagers might be divided into male and female on the one hand, and those that are and are not currently studying for a statistics exam on the other. We hypothesize, for example, that the proportion of studying individuals is higher among the women than among the men, and we want to test whether any difference of proportions that we observe is significant. The data might look like this:
+
+{|class="wikitable" style="text-align:center;"
+|-
+!
+! &amp;nbsp;&amp;nbsp; Men &amp;nbsp;&amp;nbsp;
+! &amp;nbsp; Women &amp;nbsp;
+|''Row total''
+|-
+!scope="row" | Studying
+|bgcolor="lightgray" | '''1''' ||bgcolor="lightgray" | '''9''' || ''10''
+|-
+!scope="row"| &amp;nbsp; Not-studying &amp;nbsp;
+|bgcolor="lightgray" | '''11''' ||bgcolor="lightgray" | '''3''' || ''14''
+|-
+| ''Column total''
+| ''12'' || ''12'' ||  ''24''
+|}
+
+The question we ask about these data is: knowing that 10 of these 24 teenagers are studying, and that 12 of the 24 are female, and assuming the null hypothesis that men and women are equally likely to study, what is the probability that these 10 teenagers who are studying would be so unevenly distributed between the women and the men? If we were to choose 10 of the teenagers at random, what is the probability that 9 or more of them would be among the 12 women, and only 1 or fewer from among the 12 men?
+
+Before we proceed with the Fisher test, we first introduce some notations. We represent the cells by the letters ''a, b, c'' and ''d'', call the totals across rows and columns ''marginal totals'', and represent the grand total by ''n''. So the table now looks like this:
+
+{|class="wikitable" style="text-align:center;"
+|-
+!
+! &amp;nbsp;&amp;nbsp; Men &amp;nbsp;&amp;nbsp;
+! &amp;nbsp; Women &amp;nbsp;
+|''Row Total''
+|-
+!scope="row" | Studying
+|bgcolor="lightgray" | '''''a''''' ||bgcolor="lightgray" | '''''b''''' || ''a + b''
+|-
+!scope="row"| &amp;nbsp; Non-studying &amp;nbsp;
+|bgcolor="lightgray" | '''''c''''' ||bgcolor="lightgray" | '''''d''''' || ''c + d''
+|-
+| ''Column Total''
+| ''a + c'' || ''b + d'' ||  ''a + b + c + d (=n)''
+|}
+
+Fisher showed that the probability of obtaining any such set of values was given by the [[hypergeometric distribution]]:
+
+&lt;center&gt;
+&lt;math&gt;p = \frac{ \displaystyle{{a+b}\choose{a}} \displaystyle{{c+d}\choose{c}} }{ \displaystyle{{n}\choose{a+c}} } = \frac{ \displaystyle{{a+b}\choose{b}} \displaystyle{{c+d}\choose{d}} }{ \displaystyle{{n}\choose{b+d}} } = \frac{(a+b)!~(c+d)!~(a+c)!~(b+d)!}{a!~~b!~~c!~~d!~~n!}&lt;/math&gt;
+&lt;/center&gt;
+
+where &lt;math&gt; \tbinom nk &lt;/math&gt; is the [[binomial coefficient]] and the symbol ! indicates the [[factorial|factorial operator]].
+This can be seen as follows. If the marginal totals (i.e. &lt;math&gt;a+b&lt;/math&gt;, &lt;math&gt;c+d&lt;/math&gt;, &lt;math&gt;a+c&lt;/math&gt;, and &lt;math&gt;b+d&lt;/math&gt;) are known, only a single degree of freedom is left: the value e.g. of &lt;math&gt;a&lt;/math&gt; suffices to deduce the other values. 
+Now, &lt;math&gt;p=p(a)&lt;/math&gt; is the probability that &lt;math&gt;a&lt;/math&gt; elements are positive in a random selection (without replacement) of &lt;math&gt;a+c&lt;/math&gt; elements from a larger set containing &lt;math&gt;n&lt;/math&gt; elements in total out of which &lt;math&gt;a+b&lt;/math&gt; are positive, which is precisely the definition of the hypergeometric distribution.
+
+With the data above (using the first of the equivalent forms), this gives:
+
+&lt;center&gt;
+&lt;math&gt;p = { {\tbinom{10}{1}} {\tbinom{14}{11}} }/{ {\tbinom{24}{12}} } = \tfrac{10!~14!~12!~12!}{1!~9!~11!~3!~24!} \approx 0.001346076&lt;/math&gt;
+&lt;/center&gt;
+
+The formula above gives the exact hypergeometric probability of observing this particular arrangement of the data, assuming the given marginal totals, on the [[null hypothesis]] that men and women are equally likely to be studiers. To put it another way, if we assume that the probability that a man is a studier is &lt;math&gt;\mathfrak{p}&lt;/math&gt;, the probability that a woman is a studier is also &lt;math&gt;\mathfrak{p}&lt;/math&gt;, and we assume that both men and women enter our sample independently of whether or not they are studiers, then this hypergeometric formula gives the conditional probability of observing the values ''a, b, c, d'' in the four cells, conditionally on the observed marginals (i.e., assuming the row and column totals shown in the margins of the table are given). This remains true even if men enter our sample with different probabilities than women. The requirement is merely that the two classification characteristics—gender, and studier (or not)—are not associated.
+
+For example, suppose we knew probabilities &lt;math&gt;P, Q, \mathfrak{p,q}&lt;/math&gt; with &lt;math&gt;P + Q = \mathfrak{p} + \mathfrak{q} = 1&lt;/math&gt; such that (male studier, male non-studier, female studier, female non-studier) had respective probabilities &lt;math&gt;(P\mathfrak{p}, P\mathfrak{q}, Q\mathfrak{p}, Q\mathfrak{q})&lt;/math&gt; for each individual encountered under our sampling procedure. Then still, were we to calculate the distribution of cell entries conditional given marginals, we would obtain the above formula in which neither &lt;math&gt;\mathfrak{p}&lt;/math&gt; nor &lt;math&gt;P&lt;/math&gt; occurs. Thus, we can calculate the exact probability of any arrangement of the 24 teenagers into the four cells of the table, but Fisher showed that to generate a significance level, we need consider only the cases where the marginal totals are the same as in the observed table, and among those, only the cases where the arrangement is as extreme as the observed arrangement, or more so. ([[Barnard's test]] relaxes this constraint on one set of the marginal totals.) In the example, there are 11 such cases. Of these only one is more extreme in the same direction as our data; it looks like this:
+
+{|class="wikitable"  style="text-align:center;"
+|-
+!
+! &amp;nbsp;&amp;nbsp; Men &amp;nbsp;&amp;nbsp;
+! &amp;nbsp; Women &amp;nbsp;
+|''Row Total''
+|-
+!scope="row" | Studying
+|bgcolor="lightgray" | '''0''' ||bgcolor="lightgray" | '''10''' || ''10''
+|-
+!scope="row"| &amp;nbsp; Non-studying &amp;nbsp;
+|bgcolor="lightgray" | '''12''' ||bgcolor="lightgray" | '''2''' || ''14''
+|-
+| ''Column Total''
+| ''12'' || ''12'' ||  ''24''
+|}
+For this table (with extremely unequal studying proportions) the probability is
+&lt;math&gt;{p =  {\tbinom{10}{0}} {\tbinom{14}{12}} }/{ {\tbinom{24}{12}} } \approx 0.000033652&lt;/math&gt;.
+
+In order to calculate the significance of the observed data, i.e. the total probability of observing data as extreme or more extreme if the [[null hypothesis]] is true, we have to calculate the values of ''p'' for both these tables, and add them together.  This gives a [[one-tailed test]], with ''p'' approximately 0.001346076 + 0.000033652 = 0.001379728.  For example, in the [[R programming language|R statistical computing environment]], this value can be obtained as &lt;code&gt;fisher.test(rbind(c(1,9),c(11,3)), alternative="less")$p.value&lt;/code&gt;. This value can be interpreted as the sum of evidence provided by the observed data—or any more extreme table—for the [[null hypothesis]] (that there is no difference in the proportions of studiers between men and women). The smaller the value of ''p'', the greater the evidence for rejecting the null hypothesis; so here the evidence is strong that men and women are not equally likely to be studiers.
+
+For a [[two-tailed test]] we must also consider tables that are equally extreme, but in the opposite direction. Unfortunately, classification of the tables according to whether or not they are 'as extreme' is problematic. An approach used by the &lt;code&gt;fisher.test&lt;/code&gt; function in  [[R programming language|R]] is to compute the p-value by summing the probabilities for all tables with probabilities less than or equal to that of the observed table. In the example here, the 2-sided p-value is twice the 1-sided value—but in general these can differ substantially for tables with small counts, unlike the case with test statistics that have a symmetric sampling distribution.
+
+As noted above, most modern [[statistical package]]s will calculate the significance of Fisher tests, in some cases even where the chi-squared approximation would also be acceptable. The actual computations as performed by statistical software packages will as a rule differ from those described above, because numerical difficulties may result from the large values taken by the factorials. A simple, somewhat better computational approach relies on a [[gamma function]] or log-gamma function, but methods for accurate computation of hypergeometric and binomial probabilities remains an active research area.
+
+==Controversies==
+Despite the fact that Fisher's test gives exact p-values, some authors have argued that it is conservative, i.e. that its actual rejection rate is below the nominal significance level.&lt;ref name="Liddell-1976"&gt;{{Cite journal
+ | doi = 10.2307/2988087
+ | last = Liddell
+ | first = Douglas
+ | year = 1976
+ | title = Practical tests of 2×2 contingency tables
+ | journal = The Statistician
+ | volume = 25
+ | issue = 4
+ | pages = 295–304
+ | jstor = 2988087
+}}&lt;/ref&gt;&lt;ref name="Berkson1978"&gt;{{Cite journal
+ | last = Berkson
+ | first = Joseph
+ | year = 1978
+ | title = In dispraise of the exact test
+ | journal = Journal of Statistic Planning and Inference
+ | volume = 2
+ | pages = 27–42
+ | doi = 10.1016/0378-3758(78)90019-8
+}}&lt;/ref&gt;&lt;ref name="DAgostino1988"&gt;{{Cite journal
+ | doi = 10.2307/2685002
+ | author1=D'Agostino, R. B. |author2=Chase, W. |author3= Belanger, A. |last-author-amp=yes | year = 1988
+ | title = The appropriateness of some common procedures for testing equality of two independent binomial proportions
+ | journal = The American Statistician
+ | volume = 42
+ | issue = 3
+ | pages = 198–202
+ | jstor = 2685002
+}}&lt;/ref&gt; The apparent contradiction stems from the combination of a discrete statistic with fixed significance levels.&lt;ref name="Yates1984"&gt;{{Cite journal
+ | doi = 10.2307/2981577
+ | author = Yates, F.
+ | year = 1984
+ | title = Tests of significance for 2 × 2 contingency tables (with discussion)
+ | journal = Journal of the Royal Statistical Society, Series A
+ | volume = 147
+ | issue = 3
+ | pages = 426–463
+ | jstor = 2981577
+}}&lt;/ref&gt;&lt;ref name="Little1989"&gt;{{Cite journal
+ | doi = 10.2307/2685390
+ | author = Little, Roderick J. A.
+ | year = 1989
+ | title = Testing the equality of two independent binomial proportions
+ | journal = The American Statistician
+ | volume = 43
+ | issue = 4
+ | pages = 283–288
+ | jstor = 2685390
+}}&lt;/ref&gt; To be more precise, consider the following proposal for a significance test at the 5%-level: reject the null hypothesis for each table to which Fisher's test assigns a p-value equal to or smaller than 5%. Because the set of all tables is discrete, there may not be a table for which equality is achieved. If &lt;math&gt;\alpha_e&lt;/math&gt; is the largest p-value smaller than 5% which can actually occur for some table, then the proposed test effectively tests at the &lt;math&gt;\alpha_e&lt;/math&gt;-level. For small sample sizes, &lt;math&gt;\alpha_e&lt;/math&gt; might be significantly lower than 5%.&lt;ref name="Liddell-1976" /&gt;&lt;ref name="Berkson1978" /&gt;&lt;ref name="DAgostino1988" /&gt; While this effect occurs for any discrete statistic (not just in contingency tables, or for Fisher's test), it has been argued that the problem is compounded by the fact that Fisher's test conditions on the marginals.&lt;ref&gt;{{cite web |first1=Cyrus R. |last1=Mehta |first2=Pralay |last2=Senchaudhuri |date=4 September 2003 |url=https://www.statsols.com/hubfs/Resources_/Comparing-Two-Binomials.pdf |title=Conditional versus unconditional exact tests for comparing two binomials |access-date=20 November 2009}}&lt;/ref&gt; To avoid the problem, many authors discourage the use of fixed significance levels when dealing with discrete problems.&lt;ref name="Yates1984" /&gt;&lt;ref name="Little1989" /&gt;
+
+The decision to condition on the margins of the table is also controversial.&lt;ref name="Barnard1945a"&gt;
+{{Cite journal
+|doi=10.1038/156177a0
+|author=Barnard, G.A
+|year=1945
+|title=A new test for 2×2 tables
+|journal=Nature
+|volume=156
+|page=177
+|issue=3954
+}}&lt;/ref&gt;&lt;ref name="NatureDiscussion"&gt;
+{{Cite journal
+|author=Fisher
+|year=1945
+|journal=Nature
+|volume=156
+|page=388
+|doi=10.1038/156388a0
+|title=A New Test for 2 × 2 Tables
+|issue=3961
+}};
+{{Cite journal
+|author=Barnard, G.A
+|year=1945
+|journal=Nature
+|volume=156
+|pages=783–784
+|title=A new test for 2×2 tables
+|doi=10.1038/156783b0
+|issue=3974
+}}
+&lt;/ref&gt; The p-values derived from Fisher's test come from the distribution that conditions on the margin totals. In this sense, the test is exact only for the conditional distribution and not the original table where the margin totals may change from experiment to experiment. It is possible to obtain an exact p-value for the 2×2 table when the margins are not held fixed. [[Barnard's exact test|Barnard's test]], for example, allows for random margins. However, some authors&lt;ref name="Yates1984" /&gt;&lt;ref name="Little1989" /&gt;&lt;ref name="NatureDiscussion" /&gt; (including, later, Barnard himself)&lt;ref name="Yates1984" /&gt; have criticized Barnard's test based on this property. They argue that the marginal success total is an (almost&lt;ref name="Little1989" /&gt;) [[ancillary statistic]], containing (almost) no information about the tested property.
+
+The act of conditioning on the marginal success rate from a 2×2 table can be shown to ignore some information in the data about the unknown odds ratio.&lt;ref name="Choi2015"&gt;
+{{Cite journal
+|vauthors=Choi L, Blume JD, Dupont WD
+|year=2015
+|title=Elucidating the foundations of statistical inference with 2×2 tables
+|journal=PLoS ONE
+|volume=10
+|issue=4
+|pages=e0121263
+|doi=10.1371/journal.pone.0121263
+|pmc=4388855
+|pmid=25849515
+}}&lt;/ref&gt; The argument that the marginal totals are (almost) ancillary implies that the appropriate likelihood function for making inferences about this odds ratio should be conditioned on the marginal success rate.&lt;ref name="Choi2015" /&gt;  Whether this lost information is important for inferential purposes is the essence of the controversy.&lt;ref name="Choi2015" /&gt;
+
+==Alternatives==
+An alternative exact test, [[Barnard's exact test]], has been developed and proponents{{whom|date=September 2019}} of it suggest that this method is more powerful, particularly in 2×2 tables.&lt;ref&gt;{{cite journal | author = Berger R.L. | year = 1994 | title = Power comparison of exact unconditional tests for comparing two binomial proportions | url = | journal = Institute of Statistics Mimeo Series No. 2266 | volume = | issue = | pages = 1–19 | doi = }}&lt;/ref&gt; Furthermore, [[Boschloo's test]] is an exact test that is uniformly more powerful than Fisher's exact test by construction.&lt;ref name="Boschloo"&gt;{{cite journal | author = Boschloo R.D. | year = 1970 | title = Raised Conditional Level of Significance for the ''2''x''2''-table when Testing the Equality of Two Probabilities | url = | journal = Statistica Neerlandica | volume = 24 | issue = | pages = 1–35 | doi = 10.1111/j.1467-9574.1970.tb00104.x}}&lt;/ref&gt; Another alternative is to use [[maximum likelihood]] estimates to calculate a [[p-value]] from the exact [[binomial distribution|binomial]] or [[multinomial distribution|multinomial]] distributions and reject or fail to reject based on the [[p-value]].{{citation needed|date=June 2014}}
+
+For stratified categorical data the [[Cochran–Mantel–Haenszel test]] must be used instead of Fisher's test.
+
+Choi et al.&lt;ref name="Choi2015" /&gt; propose a p-value derived from the likelihood ratio test based on the conditional distribution of the [[odds ratio]] given the marginal success rate. This p-value is inferentially consistent with classical tests of normally distributed data as well as with likelihood ratios and support intervals based on this conditional likelihood function. It is also readily computable.&lt;ref name="Choi2011"&gt;{{Cite web
+ | last = Choi
+ | first = Leena
+ | year = 2011
+ | title = ProfileLikelihood: profile likelihood for a parameter in commonly used statistical models; 2011. R package version 1.1.
+ | url = https://cran.r-project.org/web/packages/ProfileLikelihood/index.html
+ }}
+See also: [http://statcomp2.vanderbilt.edu:37212/dalep/ProfileLikelihood/ Likelihood Ratio Statistics for 2 x 2 Tables] {{Webarchive|url=https://web.archive.org/web/20160604023208/http://statcomp2.vanderbilt.edu:37212/dalep/ProfileLikelihood/ |date=4 June 2016 }} (Online calculator).&lt;/ref&gt;
+
+==See also==
+* [[Bernoulli trial]]
+* [[Boschloo's test]]
+
+==References==
+{{Reflist|2}}
+
+==External links==
+* [http://www.langsrud.com/stat/fisher.htm Calculate Fisher's Exact Test Online]
+* [https://web.archive.org/web/20170616070646/http://statcomp2.vanderbilt.edu:37212/ProfileLikelihood/ Likelihood Ratio Statistics for 2X2 Tables]
+
+{{DEFAULTSORT:Fisher's Exact Test}}
+[[Category:Statistical tests for contingency tables]]
+[[Category:Nonparametric statistics]]</text>
+      <sha1>rr1gzp3c5hgih57xjfpnuypfcgpqi02</sha1>
+    </revision>
+  </page>
+</mediawiki>

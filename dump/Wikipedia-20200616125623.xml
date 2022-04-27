@@ -1,0 +1,120 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.10/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.10/ http://www.mediawiki.org/xml/export-0.10.xsd" version="0.10" xml:lang="en">
+  <siteinfo>
+    <sitename>Wikipedia</sitename>
+    <dbname>enwiki</dbname>
+    <base>https://en.wikipedia.org/wiki/Main_Page</base>
+    <generator>MediaWiki 1.35.0-wmf.36</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Media</namespace>
+      <namespace key="-1" case="first-letter">Special</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Talk</namespace>
+      <namespace key="2" case="first-letter">User</namespace>
+      <namespace key="3" case="first-letter">User talk</namespace>
+      <namespace key="4" case="first-letter">Wikipedia</namespace>
+      <namespace key="5" case="first-letter">Wikipedia talk</namespace>
+      <namespace key="6" case="first-letter">File</namespace>
+      <namespace key="7" case="first-letter">File talk</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki talk</namespace>
+      <namespace key="10" case="first-letter">Template</namespace>
+      <namespace key="11" case="first-letter">Template talk</namespace>
+      <namespace key="12" case="first-letter">Help</namespace>
+      <namespace key="13" case="first-letter">Help talk</namespace>
+      <namespace key="14" case="first-letter">Category</namespace>
+      <namespace key="15" case="first-letter">Category talk</namespace>
+      <namespace key="100" case="first-letter">Portal</namespace>
+      <namespace key="101" case="first-letter">Portal talk</namespace>
+      <namespace key="108" case="first-letter">Book</namespace>
+      <namespace key="109" case="first-letter">Book talk</namespace>
+      <namespace key="118" case="first-letter">Draft</namespace>
+      <namespace key="119" case="first-letter">Draft talk</namespace>
+      <namespace key="446" case="first-letter">Education Program</namespace>
+      <namespace key="447" case="first-letter">Education Program talk</namespace>
+      <namespace key="710" case="first-letter">TimedText</namespace>
+      <namespace key="711" case="first-letter">TimedText talk</namespace>
+      <namespace key="828" case="first-letter">Module</namespace>
+      <namespace key="829" case="first-letter">Module talk</namespace>
+      <namespace key="2300" case="first-letter">Gadget</namespace>
+      <namespace key="2301" case="first-letter">Gadget talk</namespace>
+      <namespace key="2302" case="case-sensitive">Gadget definition</namespace>
+      <namespace key="2303" case="case-sensitive">Gadget definition talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Deviation (statistics)</title>
+    <ns>0</ns>
+    <id>9252911</id>
+    <revision>
+      <id>947860060</id>
+      <parentid>944997236</parentid>
+      <timestamp>2020-03-28T22:19:19Z</timestamp>
+      <contributor>
+        <ip>2601:CE:C17F:BED0:AD46:308:1A37:B836</ip>
+      </contributor>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="4088" xml:space="preserve">{{distinguish|Deviance (statistics)|Deviate (statistics)}}
+{{Unreferenced|date=February 2007}}
+
+In [[mathematics]] and [[statistics]], '''deviation''' is a measure of difference between the observed value of a variable and some other value, often that variable's [[mean]]. The [[Sign (mathematics)|sign]] of the deviation reports the direction of that difference (the deviation is positive when the observed value exceeds the reference value). The magnitude of the value indicates the size of the difference.
+
+==Types==
+{{main|Errors and residuals}}
+
+A deviation that is a difference between an observed value and the ''true value'' of a quantity of interest (where ''true value'' denotes the Expected Value, such as the population mean) is an '''error.''' 
+
+A deviation that is the difference between the observed value and an ''estimate'' of the true value (e.g. the sample mean; the Expected Value of a sample can be used as an estimate of the Expected Value of the population) is a '''residual'''. These concepts are applicable for data at the [[Level of measurement#Interval scale|interval]] and [[Level of measurement#Ratio scale|ratio]] levels of measurement.
+
+===Unsigned or absolute deviation===
+{{See also|Average absolute deviation|Least absolute deviation}}
+
+In [[statistics]], the '''absolute deviation''' of an element of a [[data set]] is the [[absolute difference]] between that element and a given point.  Typically the deviation is reckoned from the [[central tendency|central value]], being construed as some type of [[average]], most often the [[median]] or sometimes the [[mean]] of the data set.
+
+:&lt;math&gt;D_i = |x_i-m(X)| &lt;/math&gt;
+
+where
+
+: ''D''&lt;sub&gt;''i''&lt;/sub&gt; is the absolute deviation,
+: ''x''&lt;sub&gt;''i''&lt;/sub&gt; is the data element
+:and ''m''(''X'') is the chosen measure of [[central tendency]] of the data set—sometimes the [[mean]] (&lt;math&gt;\overline{x}&lt;/math&gt;), but most often the [[median]].
+
+==Measures==
+{{see also|Accuracy and precision}}
+
+===Mean signed deviation===
+{{main|Mean signed deviation}}
+For an [[bias of an estimator|unbiased estimator]], the average of the signed deviations across the entire set of all observations from the unobserved population parameter value averages zero over an arbitrarily large number of samples. However, by construction the average of signed deviations of values from the sample mean value is always zero, though the average signed deviation from another measure of central tendency, such as the sample median, need not be zero.
+
+===Dispersion===
+Statistics of the distribution of deviations are used as measures of [[statistical dispersion]].
+
+*'''[[Standard deviation]]''' is the frequently used measure of dispersion: it uses [[Square (algebra)|squared]] deviations, and has desirable properties, but is not [[robust statistics|robust]].
+*'''[[Average absolute deviation]],''' is the sum of absolute values of the deviations divided by the number of observations.
+*'''[[Median absolute deviation]]''' is a [[robust statistics|robust statistic]] which uses the median, not the mean, of absolute deviations.
+*'''[[Maximum absolute deviation]]''' is a highly non-robust measure, which uses the maximum absolute deviation.
+
+===Normalization===
+{{further|Normalization (statistics)}}
+
+Deviations have units of the measurement scale (for instance, meters if measuring lengths). 
+One can [[nondimensionalization|nondimensionalize]] in two ways.
+
+One way is by dividing by a measure of scale ([[statistical dispersion]]), most often either the population standard deviation, in [[standardizing]], or the sample standard deviation, in [[studentizing]] (e.g., [[Studentized residual]]).
+
+One can scale instead by ''location,'' not '' dispersion:'' the [[formula]] for a '''percent deviation''' is the observed value minus accepted value divided by the accepted value multiplied by 100%.
+
+==See also==
+* [[Anomaly (natural sciences)]]
+* [[Squared deviations]]
+* [[Deviate (statistics)]]
+* [[Variance]]
+
+{{DEFAULTSORT:Deviation (Statistics)}}
+[[Category:Statistical deviation and dispersion]]
+[[Category:Statistical distance]]</text>
+      <sha1>53f7izvfdue35ivlt735f99igas69yf</sha1>
+    </revision>
+  </page>
+</mediawiki>

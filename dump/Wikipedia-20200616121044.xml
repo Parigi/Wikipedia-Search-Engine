@@ -1,0 +1,187 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.10/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.10/ http://www.mediawiki.org/xml/export-0.10.xsd" version="0.10" xml:lang="en">
+  <siteinfo>
+    <sitename>Wikipedia</sitename>
+    <dbname>enwiki</dbname>
+    <base>https://en.wikipedia.org/wiki/Main_Page</base>
+    <generator>MediaWiki 1.35.0-wmf.36</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Media</namespace>
+      <namespace key="-1" case="first-letter">Special</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Talk</namespace>
+      <namespace key="2" case="first-letter">User</namespace>
+      <namespace key="3" case="first-letter">User talk</namespace>
+      <namespace key="4" case="first-letter">Wikipedia</namespace>
+      <namespace key="5" case="first-letter">Wikipedia talk</namespace>
+      <namespace key="6" case="first-letter">File</namespace>
+      <namespace key="7" case="first-letter">File talk</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki talk</namespace>
+      <namespace key="10" case="first-letter">Template</namespace>
+      <namespace key="11" case="first-letter">Template talk</namespace>
+      <namespace key="12" case="first-letter">Help</namespace>
+      <namespace key="13" case="first-letter">Help talk</namespace>
+      <namespace key="14" case="first-letter">Category</namespace>
+      <namespace key="15" case="first-letter">Category talk</namespace>
+      <namespace key="100" case="first-letter">Portal</namespace>
+      <namespace key="101" case="first-letter">Portal talk</namespace>
+      <namespace key="108" case="first-letter">Book</namespace>
+      <namespace key="109" case="first-letter">Book talk</namespace>
+      <namespace key="118" case="first-letter">Draft</namespace>
+      <namespace key="119" case="first-letter">Draft talk</namespace>
+      <namespace key="446" case="first-letter">Education Program</namespace>
+      <namespace key="447" case="first-letter">Education Program talk</namespace>
+      <namespace key="710" case="first-letter">TimedText</namespace>
+      <namespace key="711" case="first-letter">TimedText talk</namespace>
+      <namespace key="828" case="first-letter">Module</namespace>
+      <namespace key="829" case="first-letter">Module talk</namespace>
+      <namespace key="2300" case="first-letter">Gadget</namespace>
+      <namespace key="2301" case="first-letter">Gadget talk</namespace>
+      <namespace key="2302" case="case-sensitive">Gadget definition</namespace>
+      <namespace key="2303" case="case-sensitive">Gadget definition talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Template:Least squares and regression analysis</title>
+    <ns>10</ns>
+    <id>15629025</id>
+    <revision>
+      <id>957097553</id>
+      <parentid>943469642</parentid>
+      <timestamp>2020-05-17T00:30:00Z</timestamp>
+      <contributor>
+        <ip>76.14.39.120</ip>
+      </contributor>
+      <comment>‎ size = tiny for math portal</comment>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="3502" xml:space="preserve">{{Navbox
+| name  = Least squares and regression analysis
+| title = [[Least squares]] and [[regression analysis]]
+| bodyclass = hlist
+| color = 
+
+| group1 = [[Computational statistics]]
+| list1 =
+* [[Least squares]]
+* [[Linear least squares (mathematics)|Linear least squares]]
+* [[Non-linear least squares]]
+* [[Iteratively reweighted least squares]] 
+
+| group2 = [[Correlation and dependence]]
+|  list2 =
+* [[Pearson product-moment correlation coefficient|Pearson product-moment correlation]]
+* [[Rank correlation]] ([[Spearman's rank correlation coefficient|Spearman's rho]]
+* [[Kendall tau rank correlation coefficient|Kendall's tau]])
+* [[Partial correlation]]
+* [[Confounding|Confounding variable]]
+ 
+| group3 = [[Regression analysis]]
+| list3 =
+* [[Ordinary least squares]]
+* [[Partial least squares]] 
+* [[Total least squares]]
+* [[Ridge regression]]  
+
+| group4 = Regression as a &lt;br /&gt;[[statistical model]]
+|  list4 = 
+   {{Navbox|subgroup
+
+   | group2 = [[Linear regression]]
+   |  list2 =
+* [[Simple linear regression]]
+* [[Ordinary least squares]]
+* [[Generalized least squares]]
+* [[Weighted least squares]]
+* [[General linear model]]
+   |group3 = Predictor structure
+   |list3 =
+* [[Polynomial regression]]
+* [[Growth curve (statistics)]]
+* [[Segmented regression]]
+* [[Local regression]]
+
+   | group4 = Non-standard 
+   |  list4 =
+* [[Nonlinear regression]]
+* [[Nonparametric regression|Nonparametric]]
+* [[Semiparametric regression|Semiparametric]]
+* [[Robust regression|Robust]]
+* [[Quantile regression|Quantile]]
+* [[Isotonic regression|Isotonic]] 
+
+   | group5 = Non-normal errors
+   |  list5 =
+* [[Generalized linear model]]
+* [[Binomial regression|Binomial]]
+* [[Poisson regression|Poisson]]
+* [[Logistic regression|Logistic]]
+   }}
+
+| group5 = [[Partition of sums of squares|Decomposition of variance]]
+| list5 =
+* [[Analysis of variance]]
+* [[Analysis of covariance]]
+* [[Multivariate analysis of variance|Multivariate AOV]]
+
+| group6 = Model exploration
+| list6 =
+* [[Stepwise regression]]
+* [[Model selection]]
+** [[Mallows's Cp|Mallows's ''C&lt;sub&gt;p&lt;/sub&gt;'']]
+** [[Akaike information criterion|AIC]] 
+** [[Bayesian information criterion|BIC]]
+* [[Model specification]]
+* [[Regression validation]] 
+
+| group8 = Background
+| list8 =
+* [[Mean and predicted response]]
+* [[Gauss–Markov theorem]]
+* [[Errors and residuals in statistics|Errors and residuals]]
+* [[Goodness of fit]]
+* [[Studentized residual]]
+* [[Minimum mean-square error]] 
+* [[Frisch–Waugh–Lovell theorem]]
+
+|group10 = [[Design of experiments]]
+|list10 =
+* [[Response surface methodology]]
+* [[Optimal design]]
+* [[Bayesian experimental design|Bayesian design]]
+
+| group11 = [[Numerical analysis|Numerical]] [[Approximation theory|approximation]]
+|list11 =
+* [[Numerical analysis]]
+* [[Approximation theory]]
+* [[Numerical integration]]
+* [[Gaussian quadrature]]
+* [[Orthogonal polynomials]]
+* [[Chebyshev polynomials]]
+* [[Chebyshev nodes]]
+
+| group12 = Applications
+| list12 =
+* [[Curve fitting]]
+* [[Calibration curve]]
+* [[Numerical smoothing and differentiation]]
+* [[System identification]]
+* [[Moving least squares]]
+
+
+| below =
+* [[:Category:Regression analysis|Regression analysis category]]
+* [[:Category:Statistics|Statistics category]]
+* {{Portal-inline|Mathematics|size = tiny}}
+* [[Outline of statistics|Statistics outline]]
+* [[List of statistics articles|Statistics topics]]
+
+}}&lt;noinclude&gt;
+[[Category:Mathematics navigational boxes|{{PAGENAME}}]]
+[[Category:Statistics templates]]
+&lt;/noinclude&gt;</text>
+      <sha1>6t8ptmt8699xgawydfjqp6gmyqtlz60</sha1>
+    </revision>
+  </page>
+</mediawiki>

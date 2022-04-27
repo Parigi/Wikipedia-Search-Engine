@@ -1,0 +1,317 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.10/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.10/ http://www.mediawiki.org/xml/export-0.10.xsd" version="0.10" xml:lang="en">
+  <siteinfo>
+    <sitename>Wikipedia</sitename>
+    <dbname>enwiki</dbname>
+    <base>https://en.wikipedia.org/wiki/Main_Page</base>
+    <generator>MediaWiki 1.35.0-wmf.36</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Media</namespace>
+      <namespace key="-1" case="first-letter">Special</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Talk</namespace>
+      <namespace key="2" case="first-letter">User</namespace>
+      <namespace key="3" case="first-letter">User talk</namespace>
+      <namespace key="4" case="first-letter">Wikipedia</namespace>
+      <namespace key="5" case="first-letter">Wikipedia talk</namespace>
+      <namespace key="6" case="first-letter">File</namespace>
+      <namespace key="7" case="first-letter">File talk</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki talk</namespace>
+      <namespace key="10" case="first-letter">Template</namespace>
+      <namespace key="11" case="first-letter">Template talk</namespace>
+      <namespace key="12" case="first-letter">Help</namespace>
+      <namespace key="13" case="first-letter">Help talk</namespace>
+      <namespace key="14" case="first-letter">Category</namespace>
+      <namespace key="15" case="first-letter">Category talk</namespace>
+      <namespace key="100" case="first-letter">Portal</namespace>
+      <namespace key="101" case="first-letter">Portal talk</namespace>
+      <namespace key="108" case="first-letter">Book</namespace>
+      <namespace key="109" case="first-letter">Book talk</namespace>
+      <namespace key="118" case="first-letter">Draft</namespace>
+      <namespace key="119" case="first-letter">Draft talk</namespace>
+      <namespace key="446" case="first-letter">Education Program</namespace>
+      <namespace key="447" case="first-letter">Education Program talk</namespace>
+      <namespace key="710" case="first-letter">TimedText</namespace>
+      <namespace key="711" case="first-letter">TimedText talk</namespace>
+      <namespace key="828" case="first-letter">Module</namespace>
+      <namespace key="829" case="first-letter">Module talk</namespace>
+      <namespace key="2300" case="first-letter">Gadget</namespace>
+      <namespace key="2301" case="first-letter">Gadget talk</namespace>
+      <namespace key="2302" case="case-sensitive">Gadget definition</namespace>
+      <namespace key="2303" case="case-sensitive">Gadget definition talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Talk:Ordinary least squares</title>
+    <ns>1</ns>
+    <id>23494005</id>
+    <revision>
+      <id>952713480</id>
+      <parentid>925966368</parentid>
+      <timestamp>2020-04-23T18:23:09Z</timestamp>
+      <contributor>
+        <username>Dfrankow</username>
+        <id>52571</id>
+      </contributor>
+      <comment>Add slope and r comment</comment>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="30992" xml:space="preserve">{{Vital article|level=4|topic=Mathematics|class=B}}
+{{WPStatistics
+| importance = Top
+| class = B
+}}
+{{maths rating|frequentlyviewed=yes|
+| field = probability and statistics
+| importance = low
+| class = B
+}}
+{{annual readership|scale=log}}
+
+== More about "r" and the slope ==
+
+In this article, r^2 is called the "coefficient of determination."  What is "r" called?
+
+Also, I believe a one-dimensional regression line from an OLS fit has slope = r(sy/sx), where r is from above, and sy and sx are the standard deviations of the y and x data, respectively.
+
+Is that true?  Got a ref?  If so, we should work it into the article.
+
+[[User:Dfrankow|dfrankow]] ([[User talk:Dfrankow|talk]]) 18:23, 23 April 2020 (UTC)
+
+== Regression articles discussion July 2009 ==
+
+A discussion of content overlap of some regression-related articles has been started at [[Talk:Linear least squares#Merger proposal]] but it isn't really just a question of merging and no actual merge proposal has been made. [[User:Melcombe|Melcombe]] ([[User talk:Melcombe|talk]]) 11:37, 14 July 2009 (UTC)
+
+
+==OLS==
+Don't merge them, this article is OLS. To put it simple, this article is only for OLS, so don't write much about GLS etc in this article. But we can go deeper for OLS in this article. I want to delete much material is not OLS, those material can be put in the linear regression article.
+For example, the section 1 should be simplified.  [[User:Jackzhp|Jackzhp]] ([[User talk:Jackzhp|talk]]) 16:25, 25 March 2010 (UTC)
+
+
+==The variance of the estimator==
+We know &lt;math&gt;var(\hat{\beta})&lt;/math&gt;, but what is &lt;math&gt;var(s^2)&lt;/math&gt;? I don't know how to find it even for the simple case when &lt;math&gt;\Omega=\sigma^2I_n&lt;/math&gt;, but I know that the FDCR lower bound of it in this case is &lt;math&gt;\frac{2\sigma^{4}}{3n-4k}&lt;/math&gt;.  [[User:Jackzhp|Jackzhp]] ([[User talk:Jackzhp|talk]]) 16:53, 25 March 2010 (UTC)
+
+: According to my calculations, the variance is equal to
+:: &lt;math&gt;
+     \operatorname{Var}[s^2|X] = \frac{2\sigma^4}{n-p} + \gamma_2\cdot\sigma^4 \frac{\sum_{i=1}^n m_{ii}^2}{(n-p)^2},
+   &lt;/math&gt;
+: where ''m&lt;sub&gt;ii&lt;/sub&gt;'' is the ''i''-th diagonal element of the annihilator matrix ''M'', and ''γ''&lt;sub&gt;2&lt;/sub&gt; is the [[kurtosis]] of the distribution of the error terms. When the kurtosis is positive we can obtain an upper bound from the fact that &lt;math&gt;m_{ii}\geq m_{ii}^2&lt;/math&gt;, and the sum of ''m&lt;sub&gt;ii&lt;/sub&gt;''’s is the trace of ''M'' which is ''n − p'':
+:: &lt;math&gt;
+      \frac{2\sigma^4}{n-p} \leq \operatorname{Var}[s^2|X] \leq \frac{(2+\gamma_2)\sigma^4}{n-p}
+   &lt;/math&gt;
+: &lt;font color="#aaa"&gt; // &lt;b&gt;[[User talk:Stpasha|&lt;font color="#888"&gt;st&lt;/font&gt;&lt;font color="#000"&gt;pasha&lt;/font&gt;]]&lt;/b&gt; » &lt;/font&gt; 00:36, 25 April 2010 (UTC)
+
+==Comment from main article on assumptions==
+
+I'm moving this from the main article, it was included as a comment in the section on assumptions:
+
+:Can we just replace this section with the following one line?
+:&lt;math&gt;E\left(\varepsilon\varepsilon^{'}|X\right)=\Omega_{n}&lt;/math&gt;
+
+:Please discuss with me in the discussion page. Let's keep material only related to OLS, anything else should be deleted. If you want, please move it to linear regression article.
+
+:correlation between data points can be discussed, but not in this section. Given &lt;math&gt;E\left(\varepsilon\varepsilon^{'}|X\right)=\sigma^{2}I_{n}&lt;/math&gt;, we can clear see this.
+
+:Identifiability can be discussed, but should be in the estimation section
+
+I disagree with this proposal.  Some written explanation is much more useful than a single mathematical expression.  The current text is not unduly digressive.  [[User:Skbkekas|Skbkekas]] ([[User talk:Skbkekas|talk]]) 22:29, 25 March 2010 (UTC)
+
+== Why does "linear least-squares" redirect here? ==
+This page does not make any sense to someone who is just interested in the general problem  &lt;math&gt;\min_x \|Ax-b\|^2&lt;/math&gt;, since this page seems extremely application specific. Did some error occur when this strange redirection happened?  &lt;small&gt;&lt;span class="autosigned"&gt;—Preceding [[Wikipedia:Signatures|unsigned]] comment added by [[User:Short rai|Short rai]] ([[User talk:Short rai|talk]] • [[Special:Contributions/Short rai|contribs]]) 09:54, 23 May 2010 (UTC)&lt;/span&gt;&lt;/small&gt;&lt;!-- Template:Unsigned --&gt; &lt;!--Autosigned by SineBot--&gt;
+: See [[Ordinary least squares#Geometric approach]]. &lt;font color="#aaa"&gt; // &lt;b&gt;[[User talk:Stpasha|&lt;font color="#888"&gt;st&lt;/font&gt;&lt;font color="#000"&gt;pasha&lt;/font&gt;]]&lt;/b&gt; » &lt;/font&gt; 19:07, 23 May 2010 (UTC)
+::But this is a major subject in virtually every subfield of applied mathematics, and you refer everyone who is not in statistics to one tiny paragraph called "geometric approach"? I think there recently was a redirect and/or merge process going on with other articles in about the topic, and there seems to have been a page called "linear least squares" earlier, but that page is impossible to find now.[[User:Short rai|Short rai]] ([[User talk:Short rai|talk]]) 23:14, 23 May 2010 (UTC)
+
+::: Ya, there used to be a [[Numerical methods for linear least squares|backlink]] in the see also section, I have restored it now. And by the way, the OLS regression and the problem of minimization of the norm of ''Ax−b'' are ''exactly'' the same problems, only written in different notations. The difference is that statisticians use ''X'' and ''y'' for ''known'' quantities, and ''&amp;beta;'' for ''unknown''. Mathematicians use those symbols in the opposite way. &lt;font color="#aaa"&gt; // &lt;b&gt;[[User talk:Stpasha|&lt;font color="#888"&gt;st&lt;/font&gt;&lt;font color="#000"&gt;pasha&lt;/font&gt;]]&lt;/b&gt; » &lt;/font&gt; 03:53, 24 May 2010 (UTC)
+
+== Hypothesis Testing ==
+
+Why is this section empty? [[User:Stuffisthings|Stuffisthings]] ([[User talk:Stuffisthings|talk]]) 13:32, 15 July 2010 (UTC)
+
+== Linear Least Squares ==
+
+FYI, there is a discussion on the usage of {{noredirect|Linear least squares}} which currently redirects here, but was previously another topic, at [[Talk:Numerical methods for linear least squares]].
+
+[[Special:Contributions/76.66.198.128|76.66.198.128]] ([[User talk:76.66.198.128|talk]]) 03:56, 21 October 2010 (UTC)
+
+== Vertical or Euclidian Distances? ==
+
+The article states that OLS minimizes the sum of squared distances from the points to the estimated regression line. But we are taught in standard (Euclidian) geometry that the distance between a point and a line is defined as the length of the perpindicular line segment connecting the two. This is ''not'' what OLS minimizes. Rather, it minimizes the ''vertical'' distance between the points and the line. Shouldn't the article say as much?  &lt;span style="font-size: smaller;" class="autosigned"&gt;—Preceding [[Wikipedia:Signatures|unsigned]] comment added by [[Special:Contributions/76.76.220.34|76.76.220.34]] ([[User talk:76.76.220.34|talk]]) 17:00, 2 November 2010 (UTC)&lt;/span&gt;&lt;!-- Template:UnsignedIP --&gt; &lt;!--Autosigned by SineBot--&gt;
+
+: I've changed that sentence, so that it says "vertical distances" now. &lt;font color="#aaa"&gt; // &lt;b&gt;[[User talk:Stpasha|&lt;font color="#888"&gt;st&lt;/font&gt;&lt;font color="#000"&gt;pasha&lt;/font&gt;]]&lt;/b&gt; » &lt;/font&gt; 20:53, 2 November 2010 (UTC)
+
+:: I have a problem where I do want to minimize the sum of squared Euclidean distances from a point to a set of given straight lines in the plane.  Can anyone give a reference or some keywords? (The problem occurs in surveying, when many observers at known locations can see the same point at an unknown location. Each observer can measure its bearing to the target point.  This gives a set of lines that ideally should intersect at the target point. But measurement errors gives an overdetermined problem if there are more than two observers.) [[User:Mikrit|Mikrit]] ([[User talk:Mikrit|talk]]) 15:41, 22 November 2010 (UTC)
+
+::: You want to look at [[Deming regression]] or [[Total least squares]]. &lt;font color="#aaa"&gt; // &lt;b&gt;[[User talk:Stpasha|&lt;font color="#888"&gt;st&lt;/font&gt;&lt;font color="#000"&gt;pasha&lt;/font&gt;]]&lt;/b&gt; » &lt;/font&gt; 16:47, 22 November 2010 (UTC)
+
+== Example with real data ==
+
+Are the calculations of the Akaike criterion and Schwarz criterion correct here? I know that there are many "different" forms of the AIC and SIC - but I just can't figure out how these were calculated.  Certainly they seem inconsistent with the forms that are linked-to in the description that follows the calculated values.&lt;span style="font-size: smaller;" class="autosigned"&gt;—Preceding [[Wikipedia:Signatures|unsigned]] comment added by [[Special:Contributions/71.224.184.11|71.224.184.11]] ([[User talk:71.224.184.11|talk]]) 05:32, 30 November 2010 (UTC)&lt;/span&gt;&lt;!-- Template:UnsignedIP --&gt; &lt;!--Autosigned by SineBot--&gt;
+
+===I'll try again===
+Way back in 2008 I came across this example calculation, and looked at the plot of (x,y) and noticed an odd cadence in the positioning. Some simple inspection soon showed that the original height data were in terms of inches, and whoever converted them to metric bungled the job. The conversion factor is 2.54cm to an inch and rounding to the nearest centimetre is ''not'' a good idea. This makes a ''visible difference'' and considerably changes the results of an attempt at a quadratic fit. It doesn't matter what statistical packages might be used, to whatever height of sophistication, if the input data are wrongly prepared. The saving grace is the presence of the plot of the data, but, that plot has to be ''looked at'' not just gazed at with vague approbation. In the various reorganisations, my report of this problem has been lost, and the editors ignored its content. The error remains, so I'll try again.
+ Height^2       Height         Const.
+ 61.96033      -143.162      128.8128  Improper rounding of inches to whole cm.
+ 58.5046       -131.5076     119.0205  Proper conversion, no rounding.
+The original incorrectly-converted plot can be reproduced, but here is a plot of the correctly-converted heights, with a quadratic fit. Notice the now-regular spacing of the x-values, without cadence.
+[[Image:HeightWeightExample.CorrectConversion.QuadraticFit.png|thumb|none|460px|Correctly converted heights, quadratic fit.]]
+For the incorrectly-concerted heights, the residuals are
+[[Image:HeightWeightExample.WrongConversion.Quadratic.Residuals.png|thumb|none|460px|Wrongly converted heights, Residuals to a quadratic fit.]]
+Whereas for the correctly-converted height data, the residuals are much smaller. (Note the vertical scale)
+[[Image:HeightWeightExample.CorrectConversion.Quadratic.Residuals.png|thumb|none|460px|Correctly converted heights, Residuals to a quadratic fit.]]
+And indeed, this pattern of residuals rather suggests a higher-order fit attempt, such as with a cubic. 
+[[Image:HeightWeightExample.CorrectConversion.Cubic.Residuals.png|thumb|none|460px|Correctly converted heights, Residuals to a cubic fit.]]
+But assessing the merit of this escalation would be helped by the use of some more sophisticated analysis, such as might be offered by the various fancy packages, ''if fed correct data''.
+
+Later, it occurred to me to consider whether the weights might have been given in pounds. The results were odd in another way. Using the conversion 1KG = 2.20462234 lbs used in the USA, the weights are
+ 115.1033 117.1095 120.1078 123.1061 126.1044 129.1247 132.123 135.1213 139.1337 142.132 146.1224 150.1348 154.1472 159.1517 164.1562
+ 114.862  116.864  119.856  122.848  125.84   128.854  131.846 134.838  138.842  141.834 145.816  149.82   153.824  158.818  163.812
+The second row being for the approximate conversion of 1KG = 2.2lbs. I am puzzled by the fractional parts.
+[[User:NickyMcLean|NickyMcLean]] ([[User talk:NickyMcLean|talk]]) 22:11, 5 September 2011 (UTC)
+
+===Possible error in formula for standard error for coefficients===
+It seems to me that the 1/n should not be included in the formula for the standard errors for each coefficient. With 1/n, the values calculated in this example are not produced. Removing it generates the values given in the example. Would someone more knowledgeable in this subject examine this and correct the formula, if necessary?  &lt;span style="font-size: smaller;" class="autosigned"&gt;— Preceding [[Wikipedia:Signatures|unsigned]] comment added by [[Special:Contributions/173.178.40.20|173.178.40.20]] ([[User talk:173.178.40.20|talk]]) 17:37, 22 May 2012 (UTC)&lt;/span&gt;&lt;!-- Template:Unsigned IP --&gt; &lt;!--Autosigned by SineBot--&gt;
+
+Yes, this looks wrong to me as well.  &lt;span style="font-size: smaller;" class="autosigned"&gt;— Preceding [[Wikipedia:Signatures|unsigned]] comment added by [[Special:Contributions/2620:0:1009:1:BAAC:6FFF:FE7D:1EE9|2620:0:1009:1:BAAC:6FFF:FE7D:1EE9]] ([[User talk:2620:0:1009:1:BAAC:6FFF:FE7D:1EE9|talk]]) 17:24, 30 November 2012 (UTC)&lt;/span&gt;&lt;!-- Template:Unsigned IP --&gt; &lt;!--Autosigned by SineBot--&gt;
+
+I arrived to the same conclusion independently before checking this talk page, thus I removed the 1/n. [[Special:Contributions/91.157.6.139|91.157.6.139]] ([[User talk:91.157.6.139|talk]]) 12:06, 1 January 2015 (UTC)
+
+I found this error as well, and, despite the previous comment the 1/n was still there. I removed it now.  &lt;small class="autosigned"&gt;—&amp;nbsp;Preceding [[Wikipedia:Signatures|unsigned]] comment added by [[Special:Contributions/212.213.198.88|212.213.198.88]] ([[User talk:212.213.198.88|talk]]) 10:50, 20 February 2015 (UTC)&lt;/small&gt;&lt;!-- Template:Unsigned IP --&gt; &lt;!--Autosigned by SineBot--&gt;
+
+==On multicollinearity==
+Multicollinearity means high level of correlation between variables.  OLS can handle this fine, it just needs more data to do it.  However, in the article, "multicollinearity" is being used to mean perfect collinearity, ie. the data matrix does not have full column rank.  This is confusing.  I propose we stop using multicollinearity to mean lack of full rank, and just say "not full rank".   &lt;span style="font-size: smaller;" class="autosigned"&gt;—Preceding [[Wikipedia:Signatures|unsigned]] comment added by [[Special:Contributions/24.30.13.209|24.30.13.209]] ([[User talk:24.30.13.209|talk]]) 04:21, 10 March 2011 (UTC)&lt;/span&gt;&lt;!-- Template:UnsignedIP --&gt; &lt;!--Autosigned by SineBot--&gt;
+
+:Done. Let me know if I missed any instances of it. [[User:Duoduoduo|Duoduoduo]] ([[User talk:Duoduoduo|talk]]) 15:11, 10 March 2011 (UTC)
+
+== Estimation ==
+
+In the section "Simple regression model"; It is not true that &lt;math&gt;\hat\beta = \mathrm{Cov}(x,y)/\mathrm{Var}(x) &lt;/math&gt;, this only holds for the true parameters and not the estimator. Rather, &lt;math&gt;\hat\beta&lt;/math&gt; is equal to the ''sample'' covariance over ''sample'' variance. Maybe use a hat over Cov and Var to signify this if you want the relation to be stressed.
+
+Also, in my opinion a lot of time is being devoted to the use of the annihilator-matrix. It does't seem necessary to introduce the extra notation unless one wants to go into the Frisch-Waugh-Lovell theorem and this has its own separate page.  &lt;small&gt;&lt;span class="autosigned"&gt;— Preceding [[Wikipedia:Signatures|unsigned]] comment added by [[User:Superpronker|Superpronker]] ([[User talk:Superpronker|talk]] • [[Special:Contributions/Superpronker|contribs]]) 06:46, 1 June 2011 (UTC)&lt;/span&gt;&lt;/small&gt;&lt;!-- Template:Unsigned --&gt; &lt;!--Autosigned by SineBot--&gt;
+
+I believe that a clarification on notation would help immensely.  The regressor values for 1 observation is referred to as the *column* vector &lt;math&gt;x_i&lt;/math&gt;.  However, in the design matrix of regressor values, the values for an observation occupy a *row*.  Hence, it is easy to fall into the trap of thinking of &lt;math&gt;x_i&lt;/math&gt; as a row vector, leading to confusion.[[User:Craniator|Craniator]] ([[User talk:Craniator|talk]]) 05:34, 3 May 2015 (UTC)
+
+== Alternative Derivations: Geometric Approach ==
+
+In the illustration of orthogonal projection, it would be helpful to clarify that &lt;math&gt;X_i&lt;/math&gt; refers to a column in the data matrix, thus clearly distinguishing it from &lt;math&gt;x_i&lt;/math&gt; for the set of regressor values from one observation.[[User:Craniator|Craniator]] ([[User talk:Craniator|talk]]) 06:01, 3 May 2015 (UTC)
+
+== Too technical? Should it be rewritten "one level down"? ==
+
+I realize this article has been rated B-class, but I wonder if it is too technical for someone who does not already understand OLS. OLS is often studied in undergrad stats classes. Therefore, in the spirit of writing "one level down" (see: [[WP:UPFRONT]]), this article should ideally include an extended intro that is ''much'' more comprehensible to someone with some relatively advanced high school math training (say, through a year of high school calculus, but without linear algebra). 
+
+As currently written, almost all of the article is incomprehensible to someone who doesn't understand linear algebra. There are many ways of introducing OLS without linear algebra, so could such non-technical, intuitive approaches be put at the top of this article, leaving the more technical, formal math stuff for the bottom? I hesitate to be so bold in editing, since this is a very important article, but I think it is currently ''way'' too technical.[[User:Aroundthewayboy|Aroundthewayboy]] ([[User talk:Aroundthewayboy|talk]]) 04:57, 26 July 2015 (UTC)
+
+:Yes, this article is basically unreadable. --[[User:The Cunctator|The Cunctator]] ([[User talk:The Cunctator|talk]]) 15:01, 12 May 2016 (UTC)
+
+:I agree as well. There is also the very similar discussion in [[Linear_regression]] equally swamped by inscrutable linear algebra blather that may well be succinct and general with fancy symbols pleasing to the cognoscenti, but obstructive to those not familiar with its usage. There is yet more of much the same in [[Simple_linear_regression]] where in the "talk" I went through the derivation using calculus, that I think is rather more understandable and not just because I wrote it out. Some consolidation would be in order. [[User:NickyMcLean|NickyMcLean]] ([[User talk:NickyMcLean|talk]]) 12:04, 15 May 2016 (UTC)
+
+:I agree too. Have some basic understanding of linear algebra and get the concept of OLS, but still find the article incomprehensible. It would probably be a good idea to have an example, like estimating a 'voter transition analysis', and not assuming the preknowledge of specialized mathematical jargon that go beyond basic analysis classes. [[User:MovGP0|MovGP0]] ([[User talk:MovGP0|talk]]) 00:26, 4 December 2016 (UTC)
+
+== Bias due to Ordinary Least Squares ==
+
+There has been criticism of ordinary least squares being a biased estimator. The idea that least squares is the best comes from probability theory and the consideration of repeated measurements. [http://books.google.com/books?id=X45CAQAAIAAJ&amp;pg=RA1-PA169 Gauss showed] that the sum of the ''square'' of the errors resulted in the least probable error for an estimate. The problem with trying to fit a straight line to data that is slightly unbalanced results in a biased fit since the error can be "tilted" slightly to reduce the sum of its squares. Under such circumstances the assumption that the sum of the squares is a minimum is false but unavoidable. The bias in the data is difficult to detect. --[[User:Jbergquist|Jbergquist]] ([[User talk:Jbergquist|talk]]) 23:21, 6 February 2016 (UTC)
+
+:[[File:Least squares bias 01.png|thumb|left|upright=2|Ordinary Least Squares bias example]]
+It might be helpful to include an example of the bias in an OLS fit. Here is a simple one. Notice that the fit zeros the [[Moment (mathematics)|first moment]] of the errors. --[[User:Jbergquist|Jbergquist]] ([[User talk:Jbergquist|talk]]) 19:31, 7 February 2016 (UTC)
+== Dr. Kaplan's comment on this article ==
+
+
+Dr. Kaplan has reviewed [https://en.wikipedia.org/w/index.php?title=Ordinary_least_squares&amp;oldid=720506953 this Wikipedia page], and provided us with the following comments to improve its quality:
+
+
+{{quote|text=Sources:
+1. Bruce Hansen's online econometrics text/lecture notes, 2016 edition: http://www.ssc.wisc.edu/~bhansen/econometrics/
+2. Wooldridge, Jeffrey M. (2010). Econometric Analysis of Cross Section and Panel Data, 2nd ed. MIT press.
+
+Original first paragraph:
+&lt;&lt;In statistics, ordinary least squares (OLS) or linear least squares is a method for estimating the unknown parameters in a linear regression model, with the goal of minimizing the differences between the observed responses in some arbitrary dataset and the responses predicted by the linear approximation of the data (visually this is seen as the sum of the vertical distances between each data point in the set and the corresponding point on the regression line - the smaller the differences, the better the model fits the data). The resulting estimator can be expressed by a simple formula, especially in the case of a single regressor on the right-hand side.&gt;&gt;
+Comments:
+1a.  It's vague (at best) or misleading to say OLS estimates the unknown parameters in a linear regression model.  OLS estimates the linear projection coefficient; in some cases, this corresponds to the parameters of the conditional expectation function (CEF), which is usually (but not always...) what "regression" refers to.  See for example Theorem 6.2.1 in [1].  The linear projection coefficient also forms the "best linear predictor" as in Section 2.18 of [1].
+1b.  The phrase "sum of the vertical distances" is wrong.  The "squares" in "ordinary least squares" refers to the fact that the vertical distances are each squared, and then summed.  Minimizing the sum of (absolute) vertical distances leads to the least absolute deviations (LAD) regression estimators, a.k.a. median regression.
+
+Original second paragraph:
+&lt;&lt;The OLS estimator is consistent when the regressors are exogenous and there is no perfect multicollinearity, and optimal in the class of linear unbiased estimators when the errors are homoscedastic and serially uncorrelated. Under these conditions, the method of OLS provides minimum-variance mean-unbiased estimation when the errors have finite variances. Under the additional assumption that the errors be normally distributed, OLS is the maximum likelihood estimator. OLS is used in economics (econometrics), political science and electrical engineering (control theory and signal processing), among many areas of application. The Multi-fractional order estimator is an expanded version of OLS.&gt;&gt;
+Comments:
+2a.  The term "consistent" has no absolute meaning; one must say "consistent for XXX."  The first sentence's use is like having a transitive verb with no direct object.  I'd suggest XXX=linear projection coefficient, as in e.g. Theorem 6.2.1 in [1].
+2b.  Trying to explain consistency in the intro is a tall task.  The first sentence mentions "exogenous" (which is either ambiguous, or else stronger than necessary...) and multicollinearity, but it mentions nothing of sampling assumptions (iid, etc.), so it's insufficient to establish consistency.  One could try to explain the result from Theorem 6.2.1 in [1], but this seems too detailed for an introduction.
+2c.  The term "optimal" is ambiguous.  Optimal with respect to what criterion?  (The next sentence answers: smallest variance, although this itself takes some defining when the variance is a matrix rather than a scalar.)
+2d.  The second half of the first sentence seems to be referring to the Gauss-Markov Theorem(?), but it fails to mention the critical assumption of a linear conditional expectation function.
+2e.  The second-to-last sentence seems to lack (grammatically) an "and" before "political science".
+2f.  I don't think the "Multi-fractional order estimator" (whatever that is...) should be mentioned in the introduction to an article on OLS.  Perhaps something like GLS, or FGLS, or WLS, or NLLS, if you really want to mention other methods.
+
+Original paragraph:
+&lt;&lt;Suppose the data consists of n observations { y
+i, x
+i }n
+i=1. Each observation includes a scalar response yi and a vector of p predictors (or regressors) xi. In a linear regression model the response variable is a linear function of the regressors:
+    y_i = x_i ^T \beta + \varepsilon_i, \,
+where β is a p×1 vector of unknown parameters; εi's are unobserved scalar random variables (errors) which account for the discrepancy between the actually observed responses yi and the "predicted outcomes" xiTβ; and T denotes matrix transpose, so that xTβ is the dot product between the vectors x and β. This model can also be written in matrix notation as
+    y = X\beta + \varepsilon, \,
+where y and ε are n×1 vectors, and X is an n×p matrix of regressors, which is also sometimes called the design matrix.&gt;&gt;
+Comments:
+3a. It's unclear what "'predicted outcomes' $x_i'\beta$" means, esp. since it's in scare quotes(!).
+3b. It's odd/unhelpful to write down a model without explaining what the $\epsilon_i$ are and/or what $\beta$ is (which is down much farther down).  In contrast, see for example Section 6.1 of [1], where $\beta$ is immediately defined as the linear projection coefficient, as defined earlier (Definition 2.18.1).  I understand there is some incentive to leave it ambiguous at first because there are different assumptions one could make, but logically I think it's best to start with a linear projection model because that's fundamentally what OLS estimates.  Then, one can mentioned that a linear CEF/regression model implies that the (population) linear projection equals the CEF, but that's an argument about identification; one can always go further and mention that under yet more assumptions (conditional independence) the CEF derivative equals the average causal effect, etc., as in Theorem 2.30.1 in [1].
+
+Original paragraph:
+&lt;&lt;There may be some relationship between the regressors. For instance, the third regressor may be the square of the second regressor. In this case (assuming that the first regressor is constant) we have a quadratic model in the second regressor. But this is still considered a linear model because it is linear in the βs.&gt;&gt;
+Comment:
+4a.  The phrase "linear model" is ambiguous.  (Of course, people use it all the time.)  See for example page 15 of [2].  Models can be linear in the explanatory variables, linear in parameters, both, or neither.  In the case of including a squared regressor, it's still linear in parameters, but no longer linear in variables.
+
+Original paragraph:
+&lt;&lt;There are several different frameworks in which the linear regression model can be cast in order to make the OLS technique applicable. Each of these settings produces the same formulas and same results. The only difference is the interpretation and the assumptions which have to be imposed in order for the method to give meaningful results. The choice of the applicable framework depends mostly on the nature of data in hand, and on the inference task which has to be performed.&gt;&gt;
+Comment:
+5a. This isn't a bad (or at least, not wrong) paragraph, and it makes essentially my point from Comment 3b.  I'd again suggest an overall structure that shows 1) under the weakest assumptions, OLS is consistent for the linear projection coefficient, 2) under additional assumptions XXX the linear projection coefficient equals [some other parameter of interest].
+
+Original paragraph:
+&lt;&lt;One of the lines of difference in interpretation is whether to treat the regressors as random variables, or as predefined constants. In the first case (random design) the regressors xi are random and sampled together with the yi's from some population, as in an observational study. This approach allows for more natural study of the asymptotic properties of the estimators. In the other interpretation (fixed design), the regressors X are treated as known constants set by a design, and y is sampled conditionally on the values of X as in an experiment. For practical purposes, this distinction is often unimportant, since estimation and inference is carried out while conditioning on X. All results stated in this article are within the random design framework.&gt;&gt;
+6a. The phrase "estimation and inference is carried out while conditioning on X" may be essentially true if assuming a linear CEF model, but again, that's much stronger than required.  Within the more general linear projection model, it's not true.
+
+Original paragraph:
+&lt;&lt;The exogeneity assumption is critical for the OLS theory. If it holds then the regressor variables are called exogenous. If it doesn't, then those regressors that are correlated with the error term are called endogenous,[2] and then the OLS estimates become invalid. In such case the method of instrumental variables may be used to carry out inference.&gt;&gt;
+7a. The "exogeneity assumption" is critical for *finite-sample* OLS theory, not asymptotic OLS theory.
+7b. It is still not clearly stated what $\epsilon$ is.  Here, it is (implicitly) treated as a structural error term.  If it were defined as a CEF error term, then the "exogeneity assumption" would hold by definition.
+7c. It's a bit of an oversell to say if X is endogenous then one can use IV methods; it's *possible* in very rare cases....
+
+I've already spent way more than 20min on this, so I must stop.}}
+
+
+We hope Wikipedians on this talk page can take advantage of these comments and improve the quality of the article accordingly.
+
+Dr. Kaplan has published scholarly research which seems to be relevant to this Wikipedia article:
+
+
+
+*'''Reference ''': David M. Kaplan &amp; Matt Goldman, 2015. "Fractional order statistic approximation for nonparametric conditional quantile inference," Working Papers 1502, Department of Economics, University of Missouri.
+
+[[User:ExpertIdeasBot|ExpertIdeasBot]] ([[User talk:ExpertIdeasBot|talk]]) 15:41, 19 May 2016 (UTC)
+== Dr. Fachin's comment on this article ==
+
+
+Dr. Fachin has reviewed [https://en.wikipedia.org/w/index.php?title=Ordinary_least_squares&amp;oldid=731616506 this Wikipedia page], and provided us with the following comments to improve its quality:
+
+
+{{quote|text=Edited a couple of points myself}}
+
+
+We hope Wikipedians on this talk page can take advantage of these comments and improve the quality of the article accordingly.
+
+We believe Dr. Fachin has expertise on the topic of this article, since he has published relevant scholarly research:
+
+
+
+*'''Reference ''': Di Iorio, Francesca &amp; Fachin, Stefano, 2012. "A note on the estimation of long-run relationships in panel equations with cross-section linkages," Economics Discussion Papers 2012-1, Kiel Institute for the World Economy.
+
+[[User:ExpertIdeasBot|ExpertIdeasBot]] ([[User talk:ExpertIdeasBot|talk]]) 19:14, 26 July 2016 (UTC)
+
+== Coefficient of determination ==
+
+I looked for clarifications in a google-preview of Hayashi's book but could not find the derivation of the equation:
+: &lt;math&gt;
+    R^2 = \frac{\sum(\hat y_i-\overline{y})^2}{\sum(y_i-\overline{y})^2} = \frac{y ^\mathrm{T} P ^\mathrm{T} LPy}{y ^\mathrm{T} Ly} = 1 - \frac{y ^\mathrm{T} My}{y ^\mathrm{T} Ly} = 1 - \frac{\rm RSS}{\rm TSS}.
+  &lt;/math&gt;
+Is this correct? Would it be possible to expand it a bit for clarity?
+[[Special:Contributions/129.240.43.144|129.240.43.144]] ([[User talk:129.240.43.144|talk]]) 12:32, 13 November 2019 (UTC)</text>
+      <sha1>cq2vn5v4risp5hpob9qonfxurcp4h7m</sha1>
+    </revision>
+  </page>
+</mediawiki>

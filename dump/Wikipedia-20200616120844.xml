@@ -1,0 +1,206 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.10/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.10/ http://www.mediawiki.org/xml/export-0.10.xsd" version="0.10" xml:lang="en">
+  <siteinfo>
+    <sitename>Wikipedia</sitename>
+    <dbname>enwiki</dbname>
+    <base>https://en.wikipedia.org/wiki/Main_Page</base>
+    <generator>MediaWiki 1.35.0-wmf.36</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Media</namespace>
+      <namespace key="-1" case="first-letter">Special</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Talk</namespace>
+      <namespace key="2" case="first-letter">User</namespace>
+      <namespace key="3" case="first-letter">User talk</namespace>
+      <namespace key="4" case="first-letter">Wikipedia</namespace>
+      <namespace key="5" case="first-letter">Wikipedia talk</namespace>
+      <namespace key="6" case="first-letter">File</namespace>
+      <namespace key="7" case="first-letter">File talk</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki talk</namespace>
+      <namespace key="10" case="first-letter">Template</namespace>
+      <namespace key="11" case="first-letter">Template talk</namespace>
+      <namespace key="12" case="first-letter">Help</namespace>
+      <namespace key="13" case="first-letter">Help talk</namespace>
+      <namespace key="14" case="first-letter">Category</namespace>
+      <namespace key="15" case="first-letter">Category talk</namespace>
+      <namespace key="100" case="first-letter">Portal</namespace>
+      <namespace key="101" case="first-letter">Portal talk</namespace>
+      <namespace key="108" case="first-letter">Book</namespace>
+      <namespace key="109" case="first-letter">Book talk</namespace>
+      <namespace key="118" case="first-letter">Draft</namespace>
+      <namespace key="119" case="first-letter">Draft talk</namespace>
+      <namespace key="446" case="first-letter">Education Program</namespace>
+      <namespace key="447" case="first-letter">Education Program talk</namespace>
+      <namespace key="710" case="first-letter">TimedText</namespace>
+      <namespace key="711" case="first-letter">TimedText talk</namespace>
+      <namespace key="828" case="first-letter">Module</namespace>
+      <namespace key="829" case="first-letter">Module talk</namespace>
+      <namespace key="2300" case="first-letter">Gadget</namespace>
+      <namespace key="2301" case="first-letter">Gadget talk</namespace>
+      <namespace key="2302" case="case-sensitive">Gadget definition</namespace>
+      <namespace key="2303" case="case-sensitive">Gadget definition talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Weighted least squares</title>
+    <ns>0</ns>
+    <id>2407860</id>
+    <revision>
+      <id>948755965</id>
+      <parentid>913963314</parentid>
+      <timestamp>2020-04-02T21:16:50Z</timestamp>
+      <contributor>
+        <username>INLegred</username>
+        <id>31233338</id>
+      </contributor>
+      <comment>/* Introduction */  The article was completely incoherent due to migrating pages, I attempted to modify it to include all necessary definitions while changing as little as possible.</comment>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="13079" xml:space="preserve">{{cleanup split|Least squares|Linear least squares (mathematics)|date=July 2018}}
+
+'''Weighted least squares''' ('''WLS'''), also known as '''weighted linear regression''',&lt;ref&gt;[https://support.minitab.com/en-us/minitab/18/help-and-how-to/modeling-statistics/regression/supporting-topics/basics/weighted-regression/]&lt;/ref&gt;&lt;ref&gt;[https://blogs.sas.com/content/iml/2016/10/05/weighted-regression.html]&lt;/ref&gt; is a generalization of [[ordinary least squares]] and [[linear regression]] in which the errors [[covariance matrix]] is allowed to be different from an [[identity matrix]].
+WLS is also a specialization of [[generalized least squares]] in which the above matrix is [[diagonal matrix|diagonal]].
+
+==Introduction==
+A special case of [[generalized least squares]] called '''weighted least squares''' occurs when all the off-diagonal entries of ''Ω'' (the correlation matrix of the residuals) are null; the [[variance]]s of the observations (along the covariance matrix diagonal) may still be unequal ([[heteroscedasticity]]).
+
+The fit of a model to a data point is measured by its [[errors and residuals in statistics|residual]], &lt;math&gt; r_j &lt;/math&gt;, defined as the difference between a measured value of the dependent variable, &lt;math&gt; y_j &lt;/math&gt; and the value predicted by the model, &lt;math&gt; f(x_i, \boldsymbol \beta) &lt;/math&gt;: 
+:&lt;math&gt;r_i(\boldsymbol \beta)=y_i-f(x_i,\boldsymbol \beta).&lt;/math&gt;
+If the errors are uncorrelated and have equal variance, then the minimum of the function
+:&lt;math&gt; S(\boldsymbol \beta) = \sum_i r_i(\boldsymbol \beta)^2 &lt;/math&gt;,
+is found when &lt;math&gt;\frac{\partial S (\hat \boldsymbol \beta)}{\partial \beta_j} = 0 &lt;/math&gt; (defining &lt;math&gt; \boldsymbol \hat \beta &lt;/math&gt;).
+
+The [[Gauss–Markov theorem]] shows that, when this is so, &lt;math&gt;\hat{\boldsymbol{\beta}}&lt;/math&gt; is a [[best linear unbiased estimator]] ([[Best linear unbiased estimator|BLUE]]). If, however, the measurements are uncorrelated but have different uncertainties, a modified approach might be adopted. [[Alexander Aitken|Aitken]] showed that when a weighted sum of squared residuals is minimized, &lt;math&gt;\hat{\boldsymbol{\beta}}&lt;/math&gt; is  the [[Best linear unbiased estimator|BLUE]] if each weight is equal to the reciprocal of the variance of the measurement
+:&lt;math&gt; S = \sum_{i=1}^{n} W_{ii}{r_i}^2,\qquad W_{ii}=\frac{1}{{\sigma_i}^2} &lt;/math&gt;
+The gradient equations for this sum of squares are
+
+: &lt;math&gt;-2\sum_i W_{ii}\frac{\partial f(x_i,\boldsymbol {\beta})}{\partial \beta_j} r_i = 0, \qquad j=1,\ldots,m&lt;/math&gt;
+
+which, in a linear least squares system give the modified normal equations,
+
+: &lt;math&gt;\sum_{i=1}^n \sum_{k=1}^{m} X_{ij} W_{ii}X_{ik}\hat{\beta}_k=\sum_{i=1}^n X_{ij} W_{ii}y_i, \qquad j=1,\ldots,m\,.&lt;/math&gt;
+
+When the observational errors are uncorrelated and the weight matrix, '''W''', is diagonal, these may be written as
+
+:&lt;math&gt;\mathbf{\left(X^TWX\right)\hat {\boldsymbol {\beta}}=X^TWy}.&lt;/math&gt;
+
+If the errors are correlated, the resulting estimator is the [[Best linear unbiased estimator|BLUE]] if the weight matrix is equal to the inverse of the [[variance-covariance matrix]] of the observations.
+
+When the errors are uncorrelated, it is convenient to simplify the calculations to factor the weight matrix as &lt;math&gt;w_{ii}=\sqrt{W_{ii}}&lt;/math&gt;.
+The normal equations can then be written
+in the same form as ordinary least squares:
+
+:&lt;math&gt;\mathbf{\left(X'^TX'\right)\hat{\boldsymbol{\beta}}=X'^Ty'}\,&lt;/math&gt;
+
+where we define the following scaled matrix and vector:
+
+:&lt;math&gt;\begin{align}
+\mathbf{X'} &amp;= \operatorname{diag}\left(\mathbf{w}\right) \mathbf{X},\\
+\mathbf{y'} &amp;= \operatorname{diag}\left(\mathbf{w}\right) \mathbf{y} = \mathbf{y} \oslash \mathbf{\sigma}.\\
+\end{align}&lt;/math&gt;
+
+This is a type of [[whitening transformation]]; the last expression involves an [[entrywise division]].
+
+For [[non-linear least squares]] systems a similar argument shows that the normal equations should be modified as follows.
+
+:&lt;math&gt;\mathbf{(J^TWJ) \, \boldsymbol \Delta \beta=J^TW \, \boldsymbol\Delta y}.\,&lt;/math&gt;
+
+Note that for empirical tests, the appropriate '''W''' is not known for sure and must be estimated.  For this [[feasible generalized least squares]] (FGLS) techniques may be used; in this case it is specialized for a diagonal covariance matrix, thus yielding a feasible weighted least squares solution.
+
+If the uncertainty of the observations is not known from external sources, then the weights could be estimated from the given observations. This can be useful, for example, to identify outliers. After the outliers have been removed from the data set, the weights should be reset to one.&lt;ref name=strutz&gt;{{cite book|author=Strutz, T.| title=Data Fitting and Uncertainty (A practical introduction to weighted least squares and beyond) |publisher=Springer Vieweg | year=2016 | isbn= 978-3-658-11455-8}}, chapter 3&lt;/ref&gt;
+
+==Motivation==
+In some cases the observations may be weighted—for example, they may not be equally reliable. In this case, one can minimize the weighted sum of squares:
+
+:&lt;math&gt;\underset{\boldsymbol \beta}{ \operatorname{arg\,min} }\, \sum_{i=1}^{m} w_i \left|y_i - \sum_{j=1}^{n} X_{ij}\beta_j\right|^2 = \underset{\boldsymbol \beta}{ \operatorname{arg\,min} } \, \big\|W^{1/2} (\mathbf y - X \boldsymbol \beta) \big\|^2.&lt;/math&gt;
+
+where ''w''&lt;sub&gt;''i''&lt;/sub&gt; &gt; 0 is the weight of the ''i''th observation, and ''W'' is the [[diagonal matrix]] of such weights.
+
+The weights should, ideally, be equal to the [[multiplicative inverse|reciprocal]] of the [[variance]] of the measurement. (This implies that the observations are uncorrelated. If the observations are [[correlated]], the expression &lt;math&gt;\textstyle S=\sum_k \sum_j r_k W_{kj} r_j\,&lt;/math&gt; applies. In this case the weight matrix should ideally be equal to the inverse of the [[variance-covariance matrix]] of the observations).&lt;ref name=strutz/&gt;
+The normal equations are then:
+
+:&lt;math&gt;\left(X^{\rm T} W X \right)\hat{\boldsymbol{\beta}} = X^{\rm T} W \mathbf y.&lt;/math&gt;
+
+This method is used in [[iteratively reweighted least squares]].
+
+===Parameter errors and correlation{{anchor|Weighted parameter errors and correlation}}===
+The estimated parameter values are linear combinations of the observed values
+
+:&lt;math&gt;\hat{\boldsymbol{\beta}} = (X^{\rm T} W X)^{-1} X^{\rm T} W \mathbf y. &lt;/math&gt;
+
+Therefore, an expression for the estimated [[variance-covariance matrix]] of the parameter estimates can be obtained by [[error propagation]] from the errors in the observations. Let the variance-covariance matrix for the observations be denoted by ''M'' and that of the estimated parameters by ''M&lt;sup&gt;β&lt;/sup&gt;''. Then
+
+:&lt;math&gt;M^\beta = (X^{\rm T} W X)^{-1} X^{\rm T} W M W^{\rm T} X (X^{\rm T} W^{\rm T} X)^{-1}.&lt;/math&gt;
+&lt;!-- Commented out: W is a diagonal matrix. so it is equal to its transpose {{Citation needed|date=August 2009|reason=Shouldn't that last inverted (X'*W*X) be transposed as well?}} --&gt;
+
+When ''W'' = ''M''&lt;sup&gt;&amp;minus;1&lt;/sup&gt;, this simplifies to
+
+:&lt;math&gt;M^\beta = (X^{\rm T} W X)^{-1}.&lt;/math&gt;
+
+When unit weights are used (''W'' = ''I'', the [[identity matrix]]), it is implied that the experimental errors are uncorrelated and all equal: ''M'' = ''σ''&lt;sup&gt;2&lt;/sup&gt;''I'', where ''σ''&lt;sup&gt;2&lt;/sup&gt; is the ''a priori'' variance of an observation.
+In any case, ''σ''&lt;sup&gt;2&lt;/sup&gt; is approximated by the [[reduced chi-squared]] &lt;math&gt;\chi^2_\nu&lt;/math&gt;:
+:&lt;math&gt;M^\beta = \chi^2_\nu(X^{\rm T} X)^{-1},&lt;/math&gt;
+:&lt;math&gt;\chi^2_\nu = S/\nu,&lt;/math&gt; 
+where ''S'' is the minimum value of the (weighted) [[#Objective function|objective function]]:
+:&lt;math&gt;S = r^{\rm T} W r.&lt;/math&gt;
+The denominator, &lt;math&gt;\nu = n - m&lt;/math&gt;, is the number of [[Degrees of freedom (statistics)|degrees of freedom]]; see [[Degrees of freedom (statistics)#Effective degrees of freedom|effective degrees of freedom]] for generalizations for the case of correlated observations.
+
+In all cases, the [[variance]] of the parameter estimate &lt;math&gt;\hat\beta_i&lt;/math&gt; is given by &lt;math&gt;M^\beta_{ii}&lt;/math&gt; and the [[covariance]] between the parameter estimates &lt;math&gt;\hat\beta_i&lt;/math&gt; and &lt;math&gt;\hat\beta_j&lt;/math&gt; is given by &lt;math&gt;M^\beta_{ij}&lt;/math&gt;. The [[standard deviation]] is the square root of variance, &lt;math&gt;\sigma_i = \sqrt{M^\beta_{ii}}&lt;/math&gt;, and the correlation coefficient is given by &lt;math&gt;\rho_{ij} = M^\beta_{ij}/(\sigma_i \sigma_j)&lt;/math&gt;. These error estimates reflect only [[random errors]] in the measurements. The true uncertainty in the parameters is larger due to the presence of [[systematic errors]], which, by definition, cannot be quantified.
+Note that even though the observations may be uncorrelated, the parameters are typically [[Pearson product-moment correlation coefficient|correlated]].
+
+===Parameter confidence limits===
+{{Main article|Confidence interval}}
+It is often ''assumed'', for want of any concrete evidence but often appealing to the [[central limit theorem]]—see [[Normal distribution#Occurrence]]—that the error on each observation belongs to a [[normal distribution]] with a mean of zero and standard deviation &lt;math&gt;\sigma&lt;/math&gt;. Under that assumption the following probabilities can be derived for a single scalar parameter estimate in terms of its estimated standard error &lt;math&gt;se_{\beta}&lt;/math&gt; (given [[Ordinary least squares#Large sample properties|here]]):
+:68% that the interval &lt;math&gt;\hat \beta \pm se_{\beta}&lt;/math&gt; encompasses the true coefficient value
+:95% that the interval &lt;math&gt;\hat \beta \pm 2se_{\beta}&lt;/math&gt; encompasses the true coefficient value
+:99% that the interval &lt;math&gt;\hat \beta \pm 2.5se_{\beta}&lt;/math&gt; encompasses the true coefficient value
+The assumption is not unreasonable when ''m''&amp;nbsp;&gt;&gt;&amp;nbsp;''n''. If the experimental errors are normally distributed the parameters will belong to a [[Student's t-distribution]] with ''m''&amp;nbsp;&amp;minus;&amp;nbsp;''n'' [[Degrees of freedom (statistics)|degrees of freedom]]. When ''m''&amp;nbsp;&gt;&gt;&amp;nbsp;''n'' Student's t-distribution approximates a normal distribution. Note, however, that these confidence limits cannot take systematic error into account. Also, parameter errors should be quoted to one significant figure only, as they are subject to [[sampling error]].&lt;ref&gt;{{cite book |title=The Statistical Analysis of Experimental Data |last=Mandel |first=John |authorlink= |year=1964 |publisher=Interscience |location=New York |isbn= |pages= |url= }}&lt;/ref&gt;
+
+When the number of observations is relatively small, [[Chebychev's inequality]] can be used for an upper bound on probabilities, regardless of any assumptions about the distribution of experimental errors: the maximum probabilities that a parameter will be more than 1, 2 or 3 standard deviations away from its expectation value are 100%, 25% and 11% respectively.
+
+=== Residual values and correlation ===
+
+The [[errors and residuals in statistics|residuals]]  are related to the observations by
+
+:&lt;math&gt;\mathbf{\hat r} = \mathbf y- X \hat{\boldsymbol{\beta}} = \mathbf y- H \mathbf y =  (I - H) \mathbf y,&lt;/math&gt;
+
+where ''H'' is the [[idempotent matrix]] known as the [[hat matrix]]:
+
+:&lt;math&gt;H = X \left(X^{\rm T} W X \right)^{-1} X^{\rm T} W, &lt;/math&gt;
+
+and ''I'' is the [[identity matrix]]. The variance-covariance matrix of the residuals, ''M'' &lt;sup&gt;'''r'''&lt;/sup&gt; is given by
+
+:&lt;math&gt;M^\mathbf{r} = (I - H) M (I - H)^{\rm T}.&lt;/math&gt;
+
+Thus the residuals are correlated, even if the observations are not.
+
+When &lt;math&gt;W = M^{-1}&lt;/math&gt;,
+
+:&lt;math&gt;M^\mathbf{r} = (I - H) M.&lt;/math&gt;
+
+The sum of residual values is equal to zero whenever the model function contains a constant term. Left-multiply the expression for the residuals by ''X''&lt;sup&gt;T&lt;/sup&gt;:
+
+:&lt;math&gt;X^{\rm T} \hat{\mathbf r} = X^{\rm T} \mathbf y - X^{\rm T} X \hat{\boldsymbol{\beta}} = X^{\rm T} \mathbf y - (X^{\rm T} X) (X^{\rm T} X)^{-1} X^{\rm T} \mathbf y = \mathbf 0.&lt;/math&gt;
+
+Say, for example, that the first term of the model is a constant, so that &lt;math&gt;X_{i1} = 1&lt;/math&gt; for all ''i''. In that case it follows that
+
+:&lt;math&gt;\sum_i^m X_{i1} \hat r_i = \sum_i^m \hat r_i = 0.&lt;/math&gt;
+
+Thus, in the motivational example, above, the fact that the sum of residual values is equal to zero is not accidental, but is a consequence of the presence of the constant term, α, in the model.
+
+If experimental error follows a [[normal distribution]], then, because of the linear relationship between residuals and observations, so should residuals,&lt;ref&gt;{{cite book |title=Multivariate analysis |last=Mardia |first=K. V. |authorlink= |author2=Kent, J. T. |author3=Bibby, J. M.  |year=1979 |publisher=Academic Press |location=New York |isbn=0-12-471250-9 |pages= |url= }}&lt;/ref&gt; but since the observations are only a sample of the population of all possible observations, the residuals should belong to a [[Student's t-distribution]]. [[Studentized residual]]s are useful in making a statistical test for an [[outlier]] when a particular residual appears to be excessively large.
+
+==See also==
+*[[Iteratively reweighted least squares]]
+*[[Heteroscedasticity-consistent standard errors]]
+*[[Weighted mean]]
+
+==References==
+{{reflist}}
+
+[[Category:Least squares]]</text>
+      <sha1>79ejs5vybz9v493whptayitvkbvp0jw</sha1>
+    </revision>
+  </page>
+</mediawiki>

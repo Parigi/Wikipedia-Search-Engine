@@ -1,0 +1,89 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.10/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.10/ http://www.mediawiki.org/xml/export-0.10.xsd" version="0.10" xml:lang="en">
+  <siteinfo>
+    <sitename>Wikipedia</sitename>
+    <dbname>enwiki</dbname>
+    <base>https://en.wikipedia.org/wiki/Main_Page</base>
+    <generator>MediaWiki 1.35.0-wmf.36</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Media</namespace>
+      <namespace key="-1" case="first-letter">Special</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Talk</namespace>
+      <namespace key="2" case="first-letter">User</namespace>
+      <namespace key="3" case="first-letter">User talk</namespace>
+      <namespace key="4" case="first-letter">Wikipedia</namespace>
+      <namespace key="5" case="first-letter">Wikipedia talk</namespace>
+      <namespace key="6" case="first-letter">File</namespace>
+      <namespace key="7" case="first-letter">File talk</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki talk</namespace>
+      <namespace key="10" case="first-letter">Template</namespace>
+      <namespace key="11" case="first-letter">Template talk</namespace>
+      <namespace key="12" case="first-letter">Help</namespace>
+      <namespace key="13" case="first-letter">Help talk</namespace>
+      <namespace key="14" case="first-letter">Category</namespace>
+      <namespace key="15" case="first-letter">Category talk</namespace>
+      <namespace key="100" case="first-letter">Portal</namespace>
+      <namespace key="101" case="first-letter">Portal talk</namespace>
+      <namespace key="108" case="first-letter">Book</namespace>
+      <namespace key="109" case="first-letter">Book talk</namespace>
+      <namespace key="118" case="first-letter">Draft</namespace>
+      <namespace key="119" case="first-letter">Draft talk</namespace>
+      <namespace key="446" case="first-letter">Education Program</namespace>
+      <namespace key="447" case="first-letter">Education Program talk</namespace>
+      <namespace key="710" case="first-letter">TimedText</namespace>
+      <namespace key="711" case="first-letter">TimedText talk</namespace>
+      <namespace key="828" case="first-letter">Module</namespace>
+      <namespace key="829" case="first-letter">Module talk</namespace>
+      <namespace key="2300" case="first-letter">Gadget</namespace>
+      <namespace key="2301" case="first-letter">Gadget talk</namespace>
+      <namespace key="2302" case="case-sensitive">Gadget definition</namespace>
+      <namespace key="2303" case="case-sensitive">Gadget definition talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Precision (statistics)</title>
+    <ns>0</ns>
+    <id>24467258</id>
+    <revision>
+      <id>947187069</id>
+      <parentid>941781074</parentid>
+      <timestamp>2020-03-24T20:37:38Z</timestamp>
+      <contributor>
+        <username>Iridescent</username>
+        <id>937705</id>
+      </contributor>
+      <minor/>
+      <comment>/* History */Cleanup and [[WP:AWB/T|typo fixing]], [[WP:AWB/T|typo(s) fixed]]: ’s → 's</comment>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="3732" xml:space="preserve">{{broader|Accuracy and precision}}
+
+In [[statistics]], '''precision''' is the [[Multiplicative inverse|reciprocal]] of the [[variance]], and the '''precision matrix''' (also known as '''concentration matrix''') is the [[matrix inverse]] of the [[covariance matrix]].&lt;ref&gt;{{cite book |first=Morris H. |last=DeGroot |authorlink=Morris H. DeGroot |title=Optimal Statistical Decisions |location=New York |publisher=McGraw-Hill |year=1969 |isbn= |page=56 }}&lt;/ref&gt;&lt;ref&gt;{{cite book |first=Russell |last=Davidson |first2=James G. |last2=MacKinnon |author2link=James G. MacKinnon |title=Estimation and Inference in Econometrics |location=New York |publisher=Oxford University Press |year=1993 |isbn=0-19-506011-3 |page=144 |url=https://books.google.com/books?id=Ot6DByCF6osC&amp;pg=PA144 }}&lt;/ref&gt;&lt;ref name=dodge&gt;{{cite book |last=Dodge |first=Y. |year=2003 |title=The Oxford Dictionary of Statistical Terms |location= |publisher=Oxford University Press |isbn=0-19-920613-9 |url-access=registration |url=https://archive.org/details/oxforddictionary0000unse }}&lt;/ref&gt; Thus, if we are considering a single [[random variable]] in isolation, its precision is the inverse of its variance: ''p=1/σ²''. Some particular statistical models define the term ''precision'' differently.
+
+One particular use of the precision matrix is in the context of [[Bayesian analysis]] of the [[multivariate normal distribution]]: for example, Bernardo &amp; Smith prefer to parameterise the multivariate normal distribution in terms of the precision matrix, rather than the covariance matrix, because of certain simplifications that then arise.&lt;ref&gt;Bernardo, J. M. &amp; Smith, A.F.M. (2000) ''Bayesian Theory'', Wiley {{ISBN|0-471-49464-X}}&lt;/ref&gt; For instance, if both the [[prior probability|prior]] and the [[likelihood function|likelihood]] have [[Gaussian function|Gaussian]] form, and the precision matrix of both of these exist (because their covariance matrix is full rank and thus invertible), then the precision matrix of the [[posterior probability|posterior]] will simply be the sum of the precision matrices of the prior and the likelihood.
+
+As the inverse of a [[Hermitian matrix]], the precision matrix of real-valued random variables, if it exists, is [[Positive-definite matrix|positive definite]] and symmetrical.
+
+Another reason the precision matrix may be useful is that if two dimensions ''i'' and ''j'' of a multivariate normal are [[conditional independence|conditionally independent]], then the ''ij'' and ''ji'' elements of the precision matrix are 0. This means that precision matrices tend to be sparse when many of the dimensions are conditionally independent, which can lead to computational efficiencies when working with them. It also means that precision matrices are closely related to the idea of [[partial correlation]].
+
+==History==
+The term ''precision'' in this sense (“mensura praecisionis observationum”) first appeared in the works of [[Carl Friedrich Gauss|Gauss]] (1809) “''Theoria motus corporum coelestium in sectionibus conicis solem ambientium''” (page 212). Gauss's definition differs from the modern one by a factor of &lt;math&gt;\scriptstyle\sqrt2&lt;/math&gt;. He writes, for the density function of a normal random variable with precision ''h'',
+: &lt;math&gt;
+    \varphi\Delta = \frac h {\sqrt \pi}\, e^{-hh\Delta\Delta} .
+  &lt;/math&gt;
+
+Later Whittaker &amp; Robinson (1924) “''Calculus of observations''” called this quantity ''the modulus'', but this term has dropped out of use.&lt;ref&gt;{{cite web|title=Earliest known uses of some of the words in mathematics|url=http://jeff560.tripod.com/m.html}}&lt;/ref&gt;
+
+==References==
+{{Reflist}}
+
+{{Matrix classes}}
+
+[[Category:Statistical deviation and dispersion]]
+[[Category:Bayesian statistics]]</text>
+      <sha1>nr7gxxbeejjdvspp52w1n7uv3vu5zp9</sha1>
+    </revision>
+  </page>
+</mediawiki>

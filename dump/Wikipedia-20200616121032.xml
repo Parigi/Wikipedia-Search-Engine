@@ -1,0 +1,438 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.10/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.10/ http://www.mediawiki.org/xml/export-0.10.xsd" version="0.10" xml:lang="en">
+  <siteinfo>
+    <sitename>Wikipedia</sitename>
+    <dbname>enwiki</dbname>
+    <base>https://en.wikipedia.org/wiki/Main_Page</base>
+    <generator>MediaWiki 1.35.0-wmf.36</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Media</namespace>
+      <namespace key="-1" case="first-letter">Special</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Talk</namespace>
+      <namespace key="2" case="first-letter">User</namespace>
+      <namespace key="3" case="first-letter">User talk</namespace>
+      <namespace key="4" case="first-letter">Wikipedia</namespace>
+      <namespace key="5" case="first-letter">Wikipedia talk</namespace>
+      <namespace key="6" case="first-letter">File</namespace>
+      <namespace key="7" case="first-letter">File talk</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki talk</namespace>
+      <namespace key="10" case="first-letter">Template</namespace>
+      <namespace key="11" case="first-letter">Template talk</namespace>
+      <namespace key="12" case="first-letter">Help</namespace>
+      <namespace key="13" case="first-letter">Help talk</namespace>
+      <namespace key="14" case="first-letter">Category</namespace>
+      <namespace key="15" case="first-letter">Category talk</namespace>
+      <namespace key="100" case="first-letter">Portal</namespace>
+      <namespace key="101" case="first-letter">Portal talk</namespace>
+      <namespace key="108" case="first-letter">Book</namespace>
+      <namespace key="109" case="first-letter">Book talk</namespace>
+      <namespace key="118" case="first-letter">Draft</namespace>
+      <namespace key="119" case="first-letter">Draft talk</namespace>
+      <namespace key="446" case="first-letter">Education Program</namespace>
+      <namespace key="447" case="first-letter">Education Program talk</namespace>
+      <namespace key="710" case="first-letter">TimedText</namespace>
+      <namespace key="711" case="first-letter">TimedText talk</namespace>
+      <namespace key="828" case="first-letter">Module</namespace>
+      <namespace key="829" case="first-letter">Module talk</namespace>
+      <namespace key="2300" case="first-letter">Gadget</namespace>
+      <namespace key="2301" case="first-letter">Gadget talk</namespace>
+      <namespace key="2302" case="case-sensitive">Gadget definition</namespace>
+      <namespace key="2303" case="case-sensitive">Gadget definition talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Moore–Penrose inverse</title>
+    <ns>0</ns>
+    <id>331258</id>
+    <revision>
+      <id>961651512</id>
+      <parentid>954926452</parentid>
+      <timestamp>2020-06-09T17:40:39Z</timestamp>
+      <contributor>
+        <username>InternetArchiveBot</username>
+        <id>27015025</id>
+      </contributor>
+      <comment>Bluelink 1 book for [[Wikipedia:Verifiability|verifiability]] (prndis)) #IABot (v2.0.1) ([[User:GreenC bot|GreenC bot]]</comment>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="38521" xml:space="preserve">In [[mathematics]], and in particular [[linear algebra]], the '''Moore–Penrose inverse''' {{tmath| A^+ }} of a  [[matrix (mathematics)|matrix]] {{tmath| A }} is the most widely known [[generalization]] of the [[inverse matrix]].{{sfn|Ben-Israel|Greville|2003|p=7}}{{sfn|Campbell|Meyer, Jr.|1991|p=10}}{{sfn|Nakamura|1991|p=42}}{{sfn|Rao|Mitra|1971|p=50–51}} It was independently described by [[E. H. Moore]]&lt;ref name="Moore1920"&gt;{{cite journal | last=Moore | first=E. H. | authorlink=E. H. Moore | title=On the reciprocal of the general algebraic matrix | journal=[[Bulletin of the American Mathematical Society]] | volume=26 |issue=9| pages=394–95 | year=1920 | url =http://projecteuclid.org/euclid.bams/1183425340 | doi = 10.1090/S0002-9904-1920-03322-7 | doi-access=free }}&lt;/ref&gt; in 1920, [[Arne Bjerhammar]]&lt;ref name="Bjerhammar1951"&gt;{{cite journal | last=Bjerhammar| first=Arne| authorlink=Arne Bjerhammar | title=Application of calculus of matrices to method of least squares; with special references to geodetic calculations| journal=Trans. Roy. Inst. Tech. Stockholm | year=1951 | volume = 49}}&lt;/ref&gt; in 1951, and [[Roger Penrose]]&lt;ref name="Penrose1955"&gt;{{cite journal | last=Penrose | first=Roger | authorlink=Roger Penrose | title=A generalized inverse for matrices | journal=[[Proceedings of the Cambridge Philosophical Society]] | volume=51 | issue=3 | pages=406–13 | year=1955 | doi=10.1017/S0305004100030401| bibcode=1955PCPS...51..406P | doi-access=free }}&lt;/ref&gt; in 1955. Earlier, [[Erik Ivar Fredholm]] had introduced the concept of a pseudoinverse of [[integral operator]]s in 1903. When referring to a matrix, the term pseudoinverse, without further specification, is often used to indicate the Moore–Penrose inverse. The term [[generalized inverse]] is sometimes used as a synonym for pseudoinverse.
+
+A common use of the pseudoinverse is to compute a "best fit" ([[Ordinary least squares|least squares]]) solution to a [[system of linear equations]] that lacks a unique solution (see below under [[#Applications|§ Applications]]).
+Another use is to find the minimum ([[Euclidean norm|Euclidean]]) norm solution to a system of linear equations with multiple solutions. The ''pseudoinverse'' facilitates the statement and proof of results in linear algebra.
+
+The pseudoinverse is defined and unique for all matrices whose entries are [[Real number|real]] or [[Complex number|complex]] numbers. It can be computed using the [[singular value decomposition]].
+
+==Notation==
+In the following discussion, the following conventions are adopted.
+
+* {{tmath| \mathbb{K} }} will denote one of the [[field (mathematics)|fields]] of real or complex numbers, denoted {{tmath| \mathbb{R} }}, {{tmath| \mathbb{C} }}, respectively. The vector space of {{tmath| m \times n }} matrices over {{tmath| \mathbb{K} }} is denoted by {{tmath| \mathbb{K}^{m\times n} }}.
+* For {{tmath| A \in \mathbb{K}^{m\times n} }}, {{tmath| A^\mathrm{T} }} and {{tmath| A^* }} denote the transpose and Hermitian transpose (also called [[conjugate transpose]]) respectively. If &lt;math&gt;\mathbb{K} = \mathbb{R}&lt;/math&gt;, then &lt;math&gt;A^* = A^\mathrm{T}&lt;/math&gt;.
+* For {{tmath| A \in \mathbb{K}^{m\times n} }}, {{tmath| \operatorname{ran}(A) }} denotes the [[column space]] (image) of {{tmath| A }} (the space spanned by the column vectors of {{tmath| A }}) and {{tmath| \operatorname{ker}(A) }} denotes the [[Kernel (linear algebra)|kernel]] (null space) of {{tmath| A }}.
+* Finally, for any positive integer {{tmath| n }}, {{tmath| I_n \in \mathbb{K}^{n\times n} }} denotes the {{tmath| n \times n }} [[identity matrix]].
+
+==Definition==
+For {{tmath| A \in \mathbb{K}^{m\times n} }}, a pseudoinverse of {{tmath| A }} is defined as a matrix {{tmath| A^+ \in \mathbb{K}^{n\times m} }} satisfying all of the following four criteria, known as the Moore–Penrose conditions:&lt;ref name="Penrose1955"/&gt;&lt;ref name="GvL1996"&gt;{{cite book | last=Golub | first=Gene H. | authorlink=Gene H. Golub |author2=Charles F. Van Loan  | title=Matrix computations | url=https://archive.org/details/matrixcomputatio00golu_910 | url-access=limited | edition=3rd | publisher=Johns Hopkins | location=Baltimore | year=1996 | isbn=978-0-8018-5414-9 | pages = [https://archive.org/details/matrixcomputatio00golu_910/page/n283 257]–258| author2-link=Charles F. Van Loan }}&lt;/ref&gt;
+
+:{|
+|-style="vertical-align:top;"
+|style="width:6.6em;"| {{tmath| \text{1.}\quad A A^+ A }} 
+|style="width:7.5em;"| {{tmath|1= = \; A }}
+| ({{tmath| AA^+ }} need not be the general identity matrix, but it maps all column vectors of {{tmath| A }} to themselves);
+|-style="vertical-align:top;"
+| {{tmath| \text{2.}\quad A^+ A A^+ }} ||{{tmath|1= = \;  A^+ }} || ({{tmath| A^+ }} acts like a [[weak inverse]]);
+|-style="vertical-align:top;"
+| {{tmath| \text{3.}\quad (AA^+)^* }}  ||{{tmath|1= = \;  AA^+ }} || ({{tmath| AA^+ }} is [[Hermitian matrix|Hermitian]]);
+|-style="vertical-align:top;"
+| {{tmath| \text{4.}\quad (A^+ A)^* }} ||{{tmath|1= = \;  A^+ A }} || ({{tmath| A^+A }} is also Hermitian).
+|}
+
+{{tmath| A^+ }} exists for any matrix {{tmath| A }}, but, when the latter has full [[rank (linear algebra)|rank]] (that is, the rank of {{tmath| A }} is {{tmath| \min \{ m,n \} }}), then {{tmath| A^+ }} can be expressed as a simple algebraic formula.
+
+In particular, when {{tmath| A }} has linearly independent columns (and thus matrix {{tmath| A^* A }} is invertible), {{tmath| A^+ }} can be computed as
+: &lt;math&gt; A^+ = (A^* A)^{-1} A^*.&lt;/math&gt;
+
+This particular pseudoinverse constitutes a ''left inverse'', since, in this case, &lt;math&gt; A^+A = I &lt;/math&gt;.
+
+When {{tmath| A }} has linearly independent rows (matrix {{tmath| A A^* }} is invertible), {{tmath| A^+ }} can be computed as
+: &lt;math&gt; A^+ = A^* (A A^*)^{-1}.&lt;/math&gt;
+
+This is a ''right inverse'', as &lt;math&gt; A A^+ = I&lt;/math&gt;.
+
+==Properties==
+{{hatnote|Proofs for some of these facts may be found on a separate page, [[Proofs involving the Moore–Penrose inverse]].}}
+
+===Existence and uniqueness===
+The pseudoinverse exists and is unique: for any matrix {{tmath| A }}, there is precisely one matrix {{tmath| A^+ }}, that satisfies the four properties of the definition.&lt;ref name="GvL1996"/&gt;
+
+A matrix satisfying the first condition of the definition is known as a [[generalized inverse]]. If the matrix also satisfies the second definition, it is called a [[generalized inverse#Types of generalized inverses|generalized ''reflexive'' inverse]]. Generalized inverses always exist but are not in general unique. Uniqueness is a consequence of the last two conditions.
+
+===Basic properties===
+* If {{tmath| A }} has real entries, then so does {{tmath| A^+ }}.
+* If {{tmath| A }} is [[invertible matrix|invertible]], its pseudoinverse is its inverse.  That is, &lt;math&gt;A^+ = A^{-1}&lt;/math&gt;.&lt;ref name="SB2002"&gt;{{Cite book | last1=Stoer | first1=Josef | last2=Bulirsch | first2=Roland | title=Introduction to Numerical Analysis | publisher=[[Springer-Verlag]] | location=Berlin, New York | edition=3rd | isbn=978-0-387-95452-3 | year=2002}}.&lt;/ref&gt;{{rp|243}}
+* The pseudoinverse of a [[zero matrix]] is its transpose.
+* The pseudoinverse of the pseudoinverse is the original matrix: &lt;math&gt;\left(A^+\right)^+ = A&lt;/math&gt;.&lt;ref name="SB2002" /&gt;{{rp|245}}
+* Pseudoinversion commutes with transposition, conjugation, and taking the conjugate transpose:&lt;ref name="SB2002"/&gt;{{rp|245}} &lt;!-- reference only mentions the last bit --&gt;
+*: &lt;math&gt;\left(A^\mathrm{T}\right)^+ = \left(A^+\right)^\mathrm{T}&lt;/math&gt;, &lt;math&gt;\left(\overline{A}\right)^+ = \overline{A^+}&lt;/math&gt;, &lt;math&gt;\left(A^*\right)^+ = \left(A^+\right)^*&lt;/math&gt;.
+* The pseudoinverse of a scalar multiple of {{tmath| A }} is the reciprocal multiple of {{tmath| A^+ }}:
+*: &lt;math&gt;\left(\alpha A\right)^+ = \alpha^{-1} A^+&lt;/math&gt; for {{tmath| \alpha \neq 0 }}.
+
+====Identities====
+The following identities can be used to cancel certain subexpressions or expand expressions involving pseudoinverses. Proofs for these properties can be found in the [[Proofs involving the Moore–Penrose inverse|proofs subpage]].
+: &lt;math&gt;\begin{alignat}{3}
+  A^+ ={}&amp; A^+    &amp;&amp; A^{+*} &amp;&amp; A^* \\
+      ={}&amp; A^*    &amp;&amp; A^{+*} &amp;&amp; A^+, \\
+  A   ={}&amp; A^{+*} &amp;&amp; A^*    &amp;&amp; A \\
+      ={}&amp; A      &amp;&amp; A^*    &amp;&amp; A^{+*}, \\
+  A^* ={}&amp; A^*    &amp;&amp; A      &amp;&amp; A^+ \\
+      ={}&amp; A^+    &amp;&amp; A      &amp;&amp; A^*.
+\end{alignat}&lt;/math&gt;
+
+===Reduction to Hermitian case===
+The computation of the pseudoinverse is reducible to its construction in the Hermitian case. This is possible through the equivalences:
+: &lt;math&gt;A^+ = \left(A^*A\right)^+ A^*,&lt;/math&gt;
+: &lt;math&gt;A^+ = A^* \left(AA^*\right)^+,&lt;/math&gt;
+
+as {{tmath| A^*A }} and {{tmath| AA^* }} are Hermitian.
+
+===Products===
+If {{tmath| A \in \mathbb{K}^{m\times n},\ B \in \mathbb{K}^{n\times p} }}, and if
+# {{tmath| A }} has orthonormal columns (that is, &lt;math&gt;A^*A = I_n&lt;/math&gt;), &amp;nbsp; or
+# {{tmath| B }} has orthonormal rows (that is, &lt;math&gt;BB^* = I_n&lt;/math&gt;), &amp;nbsp; or
+# {{tmath| A }} has all columns linearly independent (full column rank) and {{tmath| B }} has all rows linearly independent (full row rank), &amp;nbsp; or
+# &lt;math&gt;B = A^*&lt;/math&gt; (that is, {{tmath| B }} is the conjugate transpose of {{tmath| A }}),
+then
+: {{tmath|1= (AB)^+ = B^+ A^+. }}
+
+The last property yields the equalities
+: &lt;math&gt;\begin{align}
+  \left(A A^*\right)^+ &amp;= A^{+*} A^+, \\
+  \left(A^* A\right)^+ &amp;= A^+ A^{+*}.
+\end{align}&lt;/math&gt;
+
+NB: The equality {{tmath|1= (AB)^+ = B^+ A^+ }} does not hold in general.
+See the counterexample:
+
+: &lt;math&gt;\Biggl( \begin{pmatrix} 1 &amp; 1 \\ 0 &amp; 0 \end{pmatrix} \begin{pmatrix} 0 &amp; 0 \\ 1 &amp; 1 \end{pmatrix} \Biggr)^+ = \begin{pmatrix} 1 &amp; 1 \\ 0 &amp; 0 \end{pmatrix}^+ = \begin{pmatrix}
+ \tfrac12 &amp; 0 \\ \tfrac12 &amp; 0 \end{pmatrix} \quad \neq \quad \begin{pmatrix}
+ \tfrac14 &amp; 0 \\ \tfrac14 &amp; 0 \end{pmatrix} = \begin{pmatrix} 0 &amp; \tfrac12 \\ 0 &amp; \tfrac12 \end{pmatrix} \begin{pmatrix} \tfrac12 &amp; 0 \\ \tfrac12 &amp; 0 \end{pmatrix} = \begin{pmatrix} 0 &amp; 0 \\ 1 &amp; 1 \end{pmatrix}^+ \begin{pmatrix} 1 &amp; 1 \\ 0 &amp; 0 \end{pmatrix}^+ &lt;/math&gt;
+
+===Projectors===
+&lt;math&gt;P = AA^+&lt;/math&gt; and &lt;math&gt;Q = A^+A&lt;/math&gt; are [[projection (linear algebra)|orthogonal projection operators]], that is, they are  Hermitian (&lt;math&gt;P = P^*&lt;/math&gt;, &lt;math&gt;Q = Q^*&lt;/math&gt;) and idempotent (&lt;math&gt;P^2 = P&lt;/math&gt; and &lt;math&gt;Q^2 = Q&lt;/math&gt;). The following hold:
+* &lt;math&gt;PA = AQ = A&lt;/math&gt; and &lt;math&gt;A^+ P = QA^+ = A^+&lt;/math&gt;
+* {{tmath| P }} is the [[orthogonal projector]] onto the [[range of a function|range]] of {{tmath| A }} (which equals the [[orthogonal complement]] of the kernel of {{tmath| A^* }}).
+* {{tmath| Q }} is the orthogonal projector onto the range of {{tmath| A^* }} (which equals the orthogonal complement of the kernel of {{tmath| A }}).
+* &lt;math&gt;(I - Q) = \left(I - A^+A\right)&lt;/math&gt; is the orthogonal projector onto the kernel of {{tmath| A }}.
+* &lt;math&gt;(I - P) = \left(I - AA^+\right)&lt;/math&gt; is the orthogonal projector onto the kernel of {{tmath| A^* }}.&lt;ref name="GvL1996"/&gt;
+
+The last two properties imply the following identities:
+* &lt;math&gt;A\,\ \left(I - A^+ A\right)= \left(I - AA^+\right)A\ \ = 0&lt;/math&gt;
+* &lt;math&gt;A^*\left(I - AA^+\right) = \left(I - A^+A\right)A^* = 0&lt;/math&gt;
+
+Another property is the following: if {{tmath| A \in \mathbb{K}^{n\times n} }} is Hermitian and idempotent (true if and only if it represents an orthogonal projection), then, for any matrix {{tmath| B\in \mathbb{K}^{m\times n} }} the following equation holds:&lt;ref&gt;{{cite journal|first=Anthony A.|last=Maciejewski|first2=Charles A.|last2=Klein|title=Obstacle Avoidance for Kinematically Redundant Manipulators in Dynamically Varying Environments|journal=International Journal of Robotics Research|volume=4|issue=3|pages=109–117|year=1985|doi=10.1177/027836498500400308|hdl=10217/536|hdl-access=free}}&lt;/ref&gt;
+: &lt;math&gt; A(BA)^+ = (BA)^+&lt;/math&gt;
+
+This can be proven by defining matrices &lt;math&gt;C = BA&lt;/math&gt;, &lt;math&gt;D = A(BA)^+&lt;/math&gt;, and checking that {{tmath| D }} is indeed a pseudoinverse for {{tmath| C }} by verifying that the defining properties of the pseudoinverse hold, when {{tmath| A }} is Hermitian and idempotent.
+
+From the last property it follows that, if {{tmath| A \in \mathbb{K}^{n\times n} }} is Hermitian and idempotent, for any matrix {{tmath| B \in \mathbb{K}^{n\times m} }}
+:&lt;math&gt;(AB)^+A = (AB)^+&lt;/math&gt;
+
+Finally, if {{tmath| A }} is an orthogonal projection matrix, then its pseudoinverse trivially coincides with the matrix itself, that is, &lt;math&gt;A^+ = A&lt;/math&gt;.
+
+===Geometric construction===
+If we view the matrix as a linear map {{tmath| A:K^n \to K^m }} over a field {{tmath| K }} then {{tmath| A^+: K^m \to K^n }} can be decomposed as follows. We write {{tmath| \oplus }} for the [[direct sum of modules|direct sum]], {{tmath| \perp }} for the [[orthogonal complement]], {{tmath| \operatorname{ker} }} for the [[kernel (linear algebra)|kernel]] of a map, and {{tmath| \operatorname{ran} }} for the [[image (mathematics)|image]] of a map. Notice that &lt;math&gt;K^n = \left(\operatorname{ker} A\right)^\perp \oplus \operatorname{ker} A&lt;/math&gt; and &lt;math&gt;K^m = \operatorname{ran} A \oplus \left(\operatorname{ran} A\right)^\perp&lt;/math&gt;. The restriction &lt;math&gt; A: \left(\operatorname{ker} A\right)^\perp \to \operatorname{ran} A&lt;/math&gt; is then an isomorphism. This implies that {{tmath| A^+ }} on {{tmath| \operatorname{ran} A }} is the inverse of this isomorphism, and is zero on &lt;math&gt;\left(\operatorname{ran} A\right)^\perp . &lt;/math&gt;
+
+In other words: To find {{tmath| A^+b }} for given {{tmath| b }} in {{tmath| K^m }}, first project {{tmath| b }} orthogonally onto the range of {{tmath| A }}, finding a point {{tmath| p(b) }} in the range. Then form {{tmath| A^{-1}(\{p(b)\}) }}, that is, find those vectors in {{tmath| K^n }} that {{tmath| A }} sends to {{tmath| p(b) }}. This will be an affine subspace of {{tmath| K^n }} parallel to the kernel of {{tmath| A }}. The element of this subspace that has the smallest length (that is, is closest to the origin) is the answer {{tmath| A^+b }} we are looking for. It can be found by taking an arbitrary member of {{tmath| A^{-1}(\{p(b)\}) }} and projecting it orthogonally onto the orthogonal complement of the kernel of {{tmath| A }}.
+
+This description is closely related to the [[Moore–Penrose inverse#Minimum norm solution to a linear system|Minimum norm solution to a linear system]].
+
+===Subspaces===
+: &lt;math&gt;\begin{align}
+  \operatorname{ker}\left(A^+\right) &amp;= \operatorname{ker}\left(A^*\right) \\
+  \operatorname{ran}\left(A^+\right) &amp;= \operatorname{ran}\left(A^*\right)
+\end{align}&lt;/math&gt;
+
+===Limit relations===
+The pseudoinverse are limits:
+: &lt;math&gt;A^+ = \lim_{\delta \searrow 0} \left(A^* A + \delta I\right)^{-1} A^*
+            = \lim_{\delta \searrow 0} A^* \left(A A^* + \delta I\right)^{-1}
+&lt;/math&gt;
+: (see [[Tikhonov regularization]]). These limits exist even if {{tmath| \left(AA^*\right)^{-1} }}  or {{tmath| \left(A^*A\right)^{-1} }} do not exist.&lt;ref name="GvL1996"/&gt;{{rp|263}}
+
+===Continuity===
+In contrast to ordinary matrix inversion, the process of taking pseudoinverses is not [[continuous function|continuous]]: if the sequence {{tmath| \left(A_n\right) }} converges to the matrix {{tmath| A }} (in the [[matrix norm|maximum norm or Frobenius norm]], say), then {{tmath| (A_n)^+ }} need not converge to {{tmath| A^+ }}. However, if all the matrices have the same rank, {{tmath| (A_n)^+ }} will converge to {{tmath| A^+ }}.&lt;ref name="rakocevic1997"&gt;{{cite journal | last=Rakočević | first=Vladimir | title=On continuity of the Moore–Penrose and Drazin inverses | journal=Matematički Vesnik | volume=49 | pages=163–72 | year=1997 | url =http://elib.mi.sanu.ac.rs/files/journals/mv/209/mv973404.pdf }}&lt;/ref&gt;
+
+===Derivative===
+The derivative of a real valued pseudoinverse matrix which has constant rank at a point {{tmath| x }} may be calculated in terms of the derivative of the original matrix:&lt;ref&gt;{{cite journal|title=The Differentiation of Pseudo-Inverses and Nonlinear Least Squares Problems Whose Variables Separate|first1=G. H.|last1=Golub|first2=V.|last2=Pereyra|journal=SIAM Journal on Numerical Analysis|volume=10|number=2|date=April 1973|pages=413–32|jstor=2156365|doi=10.1137/0710036|bibcode=1973SJNA...10..413G}}&lt;/ref&gt;
+: &lt;math&gt;
+  \frac{\mathrm d}{\mathrm d x} A^+(x) =
+    -A^+ \left( \frac{\mathrm d}{\mathrm d x} A \right) A^+ ~+~
+     A^+ A^{+\text{T}} \left( \frac{\mathrm d}{\mathrm d x} A^\text{T} \right) \left(I - A A^+\right) ~+~
+     \left(I - A^+ A\right) \left( \frac{\text{d}}{\text{d} x} A^\text{T} \right) A^{+\text{T}} A^+
+&lt;/math&gt;
+
+==Examples==
+
+Since for invertible matrices the pseudoinverse equals the usual inverse, only examples of non-invertible matrices are considered below.
+
+* For &lt;math&gt;\mathbf{A} = \begin{pmatrix} 0 &amp; 0 \\ 0 &amp; 0 \end{pmatrix},\,&lt;/math&gt; the pseudoinverse is &lt;!--
+--&gt; &lt;math&gt;\mathbf{A^+} = \begin{pmatrix} 0 &amp; 0 \\ 0 &amp; 0 \end{pmatrix}.&lt;/math&gt; (Generally, the pseudoinverse of a zero matrix is its transpose.) The uniqueness of this pseudoinverse can be seen from the requirement &lt;math&gt;A^+ = A^+ A A^+&lt;/math&gt;, since multiplication by a zero matrix would always produce a zero matrix.
+
+* For &lt;math&gt;\mathbf{A} = \begin{pmatrix} 1 &amp; 0 \\ 1 &amp; 0 \end{pmatrix},\,&lt;/math&gt; the pseudoinverse is &lt;!--
+--&gt; &lt;math&gt;\mathbf{A^+} = \begin{pmatrix} \frac{1}{2} &amp; \frac{1}{2} \\ 0 &amp; 0 \end{pmatrix}.&lt;/math&gt; &lt;!--
+--&gt; &lt;br&gt; Indeed, &lt;!--
+--&gt; &lt;math&gt;\mathbf{A\,A^+} = \begin{pmatrix} \frac{1}{2} &amp; \frac{1}{2} \\ \frac{1}{2} &amp; \frac{1}{2}  \end{pmatrix},\,&lt;/math&gt; and thus &lt;!--
+--&gt; &lt;math&gt;\mathbf{A\,A^+A} = \begin{pmatrix} 1 &amp; 0 \\ 1 &amp; 0\end{pmatrix} = A.&lt;/math&gt; &lt;!--
+--&gt; &lt;br&gt; Similarly, &lt;!--
+--&gt; &lt;math&gt;\mathbf{A^+A} = \begin{pmatrix} 1 &amp; 0 \\ 0 &amp; 0 \end{pmatrix},\,&lt;/math&gt; &lt;!--
+--&gt; and thus &lt;!--
+--&gt; &lt;math&gt;\mathbf{A^+A\,A^+} = \begin{pmatrix} \frac{1}{2} &amp; \frac{1}{2} \\ 0 &amp; 0 \end{pmatrix} = A^+.&lt;/math&gt;
+
+* For &lt;!--
+--&gt; &lt;math&gt;\mathbf{A} = \begin{pmatrix} 1 &amp; 0 \\ -1 &amp; 0 \end{pmatrix},\ &lt;/math&gt; &lt;!--
+--&gt; &lt;math&gt;\mathbf{A^+} = \begin{pmatrix} \frac{1}{2} &amp; -\frac{1}{2} \\ 0 &amp; 0 \end{pmatrix}.&lt;/math&gt;
+
+* For &lt;!--
+--&gt; &lt;math&gt;\mathbf{A} = \begin{pmatrix} 1 &amp; 0 \\ 2 &amp; 0 \end{pmatrix},\ &lt;/math&gt; &lt;!--
+--&gt; &lt;math&gt;\mathbf{A^+} = \begin{pmatrix} \frac{1}{5} &amp; \frac{2}{5} \\ 0 &amp; 0 \end{pmatrix}.&lt;/math&gt; (The denominators are &lt;math&gt;5 = 1^2 + 2^2&lt;/math&gt;.)
+
+* For&lt;!--
+--&gt; &lt;math&gt;\mathbf{A} = \begin{pmatrix} 1 &amp; 1 \\ 1 &amp; 1 \end{pmatrix},\ &lt;/math&gt; &lt;!--
+--&gt; &lt;math&gt;\mathbf{A^+} = \begin{pmatrix} \frac{1}{4} &amp; \frac{1}{4} \\ \frac{1}{4} &amp; \frac{1}{4} \end{pmatrix}.&lt;/math&gt;
+
+* For &lt;math&gt;\mathbf{A} = \begin{pmatrix} 1 &amp; 0 \\ 0 &amp; 1 \\ 0 &amp; 1 \end{pmatrix},\,&lt;/math&gt; the pseudoinverse is &lt;!--
+--&gt; &lt;math&gt;\mathbf{A^+} = \begin{pmatrix} 1 &amp; 0 &amp; 0 \\ 0 &amp; \frac{1}{2} &amp; \frac{1}{2} \end{pmatrix}.&lt;/math&gt; &lt;!--
+--&gt; &lt;br&gt; Note that for this matrix, the [[inverse element#Matrices|left inverse]] exists and thus equals {{tmath| \mathbf{A^+} }}, &lt;!--
+--&gt; indeed, &lt;math&gt;\mathbf{A^+A} = \begin{pmatrix} 1 &amp; 0 \\ 0 &amp; 1 \end{pmatrix}.&lt;/math&gt;
+
+==Special cases==
+
+===Scalars===
+It is also possible to define a pseudoinverse for scalars and vectors. This amounts to treating these as matrices. The pseudoinverse of a scalar {{tmath| x }} is zero if {{tmath| x }} is zero and the reciprocal of {{tmath| x }} otherwise:
+:&lt;math&gt;x^+ = \begin{cases}
+  0,      &amp; \mbox{if }x = 0; \\ 
+  x^{-1}, &amp; \mbox{otherwise}.
+\end{cases}&lt;/math&gt;
+
+===Vectors===
+The pseudoinverse of the null (all zero) vector is the transposed null vector. The pseudoinverse of a non-null vector is the conjugate transposed vector divided by its squared magnitude:
+:&lt;math&gt;x^+ = \begin{cases}
+  0^\mathrm{T},      &amp; \mbox{if }x = 0; \\
+  {x^* \over x^* x}, &amp; \mbox{otherwise}.
+\end{cases}&lt;/math&gt;
+
+===Linearly independent columns===
+If the '''columns''' of {{tmath| A }} are [[linear independence|linearly independent]]
+(so that {{tmath| m \ge n }}), then {{tmath| A^*A }} is invertible. In this case, an explicit formula is:{{sfn|Ben-Israel|Greville|2003}}
+:&lt;math&gt;A^+ = \left(A^*A\right)^{-1}A^*&lt;/math&gt;.
+
+It follows that {{tmath| A^+ }} is then a left inverse of {{tmath| A }}: &amp;nbsp; &lt;math&gt;A^+ A = I_n&lt;/math&gt;.
+
+===Linearly independent rows===
+If the '''rows''' of {{tmath| A }} are linearly independent (so that {{tmath| m \le n }}), then
+{{tmath| AA^* }} is invertible. In this case, an explicit formula is:
+:&lt;math&gt;A^+ = A^*\left(AA^*\right)^{-1}&lt;/math&gt;.
+
+It follows that {{tmath| A^+ }} is a right inverse of {{tmath| A }}: &amp;nbsp; &lt;math&gt;A A^+ = I_m&lt;/math&gt;.
+
+===Orthonormal columns or rows===
+This is a special case of either full column rank or full row rank (treated above). If {{tmath| A }} has orthonormal columns (&lt;math&gt;A^*A = I_n&lt;/math&gt;) or orthonormal rows (&lt;math&gt;AA^* = I_m&lt;/math&gt;), then:
+:&lt;math&gt;A^+ = A^*&lt;/math&gt;.
+
+===Orthogonal projection matrices===
+If {{tmath| A }} is an orthogonal projection matrix, that is, &lt;math&gt;A = A^*&lt;/math&gt; and &lt;math&gt;A^2 = A&lt;/math&gt;, then the pseudoinverse trivially coincides with the matrix itself:
+:&lt;math&gt;A^+ = A&lt;/math&gt;.
+
+===Circulant matrices===
+For a [[circulant matrix]] {{tmath| C }}, the singular value decomposition is given by the [[Fourier transform]], that is, the singular values are the Fourier coefficients. Let {{tmath| \mathcal{F} }} be the [[DFT matrix|Discrete Fourier Transform (DFT) matrix]], then&lt;ref name="Stallings1972"&gt;{{cite journal | last=Stallings | first=W. T. | authorlink=W. T. Stallings | title=The Pseudoinverse of an ''r''-Circulant Matrix | journal=[[Proceedings of the American Mathematical Society]] | volume=34 | issue=2 | pages=385–88 | year=1972 | doi=10.2307/2038377 | last2=Boullion | first2=T. L.| jstor=2038377 }}&lt;/ref&gt;
+:&lt;math&gt;\begin{align}
+    C &amp;= \mathcal{F}\cdot\Sigma\cdot\mathcal{F}^* \\
+  C^+ &amp;= \mathcal{F}\cdot\Sigma^+\cdot\mathcal{F}^*
+\end{align}&lt;/math&gt;
+
+==Construction==
+
+===Rank decomposition===
+Let {{tmath| r \le \min(m, n) }} denote the [[rank (matrix theory)|rank]] of {{tmath| A \in K^{m\times n} }}. Then {{tmath| A }} can be [[rank factorization|(rank) decomposed]] as
+&lt;math&gt;A = BC&lt;/math&gt; where {{tmath| B \in K^{m\times r} }} and {{tmath| C \in K^{r\times n} }} are of rank {{tmath| r }}. Then &lt;math&gt;A^+ = C^+B^+ = C^*\left(CC^*\right)^{-1}\left(B^*B\right)^{-1}B^*&lt;/math&gt;.
+
+===The QR method===
+For &lt;math&gt;\mathbb{K} \in \{ \mathbb{R}, \mathbb{C}\}&lt;/math&gt; computing the product {{tmath| AA^* }} or {{tmath| A^*A }} and their inverses explicitly is often a source of numerical rounding errors and computational cost in practice. An alternative approach using the [[QR decomposition]] of {{tmath| A }} may be used instead.
+
+Consider the case when {{tmath| A }} is of full column rank, so that &lt;math&gt;A^+ = (A^*A)^{-1}A^*&lt;/math&gt;. Then the [[Cholesky decomposition]] &lt;math&gt;A^*A = R^*R&lt;/math&gt;, where {{tmath| R }} is an [[upper triangular matrix]], may be used. Multiplication by the inverse is then done easily by solving a system with multiple right-hand sides,
+: &lt;math&gt;A^+ = (A^*A)^{-1}A^*  \quad \Leftrightarrow \quad  (A^*A)A^+ = A^*  \quad \Leftrightarrow \quad R^*RA^+ = A^* &lt;/math&gt;
+
+which may be solved by [[forward substitution]] followed by [[back substitution]].
+
+The Cholesky decomposition may be computed without forming {{tmath| A^*A }} explicitly, by alternatively using the [[QR decomposition]] of &lt;math&gt; A = QR&lt;/math&gt;, where &lt;math&gt;Q&lt;/math&gt; has orthonormal columns, &lt;math&gt; Q^*Q = I &lt;/math&gt;, and {{tmath| R }} is upper triangular. Then
+: &lt;math&gt; A^*A \,=\, (QR)^*(QR) \,=\, R^*Q^*QR \,=\, R^*R&lt;/math&gt;,
+
+so {{tmath| R }} is the Cholesky factor of {{tmath| A^*A }}.
+
+The case of full row rank is treated similarly by using the formula &lt;math&gt;A^+ = A^*(AA^*)^{-1}&lt;/math&gt; and using a similar argument, swapping the roles of {{tmath| A }} and {{tmath| A^* }}.
+
+===Singular value decomposition (SVD)===
+A computationally simple and accurate way to compute the pseudoinverse is by using the [[singular value decomposition]].{{sfn|Ben-Israel|Greville|2003}}&lt;ref name="GvL1996"/&gt;&lt;ref name="SLEandPI"&gt;[http://websites.uwlax.edu/twill/svd/systems/index.html Linear Systems &amp; Pseudo-Inverse]&lt;/ref&gt;  If &lt;math&gt;A = U\Sigma V^*&lt;/math&gt; is the singular value decomposition of {{tmath| A }}, then &lt;math&gt;A^+ = V\Sigma^+ U^*&lt;/math&gt;. For a [[rectangular diagonal matrix]] such as {{tmath| \Sigma }}, we get the pseudoinverse by taking the reciprocal of each non-zero element on the diagonal, leaving the zeros in place, and then transposing the matrix. In numerical computation, only elements larger than some small tolerance are taken to be nonzero, and the others are replaced by zeros. For example, in the [[MATLAB]], [[GNU Octave]], or [[NumPy]] function &lt;tt&gt;pinv&lt;/tt&gt;, the tolerance is taken to be {{math|''t'' {{=}} ε⋅max(''m'', ''n'')⋅max(Σ)}}, where ε is the [[machine epsilon]].
+
+The computational cost of this method is dominated by the cost of computing the SVD, which is several times higher than matrix–matrix multiplication, even if a state-of-the art implementation (such as that of [[LAPACK]]) is used.
+
+The above procedure shows why taking the pseudoinverse is not a continuous operation: if the original matrix {{tmath| A }} has a singular value 0 (a diagonal entry of the matrix {{tmath| \Sigma }} above), then modifying {{tmath| A }} slightly may turn this zero into a tiny positive number, thereby affecting the pseudoinverse dramatically as we now have to take the reciprocal of a tiny number.
+
+===Block matrices===
+[[Block matrix pseudoinverse|Optimized approaches]] exist for calculating the pseudoinverse of block structured matrices.
+
+===The iterative method of Ben-Israel and Cohen===
+Another method for computing the pseudoinverse (cf. [[Drazin inverse]]) uses the recursion
+:&lt;math&gt; A_{i+1} = 2A_i - A_i A A_i, &lt;/math&gt;
+
+which is sometimes referred to as hyper-power sequence. This recursion produces a sequence converging quadratically to the pseudoinverse of {{tmath| A }} if it is started with an appropriate {{tmath| A_0 }} satisfying &lt;math&gt;A_0 A = \left(A_0 A\right)^*&lt;/math&gt;. The choice &lt;math&gt;A_0 = \alpha A^*&lt;/math&gt; (where &lt;math&gt;0 &lt; \alpha &lt; 2/\sigma^2_1(A)&lt;/math&gt;, with {{tmath| \sigma_1(A) }} denoting the largest singular value of {{tmath| A }}) &lt;ref&gt;{{cite journal | last1=Ben-Israel | first1=Adi | last2=Cohen | first2=Dan | title=On Iterative Computation of Generalized Inverses and Associated Projections | journal=SIAM Journal on Numerical Analysis | volume=3 | issue=3 | pages=410–19 | year=1966 | jstor=2949637 | doi=10.1137/0703035 | bibcode=1966SJNA....3..410B }}[http://benisrael.net/COHEN-BI-ITER-GI.pdf pdf]&lt;/ref&gt; has been argued not to be competitive to the method using the SVD mentioned above, because even for moderately ill-conditioned matrices it takes a long time before {{tmath| A_i }} enters the region of quadratic convergence.&lt;ref&gt;{{cite journal | last1=Söderström | first1=Torsten | last2=Stewart | first2=G. W. | title=On the Numerical Properties of an Iterative Method for Computing the Moore–Penrose Generalized Inverse | journal=SIAM Journal on Numerical Analysis | volume=11 | issue=1 | pages=61–74 | year=1974 | jstor=2156431 | doi=10.1137/0711008 | bibcode=1974SJNA...11...61S }}&lt;/ref&gt; However, if started with {{tmath| A_0 }} already close to the Moore–Penrose inverse and &lt;math&gt;A_0 A = \left(A_0 A\right)^*&lt;/math&gt;, for example &lt;math&gt;A_0 := \left(A^* A + \delta I\right)^{-1} A^*&lt;/math&gt;, convergence is fast (quadratic).
+
+===Updating the pseudoinverse===
+
+For the cases where {{tmath| A }} has full row or column rank, and the inverse of the correlation matrix ({{tmath| AA^* }} for {{tmath| A }} with full row rank or {{tmath| A^*A }} for full column rank) is already known, the pseudoinverse for matrices related to {{tmath| A }} can be computed by applying the [[Sherman–Morrison–Woodbury formula]] to update the inverse of the correlation matrix, which may need less work. In particular, if the related matrix differs from the original one by only a changed, added or deleted row or column, incremental algorithms exist that exploit the relationship.&lt;ref name="G1992"&gt;{{Cite thesis |first= Tino |last=Gramß |title= Worterkennung mit einem künstlichen neuronalen Netzwerk |type=PhD dissertation |publisher= Georg-August-Universität zu Göttingen |year = 1992 | oclc = 841706164 }}&lt;/ref&gt;&lt;ref name="EMTIYAZ2008"&gt;{{cite document |first=Mohammad |last=Emtiyaz |title=Updating Inverse of a Matrix When a Column is Added/Removed |date=February 27, 2008
+|url=https://emtiyaz.github.io/Writings/OneColInv.pdf }}&lt;/ref&gt;
+
+Similarly, it is possible to update the Cholesky factor when a row or column is added, without creating the inverse of the correlation matrix explicitly. However, updating the pseudoinverse in the general rank-deficient case is much more complicated.&lt;ref&gt;{{cite journal|last=Meyer, Jr.|first=Carl D.|title=Generalized inverses and ranks of block matrices|journal=SIAM J. Appl. Math.|volume=25|issue=4|date=1973|pages=597–602|doi=10.1137/0125057}}&lt;/ref&gt;&lt;ref&gt;{{cite journal|last=Meyer, Jr.|first=Carl D.|title=Generalized inversion of modified matrices|journal=SIAM J. Appl. Math.|volume=24|issue=3|date=1973|pages=315–23|doi=10.1137/0124033}}&lt;/ref&gt;
+
+===Software libraries===
+The Python package [[NumPy]] provides a pseudoinverse calculation through its functions &lt;code&gt;matrix.I&lt;/code&gt; and &lt;code&gt;linalg.pinv&lt;/code&gt;; its &lt;code&gt;pinv&lt;/code&gt; uses the SVD-based algorithm. [[SciPy]] adds a function &lt;code&gt;scipy.linalg.pinv&lt;/code&gt; that uses a least-squares solver. High-quality implementations of SVD, QR, and back substitution are available in [[Singular value decomposition#Implementations|standard libraries]], such as [[LAPACK]].  Writing one's own implementation of SVD is a major programming project that requires a significant [[Floating point#Accuracy problems|numerical expertise]]. In special circumstances, such as [[parallel computing]] or [[embedded computing]], however, alternative implementations by QR or even the use of an explicit inverse might be preferable, and custom implementations may be unavoidable.
+
+The MASS package for [[R (programming language)|R]] provides a calculation of the Moore–Penrose inverse through the &lt;code&gt;ginv&lt;/code&gt; function.&lt;ref&gt;{{cite web |url=https://stat.ethz.ch/R-manual/R-devel/library/MASS/html/ginv.html |title=R: Generalized Inverse of a Matrix}}&lt;/ref&gt; The &lt;code&gt;ginv&lt;/code&gt; function calculates a pseudoinverse using the singular value decomposition provided by the &lt;code&gt;svd&lt;/code&gt; function in the base R package. An alternative is to employ the &lt;code&gt;pinv&lt;/code&gt; function available in the pracma package.
+
+The [[GNU Octave|Octave programming language]] provides a pseudoinverse through the standard package function &lt;code&gt;pinv&lt;/code&gt; and the &lt;code&gt;pseudo_inverse()&lt;/code&gt; method.
+
+In [[Julia (programming language)]], the LinearAlgebra package of the standard library provides an implementation of the Moore-Penrose pseudoinverse &lt;code&gt;pinv()&lt;/code&gt; implemented via singular-value decomposition.&lt;ref&gt;{{cite web |url=https://docs.julialang.org/en/v1/stdlib/LinearAlgebra/#LinearAlgebra.pinv |title=LinearAlgebra.pinv}}&lt;/ref&gt;
+
+==Applications==
+
+===Linear least-squares===
+{{See also|Linear least squares (mathematics)}}
+
+The pseudoinverse provides a [[linear least squares (mathematics)|least squares]] solution to a [[system of linear equations]].&lt;ref name="Penrose1956"&gt;{{cite journal | last=Penrose | first=Roger | title=On best approximate solution of linear matrix equations | journal=[[Proceedings of the Cambridge Philosophical Society]] | volume=52 | pages=17–19 | year=1956 | issue=1 | doi=10.1017/S0305004100030929| bibcode=1956PCPS...52...17P }}&lt;/ref&gt;
+For {{tmath| A \in \mathbb{K}^{m\times n} }}, given a system of linear equations
+:&lt;math&gt;A x = b,&lt;/math&gt;
+
+in general, a vector {{tmath| x }} that solves the system may not exist, or if one does exist, it may not be unique. The pseudoinverse solves the "least-squares" problem as follows:
+
+* {{tmath| \forall x \in \mathbb{K}^n }}, we have &lt;math&gt;\|Ax - b\|_2 \ge \|Az - b\|_2&lt;/math&gt; where &lt;math&gt;z = A^+b&lt;/math&gt; and &lt;math&gt;\|\cdot\|_2&lt;/math&gt; denotes the [[Euclidean norm]].  This weak inequality holds with equality if and only if &lt;math&gt;x = A^+b + \left(I - A^+A\right)w&lt;/math&gt;  for any vector {{tmath| w }}; this provides an infinitude of minimizing solutions unless {{tmath| A }} has full column rank, in which case {{tmath| \left(I - A^+A\right) }}  is a zero matrix.&lt;ref name=Planitz&gt;{{cite journal|last=Planitz|first=M.|title=Inconsistent systems of linear equations|journal=Mathematical Gazette|volume=63|issue=425|date=October 1979|pages=181–85|doi=10.2307/3617890|jstor=3617890}}&lt;/ref&gt; The solution with minimum Euclidean norm is {{tmath| z. }}&lt;ref name=Planitz/&gt;
+
+This result is easily extended to systems with multiple right-hand sides, when the Euclidean norm is replaced by the Frobenius norm. Let {{tmath| B \in \mathbb{K}^{m\times p} }}.
+
+* {{tmath| \forall X \in \mathbb{K}^{n\times p} }}, we have &lt;math&gt; \|AX - B\|_{\mathrm{F}} \ge \|AZ -B\|_{\mathrm{F}}&lt;/math&gt; where &lt;math&gt;Z = A^+B&lt;/math&gt; and &lt;math&gt;\|\cdot\|_{\mathrm{F}} &lt;/math&gt; denotes the [[Frobenius norm]].
+
+===Obtaining all solutions of a linear system===
+
+If the linear system
+
+:&lt;math&gt;A x = b&lt;/math&gt;
+
+has any solutions, they are all given by&lt;ref name=James&gt;{{cite journal|last=James|first=M.|title=The generalised inverse|journal=Mathematical Gazette|volume=62|issue=420|date=June 1978|pages=109–14|doi=10.1017/S0025557200086460}}&lt;/ref&gt;
+
+:&lt;math&gt;x = A^+ b + \left[I - A^+ A\right]w&lt;/math&gt;
+
+for arbitrary vector {{tmath| w }}. Solution(s) exist if and only if &lt;math&gt;AA^+ b = b&lt;/math&gt;.&lt;ref name=James/&gt;  If the latter holds, then the solution is unique if and only if {{tmath| A }} has full column rank, in which case {{tmath| \left[I - A^+ A\right] }} is a zero matrix. If solutions exist but {{tmath| A }} does not have full column rank, then we have an [[indeterminate system]], all of whose infinitude of solutions are given by this last equation.
+
+===Minimum norm solution to a linear system===
+For linear systems &lt;math&gt;Ax = b,&lt;/math&gt; with non-unique solutions (such as under-determined systems), the pseudoinverse may be used to construct the solution of minimum [[Euclidean norm]]
+&lt;math&gt;\|x\|_2&lt;/math&gt; among all solutions.
+
+* If &lt;math&gt;Ax = b&lt;/math&gt; is satisfiable, the vector &lt;math&gt;z = A^+b&lt;/math&gt; is a solution, and satisfies &lt;math&gt;\|z\|_2 \le \|x\|_2&lt;/math&gt; for all solutions.
+
+This result is easily extended to systems with multiple right-hand sides, when the Euclidean norm is replaced by the Frobenius norm. Let {{tmath| B \in \mathbb{K}^{m\times p} }}.
+
+* If &lt;math&gt;AX = B&lt;/math&gt; is satisfiable, the matrix &lt;math&gt;Z = A^+B&lt;/math&gt; is a solution, and satisfies &lt;math&gt;\|Z\|_{\mathrm{F}} \le \|X\|_{\mathrm{F}}&lt;/math&gt; for all solutions.
+
+===Condition number===
+Using the pseudoinverse and a [[matrix norm]], one can define a [[condition number]] for any matrix:
+:&lt;math&gt;\mbox{cond}(A) = \|A\| \left\|A^+\right\|.\ &lt;/math&gt;
+
+A large condition number implies that the problem of finding least-squares solutions to the corresponding system of linear equations is ill-conditioned in the sense that small errors in the entries of {{tmath| A }} can lead to huge errors in the entries of the solution.&lt;ref name=hagen/&gt;
+
+==Generalizations==
+Besides for matrices over real and complex numbers, the conditions hold for matrices over [[biquaternion]]s, also called "complex quaternions".&lt;ref&gt;{{cite arXiv |title=Matrix Theory over the Complex Quaternion Algebra | at=p.8, Theorem 3.5 |eprint=math/0004005 |ref=tian2000| last1=Tian | first1=Yongge | year=2000 }}&lt;/ref&gt;
+
+In order to solve more general least-squares problems, one can define Moore–Penrose inverses for all continuous linear operators {{tmath| A: H_1 \rarr H_2 }} between two [[Hilbert space]]s {{tmath| H_1 }} and {{tmath| H_2 }}, using the same four conditions as in our definition above. It turns out that not every continuous linear operator has a continuous linear pseudoinverse in this sense.&lt;ref name=hagen&gt;{{cite book|first1=Roland|last1=Hagen|first2=Steffen|last2=Roch|first3=Bernd|last3=Silbermann|title=C*-algebras and Numerical Analysis|publisher=CRC Press|year=2001|chapter=Section 2.1.2}}&lt;/ref&gt; Those that do are precisely the ones whose range is [[closed set|closed]] in {{tmath| H_2 }}.
+
+In [[abstract algebra]], a Moore–Penrose inverse may be defined on a [[*-regular semigroup]]. This abstract definition coincides with the one in linear algebra.
+
+==See also==
+* [[Proofs involving the Moore–Penrose inverse]]
+* [[Drazin inverse]]
+* [[Hat matrix]]
+* [[Inverse element]]
+* [[Linear least squares (mathematics)]]
+* [[Pseudo-determinant]]
+* [[Von Neumann regular ring]]
+
+==Notes==
+{{Reflist|30em}}
+
+==References==
+* {{cite book| first1 = Adi | last1 = Ben-Israel |author1-link=Adi Ben-Israel| first2 = Thomas N.E. | last2 = Greville |author2-link=Thomas N. E. Greville|title=Generalized inverses: Theory and applications|
+edition= 2nd |location= New York, NY | publisher =  Springer |year=2003| isbn = 978-0-387-00293-4 |ref=harv| doi = 10.1007/b97366 }}
+* {{cite book| first1 = S. L. | last1 = Campbell | first2 = C. D. | last2 = Meyer, Jr. | title= Generalized Inverses of Linear Transformations| url = https://archive.org/details/generalizedinver0000camp | url-access = registration |
+publisher=Dover |year=1991 | isbn = 978-0-486-66693-8 |ref=harv}}
+* {{cite book| first = Yoshihiko | last = Nakamura  | title= Advanced Robotics: Redundancy and Optimization|
+publisher=Addison-Wesley  |year= 1991 | isbn = 978-0201151985 |ref=harv}}
+* {{cite book| first1 = C. Radhakrishna | last1 = Rao | first2 = Sujit Kumar | last2 = Mitra| title = Generalized Inverse of Matrices and its Applications | url = https://archive.org/details/generalizedinver0000raoc | url-access = registration | publisher= John Wiley &amp; Sons |location = New York |year= 1971 | page=[https://archive.org/details/generalizedinver0000raoc/page/240 240] | isbn = 978-0-471-70821-6 |ref=harv}}
+
+==External links==
+* [http://planetmath.org/Pseudoinverse Pseudoinverse on PlanetMath]
+* [http://people.revoledu.com/kardi/tutorial/LinearAlgebra/MatrixGeneralizedInverse.html Interactive program &amp; tutorial of Moore–Penrose Pseudoinverse]
+* {{planetmath reference|id=6067|title=Moore–Penrose inverse}}
+* {{MathWorld|urlname=Pseudoinverse|title=Pseudoinverse}}
+* {{MathWorld|urlname=Moore-PenroseMatrixInverse|title=Moore–Penrose Inverse}}
+* [https://arxiv.org/abs/1110.6882 The Moore–Penrose Pseudoinverse. A Tutorial Review of the Theory]
+* [http://engineerjs.com/doc/ejs/engine/linalg-1/_pinv.html Online Moore-Penrose Inverse calculator]
+
+{{Numerical linear algebra}}
+
+{{DEFAULTSORT:Moore-Penrose Pseudoinverse}}
+[[Category:Matrix theory]]
+[[Category:Singular value decomposition]]
+[[Category:Numerical linear algebra]]</text>
+      <sha1>knrukvzivo0h6vtga35xcv9063rb5zx</sha1>
+    </revision>
+  </page>
+</mediawiki>

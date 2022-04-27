@@ -1,0 +1,143 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.10/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.10/ http://www.mediawiki.org/xml/export-0.10.xsd" version="0.10" xml:lang="en">
+  <siteinfo>
+    <sitename>Wikipedia</sitename>
+    <dbname>enwiki</dbname>
+    <base>https://en.wikipedia.org/wiki/Main_Page</base>
+    <generator>MediaWiki 1.35.0-wmf.36</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Media</namespace>
+      <namespace key="-1" case="first-letter">Special</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Talk</namespace>
+      <namespace key="2" case="first-letter">User</namespace>
+      <namespace key="3" case="first-letter">User talk</namespace>
+      <namespace key="4" case="first-letter">Wikipedia</namespace>
+      <namespace key="5" case="first-letter">Wikipedia talk</namespace>
+      <namespace key="6" case="first-letter">File</namespace>
+      <namespace key="7" case="first-letter">File talk</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki talk</namespace>
+      <namespace key="10" case="first-letter">Template</namespace>
+      <namespace key="11" case="first-letter">Template talk</namespace>
+      <namespace key="12" case="first-letter">Help</namespace>
+      <namespace key="13" case="first-letter">Help talk</namespace>
+      <namespace key="14" case="first-letter">Category</namespace>
+      <namespace key="15" case="first-letter">Category talk</namespace>
+      <namespace key="100" case="first-letter">Portal</namespace>
+      <namespace key="101" case="first-letter">Portal talk</namespace>
+      <namespace key="108" case="first-letter">Book</namespace>
+      <namespace key="109" case="first-letter">Book talk</namespace>
+      <namespace key="118" case="first-letter">Draft</namespace>
+      <namespace key="119" case="first-letter">Draft talk</namespace>
+      <namespace key="446" case="first-letter">Education Program</namespace>
+      <namespace key="447" case="first-letter">Education Program talk</namespace>
+      <namespace key="710" case="first-letter">TimedText</namespace>
+      <namespace key="711" case="first-letter">TimedText talk</namespace>
+      <namespace key="828" case="first-letter">Module</namespace>
+      <namespace key="829" case="first-letter">Module talk</namespace>
+      <namespace key="2300" case="first-letter">Gadget</namespace>
+      <namespace key="2301" case="first-letter">Gadget talk</namespace>
+      <namespace key="2302" case="case-sensitive">Gadget definition</namespace>
+      <namespace key="2303" case="case-sensitive">Gadget definition talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>DNA digital data storage</title>
+    <ns>0</ns>
+    <id>38324409</id>
+    <revision>
+      <id>961026708</id>
+      <parentid>955800776</parentid>
+      <timestamp>2020-06-06T07:05:56Z</timestamp>
+      <contributor>
+        <username>Citation bot</username>
+        <id>7903804</id>
+      </contributor>
+      <comment>Add: s2cid. Removed URL that duplicated unique identifier. | You can [[WP:UCB|use this bot]] yourself. [[WP:DBUG|Report bugs here]]. | Activated by AManWithNoPlan | All pages linked from [[User:AManWithNoPlan/sandbox2]] | via #UCB_webform_linked</comment>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="24398" xml:space="preserve">'''DNA digital data storage''' is the process of encoding and decoding binary data to and from synthesized strands of [[DNA]].&lt;ref name="Ceze_2018"&gt;{{cite journal | vauthors = Ceze L, Nivala J, Strauss K | title = Molecular digital data storage using DNA | journal = Nature Reviews. Genetics | volume = 20 | issue = 8 | pages = 456–466 | date = August 2019 | pmid = 31068682 | doi = 10.1038/s41576-019-0125-3 }}&lt;/ref&gt;&lt;ref name="pmid30073589"&gt;{{cite journal | vauthors = Akram F, Haq IU, Ali H, Laghari AT | title = Trends to store digital data in DNA: an overview | journal = Molecular Biology Reports | volume = 45 | issue = 5 | pages = 1479–1490 | date = October 2018 | pmid = 30073589 | doi = 10.1007/s11033-018-4280-y }}&lt;/ref&gt;
+
+While DNA as a storage medium has enormous potential because of its high storage density, its practical use is currently severely limited because of its high cost and very slow read and write times.&lt;ref name="pmid29744271"&gt;{{cite journal | vauthors = Panda D, Molla KA, Baig MJ, Swain A, Behera D, Dash M | title = DNA as a digital information storage device: hope or hype? | journal = 3 Biotech | volume = 8 | issue = 5 | pages = 239 | date = May 2018 | pmid = 29744271 | pmc = 5935598 | doi = 10.1007/s13205-018-1246-7 | url = }}&lt;/ref&gt;
+
+In June 2019, scientists reported that all 16 GB of text from [[Wikipedia|Wikipedia's]] English-language version have been encoded into [[synthetic DNA]].&lt;ref name="CNET-20190629" /&gt;
+
+== Cell free ==
+
+Currently the most wide spread DNA sequencing technology in use is one developed by [[Illumina, Inc.|Illumina]] which involves immobilization of single stranded DNA on a solid support, [[polymerase chain reaction]] (PCR) amplification of the sequences, and labeling of the individual DNA bases with complementary bases tagged with fluorescent markers (see [[Illumina dye sequencing]]). The fluorescence pattern (a different color for each of the four DNA bases) can then be captured in an image and processed to determine the DNA sequence.&lt;ref name="Ceze_2018" /&gt;  A recently developed alternative is the [[nanopore]] technology in which DNA molecules are passed through a nano scale pore under the control of a ratcheting enzyme.  The passage of the DNA molecules causes small change in electrical current that can be measured. The main advantage of the nanopore technology is that it can be read in real time.&lt;ref name="Ceze_2018" /&gt;  However the read accuracy of this technology is currently insufficient for data storage.&lt;ref name="Deamer_2016"&gt;{{cite journal | vauthors = Deamer D, Akeson M, Branton D | title = Three decades of nanopore sequencing | journal = Nature Biotechnology | volume = 34 | issue = 5 | pages = 518–24 | date = May 2016 | pmid = 27153285 | pmc = 6733523 | doi = 10.1038/nbt.3423 | url = }}&lt;/ref&gt;
+
+== In vivo ==
+
+The genetic code within living organisms can potentially be co-opted to store information. Furthermore [[synthetic biology]] can be used to engineer cells with "molecular recorders" to allow the storage and retrieval information stored in the cell's genetic material.&lt;ref name="Ceze_2018" /&gt;  [[CRISPR gene editing]] can also be used to insert artificial DNA sequences into the genome of the cell.&lt;ref name="Ceze_2018" /&gt;
+
+== History ==
+{{primary sources|section|date=April 2018}}
+
+The idea of DNA digital data storage dates back to 1959, when the physicist Richard P. Feynman, in "There's Plenty of Room at the Bottom: An Invitation to Enter a New Field of Physics" outlined the general prospects for the creation of artificial objects similar to objects of the microcosm (including biological) and having similar or even more extensive capabilities.&lt;ref&gt;{{cite web | first = Richard P. | last = Feynman | name-list-format = vanc | title = There's Plenty of Room at the Bottom | date = 29 December 1959 | work = Annual meeting of the American Physical Society | location = California Institute of Technology | url = http://www.zyvex.com/nanotech/feynman.html }}&lt;/ref&gt;  In 1964-65 Mikhail Samoilovich Neiman,&lt;ref&gt;{{cite web | title = Mikhail Samoilovich Neiman (1905-1975) | url = https://sites.google.com/site/msneiman1905/ }}&lt;/ref&gt; the Soviet physicist, published 3 articles about microminiaturization in electronics at the molecular-atomic level, which independently presented general considerations and some calculations regarding the possibility of recording, storage, and retrieval of information on synthesized DNA and RNA molecules.&lt;ref&gt;{{cite journal | vauthors = Neiman MS | title = Some fundamental issues of microminiaturization | journal = Radiotekhnika | issue = 1 | pages = 3–12 (in Russ.) | date = 1964 | url = https://2a008ed5-a-62cb3a1a-s-sites.googlegroups.com/site/msneiman1905/Neiman-1964_Micromini.pdf?attachauth=ANoY7cpTySUKsA4Md2aDi3HCQ3DEZ6dm1GZtHY6pozHD_v0lt8fAomPcEfGoL_3y33nazsq_eGrrdM9codWvJiKpNiDWEEijA1xNeLHDb4k54nq_PRhabXn_s9mBA_Q6Mwz4DhYHQO5BH05F6KJ__z80nGBPApx0PoTwFanCIDk4H-7nBNiDqx5ZBrn7bXw-4k0f4pgA1p3Y7nmHWMm2K_EOJ8tCfM47u7LaptroT8xsrHfdgJuzW8o%3D&amp;attredirects=0 }}&lt;/ref&gt;&lt;ref&gt;{{cite journal | vauthors = Neiman MS | title = On the relationships between the reliability, performance and degree of microminiaturisation at the molecular-atomic level. | journal = Radiotekhnika | issue = 1 | pages = 1–9 (in Russ.) | date = 1965 | url = https://2a008ed5-a-62cb3a1a-s-sites.googlegroups.com/site/msneiman1905/Neiman-1965_O_svyazyah.pdf?attachauth=ANoY7cq4uYzn32sRRKJSWzjLtEUFqzxPj1VX0Vv5mMSrVSo1E8xTLIdHjVXfYsxIRws3xC-PDK5S9123_lPQr5TUmGZhahJCXL4X0zhEj4oQuPXQ3JF8kow_nimXrxrvohNQZoa1N_Ch4z8_nxQa9hQQiDfkYWUyG4wr6T2NifCeZ0veIcgNRRjX5UOK78onovbnTADaVSIrmqFsnixLfHoqBa6yGNBnBWbUoJBdzR7eGs5J-y0oU9A%3D&amp;attredirects=0}}&lt;/ref&gt;&lt;ref&gt;{{cite journal | vauthors = Neiman MS | title = On the molecular memory systems and the directed mutations. | journal = Radiotekhnika | issue = 6 | pages = 1–8 (in Russ.) | date = 1965 | url = https://2a008ed5-a-62cb3a1a-s-sites.googlegroups.com/site/msneiman1905/Neiman-1965_Molecul.pdf?attachauth=ANoY7coUQR9xIfbI2iz5j8RBrY5r3zRshCmLyQ22KiCKUKWV_B54zgKXZyemIphGUED_jetc6FggGrBVoP08ULLVDPq0_5toEXuJMbmPsPmw78BMH46iLPrFo2MBZSXYoo2CfASO5yyknBv5cUZjzh2jduacrzLmfJ5LqCKofwNiIQkBzt-dU34VozXvK0upTTDcYmLgn4DAW28OU8E1ZWWpkWaL7ZF_M4rBjAGqJ2xZqe--SUzod00%3D&amp;attredirects=0}}&lt;/ref&gt;   After the publication of the first M.S. Neiman's paper and after receiving by Editor the manuscript of his second paper (January, the 8th, 1964, as indicated in that paper) the interview with cybernetician Norbert Wiener was published.&lt;ref&gt;{{cite journal | vauthors = Wiener N | title =  Interview: machines smarter than men? | journal = US News &amp; World Report | volume = 56 | pages = 84–86 | date = 1964 }}&lt;/ref&gt; N. Wiener expressed ideas about miniaturization of computer memory, close to the ideas, proposed by M. S. Neiman independently. These Wiener's ideas M. S. Neiman mentioned in the third of his papers.
+
+One of the earliest uses of DNA storage occurred in a 1988 collaboration between artist Joe Davis and researchers from Harvard. The image, stored in a DNA sequence in ''E.coli'', was organized in a 5 x 7 matrix that, once decoded, formed a picture of an ancient Germanic rune representing life and the female Earth. In the matrix, ones corresponded to dark pixels while zeros corresponded to light pixels.&lt;ref name=":1"&gt;{{cite journal | vauthors = Extance A | title = How DNA could store all the world's data | journal = Nature | volume = 537 | issue = 7618 | pages = 22–4 | date = September 2016 | pmid = 27582204 | doi = 10.1038/537022a | bibcode = 2016Natur.537...22E | doi-access = free }}&lt;/ref&gt;
+
+In 2007 a device was created at the University of Arizona using addressing molecules to encode mismatch sites within a DNA strand.  These mismatches were then able to be read out by performing a restriction digest, thereby recovering the data.&lt;ref&gt;{{cite journal| vauthors = Skinner GM, Visscher K, Mansuripur M |date=2007-06-01|title=Biocompatible Writing of Data into DNA|journal=Journal of Bionanoscience|volume=1|issue=1|pages=17–21|doi=10.1166/jbns.2007.005|arxiv=1708.08027}}&lt;/ref&gt;
+
+In 2011, George Church, Sri Kosuri, and Yuan Gao carried out an experiment that would encode a 659-kb book that was co-authored by Church. To do this, the research team did a two-to-one correspondence where a binary zero was represented by either an adenine or cytosine and a binary one was represented by a guanine or thymine. After examination, 22 errors were found in the DNA.&lt;ref name=":1" /&gt;
+
+In 2012, [[George M. Church|George Church]] and colleagues at [[Harvard University]] published an article in which DNA was encoded with digital information that included an HTML draft of a 53,400 word book written by the lead researcher, eleven JPG images and one JavaScript program. Multiple copies for redundancy were added and 5.5 [[petabit]]s can be stored in each cubic millimeter of DNA.&lt;ref name=church&gt;{{cite journal | vauthors = Church GM, Gao Y, Kosuri S | s2cid = 934617 | title = Next-generation digital information storage in DNA | journal = Science | volume = 337 | issue = 6102 | pages = 1628 | date = September 2012 | pmid = 22903519 | doi = 10.1126/science.1226355 | bibcode = 2012Sci...337.1628C | authorlink1 = George M. Church }}&lt;/ref&gt; The researchers used a simple code where bits were mapped one-to-one with bases, which had the shortcoming that it led to long runs of the same base, the sequencing of which is error-prone.  This result showed that besides its other functions, DNA can also be another type of storage medium such as hard drives and magnetic tapes.&lt;ref name=nanews/&gt;
+
+In 2013, an article led by researchers from the [[European Bioinformatics Institute]] (EBI) and submitted at around the same time as the paper of [[George M. Church|Church]] and colleagues detailed the storage, retrieval, and reproduction of over five million bits of data. All the DNA files reproduced the information between 99.99% and 100% accuracy.&lt;ref name="Goldman_2013"&gt;{{cite journal | vauthors = Goldman N, Bertone P, Chen S, Dessimoz C, LeProust EM, Sipos B, Birney E | title = Towards practical, high-capacity, low-maintenance information storage in synthesized DNA | journal = Nature | volume = 494 | issue = 7435 | pages = 77–80 | date = February 2013 | pmid = 23354052 | pmc = 3672958 | doi = 10.1038/nature11875 | bibcode = 2013Natur.494...77G | authorlink7 = Ewan Birney }}&lt;/ref&gt;   The main innovations in this research were the use of an error-correcting encoding scheme to ensure the extremely low data-loss rate, as well as the idea of encoding the data in a series of overlapping short [[oligonucleotide]]s identifiable through a sequence-based indexing scheme.&lt;ref name=nanews/&gt; Also, the sequences of the individual strands of DNA overlapped in such a way that each region of data was repeated four times to avoid errors. Two of these four strands were constructed backwards, also with the goal of eliminating errors.&lt;ref name="Goldman_2013" /&gt;  The costs per megabyte were estimated at $12,400 to encode data and $220 for retrieval.  However, it was noted that the exponential decrease in DNA synthesis and sequencing costs, if it continues into the future, should make the technology cost-effective for long-term data storage by 2023.&lt;ref name=nanews&gt;{{Cite journal | vauthors = Yong E | doi = 10.1038/nature.2013.12279 | title = Synthetic double-helix faithfully stores Shakespeare's sonnets | journal = Nature | year = 2013 | pmid =  | pmc = }}&lt;/ref&gt;
+
+In 2013, a software called DNACloud was developed by Manish K. Gupta and co-workers to encode computer files to their DNA representation. It implements a memory efficiency version of the algorithm proposed by Goldman et al. to encode (and decode) data to DNA (.dnac files).&lt;ref&gt;{{cite arxiv| vauthors = Shah S, Limbachiya D, Gupta MK |date=2013-10-25|title=DNACloud: A Potential Tool for storing Big Data on DNA|eprint=1310.6992|class=cs.ET}}&lt;/ref&gt;&lt;ref&gt;{{Cite book| vauthors = Limbachiya D, Dhameliya V, Khakhar M, Gupta MK |date=25 April 2016|title=On optimal family of codes for archival DNA storage|journal=2015 Seventh International Workshop on Signal Design and Its Applications in Communications (IWSDA)|volume=|pages=123–127|doi=10.1109/IWSDA.2015.7458386|isbn=978-1-4673-8308-0|arxiv=1501.07133}}&lt;/ref&gt;
+
+The long-term stability of data encoded in DNA was reported in February 2015, in an article by researchers from [[ETH Zurich]]. The team added redundancy via [[Reed–Solomon error correction]] coding and by encapsulating the DNA within silica glass spheres via [[Sol-gel]] chemistry.&lt;ref name=grass&gt;{{cite journal | vauthors = Grass RN, Heckel R, Puddu M, Paunescu D, Stark WJ | title = Robust chemical preservation of digital information on DNA in silica with error-correcting codes | journal = Angewandte Chemie | volume = 54 | issue = 8 | pages = 2552–5 | date = February 2015 | pmid = 25650567 | doi = 10.1002/anie.201411378 }}&lt;/ref&gt;
+
+In 2016 research by Church and [[Technicolor SA|Technicolor Research and Innovation]] was published in which, 22 MB of a MPEG compressed movie sequence were stored and recovered from DNA. The recovery of the sequence was found to have zero errors.&lt;ref name=Blawat&gt;{{Cite journal | doi = 10.1016/j.procs.2016.05.398| title = Forward Error Correction for DNA Data Storage| journal = Procedia Computer Science| volume =  80| pages = 1011–1022| year = 2016| vauthors = Blawat M, Gaedke K, Huetter I, Chen XM, Turczyk B, Inverso S, Pruitt BW, Church GM | doi-access = free}}&lt;/ref&gt;
+
+In March 2017, [[Yaniv Erlich]] and [[Dina Zielinski]] of [[Columbia University]] and the [[New York Genome Center]] published a method known as DNA Fountain that stored data at a density of 215 petabytes per gram of DNA. The technique approaches the [[Shannon capacity]] of DNA storage, achieving 85% of the theoretical limit.  The method was not ready for large-scale use, as it costs $7000 to synthesize 2 megabytes of data and another $2000 to read it.&lt;ref&gt;{{cite news|last1=Yong|first1=Ed | name-list-format = vanc |title=This Speck of DNA Contains a Movie, a Computer Virus, and an Amazon Gift Card|url=https://www.theatlantic.com/science/archive/2017/03/this-speck-of-dna-contains-a-movie-a-computer-virus-and-an-amazon-gift-card/518373/|access-date=3 March 2017|work=The Atlantic}}&lt;/ref&gt;&lt;ref name=ScienceNews2017&gt;{{cite web|title=DNA could store all of the world's data in one room|url=http://www.sciencemag.org/news/2017/03/dna-could-store-all-worlds-data-one-room|magazine=Science Magazine|access-date=3 March 2017|date=2 March 2017}}&lt;/ref&gt;&lt;ref name=Science2017&gt;{{cite journal | vauthors = Erlich Y, Zielinski D | title = DNA Fountain enables a robust and efficient storage architecture | journal = Science | volume = 355 | issue = 6328 | pages = 950–954 | date = March 2017 | pmid = 28254941 | doi = 10.1126/science.aaj2038 | url = https://zenodo.org/record/889697 | bibcode = 2017Sci...355..950E }}&lt;/ref&gt;
+
+In March 2018, [[University of Washington]] and [[Microsoft]] published results demonstrating storage and retrieval of approximately 200MB of data. The research also proposed and evaluated a method for [[random access]] of data items stored in DNA.&lt;ref name="Organick Ang Chen Lopez 2018 p. "&gt;{{cite journal | vauthors = Organick L, Ang SD, Chen YJ, Lopez R, Yekhanin S, Makarychev K, Racz MZ, Kamath G, Gopalan P, Nguyen B, Takahashi CN, Newman S, Parker HY, Rashtchian C, Stewart K, Gupta G, Carlson R, Mulligan J, Carmean D, Seelig G, Ceze L, Strauss K | display-authors = 6 | title = Random access in large-scale DNA data storage | journal = Nature Biotechnology | volume = 36 | issue = 3 | pages = 242–248 | date = March 2018 | pmid = 29457795 | doi = 10.1038/nbt.4079 }}&lt;/ref&gt;&lt;ref name="Patel 2018"&gt;{{cite web | last=Patel | first=Prachi | name-list-format = vanc | title=DNA Data Storage Gets Random Access | website=IEEE Spectrum: Technology, Engineering, and Science News | date=2018-02-20 | url=https://spectrum.ieee.org/the-human-os/biomedical/devices/dna-data-storage-gets-random-access | access-date=2018-09-08}}&lt;/ref&gt; In March 2019, the same team announced they have demonstrated a fully automated system to encode and decode data in DNA.&lt;ref&gt;{{Cite web|url=https://news.microsoft.com/innovation-stories/hello-data-dna-storage/|title=Microsoft, UW demonstrate first fully automated DNA data storage|date=2019-03-21|website=Innovation Stories|language=en-US|access-date=2019-03-21}}&lt;/ref&gt;
+
+Research published by [[Eurecom]] and [[Imperial College London|Imperial College]] in January 2019, demonstrated the ability to store structured data in synthetic DNA. The research showed how to encode structured or, more specifically, relational data in synthetic DNA and also demonstrated how to perform data processing operations (similar to [[SQL]]) directly on the DNA as chemical processes.&lt;ref&gt;{{Cite journal| vauthors = Appuswamy R, Le Brigand K, Barbry P, Antonini M, Madderson O, Freemont P, McDonald J, Heinis T |date=2019|title=OligoArchive: Using DNA in the DBMS storage hierarchy|url=http://cidrdb.org/cidr2019/papers/p98-appuswamy-cidr19.pdf|journal=Conference on Innovative Data Systems Research (CIDR)|volume=|pages=|via=}}&lt;/ref&gt;&lt;ref&gt;{{Cite web|url=https://oligoarchive.github.io/|title=OligoArchive Website|last=|first=|date=|website=oligoarchive.github.io|language=en-US|archive-url=|archive-date=|access-date=2019-02-06}}&lt;/ref&gt;
+
+In June 2019, scientists reported that all 16 GB of [[Wikipedia]] have been encoded into [[synthetic DNA]].&lt;ref name="CNET-20190629"&gt;{{cite news |last=Shankland |first=Stephen | name-list-format = vanc |title=Startup packs all 16GB of Wikipedia onto DNA strands to demonstrate new storage tech - Biological molecules will last a lot longer than the latest computer storage technology, Catalog believes. |url=https://www.cnet.com/news/startup-packs-all-16gb-wikipedia-onto-dna-strands-demonstrate-new-storage-tech/ |date=29 June 2019 |work=[[CNET]] |access-date=7 August 2019 }}&lt;/ref&gt;
+
+== Davos Bitcoin Challenge ==
+On January 21, 2015, [[Nick Goldman]] from the [[European Bioinformatics Institute]] (EBI), one of the original authors of the 2013 ''[[Nature (journal)|Nature]]'' paper,&lt;ref name="Goldman_2013" /&gt; announced the Davos Bitcoin Challenge at the [[World Economic Forum]] annual meeting in Davos.&lt;ref&gt;{{Citation|last=World Economic Forum|title=Future Computing: DNA Hard Drives {{!}} Nick Goldman|date=2015-03-10|url=https://www.youtube.com/watch?v=tBvd7OSDGgQ|access-date=2018-05-19}}&lt;/ref&gt;&lt;ref name=":0"&gt;{{Cite web|url=https://www.ebi.ac.uk/research/goldman/dna-storage|title=DNA storage {{!}} European Bioinformatics Institute|website=www.ebi.ac.uk|language=en|access-date=2018-05-19}}&lt;/ref&gt; During his presentation, DNA-tubes were handed out to the audience with the message that each tube contained the private key of exactly one [[bitcoin]], all coded in DNA. The first one to [[DNA sequencing|sequence]] and decode the DNA could claim the bitcoin and win the challenge. The challenge was set for three years and would close if nobody claimed the prize before January 21, 2018.&lt;ref name=":0" /&gt;
+
+Almost three years later on January 19, 2018, the EBI announced that a Belgian PhD student, Sander Wuyts of the [[University of Antwerp]] and [[Vrije Universiteit Brussel]], was the first one to complete the challenge.&lt;ref&gt;{{Cite web|url=https://www.ebi.ac.uk/about/news/press-releases/belgian-phd-student-decodes-dna-wins-bitcoin|title=Belgian PhD student decodes DNA and wins a Bitcoin {{!}} European Bioinformatics Institute|website=www.ebi.ac.uk|language=en|access-date=2018-05-19}}&lt;/ref&gt;&lt;ref&gt;{{Cite news|url=https://motherboard.vice.com/en_us/article/7xe3dx/dna-storage-bitcoin-mystery-puzzle|title=A Piece of DNA Contained the Key to 1 Bitcoin and This Guy Cracked the Code|date=2018-01-24|work=Motherboard|access-date=2018-05-19|language=en-us}}&lt;/ref&gt; Next to the instructions on how to claim the bitcoin (stored as a plain text and [[PDF|PDF file]]), the logo of the EBI, the logo of the company that printed the DNA (CustomArray) and a sketch of [[James Joyce]] were retrieved from the DNA.&lt;ref&gt;{{Cite news|url=https://swuyts.wordpress.com/2018/01/16/from-dna-to-bitcoin-how-i-won-the-davos-bitcoin-challenge/|title=From DNA to bitcoin: How I won the Davos DNA-storage Bitcoin Challenge|date=2018-01-16|work=Sander Wuyts|access-date=2018-05-19|language=en-US}}&lt;/ref&gt;
+
+== DNA of Things ==
+The concept of DNA of Things (DoT) was introduced in 2019 by a team of researchers from Israel and Switzerland.&lt;ref&gt;{{cite journal|doi=10.1038/s41587-019-0356-z | pmid=31819259 | title=A DNA-of-things storage architecture to create materials with embedded memory | journal=Nature Biotechnology |author=Koch, Julian| year=2019 | volume=38 | issue=1 | pages=39–43 }}&lt;/ref&gt;&lt;ref&gt;{{cite news |ref=Wired|last=Molteni |first=Megan | name-list-format = vanc |date=2019-12-09 |title=These Plastic Bunnies Got a DNA Upgrade. Next up, the World? |url=https://www.wired.com/story/these-plastic-bunnies-got-a-dna-upgrade-next-up-the-world/|newspaper=Wired  |access-date=2019-12-09}}
+&lt;/ref&gt;&lt;ref&gt;{{cite news |ref=wsj|last=Hotz |first=Robert Lee | name-list-format = vanc |date=2019-12-09 |title=Scientists Store Data in Synthetic DNA Embedded in a Plastic Bunny |url=https://www.wsj.com/articles/scientists-store-data-in-synthetic-dna-embedded-in-a-plastic-bunny-11575907200|newspaper=Wall Street Journal  |access-date=2019-12-09}}
+&lt;/ref&gt; DoT encodes digital data into DNA molecules, which are then embedded into objects. In contrast to [[Internet of things]], which is a system of interrelated computing devices, DoT creates objects which are independent storage objects, completely [[Off-the-grid|off-grid]].
+
+As a proof of concept for DoT, the researcher 3D-printed a [[Stanford bunny]] which contains its blueprint in the plastic filament used for printing. By clipping of a tiny bit of the ear of the bunny, they were able to read out the blueprint, multiply it and produce a next generation of bunnies. In addition, the ability of DoT to serve for [[Steganography|steganographic]] purposes was shown by producing non-distinguishable lenses which contain a [[YouTube]] video integrated into the material.
+
+== See also ==
+*[[DNA computing]]
+*[[DNA nanotechnology]]
+*[[Nanobiotechnology]]
+*[[Natural computing]]
+*[[Plant-based digital data storage]]
+
+== References ==
+{{reflist}}
+
+== Further reading ==
+{{refbegin}}
+* {{cite journal | vauthors = Mardis ER | s2cid = 2484571 | title = Next-generation DNA sequencing methods | journal = Annual Review of Genomics and Human Genetics | volume = 9 | pages = 387–402 | year = 2008 | pmid = 18576944 | pmc =  | doi = 10.1146/annurev.genom.9.081307.164359 }}
+* {{cite journal | vauthors = Zhirnov V, Zadegan RM, Sandhu GS, Church GM, Hughes WL | title = Nucleic acid memory | journal = Nature Materials | volume = 15 | issue = 4 | pages = 366–70 | date = April 2016 | pmid = 27005909 | pmc = 6361517 | doi = 10.1038/nmat4594 | bibcode = 2016NatMa..15..366Z }}
+* {{cite web | last = Cole | first = Adam | name-list-format = vanc  | title = Shall I Encode Thee In DNA? Sonnets Stored On Double Helix? | website = | publisher = National Public Radio | date = January 24, 2013&lt;!-- 3:37 AM
+ --&gt;| url = https://www.npr.org/2013/01/24/170082404/shall-i-encode-thee-in-dna-sonnets-stored-on-double-helix | format = Download article and audio is available | doi = | access-date = }}
+* {{cite news | last = Naik | first =Gautam | name-list-format = vanc | title =Storing Digital Data in DNA | newspaper = [[The Wall Street Journal]] | location = New York City | publisher = Dow Jones &amp; Company | date =January 24, 2013 | url =https://www.wsj.com/articles/SB10001424127887324539304578259883507543150#articleTabs%3Darticle | access-date =2012-01-25}}
+*[https://www.nytimes.com/2011/12/01/business/dna-sequencing-caught-in-deluge-of-data.html?pagewanted=all&amp;_r=0 DNA Sequencing Caught in Deluge of Data]. The New York Times (NYTimes.com).
+* {{cite news |ref=NSNews|last=Aron |first=Jacob | name-list-format = vanc |date=February 15, 2015 |title=Glassed-in DNA makes the ultimate time capsule |url=https://www.newscientist.com/article/mg22530084.300-glassedin-dna-makes-the-ultimate-time-capsule.html#.VOWg6EJacyw |newspaper=New Scientist |location= |access-date= February 19, 2015}}
+{{refend}}
+
+[[Category:DNA]]
+[[Category:Molecular biology]]
+[[Category:Storage media]]
+[[Category:Computational biology]]</text>
+      <sha1>oyyl91u7816x7fci9253s6o1p3pvg2g</sha1>
+    </revision>
+  </page>
+</mediawiki>

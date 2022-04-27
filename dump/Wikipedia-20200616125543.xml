@@ -1,0 +1,114 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.10/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.10/ http://www.mediawiki.org/xml/export-0.10.xsd" version="0.10" xml:lang="en">
+  <siteinfo>
+    <sitename>Wikipedia</sitename>
+    <dbname>enwiki</dbname>
+    <base>https://en.wikipedia.org/wiki/Main_Page</base>
+    <generator>MediaWiki 1.35.0-wmf.36</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Media</namespace>
+      <namespace key="-1" case="first-letter">Special</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Talk</namespace>
+      <namespace key="2" case="first-letter">User</namespace>
+      <namespace key="3" case="first-letter">User talk</namespace>
+      <namespace key="4" case="first-letter">Wikipedia</namespace>
+      <namespace key="5" case="first-letter">Wikipedia talk</namespace>
+      <namespace key="6" case="first-letter">File</namespace>
+      <namespace key="7" case="first-letter">File talk</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki talk</namespace>
+      <namespace key="10" case="first-letter">Template</namespace>
+      <namespace key="11" case="first-letter">Template talk</namespace>
+      <namespace key="12" case="first-letter">Help</namespace>
+      <namespace key="13" case="first-letter">Help talk</namespace>
+      <namespace key="14" case="first-letter">Category</namespace>
+      <namespace key="15" case="first-letter">Category talk</namespace>
+      <namespace key="100" case="first-letter">Portal</namespace>
+      <namespace key="101" case="first-letter">Portal talk</namespace>
+      <namespace key="108" case="first-letter">Book</namespace>
+      <namespace key="109" case="first-letter">Book talk</namespace>
+      <namespace key="118" case="first-letter">Draft</namespace>
+      <namespace key="119" case="first-letter">Draft talk</namespace>
+      <namespace key="446" case="first-letter">Education Program</namespace>
+      <namespace key="447" case="first-letter">Education Program talk</namespace>
+      <namespace key="710" case="first-letter">TimedText</namespace>
+      <namespace key="711" case="first-letter">TimedText talk</namespace>
+      <namespace key="828" case="first-letter">Module</namespace>
+      <namespace key="829" case="first-letter">Module talk</namespace>
+      <namespace key="2300" case="first-letter">Gadget</namespace>
+      <namespace key="2301" case="first-letter">Gadget talk</namespace>
+      <namespace key="2302" case="case-sensitive">Gadget definition</namespace>
+      <namespace key="2303" case="case-sensitive">Gadget definition talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Mean absolute error</title>
+    <ns>0</ns>
+    <id>8379669</id>
+    <revision>
+      <id>961700965</id>
+      <parentid>958725744</parentid>
+      <timestamp>2020-06-09T23:07:44Z</timestamp>
+      <contributor>
+        <username>InternetArchiveBot</username>
+        <id>27015025</id>
+      </contributor>
+      <comment>Bluelink 1 book for [[Wikipedia:Verifiability|verifiability]] (prndis)) #IABot (v2.0.1) ([[User:GreenC bot|GreenC bot]]</comment>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="6906" xml:space="preserve">{{distinguish|Average absolute deviation|Mean absolute difference}}
+
+In [[statistics]], '''mean absolute error''' ('''MAE''') is a measure of [[Error (statistics)|errors]] between paired observations expressing the same phenomenon. Examples of ''Y'' versus ''X'' include comparisons of predicted versus observed, subsequent time versus initial time, and one technique of measurement versus an alternative technique of measurement. MAE is calculated as:
+:&lt;math&gt;\mathrm{MAE} = \frac{\sum_{i=1}^n\left| y_i-x_i\right|}{n} =\frac{\sum_{i=1}^n\left| e_i \right|}{n}.&lt;/math&gt;&lt;ref name=":0"&gt;{{Cite journal|last=Willmott|first=Cort J.|last2=Matsuura|first2=Kenji|date=December 19, 2005|title=Advantages of the mean absolute error (MAE) over the root mean square error (RMSE) in assessing average model performance|url=|journal=Climate Research|volume=30|pages=79–82|doi=10.3354/cr030079|doi-access=free}}&lt;/ref&gt;
+It is thus an arithmetic average of the absolute errors &lt;math&gt;|e_i| = |y_i - x_i|&lt;/math&gt;, where &lt;math&gt;y_i&lt;/math&gt; is the prediction and &lt;math&gt;x_i&lt;/math&gt; the true value. Note that alternative formulations may include relative frequencies as weight factors. The mean absolute error uses the same scale as the data being measured. This is known as a scale-dependent accuracy measure and therefore cannot be used to make comparisons between series using different scales.&lt;ref&gt;{{Cite web|url=https://www.otexts.org/fpp/2/5|title=2.5 Evaluating forecast accuracy {{!}} OTexts|website=www.otexts.org|access-date=2016-05-18}}&lt;/ref&gt; The mean absolute error is a common measure of [[forecast error]] in [[time series analysis]],&lt;ref name="Hyndman2005" /&gt; sometimes used in confusion with the more standard definition of [[mean absolute deviation]]. The same confusion exists more generally.
+
+==Quantity disagreement and allocation disagreement==
+[[File:MAE_example.png|thumb|2 data points for which Quantity Disagreement is 0 and Allocation Disagreement is 2 for both MAE and RMSE|right|300px]]
+
+It is possible to express MAE as the sum of two components: Quantity Disagreement and Allocation Disagreement. Quantity Disagreement is the absolute value of the Mean Error given by:
+
+&lt;math&gt;\mathrm{ME} = \frac{\sum_{i=1}^n y_i-x_i}{n}.&lt;/math&gt;&lt;ref name=":1"&gt;{{Cite journal|last=Pontius Jr.|first=Robert Gilmore|last2=Thontteh|first2=Olufunmilayo|last3=Chen|first3=Hao|date=2008|title=Components of information for multiple resolution comparison between maps that share a real variable|url=|journal=Environmental and Ecological Statistics|volume=15|issue=2|pages=111–142|doi=10.1007/s10651-007-0043-y}}&lt;/ref&gt;
+
+Allocation Disagreement is MAE minus Quantity Disagreement.
+
+It is also possible to identify the types of difference by looking at an &lt;math&gt;(x,y)&lt;/math&gt; plot. Quantity difference exists when the average of the X values does not equal the average of the Y values. Allocation difference exists if and only if points reside on both sides of the identity line.&lt;ref name=":1" /&gt;&lt;ref name=":2"&gt;{{Cite journal|last=Willmott|first=C. J.|last2=Matsuura|first2=K.|date=January 2006|title=On the use of dimensioned measures of error to evaluate the performance of spatial interpolators|url=|journal=International Journal of Geographical Information Science|volume=20|pages=89–102|doi=10.1080/13658810500286976}}&lt;/ref&gt;
+
+== Related measures ==
+The mean absolute error is one of a number of ways of comparing forecasts with their eventual outcomes. Well-established alternatives are the [[mean absolute scaled error]] (MASE) and the [[mean squared error]]. These all summarize performance in ways that disregard the direction of over- or under- prediction; a measure that does place emphasis on this is the [[mean signed difference]].
+
+Where a prediction model is to be fitted using a selected performance measure, in the sense that the [[least squares]] approach is related to the [[mean squared error]], the equivalent for mean absolute error is [[least absolute deviations]].
+
+MAE is not identical to RMSE ([[Root-mean-square deviation|root-mean square error]]), but some researchers report and interpret RMSE as if RMSE reflects the measurement that MAE gives. MAE is conceptually simpler and more interpretable than RMSE. MAE does not require the use of squares or square roots. The use of squared distances hinders the interpretation of RMSE. MAE is simply the average absolute vertical or horizontal distance between each point in a scatter plot and the Y=X line. In other words, MAE is the average absolute difference between X and Y. MAE is fundamentally easier to understand than the square root of the average of the sum of squared deviations. Furthermore, each error contributes to MAE in proportion to the absolute value of the error, which is not true for RMSE.&lt;ref name=":1" /&gt; See the example above for an illustration of these differences.
+
+===Optimality property===
+The ''mean absolute error'' of a real variable ''c'' with respect to the [[random variable]]&amp;nbsp;''X'' is
+:&lt;math&gt;E(\left|X-c\right|)\,&lt;/math&gt;
+Provided that the probability distribution of ''X'' is such that the above expectation exists, then ''m'' is a [[median]] of  ''X'' if and only if ''m'' is a minimizer of the mean absolute error with respect to ''X''.&lt;ref&gt;{{cite book |last=Stroock |first=Daniel |title=Probability Theory |url=https://archive.org/details/probabilitytheor00stro |url-access=limited |year=2011 |publisher=Cambridge University Press |isbn=978-0-521-13250-3 |pages=[https://archive.org/details/probabilitytheor00stro/page/n66 43] }}&lt;/ref&gt; In particular, ''m'' is a sample median if and only if ''m'' minimizes the arithmetic mean of the absolute deviations&lt;ref&gt;André Nicolas (https://math.stackexchange.com/users/6312/andr%c3%a9-nicolas), The Median Minimizes the Sum of Absolute Deviations (The $ {L}_{1} $ Norm), URL (version: 2012-02-25): https://math.stackexchange.com/q/113336&lt;/ref&gt;.
+
+More generally, a median is defined as a minimum of 
+:&lt;math&gt;E(|X-c| - |X| ),&lt;/math&gt; 
+as discussed at [[Multivariate median]] (and specifically at [[Spatial median]]).
+
+This optimization-based definition of the median is useful in statistical data-analysis, for example, in [[k-medians clustering|''k''-medians clustering]]&lt;!-- The "k" in that article title needs to be in LOWER CASE because it's mathematical notation. --&gt;.
+
+==See also==
+* [[Least absolute deviations]]
+* [[Mean absolute percentage error]]
+* [[Mean percentage error]]
+* [[Symmetric mean absolute percentage error]]
+
+==References==
+{{Reflist|refs=
+&lt;ref name="Hyndman2005"&gt;[[Rob J. Hyndman|Hyndman, R.]] and Koehler A. (2005). "Another look at measures of forecast accuracy" [http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.154.9771&amp;rep=rep1&amp;type=pdf]&lt;/ref&gt;
+}}
+
+{{DEFAULTSORT:Mean Absolute Error}}
+[[Category:Point estimation performance]]
+[[Category:Statistical deviation and dispersion]]
+[[Category:Time series]]
+[[Category:Errors and residuals]]</text>
+      <sha1>3iks3z1nno4lg9lz347d6cy7k2uy5l7</sha1>
+    </revision>
+  </page>
+</mediawiki>

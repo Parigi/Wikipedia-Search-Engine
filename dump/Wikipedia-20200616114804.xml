@@ -1,0 +1,259 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.10/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.10/ http://www.mediawiki.org/xml/export-0.10.xsd" version="0.10" xml:lang="en">
+  <siteinfo>
+    <sitename>Wikipedia</sitename>
+    <dbname>enwiki</dbname>
+    <base>https://en.wikipedia.org/wiki/Main_Page</base>
+    <generator>MediaWiki 1.35.0-wmf.36</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Media</namespace>
+      <namespace key="-1" case="first-letter">Special</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Talk</namespace>
+      <namespace key="2" case="first-letter">User</namespace>
+      <namespace key="3" case="first-letter">User talk</namespace>
+      <namespace key="4" case="first-letter">Wikipedia</namespace>
+      <namespace key="5" case="first-letter">Wikipedia talk</namespace>
+      <namespace key="6" case="first-letter">File</namespace>
+      <namespace key="7" case="first-letter">File talk</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki talk</namespace>
+      <namespace key="10" case="first-letter">Template</namespace>
+      <namespace key="11" case="first-letter">Template talk</namespace>
+      <namespace key="12" case="first-letter">Help</namespace>
+      <namespace key="13" case="first-letter">Help talk</namespace>
+      <namespace key="14" case="first-letter">Category</namespace>
+      <namespace key="15" case="first-letter">Category talk</namespace>
+      <namespace key="100" case="first-letter">Portal</namespace>
+      <namespace key="101" case="first-letter">Portal talk</namespace>
+      <namespace key="108" case="first-letter">Book</namespace>
+      <namespace key="109" case="first-letter">Book talk</namespace>
+      <namespace key="118" case="first-letter">Draft</namespace>
+      <namespace key="119" case="first-letter">Draft talk</namespace>
+      <namespace key="446" case="first-letter">Education Program</namespace>
+      <namespace key="447" case="first-letter">Education Program talk</namespace>
+      <namespace key="710" case="first-letter">TimedText</namespace>
+      <namespace key="711" case="first-letter">TimedText talk</namespace>
+      <namespace key="828" case="first-letter">Module</namespace>
+      <namespace key="829" case="first-letter">Module talk</namespace>
+      <namespace key="2300" case="first-letter">Gadget</namespace>
+      <namespace key="2301" case="first-letter">Gadget talk</namespace>
+      <namespace key="2302" case="case-sensitive">Gadget definition</namespace>
+      <namespace key="2303" case="case-sensitive">Gadget definition talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Precision agriculture</title>
+    <ns>0</ns>
+    <id>144068</id>
+    <revision>
+      <id>961215819</id>
+      <parentid>959308708</parentid>
+      <timestamp>2020-06-07T07:19:53Z</timestamp>
+      <contributor>
+        <ip>2A00:6920:E0EF:E0F7:9D7D:9D0B:9DFC:538F</ip>
+      </contributor>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="30513" xml:space="preserve">[[File:Daedelus comparison, remote sensing in precision farming.jpg|thumb|upright|[[False-color image]]s demonstrate [[remote sensing]] applications in precision farming. Courtesy [[NASA Earth Observatory]]&lt;ref&gt;
+{{cite web
+|url=http://earthobservatory.nasa.gov/IOTD/view.php?id=1139
+|title=Precision Farming : Image of the Day
+|publisher=earthobservatory.nasa.gov
+|accessdate=2009-10-12
+|date=2001-01-30
+}}&lt;/ref&gt;]]
+[[File:Yara N-Sensor ALS.jpg|thumb|[[Yara International|Yara]] ''N-Sensor ALS'' mounted on a tractor's canopy – a system that records light reflection of crops, calculates fertilisation recommendations and then varies the amount of fertilizer spread]]
+[[File:DroneMapper Processed NDVI 4cm GSD.png|thumb|Precision Agriculture NDVI 4 cm / pixel GSD]]
+'''Precision agriculture''' ('''PA'''), '''satellite farming''' or '''site specific crop management''' ('''SSCM''') is a farming management concept based on observing, measuring and responding to inter and intra-field variability in crops. The goal of precision agriculture research is to define a [[decision support system]] (DSS) for whole farm management with the goal of optimizing returns on inputs while preserving resources.&lt;ref&gt;McBratney, A., Whelan, B., Ancev, T., 2005. Future Directions of Precision Agriculture. Precision Agriculture, 6, 7-23.&lt;/ref&gt;&lt;ref&gt;Whelan, B.M., McBratney, A.B., 2003.  Definition and Interpretation of potential management zones in Australia, In: Proceedings of the 11th Australian Agronomy Conference, Geelong, Victoria, Feb. 2-6 2003.&lt;/ref&gt;&lt;ref name = Reina&gt;
+{{cite journal
+ | last = Reina
+ | first = Giulio
+ | title = A multi‑sensor robotic platform for ground mapping and estimation beyond the visible spectrum
+ | journal = Precision Agriculture
+ | volume = 20
+ | issue = 2
+ | date = 2018
+ | pages = 423–444
+ | doi = 10.1007/s11119-018-9605-2 }}
+&lt;/ref&gt;
+
+Among these many approaches is a [[Phytogeomorphology|phytogeomorphological]] approach which ties multi-year crop growth stability/characteristics to topological terrain attributes. The interest in the phytogeomorphological approach stems from the fact that the [[geomorphology]] component typically dictates the [[hydrology]] of the farm field.&lt;ref&gt;Howard, J.A., Mitchell, C.W., 1985. Phytogeomorphology. ''Wiley''.&lt;/ref&gt;&lt;ref&gt;Kaspar, T.C, Colvin, T.S., Jaynes, B., Karlen, D.L., James, D.E, Meek, D.W., 2003. Relationship between six years of corn yields and terrain attributes. ''Precision Agriculture'', 4, 87-101.&lt;/ref&gt;
+
+The practice of precision agriculture has been enabled by the advent of [[GPS]] and [[Satellite navigation|GNSS]]. The farmer's and/or researcher's ability to locate their precise position in a field allows for the creation of maps of the spatial variability of as many variables as can be measured (e.g. crop yield, terrain features/topography, organic matter content, moisture levels, nitrogen levels, pH, EC, Mg, K, and others).&lt;ref&gt;McBratney, A.B. &amp; Pringle, M.J. Precision Agriculture (1999) 1: 125. https://doi.org/10.1023/A:1009995404447&lt;/ref&gt; Similar data is collected by sensor arrays mounted on GPS-equipped [[combine harvester]]s. These arrays consist of real-time sensors that measure everything from chlorophyll levels to plant water status, along with [[Multispectral image|multispectral]] imagery.&lt;ref&gt;Reyns, P., Missotten, B., Ramon, H. et al. Precision Agriculture (2002) 3: 169. https://doi.org/10.1023/A:1013823603735&lt;/ref&gt; This data is used in conjunction with [[satellite imagery]] by variable rate technology (VRT) including seeders, sprayers, etc. to optimally distribute resources. However, recent technological advances have enabled the use of real-time sensors directly in soil, which can wirelessly transmit data without the need of human presence.&lt;ref&gt;M. Sophocleous and J. Georgiou, “Precision agriculture: Challenges in sensors and electronics for real-time soil and plant monitoring,” 2017 IEEE Biomed. Circuits Syst. Conf., pp. 1–4, 2017. https://doi.org/10.1109/BIOCAS.2017.8325180&lt;/ref&gt;&lt;ref&gt;M. Sophocleous, “IoT &amp; Thick-Film Technology for Underground Sensors in Agriculture,” 2016. [Online]. Available: http://www.sensorsmag.com/components/iot-thick-film-technology-for-underground-sensors-agriculture.&lt;/ref&gt;
+
+Precision agriculture has also been enabled by [[unmanned aerial vehicle]]s like the [[DJI Phantom]] which are relatively inexpensive and can be operated by novice pilots.  These [[agricultural drones]] can be equipped with multispectral or RGB cameras to capture many images of a field that can be processed using [[photogrammetry|photogrammetric]] methods to create [[orthophoto]]s and [[NDVI]] maps.&lt;ref&gt;Chris Anderson, [https://www.technologyreview.com/s/526491/agricultural-drones/ "Agricultural Drones Relatively cheap drones with advanced sensors and imaging capabilities are giving farmers new ways to increase yields and reduce crop damage."], ''MIT Technology Review'', May/June 2014. Retrieved December 21, 2016.&lt;/ref&gt; These drones are capable of capturing imagery for a variety of purposes and with several metrics such as elevation and Vegetative Index (with NDVI as an example). This imagery is then turned into maps which can be used to optimize crop inputs such as water, fertilizer or chemicals such as herbicides and growth regulators through variable rate applications.
+
+==History==
+{{see also|Timeline of agriculture and food technology}}
+
+Precision agriculture is a key component of the third wave of modern [[Agricultural revolution (disambiguation)|agricultural revolutions]].  The first agricultural revolution was the increase of [[mechanized agriculture]], from 1900 to 1930. Each farmer produced enough food to feed about 26 people during this time.&lt;ref name="ey.com"&gt;{{Cite web | url=https://consulting.ey.com/digital-agriculture-helping-to-feed-a-growing-world/ | title=Digital agriculture: Helping to feed a growing world| date=2017-02-23}}&lt;/ref&gt; The 1960s prompted the [[Green Revolution]] with new methods of genetic modification, which led to each farmer feeding about 155 people.&lt;ref name="ey.com"/&gt; It is expected that by 2050, the global population will reach about 9.6 billion, and food production must effectively double from current levels in order to feed every mouth. With new technological advancements in the agricultural revolution of precision farming, each farmer will be able to feed 265 people on the same acreage.&lt;ref name="ey.com"/&gt;
+
+==Overview==
+The first wave of the precision agricultural revolution came in the forms of satellite and aerial imagery, weather prediction, variable rate fertilizer application, and crop health indicators. The second wave aggregates the machine data for even more precise planting, topographical mapping, and soil data.&lt;ref&gt;{{cite web | url=http://www.agnewscenter.com/archives.cfm?news=9903 | title=Can Digital Farming Deliver on its Promise? | date=April 27, 2016 | author=Arama Kukutai | work=www.agnewscenter.com}}&lt;/ref&gt;
+
+Precision agriculture aims to optimize field-level management with regard to:
+* [[crop science]]: by matching farming practices more closely to crop needs (e.g. fertilizer inputs);
+* [[environmental protection]]: by reducing environmental risks and footprint of farming (e.g. limiting leaching of nitrogen);
+* [[economics]]: by boosting competitiveness through more efficient practices (e.g. improved management of fertilizer usage and other inputs).
+Precision agriculture also provides farmers with a wealth of information to:
+* build up a [[document|record]] of their farm
+* improve [[decision-making]]
+* foster greater [[traceability]]
+* enhance marketing of farm products
+* improve lease arrangements and relationship with landlords
+* enhance the inherent quality of farm products (e.g. protein level in bread-flour wheat)
+
+===Prescriptive planting===
+'''Prescriptive planting''' is a type of farming system that delivers data-driven planting advice that can determine variable planting rates to accommodate varying conditions across a single field, in order to maximize yield. It has been described as "[[Big Data]] on the farm." [[Monsanto]], [[DuPont]] and others are launching this technology in the US.&lt;ref&gt;{{cite news | url=https://www.wsj.com/articles/SB10001424052702304450904579369283869192124 | title=Big Data Comes to the Farm, Sowing Mistrust | newspaper=Wall Street Journal | date=25 February 2014 | accessdate=10 February 2015 | author=Bunge, Jacob}}&lt;/ref&gt;&lt;ref&gt;{{cite news | url=https://www.economist.com/news/business/21602757-managers-most-traditional-industries-distrust-promising-new-technology-digital | title=Digital disruption on the farm | newspaper=The Economist | date=24 May 2014 | accessdate=10 February 2015}}&lt;/ref&gt;
+
+==Tools ==
+Precision agriculture is usually done as a four-stage process to observe spatial variability:
+Precision agriculture uses many tools but here are some of the basics: tractors, combines, sprayers, planters, diggers, which are all considered auto-guidance systems. The small devices on the equipment that uses GIS (geographic information system) are what makes precision ag what it is. You can think of the GIS system as the “brain.” To be able to use precision agriculture the equipment needs to be wired with the right technology and data systems. More tools include Variable rate technology (VRT), Global positioning system and Geographical information system, Grid sampling, and remote sensors.&lt;ref&gt;{{Cite web|url=https://precisionagricultu.re/important-tools-to-succeed-in-precision-farming/|title=Important tools to succeed in precision farming|last=admin|language=en-US|access-date=2019-11-20}}&lt;/ref&gt;
+
+===Data collection===
+===Geolocating===
+Geolocating a field enables the farmer to overlay information gathered from analysis of soils and residual nitrogen, and information on previous crops and soil resistivity. Geolocation is done in two ways
+* The field is delineated using an in-vehicle GPS receiver as the farmer drives a tractor around the field.
+* The field is delineated on a basemap derived from aerial or satellite imagery. The base images must have the right level of resolution and geometric quality to ensure that geolocation is sufficiently accurate.
+
+===Variables ===
+Intra and inter-field variability may result from a number of factors. These include climatic conditions ([[hail]], drought, rain, etc. ), [[soils]] (texture, depth, nitrogen levels), cropping practices ([[no-till farming]]), [[weed]]s and disease.
+Permanent indicators—chiefly soil indicators—provide farmers with information about the main environmental constants.
+Point indicators allow them to track a crop's status, i.e., to see whether diseases are developing, if the crop is suffering from [[moisture stress|water stress]], nitrogen stress, or lodging, whether it has been damaged by ice and so on.
+This information may come from weather stations and other sensors (soil electrical resistivity, detection with the naked eye, satellite imagery, etc.).
+[[Soil resistivity]] measurements combined with soil analysis make it possible to measure [[Water content|moisture content]]. Soil resistivity is also a relatively simple and cheap measurement.&lt;ref&gt;{{Cite web|url=https://pubs.ext.vt.edu/442/442-508/442-508_pdf.pdf|title=Precision Farming Tools: Soil Electrical Conductivity|last=|first=|date=|website=|publisher=|access-date=June 12, 2016}}&lt;/ref&gt;
+
+=== Strategies ===
+[[File:SUAS StardustII Ndvi sml.jpg|thumb|[[NDVI]] image taken with small aerial system Stardust II in one flight (299 images mosaic)]]
+Using soil maps, farmers can pursue two strategies to adjust field inputs:
+* Predictive approach: based on analysis of static indicators (soil, resistivity, field history, etc.) during the crop cycle.
+* Control approach: information from static indicators is regularly updated during the crop cycle by:
+** sampling: weighing biomass, measuring leaf chlorophyll content, weighing fruit, etc.
+** remote sensing: measuring parameters like temperature (air/soil), humidity (air/soil/leaf), wind or stem diameter is possible thanks to [[Wireless Sensor Networks]]&lt;ref&gt;{{cite web|url=http://www.libelium.com/libeliumworld/articles/101651651444|title=New Waspmote Sensor Board enables extreme precision agriculture in vineyards and greenhouses- Libelium|website=www.libelium.com}}&lt;/ref&gt; and [[Internet of things]] (IoT)
+** proxy-detection: in-vehicle sensors measure leaf status; this requires the farmer to drive around the entire field.
+** aerial or satellite remote sensing: [[Hyperspectral imaging|multispectral imagery]] is acquired and processed to derive maps of crop biophysical parameters, including indicators of disease.&lt;ref&gt;{{Cite journal|last=Mahlein|first=Anne-Katrin|date=2015-09-01|title=Plant Disease Detection by Imaging Sensors – Parallels and Specific Demands for Precision Agriculture and Plant Phenotyping|journal=Plant Disease|volume=100|issue=2|pages=241–251|doi=10.1094/PDIS-03-15-0340-FE|pmid=30694129|issn=0191-2917|doi-access=free}}&lt;/ref&gt; Airborne instruments are able to measure the amount of plant cover and to distinguish between crops and weeds.&lt;ref&gt;{{Cite web|url=https://www.economist.com/technology-quarterly/2016-06-09/factory-fresh|title=The future of agriculture|website=The Economist|access-date=2016-06-12}}&lt;/ref&gt;
+[[Decision making|Decisions]] may be based on decision-support [[Conceptual model|model]]s (crop simulation models and [[recommender system|recommendation]] models) based on [[big data]], but in the final analysis it is up to the farmer to decide in terms of business value and impacts on the [[Natural environment|environment]]- a role being takenover by [[artificial intelligence]] (AI) systems based on [[machine learning]] and [[artificial neural networks]].
+
+It is important to realize why PA technology is or is not adopted, "for PA technology adoption to occur the farmer has to perceive the technology as useful and easy to use. It might be insufficient to have positive outside data on the economic benefits of PA technology as perceptions of farmers have to reflect these economic considerations."&lt;ref&gt;{{Cite journal|last=Aubert|first=Benoit|date=2012|title=IT as enabler of sustainable farming: An empirical analysis of farmers' adoption decision of precision agriculture technology|url=http://www.elsevier.com/locate/dss|journal=Decision Support Systems|volume=54|pages=510–520|doi=10.1016/j.dss.2012.07.002}}&lt;/ref&gt;
+
+===Implementing practices ===
+New information and communication technologies make field level crop management more operational and easier to achieve for farmers.
+Application of crop management decisions calls for agricultural equipment that supports variable-rate technology ([[Variable Rate Technology|VRT]]), for example varying [[seed]] density along with variable-rate application (VRA) of [[nitrogen]] and phytosanitary products.&lt;ref name="nasa-feature"&gt;
+{{cite web
+|url=http://earthobservatory.nasa.gov/Features/PrecisionFarming/
+|title=Precision Farming : Feature Articles
+|publisher=earthobservatory.nasa.gov
+|accessdate=2009-10-12
+|last=Herring
+|first=David
+|date=2001-01-29
+}}
+&lt;/ref&gt;
+
+Precision agriculture uses technology on agricultural equipment (e.g. tractors, sprayers, harvesters, etc.):
+* [[positioning system]] (e.g. [[GPS]] receivers that use satellite signals to precisely determine a position on the globe);
+* [[geographic information systems]] (GIS), i.e., software that makes sense of all the available data;
+* variable-rate farming equipment ([[seeder]], [[Broadcast spreader|spreader]]).
+
+==Usage around the world ==
+[[File:Pteryx UAV - wiki.jpg|thumb|[[Pteryx UAV]], a civilian UAV for aerial photography and photo mapping with roll-stabilised camera head]]
+
+The concept of precision agriculture first emerged in the United States in the early 1980s. In 1985, researchers at the University of Minnesota varied lime inputs in crop fields. It was also at this time that the practice of grid sampling appeared (applying a fixed grid of one sample per hectare). Towards the end of the 1980s, this technique was used to derive the first input recommendation maps for fertilizers and pH corrections. The use of yield sensors developed from new technologies, combined with the advent of GPS receivers, has been gaining ground ever since. Today, such systems cover several million hectares.
+
+In the American Midwest (US), it is associated not with sustainable agriculture but with mainstream farmers who are trying to maximize profits by spending money only in areas that require fertilizer. This practice allows the farmer to vary the rate of fertilizer across the field according to the need identified by GPS guided Grid or Zone Sampling. Fertilizer that would have been spread in areas that don't need it can be placed in areas that do, thereby optimizing its use.
+
+Around the world, precision agriculture developed at a varying pace. Precursor nations were the United States, Canada and Australia. In Europe, the United Kingdom was the first to go down this path, followed closely by France, where it first appeared in 1997-1998. In [[Latin America]] the leading country is [[Argentina]], where it was introduced in the middle 1990s with the support of the [[National Agricultural Technology Institute]]. [[Brazil]] established a state-owned enterprise, [[Embrapa]], to research and develop sustainable agriculture. The development of GPS and variable-rate spreading techniques helped to anchor precision farming&lt;ref&gt;{{cite web|title=Simon Blackmore: Farming with robots|url=http://spie.org/newsroom/blackmore-video|publisher=SPIE Newsroom|accessdate=2 June 2016}}&lt;/ref&gt; management practices. Today, less than 10% of France's farmers are equipped with variable-rate systems. Uptake of GPS is more widespread, but this hasn't stopped them using precision agriculture services, which supplies field-level recommendation maps.&lt;ref&gt;{{cite web|url=http://www.spotimage.com/web/en/3294-pixagri-precision-agriculture-with-aerial-and-satellite-imagery-satellite-imagery-and-geoinformation-spot-image.php|title=precision agriculture with satellite imagery|url-status=dead|archiveurl=https://web.archive.org/web/20110407161935/http://www.spotimage.com/web/en/3294-pixagri-precision-agriculture-with-aerial-and-satellite-imagery-satellite-imagery-and-geoinformation-spot-image.php|archivedate=2011-04-07}}&lt;/ref&gt;
+
+One third of the global population still relies on agriculture for a living.&lt;ref name="technoserve.org"&gt;{{cite web|url=http://www.technoserve.org/blog/how-digital-is-solving-three-problems-in-agriculture|title=How Digital Is Solving Three Problems in Agriculture - TechnoServe - Business Solutions to Poverty|website=www.technoserve.org}}&lt;/ref&gt; Although more advanced precision farming technologies require large upfront investments, farmers in developing countries are benefitting from mobile technology. This service assists farmers with mobile payments and receipts to improve efficiencies. For example, 30,000 farmers in Tanzania use mobile phones for contracts, payments, loans, and business organization.&lt;ref name="technoserve.org"/&gt;
+
+The economic and environmental benefits of precision agriculture have also been confirmed in China, but China is lagging behind countries such as Europe and the United States because the Chinese agricultural system is characterized by small-scale family-run farms, which makes the adoption rate of precision agriculture lower than other countries. Therefore, China is trying to better introduce precision agriculture technology into its own country and reduce some risks, paving the way for China's technology to develop precision agriculture in the future.&lt;ref&gt;{{cite journal|doi=10.1017/S2040470017001066|title=Precision Agriculture in China: Exploring Awareness, Understanding, Attitudes and Perceptions of Agricultural Experts and End-Users in China|journal=Advances in Animal Biosciences|volume=8|issue=2|pages=703–707|year=2017|last1=Kendall|first1=H.|last2=Naughton|first2=P.|last3=Clark|first3=B.|last4=Taylor|first4=J.|last5=Li|first5=Z.|last6=Zhao|first6=C.|last7=Yang|first7=G.|last8=Chen|first8=J.|last9=Frewer|first9=L. J.|url=https://eprint.ncl.ac.uk/fulltext.aspx?url=239759/1E563DE4-1F12-4A59-8EB4-D0D0A5B3FC72.pdf&amp;pub_id=239759}}&lt;/ref&gt;
+
+==Economic and environmental impacts==
+Precision agriculture, as the name implies, means application of precise and correct amount of inputs like water, fertilizer, pesticides etc. at the correct time to the crop for increasing its productivity and maximizing its yields. Precision agriculture management practices can significantly reduce the amount of nutrient and other crop inputs used while boosting yields.&lt;ref&gt;{{cite web|url=http://money.cnn.com/2016/08/03/technology/climate-corporation-digital-agriculture/index.html|title=Hacking the farm: How farmers use 'digital agriculture' to grow more crops|first=Julianne|last=Pepitone|date=3 August 2016|website=CNNMoney}}&lt;/ref&gt; Farmers thus obtain a return on their investment by saving on water, pesticide, and fertilizer costs.
+
+The second, larger-scale benefit of targeting inputs concerns environmental impacts.  Applying the right amount of chemicals in the right place and at the right time benefits crops, soils and groundwater, and thus the entire crop cycle.&lt;ref name="economist.com"&gt;{{cite web|url=https://www.economist.com/technology-quarterly/2016-06-09/factory-fresh|title=The future of agriculture|website=The Economist}}&lt;/ref&gt;  Consequently, precision agriculture has become a cornerstone of [[sustainable agriculture]], since it respects crops, soils and farmers.  Sustainable agriculture seeks to assure a continued supply of food within the ecological, economic and social limits required to sustain production in the long term.
+
+A 2013 article tried to show that precision agriculture can help farmers in developing countries like India.&lt;ref&gt;[[Anil K. Rajvanshi]]:[http://newindianexpress.com/nation/Is-precision-agriculture-the-solution-to-Indias-farming-crisis/2013/10/15/article1836607.ece "Is precision agriculture the solution to India's farming crisis"]&lt;/ref&gt;
+
+Precision agriculture reduces the pressure on agriculture for the environment by increasing the efficiency of machinery and putting it into use. For example, the use of remote management devices such as GPS reduces fuel consumption for agriculture, while variable rate application of nutrients or pesticides can potentially reduce the use of these inputs, thereby saving costs and reducing harmful runoff into the waterways.&lt;ref&gt;{{cite journal|doi=10.1007/s11119-014-9382-5|title=The economic and environmental impacts of precision agriculture and interactions with agro-environmental policy|journal=Precision Agriculture|volume=16|pages=46–61|year=2015|last1=Schieffer|first1=J.|last2=Dillon|first2=C.}}&lt;/ref&gt;
+
+==Emerging technologies==
+Precision agriculture is an application of breakthrough digital farming technologies. Over $4.6 billion has been invested in agriculture tech companies—sometimes called agtech.&lt;ref name="ey.com"/&gt;
+
+===Robots===
+Self-steering [[tractors]] have existed for some time now, as [[John Deere]] equipment works like a plane on [[autopilot]]. The tractor does most of the work, with the farmer stepping in for emergencies.&lt;ref name="economist.com"/&gt;  Technology is advancing towards driverless machinery programmed by GPS to spread fertilizer or plow land. Other innovations include a solar powered machine that identifies weeds and precisely kills them with a dose of herbicide or lasers.&lt;ref name="economist.com"/&gt; [[Agricultural robot]]s, also known as AgBots, already exist, but advanced harvesting robots are being developed to identify ripe fruits, adjust to their shape and size, and carefully pluck them from branches.&lt;ref name="idealog.co.nz"&gt;{{cite web|url=http://idealog.co.nz/tech/2016/10/five-technologies-changing-agriculture|title=Five technologies changing agriculture|date=7 October 2016|publisher=}}&lt;/ref&gt;
+
+===Drones and satellite imagery===
+[[Unmanned aerial vehicle|Drone]] and [[satellite]] technology are used in precision farming. This often occurs when drones take high quality images while satellites capture the bigger picture. Light aircraft pilots can combine aerial photography with data from satellite records to predict future yields based on the current level of field [[Biomass (ecology)|biomass]]. Aggregated images can create contour maps to track where water flows, determine variable-rate seeding, and create yield maps of areas that were more or less productive.&lt;ref name="economist.com"/&gt;
+
+===The Internet of things===
+The [[Internet of things]] is the network of physical objects outfitted with electronics that enable data collection and aggregation. IoT comes into play with the development of sensors&lt;ref&gt;M. Sophocleous, Thick-Film Underground Sensors. LAP LAMPERT Academic Publishing, 2016. {{ISBN|978-3-659-95270-8}} https://www.morebooks.de/store/us/book/thick-film-underground-sensors/isbn/978-3-659-95270-8&lt;/ref&gt; and farm-management software. For example, farmers can spectroscopically measure nitrogen, phosphorus, and potassium in [[liquid manure]], which is notoriously inconsistent.&lt;ref name="economist.com"/&gt; They can then scan the ground to see where cows have already urinated and apply fertilizer to only the spots that need it. This cuts fertilizer use by up to 30%.&lt;ref name="idealog.co.nz"/&gt; Moisture sensors&lt;ref&gt;M. Sophocleous and J. K. Atkinson, “A novel thick-film electrical conductivity sensor suitable for liquid and soil conductivity measurements,” Sensors Actuators, B Chem., vol. 213, pp. 417–422, 2015. https://doi.org/10.1016/j.snb.2015.02.110&lt;/ref&gt; in the soil determine the best times to remotely water plants. The [[irrigation]] systems can be programmed to switch which side of tree trunk they water based on the plant's need and rainfall.&lt;ref name="economist.com"/&gt;
+
+Innovations are not just limited to plants—they can be used for the welfare of animals. [[Cattle]] can be outfitted with internal sensors to keep track of stomach acidity and digestive problems. External sensors track movement patterns to determine the cow's health and fitness, sense physical injuries, and identify the optimal times for breeding.&lt;ref name="economist.com"/&gt; All this data from sensors can be aggregated and analyzed to detect trends and patterns.
+
+As another example, monitoring technology can be used to make beekeeping more efficient. Honeybees are of significant economic value and provide a vital service to agriculture by pollinating a variety of crops. Monitoring of a honeybee colony's health via wireless temperature, humidity and CO2 sensors helps to improve the productivity of bees, and to read early warnings in the data that might threaten the very survival of an entire hive.&lt;ref&gt;{{Cite web|url=https://iotone.com/casestudy/precision-beekeeping-with-wireless-temperature-monitoring/c918|title=Precision beekeeping with wireless temperature monitoring {{!}} IoT ONE|website=IoT ONE|access-date=2018-04-27}}&lt;/ref&gt;
+
+=== Smartphone Applications ===
+[[File:Figure 16 Components of a Precision Agriculture System (49132514563).jpg|thumb|upright=1.4|A possible configuration of a smartphone-integrated precision agriculture system]]
+Smartphone and tablet applications are becoming increasingly popular in precision agriculture. Smartphones come with many useful applications already installed, including the camera, microphone, GPS, and accelerometer. There are also applications made dedicated to various agriculture applications such as field mapping, tracking animals, obtaining weather and crop information, and more. They are easily portable, affordable, and have a high computing power.&lt;ref&gt;Suporn Pongnumkul, Pimwadee Chaovalit, and Navaporn Surasvadi, “Applications of Smartphone-Based Sensors in Agriculture: A Systematic Review of Research,” Journal of Sensors, vol. 2015.&lt;/ref&gt;
+
+=== Machine Learning ===
+Machine learning is commonly used in conjunction with drones, robots, and internet of things devices. It allows for the input of data from each of these sources. The computer then processes this information and sends the appropriate actions back to these devices. This allows for robots to deliver the perfect amount of fertilizer or for IoT devices to provide the perfect quantity of water directly to the soil.&lt;ref&gt;{{Cite journal|last=Goap|first=Amarendra|last2=Sharma|first2=Deepak|last3=Shukla|first3=A.K.|last4=Rama Krishna|first4=C.|date=December 2018|title=An IoT based smart irrigation management system using Machine learning and open source technologies|journal=Computers and Electronics in Agriculture|volume=155|pages=41–49|doi=10.1016/j.compag.2018.09.040}}&lt;/ref&gt; The future of agriculture moves more toward a machine learning architecture every year. It has allowed for more efficient and precise farming with less human manpower.
+
+==Conferences==
+*[[InfoAg Conference]]
+*European conference on Precision Agriculture (ECPA) (biennial)
+*International Conference on Precision Agriculture (ICPA) (biennial)
+
+==See also==
+* [[Agricultural drones]]
+* [[Geostatistics]]
+* [[Integrated farming]]
+* [[Integrated pest management]]
+* [[Landsat program]]
+* [[NDVI]]
+* [[Nutrient budgeting]]
+* [[Nutrient management]]
+* [[Phytobiome]]
+* [[Precision beekeeping]]
+* [[Precision livestock farming]]
+* [[Precision viticulture]]
+* [[Satellite crop monitoring]]
+* [[SPOT (satellites)]]
+*[[Variable Rate Technology|Variable rate technology]]
+
+==Notes==
+{{reflist}}
+
+== External links ==
+{{Commons category-inline|Precision farming}}
+{{Prone to spam|date=December 2013}}
+{{Z148}}&lt;!--     {{No more links}}
+
+       Please be cautious adding more external links.
+
+Wikipedia is not a collection of links and should not be used for advertising.
+
+     Excessive or inappropriate links will be removed.
+
+ See [[Wikipedia:External links]] and [[Wikipedia:Spam]] for details.
+
+If there are already suitable links, propose additions or replacements on
+the article's talk page, or submit your link to the relevant category at
+the Open Directory Project (dmoz.org) and link there using {{Dmoz}}.
+
+--&gt;
+* [https://web.archive.org/web/20170913072301/http://www.research.ibm.com/articles/precision_agriculture.shtml Precision agriculture], IBM
+* [https://kg2.com.au/smart-farming/ smart farming], kg2.com.au
+{{emerging technologies|topics=yes|ag=yes}}
+
+[[Category:Agricultural revolutions]]
+[[Category:Agricultural soil science]]
+[[Category:Agricultural technology]]
+[[Category:Emerging technologies]]
+[[Category:Global Positioning System]]</text>
+      <sha1>ij8lawpvkl6hukamqp32xr7yhsarmhz</sha1>
+    </revision>
+  </page>
+</mediawiki>

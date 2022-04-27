@@ -1,0 +1,331 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.10/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.10/ http://www.mediawiki.org/xml/export-0.10.xsd" version="0.10" xml:lang="en">
+  <siteinfo>
+    <sitename>Wikipedia</sitename>
+    <dbname>enwiki</dbname>
+    <base>https://en.wikipedia.org/wiki/Main_Page</base>
+    <generator>MediaWiki 1.35.0-wmf.36</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Media</namespace>
+      <namespace key="-1" case="first-letter">Special</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Talk</namespace>
+      <namespace key="2" case="first-letter">User</namespace>
+      <namespace key="3" case="first-letter">User talk</namespace>
+      <namespace key="4" case="first-letter">Wikipedia</namespace>
+      <namespace key="5" case="first-letter">Wikipedia talk</namespace>
+      <namespace key="6" case="first-letter">File</namespace>
+      <namespace key="7" case="first-letter">File talk</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki talk</namespace>
+      <namespace key="10" case="first-letter">Template</namespace>
+      <namespace key="11" case="first-letter">Template talk</namespace>
+      <namespace key="12" case="first-letter">Help</namespace>
+      <namespace key="13" case="first-letter">Help talk</namespace>
+      <namespace key="14" case="first-letter">Category</namespace>
+      <namespace key="15" case="first-letter">Category talk</namespace>
+      <namespace key="100" case="first-letter">Portal</namespace>
+      <namespace key="101" case="first-letter">Portal talk</namespace>
+      <namespace key="108" case="first-letter">Book</namespace>
+      <namespace key="109" case="first-letter">Book talk</namespace>
+      <namespace key="118" case="first-letter">Draft</namespace>
+      <namespace key="119" case="first-letter">Draft talk</namespace>
+      <namespace key="446" case="first-letter">Education Program</namespace>
+      <namespace key="447" case="first-letter">Education Program talk</namespace>
+      <namespace key="710" case="first-letter">TimedText</namespace>
+      <namespace key="711" case="first-letter">TimedText talk</namespace>
+      <namespace key="828" case="first-letter">Module</namespace>
+      <namespace key="829" case="first-letter">Module talk</namespace>
+      <namespace key="2300" case="first-letter">Gadget</namespace>
+      <namespace key="2301" case="first-letter">Gadget talk</namespace>
+      <namespace key="2302" case="case-sensitive">Gadget definition</namespace>
+      <namespace key="2303" case="case-sensitive">Gadget definition talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Solar panel</title>
+    <ns>0</ns>
+    <id>3507365</id>
+    <revision>
+      <id>961447092</id>
+      <parentid>961398191</parentid>
+      <timestamp>2020-06-08T14:40:17Z</timestamp>
+      <contributor>
+        <ip>96.39.37.130</ip>
+      </contributor>
+      <comment>/* Theory and construction */</comment>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="54068" xml:space="preserve">{{Use dmy dates|date=July 2013}}
+{{for|solar thermal panels|solar thermal energy}}
+{{multiple image
+| direction = vertical
+| width = 280
+| footer = Solar PV modules (top) and two [[solar hot water panel]]s (bottom) mounted on rooftops
+| image1 = Photovoltaik Dachanlage Hannover - Schwarze Heide - 1 MW.jpg
+| alt1 = Solar PV modules mounted on a flat roof.
+| image2 = Flatplate.png
+| alt2 = Two solar hot water panels on a rooftop
+}}
+
+The term '''solar panel''' is used colloquially for a '''[[photovoltaic|photo-voltaic]] (PV) module'''.
+
+A PV module is an assembly of photo-voltaic cells mounted in a framework for installation. Photo-voltaic cells use [[sunlight]] as a source of energy and generate direct current [[electricity]]. A collection of PV modules is called a PV Panel, and a system of Panels is an Array. Arrays of a [[photovoltaic system]] supply [[solar electricity]] to electrical equipment.
+
+The most common application of solar energy collection outside agriculture is [[solar water heating]] systems.&lt;ref&gt;{{cite journal |doi=10.1002/sd.1547 |title=Comparing Solar Water Heater Popularization Policies in China, Israel and Australia: The Roles of Governments in Adopting Green Innovations |journal=Sustainable Development |volume=21 |issue=3 |pages=160–70 |year=2013 |last1=Li |first1=Wei |last2=Rubin |first2=Tzameret H |last3=Onyina |first3=Paul A }}&lt;/ref&gt;
+
+== Theory and construction ==
+{{See also|Solar cell}}
+[[File:From a solar cell to a PV system.svg|thumb|upright=1.35|From a [[solar cell]] to a [[PV system]]]]
+
+[[Photovoltaic]] modules use light energy ([[photon]]s) from the Sun to generate electricity through the [[photovoltaic effect]]. Most modules use [[Wafer (electronics)|wafer]]-based [[crystalline silicon]] cells or [[Thin film solar cell|thin-film cells]]. The structural ([[Dead and live loads|load carrying]]) member of a module can be either the top layer or the back layer. Cells must be protected from mechanical damage and moisture. Most modules are rigid, but semi-flexible ones based on thin-film cells are also available. The cells are connected electrically in series, one to another to the desired voltage, and then in parallel to increase amperage. The wattage of the module is the mathematical product of the voltage and the amperage of the module. The manufacture specifications on solar panels are obtained under standard condition which is not the real operating condition the solar panels are exposed to on the installation site. &lt;ref&gt;{{Cite journal|last1=  Kifilideen|first1= Osanyinpeju|last2=Adewole|first2=  Aderinlewo|first3=Olayide|last3= Adetunji|last4= Emmanuel|first4= Ajisegiri|title=Performance Evaluation of Mono-Crystalline Photovoltaic Panels in Funaab,Alabata, Ogun State, Nigeria Weather Condition|journal=International Journal of Innovations in Engineering Research and Technology|volume=5|issue=2|pages=8-20|year=2018}}&lt;/ref&gt;
+
+A PV [[junction box]] is attached to the back of the solar panel and functions as its output interface. External connections for most photovoltaic modules use [[MC4 connector]]s to facilitate easy weatherproof connections to the rest of the system. A USB power interface can also be used.
+
+Module electrical connections are made [[Series circuits|in series]] to achieve a desired output voltage or [[Parallel circuits|in parallel]] to provide a desired current capability (amperes) of the solar panel or the PV system. The conducting wires that take the current off the modules are sized according to the ampacity and may contain silver, copper or other non-magnetic conductive transition metals. Bypass [[diode]]s may be incorporated or used externally, in case of partial module shading, to maximize the output of module sections still illuminated.
+
+Some special solar PV modules include [[Solar concentrator|concentrators]] in which light is focused by [[lens (optics)|lenses]] or mirrors onto smaller cells. This enables the use of cells with a high cost per unit area (such as [[gallium arsenide]]) in a cost-effective way. 
+
+Solar panels also use metal frames consisting of racking components, brackets, reflector shapes, and troughs to better support the panel structure.&lt;ref&gt;{{Cite news|url=https://www.americanindust.com/solar-panel-metal-stamping|title=Metal Stamped Parts for Solar Paneling {{!}} American Industrial|work=American Industrial|access-date=2018-03-14|language=en-US}}&lt;/ref&gt;
+
+== History ==
+{{See also|Solar cell#History|Timeline of solar cells}}
+
+In 1839, the ability of some materials to create an electrical charge from light exposure was first observed by [[Alexandre-Edmond Becquerel]].&lt;ref name=":0" /&gt; Though the premiere solar panels were too inefficient for even simple electric devices they were used as an instrument to measure light.&lt;ref&gt;{{cite web|url=https://www.energymatters.com.au/panels-modules/ |title= The history of the invention of the solar panel summary. |accessdate=25 January 2019 |website=Engergymatters.com|first1=M |last1=Christian|publisher=Energymatters.com}}&lt;/ref&gt; The observation by Becquerel was not replicated again until 1873, when [[Willoughby Smith]] discovered that the charge could be caused by light hitting selenium. After this discovery, [[William Grylls Adams]] and Richard Evans Day published "The action of light on selenium" in 1876, describing the experiment they used to replicate Smith's results.&lt;ref name=":0"&gt;{{cite journal |title=April 25, 1954: Bell Labs Demonstrates the First Practical Silicon Solar Cell |journal=APS News |volume=18 |issue=4 |date=April 2009 |publisher=American Physical Society |url=http://www.aps.org/publications/apsnews/200904/physicshistory.cfm }}&lt;/ref&gt;&lt;ref&gt;{{cite journal |last1=Adams |first1=William Grylls |last2=Day |first2=R. E. |title=IX. The action of light on selenium |journal=Philosophical Transactions of the Royal Society of London |date=1 January 1877 |volume=167 |pages=313–316 |doi=10.1098/rstl.1877.0009 |language=en |issn=0261-0523|doi-access=free }}&lt;/ref&gt;
+
+In 1881, [[Charles Fritts]] created the first commercial solar panel, which was reported by Fritts as "continuous, constant and of considerable force not only by exposure to sunlight but also to dim, diffused daylight."&lt;ref&gt;{{cite news |last1=Meyers |first1=Glenn |title=Photovoltaic Dreaming 1875--1905: First Attempts At Commercializing PV |url=https://cleantechnica.com/2014/12/31/photovoltaic-dreaming-first-attempts-commercializing-pv/ |accessdate=7 September 2018 |work=cleantechnica.com |agency=CleanTechnica |publisher=Sustainable Enterprises Media Inc. |date=31 December 2014}}&lt;/ref&gt; However, these solar panels were very inefficient, especially compared to coal-fired power plants. In 1939, [[Russell Ohl]] created the solar cell design that is used in many modern solar panels. He patented his design in 1941.&lt;ref&gt;{{cite web |last1=Ohl |first1=Russell |title=Light-sensitive electric device |url=https://patents.google.com/patent/US2402662 |website=Google |accessdate=7 September 2018 |date=27 May 1941}}&lt;/ref&gt; In 1954, this design was first used by [[Bell Labs]] to create the first commercially viable [[silicon]] solar cell.&lt;ref name=":0" /&gt; In 1957, [[Mohamed M. Atalla]] developed the process of silicon [[surface passivation]] by [[thermal oxidation]] at Bell Labs.&lt;ref&gt;{{cite book |last1=Black |first1=Lachlan E. |title=New Perspectives on Surface Passivation: Understanding the Si-Al2O3 Interface |date=2016 |publisher=Springer |isbn=9783319325217 |url=https://core.ac.uk/download/pdf/156698511.pdf |page=13}}&lt;/ref&gt;&lt;ref name="Lojek"&gt;{{cite book |last1=Lojek |first1=Bo |title=History of Semiconductor Engineering |url=https://archive.org/details/historysemicondu00loje_697 |url-access=limited |date=2007 |publisher=[[Springer Science &amp; Business Media]] |isbn=9783540342588 |pages=[https://archive.org/details/historysemicondu00loje_697/page/n128 120]&amp; 321–323}}&lt;/ref&gt; The surface passivation process has since been critical to [[solar cell efficiency]].&lt;ref&gt;{{cite book |last1=Black |first1=Lachlan E. |title=New Perspectives on Surface Passivation: Understanding the Si-Al2O3 Interface |date=2016 |publisher=Springer |isbn=9783319325217 |url=https://core.ac.uk/download/pdf/156698511.pdf}}&lt;/ref&gt;
+
+== Efficiencies ==
+{{See also|Solar cell efficiency}}
+[[File:modulePVeff(rev191101)b.png|thumb|upright=2.75|Reported timeline of champion solar module energy conversion efficiencies since 1988 ([[National Renewable Energy Laboratory]])]]
+
+Each module is rated by its [[Direct current|DC]] output power under standard test conditions (STC). Power typically ranges from 100 to 365 [[Watt|Watts (W)]]. The [[Solar cell efficiency|efficiency]] of a module determines the area of a module given the same rated output{{snd}} an 8% efficient 230 W module will have twice the area of a 16% efficient 230 W module. Some commercially available solar modules exceed 24% efficiency.&lt;ref&gt;{{cite web |url=https://mashable.com/2015/10/02/elon-musk-solarcity-new-solar-panel/#Y3BehZNL7iqr |title=Elon Musk and SolarCity unveil 'world's most efficient' solar panel |last=Ulanoff |first=Lance |date=2 October 2015 |website=[[Mashable]] |publisher= |access-date=9 September 2018 |quote=}}&lt;/ref&gt; &lt;ref&gt;{{cite web |url=https://www.sciencedaily.com/releases/2016/05/160517121811.htm|title=Milestone in solar cell efficiency achieved |last=da Silva |first=Wilson |date= 17 May 2016|website=[[ScienceDaily]] |publisher= |access-date=9 September 2018 |quote=A new solar cell configuration developed by engineers at the University of New South Wales has pushed sunlight-to-electricity conversion efficiency to 34.5% -- establishing a new world record for unfocused sunlight and nudging closer to the theoretical limits for such a device.}}&lt;/ref&gt;
+
+Depending on construction, photovoltaic modules can produce electricity from a range of [[frequency|frequencies of light]], but usually cannot cover the entire solar range (specifically, [[ultraviolet]], [[infrared]] and low or diffused light). Hence, much of the incident [[sunlight]] energy is wasted by solar modules, and they can give far higher efficiencies if illuminated with [[monochromatic]] light. Therefore, another design concept is to split the light into six to eight different wavelength ranges that will produce a different color of light, and direct the beams onto different cells tuned to those ranges.&lt;ref&gt;{{Cite news|url=https://www.technologyreview.com/s/513671/ultra-efficient-solar-power/|title=Managing Light To Increase Solar Efficiency|last=Orcutt|first=Mike|work=MIT Technology Review|access-date=2018-03-14|language=en}}&lt;/ref&gt; This has been projected to be capable of raising efficiency by 50%. 
+
+A single solar module can produce only a limited amount of power; most installations contain multiple modules adding voltages or current to the wiring and PV system. A photovoltaic system typically includes an array of photovoltaic modules, an [[Power inverter|inverter]], a [[battery (electricity)|battery pack]] for energy storage, charge controller, interconnection wiring, circuit breakers, fuses, disconnect switches, voltage meters, and optionally a [[solar tracker|solar tracking]] mechanism. Equipment is carefully selected to optimize output, energy storage, reduce power loss during power transmission, and conversion from direct current to alternating current. 
+
+Scientists from Spectrolab, a subsidiary of [[Boeing]], have reported development of [[multi-junction solar cell]]s with an efficiency of more than 40%, a new world record for solar photovoltaic cells.&lt;ref&gt;KING, R.R., et al., Appl. Phys. Letters 90 (2007) 183516.&lt;/ref&gt; The Spectrolab scientists also predict that concentrator solar cells could achieve efficiencies of more than 45% or even 50% in the future, with theoretical efficiencies being about 58% in cells with more than three junctions.
+
+Currently, the best achieved sunlight conversion rate (solar module efficiency) is around 21.5% in new commercial products&lt;ref&gt;{{cite web |title=SunPower e20 Module |date=25 July 2014|url=http://us.sunpower.com/homes/products-services/solar-panels/e-series/}}&lt;/ref&gt; typically lower than the efficiencies of their cells in isolation. The most efficient mass-produced solar modules{{disputed inline|date=January 2013}} have power density values of up to 175 W/m&lt;sup&gt;2&lt;/sup&gt; (16.22 W/ft&lt;sup&gt;2&lt;/sup&gt;).&lt;ref&gt;{{cite web |title=HIT® Photovoltaic Module |url=http://www.panasonic.com/business/pesna/includes/pdf/eco-construction-solution/HIT_Power_220A_Datasheet.pdf |publisher=Sanyo / Panasonic|accessdate=25 November 2016}}&lt;/ref&gt; 
+
+Research by [[Imperial College, London]] has shown that solar panel efficiency is improved by studding the light-receiving semiconductor surface with [[aluminum]] nanocylinders, similar to the [[ridges]] on [[Lego blocks]]. The [[Light scattering|scattered]] [[light]] then travels along a longer path in the semiconductor, absorbing more photons to be converted into current. Although these nanocylinders have been used previously (aluminum was preceded by [[gold]] and [[silver]]), the light scattering occurred in the near-infrared region and visible light was absorbed strongly. Aluminum was found to have absorbed the ultraviolet part of the spectrum, while the visible and near-infrared parts of the spectrum were found to be scattered by the aluminum surface. This, the research argued, could bring down the cost significantly and improve the efficiency as aluminum is more abundant and less costly than gold and silver. The research also noted that the increase in current makes thinner film solar panels technically feasible without "compromising power conversion efficiencies, thus reducing material consumption".&lt;ref&gt;{{cite news |url=http://www.thehindu.com/sci-tech/science/improving-the-efficiency-of-solar-panels/article5265330.ece |title=Improving the efficiency of solar panels |publisher=The Hindu |date=24 October 2013 |accessdate=24 October 2013}}&lt;/ref&gt;
+* Solar panel efficiency can be calculated by MPP (maximum power point) value of solar panels.
+* [[Solar inverter]]s convert the DC power to [[Alternating current|AC]] power by performing [[maximum power point tracking|the process of maximum power point tracking]] (MPPT): solar inverter samples the output Power (I-V curve) from the solar cell and applies the proper resistance (load) to solar cells to obtain maximum power.
+* MPP (Maximum power point) of the solar panel consists of MPP voltage (V mpp) and MPP current (I mpp): it is a capacity of the solar panel and the higher value can make higher MPP.
+
+Micro-inverted solar panels are wired in [[Series and parallel circuits#Parallel circuits|parallel]], which produces more output than normal panels wired in [[Series and parallel circuits#Series circuits|series]], with the output of the series determined by the lowest performing panel. This is known as the "Christmas light effect". Micro-inverters work independently to enable each panel to contribute its maximum possible output for a given amount of sunlight.&lt;ref&gt;{{cite web |title=Micro Inverters for Residential Solar Arrays |url=https://www.expertsure.com/uk/home/micro-inverters-for-residential-solar-arrays/ |accessdate=2017-05-10}}&lt;/ref&gt;
+
+== Technology ==
+{{Main article|Crystalline silicon|Thin film solar cell}}
+[[File:Global Market Share by PV Technology from 1990 to 2013.svg|thumb|upright=1.25|Market-share of PV technologies since 1990]]
+
+Most solar modules are currently produced from crystalline silicon (c-Si) [[solar cells]] made of [[polycrystalline silicon|multicrystalline]] and [[monocrystalline silicon]]. In 2013, crystalline silicon accounted for more than 90 percent of worldwide PV production, while the rest of the overall market is made up of [[thin film solar cells|thin-film technologies]] using [[CdTe PV|cadmium telluride]], [[CIGS panel|CIGS]] and [[amorphous silicon]]&lt;ref&gt;[http://www.ise.fraunhofer.de/en/downloads-englisch/pdf-files-englisch/photovoltaics-report-slides.pdf Photovoltaics Report, Fraunhofer ISE, 28 July 2014], pages 18,19&lt;/ref&gt; 
+
+Emerging, [[Thin film solar cell#Emerging photovoltaics|third generation]] solar technologies use advanced thin-film cells. They produce a relatively high-efficiency conversion for the low cost compared to other solar technologies. Also, high-cost, high-efficiency, and close-packed rectangular [[multi-junction solar cell|multi-junction (MJ) cell]]s are preferably used in [[solar panels on spacecraft]], as they offer the highest ratio of generated power per kilogram lifted into space. MJ-cells are [[compound semiconductor]]s and made of [[gallium arsenide]] (GaAs) and other semiconductor materials. Another emerging PV technology using MJ-cells is [[concentrator photovoltaics]] ( CPV ).
+
+=== Thin film ===
+In rigid [[thin-film module]]s, the cell and the module are manufactured in the same production line. The cell is created on a glass [[Substrate (materials science)|substrate]] or superstrate, and the electrical connections are created ''in situ'', a so-called "monolithic integration". The substrate or superstrate is laminated with an encapsulant to a front or back [[wikt:sheet|sheet]], usually another sheet of glass. The main cell technologies in this category are [[Cadmium telluride|CdTe]], or [[amorphous silicon|a-Si]], or [[micromorphous silicon|a-Si+uc-Si tandem]], or [[Copper indium gallium selenide|CIGS]] (or variant). Amorphous silicon has a sunlight conversion rate of 6–12%
+
+Flexible thin film cells and modules are created on the same production line by depositing the [[photoactive layer]] and other necessary layers on a [[flexible substrate]]. If the substrate is an [[insulator (electrical)|insulator]] (e.g. [[polyester]] or [[polyimide]] film) then [[Die (integrated circuit)|monolithic]] integration can be used. If it is a conductor then another technique for electrical connection must be used. The cells are assembled into modules by [[laminating]] them to a transparent colourless [[fluoropolymer]] on the front side (typically [[ETFE]] or [[Fluorinated ethylene propylene|FEP]]) and a polymer suitable for bonding to the final substrate on the other side.
+
+== Smart solar modules ==
+{{main article|Smart module|Solar micro-inverter}}
+
+Several companies have begun embedding electronics into PV modules. This enables performing MPPT for each module individually, and the measurement of performance data for monitoring and fault detection at module level. Some of these solutions make use of [[power optimizer]]s, a DC-to-DC converter technology developed to maximize the power harvest from solar photovoltaic systems. As of about 2010, such electronics can also compensate for shading effects, wherein a shadow falling across a section of a module causes the electrical output of one or more strings of cells in the module to fall to zero, but not having the output of the entire module fall to zero.
+
+== Performance and degradation ==
+{{original research|section|date=August 2013}}
+[[File:Actual output in volts, amps, and wattage from a 100 Watt Solar module in August.jpg|thumb|upright=1.5]]
+
+Module performance is generally rated under standard test conditions (STC): [[irradiance]] of 1,000 [[W/m2|W/m&lt;sup&gt;2&lt;/sup&gt;]], solar [[spectrum]] of [[Airmass|AM]] 1.5 and module temperature at 25°C. The actual voltage and current output of the module changes as lighting, temperature and load conditions change, so there is never one specific voltage, current, or wattage at which the module operates. Performance varies depending on the time of day, amount of solar insolation, direction and tilt of modules, cloud cover, shading, state of charge, temperature, geographic location, and day of the year. The fluctuations in voltage and current can be logged with a multimeter or data logger.
+
+For optimum performance, a solar panel needs to be made of similar modules oriented in the same direction perpendicular to direct sunlight. The path of the sun varies by latitude and day of the year and can be studied using a sundial or a sun chart and tracked using a solar tracker. Differences in voltage or current of modules may affect the overall performance of a panel. Bypass diodes are used to circumvent broken or shaded panels to optimize output. 
+
+Electrical characteristics include nominal power (P&lt;sub&gt;MAX&lt;/sub&gt;, measured in [[watt|W]]), [[open circuit voltage]] (V&lt;sub&gt;OC&lt;/sub&gt;), [[short circuit current]] (I&lt;sub&gt;SC&lt;/sub&gt;, measured in [[ampere]]s), maximum power voltage (V&lt;sub&gt;MPP&lt;/sub&gt;), maximum power current (I&lt;sub&gt;MPP&lt;/sub&gt;), peak power, ([[watt-peak]], W&lt;sub&gt;p&lt;/sub&gt;), and module efficiency (%).
+
+Nominal voltage&lt;ref&gt;https://www.altestore.com/blog/2016/04/how-do-i-read-specifications-of-my-solar-panel/#.XsVGYIjYqEs&lt;/ref&gt; is a category to let users know if two pieces of equipment will work together. For example, a 14v solar panel is compatible with a 14v battery bank.
+
+Open circuit voltage or V&lt;sub&gt;OC&lt;/sub&gt; is the maximum voltage that the module can produce when not connected to an electrical circuit or system. V&lt;sub&gt;OC&lt;/sub&gt; can be measured with a [[voltmeter]] directly on an illuminated module's terminals or on its disconnected cable.
+
+The peak power rating, W&lt;sub&gt;p&lt;/sub&gt;, is the maximum output under standard test conditions (not the maximum possible output). Typical modules, which could measure approximately {{convert|1|x|2|m|ft|sigfig=1}}, will be rated from as low as 75 W to as high as 350 W, depending on their efficiency. At the time of testing, the test modules are binned according to their test results, and a typical manufacturer might rate their modules in 5 W increments, and either rate them at +/- 3%, +/-5%, +3/-0% or +5/-0%.&lt;ref&gt;{{cite web |url=http://www.phoenixsolar-group.com/dms/produkte/module/pdf/en/FirstSolar_PD-5-401-03-Global-Series-3-Datasheet/PD-5-401-03%20Global%20Series%203%20Datasheet.pdf  |title=First Solar – FS-377 / FS-380 / FS-382 / FS-385 Datasheet |date= |accessdate=2012-06-04}}&lt;/ref&gt;&lt;ref&gt;{{cite web |url=http://www.trinasolar.com/images/PDF/datasheets/us/TSM-PA14_US.pdf |title=TSM PC/PM14 Datasheet |accessdate=2012-06-04 |archive-url=https://web.archive.org/web/20131029200512/http://www.trinasolar.com/images/PDF/datasheets/us/TSM-PA14_US.pdf |archive-date=29 October 2013 |url-status=dead |df=dmy-all }}&lt;/ref&gt;&lt;ref&gt;{{cite web |url=https://www.lubisolar.com/wp-content/uploads/2018/03/Poly-260-275W.pdf |title=LBS Poly 260 275 Data sheet |date= |accessdate=2018-01-09}}&lt;/ref&gt;
+
+The ability of solar modules to withstand damage by rain, [[hail]], heavy snow load, and cycles of heat and cold varies by manufacturer, although most solar panels on the U.S. market are UL listed, meaning they have gone through testing to withstand hail.&lt;ref&gt;{{Cite news|url=http://energyinformative.org/solar-panels-weather/|title=Are Solar Panels Affected by Weather? - Energy Informative|work=Energy Informative|access-date=2018-03-14|language=en-US}}&lt;/ref&gt; Many [[crystalline silicon]] module manufacturers offer a [[Warranty#Defects_In_Materials_and_Workmanship|limited warranty]] that guarantees electrical production for 10 years at 90% of rated power output and 25 years at 80%.&lt;ref&gt;{{cite web |url=http://www.cti-solar.com/userfiles/file/brochlet%20CTI-SOLAR%20vers%20EN.pdf |title=CTI Solar sales brochure |work=cti-solar.com |accessdate=3 September 2010}}&lt;/ref&gt; 
+
+[[Potential induced degradation]] (also called PID) is a potential induced performance degradation in crystalline photovoltaic modules, caused by so-called stray currents.&lt;ref&gt;{{Cite web|url=https://www.solarplaza.com/channels/asset-management/11674/potential-induced-degradation-combatting-phantom-menace/|title=Solarplaza Potential Induced Degradation: Combatting a Phantom Menace|website=www.solarplaza.com|language=en|access-date=2017-09-04}}&lt;/ref&gt; This effect may cause power loss of up to 30%.&lt;ref&gt;{{Cite web|url=https://eicero.com/what-is-pid|title=What is PID? — eicero|last=(www.inspire.cz)|first=INSPIRE CZ s.r.o.|website=eicero.com|language=en|access-date=2017-09-04}}&lt;/ref&gt;
+
+The largest challenge for [[Photovoltaics|photovoltaic]] technology is said to be the purchase price per watt of electricity produced. New materials and manufacturing techniques continue to improve the price to power performance. The problem resides in the enormous activation energy that must be overcome for a photon to excite an electron for harvesting purposes. Advancements in photovoltaic technologies have brought about the process of "doping" the silicon substrate to lower the activation energy thereby making the panel more efficient in converting photons to retrievable electrons.&lt;ref&gt;{{cite web |title=How Solar Cells Work |url=http://science.howstuffworks.com/environmental/energy/solar-cell2.htm |website=HowStuffWorks |date=April 2000 |accessdate=2015-12-09}}&lt;/ref&gt; 
+
+Chemicals such as [[boron]] (p-type) are applied into the semiconductor crystal in order to create donor and acceptor energy levels substantially closer to the valence and conductor bands.&lt;ref&gt;{{cite web |title=Bonding in Metals and Semiconductors |url=http://2012books.lardbucket.org/books/principles-of-general-chemistry-v1.0/s16-06-bonding-in-metals-and-semicond.html |website=2012books.lardbucket.org|accessdate=2015-12-09}}&lt;/ref&gt; In doing so, the addition of boron impurity allows the activation energy to decrease twenty-fold from 1.12 eV to 0.05 eV. Since the potential difference (E&lt;sub&gt;B&lt;/sub&gt;) is so low, the Boron is able to thermally ionize at room temperatures. This allows for free energy carriers in the conduction and valence bands thereby allowing greater conversion of photons to electrons.
+
+== Maintenance ==
+Solar panel conversion efficiency, typically in the 20% range, is reduced by dust, grime, pollen, and other particulates that accumulate on the solar panel. "A dirty solar panel can reduce its power capabilities by up to 30% in high dust/pollen or desert areas", says Seamus Curran, associate professor of physics at the University of Houston and director of the Institute for NanoEnergy, which specializes in the design, engineering, and assembly of nanostructures.&lt;ref&gt;{{cite web |url=https://www.asme.org/engineering-topics/articles/energy/self-cleaning-solar-panels-maximize-efficiency |title=Self-Cleaning Solar Panels Maximize Efficiency |date=October 2012 |accessdate=15 September 2014 |website=The American Society of Mechanical Engineers |publisher=ASME |last=Crawford |first=Mike}}&lt;/ref&gt;
+
+Paying to have solar panels cleaned is often not a good investment; researchers found panels that had not been cleaned, or rained on, for 145 days during a summer drought in California, lost only 7.4% of their efficiency. Overall, for a typical residential solar system of 5 kW, washing panels halfway through the summer would translate into a mere $20 gain in electricity production until the summer drought ends—in about 2 ½ months. For larger commercial rooftop systems, the financial losses are bigger but still rarely enough to warrant the cost of washing the panels. On average, panels lost a little less than 0.05% of their overall efficiency per day.&lt;ref&gt;{{cite web |url=http://ucsdnews.ucsd.edu/pressrelease/cleaning_solar_panels_often_not_worth_the_cost_engineers_at_uc_san_diego_fi |title=Cleaning Solar Panels Often Not Worth the Cost, Engineers at UC San Diego Find |date=August 2013 |accessdate=31 May 2015 |website=UC San Diego News Center |publisher=UC San Diego News Center |last=Patringenaru |first=Ioana}}&lt;/ref&gt; There may also be [[occupational hazards of solar panel installation]] and maintenance.
+
+== Recycling ==
+Most parts of a solar module can be recycled including up to 95% of certain semiconductor materials or the glass as well as large amounts of ferrous and non-ferrous metals.&lt;ref&gt;Lisa Krueger {{cite web |title=Overview of First Solar's Module Collection and Recycling Program |publisher=[[Brookhaven National Laboratory]] p. 23 |url=http://www.bnl.gov/pv/files/PRS_Agenda/2_Krueger_IEEE-Presentation-Final.pdf |accessdate=2017-03-17}}&lt;/ref&gt; Some private companies and non-profit organizations are currently engaged in take-back and recycling operations for end-of-life modules.&lt;ref name= "Wambach"&gt; {{cite web|title=A Voluntary Take Back Scheme and Industrial Recycling of Photovoltaic Modules |last = Wambach |first = K |publisher=[[Brookhaven National Laboratory]] p. 37 |url=http://www.bnl.gov/pv/files/PRS_Agenda/3_4_PV-Module-RecyclingWambach.pdf |accessdate=2017-03-17}}&lt;/ref&gt;
+
+Recycling possibilities depend on the kind of technology used in the modules:
+* Silicon based modules: aluminum frames and junction boxes are dismantled manually at the beginning of the process. The module is then crushed in a mill and the different fractions are separated - glass, plastics and metals.&lt;ref&gt;{{Cite news|url=https://www.betterworldsolutions.eu/solar-panels-can-be-recycled/|title=Solar Panels can be recycled - BetterWorldSolutions - The Netherlands|last=Cynthia|first=Latunussa|date=2015-10-09|work=BetterWorldSolutions - The Netherlands|access-date=2018-04-29|language=en-US}}&lt;/ref&gt; It is possible to recover more than 80% of the incoming weight.&lt;ref&gt;{{cite journal |last1=Latunussa |first1=Cynthia E.L. |last2=Ardente |first2=Fulvio |last3=Blengini |first3=Gian Andrea |last4=Mancini |first4=Lucia |title=Life Cycle Assessment of an innovative recycling process for crystalline silicon photovoltaic panels |journal=Solar Energy Materials and Solar Cells |volume=156 |year=2016 |pages=101–11 |doi=10.1016/j.solmat.2016.03.020 |doi-access=free }}&lt;/ref&gt; This process can be performed by flat glass recyclers since morphology and composition of a PV module is similar to those flat glasses used in the building and automotive industry. The recovered glass, for example, is readily accepted by the glass foam and glass insulation industry. 
+* Non-silicon based modules: they require specific recycling technologies such as the use of chemical baths in order to separate the different semiconductor materials.&lt;ref&gt;Wambach. 1999. p. 17&lt;/ref&gt; For [[cadmium telluride]] modules, the recycling process begins by crushing the module and subsequently separating the different fractions. This recycling process is designed to recover up to 90% of the glass and 95% of the semiconductor materials contained.&lt;ref&gt;Krueger. 1999. p. 23&lt;/ref&gt; Some commercial-scale recycling facilities have been created in recent years by private companies.&lt;ref&gt;Wambach. 1999. p. 23&lt;/ref&gt; For aluminium flat plate reflector: the trendiness of the reflectors has been brought up by fabricating them using a thin layer (around 0.016 mm to 0.024 mm) of Aluminum coating present inside the non-recycled plastic food packages.&lt;ref&gt;{{Cite book|chapter=Enhanced radiation trapping technique using low-cost aluminium flat plate reflector a performance analysis on solar PV modules|last=Sonu|first=Mishra|title=2017 2nd International Conference for Convergence in Technology (I2CT)|pages=416–420|date=December 21, 2017|doi=10.1109/I2CT.2017.8226163|isbn=978-1-5090-4307-1}}&lt;/ref&gt;
+
+Since 2010, there is an annual European conference bringing together manufacturers, recyclers and researchers to look at the future of PV module recycling.&lt;ref&gt;{{cite web |title=First Breakthrough In Solar Photovoltaic Module Recycling, Experts Say |publisher=[[European Photovoltaic Industry Association]] |url=http://www.unendlich-viel-energie.de/en/details/browse/11/article/253/first-breakthrough-in-solar-photovoltaic-module-recycling-experts-say.html |accessdate=January 1, 2011 |url-status=dead |archiveurl=https://web.archive.org/web/20130512230542/http://www.unendlich-viel-energie.de/en/details/browse/11/article/253/first-breakthrough-in-solar-photovoltaic-module-recycling-experts-say.html |archivedate=12 May 2013 |df=dmy-all }}&lt;/ref&gt;&lt;ref&gt;{{cite web |title=3rd International Conference on PV Module Recycling |publisher=PV CYCLE |url=http://www.pvcycle.org/3rd-international-conference-on-pv-module-recycling/ |accessdate=October 1, 2012 |url-status=dead |archiveurl=https://web.archive.org/web/20121210042052/http://www.pvcycle.org/3rd-international-conference-on-pv-module-recycling/ |archivedate=10 December 2012 |df=dmy-all }}&lt;/ref&gt;
+
+== Production ==
+{{see also|List of photovoltaics companies}}The production of PV systems has followed a classic [[Experience curve effects|learning curve]] effect, with significant cost reduction occurring alongside large rises in efficiency and production output.&lt;ref&gt;{{Cite news|url=https://www.bbc.com/news/business-49344595|title=Can solar power shake up the energy market?|last=Harford|first=Tim|date=2019-09-11|access-date=2019-10-24|language=en-GB}}&lt;/ref&gt;   
+{| class="wikitable sortable floatright" style="font-size: 0.9em; text-align: right; margin-left: 12px;"
+|-
+! Top Module Producer !! Shipments in 2014 ([[Megawatt|MW]])
+|-
+| align="left"|[[Yingli]] || 3,200
+|-
+| align="left"|[[Trina Solar]] || 2,580
+|-
+| align="left"|[[Sharp Solar]] || 2,100
+|-
+| align="left"|[[Canadian Solar]] || 1,894
+|-
+| align="left"|[[Jinko Solar]] || 1,765
+|-
+| align="left"|ReneSola || 1,728
+|-
+| align="left"|[[First Solar]] || 1,600
+|-
+| align="left"|[[Hanwha SolarOne]] || 1,280
+|-
+| align="left"|[[Kyocera]] || 1,200
+|-
+| align="left"|[[JA Solar]] || 1,173
+|}
+
+In 2010, 15.9 [[GigaWatt|GW]] of solar PV system installations were completed, with solar PV pricing survey and market research company PVinsights reporting growth of 117.8% in solar PV installation on a year-on-year basis.
+
+With over 100% year-on-year growth in PV system installation, PV module makers dramatically increased their shipments of solar modules in 2010. They actively expanded their capacity and turned themselves into gigawatt [[GigaWatt|GW]] players.&lt;ref&gt;{{cite  web |url=https://www.helicalpower.com |title=Solar Power Plant Report}}&lt;/ref&gt; According to PVinsights, five of the top ten PV module companies in 2010 are GW players. Suntech, First Solar, Sharp, Yingli and Trina Solar are GW producers now, and most of them doubled their shipments in 2010.&lt;ref name="pvmarketresearch1"&gt;{{cite web|url=http://pvinsights.com/Report/ReportPMM04A.php|title=PVinsights announces worldwide 2010 top 10 ranking of PV module makers |publisher=www.pvinsights.com |date= |accessdate=2011-05-06}}&lt;/ref&gt;
+
+The basis of producing solar panels revolves around the use of silicon cells.&lt;ref&gt;{{cite web|url=http://www.solarpowerworldonline.com/2013/05/what-are-solar-panels-made-of/|title=What are solar panels made of?|website=www.solarpowerworldonline.com|date=2 May 2013}}&lt;/ref&gt; These silicon cells are typically 10-20% efficient&lt;ref&gt;{{cite web|url=http://www.engineeringchallenges.org/cms/8996/9082.aspx|title=Grand Challenges Make Solar Energy Economical|website=www.engineeringchallenges.org}}&lt;/ref&gt;  at converting sunlight into electricity, with newer production models now exceeding 22%.&lt;ref&gt;{{Cite web |url=http://www.solarcity.com/newsroom/press/solarcity-unveils-world%E2%80%99s-most-efficient-rooftop-solar-panel-be-made-america |title=SolarCity Press Release |date=2015-10-02 |access-date=2017-04-20}}&lt;/ref&gt;
+In order for solar panels to become more efficient, researchers across the world have been trying to develop new technologies to make solar panels more effective at turning sunlight into energy.&lt;ref&gt;{{cite web |url=https://www.asme.org/engineering-topics/articles/renewable-energy/making-solar-panels-more-efficient |title=Making Solar Panels More Efficient |last=Giges |first=Nancy |date= April 2014|website=ASME.org |publisher= |access-date= 9 September 2018|quote=}}&lt;/ref&gt;
+
+In 2018, the world's top four solar module producers in terms of shipped capacity during the calendar year of 2018 were Jinko Solar, [[JA Solar Holdings|JA Solar]],  [[Trina Solar]], [[Longi solar|Longi Solar]], and [[Canadian Solar]].&lt;ref&gt;{{Cite web|url=https://www.pv-tech.org/editors-blog/top-10-solar-module-suppliers-in-2018|title=Top 10 solar module suppliers in 2018|website=PV Tech|language=en|access-date=2019-10-24}}&lt;/ref&gt;
+{{clear}}
+
+== Price ==
+{{See also|Grid parity}}
+[[File:Swansons-law.svg|thumb|upright=1.2|[[Swanson's law]] states that with every doubling of production of panels, there has been a 20 percent reduction in the cost of panels.&lt;ref&gt;{{cite web |url=http://www.greentechmedia.com/articles/read/Is-there-really-a-Swansons-Law |title=Swanson's Law and Making US Solar Scale Like Germany |work=Greentech Media |date=2014-11-24}}&lt;/ref&gt;]]
+
+The price of solar electrical power has continued to fall so that in many countries it has become cheaper than ordinary [[fossil fuel]] electricity from [[Mains electricity|the electricity grid]] since 2012, a phenomenon known as [[grid parity]].&lt;ref name=UN-Energy-2012/&gt;
+
+Average pricing information divides in three pricing categories: those buying small quantities (modules of all sizes in the kilowatt range annually), mid-range buyers (typically up to 10 [[MWp]] annually), and large quantity buyers (self-explanatory—and with access to the lowest prices). Over the long term there is clearly a systematic reduction in the price of cells and modules. For example, in 2012 it was estimated that the quantity cost per watt was about US$0.60, which was 250 times lower than the cost in 1970 of US$150.&lt;ref&gt;{{cite web |author=ENF Ltd. |url=http://www.enfsolar.com/news/Small-Chinese-Solar-Manufacturers-Decimated-in-2012 |title=Small Chinese Solar Manufacturers Decimated in 2012 &amp;#124; Solar PV Business News &amp;#124; ENF Company Directory |publisher=Enfsolar.com |date=2013-01-08 |accessdate=2013-08-29}}&lt;/ref&gt;&lt;ref&gt;{{cite book |url=http://www.nap.edu/catalog.php?record_id=5954 |title=Harnessing Light |publisher=National Research Council |year=1997 |page=162|doi=10.17226/5954 |isbn=978-0-309-05991-6 }}&lt;/ref&gt; A 2015 study shows price/kWh dropping by 10% per year since 1980, and predicts that solar could contribute 20% of total electricity consumption by 2030, whereas the [[International Energy Agency]] predicts 16% by 2050.&lt;ref&gt;{{cite journal |doi=10.1016/j.respol.2015.11.001 |title=How predictable is technological progress? |journal=Research Policy |volume=45 |issue=3 |pages=647–65 |year=2016 |last1=Farmer |first1=J. Doyne |last2=Lafond |first2=François |arxiv=1502.05274 }}&lt;/ref&gt;
+
+Real-world energy production costs depend a great deal on local weather conditions. In a cloudy country such as the United Kingdom, the cost per produced kWh is higher than in sunnier countries like Spain.
+[[File:Energy pricing.png|thumb|upright=1.35|Short term normalized cost comparisons demonstrating value of various electric generation technologies&lt;ref&gt;MacDonald, A. E., Clack, C. T., Alexander, A., Dunbar, A., Wilczak, J., &amp; Xie, Y. (2016). Future cost-competitive electricity systems and their impact on US CO 2 emissions. ''Nature Climate Change'', ''6''(5), 526.&lt;/ref&gt;|alt=]]
+[[File:Energy pricing longterm.png|thumb|upright=1.35|Long term normalized cost comparisons demonstrating value of various electric generation technologies&lt;ref&gt;MacDonald, A. E., Clack, C. T., Alexander, A., Dunbar, A., Wilczak, J., &amp; Xie, Y. (2016). Future cost-competitive electricity systems and their impact on US CO 2 emissions. ''Nature Climate Change'', ''6''(5), 526.&lt;/ref&gt; |alt=]]
+
+According to U.S. Energy Information Administration, prices per megawatt-hour are expected to converge and reach parity with conventional energy production sources during the period 2020–2030. According to EIA, the parity can be achieved without the need for subsidy support and can be accomplished through organic market mechanisms, namely production price reduction and technological advancement. 
+
+Following to [[Rocky Mountain Institute|RMI]], [[balance of system|Balance-of-System]] (BoS) elements, this is, non-module cost of non-[[microinverter]] solar modules (as wiring, converters, racking systems and various components) make up about half of the total costs of installations.
+
+For merchant solar power stations, where the electricity is being sold into the electricity transmission network, the cost of [[solar energy]] will need to match the wholesale electricity price. This point is sometimes called 'wholesale grid parity' or 'busbar parity'.&lt;ref name=UN-Energy-2012&gt;{{cite report |url=http://www.un-energy.org/stories/2498-re-considering-the-economics-of-photovoltaic-power |archive-url=http://arquivo.pt/wayback/20160516014242/http://www.un-energy.org/stories/2498-re-considering-the-economics-of-photovoltaic-power |url-status=dead |archive-date=2016-05-16 |title=Re-considering the economics of photovoltaic power |author=Morgan Baziliana |work=UN-Energy |publisher=United Nations |date=2012-05-17 |accessdate=2012-11-20 |display-authors=etal }}&lt;/ref&gt;
+
+Some photovoltaic systems, such as rooftop installations, can supply power directly to an electricity user. In these cases, the installation can be competitive when the output cost matches the price at which the user pays for his electricity consumption. This situation is sometimes called 'retail grid parity', 'socket parity' or 'dynamic grid parity'.&lt;ref&gt;{{cite web |title=Solar Photovoltaics competing in the energy sector – On the road to competitiveness |url=http://www.epia.org/fileadmin/user_upload/Publications/Competing_Full_Report.pdf |publisher=EPIA |accessdate=August 1, 2012 |url-status=dead |archiveurl=https://web.archive.org/web/20130226222413/http://www.epia.org/fileadmin/user_upload/Publications/Competing_Full_Report.pdf |archivedate=26 February 2013 |df=dmy-all }}&lt;/ref&gt; Research carried out by [[UN-Energy]] in 2012 suggests areas of sunny countries with high electricity prices, such as Italy, Spain and Australia, and areas using diesel generators, have reached retail grid parity.&lt;ref name=UN-Energy-2012/&gt;
+
+== Mounting and tracking==
+{{main article|Photovoltaic mounting system|Solar tracker}}
+[[File:EarthRangersCentre-ImageEnhancement.jpg|thumb|Solar modules mounted on solar trackers]]
+[[File:Children of the Sun Solar Initiative (48132850231).jpg|thumb|Workers install residential rooftop solar panels]]
+
+Ground-mounted photovoltaic systems are usually large, utility-scale [[solar power plants]]. Their solar modules are held in place by racks or frames that are attached to ground-based mounting supports.&lt;ref&gt;SolarProfessional.com [http://solarprofessional.com/articles/products-equipment/racking/ground-mount-pv-racking-systems Ground-Mount PV Racking Systems] March 2013&lt;/ref&gt;&lt;ref&gt;Massachusetts Department of Energy Resources [http://www.mass.gov/eea/docs/doer/renewables/solar/solar-pv-guide.pdf Ground-Mounted Solar Photovoltaic Systems], December 2012&lt;/ref&gt; Ground based mounting supports include:
+* Pole mounts, which are driven directly into the ground or embedded in concrete.
+* Foundation mounts, such as concrete slabs or poured footings
+* Ballasted footing mounts, such as concrete or steel bases that use weight to secure the solar module system in position and do not require ground penetration. This type of mounting system is well suited for sites where excavation is not possible such as capped landfills and simplifies decommissioning or relocation of solar module systems.
+
+Roof-mounted solar power systems consist of solar modules held in place by racks or frames attached to roof-based mounting supports.&lt;ref name=eco&gt;{{cite web |url=http://www.ecodiy.org/california%20PV/californian%20photovoltaic%20best.htm |title=A Guide To Photovoltaic System Design And Installation |publisher=ecodiy.org |accessdate=2011-07-26}}&lt;/ref&gt; Roof-based mounting supports include:
+* Rail mounts, which are attached directly to the roof structure and may use additional rails for attaching the module racking or frames.
+* Ballasted footing mounts, such as concrete or steel bases that use weight to secure the panel system in position and do not require through penetration. This mounting method allows for decommissioning or relocation of solar panel systems with no adverse effect on the roof structure.
+*All wiring connecting adjacent solar modules to the energy harvesting equipment must be installed according to local electrical codes and should be run in a conduit appropriate for the climate conditions
+
+[[Solar tracker]]s increase the energy produced per module at the cost of mechanical complexity and increased need for maintenance. They sense the direction of the Sun and tilt or rotate the modules as needed for maximum exposure to the light.&lt;ref name=NREL_tracker&gt;{{cite web |last=Shingleton |first=J |title=One-Axis Trackers – Improved Reliability, Durability, Performance, and Cost Reduction |url=http://www.nrel.gov/docs/fy08osti/42769.pdf |publisher=National Renewable Energy Laboratory |accessdate=2012-12-30}}&lt;/ref&gt;&lt;ref&gt;{{cite web |last=Mousazadeh |first=Hossain |title=A review of principle and sun-tracking methods for maximizing |url=http://xa.yimg.com/kq/groups/22199541/1797755549/name/A%252Breview%252Bof%252Bprinciple%252Band%252Bsun-tracking%252Bmethods%252Bfor%252Bmaximizing.pdf |work=Renewable and Sustainable Energy Reviews 13 (2009) 1800–1818 |publisher=Elsevier |accessdate=2012-12-30 |display-authors=etal}}&lt;/ref&gt; Alternatively, fixed racks hold modules stationary throughout the day at a given tilt ([[zenith angle]]) and facing a given direction ([[azimuth angle]]). Tilt angles equivalent to an installation's latitude are common. Some systems may also adjust the tilt angle based on the time of year.&lt;ref name=mounting_tilt&gt;{{cite web |title=Optimum Tilt of Solar Panels |url=http://www.solarpaneltilt.com/ |publisher=MACS Lab |accessdate=2014-10-19}}&lt;/ref&gt; Similarly, to maximize total energy output, modules are often oriented to face south (in the Northern Hemisphere) or north (in the Southern Hemisphere). On the other hand, east- and west-facing arrays (covering an east–west facing roof, for example) may also be useful. Even though such installations might not produce the maximum possible total energy, their power output would likely be more consistent throughout the day and possibly larger during peak demand.&lt;ref&gt;{{cite news |url=https://www.telegraph.co.uk/news/earth/energy/solarpower/10996273/Most-solar-panels-are-facing-the-wrong-direction-say-scientists.html |title= Most solar panels are facing the wrong direction, say scientists|last=Perry |first=Keith |date= 28 July 2014|website= |publisher= [[The Daily Telegraph]]|access-date=9 September 2018 |quote=}}&lt;/ref&gt;
+
+== Standards ==
+Standards generally used in photovoltaic modules:
+* [[International Electrotechnical Commission|IEC]] 61215 ([[crystalline silicon]] performance), 61646 ([[thin film]] performance) and 61730 (all modules, safety)
+* ISO 9488 Solar energy—Vocabulary.
+* UL 1703 from [[Underwriters Laboratories]]
+* UL 1741 from Underwriters Laboratories
+* UL 2703 from Underwriters Laboratories
+* [[CE mark]]
+* Electrical Safety Tester (EST) Series (EST-460, EST-22V, EST-22H, EST-110).
+
+==Connectors==
+Outdoor solar panels usually include [[MC4 connector]]s. Automotive solar panels may also include a [[car lighter]] and/or [[USB]] adapter. Indoor panels (including solar pv glasses, thin films and windows)  can integrate  [[microinverter]] (AC Solar panels).
+
+== Applications ==
+There are many practical applications for the use of solar panels or photovoltaics. It can first be used in agriculture as a power source for irrigation. In health care solar panels can be used to refrigerate medical supplies. It can also be used for infrastructure. PV modules are used in [[photovoltaic system]]s and include a [[Photovoltaic system#Other systems|large variety of electric devices]]:
+* [[Photovoltaic power station]]s
+* [[Rooftop solar PV]] systems
+* [[PV system#Standalone|Standalone PV systems]]
+* [[Solar hybrid power systems]]
+* [[Concentrated photovoltaics]]
+* [[Solar plane]]s
+*[[Solar-powered water purification in rural Africa|Solar-powered water purification]]
+* [[Solar-pumped laser]]s
+* [[Solar vehicle]]s
+* [[Solar panels on spacecraft]]s and [[space station]]s
+
+== Limitations ==
+
+=== Pollution and energy in production ===
+Solar panel has been a well-known method of generating clean, emission free electricity. However, it produces only direct current electricity (DC), which is not what normal appliances use. Solar photovoltaic systems (solar PV systems) are often made of solar PV panels (modules) and inverter (changing DC to AC). Solar PV panels are mainly made of solar photovoltaic cells, which has no fundamental difference to the material for making computer chips{{Citation needed|date=August 2019}}. The process of producing solar PV cells (computer chips) is energy intensive and involves highly poisonous and environmental toxic chemicals{{Citation needed|date=August 2019}}. There are few solar PV manufacturing plants around the world producing PV modules with energy produced from PV{{Citation needed|date=August 2019}}. This measure greatly reduces the carbon footprint during the manufacturing process{{Citation needed|date=August 2019}}. Managing the chemicals used in the manufacturing process is subject to the factories' local laws and regulations{{Citation needed|date=August 2019}}.
+
+=== Impact on electricity network ===
+With the increasing levels of rooftop photovoltaic systems, the energy flow becomes 2-way. When there is more local generation than consumption, electricity is exported to the grid. However, an electricity network traditionally is not designed to deal with the 2- way energy transfer. Therefore, some technical issues may occur. For example, in Queensland Australia, more than 30% of households used rooftop PV by the end of 2017. The famous Californian 2020 [[duck curve]] appeared often for a lot of communities from 2015 onwards. An over-voltage issue may result as the electricity flows from  PV households back to the network.&lt;ref&gt;{{cite journal |last1=Miller |first1=Wendy |last2=Liu |first2=Aaron |last3=Amin |first3=Zakaria |last4=Wagner |first4=Andreas |title=Power Quality and Rooftop-Photovoltaic Households: An Examination of Measured Data at Point of Customer Connection |journal=Sustainability |volume=10 |issue=4 |year=2018 |pages=1224 |doi=10.3390/su10041224 |url=https://publikationen.bibliothek.kit.edu/1000082198/7829299 |doi-access=free }}&lt;/ref&gt; There are solutions to manage the over voltage issue, such as regulating PV inverter power factor, new voltage and energy control equipment at the electricity distributor level, re-conducting the electricity wires, demand side management, etc. There are often limitations and costs related to these solutions.
+
+When electric networks are down, such as during the October [[2019 California power shutoff]], solar panels are often insufficient to fully provide power to a house or other structure, because they are designed to supply power to the grid, not directly to homes. &lt;ref&gt;{{cite news |last1=Martin |first1=Chris |title=Californians Learning That Solar Panels Don't Work in Blackouts |url=https://www.bloomberg.com/news/articles/2019-10-10/californians-learning-that-solar-panels-don-t-work-in-blackouts |work=Bloomberg |publisher=Bloomberg LP |date=10 October 2019 |location=New York NY}}&lt;/ref&gt;
+
+=== Implication onto electricity bill management and energy investment ===
+There is no silver bullet in electricity or energy demand and bill management, because customers (sites) have different specific situations, e.g. different comfort/convenience needs, different electricity tariffs, or different usage patterns. Electricity tariff may have a few elements, such as daily access and metering charge, energy charge (based on kWh, MWh) or peak demand charge (e.g. a price for the highest 30min energy consumption in a month). PV is a promising option for reducing energy charge when electricity price is reasonably high and continuously increasing, such as in Australia and Germany. However, for sites with peak demand charge in place, PV may be less attractive if peak demands mostly occur in the late afternoon to early evening, for example residential communities. Overall, energy investment is largely an economical decision and it is better to make investment decisions based on systematical evaluation of options in operational improvement, energy efficiency, onsite generation and energy storage.&lt;ref&gt;L. Liu, W. Miller, and G. Ledwich. (2017) Solutions for reducing facilities electricity costs. Australian Ageing Agenda. 39-40. Available: https://www.australianageingagenda.com.au/2017/10/27/solutions-reducing-facility-electricity-costs/&lt;/ref&gt;&lt;ref&gt;{{cite journal |doi=10.1016/j.solener.2017.10.008 |bibcode=2018SoEn..159..390M |title=Involving occupants in net-zero-energy solar housing retrofits: An Australian sub-tropical case study |journal=Solar Energy |volume=159 |pages=390–404 |year=2018 |last1=Miller |first1=Wendy |last2=Liu |first2=Lei Aaron |last3=Amin |first3=Zakaria |last4=Gray |first4=Matthew }}&lt;/ref&gt;
+
+== Gallery ==
+&lt;gallery&gt;
+File:SoSie+SoSchiff Ansicht.jpg|The Solar Settlement with the [[:en:Sun Ship (building)|Sun Ship]] in the background (Freiburg, Germany)
+File:PV solar installers on sloped roof.jpg|Technicians installing photovoltaic modules on a roof-mounted rack
+File:Solar panels in Ogiinuur.jpg|A solar array composed of a solar panel with 24 solar modules in rural Mongolia
+File:Earth horizon and International Space Station solar panel array (Expedition 17 crew, August 2008).jpg|Solar modules on the [[International Space Station]]
+File:MC4 connector.jpg|PV connectors MC4: Weatherproof DC connectors.
+&lt;/gallery&gt;
+
+== See also ==
+{{Portal|Renewable energy|Energy}}
+{{div col|colwidth=24em}}
+* [[Battery (electricity)]]
+* [[Daisy chain (electrical engineering)]]
+* [[Digital modeling and fabrication]]
+* [[Domestic energy consumption]]
+* [[Grid-tied electrical system]]
+* [[Growth of photovoltaics]]
+* [[List of photovoltaics companies]]
+* [[MC4 connector]]
+* [[Powerbank]]
+* [[Rooftop photovoltaic power station]]
+* [[Sky footage]]
+* [[SolarCity]]
+* [[Solar charger]]
+* [[Solar cooker]]
+* [[Solar oven]]
+* [[Solar roadway]]
+* [[Solar still]]
+{{div col end}}
+
+== References ==
+{{Reflist|30em}}
+{{Commons category|Solar panels}}
+
+{{Photovoltaics}}
+
+{{DEFAULTSORT:Solar Panel}}
+[[Category:Photovoltaics]]
+[[Category:Solar-powered devices|Panel]]</text>
+      <sha1>f8k8ov9hxgq0ivk87mz71y3vbxitdrh</sha1>
+    </revision>
+  </page>
+</mediawiki>

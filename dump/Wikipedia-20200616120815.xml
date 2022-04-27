@@ -1,0 +1,176 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.10/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.10/ http://www.mediawiki.org/xml/export-0.10.xsd" version="0.10" xml:lang="en">
+  <siteinfo>
+    <sitename>Wikipedia</sitename>
+    <dbname>enwiki</dbname>
+    <base>https://en.wikipedia.org/wiki/Main_Page</base>
+    <generator>MediaWiki 1.35.0-wmf.36</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Media</namespace>
+      <namespace key="-1" case="first-letter">Special</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Talk</namespace>
+      <namespace key="2" case="first-letter">User</namespace>
+      <namespace key="3" case="first-letter">User talk</namespace>
+      <namespace key="4" case="first-letter">Wikipedia</namespace>
+      <namespace key="5" case="first-letter">Wikipedia talk</namespace>
+      <namespace key="6" case="first-letter">File</namespace>
+      <namespace key="7" case="first-letter">File talk</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki talk</namespace>
+      <namespace key="10" case="first-letter">Template</namespace>
+      <namespace key="11" case="first-letter">Template talk</namespace>
+      <namespace key="12" case="first-letter">Help</namespace>
+      <namespace key="13" case="first-letter">Help talk</namespace>
+      <namespace key="14" case="first-letter">Category</namespace>
+      <namespace key="15" case="first-letter">Category talk</namespace>
+      <namespace key="100" case="first-letter">Portal</namespace>
+      <namespace key="101" case="first-letter">Portal talk</namespace>
+      <namespace key="108" case="first-letter">Book</namespace>
+      <namespace key="109" case="first-letter">Book talk</namespace>
+      <namespace key="118" case="first-letter">Draft</namespace>
+      <namespace key="119" case="first-letter">Draft talk</namespace>
+      <namespace key="446" case="first-letter">Education Program</namespace>
+      <namespace key="447" case="first-letter">Education Program talk</namespace>
+      <namespace key="710" case="first-letter">TimedText</namespace>
+      <namespace key="711" case="first-letter">TimedText talk</namespace>
+      <namespace key="828" case="first-letter">Module</namespace>
+      <namespace key="829" case="first-letter">Module talk</namespace>
+      <namespace key="2300" case="first-letter">Gadget</namespace>
+      <namespace key="2301" case="first-letter">Gadget talk</namespace>
+      <namespace key="2302" case="case-sensitive">Gadget definition</namespace>
+      <namespace key="2303" case="case-sensitive">Gadget definition talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Generalized least squares</title>
+    <ns>0</ns>
+    <id>4504135</id>
+    <revision>
+      <id>957368627</id>
+      <parentid>956526324</parentid>
+      <timestamp>2020-05-18T14:20:39Z</timestamp>
+      <contributor>
+        <ip>2001:1C02:1900:4F00:1B3:C2A6:EA56:E168</ip>
+      </contributor>
+      <comment>Correction of wrong publication year Aitken</comment>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="13484" xml:space="preserve">{{multiple issues|
+{{Cleanup|date=May 2010}}
+{{Refimprove|date=July 2009}}
+}}
+
+{{Regression bar}}
+In [[statistics]], '''generalized least squares''' ('''GLS''') is a technique for estimating the unknown [[parameter]]s in a [[linear regression]] model when there is a certain degree of [[correlation]] between the [[statistical residual|residuals]] in a [[regression model]]. In these cases, [[ordinary least squares]] and [[weighted least squares]] can be statistically [[efficiency (statistics)|inefficient]], or even give misleading [[statistical inference|inferences]]. GLS was first described by [[Alexander Aitken]] in 1936.&lt;ref&gt;{{cite journal |last=Aitken |first=A. C. |title=On Least-squares and Linear Combinations of Observations |journal=Proceedings of the Royal Society of Edinburgh |year=1936 |volume=55 |issue= |pages=42–48 }}&lt;/ref&gt;
+
+== Method outline ==
+In standard [[linear regression]] models we observe data &lt;math&gt;\{y_i,x_{ij}\}_{i=1, \dots, n,j=2, \dots, k}&lt;/math&gt; on ''n'' [[statistical unit]]s. The response values are placed in a vector &lt;math&gt;\mathbf{y} = \left( y_{1}, \dots, y_{n} \right)^{\mathsf{T}}&lt;/math&gt;, and the predictor values are placed in the [[design matrix]] &lt;math&gt;\mathbf{X} = \left( \mathbf{x}_{1}^{\mathsf{T}}, \dots, \mathbf{x}_{n}^{\mathsf{T}} \right)^{\mathsf{T}}&lt;/math&gt;, where &lt;math&gt;\mathbf{x}_{i} = \left( 1, x_{i2}, \dots, x_{ik} \right)&lt;/math&gt; is a vector of the ''k'' predictor variables (including a constant) for the ''i''th unit. The model forces the [[conditional mean]] of &lt;math&gt;\mathbf{y}&lt;/math&gt; given &lt;math&gt;\mathbf{X}&lt;/math&gt; to be a linear function of &lt;math&gt;\mathbf{X}&lt;/math&gt;, and assumes the conditional [[variance]] of the error term given &lt;math&gt;\mathbf{X}&lt;/math&gt; is a ''known'' nonsingular ''[[covariance matrix]]'' &lt;math&gt;\mathbf{\Omega}&lt;/math&gt;. This is usually written as
+: &lt;math&gt;
+    \mathbf{y} = \mathbf{X} \mathbf{\beta} + \mathbf{\varepsilon}, \qquad \operatorname{E}[\varepsilon\mid\mathbf{X}]=0,\ \operatorname{Cov}[\varepsilon\mid\mathbf{X}]= \mathbf{\Omega}.
+  &lt;/math&gt;
+Here &lt;math&gt;\beta \in \mathbb{R}^k&lt;/math&gt; is a vector of unknown constants (known as “regression coefficients”) that must be estimated from the data.
+
+Suppose &lt;math&gt;\mathbf{b}&lt;/math&gt; is a candidate estimate for &lt;math&gt;\mathbf{\beta}&lt;/math&gt;. Then the [[errors and residuals in statistics|residual]] vector for &lt;math&gt;\mathbf{b}&lt;/math&gt; will be &lt;math&gt;\mathbf{y}- \mathbf{X} \mathbf{b}&lt;/math&gt;. The generalized least squares method estimates &lt;math&gt;\mathbf{\beta}&lt;/math&gt; by minimizing the squared [[Mahalanobis distance|Mahalanobis length]] of this residual vector:
+: &lt;math&gt;
+    \mathbf{\hat{\beta}} = \underset{b}\operatorname{arg min}\,(\mathbf{y}- \mathbf{X} \mathbf{b})^{\mathsf{T}}\,\mathbf{\Omega}^{-1}(\mathbf{y}- \mathbf{X} \mathbf{b}),
+  &lt;/math&gt;
+
+Since the objective is a quadratic form in &lt;math&gt;\mathbf{b}&lt;/math&gt;, the estimator has an explicit formula:
+: &lt;math&gt;
+    \mathbf{\hat{\beta}} = \left( \mathbf{X}^{\mathsf{T}} \mathbf{\Omega}^{-1} \mathbf{X} \right)^{-1} \mathbf{X}^{\mathsf{T}}\mathbf{\Omega}^{-1}\mathbf{y}.
+  &lt;/math&gt;
+
+=== Properties ===
+The GLS estimator is [[Bias of an estimator|unbiased]], [[consistent estimator|consistent]], [[efficiency (statistics)|efficient]], and [[asymptotic distribution|asymptotically normal]] with &lt;math&gt;\operatorname{E}[\hat\beta\mid\mathbf{X}] = \beta&lt;/math&gt; and &lt;math&gt;\operatorname{Cov}[\hat{\beta}\mid\mathbf{X}] = (\mathbf{X}^{\mathsf{T}}\Omega^{-1}\mathbf{X})^{-1}&lt;/math&gt;. GLS is equivalent to applying ordinary least squares to a linearly transformed version of the data.  To see this, factor &lt;math&gt;\mathbf{\Omega} = \mathbf{C} \mathbf{C}^{\mathsf{T}}&lt;/math&gt;, for instance using the [[Cholesky decomposition]]. Then if we pre-multiply both sides of the equation &lt;math&gt;\mathbf{y} = \mathbf{X} \mathbf{\beta} + \mathbf{\varepsilon}&lt;/math&gt; by &lt;math&gt;\mathbf{C}^{-1}&lt;/math&gt;, we get an equivalent linear model &lt;math&gt;\mathbf{y}^{*} = \mathbf{X}^{*} \mathbf{\beta} + \mathbf{\varepsilon}^{*}&lt;/math&gt; where &lt;math&gt;\mathbf{y}^{*} = \mathbf{C}^{-1} \mathbf{y}&lt;/math&gt;, &lt;math&gt;\mathbf{X}^{*} = \mathbf{C}^{-1} \mathbf{X}&lt;/math&gt;, and &lt;math&gt;\mathbf{\varepsilon}^{*} = \mathbf{C}^{-1} \mathbf{\varepsilon}&lt;/math&gt;. In this model &lt;math&gt;\operatorname{Var}[\varepsilon^{*}\mid\mathbf{X}]= \mathbf{C}^{-1} \mathbf{\Omega} \left(\mathbf{C}^{-1} \right)^{\mathsf{T}} = \mathbf{I}&lt;/math&gt;, where &lt;math&gt;\mathbf{I}&lt;/math&gt; is the [[identity matrix]]. Thus we can efficiently estimate &lt;math&gt;\mathbf{\beta}&lt;/math&gt; by applying OLS to the transformed data, which requires minimizing
+
+: &lt;math&gt;
+    \left(\mathbf{y}^{*} - \mathbf{X}^{*} \mathbf{\beta} \right)^{\mathsf{T}} (\mathbf{y}^{*} - \mathbf{X}^{*} \mathbf{\beta}) = (\mathbf{y}- \mathbf{X} \mathbf{b})^{\mathsf{T}}\,\mathbf{\Omega}^{-1}(\mathbf{y}- \mathbf{X} \mathbf{b}).
+  &lt;/math&gt;
+
+This has the effect of standardizing the scale of the errors and “de-correlating” them. Since OLS is applied to data with homoscedastic errors, the [[Gauss–Markov theorem]] applies, and therefore the GLS estimate is the [[Blue (statistics)|best linear unbiased estimator]] for ''β''.
+
+== Weighted least squares ==
+{{Main|Weighted least squares}}
+A special case of GLS called weighted least squares (WLS) occurs when all the off-diagonal entries of ''Ω'' are 0.  This situation arises when the variances of the observed values are unequal (i.e.&amp;nbsp;[[heteroscedasticity]] is present), but where no correlations exist among the observed variances.  The weight for unit ''i'' is proportional to the reciprocal of the variance of the response for unit ''i''.&lt;ref&gt;{{cite book|author=Strutz, T.| title=Data Fitting and Uncertainty (A practical introduction to weighted least squares and beyond) |publisher=Springer Vieweg | year=2016 | isbn= 978-3-658-11455-8}}, chapter 3&lt;/ref&gt;
+
+== Feasible generalized least squares ==
+
+If the covariance of the errors &lt;math&gt;\Omega &lt;/math&gt; is unknown, one can get a consistent estimate of &lt;math&gt;\Omega &lt;/math&gt;, say &lt;math&gt;\widehat \Omega &lt;/math&gt;,&lt;ref name="Baltagi2008"&gt;Baltagi, B. H. (2008). Econometrics (4th ed.). New York: Springer.&lt;/ref&gt; using an implementable version of GLS known as the '''feasible generalized least squares'''&lt;!--"Feasible generalized least squares" redirects here; this is bolded per MOS:BOLD--&gt; ('''FGLS''') estimator. In FGLS, modeling proceeds in two stages: (1) the model is estimated by OLS or another consistent (but inefficient) estimator, and the residuals are used to build a consistent estimator of the errors covariance matrix (to do so, one often needs to examine the model adding additional constraints, for example if the errors follow a time series process, a statistician generally needs some theoretical assumptions on this process to ensure that a consistent estimator is available); and (2) using the consistent estimator of the covariance matrix of the errors, one can implement GLS ideas.
+
+Whereas GLS is more efficient than OLS under heteroscedasticity or autocorrelation, this is not true for FGLS. The feasible estimator is, provided the errors covariance matrix is consistently estimated, ''asymptotically'' more efficient, but for a small or medium size sample, it can be actually less efficient than OLS. This is why, some authors prefer to use OLS, and reformulate their inferences by simply considering an alternative estimator for the variance of the estimator robust to heteroscedasticity or serial autocorrelation.
+But for large samples FGLS is preferred over OLS under heteroskedasticity or serial correlation.&lt;ref name="Baltagi2008" /&gt; &lt;ref name="Greene2003"&gt;Greene, W. H. (2003). Econometric Analysis (5th ed.). Upper Saddle River, NJ: Prentice Hall.&lt;/ref&gt;&lt;nowiki&gt; &lt;/nowiki&gt;A cautionary note is that the FGLS estimator is not always consistent. One case in which FGLS might be inconsistent is if there are individual specific fixed effects.&lt;ref&gt;{{Cite journal |last=Hansen |first=Christian B. |title=Generalized Least Squares Inference in Panel and Multilevel Models with Serial Correlation and Fixed Effects |journal=[[Journal of Econometrics]] |year=2007 |volume=140 |issue=2 |pages=670–694 |doi=10.1016/j.jeconom.2006.07.011 }}&lt;/ref&gt;
+
+In general this estimator has different properties than GLS. For large samples (i.e., asymptotically) all properties are (under appropriate conditions) common with respect to GLS, but for finite samples the properties of FGLS estimators are unknown: they vary dramatically with each particular model, and as a general rule their exact distributions cannot be derived analytically. For finite samples, FGLS may be even less efficient than OLS in some cases. Thus, while GLS can be made feasible, it is not always wise to apply this method when the sample is small.
+A method sometimes used to improve the accuracy of the estimators in finite samples is to iterate, i.e. taking the residuals from FGLS to update the errors covariance estimator, and then updating the FGLS estimation, applying the same idea iteratively until the estimators vary less than some tolerance. But this method does not necessarily improve the efficiency of the estimator very much if the original sample was small.
+A reasonable option when samples are not too large is to apply OLS, but throwing away the classical variance estimator
+:&lt;math&gt; \sigma^2*(X'X)^{-1} &lt;/math&gt;
+(which is inconsistent in this framework) and using a HAC (Heteroskedasticity and Autocorrelation Consistent) estimator. For example, in autocorrelation context we can use the Bartlett estimator (often known as Newey-West estimator since these authors popularized the use of this estimator among econometricians in their 1987 Econometrica article), and in heteroskedastic context we can use the Eicker–White estimator ([[Heteroscedasticity-consistent standard errors|Eicker–White]]). This approach is much safer, and it is the appropriate path to take unless the sample is large, and "large" is sometimes a slippery issue (e.g. if the errors distribution is asymmetric the required sample would be much larger).
+
+The [[ordinary least squares]] (OLS) estimator is calculated as usual by
+
+:&lt;math&gt;
+\widehat \beta_\text{OLS} = (X' X)^{-1} X' y
+&lt;/math&gt;
+
+and estimates of the residuals &lt;math&gt;\widehat{u}_j= (Y-X\widehat\beta_\text{OLS})_j&lt;/math&gt; are constructed.
+
+For simplicity consider the model for heteroskedastic errors. Assume that the variance-covariance matrix &lt;math&gt; \Omega &lt;/math&gt; of the error vector is diagonal, or equivalently that errors from distinct observations are uncorrelated. Then each diagonal entry may be estimated by the fitted residuals &lt;math&gt;\widehat{u}_j&lt;/math&gt;  so &lt;math&gt;\widehat{\Omega}_{OLS}&lt;/math&gt; may be constructed by
+
+:&lt;math&gt;
+\widehat{\Omega}_\text{OLS} = \operatorname{diag}(\widehat{\sigma}^2_1, \widehat{\sigma}^2_2, \dots , \widehat{\sigma}^2_n).
+&lt;/math&gt;
+
+It is important to notice that the squared residuals cannot be used in the previous expression; we need an estimator of the errors variances. To do so, we can use a parametric heteroskedasticity model, or a nonparametric estimator. Once this step is fulfilled, we can proceed:
+
+Estimate &lt;math&gt; \beta_{FGLS1}&lt;/math&gt; using &lt;math&gt; \widehat{\Omega}_\text{OLS}&lt;/math&gt; using&lt;ref name="Greene2003" /&gt; [[weighted least squares]]
+
+:&lt;math&gt;
+\widehat \beta_{FGLS1} = (X'\widehat{\Omega}^{-1}_\text{OLS} X)^{-1} X' \widehat{\Omega}^{-1}_\text{OLS} y
+&lt;/math&gt;
+
+The procedure can be iterated. The first iteration is given by
+:&lt;math&gt;
+ \widehat{u}_{FGLS1} = Y - X \widehat \beta_{FGLS1}
+&lt;/math&gt;
+
+:&lt;math&gt;
+\widehat{\Omega}_{FGLS1} = \operatorname{diag}(\widehat{\sigma}^2_{FGLS1,1}, \widehat{\sigma}^2_{FGLS1,2}, \dots ,\widehat{\sigma}^2_{FGLS1,n})
+&lt;/math&gt;
+
+:&lt;math&gt;
+\widehat \beta_{FGLS2} = (X'\widehat{\Omega}^{-1}_{FGLS1} X)^{-1} X' \widehat{\Omega}^{-1}_{FGLS1} y
+&lt;/math&gt;
+
+This estimation of &lt;math&gt;\widehat{\Omega}&lt;/math&gt; can be iterated to convergence.
+
+Under regularity conditions any of the FGLS estimator (or that of any of its iterations, if we iterate a finite number of times) is asymptotically distributed as
+
+: &lt;math&gt;
+    \sqrt{n}(\hat\beta_{FGLS} - \beta)\ \xrightarrow{d}\ \mathcal{N}\!\left(0,\,V\right).
+  &lt;/math&gt;
+
+where n is the sample size and
+:&lt;math&gt;
+V = \operatorname{p-lim}(X'\Omega^{-1}X/T)
+&lt;/math&gt;
+here p-lim means limit in probability
+
+== See also ==
+* [[Confidence region]]
+* [[Degrees of freedom (statistics)#Effective degrees of freedom|Effective degrees of freedom]]
+
+== References ==
+{{Reflist}}
+
+== Further reading ==
+* {{cite book |last=Amemiya |first=Takeshi |authorlink=Takeshi Amemiya |year=1985 |chapter=Generalized Least Squares Theory |title=Advanced Econometrics |publisher=Harvard University Press |isbn=0-674-00560-0 |ref=harv |chapterurl=https://books.google.com/books?id=0bzGQE14CwEC&amp;pg=PA181 |url-access=registration |url=https://archive.org/details/advancedeconomet00amem }}
+* {{cite book |last=Johnston |first=John |authorlink=John Johnston (econometrician) |chapter=Generalized Least-squares |title=Econometric Methods |location=New York |publisher=McGraw-Hill |edition=Second |year=1972 |isbn= |pages=208–242 |chapterurl=https://books.google.com/books?id=BZtvwZAGyV0C&amp;pg=PA208 }}
+* {{cite book |last=Kmenta |first=Jan |authorlink=Jan Kmenta |chapter=Generalized Linear Regression Model and Its Applications |title=Elements of Econometrics |location=New York |publisher=Macmillan |edition=Second |year=1986 |isbn=0-472-10886-7 |pages=607–650 |chapterurl=https://books.google.com/books?id=Bxq7AAAAIAAJ&amp;pg=PA607 }}
+
+{{DEFAULTSORT:Generalized Least Squares}}
+[[Category:Least squares]]</text>
+      <sha1>gcc76br6oqpfflbkxeb9i3u4xzl2dqv</sha1>
+    </revision>
+  </page>
+</mediawiki>

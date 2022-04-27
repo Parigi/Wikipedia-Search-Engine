@@ -1,0 +1,145 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.10/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.10/ http://www.mediawiki.org/xml/export-0.10.xsd" version="0.10" xml:lang="en">
+  <siteinfo>
+    <sitename>Wikipedia</sitename>
+    <dbname>enwiki</dbname>
+    <base>https://en.wikipedia.org/wiki/Main_Page</base>
+    <generator>MediaWiki 1.35.0-wmf.36</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Media</namespace>
+      <namespace key="-1" case="first-letter">Special</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Talk</namespace>
+      <namespace key="2" case="first-letter">User</namespace>
+      <namespace key="3" case="first-letter">User talk</namespace>
+      <namespace key="4" case="first-letter">Wikipedia</namespace>
+      <namespace key="5" case="first-letter">Wikipedia talk</namespace>
+      <namespace key="6" case="first-letter">File</namespace>
+      <namespace key="7" case="first-letter">File talk</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki talk</namespace>
+      <namespace key="10" case="first-letter">Template</namespace>
+      <namespace key="11" case="first-letter">Template talk</namespace>
+      <namespace key="12" case="first-letter">Help</namespace>
+      <namespace key="13" case="first-letter">Help talk</namespace>
+      <namespace key="14" case="first-letter">Category</namespace>
+      <namespace key="15" case="first-letter">Category talk</namespace>
+      <namespace key="100" case="first-letter">Portal</namespace>
+      <namespace key="101" case="first-letter">Portal talk</namespace>
+      <namespace key="108" case="first-letter">Book</namespace>
+      <namespace key="109" case="first-letter">Book talk</namespace>
+      <namespace key="118" case="first-letter">Draft</namespace>
+      <namespace key="119" case="first-letter">Draft talk</namespace>
+      <namespace key="446" case="first-letter">Education Program</namespace>
+      <namespace key="447" case="first-letter">Education Program talk</namespace>
+      <namespace key="710" case="first-letter">TimedText</namespace>
+      <namespace key="711" case="first-letter">TimedText talk</namespace>
+      <namespace key="828" case="first-letter">Module</namespace>
+      <namespace key="829" case="first-letter">Module talk</namespace>
+      <namespace key="2300" case="first-letter">Gadget</namespace>
+      <namespace key="2301" case="first-letter">Gadget talk</namespace>
+      <namespace key="2302" case="case-sensitive">Gadget definition</namespace>
+      <namespace key="2303" case="case-sensitive">Gadget definition talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Microsoft Notepad</title>
+    <ns>0</ns>
+    <id>143474</id>
+    <revision>
+      <id>959210059</id>
+      <parentid>959209447</parentid>
+      <timestamp>2020-05-27T17:13:09Z</timestamp>
+      <contributor>
+        <username>Adam9007</username>
+        <id>24796666</id>
+      </contributor>
+      <minor/>
+      <comment>Reverted 1 edit by [[Special:Contributions/2600:1700:64F0:79B0:2973:CE49:367F:CC32|2600:1700:64F0:79B0:2973:CE49:367F:CC32]] ([[User talk:2600:1700:64F0:79B0:2973:CE49:367F:CC32|talk]]) to last revision by 176.225.67.155 ([[WP:TW|TW]])</comment>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="17328" xml:space="preserve">{{Infobox software
+| name             = Windows Notepad
+| logo             = Notepad.png
+| logo_size        = x64px
+| screenshot       = Windows Notepad.png
+| screenshot_size  = 300px
+| caption          = Notepad on [[Windows 10]]
+| author           = [[Richard Brodie (programmer)|Richard Brodie]]
+| developer        = [[Microsoft]]
+| released         = {{Start date and age|1983}}&lt;br /&gt;(as ''Multi-Tool Notepad'')
+| replaces         = [[MS-DOS Editor]]
+| operating system = [[Microsoft Windows]]
+| genre            = [[Text editor]]
+| latest release version = 
+| latest preview version =
+}}
+'''Notepad''' is a simple [[text editor]] for [[Microsoft Windows]] and a basic text-editing program which enables computer users to create documents. It was first released as a [[computer mouse|mouse]]-based [[MS-DOS]] program in 1983, and has been included in all versions of [[Microsoft Windows]] since [[Windows 1.0]] in 1985.
+
+== History ==
+
+Microsoft introduced '''Multi-Tool Notepad''', a [[computer mouse|mouse]]-based text editor written by [[Richard Brodie (programmer)|Richard Brodie]], with the $195 [[Microsoft Mouse]] in May 1983 at the Spring [[COMDEX]] computer expo in [[Atlanta]].  Also introduced at that COMDEX was [[Multi-Tool Word]], designed by [[Charles Simonyi]] to work with the mouse.&lt;ref&gt;{{cite magazine|url=https://books.google.com/books?id=4i8EAAAAMBAJ&amp;pg=PA1|title=COMDEX: Micros in American mainstream|magazine=InfoWorld|publisher=IDG|date=May 23, 1983|page=1|issn=0199-6649}}&lt;/ref&gt;&lt;ref&gt;{{cite magazine|url=https://books.google.com/books?id=4S8EAAAAMBAJ&amp;pg=PA10|title=Mouse and new WP program join Microsoft product lineup|magazine=InfoWorld|publisher=IDG|date=May 30, 1983|page=10|issn=0199-6649}}&lt;/ref&gt;&lt;ref&gt;{{cite web|url=https://books.google.com/books?id=4i8EAAAAMBAJ&amp;pg=PA85|title=Microsoft ad|magazine=InfoWorld|publisher=IDG|date=May 23, 1983|page=85|issn=0199-6649}}&lt;/ref&gt; Most watching Simonyi's demonstration had never heard of a mouse.&lt;ref name="Wallace"&gt;{{cite book|url=https://archive.org/details/harddrivebillgat00wall_0|url-access=registration|last=Wallace|first=James|last2=Erickson|first2=Jim|year=1992|title=Hard Drive|publisher=Wiley|isbn=0-471-56886-4|pages=[https://archive.org/details/harddrivebillgat00wall_0/page/238 238]–244|access-date=2017-01-28}}&lt;/ref&gt; Microsoft released the Microsoft Mouse in June 1983, and the boxed mouse and Multi-Tool Notepad began shipping in July.&lt;ref&gt;{{cite magazine|url=https://books.google.com/books?id=ty8EAAAAMBAJ&amp;pg=PA31|title=In Focus|magazine=InfoWorld|publisher=IDG|date=August 29, 1983|page=31|issn=0199-6649}}&lt;/ref&gt; Initial sales were modest, as there was little one could do with it except run the three demonstration programs included in the box (a tutorial, practice application and Notepad) or program interfaces to it.&lt;ref name="Manes"&gt;{{cite book|url=https://books.google.com/?id=KBtPAAAAMAAJ|title=Gates|last=Manes|first=Stephen|collaboration=Paul Andrews|year=1993|publisher=Doubleday|isbn=0-385-42075-7|access-date=2017-01-28|archive-url=https://web.archive.org/web/20170202044405/https://books.google.bg/books?id=KBtPAAAAMAAJ&amp;sa=X&amp;ved=0ahUKEwiX1cCMseXRAhWiQZoKHaiHDKYQ6AEIGjAA|archive-date=2017-02-02|url-status=live}}&lt;/ref&gt; The Multi-Tool product line began with [[expert system]]s for the [[Multiplan]] spreadsheet.&lt;ref&gt;{{cite magazine|url=https://books.google.com/books?id=7i8EAAAAMBAJ&amp;pg=PA40|title=Microsoft ad|magazine=InfoWorld|publisher=IDG|date=April 25, 1983|page=40|issn=0199-6649}}&lt;/ref&gt;&lt;ref&gt;{{cite magazine|url=https://books.google.com/books?id=ty8EAAAAMBAJ&amp;pg=PA34|title=In designers' scenario, software undergoes behavior modification|magazine=InfoWorld|publisher=IDG|date=August 29, 1983|page=34|issn=0199-6649}}&lt;/ref&gt; On the suggestion of [[Rowland Hanson]], who also convinced [[Bill Gates]] to change the name "Interface Manager" to "Windows" before the release of [[Windows 1.0]], the Multi-Tool name was killed by the time Word shipped in November 1983. Hanson's rationale was that "the brand is the [[hero]]". People didn't associate the stand-alone name Multi-Tool with Microsoft, and Hanson wanted to make Microsoft the hero, so the Microsoft name replaced "Multi-Tool".&lt;ref name="Wallace" /&gt;&lt;ref name="Manes" /&gt;
+
+Notepad was added to the [[Microsoft Store (digital)|Microsoft Store]] in August 2019. Though Notepad will still be included in Windows out of the box, as of Windows 10 [[Windows 10 version history|version 20H1]], Notepad will no longer be a [[List of Microsoft Windows components|component]] of the operating system and updated through the bi-yearly Windows 10 version updates, and will instead be a separate application receiving updates through the Microsoft Store. This will allow updates to the app to be delivered more frequently.&lt;ref name="zdnetmsstore20"&gt;{{cite news |author1=Mary Jo Foley |authorlink1=Mary Jo Foley |title=Microsoft makes Notepad a separate Store app starting with new Windows 10 20H1 test build |url=https://www.zdnet.com/article/microsoft-makes-notepad-a-separate-store-app-starting-with-new-windows-10-20h1-test-build/ |accessdate=August 29, 2019 |work=[[ZDNet]] |date=August 17, 2019}}&lt;/ref&gt;&lt;ref&gt;{{cite news |author1=Mayank Parmar |title=Windows 10 Notepad Added to Microsoft Store, Only for Insiders |url=https://www.bleepingcomputer.com/news/microsoft/windows-10-notepad-added-to-microsoft-store-only-for-insiders/ |accessdate=August 29, 2019 |work=[[Bleeping Computer]] |date=August 19, 2019}}&lt;/ref&gt;
+
+== Features ==
+Notepad is a common text-only ([[plain text]]) editor. The resulting files—typically saved with the &lt;code&gt;[[Text file|.txt]]&lt;/code&gt; extension—have no format tags or styles, making the program suitable for editing system files to use in a [[DOS]] environment and, occasionally, source code for later [[Compiler|compilation]] or [[Scripting language|execution]], usually through a [[command line interpreter|command prompt]]. It is also useful for its negligible use of system resources; making for quick load time and processing time, especially on under-powered hardware.
+Notepad supports both left-to-right and right-to-left based languages.
+Historically, Notepad did not treat [[newline]]s in [[Unix]]- or [[classic Mac OS]]-style text files correctly. However, on 8th May 2018, Microsoft announced that they had fixed this issue.&lt;ref&gt;{{cite web|url=https://blogs.msdn.microsoft.com/commandline/2018/05/08/extended-eol-in-notepad/|title=Introducing extended line endings support in Notepad|date=May 8, 2018|website=Blog|publisher=[[Microsoft]]|access-date=2018-05-09|archive-url=https://web.archive.org/web/20180509202114/https://blogs.msdn.microsoft.com/commandline/2018/05/08/extended-eol-in-notepad/|archive-date=2018-05-09|url-status=live}}&lt;/ref&gt;
+Notepad offers only the most basic text manipulation functions, such as finding text. Only newer versions of Windows include an updated version of Notepad with a search and replace function. However, it has much less functionality in comparison to full-scale editors.
+
+In all versions of Windows, Notepad uses a built-in [[window class]] named ''EDIT'' and the maximum file size that Notepad can open is dependent on operating system limitations on the size of the ''EDIT'' window class, with the limit being different for each version of Windows. Due to the operating system limit of the ''EDIT'' window class, the Notepad version shipped with [[Windows 3.0]], [[Windows 3.1]] and [[Windows 3.11]] could not open files larger than 54 KB ([[kilobyte]]s) and Microsoft recommended not to open files larger than 45 KB, with the official workaround advice provided by Microsoft being "Use another text editor",&lt;ref&gt;{{cite web|url=https://support.microsoft.com/en-us/kb/59578|title=Maximum File Size Limits for Notepad|date=September 24, 2011|website=Support|publisher=[[Microsoft]]|access-date=2016-10-28|archive-url=https://web.archive.org/web/20150317213210/http://support.microsoft.com/en-us/kb/59578|archive-date=2015-03-17|url-status=dead}}&lt;/ref&gt; but this limit was extended to 64 KB in [[Windows 95]] (and remained the same in [[Windows 98]] and [[Windows Me]]), with users now directed to [[WordPad]] to open larger files. On the Notepad version shipped with Windows XP the limit was 32 MB ([[megabyte]]s) with the application displaying the message "The file is too large for Notepad. Use another editor to edit the file" if the user attempted to open a file larger than 32 MB.&lt;ref&gt;{{cite web|url=https://bytes.com/topic/desktop-software/answers/727862-what-file-size-limit-notepad-windows-xp|title=What is file size limit for Notepad in Windows XP|date=October 24, 2007|publisher=Bytes|access-date=2016-10-28|archive-url=https://web.archive.org/web/20161029045531/https://bytes.com/topic/desktop-software/answers/727862-what-file-size-limit-notepad-windows-xp|archive-date=2016-10-29|url-status=live}}&lt;/ref&gt; Newer versions of Notepad can open files at least up to 58 MB ([[megabyte]]s) in size,&lt;ref&gt;{{cite web|url=http://www.codeproject.com/Questions/434501/Maximum-size-for-notepad-file|title=Maximum size for notepad file|date=August 4, 2012|publisher=Code Project|access-date=2016-10-28|archive-url=https://web.archive.org/web/20161029043858/http://www.codeproject.com/Questions/434501/Maximum-size-for-notepad-file|archive-date=2016-10-29|url-status=live}}&lt;/ref&gt; and on [[Windows 8.1]] the Notepad application is able to open files at least as large as 512 MB (megabytes) but fails to open 1 GB (gigabyte) files displaying the same message that Windows XP users would see ("The file is too large for Notepad. Use another editor to edit the file").&lt;ref&gt;{{cite web|url=https://www.petri.com/tip-opening-large-files-windows|title=Tip for Opening Large Text Files in Windows|date=October 23, 2015|first=Daniel|last=Petri|publisher=Petri|access-date=2016-10-28|archive-url=https://web.archive.org/web/20161029045404/https://www.petri.com/tip-opening-large-files-windows|archive-date=2016-10-29|url-status=live}}&lt;/ref&gt;
+
+Up to [[Windows 95]], [[Fixedsys]] was the only available display [[font]] for Notepad. [[Windows NT 4.0]] and [[Windows 98|98]] introduced the ability to change this font. As of [[Windows 2000]], the default font was changed to [[Lucida Console]]. The font setting, however, only affects how the text is shown to the user and how it is printed, not how the file is saved to disk. The default font was changed to [[Consolas]] on Windows 8.
+
+Up to [[Windows Me]], there were almost no keyboard shortcuts and no line-counting feature. Starting with [[Windows 2000]], shortcuts for common tasks like new, open and save were added, as well as a status-bar with a line counter (available only when word-wrap is disabled).
+
+In the [[Windows NT]]-based versions of Windows, Notepad can edit traditional 8-bit text files as well as [[Unicode]] text files (both [[UTF-8]] and [[UTF-16]], and in case of UTF-16, [[Endianness|both little-endian and big-endian]]).
+
+Notepad also has a simple built-in logging function. Each time a file that starts with &lt;tt&gt;.LOG&lt;/tt&gt; is opened, the program inserts a text timestamp on the last line of the file.&lt;ref&gt;{{cite web|url=http://support.microsoft.com/kb/81067 |title=Features of LOG and Time/Date Command in Notepad |publisher=[[Microsoft]] |website=Support |date=July 19, 2005 |url-status=dead |archiveurl=https://web.archive.org/web/20070628221631/http://support.microsoft.com/kb/81067 |archivedate=June 28, 2007 }}&lt;/ref&gt;&lt;ref&gt;{{cite web|url=http://support.microsoft.com/kb/260563 |title=How to Use Notepad to Create a Log File |publisher=[[Microsoft]] |website=Support |date=December 20, 2004 |url-status=dead |archiveurl=https://web.archive.org/web/20050406104758/http://support.microsoft.com/kb/260563 |archivedate=April 6, 2005 }}&lt;/ref&gt;
+
+Notepad accepts text from the Windows [[clipboard (software)|clipboard]]. When clipboard data with multiple formats is pasted into Notepad, the program only accepts text in the &lt;tt&gt;CF_TEXT&lt;/tt&gt; format.&lt;ref&gt;"{{cite web|url=http://www.cs.binghamton.edu/~reckert/360/15_clipboard_f03.html|title=The Clipboard|accessdate=September 29, 2009|archive-url=https://web.archive.org/web/20090226035433/http://cs.binghamton.edu/~reckert/360/15_clipboard_f03.html|archive-date=2009-02-26|url-status=live}}&lt;/ref&gt; This is useful for stripping embedded font type and style codes from formatted text, such as when copying text from a web page and pasting into an email message or other [[WYSIWYG]] text editor. Formatted text can be temporarily pasted into Notepad, and then immediately copied again in stripped format to paste into the other program.
+
+Superscripts with a space as in 98.6 o Fahrenheit and 3 2 = 9, and subscripts without a space as in H2O, can be understood in Notepad.{{Original research inline|date=December 2019}}
+
+Notepad can print files, but doesn't  print correctly if ''Word Wrap'' is turned on. Headers, footers, and margins can be set and adjusted when preparing to print a file under ''Page Setup''. The date, file name, and other information can be placed in the headers and footers with various codes consisting of an ampersand ('&amp;') followed by a letter.
+
+== Unicode detections ==
+{{Main article|Bush hid the facts}}
+The Windows NT version of Notepad, installed by default on [[Windows 2000]] and [[Windows XP]], has the ability to detect Unicode files even when they are missing a [[Byte Order Mark|byte order mark]]. To do this, it utilizes a Windows API function called &lt;code&gt;IsTextUnicode()&lt;/code&gt;.&lt;ref&gt;{{cite web|url=https://msdn.microsoft.com/en-us/library/dd318672(v=vs.85).aspx|title=IsTextUnicode()|work=[[MSDN]]|publisher=[[Microsoft]]|accessdate=January 28, 2017|archive-url=https://web.archive.org/web/20160910175750/https://msdn.microsoft.com/en-us/library/dd318672(v=vs.85).aspx|archive-date=2016-09-10|url-status=live}}&lt;/ref&gt; However, this function is imperfect, incorrectly identifying some all-lowercase [[ASCII]] text as UTF-16. As a result, Notepad interprets a file containing a phrase like "aaaa aaa aaa aaaaa" ("4-3-3-5") as two-byte-encoded Unicode text file and attempts to display it as such. If a font with support for Chinese is installed, nine Chinese characters (桴獩愠灰挠湡戠敲歡) display. Otherwise, it displays [[Substitute character|squares]] instead of Chinese characters.
+
+Some people misinterpreted this issue for an [[Easter egg (media)|Easter egg]]. Many phrases that fit the pattern (including "this app can break" and "[[bush hid the facts]]") appeared on the web as [[hoax]]es. Windows expert [[Raymond Chen (Microsoft)#Blogs|Raymond Chen]] correctly attributed it to the Unicode detection algorithm.&lt;ref&gt;{{cite web|url=https://devblogs.microsoft.com/oldnewthing/20070417-00/?p=27223|title=The Notepad file encoding problem, redux|last=Chen|first=Raymond|date=April 17, 2007|work=[[MSDN]]|publisher=[[Microsoft]]|archive-url=https://web.archive.org/web/20110903031351/http://blogs.msdn.com/b/oldnewthing/archive/2007/04/17/2158334.aspx|archive-date=2011-09-03|url-status=live|access-date=2019-03-20}}&lt;/ref&gt; This issue was resolved in [[Windows Vista]] and newer versions of Notepad.
+
+== Competing software ==
+Notepad does not require a [[File locking|lock]] on the file it opens, so it can open files already opened by other processes, users, or computers, whereas WordPad cannot. Also, since Notepad lacks advanced formatting functionality, many people find its simple, [[Minimalism (computing)|minimalistic]] [[user interface]] (whose look has never changed since Windows 3.1 and whose [[menu (computing)|menus]] were last altered in Windows XP, when "Format" and "View" replaced "Search", and in Windows 10 version 1809, when "Zoom" and "Search with Bing" items were added) faster and easier to use for basic text operations. The [[edit.com|MS-DOS Editor]], especially as updated in Windows 95, where it became an [[Multiple document interface|MDI]] application, also provides many features never offered by Notepad.
+
+There are many third-party replacements for Notepad with additional functionality, including both [[free software]] (e.g. [[Notepad++]] and [[Notepad2]]) and [[freeware]] (e.g. [[TED Notepad]]).
+
+Notepad lacks many basic features available in other text editors such as block-select and [[Multiple document interface|MDI]].
+
+Notepad being a basic text editor, advanced features are also missing: [[syntax coloring]], [[code folding]], [[regular expressions]], [[macro (computer science)|macro]]s, support of [[codepage]]s and [[color scheme]]s.
+
+== See also ==
+* [[Comparison of text editors]]
+* [[List of text editors]]
+* [[XML Notepad]]
+
+== References ==
+{{Reflist}}
+
+== External links ==
+* [http://www.microsoft.com/resources/documentation/windows/xp/all/proddocs/en-us/win_notepad_whatis_intro.mspx?mfr=true Notepad] in Windows XP Product Documentation at Microsoft.com
+* [http://windows.microsoft.com/en-US/windows-vista/Notepad-frequently-asked-questions Notepad FAQ] in Windows Vista documentation at Microsoft.com - {{webarchive|url=https://web.archive.org/web/20091013225307/http://windows.microsoft.com/en-us/windows-vista/Notepad-frequently-asked-questions|date=October 13, 2009}}
+
+{{Windows Components}}
+
+{{DEFAULTSORT:Notepad (Software)}}
+[[Category:1983 software]]
+[[Category:1985 software]]
+[[Category:DOS text editors]]
+[[Category:Windows components]]
+[[Category:Windows text editors]]</text>
+      <sha1>0738iez3vyfd0ijf7mfgpqllojclyyr</sha1>
+    </revision>
+  </page>
+</mediawiki>

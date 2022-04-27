@@ -1,0 +1,339 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.10/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.10/ http://www.mediawiki.org/xml/export-0.10.xsd" version="0.10" xml:lang="en">
+  <siteinfo>
+    <sitename>Wikipedia</sitename>
+    <dbname>enwiki</dbname>
+    <base>https://en.wikipedia.org/wiki/Main_Page</base>
+    <generator>MediaWiki 1.35.0-wmf.36</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Media</namespace>
+      <namespace key="-1" case="first-letter">Special</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Talk</namespace>
+      <namespace key="2" case="first-letter">User</namespace>
+      <namespace key="3" case="first-letter">User talk</namespace>
+      <namespace key="4" case="first-letter">Wikipedia</namespace>
+      <namespace key="5" case="first-letter">Wikipedia talk</namespace>
+      <namespace key="6" case="first-letter">File</namespace>
+      <namespace key="7" case="first-letter">File talk</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki talk</namespace>
+      <namespace key="10" case="first-letter">Template</namespace>
+      <namespace key="11" case="first-letter">Template talk</namespace>
+      <namespace key="12" case="first-letter">Help</namespace>
+      <namespace key="13" case="first-letter">Help talk</namespace>
+      <namespace key="14" case="first-letter">Category</namespace>
+      <namespace key="15" case="first-letter">Category talk</namespace>
+      <namespace key="100" case="first-letter">Portal</namespace>
+      <namespace key="101" case="first-letter">Portal talk</namespace>
+      <namespace key="108" case="first-letter">Book</namespace>
+      <namespace key="109" case="first-letter">Book talk</namespace>
+      <namespace key="118" case="first-letter">Draft</namespace>
+      <namespace key="119" case="first-letter">Draft talk</namespace>
+      <namespace key="446" case="first-letter">Education Program</namespace>
+      <namespace key="447" case="first-letter">Education Program talk</namespace>
+      <namespace key="710" case="first-letter">TimedText</namespace>
+      <namespace key="711" case="first-letter">TimedText talk</namespace>
+      <namespace key="828" case="first-letter">Module</namespace>
+      <namespace key="829" case="first-letter">Module talk</namespace>
+      <namespace key="2300" case="first-letter">Gadget</namespace>
+      <namespace key="2301" case="first-letter">Gadget talk</namespace>
+      <namespace key="2302" case="case-sensitive">Gadget definition</namespace>
+      <namespace key="2303" case="case-sensitive">Gadget definition talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Chi-squared test</title>
+    <ns>0</ns>
+    <id>226680</id>
+    <revision>
+      <id>961187642</id>
+      <parentid>959476160</parentid>
+      <timestamp>2020-06-07T02:41:19Z</timestamp>
+      <contributor>
+        <username>Bubbha</username>
+        <id>1026631</id>
+      </contributor>
+      <comment>Changed most instances of "chi-squared" to "chi-square" or the mathematical symbol, to fit with the standard nomenclature in the field.</comment>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="21756" xml:space="preserve">
+[[File:Chi-square distributionCDF-English.png|thumb|right|300px|[[Chi-square distribution]], showing {{math|''χ''&lt;sup&gt;2&lt;/sup&gt;}} on the ''x''-axis and ''p''-value (right tail probability) on the ''y''-axis.]]
+
+A '''chi-square test''', also written as '''{{math|''χ''&lt;sup&gt;2&lt;/sup&gt;}} test''', is a [[Statistical hypothesis testing|statistical hypothesis test]] that is [[Validity (statistics)|valid]] to perform when the test statistic is [[chi-square distribution|chi-square distributed]] under the [[null hypothesis]], specifically [[Pearson's chi-square test]] and variants thereof. Pearson's chi-square test is used to determine whether there is a [[Statistical significance|statistically significant]] difference between the expected [[frequency (statistics)|frequencies]] and the observed frequencies in one or more categories of a [[contingency table]]. 
+
+In the standard applications of this test, the observations are classified into mutually exclusive classes. If the [[null hypothesis]] is true, the test statistic computed from the observations follows a {{math|''χ''&lt;sup&gt;2&lt;/sup&gt;}} [[frequency distribution]]. The purpose of the test is to evaluate how likely the observed frequencies would be assuming the null hypothesis is true.
+
+Test statistics that follow a {{math|''χ''&lt;sup&gt;2&lt;/sup&gt;}} distribution occur when the observations are independent and [[normal distribution|normally distributed]], which assumptions are often justified under the [[central limit theorem]]. There are also {{math|''χ''&lt;sup&gt;2&lt;/sup&gt;}} tests for testing the null hypothesis of independence of a pair of [[random variable]]s based on observations of the pairs.
+
+Chi-square tests often refers to tests for which the distribution of the test statistic approaches the {{math|''χ''&lt;sup&gt;2&lt;/sup&gt;}} distribution [[asymptote|asymptotically]], meaning that the [[sampling distribution]] (if the null hypothesis is true) of the test statistic approximates a {{math|''χ''&lt;sup&gt;2&lt;/sup&gt;}} distribution more and more closely as [[Sample (statistics)|sample]] sizes increase.
+
+== History ==
+In the 19th century, statistical analytical methods were mainly applied in biological data analysis and it was customary for researchers to assume that observations followed a [[normal distribution]], such as [[Sir George Airy]] and [[Mansfield Merriman|Professor Merriman]], whose works were criticized by [[Karl Pearson]] in his 1900 paper.&lt;ref name = Pearson1900&gt;
+{{cite journal
+ | last = Pearson | first = Karl
+ | author-link = Karl Pearson
+ | title = On the criterion that a given system of deviations from the probable in the case of a correlated system of variables is such that it can be reasonably supposed to have arisen from random sampling
+ | journal = Philosophical Magazine |series=Series 5
+ | volume = 50
+ | issue = 302
+ | year = 1900
+ | pages = 157–175
+ | url = http://www.economics.soton.ac.uk/staff/aldrich/1900.pdf
+ | doi = 10.1080/14786440009463897
+}}&lt;/ref&gt;
+
+At the end of 19th century, Pearson noticed the existence of significant [[skewness]] within some biological observations. In order to model the observations regardless of being normal or skewed, Pearson, in a series of articles published from 1893 to 1916,&lt;ref name = Pearson1893&gt;
+{{cite journal
+ | last = Pearson | first = Karl
+ | author-link = Karl Pearson
+ | title = Contributions to the mathematical theory of evolution [abstract]
+ | journal = Proceedings of the Royal Society
+ | volume = 54
+ | year = 1893
+ | pages = 329–333
+ | jstor = 115538
+ | doi = 10.1098/rspl.1893.0079
+| doi-access = free
+ }}
+&lt;/ref&gt;&lt;ref name = Pearson1895&gt;
+{{cite journal
+ | last = Pearson | first = Karl
+ | author-link = Karl Pearson
+ | title = Contributions to the mathematical theory of evolution, II: Skew variation in homogeneous material
+ | journal = Philosophical Transactions of the Royal Society
+ | volume = 186
+ | year = 1895
+ | pages = 343–414
+ | bibcode = 1895RSPTA.186..343P
+ | jstor = 90649
+ | doi = 10.1098/rsta.1895.0010
+| url = https://zenodo.org/record/1432104/files/article.pdf
+ }}
+&lt;/ref&gt;&lt;ref name = Pearson1901&gt;
+{{cite journal
+ | last = Pearson | first = Karl
+ | author-link = Karl Pearson
+ | title = Mathematical contributions to the theory of evolution, X: Supplement to a memoir on skew variation
+ | journal = Philosophical Transactions of the Royal Society A
+ | volume = 197
+ | issue = 287–299
+ | year = 1901
+ | pages = 443–459
+ | bibcode = 1901RSPTA.197..443P
+ | jstor = 90841
+ | doi = 10.1098/rsta.1901.0023
+| doi-access = free
+ }}
+&lt;/ref&gt;&lt;ref name = Pearson1916&gt;
+{{cite journal
+ | last = Pearson | first = Karl
+ | author-link = Karl Pearson
+ | title = Mathematical contributions to the theory of evolution, XIX: Second supplement to a memoir on skew variation
+ | journal = Philosophical Transactions of the Royal Society A
+ | volume = 216
+ | issue = 538–548
+ | year = 1916
+ | pages = 429–457
+ | bibcode = 1916RSPTA.216..429P
+ | jstor = 91092
+ | doi = 10.1098/rsta.1916.0009
+| doi-access = free
+ }}
+&lt;/ref&gt; devised the [[Pearson distribution]], a family of continuous probability distributions, which includes the normal distribution and many skewed distributions, and proposed a method of statistical analysis consisting of using the Pearson distribution to model the observation and performing a test of goodness of fit to determine how well the model really fits to the observations.
+
+=== Pearson's {{math|''χ''&lt;sup&gt;2&lt;/sup&gt;}} test ===
+{{see also|Pearson's chi-square test}}
+
+In 1900, Pearson published a paper&lt;ref name = Pearson1900 /&gt; on the {{math|''χ''&lt;sup&gt;2&lt;/sup&gt;}} test which is considered to be one of the foundations of modern statistics.&lt;ref name = Cochran1952&gt;
+{{cite journal
+ | last = Cochran | first = William G.
+ | author-link = William G. Cochran
+ | title = The {{math|''χ''&lt;sup&gt;2&lt;/sup&gt;}} Test of Goodness of Fit
+ | journal = The Annals of Mathematical Statistics
+ | volume = 23
+ | issue = 3
+ | year = 1952
+ | pages = 315–345
+ | jstor = 2236678
+ | doi=10.1214/aoms/1177729380
+| doi-access = free
+ }}
+&lt;/ref&gt; In this paper, Pearson investigated a test of goodness of fit.
+
+Suppose that {{mvar|n}} observations in a random sample from a population are classified into {{mvar|k}} mutually exclusive classes with respective observed numbers {{mvar|x&lt;sub&gt;i&lt;/sub&gt;}} (for {{math|''i'' {{=}} 1,2,…,''k''}}), and a null hypothesis gives the probability {{mvar|p&lt;sub&gt;i&lt;/sub&gt;}} that an observation falls into the {{mvar|i}}th class. So we have the expected numbers {{math|''m&lt;sub&gt;i&lt;/sub&gt;'' {{=}} ''np&lt;sub&gt;i&lt;/sub&gt;''}} for all {{mvar|i}}, where
+
+:&lt;math&gt;\begin{align}
+&amp; \sum^k_{i=1}{p_i} = 1 \\[8pt]
+&amp; \sum^k_{i=1}{m_i} = n\sum^k_{i=1}{p_i} = \sum_{i=1}^{k}x_i
+\end{align}&lt;/math&gt;
+
+Pearson proposed that, under the circumstance of the null hypothesis being correct, as {{math|''n'' → ∞}} the limiting distribution of the quantity given below is the {{math|''χ''&lt;sup&gt;2&lt;/sup&gt;}} distribution.
+
+:&lt;math&gt;X^2=\sum^k_{i=1}{\frac{(x_i-m_i)^2}{m_i}}=\sum^k_{i=1}{\frac{x_i^2}{m_i}-n}&lt;/math&gt;
+
+Pearson dealt first with the case in which the expected numbers {{mvar|m&lt;sub&gt;i&lt;/sub&gt;}} are large enough known numbers in all cells assuming every {{mvar|x&lt;sub&gt;i&lt;/sub&gt;}} may be taken as [[normal distribution|normally distributed]], and reached the result that, in the limit as {{mvar|n}} becomes large, {{math|''X''{{isup|2}}}} follows the {{math|''χ''&lt;sup&gt;2&lt;/sup&gt;}} distribution with {{math|''k'' − 1}} degrees of freedom.
+
+However, Pearson next considered the case in which the expected numbers depended on the parameters that had to be estimated from the sample, and suggested that, with the notation of {{mvar|m&lt;sub&gt;i&lt;/sub&gt;}} being the true expected numbers and {{math|''m''′&lt;sub&gt;''i''&lt;/sub&gt;}} being the estimated expected numbers, the difference
+
+:&lt;math&gt;X^2-{X'}^2=\sum^k_{i=1}{\frac{x_i^2}{m_i}}-\sum^k_{i=1}{\frac{x_i^2}{m'_i}}&lt;/math&gt;
+
+will usually be positive and small enough to be omitted. In a conclusion, Pearson argued that if we regarded {{math|''X''′{{isup|2}}}} as also distributed as {{math|''χ''&lt;sup&gt;2&lt;/sup&gt;}} distribution with {{math|''k'' − 1}} degrees of freedom, the error in this approximation would not affect practical decisions. This conclusion caused some controversy in practical applications and was not settled for 20 years until Fisher's 1922 and 1924 papers.&lt;ref name = Fisher1922&gt;
+
+{{cite journal
+ | last = Fisher | first = Ronald A.
+ | author-link = Ronald A. Fisher
+ | title = On the Interpretation of {{math|''χ''&lt;sup&gt;2&lt;/sup&gt;}} from Contingency Tables, and the Calculation of P
+ | journal = Journal of the Royal Statistical Society
+ | volume = 85
+ | issue = 1
+ | year = 1922
+ | pages = 87–94
+ | jstor = 2340521
+ | doi=10.2307/2340521
+| url = https://zenodo.org/record/1449484
+ }}
+
+&lt;/ref&gt;&lt;ref name = Fisher1924&gt;
+{{cite journal
+ | last = Fisher | first = Ronald A.
+ | author-link = Ronald A. Fisher
+ | title = The Conditions Under Which {{math|''χ''&lt;sup&gt;2&lt;/sup&gt;}} Measures the Discrepancey Between Observation and Hypothesis
+ | journal = Journal of the Royal Statistical Society
+ | volume = 87
+ | issue = 3
+ | year = 1924
+ | pages = 442–450
+ | jstor = 2341149
+}}&lt;/ref&gt;
+
+== Other examples of {{math|''χ''&lt;sup&gt;2&lt;/sup&gt;}} tests ==
+
+One [[test statistic]] that follows a [[chi-square distribution]] exactly is the test that the variance of a normally distributed population has a given value based on a [[sample variance]]. Such tests are uncommon in practice because the true variance of the population is usually unknown. However, there are several statistical tests where the [[chi-square distribution]] is approximately valid:
+
+=== Fisher's exact test ===
+For an exact test used in place of the 2 x 2 {{math|''χ''&lt;sup&gt;2&lt;/sup&gt;}} test for independence, see [[Fisher's exact test]].
+
+=== Binomial test ===
+For an exact test used in place of the 2 x 1 {{math|''χ''&lt;sup&gt;2&lt;/sup&gt;}} test for goodness of fit, see [[Binomial test]].
+
+=== Other {{math|''χ''&lt;sup&gt;2&lt;/sup&gt;}} tests ===
+* [[Cochran–Mantel–Haenszel statistics|Cochran–Mantel–Haenszel chi-square test]].
+* [[McNemar's test]], used in certain {{nowrap|2 × 2}} tables with pairing
+* [[Tukey's test of additivity]]
+* The [[portmanteau test]] in [[time-series analysis]], testing for the presence of [[autocorrelation]]
+* [[Likelihood-ratio test]]s in general [[statistical model]]ling, for testing whether there is evidence of the need to move from a simple model to a more complicated one (where the simple model is nested within the complicated one).
+
+== Yates's correction for continuity ==
+{{Main|Yates's correction for continuity}}
+Using the [[chi-square distribution]] to interpret [[Pearson's chi-square test|Pearson's chi-square statistic]] requires one to assume that the [[Discrete probability distribution|discrete]] probability of observed [[binomial distribution|binomial frequencies]] in the table can be approximated by the continuous [[chi-square distribution]]. This assumption is not quite correct and introduces some error.
+
+To reduce the error in approximation, [[Frank Yates]] suggested a correction for continuity that adjusts the formula for [[Pearson's chi-square test]] by subtracting 0.5 from the absolute difference between each observed value and its expected value in a {{nowrap|2 × 2}} contingency table.&lt;ref name=Yates&gt;{{cite journal|authorlink=Frank Yates|last=Yates|first=Frank|date=1934|title=Contingency table involving small numbers and the {{math|''χ''&lt;sup&gt;2&lt;/sup&gt;}} test|journal=Supplement to the Journal of the Royal Statistical Society|volume=1|issue=2|pages=217–235|jstor=2983604|doi=10.2307/2983604}}&lt;/ref&gt; This reduces the {{math|''χ''&lt;sup&gt;2&lt;/sup&gt;}} value obtained and thus increases its [[p-value|''p''-value]].
+
+==Chi-square test for variance in a normal population==
+If a sample of size {{math|''n''}} is taken from a population having a [[normal distribution]], then there is a result (see [[Variance#Distribution of the sample variance|distribution of the sample variance]]) which allows a test to be made of whether the variance of the population has a pre-determined value. For example, a manufacturing process might have been in stable condition for a long period, allowing a value for the variance to be determined essentially without error. Suppose that a variant of the process is being tested, giving rise to a small sample of {{math|''n''}} product items whose variation is to be tested. The test statistic {{math|''T''}} in this instance could be set to be the sum of squares about the sample mean, divided by the nominal value for the variance (i.e. the value to be tested as holding). Then {{math|''T''}} has a {{math|''χ''&lt;sup&gt;2&lt;/sup&gt;}} distribution with {{math|''n'' − 1}} [[Degrees of freedom (statistics)|degrees of freedom]]. For example, if the sample size is 21, the acceptance region for {{math|''T''}} with a significance level of 5% is between 9.59 and 34.17.
+&lt;!--
+==Chi-square test for contingency table example==
+[[Dispute: This example is actually for a goodness-of-fit test, and NOT a test of independence in a contingency table]] [[Dispute claim is valid]]
+
+A {{math|''χ''&lt;sup&gt;2&lt;/sup&gt;}} test may be applied on a [[contingency table]] for testing a null hypothesis of independence of rows and columns.
+
+As an example of the use of the {{math|''χ''&lt;sup&gt;2&lt;/sup&gt;}} test, a fair coin is one where heads and tails are equally likely to turn up after it is flipped. Suppose one is given a coin and asked to test if it is fair. After 200 trials, heads turn up 153 times and tails result 147 times. The following is a {{math|''χ''&lt;sup&gt;2&lt;/sup&gt;}} analysis, where the null hypothesis is that the coin is fair:
+
+{|class="wikitable" align="center"
+|+ Chi-square calculation of coin tosses
+| |
+| | Heads
+| Tails
+| Total
+|-
+| | Observed
+| | 53
+| | 47
+| | 100
+|-
+| | Expected
+| | 50
+| | 50
+| | 100
+|-
+| | {{math|(''O''  −  ''E'')&lt;sup&gt;2&lt;/sup&gt;}}
+| | 9
+| | 9
+| |
+|-
+| | {{math|1=''χ''&lt;sup&gt;2&lt;/sup&gt; = (''O'' − ''E'')&lt;sup&gt;2&lt;/sup&gt;/''E''}}
+| | 0.18
+| | 0.18
+| | 0.36
+|}
+In this case, the test has one [[Degrees of freedom (statistics)|degree of freedom]] and the {{math|''χ''&lt;sup&gt;2&lt;/sup&gt;}} value is 0.36. In order to see whether this result is [[statistically significant]], the [[p-value]] (the probability that at least as extreme a result is observed when the null hypothesis is true) must be calculated or looked up in a chart. The p-value, {{math|Prob(''χ''&lt;sup&gt;2&lt;/sup&gt; ≥ 0.36)}}, is found to be 0.5485. There is thus a probability of about 55% of seeing data that deviates at least this much from the expected results if indeed the coin is fair. This probability is not considered statistically significant evidence of an unfair coin.--&gt;
+
+==Example {{math|''χ''&lt;sup&gt;2&lt;/sup&gt;}} test for categorical data==
+
+Suppose there is a city of 1,000,000 residents with four neighborhoods: {{math|''A''}}, {{math|''B''}}, {{math|''C''}}, and {{math|''D''}}. A random sample of 650 residents of the city is taken and their occupation is recorded as [[Collar workers|"white collar", "blue collar", or "no collar"]]. The null hypothesis is that each person's neighborhood of residence is independent of the person's occupational classification.  The data are tabulated as:
+
+:{| class="wikitable" style="text-align: right;"
+|-
+!  !! {{math|''A''}} !! {{math|''B''}} !! {{math|''C''}} !! {{math|''D''}} !! total
+|-
+|style="text-align: left;"| White collar ||  90 || 60 || 104 || 95 || 349 
+|-
+|style="text-align: left;"| Blue collar ||  30 ||  50 || 51 ||  20 || 151
+|-
+|style="text-align: left;"| No collar || 30 || 40 || 45 || 35 || 150
+|-
+!style="text-align: left;"| Total || 150 || 150 || 200 || 150 || 650
+|}
+
+Let us take the sample living in neighborhood {{math|''A''}}, 150, to estimate what proportion of the whole 1,000,000 live in neighborhood {{math|''A''}}. Similarly, we take {{sfrac|349|650}} to estimate what proportion of the 1,000,000 are white-collar workers. By the assumption of independence under the hypothesis, we should "expect" the number of white-collar workers in neighborhood {{math|''A''}} to be
+
+: &lt;math&gt; 150\times\frac{349}{650} \approx 80.54 &lt;/math&gt;
+
+Then in that "cell" of the table, we have
+
+: &lt;math&gt;\frac{\left(\text{observed}-\text{expected}\right)^2}{\text{expected}} = \frac{\left(90-80.54\right)^2}{80.54} \approx 1.11&lt;/math&gt;
+
+The sum of these quantities over all of the cells is the test statistic; in this case, &lt;math&gt; \approx 24.6 &lt;/math&gt;. Under the null hypothesis, this sum has approximately a {{math|''χ''&lt;sup&gt;2&lt;/sup&gt;}} distribution whose number of degrees of freedom are
+
+: &lt;math&gt; (\text{number of rows}-1)(\text{number of columns}-1) = (3-1)(4-1) = 6 &lt;/math&gt;
+
+If the test statistic is improbably large according to that {{math|''χ''&lt;sup&gt;2&lt;/sup&gt;}} distribution, then one rejects the null hypothesis of independence.
+
+A related issue is a test of homogeneity. Suppose that instead of giving every resident of each of the four neighborhoods an equal chance of inclusion in the sample, we decide in advance how many residents of each neighborhood to include. Then each resident has the same chance of being chosen as do all residents of the same neighborhood, but residents of different neighborhoods would have different probabilities of being chosen if the four sample sizes are not proportional to the populations of the four neighborhoods. In such a case, we would be testing "homogeneity" rather than "independence". The question is whether the proportions of blue-collar, white-collar, and no-collar workers in the four neighborhoods are the same. However, the test is done in the same way.
+
+==Applications==
+
+In [[cryptanalysis]], the {{math|''χ''&lt;sup&gt;2&lt;/sup&gt;}} test is used to compare the distribution of [[plaintext]] and (possibly) decrypted [[ciphertext]]. The lowest value of the test means that the decryption was successful with high probability.&lt;ref name=practicalcrypto&gt;{{cite web|title=Chi-squared Statistic|url=http://practicalcryptography.com/cryptanalysis/text-characterisation/chi-squared-statistic/|website=Practical Cryptography|accessdate=18 February 2015}}&lt;/ref&gt;&lt;ref name=ibmath&gt;{{cite web|title=Using Chi Squared to Crack Codes|url=http://ibmathsresources.com/2014/06/15/using-chi-squared-to-crack-codes/|website=IB Maths Resources|publisher=British International School Phuket}}&lt;/ref&gt; This method can be generalized for solving modern cryptographic problems.&lt;ref name=elsevier&gt;{{cite journal|last1=Ryabko|first1=B. Ya.|last2=Stognienko|first2=V. S.|last3=Shokin|first3=Yu. I.|title=A new test for randomness and its application to some cryptographic problems|journal=Journal of Statistical Planning and Inference|date=2004|volume=123|issue=2|pages=365–376|url=http://boris.ryabko.net/jspi.pdf|accessdate=18 February 2015|doi=10.1016/s0378-3758(03)00149-6}}&lt;/ref&gt;
+
+In [[bioinformatics]], the {{math|''χ''&lt;sup&gt;2&lt;/sup&gt;}} test is used to compare the distribution of certain properties of genes (e.g., genomic content, mutation rate, interaction network clustering, etc.) belonging to different categories (e.g., disease genes, essential genes, genes on a certain chromosome etc.).&lt;ref name=pnas-bics&gt;{{cite journal|last1=Feldman|first1=I.|last2=Rzhetsky|first2=A.|last3=Vitkup|first3=D.|title=Network properties of genes harboring inherited disease mutations|journal=PNAS|date=2008|volume=105|issue=11|pages=4323–432|doi=10.1073/pnas.0701722105|bibcode=2008PNAS..105.4323F|pmc=2393821|pmid=18326631}}&lt;/ref&gt;&lt;ref name=chi-bics&gt;{{cite web|title=chi-square-tests|url=https://visa.pharmacy.wsu.edu/bioinformatics/documents/chi-square-tests.pdf|accessdate=29 June 2018|archive-url=https://web.archive.org/web/20180629131548/https://visa.pharmacy.wsu.edu/bioinformatics/documents/chi-square-tests.pdf|archive-date=29 June 2018|url-status=dead}}&lt;/ref&gt;
+
+==See also==
+{{Portal|Mathematics}}
+* [[Contingency table]]
+* [[Nomogram#Chi-squared test computation nomogram|Chi-square test nomogram]]
+* [[G-test|''G''-test]]
+* [[Minimum chi-square estimation]]
+* [[Nonparametric statistics]]
+* [[Wald test]]
+* [[Wilson score interval#Binomial proportion confidence interval|Wilson score interval]]
+
+== References ==
+{{Reflist}}
+
+==Further reading==
+* {{MathWorld | urlname=Chi-SquaredTest | title=Chi-Squared Test}}
+* {{citation |last1=Corder |first1=G. W. |last2=Foreman |first2=D. I. |title=Nonparametric Statistics: A Step-by-Step Approach |year=2014 |publisher=Wiley |location=New York |isbn=978-1118840313 |ref=none|url=https://books.google.com/books?id=hYVYAwAAQBAJ&amp;printsec=frontcover&amp;dq=isbn:9781118840313&amp;hl=en&amp;sa=X&amp;ved=0ahUKEwimtaSyo9PjAhUIQq0KHXT2A6UQ6AEIKjAA#v=snippet&amp;q=%22Chi-square%22&amp;f=false}}
+* {{citation |last1=Greenwood |first1=Cindy |authorlink1=Cindy Greenwood |last2=Nikulin |first2=M. S. |title=A guide to chi-squared testing |year=1996 |publisher=Wiley |location=New York |isbn=0-471-55779-X |ref=none}}
+* {{citation |last=Nikulin |first=M. S. |title=Chi-squared test for normality |year=1973 |work=Proceedings of the International Vilnius Conference on Probability Theory and Mathematical Statistics |volume=2 |pages=119–122 |ref=none}}
+* {{citation |last1=Bagdonavicius |first1=V. |last2=Nikulin |first2=M. S. |title=Chi-squared goodness-of-fit test for right censored data |date=2011 |work=The International Journal of Applied Mathematics and Statistics |pages=30–50 |ref=none|url=https://www.researchgate.net/profile/Vilijandas_Bagdonavicius/publication/325193712_Chi-squared_goodness-of-fit_test_for_right_censored_data_International_Journal_of_Applied_Mathematics_and_Statistics_January_2011/links/5afd2d85aca272b5d8708548/Chi-squared-goodness-of-fit-test-for-right-censored-data-International-Journal-of-Applied-Mathematics-and-Statistics-January-2011.pdf}}{{full citation needed|date=January 2013}}
+
+{{Statistics}}
+
+{{DEFAULTSORT:Chi-Square Test}}
+[[Category:Statistical tests for contingency tables]]
+[[Category:Nonparametric statistics]]</text>
+      <sha1>3an2gh918ckuvchoebdxc5j325fp1a2</sha1>
+    </revision>
+  </page>
+</mediawiki>

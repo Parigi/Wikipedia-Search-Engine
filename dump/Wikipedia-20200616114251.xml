@@ -1,0 +1,658 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.10/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.10/ http://www.mediawiki.org/xml/export-0.10.xsd" version="0.10" xml:lang="en">
+  <siteinfo>
+    <sitename>Wikipedia</sitename>
+    <dbname>enwiki</dbname>
+    <base>https://en.wikipedia.org/wiki/Main_Page</base>
+    <generator>MediaWiki 1.35.0-wmf.36</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Media</namespace>
+      <namespace key="-1" case="first-letter">Special</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Talk</namespace>
+      <namespace key="2" case="first-letter">User</namespace>
+      <namespace key="3" case="first-letter">User talk</namespace>
+      <namespace key="4" case="first-letter">Wikipedia</namespace>
+      <namespace key="5" case="first-letter">Wikipedia talk</namespace>
+      <namespace key="6" case="first-letter">File</namespace>
+      <namespace key="7" case="first-letter">File talk</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki talk</namespace>
+      <namespace key="10" case="first-letter">Template</namespace>
+      <namespace key="11" case="first-letter">Template talk</namespace>
+      <namespace key="12" case="first-letter">Help</namespace>
+      <namespace key="13" case="first-letter">Help talk</namespace>
+      <namespace key="14" case="first-letter">Category</namespace>
+      <namespace key="15" case="first-letter">Category talk</namespace>
+      <namespace key="100" case="first-letter">Portal</namespace>
+      <namespace key="101" case="first-letter">Portal talk</namespace>
+      <namespace key="108" case="first-letter">Book</namespace>
+      <namespace key="109" case="first-letter">Book talk</namespace>
+      <namespace key="118" case="first-letter">Draft</namespace>
+      <namespace key="119" case="first-letter">Draft talk</namespace>
+      <namespace key="446" case="first-letter">Education Program</namespace>
+      <namespace key="447" case="first-letter">Education Program talk</namespace>
+      <namespace key="710" case="first-letter">TimedText</namespace>
+      <namespace key="711" case="first-letter">TimedText talk</namespace>
+      <namespace key="828" case="first-letter">Module</namespace>
+      <namespace key="829" case="first-letter">Module talk</namespace>
+      <namespace key="2300" case="first-letter">Gadget</namespace>
+      <namespace key="2301" case="first-letter">Gadget talk</namespace>
+      <namespace key="2302" case="case-sensitive">Gadget definition</namespace>
+      <namespace key="2303" case="case-sensitive">Gadget definition talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Microsoft Word</title>
+    <ns>0</ns>
+    <id>20287</id>
+    <revision>
+      <id>962645438</id>
+      <parentid>962645270</parentid>
+      <timestamp>2020-06-15T07:21:46Z</timestamp>
+      <contributor>
+        <username>TheImaCow</username>
+        <id>38905475</id>
+      </contributor>
+      <comment>Rollback edit(s) by [[Special:Contributions/5.193.4.47|5.193.4.47]] ([[User_talk:5.193.4.47|talk]]) to rev. 962470205 by Rodw: [[WP:VANDAL|Vandalism]] [[WP:REDWARN|(RedWarn rev14)]]</comment>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="72550" xml:space="preserve">{{short description|Word processor developed by Microsoft}}
+{{Use mdy dates|date=April 2017}}
+{{Infobox software
+| name = Microsoft Word
+| logo = Microsoft Office Word (2018–present).svg
+| screenshot = Microsoft Word.png
+| caption = A story being written and formatted in Word, running on [[Windows 10]]
+| developer = [[Microsoft]]
+| released = {{Start date and age|1983|10|25}} (as Multi-Tool Word)
+| ver layout = stacked
+| latest release version = {{Latest stable software release/Microsoft Office}}
+| programming language = &lt;!--Please do not forget your source for this--&gt;
+| operating system = {{Plainlist|
+* [[Windows 10]]
+* [[Windows 8.1]]
+* [[Windows 7]] SP1
+* [[Windows Server 2019]]
+* [[Windows Server 2016]]
+* [[Windows Server 2012 R2]]
+* [[Windows Server 2012]]
+* [[Windows Server 2008 R2]]&lt;ref name="sysreq-365"&gt;{{cite web|title=System requirements for Office|url=https://products.office.com/en/office-system-requirements|work=Office.com|publisher=Microsoft|accessdate=March 30, 2019}}&lt;/ref&gt;
+}}
+| platform = [[IA-32]], [[x64]], [[ARM architecture|ARM]]
+| genre = [[Word processor]]
+| license = [[Trialware]]
+| website = {{URL|1=https://products.office.com/word}}
+}}
+{{Infobox software
+| name                   = Microsoft Word for Mac
+| logo                   =
+| screenshot             = Word for Mac 2016.png
+| caption                = Microsoft Word for Mac 2016 on [[OS X Yosemite]]
+| developer              = [[Microsoft]]
+| latest release version = 16.30 (Build 19101301)
+| latest release date    = {{Start date and age|2019|10|15}}&lt;ref&gt;{{cite web|website=[[Microsoft Docs]]|url=https://docs.microsoft.com/en-gb/officeupdates/update-history-office-for-mac|title=Update history for Office for Mac|accessdate=2019-10-15}}&lt;/ref&gt;
+| genre                  = [[Word processor]]
+| license                = [[Proprietary software|Proprietary]] [[software plus services]]
+| website                = {{URL|1=https://products.office.com/word}}
+| latest_preview_version =
+| latest_preview_date    =
+| operating_system       = {{Plainlist|
+* [[macOS Sierra]]
+* [[macOS High Sierra]]
+* [[macOS Mojave]]&lt;ref name="sysreq-365" /&gt;
+}}
+}}
+{{Infobox software
+| name = Microsoft Word for Android
+| screenshot = Microsoft Word for Android 16.png
+| caption = Screenshot of Microsoft Word for Android 16
+| author = [[Microsoft Corporation]]
+| developer = [[Microsoft Corporation]]
+| latest_release_version = 16.0.12827.20140
+| latest_release_date = {{Start date and age|2020|5|15}}&lt;ref&gt;{{Cite web|url=https://play.google.com/store/apps/details?id=com.microsoft.office.word|title=Microsoft Word: Write, Edit &amp; Share Docs on the Go APKs|website=PlayStore|access-date=2020-05-15}}&lt;/ref&gt;
+| operating_system = [[Android Marshmallow]] and later
+| size = 
+| genre = 
+| license = [[Proprietary software|Proprietary]] [[commercial software]]
+| website = {{URL|1=https://play.google.com/store/apps/details?id=com.microsoft.office.word}}
+}}
+{{Infobox software
+| name                   = Microsoft Word for iOS
+| screenshot             =  
+| caption                = 
+| developer              = [[Microsoft Corporation]]
+| latest_release_version = 2.30.1
+| latest_release_date    = {{Start date and age|2019|10|18}}&lt;ref&gt;{{Cite web|url=https://apps.apple.com/app/id586447913|title=Microsoft Word|website=App Store|language=en-us|access-date=2019-10-18}}&lt;/ref&gt;
+| operating_system       = [[iOS]] [[IOS 12|12]] and later
+| genre                  = 
+| license                = [[Proprietary software|Proprietary]] [[commercial software]]
+| website                = {{URL|1=https://products.office.com/word}}
+}}
+{{Infobox software
+| name                   = Word Mobile for Windows 10
+| logo                   = 
+| screenshot             = 
+| caption                = 
+| developer              = [[Microsoft]]
+| released               = 
+| latest release version = 16002.12325.20032.0 | latest release date    = {{Start date and age|2019|12|12}}
+| latest_preview_version =
+| operating_system       = [[Windows 10]], [[Windows 10 Mobile]]
+| language               = 
+| language count         = 
+| language footnote      = 
+| genre                  = [[Word processor]]
+| license                = [[Trialware]]
+| website                = {{URL|1=https://www.microsoft.com/store/productid/9WZDNCRFJB9S}}
+}}
+
+'''Microsoft Word''', also referred to as simply '''Word''', is a [[word processor]] developed by [[Microsoft]]. It was first released on October 25, 1983&lt;ref&gt;{{cite web|url=http://royal.pingdom.com/2009/06/17/first-version-of-todays-most-popular-applications-a-visual-tour/|title=Version 1.0 of today's most popular applications, a visual tour – Pingdom Royal|work=[[Pingdom]]|date=June 17, 2009|accessdate=April 12, 2016|archive-url=https://web.archive.org/web/20180813072250/https://royal.pingdom.com/2009/06/17/first-version-of-todays-most-popular-applications-a-visual-tour/|archive-date=August 13, 2018|url-status=dead}}&lt;/ref&gt; under the name ''Multi-Tool Word'' for [[Xenix]] systems.&lt;ref name="PCHistory"&gt;{{Cite book|first=Roy|last=A. Allen|title=A History of the Personal Computer: The People and the Technology|date=October 2001|publisher=Allan Publishing|edition=1st|isbn=978-0-9689108-0-1|url=https://archive.org/details/A_History_of_the_Personal_Computer|chapter=Chapter 12: Microsoft in the 1980's|chapterurl=https://archive.org/download/A_History_of_the_Personal_Computer/eBook12.pdf|pages=12/25–12/26|accessdate=November 7, 2010}}&lt;/ref&gt;&lt;ref&gt;{{cite web|url=http://office.microsoft.com/en-us/help/HA101996251033.aspx |title=Microsoft Office online, Getting to know you...again: The Ribbon |url-status=dead |archiveurl=https://web.archive.org/web/20110511074037/http://office.microsoft.com/en-us/help/HA101996251033.aspx |archivedate=May 11, 2011 |df= }}&lt;/ref&gt;&lt;ref&gt;{{cite web|url=http://www.historyofbranding.com/microsoft.html |title=The history of branding, Microsoft history |url-status=dead |archiveurl=https://web.archive.org/web/20090528002301/http://www.historyofbranding.com/microsoft.html |archivedate=May 28, 2009 |df= }}&lt;/ref&gt; Subsequent versions were later written for several other platforms including [[IBM PC]]s running [[DOS]] (1983), [[Apple Macintosh]] running the [[Classic Mac OS]] (1985), [[AT&amp;T Unix PC]] (1985), [[Atari ST]] (1988), [[OS/2]] (1989), [[Microsoft Windows]] (1989), [[SCO Unix]] (1994), and [[macOS]] (formerly OS X; 2001).
+
+Commercial versions of Word are licensed as a standalone product or as a component of [[Microsoft Office]], [[Windows RT]] or the discontinued [[Microsoft Works|Microsoft Works suite]].
+
+==History==
+{{Main|History of Microsoft Word}}
+
+===Origins===
+In 1981, Microsoft hired [[Charles Simonyi]], the primary developer of [[Bravo (software)|Bravo]], the first [[GUI]] [[word processor]], which was developed at [[PARC (company)|Xerox PARC]].&lt;ref name="pcworld_word25"&gt;{{cite news | url=http://www.pcworld.com/article/152585/microsoft_word_turns_25.html | title= Microsoft Word Turns 25 | last=Edwards | first=Benj | work=PC World | date=October 22, 2008 | accessdate=November 7, 2010}}&lt;/ref&gt; Simonyi started work on a word processor called ''Multi-Tool Word'' and soon hired [[Richard Brodie (programmer)|Richard Brodie]], a former Xerox intern, who became the primary software engineer.&lt;ref name="pcworld_word25"/&gt;&lt;ref&gt;{{Cite book | title=Microsoft First Generation | first=Cheryl | last=Tsang | year=1999 | publisher=John Wiley &amp; Sons | isbn=978-0-471-33206-0 | url=https://archive.org/details/microsoftfirstge00cher }}&lt;/ref&gt;&lt;ref&gt;{{cite web | url=http://blogs.msdn.com/rick_schaut/archive/2004/05/19/135315.aspx | title=Anatomy of a Software Bug | first=Rick | last=Schaut | date=May 19, 2004 | work=MSDN Blogs | accessdate=December 2, 2006 | archive-url=https://web.archive.org/web/20100201040227/http://blogs.msdn.com/rick_schaut/archive/2004/05/19/135315.aspx | archive-date=February 1, 2010 | url-status=dead | df=mdy-all }}&lt;/ref&gt;
+
+Microsoft announced Multi-Tool Word for [[Xenix]]&lt;ref name="pcworld_word25"/&gt; and MS-DOS in 1983.&lt;ref name="infoworld_multi-tool_word"&gt;{{cite news | url=https://books.google.com/books?id=4S8EAAAAMBAJ&amp;pg=PA10 | title=Mouse and new WP program join Microsoft product lineup | last=Markoff | first=John | work=InfoWorld | date=May 30, 1983 | page=10 | accessdate=November 7, 2010}}&lt;/ref&gt; Its name was soon simplified to ''Microsoft Word''.&lt;ref name="PCHistory"/&gt; Free demonstration copies of the application were bundled with the November 1983 issue of ''[[PC World]]'', making it the first to be distributed on-disk with a [[magazine]].&lt;ref name="PCHistory" /&gt;&lt;ref name="NYTimes19930825"&gt;{{cite news | url=https://www.nytimes.com/1983/08/25/business/technologyandrew-pollack-computerizing-magazines.html | title=Computerizing Magazines | work=The New York Times | date=August 25, 1983 | accessdate=April 24, 2013 | last=Pollack | first=Andrew}}&lt;/ref&gt; That year Microsoft demonstrated Word running on [[Windows]].&lt;ref name="lemmons198312"&gt;{{cite news | url=https://archive.org/stream/byte-magazine-1983-12/1983_12_BYTE_08-12_Easy_Software#page/n49/mode/2up | title=Microsoft Windows | work=BYTE | date=December 1983 | accessdate=October 20, 2013 | author=Lemmons, Phil | pages=48}}&lt;/ref&gt;
+
+Unlike most MS-DOS programs at the time, Microsoft Word was designed to be used with a mouse.&lt;ref name="infoworld_multi-tool_word"/&gt; Advertisements depicted the [[Microsoft Mouse]], and described Word as a [[WYSIWYG]], windowed word processor with the ability to [[undo]] and display bold, italic, and underlined text,&lt;ref name="byte198312"&gt;{{cite news | url=https://archive.org/stream/byte-magazine-1983-12/1983_12_BYTE_08-12_Easy_Software#page/n89/mode/2up | title=Undo. Windows. Mouse. Finally. | work=BYTE | date=December 1983 | accessdate=October 20, 2013 | author=Advertisement | pages=88–89}}&lt;/ref&gt; although it could not render [[font]]s.&lt;ref name="PCHistory"/&gt; It was not initially popular, since its user interface was different from the leading word processor at the time, [[WordStar]].&lt;ref&gt;{{cite book|last=Peterson|first=W.E. Pete|title=Almost Perfect: How a Bunch of Regular Guys Built Wordperfect Corporation|year=1994|publisher=Prima Publishing|isbn=0-7881-9991-9|url=https://www.amazon.com/Almost-Perfect-Regular-Wordperfect-Corporation/dp/0788199919/ref=sr_1_2?ie=UTF8&amp;qid=1320973142&amp;sr=8-2}}&lt;/ref&gt; However, Microsoft steadily improved the product, releasing versions 2.0 through 5.0 over the next six years. In 1985, Microsoft [[Porting|ported]] Word to the [[classic Mac OS]] (known as Macintosh System Software at the time). This was made easier by Word for DOS having been designed for use with high-resolution displays and laser printers, even though none were yet available to the general public.&lt;ref name="lowendmac_history"&gt;{{cite news | url=http://lowendmac.com/2013/microsoft-word-for-mac-faq/ | title= Microsoft Word for Mac History | last=Knight | first=Dan | work=Low End Mac | date=May 22, 2008 | accessdate=November 7, 2010}}&lt;/ref&gt; Following the precedents of LisaWrite and MacWrite, Word for Mac OS added true WYSIWYG features. It fulfilled a need for a word processor that was more capable than [[MacWrite]].&lt;ref&gt;{{cite web|url=https://archive.org/stream/Whole_Earth_Software_Catalog_for_1986_1985_Point/Whole_Earth_Software_Catalog_for_1986_1985_Point_djvu.txt|title=Whole Earth Software Catalog|quote=For a year, I waited for a heavier-duty word processor than MACWRITE. I finally got it— WORD.}}&lt;/ref&gt; After its release, Word for Mac OS's sales were higher than its MS-DOS counterpart for at least four years.&lt;ref name="pcworld_word25"/&gt;
+
+The second release of Word for Mac OS, shipped in 1987, was named Word 3.0 to synchronize its version number with Word for DOS; this was Microsoft's first attempt to synchronize version numbers across platforms. Word 3.0 included numerous internal enhancements and new features, including the first implementation of the [[Rich Text Format]] (RTF) specification, but was plagued with bugs. Within a few months, Word 3.0 was superseded by a more stable Word 3.01, which was mailed free to all registered users of 3.0.&lt;ref name="lowendmac_history"/&gt; After MacWrite Pro was discontinued in the mid-1990s, Word for Mac OS never had any serious rivals. Word 5.1 for Mac OS, released in 1992, was a very popular word processor owing to its elegance, relative ease of use and feature set. Many users say it is the best version of Word for Mac OS ever created.&lt;ref name="lowendmac_history"/&gt;&lt;ref name="msdn_macword6"&gt;{{cite web | url=http://blogs.msdn.com/rick_schaut/archive/2004/02/26/80193.aspx | title=Mac Word 6.0 | work=Buggin' My Life Away | publisher=MSDN Blogs | last=Schaut | first=Rick | date=February 26, 2004 | accessdate=June 21, 2010 | archive-url=https://web.archive.org/web/20040514091238/http://blogs.msdn.com/rick_schaut/archive/2004/02/26/80193.aspx | archive-date=May 14, 2004 | url-status=dead | df=mdy-all }}&lt;/ref&gt;
+
+In 1986, an agreement between [[Atari]] and Microsoft brought Word to the [[Atari ST]]&lt;ref name="Microsoft Write for Atari ST"&gt;{{cite web|url=http://www.atarimagazines.com/compute/issue77/News_Products.php?tag= |title=Atari announces agreement with Microsoft |publisher=Atarimagazines.com |date=April 25, 2008 |accessdate=June 21, 2010}}&lt;/ref&gt; under the name ''Microsoft Write''. The Atari ST version was a port of Word 1.05 for the Mac OS&lt;ref name="Microsoft Write for Atari ST review"&gt;{{cite web|url=http://www.atarimagazines.com/startv3n1/microsoftwrite.html?tag= |title=Feature Review: Microsoft Write |publisher=Atarimagazines.com |date=April 25, 2008 |accessdate=June 21, 2010}}&lt;/ref&gt;&lt;ref name="Microsoft Word for Atari ST"&gt;{{cite web|url=http://www.atarimagazines.com/v5n11/ataricorp.html?tag= |title=Today's Atari Corp.: A close up look inside |publisher=Atarimagazines.com |date=April 25, 2008 |accessdate=June 21, 2010}}&lt;/ref&gt; and was never updated.
+
+The first version of Word for Windows was released in 1989. With the release of [[Windows 3.0]] the following year, sales began to pick up and Microsoft soon became the market leader for word processors for IBM PC-compatible computers.&lt;ref name="pcworld_word25"/&gt; In 1991, Microsoft capitalized on Word for Windows' increasing popularity by releasing a version of Word for DOS, version 5.5, that replaced its unique user interface with an interface similar to a Windows application.&lt;ref&gt;{{cite news | url=https://books.google.com/books?id=tDwEAAAAMBAJ&amp;pg=PA151 | title=First Look: Microsoft Updates Look of And Adds Pull-Down Menus to Character-Based Word 5.5 | last=Miller | first=Michael J. | work=InfoWorld | date=November 12, 1990 | page=151 | accessdate=November 7, 2010}}&lt;/ref&gt;&lt;ref&gt;{{cite news | url=https://books.google.com/books?id=wFAEAAAAMBAJ&amp;pg=PA108 | title=Microsoft Word 5.5: Should You Fight or Switch? | last=Needleman | first=Raphael | work=InfoWorld | date=November 19, 1990 | page=106 | accessdate=November 7, 2010}}&lt;/ref&gt; When Microsoft became aware of the [[Year 2000 problem]], it made Microsoft Word 5.5 for DOS available for download free. {{As of|2018|July}}, it is still available for download from Microsoft's web site.&lt;ref&gt;{{cite web | url=http://download.microsoft.com/download/word97win/Wd55_be/97/WIN98/EN-US/Wd55_ben.exe | title=Microsoft Word 5.5 for MS-DOS (EXE format) | work=Microsoft Download Center | accessdate=August 19, 2011}}&lt;/ref&gt;
+In 1991, Microsoft embarked on a project code-named Pyramid to completely rewrite Microsoft Word from the ground up. Both the Windows and Mac OS versions would start from the same code base. It was abandoned when it was determined that it would take the development team too long to rewrite and then catch up with all the new capabilities that could have been added at the same time without a rewrite. Instead, the next versions of Word for Windows and Mac OS, dubbed version 6.0, both started from the code base of Word for Windows 2.0.&lt;ref name="msdn_macword6"/&gt;
+
+With the release of Word 6.0 in 1993, Microsoft again attempted to synchronize the version numbers and coordinate product naming across platforms, this time across DOS, Mac OS, and Windows (this was the last version of Word for DOS). It introduced AutoCorrect, which automatically fixed certain typing errors, and AutoFormat, which could reformat many parts of a document at once. While the Windows version received favorable reviews (e.g., from ''InfoWorld''&lt;ref name="infoworld_word6"&gt;{{cite news | url=https://books.google.com/books?id=6DoEAAAAMBAJ&amp;pg=PA66 | title=War of the Words | work=InfoWorld | date=February 7, 1994 | pages=66–79 | accessdate=November 7, 2010}}&lt;/ref&gt;), the Mac OS version was widely derided. Many accused it of being slow, clumsy and memory intensive, and its user interface differed significantly from Word 5.1.&lt;ref name="msdn_macword6"/&gt; In response to user requests, Microsoft offered Word 5 again, after it had been discontinued.&lt;ref name="ugeek_97"&gt;{{cite web | url=http://www.geek.com/hwswrev/off98mac.htm | title=UGeek Software Review: Microsoft Office 98 Gold for Macintosh | last=Lockman | first=James T.W. | date=May 15, 1998 | accessdate=November 7, 2010 | archive-url=https://web.archive.org/web/20101203220342/http://www.geek.com/hwswrev/off98mac.htm | archive-date=December 3, 2010 | url-status=dead | df=mdy-all }}&lt;/ref&gt; Subsequent versions of Word for macOS are no longer direct ports of Word for Windows, instead featuring a mixture of ported code and native code.
+
+===Word for Windows===
+{{Expand section|with=more recent versions of the software|section=3|small=no|date=April 2020|talksection=Talk:Microsoft Word#The_"Word_for_Windows"_section}}
+[[File:MS Word 2007.png|thumb|right|Microsoft Word 2007]]
+Word for Windows is available stand-alone or as part of the Microsoft Office suite. Word contains rudimentary desktop publishing capabilities and is the most widely used word processing program on the market. Word files are commonly used as the format for sending text documents via e-mail because almost every user with a computer can read a Word document by using the Word application, a Word viewer or a word processor that imports the Word format (see [[Microsoft Word Viewer]]).
+
+Word 6 for Windows NT was the first 32-bit version of the product,&lt;ref&gt;{{Cite web |url=http://www.danielsays.com/ss-gallery-winnt2k-ms-office-nt.html |title=Microsoft Office for Windows NT |website=DanielSays.com — Daniel's Legacy Computer Collections |first=Daniel|last=Rose |access-date=May 15, 2015 |archive-url=https://web.archive.org/web/20150127063342/http://www.danielsays.com/ss-gallery-winnt2k-ms-office-nt.html |archive-date=January 27, 2015 |url-status=dead |df=mdy-all }}&lt;/ref&gt; released with Microsoft Office for Windows NT around the same time as [[Microsoft Windows 95|Windows 95]]. It was a straightforward port of Word 6.0. Starting with Word 95, releases of Word were named after the year of its release, instead of its version number.&lt;ref&gt;{{cite web | url=http://www.computerworld.com/s/article/9003994/Final_Review_The_Lowdown_on_Office_2007?taxonomyId=18&amp;pageNumber=2 | title=Final Review: The Lowdown on Office 2007 | work=Computerworld | first= Richard | last=Ericson | date=October 11, 2006 | accessdate=November 8, 2010}}&lt;/ref&gt;
+
+Word 2010 allows more customization of the Ribbon,&lt;ref name="pcmag_office2010"&gt;{{cite news | url=https://www.pcmag.com/article2/0,2817,2362921,00.asp | title=Microsoft Office 2010 | work=PC Magazine | first=Edward | last=Mendelson | author-link=Edward Mendelson | date=May 11, 2010 | accessdate=November 8, 2010}}&lt;/ref&gt; adds a Backstage view for file management,&lt;ref name="pcmag_backstage"&gt;{{cite news | url=https://www.pcmag.com/article2/0,2817,2362923,00.asp | title=Microsoft Office 2010: Office 2010's Backstage View | work=PC Magazine | first=Edward | last=Mendelson |author-link=Edward Mendelson | date=May 11, 2010 | accessdate=November 8, 2010}}&lt;/ref&gt; has improved document navigation, allows creation and embedding of screenshots,&lt;ref name="pcmag_word2010"&gt;{{cite news | url=https://www.pcmag.com/article2/0,2817,2362925,00.asp | title=Microsoft Office 2010: The Word on Word | work=PC Magazine | first=Edward | last=Mendelson  |author-link=Edward Mendelson | date=May 11, 2010 | accessdate=November 8, 2010}}&lt;/ref&gt; and integrates with [[Office Web Apps|Word Web App]].&lt;ref&gt;{{cite web | url=http://office.microsoft.com/en-us/web-apps-help/introduction-to-word-web-app-HA010378341.aspx | title=Introduction to Word Web App | publisher=Microsoft | accessdate=November 8, 2010}}&lt;/ref&gt;
+
+Word 2016
+
+Word 2019 adds the dictate function, Old word documents can be transcoded into new documents unlocking word 2019s new features such as converting to webpage and others
+
+===Word for Mac===
+{{see also|Microsoft Office#Mac versions|label 1 = Microsoft Office § Mac versions}}The Mac was introduced January 24, 1984, and Microsoft introduced Word 1.0 for Mac a year later, on January 18, 1985. The DOS, Mac, and Windows versions are quite different from each other. Only the Mac version was [[WYSIWYG]] and used a graphical user interface, far ahead of the other platforms. Each platform restarted its version numbering at "1.0" (https://winworldpc.com/product/microsoft-word/1x-mac). There was no version 2 on the Mac, but version 3 came out on January 31, 1987, as described above. Word 4.0 came out on November 6, 1990, and added automatic linking with Excel, the ability to flow text around graphics and a WYSIWYG page view editing mode.
+
+Word 5.1 for Mac, released in 1992 ran on the original 68000 CPU and was the last to be specifically designed as a Macintosh application. The later Word 6 was a Windows port and poorly received. Word 5.1 continued to run well until the very last Classic MacOS. Many people continue to run Word 5.1 to this day under an emulated Mac classic system for some of its excellent features like document generation and renumbering or to access their old files.[[File:Microsoft Word for Mac 2011.png|thumb|Microsoft Word 2011 running on OS X]]
+In 1997, Microsoft formed the [[Macintosh Business Unit]] as an independent group within Microsoft focused on writing software for [[Mac OS 9|Mac OS]]. Its first version of Word, Word 98, was released with Office 98 Macintosh Edition. Document compatibility reached parity with Word 97,&lt;ref name="ugeek_97" /&gt; and it included features from Word 97 for Windows, including spell and grammar checking with squiggles.&lt;ref name="appleinsider_history"&gt;{{cite news | url=http://www.appleinsider.com/articles/07/11/12/road_to_mac_office_2008_an_introduction.html&amp;page=3 | title=Road to Mac Office 2008: an introduction (Page 3) | last=McLean | first=Prince | work=AppleInsider | date=November 12, 2007 | accessdate=November 7, 2010 | archive-url=https://web.archive.org/web/20110707153946/http://www.appleinsider.com/articles/07/11/12/road_to_mac_office_2008_an_introduction.html%26page%3D3 | archive-date=July 7, 2011 | url-status=dead }}&lt;/ref&gt; Users could choose the menus and keyboard shortcuts to be similar to either Word 97 for Windows or Word 5 for Mac OS.
+
+Word 2001, released in 2000, added a few new features, including the [[clipboard manager|Office Clipboard]], which allowed users to copy and paste multiple items.&lt;ref name="atpm"&gt;{{cite web | url=http://www.atpm.com/7.01/office.shtml | title=Review: Microsoft Office 2001 | work=ATPM: About This Particular Macintosh | last=Tetrault | first=Gregory |date = January 2001| accessdate=November 7, 2010}}&lt;/ref&gt; It was the last version to run on [[classic Mac OS]] and, on [[Mac OS X]], it could only run within the [[Classic Environment]]. Word X, released in 2001, was the first version to run natively on, and required, Mac OS X,&lt;ref name="appleinsider_history" /&gt; and introduced non-contiguous text selection.&lt;ref name="macworld_wordx"&gt;{{cite news | url=http://www.macworld.com/reviews/product/407306/review/microsoft_office_overall_rating.html | title=Review: Microsoft Office v. X | first=Tom | last=Negrino | work=Macworld | date=February 1, 2002 | accessdate=November 7, 2010}}&lt;/ref&gt;
+
+Word 2004 was released in May 2004. It included a new Notebook Layout view for taking notes either by typing or by voice.&lt;ref name="macworld_2004"&gt;{{cite news | url=http://www.macworld.com/article/29728/2004/03/office2004firstlook.html | title= Office 2004: First Look | work=Macworld | first1=Kelly | last1=Lunsford | first2=Philip | last2=Michaels | first3=Jason | last3=Snell | date=March 3, 2004 | accessdate=November 7, 2010}}&lt;/ref&gt; Other features, such as tracking changes, were made more similar with Office for Windows.&lt;ref name="macnn_2004"&gt;{{cite web | url=http://www.macnn.com/reviews/microsoft-office.html | title=Review: Microsoft Office | work=MacNN | first=Steve | last=Friedberg | date=May 25, 2004 | accessdate=November 7, 2010 | archive-url=https://web.archive.org/web/20100405220059/http://www.macnn.com/reviews/microsoft-office.html | archive-date=April 5, 2010 | url-status=dead | df=mdy-all }}&lt;/ref&gt;
+
+Word 2008, released on January 15, 2008, included a Ribbon-like feature, called the Elements Gallery, that can be used to select page layouts and insert custom diagrams and images. It also included a new view focused on publishing layout, integrated bibliography management,&lt;ref name="appleinsider_word2008_1"&gt;{{cite news | url=http://www.appleinsider.com/articles/07/11/14/road_to_mac_office_2008_word_08_vs_pages_3_0.html | title= Road to Mac Office 2008: Word '08 vs Pages 3.0 | last=McLean | first=Prince | work=AppleInsider | date=November 14, 2007 | accessdate=November 7, 2010}}&lt;/ref&gt; and native support for the new Office Open XML format. It was the first version to run natively on Intel-based Macs.&lt;ref name="appleinsider_2008"&gt;{{cite news | url=http://www.appleinsider.com/articles/07/11/12/road_to_mac_office_2008_an_introduction.html&amp;page=4 | title=Road to Mac Office 2008: an introduction (Page 4) | last=McLean | first=Prince | work=AppleInsider | date=November 12, 2007 | accessdate=November 7, 2010 | archive-url=https://web.archive.org/web/20110707153958/http://www.appleinsider.com/articles/07/11/12/road_to_mac_office_2008_an_introduction.html%26page%3D4 | archive-date=July 7, 2011 | url-status=dead }}&lt;/ref&gt;
+
+Word 2011, released in October 2010, replaced the Elements Gallery in favor of a Ribbon user interface that is much more similar to Office for Windows,&lt;ref name="appleinsider_ribbon"&gt;{{cite news | url=http://www.appleinsider.com/articles/10/03/29/new_office_11_for_mac_sports_dense_ribbons_of_buttons.html | title=New Office 11 for Mac sports dense ribbons of buttons | last=McLean | first=Prince | work=AppleInsider | date=March 29, 2010 | accessdate=November 7, 2010}}&lt;/ref&gt; and includes a full-screen mode that allows users to focus on reading and writing documents, and support for [[Office Web Apps]].&lt;ref name="appleinsider_2011_2"&gt;{{cite news | url=http://www.appleinsider.com/articles/10/10/25/review_microsofts_office_2011_for_mac.html&amp;page=2 | title=Review: Microsoft's Office 2011 for Mac (Page 2) | work=Apple Insider | date=October 25, 2010 | accessdate=November 7, 2010 | last=Dilger | first=Daniel Eran | archive-url=https://web.archive.org/web/20101028082955/http://www.appleinsider.com/articles/10/10/25/review_microsofts_office_2011_for_mac.html%26page%3D2 | archive-date=October 28, 2010 | url-status=dead }}&lt;/ref&gt;
+
+===Word for Mobile===
+Word Mobile is a [[word processor]] that allows creating and editing documents. It supports basic formatting, such as bolding, changing font size, and changing colors (from red, yellow, or green). It can add comments, but can't edit documents with tracked changes. It can't open password protected documents, change the typeface, text alignment, or style (normal, heading 1); create bulleted lists; insert pictures; or undo.&lt;ref name=TechHive&gt;{{cite web|last1=Ralph|first1=Nate|title=Office for Windows Phone 8: Your handy starter guide|url=http://www.techhive.com/article/2025977/office-for-windows-phone-8-your-handy-starter-guide.html|website=TechHive|accessdate=August 30, 2014}}&lt;/ref&gt;&lt;ref name=Engadget&gt;{{cite web|last1=Wollman|first1=Dana|title=Microsoft Office Mobile for iPhone hands-on|url=https://www.engadget.com/2013/06/14/microsoft-office-mobile-for-iphone-hands-on/|website=Engadget|accessdate=August 30, 2014}}&lt;/ref&gt;&lt;ref name=NYT&gt;{{cite news|last1=Pogue|first1=David|title=Microsoft Adds Office for iPhone. Yawn.|url=https://www.nytimes.com/2013/06/20/technology/personaltech/microsoft-office-for-the-iphone-is-here-yawn.html?_r=1&amp;|publisher=The New York Times|accessdate=August 30, 2014}}&lt;/ref&gt; Word Mobile is neither able to display nor insert [[footnote]]s, [[endnote]]s, [[page header]]s, [[page footer]]s, [[page break]]s, certain [[Indentation (typesetting)|indentation]] of lists, and certain [[font]]s while working on a document, but retains them if the original document has them.&lt;ref name="Unsupported Word Mobile features" /&gt; In addition to the features of the 2013 version, the 2007 version on Windows Mobile also has the ability to save documents in the [[Rich Text Format]] and open legacy PSW (Pocket Word).&lt;ref name="Unsupported Word Mobile features"&gt;[http://www.microsoft.com/windowsmobile/help/pocketpc/unsupportedword.mspx Unsupported Features in Word Mobile]. Microsoft. Retrieved September 21, 2007.&lt;/ref&gt; Furthermore, it includes a [[spell checker]], [[word count]] tool, and a "Find and Replace" command. In 2015, Word Mobile became available for Windows 10 and Windows 10 Mobile on [[Windows Store]].&lt;ref name=":0" /&gt;
+
+==File formats==
+{{Infobox
+| bodystyle = width:314px
+| title   = Native file formats
+| image   = [[File:.doc icon.svg|x75px]] [[File:.docx icon.svg|x75px]]
+| caption = Left: The icon for &lt;code&gt;.doc&lt;/code&gt; files that comes with [[Microsoft Office 2019]].&lt;br/&gt;Right: The icon for &lt;code&gt;.docx&lt;/code&gt; files, as seen on [[Microsoft OneDrive]]. The icon seen in Microsoft Office 2019 is slightly more colorful.
+| label1  = DOC
+| data1   = Legacy Word document
+| label2  = DOT
+| data2   = Legacy Word templates
+| label3  = WBK
+| data3   = Legacy Word document backup
+| label4  = DOCX
+| data4   = XML Word document
+| label5  = DOCM
+| data5   = XML Word macro-enabled document
+| label6  = DOTX
+| data6   = XML Word template
+| label7  = DOTM
+| data7   = XML Word macro-enabled template
+| label8  = DOCB
+| data8   = XML Word binary document
+}}
+
+===Filename extensions===
+Microsoft Word's native file formats are denoted either by a &lt;code&gt;.doc&lt;/code&gt; or &lt;code&gt;.docx&lt;/code&gt; [[filename extension]].
+
+Although the [[Doc (computing)|&lt;code&gt;.doc&lt;/code&gt;]] extension has been used in many different versions of Word, it actually encompasses four distinct file formats:
+# Word for DOS
+# Word for Windows 1 and 2; Word 3 and 4 for Mac OS
+# Word 6 and Word 95 for Windows; Word 6 for Mac OS
+# Word 97 and later for Windows; Word 98 and later for Mac OS
+
+(The [[classic Mac OS]] of the era did not use filename extensions.)&lt;ref&gt;{{Cite web|url=https://eclecticlight.co/2015/05/02/why-the-extensions-quirks-in-the-naming-of-files-and-folders/|title=.why .the .extensions? Quirks in the naming of files and folders|last=Oakley|first=Howard|date=2015-05-02|website=The Eclectic Light Company|language=en|url-status=live|access-date=2020-02-26|quote=Macs used to be the only computers that did not need filename extensions...on classic Mac systems, you can name applications, documents, and most other files almost anything that you like, as the name is not linked in any way to the type of thing that file is.}}&lt;/ref&gt;
+
+The newer &lt;code&gt;.docx&lt;/code&gt; extension signifies the [[Office Open XML]] [[international standard]] for Office documents and is used by Word 2007 and later for Windows, Word 2008 and later for macOS, as well as by a growing number of applications from other vendors, including [[OpenOffice.org Writer]], an [[open source software|open source]] word processing program.&lt;ref&gt;{{Cite web|url=https://www.loc.gov/preservation/digital/formats/fdd/fdd000397.shtml|title=DOCX Transitional (Office Open XML), ISO 29500:2008-2016, ECMA-376, Editions 1-5|date=2017-01-20|website=www.loc.gov|access-date=2019-07-09}}&lt;/ref&gt;&lt;ref&gt;{{cite web| url = http://www.openoffice.org/dev_docs/features/3.0/#Microsoft_Office_2007_Import_Filters | title = OpenOffice.org 3.0 New Features&amp;nbsp;— Microsoft Office 2007 Import Filters | accessdate = April 26, 2010}}&lt;/ref&gt;
+
+===Binary formats (Word 97–2007)===
+During the late 1990s and early 2000s, the default Word document format ([[DOC (computing)|.DOC]]) became a ''[[de facto]]'' standard of [[document file format]]s for Microsoft Office users.{{Citation needed|date=December 2015}} There are different versions of "Word Document Format" used by default in Word 97–2007.&lt;ref&gt;{{cite book|title=[MS-DOC]: Word (.doc) Binary File Format|publisher=[[Microsoft]]|location=[[Redmond, WA]]|url=http://download.microsoft.com/download/2/4/8/24862317-78F0-4C4B-B355-C7B2C1D997DB/%5BMS-DOC%5D.pdf|chapter=5 Appendix A: Product Behavior|chapter-url=http://msdn.microsoft.com/en-us/library/dd946767%28v=office.12%29.aspx|access-date=January 10, 2015|archive-url=https://web.archive.org/web/20150110202652/http://download.microsoft.com/download/2/4/8/24862317-78F0-4C4B-B355-C7B2C1D997DB/%5BMS-DOC%5D.pdf|archive-date=January 10, 2015|url-status=dead}}&lt;/ref&gt; Each binary word file is a [[Compound File Binary Format|Compound File]],&lt;ref&gt;{{cite book|title=[MS-DOC]: Word (.doc) Binary File Format|publisher=[[Microsoft]]|location=[[Redmond, WA]]|url=http://download.microsoft.com/download/2/4/8/24862317-78F0-4C4B-B355-C7B2C1D997DB/%5BMS-DOC%5D.pdf|chapter=2.1 File Structure|chapter-url=http://msdn.microsoft.com/en-us/library/dd923543%28v=office.12%29.aspx|access-date=January 10, 2015|archive-url=https://web.archive.org/web/20150110202652/http://download.microsoft.com/download/2/4/8/24862317-78F0-4C4B-B355-C7B2C1D997DB/%5BMS-DOC%5D.pdf|archive-date=January 10, 2015|url-status=dead}}&lt;/ref&gt; a hierarchical [[file system]] within a file.&lt;ref name="spolsky-commentry"&gt;{{cite web | url=http://www.joelonsoftware.com/items/2008/02/19.html | title=Why are the Microsoft Office file formats so complicated? (And some workarounds) | work=Joel on Software | date=February 19, 2008 | last=Spolsky | first=Joel}}&lt;/ref&gt; According to [[Joel Spolsky]], Word Binary File Format is extremely complex mainly because its developers had to accommodate an overwhelming number of features and prioritize performance over anything else.&lt;ref name="spolsky-commentry" /&gt;
+
+As with all OLE Compound Files, Word Binary Format consists of "storages", which are analogous to [[folder (computing)|computer folders]], and "streams", which are similar to [[computer file]]s. Each storage may contain streams or other storage. Each Word Binary File must contain a stream called "WordDocument" stream and this stream must start with a File Information Block (FIB).&lt;ref&gt;{{cite book|title=[MS-DOC]: Word (.doc) Binary File Format|publisher=[[Microsoft]]|location=[[Redmond, WA]]|url=http://download.microsoft.com/download/2/4/8/24862317-78F0-4C4B-B355-C7B2C1D997DB/%5BMS-DOC%5D.pdf|chapter=2.1.1 WordDocument Stream|chapter-url=http://msdn.microsoft.com/en-us/library/dd926131%28v=office.12%29.aspx|access-date=January 10, 2015|archive-url=https://web.archive.org/web/20150110202652/http://download.microsoft.com/download/2/4/8/24862317-78F0-4C4B-B355-C7B2C1D997DB/%5BMS-DOC%5D.pdf|archive-date=January 10, 2015|url-status=dead}}&lt;/ref&gt; FIB serves as the first point of reference for locating everything else, such as where the text in a Word document starts, ends, what version of Word created the document and other attributes.
+
+Word 2007 and later continue to support the DOC file format, although it is no longer the default.
+
+===XML Document (Word 2003)===
+{{Main|Microsoft Office XML formats}}
+{{Expand section|date=December 2013}}
+
+The .docx ''XML '' format introduced in Word 2003&lt;ref&gt;{{cite web|url=http://msdn.microsoft.com/en-us/library/aa223584(office.11).aspx |title=What You Can Do with Word XML [Word 2003 XML Reference] |publisher=MSDN |year=2004}}&lt;/ref&gt; was a simple, [[XML]]-based format called WordprocessingML.
+
+===Cross-version compatibility===
+Opening a Word Document file in a version of Word other than the one with which it was created can cause an incorrect display of the document. The document formats of the various versions change in subtle and not so subtle ways (such as changing the font, or the handling of more complex tasks like footnotes). Formatting created in newer versions does not always survive when viewed in older versions of the program, nearly always because that capability does not exist in the previous version.&lt;ref name="casson_ryan" /&gt; [[Rich Text Format]] (RTF), an early effort to create a format for interchanging formatted text between applications, is an optional format for Word that retains most formatting and all content of the original document.
+
+===Third-party formats===
+[[Plugin (computing)|Plugins]] permitting the Windows versions of Word to read and write formats it does not natively support, such as [[international standard]] [[OpenDocument]] format (ODF) (ISO/IEC 26300:2006), are available. Up until the release of [[Windows XP#Service packs|Service Pack 2]] (SP2) for Office 2007, Word did not natively support reading or writing ODF documents without a plugin, namely the SUN ODF Plugin or the OpenXML/ODF Translator. With SP2 installed, ODF format 1.1 documents can be read and saved like any other supported format in addition to those already available in Word 2007.&lt;ref name="casson_ryan"&gt;{{cite book | last1=Casson | first1=Tony | last2=Ryan | first2=Patrick S. | ssrn=1656616 | chapter=Open Standards, Open Source Adoption in the Public Sector, and Their Relationship to Microsoft's Market Dominance | title=Standards Edge: Unifier or Divider? | editor-last=Bolin | editor-first=Sherrie | date=May 1, 2006 | page=87 | publisher=Sheridan Books}}&lt;/ref&gt;&lt;ref&gt;{{Cite web |title=Microsoft Expands List of Formats Supported in Microsoft Office, May 21, 2008 |url=http://www.microsoft.com/en-us/news/press/2008/may08/05-21ExpandedFormatsPR.aspx|work=News Center |publisher=Microsoft |date=May 21, 2008 |accessdate=April 24, 2013}}&lt;/ref&gt;&lt;ref&gt;{{Cite web |title=Next Office 2007 service pack will include ODF, PDF support options |date=May 21, 2008 |url=http://www.betanews.com/article/Next_Office_2007_service_pack_will_include_ODF_PDF_support_options/1211343807 |work=Betanews |first=Scott M. III |last=Fulton}}&lt;/ref&gt;&lt;ref&gt;{{cite web|author=Andy Updegrove |url=http://consortiuminfo.org/standardsblog/article.php?story=20080521092930864 |title=Microsoft Office 2007 to Support ODF&amp;nbsp;– and not OOXML, May 21, 2008 |publisher=Consortiuminfo.org |date= |accessdate=June 21, 2010}}&lt;/ref&gt;&lt;ref&gt;{{cite web |url=http://software.silicon.com/applications/0,39024653,39230395,00.htm |title=Microsoft: Why we chose ODF support over OOXML, 23 May 2008 |publisher=Software.silicon.com |date= |accessdate=June 21, 2010 |url-status=dead |archiveurl=https://web.archive.org/web/20090721062335/http://software.silicon.com/applications/0%2C39024653%2C39230395%2C00.htm |archivedate=July 21, 2009 |df=mdy-all }}&lt;/ref&gt; The implementation faces [[OpenDocument software#Microsoft Office 2007 SP2 support controversy|substantial criticism]], and the [[ODF Alliance]] and others have claimed that the third-party plugins provide better support.&lt;ref name="sp2-fact-sheet"&gt;{{cite web |url = http://www.odfalliance.org/resources/fact-sheet-Microsoft-ODF-support.pdf |title = Fact-sheet Microsoft ODF support |accessdate = May 24, 2009 |quote = ''Microsoft Excel 2007 will process ODF spreadsheet documents when loaded via the Sun Plug-In 3.0 for Microsoft Office or the SourceForge "OpenXML/ODF Translator Add-in for Office," but will fail when using the "built-in" support provided by Office 2007 SP2.'' |publisher = odfalliance |url-status=dead |archiveurl = https://web.archive.org/web/20090611181719/http://www.odfalliance.org/resources/fact-sheet-Microsoft-ODF-support.pdf |archivedate = June 11, 2009 |df = mdy-all}}&lt;/ref&gt; Microsoft later declared that the ODF support has some limitations.&lt;ref&gt;{{cite web |url=http://office.microsoft.com/en-us/word/HA102835631033.aspx |title=What happens when I save a Word 2007 document in the OpenDocument Text format? |author=Microsoft |accessdate=April 5, 2010 |url-status=dead |archiveurl=https://web.archive.org/web/20100318034328/http://office.microsoft.com/en-us/word/HA102835631033.aspx |archivedate=March 18, 2010 |df=mdy-all }}&lt;/ref&gt;
+
+In October 2005, one year before the Microsoft Office 2007 suite was released, Microsoft declared that there was insufficient demand from Microsoft customers for the international standard OpenDocument format support, and that therefore it would not be included in Microsoft Office 2007. This statement was repeated in the following months.&lt;ref name="office12-pdf"&gt;{{cite web|last=Goodwins |first=Rupert |url=http://news.zdnet.co.uk/software/0,1000000121,39225406,00.htm |title=Office 12 to support PDF creation, 3 October 2005 |publisher=News.zdnet.co.uk |date=October 3, 2005 |accessdate=June 21, 2010}}&lt;/ref&gt;&lt;ref name="odf-must"&gt;{{cite web|last=Marson |first=Ingrid |url=http://news.zdnet.co.uk/software/0,1000000121,39226547,00.htm |title=Microsoft 'must support OpenDocument', 6 October 2005 |publisher=News.zdnet.co.uk |date=October 6, 2005 |accessdate=June 21, 2010}}&lt;/ref&gt;&lt;ref name="gates-odf"&gt;March 23, 2006, Gates: Office 2007 will enable a new class of application [http://news.zdnet.com/2100-3513_22-148675.html Mass. holding tight to OpenDocument – ZDNet] {{webarchive|url=https://web.archive.org/web/20090721020009/http://news.zdnet.com/2100-3513_22-148675.html |date=July 21, 2009 }}&lt;/ref&gt;&lt;ref name="odf"&gt;{{cite web |url=http://www.zdnet.com.au/news/software/soa/Microsoft_Office_to_get_a_dose_of_OpenDocument/0,130061733,139255766,00.htm |title=May 08, 2006&amp;nbsp;– Microsoft Office to get a dose of OpenDocument |publisher=Zdnet.com.au |date= |accessdate=June 21, 2010 |archive-url=https://web.archive.org/web/20090722000632/http://www.zdnet.com.au/news/software/soa/Microsoft_Office_to_get_a_dose_of_OpenDocument/0,130061733,139255766,00.htm |archive-date=July 22, 2009 |url-status=dead }}&lt;/ref&gt; As an answer, on October 20, 2005 an online petition was created to demand ODF support from Microsoft.&lt;ref name="petition"&gt;{{cite web |author=OpenDocument Fellowship |url=http://opendocumentfellowship.com/press/2005-10-20 |archive-url=https://web.archive.org/web/20080323060829/http://opendocumentfellowship.com/press/2005-10-20 |url-status=dead |archive-date=March 23, 2008 |title=OpenDocument Support: Tell Microsoft You Want It!, 20 October 2005 |publisher=Opendocumentfellowship.com |date=October 20, 2005 |accessdate=June 21, 2010 }}&lt;/ref&gt;
+
+In May 2006, the ODF plugin for Microsoft Office was released by the OpenDocument Foundation.&lt;ref name="mso-odf-plugin"&gt;{{cite web|url=http://www.linux-watch.com/news/NS5139606687.html |title=Coming soon: ODF for MS Office, May 04, 2006 |publisher=Linux-watch.com |date=May 4, 2006 |accessdate=June 21, 2010}}{{dead link|date=September 2016}}&lt;/ref&gt; Microsoft declared that it had no relationship with the developers of the plugin.&lt;ref name="odf-plugin-no-cooperating"&gt;{{cite web|first=Martin |last=LaMonica |url=http://news.cnet.com/Microsoft-Office-to-get-a-dose-of-OpenDocument/2100-1013_3-6069188.html |title=Microsoft Office to get a dose of OpenDocument |date=May 5, 2006 |work=[[CNET News]] |publisher=[[CBS Interactive]] |accessdate=June 21, 2010}}&lt;/ref&gt;
+
+In July 2006, Microsoft announced the creation of the Open XML Translator project&amp;nbsp;– tools to build a technical bridge between the Microsoft Office Open XML Formats and the OpenDocument Format (ODF). This work was started in response to government requests for interoperability with ODF. The goal of project was not to add ODF support to Microsoft Office, but only to create a plugin and an external toolset.&lt;ref name="ms-odf-plugin"&gt;{{cite web |url=http://www.microsoft.com/presspass/press/2006/jul06/07-06OpenSourceProjectPR.mspx |title=Microsoft Expands Document Interoperability, July 5, 2006 |publisher=Microsoft.com |date=July 5, 2006 |accessdate=June 21, 2010 |archive-url=https://web.archive.org/web/20070204160529/http://www.microsoft.com/presspass/press/2006/jul06/07-06OpenSourceProjectPR.mspx# |archive-date=February 4, 2007 |url-status=dead |df=mdy-all }}&lt;/ref&gt;&lt;ref&gt;{{Cite web |url=http://blogs.msdn.com/brian_jones/archive/2006/07/05/657510.aspx |title=Open XML Translator project announced (ODF support for Office) |first=Brian |last=Jones |first2=Zeyad |last2=Rajabi |work=Brian Jones: Office Solutions |publisher=Microsoft |date=July 6, 2006 |accessdate=April 24, 2013 |archive-url=https://web.archive.org/web/20100118181302/http://blogs.msdn.com/brian_jones/archive/2006/07/05/657510.aspx |archive-date=January 18, 2010 |url-status=dead |df=mdy-all }}&lt;/ref&gt; In February 2007, this project released a first version of the ODF plugin for Microsoft Word.&lt;ref&gt;{{cite web | url=http://news.cnet.com/Microsoft-to-release-ODF-document-converter/2100-1046_3-6155585.html | title=Microsoft to release ODF document converter | publisher=[[CBS Interactive]] | work=[[CNet News]] | date=February 1, 2007 | accessdate=April 24, 2013 | last=LaMonica |first=Martin}}&lt;/ref&gt;
+
+In February 2007, Sun released an initial version of its ODF plugin for Microsoft Office.&lt;ref&gt;{{cite web|last=Lombardi |first=Candace |url=http://news.cnet.com/Sun-to-release-ODF-translator-for-Microsoft-Office/2100-1012_3-6157189.html |title=Sun to release ODF translator for Microsoft Office |publisher=News.cnet.com |date=February 7, 2007 |accessdate=June 21, 2010}}&lt;/ref&gt; Version 1.0 was released in July 2007.&lt;ref&gt;{{cite web|last=Paul |first=Ryan |url=https://arstechnica.com/journals/linux.ars/2007/07/07/sun-releases-odf-plugin-1-0-for-microsoft-office |title=Sun releases ODF Plugin 1.0 for Microsoft Office, July 07, 2007 |publisher=Arstechnica.com |date=July 7, 2007 |accessdate=June 21, 2010}}&lt;/ref&gt;
+
+Microsoft Word 2007 (Service Pack 1) supports (for output only) [[Portable Document Format|PDF]] and [[XML Paper Specification|XPS]] formats, but only after manual installation of the Microsoft 'Save as PDF or XPS' add-on.&lt;ref&gt;{{cite web|url=http://www.microsoft.com/downloads/details.aspx?displaylang=en&amp;FamilyID=4d951911-3e7e-4ae6-b059-a2e79ed87041 |title=Download details: 2007 Microsoft Office Add-in: Microsoft Save as PDF or XPS |publisher=Microsoft.com |date=November 8, 2006 |accessdate=June 21, 2010}}&lt;/ref&gt;&lt;ref&gt;Microsoft to remove PDF support from Office 2007 in wake of Adobe dispute, Friday, June 2, 2006 [http://www.tgdaily.com/content/view/26786/118/ Microsoft to remove PDF support from Office 2007 in wake of Adobe dispute | TG Daily] {{webarchive|url=https://web.archive.org/web/20090201042942/http://www.tgdaily.com/content/view/26786/118/ |date=February 1, 2009 }}&lt;/ref&gt; On later releases, this was offered by default.
+
+==Features and flaws==
+{{More citations needed section|date=November 2010}}
+Among its features, Word includes a built-in spell checker, a thesaurus, a dictionary, and utilities for manipulating and editing text. The following are some aspects of its feature set.
+
+=== Templates ===
+Several later versions of Word include the ability for users to create their own formatting templates, allowing them to define a file in which the title, heading, paragraph, and other element designs differ from the standard Word templates.&lt;ref&gt;{{Cite web|url=https://www.howtogeek.com/school/microsoft-word-document-formatting-essentials/lesson5/|title=Word Formatting: Mastering Styles and Document Themes|last=Klein|first=Matt|website=How-To Geek|language=en-US|access-date=2019-07-09}}&lt;/ref&gt; Users can find how to do this under the Help section located near the top right corner (Word 2013 on Windows 8).
+
+For example, '''Normal.dot''' is the master [[Template (word processing)|template]] from which all Word documents are created. It determines the [[Margin (typography)|margin]] defaults as well as the layout of the text and font defaults. Although normal.dot is already set with certain defaults, the user can change normal.dot to new defaults. This will change other documents which were created using the template, usually in unexpected ways.&lt;ref&gt;[http://pubs.logicalexpressions.com/Pub0009/LPMArticle.asp?ID=151 in-depth explanation of Normal.dot] {{webarchive|url=https://web.archive.org/web/20050620082713/http://pubs.logicalexpressions.com/Pub0009/LPMArticle.asp?ID=151 |date=June 20, 2005 }}&lt;/ref&gt;
+
+===Image formats===
+Word can import and display images in common bitmap formats such as [[JPEG|JPG]] and [[GIF]]. It can also be used to create and display simple line-art. Microsoft Word added support&lt;ref&gt;{{cite web |title=Edit SVG images in Microsoft Office 365 |url=https://support.office.com/en-us/article/edit-svg-images-in-microsoft-office-365-69f29d39-194a-4072-8c35-dbe5e7ea528c |website=Office Support |publisher=Microsoft |accessdate=4 February 2019}}&lt;/ref&gt; for the common [[Scalable vector graphics|SVG]] vector image format in 2017 for Office 365 ProPlus subscribers and this functionality was also included in the Office 2019 release.
+
+===WordArt===
+{{Main|WordArt}}
+[[File:WordArt.png|thumb|164x164px|An example image created with WordArt]]
+WordArt enables drawing text in a Microsoft Word document such as a title, watermark, or other text, with graphical effects such as skewing, shadowing, rotating, stretching in a variety of shapes and colors and even including three-dimensional effects. Users can apply formatting effects such as shadow, bevel, glow, and reflection to their document text as easily as applying bold or underline. Users can also spell-check text that uses visual effects, and add text effects to paragraph styles.
+
+===Macros===
+A Macro is a rule of pattern that specifies how a certain input sequence (often a sequence of characters) should be mapped to an output sequence according to a defined process. Frequently used or repetitive sequences of keystrokes and mouse movements can be automated.
+Like other [[Microsoft Office]] documents, Word files can include advanced [[Macro (computer science)|macros]] and even embedded programs. The language was originally [[WordBasic]], but changed to [[Visual Basic for Applications]] as of Word 97.
+
+This extensive functionality can also be used to run and propagate [[Computer virus|viruses]] in documents. The tendency for people to exchange Word documents via email, [[USB flash drive]]s, and [[floppy disk]]s made this an especially attractive vector in 1999. A prominent example was the [[Melissa virus]], but countless others have existed.
+
+These macro viruses were the only known cross-platform threats between Windows and Macintosh computers and they were the only infection vectors to affect any [[macOS]] system up until the advent of [[Zlob trojan|video codec trojans]] in 2007. Microsoft released patches for Word X and Word 2004 that effectively eliminated the macro problem on the Mac by 2006.
+
+Word's macro security setting, which regulates when macros may execute, can be adjusted by the user, but in the most recent versions of Word, it is set to HIGH by default, generally reducing the risk from macro-based viruses, which have become uncommon.
+
+===Layout issues===
+Before Word 2010 (Word 14) for Windows, the program was unable to correctly handle [[ligature (typography)|ligatures]] defined in [[OpenType]] fonts.&lt;ref&gt;[http://office.microsoft.com/en-us/word-help/what-s-new-in-word-2010-HA010372687.aspx What's new in Word 2010]. Retrieved July 1, 2010.&lt;/ref&gt; Those ligature glyphs with [[Unicode]] codepoints may be inserted manually, but are not recognized by Word for what they are, breaking spell checking, while custom ligatures present in the font are not accessible at all. Since Word 2010, the program now has advanced [[typesetting]] features which can be enabled:&lt;ref&gt;[http://jeffhuang.com/better_word_papers.html Improving the look of papers written in Microsoft Word], Retrieved May 30, 2010.&lt;/ref&gt; [[OpenType]] ligatures,&lt;ref&gt;[http://www.orzeszek.org/blog/2009/05/17/how-to-enable-opentype-ligatures-in-word-2010/ How to Enable OpenType Ligatures in Word 2010], Oreszek Blog, May 17, 2009.&lt;/ref&gt; [[kerning]], and [[Hyphenation algorithm|hyphenation]]. Other layout deficiencies of Word include the inability to set crop marks or thin spaces. Various third-party workaround utilities have been developed.&lt;ref&gt;Such as {{cite web |url=http://sbarnhill.mvps.org/WordFAQs/BlankPage.htm |title=How to delete a blank page in Word |publisher=Sbarnhill.mvps.org |date= |accessdate=June 21, 2010 |url-status=dead |archiveurl=https://web.archive.org/web/20100505105925/http://sbarnhill.mvps.org/WordFAQs/BlankPage.htm |archivedate=May 5, 2010 |df=mdy-all }}&lt;/ref&gt;
+
+In Word 2004 for Mac OS X, support of [[complex scripts]] was inferior even to Word 97,&lt;ref&gt;{{cite web|title=Unicode and Multilingual Editors and Word Processors for Mac OS X|url=http://www.alanwood.net/unicode/utilities_editors_macosx.html|author=Alan Wood}}&lt;/ref&gt; and Word 2004 did not support [[Apple Advanced Typography]] features like ligatures or glyph variants.&lt;ref&gt;{{cite web |last=Neuburg |first=Matt |url=http://db.tidbits.com/getbits.acgi?tbart=07715 |archive-url=https://archive.is/20120708192529/http://db.tidbits.com/getbits.acgi?tbart=07715 |url-status=dead |archive-date=July 8, 2012 |title=TidBITS : Word Up! Word 2004, That Is |publisher=Db.tidbits.com |date=May 19, 2004 |accessdate=June 21, 2010 }}&lt;/ref&gt;
+
+===Bullets and numbering===
+Microsoft Word supports [[bullet list]]s and [[numbered list]]s. It also features a numbering system that helps add correct numbers to pages, chapters, headers, footnotes, and entries of tables of content; these numbers automatically change to correct ones as new items are added or existing items are deleted. Bullets and numbering can be applied directly to paragraphs and convert them to lists.&lt;ref&gt;{{cite web|last1=McGhie|first1=John|title=Word's numbering explained|url=http://word.mvps.org/FAQs/Numbering/WordsNumberingExplained.htm|website=word.mvps.org|date=March 26, 2011}}&lt;/ref&gt; Word 97 through 2003, however, had problems adding correct numbers to numbered lists. In particular, a second irrelevant numbered list might have not started with number one but instead resumed numbering after the last numbered list. Although Word 97 supported a hidden marker that said the list numbering must restart afterward, the command to insert this marker (Restart Numbering command) was only added in Word 2003. However, if one were to [[Cut, copy, and paste|cut the first item of the listed and paste it]] as another item (e.g. fifth), then the restart marker would have moved with it and the list would have restarted in the middle instead of at the top.&lt;ref&gt;{{cite web|url=http://word.mvps.org/FAQs/Numbering/ListRestartMethods.htm |title=Methods for restarting list numbering |website=Word.mvps.org |date=March 26, 2011 |first=Margaret |last=Aldis}}&lt;/ref&gt;
+
+Users can also create tables in ''Word''. Depending on the version, ''Word'' can perform simple calculations — along with support for formulas and equations as well.
+
+===AutoSummarize===
+Available in certain versions of Word (e.g., Word 2007), AutoSummarize highlights passages or phrases that it considers valuable and can be a quick way of generating a crude abstract or an executive summary.&lt;ref&gt;{{Cite web|url=https://www.word-tips.com/auto-summarize/|title=How To Access Auto Summarize in Microsoft Word 2007|date=2011-12-14|website=Sue's Word Tips|language=en-US|access-date=2019-07-09}}&lt;/ref&gt; The amount of text to be retained can be specified by the user as a percentage of the current amount of text.
+
+According to Ron Fein of the Word 97 team, AutoSummarize cuts wordy copy to the bone by counting words and ranking sentences. First, AutoSummarize identifies the most common words in the document (barring "a" and "the" and the like) and assigns a "score" to each word – the more frequently a word is used, the higher the score. Then, it "averages" each sentence by adding the scores of its words and dividing the sum by the number of words in the sentence – the higher the average, the higher the rank of the sentence. "It's like the ratio of wheat to chaff," explains Fein.&lt;ref&gt;{{cite web|last=Gore |first=Karenna |url=http://www.slate.com/id/2419 |title=Cognito Auto Sum |publisher=Slate.com |date=February 9, 1997 |accessdate=June 21, 2010}}&lt;/ref&gt;
+
+AutoSummarize was removed from Microsoft Word for Mac OS X 2011, although it was present in Word for Mac 2008. AutoSummarize was removed from the Office 2010 release version (14) as well.&lt;ref&gt;[https://technet.microsoft.com/en-us/library/cc179199 Changes in Word 2010 (for IT pros)]. Technet.microsoft.com (May 16, 2012). Retrieved on July 17, 2013.&lt;/ref&gt;
+
+==Word for the web==
+{{Further|Office on the web}}
+Word for the web is a free lightweight version of Microsoft Word available as part of Office on the web, which also includes web versions of Microsoft Excel and Microsoft PowerPoint.
+
+== Password protection ==
+{{Main|Microsoft Office password protection}}
+
+There are three password types that can be set in Microsoft Word:
+
+* Password to open a document&lt;ref name="office.com-password-prot"&gt;{{cite web |url= http://office.microsoft.com/en-us/word-help/password-protect-documents-workbooks-and-presentations-HA010148333.aspx | title=Password protect documents, workbooks, and presentations | publisher=Microsoft | work=[[Microsoft Office website]] | accessdate=April 24, 2013}}&lt;/ref&gt; 
+* Password to modify a document&lt;ref name="office.com-password-prot" /&gt;
+* Password restricting formatting and editing&lt;ref&gt;{{cite web | url=http://www.trickyways.com/2010/06/how-to-restrict-editing-in-word-2010-2007/ | title=How to Restrict Editing in Word 2010/2007 | work=Trickyways | date=June 22, 2010 | accessdate=April 24, 2010}}&lt;/ref&gt;
+
+The second and the third type of passwords were developed by Microsoft for convenient shared use of documents rather than for their protection. There is no [[encryption]] of documents that are protected by such passwords, and the Microsoft Office protection system saves a [[hash sum]] of a password in a document's header where it can be easily accessed and removed by the specialized software.
+''Password to open a document'' offers much tougher protection that had been steadily enhanced in the subsequent editions of Microsoft Office.
+
+''Word 95'' and all the preceding editions had the weakest protection that utilized a conversion of a password to a 16-bit [[Encryption key|key]].
+
+[[Key size|Key length]] in ''Word 97'' and ''2000'' was strengthened up to 40 bit. However, modern cracking software allows removing such a password very quickly – a persistent cracking process takes one week at most. Use of [[rainbow tables]] reduces password removal time to several seconds. Some [[password recovery]] software can not only remove a password but also find an actual password that was used by a user to encrypt the document using [[brute-force attack]] approach. Statistically, the possibility of recovering the password depends on the [[password strength]].
+
+Word's 2003/XP version default protection remained the same but an option that allowed advanced users choosing a [[Cryptographic Service Provider]] was added.&lt;ref&gt;{{cite web |url=http://www.oraxcel.com/projects/encoffice/help/How_safe_is_Word_encryption.html |title=How safe is Word encryption. Is it really secure? |publisher=Oraxcel.com |date= |accessdate=April 24, 2013}}&lt;/ref&gt; If a strong CSP is chosen, guaranteed document decryption becomes unavailable, and therefore a password can't be removed from the document. Nonetheless, a password can be fairly quickly picked with a brute-force attack, because its speed is still high regardless of the CSP selected. Moreover, since the CSPs are not active by default, their use is limited to advanced users only.
+
+Word 2007 offers significantly more secure document protection which utilizes the modern [[Advanced Encryption Standard]] (AES) that converts a password to a 128-bit key using a [[SHA-1]] hash function 50000 times. It makes password removal impossible (as of today, no computer that can pick the key in a reasonable amount of time exists), and drastically slows the brute-force attack speed down to several hundreds of passwords per second.
+
+Word's 2010 protection algorithm was not changed apart from the increasing number of SHA-1 conversions up to 100000 times, and consequently, the brute-force attack speed decreased two times more.
+
+==Reception==
+{{Expand section|date=April 2016}}
+''[[Byte (magazine)|BYTE]]'' in 1984 criticized the documentation for Word 1.1 and 2.0 for DOS, calling it "a complete farce". It called the software "clever, put together well, and performs some extraordinary feats", but concluded that "especially when operated with the mouse, has many more limitations than benefits ... extremely frustrating to learn and operate efficiently".&lt;ref name="cameron1984pc"&gt;{{cite news | url=https://archive.org/stream/byte-magazine-1984-09/1984_09_BYTE_09-09_Guide_to_the_IBM_PCs#page/n171/mode/2up | title=Word Processing Revisited | work=BYTE | date=September 1984 | accessdate=October 23, 2013 | author=Cameron, Janet | pages=171 | type=review}}&lt;/ref&gt; ''[[PC Magazine]]''{{'s}} review was very mixed, stating "I've run into weird word processors before, but this is the first time one's nearly knocked me down for the count" but acknowledging that Word's innovations were the first that caused the reviewer to consider abandoning [[WordStar]]. While the review cited an excellent [[WYSIWYG]] display, sophisticated print formatting, windows, and footnoting as merits, it criticized many small flaws, very slow performance, and "documentation apparently produced by Madame Sadie's Pain Palace". It concluded that Word was "two releases away from potential greatness".&lt;ref name="manes19840221"&gt;{{cite news | url=https://books.google.com/books?id=UCIvSU6Y2GAC&amp;lpg=PP1&amp;pg=PP1#v=onepage&amp;q&amp;f=true | title=The Unfinished Word | work=PC Magazine | date=February 21, 1984 | accessdate=October 24, 2013 | author=Manes, Stephen | pages=192}}&lt;/ref&gt;
+
+''Compute!'s Apple Applications'' in 1987 stated that "despite a certain awkwardness", Word 3.01 "will likely become the major Macintosh word processor" with "far too many features to list here". While criticizing the lack of true WYSIWYG, the magazine concluded that "''Word'' is marvelous. It's like a [[Mozart]] or [[Thomas Edison|Edison]], whose occasional gaucherie we excuse because of his great gifts".&lt;ref name="mcneill198712"&gt;{{cite news | url=https://archive.org/stream/COMPUTEs_Apple_Applications_Vol._5_No._2_Issue_6_1987-12_COMPUTE_Publications_US#page/n55/mode/2up | title=Macintosh: The Word Explosion | work=Compute!'s Apple Applications | date=December 1987 | accessdate=September 14, 2016 | author=McNeill, Dan | pages=54–60}}&lt;/ref&gt;
+
+''[[Compute!]]'' in 1989 stated that Word 5.0's integration of text and graphics made it "a solid engine for basic desktop publishing". The magazine approved of improvements to text mode, described the $75 price for upgrading from an earlier version as "the deal of the decade", and concluded that "as a high-octane word processor, ''Word'' is definitely worth a look".&lt;ref name="nimersheim198912"&gt;{{Cite magazine |last=Nimersheim |first=Jack |date=December 1989 |title=Compute! Specific: MS-DOS |url=https://archive.org/stream/1989-12-compute-magazine/Compute_Issue_115_1989_Dec#page/n11/mode/2up |magazine=Compute! |pages=11–12}}&lt;/ref&gt;
+
+During the first quarter of 1996, ''Microsoft Word'' accounted for 80% of the worldwide word processing market.&lt;ref&gt;{{cite magazine|last=|first= |title=Data Stream|magazine=[[Next Generation (magazine)|Next Generation]]|issue=21 |publisher=[[Imagine Media]]|date=September 1996|page=21}}&lt;/ref&gt;
+
+Despite its commercial success, it has also been argued in the scientific community that ''Word'' might not be well-suited for large-scale projects with high typographical demands, due to issues such as file compatibility, poor typography, low image quality, and limited feature scalability.&lt;ref&gt;{{Cite web|url=https://mathvault.ca/latex-guide/|title=The Definitive, Non-Technical Introduction to LaTeX, Professional Typesetting and Scientific Publishing|date=2015-09-05|website=Math Vault|language=en-US|access-date=2019-07-09}}&lt;/ref&gt;
+
+==Release history==
+{{Version |t |show=11100}}
+[[File:Word 2010.png|thumb|Microsoft Word 2010 running on Windows 7]]
+{| class="wikitable sortable"
+|+ Microsoft Word for Windows release history
+|-
+! Year released
+! Name
+! Version
+! scope="col" class="unsortable" |Comments
+|-
+| 1989
+| Word for Windows 1.0
+| {{Version |o |1.0}}
+| Code-named Opus &lt;ref&gt;[http://antitrust.slated.org/www.iowaconsumercase.org/011607/8000/PX08875.pdf Opus Development Postmortem]&lt;/ref&gt;
+|-
+| 1990
+| Word for Windows 1.1
+| {{Version |o |1.1}}
+| For [[Windows 3.0]].&lt;ref&gt;{{cite web|title=Microsoft Word 1.x (Windows) – Stats, Downloads and Screenshots :: WinWorld|url=https://winworldpc.com/product/microsoft-word/1x|website=WinWorld|accessdate=July 3, 2016}}&lt;/ref&gt; Code-named [[Bill the Cat]] {{citation needed|date=March 2015}}
+|-
+| 1990
+| Word for Windows 1.1a
+| {{Version |o |1.1a}}
+| On March 25, 2014 Microsoft made the [[source code]] to Word for Windows 1.1a [[Source-available|available]] to the public via the [[Computer History Museum]].&lt;ref&gt;{{cite web|url=http://www.computerhistory.org/_static/atchm/microsoft-word-for-windows-1-1a-source-code/|title=Microsoft Word for Windows Version 1.1a Source Code |first=Len |last=Shustek |date=March 24, 2014 |accessdate=March 29, 2014}}&lt;/ref&gt;&lt;ref&gt;{{cite web|url=http://blogs.technet.com/b/microsoft_blog/archive/2014/03/25/microsoft-makes-source-code-for-ms-dos-and-word-for-windows-available-to-public.aspx|title=Microsoft makes source code for MS-DOS and Word for Windows available to public|date=March 25, 2014|first=Roy|last=Levin|work=Official Microsoft Blog|accessdate=March 29, 2014|archive-url=https://web.archive.org/web/20140328094124/http://blogs.technet.com/b/microsoft_blog/archive/2014/03/25/microsoft-makes-source-code-for-ms-dos-and-word-for-windows-available-to-public.aspx|archive-date=March 28, 2014|url-status=dead}}&lt;/ref&gt;
+|-
+| 1991
+| Word for Windows 2.0
+| {{Version |o |2.0}}
+| Included in [[Office 3.0]].
+|-
+| 1993
+| Word for Windows 6.0
+| {{Version |o |6.0}}
+| Version numbers 3, 4 and 5 were skipped, to bring Windows version numbering in line with that of DOS Mac OS and [[WordPerfect]] (the main competing word processor at the time). Also a 32-bit version for [[Windows NT]] only. Included in Office 4.0, 4.2, and 4.3.
+|-
+| 1995
+| Word for Windows 95
+| {{Version |o |7.0}}
+| Included in [[Office 95]]
+|-
+| 1997
+| Word 97
+| {{Version |o |8.0}}
+| Included in [[Office 97]]
+|-
+| 1998
+| Word 98
+| {{Version |o |8.5}}
+| Included in [[Office 97]]
+|-
+| 1999
+| Word 2000
+| {{Version |o |9.0}}
+| Included in [[Office 2000]]
+|-
+| 2001
+| Word 2002
+| {{Version |o |10.0}}
+| Included in [[Office XP]]
+|-
+| 2003
+| Microsoft Word 2003
+| {{Version |o |11.0}}
+| Included in [[Office 2003]]
+|-
+| 2006
+| Microsoft Word 2007
+| {{Version |o |12.0}}
+| Included in [[Office 2007]]; released to businesses on November 30, 2006, released worldwide to consumers on January 30, 2007. Extended support until October 10, 2017.
+|-
+| 2010
+| Word 2010
+| {{Version |co |14.0}}
+| Included in [[Office 2010]]
+|-
+| 2013
+| Word 2013
+| {{Version |co |15.0}}
+| Included in [[Office 2013]]
+|-
+| 2016
+| Word 2016
+| {{Version |co |16.0}}
+| Included in [[Office 2016]]
+|-
+| 2019
+| Word 2019
+| {{Version |c |16.0}}
+| Included in [[Office 2019]]
+|}
+
+{| class="wikitable sortable"
+|+ Microsoft Word for classic Mac OS and macOS release history
+|-
+! Year released
+! Name
+! Version
+! scope="col" class="unsortable" |Comments
+|-
+| 1985
+| Word 1
+| {{Version |o |1.0}}
+|
+|-
+| 1987
+| Word 3
+| {{Version |o |3.0}}
+|
+|-
+| 1989
+| Word 4
+| {{Version |o |4.0}}
+| Part of Office 1.0 and 1.5
+|-
+| 1991
+| Word 5
+|{{Version |o |5.0}}
+|
+* Part of Office 3.0
+* Requires System 6.0.2, 512 KB of RAM (1&amp;nbsp;MB for 5.1, 2&amp;nbsp;MB to use spell check and thesaurus), 6.5&amp;nbsp;MB available hard drive space&lt;ref name="lowendmac_history"/&gt;
+|-
+| 1992
+| Word 5.1
+| {{Version |o |5.1}}
+|
+* Part of Office 3.0
+* Last version to support 68000-based Macs&lt;ref name="lowendmac_history"/&gt;
+|-
+| 1993
+| Word 6
+| {{Version |o |6.0}}
+|
+* Part of Office 4.2
+* Shares code and user interface with Word for Windows 6
+* Requires System 7.0, 4&amp;nbsp;MB of RAM (8&amp;nbsp;MB recommended), at least 10&amp;nbsp;MB available hard drive space, 68020 CPU&lt;ref name="lowendmac_history"/&gt;
+|-
+| 1998
+| Word 98
+| {{Version |o |8.5}}
+|
+* Part of [[Microsoft Office 98 Macintosh Edition|Office 98 Macintosh Edition]]
+* Requires PowerPC-based Macintosh
+* Renumbered alongside contemporary Windows version
+|-
+| 2000
+| Word 2001
+| {{Version |o |9.0}}
+|
+* Part of [[Office 2001|Microsoft Office 2001]]
+* Last version compatible with [[Classic Mac OS]] ([[Mac OS 9]] or earlier)
+|-
+| 2001
+| Word v. X
+| {{Version |o |10.0}}
+|
+* Part of [[Microsoft Office v. X|Office v. X]]
+* First version for [[Mac OS X]] only
+|-
+| 2004
+| Word 2004
+| {{Version |o |11.0}}
+| Part of [[Office 2004 for Mac|Office 2004]]
+|-
+| 2008
+| Word 2008
+| {{Version |o |12.0}}
+| Part of [[Microsoft Office 2008 for Mac|Office 2008]]
+|-
+| 2010
+| Word 2011
+| {{Version |o |14.0}}
+| Part of [[Microsoft Office for Mac 2011|Office 2011]]. Version number 13 was superstitiously skipped because of potential [[triskaidekaphobia]].&lt;ref name="Office13Avoid"&gt;[https://office-watch.com/2007/office-14/ For the sake of superstition the next version of Office won't be called '13']. ''Office Watch''.&lt;/ref&gt;
+|-
+| 2015
+| Word 2016
+| {{Version |co |16.0}}
+| Part of [[Microsoft Office 2016|Office 2016]]. Version number 15 was skipped.
+|-
+|2019
+|Word 2019
+|{{Version |c |16.0}}
+|Part of Office 2019
+|}
+
+{| class="wikitable sortable"
+|+ Word for [[MS-DOS]] release history
+|-
+! Year released
+! Name
+! Version
+! scope="col" class="unsortable" |Comments
+|-
+| 1983
+| Word 1
+| {{Version |o |1.0}}
+| Initial version of Word
+|-
+| 1985
+| Word 2
+| {{Version |o |2.0}}
+|
+|-
+| 1986
+| Word 3
+| {{Version |o |3.0}}
+|
+|-
+| 1987
+| Word 4
+| {{Version |o |4.0}}
+|
+|-
+| 1989
+| Word 5
+| {{Version |o |5.0}}
+|
+|-
+| 1991
+| Word 5.1
+| {{Version |o |5.1}}
+|
+|-
+| 1991
+| Word 5.5
+| {{Version |o |5.5}}
+| First DOS version to use a Windows-like user interface
+|-
+| 1993
+| Word 6
+| {{Version |o |6.0}}
+| Last DOS version.
+|}
+
+{| class="wikitable sortable"
+|+ Word release history on other platforms
+|-
+! Platform
+! Year released
+! Name
+! scope="col" class="unsortable" |Comments
+|-
+| [[Atari ST]]
+| 1988
+| Microsoft Write
+| Based on Microsoft Word 1.05 for Mac OS
+|-
+| [[OS/2]]
+| 1989
+| Microsoft Word 5.0
+| Word 5.0 ran both under DOS and under OS/2 dual mode as a native OS/2 application
+|-
+| [[OS/2]]
+| 1991
+| Microsoft Word 5.5
+| Word 5.5 ran both under DOS and under OS/2 dual mode as a native OS/2 application
+|-
+| [[OS/2]]
+| 1990
+| Microsoft Word for OS/2 Presentation Manager version 1.1
+|
+|-
+| [[OS/2]]
+| 1991
+| Microsoft Word for OS/2 Presentation Manager version 1.2
+|
+|-
+| [[SCO Unix]]
+| 1994–1995
+| Microsoft Word for Unix version 5.1
+|
+|}
+
+==References==
+{{Reflist|30em}}
+
+==Further reading==
+* Tsang, Cheryl. ''Microsoft: First Generation''. New York: John Wiley &amp; Sons, Inc. {{ISBN|978-0-471-33206-0}}.
+* Liebowitz, Stan J. &amp; Margolis, Stephen E. ''Winners, Losers &amp; Microsoft: Competition and Antitrust in High Technology'' Oakland: Independent Institute. {{ISBN|978-0-945999-80-5}}.
+
+==External links==
+{{wikiversity|Microsoft Office/Word}}
+* {{Commons category-inline}}
+* {{Official website|https://products.office.com/word|Microsoft Word}} – official site
+* [https://web.archive.org/web/20140209231503/http://office.microsoft.com/en-ca/word-help/find-and-replace-text-by-using-regular-expressions-advanced-HA102350661.aspx Find and replace text by using regular expressions (Advanced)] - archived official support website
+
+{{Word processors}}
+{{Microsoft Office}}
+{{Authority control}}
+
+&lt;!--Family category--&gt;
+
+[[Category:Microsoft Office|Word]]
+&lt;!--Main genre category--&gt;
+[[Category:Classic Mac OS word processors]]
+[[Category:DOS word processors]]
+[[Category:MacOS word processors]]
+[[Category:Windows word processors]]
+&lt;!--Secondary function category--&gt;
+[[Category:Technical communication tools]]
+[[Category:Screenshot software]]
+&lt;!--Misc.--&gt;
+[[Category:1983 software]]
+[[Category:Atari ST software]]</text>
+      <sha1>fa88l3xnp83nujxb62bgoohlg859c8t</sha1>
+    </revision>
+  </page>
+</mediawiki>

@@ -1,0 +1,75 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.10/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.10/ http://www.mediawiki.org/xml/export-0.10.xsd" version="0.10" xml:lang="en">
+  <siteinfo>
+    <sitename>Wikipedia</sitename>
+    <dbname>enwiki</dbname>
+    <base>https://en.wikipedia.org/wiki/Main_Page</base>
+    <generator>MediaWiki 1.35.0-wmf.36</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Media</namespace>
+      <namespace key="-1" case="first-letter">Special</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Talk</namespace>
+      <namespace key="2" case="first-letter">User</namespace>
+      <namespace key="3" case="first-letter">User talk</namespace>
+      <namespace key="4" case="first-letter">Wikipedia</namespace>
+      <namespace key="5" case="first-letter">Wikipedia talk</namespace>
+      <namespace key="6" case="first-letter">File</namespace>
+      <namespace key="7" case="first-letter">File talk</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki talk</namespace>
+      <namespace key="10" case="first-letter">Template</namespace>
+      <namespace key="11" case="first-letter">Template talk</namespace>
+      <namespace key="12" case="first-letter">Help</namespace>
+      <namespace key="13" case="first-letter">Help talk</namespace>
+      <namespace key="14" case="first-letter">Category</namespace>
+      <namespace key="15" case="first-letter">Category talk</namespace>
+      <namespace key="100" case="first-letter">Portal</namespace>
+      <namespace key="101" case="first-letter">Portal talk</namespace>
+      <namespace key="108" case="first-letter">Book</namespace>
+      <namespace key="109" case="first-letter">Book talk</namespace>
+      <namespace key="118" case="first-letter">Draft</namespace>
+      <namespace key="119" case="first-letter">Draft talk</namespace>
+      <namespace key="446" case="first-letter">Education Program</namespace>
+      <namespace key="447" case="first-letter">Education Program talk</namespace>
+      <namespace key="710" case="first-letter">TimedText</namespace>
+      <namespace key="711" case="first-letter">TimedText talk</namespace>
+      <namespace key="828" case="first-letter">Module</namespace>
+      <namespace key="829" case="first-letter">Module talk</namespace>
+      <namespace key="2300" case="first-letter">Gadget</namespace>
+      <namespace key="2301" case="first-letter">Gadget talk</namespace>
+      <namespace key="2302" case="case-sensitive">Gadget definition</namespace>
+      <namespace key="2303" case="case-sensitive">Gadget definition talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Genome-wide significance</title>
+    <ns>0</ns>
+    <id>61507709</id>
+    <revision>
+      <id>950555465</id>
+      <parentid>945138491</parentid>
+      <timestamp>2020-04-12T18:05:49Z</timestamp>
+      <contributor>
+        <username>OAbot</username>
+        <id>28481209</id>
+      </contributor>
+      <minor/>
+      <comment>[[Wikipedia:OABOT|Open access bot]]: doi added to citation with #oabot.</comment>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="3153" xml:space="preserve">{{short description|Statistical significance threshold for genetic associations}}
+In [[genome-wide association studies]], '''genome-wide significance''' (abbreviated '''GWS''') is a specific threshold for determining the [[statistical significance]] of a reported [[association (statistics)|association]] between a given [[single-nucleotide polymorphism]] (SNP) and a  given [[trait (biology)|trait]]. The most commonly accepted threshold is [[p-value|''p'']] &lt; 5 × 10&lt;sup&gt;−8&lt;/sup&gt;, which is based on performing a [[Bonferroni correction]] for all the independent common SNPs across the [[human genome]].&lt;ref&gt;{{Cite journal |last=Xu |first=ChangJiang |last2=Tachmazidou |first2=Ioanna |last3=Walter |first3=Klaudia |last4=Ciampi |first4=Antonio |last5=Zeggini |first5=Eleftheria |last6=Greenwood |first6=Celia M. T. |last7=the UK10K Consortium |date=April 2014 |title=Estimating Genome-Wide Significance for Whole-Genome Sequencing Studies: Genome-Wide Significance for Rare Variants |journal=Genetic Epidemiology |language=en |volume=38 |issue=4 |pages=281–290 |doi=10.1002/gepi.21797 |pmc=4489336 |pmid=24676807}}&lt;/ref&gt; If a ''p''-value is found to be lower than this threshold in a genome-wide association study, the [[null hypothesis]] of no true SNP-association will typically be rejected.&lt;ref&gt;{{Cite journal |last=Roeder |first=Kathryn |last2=Wasserman |first2=Larry |date=November 2009 |title=Genome-Wide Significance Levels and Weighted Hypothesis Testing |journal= Statistical Science|volume=24 |issue=4 |pages=398–413 |doi=10.1214/09-STS289 |issn=0883-4237 |pmc=2920568 |pmid=20711421}}&lt;/ref&gt; However, there has been some criticism of this threshold, with a 2012 study suggesting that a significant number of associations with ''p''-values just above this threshold are genuine, replicable associations. The authors of this study concluded that their finding "...suggests a possible relaxation in the current GWS threshold."&lt;ref&gt;{{Cite journal |last=Panagiotou |first=Orestis A |last2=Ioannidis |first2=John P A |last3=for the Genome-Wide Significance Project |date=February 2012 |title=What should the genome-wide significance threshold be? Empirical replication of borderline genetic associations |journal=International Journal of Epidemiology |language=en |volume=41 |issue=1 |pages=273–286 |doi=10.1093/ije/dyr178 |pmid=22253303 |issn=0300-5771|doi-access=free }}&lt;/ref&gt; More recently, it has been suggested that the conventional threshold should be modified to take into account the increasing prevalence of low-[[allele frequency|frequency]] genetic variants in genome-wide association studies.&lt;ref&gt;{{Cite journal |last=Fadista |first=João |last2=Manning |first2=Alisa K. |last3=Florez |first3=Jose C. |last4=Groop |first4=Leif |date=August 2016 |title=The (in)famous GWAS P-value threshold revisited and updated for low-frequency variants |journal=European Journal of Human Genetics |volume=24 |issue=8 |pages=1202–1205 |doi=10.1038/ejhg.2015.269 |issn=1476-5438 |pmc=4970684 |pmid=26733288}}&lt;/ref&gt;
+
+==References==
+{{Reflist}}
+
+[[Category:Statistical genetics]]
+[[Category:Statistical hypothesis testing]]
+
+
+{{Genetics-stub}}</text>
+      <sha1>5ipfttzapdqdkx9pk3gz0sfwm77yin0</sha1>
+    </revision>
+  </page>
+</mediawiki>

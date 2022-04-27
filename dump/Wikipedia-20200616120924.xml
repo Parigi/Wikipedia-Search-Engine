@@ -1,0 +1,158 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.10/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.10/ http://www.mediawiki.org/xml/export-0.10.xsd" version="0.10" xml:lang="en">
+  <siteinfo>
+    <sitename>Wikipedia</sitename>
+    <dbname>enwiki</dbname>
+    <base>https://en.wikipedia.org/wiki/Main_Page</base>
+    <generator>MediaWiki 1.35.0-wmf.36</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Media</namespace>
+      <namespace key="-1" case="first-letter">Special</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Talk</namespace>
+      <namespace key="2" case="first-letter">User</namespace>
+      <namespace key="3" case="first-letter">User talk</namespace>
+      <namespace key="4" case="first-letter">Wikipedia</namespace>
+      <namespace key="5" case="first-letter">Wikipedia talk</namespace>
+      <namespace key="6" case="first-letter">File</namespace>
+      <namespace key="7" case="first-letter">File talk</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki talk</namespace>
+      <namespace key="10" case="first-letter">Template</namespace>
+      <namespace key="11" case="first-letter">Template talk</namespace>
+      <namespace key="12" case="first-letter">Help</namespace>
+      <namespace key="13" case="first-letter">Help talk</namespace>
+      <namespace key="14" case="first-letter">Category</namespace>
+      <namespace key="15" case="first-letter">Category talk</namespace>
+      <namespace key="100" case="first-letter">Portal</namespace>
+      <namespace key="101" case="first-letter">Portal talk</namespace>
+      <namespace key="108" case="first-letter">Book</namespace>
+      <namespace key="109" case="first-letter">Book talk</namespace>
+      <namespace key="118" case="first-letter">Draft</namespace>
+      <namespace key="119" case="first-letter">Draft talk</namespace>
+      <namespace key="446" case="first-letter">Education Program</namespace>
+      <namespace key="447" case="first-letter">Education Program talk</namespace>
+      <namespace key="710" case="first-letter">TimedText</namespace>
+      <namespace key="711" case="first-letter">TimedText talk</namespace>
+      <namespace key="828" case="first-letter">Module</namespace>
+      <namespace key="829" case="first-letter">Module talk</namespace>
+      <namespace key="2300" case="first-letter">Gadget</namespace>
+      <namespace key="2301" case="first-letter">Gadget talk</namespace>
+      <namespace key="2302" case="case-sensitive">Gadget definition</namespace>
+      <namespace key="2303" case="case-sensitive">Gadget definition talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Iteratively reweighted least squares</title>
+    <ns>0</ns>
+    <id>11463665</id>
+    <revision>
+      <id>949940734</id>
+      <parentid>949928247</parentid>
+      <timestamp>2020-04-09T11:08:00Z</timestamp>
+      <contributor>
+        <username>AnomieBOT</username>
+        <id>7611264</id>
+      </contributor>
+      <minor/>
+      <comment>Dating maintenance tags: {{Citation needed}}</comment>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="6233" xml:space="preserve">{{Regression bar}}
+The method of '''iteratively reweighted least squares''' ('''IRLS''') is used to solve certain optimization problems with [[objective function]]s of the form of a [[p-norm|''p''-norm]]:
+
+:&lt;math&gt;\underset{\boldsymbol\beta} {\operatorname{arg\,min}} \sum_{i=1}^n \big| y_i - f_i (\boldsymbol\beta) \big|^p, &lt;/math&gt;
+
+by an [[iterative method]] in which each step involves solving a [[weighted least squares]] problem of the form:&lt;ref name=Burrus&gt;C. Sidney Burrus, ''[https://cnx.org/exports/92b90377-2b34-49e4-b26f-7fe572db78a1@12.pdf/iterative-reweighted-least-squares-12.pdf Iterative Reweighted Least Squares]''&lt;/ref&gt;
+
+:&lt;math&gt;\boldsymbol\beta^{(t+1)} = \underset{\boldsymbol\beta} {\operatorname{arg\,min}} \sum_{i=1}^n w_i (\boldsymbol\beta^{(t)}) \big| y_i - f_i (\boldsymbol\beta) \big|^2. &lt;/math&gt;
+
+IRLS is used to find the [[maximum likelihood]] estimates of a [[generalized linear model]], and in [[robust regression]] to find an [[M-estimator]], as a way of mitigating the influence of outliers in an otherwise normally-distributed data set. For example, by minimizing the [[least absolute errors]] rather than the [[least squares|least square errors]].
+
+One of the advantages of IRLS over [[linear programming]] and [[convex programming]] is that it can be used with [[Gauss–Newton]] and [[Levenberg–Marquardt]] numerical algorithms.
+
+== Examples ==
+
+=== ''L''&lt;sub&gt;1&lt;/sub&gt; minimization for sparse recovery ===
+IRLS can be used for '''[[L1 norm|''ℓ''&lt;sub&gt;1&lt;/sub&gt;]]''' minimization and smoothed '''[[Lp quasi-norm|''ℓ''&lt;sub&gt;p&lt;/sub&gt;]]''' minimization, ''p''&amp;nbsp;&lt;&amp;nbsp;1, in [[compressed sensing]] problems. It has been proved that the algorithm has a linear rate of convergence for ''ℓ''&lt;sub&gt;1&lt;/sub&gt; norm and superlinear for ''ℓ''&lt;sub&gt;''t''&lt;/sub&gt; with ''t''&amp;nbsp;&lt;&amp;nbsp;1, under the [[restricted isometry property]], which is generally a sufficient condition for sparse solutions.&lt;ref&gt;{{Cite conference
+  | last1 = Chartrand | first1 = R.
+  | last2 = Yin | first2 = W.
+  | title = Iteratively reweighted algorithms for compressive sensing
+  | booktitle = IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP), 2008
+  | pages = 3869–3872
+  | date = March 31 – April 4, 2008
+  | doi = 10.1109/ICASSP.2008.4518498
+ }}
+&lt;/ref&gt;&lt;ref&gt;{{Cite journal | last1 = Daubechies | first1 = I. | last2 = Devore | first2 = R. | last3 = Fornasier | first3 = M. | last4 = Güntürk | first4 = C. S. N. | title = Iteratively reweighted least squares minimization for sparse recovery | doi = 10.1002/cpa.20303 | journal = Communications on Pure and Applied Mathematics | volume = 63 | pages = 1–38 | year = 2010 | pmid =  | pmc = | arxiv = 0807.0575 }}&lt;/ref&gt; However, in most practical situations, the restricted isometry property is not satisfied. {{Citation needed|date=April 2020}}
+
+=== ''L&lt;sup&gt;p&lt;/sup&gt;'' norm linear regression ===
+To find the parameters '''''β'''''&amp;nbsp;=&amp;nbsp;(''β''&lt;sub&gt;1&lt;/sub&gt;, …,''β''&lt;sub&gt;''k''&lt;/sub&gt;)&lt;sup&gt;T&lt;/sup&gt; which minimize the [[Lp space|''L&lt;sup&gt;p&lt;/sup&gt;'' norm]] for the [[linear regression]] problem,
+
+:&lt;math&gt;
+\underset{\boldsymbol \beta}{ \operatorname{arg\,min} }
+    \big\| \mathbf y - X \boldsymbol \beta \|_p
+ =
+\underset{\boldsymbol \beta}{ \operatorname{arg\,min} }
+     \sum_{i=1}^n  \left| y_i - X_i \boldsymbol\beta \right|^p ,
+&lt;/math&gt;
+
+the IRLS algorithm at step ''t''&amp;nbsp;+&amp;nbsp;1 involves solving the [[Linear least squares (mathematics)#Weighted linear least squares|weighted linear least squares]] problem:&lt;ref&gt;{{cite book
+ |chapter=6.8.1 Solutions that Minimize Other Norms of the Residuals
+ |title=Matrix algebra
+ |last=Gentle |first=James
+ |isbn=978-0-387-70872-0
+ |doi=10.1007/978-0-387-70873-7
+ |publisher=Springer |location=New York
+ |year=2007
+|series=Springer Texts in Statistics
+ }}&lt;/ref&gt;
+
+:&lt;math&gt;
+\boldsymbol\beta^{(t+1)}
+ =
+\underset{\boldsymbol\beta}{ \operatorname{arg\,min} }
+    \sum_{i=1}^n w_i^{(t)}  \left| y_i - X_i \boldsymbol\beta \right|^2
+ =
+(X^{\rm T} W^{(t)} X)^{-1} X^{\rm T} W^{(t)} \mathbf{y},
+&lt;/math&gt;
+
+where ''W''&lt;sup&gt;(''t'')&lt;/sup&gt; is the [[diagonal matrix]] of weights, usually with all elements set initially to:
+
+:&lt;math&gt;w_i^{(0)} = 1&lt;/math&gt;
+
+and updated after each iteration to:
+
+:&lt;math&gt;w_i^{(t)} = \big|y_i - X_i \boldsymbol \beta ^{(t)} \big|^{p-2}.&lt;/math&gt;
+
+In the case ''p''&amp;nbsp;=&amp;nbsp;1, this corresponds to [[least absolute deviation]] regression (in this case, the problem would be better approached by use of [[linear programming]] methods,&lt;ref name=Pfeil&gt;William A. Pfeil,
+''[http://www.wpi.edu/Pubs/E-project/Available/E-project-050506-091720/unrestricted/IQP_Final_Report.pdf Statistical Teaching Aids]'', Bachelor of Science thesis, [[Worcester Polytechnic Institute]], 2006&lt;/ref&gt; so the result would be exact) and the formula is:
+
+:&lt;math&gt;w_i^{(t)} = \frac{1}{\big|y_i - X_i \boldsymbol \beta ^{(t)} \big|}.&lt;/math&gt;
+
+To avoid dividing by zero, [[Regularization (mathematics)|regularization]] must be done, so in practice the formula is:
+
+:&lt;math&gt;w_i^{(t)} = \frac 1 {\max\left\{\delta, \left|y_i - X_i \boldsymbol \beta ^{(t)} \right|\right\} }.&lt;/math&gt;
+
+where &lt;math&gt;\delta&lt;/math&gt; is some small value, like 0.0001.&lt;ref name=Pfeil /&gt; Note the use of &lt;math&gt;\delta&lt;/math&gt; in the weighting function is equivalent to the [[Huber loss]] function in robust estimation. &lt;ref name=Fox_and_Weisberg&gt; Fox, J.; Weisberg, S. (2013),''[http://users.stat.umn.edu/~sandy/courses/8053/handouts/robust.pdf Robust Regression]'', Course Notes, University of Minnesota&lt;/ref&gt;
+
+== See also ==
+* [[Feasible generalized least squares]]
+* [[Weiszfeld's algorithm]] (for approximating the [[geometric median]]), which can be viewed as a special case of IRLS
+
+== Notes ==
+{{Reflist}}
+
+== References ==
+* [https://web.archive.org/web/20070810222123/http://www.mai.liu.se/~akbjo/LSPbook.html Numerical Methods for Least Squares Problems by Åke Björck] (Chapter 4: Generalized Least Squares Problems.)
+* [http://graphics.stanford.edu/~jplewis/lscourse/SLIDES.pdf Practical Least-Squares for Computer Graphics. SIGGRAPH Course 11]
+
+== External links ==
+
+* [https://stemblab.github.io/irls/ Solve under-determined linear systems iteratively]
+
+{{DEFAULTSORT:Iteratively Reweighted Least Squares}}
+[[Category:Least squares]]</text>
+      <sha1>kk5zcwgqj2to6evu3frmqv18ag77ude</sha1>
+    </revision>
+  </page>
+</mediawiki>

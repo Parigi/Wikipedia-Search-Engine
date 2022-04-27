@@ -1,0 +1,321 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.10/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.10/ http://www.mediawiki.org/xml/export-0.10.xsd" version="0.10" xml:lang="en">
+  <siteinfo>
+    <sitename>Wikipedia</sitename>
+    <dbname>enwiki</dbname>
+    <base>https://en.wikipedia.org/wiki/Main_Page</base>
+    <generator>MediaWiki 1.35.0-wmf.36</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Media</namespace>
+      <namespace key="-1" case="first-letter">Special</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Talk</namespace>
+      <namespace key="2" case="first-letter">User</namespace>
+      <namespace key="3" case="first-letter">User talk</namespace>
+      <namespace key="4" case="first-letter">Wikipedia</namespace>
+      <namespace key="5" case="first-letter">Wikipedia talk</namespace>
+      <namespace key="6" case="first-letter">File</namespace>
+      <namespace key="7" case="first-letter">File talk</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki talk</namespace>
+      <namespace key="10" case="first-letter">Template</namespace>
+      <namespace key="11" case="first-letter">Template talk</namespace>
+      <namespace key="12" case="first-letter">Help</namespace>
+      <namespace key="13" case="first-letter">Help talk</namespace>
+      <namespace key="14" case="first-letter">Category</namespace>
+      <namespace key="15" case="first-letter">Category talk</namespace>
+      <namespace key="100" case="first-letter">Portal</namespace>
+      <namespace key="101" case="first-letter">Portal talk</namespace>
+      <namespace key="108" case="first-letter">Book</namespace>
+      <namespace key="109" case="first-letter">Book talk</namespace>
+      <namespace key="118" case="first-letter">Draft</namespace>
+      <namespace key="119" case="first-letter">Draft talk</namespace>
+      <namespace key="446" case="first-letter">Education Program</namespace>
+      <namespace key="447" case="first-letter">Education Program talk</namespace>
+      <namespace key="710" case="first-letter">TimedText</namespace>
+      <namespace key="711" case="first-letter">TimedText talk</namespace>
+      <namespace key="828" case="first-letter">Module</namespace>
+      <namespace key="829" case="first-letter">Module talk</namespace>
+      <namespace key="2300" case="first-letter">Gadget</namespace>
+      <namespace key="2301" case="first-letter">Gadget talk</namespace>
+      <namespace key="2302" case="case-sensitive">Gadget definition</namespace>
+      <namespace key="2303" case="case-sensitive">Gadget definition talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Solar power in the United Kingdom</title>
+    <ns>0</ns>
+    <id>11634792</id>
+    <revision>
+      <id>962200135</id>
+      <parentid>961944444</parentid>
+      <timestamp>2020-06-12T17:30:36Z</timestamp>
+      <contributor>
+        <username>BHGbot</username>
+        <id>5737366</id>
+      </contributor>
+      <minor/>
+      <comment>[[WP:BHGbot 6]] ([[User:BHGbot/6/List 3|List 3]]): fixed sort key; [[WP:GENFIXES]]</comment>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="30592" xml:space="preserve">{| class="infobox" style="width: 350px;" cellpadding=0 cellspacing=0
+|-
+| [[File:BedZED 2007.jpg|frameless|203px]]
+| rowspan=2 | [[File:CIS Tower.jpg|frameless|140px]]
+|-
+| [[File:Solar panels on a 1930s semi on Barleyfields Road, Wetherby (31st May 2013).JPG|frameless|203px]]
+|-
+| colspan=2 | ''Top-left'': [[solar panel]]s on the [[BedZED]] development in the [[London Borough of Sutton]]. ''Bottom-left'': residential [[rooftop solar PV]] in [[Wetherby]], Leeds. ''Right'': the [[CIS Tower]] was clad in [[building-integrated PV]] and connected to the [[National Grid (UK)|grid]] in 2005.
+|}
+[[Solar power]] represented a very small part of [[electricity sector in the United Kingdom|electricity production in the United Kingdom]] (UK) until the 2010s when it increased rapidly, thanks to [[feed-in tariff]] (FIT) subsidies and&lt;ref name=uk12/&gt; the falling cost of [[photovoltaic]] (PV) panels.
+
+{{As of|2019}} installed capacity was over 13 [[gigawatt]] (GW), with the 72MW&lt;sub&gt;(DC)&lt;/sub&gt; Shotwick Solar Farm being the largest in the UK.&lt;ref&gt;[https://renewablesnow.com/news/foresight-solar-fund-snaps-up-72-mwp-solar-park-uks-largest-556758/ Foresight Solar Fund snaps up 72-MWp solar park, UK's largest], RenewablesNow, February 3, 2017&lt;/ref&gt; 
+Annual generation was slightly under 13 [[Terrawatt-hour|TWh]] in 2018, somewhat under 4% of UK electricity consumption.
+Peak generation was less than 10GW.
+Solar PV panels have a [[capacity factor]] of around 10% in the [[Climate of the United Kingdom|UK climate]].
+
+== Solar potential ==
+{{multiple image
+ |direction = horizontal
+ |align= right
+ |width1= 160
+ |width2= 300
+ |image1=SolarGIS-Solar-map-United-Kingdom-en.png
+ |image2=SolarGIS-Solar-map-Europe-en.png
+ |footer=[[Insolation|Solar potential]] in the UK and on the European continent (different colour scale)
+}}
+The UK's annual [[insolation]] is in the range of 750–1,100 [[kilowatt-hour]]s per square metre (kWh/m²). 
+London receives 0.52 and 4.74 kWh/m² per day in December and July, respectively.&lt;ref&gt;{{cite web |url=http://contemporaryenergy.co.uk/insolation-map/ |title=UK and Ireland Annual Insolation Map |publisher=ContemporaryEnergy.co.uk |date=2007 |access-date=2015}}&lt;/ref&gt; 
+While the sunniest parts of the UK receive much less solar radiation than the sunniest parts of Europe, the country's insolation in the south is comparable with that of central European countries, including [[Solar power in Germany|Germany]], which generates about 7% of its electricity from solar power.&lt;ref&gt;
+{{cite web |url=http://www.iea-pvps.org/fileadmin/dam/public/report/technical/PVPS_report_-_A_Snapshot_of_Global_PV_-_1992-2014.pdf |title=Snapshot of Global PV 1992-2014 |website=iea-pvps.org/index.php?id=32 |publisher=International Energy Agency — Photovoltaic Power Systems Programme |date=30 March 2015 |archiveurl=https://web.archive.org/web/20150407023056/http://www.iea-pvps.org/index.php?id=92&amp;eID=dam_frontend_push&amp;docID=2430 |archivedate=7 April 2015 |url-status=live }}&lt;/ref&gt; 
+Additionally, the UK's higher wind speeds cool PV modules, leading to higher efficiencies than could be expected at these levels of insolation.&lt;ref&gt;{{cite web|url=http://www.solarpower2day.net/solar-cells/efficiency/|title=Solar Cell Efficiency|author=|date=|website=solarpower2day.net}}&lt;/ref&gt; The [[Department of Energy and Climate Change]] (DECC) assumes an average capacity factor of 9.7% for solar photovoltaics in the UK.&lt;ref&gt;{{cite web |url=https://www.gov.uk/government/uploads/system/uploads/attachment_data/file/266474/estimating_generation_from_fit_installations.pdf |format=pdf |page=2 |title=Estimating generation from Feed in Tariff installations |publisher=Department of Energy &amp; Climate Change |journal=Energy Trends |first=James |last=Hemingway |date=December 2013}}&lt;/ref&gt;
+
+Derry Newman, chief executive of [[Solarcentury]], argues that the UK's "famously overcast weather does not make it an unsuitable place for solar power, as solar panels work on daylight, not necessarily direct sunlight."&lt;ref&gt;{{cite web |url=https://www.theguardian.com/environment/2011/jun/27/uk-solar-energy-national-grid |title=UK's biggest solar energy farm connects to national grid. |author= |date=27 June 2011 |work=The Guardian }}&lt;/ref&gt; Some solar cells work better in direct sunlight, others can use more diffuse light. While insolation rates are lower in England than France and Spain, they are still usable.&lt;ref&gt;{{cite web|url=http://inhabitat.com/colored-solar-panels-dont-need-direct-sunlight/|title=Colored Solar Panels Don't Need Direct Sunlight|author=|date=|website=inhabitat.com}}&lt;/ref&gt;
+
+== Solar PV installed capacity and generation==
+{{see also|Growth of photovoltaics}}
+
+{| class="wikitable" style="margin: left; text-align: center;"
+|-
+!Year end
+! 2008&lt;ref name=DECC-trends2011&gt;{{cite web|title=ENERGY TRENDS - Table 5: Capacity of, and electricity generated from, renewable sources from 2008 to 2010|url=http://www.decc.gov.uk/assets/decc/11/stats/publications/energy-trends/2076-trendsjun11.pdf|website=decc.gov.uk|publisher=Department of Energy and Climate Change|accessdate=18 June 2014|archive-url=http://webarchive.nationalarchives.gov.uk/20121217150421/http://www.decc.gov.uk/assets/decc/11/stats/publications/energy-trends/2076-trendsjun11.pdf|url-status=dead|archivedate=17 December 2012|page=27|format=PDF|date=June 2011}}&lt;/ref&gt;
+! 2009&lt;ref name=DECC-trends2011 /&gt;
+! 2010&lt;ref name=DECC-trends2011 /&gt;&lt;ref name=pv-barometer-2011&gt;{{cite web|author1=EUROBSER'VER|title=Photovoltaic Barometer - installations 2010 and 2011|url=http://www.eurobserv-er.org/pdf/photovoltaic_2012.pdf|website=energies-renouvelables.org|accessdate=1 May 2013|archiveurl=https://web.archive.org/web/20140810235723/http://www.eurobserv-er.org/pdf/photovoltaic_2012.pdf|archivedate=10 August 2014|url-status=live|pages=6|format=PDF}}&lt;/ref&gt;
+! 2011&lt;ref name=pv-barometer-2011 /&gt;&lt;ref name=pv-barometer-2012&gt;{{cite web|author1=EUROBSER'VER|title=Photovoltaic Barometer - installations 2011 and 2012|url=http://www.energies-renouvelables.org/observ-er/stat_baro/observ/baro-jdp9.pdf|website=energies-renouvelables.org|accessdate=1 May 2013|archiveurl=https://web.archive.org/web/20131105143659/http://www.energies-renouvelables.org/observ-er/stat_baro/observ/baro-jdp9.pdf|archivedate=5 November 2013|url-status=live|pages=7|format=PDF}}&lt;/ref&gt;
+! 2012&lt;ref name=epia-2014&gt;{{cite web|title=Global Market Outlook for Photovoltaics 2014-2018|url=http://www.epia.org/fileadmin/user_upload/Publications/EPIA_Global_Market_Outlook_for_Photovoltaics_2014-2018_-_Medium_Res.pdf|website=epia.org|publisher=EPIA - European Photovoltaic Industry Association|accessdate=12 June 2014|archiveurl=https://web.archive.org/web/20140625154728/http://www.epia.org/fileadmin/user_upload/Publications/EPIA_Global_Market_Outlook_for_Photovoltaics_2014-2018_-_Medium_Res.pdf|archivedate=25 June 2014|url-status=dead|page=24|format=PDF}}&lt;/ref&gt;&lt;ref name=DECC-trends2014&gt;{{cite web|title=ENERGY TRENDS - Table 6.1. Renewable electricity capacity and generation|url=https://www.gov.uk/government/uploads/system/uploads/attachment_data/file/295362/ET_March_2014.PDF|publisher=Department of Energy &amp; Climate Change|accessdate=18 June 2014|page=50|date=March 2014}}&lt;/ref&gt;
+! 2013&lt;ref name=DECC-trends2014 /&gt;
+! 2014&lt;ref name=DECC-trends2015&gt;{{cite web|title=ENERGY TRENDS - Table 5.2. Renewable electricity capacity and generation|url=https://www.gov.uk/government/uploads/system/uploads/attachment_data/file/524695/Energy_Trends_March_2016.pdf|publisher=Department of Energy &amp; Climate Change|accessdate=31 March 2016|page=47|date=March 2017}}&lt;/ref&gt;
+! 2015&lt;ref name=DECC-trends2016&gt;{{cite web|title=ENERGY TRENDS - Table 6.1. Renewable electricity capacity and generation|url=https://www.gov.uk/government/uploads/system/uploads/attachment_data/file/604690/Energy_Trends_March_2017.pdf|publisher=Department of Energy &amp; Climate Change|accessdate=31 March 2017|page=71|date=March 2017}}&lt;/ref&gt;
+! 2016&lt;ref name=DECC-trends2016/&gt;
+! 2017&lt;ref name="2019GovStatsSheet"&gt;{{Cite report |url=https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/789371/ET_6.1.xls |title=Renewable electricity capacity and generation (ET 6.1).xls |date=11 April 2019 |issue="Tab Annual Row 11 and 27" |access-date=2019-04-19}}&lt;/ref&gt;
+! 2018&lt;ref name="2019GovStatsSheet"/&gt;
+! 2019&lt;ref name="2019GovStatsSheet"/&gt;
+|-
+! Capacity&lt;ref name="DECC-statistics-PV" /&gt;&lt;br/&gt;(MW)
+| 22 || 27 || 95 || 965 || 1,736 || 2,822 || 5,378 || 9,118 || 11,562 || 12,776
+| 13,098 || 13,447
+|-
+! Generation&lt;br/&gt;([[GWh|GW·h]]) 
+| 17 || 20 || 33 || 259 || 1,328 || 2,015 || 4,050 || 7,561 || 10,292 ||  11,525 
+|12,922 ||  13,616 
+|-
+! Effective Capacity factor
+|0.088 || 0.085 || 0.040||0.031||0.087||0.082||0.086||0.095||0.101||0.103
+| 0.113 || 0.108
+|-
+! % of total&lt;br/&gt;electricity consumption 
+| &lt;0.01 || &lt;0.01 || 0.01 || 0.07 || 0.37 || 0.64 || 1.33 || 2.49 || 3.1 || 3.4
+|3.9 || 3.9
+
+|}&lt;div style="padding-bottom: 10px;"&gt;'''Solar PV deployment in the UK. [[Nameplate capacity|Capacity]] in [[megawatt]] (MW[[watt-peak|&lt;sub&gt;p&lt;/sub&gt;]])'''&lt;/div&gt;
+&lt;div style="margin-left: -50px;"&gt;
+{{#invoke:Chart 
+| bar-chart| width = 650
+| group 1 =    95 : 965 : 1736 : 2822 : 5378 : 9118 : 11562 : 12776 : 13098 : 13447
+| colors = Gold
+| group names =
+| units suffix = _MW
+| x legends =    2010 : 2011 : 2012 : 2013 : 2014 : 2015 : 2016 : 2017 : 2018 : 2019
+}}
+&lt;/div&gt;
+&lt;div style="margin-top:-40px; padding-left: 15px;"&gt;''Source: DECC – Department of Energy &amp; Climate Change, Statistics – Solar photovoltaics deployment (period from 2010 onward)''&lt;ref name="DECC-statistics-PV"&gt;{{cite web |url=https://www.gov.uk/government/statistics/solar-photovoltaics-deployment |title=Statistics – Solar photovoltaics deployment |publisher=DECC – Department of Energy &amp; Climate Change |website=https://www.gov.uk/ |date=2015 |access-date=26 February 2015}}&lt;/ref&gt;&lt;/div&gt;The table above shows electricity production from solar panels as a percentage of the final consumption of electricity in the UK and not gross supply to the grid. These numbers may be updated as the UK government has an average time lag of around 6 months in completing the backlog of officially processing the large number of solar installations.
+
+== History ==
+[[File:Watts per capita UK.svg|thumb|190px|PV capacity in watts per capita by region in 2013&lt;ref name=epia-2014 /&gt;
+{| style="width: 100%; font-size: 0.85em;"
+|-
+| valign=top |
+{{legend|#FFB380|0–1 watt}}
+{{legend|#FF9955|1–10 watts}}
+{{legend|#FF7F2A|10–50 watts}}
+| valign=top |
+{{legend|#FF6600|50–100 watts}}
+{{legend|#D45500|100–200 watts}}
+{{legend|#AA4400|200–350 watts}}
+|}
+]]
+In 2006, the United Kingdom had installed about 12 MW of photovoltaic capacity&lt;ref name="ER1"&gt;{{cite web|url=http://www.energies-renouvelables.org/observ-er/stat_baro/observ/baro178.pdf|title=Observ'ER - l'observatoire des énergies renouvelables|first=|last=Observ'ER|date=|website=energies-renouvelables.org}}&lt;/ref&gt; and represented only 0.3% of total [[Solar energy in the European Union|European solar PV]] of 3,400&amp;nbsp;MW.&lt;ref&gt;{{cite web|url=http://www.epia.org/press-room/press-releases/press-release-details/article/solar-photovoltaics-2010-a-record-year-in-all-respects.html?tx_ttnews%5BbackPid%5D=3&amp;cHash=d1bd2a8766|title=Solar Photovoltaics|website=epia.org|access-date=2011-03-09|archive-url=https://web.archive.org/web/20110628073125/http://www.epia.org/press-room/press-releases/press-release-details/article/solar-photovoltaics-2010-a-record-year-in-all-respects.html?tx_ttnews%5BbackPid%5D=3&amp;cHash=d1bd2a8766|archive-date=2011-06-28|url-status=dead}}&lt;/ref&gt; 
+In August 2006 there was widespread news coverage in the United Kingdom of the major high street electrical retailers [[Currys]]' decision to stock PV modules, manufactured by [[Sharp Corporation|Sharp]], at a cost of [[pound sterling|£]]1,000 per module. 
+The retailer also provided an installation service.
+
+Solar power use increased very rapidly in subsequent years, as a result of reductions in the cost of PV panels, and the introduction of a FIT subsidy in April 2010.&lt;ref name="uk12" /&gt; 
+The introduction of the feed-in-tariff (FiT) in 2010 saw rapid growth of the UK photovoltaic market, with many thousands of domestic installations along with numerous commercial, community and industrial projects.
+
+The FiT were cut in the fast track review announced by DECC on 9&amp;nbsp;June 2011.&lt;ref&gt;{{cite web|url=http://www.decc.gov.uk/en/content/cms/consultations/fit_review/fit_review.aspx/ |title=Feed in Tariff Fast Track Review}}&lt;/ref&gt; 
+As a result, large arrays of solar photovoltaics became a much less attractive investment opportunity for developers, especially for projects greater than 250&amp;nbsp;kW, so large field arrays such as these were less likely to be built beyond the 1&amp;nbsp;August 2011 cut off date, at least not until 2012, when PV prices reduced somewhat - a utility scale solar farm is paid 8.9 p/kWhr generated.&lt;ref&gt;{{cite web|url=http://www.fitariffs.co.uk/eligible/levels/|title=Tariffs payable per kWh of electricity produced - FI Tarrifs - Feed-In Tariffs|author=|date=|website=fitariffs.co.uk}}&lt;/ref&gt; At the end of 2011, there were 230,000 solar power projects in the United Kingdom,&lt;ref name="uk12"&gt;{{cite web |url=http://uk.reuters.com/article/2012/02/09/uk-solar-tariff-idUKTRE8180XS20120209 |title=UK wants sustained cuts to solar panel tariffs |author=Yeganeh Torbati |date=Feb 9, 2012 |work=Reuters }}&lt;/ref&gt; with a total installed generating capacity of 750 MW.&lt;ref name="epia2012"&gt;{{cite web |url=http://www.epia.org/index.php?eID=tx_nawsecuredl&amp;u=0&amp;file=fileadmin/EPIA_docs/publications/epia/EPIA-market-report-2011.pdf&amp;t=1328788255&amp;hash=e3fbc35fd185fa8102cad6c987fbb2ed |title=Market Report 2011 |author=European Photovoltaic Industry Association |year=2012 |work= }}{{dead link|date=May 2018 |bot=InternetArchiveBot |fix-attempted=yes }}&lt;/ref&gt;
+
+In 2012, the government announced that 4 million homes across the UK will be powered by the sun within eight years,&lt;ref name="Fiona Harvey"&gt;{{cite web |url=https://www.theguardian.com/environment/2012/feb/09/solar-power-ambition-uk |title=Greg Barker: 4m homes will be solar-powered by 2020 |author=Fiona Harvey |date=9 February 2012 |work= }}&lt;/ref&gt; representing 22 [[gigawatt]] (GW) of installed solar power capacity by 2020.&lt;ref name="uk12" /&gt; At the end of September 2013, retailer [[IKEA|Ikea]] announced that solar panel packages for houses would be sold at 17 United Kingdom stores by July 2014. The decision followed a successful pilot project at the Thurrock Ikea store, during which one [[photovoltaic]] (PV) system was sold almost every day. The panels are manufactured by the Chinese company [[Hanergy]].&lt;ref&gt;{{cite news|title=Ikea to sell solar panels in UK. stores|url=https://www.theguardian.com/environment/2013/sep/30/ikea-sell-solar-panels-uk-stores|accessdate=1 October 2013|newspaper=The Guardian|date=30 September 2013|author=Reuters}}&lt;/ref&gt; This partnership did not last and in October 2015 Ikea ended its relationship with Hanergy.&lt;ref&gt;{{cite web|url=http://www.ft.com/intl/cms/s/0/194972d6-814b-11e5-a01c-8650859a4767.html#axzz3u77XMJVh|title=Subscribe to read|author=|date=|website=Financial Times}}&lt;/ref&gt;[[File:Alternative power (geograph 5647191).jpg|thumb|right|[[Kellingley Colliery|Colliery]] behind a solar farm in North Yorkshire in 2017]]
+
+By 2016 the total installed capacity was over 10,000 MW.
+In the summer half-year from April to September 2016, UK solar panels produced more electricity (6,964 GWh) than did coal power (6,342 GWh). Each is about 5% of demand.&lt;ref&gt;{{cite web|url=https://www.carbonbrief.org/analysis-uk-solar-beats-coal-over-half-year |title=Analysis: UK solar beats coal over half a year|work=Carbon Brief|accessdate=6 October 2016}}&lt;/ref&gt;
+
+UK [[photovoltaics|solar PV]] installed capacity at the end of 2017 was 12.8 GW, representing a 3.4% share of total electricity generation.&lt;ref name="2019GovStatsSheet"/&gt; Provisionally, as of the end of January 2019 there was a total of 13,123 MW installed UK solar capacity across 979,983 installations. This is an increase of 323 MW in slightly more than a year.&lt;ref&gt;https://www.gov.uk/government/statistics/announcements/solar-pv-deployment-february-2019 /&gt;&lt;/ref&gt;
+The all-time peak generation from photovoltaics was 9.55 GW on 14 May 2019.&lt;ref name="pvlive"&gt;{{cite web|url=https://www.solar.sheffield.ac.uk/pvlive/|title=PV Live Sheffield University|accessdate=22 May 2019}}&lt;/ref&gt;
+
+== Solar PV by size of installations ==
+{| class="wikitable"
+|+Cumulative installed capacity&lt;ref&gt;{{Cite web|url=https://ukbusinessenergy.co.uk/uk-solar-pv-market-report/|title=UK Solar &amp; PV Market Report 2019|date=2018-09-24|website=UK Business Energy|language=en-GB|access-date=2019-09-28}}&lt;/ref&gt;
+!Size
+!July 2018 (MW)
+|-
+|0 to &lt; 4&amp;nbsp;kW
+| align="right" |2,567,9
+|-
+|4 to &lt; 10&amp;nbsp;kW
+| align="right" |224.7
+|-
+|10 to &lt; 50&amp;nbsp;kW 
+| align="right" |786.8
+|-
+|50&amp;nbsp;kW to &lt; 5MW
+| align="right" |3,468.5
+|-
+|5 to &lt; 25MW
+| align="right" |4,310.9
+|-
+|&gt; 25MW
+| align="right" |1,512.4
+|-
+|Pre 2009 estimate
+| align="right" |14.6
+|-
+|TOTAL
+| align="right" |12,885.9
+|}
+
+== Residential solar PV ==
+
+According to a report on behalf of the European Commission the United Kingdom had  2,499 MW of residential solar PV capacity with  775,000 residential solar PV prosumers in the country representing  2.7% of households as of 2015.&lt;ref name=":0"&gt;{{Cite web|url=https://ec.europa.eu/commission/sites/beta-political/files/study-residential-prosumers-energy-union_en.pdf|title=Residential prosumers in the European energy union.|last=|first=|date=|website=|url-status=live|archive-url=|archive-date=|access-date=}}&lt;/ref&gt; The average size of residential solar PV systems is estimated to be 3.25&amp;nbsp;kW moving to 2030. The technical potential for residential solar PV in the United Kingdom is estimated at 41,636 MW.&lt;ref name=":0" /&gt; The average payback time for residential Solar PV in the United Kingdom is 11.4 years as of 2015.&lt;ref name=":0" /&gt;
+
+Some of the advantages of small scale residential Solar include eliminating the need for extra land, keeping cost saving advantages in local communities and empowering households to become prosumers of renewable electricity and thus raising awareness of wasteful consumption habits and environmental issues through direct experience. It will take anything from 4 to 20 years to recoup the money spent on solar panels, this depends on a number of factors for example how many modules you have, how big they are, if they are south facing and where you live. Some studies have found that feed in tariff schemes have disproportionately benefited wealthier households with little or no assistance to help poorer household access financial loans or affordable schemes, whilst the costs of schemes are distributed evenly across utility bills.
+
+=== Storage ===
+
+Examples of popular domestic battery storage in the UK include [[Tesla Powerwall]], Sonnen Battery and Powervault.{{citation needed|date=September 2019}}
+
+== Large scale solar power parks ==
+{| class="wikitable sortable" style="min-width: 460px;text-align: right"
+|-
+!Name!![[megawatt|MW]]
+!County!!Location
+!Operational from
+|-
+|Shotwick solar farm
+|72
+|Flintshire|| 
+|2016
+|}
+
+The first solar park in Wales became operational in 2011 at [[Rhoshill, Pembrokeshire|Rhosygilwen]], north [[Pembrokeshire]].&lt;ref&gt;{{cite news|publisher=BBC|title=Wales' first solar park powers up in Pembrokeshire|url=https://www.bbc.co.uk/news/uk-wales-14073447|date=8 July 2011|accessdate=25 June 2014}}&lt;/ref&gt;
+
+On 13&amp;nbsp;July 2011, construction of the largest solar park in the United Kingdom was completed in [[Newark-on-Trent]] in [[Nottinghamshire]]. 
+The 4.9&amp;nbsp;MW free-field system was built in just seven weeks after being granted planning permission. 
+The system generates an estimated 4,860&amp;nbsp;MW·h of electricity (an average power of 560&amp;nbsp;kW) into the national grid each year.&lt;ref&gt;{{cite web|url=http://www.solarpowerportal.co.uk/news/conergy_completes_record-breaking_uk_solar_park/|title=Conergy completes record-breaking UK solar park|author=|date=13 July 2011|work=Solar Power Portal}}&lt;/ref&gt;
+There are several other examples of 4–5&amp;nbsp;MW field arrays of photovoltaics in the UK, including the 5&amp;nbsp;MW Language Solar Park, the 5&amp;nbsp;MW Westmill Solar Farm, the 4.51&amp;nbsp;MW Marsten Solar Farm and Toyota's 4.6&amp;nbsp;MW plant in Burnaston, Derbyshire.&lt;ref name="spp-5478"&gt;{{cite web|url=http://www.solarpowerportal.co.uk/blogs/just_how_many_solar_projects_beat_the_fast_track_review_5478/|title=Just how many solar projects beat the fast track review?|last=Hughes|first=Emma|date=3 August 2011|work=Solar Power Portal|publisher=Semiconductor Media, Ltd|accessdate=4 August 2011}}&lt;/ref&gt;
+
+The first large solar farm in the United Kingdom, a 32&amp;nbsp;MW solar farm, began construction in November 2012. 
+It is located in [[Leicestershire]], between the runways of the former military airfield, Wymeswold.&lt;ref&gt;{{cite web|url=http://solartribune.com/2012-12-10-construction-begins-on-britains-largest-solar-plant/|title=Construction Begins on Britain’s Largest Solar Plant|author=|date=|website=solartribune.com}}&lt;/ref&gt;
+
+As of June 2014 there were 18 schemes generating more than 5&amp;nbsp;MW and 34 in planning or construction in Wales.&lt;ref&gt;{{cite news|url=https://www.bbc.co.uk/news/uk-wales-28008406|title=Solar parks: Large scale schemes 'to double' in Wales|date=25 June 2014|accessdate=25 June 2014|publisher=BBC}}&lt;/ref&gt;
+
+== Planning considerations ==
+The adding of Solar Panels to the external elevations and roofs of a dwelling will change the appearance of both the property and local street view. This in some cases will require [[Planning permission in the United Kingdom|Planning Permission]] from the Local Authority. A [[Listed Building]] or [[Conservation area (United Kingdom)|Conservation Area]], Planning Permission is mandatory. A domestic dwelling outside of the constraints of Listed Buildings and Conservation Areas where Solar Panels are being installed, then the home owner can in most cases, as long as certain [https://beta.gov.wales/planning-permission-solar-panels height limitations] are adhered too, can proceed under their [https://planningapplications.com/planning-regulations-building-regulations-examples/solar-panels/ Permitted Development] rights.
+
+== Government programmes ==
+
+The [[Energy Saving Trust]] that administers government grants for domestic photovoltaic systems, the [[Low Carbon Building Programme]], estimates that an installation for an average-sized house would cost between £5,000–£8,000, with most domestic systems usually between 1.5 and 3&amp;nbsp;kWp, and yield annual savings between £150 and £200 (in 2008).&lt;ref&gt;{{cite web|url=http://www.energysavingtrust.org.uk/generate_your_own_energy/types_of_renewables/solar_electricity|title=Grants and Loans|website=energysavingtrust.org.uk|url-status=dead|archiveurl=https://web.archive.org/web/20081011064419/http://www.energysavingtrust.org.uk/generate_your_own_energy/types_of_renewables/solar_electricity|archivedate=2008-10-11}}&lt;/ref&gt;
+
+The Green Energy for Schools programme will be providing 100 schools across the UK with solar panels. The first school in Wales was at [[Tavernspite#School|Tavernspite]], in [[Pembrokeshire]], which has received panels worth £20,000, sufficient to produce 3,000&amp;nbsp;kW·h of electricity each year.&lt;ref&gt;{{cite web|url=http://news.bbc.co.uk/2/hi/uk_news/wales/south_west/7407764.stm|title=Free solar power first for school|author=|date=19 May 2008|publisher=|via=news.bbc.co.uk}}.&lt;/ref&gt;
+
+The average UK home consumes about 3000 kWh of electricity per year, equivalent to about 1 ton of CO2 per home (clearly dependent on electricity industry energy mix). That equates to 25 million tons of CO2 per year from UK domestic electricity consumption. At this time (Sep 2019) there is no compulsion for new builds to incorporate any solar power (or wind where feasible).
+
+=== Feed-in tariff ===
+{{update section|date=April 2019}}
+{{main|Feed-in tariffs in the United Kingdom}}
+
+Discussion on implementation of a feed-in tariff programme concluded on 26&amp;nbsp;September 2008, and the results were published in 2009.&lt;ref&gt;{{cite web|url=http://www.berr.gov.uk/consultations/page46797.html|title=UK Renewable Energy Strategy Consultation|website=berr.gov.uk|access-date=2008-08-20|archive-url=https://web.archive.org/web/20081012080414/http://www.berr.gov.uk/consultations/page46797.html|archive-date=2008-10-12|url-status=dead}}&lt;/ref&gt;
+
+The government in the UK agreed in April 2010 to pay for all grid-connected generated electricity at an initial rate of up to 41.3p (US$0.67) per kWh, whether used locally or exported.&lt;ref&gt;{{cite web
+ |url= http://www.energysavingtrust.org.uk/Generate-your-own-energy/Sell-your-own-energy/Feed-in-Tariff-scheme 
+ |title= Feed-in Tariff scheme |date= 1 April 2011 
+ |publisher= Energy Saving Trust 
+ |accessdate= 4 August 2011 }}&lt;/ref&gt; 
+The rates proved more attractive than necessary, and in August 2011, were drastically reduced for installations over 50&amp;nbsp;kW,&lt;ref&gt;{{cite web
+ |url= http://www.businessgreen.com/bg/news/2098305/curtain-falls-solar-subsidy-boom 
+ |title= Curtain falls on solar subsidy boom 
+ |first= Will |last= Nichols |date= 1 August 2011 
+ |work= BusinessGreen |publisher= Incisive Media Investments Limited 
+ |accessdate= 4 August 2011 }}&lt;/ref&gt; 
+a policy change criticized as marking "the end of the UK’s solar industry as we know it".&lt;ref&gt;{{cite web
+ |url= http://www.solarpowerportal.co.uk/news/the_end_of_large-scale_solar_as_we_know_it_3465/ 
+ |title= The end of large-scale solar as we know it 
+ |first= Emma |last= Hughes |date= 1 August 2011 
+ |work= Solar Power Portal |publisher= Semiconductor Media, Ltd 
+ |accessdate= 4 August 2011 }}&lt;/ref&gt;
+
+Feed In Tariff rates are adjusted annually by the government.&lt;ref&gt;{{cite web|url=https://www.ofgem.gov.uk/environmental-programmes/fit/fit-tariff-rates|title=Feed-In Tariff (FIT) rates|author=|date=|website=ofgem.gov.uk}}&lt;/ref&gt; 
+As of 8 February 2016, the rate is 4.39 pence per kWh of power generated for domestic systems of 4kWp (p means peak i.e. the maximum power that the system can produce) or less and where homes meet the minimum [[Energy Performance Certificate|EPC]] requirement of band D.&lt;ref&gt;https://www.ofgem.gov.uk/system/files/docs/2016/02/feed-in_tariff_generation_and_export_tables_08.02.2016_-_31.03.2016.pdf&lt;/ref&gt;  The Export Tariff is 4.85 pence per kWh exported to the grid.  The amount of electricity exported is not usually measured for domestic installations. It is calculated by assuming that 50% of the electricity produced is exported into the grid.
+
+The Department of Business Energy and Industrial Strategy (BEIS) published a consultation on 19 July 2018. In this, they state their intention to close the Feed-in Tariff scheme to new applicants from 1 April 2019&lt;ref&gt;[https://www.ofgem.gov.uk/environmental-programmes/fit/about-fit-scheme About the FIT scheme]&lt;/ref&gt; and will not be replaced by a new subsidy.&lt;ref&gt;[http://www.jojusolar.co.uk/2018/08/08/renewable-energy-news-july-2018/ FiT changes on the way]&lt;/ref&gt;
+
+On 10 June 2019, Ofgem announced&lt;ref&gt;[https://www.ofgem.gov.uk/publications-and-updates/smart-export-guarantee-seg Smart Export Guarantee (SEG)]&lt;/ref&gt; BEIS have introduced the Smart Export Guarantee (SEG). The SEG will be in force from 1 January 2020. This is not a direct replacement of the feed-in tariff scheme, but rather a new initiative that will reward solar generators for electricity exported to the grid. Energy suppliers with more than 150,000 domestic customers will be obligated to provide at least one export tariff.&lt;ref&gt;[https://www.gov.uk/government/consultations/the-future-for-small-scale-low-carbon-generation The future for small-scale low-carbon generation: part A]&lt;/ref&gt; The export tariff rate must be greater than zero. Export will be measured by smart meters which the energy supplier will install free of charge.
+
+=== Net metering ===
+
+Net metering is only available from one company, Eastern Energy, where it is referred to as "SolarNet".&lt;ref&gt;{{cite web|url=http://www.greenpeace.org.uk/files/pdfs/migrated/MultimediaFiles/Live/FullReport/1508.pdf|title=SolarNet and Net Metering|website=greenpeace.org.uk|url-status=dead|archiveurl=https://web.archive.org/web/20130603060349/http://www.greenpeace.org.uk/files/pdfs/migrated/MultimediaFiles/Live/FullReport/1508.pdf|archivedate=2013-06-03}}&lt;/ref&gt;
+
+==Future==
+Decentralised smaller scale generators which are not connected directly to the transmission network are forecast to increase.&lt;ref&gt;{{cite web |title=Future Energy  Scenarios in  five minutes |url=http://fes.nationalgrid.com/media/1357/fes-2018-in-5-minutes-web-version.pdf |publisher=[[National Grid (Great Britain)|National Grid]] |accessdate=20 April 2019}}&lt;/ref&gt; New solar farms and [[battery storage]] may help to meet increased demand from [[electric vehicle]]s.&lt;ref&gt;{{cite news |title=Battery storage and solar farms to power 100 UK 'Electric Forecourts' |url=https://www.edie.net/news/8/Battery-storage-and-solar-farms-to-power-100-UK--Electric-Forecourts-/ |work=edie |date=29 March 2019}}&lt;/ref&gt;
+
+==See also==
+{{Portal|Renewable energy|Energy|United Kingdom}}
+{{div col|colwidth=30em}}
+*[[Renewable energy in the United Kingdom]]
+*[[Renewable energy in Scotland]]
+*[[Energy use and conservation in the United Kingdom]]
+*[[Energy policy of the United Kingdom]]
+*[[Green electricity in the United Kingdom]]
+*[[Solar energy in the European Union]]
+*[[List of renewable energy topics by country|Renewable energy by country]]
+*[[UK-ISES]]
+*[[United Kingdom National Renewable Energy Action Plan]]
+{{div col end}}
+
+==References==
+{{Reflist|2}}
+
+==External links==
+{{Commons category|Solar energy in the United Kingdom}}
+*[http://www.renewableenergyworld.com/rea/news/article/2010/09/uks-first-solar-plant-gets-go-ahead UK's First Solar Plant Gets Go-ahead]: A disused tin mine is set to host the UK's first solar panel park after winning approval from [[Cornwall Council]].
+*[https://www.webcitation.org/6QQBZUnIZ?url=http://webarchive.nationalarchives.gov.uk/20121217150421/http://www.decc.gov.uk/assets/decc/11/stats/publications/energy-trends/2076-trendsjun11.pdf Energy statistics from DECC]
+*[http://www.ofgem.gov.uk/Pages/MoreInformation.aspx?docid=33&amp;refer=Sustainability/Environment/fits Feed-in Tariff Installation Report]
+
+{{Energy in the United Kingdom|sources}}
+{{Solar power in Europe}}
+{{Renewable energy by country}}
+
+[[Category:Solar power in the United Kingdom| ]]</text>
+      <sha1>0pfcy09snjw46v2xpgwglqtjfyhywuw</sha1>
+    </revision>
+  </page>
+</mediawiki>

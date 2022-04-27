@@ -1,0 +1,295 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.10/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.10/ http://www.mediawiki.org/xml/export-0.10.xsd" version="0.10" xml:lang="en">
+  <siteinfo>
+    <sitename>Wikipedia</sitename>
+    <dbname>enwiki</dbname>
+    <base>https://en.wikipedia.org/wiki/Main_Page</base>
+    <generator>MediaWiki 1.35.0-wmf.36</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Media</namespace>
+      <namespace key="-1" case="first-letter">Special</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Talk</namespace>
+      <namespace key="2" case="first-letter">User</namespace>
+      <namespace key="3" case="first-letter">User talk</namespace>
+      <namespace key="4" case="first-letter">Wikipedia</namespace>
+      <namespace key="5" case="first-letter">Wikipedia talk</namespace>
+      <namespace key="6" case="first-letter">File</namespace>
+      <namespace key="7" case="first-letter">File talk</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki talk</namespace>
+      <namespace key="10" case="first-letter">Template</namespace>
+      <namespace key="11" case="first-letter">Template talk</namespace>
+      <namespace key="12" case="first-letter">Help</namespace>
+      <namespace key="13" case="first-letter">Help talk</namespace>
+      <namespace key="14" case="first-letter">Category</namespace>
+      <namespace key="15" case="first-letter">Category talk</namespace>
+      <namespace key="100" case="first-letter">Portal</namespace>
+      <namespace key="101" case="first-letter">Portal talk</namespace>
+      <namespace key="108" case="first-letter">Book</namespace>
+      <namespace key="109" case="first-letter">Book talk</namespace>
+      <namespace key="118" case="first-letter">Draft</namespace>
+      <namespace key="119" case="first-letter">Draft talk</namespace>
+      <namespace key="446" case="first-letter">Education Program</namespace>
+      <namespace key="447" case="first-letter">Education Program talk</namespace>
+      <namespace key="710" case="first-letter">TimedText</namespace>
+      <namespace key="711" case="first-letter">TimedText talk</namespace>
+      <namespace key="828" case="first-letter">Module</namespace>
+      <namespace key="829" case="first-letter">Module talk</namespace>
+      <namespace key="2300" case="first-letter">Gadget</namespace>
+      <namespace key="2301" case="first-letter">Gadget talk</namespace>
+      <namespace key="2302" case="case-sensitive">Gadget definition</namespace>
+      <namespace key="2303" case="case-sensitive">Gadget definition talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Solar power in Belgium</title>
+    <ns>0</ns>
+    <id>36377693</id>
+    <revision>
+      <id>958811754</id>
+      <parentid>940589129</parentid>
+      <timestamp>2020-05-25T20:44:06Z</timestamp>
+      <contributor>
+        <username>DB1729</username>
+        <id>37664675</id>
+      </contributor>
+      <comment>[[WP:SORTKEY]]</comment>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="17902" xml:space="preserve">{{Use dmy dates|date=July 2018}}
+{{Update|Notable installations|date=May 2016}}
+[[File:SolarGIS-Solar-map-Belgium-en.png|thumb|upright=1.15|[[Insolation|Solar potential]] in Belgium]]
+
+'''Solar power in Belgium''' reached an installed capacity of 4,254 MW of power generating 3,563 GWh of electricity in 2018.&lt;ref name=":2"&gt;{{Cite web|url=https://www.eurobserv-er.org/category/2019/|title=2019 {{!}} EurObserv'ER|language=en-GB|access-date=2019-08-29}}&lt;/ref&gt; In 2015 PV solar power accounted for around 4% of Belgium's total electricity demand, the 4th highest penetration figure in the world, although the country is some way behind the leaders [[Solar power in Germany|Germany]], [[Solar power in Italy|Italy]] and [[Solar power in Greece|Greece]] at between 7% and 8% of electricity demand.&lt;ref name=":0"&gt;{{Cite web|url=https://www.eurobserv-er.org/photovoltaic-barometer-2016/|title=Photovoltaic Barometer 2016|website=}}&lt;/ref&gt;
+
+Installed capacity grew at an outstanding pace from 2008 until 2012, but its growth has since slowed to a steady pace. Almost all of solar power in Belgium is grid connected.&lt;ref name=":0" /&gt;
+
+== Timeline ==
+{{further|Solar power in the European Union|Growth of photovoltaics}}
+
+&lt;!-- vertical bar chart --&gt;
+{{Image frame
+|width = 300
+|align=right
+|pos=top
+|content=&lt;div style="margin: 15px 5px -40px -50px; border: 0px red dotted; font-size:80%"&gt;
+{{ #invoke:Chart
+ | bar-chart
+ | width = 330
+ | height = 320
+ | group 1 = 0 :0 :0 : 70.9: 574 : 787 : 2051 : 2768 : 2983 : 3140: 3252 : 3561 : 3846
+ | colors = maroon
+ | group names =
+ | units suffix = _MW
+ | x legends = 2005 : : 2007 : : 2009 : : 2011 : : 2013 ::2015 : : 2017
+}}&lt;/div&gt;
+|caption = '''Belgium Growth of PV Capacity'''&lt;br&gt;in megawatts since 2005&lt;br&gt;Source: EPIA and IEA-PVPS&lt;ref name=epia-2014-p34&gt;{{cite web|title=Global Market Outlook for Photovoltaics 2014–2018|url=http://www.epia.org/fileadmin/user_upload/Publications/EPIA_Global_Market_Outlook_for_Photovoltaics_2014-2018_-_Medium_Res.pdf|website=epia.org|publisher=EPIA – European Photovoltaic Industry Association|accessdate=12 June 2014|archiveurl=https://www.webcitation.org/6QGSvAF7w|archivedate=12 June 2014|page=34}}&lt;/ref&gt;&lt;ref&gt;collected historical data from article [[growth of photovoltaics]]&lt;/ref&gt;&lt;ref name="iea-pvps-snapshot-1992-2014"&gt;{{cite web |url=http://www.iea-pvps.org/fileadmin/dam/public/report/technical/PVPS_report_-_A_Snapshot_of_Global_PV_-_1992-2014.pdf |title=Snapshot of Global PV 1992–2014 |website=iea-pvps.org/index.php?id=32 |publisher=International Energy Agency – Photovoltaic Power Systems Programme |date=30 March 2015 |archiveurl=https://www.webcitation.org/6XPpb1fai |archivedate=30 March 2015 |url-status=live}}&lt;/ref&gt;
+}}
+
+{| class="wikitable floatright" style="text-align: right; width: 320px;"
+! rowspan=2 style="background-color: #cfb;"|Year 
+! colspan=3 style="background-color: #cfb;"|Photovoltaics&lt;ref name=eur2012&gt;[http://www.eurobserv-er.org/pdf/photovoltaic_2012.pdf Photovoltaic Barometer 2012]&lt;/ref&gt;&lt;ref&gt;[http://www.eurobserv-er.org/pdf/baro196.pdf Photovoltaic Barometer 2010]&lt;/ref&gt;&lt;ref&gt;[http://www.eurobserv-er.org/pdf/baro202.pdf Photovoltaic Barometer 2011]&lt;/ref&gt;&lt;ref&gt;[http://www.energies-renouvelables.org/observ-er/stat_baro/observ/baro-jdp9.pdf Photovoltaic Barometer]&lt;/ref&gt;&lt;ref name=pv-barometer-2013&gt;{{cite web|author1=EUROBSER'VER|title=Photovoltaic Barometer – installations 2012 and 2013|url=http://www.energies-renouvelables.org/observ-er/stat_baro/observ/baro-jdp11_en.pdf|website=energies-renouvelables.org|accessdate=21 June 2014|archiveurl=https://www.webcitation.org/6QWFWLBH2|archivedate=22 June 2014|pages=5, 6|format=PDF}}&lt;/ref&gt;
+|-
+! style="background-color: #cfb;" | MWp
+! style="background-color: #cfb;" | GWh
+! style="background-color: #cfb;" | Ref
+|-
+| 2008
+| 71
+| n.a
+|
+|-
+| 2009
+| 574
+| 488
+|
+|-
+| 2010
+| 787
+| 560
+|
+|-
+| 2011
+| 2,051
+| 1,170
+|
+|-
+| 2012
+| 2,768
+| 2,115
+|
+|-
+| 2013
+| 2,983
+| 2,352
+|
+|-
+| 2014
+| 3,140
+| 2,883
+|&lt;ref name=":0" /&gt;
+|-
+|2015
+|3,252
+|3,045
+|&lt;ref name=":1"&gt;{{Cite web|url=https://www.eurobserv-er.org/photovoltaic-barometer-2017/|title=Photovoltaic barometer 2017 {{!}} EurObserv'ER|website=www.eurobserv-er.org|access-date=3 December 2017}}&lt;/ref&gt;
+|-
+|2016
+|3,561
+|3,086
+|&lt;ref name=":29"&gt;https://www.eurobserv-er.org/photovoltaic-barometer-2018/&lt;/ref&gt;
+|-
+|2017
+|3,846
+|3,149
+|&lt;ref name=":29" /&gt;
+|-
+|2018
+|4,254
+|3,563
+|&lt;ref name=":2" /&gt;
+|-
+! colspan="5" style="font-weight: normal" | &lt;small&gt;[http://www.energies-renouvelables.org/ Source: Photovoltaic Barometer]&lt;/small&gt; 
+|}
+
+'''2016'''
+
+Solar PV per capita grew to 302.8 Watts, remaining the third highest in the EU.&lt;ref name=":1" /&gt;
+
+'''2015'''
+
+In 2015 Solar PV per capita amounted to 287 Watts, the third highest in the world after [[Solar power in Germany|Germany]] and [[Solar power in Italy|Italy]], providing around 4% of Belgium's total electricity demand.&lt;ref name=":0" /&gt;
+
+'''2014'''
+
+In the afternoon of 20 March 2014, a new record of peak electricity generation had been achieved. According to the power supplier [[Eneco Energie]], more than two gigawatt of electric power, corresponding to two full-sized nuclear power plants, were generated by solar PV and supplied more than 20 percent of the overall electricity consumption at the time.&lt;ref name="HLNrecord"&gt;{{cite news|url=http://www.hln.be/hln/nl/2764/milieu/article/detail/1824316/2014/03/20/Nooit-zoveel-zonne-energie-geproduceerd-in-Belgie.dhtml|title=Nooit zoveel zonne-energie geproduceerd in België|date=20 March 2014|newspaper=[[Het Laatste Nieuws]]|accessdate=9 April 2014}}&lt;/ref&gt;
+
+'''2013'''
+
+In 2013, Belgium's ''watt per capita'' distribution, the total installed photovoltaic capacity per inhabitant, amounted to 267 watts. This was the third highest per-capita figure in the European Union—and therefore also in the world at that time—just behind [[Solar power in Germany|Germany]] (447&amp;nbsp;watts) and [[Solar power in Italy|Italy]] (295&amp;nbsp;watts).&lt;ref name="pv-barometer-2013-p7"&gt;{{cite web|url=http://www.energies-renouvelables.org/observ-er/stat_baro/observ/baro-jdp11_en.pdf|title=Photovoltaic Barometer – installations 2012 and 2013|website=energies-renouvelables.org|pages=5, 6|format=PDF|author1=EUROBSER'VER|accessdate=21 June 2014|archiveurl=https://www.webcitation.org/6QWFWLBH2|archivedate=22 June 2014}}&lt;/ref&gt; In terms of the overall installed capacity of 2,983 MW, Belgium ranked tenth and belonged to the Top 10 leading photovoltaic countries in the world.&lt;ref name="iea-pvps-snapshot-1992-2013"&gt;{{cite web|url=http://www.iea-pvps.org/fileadmin/dam/public/report/statistics/PVPS_report_-_A_Snapshot_of_Global_PV_-_1992-2013_-_final_3.pdf|title=Snapshot of Global PV 1992–2013|year=2014|publisher=International Energy Agency – Photovoltaic Power Systems Programme|page=11|edition=2nd |ISBN=978-3-906042-19-0|archiveurl=https://www.webcitation.org/6Obzux7nw|archivedate=5 April 2014|url-status=live}}&lt;/ref&gt;&lt;ref&gt;provisional IEA-PVPS data later revised, see article [[growth of photovoltaics]] for additional sources.&lt;/ref&gt;
+
+'''2011'''
+
+At the end of 2011 the bulk of photovoltaic capacity was installed in the [[Flemish Region]] (88%), the remaining 12% was found mostly in [[Wallonia]]. The smaller [[Brussels-Capital Region]] had an installed capacity of 7 MWp. .&lt;ref name="archactua" /&gt;
+
+'''2009'''
+
+In December 2009, there were 35,500 solar power installations in the Flemish region, 17,000 in Wallonia and 7,000 in the Brussels Capital Region.&lt;ref name="lesoir"&gt;[http://www.lesoir.be/actualite/economie/2010-07-23/le-nombre-de-panneaux-solaires-explose-783226.php Le nombre de panneaux solaires explose]&lt;/ref&gt; The number of installations in the Flemish region in particular was expanding rapidly at that time due to a favourable support measure expiring at the end of the year.&lt;ref name="demorgen2009"&gt;[http://www.demorgen.be/dm/nl/5379/Ecotips/article/detail/1036814/2009/12/02/50-000-Vlaamse-gezinnen-hebben-zonnepanelen-eind-2009.dhtml 50.000 Vlaamse gezinnen hebben zonnepanelen eind 2009]&lt;/ref&gt;
+
+'''2007'''
+
+Installed capacity of [[solar power]] increased drastically after 2007.&lt;ref&gt;[http://ode.be/index.php?page=elec-uit-zon-markt Market growth of solar power in Flanders]&lt;/ref&gt; During 2009 the amount of solar installations quadrupled from 16,000 to 65,000. Residential and small installations had a combined power of about 220 MWp.&lt;ref&gt;[http://www.synergrid.be/index.cfm?PageID=19083&amp;News_ID=20829&amp;style=131080 Feiten en tendenzen 2009]&lt;/ref&gt;
+
+== Solar PV market by segment ==
+{| class="wikitable"
+! colspan="2" |Installed Capacity in Belgium by class size 2017&lt;ref&gt;{{Cite web|url=https://www.pvp4grid.eu/wp-content/uploads/2018/12/D2.1_Existing-future-prosumer-concepts_PVP4G-1.pdf|title=EXISTING AND FUTURE PV PROSUMER CONCEPTS , pg. 18}}&lt;/ref&gt; 
+|-
+|&lt;10&amp;nbsp;kW
+| align="right" |62.89%
+|-
+|10-100&amp;nbsp;kW
+| align="right" |17.71% 
+|-
+|&gt;250&amp;nbsp;kW
+| align="right" |19.39% 
+|}
+Nearly 63% of solar power installed in Belgium in 2017 was for small systems of less than 10&amp;nbsp;kW, mostly residential rooftop Solar PV. Larger systems over 250&amp;nbsp;kW accounted for almost 20% of the total.
+
+=== Residential Solar PV Capacity ===
+According to a report on behalf of the European Commission in 2015 Belgium Flanders had an estimated 1,301 MW (666 MW) of residential solar PV capacity with 336,000 (232,000) residential solar PV prosumers in the country representing 7.1% (3.7%) of households.&lt;ref name=":3"&gt;{{Cite web|url=https://ec.europa.eu/commission/sites/beta-political/files/study-residential-prosumers-energy-union_en.pdf|title=Study on "Residential Prosumers in the European Energy Union"}}&lt;/ref&gt; The average size of residential solar PV systems is estimated to be 3.87&amp;nbsp;kW moving to 2030.&lt;ref name=":3" /&gt; The technical potential for residential solar PV in Belgium Flanders is estimated at 7,327 MW and Belgium Wallonia at 3,753 MW .&lt;ref name=":3" /&gt; The payback time for residential Solar PV in Belgium Flanders was 14.7 years whilst in Belgium Wallonia it was 6.9 years as of 2015.&lt;ref name=":3" /&gt; Some of the advantages of small scale residential Solar include eliminating the need for extra land, keeping cost saving advantages in local communities and empowering households to become prosumers of renewable electricity and thus raising awareness of wasteful consumption habits and environmental issues through direct experience. 
+{{clear}}
+
+== Flanders ==
+As of July 2012 there are 42,644 photovoltaic installations in the [[Flemish region]] that receive [[green certificate]]s.&lt;ref name="vregstats"/&gt;
+
+{| class="wikitable" style="text-align:right"
+! colspan="9" align="center" style="background-color: #cfb;" | Installed capacity (MWp)&lt;ref name="vregstats"&gt;Energy regulator's bi-yearly statistics on installations receiving green certificates:
+[http://www.vreg.be/sites/default/files/statistieken/groenestroom/20161104-gsc_2d_vermogen_en_aantal_installaties_per_provincie2.pdf mid2016]
+[http://www.vreg.be/sites/default/files/statistieken/groenestroom/20160519-gsc-vermogen_en_aantal_installaties_per_provincie_2015.pdf 2015]
+[http://www.vreg.be/sites/default/files/statistieken/groenestroom/20160519-gsc-vermogen_en_aantal_installaties_per_provincie_2014.pdf 2014]
+[http://www.vreg.be/sites/default/files/statistieken/20151002_-_gsc_-_vermogen_en_aantal_installaties_per_provincie_31-12-2013.pdf 2013]
+
+[http://www.vreg.be/sites/default/files/uploads/statistieken/groene_stroom/20130220-gsc_-_vermogen_en_aantal_installaties_per_provincie_20121231.pdf 2012]
+[http://www.vreg.be/sites/default/files/uploads/statistieken/00-20111231-gsc_-_vermogen_en_aantal_installaties_per_provincie_1.pdf 2011] [http://www.vreg.be/sites/default/files/uploads/statistieken/00-20101231-gsc_-_vermogen_en_aantal_installaties_per_provincie_6.pdf 2010] [http://www.vreg.be/sites/default/files/uploads/statistieken/00-20091231-gsc_-_vermogen_en_aantal_installaties_per_provincie_5.pdf 2009] [http://www.vreg.be/sites/default/files/uploads/statistieken/00-20081231-gsc_-_vermogen_en_aantal_installaties_per_provincie_4.pdf 2008] [http://www.vreg.be/sites/default/files/uploads/statistieken/00-20071231-gsc_-_vermogen_en_aantal_installaties_per_provincie_3.pdf 2007] [http://www.vreg.be/sites/default/files/uploads/statistieken/00-20061231-gsc_-_vermogen_en_aantal_installaties_per_provincie_2.pdf 2006]&lt;/ref&gt;
+|-
+! Year 
+! [[Antwerp (province)|Antwerp]]
+! [[Limburg (Belgium)|Limburg]]
+! [[East Flanders]]
+! [[Flemish Brabant]]
+! [[West Flanders]]
+! Total
+|-
+| align="left" | 2006 || 0.762 || 0.468 || 0.801 || 0.722 || 0.881 || 3.6
+|-
+| align="left" | 2007 || 3.9 || 4.8 || 4.4 || 3.0 || 5.9 || 22.0
+|-
+| align="left" | 2008 || 19.4 || 22.7 || 17.7 || 11.1 || 18.3 || 89.1
+|-
+| align="left" | 2009 || 110 || 88 || 149 || 65 || 130 || 542
+|-
+| align="left" | 2010 || 195 || 157 || 219 || 109 || 216 || 896
+|-
+| align="left" | 2011 || 386 || 350 || 362 || 194 || 379 || 1,672
+|-
+| align="left" | 2012 || 462|| 433|| 427|| 232|| 447|| 2,002
+|-
+| align="left" | 2013 || 488|| 453|| 474|| 248|| 471|| 2,135
+|-
+| align="left" | 2014 || 496|| 461|| 482|| 254|| 480|| 2,173
+|-
+| align="left" | 2015 || 506|| 468|| 486|| 256|| 488|| 2,204
+|-
+| align="left" | mid 2016 || 507|| 469|| 488|| 256|| 485|| 2,204
+|}
+
+=== Subsidies ===
+Towards 2011, it became clear that Flemish subsidies for solar panels had a significant impact on the cost of electricity of households without a photovoltaic installation. An added cost of up to 148 EUR is charged annually. Flemish minister for Energy [[Freya van den Bossche]] admitted that subsidies were too high, especially for large-scale installations.&lt;ref&gt;[http://www.nieuwsblad.be/extra/zonnepanelen Dossier zonnepanelen], nieuwsblad.be]&lt;/ref&gt; The guaranteed minimum price for electricity produced was reduced. For small photovoltaic installations(less than 1 MW) it was reduced from 330 EUR per MWh to 250 EUR per MWh by January 2012 with the goal of reaching renewable energy targets at a reasonable cost.&lt;ref&gt;{{cite web|title=Vlaamse regering past steun voor groene stroom aan|url=http://www.freyavandenbossche.be/article/vlaamse-regering-past-steun-voor-groene-stroom-aan/|publisher=freyavandenbossche.be|language=nl|date=12 October 2010}}&lt;/ref&gt; This resulted in a rally which caused the number of installations to almost double from 20,514 to 37,355 in 2011.&lt;ref name="vregstats"/&gt; The minimum price will be lowered further to 93 EUR per MWh from 2013 onwards.
+
+=== Notable installations ===
+A solar park of 100MW is set to be build near the town of Lommel, in the Flemish province of Limburg. Construction will start in September 2018 and will be completed mid-2019. It will produce 83 GWh per year equivalent of the consumption of 24000 households.&lt;ref&gt;http://www.renouvelle.be/fr/actualite-belgique/le-plus-grand-parc-solaire-du-benelux&lt;/ref&gt;
+
+In 2011 a {{convert|2|mi|km|0|adj=on|order=flip|abbr=off}} above ground "tunnel", built to avoid having to fell trees for a new high-speed railroad, was covered with solar panels.&lt;ref&gt;[https://www.theguardian.com/environment/2011/jun/06/tunnel-solar-belgium-rail High-speed Euro train gets green boost from two miles of solar panels]&lt;/ref&gt;&lt;ref&gt;[http://www.euronews.com/2011/06/16/belgium-launches-europe-s-first-solar-train/ Belgium launches Europe’s first solar train]&lt;/ref&gt;[[File:Solar panels in Belgium back view.jpg|thumb|Photovoltaic power station in Belgium]]
+
+In December 2009, [[Katoen Natie]] announced that they will install 800,000 m² of solar panels in various places, including [[Antwerp]]. It is expected that the installed solar power in the Flemish Region will be increased by 25%, when finished. That will be the largest installation in Europe. The installation produces about 35 GWh yearly.&lt;ref&gt;[http://www.standaard.be/artikel/detail.aspx?artikelid=DMF05122009_014 Katoen Natie heeft grootste installatie zonnepanelen in Europa]&lt;/ref&gt; The total cost will be 166 million euros.&lt;ref&gt;[http://www.demorgen.be/dm/nl/5376/Planet-Watch/article/detail/1038201/2009/12/05/Belgie-heeft-grootste-installatie-zonnepanelen-van-Europa.dhtml België heeft grootste installatie zonnepanelen van Europa]&lt;/ref&gt;
+
+In October 2009, the city of [[Antwerp]] announced that they want to install 2,500 m² of [[solar panel]]s on roofs of public buildings, that will generate 265 [[MWh]] per annum.&lt;ref&gt;[http://www.standaard.be/artikel/detail.aspx?artikelid=DMF30102009_046 Antwerpen wil 2.500 m² zonnepanelen plaatsen op stadsgebouwen]&lt;/ref&gt;
+
+In 2009, the city of [[Leuven]] installed 1,810 solar panels on public buildings.&lt;ref&gt;[http://www.demorgen.be/dm/nl/989/Binnenland/article/detail/1030914/2009/11/18/Leuven-plaatst-zonnepanelen-op-4-stadsgebouwen.dhtml Leuven plaatst zonnepanelen op 4 stadsgebouwen]&lt;/ref&gt;
+
+== Wallonia ==
+&lt;!-- The sources for this table are not very authoritative, please replace with more reliable data --&gt;
+{| class="wikitable" style="text-align:right"
+! colspan="9" align="center" style="background-color: #cfb;" | Installed capacity (MWp)&lt;ref name="archactua"&gt;{{cite web|title=Het geïnstalleerde PV-vermogen in Vlaanderen, Wallonië en Brussel|url=http://www.architectura.be/nieuwsdetail_new.asp?id_tekst=3042&amp;content=Het%20ge%C3%AFnstalleerde%20PV-vermogen%20in%20Vlaanderen,%20Walloni%C3%AB%20en%20Brussel|publisher=architectura.be|accessdate=30 November 2012|language=nl|date=15 February 2012}}&lt;/ref&gt;&lt;ref name="lesoir" /&gt; 
+|-
+! Year 
+! capacity
+|-
+| align="left" | 2009 || 64
+|-
+| align="left" | 2011 || 190
+|}
+
+== See also ==
+{{Portal|Belgium|Energy}}
+* [[Energy in Belgium]]
+* [[Wind power in Belgium]]
+* [[Solar power]]
+* [[Renewable energy by country]]
+
+== References ==
+{{Reflist|30em}}
+
+==External links==
+{{Commons category-inline|Solar energy in Belgium}}
+
+{{Solar power in Europe}}{{Renewable energy by country}}
+
+[[Category:Solar power by country|Belgium]]
+[[Category:Renewable energy in Belgium]]
+[[Category:Solar power in the European Union|Belgium]]</text>
+      <sha1>l04xp45ovkqt0xys9u70y8desl1yc8y</sha1>
+    </revision>
+  </page>
+</mediawiki>

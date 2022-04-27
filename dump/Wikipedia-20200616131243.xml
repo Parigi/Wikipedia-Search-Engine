@@ -1,0 +1,114 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.10/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.10/ http://www.mediawiki.org/xml/export-0.10.xsd" version="0.10" xml:lang="en">
+  <siteinfo>
+    <sitename>Wikipedia</sitename>
+    <dbname>enwiki</dbname>
+    <base>https://en.wikipedia.org/wiki/Main_Page</base>
+    <generator>MediaWiki 1.35.0-wmf.36</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Media</namespace>
+      <namespace key="-1" case="first-letter">Special</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Talk</namespace>
+      <namespace key="2" case="first-letter">User</namespace>
+      <namespace key="3" case="first-letter">User talk</namespace>
+      <namespace key="4" case="first-letter">Wikipedia</namespace>
+      <namespace key="5" case="first-letter">Wikipedia talk</namespace>
+      <namespace key="6" case="first-letter">File</namespace>
+      <namespace key="7" case="first-letter">File talk</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki talk</namespace>
+      <namespace key="10" case="first-letter">Template</namespace>
+      <namespace key="11" case="first-letter">Template talk</namespace>
+      <namespace key="12" case="first-letter">Help</namespace>
+      <namespace key="13" case="first-letter">Help talk</namespace>
+      <namespace key="14" case="first-letter">Category</namespace>
+      <namespace key="15" case="first-letter">Category talk</namespace>
+      <namespace key="100" case="first-letter">Portal</namespace>
+      <namespace key="101" case="first-letter">Portal talk</namespace>
+      <namespace key="108" case="first-letter">Book</namespace>
+      <namespace key="109" case="first-letter">Book talk</namespace>
+      <namespace key="118" case="first-letter">Draft</namespace>
+      <namespace key="119" case="first-letter">Draft talk</namespace>
+      <namespace key="446" case="first-letter">Education Program</namespace>
+      <namespace key="447" case="first-letter">Education Program talk</namespace>
+      <namespace key="710" case="first-letter">TimedText</namespace>
+      <namespace key="711" case="first-letter">TimedText talk</namespace>
+      <namespace key="828" case="first-letter">Module</namespace>
+      <namespace key="829" case="first-letter">Module talk</namespace>
+      <namespace key="2300" case="first-letter">Gadget</namespace>
+      <namespace key="2301" case="first-letter">Gadget talk</namespace>
+      <namespace key="2302" case="case-sensitive">Gadget definition</namespace>
+      <namespace key="2303" case="case-sensitive">Gadget definition talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Template:Much Ado About Nothing</title>
+    <ns>10</ns>
+    <id>36198929</id>
+    <revision>
+      <id>946165237</id>
+      <parentid>798056353</parentid>
+      <timestamp>2020-03-18T14:23:14Z</timestamp>
+      <contributor>
+        <username>Randy Kryn</username>
+        <id>4796325</id>
+      </contributor>
+      <comment>Adaptations, added 'Imogen Says Nothing (2017)'</comment>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="1322" xml:space="preserve">{{Navbox
+| name  = Much Ado About Nothing
+| title = [[William Shakespeare]]'s ''[[Much Ado About Nothing]]''
+| state = {{{state|autocollapse}}}
+| image = [[File:Much Ado About Nothing by Alfred Elmore 1846.jpg|150px]]
+| bodyclass = hlist
+
+| group1 = [[Much Ado About Nothing#Characters|Characters]]
+| list1  =
+* [[Don Pedro (character)|Don Pedro]]
+* [[Dogberry]]
+
+| group2 = Adaptations
+| list2  ={{Navbox|subgroup
+
+| group1 = Screen
+| list1  = 
+* [[BBC Television Shakespeare#Much Ado About Nothing|1984]] (TV)
+* [[Much Ado About Nothing (1993 film)|1993]]
+* [[ShakespeaRe-Told#Much Ado About Nothing|2005]] (TV)
+* [[Much Ado About Nothing (2012 film)|2012]]
+
+| group2 = Opera
+| list2  = 
+* ''[[Béatrice et Bénédict]]'' (1862)
+* [[Much Ado About Nothing (opera)|''Much Ado About Nothing'' (opera)]] (1901)
+
+| group3 = Musical
+| list3  = 
+* ''[[Much Ado]]'' (1995)
+* ''[[The Boys Are Coming Home]]'' (2005)
+}}
+
+|group3= Adaptations
+|list3=
+* ''[[The Law Against Lovers]]'' (1662)
+* ''[[Dil Chahta Hai]]'' (2001)
+* ''[[Imogen Says Nothing]]'' (2017)
+
+|group4= Related
+|list4=
+* [[Malapropism|Dogberryism]]
+* "[[Curiosity killed the cat]]"
+* [[Pleaching]]
+
+}}&lt;noinclude&gt;
+{{collapsible option}}
+[[Category:Shakespeare templates]]
+[[Category:Drama film navigational boxes]]
+[[Category:Play navigational boxes]]
+&lt;/noinclude&gt;</text>
+      <sha1>4143pmb7qljxfvt6g8ybyjz0zjv9i47</sha1>
+    </revision>
+  </page>
+</mediawiki>

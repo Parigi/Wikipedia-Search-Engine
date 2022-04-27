@@ -1,0 +1,148 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.10/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.10/ http://www.mediawiki.org/xml/export-0.10.xsd" version="0.10" xml:lang="en">
+  <siteinfo>
+    <sitename>Wikipedia</sitename>
+    <dbname>enwiki</dbname>
+    <base>https://en.wikipedia.org/wiki/Main_Page</base>
+    <generator>MediaWiki 1.35.0-wmf.36</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Media</namespace>
+      <namespace key="-1" case="first-letter">Special</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Talk</namespace>
+      <namespace key="2" case="first-letter">User</namespace>
+      <namespace key="3" case="first-letter">User talk</namespace>
+      <namespace key="4" case="first-letter">Wikipedia</namespace>
+      <namespace key="5" case="first-letter">Wikipedia talk</namespace>
+      <namespace key="6" case="first-letter">File</namespace>
+      <namespace key="7" case="first-letter">File talk</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki talk</namespace>
+      <namespace key="10" case="first-letter">Template</namespace>
+      <namespace key="11" case="first-letter">Template talk</namespace>
+      <namespace key="12" case="first-letter">Help</namespace>
+      <namespace key="13" case="first-letter">Help talk</namespace>
+      <namespace key="14" case="first-letter">Category</namespace>
+      <namespace key="15" case="first-letter">Category talk</namespace>
+      <namespace key="100" case="first-letter">Portal</namespace>
+      <namespace key="101" case="first-letter">Portal talk</namespace>
+      <namespace key="108" case="first-letter">Book</namespace>
+      <namespace key="109" case="first-letter">Book talk</namespace>
+      <namespace key="118" case="first-letter">Draft</namespace>
+      <namespace key="119" case="first-letter">Draft talk</namespace>
+      <namespace key="446" case="first-letter">Education Program</namespace>
+      <namespace key="447" case="first-letter">Education Program talk</namespace>
+      <namespace key="710" case="first-letter">TimedText</namespace>
+      <namespace key="711" case="first-letter">TimedText talk</namespace>
+      <namespace key="828" case="first-letter">Module</namespace>
+      <namespace key="829" case="first-letter">Module talk</namespace>
+      <namespace key="2300" case="first-letter">Gadget</namespace>
+      <namespace key="2301" case="first-letter">Gadget talk</namespace>
+      <namespace key="2302" case="case-sensitive">Gadget definition</namespace>
+      <namespace key="2303" case="case-sensitive">Gadget definition talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Residual sum of squares</title>
+    <ns>0</ns>
+    <id>2473303</id>
+    <revision>
+      <id>961014259</id>
+      <parentid>948473861</parentid>
+      <timestamp>2020-06-06T05:06:51Z</timestamp>
+      <contributor>
+        <username>ChromeGames923</username>
+        <id>26127603</id>
+      </contributor>
+      <minor/>
+      <comment>Bolding</comment>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="5339" xml:space="preserve">{{more citations needed|date=April 2013}}
+In [[statistics]], the '''residual sum of squares''' ('''RSS'''),  also known as the '''sum of squared residuals''' ('''SSR''') or the '''sum of squared estimate of errors''' ('''SSE'''),  is the [[summation|sum]] of the [[square (arithmetic)|squares]] of [[errors and residuals in statistics|residuals]] (deviations predicted from actual empirical values of data).  It is a measure of the discrepancy between the data and an estimation model. A small RSS indicates a tight fit of the model to the data. It is used as an [[optimality criterion]] in parameter selection and [[model selection]].
+
+In general, [[total sum of squares]] = [[explained sum of squares]] + residual sum of squares.  For a proof of this in the multivariate [[ordinary least squares]] (OLS) case, see [[Explained sum of squares#Partitioning in the general ordinary least squares model|partitioning in the general OLS model]].
+
+==One explanatory variable==
+
+In a model with a single explanatory variable, RSS is given by:&lt;ref&gt;{{Cite book|title=Correlation and regression analysis : a historian's guide|last=Archdeacon, Thomas J.|date=1994|publisher=University of Wisconsin Press|isbn=0-299-13650-7|location=|pages=161–162|oclc=27266095}}&lt;/ref&gt;
+
+:&lt;math&gt;\operatorname{RSS} = \sum_{i=1}^n (y_i - f(x_i))^2 &lt;/math&gt;
+
+where ''y''&lt;sub&gt;''i''&lt;/sub&gt; is the ''i''&lt;sup&gt;th&lt;/sup&gt; value of the variable to be predicted, ''x''&lt;sub&gt;''i''&lt;/sub&gt; is the ''i''&lt;sup&gt;th&lt;/sup&gt; value of the explanatory variable, and &lt;math&gt;f(x_i)&lt;/math&gt; is the predicted value of ''y''&lt;sub&gt;''i''&lt;/sub&gt; (also termed &lt;math&gt;\hat{y_i}&lt;/math&gt;).
+In a standard linear simple [[regression model]], &lt;math&gt;y_i = a+bx_i+\varepsilon_i\,&lt;/math&gt;, where ''a'' and ''b'' are [[coefficient]]s, ''y'' and ''x'' are the [[regressand]] and the [[regressor]], respectively, and &amp;epsilon; is the [[errors and residuals in statistics|error term]].  The sum of squares of residuals is the sum of squares of [[estimator|estimates]] of &amp;epsilon;&lt;sub&gt;''i''&lt;/sub&gt;; that is
+
+:&lt;math&gt;\operatorname{RSS} = \sum_{i=1}^n (\varepsilon_i)^2 = \sum_{i=1}^n (y_i - (\alpha + \beta x_i))^2 &lt;/math&gt;
+
+where &lt;math&gt;\alpha&lt;/math&gt; is the estimated value of the constant term &lt;math&gt;a&lt;/math&gt; and &lt;math&gt;\beta&lt;/math&gt; is the estimated value of the slope coefficient ''b''.
+
+==Matrix expression for the OLS residual sum of squares==
+
+The general regression model with {{mvar|n}} observations and {{mvar|k}} explanators, the first of which is a constant unit vector whose coefficient is the regression intercept, is
+
+:&lt;math&gt; y = X \beta + e&lt;/math&gt;
+
+where {{mvar|y}} is an ''n'' × 1 vector of dependent variable observations, each column of the ''n'' × ''k'' matrix {{mvar|X}} is a vector of observations on one of the ''k'' explanators, &lt;math&gt;\beta &lt;/math&gt; is a ''k'' × 1 vector of true coefficients,  and {{mvar|e}} is an ''n''× 1 vector of the true underlying errors.  The [[ordinary least squares]] estimator for &lt;math&gt;\beta&lt;/math&gt; is
+
+:&lt;math&gt; X \hat \beta = y \iff&lt;/math&gt;
+
+:&lt;math&gt; X^\operatorname{T} X \hat \beta = X^\operatorname{T} y \iff&lt;/math&gt;
+
+:&lt;math&gt; \hat \beta = (X^\operatorname{T} X)^{-1}X^\operatorname{T} y.&lt;/math&gt;
+
+The residual vector &lt;math&gt;\hat e&lt;/math&gt; = &lt;math&gt;y - X \hat \beta = y - X (X^\operatorname{T} X)^{-1}X^\operatorname{T} y&lt;/math&gt;; so the residual sum of squares is:
+
+:&lt;math&gt;\operatorname{RSS} = \hat e ^\operatorname{T} \hat e =  \| \hat e \|^2 &lt;/math&gt;,
+
+{{anchor|Norm of residuals}}(equivalent to the square of the [[vector norm|norm]] of residuals). In full:
+
+:&lt;math&gt;\operatorname{RSS} = y^\operatorname{T} y - y^\operatorname{T} X(X^\operatorname{T} X)^{-1} X^\operatorname{T} y = y^\operatorname{T} [I - X(X^\operatorname{T} X)^{-1} X^\operatorname{T}] y = y^\operatorname{T} [I - H] y&lt;/math&gt;,
+
+where {{mvar|H}} is the [[hat matrix]], or the projection matrix in linear regression.
+
+== Relation with Pearson's product-moment correlation ==
+The [[Least squares|least-squares regression line]] is given by
+
+:&lt;math&gt;y=ax+b&lt;/math&gt;,
+
+where &lt;math&gt;b=\bar{y}-a\bar{x}&lt;/math&gt; and &lt;math&gt;a=\frac{S_{xy}}{S_{xx}}&lt;/math&gt;, where &lt;math&gt;S_{xy}=\sum_{i=1}^n(\bar{x}-x_i)(\bar{y}-y_i)&lt;/math&gt; and &lt;math&gt;S_{xx}=\sum_{i=1}^n(\bar{x}-x_i)^2.&lt;/math&gt;
+
+Therefore,
+
+: &lt;math&gt;
+\begin{align}
+\operatorname{RSS} &amp; = \sum_{i=1}^n (y_i - f(x_i))^2= \sum_{i=1}^n (y_i - (ax_i+b))^2= \sum_{i=1}^n (y_i - ax_i-\bar{y} + a\bar{x})^2 \\[5pt]
+&amp; = \sum_{i=1}^n (a(\bar{x}-x_i)-(\bar{y}-y_i))^2=a^2S_{xx}-2aS_{xy}+S_{yy}=S_{yy}-aS_{xy}=S_{yy} \left(1-\frac{S_{xy}^2}{S_{xx} S_{yy}} \right)
+\end{align}
+&lt;/math&gt;
+
+where &lt;math&gt;S_{yy}=\sum_{i=1}^n (\bar{y}-y_i)^2 .&lt;/math&gt;
+
+The [[Pearson correlation coefficient|Pearson product-moment correlation]] is given by &lt;math&gt;r=\frac{S_{xy}}{\sqrt{S_{xx}S_{yy}}}; &lt;/math&gt; therefore, &lt;math&gt;\operatorname{RSS}=S_{yy}(1-r^2). &lt;/math&gt;
+
+==See also==
+*[[Chi-squared distribution#Applications]]
+*[[Degrees of freedom (statistics)#Sum of squares and degrees of freedom]]
+*[[Errors and residuals in statistics]]
+*[[Lack-of-fit sum of squares]]
+*[[Mean squared error]]
+*[[Squared deviations]]
+*[[Sum of squares (statistics)]]
+
+==References==
+{{Reflist}}
+
+* {{cite book
+|title = Applied Regression Analysis
+|edition = 3rd
+|last1= Draper |first1=N.R. |last2=Smith |first2=H.
+|publisher = John Wiley
+|year = 1998
+|isbn = 0-471-17082-8}}
+
+[[Category:Least squares]]
+[[Category:Errors and residuals]]</text>
+      <sha1>2979fuwqty5epm0aq0klxnghhomucxg</sha1>
+    </revision>
+  </page>
+</mediawiki>

@@ -1,0 +1,103 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.10/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.10/ http://www.mediawiki.org/xml/export-0.10.xsd" version="0.10" xml:lang="en">
+  <siteinfo>
+    <sitename>Wikipedia</sitename>
+    <dbname>enwiki</dbname>
+    <base>https://en.wikipedia.org/wiki/Main_Page</base>
+    <generator>MediaWiki 1.35.0-wmf.36</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Media</namespace>
+      <namespace key="-1" case="first-letter">Special</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Talk</namespace>
+      <namespace key="2" case="first-letter">User</namespace>
+      <namespace key="3" case="first-letter">User talk</namespace>
+      <namespace key="4" case="first-letter">Wikipedia</namespace>
+      <namespace key="5" case="first-letter">Wikipedia talk</namespace>
+      <namespace key="6" case="first-letter">File</namespace>
+      <namespace key="7" case="first-letter">File talk</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki talk</namespace>
+      <namespace key="10" case="first-letter">Template</namespace>
+      <namespace key="11" case="first-letter">Template talk</namespace>
+      <namespace key="12" case="first-letter">Help</namespace>
+      <namespace key="13" case="first-letter">Help talk</namespace>
+      <namespace key="14" case="first-letter">Category</namespace>
+      <namespace key="15" case="first-letter">Category talk</namespace>
+      <namespace key="100" case="first-letter">Portal</namespace>
+      <namespace key="101" case="first-letter">Portal talk</namespace>
+      <namespace key="108" case="first-letter">Book</namespace>
+      <namespace key="109" case="first-letter">Book talk</namespace>
+      <namespace key="118" case="first-letter">Draft</namespace>
+      <namespace key="119" case="first-letter">Draft talk</namespace>
+      <namespace key="446" case="first-letter">Education Program</namespace>
+      <namespace key="447" case="first-letter">Education Program talk</namespace>
+      <namespace key="710" case="first-letter">TimedText</namespace>
+      <namespace key="711" case="first-letter">TimedText talk</namespace>
+      <namespace key="828" case="first-letter">Module</namespace>
+      <namespace key="829" case="first-letter">Module talk</namespace>
+      <namespace key="2300" case="first-letter">Gadget</namespace>
+      <namespace key="2301" case="first-letter">Gadget talk</namespace>
+      <namespace key="2302" case="case-sensitive">Gadget definition</namespace>
+      <namespace key="2303" case="case-sensitive">Gadget definition talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Epigenetics in insects</title>
+    <ns>0</ns>
+    <id>40219789</id>
+    <revision>
+      <id>939698990</id>
+      <parentid>930746402</parentid>
+      <timestamp>2020-02-08T03:30:59Z</timestamp>
+      <contributor>
+        <username>IznoRepeat</username>
+        <id>12897086</id>
+      </contributor>
+      <minor/>
+      <comment>/* In honeybees */clean explicit et al, gen fixes, misc citation cleaning</comment>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="6985" xml:space="preserve">'''Epigenetic mechanisms '''are regulatory mechanisms, which change [[Gene expression|expression levels of genes]]. Several mechanisms are considered [[Epigenetics|epigenetic]], including [[DNA methylation]], [[histone modification]]s and [[non-coding RNAs]]. Epigenetic mechanisms play a role in processes like [[Developmental biology|development]], [[Epigenetics in learning and memory|learning and memory formation]], [[aging]], [[diseases]], [[cell differentiation]] and genome defence.
+
+==DNA methylation==
+DNA methylation is an epigenetic mechanism. It is a chemical modification of the DNA where a [[methyl group]] is attached to [[cytosine]]. This modification is set by [[DNA methyltransferase]]&lt;nowiki/&gt;s (Dnmts). There are three known types of DNA methyltransferases in [[mammals]]. Those DNA methyltransferases are present in [[insects]] as well, although it varies between different species which specific Dnmt types are present. It still is a matter of discussion what the specific role of DNA methylation in insects is, as some insects such as ''[[Drosophila melanogaster]]'' just have traces of DNA methylation in their [[genome]] and in general insect genomes are much less methylated compared to mammalian genomes (0.034% vs. 7.6% in [[House mouse|''Mus musculus'']]).&lt;ref&gt;{{Cite journal | pmid=24640988 | year=2014| last1=Capuano | first1=F. | title=Cytosine DNA methylation is found in ''Drosophila melanogaster'' but absent in ''Saccharomyces cerevisiae'', ''Schizosaccharomyces pombe'' and other yeast species | journal=Analytical Chemistry | last2=Mülleder | first2=M. | last3=Kok | first3=R. M. | last4=Blom | first4=H. J. | last5=Ralser | first5=M. | doi=10.1021/ac500447w | pmc=4006885 | volume=86 | issue=8| pages=3697–702}}&lt;/ref&gt; In a comparison of different insect species and their respective methylation levels, there was a clear relationship between cell turn over and DNA methylation, but not between genome size or the number of repetitive sequences and DNA methylation.
+
+===In honeybees===
+[[File:Honeybees (Apis mellifera) marked after hatching with colour.jpg|thumb|Honeybees (Apis mellifera) marked after hatching with colour]]
+Honeybees (''[[Apis mellifera]]'') possess [[Homologous gene|homologs]] for all three DNA methyltransferases known in mammals.&lt;ref&gt;Wang, Y., et al., Functional CpG methylation system in a social insect. Science, 2006. 314(5799): p. 645-7.&lt;/ref&gt;&lt;ref&gt;Matsui, T., et al., Expression profiles of urbilaterian genes uniquely shared between honey bee and vertebrates. BMC Genomics, 2009. 10(1): p. 17.&lt;/ref&gt; But unlike mammals they possess two DNA methyltransferases 1 and just one DNA methyltransferase 3. DNA methylation predominantly occurs in [[coding regions]] in honeybees.&lt;ref name=":4"&gt;Lyko, F., et al., The honey bee epigenomes: differential methylation of brain DNA in queens and workers. PLoS Biol, 2010. 8(11): p. e1000506.&lt;/ref&gt;
+The function of the DNA methylation in honey bees is to regulate gene alternative splicing &lt;ref&gt;{{Cite journal
+|author=Li-Byarlay |display-authors=etal 
+|title=RNA interference knockdown of DNA methyl-transferase 3 affects gene alternative splicing in the honey bee
+|journal=PNAS
+|doi=10.1073/pnas.1310735110
+|pmid=23852726
+|pmc=3732956
+|volume=110
+|issue=31
+|year=2013
+|pages=12750–5|bibcode=2013PNAS..11012750L
+}}&lt;/ref&gt;
+
+====Development====
+DNA methylation plays a major role in honeybee caste and subcaste development. In honeybees there are two different castes which are workers and queens. They are genetically the same, but show morphological, physiological and behavioral differences. Among the worker caste there are two subcastes, which are nurses and foragers. Which subcaste a worker bee belongs to depends on its age. The DNA methylation pattern in queens and workers,&lt;ref name=":4" /&gt;&lt;ref name=":3"&gt;Shi, Y., et al., Genomewide analysis indicates that queen larvae have lower methylation levels in the honey bee (Apis mellifera). Naturwissenschaften, 2013. 100(2): p. 193-197.&lt;/ref&gt;&lt;ref name=":2"&gt;Shi, Y.Y., et al., Diet and cell size both affect queen-worker differentiation through DNA methylation in honey bees (Apis mellifera, Apidae). PLoS One, 2011. 6(4): p. e18808.&lt;/ref&gt; and between nurses and foragers is different.&lt;ref name=":0"&gt;Herb, B.R., et al., Reversible switching between epigenetic states in honeybee behavioral subcastes. Nat Neurosci, 2012. 15(10): p. 1371-3.&lt;/ref&gt;&lt;ref name=":6"&gt;Lockett, G.A., R. Kucharski, and R. Maleszka, DNA methylation changes elicited by social stimuli in the brains of worker honey bees. Genes Brain Behav, 2012. 11(2): p. 235-42.&lt;/ref&gt; DNA methylation also increases in worker larvae with age, especially in coding regions and [[CpG island]]&lt;nowiki/&gt;s. If DNA methyltransferase 3 is silenced in honeybee larvae they develop into queens, whereas they otherwise would develop into workers.&lt;ref name=":5"&gt;Kucharski, R., et al., Nutritional control of reproductive status in honeybees via DNA methylation. Science, 2008. 319(5871): p. 1827-30.&lt;/ref&gt;
+
+====Associative learning====
+Using the DNA methyltransferase inhibitor [[zebularine]], the role of DNA methyltransferases during [[learning]] and [[memory]] formation has been studied. If DNA methyltransferases are inhibited during an [[associative learning]] paradigm, in which the bee is trained to associate an odour with a food reward, the odour specific associative [[long-term memory]] of bees is impaired,&lt;ref name=":1"&gt;Biergans, S.D., et al., DNA methylation mediates the discriminatory power of associative long-term memory in honeybees. PLoS One, 2012. 7(6): p. e39349.&lt;/ref&gt; as well as their [[extinction]] memory.&lt;ref&gt;Lockett, G.A., P. Helliwell, and R. Maleszka, Involvement of DNA methylation in memory processing in the honey bee. NeuroReport, 2010. 21(12): p. 812-6.&lt;/ref&gt; [[Short-term memory]] formation and [[Acquisitions|acquisition]] are not affected by DNA methyltransferase inhibition.
+
+===In fruitflies===
+The fruitfly ''D. melanogaster'' possess just one DNA methyltransferase, which is Dnmt 2-like. Dnmt 2 is not known to methylate DNA in mammals. In Drosophila however a knock down of Dnmt 2-like protein is sufficient to deplete DNA methylation completely and an overexpression of Dnmt 2 causes hypermethylation of the DNA.&lt;ref&gt;Kunert, N. et al. A Dnmt2-like protein mediates DNA methylation in Drosophila  Development 2003 130:5083-5090; posted ahead of print August 27, 2003,  {{DOI|10.1242/dev.00716}}&lt;/ref&gt; However, lines deficient for Dnmt 2 retain genomic methylation, implying the presence of a novel methyltransferase.&lt;ref&gt;S. Takayama, J. Dhahbi, A. Roberts, G. Mao, S.-J. Heo, [[Lior Pachter|L. Pachter]], D. I. K. Martin, D. Boffelli (2014). Genome methylation in D. melanogaster is found at specific short motifs and is independent of DNMT2 activity. Genome Research, {{doi|10.1101/gr.162412.113}}&lt;/ref&gt;
+
+== References ==
+
+{{Reflist}}
+
+== External links ==
+
+&lt;!--- Categories ---&gt;
+[[Category:Insect morphology]]
+[[Category:Epigenetics]]</text>
+      <sha1>b9nb1v2y3b7mgoywr6ko482feu5r9r5</sha1>
+    </revision>
+  </page>
+</mediawiki>

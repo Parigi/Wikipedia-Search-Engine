@@ -1,0 +1,387 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.10/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.10/ http://www.mediawiki.org/xml/export-0.10.xsd" version="0.10" xml:lang="en">
+  <siteinfo>
+    <sitename>Wikipedia</sitename>
+    <dbname>enwiki</dbname>
+    <base>https://en.wikipedia.org/wiki/Main_Page</base>
+    <generator>MediaWiki 1.35.0-wmf.36</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Media</namespace>
+      <namespace key="-1" case="first-letter">Special</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Talk</namespace>
+      <namespace key="2" case="first-letter">User</namespace>
+      <namespace key="3" case="first-letter">User talk</namespace>
+      <namespace key="4" case="first-letter">Wikipedia</namespace>
+      <namespace key="5" case="first-letter">Wikipedia talk</namespace>
+      <namespace key="6" case="first-letter">File</namespace>
+      <namespace key="7" case="first-letter">File talk</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki talk</namespace>
+      <namespace key="10" case="first-letter">Template</namespace>
+      <namespace key="11" case="first-letter">Template talk</namespace>
+      <namespace key="12" case="first-letter">Help</namespace>
+      <namespace key="13" case="first-letter">Help talk</namespace>
+      <namespace key="14" case="first-letter">Category</namespace>
+      <namespace key="15" case="first-letter">Category talk</namespace>
+      <namespace key="100" case="first-letter">Portal</namespace>
+      <namespace key="101" case="first-letter">Portal talk</namespace>
+      <namespace key="108" case="first-letter">Book</namespace>
+      <namespace key="109" case="first-letter">Book talk</namespace>
+      <namespace key="118" case="first-letter">Draft</namespace>
+      <namespace key="119" case="first-letter">Draft talk</namespace>
+      <namespace key="446" case="first-letter">Education Program</namespace>
+      <namespace key="447" case="first-letter">Education Program talk</namespace>
+      <namespace key="710" case="first-letter">TimedText</namespace>
+      <namespace key="711" case="first-letter">TimedText talk</namespace>
+      <namespace key="828" case="first-letter">Module</namespace>
+      <namespace key="829" case="first-letter">Module talk</namespace>
+      <namespace key="2300" case="first-letter">Gadget</namespace>
+      <namespace key="2301" case="first-letter">Gadget talk</namespace>
+      <namespace key="2302" case="case-sensitive">Gadget definition</namespace>
+      <namespace key="2303" case="case-sensitive">Gadget definition talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Microsoft SQL Server</title>
+    <ns>0</ns>
+    <id>13989994</id>
+    <revision>
+      <id>958486320</id>
+      <parentid>957723077</parentid>
+      <timestamp>2020-05-24T02:20:29Z</timestamp>
+      <contributor>
+        <ip>64.183.196.78</ip>
+      </contributor>
+      <comment>Update</comment>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="58468" xml:space="preserve">{{short description|Family of database software}}
+{{Infobox software
+| name                   = Microsoft SQL Server
+| logo                   = 
+| screenshot             =
+| caption                = 
+| developer              = [[Microsoft]]
+| released               = {{Start date and years ago|1989|4|24}}, as SQL Server 1.0
+| latest release version = {{Microsoft SQL Server version}}
+| latest release date    = {{Microsoft SQL Server version|releasedate}}
+| programming language   = [[C (programming language)|C]], [[C++]]&lt;ref name="Lextrait" /&gt;
+| operating system       = [[Linux]], [[Microsoft Windows Server]], [[Microsoft Windows]]
+| platform               = 
+| language               = English, Chinese, French, German, Italian, Japanese, Korean, Portuguese (Brazil), Russian, Spanish and Indonesian&lt;ref name="Download Microsoft SQL Server 2008 R2" /&gt;
+| genre                  = [[Relational database management system]]
+| license                = [[Proprietary software]]
+| website                = {{URL|https://www.microsoft.com/sql-server}}
+}}
+
+'''Microsoft SQL Server''' is a [[relational database management system]] developed by [[Microsoft]]. As a [[database server]], it is a [[software product]] with the primary function of storing and retrieving data as requested by other [[software application]]s—which may run either on the same computer or on another computer across a network (including the Internet). Microsoft markets at least a dozen different editions of Microsoft SQL Server, aimed at different audiences and for workloads ranging from small single-machine applications to large Internet-facing applications with many [[concurrent user]]s.
+
+== History ==
+{{Main| History of Microsoft SQL Server}}
+
+The history of Microsoft SQL Server begins with the first Microsoft SQL Server product—SQL Server 1.0, a [[16-bit]] server for the [[OS/2]] operating system in 1989—and extends to the current day.
+
+=== Milestones ===
+* MS SQL Server for OS/2 began as a project to port [[Sybase SQL Server]] onto OS/2 in 1989, by [[Sybase]], [[Ashton-Tate]], and [[Microsoft]].
+* SQL Server 4.2 for NT is released in 1993, marking the entry onto [[Windows NT]].
+* SQL Server 6.0 is released in 1995, marking the end of collaboration with [[Sybase]]; Sybase would continue developing their own variant of ''SQL Server'', Sybase [[Adaptive Server Enterprise]], independently of Microsoft.
+* SQL Server 7.0 is released in 1998, marking the conversion of the source code from C to C++.
+* SQL Server 2005, released in 2005, finishes the complete revision of the old Sybase code into Microsoft code.
+* SQL Server 2017, released in 2017, adds Linux support for these Linux platforms: [[Red Hat Enterprise Linux]], [[SUSE Linux Enterprise Server]], [[Ubuntu (operating system)|Ubuntu]] &amp; [[Docker (software)|Docker Engine]].&lt;ref&gt;{{cite web
+ |url=https://docs.microsoft.com/en-us/sql/linux/sql-server-linux-setup#supportedplatforms
+ |title=Installation guidance for SQL Server on Linux
+ |date=December 21, 2017
+ |accessdate=February 1, 2018}}
+&lt;/ref&gt;
+
+=== Currently ===
+{{As of|2020|05}}, the following versions are supported by Microsoft:
+* SQL Server 2012&lt;ref&gt;{{cite web
+ |url=https://azure.microsoft.com/en-us/blog/announcing-new-options-for-sql-server-2008-and-windows-server-2008-end-of-support/
+ |title=Announcing new options for SQL Server 2008
+ |date= July 12, 2018
+ |accessdate=September 20, 2018}}
+&lt;/ref&gt;
+* SQL Server 2014 
+* SQL Server 2016
+* SQL Server 2017
+* SQL Server 2019
+
+From SQL Server 2016 onward, the product is supported on x64 processors only.&lt;ref name="2016 Requirements"&gt;{{cite web|title=Requirements for Installing SQL Server 2016|url=https://msdn.microsoft.com/en-us/library/ms143506(v=sql.130).aspx|publisher=msdn.microsoft.com|date=2016-05-02|accessdate=2016-07-28}}&lt;/ref&gt;
+
+The current version is Microsoft SQL Server 2019, released November 4, 2019. The RTM version is 15.0.2000.5.&lt;ref&gt;https://support.microsoft.com/en-us/help/4518398/sql-server-2019-build-versions&lt;/ref&gt;
+
+== Editions ==
+Microsoft makes SQL Server available in multiple editions, with different feature sets and targeting different users. These editions are:&lt;ref name="Compare Editions" /&gt;&lt;ref name="storageengine" /&gt;
+
+=== Mainstream editions ===
+; Enterprise: SQL Server Enterprise Edition includes both the core database engine and add-on services, with a range of tools for creating and managing a SQL Server cluster. It can manage databases as large as 524 [[petabyte]]s and address 12 [[terabyte]]s of memory and supports 640 logical processors (CPU cores).&lt;ref name="Editions" /&gt;
+; Standard: SQL Server Standard edition includes the core database engine, along with the stand-alone services. It differs from Enterprise edition in that it supports fewer active instances (number of nodes in a cluster) and does not include some high-availability functions such as hot-add memory (allowing memory to be added while the server is still running), and parallel indexes.
+; Web: SQL Server Web Edition is a low-[[Total cost of ownership|TCO]] option for Web hosting.
+; Business Intelligence: Introduced in SQL Server 2012 and focusing on Self Service and Corporate Business Intelligence. It includes the Standard Edition capabilities and Business Intelligence tools: PowerPivot, Power View, the BI Semantic Model, Master Data Services, Data Quality Services and xVelocity in-memory analytics.&lt;ref name="Performance &amp;amp; Scalability" /&gt;
+; Workgroup: SQL Server Workgroup Edition includes the core database functionality but does not include the additional services. Note that this edition has been retired in SQL Server 2012.&lt;ref name="download.microsoft.com" /&gt;
+; Express: [[SQL Server Express]] Edition is a scaled down, free edition of SQL Server, which includes the core database engine. While there are no limitations on the number of databases or users supported, it is limited to using one processor, 1 GB memory and 10 GB database files (4 GB database files prior to SQL Server Express 2008 R2).&lt;ref name="Express Database Size" /&gt; It is intended as a replacement for [[MSDE]]. Two additional editions provide a superset of features not in the original Express Edition. The first is ''SQL Server Express with Tools'', which includes [[SQL Server Management Studio]] Basic. ''SQL Server Express with Advanced Services'' adds full-text search capability and reporting services.&lt;ref name="Express editions" /&gt;
+
+=== Specialized editions === 
+; Azure: [[Microsoft Azure SQL Database]] is the [[cloud computing|cloud-based]] version of Microsoft SQL Server, presented as a [[platform as a service]] offering on [[Microsoft Azure]].
+; Azure: [[Azure SQL Data Warehouse]] is the [[cloud computing|cloud-based]] version of Microsoft SQL Server in a [[Massive parallel processing|MPP]] (massively parallel processing) architecture for analytics workloads, presented as a [[platform as a service]] offering on [[Microsoft Azure]].
+; Compact (SQL CE): The [[SQL Server Compact|compact edition]] is an embedded database engine. Unlike the other editions of SQL Server, the SQL CE engine is based on SQL Mobile (initially designed for use with hand-held devices) and does not share the same binaries. Due to its small size (1&amp;nbsp;MB DLL footprint), it has a markedly reduced feature set compared to the other editions. For example, it supports a subset of the standard data types, does not support stored procedures or Views or multiple-statement batches (among other limitations). It is limited to 4&amp;nbsp;GB maximum database size and cannot be run as a Windows service, Compact Edition must be hosted by the application using it. The 3.5 version includes support for ADO.NET Synchronization Services. SQL CE does not support ODBC connectivity, unlike SQL Server proper.
+; Developer:SQL Server Developer Edition includes the same features as SQL Server Enterprise Edition, but is limited by the license to be only used as a development and test system, and not as production server. Starting early 2016, Microsoft made this edition free of charge to the public.&lt;ref name="Developer Edition" /&gt;
+; Embedded (SSEE): SQL Server 2005 [[Windows Internal Database|Embedded Edition]] is a specially configured named instance of the SQL Server Express database engine which can be accessed only by certain Windows Services.
+; Evaluation: SQL Server Evaluation Edition, also known as the ''Trial Edition'', has all the features of the Enterprise Edition, but is limited to 180 days, after which the tools will continue to run, but the server services will stop.&lt;ref name="Trial Software" /&gt;
+; Fast Track: SQL Server Fast Track is specifically for enterprise-scale data warehousing storage and business intelligence processing, and runs on reference-architecture hardware that is optimized for Fast Track.&lt;ref name="Fast Track" /&gt;
+; LocalDB: Introduced in SQL Server Express 2012, LocalDB is a minimal, on-demand, version of SQL Server that is designed for application developers.&lt;ref name="LocalDB" /&gt; It can also be used as an embedded database.&lt;ref name="localdbblog" /&gt;
+;Analytics Platform System (APS): Formerly Parallel Data Warehouse (PDW) A [[massively parallel|massively parallel processing]] (MPP) SQL Server appliance optimized for large-scale [[data warehouse|data warehousing]] such as hundreds of terabytes.&lt;ref name="Analytics Platform System" /&gt;
+;Datawarehouse Appliance Edition: Pre-installed and configured as part of an appliance in partnership with Dell &amp; HP base on the Fast Track architecture. This edition does not include SQL Server Integration Services, Analysis Services, or Reporting Services.sqlcmd
+
+=== Discontinued editions ===
+; MSDE: [[Microsoft SQL Server Data Engine]] / Desktop Engine / Desktop Edition. SQL Server 7 and SQL Server 2000. Intended for use as an application component, it did not include GUI management tools. Later, Microsoft also made available a web admin tool. Included with some versions of [[Microsoft Access]], Microsoft development tools, and other editions of SQL Server.&lt;ref name="sqlmag.com"&gt;http://sqlmag.com/database-development/msde-demystified&lt;/ref&gt;
+; Personal Edition: SQL Server 2000. Had workload or connection limits like MSDE, but no database size limit. Includes standard management tools. Intended for use as a mobile / disconnected proxy, licensed for use with SQL Server 2000 Standard edition.&lt;ref name="sqlmag.com"/&gt;
+; Datacenter: SQL Server 2008 R2 Datacenter is a full-featured edition of SQL Server and is designed for datacenters that need high levels of application support and scalability. It supports 256 logical processors and virtually unlimited memory and comes with StreamInsight Premium edition.&lt;ref name="StreamInsight" /&gt; The Datacenter edition has been retired in SQL Server 2012; all of its features are available in SQL Server 2012 Enterprise Edition.&lt;ref name="download.microsoft.com" /&gt;
+
+== Architecture ==
+The protocol layer implements the external interface to SQL Server. All operations that can be invoked on SQL Server are communicated to it via a Microsoft-defined format, called [[Tabular Data Stream]] (TDS). TDS is an application layer protocol, used to transfer data between a database server and a client. Initially designed and developed by Sybase Inc. for their [[Sybase SQL Server]] relational database engine in 1984, and later by Microsoft in Microsoft SQL Server, TDS packets can be encased in other physical transport dependent protocols, including [[TCP/IP]], [[named pipe]]s, and [[shared memory (interprocess communication)|shared memory]]. Consequently, access to SQL Server is available over these protocols. In addition, the SQL Server API is also exposed over [[web service]]s.&lt;ref name="storageengine" /&gt;
+
+== Data storage ==
+[[Computer data storage|Data storage]] is a [[database]], which is a collection of tables with [[type system|typed]] columns. SQL Server supports different data types, including [[primitive type]]s such as ''Integer'', ''Float'', ''Decimal'', ''Char'' (including character strings), ''Varchar'' (variable length character strings), binary (for unstructured [[Binary large object|blobs]] of data), ''Text'' (for textual data) among others. The [[rounding]] of floats to integers uses either Symmetric Arithmetic Rounding or Symmetric Round Down (''fix'') depending on arguments: &lt;code&gt;SELECT Round(2.5, 0)&lt;/code&gt; gives 3.
+
+Microsoft SQL Server also allows user-defined composite types (UDTs) to be defined and used. It also makes server statistics available as virtual tables and views (called Dynamic Management Views or DMVs). In addition to tables, a database can also contain other objects including [[view (database)|views]], [[stored procedure]]s, [[index (database)|indexes]] and [[constraint (database)|constraints]], along with a transaction log. A SQL Server database can contain a maximum of 2&lt;sup&gt;31&lt;/sup&gt; objects, and can span multiple OS-level files with a maximum file size of 2&lt;sup&gt;60&lt;/sup&gt; bytes (1 exabyte).&lt;ref name="storageengine" /&gt; The data in the database are stored in primary data files with an extension &lt;code&gt;.mdf&lt;/code&gt;. Secondary data files, identified with a &lt;code&gt;.ndf&lt;/code&gt; extension, are used to allow the data of a single database to be spread across more than one file, and optionally across more than one file system. Log files are identified with the &lt;code&gt;.ldf&lt;/code&gt; extension.&lt;ref name="storageengine" /&gt;
+
+Storage space allocated to a database is divided into sequentially numbered ''pages'', each 8&amp;nbsp;KB in size. A ''page'' is the basic unit of [[Input/output|I/O]] for SQL Server operations. A page is marked with a 96-byte header which stores metadata about the page including the page number, page type, free space on the page and the ID of the object that owns it. The page type defines the data contained in the page. This data includes: data stored in the database, an index, an allocation map, which holds information about how pages are allocated to tables and indexes; and a change map which holds information about the changes made to other pages since last backup or logging, or contain large data types such as image or text. While a page is the basic unit of an I/O operation, space is actually managed in terms of an ''extent'' which consists of 8 pages. A database object can either span all 8 pages in an extent ("uniform extent") or share an extent with up to 7 more objects ("mixed extent"). A row in a database table cannot span more than one page, so is limited to 8&amp;nbsp;KB in size. However, if the data exceeds 8&amp;nbsp;KB and the row contains ''varchar'' or ''varbinary'' data, the data in those columns are moved to a new page (or possibly a sequence of pages, called an ''allocation unit'') and replaced with a pointer to the data.&lt;ref name="pages" /&gt;
+
+For physical storage of a table, its rows are divided into a series of partitions (numbered 1 to n). The partition size is user defined; by default all rows are in a single partition. A table is split into multiple partitions in order to spread a database over a [[cluster computing|computer cluster]]. Rows in each partition are stored in either [[B-tree]] or [[heap (data structure)|heap]] structure. If the table has an associated, clustered [[index (database)|index]] to allow fast retrieval of rows, the rows are stored in-order according to their index values, with a B-tree providing the index. The data is in the leaf node of the leaves, and other nodes storing the index values for the leaf data reachable from the respective nodes. If the index is non-clustered, the rows are not sorted according to the index keys. An indexed [[view (database)|view]] has the same storage structure as an indexed table. A table without a clustered index is stored in an unordered heap structure. However, the table may have non-clustered indices to allow fast retrieval of rows. In some situations the heap structure has performance advantages over the clustered structure. Both heaps and B-trees can span multiple allocation units.&lt;ref name="table" /&gt;
+
+=== Buffer management ===
+SQL Server [[data buffer|buffer]]s pages in RAM to minimize disk I/O. Any 8&amp;nbsp;KB page can be buffered in-memory, and the set of all pages currently buffered is called the buffer cache. The amount of memory available to SQL Server decides how many pages will be cached in memory. The buffer cache is managed by the ''Buffer Manager''. Either reading from or writing to any page copies it to the buffer cache. Subsequent reads or writes are redirected to the in-memory copy, rather than the on-disc version. The page is updated on the disc by the Buffer Manager only if the in-memory cache has not been referenced for some time. While writing pages back to disc, [[asynchronous I/O]] is used whereby the I/O operation is done in a background thread so that other operations do not have to wait for the I/O operation to complete. Each page is written along with its [[checksum]] when it is written. When reading the page back, its checksum is computed again and matched with the stored version to ensure the page has not been damaged or tampered with in the meantime.&lt;ref name="Buffer Management" /&gt;
+
+=== Concurrency and locking ===
+SQL Server allows multiple clients to use the same database concurrently. As such, it needs to control concurrent access to shared data, to ensure data integrity—when multiple clients update the same data, or clients attempt to read data that is in the process of being changed by another client. SQL Server provides two modes of concurrency control: [[Concurrency control|pessimistic concurrency]] and [[Optimistic concurrency control|optimistic concurrency]]. When pessimistic concurrency control is being used, SQL Server controls concurrent access by using locks. Locks can be either shared or exclusive. Exclusive lock grants the user exclusive access to the data—no other user can access the data as long as the lock is held. Shared locks are used when some data is being read—multiple users can read from data locked with a shared lock, but not acquire an exclusive lock. The latter would have to wait for all shared locks to be released.
+
+Locks can be applied on different levels of granularity—on entire tables, pages, or even on a per-row basis on tables. For indexes, it can either be on the entire index or on index leaves. The level of granularity to be used is defined on a per-database basis by the database administrator. While a fine-grained locking system allows more users to use the table or index simultaneously, it requires more resources, so it does not automatically yield higher performance. SQL Server also includes two more lightweight [[mutual exclusion]] solutions—latches and spinlocks—which are less robust than locks but are less resource intensive. SQL Server uses them for DMVs and other resources that are usually not busy. SQL Server also monitors all worker threads that acquire locks to ensure that they do not end up in [[deadlock]]s—in case they do, SQL Server takes remedial measures, which in many cases are to kill one of the threads entangled in a deadlock and roll back the transaction it started.&lt;ref name="storageengine" /&gt; To implement locking, SQL Server contains the ''Lock Manager''. The Lock Manager maintains an in-memory table that manages the database objects and locks, if any, on them along with other metadata about the lock. Access to any shared object is mediated by the lock manager, which either grants access to the resource or blocks it.
+
+SQL Server also provides the optimistic concurrency control mechanism, which is similar to the [[multiversion concurrency control]] used in other databases. The mechanism allows a new version of a row to be created whenever the row is updated, as opposed to overwriting the row, i.e., a row is additionally identified by the ID of the transaction that created the version of the row. Both the old as well as the new versions of the row are stored and maintained, though the old versions are moved out of the database into a system database identified as &lt;code&gt;Tempdb&lt;/code&gt;. When a row is in the process of being updated, any other requests are not blocked (unlike locking) but are executed on the older version of the row. If the other request is an update statement, it will result in two different versions of the rows—both of them will be stored by the database, identified by their respective transaction IDs.&lt;ref name="storageengine" /&gt;
+
+== Data retrieval and programmability ==
+The main mode of retrieving data from a SQL Server database is [[database query|querying]] for it. The query is expressed using a variant of [[SQL]] called [[T-SQL]], a dialect Microsoft SQL Server shares with [[Adaptive Server Enterprise|Sybase SQL Server]] due to its legacy. The query [[declarative programming language|declaratively]] specifies what is to be retrieved. It is processed by the query processor, which figures out the sequence of steps that will be necessary to retrieve the requested data. The sequence of actions necessary to execute a query is called a [[query plan]]. There might be multiple ways to process the same query. For example, for a query that contains a [[join (SQL)|join]] statement and a [[select (SQL)|select]] statement, executing join on both the tables and then executing select on the results would give the same result as selecting from each table and then executing the join, but result in different execution plans. In such case, SQL Server chooses the plan that is expected to yield the results in the shortest possible time. This is called [[query optimization]] and is performed by the query processor itself.&lt;ref name="storageengine" /&gt;
+
+SQL Server includes a cost-based query optimizer which tries to optimize on the cost, in terms of the resources it will take to execute the query. Given a query, then the query optimizer looks at the [[database schema]], the database statistics and the system load at that time. It then decides which sequence to access the tables referred in the query, which sequence to execute the operations and what access method to be used to access the tables. For example, if the table has an associated index, whether the index should be used or not: if the index is on a column which is not unique for most of the columns (low "selectivity"), it might not be worthwhile to use the index to access the data. Finally, it decides whether to execute the query [[concurrent computing|concurrently]] or not. While a concurrent execution is more costly in terms of total processor time, because the execution is actually split to different processors might mean it will execute faster. Once a query plan is generated for a query, it is temporarily cached. For further invocations of the same query, the cached plan is used. Unused plans are discarded after some time.&lt;ref name="storageengine" /&gt;&lt;ref name="Single SQL Statement Processing" /&gt;
+
+SQL Server also allows [[stored procedure]]s to be defined. Stored procedures are parameterized T-SQL queries, that are stored in the server itself (and not issued by the client application as is the case with general queries). Stored procedures can accept values sent by the client as input parameters, and send back results as output parameters. They can call defined functions, and other stored procedures, including the same stored procedure (up to a set number of times). They can be [[access control|selectively provided access to]]. Unlike other queries, stored procedures have an associated name, which is used at runtime to resolve into the actual queries. Also because the code need not be sent from the client every time (as it can be accessed by name), it reduces network traffic and somewhat improves performance.&lt;ref name="Stored Procedure Basics" /&gt; Execution plans for stored procedures are also cached as necessary.
+
+=== T-SQL ===
+{{Main|T-SQL}}
+
+T-SQL (Transact-SQL) is Microsoft's proprietary [[Procedural programming|procedural language]] extension for SQL Server. It provides [[REPL]] (Read-Eval-Print-Loop) instructions that extend standard SQL's instruction set for Data Manipulation ([[Data manipulation language|DML]]) and Data Definition ([[Data definition language|DDL]]) instructions, including SQL Server-specific settings, security and database statistics management.
+
+It exposes keywords for the operations that can be performed on SQL Server, including creating and altering database schemas, entering and editing data in the database as well as monitoring and managing the server itself. Client applications that consume data or manage the server will leverage SQL Server functionality by sending T-SQL queries and statements which are then processed by the server and results (or errors) returned to the client application. For this it exposes read-only tables from which server statistics can be read. Management functionality is exposed via system-defined stored procedures which can be invoked from T-SQL queries to perform the management operation. It is also possible to create linked Servers using T-SQL. Linked servers allow a single query to process operations performed on multiple servers.&lt;ref name="Transact-SQL Reference" /&gt;
+
+=== SQL Server Native Client (a.k.a. SNAC) ===
+SQL Server Native Client is the native client side data access [[library (computing)|library]] for Microsoft SQL Server, version 2005 onwards. It natively implements support for the SQL Server features including the [[Tabular Data Stream]] implementation, support for mirrored SQL Server databases, full support for all data types supported by SQL Server, asynchronous operations, query notifications, [[encryption]] support, as well as receiving multiple result sets in a single database session. SQL Server Native Client is used under the hood by SQL Server plug-ins for other data access technologies, including [[ActiveX Data Objects|ADO]] or [[OLE DB]]. The SQL Server Native Client can also be directly used, bypassing the generic data access layers.&lt;ref name="SQL Server Native Client" /&gt;
+
+On November 28, 2011, a preview release of the SQL Server [[ODBC]] driver for [[Linux]] was released.&lt;ref name="ODBC Driver for Linux" /&gt;
+
+=== SQL CLR ===
+{{Main|SQL CLR}}
+
+Microsoft SQL Server 2005 includes a component named [[SQL CLR]] ("Common Language Runtime") via which it integrates with [[.NET Framework]]. Unlike most other applications that use .NET Framework, SQL Server itself hosts the .NET Framework [[Common Language Runtime|runtime]], i.e., memory, threading and resource management requirements of .NET Framework are satisfied by SQLOS itself, rather than the underlying Windows operating system. SQLOS provides deadlock detection and resolution services for .NET code as well. With SQL CLR, [[stored procedure]]s and [[trigger (database)|trigger]]s can be written in any [[managed code|managed]] [[List of CLI languages|.NET language]], including [[C Sharp (programming language)|C#]] and [[VB.NET]]. [[Managed code]] can also be used to define UDT's ([[user defined type]]s), which can persist in the database. [[Managed code]] is compiled to [[Assembly (CLI)|CLI assemblies]] and after being verified for [[type safety]], registered at the database. After that, they can be invoked like any other procedure.&lt;ref name="clroverview" /&gt; However, only a subset of the [[Base Class Library]] is available, when running code under SQL CLR. Most APIs relating to [[user interface]] functionality are not available.&lt;ref name="clroverview" /&gt;
+
+When writing code for SQL CLR, data stored in SQL Server databases can be accessed using the [[ADO.NET]] [[API]]s like any other [[managed code|managed application]] that accesses SQL Server data. However, doing that creates a new database session, different from the one in which the code is executing. To avoid this, SQL Server provides some enhancements to the [[ADO.NET]] provider that allows the connection to be redirected to the same session which already hosts the running code. Such connections are called context connections and are set by setting &lt;code&gt;context connection&lt;/code&gt; parameter to &lt;code&gt;true&lt;/code&gt; in the connection string. SQL Server also provides several other enhancements to the [[ADO.NET]] API, including classes to work with tabular data or a single row of data as well as classes to work with internal metadata about the data stored in the database. It also provides access to the XML features in SQL Server, including [[XQuery]] support. These enhancements are also available in T-SQL Procedures in consequence of the introduction of the new XML Datatype (query, value, nodes functions).&lt;ref name="xmlsupport" /&gt;
+
+== Services ==
+SQL Server also includes an assortment of add-on services. While these are not essential for the operation of the database system, they provide value added services on top of the core database management system. These services either run as a part of some SQL Server component or out-of-process as [[Windows Service]] and presents their own [[API]] to control and interact with them.
+
+=== Machine Learning Services ===
+
+The SQL Server Machine Learning services operates within the SQL server instance, allowing people to do machine learning and data analytics without having to send data across the network or be limited by the memory of their own computers. The services come with Microsoft's R and Python distributions that contain commonly used packages for data science, along with some proprietary packages (e.g. [[revoscalepy]], [[RevoScaleR]], microsoftml) that can be used to create machine models at scale.
+
+Analysts can either configure their client machine to connect to a remote SQL server and push the script executions to it, or they can run a R or Python scripts as an external script inside a T-SQL query. The trained machine learning model can be stored inside a database and used for scoring.&lt;ref name="What is ML services"/&gt;
+
+=== Service Broker ===
+Used inside an instance, programming environment. For cross-instance applications, Service Broker communicates over [[TCP/IP]] and allows the different components to be synchronized, via exchange of messages. The Service Broker, which runs as a part of the database engine, provides a reliable messaging and [[message queuing]] platform for SQL Server applications.&lt;ref name="Service Broker" /&gt;
+
+Service broker services consists of the following parts:&lt;ref name="Pro SQL Server 2008 Service Broker"&gt;{{cite book
+|author=Klaus Aschenbrenner
+|year=2011
+|title=Pro SQL Server 2008 Service Broker
+|chapter=Introducing Service Broker
+|url=https://www.apress.com/de/book/9781430243021
+|access-date=2019-12-15
+|location=Vienna
+|publisher=[[Apress]]
+|pages=17–31
+|isbn=978-1-4302-0865-5
+}}&lt;/ref&gt;
+* message types
+* contracts
+* queues
+* service programs
+* routes
+
+The message type defines the data format used for the message. This can be an XML object, plain text or binary data, as well as a [[Null (SQL)|null]] message body for notifications. The contract defines which messages are used in an conversation between services and who can put messages in the queue. The queue acts as storage provider for the messages. They are internally implemented as tables by SQL Server, but don't support insert, update, or delete functionality. The service program receives and processes service broker messages. Usually the service program is implemented as [[stored procedure]] or [[Common Language Runtime|CLR]] application. Routes are network addresses where the service broker is located on the network.&lt;ref name="Pro SQL Server 2008 Service Broker" /&gt;
+
+Also, service broker supports security features like network authentication (using [[NT LAN Manager|NTLM]], [[Kerberos (protocol)|Kerberos]], or [[authorization certificate]]s), integrity checking, and message [[encryption]].&lt;ref name="Pro SQL Server 2008 Service Broker" /&gt;
+
+=== Replication Services ===
+SQL Server Replication Services are used by SQL Server to replicate and synchronize database objects, either in entirety or a subset of the objects present, across replication agents, which might be other database servers across the network, or database caches on the client side. Replication Services follows a publisher/subscriber model, i.e., the changes are sent out by one database server ("publisher") and are received by others ("subscribers"). SQL Server supports three different types of replication:&lt;ref name="Types of Replication" /&gt;
+
+; Transaction replication: Each transaction made to the publisher database (master database) is synced out to subscribers, who update their databases with the transaction. Transactional replication synchronizes databases in near real time.&lt;ref name="Transactional Replication" /&gt;
+; Merge replication: Changes made at both the publisher and subscriber databases are tracked, and periodically the changes are synchronized bi-directionally between the publisher and the subscribers. If the same data has been modified differently in both the publisher and the subscriber databases, synchronization will result in a conflict which has to be resolved, either manually or by using pre-defined policies. [[rowguid]] needs to be configured on a column if merge replication is configured.&lt;ref name="Merge Replication" /&gt;
+; Snapshot replication: Snapshot replication publishes a copy of the entire database (the then-snapshot of the data) and replicates out to the subscribers. Further changes to the snapshot are not tracked.&lt;ref name="Snapshot replication" /&gt;
+
+=== Analysis Services ===
+{{Main|SQL Server Analysis Services}}
+
+SQL Server Analysis Services adds [[OLAP]] and [[data mining]] capabilities for SQL Server databases. The OLAP engine supports [[MOLAP]], [[ROLAP]] and [[HOLAP]] storage modes for data. Analysis Services supports the [[XMLA|XML for Analysis]] standard as the underlying communication protocol. The cube data can be accessed using [[Multidimensional Expressions|MDX]] and LINQ&lt;ref name="SSAS" /&gt; queries.&lt;ref name="Analysis Services" /&gt;
+Data mining specific functionality is exposed via the [[Data Mining Extensions|DMX]] query language. Analysis Services includes various algorithms—[[Decision tree learning|Decision trees]], clustering algorithm, [[Naive Bayes]] algorithm, time series analysis, sequence clustering algorithm, linear and logistic [[Regression analysis|regression]] analysis, and [[neural network]]s—for use in data mining.&lt;ref name="Data Mining" /&gt;
+
+=== Reporting Services ===
+{{Main|SQL Server Reporting Services}}
+
+SQL Server Reporting Services is a report generation environment for data gathered from SQL Server databases. It is administered via a [[World Wide Web|web interface]]. Reporting services features a [[web services]] interface to support the development of custom reporting applications. Reports are created as [[Report Definition Language|RDL]] files.&lt;ref name="SQL Server Reporting Services" /&gt;
+
+Reports can be designed using recent versions of [[Microsoft Visual Studio]] (Visual Studio.NET 2003, 2005, and 2008)&lt;ref name="Reporting Services" /&gt; with [[Business Intelligence Development Studio]], installed or with the included [[Report Builder]]. Once created, RDL files can be rendered in a variety of formats,&lt;ref name="Render Method" /&gt;&lt;ref name="Device Information Settings" /&gt; including Excel, [[PDF]], [[Comma-separated values|CSV]], [[XML]], [[BMP file format|BMP]], [[Windows Metafile|EMF]], [[GIF]], [[JPEG]], [[Portable Network Graphics|PNG]], and [[TIFF]],&lt;ref name="Image Device Information Settings" /&gt; and HTML Web Archive.
+
+=== Notification Services ===
+{{Main|SQL Server Notification Services}}
+
+Originally introduced as a post-release add-on for SQL Server 2000,&lt;ref name="Notification Services" /&gt; Notification Services was bundled as part of the Microsoft SQL Server platform for the first and only time with SQL Server 2005.&lt;ref name="Removed from SQL Server 2008" /&gt;&lt;ref name="Discontinued Functionality" /&gt; SQL Server Notification Services is a mechanism for generating data-driven notifications, which are sent to Notification Services subscribers. A subscriber registers for a specific event or transaction (which is registered on the database server as a trigger); when the event occurs, Notification Services can use one of three methods to send a message to the subscriber informing about the occurrence of the event. These methods include SMTP, SOAP, or by writing to a file in the filesystem.&lt;ref name="Introducing SQL Server Notification Services" /&gt; Notification Services was discontinued by Microsoft with the release of SQL Server 2008 in August 2008, and is no longer an officially supported component of the SQL Server database platform.
+
+=== Integration Services ===
+{{Main|SQL Server Integration Services}}
+
+SQL Server Integration Services (SSIS) provides [[extract, transform, load|ETL]] capabilities for SQL Server for [[data import]], [[data integration]] and [[data warehouse|data warehousing]] needs. Integration Services includes GUI tools to build [[workflow]]s such as extracting data from various sources, querying data, transforming data—including aggregation, de-duplication, de-/normalization and merging of data—and then exporting the transformed data into destination databases or files.&lt;ref name="Integration Services Overview" /&gt;
+
+=== Full Text Search Service ===
+[[File:SQL Server FTS.svg|thumb|The SQL Server Full Text Search service architecture]]
+
+SQL Server Full Text Search service is a specialized indexing and querying service for unstructured text stored in SQL Server databases. The full text search index can be created on any column with character based text data. It allows for words to be searched for in the text columns. While it can be performed with the SQL &lt;code&gt;LIKE&lt;/code&gt; operator, using SQL Server Full Text Search service can be more efficient. Full allows for inexact matching of the source string, indicated by a ''Rank'' value which can range from 0 to 1000—a higher rank means a more accurate match. It also allows linguistic matching ("inflectional search"), i.e., linguistic variants of a word (such as a verb in a different tense) will also be a match for a given word (but with a lower rank than an exact match). Proximity searches are also supported, i.e., if the words searched for do not occur in the sequence they are specified in the query but are near each other, they are also considered a match. T-SQL exposes special operators that can be used to access the FTS capabilities.&lt;ref name="Introduction to Full-Text Search" /&gt;&lt;ref name="Querying SQL Server using Full-Text Search" /&gt;
+
+The Full Text Search engine is divided into two processes: the ''Filter Daemon'' process (&lt;code&gt;msftefd.exe&lt;/code&gt;) and the ''Search'' process (&lt;code&gt;msftesql.exe&lt;/code&gt;). These processes interact with the SQL Server. The Search process includes the indexer (that creates the full text indexes) and the full text query processor. The indexer scans through text columns in the database. It can also index through binary columns, and use [[iFilter]]s to extract meaningful text from the binary blob (for example, when a [[Microsoft Word]] document is stored as an unstructured binary file in a database). The iFilters are hosted by the Filter Daemon process. Once the text is extracted, the Filter Daemon process breaks it up into a sequence of words and hands it over to the indexer. The indexer filters out ''noise words'', i.e., words like ''A'', ''And'' etc., which occur frequently and are not useful for search. With the remaining words, an [[inverted index]] is created, associating each word with the columns they were found in. SQL Server itself includes a ''Gatherer'' component that monitors changes to tables and invokes the indexer in case of updates.&lt;ref name="fts" /&gt;
+
+When a full text query is received by the SQL Server query processor, it is handed over to the FTS query processor in the Search process. The FTS query processor breaks up the query into the constituent words, filters out the noise words, and uses an inbuilt [[thesaurus]] to find out the linguistic variants for each word. The words are then queried against the inverted index and a rank of their accurateness is computed. The results are returned to the client via the SQL Server process.&lt;ref name="fts" /&gt;
+
+=== SQLCMD ===
+SQLCMD is a command line application that comes with Microsoft SQL Server, and exposes the management features of SQL Server. It allows SQL queries to be written and executed from the command prompt. It can also act as a [[scripting language]] to create and run a set of SQL statements as a script. Such scripts are stored as a &lt;code&gt;.sql&lt;/code&gt; file, and are used either for management of databases or to create the database schema during the deployment of a database.
+
+SQLCMD was introduced with SQL Server 2005 and has continued through SQL Server versions 2008, 2008 R2, 2012, 2014, 2016 and 2019. Its predecessor for earlier versions was OSQL and ISQL, which were functionally equivalent as it pertains to TSQL execution, and many of the command line parameters are identical, although SQLCMD adds extra versatility.
+
+=== Visual Studio ===
+{{Main|Microsoft Visual Studio}}
+
+[[Microsoft Visual Studio]] includes native support for data programming with Microsoft SQL Server. It can be used to write and [[debug code]] to be executed by SQL CLR. It also includes a ''data designer'' that can be used to graphically create, view or edit database schemas. Queries can be created either visually or using code. SSMS 2008 onwards, provides [[intellisense]] for SQL queries as well.
+
+=== SQL Server Management Studio ===
+{{Main|SQL Server Management Studio}}
+
+[[SQL Server Management Studio]] is a [[GUI]] tool included with SQL Server 2005 and later for configuring, managing, and administering all components within Microsoft SQL Server. The tool includes both script editors and graphical tools that work with objects and features of the server.&lt;ref name="Introducing SQL Server Management Studio" /&gt; SQL Server Management Studio replaces [[Enterprise Manager]] as the primary management interface for Microsoft SQL Server since SQL Server 2005. A version of SQL Server Management Studio is also available for SQL Server Express Edition, for which it is known as ''SQL Server Management Studio Express'' (SSMSE).&lt;ref name="SQL Server Management Studio Express" /&gt;
+
+A central feature of SQL Server Management Studio is the Object Explorer, which allows the user to browse, select, and act upon any of the objects within the server.&lt;ref name="Using Object Explorer" /&gt; It can be used to visually observe and analyze query plans and optimize the database performance, among others.&lt;ref name="SQL Server 2005 Management Tools" /&gt; SQL Server Management Studio can also be used to create a new database, alter any existing database schema by adding or modifying tables and indexes, or analyze performance. It includes the query windows which provide a GUI based interface to write and execute queries.&lt;ref name="storageengine" /&gt;
+
+=== SQL Server Operations Studio ===
+
+SQL Server Operations Studio (Preview) is a cross platform query editor available as an optional download. The tool allows users to write queries; export query results; commit SQL scripts to [[Git]] repositories and perform basic server diagnostics. SQL Server Operations Studio supports Windows, Mac and Linux systems.&lt;ref name="Microsoft SQL Operations Studio" /&gt;
+
+It was released to General Availability in September 2018, at which point it was also renamed to Azure Data Studio. The functionality remains the same as before.
+
+=== Business Intelligence Development Studio ===
+{{Main|Business Intelligence Development Studio}}
+
+[[Business Intelligence Development Studio]] (BIDS) is the [[Integrated Development Environment|IDE]] from [[Microsoft]] used for developing data analysis and [[Business Intelligence]] solutions utilizing the Microsoft [[SQL Server Analysis Services]], [[SQL Server Reporting Services|Reporting Services]] and [[SQL Server Integration Services|Integration Services]]. It is based on the [[Microsoft Visual Studio]] development environment but is customized with the SQL Server services-specific extensions and project types, including tools, controls and projects for reports (using Reporting Services), [[OLAP cube|Cubes]] and [[data mining]] structures (using Analysis Services).&lt;ref name="Business Intelligence Development Studio" /&gt; For SQL Server 2012 and later, this IDE has been renamed SQL Server Data Tools (SSDT).
+
+== See also ==
+* [[Comparison of relational database management systems]]
+* [[Comparison of object-relational database management systems]]
+* [[Comparison of data modeling tools]]
+* [[List of relational database management systems]]
+* [[SQL compliance]]
+
+== References ==
+{{reflist|30em|refs=
+&lt;ref name="Lextrait"&gt;{{ cite web|url=http://www.lextrait.com/Vincent/implementations.html |title=The Programming Languages Beacon, v10.3 |first=Vincent |last=Lextrait |date=July 2010 |accessdate=September 5, 2010 |url-status=dead |archiveurl=https://archive.is/20120530/http://www.lextrait.com/Vincent/implementations.html |archivedate=May 30, 2012 }}&lt;/ref&gt;
+
+&lt;ref name="What is ML services"&gt;{{ cite web | url = https://docs.microsoft.com/en-us/sql/advanced-analytics/what-is-sql-server-machine-learning | title = What is SQL Server Machine Learning Services | work = SQL Server homepage | publisher = Microsoft Corporation | accessdate = 2018-04-10 }}&lt;/ref&gt;
+&lt;ref name="Download Microsoft SQL Server 2008 R2"&gt;{{ cite web | title = Download Microsoft SQL Server 2008 R2 | url = https://technet.microsoft.com/en-us/evalcenter/ee315247.aspx | work = Microsoft Evaluation Center | publisher = Microsoft Corporation | accessdate = July 18, 2011 }}&lt;/ref&gt;
+&lt;ref name="Compare Editions"&gt;{{ cite web | url = https://www.microsoft.com/sqlserver/en/us/product-info/compare.aspx | title = Compare Editions | work = SQL Server homepage | publisher = Microsoft Corporation | accessdate = 2007-12-03 }}&lt;/ref&gt;
+&lt;ref name="storageengine"&gt;{{ cite book | isbn = 0-7356-2105-5 | publisher = [[Microsoft Press]] | title = Inside Microsoft SQL Server 2005: The Storage Engine | author = Kalen Delaney | year = 2007 }}&lt;/ref&gt;
+&lt;ref name="StreamInsight"&gt;{{ cite web | title = Choosing a StreamInsight Edition | url = http://msdn.microsoft.com/en-us/library/ff518551.aspx | work = MSDN | publisher = Microsoft Corporation | accessdate = July 18, 2011 }}&lt;/ref&gt;
+&lt;ref name="download.microsoft.com"&gt;[http://download.microsoft.com/download/4/F/7/4F74E127-827E-420D-971F-53CECB6778BD/SQL_Server_2012_Licensing_Datasheet_and_FAQ_Mar2012.docx]&lt;/ref&gt;
+&lt;ref name="Editions"&gt;{{ cite web | url = https://www.microsoft.com/sqlserver/2008/en/us/editions.aspx | title = SQL Server 2008: Editions | accessdate = 2011-07-21 }}&lt;/ref&gt;
+&lt;ref name="Performance &amp; Scalability"&gt;{{ cite web | url = https://www.microsoft.com/sqlserver/en/us/editions/2012-editions/business-intelligence.aspx | title = Database System &amp;#124; Performance &amp; Scalability &amp;#124; SQL Server 2012 Business Intelligence Editions | publisher = Microsoft.com | accessdate = 2013-06-15 }}&lt;/ref&gt;
+&lt;ref name="Express Database Size"&gt;{{ cite web | url = http://blogs.msdn.com/sqlexpress/archive/2010/04/21/database-size-limit-increased-to-10gb-in-sql-server-2008-r2-express.aspx | title = SQL Server 2008 R2 Express Database Size Limit Increased to 10GB | accessdate = 2010-04-23 }}&lt;/ref&gt;
+&lt;ref name="Express editions"&gt;{{ cite web | url = http://blogs.msdn.com/sqlexpress/archive/2008/08/07/what-s-up-with-sql-server-2008-express-editions.aspx | title = What's up with SQL Server 2008 Express editions | accessdate = 2008-08-15 }}&lt;/ref&gt;
+&lt;ref name="Developer Edition"&gt;{{ cite web | title = Developer Edition | url = https://www.microsoft.com/sqlserver/en/us/editions/developer.aspx | work = SQL Server home | publisher = Microsoft Corporation | accessdate = July 18, 2011 }}&lt;/ref&gt;
+&lt;ref name="Trial Software"&gt;{{ cite web | url = https://www.microsoft.com/sqlserver/2008/en/us/trial-software.aspx | title = SQL Server 2008 Trial Software | accessdate = 2009-03-26 }}&lt;/ref&gt;
+&lt;ref name="Fast Track"&gt;{{ cite web | url = https://www.microsoft.com/Sqlserver/2008/en/us/fasttrack.aspx | title = Microsoft SQL Server 2008: Fast Track Data Warehouse | accessdate = 2009-03-26 }}&lt;/ref&gt;
+&lt;ref name=LocalDB&gt;{{ cite web | title = SQL Server 2012 Express LocalDB | url = http://msdn.microsoft.com/en-us/library/hh510202.aspx | publisher = msdn.microsoft.com | accessdate = March 11, 2013 }}&lt;/ref&gt;
+&lt;ref name=localdbblog&gt;{{ cite web | title = Introducing LocalDB, an improved SQL Express | url = http://blogs.msdn.com/b/sqlexpress/archive/2011/07/12/introducing-localdb-a-better-sql-express.aspx }}&lt;/ref&gt;
+&lt;ref name="Analytics Platform System"&gt;{{ cite web | url = https://www.microsoft.com/en-gb/server-cloud/products/analytics-platform-system | title = Microsoft Analytics Platform System | accessdate = 2015-04-29 }}&lt;/ref&gt;
+&lt;ref name="pages"&gt;{{ cite web | url = http://msdn.microsoft.com/en-us/library/ms190969.aspx | title = Pages and Extents | accessdate = 2007-12-02 }}&lt;/ref&gt;
+&lt;ref name="table"&gt;{{ cite web | url = http://msdn.microsoft.com/en-us/library/ms189051.aspx | title = Table and Index Organization | accessdate = 2007-12-02 }}&lt;/ref&gt;
+&lt;ref name="Buffer Management"&gt;{{ cite web | url = http://msdn.microsoft.com/en-us/library/aa337525.aspx | title = Buffer Management | accessdate = 2007-12-02 }}&lt;/ref&gt;
+&lt;ref name="Single SQL Statement Processing"&gt;{{ cite web | url = http://msdn.microsoft.com/en-us/library/ms190623.aspx | title = Single SQL Statement Processing | accessdate = 2007-12-03 }}&lt;/ref&gt;
+&lt;ref name="Stored Procedure Basics"&gt;{{ cite web | url = http://msdn.microsoft.com/en-us/library/ms191436.aspx | title = Stored Procedure Basics | accessdate = 2007-12-03 }}&lt;/ref&gt;
+&lt;ref name="clroverview"&gt;{{ cite web | url = http://msdn.microsoft.com/en-us/library/ms131045.aspx | title = Overview of CLR integration | accessdate = 2007-12-03 }}&lt;/ref&gt;
+&lt;ref name="xmlsupport"&gt;{{ cite web | url = http://msdn.microsoft.com/en-us/library/ms345117(SQL.90).aspx | title = XML Support in SQL Server | accessdate = 2008-09-05 }}&lt;/ref&gt;
+&lt;ref name="Service Broker"&gt;{{ cite web | url = http://msdn.microsoft.com/en-us/library/ms166104.aspx | title = Introducing Service Broker | accessdate = 2007-12-03 }}&lt;/ref&gt;
+&lt;ref name="Types of Replication"&gt;{{ cite web | url = http://msdn.microsoft.com/en-us/library/ms152531.aspx | title = Types of Replication Overview | accessdate = 2007-12-03 }}&lt;/ref&gt;
+&lt;ref name="Transactional Replication"&gt;{{ cite web | url = http://msdn.microsoft.com/en-us/library/ms151176.aspx | title = Transactional Replication Overview | accessdate = 2007-12-03 }}&lt;/ref&gt;
+&lt;ref name="Merge Replication"&gt;{{ cite web | url = http://msdn.microsoft.com/en-us/library/ms152746.aspx | title = Merge Replication Overview | accessdate = 2007-12-03 }}&lt;/ref&gt;
+&lt;ref name="Snapshot replication"&gt;{{ cite web | url = http://msdn.microsoft.com/en-us/library/ms151832.aspx | title = Snapshot replication Overview | accessdate = 2007-12-03 }}&lt;/ref&gt;
+&lt;ref name="SSAS"&gt;{{ cite web | url = http://www.agiledesignllc.com/Products | title = SSAS Entity Framework Provider | accessdate = 2011-09-29 }}&lt;/ref&gt;
+&lt;ref name="Analysis Services"&gt;{{ cite web | url = http://msdn.microsoft.com/en-us/library/ms174918.aspx | title = Analysis Services Architecture | accessdate = 2007-12-03 }}&lt;/ref&gt;
+&lt;ref name="Data Mining"&gt;{{ cite web | url = http://msdn.microsoft.com/en-us/library/ms174949.aspx | title = Data Mining Concepts | accessdate = 2007-12-03 }}&lt;/ref&gt;
+&lt;ref name="SQL Server Reporting Services"&gt;{{ cite web | url = http://msdn.microsoft.com/en-us/library/ms159106.aspx | title = SQL Server Reporting Services | accessdate = 2007-12-03 }}&lt;/ref&gt;
+&lt;ref name="Reporting Services"&gt;{{ cite web | url = https://connect.microsoft.com/VisualStudio/feedback/details/532664/cannot-open-a-sql-reporting-services-rptproj-file?wa=wsignin1.0 | archive-date = February 3, 2012 | archive-url = http://webarchive.loc.gov/all/20120203002158/https://connect.microsoft.com/VisualStudio/feedback/details/532664/cannot%2Dopen%2Da%2Dsql%2Dreporting%2Dservices%2Drptproj%2Dfile?wa%3Dwsignin1.0 | url-status = dead| title = Cannot open a SQL Reporting Services .rptproj file &amp;#124; Microsoft Connect | publisher = Connect.microsoft.com | accessdate = 2011-09-04 }}&lt;/ref&gt;
+&lt;ref name="Render Method"&gt;[http://msdn.microsoft.com/en-us/library/microsoft.wssux.reportingserviceswebservice.rsexecutionservice2005.reportexecutionservice.render.aspx MSDN Library: Reporting Services Render Method]&lt;/ref&gt;
+&lt;ref name="Device Information Settings"&gt;[http://msdn.microsoft.com/en-us/library/ms155397.aspx Device Information Settings]&lt;/ref&gt;
+&lt;ref name="Image Device Information Settings"&gt;[http://msdn.microsoft.com/en-us/library/ms155373.aspx Image Device Information Settings]&lt;/ref&gt;
+&lt;ref name="Notification Services"&gt;{{ cite web | url = http://www.codeproject.com/KB/dotnet/sqlns.aspx | title = An Introduction to SQL Server Notification Services | accessdate = 2008-11-14 }}&lt;/ref&gt;
+&lt;ref name="Removed from SQL Server 2008"&gt;{{ cite web | url = http://blog.desktopalert.net/blogs/da_blog/archive/2008/02/16/25.aspx | title = SQL Server Notification Services Removed from SQL Server 2008 | accessdate = 2008-09-17 | url-status = dead | archiveurl = https://web.archive.org/web/20081016060910/http://blog.desktopalert.net/blogs/da_blog/archive/2008/02/16/25.aspx | archivedate = 2008-10-16 }}&lt;/ref&gt;
+&lt;ref name="Discontinued Functionality"&gt;{{ cite web | url = https://technet.microsoft.com/en-us/library/ms144231.aspx | title = Discontinued Functionality in SQL Server 2008 Reporting Services | accessdate = 2008-09-17 }}&lt;/ref&gt;
+&lt;ref name="Introducing SQL Server Notification Services"&gt;{{ cite web | url = http://msdn.microsoft.com/en-us/library/ms166495.aspx | title = Introducing SQL Server Notification Services | accessdate = 2007-12-03 }}&lt;/ref&gt;
+&lt;ref name="Integration Services Overview"&gt;{{ cite web | url = http://msdn.microsoft.com/en-us/library/ms141263.aspx | title = Integration Services Overview | accessdate = 2007-12-03 }}&lt;/ref&gt;
+&lt;ref name="Introduction to Full-Text Search"&gt;{{ cite web | url = http://msdn.microsoft.com/en-us/library/ms142545.aspx | title = Introduction to Full-Text Search | accessdate = 2007-12-03 }}&lt;/ref&gt;
+&lt;ref name="Querying SQL Server using Full-Text Search"&gt;{{ cite web | url = http://msdn.microsoft.com/en-us/library/ms142559.aspx | title = Querying SQL Server using Full-Text Search | accessdate = 2007-12-03 }}&lt;/ref&gt;
+&lt;ref name="fts"&gt;{{ cite web | url = http://msdn.microsoft.com/en-us/library/ms142541.aspx | title = Full-Text Search Architecture | accessdate = 2007-12-03 }}&lt;/ref&gt;
+&lt;ref name="Introducing SQL Server Management Studio"&gt;{{ cite web | url = http://msdn.microsoft.com/en-us/library/ms174173.aspx | title = MSDN: Introducing SQL Server Management Studio | publisher = Msdn.microsoft.com | accessdate = 2011-09-04 }}&lt;/ref&gt;
+&lt;ref name="SQL Server Management Studio Express"&gt;{{ cite web | url = https://www.microsoft.com/downloads/details.aspx?FamilyId=C243A5AE-4BD1-4E3D-94B8-5A0F62BF7796&amp;displaylang=en | title = SQL Server Management Studio Express | publisher = Microsoft.com | date = 2006-04-18 | accessdate = 2011-09-04 }}&lt;/ref&gt;
+&lt;ref name="Using Object Explorer"&gt;{{ cite web | url = http://msdn.microsoft.com/en-us/library/ms173849.aspx | title = MSDN: Using Object Explorer | publisher = Msdn.microsoft.com | accessdate = 2011-09-04 }}&lt;/ref&gt;
+&lt;ref name="SQL Server 2005 Management Tools"&gt;{{ cite web | url = http://www.sqlmag.com/articles/index.cfm?articleid=46798&amp; | title = SQL Server 2005 Management Tools | publisher = Sqlmag.com | date = 2005-07-19 | accessdate = 2011-09-04 }}&lt;/ref&gt;
+&lt;ref name="Microsoft SQL Operations Studio"&gt;{{ cite web | url = https://docs.microsoft.com/en-us/sql/sql-operations-studio/what-is | title = What is Microsoft SQL Operations Studio (preview)? | publisher = docs.microsoft.com | accessdate = 2018-01-19 }}&lt;/ref&gt;
+&lt;ref name="Business Intelligence Development Studio"&gt;{{ cite web | url = http://msdn.microsoft.com/hi-in/library/ms173767.aspx | title = Introducing Business Intelligence Development Studio | accessdate = 2007-12-03 }}&lt;/ref&gt;
+&lt;ref name="Transact-SQL Reference"&gt;{{ cite web | url = http://msdn.microsoft.com/en-us/library/ms189826.aspx | title = Transact-SQL Reference | accessdate = 2007-12-03 }}&lt;/ref&gt;
+&lt;ref name="SQL Server Native Client"&gt;{{ cite web | url = http://msdn.microsoft.com/en-us/library/ms131456.aspx | title = Features of SQL Server Native Client | accessdate = 2007-12-03 }}&lt;/ref&gt;
+&lt;ref name="ODBC Driver for Linux"&gt;{{ cite web | url = http://blogs.technet.com/b/dataplatforminsider/archive/2011/11/28/available-today-preview-release-of-the-sql-server-odbc-driver-for-linux.aspx | title = Available Today: Preview Release of the SQL Server ODBC Driver for Linux | publisher = SQL Server Team Blog | date = 2011-11-28 | accessdate = 2013-06-15 }}&lt;/ref&gt;
+&lt;ref name="ODBC Driver for Linux"&gt;{{ cite web | url = http://blogs.technet.com/b/dataplatforminsider/archive/2011/11/28/available-today-preview-release-of-the-sql-server-odbc-driver-for-linux.aspx | title = Available Today: Preview Release of the SQL Server ODBC Driver for Linux | publisher = SQL Server Team Blog | date = 2011-11-28 | accessdate = 2013-06-15 }}&lt;/ref&gt;
+}}
+
+== Further reading ==
+{{refbegin}}
+* Lance Delano, Rajesh George et al. (2005). ''Wrox's SQL Server 2005 Express Edition Starter Kit (Programmer to Programmer)''. ''Microsoft Press''. {{ISBN|0-7645-8923-7}}.
+* [[Kalen Delaney|Delaney, Kalen]], et al. (2007). ''Inside SQL Server 2005: Query Tuning and Optimization''. ''Microsoft Press''. {{ISBN|0-7356-2196-9}}.
+* Ben-Gan, Itzik, et al. (2006). ''Inside Microsoft SQL Server 2005: T-SQL Programming''. ''Microsoft Press''. {{ISBN|0-7356-2197-7}}.
+* Klaus Elk (2018). ''SQL Server with C#''. {{ISBN|1-7203-5867-2}}.
+{{refend}}
+
+== External links ==
+{{Commons category|Microsoft SQL Server}}
+{{Wikibooks|Microsoft SQL Server}}
+* {{Official website|http://www.microsoft.com/sqlserver}}
+* {{Official website|name=2nd official website at Microsoft TechNet|1=https://technet.microsoft.com/en-us/sqlserver/default}}
+* [http://www.w3computing.com/sqlserver2012/ Beginner's guide to SQL Server 2012]
+
+{{Databases}}
+{{Microsoft development tools}}
+{{Microsoft|close}}
+
+[[Category:Client-server database management systems]]
+[[Category:Database management systems]]
+[[Category:Microsoft database software]]
+[[Category:Relational database management systems]]
+[[Category:Windows Server System|SQL Server]]
+[[Category:RDBMS software for Linux]]</text>
+      <sha1>5q2anykfmh78c6blvirgubxh9xpcyud</sha1>
+    </revision>
+  </page>
+</mediawiki>

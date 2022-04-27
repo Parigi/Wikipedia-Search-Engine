@@ -1,0 +1,91 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.10/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.10/ http://www.mediawiki.org/xml/export-0.10.xsd" version="0.10" xml:lang="en">
+  <siteinfo>
+    <sitename>Wikipedia</sitename>
+    <dbname>enwiki</dbname>
+    <base>https://en.wikipedia.org/wiki/Main_Page</base>
+    <generator>MediaWiki 1.35.0-wmf.36</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Media</namespace>
+      <namespace key="-1" case="first-letter">Special</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Talk</namespace>
+      <namespace key="2" case="first-letter">User</namespace>
+      <namespace key="3" case="first-letter">User talk</namespace>
+      <namespace key="4" case="first-letter">Wikipedia</namespace>
+      <namespace key="5" case="first-letter">Wikipedia talk</namespace>
+      <namespace key="6" case="first-letter">File</namespace>
+      <namespace key="7" case="first-letter">File talk</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki talk</namespace>
+      <namespace key="10" case="first-letter">Template</namespace>
+      <namespace key="11" case="first-letter">Template talk</namespace>
+      <namespace key="12" case="first-letter">Help</namespace>
+      <namespace key="13" case="first-letter">Help talk</namespace>
+      <namespace key="14" case="first-letter">Category</namespace>
+      <namespace key="15" case="first-letter">Category talk</namespace>
+      <namespace key="100" case="first-letter">Portal</namespace>
+      <namespace key="101" case="first-letter">Portal talk</namespace>
+      <namespace key="108" case="first-letter">Book</namespace>
+      <namespace key="109" case="first-letter">Book talk</namespace>
+      <namespace key="118" case="first-letter">Draft</namespace>
+      <namespace key="119" case="first-letter">Draft talk</namespace>
+      <namespace key="446" case="first-letter">Education Program</namespace>
+      <namespace key="447" case="first-letter">Education Program talk</namespace>
+      <namespace key="710" case="first-letter">TimedText</namespace>
+      <namespace key="711" case="first-letter">TimedText talk</namespace>
+      <namespace key="828" case="first-letter">Module</namespace>
+      <namespace key="829" case="first-letter">Module talk</namespace>
+      <namespace key="2300" case="first-letter">Gadget</namespace>
+      <namespace key="2301" case="first-letter">Gadget talk</namespace>
+      <namespace key="2302" case="case-sensitive">Gadget definition</namespace>
+      <namespace key="2303" case="case-sensitive">Gadget definition talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Total sum of squares</title>
+    <ns>0</ns>
+    <id>2473449</id>
+    <revision>
+      <id>926499832</id>
+      <parentid>925951310</parentid>
+      <timestamp>2019-11-16T20:30:51Z</timestamp>
+      <contributor>
+        <ip>37.166.248.147</ip>
+      </contributor>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="2195" xml:space="preserve">In [[statistics|statistical data analysis]] the '''total sum of squares''' (TSS or SST) is a quantity that appears as part of a standard way of presenting results of such analyses. It is defined as being the sum, over all observations, of the squared differences between the observations and their overall [[mean]].&lt;ref&gt;Everitt, B.S. (2002) ''The Cambridge Dictionary of Statistics'', CUP, {{ISBN|0-521-81099-X}}&lt;/ref&gt;
+
+In [[statistics|statistical]] [[linear model]]s, (particularly in standard [[regression model]]s), the '''TSS''' is the [[summation|sum]] of the [[square (algebra)|square]]s of the differences between the dependent variable and its [[mean]]:
+
+:&lt;math&gt;\mathrm{TSS}=\sum_{i=1}^{n}\left(y_{i}-\bar{y}\right)^2&lt;/math&gt;
+
+where &lt;math&gt;\bar{y}&lt;/math&gt; is the mean.
+
+For wide classes of linear models, the total sum of squares equals the [[explained sum of squares]] plus the [[residual sum of squares]]. For a proof of this in the multivariate OLS case, see [[Explained sum of squares#Partitioning in the general OLS model|partitioning in the general OLS model]].
+
+In [[analysis of variance]] (ANOVA) the total sum of squares is the sum of the so-called "within-samples" sum of squares and "between-samples" sum of squares, i.e., partitioning of the sum of squares.
+In [[multivariate analysis of variance]] (MANOVA) the following equation applies&lt;ref name="MardiaK1979Multivariate"&gt;{{Cite book
+ | author = [[K. V. Mardia]], J. T. Kent and J. M. Bibby
+ | title = Multivariate Analysis
+ | publisher = [[Academic Press]]
+ | year = 1979
+ | isbn = 0-12-471252-5
+}} Especially chapters 11 and 12.&lt;/ref&gt;
+:&lt;math&gt;\mathbf{T} = \mathbf{W} + \mathbf{B},&lt;/math&gt; 
+where '''T''' is the total sum of squares and products (SSP) [[Matrix (mathematics)|matrix]], '''W''' is the within-samples SSP matrix and '''B''' is the between-samples SSP matrix.
+Similar terminology may also be used in [[linear discriminant analysis]], where '''W''' and '''B''' are respectively referred to as the within-groups and between-groups SSP matrices.&lt;ref name="MardiaK1979Multivariate"/&gt;
+
+==See also==
+*[[Sum of squares (statistics)]]
+*[[Lack-of-fit sum of squares]]
+
+==References==
+{{Reflist}}
+
+[[Category:Least squares]]</text>
+      <sha1>b2adpi9foqkjih4t778izzagagrj0jb</sha1>
+    </revision>
+  </page>
+</mediawiki>

@@ -1,0 +1,205 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.10/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.10/ http://www.mediawiki.org/xml/export-0.10.xsd" version="0.10" xml:lang="en">
+  <siteinfo>
+    <sitename>Wikipedia</sitename>
+    <dbname>enwiki</dbname>
+    <base>https://en.wikipedia.org/wiki/Main_Page</base>
+    <generator>MediaWiki 1.35.0-wmf.36</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Media</namespace>
+      <namespace key="-1" case="first-letter">Special</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Talk</namespace>
+      <namespace key="2" case="first-letter">User</namespace>
+      <namespace key="3" case="first-letter">User talk</namespace>
+      <namespace key="4" case="first-letter">Wikipedia</namespace>
+      <namespace key="5" case="first-letter">Wikipedia talk</namespace>
+      <namespace key="6" case="first-letter">File</namespace>
+      <namespace key="7" case="first-letter">File talk</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki talk</namespace>
+      <namespace key="10" case="first-letter">Template</namespace>
+      <namespace key="11" case="first-letter">Template talk</namespace>
+      <namespace key="12" case="first-letter">Help</namespace>
+      <namespace key="13" case="first-letter">Help talk</namespace>
+      <namespace key="14" case="first-letter">Category</namespace>
+      <namespace key="15" case="first-letter">Category talk</namespace>
+      <namespace key="100" case="first-letter">Portal</namespace>
+      <namespace key="101" case="first-letter">Portal talk</namespace>
+      <namespace key="108" case="first-letter">Book</namespace>
+      <namespace key="109" case="first-letter">Book talk</namespace>
+      <namespace key="118" case="first-letter">Draft</namespace>
+      <namespace key="119" case="first-letter">Draft talk</namespace>
+      <namespace key="446" case="first-letter">Education Program</namespace>
+      <namespace key="447" case="first-letter">Education Program talk</namespace>
+      <namespace key="710" case="first-letter">TimedText</namespace>
+      <namespace key="711" case="first-letter">TimedText talk</namespace>
+      <namespace key="828" case="first-letter">Module</namespace>
+      <namespace key="829" case="first-letter">Module talk</namespace>
+      <namespace key="2300" case="first-letter">Gadget</namespace>
+      <namespace key="2301" case="first-letter">Gadget talk</namespace>
+      <namespace key="2302" case="case-sensitive">Gadget definition</namespace>
+      <namespace key="2303" case="case-sensitive">Gadget definition talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Polynomial least squares</title>
+    <ns>0</ns>
+    <id>45637058</id>
+    <revision>
+      <id>939200965</id>
+      <parentid>919175482</parentid>
+      <timestamp>2020-02-05T00:04:55Z</timestamp>
+      <contributor>
+        <ip>203.122.223.105</ip>
+      </contributor>
+      <comment>Corrected unbalanced parentheses in equation</comment>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="18831" xml:space="preserve">{{lead extra info|date=February 2019}}
+
+In [[mathematical statistics]], '''polynomial least squares''' comprises a broad range of statistical methods for estimating an underlying polynomial that describes observations. These methods include [[polynomial regression]], [[curve fitting]], [[linear regression]], [[least squares]], [[ordinary least squares]], [[simple linear regression]], [[linear least squares (mathematics)|linear least squares]], [[approximation theory]] and [[method of moments (statistics)|method of moments]]. Polynomial least squares has applications in [[radar tracker]]s, [[estimation theory]], [[signal processing]], [[statistics]], and [[econometrics]].
+
+Two common applications of polynomial least squares methods are generating a low-degree polynomial that approximates a complicated function and estimating an assumed underlying polynomial from corrupted (also known as "noisy") observations. The former is commonly used in statistics and [[econometrics]] to fit a [[scatter plot]] with a first degree polynomial (that is, a linear expression).&lt;ref name="Gujarati"&gt;{{cite book | title=Basic Econometrics | last1=Gujarati | first1=Damodar N. | last2=Porter | first2=Dawn C. | url=http://egei.vse.cz/english/wp-content/uploads/2012/08/Basic-Econometrics.pdf | edition=5 | publisher=McGraw-Hill Education | isbn=978-0073375779 | year=2008}}&lt;/ref&gt;&lt;ref name="Hansen"&gt;{{cite book | title=Econometrics | last=Hansen | first=Bruce E. | date=January 16, 2015 | url=http://www.ssc.wisc.edu/~bhansen/econometrics/Econometrics.pdf}}&lt;/ref&gt;&lt;ref name="Copeland"&gt;{{cite book | title=Financial Theory and Corporate Policy | last1=Copeland | first1=Thomas E. | last2=Weston | first2=John Fred | last3=Shastri | first3=Kuldeep | publisher=Prentice Hall | date=January 10, 2004 | edition=4 | isbn=978-0321127211}}&lt;/ref&gt; The latter is commonly used in target tracking in the form of [[Kalman filtering]], which is effectively a recursive implementation of polynomial least squares.&lt;ref name="Kalman"&gt;{{cite journal | doi=10.1115/1.3662552 | title=A New Approach to Linear Filtering and Prediction Problems | journal=Journal of Basic Engineering | volume=82 | page=35 | date=March 1, 1960 | last=Kálmán | first=Rudolf E. | authorlink=Rudolf Emil Kálmán}}&lt;/ref&gt;&lt;ref name= Sorenson&gt;Sorenson, H. W., Least-squares estimation: Gauss to Kalman, IEEE Spectrum, July, 1970.&lt;/ref&gt;&lt;ref name=Bell1&gt;Bell, J. W., Simple Disambiguation Of Orthogonal Projection In Kalman’s Filter Derivation, Proceedings of the International Conference on Radar Systems, Glasgow, UK. October, 2012.&lt;/ref&gt;&lt;ref name=Bell2&gt;Bell, J. W., A Simple Kalman Filter Alternative: The Multi-Fractional Order Estimator, IET-RSN, Vol. 7, Issue 8, October 2013.&lt;/ref&gt; Estimating an assumed underlying deterministic polynomial can be used in econometrics as well.&lt;ref name="web reference 2" &gt;{{cite web|url=http://ssrn.com/abstract=2573840 |title=Ordinary Least Squares Revolutionized: Establishing the Vital Missing Empirically Determined Statistical Prediction Variance by Jeff Bell |doi=10.2139/ssrn.2573840 |publisher=SSRN |date= |accessdate=2019-02-27}}&lt;/ref&gt; In effect, both applications produce average curves as generalizations of the common [[average]] of a set of numbers, which is equivalent to zero degree [[polynomial]] least squares.&lt;ref name="Gujarati"/&gt;&lt;ref name="Hansen"/&gt;&lt;ref name=Papoulis&gt;Papoulis, A., Probability, RVs, and Stochastic Processes, McGraw-Hill, New York, 1965&lt;/ref&gt;
+
+In the above applications, the term "approximate" is used when no statistical measurement or observation errors are assumed, as when fitting a scatter plot. The term "estimate", derived from statistical estimation theory, is used when assuming that measurements or observations of a polynomial are corrupted.
+
+==Polynomial least squares estimate of a deterministic first degree polynomial corrupted with observation errors==
+Assume the deterministic first degree polynomial equation ''&lt;math&gt;y&lt;/math&gt;'' with unknown coefficients '''&lt;math&gt;\alpha&lt;/math&gt;''' and  '''&lt;math&gt;\beta&lt;/math&gt;''' is written as
+
+:&lt;math&gt;y=\alpha+\beta t.&lt;/math&gt;
+					
+This is corrupted with an additive [[stochastic process]] &lt;math&gt; \varepsilon&lt;/math&gt; described as an error (noise in tracking), resulting in
+
+:&lt;math&gt;z=y+\varepsilon=\alpha+\beta t+\varepsilon.&lt;/math&gt;
+
+Given observations &lt;math&gt;z_n&lt;/math&gt; from a [[Sample (statistics)|sample]],  where the subscript ''&lt;math&gt;n&lt;/math&gt;'' is the observation index, the problem is to apply '''polynomial least squares''' to estimate  ''&lt;math&gt;y(t)&lt;/math&gt;'', and to determine its [[variance]] along with its [[expected value]].
+
+===Definitions and assumptions===
+
+(1) The term [[linearity]] in mathematics may be considered to take two forms that are sometimes confusing: a linear ''system'' or transformation (sometimes called an operator)&lt;ref name="Papoulis"/&gt; and a linear ''equation''. The term "function" is often used to describe both a system and an equation, which may lead to confusion. A linear ''system'' is defined by
+
+:&lt;math&gt;f(ax +by)= af(x) +bf(y)&lt;/math&gt;
+
+where &lt;math&gt;a&lt;/math&gt; and &lt;math&gt;b&lt;/math&gt; are constants, and where &lt;math&gt;x&lt;/math&gt; and &lt;math&gt;y&lt;/math&gt; are variables. In a linear ''system'' &lt;math&gt;E[f(x)]=f(E[x])&lt;/math&gt;, where &lt;math&gt;E&lt;/math&gt; is the linear expectation operator. A linear ''equation'' is a straight line as is the first degree polynomial described above.
+
+(2) The error &lt;math&gt;\varepsilon  &lt;/math&gt;  is modeled as a zero [[mean]] stochastic process, sample points of which are [[random variables]] that are uncorrelated and assumed to have identical [[probability distributions]] (specifically same mean and variance), but not necessarily [[Gaussian]], treated as inputs to polynomial least squares. Stochastic processes and  random variables are described only by probability distributions.&lt;ref name="Gujarati"/&gt;&lt;ref name="Papoulis"/&gt;&lt;ref name=" Hansen"/&gt;
+ 
+(3) Polynomial least squares is modeled as a linear signal processing ''system'' which processes statistical inputs deterministically, the output being the linearly processed empirically determined statistical estimate, variance, and expected value.&lt;ref name="Bell1"/&gt;&lt;ref name="Bell2"/&gt;&lt;ref name="web reference 2"/&gt;
+
+(4) Polynomial least squares processing produces deterministic [[Method of moments (statistics)|moments]] (analogous to mechanical moments), which may be considered as moments of sample statistics, but not of statistical moments.&lt;ref name="web reference 2"/&gt;
+
+===Polynomial least squares and the orthogonality principle===
+Approximating a function ''&lt;math&gt;z(t)&lt;/math&gt;'' with a polynomial
+
+: &lt;math&gt;\hat z(t)=\sum_{j=1} ^J a_j t^{j-1} &lt;/math&gt;
+
+where hat (^) denotes the estimate and (''J''&amp;nbsp;−&amp;nbsp;1) is the polynomial degree, can be performed by applying the [[orthogonality principle]]. The [[sum of squared residuals]] can be written as
+
+: &lt;math&gt; \sum_{n=1}^N (z_n - \hat z_n)^2.&lt;/math&gt;
+
+According to the orthogonality principle,&lt;ref name="Kalman"/&gt;&lt;ref name="Sorenson"/&gt;&lt;ref name="Bell1"/&gt;&lt;ref name="Bell2"/&gt;&lt;ref name="web reference 2"/&gt;&lt;ref name="Papoulis"/&gt;&lt;ref name= Wylie&gt;Wylie, C. R., Jr., Advanced Engineering Mathematics, McGraw-Hill, New York, 1960.&lt;/ref&gt;&lt;ref name= Schied &gt;Schied, F., Numerical Analysis, Schaum's Outline Series, McGraw-Hill, New York, 1968.&lt;/ref&gt; this is at its minimum when the residual vector (&lt;math&gt;z-\hat z&lt;/math&gt;) is orthogonal to the estimate &lt;math&gt;\hat z&lt;/math&gt;, that is
+
+: &lt;math&gt;\sum_{n=1}^N (z_n - \hat z_n)\hat z_n=0.&lt;/math&gt;
+
+This can be described as the orthogonal projection of the data values {&lt;math&gt; z_n&lt;/math&gt;}  onto a solution in the form of the polynomial &lt;math&gt;\hat z(t)&lt;/math&gt;.&lt;ref name="Kalman"/&gt;&lt;ref name="Bell1"/&gt;&lt;ref name="Bell2"/&gt; For  ''N'' &gt; ''J'', orthogonal projection yields the standard overdetermined system of equations (often called [[normal equations]]) used to compute the coefficients in the polynomial approximation.&lt;ref name="Gujarati"/&gt;&lt;ref name="Wylie"/&gt;&lt;ref name="Schied "/&gt; The minimum sum of squared residuals is then
+
+: &lt;math&gt;SSR_\min = \sum_{n=1} ^N (z_n - \hat z_n)z_n &lt;/math&gt;
+
+The advantage of using orthogonal projection is that &lt;math&gt;SSR_\min&lt;/math&gt; can be determined for use in the polynomial least squares processed statistical variance of the estimate.&lt;ref name="web reference 2"/&gt;&lt;ref name="Papoulis"/&gt;&lt;ref name="Schied "/&gt;
+
+==The empirically determined polynomial least squares output of a first degree polynomial corrupted with observation errors==
+To fully determine the output of '''polynomial least squares''', a weighting function describing the processing must first be structured and then the statistical moments can be computed.
+
+===The weighting function describing the linear polynomial least squares "system"===
+The weighting function &lt;math&gt; w_n (\tau) &lt;/math&gt; can be formulated from polynomial least squares to estimate the unknown ''&lt;math&gt;y(t)&lt;/math&gt;''  as follows:&lt;ref name="web reference 2"/&gt;
+
+: &lt;math&gt;\hat y (\tau) = \frac {1} {N}\sum_{n=1} ^N z_n w_n (\tau) =  \frac {1} {N}\sum_{n=1} ^N (\alpha+\beta t_n + \varepsilon_n) w_n (\tau) &lt;/math&gt;
+
+where ''N'' is the number of samples, &lt;math&gt; z_n&lt;/math&gt;  are random variables as samples of the stochastic &lt;math&gt;z&lt;/math&gt;  (noisy signal), and the first degree polynomial data weights are
+
+: &lt;math&gt;w_n(\tau)\equiv\frac{[\bar{t^2}-\bar{t}t_n+(t_n-\bar{t})\tau]}{(\bar{t^2}- \bar{t}^2)}&lt;/math&gt;
+
+which represent the linear polynomial least squares "system" and describe its processing.&lt;ref name="web reference 2"/&gt; The Greek letter '''&lt;math&gt;\tau&lt;/math&gt;''' is the independent variable ''&lt;math&gt;t&lt;/math&gt;''  when estimating the dependent variable ''&lt;math&gt;y(t)&lt;/math&gt;'' after data fitting has been performed. (The letter '''&lt;math&gt;\tau&lt;/math&gt;''' is used to avoid confusion with ''&lt;math&gt;t&lt;/math&gt;''  before and sampling during polynomial least squares processing.) The overbar ( ¯ ) defines the deterministic centroid of &lt;math&gt;u_n&lt;/math&gt;  as processed by polynomial least squares &lt;ref name="web reference 2"/&gt; – i.e., it defines the deterministic first order moment, which may be considered a sample average, but does not here approximate a first order statistical moment:
+
+: &lt;math&gt;\bar{u}\overset{\underset{\mathrm{def}}{}}{=}\frac {1} {N}\sum_{n=1} ^N u_n &lt;/math&gt;
+
+===Empirically determined statistical moments===
+Applying &lt;math&gt; w_n (\tau) &lt;/math&gt; yields
+
+: &lt;math&gt;\hat y(\tau)=\hat\alpha+\hat\beta \tau&lt;/math&gt;
+
+where
+
+: &lt;math&gt;\hat\alpha=\frac{(\bar{z}\bar{t^2}-\bar{zt}\bar{t})}{(\bar{t^2}-\bar{t}^2)}=\alpha+\frac{(\bar{\varepsilon}\bar{t^2}-\bar{{\varepsilon}t}\bar{t})}{(\bar{t^2}-\bar{t}^2)}&lt;/math&gt;
+
+and
+
+: &lt;math&gt;\hat\beta=\frac{(\bar{zt}-\bar{z}\bar{t})}{(\bar{t^2}-\bar{t}^2)}=\beta+\frac{(\bar{\varepsilon t}-\bar{\varepsilon}\bar{t})}{(\bar{t^2}-\bar{t}^2)}&lt;/math&gt;
+
+As linear functions of the random variables &lt;math&gt;\varepsilon_n &lt;/math&gt;, both coefficient estimates &lt;math&gt;\hat\alpha&lt;/math&gt; and &lt;math&gt;\hat\beta&lt;/math&gt; are random variables.&lt;ref name="web reference 2"/&gt; In the absence of the errors &lt;math&gt;\varepsilon_n&lt;/math&gt;, &lt;math&gt;\hat\alpha=\alpha&lt;/math&gt; and &lt;math&gt;\hat\beta=\beta&lt;/math&gt;, as they should to meet that boundary condition.
+
+Because the statistical expectation operator E[•] is a linear function and the sampled stochastic process errors &lt;math&gt;\varepsilon_n&lt;/math&gt;  are zero mean, the expected value of the estimate &lt;math&gt;\hat y&lt;/math&gt; is the first order statistical moment as follows:&lt;ref name="Gujarati"/&gt;&lt;ref name="Hansen"/&gt;&lt;ref name="Copeland"/&gt;&lt;ref name="web reference 2"/&gt;
+             
+: &lt;math&gt;E[\hat y (\tau)] =\alpha+\beta\tau+ \frac {1} {N}\sum_{n=1} ^N E[\varepsilon_n] w_n (\tau)= \alpha+\beta\tau =\alpha+\beta t &lt;/math&gt;
+
+The statistical variance in &lt;math&gt;\hat y&lt;/math&gt; is given by the second order statistical central moment as follows:&lt;ref name="Gujarati"/&gt;&lt;ref name="Hansen"/&gt;&lt;ref name="Copeland"/&gt;&lt;ref name="web reference 2"/&gt;              
+  	
+: &lt;math&gt;\sigma_\hat y ^2 = E[\left(\hat y-E[\hat y]\right)^2 ]= \frac {1} {N}\frac {1} {N}\sum_{n=1} ^N \sum_{i=1} ^N w_n (\tau) E[\varepsilon_n \varepsilon_i] w_i (\tau)&lt;/math&gt;
+&lt;math&gt;=\sigma_\varepsilon ^2 \frac {1} {N}\frac {1} {N}\sum_{n=1} ^N \sum_{i=1} ^N w_n ^2 (\tau)&lt;/math&gt;
+
+because 
+	
+: &lt;math&gt; \sum_{i=1} ^N E[\varepsilon_n \varepsilon_i] w_i (\tau)=\sigma_\varepsilon^2 w_n (\tau) &lt;/math&gt;
+
+where &lt;math&gt;\sigma_\varepsilon^2  &lt;/math&gt; is the statistical variance of random variables &lt;math&gt; \varepsilon_n &lt;/math&gt;; i.e.,  &lt;math&gt; E[\varepsilon_n \varepsilon_i]= \sigma_\varepsilon ^2  &lt;/math&gt;  for  ''i'' = ''n''  and (because &lt;math&gt; \varepsilon_n &lt;/math&gt;  are uncorrelated) &lt;math&gt; \sigma_\varepsilon ^2=0&lt;/math&gt;  for &lt;math&gt;i \ne n &lt;/math&gt; &lt;ref name="web reference 2"/&gt;
+
+Carrying out the multiplications and summations in &lt;math&gt;\sigma_\hat y^2&lt;/math&gt; yields&lt;ref name="web reference 2"/&gt;
+
+: &lt;math&gt;\sigma_\hat y^2=\sigma_\varepsilon^2\frac{(\bar{t^2}-2\bar{t}\tau+\tau^2)}{N(\bar{t^2}- \bar{t}^2)}.&lt;/math&gt;
+
+===Measuring or approximating the statistical variance of the random errors===
+
+In a hardware system, such as a tracking radar, the measurement noise variance  &lt;math&gt;\sigma_\varepsilon^2&lt;/math&gt; can be determined from measurements when there is no target return – i.e., by just taking measurements of the noise alone.
+
+However, if polynomial least squares is used when the variance &lt;math&gt;\sigma_\varepsilon^2&lt;/math&gt; is not measurable (such as in econometrics or statistics), it can be estimated with observations in &lt;math&gt;e_\min&lt;/math&gt; from orthogonal projection as follows:
+
+:&lt;math&gt;\sigma_\varepsilon^2\approx\hat {\sigma_\varepsilon^2}= (\bar {z^2}-\hat\alpha\bar{z} - \hat \beta \bar{zt})&lt;/math&gt; &lt;ref name="web reference 2"/&gt;
+				
+As a result, to the first order approximation from the estimates &lt;math&gt;\hat\alpha &lt;/math&gt; and &lt;math&gt; \hat\beta&lt;/math&gt; as functions of sampled &lt;math&gt;z &lt;/math&gt; and &lt;math&gt; t&lt;/math&gt;
+	
+: &lt;math&gt;\sigma_\hat y^2 \approx \bigg[\frac{(\bar{z^2}-\bar{z}^2)}{(\bar{t^2}-\bar{t}^2)}- \Biggl(\frac{(\bar{zt}-\bar{z}\bar{t})}{(\bar{t^2}-\bar{t})}\Biggl)^2 \bigg]{\frac{(\bar{t^2}-2\bar{t}\tau+\tau^2)}N}&lt;/math&gt;
+
+which goes to zero in the absence of the errors &lt;math&gt;\varepsilon_n &lt;/math&gt;, as it should to meet that boundary condition.&lt;ref name="web reference 2"/&gt;
+
+As a result, the samples &lt;math&gt; z_n&lt;/math&gt; (noisy signal) are considered to be the input to the linear polynomial least squares "system" which transforms the samples into the empirically determined statistical estimate  &lt;math&gt; \hat y (\tau)&lt;/math&gt;, the expected value  &lt;math&gt;E[\hat y] &lt;/math&gt;, and the variance &lt;math&gt;\sigma_\hat y^2 &lt;/math&gt;.&lt;ref name="web reference 2"/&gt;
+
+==Properties of polynomial least squares modeled as a linear "system"==
+
+(1) The empirical statistical variance &lt;math&gt;\sigma_\hat y^2 &lt;/math&gt; is a function of &lt;math&gt;\sigma_\varepsilon ^2 &lt;/math&gt;, ''N'' and  &lt;math&gt;\tau&lt;/math&gt;. Setting the derivative of  &lt;math&gt;\sigma_\hat y^2 &lt;/math&gt;  with respect to  &lt;math&gt;\tau&lt;/math&gt; equal to zero shows the minimum to occur at  &lt;math&gt;\tau=\bar t&lt;/math&gt;; i.e., at the centroid (sample average) of the samples &lt;math&gt;t_n &lt;/math&gt;. The minimum statistical variance thus becomes  &lt;math&gt;\frac{\sigma_\varepsilon ^2 } {N} &lt;/math&gt;. This is equivalent to the statistical variance from polynomial least squares of a zero degree polynomial – i.e., of the centroid (sample average) of &lt;math&gt;\alpha &lt;/math&gt;.&lt;ref name="Gujarati"/&gt;&lt;ref name="Hansen"/&gt;&lt;ref name="web reference 2"/&gt;
+&lt;ref name="Papoulis"/&gt;
+ 
+(2) The empirical statistical variance  &lt;math&gt;\sigma_\hat y^2 &lt;/math&gt; is a function of the quadratic &lt;math&gt;\tau^2&lt;/math&gt; . Moreover, the further  &lt;math&gt;\tau&lt;/math&gt; deviates from  &lt;math&gt;\bar t&lt;/math&gt; (even within the data window), the larger is the variance &lt;math&gt;\sigma_\hat y^2 &lt;/math&gt;   due to the random variable errors &lt;math&gt;\varepsilon_n &lt;/math&gt; . The independent variable  &lt;math&gt;\tau&lt;/math&gt; can take any value on the  &lt;math&gt;t&lt;/math&gt; axis. It is not limited to the data window. It can extend beyond the data window – and likely will at times depending on the application. If it is within the data window, estimation is described as interpolation. If it is outside the data window, estimation is described as extrapolation. It is both intuitive and well known that the further is extrapolation, the larger is the error.&lt;ref name="web reference 2"/&gt;
+
+(3) The empirical statistical variance  &lt;math&gt;\sigma_\hat y^2 &lt;/math&gt; due to the random variable errors &lt;math&gt;\varepsilon_n &lt;/math&gt;  is inversely proportional to  ''N''. As  ''N'' increases, the statistical variance decreases. This is well known and what filtering out the errors   &lt;math&gt; \varepsilon_n&lt;/math&gt; is all about.&lt;ref name="Gujarati"/&gt;&lt;ref name="Hansen"/&gt;&lt;ref name="web reference 2"/&gt;&lt;ref name="web reference 3"&gt;[[Ordinary least squares]]&lt;/ref&gt; The underlying purpose of polynomial least squares is to filter out the errors to improve estimation accuracy by reducing the empirical statistical estimation variance. In reality, only two data points are required to estimate  &lt;math&gt;\alpha &lt;/math&gt; and &lt;math&gt;\beta &lt;/math&gt;; albeit the more data points with zero mean statistical errors included, the smaller is the empirical statistical estimation variance as established by ''N'' samples.
+ 
+(4) There is an additional issue to be considered when the noise variance is not measurable: Independent of the polynomial least squares estimation, any new observations would be described by the variance &lt;math&gt;\sigma_\varepsilon^2\approx\hat {\sigma_\varepsilon^2}= (\bar {z^2}-\hat\alpha\bar{z} - \hat \beta \bar{zt})&lt;/math&gt;.&lt;ref name="web reference 2"/&gt;&lt;ref name="Papoulis"/&gt;
+ 
+Thus, the polynomial least squares statistical estimation variance &lt;math&gt;\sigma_\hat y^2 &lt;/math&gt; and the statistical variance of any new sample in  &lt;math&gt;\sigma_\varepsilon ^2 &lt;/math&gt; would both contribute to the uncertainty of any future observation. Both variances are clearly determined by polynomial least squares in advance.
+
+(5) This concept also applies to higher degree polynomials. However, the weighting function  &lt;math&gt; w_n (\tau) &lt;/math&gt; is obviously more complicated. In addition, the estimation variances increase exponentially as polynomial degrees increase linearly (i.e., in unit steps). However, there are ways of dealing with this as described in.&lt;ref name="Bell1"/&gt;&lt;ref name="Bell2"/&gt;
+
+==The synergy of integrating polynomial least squares with statistical estimation theory==
+Modeling polynomial least squares as a linear signal processing "system" creates the synergy of integrating polynomial least squares with statistical estimation theory to deterministically process samples of an assumed polynomial corrupted with a statistically described stochastic error ε. In the absence of the error ε, statistical estimation theory is irrelevant and polynomial least squares reverts to the conventional approximation of complicated functions and scatter plots.
+
+== See also ==
+* [[Multi-fractional order estimator]]
+
+==References==
+{{reflist}}
+
+[[Category:Least squares]]</text>
+      <sha1>nv0gc8awkuv3gh4tqfwdp5669zfpk7d</sha1>
+    </revision>
+  </page>
+</mediawiki>

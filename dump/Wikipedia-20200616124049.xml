@@ -1,0 +1,151 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.10/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.10/ http://www.mediawiki.org/xml/export-0.10.xsd" version="0.10" xml:lang="en">
+  <siteinfo>
+    <sitename>Wikipedia</sitename>
+    <dbname>enwiki</dbname>
+    <base>https://en.wikipedia.org/wiki/Main_Page</base>
+    <generator>MediaWiki 1.35.0-wmf.36</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Media</namespace>
+      <namespace key="-1" case="first-letter">Special</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Talk</namespace>
+      <namespace key="2" case="first-letter">User</namespace>
+      <namespace key="3" case="first-letter">User talk</namespace>
+      <namespace key="4" case="first-letter">Wikipedia</namespace>
+      <namespace key="5" case="first-letter">Wikipedia talk</namespace>
+      <namespace key="6" case="first-letter">File</namespace>
+      <namespace key="7" case="first-letter">File talk</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki talk</namespace>
+      <namespace key="10" case="first-letter">Template</namespace>
+      <namespace key="11" case="first-letter">Template talk</namespace>
+      <namespace key="12" case="first-letter">Help</namespace>
+      <namespace key="13" case="first-letter">Help talk</namespace>
+      <namespace key="14" case="first-letter">Category</namespace>
+      <namespace key="15" case="first-letter">Category talk</namespace>
+      <namespace key="100" case="first-letter">Portal</namespace>
+      <namespace key="101" case="first-letter">Portal talk</namespace>
+      <namespace key="108" case="first-letter">Book</namespace>
+      <namespace key="109" case="first-letter">Book talk</namespace>
+      <namespace key="118" case="first-letter">Draft</namespace>
+      <namespace key="119" case="first-letter">Draft talk</namespace>
+      <namespace key="446" case="first-letter">Education Program</namespace>
+      <namespace key="447" case="first-letter">Education Program talk</namespace>
+      <namespace key="710" case="first-letter">TimedText</namespace>
+      <namespace key="711" case="first-letter">TimedText talk</namespace>
+      <namespace key="828" case="first-letter">Module</namespace>
+      <namespace key="829" case="first-letter">Module talk</namespace>
+      <namespace key="2300" case="first-letter">Gadget</namespace>
+      <namespace key="2301" case="first-letter">Gadget talk</namespace>
+      <namespace key="2302" case="case-sensitive">Gadget definition</namespace>
+      <namespace key="2303" case="case-sensitive">Gadget definition talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Dagger (typography)</title>
+    <ns>0</ns>
+    <id>59161</id>
+    <revision>
+      <id>958343183</id>
+      <parentid>958269516</parentid>
+      <timestamp>2020-05-23T08:05:27Z</timestamp>
+      <contributor>
+        <username>John Maynard Friedman</username>
+        <id>248739</id>
+      </contributor>
+      <comment>/* History */Removed an off-topic paragraph about the status of the division sign as an Obelus, per [[wp:fork]], as it belongs in the Obelus article if not already there. But it doesn't belong here.</comment>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="23722" xml:space="preserve">{{short description|Symbol indicating a footnote, typically after an asterisk has already been used}}
+{{Redirect2|Double dagger|†|the punk rock band|Double Dagger|the album by Justice|Cross (Justice album)}}
+{{Redirect|Dagger character||Dagger (disambiguation)}}
+{{Redirect-distinguish|‡|ǂ|≠|キ}}
+{{special characters}}
+{{Infobox symbol
+|mark=† ‡
+|name=Dagger
+|other_names= obelisk, obelus
+|unicode={{unichar|2020|dagger|html=}} &lt;br /&gt; {{unichar|2021|double dagger|html=}}
+|see also={{unichar|2E4B|triple dagger|html=}}
+|different from = {{unichar|271D|Latin cross|html= | nlink= }}&lt;br /&gt;{{unichar|2628|Cross of Lorraine|html= | nlink= }}&lt;br /&gt;
+}}
+
+A '''dagger''', '''obelisk''', or '''obelus''' {{char|†}} is a [[glyph|typographical symbol]] that usually indicates a [[footnote]] if an [[asterisk]] has already been used.&lt;ref name="partridge"/&gt;  It is one of the modern descendants of  the [[obelus]], a mark used historically by scholars as a critical or highlighting indicator in manuscripts. (The term [[obelisk]] derives from the {{lang-grc-gre|ὀβελίσκος}} (''{{transl|grc|obeliskos}}''), which means "little obelus"; from {{lang|grc|ὀβελός}} (''{{transl|grc|obelos}}'') meaning 'roasting spit).&lt;ref name="Oxford"&gt;{{cite web|url=http://oxforddictionaries.com/definition/obelus?region=us|title=obelus|publisher=Oxford Dictionaries Online|date=April 2010}}&lt;/ref&gt;
+
+A '''double dagger''' or '''diesis''' {{char|‡}} is a variant with two handles that usually marks a third footnote after the asterisk and dagger.&lt;ref name="H&amp;F"/&gt; 
+
+The '''triple dagger''' {{char|⹋}} is a variant with three handles and is used by [[Medieval studies|medievalists]] to indicate another level of notation.&lt;ref name="L215327"&gt;{{cite web |url=https://www.unicode.org/L2/L2015/15327r-n4704-medieval-punct.pdf |title=Proposal to add Medievalist punctuation characters to the UCS |date=25 January 2016 |access-date=24 March 2018 |archive-url=https://web.archive.org/web/20171215055421/http://unicode.org/L2/L2015/15327r-n4704-medieval-punct.pdf |archive-date=15 December 2017 |url-status=live |df=dmy-all }}&lt;/ref&gt;
+
+==History==
+{{Main|Obelus}}{{See also|Obelism}}
+The dagger symbol originated from a variant of the [[obelus]], originally depicted by a plain line {{char|−}} or a line with one or two dots {{char|÷}}.&lt;ref name="merriamw"&gt;{{cite book|title =Merriam-Webster's collegiate dictionary|publisher =Merriam-Webster, Inc|year =2003|page=[https://archive.org/details/merriamwebstersc00merr_6/page/855 855]|isbn =978-0-87779-809-5|url =https://archive.org/details/merriamwebstersc00merr_6|url-access =registration|quote =obelos.}}&lt;/ref&gt; It represented an iron roasting spit, a dart, or the  sharp end of a [[javelin]],&lt;ref name="ainsw"&gt;{{cite book|editor=William Harrison Ainsworth|title =The New monthly magazine|publisher =Chapman and Hall|volume=125|year =1862|page=1|url =https://books.google.com/books?id=PycaAQAAIAAJ&amp;dq=obelos&amp;pg=PA1#v=onepage&amp;q&amp;f=false}}&lt;/ref&gt; symbolizing the skewering or cutting out of dubious matter.&lt;ref name="scanlin"/&gt;&lt;ref name="enc"/&gt;&lt;ref name="hamann"/&gt;
+
+[[File:Obelos.png|left|thumb|Three variants of obelus glyphs]]
+The obelus is believed to have been invented by the [[Homeric scholarship|Homeric scholar]] [[Zenodotus]] as one of a system of editorial symbols. They marked questionable or corrupt words or passages in manuscripts of the [[Homeric epics]].&lt;ref name="Oxford"/&gt;&lt;ref name="scanlin"&gt;{{cite book|author=Harold P. Scanlin|editor=Alison Salvesen|title =Origen's Hexapla and fragments: papers presented at the Rich Seminar on the Hexapla, Oxford Centre for Hebrew and Jewish Studies, 25th-3rd August|publisher =Mohr Siebeck|year =1998|page=439|chapter=A New Edition of Origen's Hexapla: How It Might Be Done|isbn =978-3-16-146575-8|chapter-url =https://books.google.com/books?id=9xQDu27_HEIC&amp;lpg=PA439&amp;dq=metobelos&amp;pg=PA439#v=onepage&amp;q&amp;f=false}}&lt;/ref&gt; The system was further refined by his student [[Aristophanes of Byzantium]], who first introduced the [[asterisk]] and used a symbol resembling a {{char|⊤}} for an obelus; and finally by Aristophanes' student, in turn, [[Aristarchus of Samothrace|Aristarchus]], from whom they earned the name of "[[Aristarchian symbols]]".&lt;ref name="wegner"&gt;{{cite book|author=Paul D. Wegner|title =A student's guide to textual criticism of the Bible|publisher =InterVarsity Press|year =2006|page=194|isbn =978-0-19-814747-3|url =https://books.google.com/books?id=SIMsY6b2n2gC&amp;lpg=PA193&amp;dq=obelos&amp;pg=PA192#v=onepage&amp;q&amp;f=false}}&lt;/ref&gt;&lt;ref name="grube"&gt;{{cite book|author=George Maximilian Anthony Grube|title =The Greek and Roman critics|publisher =Hackett Publishing|year =1965|page=128|isbn =978-0-87220-310-5|url =https://books.google.com/books?id=jerucRW8UmMC&amp;lpg=PA128&amp;dq=obelos&amp;pg=PA128#v=onepage&amp;q&amp;f=false}}&lt;/ref&gt;
+
+While the asterisk (''asteriscus'') was used for corrective additions, the obelus was used for corrective deletions of invalid reconstructions.&lt;ref name="BHS"&gt;{{cite book|title =A Simplified Guide to BHS|chapter =BHS Critical Apparatus|chapter-url =http://www.ericlevy.com/Revel/Cosmogony/Guide%20to%20BHS%20Critical%20Aparatus.PDF|access-date =2011-08-27|archive-url =https://web.archive.org/web/20110124183105/http://www.ericlevy.com/Revel/Cosmogony/Guide%20to%20BHS%20Critical%20Aparatus.PDF|archive-date =2011-01-24|url-status =live}}&lt;/ref&gt; It was used when non-attested words are reconstructed for the sake of argument only, implying that the author did not believe such a word or word form had ever existed. Some scholars used the obelus and various other critical symbols, in conjunction with a second symbol known as the ''metobelos'' ("end of obelus"),&lt;ref name="metobelus"&gt;{{cite web|url=http://www.newadvent.org/cathen/07316a.htm|title=Hexapla|publisher=The Catholic Encyclopedia|accessdate=August 27, 2011|archive-url=https://web.archive.org/web/20110904013754/http://www.newadvent.org/cathen/07316a.htm|archive-date=September 4, 2011|url-status=live|df=mdy-all}}&lt;/ref&gt; variously represented as two vertically arranged dots, a {{char|γ}}-like symbol, a mallet-like symbol, or a diagonal slash (with or without one or two dots). They indicated the end of a marked passage.&lt;ref name="wurth"&gt;{{cite book|author=Ernst Würthwein|title =The text of the Old Testament: an introduction to the Biblia Hebraica|publisher =Wm. B. Eerdmans Publishing|year =1995|page=58|isbn =978-0-8028-0788-5|url =https://books.google.com/books?id=FSNKSBObCYwC&amp;lpg=PA58&amp;dq=metobelos&amp;pg=PA58#v=onepage&amp;q&amp;f=false}}&lt;/ref&gt;&lt;ref name="nazaroo"&gt;{{cite web|url=http://pericopedeadultera.com/TEXT/diacrit.html |title=The Meaning of the Markings, Critical Marks and Marginal Notes: Their True Significance |date=February 19, 2009 |publisher=The Nazaroo Files |accessdate=August 27, 2011 |url-status=dead |archiveurl=https://web.archive.org/web/20120311183635/http://pericopedeadultera.com/TEXT/diacrit.html |archivedate=March 11, 2012 }}&lt;/ref&gt;
+
+It was used much in the same way by later scholars to mark differences between various translations or versions of the [[Bible]] and other manuscripts.&lt;ref name="garrison"&gt;{{cite book|author= Daniel H. Garrison|title =The student's Catullus|year =2004|publisher=University of Oklahoma Press|page=184|isbn =978-0-8061-3635-6|url =https://books.google.com/books?id=ESLZMFuTlDYC&amp;lpg=PA184&amp;dq=obelus%20dagger&amp;pg=PA184#v=onepage&amp;q&amp;f=false}}&lt;/ref&gt; The [[early Christian]] [[Alexandria]]n scholar [[Origen]] (c. 184–253 AD) used it to indicate differences between different versions of the [[Old Testament]] in his ''[[Hexapla]]''.&lt;ref name="wegner"/&gt;&lt;ref name="metobelus"/&gt;&lt;ref name="jones"&gt;{{cite book|author=R. Grant Jones|title=Notes on the Septuagint|year=2000|chapter=The Septuagint in Early Christian Writings|page=4|chapter-url=http://www.ixoyc.net/data/Fathers/531.pdf|access-date=2011-08-27|archive-url=https://web.archive.org/web/20110813025341/http://ixoyc.net/data/Fathers/531.pdf|archive-date=2011-08-13|url-status=live}}&lt;/ref&gt; [[Epiphanius of Salamis]] (c. 310–320 – 403) used both a horizontal slash or hook (with or without dots) and an upright and slightly slanting dagger to represent an obelus. [[Jerome|St. Jerome]] (c. 347–420) used a simple horizontal slash for an obelus, but only for passages in the Old Testament.&lt;ref name="nazaroo"/&gt;&lt;ref name="smith&amp;wace"&gt;{{cite book|editor1=William Smith |editor2=Henry Wace |title =A Dictionary pf Christian Biography, Literature, Sects and Doctrines; During the First Eight Centuries. Being A Continuation of 'The Dictionary of the Bible'|volume=Volume III. Hermogenes&amp;ndash;Myensis|publisher =John Murray|year =1882|url =https://archive.org/details/p1dictionaryofch03smituoft}}&lt;/ref&gt; He describes the use of the asterisk and the dagger as: "an asterisk makes a light shine, the obelisk cuts and pierces".&lt;ref name="hamann"&gt;{{cite book|author1=Johann Georg Hamann |author2=Kenneth Haynes |title =Writings on philosophy and language|year =2007|publisher=Cambridge University Press|page=[https://archive.org/details/writingsonphilos0000hama/page/94 94]|isbn =978-0-19-920246-1|url =https://archive.org/details/writingsonphilos0000hama|url-access=registration |quote=obelus dagger. }}&lt;/ref&gt;
+
+[[Isidore of Seville]] (c. 560–636) described the use of the symbol as follows: "The obelus is appended to words or phrases uselessly repeated, or else where the passage involves a false reading, so that, like the arrow, it lays low the superfluous and makes the errors disappear&amp;nbsp;... The obelus accompanied by points is used when we do not know whether a passage should be suppressed or not."&lt;ref name="enc"&gt;{{cite book|author=Richard Barrie Dobson|title =Encyclopedia of the Middle Ages, Volume 2|publisher =Routledge|year =2000|page=1038|isbn =978-1-57958-282-1|url =https://books.google.com/books?id=om4olQhrE84C&amp;lpg=PA1038&amp;dq=obelus%20death&amp;pg=PA1038#v=onepage&amp;q&amp;f=false}}&lt;/ref&gt;
+
+Medieval scribes used the symbols extensively for critical markings of manuscripts.&lt;ref name="nazaroo"/&gt; In addition to this, the dagger was also used in notations in early [[Christianity]], to indicate a minor intermediate pause in the [[chanting]] of [[Psalms]], equivalent to the [[quaver rest]] notation or the trope symbol in [[Hebrew cantillation]]. It also indicates a breath mark when reciting, along with the asterisk, and is thus frequently seen beside a [[comma]].&lt;ref name="fenlon"&gt;{{cite book|editor= Iain Fenlon|author1=Kay Kaufman Shelemay |author2=Peter Jeffery |author3=Ingrid Monson  |last-author-amp=yes |title =Early Music History: Studies in Medieval and Early Modern Music|year =1994|chapter= Oral and written transmission in Ethiopian Christian chant|publisher=Cambridge University Press|page=81|isbn =978-0-521-45180-2|chapter-url =https://books.google.com/books?id=Xt9FzmdCdskC&amp;lpg=PA81&amp;dq=obelus%20dagger&amp;pg=PA81#v=onepage&amp;q&amp;f=false}}&lt;/ref&gt;&lt;ref name="seiyaku"&gt;{{cite web|url=http://www.seiyaku.com/customs/crosses/obelisk.html|title=Obelisk, Obelus, Dagger|publisher=seiyaku.com|accessdate=August 26, 2011|archive-url=https://web.archive.org/web/20110929075757/http://www.seiyaku.com/customs/crosses/obelisk.html|archive-date=September 29, 2011|url-status=live|df=mdy-all}}&lt;/ref&gt;
+
+In the 16th century, the printer and scholar [[Robert Estienne]] (also known as Stephanus in [[Latin]] and Stephens in English) used it to mark differences in the words or passages between different printed versions of the Greek [[New Testament]]  (''[[Textus Receptus]]'').&lt;ref name="martin"&gt;{{cite book|author=David Martin (French divine)|title =A critical dissertation upon the seventh verse of the fifth chapter of St. John's First Epistle: there are three that bear record in Heaven, &amp;c. : wherein the authentickness of this text is fully prov'd against the objections of Mr. Simon and the modern Arians|publisher =Printed for William and John Innys|chapter=Chap. X. Of the Obelus and Semicircle, the passage of St. John is mark'd with in Stephen's Edition|year =1719|page=65|chapter-url =https://books.google.com/books?id=4tlbAAAAQAAJ&amp;dq=obelus&amp;pg=PA65#v=onepage&amp;q=obelus&amp;f=false|author-link =David Martin (French divine)}}&lt;/ref&gt;
+
+Due to the variations as to the different uses of the different forms of the obelus, there is some controversy as to which symbols can actually be considered an obelus. The {{char|⨪}} symbol and its variant, the {{char|÷}}, is sometimes considered to be different from other obeli. The term 'obelus' may have referred strictly only to the horizontal slash and the dagger symbols.&lt;ref name="nazaroo"/&gt;
+
+== Modern usage ==
+The dagger usually indicates a [[footnote]] if an asterisk has already been used.&lt;ref name="partridge"/&gt; A third footnote employs the double dagger.&lt;ref name="H&amp;F"&gt;{{cite web|url=http://www.typography.com/ask/showBlog.php?blogID=190|author=Hoefler, Jonathan|title=House of Flying Reference Marks, or Quillon &amp; Choil|publisher=Hoefler &amp; Frere-Jones|date=4 June 2009|authorlink=Jonathan Hoefler|access-date=6 April 2010|archive-url=https://web.archive.org/web/20100205102319/http://typography.com/ask/showBlog.php?blogID=190|archive-date=5 February 2010|url-status=live|df=dmy-all}}&lt;/ref&gt; Additional footnotes are somewhat inconsistent and represented by a variety of symbols, e.g., [[vertical bar|parallels]] ( {{larger|‖}} ), [[section sign]] {{char|§}}, and the [[pilcrow]] {{char|¶}}{{snd}} some of which were nonexistent in early modern [[typography]]. Partly because of this, [[superscript]] [[numeral system|numeral]]s have increasingly been used in modern literature in the place of these symbols, especially when several footnotes are required. Some texts use asterisks and daggers alongside superscripts, using the former for per-page footnotes and the latter for [[endnote]]s.
+
+The dagger is also used to indicate [[death]],&lt;ref name="H&amp;F"/&gt;&lt;ref name="reynolds"/&gt; [[extinction]],&lt;ref name="tudge"/&gt; or [[obsolescence]].&lt;ref name="partridge"&gt;{{cite book|author= Eric Partridge|title =You Have a Point There: A Guide to Punctuation and Its Allies|year =2004|publisher=Routledge|page=235|isbn =978-0-203-37992-9|url =https://books.google.com/books?id=OudW3l2IoPUC&amp;lpg=PA235&amp;dq=obelus%20dagger&amp;pg=PA235#v=onepage&amp;q&amp;f=false}}&lt;/ref&gt;&lt;ref name="oedguide"/&gt; The asterisk and the dagger, when placed beside years, indicate year of birth and year of death respectively.&lt;ref name="H&amp;F"/&gt; This usage is particularly common in German. When placed immediately before or after a person's name, the dagger indicates that the person is deceased.&lt;ref name="H&amp;F"/&gt;&lt;ref name="knowles"&gt;{{cite book|author= Elizabeth Knowles|title =Oxford dictionary of phrase and fable|year =2006|publisher=Oxford University Press|isbn =978-0-19-920246-1|url =https://books.google.com/books?id=r2KIvsLi-2kC&amp;lpg=PT1104&amp;dq=obelus%20dagger&amp;pg=PT1104#v=onepage&amp;q&amp;f=false}}&lt;/ref&gt;&lt;ref name="campbell"&gt;{{cite book|author=Alastair Campbell|title =The digital designer's jargon buster|year =2004|publisher=The Ilex Press Ltd|page=84|isbn =978-1-904705-35-2|url =https://books.google.com/books?id=URyQM0btTbIC&amp;lpg=PT87&amp;dq=obelus%20dagger&amp;pg=PT87#v=onepage&amp;q&amp;f=false}}&lt;/ref&gt;&lt;ref name="lennard"&gt;{{cite book|editor=John Lennard|title =The poetry handbook: a guide to reading poetry for pleasure and practical criticism|publisher =Oxford University Press|year =2005|page=140|chapter=Punctuation|isbn =978-0-19-926538-1|chapter-url =https://books.google.com/books?id=0eRtOqjNMxEC&amp;lpg=PA140&amp;dq=obelus%20death&amp;pg=PA140#v=onepage&amp;q&amp;f=false}}&lt;/ref&gt; In this usage, it is referred to as the "death dagger".&lt;ref name="aps"&gt;{{cite web|url=http://www.apsstylemanual.org/oldmanual/parts/authors.htm|title=Author Line|publisher=The APS Online Style Manual|accessdate=August 26, 2011|archive-url=https://web.archive.org/web/20120331065709/http://www.apsstylemanual.org/oldmanual/parts/authors.htm|archive-date=March 31, 2012|url-status=live|df=mdy-all}}&lt;/ref&gt; In the ''[[Oxford English Dictionary]]'', the dagger symbol indicates an obsolete word.&lt;ref name="oedguide"&gt;{{cite web|url=http://www.oed.com/public/oed3guide|title=Guide to the Third Edition of the OED|publisher=Oxford University Press|accessdate=August 26, 2011|archive-url=https://web.archive.org/web/20110830221219/http://www.oed.com/public/oed3guide|archive-date=August 30, 2011|url-status=live|df=mdy-all}}&lt;/ref&gt;
+
+The dagger should not be confused with the [[Unicode]] characters "[[Latin cross]]" ([[✝]], U+271D), "[[Box drawing characters|box drawings light vertical and horizontal]]" ({{char|┼}}, U+253C), and [[Cultural, political, and religious symbols in Unicode|other cross symbols]]. The double dagger should not be confused with the [[palatal click]] ({{IPAblink|ǂ}}, U+01C2), [[Canadian Aboriginal syllabics|Canadian Syllabics]] Woods-Cree Final Th ({{char|ᙾ}}, U+167E), the [[Cross of Lorraine]] ({{char|☨}}, U+2628), or the [[patriarchal cross]] ({{char|☦}}, U+2626).
+
+*In [[mathematics]] and, more often, [[physics]], a dagger denotes the [[Hermitian adjoint]] of an operator; for example, ''A''&lt;sup&gt;†&lt;/sup&gt; denotes the adjoint of ''A''.  This notation is sometimes replaced with an asterisk, especially in mathematics.  An operator is said to be Hermitian if ''A''&lt;sup&gt;†&lt;/sup&gt; = ''A''.&lt;ref&gt;{{MathWorld|title=Dagger|urlname=Dagger}}&lt;/ref&gt;
+*In [[textual criticism]] and in some editions of works written before the invention of printing, daggers enclose text that is believed not to be original.&lt;ref name="wegner"/&gt;
+*In [[biology]], the dagger next to a taxon name indicates that the [[taxon]] is [[Extinction|extinct]].,&lt;ref name="reynolds"&gt;{{cite book|author=John D. Reynolds|title =Handbook of fish biology and fisheries|publisher =Wiley-Blackwell|year =2002|page=108|isbn =978-0-632-05412-1|url =https://books.google.com/books?id=V0MWxaEaO00C&amp;lpg=PA108&amp;dq=dagger%20symbol%20extinction&amp;pg=PA108#v=onepage&amp;q&amp;f=false}}&lt;/ref&gt;&lt;ref name="tudge"&gt;{{cite book|author=Colin Tudge|title =The variety of life: a survey and a celebration of all the creatures that have ever lived|publisher =Oxford University Press|year =2000|page=93|chapter=Conventions for Naming Taxa|isbn =978-0-19-860426-6|chapter-url =https://books.google.com/books?id=YW-2gnuU0L0C&amp;lpg=PA93&amp;dq=dagger%20symbol%20extinction&amp;pg=PA93#v=onepage&amp;q&amp;f=false}}&lt;/ref&gt;&lt;ref name="hull"&gt;{{cite book|author=David L. Hull|title =Science as a process: an evolutionary account of the social and conceptual development of science|publisher =University of Chicago Press|year =1990|page=[https://archive.org/details/scienceasprocess0000hull_i6q1/page/254 254]|isbn =978-0-226-36051-5|url =https://archive.org/details/scienceasprocess0000hull_i6q1|url-access=registration|quote=dagger symbol extinction.}}&lt;/ref&gt; or when a [[Type (biology)|type material]] was destroyed.
+*In [[linguistics]], the dagger placed after a language name indicates an extinct language.
+*In [[cataloging]], a double dagger delimits [[MARC standards|MARC]] subfields.
+*In [[chess notation]], the dagger may be suffixed to a move to signify the move resulted in a check, and a double dagger denotes checkmate. This is a stylistic variation on the more common {{char|+}} ([[plus sign]]) for a check and {{char|#}} ([[number sign]]) for checkmate.
+*In [[chemistry]], the double dagger is used in chemical kinetics to indicate a [[transition state]] species.
+*In psychological statistics the dagger indicates that a difference between two figures is not [[Statistical significance|significant]] to a ''p''&lt;0.05 level, however is still considered a "trend" or worthy of note. Commonly this will be used for a p-value between 0.1 and 0.05.
+*On a [[cricket]] scorecard or team list, the dagger indicates the team's [[wicket-keeper]].&lt;ref&gt;{{cite web|url=http://www.espncricinfo.com/wc2007/engine/match/247499.html|title=Cricket Scorecard: 43rd Match, Super Eights: Australia v Sri Lanka at St George's|date=2007-04-16|publisher=[[ESPN]] Cricinfo|access-date=2015-03-19|archive-url=https://web.archive.org/web/20150404162555/http://www.espncricinfo.com/wc2007/engine/match/247499.html|archive-date=2015-04-04|url-status=live}}&lt;/ref&gt;
+*In [[military history]], a dagger is often placed next to the name of a commander who is [[killed in action]].{{Citation needed|date=April 2010}}
+*The asteroid [[37 Fides]], the last asteroid to be assigned an [[Astronomical symbols|astronomical symbol]] before the practice faded, was assigned the dagger.
+*In [[philology]],  the dagger indicates an obsolete form of a word or phrase.&lt;ref name="partridge"/&gt;
+*In the early printings of the King James Bible, a dagger indicates a literal translation of a word or phrase is to be found in the margin. When used the margin begins with an abbreviation (Heb. Gk. Chald. Lat.) for the original language.
+*In the [[Geneva Bible]], a double dagger indicates a literal translation of a word or phrase is to be found in the margin. When used the margin begins with an abbreviation (Heb. Gk. Chald. Lat.) for the original language.
+*In [[Anglican chant]] pointing, the dagger indicates a verse to be sung to the second part of the chant.
+*Some [[Logic|logicians]] use the dagger as an affirmation ('it is true that ...') operator.&lt;ref&gt;{{Cite journal|last=Beall|first=Jc|date=|title=Christ – a contradiction|journal=Journal of Analytic Theology|volume=7|pages=400–433|doi=10.12978/jat.2019-7.090202010411|doi-access=free}}&lt;/ref&gt;
+{{clear left}}
+[[Image:Daggers.svg|left|thumb|600px|Dagger and double-dagger symbols in a variety of [[font]]s, showing the differences between stylized and non-stylized characters. Fonts from left to right: [[DejaVu Sans]], [[Times New Roman]], [[LTC Remington Typewriter]], [[Garamond]], and [[Old English Text MT]]]]
+{{clear left}}
+
+While daggers are freely used in English-language texts, they are often avoided in other languages because of their similarity to the Christian cross.  In [[German language|German]], for example, daggers are commonly employed only to indicate a person's death or the extinction of a word, language, species or the like.&lt;ref&gt;Verein Herold, eds.: ''Genealogisches Handbuch bürgerlicher Familien'', vol. 5, 1897, [http://mbc.cyfrowemazowsze.pl/dlibra/docmetadata?id=3207 reprint 1912] {{Webarchive|url=https://web.archive.org/web/20170318085549/http://mbc.cyfrowemazowsze.pl/dlibra/docmetadata?id=3207 |date=2017-03-18 }} (Digitalisat of the Mazowiecka Biblioteka Cyfrowa)&lt;/ref&gt;
+
+==Encoding==
+*{{unichar|2020|DAGGER|html=|note=&lt;code&gt;Alt+0134&lt;/code&gt; in Windows or &lt;code&gt;option-t&lt;/code&gt; in macOS}}
+*{{unichar|2021|DOUBLE DAGGER|html=|note=&lt;code&gt;Alt+0135&lt;/code&gt; in Windows or &lt;code&gt;option-shift-7&lt;/code&gt; in macOS}}
+*{{unichar|2E36|DAGGER WITH LEFT GUARD}} - used in [[Alexander John Ellis]]'s "palaeotype" transliteration to indicate retracted pronunciation&lt;ref name="L209425"&gt;{{Cite web|url=https://www.unicode.org/L2/L2009/09425-n3740-turnedpunct.pdf|title=L2/09-425: Proposal to encode six punctuation characters in the UCS|date=2009-12-05|first=Michael|last=Everson|access-date=2018-03-24|archive-url=https://web.archive.org/web/20160407035642/http://www.unicode.org/L2/L2009/09425-n3740-turnedpunct.pdf|archive-date=2016-04-07|url-status=live}}&lt;/ref&gt;
+*{{unichar|2E37|DAGGER WITH RIGHT GUARD}} - used in Alexander John Ellis's "palaeotype" transliteration to indicate advanced pronunciation&lt;ref name="L209425"/&gt;
+*{{unichar|2E38|TURNED DAGGER}} - used in Alexander John Ellis's "palaeotype" transliteration to indicate retroflex pronunciation&lt;ref name="L209425"/&gt;
+*{{unichar|2E4B|TRIPLE DAGGER}} - A variant with three handles.&lt;ref name="L215327"/&gt;
+
+==See also==
+*[[Annotation]]
+*[[Marginalia]]
+*[[Textual criticism]]
+{{Clear}}
+
+==References==
+{{reflist|2}}
+{{navbox punctuation}}
+[[Category:Punctuation]]
+[[Category:Typographical symbols]]
+[[Category:Ancient Greek punctuation]]</text>
+      <sha1>lt4fdouc7jn8x11xfv2mwvcxx2ao35x</sha1>
+    </revision>
+  </page>
+</mediawiki>

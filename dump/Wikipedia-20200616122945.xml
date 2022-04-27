@@ -1,0 +1,181 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.10/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.10/ http://www.mediawiki.org/xml/export-0.10.xsd" version="0.10" xml:lang="en">
+  <siteinfo>
+    <sitename>Wikipedia</sitename>
+    <dbname>enwiki</dbname>
+    <base>https://en.wikipedia.org/wiki/Main_Page</base>
+    <generator>MediaWiki 1.35.0-wmf.36</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Media</namespace>
+      <namespace key="-1" case="first-letter">Special</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Talk</namespace>
+      <namespace key="2" case="first-letter">User</namespace>
+      <namespace key="3" case="first-letter">User talk</namespace>
+      <namespace key="4" case="first-letter">Wikipedia</namespace>
+      <namespace key="5" case="first-letter">Wikipedia talk</namespace>
+      <namespace key="6" case="first-letter">File</namespace>
+      <namespace key="7" case="first-letter">File talk</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki talk</namespace>
+      <namespace key="10" case="first-letter">Template</namespace>
+      <namespace key="11" case="first-letter">Template talk</namespace>
+      <namespace key="12" case="first-letter">Help</namespace>
+      <namespace key="13" case="first-letter">Help talk</namespace>
+      <namespace key="14" case="first-letter">Category</namespace>
+      <namespace key="15" case="first-letter">Category talk</namespace>
+      <namespace key="100" case="first-letter">Portal</namespace>
+      <namespace key="101" case="first-letter">Portal talk</namespace>
+      <namespace key="108" case="first-letter">Book</namespace>
+      <namespace key="109" case="first-letter">Book talk</namespace>
+      <namespace key="118" case="first-letter">Draft</namespace>
+      <namespace key="119" case="first-letter">Draft talk</namespace>
+      <namespace key="446" case="first-letter">Education Program</namespace>
+      <namespace key="447" case="first-letter">Education Program talk</namespace>
+      <namespace key="710" case="first-letter">TimedText</namespace>
+      <namespace key="711" case="first-letter">TimedText talk</namespace>
+      <namespace key="828" case="first-letter">Module</namespace>
+      <namespace key="829" case="first-letter">Module talk</namespace>
+      <namespace key="2300" case="first-letter">Gadget</namespace>
+      <namespace key="2301" case="first-letter">Gadget talk</namespace>
+      <namespace key="2302" case="case-sensitive">Gadget definition</namespace>
+      <namespace key="2303" case="case-sensitive">Gadget definition talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Test statistic</title>
+    <ns>0</ns>
+    <id>1416975</id>
+    <revision>
+      <id>940887681</id>
+      <parentid>936936080</parentid>
+      <timestamp>2020-02-15T06:56:33Z</timestamp>
+      <contributor>
+        <ip>103.133.64.237</ip>
+      </contributor>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="12776" xml:space="preserve">
+A '''test statistic''' is a [[statistic]] (a quantity derived from the [[Sample (statistics)|sample]]) used in [[statistical hypothesis testing]].&lt;ref name="CasellaBerger"&gt;Berger, R. L.; Casella, G. (2001). ''Statistical Inference'', Duxbury Press, Second Edition (p.374)&lt;/ref&gt; A hypothesis test is typically specified in terms of a test statistic, considered as a numerical summary of a data-set that reduces the data to one value that can be used to perform the hypothesis test.  In general, a test statistic is selected or defined in such a way as to quantify, within observed data, behaviours that would distinguish the [[null hypothesis|null]] from the [[alternative hypothesis]], where such an alternative is prescribed, or that would characterize the null hypothesis if there is no explicitly stated alternative hypothesis.
+
+An important property of a test statistic is that its [[sampling distribution]] under the null hypothesis must be calculable, either exactly or approximately, which allows [[p-value|''p''-values]] to be calculated. A ''test statistic'' shares some of the same qualities of a [[descriptive statistics|descriptive statistic]], and many statistics can be used as both test statistics and descriptive statistics. However, a test statistic is specifically intended for use in statistical testing, whereas the main quality of a descriptive statistic is that it is easily interpretable. Some informative descriptive statistics, such as the [[range (statistics)|sample range]], do not make good test statistics since it is difficult to determine their sampling distribution.
+
+Two widely used test statistics are the [[t-statistic]] and the [[F-test]].
+
+==Example==
+For example, suppose the task is to test whether a coin is fair (i.e. has equal probabilities of producing a head or a tail).  If the coin is flipped 100 times and the results are recorded, the raw data can be represented as a sequence of 100 heads and tails.  If there is interest in the [[marginal distribution|marginal]] probability of obtaining a head, only the number ''T'' out of the 100 flips that produced a head needs to be recorded. But ''T'' can also be used as a test statistic in one of two ways:
+*the exact [[sampling distribution]] of ''T'' under the null hypothesis is the [[binomial distribution]] with parameters 0.5 and 100.
+*the value of ''T'' can be compared with its expected value under the null hypothesis of 50, and since the sample size is large, a [[normal distribution]] can be used as an approximation to the sampling distribution either for ''T'' or for the revised test statistic ''T''&amp;minus;50.
+
+Using one of these sampling distributions, it is possible to compute either a [[two-tailed test|one-tailed or two-tailed]] p-value for the null hypothesis that the coin is fair. Note that the test statistic in this case reduces a set of 100 numbers to a single numerical summary that can be used for testing.
+
+==Common test statistics==
+'''One-sample tests''' are appropriate when a sample is being compared to the population from a hypothesis. The population characteristics are known from theory or are calculated from the population.
+
+'''Two-sample tests''' are appropriate for comparing two samples, typically experimental and control samples from a scientifically controlled experiment.
+
+'''Paired tests''' are appropriate for comparing two samples where it is impossible to control important variables. Rather than comparing two sets, members are paired between samples so the difference between the members becomes the sample. Typically the mean of the differences is then compared to zero. The common example scenario for when a [[paired difference test]] is appropriate is when a single set of test subjects has something applied to them and the test is intended to check for an effect.
+
+[[Z-test]]s are appropriate for comparing means under stringent conditions regarding normality and a known standard deviation.
+
+A [[Student's t-test|''t''-test]] is appropriate for comparing means under relaxed conditions (less is assumed).
+
+Tests of proportions are analogous to tests of means (the 50% proportion).
+
+Chi-squared tests use the same calculations and the same probability distribution for different applications:
+* [[Chi-squared test]]s for variance are used to determine whether a normal population has a specified variance. The null hypothesis is that it does.
+* Chi-squared tests of independence are used for deciding whether two variables are associated or are independent. The variables are categorical rather than numeric. It can be used to decide whether [[left-handedness]] is correlated with [[Libertarianism|libertarian]] politics (or not). The null hypothesis is that the variables are independent. The numbers used in the calculation are the observed and expected frequencies of occurrence (from [[contingency table]]s).
+* Chi-squared goodness of fit tests are used to determine the adequacy of curves fit to data. The null hypothesis is that the curve fit is adequate. It is common to determine curve shapes to minimize the mean square error, so it is appropriate that the goodness-of-fit calculation sums the squared errors.
+
+[[F-test]]s (analysis of variance, ANOVA) are commonly used when deciding whether groupings of data by category are meaningful. If the variance of test scores of the left-handed in a class is much smaller than the variance of the whole class, then it may be useful to study lefties as a group. The null hypothesis is that two variances are the same – so the proposed grouping is not meaningful.
+
+In the table below, the symbols used are defined at the bottom of the table. Many other tests can be found in [[:Category:Statistical tests|other articles]]. Proofs exist that the test statistics are appropriate.&lt;ref name="Loveland"&gt;{{Cite thesis |type= M.Sc. (Mathematics) |title= Mathematical Justification of Introductory Hypothesis Tests and Development of Reference Materials |url=https://digitalcommons.usu.edu/gradreports/14 |last= Loveland |first= Jennifer L. |year= 2011 |publisher= Utah State University |accessdate= April 30, 2013}} Abstract: "The focus was on the Neyman–Pearson approach to hypothesis testing. A brief historical development of the Neyman–Pearson approach is followed by mathematical proofs of each of the hypothesis tests covered in the reference material." The proofs do not reference the concepts introduced by Neyman and Pearson, instead they show that traditional test statistics have the probability distributions ascribed to them, so that significance calculations assuming those distributions are correct. The thesis information is also posted at mathnstats.com as of April 2013.&lt;/ref&gt;
+
+{|class="wikitable"
+! Name
+! Formula
+! Assumptions or notes
+|-
+|One-sample [[z-test]]
+|align=center|&lt;math&gt;z=\frac{\overline{x}-\mu_0}{({\sigma}/\sqrt n)}&lt;/math&gt;
+|(Normal population '''or''' ''n'' &gt; 30) '''and''' σ known. &lt;br /&gt;
+(''z'' is the distance from the mean in relation to the standard deviation of the mean). For non-normal distributions it is possible to calculate a minimum proportion of a population that falls within ''k'' standard deviations for any ''k'' (see: ''[[Chebyshev's inequality]]'').
+|-
+|Two-sample z-test
+|align=center|&lt;math&gt;z=\frac{(\overline{x}_1 - \overline{x}_2) - d_0}{\sqrt{\frac{\sigma_1^2}{n_1} + \frac{\sigma_2^2}{n_2}}}&lt;/math&gt;
+|Normal population '''and''' independent observations '''and''' σ&lt;sub&gt;1&lt;/sub&gt; and σ&lt;sub&gt;2&lt;/sub&gt; are known
+|-
+|One-sample [[Student's t-test|''t''-test]]
+|align=center|&lt;math&gt;t=\frac{\overline{x}-\mu_0} {( s / \sqrt{n} )} ,&lt;/math&gt;&lt;br /&gt;
+&lt;math&gt;df=n-1 \ &lt;/math&gt;
+|(Normal population '''or''' ''n'' &gt; 30) '''and''' &lt;math&gt;\sigma&lt;/math&gt; unknown
+|-
+|Paired ''t''-test
+|align=center|&lt;math&gt;t=\frac{\overline{d}-d_0} { ( s_d / \sqrt{n} ) } ,&lt;/math&gt;&lt;br /&gt;
+&lt;math&gt;df=n-1 \ &lt;/math&gt;
+|(Normal population of differences '''or''' ''n'' &gt; 30) '''and''' &lt;math&gt;\sigma&lt;/math&gt; unknown
+|-
+|Two-sample pooled [[Student's t-test|''t''-test]], equal variances
+|align=center|&lt;math&gt;t=\frac{(\overline{x}_1 - \overline{x}_2) - d_0}{s_p\sqrt{\frac{1}{n_1} + \frac{1}{n_2}}},&lt;/math&gt;&lt;br /&gt;
+&lt;math&gt;s_p^2=\frac{(n_1 - 1)s_1^2 + (n_2 - 1)s_2^2}{n_1 + n_2 - 2},&lt;/math&gt;&lt;br /&gt;
+&lt;math&gt;df=n_1 + n_2 - 2 \ &lt;/math&gt;&lt;ref name=NIST2mean&gt;NIST handbook: [http://www.itl.nist.gov/div898/handbook/eda/section3/eda353.htm Two-Sample ''t''-test for Equal Means]&lt;/ref&gt;
+|(Normal populations '''or''' ''n''&lt;sub&gt;1&lt;/sub&gt;&amp;nbsp;+&amp;nbsp;''n''&lt;sub&gt;2&lt;/sub&gt;&amp;nbsp;&gt;&amp;nbsp;40) '''and''' independent observations '''and''' σ&lt;sub&gt;1&lt;/sub&gt; = σ&lt;sub&gt;2&lt;/sub&gt; unknown
+|-
+|Two-sample unpooled ''t''-test, unequal variances ([[Welch's t test|Welch's ''t''-test]])
+|align=center|&lt;math&gt;t=\frac{(\overline{x}_1 - \overline{x}_2) - d_0}{\sqrt{\frac{s_1^2}{n_1} + \frac{s_2^2}{n_2}}},&lt;/math&gt;&lt;br /&gt;
+&lt;math&gt;df = \frac{\left(\frac{s_1^2}{n_1}+\frac{s_2^2}{n_2}\right)^2} {\frac{\left(\frac{s_1^2}{n_1}\right)^2}{n_1-1} + \frac{\left(\frac{s_2^2}{n_2}\right)^2}{n_2-1}}&lt;/math&gt;&lt;ref name=NIST2mean/&gt;
+|(Normal populations '''or''' ''n''&lt;sub&gt;1&lt;/sub&gt;&amp;nbsp;+&amp;nbsp;''n''&lt;sub&gt;2&lt;/sub&gt;&amp;nbsp;&gt;&amp;nbsp;40) '''and''' independent observations '''and''' σ&lt;sub&gt;1&lt;/sub&gt; ≠ σ&lt;sub&gt;2&lt;/sub&gt; both unknown
+|-
+|One-proportion z-test
+|align=center|&lt;math&gt;z=\frac{\hat{p} - p_0}{\sqrt{p_0 (1-p_0)}}\sqrt n&lt;/math&gt;
+|''n&lt;sup&gt; .&lt;/sup&gt;p&lt;sub&gt;0&lt;/sub&gt;'' &gt; 10 '''and''' ''n'' (1&amp;nbsp;−&amp;nbsp;''p&lt;sub&gt;0&lt;/sub&gt;'') &gt; 10 '''and''' it is a SRS (Simple Random Sample), see [[Binomial distribution#Normal approximation|notes]].
+|-
+|Two-proportion z-test, pooled for &lt;math&gt;H_0\colon p_1=p_2&lt;/math&gt;
+|align=center|&lt;math&gt;z=\frac{(\hat{p}_1 - \hat{p}_2)}{\sqrt{\hat{p}(1 - \hat{p})(\frac{1}{n_1} + \frac{1}{n_2})}}&lt;/math&gt;
+&lt;math&gt;\hat{p}=\frac{x_1 + x_2}{n_1 + n_2}&lt;/math&gt;
+|''n''&lt;sub&gt;1&lt;/sub&gt; ''p''&lt;sub&gt;1&lt;/sub&gt; &gt; 5 '''and''' ''n''&lt;sub&gt;1&lt;/sub&gt;(1&amp;nbsp;−&amp;nbsp;''p''&lt;sub&gt;1&lt;/sub&gt;) &gt; 5 '''and''' ''n''&lt;sub&gt;2&lt;/sub&gt; ''p''&lt;sub&gt;2&lt;/sub&gt;&amp;nbsp;&gt;&amp;nbsp;5 '''and''' ''n''&lt;sub&gt;2&lt;/sub&gt;(1&amp;nbsp;−&amp;nbsp;''p''&lt;sub&gt;2&lt;/sub&gt;) &gt; 5 '''and''' independent observations, see [[Binomial distribution#Normal approximation|notes]].
+|-
+|Two-proportion z-test, unpooled for &lt;math&gt;|d_0|&gt;0&lt;/math&gt;
+|align=center|&lt;math&gt;z=\frac{(\hat{p}_1 - \hat{p}_2) - d_0}{\sqrt{\frac{\hat{p}_1(1 - \hat{p}_1)}{n_1} + \frac{\hat{p}_2(1 - \hat{p}_2)}{n_2}}}&lt;/math&gt;
+|''n''&lt;sub&gt;1&lt;/sub&gt; ''p''&lt;sub&gt;1&lt;/sub&gt; &gt; 5 '''and''' ''n''&lt;sub&gt;1&lt;/sub&gt;(1&amp;nbsp;−&amp;nbsp;''p''&lt;sub&gt;1&lt;/sub&gt;) &gt; 5 '''and''' ''n''&lt;sub&gt;2&lt;/sub&gt; ''p''&lt;sub&gt;2&lt;/sub&gt;&amp;nbsp;&gt;&amp;nbsp;5 '''and''' ''n''&lt;sub&gt;2&lt;/sub&gt;(1&amp;nbsp;−&amp;nbsp;''p''&lt;sub&gt;2&lt;/sub&gt;) &gt; 5 '''and''' independent observations, see [[Binomial distribution#Normal approximation|notes]].
+|-
+|Chi-squared test for variance
+|align=center|&lt;math&gt;\chi^2=(n-1)\frac{s^2}{\sigma^2_0}&lt;/math&gt;
+|Normal population
+|-
+|Chi-squared test for goodness of fit
+|align=center|&lt;math&gt;\chi^2=\sum^k\frac{(\text{observed}-\text{expected})^2}{\text{expected}}&lt;/math&gt;
+|''df = k''&amp;nbsp;&amp;minus;&amp;nbsp;1&amp;nbsp;&amp;minus;&amp;nbsp;''# parameters estimated'', and one of these must hold.
+• All expected counts are at least 5.&lt;ref&gt;Steel, R. G. D., and Torrie, J. H., ''Principles and Procedures of Statistics with Special Reference to the Biological Sciences.'', [[McGraw Hill]], 1960, page 350.&lt;/ref&gt;
+
+• All expected counts are &gt;&amp;nbsp;1 and no more than 20% of expected counts are less than&amp;nbsp;5&lt;ref&gt;{{cite book|last=Weiss|first=Neil A.|title=Introductory Statistics|edition=5th|year=1999|pages=[https://archive.org/details/introductorystat00neil/page/802 802]|isbn=0-201-59877-9|url=https://archive.org/details/introductorystat00neil/page/802}}
+&lt;/ref&gt;
+|-
+|Two-sample F test for equality of variances
+|align=center|&lt;math&gt;F=\frac{s_1^2}{s_2^2}&lt;/math&gt;
+|Normal populations&lt;br /&gt;Arrange so &lt;math&gt;s_1^2 \ge s_2^2&lt;/math&gt; and reject H&lt;sub&gt;0&lt;/sub&gt; for &lt;math&gt;F &gt; F(\alpha/2,n_1-1,n_2-1)&lt;/math&gt;&lt;ref&gt;NIST handbook: [http://www.itl.nist.gov/div898/handbook/eda/section3/eda359.htm F-Test for Equality of Two Standard Deviations] (Testing standard deviations the same as testing variances)&lt;/ref&gt;
+|-
+|[[Regression analysis#Diagnostics|Regression]] ''t''-test of &lt;math&gt;H_0\colon R^2=0.&lt;/math&gt;
+|align=center|&lt;math&gt;t=\sqrt{\frac{R^2(n-k-1^*)}{1-R^2}}&lt;/math&gt;
+|Reject ''H''&lt;sub&gt;0&lt;/sub&gt; for &lt;math&gt;t &gt; t(\alpha/2,n-k-1^*)&lt;/math&gt;&lt;ref&gt;Steel, R. G. D., and Torrie, J. H., ''Principles and Procedures of Statistics with Special Reference to the Biological Sciences.'', [[McGraw Hill]], 1960, page 288.)&lt;/ref&gt;&lt;br /&gt;*Subtract 1 for intercept; ''k'' terms contain independent variables.
+|-
+| colspan=3 | {{List of statistics symbols}}
+|}
+
+==See also==
+* [[Likelihood-ratio test]]
+* [[Neyman–Pearson lemma]]
+* &lt;math&gt;R^2&lt;/math&gt; = [[coefficient of determination]]
+* [[Sufficiency (statistics)]]
+
+==References==
+{{Reflist}}
+
+{{DEFAULTSORT:Test Statistic}}
+[[Category:Statistical hypothesis testing]]
+[[Category:Statistical tests]]
+[[Category:Sample statistics]]</text>
+      <sha1>i61xairemu6ceyi3rfhs3m41seqtxr7</sha1>
+    </revision>
+  </page>
+</mediawiki>

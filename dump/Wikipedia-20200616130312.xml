@@ -1,0 +1,84 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.10/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.10/ http://www.mediawiki.org/xml/export-0.10.xsd" version="0.10" xml:lang="en">
+  <siteinfo>
+    <sitename>Wikipedia</sitename>
+    <dbname>enwiki</dbname>
+    <base>https://en.wikipedia.org/wiki/Main_Page</base>
+    <generator>MediaWiki 1.35.0-wmf.36</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Media</namespace>
+      <namespace key="-1" case="first-letter">Special</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Talk</namespace>
+      <namespace key="2" case="first-letter">User</namespace>
+      <namespace key="3" case="first-letter">User talk</namespace>
+      <namespace key="4" case="first-letter">Wikipedia</namespace>
+      <namespace key="5" case="first-letter">Wikipedia talk</namespace>
+      <namespace key="6" case="first-letter">File</namespace>
+      <namespace key="7" case="first-letter">File talk</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki talk</namespace>
+      <namespace key="10" case="first-letter">Template</namespace>
+      <namespace key="11" case="first-letter">Template talk</namespace>
+      <namespace key="12" case="first-letter">Help</namespace>
+      <namespace key="13" case="first-letter">Help talk</namespace>
+      <namespace key="14" case="first-letter">Category</namespace>
+      <namespace key="15" case="first-letter">Category talk</namespace>
+      <namespace key="100" case="first-letter">Portal</namespace>
+      <namespace key="101" case="first-letter">Portal talk</namespace>
+      <namespace key="108" case="first-letter">Book</namespace>
+      <namespace key="109" case="first-letter">Book talk</namespace>
+      <namespace key="118" case="first-letter">Draft</namespace>
+      <namespace key="119" case="first-letter">Draft talk</namespace>
+      <namespace key="446" case="first-letter">Education Program</namespace>
+      <namespace key="447" case="first-letter">Education Program talk</namespace>
+      <namespace key="710" case="first-letter">TimedText</namespace>
+      <namespace key="711" case="first-letter">TimedText talk</namespace>
+      <namespace key="828" case="first-letter">Module</namespace>
+      <namespace key="829" case="first-letter">Module talk</namespace>
+      <namespace key="2300" case="first-letter">Gadget</namespace>
+      <namespace key="2301" case="first-letter">Gadget talk</namespace>
+      <namespace key="2302" case="case-sensitive">Gadget definition</namespace>
+      <namespace key="2303" case="case-sensitive">Gadget definition talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Quickstart guide</title>
+    <ns>0</ns>
+    <id>12918613</id>
+    <revision>
+      <id>920202923</id>
+      <parentid>893699913</parentid>
+      <timestamp>2019-10-08T08:01:18Z</timestamp>
+      <contributor>
+        <ip>2A07:C280:16:301:7165:1629:7325:D79F</ip>
+      </contributor>
+      <comment>remove ad</comment>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="4115" xml:space="preserve">A '''quick start guide''' or '''quickstart guide''' ('''QSG''') is in essence a shortened version of a [[User guide|manual]], meant to make a buyer familiar with his or her [[Product (business)|product]] as soon as possible.  This implies the use of a concise step-based approach that allows the buyer to use a product without any delay, if necessary including the relevant steps needed for installation. A Quick Start Guide, or QSG for short, focuses on the most common instructions, often accompanying such instructions with easy-to-understand [[illustration]]s.&lt;ref name="Tips"&gt;[http://www.idratherbewriting.com/2008/12/31/quick-reference-guide-formats-tips-for-finding-attractive-layouts/ "Quick Reference Guide Formats: Tips for Finding Attractive Layouts." Dec 31, 2008.]&lt;/ref&gt;&lt;ref name="Sweet"&gt;[http://www.idratherbewriting.com/2009/04/10/quick-reference-guides-short-and-sweet-documentation/ "Quick Reference Guides: Short and Sweet Documentation." April 10, 2009.]&lt;/ref&gt; The appearance of a QSG can vary significantly from product to product and from manufacturer to manufacturer. For example, it could be a single A4 sheet, a folded card or a booklet consisting of only a few pages.&lt;ref name="Tips" /&gt;&lt;ref name="Sweet" /&gt;
+[[Image:Sample quick start guide (radio).jpg|thumb|250px|A sample quick start guide for a radio]]
+
+==Background ==
+Quick Start Guides are becoming more popular by the day, mainly because of the growing complexity of consumer products such as television sets, cell phones, cars and software applications. This growing complexity has led to manuals that are constantly growing in size, making them less attractive to read.&lt;ref name="Sweet" /&gt;&lt;ref name="Poetry"&gt;[http://www.idratherbewriting.com/2008/07/06/quick-reference-guides-the-poetry-of-technical-writing/ "Quick Reference Guides: The Poetry of Technical Writing." July 6, 2008.]&lt;/ref&gt;
+A QSG should solve this problem: not only by focusing on the most basic instructions, but also by using visual information that is easy to understand. This approach should save time on the part of the user, giving him less stress while at the same time contributing to his self-confidence.&lt;ref name="Sweet" /&gt;&lt;ref name="Poetry" /&gt; As a result, users may conclude that using a product is not as difficult as they initially might have thought, hopefully leading to a growing willingness to tackle more complex tasks and, thus, exploring the product to the fullest of its extent.&lt;ref name="Sweet" /&gt;
+
+==Relevance==
+When [[Industrial design|designing]] a QSG, the most important question is how to filter out the most basic instructions that are the most useful to the average user.&lt;ref name="Sweet" /&gt;&lt;ref name="Poetry" /&gt; The answer to this question primarily depends on two things: the ability of the [[Technical writer|QSG writer]] to place himself in the shoes of the user and the product itself. As for the latter: a product that basically only needs some instructions to install it properly after which it functions continuously, is relatively easy to ‘capture’ in a QSG. Also, products that offer a broad variety of tasks of which in reality only a few really matter, lend themselves for a QSG.&lt;ref name="Poetry" /&gt; An example of such a product would be a [[Application software|software application]]. If the main tasks in such an application would be not more than a handful, then a QSG on a double-sided card could be an effective solution. If tasks would become more complicated of nature, one can refer to the complete manual.
+
+==Requirements==
+The requirements for setting up a Quick Start Guide are not set in stone. It is up to the technical writer to become familiar with the mindset of the user, as well as with the character of the product. This being said, there is indeed a legal obligation, namely to refer to the complete manual (see the international IEC-82079 standard). Also, it is imperative to include [[Safety|instructions for safe use]] of the product in any QSG.
+
+==See also==
+* [[User guide]]
+* [[Technical communication]]
+* [[Technical writer]]
+
+==References==
+&lt;references /&gt;
+
+[[Category:Electronic documents]]</text>
+      <sha1>h0xfgx69j10b6cxgwk9p6wndr9nzk45</sha1>
+    </revision>
+  </page>
+</mediawiki>

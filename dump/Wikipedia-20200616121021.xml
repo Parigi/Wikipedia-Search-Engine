@@ -1,0 +1,157 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.10/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.10/ http://www.mediawiki.org/xml/export-0.10.xsd" version="0.10" xml:lang="en">
+  <siteinfo>
+    <sitename>Wikipedia</sitename>
+    <dbname>enwiki</dbname>
+    <base>https://en.wikipedia.org/wiki/Main_Page</base>
+    <generator>MediaWiki 1.35.0-wmf.36</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Media</namespace>
+      <namespace key="-1" case="first-letter">Special</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Talk</namespace>
+      <namespace key="2" case="first-letter">User</namespace>
+      <namespace key="3" case="first-letter">User talk</namespace>
+      <namespace key="4" case="first-letter">Wikipedia</namespace>
+      <namespace key="5" case="first-letter">Wikipedia talk</namespace>
+      <namespace key="6" case="first-letter">File</namespace>
+      <namespace key="7" case="first-letter">File talk</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki talk</namespace>
+      <namespace key="10" case="first-letter">Template</namespace>
+      <namespace key="11" case="first-letter">Template talk</namespace>
+      <namespace key="12" case="first-letter">Help</namespace>
+      <namespace key="13" case="first-letter">Help talk</namespace>
+      <namespace key="14" case="first-letter">Category</namespace>
+      <namespace key="15" case="first-letter">Category talk</namespace>
+      <namespace key="100" case="first-letter">Portal</namespace>
+      <namespace key="101" case="first-letter">Portal talk</namespace>
+      <namespace key="108" case="first-letter">Book</namespace>
+      <namespace key="109" case="first-letter">Book talk</namespace>
+      <namespace key="118" case="first-letter">Draft</namespace>
+      <namespace key="119" case="first-letter">Draft talk</namespace>
+      <namespace key="446" case="first-letter">Education Program</namespace>
+      <namespace key="447" case="first-letter">Education Program talk</namespace>
+      <namespace key="710" case="first-letter">TimedText</namespace>
+      <namespace key="711" case="first-letter">TimedText talk</namespace>
+      <namespace key="828" case="first-letter">Module</namespace>
+      <namespace key="829" case="first-letter">Module talk</namespace>
+      <namespace key="2300" case="first-letter">Gadget</namespace>
+      <namespace key="2301" case="first-letter">Gadget talk</namespace>
+      <namespace key="2302" case="case-sensitive">Gadget definition</namespace>
+      <namespace key="2303" case="case-sensitive">Gadget definition talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Polynomial regression</title>
+    <ns>0</ns>
+    <id>21893202</id>
+    <revision>
+      <id>928707881</id>
+      <parentid>924703931</parentid>
+      <timestamp>2019-12-01T03:37:14Z</timestamp>
+      <contributor>
+        <username>Citation bot</username>
+        <id>7903804</id>
+      </contributor>
+      <minor/>
+      <comment>Removed URL that duplicated unique identifier. | You can [[WP:UCB|use this bot]] yourself. [[WP:DBUG|Report bugs here]].| Activated by [[User:Nemo bis]] | via #UCB_webform</comment>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="12538" xml:space="preserve">{{Regression bar}}
+In [[statistics]], '''polynomial regression''' is a form of [[regression analysis]] in which the relationship between the [[independent variable]] ''x'' and the [[dependent variable]] ''y'' is modelled as an ''n''th degree [[polynomial]] in ''x''. Polynomial regression fits a nonlinear relationship between the value of ''x'' and the corresponding [[conditional expectation|conditional mean]] of ''y'', denoted E(''y''&amp;nbsp;|''x''). Although ''polynomial regression'' fits a nonlinear model to the data, as a [[estimation theory|statistical estimation]] problem it is linear, in the sense that the regression function E(''y''&amp;nbsp;|&amp;nbsp;''x'') is linear in the unknown [[parameter]]s that are estimated from the [[data]].  For this reason, polynomial regression is considered to be a special case of [[multiple linear regression]].
+
+The explanatory (independent) variables resulting from the polynomial expansion of the "baseline" variables are known as higher-degree terms. Such variables are also used in [[statistical classification|classification]] settings.&lt;ref name="Chang2010"&gt;{{cite journal |author1=Yin-Wen Chang |author2=Cho-Jui Hsieh |author3=Kai-Wei Chang |author4=Michael Ringgaard |author5=Chih-Jen Lin |year=2010 |url=http://jmlr.csail.mit.edu/papers/v11/chang10a.html |title=Training and testing low-degree polynomial data mappings via linear SVM |journal=[[Journal of Machine Learning Research]] |volume=11 |pages=1471–1490}}&lt;/ref&gt;
+
+== History ==
+
+Polynomial regression models are usually fit using the method of [[least squares]]. The least-squares method minimizes the [[variance]] of the [[Bias of an estimator|&lt;!-- mean- --&gt;unbiased]] [[Estimation theory|estimators]] of the coefficients, under the conditions of the [[Gauss&amp;ndash;Markov theorem]]. The least-squares method was published in 1805 by [[Adrien-Marie Legendre|Legendre]] and in 1809 by [[Gauss]]. The first [[Optimal design|design]] of an [[Design of experiments|experiment]] for polynomial regression appeared in an 1815 paper of [[Joseph Diaz Gergonne|Gergonne]].&lt;ref&gt;{{cite journal | title=The application of the method of least squares to the interpolation of sequences |author=Gergonne, J. D. |journal=Historia Mathematica |volume=1 | issue=4 |date=November 1974 |origyear=1815 |pages=439&amp;ndash;447 |edition=Translated by Ralph St. John and [[Stephen M. Stigler|S. M. Stigler]] from the 1815 French | doi=10.1016/0315-0860(74)90034-2 |author-link=Joseph Diaz Gergonne }}&lt;/ref&gt;&lt;ref&gt;{{cite journal | title=Gergonne's 1815 paper on the design and analysis of polynomial regression experiments | author=Stigler, Stephen M. |journal=Historia Mathematica | volume=1 |issue=4 |date=November 1974 |pages=431&amp;ndash;439 | doi=10.1016/0315-0860(74)90033-0| author-link=Stephen M. Stigler }}&lt;/ref&gt;  In the twentieth century, polynomial regression played an important role in the development of [[regression analysis]], with a greater emphasis on issues of [[design of experiments|design]] and [[statistical inference|inference]].&lt;ref&gt;{{cite journal | author=[http://www.webdoe.cc/publications/kirstine.php Smith, Kirstine] |title=On the Standard Deviations of Adjusted and Interpolated Values of an Observed Polynomial Function and its Constants and the Guidance They Give Towards a Proper Choice of the Distribution of the Observations | year=1918 |journal=Biometrika | volume=12 | issue=1/2 | pages=1–85 | jstor=2331929 | doi=10.2307/2331929|url=https://zenodo.org/record/1431591 }}&lt;/ref&gt;  More recently, the use of polynomial models has been complemented by other methods, with non-polynomial models having advantages for some classes of problems.{{Citation needed|date=March 2018}}
+
+== Definition and example ==
+[[Image:Polyreg scheffe.svg|thumb|325px|A cubic polynomial regression fit to a simulated data set. The [[confidence band]] is a 95% simultaneous confidence band constructed using the [[Scheffé's method|Scheffé]] approach.]]
+
+The goal of regression analysis is to model the expected value of a dependent variable ''y'' in terms of the value of an independent variable (or vector of independent variables) ''x''.  In simple linear regression, the model
+
+:&lt;math&gt;
+y = \beta_0 + \beta_1 x + \varepsilon, \,
+&lt;/math&gt;
+
+is used, where ε is an unobserved random error with mean zero conditioned on a [[scalar (mathematics)|scalar]] variable ''x''.  In this model, for each unit increase in the value of ''x'', the conditional expectation of ''y'' increases by ''β''&lt;sub&gt;1&lt;/sub&gt; units.
+
+In many settings, such a linear relationship may not hold.  For example, if we are modeling the yield of a chemical synthesis in terms of the temperature at which the synthesis takes place, we may find that the yield improves by increasing amounts for each unit increase in temperature.  In this case, we might propose a quadratic model of the form
+
+:&lt;math&gt;
+y = \beta_0 + \beta_1x + \beta_2 x^2 + \varepsilon. \,
+&lt;/math&gt;
+
+In this model, when the temperature is increased from ''x'' to ''x''&amp;nbsp;+&amp;nbsp;1 units, the expected yield changes by &lt;math&gt;\beta_1+\beta_2(2x+ 1).&lt;/math&gt; (This can be seen by replacing ''x'' in this equation with ''x''+1 and subtracting the equation in ''x'' from the equation in ''x''+1.) For [[infinitesimal]] changes in ''x'', the effect on ''y'' is given by the [[total derivative]] with respect to ''x'': &lt;math&gt;\beta_1+2\beta_2x.&lt;/math&gt; The fact that the change in yield depends on ''x'' is what makes the relationship between ''x'' and ''y'' nonlinear even though the model is linear in the parameters to be estimated.
+
+In general, we can model the expected value of ''y'' as an ''n''th degree polynomial, yielding the general polynomial regression model
+
+:&lt;math&gt;
+y = \beta_0 + \beta_1 x + \beta_2 x^2 + \beta_3 x^3 + \cdots + \beta_n x^n + \varepsilon. \, 
+&lt;/math&gt;
+
+Conveniently, these models are all linear from the point of view of [[estimation theory|estimation]], since the regression function is linear in terms of the unknown parameters ''β''&lt;sub&gt;0&lt;/sub&gt;, ''β''&lt;sub&gt;1&lt;/sub&gt;,&amp;nbsp;....  Therefore, for [[least squares]] analysis, the computational and inferential problems of polynomial regression can be completely addressed using the techniques of [[linear regression|multiple regression]].  This is done by treating ''x'',&amp;nbsp;''x''&lt;sup&gt;2&lt;/sup&gt;,&amp;nbsp;... as being distinct independent variables in a multiple regression model.
+
+==Matrix form and calculation of estimates==
+
+The polynomial regression model
+
+:&lt;math&gt;y_i \,=\, \beta_0 + \beta_1 x_i + \beta_2 x_i^2 + \cdots + \beta_m x_i^m + \varepsilon_i\  (i = 1, 2, \dots , n) &lt;/math&gt;
+
+can be expressed in matrix form in terms of a design matrix &lt;math&gt;\mathbf{X}&lt;/math&gt;, a response vector &lt;math&gt;\vec y&lt;/math&gt;, a parameter vector &lt;math&gt;\vec \beta&lt;/math&gt;, and a vector &lt;math&gt;\vec\varepsilon&lt;/math&gt; of random errors. The ''i''-th row of &lt;math&gt;\mathbf{X}&lt;/math&gt; and &lt;math&gt;\vec y&lt;/math&gt; will contain the ''x'' and ''y'' value for the ''i''-th data sample. Then the model can be written as a system of linear equations:
+
+:&lt;math&gt; \begin{bmatrix} y_1\\ y_2\\ y_3 \\ \vdots \\ y_n \end{bmatrix}= \begin{bmatrix} 1 &amp; x_1 &amp; x_1^2 &amp; \dots &amp; x_1^m \\ 1 &amp; x_2 &amp; x_2^2 &amp; \dots &amp; x_2^m \\ 1 &amp; x_3 &amp; x_3^2 &amp; \dots &amp; x_3^m \\ \vdots &amp; \vdots &amp; \vdots &amp; \ddots &amp; \vdots \\ 1 &amp; x_n &amp; x_n^2 &amp; \dots &amp; x_n^m \end{bmatrix} \begin{bmatrix} \beta_0\\ \beta_1\\ \beta_2\\ \vdots \\ \beta_m \end{bmatrix} + \begin{bmatrix} \varepsilon_1\\ \varepsilon_2\\ \varepsilon_3 \\ \vdots \\ \varepsilon_n \end{bmatrix}, &lt;/math&gt;
+
+which when using pure matrix notation is written as
+
+: &lt;math&gt;\vec y = \mathbf{X} \vec \beta + \vec\varepsilon. \,&lt;/math&gt;
+
+The vector of estimated polynomial regression coefficients (using [[ordinary least squares]] [[estimation]]) is
+
+: &lt;math&gt;\widehat{\vec \beta} = (\mathbf{X}^\mathsf{T} \mathbf{X})^{-1}\; \mathbf{X}^\mathsf{T} \vec y, \,&lt;/math&gt;
+
+assuming ''m'' &lt; ''n'' which is required for the matrix to be invertible; then since &lt;math&gt;\mathbf{X}&lt;/math&gt; is a [[Vandermonde matrix]], the invertibility condition is guaranteed to hold if all the &lt;math&gt;x_i&lt;/math&gt; values are distinct. This is the unique least-squares solution.
+
+==Interpretation==
+
+Although polynomial regression is technically a special case of multiple linear regression, the interpretation of a fitted polynomial regression model requires a somewhat different perspective.  It is often difficult to interpret the individual coefficients in a polynomial regression fit, since the underlying monomials can be highly correlated.  For example, ''x'' and ''x''&lt;sup&gt;2&lt;/sup&gt; have correlation around 0.97 when x is [[uniform distribution (continuous)|uniformly distributed]] on the interval (0,&amp;nbsp;1).  Although the correlation can be reduced by using [[orthogonal polynomials]], it is generally more informative to consider the fitted regression function as a whole.  Point-wise or simultaneous [[confidence band]]s can then be used to provide a sense of the uncertainty in the estimate of the regression function.
+
+==Alternative approaches==
+
+Polynomial regression is one example of regression analysis using [[basis functions]] to model a functional relationship between two quantities. More specifically, it replaces &lt;math&gt;x \in \mathbb R^{d_x}&lt;/math&gt; in linear regression with polynomial basis &lt;math&gt;\varphi (x) \in \mathbb R^{d_\varphi}&lt;/math&gt;, e.g. &lt;math&gt;[1,x] \mathbin{\stackrel{\varphi}{\rightarrow}} [1,x,x^2,\ldots,x^d]&lt;/math&gt;. A drawback of polynomial bases is that the basis functions are "non-local", meaning that the fitted value of ''y'' at a given value ''x''&amp;nbsp;=&amp;nbsp;''x''&lt;sub&gt;0&lt;/sub&gt; depends strongly on data values with ''x'' far from ''x''&lt;sub&gt;0&lt;/sub&gt;.&lt;ref&gt;
+Such "non-local" behavior is a property of [[Analytic function#Properties of analytic functions|analytic function]]s that are not constant (everywhere). Such "non-local" behavior has been widely discussed in statistics: 
+*{{cite journal | doi=10.2307/2685560 | last=Magee | first=Lonnie | journal=The American Statistician | title=Nonlocal Behavior in Polynomial Regressions | volume=52 | year=1998 | jstor=2685560 | pages=20–22 | issue=1 }}&lt;/ref&gt; In modern statistics, polynomial basis-functions are used along with new [[basis function]]s, such as [[spline (mathematics)|splines]], [[radial basis function]]s, and [[wavelet]]s.  These families of basis functions offer a more parsimonious fit for many types of data.
+
+The goal of polynomial regression is to model a non-linear relationship between the independent and dependent variables (technically, between the independent variable and the conditional mean of the dependent variable).  This is similar to the goal of [[nonparametric regression]], which aims to capture non-linear regression relationships&lt;!-- ; nonparametric regression is als useful when the error distribution is unknown (and not just for possibly non-Gaussian error distributions)--&gt;. Therefore, non-parametric regression approaches such as [[smoothing]] can be useful alternatives to polynomial regression.  Some of these methods make use of a localized form of classical polynomial regression.&lt;ref&gt;{{cite book | last=Fan | first=Jianqing | year=1996 | title=Local Polynomial Modelling and Its Applications: From linear regression to nonlinear regression | series=Monographs on Statistics and Applied Probability | publisher=Chapman &amp; Hall/CRC. | isbn=978-0-412-98321-4}}&lt;/ref&gt;  An advantage of traditional polynomial regression is that the inferential framework of multiple regression can be used (this also holds when using other families of basis functions such as splines).
+
+A final alternative is to use [[kernel methods|kernelized]] models such as [[support vector regression]] with a [[polynomial kernel]].
+
+==See also==
+*[[Curve fitting]]
+*[[Line regression]]
+*[[Local polynomial regression]]
+*[[Polynomial and rational function modeling]]
+*[[Polynomial interpolation]]
+*[[Response surface methodology]]
+*[[Smoothing spline]]
+
+==Notes==
+
+* Microsoft Excel makes use of polynomial regression when fitting a trendline to data points on an X Y scatter plot.&lt;ref&gt;{{cite web|last1=Stevenson|first1=Christopher|title=Tutorial: Polynomial Regression in Excel|url=https://facultystaff.richmond.edu/~cstevens/301/Excel4.html|website=facultystaff.richmond.edu|accessdate=22 January 2017}}&lt;/ref&gt;
+
+== References ==
+{{Reflist|30em}}
+
+{{Statistics}}
+{{Least Squares and Regression Analysis}}
+
+==External links==
+*[https://phet.colorado.edu/en/simulation/curve-fitting Curve Fitting], [[PhET]] Interactive simulations, University of Colorado at Boulder
+
+[[Category:Regression analysis]]</text>
+      <sha1>db062kktq10wgt57m9tbha0chku4z4x</sha1>
+    </revision>
+  </page>
+</mediawiki>

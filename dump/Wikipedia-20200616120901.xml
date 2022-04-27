@@ -1,0 +1,184 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.10/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.10/ http://www.mediawiki.org/xml/export-0.10.xsd" version="0.10" xml:lang="en">
+  <siteinfo>
+    <sitename>Wikipedia</sitename>
+    <dbname>enwiki</dbname>
+    <base>https://en.wikipedia.org/wiki/Main_Page</base>
+    <generator>MediaWiki 1.35.0-wmf.36</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Media</namespace>
+      <namespace key="-1" case="first-letter">Special</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Talk</namespace>
+      <namespace key="2" case="first-letter">User</namespace>
+      <namespace key="3" case="first-letter">User talk</namespace>
+      <namespace key="4" case="first-letter">Wikipedia</namespace>
+      <namespace key="5" case="first-letter">Wikipedia talk</namespace>
+      <namespace key="6" case="first-letter">File</namespace>
+      <namespace key="7" case="first-letter">File talk</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki talk</namespace>
+      <namespace key="10" case="first-letter">Template</namespace>
+      <namespace key="11" case="first-letter">Template talk</namespace>
+      <namespace key="12" case="first-letter">Help</namespace>
+      <namespace key="13" case="first-letter">Help talk</namespace>
+      <namespace key="14" case="first-letter">Category</namespace>
+      <namespace key="15" case="first-letter">Category talk</namespace>
+      <namespace key="100" case="first-letter">Portal</namespace>
+      <namespace key="101" case="first-letter">Portal talk</namespace>
+      <namespace key="108" case="first-letter">Book</namespace>
+      <namespace key="109" case="first-letter">Book talk</namespace>
+      <namespace key="118" case="first-letter">Draft</namespace>
+      <namespace key="119" case="first-letter">Draft talk</namespace>
+      <namespace key="446" case="first-letter">Education Program</namespace>
+      <namespace key="447" case="first-letter">Education Program talk</namespace>
+      <namespace key="710" case="first-letter">TimedText</namespace>
+      <namespace key="711" case="first-letter">TimedText talk</namespace>
+      <namespace key="828" case="first-letter">Module</namespace>
+      <namespace key="829" case="first-letter">Module talk</namespace>
+      <namespace key="2300" case="first-letter">Gadget</namespace>
+      <namespace key="2301" case="first-letter">Gadget talk</namespace>
+      <namespace key="2302" case="case-sensitive">Gadget definition</namespace>
+      <namespace key="2303" case="case-sensitive">Gadget definition talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Robust regression</title>
+    <ns>0</ns>
+    <id>2713327</id>
+    <revision>
+      <id>962311305</id>
+      <parentid>961388177</parentid>
+      <timestamp>2020-06-13T09:10:22Z</timestamp>
+      <contributor>
+        <username>Susmitmishra125</username>
+        <id>39509756</id>
+      </contributor>
+      <minor/>
+      <comment>Added a see also</comment>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="20699" xml:space="preserve">{{short description|Specialized form of regression analysis, in statistics}}
+{{Regression bar}}
+In [[robust statistics]], '''robust regression''' is a form of [[regression analysis]] designed to overcome some limitations of traditional [[parametric statistics|parametric]] and [[non-parametric statistics|non-parametric methods]]. Regression analysis seeks to find the relationship between one or more [[Dependent and independent variables#Statistics|independent variables]] and a [[Dependent and independent variables#Statistics|dependent variable]]. Certain widely used methods of regression, such as [[ordinary least squares]], have favourable properties if their underlying assumptions are true, but can give misleading results if those assumptions are not true; thus ordinary least squares is said to be not [[robust statistics|robust]] to violations of its assumptions. Robust regression methods are designed to be not overly affected by violations of assumptions by the underlying data-generating process.
+
+In particular, [[least squares]] estimates for [[regression model]]s are highly sensitive to [[outliers]]. While there is no precise definition of an outlier, outliers are observations which do not follow the pattern of the other observations. This is not normally a problem if the outlier is simply an extreme observation drawn from the tail of a normal distribution, but if the outlier results from non-normal measurement error or some other violation of standard ordinary least squares assumptions, then it compromises the validity of the regression results if a non-robust regression technique is used.
+
+== Applications ==
+
+=== Heteroscedastic errors ===
+One instance in which robust estimation should be considered is when there is a strong suspicion of [[heteroscedasticity]]. In the [[homoscedastic]] model, it is assumed that the variance of the error term is constant for all values of ''x''. Heteroscedasticity allows the variance to be dependent on ''x'', which is more accurate for many real scenarios. For example, the variance of expenditure is often larger for individuals with higher income than for individuals with lower incomes. Software packages usually default to a homoscedastic model, even though such a model may be less accurate than a heteroscedastic model. One simple approach ([[#Tofallis2008|Tofallis, 2008]]) is to apply least squares to percentage errors, as this reduces the influence of the larger values of the dependent variable compared to ordinary least squares.
+
+=== Presence of outliers ===
+Another common situation in which robust estimation is used occurs when the data contain outliers. In the presence of outliers that do not come from the same data-generating process as the rest of the data, least squares estimation is [[efficiency (statistics)|inefficient]] and can be biased. Because the least squares predictions are dragged towards the outliers, and because the variance of the estimates is artificially inflated, the result is that outliers can be masked. (In many situations, including some areas of [[geostatistics]] and medical statistics, it is precisely the outliers that are of interest.)
+
+Although it is sometimes claimed that least squares (or classical statistical methods in general) are robust, they are only robust in the sense that the [[Type I and type II errors|type I error rate]] does not increase under violations of the model. In fact, the type I error rate tends to be lower than the nominal level when outliers are present, and there is often a dramatic increase in the [[Type I and type II errors|type II error rate]]. The reduction of the type I error rate has been labelled as the ''conservatism'' of classical methods.
+
+== History and unpopularity of robust regression ==
+
+Despite their superior performance over least squares estimation in many situations, robust methods for regression are still not widely used.  Several reasons may help explain their unpopularity ([[#Hampel1986|Hampel et al. 1986, 2005]]).  One possible reason is that there are several competing methods {{Citation needed|reason=Which methods can be used as alternatives of robust regression?|date=June 2017}} and the field got off to many false starts. Also, computation of robust estimates is much more computationally intensive than least squares estimation; in recent years, however, this objection has become less relevant, as computing power has increased greatly. Another reason may be that some popular statistical software packages failed to implement the methods ([[#Stromberg2004|Stromberg, 2004]]). The belief of many statisticians that classical methods are robust may be another reason{{Citation needed|reason=Given robust methods are readily available today, this claim seems quite dubious|date=September 2017}}.
+
+Although uptake of robust methods has been slow, modern mainstream statistics text books often include discussion of these methods (for example, the books by Seber and Lee, and by Faraway; for a good general description of how the various robust regression methods developed from one another see Andersen's book). Also, modern statistical software packages such as [[R (programming language)|R]], [[Statsmodels]], [[Stata]] and [[S-PLUS]] include considerable functionality for robust estimation (see, for example, the books by Venables and Ripley, and by Maronna et al.).
+
+== Methods for robust regression ==
+
+=== Least squares alternatives ===
+
+The simplest methods of estimating parameters in a regression model that are less sensitive to outliers than the least squares estimates, is to use [[least absolute deviations]]. Even then, gross outliers can still have a considerable impact on the model, motivating research into even more robust approaches.
+
+In 1964, Huber introduced [[M-estimator|M-estimation]] for regression. The M in M-estimation stands for "maximum likelihood type". The method is robust to outliers in the response variable, but turned out not to be resistant to outliers in the [[Dependent and independent variables#explanatory variable|explanatory variables]] ([[leverage (statistics)|leverage]] points). In fact, when there are outliers in the explanatory variables, the method has no advantage over least squares.
+
+In the 1980s, several alternatives to M-estimation were proposed as attempts to overcome the lack of resistance. See the book by [[Peter Rousseeuw|Rousseeuw]] and Leroy for a very practical review. [[Least trimmed squares]] (LTS) is a viable alternative and is currently (2007) the preferred choice of Rousseeuw and Ryan (1997, 2008). The [[Theil–Sen estimator]] has a lower breakdown point than LTS but is statistically efficient and popular. Another proposed solution was S-estimation. This method finds a line (plane or hyperplane) that minimizes a robust estimate of the scale (from which the method gets the S in its name) of the residuals. This method is highly resistant to leverage points and is robust to outliers in the response. However, this method was also found to be inefficient.
+
+MM-estimation attempts to retain the robustness and resistance of S-estimation, whilst gaining the efficiency of M-estimation. The method proceeds by finding a highly robust and resistant S-estimate that minimizes an M-estimate of the scale of the residuals (the first M in the method's name). The estimated scale is then held constant whilst a close by M-estimate of the parameters is located (the second M).
+
+=== Parametric alternatives ===
+Another approach to robust estimation of regression models is to replace the normal distribution with a heavy-tailed distribution. A [[Student's t-distribution|''t''-distribution]] with 4–6 degrees of freedom has been reported to be a good choice in various practical situations. Bayesian robust regression, being fully parametric, relies heavily on such distributions.
+
+Under the assumption of ''t''-distributed residuals, the distribution is a location-scale family. That is, &lt;math&gt;x \leftarrow (x-\mu)/\sigma&lt;/math&gt;. The degrees of freedom of the ''t''-distribution is sometimes called the ''kurtosis parameter''. Lange, Little and Taylor (1989) discuss this model in some depth from a non-Bayesian point of view. A Bayesian account appears in Gelman et al. (2003).
+
+An alternative parametric approach is to assume that the residuals follow a mixture of normal distributions; in particular, a ''contaminated'' normal distribution in which the majority of observations are from a specified normal distribution, but a small proportion are from a normal distribution with much higher variance. That is, residuals have probability &lt;math&gt;1-\varepsilon&lt;/math&gt; of coming from a normal distribution with variance &lt;math&gt;\sigma^2&lt;/math&gt;, where &lt;math&gt;\varepsilon&lt;/math&gt; is small, and probability &lt;math&gt;\varepsilon&lt;/math&gt; of coming from a normal distribution with variance &lt;math&gt;c\sigma^2&lt;/math&gt; for some &lt;math&gt;c &gt; 1&lt;/math&gt;:
+
+:&lt;math&gt;e_i \sim (1 - \varepsilon) N(0, \sigma^2) + \varepsilon N(0, c\sigma^2).&lt;/math&gt;
+
+Typically, &lt;math&gt;\varepsilon &lt; 0.1&lt;/math&gt;. This is sometimes called the &lt;math&gt;\varepsilon&lt;/math&gt;-contamination model.
+
+Parametric approaches have the advantage that likelihood theory provides an "off-the-shelf" approach to inference (although for mixture models such as the &lt;math&gt;\varepsilon&lt;/math&gt;-contamination model, the usual regularity conditions might not apply), and it is possible to build simulation models from the fit. However, such parametric models still assume that the underlying model is literally true. As such, they do not account for skewed residual distributions or finite observation precisions.
+
+=== Unit weights ===
+Another robust method is the use of [[unit-weighted regression|unit weights]] ([[Howard Wainer|Wainer]] &amp; Thissen, 1976), a method that can be applied when there are multiple predictors of a single outcome. [[Ernest Burgess]] (1928) used unit weights to predict success on parole.  He scored 21 positive factors as present (e.g., "no prior arrest" = 1) or absent ("prior arrest" = 0), then summed to yield a predictor score, which was shown to be a useful predictor of parole success. [[Samuel S. Wilks]] (1938) showed that nearly all sets of regression weights sum to composites that are very highly correlated with one another, including unit weights, a result referred to as Wilk's theorem (Ree, Carretta, &amp; Earles, 1998). [[Robyn Dawes]] (1979) examined decision making in applied settings, showing that simple models with unit weights often outperformed human experts.  Bobko, Roth, and Buster (2007) reviewed the literature on unit weights and concluded that decades of empirical studies show that unit weights perform similar to ordinary regression weights on cross validation.
+
+== Example: BUPA liver data ==
+The [[BUPA]] liver data have been studied by various authors, including Breiman (2001). The data can be found at the [[classic data sets]] page, and there is some discussion in the article on the [[Box–Cox transformation]]. A plot of the logs of ALT versus the logs of γGT appears below. The two regression lines are those estimated by ordinary least squares (OLS) and by robust MM-estimation. The analysis was performed in [[R (programming language)|R]] using software made available by Venables and Ripley (2002).
+
+:[[Image:OLSandMM.JPG]]
+
+The two regression lines appear to be very similar (and this is not unusual in a data set of this size). However, the advantage of the robust approach comes to light when the estimates of residual scale are considered. For ordinary least squares, the estimate of scale is 0.420, compared to 0.373 for the robust method. Thus, the relative efficiency of ordinary least squares to MM-estimation in this example is 1.266. This inefficiency leads to loss of power in hypothesis tests and to unnecessarily wide confidence intervals on estimated parameters.
+
+=== Outlier detection ===
+Another consequence of the inefficiency of the [[Ordinary least squares|ordinary least squares]] fit is that several outliers are masked because the estimate of residual scale is inflated, the scaled residuals are pushed closer to zero than when a more appropriate estimate of scale is used. The plots of the scaled residuals from the two models appear below. The variable on the ''x'' axis is just the observation number as it appeared in the data set. Rousseeuw and Leroy (1986) contains many such plots.
+
+:[[Image:ResidualPlots.JPG]]
+
+The horizontal reference lines are at 2 and −2, so that any observed scaled residual beyond these boundaries can be considered to be an outlier. Clearly, the least squares method leads to many interesting observations being masked.
+
+Whilst in one or two dimensions outlier detection using classical methods can be performed manually, with large data sets and in high dimensions the problem of masking can make identification of many outliers impossible. Robust methods automatically detect these observations, offering a serious advantage over classical methods when outliers are present.
+
+== See also ==
+
+* [[Regression analysis|Regression]]
+
+* [[Iteratively reweighted least squares]]
+* [[M-estimator]]
+* [[Relaxed intersection]]
+* [[RANSAC]]
+* [[Repeated median regression]]
+* [[Theil–Sen estimator]], a method for robust [[simple linear regression]]
+
+== References ==
+* {{Cite book| last = Andersen | first = R. | title = Modern Methods for Robust Regression | publisher = Sage University Paper Series on Quantitative Applications in the Social Sciences, 07-152| year = 2008}}
+* Ben-Gal I., [http://www.eng.tau.ac.il/~bengal/outlier.pdf Outlier detection], In: Maimon O. and Rockach L. (Eds.) Data Mining and Knowledge Discovery Handbook: A Complete Guide for Practitioners and Researchers," Kluwer Academic Publishers, 2005, {{ISBN|0-387-24435-2}}.
+* Bobko, P., Roth, P. L., &amp; Buster, M. A. (2007). "The usefulness of unit weights in creating composite scores: A literature review, application to content validity, and meta-analysis". ''Organizational Research Methods'', volume 10, pages 689-709. {{doi|10.1177/1094428106294734}}
+* {{Cite journal| last = Breiman | first = L. | title = Statistical Modeling: the Two Cultures | journal = Statistical Science | volume = 16 | issue = 3 | pages = 199–231 | year = 2001 | doi = 10.1214/ss/1009213725 | jstor=2676681| doi-access = free }}
+* Burgess, E. W. (1928). "Factors determining success or failure on parole". In A. A. Bruce (Ed.), ''The Workings of the Indeterminate Sentence Law and Parole in Illinois'' (pp.&amp;nbsp;205–249). Springfield, Illinois: Illinois State Parole Board. [https://books.google.com/books/about/The_Workings_of_the_Indeterminate_senten.html?id=V6xCAAAAIAAJ Google books]
+* Dawes, Robyn M. (1979). "The robust beauty of improper linear models in decision making". ''American Psychologist'', volume 34, pages 571-582.  {{doi|10.1037/0003-066X.34.7.571 }}.  [http://www.cmu.edu/dietrich/sds/docs/dawes/the-robust-beauty-of-improper-linear-models-in-decision-making.pdf archived pdf]
+*{{Cite journal| last=Draper | first=David | journal=Statistical Science | volume=3 | year=1988 | title=Rank-Based Robust Analysis of Linear Models. I. Exposition and Review | pages=239–257 | doi=10.1214/ss/1177012915 | issue=2 | jstor=2245578| doi-access=free }}
+*{{Cite book| last = Faraway | first = J. J. | title = Linear Models with R | publisher = Chapman &amp; Hall/CRC | year = 2004 }}
+*{{Cite journal| last=Fornalski | first = K. W. | title = Applications of the robust Bayesian regression analysis | journal = International Journal of Society Systems Science | volume = 7 | issue = 4 | pages = 314–333 | year = 2015| doi=10.1504/IJSSS.2015.073223}}
+* {{Cite book| last = Gelman | first = A. |author2=J. B. Carlin |author3=H. S. Stern |author4=D. B. Rubin | title = Bayesian Data Analysis |edition=Second | publisher = Chapman &amp; Hall/CRC | year = 2003 }}
+* {{Cite book | ref = Hampel1986 | last = Hampel | first = F. R. |author2=E. M. Ronchetti |author3=P. J. Rousseeuw |author4=W. A. Stahel | title = Robust Statistics: The Approach Based on Influence Functions | publisher = Wiley | origyear = 1986| year = 2005}}
+* {{Cite journal| last = Lange | first = K. L. |author2=R. J. A. Little |author3=J. M. G. Taylor | title = Robust statistical modeling using the ''t''-distribution | journal = Journal of the American Statistical Association | volume = 84 | issue = 408 | pages = 881–896 | year = 1989 | doi = 10.2307/2290063 | jstor = 2290063 | url = https://escholarship.org/uc/item/27s1d3h7 }}
+* Lerman, G.; McCoy, M.; Tropp, J. A.; Zhang T. (2012). [http://users.cms.caltech.edu/~jtropp/papers/LMTZ12-Robust-Computation.pdf "Robust computation of linear models, or how to find a needle in a haystack"], {{arxiv|id=1202.4044}}.
+* {{Cite book| last = Maronna | first = R. |author2=D. Martin |author3=V. Yohai | title = Robust Statistics: Theory and Methods | publisher = Wiley | year = 2006}}
+*{{Cite journal| last=McKean | first=Joseph W. | journal=Statistical Science | volume=19 | year=2004 | pages=562–570 | title=Robust Analysis of Linear Models | doi=10.1214/088342304000000549 | issue=4 | jstor=4144426| doi-access=free }}
+* {{Cite book| last = Radchenko S.G. | title = Robust methods for statistical models estimation: Monograph. (on Russian language) | publisher = Kiev: РР «Sanspariel» |isbn=978-966-96574-0-4 | pages = 504 | year = 2005}}
+* Ree, M. J., Carretta, T. R., &amp; Earles, J. A. (1998). "In top-down decisions, weighting variables does not matter: A consequence of Wilk's theorem. ''Organizational Research Methods'', volume 1(4), pages 407-420. {{doi|10.1177/109442819814003}}
+* {{Cite book| last = Rousseeuw | first = P. J. | authorlink=Peter Rousseeuw|author2=A. M. Leroy  | title = Robust Regression and Outlier Detection | title-link = Robust Regression and Outlier Detection | publisher = Wiley | origyear = 1986| year = 2003}}
+* {{Cite book| last = Ryan | first = T. P. | title = Modern Regression Methods | publisher = Wiley | origyear = 1997| year = 2008}}
+* {{Cite book| last = Seber | first = G. A. F. |author2=A. J. Lee  | title = Linear Regression Analysis |edition=Second | publisher = Wiley | year = 2003}}
+* {{Cite journal| ref = Stromberg2004 | last = Stromberg| first = A. J. | title = Why write statistical software? The case of robust statistical methods | journal = Journal of Statistical Software | volume = 10| issue = 5| year = 2004 | doi = 10.18637/jss.v010.i05| doi-access = free }}
+* {{cite book |first=T. |last=Strutz| title=Data Fitting and Uncertainty (A practical introduction to weighted least squares and beyond) |publisher=Springer Vieweg |year=2016 |isbn=978-3-658-11455-8}}
+* {{cite journal | ref=Tofallis2008 | last = Tofallis |first =  Chris |  ssrn = 1406472 | title=Least Squares Percentage Regression | journal = Journal of Modern Applied Statistical Methods | volume=7 | year = 2008 | pages=526–534 | doi=10.2139/ssrn.1406472}}
+* {{Cite book| last = Venables | first = W. N. |author2=B. D. Ripley  | title = Modern Applied Statistics with S | publisher = Springer| year = 2002}}
+* [[Howard Wainer|Wainer, H.]], &amp; Thissen, D. (1976). "Three steps toward robust regression." ''Psychometrika'', volume 41(1), pages 9–34. {{doi|10.1007/BF02291695}}
+* Wilks, S. S. (1938). "Weighting systems for linear functions of correlated variables when there is no dependent variable". ''Psychometrika'', volume 3, pages 23–40. {{doi|10.1007/BF02287917}}
+
+== External links ==
+*[[Wikibooks:R Programming#Linear Models|R programming wikibooks]]
+*[[Brian D. Ripley|Brian Ripley's]] [https://web.archive.org/web/20121021081319/http://www.stats.ox.ac.uk/pub/StatMeth/Robust.pdf robust statistics course notes.]
+*[http://www.nickfieller.staff.shef.ac.uk/sheff-only/StatModall05.pdf Nick Fieller's course notes on Statistical Modelling and Computation] contain material on robust regression.
+*[http://webmining.spd.louisville.edu/wp-content/uploads/2014/05/A-Brief-Overview-of-Robust-Statistics.pdf Olfa Nasraoui's Overview of Robust Statistics]
+*[http://webmining.spd.louisville.edu/wp-content/uploads/2014/05/A-Brief-Overview-of-Robust-Clustering-Techniques.pdf Olfa Nasraoui's Overview of Robust Clustering]
+*[http://www.jstatsoft.org/v10/a05/paper Why write statistical software? The case of robust statistical methods, A. J. Stromberg]
+*[http://www.sourceforge.net/projects/l1-norm-robust-regression Free software (Fortran 95) L1-norm regression. Minimization of absolute deviations instead of least squares.]
+*[https://github.com/gsubramani/robust-nonlinear-regression Free open-source python implementation for robust nonlinear regression.]
+
+{{Statistics}}
+{{least squares and regression analysis}}
+
+{{DEFAULTSORT:Robust Regression}}
+[[Category:Robust regression| ]]</text>
+      <sha1>koh6pdtwmajlx84o0eh88oj1sd9g1cs</sha1>
+    </revision>
+  </page>
+</mediawiki>

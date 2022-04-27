@@ -1,0 +1,343 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.10/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.10/ http://www.mediawiki.org/xml/export-0.10.xsd" version="0.10" xml:lang="en">
+  <siteinfo>
+    <sitename>Wikipedia</sitename>
+    <dbname>enwiki</dbname>
+    <base>https://en.wikipedia.org/wiki/Main_Page</base>
+    <generator>MediaWiki 1.35.0-wmf.36</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Media</namespace>
+      <namespace key="-1" case="first-letter">Special</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Talk</namespace>
+      <namespace key="2" case="first-letter">User</namespace>
+      <namespace key="3" case="first-letter">User talk</namespace>
+      <namespace key="4" case="first-letter">Wikipedia</namespace>
+      <namespace key="5" case="first-letter">Wikipedia talk</namespace>
+      <namespace key="6" case="first-letter">File</namespace>
+      <namespace key="7" case="first-letter">File talk</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki talk</namespace>
+      <namespace key="10" case="first-letter">Template</namespace>
+      <namespace key="11" case="first-letter">Template talk</namespace>
+      <namespace key="12" case="first-letter">Help</namespace>
+      <namespace key="13" case="first-letter">Help talk</namespace>
+      <namespace key="14" case="first-letter">Category</namespace>
+      <namespace key="15" case="first-letter">Category talk</namespace>
+      <namespace key="100" case="first-letter">Portal</namespace>
+      <namespace key="101" case="first-letter">Portal talk</namespace>
+      <namespace key="108" case="first-letter">Book</namespace>
+      <namespace key="109" case="first-letter">Book talk</namespace>
+      <namespace key="118" case="first-letter">Draft</namespace>
+      <namespace key="119" case="first-letter">Draft talk</namespace>
+      <namespace key="446" case="first-letter">Education Program</namespace>
+      <namespace key="447" case="first-letter">Education Program talk</namespace>
+      <namespace key="710" case="first-letter">TimedText</namespace>
+      <namespace key="711" case="first-letter">TimedText talk</namespace>
+      <namespace key="828" case="first-letter">Module</namespace>
+      <namespace key="829" case="first-letter">Module talk</namespace>
+      <namespace key="2300" case="first-letter">Gadget</namespace>
+      <namespace key="2301" case="first-letter">Gadget talk</namespace>
+      <namespace key="2302" case="case-sensitive">Gadget definition</namespace>
+      <namespace key="2303" case="case-sensitive">Gadget definition talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Single-precision floating-point format</title>
+    <ns>0</ns>
+    <id>23552864</id>
+    <revision>
+      <id>961274654</id>
+      <parentid>960695873</parentid>
+      <timestamp>2020-06-07T14:59:36Z</timestamp>
+      <contributor>
+        <username>I enjoy sandwiches</username>
+        <id>24361832</id>
+      </contributor>
+      <comment>Wl</comment>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="20250" xml:space="preserve">{{short description|32-bit computer number format}}
+'''Single-precision floating-point format ''' is a [[computer number format]], usually occupying [[32 bits]] in [[computer memory]]; it represents a wide [[dynamic range]] of numeric values by using a [[floating point|floating radix point]].
+
+A floating-point variable can represent a wider range of numbers than a [[fixed-point arithmetic|fixed-point]] variable of the same bit width at the cost of precision. A [[signedness|signed]] 32-bit [[integer]] variable has a maximum value of 2&lt;sup&gt;31&lt;/sup&gt; − 1 = 2,147,483,647, whereas an [[IEEE 754]] 32-bit base-2 floating-point variable has a maximum value of (2 − 2&lt;sup&gt;−23&lt;/sup&gt;) × 2&lt;sup&gt;127&lt;/sup&gt; ≈ 3.4028235 × 10&lt;sup&gt;38&lt;/sup&gt;. All integers with 7 or fewer decimal digits, and any 2&lt;sup&gt;''n''&lt;/sup&gt; for a whole number −149 ≤ ''n'' ≤ 127, can be converted exactly into an IEEE 754 single-precision floating-point value.
+
+In the [[IEEE 754-2008]] [[standardization|standard]], the 32-bit base-2 format is officially referred to as '''binary32'''; it was called '''single''' in [[IEEE 754-1985]]. IEEE 754 specifies additional floating-point types, such as 64-bit base-2 ''[[double-precision floating-point format|double precision]]'' and, more recently, base-10 representations.
+
+One of the first [[programming language]]s to provide single- and double-precision floating-point data types was [[Fortran]]. Before the widespread adoption of IEEE 754-1985, the representation and properties of floating-point data types depended on the [[computer manufacturer]] and computer model, and upon decisions made by programming-language designers. E.g., [[GW-BASIC]]'s single-precision data type was the [[32-bit MBF]] floating-point format.
+
+Single precision is termed ''REAL'' in [[Fortran]],&lt;ref&gt;{{cite web|url=http://scc.ustc.edu.cn/zlsc/sugon/intel/compiler_f/main_for/lref_for/source_files/rfreals.htm|title=REAL Statement|website=scc.ustc.edu.cn}}&lt;/ref&gt; ''SINGLE-FLOAT'' in [[Common Lisp]],&lt;ref&gt;{{cite web|url=http://www.lispworks.com/documentation/HyperSpec/Body/t_short_.htm|title=CLHS: Type SHORT-FLOAT, SINGLE-FLOAT, DOUBLE-FLOAT...}}&lt;/ref&gt; ''float'' in [[C (programming language)|C]], [[C++]], [[C Sharp (programming language)|C#]], [[Java (programming language)|Java]],&lt;ref&gt;{{cite web|url=http://java.sun.com/docs/books/tutorial/java/nutsandbolts/datatypes.html|title=Primitive Data Types|website=Java Documentation}}&lt;/ref&gt; ''Float'' in [[Haskell (programming language)|Haskell]],&lt;ref&gt;{{cite web|url=https://www.haskell.org/onlinereport/haskell2010/haskellch6.html#x13-1350006.4|title=6 Predefined Types and Classes|date=20 July 2010|website=haskell.org}}&lt;/ref&gt; and ''Single'' in [[Object Pascal]] ([[Delphi (programming language)|Delphi]]), [[Visual Basic]], and [[MATLAB]]. However, ''float'' in [[Python (programming language)|Python]], [[Ruby (programming language)|Ruby]], [[PHP]], and [[OCaml]] and ''single'' in versions of [[GNU Octave|Octave]] before 3.2 refer to [[double-precision floating-point format|double-precision]] numbers. In most implementations of [[PostScript]], and some [[embedded systems]], the only supported precision is single.
+{{Floating-point}}
+
+==IEEE 754 single-precision binary floating-point format: binary32==
+The IEEE 754 standard specifies a ''binary32'' as having:
+*[[Sign bit]]: 1 bit
+*[[Exponent]] width: 8 bits
+*[[Significand]] [[precision (arithmetic)|precision]]: 24 bits (23 explicitly stored)
+&lt;!-- "significand", with a d at the end, is a technical term; please do not confuse with "significant" --&gt;
+
+This gives from 6 to 9 [[significant figures|significant decimal digits]] precision. If a decimal string with at most 6 significant digits is converted to IEEE 754 single-precision representation, and then converted back to a decimal string with the same number of digits, the final result should match the original string. If an IEEE 754 single-precision number is converted to a decimal string with at least 9 significant digits, and then converted back to single-precision representation, the final result must match the original number.&lt;ref name=whyieee&gt;{{cite web|url=http://www.cs.berkeley.edu/~wkahan/ieee754status/IEEE754.PDF|title=Lecture Notes on the Status of IEEE Standard 754 for Binary Floating-Point Arithmetic| author=William Kahan |date=1 October 1997|page=4}}&lt;/ref&gt;
+
+The sign bit determines the sign of the number, which is the sign of the significand as well. The exponent is an 8-bit unsigned integer from 0 to 255, in [[Exponent bias|biased form]]: an exponent value of 127 represents the actual zero. Exponents range from −126 to +127 because exponents of −127 (all 0s) and +128 (all 1s) are reserved for special numbers.
+
+The true significand includes 23 fraction bits to the right of the binary point and an ''implicit leading bit'' (to the left of the binary point) with value 1, unless the exponent is stored with all zeros. Thus only 23 fraction bits of the [[significand]] appear in the memory format, but the total precision is 24 bits (equivalent to log&lt;sub&gt;10&lt;/sub&gt;(2&lt;sup&gt;24&lt;/sup&gt;) ≈ 7.225 decimal digits). The bits are laid out as follows:
+
+[[Image:Float example.svg]]
+
+The real value assumed by a given 32-bit ''binary32'' data with a given ''sign'', biased exponent ''e'' (the 8-bit unsigned integer), and a ''23-bit fraction'' is
+: &lt;math&gt;(-1)^{b_{31}} \times 2^{(b_{30}b_{29} \dots b_{23})_2 - 127} \times (1.b_{22}b_{21} \dots b_0)_2&lt;/math&gt;,
+which yields
+: &lt;math&gt;\text{value} = (-1)^\text{sign} \times 2^{(e-127)} \times \left(1 + \sum_{i=1}^{23} b_{23-i} 2^{-i} \right).&lt;/math&gt;
+
+In this example:
+*&lt;math&gt;\text{sign} = b_{31} = 0&lt;/math&gt;,
+*&lt;math&gt;(-1)^\text{sign} = (-1)^{0} = +1 \in \{-1, +1\}&lt;/math&gt;,
+*&lt;math&gt;e = b_{30}b_{29} \dots b_{23} = \sum_{i=0}^{7} b_{23+i} 2^{+i} = 124 \in \{1, \ldots, (2^8 - 1) - 1\} = \{1, \ldots, 254 \}&lt;/math&gt;,
+*&lt;math&gt;2^{(e-127)} = 2^{124-127} = 2^{-3} \in \{2^{-126}, \ldots, 2^{127}\} &lt;/math&gt;,
+*&lt;math&gt;1.b_{22}b_{21}...b_{0} = 1 + \sum_{i=1}^{23} b_{23-i} 2^{-i} = 1 + 1\cdot 2^{-2} = 1.25
+\in \{1, 1+2^{-23}, \ldots, 2-2^{-23}\}
+  \subset [1; 2 - 2^{-23}]
+  \subset [1; 2)&lt;/math&gt;.
+thus:
+*&lt;math&gt;\text{value} = (+1) \times 2^{-3} \times 1.25 = +0.15625&lt;/math&gt;.
+
+Note:
+*&lt;math&gt;1+2^{-23} \approx 1.000\,000\,119&lt;/math&gt;,
+*&lt;math&gt;2-2^{-23} \approx 1.999\,999\,881&lt;/math&gt;,
+*&lt;math&gt;2^{-126}  \approx 1.175\,494\,35 \times 10^{-38}&lt;/math&gt;,
+*&lt;math&gt;2^{+127}  \approx 1.701\,411\,83 \times 10^{+38}&lt;/math&gt;.
+
+===Exponent encoding===
+The single-precision binary floating-point exponent is encoded using an [[offset binary|offset-binary]] representation, with the zero offset being 127; also known as exponent bias in the IEEE 754 standard.
+
+*E&lt;sub&gt;min&lt;/sub&gt; = 01&lt;sub&gt;H&lt;/sub&gt;−7F&lt;sub&gt;H&lt;/sub&gt; = −126
+*E&lt;sub&gt;max&lt;/sub&gt; = FE&lt;sub&gt;H&lt;/sub&gt;−7F&lt;sub&gt;H&lt;/sub&gt; = 127
+*[[Exponent bias]] = 7F&lt;sub&gt;H&lt;/sub&gt; = 127
+
+Thus, in order to get the true exponent as defined by the offset-binary representation, the offset of 127 has to be subtracted from the stored exponent.
+
+The stored exponents 00&lt;sub&gt;H&lt;/sub&gt; and FF&lt;sub&gt;H&lt;/sub&gt; are interpreted specially.
+
+{|class="wikitable" style="text-align:center"
+! Exponent !! fraction = 0 !! fraction ≠ 0 !! Equation
+|-
+| 00&lt;sub&gt;H&lt;/sub&gt; || [[0 (number)|zero]]||[[denormal numbers|subnormal number]] || &lt;math&gt;(-1)^{sign}\times2^{-126}\times0.fraction&lt;/math&gt;
+|-
+| 01&lt;sub&gt;H&lt;/sub&gt;, ..., FE&lt;sub&gt;H&lt;/sub&gt; ||colspan=2| normal value || &lt;math&gt;(-1)^{sign}\times2^{exponent-127}\times1.fraction&lt;/math&gt;
+|-
+| FF&lt;sub&gt;H&lt;/sub&gt; || ±[[infinity]] || [[NaN]] (quiet, signalling) ||
+|}
+
+The minimum positive normal value is &lt;math&gt;2^{-126} \approx 1.18 \times 10^{-38}&lt;/math&gt; and the minimum positive (subnormal) value is &lt;math&gt;2^{-149} \approx 1.4 \times 10^{-45}&lt;/math&gt;.
+
+===Converting from decimal representation to binary32 format===
+{{Original research section|date=February 2020}}
+{{Confusing section|reason=the examples are simple particular cases (simple values exactly representable in binary, without an exponent part). This section is also probably off-topic: this is not an article about conversion, and conversion from decimal using decimal arithmetic (as opposed to conversion from a character string) is uncommon|date=February 2020}}
+In general, refer to the IEEE 754 standard itself for the strict conversion (including the rounding behaviour) of a real number into its equivalent binary32 format.
+
+Here we can show how to convert a base-10 real number into an IEEE 754 binary32 format using the following outline:
+* Consider a real number with an integer and a fraction part such as 12.375
+* Convert and [[normalized number|normalize]] the integer part into [[binary numeral system|binary]]
+* Convert the fraction part using the following technique as shown here
+* Add the two results and adjust them to produce a proper final conversion
+
+'''Conversion of the fractional part:'''
+Consider 0.375, the fractional part of 12.375. To convert it into a binary fraction, multiply the fraction by 2, take the integer part and repeat with the new fraction by 2 until a fraction of zero is found or until the precision limit is reached which is 23 fraction digits for IEEE 754 binary32 format.
+
+: &lt;math&gt;0.375 \times 2 = 0.750 = 0 + 0.750 \Rightarrow b_{-1} = 0&lt;/math&gt;, the integer part represents the binary fraction digit. Re-multiply 0.750 by 2 to proceed
+
+: &lt;math&gt;0.750 \times 2 = 1.500 = 1 + 0.500 \Rightarrow b_{-2} = 1&lt;/math&gt;
+
+: &lt;math&gt;0.500 \times 2 = 1.000 = 1 + 0.000 \Rightarrow b_{-3} = 1&lt;/math&gt;, fraction = 0.000, terminate
+
+We see that &lt;math&gt;(0.375)_{10}&lt;/math&gt; can be exactly represented in binary as &lt;math&gt;(0.011)_2&lt;/math&gt;. Not all decimal fractions can be represented in a finite digit binary fraction. For example, decimal 0.1 cannot be represented in binary exactly, only approximated. Therefore:
+
+: &lt;math&gt;(12.375)_{10} = (12)_{10} + (0.375)_{10} = (1100)_2 + (0.011)_2 = (1100.011)_2&lt;/math&gt;
+
+Since IEEE 754 binary32 format requires real values to be represented in &lt;math&gt;(1.x_1x_2...x_{23})_2 \times 2^{e}&lt;/math&gt; format (see [[Normalized number]], [[Denormalized number]]), 1100.011 is shifted to the right by 3 digits to become &lt;math&gt;(1.100011)_2 \times 2^{3}&lt;/math&gt;
+
+Finally we can see that: &lt;math&gt;(12.375)_{10} = (1.100011)_2 \times 2^{3}&lt;/math&gt;
+
+From which we deduce:
+* The exponent is 3 (and in the biased form it is therefore &lt;math&gt;130 = 1000\ 0010&lt;/math&gt;)
+* The fraction is 100011 (looking to the right of the binary point)
+
+From these we can form the resulting 32-bit IEEE 754 binary32 format representation of 12.375:
+
+: &lt;math&gt;(12.375)_{10} = (0\ 10000010\ 10001100000000000000000)_{2} = (41460000)_{16}&lt;/math&gt;
+
+Note: consider converting 68.123 into IEEE 754 binary32 format: Using the above procedure you expect to get &lt;math&gt;(\text{42883EF9})_{16}&lt;/math&gt; with the last 4 bits being 1001. However, due to the default rounding behaviour of IEEE 754 format, what you get is &lt;math&gt;(\text{42883EFA})_{16}&lt;/math&gt;, whose last 4 bits are 1010.
+
+'''Example 1:'''
+Consider decimal 1. We can see that: &lt;math&gt;(1)_{10} =(1.0)_2 \times 2^{0}&lt;/math&gt;
+
+From which we deduce:
+* The exponent is 0 (and in the biased form it is therefore &lt;math&gt;127 = 0111\ 1111&lt;/math&gt;)
+* The fraction is 0 (looking to the right of the binary point in 1.0 is all &lt;math&gt;0 = 000...0&lt;/math&gt;)
+
+From these we can form the resulting 32-bit IEEE 754 binary32 format representation of real number 1:
+
+: &lt;math&gt;(1)_{10} = (0\ 01111111\ 00000000000000000000000)_{2} = (\text{3F800000})_{16}&lt;/math&gt;
+
+'''Example 2:'''
+Consider a value 0.25. We can see that: &lt;math&gt;(0.25)_{10} =(1.0)_2 \times 2^{-2}&lt;/math&gt;
+
+From which we deduce:
+* The exponent is −2 (and in the biased form it is &lt;math&gt;(127+(-2))_{10} = (125)_{10} = (0111\ 1101)_{2}&lt;/math&gt;)
+* The fraction is 0 (looking to the right of binary point in 1.0 is all zeroes)
+
+From these we can form the resulting 32-bit IEEE 754 binary32 format representation of real number 0.25:
+
+: &lt;math&gt;(0.25)_{10} = (0\ 01111101\ 00000000000000000000000)_{2} = (\text{3E800000})_{16}&lt;/math&gt;
+
+'''Example 3:'''
+Consider a value of 0.375. We saw that &lt;math&gt;0.375 = {(1.1)_2}\times 2^{-2}&lt;/math&gt;
+
+Hence after determining a representation of 0.375 as &lt;math&gt;{(1.1)_2}\times 2^{-2}&lt;/math&gt; we can proceed as above:
+
+* The exponent is −2 (and in the biased form it is &lt;math&gt;(127+(-2))_{10} = (125)_{10} = (0111\ 1101)_{2}&lt;/math&gt;)
+* The fraction is 1 (looking to the right of binary point in 1.1 is a single &lt;math&gt;1 = x_1&lt;/math&gt;)
+
+From these we can form the resulting 32-bit IEEE 754 binary32 format representation of real number 0.375:
+
+: &lt;math&gt;(0.375)_{10} = (0\ 01111101\ 10000000000000000000000)_{2} = (\text{3EC00000})_{16}&lt;/math&gt;
+
+===Single-precision examples===
+These examples are given in bit ''representation'', in [[hexadecimal]] and [[Binary number|binary]], of the floating-point value. This includes the sign, (biased) exponent, and significand.
+
+ 0 00000000 00000000000000000000001&lt;sub&gt;2&lt;/sub&gt; = 0000 0001&lt;sub&gt;16&lt;/sub&gt; = 2&lt;sup&gt;−126&lt;/sup&gt; × 2&lt;sup&gt;−23&lt;/sup&gt; = 2&lt;sup&gt;−149&lt;/sup&gt; ≈ 1.4012984643 × 10&lt;sup&gt;−45&lt;/sup&gt;
+                                                    (smallest positive subnormal number)
+
+ 0 00000000 11111111111111111111111&lt;sub&gt;2&lt;/sub&gt; = 007f ffff&lt;sub&gt;16&lt;/sub&gt; = 2&lt;sup&gt;−126&lt;/sup&gt; × (1 − 2&lt;sup&gt;−23&lt;/sup&gt;) ≈ 1.1754942107 ×10&lt;sup&gt;−38&lt;/sup&gt;
+                                                    (largest subnormal number)
+
+ 0 00000001 00000000000000000000000&lt;sub&gt;2&lt;/sub&gt; = 0080 0000&lt;sub&gt;16&lt;/sub&gt; = 2&lt;sup&gt;−126&lt;/sup&gt; ≈ 1.1754943508 × 10&lt;sup&gt;−38&lt;/sup&gt;
+                                                    (smallest positive normal number)
+
+ 0 11111110 11111111111111111111111&lt;sub&gt;2&lt;/sub&gt; = 7f7f ffff&lt;sub&gt;16&lt;/sub&gt; = 2&lt;sup&gt;127&lt;/sup&gt; × (2 − 2&lt;sup&gt;−23&lt;/sup&gt;) ≈ 3.4028234664 × 10&lt;sup&gt;38&lt;/sup&gt;
+                                                    (largest normal number)
+
+ 0 01111110 11111111111111111111111&lt;sub&gt;2&lt;/sub&gt; = 3f7f ffff&lt;sub&gt;16&lt;/sub&gt; = 1 − 2&lt;sup&gt;−24&lt;/sup&gt; ≈ 0.9999999404
+                                                    (largest number less than one)
+
+ 0 01111111 00000000000000000000000&lt;sub&gt;2&lt;/sub&gt; = 3f80 0000&lt;sub&gt;16&lt;/sub&gt; = 1 (one)
+
+ 0 01111111 00000000000000000000001&lt;sub&gt;2&lt;/sub&gt; = 3f80 0001&lt;sub&gt;16&lt;/sub&gt; = 1 + 2&lt;sup&gt;−23&lt;/sup&gt; ≈ 1.0000001192
+                                                    (smallest number larger than one)
+
+ 1 10000000 00000000000000000000000&lt;sub&gt;2&lt;/sub&gt; = c000 0000&lt;sub&gt;16&lt;/sub&gt; = −2
+ 0 00000000 00000000000000000000000&lt;sub&gt;2&lt;/sub&gt; = 0000 0000&lt;sub&gt;16&lt;/sub&gt; = 0
+ 1 00000000 00000000000000000000000&lt;sub&gt;2&lt;/sub&gt; = 8000 0000&lt;sub&gt;16&lt;/sub&gt; = −0
+                                     
+ 0 11111111 00000000000000000000000&lt;sub&gt;2&lt;/sub&gt; = 7f80 0000&lt;sub&gt;16&lt;/sub&gt; = infinity
+ 1 11111111 00000000000000000000000&lt;sub&gt;2&lt;/sub&gt; = ff80 0000&lt;sub&gt;16&lt;/sub&gt; = −infinity
+                                     
+ 0 10000000 10010010000111111011011&lt;sub&gt;2&lt;/sub&gt; = 4049 0fdb&lt;sub&gt;16&lt;/sub&gt; ≈ 3.14159274101 ≈ π ( pi )
+ 0 01111101 01010101010101010101011&lt;sub&gt;2&lt;/sub&gt; = 3eaa aaab&lt;sub&gt;16&lt;/sub&gt; ≈ 0.333333343267 ≈ 1/3
+                                     
+ x 11111111 10000000000000000000001&lt;sub&gt;2&lt;/sub&gt; = ffc0 0001&lt;sub&gt;16&lt;/sub&gt; = qNaN (on x86 and ARM processors)
+ x 11111111 00000000000000000000001&lt;sub&gt;2&lt;/sub&gt; = ff80 0001&lt;sub&gt;16&lt;/sub&gt; = sNaN (on x86 and ARM processors)
+
+By default, 1/3 rounds up, instead of down like [[double precision]], because of the even number of bits in the significand. The bits of 1/3 beyond the rounding point are &lt;code&gt;1010...&lt;/code&gt; which is more than 1/2 of a [[unit in the last place]].
+
+Encodings of qNaN and sNaN are not specified in [[IEEE floating point|IEEE 754]] and implemented differently on different processors. The [[x86]] family and the [[ARM architecture|ARM]] family processors use the most significant bit of the significand field to indicate a quiet NaN. The [[PA-RISC]] processors use the bit to indicate a signalling NaN.
+
+===Converting from single-precision binary to decimal===
+{{Original research section|date=February 2020}}
+{{Confusing section|reason=there is only a very simple example, without rounding. This section is also probably off-topic: this is not an article about conversion, and conversion to decimal, using decimal arithmetic, is uncommon|date=February 2020}}
+We start with the hexadecimal representation of the value, {{mono|41C80000}}, in this example, and convert it to binary:
+
+: &lt;math&gt;\text{41C8 0000}_{16} = 0100\ 0001\ 1100\ 1000\ 0000\ 0000\ 0000\ 0000_{2}&lt;/math&gt;
+
+then we break it down into three parts: sign bit, exponent, and significand.
+
+* Sign bit: &lt;math&gt;0_2&lt;/math&gt;
+* Exponent: &lt;math&gt;1000\ 0011_2 = 83_{16} = 131_{10}&lt;/math&gt;
+* Significand: &lt;math&gt;100\ 1000\ 0000\ 0000\ 0000\ 0000_2 = 480000_{16}&lt;/math&gt;
+
+We then add the implicit 24th bit to the significand:
+
+* Significand: &lt;math&gt;\mathbf{1}100\ 1000\ 0000\ 0000\ 0000\ 0000_2 = \text{C80000}_{16}&lt;/math&gt;
+
+and decode the exponent value by subtracting 127:
+
+* Raw exponent: &lt;math&gt;83_{16} = 131_{10}&lt;/math&gt;
+* Decoded exponent: &lt;math&gt;131 - 127 = 4&lt;/math&gt;
+
+Each of the 24 bits of the significand (including the implicit 24th bit), bit 23 to bit 0, represents a value, starting at 1 and halves for each bit, as follows:
+
+ bit 23 = 1
+ bit 22 = 0.5
+ bit 21 = 0.25
+ bit 20 = 0.125
+ bit 19 = 0.0625
+ bit 18 = 0.03125
+ .
+ .
+ bit 0 = 0.00000011920928955078125
+
+The significand in this example has three bits set: bit 23, bit 22, and bit 19. We can now decode the significand by adding the values represented by these bits.
+
+* Decoded significand: &lt;math&gt;1 + 0.5 + 0.0625 = 1.5625 = \text{C80000}/2^{23}&lt;/math&gt;
+
+Then we need to multiply with the base, 2, to the power of the exponent, to get the final result:
+
+: &lt;math&gt;1.5625 \times 2^4 = 25&lt;/math&gt;
+
+Thus
+: &lt;math&gt;\text{41C8 0000} = 25&lt;/math&gt;
+
+This is equivalent to:
+: &lt;math&gt;n = (-1)^s \times
+           (1+m*2^{-23})\times
+           2^{x - 127}&lt;/math&gt;
+where {{mvar|s}} is the sign bit, {{mvar|x}} is the exponent, and {{mvar|m}} is the significand.
+
+=== Precision limitations on decimal values in [1, 16777216] ===
+* Decimals between 1 and 2: fixed interval 2&lt;sup&gt;−23&lt;/sup&gt; (1+2&lt;sup&gt;−23&lt;/sup&gt; is the next largest float after 1)
+* Decimals between 2 and 4: fixed interval 2&lt;sup&gt;−22&lt;/sup&gt;
+* Decimals between 4 and 8: fixed interval 2&lt;sup&gt;−21&lt;/sup&gt;
+* ...
+* Decimals between 2&lt;sup&gt;n&lt;/sup&gt;= and 2&lt;sup&gt;n+1&lt;/sup&gt;: fixed interval 2&lt;sup&gt;n-23&lt;/sup&gt;
+* ...
+* Decimals between 2&lt;sup&gt;22&lt;/sup&gt;=4194304 and 2&lt;sup&gt;23&lt;/sup&gt;=8388608: fixed interval 2&lt;sup&gt;−1&lt;/sup&gt;
+* Decimals between 2&lt;sup&gt;23&lt;/sup&gt;=8388608 and 2&lt;sup&gt;24&lt;/sup&gt;=16777216: fixed interval 2&lt;sup&gt;0&lt;/sup&gt;=1
+
+=== Precision limitations on integer values ===
+* Integers between 0 and 16777216 can be exactly represented (also applies for negative integers between −16777216 and 0)
+* Integers between 2&lt;sup&gt;24&lt;/sup&gt;=16777216 and 2&lt;sup&gt;25&lt;/sup&gt;=33554432 round to a multiple of 2 (even number)
+* Integers between 2&lt;sup&gt;25&lt;/sup&gt; and 2&lt;sup&gt;26&lt;/sup&gt; round to a multiple of 4
+* ...
+* Integers between 2&lt;sup&gt;n&lt;/sup&gt; and 2&lt;sup&gt;n+1&lt;/sup&gt; round to a multiple of 2&lt;sup&gt;n-23&lt;/sup&gt;
+* ...
+* Integers between 2&lt;sup&gt;127&lt;/sup&gt; and 2&lt;sup&gt;128&lt;/sup&gt; round to a multiple of 2&lt;sup&gt;104&lt;/sup&gt;
+* Integers greater than or equal to 2&lt;sup&gt;128&lt;/sup&gt; are rounded to "infinity".
+
+=== Optimizations ===
+
+The design of floating-point format allows various optimisations, resulting from the easy generation of a [[base-2 logarithm]] approximation from an integer view of the raw bit pattern. Integer arithmetic and bit-shifting can yield an approximation to [[reciprocal square root]] ([[fast inverse square root]]), commonly required in [[computer graphics]].
+
+==See also==
+*[[IEEE 754-2008|IEEE Standard for Floating-Point Arithmetic (IEEE 754)]]
+*[[ISO/IEC 10967]], language independent arithmetic
+*[[Primitive data type]]
+*[[Numerical stability]]
+
+==References==
+{{reflist}}
+
+==External links==
+*[https://evanw.github.io/float-toy/ Live floating-point bit pattern editor]
+*[http://www.h-schmidt.net/FloatConverter/IEEE754.html Online calculator]
+*[http://www.binaryconvert.com/convert_float.html Online converter for IEEE 754 numbers with single precision]
+*[https://web.archive.org/web/20091031135212/http://www.mathworks.com/matlabcentral/fileexchange/23173 C source code to convert between IEEE double, single, and half precision]
+
+{{data types}}
+
+[[Category:Binary arithmetic]]
+[[Category:Computer arithmetic]]
+[[Category:Floating point types]]</text>
+      <sha1>k3t93kyl5tkoqj0ybejzc093taqds3u</sha1>
+    </revision>
+  </page>
+</mediawiki>

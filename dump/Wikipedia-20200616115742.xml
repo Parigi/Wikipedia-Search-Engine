@@ -1,0 +1,379 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.10/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.10/ http://www.mediawiki.org/xml/export-0.10.xsd" version="0.10" xml:lang="en">
+  <siteinfo>
+    <sitename>Wikipedia</sitename>
+    <dbname>enwiki</dbname>
+    <base>https://en.wikipedia.org/wiki/Main_Page</base>
+    <generator>MediaWiki 1.35.0-wmf.36</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Media</namespace>
+      <namespace key="-1" case="first-letter">Special</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Talk</namespace>
+      <namespace key="2" case="first-letter">User</namespace>
+      <namespace key="3" case="first-letter">User talk</namespace>
+      <namespace key="4" case="first-letter">Wikipedia</namespace>
+      <namespace key="5" case="first-letter">Wikipedia talk</namespace>
+      <namespace key="6" case="first-letter">File</namespace>
+      <namespace key="7" case="first-letter">File talk</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki talk</namespace>
+      <namespace key="10" case="first-letter">Template</namespace>
+      <namespace key="11" case="first-letter">Template talk</namespace>
+      <namespace key="12" case="first-letter">Help</namespace>
+      <namespace key="13" case="first-letter">Help talk</namespace>
+      <namespace key="14" case="first-letter">Category</namespace>
+      <namespace key="15" case="first-letter">Category talk</namespace>
+      <namespace key="100" case="first-letter">Portal</namespace>
+      <namespace key="101" case="first-letter">Portal talk</namespace>
+      <namespace key="108" case="first-letter">Book</namespace>
+      <namespace key="109" case="first-letter">Book talk</namespace>
+      <namespace key="118" case="first-letter">Draft</namespace>
+      <namespace key="119" case="first-letter">Draft talk</namespace>
+      <namespace key="446" case="first-letter">Education Program</namespace>
+      <namespace key="447" case="first-letter">Education Program talk</namespace>
+      <namespace key="710" case="first-letter">TimedText</namespace>
+      <namespace key="711" case="first-letter">TimedText talk</namespace>
+      <namespace key="828" case="first-letter">Module</namespace>
+      <namespace key="829" case="first-letter">Module talk</namespace>
+      <namespace key="2300" case="first-letter">Gadget</namespace>
+      <namespace key="2301" case="first-letter">Gadget talk</namespace>
+      <namespace key="2302" case="case-sensitive">Gadget definition</namespace>
+      <namespace key="2303" case="case-sensitive">Gadget definition talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>History of programming languages</title>
+    <ns>0</ns>
+    <id>896120</id>
+    <revision>
+      <id>962792114</id>
+      <parentid>961363116</parentid>
+      <timestamp>2020-06-16T02:12:08Z</timestamp>
+      <contributor>
+        <ip>97.113.225.244</ip>
+      </contributor>
+      <comment>/* 1990s: the Internet age */ Removed html from list of languages - it is neither a programming language nor was it release in 1990</comment>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="32551" xml:space="preserve">{{For|a detailed timeline of events|Timeline of programming languages}}
+{{For|the [[Association for Computing Machinery|ACM]] conference series|History of Programming Languages}}
+{{expand lead|date=February 2018}}
+{{Hide in print|{{History of computing}}}}
+
+The '''history of programming languages''' spans from documentation of early mechanical computers to modern tools for software development. Early programming languages were highly specialized, relying on mathematical notation and similarly obscure syntax.&lt;ref&gt;Hopper (1978) p.&amp;nbsp;16.&lt;/ref&gt; Throughout the 20th century, research in [[Compiler|compiler]] theory led to the creation of high-level programming languages, which use a more accessible syntax to communicate instructions. 
+
+The first high-level programming language was [[Plankalkül]], created by [[Konrad Zuse]] between 1942 and 1945.&lt;ref&gt;{{cite journal |last=Knuth|first=Donald E.|last2=Pardo|first2=Luis Trabb|title=Early development of programming languages|journal=Encyclopedia of Computer Science and Technology|volume=7|pages=419–493|publisher=Marcel Dekker |postscript=&lt;!--None--&gt;}}&lt;/ref&gt; The first high-level language to have an associated [[compiler]] was created by [[Corrado Böhm]] in 1951, for [http://e-collection.library.ethz.ch/eserv/eth:32719/eth-32719-02.pdf his PhD thesis]. The first commercially available language was [[FORTRAN]] (FORmula TRANslation), developed in 1956 (first manual appeared in 1956, but first developed in 1954) by a team led by [[John Backus]] at [[IBM]].
+
+== Early history ==
+During 1842–1849, [[Ada Lovelace]] translated the memoir of Italian mathematician [[Luigi Menabrea]] about [[Charles Babbage]]'s newest proposed machine: the [[Analytical Engine]]; she supplemented the memoir with notes that specified in detail a method for calculating [[Bernoulli number]]s with the engine, recognized by some historians as the world's first published computer program.&lt;ref&gt;{{citation|author = J. Fuegi and J. Francis| title = Lovelace &amp; Babbage and the creation of the 1843 'notes'|journal = Annals of the History of Computing| volume = 25| issue = 4|date=October–December 2003| doi = 10.1109/MAHC.2003.1253887| pages = 16–26}}&lt;/ref&gt;
+
+The first computer codes were specialized for their applications: e.g., [[Alonzo Church]] was able to express the [[lambda calculus]] in a formulaic way and the [[Turing machine]] was an abstraction of the operation of a tape-marking machine.
+
+To some people, some degree of expressive power and human-readability is required before the status of "programming language" is granted. [[Jacquard Loom]]s and Charles Babbage's [[Difference engine|Difference Engine]] both had simple, extremely limited languages for describing the actions that these machines should perform.
+
+== First programming languages ==
+In the 1940s, the first recognizably modern electrically powered computers were created. The limited speed and memory capacity forced programmers to write hand-tuned [[assembly language]] programs. It was eventually realized that programming in assembly language required a great deal of intellectual effort.
+
+An early proposal for a [[high-level programming language]] was [[Plankalkül]], developed by [[Konrad Zuse]] for his [[Z1 (computer)|Z1 computer]] between 1943 and 1945 but not implemented at the time.&lt;ref&gt;In 1998 and 2000 compilers were created for the language as a historical exercise. [[Raúl Rojas|Rojas, Raúl]], et al. (2000). "Plankalkül: The First High-Level Programming Language and its Implementation". Institut frame Informatik, Freie Universität Berlin, Technical Report B-3/2000. [ftp://ftp.mi.fu-berlin.de/pub/reports/TR-B-00-03.pdf (full text)]&lt;/ref&gt;
+
+The first functioning programming languages designed to communicate instructions to a computer were written in the early 1950s. [[John Mauchly]]'s [[Short Code (computer language)|Short Code]], proposed in 1949, was one of the first high-level languages ever developed for an [[electronic computer]].&lt;ref name=Sebesta&gt;{{cite book |last=Sebesta |first=W.S. |date=2006 |title=Concepts of Programming Languages |url= |location= |publisher= |page=44 |isbn=978-0-321-33025-3 |access-date= }}&lt;/ref&gt; Unlike [[machine code]], Short Code statements represented mathematical expressions in understandable form. However, the program had to be translated into [[machine code]] every time it ran, making the process much slower than running the equivalent machine code.
+
+&lt;!-- [[WP:NFCC]] violation: [[File:Manchester Mark2.jpg|thumb|300px|The [[Manchester Mark 1]] ran programs written in [[Autocode]] from 1952.]] --&gt;
+In the early 1950s, [[Alick Glennie]] developed [[Autocode]], possibly the first compiled programming language, at the [[University of Manchester]]. In 1954, a second iteration of the language, known as the "Mark 1 Autocode," was developed for the Mark 1 by [[Tony Brooker|R. A. Brooker]]. Brooker also developed an autocode for the [[Ferranti Mercury]] in the 1950s in conjunction with the University of Manchester. The version for the [[EDSAC]] 2 was devised by [[Douglas Hartree]] of [[University of Cambridge Mathematical Laboratory]] in 1961. Known as EDSAC 2 Autocode, it was a straight development from Mercury Autocode adapted for local circumstances and was noted for its object code optimization and source-language diagnostics which were advanced for the time. A contemporary but separate thread of development, [[Atlas Autocode]] was developed for the University of Manchester [[Atlas Computer (Manchester)|Atlas 1]] machine.
+
+In 1954, [[FORTRAN]] was invented at IBM by a team led by [[John Backus]]; it was the first widely used [[high-level language|high-level general purpose programming language]] to have a functional implementation, as opposed to just a design on paper.&lt;ref&gt;{{cite web|author=|url=http://www.nbcnews.com/id/17704662 |title=Fortran creator John Backus dies - Tech and gadgets- NBC News |publisher=NBC News |date=2007-03-20 |accessdate=2010-04-25}}&lt;/ref&gt;&lt;ref&gt;{{cite web |url=http://www.math.grin.edu/~rebelsky/Courses/CS302/99S/Outlines/outline.02.html |title=CSC-302 99S : Class 02: A Brief History of Programming Languages |publisher=Math.grin.edu |accessdate=2010-04-25 |archive-url=https://web.archive.org/web/20100715042920/http://www.math.grin.edu/~rebelsky/Courses/CS302/99S/Outlines/outline.02.html |archive-date=2010-07-15 |url-status=dead }}&lt;/ref&gt; When FORTRAN was first introduced, it was viewed with skepticism due to bugs, delays in development, and the comparative efficiency of "hand-coded" programs written in assembly.&lt;ref&gt;{{cite journal |last1=Padua |first1=David |title=The FORTRAN I Compiler |journal=Computing in Science and Engineering |date=Feb 2000 |volume=2 |issue=1 |pages=70-75 |url=http://www.cs.fsu.edu/~lacher/courses/COT4401/notes/cise_v2_i1/fortran.pdf |accessdate=7 November 2019}}&lt;/ref&gt; However, in a hardware market that was rapidly evolving; the language eventually became known for its efficiency. It is still a popular language for [[high-performance computing]]&lt;ref name=hpc&gt;{{cite journal|url=http://queue.acm.org/detail.cfm?id=1820518|author=Eugene Loh|title=The Ideal HPC Programming Language|journal=Queue|date=18 June 2010 |publisher = Association of Computing Machines|volume=8|issue=6}}&lt;/ref&gt; and is used for programs that benchmark and rank the world's [[TOP500|fastest supercomputers]].&lt;ref&gt;{{cite web|title = HPL - A Portable Implementation of the High-Performance Linpack Benchmark for Distributed-Memory Computers | accessdate = 2015-02-21 | url = http://www.netlib.org/benchmark/hpl}}&lt;/ref&gt;
+
+Another early programming language was devised by [[Grace Hopper]] in the US, called [[FLOW-MATIC]]. It was developed for the [[UNIVAC I]] at [[Remington Rand]] during the period from 1955 until 1959. Hopper found that business data processing customers were uncomfortable with mathematical notation, and in early 1955, she and her team wrote a specification for an [[English language|English]] programming language and implemented a prototype.&lt;ref&gt;Hopper (1978) p.&amp;nbsp;16.&lt;/ref&gt; The FLOW-MATIC compiler became publicly available in early 1958 and was substantially complete in 1959.&lt;ref&gt;Sammet (1969) p.&amp;nbsp;316&lt;/ref&gt; Flow-Matic was a major influence in the design of [[COBOL]], since only it and its direct descendant [[AIMACO]] were in actual use at the time.&lt;ref&gt;Sammet (1978) p.&amp;nbsp;204.&lt;/ref&gt;
+
+Other languages still in use today include [[Lisp (programming language)|LISP]] (1958), invented by [[John McCarthy (computer scientist)|John McCarthy]] and [[COBOL]] (1959), created by the Short Range Committee. Another milestone in the late 1950s was the publication, by a committee of American and European computer scientists, of "a new language for algorithms"; the ''[[ALGOL]] 60 Report'' (the "'''ALGO'''rithmic '''L'''anguage"). This report consolidated many ideas circulating at the time and featured three key language innovations:
+
+* nested block structure: code sequences and associated declarations could be grouped into [[block (programming)|blocks]] without having to be turned into separate, explicitly named procedures;
+* [[Scope (programming)|lexical scoping]]: a block could have its own private variables, procedures and functions, invisible to code outside that block, that is, [[information hiding]].
+Another innovation, related to this, was in how the language was described:
+* a mathematically exact notation, [[Backus–Naur form]] (BNF), was used to describe the language's syntax. Nearly all subsequent programming languages have used a variant of BNF to describe the [[context-free grammar|context-free]] portion of their syntax.
+
+Algol 60 was particularly influential in the design of later languages, some of which soon became more popular. The [[Burroughs large systems]] were designed to be programmed in an extended subset of Algol.
+
+Algol's key ideas were continued, producing [[ALGOL 68]]:
+
+* syntax and semantics became even more orthogonal, with anonymous routines, a recursive typing system with higher-order functions, etc.;
+* not only the context-free part, but the full language syntax and semantics were defined formally, in terms of [[Van Wijngaarden grammar]], a formalism designed specifically for this purpose.
+Algol 68's many little-used language features (for example, concurrent and parallel blocks) and its complex system of syntactic shortcuts and automatic type coercions made it unpopular with implementers and gained it a reputation of being ''difficult''. [[Niklaus Wirth]] actually walked out of the design committee to create the simpler [[Pascal (programming language)|Pascal]] language.
+
+[[File:Fortran acs cover.jpeg|thumb|150px|Fortran]]
+
+Some notable languages that were developed in this period include:
+
+{|
+| valign=top |
+* 1951 – [[Assembly language|Regional Assembly Language]]
+* 1952 – [[Autocode]]
+* 1954 – [[Information Processing Language|IPL]] (forerunner to LISP)
+* 1955 – [[FLOW-MATIC]] (led to COBOL)
+* 1957 – [[Fortran|FORTRAN]] (first compiler)
+* 1957 – [[COMTRAN]] (precursor to COBOL)
+* 1958 – [[Lisp (programming language)|LISP]]
+* 1958 – [[ALGOL 58]]
+* 1959 – [[FACT computer language|FACT]] (forerunner to COBOL)
+* 1959 – [[COBOL]] {{ns|20}} {{ns|30}}
+| valign=top |
+* 1959 – [[IBM RPG|RPG]]
+* 1962 – [[APL (programming language)|APL]]
+* 1962 – [[Simula]]
+* 1962 – [[SNOBOL]]
+* 1963 – [[Combined Programming Language|CPL]] (forerunner to C)
+* 1964 – [[Speakeasy (computational environment)|Speakeasy]]
+* 1964 – [[BASIC]]
+* 1964 – [[PL/I]]
+* 1966 – [[JOSS]]
+* 1966 - [[MUMPS]]
+* 1967 – [[BCPL]] (forerunner to C)
+|}
+
+== Establishing fundamental paradigms ==
+
+[[File:Lambda lc.svg|thumb|100px|Scheme]]
+The period from the late 1960s to the late 1970s brought a major flowering of programming languages. Most of the major language paradigms now in use were invented in this period:{{Original research inline|date=May 2018}}
+
+* '''[[Speakeasy (computational environment)|Speakeasy]]''', developed in 1964 at [[Argonne National Laboratory]] (ANL) by [[Stanley Cohen (physicist)|Stanley Cohen]], is an OOPS ([[object-oriented programming]] system, much like the later [[MATLAB]], [[IDL (programming language)|IDL]] and [[Mathematica]]) numerical package. Speakeasy has a clear [[Fortran]] foundation syntax. It first addressed efficient physics computation internally at ANL, was modified for research use (as "Modeleasy") for the [[Federal Reserve Board]] in the early 1970s and then was made available commercially; Speakeasy and Modeleasy are still in use currently.
+* '''[[Simula]]''', invented in the late 1960s by [[Kristen Nygaard|Nygaard]] and [[Ole-Johan Dahl|Dahl]] as a superset of Algol 60, was the first language designed to support [[object-oriented programming]].
+* '''[[C (programming language)|C]]''', an early [[system programming|systems programming]] language, was developed by [[Dennis Ritchie]] and [[Ken Thompson]] at [[Bell Labs]] between 1969 and 1973.
+* '''[[Smalltalk]]''' (mid-1970s) provided a complete ground-up design of an object-oriented language.
+* '''[[Prolog]]''', designed in 1972 by [[Alain Colmerauer|Colmerauer]], [[Phillipe Roussel|Roussel]], and [[Robert Kowalski|Kowalski]], was the first [[logic programming]] language.
+* '''[[ML (programming language)|ML]]''' built a polymorphic type system (invented by [[Robin Milner]] in 1973) on top of Lisp,&lt;ref name="Gordon1996"&gt;{{cite web | last = Gordon | first = Michael J. C. | authorlink = Michael J. C. Gordon | year=1996 | title = From LCF to HOL: a short history | url = http://www.cl.cam.ac.uk/~mjcg/papers/HolHistory.pdf | page = 3 | quote = Edinburgh LCF, including the ML interpreter, was implemented in Lisp.| accessdate = 2015-05-04}}&lt;/ref&gt; pioneering [[Type system|statically typed]] [[functional programming]] languages.
+Each of these languages spawned an entire family of descendants, and most modern languages count at least one of them in their ancestry.
+
+The 1960s and 1970s also saw considerable debate over the merits of "[[structured programming]]", which essentially meant programming without the use of "[[goto]]". A significant fraction of programmers believed that, even in languages that provide "goto", it is bad [[programming style]] to use it except in rare circumstances. This debate was closely related to language design: some languages did not include a "goto" at all, which forced structured programming on the programmer.
+
+To provide even faster compile times, some languages were structured for "[[one-pass compiler]]s" which expect subordinate routines to be defined first, as with [[Pascal (programming language)|Pascal]], where the main routine, or driver function, is the final section of the program listing.
+
+Some notable languages that were developed in this period include:
+
+{|
+| valign=top |
+* 1967 – [[BCPL]] (forerunner to B)
+* 1968 – [[Logo (programming language)|Logo]]
+* 1969 – [[B (programming language)|B]] (forerunner to C)
+* 1970 – [[Pascal (programming language)|Pascal]]
+* 1970 – [[Forth (programming language)|Forth]]
+* 1972 – [[C (programming language)|C]]{{ns|20}} {{ns|30}}
+| valign=top |
+* 1972 – [[Smalltalk]]
+* 1972 – [[Prolog]]
+* 1973 – [[ML (programming language)|ML]]
+* 1975 – [[Scheme (programming language)|Scheme]]
+* 1978 – [[SQL]] (a query language, later extended)
+|}
+
+== 1980s: consolidation, modules, performance ==
+[[File:Matlab Logo.png|thumb|100px|MATLAB]]
+[[File:Erlang logo.png|thumb|100px|Erlang]]
+[[File:Tcl.svg|thumb|50px|Tcl]]
+The 1980s were years of relative consolidation in [[imperative language]]s. Rather than inventing new paradigms, all of these movements elaborated upon the ideas invented in the previous decade. [[C++]] combined object-oriented and systems programming. The United States government standardized [[Ada (programming language)|Ada]], a systems programming language intended for use by defense contractors. In Japan and elsewhere, vast sums were spent investigating so-called [[fifth-generation programming language]]s that incorporated logic programming constructs. The functional languages community moved to standardize ML and Lisp. Research in [[Miranda (programming language)|Miranda]], a functional language with [[lazy evaluation]], began to take hold in this decade.
+
+One important new trend in language design was an increased focus on programming for large-scale systems through the use of ''modules'', or large-scale organizational units of code. [[Modula]], Ada, and ML all developed notable module systems in the 1980s. Module systems were often wedded to [[generic programming]] constructs---generics being, in essence, parametrized modules{{fact|date=August 2017}} (see also [[polymorphism in object-oriented programming]]).
+
+Although major new paradigms for imperative programming languages did not appear, many researchers expanded on the ideas of prior languages and adapted them to new contexts. For example, the languages of the [[Argus (computer system)|Argus]] and [[Emerald (computer system)|Emerald]] systems adapted object-oriented programming to [[distributed computing|distributed systems]].
+
+The 1980s also brought advances in programming language implementation. The [[Reduced instruction set computer|RISC]] movement in [[computer architecture]] postulated that hardware should be designed for [[compiler]]s rather than for human assembly programmers. Aided by [[Central processing unit|processor]] speed improvements that enabled increasingly aggressive compilation techniques, the RISC movement sparked greater interest in compilation technology for high-level languages.
+
+Language technology continued along these lines well into the 1990s. &lt;!-- However, the adoption of languages has always been driven by the adoption of new computer systems, and in the mid-1990s one of the most important new systems in computer history suddenly exploded in popularity. --&gt;
+
+Some notable languages that were developed in this period include:
+
+{|
+| valign=top |
+* 1980 – [[C++]] (as [[C with classes]], renamed in&amp;nbsp;1983)
+* 1983 – [[Ada (programming language)|Ada]]
+* 1984 – [[Common Lisp]]
+* 1984 – [[MATLAB]]
+* 1984 – dBase III, dBase III Plus (Clipper and [[FoxPro]] as [[FoxBASE]], later developing into [[Visual FoxPro]])
+* 1985 – [[Eiffel (programming language)|Eiffel]]
+* 1986 – [[Objective-C]] {{ns|20}} {{ns|30}}
+| valign=top |
+* 1986 – [[LabVIEW]] (Visual Programming Language)
+* 1986 – [[Erlang (programming language)|Erlang]]
+* 1987 – [[Perl]]
+* 1988 – [[Tcl]]
+* 1988 – [[Wolfram Language]] (as part of [[Mathematica]], only got a separate name in June 2013)
+* {{nowrap|1989 – [[FL (programming language)|FL]] (Backus)}}{{ns}}
+|}
+
+== 1990s: the Internet age ==
+[[File:Haskell-Logo.svg|thumb|100px|Haskell]]
+[[File:Lua-Logo.svg|thumb|100px|Lua]]
+[[File:PHP Logo.png|thumb|100px|PHP]]
+[[File:Rebol logo.png|thumb|100px|Rebol]]
+The rapid growth of the Internet in the mid-1990s was the next major historic event in programming languages. By opening up a radically new platform for computer systems, the Internet created an opportunity for new languages to be adopted. In particular, the [[JavaScript]] programming language rose to popularity because of its early integration with the Netscape Navigator web browser. Various other scripting languages achieved widespread use in developing customized applications for web servers such as PHP. The 1990s saw no fundamental novelty in [[imperative language]]s, but much recombination and maturation of old ideas. This era began the spread of [[functional language]]s. A big driving philosophy was programmer productivity. Many "rapid application development" (RAD) languages emerged, which usually came with an [[Integrated development environment|IDE]], [[garbage collection (computer science)|garbage collection]], and were descendants of older languages. All such languages were [[object-oriented programming|object-oriented]]. These included [[Object Pascal]], [[Visual Basic]], and [[Java (programming language)|Java]]. Java in particular received much attention.
+
+More radical and innovative than the RAD languages were the new [[scripting language]]s. These did not directly descend from other languages and featured new syntaxes and more liberal incorporation of features. Many consider these scripting languages to be more productive than even the RAD languages, but often because of choices that make small programs simpler but large programs more difficult to write and maintain.{{Citation needed|date=June 2009}} Nevertheless, scripting languages came to be the most prominent ones used in connection with the Web.
+
+Some notable languages that were developed in this period include:
+
+{|
+| valign=top |
+* 1990 – [[Haskell (programming language)|Haskell]]
+* 1990 – [[Python (programming language)|Python]]
+* 1991 – [[Visual Basic]]
+* 1993 – [[Lua (programming language)|Lua]]
+* 1993 – [[R (programming language)|R]]
+* 1994 – [[CLOS]] (part of ANSI [[Common Lisp]])
+| valign=top |
+* 1995 – [[Ruby (programming language)|Ruby]]
+* 1995 – [[Ada 95]] {{ns|20}} {{ns|30}}
+* 1995 – [[Java (programming language)|Java]]
+* {{nowrap|1995 – [[Embarcadero Delphi|Delphi (Object Pascal)]]}}
+* 1995 – [[JavaScript]]
+* 1995 – [[PHP]]
+* 1997 – [[REBOL|Rebol]]
+|}
+
+== Current trends ==
+
+Programming language evolution continues, in both industry and research. Some of the recent trends have included:
+
+[[File:D Programming Language logo.svg|thumb|100px|D Programming Language]]
+[[File:Groovy-logo.svg|thumb|100px|Groovy]]
+[[File:PowerShell Core 6.0 icon.png|thumb|100px|PowerShell]]
+[[File:Rust programming language black logo.svg|thumb|100px|Rust]]
+[[File:Scratchlogo.svg|thumb|100px|Scratch]]
+[[File:Swift logo with text.svg|thumb|100px|Swift]]
+
+* Increasing support for [[functional programming]] in mainstream languages used commercially, including [[Purely functional programming|pure functional programming]] for making code easier to reason about and easier to parallelise (at both micro- and macro- levels)
+* Constructs to support [[Concurrent computing|concurrent]] and [[Distributed computing|distributed]] programming.
+* Mechanisms for adding security and reliability [[software verification|verification]] to the language: extended static checking, [[dependent typing]], information flow control, static [[thread safety]].
+* Alternative mechanisms for composability and modularity: [[mixin]]s, [[Trait (computer programming)|traits]], [[typeclass]]es, [[Delegation (programming)|delegates]], [[aspect-oriented programming|aspects]].
+* Component-oriented software development.
+* [[Metaprogramming]], [[Reflection (computer science)|reflection]] or access to the [[abstract syntax tree]]
+** AOP or [[Aspect Oriented Programming]] allowing developers to insert code in another module or class at "join points"
+** [[Domain specific language]]s and [[Automatic programming|code generation]]
+*** XML for graphical interface ([[XUL]], [[Extensible Application Markup Language|XAML]])
+* Increased interest in distribution and mobility.
+* Integration with databases, including [[XML]] and [[relational database]]s.
+* [[Open-source software|Open source]] as a developmental philosophy for languages, including the GNU Compiler Collection and languages such as [[Python (programming language)|Python]], [[Ruby (programming language)|Ruby]], and [[Scala (programming language)|Scala]].
+* Massively parallel languages for coding 2000 processor GPU graphics processing units and supercomputer arrays including [[OpenCL]]
+* Early research into (as-yet-unimplementable) [[quantum computing]] programming languages
+* More interest in [[Visual_programming_language|visual programming languages]] like [[Scratch (programming language)|Scratch]] 
+
+Some notable languages developed during this period include: &lt;ref name="TIOBE Index"&gt;{{cite web |url=https://www.tiobe.com/tiobe-index/ |title=TIOBE Index, Top 100 programming languages according to TIOBE Index |author=TIOBE |date=25 May 2018 |work=www.tiobe.com |publisher=[[TIOBE_index]]}}&lt;/ref&gt;&lt;ref name="GitHub's Octoverse 2018"&gt;{{cite web |url=https://octoverse.github.com/projects |archive-url=https://web.archive.org/web/20190322190823/https://octoverse.github.com/projects |url-status=dead |archive-date=2019-03-22 |title=GitHub's Octoverse 2018}}&lt;/ref&gt;
+
+{|
+| valign=top |
+* 2000 – [[ActionScript]]
+* 2001 – [[C Sharp (programming language)|C#]]
+* 2001 – [[D (programming language)|D]]
+* 2002 – [[Scratch (programming language)|Scratch]]
+* 2003 – [[Groovy (programming language)|Groovy]] {{ns|15}} {{ns|30}}
+* 2003 – [[Scala (programming language)|Scala]]
+* 2005 – [[F Sharp (programming language)|F#]]
+* 2006 – [[Windows PowerShell|PowerShell]]
+* 2007 – [[Clojure]]
+| valign=top |
+* 2009 – [[Go (programming language)|Go]]
+* 2010 – [[Rust (programming language)|Rust]]
+* 2011 – [[Dart (programming language)|Dart]]
+* 2011 – [[Kotlin (programming language)|Kotlin]]
+* 2011 – [[Elixir (programming language)|Elixir]] 
+* 2012 – [[Julia (programming language)|Julia]]
+* 2012 - [[TypeScript]] 
+* 2014 – [[Swift (programming language)|Swift]]
+|}
+
+Other new programming languages include [[Red (programming language)|Red]], [[Crystal (programming language)|Crystal]], [[Hack (programming language)|Hack]], [[Reason (programming language)|Reason]] and [[Ballerina (programming language)|Ballerina]].
+
+== Prominent people ==
+[[File:Anders Hejlsberg.jpg|thumb|100px|Anders Hejlsberg]]
+[[File:Yukihiro Matsumoto EuRuKo 2011.jpg|thumb|100px|Yukihiro Matsumoto]]
+[[File:Grace Hopper.jpg|thumb|100px|Grace M. Hopper]]
+[[File:BjarneStroustrup.jpg|thumb|100px|Bjarne Stroustrup]]
+[[File:Niklaus Wirth, UrGU.jpg|thumb|100px|Niklaus Wirth]]
+
+Some key people who helped develop programming languages:
+
+* [[Alan Cooper]], developer of [[Visual Basic]].
+* [[Alan Kay]], pioneering work on object-oriented programming, and originator of [[Smalltalk]].
+* [[Anders Hejlsberg]], developer of [[Turbo Pascal]], [[Embarcadero Delphi|Delphi]], [[C Sharp (programming language)|C#]], and [[TypeScript]].
+* [[Arthur Whitney (computer scientist)|Arthur Whitney]], developer of [[A+ (programming language)|A+]], [[K (programming language)|k]], and [[Q_(programming_language_from_Kx_Systems)|q]].
+* [[Bertrand Meyer]], inventor of [[Eiffel (programming language)|Eiffel]].
+* [[Bjarne Stroustrup]], developer of [[C++]].
+* [[Brian Kernighan]], co-author of the first book on the [[C (programming language)|C]] programming language with [[Dennis Ritchie]], coauthor of the [[AWK]] and [[AMPL (programming language)|AMPL]] programming languages.
+* [[Chris Lattner]], creator of [[Swift (programming language)|Swift]] and [[LLVM]].
+* [[Cleve Moler]], creator of [[MATLAB]].
+* [[Dennis Ritchie]], inventor of [[C (programming language)|C]]. Unix Operating System, Plan 9 Operating System.
+* [[Douglas McIlroy]], influenced and designed such languages as [[SNOBOL]], [[TRAC (programming language)|TRAC]], [[PL/I]], [[ALTRAN]], [[TMG (language)|TMG]] and [[C++]].
+* [[Grace Hopper]], first to use the term [[compiler]] and developer of [[FLOW-MATIC]], influenced development of [[COBOL]]. Popularized machine-independent programming languages and the term "[[debugging]]".
+* [[Guido van Rossum]], creator of [[Python (programming language)|Python]].
+* [[James Gosling]], lead developer of [[Java (programming language)|Java]] and its precursor, [[Oak (programming language)|Oak]].
+* [[Jean Ichbiah]], chief designer of [[Ada (programming language)|Ada]], [[Ada 83]].
+* [[Jean-Yves Girard]], co-inventor of the [[polymorphic lambda calculus]] (System F).
+* [[Jeff Bezanson]], main designer, and one of the core developers of [[Julia (programming language)|Julia]].
+* [[Jeffrey Snover]], inventor of [[PowerShell]].
+* [[Joe Armstrong (programming)|Joe Armstrong]], creator of [[Erlang (programming language)|Erlang]].
+* [[John Backus]], inventor of [[Fortran]] and cooperated in the design of [[ALGOL 58]] and [[ALGOL 60]].
+* [[John C. Reynolds]], co-inventor of the polymorphic lambda calculus (System F).
+* [[John McCarthy (computer scientist)|John McCarthy]], inventor of [[Lisp (programming language)|LISP]].
+* [[John von Neumann]], originator of the [[operating system]] concept.
+* [[Rust (programming language)|Graydon Hoare]], inventor of [[Rust (programming language)|Rust]].
+* [[Ken Thompson]], inventor of [[B (programming language)|B]], [[Go (programming language)|Go]], [[Inferno (operating system)]] and [[Unix]] Operating System co-author.
+* [[Kenneth E. Iverson]], developer of [[APL (programming language)|APL]], and co-developer of [[J (programming language)|J]] along with [[Roger Hui]].
+* [[Konrad Zuse]], designed the first [[high-level programming language]], [[Plankalkül]] (which influenced [[ALGOL 58]]&lt;ref&gt;{{cite book |last=Rojas|first=Raúl|first2=Ulf|last2=Hashagen| year=2002 |title=The First Computers: History and Architectures|page=292 |url=https://books.google.com/books?id=nDWPW9uwZPAC&amp;pg=PA292&amp;dq=algol-68+konrad+zuse |location= |publisher=MIT Press |isbn=978-0262681377 |accessdate=October 25, 2013 }}&lt;/ref&gt;).
+* [[Kristen Nygaard]], pioneered object-oriented programming, co-invented [[Simula]].
+* [[Larry Wall]], creator of the Perl programming language (see [[Perl]] and [[Raku (programming language)|Raku]]).
+* [[Martin Odersky]], creator of [[Scala (programming language)|Scala]], and previously a contributor to the design of [[Java (programming language)|Java]].
+* [[Martin Richards (computer scientist)|Martin Richards]] developed the [[BCPL]] programming language, forerunner of the [[B (programming language)|B]] and [[C (programming language)|C]] languages.
+* [[Nathaniel Rochester (computer scientist)|Nathaniel Rochester]], inventor of first [[Assembler (computing)|assembler]] (IBM 701).
+* [[Niklaus Wirth]], inventor of [[Pascal (programming language)|Pascal]], [[Modula]] and [[Oberon (programming language)|Oberon]].
+* [[Ole-Johan Dahl]], pioneered object-oriented programming, co-invented [[Simula]].
+* [[Rasmus Lerdorf]], creator of [[PHP]].
+* [[Rich Hickey]], creator of [[Clojure]].
+* [[Robert Gentleman (statistician)|Robert Gentleman]], co-creator of [[R (programming language)|R]].
+* [[Robert Griesemer]], co-creator of [[Go (programming language)|Go]].
+* [[Robin Milner]], inventor of [[ML (programming language)|ML]], and sharing credit for [[Hindley–Milner]] [[parametric polymorphism|polymorphic]] [[type inference]].
+* [[Rob Pike]], co-creator of [[Go (programming language)|Go]], [[Inferno (operating system)]] and [[Plan 9 (operating system)]] Operating System co-author.
+* [[Ross Ihaka]], co-creator of [[R (programming language)|R]].
+* [[Stanley Cohen (physicist)|Stanley Cohen]], inventor of [[Speakeasy (computational environment)|Speakeasy]], which was created with an OOPS, object-oriented programming system, the first instance, in 1964.
+* [[Stephen Wolfram]], creator of [[Mathematica]].
+* Tom Love and [[Brad Cox]], creator of [[Objective-C]].
+* [[Walter Bright]], creator of [[D (programming language)|D]].
+* [[Yukihiro Matsumoto]], creator of [[Ruby (programming language)|Ruby]].
+
+== See also ==
+{|
+| valign=top |
+* [[Association for Computing Machinery|ACM]]
+* [[SIGPLAN]]
+* [[History of Programming Languages Conference]]
+* [[History of compiler writing]]
+* [[History of computing hardware]] {{ns|10}} {{ns|23}}
+| valign=top |
+* [[Programming language]]
+* [[Timeline of computing]]
+* [[Timeline of programming languages]]
+* [[List of programming languages]]
+* [[List of programmers]]
+|}
+
+== References ==
+&lt;references /&gt;
+
+== Further reading ==
+* [[Saul Rosen|Rosen, Saul]], (editor), ''Programming Systems and Languages'', McGraw-Hill, 1967.
+* [[Jean E. Sammet|Sammet, Jean E.]], ''Programming Languages: History and Fundamentals'', Prentice-Hall, 1969.
+* {{cite journal|author=Sammet, Jean E.|title=Programming Languages: History and Future|journal=Communications of the ACM|volume=15|issue=7|date=July 1972|pages=601–610|doi=10.1145/361454.361485}}
+* [[Richard L. Wexelblat]] (ed.): ''History of Programming Languages'', [[Academic Press]] 1981.
+* Thomas J. Bergin and Richard G. Gibson (eds.): ''History of Programming Languages'', Addison Wesley, 1996.
+
+== External links ==
+* [http://www.scriptol.com/programming/history.php History and evolution of programming languages]
+* [http://www.levenez.com/lang/history.html Graph of programming language history]
+
+{{Programming languages}}
+
+{{DEFAULTSORT:Programming languages}}
+[[Category:History of computing]]
+[[Category:History of computer science]]</text>
+      <sha1>krv9g5dwpkbszb7r75pwqxhpasn5t6d</sha1>
+    </revision>
+  </page>
+</mediawiki>

@@ -1,0 +1,135 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.10/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.10/ http://www.mediawiki.org/xml/export-0.10.xsd" version="0.10" xml:lang="en">
+  <siteinfo>
+    <sitename>Wikipedia</sitename>
+    <dbname>enwiki</dbname>
+    <base>https://en.wikipedia.org/wiki/Main_Page</base>
+    <generator>MediaWiki 1.35.0-wmf.36</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Media</namespace>
+      <namespace key="-1" case="first-letter">Special</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Talk</namespace>
+      <namespace key="2" case="first-letter">User</namespace>
+      <namespace key="3" case="first-letter">User talk</namespace>
+      <namespace key="4" case="first-letter">Wikipedia</namespace>
+      <namespace key="5" case="first-letter">Wikipedia talk</namespace>
+      <namespace key="6" case="first-letter">File</namespace>
+      <namespace key="7" case="first-letter">File talk</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki talk</namespace>
+      <namespace key="10" case="first-letter">Template</namespace>
+      <namespace key="11" case="first-letter">Template talk</namespace>
+      <namespace key="12" case="first-letter">Help</namespace>
+      <namespace key="13" case="first-letter">Help talk</namespace>
+      <namespace key="14" case="first-letter">Category</namespace>
+      <namespace key="15" case="first-letter">Category talk</namespace>
+      <namespace key="100" case="first-letter">Portal</namespace>
+      <namespace key="101" case="first-letter">Portal talk</namespace>
+      <namespace key="108" case="first-letter">Book</namespace>
+      <namespace key="109" case="first-letter">Book talk</namespace>
+      <namespace key="118" case="first-letter">Draft</namespace>
+      <namespace key="119" case="first-letter">Draft talk</namespace>
+      <namespace key="446" case="first-letter">Education Program</namespace>
+      <namespace key="447" case="first-letter">Education Program talk</namespace>
+      <namespace key="710" case="first-letter">TimedText</namespace>
+      <namespace key="711" case="first-letter">TimedText talk</namespace>
+      <namespace key="828" case="first-letter">Module</namespace>
+      <namespace key="829" case="first-letter">Module talk</namespace>
+      <namespace key="2300" case="first-letter">Gadget</namespace>
+      <namespace key="2301" case="first-letter">Gadget talk</namespace>
+      <namespace key="2302" case="case-sensitive">Gadget definition</namespace>
+      <namespace key="2303" case="case-sensitive">Gadget definition talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Epigenome editing</title>
+    <ns>0</ns>
+    <id>42299134</id>
+    <revision>
+      <id>958718717</id>
+      <parentid>955528852</parentid>
+      <timestamp>2020-05-25T10:39:34Z</timestamp>
+      <contributor>
+        <username>Citation bot</username>
+        <id>7903804</id>
+      </contributor>
+      <comment>Alter: journal. Add: issue, author pars. 1-1. Removed parameters. Some additions/deletions were actually parameter name changes. | You can [[WP:UCB|use this bot]] yourself. [[WP:DBUG|Report bugs here]]. | Activated by Headbomb | via #UCB_webform</comment>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="22468" xml:space="preserve">[[File:Epigenome editing.png|thumb|A visual overview of how TALE proteins are used for epigenome editing.]]
+'''Epigenome editing''' or '''Epigenome engineering''' is a type of genetic engineering in which the [[epigenome]] is modified at specific sites using engineered molecules targeted to those sites (as opposed to whole-genome modifications). Whereas gene editing involves changing the actual DNA sequence itself, epigenetic editing involves modifying and presenting DNA sequences to proteins and other DNA binding factors that influence DNA function. By "editing” epigenomic features in this manner, researchers can determine the exact biological role of an epigenetic modification at the site in question.
+
+The engineered proteins used for epigenome editing are composed of a DNA binding domain that target specific sequences and an effector domain that modifies epigenomic features. Currently, three major groups of DNA binding proteins have been predominantly used for epigenome editing: [[Zinc finger]] proteins, [[TAL effector|Transcription Activator-Like Effectors (TALEs)]] and nuclease deficient Cas9 fusions ([[CRISPR]]).
+
+== General concept ==
+
+Comparing genome-wide [[epigenetic]] maps with [[gene expression]] has allowed researchers to assign either activating or repressing roles to specific modifications. The importance of DNA sequence in regulating the epigenome has been demonstrated by using DNA motifs to predict epigenomic modification.&lt;ref name="Whitaker"&gt;{{cite journal|last=Whitaker JW|author2=Wang W|first=Chen Z|title=Predicting the human epigenome from DNA motifs|journal=Nature Methods|date=2014|doi=10.1038/nmeth.3065|volume=12|issue=3|pages=265–272|pmid=25240437|pmc=4344378}}&lt;/ref&gt; Further insights into mechanisms behind [[epigenetics]] have come from [[in vitro]] biochemical and structural analyses. Using [[model organism]]s, researchers have been able to describe the role of many [[chromatin]] factors through [[Gene knockout|knockout]] studies. However knocking out an entire chromatin modifier has massive effects on the entire genome, which may not be an accurate representation of its function in a specific context. As one example of this, [[DNA methylation]] occurs at [[Repeated sequence (DNA)|repeat regions]], [[Promoter (genetics)|promoters]], [[Enhancer (genetics)|enhancers]], and [[gene]] bodies. Although [[DNA methylation]] at gene promoters typically correlates with gene repression, methylation at gene bodies is correlated with gene activation, and DNA methylation may also play a role in gene splicing.&lt;ref name="Jones"&gt;{{cite journal|last=Jones|first=Peter A.|title=Functions of DNA methylation: islands, start sites, gene bodies and beyond|journal=Nature Reviews Genetics|date=29 May 2012|volume=13|issue=7|pages=484–492|doi=10.1038/nrg3230|pmid=22641018}}&lt;/ref&gt;   The ability to directly target and edit individual methylation sites is critical to determining the exact function of DNA methylation at a specific site. Epigenome editing is a powerful tool that allows this type of analysis. For site-specific DNA methylation editing as well as for histone editing, genome editing systems have been adapted into epigene editing systems. In short, genome homing proteins with engineered or naturally occurring nuclease functions for gene editing, can be mutated and adapted into purely delivery systems. An epigenetic modifying enzyme or domain can be fused to the homing protein and local epigenetic modifications can be altered upon protein recruitment.
+
+=== Targeting proteins ===
+
+==== TALE ====
+
+The [[TAL effector|Transcription Activator-Like Effector (TALE)]] protein recognizes specific DNA sequences based on the composition of its [[DNA binding domain]].&lt;ref name="Gaj"&gt;{{cite journal|last=Gaj|first=Thomas|author2=Gersbach, Charles A. |author3=Barbas, Carlos F. |title=ZFN, TALEN, and CRISPR/Cas-based methods for genome engineering|journal=Trends in Biotechnology|date=2013|volume=31|issue=7|pages=397–405|doi=10.1016/j.tibtech.2013.04.004|pmid=23664777|pmc=3694601}}&lt;/ref&gt;  This allows the researcher to construct different TALE proteins to recognize a target DNA sequence by editing the TALE's primary protein structure. The binding specificity of this protein is then typically confirmed using [[Chromatin Immunoprecipitation]] (ChIP) and [[Sanger sequencing]] of the resulting DNA fragment.&lt;ref name="Konermann"&gt;{{cite journal|last=Konermann|first=Silvana|author2=Brigham, Mark D. |author3=Trevino, Alexandro |author4=Hsu, Patrick D. |author5=Heidenreich, Matthias |author6=Le Cong |author7=Platt, Randall J. |author8=Scott, David A. |author9=Church, George M. |author10=Zhang, Feng|title=Optical control of mammalian endogenous transcription and epigenetic states|journal=Nature|date=2013|doi=10.1038/nature12466 |pmid=23877069 |pmc=3856241 |volume=500 |issue=7463|pages=472–6|url=https://dash.harvard.edu/bitstream/handle/1/11879742/3856241.pdf?sequence=1|bibcode=2013Natur.500..472K}}&lt;/ref&gt;&lt;ref name="Maeder"&gt;{{cite journal|last=Maeder|first=Morgan L |author2=Angstman, James F |author3=Richardson, Marcy E |author4=Linder, Samantha J |author5=Cascio, Vincent M |author6=Tsai, Shengdar Q |author7=Ho, Quan H |author8=Sander, Jeffry D |author9=Reyon, Deepak |author10=Bernstein, Bradley E |author11=Costello, Joseph F |author12=Wilkinson, Miles F |author13=Joung, J Keith |title=Targeted DNA demethylation and activation of endogenous genes using programmable TALE-TET1 fusion proteins|journal=Nature Biotechnology|date=2013|volume=31|issue=12|pages=1137–1142|doi=10.1038/nbt.2726 |pmid=24108092 |pmc=3858462}}&lt;/ref&gt;&lt;ref name="Mendenhall"&gt;{{cite journal|last=Mendenhall|first=Eric M|author2=Williamson, Kaylyn E |author3=Reyon, Deepak |author4=Zou, James Y |author5=Ram, Oren |author6=Joung, J Keith |author7= Bernstein, Bradley E |title=Locus-specific editing of histone modifications at endogenous enhancers|journal=Nature Biotechnology|date=2013|volume=31|issue=12|pages=1133–1136|doi=10.1038/nbt.2701 |pmid=24013198 |pmc=3858395}}&lt;/ref&gt; This confirmation is still required on all TALE sequence recognition research.&lt;ref name="Voigt"&gt;{{cite journal|last=Voigt|first=Philipp|author2=Reinberg, Danny|title=Epigenome editing|journal=Nature Biotechnology|date=2013|volume=31|issue=12|pages=1097–1099|doi=10.1038/nbt.2756|pmid=24316647}}&lt;/ref&gt;
+When used for epigenome editing, these DNA binding proteins are attached to an effector protein. Effector proteins that have been used for this purpose include [[TET1|Ten-eleven translocation methylcytosine dioxygenase 1 (TET1)]],&lt;ref name="Maeder" /&gt; [[LSD1|Lysine (K)-specific demethylase 1A (LSD1)]]&lt;ref name="Mendenhall" /&gt; and [[CIB1|Calcium and integrin binding protein 1 (CIB1)]].&lt;ref name="Konermann" /&gt;
+
+==== Zinc finger proteins ====
+
+The use of [[zinc finger]]-fusion proteins to recognize sites for epigenome editing has been explored as well. Maeder et al. has constructed a ZF-TET1 protein for use in DNA demethylation.&lt;ref name="Maeder" /&gt; These zinc finger proteins work similarly to [[TAL effector|TALE proteins]] in that they are able to bind to sequence specific sites in on the DNA based on their protein structure which can be modified. Chen et al. have successfully used a zinc finger DNA binding domain coupled with the [[TET1]] protein to induce demethylation of several previously silenced genes.&lt;ref name="Chen"&gt;{{cite journal|last=Chen|first=H. |author2=Kazemier, H. G. |author3=de Groote, M. L. |author4=Ruiters, M. H. J. |author5=Xu, G.-L. |author6=Rots, M. G. |title=Induced DNA demethylation by targeting Ten-Eleven Translocation 2 to the human ICAM-1 promoter|journal=Nucleic Acids Research|date=2013|volume=42|issue=3|pages=1563–1574|doi=10.1093/nar/gkt1019 |pmid=24194590 |pmc=3919596}}&lt;/ref&gt;
+
+==== CRISPR-Cas ====
+The [[CRISPR|Clustered Regulatory Interspaced Short Palindromic Repeat (CRISPR)]]-Cas system functions as a DNA site-specific nuclease.&lt;ref&gt;{{Cite web|url=https://www.neb.com/tools-and-resources/feature-articles/crispr-cas9-and-targeted-genome-editing-a-new-era-in-molecular-biology|title=CRISPR/Cas9 and Targeted Genome Editing: A New Era in Molecular Biology {{!}} NEB|last=Biolabs|first=New England|website=www.neb.com|access-date=2016-06-07}}&lt;/ref&gt; In the well-studied type II CRISPR system, the Cas9 nuclease associates with a chimera composed of tracRNA and crRNA. This chimera is frequently referred to as a guide RNA (gRNA). When the Cas9 protein associates with a DNA region-specific gRNA, the Cas9 cleaves DNA at targeted DNA loci. However, when the D10A and H840A point mutations are introduced, a catalytically-dead Cas9 (dCas9) is generated that can bind DNA but will not cleave.&lt;ref&gt;{{Cite web|url=https://www.addgene.org/crispr/guide/|title=Addgene: CRISPR/Cas9 Guide|website=www.addgene.org|access-date=2016-06-07}}&lt;/ref&gt; The dCas9 system has been utilized for targeted epigenetic reprogramming in order to introduce site-specific DNA methylation. By fusing the [[DNA (cytosine-5)-methyltransferase 3A|DNMT3a]] catalytic domain with the dCas9 protein, dCas9-DNMT3a is capable of achieving targeted DNA methylation of a targeted region as specified by the present guide RNA.&lt;ref&gt;{{Cite journal|last1=McDonald|first1=James I.|last2=Celik|first2=Hamza|last3=Rois|first3=Lisa E.|last4=Fishberger|first4=Gregory|last5=Fowler|first5=Tolison|last6=Rees|first6=Ryan|last7=Kramer|first7=Ashley|last8=Martens|first8=Andrew|last9=Edwards|first9=John R.|date=2016-05-09|title=Reprogrammable CRISPR/Cas9-based system for inducing site-specific DNA methylation|journal=Biology Open|language=en|pages=866–74|doi=10.1242/bio.019067|issn=2046-6390|pmid=27170255|volume=5|issue=6|pmc=4920199}}&lt;/ref&gt; Similarly, dCas9 has been fused with the catalytic core of the human acetyltransferase [[EP300|p300]]. dCas9-p300 successfully catalyzes targeted acetylation of histone H3 lysine 27.&lt;ref&gt;{{Cite journal|last1=Hilton|first1=Isaac B.|last2=D'Ippolito|first2=Anthony M.|last3=Vockley|first3=Christopher M.|last4=Thakore|first4=Pratiksha I.|last5=Crawford|first5=Gregory E.|last6=Reddy|first6=Timothy E.|last7=Gersbach|first7=Charles A.|date=2015-05-01|title=Epigenome editing by a CRISPR-Cas9-based acetyltransferase activates genes from promoters and enhancers|journal=Nature Biotechnology|language=en|volume=33|issue=5|pages=510–517|doi=10.1038/nbt.3199|issn=1087-0156|pmc=4430400|pmid=25849900}}&lt;/ref&gt;
+
+A variant in CRISPR epigenome editing (called FIRE-Cas9) allows to reverse the changes made, in case something went wrong.&lt;ref&gt;[https://www.nature.com/articles/s41467-017-00644-y Rapid and reversible epigenome editing by endogenous chromatin regulators]&lt;/ref&gt;&lt;ref&gt;{{cite journal| pmid=29456084 | doi=10.1016/j.cell.2018.01.012 | volume=172 | title=Rescue of Fragile X Syndrome Neurons by DNA Methylation Editing of the FMR1 Gene | pmc=6375087 | year=2018 | journal=Cell | pages=979–992.e6 | last1 = Liu | first1 = XS | last2 = Wu | first2 = H | last3 = Krzisch | first3 = M | last4 = Wu | first4 = X | last5 = Graef | first5 = J | last6 = Muffat | first6 = J | last7 = Hnisz | first7 = D | last8 = Li | first8 = CH | last9 = Yuan | first9 = B | last10 = Xu | first10 = C | last11 = Li | first11 = Y | last12 = Vershkov | first12 = D | last13 = Cacace | first13 = A | last14 = Young | first14 = RA | last15 = Jaenisch | first15 = R| issue=5 }}&lt;/ref&gt;
+
+=== Commonly used effector proteins ===
+
+[[TET1]] induces demethylation of cytosine at [[CpG sites]]. This protein has been used to activate genes that are repressed by CpG methylation and to determine the role of individual CpG methylation sites.&lt;ref name="Maeder" /&gt; [[LSD1]] induces the demethylation of [[H3K4me1]]/2, which also causes an indirect effect of deacetylation on H3K27. This effector can be used on [[histones]] in enhancer regions, which can changes the expression of neighboring genes.&lt;ref name="Mendenhall" /&gt; [[CIB1]] is a light sensitive [[cryptochrome]], this cryptochrome is fused to the TALE protein. A second protein contains an interaction partner ([[CRY2]]) fused with a [[chromatin]]/DNA modifier (ex. [[SID4X]]). [[CRY2]] is able to interact with [[CIB1]] when the cryptochrome has been activated by illumination with blue light.&lt;ref name="Liu"&gt;{{cite journal|last=Liu|first=H.|author2=Yu, X. |author3=Li, K. |author4=Klejnot, J. |author5=Yang, H. |author6=Lisiero, D. |author7= Lin, C. |title=Photoexcited CRY2 Interacts with CIB1 to Regulate Transcription and Floral Initiation in Arabidopsis|journal=Science|date=2008|volume=322|issue=5907|pages=1535–1539|doi=10.1126/science.1163927|pmid=18988809|bibcode=2008Sci...322.1535L}}&lt;/ref&gt; The interaction allows the chromatin modifier to act on the desired location. This means that the modification can be performed in an inducible and reversible manner, which reduces long-term secondary effects that would be caused by constitutive epigenetic modification.&lt;ref name="Konermann" /&gt;
+
+== Applications ==
+
+=== Studying enhancer function and activity ===
+
+Editing of gene enhancer regions in the genome through targeted epigenetic modification has been demonstrated by Mendenhall et al. (2013).&lt;ref name="Mendenhall" /&gt; This study utilized a TALE-LSD1 effector fusion protein in order to target enhancers of genes, to induce enhancer silencing in order to deduce enhancer activity and gene control. Targeting specific enhancers followed by locus specific [[Real-time polymerase chain reaction|RT-qPCR]] allows for the genes affected by the silenced enhancer to be determined. Alternatively, inducing enhancer silencing in regions upstream of genes allows for gene expression to be altered. [[Real-time polymerase chain reaction|RT-qPCR]] can then be utilized to study effects of this on gene expression. This allows for enhancer function and activity to be studied in detail.&lt;ref name="Mendenhall" /&gt;
+
+=== Determining the function of specific methylation sites ===
+
+It is important to understand the role specific methylation sites play regulating in gene expression. To study this, one research group used a TALE-TET1 fusion protein to demethylate a single CpG methylation site.&lt;ref name="Maeder" /&gt; Although this approach requires many controls to ensure specific binding to target loci, a properly performed study using this approach can determine the biological function of a specific CpG methylation site.&lt;ref name="Maeder" /&gt;
+
+=== Determining the role of epigenetic modifications directly ===
+
+Epigenetic editing using an inducible mechanism offers a wide array of potential use to study epigenetic effects in various states. One research group employed an [[optogenetic]] two-hybrid system which integrated the sequence specific TALE DNA-binding domain with a light-sensitive cryptochrome 2 protein ([[CIB1]]).&lt;ref name="Konermann" /&gt; Once expressed in the cells, the system was able to inducibly edit histone modifications and determine their function in a specific context.&lt;ref name="Konermann" /&gt;
+
+== Limitations ==
+
+Sequence specificity is critically important in epigenome editing and must be carefully verified (this can be done using [[chromatin immunoprecipitation]] followed by [[Sanger sequencing]] to verify the targeted sequence).&lt;ref name="Voigt" /&gt; It is unknown if the TALE fusion may cause effects on the catalytic activity of the epigenome modifier. This could be especially important in effector proteins that require multiple subunits and complexes such as the [[Polycomb]] repressive complex.&lt;ref name="Voigt" /&gt; Proteins used for epigenome editing may obstruct ligands and substrates at the target site.&lt;ref name="Voigt" /&gt; The TALE protein itself may even compete with [[transcription factors]] if they are targeted to the same sequence.&lt;ref name="Voigt" /&gt; In addition, DNA repair systems could reverse the alterations on the chromatin and prevent the desired changes from being made.&lt;ref name="Voigt" /&gt; It is therefore necessary for fusion constructs and targeting mechanisms to be optimized for reliable and repeatable epigenome editing.
+
+== References for further reading ==
+*{{cite journal | last1 = Srivastava | first1 = D. | last2 = DeWitt | first2 = N. | year = 2016 | title = In Vivo Cellular Reprogramming: The Next Generation | url = | journal = Cell | volume = 166 | issue = 6| pages = 1386–1396 | doi = 10.1016/j.cell.2016.08.055 | pmid = 27610565 | pmc = 6234007 }}
+* {{cite journal | last1 = Chakraborty | first1 = S. | last2 = Ji | first2 = H. | last3 = Kabadi | first3 = A. M. | last4 = Gersbach | first4 = C. A. | last5 = Christoforou | first5 = N. | last6 = Leong | first6 = K. W. | year = 2014 | title = A CRISPR/Cas9-based system for reprogramming cell lineage specification | journal = Stem Cell Reports | volume = 3 | issue = 6| pages = 940–947 | doi = 10.1016/j.stemcr.2014.09.013 | pmid = 25448066 | pmc = 4264059 }}
+* {{cite journal | last1 = Thakore | first1 = P. I. | last2 = Black | first2 = J. B. | last3 = Hilton | first3 = I. B. | last4 = Gersbach | first4 = C. A. | year = 2016 | title = Editing the epigenome: technologies for programmable transcription and epigenetic modulation | journal = Nature Methods | volume = 13 | issue = 2| pages = 127–137 | doi = 10.1038/nmEth.3733 | pmid = 26820547 | pmc = 4922638 }}
+* {{cite journal | last1 = Vora | first1 = S. | last2 = Tuttle | first2 = M. | last3 = Cheng | first3 = J. | last4 = Church | first4 = G. | year = 2016 | title = Next stop for the CRISPR revolution: RNA guided epigenetic regulators | journal = The FEBS Journal | volume =  283| issue = 17| pages =  3181–3193| doi = 10.1111/febs.13768 | pmid = 27248712 | doi-access = free }}
+* {{cite journal | last1 = Nelson | first1 = C. E. | last2 = Gersbach | first2 = C. A. | year = 2016 | title = Engineering Delivery Vehicles for Genome Editing | journal = Annual Review of Chemical and Biomolecular Engineering | volume = 7 | issue = | pages = 637–662 | doi = 10.1146/annurev-chembioeng-080615-034711 | pmid = 27146557 | doi-access = free }}
+* {{cite journal | last1 = Hilton | first1 = I. B. | last2 = D'Ippolito | first2 = A. M. | last3 = Vockley | first3 = C. M. | last4 = Thakore | first4 = P. I. | last5 = Crawford | first5 = G. E. | last6 = Reddy | first6 = T. E. | last7 = Gersbach | first7 = C. A. | year = 2015 | title = Epigenome editing by a CRISPR-Cas9-based acetyltransferase activates genes from promoters and enhancers | journal = Nature Biotechnology | volume = 33 | issue = 5| pages = 510–517 | doi = 10.1038/nbt.3199 | pmid=25849900 | pmc=4430400}}
+* {{cite journal | last1 = McDonald | first1 = J. I. | last2 = Celik | first2 = H. | last3 = Rois | first3 = L. E. | last4 = Fishberger | first4 = G. | last5 = Fowler | first5 = T. | last6 = Rees | first6 = R. | last7 = Challen | first7 = G. A. | year = 2016 | title = Reprogrammable CRISPR/Cas9-based system for inducing site-specific DNA methylation | journal = Biology Open | volume = 5 | issue = 6| pages = 866–874 | doi = 10.1242/bio.019067 | pmid=27170255 | pmc=4920199}}
+* {{cite journal | last1 = Xu | first1 = X. | last2 = Tao | first2 = Y. | last3 = Gao | first3 = X. | last4 = Zhang | first4 = L. | last5 = Li | first5 = X. | last6 = Zou | first6 = W. | last7 = Hu | first7 = R. | year = 2016 | title = A CRISPR-based approach for targeted DNA demethylation | journal = Cell Discovery | volume = 2 | issue = | page = 16009 | doi = 10.1038/celldisc.2016.9 | pmid = 27462456 | pmc = 4853773 }}
+* {{cite journal | last1 = Zalatan | first1 = J. G. | last2 = Lee | first2 = M. E. | last3 = Almeida | first3 = R. | last4 = Gilbert | first4 = L. A. | last5 = Whitehead | first5 = E. H. | last6 = La Russa | first6 = M. | last7 = Lim | first7 = W. A. | year = 2015 | title = Engineering complex synthetic transcriptional programs with CRISPR RNA scaffolds | journal = Cell | volume = 160 | issue = 1| pages = 339–350 | doi = 10.1016/j.cell.2014.11.052 | pmid = 25533786 | pmc = 4297522 }}
+* {{cite journal | last1 = Morita | first1 = S. | last2 = Noguchi | first2 = H. | last3 = Horii | first3 = T. | last4 = Nakabayashi | first4 = K. | last5 = Kimura | first5 = M. | last6 = Okamura | first6 = K. | last7 = Hatada | first7 = I. | year = 2016 | title = Targeted DNA demethylation in vivo using dCas9-peptide repeat and scFv-TET1 catalytic domain fusions | journal = Nature Biotechnology | volume =  34| issue = 10| pages =  1060–1065| doi = 10.1038/nbt.3658 | pmid = 27571369 }}
+* {{cite journal | last1 = Liu | first1 = X. S. | last2 = Wu | first2 = H. | last3 = Ji | first3 = X. | last4 = Stelzer | first4 = Y. | last5 = Wu | first5 = X. | last6 = Czauderna | first6 = S. | last7 = Jaenisch | first7 = R. | year = 2016 | title = Editing DNA Methylation in the Mammalian Genome | journal = Cell | volume = 167 | issue = 1| pages = 233–247 | doi = 10.1016/j.cell.2016.08.056 | pmid = 27662091 | pmc = 5062609 }}
+* {{cite journal | last1 = Amabile | first1 = A. | last2 = Migliara | first2 = A. | last3 = Capasso | first3 = P. | last4 = Biffi | first4 = M. | last5 = Cittaro | first5 = D. | last6 = Naldini | first6 = L. | last7 = Lombardo | first7 = A. | year = 2016 | title = Inheritable Silencing of Endogenous Genes by Hit-and-Run Targeted Epigenetic Editing | journal = Cell | volume = 167 | issue = 1| pages = 219–232 | doi = 10.1016/j.cell.2016.09.006 | pmid = 27662090 | pmc = 5039111 }}
+*Tompkins JD. www.epigenomeengineering.com
+* [https://www.genengnews.com/topics/omics/crispr-activation-of-single-genes-turns-skin-cells-to-stem-cells/  CRISPR Activation of Single Genes Turns Skin Cells to Stem Cells]
+* {{cite journal | last1 = Liao | first1 = H. K. | last2 = Hatanaka | first2 = F. | last3 = Araoka | first3 = T. | last4 = Reddy | first4 = P. | last5 = Wu | first5 = M. Z. | last6 = Sui | first6 = Y. | last7 = Esteban | first7 = C.R. | last8 = Izpisua Belmonte | first8 = J.C. | year = 2017 | title = In vivo target gene activation via CRISPR/Cas9-mediated trans-epigenetic modulation | journal = Cell | volume = 171 | issue = 7| pages = 1495–1507 | doi = 10.1016/j.cell.2017.10.025 | pmc = 5732045 | pmid = 29224783 }}
+* {{cite journal | last1 = Lau | first1 = C. H. | last2 = Suh | first2 = Y. | year = 2018 | title = In vivo epigenome editing and transcriptional modulation using CRISPR technology | pmc = 6261694  | journal = Transgenic Research | volume = 27 | issue = 6| pages = 489–509 | doi = 10.1007/s11248-018-0096-8 | pmid = 30284145 }}
+
+== References ==
+
+{{reflist}}
+
+[[Category:Epigenetics]]
+[[Category:Genetic engineering]]
+[[Category:Genome editing]]</text>
+      <sha1>jq1hsryif4193s72p5f75562u9jx3w7</sha1>
+    </revision>
+  </page>
+</mediawiki>

@@ -1,0 +1,150 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.10/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.10/ http://www.mediawiki.org/xml/export-0.10.xsd" version="0.10" xml:lang="en">
+  <siteinfo>
+    <sitename>Wikipedia</sitename>
+    <dbname>enwiki</dbname>
+    <base>https://en.wikipedia.org/wiki/Main_Page</base>
+    <generator>MediaWiki 1.35.0-wmf.36</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Media</namespace>
+      <namespace key="-1" case="first-letter">Special</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Talk</namespace>
+      <namespace key="2" case="first-letter">User</namespace>
+      <namespace key="3" case="first-letter">User talk</namespace>
+      <namespace key="4" case="first-letter">Wikipedia</namespace>
+      <namespace key="5" case="first-letter">Wikipedia talk</namespace>
+      <namespace key="6" case="first-letter">File</namespace>
+      <namespace key="7" case="first-letter">File talk</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki talk</namespace>
+      <namespace key="10" case="first-letter">Template</namespace>
+      <namespace key="11" case="first-letter">Template talk</namespace>
+      <namespace key="12" case="first-letter">Help</namespace>
+      <namespace key="13" case="first-letter">Help talk</namespace>
+      <namespace key="14" case="first-letter">Category</namespace>
+      <namespace key="15" case="first-letter">Category talk</namespace>
+      <namespace key="100" case="first-letter">Portal</namespace>
+      <namespace key="101" case="first-letter">Portal talk</namespace>
+      <namespace key="108" case="first-letter">Book</namespace>
+      <namespace key="109" case="first-letter">Book talk</namespace>
+      <namespace key="118" case="first-letter">Draft</namespace>
+      <namespace key="119" case="first-letter">Draft talk</namespace>
+      <namespace key="446" case="first-letter">Education Program</namespace>
+      <namespace key="447" case="first-letter">Education Program talk</namespace>
+      <namespace key="710" case="first-letter">TimedText</namespace>
+      <namespace key="711" case="first-letter">TimedText talk</namespace>
+      <namespace key="828" case="first-letter">Module</namespace>
+      <namespace key="829" case="first-letter">Module talk</namespace>
+      <namespace key="2300" case="first-letter">Gadget</namespace>
+      <namespace key="2301" case="first-letter">Gadget talk</namespace>
+      <namespace key="2302" case="case-sensitive">Gadget definition</namespace>
+      <namespace key="2303" case="case-sensitive">Gadget definition talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Maya numerals</title>
+    <ns>0</ns>
+    <id>19823</id>
+    <revision>
+      <id>962687520</id>
+      <parentid>962687508</parentid>
+      <timestamp>2020-06-15T13:21:28Z</timestamp>
+      <contributor>
+        <username>Minorax</username>
+        <id>36529075</id>
+      </contributor>
+      <minor/>
+      <comment>Reverted edits by [[Special:Contribs/82.219.202.7|82.219.202.7]] ([[User talk:82.219.202.7|talk]]) to last version by Drmies</comment>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="8340" xml:space="preserve">[[Image:maya.svg|thumb|right|Maya numerals]]
+The '''Mayan numeral system''' was the system to represent numbers and calendar dates in the [[Maya civilization]]. It was a [[vigesimal]] (base-20) [[positional notation|positional]]  [[numeral system]]. The numerals are made up of three symbols; [[Zero number#The Americas|zero]] ([[Turtle shell|shell]] shape, with the [[Turtle shell#Plastron|plastron]] uppermost), [[1 (number)|one]] (a dot) and [[5 (number)|five]] (a bar).  For example, thirteen is written as three dots in a horizontal row above two horizontal bars; sometimes it is also written as three vertical dots to the left of two vertical bars.  With these three symbols each of the twenty vigesimal digits could be written.
+
+{| align="left" class="wikitable" style="text-align:center; margin-right:10px;"
+|-
+|400s
+| 
+| {{Horizontal Maya|1}}
+| {{Horizontal Maya|12}}
+|- 
+| 20s
+| {{Horizontal Maya|1}}
+| {{Horizontal Maya|1}}
+| {{Horizontal Maya|16}}
+|-
+| 1s
+| {{Horizontal Maya|13}}
+| {{Horizontal Maya|9}}
+| {{Horizontal Maya|5}}
+|-
+|
+| 33
+| 429
+| 5125
+|}
+Numbers after 19 were written vertically in powers of twenty. The Mayan used powers of twenty, just as the [[Hindu–Arabic numeral system]] uses powers of tens.&lt;ref&gt;{{cite web|url=http://saxakali.com/historymam2.htm|title=Maya Numerals|author=Saxakali|year=1997|archiveurl=https://web.archive.org/web/20060714025120/http://www.saxakali.com/historymam2.htm|archivedate=2006-07-14|accessdate=2006-07-29}}&lt;/ref&gt; For example, thirty-three would be written as one dot, above three dots atop two bars. The first dot represents "one twenty" or "1×20", which is added to three dots and two bars, or thirteen. Therefore, (1×20) + 13 = 33. Upon reaching 20&lt;sup&gt;2&lt;/sup&gt; or 400, another row is started (20&lt;sup&gt;3&lt;/sup&gt; or 8000, then 20&lt;sup&gt;4&lt;/sup&gt; or 160,000, and so on). The number 429 would be written as one dot above one dot above four dots and a bar, or (1×20&lt;sup&gt;2&lt;/sup&gt;) + (1×20&lt;sup&gt;1&lt;/sup&gt;) + 9 = 429. 
+
+Other than the bar and dot notation, Maya numerals were sometimes illustrated by face type glyphs or pictures. The face glyph for a number represents the deity associated with the number. These face number glyphs were rarely used, and are mostly seen on some of the most elaborate monumental carving.
+{{Table Numeral Systems}}
+
+
+
+__TOC__
+== Addition and subtraction ==
+Adding and subtracting numbers below 20 using Maya numerals is very simple.
+[[Addition]] is performed by combining the numeric symbols at each level:&lt;br&gt;
+[[Image:Maya add.png|210px]]
+
+If five or more dots result from the combination, five dots are removed and replaced by a bar. If four or more bars result, four bars are removed and a dot is added to the next higher row.
+
+Similarly with [[subtraction]], remove the elements of the [[subtrahend]] symbol from the [[minuend]] symbol:&lt;br&gt;
+[[Image:Mayan subtract.png|210px]]
+
+If there are not enough dots in a minuend position, a bar is replaced by five dots. If there are not enough bars, a dot is removed from the next higher minuend symbol in the column and four bars are added to the minuend symbol which is being worked on.
+
+== Modified vigesimal system in the Maya calendar ==
+[[File:La Mojarra Estela 1 (Escritura superior).jpg|thumb|266x266px|Detail showing in the right columns glyphs from [[La Mojarra Stela 1]].  The left column uses Maya numerals to show a [[Mesoamerican Long Count calendar|Long Count date]] of 8.5.16.9.7, or 156 CE.]]
+The "Long Count" portion of the [[Maya calendar]] uses a variation on the strictly vigesimal numbering. In the second position, only the digits up to 17 are used, and the [[positional notation|place value]] of the third position is not 20×20 = 400, as would otherwise be expected, but 18×20 = 360, so that one dot over two zeros signifies 360.  Presumably, this is because 360 is roughly the number of days in a [[year]]. (The Maya had however a quite accurate estimation of 365.2422 days for the [[Solar Year|solar year]] at least since the early [[Maya civilization#Classic period|Classic era]].)&lt;ref&gt;{{cite book | title=The Mayans | publisher=Lucent Books, Inc. | author=Kallen, Stuart A. | year=1955 | location=San Diego, CA | pages=[https://archive.org/details/mayans00kall/page/56 56] | isbn=1-56006-757-8 | url-access=registration | url=https://archive.org/details/mayans00kall/page/56 }}&lt;/ref&gt; Subsequent positions use all twenty digits and the place values continue as 18×20×20 = 7,200 and 18×20×20×20 = 144,000, etc.
+
+Every known example of large numbers in the Maya system uses this 'modified vigesimal' system, with the third position representing multiples of 18×20. It is reasonable to assume{{According to whom|date=August 2019}}, but not proven by any evidence, that the normal system in use was a pure base-20 system.
+
+== Origins ==
+Several Mesoamerican cultures used similar numerals and base-twenty systems and the [[Mesoamerican Long Count calendar]] requiring the use of zero as a place-holder. The earliest long count date (on [[Chiapa de Corzo Stela 2#Notable finds|Stela 2]] at Chiapa de Corzo, [[Chiapas]]) is from 36 BC.&lt;ref&gt;No long count date actually using the number 0 has been found before the 3rd century BC, but since the long count system would make no sense without some placeholder, and since Mesoamerican glyphs do not typically leave empty spaces, these earlier dates are taken as indirect evidence that the concept of 0 already existed at the time.&lt;/ref&gt;
+
+Since the eight earliest Long Count dates appear outside the Maya homeland,&lt;ref&gt;{{cite book|title=The Olmecs: America's First Civilization|last=Diehl|first=Richard|publisher=Thames &amp; Hudson|year=2004|isbn=0-500-02119-8|location=London|page=[https://archive.org/details/olmecsamericasfi0000dieh/page/186 186]|oclc=56746987|authorlink=Richard Diehl|url=https://archive.org/details/olmecsamericasfi0000dieh/page/186}}&lt;/ref&gt; it is assumed that the use of zero and the Long Count calendar predated the Maya, and was possibly the invention of the [[Olmec]]. Indeed, many of the earliest Long Count dates were found within the Olmec heartland. However, the Olmec civilization had come to an end by the 4th century BC, several centuries before the earliest known Long Count dates—which suggests that zero was ''not'' an Olmec discovery.
+
+==Unicode==
+{{Main|Mayan Numerals (Unicode block)}}
+Mayan numerals were added to the [[Unicode]] Standard in June, 2018 with the release of version 11.0.
+
+The Unicode block for Mayan Numerals is U+1D2E0–U+1D2FF:
+
+{{Unicode chart Mayan Numerals}}
+
+==References==
+{{reflist}}
+
+==Further reading==
+{{refbegin|indent=yes}}&lt;!-- BEGIN biblio style.  If indent param. is used, Pls use a colon (:) instead of asterisk (*) for bullet markers in the references list --&gt;
+* {{cite book |last=Coe |first=Michael D. |authorlink=Michael D. Coe |year=1987 |title=The Maya |publisher=Thames &amp; Hudson |location=London; New York |edition=4th edition (revised) |isbn=0-500-27455-X |oclc=15895415}}
+* {{cite journal |last=Díaz Díaz |first=Ruy |date=December 2006 |title=Apuntes sobre la aritmética Maya |url=http://www.scielo.org.ve/scielo.php?script=sci_arttext&amp;pid=S1316-49102006000400007&amp;lng=en&amp;nrm=iso&amp;tlng=es |format=online reproduction |journal=Educere |volume=10 |issue=35 |pages=621–627 |location=Táchira, Venezuela |publisher=[[University of the Andes, Venezuela|Universidad de los Andes]] |issn=1316-4910 |oclc=66480251|language=es}}
+*{{cite book |last=Thompson |first=J. Eric S. |authorlink=J. Eric S. Thompson |year=1971 |title=Maya Hieroglyphic ting; An Introduction |series=Civilization of the American Indian Series, No. 56 |edition=3rd |location=Norman |publisher=University of Oklahoma Press |isbn=0-8061-0447-3 |oclc=275252}}
+
+{{refend}}&lt;!-- END biblio style --&gt;
+
+==External links==
+{{Commons category|Maya numerals}}
+*[https://lovasoa.github.io/maya_numerals_converter/ Maya numerals converter] - online converter from decimal numeration to Maya numeral notation.
+*[http://www.archimedes-lab.org/numeral2.html Anthropomorphic Maya numbers] - online story of number representations.
+*[http://www.babelstone.co.uk/Fonts/Mayan.html BabelStone Mayan Numerals] - free font for Unicode Mayan numeral characters.
+
+{{DEFAULTSORT:Maya Numerals}}
+[[Category:Maya science and technology|Numerals]]
+[[Category:Numerals]]
+[[Category:Numeral systems]]
+[[Category:Maya script]]</text>
+      <sha1>h1fa1jqp03cx2somuceut08dnenkcwc</sha1>
+    </revision>
+  </page>
+</mediawiki>

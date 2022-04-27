@@ -1,0 +1,109 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.10/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.10/ http://www.mediawiki.org/xml/export-0.10.xsd" version="0.10" xml:lang="en">
+  <siteinfo>
+    <sitename>Wikipedia</sitename>
+    <dbname>enwiki</dbname>
+    <base>https://en.wikipedia.org/wiki/Main_Page</base>
+    <generator>MediaWiki 1.35.0-wmf.36</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Media</namespace>
+      <namespace key="-1" case="first-letter">Special</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Talk</namespace>
+      <namespace key="2" case="first-letter">User</namespace>
+      <namespace key="3" case="first-letter">User talk</namespace>
+      <namespace key="4" case="first-letter">Wikipedia</namespace>
+      <namespace key="5" case="first-letter">Wikipedia talk</namespace>
+      <namespace key="6" case="first-letter">File</namespace>
+      <namespace key="7" case="first-letter">File talk</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki talk</namespace>
+      <namespace key="10" case="first-letter">Template</namespace>
+      <namespace key="11" case="first-letter">Template talk</namespace>
+      <namespace key="12" case="first-letter">Help</namespace>
+      <namespace key="13" case="first-letter">Help talk</namespace>
+      <namespace key="14" case="first-letter">Category</namespace>
+      <namespace key="15" case="first-letter">Category talk</namespace>
+      <namespace key="100" case="first-letter">Portal</namespace>
+      <namespace key="101" case="first-letter">Portal talk</namespace>
+      <namespace key="108" case="first-letter">Book</namespace>
+      <namespace key="109" case="first-letter">Book talk</namespace>
+      <namespace key="118" case="first-letter">Draft</namespace>
+      <namespace key="119" case="first-letter">Draft talk</namespace>
+      <namespace key="446" case="first-letter">Education Program</namespace>
+      <namespace key="447" case="first-letter">Education Program talk</namespace>
+      <namespace key="710" case="first-letter">TimedText</namespace>
+      <namespace key="711" case="first-letter">TimedText talk</namespace>
+      <namespace key="828" case="first-letter">Module</namespace>
+      <namespace key="829" case="first-letter">Module talk</namespace>
+      <namespace key="2300" case="first-letter">Gadget</namespace>
+      <namespace key="2301" case="first-letter">Gadget talk</namespace>
+      <namespace key="2302" case="case-sensitive">Gadget definition</namespace>
+      <namespace key="2303" case="case-sensitive">Gadget definition talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Epigenome</title>
+    <ns>0</ns>
+    <id>1506087</id>
+    <revision>
+      <id>961491565</id>
+      <parentid>951295724</parentid>
+      <timestamp>2020-06-08T19:51:01Z</timestamp>
+      <contributor>
+        <ip>47.151.149.200</ip>
+      </contributor>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="9496" xml:space="preserve">An '''epigenome''' consists of a record of the chemical changes to the [[DNA]] and [[histone]] proteins of an organism; these changes can be passed down to an organism's offspring via [[transgenerational stranded epigenetic inheritance]]. Changes to the epigenome can result in changes to the structure of [[chromatin]] and changes to the function of the [[genome]].&lt;ref name="Bernstein (2007)"&gt;
+{{cite journal|last= Bernstein|first= Bradley E.|author2= Meissner, Alexander |author3= Lander,Eric S. |title= The Mammalian Epigenome|journal= [[Cell (journal)|Cell]]| date= February 2007 |volume= 128|issue= 4|pages= 669–681|doi= 10.1016/j.cell.2007.01.033|pmid= 17320505}}
+&lt;/ref&gt;
+[[File:Epigenome.png|thumb|Epigenome]]
+
+The epigenome is involved in regulating gene expression, development, tissue differentiation, and suppression of [[transposable elements]]. Unlike the underlying genome, which remains largely static within an individual, the epigenome can be dynamically altered by environmental conditions.
+
+== Cancer ==
+[[Epigenetics]] is a currently active topic in [[cancer]] research. Human [[tumor]]s undergo a major disruption of [[DNA methylation]] and [[histone]] modification patterns. The aberrant epigenetic landscape of the cancer cell is characterized by a global genomic hypomethylation, [[CpG island]] promoter hypermethylation of tumor suppressor [[genes]], an altered [[histone]] code for critical genes and a global loss of monoacetylated and trimethylated histone H4.
+
+== Epigenome research projects ==
+As a prelude to a potential ''Human Epigenome Project'', the ''Human Epigenome Pilot Project'' aims to identify and catalogue Methylation Variable Positions (MVPs) in the human [[genome]].&lt;ref&gt;{{Cite web |url=http://www.epigenome.org/index.php |title=Human Epigenome Project |access-date=2011-06-29 |archive-url=https://web.archive.org/web/20110716055735/http://www.epigenome.org/index.php |archive-date=2011-07-16 |url-status=dead }}&lt;/ref&gt; Advances in sequencing technology now allow for assaying genome-wide epigenomic states by multiple molecular methodologies.&lt;ref name="Milosavljevic(2011)"&gt;{{cite journal|last=Milosavljevic|first=Aleksandar|title=Emerging patterns of epigenomic variation|journal=Trends in Genetics|date=June 2011|volume=27|issue=6|pages=242–250|doi=10.1016/j.tig.2011.03.001|pmid=21507501|pmc=3104125}}&lt;/ref&gt;  Micro- and nanoscale devices have been constructed or proposed to investigate the epigenome.&lt;ref name="Aquilar(2013)"&gt;{{cite journal|last=Aguilar|first=Carlos|author2=Craighead, Harold|title=Micro- and nanoscale devices for the investigation of epigenetics and chromatin dynamics|journal=Nature Nanotechnology|date=October 4, 2013|volume=8|pages=709–718|issue=10|doi=10.1038/nnano.2013.195|pmid=24091454|pmc=4072028|bibcode=2013NatNa...8..709A}}&lt;/ref&gt;
+
+An international effort to assay reference epigenomes commenced in 2010 in the form of the [[International Human Epigenome Consortium]] (IHEC).&lt;ref&gt;{{cite journal |title = Time for the epigenome | volume=463 |issue = 7281 | doi=10.1038/463587a | journal=Nature | pages=587 | pmid=20130607 | date=Feb 2010| bibcode=2010Natur.463Q.587. | doi-access=free }}&lt;/ref&gt;&lt;ref&gt;{{cite journal | year = 2010 | title = Project set to map marks on genome | url = | journal = Nature | volume = 463 | issue = 7281| pages = 596–597 | doi = 10.1038/463596b | pmid=20162836 | last1 = Abbott | first1 = A| doi-access = free }}&lt;/ref&gt;&lt;ref&gt;{{cite journal | pmc = 3630389 | pmid=23613677 | doi=10.5808/GI.2013.11.1.7 | volume=11 | issue=1 | title=Perspectives of international human epigenome consortium | journal=Genomics Inform | pages=7–14 | last1 = Bae | first1 = JB| year=2013 }}&lt;/ref&gt;&lt;ref&gt;[http://www.bionews.org.uk/page_54303.asp "BioNews - Human Epigenome project launched"].&lt;/ref&gt; IHEC members aim to generate at least 1,000 reference (baseline) human epigenomes from different types of normal and disease-related human [[cell types]].&lt;ref&gt;[http://www.european-biotechnology-news.com/news/messages-archive/archive/article/france-human-epigenome-consortium-takes-first-steps.html "France: Human epigenome consortium takes first steps"] {{Webarchive|url=https://web.archive.org/web/20150708164235/http://www.european-biotechnology-news.com/news/messages-archive/archive/article/france-human-epigenome-consortium-takes-first-steps.html |date=2015-07-08 }}. 5 March 2010.&lt;/ref&gt;&lt;ref name=About&gt;Eurice GmbH. [http://ihec-epigenomes.org/about/ "About IHEC"].&lt;/ref&gt;&lt;ref&gt;{{Cite journal |doi = 10.3389/fgene.2014.00024|pmid = 24592273|pmc = 3924033|title = Multilayer-omics analyses of human cancers: Exploration of biomarkers and drug targets based on the activities of the International Human Epigenome Consortium|journal = Frontiers in Genetics|volume = 5|pages = 24|year = 2014|last1 = Kanai|first1 = Yae|last2 = Arai|first2 = Eri}}&lt;/ref&gt;
+
+==Roadmap epigenomics project==
+One goal of the [http://www.roadmapepigenomics.org/ NIH Roadmap Epigenomics Project] is to generate human reference epigenomes from normal, healthy individuals across a large variety of cell lines, primary cells and primary tissues. Data produced by the project, which can be browsed and downloaded from the [http://www.genboree.org/epigenomeatlas/index.rhtml Human Epigenome Atlas], fall into five types that assay different aspects of the epigenome and outcomes of epigenomic states (such as gene expression):
+
+# '''[[Histone|Histone Modifications]]''' – Chromatin Immunoprecipitation Sequencing ([[ChIP-sequencing|ChIP-Seq]]) identifies genome wide patterns of histone modifications using antibodies against the modifications.&lt;ref name="Jiang"&gt;{{cite journal |author= Zhu, J.  |title=Genome-wide chromatin state transitions associated with developmental and environmental cues |journal=Cell |volume=152|issue= 3|pages=642–654 |year=2013 |pmid=23333102 |doi=10.1016/j.cell.2012.12.033|display-authors=etal |pmc=3563935}}&lt;/ref&gt;
+# '''[[DNA methylation|DNA Methylation]]''' – Whole Genome [[Bisulfite sequencing|Bisulfite-Seq]], Reduced Representation Bisulfite-Seq (RRBS), Methylated DNA Immunoprecipitation Sequencing ([[Methylated DNA immunoprecipitation|MeDIP-Seq]]), and Methylation-sensitive Restriction Enzyme Sequencing (MRE-Seq) identify DNA methylation across portions of the genome at varying levels of resolution down to basepair level.&lt;ref name="Harris(2010)"&gt;{{cite journal|last1=Harris|first1=R Alan|last2=Wang|first2=Ting|last3=Coarfa|first3=Cristian|last4=Nagarajan|first4=Raman P|last5=Hong|first5=Chibo|last6=Downey|first6=Sara L|last7=Johnson|first7=Brett E|last8=Fouse|first8=Shaun D|last9=Delaney|first9=Allen|last10=Zhao|first10=Yongjun|last11=Olshen|first11=Adam|last12=Ballinger|first12=Tracy|last13=Zhou|first13=Xin|last14=Forsberg|first14=Kevin J|last15=Gu|first15=Junchen|last16=Echipare|first16=Lorigail|last17=O'Geen|first17=Henriette|last18=Lister|first18=Ryan|last19=Pelizzola|first19=Mattia|last20=Xi|first20=Yuanxin|last21=Epstein|first21=Charles B|last22=Bernstein|first22=Bradley E|last23=Hawkins|first23=R David|last24=Ren|first24=Bing|last25=Chung|first25=Wen-Yu|last26=Gu|first26=Hongcang|last27=Bock|first27=Christoph|last28=Gnirke|first28=Andreas|last29=Zhang|first29=Michael Q|last30=Haussler|first30=David|last31=Ecker|first31=Joseph R|last32=Li|first32=Wei|last33=Farnham|first33=Peggy J|last34=Waterland|first34=Robert A|last35=Meissner|first35=Alexander|last36=Marra|first36=Marco A|last37=Hirst|first37=Martin|last38=Milosavljevic|first38=Aleksandar|last39=Costello|first39=Joseph F|title=Comparison of sequencing-based methods to profile DNA methylation and identification of monoallelic epigenetic modifications|journal=Nature Biotechnology|date=September 19, 2010|volume=28|pages=1097–1105|issue=10|doi=10.1038/nbt.1682|display-authors=6|pmid=20852635|pmc=2955169}}&lt;/ref&gt;
+# '''[[Chromatin|Chromatin Accessibility]]''' –  [[DNase I hypersensitive site]]s Sequencing ([[DNase-Seq]]) uses the DNase I enzyme to find open or accessible regions in the genome.  
+# '''[[Gene expression|Gene Expression]]''' – [[RNA-Seq]] and [[DNA microarray|expression arrays]] identify expression levels or protein coding genes.
+# '''Small RNA Expression''' – [[MicroRNA Sequencing|smRNA-Seq]] identifies expression of small noncoding RNA, primarily [[MicroRNA|miRNA]]s.
+
+Reference epigenomes for healthy individuals will enable the second goal of the Roadmap Epigenomics Project, which is to examine epigenomic differences that occur in disease states such as [[Alzheimer's disease]].
+
+== See also ==
+* [[Epigenetics]]
+* [[Epigenome editing]]
+* [[Human epigenome]]
+* [[NCBI Epigenomics]]
+
+==References==
+{{Reflist}}
+
+==External links==
+* [http://roadmapepigenomics.org Reference Epigenome Mapping Consortium Homepage]
+* [https://web.archive.org/web/20120502171722/http://www.ncbi.nlm.nih.gov/epigenomics/ NCBI Epigenomics Hub]
+* [http://ncbi.nlm.nih.gov/geo/roadmap/epigenomics NCBI Gene Expression Omnibus Epigenomics]
+* [http://epigenomeatlas.org The Human Epigenome Atlas]
+* [http://vizhub.wustl.edu Roadmap Epigenomics Visualization Hub]
+* [http://genome.ucsc.edu Roadmap Epigenomics Visualization Hub (load track hub)]
+* [http://epigenomegateway.wustl.edu  Human Epigenome Browser at Washington University]
+* [http://www.epigenomebrowser.org Epigenome Browser UCSC mirror]
+* [https://web.archive.org/web/20110716055735/http://www.epigenome.org/index.php Human Epigenome Project]
+* [http://cancerres.aacrjournals.org/content/65/24/11241 Cancer Research]
+
+[[Category:Epigenetics]]</text>
+      <sha1>9wgqyibl9n2v4uijtuydl26l6yveiss</sha1>
+    </revision>
+  </page>
+</mediawiki>
