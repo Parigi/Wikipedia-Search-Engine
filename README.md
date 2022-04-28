@@ -1,8 +1,8 @@
 # WIKIPEDIA-SEARCH-ENGINE
 
 Wikipedia-Search-Engine is a project created for the course Information Management, University of Modena (year 2019/2020), taught by the professor Federica Mandreoli.
-The aim is to return Wikipedia pages relevant to a submitted query, with 
-the results ordered with respect to relevance.
+
+The aim is to **return Wikipedia pages relevant to a submitted query**, with the results ordered with respect to relevance.
 
 ----------------------------------------------------------------------------------------
 
@@ -17,13 +17,6 @@ Makes use of the libraries:
 	tkinter
 	nltk
 
-python -m pip install nltk
-python -m pip install whoosh
-
-The use of nltk may require the following data to be downloaded:
-	nltk.download('wordnet')
-	nltk.download('stopwords')
-	nltk.download('punkt')	
 
 Create a project containing:
 	- the 3 code files --> Python.py , Indexer.py , Searcher.py
@@ -37,8 +30,10 @@ Create a project containing:
 Start Parser.py to see how the XML files are parsed and how the text is processed.
 
 Start Indexer.py to create the index from the dump (via Parser.py).
+Disclaimer: requires around one hour.
 
 Run Searcher.py to enter queries through a graphical interface, searching the index. 
+You can just try to run this script and see how our index works.
 
 
 ----------------------------------------------------------------------------------------
@@ -59,9 +54,14 @@ It makes use of the NLTK library to obtain lexemes and eliminate unnecessary wor
 It makes use of a graphical interface that displays the URLs of the ten most relevant results for the
 query submitted. Clicking on the URLs redirects you to the relevant Wikipedia page.
 
+![Searcher](https://user-images.githubusercontent.com/54531753/165717760-2896d342-ee9a-438d-9da4-7a844ca8e1e6.png)
+
+
 ----------------------------------------------------------------------------------------
+
 
 ## AUTHORS
 
 Bordini Luca
+
 Parigi Luca
