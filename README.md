@@ -54,7 +54,6 @@ It makes use of the NLTK library to obtain lexemes and eliminate unnecessary wor
 It makes use of a graphical interface that displays the URLs of the ten most relevant results for the
 query submitted. Clicking on the URLs redirects you to the relevant Wikipedia page.
 
-Interface:
 ![Searcher](https://user-images.githubusercontent.com/54531753/165717760-2896d342-ee9a-438d-9da4-7a844ca8e1e6.png)
 
 
